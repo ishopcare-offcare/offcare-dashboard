@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2530,
- "updatedAt": "2026-09-27 13:59",
+ "version": 2531,
+ "updatedAt": "2026-09-27 14:05",
  "days": 30,
  "items": [
   {
@@ -50223,31 +50223,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787894482807499"
-  },
-  {
-   "ts": "1787893393.775869",
-   "date": "2026-08-28",
-   "time": "14:03",
-   "store": "넉넉",
-   "biz": "4721102965",
-   "pos": "오케이포스",
-   "content": "오케이포스 메뉴 수정 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "오케이포스 키오스크 이용 매장",
-    "삼계탕 카테고리의\n런치2종삭제\n\n비빔밥 카테고리의\n런치2종삭제\n\n(포스/키오스크 모두 삭제 필요)",
-    "메뉴가격 수정 추가2건\n\n불고기비빔밥(고기2배)\n14900\n\n오당비빔밥(오징어2배)\n14900"
-   ],
-   "rc": 10,
-   "lr": "1788142452.798089",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787893393775869"
   }
  ],
  "ocr": {
