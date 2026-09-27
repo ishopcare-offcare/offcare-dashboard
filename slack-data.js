@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13526,
+  "version": 13527,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212252,7 +212252,7 @@ window.SLACK_DATA = {
           "req": "영수증 프린터 전원을 껐다 켠 이후로 빌지 출력이 안된다 하셔서 확인 부탁드립니다. (반응이 아예 없다고 하십니다. ):감사합니다꾸벅:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "• ts400W 불량으로 교체 안내 및 입출고 접수 완료입니다 ts400W 불량으로 교체 안내 및 입출고 접수 완료입니다"
         },
         {
           "time": "15:44",
@@ -212625,14 +212625,14 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790498592.031,
+        "lastSeen": 1790498679.136,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790498592.031,
+        "lastSeen": 1790498679.136,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
@@ -280054,7 +280054,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 17:43",
+    "at": "2026-09-27 17:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
