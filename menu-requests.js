@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2527,
- "updatedAt": "2026-09-27 12:45",
+ "version": 2528,
+ "updatedAt": "2026-09-27 13:00",
  "days": 30,
  "items": [
   {
@@ -51158,27 +51158,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787890507677099"
-  },
-  {
-   "ts": "1787889573.634629",
-   "date": "2026-08-28",
-   "time": "12:59",
-   "store": "더멀리",
-   "biz": "3976300914",
-   "pos": "토스포스",
-   "content": "한국 정치의 결정적 순간들(서가명강 시리즈 8)\t18,000\n글쓰기의 최전선(개정판)\t\t16,000\n소명으로서의 정치(개정판)(정치+철학 3)\t\t15,000\n쓰기의 말들\t\t14,000\n조지오웰의 정치적인 글쓰기(양장본 Hardcover)\t32,000\n의외로 사람들이 잘 모르는 정치\t15,800\n대통령의 글쓰기(10주년 기념 스페셜 에디션)\t19,800\n몰락의 시간\t\t17,000\n코끼리는 생각하지 마\t\t16,800\n생업\t\t18,500\n이솝에게 배우는 민주주의\t\t12,000\n어떻게 민주주의는 무너지는가\t\t20,000\n있지만 없는 아이들: 미등록 이주아동 이야기\t18,000\n\n책 추가 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1787889576.535789",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787889573634629"
   }
  ],
  "ocr": {
