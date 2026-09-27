@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13572,
+  "version": 13573,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 11,
+          "송태양": 12,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:52",
+          "store": "푸다훠궈",
+          "biz": "5521503142",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "APEXA1500 포스기 블루스크린 증상 교체",
+          "hw": "",
+          "intake": "online",
+          "note": "교체완료"
+        },
         {
           "time": "20:34",
           "store": "포뇨솜",
@@ -212476,7 +212487,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 7,
         "unknown": 0
       },
@@ -212723,14 +212734,14 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790510440.519,
+        "lastSeen": 1790510542.674,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790510440.519,
+        "lastSeen": 1790510542.674,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
@@ -280179,7 +280190,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 21:00",
+    "at": "2026-09-27 21:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
