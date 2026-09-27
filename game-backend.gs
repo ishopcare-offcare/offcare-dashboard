@@ -203,6 +203,9 @@ function doGet(e) {
 }
 
 function doPost(e) {
+  // 슬랙 이벤트는 락보다 먼저 — 슬랙은 3초 안에 응답이 없으면 같은 이벤트를 재전송한다.
+  var slackRes = handleSlackEvent_(e);
+  if (slackRes) { return slackRes; }
   var lock = LockService.getScriptLock();
   try {
     lock.waitLock(15000);
@@ -360,16 +363,25 @@ function channelSignature_(chId, token) {
   return Utilities.base64Encode(Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, parts.join(','), Utilities.Charset.UTF_8));
 }
 
-function watchSlackAndDispatch() {
-  var props = PropertiesService.getScriptProperties();
+function inWatchHours_() {
   var hour = parseInt(Utilities.formatDate(new Date(), 'Asia/Seoul', 'H'), 10);
-  var active = (WATCH_HOURS.from < WATCH_HOURS.to)
+  return (WATCH_HOURS.from < WATCH_HOURS.to)
     ? (hour >= WATCH_HOURS.from && hour < WATCH_HOURS.to)
     : (hour >= WATCH_HOURS.from || hour < WATCH_HOURS.to);   // 자정을 넘는 창
-  if (!active) { return; }   // 업무시간 밖
+}
+
+// 1분 트리거 — 슬랙 이벤트(handleSlackEvent_)가 놓친 변경만 잡는 안전망.
+// 이벤트가 살아 있으면 변경 순간에 이미 dispatch 했으므로, 지난 확인 이후 그 채널 이벤트가
+// 한 번이라도 들어왔으면 건너뛴다. 이벤트 없이 지문만 바뀐 경우 = 이벤트 유실 → 여기서 실행.
+function watchSlackAndDispatch() {
+  var props = PropertiesService.getScriptProperties();
+  if (!inWatchHours_()) { return; }   // 업무시간 밖
 
   var token = prop_('SLACK_BOT_TOKEN');
   if (!token) { console.log('SLACK_BOT_TOKEN 스크립트 속성이 없습니다.'); return; }
+
+  var lastCheck = parseInt(props.getProperty('WATCH_LAST_CHECK') || '0', 10);
+  props.setProperty('WATCH_LAST_CHECK', String(Date.now()));
 
   var changed = [];
   for (var i = 0; i < WATCH_CHANNELS.length; i++) {
@@ -380,20 +392,75 @@ function watchSlackAndDispatch() {
       var prev = props.getProperty(key);
       props.setProperty(key, sig);
       if (prev === null) { continue; }            // 최초 실행 — 기준값만 잡고 넘어감
-      if (prev !== sig) { changed.push(ch.name); }
+      if (prev === sig) { continue; }
+      var lastEv = parseInt(props.getProperty('SLACK_EVENT_AT_' + ch.id) || '0', 10);
+      if (lastEv >= lastCheck) { continue; }      // 이벤트로 이미 처리됨
+      changed.push(ch.name);
     } catch (e) {
       console.log('채널 확인 실패(' + ch.name + '): ' + e);   // 한 채널이 죽어도 나머지는 계속
     }
   }
   if (!changed.length) { return; }
-
-  // 실행이 겹쳐 몰리는 것 방지. 워크플로 쪽 concurrency 로도 직렬화되지만 여기서 한 번 더 거른다.
-  var last = parseInt(props.getProperty('WATCH_LAST_DISPATCH') || '0', 10);
-  if (Date.now() - last < 55000) { console.log('직전 실행과 너무 가까움 — 건너뜀'); return; }
-
+  // 간격 제한은 두지 않는다. 워크플로 concurrency 가 '실행 중 1 + 대기 1' 로 접어 주고,
+  // 대기 실행은 최신 main·최신 슬랙으로 돌기 때문에 몰려도 누락 없이 한 번 더 돌 뿐이다.
+  // (예전 55초 제한은 그 사이 변경을 지문만 갱신하고 버려 누락을 만들었다)
   if (dispatchGithub_(changed)) {
     props.setProperty('WATCH_LAST_DISPATCH', String(Date.now()));
   }
+}
+
+/* =========================================================================
+ * 슬랙 이벤트 즉시 수신 (Slack Events API → 이 웹앱 doPost)
+ *
+ * 1분 폴링 대신 슬랙이 글·댓글·수정·이모지 추가/삭제를 바로 밀어 준다 → 감지 0~60초 → ~1초.
+ * 필요한 스크립트 속성: SLACK_VERIFY_TOKEN (슬랙 앱 Basic Information → Verification Token)
+ *   웹앱은 요청 헤더를 못 읽어 서명(X-Slack-Signature) 검증이 불가하므로 본문 token 으로 확인한다.
+ * 슬랙 앱 설정: Event Subscriptions → Request URL = 이 웹앱 /exec 주소
+ *   Bot events: message.channels, reaction_added, reaction_removed  (scope: reactions:read 추가)
+ * 재전송: 3초 넘기면 슬랙이 같은 event_id 로 다시 보낸다 → 캐시로 한 번만 처리.
+ * ========================================================================= */
+
+// 집계 워크플로가 읽는 채널 전부(scripts/fetch-and-tally.js CHANNELS). 1분 폴링은 비용 때문에
+// 두 채널만 보지만 이벤트는 공짜라 나머지 채널 변경도 즉시 반영한다.
+var EVENT_CHANNELS = {
+  'C09HRUSG4TX': 'AS요청', 'C07CL4BV9QT': '명의변경', 'C08740SFT1S': '메뉴요청',
+  'C0ASD02FFML': '배달요청', 'C07B5E78J23': 'VOC'
+};
+
+// 슬랙 요청이면 응답(TextOutput)을, 아니면 null 을 돌려준다(→ 기존 doPost 로직 진행).
+function handleSlackEvent_(e) {
+  var body;
+  try { body = JSON.parse((e && e.postData && e.postData.contents) || '{}'); } catch (x) { return null; }
+  if (body.type !== 'url_verification' && body.type !== 'event_callback') { return null; }
+
+  var ok = function () { return ContentService.createTextOutput('ok'); };
+  var verify = prop_('SLACK_VERIFY_TOKEN');
+  if (!verify || body.token !== verify) { console.log('슬랙 이벤트 토큰 불일치 — 무시'); return ok(); }
+  if (body.type === 'url_verification') { return ContentService.createTextOutput(String(body.challenge || '')); }
+
+  var cache = CacheService.getScriptCache();
+  if (body.event_id) {
+    if (cache.get('sev_' + body.event_id)) { return ok(); }   // 재전송분
+    cache.put('sev_' + body.event_id, '1', 600);
+  }
+
+  var ev = body.event || {};
+  var ch = ev.channel || (ev.item && ev.item.channel) || '';
+  if (!EVENT_CHANNELS[ch] || !inWatchHours_()) { return ok(); }
+
+  // '처리됨' 표시 — 1분 안전망(watchSlackAndDispatch)이 이 변경을 다시 돌리지 않게.
+  // dispatch 가 실패하면 표시하지 않아 안전망이 다음 1분에 다시 시도한다.
+  var markHandled = function () {
+    PropertiesService.getScriptProperties().setProperty('SLACK_EVENT_AT_' + ch, String(Date.now()));
+  };
+  // 같은 순간 이모지 여러 개처럼 몰려 오는 이벤트는 5초 안에 한 번만 dispatch.
+  // 워크플로가 슬랙을 읽는 건 러너 기동 후(10초 이상 뒤)라 5초 안의 변경은 그 실행에 다 담긴다.
+  if (cache.get('sev_burst')) { markHandled(); return ok(); }
+  if (dispatchGithub_([EVENT_CHANNELS[ch] + ':' + (ev.type || '')])) {
+    cache.put('sev_burst', '1', 5);
+    markHandled();
+  }
+  return ok();
 }
 
 function dispatchGithub_(reasons) {

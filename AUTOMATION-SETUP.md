@@ -151,6 +151,28 @@ GitHub 예약(schedule)은 부하 시 드롭돼서 불안정합니다. 외부 �
 
 ---
 
+## ⑥ 실시간 — 슬랙 이벤트를 바로 받기 (Slack Events API)
+
+⑤의 1분 폴링 대신 슬랙이 글·댓글·수정·**이모지 추가/삭제**를 웹앱으로 바로 보내 줍니다.
+감지가 0~60초 → 약 1초로 줄고, ⑤는 이벤트가 유실됐을 때만 도는 안전망이 됩니다.
+
+```
+슬랙 변경 → Events API → 웹앱 doPost(handleSlackEvent_) → repository_dispatch → 워크플로
+```
+
+1. **Apps Script**: `game-backend.gs` 반영 후 **배포 → 배포 관리 → 연필 → 새 버전 → 배포** (URL 유지. "새 배포" 금지)
+2. **스크립트 속성** `SLACK_VERIFY_TOKEN` = 슬랙 앱 **Basic Information → App Credentials → Verification Token**
+   (웹앱은 요청 헤더를 못 읽어 서명 검증 대신 본문 token 으로 확인합니다)
+3. **슬랙 앱 → OAuth & Permissions → Bot Token Scopes** 에 `reactions:read` 추가 → 상단 배너로 **재설치**
+4. **슬랙 앱 → Event Subscriptions** → Enable → Request URL 에 웹앱 `/exec` 주소 → **Verified** 확인
+   → **Subscribe to bot events**: `message.channels`, `reaction_added`, `reaction_removed` → Save
+5. 확인: 최근 글에 이모지 → 1~2초 안에 Actions 에 `repository_dispatch` 실행
+
+> 이벤트는 봇이 들어가 있는 채널에서만 옵니다. 집계 채널 목록은 `EVENT_CHANNELS` (fetch-and-tally.js CHANNELS 와 맞출 것).
+> 슬랙은 3초 안에 응답이 없으면 같은 이벤트를 재전송합니다 — event_id 캐시로 한 번만 처리합니다.
+
+---
+
 ## 이모지 규칙(집계 기준)
 - 담당자: `원격규빈`=김규빈, `원격선유`=배선유, `원격성현`=심성현, `원격동욱`=김동욱, `원격현기`=김현기, `원격태양`=송태양, `원격기범`=김기범, `원격상원`=서상원, `원격민석`=최민석
 - 카테고리: `원격as`=AS, `원격온보딩`=온보딩
