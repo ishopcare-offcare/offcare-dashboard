@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13472,
+  "version": 13473,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,11 +212231,23 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
+          "송태양": 1,
           "심성현": 6
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:29",
+          "store": "금화춘",
+          "biz": "1248589026",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790482028281379|https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX",
+          "hw": "",
+          "intake": "offline",
+          "note": "• 랜케이블이 아닌 서명패드 케이블 꽂으심 • 다이소 가셔서 랜케이블 구매 후 재인입 해주시면 도움드리겠음 안내 랜케이블이 아닌 서명패드 케이블 꽂으심 다이소 가셔서 랜케이블 구매 후 재인입 해주시면 도움드리겠음 안내"
+        },
         {
           "time": "13:07",
           "store": "금화춘",
@@ -212305,7 +212317,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 2,
-        "offline": 4,
+        "offline": 5,
         "unknown": 0
       },
       "updatedAt": "13:29",
@@ -212388,24 +212400,17 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790483636.533,
+        "lastSeen": 1790484327.907,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790482811.447289": {
         "post": "1790482811.447289",
-        "lastSeen": 1790483636.533,
+        "lastSeen": 1790484327.907,
         "r": 1,
         "day": "2026-09-27",
         "idx": 5
-      },
-      "1790483395.566639": {
-        "post": "1790483395.566639",
-        "lastSeen": 1790483636.533,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 6
       }
     },
     "days": {
@@ -279771,14 +279776,15 @@ window.SLACK_DATA = {
             "store": "금화춘",
             "biz": "1248589026",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 9.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 13:34",
+    "at": "2026-09-27 13:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
