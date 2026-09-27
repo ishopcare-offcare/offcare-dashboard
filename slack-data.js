@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13450,
+  "version": 13451,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212348,7 +212348,10 @@ window.SLACK_DATA = {
       },
       "1790474197.729539": {
         "post": "1790474197.729539",
-        "lastSeen": 1790474239.441
+        "lastSeen": 1790474438.193,
+        "r": 1,
+        "day": "2026-09-27",
+        "idx": 1
       }
     },
     "days": {
@@ -279652,8 +279655,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-27": {
-        "cnt": 1,
-        "sumMin": 6.7896945158640545,
+        "cnt": 2,
+        "sumMin": 9.141152199109396,
         "over": 0,
         "items": [
           {
@@ -279664,13 +279667,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 23
+          },
+          {
+            "hm": "10:56",
+            "min": 2.4,
+            "store": "금화춘",
+            "biz": "1248589026",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 10:57",
+    "at": "2026-09-27 11:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
