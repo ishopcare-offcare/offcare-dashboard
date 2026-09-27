@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13485,
+  "version": 13486,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,8 +212231,8 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "심성현": 8,
-          "송태양": 1
+          "송태양": 2,
+          "심성현": 8
         },
         "onboarding": {
           "송태양": 1
@@ -212240,6 +212240,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:02",
+          "store": "홈스테드456(Homestead456)",
+          "biz": "8070503397",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "프린터 어댑터가 고장난것 같다 하셔서 점검 부탁드립니다. :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "/ • 어댑터&lt;&gt;파워선 방전작업 및 재결합 후 정상부팅 • 추후 동일 증상시 교체 안내 어댑터<파워선 방전작업 및 재결합 후 정상부팅 추후 동일 증상시 교체 안내"
+        },
         {
           "time": "14:29",
           "store": "아름다운날들",
@@ -212352,28 +212363,28 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:02",
+      "updatedAt": "15:09",
       "voc": {
-        "responses": 3,
+        "responses": 4,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 3,
+          "count": 4,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 2
+          "nps": 3
         },
         "npsDist": {
           "8": 1,
-          "10": 2
+          "10": 3
         },
         "installDist": {
           "3": 1
@@ -212382,6 +212393,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 2,
             "low": 0
@@ -212392,6 +212407,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "DAOU": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 2,
             "low": 0
@@ -212404,6 +212423,18 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": [
+          {
+            "time": "15:09",
+            "store": "더 키위 델리",
+            "storeId": "508321",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "토스 자체 쿠폰 발행 및 적립 시스템",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "10:22",
             "store": "싸르뜨르",
@@ -212436,7 +212467,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790488999.906,
+        "lastSeen": 1790489479.62,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -279823,7 +279854,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:03",
+    "at": "2026-09-27 15:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
