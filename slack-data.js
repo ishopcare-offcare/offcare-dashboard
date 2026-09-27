@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13496,
+  "version": 13497,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212230,6 +212230,9 @@ window.SLACK_DATA = {
     },
     "2026-09-27": {
       "counts": {
+        "booking": {
+          "송태양": 1
+        },
         "as": {
           "송태양": 2,
           "심성현": 8
@@ -212240,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:28",
+          "store": "레이어드뷰티",
+          "biz": "4044900370",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "포프(노트북) 사용 중, 포스 프로그램 실행 시 화면이 나오지 않는다고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "익일 오전 10시 예약 요청으로 예약 완료입니다"
+        },
         {
           "time": "15:02",
           "store": "홈스테드456(Homestead456)",
@@ -212363,7 +212377,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 5,
         "unknown": 0
       },
@@ -212519,21 +212533,17 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790490797.742,
+        "lastSeen": 1790490860.755,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
-      "1790490482.521369": {
-        "post": "1790490482.521369",
-        "lastSeen": 1790490797.742,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 8
-      },
       "1790490641.984409": {
         "post": "1790490641.984409",
-        "lastSeen": 1790490797.742
+        "lastSeen": 1790490860.755,
+        "r": 1,
+        "day": "2026-09-27",
+        "idx": 9
       }
     },
     "days": {
@@ -279837,8 +279847,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-27": {
-        "cnt": 9,
-        "sumMin": 45.346597659587864,
+        "cnt": 10,
+        "sumMin": 48.4676658431689,
         "over": 0,
         "items": [
           {
@@ -279918,6 +279928,15 @@ window.SLACK_DATA = {
             "store": "레이어드뷰티",
             "biz": "4044900370",
             "who": "송태양",
+            "cat": "booking",
+            "dmin": 5.8
+          },
+          {
+            "hm": "15:30",
+            "min": 3.1,
+            "store": "박경희 갤러리",
+            "biz": "1351346199",
+            "who": "송태양",
             "cat": "as"
           }
         ]
@@ -279925,7 +279944,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:33",
+    "at": "2026-09-27 15:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
