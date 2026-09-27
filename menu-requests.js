@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2522,
- "updatedAt": "2026-09-27 11:03",
+ "version": 2523,
+ "updatedAt": "2026-09-27 11:07",
  "days": 30,
  "items": [
   {
@@ -52189,88 +52189,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787883521710889"
-  },
-  {
-   "ts": "1787882628.560099",
-   "date": "2026-08-28",
-   "time": "11:03",
-   "store": "바이트앤레스트",
-   "biz": "5438503030",
-   "pos": "퍼스트포스",
-   "content": "도넛창은 전체삭제해주세요\n\n핫도그 \n칠리살사핫도그 7.000원\n딥치즈 핫도그 7,000원\n만들어주세요",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1-iCE9-XwyA6ESXvzZnanxaLNlcYHGbE_/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1DluaSMBgWMteqmPQUWC3FF7NUWdJDN3S/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BTA70EAHY",
-     "from": "댓글",
-     "path": "menu-files/1787882628_560099-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "DOUGHNUT",
-       "name": "서울 순우유",
-       "price": 3800
-      },
-      {
-       "category": "DOUGHNUT",
-       "name": "초코 폭탄",
-       "price": 3800
-      },
-      {
-       "category": "DOUGHNUT",
-       "name": "퓨어 베리",
-       "price": 3800
-      },
-      {
-       "category": "DOUGHNUT",
-       "name": "서울 글레이즈드",
-       "price": 3000
-      },
-      {
-       "category": "DOUGHNUT",
-       "name": "쿠키크림",
-       "price": 3500
-      },
-      {
-       "category": "DOUGHNUT",
-       "name": "버터픅(3pcs)",
-       "price": 7500
-      },
-      {
-       "category": "DOUGHNUT",
-       "name": "디저트",
-       "price": 4500
-      }
-     ]
-    }
-   ],
-   "datt": [
-    {
-     "id": "1-iCE9-XwyA6ESXvzZnanxaLNlcYHGbE_",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1DluaSMBgWMteqmPQUWC3FF7NUWdJDN3S",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "replies": [
-    "도넛 > 핫도그로 변경 완"
-   ],
-   "rc": 3,
-   "lr": "1787883287.999899",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787882628560099"
   }
  ],
  "ocr": {
