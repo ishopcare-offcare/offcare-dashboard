@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13503,
+  "version": 13504,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 3,
+          "송태양": 4,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:44",
+          "store": "콘크리트체리 커피",
+          "biz": "2614001482",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "프론트 유프 연결했는데 테스트 프린트 눌러도 반응이 없다 하셔서 확인 부탁드립니다. :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": "은평구 백련산로6 102동 503호"
+        },
         {
           "time": "15:30",
           "store": "박경희 갤러리",
@@ -212388,19 +212399,19 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "15:46",
+      "updatedAt": "15:54",
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 12,
+          "count": 13,
           "low": 3
         },
         "high": {
@@ -212411,7 +212422,7 @@ window.SLACK_DATA = {
           "3": 1,
           "5": 2,
           "7": 1,
-          "8": 2,
+          "8": 3,
           "10": 6
         },
         "installDist": {
@@ -212423,6 +212434,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 3,
+            "low": 0
+          },
           "12개월": {
             "total": 3,
             "low": 2
@@ -212438,13 +212453,13 @@ window.SLACK_DATA = {
           "구매설치": {
             "total": 2,
             "low": 0
-          },
-          "1개월": {
-            "total": 2,
-            "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 2,
+            "low": 0
+          },
           "KSNET": {
             "total": 2,
             "low": 1
@@ -212462,10 +212477,6 @@ window.SLACK_DATA = {
             "low": 1
           },
           "DAOU": {
-            "total": 1,
-            "low": 0
-          },
-          "KOCES": {
             "total": 1,
             "low": 0
           }
@@ -212599,7 +212610,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790491699.287,
+        "lastSeen": 1790492240.776,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -280004,7 +280015,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:48",
+    "at": "2026-09-27 15:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
