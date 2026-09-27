@@ -318,8 +318,9 @@ function saveMine(list){ localStorage.setItem(MY_KEY, JSON.stringify(list)); }
 function renderMine(){
   const live = new Set(S.bookings.map(b => b.id));
   // 지난 예약과 다른 곳에서 취소된 예약은 정리한다 (조회 범위 = 오늘부터라 지난 건은 목록에 없다)
-  const mine = myBookings().filter(b => b.date >= S.today && live.has(b.id));
-  saveMine(mine);
+  // 서버 목록을 못 받은 상태(offline)에서는 정리하지 않는다 — 빈 목록 기준으로 지우면 취소코드가 사라진다
+  const mine = S.offline ? myBookings() : myBookings().filter(b => b.date >= S.today && live.has(b.id));
+  if (!S.offline) saveMine(mine);
   mine.sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
   $('myList').innerHTML = mine.length ? `<table class="lst"><tbody>${mine.map(b => {
     const posted = kstMs(b.date, b.time) <= nowMs() + 60000;
@@ -347,8 +348,8 @@ function validate(){
   if (!f.ownerPhone) miss.push('대표자 전화번호');
   if (!f.requester) miss.push('요청자');
   $('biz').classList.toggle('bad', !!f.biz && f.biz.length !== 10);
-  $('submitBtn').disabled = S.busy || miss.length > 0;
-  $('submitBtn').textContent = S.busy ? '예약 중…' : miss.length ? `${miss[0]} 입력 필요` : '예약하기';
+  $('submitBtn').disabled = S.busy || S.offline || miss.length > 0;
+  $('submitBtn').textContent = S.busy ? '예약 중…' : S.offline ? '서버 연결 후 예약할 수 있어요' : miss.length ? `${miss[0]} 입력 필요` : '예약하기';
   return miss.length === 0;
 }
 /* 서버의 bookingText_ 와 같은 양식 — 미리보기용 */
@@ -386,22 +387,35 @@ function parsePaste(txt){
 }
 
 /* ---------- 네트워크 ---------- */
+/* 서버에 닿기 전·실패 시에도 시간표는 보여준다(예약만 막는다). 값은 game-backend.gs 의 BOOKING 과 맞출 것 —
+   서버가 응답하면 서버 값으로 덮어쓴다. */
+const FALLBACK_CFG = { days:14, open:'09:00', close:'18:00', step:15, closedDays:[], lunch:{ from:'12:00', to:'14:00' }, minLeadMin:2,
+  types:{ as:{ label:'원격AS', cap:4, lunchCap:2 }, transfer:{ label:'명의변경', cap:2, lunchCap:1 } } };
+function kstTodayLocal(){ const t = new Date(Date.now() + 9*3600000); return t.getUTCFullYear()+'-'+pad(t.getUTCMonth()+1)+'-'+pad(t.getUTCDate()); }
+function applyState(){
+  if (!S.cfg.types[S.type]) S.type = Object.keys(S.cfg.types)[0];
+  const ds = dates();
+  if (!ds.includes(S.date)) S.date = ds[0];
+  if (S.time && !bookable(S.date, S.time)) S.time = '';
+  renderAll();
+}
 async function load(quiet){
   try {
     const r = await fetch(API + '?action=bookings&t=' + Date.now());
     const d = await r.json();
     if (!d.ok) throw new Error(d.error || '응답 오류');
-    S.cfg = d.cfg; S.bookings = d.bookings; S.today = d.today; S.skew = d.now - Date.now();
-    if (!S.cfg.types[S.type]) S.type = Object.keys(S.cfg.types)[0];
-    const ds = dates();
-    if (!ds.includes(S.date)) S.date = ds[0];
-    if (S.time && !bookable(S.date, S.time)) S.time = '';
+    S.cfg = d.cfg; S.bookings = d.bookings; S.today = d.today; S.skew = d.now - Date.now(); S.offline = false;
     $('banner').classList.remove('show');
-    renderAll();
+    applyState();
   } catch(e){
-    $('banner').textContent = '예약 서버에 연결하지 못했어요. 잠시 후 새로고침해 주세요. (' + e.message + ')';
+    // unknown_action = 예약 기능이 들어간 백엔드가 아직 배포되지 않음
+    $('banner').textContent = /unknown_action/.test(e.message)
+      ? '예약 서버가 아직 준비되지 않았어요(백엔드 배포 전). 시간표는 볼 수 있지만 예약은 아직 안 돼요.'
+      : '예약 서버에 연결하지 못했어요. 잠시 후 새로고침해 주세요. (' + e.message + ')';
     $('banner').classList.add('show');
     if (!quiet) console.error(e);
+    if (!S.cfg || S.offline){ S.cfg = FALLBACK_CFG; S.today = kstTodayLocal(); S.skew = 0; S.offline = true; applyState(); }
+    else validate();
   }
 }
 const ERR = {
