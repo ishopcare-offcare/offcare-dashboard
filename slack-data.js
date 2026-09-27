@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13525,
+  "version": 13526,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 4,
+          "송태양": 5,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:34",
+          "store": "조개폭식",
+          "biz": "1102103686",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "영수증 프린터 전원을 껐다 켠 이후로 빌지 출력이 안된다 하셔서 확인 부탁드립니다. (반응이 아예 없다고 하십니다. ):감사합니다꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "15:44",
           "store": "콘크리트체리 커피",
@@ -212400,7 +212411,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 8,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
       "updatedAt": "17:34",
@@ -212614,24 +212625,17 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790498208.088,
+        "lastSeen": 1790498592.031,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790498208.088,
+        "lastSeen": 1790498592.031,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
-      },
-      "1790498054.353549": {
-        "post": "1790498054.353549",
-        "lastSeen": 1790498208.088,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 11
       }
     },
     "days": {
@@ -280042,14 +280046,15 @@ window.SLACK_DATA = {
             "store": "조개폭식",
             "biz": "1102103686",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 17:36",
+    "at": "2026-09-27 17:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
