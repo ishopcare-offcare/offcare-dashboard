@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2535,
- "updatedAt": "2026-09-27 16:10",
+ "version": 2536,
+ "updatedAt": "2026-09-27 16:38",
  "days": 30,
  "items": [
   {
@@ -49572,97 +49572,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787903009087349"
-  },
-  {
-   "ts": "1787902675.830709",
-   "date": "2026-08-28",
-   "time": "16:37",
-   "store": "만원수산",
-   "biz": "1080846102",
-   "pos": "오케이포스",
-   "content": "사진에 실장추천 모듬회\n\n2인 49,000\n\n3인 65,000\n\n추가 부탁드려요",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1eL0SYh6CDSfRaOh5WnF6BsIFL2jHmudr/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1eL0SYh6CDSfRaOh5WnF6BsIFL2jHmudr",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "모듬회",
-       "name": "실장 추천 제철 모듬회 2인",
-       "price": 49000
-      },
-      {
-       "category": "모듬회",
-       "name": "실장 추천 제철 모듬회 3인",
-       "price": 65000
-      },
-      {
-       "category": "모듬회",
-       "name": "참돔/농어 모듬회 2인",
-       "price": 55000
-      },
-      {
-       "category": "모듬회",
-       "name": "참돔/농어 모듬회 3인",
-       "price": 79000
-      },
-      {
-       "category": "모듬회",
-       "name": "산오징어 모듬회 2인",
-       "price": 55000
-      },
-      {
-       "category": "모듬회",
-       "name": "산오징어 모듬회 3인",
-       "price": 79000
-      },
-      {
-       "category": "모듬회",
-       "name": "대방어 모듬회",
-       "price": 99000
-      },
-      {
-       "category": "모듬회",
-       "name": "전어세꼬시 모듬회",
-       "price": 79000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1787902679.102059",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787902675830709"
-  },
-  {
-   "ts": "1787902646.464259",
-   "date": "2026-08-28",
-   "time": "16:37",
-   "store": "씨씨디(CCD)마산경남대점",
-   "biz": "5062794207",
-   "pos": "",
-   "content": "이거 또 스팸으로 간건 아닐런지..:루피눈물: (온도감이 너무 높아유..)\n• <mailto:···|···> /금일 (*28일)* 해당 메일로 메뉴 보냈으며, 빠른 등록 요청 주셨어요.\n• 완료 후, AIG F&B 이설빈 대표(이엠커피) / ···로 (통화or문자) 안내 부탁드립니다!!!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 5,
-   "lr": "1787903527.503209",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787902646464259"
   }
  ],
  "ocr": {
