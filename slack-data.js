@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13556,
+  "version": 13557,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 8,
+          "송태양": 9,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:32",
+          "store": "베스트생갈비찜&amp;찜닭",
+          "biz": "3551002509",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포프(포스기) 사용 중, 배민 연동 끊긴 이후로 연결하기 클릭 시 무반응이라고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "재연동완료입니다"
+        },
         {
           "time": "19:07",
           "store": "청담국영수학원",
@@ -212443,7 +212454,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 7,
         "unknown": 0
       },
@@ -212690,24 +212701,17 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790505926.262,
+        "lastSeen": 1790506213.693,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790505926.262,
+        "lastSeen": 1790506213.693,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
-      },
-      "1790505142.954429": {
-        "post": "1790505142.954429",
-        "lastSeen": 1790505926.262,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 14
       }
     },
     "days": {
@@ -280145,14 +280149,15 @@ window.SLACK_DATA = {
             "store": "베스트생갈비찜&amp;찜닭",
             "biz": "3551002509",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 15.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 19:45",
+    "at": "2026-09-27 19:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
