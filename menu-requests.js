@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2526,
- "updatedAt": "2026-09-27 12:31",
+ "version": 2527,
+ "updatedAt": "2026-09-27 12:45",
  "days": 30,
  "items": [
   {
@@ -51179,45 +51179,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787889573634629"
-  },
-  {
-   "ts": "1787887890.217429",
-   "date": "2026-08-28",
-   "time": "12:31",
-   "store": "위클리베이글 고양중부대점",
-   "biz": "5482100550",
-   "pos": "토스포스",
-   "content": "첨부파일로 첨부",
-   "special": "엑셀파일로 첨부했고, 영문 메뉴는 나중에 키오스크용이라 무시해주셔도 좋습니다.",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BU54G7S48",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "path": "menu-files/1787887890_217429-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "님, 안녕하세요! 금일 내로 등록 완료 요청주시어, 완료 시 문자 한 번 발송 부탁드립니다!",
-    "음",
-    "사업자번호는 297크루아상카페로 확인되고 상호명으로 검색했을때는 안나옴",
-    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787651340208289?thread_ts=···.431649&cid=C08740SFT1S",
-    "상호 제신고 진행중으로 확인되시는데, 완료 후 메뉴 등록 가능하신걸까용~?",
-    "그냥 바꿔치기를 해드릴지 물어볼게용 매장이랑 통화해보겟습니당",
-    "엇 제가 채팅 상담중이라 말씀해주시면 안내드리고 공유드릴게용",
-    "오 그러면"
-   ],
-   "rc": 13,
-   "lr": "1787891823.738789",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787887890217429"
   }
  ],
  "ocr": {
