@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2532,
- "updatedAt": "2026-09-27 14:30",
+ "version": 2533,
+ "updatedAt": "2026-09-27 15:15",
  "days": 30,
  "items": [
   {
@@ -49715,42 +49715,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787899055939619"
-  },
-  {
-   "ts": "1787897686.918659",
-   "date": "2026-08-28",
-   "time": "15:14",
-   "store": "정품전자담배 신라면세점점",
-   "biz": "3972402290",
-   "pos": "",
-   "content": "• 메뉴 등록 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "정품전자담배 신라면세점점_상품목록-260828151440.xlsx.exs",
-     "fid": "F0BT53PAEAF",
-     "from": "댓글",
-     "path": "menu-files/1787897686_918659-0.exs",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "메뉴 다운로드 받은 것 그대로 업로드 해드려유~",
-    "> • 위베이프 문화점 / ···\n> • 정품전자담배 제원점 / ···\n세 매장 모두 동일합니다 :c_업참바:",
-    "어 아니다",
-    "• *정품전자담배 제원점*\n여기는 메뉴가 285개라서 쫌 더 있는데",
-    ":잠시만:",
-    "동욱님 이거 X로 표시 해주삼!"
-   ],
-   "rc": 7,
-   "lr": "1787899258.752379",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787897686918659"
   }
  ],
  "ocr": {
