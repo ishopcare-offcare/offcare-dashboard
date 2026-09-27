@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13498,
+  "version": 13499,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212230,12 +212230,12 @@ window.SLACK_DATA = {
     },
     "2026-09-27": {
       "counts": {
+        "as": {
+          "송태양": 3,
+          "심성현": 8
+        },
         "booking": {
           "송태양": 1
-        },
-        "as": {
-          "송태양": 2,
-          "심성현": 8
         },
         "onboarding": {
           "송태양": 1
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:30",
+          "store": "박경희 갤러리",
+          "biz": "1351346199",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "캣프 연결 끊김으로 인한 재 연결 지원 요청드립니다. (이전 원격 지원 후 자녀 통화 가능 상태)",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "15:28",
           "store": "레이어드뷰티",
@@ -212378,28 +212389,29 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "15:30",
+      "updatedAt": "15:39",
       "voc": {
-        "responses": 7,
+        "responses": 11,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 7,
-          "low": 1
+          "count": 11,
+          "low": 2
         },
         "high": {
           "install": 1,
-          "nps": 5
+          "nps": 6
         },
         "npsDist": {
-          "5": 1,
-          "8": 1,
-          "10": 5
+          "5": 2,
+          "7": 1,
+          "8": 2,
+          "10": 6
         },
         "installDist": {
           "3": 1,
@@ -212410,6 +212422,14 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 4,
+            "low": 0
+          },
+          "6개월": {
+            "total": 1,
+            "low": 1
+          },
           "구매설치": {
             "total": 2,
             "low": 0
@@ -212418,22 +212438,22 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 1
           },
-          "3개월": {
-            "total": 1,
-            "low": 0
-          },
           "1개월": {
             "total": 2,
             "low": 0
           }
         },
         "byVan": {
-          "KSNET": {
+          "KIS": {
+            "total": 6,
+            "low": 1
+          },
+          "SECTA9": {
             "total": 1,
             "low": 0
           },
-          "KIS": {
-            "total": 3,
+          "KSNET": {
+            "total": 1,
             "low": 0
           },
           "KPN": {
@@ -212450,9 +212470,31 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "사용중 오류가 자주 발생함": 1
+          "사용중 오류가 자주 발생함": 2
         },
         "alerts": [
+          {
+            "time": "15:36",
+            "store": "숙성회136 철산역점",
+            "storeId": "423230",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "주말 피크타임에 토스포스 에러로 고생함",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:16",
             "store": "가챠모리",
@@ -212533,17 +212575,10 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790490918.089,
+        "lastSeen": 1790491339.851,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
-      },
-      "1790490641.984409": {
-        "post": "1790490641.984409",
-        "lastSeen": 1790490918.089,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 9
       }
     },
     "days": {
@@ -279937,14 +279972,15 @@ window.SLACK_DATA = {
             "store": "박경희 갤러리",
             "biz": "1351346199",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:35",
+    "at": "2026-09-27 15:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
