@@ -31,7 +31,12 @@ jobs:
   tally:
     runs-on: ubuntu-latest
     steps:
+      # ref: main 필수. 기본값은 '이벤트가 생긴 시점'의 커밋이라, concurrency 로 앞 실행을
+      # 기다린 뒤에도 앞 실행이 방금 푸시한 커밋이 빠진 옛 기준으로 집계한다.
+      # 그 결과 아래 rebase 가 slack-data.js 에서 충돌해 푸시가 8회 전부 실패했다(9/27 실행의 14%).
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -103,8 +108,16 @@ jobs:
             [ -d franchise/data ] && git add -A franchise/data
             [ -d share/compose ] && git add -A share/compose
             git commit -m "chore: 원격 AS 집계 자동 갱신 ($(TZ=Asia/Seoul date +%Y-%m-%d))"
+            # 그래도 겹치면(로컬 푸시 등) 충돌 구간은 방금 만든 집계 결과로 덮는다 —
+            # 전부 슬랙에서 새로 만든 산출물이라 이번 실행 쪽이 최신이다.
+            # (rebase 에서 -X theirs = 지금 올리려는 내 커밋 쪽)
+            # 실패한 rebase 는 반드시 abort — 안 하면 남은 재시도가 전부 'rebase 진행 중'으로 죽는다.
             for i in 1 2 3 4 5 6 7 8; do
-              git pull --rebase --autostash origin main && git push && { echo "푸시 성공"; exit 0; }
+              if git pull --rebase --autostash -X theirs origin main; then
+                git push && { echo "푸시 성공"; exit 0; }
+              else
+                git rebase --abort 2>/dev/null || true
+              fi
               echo "푸시 경합 — 재시도 $i..."; sleep $((i*3))
             done
             echo "푸시 8회 실패 — 다음 실행에서 재시도"; exit 1

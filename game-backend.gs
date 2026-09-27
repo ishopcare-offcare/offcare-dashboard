@@ -338,8 +338,11 @@ function prop_(k) { return PropertiesService.getScriptProperties().getProperty(k
 // 최근 글 + 최근 스레드 댓글까지 반영한 채널 지문.
 // conversations.history 는 스레드 댓글이 달려도 새 항목을 만들지 않으므로,
 // 부모 글의 latest_reply 까지 지문에 넣어야 '댓글로 들어온 요청'도 감지된다.
+// 카테고리가 이모지로 갈리므로 reactions(이름·개수)도 넣는다 — 빠지면 기존 글에 이모지만
+// 찍힌 변경은 감지 못 해 외부 15분 크론까지 밀린다. 이모지는 한참 전 글에도 찍히니 50개를 본다.
+// 스크립트 속성 값은 9KB 제한이라 지문은 MD5 로 줄여 저장한다.
 function channelSignature_(chId, token) {
-  var url = 'https://slack.com/api/conversations.history?channel=' + chId + '&limit=10';
+  var url = 'https://slack.com/api/conversations.history?channel=' + chId + '&limit=50';
   var res = UrlFetchApp.fetch(url, {
     headers: { Authorization: 'Bearer ' + token },
     muteHttpExceptions: true
@@ -349,9 +352,12 @@ function channelSignature_(chId, token) {
   var msgs = j.messages || [];
   var parts = [];
   for (var i = 0; i < msgs.length; i++) {
-    parts.push(msgs[i].ts + ':' + (msgs[i].latest_reply || ''));
+    var rx = msgs[i].reactions || [];
+    var r = [];
+    for (var k = 0; k < rx.length; k++) { r.push(rx[k].name + '*' + rx[k].count); }
+    parts.push(msgs[i].ts + ':' + (msgs[i].latest_reply || '') + ':' + r.join('+'));
   }
-  return parts.join(',');
+  return Utilities.base64Encode(Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, parts.join(','), Utilities.Charset.UTF_8));
 }
 
 function watchSlackAndDispatch() {
