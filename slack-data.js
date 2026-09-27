@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13470,
+  "version": 13471,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212245,7 +212245,7 @@ window.SLACK_DATA = {
           "req": "CAT 단말기 결제 시도 시 '통신장애' 문구가 뜬다고 하셔서 원격 점검 요청드립니다. (현재 오픈 준비중, 결제 및 금전함 등 작동 테스트 진행중이라고 하심)",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "단말기 LAN 케이블 미연결 상태 케이블 구비 후 연결 안내 완료"
         },
         {
           "time": "13:06",
@@ -212308,7 +212308,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "13:20",
+      "updatedAt": "13:29",
       "voc": {
         "responses": 2,
         "install": {
@@ -212388,14 +212388,21 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790482881.371,
+        "lastSeen": 1790483419.755,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790482811.447289": {
         "post": "1790482811.447289",
-        "lastSeen": 1790482881.371
+        "lastSeen": 1790483419.755,
+        "r": 1,
+        "day": "2026-09-27",
+        "idx": 5
+      },
+      "1790483395.566639": {
+        "post": "1790483395.566639",
+        "lastSeen": 1790483419.755
       }
     },
     "days": {
@@ -279699,8 +279706,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-27": {
-        "cnt": 5,
-        "sumMin": 29.540959922472638,
+        "cnt": 6,
+        "sumMin": 35.192888442675276,
         "over": 0,
         "items": [
           {
@@ -279746,13 +279753,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 12.2
+          },
+          {
+            "hm": "13:20",
+            "min": 5.7,
+            "store": "타래퀸 운양점",
+            "biz": "1898503200",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 13:21",
+    "at": "2026-09-27 13:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
