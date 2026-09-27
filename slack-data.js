@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13477,
+  "version": 13478,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212230,6 +212230,9 @@ window.SLACK_DATA = {
     },
     "2026-09-27": {
       "counts": {
+        "onboarding": {
+          "송태양": 1
+        },
         "as": {
           "송태양": 1,
           "심성현": 7
@@ -212237,6 +212240,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:59",
+          "store": "누헤어(NUU)",
+          "biz": "1495700901",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "토스포스(맥)+ 프론트 재온보딩 도움 요청 드립니다. (맥에서 설정시 계속 로딩만 되고 안된다 하십니다. ) :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": "10분뒤 재통화요청 / 2.4G와이파이 변경 후 온보딩 완료입니다"
+        },
         {
           "time": "13:29",
           "store": "금화춘",
@@ -212327,7 +212341,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 5,
         "unknown": 0
       },
@@ -212411,17 +212425,10 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790486124.392,
+        "lastSeen": 1790486421.23,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
-      },
-      "1790485140.659439": {
-        "post": "1790485140.659439",
-        "lastSeen": 1790486124.392,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 7
       }
     },
     "days": {
@@ -279797,14 +279804,15 @@ window.SLACK_DATA = {
             "store": "누헤어(NUU)",
             "biz": "1495700901",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 18.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 14:15",
+    "at": "2026-09-27 14:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
