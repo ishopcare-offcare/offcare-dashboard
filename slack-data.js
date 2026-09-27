@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13567,
+  "version": 13568,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 10,
+          "송태양": 11,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:34",
+          "store": "포뇨솜",
+          "biz": "5310803619",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포프(태블릿) 사용, 용지 출력 시 외계어 출력으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "20:18",
           "store": "청년피자포항오천점",
@@ -212465,7 +212476,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 7,
         "unknown": 0
       },
@@ -212712,14 +212723,14 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790508979.194,
+        "lastSeen": 1790509227.59,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790508979.194,
+        "lastSeen": 1790509227.59,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
@@ -280168,7 +280179,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 20:36",
+    "at": "2026-09-27 20:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
