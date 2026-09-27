@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13451,
+  "version": 13452,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,11 +212231,22 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "심성현": 2
+          "심성현": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:56",
+          "store": "금화춘",
+          "biz": "1248589026",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "토스포스에서 금전함이 안열린다 하시는데 사용방법을 아예 모르시는것 같아 안내 부탁드립니다 :꾸벅곰:",
+          "hw": "",
+          "intake": "offline",
+          "note": "금전함 케이블 단말기 LAN포트에 연결 / 재연결 후 정상"
+        },
         {
           "time": "10:03",
           "store": "고든펫",
@@ -212261,7 +212272,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "10:56",
@@ -212345,13 +212356,6 @@ window.SLACK_DATA = {
       "1790434806.627379": {
         "post": "1790434806.627379",
         "lastSeen": 1790453727.837
-      },
-      "1790474197.729539": {
-        "post": "1790474197.729539",
-        "lastSeen": 1790474438.193,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 1
       }
     },
     "days": {
@@ -279674,14 +279678,15 @@ window.SLACK_DATA = {
             "store": "금화춘",
             "biz": "1248589026",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 11:00",
+    "at": "2026-09-27 11:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
