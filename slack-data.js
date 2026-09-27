@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13488,
+  "version": 13489,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212367,24 +212367,25 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:09",
+      "updatedAt": "15:16",
       "voc": {
-        "responses": 4,
+        "responses": 6,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 4,
-          "low": 0
+          "count": 6,
+          "low": 1
         },
         "high": {
           "install": 0,
-          "nps": 3
+          "nps": 4
         },
         "npsDist": {
+          "5": 1,
           "8": 1,
-          "10": 3
+          "10": 4
         },
         "installDist": {
           "3": 1
@@ -212393,6 +212394,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 2,
+            "low": 1
+          },
           "3개월": {
             "total": 1,
             "low": 0
@@ -212407,12 +212412,16 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "DAOU": {
-            "total": 1,
+          "KIS": {
+            "total": 3,
             "low": 0
           },
-          "KIS": {
-            "total": 2,
+          "KPN": {
+            "total": 1,
+            "low": 1
+          },
+          "DAOU": {
+            "total": 1,
             "low": 0
           },
           "KOCES": {
@@ -212420,8 +212429,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "사용중 오류가 자주 발생함": 1
+        },
+        "alerts": [
+          {
+            "time": "15:16",
+            "store": "가챠모리",
+            "storeId": "263576",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "계산할때 렉 걸리거나, 반응속도가 느림",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "15:09",
@@ -212467,7 +212501,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790489722.519,
+        "lastSeen": 1790489809.11,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -279854,7 +279888,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:15",
+    "at": "2026-09-27 15:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
