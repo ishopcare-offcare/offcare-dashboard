@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13561,
+  "version": 13562,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 9,
+          "송태양": 10,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:18",
+          "store": "청년피자포항오천점",
+          "biz": "2882600065",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포스기 사용 중 시리얼포트 오픈실패 오류 메시지 확인되어 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:32",
           "store": "베스트생갈비찜&amp;찜닭",
@@ -212454,7 +212465,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 7,
         "unknown": 0
       },
@@ -212701,14 +212712,14 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790507937.316,
+        "lastSeen": 1790508429.492,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790507937.316,
+        "lastSeen": 1790508429.492,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
@@ -280157,7 +280168,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 20:19",
+    "at": "2026-09-27 20:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
