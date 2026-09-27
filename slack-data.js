@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13491,
+  "version": 13492,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 3,
+          "송태양": 2,
           "심성현": 8
         },
         "onboarding": {
@@ -212240,17 +212240,6 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
-        {
-          "time": "15:19",
-          "store": "홈스테드456(Homestead456)",
-          "biz": "8070503397",
-          "cat": "as",
-          "emp": "송태양",
-          "req": "테스트",
-          "hw": "",
-          "intake": "online",
-          "note": ""
-        },
         {
           "time": "15:02",
           "store": "홈스테드456(Homestead456)",
@@ -212374,7 +212363,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 6,
         "offline": 5,
         "unknown": 0
       },
@@ -212512,7 +212501,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790490021.199,
+        "lastSeen": 1790490198.876,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -279899,7 +279888,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:20",
+    "at": "2026-09-27 15:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
