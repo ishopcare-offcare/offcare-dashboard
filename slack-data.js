@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13542,
+  "version": 13543,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212425,16 +212425,16 @@ window.SLACK_DATA = {
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "18:59",
+      "updatedAt": "19:02",
       "voc": {
-        "responses": 15,
+        "responses": 16,
         "install": {
-          "count": 2,
-          "low": 0
+          "count": 3,
+          "low": 1
         },
         "nps": {
-          "count": 15,
-          "low": 3
+          "count": 16,
+          "low": 4
         },
         "high": {
           "install": 1,
@@ -212442,20 +212442,26 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "3": 1,
-          "5": 2,
+          "5": 3,
           "7": 1,
           "8": 4,
           "10": 7
         },
         "installDist": {
+          "2": 1,
           "3": 1,
           "5": 1
         },
         "byIndustry": {
+          "카페": 1,
           "서비스[학원]": 1,
           "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 1
+          },
           "1개월": {
             "total": 4,
             "low": 0
@@ -212471,23 +212477,19 @@ window.SLACK_DATA = {
           "3개월": {
             "total": 4,
             "low": 0
-          },
-          "구매설치": {
-            "total": 2,
-            "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 3,
+            "low": 1
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
           },
           "NICE": {
             "total": 1,
-            "low": 0
-          },
-          "KOCES": {
-            "total": 2,
             "low": 0
           },
           "KSNET": {
@@ -212512,10 +212514,40 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "구매,계약과정에서 설명이 부족": 1,
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "필요한 기능이 없거나 몰라서 불편": 1,
           "사용중 오류가 자주 발생함": 2
         },
         "alerts": [
+          {
+            "time": "19:02",
+            "store": "러브라이프 (Love life)",
+            "storeId": "635250",
+            "industry": "카페/베이커리",
+            "indBucket": "카페",
+            "install": 2,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 2,
+                "text": "불친절한 설명",
+                "cat": "구매,계약과정에서 설명이 부족"
+              },
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "무난",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:46",
             "store": "리바이뷰티",
@@ -212636,21 +212668,21 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790503314.091,
+        "lastSeen": 1790503367.468,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790503314.091,
+        "lastSeen": 1790503367.468,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
       },
       "1790503173.076069": {
         "post": "1790503173.076069",
-        "lastSeen": 1790503314.091
+        "lastSeen": 1790503367.468
       }
     },
     "days": {
