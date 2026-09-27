@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13440,
+  "version": 13441,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212229,12 +212229,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-09-27": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "심성현": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:00",
+          "store": "씨푸드봉다리",
+          "biz": "2350803216",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "포프(포스기) 사용 중, 용지 출력 시 인쇄 불량으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "01075334740 / 재인입 직원 번호로 10분 뒤 통화 요청"
+        }
+      ],
       "intake": {
         "online": 0,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:00",
@@ -212296,13 +212312,6 @@ window.SLACK_DATA = {
       "1790434806.627379": {
         "post": "1790434806.627379",
         "lastSeen": 1790453727.837
-      },
-      "1790467201.863329": {
-        "post": "1790467201.863329",
-        "lastSeen": 1790468125.616,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 0
       }
     },
     "days": {
@@ -279616,14 +279625,15 @@ window.SLACK_DATA = {
             "store": "씨푸드봉다리",
             "biz": "2350803216",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 23
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 09:15",
+    "at": "2026-09-27 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
