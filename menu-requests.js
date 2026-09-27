@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2534,
- "updatedAt": "2026-09-27 15:42",
+ "version": 2535,
+ "updatedAt": "2026-09-27 16:10",
  "days": 30,
  "items": [
   {
@@ -49663,30 +49663,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787902646464259"
-  },
-  {
-   "ts": "1787900523.862659",
-   "date": "2026-08-28",
-   "time": "16:02",
-   "store": "건어물하우스",
-   "biz": "1560300342",
-   "pos": "토스포스",
-   "content": "바코드 엑셀 일괄등록원합니다.",
-   "special": "엑셀파일 첨부함",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "엑셀권한 없음 연락",
-    "메일로받음"
-   ],
-   "rc": 3,
-   "lr": "1787904020.560249",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787900523862659"
   }
  ],
  "ocr": {
