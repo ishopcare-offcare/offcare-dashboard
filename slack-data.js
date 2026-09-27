@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13437,
+  "version": 13438,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212299,7 +212299,10 @@ window.SLACK_DATA = {
       },
       "1790467201.863329": {
         "post": "1790467201.863329",
-        "lastSeen": 1790467219.591
+        "lastSeen": 1790467998.899,
+        "r": 1,
+        "day": "2026-09-27",
+        "idx": 0
       }
     },
     "days": {
@@ -279601,11 +279604,26 @@ window.SLACK_DATA = {
             "dmin": 17.4
           }
         ]
+      },
+      "2026-09-27": {
+        "cnt": 1,
+        "sumMin": 6.7896945158640545,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 6.8,
+            "store": "씨푸드봉다리",
+            "biz": "2350803216",
+            "who": "심성현",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 09:00",
+    "at": "2026-09-27 09:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
