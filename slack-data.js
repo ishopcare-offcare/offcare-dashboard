@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13562,
+  "version": 13563,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212252,7 +212252,7 @@ window.SLACK_DATA = {
           "req": "포스기 사용 중 시리얼포트 오픈실패 오류 메시지 확인되어 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 포트변경 후 재연동 완료입니다 포트변경 후 재연동 완료입니다"
         },
         {
           "time": "19:32",
@@ -212712,14 +212712,14 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790508429.492,
+        "lastSeen": 1790508480.547,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790508429.492,
+        "lastSeen": 1790508480.547,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
@@ -280168,7 +280168,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 20:27",
+    "at": "2026-09-27 20:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
