@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13535,
+  "version": 13536,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212252,7 +212252,7 @@ window.SLACK_DATA = {
           "req": "프린터기 개폐 불가로 인한 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 끼임증상 시 매뉴얼 영상 발송 • 정상 개폐 되었으나 교체안내 및 입출고 접수 완료입니다 끼임증상 시 매뉴얼 영상 발송 정상 개폐 되었으나 교체안내 및 입출고 접수 완료입니다"
         },
         {
           "time": "17:34",
@@ -212636,14 +212636,14 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790501013.461,
+        "lastSeen": 1790501239.617,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790501013.461,
+        "lastSeen": 1790501239.617,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
@@ -280065,7 +280065,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 18:23",
+    "at": "2026-09-27 18:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
