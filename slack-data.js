@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13546,
+  "version": 13547,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,7 +212231,7 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "송태양": 6,
+          "송태양": 7,
           "심성현": 8
         },
         "booking": {
@@ -212243,6 +212243,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:59",
+          "store": "푸다훠궈",
+          "biz": "5521503142",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포스기 실행 시 문제가 발생했습니다 오류 메시지로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "18:15",
           "store": "1%치킨",
@@ -212421,7 +212432,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 7,
         "unknown": 0
       },
@@ -212668,28 +212679,21 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790504126.942,
+        "lastSeen": 1790504524.845,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790504126.942,
+        "lastSeen": 1790504524.845,
         "r": 1,
         "day": "2026-09-27",
         "idx": 10
       },
-      "1790503173.076069": {
-        "post": "1790503173.076069",
-        "lastSeen": 1790504126.942,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 12
-      },
       "1790503646.018499": {
         "post": "1790503646.018499",
-        "lastSeen": 1790504126.942
+        "lastSeen": 1790504524.845
       }
     },
     "days": {
@@ -280109,14 +280113,15 @@ window.SLACK_DATA = {
             "store": "푸다훠궈",
             "biz": "5521503142",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 19.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 19:15",
+    "at": "2026-09-27 19:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
