@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13481,
+  "version": 13482,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212230,16 +212230,27 @@ window.SLACK_DATA = {
     },
     "2026-09-27": {
       "counts": {
-        "onboarding": {
+        "as": {
+          "심성현": 8,
           "송태양": 1
         },
-        "as": {
-          "송태양": 1,
-          "심성현": 7
+        "onboarding": {
+          "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:29",
+          "store": "아름다운날들",
+          "biz": "2254300095",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "매장 인터넷에 문제가 없으나 포스 프로그램 실행 시 '페이지를 찾을 수 없음' 이 뜬다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "/ 재설치 완료"
+        },
         {
           "time": "13:59",
           "store": "누헤어(NUU)",
@@ -212341,7 +212352,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 5,
         "unknown": 0
       },
@@ -212425,7 +212436,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790487927.593,
+        "lastSeen": 1790488277.721,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -279812,7 +279823,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 14:45",
+    "at": "2026-09-27 14:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
