@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13499,
+  "version": 13500,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212252,7 +212252,7 @@ window.SLACK_DATA = {
           "req": "캣프 연결 끊김으로 인한 재 연결 지원 요청드립니다. (이전 원격 지원 후 자녀 통화 가능 상태)",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "• 매장 공유기 없어 타매장 iptime 공유기 사용중이시나 공유기문제로 연결 X • CAT단독으로 사용하게끔 설정 해드렸고 카드,삼페 외 간편결제 불가함 안내 • 매장 와이파이 설치 후 재연락 주시면 연동 도움드리겠음 안내 매장 공유기 없어 타매장 iptime 공유기 사용중이시나 공유기문제로 연결 X CAT단독으로 사용하게끔 설정 해드렸고 카드,삼페 외 "
         },
         {
           "time": "15:28",
@@ -212575,7 +212575,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790491339.851,
+        "lastSeen": 1790491422.385,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -279980,7 +279980,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:42",
+    "at": "2026-09-27 15:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
