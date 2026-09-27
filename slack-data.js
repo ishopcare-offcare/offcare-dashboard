@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13446,
+  "version": 13447,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212264,23 +212264,24 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:03",
+      "updatedAt": "10:22",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 0
+          "nps": 1
         },
         "npsDist": {
-          "8": 1
+          "8": 1,
+          "10": 1
         },
         "installDist": {
           "3": 1
@@ -212289,12 +212290,20 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          },
           "구매설치": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 1,
             "low": 0
@@ -212302,7 +212311,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "10:22",
+            "store": "싸르뜨르",
+            "storeId": "606047",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "사용하기에 정말 편하네요. 여러가지 세부적인 통계자료가 도움이 많이됩니다.",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -279644,7 +279666,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 10:15",
+    "at": "2026-09-27 10:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
