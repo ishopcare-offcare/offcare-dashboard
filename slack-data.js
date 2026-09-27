@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13494,
+  "version": 13495,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212367,33 +212367,39 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:28",
+      "updatedAt": "15:30",
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 6,
+          "count": 7,
           "low": 1
         },
         "high": {
-          "install": 0,
-          "nps": 4
+          "install": 1,
+          "nps": 5
         },
         "npsDist": {
           "5": 1,
           "8": 1,
-          "10": 4
+          "10": 5
         },
         "installDist": {
-          "3": 1
+          "3": 1,
+          "5": 1
         },
         "byIndustry": {
+          "서비스[학원]": 1,
           "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 2,
+            "low": 0
+          },
           "12개월": {
             "total": 2,
             "low": 1
@@ -212405,13 +212411,13 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 2,
             "low": 0
-          },
-          "구매설치": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 3,
             "low": 0
@@ -212458,6 +212464,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:30",
+            "store": "펜타영어학원",
+            "storeId": "671681",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절하게설명 편리해요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:09",
             "store": "더 키위 델리",
             "storeId": "508321",
@@ -212501,14 +212519,18 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790490634.113,
+        "lastSeen": 1790490721.33,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790490482.521369": {
         "post": "1790490482.521369",
-        "lastSeen": 1790490634.113
+        "lastSeen": 1790490721.33
+      },
+      "1790490641.984409": {
+        "post": "1790490641.984409",
+        "lastSeen": 1790490721.33
       }
     },
     "days": {
@@ -279892,7 +279914,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:30",
+    "at": "2026-09-27 15:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
