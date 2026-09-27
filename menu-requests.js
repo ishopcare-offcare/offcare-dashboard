@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2538,
- "updatedAt": "2026-09-27 17:00",
+ "version": 2539,
+ "updatedAt": "2026-09-27 18:58",
  "days": 30,
  "items": [
   {
@@ -49502,32 +49502,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787919284620689"
-  },
-  {
-   "ts": "1787910775.351079",
-   "date": "2026-08-28",
-   "time": "18:52",
-   "store": "월아칼국수",
-   "biz": "6640903503",
-   "pos": "",
-   "content": "메뉴 등록 부탁 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "카테고리 : 메인메뉴\n메뉴 : 해물파전\n금액 : 15,000원\n\n연락처 : ···",
-    "메뉴등록 원격으로 해달라고 하실 정도라서...\n완료 찍어주시면 솔라피 제가 발송하겠습니다ㅠ",
-    "감사합니다!",
-    "솔라피 발송 완료"
-   ],
-   "rc": 7,
-   "lr": "1787910917.285159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787910775351079"
   }
  ],
  "ocr": {
