@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13501,
+  "version": 13502,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212392,22 +212392,23 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "15:44",
+      "updatedAt": "15:46",
       "voc": {
-        "responses": 11,
+        "responses": 12,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 11,
-          "low": 2
+          "count": 12,
+          "low": 3
         },
         "high": {
           "install": 1,
           "nps": 6
         },
         "npsDist": {
+          "3": 1,
           "5": 2,
           "7": 1,
           "8": 2,
@@ -212422,6 +212423,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 3,
+            "low": 2
+          },
           "3개월": {
             "total": 4,
             "low": 0
@@ -212434,25 +212439,21 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "12개월": {
-            "total": 2,
-            "low": 1
-          },
           "1개월": {
             "total": 2,
             "low": 0
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 2,
+            "low": 1
+          },
           "KIS": {
             "total": 6,
             "low": 1
           },
           "SECTA9": {
-            "total": 1,
-            "low": 0
-          },
-          "KSNET": {
             "total": 1,
             "low": 0
           },
@@ -212470,9 +212471,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "사용중 오류가 자주 발생함": 2
         },
         "alerts": [
+          {
+            "time": "15:46",
+            "store": "리바이뷰티",
+            "storeId": "254261",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "내가 입력한 고객 정보 다운 불가하여 불편함",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:36",
             "store": "숙성회136 철산역점",
@@ -212575,7 +212599,7 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790491521.029,
+        "lastSeen": 1790491617.034,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
@@ -279980,7 +280004,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 15:45",
+    "at": "2026-09-27 15:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
