@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13444,
+  "version": 13445,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,11 +212231,22 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "심성현": 1
+          "심성현": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:03",
+          "store": "고든펫",
+          "biz": "2951102112",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프론트 단말기 카드 인식이 잘 안된다 하셔서 (카드를 더 안쪽으로 꽂아달라고 뜬다 하십니다) 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 / 프론트 연동 불가 증상으로 인입 재온보딩 후 정상"
+        },
         {
           "time": "09:00",
           "store": "씨푸드봉다리",
@@ -212249,7 +212260,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 1,
         "unknown": 0
       },
@@ -279633,7 +279644,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-27 10:04",
+    "at": "2026-09-27 10:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
