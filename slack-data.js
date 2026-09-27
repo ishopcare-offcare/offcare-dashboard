@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13517,
+  "version": 13518,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212618,14 +212618,17 @@ window.SLACK_DATA = {
       },
       "1790477400.221509": {
         "post": "1790477400.221509",
-        "lastSeen": 1790496319.79,
+        "lastSeen": 1790496858.569,
         "r": 1,
         "day": "2026-09-27",
         "idx": 3
       },
       "1790496286.343309": {
         "post": "1790496286.343309",
-        "lastSeen": 1790496319.79
+        "lastSeen": 1790496858.569,
+        "r": 1,
+        "day": "2026-09-27",
+        "idx": 10
       }
     },
     "days": {
@@ -279929,8 +279932,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-27": {
-        "cnt": 10,
-        "sumMin": 48.4676658431689,
+        "cnt": 11,
+        "sumMin": 53.514935696125036,
         "over": 0,
         "items": [
           {
@@ -280021,13 +280024,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "as",
             "dmin": 8.1
+          },
+          {
+            "hm": "17:04",
+            "min": 5,
+            "store": "더샵키친컴퍼니",
+            "biz": "3832402423",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 17:05",
+    "at": "2026-09-27 17:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
