@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2523,
- "updatedAt": "2026-09-27 11:07",
+ "version": 2524,
+ "updatedAt": "2026-09-27 11:21",
  "days": 30,
  "items": [
   {
@@ -52131,64 +52131,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787885954471519"
-  },
-  {
-   "ts": "1787883528.477829",
-   "date": "2026-08-28",
-   "time": "11:18",
-   "store": "바이트앤 레스트",
-   "biz": "5438503030",
-   "pos": "퍼스트포스",
-   "content": "도넛 창  전제 삭제해주세요\n\n핫도그 \n칠리살사핫도그 7.000\n딥치즈핫도그   7.000\n\n창 만들어주세요",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/12Uw1Ro8HEFxR-jImYAjqbvuK4hZl66sd/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1x5hT7yW27O0I5N7hjybx7zPejUP-SBLC/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "12Uw1Ro8HEFxR-jImYAjqbvuK4hZl66sd",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1x5hT7yW27O0I5N7hjybx7zPejUP-SBLC",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "replies": [
-    "문자 잘못이해하심 전화드림"
-   ],
-   "rc": 2,
-   "lr": "1787883649.903179",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787883528477829"
-  },
-  {
-   "ts": "1787883521.710889",
-   "date": "2026-08-28",
-   "time": "11:18",
-   "store": "케이핀초반",
-   "biz": "2660303234",
-   "pos": "기타",
-   "content": "안주류 카테고리에 오돌뼈 15000원->16000원 ,\n라볶이 14000원->15000원으로 수정 부탁드립니다",
-   "special": "바로 부탁드립니다",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1787883524.591099",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787883521710889"
   }
  ],
  "ocr": {

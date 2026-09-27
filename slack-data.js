@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13455,
+  "version": 13456,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212231,11 +212231,22 @@ window.SLACK_DATA = {
     "2026-09-27": {
       "counts": {
         "as": {
-          "심성현": 3
+          "심성현": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:07",
+          "store": "섬카페 #1",
+          "biz": "8878702726",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "포스 프로그램에서 업데이트가 계속 진행되며, '단말기 점검이 필요하다' 는 문구가 뜬다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "전남 여수시 신기남 1길 31 2층 섬카페 김미화 / 기기 무한 업데이트 오류 / 터미널로 결제 안내 익일 프론트 1 기기 발송 필요"
+        },
         {
           "time": "10:56",
           "store": "금화춘",
@@ -212271,7 +212282,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 2,
         "unknown": 0
       },
@@ -212356,13 +212367,6 @@ window.SLACK_DATA = {
       "1790434806.627379": {
         "post": "1790434806.627379",
         "lastSeen": 1790453727.837
-      },
-      "1790474833.438649": {
-        "post": "1790474833.438649",
-        "lastSeen": 1790475327.965,
-        "r": 1,
-        "day": "2026-09-27",
-        "idx": 2
       }
     },
     "days": {
@@ -279694,14 +279698,15 @@ window.SLACK_DATA = {
             "store": "섬카페 #1",
             "biz": "8878702726",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 11.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-27 11:15",
+    "at": "2026-09-27 11:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
