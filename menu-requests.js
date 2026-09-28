@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2608,
- "updatedAt": "2026-09-28 17:40",
+ "version": 2609,
+ "updatedAt": "2026-09-28 17:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1790585823.649619",
+   "date": "2026-09-28",
+   "time": "17:57",
+   "store": "스몰굿커피 문정점",
+   "biz": "6412901913",
+   "pos": "",
+   "content": "메뉴 오타가 수정요청 및 옵션 추가 요청드립니다 :감사합니다꾸벅:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790585827.277919",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790585823649619"
+  },
   {
    "ts": "1790582190.088589",
    "date": "2026-09-28",
@@ -7571,13 +7592,6 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1789981029_823089-2.png"
-    },
-    {
-     "name": "예솔스토리_출고내역.xlsx.exs",
-     "fid": "F0C34TXJLCD",
-     "from": "원글",
-     "path": "menu-files/1789981029_823089-0.exs",
-     "nj": 1
     }
    ],
    "datt": [],
