@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2623,
- "updatedAt": "2026-09-28 19:18",
+ "version": 2624,
+ "updatedAt": "2026-09-28 22:01",
  "days": 30,
  "items": [
   {
@@ -50169,33 +50169,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788036406198359"
-  },
-  {
-   "ts": "1788008125.166969",
-   "date": "2026-08-29",
-   "time": "21:55",
-   "store": "와룡",
-   "biz": "3111297655",
-   "pos": "",
-   "content": "메뉴 수정 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "곱배기 메뉴 전 메뉴를 단일 메뉴로 추가 생성 요청입니다..!\n(옵션 선택없이 바로바로 선택할 수 있도록 요청)",
-    "시간차로 다른 내용 계속 남겨주셔서 제가 직접 수정 중..",
-    "헉 그럼 그대로 두셔도 될거 같아요..",
-    "오히려 좋아하실거 같습니다..",
-    "넵넵 곱빼기에서 곱만 남겨달라고 해서 수정중입니다.."
-   ],
-   "rc": 9,
-   "lr": "1788008917.612369",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788008125166969"
   }
  ],
  "ocr": {
