@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2564,
- "updatedAt": "2026-09-28 10:51",
+ "version": 2565,
+ "updatedAt": "2026-09-28 10:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1790560355.398329",
+   "date": "2026-09-28",
+   "time": "10:52",
+   "store": "이방인 혼술바 서울 강남역점",
+   "biz": "8407800673",
+   "pos": "토스포스",
+   "content": "기존 토스포스 코세스 메뉴를 나이스로 이관부탁드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790560358.494559",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790560355398329"
+  },
   {
    "ts": "1790559946.934929",
    "date": "2026-09-28",
@@ -23,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20260928_103235.jpg.jpeg",
      "fid": "F0C4NPPLACT",
      "from": "댓글",
-     "path": "menu-files/1790559946_934929-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -121,13 +141,13 @@ window.MENU_REQUESTS = {
        "name": "샷추가",
        "price": 800
       }
-     ]
+     ],
+     "path": "menu-files/1790559946_934929-0.jpeg"
     },
     {
      "name": "Resized_20260928_103239.jpg.jpeg",
      "fid": "F0C4WUF4XR7",
      "from": "댓글",
-     "path": "menu-files/1790559946_934929-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -275,13 +295,14 @@ window.MENU_REQUESTS = {
        "name": "쿠키류",
        "price": 6000
       }
-     ]
+     ],
+     "path": "menu-files/1790559946_934929-1.jpeg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790559963.240659",
+   "rc": 3,
+   "lr": "1790560336.747669",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
