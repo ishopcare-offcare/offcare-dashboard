@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13652,
+  "version": 13653,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207757,9 +207757,9 @@ window.SLACK_DATA = {
     "2026-09-28": {
       "counts": {
         "as": {
+          "심성현": 3,
           "배선유": 1,
-          "김현기": 1,
-          "심성현": 2
+          "김현기": 1
         },
         "transfer": {
           "김동욱": 1
@@ -207771,6 +207771,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:45",
+          "store": "드롭탑(광주유스퀘어점)",
+          "biz": "5218102125",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "<@U0ASHNL5EKE> 님 안녕하세요! 대표님께서 본사에 연락드렸더니 본사 직원분께서 통화를 희망한다 하셔서 <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p17905546773739",
+          "hw": "",
+          "intake": "offline",
+          "note": "본사 담당자와 통화 완료했습니다."
+        },
         {
           "time": "09:30",
           "store": "달리는 커피 광주태전점",
@@ -207862,7 +207873,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "09:45"
@@ -207906,11 +207917,11 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790556329.729
+        "lastSeen": 1790556378.855
       },
       "1790555400.734859": {
         "post": "1790555400.734859",
-        "lastSeen": 1790556329.729
+        "lastSeen": 1790556378.855
       }
     },
     "days": {
@@ -275381,7 +275392,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 09:45",
+    "at": "2026-09-28 09:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
