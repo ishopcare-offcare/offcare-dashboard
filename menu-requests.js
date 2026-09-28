@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2587,
- "updatedAt": "2026-09-28 16:10",
+ "version": 2588,
+ "updatedAt": "2026-09-28 16:11",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,27 @@ window.MENU_REQUESTS = {
    "special": "접수건 확인 불가로 메일로 발송",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": ".메뉴_원산지_모닝세트의 사본.xlsx",
+     "fid": "F0C4WGB8XR8",
+     "from": "댓글",
+     "path": "menu-files/1790579369_694059-0.xlsx",
+     "nj": 1
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5R1B5QNL",
+     "from": "댓글",
+     "path": "menu-files/1790579369_694059-1.png",
+     "kind": "other",
+     "menu": []
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 2,
+   "lr": "1790579470.938139",
    "rfx": 3,
    "status": "wait",
    "handler": null,
