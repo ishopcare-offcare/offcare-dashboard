@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2589,
- "updatedAt": "2026-09-28 16:13",
+ "version": 2590,
+ "updatedAt": "2026-09-28 16:17",
  "days": 30,
  "items": [
   {
@@ -37,13 +37,14 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "안녕하세요!\n해당 가맹점 빠른 메뉴 등록 요청 전달 주시어, 바쁘시겠지만 등록 요청 드립니다 :woman-bowing::skin-tone-4:\n\nCC."
+    "안녕하세요!\n해당 가맹점 빠른 메뉴 등록 요청 전달 주시어, 바쁘시겠지만 등록 요청 드립니다 :woman-bowing::skin-tone-4:\n\nCC.",
+    "여기 키오스크인거같긴한데 이미지는 일단 없네요 빼고 진행할게요\n\n옵션도없어요"
    ],
-   "rc": 3,
-   "lr": "1790579633.531869",
+   "rc": 4,
+   "lr": "1790579856.220319",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790579369694059"
   },
   {
