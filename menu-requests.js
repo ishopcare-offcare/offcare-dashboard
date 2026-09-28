@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2578,
- "updatedAt": "2026-09-28 14:15",
+ "version": 2579,
+ "updatedAt": "2026-09-28 14:16",
  "days": 30,
  "items": [
   {
@@ -240,13 +240,50 @@ window.MENU_REQUESTS = {
      "name": "1000012519.jpg",
      "fid": "F0C4ZJFF5B6",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-3.jpg"
+     "path": "menu-files/1790572151_647679-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "크루아상",
+       "name": "플레인 크루아상",
+       "price": 4200
+      },
+      {
+       "category": "크루아상",
+       "name": "뺑오스위스",
+       "price": 4800
+      },
+      {
+       "category": "크루아상",
+       "name": "크루아상식빵",
+       "price": 5500
+      },
+      {
+       "category": "크루아상",
+       "name": "아몬드크루아상",
+       "price": 5000
+      },
+      {
+       "category": "크루아상",
+       "name": "애플크럼블파이",
+       "price": 5000
+      },
+      {
+       "category": "크루아상",
+       "name": "비닐봉투",
+       "price": 50
+      },
+      {
+       "category": "크루아상",
+       "name": "뺑오쇼콜라",
+       "price": 4500
+      }
+     ]
     },
     {
      "name": "1000012520.jpg",
      "fid": "F0C4ZJFV9QU",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -264,7 +301,8 @@ window.MENU_REQUESTS = {
        "name": "프리미엄라떼",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1790572151_647679-4.jpg"
     },
     {
      "name": "1000012521.jpg",
