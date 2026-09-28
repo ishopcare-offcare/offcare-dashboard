@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13760,
+  "version": 13761,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -199522,10 +199522,10 @@ window.SLACK_DATA = {
     "2026-09-28": {
       "counts": {
         "as": {
+          "김현기": 5,
           "배선유": 7,
           "김동욱": 5,
           "심성현": 7,
-          "김현기": 4,
           "서상원": 1,
           "고경림": 4,
           "송태양": 1
@@ -199560,6 +199560,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:46",
+          "store": "이옥자 상회",
+          "biz": "4272502002",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "블루투스 연동이 되지 않는다고 합니다. 유선으로 정확한 단말기 확인이 불가 하여 확인 요청드립니다. :woman-bowing::skin-tone-2:",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "11:42",
           "store": "동백떡방앗간",
@@ -200125,7 +200136,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 42,
-        "offline": 9,
+        "offline": 10,
         "unknown": 0
       },
       "updatedAt": "11:50"
@@ -200169,24 +200180,17 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790563870.52,
+        "lastSeen": 1790564043.247,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
       },
       "1790563509.593529": {
         "post": "1790563509.593529",
-        "lastSeen": 1790563870.52,
+        "lastSeen": 1790564043.247,
         "r": 1,
         "day": "2026-09-28",
         "idx": 23
-      },
-      "1790563595.483359": {
-        "post": "1790563595.483359",
-        "lastSeen": 1790563870.52,
-        "r": 1,
-        "day": "2026-09-28",
-        "idx": 24
       }
     },
     "days": {
@@ -267854,14 +267858,15 @@ window.SLACK_DATA = {
             "store": "이옥자 상회",
             "biz": "4272502002",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:51",
+    "at": "2026-09-28 11:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
