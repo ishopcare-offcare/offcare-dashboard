@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2602,
- "updatedAt": "2026-09-28 17:15",
+ "version": 2603,
+ "updatedAt": "2026-09-28 17:16",
  "days": 30,
  "items": [
   {
@@ -669,44 +669,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [
     {
-     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5OTc0NjcxNjc1Lm",
-     "fid": "F0C4QNYDXT5",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790582028_998499-0.jpeg"
-    },
-    {
-     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5OTczMDExODY1Lm",
-     "fid": "F0C4RSRMQ9K",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790582028_998499-1.jpeg"
-    },
-    {
-     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5OTczMDI1OTM3Lm",
-     "fid": "F0C50KVQS1J",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790582028_998499-2.jpeg"
-    },
-    {
-     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MDkxMV8xMDU4Mz",
-     "fid": "F0C4V1HH2MC",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790582028_998499-3.jpeg"
-    },
-    {
      "name": "=_UTF-8_B_MTc5MDU4MjY4MjMzMy5qcGc=_=.jpe",
      "fid": "F0C50NS718C",
      "from": "댓글",
      "kind": "product_photo",
      "menu": [],
-     "path": "menu-files/1790582028_998499-4.jpeg"
+     "path": "menu-files/1790582028_998499-0.jpeg"
     },
     {
      "name": "=_UTF-8_B_MTc5MDU4MjY4NTIxMC5qcGc=_=.jpe",
@@ -714,32 +682,43 @@ window.MENU_REQUESTS = {
      "from": "댓글",
      "kind": "product_photo",
      "menu": [],
-     "path": "menu-files/1790582028_998499-5.jpeg"
+     "path": "menu-files/1790582028_998499-1.jpeg"
     },
     {
      "name": "=_UTF-8_B_MTc5MDU4MjY4NzI5NC5qcGc=_=.jpe",
      "fid": "F0C4S0F2K9B",
      "from": "댓글",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790582028_998499-2.jpeg"
     },
     {
      "name": "=_UTF-8_B_MTc5MDU4MzEwMTQ5Ny5wbmc=_=.png",
      "fid": "F0C4X14TMB4",
      "from": "댓글",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790582028_998499-3.png"
     },
     {
      "name": "=_UTF-8_B_MTc5MDU4Mjc5MDA2NC5qcGc=_=.jpe",
      "fid": "F0C5RFL5U8G",
      "from": "댓글",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790582028_998499-4.jpeg"
     },
     {
      "name": "=_UTF-8_B_MTc5MDU4Mjc5MjQyNS5qcGc=_=.jpe",
      "fid": "F0C4S2DSXE1",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": [],
+     "path": "menu-files/1790582028_998499-5.jpeg"
+    },
+    {
+     "name": "=_UTF-8_B_MTc5MDU4MzIxNTE1Ny5qcGc=_=.jpe",
+     "fid": "F0C50R2JS6Q",
      "from": "댓글",
      "kind": "product_photo",
      "menu": []
@@ -747,17 +726,17 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "에그야채샌드위치(반)3,700원",
-    "당근라페샌드위치(반)3,700원",
-    "햄치즈샌드위치(반)\n3,800원",
-    "리코타샌드위치(반)4,200원",
     "에그야채샌드위치+아메리카노=6,000원(대표)\n당근라페샌드위치+아메리카노=6,000원\n햄치즈샌드위치+아메리카노=6,200원\n리코타샌드위칭+아메리카노 =6,500원",
     "세트에 사진넣어야해요",
     "에그세트,당근라페",
-    "햄치즈샌드위치세트"
+    "햄치즈샌드위치세트",
+    "리코타샌드위치세트\\",
+    "에그야채샌드위치(반) 3700원",
+    "당근라페샌드위치 3700원",
+    "리코타샌드위치"
    ],
-   "rc": 13,
-   "lr": "1790583320.424069",
+   "rc": 10,
+   "lr": "1790583356.169599",
    "rfx": 3,
    "status": "wait",
    "handler": null,
