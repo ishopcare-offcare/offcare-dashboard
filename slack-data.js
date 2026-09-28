@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13653,
+  "version": 13654,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207758,7 +207758,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "심성현": 3,
-          "배선유": 1,
+          "배선유": 2,
           "김현기": 1
         },
         "transfer": {
@@ -207781,6 +207781,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "본사 담당자와 통화 완료했습니다."
+        },
+        {
+          "time": "09:44",
+          "store": "뚜레쥬르 킨텍스2전시장",
+          "biz": "1283678896",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "주방 주문서 출력 오류, 메뉴별 출력이 되지 않는다고 합니다 확인 부탁드립니다:모코코_꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
         },
         {
           "time": "09:30",
@@ -207873,10 +207884,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "09:45"
+      "updatedAt": "09:49"
     }
   },
   "resp": {
@@ -207917,11 +207928,11 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790556378.855
+        "lastSeen": 1790556590.646
       },
       "1790555400.734859": {
         "post": "1790555400.734859",
-        "lastSeen": 1790556378.855
+        "lastSeen": 1790556590.646
       }
     },
     "days": {
@@ -275392,7 +275403,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 09:46",
+    "at": "2026-09-28 09:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
