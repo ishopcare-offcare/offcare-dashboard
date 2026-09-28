@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14239,
+  "version": 14240,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215512,7 +215512,10 @@ window.SLACK_DATA = {
       },
       "1790634600.866769": {
         "post": "1790634600.866769",
-        "lastSeen": 1790634631.203
+        "lastSeen": 1790635525.982,
+        "r": 1,
+        "day": "2026-09-29",
+        "idx": 0
       }
     },
     "days": {
@@ -284882,11 +284885,26 @@ window.SLACK_DATA = {
             "dmin": 2.4
           }
         ]
+      },
+      "2026-09-29": {
+        "cnt": 1,
+        "sumMin": 7.962095518906911,
+        "over": 0,
+        "items": [
+          {
+            "hm": "07:30",
+            "min": 8,
+            "store": "코즈커피",
+            "biz": "4500503643",
+            "who": "김동욱",
+            "cat": "transfer"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-29 07:30",
+    "at": "2026-09-29 07:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
