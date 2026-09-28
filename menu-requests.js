@@ -3,10 +3,290 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2560,
- "updatedAt": "2026-09-28 10:43",
+ "version": 2561,
+ "updatedAt": "2026-09-28 10:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1790559946.934929",
+   "date": "2026-09-28",
+   "time": "10:45",
+   "store": "윈폴 Windfall",
+   "biz": "4261702305",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20260928_103235.jpg.jpeg",
+     "fid": "F0C4NPPLACT",
+     "from": "댓글",
+     "path": "menu-files/1790559946_934929-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노[HOT]",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "바닐라떼[HOT]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼[HOT]",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "발로나[HOT]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "코돈라떼[HOT]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노[ICE]",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "바닐라떼[ICE]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼[ICE]",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "발로나[ICE]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "코돈라떼[ICE]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "디아메리카노[HOT]",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "피넛크림라떼[ICE]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "말차라떼[ICE]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "밀크티[ICE]",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "크림라떼[ICE]",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "디아메리카노[ICE]",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "디카페인",
+       "price": 800
+      },
+      {
+       "category": "커피",
+       "name": "샷추가",
+       "price": 800
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_103239.jpg.jpeg",
+     "fid": "F0C4WUF4XR7",
+     "from": "댓글",
+     "path": "menu-files/1790559946_934929-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "자몽차",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "자몽블랙티",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "아이스티",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "얼그레이 TWG",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "루이보스 TWG",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "카모마일",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "밀크티",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "레몬차",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "딸기라떼 [ICE]",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "착즙 오렌즈 쥬스",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "유자차",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "생강차",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "말리부 파운드케이크",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "당근케이크",
+       "price": 6000
+      },
+      {
+       "category": "에이드",
+       "name": "치즈케이크",
+       "price": 4500
+      },
+      {
+       "category": "에이드",
+       "name": "브라우니",
+       "price": 3500
+      },
+      {
+       "category": "에이드",
+       "name": "에그타르트",
+       "price": 3000
+      },
+      {
+       "category": "에이드",
+       "name": "비에누나 쿠키",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "마들렌",
+       "price": 2500
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 1000
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 2900
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 2500
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 3000
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 3500
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "쿠키류",
+       "price": 6000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790559963.240659",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790559946934929"
+  },
   {
    "ts": "1790559571.271339",
    "date": "2026-09-28",
