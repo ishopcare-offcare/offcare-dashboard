@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13634,
+  "version": 13635,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -212723,12 +212723,26 @@ window.SLACK_DATA = {
     },
     "2026-09-28": {
       "counts": {
+        "as": {
+          "심성현": 1
+        },
         "menu": {
           "배선유": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:11",
+          "store": "조우딘 과자점",
+          "biz": "2782402121",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "태블릿 세트 이용중 주문번호 나오지 않게, 영수증만 출력될 수 있도록 세팅 원격 요청주시어 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "매장 아님 설정 방법 안내 완료"
+        },
         {
           "time": "09:10",
           "store": "황금 코다리",
@@ -212742,7 +212756,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -212787,7 +212801,7 @@ window.SLACK_DATA = {
       },
       "1790553609.438779": {
         "post": "1790553609.438779",
-        "lastSeen": 1790554527.14
+        "lastSeen": 1790554597.651
       }
     },
     "days": {
@@ -280233,7 +280247,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 09:15",
+    "at": "2026-09-28 09:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
