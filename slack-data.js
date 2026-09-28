@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13754,
+  "version": 13755,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -133153,9 +133153,6 @@ window.SLACK_DATA = {
           "최민석": 1,
           "김규빈": 11,
           "배선유": 8
-        },
-        "delivery": {
-          "최민석": 2
         }
       },
       "pending": [
@@ -134042,17 +134039,6 @@ window.SLACK_DATA = {
           "note": "온보딩 사용 방법 전달 완료"
         },
         {
-          "time": "16:19",
-          "store": "타렛카페",
-          "biz": "1370288490",
-          "cat": "delivery",
-          "emp": "최민석",
-          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 매장 외관 사진 1장",
-          "hw": "",
-          "intake": "online",
-          "note": "프로그램 설치 및 사진수취 완료"
-        },
-        {
           "time": "16:15",
           "store": "리투샵",
           "biz": "1650702094",
@@ -134724,17 +134710,6 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "포프(PC) 온보딩 및 사용법 안내완료"
-        },
-        {
-          "time": "14:30",
-          "store": "오늘기분 수송점",
-          "biz": "5269102357",
-          "cat": "delivery",
-          "emp": "최민석",
-          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 매장 외관 사진 1장",
-          "hw": "",
-          "intake": "online",
-          "note": "프로그램 설치 및 사진수취 완료"
         },
         {
           "time": "14:29",
@@ -136295,7 +136270,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 242,
+        "online": 240,
         "offline": 41,
         "unknown": 0
       },
@@ -202846,7 +202821,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "11:42"
+      "updatedAt": "11:45"
     }
   },
   "resp": {
@@ -202887,17 +202862,21 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790563491.549,
+        "lastSeen": 1790563524.494,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
       },
       "1790563329.186069": {
         "post": "1790563329.186069",
-        "lastSeen": 1790563491.549,
+        "lastSeen": 1790563524.494,
         "r": 1,
         "day": "2026-09-28",
         "idx": 22
+      },
+      "1790563509.593529": {
+        "post": "1790563509.593529",
+        "lastSeen": 1790563524.494
       }
     },
     "days": {
@@ -270555,7 +270534,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:44",
+    "at": "2026-09-28 11:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
