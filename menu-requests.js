@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2577,
- "updatedAt": "2026-09-28 14:13",
+ "version": 2578,
+ "updatedAt": "2026-09-28 14:15",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "1000012516.jpg",
      "fid": "F0C4ZJFAJQL",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -41,13 +40,13 @@ window.MENU_REQUESTS = {
        "name": "2025 슈톨렌",
        "price": 38000
       }
-     ]
+     ],
+     "path": "menu-files/1790572151_647679-0.jpg"
     },
     {
      "name": "1000012517.jpg",
      "fid": "F0C4XSD7Q9F",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -150,13 +149,13 @@ window.MENU_REQUESTS = {
        "name": "바닐라라떼",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1790572151_647679-1.jpg"
     },
     {
      "name": "1000012518.jpg",
      "fid": "F0C4PMMLGQ3",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -234,7 +233,8 @@ window.MENU_REQUESTS = {
        "name": "바닐라라떼",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1790572151_647679-2.jpg"
     },
     {
      "name": "1000012519.jpg",
@@ -246,13 +246,30 @@ window.MENU_REQUESTS = {
      "name": "1000012520.jpg",
      "fid": "F0C4ZJFV9QU",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-4.jpg"
+     "path": "menu-files/1790572151_647679-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "프리미엄",
+       "name": "프리미엄라떼",
+       "price": 5000
+      },
+      {
+       "category": "프리미엄",
+       "name": "블랙 밀크씨앗",
+       "price": 6500
+      },
+      {
+       "category": "프리미엄",
+       "name": "프리미엄라떼",
+       "price": 5000
+      }
+     ]
     },
     {
      "name": "1000012521.jpg",
      "fid": "F0C4EH7M3TR",
      "from": "댓글",
-     "path": "menu-files/1790572151_647679-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -280,7 +297,8 @@ window.MENU_REQUESTS = {
        "name": "유산지백(대)",
        "price": 5500
       }
-     ]
+     ],
+     "path": "menu-files/1790572151_647679-5.jpg"
     },
     {
      "name": "1000012522.jpg",
@@ -385,8 +403,8 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790572083.103299",
+   "rc": 2,
+   "lr": "1790572335.796419",
    "rfx": 3,
    "status": "wait",
    "handler": null,
