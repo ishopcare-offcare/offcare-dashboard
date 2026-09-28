@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2556,
- "updatedAt": "2026-09-28 10:35",
+ "version": 2557,
+ "updatedAt": "2026-09-28 10:38",
  "days": 30,
  "items": [
   {
@@ -44,8 +44,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "포스의 메뉴중 2종 키오스크에 활성화 요청\n\n*면 카테고리 2종\n\n*(숙성간장)냉모밀 9900*\n*냉모밀곱배기11900*"
    ],
-   "rc": 2,
-   "lr": "1790559230.316069",
+   "rc": 3,
+   "lr": "1790559495.534889",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
