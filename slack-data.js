@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13684,
+  "version": 13685,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207711,6 +207711,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "transfer": {
+          "송태양": 1,
           "김동욱": 1
         },
         "menu": {
@@ -207876,6 +207877,17 @@ window.SLACK_DATA = {
         },
         {
           "time": "09:30",
+          "store": "중화교동 본점",
+          "biz": "5302502157",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "9월 28일 오전 10시 / 메뉴 복사 O / 프론트, 포스, 유프, 금전함, CAT",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "09:30",
           "store": "우디사진관 수원점",
           "biz": "1741803109",
           "cat": "booking",
@@ -207964,11 +207976,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:22"
+      "updatedAt": "10:30"
     }
   },
   "resp": {
@@ -208007,19 +208019,16 @@ window.SLACK_DATA = {
         "post": "1790521245.734409",
         "lastSeen": 1790540127.21
       },
-      "1790555402.251789": {
-        "post": "1790555402.251789",
-        "lastSeen": 1790558876.712,
-        "r": 1,
-        "day": "2026-09-28",
-        "idx": 6
-      },
       "1790557201.517539": {
         "post": "1790557201.517539",
-        "lastSeen": 1790558876.712,
+        "lastSeen": 1790559018.743,
         "r": 1,
         "day": "2026-09-28",
         "idx": 5
+      },
+      "1790559002.026629": {
+        "post": "1790559002.026629",
+        "lastSeen": 1790559018.743
       }
     },
     "days": {
@@ -275526,7 +275535,8 @@ window.SLACK_DATA = {
             "store": "중화교동 본점",
             "biz": "5302502157",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 59.1
           },
           {
             "hm": "09:53",
@@ -275542,7 +275552,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 10:28",
+    "at": "2026-09-28 10:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
