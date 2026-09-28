@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2600,
- "updatedAt": "2026-09-28 17:10",
+ "version": 2601,
+ "updatedAt": "2026-09-28 17:13",
  "days": 30,
  "items": [
   {
@@ -981,10 +981,11 @@ window.MENU_REQUESTS = {
     "안녕하세요, 해당 파일에 일부 수정해야 될 내용이 있어서 수정항목만 붉은색 표기하여 다시 발송해주신다고 합니다!\n참고 부탁드리겠습니다. :woman-bowing::skin-tone-2:",
     "• 메일제목: 데이리프",
     "확인했습니다",
-    "옵션 추가 하시는거같습니다"
+    "옵션 추가 하시는거같습니다",
+    "옵션 완료입니다"
    ],
-   "rc": 9,
-   "lr": "1790582983.755399",
+   "rc": 10,
+   "lr": "1790583214.634219",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
