@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13736,
+  "version": 13737,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -202417,7 +202417,7 @@ window.SLACK_DATA = {
           "req": "노트북과 유프 AB케이블로 연결하여 배달 주문서 출력되도록 세팅,",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "AB케이블 연결 및 배달 출력 연동 완료 기기 추가 프론트 키오스크 모드 온보딩 완료"
         },
         {
           "time": "10:47",
@@ -202818,7 +202818,7 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790562493.485,
+        "lastSeen": 1790562560.228,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
@@ -270462,7 +270462,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:28",
+    "at": "2026-09-28 11:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
