@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13692,
+  "version": 13693,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207718,6 +207718,9 @@ window.SLACK_DATA = {
           "심성현": 1,
           "배선유": 3,
           "김동욱": 1
+        },
+        "delivery": {
+          "김동욱": 1
         }
       },
       "pending": [
@@ -207821,6 +207824,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "매장 아님 1115 재예약"
+        },
+        {
+          "time": "10:00",
+          "store": "카페 오넬",
+          "biz": "5491003011",
+          "cat": "delivery",
+          "emp": "김동욱",
+          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 스티커 부착된 매장 외관 사진 1장 (간판 나오게)",
+          "hw": "",
+          "intake": "online",
+          "note": "30분 뒤 통화요청"
         },
         {
           "time": "09:56",
@@ -208000,7 +208014,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 5,
         "unknown": 0
       },
@@ -208043,30 +208057,23 @@ window.SLACK_DATA = {
         "post": "1790521245.734409",
         "lastSeen": 1790540127.21
       },
-      "1790557201.517539": {
-        "post": "1790557201.517539",
-        "lastSeen": 1790559636.266,
-        "r": 1,
-        "day": "2026-09-28",
-        "idx": 5
-      },
       "1790559002.026629": {
         "post": "1790559002.026629",
-        "lastSeen": 1790559636.266,
+        "lastSeen": 1790559771.436,
         "r": 1,
         "day": "2026-09-28",
         "idx": 8
       },
       "1790559287.794999": {
         "post": "1790559287.794999",
-        "lastSeen": 1790559636.266,
+        "lastSeen": 1790559771.436,
         "r": 1,
         "day": "2026-09-28",
         "idx": 9
       },
       "1790559571.271339": {
         "post": "1790559571.271339",
-        "lastSeen": 1790559636.266
+        "lastSeen": 1790559771.436
       }
     },
     "days": {
@@ -275565,7 +275572,8 @@ window.SLACK_DATA = {
             "store": "카페 오넬",
             "biz": "5491003011",
             "who": "김동욱",
-            "cat": "delivery"
+            "cat": "delivery",
+            "dmin": 41.7
           },
           {
             "hm": "09:30",
@@ -275606,7 +275614,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 10:40",
+    "at": "2026-09-28 10:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
