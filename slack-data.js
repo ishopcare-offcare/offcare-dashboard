@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13663,
+  "version": 13664,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207757,12 +207757,14 @@ window.SLACK_DATA = {
     "2026-09-28": {
       "counts": {
         "as": {
+          "고경림": 1,
           "김동욱": 2,
           "심성현": 4,
           "배선유": 2,
           "김현기": 1
         },
         "booking": {
+          "심성현": 1,
           "송태양": 1
         },
         "transfer": {
@@ -207775,6 +207777,28 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "컴플리트커피",
+          "biz": "2102693178",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "주문서 출력 불가, 인식 느림 / 점검 부탁드립니다:꾸벅담곰:",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
+        {
+          "time": "10:00",
+          "store": "레이어드뷰티",
+          "biz": "4044900370",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "포프(노트북) 사용 중, 포스 프로그램 실행 시 화면이 나오지 않는다고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "매장 아님 1115 재예약"
+        },
         {
           "time": "09:56",
           "store": "영종포차",
@@ -207931,11 +207955,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
-        "offline": 3,
+        "online": 12,
+        "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:00"
+      "updatedAt": "10:03"
     }
   },
   "resp": {
@@ -207976,22 +208000,15 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790557325.347
+        "lastSeen": 1790557429.929
       },
       "1790556836.888669": {
         "post": "1790556836.888669",
-        "lastSeen": 1790557325.347
-      },
-      "1790557206.751389": {
-        "post": "1790557206.751389",
-        "lastSeen": 1790557325.347,
-        "r": 1,
-        "day": "2026-09-28",
-        "idx": 4
+        "lastSeen": 1790557429.929
       },
       "1790557201.517539": {
         "post": "1790557201.517539",
-        "lastSeen": 1790557325.347,
+        "lastSeen": 1790557429.929,
         "r": 1,
         "day": "2026-09-28",
         "idx": 5
@@ -275484,7 +275501,8 @@ window.SLACK_DATA = {
             "store": "컴플리트커피",
             "biz": "2102693178",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 2.8
           },
           {
             "hm": "10:00",
@@ -275499,7 +275517,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 10:02",
+    "at": "2026-09-28 10:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
