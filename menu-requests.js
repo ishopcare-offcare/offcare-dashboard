@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2613,
- "updatedAt": "2026-09-28 18:19",
+ "version": 2614,
+ "updatedAt": "2026-09-28 18:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1790588307.050009",
+   "date": "2026-09-28",
+   "time": "18:38",
+   "store": "로칼밥상 평택서정점",
+   "biz": "4492602071",
+   "pos": "토스포스",
+   "content": "메뉴 및 옵션 일괄 등록 요청드립니다.\n메뉴 및 옵션 정보를 엑셀 파일로 정리하여 전달드립니다.\n옵션의 메뉴 연동은 셀프로 진행할 예정입니다.\n확인 후 일괄 등록 부탁드립니다.",
+   "special": "메일로 '로칼 평택서정점' 메뉴 이미지 파일을 전달드리겠습니다.",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790588307050009"
+  },
   {
    "ts": "1790587061.615549",
    "date": "2026-09-28",
