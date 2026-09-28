@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2553,
- "updatedAt": "2026-09-28 10:17",
+ "version": 2554,
+ "updatedAt": "2026-09-28 10:21",
  "days": 30,
  "items": [
   {
@@ -48792,31 +48792,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787970426729939"
-  },
-  {
-   "ts": "1787966440.000679",
-   "date": "2026-08-29",
-   "time": "10:20",
-   "store": "명성정육식당",
-   "biz": "6110658769",
-   "pos": "토스포스",
-   "content": "한우모듬490000원을\n59000원으로\n수정해주세요\n면세포스랑  과세포스\n두군데다  수정해야합니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "유플러스 매장, 토스포스X 대표님께서 잘못 작성하신듯 합니다.\n 님 정말 바쁘시겠지만 대표님께서 온도감이 좀 높으셔서 확인해 주시면 감사하겠습니다 :루피눈물:",
-    "원격 밀려있어서 잠시뒤에 진행하겠습니다.",
-    "완료입니다"
-   ],
-   "rc": 4,
-   "lr": "1787981268.487149",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1787966440000679"
   }
  ],
  "ocr": {
