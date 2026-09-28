@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13764,
+  "version": 13765,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -199569,7 +199569,7 @@ window.SLACK_DATA = {
           "req": "블루투스 연동이 되지 않는다고 합니다. 유선으로 정확한 단말기 확인이 불가 하여 확인 요청드립니다. :woman-bowing::skin-tone-2:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "개인적으로 구매한 블루투스 프린터 연결 문의 / 포스기는 블루투스가 원래 안되느게 맞음 / aux 케이블 구해서 연결 하거나 혹 공기계 등으로 연결하는 경우가 있으니, 대표님이 잘 생각해서 정하면 됨 / 대표님 납득 완료"
         },
         {
           "time": "11:45",
@@ -200191,7 +200191,7 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790564161.444,
+        "lastSeen": 1790564241.06,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
@@ -267871,7 +267871,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:56",
+    "at": "2026-09-28 11:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
