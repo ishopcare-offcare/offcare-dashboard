@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13690,
+  "version": 13691,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207720,7 +207720,19 @@ window.SLACK_DATA = {
           "김동욱": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "09:38",
+          "store": "더크래프트버거세종도담점",
+          "biz": "4291800486",
+          "handler": "배선유",
+          "cat": "menu",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "10:33",
@@ -207988,11 +208000,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:34"
+      "updatedAt": "10:39"
     }
   },
   "resp": {
@@ -208033,18 +208045,25 @@ window.SLACK_DATA = {
       },
       "1790557201.517539": {
         "post": "1790557201.517539",
-        "lastSeen": 1790559514.432,
+        "lastSeen": 1790559585.684,
         "r": 1,
         "day": "2026-09-28",
         "idx": 5
       },
       "1790559002.026629": {
         "post": "1790559002.026629",
-        "lastSeen": 1790559514.432
+        "lastSeen": 1790559585.684,
+        "r": 1,
+        "day": "2026-09-28",
+        "idx": 8
       },
       "1790559287.794999": {
         "post": "1790559287.794999",
-        "lastSeen": 1790559514.432
+        "lastSeen": 1790559585.684
+      },
+      "1790559571.271339": {
+        "post": "1790559571.271339",
+        "lastSeen": 1790559585.684
       }
     },
     "days": {
@@ -275488,8 +275507,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-28": {
-        "cnt": 8,
-        "sumMin": 107.51207878986995,
+        "cnt": 9,
+        "sumMin": 116.64593497514724,
         "over": 1,
         "items": [
           {
@@ -275562,13 +275581,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "menu",
             "dmin": 23
+          },
+          {
+            "hm": "10:30",
+            "min": 9.1,
+            "store": "쏘잉(sewing)",
+            "biz": "4611802678",
+            "who": "송태양",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-28 10:38",
+    "at": "2026-09-28 10:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
