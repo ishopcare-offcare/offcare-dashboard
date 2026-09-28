@@ -1583,7 +1583,7 @@ const TILE_GROUPS = {onboarding:['onboarding','nosetup']};
 const GROUPED_INTO = new Set(Object.values(TILE_GROUPS).flat().filter(k=>!TILE_GROUPS[k]));   // 다른 칸에 합쳐지는 카테고리
 const catMembers = key => TILE_GROUPS[key] || [key];
 const EMP_CATS = WORK_CATS.filter(c=>!GROUPED_INTO.has(c.key));
-const RESP_EXCL_CATS = ['transfer','menu','delivery','booking'];   // 응답시간은 '순수 AS' 적재 — 명의변경·메뉴등록·배달·예약 제외
+const RESP_EXCL_CATS = ['transfer','menu'];   // AS·온보딩 응답/소요시간 카드 — 명의변경·메뉴등록만 제외 (AS·온보딩·미설치·외주·배달·예약 포함)
 // 응답시간(요청→첫 확인) 폴링 집계. 날짜 배열만 받으므로 선택 기간·최근 7일·최근 30일에 그대로 재사용한다
 function respStats(dates){
   const R=(window.SLACK_DATA&&window.SLACK_DATA.resp&&window.SLACK_DATA.resp.days)||{};
@@ -5068,7 +5068,7 @@ function renderOverview(){
       </div>
       <div class="hl-card mint${respAgg.cnt?' clickable':''}"${respAgg.cnt?' onclick="showRespDetail()" title="클릭 → 건별 응답시간 상세(정렬)"':''}>
         <div class="hl-ic">⏱️</div>
-        <div class="hl-lab">${periodWord} AS·온보딩 평균 응답시간 ${respAgg.cnt?'<span class="hl-drill">🔎</span>':'<span class="hl-drill" title="요청글이 올라온 뒤 담당자 확인 이모지가 찍히기까지 걸린 평균 시간 (10분 폴링 근사) · AS·온보딩·외주 포함, 명의변경·메뉴등록·배달 제외">ⓘ</span>'}</div>
+        <div class="hl-lab">${periodWord} AS·온보딩 평균 응답시간 ${respAgg.cnt?'<span class="hl-drill">🔎</span>':'<span class="hl-drill" title="요청글이 올라온 뒤 담당자 확인 이모지가 찍히기까지 걸린 평균 시간 (10분 폴링 근사) · AS·온보딩·외주·배달·예약 포함, 명의변경·메뉴등록 제외">ⓘ</span>'}</div>
         <div class="hl-big">${respAgg.cnt?`${respAgg.avg}<small>분</small>`:`<span style="font-size:21px;color:var(--gray2);font-weight:700">집계 대기중</span>`}</div>
         <div class="ov-delta flat"><span>${respAgg.cnt?`지연율(30분↑) ${respAgg.overRate}% · ${respAgg.cnt}건 기준`:'배포 후 인입 건부터 순차 집계'}</span></div>
         <div class="hl-trend">
@@ -5082,7 +5082,7 @@ function renderOverview(){
       </div>
       <div class="hl-card plum${doneAgg.cnt?' clickable':''}"${doneAgg.cnt?' onclick="showRespDetail(null,\'dslow\')" title="클릭 → 건별 소요시간 상세(정렬)"':''}>
         <div class="hl-ic">🛠️</div>
-        <div class="hl-lab">${periodWord} AS·온보딩 평균 소요시간 ${doneAgg.cnt?'<span class="hl-drill">🔎</span>':'<span class="hl-drill" title="요청글이 올라온 뒤 처리 완료 이모지(원격as·원격온보딩·원격외주)가 찍히기까지 걸린 평균 시간 (10분 폴링 근사) · 명의변경·메뉴등록·배달 제외">ⓘ</span>'}</div>
+        <div class="hl-lab">${periodWord} AS·온보딩 평균 소요시간 ${doneAgg.cnt?'<span class="hl-drill">🔎</span>':'<span class="hl-drill" title="요청글이 올라온 뒤 처리 완료 이모지(원격as·원격온보딩·원격외주·원격배달·원격예약)가 찍히기까지 걸린 평균 시간 (10분 폴링 근사) · 명의변경·메뉴등록 제외">ⓘ</span>'}</div>
         <div class="hl-big">${doneAgg.cnt?`${doneAgg.avg}<small>분</small>`:`<span style="font-size:21px;color:var(--gray2);font-weight:700">집계 대기중</span>`}</div>
         <div class="ov-delta flat"><span>${doneAgg.cnt?`완료 이모지 기준 · ${doneAgg.cnt}건 기준`:'완료 이모지가 찍힌 건부터 순차 집계'}</span></div>
         <div class="hl-trend">
@@ -5338,7 +5338,7 @@ function showRespDetail(days, sort, cat){
   const R=(window.SLACK_DATA&&window.SLACK_DATA.resp&&window.SLACK_DATA.resp.days)||{};
   respDetailItems=[];
   for(const d of dates){ const arr=(R[d]&&R[d].items)||[]; for(const it of arr) respDetailItems.push(Object.assign({date:d}, it)); }
-  respDetailItems=respDetailItems.filter(x=>!(x.cat&&RESP_EXCL_CATS.includes(x.cat)));   // 순수 AS 적재 — 명변·메뉴등록·배달 제외
+  respDetailItems=respDetailItems.filter(x=>!(x.cat&&RESP_EXCL_CATS.includes(x.cat)));   // AS·온보딩 카드와 같은 규칙 — 명변·메뉴등록만 제외
   if(ovShift==='night') respDetailItems=respDetailItems.filter(x=>isNightTime(x.hm));
   respSortMode = sort || 'fast';
   renderRespModal();

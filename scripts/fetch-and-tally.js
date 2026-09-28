@@ -488,7 +488,7 @@ function trackResp(data, msgs, ch) {
       continue;
     }
     // 카테고리 판정(tallyInto 규칙). 전 카테고리를 측정해 cat 과 함께 남긴다 — 대시보드가 카테고리별로 나눠 본다.
-    // (전체 'AS·온보딩' 카드는 대시보드의 RESP_EXCL_CATS 로 명변·메뉴등록·배달·예약을 뺀다)
+    // (전체 'AS·온보딩' 카드는 대시보드의 RESP_EXCL_CATS 로 명변·메뉴등록을 뺀다)
     const emojiCat = workCatOf(names);
     const catKey = names.includes('원격외주') ? 'extern' : (isNoSetup(m) ? 'nosetup' : (emojiCat || (ch && ch.defaultCat) || 'as'));
     const day = kstDate(m.ts);
