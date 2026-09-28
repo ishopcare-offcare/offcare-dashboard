@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13782,
+  "version": 13783,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -199522,8 +199522,8 @@ window.SLACK_DATA = {
     "2026-09-28": {
       "counts": {
         "as": {
+          "김현기": 7,
           "송태양": 2,
-          "김현기": 6,
           "심성현": 8,
           "배선유": 8,
           "김동욱": 5,
@@ -199573,6 +199573,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "12:19",
+          "store": "피아2",
+          "biz": "4666800802",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "카카오페이 등록법 / 바코드 관련 기본적인 상담",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:04",
           "store": "카페인 명인만두 동탄호수공원점",
@@ -200203,7 +200214,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 46,
+        "online": 47,
         "offline": 12,
         "unknown": 0
       },
@@ -200248,14 +200259,14 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790565593.972,
+        "lastSeen": 1790565656.234,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
       },
       "1790564402.343299": {
         "post": "1790564402.343299",
-        "lastSeen": 1790565593.972,
+        "lastSeen": 1790565656.234,
         "r": 1,
         "day": "2026-09-28",
         "idx": 26
@@ -267961,7 +267972,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 12:19",
+    "at": "2026-09-28 12:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
