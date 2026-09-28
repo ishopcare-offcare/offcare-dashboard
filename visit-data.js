@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-09-28 16:42 KST · 145건 (2026-07-01 이후)
+ * 갱신: 2026-09-28 16:45 KST · 145건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-09-28 16:42',
+  updatedAt: '2026-09-28 16:45',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -150,6 +150,6 @@ window.VISIT_DATA = {
   {"id":"15002","date":"2026-09-23","time":"15:16","store":"교촌치킨당진기지시점","biz":"1180430012","kind":"설치","status":"pending","visitDate":"2026-09-30","region":"지방","route":"온라인","addr":"충청남도 당진시","van":"KIS","equip":"데스크탑 프론트 유선프린트","ship":"2026-09-23","delivery":"","requester":"","assignee":"C&L테크","rounds":0,"roundDates":[],"brand":"교촌치킨"},
   {"id":"15027","date":"2026-09-26","time":"20:23","store":"피자스쿨석계점","biz":"2170954150","kind":"AS","status":"done","visitDate":"2026-09-28","region":"수도권","route":"오프라인","addr":"서울특별시 노원구","van":"KIS","equip":"DK-9300","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":0,"roundDates":[],"brand":"피자스쿨"},
   {"id":"15045","date":"2026-09-28","time":"11:17","store":"미친피자 안양점","biz":"3643201433","kind":"설치","status":"pending","visitDate":"2026-09-29","region":"수도권","route":"오프라인","addr":"경기도 안양시 동안구","van":"KIS","equip":"개인 PC + 프론트 1EA","ship":"2026-09-23","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"미친피자"},
-  {"id":"15095","date":"2026-09-28","time":"16:40","store":"동동국밥 부산명지국제신도시점","biz":"1490603736","kind":"설치","status":"pending","visitDate":"2026-10-02","region":"지방","route":"오프라인","addr":"부산광역시 강서구","van":"KIS","equip":"포스 프론트 유선프린터2대 금전함","ship":"2026-09-28","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"동동국밥"},
+  {"id":"15095","date":"2026-09-28","time":"16:40","store":"동동국밥 부산명지국제신도시점","biz":"1490603736","kind":"설치","status":"pending","visitDate":"2026-10-02","region":"지방","route":"오프라인","addr":"부산광역시 강서구","van":"KIS","equip":"포스 프론트 유선프린터2대 금전함","ship":"2026-09-28","delivery":"","requester":"","assignee":"페이닷","rounds":0,"roundDates":[],"brand":"동동국밥"},
   ],
 };
