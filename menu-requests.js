@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2595,
- "updatedAt": "2026-09-28 16:59",
+ "version": 2596,
+ "updatedAt": "2026-09-28 17:05",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,639 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20260928_165444.jpg.jpeg",
+     "fid": "F0C4RUUGH61",
+     "from": "댓글",
+     "path": "menu-files/1790582190_088589-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "파스타",
+       "name": "까르보나라",
+       "price": 10000
+      },
+      {
+       "category": "파스타",
+       "name": "날치알파스타",
+       "price": 11000
+      },
+      {
+       "category": "파스타",
+       "name": "매콤크림파스타",
+       "price": 12000
+      },
+      {
+       "category": "파스타",
+       "name": "수제라구파스타",
+       "price": 12000
+      },
+      {
+       "category": "파스타",
+       "name": "새우로제파스타",
+       "price": 12000
+      },
+      {
+       "category": "파스타",
+       "name": "두움바파스타",
+       "price": 11000
+      },
+      {
+       "category": "파스타",
+       "name": "불고기크림파스타",
+       "price": 14000
+      },
+      {
+       "category": "파스타",
+       "name": "짬뽕파스타",
+       "price": 14000
+      },
+      {
+       "category": "파스타",
+       "name": "새우해장파스타",
+       "price": 14000
+      },
+      {
+       "category": "파스타",
+       "name": "세트 에이드",
+       "price": 3000
+      },
+      {
+       "category": "파스타",
+       "name": "청포도 에이드",
+       "price": 0
+      },
+      {
+       "category": "파스타",
+       "name": "오렌지 에이드",
+       "price": 0
+      },
+      {
+       "category": "파스타",
+       "name": "레몬에이드",
+       "price": 0
+      },
+      {
+       "category": "파스타",
+       "name": "파스타변경",
+       "price": 1000
+      },
+      {
+       "category": "파스타",
+       "name": "파스타변경",
+       "price": 4000
+      },
+      {
+       "category": "파스타",
+       "name": "파스타변경",
+       "price": 2000
+      },
+      {
+       "category": "파스타",
+       "name": "세트데이",
+       "price": 29000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165447.jpg.jpeg",
+     "fid": "F0C4Z0GHTJ5",
+     "from": "댓글",
+     "path": "menu-files/1790582190_088589-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "돈까스/함박",
+       "name": "수제 돈까스",
+       "price": 11000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "수제 치즈 돈까스",
+       "price": 13000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "함박 스테이크",
+       "price": 12000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "치즈 함박 스테이크",
+       "price": 13000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "돈까스 1피스",
+       "price": 7000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "함박 1피스",
+       "price": 7000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "모짜렐라 치즈 추가",
+       "price": 3000
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "후라이 추가",
+       "price": 1500
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "공깃밥",
+       "price": 1500
+      },
+      {
+       "category": "돈까스/함박",
+       "name": "테이세트",
+       "price": 29000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165450.jpg.jpeg",
+     "fid": "F0C4WTUEUSE",
+     "from": "댓글",
+     "path": "menu-files/1790582190_088589-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "필라프",
+       "name": "계란볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "필라프",
+       "name": "새우볶음밥",
+       "price": 9000
+      },
+      {
+       "category": "필라프",
+       "name": "베이컨볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "필라프",
+       "name": "김치도리아",
+       "price": 9000
+      },
+      {
+       "category": "필라프",
+       "name": "돈까스 1피스",
+       "price": 7000
+      },
+      {
+       "category": "필라프",
+       "name": "함박 1피스",
+       "price": 7000
+      },
+      {
+       "category": "필라프",
+       "name": "모짜렐라 치즈 추가",
+       "price": 3000
+      },
+      {
+       "category": "필라프",
+       "name": "후라이 추가",
+       "price": 1500
+      },
+      {
+       "category": "필라프",
+       "name": "공깃밥",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165453.jpg.jpeg",
+     "fid": "F0C4RUW8K9T",
+     "from": "댓글",
+     "path": "menu-files/1790582190_088589-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨",
+       "name": "후라이드치킨",
+       "price": 18000
+      },
+      {
+       "category": "치킨",
+       "name": "양념치킨",
+       "price": 19000
+      },
+      {
+       "category": "치킨",
+       "name": "반반치킨",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "치즈 스노잉 치킨",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "슈프림 양념 치킨",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "옛날통닭",
+       "price": 15000
+      },
+      {
+       "category": "치킨",
+       "name": "양념소스",
+       "price": 1000
+      },
+      {
+       "category": "치킨",
+       "name": "블랙페퍼마요",
+       "price": 1000
+      },
+      {
+       "category": "치킨",
+       "name": "닭똥집",
+       "price": 14000
+      },
+      {
+       "category": "치킨",
+       "name": "볼케이노",
+       "price": 1000
+      },
+      {
+       "category": "치킨",
+       "name": "양배추 샐러드",
+       "price": 2000
+      },
+      {
+       "category": "치킨",
+       "name": "청양마요",
+       "price": 1000
+      },
+      {
+       "category": "치킨",
+       "name": "떡추가",
+       "price": 1500
+      },
+      {
+       "category": "치킨",
+       "name": "모둠 감자 튀김 중",
+       "price": 10000
+      },
+      {
+       "category": "치킨",
+       "name": "모둠 감자 튀김 대",
+       "price": 15000
+      },
+      {
+       "category": "치킨",
+       "name": "포장할인",
+       "price": -1000
+      },
+      {
+       "category": "치킨",
+       "name": "리뷰음료수",
+       "price": 0
+      },
+      {
+       "category": "치킨",
+       "name": "면추가",
+       "price": 1500
+      },
+      {
+       "category": "치킨",
+       "name": "(포장)옛날통닭1마리",
+       "price": 12000
+      },
+      {
+       "category": "치킨",
+       "name": "(포장)옛날통닭2마리",
+       "price": 22000
+      },
+      {
+       "category": "치킨",
+       "name": "무추가",
+       "price": 500
+      },
+      {
+       "category": "치킨",
+       "name": "나잇세트",
+       "price": 34000
+      },
+      {
+       "category": "치킨",
+       "name": "순살변경",
+       "price": 1000
+      },
+      {
+       "category": "치킨",
+       "name": "국물 닭발",
+       "price": 24000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165456.jpg.jpeg",
+     "fid": "F0C4V3L884W",
+     "from": "댓글",
+     "path": "menu-files/1790582190_088589-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "김치우동나베",
+       "price": 23000
+      },
+      {
+       "category": "",
+       "name": "얼큰해물찜",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "간장폭탄매콤탕",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "라면 묵은지 김치찜",
+       "price": 32000
+      },
+      {
+       "category": "",
+       "name": "김치도리아",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "닭한마리탕",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "직화민대구이",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "촉촉바삭노가리",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "매콤 국물 닭발",
+       "price": 24000
+      },
+      {
+       "category": "",
+       "name": "와인셔벳",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "날치알주먹밥",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "불맛왕문어",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "당면꼼짝",
+       "price": 28000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165458.jpg.jpeg",
+     "fid": "F0C4FLSAWDD",
+     "from": "댓글",
+     "path": "menu-files/1790582190_088589-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "골뱅이소면",
+       "price": 21000
+      },
+      {
+       "category": "",
+       "name": "고르곤졸라씬피자",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "국물떡볶아",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "수제 라구 파스타",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "짜장떡뽀끼",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "까르보나라",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "짬뽕 파스타",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "새우로제파스타",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "데이수제돈까스",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "수제함박스테이크",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "데이수제치즈돈까스",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "데이치즈함박스테이크",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "불고기 씬 피자",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "수박샤베트",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "바게트추가 4P",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "치즈 추가",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165501.jpg.jpeg",
+     "fid": "F0C4FLSNFKR",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류음료",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "테라 생맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "테라 병맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "카스 병맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "켈리 병맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "사장님 하이볼",
+       "price": 7900
+      },
+      {
+       "category": "주류음료",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "환타 파인",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "오렌지쥬스",
+       "price": 3000
+      },
+      {
+       "category": "주류음료",
+       "name": "청포도에이드",
+       "price": 4000
+      },
+      {
+       "category": "주류음료",
+       "name": "레몬에이드",
+       "price": 4000
+      },
+      {
+       "category": "주류음료",
+       "name": "오렌지에이드",
+       "price": 4000
+      },
+      {
+       "category": "주류음료",
+       "name": "천씨씨 포장",
+       "price": 7000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_165504.jpg.jpeg",
+     "fid": "F0C4RUXLH53",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "치즈추가",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "새우추가",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "순살변경",
+       "price": 1000
+      }
+     ]
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790582192.926219",
+   "replies": [
+    "진로 5000원\n처음처럼 5000원 추가"
+   ],
+   "rc": 3,
+   "lr": "1790582573.183949",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -368,9 +996,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "뷰어파일로 작업 못함 전화필요",
+    "이메일 주소로 보내주시기로함"
+   ],
+   "rc": 2,
+   "lr": "1790582694.679339",
    "rfx": 3,
    "status": "wait",
    "handler": null,
