@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2601,
- "updatedAt": "2026-09-28 17:13",
+ "version": 2602,
+ "updatedAt": "2026-09-28 17:15",
  "days": 30,
  "items": [
   {
@@ -722,6 +722,27 @@ window.MENU_REQUESTS = {
      "from": "댓글",
      "kind": "product_photo",
      "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_MTc5MDU4MzEwMTQ5Ny5wbmc=_=.png",
+     "fid": "F0C4X14TMB4",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_MTc5MDU4Mjc5MDA2NC5qcGc=_=.jpe",
+     "fid": "F0C5RFL5U8G",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_MTc5MDU4Mjc5MjQyNS5qcGc=_=.jpe",
+     "fid": "F0C4S2DSXE1",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": []
     }
    ],
    "datt": [],
@@ -735,8 +756,8 @@ window.MENU_REQUESTS = {
     "에그세트,당근라페",
     "햄치즈샌드위치세트"
    ],
-   "rc": 10,
-   "lr": "1790582808.304499",
+   "rc": 13,
+   "lr": "1790583320.424069",
    "rfx": 3,
    "status": "wait",
    "handler": null,
