@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2554,
- "updatedAt": "2026-09-28 10:21",
+ "version": 2555,
+ "updatedAt": "2026-09-28 10:34",
  "days": 30,
  "items": [
+  {
+   "ts": "1790559202.033459",
+   "date": "2026-09-28",
+   "time": "10:33",
+   "store": "넉넉",
+   "biz": "4721102965",
+   "pos": "오케이포스",
+   "content": "오케이포스 / 키오스크에 메뉴 활성화 요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "포스의 메뉴중 2종 키오스크에 활성화 요청\n\n*면 카테고리 2종\n\n*(숙성간장)냉모밀 9900*\n*냉모밀곱배기11900*"
+   ],
+   "rc": 2,
+   "lr": "1790559230.316069",
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790559202033459"
+  },
   {
    "ts": "1790556836.888669",
    "date": "2026-09-28",
