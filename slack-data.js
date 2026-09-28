@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14240,
+  "version": 14241,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215352,11 +215352,27 @@ window.SLACK_DATA = {
       }
     },
     "2026-09-29": {
-      "counts": {},
+      "counts": {
+        "transfer": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "07:30",
+          "store": "코즈커피",
+          "biz": "4500503643",
+          "cat": "transfer",
+          "emp": "김동욱",
+          "req": "9월 28일 지금 바로 / 메뉴 복사 O / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(아이패드) + 노트북(유프) 명의변경 완료"
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -215509,13 +215525,6 @@ window.SLACK_DATA = {
       "1790607789.583989": {
         "post": "1790607789.583989",
         "lastSeen": 1790626550.124
-      },
-      "1790634600.866769": {
-        "post": "1790634600.866769",
-        "lastSeen": 1790635525.982,
-        "r": 1,
-        "day": "2026-09-29",
-        "idx": 0
       }
     },
     "days": {
@@ -284897,20 +284906,21 @@ window.SLACK_DATA = {
             "store": "코즈커피",
             "biz": "4500503643",
             "who": "김동욱",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 23.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-29 07:45",
+    "at": "2026-09-29 08:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4264,
+    "rows": 4267,
     "named": 970,
     "unknownName": 0,
     "beforeStart": 0,
