@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13667,
+  "version": 13668,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207789,7 +207789,7 @@ window.SLACK_DATA = {
           "req": "외주 전환설치",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "영수 com3"
         },
         {
           "time": "10:00",
@@ -208014,18 +208014,21 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790557567.669,
+        "lastSeen": 1790557632.825,
         "r": 1,
         "day": "2026-09-28",
         "idx": 6
       },
       "1790556836.888669": {
         "post": "1790556836.888669",
-        "lastSeen": 1790557567.669
+        "lastSeen": 1790557632.825,
+        "r": 1,
+        "day": "2026-09-28",
+        "idx": 7
       },
       "1790557201.517539": {
         "post": "1790557201.517539",
-        "lastSeen": 1790557567.669,
+        "lastSeen": 1790557632.825,
         "r": 1,
         "day": "2026-09-28",
         "idx": 5
@@ -275472,8 +275475,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-28": {
-        "cnt": 7,
-        "sumMin": 94.78943994045258,
+        "cnt": 8,
+        "sumMin": 107.51207878986995,
         "over": 1,
         "items": [
           {
@@ -275536,13 +275539,21 @@ window.SLACK_DATA = {
             "biz": "5302502157",
             "who": "송태양",
             "cat": "transfer"
+          },
+          {
+            "hm": "09:53",
+            "min": 12.7,
+            "store": "스몰굿커피 문정점",
+            "biz": "6412901913",
+            "who": "배선유",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-28 10:06",
+    "at": "2026-09-28 10:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
