@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2598,
- "updatedAt": "2026-09-28 17:08",
+ "version": 2599,
+ "updatedAt": "2026-09-28 17:09",
  "days": 30,
  "items": [
   {
@@ -978,10 +978,11 @@ window.MENU_REQUESTS = {
     "안녕하세요!\n해당 가맹점 빠른 메뉴 등록 요청 전달 주시어, 바쁘시겠지만 등록 요청 드립니다 :woman-bowing::skin-tone-4:\n\nCC.",
     "여기 키오스크인거같긴한데 이미지는 일단 없네요 빼고 진행할게요\n\n옵션도없어요",
     "완료입니다",
-    "안녕하세요, 해당 파일에 일부 수정해야 될 내용이 있어서 수정항목만 붉은색 표기하여 다시 발송해주신다고 합니다!\n참고 부탁드리겠습니다. :woman-bowing::skin-tone-2:"
+    "안녕하세요, 해당 파일에 일부 수정해야 될 내용이 있어서 수정항목만 붉은색 표기하여 다시 발송해주신다고 합니다!\n참고 부탁드리겠습니다. :woman-bowing::skin-tone-2:",
+    "• 메일제목: 데이리프"
    ],
-   "rc": 6,
-   "lr": "1790582323.883019",
+   "rc": 7,
+   "lr": "1790582895.733619",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
@@ -1003,7 +1004,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C4S0M1FFF",
      "from": "댓글",
-     "path": "menu-files/1790578675_880139-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1026,15 +1026,16 @@ window.MENU_REQUESTS = {
        "name": "명태조림",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1790578675_880139-0.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790582852.320279",
+   "rc": 3,
+   "lr": "1790582909.632919",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790578675880139"
   },
