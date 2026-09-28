@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13765,
+  "version": 13766,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -199580,7 +199580,7 @@ window.SLACK_DATA = {
           "req": "[<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790477400221509|재접수>]핸드SOS 사용 매장으로 연결 끊김 현상이 지속 발생된다고 합니다. 핸드SOS 측으로 문의 및 연",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "여기 이따가 드라이버 한 번 설치 해보져 여기 이따가 드라이버 한 번 설치 해보져"
         },
         {
           "time": "11:42",
@@ -200191,7 +200191,7 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790564241.06,
+        "lastSeen": 1790564360.449,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
@@ -267871,7 +267871,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:57",
+    "at": "2026-09-28 11:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
