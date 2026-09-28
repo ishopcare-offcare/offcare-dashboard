@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13657,
+  "version": 13658,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207757,6 +207757,7 @@ window.SLACK_DATA = {
     "2026-09-28": {
       "counts": {
         "as": {
+          "김동욱": 1,
           "심성현": 3,
           "배선유": 2,
           "김현기": 1
@@ -207771,6 +207772,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:49",
+          "store": "애플뮤직1",
+          "biz": "1018685913",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "유선프린터 하나가 고장났다고 하셔서 확인 부탁드립니다. (돌아가는 끝쪽에 부품 하나가 없는 것 같다 하십니다.)",
+          "hw": "",
+          "intake": "online",
+          "note": "판매제품으로 수리비 발생 가능성 안내. 수기 여부 내부 논의 후 다시 연락주기로 하심"
+        },
         {
           "time": "09:45",
           "store": "드롭탑(광주유스퀘어점)",
@@ -207883,11 +207895,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "09:49"
+      "updatedAt": "09:53"
     }
   },
   "resp": {
@@ -207928,11 +207940,15 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790556800.19
+        "lastSeen": 1790556864.095
       },
       "1790555400.734859": {
         "post": "1790555400.734859",
-        "lastSeen": 1790556800.19
+        "lastSeen": 1790556864.095
+      },
+      "1790556836.888669": {
+        "post": "1790556836.888669",
+        "lastSeen": 1790556864.095
       }
     },
     "days": {
@@ -275403,7 +275419,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 09:53",
+    "at": "2026-09-28 09:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",

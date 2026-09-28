@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2548,
- "updatedAt": "2026-09-28 09:42",
+ "version": 2549,
+ "updatedAt": "2026-09-28 09:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1790556836.888669",
+   "date": "2026-09-28",
+   "time": "09:53",
+   "store": "스몰굿커피 문정점",
+   "biz": "6412901913",
+   "pos": "",
+   "content": "손님이 주문하는 화면(키오스크) 메뉴 사진이 안보인다고 하는데, 확인 부탁드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790556840.059719",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790556836888669"
+  },
   {
    "ts": "1790555938.347009",
    "date": "2026-09-28",
