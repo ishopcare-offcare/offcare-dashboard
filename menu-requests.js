@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2615,
- "updatedAt": "2026-09-28 18:42",
+ "version": 2616,
+ "updatedAt": "2026-09-28 18:50",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "로칼밥상 천안점 메뉴 작업되면 평택서점 복사해주세요!\n\n점주통화 걸엇는데 부재임!"
+   ],
+   "rc": 1,
+   "lr": "1790589027.001049",
    "rfx": 3,
    "status": "wait",
    "handler": null,
