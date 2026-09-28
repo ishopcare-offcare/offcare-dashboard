@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2592,
- "updatedAt": "2026-09-28 16:54",
+ "version": 2593,
+ "updatedAt": "2026-09-28 16:55",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,51 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5OTc0NjcxNjc1Lm",
+     "fid": "F0C4QNYDXT5",
+     "from": "댓글",
+     "path": "menu-files/1790582028_998499-0.jpeg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5OTczMDExODY1Lm",
+     "fid": "F0C4RSRMQ9K",
+     "from": "댓글",
+     "path": "menu-files/1790582028_998499-1.jpeg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5OTczMDI1OTM3Lm",
+     "fid": "F0C50KVQS1J",
+     "from": "댓글",
+     "path": "menu-files/1790582028_998499-2.jpeg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MDkxMV8xMDU4Mz",
+     "fid": "F0C4V1HH2MC",
+     "from": "댓글",
+     "path": "menu-files/1790582028_998499-3.jpeg",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790582031.692069",
+   "replies": [
+    "에그야채샌드위치(반)3,700원",
+    "당근라페샌드위치(반)3,700원",
+    "햄치즈샌드위치(반)\n3,800원",
+    "리코타샌드위치(반)4,200원",
+    "에그야채샌드위치+아메리카노=6,000원(대표)\n당근라페샌드위치+아메리카노=6,000원\n햄치즈샌드위치+아메리카노=6,200원\n리코타샌드위칭+아메리카노 =6,500원",
+    "세트에 사진넣어야해요"
+   ],
+   "rc": 7,
+   "lr": "1790582115.086879",
    "rfx": 3,
    "status": "wait",
    "handler": null,
