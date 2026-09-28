@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2562,
- "updatedAt": "2026-09-28 10:48",
+ "version": 2563,
+ "updatedAt": "2026-09-28 10:50",
  "days": 30,
  "items": [
   {
@@ -323,9 +323,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "금액 미기재로 통화로 등록 방법 안내 및 수정 완료"
+   ],
+   "rc": 1,
+   "lr": "1790560162.530279",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
