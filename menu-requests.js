@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2594,
- "updatedAt": "2026-09-28 16:57",
+ "version": 2595,
+ "updatedAt": "2026-09-28 16:59",
  "days": 30,
  "items": [
   {
@@ -324,10 +324,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "안녕하세요!\n해당 가맹점 빠른 메뉴 등록 요청 전달 주시어, 바쁘시겠지만 등록 요청 드립니다 :woman-bowing::skin-tone-4:\n\nCC.",
     "여기 키오스크인거같긴한데 이미지는 일단 없네요 빼고 진행할게요\n\n옵션도없어요",
-    "완료입니다"
+    "완료입니다",
+    "안녕하세요, 해당 파일에 일부 수정해야 될 내용이 있어서 수정항목만 붉은색 표기하여 다시 발송해주신다고 합니다!\n참고 부탁드리겠습니다. :woman-bowing::skin-tone-2:"
    ],
-   "rc": 5,
-   "lr": "1790580179.214829",
+   "rc": 6,
+   "lr": "1790582323.883019",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
