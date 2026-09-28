@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13783,
+  "version": 13784,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -199582,7 +199582,7 @@ window.SLACK_DATA = {
           "req": "카카오페이 등록법 / 바코드 관련 기본적인 상담",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "카카오페이 밴 안내 완료 / 바코드가 안되는게 있다. / 기존 메뉴를 그대로 긁어왔음, 안되는게 있으면 토스포스와 실제 상품 바코드 비교가 필요함 / 하는 방법 알고있음"
         },
         {
           "time": "12:04",
@@ -200259,14 +200259,14 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790565656.234,
+        "lastSeen": 1790565691.785,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
       },
       "1790564402.343299": {
         "post": "1790564402.343299",
-        "lastSeen": 1790565656.234,
+        "lastSeen": 1790565691.785,
         "r": 1,
         "day": "2026-09-28",
         "idx": 26
@@ -267972,7 +267972,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 12:20",
+    "at": "2026-09-28 12:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
