@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13654,
+  "version": 13655,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207791,7 +207791,7 @@ window.SLACK_DATA = {
           "req": "주방 주문서 출력 오류, 메뉴별 출력이 되지 않는다고 합니다 확인 부탁드립니다:모코코_꾸벅:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "수박스무디, 자두스무디, 우유쉐이크 주방주문서 출력 설정"
         },
         {
           "time": "09:30",
@@ -207928,11 +207928,11 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790556590.646
+        "lastSeen": 1790556644.443
       },
       "1790555400.734859": {
         "post": "1790555400.734859",
-        "lastSeen": 1790556590.646
+        "lastSeen": 1790556644.443
       }
     },
     "days": {
@@ -275403,7 +275403,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 09:49",
+    "at": "2026-09-28 09:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
