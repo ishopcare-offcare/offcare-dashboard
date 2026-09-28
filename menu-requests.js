@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2555,
- "updatedAt": "2026-09-28 10:34",
+ "version": 2556,
+ "updatedAt": "2026-09-28 10:35",
  "days": 30,
  "items": [
+  {
+   "ts": "1790559287.794999",
+   "date": "2026-09-28",
+   "time": "10:34",
+   "store": "삼호맛집",
+   "biz": "2160973343",
+   "pos": "토스포스",
+   "content": "한방닭죽을 그냥\"전복 닭죽\"으로1\"전복닭칼국수\"\"전복 닭곰탕\" \"전복 닭개장칼국수\" \"",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790559287794999"
+  },
   {
    "ts": "1790559202.033459",
    "date": "2026-09-28",
@@ -43,9 +64,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 4,
-   "lr": "1790558226.289719",
+   "replies": [
+    "[메모] 이미지 없는 메뉴!\n\n초당옥수수 콜드브루 라떼\n초당옥수수라떼\n코코슈페너(10oz)\n더 블루(ICE)\n\n빅 아메리카노(ICE)\n빅 아메리카노(HOT)\n빅 더 블랙(ICE)\n빅 카페라떼(ICE)\n빅 헤이즐넛라떼(ICE)\n빅 바닐라라떼(ICE)\n빅 카페모카(ICE)\n빅 비엔나커피(ICE)\n빅 돌체라떼(ICE)\n빅 굿커피(ICE)\n빅 카라멜라떼(ICE)\n빅 너티밀키(ICE)\n식혜\n\n\n케리베인 칵테일 티(HOT)\n청포도(ICE)\n레몬(ICE)\n소금빵 러스크\n애플시나몬크랙쿠키"
+   ],
+   "rc": 5,
+   "lr": "1790559283.988559",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
