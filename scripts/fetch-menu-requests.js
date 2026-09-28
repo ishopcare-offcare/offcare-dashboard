@@ -23,7 +23,7 @@ const WORKSPACE = 'w1659946222-hxm266180.slack.com'; // 퍼머링크용
 const DAYS = parseInt(process.env.MENU_REQ_DAYS || '30', 10);   // 매장조회(이력) 위해 30일 적재
 
 const pad = (n) => String(n).padStart(2, '0');
-const personMap = { '규빈': '김규빈', '선유': '배선유', '성현': '심성현', '동욱': '김동욱', '현기': '김현기', '태양': '송태양', '기범': '김기범', '상원': '서상원', '민석': '최민석', '경림': '고경림' };
+const personMap = { '규빈': '김규빈', '선유': '배선유', '성현': '심성현', '동욱': '김동욱', '현기': '김현기', '태양': '송태양', '기범': '김기범', '상원': '서상원', '민석': '최민석', '경림': '고경림', '하림': '박하림' };
 const NAMES = Object.keys(personMap).join('|');
 const kstHM = (ts) => { const d = new Date(parseFloat(ts) * 1000 + 9 * 3600 * 1000); return `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`; };
 const kstDate = (ts) => { const d = new Date(parseFloat(ts) * 1000 + 9 * 3600 * 1000); return `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())}`; };

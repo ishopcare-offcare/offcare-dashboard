@@ -41,7 +41,7 @@ const CHANNELS = [
 ];
 
 // 이모지 규칙 — fetch-and-tally.js 와 동일하게 유지할 것
-const personMap = { '규빈':'김규빈','선유':'배선유','성현':'심성현','동욱':'김동욱','현기':'김현기','태양':'송태양','기범':'김기범','상원':'서상원','민석':'최민석','경림':'고경림' };
+const personMap = { '규빈':'김규빈','선유':'배선유','성현':'심성현','동욱':'김동욱','현기':'김현기','태양':'송태양','기범':'김기범','상원':'서상원','민석':'최민석','경림':'고경림','하림':'박하림' };
 const catMap = { '원격온보딩':'onboarding', '원격as':'as', '원격명의변경':'transfer', '원격메뉴등록':'menu', '원격voc':'voc', '원격배달':'delivery', '원격예약':'booking', '예약':'booking' };
 const CAT_KO = { onboarding:'온보딩', as:'AS', booking:'예약', transfer:'명의변경', menu:'메뉴등록', delivery:'배달', voc:'VOC' };
 const NAMES = Object.keys(personMap).join('|');

@@ -16,7 +16,7 @@ let t = fs.readFileSync(file, 'utf8');
 t = t.replace(/\\u([0-9a-fA-F]{4})/g, (m, g) => String.fromCharCode(parseInt(g, 16))); // \uXXXX 디코드
 t = t.replace(/\\\//g, '/'); // \/ 언이스케이프
 
-const personMap = { '규빈':'김규빈','선유':'배선유','성현':'심성현','동욱':'김동욱','현기':'김현기','태양':'송태양','기범':'김기범','상원':'서상원','민석':'최민석','경림':'고경림' };
+const personMap = { '규빈':'김규빈','선유':'배선유','성현':'심성현','동욱':'김동욱','현기':'김현기','태양':'송태양','기범':'김기범','상원':'서상원','민석':'최민석','경림':'고경림','하림':'박하림' };
 const catMap = { '원격온보딩':'onboarding', '원격as':'as', '원격명의변경':'transfer', '원격메뉴등록':'menu', '원격voc':'voc', '원격배달':'delivery', '원격예약':'booking', '예약':'booking' };
 // 이모지 이름 목록은 personMap에서 자동 생성 — 입·퇴사 시 personMap만 고치면 됨
 const NAMES = Object.keys(personMap).join('|');
