@@ -213,6 +213,22 @@ async function fetchAll(channelId) {
   return msgs;
 }
 
+// conversations.history 1페이지 — 429(ratelimited)면 Retry-After 만큼 쉬고 최대 4번 재시도.
+// 재시도가 없던 시절엔 429 한 번에 그 채널이 통째로 빠진 채 하루치가 덮어써졌다
+// (2026-09-28 오전, 미처리 재확인으로 과거 날짜를 여럿 훑다가 9/17·9/22·8/6·8/7 이 30~50건으로 줄었다).
+async function slackHistory(url) {
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(url, { headers: { Authorization: 'Bearer ' + TOKEN } });
+    const j = await res.json().catch(() => ({ ok: false, error: 'http_' + res.status }));
+    if (j.ok) return j;
+    const limited = res.status === 429 || j.error === 'ratelimited';
+    if (!limited || attempt >= 4) throw new Error(j.error || ('http_' + res.status));
+    const wait = Math.min(60, parseInt(res.headers.get('retry-after') || '0', 10) || (attempt + 1) * 5);
+    console.log(`  (슬랙 호출 제한 — ${wait}초 대기 후 재시도 ${attempt + 1}/4)`);
+    await new Promise((r) => setTimeout(r, wait * 1000));
+  }
+}
+
 // 지정 기간(oldest~latest) 메시지 전체 읽기 (VOC 롤링 재집계용)
 async function fetchAllRange(channelId, oldestTs, latestTs) {
   let cursor = '', msgs = [], guard = 0;
@@ -223,9 +239,7 @@ async function fetchAllRange(channelId, oldestTs, latestTs) {
     url.searchParams.set('latest', String(latestTs));
     url.searchParams.set('limit', '200');
     if (cursor) url.searchParams.set('cursor', cursor);
-    const res = await fetch(url, { headers: { Authorization: 'Bearer ' + TOKEN } });
-    const j = await res.json();
-    if (!j.ok) throw new Error(j.error);
+    const j = await slackHistory(url);
     msgs = msgs.concat(j.messages || []);
     cursor = (j.response_metadata && j.response_metadata.next_cursor) || '';
   } while (cursor && ++guard < 40);
@@ -684,10 +698,11 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     const priorNotes = {};
     for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.note) priorNotes[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note; }
     let completed = 0, externCount = 0, dupTotal = 0, latest = '';
+    const failedChs = [];
     for (const ch of workChs) {
       let msgs;
       try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
-      catch (e) { console.error(`  ⚠ [${ch.label} ${dstr}] 읽기 실패(${e.message}) — 건너뜀`); continue; }
+      catch (e) { console.error(`  ⚠ [${ch.label} ${dstr}] 읽기 실패(${e.message}) — 건너뜀`); failedChs.push(ch.label); continue; }
       const r = await tallyInto(msgs, ch, counts, pending, done, { priorNotes });
       if (dstr === targetDate) trackResp(data, msgs, ch);   // 오늘 인입 건만 응답시간 폴링 추적
       completed += r.completed; externCount += r.externCount; dupTotal += r.dup; if (r.latest > latest) latest = r.latest;
@@ -702,6 +717,12 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     const hadSomething = (de.done && de.done.length) || (de.pending && de.pending.length) || (de.counts && Object.keys(de.counts).length);
     if (gotNothing && hadSomething) {
       console.log(`  [업무 ${dstr}] 읽은 내용 없음 — 기존 집계 보존(덮어쓰기 생략)`);
+      continue;
+    }
+    // 일부 채널만 실패해도 덮어쓰지 않는다 — 나머지 채널 값만으로 하루치를 갈아끼우면
+    // 실패한 채널(특히 AS요청 본채널)의 건이 통째로 사라진다. 다음 실행에서 다시 읽는다.
+    if (failedChs.length && hadSomething) {
+      console.log(`  [업무 ${dstr}] ${failedChs.join('·')} 읽기 실패 — 기존 집계 보존(덮어쓰기 생략)`);
       continue;
     }
     // 인입유형 집계 — 전체 원격 건(완료 done + 미처리 pending) 기준 온라인/오프라인/미상
