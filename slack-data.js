@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13682,
+  "version": 13683,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -207751,7 +207751,7 @@ window.SLACK_DATA = {
           "req": "프린터기 출력 안됨 / 노트북 사용 중이라고 합니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "영수증 매장로고 사용매장 프린터 통신속도가 9600으로 되어있어 115200 으로변경후 정상출력확인"
         },
         {
           "time": "10:05",
@@ -208009,14 +208009,14 @@ window.SLACK_DATA = {
       },
       "1790555402.251789": {
         "post": "1790555402.251789",
-        "lastSeen": 1790558751.859,
+        "lastSeen": 1790558816.212,
         "r": 1,
         "day": "2026-09-28",
         "idx": 6
       },
       "1790557201.517539": {
         "post": "1790557201.517539",
-        "lastSeen": 1790558751.859,
+        "lastSeen": 1790558816.212,
         "r": 1,
         "day": "2026-09-28",
         "idx": 5
@@ -275542,7 +275542,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 10:26",
+    "at": "2026-09-28 10:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
