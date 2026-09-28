@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13763,
+  "version": 13764,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -199523,7 +199523,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김현기": 5,
-          "배선유": 7,
+          "배선유": 8,
           "김동욱": 5,
           "심성현": 7,
           "서상원": 1,
@@ -199569,6 +199569,17 @@ window.SLACK_DATA = {
           "req": "블루투스 연동이 되지 않는다고 합니다. 유선으로 정확한 단말기 확인이 불가 하여 확인 요청드립니다. :woman-bowing::skin-tone-2:",
           "hw": "",
           "intake": "offline",
+          "note": ""
+        },
+        {
+          "time": "11:45",
+          "store": "볼라비헤어",
+          "biz": "2462802137",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "[<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790477400221509|재접수>]핸드SOS 사용 매장으로 연결 끊김 현상이 지속 발생된다고 합니다. 핸드SOS 측으로 문의 및 연",
+          "hw": "",
+          "intake": "online",
           "note": ""
         },
         {
@@ -200135,7 +200146,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 42,
+        "online": 43,
         "offline": 10,
         "unknown": 0
       },
@@ -200180,17 +200191,10 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790564127.037,
+        "lastSeen": 1790564161.444,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
-      },
-      "1790563509.593529": {
-        "post": "1790563509.593529",
-        "lastSeen": 1790564127.037,
-        "r": 1,
-        "day": "2026-09-28",
-        "idx": 23
       }
     },
     "days": {
@@ -267850,7 +267854,8 @@ window.SLACK_DATA = {
             "store": "볼라비헤어",
             "biz": "2462802137",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.6
           },
           {
             "hm": "11:46",
@@ -267866,7 +267871,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:55",
+    "at": "2026-09-28 11:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
