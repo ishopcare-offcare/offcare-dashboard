@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2576,
- "updatedAt": "2026-09-28 14:10",
+ "version": 2577,
+ "updatedAt": "2026-09-28 14:13",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,354 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "1000012516.jpg",
+     "fid": "F0C4ZJFAJQL",
+     "from": "댓글",
+     "path": "menu-files/1790572151_647679-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "크리스마스",
+       "name": "2025 슈톨렌",
+       "price": 20000
+      },
+      {
+       "category": "크리스마스",
+       "name": "택배",
+       "price": 4000
+      },
+      {
+       "category": "크리스마스",
+       "name": "2025 슈톨렌",
+       "price": 38000
+      }
+     ]
+    },
+    {
+     "name": "1000012517.jpg",
+     "fid": "F0C4XSD7Q9F",
+     "from": "댓글",
+     "path": "menu-files/1790572151_647679-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "카페",
+       "name": "아샷추",
+       "price": 4000
+      },
+      {
+       "category": "카페",
+       "name": "아이스밀크티",
+       "price": 4500
+      },
+      {
+       "category": "카페",
+       "name": "돌체라떼",
+       "price": 5000
+      },
+      {
+       "category": "카페",
+       "name": "아이스돌체라떼",
+       "price": 5000
+      },
+      {
+       "category": "카페",
+       "name": "우유",
+       "price": 2500
+      },
+      {
+       "category": "카페",
+       "name": "아이스초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "카페",
+       "name": "아이스바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "카페",
+       "name": "아이스카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "카페",
+       "name": "아이스아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "카페",
+       "name": "밀크티",
+       "price": 4500
+      },
+      {
+       "category": "카페",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "카페",
+       "name": "초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "카페",
+       "name": "카푸치노",
+       "price": 5000
+      },
+      {
+       "category": "카페",
+       "name": "원두200g",
+       "price": 12000
+      },
+      {
+       "category": "카페",
+       "name": "우유",
+       "price": 2500
+      },
+      {
+       "category": "카페",
+       "name": "에스프레소",
+       "price": 0
+      },
+      {
+       "category": "카페",
+       "name": "아메리카노",
+       "price": 0
+      },
+      {
+       "category": "카페",
+       "name": "카페라떼",
+       "price": 0
+      },
+      {
+       "category": "카페",
+       "name": "아이스티",
+       "price": 0
+      },
+      {
+       "category": "카페",
+       "name": "바닐라라떼",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "1000012518.jpg",
+     "fid": "F0C4PMMLGQ3",
+     "from": "댓글",
+     "path": "menu-files/1790572151_647679-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "아이스초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "아이스바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "아이스카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "아이스아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "밀크티",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "카푸치노",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "원두200g",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "우유",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "아이스티",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "바닐라라떼",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "1000012519.jpg",
+     "fid": "F0C4ZJFF5B6",
+     "from": "댓글",
+     "path": "menu-files/1790572151_647679-3.jpg"
+    },
+    {
+     "name": "1000012520.jpg",
+     "fid": "F0C4ZJFV9QU",
+     "from": "댓글",
+     "path": "menu-files/1790572151_647679-4.jpg"
+    },
+    {
+     "name": "1000012521.jpg",
+     "fid": "F0C4EH7M3TR",
+     "from": "댓글",
+     "path": "menu-files/1790572151_647679-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "시럽",
+       "name": "돌체시럽펌",
+       "price": 3500
+      },
+      {
+       "category": "시럽",
+       "name": "클래식시럽펌",
+       "price": 4000
+      },
+      {
+       "category": "시럽",
+       "name": "소프트펌",
+       "price": 4000
+      },
+      {
+       "category": "시럽",
+       "name": "시럽펌",
+       "price": 2800
+      },
+      {
+       "category": "시럽",
+       "name": "유산지백(대)",
+       "price": 5500
+      }
+     ]
+    },
+    {
+     "name": "1000012522.jpg",
+     "fid": "F0C4XSDHGSD",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "시아추",
+       "name": "일반 시아추",
+       "price": 5000
+      },
+      {
+       "category": "시아추",
+       "name": "흑옥수수시아추",
+       "price": 5500
+      },
+      {
+       "category": "시아추",
+       "name": "시아추 옹심",
+       "price": 900
+      }
+     ]
+    },
+    {
+     "name": "1000012523.jpg",
+     "fid": "F0C4VQBEHBL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "바게트",
+       "name": "김치바게트",
+       "price": 2000
+      },
+      {
+       "category": "바게트",
+       "name": "초코바게트",
+       "price": 5000
+      },
+      {
+       "category": "바게트",
+       "name": "김용치노",
+       "price": 7000
+      },
+      {
+       "category": "바게트",
+       "name": "모닝바게트",
+       "price": 4500
+      }
+     ]
+    },
+    {
+     "name": "1000012546.jpg",
+     "fid": "F0C4VQATR26",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "밥파스",
+       "name": "순두부 크림파스타",
+       "price": 5000
+      },
+      {
+       "category": "밥파스",
+       "name": "후토마끼리페파스타",
+       "price": 5500
+      },
+      {
+       "category": "밥파스",
+       "name": "100%유기농쌀통밀",
+       "price": 5000
+      },
+      {
+       "category": "밥파스",
+       "name": "무항생란파스타",
+       "price": 5500
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790572154.811089",
+   "rc": 2,
+   "lr": "1790572205.896639",
    "rfx": 3,
    "status": "wait",
    "handler": null,
