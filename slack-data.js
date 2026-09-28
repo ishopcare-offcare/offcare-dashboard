@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13768,
+  "version": 13769,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -200191,18 +200191,21 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790564455.885,
+        "lastSeen": 1790564493.301,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
       },
       "1790564402.343299": {
         "post": "1790564402.343299",
-        "lastSeen": 1790564455.885
+        "lastSeen": 1790564493.301
       },
       "1790564401.605539": {
         "post": "1790564401.605539",
-        "lastSeen": 1790564455.885
+        "lastSeen": 1790564493.301,
+        "r": 1,
+        "day": "2026-09-28",
+        "idx": 25
       }
     },
     "days": {
@@ -267646,8 +267649,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-28": {
-        "cnt": 25,
-        "sumMin": 168.03728975454965,
+        "cnt": 26,
+        "sumMin": 169.25374743541082,
         "over": 1,
         "items": [
           {
@@ -267873,13 +267876,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 6
+          },
+          {
+            "hm": "12:00",
+            "min": 1.2,
+            "store": "오네일",
+            "biz": "5830503147",
+            "who": "김규빈",
+            "cat": "nosetup"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-28 12:00",
+    "at": "2026-09-28 12:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
