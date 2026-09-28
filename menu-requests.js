@@ -3,10 +3,234 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2591,
- "updatedAt": "2026-09-28 16:23",
+ "version": 2592,
+ "updatedAt": "2026-09-28 16:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1790582028.998499",
+   "date": "2026-09-28",
+   "time": "16:53",
+   "store": "비틀주스(한국외대점)",
+   "biz": "6933800673",
+   "pos": "퍼스트포스",
+   "content": "메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790582031.692069",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790582028998499"
+  },
+  {
+   "ts": "1790581963.101709",
+   "date": "2026-09-28",
+   "time": "16:52",
+   "store": "안궁리",
+   "biz": "5010493922",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20260928_160937.jpg.jpeg",
+     "fid": "F0C4YTGCEDP",
+     "from": "댓글",
+     "path": "menu-files/1790581963_101709-0.jpeg",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "Resized_20260928_160943.jpg.jpeg",
+     "fid": "F0C4V14TETY",
+     "from": "댓글",
+     "path": "menu-files/1790581963_101709-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "탕류",
+       "name": "알탕",
+       "price": 11000
+      },
+      {
+       "category": "탕류",
+       "name": "동태탕",
+       "price": 10000
+      },
+      {
+       "category": "탕류",
+       "name": "섞어탕",
+       "price": 11000
+      },
+      {
+       "category": "탕류",
+       "name": "대구뽈매운탕",
+       "price": 11000
+      },
+      {
+       "category": "탕류",
+       "name": "대구뽈맑은탕",
+       "price": 11000
+      },
+      {
+       "category": "탕류",
+       "name": "알밥",
+       "price": 10000
+      },
+      {
+       "category": "탕류",
+       "name": "제육볶음2인",
+       "price": 24000
+      },
+      {
+       "category": "탕류",
+       "name": "제육볶음3인",
+       "price": 36000
+      },
+      {
+       "category": "탕류",
+       "name": "제육볶음4인",
+       "price": 48000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_160948.jpg.jpeg",
+     "fid": "F0C50KK6E68",
+     "from": "댓글",
+     "path": "menu-files/1790581963_101709-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "뽈찜",
+       "name": "대구뽈찜(2인)",
+       "price": 35000
+      },
+      {
+       "category": "뽈찜",
+       "name": "대구뽈찜(3인)",
+       "price": 42000
+      },
+      {
+       "category": "뽈찜",
+       "name": "대구뽈찜(4인)",
+       "price": 49000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_160953.jpg.jpeg",
+     "fid": "F0C4RSGFNNR",
+     "from": "댓글",
+     "path": "menu-files/1790581963_101709-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "두부",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "미나리",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "알(100g)",
+       "price": 5000
+      },
+      {
+       "category": "추가",
+       "name": "고니(100g)",
+       "price": 5000
+      },
+      {
+       "category": "추가",
+       "name": "동태",
+       "price": 5000
+      },
+      {
+       "category": "추가",
+       "name": "대구뽈",
+       "price": 5000
+      },
+      {
+       "category": "추가",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "기타",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260928_160956.jpg.jpeg",
+     "fid": "F0C4RSGJC05",
+     "from": "댓글",
+     "path": "menu-files/1790581963_101709-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "한라산",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "선양오크",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "탕류 1000원 인상\n추가 알.곤이.동태.대구뽈 1000원인상입니다"
+   ],
+   "rc": 3,
+   "lr": "1790581998.677409",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790581963101709"
+  },
   {
    "ts": "1790579369.694059",
    "date": "2026-09-28",
