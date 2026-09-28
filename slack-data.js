@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 13739,
+  "version": 13740,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -202273,12 +202273,12 @@ window.SLACK_DATA = {
     "2026-09-28": {
       "counts": {
         "as": {
+          "김동욱": 4,
           "배선유": 6,
           "김현기": 3,
           "서상원": 1,
           "심성현": 6,
           "송태양": 1,
-          "김동욱": 3,
           "고경림": 3
         },
         "nosetup": {
@@ -202319,6 +202319,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:25",
+          "store": "소담옷장",
+          "biz": "3906000926",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "유프 재온보딩 요청드립니다. (토스사장님 사용)",
+          "hw": "",
+          "intake": "online",
+          "note": "초기 설치 시 노트북에 설치하심. 금액입력결제모드 이용중으로 노트북에 토스POS 실행해두시라 안내."
+        },
         {
           "time": "11:14",
           "store": "뚜레쥬르 킨텍스2전시장",
@@ -202773,7 +202784,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 34,
+        "online": 35,
         "offline": 8,
         "unknown": 0
       },
@@ -202818,7 +202829,7 @@ window.SLACK_DATA = {
       },
       "1790561700.913239": {
         "post": "1790561700.913239",
-        "lastSeen": 1790562690.258,
+        "lastSeen": 1790562747.21,
         "r": 1,
         "day": "2026-09-28",
         "idx": 20
@@ -270462,7 +270473,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-28 11:31",
+    "at": "2026-09-28 11:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
