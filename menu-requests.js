@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2597,
- "updatedAt": "2026-09-28 17:06",
+ "version": 2598,
+ "updatedAt": "2026-09-28 17:08",
  "days": 30,
  "items": [
   {
@@ -704,15 +704,22 @@ window.MENU_REQUESTS = {
      "name": "=_UTF-8_B_MTc5MDU4MjY4MjMzMy5qcGc=_=.jpe",
      "fid": "F0C50NS718C",
      "from": "댓글",
-     "path": "menu-files/1790582028_998499-4.jpeg",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790582028_998499-4.jpeg"
     },
     {
      "name": "=_UTF-8_B_MTc5MDU4MjY4NTIxMC5qcGc=_=.jpe",
      "fid": "F0C4WUQNSAE",
      "from": "댓글",
-     "path": "menu-files/1790582028_998499-5.jpeg",
+     "kind": "product_photo",
+     "menu": [],
+     "path": "menu-files/1790582028_998499-5.jpeg"
+    },
+    {
+     "name": "=_UTF-8_B_MTc5MDU4MjY4NzI5NC5qcGc=_=.jpe",
+     "fid": "F0C4S0F2K9B",
+     "from": "댓글",
      "kind": "product_photo",
      "menu": []
     }
@@ -728,8 +735,8 @@ window.MENU_REQUESTS = {
     "에그세트,당근라페",
     "햄치즈샌드위치세트"
    ],
-   "rc": 9,
-   "lr": "1790582789.985869",
+   "rc": 10,
+   "lr": "1790582808.304499",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -991,14 +998,44 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C4S0M1FFF",
+     "from": "댓글",
+     "path": "menu-files/1790578675_880139-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "국내산돼지양념갈비(200g)",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "코다리회무침(250g)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "원계란찜",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "명태조림",
+       "price": 20000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790578679.754429",
+   "rc": 2,
+   "lr": "1790582852.320279",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790578675880139"
   },
   {
