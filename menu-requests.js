@@ -3,10 +3,417 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2671,
- "updatedAt": "2026-09-29 17:42",
+ "version": 2672,
+ "updatedAt": "2026-09-29 18:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1790672342.927469",
+   "date": "2026-09-29",
+   "time": "17:59",
+   "store": "한양화로 부천옥길점",
+   "biz": "5720303158",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20260929_175404573.jpg",
+     "fid": "F0C562UH8Q6",
+     "from": "댓글",
+     "path": "menu-files/1790672342_927469-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메인메뉴",
+       "name": "한양A한판(500g)",
+       "price": 59500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "한양A두판(800g)",
+       "price": 93500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "한양B한판(500g)",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "한양B두판(800g)",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "와규부채MB 8-9+(500g)",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "와규부채MB 8-9+ 300g",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "한양A양념한판(500g)",
+       "price": 65500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꽃갈비살, 눈꽃살치살",
+       "price": 64500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꽃갈비살, 특토시살세",
+       "price": 68400
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꽃갈비살, 특토시살세",
+       "price": 89200
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꽃등심(500g)",
+       "price": 89500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "눈꽃살치살(500g)",
+       "price": 74000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "특토시살(500g)",
+       "price": 59500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꽃갈비살(500g)",
+       "price": 57500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "양념살치살(500g)",
+       "price": 75000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "양념토시살(500g)",
+       "price": 62500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "양념갈비살(500g)",
+       "price": 59500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "한우육회(200g)",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20260929_175404573_01.jpg",
+     "fid": "F0C57SS8WFL",
+     "from": "댓글",
+     "path": "menu-files/1790672342_927469-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "돼지고기",
+       "name": "한돈수제포갈비(양념)",
+       "price": 39500
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20260929_175404573_02.jpg",
+     "fid": "F0C57ST4T26",
+     "from": "댓글",
+     "path": "menu-files/1790672342_927469-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사메뉴",
+       "name": "소고기된장찌개+공기",
+       "price": 8000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "소고기된장찌개+공기",
+       "price": 10000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "폭탄계란찜",
+       "price": 7000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "소고기라면",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "물냉면",
+       "price": 10000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "비빔냉면",
+       "price": 10000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "(후식)물냉면",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "(후식)비빔냉면",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "버섯추가",
+       "price": 2000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "치즈추가",
+       "price": 2000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "공기밥",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20260929_175404573_03.jpg",
+     "fid": "F0C52SCT0S1",
+     "from": "댓글",
+     "path": "menu-files/1790672342_927469-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "고기추가",
+       "name": "와규부채살MB8-9+(100",
+       "price": 0
+      },
+      {
+       "category": "고기추가",
+       "name": "눈꽃살치살(100g)",
+       "price": 14900
+      },
+      {
+       "category": "고기추가",
+       "name": "특토시살(100g)",
+       "price": 12900
+      },
+      {
+       "category": "고기추가",
+       "name": "꽃갈비살(100g)",
+       "price": 11900
+      },
+      {
+       "category": "고기추가",
+       "name": "양념살치살(300g)",
+       "price": 45200
+      },
+      {
+       "category": "고기추가",
+       "name": "양념토시살(300g)",
+       "price": 39700
+      },
+      {
+       "category": "고기추가",
+       "name": "양념갈비살(300g)",
+       "price": 36700
+      },
+      {
+       "category": "고기추가",
+       "name": "양념부채살(300g)",
+       "price": 32700
+      },
+      {
+       "category": "고기추가",
+       "name": "한돈수제포갈비(양념)",
+       "price": 19900
+      },
+      {
+       "category": "고기추가",
+       "name": "수제왕소갈비(230g)",
+       "price": 35000
+      },
+      {
+       "category": "고기추가",
+       "name": "꽃등심(300g)",
+       "price": 53700
+      },
+      {
+       "category": "고기추가",
+       "name": "수제양념왕소갈비(270",
+       "price": 38000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20260929_175404573_04.jpg",
+     "fid": "F0C5BMJLFN0",
+     "from": "댓글",
+     "path": "menu-files/1790672342_927469-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "참이슬후레쉬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "참이슬오리지널",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "진로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "한라산21",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라 라이트",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "켈리(병)",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 18000
+      },
+      {
+       "category": "주류",
+       "name": "일품진로",
+       "price": 28000
+      },
+      {
+       "category": "주류",
+       "name": "화요25",
+       "price": 28000
+      },
+      {
+       "category": "주류",
+       "name": "코카콜라(캔)",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "코카제로(캔)",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "칠성사이다(캔)",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "환타(파인)",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "환타(오렌지)",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "펩시제로(캔)",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "한맥",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "스텔라",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "콜키지",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "로제청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "카스 제로",
+       "price": 5000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790672385.597109",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790672342927469"
+  },
   {
    "ts": "1790667079.733549",
    "date": "2026-09-29",
