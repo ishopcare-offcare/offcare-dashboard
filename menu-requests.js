@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2659,
- "updatedAt": "2026-09-29 15:05",
+ "version": 2660,
+ "updatedAt": "2026-09-29 15:09",
  "days": 30,
  "items": [
   {
@@ -23,17 +23,17 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C54LU579C",
      "from": "댓글",
-     "path": "menu-files/1790661177_192909-0.png",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790661177_192909-0.png"
     }
    ],
    "datt": [],
    "replies": [
     "식사류 >\n활어회덮밥 / 참치회덮밥 추가 16,900원\n회덮밥이랑 같은 그림 사용\n\n튀김 >\n모듬 튀김 18,000원 금액 수정\n감자고로케 4,500원 금액 수정\n왕새우 4,500원 금액 수정\n멘보샤 4,500원 금액 수정\n가라아게 5p 6,000원 금액 수정\n가라아게 20p 22,000원 금액 수정"
    ],
-   "rc": 3,
-   "lr": "1790661637.020199",
+   "rc": 6,
+   "lr": "1790661994.333929",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
