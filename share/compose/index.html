@@ -243,6 +243,12 @@
   .own-tag{font-size:12px; font-weight:800; padding:2px 9px; border-radius:20px}
   .own-tag.rental{background:#e8f1ff; color:#0060c0} .own-tag.purchase{background:#e7f8ec; color:#166534} .own-tag.owned{background:#fff4e0; color:#b45309}
   .eq-rm{color:var(--red)}
+  tr.eq-addrow td{padding:6px 8px; border-bottom:none}
+  .eq-addbtn{width:100%; border:1.5px dashed var(--line); background:none; border-radius:10px; padding:10px 12px;
+    font:inherit; font-size:14px; font-weight:800; color:var(--blue); cursor:pointer; text-align:left}
+  .eq-addbtn span{font-size:12px; font-weight:600; color:var(--gray2); margin-left:8px}
+  .eq-addbtn:hover{background:var(--blue-soft); border-color:var(--blue)}
+  .eq-ro tr.eq-addrow{display:none}
   .eq-by-last{align-self:flex-start; margin-top:4px; border:1px dashed var(--line); background:none; border-radius:8px;
     font:inherit; font-size:12px; color:var(--blue); padding:3px 9px; cursor:pointer}
   tr.eq-manual td{background:#f6f1ff}
@@ -2565,7 +2571,7 @@ function viewEquip(){
     + ' + <b>수기 기록</b>으로 만든 이력입니다. '
     + (EQ_READONLY ? '<b>수기</b> 표시는 iShopCare 원격파트가 직접 확인해 넣은 값입니다.</span></div>'
                    : '방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 '
-                     + '<b>✏️ 수정 · ＋ 기록 추가</b>로 직접 채우세요 — 팀 전체에 공유됩니다.</span></div>')
+                     + '<b>✏️ 수정 · ＋ 장비 추가</b>로 직접 채우세요 — 팀 전체에 공유됩니다.</span></div>')
     + eqCloudBanner();
 
   const all = equipStores();
@@ -2582,11 +2588,11 @@ function viewEquip(){
 
   h += '<div class="card"><div class="card-head"><h3>🧰 장비 조회</h3><div class="controls">'
     + '<input type="search" id="equipQ" placeholder="매장 상호·지점명·사업자번호 검색" value="' + esc(equipQ) + '" style="min-width:280px">'
-    + '<button class="btn" data-eqadd="">＋ 장비 기록 추가</button>'
+    + '<button class="btn" data-eqadd="">＋ 장비 추가</button>'
     + '</div></div>'
     + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:11px">'
     + (equipQ ? '“' + esc(equipQ) + '” · ' : '') + list.length + '개 지점 · 장비 기록 있음 ' + withEq + '곳 · 지점을 누르면 장비 현황과 이력</div>';
-  if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.<br><span style="font-size:12.5px">목록에 없는 매장은 <b>＋ 장비 기록 추가</b>에서 지점명을 직접 적어 넣을 수 있습니다.</span></div></div>';
+  if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.<br><span style="font-size:12.5px">목록에 없는 매장은 <b>＋ 장비 추가</b>에서 지점명을 직접 적어 넣을 수 있습니다.</span></div></div>';
   h += '<div class="tbl-scroll"><table><thead><tr><th>지점</th><th>장비</th><th class="num">기록</th><th>최근 기록</th><th></th></tr></thead><tbody>'
     + list.map(s => '<tr class="eq-row" data-eqbranch="' + esc(s.branch) + '">'
         + '<td style="font-weight:700;color:var(--blue);white-space:nowrap">' + esc(s.branch) + '</td>'
@@ -2617,11 +2623,11 @@ function equipDetail(s){
     + '<button class="btn sm" id="equipBack" style="margin-bottom:10px">← 지점 목록</button>'
     + '<h3 style="font-size:21px">🏪 ' + esc(s.branch) + '</h3>'
     + '<div style="font-size:12.5px;color:var(--gray);margin-top:4px">' + meta.join(' · ') + '</div></div>'
-    + '<div class="controls"><button class="btn primary" data-eqadd="' + esc(s.branch) + '">＋ 기록 추가</button></div></div>';
+    + '<div class="controls"><button class="btn primary" data-eqadd="' + esc(s.branch) + '">＋ 장비 추가</button></div></div>';
 
   if(!inv.length){
-    h += '<div class="empty">이 지점은 장비가 확인된 기록이 없습니다.<br>'
-      + '<span style="font-size:12.5px">위 <b>＋ 기록 추가</b>로 설치된 장비를 직접 넣을 수 있습니다.</span></div>';
+    h += '<div class="empty">이 지점은 장비가 확인된 기록이 없습니다.<br><br>'
+      + '<button class="btn primary" data-eqadd="' + esc(s.branch) + '">＋ 이 매장에 장비 추가</button></div>';
   }else{
     h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th>소유</th><th class="num">수량</th><th>모델</th><th>상태</th>'
       + '<th>설치</th><th>최근 교체</th><th>최근 AS·점검</th><th class="num">기록</th><th></th></tr></thead><tbody>'
@@ -2643,6 +2649,7 @@ function equipDetail(s){
             + '<td style="white-space:nowrap;text-align:right"><button class="btn sm" data-eqov="' + esc(o.type) + '" title="수량·모델·설치일·교체일·상태 수정">✏️ 수정</button> '
             + (o.removed ? '' : '<button class="btn sm eq-rm" data-eqrm="' + esc(o.type) + '" title="이 장비를 목록에서 빼기 (회수 · 잘못 등록)">－ 빼기</button>') + '</td></tr>';
         }).join('')
+      + '<tr class="eq-addrow"><td colspan="11"><button type="button" class="eq-addbtn" data-eqadd="' + esc(s.branch) + '">＋ 새 장비 추가 <span>목록에 없는 장비를 이 매장에 넣기</span></button></td></tr>'
       + '</tbody></table></div>'
       + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · '
       + '<b>수기</b> 표시는 사람이 고친 값 · 소유는 기본 <b>' + OWN_LABEL[EQ_OWN_DEFAULT] + '</b>(눌러서 장비별 변경) · <b>장비나 소유 표시를 누르면</b> 상세 팝업에서 수정 · 추가</div>';
@@ -2981,10 +2988,10 @@ function eqOpenEventForm(branch, key){
     + fRow('지점 *', branch && !m ? '<input id="eqfBranch" value="' + esc(branch) + '" readonly>'
         : '<input id="eqfBranch" list="eqBranches" value="' + esc(m ? m.branch : (branch || '')) + '" placeholder="예: 성수코리아IT점">'
           + '<datalist id="eqBranches">' + branches.map(b => '<option value="' + esc(b) + '">').join('') + '</datalist>')
-    + fRow('일자 *', fIn('eqfDate', m ? m.date : TODAY, 'type="date"'))
-    + fRow('구분 *', '<select id="eqfType">' + types.map(t => '<option' + ((m ? m.type : '설치') === t ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>')
     + fRow('장비 *', fIn('eqfItem', m ? m.name : '', 'list="eqNames" placeholder="목록에서 고르거나 직접 입력 (예: 바코드 프린터)"') + eqNameList())
     + fRow('수량', fIn('eqfQty', m ? m.qty : 1, 'type="number" min="0" max="99"'))
+    + fRow('일자 *', fIn('eqfDate', m ? m.date : TODAY, 'type="date"'))
+    + fRow('구분 *', '<select id="eqfType">' + types.map(t => '<option' + ((m ? m.type : '설치') === t ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>')
     + fRow('모델', fIn('eqfModel', m ? m.model : '', 'placeholder="교체면 새 모델"'))
     + fRow('이전 모델', fIn('eqfFrom', m ? m.from : '', 'placeholder="교체일 때만 · 예: TS100E"'))
     + fRow('소유', ownSelect('eqfOwn', m ? (m.own || EQ_OWN_DEFAULT) : EQ_OWN_DEFAULT))
@@ -2993,7 +3000,8 @@ function eqOpenEventForm(branch, key){
     + '<div class="eq-actions"><span class="eq-err" id="eqfErr"></span>'
     + '<button class="btn" type="button" data-close="1">취소</button>'
     + '<button class="btn primary" type="button" id="eqfSave">' + (m ? '수정 저장' : '추가') + '</button></div></div>';
-  openDrill(m ? '✏️ 수기 기록 수정' : '＋ 장비 기록 추가', '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  openDrill(m ? '✏️ 수기 기록 수정' : '＋ 장비 추가' + (branch ? ' · ' + esc(branch) : ''), '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  if(!m) setTimeout(() => { const f = document.getElementById('eqfItem'); if(f) f.focus(); }, 30);
   document.getElementById('eqfSave').addEventListener('click', function(){
     const g = id => document.getElementById(id).value.trim();
     const br = g('eqfBranch'), item = g('eqfItem'), by = g('eqfBy');
