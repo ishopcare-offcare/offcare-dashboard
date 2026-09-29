@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14439,
+  "version": 14440,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -75231,7 +75231,8 @@ window.SLACK_DATA = {
           "req": "유프 외계어 출력 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "19:19",
@@ -75488,7 +75489,8 @@ window.SLACK_DATA = {
           "req": "외주설치요청드려요 <tel:01084244048|010-8424-4048>",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:27",
@@ -76018,7 +76020,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:20",
@@ -76283,7 +76286,8 @@ window.SLACK_DATA = {
           "req": ":alert:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -76672,7 +76676,8 @@ window.SLACK_DATA = {
           "req": "땡겨요 주문접수 프로그램 설치, 영수증 출력물 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:26",
@@ -76694,7 +76699,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:24",
@@ -76794,7 +76800,8 @@ window.SLACK_DATA = {
           "req": "페페",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:00",
@@ -76961,7 +76968,8 @@ window.SLACK_DATA = {
           "req": "01041155597 외주업체 원격요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:52",
@@ -76972,7 +76980,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:49",
@@ -77005,7 +77014,8 @@ window.SLACK_DATA = {
           "req": "아이패드 + 프론트 + 프린터 온보딩 박스뜯어서 전원선 연결요청드림 -&gt; 셀프 진행 시 정상 연결 안되어 온보딩 요청주셨습니다.:pray:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:42",
@@ -77369,7 +77379,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:00",
@@ -77600,7 +77611,8 @@ window.SLACK_DATA = {
           "req": "땡겨요 주문접수 프로그램 설치, 영수증 출력물 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         }
       ],
       "intake": {
@@ -85364,7 +85376,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "20:30",
@@ -85885,7 +85898,8 @@ window.SLACK_DATA = {
           "req": "명현님 지원",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:01",
@@ -86261,7 +86275,8 @@ window.SLACK_DATA = {
           "req": "ts-400w / 용지 출력이 되지 않아 확인 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:54",
@@ -86373,7 +86388,8 @@ window.SLACK_DATA = {
           "req": "외주설치요청드려요(<tel:0103272014|0103272014>8)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:30",
@@ -86461,7 +86477,8 @@ window.SLACK_DATA = {
           "req": "키오스크 모드 메뉴안뜸",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:21",
@@ -86528,7 +86545,8 @@ window.SLACK_DATA = {
           "req": "SKT 멤버십 등록",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:09",
@@ -86682,7 +86700,8 @@ window.SLACK_DATA = {
           "req": "터미널 전원이 켜지지 않음, 전원버튼을 누르면 녹색불 점등 후 꺼진다하여 점검부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:39",
@@ -86958,7 +86977,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:45",
@@ -87145,7 +87165,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) + 유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:18",
@@ -87355,7 +87376,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:50",
@@ -88418,7 +88440,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "22:15",
@@ -88740,7 +88763,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) 온보딩 요청드립니다. 키오스크 모드 사용 희망하십니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "18:11",
@@ -88931,7 +88955,8 @@ window.SLACK_DATA = {
           "req": "프론트 설정 온보딩 부탁드립니다! 고령.. :꾸벅_옐로:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:30",
@@ -89008,7 +89033,8 @@ window.SLACK_DATA = {
           "req": "토스포스(휴대폰) 프론트 온보딩",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:15",
@@ -89041,7 +89067,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:11",
@@ -89119,7 +89146,8 @@ window.SLACK_DATA = {
           "req": "캣+프론트 사용 매장으로 자가 설치 어려워하셔서 온보딩 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:47",
@@ -89152,7 +89180,8 @@ window.SLACK_DATA = {
           "req": "영수증 단말기 연결 알려주셨으나 케이블 고장 의심으로 케이블 새로 보내주었는데, 연결해봐도 안된다고 합니다. 원격 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:40",
@@ -89163,7 +89192,8 @@ window.SLACK_DATA = {
           "req": "노출 활성화하였으나 프론트에 노출이 안된다하여 점검부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:40",
@@ -89230,7 +89260,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:30",
@@ -89340,7 +89371,8 @@ window.SLACK_DATA = {
           "req": "포프 온보딩 교육 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:16",
@@ -89593,7 +89625,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:01",
@@ -89604,7 +89637,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:00",
@@ -89737,7 +89771,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:46",
@@ -89914,7 +89949,8 @@ window.SLACK_DATA = {
           "req": "포스기 소리 설정 확인 부탁드립니다! :꾸벅5:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -89925,7 +89961,8 @@ window.SLACK_DATA = {
           "req": "포프(PC) + 유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -89947,7 +89984,8 @@ window.SLACK_DATA = {
           "req": "2층 오더포스기에 메인 포스기와 일치 하지 않는다는 문구 확인 된다고 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:59",
@@ -89958,7 +89996,8 @@ window.SLACK_DATA = {
           "req": "유프 연결 가이드 보내 드렸으나, RJ45 누락 주장 / 출고 내역엔 있음 / 원격으로 한 번만 확인 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:57",
@@ -89969,7 +90008,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:53",
@@ -90013,7 +90053,8 @@ window.SLACK_DATA = {
           "req": "토스포스(아이패드) 프론트 연결 방법 안내 부탁드립니다 :woman-bowing:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:45",
@@ -90057,7 +90098,8 @@ window.SLACK_DATA = {
           "req": "OKPOS 기섭님 요청건",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:31",
@@ -90079,7 +90121,8 @@ window.SLACK_DATA = {
           "req": "키오스크 카드 꽂는 부분이 안된다 하시어 확인 부탁드립니다 :woman-bowing:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:26",
@@ -90112,7 +90155,8 @@ window.SLACK_DATA = {
           "req": "포스기 문제로 원격 확인 요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:19",
@@ -90410,7 +90454,8 @@ window.SLACK_DATA = {
           "req": "어제 퇴근 전에 프론트 최신 버전 설치 창이 떴는데 지금도 그대로라고 합니다. 터미널도 속도가 많이 느려졌다고 하는데 교체 가능한지 문의주셨습니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:30",
@@ -90443,7 +90488,8 @@ window.SLACK_DATA = {
           "req": "땡겨요 주문접수 프로그램 설치, 영수증 출력물 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:26",
@@ -90587,7 +90633,8 @@ window.SLACK_DATA = {
           "req": "토플 요청건",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:50",
@@ -90675,7 +90722,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:22",
@@ -90686,7 +90734,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:18",
@@ -91437,7 +91486,8 @@ window.SLACK_DATA = {
           "req": "민원처리",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "23:12",
@@ -91470,7 +91520,8 @@ window.SLACK_DATA = {
           "req": "핸드폰 + 프론트 + 프린터 온보딩요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "21:00",
@@ -91514,7 +91565,8 @@ window.SLACK_DATA = {
           "req": "컴퓨터 + 프론트 온보딩 .",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "20:01",
@@ -91646,7 +91698,8 @@ window.SLACK_DATA = {
           "req": "프린터기 소리 설정 원격 요청/ 도움 부탁드립니다:꾸벅5:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "18:28",
@@ -91745,7 +91798,8 @@ window.SLACK_DATA = {
           "req": "외주설치요청드려요 <tel:010-6359-8250|010-6359-8250>)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:52",
@@ -91933,7 +91987,8 @@ window.SLACK_DATA = {
           "req": "외주설치요청드려요(<tel:010-9354-5154|010-9354-5154>)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:15",
@@ -92077,7 +92132,8 @@ window.SLACK_DATA = {
           "req": "노트북 + 프론트 + 프린터 온보딩",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:00",
@@ -92088,7 +92144,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) / 갑자기 결제 화면이 안 뜬다고 하시어 원격 도움 요청드립니다. (17시경)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:50",
@@ -92143,7 +92200,8 @@ window.SLACK_DATA = {
           "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:40",
@@ -92154,7 +92212,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 / 토스포스 pc 설치 시 프로그램이 열리지 않는다고 하시고,",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:39",
@@ -92209,7 +92268,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) + 유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:30",
@@ -92220,7 +92280,8 @@ window.SLACK_DATA = {
           "req": "프론트 + 포스기 + 유선 프린터 + 금전함",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:23",
@@ -92276,7 +92337,8 @@ window.SLACK_DATA = {
           "req": "태블릿 백화 현상으로 삭제 후 재설치 도와드렸으나 잘 진행을 못하셔서 원격 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:15",
@@ -92320,7 +92382,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:11",
@@ -92342,7 +92405,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 유프 온보딩 요청드립니다. / 클래스업 사용도 필요하다고 하십니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:10",
@@ -92397,7 +92461,8 @@ window.SLACK_DATA = {
           "req": "프론트-유프 연결 방법 및 설정 안내 부탁드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:00",
@@ -92430,7 +92495,8 @@ window.SLACK_DATA = {
           "req": "테블릿 + 프론트 + 프린터  온보딩요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:00",
@@ -92474,7 +92540,8 @@ window.SLACK_DATA = {
           "req": "오더포스에서 주문 접수 시에 메인 포스에 연결된 프린터에서 주문서 미출력되어 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:54",
@@ -92518,7 +92585,8 @@ window.SLACK_DATA = {
           "req": "프론트-터미널 이용중이신데 결제가 잘 안되는 상황이 잦다고 하시어 확인 한 번 부탁드립니다. :꾸벅곰:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:47",
@@ -92540,7 +92608,8 @@ window.SLACK_DATA = {
           "req": "테블릿/컴퓨터 + 프론트+프린터  온보딩요청 .",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:45",
@@ -92562,7 +92631,8 @@ window.SLACK_DATA = {
           "req": "*<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1772672404019399|4958501505 (재즈 스파이스) >*매장에서 3월에 임시 사용하던 단말기를",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:43",
@@ -92639,7 +92709,8 @@ window.SLACK_DATA = {
           "req": "터프 온보딩 요청드립니다. / 포스기와 연결되어 있는 기존 단말기 해체 어려우심. 사용하시던 포스기와 터프 연동 필요함.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:36",
@@ -92661,7 +92732,8 @@ window.SLACK_DATA = {
           "req": "노트북 +  프론트 + 프린터 온보딩",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:30",
@@ -92672,7 +92744,8 @@ window.SLACK_DATA = {
           "req": "무프/태블릿을 통해 주문을 하면 영수증 출력이 되지 않아 확인 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:30",
@@ -92683,7 +92756,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) + 유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:28",
@@ -92716,7 +92790,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:22",
@@ -92760,7 +92835,8 @@ window.SLACK_DATA = {
           "req": "프린터 기기 작동되지 않는다고 하십니다. 확인 부탁드립니다. / <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1785303469184129|이전 원격 진행 완료하여 포프+유프 온보딩은",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:00",
@@ -92848,7 +92924,8 @@ window.SLACK_DATA = {
           "req": "프론트+유선프린터기 설치",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:44",
@@ -92881,7 +92958,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:39",
@@ -92926,7 +93004,8 @@ window.SLACK_DATA = {
           "req": "오늘 오전 9시 16분에 들어온 주문 건 수락 후 주문서 용지까지 나왔으나 3분 뒤 접수 지연으로 취소 되었다고 합니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -92937,7 +93016,8 @@ window.SLACK_DATA = {
           "req": "사용 방법 어려움으로 도움 요청드립니다. / 설치는 완료하심",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -93037,7 +93117,8 @@ window.SLACK_DATA = {
           "req": "유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:15",
@@ -93092,7 +93173,8 @@ window.SLACK_DATA = {
           "req": "포터프(아이패드) 사용 중 / 터미널에 업데이트 필요라고 뜬다고 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:04",
@@ -93103,7 +93185,8 @@ window.SLACK_DATA = {
           "req": "유프 연결 도움 요청드립니다. / 프론트는 연결 완료",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:04",
@@ -93125,7 +93208,8 @@ window.SLACK_DATA = {
           "req": "터프 (휴대폰) + 유프 온보딩 요청드립니다. / 고령 / 전원선 연결하는 것도 모르겠다고 하십니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -93169,7 +93253,8 @@ window.SLACK_DATA = {
           "req": "포프(휴) / 메뉴 등록까지 완료했으나, 프론트에 뜨지 않는다고 하셔서 확인 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:56",
@@ -93213,7 +93298,8 @@ window.SLACK_DATA = {
           "req": "성민님지원",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:47",
@@ -93258,7 +93344,8 @@ window.SLACK_DATA = {
           "req": "토스포스(노트북) 프론트 온보딩 도움 요청 드립니다 :꾸벅곰:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:41",
@@ -93269,7 +93356,8 @@ window.SLACK_DATA = {
           "req": "프론트+유선프린터기 설치",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:40",
@@ -93314,7 +93402,8 @@ window.SLACK_DATA = {
           "req": "컴퓨터 + 프론트 + 프린터 온보딩요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:30",
@@ -93325,7 +93414,8 @@ window.SLACK_DATA = {
           "req": "포프 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:30",
@@ -93369,7 +93459,8 @@ window.SLACK_DATA = {
           "req": "• 프론트 단말기에서 음성이 나올 때 메아리 치면서 이상한 소리가 나 점검 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:22",
@@ -93380,7 +93471,8 @@ window.SLACK_DATA = {
           "req": "아이패드 + 프론트 + CAT 단말기 사용 중 / 프론트 전원 문제로 대체품 새로 받으셔서 온보딩 부탁 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:22",
@@ -93402,7 +93494,8 @@ window.SLACK_DATA = {
           "req": "포프유프 온보딩 부탁드립니다. 빠른 통화 요청 주셨습니다. 감사합니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:00",
@@ -93424,7 +93517,8 @@ window.SLACK_DATA = {
           "req": "포 터 프 사용 중",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:00",
@@ -93457,7 +93551,8 @@ window.SLACK_DATA = {
           "req": "포프+유프 신규 온보딩 요청 드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:00",
@@ -93468,7 +93563,8 @@ window.SLACK_DATA = {
           "req": "포프 (휴대폰) + 유프 온보딩 요청드립니다. / 아이샵케어 홈페이지에 컴퓨터에 프로그램 2개를 설치 필요하다 기재되어 있었다고 하십니다. 확인 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:00",
@@ -93545,7 +93641,8 @@ window.SLACK_DATA = {
           "req": "유프온보딩",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "12:28",
@@ -93611,7 +93708,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿)유 사용 중 / 카페와 글로서리 둘다 출력이 안된다고 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "12:08",
@@ -93833,7 +93931,8 @@ window.SLACK_DATA = {
           "req": "포프유프(노트북) 온보딩 요청 / 영상통화 1차 진행 후 안 되면 방문으로 요청주실 수 있음 (차감 안내는 완료)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:28",
@@ -94032,7 +94131,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:49",
@@ -94099,7 +94199,8 @@ window.SLACK_DATA = {
           "req": "폰 + 프 + 유프 최초 온보딩 도움부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:30",
@@ -94209,7 +94310,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:17",
@@ -140714,7 +140816,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "18:00",
@@ -140824,7 +140927,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:20",
@@ -140934,7 +141038,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) 온보딩 요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:00",
@@ -141224,7 +141329,8 @@ window.SLACK_DATA = {
           "req": "• 태블릿 - 프론트 온보딩 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "16:11",
@@ -141754,7 +141860,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:45",
@@ -141908,7 +142015,8 @@ window.SLACK_DATA = {
           "req": "주진님 지원",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:27",
@@ -141986,7 +142094,8 @@ window.SLACK_DATA = {
           "req": "가이드 참고하였지만 프론트 배경 화면 설정이 되지 않는다고 하십니다. 확인 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:15",
@@ -142008,7 +142117,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩 요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:12",
@@ -142085,7 +142195,8 @@ window.SLACK_DATA = {
           "req": "고령 점주로 유프 자가 연동이 어려워 , 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -142472,7 +142583,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:00",
@@ -142747,7 +142859,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:45",
@@ -142836,7 +142949,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:19",
@@ -142847,7 +142961,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:18",
@@ -142858,7 +142973,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:18",
@@ -142925,7 +143041,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:03",
@@ -143113,7 +143230,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:37",
@@ -143168,7 +143286,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:16",
@@ -191080,7 +191199,8 @@ window.SLACK_DATA = {
           "req": "캣 + 패드 단독 매장으로 kis 2420 연결 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "캣 단독 온보딩 완료"
+          "note": "캣 단독 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "22:00",
@@ -191091,7 +191211,8 @@ window.SLACK_DATA = {
           "req": "방문설치때 노트북 비밀번호를 몰라 폰으로 온보딩 -&gt; 노트북으로 재온보딩 필요하여 도움부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "노트북으로 재온보딩 완료"
+          "note": "노트북으로 재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "22:00",
@@ -191102,7 +191223,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "포터프 온보딩 완료"
+          "note": "포터프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "22:00",
@@ -191113,7 +191235,8 @@ window.SLACK_DATA = {
           "req": "오케이포스로 교체한 매장/ 케이블 찾아서 원격 설치 지원 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "토스포스로 원복 진행 완료 테이블오더 설치로 인하여 차주 수요일 오후2시 변경요청 예약메세지 작성 완료"
+          "note": "토스포스로 원복 진행 완료 테이블오더 설치로 인하여 차주 수요일 오후2시 변경요청 예약메세지 작성 완료",
+          "nv": 2
         },
         {
           "time": "22:00",
@@ -191124,7 +191247,8 @@ window.SLACK_DATA = {
           "req": "태블릿+프론트+프린터 온보딩요청",
           "hw": "",
           "intake": "online",
-          "note": "포프유프 온보딩 완료"
+          "note": "포프유프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "21:35",
@@ -191135,7 +191259,8 @@ window.SLACK_DATA = {
           "req": "• 고기메뉴중 꽃목살만 주방 빌지 출력 될 수 있게 설정 부탁드려용!",
           "hw": "",
           "intake": "online",
-          "note": "토플파에서 설정 잡아드리려고 하였으나 주방프린터 클릭 시 페이지 오류 생성 되어 원격 안내드렸으나 퇴근하시여 익일 오후3시 재연락 요청"
+          "note": "토플파에서 설정 잡아드리려고 하였으나 주방프린터 클릭 시 페이지 오류 생성 되어 원격 안내드렸으나 퇴근하시여 익일 오후3시 재연락 요청",
+          "nv": 2
         },
         {
           "time": "21:00",
@@ -191146,7 +191271,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "포프유프 온보딩 완료"
+          "note": "포프유프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "20:44",
@@ -191157,7 +191283,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "1차 통화중 / 현재 매장 아님 프론트 토스포스앱 지속 연결 끊김으로 익일 오후1시 재연락 요청"
+          "note": "1차 통화중 / 현재 매장 아님 프론트 토스포스앱 지속 연결 끊김으로 익일 오후1시 재연락 요청",
+          "nv": 2
         },
         {
           "time": "20:41",
@@ -191168,7 +191295,8 @@ window.SLACK_DATA = {
           "req": "",
           "hw": "5cZkM9x5-bwBy/view?usp=drivesdk>, <https://drive.google.com/",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "20:22",
@@ -191179,7 +191307,8 @@ window.SLACK_DATA = {
           "req": "• PC/포프 재온보딩 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "포프유프 온보딩 완료 (아이맥)"
+          "note": "포프유프 온보딩 완료 (아이맥)",
+          "nv": 2
         },
         {
           "time": "20:03",
@@ -191190,7 +191319,8 @@ window.SLACK_DATA = {
           "req": "타사 포스 사용 중) 프론트 결제 승인 시도 시 다운로드 요망 확인된다고 하여 점검 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "kpn사용중 단말기 인증 안되어있어 인증 후 정상작동 완료"
+          "note": "kpn사용중 단말기 인증 안되어있어 인증 후 정상작동 완료",
+          "nv": 2
         },
         {
           "time": "20:00",
@@ -191201,7 +191331,8 @@ window.SLACK_DATA = {
           "req": "태블릿+프론트+터미널 온보딩",
           "hw": "",
           "intake": "online",
-          "note": "포터프 온보딩 완료"
+          "note": "포터프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "19:52",
@@ -191212,7 +191343,8 @@ window.SLACK_DATA = {
           "req": "",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "19:37",
@@ -191223,7 +191355,8 @@ window.SLACK_DATA = {
           "req": "프론트 카드 인식 불가로 점검 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "결제카드 불량으로 의심 및 현재는 정상적으로 잘 작동되며 결제 인식방법 안내 완료"
+          "note": "결제카드 불량으로 의심 및 현재는 정상적으로 잘 작동되며 결제 인식방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "19:15",
@@ -191234,7 +191367,8 @@ window.SLACK_DATA = {
           "req": "포프(폰) +유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "포프유프 온보딩 완료"
+          "note": "포프유프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "19:15",
@@ -191245,7 +191379,8 @@ window.SLACK_DATA = {
           "req": "프론트+터미널 단독결제모드로 사용한다함 . 온보딩요청",
           "hw": "",
           "intake": "online",
-          "note": "터프 온보딩 완료"
+          "note": "터프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "19:15",
@@ -191256,7 +191391,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) 유프 / 배달영수증 출력 부분으로 지난번처럼 원격 요청주셨습니다.:꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": "현재 공항으로 인하여 익일 오후7시15분 재연락 요청"
+          "note": "현재 공항으로 인하여 익일 오후7시15분 재연락 요청",
+          "nv": 2
         },
         {
           "time": "19:11",
@@ -191267,7 +191403,8 @@ window.SLACK_DATA = {
           "req": "kisokpos 오늘 교체햇는데 교육이 안되어 교육요청",
           "hw": "",
           "intake": "online",
-          "note": "배달교육완료 내일 더 해달라고 요청....."
+          "note": "배달교육완료 내일 더 해달라고 요청.....",
+          "nv": 2
         },
         {
           "time": "19:00",
@@ -191278,7 +191415,8 @@ window.SLACK_DATA = {
           "req": "쿠폰 적립 기능에 대한 자세한 원격 상담 요청하여 전달드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "선불권 기능 및 쿠폰적립기능 안내 완료"
+          "note": "선불권 기능 및 쿠폰적립기능 안내 완료",
+          "nv": 2
         },
         {
           "time": "19:00",
@@ -191289,7 +191427,8 @@ window.SLACK_DATA = {
           "req": "노트북+프론트+터미널",
           "hw": "",
           "intake": "online",
-          "note": "선연결 후 15분 뒤 재연락 요청 / 포프유프 온보딩 완료"
+          "note": "선연결 후 15분 뒤 재연락 요청 / 포프유프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "18:49",
@@ -191300,7 +191439,8 @@ window.SLACK_DATA = {
           "req": "프론트 화면이 켜지지 않아 확인 요청드립니다. (소리는 들림)",
           "hw": "",
           "intake": "offline",
-          "note": "프론트 화면 고장 대체품 발송 안내 완료"
+          "note": "프론트 화면 고장 대체품 발송 안내 완료",
+          "nv": 2
         },
         {
           "time": "18:40",
@@ -191311,7 +191451,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "18:38",
@@ -191333,7 +191474,8 @@ window.SLACK_DATA = {
           "req": "• 태블릿/ 포프 재온보딩 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "재온보딩 완료"
+          "note": "재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "18:37",
@@ -191344,7 +191486,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿에서 사용 중) 배민 연동 요청 드립니다!",
           "hw": "이 정확하진 않음",
           "intake": "offline",
-          "note": "프린터내 배달 주문서 OFF &gt; ON 완료 프린터내 배달 주문서 OFF ON 완료"
+          "note": "프린터내 배달 주문서 OFF &gt; ON 완료 프린터내 배달 주문서 OFF ON 완료",
+          "nv": 2
         },
         {
           "time": "18:30",
@@ -191355,7 +191498,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "포프유프 온보딩 완료"
+          "note": "포프유프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "18:30",
@@ -191366,7 +191510,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) 온보딩 도움 요청드립니다. (18시 30분 이후)",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료"
+          "note": "온보딩 완료",
+          "nv": 2
         },
         {
           "time": "18:30",
@@ -191377,7 +191522,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 및 사용방법 안내 완료"
+          "note": "온보딩 및 사용방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "18:21",
@@ -191388,7 +191534,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "18:19",
@@ -191399,7 +191546,8 @@ window.SLACK_DATA = {
           "req": "프론트 전원 미작동으로 인한 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "1차 부재 / 전원 케이블 재연결 이후 정상"
+          "note": "1차 부재 / 전원 케이블 재연결 이후 정상",
+          "nv": 2
         },
         {
           "time": "18:10",
@@ -191411,7 +191559,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "• 포스기 먹통 증상으로 재부팅 중 포스기 먹통 증상으로 재부팅 중 / • 임시폴더 삭제 완료 임시폴더 삭제 완료"
+          "note": "• 포스기 먹통 증상으로 재부팅 중 포스기 먹통 증상으로 재부팅 중 / • 임시폴더 삭제 완료 임시폴더 삭제 완료",
+          "nv": 2
         },
         {
           "time": "18:08",
@@ -191422,7 +191571,8 @@ window.SLACK_DATA = {
           "req": "이전 설치로 단말기 분리 중인데, 어떻게 해야할지 잘 모르시겠다고 하셔서 영상통화로 안내 부탁 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "아임유 포스 분리 완료 22일 방문설치 예약하셧다고함"
+          "note": "아임유 포스 분리 완료 22일 방문설치 예약하셧다고함",
+          "nv": 2
         },
         {
           "time": "18:07",
@@ -191434,7 +191584,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "온보딩 출력 테스트 완료"
+          "note": "온보딩 출력 테스트 완료",
+          "nv": 2
         },
         {
           "time": "18:00",
@@ -191445,7 +191596,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료 온보딩 완료"
+          "note": "온보딩 완료 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "18:00",
@@ -191456,7 +191608,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료입니다"
+          "note": "온보딩 완료입니다",
+          "nv": 2
         },
         {
           "time": "18:00",
@@ -191467,7 +191620,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) 에 유선프린터 설치 부탁드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "유프 온보딩 완료 및 프린터 출력방법 안내 완료"
+          "note": "유프 온보딩 완료 및 프린터 출력방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "17:59",
@@ -191478,7 +191632,8 @@ window.SLACK_DATA = {
           "req": "노트북 + 프론트 + 터미널 온보딩 도움부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": "터프로 설치 완료"
+          "note": "터프로 설치 완료",
+          "nv": 2
         },
         {
           "time": "17:59",
@@ -191489,7 +191644,8 @@ window.SLACK_DATA = {
           "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1789354803160439|9/14>과 동일하게 방전 증상 발생되어 알려주신 방법으로 조치를 하긴 했으나,",
           "hw": "",
           "intake": "online",
-          "note": "기기교체"
+          "note": "기기교체",
+          "nv": 2
         },
         {
           "time": "17:56",
@@ -191500,7 +191656,8 @@ window.SLACK_DATA = {
           "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1789625853236229?thread_ts=1789624347.496579&amp;cid=C09HRUSG4TX| 주방 라인 정리가 된",
           "hw": "",
           "intake": "online",
-          "note": "정상출력확인 테스트출력완료 옵션부분이 원하시는대로 등록이안되셔서, 옵션수정 및 등록완료했습니다 ."
+          "note": "정상출력확인 테스트출력완료 옵션부분이 원하시는대로 등록이안되셔서, 옵션수정 및 등록완료했습니다 .",
+          "nv": 2
         },
         {
           "time": "17:55",
@@ -191511,7 +191668,8 @@ window.SLACK_DATA = {
           "req": "연락주신분은 포스기기 설치 기사로 보입니다.",
           "hw": "",
           "intake": "online",
-          "note": "• 재온보딩 잘 되어있음 결제,출력테스트 정상입니다 재온보딩 잘 되어있음 결제,출력테스트 정상입니다"
+          "note": "• 재온보딩 잘 되어있음 결제,출력테스트 정상입니다 재온보딩 잘 되어있음 결제,출력테스트 정상입니다",
+          "nv": 2
         },
         {
           "time": "17:51",
@@ -191522,7 +191680,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:49",
@@ -191534,7 +191693,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:49",
@@ -191545,7 +191705,8 @@ window.SLACK_DATA = {
           "req": "프론트 연결이 되지 않아 어려움을 겪고 계십니다.",
           "hw": "",
           "intake": "online",
-          "note": "포프로 온보딩 질문사항 안내 후 종료"
+          "note": "포프로 온보딩 질문사항 안내 후 종료",
+          "nv": 2
         },
         {
           "time": "17:49",
@@ -191589,7 +191750,8 @@ window.SLACK_DATA = {
           "req": "포프(포스기) 사용 매장으로, 프론트가 자꾸 꺼졌다 켜졌다 하며 지금은 완전히 꺼져 켜지지 않으신다고 하여 점검 요청드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": "프론트 전원 안켜짐 아답터 불량인지 모름 콘세트가 안으로 들어가있어 확인불가 프론트 아답터 둘다 출고 및 무조건 방문요청함"
+          "note": "프론트 전원 안켜짐 아답터 불량인지 모름 콘세트가 안으로 들어가있어 확인불가 프론트 아답터 둘다 출고 및 무조건 방문요청함",
+          "nv": 2
         },
         {
           "time": "17:40",
@@ -191600,7 +191762,8 @@ window.SLACK_DATA = {
           "req": "스탠드형 키오스크 카드 인식이 잘 안된다고 하셔서 확인 요청 드립니다 / 삼성페이,애플페이 등 인식이 느리다고 함",
           "hw": "",
           "intake": "online",
-          "note": "멀티패드 IC칩 인식부분 고장으로확인 • 카드를 넣기전에 IC 인식불가 -&gt; MSR결제창으로 넘어가버림 • 내일 오전중 퀵요청예정 • 물건받으신후 영상통화 및 원격으로 설치 도와드릴예정 카드를 넣기전에 IC 인식불가 - MSR결제창으로 넘어가버림 내일 오전중 퀵요청예정 물건받으신후 영상통화 및 원격으로 설치 도와드릴예정 / <!subteam^S0ANL"
+          "note": "멀티패드 IC칩 인식부분 고장으로확인 • 카드를 넣기전에 IC 인식불가 -&gt; MSR결제창으로 넘어가버림 • 내일 오전중 퀵요청예정 • 물건받으신후 영상통화 및 원격으로 설치 도와드릴예정 카드를 넣기전에 IC 인식불가 - MSR결제창으로 넘어가버림 내일 오전중 퀵요청예정 물건받으신후 영상통화 및 원격으로 설치 도와드릴예정 / <!subteam^S0ANL",
+          "nv": 2
         },
         {
           "time": "17:40",
@@ -191611,7 +191774,8 @@ window.SLACK_DATA = {
           "req": "터프 배송받은 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": "프+터2 온보딩완료 사용법안내완료"
+          "note": "프+터2 온보딩완료 사용법안내완료",
+          "nv": 2
         },
         {
           "time": "17:32",
@@ -191645,7 +191809,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "수동 온보딩 완료 토스포스 선 로그인 후 연결"
+          "note": "수동 온보딩 완료 토스포스 선 로그인 후 연결",
+          "nv": 2
         },
         {
           "time": "17:22",
@@ -191656,7 +191821,8 @@ window.SLACK_DATA = {
           "req": "프린터 온보딩 , 프린터 사용 시 글자가 반이 짤려서 나옴, 뒤집어 넣을 시 아예 안 나옴, 온보딩 도움 부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": "감사합니다. 진행하겠습니다! / 셀프 결제 모드 이용 시 로고 출력 불가 안내 완료 로고 제거 후 정상 출력 완료"
+          "note": "감사합니다. 진행하겠습니다! / 셀프 결제 모드 이용 시 로고 출력 불가 안내 완료 로고 제거 후 정상 출력 완료",
+          "nv": 2
         },
         {
           "time": "17:19",
@@ -191667,7 +191833,8 @@ window.SLACK_DATA = {
           "req": "설치도움 외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:17",
@@ -191689,7 +191856,8 @@ window.SLACK_DATA = {
           "req": "프론트 안됨",
           "hw": "",
           "intake": "online",
-          "note": "기존 com1에서 com2로 연결 변경하니 되긴 함 / 다만 단자들이 전반적으로 불량 일 수 있으니 지속적으로 같은 증상 발생 시 교체 등 필요함 안내 완료"
+          "note": "기존 com1에서 com2로 연결 변경하니 되긴 함 / 다만 단자들이 전반적으로 불량 일 수 있으니 지속적으로 같은 증상 발생 시 교체 등 필요함 안내 완료",
+          "nv": 2
         },
         {
           "time": "17:15",
@@ -191711,7 +191879,8 @@ window.SLACK_DATA = {
           "req": "",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "17:09",
@@ -191722,7 +191891,8 @@ window.SLACK_DATA = {
           "req": "포프 (프린터는 터미널로 바꿀예정) 연결중 프론트에서 넘어가지지가 않음 (설정으로아예못가십니다), 고령 온보딩 요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "• 온보딩 완료입니다 온보딩 완료입니다"
+          "note": "• 온보딩 완료입니다 온보딩 완료입니다",
+          "nv": 2
         },
         {
           "time": "17:05",
@@ -191733,7 +191903,8 @@ window.SLACK_DATA = {
           "req": "포프(포스기)&amp; 유프 2대 사용 매장으로, 아래 내용으로 점검 요청주시어 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": "토스포스 EDGE 1560 TS100E 연결 끊김 증상 CPP - 3000 교체 익일 발송 월요일 영상 통화 설치 진행하고 불가능할 시 방문 요청 / 9/30 회수 접수 완료"
+          "note": "토스포스 EDGE 1560 TS100E 연결 끊김 증상 CPP - 3000 교체 익일 발송 월요일 영상 통화 설치 진행하고 불가능할 시 방문 요청 / 9/30 회수 접수 완료",
+          "nv": 2
         },
         {
           "time": "17:03",
@@ -191744,7 +191915,8 @@ window.SLACK_DATA = {
           "req": "프론트 온보딩 원격 요청 / 도움부탁드립니다:감사합니다꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": "프론트 로그아웃 후 재온보딩 후 완료 / 행사장에선 다른 태블릿에 할 수도 있음 / 이 경우엔 기존 태블릿에서 꼭 삭제를 눌러서 연결 해지 후 새 프론트에서 연결 해야함 안내 완료"
+          "note": "프론트 로그아웃 후 재온보딩 후 완료 / 행사장에선 다른 태블릿에 할 수도 있음 / 이 경우엔 기존 태블릿에서 꼭 삭제를 눌러서 연결 해지 후 새 프론트에서 연결 해야함 안내 완료",
+          "nv": 2
         },
         {
           "time": "17:00",
@@ -191755,7 +191927,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 및 사용 방법 전달 완료"
+          "note": "온보딩 및 사용 방법 전달 완료",
+          "nv": 2
         },
         {
           "time": "17:00",
@@ -191766,7 +191939,8 @@ window.SLACK_DATA = {
           "req": "노트북+프론트",
           "hw": "",
           "intake": "online",
-          "note": "기기 미개봉 연결 방법 안내 기본 세팅 후 재연락 예정 / 온보딩 사용 방법 전달 완료"
+          "note": "기기 미개봉 연결 방법 안내 기본 세팅 후 재연락 예정 / 온보딩 사용 방법 전달 완료",
+          "nv": 2
         },
         {
           "time": "17:00",
@@ -191777,7 +191951,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰-공기계) 온보딩요청드립니다(예약된 분이 있어서 대기시간 있는 점 안내했습니다",
           "hw": "",
           "intake": "online",
-          "note": "기기 기본 세팅 후 재연락 예정 / 온보딩 완료"
+          "note": "기기 기본 세팅 후 재연락 예정 / 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "17:00",
@@ -191788,7 +191963,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "미개봉 전원연결및 와이파이연결후 연락요청 / 프론트 +터미널2 온보딩 완료 프론트 + 터미널2 온보딩 완료"
+          "note": "미개봉 전원연결및 와이파이연결후 연락요청 / 프론트 +터미널2 온보딩 완료 프론트 + 터미널2 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "16:59",
@@ -191799,7 +191975,8 @@ window.SLACK_DATA = {
           "req": "터 2 + 프론트 온보딩 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 사용 방법 안내 완료"
+          "note": "온보딩 사용 방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "16:56",
@@ -191810,7 +191987,8 @@ window.SLACK_DATA = {
           "req": "폰 + 프론트 온보딩 도움부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": "키오스크로만 사용으로 온보딩되어있어, 프론트 로그아웃후 재온보딩 완료"
+          "note": "키오스크로만 사용으로 온보딩되어있어, 프론트 로그아웃후 재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "16:55",
@@ -191843,7 +192021,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "터프로 온보딩 / 미청약"
+          "note": "터프로 온보딩 / 미청약",
+          "nv": 2
         },
         {
           "time": "16:49",
@@ -191854,7 +192033,8 @@ window.SLACK_DATA = {
           "req": "아이패드/포프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "자체온보딩"
+          "note": "자체온보딩",
+          "nv": 2
         },
         {
           "time": "16:45",
@@ -191865,7 +192045,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료"
+          "note": "온보딩 완료",
+          "nv": 2
         },
         {
           "time": "16:45",
@@ -191876,7 +192057,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료입니다"
+          "note": "온보딩 완료입니다",
+          "nv": 2
         },
         {
           "time": "16:44",
@@ -191887,7 +192069,8 @@ window.SLACK_DATA = {
           "req": "유프 무음 설정 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "유프 무음설정 완료"
+          "note": "유프 무음설정 완료",
+          "nv": 2
         },
         {
           "time": "16:42",
@@ -191898,7 +192081,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": "cat 다운로드"
+          "note": "cat 다운로드",
+          "nv": 2
         },
         {
           "time": "16:37",
@@ -191931,7 +192115,8 @@ window.SLACK_DATA = {
           "req": "프론트 전원 케이블이 없다고 주장 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "• 전원케이블 찾아드림 • 온보딩 도움드릴까요? -&gt; 직접해보시고 어려우실때 재인입 해주신다고 함 전원케이블 찾아드림 온보딩 도움드릴까요? - 직접해보시고 어려우실때 재인입 해주신다고 함"
+          "note": "• 전원케이블 찾아드림 • 온보딩 도움드릴까요? -&gt; 직접해보시고 어려우실때 재인입 해주신다고 함 전원케이블 찾아드림 온보딩 도움드릴까요? - 직접해보시고 어려우실때 재인입 해주신다고 함",
+          "nv": 2
         },
         {
           "time": "16:30",
@@ -191942,7 +192127,8 @@ window.SLACK_DATA = {
           "req": "포프(폰) 온보딩 부탁드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료"
+          "note": "온보딩 완료",
+          "nv": 2
         },
         {
           "time": "16:29",
@@ -191953,7 +192139,8 @@ window.SLACK_DATA = {
           "req": "노트북 + 프론트 + 터미널 온보딩 도움부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "통화도중 전원꺼짐 / 터프 온보딩 완료. 면세설정 완료"
+          "note": "통화도중 전원꺼짐 / 터프 온보딩 완료. 면세설정 완료",
+          "nv": 2
         },
         {
           "time": "16:29",
@@ -191964,7 +192151,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 사용 매장으로, 무선 스캐너 갑자기 인식이 되지 않으신다고 하여 점검 요청드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "재연동 인식 확인 완료"
+          "note": "재연동 인식 확인 완료",
+          "nv": 2
         },
         {
           "time": "16:27",
@@ -191976,7 +192164,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "현재는 정상, 점검 위해 15분 후 재연락 요청"
+          "note": "현재는 정상, 점검 위해 15분 후 재연락 요청",
+          "nv": 2
         },
         {
           "time": "16:26",
@@ -191987,7 +192176,8 @@ window.SLACK_DATA = {
           "req": "메뉴등록 및 사용방법 안내 요청",
           "hw": "",
           "intake": "online",
-          "note": "메뉴등록 및 사용방법 안내 완료"
+          "note": "메뉴등록 및 사용방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "16:22",
@@ -191998,7 +192188,8 @@ window.SLACK_DATA = {
           "req": "프론트 + 태블릿 온보딩 요청 드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "님 안녕하세요! 해당 점주님 온보딩이 아닌 정산계좌 변경이 필요한부분이라고 지속 말씀주셔서 정확한 요청이 어떤 부분일까요? 모두싸인 관련 안열리신다고 말씀을 주셔서 내용 확인 후 재통화 안내 드렸습니다. 님 안녕하세요! 해당 점주님 온보딩이 아닌 정산계좌 변경이 필요한부분이라고 지속 말씀주셔서 정확한 요청이 어떤 부분일까요? / P/U 좀.... 부탁드릴게"
+          "note": "님 안녕하세요! 해당 점주님 온보딩이 아닌 정산계좌 변경이 필요한부분이라고 지속 말씀주셔서 정확한 요청이 어떤 부분일까요? 모두싸인 관련 안열리신다고 말씀을 주셔서 내용 확인 후 재통화 안내 드렸습니다. 님 안녕하세요! 해당 점주님 온보딩이 아닌 정산계좌 변경이 필요한부분이라고 지속 말씀주셔서 정확한 요청이 어떤 부분일까요? / P/U 좀.... 부탁드릴게",
+          "nv": 2
         },
         {
           "time": "16:20",
@@ -192009,7 +192200,8 @@ window.SLACK_DATA = {
           "req": "포캣프(태블릿) 사용 매장으로, 따로 구매한 slk-ts200 연결 문의주시어, 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": "아이패드 사용시엔 당장 연결 불가함. 현재로선 터미널1 을 추가하여, 구매한 프린터를 프론트와 직결 연결하여야 함. 중고 구매시 아샵케구매,KIS 정보통신 사용 기기 확인 필요함 안내 완료 / 중고 터1 기추 가능한지 cx팀 문의중"
+          "note": "아이패드 사용시엔 당장 연결 불가함. 현재로선 터미널1 을 추가하여, 구매한 프린터를 프론트와 직결 연결하여야 함. 중고 구매시 아샵케구매,KIS 정보통신 사용 기기 확인 필요함 안내 완료 / 중고 터1 기추 가능한지 cx팀 문의중",
+          "nv": 2
         },
         {
           "time": "16:15",
@@ -192020,7 +192212,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "포프(태블릿) 온보딩 및 사용법 안내완료"
+          "note": "포프(태블릿) 온보딩 및 사용법 안내완료",
+          "nv": 2
         },
         {
           "time": "16:15",
@@ -192031,7 +192224,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩요청드립니다. 혹시나 컴퓨터로 안될경우 태블릿도 가능하다고하십니다",
           "hw": "",
           "intake": "online",
-          "note": "17시 재연락요청 / 포프(pc) + 유프 온보딩완료 사용법안내완료"
+          "note": "17시 재연락요청 / 포프(pc) + 유프 온보딩완료 사용법안내완료",
+          "nv": 2
         },
         {
           "time": "16:13",
@@ -192042,7 +192236,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 유프 사용매장인데 배달앱 주문서, 영수증 출력되지 않아 설정 확인 부탁드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "정상 연동확인 태블릿에서 배달앱 연동시 주문서 출력은 현황에서 직접 출력버튼을 눌러주셔야되는부분 전달완료 배달앱 사용시 pc,노트북 사용권장완료"
+          "note": "정상 연동확인 태블릿에서 배달앱 연동시 주문서 출력은 현황에서 직접 출력버튼을 눌러주셔야되는부분 전달완료 배달앱 사용시 pc,노트북 사용권장완료",
+          "nv": 2
         },
         {
           "time": "16:10",
@@ -192064,7 +192259,8 @@ window.SLACK_DATA = {
           "req": "이지포스사용하시고 메뉴 수정요청주셨는데 원격으로 문의 주셨습니다.",
           "hw": "",
           "intake": "offline",
-          "note": "퍼퓸, 오드코롱 디퓨저, 리필 오드코롱 카테고리에 나만에 향수만들기 20,000 25,000원 디퓨저 카테고리에 45,000원 퍼퓸디퓨저 50ml 상품 이름을 150ml로 변경"
+          "note": "퍼퓸, 오드코롱 디퓨저, 리필 오드코롱 카테고리에 나만에 향수만들기 20,000 25,000원 디퓨저 카테고리에 45,000원 퍼퓸디퓨저 50ml 상품 이름을 150ml로 변경",
+          "nv": 2
         },
         {
           "time": "16:03",
@@ -192075,7 +192271,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 연결 끊김으로 인한 재온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "재온보딩 완료"
+          "note": "재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "16:00",
@@ -192086,7 +192283,8 @@ window.SLACK_DATA = {
           "req": "프론트 전원은 켜지나 빨간불,초록불 들어오며 결제가 안되는 증상있다하여 점검부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "현재는 정상, 그래도 점검은 받고싶으니 30분 후 연락 요청 / 간단 점검 / 동일한 오류 자주 발생한다고 하셔서 교체 안내드렸으나 번거로우니 당분간 그냥 쓰겠다고 하심"
+          "note": "현재는 정상, 그래도 점검은 받고싶으니 30분 후 연락 요청 / 간단 점검 / 동일한 오류 자주 발생한다고 하셔서 교체 안내드렸으나 번거로우니 당분간 그냥 쓰겠다고 하심",
+          "nv": 2
         },
         {
           "time": "16:00",
@@ -192097,7 +192295,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰, 노트북) 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "포프(휴대폰, 노트북) 온보딩 사용법 안내완료"
+          "note": "포프(휴대폰, 노트북) 온보딩 사용법 안내완료",
+          "nv": 2
         },
         {
           "time": "16:00",
@@ -192119,7 +192318,8 @@ window.SLACK_DATA = {
           "req": "다른 매장은 프론트에 영화(?)광고가 잘만 나오는데 본인 프론트에는 광고가 안나온다 하셔서 확인 부탁드립니다. 계속 원격으로 봐달라, 광고 나오게 해달라! 하셔서 요청드립니다 (<https://w1659946222-hxm266180.slack.com/",
           "hw": "",
           "intake": "online",
-          "note": "목소리 여리신 여자분이 전화받아서 필요없다고함... 재차 확인했으나 진짜 진짜 필요없다고 하셔서 통화종료"
+          "note": "목소리 여리신 여자분이 전화받아서 필요없다고함... 재차 확인했으나 진짜 진짜 필요없다고 하셔서 통화종료",
+          "nv": 2
         },
         {
           "time": "15:58",
@@ -192130,7 +192330,8 @@ window.SLACK_DATA = {
           "req": "방문 설치 받았으며 사용 방법 문의주셔서 안내 부탁드립니다. (기기를 아예 못만지시며 토스포스도 못찾으심)",
           "hw": "",
           "intake": "offline",
-          "note": "요기요 : neosanso / 교육 진행"
+          "note": "요기요 : neosanso / 교육 진행",
+          "nv": 2
         },
         {
           "time": "15:58",
@@ -192141,7 +192342,8 @@ window.SLACK_DATA = {
           "req": "터프 온보딩 부탁 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "메가커피에 계심 6시반 예약"
+          "note": "메가커피에 계심 6시반 예약",
+          "nv": 2
         },
         {
           "time": "15:58",
@@ -192163,7 +192365,8 @@ window.SLACK_DATA = {
           "req": "휴대폰/포프 온보딩 요청드립니다. (연결이 안됨)",
           "hw": "",
           "intake": "online",
-          "note": "포프유프 온보딩 완료 및 선불qr신청으로 인하여 큐벤 필요할 수 도 있을 것 같습니다. ob요청 완료"
+          "note": "포프유프 온보딩 완료 및 선불qr신청으로 인하여 큐벤 필요할 수 도 있을 것 같습니다. ob요청 완료",
+          "nv": 2
         },
         {
           "time": "15:55",
@@ -192174,7 +192377,8 @@ window.SLACK_DATA = {
           "req": "[재접수] 영수증 출력 시 소리만 발생되고 출력이 되지 않는다고하여 확인 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "영수프린터 고장으로 인해 대체기기 출고 요청 • 영수증이 올라오지않음 , feed버튼을 눌러도 내부에서 헛돌기만함 • 내부에 이물질이나, 용지끼임 x 기기고장으로확인 금일 출고요청완료 / 9/22(화) 기존기기 회수요청 완료 영수증이 올라오지않음 , feed버튼을 눌러도 내부에서 헛돌기만함 내부에 이물질이나, 용지끼임 x 기기고장으로확인"
+          "note": "영수프린터 고장으로 인해 대체기기 출고 요청 • 영수증이 올라오지않음 , feed버튼을 눌러도 내부에서 헛돌기만함 • 내부에 이물질이나, 용지끼임 x 기기고장으로확인 금일 출고요청완료 / 9/22(화) 기존기기 회수요청 완료 영수증이 올라오지않음 , feed버튼을 눌러도 내부에서 헛돌기만함 내부에 이물질이나, 용지끼임 x 기기고장으로확인",
+          "nv": 2
         },
         {
           "time": "15:45",
@@ -192185,7 +192389,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) 온보딩 요청드립니다. / 고령 / 자세한 사용 방법 안내 요청드립니다. / 이전에 사용하던 프로그램 (공비서) 정보를 토스 포스에 옮길 수 있는지 문의 하셨습니다.",
           "hw": "",
           "intake": "online",
-          "note": "온보딩, 사용설명 안내드렸으나 잘 맞지 않고 쓰기도 힘들 것 같다며 반품 고민중"
+          "note": "온보딩, 사용설명 안내드렸으나 잘 맞지 않고 쓰기도 힘들 것 같다며 반품 고민중",
+          "nv": 2
         },
         {
           "time": "15:45",
@@ -192196,7 +192401,8 @@ window.SLACK_DATA = {
           "req": "핸드폰+프론트 온보딩",
           "hw": "",
           "intake": "online",
-          "note": "포프 온보딩 완료 wifi 연결불가로 인터넷 점검안내 및 핫스팟으로 온보딩 완료"
+          "note": "포프 온보딩 완료 wifi 연결불가로 인터넷 점검안내 및 핫스팟으로 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "15:45",
@@ -192207,7 +192413,8 @@ window.SLACK_DATA = {
           "req": "",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:43",
@@ -192218,7 +192425,8 @@ window.SLACK_DATA = {
           "req": "• 터+프 온보딩 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "기기 기본 세팅 후 재연락 예정 / 프론트 키오스크 모드 상태로 사용 / 프론트 키오스크 모드에서 결제 시 영수 출력을 원합니다. 터미널 장비로 불가능한 부분 안내드렸으며 기기 교환 상담 필요 안내 완료 / 교체 상담 이관"
+          "note": "기기 기본 세팅 후 재연락 예정 / 프론트 키오스크 모드 상태로 사용 / 프론트 키오스크 모드에서 결제 시 영수 출력을 원합니다. 터미널 장비로 불가능한 부분 안내드렸으며 기기 교환 상담 필요 안내 완료 / 교체 상담 이관",
+          "nv": 2
         },
         {
           "time": "15:42",
@@ -192240,7 +192448,8 @@ window.SLACK_DATA = {
           "req": "태블릿과 프론트 연동이 안된다고 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "재온보딩 완료"
+          "note": "재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "15:40",
@@ -192274,7 +192483,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "온보딩 완료"
+          "note": "온보딩 완료",
+          "nv": 2
         },
         {
           "time": "15:35",
@@ -192285,7 +192495,8 @@ window.SLACK_DATA = {
           "req": "토스포스 설치 후 지속적으로 아이콘이 사라지는 문제 발생으로 원격 재요청하여 전달드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "miradisk 라는 프로그램이 지속적으로 c드라이브를 초기화하는 상황 • 해당프로그램을 삭제해보려했으나, 강제종료후 폴더를 밀어버려도, 재실행하면 실행이되어있고, c드라이브 초기화 되어있음 • 해당 노트북 구매처에 확인요청 프론트는 휴대폰에 재온보딩완료 해당프로그램을 삭제해보려했으나, 강제종료후 폴더를 밀어버려도, 재실행하면 실행이되어있고, c드라이브 초"
+          "note": "miradisk 라는 프로그램이 지속적으로 c드라이브를 초기화하는 상황 • 해당프로그램을 삭제해보려했으나, 강제종료후 폴더를 밀어버려도, 재실행하면 실행이되어있고, c드라이브 초기화 되어있음 • 해당 노트북 구매처에 확인요청 프론트는 휴대폰에 재온보딩완료 해당프로그램을 삭제해보려했으나, 강제종료후 폴더를 밀어버려도, 재실행하면 실행이되어있고, c드라이브 초",
+          "nv": 2
         },
         {
           "time": "15:32",
@@ -192318,7 +192529,8 @@ window.SLACK_DATA = {
           "req": "2, 3, 4, 5층 4곳 포인트 적립이 계속 떠서 없애달라는 요청.",
           "hw": "",
           "intake": "offline",
-          "note": "01099144297 / 토스지원 할인이벤트 토글off 설정 안내 후 포인트 노출창 해제 완료 2층 담당자 분께서 3,4,5 층 전파하여 설정하신다고 합니다."
+          "note": "01099144297 / 토스지원 할인이벤트 토글off 설정 안내 후 포인트 노출창 해제 완료 2층 담당자 분께서 3,4,5 층 전파하여 설정하신다고 합니다.",
+          "nv": 2
         },
         {
           "time": "15:30",
@@ -192329,7 +192541,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:30",
@@ -192340,7 +192553,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 키인 결제 방법 안내 완료"
+          "note": "온보딩 키인 결제 방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "15:28",
@@ -192352,7 +192566,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "포프(휴대폰) 온보딩완료 사용법 안내완료"
+          "note": "포프(휴대폰) 온보딩완료 사용법 안내완료",
+          "nv": 2
         },
         {
           "time": "15:26",
@@ -192363,7 +192578,8 @@ window.SLACK_DATA = {
           "req": "(고령) 금액입력결제 세팅 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "퍼스트포스 사용매장 • 금액입력결제모드 세팅 x 영수증 메뉴노출 없이 출력방법을 요청하셔서, 방법안내완료 • 영수증관리 -&gt; 해당결제건선택 -&gt; 전표출력 키오스크 , 포스 연동이풀려있어 해당설정완료후 키오스크 정상작동확인 금액입력결제모드 세팅 x 영수증관리 - 해당결제건선택 - 전표출력"
+          "note": "퍼스트포스 사용매장 • 금액입력결제모드 세팅 x 영수증 메뉴노출 없이 출력방법을 요청하셔서, 방법안내완료 • 영수증관리 -&gt; 해당결제건선택 -&gt; 전표출력 키오스크 , 포스 연동이풀려있어 해당설정완료후 키오스크 정상작동확인 금액입력결제모드 세팅 x 영수증관리 - 해당결제건선택 - 전표출력",
+          "nv": 2
         },
         {
           "time": "15:24",
@@ -192374,7 +192590,8 @@ window.SLACK_DATA = {
           "req": "",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "15:23",
@@ -192385,7 +192602,8 @@ window.SLACK_DATA = {
           "req": "프린터가 용지 끼임 후 다시 부착해보니 그 뒤로 글이 나오지 않는다고하셔서 용지 돌려서 껴달라고 안내드렸는데 그부분도 해봤는데 소용이 없다고하십니다.",
           "hw": "",
           "intake": "online",
-          "note": "출력 불량 금일 발송 접수 9/28 회수 접수 완료 / 네 용지 끼임도 없어서 열 전달 부분이 고장난 것 같습니다."
+          "note": "출력 불량 금일 발송 접수 9/28 회수 접수 완료 / 네 용지 끼임도 없어서 열 전달 부분이 고장난 것 같습니다.",
+          "nv": 2
         },
         {
           "time": "15:22",
@@ -192396,7 +192614,8 @@ window.SLACK_DATA = {
           "req": "<https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788863946471119?thread_ts=1787131463.275499&amp;cid=C0AL2V3MM7U|이전 내역> / 장비 ",
           "hw": "재출고되어 포프(pc) 재온보딩 요청드립니다.",
           "intake": "online",
-          "note": "님 여기 오케이포스 쓴다고 하셨는데, 포스기는 따로 출고가 없어서요. 님 여기 오케이포스 쓴다고 하셨는데, 포스기는 따로 출고가 없어서요. / 이거 합님도 상담한 내역이 있어서 조금만 더 물어보고 확인해볼게요 이거 합님도 상담한 내역이 있어서 조금만 더 물어보고 확인해볼게요 / 대표소유 포스기 / okpos온보딩 완료 / 메뉴관련"
+          "note": "님 여기 오케이포스 쓴다고 하셨는데, 포스기는 따로 출고가 없어서요. 님 여기 오케이포스 쓴다고 하셨는데, 포스기는 따로 출고가 없어서요. / 이거 합님도 상담한 내역이 있어서 조금만 더 물어보고 확인해볼게요 이거 합님도 상담한 내역이 있어서 조금만 더 물어보고 확인해볼게요 / 대표소유 포스기 / okpos온보딩 완료 / 메뉴관련",
+          "nv": 2
         },
         {
           "time": "15:17",
@@ -192407,7 +192626,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿)+유프 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료입니다"
+          "note": "온보딩 완료입니다",
+          "nv": 2
         },
         {
           "time": "15:15",
@@ -192418,7 +192638,8 @@ window.SLACK_DATA = {
           "req": "프론트 전원이 켜지지 않아 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "전원은 들어왔으나 전원재시작 및 공장초기화 시에도 바로 오류창 발생되어 대체품 발송 안내 완료"
+          "note": "전원은 들어왔으나 전원재시작 및 공장초기화 시에도 바로 오류창 발생되어 대체품 발송 안내 완료",
+          "nv": 2
         },
         {
           "time": "15:15",
@@ -192429,7 +192650,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 프론트 온보딩 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "애듀패밀리 플러그인 사용중으로 온보딩 불가 안내드렸어요"
+          "note": "애듀패밀리 플러그인 사용중으로 온보딩 불가 안내드렸어요",
+          "nv": 2
         },
         {
           "time": "15:15",
@@ -192440,7 +192662,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) +유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "기기 미개봉 기본 세팅 후 재연락 예정 / 19시 이후 통화 예약 요청"
+          "note": "기기 미개봉 기본 세팅 후 재연락 예정 / 19시 이후 통화 예약 요청",
+          "nv": 2
         },
         {
           "time": "15:14",
@@ -192451,7 +192674,8 @@ window.SLACK_DATA = {
           "req": "터프 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 완료"
+          "note": "온보딩 완료",
+          "nv": 2
         },
         {
           "time": "15:07",
@@ -192462,7 +192686,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 사용 중, 유프 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "포프유프(태블릿) 연결완료"
+          "note": "포프유프(태블릿) 연결완료",
+          "nv": 2
         },
         {
           "time": "15:05",
@@ -192473,7 +192698,8 @@ window.SLACK_DATA = {
           "req": "포프(PC) 배달어플에서 테스트 출력 진행시 출력되지 않아 프린터 출력설정부탁드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "포스피드 프린터 연동으로 위해 ab케이블 연결해드림 com5"
+          "note": "포스피드 프린터 연동으로 위해 ab케이블 연결해드림 com5",
+          "nv": 2
         },
         {
           "time": "15:04",
@@ -192485,7 +192711,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "취소, 면세로 재결제, 취소 영수증 메일로 발송, 각종 사용설명 완료"
+          "note": "취소, 면세로 재결제, 취소 영수증 메일로 발송, 각종 사용설명 완료",
+          "nv": 2
         },
         {
           "time": "15:03",
@@ -192496,7 +192723,8 @@ window.SLACK_DATA = {
           "req": "며칠 전부터 영수증이 고객 서명이라고만 나오고,",
           "hw": "",
           "intake": "online",
-          "note": "pc + 프론트+단말기 • 핸드sos 연동 사용매장 핸드 sos 연동후 결제를 하시는매장 프론트 , 단말기는 설정 문제 x 우선 단말기 전표출력 1장으로 설정후 정상적으로 나온다고는 하나 , 해당문제 재발생시 핸드 sos 측에 확인요청완료 핸드sos 연동 사용매장"
+          "note": "pc + 프론트+단말기 • 핸드sos 연동 사용매장 핸드 sos 연동후 결제를 하시는매장 프론트 , 단말기는 설정 문제 x 우선 단말기 전표출력 1장으로 설정후 정상적으로 나온다고는 하나 , 해당문제 재발생시 핸드 sos 측에 확인요청완료 핸드sos 연동 사용매장",
+          "nv": 2
         },
         {
           "time": "15:03",
@@ -192507,7 +192735,8 @@ window.SLACK_DATA = {
           "req": "프론트 화면에서 앞에 똥글똥글한 어떤 이미지가 뜨면서 처음보는 화면이 나온다고 하시는데 영상통화로 확인 부탁드리겠습니다..!",
           "hw": "",
           "intake": "offline",
-          "note": "껏켯 후 되긴 함. 정상인데 프론트에 처음 보는 메인화면이 떠있어서 플레이스 문의"
+          "note": "껏켯 후 되긴 함. 정상인데 프론트에 처음 보는 메인화면이 떠있어서 플레이스 문의",
+          "nv": 2
         },
         {
           "time": "15:00",
@@ -192518,7 +192747,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 사용 방법 안내 완료"
+          "note": "온보딩 사용 방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "15:00",
@@ -192529,7 +192759,8 @@ window.SLACK_DATA = {
           "req": "컴퓨터 + 프론트+프린터",
           "hw": "",
           "intake": "online",
-          "note": "현재 다른 일정 때문에 설치가 불가능함 설치 가이드 확인했으며 가능한 시간 혼자 설치하겠다고 합니다. 방문 접수는 취소 안내드렸습니다. / 가능한 시간에 자가 설치 진행한다고 하셨습니다. 자가 설치 의사는 확실하게 밝히셔서 방문 취소 안내 후 통화 종료했습니다. / 평소 거의 대부분 추가 온보딩 예약을 잡는데 해당 매장은 현재 점주님 상황에서는 더 통화가 "
+          "note": "현재 다른 일정 때문에 설치가 불가능함 설치 가이드 확인했으며 가능한 시간 혼자 설치하겠다고 합니다. 방문 접수는 취소 안내드렸습니다. / 가능한 시간에 자가 설치 진행한다고 하셨습니다. 자가 설치 의사는 확실하게 밝히셔서 방문 취소 안내 후 통화 종료했습니다. / 평소 거의 대부분 추가 온보딩 예약을 잡는데 해당 매장은 현재 점주님 상황에서는 더 통화가 ",
+          "nv": 2
         },
         {
           "time": "15:00",
@@ -192540,7 +192771,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰, 노트북) 온보딩 요청드립니다. / 사용방법 안내 부탁드립니다. (부재건 재요청)",
           "hw": "",
           "intake": "online",
-          "note": "손님 응대 중 오후 늦게 정확히 가능한 시간 확인이 어려워 가능한 시간 고객센터 재인입 예정"
+          "note": "손님 응대 중 오후 늦게 정확히 가능한 시간 확인이 어려워 가능한 시간 고객센터 재인입 예정",
+          "nv": 2
         },
         {
           "time": "14:58",
@@ -192551,7 +192783,8 @@ window.SLACK_DATA = {
           "req": "프론트 결제 정보 확인 불가 / 확인 한 번 부탁드립니다:감사합니다꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": "결제방싱 -&gt; 토글off 주문담을 시 프론트 결제메뉴 보이도록 설정 완료 결제방싱 - 토글off / 외주업체 설정방법 등 기사 미숙지 등 관련 불만 제기 하여 온도감은 잘 안내드려 낮췃으나 기록용으로 남겨드립니다. c.c c.c"
+          "note": "결제방싱 -&gt; 토글off 주문담을 시 프론트 결제메뉴 보이도록 설정 완료 결제방싱 - 토글off / 외주업체 설정방법 등 기사 미숙지 등 관련 불만 제기 하여 온도감은 잘 안내드려 낮췃으나 기록용으로 남겨드립니다. c.c c.c",
+          "nv": 2
         },
         {
           "time": "14:58",
@@ -192562,7 +192795,8 @@ window.SLACK_DATA = {
           "req": "NM-2000N APPPOS 연동 방법 문의 주셔서 통화 부탁 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "NM2000 연동 및 사용 방법 안내 완료"
+          "note": "NM2000 연동 및 사용 방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "14:52",
@@ -192573,7 +192807,8 @@ window.SLACK_DATA = {
           "req": "선 작업이 완료되어 유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "주방라인 작업을 인터넷기사님이 해주셨으나 .. 작업한 주방라인이 중간 단선 or rj45 플로그를 잘못찝으신걸로확인 • 정상적으로 포스 포트에 연결하였으나 출력이되지않음 • 다른 랜선으로 연결시 정상출력 확인 • 기사님 재호출 안내완료 주방라인 재작업후 재인입 요청완료 정상적으로 포스 포트에 연결하였으나 출력이되지않음 다른 랜선으로 연결시 정상출력 확인 기"
+          "note": "주방라인 작업을 인터넷기사님이 해주셨으나 .. 작업한 주방라인이 중간 단선 or rj45 플로그를 잘못찝으신걸로확인 • 정상적으로 포스 포트에 연결하였으나 출력이되지않음 • 다른 랜선으로 연결시 정상출력 확인 • 기사님 재호출 안내완료 주방라인 재작업후 재인입 요청완료 정상적으로 포스 포트에 연결하였으나 출력이되지않음 다른 랜선으로 연결시 정상출력 확인 기",
+          "nv": 2
         },
         {
           "time": "14:50",
@@ -192584,7 +192819,8 @@ window.SLACK_DATA = {
           "req": "포프(포스기) 연결이 자주 끊긴다고 하셔서 확인 요청 드립니다! / 껐켰하면 정상이었다가 시간 지나면 연결이 끊기나고 함",
           "hw": "",
           "intake": "offline",
-          "note": "okpos 사용매장 / 무결성점검 실패 / 테스트중 okpos 사용매장 / 무결성점검 실패 / 테스트중"
+          "note": "okpos 사용매장 / 무결성점검 실패 / 테스트중 okpos 사용매장 / 무결성점검 실패 / 테스트중",
+          "nv": 2
         },
         {
           "time": "14:49",
@@ -192595,7 +192831,8 @@ window.SLACK_DATA = {
           "req": "명석님 요청",
           "hw": "",
           "intake": "online",
-          "note": "CID 설치"
+          "note": "CID 설치",
+          "nv": 2
         },
         {
           "time": "14:48",
@@ -192606,7 +192843,8 @@ window.SLACK_DATA = {
           "req": "유프 온보딩 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 사용 방법 전달 완료"
+          "note": "온보딩 사용 방법 전달 완료",
+          "nv": 2
         },
         {
           "time": "14:48",
@@ -192617,7 +192855,8 @@ window.SLACK_DATA = {
           "req": "BTR-1100 연결 방법 안내 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "연결방법안내완료"
+          "note": "연결방법안내완료",
+          "nv": 2
         },
         {
           "time": "14:48",
@@ -192639,7 +192878,8 @@ window.SLACK_DATA = {
           "req": "토스포스 와이파이 연결이 계속 되지 않아 확인 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "재온보딩 완료"
+          "note": "재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "14:37",
@@ -192650,7 +192890,8 @@ window.SLACK_DATA = {
           "req": "교체한 프론트 도착하였으며 보유한 영수증 프린트 2대 연결 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "• 자체보유 포스기 + 프론트 + KIS 1421 연동 • 자체보유 키오스크 + 프론트 연동 완료입니다 자체보유 포스기 + 프론트 + KIS 1421 연동 자체보유 키오스크 + 프론트 연동 완료입니다"
+          "note": "• 자체보유 포스기 + 프론트 + KIS 1421 연동 • 자체보유 키오스크 + 프론트 연동 완료입니다 자체보유 포스기 + 프론트 + KIS 1421 연동 자체보유 키오스크 + 프론트 연동 완료입니다",
+          "nv": 2
         },
         {
           "time": "14:36",
@@ -192672,7 +192913,8 @@ window.SLACK_DATA = {
           "req": "노트북/포프+유프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 출력 테스트 완료"
+          "note": "온보딩 출력 테스트 완료",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -192683,7 +192925,8 @@ window.SLACK_DATA = {
           "req": "프론트 사용 / 토스포스 연결해야되는데 노트북이 없어서 핸드폰하고 연결 해야되는데 연결이 불가하며 어플은 설치상태입니다 고령이십니다 원격 요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "포프(휴대폰) 온보딩 및 사용법 안내완료"
+          "note": "포프(휴대폰) 온보딩 및 사용법 안내완료",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -192694,7 +192937,8 @@ window.SLACK_DATA = {
           "req": "무프(W)에서 프린터 출력 안되는 이슈로 <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1789613718175129?thread_ts=1789612627.221039&amp;cid=C",
           "hw": "",
           "intake": "online",
-          "note": "무프 2대 모두 지연 현상 공유기 점검 필요 1. TS400W 출력 불가 인입 2. 와이파이 이름 한글로 변경 최근에 공유기 설정이 변경됨 3. 공유기 설정 변경한 인원 파악이 어려움 공유기 초기화 4. 초기화 후 TS400W 재연동 완료 5. 출력 지연 현상 15초 30초 6. TS400W 안 쓰고 있던 장비가 있어 변경했으나 동일 증상 발생 2번 항목으"
+          "note": "무프 2대 모두 지연 현상 공유기 점검 필요 1. TS400W 출력 불가 인입 2. 와이파이 이름 한글로 변경 최근에 공유기 설정이 변경됨 3. 공유기 설정 변경한 인원 파악이 어려움 공유기 초기화 4. 초기화 후 TS400W 재연동 완료 5. 출력 지연 현상 15초 30초 6. TS400W 안 쓰고 있던 장비가 있어 변경했으나 동일 증상 발생 2번 항목으",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -192705,7 +192949,8 @@ window.SLACK_DATA = {
           "req": "프론트 전원이 켜지지 않아 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "15시 15분 연락요청 예약완료"
+          "note": "15시 15분 연락요청 예약완료",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -192716,7 +192961,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) 온보딩 요청드립니다. / 학원에서 편하게 사용할 수 있는 방법에 관련하여 자세한 안내 원하십니다.",
           "hw": "",
           "intake": "online",
-          "note": "10분뒤 연락요청 / 포프(pc) 온보딩 및 사용법 안내완료"
+          "note": "10분뒤 연락요청 / 포프(pc) 온보딩 및 사용법 안내완료",
+          "nv": 2
         },
         {
           "time": "14:30",
@@ -192738,7 +192984,8 @@ window.SLACK_DATA = {
           "req": "프론트 화면이 깜박거린다고 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "• 교체 안내 및 입출고 접수 완료입니다 교체 안내 및 입출고 접수 완료입니다"
+          "note": "• 교체 안내 및 입출고 접수 완료입니다 교체 안내 및 입출고 접수 완료입니다",
+          "nv": 2
         },
         {
           "time": "14:18",
@@ -192749,7 +192996,8 @@ window.SLACK_DATA = {
           "req": "프론트 장비가 지속 재부팅이 되어 확인 요청드립니다.",
           "hw": "가 지속 재부팅이 되어 확인 요청드립니다.",
           "intake": "online",
-          "note": "터미널에서 재부팅 문구발생한 문제로 앱 버전 업데이트 이후 팝업창 발생안함. 추이 지켜보기로 함"
+          "note": "터미널에서 재부팅 문구발생한 문제로 앱 버전 업데이트 이후 팝업창 발생안함. 추이 지켜보기로 함",
+          "nv": 2
         },
         {
           "time": "14:16",
@@ -192760,7 +193008,8 @@ window.SLACK_DATA = {
           "req": "어제 원격 진행 / 금일 단말기 받아서 재연락 주셨습니다. 온보딩 부탁드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "터미널 TID로 싹 바꾸니 잘 됨 / 프론트만 2로 교체 / 회수 완료"
+          "note": "터미널 TID로 싹 바꾸니 잘 됨 / 프론트만 2로 교체 / 회수 완료",
+          "nv": 2
         },
         {
           "time": "14:15",
@@ -192782,7 +193031,8 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "offline",
-          "note": "온보딩 완료입니다"
+          "note": "온보딩 완료입니다",
+          "nv": 2
         },
         {
           "time": "14:09",
@@ -192793,7 +193043,8 @@ window.SLACK_DATA = {
           "req": "통결창 업뎃",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "14:07",
@@ -192804,7 +193055,8 @@ window.SLACK_DATA = {
           "req": "데스크탑/포프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "포프유프(데스크탑) 재온보딩 완료"
+          "note": "포프유프(데스크탑) 재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "14:02",
@@ -192815,7 +193067,8 @@ window.SLACK_DATA = {
           "req": "포스기 메모리 정리 이후에도 지속적으로 메모리 부족 및 대기/중지 팝업 확인/ 점검 부탁드립니다:잔망루피꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": "확인해보니 구글 제미나이가 메모리 사용량 20퍼이상 차지하던것으로 확인 1. 제미나이 사용을 현재는 하지않는다하셔 전체 비활성화 및 가상메모리 설정이 안되있어 설정 완료 2. 방화벽이 모두 켜져있어, 방화벽설정완료 • 메모리사용량 95퍼- &gt; 55퍼로 안정화완료 추후 동일문제로 재인입시 n250 8gb 포스로 교체 진행안내드리도록 하겠습니다! cc. "
+          "note": "확인해보니 구글 제미나이가 메모리 사용량 20퍼이상 차지하던것으로 확인 1. 제미나이 사용을 현재는 하지않는다하셔 전체 비활성화 및 가상메모리 설정이 안되있어 설정 완료 2. 방화벽이 모두 켜져있어, 방화벽설정완료 • 메모리사용량 95퍼- &gt; 55퍼로 안정화완료 추후 동일문제로 재인입시 n250 8gb 포스로 교체 진행안내드리도록 하겠습니다! cc. ",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -192826,7 +193079,8 @@ window.SLACK_DATA = {
           "req": "금전함 수령 시 파손되어있어 열리지 않아 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "영상통화로 확인시 , 돈통서랍 부분이 , 대각선 으로 내부에 들어가, 성인남성이 당기고 뺄려해도 빠지지않는상황 배송받았을때부터 해당 상태로 받으심 배송중 파손으로 확인되어 교체출고안내완료 금일 금전함 출고요청 및 9/21(월) 대체품 회수 안내완료"
+          "note": "영상통화로 확인시 , 돈통서랍 부분이 , 대각선 으로 내부에 들어가, 성인남성이 당기고 뺄려해도 빠지지않는상황 배송받았을때부터 해당 상태로 받으심 배송중 파손으로 확인되어 교체출고안내완료 금일 금전함 출고요청 및 9/21(월) 대체품 회수 안내완료",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -192837,7 +193091,8 @@ window.SLACK_DATA = {
           "req": "프론트 + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "원격 거부 / 상자도 뜯지도 않으셨다고 함. 익일 오후2시 방문설치 요청으로 일정등록 완료입니다"
+          "note": "원격 거부 / 상자도 뜯지도 않으셨다고 함. 익일 오후2시 방문설치 요청으로 일정등록 완료입니다",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -192848,7 +193103,8 @@ window.SLACK_DATA = {
           "req": "태블릿+프론트 온보딩",
           "hw": "",
           "intake": "online",
-          "note": "대표님 셀프 온보딩은 완료 / 솔라피로 사용방법 안내 문자 발송"
+          "note": "대표님 셀프 온보딩은 완료 / 솔라피로 사용방법 안내 문자 발송",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -192859,7 +193115,8 @@ window.SLACK_DATA = {
           "req": "포프 온보딩 부탁드립니다. 상품 추가 등 전체적인 온보딩 부탁드려요. 감사합니다.",
           "hw": "",
           "intake": "offline",
-          "note": "기기 연결 방법 안내 완료 기본 세팅 후 재연락 예정 / 온보딩 및 사용 방법 전달 완료"
+          "note": "기기 연결 방법 안내 완료 기본 세팅 후 재연락 예정 / 온보딩 및 사용 방법 전달 완료",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -192870,7 +193127,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "전원 꽂으시는중 전원 꽂으시는중 / 와이파이 비번 찾으시는중 와이파이 비번 찾으시는중 / 온보딩 완료"
+          "note": "전원 꽂으시는중 전원 꽂으시는중 / 와이파이 비번 찾으시는중 와이파이 비번 찾으시는중 / 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "14:00",
@@ -192881,7 +193139,8 @@ window.SLACK_DATA = {
           "req": "프린터기 용지가 갑자기 나오지 않는데 다시 안내드렸으나 어려워하셔서 위 번호로 영상통화 요청드렸습니다.(단, 전화주신 분과 남겨져있는 연락처는 다른분이셔서 위 번호는 현재 상황을 모르실 수 도 있는부분 양해부탁드립니다.:꾸벅:)",
           "hw": "",
           "intake": "online",
-          "note": "프론트 프린터설정 안되어있었음. 설정 후 정상출력 확인"
+          "note": "프론트 프린터설정 안되어있었음. 설정 후 정상출력 확인",
+          "nv": 2
         },
         {
           "time": "13:56",
@@ -192892,7 +193151,8 @@ window.SLACK_DATA = {
           "req": "카드 단말기에서 삼성페이 결제가 안된다고 말씀하셔서 영상통화로 확인 부탁드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": "1차부재 / dk6300 사용중인 매장, 프론트 추천추천"
+          "note": "1차부재 / dk6300 사용중인 매장, 프론트 추천추천",
+          "nv": 2
         },
         {
           "time": "13:54",
@@ -192903,7 +193163,8 @@ window.SLACK_DATA = {
           "req": "핸드폰+프론트+프린터",
           "hw": "",
           "intake": "online",
-          "note": "기기 연결 방법 안내 완료 기본 세팅 후 재연락 예정 / 온보딩 사용 방법 안내 완료"
+          "note": "기기 연결 방법 안내 완료 기본 세팅 후 재연락 예정 / 온보딩 사용 방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "13:52",
@@ -192914,7 +193175,8 @@ window.SLACK_DATA = {
           "req": "포프(PC) 배달앱 연동 후 배달 주문서 세팅까지 도움 부탁드립니다!!",
           "hw": "",
           "intake": "online",
-          "note": "배달앱 3사 연동후 , 주문서2장설정완료"
+          "note": "배달앱 3사 연동후 , 주문서2장설정완료",
+          "nv": 2
         },
         {
           "time": "13:49",
@@ -192925,7 +193187,8 @@ window.SLACK_DATA = {
           "req": "테이블QR 사용중 셋팅된 값이 갑자기 바뀌었다하여 점검부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "현재는 정상. 금일 사용해보고 다시 연락주신다고 하심"
+          "note": "현재는 정상. 금일 사용해보고 다시 연락주신다고 하심",
+          "nv": 2
         },
         {
           "time": "13:47",
@@ -192936,7 +193199,8 @@ window.SLACK_DATA = {
           "req": "OK포스 원격으로 특정 메뉴 추가 요청주셨습니다.:꾸벅:",
           "hw": "",
           "intake": "offline",
-          "note": "메뉴 2개 등록완료"
+          "note": "메뉴 2개 등록완료",
+          "nv": 2
         },
         {
           "time": "13:46",
@@ -192947,7 +193211,8 @@ window.SLACK_DATA = {
           "req": "컴퓨터 -&gt; 태블릿으로 온보딩중, 대표자 휴대폰번호를 확인할게요 화면에서 넘어가지지 않는다하여 재온보딩 도움부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "프론트 로그아웃 후 재온보딩 완료"
+          "note": "프론트 로그아웃 후 재온보딩 완료",
+          "nv": 2
         },
         {
           "time": "13:45",
@@ -192958,7 +193223,8 @@ window.SLACK_DATA = {
           "req": "클래스업 사용을 안하게 되었음, 화면에 아직도 출석이 나와 확인 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "포프(pc)+유프 온보딩 완료"
+          "note": "포프(pc)+유프 온보딩 완료",
+          "nv": 2
         },
         {
           "time": "13:43",
@@ -192969,7 +193235,8 @@ window.SLACK_DATA = {
           "req": "카드단말기 사용이 안된다하십니다 ! 지금바로 통화희망하십니다 !",
           "hw": "",
           "intake": "online",
-          "note": "재온보딩"
+          "note": "재온보딩",
+          "nv": 2
         },
         {
           "time": "13:41",
@@ -192980,7 +193247,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": "노트북 느려서 폰에 직접 설치한다고함"
+          "note": "노트북 느려서 폰에 직접 설치한다고함",
+          "nv": 2
         },
         {
           "time": "13:40",
@@ -192991,7 +193259,8 @@ window.SLACK_DATA = {
           "req": "홀 테이블 영수증 뽑을려니 주방에는 영수증 나오는데 홀에 나오지 않는다 하시어 확인 부탁드립니다 :꾸벅곰:",
           "hw": "",
           "intake": "online",
-          "note": "홀프린터 주방주문서 , 계산서 장수 설정완료 정상출력확인"
+          "note": "홀프린터 주방주문서 , 계산서 장수 설정완료 정상출력확인",
+          "nv": 2
         },
         {
           "time": "13:36",
@@ -193002,7 +193271,8 @@ window.SLACK_DATA = {
           "req": "유선프린터 용지 교체이후 뚜껑이 닫히지 않고 억지로 닫고 프린트 진행하면 다시 열린다고 합니다! 기기확인 부탁드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": "심제거"
+          "note": "심제거",
+          "nv": 2
         },
         {
           "time": "13:32",
@@ -193013,7 +193283,8 @@ window.SLACK_DATA = {
           "req": "제로페이 결제안됨",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:30",
@@ -193024,7 +193295,8 @@ window.SLACK_DATA = {
           "req": "키오스크 사운드 전부 다 없애셨는데, 터치할 때마다  삐 삐 소리가 계속 터치음 발생하여 도움 부탁드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "1차부재, 통화중 / 터치드라이버 설정 변경"
+          "note": "1차부재, 통화중 / 터치드라이버 설정 변경",
+          "nv": 2
         },
         {
           "time": "13:30",
@@ -193035,7 +193307,8 @@ window.SLACK_DATA = {
           "req": "터프 사용 매장으로, 프론트 키오스크 모드 사용 희망하시어 영상통화로 도움 부탁드리겠습니다! (별도 태블릿 있으심)",
           "hw": "",
           "intake": "online",
-          "note": "프론트 키오스크모드에서 영수증 출력을 위해 유선프린ㅌ ㅓ기추 문의 CX OB 이관. 프론트 전용 어댑터 구매링크 전달"
+          "note": "프론트 키오스크모드에서 영수증 출력을 위해 유선프린ㅌ ㅓ기추 문의 CX OB 이관. 프론트 전용 어댑터 구매링크 전달",
+          "nv": 2
         },
         {
           "time": "13:30",
@@ -193046,7 +193319,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "온보딩 및 사용방법 안내 완료"
+          "note": "온보딩 및 사용방법 안내 완료",
+          "nv": 2
         },
         {
           "time": "13:30",
@@ -193057,7 +193331,8 @@ window.SLACK_DATA = {
           "req": "프린터 전원 들어오지 않아 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "프린터 전원 버튼 위치 모르셔서 안내 후 출력세팅"
+          "note": "프린터 전원 버튼 위치 모르셔서 안내 후 출력세팅",
+          "nv": 2
         },
         {
           "time": "13:22",
@@ -193068,7 +193343,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) / 토스포스랑 프론트 재온보딩 완료했으나 계속 매장페이지 이전 매장명인 스콜피온으로 떠서 도움 부탁드립니다!!",
           "hw": "",
           "intake": "online",
-          "note": "1차부재 / 포프(태블릿) 재온보딩 완료'"
+          "note": "1차부재 / 포프(태블릿) 재온보딩 완료'",
+          "nv": 2
         },
         {
           "time": "13:21",
@@ -193079,7 +193355,8 @@ window.SLACK_DATA = {
           "req": "포스기(오케이포스 프로그램) 사용 매장으로, 프로그램 실행 및 결제 시 자꾸 멈춘다고 하여 점검 요청드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": "방화벽 설정 및 보안프로그램 삭제 , 포스 최적화완료 • 해당매장 22년도9월 프론트 사용중인매장 • 동일증상 발생으로 재인입시 프론트 교체 안내완료 해당매장 22년도9월 프론트 사용중인매장 동일증상 발생으로 재인입시 프론트 교체 안내완료"
+          "note": "방화벽 설정 및 보안프로그램 삭제 , 포스 최적화완료 • 해당매장 22년도9월 프론트 사용중인매장 • 동일증상 발생으로 재인입시 프론트 교체 안내완료 해당매장 22년도9월 프론트 사용중인매장 동일증상 발생으로 재인입시 프론트 교체 안내완료",
+          "nv": 2
         },
         {
           "time": "13:18",
@@ -193090,7 +193367,8 @@ window.SLACK_DATA = {
           "req": "cpp-3000 사용 매장으로, 영상 가이드 보내드렸으나 진행 어렵다고 하시어 무음 설정 도움 요청드립니다!",
           "hw": "",
           "intake": "online",
-          "note": "유프 무음설정 완료"
+          "note": "유프 무음설정 완료",
+          "nv": 2
         },
         {
           "time": "13:15",
@@ -193101,7 +193379,8 @@ window.SLACK_DATA = {
           "req": "재인입/ 동일 증상으로 용지 출력이 되지 않아 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "13:15",
@@ -193112,7 +193391,8 @@ window.SLACK_DATA = {
           "req": "포프(pc) +유프 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "15시 15분 연락요청 예약완료"
+          "note": "15시 15분 연락요청 예약완료",
+          "nv": 2
         },
         {
           "time": "13:11",
@@ -193123,7 +193403,8 @@ window.SLACK_DATA = {
           "req": "페이스페이 결제 시도시 화면에 뜨지 않는다 하셔서 확인 부탁드립니다. <@U07N21TM0QJ>",
           "hw": "",
           "intake": "online",
-          "note": "터프로변경"
+          "note": "터프로변경",
+          "nv": 2
         },
         {
           "time": "13:10",
@@ -193135,7 +193416,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "offline",
-          "note": "/ 063389 / kpn 최신버전 업데이트, 마감처리 후 포스기 재부팅"
+          "note": "/ 063389 / kpn 최신버전 업데이트, 마감처리 후 포스기 재부팅",
+          "nv": 2
         },
         {
           "time": "13:10",
@@ -193344,7 +193626,8 @@ window.SLACK_DATA = {
           "req": "아이패드 변경되어 포프 유프 재온보딩 부탁 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "12:11",
@@ -193443,7 +193726,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "11:37",
@@ -193752,7 +194036,8 @@ window.SLACK_DATA = {
           "req": "외주",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:14",
@@ -193852,7 +194137,8 @@ window.SLACK_DATA = {
           "req": "쿠팡 프로그램 아이콘이 보이지 않으신다고 하여 원격으로 확인 한번만 부탁드리겠습니다! (고령)",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "",
+          "nv": 2
         },
         {
           "time": "10:00",
@@ -215362,21 +215648,21 @@ window.SLACK_DATA = {
         "as": {
           "심성현": 6,
           "송태양": 9,
-          "배선유": 7,
+          "배선유": 8,
+          "김현기": 9,
           "서상원": 7,
           "김동욱": 10,
           "고경림": 10,
-          "김현기": 8,
           "김규빈": 4
         },
         "nosetup": {
+          "고경림": 3,
           "김동욱": 1,
           "심성현": 5,
           "서상원": 2,
           "김규빈": 3,
           "배선유": 1,
           "김현기": 2,
-          "고경림": 2,
           "송태양": 2
         },
         "booking": {
@@ -215396,7 +215682,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
-          "배선유": 4,
+          "배선유": 5,
           "김규빈": 4,
           "심성현": 2
         },
@@ -215405,6 +215691,17 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
+        {
+          "time": "13:30",
+          "store": "모던타일&amp;바스",
+          "biz": "5672901444",
+          "handler": "배선유",
+          "cat": "nosetup",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
         {
           "time": "12:10",
           "store": "",
@@ -215430,6 +215727,17 @@ window.SLACK_DATA = {
           "note": ""
         },
         {
+          "time": "14:23",
+          "store": "남구 곰삼이",
+          "biz": "7760303764",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "외주업체 메뉴 등록 요청",
+          "hw": "",
+          "intake": "online",
+          "note": "완료욤"
+        },
+        {
           "time": "14:21",
           "store": "카페 여유",
           "biz": "3852202269",
@@ -215451,6 +215759,39 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "자체 해결 하셨다고 합니다"
+        },
+        {
+          "time": "14:15",
+          "store": "무아(Mu-A) 에스테틱",
+          "biz": "2355300131",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "카드 결제 후 영수증 출력 불가로 도움 부탁드립니다. (2시 반에 결제 필요해 통화 즉시 가능)",
+          "hw": "",
+          "intake": "online",
+          "note": "프린터 설정 이상없음 / 어플 실행한 상태로 결제 필요 안내"
+        },
+        {
+          "time": "14:15",
+          "store": "손과 숨의 방",
+          "biz": "5960503968",
+          "cat": "nosetup",
+          "emp": "고경림",
+          "req": "프론트 + 터미널2 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "직접 온보딩후 , 어려울시 고객센터 인입안내완료 • 프포(태블릿) + 터미널2로 온보딩입니다. 프포(태블릿) + 터미널2로 온보딩입니다."
+        },
+        {
+          "time": "14:10",
+          "store": "플로화",
+          "biz": "5729001669",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "키인 결제 불가능 (추정)으로 법인폰 인입되어 확인 한번 부탁드리겠습니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "/ 특정 카드사가 카드사 거절 코드로 보임, 전산상 키인 on도 다 되어있어서 특정 카드사에서 막은게 아닐까 의심됨. 귀찮겠지만 카드사 대표님 직접 통화 필요 안내 완료"
         },
         {
           "time": "14:07",
@@ -216689,11 +217030,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 100,
-        "offline": 16,
+        "online": 104,
+        "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "14:25",
+      "updatedAt": "14:30",
       "voc": {
         "responses": 2,
         "install": {
@@ -216763,9 +217104,9 @@ window.SLACK_DATA = {
           {
             "key": "2026년 9월 29일 오전 8:15:08|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790578818294389#1",
             "handler": "김규빈",
-            "status": "",
+            "status": "일정등록완료",
             "recvDate": "2026-09-29",
-            "planDate": "",
+            "planDate": "2026-10-02",
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790578818294389"
           },
           {
@@ -216787,7 +217128,7 @@ window.SLACK_DATA = {
           {
             "key": "2026년 9월 29일 오전 8:09:28|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790064060998619#1",
             "handler": "김규빈",
-            "status": "1차부재",
+            "status": "",
             "recvDate": "2026-09-29",
             "planDate": "",
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790064060998619"
@@ -216978,104 +217319,82 @@ window.SLACK_DATA = {
       },
       "1790645402.729519": {
         "post": "1790645402.729519",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 13
       },
       "1790645508.847849": {
         "post": "1790645508.847849",
-        "lastSeen": 1790659642.076
+        "lastSeen": 1790659883.054
       },
       "1790646295.885869": {
         "post": "1790646295.885869",
-        "lastSeen": 1790659642.076
+        "lastSeen": 1790659883.054
       },
       "1790651459.888459": {
         "post": "1790651459.888459",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 44
       },
       "1790656200.509159": {
         "post": "1790656200.509159",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 61
       },
       "1790656632.652129": {
         "post": "1790656632.652129",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 68
       },
       "1790658001.522589": {
         "post": "1790658001.522589",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 80
       },
       "1790658001.157989": {
         "post": "1790658001.157989",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 82
       },
-      "1790658606.280129": {
-        "post": "1790658606.280129",
-        "lastSeen": 1790659642.076,
-        "r": 1,
-        "day": "2026-09-29",
-        "idx": 86
-      },
-      "1790658900.338109": {
-        "post": "1790658900.338109",
-        "lastSeen": 1790659642.076,
-        "r": 1,
-        "day": "2026-09-29",
-        "idx": 84
-      },
-      "1790658900.336299": {
-        "post": "1790658900.336299",
-        "lastSeen": 1790659642.076,
-        "r": 1,
-        "day": "2026-09-29",
-        "idx": 85
-      },
       "1790659041.345739": {
         "post": "1790659041.345739",
-        "lastSeen": 1790659642.076
+        "lastSeen": 1790659883.054,
+        "r": 1,
+        "day": "2026-09-29",
+        "idx": 91
       },
       "1790658996.457109": {
         "post": "1790658996.457109",
-        "lastSeen": 1790659642.076
+        "lastSeen": 1790659883.054
       },
       "1790659391.519769": {
         "post": "1790659391.519769",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 87
       },
       "1790659239.638039": {
         "post": "1790659239.638039",
-        "lastSeen": 1790659642.076,
+        "lastSeen": 1790659883.054,
         "r": 1,
         "day": "2026-09-29",
         "idx": 88
       },
-      "1790659412.241359": {
-        "post": "1790659412.241359",
-        "lastSeen": 1790659642.076
-      },
       "1790659378.600719": {
         "post": "1790659378.600719",
-        "lastSeen": 1790659642.076
+        "lastSeen": 1790659883.054
       }
     },
     "days": {
@@ -286447,8 +286766,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-29": {
-        "cnt": 90,
-        "sumMin": 711.0233465115233,
+        "cnt": 92,
+        "sumMin": 728.8823948820435,
         "over": 1,
         "items": [
           {
@@ -287207,7 +287526,8 @@ window.SLACK_DATA = {
             "store": "무아(Mu-A) 에스테틱",
             "biz": "2355300131",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 14.4
           },
           {
             "hm": "14:15",
@@ -287215,7 +287535,8 @@ window.SLACK_DATA = {
             "store": "손과 숨의 방",
             "biz": "5960503968",
             "who": "고경림",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 14.4
           },
           {
             "hm": "14:10",
@@ -287223,7 +287544,8 @@ window.SLACK_DATA = {
             "store": "플로화",
             "biz": "5729001669",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 19.3
           },
           {
             "hm": "14:23",
@@ -287249,13 +287571,30 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "as",
             "dmin": 9
+          },
+          {
+            "hm": "14:23",
+            "min": 5.8,
+            "store": "남구 곰삼이",
+            "biz": "7760303764",
+            "who": "배선유",
+            "cat": "menu",
+            "dmin": 5.8
+          },
+          {
+            "hm": "14:17",
+            "min": 12,
+            "store": "플랜비웰니스센터",
+            "biz": "2432502480",
+            "who": "배선유",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-29 14:30",
+    "at": "2026-09-29 14:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -287267,8 +287606,8 @@ window.SLACK_DATA = {
     "beforeStart": 0,
     "done": 981,
     "byStatus": {
-      "일정등록완료": 618,
-      "1차부재": 214,
+      "일정등록완료": 619,
+      "1차부재": 213,
       "점주직접접수": 82,
       "설치불가": 17,
       "(빈칸)": 6,
