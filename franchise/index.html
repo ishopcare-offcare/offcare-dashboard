@@ -908,8 +908,9 @@ function viewBrands(){
       }).join('')
     + rows.map(function(o){
         return '<tr><td><span class="brand-link" onclick="goBrand(\''+esc(o.brand).replace(/'/g,"\\'")+'\')">'+esc(o.brand)+'</span>'
-          + (clientOf(o.brand) ? '<span class="cli-badge">계약고객사</span>' : '')
-          + '<span class="tierbadge '+o.tier+'">'+o.tier+'</span></td>'
+          + (clientOf(o.brand) ? '<span class="cli-badge">계약고객사</span>'
+                               : '<span class="tierbadge '+o.tier+'">'+o.tier+'</span>')   /* 계약 고객사는 등급 표시 안 함 */
+          + '</td>'
           + '<td class="num">'+o.nStore+'</td><td class="num totcell">'+o.total+'</td>'
           + CATS.map(c=>'<td class="num'+(o.cats[c.key]?'':' zero')+'">'+(o.cats[c.key]||'·')+'</td>').join('')
           + '<td class="num" style="color:var(--gray)">'+fmtD(o.last)+'</td></tr>';
