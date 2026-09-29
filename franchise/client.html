@@ -223,6 +223,19 @@
   tr.eq-row{cursor:pointer}
   tr.eq-row:hover td{background:var(--surface)}
   tr.eq-row.on td{background:var(--blue-soft)}
+  .eq-ed{font-size:10.5px; font-weight:800; padding:1px 6px; border-radius:20px; background:#efe7fd; color:#6e3fe5; vertical-align:middle}
+  .eq-form{display:grid; grid-template-columns:1fr 1fr; gap:12px 16px; padding:4px 2px 2px}
+  .eq-f{display:flex; flex-direction:column; gap:5px; font-size:12.5px; font-weight:700; color:var(--gray)}
+  .eq-f input,.eq-f select{font:inherit; font-size:14px; font-weight:500; color:var(--ink); padding:9px 11px;
+    border:1px solid var(--line); border-radius:10px; background:var(--canvas)}
+  .eq-f input[readonly]{background:var(--surface); color:var(--gray)}
+  .eq-hint{grid-column:1/-1; font-size:12.5px; color:var(--gray); background:var(--surface); border-radius:10px; padding:9px 12px}
+  .eq-actions{grid-column:1/-1; display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-top:4px}
+  .eq-err{margin-right:auto; color:var(--red); font-size:13px; font-weight:700}
+  .eq-toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%); z-index:10000; display:none;
+    background:#1d1d1f; color:#fff; padding:11px 18px; border-radius:12px; font-size:14px; font-weight:600; box-shadow:0 8px 24px rgba(0,0,0,.3)}
+  .eq-toast.bad{background:#b91c1c}
+  @media (max-width:680px){ .eq-form{grid-template-columns:1fr} }
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 12px; line-height:1.8}
   .delta{font-size:12.5px; font-weight:700}
   .delta.up{color:var(--red)} .delta.down{color:var(--green)} .delta.flat{color:var(--gray2)}
@@ -1712,6 +1725,15 @@ function equipEvents(){
                items:items, text:r.req || '', note:r.note || '', emp:r.emp, src:'원격'});
     }
   });
+  /* 수기 기록 (팀 공유 클라우드) */
+  Object.keys(EQUIP_EDIT).forEach(function(key){
+    const m = EQUIP_EDIT[key];
+    if(!m || m.k !== 'e') return;
+    ev.push({branch:m.branch, date:m.date || '', type:m.type || '기타',
+             items:[{type:m.item, name:m.name || m.item, qty:+m.qty || 0, models:m.model ? [String(m.model).toUpperCase()] : [], existing:false}],
+             text:m.note || '', emp:m.by || '', src:'수기', key:key,
+             pair: m.from ? {from:String(m.from).toUpperCase(), to:String(m.model || '?').toUpperCase()} : null});
+  });
   EQUIP_REG.forEach(function(row){
     if(!row || !row.branch || !row.item) return;
     const parsed = EP.parseItems(row.item)[0];
@@ -1726,8 +1748,30 @@ function equipEvents(){
   return (equipEvents._c = ev);
 }
 
-/* 한 지점의 이력(최신순) → 장비별 현재 상태 */
-function equipInventory(evs){
+/* 한 지점의 이력(최신순) → 장비별 현재 상태. branch 를 주면 수기 보정(o:)까지 덮어쓴다 */
+function equipInventory(evs, branch){
+  const base = equipInventoryAuto(evs);
+  if(!branch) return base;
+  const byType = Object.fromEntries(base.map(o => [o.type, o]));
+  Object.keys(EQUIP_EDIT).forEach(function(key){
+    const m = EQUIP_EDIT[key];
+    if(!m || m.k !== 'o' || m.branch !== branch) return;
+    let o = byType[m.type];
+    if(!o){ o = byType[m.type] = {type:m.type, name:m.name || m.type, qty:0, models:[], first:'', replaced:'',
+                                   lastAs:'', removed:'', existing:false, n:0}; base.push(o); }
+    o.edited = key; o.editBy = m.by || ''; o.editNote = m.note || '';
+    if(m.hidden){ o.hidden = true; return; }
+    if(m.qty)       o.qty = +m.qty;
+    if(m.model)     o.models = [String(m.model).toUpperCase()];
+    if(m.installed) o.first = m.installed;
+    if(m.replaced)  o.replaced = m.replaced;
+    if(m.status === 'removed') o.removed = m.removedAt || m.replaced || '회수';
+    if(m.status === 'active')  o.removed = '';
+    if(m.existing !== undefined) o.existing = !!m.existing;
+  });
+  return base;
+}
+function equipInventoryAuto(evs){
   const inv = {};
   evs.slice().reverse().forEach(function(e){           /* 오래된 것부터 쌓아 올린다 */
     e.items.forEach(function(it){
@@ -1760,6 +1804,10 @@ function equipStores(){
     if(!m.has(e.branch)) m.set(e.branch, {branch:e.branch, store:'', biz:'', evs:[]});
     m.get(e.branch).evs.push(e);
   });
+  /* 수기 보정만 있는 지점도 목록에 나와야 한다 */
+  Object.values(EQUIP_EDIT).forEach(v => {
+    if(v && v.branch && !m.has(v.branch)) m.set(v.branch, {branch:v.branch, store:'', biz:'', evs:[]});
+  });
   return [...m.values()];
 }
 
@@ -1770,9 +1818,9 @@ function viewEquip(){
   let h = '<div class="notice"><span class="k">출처</span><span class="t">'
     + '<b>현장방문</b> 설치·교체·회수·AS 기록' + (vFrom ? '(' + esc(vFrom) + ' 이후)' : '')
     + ' + <b>원격 AS·온보딩</b> 중 장비가 언급된 건' + (EQUIP_REG.length ? ' + <b>장비 대장 ' + EQUIP_REG.length + '행</b>' : '')
-    + '으로 만든 이력입니다. 방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 보이지 않습니다'
-    + (REG && REG.equipFile ? ' — 장비 대장이 있으면 <code>' + esc(REG.equipFile) + '</code> 에 넣으면 합쳐집니다.' : '.')
-    + '</span></div>';
+    + ' + <b>수기 기록</b>으로 만든 이력입니다. 방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 '
+    + '<b>✏️ 수정 · ＋ 기록 추가</b>로 직접 채우세요 — 팀 전체에 공유됩니다.</span></div>'
+    + eqCloudBanner();
 
   const all = equipStores();
   const sel = equipSel ? all.find(s => s.branch === equipSel) : null;
@@ -1781,22 +1829,24 @@ function viewEquip(){
   const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '');
   let list = all.filter(s => !q || BrandMatch.keyOf(s.branch + ' ' + s.store).indexOf(q) >= 0
                                || (qd.length >= 3 && String(s.biz).indexOf(qd) >= 0));
-  list.forEach(s => { s.inv = equipInventory(s.evs); s.last = s.evs.length ? s.evs[0].date : ''; });
+  list.forEach(s => { s.inv = equipInventory(s.evs, s.branch).filter(o => !o.hidden); s.last = s.evs.length ? s.evs[0].date : ''; });
   list.sort((a, b) => (b.inv.length > 0) - (a.inv.length > 0) || (b.last || '').localeCompare(a.last || '')
                       || a.branch.localeCompare(b.branch, 'ko'));
   const withEq = list.filter(s => s.inv.length).length;
 
   h += '<div class="card"><div class="card-head"><h3>🧰 장비 조회</h3><div class="controls">'
     + '<input type="search" id="equipQ" placeholder="매장 상호·지점명·사업자번호 검색" value="' + esc(equipQ) + '" style="min-width:280px">'
+    + '<button class="btn" data-eqadd="">＋ 장비 기록 추가</button>'
     + '</div></div>'
     + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:11px">'
     + (equipQ ? '“' + esc(equipQ) + '” · ' : '') + list.length + '개 지점 · 장비 기록 있음 ' + withEq + '곳 · 지점을 누르면 장비 현황과 이력</div>';
-  if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.</div></div>';
+  if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.<br><span style="font-size:12.5px">목록에 없는 매장은 <b>＋ 장비 기록 추가</b>에서 지점명을 직접 적어 넣을 수 있습니다.</span></div></div>';
   h += '<div class="tbl-scroll"><table><thead><tr><th>지점</th><th>장비</th><th class="num">기록</th><th>최근 기록</th></tr></thead><tbody>'
     + list.map(s => '<tr class="eq-row" data-eqbranch="' + esc(s.branch) + '">'
         + '<td style="font-weight:700;color:var(--blue);white-space:nowrap">' + esc(s.branch) + '</td>'
         + '<td>' + (s.inv.length
-            ? s.inv.map(o => '<span class="eq-item' + (o.removed ? ' off' : '') + '">' + esc(o.name) + (o.qty > 1 ? ' ×' + o.qty : '') + '</span>').join('')
+            ? s.inv.map(o => '<span class="eq-item' + (o.removed ? ' off' : '') + '">' + esc(o.name) + (o.qty > 1 ? ' ×' + o.qty : '')
+                + (o.edited ? ' <small>✏️</small>' : '') + '</span>').join('')
             : '<span style="color:var(--gray2);font-size:12.5px">장비 기록 없음</span>') + '</td>'
         + '<td class="num">' + (s.evs.length || '·') + '</td>'
         + '<td style="white-space:nowrap;color:var(--gray)">' + (s.last || '—') + '</td></tr>').join('')
@@ -1805,7 +1855,8 @@ function viewEquip(){
 }
 
 function equipDetail(s){
-  const inv = equipInventory(s.evs);
+  const invAll = equipInventory(s.evs, s.branch);
+  const inv = invAll.filter(o => !o.hidden), hidden = invAll.filter(o => o.hidden);
   const lastVisit = s.evs.find(e => e.visit);
   const meta = [];
   if(s.store) meta.push(esc(s.store));
@@ -1816,37 +1867,48 @@ function equipDetail(s){
   let h = '<div class="card"><div class="card-head"><div>'
     + '<button class="btn sm" id="equipBack" style="margin-bottom:10px">← 지점 목록</button>'
     + '<h3 style="font-size:21px">🏪 ' + esc(s.branch) + '</h3>'
-    + '<div style="font-size:12.5px;color:var(--gray);margin-top:4px">' + meta.join(' · ') + '</div></div></div>';
+    + '<div style="font-size:12.5px;color:var(--gray);margin-top:4px">' + meta.join(' · ') + '</div></div>'
+    + '<div class="controls"><button class="btn primary" data-eqadd="' + esc(s.branch) + '">＋ 기록 추가</button></div></div>';
 
   if(!inv.length){
     h += '<div class="empty">이 지점은 장비가 확인된 기록이 없습니다.<br>'
-      + '<span style="font-size:12.5px">현장방문 설치 기록이나 장비가 언급된 AS 건이 생기면 자동으로 채워집니다.</span></div></div>';
-    return h;
+      + '<span style="font-size:12.5px">위 <b>＋ 기록 추가</b>로 설치된 장비를 직접 넣을 수 있습니다.</span></div>';
+  }else{
+    h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th class="num">수량</th><th>모델</th><th>상태</th>'
+      + '<th>설치</th><th>최근 교체</th><th>최근 AS·점검</th><th class="num">기록</th><th></th></tr></thead><tbody>'
+      + inv.map(function(o){
+          const st = o.removed ? '<span style="color:var(--gray)">회수' + (o.removed !== '회수' ? ' ' + o.removed : '') + '</span>'
+                   : o.qty ? (o.existing ? '운영중 <span style="color:var(--gray2);font-size:12px">(기존 보유)</span>' : '운영중')
+                   : '<span style="color:var(--gray2)">설치 기록 없음</span>';
+          return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 이 장비 이력만">'
+            + '<td style="font-weight:700;white-space:nowrap">' + esc(o.name)
+            + (o.edited ? ' <span class="eq-ed" title="수기 수정' + (o.editBy ? ' · ' + esc(o.editBy) : '') + (o.editNote ? ' · ' + esc(o.editNote) : '') + '">수기</span>' : '') + '</td>'
+            + '<td class="num">' + (o.qty || '—') + '</td>'
+            + '<td style="font-size:12.5px;color:var(--gray)">' + (o.models.length ? esc(o.models.join(', ')) : '—') + '</td>'
+            + '<td style="white-space:nowrap">' + st + '</td>'
+            + '<td style="white-space:nowrap">' + (o.first || '—') + '</td>'
+            + '<td style="white-space:nowrap;' + (o.replaced ? 'color:#c2410c;font-weight:700' : '') + '">' + (o.replaced || '—') + '</td>'
+            + '<td style="white-space:nowrap">' + (o.lastAs || '—') + '</td>'
+            + '<td class="num">' + (o.n || '·') + '</td>'
+            + '<td style="white-space:nowrap;text-align:right"><button class="btn sm" data-eqov="' + esc(o.type) + '" title="수량·모델·설치일·교체일·상태 수정">✏️ 수정</button></td></tr>';
+        }).join('')
+      + '</tbody></table></div>'
+      + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · '
+      + '<b>수기</b> 표시는 사람이 고친 값 · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div>';
   }
-  h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th class="num">수량</th><th>모델</th><th>상태</th>'
-    + '<th>설치</th><th>최근 교체</th><th>최근 AS·점검</th><th class="num">기록</th></tr></thead><tbody>'
-    + inv.map(function(o){
-        const st = o.removed ? '<span style="color:var(--gray)">회수 ' + o.removed + '</span>'
-                 : o.qty ? (o.existing ? '운영중 <span style="color:var(--gray2);font-size:12px">(기존 보유)</span>' : '운영중')
-                 : '<span style="color:var(--gray2)">설치 기록 없음</span>';
-        return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 이 장비 이력만">'
-          + '<td style="font-weight:700;white-space:nowrap">' + esc(o.name) + '</td>'
-          + '<td class="num">' + (o.qty || '—') + '</td>'
-          + '<td style="font-size:12.5px;color:var(--gray)">' + (o.models.length ? esc(o.models.join(', ')) : '—') + '</td>'
-          + '<td style="white-space:nowrap">' + st + '</td>'
-          + '<td style="white-space:nowrap">' + (o.first || '—') + '</td>'
-          + '<td style="white-space:nowrap;' + (o.replaced ? 'color:#c2410c;font-weight:700' : '') + '">' + (o.replaced || '—') + '</td>'
-          + '<td style="white-space:nowrap">' + (o.lastAs || '—') + '</td>'
-          + '<td class="num">' + o.n + '</td></tr>';
-      }).join('')
-    + '</tbody></table></div>'
-    + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div></div>';
+  if(hidden.length){
+    h += '<div style="font-size:12px;color:var(--gray2);margin-top:8px">숨긴 장비: '
+      + hidden.map(o => '<span class="eq-item off">' + esc(o.name) + '</span> <button class="btn sm" data-eqov="' + esc(o.type) + '">되살리기</button>').join(' ') + '</div>';
+  }
+  h += '</div>';
 
   const evs = equipItem ? s.evs.filter(e => e.items.some(it => it.type === equipItem)) : s.evs;
-  const itemName = equipItem ? (inv.find(o => o.type === equipItem) || {}).name : '';
+  const itemName = equipItem ? (invAll.find(o => o.type === equipItem) || {}).name : '';
   h += '<div class="card"><div class="card-head"><h3>장비 이력' + (itemName ? ' · ' + esc(itemName) : '') + '</h3>'
     + (equipItem ? '<button class="btn sm" id="equipItemClear">✕ 전체 장비</button>' : '<span class="hint">최신순 · ' + evs.length + '건</span>')
-    + '</div><div class="tbl-scroll"><table style="min-width:860px"><thead><tr><th>일자</th><th>구분</th><th>장비</th><th>내용</th><th>담당</th><th>출처</th></tr></thead><tbody>'
+    + '</div>';
+  if(!evs.length){ h += '<div class="empty">이력이 없습니다.</div></div>'; return h; }
+  h += '<div class="tbl-scroll"><table style="min-width:900px"><thead><tr><th>일자</th><th>구분</th><th>장비</th><th>내용</th><th>담당</th><th>출처</th><th></th></tr></thead><tbody>'
     + evs.map(function(e){
         const pair = e.pair ? '<div style="font-size:12px;color:#c2410c;font-weight:700;margin-top:3px">' + esc(e.pair.from) + ' → ' + esc(e.pair.to) + '</div>' : '';
         return '<tr><td style="white-space:nowrap;color:var(--gray)">' + (e.date || '—')
@@ -1857,10 +1919,181 @@ function equipDetail(s){
           + '<td class="req-cell"><div class="clamp3" title="' + esc(e.text + (e.note ? ' / ' + e.note : '')) + '">' + esc(e.text || '—')
           + (e.note ? ' <span style="color:var(--gray2)">/ ' + esc(e.note) + '</span>' : '') + '</div>' + pair + '</td>'
           + '<td style="white-space:nowrap">' + esc(e.emp || '—') + '</td>'
-          + '<td style="white-space:nowrap;font-size:12.5px;color:var(--gray)">' + esc(e.src) + '</td></tr>';
+          + '<td style="white-space:nowrap;font-size:12.5px;color:' + (e.src === '수기' ? 'var(--purple);font-weight:700' : 'var(--gray)') + '">' + esc(e.src) + '</td>'
+          + '<td style="white-space:nowrap;text-align:right">' + (e.key
+              ? '<button class="btn sm" data-eqedit="' + esc(e.key) + '">✏️</button> <button class="btn sm" data-eqdel="' + esc(e.key) + '">🗑</button>' : '') + '</td></tr>';
       }).join('')
     + '</tbody></table></div></div>';
   return h;
+}
+
+/* ── 장비 수기 수정 · 팀 공유 저장 ─────────────────────────────
+   원격파트 대시보드(../index.html)와 같은 Apps Script 공유 저장소를 쓴다.
+   백엔드는 {patch:{섹션:{키:값}}} 을 키 단위로 병합하므로 'frEquip' 섹션을 새로 써도
+   백엔드 수정·재배포가 필요 없고, 다른 섹션(게임·VOC 등)은 건드리지 않는다.
+     키 = '<브랜드>|<지점>|e:<id>'   수기 이력 1건 (설치·교체·회수·AS·점검)
+          '<브랜드>|<지점>|o:<장비>' 자동 판정 보정 (수량·모델·설치일·교체일·상태·숨김)
+   삭제는 '' (묘비). null 로 지우면 아직 그 값을 들고 있는 브라우저가 되살린다.
+   저장 실패를 조용히 삼키면 각자 브라우저에만 남는다(2026-08-24 사고) →
+   실패하면 알리고 이 브라우저에 보관했다가 다음에 열 때 다시 올린다. */
+const FR_CLOUD   = 'https://script.google.com/macros/s/AKfycbwlPj0fbNjMWTpU1jiGI3gUNPvOE8MlZ7ANqgQP41ZrWE0vo4r2en1pSYZVgEiYYR8M_A/exec';
+const EQ_SECTION = 'frEquip';
+const EQ_PREFIX  = CLIENT.name + '|';
+const LS_EQ_PEND = 'fr_equip_pending_v1';
+const LS_EQ_BY   = 'fr_equip_by_v1';
+let EQUIP_EDIT = {};              /* 이 브랜드의 수기 값 (key → 객체) */
+let EQ_CLOUD   = 'loading';       /* loading | ok | fail */
+
+const lsGet = (k, d) => { try{ const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); }catch(e){ return d; } };
+const lsSet = (k, v) => { try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} };
+
+function eqCloudBanner(){
+  const pend = Object.keys(lsGet(LS_EQ_PEND, {})).filter(k => k.indexOf(EQ_PREFIX) === 0).length;
+  if(EQ_CLOUD === 'fail')
+    return '<div class="notice danger"><span class="k">저장소</span><span class="t">팀 공유 저장소를 불러오지 못했습니다. '
+      + '다른 사람이 넣은 수기 기록이 안 보일 수 있습니다. 새로고침해 보세요.</span></div>';
+  if(pend)
+    return '<div class="notice warn"><span class="k">미저장</span><span class="t">아직 팀에 올라가지 않은 수기 수정 <b>' + pend + '건</b>이 이 브라우저에 있습니다. '
+      + '다음에 열 때 자동으로 다시 올립니다.</span></div>';
+  if(EQ_CLOUD === 'loading')
+    return '<div class="notice"><span class="k">저장소</span><span class="t">수기 기록을 불러오는 중…</span></div>';
+  return '';
+}
+
+function eqApply(key, val){
+  if(val === '') delete EQUIP_EDIT[key]; else EQUIP_EDIT[key] = val;
+  equipEvents._c = null;
+}
+
+function loadEquipCloud(){
+  return fetch(FR_CLOUD + '?t=' + Date.now()).then(r => r.json()).then(function(d){
+    const sec = (d && d.game && d.game[EQ_SECTION]) || {};
+    EQUIP_EDIT = {};
+    Object.keys(sec).forEach(k => { if(k.indexOf(EQ_PREFIX) === 0 && sec[k] !== '' && sec[k] != null) EQUIP_EDIT[k] = sec[k]; });
+    /* 아직 못 올린 내 수정이 있으면 화면에 반영하고 다시 올린다 */
+    const pend = lsGet(LS_EQ_PEND, {}), mine = {};
+    Object.keys(pend).forEach(k => { if(k.indexOf(EQ_PREFIX) === 0){ mine[k] = pend[k]; eqApply(k, pend[k]); } });
+    EQ_CLOUD = 'ok';
+    equipEvents._c = null;
+    if(Object.keys(mine).length) eqPush(mine);
+  }).catch(function(){ EQ_CLOUD = 'fail'; });
+}
+
+function eqPush(patchObj){
+  const pend = lsGet(LS_EQ_PEND, {});
+  Object.assign(pend, patchObj); lsSet(LS_EQ_PEND, pend);
+  return fetch(FR_CLOUD, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+                          body:JSON.stringify({patch:{[EQ_SECTION]:patchObj}})})
+    .then(r => r.text())
+    .then(function(t){
+      let d = null; try{ d = JSON.parse(t); }catch(e){}
+      if(!d || d.ok !== true) throw new Error((d && d.error) || t.slice(0, 160));
+      const p = lsGet(LS_EQ_PEND, {});
+      Object.keys(patchObj).forEach(k => { if(JSON.stringify(p[k]) === JSON.stringify(patchObj[k])) delete p[k]; });
+      lsSet(LS_EQ_PEND, p);
+      eqToast('✅ 팀에 저장됐습니다');
+      if(view === 'equip') render();
+    })
+    .catch(function(e){
+      console.error('장비 수기 저장 실패:', e);
+      eqToast('⚠️ 팀 저장 실패 — 이 브라우저에만 남아 있습니다. 다음에 열 때 다시 올립니다.', true);
+      if(view === 'equip') render();
+    });
+}
+
+function eqSave(key, val){ eqApply(key, val); render(); eqPush({[key]: val}); }
+
+function eqToast(msg, bad){
+  let t = document.getElementById('eqToast');
+  if(!t){ t = document.createElement('div'); t.id = 'eqToast'; t.className = 'eq-toast no-print'; document.body.appendChild(t); }
+  t.textContent = msg; t.classList.toggle('bad', !!bad); t.style.display = 'block';
+  clearTimeout(t._t); t._t = setTimeout(() => { t.style.display = 'none'; }, bad ? 7000 : 2500);
+}
+
+/* 장비명 → 종류 키. 사전에 있으면 그 종류(자동 이력과 합쳐짐), 없으면 직접 입력한 이름 그대로 */
+function eqTypeOf(name){
+  const n = String(name || '').trim();
+  const t = EquipParse.TYPES.find(x => x.name === n) || (EquipParse.parseItems(n)[0] && EquipParse.TYPE_MAP[EquipParse.parseItems(n)[0].type]);
+  return t ? {type:t.key, name:t.name} : {type:'x:' + n, name:n};
+}
+const eqNameList = () => '<datalist id="eqNames">' + EquipParse.TYPES.map(t => '<option value="' + esc(t.name) + '">').join('') + '</datalist>';
+const fRow = (label, input) => '<label class="eq-f"><span>' + label + '</span>' + input + '</label>';
+const fIn  = (id, val, attr) => '<input id="' + id + '" value="' + esc(val == null ? '' : val) + '" ' + (attr || '') + '>';
+
+/* 수기 이력 추가·수정 */
+function eqOpenEventForm(branch, key){
+  const m = key ? EQUIP_EDIT[key] : null;
+  const branches = equipStores().map(s => s.branch).sort((a, b) => a.localeCompare(b, 'ko'));
+  const types = ['설치','교체','회수','AS','점검'];
+  const body = '<div class="eq-form">'
+    + fRow('지점 *', branch && !m ? '<input id="eqfBranch" value="' + esc(branch) + '" readonly>'
+        : '<input id="eqfBranch" list="eqBranches" value="' + esc(m ? m.branch : (branch || '')) + '" placeholder="예: 성수코리아IT점">'
+          + '<datalist id="eqBranches">' + branches.map(b => '<option value="' + esc(b) + '">').join('') + '</datalist>')
+    + fRow('일자 *', fIn('eqfDate', m ? m.date : TODAY, 'type="date"'))
+    + fRow('구분 *', '<select id="eqfType">' + types.map(t => '<option' + ((m ? m.type : '설치') === t ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>')
+    + fRow('장비 *', fIn('eqfItem', m ? m.name : '', 'list="eqNames" placeholder="포스 · 프론트 · 유선프린터 …"') + eqNameList())
+    + fRow('수량', fIn('eqfQty', m ? m.qty : 1, 'type="number" min="0" max="99"'))
+    + fRow('모델', fIn('eqfModel', m ? m.model : '', 'placeholder="교체면 새 모델"'))
+    + fRow('이전 모델', fIn('eqfFrom', m ? m.from : '', 'placeholder="교체일 때만 · 예: TS100E"'))
+    + fRow('메모', fIn('eqfNote', m ? m.note : '', 'placeholder="교체 사유 · 업체 등"'))
+    + fRow('작성자 *', fIn('eqfBy', m ? m.by : lsGet(LS_EQ_BY, ''), 'placeholder="이름"'))
+    + '<div class="eq-actions"><span class="eq-err" id="eqfErr"></span>'
+    + '<button class="btn" type="button" data-close="1">취소</button>'
+    + '<button class="btn primary" type="button" id="eqfSave">' + (m ? '수정 저장' : '추가') + '</button></div></div>';
+  openDrill(m ? '✏️ 수기 기록 수정' : '＋ 장비 기록 추가', '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  document.getElementById('eqfSave').addEventListener('click', function(){
+    const g = id => document.getElementById(id).value.trim();
+    const br = g('eqfBranch'), item = g('eqfItem'), by = g('eqfBy');
+    if(!br || !g('eqfDate') || !item || !by){ document.getElementById('eqfErr').textContent = '* 표시 항목을 채워주세요'; return; }
+    lsSet(LS_EQ_BY, by);
+    const t = eqTypeOf(item);
+    const k = key || (EQ_PREFIX + br + '|e:' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
+    const val = {k:'e', branch:br, date:g('eqfDate'), type:g('eqfType'), item:t.type, name:t.name,
+                 qty:+g('eqfQty') || 0, model:g('eqfModel'), from:g('eqfFrom'), note:g('eqfNote'), by:by, _t:Date.now()};
+    closeDrill();
+    if(!key && br !== equipSel){ equipSel = br; equipItem = ''; }
+    eqSave(k, val);
+  });
+}
+
+/* 자동 판정 보정 — 비운 칸은 자동 값을 그대로 쓴다 */
+function eqOpenOverrideForm(branch, type){
+  const s = equipStores().find(x => x.branch === branch);
+  const o = equipInventory(s ? s.evs : [], branch).find(x => x.type === type) || {name:type, models:[]};
+  const key = EQ_PREFIX + branch + '|o:' + type;
+  const m = EQUIP_EDIT[key] || {};
+  const body = '<div class="eq-form">'
+    + '<div class="eq-hint">비워 둔 칸은 자동 판정 값을 씁니다. 지금 값: 수량 ' + (o.qty || '—') + ' · 모델 ' + (o.models.length ? esc(o.models.join(', ')) : '—')
+    + ' · 설치 ' + (o.first || '—') + ' · 교체 ' + (o.replaced || '—') + '</div>'
+    + fRow('수량', fIn('eqoQty', m.qty || '', 'type="number" min="0" max="99"'))
+    + fRow('모델', fIn('eqoModel', m.model || ''))
+    + fRow('설치일', fIn('eqoInst', m.installed || '', 'type="date"'))
+    + fRow('최근 교체일', fIn('eqoRepl', m.replaced || '', 'type="date"'))
+    + fRow('상태', '<select id="eqoStatus">'
+        + [['','자동 판정대로'],['active','운영중'],['removed','회수'],['hidden','목록에서 숨김 (잘못 잡힌 장비)']]
+            .map(x => '<option value="' + x[0] + '"' + ((m.hidden ? 'hidden' : (m.status || '')) === x[0] ? ' selected' : '') + '>' + x[1] + '</option>').join('')
+        + '</select>')
+    + fRow('회수일', fIn('eqoRemAt', m.removedAt || '', 'type="date"'))
+    + fRow('메모', fIn('eqoNote', m.note || ''))
+    + fRow('작성자 *', fIn('eqoBy', m.by || lsGet(LS_EQ_BY, ''), 'placeholder="이름"'))
+    + '<div class="eq-actions"><span class="eq-err" id="eqoErr"></span>'
+    + (EQUIP_EDIT[key] ? '<button class="btn" type="button" id="eqoReset" title="수기 수정을 지우고 자동 판정으로">↺ 자동 값으로 되돌리기</button>' : '')
+    + '<button class="btn" type="button" data-close="1">취소</button>'
+    + '<button class="btn primary" type="button" id="eqoSave">저장</button></div></div>';
+  openDrill('✏️ ' + esc(branch) + ' · ' + esc(o.name), '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  document.getElementById('eqoSave').addEventListener('click', function(){
+    const g = id => document.getElementById(id).value.trim();
+    const by = g('eqoBy');
+    if(!by){ document.getElementById('eqoErr').textContent = '작성자를 적어주세요'; return; }
+    lsSet(LS_EQ_BY, by);
+    const st = g('eqoStatus');
+    const val = {k:'o', branch:branch, type:type, name:o.name, qty:+g('eqoQty') || 0, model:g('eqoModel'),
+                 installed:g('eqoInst'), replaced:g('eqoRepl'), status: st === 'hidden' ? '' : st, hidden: st === 'hidden',
+                 removedAt:g('eqoRemAt'), note:g('eqoNote'), by:by, _t:Date.now()};
+    closeDrill(); eqSave(key, val);
+  });
+  const rs = document.getElementById('eqoReset');
+  if(rs) rs.addEventListener('click', function(){ closeDrill(); eqSave(key, ''); });
 }
 
 /* ── 라우팅 / 렌더 ─────────────────────────────────────────── */
@@ -2020,6 +2253,15 @@ function bindEvents(){
     if(bk) bk.addEventListener('click', function(){ equipSel = ''; equipItem = ''; render(); });
     const ic = document.getElementById('equipItemClear');
     if(ic) ic.addEventListener('click', function(){ equipItem = ''; render(); });
+    /* 수기 수정 — 표 행 클릭(장비 필터)과 겹치지 않게 전파를 끊는다 */
+    const on = (sel, fn) => document.querySelectorAll(sel).forEach(b => b.addEventListener('click', function(e){ e.stopPropagation(); fn(this); }));
+    on('[data-eqadd]',  b => eqOpenEventForm(b.dataset.eqadd || '', ''));
+    on('[data-eqedit]', b => eqOpenEventForm('', b.dataset.eqedit));
+    on('[data-eqov]',   b => eqOpenOverrideForm(equipSel, b.dataset.eqov));
+    on('[data-eqdel]',  b => {
+      const m = EQUIP_EDIT[b.dataset.eqdel];
+      if(confirm('이 수기 기록을 삭제할까요?\n' + (m ? m.date + ' · ' + m.type + ' · ' + m.name : '') + '\n(팀 전체에서 사라집니다)')) eqSave(b.dataset.eqdel, '');
+    });
   }
 }
 
@@ -2067,6 +2309,8 @@ function fillClientSelect(){
     else                   { await loadScript('../slack-data.js'); buildFromSlack(); }
     /* 현장방문은 별도 파일에서 온다. 아직 수집 전이면 조용히 건너뛴다 */
     try { await loadScript('../visit-data.js'); mergeVisits(); } catch(e){}
+    /* 장비 수기 기록(팀 공유) — 기다리지 않는다. 도착하면 장비 조회 화면만 다시 그린다 */
+    loadEquipCloud().then(function(){ if(view === 'equip') render(); });
     /* 장비 대장(선택) — 없거나 비어 있어도 장비 조회는 방문·원격 기록만으로 동작한다 */
     if(REG && REG.equipFile){
       try {
