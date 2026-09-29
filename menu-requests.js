@@ -3,10 +3,248 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2660,
- "updatedAt": "2026-09-29 15:09",
+ "version": 2661,
+ "updatedAt": "2026-09-29 15:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1790663818.178039",
+   "date": "2026-09-29",
+   "time": "15:36",
+   "store": "커피스토리",
+   "biz": "1293747409",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 추가",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_9315.jpg.jpeg",
+     "fid": "F0C54U1CX7Y",
+     "from": "댓글",
+     "path": "menu-files/1790663818_178039-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피 Coffee",
+       "name": "에스프레소",
+       "price": 2500
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "아메리카노 (Hot)",
+       "price": 2800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "아메리카노 (Ice)",
+       "price": 3300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카푸치노 (Hot)",
+       "price": 3800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카푸치노 (Ice)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카페라떼 (Hot)",
+       "price": 3800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카페라떼 (Ice)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "바닐라 카페라떼 (Hot)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "바닐라 카페라떼 (Ice)",
+       "price": 4800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "헤이즐넛 카페라떼 (Hot)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "헤이즐넛 카페라떼 (Ice)",
+       "price": 4800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카라멜 카페라떼 (Hot)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카라멜 카페라떼 (Ice)",
+       "price": 4800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카라멜 마끼야또 (Hot)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카라멜 마끼야또 (Ice)",
+       "price": 4800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카페모카 (Hot)",
+       "price": 4300
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "카페모카 (Ice)",
+       "price": 4800
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "핫초코 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "핫초코 (Ice)",
+       "price": 4500
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "연유라떼 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "커피 Coffee",
+       "name": "연유라떼 (Ice)",
+       "price": 4500
+      },
+      {
+       "category": "티 Tea",
+       "name": "아이스티 (복숭아)",
+       "price": 3500
+      },
+      {
+       "category": "티 Tea",
+       "name": "레몬에이드 / 자몽 / 오렌지 / 유자",
+       "price": 4900
+      },
+      {
+       "category": "티 Tea",
+       "name": "홍차 / 녹차",
+       "price": 3500
+      },
+      {
+       "category": "티 Tea",
+       "name": "허브차 (쟈스민 / 페퍼민트) / 카모마일",
+       "price": 3500
+      },
+      {
+       "category": "티 Tea",
+       "name": "녹차라떼 / 고구마라떼",
+       "price": 4900
+      },
+      {
+       "category": "티 Tea",
+       "name": "밀크티라떼 / 흑당라떼",
+       "price": 4900
+      },
+      {
+       "category": "티 Tea",
+       "name": "토피넛라떼 / 오곡라떼",
+       "price": 4900
+      },
+      {
+       "category": "주스 Juice",
+       "name": "딸기 / 키위 / 토마토",
+       "price": 6000
+      },
+      {
+       "category": "주스 Juice",
+       "name": "계절과일",
+       "price": 0
+      },
+      {
+       "category": "주스 Juice",
+       "name": "딸기바나나 / 키위바나나",
+       "price": 6500
+      },
+      {
+       "category": "주스 Juice",
+       "name": "대추 / 생강 / 유자차",
+       "price": 4500
+      },
+      {
+       "category": "스무디 Smoothie",
+       "name": "딸기 / 키위 / 망고",
+       "price": 4500
+      },
+      {
+       "category": "스무디 Smoothie",
+       "name": "블루베리",
+       "price": 4500
+      },
+      {
+       "category": "스무디 Smoothie",
+       "name": "요거트 / 민트초코",
+       "price": 4500
+      },
+      {
+       "category": "빙수",
+       "name": "팥빙수",
+       "price": 9000
+      },
+      {
+       "category": "빙수",
+       "name": "커피빙수",
+       "price": 9500
+      },
+      {
+       "category": "기타 메뉴",
+       "name": "조각케이크",
+       "price": 5000
+      },
+      {
+       "category": "기타 메뉴",
+       "name": "허니버터브레드",
+       "price": 7000
+      },
+      {
+       "category": "기타 메뉴",
+       "name": "머핀",
+       "price": 3500
+      },
+      {
+       "category": "기타 메뉴",
+       "name": "베이글",
+       "price": 3000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "스무디메뉴 중 민트초코\n기타메뉴 중 베이글 삭제 해주세요"
+   ],
+   "rc": 2,
+   "lr": "1790663843.303549",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790663818178039"
+  },
   {
    "ts": "1790661177.192909",
    "date": "2026-09-29",
