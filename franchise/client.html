@@ -215,6 +215,14 @@
   .req-cell{max-width:330px; font-size:13px; color:var(--ink-soft); line-height:1.4}
   /* 세부내역 팝업: 긴 스레드 원문이 행을 끝없이 늘리지 않게 3줄로 자른다 (마우스를 올리면 전문) */
   .clamp3{display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; word-break:break-all}
+  /* 장비 조회 */
+  .eq-item{display:inline-block; font-size:12px; font-weight:700; padding:2px 9px; margin:2px 4px 2px 0; border-radius:20px;
+    background:var(--surface); border:1px solid var(--line-soft); color:var(--ink-soft); white-space:nowrap}
+  .eq-item small{font-weight:600; color:var(--gray2)}
+  .eq-item.off{text-decoration:line-through; color:var(--gray2)}
+  tr.eq-row{cursor:pointer}
+  tr.eq-row:hover td{background:var(--surface)}
+  tr.eq-row.on td{background:var(--blue-soft)}
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 12px; line-height:1.8}
   .delta{font-size:12.5px; font-weight:700}
   .delta.up{color:var(--red)} .delta.down{color:var(--green)} .delta.flat{color:var(--gray2)}
@@ -361,6 +369,7 @@
   <button class="navbtn active" data-view="overview"><span class="ic">📊</span>전체현황</button>
   <button class="navbtn" data-view="stores"><span class="ic">🏪</span>지점별</button>
   <button class="navbtn" data-view="records"><span class="ic">📋</span>처리내역</button>
+  <button class="navbtn" data-view="equip"><span class="ic">🧰</span>장비 조회</button>
   <div class="nav-div"></div>
   <div class="nav-label">보고</div>
   <button class="navbtn" data-view="report"><span class="ic">📄</span>월간 보고서</button>
@@ -386,6 +395,7 @@
 <script src="brands.js"></script>
 <script src="clients.js"></script>
 <script src="brand-match.js"></script>
+<script src="equip-parse.js"></script>
 <script src="xlsx.js"></script>
 <script>
 /* =====================================================================
@@ -1670,11 +1680,195 @@ const catChip = k => '<span class="cat-chip" style="background:' + catColor(k) +
 const stChip  = k => '<span class="st-chip" style="background:' + stColor(k) + '22;color:' + stColor(k) + '">'
   + esc(stName(k)) + '</span>';
 
+/* ── 뷰: 장비 조회 ─────────────────────────────────────────
+   매장을 검색하면 어떤 장비가 들어가 있고 언제 설치·교체·AS 됐는지를 보여준다.
+   출처 3가지를 한 이력으로 합친다.
+     · 현장방문(visit-data.js) — '장비' 칸 자유 텍스트를 equip-parse.js 로 읽는다. 설치·교체·회수의 유일한 출처
+     · 원격 AS·온보딩       — 요청/처리 문구에 장비가 언급된 건만 (수량은 없음)
+     · 장비 대장(선택)       — clients.js 의 equipFile. 현장방문 적재 이전 장비는 여기로만 알 수 있다
+   기간 선택과 무관하게 전체 이력을 쓴다 (장비는 '지금 무엇이 있나' 라서). */
+let equipQ = '', equipSel = '', equipItem = '';
+let EQUIP_REG = [];          /* 장비 대장 행 (equipFile) */
+const EQ_TYPE_COLOR = {'설치':'#34c759','교체':'#ff9500','회수':'#8e8e93','AS':'#ff3b30',
+                       '원격AS':'#0071e3','온보딩':'#5e5ce6','점검':'#00c7be','장비대장':'#af52de','기타':'#aeaeb4'};
+const eqChip = t => '<span class="cat-chip" style="background:' + (EQ_TYPE_COLOR[t]||'#aeaeb4') + '22;color:'
+  + (EQ_TYPE_COLOR[t]||'#aeaeb4') + '">' + esc(t) + '</span>';
+
+function equipEvents(){
+  if(equipEvents._c) return equipEvents._c;
+  const EP = window.EquipParse, ev = [];
+  if(!EP) return (equipEvents._c = ev);
+  REC.forEach(function(r){
+    if(r.visit){
+      const v = r.visit, type = EP.eventType(v.kind, v.equip);
+      ev.push({branch:r.branch, date:String(v.visitDate || r.date).slice(0,10), reqDate:r.date, type:type,
+               items:EP.parseItems(v.equip), text:v.equip || '', emp:r.emp, src:'현장방문',
+               pair: type === '교체' ? EP.replacePair(v.equip) : null, visit:v});
+    }else if(r.cat === 'as' || r.cat === 'onboarding'){
+      const txt = (r.req || '') + ' ' + (r.note || '');
+      const items = EP.parseItems(txt).map(it => Object.assign({}, it, {qty:0}));   /* 원격 문구의 숫자는 수량이 아니다 */
+      if(!items.length) return;
+      ev.push({branch:r.branch, date:r.date, type: r.cat === 'onboarding' ? '온보딩' : '원격AS',
+               items:items, text:r.req || '', note:r.note || '', emp:r.emp, src:'원격'});
+    }
+  });
+  EQUIP_REG.forEach(function(row){
+    if(!row || !row.branch || !row.item) return;
+    const parsed = EP.parseItems(row.item)[0];
+    const it = {type: parsed ? parsed.type : 'x:' + row.item, name: parsed ? parsed.name : String(row.item),
+                qty: +row.qty || 1, models: row.model ? [String(row.model).toUpperCase()] : [], existing:false};
+    const base = {branch:String(row.branch).trim(), items:[it], emp:row.by || '', src:'장비 대장', text:row.note || ''};
+    if(row.installed) ev.push(Object.assign({}, base, {date:String(row.installed).slice(0,10), type:'설치'}));
+    if(row.replaced)  ev.push(Object.assign({}, base, {date:String(row.replaced).slice(0,10),  type:'교체'}));
+    if(!row.installed && !row.replaced) ev.push(Object.assign({}, base, {date:'', type:'장비대장'}));
+  });
+  ev.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  return (equipEvents._c = ev);
+}
+
+/* 한 지점의 이력(최신순) → 장비별 현재 상태 */
+function equipInventory(evs){
+  const inv = {};
+  evs.slice().reverse().forEach(function(e){           /* 오래된 것부터 쌓아 올린다 */
+    e.items.forEach(function(it){
+      const o = inv[it.type] || (inv[it.type] = {type:it.type, name:it.name, qty:0, models:[], first:'', replaced:'',
+                                                  lastAs:'', removed:'', existing:false, n:0});
+      o.n++;
+      it.models.forEach(m => { if(o.models.indexOf(m) < 0) o.models.push(m); });
+      if(e.type === '설치' || e.type === '교체' || e.type === '장비대장'){
+        if(it.qty) o.qty = it.qty;                     /* 가장 최근 설치·교체 기록의 수량 */
+        if(e.type === '설치' && !o.first) o.first = e.date;
+        if(e.type === '교체') o.replaced = e.date;
+        if(it.existing) o.existing = true;
+        o.removed = '';
+      }
+      if(e.type === '회수') o.removed = e.date;
+      if(e.type === 'AS' || e.type === '원격AS' || e.type === '점검') o.lastAs = e.date;
+    });
+  });
+  const order = (window.EquipParse ? EquipParse.TYPES.map(t => t.key) : []);
+  return Object.values(inv).sort((a, b) => {
+    const ia = order.indexOf(a.type), ib = order.indexOf(b.type);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+}
+
+function equipStores(){
+  const evs = equipEvents(), m = new Map();
+  REC.forEach(r => { if(!m.has(r.branch)) m.set(r.branch, {branch:r.branch, store:r.store, biz:r.biz, evs:[]}); });
+  evs.forEach(e => {
+    if(!m.has(e.branch)) m.set(e.branch, {branch:e.branch, store:'', biz:'', evs:[]});
+    m.get(e.branch).evs.push(e);
+  });
+  return [...m.values()];
+}
+
+function viewEquip(){
+  if(!window.EquipParse) return '<div class="notice danger"><span class="k">오류</span><span class="t">equip-parse.js 를 불러오지 못했습니다.</span></div>';
+  const VD = window.VISIT_DATA, vFrom = VD && VD.records && VD.records.length
+    ? VD.records.map(v => String(v.date)).sort()[0] : '';
+  let h = '<div class="notice"><span class="k">출처</span><span class="t">'
+    + '<b>현장방문</b> 설치·교체·회수·AS 기록' + (vFrom ? '(' + esc(vFrom) + ' 이후)' : '')
+    + ' + <b>원격 AS·온보딩</b> 중 장비가 언급된 건' + (EQUIP_REG.length ? ' + <b>장비 대장 ' + EQUIP_REG.length + '행</b>' : '')
+    + '으로 만든 이력입니다. 방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 보이지 않습니다'
+    + (REG && REG.equipFile ? ' — 장비 대장이 있으면 <code>' + esc(REG.equipFile) + '</code> 에 넣으면 합쳐집니다.' : '.')
+    + '</span></div>';
+
+  const all = equipStores();
+  const sel = equipSel ? all.find(s => s.branch === equipSel) : null;
+  if(sel) return h + equipDetail(sel);
+
+  const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '');
+  let list = all.filter(s => !q || BrandMatch.keyOf(s.branch + ' ' + s.store).indexOf(q) >= 0
+                               || (qd.length >= 3 && String(s.biz).indexOf(qd) >= 0));
+  list.forEach(s => { s.inv = equipInventory(s.evs); s.last = s.evs.length ? s.evs[0].date : ''; });
+  list.sort((a, b) => (b.inv.length > 0) - (a.inv.length > 0) || (b.last || '').localeCompare(a.last || '')
+                      || a.branch.localeCompare(b.branch, 'ko'));
+  const withEq = list.filter(s => s.inv.length).length;
+
+  h += '<div class="card"><div class="card-head"><h3>🧰 장비 조회</h3><div class="controls">'
+    + '<input type="search" id="equipQ" placeholder="매장 상호·지점명·사업자번호 검색" value="' + esc(equipQ) + '" style="min-width:280px">'
+    + '</div></div>'
+    + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:11px">'
+    + (equipQ ? '“' + esc(equipQ) + '” · ' : '') + list.length + '개 지점 · 장비 기록 있음 ' + withEq + '곳 · 지점을 누르면 장비 현황과 이력</div>';
+  if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.</div></div>';
+  h += '<div class="tbl-scroll"><table><thead><tr><th>지점</th><th>장비</th><th class="num">기록</th><th>최근 기록</th></tr></thead><tbody>'
+    + list.map(s => '<tr class="eq-row" data-eqbranch="' + esc(s.branch) + '">'
+        + '<td style="font-weight:700;color:var(--blue);white-space:nowrap">' + esc(s.branch) + '</td>'
+        + '<td>' + (s.inv.length
+            ? s.inv.map(o => '<span class="eq-item' + (o.removed ? ' off' : '') + '">' + esc(o.name) + (o.qty > 1 ? ' ×' + o.qty : '') + '</span>').join('')
+            : '<span style="color:var(--gray2);font-size:12.5px">장비 기록 없음</span>') + '</td>'
+        + '<td class="num">' + (s.evs.length || '·') + '</td>'
+        + '<td style="white-space:nowrap;color:var(--gray)">' + (s.last || '—') + '</td></tr>').join('')
+    + '</tbody></table></div></div>';
+  return h;
+}
+
+function equipDetail(s){
+  const inv = equipInventory(s.evs);
+  const lastVisit = s.evs.find(e => e.visit);
+  const meta = [];
+  if(s.store) meta.push(esc(s.store));
+  if(lastVisit && lastVisit.visit.addr) meta.push(esc(lastVisit.visit.addr));
+  if(lastVisit && lastVisit.visit.van)  meta.push('VAN ' + esc(lastVisit.visit.van));
+  if(s.biz) meta.push('사업자 ' + esc(s.biz));
+
+  let h = '<div class="card"><div class="card-head"><div>'
+    + '<button class="btn sm" id="equipBack" style="margin-bottom:10px">← 지점 목록</button>'
+    + '<h3 style="font-size:21px">🏪 ' + esc(s.branch) + '</h3>'
+    + '<div style="font-size:12.5px;color:var(--gray);margin-top:4px">' + meta.join(' · ') + '</div></div></div>';
+
+  if(!inv.length){
+    h += '<div class="empty">이 지점은 장비가 확인된 기록이 없습니다.<br>'
+      + '<span style="font-size:12.5px">현장방문 설치 기록이나 장비가 언급된 AS 건이 생기면 자동으로 채워집니다.</span></div></div>';
+    return h;
+  }
+  h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th class="num">수량</th><th>모델</th><th>상태</th>'
+    + '<th>설치</th><th>최근 교체</th><th>최근 AS·점검</th><th class="num">기록</th></tr></thead><tbody>'
+    + inv.map(function(o){
+        const st = o.removed ? '<span style="color:var(--gray)">회수 ' + o.removed + '</span>'
+                 : o.qty ? (o.existing ? '운영중 <span style="color:var(--gray2);font-size:12px">(기존 보유)</span>' : '운영중')
+                 : '<span style="color:var(--gray2)">설치 기록 없음</span>';
+        return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 이 장비 이력만">'
+          + '<td style="font-weight:700;white-space:nowrap">' + esc(o.name) + '</td>'
+          + '<td class="num">' + (o.qty || '—') + '</td>'
+          + '<td style="font-size:12.5px;color:var(--gray)">' + (o.models.length ? esc(o.models.join(', ')) : '—') + '</td>'
+          + '<td style="white-space:nowrap">' + st + '</td>'
+          + '<td style="white-space:nowrap">' + (o.first || '—') + '</td>'
+          + '<td style="white-space:nowrap;' + (o.replaced ? 'color:#c2410c;font-weight:700' : '') + '">' + (o.replaced || '—') + '</td>'
+          + '<td style="white-space:nowrap">' + (o.lastAs || '—') + '</td>'
+          + '<td class="num">' + o.n + '</td></tr>';
+      }).join('')
+    + '</tbody></table></div>'
+    + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div></div>';
+
+  const evs = equipItem ? s.evs.filter(e => e.items.some(it => it.type === equipItem)) : s.evs;
+  const itemName = equipItem ? (inv.find(o => o.type === equipItem) || {}).name : '';
+  h += '<div class="card"><div class="card-head"><h3>장비 이력' + (itemName ? ' · ' + esc(itemName) : '') + '</h3>'
+    + (equipItem ? '<button class="btn sm" id="equipItemClear">✕ 전체 장비</button>' : '<span class="hint">최신순 · ' + evs.length + '건</span>')
+    + '</div><div class="tbl-scroll"><table style="min-width:860px"><thead><tr><th>일자</th><th>구분</th><th>장비</th><th>내용</th><th>담당</th><th>출처</th></tr></thead><tbody>'
+    + evs.map(function(e){
+        const pair = e.pair ? '<div style="font-size:12px;color:#c2410c;font-weight:700;margin-top:3px">' + esc(e.pair.from) + ' → ' + esc(e.pair.to) + '</div>' : '';
+        return '<tr><td style="white-space:nowrap;color:var(--gray)">' + (e.date || '—')
+          + (e.reqDate && e.reqDate !== e.date ? '<br><span style="font-size:11.5px;color:var(--gray2)">요청 ' + e.reqDate + '</span>' : '') + '</td>'
+          + '<td>' + eqChip(e.type) + '</td>'
+          + '<td>' + e.items.map(it => '<span class="eq-item">' + esc(it.name) + (it.qty > 1 ? ' ×' + it.qty : '')
+              + (it.models.length ? ' <small>' + esc(it.models.join('/')) + '</small>' : '') + '</span>').join('') + '</td>'
+          + '<td class="req-cell"><div class="clamp3" title="' + esc(e.text + (e.note ? ' / ' + e.note : '')) + '">' + esc(e.text || '—')
+          + (e.note ? ' <span style="color:var(--gray2)">/ ' + esc(e.note) + '</span>' : '') + '</div>' + pair + '</td>'
+          + '<td style="white-space:nowrap">' + esc(e.emp || '—') + '</td>'
+          + '<td style="white-space:nowrap;font-size:12.5px;color:var(--gray)">' + esc(e.src) + '</td></tr>';
+      }).join('')
+    + '</tbody></table></div></div>';
+  return h;
+}
+
 /* ── 라우팅 / 렌더 ─────────────────────────────────────────── */
 const TITLES = {
   overview:['전체현황','원격 지원 인입 요약'],
   stores  :['지점별','지점 단위 인입 집계'],
   records :['처리내역','건별 원장'],
+  equip   :['장비 조회','매장별 장비 현황 · 설치·교체·AS 이력'],
   report  :['월간 보고서','제출용 · 인쇄/PDF + 엑셀'],
 };
 function controlsHTML(){
@@ -1721,12 +1915,14 @@ function render(){
   const t = TITLES[view];
   document.getElementById('pgTitle').textContent = t[0];
   document.getElementById('pgSub').textContent = CLIENT.name + ' · ' + t[1]
-    + ' · ' + (view==='report' ? ymLabel(month) : scopeLabel());
-  document.getElementById('ctlHost').innerHTML = controlsHTML();
+    + ' · ' + (view==='report' ? ymLabel(month) : view==='equip' ? '전체 기간' : scopeLabel());
+  /* 장비 조회는 기간과 무관(전체 이력) — 기간·엑셀 버튼을 두면 걸러지는 것처럼 읽힌다 */
+  document.getElementById('ctlHost').innerHTML = view==='equip' ? '' : controlsHTML();
   const host = document.getElementById('viewHost');
   host.innerHTML = view==='overview' ? viewOverview()
                  : view==='stores'   ? viewStores()
                  : view==='records'  ? viewRecords()
+                 : view==='equip'    ? viewEquip()
                  : viewReport();
   bindEvents();
 }
@@ -1806,6 +2002,25 @@ function bindEvents(){
   });
   const cs = document.getElementById('recCatSeg');
   if(cs) cs.addEventListener('click', function(e){ const b=e.target.closest('button'); if(!b) return; recCat=b.dataset.c; render(); });
+  /* 장비 조회 — 검색(포커스 유지) · 지점 선택 · 장비별 이력 필터 */
+  const eq = document.getElementById('equipQ');
+  if(eq) eq.addEventListener('input', function(){
+    equipQ = this.value; clearTimeout(eq._t);
+    eq._t = setTimeout(function(){ render(); const n = document.getElementById('equipQ');
+      if(n){ n.focus(); n.setSelectionRange(n.value.length, n.value.length); } }, 220);
+  });
+  if(view === 'equip'){
+    document.querySelectorAll('[data-eqbranch]').forEach(function(tr){
+      tr.addEventListener('click', function(){ equipSel = this.dataset.eqbranch; equipItem = ''; render(); window.scrollTo(0, 0); });
+    });
+    document.querySelectorAll('[data-eqitem]').forEach(function(tr){
+      tr.addEventListener('click', function(){ equipItem = equipItem === this.dataset.eqitem ? '' : this.dataset.eqitem; render(); });
+    });
+    const bk = document.getElementById('equipBack');
+    if(bk) bk.addEventListener('click', function(){ equipSel = ''; equipItem = ''; render(); });
+    const ic = document.getElementById('equipItemClear');
+    if(ic) ic.addEventListener('click', function(){ equipItem = ''; render(); });
+  }
 }
 
 document.querySelector('.sidebar').addEventListener('click', function(e){
@@ -1852,6 +2067,14 @@ function fillClientSelect(){
     else                   { await loadScript('../slack-data.js'); buildFromSlack(); }
     /* 현장방문은 별도 파일에서 온다. 아직 수집 전이면 조용히 건너뛴다 */
     try { await loadScript('../visit-data.js'); mergeVisits(); } catch(e){}
+    /* 장비 대장(선택) — 없거나 비어 있어도 장비 조회는 방문·원격 기록만으로 동작한다 */
+    if(REG && REG.equipFile){
+      try {
+        await loadScript(REG.equipFile);
+        const E = (window.CLIENT_EQUIP || {})[REG.slug];
+        EQUIP_REG = (E && Array.isArray(E.rows)) ? E.rows : [];
+      } catch(e){}
+    }
   }catch(e){ LOAD_ERR = e.message; }
 
   if(LOAD_ERR){

@@ -30,6 +30,7 @@ window.FRANCHISE_CLIENTS = [
     provider   : 'iShopCare 원격파트',
     reportTitle: 'AS지원 월간 리포트',
     dataFile   : 'data/compose.js',     // 이 파일이 window.CLIENT_DATA['compose'] 를 채운다
+    equipFile  : 'data/compose-equip.js', // (선택) 장비 대장 — '장비 조회' 탭에 합쳐진다
     note       : '2026-08-15 관리 개시',
   },
 
