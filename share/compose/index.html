@@ -237,6 +237,9 @@
   .own-seg button.on.purchase{background:#e7f8ec; color:#166534}
   .own-seg button.on.owned{background:#fff4e0; color:#b45309}
   .own-def{font-size:10.5px; color:var(--gray2); margin-left:5px}
+  .own-seg.big button{font-size:14px; padding:9px 20px}
+  .eq-hist{max-height:230px; overflow:auto; border:1px solid var(--line-soft); border-radius:10px}
+  .eq-hist table{font-size:12.5px} .eq-hist td,.eq-hist th{padding:6px 9px}
   .own-tag{font-size:12px; font-weight:800; padding:2px 9px; border-radius:20px}
   .own-tag.rental{background:#e8f1ff; color:#0060c0} .own-tag.purchase{background:#e7f8ec; color:#166534} .own-tag.owned{background:#fff4e0; color:#b45309}
   .eq-rm{color:var(--red)}
@@ -2626,7 +2629,7 @@ function equipDetail(s){
           const st = o.removed ? '<span style="color:var(--gray)">회수' + (o.removed !== '회수' ? ' ' + o.removed : '') + '</span>'
                    : o.qty ? (o.existing ? '운영중 <span style="color:var(--gray2);font-size:12px">(기존 보유)</span>' : '운영중')
                    : '<span style="color:var(--gray2)">설치 기록 없음</span>';
-          return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 이 장비 이력만">'
+          return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 장비 상세 (소유·수량·상태 수정)">'
             + '<td style="font-weight:700;white-space:nowrap">' + esc(o.name)
             + (o.edited ? ' <span class="eq-ed" title="수기 수정' + (o.editBy ? ' · ' + esc(o.editBy) : '') + (o.editNote ? ' · ' + esc(o.editNote) : '') + '">수기</span>' : '') + '</td>'
             + '<td style="white-space:nowrap">' + eqOwnCell(o) + '</td>'
@@ -2642,7 +2645,7 @@ function equipDetail(s){
         }).join('')
       + '</tbody></table></div>'
       + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · '
-      + '<b>수기</b> 표시는 사람이 고친 값 · 소유는 기본 <b>' + OWN_LABEL[EQ_OWN_DEFAULT] + '</b>(눌러서 장비별 변경) · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div>';
+      + '<b>수기</b> 표시는 사람이 고친 값 · 소유는 기본 <b>' + OWN_LABEL[EQ_OWN_DEFAULT] + '</b>(눌러서 장비별 변경) · <b>장비나 소유 표시를 누르면</b> 상세 팝업에서 수정 · 추가</div>';
   }
   if(hidden.length){
     h += '<div style="font-size:12px;color:var(--gray2);margin-top:8px">숨긴 장비: '
@@ -2805,24 +2808,95 @@ function eqFindItem(branch, type){
   const st = equipStores().find(x => x.branch === branch);
   return equipInventory(st ? st.evs : [], branch).find(x => x.type === type) || {type:type, name:type, own:EQ_OWN_DEFAULT, models:[]};
 }
-/* 렌탈 ↔ 구매 변경 */
-function eqOpenOwnForm(branch, type, v){
+/* ── 장비 팝업 ───────────────────────────────────────────
+   장비 줄·소유 표시를 누르면 뜬다. 한 곳에서 소유(렌탈/구매/자체보유)·수량·모델·설치일·교체일·상태를 고치고,
+   그 장비의 이력을 보고, 이 지점에 장비를 더 추가한다. 저장은 담당자 이름이 있어야만.
+   비워 둔 칸은 자동 판정 값(방문·원격 기록)을 쓴다 — 칸의 흐린 글자가 지금 값이다.
+   공유본(읽기 전용)에서는 같은 팝업이 보기 전용으로 뜬다. */
+function eqOpenItem(branch, type, presetOwn){
+  const st = equipStores().find(x => x.branch === branch);
   const o = eqFindItem(branch, type);
-  if(o.own === v && o.ownSet) return;
+  const key = EQ_PREFIX + branch + '|o:' + type;
+  const m = EQUIP_EDIT[key] || {};
+  const hist = (st ? st.evs : []).filter(e => e.items.some(it => it.type === type));
+  const stateNow = o.hidden ? 'hidden' : (o.removed ? 'removed' : 'active');
+  const histHTML = '<div style="font-size:13px;font-weight:800;margin:4px 0 6px">이 장비 이력 · ' + hist.length + '건</div>'
+    + (hist.length ? '<div class="eq-hist"><table><thead><tr><th>일자</th><th>구분</th><th>담당</th><th>출처</th><th>내용</th></tr></thead><tbody>'
+        + hist.slice(0, 12).map(e => '<tr' + (e.src === '수기' ? ' class="eq-manual"' : '') + '>'
+            + '<td style="white-space:nowrap;color:var(--gray)">' + (e.date || '—') + '</td><td>' + eqChip(e.type) + '</td>'
+            + '<td style="white-space:nowrap">' + esc(e.emp || '—') + '</td>'
+            + '<td style="white-space:nowrap;font-size:12px;color:var(--gray)">' + esc(e.src) + '</td>'
+            + '<td class="req-cell"><div class="clamp3" title="' + esc(e.text || '') + '">' + esc(e.text || '—') + '</div></td></tr>').join('')
+        + '</tbody></table></div>' + (hist.length > 12 ? '<div class="eq-hint" style="margin-top:6px">최근 12건만 — 전체는 아래 이력 표에서</div>' : '')
+      : '<div class="eq-hint">이력이 없습니다.</div>');
+  const summary = '<span class="c">소유 <b>' + OWN_LABEL[o.own] + '</b>' + (o.ownSet ? '' : ' <span style="color:var(--gray2)">(' + (o.ownAuto ? '방문기록' : '기본') + ')</span>') + '</span>'
+    + '<span class="c">수량 <b>' + (o.qty || '—') + '</b></span>'
+    + '<span class="c">상태 <b>' + (o.hidden ? '숨김' : o.removed ? '회수' : '운영중') + '</b></span>'
+    + (o.edited ? '<span class="c">마지막 수정 <b>' + esc(o.editBy || '—') + '</b></span>' : '');
+
+  if(EQ_READONLY){
+    openDrill('🧰 ' + esc(branch) + ' · ' + esc(o.name), summary,
+      '<div class="eq-form" style="grid-template-columns:1fr">'
+      + '<div class="eq-hint">모델 ' + (o.models.length ? esc(o.models.join(', ')) : '—') + ' · 설치 ' + (o.first || '—')
+      + ' · 최근 교체 ' + (o.replaced || '—') + ' · 최근 AS·점검 ' + (o.lastAs || '—') + '</div>' + histHTML + '</div>', true);
+    return;
+  }
+  const own0 = presetOwn || m.own || o.own;
   const body = '<div class="eq-form">'
-    + '<div class="eq-hint"><b>' + esc(o.name) + '</b> 소유 형태를 <b>' + OWN_LABEL[o.own] + '</b> → <b>' + OWN_LABEL[v] + '</b> 로 바꿉니다.</div>'
-    + fRow('메모', fIn('eqwNote', '', 'placeholder="예: 계약서 기준 구매 확인"'))
-    + eqByField('eqwBy')
-    + '<div class="eq-actions"><span class="eq-err" id="eqwErr"></span>'
-    + '<button class="btn" type="button" data-close="1">취소</button>'
-    + '<button class="btn primary" type="button" id="eqwSave">' + OWN_LABEL[v] + '(으)로 변경</button></div></div>';
-  openDrill('🏷 ' + esc(branch) + ' · ' + esc(o.name), '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
-  document.getElementById('eqwSave').addEventListener('click', function(){
-    const by = eqNeedBy('eqwBy', 'eqwErr'); if(!by) return;
-    const note = document.getElementById('eqwNote').value.trim();
-    closeDrill(); eqMergeOverride(branch, type, o.name, {own:v, by:by, note: note || ('소유 ' + OWN_LABEL[v] + '(으)로 변경')});
+    + '<label class="eq-f" style="grid-column:1/-1"><span>소유</span><span class="own-seg big" id="eqiOwn">'
+    + OWN_KEYS.map(k => '<button type="button" data-v="' + k + '" class="' + (own0 === k ? 'on ' + k : '') + '">' + OWN_LABEL[k] + '</button>').join('')
+    + '</span></label>'
+    + fRow('수량', fIn('eqiQty', m.qty || '', 'type="number" min="0" max="99" placeholder="' + (o.qty || '') + '"'))
+    + fRow('모델', fIn('eqiModel', m.model || '', 'placeholder="' + esc(o.models.join(', ')) + '"'))
+    + fRow('설치일', fIn('eqiInst', m.installed || '', 'type="date"'))
+    + fRow('최근 교체일', fIn('eqiRepl', m.replaced || '', 'type="date"'))
+    + fRow('상태', '<select id="eqiState">'
+        + [['active','운영중'],['removed','회수 (매장에서 뺌)'],['hidden','잘못 등록 (목록에서 삭제)']]
+            .map(x => '<option value="' + x[0] + '"' + (stateNow === x[0] ? ' selected' : '') + '>' + x[1] + '</option>').join('') + '</select>')
+    + fRow('회수일', fIn('eqiRemAt', m.removedAt || (o.removed && o.removed !== '회수' ? o.removed : ''), 'type="date"'))
+    + '<label class="eq-f" style="grid-column:1/-1"><span>메모</span><input id="eqiNote" value="" placeholder="바꾼 이유 · 업체 등"></label>'
+    + eqByField('eqiBy')
+    + '<div class="eq-actions"><span class="eq-err" id="eqiErr"></span>'
+    + (EQUIP_EDIT[key] ? '<button class="btn" type="button" id="eqiReset" title="이 장비의 수기 수정을 지우고 자동 판정으로">↺ 자동 값으로</button>' : '')
+    + '<button class="btn" type="button" data-close="1">닫기</button>'
+    + '<button class="btn primary" type="button" id="eqiSave">저장</button></div>'
+    + '<div style="grid-column:1/-1;border-top:1px solid var(--line-soft);padding-top:12px">' + histHTML + '</div>'
+    + '<div class="eq-actions" style="justify-content:space-between">'
+    + '<button class="btn" type="button" id="eqiFilter">아래 이력 표에서 이 장비만 보기</button>'
+    + '<button class="btn" type="button" id="eqiAdd">＋ 이 지점에 장비 추가</button></div></div>';
+  openDrill('🧰 ' + esc(branch) + ' · ' + esc(o.name), summary, body, true);
+
+  const seg = document.getElementById('eqiOwn');
+  seg.addEventListener('click', function(e){
+    const b = e.target.closest('button'); if(!b) return;
+    seg.querySelectorAll('button').forEach(x => x.className = '');
+    b.className = 'on ' + b.dataset.v;
   });
+  const val = id => document.getElementById(id).value.trim();
+  document.getElementById('eqiSave').addEventListener('click', function(){
+    const by = eqNeedBy('eqiBy', 'eqiErr'); if(!by) return;
+    const onB = seg.querySelector('button.on');
+    const own = onB ? onB.dataset.v : o.own;
+    const state = val('eqiState');
+    const note = val('eqiNote');
+    const changes = [];
+    if(own !== o.own || !o.ownSet) changes.push('소유 ' + OWN_LABEL[own]);
+    if(state !== stateNow) changes.push(state === 'hidden' ? '잘못 등록' : state === 'removed' ? '회수' : '운영중');
+    /* 입력값을 전부 읽은 뒤에 팝업을 닫는다 — 먼저 닫으면 입력칸이 사라져 값을 못 읽는다 */
+    const patch = {
+      own: own, qty: +val('eqiQty') || 0, model: val('eqiModel'), installed: val('eqiInst'), replaced: val('eqiRepl'),
+      hidden: state === 'hidden', status: state === 'hidden' ? '' : state,
+      removedAt: state === 'removed' ? (val('eqiRemAt') || TODAY) : '',
+      by: by, note: note || changes.join(' · ') || '수정'};
+    closeDrill();
+    eqMergeOverride(branch, type, o.name, patch);
+  });
+  const rs = document.getElementById('eqiReset');
+  if(rs) rs.addEventListener('click', function(){ closeDrill(); eqSave(key, ''); });
+  document.getElementById('eqiFilter').addEventListener('click', function(){ closeDrill(); equipItem = type; render(); });
+  document.getElementById('eqiAdd').addEventListener('click', function(){ eqOpenEventForm(branch, ''); });
 }
+
 /* 장비 빼기 — 회수(매장에서 철수) 또는 잘못 등록(목록에서 삭제) */
 function eqOpenRemoveForm(branch, type){
   const o = eqFindItem(branch, type);
@@ -2935,47 +3009,6 @@ function eqOpenEventForm(branch, key){
     if(!key && br !== equipSel){ equipSel = br; equipItem = ''; }
     eqSave(k, val);
   });
-}
-
-/* 자동 판정 보정 — 비운 칸은 자동 값을 그대로 쓴다 */
-function eqOpenOverrideForm(branch, type){
-  const s = equipStores().find(x => x.branch === branch);
-  const o = equipInventory(s ? s.evs : [], branch).find(x => x.type === type) || {name:type, models:[]};
-  const key = EQ_PREFIX + branch + '|o:' + type;
-  const m = EQUIP_EDIT[key] || {};
-  const body = '<div class="eq-form">'
-    + '<div class="eq-hint">비워 둔 칸은 자동 판정 값을 씁니다. 지금 값: 수량 ' + (o.qty || '—') + ' · 모델 ' + (o.models.length ? esc(o.models.join(', ')) : '—')
-    + ' · 설치 ' + (o.first || '—') + ' · 교체 ' + (o.replaced || '—') + '</div>'
-    + fRow('수량', fIn('eqoQty', m.qty || '', 'type="number" min="0" max="99"'))
-    + fRow('모델', fIn('eqoModel', m.model || ''))
-    + fRow('설치일', fIn('eqoInst', m.installed || '', 'type="date"'))
-    + fRow('최근 교체일', fIn('eqoRepl', m.replaced || '', 'type="date"'))
-    + fRow('상태', '<select id="eqoStatus">'
-        + [['','자동 판정대로'],['active','운영중'],['removed','회수'],['hidden','목록에서 숨김 (잘못 잡힌 장비)']]
-            .map(x => '<option value="' + x[0] + '"' + ((m.hidden ? 'hidden' : (m.status || '')) === x[0] ? ' selected' : '') + '>' + x[1] + '</option>').join('')
-        + '</select>')
-    + fRow('회수일', fIn('eqoRemAt', m.removedAt || '', 'type="date"'))
-    + fRow('소유', ownSelect('eqoOwn', m.own || o.own || EQ_OWN_DEFAULT))
-    + fRow('메모', fIn('eqoNote', m.note || ''))
-    + eqByField('eqoBy')
-    + '<div class="eq-actions"><span class="eq-err" id="eqoErr"></span>'
-    + (EQUIP_EDIT[key] ? '<button class="btn" type="button" id="eqoReset" title="수기 수정을 지우고 자동 판정으로">↺ 자동 값으로 되돌리기</button>' : '')
-    + '<button class="btn" type="button" data-close="1">취소</button>'
-    + '<button class="btn primary" type="button" id="eqoSave">저장</button></div></div>';
-  openDrill('✏️ ' + esc(branch) + ' · ' + esc(o.name), '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
-  document.getElementById('eqoSave').addEventListener('click', function(){
-    const g = id => document.getElementById(id).value.trim();
-    const by = g('eqoBy');
-    if(!by){ document.getElementById('eqoErr').textContent = '담당자 이름을 입력해야 저장됩니다'; document.getElementById('eqoBy').focus(); return; }
-    lsSet(LS_EQ_BY, by);
-    const st = g('eqoStatus');
-    const val = {k:'o', branch:branch, type:type, name:o.name, qty:+g('eqoQty') || 0, model:g('eqoModel'),
-                 installed:g('eqoInst'), replaced:g('eqoRepl'), status: st === 'hidden' ? '' : st, hidden: st === 'hidden',
-                 removedAt:g('eqoRemAt'), own:g('eqoOwn'), note:g('eqoNote'), by:by, _t:Date.now()};
-    closeDrill(); eqSave(key, val);
-  });
-  const rs = document.getElementById('eqoReset');
-  if(rs) rs.addEventListener('click', function(){ closeDrill(); eqSave(key, ''); });
 }
 
 /* ── 라우팅 / 렌더 ─────────────────────────────────────────── */
@@ -3132,8 +3165,9 @@ function bindEvents(){
     document.querySelectorAll('[data-eqbranch]').forEach(function(tr){
       tr.addEventListener('click', function(){ equipSel = this.dataset.eqbranch; equipItem = ''; render(); window.scrollTo(0, 0); });
     });
+    /* 장비 줄 → 장비 팝업 (공유본은 보기 전용 팝업) */
     document.querySelectorAll('[data-eqitem]').forEach(function(tr){
-      tr.addEventListener('click', function(){ equipItem = equipItem === this.dataset.eqitem ? '' : this.dataset.eqitem; render(); });
+      tr.addEventListener('click', function(){ eqOpenItem(equipSel, this.dataset.eqitem); });
     });
     const bk = document.getElementById('equipBack');
     if(bk) bk.addEventListener('click', function(){ equipSel = ''; equipItem = ''; render(); });
@@ -3143,8 +3177,8 @@ function bindEvents(){
     const on = (sel, fn) => EQ_READONLY ? null : document.querySelectorAll(sel).forEach(b => b.addEventListener('click', function(e){ e.stopPropagation(); fn(this); }));
     on('[data-eqadd]',  b => eqOpenEventForm(b.dataset.eqadd || '', ''));
     on('[data-eqedit]', b => eqOpenEventForm('', b.dataset.eqedit));
-    on('[data-eqov]',   b => eqOpenOverrideForm(equipSel, b.dataset.eqov));
-    on('[data-eqown]',  b => eqOpenOwnForm(equipSel, b.dataset.eqown, b.dataset.v));
+    on('[data-eqov]',   b => eqOpenItem(equipSel, b.dataset.eqov));
+    on('[data-eqown]',  b => eqOpenItem(equipSel, b.dataset.eqown, b.dataset.v));
     on('[data-eqrm]',   b => eqOpenRemoveForm(equipSel, b.dataset.eqrm));
     on('[data-eqdel]',  b => {
       const m = EQUIP_EDIT[b.dataset.eqdel];
