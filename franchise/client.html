@@ -1346,7 +1346,7 @@ function mergeVisits(){
     const m = BrandMatch.matchBrand(idx, v.store || '');
     if(!m || m.brand.name !== BRAND) return;
     /* 관리 개시일 이전 건은 계약 대상이 아니다 (계약 고객사에만 해당) */
-    if(MODE === 'contract' && START_YM && ymOf(v.date) < START_YM) return;
+    if(MODE === 'contract' && CLIENT.startDate && String(v.date).slice(0,10) < CLIENT.startDate) return;   /* 날짜 단위 — tally-compose.js 와 같게 */
     REC.push({
       date  : String(v.date).slice(0, 10),
       time  : v.time || '',

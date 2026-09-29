@@ -92,6 +92,8 @@ window.FRANCHISE_TAXONOMY = {
     { key:'transfer',   name:'명의변경', color:'#ff9500' },
     { key:'menu',       name:'메뉴등록', color:'#00c7be' },
     { key:'delivery',   name:'배달',     color:'#0071e3' },
+    { key:'booking',    name:'예약',     color:'#a2845e' },   // 2026-09-24~ 원격예약 이모지
+    { key:'nosetup',    name:'미설치',   color:'#bf5af2' },   // fetch-and-tally.js isNoSetup
     { key:'extern',     name:'외주',     color:'#8e8e93' },
   ],
 };

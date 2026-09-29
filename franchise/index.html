@@ -300,7 +300,7 @@ const EXCLUDE    = window.FRANCHISE_EXCLUDE || [];
 
 /* ── 카테고리 ─────────────────────────────────────────────────
    허브는 두 소스를 한 표에 얹는다.
-     · slack-data.js  → 기존 6종 (온보딩·AS·명의변경·메뉴등록·배달·외주)
+     · slack-data.js  → 기존 8종 (온보딩·AS·명의변경·메뉴등록·배달·예약·미설치·외주)
      · 전용 원장(data/*.js) → 계약 8종 (방문AS·단순문의·세금계산서발급·해지·철거 추가)
    그래서 표 열은 두 체계의 【합집합】이다.
    합집합이 아니면 컴포즈커피 24건 중 절반(방문AS·단순문의·세금계산서·해지)이 표에서 사라진다.
@@ -313,6 +313,8 @@ const SLACK_CATS = [
   {key:'transfer',   name:'명의변경', color:'#ff9500'},
   {key:'menu',       name:'메뉴등록', color:'#5e5ce6'},
   {key:'delivery',   name:'배달',     color:'#00c7be'},
+  {key:'booking',    name:'예약',     color:'#a2845e'},
+  {key:'nosetup',    name:'미설치',   color:'#bf5af2'},
   {key:'extern',     name:'외주',     color:'#8e8e93'},
 ];
 const CONTRACT_ONLY = ((window.FRANCHISE_TAXONOMY||{}).contract || [])
@@ -341,6 +343,10 @@ const branchOf   = (store, hit) => BrandMatch.branchOf(store, hit);
 const CLIENTS = window.FRANCHISE_CLIENTS || [];
 const clientOf = b => (window.findClient ? window.findClient(b) : null);
 const clientURL = b => 'client.html?b=' + encodeURIComponent(b);
+/* 전용 원장(dataFile)을 가진 고객사. 원장은 slack-data.js 에서 그 브랜드 건을 골라 만든 것이라
+   슬랙 집계와 원장을 둘 다 더하면 같은 건이 두 번 잡힌다 → 이 브랜드는 슬랙 쪽을 건너뛰고 원장만 쓴다.
+   (client.html 의 전용 대시보드와 숫자가 같아진다) */
+const LEDGER_BRANDS = new Set(CLIENTS.filter(c=>c.dataFile).map(c=>c.brand));
 /* 브랜드명 클릭 → 그 브랜드의 전용 대시보드로 이동 */
 function goBrand(name){ location.href = clientURL(name); }
 
@@ -360,7 +366,7 @@ DAYS.forEach(date=>{
     ALL_DONE.push(rec);
     if(isExcluded(rec.store, rec.biz)) return;
     const m = matchBrand(rec.store);
-    if(!m) return;
+    if(!m || LEDGER_BRANDS.has(m.brand.name)) return;
     FR.push(Object.assign({}, rec, {
       brand : m.brand.name,
       tier  : m.brand.tier,
@@ -373,7 +379,7 @@ DAYS.forEach(date=>{
     PEND_ALL++;
     if(isExcluded(r.store, r.biz)) return;
     const m = matchBrand(r.store||'');
-    if(!m) return;
+    if(!m || LEDGER_BRANDS.has(m.brand.name)) return;
     FR_PEND.push({
       date, time:r.time||'', store:r.store||'', biz:r.biz||'', cat:r.cat||'',
       emp:r.handler||'', intake:r.intake||'unknown',
@@ -412,6 +418,9 @@ async function loadVisits(){
     if(isExcluded(v.store, v.biz)) return;
     const m = matchBrand(v.store);
     if(!m) return;
+    /* 관리 개시일 이전 방문은 계약 대상이 아니다 — client.html mergeVisits 와 같은 규칙 */
+    const cl = clientOf(m.brand.name);
+    if(cl && cl.startDate && String(v.date).slice(0,10) < cl.startDate) return;
     VISIT_FR.push({
       date  : String(v.date).slice(0,10),
       time  : v.time || '',
