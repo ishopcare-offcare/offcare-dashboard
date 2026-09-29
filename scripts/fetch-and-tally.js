@@ -756,6 +756,9 @@ async function tallyVoc(msgs, voc, channelId, opts) {
   /* 처리내역 규칙 이관 예산 — 최근 3일 밖(재확인 날짜 + 아래 이관 단계)에서 새로 읽는 답글 수의 실행당 상한.
      2026-09-29 기준 과거 note 약 14,000건. 실행마다 조금씩 줄어든다. */
   const noteMigBudget = { left: 150 };
+  /* 이관 진행 기록 — CI 로그는 인증 없이 못 보므로 결과를 데이터에 남긴다(대시보드는 안 읽는다) */
+  const noteMigLog = { at: nowKstStamp() };
+  data.noteMig = noteMigLog;
   // 처리내역(note) 수집은 MAX_REPLY_FETCH 상한을 공유하므로, 최신 날짜부터 처리해
   // 사람들이 가장 많이 보는 '오늘' 건의 note가 상한 소진 전에 먼저 채워지도록 한다.
   for (const dstr of [...workDates].reverse()) {
@@ -835,6 +838,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
           && (((data.days[d] || {}).done) || []).some((it) => it.nv !== NOTE_RULE && isPri(it)))
         .sort().reverse();
       let priChanged = 0, priItems = 0;
+      const priLog = { days: days.length, failed: [] };
       for (const d of days) {
         if (priBudget.left <= 0) break;
         const items = data.days[d].done;
@@ -842,14 +846,13 @@ async function tallyVoc(msgs, voc, channelId, opts) {
         const b = boundsOf(d), old = {};
         for (const it of items) old[noteKey(it)] = it.note || '';
         const st = {}, tmpDone = [];
-        let failed = false;
         for (const ch of workChs) {
           let msgs;
+          /* 채널 하나가 실패해도 그 날을 통째로 건너뛰지 않는다 — 그 채널 건만 다음 실행으로 */
           try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
-          catch (e) { failed = true; break; }
+          catch (e) { priLog.failed.push(d + ' ' + ch.label + ':' + e.message); continue; }
           await tallyInto(msgs, ch, {}, [], tmpDone, { priorNotes: {}, oldNotes: old, state: st, onlyKeys: only, budget: priBudget });
         }
-        if (failed) { console.log(`  [처리내역 우선 이관 ${d}] 슬랙 읽기 실패 — 다음 실행에서`); continue; }
         const got = {};
         for (const it of tmpDone) got[noteKey(it)] = it.note || '';
         for (const it of items) {
@@ -860,6 +863,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
         }
       }
       if (days.length) console.log(`[처리내역 우선 이관] ${PRIORITY_BRANDS.join('·')} ${days.length}일 · ${priItems}건 확정 · note ${priChanged}건 변경`);
+      noteMigLog.pri = Object.assign(priLog, { items: priItems, changed: priChanged, budgetLeft: priBudget.left });
     }
   }
 
@@ -874,6 +878,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
         && (((data.days[d] || {}).done) || []).some((it) => it.note))
       .sort().reverse();                         // 최근 날짜부터 — 가장 많이 보는 쪽
     let migDays = 0, migChanged = 0;
+    const migFailed = [];
     for (const d of todo) {
       if (noteMigBudget.left <= 0) break;
       const b = boundsOf(d);
@@ -883,15 +888,15 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       let failed = false, gotMsgs = 0;
       for (const ch of workChs) {
         let msgs;
+        /* 채널 하나가 실패해도 나머지 채널 건은 진행한다 — 그 날은 미완료로 남겨 다음 실행에서 마저 */
         try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
-        catch (e) { failed = true; break; }
+        catch (e) { failed = true; st.incomplete = true; migFailed.push(d + ' ' + ch.label + ':' + e.message); continue; }
         gotMsgs += msgs.length;
         await tallyInto(msgs, ch, {}, [], tmpDone, { priorNotes: v2Notes(data.days[d].done), oldNotes: old, state: st,
                                                      reuseEmpty: true, budget: noteMigBudget });
       }
-      if (failed) { console.log(`  [처리내역 이관 ${d}] 슬랙 읽기 실패 — 다음 실행에서`); continue; }
       data.noteV = data.noteV || {};
-      if (!gotMsgs) {                            // 슬랙 보존기간 밖 — 다시 읽을 수 없다
+      if (!gotMsgs && !failed) {                            // 슬랙 보존기간 밖 — 다시 읽을 수 없다
         data.noteV[d] = 'unreachable';
         console.log(`  [처리내역 이관 ${d}] 슬랙에 메시지가 없음(보존기간 밖) — 기존 처리내역 유지`);
         continue;
@@ -907,6 +912,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     }
     const left = todo.filter((d) => (data.noteV || {})[d] !== NOTE_RULE && (data.noteV || {})[d] !== 'unreachable').length;
     if (todo.length) console.log(`[처리내역 이관] ${migDays}일 처리 · note ${migChanged}건 변경 · 남은 날짜 ${left}일`);
+    noteMigLog.mig = { days: migDays, changed: migChanged, leftDays: left, budgetLeft: noteMigBudget.left, failed: migFailed.slice(0, 20) };
   }
 
   // ===== 설치 OB 재집계 (구글시트) =====
