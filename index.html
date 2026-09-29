@@ -1999,6 +1999,7 @@ function nightItems(dates){
   dates.forEach(d=>{
     ((slackDay(d)||{}).done||[]).forEach(x=>{ if(isNightTime(x.time)) out.push({time:x.time,store:x.store,biz:x.biz,emp:x.emp,cat:x.cat,date:d,st:'처리'}); });
     ((slackDay(d)||{}).pending||[]).forEach(x=>{ if(isNightTime(x.time)){ const ab=(x.reasons||[]).some(r=>/부재/.test(r)); out.push({time:x.time,store:x.store,biz:x.biz,emp:x.handler,cat:x.cat,date:d,st:ab?'부재':'확인필요'}); } });
+    ((slackDay(d)||{}).absent||[]).forEach(x=>{ if(isNightTime(x.time)) out.push({time:x.time,store:x.store,biz:x.biz,emp:x.handler,cat:x.cat,date:d,st:'부재'}); });
   });
   allSlackDates().forEach(d=>{ const v=(slackDay(d)||{}).voc; if(!v)return; [...(v.alerts||[]),...(v.praises||[])].forEach(x=>{ const e=vocEmpAt(d,x), dd=vocDoneAt(d,x); if(e&&vocCredited(dd)&&set.has(dd)&&isNightTime(x.time)) out.push({time:x.time,store:x.store,biz:x.storeId,emp:e,cat:'voc',date:dd,st:'처리'}); }); });
   return out;
@@ -2131,6 +2132,8 @@ function ovVocDone(dates){
   return {cnt, byEmp};
 }
 function ovVocAlerts(dates){ const a=aggVoc(dates).alerts; return ovShift==='night'? a.filter(x=>isNightTime(x.time)) : a; }
+/* 2차 부재(재부재·연락 불가) — 종결 건이라 미처리·누락 랭킹·직원 실적에는 없고 '원격 총 건수'에만 센다 (days[d].absent) */
+function ovAbsent2Raw(dates){ const out=[]; dates.forEach(d=>((slackDay(d)||{}).absent||[]).forEach(p=>{ if(ovShift!=='night'||isNightTime(p.time)) out.push(p); })); return out; }
 function ovPendingRaw(dates){ const out=[]; dates.forEach(d=>((slackDay(d)||{}).pending||[]).forEach(p=>{ if(ovShift!=='night'||isNightTime(p.time)) out.push(p); })); return out; }
 /* 설치 OB — 구글시트 '⚒️설치일정 확인해주세요' 의 D열(확인여부)에 담당자 이름이 적힌 행.
  * slack-data.js days[d].ob = {count, byEmp:{}, items:[{key,handler,status,recvDate,planDate,link}]}
@@ -5093,10 +5096,10 @@ function renderOverview(){
   // 부재 미처리(1차부재)도 '원격 총 건수'에 포함 — 해당 기간 각 날짜의 부재 pending 합
   const pendCntOf = ds => ovPendingRaw(ds).length;
   const absCntOf = ds => ovPendingRaw(ds).filter(p=>(p.reasons||[]).some(r=>/부재/.test(r))).length;
-  const absentCnt = absCntOf(viewDates);
-  const confirmCnt = pendCntOf(viewDates) - absentCnt;   // 확인필요(부재 아닌 미처리)
-  const grandAll = grandProc + pendCntOf(viewDates);      // 원격 총 건수 = 처리 + 부재 + 확인필요(전체 미처리)
-  const grandAllPrev = grandProcPrev + pendCntOf(prevDates);
+  const absentCnt = absCntOf(viewDates) + ovAbsent2Raw(viewDates).length;   // 1차(미처리로 남은) + 2차(종결) 부재
+  const confirmCnt = pendCntOf(viewDates) - absCntOf(viewDates);   // 확인필요(부재 아닌 미처리)
+  const grandAll = grandProc + pendCntOf(viewDates) + ovAbsent2Raw(viewDates).length;      // 원격 총 건수 = 처리 + 부재(1·2차) + 확인필요
+  const grandAllPrev = grandProcPrev + pendCntOf(prevDates) + ovAbsent2Raw(prevDates).length;
   // 인입유형(온라인/오프라인) — 전체 원격 건 기준. 미기재(미상)는 온라인으로 합산(팀 정책) — 기존 저장분의 unknown도 포함
   const intakeAgg = viewDates.reduce((a,d)=>{ const ik=(slackDay(d)||{}).intake||{}; a.online+=(ik.online||0)+(ik.unknown||0); a.offline+=ik.offline||0; return a; }, {online:0,offline:0});
   const intakeTot = intakeAgg.online + intakeAgg.offline;
@@ -5365,6 +5368,7 @@ function showDoneDetail(mode, key){
     pushVocDone();
     pushOb();
     dates.forEach(d=>((slackDay(d)||{}).pending||[]).forEach(x=>{ const ab=(x.reasons||[]).some(r=>/부재/.test(r)); items.push({time:x.time,store:x.store,biz:x.biz,emp:x.handler,cat:x.cat,date:d,st:ab?'부재':'확인필요'}); }));
+    dates.forEach(d=>((slackDay(d)||{}).absent||[]).forEach(x=>items.push({time:x.time,store:x.store,biz:x.biz,emp:x.handler,cat:x.cat,date:d,st:'부재'})));   // 2차 부재
   }
   // 관리자 보정 — 표 숫자에는 이미 들어가 있으므로 상세에도 같이 보여야 합이 맞는다.
   // 상호 칸에 '⚖️ 보정 +70건 · 사유' 로 넣어 무엇 때문에 늘었는지 바로 읽히게 한다.
@@ -5471,7 +5475,7 @@ function renderRespModal(){
 // 전체 처리 추이 (기간 내 일별 전 카테고리 합계)
 function overviewTrend(dates){
   const NIGHT=ovShift==='night';
-  const vals=dates.map(d=>{ if(NIGHT) return nightItems([d]).length; const ab=((slackDay(d)||{}).pending||[]).filter(p=>(p.reasons||[]).some(r=>/부재/.test(r))).length; const ob=obCnt([d])||0; return WORK_CATS.reduce((a,c)=>a+sumRange(c.key,[d]),0)+ob+ab; });   // 업무 + 설치 OB + 부재 미처리 = 원격 총 건수와 동일 기준 (VOC 제외 · 야간이면 야간 항목 수)
+  const vals=dates.map(d=>{ if(NIGHT) return nightItems([d]).length; const ab=((slackDay(d)||{}).pending||[]).filter(p=>(p.reasons||[]).some(r=>/부재/.test(r))).length+((slackDay(d)||{}).absent||[]).length; const ob=obCnt([d])||0; return WORK_CATS.reduce((a,c)=>a+sumRange(c.key,[d]),0)+ob+ab; });   // 업무 + 설치 OB + 부재 미처리 = 원격 총 건수와 동일 기준 (VOC 제외 · 야간이면 야간 항목 수)
   const mx=Math.max(1,...vals);
   // 카드 가로폭을 꽉 채우도록 viewBox 고정 + width 100% (빈 여백 없이 막대를 두껍게)
   const W=760, H=230, pad=26, gap=(W-pad*2)/dates.length, bw=Math.min(76, gap*0.72);

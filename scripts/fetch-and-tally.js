@@ -416,7 +416,9 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
       done.push({ time, store, biz, cat: catKey, emp: who, req, hw, urgent, intake, note: await grabNote(m, catKey, time, store, biz) });
     } else if (hasAbsent && !invalidPost) {  // 완료·카테고리 이모지 없이 '부재만' (확인+X 잘못올린글 제외)
       // 2차부재(재부재=연락 불가)는 확인필요에서 제외, 1차부재만 — 그것도 1시간 지나야 확인필요로 적재
-      if (absTag !== '2차 부재' && ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: doer || '미지정', cat: pendCat, intake, reasons: [absTag] });
+      // 2차부재는 종결 건이라 미처리·누락 랭킹에는 넣지 않지만 인입 건이므로 '원격 총 건수'에는 센다 → days[d].absent
+      if (absTag === '2차 부재') { if (opts && opts.absent) opts.absent.push({ time, store, biz, handler: doer || '미지정', cat: pendCat, intake }); }
+      else if (ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: doer || '미지정', cat: pendCat, intake, reasons: [absTag] });
     } else if (toucher && !invalidPost) { // 착수만 찍힘 → 1시간 지나면 '확인 후 미완료' (착수+X 잘못올린글 제외)
       if (ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: toucher, cat: pendCat, intake, reasons: ['확인 후 미완료'] });
     }
@@ -763,7 +765,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
   // 사람들이 가장 많이 보는 '오늘' 건의 note가 상한 소진 전에 먼저 채워지도록 한다.
   for (const dstr of [...workDates].reverse()) {
     const b = boundsOf(dstr);
-    const counts = {}, pending = [], done = [];
+    const counts = {}, pending = [], done = [], absent = [];
     // 이전 실행에서 수집한 처리내역 보존(재호출 방지) — done 항목 key: time|store|biz|cat
     const priorNotes = {};
     for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.note) priorNotes[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note; }
@@ -778,7 +780,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
       catch (e) { console.error(`  ⚠ [${ch.label} ${dstr}] 읽기 실패(${e.message}) — 건너뜀`); failedChs.push(ch.label); continue; }
       const r = await tallyInto(msgs, ch, counts, pending, done,
-        { priorNotes: noteDone ? priorNotes : v2Notes((data.days[dstr] || {}).done), oldNotes: priorNotes, state: noteState,
+        { absent, priorNotes: noteDone ? priorNotes : v2Notes((data.days[dstr] || {}).done), oldNotes: priorNotes, state: noteState,
           reuseEmpty: !noteDone && dstr < wdStart,
           budget: (dstr < wdStart && !backfillFrom) ? noteMigBudget : null });   // 최근 3일은 예산 없이 바로
       if (dstr === targetDate) trackResp(data, msgs, ch);   // 오늘 인입 건만 응답시간 폴링 추적
@@ -790,8 +792,8 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     // 아무것도 못 읽었는데 원래 데이터가 있던 날이면 덮어쓰지 않는다.
     // 채널 읽기가 전부 실패했거나(위 catch 는 continue 라 빈 값으로 내려온다) 슬랙 히스토리 보존기간이
     // 지난 오래된 날짜를 다시 훑는 경우, 그대로 대입하면 그 날 집계가 통째로 지워진다.
-    const gotNothing = !done.length && !pending.length && !Object.keys(counts).length;
-    const hadSomething = (de.done && de.done.length) || (de.pending && de.pending.length) || (de.counts && Object.keys(de.counts).length);
+    const gotNothing = !done.length && !pending.length && !absent.length && !Object.keys(counts).length;
+    const hadSomething = (de.done && de.done.length) || (de.pending && de.pending.length) || (de.absent && de.absent.length) || (de.counts && Object.keys(de.counts).length);
     if (gotNothing && hadSomething) {
       console.log(`  [업무 ${dstr}] 읽은 내용 없음 — 기존 집계 보존(덮어쓰기 생략)`);
       continue;
@@ -802,11 +804,14 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       console.log(`  [업무 ${dstr}] ${failedChs.join('·')} 읽기 실패 — 기존 집계 보존(덮어쓰기 생략)`);
       continue;
     }
-    // 인입유형 집계 — 전체 원격 건(완료 done + 미처리 pending) 기준 온라인/오프라인/미상
+    // 인입유형 집계 — 전체 원격 건(완료 done + 미처리 pending + 2차부재 absent) 기준 온라인/오프라인/미상
     const intakeAgg = { online: 0, offline: 0, unknown: 0 };
     for (const it of done) intakeAgg[it.intake || 'unknown']++;
     for (const it of pending) intakeAgg[it.intake || 'unknown']++;
+    for (const it of absent) intakeAgg[it.intake || 'unknown']++;
+    absent.sort((a, b) => (b.time || '').localeCompare(a.time || ''));
     de.counts = counts; de.pending = pending; de.done = done; de.intake = intakeAgg;
+    if (absent.length) de.absent = absent; else delete de.absent;
     finishNotes(data, dstr, done, noteState);
     if (latest && latest > (de.updatedAt || '')) de.updatedAt = latest;
     if (!de.updatedAt) de.updatedAt = latest || '';
