@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2653,
- "updatedAt": "2026-09-29 14:38",
+ "version": 2654,
+ "updatedAt": "2026-09-29 14:42",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,45 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "나주곰탕.jpg",
+     "fid": "F0C56BAR12N",
+     "from": "댓글",
+     "path": "menu-files/1790660222_115419-0.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "얼큰소머리국밥.jpg",
+     "fid": "F0C4R46CXAB",
+     "from": "댓글",
+     "path": "menu-files/1790660222_115419-1.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "제육덮밥 (4).png",
+     "fid": "F0C51B0C5K7",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "갈비탕.jpg",
+     "fid": "F0C56BGPVSN",
+     "from": "댓글",
+     "path": "menu-files/1790660222_115419-3.jpg",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790660225.632329",
+   "replies": [
+    "용량 너무 커서 다운 어려우면 이메일 확인 GO"
+   ],
+   "rc": 3,
+   "lr": "1790660342.116589",
    "rfx": 3,
    "status": "wait",
    "handler": null,
