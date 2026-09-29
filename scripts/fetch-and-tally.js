@@ -343,6 +343,8 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     const ids = workerIds(m);
     if (!ids.size) { fresh.add(key); return ''; }          // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다
     /* 과거 날짜 이관은 실행당 예산 안에서만 — 한 번에 다 읽으면 호출 제한에 걸려 실행이 길어지고 실시간 집계가 밀린다 */
+    /* 우선 이관(특정 브랜드 건만) — 나머지는 기존 값 그대로 두고 확정하지 않는다 */
+    if (opts && opts.onlyKeys && !opts.onlyKeys.has(key)) { state.incomplete = true; return oldNotes[key] || ''; }
     const budget = opts && opts.budget;
     if (budget) {
       if (budget.left <= 0) { state.incomplete = true; return oldNotes[key] || ''; }
@@ -807,6 +809,56 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     if (!de.updatedAt) de.updatedAt = latest || '';
     data.days[dstr] = de;
     console.log(`  [업무 ${dstr}] 완료 ${completed} · 확인필요 ${pending.length} · 외주 ${externCount} · 중복제외 ${dupTotal}`);
+  }
+
+  // ===== 처리내역 우선 이관 — 고객사에 공유되는 브랜드부터 =====
+  // 2026-09-29 요청: 컴포즈커피(고객사 공유 대시보드)를 먼저. 그 브랜드 건만 골라 댓글을 읽는다.
+  // 브랜드 판별은 대시보드와 같은 franchise/brand-match.js 를 그대로 쓴다(규칙 복사 금지 — 숫자가 어긋난다).
+  if (!backfillFrom) {
+    const PRIORITY_BRANDS = ['컴포즈커피'];
+    const priBudget = { left: 40 };   // 일반 이관 예산과 별도 — 재확인 날짜가 예산을 다 써도 우선 건은 돈다
+    let BM = null, bIdx = null;
+    try {
+      const vm = require('vm'), pathM = require('path');
+      const sb = { window: {} }; sb.window.window = sb.window; vm.createContext(sb);
+      for (const f of ['brands.js', 'brand-match.js'])
+        vm.runInContext(fs.readFileSync(pathM.join(__dirname, '..', 'franchise', f), 'utf8'), sb, { filename: f });
+      BM = sb.window.BrandMatch; bIdx = BM.buildIndex(sb.window.FRANCHISE_BRANDS);
+    } catch (e) { console.log(`  [처리내역 우선 이관] 브랜드 규칙 로드 실패(${e.message}) — 건너뜀`); }
+    if (BM) {
+      const isPri = (it) => { const m = BM.matchBrand(bIdx, it.store || ''); return !!(m && PRIORITY_BRANDS.includes(m.brand.name)); };
+      const inRun = new Set(workDates);
+      const days = Object.keys(data.days).filter((d) => !inRun.has(d)
+          && (data.noteV || {})[d] !== NOTE_RULE && (data.noteV || {})[d] !== 'unreachable'
+          && (((data.days[d] || {}).done) || []).some((it) => it.nv !== NOTE_RULE && isPri(it)))
+        .sort().reverse();
+      let priChanged = 0, priItems = 0;
+      for (const d of days) {
+        if (priBudget.left <= 0) break;
+        const items = data.days[d].done;
+        const only = new Set(items.filter((it) => it.nv !== NOTE_RULE && isPri(it)).map(noteKey));
+        const b = boundsOf(d), old = {};
+        for (const it of items) old[noteKey(it)] = it.note || '';
+        const st = {}, tmpDone = [];
+        let failed = false;
+        for (const ch of workChs) {
+          let msgs;
+          try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
+          catch (e) { failed = true; break; }
+          await tallyInto(msgs, ch, {}, [], tmpDone, { priorNotes: {}, oldNotes: old, state: st, onlyKeys: only, budget: priBudget });
+        }
+        if (failed) { console.log(`  [처리내역 우선 이관 ${d}] 슬랙 읽기 실패 — 다음 실행에서`); continue; }
+        const got = {};
+        for (const it of tmpDone) got[noteKey(it)] = it.note || '';
+        for (const it of items) {
+          const k = noteKey(it);
+          if (!only.has(k) || !(st.fresh && st.fresh.has(k))) continue;
+          if (got[k] !== (it.note || '')) priChanged++;
+          it.note = got[k]; it.nv = NOTE_RULE; priItems++;
+        }
+      }
+      if (days.length) console.log(`[처리내역 우선 이관] ${PRIORITY_BRANDS.join('·')} ${days.length}일 · ${priItems}건 확정 · note ${priChanged}건 변경`);
+    }
   }
 
   // ===== 처리내역 규칙 이관 (과거 날짜의 note 만 새 규칙으로) =====
