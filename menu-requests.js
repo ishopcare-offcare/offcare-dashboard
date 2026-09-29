@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2662,
- "updatedAt": "2026-09-29 15:50",
+ "version": 2663,
+ "updatedAt": "2026-09-29 15:54",
  "days": 30,
  "items": [
   {
@@ -420,6 +420,80 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790663818178039"
+  },
+  {
+   "ts": "1790662008.740759",
+   "date": "2026-09-29",
+   "time": "15:06",
+   "store": "영거",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 영거+메뉴등록 요청\n* 옵션같은 경우 메뉴별 설정이 달라서 나중에 직접 처리하겠습니다.\n \n 카테고리와 메뉴만 설정해 주시면 됩니다\n \n ---------- Forwarded message ---------\n 보낸사람: 상품메뉴등록(솔루션운영팀) <···>\n Date: 2026년 9월 29일 (화) 오후 1:48\n Subject: [비버 매장연구소] 영거 매장 메뉴 파일\n To: <···>\n \n \n 안녕하세요.\n \n 비버 매장연구소입니다.\n \n 요청주신 매장에 등록된 메뉴 파일 전달\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ebc4a03b09900>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C4RHQ7WDD",
+     "from": "댓글",
+     "path": "menu-files/1790662008_740759-0.png",
+     "kind": "other",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "옵션 외 등록 완료"
+   ],
+   "rc": 2,
+   "lr": "1790664565.493329",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ebc4a03b09900",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790662008740759"
+  },
+  {
+   "ts": "1790662008.437779",
+   "date": "2026-09-29",
+   "time": "15:06",
+   "store": "영거 ( )",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 영거+메뉴등록 요청 (이미지)\n* ---------- Forwarded message ---------\n 보낸사람: 상품메뉴등록(솔루션운영팀) <···>\n Date: 2026년 9월 28일 (월) 오후 12:44\n Subject: [비버 매장연구소] 영거 매장 메뉴 이미지 파일\n To: <···>\n \n \n 안녕하세요.\n \n 비버 매장연구소입니다.\n \n 요청주신 매장에 등록된 메뉴 이미지 전달 드립니다.\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ebc5b1ba6266c>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C58T90C8H",
+     "from": "댓글",
+     "path": "menu-files/1790662008_437779-0.png",
+     "kind": "other",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "옵션 외 등록 완료"
+   ],
+   "rc": 2,
+   "lr": "1790664570.818159",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ebc5b1ba6266c",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790662008437779"
   },
   {
    "ts": "1790661177.192909",
@@ -1416,6 +1490,179 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790652508501549"
   },
   {
+   "ts": "1790651209.293689",
+   "date": "2026-09-29",
+   "time": "12:06",
+   "store": "백연전골 관련",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 백연전골  메뉴수정관련\n관련\n*내용:*  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0eb1dabbc163c2>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C4QFKMBTR",
+     "from": "댓글",
+     "path": "menu-files/1790651209_293689-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사류",
+       "name": "한우사골국밥(사골/얼큰)",
+       "price": 9900
+      },
+      {
+       "category": "식사류",
+       "name": "제육백반",
+       "price": 9900
+      },
+      {
+       "category": "식사류",
+       "name": "제육추가",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "콩국수",
+       "price": 10000
+      },
+      {
+       "category": "식사류",
+       "name": "콩국수(곱)",
+       "price": 13000
+      },
+      {
+       "category": "식사류",
+       "name": "떡국",
+       "price": 10000
+      },
+      {
+       "category": "식사류",
+       "name": "떡국(곱)",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "떡만둣국",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "떡만둣국(곱)",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C608HJRME",
+     "from": "댓글",
+     "path": "menu-files/1790651209_293689-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "치즈계란말이(소)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "치즈계란말이(대)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "해물라면",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "소갈비찜 전골(소)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "소갈비찜 전골(중)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "소갈비찜 전골(대)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "고기추가",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "제육백반",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "제육추가",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "콩국수",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "콩국수",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "콩국수(곱)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "떡국",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "떡국(곱)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "떡만둣국",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "떡만둣국(곱)",
+       "price": 0
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "솔라피 발송 완료",
+    "···\n백년전골"
+   ],
+   "rc": 4,
+   "lr": "1790653732.946739",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0eb1dabbc163c2",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790651209293689"
+  },
+  {
    "ts": "1790646200.190279",
    "date": "2026-09-29",
    "time": "10:43",
@@ -1440,10 +1687,10 @@ window.MENU_REQUESTS = {
    "ts": "1790645508.847849",
    "date": "2026-09-29",
    "time": "10:31",
-   "store": "명 : 면과육 사업자번호 : 592-21-02496  메뉴 등록 요청드립",
+   "store": "면과육",
    "biz": "5922102496",
    "pos": "",
-   "content": "*  대용량 첨부 1개 200MB  천안불당동점.zip 209585543 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능      안녕하세요   부산아지매국밥 운영기획팀 이승미 주임입니다.  상호명 : 면과육 사업자번호 : ···  메뉴 등록 요청드립니다.  ───────────────────────── (주) 제이엘푸드　　운영기획팀　 / 　주임　이승미 서울특별시 송파구 법원로 92, 1204호 M. ···           E. <mailto:···|···> \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0eac68893658ee>)",
+   "content": "[📧 메일] 제목: ··· 메뉴신청\n*  대용량 첨부 1개 200MB  천안불당동점.zip 209585543 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능      안녕하세요   부산아지매국밥 운영기획팀 이승미 주임입니다.  상호명 : 면과육 사업자번호 : ···  메뉴 등록 요청드립니다.  ───────────────────────── (주) 제이엘푸드　　운영기획팀　 / 　주임　이승미 서울특별시 송파구 법원로 92, 1204호 M. ···           E. <mailto:···|···> \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0eac68893658ee>)",
    "special": "",
    "drive": [],
    "files": 0,
@@ -1454,6 +1701,11 @@ window.MENU_REQUESTS = {
    ],
    "rc": 1,
    "lr": "1790646291.855529",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0eac68893658ee",
+    "big": 0
+   },
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -1487,6 +1739,32 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790645367540739"
+  },
+  {
+   "ts": "1790645208.316569",
+   "date": "2026-09-29",
+   "time": "10:26",
+   "store": "에인킨드 토스 관련",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: [재요청]에인킨드_토스 메뉴 등록 관련 파일\n* 안녕하세요. 에인킨드입니다.\n \n 토스에 등록되지 않은 부분은 다시 노란색 음영 표시하여 재요청드립니다.\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0eac3eedbb12d1>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0eac3eedbb12d1",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790645208316569"
   },
   {
    "ts": "1790643697.582109",
@@ -2072,6 +2350,32 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790589741744639"
   },
   {
+   "ts": "1790588508.641419",
+   "date": "2026-09-28",
+   "time": "18:41",
+   "store": "에인킨드 토스 관련",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 에인킨드_토스 메뉴 등록 관련 파일\n* 안녕하세요. 에인킨드입니다.\n \n 토스 메뉴 등록 관련 파일 송부드립니다.\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0e76217aed3724>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0e76217aed3724",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790588508641419"
+  },
+  {
    "ts": "1790588307.050009",
    "date": "2026-09-28",
    "time": "18:38",
@@ -2137,6 +2441,32 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790585823649619"
+  },
+  {
+   "ts": "1790582809.049709",
+   "date": "2026-09-28",
+   "time": "17:06",
+   "store": "데이리프 ···",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 데이리프 ··· 메뉴 수정요청\n요청\n*내용:* 사업자 등록번호 ···\n \n 데이리프 메뉴 수정 요청드립니다.\n \n 파일 상 붉은색 폰트로 표기한 항목이 수정할 항목입니다.\n \n 샌드위치, 샐러드, 프로틴박스. 들기름 메밀면, 웜샐러드(구운야채찜), 웜포케 선택시 옵션사항으로\n 등록이 필요합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0e70d17a993e88>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0e70d17a993e88",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790582809049709"
   },
   {
    "ts": "1790582190.088589",
@@ -4369,6 +4699,35 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790308208864679"
   },
   {
+   "ts": "1790305908.338549",
+   "date": "2026-09-25",
+   "time": "12:11",
+   "store": "텍사스 판 보내드려요. 오늘 오후 5시 이전까지 부탁 드리겠습니다",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 텍사스 메뉴판 보내드려요. 오늘 오후 5시 이전까지 부탁 드리겠습니다\n*  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0d68b862cd6e60>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "혹시 ··· 인가욥!",
+    "넴 맞습니다~!"
+   ],
+   "rc": 2,
+   "lr": "1790308243.075399",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0d68b862cd6e60",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790305908338549"
+  },
+  {
    "ts": "1790224243.234329",
    "date": "2026-09-24",
    "time": "13:30",
@@ -6542,6 +6901,32 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790129864653649"
   },
   {
+   "ts": "1790092008.174489",
+   "date": "2026-09-23",
+   "time": "00:46",
+   "store": "제야(ZEYA) 내용입니다",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 제야(ZEYA) 메뉴 내용입니다\n입니다\n*내용:*  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c9c87b91ad549>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c9c87b91ad549",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790092008174489"
+  },
+  {
    "ts": "1790069274.048279",
    "date": "2026-09-22",
    "time": "18:27",
@@ -7848,6 +8233,125 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790041039194019"
+  },
+  {
+   "ts": "1790039208.231169",
+   "date": "2026-09-22",
+   "time": "10:06",
+   "store": "문정점 판",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: Fwd: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n* ---------- Forwarded message ---------\n 보낸사람: 최봄이 <···>\n Date: 2026년 9월 21일 (월) 오후 6:21\n Subject: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n To: <···>\n Cc: 유정선 <···>, 강현우 <···>\n \n \n *다운로드 기한이 있는 첨부파일 5개* (13MB) 7일 보관 / 100회 다운로드\n [image: etc] 플레\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c6a1b736a9a9f>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c6a1b736a9a9f",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790039208231169"
+  },
+  {
+   "ts": "1790038908.859219",
+   "date": "2026-09-22",
+   "time": "10:01",
+   "store": "문정점 판",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: Fwd: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n* ---------- Forwarded message ---------\n 보낸사람: 최봄이 <···>\n Date: 2026년 9월 21일 (월) 오후 6:38\n Subject: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n To: <···>\n Cc: 유정선 <···>, 강현우 <···>\n \n \n 안녕하세요, 담당자님 이전 전달드린 메일에서\n 문정점의 스몰굿딸기는 해당이미지로 부탁드립니다.\n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c6a1bc122863b>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c6a1bc122863b",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038908859219"
+  },
+  {
+   "ts": "1790038908.506169",
+   "date": "2026-09-22",
+   "time": "10:01",
+   "store": "마이요거트립",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: Fwd: 마이요거트립 메뉴 사진\n* ---------- Forwarded message ---------\n 보낸사람: 조민희 <···>\n Date: 2026년 9월 22일 (화) 오전 8:42\n Subject: 마이요거트립 메뉴 사진\n To: <···>\n \n \n *다운로드 기한이 있는 첨부파일 1개* (71MB) 7일 보관 / 100회 다운로드\n [image: zip] 마이요거트립 메뉴 사진.zip 71MB\n <<https://bigfile.mail.worksmobile.com/storage/down>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c6a1e21e75a7c>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c6a1e21e75a7c",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038908506169"
+  },
+  {
+   "ts": "1790038608.680899",
+   "date": "2026-09-22",
+   "time": "09:56",
+   "store": "스몰굿 컴퍼니 마이요거트립",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 스몰굿 컴퍼니 / 마이요거트립 메뉴사진\n* 규빈님 안녕하세요~\n \n 이메일로 한 번에 내려받는게 편하실 것 같아\n \n    - 스몰굿커피 문정점\n    - 마이요거트립\n \n 메뉴 사진 송부 드립니다.\n  [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달.eml\n <https://drive.google.com/file/d/18iAMn3DI6IvYBaDtw0UbV7z9SO9_vXDO/view?usp=drive_web>\n 감사합니다.\n \n 장혜인 드림\n \n \n *㈜아이샵케어 *\n \n \n *장혜인* Offline Sales Team\n \n \n *T *···  *M *010-\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c698e7403a7e4>)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/18iAMn3DI6IvYBaDtw0UbV7z9SO9_vXDO/view?usp=drive_web"
+   ],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C4B6EHLSU",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "요상요상..!",
+    "요상요상합니다!",
+    "어어엇",
+    "님 이메일 3개 각각 전달로 재발송 드렸습니당!!!!!!  확인 부탁드려용~"
+   ],
+   "rc": 5,
+   "lr": "1790038870.283829",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c698e7403a7e4",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038608680899"
   },
   {
    "ts": "1790038038.100289",
@@ -11972,6 +12476,32 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789888668603149"
+  },
+  {
+   "ts": "1789873908.192519",
+   "date": "2026-09-20",
+   "time": "12:11",
+   "store": "청연",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 청연 메뉴이미지\n*  대용량 첨부 1개 190MB  ai이미지컷.zip 199123954 ~ 2026/10/20 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    청연  메뉴 이미지  문구 보내드립니다, 감사합니다. \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0bcc9a83205fce>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0bcc9a83205fce",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789873908192519"
   },
   {
    "ts": "1789873460.802789",
@@ -18020,10 +18550,10 @@ window.MENU_REQUESTS = {
    "ts": "1789631808.504719",
    "date": "2026-09-17",
    "time": "16:56",
-   "store": "The Prelude Shop 전화번호: <tel:010-2327-295",
+   "store": "The Prelude Shop",
    "biz": "7288103778",
    "pos": "토스포스",
-   "content": "*  사업자번호: ··· 사업자명: 주식회사 프렐류드 매장명: The Prelude Shop 전화번호: <tel:···|···> 포스 프로그램: 토스포스  수정할 메뉴: 기존에 이지포스를 6년간 사용했습니다. 이지포스에 등록되어 있는 상품들을 토스 포스기에 등록해야 합니다. 상품은 큰 카테고리로 나뉘면 좋겠습니다. 아래의 이미지를 참고해주세요!    <tel:···|···> 정다은 대표.     \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ae5cd1e599ecf>)",
+   "content": "[📧 메일] 제목: 메뉴 등록 신청 [사업자번호: ···] (파일첨부)\n*  사업자번호: ··· 사업자명: 주식회사 프렐류드 매장명: The Prelude Shop 전화번호: <tel:···|···> 포스 프로그램: 토스포스  수정할 메뉴: 기존에 이지포스를 6년간 사용했습니다. 이지포스에 등록되어 있는 상품들을 토스 포스기에 등록해야 합니다. 상품은 큰 카테고리로 나뉘면 좋겠습니다. 아래의 이미지를 참고해주세요!    <tel:···|···> 정다은 대표.     \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ae5cd1e599ecf>)",
    "special": "",
    "drive": [],
    "files": 0,
@@ -18032,6 +18562,11 @@ window.MENU_REQUESTS = {
    "replies": [],
    "rc": 0,
    "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ae5cd1e599ecf",
+    "big": 0
+   },
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -18614,6 +19149,32 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789631693879589"
+  },
+  {
+   "ts": "1789631508.461549",
+   "date": "2026-09-17",
+   "time": "16:51",
+   "store": "포스기",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 포스기 메뉴 이미지\n* 안녕하세요 매니저님,\n \n 포스기 메뉴 이미지 송부 드립니다\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ae5541a9768eb>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ae5541a9768eb",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789631508461549"
   },
   {
    "ts": "1789630663.510529",
@@ -23110,7 +23671,7 @@ window.MENU_REQUESTS = {
    "store": "미식공감",
    "biz": "5560403473",
    "pos": "토스포스",
-   "content": "토스프로그램->NICE OKPOS프로그램으로 변경,원장 생성 완료 / 토플파 메뉴 그대로 복사 부탁드립니다.\n\n\n <https://w1659946222-hxm266180.slack.com/archives/C08TFJDCA1K/p1789432669237749?thread_ts=···.328569&cid=C08TFJDCA1K|https://w1659946222-hxm266180.slack.com/archives/C08TFJDCA1K/p1789432669237749?thread_ts=···.328569&cid=C08TFJDCA1K>",
+   "content": "토스프로그램->NICE OKPOS프로그램으로 변경,원장 생성 완료 / 토플파 메뉴 그대로 복사 부탁드립니다.\n\n\n <https://w1659946222-hxm266180.slack.com/archives/C08TFJDCA1K/p1789432669237749?thread_ts=···.328569&cid=C08TFJDCA1K|https://w1659946222-hxm266180.slack.com/archives/C08TFJDCA1K/p1789432669237749?thread_ts=···.328569&cid=C08TFJDCA1K>\n<@U09UJ6H2SUR> 님,\n• 여기 토스프로그램->NICE OKPOS프로그램으로 변경,원장은 생성완료입니다.\n• 제가 나이스 OKPOS프로그램 원장만 생성가능 메뉴는 프로그램이 달라서 복사할수없고 메뉴요청방에 올려주셔야 할 것 같습니다.",
    "special": "",
    "drive": [],
    "files": 0,
@@ -26906,6 +27467,32 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789345309537909"
   },
   {
+   "ts": "1789345308.421489",
+   "date": "2026-09-14",
+   "time": "09:21",
+   "store": "봉구스밥버거 부산대점 의뢰",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 봉구스밥버거 부산대점  메뉴 의뢰\n*   대용량파일 2개 (6.11MB) ~ 2026.10.14 (30일 보관, 100회 다운로드 가능)  [image: 파일 다운로드]  <https://attach.mail.kakao.com/bigfile/v1/urls/d/ZmYEOT3iNJ8P6IMImUfqR2amjc8/vAaT3GAUJ4hlEJ0ceido1w>  20260913_103500.jpg  <https://attach.mail.kakao.com/bigfile/v1/urls/d/ZmYEOT3iNJ8P6IMImUfqR2amjc8/vAaT3GAUJ4hlEJ0ceido1w>  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a09d469965fc452>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1789345312.559189",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a09d469965fc452",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789345308421489"
+  },
+  {
    "ts": "1789280815.389539",
    "date": "2026-09-13",
    "time": "15:26",
@@ -27303,6 +27890,32 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789096802999089"
+  },
+  {
+   "ts": "1789093608.594209",
+   "date": "2026-09-11",
+   "time": "11:26",
+   "store": "서민제육 방배점 및 엑셀",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 서민제육 방배점 이미지파일 및 메뉴엑셀\n*  방배점 이미지 파일.zip\n <https://l.jumpto.es/l/ba81104e447d0547bbeaa5d73d7997a3c6b0501b?u=14445247>\n \n \n \n \n [image: Mailsuite] Mailtrack로 발신자에게 알림 전송됨  ·  수신 거부\n <<https://u.list-pref-center.com/en/privacy/opt-out/unsubscribe/d4c8a3740da8ece9b24a04e491e87be0e0765d55/3ae7889b049c9de773c6a87774af2146cfec84a9>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a08e48c1fdc755d>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1789093612.859159",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a08e48c1fdc755d",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789093608594209"
   },
   {
    "ts": "1789093371.739099",
@@ -30320,6 +30933,32 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789011717637199"
   },
   {
+   "ts": "1789008709.129679",
+   "date": "2026-09-10",
+   "time": "11:51",
+   "store": "Summary of failures for Google Apps Scri",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: Summary of failures for Google Apps Script: 메뉴\n* Your script, 메뉴, has recently failed to finish successfully. A summary of  \n the failure(s) is shown below. To configure the triggers for this script,  \n or change your setting for receiving future failure notifications, click  \n here.\n \n \n Start Function Error Message Trigger End\n \n 9/9/26 11:46:47\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a08936a5a8f92bc>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1789008712.038369",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a08936a5a8f92bc",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789008709129679"
+  },
+  {
    "ts": "1789008055.247509",
    "date": "2026-09-10",
    "time": "11:40",
@@ -31343,6 +31982,32 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788951686669869"
   },
   {
+   "ts": "1788950510.751039",
+   "date": "2026-09-09",
+   "time": "19:41",
+   "store": "Possible error on your (Copy) 봇(구글폼) Zap",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: [ALERT] Possible error on your (Copy) 메뉴 봇(구글폼) Zap\n*  We've identified 1 error that needs your review.   ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏   ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏   ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏   ͏  ͏  ͏  ͏  ͏  ͏  ͏ \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a085c20f7884287>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1788950514.619469",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a085c20f7884287",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788950510751039"
+  },
+  {
    "ts": "1788950358.684829",
    "date": "2026-09-09",
    "time": "19:39",
@@ -31957,6 +32622,34 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788947799317149"
   },
   {
+   "ts": "1788947208.832879",
+   "date": "2026-09-09",
+   "time": "18:46",
+   "store": "토스 엑셀 드립니다.",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: [로칼 문정점] 토스 메뉴 등록 엑셀파일 전달드립니다.\n* 안녕하세요, 토스 메뉴 등록 엑셀파일 전달드립니다.\n 기존 '로칼 문정점' 에 등록되어있는 메뉴/옵션은 전체 삭제 후, 새로 등록해주셔도 될 것 같습니다.\n (덮음밥/음료 메뉴 모두 삭제 가능)\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0858e59b6b3e4d>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "이거 내일!"
+   ],
+   "rc": 2,
+   "lr": "1788947356.823379",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0858e59b6b3e4d",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788947208832879"
+  },
+  {
    "ts": "1788946067.496159",
    "date": "2026-09-09",
    "time": "18:27",
@@ -32142,6 +32835,36 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788946067496159"
+  },
+  {
+   "ts": "1788944208.668899",
+   "date": "2026-09-09",
+   "time": "17:56",
+   "store": "토스 드립니다.",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: [로칼 문정점] 토스 메뉴 이미지 전달드립니다.\n*  토스프론트 메뉴 이미지.zip\n <https://drive.google.com/file/d/1pv2ZjP6BiMYz0AifrI0KIj5cbMPRAb02/view?usp=drive_web>\n 토스 '로칼 문정점' 메뉴 이미지 등록 요청드립니다.\n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0855f99e416547>)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1pv2ZjP6BiMYz0AifrI0KIj5cbMPRAb02/view?usp=drive_web"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "내일할꺼임!~!!!!"
+   ],
+   "rc": 2,
+   "lr": "1788946964.676339",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0855f99e416547",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788944208668899"
   },
   {
    "ts": "1788943848.827739",
@@ -32613,6 +33336,32 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788940138399199"
+  },
+  {
+   "ts": "1788939708.491129",
+   "date": "2026-09-09",
+   "time": "16:41",
+   "store": "별에서온 쉐프 판입니다...",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 별에서온 쉐프 메뉴판입니다...\n* 별에서온 쉐프 메뉴판입니다...     <tel:···|···>  잘  부탁드립니다.... \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0851c8e4bca3ae>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1788939711.340419",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0851c8e4bca3ae",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788939708491129"
   },
   {
    "ts": "1788933281.414819",
@@ -39634,6 +40383,36 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788739773355829"
   },
   {
+   "ts": "1788684408.354789",
+   "date": "2026-09-06",
+   "time": "17:46",
+   "store": "(샐러드타임)키오스크",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: (샐러드타임)키오스크메뉴사진\n* ··· 샐러드타임 키오스크 사진 등록 및 메뉴등록 요청 1.키오스크 메뉴등록(사진등록)   유부월남쌈 13,900원 2.스프 탭 : 메뉴등록(사진등록)   고구마스프 6,000원   3.나머지 사진은 탭별 사진이 없는 메뉴 사진 전송입니다. 키오스크에 업로드 시켜주세요   샌드위치탭: 치아바타불고기, 치아바타우삼겹   포케 탭 : 두부포케, 파채삼겹살포케   도시락 탭: 목살도시락, 부채살도시락,소불고기도시락, 파채삼겹도시락, 스팸김치볶음밥도시락   스프: 단호박스프, 양송이스프   소소한간식: 계란찜, 쫀득옥수수, 고\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a075e5ebf6fe1f8>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "메뉴등록완료 솔라피 발송 완료",
+    "민석님 안녕하세요!\n해당 매장 메뉴에서 단호박 스프 사진이 안올라왔다고 하셔서 확인 부탁드립니다",
+    "님\n이미지 등록 완료입니다"
+   ],
+   "rc": 4,
+   "lr": "1788766064.200909",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a075e5ebf6fe1f8",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "done",
+   "handler": "최민석",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788684408354789"
+  },
+  {
    "ts": "1788590182.148629",
    "date": "2026-09-05",
    "time": "15:36",
@@ -41506,10 +42285,10 @@ window.MENU_REQUESTS = {
    "ts": "1788506808.331539",
    "date": "2026-09-04",
    "time": "16:26",
-   "store": "",
+   "store": "그란데커피 사업자 ···",
    "biz": "107",
    "pos": "",
-   "content": "*      010  9228  8026 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31>)",
+   "content": "[📧 메일] 제목: 그란데커피 메뉴등록요청드려요 사업자 107  33  64036\n*      010  9228  8026 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31>)",
    "special": "",
    "drive": [],
    "files": 0,
@@ -41518,6 +42297,11 @@ window.MENU_REQUESTS = {
    "replies": [],
    "rc": 1,
    "lr": "1788506811.198299",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31",
+    "big": 0
+   },
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
@@ -46305,6 +47089,60 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788345427119649"
   },
   {
+   "ts": "1788343908.807789",
+   "date": "2026-09-02",
+   "time": "19:11",
+   "store": "경대반점 진주경상대점 입니다",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 경대반점 진주경상대점 + 메뉴등록요청 입니다\n*  대용량 첨부 1개 19MB  경대반점진주경상대본점 메뉴 이미지.zip 20057892 ~ 2026/10/02 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능        khj6990님의블로그 자기소개가없습니다.   \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06193d04085ae7>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "메뉴 이미지만 첨부되었고 메뉴 정보 없음."
+   ],
+   "rc": 2,
+   "lr": "1788387910.749279",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a06193d04085ae7",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788343908807789"
+  },
+  {
+   "ts": "1788343608.572449",
+   "date": "2026-09-02",
+   "time": "19:06",
+   "store": "경대반점 진주경상대점 입니다",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 경대반점 진주경상대점 + 메뉴등록요청 입니다\n*     khj6990님의블로그 자기소개가없습니다.   \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06193d04085ae7>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1788343611.658809",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a06193d04085ae7",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788343608572449"
+  },
+  {
    "ts": "1788341004.101259",
    "date": "2026-09-02",
    "time": "18:23",
@@ -47323,6 +48161,47 @@ window.MENU_REQUESTS = {
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788332915954999"
   },
   {
+   "ts": "1788332809.863799",
+   "date": "2026-09-02",
+   "time": "16:06",
+   "store": "샐러드타임 정보 변경",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 샐러드타임 메뉴정보 변경\n* \n 나의 iPhone에서 보냄\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a060ef244233b8d>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0BU8V5R4AZ",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "규빈넴 이거 보이십니까..?",
+    "저는 스팸을 해제해도 내용이 안보여요;;;;;; :아오:",
+    "첨부파일 없는듯",
+    "저만 안보이는거 아님 다행!",
+    "파일이나 텍스트 다 빼놓고 보내신듯!",
+    "급하셧네"
+   ],
+   "rc": 7,
+   "lr": "1788336205.998579",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a060ef244233b8d",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788332809863799"
+  },
+  {
    "ts": "1788332029.860289",
    "date": "2026-09-02",
    "time": "15:53",
@@ -48178,7 +49057,7 @@ window.MENU_REQUESTS = {
    "store": "",
    "biz": "837",
    "pos": "",
-   "content": "* 사업자 번호 ···\n 3대천왕 &  와룡갈비\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a05b046daf65612>)",
+   "content": "[📧 메일] 제목: 메뉴등록\n* 사업자 번호 ···\n 3대천왕 &  와룡갈비\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a05b046daf65612>)",
    "special": "",
    "drive": [],
    "files": 0,
@@ -48698,6 +49577,11 @@ window.MENU_REQUESTS = {
    ],
    "rc": 13,
    "lr": "1788242543.133549",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a05b046daf65612",
+    "big": 0
+   },
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
