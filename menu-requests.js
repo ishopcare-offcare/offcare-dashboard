@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2657,
- "updatedAt": "2026-09-29 14:54",
+ "version": 2658,
+ "updatedAt": "2026-09-29 15:02",
  "days": 30,
  "items": [
   {
@@ -18,16 +18,25 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C54LU579C",
+     "from": "댓글",
+     "path": "menu-files/1790661177_192909-0.png",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
    "datt": [],
    "replies": [
     "식사류 >\n활어회덮밥 / 참치회덮밥 추가 16,900원\n회덮밥이랑 같은 그림 사용\n\n튀김 >\n모듬 튀김 18,000원 금액 수정\n감자고로케 4,500원 금액 수정\n왕새우 4,500원 금액 수정\n멘보샤 4,500원 금액 수정\n가라아게 5p 6,000원 금액 수정\n가라아게 20p 22,000원 금액 수정"
    ],
-   "rc": 2,
-   "lr": "1790661225.991659",
+   "rc": 3,
+   "lr": "1790661637.020199",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790661177192909"
   },
   {
@@ -97,10 +106,12 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "용량 너무 커서 다운 어려우면 이메일 확인 GO"
+    "용량 너무 커서 다운 어려우면 이메일 확인 GO",
+    "깔깔",
+    "명현님이 메일 왔냐고 봐달라고해서 본건디 스팸에 빠져있더라고용"
    ],
-   "rc": 4,
-   "lr": "1790661180.708669",
+   "rc": 9,
+   "lr": "1790661682.198189",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
