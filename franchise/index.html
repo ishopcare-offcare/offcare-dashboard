@@ -118,6 +118,11 @@
   .legend{display:flex; flex-wrap:wrap; gap:12px; margin-top:14px}
   .lg{display:inline-flex; align-items:center; gap:6px; font-size:12.5px; color:var(--gray); font-weight:600}
   .lg i{width:10px; height:10px; border-radius:3px; display:inline-block}
+  .lg.lg-btn{cursor:pointer; padding:3px 8px; border-radius:8px; background:var(--surface2)}
+  .lg.lg-btn:hover{color:var(--ink); background:var(--line-soft)}
+  .ov-tile.tile-btn{cursor:pointer; transition:transform .12s, box-shadow .12s}
+  .ov-tile.tile-btn:hover{transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.10)}
+  .box.wide{max-width:1080px}
 
   /* bars */
   .bar-row{margin-bottom:11px}
@@ -173,6 +178,8 @@
   :root[data-theme="dark"] .tierbadge.B{background:rgba(255,159,10,.2); color:#ffb340}
   .cat-chip{display:inline-block; font-size:11.5px; font-weight:700; padding:2px 9px; border-radius:20px; white-space:nowrap}
   .req-cell{max-width:340px; font-size:13px; color:var(--ink-soft); line-height:1.4}
+  /* 세부내역 팝업: 긴 스레드 원문이 행을 끝없이 늘리지 않게 3줄로 자른다 (마우스를 올리면 전문) */
+  .clamp3{display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; word-break:break-all}
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 10px; line-height:1.7}
 
   /* candidates */
@@ -691,7 +698,7 @@ function viewOverview(){
   const stores  = new Set(fr.map(r=>keyOf(r.store))).size;
   const brands  = new Set(fr.map(r=>r.brand)).size;
   const share   = all.length ? (fr.length/all.length*100) : 0;
-  const catE    = CATS.map(c=>({n:c.name, c:c.color, v:fr.filter(r=>r.cat===c.key).length})).filter(e=>e.v);
+  const catE    = CATS.map(c=>({k:c.key, n:c.name, c:c.color, v:fr.filter(r=>r.cat===c.key).length})).filter(e=>e.v);
   const intake  = {online:0, offline:0, unknown:0};
   fr.forEach(r=>{ intake[r.intake==='online'?'online':(r.intake==='offline'?'offline':'unknown')]++; });
 
@@ -717,10 +724,11 @@ function viewOverview(){
   h += '<div class="ov-tiles">'
     + tile('grand','🏢','프랜차이즈 인입', fr.length, '건',
         nClient ? '슬랙 집계 '+num(nSlack)+'건 + 전용 원장 '+num(nClient)+'건'
-                : '전체 인입 '+num(all.length)+'건 중 '+slackShare.toFixed(1)+'%')
+                : '전체 인입 '+num(all.length)+'건 중 '+slackShare.toFixed(1)+'%',
+        undefined, fr.length ? 'all' : '')
     + tile('','🏪','프랜차이즈 매장', stores, '곳', '인입이 1건 이상 있던 지점 수', '#5e5ce6')
     + tile('','🔖','브랜드', brands, '개', '등록 '+BRAND_IDX.length+'개 중 인입 발생', '#ff9500')
-    + tile('','⏳','미처리', S.pend.length, '건', S.pend.length ? '보류 사유 확인 필요' : '보류 건 없음', S.pend.length?'#ff3b30':'#34c759')
+    + tile('','⏳','미처리', S.pend.length, '건', S.pend.length ? '보류 사유 확인 필요' : '보류 건 없음', S.pend.length?'#ff3b30':'#34c759', S.pend.length ? 'pend' : '')
     + '</div>';
 
   /* 기간 전체(전체 선택 시 약 90일)를 그리면 막대가 빽빽해 읽히지 않는다 — 끝 30일만 */
@@ -740,10 +748,10 @@ function viewOverview(){
           + '<div class="bar-track"><div class="bar-fill" style="width:'+(e[1]/topMax*100).toFixed(1)+'%"></div></div></div>';
       }).join('') : '<div class="empty">기간에 프랜차이즈 인입이 없습니다.</div>')
     + '</div>'
-    + '<div class="card"><div class="card-head"><h3>카테고리 분포</h3></div>'
+    + '<div class="card"><div class="card-head"><h3>카테고리 분포</h3><span class="hint">카테고리를 누르면 세부내역</span></div>'
     + '<div style="display:flex;justify-content:center">'+svgDonut(catE, fr.length)+'</div>'
     + '<div class="legend" style="justify-content:center">'
-    + catE.map(e=>'<span class="lg"><i style="background:'+e.c+'"></i>'+e.n+' '+e.v+'</span>').join('')
+    + catE.map(e=>'<span class="lg lg-btn" data-drill="cat:'+e.k+'" title="눌러서 세부내역 보기"><i style="background:'+e.c+'"></i>'+e.n+' '+e.v+'</span>').join('')
     + '</div></div></div>';
 
   h += '<div class="grid2 even">'
@@ -777,11 +785,67 @@ function viewOverview(){
   }
   return h;
 }
-function tile(cls, ic, name, val, unit, sub, color){
-  return '<div class="ov-tile '+cls+'"'+(color?' style="--c:'+color+'"':'')+'>'
+function tile(cls, ic, name, val, unit, sub, color, drill){
+  return '<div class="ov-tile '+cls+(drill?' tile-btn':'')+'"'+(color?' style="--c:'+color+'"':'')
+    + (drill?' data-drill="'+drill+'" title="눌러서 세부내역 보기"':'')+'>'
     + '<div class="ov-name"><span>'+ic+'</span>'+name+'</div>'
     + '<div class="ov-val">'+num(val)+'<small>'+unit+'</small></div>'
     + '<div class="ov-sub">'+esc(sub)+'</div></div>';
+}
+
+/* ── 세부내역 팝업 ───────────────────────────────────────────
+   전체현황의 총 인입·미처리 타일과 카테고리 분포 범례를 누르면
+   지금 기간의 해당 건을 목록으로 펼친다. (처리내역 탭과 같은 기간·같은 원장) */
+const DRILL_MAX = 500;
+function openDrill(title, chips, body){
+  closeDrill();
+  const wrap = document.createElement('div');
+  wrap.innerHTML = '<div class="ov" id="drillOv"><div class="box wide">'
+    + '<div class="box-head"><h3>' + title + '</h3>'
+    + '<button class="box-x" type="button" data-close="1">✕</button></div>'
+    + '<div class="box-sum">' + chips + '</div>'
+    + '<div class="box-scroll">' + body + '</div></div></div>';
+  const ov = wrap.firstChild;
+  document.body.appendChild(ov);
+  ov.addEventListener('click', function(e){
+    if(e.target.closest('[data-close]') || e.target === ov) closeDrill();
+  });
+}
+function closeDrill(){ const e = document.getElementById('drillOv'); if(e) e.remove(); }
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeDrill(); });
+
+function drillHub(key){
+  const S = scoped();
+  const pend = key === 'pend';
+  let rows = pend ? S.pend : S.fr, title;
+  if(key === 'all')                 title = '🏢 프랜차이즈 인입';
+  else if(pend)                     title = '⏳ 미처리';
+  else if(key.indexOf('cat:') === 0){ const k = key.slice(4); rows = rows.filter(r=>r.cat===k); title = esc(catName(k)); }
+  else return;
+  rows = rows.slice().sort((a,b)=> (b.date+(b.time||'')).localeCompare(a.date+(a.time||'')));
+
+  const brandN = countBy(rows, r=>r.brand);
+  const cb = catBreak(rows);
+  const chips = '<span class="c">기간 <b>' + esc(periodLabel()) + '</b></span>'
+    + '<span class="c">' + (pend?'미처리':'인입') + ' <b>' + num(rows.length) + '</b>건</span>'
+    + '<span class="c">브랜드 <b>' + brandN.size + '</b>개</span>'
+    + '<span class="c">지점 <b>' + new Set(rows.map(r=>r.brand+'|'+r.branch)).size + '</b>곳</span>'
+    + (key.indexOf('cat:') === 0 ? '' : CATS.filter(c=>cb[c.key]).map(c=>'<span class="c">'+esc(c.name)+' <b>'+cb[c.key]+'</b></span>').join(''));
+  const body = rows.length
+    ? '<table><thead><tr><th>일시</th><th>브랜드</th><th>지점</th><th>구분</th><th>담당</th><th>'
+      + (pend ? '보류 사유' : '요청 내용') + '</th></tr></thead><tbody>'
+      + rows.slice(0, DRILL_MAX).map(function(r){
+          return '<tr><td style="white-space:nowrap;color:var(--gray)">'+fmtD(r.date)+' '+esc(r.time)+'</td>'
+            + '<td style="white-space:nowrap"><span class="brand-link" onclick="goBrand(\''+jsq(r.brand)+'\')">'+esc(r.brand)+'</span></td>'
+            + '<td style="font-weight:600">'+esc(r.branch)+'</td>'
+            + '<td><span class="cat-chip" style="background:'+catColor(r.cat)+'22;color:'+catColor(r.cat)+'">'+esc(catName(r.cat))+'</span></td>'
+            + '<td style="white-space:nowrap">'+esc(r.emp || '—')+'</td>'
+            + '<td class="req-cell"><div class="clamp3" title="'+esc((pend ? r.reasons : r.req) || '')+'">'+esc((pend ? r.reasons : r.req) || '—')+'</div></td></tr>';
+        }).join('')
+      + '</tbody></table>'
+      + (rows.length > DRILL_MAX ? '<div class="hint" style="margin-top:12px;color:var(--gray2);font-size:12.5px">최근 '+DRILL_MAX+'건만 표시했습니다. 전체는 <b>처리내역</b> 탭에서 CSV로 내려받으세요.</div>' : '')
+    : '<div class="empty">기간에 해당 건이 없습니다.</div>';
+  openDrill(title + ' · ' + esc(periodLabel()), chips, body);
 }
 
 /* =====================================================================
@@ -1132,6 +1196,11 @@ function render(){
                  : viewCands();
   bindViewEvents();
 }
+
+/* 전체현황 타일·범례 → 세부내역. viewHost 는 리렌더돼도 그대로라 한 번만 건다 */
+document.getElementById('viewHost').addEventListener('click', function(e){
+  const d = e.target.closest('[data-drill]'); if(d) drillHub(d.dataset.drill);
+});
 
 function bindViewEvents(){
   /* 브랜드 검색 — 입력 중 리렌더되므로 커서 위치를 되돌려줘야 연속 타이핑이 끊기지 않는다 */

@@ -213,6 +213,8 @@
   .cat-chip{display:inline-block; font-size:11.5px; font-weight:700; padding:2px 9px; border-radius:20px; white-space:nowrap}
   .cat-dot{display:inline-block; width:9px; height:9px; border-radius:3px; margin-right:7px; vertical-align:middle}
   .req-cell{max-width:330px; font-size:13px; color:var(--ink-soft); line-height:1.4}
+  /* 세부내역 팝업: 긴 스레드 원문이 행을 끝없이 늘리지 않게 3줄로 자른다 (마우스를 올리면 전문) */
+  .clamp3{display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; word-break:break-all}
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 12px; line-height:1.8}
   .delta{font-size:12.5px; font-weight:700}
   .delta.up{color:var(--red)} .delta.down{color:var(--green)} .delta.flat{color:var(--gray2)}
@@ -267,6 +269,7 @@
 
   .ov{position:fixed; inset:0; z-index:9998; background:rgba(0,0,0,.45); display:flex;
     align-items:center; justify-content:center; padding:20px}
+  .box.wide{max-width:1080px}
   .box{background:var(--canvas); border-radius:18px; width:100%; max-width:780px; max-height:84vh;
     display:flex; flex-direction:column; padding:22px 24px; box-shadow:0 24px 60px rgba(0,0,0,.3)}
   .box-head{display:flex; align-items:center; justify-content:space-between; gap:12px}
@@ -799,10 +802,12 @@ function viewOverview(){
   const catTile = (key, ic, label) => {
     const c = CAT_MAP[key];
     if(!c) return tile('', ic, label, 0, '건', '집계 대상 아님', '#aeaeb4');
-    return tile('', ic, label, cb[key] || 0, '건', pct(cb[key] || 0), c.color);
+    const n = cb[key] || 0;   /* 건이 있으면 눌러서 세부내역 */
+    return tile(n?'tile-btn':'', ic, label, n, '건', pct(n), c.color, n?'cat:'+key:'');
   };
-  const grandTile = tile('grand','📥','총 인입', rows.length,'건',
-                         esc(scopeLabel())+' · 지점 '+stores+'곳' + deltaBadge(rows.length));
+  const grandTile = tile('grand'+(rows.length?' tile-btn':''),'📥','총 인입', rows.length,'건',
+                         esc(scopeLabel())+' · 지점 '+stores+'곳' + deltaBadge(rows.length),
+                         '', rows.length?'all':'');
   /* 처리중은 눌러서 목록을 볼 수 있게 한다 — 본사가 가장 급한 항목이다 */
   const openTile  = tile(open?'tile-btn':'','⏳','처리중', open,'건',
                          open?'눌러서 목록 보기':'전건 처리완료', open?'#ff9500':'#34c759',
@@ -1220,16 +1225,25 @@ function deltaBadge(cur){
     + arrow + ' ' + Math.abs(d) + '건 · ' + esc(p.label) + '</span>';
 }
 
-/* ── 처리중 목록 ────────────────────────────────────────────
-   숫자만 있고 눌러볼 수 없어, 본사가 가장 급한 '안 끝난 건' 을 볼 길이 없었다. */
-function drillOpen(){
-  const list = scopedRecs().filter(r => r.status !== 'done')
-    .sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')));
+/* ── 전체현황 타일 → 세부내역 ────────────────────────────────
+   key: 'all'(총 인입) · 'cat:<카테고리>' · 'open'(처리중)
+   숫자만 있고 눌러볼 수 없으면 본사가 '어떤 건이었나' 를 확인할 길이 없다. */
+function drillTile(key){
+  let list = scopedRecs(), title;
+  if(key === 'all')                    title = '📥 총 인입';
+  else if(key === 'open'){             list = list.filter(r => r.status !== 'done'); title = '⏳ 처리중'; }
+  else if(key.indexOf('cat:') === 0){  const k = key.slice(4); list = list.filter(r => r.cat === k); title = esc(catName(k)); }
+  else return;
+  /* 처리중은 오래된 것부터(급한 순), 나머지는 최신순 */
+  list = list.slice().sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')));
+  if(key !== 'open') list.reverse();
+  const cb = byCat(list);
   const chips = '<span class="c">기간 <b>' + esc(scopeLabel()) + '</b></span>'
-    + '<span class="c">미완료 <b>' + list.length + '</b>건</span>'
-    + '<span class="c">지점 <b>' + new Set(list.map(r => r.branch)).size + '</b>곳</span>';
+    + '<span class="c">' + (key === 'open' ? '미완료' : '인입') + ' <b>' + list.length + '</b>건</span>'
+    + '<span class="c">지점 <b>' + new Set(list.map(r => r.branch)).size + '</b>곳</span>'
+    + (key === 'all' ? CATS.filter(c => cb[c.key]).map(c => '<span class="c">' + esc(c.name) + ' <b>' + cb[c.key] + '</b></span>').join('') : '');
   const body = list.length
-    ? '<table><thead><tr><th>접수</th><th>지점</th><th>구분</th><th>상태</th><th>담당</th><th>내용</th></tr></thead><tbody>'
+    ? '<table><thead><tr><th>접수</th><th>지점</th><th>구분</th><th>상태</th><th>담당</th><th>요청내역</th><th>처리내역</th></tr></thead><tbody>'
       + list.map(r => '<tr>'
           + '<td style="white-space:nowrap;color:var(--gray)">' + r.date
           + (r.time ? '<br><span style="color:var(--gray2)">' + esc(r.time) + '</span>' : '') + '</td>'
@@ -1238,10 +1252,11 @@ function drillOpen(){
           + '<td>' + catChip(r.cat) + '</td>'
           + '<td>' + stChip(r.status) + '</td>'
           + '<td style="white-space:nowrap">' + esc(r.emp) + '</td>'
-          + '<td class="req-cell">' + esc(r.req || '—') + '</td></tr>').join('')
+          + '<td class="req-cell"><div class="clamp3" title="' + esc(r.req || '') + '">' + esc(r.req || '—') + '</div></td>'
+          + '<td class="req-cell">' + (r.note ? '<div class="clamp3" title="' + esc(r.note) + '">' + esc(r.note) + '</div>' : '<span style="color:var(--muted)">—</span>') + '</td></tr>').join('')
       + '</tbody></table>'
-    : '<div class="empty">미완료 건이 없습니다.</div>';
-  openDrill('⏳ 처리중 · ' + esc(scopeLabel()), chips, body);
+    : '<div class="empty">해당 건이 없습니다.</div>';
+  openDrill(title + ' · ' + esc(scopeLabel()), chips, body, true);
 }
 
 /* ── 반복 인입 지점 ─────────────────────────────────────────
@@ -1586,10 +1601,10 @@ function drillAsIssue(label){
 /* ── 상세 모달 ─────────────────────────────────────────────
    지점 상세와 날짜 상세가 같은 껍데기를 쓴다. 인쇄본에는 나가지 않는다
    (모달을 띄운 채 인쇄하면 보고서 위에 겹쳐 찍힌다). */
-function openDrill(title, chips, body){
+function openDrill(title, chips, body, wide){
   closeDrill();
   const wrap = document.createElement('div');
-  wrap.innerHTML = '<div class="ov no-print" id="drillOv"><div class="box">'
+  wrap.innerHTML = '<div class="ov no-print" id="drillOv"><div class="box' + (wide ? ' wide' : '') + '">'
     + '<div class="box-head"><h3>' + title + '</h3>'
     + '<button class="box-x" type="button" data-close="1">✕</button></div>'
     + '<div class="box-sum">' + chips + '</div>'
@@ -1751,8 +1766,8 @@ function bindEvents(){
   /* 처리중 타일 → 미완료 목록 */
   const ovt = document.querySelector('.ov-tiles');
   if(ovt) ovt.addEventListener('click', function(e){
-    const t = e.target.closest('.ov-tile[data-drill="open"]'); if(!t) return;
-    drillOpen();
+    const t = e.target.closest('.ov-tile[data-drill]'); if(!t) return;
+    drillTile(t.dataset.drill);
   });
   /* 지점 검색 — 입력 중 포커스가 날아가지 않게 커서를 되돌린다 */
   const sq = document.getElementById('storeQ');
