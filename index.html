@@ -2492,7 +2492,7 @@ function menuregRowsHtml(items){
     const memo=MENUMEMO[menuregMemoKey(i)];
     return `<div onclick="menuregSelect('${i.ts}')" style="display:flex;gap:10px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line,#eee);cursor:pointer;${i.ts===menuregSel?'background:rgba(94,92,230,.08);':''}">
       <span style="font-size:12px;color:#888;white-space:nowrap">${i.date.slice(5)} ${i.time}</span>
-      <b style="flex:0 0 auto;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml(i.store||'(상호미상)')}</b>
+      <b style="flex:0 0 auto;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${i.mail?'<span title="메일 접수">📧</span> ':''}${escapeHtml(i.store||'(상호미상)')}</b>
       ${memo?`<span title="${escapeHtml(memo)}" style="font-size:11px;background:#fff3c4;color:#7a5d00;border-radius:8px;padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">📝 ${escapeHtml(String(memo).replace(/\n/g,' ').slice(0,26))}</span>`:''}
       <span style="font-size:12px;color:#666">${escapeHtml(i.pos||'POS?')}</span>
       <span style="font-size:12px;color:#999;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml((i.content||'').slice(0,40))}</span>
@@ -2978,7 +2978,7 @@ function menuregCacheGrid(){ const ta=document.getElementById('mrGrid'); if(ta&&
  * 기존 그리드 내용이 있으면 덮지 않고 뒤에 이어붙인다. */
 function menuregFillFromOcr(ts){
   const it=menuregItems().find(x=>x.ts===ts); if(!it) return;
-  const imgs=[...(it.att||[]), ...(it.datt||[])];
+  const imgs=[...(it.att||[]), ...(it.datt||[]), ...(it.matt||[])];
   const lines=[], seen=new Set();
   let noPrice=0;
   for(const a of imgs){
@@ -3034,6 +3034,7 @@ function renderMenuReg(){
         <a class="btn" href="${sel.link}" target="_blank">💬 슬랙 원문</a>
         ${(sel.drive||[]).map((d,i2)=>`<a class="btn" href="${d}" target="_blank">🖼 이미지${(sel.drive.length>1?' '+(i2+1):'')}</a>`).join('')}
         ${(sel.att||[]).filter(a=>a.path).map((a,ai)=>`<a class="btn" href="${a.path}" target="_blank" download title="${escapeHtml(a.name)}${a.from?' ('+a.from+')':''}">📎 ${escapeHtml((a.name||('첨부'+(ai+1))).length>18?(a.name.slice(0,16)+'…'):(a.name||('첨부'+(ai+1))))}</a>`).join('')}
+        ${sel.mail?`<a class="btn" href="https://mail.google.com/mail/u/0/#search/${encodeURIComponent('subject:"'+((String(sel.content||'').match(/^\[📧 메일\] 제목: (.*)/)||[])[1]||'').trim()+'"')}" target="_blank" rel="noopener" title="rm@ 메일을 받는 내 메일함에서 이 제목으로 찾습니다">📧 메일 원문</a>`:''}
         ${sel.files&&!(sel.att||[]).length?`<span class="hint" style="align-self:center">📎 슬랙 첨부 ${sel.files}장 — 슬랙 원문에서 확인${sel.date&&((Date.now()-new Date(sel.date).getTime())>7*86400000)?' (7일 지나 직접 다운로드 만료)':''}</span>`:''}
       </div>
       <div style="display:flex;gap:8px;align-items:stretch;margin:8px 0">
@@ -3042,9 +3043,23 @@ function renderMenuReg(){
       </div>
       <div style="background:var(--surface,#f7f7f8);border-radius:10px;padding:10px 12px;font-size:13px;white-space:pre-wrap;max-height:180px;overflow:auto">${escapeHtml(sel.content||'(요청내용 없음)')}${sel.special?'\n\n[특이사항] '+escapeHtml(sel.special):''}</div>
       ${(function(){
-        // 슬랙 직접 첨부(att) + Drive 링크 이미지(datt) 를 같은 판독 목록으로 묶는다
-        const imgs=[...(sel.att||[]).map(a=>({...a,src:'슬랙 '+(a.from||'원글')})), ...(sel.datt||[]).map(a=>({...a,src:'Drive'}))];
-        const KIND={menu_board:'메뉴판',pos_screen:'POS 화면',product_photo:'상품사진',other:'기타'};
+        // 메일 접수 — 첨부는 rm@ 메일함의 Apps Script(mail-attach.gs)가 Drive 로 복사해 둔 것을 판독한다
+        if(!sel.mail) return '';
+        const mt=sel.matt||[];
+        const nj=mt.filter(a=>a.nj), wait=mt.filter(a=>!a.nj&&!('kind' in a));
+        const open=a=>`<a href="https://drive.google.com/file/d/${escapeHtml(a.id)}/view" target="_blank" rel="noopener">${escapeHtml((a.t||'파일').toUpperCase())}</a>`;
+        const msgs=[];
+        if(!mt.length) msgs.push('📧 메일 첨부를 아직 찾지 못했습니다 — 메일함 스크립트가 10분마다 복사하니 잠시 뒤 다시 확인하세요. 첨부가 없는 메일일 수도 있습니다.');
+        if(wait.length) msgs.push(`⏳ 메일 첨부 ${wait.length}개 판독 대기 중 (다음 적재 때 이어서 판독)`);
+        if(nj.length) msgs.push(`📎 자동 판독이 안 되는 형식 ${nj.length}개 — 원본을 직접 확인하세요: ${nj.map(open).join(' · ')}`);
+        if(sel.mail.big) msgs.push(`⚠️ 메일에 대용량 첨부 링크가 ${sel.mail.big}개 있습니다 — 자동으로 받을 수 없으니 <b>📧 메일 원문</b>에서 직접 내려받으세요.`);
+        return msgs.length?`<div class="hint" style="margin-top:8px;line-height:1.7">${msgs.join('<br>')}</div>`:'';
+      })()}
+      ${(function(){
+        // 슬랙 직접 첨부(att) + Drive 링크 이미지(datt) + 메일 첨부(matt) 를 같은 판독 목록으로 묶는다
+        const imgs=[...(sel.att||[]).map(a=>({...a,src:'슬랙 '+(a.from||'원글')})), ...(sel.datt||[]).map(a=>({...a,src:'Drive'})),
+          ...(sel.matt||[]).map(a=>({...a,src:'메일',name:'메일 첨부'+(a.t?' ('+a.t+')':'')}))];
+        const KIND={menu_board:'메뉴판',pos_screen:'POS 화면',product_photo:'상품사진',menu_file:'메뉴 파일',other:'기타'};
         const withMenu=imgs.filter(a=>(a.menu||[]).length);
         const skipped=imgs.filter(a=>'kind' in a && !(a.menu||[]).length);   // 상품사진 등 — 추출할 메뉴가 없는 이미지
         const legacy=imgs.filter(a=>!('kind' in a) && a.ocr);                // 구 tesseract 캐시(문자열)

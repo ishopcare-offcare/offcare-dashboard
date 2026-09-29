@@ -300,6 +300,58 @@ async function readMenuImage(dest) {
   }
 }
 
+// 메일로 온 엑셀·CSV 메뉴 파일 판독. POS사(비버 등)가 내려주는 메뉴 파일은 양식이 제각각이라
+// 열 이름을 규칙으로 맞추는 대신 이미지와 같은 스키마로 모델에게 뽑게 한다.
+// 엑셀 → CSV 변환은 메일함 쪽 Apps Script(mail-attach.gs)가 해 둔다.
+const TEXT_MAX_CHARS = 60000;                       // 약 3만 토큰 — 이보다 긴 파일은 앞부분만
+const TEXT_PROMPT = `아래는 매장 메뉴 파일(엑셀/CSV)을 텍스트로 옮긴 것입니다. 등록 대상 메뉴(상품명과 가격)를 추출하세요.
+
+추출 규칙:
+- 메뉴명은 파일 표기 그대로 적습니다. 맞춤법을 고치지 마세요.
+- 가격은 콤마를 빼고 정수로 적습니다. 가격 열이 없거나 비어 있으면 0 으로 둡니다.
+- 분류(카테고리) 열이나 구분 행이 있으면 category 에 넣고, 없으면 빈 문자열로 둡니다.
+- 옵션·추가 선택 항목만 모아 둔 시트는 제외하고 판매 메뉴만 넣으세요.
+- 제목 행·합계 행·빈 행은 넣지 마세요.
+- 전화번호·주소·사업자번호 같은 정보는 절대 넣지 마세요.
+- kind 는 menu_board 로 두세요.`;
+async function readMenuText(dest) {
+  if (ocrHalt) return null;
+  if (ocrDone >= OCR_CAP) return null;
+  const client = getAnthropic();
+  if (!client) return null;
+  let text = '';
+  try { text = fs.readFileSync(dest, 'utf8').replace(/^﻿/, ''); } catch (e) { return null; }
+  if (!text.trim()) return { bad: true };
+  if (text.length > TEXT_MAX_CHARS) { console.log(`메뉴 파일이 길어 앞 ${TEXT_MAX_CHARS}자만 판독: ${dest}`); text = text.slice(0, TEXT_MAX_CHARS); }
+  try {
+    const res = await client.messages.create({
+      model: OCR_MODEL,
+      max_tokens: 16000,
+      output_config: { format: { type: 'json_schema', schema: OCR_SCHEMA }, effort: 'low' },
+      messages: [{ role: 'user', content: [{ type: 'text', text: '<menu_file>\n' + text + '\n</menu_file>' }, { type: 'text', text: TEXT_PROMPT }] }],
+    });
+    ocrDone++;
+    const u = res.usage || {};
+    ocrUsd += (u.input_tokens || 0) / 1e6 * OCR_PRICE.in + (u.output_tokens || 0) / 1e6 * OCR_PRICE.out;
+    if (res.stop_reason === 'refusal') return { kind: 'menu_file', menu: [] };
+    let parsed; try { parsed = JSON.parse((res.content.find((b) => b.type === 'text') || {}).text || '{}'); } catch (e) { console.log('메뉴 파일 JSON 파싱 실패:', dest); return null; }
+    const menu = (parsed.items || [])
+      .map((x) => ({ category: scrubPII(String(x.category || '')).slice(0, 30),
+                     name: scrubPII(String(x.name || '')).slice(0, 60),
+                     price: Number(x.price) || 0 }))
+      .filter((x) => x.name)
+      .slice(0, 500);
+    return { kind: 'menu_file', menu };
+  } catch (e) {
+    const st = e.status || 0;
+    const msg = String((e.error && e.error.error && e.error.error.message) || e.message || e).slice(0, 200);
+    if (OCR_FATAL.has(st)) { ocrHalt = { status: st, message: msg }; console.log(`⛔ 판독 중단(HTTP ${st}): ${msg}`); return null; }
+    ocrDone++;
+    console.log('메뉴 파일 판독 실패:', dest, msg.slice(0, 100));
+    return null;
+  }
+}
+
 // ─── Google Drive 링크 이미지 수집 ─────────────────────────────────────────
 // 메뉴 이미지는 슬랙 직접 첨부보다 Drive 링크로 들어오는 쪽이 많다. 접근 가능한 파일만
 // 내려받아 슬랙 첨부와 똑같이 OCR 대상에 넣는다.
@@ -361,6 +413,54 @@ async function driveDownload(id, dest, tok) {
   } catch (e) { return false; }
 }
 
+// ─── 메일 접수 (📬 새 메일 도착 릴레이) ─────────────────────────────────────
+// 메일 릴레이 봇 글에는 첨부가 없다(본문 앞부분·메일 링크뿐). 첨부는 rm@ 메일을 같이 받는
+// 직원 계정의 Apps Script(mail-attach.gs)가 Drive 폴더로 복사하고 menu-mail-index.json 에
+// '보낸 사람·제목·시각·파일' 목록을 적어 둔다. 여기서 그 목록을 읽어 릴레이 글과 짝짓는다.
+// ⚠️ 목록에는 보낸 사람 주소·파일명이 있지만 공개 저장소에는 Drive 파일 id·확장자만 남긴다.
+const MAIL_INDEX = 'menu-mail-index.json';
+const MAIL_MATCH_SEC = 3 * 86400;             // 릴레이 글과 메일 도착 시각 허용 차이
+let _mailIdx = null;                          // null=미시도, []=없음/실패
+async function mailIndex() {
+  if (_mailIdx) return _mailIdx;
+  _mailIdx = [];
+  const tok = await driveToken();
+  if (!tok) return _mailIdx;
+  try {
+    const q = encodeURIComponent(`name='${MAIL_INDEX}' and trashed=false`);
+    const r = await fetch(`https://www.googleapis.com/drive/v3/files?q=${q}&orderBy=modifiedTime%20desc&pageSize=1&fields=files(id)&supportsAllDrives=true&includeItemsFromAllDrives=true`,
+      { headers: { Authorization: 'Bearer ' + tok } });
+    const id = r.ok ? (((await r.json()).files || [])[0] || {}).id : null;
+    if (!id) { console.log(`메일 첨부 목록(${MAIL_INDEX}) 없음 — mail-attach.gs 설치 전이면 정상`); return _mailIdx; }
+    const r2 = await fetch(`https://www.googleapis.com/drive/v3/files/${id}?alt=media&supportsAllDrives=true`, { headers: { Authorization: 'Bearer ' + tok } });
+    _mailIdx = r2.ok ? ((await r2.json()).items || []) : [];
+    console.log(`📧 메일 첨부 목록 ${_mailIdx.length}통`);
+  } catch (e) { console.log('메일 첨부 목록 읽기 실패:', e.message); }
+  return _mailIdx;
+}
+const normSubj = (t) => String(t || '').toLowerCase().replace(/^\s*((re|fw|fwd)\s*:\s*)+/i, '').replace(/[\s*_]+/g, '');
+function matchMail(idx, fromEmail, subject, ts) {
+  const ns = normSubj(subject);
+  if (!ns) return null;
+  const gap = (e) => Math.abs(Date.parse(e.date) / 1000 - parseFloat(ts));
+  const cands = idx.filter((e) => {
+    if (fromEmail && e.fromEmail && e.fromEmail !== fromEmail) return false;
+    const es = normSubj(e.subject);
+    if (!(es === ns || (Math.min(es.length, ns.length) >= 4 && (es.includes(ns) || ns.includes(es))))) return false;
+    return gap(e) <= MAIL_MATCH_SEC;
+  });
+  cands.sort((a, b) => gap(a) - gap(b));
+  return cands[0] || null;
+}
+// 메일 제목에서 상호 추정 — "영거+메뉴등록 요청" → "영거"
+function storeFromSubject(subj) {
+  return String(subj || '')
+    .replace(/\[[^\]]*\]/g, ' ').replace(/^\s*((re|fw|fwd)\s*:\s*)+/i, '')
+    .replace(/메뉴\s*(등록|수정|변경|추가)?|등록|요청(드립니다|합니다|드려요)?|의\s*건|사진|파일|이미지|전달/g, ' ')
+    .replace(/[+_\-·|/]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
+}
+const extOf = (name) => ((String(name || '').match(/\.([A-Za-z0-9]{1,5})$/) || [])[1] || '').toLowerCase();
+
 // 텍스트에서 POS 종류 추정
 function detectPos(text) {
   const t = (text || '').toLowerCase();
@@ -388,18 +488,31 @@ function detectPos(text) {
   const items = [];
   for (const m of msgs) {
     if (m.subtype && m.subtype !== 'bot_message') continue;   // 시스템 메시지 제외(봇 접수글은 포함)
-    const text = (m.text || '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+    const text = [m.text || '', ...(m.attachments || []).map((a) => a.text || a.fallback || '')].join('\n')
+      .replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
 
-    let store = (((text.match(/(?:상호|매장명)\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
-    if (store.length > 40) store = store.slice(0, 40);
+    // 메일 릴레이 글 — 상호 라벨이 없어도 요청으로 받는다(첨부는 아래 matt 에서 메일함 목록과 짝지음)
+    const isMail = /새\s*메일\s*도착/.test(text);
+    const mailFromLine = isMail ? ((text.match(/보낸\s*사람\s*\*?[:：]\*?\s*(.+)/) || [])[1] || '') : '';
+    const mailFrom = ((mailFromLine.match(/[\w.+-]+@[\w-]+\.[\w.]+/) || [''])[0]).toLowerCase();
+    const mailSubj = isMail ? ((text.match(/제목\s*\*?[:：]\*?\s*(.+)/) || [])[1] || '').replace(/\*/g, '').trim() : '';
+    const mailLink = isMail ? ((text.match(/https:\/\/mail\.google\.com\/[^\s>|)\]]+/) || [])[0] || '') : '';
+
+    // "상호명 : 면과육 사업자번호 : 592-…" 처럼 한 줄에 라벨이 이어 붙은 글이 있다 —
+    // 예전 정규식은 '상호' 뒤의 '명 : 면과육 사업자번호 : …' 을 통째로 상호로 잡아 사업자번호가 공개됐다.
+    let store = (((text.match(/(?:상호명?|매장명)\s*[:：]?\s*(.+)/) || [])[1]) || '')
+      .split(/\s*(?:사업자|대표자?|연락처|전화|휴대폰|포스\s*[:：]|\/)/)[0].trim();
+    if (!store && isMail) store = storeFromSubject(mailSubj);
+    store = scrubPII(store).slice(0, 40);
     const biz = ((text.match(/사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/) || [])[1] || '').replace(/-/g, '').trim();
-    if (!store && !biz) continue;                             // 상호·사업자 없는 글(사진 릴레이 등)은 요청으로 안 봄
+    if (!store && !biz && !isMail) continue;                  // 상호·사업자 없는 글(사진 릴레이 등)은 요청으로 안 봄
 
     // ⚠️ 연락처는 적재하지 않는다 — 이 저장소는 public 이라 menu-requests.js 가
     // raw.githubusercontent.com 으로 그대로 공개된다. 번호가 필요하면 '💬 슬랙 원문'에서 본다.
     // 요청 본문: '메뉴 수정' 또는 '내용' 필드부터 끝까지(다음 라벨 전까지 자르지 않고 원문 유지 — 브라우저에서 초안 파싱)
     // 본문에도 연락처가 섞여 들어오므로 scrubPII 를 통과시킨 뒤 적재한다(가격은 안 건드림)
     const content = scrubPII(((text.match(/(?:메뉴\s*수정|내용)\s*[:：]?\s*([\s\S]+?)(?:\n-\s*(?:특이사항|포스|대표자|이미지)\s*[:：]|$)/) || [])[1] || '').trim().slice(0, 1200));
+    const mailHead = isMail ? scrubPII(`[📧 메일] 제목: ${mailSubj}\n`) : '';
     const special = scrubPII(((text.match(/특이사항\s*[:：]?\s*(.+)/) || [])[1] || '').trim().slice(0, 200));
     const posText = ((text.match(/포스\s*[:：]?\s*(.+)/) || [])[1] || '');
     const pos = detectPos(posText) || detectPos(text);
@@ -539,10 +652,48 @@ function detectPos(text) {
       if (a.path || 'kind' in a) att.push(a);
     }
 
+    // 메일 첨부(matt) — 메일함 Apps Script 가 Drive 로 복사해 둔 파일을 판독한다.
+    // 메일함 쪽도 10분 주기라 첨부 목록이 늦게 올라올 수 있다 — 짝을 못 찾으면 다음 실행에서 다시 본다.
+    let matt = ((prevMap[m.ts] || {}).matt) || [];
+    let mailBig = ((prevMap[m.ts] || {}).mail || {}).big || 0;
+    if (isMail) {
+      const idx = await mailIndex();
+      const e = idx.length ? matchMail(idx, mailFrom, mailSubj, m.ts) : null;
+      if (e) {
+        const tok = await driveToken();
+        const prevM = matt;
+        matt = [];
+        mailBig = e.big || 0;
+        const files = (e.files || []).slice(0, JUDGE_PER_MSG);
+        if ((e.files || []).length > JUDGE_PER_MSG) truncated += e.files.length - JUDGE_PER_MSG;
+        for (const fl of files) {
+          const t = extOf(fl.name) || String(fl.type || '').split('/')[1] || '';
+          const p = prevM.find((x) => x.id === fl.id) || {};
+          if ('kind' in p) { matt.push({ id: fl.id, t, kind: p.kind, menu: p.menu || [] }); continue; }
+          if (p.nj) { matt.push({ id: fl.id, t, nj: 1 }); continue; }
+          const isImg = DRIVE_READABLE.test(String(fl.type || ''));
+          const src = fl.csv || (isImg ? fl.id : null);
+          if (!src) { matt.push({ id: fl.id, t, nj: 1 }); continue; }        // hwp·pptx·zip 등 — 원본 링크만
+          if (!tok) { matt.push({ id: fl.id, t }); continue; }
+          const ext = fl.csv ? 'csv' : (String(fl.type).split('/')[1] || 'jpg').replace('jpeg', 'jpg');
+          const tmp = `${DRIVE_TMP}/m-${src}.${ext}`;
+          const got = await driveDownload(src, tmp, tok);
+          if (got !== true) { matt.push({ id: fl.id, t }); continue; }       // 다음 실행 재시도
+          try {
+            const r = fl.csv ? await readMenuText(tmp) : await readMenuImage(tmp);
+            if (r && r.bad) matt.push({ id: fl.id, t, nj: 1 });
+            else if (r) matt.push({ id: fl.id, t, kind: r.kind, menu: r.menu });
+            else matt.push({ id: fl.id, t });
+          } finally { try { fs.unlinkSync(tmp); } catch (x) {} }
+        }
+      }
+    }
+
     items.push({
       ts: m.ts, date: kstDate(m.ts), time: kstHM(m.ts),
-      store, biz, pos, content, special,
+      store, biz, pos, content: (mailHead + content).slice(0, 1300), special,
       drive: driveLinks, files: fileCnt, att, datt, replies, rc, lr,
+      ...(isMail ? { matt, mail: { link: mailLink, big: mailBig } } : {}),
       // 댓글 첨부까지 훑었는지 — 스레드를 실제로 읽었거나, 애초에 댓글이 없으면 훑을 게 없으므로 완료로 본다
       rfx: (rawReplies !== null || rc === 0) ? RFX_VER : ((prevMap[m.ts] || {}).rfx || 0),
       status, handler: handler || confirmer || null,
