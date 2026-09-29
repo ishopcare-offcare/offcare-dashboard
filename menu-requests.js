@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2644,
- "updatedAt": "2026-09-29 12:58",
+ "version": 2645,
+ "updatedAt": "2026-09-29 13:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1790654404.152009",
+   "date": "2026-09-29",
+   "time": "13:00",
+   "store": "로칼밥상 서정점",
+   "biz": "4492602071",
+   "pos": "",
+   "content": "토플파 천안두정점으로 메뉴 복제하고 바뀐 고유번호로 재온보딩 필요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790654410.746939",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790654404152009"
+  },
   {
    "ts": "1790654214.730679",
    "date": "2026-09-29",
@@ -21,10 +42,12 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C095YJK7XCM/p1790652955969809?thread_ts=···.216519&cid=C095YJK7XCM"
+    "https://w1659946222-hxm266180.slack.com/archives/C095YJK7XCM/p1790652955969809?thread_ts=···.216519&cid=C095YJK7XCM",
+    "10갠뎅",
+    "초대했지롱"
    ],
-   "rc": 2,
-   "lr": "1790654222.553839",
+   "rc": 9,
+   "lr": "1790654598.180829",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
