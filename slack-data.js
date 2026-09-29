@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14251,
+  "version": 14252,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215374,7 +215374,7 @@ window.SLACK_DATA = {
           "req": "포프 연동-스마트폰에 설치하셔서 우선 연동은 영상통화가 아닌 일반통화로 부탁드립니다:꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩 완료"
         },
         {
           "time": "09:07",
@@ -284977,7 +284977,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 09:18",
+    "at": "2026-09-29 09:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
