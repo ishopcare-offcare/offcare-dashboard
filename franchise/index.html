@@ -435,6 +435,25 @@ async function loadVisits(){
   });
 }
 
+/* ── 등급(tier) 자동 판정 ─────────────────────────────────────
+   brands.js 에 손으로 적지 않는다. 전체 기간(기간 필터와 무관)에 인입된
+   서로 다른 매장 수가 FRANCHISE_TIER_A_MIN(20) 이상이면 A, 미만이면 B.
+   기간 필터에 따라 등급이 바뀌면 안 되므로 FR 전체로 한 번만 계산한다. */
+const TIER_A_MIN = window.FRANCHISE_TIER_A_MIN || 20;
+const BRAND_STORES = {};
+function computeTiers(){
+  const m = {};
+  FR.forEach(r=>{ (m[r.brand] = m[r.brand] || new Set()).add(keyOf(r.store)); });
+  BRAND_IDX.forEach(b=>{
+    BRAND_STORES[b.name] = m[b.name] ? m[b.name].size : 0;
+    b.tier = BRAND_STORES[b.name] >= TIER_A_MIN ? 'A' : 'B';
+  });
+  const T = Object.fromEntries(BRAND_IDX.map(b=>[b.name, b.tier]));
+  FR.forEach(r=>{ r.tier = T[r.brand] || 'B'; });
+}
+/* 브랜드별 정렬 그룹: 계약 고객사 → A → B */
+const brandGroup = o => clientOf(o.brand) ? 0 : (o.tier === 'A' ? 1 : 2);
+
 async function loadClientLedgers(){
   const targets = CLIENTS.filter(c=>c.dataFile);
   await Promise.all(targets.map(c=>loadScript(c.dataFile)));
@@ -837,6 +856,8 @@ function viewBrands(){
   let rows = allRows.filter(o=>brandHitQ(o.brand));
   const k = brandSort.k, dir = brandSort.dir;
   rows.sort(function(a,b){
+    const g = brandGroup(a) - brandGroup(b);
+    if(g) return g;          /* 계약 고객사 → A → B, 그룹 안에서만 선택한 열로 정렬 */
     let av, bv;
     if(k==='brand'){ return a.brand.localeCompare(b.brand,'ko')*dir; }
     if(k==='last'){ av=a.last; bv=b.last; return (av<bv?-1:av>bv?1:0)*dir; }
@@ -856,7 +877,7 @@ function viewBrands(){
     h += '<div class="notice"><span class="k">기준</span><span class="t">'
       + '등록 브랜드 <b>'+BRAND_IDX.length+'개</b> 중 이 기간에 인입이 있던 브랜드만 표시합니다'
       + (notReg>0 ? ' (인입 없음 '+notReg+'개 숨김)' : '') + '. '
-      + '<b>A</b>=지점 2곳 이상 확인된 확정 브랜드, <b>B</b>=자동 제안(검수 권장).</span></div>';
+      + '정렬: <b>계약 고객사</b> → <b>A</b>(매장 '+TIER_A_MIN+'곳 이상) → <b>B</b>(그 미만).</span></div>';
   }
 
   if(!allRows.length) return h + '<div class="card"><div class="empty">기간에 프랜차이즈 인입이 없습니다.<br>기간을 넓히거나 brands.js 에 브랜드를 추가해 보세요.</div></div>';
@@ -876,9 +897,8 @@ function viewBrands(){
     : [];
 
   /* 전용 원장 건수가 있으면 계약 고객사도 그냥 일반 행으로 들어온다.
-     A등급 자동 고객사(ledger:'slack')는 슬랙 집계 그 자체라 행이 없으면 인입이 없는 것 — 고정하지 않는다.
      아래 pinned 는 "아직 단 한 건도 없는 고객사"만 자리 표시용으로 남긴다. */
-  const pinned = CLIENTS.filter(c=>c.dataFile && !allRows.some(o=>o.brand===c.brand) && brandHitQ(c.brand));
+  const pinned = CLIENTS.filter(c=>!allRows.some(o=>o.brand===c.brand) && brandHitQ(c.brand));
 
   h += '<div class="card"><div class="card-head"><h3>브랜드별 인입 집계</h3>'
     + '<div class="controls">'
@@ -919,7 +939,7 @@ function viewBrands(){
         return '<tr class="cli-row"><td><span class="brand-link" onclick="goBrand(\''+esc(c.brand).replace(/'/g,"\\'")+'\')">'
           + esc(c.brand)+'</span><span class="cli-badge">전용</span></td>'
           + '<td class="num zero" colspan="'+(CATS.length+2)+'" style="text-align:left;font-size:12.5px">'
-          + '전용 원장으로 관리 — 집계·월간 보고서는 <b>전용 대시보드</b>에서 확인'
+          + '이 기간 인입 없음 — 집계·월간 보고서는 <b>전용 대시보드</b>에서 확인'
           + (c.startDate ? ' (개시 '+esc(c.startDate)+')' : '') + '</td>'
           + '<td class="num zero">·</td></tr>';
       }).join('')
@@ -1063,9 +1083,9 @@ function viewCands(){
     + '기간 필터와 무관하게 <b>전체 기간</b>을 기준으로 찾습니다.</span></div>';
 
   h += '<div class="notice warn"><span class="k">검수 요청</span><span class="t">'
-    + '등록된 '+BRAND_IDX.length+'개 중 Tier <b>B '+nB+'개</b>는 데이터에 1지점만 있어 프랜차이즈로 <b>추정</b>해 넣은 브랜드입니다. '
+    + '등급은 데이터로 자동 판정합니다 — 매장 '+TIER_A_MIN+'곳 이상 <b>A '+nA+'개</b> · 미만 <b>B '+nB+'개</b>. '
     + '아닌 브랜드는 brands.js 에서 해당 줄만 지우면 즉시 집계에서 빠집니다. '
-    + 'Tier <b>A '+nA+'개</b>는 지점 2곳 이상이 데이터로 확인된 확정 브랜드입니다.</span></div>';
+    + '</span></div>';
 
   /* 선택 → 코드 생성 카드를 리스트 위에 둔다 (아래로 스크롤하지 않아도 바로 복사) */
   const sel = CANDS.filter(c=>picked.has(c.name));
@@ -1074,7 +1094,7 @@ function viewCands(){
     + '<button class="btn sm" id="candClear">선택 해제</button>'
     + '<button class="btn sm primary" id="copySnip">복사</button></div></div>'
     + '<div class="snip" id="snipBox">'+(sel.length
-        ? esc(sel.map(c=>"  { n:'"+c.name.replace(/'/g,"\\'")+"', tier:'A' },").join('\n'))
+        ? esc(sel.map(c=>"  { n:'"+c.name.replace(/'/g,"\\'")+"' },").join('\n'))
         : '아래에서 프랜차이즈가 맞는 브랜드를 체크하면 여기에 코드가 생성됩니다.')
     + '</div>'
     + '<div class="hint" style="margin-top:12px;color:var(--gray2);font-size:12.5px">'
@@ -1106,7 +1126,7 @@ function viewCands(){
     + '</div></div>';
 
   h += '<div class="card"><div class="card-head"><h3>등록 브랜드 '+BRAND_IDX.length+'개</h3>'
-    + '<span class="hint">A(확정) '+nA+' · B(검수 권장) '+nB+'</span></div>'
+    + '<span class="hint">A(매장 '+TIER_A_MIN+'곳↑) '+nA+' · B '+nB+'</span></div>'
     + '<div style="display:flex;flex-wrap:wrap;gap:7px">'
     + BRAND_IDX.slice().sort((a,b)=>a.tier.localeCompare(b.tier)||a.name.localeCompare(b.name,'ko'))
         .map(b=>'<span class="c" style="background:var(--surface2);border:1px solid var(--line-soft);border-radius:9px;padding:4px 10px;font-size:12.5px;color:var(--ink-soft)">'
@@ -1253,6 +1273,7 @@ document.getElementById('themeFab').addEventListener('click', function(){
   await Promise.all([loadClientLedgers(), loadVisits()]);
   CLIENT_FR.forEach(r=>FR.push(r));
   VISIT_FR.forEach(r=>FR.push(r));
+  computeTiers();
   rebuildDateUniverse();
 
   if(ALL_DATES.length){

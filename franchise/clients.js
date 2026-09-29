@@ -47,36 +47,25 @@ window.FRANCHISE_CLIENTS = [
   ──────────────────────────────────────────────────────── */
 ];
 
-/* ── A등급 브랜드 = 계약 고객사로 간주 ─────────────────────────
- *  brands.js 에서 tier:'A'(지점 2곳 이상 확인된 확정 브랜드)인 브랜드는
- *  위에 따로 적지 않아도 계약 고객사로 자동 등록된다.
- *  → 전용 대시보드(계약 모드) · 월간 보고서 · 엑셀이 그대로 열린다.
- *
- *  전용 원장 파일(dataFile)이 없으므로 원장은 ../slack-data.js 에서
- *  그 브랜드 건만 골라 즉석으로 만든다 (ledger:'slack').
- *  개별 설정(개시일·아이콘·원장 파일)이 필요해지면 위 CLIENTS 에 블록을
- *  직접 추가하면 된다 — 직접 등록한 블록이 항상 우선한다.
- *
- *  ※ brands.js 가 이 파일보다 먼저 로드돼야 한다.
+/* ── 원장 파일 없이 slack-data.js 로 운영하는 계약 고객사 ─────────
+ *  전용 원장(dataFile)이 아직 없는 계약 고객사는 ../slack-data.js 에서
+ *  그 브랜드 건만 골라 원장으로 쓴다 (ledger:'slack').
+ *  전용 원장이 생기면 위 CLIENTS 로 블록을 옮기고 dataFile 을 적으면 된다.
  * ───────────────────────────────────────────────────────── */
-(function(){
-  const norm = s => String(s).replace(/\s+/g,'').toLowerCase();
-  const have = new Set(window.FRANCHISE_CLIENTS.map(c=>norm(c.brand)));
-  (window.FRANCHISE_BRANDS || []).forEach(b=>{
-    if((b.tier || 'A') !== 'A' || have.has(norm(b.n))) return;
-    window.FRANCHISE_CLIENTS.push({
-      slug       : b.n,
-      brand      : b.n,
-      icon       : '🏢',
-      startDate  : '',
-      provider   : 'iShopCare 원격파트',
-      reportTitle: '원격 지원 월간 리포트',
-      ledger     : 'slack',             // dataFile 대신 slack-data.js 에서 원장 생성
-      auto       : true,                // A등급 자동 등록
-      note       : 'A등급 · 계약 고객사 간주',
-    });
-  });
-})();
+[
+  { slug:'yongyong',   brand:'용용선생' },
+  { slug:'gangchanggu',brand:'강창구찹쌀진순대' },
+  { slug:'droptop',    brand:'드롭탑' },
+  { slug:'hyungnau',   brand:'형과아우누룽지삼계탕' },
+  { slug:'er-tteok',   brand:'응급실국물떡볶이' },
+].forEach(c=>window.FRANCHISE_CLIENTS.push(Object.assign({
+  icon       : '🏢',
+  startDate  : '',
+  provider   : 'iShopCare 원격파트',
+  reportTitle: '원격 지원 월간 리포트',
+  ledger     : 'slack',
+  note       : '계약 고객사',
+}, c)));
 
 /*
  * 카테고리 체계

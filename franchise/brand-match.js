@@ -35,7 +35,7 @@
       const disp = [b.n].concat(b.a || []);
       return {
         name: b.n,
-        tier: b.tier || 'A',
+        tier: b.tier || 'B',   // 허브가 매장 수로 다시 판정한다 (index.html computeTiers)
         disp: disp,
         keys: disp.map(d=>({k:keyOf(d), d:d})).filter(x=>x.k.length>=2)
                   .sort((a,b)=>b.k.length-a.k.length),

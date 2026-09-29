@@ -392,7 +392,7 @@
 
    contract  clients.js 에 등록 + dataFile 있음 (예: 컴포즈커피)
              → 전용 원장(data/*.js)을 읽고 8종 카테고리 · 월간 보고서 · 엑셀
-             brands.js 의 A등급 브랜드도 계약 고객사로 자동 등록된다 (ledger:'slack')
+             dataFile 없이 ledger:'slack' 로 등록된 계약 고객사
              → 원장 파일 대신 slack-data.js 를 브랜드명으로 걸러 원장으로 쓴다
    slack     미등록 브랜드 (예: 드롭탑)
              → ../slack-data.js 의 기존 원격 집계를 브랜드명으로 걸러 보여줌
@@ -411,7 +411,7 @@ const QS    = new URLSearchParams(location.search);
 const BRAND = (QS.get('b') || QS.get('brand') || '').trim();
 const REG   = window.findClient ? window.findClient(BRAND) : null;
 const MODE  = (REG && (REG.dataFile || REG.ledger === 'slack')) ? 'contract' : 'slack';
-/* A등급 자동 고객사 — 계약 모드지만 원장은 slack-data.js 에서 만든다 */
+/* 원장 파일 없는 계약 고객사 — 계약 모드지만 원장은 slack-data.js 에서 만든다 */
 const SLACK_LEDGER = MODE === 'contract' && !REG.dataFile;
 
 /* 슬랙 원장 고객사는 계약 8종에 없는 배달·외주를 뒤에 덧붙인다 (건을 버리지 않도록) */
@@ -1152,7 +1152,7 @@ function downloadXlsx(){
   s1.push(['보고 기간', scopeLabel()]);
   s1.push(['작성', CLIENT.provider]);
   if(CLIENT.startDate) s1.push(['관리 개시일', CLIENT.startDate]);
-  s1.push(['데이터 출처', SLACK_LEDGER ? 'slack-data.js (A등급 · 원격 집계 기반 원장)'
+  s1.push(['데이터 출처', SLACK_LEDGER ? 'slack-data.js (원격 집계 기반 원장)'
                         : MODE==='contract' ? (REG.dataFile+' (전용 원장)') : 'slack-data.js (기존 원격 집계 필터)']);
   s1.push(['문서 생성일', TODAY]);
   if(IS_SAMPLE) s1.push(['⚠ 주의','샘플 데이터로 생성된 예시 — 대외 제출용 아님']);
@@ -1823,11 +1823,11 @@ function fillClientSelect(){
 
   document.getElementById('brandTitle').textContent = CLIENT.icon + ' ' + CLIENT.name;
   document.getElementById('brandSub').textContent =
-    SLACK_LEDGER ? '계약 고객사(A등급) · 원격 집계 원장'
+    SLACK_LEDGER ? '계약 고객사 · 원격 집계 원장'
     : MODE === 'contract' ? '계약 고객사 · 전용 원장' : '일반 브랜드 · 기존 원격 집계';
   const tag = document.getElementById('sinceTag');
   if(CLIENT.startDate) tag.textContent = '개시 ' + CLIENT.startDate;
-  else if(SLACK_LEDGER) tag.textContent = 'A등급';
+  else if(SLACK_LEDGER) tag.textContent = '계약 고객사';
   else { tag.textContent = '계약 전'; tag.className = 'since gray'; }
   document.title = CLIENT.name + ' 대시보드 · iShopCare';
   fillClientSelect();
