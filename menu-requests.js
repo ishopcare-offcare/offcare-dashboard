@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2629,
- "updatedAt": "2026-09-29 10:00",
+ "version": 2630,
+ "updatedAt": "2026-09-29 10:02",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,508 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C58N0EWTE",
+     "from": "댓글",
+     "path": "menu-files/1790643532_426979-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "안주",
+       "name": "과일",
+       "price": 30000
+      },
+      {
+       "category": "안주",
+       "name": "치킨샐러드",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "반건갑오징어",
+       "price": 30000
+      },
+      {
+       "category": "안주",
+       "name": "모듬플레터",
+       "price": 35000
+      },
+      {
+       "category": "안주",
+       "name": "메론하몽",
+       "price": 22000
+      },
+      {
+       "category": "안주",
+       "name": "나초치즈",
+       "price": 12000
+      },
+      {
+       "category": "안주",
+       "name": "감바스&파스타",
+       "price": 19000
+      },
+      {
+       "category": "안주",
+       "name": "수제소시지&샐러드&감자튀김",
+       "price": 24000
+      },
+      {
+       "category": "안주",
+       "name": "쥐알포",
+       "price": 30000
+      },
+      {
+       "category": "안주",
+       "name": "노가리",
+       "price": 19000
+      },
+      {
+       "category": "안주",
+       "name": "나막스알포",
+       "price": 20000
+      },
+      {
+       "category": "안주",
+       "name": "감자튀김",
+       "price": 12000
+      },
+      {
+       "category": "안주",
+       "name": "치즈 불닭",
+       "price": 23000
+      },
+      {
+       "category": "안주",
+       "name": "새우토마토치즈글레이즈",
+       "price": 22000
+      },
+      {
+       "category": "안주",
+       "name": "간사이오뎅탕",
+       "price": 23000
+      },
+      {
+       "category": "안주",
+       "name": "먹태+너츠&초코볼",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "골뱅이&소면무침",
+       "price": 27000
+      },
+      {
+       "category": "안주",
+       "name": "수제 닭꼬치",
+       "price": 22000
+      },
+      {
+       "category": "안주",
+       "name": "(추가)바게트",
+       "price": 3000
+      },
+      {
+       "category": "안주",
+       "name": "(추가)파스타면",
+       "price": 3000
+      },
+      {
+       "category": "안주",
+       "name": "과일+노가리",
+       "price": 38000
+      },
+      {
+       "category": "안주",
+       "name": "반건갑오징어(특)",
+       "price": 35000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C4YQWBXRR",
+     "from": "댓글",
+     "path": "menu-files/1790643532_426979-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맥주",
+       "name": "생맥주(테라)",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "코젤다크(시나몬)",
+       "price": 7000
+      },
+      {
+       "category": "맥주",
+       "name": "생맥주(코젤다크)",
+       "price": 6000
+      },
+      {
+       "category": "맥주",
+       "name": "생맥주(하이네켄)",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "생맥주(켈리)",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "코로나",
+       "price": 8000
+      },
+      {
+       "category": "맥주",
+       "name": "기네스",
+       "price": 10000
+      },
+      {
+       "category": "맥주",
+       "name": "카프리",
+       "price": 6000
+      },
+      {
+       "category": "맥주",
+       "name": "스텔라",
+       "price": 8000
+      },
+      {
+       "category": "맥주",
+       "name": "블랑1664",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "산미구엘",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "호가든",
+       "price": 7000
+      },
+      {
+       "category": "맥주",
+       "name": "무알콜맥주",
+       "price": 6000
+      },
+      {
+       "category": "맥주",
+       "name": "켈리(병)",
+       "price": 4000
+      },
+      {
+       "category": "맥주",
+       "name": "카스",
+       "price": 4500
+      },
+      {
+       "category": "맥주",
+       "name": "테라(병)",
+       "price": 4500
+      },
+      {
+       "category": "맥주",
+       "name": "KGB 레몬",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "진로",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C4ZT2BE85",
+     "from": "댓글",
+     "path": "menu-files/1790643532_426979-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "하이볼",
+       "name": "하이볼(짐빔)",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼(짐빔블랙)",
+       "price": 10000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼(미다이)",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼(산토리)",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼(제임슨)",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼(유자)",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼(잭)",
+       "price": 10000
+      },
+      {
+       "category": "하이볼",
+       "name": "잭콕",
+       "price": 11000
+      },
+      {
+       "category": "하이볼",
+       "name": "짐빔파이어",
+       "price": 10000
+      },
+      {
+       "category": "하이볼",
+       "name": "모히또",
+       "price": 11000
+      },
+      {
+       "category": "하이볼",
+       "name": "데킬라(호세쿠엘보에스페샬)",
+       "price": 10000
+      },
+      {
+       "category": "하이볼",
+       "name": "토닉(대)",
+       "price": 4000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼 샷추가",
+       "price": 3000
+      },
+      {
+       "category": "하이볼",
+       "name": "레몬보틀",
+       "price": 5000
+      },
+      {
+       "category": "하이볼",
+       "name": "생레몬",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C4ZT35KC5",
+     "from": "댓글",
+     "path": "menu-files/1790643532_426979-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "펩시 제로",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "차",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "과일주스",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C570EF109",
+     "from": "댓글",
+     "path": "menu-files/1790643532_426979-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "바틀",
+       "name": "바틀(짐빔)",
+       "price": 110000
+      },
+      {
+       "category": "바틀",
+       "name": "바틀(미다이)",
+       "price": 110000
+      },
+      {
+       "category": "바틀",
+       "name": "바틀(산토리)",
+       "price": 120000
+      },
+      {
+       "category": "바틀",
+       "name": "바틀(제임슨)",
+       "price": 120000
+      },
+      {
+       "category": "바틀",
+       "name": "바틀(짐빔블랙)",
+       "price": 130000
+      },
+      {
+       "category": "바틀",
+       "name": "바틀(잭)",
+       "price": 130000
+      },
+      {
+       "category": "바틀",
+       "name": "바틀(유자)",
+       "price": 50000
+      },
+      {
+       "category": "바틀",
+       "name": "샤페라비 레드",
+       "price": 75000
+      },
+      {
+       "category": "바틀",
+       "name": "알자라니 레드",
+       "price": 55000
+      },
+      {
+       "category": "바틀",
+       "name": "그루자니 화이트",
+       "price": 75000
+      },
+      {
+       "category": "바틀",
+       "name": "콜키지",
+       "price": 30000
+      },
+      {
+       "category": "바틀",
+       "name": "골든블루다이아몬드",
+       "price": 150000
+      },
+      {
+       "category": "바틀",
+       "name": "골든블루사피루스",
+       "price": 100000
+      },
+      {
+       "category": "바틀",
+       "name": "일품진로오크43",
+       "price": 65000
+      },
+      {
+       "category": "바틀",
+       "name": "피로스마니21",
+       "price": 75000
+      },
+      {
+       "category": "바틀",
+       "name": "쿠보타센쥬긴죠",
+       "price": 90000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C54THES90",
+     "from": "댓글",
+     "path": "menu-files/1790643532_426979-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "안주",
+       "name": "봉골레파스타",
+       "price": 16000
+      },
+      {
+       "category": "안주",
+       "name": "토마토파스타",
+       "price": 16000
+      },
+      {
+       "category": "안주",
+       "name": "수제만두",
+       "price": 12000
+      },
+      {
+       "category": "안주",
+       "name": "마르게리타피자",
+       "price": 19000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C4YR3F3UK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "테이크아웃",
+       "name": "피자+생맥1L포장",
+       "price": 25000
+      },
+      {
+       "category": "테이크아웃",
+       "name": "생맥주포장 1L",
+       "price": 10000
+      },
+      {
+       "category": "테이크아웃",
+       "name": "노가리&생맥1L 포장",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C4ZTAKLFP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5ZCY3JQ0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": []
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790643535.488989",
+   "rc": 3,
+   "lr": "1790643674.008719",
    "rfx": 3,
    "status": "wait",
    "handler": null,
