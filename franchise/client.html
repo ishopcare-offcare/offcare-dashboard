@@ -226,6 +226,17 @@
   .eq-last{border:none; background:none; padding:3px 6px; margin:-3px -6px; border-radius:7px; font:inherit; font-size:14px;
     color:var(--blue); text-decoration:underline; text-underline-offset:3px; cursor:pointer}
   .eq-last:hover{background:var(--blue-soft)}
+  .own-seg{display:inline-flex; border:1px solid var(--line); border-radius:9px; overflow:hidden; vertical-align:middle}
+  .own-seg button{border:none; background:var(--canvas); color:var(--gray2); font:inherit; font-size:12px; font-weight:700; padding:4px 10px; cursor:pointer}
+  .own-seg button + button{border-left:1px solid var(--line)}
+  .own-seg button.on.rental{background:#e8f1ff; color:#0060c0}
+  .own-seg button.on.purchase{background:#e7f8ec; color:#166534}
+  .own-def{font-size:10.5px; color:var(--gray2); margin-left:5px}
+  .own-tag{font-size:12px; font-weight:800; padding:2px 9px; border-radius:20px}
+  .own-tag.rental{background:#e8f1ff; color:#0060c0} .own-tag.purchase{background:#e7f8ec; color:#166534}
+  .eq-rm{color:var(--red)}
+  .eq-by-last{align-self:flex-start; margin-top:4px; border:1px dashed var(--line); background:none; border-radius:8px;
+    font:inherit; font-size:12px; color:var(--blue); padding:3px 9px; cursor:pointer}
   tr.eq-manual td{background:#f6f1ff}
   :root[data-theme="dark"] tr.eq-manual td{background:rgba(110,63,229,.16)}
   .eq-ed{font-size:10.5px; font-weight:800; padding:1px 6px; border-radius:20px; background:#efe7fd; color:#6e3fe5; vertical-align:middle}
@@ -241,7 +252,7 @@
     background:#1d1d1f; color:#fff; padding:11px 18px; border-radius:12px; font-size:14px; font-weight:600; box-shadow:0 8px 24px rgba(0,0,0,.3)}
   .eq-toast.bad{background:#b91c1c}
   /* 읽기 전용(고객사 공유본) — 수정 버튼을 전부 숨긴다 */
-  .eq-ro [data-eqadd],.eq-ro [data-eqov],.eq-ro [data-eqedit],.eq-ro [data-eqdel]{display:none !important}
+  .eq-ro [data-eqadd],.eq-ro [data-eqov],.eq-ro [data-eqedit],.eq-ro [data-eqdel],.eq-ro [data-eqrm],.eq-ro [data-eqown]{display:none !important}
   @media (max-width:680px){ .eq-form{grid-template-columns:1fr} }
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 12px; line-height:1.8}
   .delta{font-size:12.5px; font-weight:700}
@@ -1710,6 +1721,9 @@ const stChip  = k => '<span class="st-chip" style="background:' + stColor(k) + '
    기간 선택과 무관하게 전체 이력을 쓴다 (장비는 '지금 무엇이 있나' 라서). */
 let equipQ = '', equipSel = '', equipItem = '';
 let EQUIP_REG = [];          /* 장비 대장 행 (equipFile) */
+/* 소유 형태 — 기본 렌탈, clients.js 의 equipOwn 으로 브랜드별 기본값(드롭탑 = 구매). 장비별로 바꾸면 그 값이 우선 */
+const EQ_OWN_DEFAULT = (REG && REG.equipOwn === 'purchase') ? 'purchase' : 'rental';
+const OWN_LABEL = {rental:'렌탈', purchase:'구매'};
 const EQ_TYPE_COLOR = {'설치':'#34c759','교체':'#ff9500','회수':'#8e8e93','AS':'#ff3b30',
                        '원격AS':'#0071e3','온보딩':'#5e5ce6','점검':'#00c7be','장비대장':'#af52de','기타':'#aeaeb4'};
 const eqChip = t => '<span class="cat-chip" style="background:' + (EQ_TYPE_COLOR[t]||'#aeaeb4') + '22;color:'
@@ -1738,7 +1752,7 @@ function equipEvents(){
     const m = EQUIP_EDIT[key];
     if(!m || m.k !== 'e') return;
     ev.push({branch:m.branch, date:m.date || '', type:m.type || '기타',
-             items:[{type:m.item, name:m.name || m.item, qty:+m.qty || 0, models:m.model ? [String(m.model).toUpperCase()] : [], existing:false}],
+             items:[{type:m.item, name:m.name || m.item, qty:+m.qty || 0, models:m.model ? [String(m.model).toUpperCase()] : [], existing:false, own:m.own || ''}],
              text:m.note || '', emp:m.by || '', src:'수기', key:key,
              pair: m.from ? {from:String(m.from).toUpperCase(), to:String(m.model || '?').toUpperCase()} : null});
   });
@@ -1759,7 +1773,7 @@ function equipEvents(){
 /* 한 지점의 이력(최신순) → 장비별 현재 상태. branch 를 주면 수기 보정(o:)까지 덮어쓴다 */
 function equipInventory(evs, branch){
   const base = equipInventoryAuto(evs);
-  if(!branch) return base;
+  if(!branch) return eqOwnFill(base);
   const byType = Object.fromEntries(base.map(o => [o.type, o]));
   Object.keys(EQUIP_EDIT).forEach(function(key){
     const m = EQUIP_EDIT[key];
@@ -1776,8 +1790,14 @@ function equipInventory(evs, branch){
     if(m.status === 'removed') o.removed = m.removedAt || m.replaced || '회수';
     if(m.status === 'active')  o.removed = '';
     if(m.existing !== undefined) o.existing = !!m.existing;
+    if(m.own) o.own = m.own;
   });
-  return base;
+  return eqOwnFill(base);
+}
+/* 소유 형태를 정하지 않은 장비는 브랜드 기본값으로 — ownSet 은 사람이 정했는지 */
+function eqOwnFill(list){
+  list.forEach(o => { o.ownSet = !!o.own; if(!o.own) o.own = EQ_OWN_DEFAULT; });
+  return list;
 }
 function equipInventoryAuto(evs){
   const inv = {};
@@ -1792,6 +1812,7 @@ function equipInventoryAuto(evs){
         if(e.type === '설치' && !o.first) o.first = e.date;
         if(e.type === '교체') o.replaced = e.date;
         if(it.existing) o.existing = true;
+        if(it.own) o.own = it.own;                     /* 수기로 추가할 때 고른 렌탈/구매 */
         o.removed = '';
       }
       if(e.type === '회수') o.removed = e.date;
@@ -1887,7 +1908,7 @@ function equipDetail(s){
     h += '<div class="empty">이 지점은 장비가 확인된 기록이 없습니다.<br>'
       + '<span style="font-size:12.5px">위 <b>＋ 기록 추가</b>로 설치된 장비를 직접 넣을 수 있습니다.</span></div>';
   }else{
-    h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th class="num">수량</th><th>모델</th><th>상태</th>'
+    h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th>소유</th><th class="num">수량</th><th>모델</th><th>상태</th>'
       + '<th>설치</th><th>최근 교체</th><th>최근 AS·점검</th><th class="num">기록</th><th></th></tr></thead><tbody>'
       + inv.map(function(o){
           const st = o.removed ? '<span style="color:var(--gray)">회수' + (o.removed !== '회수' ? ' ' + o.removed : '') + '</span>'
@@ -1896,6 +1917,7 @@ function equipDetail(s){
           return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 이 장비 이력만">'
             + '<td style="font-weight:700;white-space:nowrap">' + esc(o.name)
             + (o.edited ? ' <span class="eq-ed" title="수기 수정' + (o.editBy ? ' · ' + esc(o.editBy) : '') + (o.editNote ? ' · ' + esc(o.editNote) : '') + '">수기</span>' : '') + '</td>'
+            + '<td style="white-space:nowrap">' + eqOwnCell(o) + '</td>'
             + '<td class="num">' + (o.qty || '—') + '</td>'
             + '<td style="font-size:12.5px;color:var(--gray)">' + (o.models.length ? esc(o.models.join(', ')) : '—') + '</td>'
             + '<td style="white-space:nowrap">' + st + '</td>'
@@ -1903,11 +1925,12 @@ function equipDetail(s){
             + '<td style="white-space:nowrap;' + (o.replaced ? 'color:#c2410c;font-weight:700' : '') + '">' + (o.replaced || '—') + '</td>'
             + '<td style="white-space:nowrap">' + (o.lastAs || '—') + '</td>'
             + '<td class="num">' + (o.n || '·') + '</td>'
-            + '<td style="white-space:nowrap;text-align:right"><button class="btn sm" data-eqov="' + esc(o.type) + '" title="수량·모델·설치일·교체일·상태 수정">✏️ 수정</button></td></tr>';
+            + '<td style="white-space:nowrap;text-align:right"><button class="btn sm" data-eqov="' + esc(o.type) + '" title="수량·모델·설치일·교체일·상태 수정">✏️ 수정</button> '
+            + (o.removed ? '' : '<button class="btn sm eq-rm" data-eqrm="' + esc(o.type) + '" title="이 장비를 목록에서 빼기 (회수 · 잘못 등록)">－ 빼기</button>') + '</td></tr>';
         }).join('')
       + '</tbody></table></div>'
       + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · '
-      + '<b>수기</b> 표시는 사람이 고친 값 · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div>';
+      + '<b>수기</b> 표시는 사람이 고친 값 · 소유는 기본 <b>' + OWN_LABEL[EQ_OWN_DEFAULT] + '</b>(눌러서 장비별 변경) · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div>';
   }
   if(hidden.length){
     h += '<div style="font-size:12px;color:var(--gray2);margin-top:8px">숨긴 장비: '
@@ -2031,12 +2054,85 @@ function eqToast(msg, bad){
 }
 
 /* 장비명 → 종류 키. 사전에 있으면 그 종류(자동 이력과 합쳐짐), 없으면 직접 입력한 이름 그대로 */
+/* 기존 종류로 합치는 건 이름 전체가 그 종류를 뜻할 때만('포스기' → 포스, '주방 프린터' → 유선프린터).
+   일부만 겹치면('바코드 프린터') 직접 입력한 새 장비로 둔다 — 안 그러면 커스텀 장비가 엉뚱한 장비에 합쳐진다. */
 function eqTypeOf(name){
   const n = String(name || '').trim();
-  const t = EquipParse.TYPES.find(x => x.name === n) || (EquipParse.parseItems(n)[0] && EquipParse.TYPE_MAP[EquipParse.parseItems(n)[0].type]);
-  return t ? {type:t.key, name:t.name} : {type:'x:' + n, name:n};
+  const t = EquipParse.TYPES.find(x => x.name === n)
+         || EquipParse.TYPES.find(x => new RegExp('^\\s*(?:' + x.re.source + ')\\s*$', 'i').test(n));
+  return t ? {type:t.key, name:t.name} : {type:'x:' + n.replace(/\s+/g, ' '), name:n};
 }
 const eqNameList = () => '<datalist id="eqNames">' + EquipParse.TYPES.map(t => '<option value="' + esc(t.name) + '">').join('') + '</datalist>';
+/* 담당자 칸 — 미리 채우지 않는다(요청: 수정할 때마다 담당자 이름을 넣게). 대신 최근 이름을 한 번에 채우는 버튼 */
+function eqByField(id){
+  const last = lsGet(LS_EQ_BY, '');
+  return '<label class="eq-f"><span>담당자 *</span><input id="' + id + '" placeholder="변경하는 담당자 이름 (필수)" autocomplete="off">'
+    + (last ? '<button type="button" class="eq-by-last" onclick="document.getElementById(\'' + id + '\').value=this.dataset.n" data-n="' + esc(last) + '">최근: ' + esc(last) + '</button>' : '')
+    + '</label>';
+}
+function eqNeedBy(id, errId){
+  const v = document.getElementById(id).value.trim();
+  if(!v){ document.getElementById(errId).textContent = '담당자 이름을 입력해야 저장됩니다'; document.getElementById(id).focus(); return ''; }
+  lsSet(LS_EQ_BY, v); return v;
+}
+const ownSelect = (id, v) => '<select id="' + id + '">' + ['rental','purchase'].map(k => '<option value="' + k + '"' + (v === k ? ' selected' : '') + '>' + OWN_LABEL[k] + '</option>').join('') + '</select>';
+/* 소유 형태 칸 — 렌탈/구매 토글. 공유본(읽기 전용)은 글자만 */
+function eqOwnCell(o){
+  if(EQ_READONLY) return '<span class="own-tag ' + o.own + '">' + OWN_LABEL[o.own] + '</span>';
+  return '<span class="own-seg" title="' + (o.ownSet ? '수기 지정' : '기본값(' + OWN_LABEL[EQ_OWN_DEFAULT] + ')') + '">'
+    + ['rental','purchase'].map(k => '<button type="button" class="' + (o.own === k ? 'on ' + k : '') + '" data-eqown="' + esc(o.type) + '" data-v="' + k + '">' + OWN_LABEL[k] + '</button>').join('')
+    + '</span>' + (o.ownSet ? '' : '<span class="own-def">기본</span>');
+}
+/* 보정(o:) 은 필드 단위로 합친다 — 소유만 바꿀 때 수량·모델 보정이 날아가면 안 된다 */
+function eqMergeOverride(branch, type, name, patch){
+  const key = EQ_PREFIX + branch + '|o:' + type;
+  const cur = EQUIP_EDIT[key] || {k:'o', branch:branch, type:type, name:name};
+  eqSave(key, Object.assign({}, cur, patch, {_t:Date.now()}));
+}
+function eqFindItem(branch, type){
+  const st = equipStores().find(x => x.branch === branch);
+  return equipInventory(st ? st.evs : [], branch).find(x => x.type === type) || {type:type, name:type, own:EQ_OWN_DEFAULT, models:[]};
+}
+/* 렌탈 ↔ 구매 변경 */
+function eqOpenOwnForm(branch, type, v){
+  const o = eqFindItem(branch, type);
+  if(o.own === v && o.ownSet) return;
+  const body = '<div class="eq-form">'
+    + '<div class="eq-hint"><b>' + esc(o.name) + '</b> 소유 형태를 <b>' + OWN_LABEL[o.own] + '</b> → <b>' + OWN_LABEL[v] + '</b> 로 바꿉니다.</div>'
+    + fRow('메모', fIn('eqwNote', '', 'placeholder="예: 계약서 기준 구매 확인"'))
+    + eqByField('eqwBy')
+    + '<div class="eq-actions"><span class="eq-err" id="eqwErr"></span>'
+    + '<button class="btn" type="button" data-close="1">취소</button>'
+    + '<button class="btn primary" type="button" id="eqwSave">' + OWN_LABEL[v] + '(으)로 변경</button></div></div>';
+  openDrill('🏷 ' + esc(branch) + ' · ' + esc(o.name), '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  document.getElementById('eqwSave').addEventListener('click', function(){
+    const by = eqNeedBy('eqwBy', 'eqwErr'); if(!by) return;
+    const note = document.getElementById('eqwNote').value.trim();
+    closeDrill(); eqMergeOverride(branch, type, o.name, {own:v, by:by, note: note || ('소유 ' + OWN_LABEL[v] + '(으)로 변경')});
+  });
+}
+/* 장비 빼기 — 회수(매장에서 철수) 또는 잘못 등록(목록에서 삭제) */
+function eqOpenRemoveForm(branch, type){
+  const o = eqFindItem(branch, type);
+  const body = '<div class="eq-form">'
+    + fRow('사유 *', '<select id="eqrWhy"><option value="removed">회수 — 매장에서 장비를 뺐다 (이력에 회수로 남음)</option>'
+        + '<option value="hidden">잘못 등록 — 원래 없는 장비 (목록에서 삭제)</option></select>')
+    + fRow('일자', fIn('eqrDate', TODAY, 'type="date"'))
+    + fRow('메모', fIn('eqrNote', '', 'placeholder="예: 계약 해지로 회수"'))
+    + eqByField('eqrBy')
+    + '<div class="eq-actions"><span class="eq-err" id="eqrErr"></span>'
+    + '<button class="btn" type="button" data-close="1">취소</button>'
+    + '<button class="btn primary" type="button" id="eqrSave">빼기</button></div></div>';
+  openDrill('－ ' + esc(branch) + ' · ' + esc(o.name) + ' 빼기', '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  document.getElementById('eqrSave').addEventListener('click', function(){
+    const by = eqNeedBy('eqrBy', 'eqrErr'); if(!by) return;
+    const why = document.getElementById('eqrWhy').value, date = document.getElementById('eqrDate').value;
+    const note = document.getElementById('eqrNote').value.trim();
+    closeDrill();
+    if(why === 'hidden') eqMergeOverride(branch, type, o.name, {hidden:true, status:'', by:by, note: note || '잘못 등록 — 목록에서 삭제'});
+    else eqMergeOverride(branch, type, o.name, {hidden:false, status:'removed', removedAt:date, by:by, note: note || '회수'});
+  });
+}
 const fRow = (label, input) => '<label class="eq-f"><span>' + label + '</span>' + input + '</label>';
 const fIn  = (id, val, attr) => '<input id="' + id + '" value="' + esc(val == null ? '' : val) + '" ' + (attr || '') + '>';
 
@@ -2073,7 +2169,7 @@ function eqOpenLog(branch){
       + overrides.map(m => '<tr><td style="white-space:nowrap;color:var(--gray)">' + (when(m._t) || '—') + '</td>'
           + '<td style="font-weight:700">' + esc(m.name || m.type) + '</td>'
           + '<td style="white-space:nowrap;font-weight:800">' + esc(m.by || '—') + '</td>'
-          + '<td style="font-size:12.5px">' + esc([m.hidden ? '목록에서 숨김' : '', m.qty ? '수량 ' + m.qty : '', m.model ? '모델 ' + m.model : '',
+          + '<td style="font-size:12.5px">' + esc([m.hidden ? '목록에서 숨김' : '', m.own ? '소유 ' + OWN_LABEL[m.own] : '', m.qty ? '수량 ' + m.qty : '', m.model ? '모델 ' + m.model : '',
               m.installed ? '설치 ' + m.installed : '', m.replaced ? '교체 ' + m.replaced : '',
               m.status === 'removed' ? '회수' : m.status === 'active' ? '운영중' : '', m.note || ''].filter(Boolean).join(' · ') || '—') + '</td></tr>').join('')
       + '</tbody></table>';
@@ -2101,12 +2197,13 @@ function eqOpenEventForm(branch, key){
           + '<datalist id="eqBranches">' + branches.map(b => '<option value="' + esc(b) + '">').join('') + '</datalist>')
     + fRow('일자 *', fIn('eqfDate', m ? m.date : TODAY, 'type="date"'))
     + fRow('구분 *', '<select id="eqfType">' + types.map(t => '<option' + ((m ? m.type : '설치') === t ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>')
-    + fRow('장비 *', fIn('eqfItem', m ? m.name : '', 'list="eqNames" placeholder="포스 · 프론트 · 유선프린터 …"') + eqNameList())
+    + fRow('장비 *', fIn('eqfItem', m ? m.name : '', 'list="eqNames" placeholder="목록에서 고르거나 직접 입력 (예: 바코드 프린터)"') + eqNameList())
     + fRow('수량', fIn('eqfQty', m ? m.qty : 1, 'type="number" min="0" max="99"'))
     + fRow('모델', fIn('eqfModel', m ? m.model : '', 'placeholder="교체면 새 모델"'))
     + fRow('이전 모델', fIn('eqfFrom', m ? m.from : '', 'placeholder="교체일 때만 · 예: TS100E"'))
+    + fRow('소유', ownSelect('eqfOwn', m ? (m.own || EQ_OWN_DEFAULT) : EQ_OWN_DEFAULT))
     + fRow('메모', fIn('eqfNote', m ? m.note : '', 'placeholder="교체 사유 · 업체 등"'))
-    + fRow('담당자 *', fIn('eqfBy', m ? m.by : lsGet(LS_EQ_BY, ''), 'placeholder="추가하는 담당자 이름 (필수)"'))
+    + eqByField('eqfBy')
     + '<div class="eq-actions"><span class="eq-err" id="eqfErr"></span>'
     + '<button class="btn" type="button" data-close="1">취소</button>'
     + '<button class="btn primary" type="button" id="eqfSave">' + (m ? '수정 저장' : '추가') + '</button></div></div>';
@@ -2121,7 +2218,7 @@ function eqOpenEventForm(branch, key){
     const t = eqTypeOf(item);
     const k = key || (EQ_PREFIX + br + '|e:' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
     const val = {k:'e', branch:br, date:g('eqfDate'), type:g('eqfType'), item:t.type, name:t.name,
-                 qty:+g('eqfQty') || 0, model:g('eqfModel'), from:g('eqfFrom'), note:g('eqfNote'), by:by, _t:Date.now()};
+                 qty:+g('eqfQty') || 0, model:g('eqfModel'), from:g('eqfFrom'), own:g('eqfOwn'), note:g('eqfNote'), by:by, _t:Date.now()};
     closeDrill();
     if(!key && br !== equipSel){ equipSel = br; equipItem = ''; }
     eqSave(k, val);
@@ -2146,8 +2243,9 @@ function eqOpenOverrideForm(branch, type){
             .map(x => '<option value="' + x[0] + '"' + ((m.hidden ? 'hidden' : (m.status || '')) === x[0] ? ' selected' : '') + '>' + x[1] + '</option>').join('')
         + '</select>')
     + fRow('회수일', fIn('eqoRemAt', m.removedAt || '', 'type="date"'))
+    + fRow('소유', ownSelect('eqoOwn', m.own || o.own || EQ_OWN_DEFAULT))
     + fRow('메모', fIn('eqoNote', m.note || ''))
-    + fRow('담당자 *', fIn('eqoBy', m.by || lsGet(LS_EQ_BY, ''), 'placeholder="수정하는 담당자 이름 (필수)"'))
+    + eqByField('eqoBy')
     + '<div class="eq-actions"><span class="eq-err" id="eqoErr"></span>'
     + (EQUIP_EDIT[key] ? '<button class="btn" type="button" id="eqoReset" title="수기 수정을 지우고 자동 판정으로">↺ 자동 값으로 되돌리기</button>' : '')
     + '<button class="btn" type="button" data-close="1">취소</button>'
@@ -2161,7 +2259,7 @@ function eqOpenOverrideForm(branch, type){
     const st = g('eqoStatus');
     const val = {k:'o', branch:branch, type:type, name:o.name, qty:+g('eqoQty') || 0, model:g('eqoModel'),
                  installed:g('eqoInst'), replaced:g('eqoRepl'), status: st === 'hidden' ? '' : st, hidden: st === 'hidden',
-                 removedAt:g('eqoRemAt'), note:g('eqoNote'), by:by, _t:Date.now()};
+                 removedAt:g('eqoRemAt'), own:g('eqoOwn'), note:g('eqoNote'), by:by, _t:Date.now()};
     closeDrill(); eqSave(key, val);
   });
   const rs = document.getElementById('eqoReset');
@@ -2334,6 +2432,8 @@ function bindEvents(){
     on('[data-eqadd]',  b => eqOpenEventForm(b.dataset.eqadd || '', ''));
     on('[data-eqedit]', b => eqOpenEventForm('', b.dataset.eqedit));
     on('[data-eqov]',   b => eqOpenOverrideForm(equipSel, b.dataset.eqov));
+    on('[data-eqown]',  b => eqOpenOwnForm(equipSel, b.dataset.eqown, b.dataset.v));
+    on('[data-eqrm]',   b => eqOpenRemoveForm(equipSel, b.dataset.eqrm));
     on('[data-eqdel]',  b => {
       const m = EQUIP_EDIT[b.dataset.eqdel];
       if(confirm('이 수기 기록을 삭제할까요?\n' + (m ? m.date + ' · ' + m.type + ' · ' + m.name : '') + '\n(팀 전체에서 사라집니다)')) eqSave(b.dataset.eqdel, '');

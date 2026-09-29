@@ -48,6 +48,8 @@ window.FRANCHISE_CLIENTS = [
   ──────────────────────────────────────────────────────── */
 ];
 
+/* equipOwn : 장비 조회의 소유 형태 기본값. 'rental'(기본) | 'purchase'.
+ *            장비마다 대시보드에서 바꿀 수 있고, 바꾼 값이 이 기본값보다 우선한다. */
 /* ── 원장 파일 없이 slack-data.js 로 운영하는 계약 고객사 ─────────
  *  전용 원장(dataFile)이 아직 없는 계약 고객사는 ../slack-data.js 에서
  *  그 브랜드 건만 골라 원장으로 쓴다 (ledger:'slack').
@@ -56,7 +58,7 @@ window.FRANCHISE_CLIENTS = [
 [
   { slug:'yongyong',   brand:'용용선생' },
   { slug:'gangchanggu',brand:'강창구찹쌀진순대' },
-  { slug:'droptop',    brand:'드롭탑' },
+  { slug:'droptop',    brand:'드롭탑',   equipOwn:'purchase' },   // 장비 기본 '구매' (다른 곳은 렌탈)
   { slug:'hyungnau',   brand:'형과아우누룽지삼계탕' },
   { slug:'er-tteok',   brand:'응급실국물떡볶이' },
 ].forEach(c=>window.FRANCHISE_CLIENTS.push(Object.assign({
