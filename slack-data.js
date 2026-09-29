@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14252,
+  "version": 14253,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215353,6 +215353,9 @@ window.SLACK_DATA = {
     },
     "2026-09-29": {
       "counts": {
+        "as": {
+          "고경림": 1
+        },
         "onboarding": {
           "심성현": 1
         },
@@ -215365,6 +215368,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:14",
+          "store": "카페동해",
+          "biz": "3960702999",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프론트 결제 진행 시 너무 느리게 작동하여 결제가 어렵다고하여 확인 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:08",
           "store": "유한회사 비피오엘",
@@ -215400,7 +215414,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -284977,7 +284991,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 09:22",
+    "at": "2026-09-29 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
