@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14261,
+  "version": 14262,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215418,7 +215418,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:47",
+      "updatedAt": "09:49",
       "voc": {
         "responses": 1,
         "install": {
@@ -215605,14 +215605,21 @@ window.SLACK_DATA = {
       },
       "1790641801.953659": {
         "post": "1790641801.953659",
-        "lastSeen": 1790642899.644,
+        "lastSeen": 1790643002.328,
         "r": 1,
         "day": "2026-09-29",
         "idx": 1
       },
       "1790642872.827949": {
         "post": "1790642872.827949",
-        "lastSeen": 1790642899.644
+        "lastSeen": 1790643002.328,
+        "r": 1,
+        "day": "2026-09-29",
+        "idx": 2
+      },
+      "1790642991.307149": {
+        "post": "1790642991.307149",
+        "lastSeen": 1790643002.328
       }
     },
     "days": {
@@ -284984,8 +284991,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-29": {
-        "cnt": 2,
-        "sumMin": 8.389334535598755,
+        "cnt": 3,
+        "sumMin": 9.69196871916453,
         "over": 0,
         "items": [
           {
@@ -285004,13 +285011,21 @@ window.SLACK_DATA = {
             "biz": "2617800297",
             "who": "심성현",
             "cat": "nosetup"
+          },
+          {
+            "hm": "09:47",
+            "min": 1.3,
+            "store": "스몰굿커피 문정점",
+            "biz": "6412901913",
+            "who": "배선유",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-29 09:48",
+    "at": "2026-09-29 09:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
