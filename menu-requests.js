@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2655,
- "updatedAt": "2026-09-29 14:46",
+ "version": 2656,
+ "updatedAt": "2026-09-29 14:51",
  "days": 30,
  "items": [
   {
@@ -58,8 +58,8 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1790660342.116589",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790660222115419"
   },
   {
@@ -199,11 +199,637 @@ window.MENU_REQUESTS = {
    "special": "메뉴이미지 메일로 보내드릴께요",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_0864.jpeg",
+     "fid": "F0C56D33V1Q",
+     "from": "댓글",
+     "path": "menu-files/1790659378_600719-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요리류",
+       "name": "마라룽샤",
+       "price": 35000
+      },
+      {
+       "category": "요리류",
+       "name": "마라새우",
+       "price": 28000
+      },
+      {
+       "category": "요리류",
+       "name": "쯔란심관",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "어향육슬",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "류육단",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "향라육슬",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "꿔바러우",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "쯔란오돌뼈",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "향라오돌뼈",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "매운소위",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "쯔란양고기",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "향라닭날개",
+       "price": 20000
+      },
+      {
+       "category": "요리류",
+       "name": "향라오징어",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "경장육슬",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "쯔란소고기",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "깐밴소고기",
+       "price": 20000
+      },
+      {
+       "category": "요리류",
+       "name": "쯔란빤진",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "향라새우",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "고추건두부",
+       "price": 12000
+      },
+      {
+       "category": "요리류",
+       "name": "지삼선",
+       "price": 16000
+      },
+      {
+       "category": "요리류",
+       "name": "가지요리",
+       "price": 13000
+      },
+      {
+       "category": "요리류",
+       "name": "가지고기볶음",
+       "price": 16000
+      },
+      {
+       "category": "요리류",
+       "name": "마파두부",
+       "price": 13000
+      },
+      {
+       "category": "요리류",
+       "name": "마라향궈",
+       "price": 22000
+      },
+      {
+       "category": "요리류",
+       "name": "부추계란볶음",
+       "price": 12000
+      },
+      {
+       "category": "요리류",
+       "name": "마라룽샤웨이",
+       "price": 28000
+      },
+      {
+       "category": "요리류",
+       "name": "소배필볶음",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "향라모래집",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "숙주",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0865.jpeg",
+     "fid": "F0C5A7VP7C4",
+     "from": "댓글",
+     "path": "menu-files/1790659378_600719-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요리류",
+       "name": "고추잡채",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "토마토계란볶음",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0866.jpeg",
+     "fid": "F0C58FKRGU9",
+     "from": "댓글",
+     "path": "menu-files/1790659378_600719-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "탕류",
+       "name": "소위샤브",
+       "price": 25000
+      },
+      {
+       "category": "탕류",
+       "name": "소위꼬치추가(15)",
+       "price": 10000
+      },
+      {
+       "category": "탕류",
+       "name": "짬뽕탕",
+       "price": 15000
+      },
+      {
+       "category": "탕류",
+       "name": "마라탕1단계",
+       "price": 12000
+      },
+      {
+       "category": "탕류",
+       "name": "마라탕2단계",
+       "price": 12000
+      },
+      {
+       "category": "탕류",
+       "name": "마라탕3단계",
+       "price": 12000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0867.jpeg",
+     "fid": "F0C5A7WPCSG",
+     "from": "댓글",
+     "path": "menu-files/1790659378_600719-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "무침류",
+       "name": "소고기장조림",
+       "price": 20000
+      },
+      {
+       "category": "무침류",
+       "name": "양깃머리무침",
+       "price": 22000
+      },
+      {
+       "category": "무침류",
+       "name": "오이무침",
+       "price": 12000
+      },
+      {
+       "category": "무침류",
+       "name": "소고기오이무침",
+       "price": 18000
+      },
+      {
+       "category": "무침류",
+       "name": "건두부무침",
+       "price": 12000
+      },
+      {
+       "category": "무침류",
+       "name": "마라소위무침",
+       "price": 18000
+      },
+      {
+       "category": "무침류",
+       "name": "고수무침",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0868.jpeg",
+     "fid": "F0C60TXTPU0",
+     "from": "댓글",
+     "path": "menu-files/1790659378_600719-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사류",
+       "name": "온면",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "냉면",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "해장라면",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "투도온면(매운맛)",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "우육면(매운맛)",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "우육면(보통맛)",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "볶음면",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "물만두",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "계란볶음밥",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "란주라면",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "연변순대",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사류",
+       "name": "훈둔",
+       "price": 7000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0869.jpeg",
+     "fid": "F0C4R63J6TZ",
+     "from": "댓글",
+     "path": "menu-files/1790659378_600719-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "연태고량(중)",
+       "price": 22000
+      },
+      {
+       "category": "주류",
+       "name": "연태고량(대)",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "공부가주(중)",
+       "price": 22000
+      },
+      {
+       "category": "주류",
+       "name": "공부가주(대)",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "죽엽청주",
+       "price": 28000
+      },
+      {
+       "category": "주류",
+       "name": "설원(중)",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "설원(대)",
+       "price": 20000
+      },
+      {
+       "category": "주류",
+       "name": "노주탄(중)",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "노주탄(대)",
+       "price": 20000
+      },
+      {
+       "category": "주류",
+       "name": "뉴란산",
+       "price": 20000
+      },
+      {
+       "category": "주류",
+       "name": "빙천맥주",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "청도맥주",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "설화맥주",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "할빈맥주",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "중국음료수",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "소주1주년행사",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "맥주1주년행사",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "탄산수",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "주거량",
+       "price": 60000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0870.jpeg",
+     "fid": "F0C4R6407HV",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "고수10g",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0863.jpeg",
+     "fid": "F0C4R64A2LX",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "꼬치류",
+       "name": "고급갈비(1인분)300g",
+       "price": 28000
+      },
+      {
+       "category": "꼬치류",
+       "name": "마라양꼬치",
+       "price": 16000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양꼬치",
+       "price": 15000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양갈비살",
+       "price": 18000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양삼겹살",
+       "price": 15000
+      },
+      {
+       "category": "꼬치류",
+       "name": "매운양꼬치",
+       "price": 16000
+      },
+      {
+       "category": "꼬치류",
+       "name": "소갈비살",
+       "price": 17000
+      },
+      {
+       "category": "꼬치류",
+       "name": "소세지1p",
+       "price": 3000
+      },
+      {
+       "category": "꼬치류",
+       "name": "오돌뼈꼬치",
+       "price": 14000
+      },
+      {
+       "category": "꼬치류",
+       "name": "마라갈비",
+       "price": 17000
+      },
+      {
+       "category": "꼬치류",
+       "name": "새우꼬치",
+       "price": 12000
+      },
+      {
+       "category": "꼬치류",
+       "name": "찐피",
+       "price": 15000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양쪽갈비",
+       "price": 15000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양깃머리",
+       "price": 18000
+      },
+      {
+       "category": "꼬치류",
+       "name": "메추리(3마리)",
+       "price": 12000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양념양꼬치",
+       "price": 15000
+      },
+      {
+       "category": "꼬치류",
+       "name": "심관",
+       "price": 15000
+      },
+      {
+       "category": "꼬치류",
+       "name": "닭날개(3꼬치)",
+       "price": 10000
+      },
+      {
+       "category": "꼬치류",
+       "name": "도가니",
+       "price": 17000
+      },
+      {
+       "category": "꼬치류",
+       "name": "마라소갈비살",
+       "price": 18000
+      },
+      {
+       "category": "꼬치류",
+       "name": "대만소세지1p",
+       "price": 3000
+      },
+      {
+       "category": "꼬치류",
+       "name": "2인세트",
+       "price": 46000
+      },
+      {
+       "category": "꼬치류",
+       "name": "3인세트",
+       "price": 55000
+      },
+      {
+       "category": "꼬치류",
+       "name": "4인세트",
+       "price": 73000
+      },
+      {
+       "category": "꼬치류",
+       "name": "고급갈비세트",
+       "price": 72000
+      },
+      {
+       "category": "꼬치류",
+       "name": "생선볼(1인분)",
+       "price": 10000
+      },
+      {
+       "category": "꼬치류",
+       "name": "떡심꼬치",
+       "price": 3000
+      },
+      {
+       "category": "꼬치류",
+       "name": "매운소갈비살",
+       "price": 18000
+      },
+      {
+       "category": "꼬치류",
+       "name": "갈매기살",
+       "price": 18000
+      },
+      {
+       "category": "꼬치류",
+       "name": "양갈비",
+       "price": 18000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1790660995.974479",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
