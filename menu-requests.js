@@ -3,10 +3,88 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2676,
- "updatedAt": "2026-09-29 21:04",
+ "version": 2677,
+ "updatedAt": "2026-09-29 23:16",
  "days": 30,
  "items": [
+  {
+   "ts": "1790691109.588149",
+   "date": "2026-09-29",
+   "time": "23:11",
+   "store": "카페 느린시간",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 카페 느린시간 메뉴 사진 보내드립니다. (1)\n대용량 첨부 7개 26MB  논커피_녹차라떼.jpg 3781337 ~ 2026/10/29 논커피_미숫가루.jpg 3780601 ~ 2026/10/29 논커피_아이스 녹차라떼.jpg 3785377 ~ 2026/10/29 논커피_아이스 초코라떼.jpg 3819074 ~ 2026/10/29 논커피_아이스티.jpg 3901434 ~ 2026/10/29 논커피_초코라떼.jpg 3962975 ~ 2026/10/29 더치&핸드드립_더치아메리카노.jpg 3826689 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ed7e8ddaa752b>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ed7e8ddaa752b",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790691109588149"
+  },
+  {
+   "ts": "1790691109.125439",
+   "date": "2026-09-29",
+   "time": "23:11",
+   "store": "카페 느린시간",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 카페 느린시간 메뉴 사진 보내드립니다. (2)\n대용량 첨부 7개 26MB  에이드_레몬에이드.jpg 3628251 ~ 2026/10/29 에이드_백향과 에이드.jpg 3669541 ~ 2026/10/29 딸기주스.jpg 3542866 ~ 2026/10/29 블루베리 스무디.jpg 4091216 ~ 2026/10/29 생과일 주스_자몽주스.jpg 3888023 ~ 2026/10/29 생과일 주스_키위주스.jpg 3904723 ~ 2026/10/29 수제차_레몬차.jpg 4148808 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ed7e90b282255>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ed7e90b282255",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790691109125439"
+  },
+  {
+   "ts": "1790691108.667909",
+   "date": "2026-09-29",
+   "time": "23:11",
+   "store": "카페 느린시간",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 카페 느린시간 메뉴 사진 보내드립니다. (3)\n대용량 첨부 7개 26MB  티_로즈마리.jpg 4005896 ~ 2026/10/29 티_캐모마일.jpg 4137474 ~ 2026/10/29 에이드_자몽에이드.jpg 3833209 ~ 2026/10/29 커피 메뉴_카푸치노.jpg 3808405 ~ 2026/10/29 커피_아메리카노.jpg 3656001 ~ 2026/10/29 커피_아이스바닐라라떼.jpg 4306174 ~ 2026/10/29 커피_아이스아메리카노.jpg 3799178 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ed7ee8993298a>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ed7ee8993298a",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790691108667909"
+  },
   {
    "ts": "1790683412.926439",
    "date": "2026-09-29",
