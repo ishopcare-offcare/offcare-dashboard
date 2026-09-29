@@ -1047,12 +1047,12 @@ function viewRecords(){
   if(recCat) rows = rows.filter(r=>r.cat===recCat);
   if(recQ){
     const q = recQ.toLowerCase();
-    rows = rows.filter(r=>(r.brand+' '+r.branch+' '+r.store+' '+r.emp+' '+r.req).toLowerCase().indexOf(q)>=0);
+    rows = rows.filter(r=>(r.brand+' '+r.branch+' '+r.store+' '+r.emp+' '+r.req+' '+(r.note||'')).toLowerCase().indexOf(q)>=0);
   }
   let h = hubSampleBanner();
   h += '<div class="card"><div class="card-head"><h3>프랜차이즈 처리내역</h3>'
     + '<div class="controls">'
-    + '<input type="search" id="recQ" placeholder="브랜드·지점·담당자·요청내용 검색" value="'+esc(recQ)+'" style="min-width:250px">'
+    + '<input type="search" id="recQ" placeholder="브랜드·지점·담당자·요청·처리내용 검색" value="'+esc(recQ)+'" style="min-width:250px">'
     + '<div class="seg" id="recCatSeg"><button data-c="" class="'+(recCat?'':'on')+'">전체</button>'
     + CATS.map(c=>'<button data-c="'+c.key+'" class="'+(recCat===c.key?'on':'')+'">'+c.name+'</button>').join('')
     + '</div><button class="btn sm" id="csvBtn">⬇ CSV</button></div></div>'
@@ -1060,16 +1060,16 @@ function viewRecords(){
 
   if(!rows.length) return h + '<div class="empty">조건에 맞는 내역이 없습니다.</div></div>';
 
-  h += '<div class="tbl-scroll"><table style="min-width:900px"><thead><tr>'
-    + '<th>일시</th><th>브랜드</th><th>지점</th><th>구분</th><th>담당</th><th>경로</th><th>요청 내용</th></tr></thead><tbody>'
+  h += '<div class="tbl-scroll"><table style="min-width:1000px"><thead><tr>'
+    + '<th>일시</th><th>브랜드</th><th>지점</th><th>구분</th><th>담당</th><th>요청 내용</th><th>처리 내용</th></tr></thead><tbody>'
     + rows.slice(0,500).map(function(r){
         return '<tr><td style="white-space:nowrap;color:var(--gray)">'+fmtD(r.date)+' '+esc(r.time)+'</td>'
           + '<td><span class="brand-link" onclick="goBrand(\''+esc(r.brand).replace(/'/g,"\\'")+'\')">'+esc(r.brand)+'</span></td>'
           + '<td style="font-weight:600">'+esc(r.branch)+'</td>'
           + '<td><span class="cat-chip" style="background:'+catColor(r.cat)+'22;color:'+catColor(r.cat)+'">'+catName(r.cat)+'</span></td>'
           + '<td style="white-space:nowrap">'+esc(r.emp)+'</td>'
-          + '<td style="font-size:12.5px;color:var(--gray)">'+(r.intake==='online'?'온라인':r.intake==='offline'?'오프라인':'—')+'</td>'
-          + '<td class="req-cell">'+esc(r.req || '—')+'</td></tr>';
+          + '<td class="req-cell"><div class="clamp3" title="'+esc(r.req||'')+'">'+esc(r.req || '—')+'</div></td>'
+          + '<td class="req-cell">'+(r.note ? '<div class="clamp3" title="'+esc(r.note)+'">'+esc(r.note)+'</div>' : '<span style="color:var(--gray2)">—</span>')+'</td></tr>';
       }).join('')
     + '</tbody></table></div>'
     + (rows.length>500 ? '<div class="hint" style="margin-top:12px;color:var(--gray2);font-size:12.5px">상위 500건만 표시했습니다. 전체는 CSV로 내려받으세요.</div>' : '')
@@ -1081,12 +1081,12 @@ function downloadCSV(){
   let rows = S.fr.slice().sort((a,b)=> (a.date<b.date?1:-1));
   if(recCat) rows = rows.filter(r=>r.cat===recCat);
   if(recQ){ const q=recQ.toLowerCase();
-    rows = rows.filter(r=>(r.brand+' '+r.branch+' '+r.store+' '+r.emp+' '+r.req).toLowerCase().indexOf(q)>=0); }
+    rows = rows.filter(r=>(r.brand+' '+r.branch+' '+r.store+' '+r.emp+' '+r.req+' '+(r.note||'')).toLowerCase().indexOf(q)>=0); }
   const q = s => '"' + String(s==null?'':s).replace(/"/g,'""') + '"';
   /* 합쳐진 원장이므로 출처를 남긴다 — 나중에 숫자가 안 맞을 때 이 열이 유일한 단서가 된다 */
-  const head = ['날짜','시간','브랜드','지점','매장명(원본)','사업자번호','구분','담당자','인입경로','요청내용','출처','샘플'];
+  const head = ['날짜','시간','브랜드','지점','매장명(원본)','사업자번호','구분','담당자','요청내용','처리내용','출처','샘플'];
   const body = rows.map(r=>[r.date,r.time,r.brand,r.branch,r.store,r.biz,catName(r.cat),r.emp,
-    (r.intake==='online'?'온라인':r.intake==='offline'?'오프라인':''), r.req,
+    r.req, r.note || '',
     (r.src==='client'?'전용 원장':'슬랙 집계'), (r.sample?'샘플':'')].map(q).join(','));
   const csv = '\ufeff' + [head.map(q).join(',')].concat(body).join('\r\n');
   const a = document.createElement('a');
