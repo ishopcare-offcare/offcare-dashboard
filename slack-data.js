@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14246,
+  "version": 14247,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215353,12 +215353,26 @@ window.SLACK_DATA = {
     },
     "2026-09-29": {
       "counts": {
+        "extern": {
+          "서상원": 1
+        },
         "transfer": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:07",
+          "store": "인계동한식뷔페",
+          "biz": "6221175710",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "07:30",
           "store": "코즈커피",
@@ -215372,11 +215386,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:35",
+      "updatedAt": "09:07",
       "voc": {
         "responses": 1,
         "install": {
@@ -284949,7 +284963,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 09:01",
+    "at": "2026-09-29 09:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
