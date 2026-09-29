@@ -155,19 +155,8 @@
   tfoot td:first-child{color:var(--ink-soft); background:var(--surface)}
   .brand-link{font-weight:700; color:var(--blue); cursor:pointer}
   .brand-link:hover{text-decoration:underline}
+  td:has(> .brand-link){white-space:nowrap}   /* 브랜드명·계약고객사 배지가 줄바꿈되지 않게 */
   .brand-link::after{content:' →'; font-size:11px; opacity:.5}
-  /* 계약 고객사 카드 */
-  .cgrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(215px,1fr)); gap:13px}
-  .ccard{display:block; text-decoration:none; background:var(--surface2);
-    border:1px solid var(--line-soft); border-radius:15px; padding:18px 19px; transition:transform .15s, border-color .15s}
-  .ccard:hover{transform:translateY(-2px); border-color:var(--blue)}
-  .ccard .ci{font-size:29px; line-height:1}
-  .ccard .cn{font-size:18px; font-weight:800; color:var(--ink); margin-top:9px; letter-spacing:-.02em}
-  .ccard .cd{font-size:12.5px; color:var(--gray); margin-top:5px; line-height:1.5; word-break:keep-all}
-  .ccard .cgo{font-size:12.5px; font-weight:700; color:var(--blue); margin-top:11px}
-  .ccard .cbig{font-size:31px; font-weight:800; letter-spacing:-.03em; color:var(--ink); margin-top:7px; line-height:1}
-  .ccard .cbig small{font-size:14px; font-weight:600; color:var(--gray2); margin-left:3px}
-  .ccard .cbig .cst{font-size:12.5px; font-weight:700; color:var(--gray); margin-left:9px; letter-spacing:0}
   .s-badge{display:inline-block; font-size:10.5px; font-weight:800; padding:1px 7px; border-radius:20px;
     margin-left:6px; vertical-align:middle; background:var(--red); color:#fff; letter-spacing:0}
   /* 전용 원장에만 있는 카테고리 열 — 슬랙 파이프라인엔 분류가 없다는 표시 */
@@ -725,32 +714,6 @@ function viewOverview(){
   }
   h += hubSampleBanner();
 
-  /* 계약 고객사 — 전용 원장 실건수를 카드에 바로 띄운다 */
-  if(CLIENTS.length){
-    h += '<div class="card"><div class="card-head"><h3>🤝 계약 고객사</h3>'
-      + '<span class="hint">전용 원장 건수도 아래 집계에 합산되어 있습니다 · 클릭하면 전용 대시보드</span></div>'
-      + '<div class="cgrid">'
-      + CLIENTS.map(function(c){
-          const mine = fr.filter(r=>r.brand===c.brand);
-          const allMine = FR.filter(r=>r.brand===c.brand);
-          const st = new Set(mine.map(r=>r.branch)).size;
-          const cb = catBreak(mine);
-          const isS = CLIENT_SAMPLE.indexOf(c.brand) >= 0;
-          return '<a class="ccard" href="'+clientURL(c.brand)+'">'
-            + '<div class="ci">'+(c.icon||'🏢')+'</div>'
-            + '<div class="cn">'+esc(c.brand)+(isS?'<span class="s-badge">샘플</span>':'')+'</div>'
-            + '<div class="cbig">'+num(mine.length)+'<small>건</small>'
-            + (st?'<span class="cst">지점 '+st+'곳</span>':'')+'</div>'
-            + '<div class="cd">'
-            + (mine.length
-                ? CATS.filter(x=>cb[x.key]).map(x=>esc(x.name)+' '+cb[x.key]).join(' · ')
-                : (allMine.length ? '이 기간 0건 · 전체 '+allMine.length+'건' : esc(c.note || (c.startDate?('개시 '+c.startDate):'계약 고객사'))))
-            + '</div>'
-            + '<div class="cgo">전용 대시보드 →</div></a>';
-        }).join('')
-      + '</div></div>';
-  }
-
   h += '<div class="ov-tiles">'
     + tile('grand','🏢','프랜차이즈 인입', fr.length, '건',
         nClient ? '슬랙 집계 '+num(nSlack)+'건 + 전용 원장 '+num(nClient)+'건'
@@ -871,7 +834,7 @@ function viewBrands(){
   let h = hubSampleBanner();
   h += '<div class="notice"><span class="k">이동</span><span class="t">'
     + '<b>브랜드명을 클릭하면 그 프랜차이즈의 전용 대시보드</b>로 이동합니다. '
-    + '계약 고객사(<span class="cli-badge">전용</span>)는 전용 원장·월간 보고서를, 그 외 브랜드는 기존 원격 집계를 보여줍니다.'
+    + '<span class="cli-badge">계약고객사</span> 표시 브랜드는 전용 대시보드·월간 보고서를, 그 외 브랜드는 기존 원격 집계를 보여줍니다.'
     + '</span></div>';
   if(!brandQ){
     h += '<div class="notice"><span class="k">기준</span><span class="t">'
@@ -937,7 +900,7 @@ function viewBrands(){
        (검색 중이면 검색어에 맞는 고객사만 — pinned 에서 이미 걸러져 있다) */
     + pinned.map(function(c){
         return '<tr class="cli-row"><td><span class="brand-link" onclick="goBrand(\''+esc(c.brand).replace(/'/g,"\\'")+'\')">'
-          + esc(c.brand)+'</span><span class="cli-badge">전용</span></td>'
+          + esc(c.brand)+'</span><span class="cli-badge">계약고객사</span></td>'
           + '<td class="num zero" colspan="'+(CATS.length+2)+'" style="text-align:left;font-size:12.5px">'
           + '이 기간 인입 없음 — 집계·월간 보고서는 <b>전용 대시보드</b>에서 확인'
           + (c.startDate ? ' (개시 '+esc(c.startDate)+')' : '') + '</td>'
@@ -945,7 +908,7 @@ function viewBrands(){
       }).join('')
     + rows.map(function(o){
         return '<tr><td><span class="brand-link" onclick="goBrand(\''+esc(o.brand).replace(/'/g,"\\'")+'\')">'+esc(o.brand)+'</span>'
-          + (clientOf(o.brand) ? '<span class="cli-badge">전용</span>' : '')
+          + (clientOf(o.brand) ? '<span class="cli-badge">계약고객사</span>' : '')
           + '<span class="tierbadge '+o.tier+'">'+o.tier+'</span></td>'
           + '<td class="num">'+o.nStore+'</td><td class="num totcell">'+o.total+'</td>'
           + CATS.map(c=>'<td class="num'+(o.cats[c.key]?'':' zero')+'">'+(o.cats[c.key]||'·')+'</td>').join('')
