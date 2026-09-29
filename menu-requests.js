@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2634,
- "updatedAt": "2026-09-29 10:30",
+ "version": 2635,
+ "updatedAt": "2026-09-29 10:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1790645508.847849",
+   "date": "2026-09-29",
+   "time": "10:31",
+   "store": "명 : 면과육 사업자번호 : 592-21-02496  메뉴 등록 요청드립",
+   "biz": "5922102496",
+   "pos": "",
+   "content": "*  대용량 첨부 1개 200MB  천안불당동점.zip 209585543 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능      안녕하세요   부산아지매국밥 운영기획팀 이승미 주임입니다.  상호명 : 면과육 사업자번호 : ···  메뉴 등록 요청드립니다.  ───────────────────────── (주) 제이엘푸드　　운영기획팀　 / 　주임　이승미 서울특별시 송파구 법원로 92, 1204호 M. ···           E. <mailto:···|···> \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0eac68893658ee>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790645508847849"
+  },
   {
    "ts": "1790645367.540739",
    "date": "2026-09-29",
