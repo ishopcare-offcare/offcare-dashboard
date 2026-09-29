@@ -2996,7 +2996,7 @@ function menuregPushMenu(menu, lines, seen){
  * 슬랙·메일로 들어오지 않은 사진(카톡으로 받은 메뉴판, 화면 캡처 등)을 바로 변환란에 넣는다.
  * 판독은 menu-ocr.gs(Apps Script 웹 앱)가 한다 — 이 페이지는 공개라 API 키를 여기 둘 수 없다.
  * 팀 암호는 처음 한 번 묻고 이 브라우저에 기억한다(틀리면 지우고 다시 묻는다). */
-const MENU_OCR_API = "";   // menu-ocr.gs 웹 앱 배포 URL (…/exec)
+const MENU_OCR_API = "https://script.google.com/macros/s/AKfycbzsBTjqxtP-dZrL2Q1yt-Q-AtyD50g0s9k1-q95rTyL8sQdG8iOjKJBTVTNYv4eRAMJEQ/exec";   // menu-ocr.gs 웹 앱 배포 URL (…/exec)
 const LS_MENUOCR_CODE = "opcare_menuocr_code_v1";
 let menuregOcrBusy=false;
 function menuregBlobB64(blob){ return new Promise((ok,no)=>{ const r=new FileReader(); r.onload=()=>ok(String(r.result).split(',')[1]||''); r.onerror=()=>no(new Error('파일을 읽지 못했습니다')); r.readAsDataURL(blob); }); }
