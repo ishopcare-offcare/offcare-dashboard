@@ -9,7 +9,7 @@
  *   1) script.google.com → 새 프로젝트 → 이 파일 붙여넣기 → 저장
  *   2) ⚙ 프로젝트 설정 → 스크립트 속성 추가
  *        ANTHROPIC_API_KEY = sk-ant-...        (GitHub 시크릿과 같은 키)
- *        TEAM_CODE         = 팀 공용 암호        (대시보드에서 처음 한 번 입력)
+ *        TEAM_CODE         = 팀 공용 암호        (선택 · 넣으면 대시보드가 처음 한 번 묻는다. 비우면 암호 없이 동작)
  *        DAILY_CAP         = 300               (선택 · 하루 판독 상한, 비용 보호)
  *   3) 배포 → 새 배포 → 유형 '웹 앱' → 실행: 나 · 액세스: 모든 사용자 → 배포
  *   4) 나온 웹 앱 URL(…/exec)을 index.html 의 MENU_OCR_API 에 넣는다
@@ -64,7 +64,8 @@ function doPost(e) {
     var body = JSON.parse((e && e.postData && e.postData.contents) || '{}');
     var props = PropertiesService.getScriptProperties();
     var code = props.getProperty('TEAM_CODE');
-    if (!code || body.code !== code) return json_({ ok: false, error: 'bad_code' });
+    // 암호는 선택 — 비워 두면 누구나 호출할 수 있으니 DAILY_CAP 이 유일한 비용 보호다
+    if (code && body.code !== code) return json_({ ok: false, error: 'bad_code' });
     var key = props.getProperty('ANTHROPIC_API_KEY');
     if (!key) return json_({ ok: false, error: 'ANTHROPIC_API_KEY 스크립트 속성이 없습니다' });
     var mime = String(body.mime || '');
