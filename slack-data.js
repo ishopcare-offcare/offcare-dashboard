@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14500,
+  "version": 14501,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -151488,8 +151488,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 185,
-        "offline": 35,
+        "online": 194,
+        "offline": 36,
         "unknown": 0
       },
       "updatedAt": "23:57",
@@ -151891,7 +151891,89 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1786431569896049"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "18:41",
+          "store": "곰두리분식",
+          "biz": "1264000711",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:00",
+          "store": "오하이오",
+          "biz": "6810403518",
+          "handler": "송태양",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:00",
+          "store": "트레비",
+          "biz": "8790503602",
+          "handler": "김현기",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "15:45",
+          "store": "씨씨(CC)",
+          "biz": "4055101318",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "루아헤어",
+          "biz": "1661702548",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:18",
+          "store": "캠핑스토리",
+          "biz": "7533301168",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:30",
+          "store": "옻칠리어 (Ottchilior)",
+          "biz": "3421001877",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:10",
+          "store": "뭉치치카페 (mungchichicafe)",
+          "biz": "2010473176",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "10:45",
+          "store": "티씨케이(TCK)아카데미",
+          "biz": "3014901143",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "10:08",
+          "store": "나쁜책방",
+          "biz": "1285401071",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-02": {
       "counts": {
@@ -154748,7 +154830,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 207,
+        "online": 213,
         "offline": 46,
         "unknown": 0
       },
@@ -155218,7 +155300,57 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788231293574669"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "17:57",
+          "store": "대폿집",
+          "biz": "7483701465",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:55",
+          "store": "꾸꾸(COUCOU)",
+          "biz": "3691602572",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:00",
+          "store": "피클에듀",
+          "biz": "2073262971",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:00",
+          "store": "살롱, 라쁘띠",
+          "biz": "6021272638",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:00",
+          "store": "살롱, 라쁘띠",
+          "biz": "6021272638",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:59",
+          "store": "살롱 n 로아",
+          "biz": "2771702926",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-03": {
       "counts": {
@@ -158093,7 +158225,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 216,
+        "online": 229,
         "offline": 39,
         "unknown": 0
       },
@@ -158593,7 +158725,113 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788143501542079"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "19:00",
+          "store": "2020 스포츠파크 바르셀로나",
+          "biz": "7779202253",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:30",
+          "store": "리드인독서논술학원",
+          "biz": "2039702214",
+          "handler": "송태양",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "17:18",
+          "store": "수학의 신",
+          "biz": "7989101763",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:30",
+          "store": "뷰티진동희 창원",
+          "biz": "1463800876",
+          "handler": "미지정",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:00",
+          "store": "제철소",
+          "biz": "",
+          "handler": "송태양",
+          "cat": "transfer",
+          "intake": "online"
+        },
+        {
+          "time": "15:09",
+          "store": "카페예이",
+          "biz": "3721302766",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:41",
+          "store": "선희의 초록상점",
+          "biz": "5103001973",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:06",
+          "store": "영주할매땅콩빵",
+          "biz": "5760603883",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:15",
+          "store": "정채민네일",
+          "biz": "",
+          "handler": "김동욱",
+          "cat": "transfer",
+          "intake": "online"
+        },
+        {
+          "time": "13:00",
+          "store": "갱랑씨",
+          "biz": "4960203430",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:05",
+          "store": "리예뷰티 당진수청점",
+          "biz": "5954701180",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "10:30",
+          "store": "왕새우꾸이",
+          "biz": "3413101734",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "09:00",
+          "store": "아도라헤어(철원점)",
+          "biz": "3570303210",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-04": {
       "counts": {
@@ -162134,7 +162372,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 280,
+        "online": 296,
         "offline": 34,
         "unknown": 0
       },
@@ -162623,7 +162861,137 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788415798037219"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "19:00",
+          "store": "시바(SHIBA)",
+          "biz": "1041314432",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:30",
+          "store": "올케어짐",
+          "biz": "5123101428",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "18:20",
+          "store": "꽈잇꽈베기",
+          "biz": "7640403813",
+          "handler": "미지정",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "18:00",
+          "store": "별난아재맥주산동점",
+          "biz": "1493801535",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:00",
+          "store": "라온 메이크업",
+          "biz": "4082601620",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:50",
+          "store": "연어육회직판장 원주본점",
+          "biz": "7024301306",
+          "handler": "최민석",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "힙캣네일(HIPCAT NAIL)",
+          "biz": "2940503403",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:44",
+          "store": "미래엔 일등수학 교습소",
+          "biz": "2169829860",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:00",
+          "store": "내츄럴뷰티",
+          "biz": "2165200356",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "14:00",
+          "store": "랭클어학원",
+          "biz": "8759801642",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:30",
+          "store": "알리타 유기농죽",
+          "biz": "7224701119",
+          "handler": "김기범",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:30",
+          "store": "아이엘피(ILP) 이화영어교습소",
+          "biz": "8859102620",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "11:00",
+          "store": "폴리 연희",
+          "biz": "1238551298",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:00",
+          "store": "홍뜨",
+          "biz": "3510403989",
+          "handler": "미지정",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "10:13",
+          "store": "더머커피",
+          "biz": "5830202303",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "10:07",
+          "store": "낙산 닭 한마리",
+          "biz": "4373801484",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-05": {
       "counts": {
@@ -167202,7 +167570,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 205,
+        "online": 212,
         "offline": 44,
         "unknown": 0
       },
@@ -167581,7 +167949,65 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788081081850089"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "16:00",
+          "store": "판타 테니스(Fanta Tennis)",
+          "biz": "4126001415",
+          "handler": "미지정",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "메리차밍",
+          "biz": "2042789360",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "진희푸드연구소",
+          "biz": "3953201835",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:48",
+          "store": "수원별당",
+          "biz": "4554201422",
+          "handler": "김현기",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "14:00",
+          "store": "별이꼬마김밥",
+          "biz": "8642202627",
+          "handler": "김현기",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "13:15",
+          "store": "파도",
+          "biz": "7721502975",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:02",
+          "store": "끌리다(cclida)",
+          "biz": "2492601211",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-08": {
       "counts": {
@@ -170917,8 +171343,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 260,
-        "offline": 37,
+        "online": 277,
+        "offline": 39,
         "unknown": 0
       },
       "updatedAt": "23:00",
@@ -171377,7 +171803,161 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788747270778379"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "17:45",
+          "store": "어울림 상회",
+          "biz": "3396900623",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:11",
+          "store": "노을집",
+          "biz": "5953501703",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "16:45",
+          "store": "주식회사 아쿠",
+          "biz": "4708703982",
+          "handler": "송태양",
+          "cat": "transfer",
+          "intake": "online"
+        },
+        {
+          "time": "16:15",
+          "store": "알지(RG) 미용실",
+          "biz": "7220900568",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:30",
+          "store": "마이브뷰티(mibebeauty)",
+          "biz": "4502901791",
+          "handler": "송태양",
+          "cat": "transfer",
+          "intake": "online"
+        },
+        {
+          "time": "15:07",
+          "store": "살로메 레코드 하우스",
+          "biz": "5828701763",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:45",
+          "store": "하이딕창의사고력학원",
+          "biz": "1089225805",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:15",
+          "store": "가화테라스 공부방",
+          "biz": "1559501343",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "13:45",
+          "store": "몽글",
+          "biz": "6144700973",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "13:45",
+          "store": "오브 옵티컬(OVE OPTICAL)",
+          "biz": "4382901942",
+          "handler": "김동욱",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "13:00",
+          "store": "모핏아카데미 강남본점",
+          "biz": "1500901874",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:56",
+          "store": "카페코너",
+          "biz": "4800403351",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:55",
+          "store": "카페네이티트워크스페이스(caffeinated-works",
+          "biz": "5658502725",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:40",
+          "store": "어울림 상회",
+          "biz": "3396900623",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:15",
+          "store": "아이두 요가&amp;필라테스",
+          "biz": "4142602041",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:15",
+          "store": "은계실버데이케어센터",
+          "biz": "6369501880",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "10:45",
+          "store": "바비야기 안산",
+          "biz": "6110944738",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "10:00",
+          "store": "주식회사 손소",
+          "biz": "6908702947",
+          "handler": "김규빈",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "09:54",
+          "store": "카페 비스킷",
+          "biz": "8476300568",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "offline"
+        }
+      ]
     },
     "2026-09-09": {
       "counts": {
@@ -174660,7 +175240,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 247,
+        "online": 254,
         "offline": 43,
         "unknown": 0
       },
@@ -175225,7 +175805,65 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788749767231279"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "17:43",
+          "store": "벨리타",
+          "biz": "7119002088",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:13",
+          "store": "안경박사안경점 (상동점)",
+          "biz": "1303163163",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:03",
+          "store": "로우(RAW)",
+          "biz": "3580903234",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:55",
+          "store": "스타일핫요가",
+          "biz": "1304106706",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:38",
+          "store": "한복고운",
+          "biz": "8923501486",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:00",
+          "store": "플로라온스튜디오",
+          "biz": "5530703704",
+          "handler": "고경림",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "10:30",
+          "store": "웨이브(WAVE)",
+          "biz": "8580303974",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-10": {
       "counts": {
@@ -179190,8 +179828,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 303,
-        "offline": 49,
+        "online": 313,
+        "offline": 51,
         "unknown": 0
       },
       "updatedAt": "23:46",
@@ -179610,7 +180248,105 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788834391469799"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "18:30",
+          "store": "마치꽃(March flower)",
+          "biz": "6549901853",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:00",
+          "store": "Cafe 공감",
+          "biz": "4181204684",
+          "handler": "김기범",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "17:23",
+          "store": "땡스오트",
+          "biz": "8383401414",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:15",
+          "store": "제이에스헤어",
+          "biz": "3680303641",
+          "handler": "미지정",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "17:00",
+          "store": "온당 Korean Tofu Culture",
+          "biz": "7028802325",
+          "handler": "김기범",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "16:41",
+          "store": "하울살롱전주점",
+          "biz": "5661103181",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:24",
+          "store": "홈",
+          "biz": "2864601144",
+          "handler": "최민석",
+          "cat": "delivery",
+          "intake": "offline"
+        },
+        {
+          "time": "15:00",
+          "store": "힙캣네일(HIPCAT NAIL)",
+          "biz": "2940503403",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:59",
+          "store": "오야르(OH!YARRR)",
+          "biz": "4752602293",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:15",
+          "store": "누오",
+          "biz": "1670104155",
+          "handler": "고경림",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "11:55",
+          "store": "책나무 독서 논술 학원",
+          "biz": "2079432553",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:01",
+          "store": "스마티스트 갤러리(SMartist Gallery)",
+          "biz": "2095100569",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-11": {
       "counts": {
@@ -179850,7 +180586,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 14,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
       "updatedAt": "18:37",
@@ -179930,7 +180666,17 @@ window.SLACK_DATA = {
           }
         ],
         "praises": []
-      }
+      },
+      "absent": [
+        {
+          "time": "13:26",
+          "store": "버기즈대흥",
+          "biz": "2780703574",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "offline"
+        }
+      ]
     },
     "2026-09-12": {
       "counts": {
@@ -180738,7 +181484,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 41,
+        "online": 43,
         "offline": 8,
         "unknown": 0
       },
@@ -181021,7 +181767,25 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "11:18",
+          "store": "득템마트 진주점",
+          "biz": "1034001319",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "10:13",
+          "store": "비플러스",
+          "biz": "6121493916",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-14": {
       "counts": {
@@ -184451,8 +185215,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 252,
-        "offline": 53,
+        "online": 259,
+        "offline": 54,
         "unknown": 0
       },
       "updatedAt": "22:29",
@@ -184871,7 +185635,73 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788919267633059"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "16:50",
+          "store": "얼굴필라테스 바이 지(by G)",
+          "biz": "1060464009",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:45",
+          "store": "뒤끌헤어",
+          "biz": "2350303754",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:15",
+          "store": "오야르(OH!YARRR)",
+          "biz": "4752602293",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:44",
+          "store": "산촌신쭈꾸미 부천도당점",
+          "biz": "4671502020",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "14:00",
+          "store": "슈퍼왁싱 강남",
+          "biz": "6462201277",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:58",
+          "store": "프리티핸썸",
+          "biz": "3794900981",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:28",
+          "store": "오늘예쁘다",
+          "biz": "8184800820",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:15",
+          "store": "오늘예쁘다",
+          "biz": "8184800820",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-15": {
       "counts": {
@@ -187511,7 +188341,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 192,
+        "online": 198,
         "offline": 41,
         "unknown": 0
       },
@@ -187960,7 +188790,57 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "17:27",
+          "store": "제이에스헤어",
+          "biz": "3680303641",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:00",
+          "store": "코노미야",
+          "biz": "5211901978",
+          "handler": "미지정",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "15:46",
+          "store": "원 베이크",
+          "biz": "1547900512",
+          "handler": "최민석",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "14:15",
+          "store": "제이와이(JY) 헤어스토리",
+          "biz": "5761502775",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:15",
+          "store": "오야르(OH!YARRR)",
+          "biz": "4752602293",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:00",
+          "store": "모아간식",
+          "biz": "4413401812",
+          "handler": "김현기",
+          "cat": "delivery",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-16": {
       "counts": {
@@ -191182,8 +192062,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 228,
-        "offline": 56,
+        "online": 236,
+        "offline": 58,
         "unknown": 0
       },
       "updatedAt": "22:52",
@@ -191520,7 +192400,89 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788339367974269"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "19:45",
+          "store": "심봉사 도로케 비트플렉스점",
+          "biz": "4050964589",
+          "handler": "최민석",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "18:09",
+          "store": "이자카야 시로",
+          "biz": "6836000944",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "17:49",
+          "store": "구르미곳간",
+          "biz": "8314600867",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:45",
+          "store": "이라크바빌론 주식회사",
+          "biz": "8538703436",
+          "handler": "송태양",
+          "cat": "transfer",
+          "intake": "online"
+        },
+        {
+          "time": "16:16",
+          "store": "네일 미 래쉬",
+          "biz": "4370603083",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:15",
+          "store": "오로네일",
+          "biz": "4641302819",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:00",
+          "store": "홈",
+          "biz": "2864601144",
+          "handler": "최민석",
+          "cat": "delivery",
+          "intake": "offline"
+        },
+        {
+          "time": "15:09",
+          "store": "보네브",
+          "biz": "1361371968",
+          "handler": "미지정",
+          "cat": "delivery",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "빙수푼",
+          "biz": "6197300512",
+          "handler": "배선유",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "12:22",
+          "store": "쿨바디&amp;풋",
+          "biz": "2716400263",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-17": {
       "counts": {
@@ -197786,8 +198748,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 202,
-        "offline": 46,
+        "online": 213,
+        "offline": 47,
         "unknown": 0
       },
       "updatedAt": "23:00",
@@ -198202,7 +199164,105 @@ window.SLACK_DATA = {
             "doneDate": "2026-09-18"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "19:15",
+          "store": "이솔로션북스",
+          "biz": "4319100139",
+          "handler": "최민석",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "18:24",
+          "store": "열두바구니기획(카페공방)",
+          "biz": "3080798241",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:00",
+          "store": "필라테스혜윰",
+          "biz": "5481901478",
+          "handler": "미지정",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "17:44",
+          "store": "젤라또먼트 을지로",
+          "biz": "1022310176",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:49",
+          "store": "루세라(Lucera)에스테틱",
+          "biz": "4815300772",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:00",
+          "store": "스카이(SKY)수학과학입시별관학원",
+          "biz": "6389501794",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "12:00",
+          "store": "레인커피 양주옥정점",
+          "biz": "2690503692",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:40",
+          "store": "푸른목장",
+          "biz": "1120387859",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "11:39",
+          "store": "로엘W뷰티라운지",
+          "biz": "7710803425",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:00",
+          "store": "플랜츠바이하품(PBH)",
+          "biz": "5649800516",
+          "handler": "김규빈",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "10:43",
+          "store": "아이위시아이쿠드(iwic)",
+          "biz": "7751201751",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "10:02",
+          "store": "주식회사 문화예술기획살로메",
+          "biz": "5828701763",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-19": {
       "counts": {
@@ -200088,7 +201148,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 29,
+        "online": 30,
         "offline": 9,
         "unknown": 0
       },
@@ -200218,7 +201278,17 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "13:00",
+          "store": "마린뷰티하우스",
+          "biz": "6542601636",
+          "handler": "최민석",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-21": {
       "counts": {
@@ -202769,7 +203839,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 183,
+        "online": 191,
         "offline": 43,
         "unknown": 0
       },
@@ -203256,7 +204326,73 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1789525305937319"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "22:30",
+          "store": "한수위국영수입시학원",
+          "biz": "3699500225",
+          "handler": "최민석",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "20:45",
+          "store": "허송세월",
+          "biz": "2023070069",
+          "handler": "최민석",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "19:45",
+          "store": "비아마더",
+          "biz": "2192044347",
+          "handler": "최민석",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:45",
+          "store": "루아루아",
+          "biz": "4740103883",
+          "handler": "고경림",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:30",
+          "store": "광명속눈썹펌&amp;연장수풀래쉬",
+          "biz": "2055171515",
+          "handler": "김현기",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:00",
+          "store": "봄날피부샵",
+          "biz": "1042207423",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "13:37",
+          "store": "케치롱",
+          "biz": "2093208013",
+          "handler": "김기범",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "09:00",
+          "store": "붕어빵분식",
+          "biz": "4754601405",
+          "handler": "김현기",
+          "cat": "delivery",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-22": {
       "counts": {
@@ -206379,8 +207515,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 246,
-        "offline": 32,
+        "online": 258,
+        "offline": 34,
         "unknown": 0
       },
       "updatedAt": "22:55",
@@ -206935,7 +208071,121 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "20:30",
+          "store": "에테르 아쉬람 Ether Ashram",
+          "biz": "5910402991",
+          "handler": "최민석",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:30",
+          "store": "모모당",
+          "biz": "8521502344",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:00",
+          "store": "함사 휴&amp;힐",
+          "biz": "3061927971",
+          "handler": "고경림",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:54",
+          "store": "에쎄카페",
+          "biz": "1058541550",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "16:15",
+          "store": "한우리훼밀리국어교습소",
+          "biz": "8509502146",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:00",
+          "store": "네네치킨연동점",
+          "biz": "8252602203",
+          "handler": "최민석",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "자이와 (ZAYWA)",
+          "biz": "6803701548",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:59",
+          "store": "라올523 속눈썹",
+          "biz": "1412102361",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:15",
+          "store": "웨이프캐나다잉글리쉬학원",
+          "biz": "4889101677",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:00",
+          "store": "루모아 스킨 (LUMOA SKIN)",
+          "biz": "5260603520",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "14:00",
+          "store": "(주)참치공방",
+          "biz": "2338800379",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "offline"
+        },
+        {
+          "time": "12:30",
+          "store": "도깨비언니",
+          "biz": "1160969253",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "11:30",
+          "store": "정 헤어샾",
+          "biz": "5016400029",
+          "handler": "김현기",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "10:00",
+          "store": "요거인",
+          "biz": "5840803404",
+          "handler": "김현기",
+          "cat": "transfer",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-23": {
       "counts": {
@@ -210037,8 +211287,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 247,
-        "offline": 28,
+        "online": 259,
+        "offline": 29,
         "unknown": 0
       },
       "updatedAt": "21:36",
@@ -210419,7 +211669,113 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1786945764334449"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "19:30",
+          "store": "피부공방 맑음",
+          "biz": "7518703237",
+          "handler": "최민석",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:30",
+          "store": "클랑2관 음악학원",
+          "biz": "2519701325",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:16",
+          "store": "하코컴퍼니 HACO COMPANY",
+          "biz": "5436200922",
+          "handler": "최민석",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "18:15",
+          "store": "한수위국영수입시학원",
+          "biz": "3699500225",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:58",
+          "store": "리딩스타어학원",
+          "biz": "4019119923",
+          "handler": "배선유",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:46",
+          "store": "하코컴퍼니 HACO COMPANY",
+          "biz": "5436200922",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "17:30",
+          "store": "플랜츠바이하품(PBH)",
+          "biz": "5649800516",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "16:30",
+          "store": "식물카페 가든홀릭 대전본점",
+          "biz": "3330802471",
+          "handler": "배선유",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "16:00",
+          "store": "루틴랩영어보습학원",
+          "biz": "6159844791",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:15",
+          "store": "율키",
+          "biz": "3300203858",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
+        {
+          "time": "15:00",
+          "store": "진지스",
+          "biz": "5066086873",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "14:15",
+          "store": "제이리또",
+          "biz": "2451800267",
+          "handler": "심성현",
+          "cat": "nosetup",
+          "intake": "online"
+        },
+        {
+          "time": "11:18",
+          "store": "시장족발",
+          "biz": "6053638052",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "offline"
+        }
+      ]
     },
     "2026-09-24": {
       "counts": {
@@ -211034,7 +212390,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 44,
+        "online": 45,
         "offline": 9,
         "unknown": 0
       },
@@ -211241,7 +212597,17 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "13:45",
+          "store": "연커피",
+          "biz": "5242002031",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     },
     "2026-09-25": {
       "counts": {
@@ -289900,7 +291266,8 @@ window.SLACK_DATA = {
     "2026-08-24": 2,
     "2026-08-23": 2,
     "2026-08-22": 2,
-    "2026-08-21": 2
+    "2026-08-21": 2,
+    "2026-09-12": 2
   },
   "noteMig": {
     "at": "2026-09-29 18:24",
