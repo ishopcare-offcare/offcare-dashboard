@@ -298,6 +298,23 @@ function workerIds(m) {
 /* 처리내역 규칙 버전 — 올리면 과거 날짜의 note 를 조금씩 새 규칙으로 다시 수집한다(아래 이관 단계).
    data.noteV[날짜] = 이 값이면 그 날의 note 는 새 규칙으로 모은 것. */
 const NOTE_RULE = 2;
+const noteKey = (it) => it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
+/* 이관 중인 날에서 이미 새 규칙으로 확정된 건(nv 표시)만 재사용 대상으로 */
+function v2Notes(items) {
+  const o = {};
+  for (const it of (items || [])) if (it.nv === NOTE_RULE) o[noteKey(it)] = it.note || '';
+  return o;
+}
+/* 하루치 이관 결과 반영 — 다 끝났으면 날짜에 완료 표시 후 건별 표시를 지우고(데이터 크기),
+   아직이면 이번에 확정된 건에만 nv 를 남겨 다음 실행이 이어서 한다 */
+function finishNotes(data, d, items, st) {
+  if (!st.incomplete) {
+    data.noteV = data.noteV || {}; data.noteV[d] = NOTE_RULE;
+    for (const it of (items || [])) delete it.nv;
+  } else {
+    for (const it of (items || [])) if (st.fresh && st.fresh.has(noteKey(it))) it.nv = NOTE_RULE;
+  }
+}
 // 처리내용 텍스트 정리(멘션/URL/마크다운 제거 후 요약 길이로 컷)
 function cleanNote(s) {
   return (s || '')
@@ -314,13 +331,17 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
   const priorNotes = (opts && opts.priorNotes) || {};   // 이전 실행에서 이미 수집한 처리내역(재호출 방지)
   const oldNotes   = (opts && opts.oldNotes) || priorNotes;   // 조회 실패 시 되돌아갈 기존 값
   const state      = (opts && opts.state) || {};          // state.incomplete = 이번에 못 채운 건이 있음
+  /* state.fresh = 이번에 새 규칙으로 확정된 건의 key. 호출한 쪽이 그 건에 nv 표시를 남겨
+     다음 실행이 같은 건을 다시 읽지 않게 한다 (날짜 단위로만 기억하면 예산보다 큰 날은 영원히 못 끝낸다) */
+  const fresh = state.fresh || (state.fresh = new Set());
+  const reuseEmpty = !!(opts && opts.reuseEmpty);         // 빈 note 도 재사용(과거 날짜 — 나중에 댓글이 달릴 일이 없다)
   // 스레드 처리내역 수집: 이미 있으면 재사용, 없으면 착수 이모지를 찍은 사람의 댓글만 정리해 저장
   async function grabNote(m, catKey, time, store, biz) {
     const key = time + '|' + store + '|' + biz + '|' + catKey;
-    if (priorNotes[key]) return priorNotes[key];
-    if (!((m.reply_count || 0) > 0 && ch.id)) return '';
+    if (priorNotes[key] || (reuseEmpty && key in priorNotes)) { fresh.add(key); return priorNotes[key]; }
+    if (!((m.reply_count || 0) > 0 && ch.id)) { fresh.add(key); return ''; }
     const ids = workerIds(m);
-    if (!ids.size) return '';                              // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다
+    if (!ids.size) { fresh.add(key); return ''; }          // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다
     /* 과거 날짜 이관은 실행당 예산 안에서만 — 한 번에 다 읽으면 호출 제한에 걸려 실행이 길어지고 실시간 집계가 밀린다 */
     const budget = opts && opts.budget;
     if (budget) {
@@ -333,6 +354,7 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     // blocksText는 m.text와 m.blocks의 동일 내용을 둘 다 담아 문구가 중복됨 → 답글별 동일 줄 제거
     const txt = reps.filter(r => r.user && ids.has(r.user))
       .map(r => [...new Set(blocksText(r).split('\n').map(x => x.trim()).filter(Boolean))].join(' ')).join(' / ');
+    fresh.add(key);
     return cleanNote(txt);
   }
   let completed = 0, externCount = 0, dup = 0, latest = '';
@@ -751,7 +773,8 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
       catch (e) { console.error(`  ⚠ [${ch.label} ${dstr}] 읽기 실패(${e.message}) — 건너뜀`); failedChs.push(ch.label); continue; }
       const r = await tallyInto(msgs, ch, counts, pending, done,
-        { priorNotes: noteDone ? priorNotes : {}, oldNotes: priorNotes, state: noteState,
+        { priorNotes: noteDone ? priorNotes : v2Notes((data.days[dstr] || {}).done), oldNotes: priorNotes, state: noteState,
+          reuseEmpty: !noteDone && dstr < wdStart,
           budget: (dstr < wdStart && !backfillFrom) ? noteMigBudget : null });   // 최근 3일은 예산 없이 바로
       if (dstr === targetDate) trackResp(data, msgs, ch);   // 오늘 인입 건만 응답시간 폴링 추적
       completed += r.completed; externCount += r.externCount; dupTotal += r.dup; if (r.latest > latest) latest = r.latest;
@@ -779,7 +802,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     for (const it of done) intakeAgg[it.intake || 'unknown']++;
     for (const it of pending) intakeAgg[it.intake || 'unknown']++;
     de.counts = counts; de.pending = pending; de.done = done; de.intake = intakeAgg;
-    if (!noteState.incomplete) { data.noteV = data.noteV || {}; data.noteV[dstr] = NOTE_RULE; }
+    finishNotes(data, dstr, done, noteState);
     if (latest && latest > (de.updatedAt || '')) de.updatedAt = latest;
     if (!de.updatedAt) de.updatedAt = latest || '';
     data.days[dstr] = de;
@@ -809,7 +832,8 @@ async function tallyVoc(msgs, voc, channelId, opts) {
         try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
         catch (e) { failed = true; break; }
         gotMsgs += msgs.length;
-        await tallyInto(msgs, ch, {}, [], tmpDone, { priorNotes: {}, oldNotes: old, state: st, budget: noteMigBudget });
+        await tallyInto(msgs, ch, {}, [], tmpDone, { priorNotes: v2Notes(data.days[d].done), oldNotes: old, state: st,
+                                                     reuseEmpty: true, budget: noteMigBudget });
       }
       if (failed) { console.log(`  [처리내역 이관 ${d}] 슬랙 읽기 실패 — 다음 실행에서`); continue; }
       data.noteV = data.noteV || {};
@@ -822,9 +846,9 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       for (const it of tmpDone) fresh[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note || '';
       for (const it of data.days[d].done) {
         const k = it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
-        if (k in fresh && fresh[k] !== (it.note || '')) { it.note = fresh[k]; migChanged++; }
+        if (st.fresh && st.fresh.has(k) && k in fresh && fresh[k] !== (it.note || '')) { it.note = fresh[k]; migChanged++; }
       }
-      if (!st.incomplete) data.noteV[d] = NOTE_RULE;
+      finishNotes(data, d, data.days[d].done, st);
       migDays++;
     }
     const left = todo.filter((d) => (data.noteV || {})[d] !== NOTE_RULE && (data.noteV || {})[d] !== 'unreachable').length;
