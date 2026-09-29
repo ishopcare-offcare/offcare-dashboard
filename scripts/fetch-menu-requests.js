@@ -463,7 +463,7 @@ function storeFromSubject(subj) {
   return s.replace(/[()+_\-·|/.,]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
 }
 // 메뉴 요청이 아닌 시스템 알림 메일(스크립트 오류 요약·Zapier 경고 등) — 요청 목록에 넣지 않는다
-const MAIL_NOISE = /no-?reply|zapier|apps-scripts-notifications|mailer-daemon/i;
+const MAIL_NOISE = /no-?reply|zapier|apps-scripts-notifications|mailer-daemon|bZapb|Possible error on your|Summary of failures/i;
 const extOf = (name) => ((String(name || '').match(/\.([A-Za-z0-9]{1,5})$/) || [])[1] || '').toLowerCase();
 
 // 텍스트에서 POS 종류 추정
