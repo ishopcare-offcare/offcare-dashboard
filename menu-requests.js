@@ -42288,7 +42288,7 @@ window.MENU_REQUESTS = {
    "store": "그란데커피 사업자 ···",
    "biz": "107",
    "pos": "",
-   "content": "[📧 메일] 제목: 그란데커피 메뉴등록요청드려요 사업자 107  33  64036\n*      010  9228  8026 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31>)",
+   "content": "[📧 메일] 제목: 그란데커피 메뉴등록요청드려요 사업자 ···\n*      ··· \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31>)",
    "special": "",
    "drive": [],
    "files": 0,

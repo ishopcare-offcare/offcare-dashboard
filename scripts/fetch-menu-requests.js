@@ -183,8 +183,9 @@ function scrubPII(t) {
   return String(t || '')
     // 마스킹 토큰은 한글을 쓰지 않는다 — 브라우저의 ocrExtractMenu 가 한글 2자 이상을
     // 메뉴명으로 잡아 '번호 | ' 같은 가짜 행을 만들기 때문. '···' 는 이름·가격 어디에도 안 걸린다.
-    .replace(/\b0\d{1,2}[-. ]?\d{3,4}[-. ]?\d{4}\b/g, '···')   // 전화·휴대폰
-    .replace(/\b\d{3}[-. ]\d{2}[-. ]\d{5}\b/g, '···')          // 사업자번호 000-00-00000
+    // 구분자는 여러 칸일 수 있다 — 메일 제목에서 '010  9228  8026'(공백 2칸)이 그대로 공개된 적이 있다
+    .replace(/\b0\d{1,2}[-.\s]{0,3}\d{3,4}[-.\s]{0,3}\d{4}\b/g, '···')   // 전화·휴대폰
+    .replace(/\b\d{3}[-.\s]{1,3}\d{2}[-.\s]{1,3}\d{5}\b/g, '···')        // 사업자번호 000-00-00000
     .replace(/\b\d{10,11}\b/g, '···')                          // 하이픈 없는 10~11자리
     .replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, '···');
 }
@@ -452,13 +453,17 @@ function matchMail(idx, fromEmail, subject, ts) {
   cands.sort((a, b) => gap(a) - gap(b));
   return cands[0] || null;
 }
-// 메일 제목에서 상호 추정 — "영거+메뉴등록 요청" → "영거"
+// 메일 제목에서 상호 추정 — 제목은 대개 '<상호> 메뉴…' 꼴이라 첫 업무 단어 앞까지를 상호로 본다.
+//   "영거+메뉴등록 요청" → "영거" · "에인킨드_토스 메뉴 등록 관련 파일" → "에인킨드"
+//   "텍사스 메뉴판 보내드려요…" → "텍사스" · "(샐러드타임)키오스크" → "샐러드타임"
 function storeFromSubject(subj) {
-  return String(subj || '')
-    .replace(/\[[^\]]*\]/g, ' ').replace(/^\s*((re|fw|fwd)\s*:\s*)+/i, '')
-    .replace(/메뉴\s*(등록|수정|변경|추가)?|등록|요청(드립니다|합니다|드려요)?|의\s*건|사진|파일|이미지|전달/g, ' ')
-    .replace(/[+_\-·|/]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
+  let s = String(subj || '').replace(/\[[^\]]*\]/g, ' ').replace(/^\s*((re|fw|fwd)\s*:\s*)+/i, '').replace(/···/g, ' ');
+  const cut = s.search(/메뉴|키오스크|엑셀|사업자|포스|토스|정보\s*변경|등록|요청|사진|파일|이미지|보내|드립니다|입니다|관련/);
+  if (cut >= 0) s = s.slice(0, cut);
+  return s.replace(/[()+_\-·|/.,]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
 }
+// 메뉴 요청이 아닌 시스템 알림 메일(스크립트 오류 요약·Zapier 경고 등) — 요청 목록에 넣지 않는다
+const MAIL_NOISE = /no-?reply|zapier|apps-scripts-notifications|mailer-daemon/i;
 const extOf = (name) => ((String(name || '').match(/\.([A-Za-z0-9]{1,5})$/) || [])[1] || '').toLowerCase();
 
 // 텍스트에서 POS 종류 추정
@@ -488,8 +493,10 @@ function detectPos(text) {
   const items = [];
   for (const m of msgs) {
     if (m.subtype && m.subtype !== 'bot_message') continue;   // 시스템 메시지 제외(봇 접수글은 포함)
-    const text = [m.text || '', ...(m.attachments || []).map((a) => a.text || a.fallback || '')].join('\n')
+    const rawText = [m.text || '', ...(m.attachments || []).map((a) => a.text || a.fallback || '')].join('\n')
       .replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+    // 메일 릴레이 글은 라벨을 슬랙 굵게(*제목:*)로 감싸 보낸다 — 별표를 걷어야 라벨·본문이 깨끗이 잡힌다
+    const text = /새\s*메일\s*도착/.test(rawText) ? rawText.replace(/\*/g, '') : rawText;
 
     // 메일 릴레이 글 — 상호 라벨이 없어도 요청으로 받는다(첨부는 아래 matt 에서 메일함 목록과 짝지음)
     const isMail = /새\s*메일\s*도착/.test(text);
@@ -504,7 +511,12 @@ function detectPos(text) {
       .split(/\s*(?:사업자|대표자?|연락처|전화|휴대폰|포스\s*[:：]|\/)/)[0].trim();
     if (!store && isMail) store = storeFromSubject(mailSubj);
     store = scrubPII(store).slice(0, 40);
-    const biz = ((text.match(/사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/) || [])[1] || '').replace(/-/g, '').trim();
+    let biz = ((text.match(/사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/) || [])[1] || '').replace(/-/g, '').trim();
+    if (biz.length < 10) {   // '사업자 107  33  64036' 처럼 공백으로 끊어 쓴 번호
+      const sp = ((text.match(/사업자[^\d\n]{0,12}(\d{3}[-\s]{1,3}\d{2}[-\s]{1,3}\d{5})/) || [])[1] || '').replace(/\D/g, '');
+      if (sp.length === 10) biz = sp;
+    }
+    if (isMail && MAIL_NOISE.test(mailFrom + ' ' + mailSubj)) continue;
     if (!store && !biz && !isMail) continue;                  // 상호·사업자 없는 글(사진 릴레이 등)은 요청으로 안 봄
 
     // ⚠️ 연락처는 적재하지 않는다 — 이 저장소는 public 이라 menu-requests.js 가
