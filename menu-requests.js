@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2664,
- "updatedAt": "2026-09-29 16:02",
+ "version": 2665,
+ "updatedAt": "2026-09-29 16:09",
  "days": 30,
  "items": [
+  {
+   "ts": "1790665655.665649",
+   "date": "2026-09-29",
+   "time": "16:07",
+   "store": "스몰굿커피 문정점",
+   "biz": "6412901913",
+   "pos": "토스포스",
+   "content": "<@U08HHP6TV39> 님 이미지 파일 메일로 전달 드렸습니다~~확인 부탁드립니다  :개굴-하트:\n\n```문정점 토스 HOT 카테고리 메뉴 이미지 전달드립니다.\n\n메뉴 항목중 오탈자로 인한 메뉴명 수정 부탁드립니다.\n*케리베인 칵테일 티 (HOT)->캐리비안 칵테일 티 (HOT)\n*빅 케리비안 칵테일티 (HOT)->빅 캐리비안 칵테일 티```",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790665659.348609",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790665655665649"
+  },
   {
    "ts": "1790664430.007499",
    "date": "2026-09-29",
@@ -31954,32 +31975,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788951686669869"
-  },
-  {
-   "ts": "1788950510.751039",
-   "date": "2026-09-09",
-   "time": "19:41",
-   "store": "Possible error on your Copy",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: [ALERT] Possible error on your (Copy) 메뉴 봇(구글폼) Zap\nWe've identified 1 error that needs your review.   ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏   ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏   ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏   ͏  ͏  ͏  ͏  ͏  ͏  ͏ \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a085c20f7884287>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788950514.619469",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a085c20f7884287",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788950510751039"
   },
   {
    "ts": "1788950358.684829",
