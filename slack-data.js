@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14599,
+  "version": 14600,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -217366,6 +217366,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
+          "김동욱": 1,
           "배선유": 12,
           "심성현": 6,
           "서상원": 1,
@@ -217592,6 +217593,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "점주님 자체 온보딩 완료"
+        },
+        {
+          "time": "19:11",
+          "store": "신전떡볶이신불당점",
+          "biz": "5081210311",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "• 메뉴 복사 및 수정 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "토플파 복제 및 메뉴 수정 완료"
         },
         {
           "time": "19:10",
@@ -220167,7 +220179,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 224,
+        "online": 225,
         "offline": 36,
         "unknown": 0
       },
@@ -291690,7 +291702,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 06:15",
+    "at": "2026-09-30 06:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -291804,7 +291816,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 06:15",
+    "at": "2026-09-30 06:30",
     "pri": {
       "days": 0,
       "failed": [],

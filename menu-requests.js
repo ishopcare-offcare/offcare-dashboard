@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2678,
- "updatedAt": "2026-09-30 01:01",
+ "version": 2679,
+ "updatedAt": "2026-09-30 06:31",
  "days": 30,
  "items": [
   {
@@ -46,9 +46,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "메뉴 73개 등록되어있음.\n기존 메뉴 삭제 후 등록해야하는지 확인필요.\n피자 옵션도 있음."
+   ],
+   "rc": 1,
+   "lr": "1790717355.207609",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a0edd924a9f4b6a",
@@ -150,9 +152,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "이미지만 수신됨. 메뉴정보 없음."
+   ],
+   "rc": 1,
+   "lr": "1790717172.277909",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -174,11 +178,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "···(신전떡볶이쌍용동나사렛대점) > ···(신전떡볶이신불당점)\n\n메뉴 그대로 복사 요청 주셨고 그 중\n7개의 메뉴(옵션 포함) 삭제 요청 주셨습니다.\n\n*[메뉴]*\n1. *어묵볶이*\n2. *맵닭* \n3. *반반 뽑기*\n4. *참치마요김밥*\n5. *참치샐러드컵밥*\n*[옵션]*\n1. *베이컨*\n2. *분모자*"
    ],
-   "rc": 2,
-   "lr": "1790676978.991969",
+   "rc": 3,
+   "lr": "1790716816.613709",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790676689125079"
   },
   {
