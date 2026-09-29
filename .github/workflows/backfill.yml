@@ -35,10 +35,17 @@ jobs:
           if git diff --quiet slack-data.js; then
             echo "변경 없음 — 커밋 생략"
           else
-            git add slack-data.js
-            git commit -m "chore: 과거 일자 백필 재집계 (${{ inputs.from_date }} ~ 오늘)"
+            # 텍스트 rebase 를 쓰지 않는다 — 백필은 파일을 통째로 다시 써서, 도는 동안 집계 봇이 한 번만
+            # 푸시해도 충돌한다(2026-09-29 #13 이 8회 전부 실패). 대신 푸시할 때마다 최신 main 을 받아
+            # 백필한 과거 날짜만 JSON 으로 바꿔 끼운다(scripts/merge-backfill.js). 최근 3일은 봇 값 유지.
+            cp slack-data.js "$RUNNER_TEMP/bf-slack-data.js"
             for i in 1 2 3 4 5 6 7 8; do
-              git pull --rebase --autostash origin main && git push && { echo "푸시 성공"; exit 0; }
+              git fetch -q origin main && git reset -q --hard origin/main
+              node scripts/merge-backfill.js "$RUNNER_TEMP/bf-slack-data.js" slack-data.js "${{ inputs.from_date }}" || exit 1
+              if git diff --quiet slack-data.js; then echo "최신본과 차이 없음 — 커밋 생략"; exit 0; fi
+              git add slack-data.js
+              git commit -q -m "chore: 과거 일자 백필 재집계 (${{ inputs.from_date }} ~ 오늘)"
+              git push origin HEAD:main && { echo "푸시 성공"; exit 0; }
               echo "푸시 경합 — 재시도 $i..."; sleep $((i*3))
             done
             echo "푸시 8회 실패"; exit 1
