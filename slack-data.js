@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14285,
+  "version": 14286,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215385,7 +215385,7 @@ window.SLACK_DATA = {
           "req": "무선프린터 와이파이 설치 어려워 하셔서 도움 요청 드립니다. (포스기세트 사용중)  :꾸벅곰:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "무프 온보딩 완료입니다"
         },
         {
           "time": "10:13",
@@ -215701,21 +215701,21 @@ window.SLACK_DATA = {
       },
       "1790641801.953659": {
         "post": "1790641801.953659",
-        "lastSeen": 1790645059.494,
+        "lastSeen": 1790645098.771,
         "r": 1,
         "day": "2026-09-29",
         "idx": 1
       },
       "1790643600.462219": {
         "post": "1790643600.462219",
-        "lastSeen": 1790645059.494,
+        "lastSeen": 1790645098.771,
         "r": 1,
         "day": "2026-09-29",
         "idx": 4
       },
       "1790645030.679609": {
         "post": "1790645030.679609",
-        "lastSeen": 1790645059.494
+        "lastSeen": 1790645098.771
       }
     },
     "days": {
@@ -285148,7 +285148,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 10:24",
+    "at": "2026-09-29 10:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
