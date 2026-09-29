@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14278,
+  "version": 14279,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215354,6 +215354,7 @@ window.SLACK_DATA = {
     "2026-09-29": {
       "counts": {
         "as": {
+          "송태양": 1,
           "서상원": 1,
           "고경림": 2
         },
@@ -215374,6 +215375,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:13",
+          "store": "아이라이크미술학원",
+          "biz": "7329002412",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "가결제",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:05",
           "store": "유겟플라워",
@@ -215475,11 +215487,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:10",
+      "updatedAt": "10:13",
       "voc": {
         "responses": 1,
         "install": {
@@ -215666,21 +215678,21 @@ window.SLACK_DATA = {
       },
       "1790641801.953659": {
         "post": "1790641801.953659",
-        "lastSeen": 1790644350.559,
+        "lastSeen": 1790644443.933,
         "r": 1,
         "day": "2026-09-29",
         "idx": 1
       },
       "1790642872.827949": {
         "post": "1790642872.827949",
-        "lastSeen": 1790644350.559,
+        "lastSeen": 1790644443.933,
         "r": 1,
         "day": "2026-09-29",
         "idx": 2
       },
       "1790643600.462219": {
         "post": "1790643600.462219",
-        "lastSeen": 1790644350.559,
+        "lastSeen": 1790644443.933,
         "r": 1,
         "day": "2026-09-29",
         "idx": 4
@@ -285115,7 +285127,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 10:13",
+    "at": "2026-09-29 10:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
