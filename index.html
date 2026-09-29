@@ -2976,6 +2976,98 @@ function menuregCacheGrid(){ const ta=document.getElementById('mrGrid'); if(ta&&
  * 사진을 10장 넘게 나눠 올리는 매장(또래오래 파파빈 등)은 카드마다 복사하기가 번거롭다.
  * 사진 사이에 같은 항목이 겹치는 일이 많아 완전히 같은 줄은 한 번만 넣는다.
  * 기존 그리드 내용이 있으면 덮지 않고 뒤에 이어붙인다. */
+/* 판독 결과 [{category,name,price}] → 변환란 줄('분류 | 상품명 | 가격'). 반환: 가격 미판독 수.
+ * 맛별로 펼친다 — 'JARRITOS 자몽 / 구아바 / 망고' 가 한 줄로 오는 경우가 많다.
+ * 이름 안의 '|' 는 칸 구분자라 '·' 로 바꾼다('/' 로 바꾸면 다시 나열로 읽힌다). */
+function menuregPushMenu(menu, lines, seen){
+  let noPrice=0;
+  for(const m0 of menu) for(const vName of menuregSplitVariants(String(m0.name||'').replace(/\|/g,'·'))){
+    const name=String(vName||'').replace(/\|/g,'/').trim(); if(!name) continue;
+    const cat=String(m0.category||'').replace(/\|/g,'/').trim()||'메뉴';
+    const price=Number(m0.price)||0;
+    const key=cat+' '+name+' '+price;
+    if(seen.has(key)) continue; seen.add(key);
+    if(!price) noPrice++;
+    lines.push(cat+' | '+name+' | '+(price||''));
+  }
+  return noPrice;
+}
+/* ── 🖼 사진·PDF → 텍스트 변환 (즉시 판독) ──────────────────────────────────
+ * 슬랙·메일로 들어오지 않은 사진(카톡으로 받은 메뉴판, 화면 캡처 등)을 바로 변환란에 넣는다.
+ * 판독은 menu-ocr.gs(Apps Script 웹 앱)가 한다 — 이 페이지는 공개라 API 키를 여기 둘 수 없다.
+ * 팀 암호는 처음 한 번 묻고 이 브라우저에 기억한다(틀리면 지우고 다시 묻는다). */
+const MENU_OCR_API = "";   // menu-ocr.gs 웹 앱 배포 URL (…/exec)
+const LS_MENUOCR_CODE = "opcare_menuocr_code_v1";
+let menuregOcrBusy=false;
+function menuregBlobB64(blob){ return new Promise((ok,no)=>{ const r=new FileReader(); r.onload=()=>ok(String(r.result).split(',')[1]||''); r.onerror=()=>no(new Error('파일을 읽지 못했습니다')); r.readAsDataURL(blob); }); }
+// 사진은 JPEG 로 다시 굽는다 — 폰 원본(10MB)·PNG 캡처는 API 상한(5MB)을 넘기 쉽다.
+// 긴 변은 2400px 로 줄이되, 세로로 긴 스크롤 캡처는 줄이면 글자가 뭉개져 API 상한(8000px) 가까이 둔다.
+async function menuregPrepImage(f){
+  if(f.type==='application/pdf'){ if(f.size>4.8*1048576) throw new Error('PDF가 5MB를 넘습니다'); return {mime:f.type, data:await menuregBlobB64(f)}; }
+  let bmp;
+  try{ bmp=await createImageBitmap(f); }
+  catch(e){ throw new Error(/heic|heif/i.test((f.type||'')+(f.name||''))?'아이폰 HEIC 사진은 브라우저에서 열 수 없습니다 — jpg로 저장해 올려주세요':'이미지를 열 수 없습니다'); }
+  const long=Math.max(bmp.width,bmp.height), ratio=long/Math.max(1,Math.min(bmp.width,bmp.height));
+  const s=Math.min(1,(ratio>2.5?7800:2400)/long);
+  const c=document.createElement('canvas'); c.width=Math.round(bmp.width*s); c.height=Math.round(bmp.height*s);
+  const g=c.getContext('2d'); g.fillStyle='#fff'; g.fillRect(0,0,c.width,c.height); g.drawImage(bmp,0,0,c.width,c.height);
+  let q=0.88, blob;
+  do{ blob=await new Promise(r=>c.toBlob(r,'image/jpeg',q)); q-=0.15; }while(blob&&blob.size>4.5*1048576&&q>0.3);
+  if(!blob) throw new Error('이미지 변환 실패');
+  return {mime:'image/jpeg', data:await menuregBlobB64(blob)};
+}
+async function menuregOcrCall(p){
+  let code=localStorage.getItem(LS_MENUOCR_CODE)||'';
+  if(!code){ code=(prompt('🔑 사진 판독 팀 암호를 입력하세요 (처음 한 번만 묻습니다)')||'').trim(); if(!code) throw new Error('암호를 입력하지 않았습니다'); }
+  const r=await fetch(MENU_OCR_API,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({code,mime:p.mime,data:p.data})});
+  let d=null; const t=await r.text(); try{ d=JSON.parse(t); }catch(e){ throw new Error('판독 서버 응답 오류'); }
+  if(d.error==='bad_code'){ localStorage.removeItem(LS_MENUOCR_CODE); throw new Error('암호가 맞지 않습니다 — 다시 올리면 새로 묻습니다'); }
+  if(!d.ok) throw new Error(d.error||'판독 실패');
+  localStorage.setItem(LS_MENUOCR_CODE,code);
+  return d;
+}
+async function menuregOcrFiles(fileList){
+  const files=[...(fileList||[])].filter(f=>/^image\/|^application\/pdf$/.test(f.type)||/\.(heic|heif|pdf)$/i.test(f.name||''));
+  if(!files.length) return;
+  if(!MENU_OCR_API){ alert('사진 판독 서버가 아직 연결되지 않았습니다.\nmenu-ocr.gs 를 웹 앱으로 배포한 뒤 URL을 MENU_OCR_API 에 넣어야 합니다.'); return; }
+  if(menuregOcrBusy){ alert('앞서 올린 사진을 판독하는 중입니다. 끝난 뒤 다시 올려주세요.'); return; }
+  menuregOcrBusy=true;
+  const say=t=>{ const el=document.getElementById('mrXlInfo'); if(el) el.textContent=t; };
+  // 변환란에 이미 있는 줄은 다시 넣지 않는다(같은 사진을 두 번 올리거나 슬랙 판독분과 겹칠 때)
+  const ta0=document.getElementById('mrXlGrid');
+  const seen=new Set((ta0?ta0.value:menuregXlCache).split('\n').map(l=>{ const p=l.split('|').map(x=>x.trim()); return p.length>=2?(p[0]||'메뉴')+' '+p[1]+' '+(Number(String(p[2]||'').replace(/,/g,''))||0):''; }).filter(Boolean));
+  const lines=[], fails=[], empty=[]; let noPrice=0, got=0;
+  try{
+    for(const [i,f] of files.entries()){
+      const nm=f.name&&f.name!=='image.png'?f.name:'붙여넣은 이미지';
+      say(`⏳ 사진 판독 중 ${i+1}/${files.length} — ${nm} (장당 10~30초)`);
+      try{
+        const d=await menuregOcrCall(await menuregPrepImage(f));
+        if(!(d.items||[]).length) empty.push(nm); else { got+=d.items.length; noPrice+=menuregPushMenu(d.items, lines, seen); }
+      }catch(e){ fails.push(nm+': '+e.message); if(/암호/.test(e.message)) break; }
+    }
+  }finally{ menuregOcrBusy=false; }
+  const ta=document.getElementById('mrXlGrid');   // 판독하는 동안 화면이 다시 그려졌을 수 있다 — 새로 찾는다
+  const cur=((ta?ta.value:menuregXlCache)||'').trim();
+  if(lines.length){
+    menuregXlCache = cur ? cur+'\n'+lines.join('\n') : lines.join('\n');
+    if(ta) ta.value=menuregXlCache;
+    if(!menuregXlName){ const s=menuregItems().find(x=>x.ts===menuregSel); menuregXlName=(s&&s.store)||String(files[0].name||'매장').replace(/\.[A-Za-z0-9]+$/,''); }
+  }
+  say((lines.length?`✅ 사진 ${files.length-fails.length-empty.length}장에서 ${lines.length}개를 옮겼습니다`+(cur?' (기존 내용 뒤에 추가)':''):(got?`ℹ️ 판독한 ${got}개가 모두 변환란에 이미 있습니다`:'❌ 옮길 메뉴를 찾지 못했습니다'))
+    +(noPrice?` · 가격 미판독 ${noPrice}개는 가격을 채워야 변환됩니다`:'')
+    +(empty.length?` · 메뉴 목록이 아닌 사진 ${empty.length}장`:'')
+    +(fails.length?` · 실패 ${fails.length}장 (${fails.join(' / ').slice(0,200)})`:'')
+    +(lines.length?' — 원본과 대조해 검수하세요':''));
+  if(ta&&lines.length){ ta.scrollIntoView({behavior:'smooth',block:'center'}); }
+}
+// 메뉴등록 탭에서 캡처 이미지를 Ctrl+V 하면 바로 판독한다(텍스트 붙여넣기는 그대로 둔다)
+document.addEventListener('paste', e=>{
+  if(typeof activeCat==='undefined'||activeCat!=='menureg') return;
+  const imgs=[...((e.clipboardData&&e.clipboardData.files)||[])].filter(f=>/^image\//.test(f.type));
+  if(!imgs.length) return;
+  e.preventDefault(); menuregOcrFiles(imgs);
+});
 function menuregFillFromOcr(ts){
   const it=menuregItems().find(x=>x.ts===ts); if(!it) return;
   const imgs=[...(it.att||[]), ...(it.datt||[]), ...(it.matt||[])];
@@ -2983,18 +3075,7 @@ function menuregFillFromOcr(ts){
   let noPrice=0;
   for(const a of imgs){
     if((a.menu||[]).length){
-      // 판독 결과도 맛별로 펼친다 — 'JARRITOS 자몽 / 구아바 / 망고' 가 한 줄로 오는 경우가 많다.
-      // 이름 안의 '|' 는 칸 구분자라 '·' 로 바꾼다('/' 로 바꾸면 다시 나열로 읽힌다).
-      for(const m0 of a.menu) for(const vName of menuregSplitVariants(String(m0.name||'').replace(/\|/g,'·'))){
-        const m=Object.assign({}, m0, {name:vName});
-        const name=String(m.name||'').replace(/\|/g,'/').trim(); if(!name) continue;
-        const cat=String(m.category||'').replace(/\|/g,'/').trim()||'메뉴';
-        const price=Number(m.price)||0;
-        const key=cat+' '+name+' '+price;
-        if(seen.has(key)) continue; seen.add(key);
-        if(!price) noPrice++;
-        lines.push(cat+' | '+name+' | '+(price||''));
-      }
+      noPrice+=menuregPushMenu(a.menu, lines, seen);
     }else if(a.ocr){                                  // 구 tesseract 캐시(문자열)
       for(const l of String(ocrExtractMenu(a.ocr,it.store)||'').split('\n')){
         const t=l.trim(); if(!t) continue;
@@ -3124,8 +3205,13 @@ function renderMenuReg(){
     </div>
     ${detail}
     <div class="card">
-      <div class="card-head"><h3>📂 매장 메뉴 파일 → POS 양식 변환</h3><span class="hint">매장이 보내준 메뉴 파일(엑셀 xlsx·xls·csv / 워드 docx / 한글 hwp·hwpx / odt) 업로드 → 자동 추출 → 검수 → 4개 POS 양식</span></div>
+      <div class="card-head"><h3>📂 매장 메뉴 파일 → POS 양식 변환</h3><span class="hint">매장이 보내준 메뉴 파일(엑셀 xlsx·xls·csv / 워드 docx / 한글 hwp·hwpx / odt) 또는 메뉴 사진·PDF 업로드 → 자동 추출 → 검수 → 4개 POS 양식</span></div>
       <input type="file" accept=".xlsx,.xls,.csv,.docx,.hwp,.hwpx,.odt" onchange="menuregXlUpload(this)" style="font-size:13px">
+      <div ondragover="event.preventDefault();this.style.background='rgba(94,92,230,.10)'" ondragleave="this.style.background=''" ondrop="event.preventDefault();this.style.background='';menuregOcrFiles(event.dataTransfer.files)"
+        style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px;padding:10px 12px;border:1.5px dashed var(--line,#cfd3da);border-radius:10px">
+        <label class="btn" style="background:var(--blue);color:#fff;border-color:var(--blue);cursor:pointer;margin:0">🖼 사진·PDF → 텍스트 변환<input type="file" accept="image/*,application/pdf,.heic,.heif" multiple style="display:none" onchange="menuregOcrFiles(this.files);this.value=''"></label>
+        <span class="hint">메뉴판 사진·POS 캡처·PDF를 올리거나 이 칸에 끌어놓으세요 · 화면 캡처는 <b>Ctrl+V</b> 로 바로 붙여넣기 · 여러 장 한 번에 가능 · Claude 판독 후 아래 변환란에 추가됩니다</span>
+      </div>
       <div id="mrXlInfo" class="hint" style="margin-top:6px">${menuregUndoHTML()||(menuregXlName?'📄 '+escapeHtml(menuregXlName)+' (이전 변환 유지)':'')}</div>
       <textarea id="mrXlGrid" rows="8" style="width:100%;font-family:ui-monospace,Consolas,monospace;font-size:13px;border:1px solid var(--line,#ddd);border-radius:10px;padding:10px;margin-top:8px" oninput="menuregXlCache=this.value" placeholder="업로드하면 여기에 '분류 | 상품명 | 가격 | 바코드 | 제조사 | 상품코드 | 재고' 형식으로 추출됩니다. 원본에 없는 칸은 비어 있고, 직접 입력·수정도 가능합니다.">${escapeHtml(menuregXlCache)}</textarea>
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center">
