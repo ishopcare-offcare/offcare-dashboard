@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-09-30 02:01 KST · 150건 (2026-07-01 이후)
+ * 갱신: 2026-09-30 08:16 KST · 150건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-09-30 02:01',
+  updatedAt: '2026-09-30 08:16',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -155,6 +155,6 @@ window.VISIT_DATA = {
   {"id":"15116","date":"2026-09-29","time":"09:49","store":"등촌샤브칼국수 나성점","biz":"7881402819","kind":"설치","status":"done","visitDate":"2026-09-30","region":"지방","route":"오프라인","addr":"세종특별자치시","van":"KIS","equip":"포스기 1EA + 프론트 1EA + 유선프린터기 1EA + 금전함 1EA","ship":"2026-09-28","delivery":"","requester":"","assignee":"이글통신","rounds":0,"roundDates":[],"brand":"등촌샤브칼국수"},
   {"id":"15121","date":"2026-09-29","time":"10:48","store":"강창구찹쌀진순대 덕소점","biz":"2061953558","kind":"AS","status":"done","visitDate":"2026-09-29","region":"수도권","route":"오프라인","addr":"경기도 남양주시","van":"DAOU","equip":"DD2350 네트워크 점검","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":3,"roundDates":["2026-02-02","2026-09-17","2026-09-29","2026-02-02","2026-09-17","2026-09-29"],"brand":"강창구찹쌀진순대"},
   {"id":"15126","date":"2026-09-29","time":"11:40","store":"등촌샤브칼국수 성남금광점","biz":"5223201887","kind":"AS","status":"pending","visitDate":"2026-10-01","region":"수도권","route":"오프라인","addr":"경기도 성남시 중원구","van":"KIS","equip":"E250K 벽프라켓포스","ship":"2026-09-29","delivery":"","requester":"","assignee":"","rounds":3,"roundDates":["2026-09-09","2026-09-23","2026-10-01","2026-09-09","2026-09-23","2026-10-01"],"brand":"등촌샤브칼국수"},
-  {"id":"15182","date":"2026-09-29","time":"18:40","store":"신전떡볶이신불당점","biz":"5081210311","kind":"설치","status":"pending","visitDate":"2026-10-01","region":"지방","route":"온라인","addr":"충청남도 천안시 서북구","van":"KOCES","equip":"프론트 1EA + 유선프린터기 1EA","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"신전떡볶이"},
+  {"id":"15182","date":"2026-09-29","time":"18:40","store":"신전떡볶이신불당점","biz":"5081210311","kind":"설치","status":"done","visitDate":"2026-10-01","region":"지방","route":"온라인","addr":"충청남도 천안시 서북구","van":"KOCES","equip":"프론트 1EA + 유선프린터기 1EA","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"신전떡볶이"},
   ],
 };
