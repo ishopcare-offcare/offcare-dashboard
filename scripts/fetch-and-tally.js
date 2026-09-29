@@ -827,8 +827,10 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     } catch (e) { console.log(`  [처리내역 우선 이관] 브랜드 규칙 로드 실패(${e.message}) — 건너뜀`); }
     if (BM) {
       const isPri = (it) => { const m = BM.matchBrand(bIdx, it.store || ''); return !!(m && PRIORITY_BRANDS.includes(m.brand.name)); };
-      const inRun = new Set(workDates);
-      const days = Object.keys(data.days).filter((d) => !inRun.has(d)
+      /* 최근 3일만 뺀다(항상 즉시 새 규칙). 재확인 날짜(미처리가 남아 이번 실행에 재집계된 날)도 포함해야 한다 —
+         뺐더니 컴포즈 건이 있는 9/16·9/14 가 매번 재확인 대상이라 우선 이관에서 빠졌고,
+         재확인 쪽은 일반 예산을 최근 날짜가 먼저 써서 끝내 차례가 오지 않았다. */
+      const days = Object.keys(data.days).filter((d) => d < wdStart
           && (data.noteV || {})[d] !== NOTE_RULE && (data.noteV || {})[d] !== 'unreachable'
           && (((data.days[d] || {}).done) || []).some((it) => it.nv !== NOTE_RULE && isPri(it)))
         .sort().reverse();
