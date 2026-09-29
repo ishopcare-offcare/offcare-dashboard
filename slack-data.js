@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14273,
+  "version": 14274,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215358,6 +215358,7 @@ window.SLACK_DATA = {
           "고경림": 2
         },
         "onboarding": {
+          "김동욱": 1,
           "심성현": 1
         },
         "extern": {
@@ -215405,6 +215406,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "RJ 프린터선 잘못꽂아놓으셔서 출력안됨 • 영통으로 포트 위치 확인시켜드린후, 정상출력확인완료 영통으로 포트 위치 확인시켜드린후, 정상출력확인완료"
+        },
+        {
+          "time": "09:50",
+          "store": "ROOT SYSTEM",
+          "biz": "1330294535",
+          "cat": "onboarding",
+          "emp": "김동욱",
+          "req": "토스포스(pc) 프론트 터미널 온보딩 도움 요청 드립니다. 영수증 커스텀도 희망하십니다! :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": "포터프(데스크탑) 온보딩 완료"
         },
         {
           "time": "09:49",
@@ -215463,7 +215475,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 0,
         "unknown": 0
       },
@@ -215654,21 +215666,21 @@ window.SLACK_DATA = {
       },
       "1790641801.953659": {
         "post": "1790641801.953659",
-        "lastSeen": 1790644037.152,
+        "lastSeen": 1790644084.545,
         "r": 1,
         "day": "2026-09-29",
         "idx": 1
       },
       "1790642872.827949": {
         "post": "1790642872.827949",
-        "lastSeen": 1790644037.152,
+        "lastSeen": 1790644084.545,
         "r": 1,
         "day": "2026-09-29",
         "idx": 2
       },
       "1790643600.462219": {
         "post": "1790643600.462219",
-        "lastSeen": 1790644037.152,
+        "lastSeen": 1790644084.545,
         "r": 1,
         "day": "2026-09-29",
         "idx": 4
@@ -285103,7 +285115,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 10:07",
+    "at": "2026-09-29 10:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
