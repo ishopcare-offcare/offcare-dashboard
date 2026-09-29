@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2674,
- "updatedAt": "2026-09-29 19:14",
+ "version": 2675,
+ "updatedAt": "2026-09-29 19:18",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790676692.931339",
+   "replies": [
+    "···(신전떡볶이쌍용동나사렛대점) > ···(신전떡볶이신불당점)\n\n메뉴 그대로 복사 요청 주셨고 그 중\n7개의 메뉴(옵션 포함) 삭제 요청 주셨습니다.\n\n*[메뉴]*\n1. *어묵볶이*\n2. *맵닭* \n3. *반반 뽑기*\n4. *참치마요김밥*\n5. *참치샐러드컵밥*\n*[옵션]*\n1. *베이컨*\n2. *분모자*"
+   ],
+   "rc": 2,
+   "lr": "1790676978.991969",
    "rfx": 3,
    "status": "wait",
    "handler": null,
