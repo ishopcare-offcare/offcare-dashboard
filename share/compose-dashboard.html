@@ -217,6 +217,31 @@
   .cat-chip{display:inline-block; font-size:11.5px; font-weight:700; padding:2px 9px; border-radius:20px; white-space:nowrap}
   .cat-dot{display:inline-block; width:9px; height:9px; border-radius:3px; margin-right:7px; vertical-align:middle}
   .req-cell{max-width:330px; font-size:13px; color:var(--ink-soft); line-height:1.4}
+  /* 세부내역 팝업: 긴 스레드 원문이 행을 끝없이 늘리지 않게 3줄로 자른다 (마우스를 올리면 전문) */
+  .clamp3{display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; word-break:break-all}
+  /* 장비 조회 */
+  .eq-item{display:inline-block; font-size:12px; font-weight:700; padding:2px 9px; margin:2px 4px 2px 0; border-radius:20px;
+    background:var(--surface); border:1px solid var(--line-soft); color:var(--ink-soft); white-space:nowrap}
+  .eq-item small{font-weight:600; color:var(--gray2)}
+  .eq-item.off{text-decoration:line-through; color:var(--gray2)}
+  tr.eq-row{cursor:pointer}
+  tr.eq-row:hover td{background:var(--surface)}
+  tr.eq-row.on td{background:var(--blue-soft)}
+  .eq-ed{font-size:10.5px; font-weight:800; padding:1px 6px; border-radius:20px; background:#efe7fd; color:#6e3fe5; vertical-align:middle}
+  .eq-form{display:grid; grid-template-columns:1fr 1fr; gap:12px 16px; padding:4px 2px 2px}
+  .eq-f{display:flex; flex-direction:column; gap:5px; font-size:12.5px; font-weight:700; color:var(--gray)}
+  .eq-f input,.eq-f select{font:inherit; font-size:14px; font-weight:500; color:var(--ink); padding:9px 11px;
+    border:1px solid var(--line); border-radius:10px; background:var(--canvas)}
+  .eq-f input[readonly]{background:var(--surface); color:var(--gray)}
+  .eq-hint{grid-column:1/-1; font-size:12.5px; color:var(--gray); background:var(--surface); border-radius:10px; padding:9px 12px}
+  .eq-actions{grid-column:1/-1; display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-top:4px}
+  .eq-err{margin-right:auto; color:var(--red); font-size:13px; font-weight:700}
+  .eq-toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%); z-index:10000; display:none;
+    background:#1d1d1f; color:#fff; padding:11px 18px; border-radius:12px; font-size:14px; font-weight:600; box-shadow:0 8px 24px rgba(0,0,0,.3)}
+  .eq-toast.bad{background:#b91c1c}
+  /* 읽기 전용(고객사 공유본) — 수정 버튼을 전부 숨긴다 */
+  .eq-ro [data-eqadd],.eq-ro [data-eqov],.eq-ro [data-eqedit],.eq-ro [data-eqdel]{display:none !important}
+  @media (max-width:680px){ .eq-form{grid-template-columns:1fr} }
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 12px; line-height:1.8}
   .delta{font-size:12.5px; font-weight:700}
   .delta.up{color:var(--red)} .delta.down{color:var(--green)} .delta.flat{color:var(--gray2)}
@@ -271,6 +296,7 @@
 
   .ov{position:fixed; inset:0; z-index:9998; background:rgba(0,0,0,.45); display:flex;
     align-items:center; justify-content:center; padding:20px}
+  .box.wide{max-width:1080px}
   .box{background:var(--canvas); border-radius:18px; width:100%; max-width:780px; max-height:84vh;
     display:flex; flex-direction:column; padding:22px 24px; box-shadow:0 24px 60px rgba(0,0,0,.3)}
   .box-head{display:flex; align-items:center; justify-content:space-between; gap:12px}
@@ -358,6 +384,7 @@
   <button class="navbtn active" data-view="overview"><span class="ic">📊</span>전체현황</button>
   <button class="navbtn" data-view="stores"><span class="ic">🏪</span>지점별</button>
   <button class="navbtn" data-view="records"><span class="ic">📋</span>처리내역</button>
+  <button class="navbtn" data-view="equip"><span class="ic">🧰</span>장비 조회</button>
   <div class="nav-div"></div>
   <div class="nav-label">보고</div>
   <button class="navbtn" data-view="report"><span class="ic">📄</span>월간 보고서</button>
@@ -383,10 +410,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-09-08 17:08 KST · 126건 (2026-07-01 이후)
+ * 갱신: 2026-09-29 11:24 KST · 148건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-09-08 17:08',
+  updatedAt: '2026-09-29 11:24',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -513,9 +540,161 @@ window.VISIT_DATA = {
   {"id":"14189","date":"2026-09-05","time":"11:06","store":"몰디브태닝(광교)","biz":"8762702173","kind":"AS","status":"done","visitDate":"2026-09-08","region":"지방","route":"온라인","addr":"경기도 수원시 영통구","van":"NICE","equip":"프론트+유선프린터","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":3,"roundDates":["2025-08-29","2026-09-01","2026-09-08","2025-08-29","2026-09-01","2026-09-08"],"brand":"몰디브태닝"},
   {"id":"14197","date":"2026-09-07","time":"09:55","store":"계경순대국 송파점","biz":"1110224932","kind":"AS","status":"done","visitDate":"2026-09-07","region":"수도권","route":"오프라인","addr":"서울특별시 송파구","van":"KIS","equip":"FD-170 어댑터, 아임유 N250","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"계경순대국"},
   {"id":"14216","date":"2026-09-07","time":"14:08","store":"도시곳간 수원 오목천점","biz":"3015900823","kind":"설치","status":"done","visitDate":"2026-09-08","region":"지방","route":"오프라인","addr":"경기도 수원시 권선구","van":"NICE","equip":"포스기+프론트 블랙+CAT+듀얼모니터+유프블랙+금전함 블랙 대형","ship":"2026-09-03","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"도시곳간"},
-  {"id":"14292","date":"2026-09-08","time":"11:47","store":"등촌샤브칼국수 성남금광점","biz":"5223201887","kind":"설치","status":"pending","visitDate":"2026-09-09","region":"수도권","route":"오프라인","addr":"경기도 성남시 중원구","van":"KIS","equip":"포스기 2EA(메인/오더(브라캣)) + 프론트 1EA + 유선프린터기 1EA + 금전함 1EA","ship":"2026-09-07","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"등촌샤브칼국수"},
+  {"id":"14292","date":"2026-09-08","time":"11:47","store":"등촌샤브칼국수 성남금광점","biz":"5223201887","kind":"설치","status":"done","visitDate":"2026-09-09","region":"수도권","route":"오프라인","addr":"경기도 성남시 중원구","van":"KIS","equip":"포스기 2EA(메인/오더(브라캣)) + 프론트 1EA + 유선프린터기 1EA + 금전함 1EA","ship":"2026-09-07","delivery":"","requester":"","assignee":"케이씨정보통신","rounds":0,"roundDates":[],"brand":"등촌샤브칼국수"},
+  {"id":"14438","date":"2026-09-09","time":"18:16","store":"보사노바 현대백화점목동점","biz":"2518503373","kind":"설치","status":"done","visitDate":"2026-09-11","region":"수도권","route":"오프라인","addr":"서울특별시 양천구","van":"KIS","equip":"프론트+무프 와이파이(노트북/윈도우 이용예정)","ship":"2026-09-02","delivery":"","requester":"","assignee":"디에스이엔씨","rounds":0,"roundDates":[],"brand":"보사노바"},
+  {"id":"14456","date":"2026-09-10","time":"13:44","store":"도시곳간 구로점","biz":"4162227375","kind":"설치","status":"done","visitDate":"2026-09-14","region":"수도권","route":"오프라인","addr":"서울특별시 구로구","van":"KIS","equip":"포스기+프론트","ship":"2026-09-10","delivery":"","requester":"","assignee":"박성민","rounds":0,"roundDates":[],"brand":"도시곳간"},
+  {"id":"14465","date":"2026-09-10","time":"14:39","store":"미친피자 송탄점","biz":"8280802756","kind":"설치","status":"done","visitDate":"2026-09-14","region":"지방","route":"오프라인","addr":"경기도 평택시","van":"KIS","equip":"개인 PC + 프론트 1EA","ship":"2026-09-09","delivery":"","requester":"","assignee":"미르컴퍼니","rounds":0,"roundDates":[],"brand":"미친피자"},
+  {"id":"14572","date":"2026-09-14","time":"17:01","store":"컴포즈커피 성수코리아IT점","biz":"5218102386","kind":"AS","status":"done","visitDate":"2026-09-15","region":"수도권","route":"컴포즈","addr":"서울특별시 성동구","van":"KPN","equip":"보수작업","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":9,"roundDates":["2026-08-05","2026-08-24","2026-08-25","2026-08-27","2026-08-28","2026-09-02","2026-09-03","2026-09-04","2026-09-15","2026-08-05","2026-08-24","2026-08-25","2026-08-27","2026-08-28","2026-09-02","2026-09-03","2026-09-04","2026-09-15"],"brand":"컴포즈커피"},
+  {"id":"14656","date":"2026-09-16","time":"10:52","store":"피자스쿨일원점","biz":"1200925308","kind":"설치","status":"done","visitDate":"2026-09-16","region":"수도권","route":"오프라인","addr":"서울특별시 강남구","van":"KIS","equip":"프론트","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"피자스쿨"},
+  {"id":"14715","date":"2026-09-17","time":"10:50","store":"강창구찹쌀진순대 덕소점","biz":"2061953558","kind":"AS","status":"done","visitDate":"2026-09-17","region":"수도권","route":"오프라인","addr":"경기도 남양주시","van":"KPN","equip":"오더포스","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
+  {"id":"14730","date":"2026-09-17","time":"15:28","store":"강창구 찹쌀 진순대(양벌점)","biz":"5613300139","kind":"기타","status":"pending","visitDate":"2026-10-01","region":"지방","route":"오프라인","addr":"경기도 광주시","van":"NICE","equip":"포스기 1EA + 프론트 1EA + CAT단말기 1EA","ship":"","delivery":"","requester":"","assignee":"예스아이엔티","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
+  {"id":"14778","date":"2026-09-18","time":"09:42","store":"등촌샤브칼국수 성남금광점","biz":"5223201887","kind":"설치","status":"done","visitDate":"2026-09-21","region":"수도권","route":"오프라인","addr":"경기도 성남시 중원구","van":"KIS","equip":"기존 오더포스 옆쪽에 유선프린터기 1EA 장비 추가 설치 요청","ship":"2026-09-17","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"등촌샤브칼국수"},
+  {"id":"14812","date":"2026-09-18","time":"15:35","store":"강창구찹쌀진순대 중계브라운스톤점","biz":"1673601335","kind":"AS","status":"done","visitDate":"2026-09-18","region":"수도권","route":"오프라인","addr":"서울특별시 노원구","van":"KIS","equip":"","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
+  {"id":"14852","date":"2026-09-21","time":"09:44","store":"꽈백최선생 양주덕계점","biz":"1484701382","kind":"설치","status":"done","visitDate":"2026-09-21","region":"수도권","route":"온라인","addr":"경기도 양주시","van":"NICE","equip":"포스기 (추가 구매)","ship":"2026-09-15","delivery":"","requester":"","assignee":"하나비즈케어","rounds":0,"roundDates":[],"brand":"꽈백최선생"},
+  {"id":"14901","date":"2026-09-21","time":"16:59","store":"휴대폰성지 옆커폰 원주단구점","biz":"1235700874","kind":"설치","status":"done","visitDate":"2026-09-22","region":"지방","route":"오프라인","addr":"강원특별자치도 원주시","van":"KIS","equip":"개인PC + 프론트 1EA","ship":"2026-09-18","delivery":"","requester":"","assignee":"강승철","rounds":0,"roundDates":[],"brand":"휴대폰성지"},
+  {"id":"14912","date":"2026-09-21","time":"22:33","store":"참치공방 을지로점","biz":"3863301750","kind":"AS","status":"done","visitDate":"2026-09-22","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"ts100","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
+  {"id":"14934","date":"2026-09-22","time":"14:36","store":"참치공방 을지로점","biz":"3863301750","kind":"AS","status":"done","visitDate":"2026-09-22","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"giant100s","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":3,"roundDates":["2026-08-26","2026-09-22","2026-09-22","2026-08-26","2026-09-22","2026-09-22"],"brand":"참치공방"},
+  {"id":"14969","date":"2026-09-22","time":"18:50","store":"(주)올드페리도넛 가로수길점","biz":"6348502604","kind":"기타","status":"done","visitDate":"2026-09-28","region":"수도권","route":"온라인","addr":"서울특별시 강남구","van":"KIS","equip":"[회수]포스기+프론트+유선프린터+금전함","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"올드페리도넛"},
+  {"id":"14982","date":"2026-09-23","time":"13:31","store":"도시곳간 부산우암점","biz":"3531403233","kind":"설치","status":"pending","visitDate":"2026-10-02","region":"지방","route":"오프라인","addr":"부산광역시 남구","van":"NICE","equip":"포스기 /  토스 프론트 /  CAT 단말기(NC-8000) / 듀얼모니터 /  CPP-3000(블랙)/   금전함(대형,블랙)","ship":"2026-09-23","delivery":"","requester":"","assignee":"미래통신","rounds":0,"roundDates":[],"brand":"도시곳간"},
+  {"id":"15002","date":"2026-09-23","time":"15:16","store":"교촌치킨당진기지시점","biz":"1180430012","kind":"설치","status":"pending","visitDate":"2026-09-30","region":"지방","route":"온라인","addr":"충청남도 당진시","van":"KIS","equip":"데스크탑 프론트 유선프린트","ship":"2026-09-23","delivery":"","requester":"","assignee":"C&L테크","rounds":0,"roundDates":[],"brand":"교촌치킨"},
+  {"id":"15027","date":"2026-09-26","time":"20:23","store":"피자스쿨석계점","biz":"2170954150","kind":"AS","status":"done","visitDate":"2026-09-28","region":"수도권","route":"오프라인","addr":"서울특별시 노원구","van":"KIS","equip":"DK-9300","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":0,"roundDates":[],"brand":"피자스쿨"},
+  {"id":"15045","date":"2026-09-28","time":"11:17","store":"미친피자 안양점","biz":"3643201433","kind":"설치","status":"done","visitDate":"2026-09-29","region":"수도권","route":"오프라인","addr":"경기도 안양시 동안구","van":"KIS","equip":"개인 PC + 프론트 1EA","ship":"2026-09-23","delivery":"","requester":"","assignee":"경인시스템","rounds":0,"roundDates":[],"brand":"미친피자"},
+  {"id":"15095","date":"2026-09-28","time":"16:40","store":"동동국밥 부산명지국제신도시점","biz":"1490603736","kind":"설치","status":"pending","visitDate":"2026-10-02","region":"지방","route":"오프라인","addr":"부산광역시 강서구","van":"KIS","equip":"포스 프론트 유선프린터2대 금전함","ship":"2026-09-28","delivery":"","requester":"","assignee":"페이닷","rounds":0,"roundDates":[],"brand":"동동국밥"},
+  {"id":"15108","date":"2026-09-28","time":"17:59","store":"신전떡볶이오태북삼점","biz":"1021514478","kind":"설치","status":"pending","visitDate":"2026-09-30","region":"지방","route":"온라인","addr":"경상북도 칠곡군","van":"DAOU","equip":"프론트2 / 유선프린터1 / 자체사용중인 포스기(메이트포스)","ship":"2026-09-28","delivery":"","requester":"","assignee":"포스21","rounds":0,"roundDates":[],"brand":"신전떡볶이"},
+  {"id":"15116","date":"2026-09-29","time":"09:49","store":"등촌샤브칼국수 나성점","biz":"7881402819","kind":"설치","status":"pending","visitDate":"2026-09-30","region":"지방","route":"오프라인","addr":"세종특별자치시","van":"KIS","equip":"포스기 1EA + 프론트 1EA + 유선프린터기 1EA + 금전함 1EA","ship":"2026-09-28","delivery":"","requester":"","assignee":"이글통신","rounds":0,"roundDates":[],"brand":"등촌샤브칼국수"},
+  {"id":"15121","date":"2026-09-29","time":"10:48","store":"강창구찹쌀진순대 덕소점","biz":"2061953558","kind":"AS","status":"done","visitDate":"2026-09-29","region":"수도권","route":"오프라인","addr":"경기도 남양주시","van":"DAOU","equip":"DD2350 네트워크 점검","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":3,"roundDates":["2026-02-02","2026-09-17","2026-09-29","2026-02-02","2026-09-17","2026-09-29"],"brand":"강창구찹쌀진순대"},
   ],
 };
+
+</script>
+<script>/* ===== brands.js ===== */
+/*
+ * ============================================================
+ *  프랜차이즈 브랜드 마스터 리스트
+ * ============================================================
+ *  이 파일이 프랜차이즈 대시보드의 "판별 기준" 전부입니다.
+ *  여기에 등록된 브랜드명이 매장명에 포함되면 → 프랜차이즈 인입건으로 집계됩니다.
+ *
+ *  ── 수정 방법 ──────────────────────────────────────────────
+ *  1) 브랜드 추가:  아래 BRANDS 배열에 { n:'브랜드명' } 한 줄 추가
+ *  2) 상호 변형 흡수: { n:'대표명', a:['변형1','변형2'] }   ← a = alias
+ *  3) 잘못 잡힌 매장 제외: EXCLUDE 에 매장명(또는 사업자번호) 추가
+ *  4) 브랜드 통째로 제외: 그 줄을 지우거나 앞에 // 를 붙이면 됩니다
+ *
+ *  ── 매칭 규칙 ──────────────────────────────────────────────
+ *  · 공백/괄호/·/-/_ 와 대소문자, "주식회사·(주)·㈜" 는 무시하고 비교합니다.
+ *    → '대단한 찜닭' 과 '대단한찜닭' 은 자동으로 같은 브랜드로 묶입니다.
+ *  · 여러 브랜드가 동시에 걸리면 "가장 긴 브랜드명"이 이깁니다.
+ *    → '강창구찹쌀진순대' 가 '강창구' 보다 우선 적용됩니다.
+ *
+ *  ── 등급(tier) — 손으로 적지 않습니다 ──────────────────────
+ *  데이터에서 확인된 매장 수로 대시보드가 자동 판정합니다.
+ *    A = 매장 FRANCHISE_TIER_A_MIN(20)곳 이상 · B = 그 미만
+ *  계약 고객사 여부는 등급과 별개로 clients.js 에서 정합니다.
+ * ============================================================
+ */
+
+/* A등급 기준 — 전체 기간에 인입된 서로 다른 매장 수가 이 이상이면 A */
+window.FRANCHISE_TIER_A_MIN = 20;
+
+window.FRANCHISE_BRANDS = [
+
+  /* ─── 계약 고객사 (clients.js 에 등록 — 전용 대시보드·월간 보고서) ─── */
+  { n:'컴포즈커피', a:['컴포즈 커피','COMPOSE COFFEE'] },
+  { n:'용용선생' },
+  { n:'강창구찹쌀진순대', a:['강창구 진순대','강창구의 찹쌀진순대','창구유통 강창구찹쌀진순대','강창구찹쌀순대'] },
+  { n:'드롭탑', a:['카페드롭탑'] },
+  { n:'형과아우누룽지삼계탕', a:['형과아우','형아우의꿈','형과아우누룽지삼계탕왕갈비탕'] },
+  { n:'응급실국물떡볶이', a:['응급실 국물떡볶이'] },
+
+  /* ─── 일반 브랜드 ─────────────────────────────────────────
+     아닌 게 있으면 해당 줄만 지우면 즉시 집계에서 빠집니다. */
+
+  { n:'등촌샤브칼국수' },
+  { n:'도시곳간' },
+  { n:'더하노이풋앤바디' },
+  { n:'뵈르뵈르' },
+  { n:'동동국밥' },
+  { n:'피자스쿨' },
+  { n:'휴대폰성지', a:['옆커폰','새로폰','세로폰'] },
+  { n:'미친피자' },
+  { n:'퍼센트 아라비카', a:['% 아라비카','%아라비카'] },
+  { n:'로칼' },
+  { n:'쌉니다 미소마트', a:['쌉니다(구)미소마트','미소마트'] },
+  { n:'참치공방' },
+  { n:'리사르커피' },
+  { n:'리드FC축구교실' },
+  { n:'자담치킨' },
+  { n:'꽈백최선생' },
+  { n:'왕산식당' },
+  { n:'컵넛' },
+  { n:'웅칼' },
+  { n:'만두이섬' },
+  { n:'영천얼큰돼지국밥' },
+  { n:'스페이스뷰티' },
+  { n:'교촌치킨' },
+  { n:'네네치킨' },
+  { n:'멕시카나' },
+  { n:'디디치킨' },
+  { n:'호식이두마리치킨' },
+  { n:'두찜' },
+  { n:'신전떡볶이' },
+  { n:'피자마루' },
+  { n:'유가네닭갈비' },
+  { n:'틈새라면' },
+  { n:'디저트39' },
+  { n:'초록마을' },
+  { n:'더풋샵' },
+  { n:'닥터로빈' },
+  { n:'보사노바', a:['보사노바커피','보사노바 커피로스터스','보사노바 베이커리랩'] },
+  { n:'모모스커피' },
+  { n:'올드페리도넛' },
+  { n:'요고 프로즌요거트', a:['요고프로즌요거트'] },
+  { n:'계경순대국' },
+  { n:'감자도감' },
+  { n:'대단한찜닭', a:['대단한 찜닭'] },
+  { n:'두번먹는명인김치찜' },
+  { n:'제주삼대국밥' },
+  { n:'시올돈' },
+  { n:'빨봉분식' },
+  { n:'김밥의진수' },
+  { n:'몽키즈 클라이밍', a:['몽키즈클라이밍'] },
+  { n:'기탄사고력교실' },
+  { n:'잉글리시아이', a:['비상잉글리시아이'] },
+  { n:'텐퍼센트' },
+  { n:'룩스안경' },
+  { n:'더블유카워시' },
+  { n:'윤프로스팀세차' },
+  { n:'라라카츠' },
+  { n:'대패삼국지' },
+  { n:'몰디브태닝' },
+  { n:'재리스토스트', a:['재리스 토스트'] },
+  { n:'우리끼리 키즈카페', a:['우리끼리키즈카페'] },
+  { n:'프레시달달', a:['더프레시달달'] },
+  { n:'SNPE', a:['에스앤피이','에스엔피이'] },
+  { n:'이엠커피' },
+  { n:'녹돈집' },
+  { n:'카공족', a:['카공24','카공족올데이'] },
+  { n:'오늘의스케치' },
+  { n:'백본등뼈찜' },
+  { n:'스무치' },
+  { n:'해머스미스커피' },
+  { n:'일마지오' },
+  { n:'만통치킨' },
+  { n:'김마리' },
+  { n:'더그릿관리형스터디센터' },
+  { n:'더프라임 관리형 스터디센터', a:['더프라임관리형스터디센터'] },
+];
+
+/*
+ * 강제 제외 목록
+ * 브랜드명이 우연히 포함돼 프랜차이즈로 잘못 잡힌 개별 매장을 여기에 넣습니다.
+ * 매장명(부분일치) 또는 사업자번호(10자리, 하이픈 없이) 모두 인정합니다.
+ */
+window.FRANCHISE_EXCLUDE = [
+  // '로칼 브루잉 개인카페',   ← 예시: 이렇게 매장명을 적으면 제외됩니다
+  // '1234567890',            ← 예시: 사업자번호로 제외
+];
 
 </script>
 <script>/* ===== clients.js ===== */
@@ -551,6 +730,7 @@ window.FRANCHISE_CLIENTS = [
     provider   : 'iShopCare 원격파트',
     reportTitle: 'AS지원 월간 리포트',
     dataFile   : 'data/compose.js',     // 이 파일이 window.CLIENT_DATA['compose'] 를 채운다
+    equipFile  : 'data/compose-equip.js', // (선택) 장비 대장 — '장비 조회' 탭에 합쳐진다
     note       : '2026-08-15 관리 개시',
   },
 
@@ -567,6 +747,26 @@ window.FRANCHISE_CLIENTS = [
   },
   ──────────────────────────────────────────────────────── */
 ];
+
+/* ── 원장 파일 없이 slack-data.js 로 운영하는 계약 고객사 ─────────
+ *  전용 원장(dataFile)이 아직 없는 계약 고객사는 ../slack-data.js 에서
+ *  그 브랜드 건만 골라 원장으로 쓴다 (ledger:'slack').
+ *  전용 원장이 생기면 위 CLIENTS 로 블록을 옮기고 dataFile 을 적으면 된다.
+ * ───────────────────────────────────────────────────────── */
+[
+  { slug:'yongyong',   brand:'용용선생' },
+  { slug:'gangchanggu',brand:'강창구찹쌀진순대' },
+  { slug:'droptop',    brand:'드롭탑' },
+  { slug:'hyungnau',   brand:'형과아우누룽지삼계탕' },
+  { slug:'er-tteok',   brand:'응급실국물떡볶이' },
+].forEach(c=>window.FRANCHISE_CLIENTS.push(Object.assign({
+  icon       : '🏢',
+  startDate  : '',
+  provider   : 'iShopCare 원격파트',
+  reportTitle: '원격 지원 월간 리포트',
+  ledger     : 'slack',
+  note       : '계약 고객사',
+}, c)));
 
 /*
  * 카테고리 체계
@@ -593,6 +793,8 @@ window.FRANCHISE_TAXONOMY = {
     { key:'transfer',   name:'명의변경', color:'#ff9500' },
     { key:'menu',       name:'메뉴등록', color:'#00c7be' },
     { key:'delivery',   name:'배달',     color:'#0071e3' },
+    { key:'booking',    name:'예약',     color:'#a2845e' },   // 2026-09-24~ 원격예약 이모지
+    { key:'nosetup',    name:'미설치',   color:'#bf5af2' },   // fetch-and-tally.js isNoSetup
     { key:'extern',     name:'외주',     color:'#8e8e93' },
   ],
 };
@@ -641,136 +843,6 @@ window.findClient = function(brand){
 };
 
 </script>
-<script>/* ===== brands.js ===== */
-/*
- * ============================================================
- *  프랜차이즈 브랜드 마스터 리스트
- * ============================================================
- *  이 파일이 프랜차이즈 대시보드의 "판별 기준" 전부입니다.
- *  여기에 등록된 브랜드명이 매장명에 포함되면 → 프랜차이즈 인입건으로 집계됩니다.
- *
- *  ── 수정 방법 ──────────────────────────────────────────────
- *  1) 브랜드 추가:  아래 BRANDS 배열에 { n:'브랜드명' } 한 줄 추가
- *  2) 상호 변형 흡수: { n:'대표명', a:['변형1','변형2'] }   ← a = alias
- *  3) 잘못 잡힌 매장 제외: EXCLUDE 에 매장명(또는 사업자번호) 추가
- *  4) 브랜드 통째로 제외: 그 줄을 지우거나 앞에 // 를 붙이면 됩니다
- *
- *  ── 매칭 규칙 ──────────────────────────────────────────────
- *  · 공백/괄호/·/-/_ 와 대소문자, "주식회사·(주)·㈜" 는 무시하고 비교합니다.
- *    → '대단한 찜닭' 과 '대단한찜닭' 은 자동으로 같은 브랜드로 묶입니다.
- *  · 여러 브랜드가 동시에 걸리면 "가장 긴 브랜드명"이 이깁니다.
- *    → '강창구찹쌀진순대' 가 '강창구' 보다 우선 적용됩니다.
- *
- *  ── tier 표기 ──────────────────────────────────────────────
- *  tier:'A' = 데이터에서 지점 2곳 이상 확인된 브랜드 (확정)
- *  tier:'B' = 데이터에는 1지점만 있으나 프랜차이즈로 자동 제안한 브랜드 (검수 권장)
- *             → 대시보드 '브랜드 후보' 탭에서 A/B 구분해 보여줍니다.
- *  tier 를 지우면 'A'(확정)로 취급합니다.
- * ============================================================
- */
-
-window.FRANCHISE_BRANDS = [
-
-  /* ─── 계약 고객사 (clients.js 에 전용 대시보드 등록됨) ───── */
-  { n:'컴포즈커피',          tier:'A', a:['컴포즈 커피','COMPOSE COFFEE'] },
-
-  /* ─── Tier A · 지점 2곳 이상 확인 (확정) ─────────────────── */
-  { n:'용용선생',            tier:'A' },
-  { n:'강창구찹쌀진순대',    tier:'A', a:['강창구 진순대','강창구의 찹쌀진순대','창구유통 강창구찹쌀진순대','강창구찹쌀순대'] },
-  { n:'등촌샤브칼국수',      tier:'A' },
-  { n:'드롭탑',              tier:'A', a:['카페드롭탑'] },
-  { n:'도시곳간',            tier:'A' },
-  { n:'더하노이풋앤바디',    tier:'A' },
-  { n:'뵈르뵈르',            tier:'A' },
-  { n:'동동국밥',            tier:'A' },
-  { n:'피자스쿨',            tier:'A' },
-  { n:'휴대폰성지',          tier:'A', a:['옆커폰','새로폰','세로폰'] },
-  { n:'미친피자',            tier:'A' },
-  { n:'퍼센트 아라비카',     tier:'A', a:['% 아라비카','%아라비카'] },
-  { n:'로칼',                tier:'A' },
-  { n:'쌉니다 미소마트',     tier:'A', a:['쌉니다(구)미소마트','미소마트'] },
-  { n:'참치공방',            tier:'A' },
-  { n:'리사르커피',          tier:'A' },
-  { n:'리드FC축구교실',      tier:'A' },
-  { n:'자담치킨',            tier:'A' },
-  { n:'꽈백최선생',          tier:'A' },
-  { n:'왕산식당',            tier:'A' },
-  { n:'컵넛',                tier:'A' },
-  { n:'웅칼',                tier:'A' },
-  { n:'만두이섬',            tier:'A' },
-  { n:'영천얼큰돼지국밥',    tier:'A' },
-  { n:'스페이스뷰티',        tier:'A' },
-  { n:'형과아우누룽지삼계탕', tier:'A', a:['형과아우','형아우의꿈','형과아우누룽지삼계탕왕갈비탕'] },
-
-  /* ─── Tier B · 자동 제안 (검수 권장) ──────────────────────
-     데이터상 아직 1지점만 잡혔지만 전국 프랜차이즈로 판단한 브랜드입니다.
-     아닌 게 있으면 해당 줄만 지우면 즉시 집계에서 빠집니다. */
-  { n:'교촌치킨',            tier:'B' },
-  { n:'네네치킨',            tier:'B' },
-  { n:'멕시카나',            tier:'B' },
-  { n:'디디치킨',            tier:'B' },
-  { n:'호식이두마리치킨',    tier:'B' },
-  { n:'두찜',                tier:'B' },
-  { n:'신전떡볶이',          tier:'B' },
-  { n:'피자마루',            tier:'B' },
-  { n:'유가네닭갈비',        tier:'B' },
-  { n:'틈새라면',            tier:'B' },
-  { n:'디저트39',            tier:'B' },
-  { n:'초록마을',            tier:'B' },
-  { n:'더풋샵',              tier:'B' },
-  { n:'닥터로빈',            tier:'B' },
-  { n:'보사노바',            tier:'B', a:['보사노바커피','보사노바 커피로스터스','보사노바 베이커리랩'] },
-  { n:'모모스커피',          tier:'B' },
-  { n:'올드페리도넛',        tier:'B' },
-  { n:'요고 프로즌요거트',   tier:'B', a:['요고프로즌요거트'] },
-  { n:'계경순대국',          tier:'B' },
-  { n:'감자도감',            tier:'B' },
-  { n:'응급실국물떡볶이',    tier:'B', a:['응급실 국물떡볶이'] },
-  { n:'대단한찜닭',          tier:'B', a:['대단한 찜닭'] },
-  { n:'두번먹는명인김치찜',  tier:'B' },
-  { n:'제주삼대국밥',        tier:'B' },
-  { n:'시올돈',              tier:'B' },
-  { n:'빨봉분식',            tier:'B' },
-  { n:'김밥의진수',          tier:'B' },
-  { n:'몽키즈 클라이밍',     tier:'B', a:['몽키즈클라이밍'] },
-  { n:'기탄사고력교실',      tier:'B' },
-  { n:'잉글리시아이',        tier:'B', a:['비상잉글리시아이'] },
-  { n:'텐퍼센트',            tier:'B' },
-  { n:'룩스안경',            tier:'B' },
-  { n:'더블유카워시',        tier:'B' },
-  { n:'윤프로스팀세차',      tier:'B' },
-  { n:'라라카츠',            tier:'B' },
-  { n:'대패삼국지',          tier:'B' },
-  { n:'몰디브태닝',          tier:'B' },
-  { n:'재리스토스트',        tier:'B', a:['재리스 토스트'] },
-  { n:'우리끼리 키즈카페',   tier:'B', a:['우리끼리키즈카페'] },
-  { n:'프레시달달',          tier:'B', a:['더프레시달달'] },
-  { n:'SNPE',                tier:'B', a:['에스앤피이','에스엔피이'] },
-  { n:'이엠커피',            tier:'B' },
-  { n:'녹돈집',              tier:'B' },
-  { n:'카공족',              tier:'B', a:['카공24','카공족올데이'] },
-  { n:'오늘의스케치',        tier:'B' },
-  { n:'백본등뼈찜',          tier:'B' },
-  { n:'스무치',              tier:'B' },
-  { n:'해머스미스커피',      tier:'B' },
-  { n:'일마지오',            tier:'B' },
-  { n:'만통치킨',            tier:'B' },
-  { n:'김마리',              tier:'B' },
-  { n:'더그릿관리형스터디센터', tier:'B' },
-  { n:'더프라임 관리형 스터디센터', tier:'B', a:['더프라임관리형스터디센터'] },
-];
-
-/*
- * 강제 제외 목록
- * 브랜드명이 우연히 포함돼 프랜차이즈로 잘못 잡힌 개별 매장을 여기에 넣습니다.
- * 매장명(부분일치) 또는 사업자번호(10자리, 하이픈 없이) 모두 인정합니다.
- */
-window.FRANCHISE_EXCLUDE = [
-  // '로칼 브루잉 개인카페',   ← 예시: 이렇게 매장명을 적으면 제외됩니다
-  // '1234567890',            ← 예시: 사업자번호로 제외
-];
-
-</script>
 <script>/* ===== brand-match.js ===== */
 /*
  * ============================================================
@@ -809,7 +881,7 @@ window.FRANCHISE_EXCLUDE = [
       const disp = [b.n].concat(b.a || []);
       return {
         name: b.n,
-        tier: b.tier || 'A',
+        tier: b.tier || 'B',   // 허브가 매장 수로 다시 판정한다 (index.html computeTiers)
         disp: disp,
         keys: disp.map(d=>({k:keyOf(d), d:d})).filter(x=>x.k.length>=2)
                   .sort((a,b)=>b.k.length-a.k.length),
@@ -869,6 +941,157 @@ window.FRANCHISE_EXCLUDE = [
     stripCorp: stripCorp, keyOf: keyOf,
     buildIndex: buildIndex, matchBrand: matchBrand,
     branchOf: branchOf, buildExclude: buildExclude,
+  };
+})(window);
+
+</script>
+<script>/* ===== equip-parse.js ===== */
+/*
+ * ============================================================
+ *  장비 파서 (client.html '장비 조회' 탭 공용)
+ * ============================================================
+ *  현장방문 워크플로우의 '장비' 칸은 자유 텍스트다.
+ *    '포스기 1EA + 프론트 1EA + 유선프린터기(주방용) 3EA + 금전함 1EA'
+ *    '포스 프론트 유선프린터2대 금전함'
+ *    'TS100E -> CPP_3000로 교체'
+ *  여기서 장비 종류·수량·모델·기존보유 여부를 뽑고, 글 전체가
+ *  설치 / 교체 / 회수 / AS / 점검 중 무엇인지 판정한다.
+ *
+ *  node 에서도 그대로 돌려 검증할 수 있게 window 에만 의존한다.
+ *  규칙을 고치면 visit-data.js 전 건에 돌려서 확인할 것 (자유 텍스트라 한 건 고치면 다른 건이 깨진다).
+ * ============================================================
+ */
+(function(global){
+  'use strict';
+
+  /* 장비 종류. 배열 순서 = 매칭 우선순위.
+     긴 이름이 먼저 와야 한다 — '프론트캠' 을 '프론트' 가 먼저 먹으면 안 되므로
+     매칭된 구간은 지우고 다음 종류를 찾는다. */
+  const TYPES = [
+    {key:'frontcam', name:'프론트캠',          re:/프론트\s*캠/gi},
+    {key:'multipad', name:'멀티패드',          re:/멀티\s*패드/gi},
+    {key:'keypad',   name:'배리어프리 키패드', re:/배리어\s*(?:프리|플리)\s*키\s*패드/gi},
+    {key:'kiosk',    name:'키오스크',          re:/키오스크|kiosk/gi},
+    {key:'monitor',  name:'듀얼모니터',        re:/듀얼\s*모니터/gi},
+    /* '벽브라캣' 의 '캣' 을 단말기로 읽지 않도록 한글 사이에 낀 캣은 제외 */
+    {key:'cat',      name:'CAT 단말기',        re:/cat\s*단말기|캣\s*단말기|\bcat\b|(?<![가-힣])캣(?![가-힣])|(?:타사\s*)?단말기/gi},
+    {key:'wprinter', name:'무선프린터',        re:/무선\s*프린터|무프/gi},
+    {key:'printer',  name:'유선프린터',        re:/(?:유선|주방|홀)?\s*프린터기?|유프/gi},
+    {key:'drawer',   name:'금전함',            re:/금전\s*한?함/gi},
+    {key:'scanner',  name:'바코드스캐너',      re:/(?:바코드\s*)?스캐너/gi},
+    {key:'tablet',   name:'태블릿',            re:/태블릿|kds/gi},
+    {key:'terminal', name:'터미널',            re:/터미널/gi},
+    {key:'front',    name:'프론트',            re:/프론트|트론트/gi},
+    /* 아펙사·APEXA 는 모델(MODELS)로만 잡는다 — 'APEXA15' 의 15 를 수량으로 읽기 때문 */
+    {key:'pos',      name:'포스',              re:/포스기?|\bpos\b/gi},
+    {key:'pc',       name:'PC·노트북',         re:/개인\s*(?:소유)?\s*(?:pc|컴퓨터)|자체\s*pc|노트북|컴퓨터|\bpc\b/gi},
+  ];
+  /* 모델명 → 장비 종류. 종류 단어가 같이 있으면 모델로 붙고, 모델만 있으면 그 장비 1대로 센다 */
+  const MODELS = [
+    {type:'printer', re:/\b(ts-?\s?\d{3,4}\w?|cpp[-_ ]?\d{3,4}|dk\s?9300)\b/gi},
+    {type:'cat',     re:/\b(kis-?\d{3,4}|nc\d{4}|[ne]250|ssrp-?\d{4})\b/gi},
+    {type:'kiosk',   re:/\b(t6d)\b/gi},
+    {type:'scanner', re:/\b(tsk-?\d{3,4})\b/gi},
+    {type:'pos',     re:/(apexa\s?\d*|아펙사|퍼스트포스|하나시스(?:\s*플러스)?|아임유포스|메이트\s*포스)/gi},
+  ];
+  const TYPE_MAP = Object.fromEntries(TYPES.map(t=>[t.key, t]));
+
+  /* 길이를 보존해 공백으로 덮는다 — 위치가 어긋나면 수량을 엉뚱한 장비에 붙인다 */
+  const blank = (s, re) => s.replace(re, m => ' '.repeat(m.length));
+
+  /* 매칭 직후의 수량. '포스기 2EA(메인/오더)', '유선프린터2대', '프론트1', '유선프린터기(주방용) 3EA'
+     괄호 하나는 건너뛰되, 괄호 안 숫자(KIS-1421 같은 모델)는 수량으로 읽지 않는다. */
+  function qtyAfter(s){
+    const t = s.replace(/^\s*(?:기\s*)?\((?:[^()]|\([^()]*\))*\)/, '');
+    const m = t.match(/^\s*[x×]?\s*(\d{1,2})\s*(?:ea|대|개|set)?(?![\d\-])/i);
+    return m ? +m[1] : 1;
+  }
+
+  function parseItems(text){
+    /* 전처리
+       · '토스포스'(프로그램)는 장비가 아니다
+       · '포스기세트(포스+프론트+…)' 의 '포스기세트' 는 괄호 안 구성품의 이름표라 따로 세지 않는다 */
+    let src = String(text == null ? '' : text);
+    src = blank(src, /토스\s*_?\s*포스(?:\s*프로그램)?/gi);
+    src = blank(src, /[가-힣A-Za-z]*\s*세트\s*(?=\()/gi);
+    MODELS.forEach(md => { md.re.lastIndex = 0; });
+
+    /* 모델명 안의 '포스'(퍼스트포스·아임유포스·메이트 포스)를 장비 단어로 다시 세지 않게 가린다 */
+    let work = blank(src, MODELS.find(md => md.type === 'pos').re);
+    MODELS.forEach(md => { md.re.lastIndex = 0; });
+    const hits = [];
+    TYPES.forEach(function(t){
+      t.re.lastIndex = 0;
+      const mine = [];
+      let m;
+      while((m = t.re.exec(work))){
+        if(!m[0].trim()){ t.re.lastIndex++; continue; }
+        const lead = m[0].length - m[0].replace(/^\s+/, '').length;   // '(?:유선)?\s*프린터' 앞 공백
+        mine.push({type:t.key, at:m.index + lead, end:m.index + m[0].length});
+      }
+      /* 찾은 구간은 지워서 짧은 이름이 다시 먹지 못하게 한다 */
+      mine.forEach(h=>{ work = work.slice(0,h.at) + ' '.repeat(h.end-h.at) + work.slice(h.end); });
+      hits.push.apply(hits, mine);
+    });
+    hits.sort((a,b)=>a.at-b.at);
+
+    const items = {};
+    const get = type => items[type] || (items[type] = {type:type, name:TYPE_MAP[type].name, qty:0, models:[], existing:false});
+    /* 장비 바로 뒤 괄호가 덮는 구간. 그 안의 같은 종류 단어는 설명이다
+       ('태블릿 1EA(KDS용)' 의 KDS, '포스기(메인/오더 포스)' 의 포스) — 세지 않는다 */
+    const covered = {};
+    hits.forEach(function(h, i){
+      const next = i+1 < hits.length ? hits[i+1].at : src.length;
+      /* 다른 장비 이름에 딱 붙은 단어는 수식어다 ('키오스크배리어프리키패드' 의 키오스크) — 세지 않는다 */
+      if(i+1 < hits.length && next === h.end) return;
+      if(covered[h.type] && h.at < covered[h.type]) return;
+      const pm = src.slice(h.end).match(/^\s*(?:\d{1,2}\s*(?:ea|대|개)?\s*)?(?:기\s*)?\((?:[^()]|\([^()]*\))*\)/i);
+      if(pm) covered[h.type] = h.end + pm[0].length;
+      const tail = src.slice(h.end, next);
+      const it = get(h.type);
+      it.qty += qtyAfter(tail);
+      /* 기존 보유: 바로 뒤 괄호 '(기존 보유)' · '(점주보유)' 또는 바로 앞 '기존 ' · '개인소유 ' · '매장 보유 ' */
+      const paren = pm ? pm[0].match(/\(([\s\S]*)\)/) : null;   // '프론트 1EA(기존 보유)' 처럼 수량 뒤 괄호도
+      if((paren && /기존|기보유|보유|소유/.test(paren[1]))
+         || /(?:기존|보유|소유)\s*$/.test(src.slice(Math.max(0, h.at-6), h.at))) it.existing = true;
+    });
+    MODELS.forEach(function(md){
+      let m;
+      while((m = md.re.exec(src))){
+        const it = get(md.type);
+        if(!it.qty) it.qty = 1;
+        const mdl = m[1].toUpperCase().replace(/\s+/g,'');
+        if(it.models.indexOf(mdl) < 0) it.models.push(mdl);
+      }
+    });
+    return TYPES.map(t=>items[t.key]).filter(it=>it && it.qty > 0);
+  }
+
+  /* 글 전체의 성격. kind 는 워크플로우의 요청 유형(설치/AS/기타) */
+  function eventType(kind, text){
+    const t = String(text || '');
+    if(/회수|철거/.test(t))                    return '회수';
+    if(/교체|->|→/.test(t))                    return '교체';
+    if(kind === 'AS')                           return 'AS';
+    if(/점검|가결제|재온보딩|환경/.test(t))     return '점검';
+    if(kind === '설치')                         return '설치';
+    return '기타';
+  }
+
+  /* 교체 글에서 '이전 → 새' 모델을 뽑는다 ('TS100E -> CPP_3000로 교체') */
+  function replacePair(text){
+    const m = String(text || '').match(/([A-Za-z0-9_\-]+)\s*(?:->|→|에서)\s*([A-Za-z0-9_\-]+)/);
+    return m ? {from:m[1].toUpperCase(), to:m[2].toUpperCase()} : null;
+  }
+
+  /* 원격 AS·온보딩 요청문에서 어떤 장비 얘기인지만 본다 (수량은 의미 없음) */
+  function mentions(text){
+    return parseItems(text).map(it => it.type);
+  }
+
+  global.EquipParse = {
+    TYPES:TYPES, TYPE_MAP:TYPE_MAP,
+    parseItems:parseItems, eventType:eventType, replacePair:replacePair, mentions:mentions,
   };
 })(window);
 
@@ -1064,7 +1287,7 @@ window.FRANCHISE_EXCLUDE = [
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-09-03 08:45 KST
+ *  갱신: 2026-09-16 18:30 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -1075,13 +1298,56 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-09-03 08:45',
+  updatedAt : '2026-09-16 18:30',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
     {"date":"2026-08-25","time":"09:58","store":"컴포즈커피 성수코리아IT점","branch":"성수코리아IT점","biz":"5218102386","cat":"as","emp":"서상원","intake":"online","status":"done","req":"웨이브 키오스크 설정","note":"명현님지원"},
     {"date":"2026-09-03","time":"08:44","store":"컴포즈커피 수원인계점","branch":"수원인계점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"주진님지원","note":""},
+    {"date":"2026-09-14","time":"16:46","store":"컴포즈커피 성수코리아IT점","branch":"성수코리아IT점","biz":"5218102386","cat":"as","emp":"서상원","intake":"online","status":"done","req":"민원처리","note":""},
+    {"date":"2026-09-16","time":"18:19","store":"컴포즈커피 성수코리아IT점","branch":"성수코리아IT점","biz":"5218102386","cat":"as","emp":"배선유","intake":"online","status":"done","req":"금전함 개폐 불가로 인한 점검 요청드립니다.","note":"<!subteam^S07KT266C75 이거먼저해주세요 ! 이거먼저해주세요 ! / 기범님 컴포즈 먼저 챙길 수 있게 해주세요 기범님 컴포즈 먼저 챙길 수 있게 해주세요 / :감사합니다꾸벅: / 돈통 연결된 프린터 전원선이 빠져서 안열렸었네욤 as완료입니다"},
   ],
+};
+
+</script>
+<script>/* ===== data/compose-equip.js ===== */
+/*
+ * ============================================================
+ *  컴포즈커피 장비 대장 — 손으로 관리하는 파일 (자동 생성 아님)
+ * ============================================================
+ *  client.html '장비 조회' 탭은 현장방문·원격 AS 기록에서 장비 이력을 자동으로 만든다.
+ *  하지만 방문 기록이 쌓이기 전에 설치된 장비는 알 길이 없다 →
+ *  본사·설치팀의 장비 대장이 있으면 여기에 한 줄씩 넣는다. 자동 이력과 합쳐서 보인다.
+ *
+ *  ── 한 줄 = 한 지점의 장비 한 종류 ─────────────────────────
+ *    branch    지점명 (대시보드 '지점' 과 같게. 예: '성수코리아IT점')   [필수]
+ *    item      장비명 (포스 · 프론트 · 유선프린터 · 금전함 · 키오스크 · CAT 단말기 …) [필수]
+ *    qty       수량 (생략 시 1)
+ *    model     모델명 (예: 'APEXA15', 'CPP-3000')
+ *    installed 설치일 'YYYY-MM-DD'
+ *    replaced  최근 교체일 'YYYY-MM-DD'
+ *    by        담당 / 업체
+ *    note      비고
+ *
+ *  엑셀에서 옮길 때는 열 순서만 맞춰서 아래 형식으로 붙여넣으면 된다.
+ * ============================================================
+ */
+window.CLIENT_EQUIP = window.CLIENT_EQUIP || {};
+window.CLIENT_EQUIP['compose'] = {
+
+  updatedAt: '',
+
+  rows: [
+    // { branch:'성수코리아IT점', item:'포스', qty:1, model:'APEXA15', installed:'2025-03-02', replaced:'', by:'', note:'' },
+  ],
+};
+
+</script>
+<script>/* ===== data/compose-equip-edits.js ===== */
+/* 자동 생성 · 직접 수정하지 마세요 — scripts/build-compose-share.js
+ * 컴포즈커피 장비 조회 수기 기록 스냅샷 (팀 공유 저장소 frEquip 섹션 중 이 브랜드 것만).
+ * 고치려면 프랜차이즈 대시보드의 장비 조회 탭에서 수정하세요. */
+window.CLIENT_EQUIP_EDITS = {
 };
 
 </script>
@@ -1093,6 +1359,8 @@ window.CLIENT_DATA['compose'] = {
 
    contract  clients.js 에 등록 + dataFile 있음 (예: 컴포즈커피)
              → 전용 원장(data/*.js)을 읽고 8종 카테고리 · 월간 보고서 · 엑셀
+             dataFile 없이 ledger:'slack' 로 등록된 계약 고객사
+             → 원장 파일 대신 slack-data.js 를 브랜드명으로 걸러 원장으로 쓴다
    slack     미등록 브랜드 (예: 드롭탑)
              → ../slack-data.js 의 기존 원격 집계를 브랜드명으로 걸러 보여줌
                (기존 파이프라인에 없는 방문AS·단순문의·세금계산서는 표시 불가)
@@ -1109,9 +1377,14 @@ const STATUSES = window.FRANCHISE_STATUSES || [];
 const QS    = new URLSearchParams(location.search);
 const BRAND = '컴포즈커피';   /* 공유본: 브랜드 고정 */
 const REG   = window.findClient ? window.findClient(BRAND) : null;
-const MODE  = (REG && REG.dataFile) ? 'contract' : 'slack';
+const MODE  = (REG && (REG.dataFile || REG.ledger === 'slack')) ? 'contract' : 'slack';
+/* 원장 파일 없는 계약 고객사 — 계약 모드지만 원장은 slack-data.js 에서 만든다 */
+const SLACK_LEDGER = MODE === 'contract' && !REG.dataFile;
 
-const CATS = (REG && REG.cats) ? REG.cats : (MODE === 'contract' ? TAX.contract : TAX.slack);
+/* 슬랙 원장 고객사는 계약 8종에 없는 배달·외주를 뒤에 덧붙인다 (건을 버리지 않도록) */
+const CATS = (REG && REG.cats) ? REG.cats
+           : SLACK_LEDGER      ? TAX.contract.concat(TAX.slack.filter(s=>!TAX.contract.some(c=>c.key===s.key)))
+           : (MODE === 'contract' ? TAX.contract : TAX.slack);
 const CLIENT = {
   name       : REG ? REG.brand : BRAND,
   icon       : REG ? (REG.icon || '🏢') : '🏢',
@@ -1493,10 +1766,12 @@ function viewOverview(){
   const catTile = (key, ic, label) => {
     const c = CAT_MAP[key];
     if(!c) return tile('', ic, label, 0, '건', '집계 대상 아님', '#aeaeb4');
-    return tile('', ic, label, cb[key] || 0, '건', pct(cb[key] || 0), c.color);
+    const n = cb[key] || 0;   /* 건이 있으면 눌러서 세부내역 */
+    return tile(n?'tile-btn':'', ic, label, n, '건', pct(n), c.color, n?'cat:'+key:'');
   };
-  const grandTile = tile('grand','📥','총 인입', rows.length,'건',
-                         esc(scopeLabel())+' · 지점 '+stores+'곳' + deltaBadge(rows.length));
+  const grandTile = tile('grand'+(rows.length?' tile-btn':''),'📥','총 인입', rows.length,'건',
+                         esc(scopeLabel())+' · 지점 '+stores+'곳' + deltaBadge(rows.length),
+                         '', rows.length?'all':'');
   /* 처리중은 눌러서 목록을 볼 수 있게 한다 — 본사가 가장 급한 항목이다 */
   const openTile  = tile(open?'tile-btn':'','⏳','처리중', open,'건',
                          open?'눌러서 목록 보기':'전건 처리완료', open?'#ff9500':'#34c759',
@@ -1824,7 +2099,7 @@ function viewReport(){
 
   h += '<div class="rep-foot">'
     + '집계 기준: '+esc(CLIENT.name)+' 가맹점 원격 지원 인입 건 · 카테고리 '+CATS.length+'종'
-    + (MODE==='slack'?' · 출처 slack-data.js(기존 원격 집계)':'')+'<br>'
+    + (MODE==='slack'||SLACK_LEDGER?' · 출처 slack-data.js(기존 원격 집계)':'')+'<br>'
     + '작성: '+esc(CLIENT.provider)+' · 문서 생성 '+TODAY
     + (IS_SAMPLE?'<br><b style="color:var(--red)">※ 본 문서는 샘플 데이터로 생성된 예시입니다. 대외 제출용이 아닙니다.</b>':'')
     + '</div></div>';
@@ -1846,7 +2121,8 @@ function downloadXlsx(){
   s1.push(['보고 기간', scopeLabel()]);
   s1.push(['작성', CLIENT.provider]);
   if(CLIENT.startDate) s1.push(['관리 개시일', CLIENT.startDate]);
-  s1.push(['데이터 출처', MODE==='contract' ? (REG.dataFile+' (전용 원장)') : 'slack-data.js (기존 원격 집계 필터)']);
+  s1.push(['데이터 출처', SLACK_LEDGER ? 'slack-data.js (원격 집계 기반 원장)'
+                        : MODE==='contract' ? (REG.dataFile+' (전용 원장)') : 'slack-data.js (기존 원격 집계 필터)']);
   s1.push(['문서 생성일', TODAY]);
   if(IS_SAMPLE) s1.push(['⚠ 주의','샘플 데이터로 생성된 예시 — 대외 제출용 아님']);
   s1.push([]);
@@ -1913,16 +2189,25 @@ function deltaBadge(cur){
     + arrow + ' ' + Math.abs(d) + '건 · ' + esc(p.label) + '</span>';
 }
 
-/* ── 처리중 목록 ────────────────────────────────────────────
-   숫자만 있고 눌러볼 수 없어, 본사가 가장 급한 '안 끝난 건' 을 볼 길이 없었다. */
-function drillOpen(){
-  const list = scopedRecs().filter(r => r.status !== 'done')
-    .sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')));
+/* ── 전체현황 타일 → 세부내역 ────────────────────────────────
+   key: 'all'(총 인입) · 'cat:<카테고리>' · 'open'(처리중)
+   숫자만 있고 눌러볼 수 없으면 본사가 '어떤 건이었나' 를 확인할 길이 없다. */
+function drillTile(key){
+  let list = scopedRecs(), title;
+  if(key === 'all')                    title = '📥 총 인입';
+  else if(key === 'open'){             list = list.filter(r => r.status !== 'done'); title = '⏳ 처리중'; }
+  else if(key.indexOf('cat:') === 0){  const k = key.slice(4); list = list.filter(r => r.cat === k); title = esc(catName(k)); }
+  else return;
+  /* 처리중은 오래된 것부터(급한 순), 나머지는 최신순 */
+  list = list.slice().sort((a, b) => (a.date + (a.time || '')).localeCompare(b.date + (b.time || '')));
+  if(key !== 'open') list.reverse();
+  const cb = byCat(list);
   const chips = '<span class="c">기간 <b>' + esc(scopeLabel()) + '</b></span>'
-    + '<span class="c">미완료 <b>' + list.length + '</b>건</span>'
-    + '<span class="c">지점 <b>' + new Set(list.map(r => r.branch)).size + '</b>곳</span>';
+    + '<span class="c">' + (key === 'open' ? '미완료' : '인입') + ' <b>' + list.length + '</b>건</span>'
+    + '<span class="c">지점 <b>' + new Set(list.map(r => r.branch)).size + '</b>곳</span>'
+    + (key === 'all' ? CATS.filter(c => cb[c.key]).map(c => '<span class="c">' + esc(c.name) + ' <b>' + cb[c.key] + '</b></span>').join('') : '');
   const body = list.length
-    ? '<table><thead><tr><th>접수</th><th>지점</th><th>구분</th><th>상태</th><th>담당</th><th>내용</th></tr></thead><tbody>'
+    ? '<table><thead><tr><th>접수</th><th>지점</th><th>구분</th><th>상태</th><th>담당</th><th>요청내역</th><th>처리내역</th></tr></thead><tbody>'
       + list.map(r => '<tr>'
           + '<td style="white-space:nowrap;color:var(--gray)">' + r.date
           + (r.time ? '<br><span style="color:var(--gray2)">' + esc(r.time) + '</span>' : '') + '</td>'
@@ -1931,10 +2216,11 @@ function drillOpen(){
           + '<td>' + catChip(r.cat) + '</td>'
           + '<td>' + stChip(r.status) + '</td>'
           + '<td style="white-space:nowrap">' + esc(r.emp) + '</td>'
-          + '<td class="req-cell">' + esc(r.req || '—') + '</td></tr>').join('')
+          + '<td class="req-cell"><div class="clamp3" title="' + esc(r.req || '') + '">' + esc(r.req || '—') + '</div></td>'
+          + '<td class="req-cell">' + (r.note ? '<div class="clamp3" title="' + esc(r.note) + '">' + esc(r.note) + '</div>' : '<span style="color:var(--muted)">—</span>') + '</td></tr>').join('')
       + '</tbody></table>'
-    : '<div class="empty">미완료 건이 없습니다.</div>';
-  openDrill('⏳ 처리중 · ' + esc(scopeLabel()), chips, body);
+    : '<div class="empty">해당 건이 없습니다.</div>';
+  openDrill(title + ' · ' + esc(scopeLabel()), chips, body, true);
 }
 
 /* ── 반복 인입 지점 ─────────────────────────────────────────
@@ -2024,7 +2310,7 @@ function mergeVisits(){
     const m = BrandMatch.matchBrand(idx, v.store || '');
     if(!m || m.brand.name !== BRAND) return;
     /* 관리 개시일 이전 건은 계약 대상이 아니다 (계약 고객사에만 해당) */
-    if(MODE === 'contract' && START_YM && ymOf(v.date) < START_YM) return;
+    if(MODE === 'contract' && CLIENT.startDate && String(v.date).slice(0,10) < CLIENT.startDate) return;   /* 날짜 단위 — tally-compose.js 와 같게 */
     REC.push({
       date  : String(v.date).slice(0, 10),
       time  : v.time || '',
@@ -2279,10 +2565,10 @@ function drillAsIssue(label){
 /* ── 상세 모달 ─────────────────────────────────────────────
    지점 상세와 날짜 상세가 같은 껍데기를 쓴다. 인쇄본에는 나가지 않는다
    (모달을 띄운 채 인쇄하면 보고서 위에 겹쳐 찍힌다). */
-function openDrill(title, chips, body){
+function openDrill(title, chips, body, wide){
   closeDrill();
   const wrap = document.createElement('div');
-  wrap.innerHTML = '<div class="ov no-print" id="drillOv"><div class="box">'
+  wrap.innerHTML = '<div class="ov no-print" id="drillOv"><div class="box' + (wide ? ' wide' : '') + '">'
     + '<div class="box-head"><h3>' + title + '</h3>'
     + '<button class="box-x" type="button" data-close="1">✕</button></div>'
     + '<div class="box-sum">' + chips + '</div>'
@@ -2348,11 +2634,424 @@ const catChip = k => '<span class="cat-chip" style="background:' + catColor(k) +
 const stChip  = k => '<span class="st-chip" style="background:' + stColor(k) + '22;color:' + stColor(k) + '">'
   + esc(stName(k)) + '</span>';
 
+/* ── 뷰: 장비 조회 ─────────────────────────────────────────
+   매장을 검색하면 어떤 장비가 들어가 있고 언제 설치·교체·AS 됐는지를 보여준다.
+   출처 3가지를 한 이력으로 합친다.
+     · 현장방문(visit-data.js) — '장비' 칸 자유 텍스트를 equip-parse.js 로 읽는다. 설치·교체·회수의 유일한 출처
+     · 원격 AS·온보딩       — 요청/처리 문구에 장비가 언급된 건만 (수량은 없음)
+     · 장비 대장(선택)       — clients.js 의 equipFile. 현장방문 적재 이전 장비는 여기로만 알 수 있다
+   기간 선택과 무관하게 전체 이력을 쓴다 (장비는 '지금 무엇이 있나' 라서). */
+let equipQ = '', equipSel = '', equipItem = '';
+let EQUIP_REG = [];          /* 장비 대장 행 (equipFile) */
+const EQ_TYPE_COLOR = {'설치':'#34c759','교체':'#ff9500','회수':'#8e8e93','AS':'#ff3b30',
+                       '원격AS':'#0071e3','온보딩':'#5e5ce6','점검':'#00c7be','장비대장':'#af52de','기타':'#aeaeb4'};
+const eqChip = t => '<span class="cat-chip" style="background:' + (EQ_TYPE_COLOR[t]||'#aeaeb4') + '22;color:'
+  + (EQ_TYPE_COLOR[t]||'#aeaeb4') + '">' + esc(t) + '</span>';
+
+function equipEvents(){
+  if(equipEvents._c) return equipEvents._c;
+  const EP = window.EquipParse, ev = [];
+  if(!EP) return (equipEvents._c = ev);
+  REC.forEach(function(r){
+    if(r.visit){
+      const v = r.visit, type = EP.eventType(v.kind, v.equip);
+      ev.push({branch:r.branch, date:String(v.visitDate || r.date).slice(0,10), reqDate:r.date, type:type,
+               items:EP.parseItems(v.equip), text:v.equip || '', emp:r.emp, src:'현장방문',
+               pair: type === '교체' ? EP.replacePair(v.equip) : null, visit:v});
+    }else if(r.cat === 'as' || r.cat === 'onboarding'){
+      const txt = (r.req || '') + ' ' + (r.note || '');
+      const items = EP.parseItems(txt).map(it => Object.assign({}, it, {qty:0}));   /* 원격 문구의 숫자는 수량이 아니다 */
+      if(!items.length) return;
+      ev.push({branch:r.branch, date:r.date, type: r.cat === 'onboarding' ? '온보딩' : '원격AS',
+               items:items, text:r.req || '', note:r.note || '', emp:r.emp, src:'원격'});
+    }
+  });
+  /* 수기 기록 (팀 공유 클라우드) */
+  Object.keys(EQUIP_EDIT).forEach(function(key){
+    const m = EQUIP_EDIT[key];
+    if(!m || m.k !== 'e') return;
+    ev.push({branch:m.branch, date:m.date || '', type:m.type || '기타',
+             items:[{type:m.item, name:m.name || m.item, qty:+m.qty || 0, models:m.model ? [String(m.model).toUpperCase()] : [], existing:false}],
+             text:m.note || '', emp:m.by || '', src:'수기', key:key,
+             pair: m.from ? {from:String(m.from).toUpperCase(), to:String(m.model || '?').toUpperCase()} : null});
+  });
+  EQUIP_REG.forEach(function(row){
+    if(!row || !row.branch || !row.item) return;
+    const parsed = EP.parseItems(row.item)[0];
+    const it = {type: parsed ? parsed.type : 'x:' + row.item, name: parsed ? parsed.name : String(row.item),
+                qty: +row.qty || 1, models: row.model ? [String(row.model).toUpperCase()] : [], existing:false};
+    const base = {branch:String(row.branch).trim(), items:[it], emp:row.by || '', src:'장비 대장', text:row.note || ''};
+    if(row.installed) ev.push(Object.assign({}, base, {date:String(row.installed).slice(0,10), type:'설치'}));
+    if(row.replaced)  ev.push(Object.assign({}, base, {date:String(row.replaced).slice(0,10),  type:'교체'}));
+    if(!row.installed && !row.replaced) ev.push(Object.assign({}, base, {date:'', type:'장비대장'}));
+  });
+  ev.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  return (equipEvents._c = ev);
+}
+
+/* 한 지점의 이력(최신순) → 장비별 현재 상태. branch 를 주면 수기 보정(o:)까지 덮어쓴다 */
+function equipInventory(evs, branch){
+  const base = equipInventoryAuto(evs);
+  if(!branch) return base;
+  const byType = Object.fromEntries(base.map(o => [o.type, o]));
+  Object.keys(EQUIP_EDIT).forEach(function(key){
+    const m = EQUIP_EDIT[key];
+    if(!m || m.k !== 'o' || m.branch !== branch) return;
+    let o = byType[m.type];
+    if(!o){ o = byType[m.type] = {type:m.type, name:m.name || m.type, qty:0, models:[], first:'', replaced:'',
+                                   lastAs:'', removed:'', existing:false, n:0}; base.push(o); }
+    o.edited = key; o.editBy = m.by || ''; o.editNote = m.note || '';
+    if(m.hidden){ o.hidden = true; return; }
+    if(m.qty)       o.qty = +m.qty;
+    if(m.model)     o.models = [String(m.model).toUpperCase()];
+    if(m.installed) o.first = m.installed;
+    if(m.replaced)  o.replaced = m.replaced;
+    if(m.status === 'removed') o.removed = m.removedAt || m.replaced || '회수';
+    if(m.status === 'active')  o.removed = '';
+    if(m.existing !== undefined) o.existing = !!m.existing;
+  });
+  return base;
+}
+function equipInventoryAuto(evs){
+  const inv = {};
+  evs.slice().reverse().forEach(function(e){           /* 오래된 것부터 쌓아 올린다 */
+    e.items.forEach(function(it){
+      const o = inv[it.type] || (inv[it.type] = {type:it.type, name:it.name, qty:0, models:[], first:'', replaced:'',
+                                                  lastAs:'', removed:'', existing:false, n:0});
+      o.n++;
+      it.models.forEach(m => { if(o.models.indexOf(m) < 0) o.models.push(m); });
+      if(e.type === '설치' || e.type === '교체' || e.type === '장비대장'){
+        if(it.qty) o.qty = it.qty;                     /* 가장 최근 설치·교체 기록의 수량 */
+        if(e.type === '설치' && !o.first) o.first = e.date;
+        if(e.type === '교체') o.replaced = e.date;
+        if(it.existing) o.existing = true;
+        o.removed = '';
+      }
+      if(e.type === '회수') o.removed = e.date;
+      if(e.type === 'AS' || e.type === '원격AS' || e.type === '점검') o.lastAs = e.date;
+    });
+  });
+  const order = (window.EquipParse ? EquipParse.TYPES.map(t => t.key) : []);
+  return Object.values(inv).sort((a, b) => {
+    const ia = order.indexOf(a.type), ib = order.indexOf(b.type);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+}
+
+function equipStores(){
+  const evs = equipEvents(), m = new Map();
+  REC.forEach(r => { if(!m.has(r.branch)) m.set(r.branch, {branch:r.branch, store:r.store, biz:r.biz, evs:[]}); });
+  evs.forEach(e => {
+    if(!m.has(e.branch)) m.set(e.branch, {branch:e.branch, store:'', biz:'', evs:[]});
+    m.get(e.branch).evs.push(e);
+  });
+  /* 수기 보정만 있는 지점도 목록에 나와야 한다 */
+  Object.values(EQUIP_EDIT).forEach(v => {
+    if(v && v.branch && !m.has(v.branch)) m.set(v.branch, {branch:v.branch, store:'', biz:'', evs:[]});
+  });
+  return [...m.values()];
+}
+
+function viewEquip(){
+  if(!window.EquipParse) return '<div class="notice danger"><span class="k">오류</span><span class="t">equip-parse.js 를 불러오지 못했습니다.</span></div>';
+  const VD = window.VISIT_DATA, vFrom = VD && VD.records && VD.records.length
+    ? VD.records.map(v => String(v.date)).sort()[0] : '';
+  let h = '<div class="notice"><span class="k">출처</span><span class="t">'
+    + '<b>현장방문</b> 설치·교체·회수·AS 기록' + (vFrom ? '(' + esc(vFrom) + ' 이후)' : '')
+    + ' + <b>원격 AS·온보딩</b> 중 장비가 언급된 건' + (EQUIP_REG.length ? ' + <b>장비 대장 ' + EQUIP_REG.length + '행</b>' : '')
+    + ' + <b>수기 기록</b>으로 만든 이력입니다. '
+    + (EQ_READONLY ? '<b>수기</b> 표시는 iShopCare 원격파트가 직접 확인해 넣은 값입니다.</span></div>'
+                   : '방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 '
+                     + '<b>✏️ 수정 · ＋ 기록 추가</b>로 직접 채우세요 — 팀 전체에 공유됩니다.</span></div>')
+    + eqCloudBanner();
+
+  const all = equipStores();
+  const sel = equipSel ? all.find(s => s.branch === equipSel) : null;
+  if(sel) return h + equipDetail(sel);
+
+  const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '');
+  let list = all.filter(s => !q || BrandMatch.keyOf(s.branch + ' ' + s.store).indexOf(q) >= 0
+                               || (qd.length >= 3 && String(s.biz).indexOf(qd) >= 0));
+  list.forEach(s => { s.inv = equipInventory(s.evs, s.branch).filter(o => !o.hidden); s.last = s.evs.length ? s.evs[0].date : ''; });
+  list.sort((a, b) => (b.inv.length > 0) - (a.inv.length > 0) || (b.last || '').localeCompare(a.last || '')
+                      || a.branch.localeCompare(b.branch, 'ko'));
+  const withEq = list.filter(s => s.inv.length).length;
+
+  h += '<div class="card"><div class="card-head"><h3>🧰 장비 조회</h3><div class="controls">'
+    + '<input type="search" id="equipQ" placeholder="매장 상호·지점명·사업자번호 검색" value="' + esc(equipQ) + '" style="min-width:280px">'
+    + '<button class="btn" data-eqadd="">＋ 장비 기록 추가</button>'
+    + '</div></div>'
+    + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:11px">'
+    + (equipQ ? '“' + esc(equipQ) + '” · ' : '') + list.length + '개 지점 · 장비 기록 있음 ' + withEq + '곳 · 지점을 누르면 장비 현황과 이력</div>';
+  if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.<br><span style="font-size:12.5px">목록에 없는 매장은 <b>＋ 장비 기록 추가</b>에서 지점명을 직접 적어 넣을 수 있습니다.</span></div></div>';
+  h += '<div class="tbl-scroll"><table><thead><tr><th>지점</th><th>장비</th><th class="num">기록</th><th>최근 기록</th></tr></thead><tbody>'
+    + list.map(s => '<tr class="eq-row" data-eqbranch="' + esc(s.branch) + '">'
+        + '<td style="font-weight:700;color:var(--blue);white-space:nowrap">' + esc(s.branch) + '</td>'
+        + '<td>' + (s.inv.length
+            ? s.inv.map(o => '<span class="eq-item' + (o.removed ? ' off' : '') + '">' + esc(o.name) + (o.qty > 1 ? ' ×' + o.qty : '')
+                + (o.edited ? ' <small>✏️</small>' : '') + '</span>').join('')
+            : '<span style="color:var(--gray2);font-size:12.5px">장비 기록 없음</span>') + '</td>'
+        + '<td class="num">' + (s.evs.length || '·') + '</td>'
+        + '<td style="white-space:nowrap;color:var(--gray)">' + (s.last || '—') + '</td></tr>').join('')
+    + '</tbody></table></div></div>';
+  return h;
+}
+
+function equipDetail(s){
+  const invAll = equipInventory(s.evs, s.branch);
+  const inv = invAll.filter(o => !o.hidden), hidden = invAll.filter(o => o.hidden);
+  const lastVisit = s.evs.find(e => e.visit);
+  const meta = [];
+  if(s.store) meta.push(esc(s.store));
+  if(lastVisit && lastVisit.visit.addr) meta.push(esc(lastVisit.visit.addr));
+  if(lastVisit && lastVisit.visit.van)  meta.push('VAN ' + esc(lastVisit.visit.van));
+  if(s.biz) meta.push('사업자 ' + esc(s.biz));
+
+  let h = '<div class="card"><div class="card-head"><div>'
+    + '<button class="btn sm" id="equipBack" style="margin-bottom:10px">← 지점 목록</button>'
+    + '<h3 style="font-size:21px">🏪 ' + esc(s.branch) + '</h3>'
+    + '<div style="font-size:12.5px;color:var(--gray);margin-top:4px">' + meta.join(' · ') + '</div></div>'
+    + '<div class="controls"><button class="btn primary" data-eqadd="' + esc(s.branch) + '">＋ 기록 추가</button></div></div>';
+
+  if(!inv.length){
+    h += '<div class="empty">이 지점은 장비가 확인된 기록이 없습니다.<br>'
+      + '<span style="font-size:12.5px">위 <b>＋ 기록 추가</b>로 설치된 장비를 직접 넣을 수 있습니다.</span></div>';
+  }else{
+    h += '<div class="tbl-scroll"><table><thead><tr><th>장비</th><th class="num">수량</th><th>모델</th><th>상태</th>'
+      + '<th>설치</th><th>최근 교체</th><th>최근 AS·점검</th><th class="num">기록</th><th></th></tr></thead><tbody>'
+      + inv.map(function(o){
+          const st = o.removed ? '<span style="color:var(--gray)">회수' + (o.removed !== '회수' ? ' ' + o.removed : '') + '</span>'
+                   : o.qty ? (o.existing ? '운영중 <span style="color:var(--gray2);font-size:12px">(기존 보유)</span>' : '운영중')
+                   : '<span style="color:var(--gray2)">설치 기록 없음</span>';
+          return '<tr class="eq-row' + (equipItem === o.type ? ' on' : '') + '" data-eqitem="' + esc(o.type) + '" title="누르면 이 장비 이력만">'
+            + '<td style="font-weight:700;white-space:nowrap">' + esc(o.name)
+            + (o.edited ? ' <span class="eq-ed" title="수기 수정' + (o.editBy ? ' · ' + esc(o.editBy) : '') + (o.editNote ? ' · ' + esc(o.editNote) : '') + '">수기</span>' : '') + '</td>'
+            + '<td class="num">' + (o.qty || '—') + '</td>'
+            + '<td style="font-size:12.5px;color:var(--gray)">' + (o.models.length ? esc(o.models.join(', ')) : '—') + '</td>'
+            + '<td style="white-space:nowrap">' + st + '</td>'
+            + '<td style="white-space:nowrap">' + (o.first || '—') + '</td>'
+            + '<td style="white-space:nowrap;' + (o.replaced ? 'color:#c2410c;font-weight:700' : '') + '">' + (o.replaced || '—') + '</td>'
+            + '<td style="white-space:nowrap">' + (o.lastAs || '—') + '</td>'
+            + '<td class="num">' + (o.n || '·') + '</td>'
+            + '<td style="white-space:nowrap;text-align:right"><button class="btn sm" data-eqov="' + esc(o.type) + '" title="수량·모델·설치일·교체일·상태 수정">✏️ 수정</button></td></tr>';
+        }).join('')
+      + '</tbody></table></div>'
+      + '<div style="font-size:11.5px;color:var(--gray2);margin-top:9px">수량은 가장 최근 설치·교체 기록 기준 · 원격 건은 수량을 세지 않습니다 · '
+      + '<b>수기</b> 표시는 사람이 고친 값 · 장비를 누르면 아래 이력이 그 장비만으로 좁혀집니다</div>';
+  }
+  if(hidden.length){
+    h += '<div style="font-size:12px;color:var(--gray2);margin-top:8px">숨긴 장비: '
+      + hidden.map(o => '<span class="eq-item off">' + esc(o.name) + '</span> <button class="btn sm" data-eqov="' + esc(o.type) + '">되살리기</button>').join(' ') + '</div>';
+  }
+  h += '</div>';
+
+  const evs = equipItem ? s.evs.filter(e => e.items.some(it => it.type === equipItem)) : s.evs;
+  const itemName = equipItem ? (invAll.find(o => o.type === equipItem) || {}).name : '';
+  h += '<div class="card"><div class="card-head"><h3>장비 이력' + (itemName ? ' · ' + esc(itemName) : '') + '</h3>'
+    + (equipItem ? '<button class="btn sm" id="equipItemClear">✕ 전체 장비</button>' : '<span class="hint">최신순 · ' + evs.length + '건</span>')
+    + '</div>';
+  if(!evs.length){ h += '<div class="empty">이력이 없습니다.</div></div>'; return h; }
+  h += '<div class="tbl-scroll"><table style="min-width:900px"><thead><tr><th>일자</th><th>구분</th><th>장비</th><th>내용</th><th>담당</th><th>출처</th><th></th></tr></thead><tbody>'
+    + evs.map(function(e){
+        const pair = e.pair ? '<div style="font-size:12px;color:#c2410c;font-weight:700;margin-top:3px">' + esc(e.pair.from) + ' → ' + esc(e.pair.to) + '</div>' : '';
+        return '<tr><td style="white-space:nowrap;color:var(--gray)">' + (e.date || '—')
+          + (e.reqDate && e.reqDate !== e.date ? '<br><span style="font-size:11.5px;color:var(--gray2)">요청 ' + e.reqDate + '</span>' : '') + '</td>'
+          + '<td>' + eqChip(e.type) + '</td>'
+          + '<td>' + e.items.map(it => '<span class="eq-item">' + esc(it.name) + (it.qty > 1 ? ' ×' + it.qty : '')
+              + (it.models.length ? ' <small>' + esc(it.models.join('/')) + '</small>' : '') + '</span>').join('') + '</td>'
+          + '<td class="req-cell"><div class="clamp3" title="' + esc(e.text + (e.note ? ' / ' + e.note : '')) + '">' + esc(e.text || '—')
+          + (e.note ? ' <span style="color:var(--gray2)">/ ' + esc(e.note) + '</span>' : '') + '</div>' + pair + '</td>'
+          + '<td style="white-space:nowrap">' + esc(e.emp || '—') + '</td>'
+          + '<td style="white-space:nowrap;font-size:12.5px;color:' + (e.src === '수기' ? 'var(--purple);font-weight:700' : 'var(--gray)') + '">' + esc(e.src) + '</td>'
+          + '<td style="white-space:nowrap;text-align:right">' + (e.key
+              ? '<button class="btn sm" data-eqedit="' + esc(e.key) + '">✏️</button> <button class="btn sm" data-eqdel="' + esc(e.key) + '">🗑</button>' : '') + '</td></tr>';
+      }).join('')
+    + '</tbody></table></div></div>';
+  return h;
+}
+
+/* ── 장비 수기 수정 · 팀 공유 저장 ─────────────────────────────
+   원격파트 대시보드(../index.html)와 같은 Apps Script 공유 저장소를 쓴다.
+   백엔드는 {patch:{섹션:{키:값}}} 을 키 단위로 병합하므로 'frEquip' 섹션을 새로 써도
+   백엔드 수정·재배포가 필요 없고, 다른 섹션(게임·VOC 등)은 건드리지 않는다.
+     키 = '<브랜드>|<지점>|e:<id>'   수기 이력 1건 (설치·교체·회수·AS·점검)
+          '<브랜드>|<지점>|o:<장비>' 자동 판정 보정 (수량·모델·설치일·교체일·상태·숨김)
+   삭제는 '' (묘비). null 로 지우면 아직 그 값을 들고 있는 브라우저가 되살린다.
+   저장 실패를 조용히 삼키면 각자 브라우저에만 남는다(2026-08-24 사고) →
+   실패하면 알리고 이 브라우저에 보관했다가 다음에 열 때 다시 올린다. */
+const FR_CLOUD   = '';   /* 공유본: 저장소 접근 없음 */
+/* 고객사 공유본(scripts/build-compose-share.js)은 true 로 바꿔 만든다 — 수정 버튼을 숨기고
+   저장소에 쓰지 않으며, 수기 기록은 빌드 때 떨궈 둔 스냅샷(data/<slug>-equip-edits.js)만 읽는다.
+   공유본이 저장소를 직접 읽으면 팀 내부 데이터(게임·VOC 등) 전체가 고객사 브라우저로 내려간다. */
+const EQ_READONLY = true;   /* 공유본: 읽기 전용 */
+if(EQ_READONLY) document.documentElement.classList.add('eq-ro');
+const EQ_SECTION = 'frEquip';
+const EQ_PREFIX  = CLIENT.name + '|';
+const LS_EQ_PEND = 'fr_equip_pending_v1';
+const LS_EQ_BY   = 'fr_equip_by_v1';
+let EQUIP_EDIT = {};              /* 이 브랜드의 수기 값 (key → 객체) */
+let EQ_CLOUD   = 'loading';       /* loading | ok | fail */
+
+const lsGet = (k, d) => { try{ const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); }catch(e){ return d; } };
+const lsSet = (k, v) => { try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} };
+
+function eqCloudBanner(){
+  if(EQ_READONLY) return '';
+  const pend = Object.keys(lsGet(LS_EQ_PEND, {})).filter(k => k.indexOf(EQ_PREFIX) === 0).length;
+  if(EQ_CLOUD === 'fail')
+    return '<div class="notice danger"><span class="k">저장소</span><span class="t">팀 공유 저장소를 불러오지 못했습니다. '
+      + '다른 사람이 넣은 수기 기록이 안 보일 수 있습니다. 새로고침해 보세요.</span></div>';
+  if(pend)
+    return '<div class="notice warn"><span class="k">미저장</span><span class="t">아직 팀에 올라가지 않은 수기 수정 <b>' + pend + '건</b>이 이 브라우저에 있습니다. '
+      + '다음에 열 때 자동으로 다시 올립니다.</span></div>';
+  if(EQ_CLOUD === 'loading')
+    return '<div class="notice"><span class="k">저장소</span><span class="t">수기 기록을 불러오는 중…</span></div>';
+  return '';
+}
+
+function eqApply(key, val){
+  if(val === '') delete EQUIP_EDIT[key]; else EQUIP_EDIT[key] = val;
+  equipEvents._c = null;
+}
+
+function loadEquipCloud(){
+  return fetch(FR_CLOUD + '?t=' + Date.now()).then(r => r.json()).then(function(d){
+    const sec = (d && d.game && d.game[EQ_SECTION]) || {};
+    EQUIP_EDIT = {};
+    Object.keys(sec).forEach(k => { if(k.indexOf(EQ_PREFIX) === 0 && sec[k] !== '' && sec[k] != null) EQUIP_EDIT[k] = sec[k]; });
+    /* 아직 못 올린 내 수정이 있으면 화면에 반영하고 다시 올린다 */
+    const pend = lsGet(LS_EQ_PEND, {}), mine = {};
+    Object.keys(pend).forEach(k => { if(k.indexOf(EQ_PREFIX) === 0){ mine[k] = pend[k]; eqApply(k, pend[k]); } });
+    EQ_CLOUD = 'ok';
+    equipEvents._c = null;
+    if(Object.keys(mine).length) eqPush(mine);
+  }).catch(function(){ EQ_CLOUD = 'fail'; });
+}
+
+function eqPush(patchObj){
+  if(EQ_READONLY || !FR_CLOUD) return Promise.resolve();
+  const pend = lsGet(LS_EQ_PEND, {});
+  Object.assign(pend, patchObj); lsSet(LS_EQ_PEND, pend);
+  return fetch(FR_CLOUD, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+                          body:JSON.stringify({patch:{[EQ_SECTION]:patchObj}})})
+    .then(r => r.text())
+    .then(function(t){
+      let d = null; try{ d = JSON.parse(t); }catch(e){}
+      if(!d || d.ok !== true) throw new Error((d && d.error) || t.slice(0, 160));
+      const p = lsGet(LS_EQ_PEND, {});
+      Object.keys(patchObj).forEach(k => { if(JSON.stringify(p[k]) === JSON.stringify(patchObj[k])) delete p[k]; });
+      lsSet(LS_EQ_PEND, p);
+      eqToast('✅ 팀에 저장됐습니다');
+      if(view === 'equip') render();
+    })
+    .catch(function(e){
+      console.error('장비 수기 저장 실패:', e);
+      eqToast('⚠️ 팀 저장 실패 — 이 브라우저에만 남아 있습니다. 다음에 열 때 다시 올립니다.', true);
+      if(view === 'equip') render();
+    });
+}
+
+function eqSave(key, val){ eqApply(key, val); render(); eqPush({[key]: val}); }
+
+function eqToast(msg, bad){
+  let t = document.getElementById('eqToast');
+  if(!t){ t = document.createElement('div'); t.id = 'eqToast'; t.className = 'eq-toast no-print'; document.body.appendChild(t); }
+  t.textContent = msg; t.classList.toggle('bad', !!bad); t.style.display = 'block';
+  clearTimeout(t._t); t._t = setTimeout(() => { t.style.display = 'none'; }, bad ? 7000 : 2500);
+}
+
+/* 장비명 → 종류 키. 사전에 있으면 그 종류(자동 이력과 합쳐짐), 없으면 직접 입력한 이름 그대로 */
+function eqTypeOf(name){
+  const n = String(name || '').trim();
+  const t = EquipParse.TYPES.find(x => x.name === n) || (EquipParse.parseItems(n)[0] && EquipParse.TYPE_MAP[EquipParse.parseItems(n)[0].type]);
+  return t ? {type:t.key, name:t.name} : {type:'x:' + n, name:n};
+}
+const eqNameList = () => '<datalist id="eqNames">' + EquipParse.TYPES.map(t => '<option value="' + esc(t.name) + '">').join('') + '</datalist>';
+const fRow = (label, input) => '<label class="eq-f"><span>' + label + '</span>' + input + '</label>';
+const fIn  = (id, val, attr) => '<input id="' + id + '" value="' + esc(val == null ? '' : val) + '" ' + (attr || '') + '>';
+
+/* 수기 이력 추가·수정 */
+function eqOpenEventForm(branch, key){
+  const m = key ? EQUIP_EDIT[key] : null;
+  const branches = equipStores().map(s => s.branch).sort((a, b) => a.localeCompare(b, 'ko'));
+  const types = ['설치','교체','회수','AS','점검'];
+  const body = '<div class="eq-form">'
+    + fRow('지점 *', branch && !m ? '<input id="eqfBranch" value="' + esc(branch) + '" readonly>'
+        : '<input id="eqfBranch" list="eqBranches" value="' + esc(m ? m.branch : (branch || '')) + '" placeholder="예: 성수코리아IT점">'
+          + '<datalist id="eqBranches">' + branches.map(b => '<option value="' + esc(b) + '">').join('') + '</datalist>')
+    + fRow('일자 *', fIn('eqfDate', m ? m.date : TODAY, 'type="date"'))
+    + fRow('구분 *', '<select id="eqfType">' + types.map(t => '<option' + ((m ? m.type : '설치') === t ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>')
+    + fRow('장비 *', fIn('eqfItem', m ? m.name : '', 'list="eqNames" placeholder="포스 · 프론트 · 유선프린터 …"') + eqNameList())
+    + fRow('수량', fIn('eqfQty', m ? m.qty : 1, 'type="number" min="0" max="99"'))
+    + fRow('모델', fIn('eqfModel', m ? m.model : '', 'placeholder="교체면 새 모델"'))
+    + fRow('이전 모델', fIn('eqfFrom', m ? m.from : '', 'placeholder="교체일 때만 · 예: TS100E"'))
+    + fRow('메모', fIn('eqfNote', m ? m.note : '', 'placeholder="교체 사유 · 업체 등"'))
+    + fRow('작성자 *', fIn('eqfBy', m ? m.by : lsGet(LS_EQ_BY, ''), 'placeholder="이름"'))
+    + '<div class="eq-actions"><span class="eq-err" id="eqfErr"></span>'
+    + '<button class="btn" type="button" data-close="1">취소</button>'
+    + '<button class="btn primary" type="button" id="eqfSave">' + (m ? '수정 저장' : '추가') + '</button></div></div>';
+  openDrill(m ? '✏️ 수기 기록 수정' : '＋ 장비 기록 추가', '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  document.getElementById('eqfSave').addEventListener('click', function(){
+    const g = id => document.getElementById(id).value.trim();
+    const br = g('eqfBranch'), item = g('eqfItem'), by = g('eqfBy');
+    if(!br || !g('eqfDate') || !item || !by){ document.getElementById('eqfErr').textContent = '* 표시 항목을 채워주세요'; return; }
+    lsSet(LS_EQ_BY, by);
+    const t = eqTypeOf(item);
+    const k = key || (EQ_PREFIX + br + '|e:' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
+    const val = {k:'e', branch:br, date:g('eqfDate'), type:g('eqfType'), item:t.type, name:t.name,
+                 qty:+g('eqfQty') || 0, model:g('eqfModel'), from:g('eqfFrom'), note:g('eqfNote'), by:by, _t:Date.now()};
+    closeDrill();
+    if(!key && br !== equipSel){ equipSel = br; equipItem = ''; }
+    eqSave(k, val);
+  });
+}
+
+/* 자동 판정 보정 — 비운 칸은 자동 값을 그대로 쓴다 */
+function eqOpenOverrideForm(branch, type){
+  const s = equipStores().find(x => x.branch === branch);
+  const o = equipInventory(s ? s.evs : [], branch).find(x => x.type === type) || {name:type, models:[]};
+  const key = EQ_PREFIX + branch + '|o:' + type;
+  const m = EQUIP_EDIT[key] || {};
+  const body = '<div class="eq-form">'
+    + '<div class="eq-hint">비워 둔 칸은 자동 판정 값을 씁니다. 지금 값: 수량 ' + (o.qty || '—') + ' · 모델 ' + (o.models.length ? esc(o.models.join(', ')) : '—')
+    + ' · 설치 ' + (o.first || '—') + ' · 교체 ' + (o.replaced || '—') + '</div>'
+    + fRow('수량', fIn('eqoQty', m.qty || '', 'type="number" min="0" max="99"'))
+    + fRow('모델', fIn('eqoModel', m.model || ''))
+    + fRow('설치일', fIn('eqoInst', m.installed || '', 'type="date"'))
+    + fRow('최근 교체일', fIn('eqoRepl', m.replaced || '', 'type="date"'))
+    + fRow('상태', '<select id="eqoStatus">'
+        + [['','자동 판정대로'],['active','운영중'],['removed','회수'],['hidden','목록에서 숨김 (잘못 잡힌 장비)']]
+            .map(x => '<option value="' + x[0] + '"' + ((m.hidden ? 'hidden' : (m.status || '')) === x[0] ? ' selected' : '') + '>' + x[1] + '</option>').join('')
+        + '</select>')
+    + fRow('회수일', fIn('eqoRemAt', m.removedAt || '', 'type="date"'))
+    + fRow('메모', fIn('eqoNote', m.note || ''))
+    + fRow('작성자 *', fIn('eqoBy', m.by || lsGet(LS_EQ_BY, ''), 'placeholder="이름"'))
+    + '<div class="eq-actions"><span class="eq-err" id="eqoErr"></span>'
+    + (EQUIP_EDIT[key] ? '<button class="btn" type="button" id="eqoReset" title="수기 수정을 지우고 자동 판정으로">↺ 자동 값으로 되돌리기</button>' : '')
+    + '<button class="btn" type="button" data-close="1">취소</button>'
+    + '<button class="btn primary" type="button" id="eqoSave">저장</button></div></div>';
+  openDrill('✏️ ' + esc(branch) + ' · ' + esc(o.name), '<span class="c">저장하면 <b>팀 전체</b>에 공유됩니다</span>', body);
+  document.getElementById('eqoSave').addEventListener('click', function(){
+    const g = id => document.getElementById(id).value.trim();
+    const by = g('eqoBy');
+    if(!by){ document.getElementById('eqoErr').textContent = '작성자를 적어주세요'; return; }
+    lsSet(LS_EQ_BY, by);
+    const st = g('eqoStatus');
+    const val = {k:'o', branch:branch, type:type, name:o.name, qty:+g('eqoQty') || 0, model:g('eqoModel'),
+                 installed:g('eqoInst'), replaced:g('eqoRepl'), status: st === 'hidden' ? '' : st, hidden: st === 'hidden',
+                 removedAt:g('eqoRemAt'), note:g('eqoNote'), by:by, _t:Date.now()};
+    closeDrill(); eqSave(key, val);
+  });
+  const rs = document.getElementById('eqoReset');
+  if(rs) rs.addEventListener('click', function(){ closeDrill(); eqSave(key, ''); });
+}
+
 /* ── 라우팅 / 렌더 ─────────────────────────────────────────── */
 const TITLES = {
   overview:['전체현황','원격 지원 인입 요약'],
   stores  :['지점별','지점 단위 인입 집계'],
   records :['처리내역','건별 원장'],
+  equip   :['장비 조회','매장별 장비 현황 · 설치·교체·AS 이력'],
   report  :['월간 보고서','제출용 · 인쇄/PDF + 엑셀'],
 };
 function controlsHTML(){
@@ -2399,12 +3098,14 @@ function render(){
   const t = TITLES[view];
   document.getElementById('pgTitle').textContent = t[0];
   document.getElementById('pgSub').textContent = CLIENT.name + ' · ' + t[1]
-    + ' · ' + (view==='report' ? ymLabel(month) : scopeLabel());
-  document.getElementById('ctlHost').innerHTML = controlsHTML();
+    + ' · ' + (view==='report' ? ymLabel(month) : view==='equip' ? '전체 기간' : scopeLabel());
+  /* 장비 조회는 기간과 무관(전체 이력) — 기간·엑셀 버튼을 두면 걸러지는 것처럼 읽힌다 */
+  document.getElementById('ctlHost').innerHTML = view==='equip' ? '' : controlsHTML();
   const host = document.getElementById('viewHost');
   host.innerHTML = view==='overview' ? viewOverview()
                  : view==='stores'   ? viewStores()
                  : view==='records'  ? viewRecords()
+                 : view==='equip'    ? viewEquip()
                  : viewReport();
   bindEvents();
 }
@@ -2444,8 +3145,8 @@ function bindEvents(){
   /* 처리중 타일 → 미완료 목록 */
   const ovt = document.querySelector('.ov-tiles');
   if(ovt) ovt.addEventListener('click', function(e){
-    const t = e.target.closest('.ov-tile[data-drill="open"]'); if(!t) return;
-    drillOpen();
+    const t = e.target.closest('.ov-tile[data-drill]'); if(!t) return;
+    drillTile(t.dataset.drill);
   });
   /* 지점 검색 — 입력 중 포커스가 날아가지 않게 커서를 되돌린다 */
   const sq = document.getElementById('storeQ');
@@ -2484,6 +3185,34 @@ function bindEvents(){
   });
   const cs = document.getElementById('recCatSeg');
   if(cs) cs.addEventListener('click', function(e){ const b=e.target.closest('button'); if(!b) return; recCat=b.dataset.c; render(); });
+  /* 장비 조회 — 검색(포커스 유지) · 지점 선택 · 장비별 이력 필터 */
+  const eq = document.getElementById('equipQ');
+  if(eq) eq.addEventListener('input', function(){
+    equipQ = this.value; clearTimeout(eq._t);
+    eq._t = setTimeout(function(){ render(); const n = document.getElementById('equipQ');
+      if(n){ n.focus(); n.setSelectionRange(n.value.length, n.value.length); } }, 220);
+  });
+  if(view === 'equip'){
+    document.querySelectorAll('[data-eqbranch]').forEach(function(tr){
+      tr.addEventListener('click', function(){ equipSel = this.dataset.eqbranch; equipItem = ''; render(); window.scrollTo(0, 0); });
+    });
+    document.querySelectorAll('[data-eqitem]').forEach(function(tr){
+      tr.addEventListener('click', function(){ equipItem = equipItem === this.dataset.eqitem ? '' : this.dataset.eqitem; render(); });
+    });
+    const bk = document.getElementById('equipBack');
+    if(bk) bk.addEventListener('click', function(){ equipSel = ''; equipItem = ''; render(); });
+    const ic = document.getElementById('equipItemClear');
+    if(ic) ic.addEventListener('click', function(){ equipItem = ''; render(); });
+    /* 수기 수정 — 표 행 클릭(장비 필터)과 겹치지 않게 전파를 끊는다 (읽기 전용이면 걸지 않는다) */
+    const on = (sel, fn) => EQ_READONLY ? null : document.querySelectorAll(sel).forEach(b => b.addEventListener('click', function(e){ e.stopPropagation(); fn(this); }));
+    on('[data-eqadd]',  b => eqOpenEventForm(b.dataset.eqadd || '', ''));
+    on('[data-eqedit]', b => eqOpenEventForm('', b.dataset.eqedit));
+    on('[data-eqov]',   b => eqOpenOverrideForm(equipSel, b.dataset.eqov));
+    on('[data-eqdel]',  b => {
+      const m = EQUIP_EDIT[b.dataset.eqdel];
+      if(confirm('이 수기 기록을 삭제할까요?\n' + (m ? m.date + ' · ' + m.type + ' · ' + m.name : '') + '\n(팀 전체에서 사라집니다)')) eqSave(b.dataset.eqdel, '');
+    });
+  }
 }
 
 document.querySelector('.sidebar').addEventListener('click', function(e){
@@ -2517,17 +3246,29 @@ function fillClientSelect(){
 
   document.getElementById('brandTitle').textContent = CLIENT.icon + ' ' + CLIENT.name;
   document.getElementById('brandSub').textContent =
-    MODE === 'contract' ? '계약 고객사 · 전용 원장' : '일반 브랜드 · 기존 원격 집계';
+    SLACK_LEDGER ? '계약 고객사 · 원격 집계 원장'
+    : MODE === 'contract' ? '계약 고객사 · 전용 원장' : '일반 브랜드 · 기존 원격 집계';
   const tag = document.getElementById('sinceTag');
   if(CLIENT.startDate) tag.textContent = '개시 ' + CLIENT.startDate;
+  else if(SLACK_LEDGER) tag.textContent = '계약 고객사';
   else { tag.textContent = '계약 전'; tag.className = 'since gray'; }
   document.title = CLIENT.name + ' 대시보드 · iShopCare';
 
   try{
-    if(MODE === 'contract'){ buildFromClientData(); }   /* 원장 인라인됨 */
+    if(MODE === 'contract' && !SLACK_LEDGER){ buildFromClientData(); }   /* 원장 인라인됨 */
     else                   { await loadScript('../slack-data.js'); buildFromSlack(); }
     /* 현장방문은 별도 파일에서 온다. 아직 수집 전이면 조용히 건너뛴다 */
     try { mergeVisits(); } catch(e){}   /* 현장방문 인라인됨 */
+    /* 장비 수기 기록(팀 공유) — 기다리지 않는다. 도착하면 장비 조회 화면만 다시 그린다 */
+    EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok';   /* 수기 스냅샷 인라인됨 */
+    /* 장비 대장(선택) — 없거나 비어 있어도 장비 조회는 방문·원격 기록만으로 동작한다 */
+    if(REG && REG.equipFile){
+      try {
+        /* 장비 대장 인라인됨 */
+        const E = (window.CLIENT_EQUIP || {})[REG.slug];
+        EQUIP_REG = (E && Array.isArray(E.rows)) ? E.rows : [];
+      } catch(e){}
+    }
   }catch(e){ LOAD_ERR = e.message; }
 
   if(LOAD_ERR){

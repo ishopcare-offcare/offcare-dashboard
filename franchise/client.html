@@ -235,6 +235,8 @@
   .eq-toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%); z-index:10000; display:none;
     background:#1d1d1f; color:#fff; padding:11px 18px; border-radius:12px; font-size:14px; font-weight:600; box-shadow:0 8px 24px rgba(0,0,0,.3)}
   .eq-toast.bad{background:#b91c1c}
+  /* 읽기 전용(고객사 공유본) — 수정 버튼을 전부 숨긴다 */
+  .eq-ro [data-eqadd],.eq-ro [data-eqov],.eq-ro [data-eqedit],.eq-ro [data-eqdel]{display:none !important}
   @media (max-width:680px){ .eq-form{grid-template-columns:1fr} }
   .empty{text-align:center; color:var(--gray2); font-size:14px; padding:44px 12px; line-height:1.8}
   .delta{font-size:12.5px; font-weight:700}
@@ -1818,8 +1820,10 @@ function viewEquip(){
   let h = '<div class="notice"><span class="k">출처</span><span class="t">'
     + '<b>현장방문</b> 설치·교체·회수·AS 기록' + (vFrom ? '(' + esc(vFrom) + ' 이후)' : '')
     + ' + <b>원격 AS·온보딩</b> 중 장비가 언급된 건' + (EQUIP_REG.length ? ' + <b>장비 대장 ' + EQUIP_REG.length + '행</b>' : '')
-    + ' + <b>수기 기록</b>으로 만든 이력입니다. 방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 '
-    + '<b>✏️ 수정 · ＋ 기록 추가</b>로 직접 채우세요 — 팀 전체에 공유됩니다.</span></div>'
+    + ' + <b>수기 기록</b>으로 만든 이력입니다. '
+    + (EQ_READONLY ? '<b>수기</b> 표시는 iShopCare 원격파트가 직접 확인해 넣은 값입니다.</span></div>'
+                   : '방문 기록 이전에 설치됐거나 기록 없이 교체된 장비는 '
+                     + '<b>✏️ 수정 · ＋ 기록 추가</b>로 직접 채우세요 — 팀 전체에 공유됩니다.</span></div>')
     + eqCloudBanner();
 
   const all = equipStores();
@@ -1937,6 +1941,11 @@ function equipDetail(s){
    저장 실패를 조용히 삼키면 각자 브라우저에만 남는다(2026-08-24 사고) →
    실패하면 알리고 이 브라우저에 보관했다가 다음에 열 때 다시 올린다. */
 const FR_CLOUD   = 'https://script.google.com/macros/s/AKfycbwlPj0fbNjMWTpU1jiGI3gUNPvOE8MlZ7ANqgQP41ZrWE0vo4r2en1pSYZVgEiYYR8M_A/exec';
+/* 고객사 공유본(scripts/build-compose-share.js)은 true 로 바꿔 만든다 — 수정 버튼을 숨기고
+   저장소에 쓰지 않으며, 수기 기록은 빌드 때 떨궈 둔 스냅샷(data/<slug>-equip-edits.js)만 읽는다.
+   공유본이 저장소를 직접 읽으면 팀 내부 데이터(게임·VOC 등) 전체가 고객사 브라우저로 내려간다. */
+const EQ_READONLY = false;
+if(EQ_READONLY) document.documentElement.classList.add('eq-ro');
 const EQ_SECTION = 'frEquip';
 const EQ_PREFIX  = CLIENT.name + '|';
 const LS_EQ_PEND = 'fr_equip_pending_v1';
@@ -1948,6 +1957,7 @@ const lsGet = (k, d) => { try{ const v = localStorage.getItem(k); return v == nu
 const lsSet = (k, v) => { try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} };
 
 function eqCloudBanner(){
+  if(EQ_READONLY) return '';
   const pend = Object.keys(lsGet(LS_EQ_PEND, {})).filter(k => k.indexOf(EQ_PREFIX) === 0).length;
   if(EQ_CLOUD === 'fail')
     return '<div class="notice danger"><span class="k">저장소</span><span class="t">팀 공유 저장소를 불러오지 못했습니다. '
@@ -1980,6 +1990,7 @@ function loadEquipCloud(){
 }
 
 function eqPush(patchObj){
+  if(EQ_READONLY || !FR_CLOUD) return Promise.resolve();
   const pend = lsGet(LS_EQ_PEND, {});
   Object.assign(pend, patchObj); lsSet(LS_EQ_PEND, pend);
   return fetch(FR_CLOUD, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
@@ -2253,8 +2264,8 @@ function bindEvents(){
     if(bk) bk.addEventListener('click', function(){ equipSel = ''; equipItem = ''; render(); });
     const ic = document.getElementById('equipItemClear');
     if(ic) ic.addEventListener('click', function(){ equipItem = ''; render(); });
-    /* 수기 수정 — 표 행 클릭(장비 필터)과 겹치지 않게 전파를 끊는다 */
-    const on = (sel, fn) => document.querySelectorAll(sel).forEach(b => b.addEventListener('click', function(e){ e.stopPropagation(); fn(this); }));
+    /* 수기 수정 — 표 행 클릭(장비 필터)과 겹치지 않게 전파를 끊는다 (읽기 전용이면 걸지 않는다) */
+    const on = (sel, fn) => EQ_READONLY ? null : document.querySelectorAll(sel).forEach(b => b.addEventListener('click', function(e){ e.stopPropagation(); fn(this); }));
     on('[data-eqadd]',  b => eqOpenEventForm(b.dataset.eqadd || '', ''));
     on('[data-eqedit]', b => eqOpenEventForm('', b.dataset.eqedit));
     on('[data-eqov]',   b => eqOpenOverrideForm(equipSel, b.dataset.eqov));

@@ -52,6 +52,9 @@ function must(html, from, to, what){
 }
 
 const src = read(path.join(FR, 'client.html'));
+/* 팀 공유 저장소 주소 — 공유본에서는 지우고, 수기 장비 스냅샷을 받을 때만 쓴다 */
+const FR_CLOUD_URL = (src.match(/const FR_CLOUD\s*=\s*'([^']+)'/) || [])[1] || '';
+if(!FR_CLOUD_URL) throw new Error('client.html 에서 FR_CLOUD 주소를 찾지 못했습니다');
 const fav = fs.readFileSync(path.join(ROOT, 'favicon.png')).toString('base64');
 
 /* ── 두 벌에 공통으로 적용하는 손질 ─────────────────────────── */
@@ -88,19 +91,28 @@ function common(html){
     '<link rel="icon" type="image/png" href="data:image/png;base64,' + fav + '">',
     '파비콘 인라인');
 
+  /* 장비 조회 — 고객사 공유본은 읽기 전용.
+     수정 버튼을 숨기고, 팀 공유 저장소(Apps Script) 주소를 지운다.
+     주소가 남으면 고객사 브라우저가 팀 내부 데이터(게임·VOC 등) 전체를 받아갈 수 있다. */
+  html = must(html, 'const EQ_READONLY = false;', 'const EQ_READONLY = true;   /* 공유본: 읽기 전용 */', '장비 읽기 전용');
+  html = must(html, "const FR_CLOUD   = '" + FR_CLOUD_URL + "';",
+    "const FR_CLOUD   = '';   /* 공유본: 저장소 접근 없음 */", '저장소 주소 제거');
+
   return html;
 }
 
 /* 정적 의존 파일 인라인 (원장은 변형별로 다르게 다룬다) */
-const STATIC_DEPS = ['clients.js', 'brands.js', 'brand-match.js', 'xlsx.js'];
+/* 순서 = client.html 의 <script src> 순서. brands.js 가 clients.js 보다 먼저여야 한다 */
+const STATIC_DEPS = ['brands.js', 'clients.js', 'brand-match.js', 'equip-parse.js', 'xlsx.js'];
 function inlineStatic(html, extra){
   const blocks = STATIC_DEPS.concat(extra || []).map(f =>
     '<script>/* ===== ' + f + ' ===== */\n' + safe(read(path.join(FR, f))) + '\n</script>'
   ).join('\n');
   return must(html,
-    '<script src="clients.js"></script>\n'
-  + '<script src="brands.js"></script>\n'
+    '<script src="brands.js"></script>\n'
+  + '<script src="clients.js"></script>\n'
   + '<script src="brand-match.js"></script>\n'
+  + '<script src="equip-parse.js"></script>\n'
   + '<script src="xlsx.js"></script>',
     blocks, '정적 의존 인라인');
 }
@@ -134,23 +146,77 @@ function verify(html, label, allowSrc){
     .filter(u => !u.startsWith('client.html?b='))
     .filter(u => !(allowSrc || []).includes(u));
   if(left.length) throw new Error(label + ': 외부 파일 참조가 남았습니다 — ' + left.join(', '));
+  if(/script\.google\.com/.test(html)) throw new Error(label + ': 팀 공유 저장소 주소가 남았습니다 — 고객사에 내부 데이터가 노출됩니다');
   return n;
 }
+
+/* ── 수기 장비 기록 스냅샷 ─────────────────────────────────
+   client.html '장비 조회' 의 수기 기록은 팀 공유 저장소(Apps Script)의 frEquip 섹션에 있다.
+   공유본이 저장소를 직접 읽으면 내부 데이터 전체가 고객사로 내려가므로,
+   빌드 때 이 브랜드 것만 골라 파일로 떨군다 (CI 10분 주기 → 최대 10분 늦게 반영).
+   받기에 실패하면 이전 스냅샷을 그대로 둔다 — 빈 파일로 덮으면 고객사 화면에서 기록이 사라진다.
+   같은 입력 → 같은 출력(키 정렬·시각 없음). 안 그러면 CI 가 10분마다 커밋을 쌓는다. */
+const EDITS_FILE = path.join(FR, 'data', SLUG + '-equip-edits.js');
+const EDITS_REL  = '../../franchise/data/' + SLUG + '-equip-edits.js';
+function renderEdits(obj){
+  const keys = Object.keys(obj).sort();
+  return '/* 자동 생성 · 직접 수정하지 마세요 — scripts/build-compose-share.js\n'
+    + ' * ' + BRAND + ' 장비 조회 수기 기록 스냅샷 (팀 공유 저장소 frEquip 섹션 중 이 브랜드 것만).\n'
+    + ' * 고치려면 프랜차이즈 대시보드의 장비 조회 탭에서 수정하세요. */\n'
+    + 'window.CLIENT_EQUIP_EDITS = {\n'
+    + keys.map(k => '  ' + JSON.stringify(k) + ': ' + JSON.stringify(obj[k]) + ',\n').join('')
+    + '};\n';
+}
+async function snapshotEquipEdits(){
+  const keep = why => { if(!fs.existsSync(EDITS_FILE)) fs.writeFileSync(EDITS_FILE, renderEdits({}), 'utf8'); return why; };
+  if(typeof fetch !== 'function') return keep('건너뜀 (fetch 없음)');
+  try{
+    const ctl = new AbortController(), tm = setTimeout(() => ctl.abort(), 25000);
+    const res = await fetch(FR_CLOUD_URL + '?t=' + Date.now(), {signal: ctl.signal, redirect: 'follow'});
+    clearTimeout(tm);
+    const text = await res.text();
+    let d = null; try{ d = JSON.parse(text); }catch(e){}
+    if(!d || !d.game) throw new Error('응답이 공유 블롭이 아님: ' + text.slice(0, 80));
+    const sec = d.game.frEquip || {}, mine = {};
+    Object.keys(sec).forEach(k => { if(k.indexOf(BRAND + '|') === 0 && sec[k] !== '' && sec[k] != null) mine[k] = sec[k]; });
+    fs.writeFileSync(EDITS_FILE, renderEdits(mine), 'utf8');
+    return Object.keys(mine).length + '건';
+  }catch(e){
+    return keep('실패 — 이전 스냅샷 유지 (' + (e.cause && e.cause.code || e.message) + ')');
+  }
+}
+
+(async function main(){
+const snap = await snapshotEquipEdits();
 
 /* ── 1) 호스팅용 ─────────────────────────────────────────── */
 let hosted = inlineStatic(common(src));
 hosted = must(hosted,
-  "    if(MODE === 'contract'){ await loadScript(REG.dataFile); buildFromClientData(); }",
+  "    if(MODE === 'contract' && !SLACK_LEDGER){ await loadScript(REG.dataFile); buildFromClientData(); }",
   "    /* 원장만 런타임 로드 — 슬랙 적재로 이 파일만 갱신된다.\n"
 + "       캐시가 남으면 고객사가 옛 숫자를 보게 되므로 버전 쿼리를 붙인다. */\n"
-+ "    if(MODE === 'contract'){ await loadScript('" + LEDGER_REL + "?v=' + Date.now()); buildFromClientData(); }",
++ "    if(MODE === 'contract' && !SLACK_LEDGER){ await loadScript('" + LEDGER_REL + "?v=' + Date.now()); buildFromClientData(); }",
   '원장 런타임 경로');
 /* 현장방문 원본도 한 단계 더 위에 있다 */
 hosted = must(hosted,
   "    try { await loadScript('../visit-data.js'); mergeVisits(); } catch(e){}",
   "    try { await loadScript('../../visit-data.js?v=' + Date.now()); mergeVisits(); } catch(e){}",
   '현장방문 경로');
-hosted = stamp(hosted, '호스팅용', '원장: ' + LEDGER_REL + ' · 현장방문: ../../visit-data.js');
+/* 장비 대장도 두 단계 위 */
+hosted = must(hosted,
+  "        await loadScript(REG.equipFile);",
+  "        await loadScript('../../franchise/' + REG.equipFile + '?v=' + Date.now());",
+  '장비 대장 경로');
+/* 수기 장비 기록 — 저장소 대신 스냅샷 */
+hosted = must(hosted,
+  "    loadEquipCloud().then(function(){ if(view === 'equip') render(); });",
+  "    /* 수기 장비 기록 — 공유본은 저장소가 아니라 빌드 때 떨군 스냅샷을 읽는다 */\n"
++ "    loadScript('" + EDITS_REL + "?v=' + Date.now()).then(function(){\n"
++ "      EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok'; equipEvents._c = null;\n"
++ "      if(view === 'equip') render();\n"
++ "    }, function(){ EQ_CLOUD = 'ok'; });",
+  '수기 장비 스냅샷 (호스팅)');
+hosted = stamp(hosted, '호스팅용', '원장: ' + LEDGER_REL + ' · 현장방문: ../../visit-data.js · 수기 장비: ' + EDITS_REL);
 const nH = verify(hosted, '호스팅용');
 
 /* ── 2) 단독 파일 ──────────────────────────────────────────
@@ -161,10 +227,11 @@ const HOSTED_ONLY = process.argv.includes('--hosted');
 
 let single = null, nS = 0;
 if(!HOSTED_ONLY){
-  single = inlineStatic(common(src), ['data/' + SLUG + '.js']);
+  const eqFiles = ['data/' + SLUG + '-equip.js', 'data/' + SLUG + '-equip-edits.js'].filter(f => fs.existsSync(path.join(FR, f)));
+  single = inlineStatic(common(src), ['data/' + SLUG + '.js'].concat(eqFiles));
   single = must(single,
-    "    if(MODE === 'contract'){ await loadScript(REG.dataFile); buildFromClientData(); }",
-    "    if(MODE === 'contract'){ buildFromClientData(); }   /* 원장 인라인됨 */",
+    "    if(MODE === 'contract' && !SLACK_LEDGER){ await loadScript(REG.dataFile); buildFromClientData(); }",
+    "    if(MODE === 'contract' && !SLACK_LEDGER){ buildFromClientData(); }   /* 원장 인라인됨 */",
     '원장 인라인');
   /* 단독 파일은 외부 의존이 0 이어야 한다 — 현장방문도 인라인하고 로드를 없앤다.
      아직 수집 전이라 파일이 없으면 그 부분만 비워둔다. */
@@ -176,7 +243,12 @@ if(!HOSTED_ONLY){
     "    try { await loadScript('../visit-data.js'); mergeVisits(); } catch(e){}",
     "    try { mergeVisits(); } catch(e){}   /* 현장방문 인라인됨 */",
     '현장방문 인라인 전환');
-  if(vInline) single = must(single, '<script>/* ===== clients.js', vInline + '<script>/* ===== clients.js', '현장방문 인라인');
+  if(vInline) single = must(single, '<script>/* ===== brands.js', vInline + '<script>/* ===== brands.js', '현장방문 인라인');
+  single = must(single, "        await loadScript(REG.equipFile);", "        /* 장비 대장 인라인됨 */", '장비 대장 인라인 전환');
+  single = must(single,
+    "    loadEquipCloud().then(function(){ if(view === 'equip') render(); });",
+    "    EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok';   /* 수기 스냅샷 인라인됨 */",
+    '수기 장비 스냅샷 (단독)');
   single = stamp(single, '단독 파일', '원장까지 인라인된 스냅샷입니다.');
   nS = verify(single, '단독 파일');
 }
@@ -191,9 +263,11 @@ const isSample = /sample\s*:\s*true/.test(ledger);
 const nRec = (ledger.match(/"date":/g) || ledger.match(/date\s*:/g) || []).length;
 
 const kb = b => Math.round(b / 1024) + ' KB';
-console.log('검사  호스팅용 스크립트 ' + nH + '개' + (single ? ' · 단독 ' + nS + '개' : '') + ' 문법 통과');
+console.log('검사  호스팅용 스크립트 ' + nH + '개' + (single ? ' · 단독 ' + nS + '개' : '') + ' 문법 통과 · 저장소 주소 없음');
 console.log('생성  ' + path.relative(ROOT, OUT_HOSTED) + '  (' + kb(hosted.length) + ', 원장 런타임 로드)');
 if(single) console.log('생성  ' + path.relative(ROOT, OUT_SINGLE) + '  (' + kb(single.length) + ', 단일 파일)');
 else       console.log('생략  단독 파일 (--hosted)');
 console.log('원장  ' + (isSample ? '⚠ sample:true — 화면에 "대외 제출용 아님" 경고가 붙습니다'
                                  : '실데이터 · 약 ' + nRec + '건'));
+console.log('장비  수기 기록 스냅샷 ' + snap + ' → ' + path.relative(ROOT, EDITS_FILE));
+})().catch(e => { console.error(e.message || e); process.exit(1); });
