@@ -48,7 +48,7 @@ window.FRANCHISE_CLIENTS = [
   ──────────────────────────────────────────────────────── */
 ];
 
-/* equipOwn : 장비 조회의 소유 형태 기본값. 'rental'(기본) | 'purchase'.
+/* equipOwn : 장비 조회의 소유 형태 기본값. 'rental'(기본) | 'purchase' | 'owned'(자체보유).
  *            장비마다 대시보드에서 바꿀 수 있고, 바꾼 값이 이 기본값보다 우선한다. */
 /* ── 원장 파일 없이 slack-data.js 로 운영하는 계약 고객사 ─────────
  *  전용 원장(dataFile)이 아직 없는 계약 고객사는 ../slack-data.js 에서

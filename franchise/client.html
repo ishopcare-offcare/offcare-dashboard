@@ -231,9 +231,10 @@
   .own-seg button + button{border-left:1px solid var(--line)}
   .own-seg button.on.rental{background:#e8f1ff; color:#0060c0}
   .own-seg button.on.purchase{background:#e7f8ec; color:#166534}
+  .own-seg button.on.owned{background:#fff4e0; color:#b45309}
   .own-def{font-size:10.5px; color:var(--gray2); margin-left:5px}
   .own-tag{font-size:12px; font-weight:800; padding:2px 9px; border-radius:20px}
-  .own-tag.rental{background:#e8f1ff; color:#0060c0} .own-tag.purchase{background:#e7f8ec; color:#166534}
+  .own-tag.rental{background:#e8f1ff; color:#0060c0} .own-tag.purchase{background:#e7f8ec; color:#166534} .own-tag.owned{background:#fff4e0; color:#b45309}
   .eq-rm{color:var(--red)}
   .eq-by-last{align-self:flex-start; margin-top:4px; border:1px dashed var(--line); background:none; border-radius:8px;
     font:inherit; font-size:12px; color:var(--blue); padding:3px 9px; cursor:pointer}
@@ -1722,8 +1723,9 @@ const stChip  = k => '<span class="st-chip" style="background:' + stColor(k) + '
 let equipQ = '', equipSel = '', equipItem = '';
 let EQUIP_REG = [];          /* 장비 대장 행 (equipFile) */
 /* 소유 형태 — 기본 렌탈, clients.js 의 equipOwn 으로 브랜드별 기본값(드롭탑 = 구매). 장비별로 바꾸면 그 값이 우선 */
-const EQ_OWN_DEFAULT = (REG && REG.equipOwn === 'purchase') ? 'purchase' : 'rental';
-const OWN_LABEL = {rental:'렌탈', purchase:'구매'};
+const EQ_OWN_DEFAULT = (REG && (REG.equipOwn === 'purchase' || REG.equipOwn === 'owned')) ? REG.equipOwn : 'rental';
+const OWN_LABEL = {rental:'렌탈', purchase:'구매', owned:'자체보유'};
+const OWN_KEYS = ['rental','purchase','owned'];
 const EQ_TYPE_COLOR = {'설치':'#34c759','교체':'#ff9500','회수':'#8e8e93','AS':'#ff3b30',
                        '원격AS':'#0071e3','온보딩':'#5e5ce6','점검':'#00c7be','장비대장':'#af52de','기타':'#aeaeb4'};
 const eqChip = t => '<span class="cat-chip" style="background:' + (EQ_TYPE_COLOR[t]||'#aeaeb4') + '22;color:'
@@ -1796,7 +1798,8 @@ function equipInventory(evs, branch){
 }
 /* 소유 형태를 정하지 않은 장비는 브랜드 기본값으로 — ownSet 은 사람이 정했는지 */
 function eqOwnFill(list){
-  list.forEach(o => { o.ownSet = !!o.own; if(!o.own) o.own = EQ_OWN_DEFAULT; });
+  /* 사람이 정한 값 > 방문 기록의 '(기존 보유)'·'(점주보유)' = 자체보유 > 브랜드 기본값 */
+  list.forEach(o => { o.ownSet = !!o.own; if(!o.own) o.own = o.existing ? 'owned' : EQ_OWN_DEFAULT; o.ownAuto = !o.ownSet && o.existing; });
   return list;
 }
 function equipInventoryAuto(evs){
@@ -2075,13 +2078,13 @@ function eqNeedBy(id, errId){
   if(!v){ document.getElementById(errId).textContent = '담당자 이름을 입력해야 저장됩니다'; document.getElementById(id).focus(); return ''; }
   lsSet(LS_EQ_BY, v); return v;
 }
-const ownSelect = (id, v) => '<select id="' + id + '">' + ['rental','purchase'].map(k => '<option value="' + k + '"' + (v === k ? ' selected' : '') + '>' + OWN_LABEL[k] + '</option>').join('') + '</select>';
+const ownSelect = (id, v) => '<select id="' + id + '">' + OWN_KEYS.map(k => '<option value="' + k + '"' + (v === k ? ' selected' : '') + '>' + OWN_LABEL[k] + '</option>').join('') + '</select>';
 /* 소유 형태 칸 — 렌탈/구매 토글. 공유본(읽기 전용)은 글자만 */
 function eqOwnCell(o){
   if(EQ_READONLY) return '<span class="own-tag ' + o.own + '">' + OWN_LABEL[o.own] + '</span>';
   return '<span class="own-seg" title="' + (o.ownSet ? '수기 지정' : '기본값(' + OWN_LABEL[EQ_OWN_DEFAULT] + ')') + '">'
-    + ['rental','purchase'].map(k => '<button type="button" class="' + (o.own === k ? 'on ' + k : '') + '" data-eqown="' + esc(o.type) + '" data-v="' + k + '">' + OWN_LABEL[k] + '</button>').join('')
-    + '</span>' + (o.ownSet ? '' : '<span class="own-def">기본</span>');
+    + OWN_KEYS.map(k => '<button type="button" class="' + (o.own === k ? 'on ' + k : '') + '" data-eqown="' + esc(o.type) + '" data-v="' + k + '">' + OWN_LABEL[k] + '</button>').join('')
+    + '</span>' + (o.ownSet ? '' : '<span class="own-def">' + (o.ownAuto ? '방문기록' : '기본') + '</span>');
 }
 /* 보정(o:) 은 필드 단위로 합친다 — 소유만 바꿀 때 수량·모델 보정이 날아가면 안 된다 */
 function eqMergeOverride(branch, type, name, patch){
