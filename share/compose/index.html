@@ -227,6 +227,11 @@
   tr.eq-row{cursor:pointer}
   tr.eq-row:hover td{background:var(--surface)}
   tr.eq-row.on td{background:var(--blue-soft)}
+  .eq-last{border:none; background:none; padding:3px 6px; margin:-3px -6px; border-radius:7px; font:inherit; font-size:14px;
+    color:var(--blue); text-decoration:underline; text-underline-offset:3px; cursor:pointer}
+  .eq-last:hover{background:var(--blue-soft)}
+  tr.eq-manual td{background:#f6f1ff}
+  :root[data-theme="dark"] tr.eq-manual td{background:rgba(110,63,229,.16)}
   .eq-ed{font-size:10.5px; font-weight:800; padding:1px 6px; border-radius:20px; background:#efe7fd; color:#6e3fe5; vertical-align:middle}
   .eq-form{display:grid; grid-template-columns:1fr 1fr; gap:12px 16px; padding:4px 2px 2px}
   .eq-f{display:flex; flex-direction:column; gap:5px; font-size:12.5px; font-weight:700; color:var(--gray)}
@@ -2553,7 +2558,7 @@ function viewEquip(){
     + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:11px">'
     + (equipQ ? '“' + esc(equipQ) + '” · ' : '') + list.length + '개 지점 · 장비 기록 있음 ' + withEq + '곳 · 지점을 누르면 장비 현황과 이력</div>';
   if(!list.length) return h + '<div class="empty">검색 결과가 없습니다.<br><span style="font-size:12.5px">목록에 없는 매장은 <b>＋ 장비 기록 추가</b>에서 지점명을 직접 적어 넣을 수 있습니다.</span></div></div>';
-  h += '<div class="tbl-scroll"><table><thead><tr><th>지점</th><th>장비</th><th class="num">기록</th><th>최근 기록</th></tr></thead><tbody>'
+  h += '<div class="tbl-scroll"><table><thead><tr><th>지점</th><th>장비</th><th class="num">기록</th><th>최근 기록</th><th></th></tr></thead><tbody>'
     + list.map(s => '<tr class="eq-row" data-eqbranch="' + esc(s.branch) + '">'
         + '<td style="font-weight:700;color:var(--blue);white-space:nowrap">' + esc(s.branch) + '</td>'
         + '<td>' + (s.inv.length
@@ -2561,7 +2566,10 @@ function viewEquip(){
                 + (o.edited ? ' <small>✏️</small>' : '') + '</span>').join('')
             : '<span style="color:var(--gray2);font-size:12.5px">장비 기록 없음</span>') + '</td>'
         + '<td class="num">' + (s.evs.length || '·') + '</td>'
-        + '<td style="white-space:nowrap;color:var(--gray)">' + (s.last || '—') + '</td></tr>').join('')
+        + '<td style="white-space:nowrap">' + (s.last
+            ? '<button class="eq-last" data-eqlast="' + esc(s.branch) + '" title="장비 기록과 담당자 보기">' + s.last + '</button>'
+            : '<span style="color:var(--gray2)">—</span>') + '</td>'
+        + '<td style="white-space:nowrap;text-align:right"><button class="btn sm" data-eqadd="' + esc(s.branch) + '">＋ 장비 추가</button></td></tr>').join('')
     + '</tbody></table></div></div>';
   return h;
 }
@@ -2739,6 +2747,56 @@ const eqNameList = () => '<datalist id="eqNames">' + EquipParse.TYPES.map(t => '
 const fRow = (label, input) => '<label class="eq-f"><span>' + label + '</span>' + input + '</label>';
 const fIn  = (id, val, attr) => '<input id="' + id + '" value="' + esc(val == null ? '' : val) + '" ' + (attr || '') + '>';
 
+/* 목록의 '최근 기록' 날짜 → 그 지점의 장비 기록과 담당자.
+   수기로 추가·수정한 건은 누가 넣었는지(담당자)를 드러낸다 — 이걸 보려고 누르는 것이다. */
+function eqOpenLog(branch){
+  const s = equipStores().find(x => x.branch === branch);
+  if(!s) return;
+  const evs = s.evs;
+  const manual = evs.filter(e => e.src === '수기');
+  const overrides = Object.keys(EQUIP_EDIT).map(k => EQUIP_EDIT[k]).filter(m => m && m.k === 'o' && m.branch === branch)
+    .sort((a, b) => (b._t || 0) - (a._t || 0));
+  const byCnt = {};
+  manual.forEach(e => { const n = e.emp || '미기재'; byCnt[n] = (byCnt[n] || 0) + 1; });
+  overrides.forEach(m => { const n = m.by || '미기재'; byCnt[n] = (byCnt[n] || 0) + 1; });
+  const chips = '<span class="c">전체 기록 <b>' + evs.length + '</b>건</span>'
+    + '<span class="c">수기 추가 <b>' + manual.length + '</b>건</span>'
+    + (overrides.length ? '<span class="c">수기 수정 <b>' + overrides.length + '</b>건</span>' : '')
+    + Object.keys(byCnt).map(n => '<span class="c">담당 ' + esc(n) + ' <b>' + byCnt[n] + '</b></span>').join('');
+  const when = t => { if(!t) return ''; const d = new Date(t + 9 * 3600 * 1000); return d.toISOString().slice(0, 16).replace('T', ' '); };
+  let body = '<table><thead><tr><th>일자</th><th>구분</th><th>장비</th><th>담당자</th><th>출처</th><th>내용</th></tr></thead><tbody>'
+    + evs.map(e => '<tr' + (e.src === '수기' ? ' class="eq-manual"' : '') + '>'
+        + '<td style="white-space:nowrap;color:var(--gray)">' + (e.date || '—') + '</td>'
+        + '<td>' + eqChip(e.type) + '</td>'
+        + '<td>' + e.items.map(it => '<span class="eq-item">' + esc(it.name) + (it.qty > 1 ? ' ×' + it.qty : '')
+            + (it.models.length ? ' <small>' + esc(it.models.join('/')) + '</small>' : '') + '</span>').join('') + '</td>'
+        + '<td style="white-space:nowrap;font-weight:' + (e.src === '수기' ? '800' : '500') + '">' + esc(e.emp || '—') + '</td>'
+        + '<td style="white-space:nowrap;font-size:12.5px;color:' + (e.src === '수기' ? 'var(--purple);font-weight:700' : 'var(--gray)') + '">' + esc(e.src) + '</td>'
+        + '<td class="req-cell"><div class="clamp3" title="' + esc(e.text || '') + '">' + esc(e.text || '—') + '</div></td></tr>').join('')
+    + '</tbody></table>';
+  if(overrides.length){
+    body += '<div style="font-size:13px;font-weight:800;margin:16px 0 6px">수기 수정 내역</div>'
+      + '<table><thead><tr><th>수정 시각</th><th>장비</th><th>담당자</th><th>내용</th></tr></thead><tbody>'
+      + overrides.map(m => '<tr><td style="white-space:nowrap;color:var(--gray)">' + (when(m._t) || '—') + '</td>'
+          + '<td style="font-weight:700">' + esc(m.name || m.type) + '</td>'
+          + '<td style="white-space:nowrap;font-weight:800">' + esc(m.by || '—') + '</td>'
+          + '<td style="font-size:12.5px">' + esc([m.hidden ? '목록에서 숨김' : '', m.qty ? '수량 ' + m.qty : '', m.model ? '모델 ' + m.model : '',
+              m.installed ? '설치 ' + m.installed : '', m.replaced ? '교체 ' + m.replaced : '',
+              m.status === 'removed' ? '회수' : m.status === 'active' ? '운영중' : '', m.note || ''].filter(Boolean).join(' · ') || '—') + '</td></tr>').join('')
+      + '</tbody></table>';
+  }
+  body += '<div class="eq-actions" style="margin-top:14px">'
+    + '<button class="btn" type="button" data-eqadd="' + esc(branch) + '">＋ 장비 추가</button>'
+    + '<button class="btn primary" type="button" id="eqLogOpen">지점 상세 보기 →</button></div>';
+  openDrill('🧾 ' + esc(branch) + ' · 장비 기록', chips, body, true);
+  const ov = document.getElementById('drillOv');
+  const add = ov.querySelector('[data-eqadd]');
+  if(add && !EQ_READONLY) add.addEventListener('click', function(e){ e.stopPropagation(); eqOpenEventForm(branch, ''); });
+  document.getElementById('eqLogOpen').addEventListener('click', function(){
+    closeDrill(); equipSel = branch; equipItem = ''; render(); window.scrollTo(0, 0);
+  });
+}
+
 /* 수기 이력 추가·수정 */
 function eqOpenEventForm(branch, key){
   const m = key ? EQUIP_EDIT[key] : null;
@@ -2755,7 +2813,7 @@ function eqOpenEventForm(branch, key){
     + fRow('모델', fIn('eqfModel', m ? m.model : '', 'placeholder="교체면 새 모델"'))
     + fRow('이전 모델', fIn('eqfFrom', m ? m.from : '', 'placeholder="교체일 때만 · 예: TS100E"'))
     + fRow('메모', fIn('eqfNote', m ? m.note : '', 'placeholder="교체 사유 · 업체 등"'))
-    + fRow('작성자 *', fIn('eqfBy', m ? m.by : lsGet(LS_EQ_BY, ''), 'placeholder="이름"'))
+    + fRow('담당자 *', fIn('eqfBy', m ? m.by : lsGet(LS_EQ_BY, ''), 'placeholder="추가하는 담당자 이름 (필수)"'))
     + '<div class="eq-actions"><span class="eq-err" id="eqfErr"></span>'
     + '<button class="btn" type="button" data-close="1">취소</button>'
     + '<button class="btn primary" type="button" id="eqfSave">' + (m ? '수정 저장' : '추가') + '</button></div></div>';
@@ -2763,7 +2821,9 @@ function eqOpenEventForm(branch, key){
   document.getElementById('eqfSave').addEventListener('click', function(){
     const g = id => document.getElementById(id).value.trim();
     const br = g('eqfBranch'), item = g('eqfItem'), by = g('eqfBy');
-    if(!br || !g('eqfDate') || !item || !by){ document.getElementById('eqfErr').textContent = '* 표시 항목을 채워주세요'; return; }
+    /* 담당자 없이 추가되면 누가 넣었는지 알 수 없다 — 이름이 있어야만 저장 */
+    if(!by){ document.getElementById('eqfErr').textContent = '담당자 이름을 입력해야 추가됩니다'; document.getElementById('eqfBy').focus(); return; }
+    if(!br || !g('eqfDate') || !item){ document.getElementById('eqfErr').textContent = '* 표시 항목을 채워주세요'; return; }
     lsSet(LS_EQ_BY, by);
     const t = eqTypeOf(item);
     const k = key || (EQ_PREFIX + br + '|e:' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
@@ -2794,7 +2854,7 @@ function eqOpenOverrideForm(branch, type){
         + '</select>')
     + fRow('회수일', fIn('eqoRemAt', m.removedAt || '', 'type="date"'))
     + fRow('메모', fIn('eqoNote', m.note || ''))
-    + fRow('작성자 *', fIn('eqoBy', m.by || lsGet(LS_EQ_BY, ''), 'placeholder="이름"'))
+    + fRow('담당자 *', fIn('eqoBy', m.by || lsGet(LS_EQ_BY, ''), 'placeholder="수정하는 담당자 이름 (필수)"'))
     + '<div class="eq-actions"><span class="eq-err" id="eqoErr"></span>'
     + (EQUIP_EDIT[key] ? '<button class="btn" type="button" id="eqoReset" title="수기 수정을 지우고 자동 판정으로">↺ 자동 값으로 되돌리기</button>' : '')
     + '<button class="btn" type="button" data-close="1">취소</button>'
@@ -2803,7 +2863,7 @@ function eqOpenOverrideForm(branch, type){
   document.getElementById('eqoSave').addEventListener('click', function(){
     const g = id => document.getElementById(id).value.trim();
     const by = g('eqoBy');
-    if(!by){ document.getElementById('eqoErr').textContent = '작성자를 적어주세요'; return; }
+    if(!by){ document.getElementById('eqoErr').textContent = '담당자 이름을 입력해야 저장됩니다'; document.getElementById('eqoBy').focus(); return; }
     lsSet(LS_EQ_BY, by);
     const st = g('eqoStatus');
     const val = {k:'o', branch:branch, type:type, name:o.name, qty:+g('eqoQty') || 0, model:g('eqoModel'),
@@ -2962,6 +3022,10 @@ function bindEvents(){
       if(n){ n.focus(); n.setSelectionRange(n.value.length, n.value.length); } }, 220);
   });
   if(view === 'equip'){
+    /* 최근 기록 날짜 → 장비 기록·담당자 팝업 (공유본에서도 보기만 가능) */
+    document.querySelectorAll('[data-eqlast]').forEach(function(b){
+      b.addEventListener('click', function(e){ e.stopPropagation(); eqOpenLog(this.dataset.eqlast); });
+    });
     document.querySelectorAll('[data-eqbranch]').forEach(function(tr){
       tr.addEventListener('click', function(){ equipSel = this.dataset.eqbranch; equipItem = ''; render(); window.scrollTo(0, 0); });
     });
