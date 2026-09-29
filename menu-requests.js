@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2672,
- "updatedAt": "2026-09-29 18:02",
+ "version": 2673,
+ "updatedAt": "2026-09-29 18:27",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20260929_175404573.jpg",
      "fid": "F0C562UH8Q6",
      "from": "댓글",
-     "path": "menu-files/1790672342_927469-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -116,13 +115,13 @@ window.MENU_REQUESTS = {
        "name": "한우육회(200g)",
        "price": 25000
       }
-     ]
+     ],
+     "path": "menu-files/1790672342_927469-0.jpg"
     },
     {
      "name": "KakaoTalk_20260929_175404573_01.jpg",
      "fid": "F0C57SS8WFL",
      "from": "댓글",
-     "path": "menu-files/1790672342_927469-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -130,13 +129,13 @@ window.MENU_REQUESTS = {
        "name": "한돈수제포갈비(양념)",
        "price": 39500
       }
-     ]
+     ],
+     "path": "menu-files/1790672342_927469-1.jpg"
     },
     {
      "name": "KakaoTalk_20260929_175404573_02.jpg",
      "fid": "F0C57ST4T26",
      "from": "댓글",
-     "path": "menu-files/1790672342_927469-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -194,13 +193,13 @@ window.MENU_REQUESTS = {
        "name": "공기밥",
        "price": 1000
       }
-     ]
+     ],
+     "path": "menu-files/1790672342_927469-2.jpg"
     },
     {
      "name": "KakaoTalk_20260929_175404573_03.jpg",
      "fid": "F0C52SCT0S1",
      "from": "댓글",
-     "path": "menu-files/1790672342_927469-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -263,13 +262,13 @@ window.MENU_REQUESTS = {
        "name": "수제양념왕소갈비(270",
        "price": 38000
       }
-     ]
+     ],
+     "path": "menu-files/1790672342_927469-3.jpg"
     },
     {
      "name": "KakaoTalk_20260929_175404573_04.jpg",
      "fid": "F0C5BMJLFN0",
      "from": "댓글",
-     "path": "menu-files/1790672342_927469-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -402,13 +401,16 @@ window.MENU_REQUESTS = {
        "name": "카스 제로",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1790672342_927469-4.jpg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790672385.597109",
+   "replies": [
+    "헉 왜요"
+   ],
+   "rc": 5,
+   "lr": "1790674011.385469",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
