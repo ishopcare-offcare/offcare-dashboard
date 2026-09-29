@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14256,
+  "version": 14257,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215605,7 +215605,10 @@ window.SLACK_DATA = {
       },
       "1790641801.953659": {
         "post": "1790641801.953659",
-        "lastSeen": 1790641803.219
+        "lastSeen": 1790641851.957,
+        "r": 1,
+        "day": "2026-09-29",
+        "idx": 1
       }
     },
     "days": {
@@ -284977,8 +284980,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-29": {
-        "cnt": 1,
-        "sumMin": 7.962095518906911,
+        "cnt": 2,
+        "sumMin": 8.389334535598755,
         "over": 0,
         "items": [
           {
@@ -284989,13 +284992,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "transfer",
             "dmin": 23.1
+          },
+          {
+            "hm": "09:30",
+            "min": 0.4,
+            "store": "제드(Zed)",
+            "biz": "2617800297",
+            "who": "심성현",
+            "cat": "nosetup"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-29 09:30",
+    "at": "2026-09-29 09:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
