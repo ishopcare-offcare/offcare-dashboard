@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14250,
+  "version": 14251,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -215353,6 +215353,9 @@ window.SLACK_DATA = {
     },
     "2026-09-29": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "extern": {
           "서상원": 1
         },
@@ -215362,6 +215365,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:08",
+          "store": "유한회사 비피오엘",
+          "biz": "4258803198",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "포프 연동-스마트폰에 설치하셔서 우선 연동은 영상통화가 아닌 일반통화로 부탁드립니다:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:07",
           "store": "인계동한식뷔페",
@@ -215386,7 +215400,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -284963,7 +284977,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-29 09:15",
+    "at": "2026-09-29 09:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
