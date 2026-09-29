@@ -3,10 +3,157 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2649,
- "updatedAt": "2026-09-29 14:18",
+ "version": 2650,
+ "updatedAt": "2026-09-29 14:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1790659412.241359",
+   "date": "2026-09-29",
+   "time": "14:23",
+   "store": "남구 곰삼이",
+   "biz": "7760303764",
+   "pos": "",
+   "content": "외주업체 메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20260929_141623043.jpg",
+     "fid": "F0C54EJ6DGE",
+     "from": "댓글",
+     "path": "menu-files/1790659412_241359-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "산곰장어",
+       "name": "국내산 소금구이 120g",
+       "price": 18000
+      },
+      {
+       "category": "산곰장어",
+       "name": "국내산 양념구이 120g",
+       "price": 18000
+      },
+      {
+       "category": "구이류",
+       "name": "삼겹살 100g",
+       "price": 8000
+      },
+      {
+       "category": "구이류",
+       "name": "오겹살 100g",
+       "price": 8500
+      },
+      {
+       "category": "구이류",
+       "name": "대패삼겹살 100g",
+       "price": 4900
+      },
+      {
+       "category": "구이류",
+       "name": "한우 차돌박이 100g",
+       "price": 12900
+      },
+      {
+       "category": "곰삼세트",
+       "name": "국내산 곰장어 단품 240g + 국내산 삼겹살 200g + 곰삼 도시락",
+       "price": 55000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "김치찌개",
+       "price": 6000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "된장찌개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "곰삼도시락",
+       "price": 6900
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "곰삼라면",
+       "price": 4000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "비빔면",
+       "price": 4500
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "치즈추가",
+       "price": 3000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "주류/음료",
+       "name": "하이볼",
+       "price": 6000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료",
+       "price": 2000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790659457.452659",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790659412241359"
+  },
+  {
+   "ts": "1790659378.600719",
+   "date": "2026-09-29",
+   "time": "14:22",
+   "store": "성연양꼬치(당진점)",
+   "biz": "4764301028",
+   "pos": "기타",
+   "content": "메뉴등록입니다",
+   "special": "메뉴이미지 메일로 보내드릴께요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790659378600719"
+  },
   {
    "ts": "1790659041.345739",
    "date": "2026-09-29",
