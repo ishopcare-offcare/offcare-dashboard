@@ -47,6 +47,37 @@ window.FRANCHISE_CLIENTS = [
   ──────────────────────────────────────────────────────── */
 ];
 
+/* ── A등급 브랜드 = 계약 고객사로 간주 ─────────────────────────
+ *  brands.js 에서 tier:'A'(지점 2곳 이상 확인된 확정 브랜드)인 브랜드는
+ *  위에 따로 적지 않아도 계약 고객사로 자동 등록된다.
+ *  → 전용 대시보드(계약 모드) · 월간 보고서 · 엑셀이 그대로 열린다.
+ *
+ *  전용 원장 파일(dataFile)이 없으므로 원장은 ../slack-data.js 에서
+ *  그 브랜드 건만 골라 즉석으로 만든다 (ledger:'slack').
+ *  개별 설정(개시일·아이콘·원장 파일)이 필요해지면 위 CLIENTS 에 블록을
+ *  직접 추가하면 된다 — 직접 등록한 블록이 항상 우선한다.
+ *
+ *  ※ brands.js 가 이 파일보다 먼저 로드돼야 한다.
+ * ───────────────────────────────────────────────────────── */
+(function(){
+  const norm = s => String(s).replace(/\s+/g,'').toLowerCase();
+  const have = new Set(window.FRANCHISE_CLIENTS.map(c=>norm(c.brand)));
+  (window.FRANCHISE_BRANDS || []).forEach(b=>{
+    if((b.tier || 'A') !== 'A' || have.has(norm(b.n))) return;
+    window.FRANCHISE_CLIENTS.push({
+      slug       : b.n,
+      brand      : b.n,
+      icon       : '🏢',
+      startDate  : '',
+      provider   : 'iShopCare 원격파트',
+      reportTitle: '원격 지원 월간 리포트',
+      ledger     : 'slack',             // dataFile 대신 slack-data.js 에서 원장 생성
+      auto       : true,                // A등급 자동 등록
+      note       : 'A등급 · 계약 고객사 간주',
+    });
+  });
+})();
+
 /*
  * 카테고리 체계
  *  contract : 계약 고객사 전용 8종. 여기에 한 줄 추가하면 표 열·차트·보고서 행·엑셀 시트가 전부 따라 늘어남

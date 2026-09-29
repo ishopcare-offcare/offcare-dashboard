@@ -876,8 +876,9 @@ function viewBrands(){
     : [];
 
   /* 전용 원장 건수가 있으면 계약 고객사도 그냥 일반 행으로 들어온다.
+     A등급 자동 고객사(ledger:'slack')는 슬랙 집계 그 자체라 행이 없으면 인입이 없는 것 — 고정하지 않는다.
      아래 pinned 는 "아직 단 한 건도 없는 고객사"만 자리 표시용으로 남긴다. */
-  const pinned = CLIENTS.filter(c=>!allRows.some(o=>o.brand===c.brand) && brandHitQ(c.brand));
+  const pinned = CLIENTS.filter(c=>c.dataFile && !allRows.some(o=>o.brand===c.brand) && brandHitQ(c.brand));
 
   h += '<div class="card"><div class="card-head"><h3>브랜드별 인입 집계</h3>'
     + '<div class="controls">'
