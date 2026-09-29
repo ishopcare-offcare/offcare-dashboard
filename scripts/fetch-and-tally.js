@@ -251,24 +251,53 @@ let repliesFetched = 0, repliesWarned = false;
 // 과도한 API 호출/rate-limit 방지 상한 (업무 처리내역 + VOC 공용).
 // 일회성 백필은 과거 전체 이력의 note를 한 번에 채워야 하므로 크게, 평시 롤링은 보수적으로.
 const MAX_REPLY_FETCH = backfillFrom ? 3000 : 500;
-async function fetchReplies(channelId, ts) {
+/* 답글 조회. 실패(상한 소진·429·오류)면 null — '답글이 없다'([])와 구분해야 한다.
+   둘을 섞으면 호출 제한에 걸린 순간 멀쩡한 처리내역을 빈 값으로 덮어쓴다. */
+async function fetchRepliesStrict(channelId, ts) {
   if (repliesFetched >= MAX_REPLY_FETCH) {
     if (!repliesWarned) { console.log(`  (처리내용 자동수집 상한 ${MAX_REPLY_FETCH}건 도달 — 이후 생략)`); repliesWarned = true; }
-    return [];
+    return null;
   }
   repliesFetched++;
-  try {
-    const url = new URL('https://slack.com/api/conversations.replies');
-    url.searchParams.set('channel', channelId);
-    url.searchParams.set('ts', ts);
-    url.searchParams.set('limit', '50');
-    const res = await fetch(url, { headers: { Authorization: 'Bearer ' + TOKEN } });
-    if (!res.ok) return [];                       // 429 등 HTTP 오류
-    const j = await res.json().catch(() => ({})); // JSON 파싱 실패 방어
-    if (!j.ok) return [];                          // missing_scope 등
-    return (j.messages || []).slice(1); // 첫 메시지(부모=설문)는 제외
-  } catch (e) { return []; }
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const url = new URL('https://slack.com/api/conversations.replies');
+      url.searchParams.set('channel', channelId);
+      url.searchParams.set('ts', ts);
+      url.searchParams.set('limit', '50');
+      const res = await fetch(url, { headers: { Authorization: 'Bearer ' + TOKEN } });
+      const j = await res.json().catch(() => ({}));   // JSON 파싱 실패 방어
+      if (j.ok) return (j.messages || []).slice(1);   // 첫 메시지(부모 글)는 제외
+      if (res.status === 429 || j.error === 'ratelimited') {
+        const wait = Math.min(30, parseInt(res.headers.get('retry-after') || '0', 10) || (attempt + 1) * 3);
+        await new Promise((r) => setTimeout(r, wait * 1000));
+        continue;
+      }
+      return null;                                     // missing_scope 등
+    } catch (e) { return null; }
+  }
+  return null;
 }
+async function fetchReplies(channelId, ts) { return (await fetchRepliesStrict(channelId, ts)) || []; }
+
+/* 처리내역(note)에 넣을 댓글의 작성자 = 그 글에 'XX확인' 또는 '원격XX' 이모지를 찍은 사람.
+   (2026-09-29 팀 결정) 스레드의 모든 댓글을 모으면 요청자 재촉·타팀 멘션·잡담까지 섞여
+   고객사 공유 대시보드에 그대로 나갔다. 실제로 처리한 사람이 남긴 말만 처리내역이다.
+   슬랙 reactions[].users 는 이모지를 누른 사람의 ID 목록이다(이모지 이름의 사람과 다를 수 있음 —
+   남이 대신 찍어줘도 '찍은 사람'이 기준). */
+function workerIds(m) {
+  const ids = new Set();
+  for (const r of (m.reactions || [])) {
+    const n = r.name || '';
+    const isWorkMark = RE_EMP.test(n) || RE_CONFIRM.test(n)
+      || (RE_CONFIRM_ANY.test(n) && !NOT_PERSON.has((n.match(RE_CONFIRM_ANY) || [])[1]));
+    if (isWorkMark) (r.users || []).forEach((u) => ids.add(u));
+  }
+  return ids;
+}
+/* 처리내역 규칙 버전 — 올리면 과거 날짜의 note 를 조금씩 새 규칙으로 다시 수집한다(아래 이관 단계).
+   data.noteV[날짜] = 이 값이면 그 날의 note 는 새 규칙으로 모은 것. */
+const NOTE_RULE = 2;
 // 처리내용 텍스트 정리(멘션/URL/마크다운 제거 후 요약 길이로 컷)
 function cleanNote(s) {
   return (s || '')
@@ -283,17 +312,28 @@ function cleanNote(s) {
 async function tallyInto(msgs, ch, counts, pending, done, opts) {
   done = done || [];
   const priorNotes = (opts && opts.priorNotes) || {};   // 이전 실행에서 이미 수집한 처리내역(재호출 방지)
-  // 스레드 처리내역 수집: 이미 있으면 재사용, 없고 답글 있으면 첫 답글들 텍스트를 정리해 저장
+  const oldNotes   = (opts && opts.oldNotes) || priorNotes;   // 조회 실패 시 되돌아갈 기존 값
+  const state      = (opts && opts.state) || {};          // state.incomplete = 이번에 못 채운 건이 있음
+  // 스레드 처리내역 수집: 이미 있으면 재사용, 없으면 착수 이모지를 찍은 사람의 댓글만 정리해 저장
   async function grabNote(m, catKey, time, store, biz) {
     const key = time + '|' + store + '|' + biz + '|' + catKey;
     if (priorNotes[key]) return priorNotes[key];
-    if ((m.reply_count || 0) > 0 && ch.id) {
-      const reps = await fetchReplies(ch.id, m.ts);
-      // blocksText는 m.text와 m.blocks의 동일 내용을 둘 다 담아 문구가 중복됨 → 답글별 동일 줄 제거
-      const txt = reps.map(r => [...new Set(blocksText(r).split('\n').map(x => x.trim()).filter(Boolean))].join(' ')).join(' / ');
-      return cleanNote(txt);
+    if (!((m.reply_count || 0) > 0 && ch.id)) return '';
+    const ids = workerIds(m);
+    if (!ids.size) return '';                              // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다
+    /* 과거 날짜 이관은 실행당 예산 안에서만 — 한 번에 다 읽으면 호출 제한에 걸려 실행이 길어지고 실시간 집계가 밀린다 */
+    const budget = opts && opts.budget;
+    if (budget) {
+      if (budget.left <= 0) { state.incomplete = true; return oldNotes[key] || ''; }
+      budget.left--;
+      await new Promise((r) => setTimeout(r, 250));
     }
-    return '';
+    const reps = await fetchRepliesStrict(ch.id, m.ts);
+    if (reps === null) { state.incomplete = true; return oldNotes[key] || ''; }   // 못 읽었으면 기존 값 유지
+    // blocksText는 m.text와 m.blocks의 동일 내용을 둘 다 담아 문구가 중복됨 → 답글별 동일 줄 제거
+    const txt = reps.filter(r => r.user && ids.has(r.user))
+      .map(r => [...new Set(blocksText(r).split('\n').map(x => x.trim()).filter(Boolean))].join(' ')).join(' / ');
+    return cleanNote(txt);
   }
   let completed = 0, externCount = 0, dup = 0, latest = '';
   for (const m of msgs) {
@@ -689,6 +729,9 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       workDates = [...use, ...workDates];
     }
   }
+  /* 처리내역 규칙 이관 예산 — 최근 3일 밖(재확인 날짜 + 아래 이관 단계)에서 새로 읽는 답글 수의 실행당 상한.
+     2026-09-29 기준 과거 note 약 14,000건. 실행마다 조금씩 줄어든다. */
+  const noteMigBudget = { left: 150 };
   // 처리내역(note) 수집은 MAX_REPLY_FETCH 상한을 공유하므로, 최신 날짜부터 처리해
   // 사람들이 가장 많이 보는 '오늘' 건의 note가 상한 소진 전에 먼저 채워지도록 한다.
   for (const dstr of [...workDates].reverse()) {
@@ -697,13 +740,19 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     // 이전 실행에서 수집한 처리내역 보존(재호출 방지) — done 항목 key: time|store|biz|cat
     const priorNotes = {};
     for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.note) priorNotes[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note; }
+    /* 처리내역 규칙이 바뀐 뒤 아직 새 규칙으로 모으지 않은 날이면 기존 note 를 재사용하지 않고 다시 모은다
+       (못 읽은 건은 기존 값 유지). 전부 채워지면 그 날을 새 규칙 완료로 표시한다. */
+    const noteDone = (data.noteV || {})[dstr] === NOTE_RULE;
+    const noteState = {};
     let completed = 0, externCount = 0, dupTotal = 0, latest = '';
     const failedChs = [];
     for (const ch of workChs) {
       let msgs;
       try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
       catch (e) { console.error(`  ⚠ [${ch.label} ${dstr}] 읽기 실패(${e.message}) — 건너뜀`); failedChs.push(ch.label); continue; }
-      const r = await tallyInto(msgs, ch, counts, pending, done, { priorNotes });
+      const r = await tallyInto(msgs, ch, counts, pending, done,
+        { priorNotes: noteDone ? priorNotes : {}, oldNotes: priorNotes, state: noteState,
+          budget: (dstr < wdStart && !backfillFrom) ? noteMigBudget : null });   // 최근 3일은 예산 없이 바로
       if (dstr === targetDate) trackResp(data, msgs, ch);   // 오늘 인입 건만 응답시간 폴링 추적
       completed += r.completed; externCount += r.externCount; dupTotal += r.dup; if (r.latest > latest) latest = r.latest;
     }
@@ -730,10 +779,56 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     for (const it of done) intakeAgg[it.intake || 'unknown']++;
     for (const it of pending) intakeAgg[it.intake || 'unknown']++;
     de.counts = counts; de.pending = pending; de.done = done; de.intake = intakeAgg;
+    if (!noteState.incomplete) { data.noteV = data.noteV || {}; data.noteV[dstr] = NOTE_RULE; }
     if (latest && latest > (de.updatedAt || '')) de.updatedAt = latest;
     if (!de.updatedAt) de.updatedAt = latest || '';
     data.days[dstr] = de;
     console.log(`  [업무 ${dstr}] 완료 ${completed} · 확인필요 ${pending.length} · 외주 ${externCount} · 중복제외 ${dupTotal}`);
+  }
+
+  // ===== 처리내역 규칙 이관 (과거 날짜의 note 만 새 규칙으로) =====
+  // 위 롤링·재확인 창 밖의 날짜는 다시 집계하지 않는다(과거 일자 통째 덮어쓰기는 429 에 약하다 —
+  // 2026-09-28 사고). 여기서는 그 날 메시지를 읽어 '같은 건(time|store|biz|cat)'의 note 칸만 바꾼다.
+  // 건수·카테고리·담당자는 건드리지 않고, 못 읽은 건은 기존 값을 그대로 둔다.
+  if (!backfillFrom && noteMigBudget.left > 0) {
+    const inRun = new Set(workDates);
+    const todo = Object.keys(data.days).filter((d) => !inRun.has(d)
+        && (data.noteV || {})[d] !== NOTE_RULE && (data.noteV || {})[d] !== 'unreachable'
+        && (((data.days[d] || {}).done) || []).some((it) => it.note))
+      .sort().reverse();                         // 최근 날짜부터 — 가장 많이 보는 쪽
+    let migDays = 0, migChanged = 0;
+    for (const d of todo) {
+      if (noteMigBudget.left <= 0) break;
+      const b = boundsOf(d);
+      const old = {};
+      for (const it of data.days[d].done) old[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note || '';
+      const st = {}, tmpDone = [];
+      let failed = false, gotMsgs = 0;
+      for (const ch of workChs) {
+        let msgs;
+        try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
+        catch (e) { failed = true; break; }
+        gotMsgs += msgs.length;
+        await tallyInto(msgs, ch, {}, [], tmpDone, { priorNotes: {}, oldNotes: old, state: st, budget: noteMigBudget });
+      }
+      if (failed) { console.log(`  [처리내역 이관 ${d}] 슬랙 읽기 실패 — 다음 실행에서`); continue; }
+      data.noteV = data.noteV || {};
+      if (!gotMsgs) {                            // 슬랙 보존기간 밖 — 다시 읽을 수 없다
+        data.noteV[d] = 'unreachable';
+        console.log(`  [처리내역 이관 ${d}] 슬랙에 메시지가 없음(보존기간 밖) — 기존 처리내역 유지`);
+        continue;
+      }
+      const fresh = {};
+      for (const it of tmpDone) fresh[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note || '';
+      for (const it of data.days[d].done) {
+        const k = it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
+        if (k in fresh && fresh[k] !== (it.note || '')) { it.note = fresh[k]; migChanged++; }
+      }
+      if (!st.incomplete) data.noteV[d] = NOTE_RULE;
+      migDays++;
+    }
+    const left = todo.filter((d) => (data.noteV || {})[d] !== NOTE_RULE && (data.noteV || {})[d] !== 'unreachable').length;
+    if (todo.length) console.log(`[처리내역 이관] ${migDays}일 처리 · note ${migChanged}건 변경 · 남은 날짜 ${left}일`);
   }
 
   // ===== 설치 OB 재집계 (구글시트) =====
