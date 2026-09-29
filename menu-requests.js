@@ -3,10 +3,54 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2656,
- "updatedAt": "2026-09-29 14:51",
+ "version": 2657,
+ "updatedAt": "2026-09-29 14:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1790661177.192909",
+   "date": "2026-09-29",
+   "time": "14:52",
+   "store": "스시집 막내아들",
+   "biz": "6113101308",
+   "pos": "퍼스트포스",
+   "content": "메뉴 추가 및 비용 수정 요청 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "식사류 >\n활어회덮밥 / 참치회덮밥 추가 16,900원\n회덮밥이랑 같은 그림 사용\n\n튀김 >\n모듬 튀김 18,000원 금액 수정\n감자고로케 4,500원 금액 수정\n왕새우 4,500원 금액 수정\n멘보샤 4,500원 금액 수정\n가라아게 5p 6,000원 금액 수정\n가라아게 20p 22,000원 금액 수정"
+   ],
+   "rc": 2,
+   "lr": "1790661225.991659",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790661177192909"
+  },
+  {
+   "ts": "1790661050.810769",
+   "date": "2026-09-29",
+   "time": "14:50",
+   "store": "카페CCD창원중앙역점",
+   "biz": "5033631452",
+   "pos": "",
+   "content": "메뉴 이미지 메일",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790661053.421399",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790661050810769"
+  },
   {
    "ts": "1790660222.115419",
    "date": "2026-09-29",
@@ -23,17 +67,17 @@ window.MENU_REQUESTS = {
      "name": "나주곰탕.jpg",
      "fid": "F0C56BAR12N",
      "from": "댓글",
-     "path": "menu-files/1790660222_115419-0.jpg",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790660222_115419-0.jpg"
     },
     {
      "name": "얼큰소머리국밥.jpg",
      "fid": "F0C4R46CXAB",
      "from": "댓글",
-     "path": "menu-files/1790660222_115419-1.jpg",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790660222_115419-1.jpg"
     },
     {
      "name": "제육덮밥 (4).png",
@@ -46,17 +90,17 @@ window.MENU_REQUESTS = {
      "name": "갈비탕.jpg",
      "fid": "F0C56BGPVSN",
      "from": "댓글",
-     "path": "menu-files/1790660222_115419-3.jpg",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790660222_115419-3.jpg"
     }
    ],
    "datt": [],
    "replies": [
     "용량 너무 커서 다운 어려우면 이메일 확인 GO"
    ],
-   "rc": 3,
-   "lr": "1790660342.116589",
+   "rc": 4,
+   "lr": "1790661180.708669",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
