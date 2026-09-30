@@ -3,10 +3,235 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2772,
- "updatedAt": "2026-09-30 17:20",
+ "version": 2773,
+ "updatedAt": "2026-09-30 17:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1790757178.251279",
+   "date": "2026-09-30",
+   "time": "17:32",
+   "store": "필구커피",
+   "biz": "5504601268",
+   "pos": "토스포스",
+   "content": "없습니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/16D1eVMRXe6GQpwNqba579neiBxasCtYe/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "16D1eVMRXe6GQpwNqba579neiBxasCtYe",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "coffee",
+       "name": "에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "카라멜 마끼야또",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "초당옥수수크림라떼 (샷o)",
+       "price": 6500
+      },
+      {
+       "category": "non-coffee",
+       "name": "초당옥수수크림라떼 (샷x)",
+       "price": 6500
+      },
+      {
+       "category": "non-coffee",
+       "name": "초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "non-coffee",
+       "name": "말차라떼",
+       "price": 5000
+      },
+      {
+       "category": "non-coffee",
+       "name": "토피넛라떼",
+       "price": 5500
+      },
+      {
+       "category": "beverage",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "beverage",
+       "name": "레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "beverage",
+       "name": "청포도에이드",
+       "price": 5500
+      },
+      {
+       "category": "beverage",
+       "name": "오미자에이드",
+       "price": 5500
+      },
+      {
+       "category": "beverage",
+       "name": "플레인요거트스무디",
+       "price": 5500
+      },
+      {
+       "category": "beverage",
+       "name": "블루베리요거트스무디",
+       "price": 6000
+      },
+      {
+       "category": "beverage",
+       "name": "딸기요거트스무디",
+       "price": 6000
+      },
+      {
+       "category": "tea",
+       "name": "유자차",
+       "price": 4500
+      },
+      {
+       "category": "tea",
+       "name": "청귤차",
+       "price": 4500
+      },
+      {
+       "category": "tea",
+       "name": "대추차",
+       "price": 5000
+      },
+      {
+       "category": "tea",
+       "name": "생강차",
+       "price": 5000
+      },
+      {
+       "category": "tea",
+       "name": "밀크티",
+       "price": 5000
+      },
+      {
+       "category": "tea",
+       "name": "아이스티",
+       "price": 4500
+      },
+      {
+       "category": "tea",
+       "name": "얼그레이",
+       "price": 4500
+      },
+      {
+       "category": "tea",
+       "name": "캐모마일",
+       "price": 4500
+      },
+      {
+       "category": "tea",
+       "name": "루이보스",
+       "price": 4500
+      },
+      {
+       "category": "dessert",
+       "name": "버터쿠키",
+       "price": 3500
+      },
+      {
+       "category": "dessert",
+       "name": "생강쿠키",
+       "price": 4000
+      },
+      {
+       "category": "dessert",
+       "name": "머랭쿠키",
+       "price": 9000
+      },
+      {
+       "category": "dessert",
+       "name": "뚱뚱이쿠키 초코",
+       "price": 4500
+      },
+      {
+       "category": "dessert",
+       "name": "뚱뚱이쿠키 말차",
+       "price": 4500
+      },
+      {
+       "category": "dessert",
+       "name": "뚱뚱이쿠키 황치즈",
+       "price": 4800
+      },
+      {
+       "category": "dessert",
+       "name": "뚱뚱이쿠키 레몬크림치즈",
+       "price": 4800
+      },
+      {
+       "category": "dessert",
+       "name": "뚱뚱이쿠키 오레오스모어",
+       "price": 4800
+      },
+      {
+       "category": "dessert",
+       "name": "뚱뚱이쿠키 로투스스모어",
+       "price": 4800
+      },
+      {
+       "category": "dessert",
+       "name": "바스크치즈케이크",
+       "price": 6800
+      },
+      {
+       "category": "dessert",
+       "name": "파블로바",
+       "price": 8500
+      },
+      {
+       "category": "dessert",
+       "name": "소금빵",
+       "price": 3500
+      },
+      {
+       "category": "dessert",
+       "name": "잠봉뵈르 소금빵",
+       "price": 6500
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790757178251279"
+  },
   {
    "ts": "1790756172.229279",
    "date": "2026-09-30",
