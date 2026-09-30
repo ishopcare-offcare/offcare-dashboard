@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14637,
+  "version": 14638,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220711,7 +220711,7 @@ window.SLACK_DATA = {
         },
         "menu": {
           "심성현": 1,
-          "배선유": 1
+          "배선유": 2
         }
       },
       "pending": [],
@@ -220726,6 +220726,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "09:34",
+          "store": "꾸버스피자 기흥역점",
+          "biz": "3032024457",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "메뉴",
+          "hw": "",
+          "intake": "online",
+          "note": "/ 메뉴 전체 삭제 후 등록 요청 / 확인 후 필요한 건 다시 접수하신다고 함 / 완료 / 솔라피 발송"
         },
         {
           "time": "09:30",
@@ -220817,7 +220828,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 3,
         "unknown": 0
       },
@@ -221068,17 +221079,13 @@ window.SLACK_DATA = {
         "post": "1790697112.538429",
         "lastSeen": 1790712928.863
       },
-      "1790728456.330009": {
-        "post": "1790728456.330009",
-        "lastSeen": 1790729235.985
-      },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790729235.985
+        "lastSeen": 1790729309.718
       },
       "1790729120.124599": {
         "post": "1790729120.124599",
-        "lastSeen": 1790729235.985,
+        "lastSeen": 1790729309.718,
         "r": 1,
         "day": "2026-09-30",
         "idx": 5
@@ -291931,7 +291938,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:47",
+    "at": "2026-09-30 09:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292045,7 +292052,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:47",
+    "at": "2026-09-30 09:48",
     "pri": {
       "days": 0,
       "failed": [],
