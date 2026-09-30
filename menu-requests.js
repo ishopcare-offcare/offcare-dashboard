@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2735,
- "updatedAt": "2026-09-30 14:36",
+ "version": 2736,
+ "updatedAt": "2026-09-30 14:51",
  "days": 30,
  "items": [
   {
@@ -52034,46 +52034,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788159049880199"
-  },
-  {
-   "ts": "1788155425.555579",
-   "date": "2026-08-31",
-   "time": "14:50",
-   "store": "집밥",
-   "biz": "1304800813",
-   "pos": "퍼스트포스",
-   "content": "유플매장 메뉴 등록 재요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BTL7LU91R",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "순두부 게살 스프",
-       "price": 5100
-      }
-     ],
-     "path": "menu-files/1788155425_555579-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "토요일 메뉴등록 요청해서 수정된 것 확인했는데 옵션명 없이 가격만 추가되어 있고, 옵션 선택전 모든 옵션이 이미 추가된 상태로 설정되어 있어 수정요청하셨습니다!\n\n[메뉴추가] 신메뉴\n멸치국수 7000\nㄴ*곱빼기* 1500 (옵션명 이름없이 금액만 확인됨)\nㄴ*공기밥* 1500\n\n순두부 게살 스프 단품 10900\nㄴ*게살 추가29*00\nㄴ*공기밥* 1500\n\n소불고기 덮밥 13900\nㄴ*소고기추가100g* 3600\nㄴ*공기밥* 1500\n\n우삼겹 숙주 덮밥 10900\nㄴ*소고기 추가* 100g 3600원\nㄴ*공기밥 추가* 1500",
-    "맞아요 선유님! 근데 옵션명은 확인이 안되고 금액만 들어가있어서 수정요청하셨습니다!",
-    "감사합니당!!!"
-   ],
-   "rc": 8,
-   "lr": "1788155912.926829",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788155425555579"
   }
  ],
  "ocr": {
