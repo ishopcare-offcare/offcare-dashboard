@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14645,
+  "version": 14646,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -217366,9 +217366,9 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
+          "심성현": 7,
           "김동욱": 1,
           "배선유": 12,
-          "심성현": 6,
           "서상원": 1,
           "김규빈": 5
         },
@@ -217458,6 +217458,17 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "감열지 불량으로 용지교체 후 정상출력 완료"
+        },
+        {
+          "time": "21:03",
+          "store": "느린시간",
+          "biz": "2014401474",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "받은 3개 메일 사진 등록 완료"
         },
         {
           "time": "21:00",
@@ -220179,7 +220190,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 225,
+        "online": 226,
         "offline": 36,
         "unknown": 0
       },
@@ -220726,7 +220737,7 @@ window.SLACK_DATA = {
           "req": "전표 영수증 출력 X / 점검 요청드립니다:감사합니다꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 프론트&lt;&gt;CPP3000 연결되어있어 땡겨요는 출력 안되는 상황 • AB케이블 발송 및 수령 후 고객센터 연락주시면 연동도움드리겠음 안내 프론트<CPP3000 연결되어있어 땡겨요는 출력 안되는 상황 AB케이블 발송 및 수령 후 고객센터 연락주시면 연동도움드리겠음 안내"
         },
         {
           "time": "09:49",
@@ -220866,7 +220877,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "09:57",
+      "updatedAt": "10:00",
       "voc": {
         "responses": 2,
         "install": {
@@ -221124,11 +221135,11 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790729994.037
+        "lastSeen": 1790730104.823
       },
       "1790729870.991309": {
         "post": "1790729870.991309",
-        "lastSeen": 1790729994.037,
+        "lastSeen": 1790730104.823,
         "r": 1,
         "day": "2026-09-30",
         "idx": 6
@@ -291990,7 +292001,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 10:00",
+    "at": "2026-09-30 10:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292104,7 +292115,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:59",
+    "at": "2026-09-30 10:01",
     "pri": {
       "days": 0,
       "failed": [],
