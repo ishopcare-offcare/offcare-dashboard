@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2703,
- "updatedAt": "2026-09-30 10:29",
+ "version": 2704,
+ "updatedAt": "2026-09-30 10:36",
  "days": 30,
  "items": [
   {
@@ -68,10 +68,12 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "연락처가 가게번호라 통화하였으나 부재"
+    "연락처가 가게번호라 통화하였으나 부재",
+    "님, ··· 로 인입하시어 메뉴 등록 문의주시는데\n어떤 내용 확인 도와드리면 될까요~? 스파로스 프로그램 사용하신다고 하십니다!!",
+    "메뉴등록은 완료하였습니다. 재시작해주시면 됩니다!"
    ],
-   "rc": 1,
-   "lr": "1790729674.048299",
+   "rc": 3,
+   "lr": "1790732175.346739",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
