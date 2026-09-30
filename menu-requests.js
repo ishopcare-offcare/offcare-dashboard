@@ -3,10 +3,424 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2757,
- "updatedAt": "2026-09-30 16:17",
+ "version": 2758,
+ "updatedAt": "2026-09-30 16:19",
  "days": 30,
  "items": [
+  {
+   "ts": "1790752717.818369",
+   "date": "2026-09-30",
+   "time": "16:18",
+   "store": "담",
+   "biz": "2311502979",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_7569.png",
+     "fid": "F0C5H8P1B0E",
+     "from": "댓글",
+     "path": "menu-files/1790752717_818369-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "돔페리뇽 2013 빈티지",
+       "price": 800000
+      },
+      {
+       "category": "",
+       "name": "1865 까베르네 쇼비뇽",
+       "price": 250000
+      },
+      {
+       "category": "SHOT",
+       "name": "싱글 샷",
+       "price": 60000
+      },
+      {
+       "category": "SIDE DISH",
+       "name": "과일",
+       "price": 50000
+      },
+      {
+       "category": "SIDE DISH",
+       "name": "마른안주",
+       "price": 50000
+      },
+      {
+       "category": "DRINK",
+       "name": "탄산수",
+       "price": 5000
+      },
+      {
+       "category": "DRINK",
+       "name": "토닉워터",
+       "price": 5000
+      },
+      {
+       "category": "DRINK",
+       "name": "음료",
+       "price": 3000
+      },
+      {
+       "category": "SPECIAL WHISKY SET",
+       "name": "발렌타인 마스터즈 (500ml)",
+       "price": 270000
+      },
+      {
+       "category": "SPECIAL WHISKY SET",
+       "name": "발렌타인 17년 (500ml)",
+       "price": 400000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발렌타인 글렌버기 12년 (700ml)",
+       "price": 380000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "더 글렌리벳 12년 (700ml)",
+       "price": 380000
+      }
+     ]
+    },
+    {
+     "name": "IMG_7571.png",
+     "fid": "F0C5D0J7QJF",
+     "from": "댓글",
+     "path": "menu-files/1790752717_818369-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 마스터즈",
+       "price": 270000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 17년",
+       "price": 400000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 21년",
+       "price": 650000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 30년",
+       "price": 1900000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "로얄살루트 21년",
+       "price": 700000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "조니워커 블랙",
+       "price": 300000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "조니워커 블루",
+       "price": 700000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "몽키숄더",
+       "price": 300000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "임페리얼 17년",
+       "price": 280000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "임페리얼 19 퀀텀",
+       "price": 400000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "골든 블루 다이아몬드",
+       "price": 270000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "윈저 W 시그니처 17년",
+       "price": 300000
+      },
+      {
+       "category": "AMERICAN WHISKEY",
+       "name": "잭 다니엘",
+       "price": 270000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발렌타인 글렌버기 12년",
+       "price": 380000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발렌타인 글렌버기 15년",
+       "price": 480000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "더 글렌리벳 12년",
+       "price": 380000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "더 글렌리벳 15년",
+       "price": 480000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌피딕 12년",
+       "price": 380000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌피딕 15년",
+       "price": 480000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "맥캘란 12년",
+       "price": 430000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "맥캘란 15년",
+       "price": 600000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발베니 12년",
+       "price": 430000
+      },
+      {
+       "category": "COGNAC",
+       "name": "헤네시 V.S.O.P.",
+       "price": 320000
+      },
+      {
+       "category": "COGNAC",
+       "name": "헤네시 X.O.",
+       "price": 900000
+      },
+      {
+       "category": "COGNAC",
+       "name": "레미마틴 V.S.O.P.",
+       "price": 300000
+      },
+      {
+       "category": "LIQUEUR",
+       "name": "엑스레이티드",
+       "price": 300000
+      },
+      {
+       "category": "VODKA",
+       "name": "앱솔루트 피치",
+       "price": 270000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "호세 쿠엘보",
+       "price": 270000
+      },
+      {
+       "category": "BEER",
+       "name": "카스",
+       "price": 13000
+      },
+      {
+       "category": "BEER",
+       "name": "카스 제로",
+       "price": 13000
+      },
+      {
+       "category": "BEER",
+       "name": "카프리",
+       "price": 14000
+      },
+      {
+       "category": "BEER",
+       "name": "버드와이저",
+       "price": 14000
+      },
+      {
+       "category": "BEER",
+       "name": "하이네켄",
+       "price": 17000
+      },
+      {
+       "category": "BEER",
+       "name": "호가든",
+       "price": 17000
+      },
+      {
+       "category": "BEER",
+       "name": "호가든 로제",
+       "price": 17000
+      },
+      {
+       "category": "BEER",
+       "name": "코로나",
+       "price": 17000
+      },
+      {
+       "category": "BEER",
+       "name": "산 미구엘",
+       "price": 17000
+      },
+      {
+       "category": "BEER",
+       "name": "스텔라 아르투아",
+       "price": 17000
+      },
+      {
+       "category": "BEER",
+       "name": "코젤다크",
+       "price": 20000
+      },
+      {
+       "category": "BEER",
+       "name": "기네스",
+       "price": 20000
+      }
+     ]
+    },
+    {
+     "name": "IMG_7570.png",
+     "fid": "F0C5H8QS2G6",
+     "from": "댓글",
+     "path": "menu-files/1790752717_818369-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SPECIAL WHISKY SET",
+       "name": "발렌타인 마스터즈 (500ml)",
+       "price": 270000
+      },
+      {
+       "category": "SPECIAL WHISKY SET",
+       "name": "발렌타인 17년 (500ml)",
+       "price": 400000
+      },
+      {
+       "category": "SPECIAL WHISKY SET",
+       "name": "로얄살루트 21년 (500ml)",
+       "price": 700000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발렌타인 글렌버기 12년 (700ml)",
+       "price": 380000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "더 글렌리벳 12년 (700ml)",
+       "price": 380000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 마스터즈",
+       "price": 270000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 17년",
+       "price": 400000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 21년",
+       "price": 650000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "발렌타인 30년",
+       "price": 1900000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "로얄살루트 21년",
+       "price": 700000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "조니워커 블랙",
+       "price": 300000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "조니워커 블루",
+       "price": 700000
+      },
+      {
+       "category": "SCOTCH WHISKY",
+       "name": "몽키숄더",
+       "price": 300000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "임페리얼 17년",
+       "price": 280000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "임페리얼 19 퀀텀",
+       "price": 400000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "골든 블루 다이아몬드",
+       "price": 270000
+      },
+      {
+       "category": "DOMESTIC WHISKY",
+       "name": "윈저 W 시그니처 17년",
+       "price": 300000
+      },
+      {
+       "category": "AMERICAN WHISKEY",
+       "name": "잭 다니엘",
+       "price": 270000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발렌타인 글렌버기 12년",
+       "price": 380000
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발렌타인 글렌버기 15년",
+       "price": 480000
+      },
+      {
+       "category": "VODKA",
+       "name": "앱솔루트 피치",
+       "price": 270000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790752753.573859",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790752717818369"
+  },
   {
    "ts": "1790752308.694549",
    "date": "2026-09-30",
