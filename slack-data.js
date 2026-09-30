@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14651,
+  "version": 14652,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220708,9 +220708,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "심성현": 2,
+          "고경림": 3,
           "배선유": 1,
-          "송태양": 2,
-          "고경림": 2
+          "송태양": 2
         },
         "booking": {
           "심성현": 1
@@ -220739,6 +220739,17 @@ window.SLACK_DATA = {
           "hw": "확인 못했습니다.)",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:00",
+          "store": "루이블리",
+          "biz": "6564001263",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프론트 전원 불량으로 교체 수령했으나 불이 안들어오는 현상으로 영상 지원 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "기존 AS로 대체기출고시 , 본체만 출고된것으로 확인 어댑터 및 케이블 교체 필요 • 금일 출고요청 완료 금일 출고요청 완료"
         },
         {
           "time": "09:57",
@@ -220907,7 +220918,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 4,
         "unknown": 0
       },
@@ -221169,11 +221180,11 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790730533.879
+        "lastSeen": 1790730619.731
       },
       "1790730145.053979": {
         "post": "1790730145.053979",
-        "lastSeen": 1790730533.879,
+        "lastSeen": 1790730619.731,
         "r": 1,
         "day": "2026-09-30",
         "idx": 7
@@ -292044,7 +292055,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 10:09",
+    "at": "2026-09-30 10:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292158,7 +292169,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 10:08",
+    "at": "2026-09-30 10:10",
     "pri": {
       "days": 0,
       "failed": [],
