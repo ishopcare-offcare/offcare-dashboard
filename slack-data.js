@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14648,
+  "version": 14649,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220707,8 +220707,9 @@ window.SLACK_DATA = {
     "2026-09-30": {
       "counts": {
         "as": {
+          "심성현": 2,
+          "배선유": 1,
           "송태양": 2,
-          "심성현": 1,
           "고경림": 2
         },
         "booking": {
@@ -220729,6 +220730,17 @@ window.SLACK_DATA = {
       "pending": [],
       "done": [
         {
+          "time": "10:00",
+          "store": "좋은나무독서논술학원",
+          "biz": "1209171812",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "고령/ 프론트 설치 어려워하셔서 온보딩 요청드립니다.",
+          "hw": "확인 못했습니다.)",
+          "intake": "online",
+          "note": ""
+        },
+        {
           "time": "09:57",
           "store": "스시집막내아들",
           "biz": "6113101308",
@@ -220738,6 +220750,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "모듬새우 11p 15,500 -&gt; 18,000 왕새우튀김 2p 4,000 -&gt; 4,500 모듬새우 11p 15,500 - 18,000 왕새우튀김 2p 4,000 - 4,500"
+        },
+        {
+          "time": "09:56",
+          "store": "217빌리지 (217VILLAGE)",
+          "biz": "8285600671",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포스기+프+유프/ 프린터 연결 오류로 지원 요청드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:52",
@@ -220884,7 +220907,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 12,
         "offline": 4,
         "unknown": 0
       },
@@ -221146,11 +221169,11 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790730254.109
+        "lastSeen": 1790730355.554
       },
       "1790730145.053979": {
         "post": "1790730145.053979",
-        "lastSeen": 1790730254.109
+        "lastSeen": 1790730355.554
       }
     },
     "days": {
@@ -292010,7 +292033,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 10:04",
+    "at": "2026-09-30 10:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292124,7 +292147,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 10:04",
+    "at": "2026-09-30 10:05",
     "pri": {
       "days": 0,
       "failed": [],
