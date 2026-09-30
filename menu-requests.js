@@ -3,10 +3,126 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2761,
- "updatedAt": "2026-09-30 16:33",
+ "version": 2762,
+ "updatedAt": "2026-09-30 16:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1790753882.916339",
+   "date": "2026-09-30",
+   "time": "16:38",
+   "store": "이레팜스",
+   "biz": "4263001455",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C5P2YS65A",
+     "from": "댓글",
+     "path": "menu-files/1790753882_916339-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "유정란",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "유정란",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "구운란",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "유정란(10구)",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "구운란(10구)",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "못난이유정란",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "유정란",
+       "price": 9900
+      },
+      {
+       "category": "",
+       "name": "왕란15구",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "계란",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "방사유정란40구",
+       "price": 22000
+      },
+      {
+       "category": "",
+       "name": "선물세트유정란구운란30구",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "선물세트유정란구운란40구",
+       "price": 22000
+      },
+      {
+       "category": "",
+       "name": "선물세트유정란30구",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "선물세트유정란40구",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "소스",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "잡화",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "식품",
+       "price": 1000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790753894.205459",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790753882916339"
+  },
   {
    "ts": "1790752717.818369",
    "date": "2026-09-30",
