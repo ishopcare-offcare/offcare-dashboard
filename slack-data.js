@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14640,
+  "version": 14641,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220710,13 +220710,24 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
-          "김동욱": 1,
+          "김동욱": 2,
           "심성현": 1,
           "배선유": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:49",
+          "store": "케이핀초반",
+          "biz": "2660303234",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:45",
           "store": "롯데리아 일산 킨텍스점",
@@ -220840,19 +220851,19 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "09:49",
+      "updatedAt": "09:53",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
@@ -220860,17 +220871,26 @@ window.SLACK_DATA = {
           "nps": 1
         },
         "npsDist": {
+          "7": 1,
           "10": 1
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "6개월": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 1,
             "low": 0
@@ -221093,7 +221113,7 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790729510.521
+        "lastSeen": 1790729585.762
       }
     },
     "days": {
@@ -291944,7 +291964,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:52",
+    "at": "2026-09-30 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292058,7 +292078,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:51",
+    "at": "2026-09-30 09:53",
     "pri": {
       "days": 0,
       "failed": [],
