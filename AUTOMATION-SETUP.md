@@ -7,12 +7,12 @@
 
 ## ① 호스팅 (GitHub Pages) — 약 2분
 
-1. 브라우저에서 저장소 열기: https://github.com/taeyangsong-art/offcare-dashboard
+1. 브라우저에서 저장소 열기: https://github.com/ishopcare-offcare/offcare-dashboard
 2. 상단 **Settings** → 왼쪽 메뉴 **Pages**
 3. **Build and deployment** → Source: **Deploy from a branch**
 4. Branch: **main** / 폴더: **/ (root)** → **Save**
 5. 1~2분 뒤 새로고침하면 상단에 공개 주소가 뜹니다:
-   **https://taeyangsong-art.github.io/offcare-dashboard/**
+   **https://ishopcare-offcare.github.io/offcare-dashboard/**
 
 > ⚠️ 저장소가 **공개(public)** 라 소스가 노출됩니다. 로그인 비번(`시프티`)이 소스에서 보이므로, 강한 보안이 필요하면 저장소를 private로 바꾸고(단, private Pages는 유료 플랜 필요) 별도 로그인 방식을 논의하세요.
 
@@ -52,7 +52,7 @@
      ↑ 야간 직원의 21:00~24:00 업무까지 포함해 '전날'을 완전 확정
   → 각 실행이 slack-data.js 갱신 후 자동 커밋
   → GitHub Pages 자동 재배포
-  → 팀 전원이 https://taeyangsong-art.github.io/offcare-dashboard/ 에서 최신 실적 확인
+  → 팀 전원이 https://ishopcare-offcare.github.io/offcare-dashboard/ 에서 최신 실적 확인
 ```
 > 집계 대상 날짜는 `TALLY_DATE_OFFSET`(0=오늘, -1=어제)로 제어하며,
 > 하루 경계(00:00~24:00 KST)를 정확히 잘라 자정 넘어 실행해도 그날치만 집계합니다.
@@ -79,14 +79,14 @@ GitHub 예약(schedule)은 부하 시 드롭돼서 불안정합니다. 외부 �
 
 ### A. GitHub 토큰(PAT) 발급 (한 번만)
 1. GitHub → 우상단 프로필 → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**
-2. **Repository access**: Only select repositories → `taeyangsong-art/offcare-dashboard`
+2. **Repository access**: Only select repositories → `ishopcare-offcare/offcare-dashboard`
 3. **Permissions → Repository permissions → Actions: Read and write** (그 외는 No access)
 4. Expiration은 길게(1년) → **Generate** → 토큰(`github_pat_...`) 복사
    - ⚠️ 채팅에 붙여넣지 말 것. cron-job.org에만 입력.
 
 ### B. cron-job.org에 등록 (무료)
 1. https://cron-job.org 가입 → **Create cronjob**
-2. **URL**: `https://api.github.com/repos/taeyangsong-art/offcare-dashboard/actions/workflows/daily-slack-tally.yml/dispatches`
+2. **URL**: `https://api.github.com/repos/ishopcare-offcare/offcare-dashboard/actions/workflows/daily-slack-tally.yml/dispatches`
 3. **Schedule**: Every 30 minutes (또는 업무시간 09:00~23:00만)
 4. **Advanced → Request method**: `POST`
 5. **Headers** 추가:

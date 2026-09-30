@@ -5,7 +5,7 @@ name: booking-report (예약 리포트)
 #
 # 실행: Actions 탭 → booking-report → Run workflow → 기간 확인 → 실행 (약 1분)
 # 결과: share/booking-report.html · share/booking-report-share.html(외부 공유본) · share/booking-report.csv · share/nosetup-report.csv 가 커밋된다
-#   https://taeyangsong-art.github.io/offcare-dashboard/share/booking-report.html
+#   https://ishopcare-offcare.github.io/offcare-dashboard/share/booking-report.html
 on:
   workflow_dispatch:
     inputs:

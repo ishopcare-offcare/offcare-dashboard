@@ -7211,7 +7211,7 @@ function boot(){
 }
 // 데이터 파일을 GitHub 원본(raw)에서 직접 fetch → Pages 배포를 안 기다리고 반영(지연 최대 ~5분).
 // raw 실패 시 로컬(Pages) 파일로 폴백. 파일은 "window.XXX = {...};" 형태라 함수로 실행해 window에 반영.
-var DATA_BASE = "https://raw.githubusercontent.com/taeyangsong-art/offcare-dashboard/main/";
+var DATA_BASE = "https://raw.githubusercontent.com/ishopcare-offcare/offcare-dashboard/main/";
 function loadData(file, cb){
   var urls = [DATA_BASE + file, file];   // 원본 우선 → 안되면 로컬(Pages)
   (function tryNext(i){
