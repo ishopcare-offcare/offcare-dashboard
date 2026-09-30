@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2755,
- "updatedAt": "2026-09-30 16:13",
+ "version": 2756,
+ "updatedAt": "2026-09-30 16:15",
  "days": 30,
  "items": [
   {
@@ -50,8 +50,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790751411074019"
   },
   {
@@ -93,8 +93,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "1. (생)샤인머스켓 실타래빙수 추가 (생)복숭아실타래와 각겨같고 옵션도 같음(옵션 샤인머스켓빙수/시럽 추가/아이스크림 추가/추가 토핑)\n2. 저번에 옵션에 아이스크림추가를 만들어주셨었는데 이것은 유지하고 그대로 실타래빙수 카테고리의 2번째 항목에 똑같이 추가요청주셨습니다.(처음 옵션선택은 가능한데 드시는 충 아이스크림 추가 항목이 별도로 없어 요청주셨습니다.)"
    ],
-   "rc": 4,
-   "lr": "1790750348.730049",
+   "rc": 5,
+   "lr": "1790752481.433819",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
