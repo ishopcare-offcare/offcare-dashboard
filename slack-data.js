@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14634,
+  "version": 14635,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220710,11 +220710,23 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
+          "심성현": 1,
           "배선유": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:34",
+          "store": "느린시간",
+          "biz": "2014401474",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:30",
           "store": "백카츠",
@@ -220805,7 +220817,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 3,
         "unknown": 0
       },
@@ -221056,20 +221068,13 @@ window.SLACK_DATA = {
         "post": "1790697112.538429",
         "lastSeen": 1790712928.863
       },
-      "1790728478.516029": {
-        "post": "1790728478.516029",
-        "lastSeen": 1790728778.749,
-        "r": 1,
-        "day": "2026-09-30",
-        "idx": 4
-      },
       "1790728456.330009": {
         "post": "1790728456.330009",
-        "lastSeen": 1790728778.749
+        "lastSeen": 1790728864.512
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790728778.749
+        "lastSeen": 1790728864.512
       }
     },
     "days": {
@@ -291903,14 +291908,15 @@ window.SLACK_DATA = {
             "store": "느린시간",
             "biz": "2014401474",
             "who": "심성현",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 5.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:40",
+    "at": "2026-09-30 09:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292024,7 +292030,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:39",
+    "at": "2026-09-30 09:41",
     "pri": {
       "days": 0,
       "failed": [],
