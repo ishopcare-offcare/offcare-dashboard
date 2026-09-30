@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2784,
- "updatedAt": "2026-09-30 21:06",
+ "version": 2785,
+ "updatedAt": "2026-09-30 22:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1790776308.515099",
+   "date": "2026-09-30",
+   "time": "22:51",
+   "store": "느린시간",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 느린시간입니다.. 메뉴 추가 사진 보내드립니다..\n대용량 첨부 4개 15MB  병음료_마르티넬리 애플주스.jpg 3677498 ~ 2026/10/30 병음료_분다버그 핑크자몽.jpg 3607553 ~ 2026/10/30 스무디_딸기스무디.jpg 4060220 ~ 2026/10/30 커피_아포카토.jpg 4054074 ~ 2026/10/30 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    감사합니다. \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0f2944b8c6140a>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0f2944b8c6140a",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790776308515099"
+  },
   {
    "ts": "1790757377.048219",
    "date": "2026-09-30",
