@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2759,
- "updatedAt": "2026-09-30 16:22",
+ "version": 2760,
+ "updatedAt": "2026-09-30 16:24",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_7569.png",
      "fid": "F0C5H8P1B0E",
      "from": "댓글",
-     "path": "menu-files/1790752717_818369-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -86,13 +85,13 @@ window.MENU_REQUESTS = {
        "name": "더 글렌리벳 12년 (700ml)",
        "price": 380000
       }
-     ]
+     ],
+     "path": "menu-files/1790752717_818369-0.png"
     },
     {
      "name": "IMG_7571.png",
      "fid": "F0C5D0J7QJF",
      "from": "댓글",
-     "path": "menu-files/1790752717_818369-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -295,13 +294,13 @@ window.MENU_REQUESTS = {
        "name": "기네스",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1790752717_818369-1.png"
     },
     {
      "name": "IMG_7570.png",
      "fid": "F0C5H8QS2G6",
      "from": "댓글",
-     "path": "menu-files/1790752717_818369-2.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -409,13 +408,16 @@ window.MENU_REQUESTS = {
        "name": "앱솔루트 피치",
        "price": 270000
       }
-     ]
+     ],
+     "path": "menu-files/1790752717_818369-2.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1790752753.573859",
+   "replies": [
+    "CHAMPAGNE"
+   ],
+   "rc": 3,
+   "lr": "1790752980.268589",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
@@ -484,8 +486,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "*카테고리: 점심메뉴*\n• 메뉴 전체 1,000원씩 인상\n*[가격 수정]*\n*카테고리: 메뉴*\n• 닭볶음탕 \n 38,000원 → 40,000원\n• 불고기전골\n 38,000원 → 43,000원\n\n*[메뉴 추가]*\n*카테고리: 메뉴*\n• 보쌈 → 50,000원\n• 굴 → 25,000원\n• 토종닭도리탕 → 65,000원\n• 토종닭백숙 → 75,000원\n*[메뉴 삭제]*\n*카테고리: 메뉴*\n• 닭껍데기\n• 미니족발\n*카테고리: 점심메뉴*\n• 보리굴비정식 → 삭제\n삭제 후 메뉴 순서는 한 칸씩 당겨서 정리 부탁드립니다."
    ],
-   "rc": 3,
-   "lr": "1790752920.523949",
+   "rc": 4,
+   "lr": "1790752990.061929",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
