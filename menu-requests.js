@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2705,
- "updatedAt": "2026-09-30 11:27",
+ "version": 2706,
+ "updatedAt": "2026-09-30 11:29",
  "days": 30,
  "items": [
   {
@@ -21,10 +21,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "• 칼국수 카테고리 내\n    ◦ 칼만두 9,500원\n    ◦ 칼만두 곱빼기 10,500원\n    ◦ 매운칼국수 10,500원\n    ◦ 매운칼국수 곱빼기 11,500원"
+    "• 칼국수 카테고리 내\n    ◦ 칼만두 9,500원\n    ◦ 칼만두 곱빼기 10,500원\n    ◦ 매운칼국수 10,500원\n    ◦ 매운칼국수 곱빼기 11,500원",
+    "완료 이후 문자 한통 부탁드리겠습니다 :감사합니다꾸벅:"
    ],
-   "rc": 2,
-   "lr": "1790735256.488429",
+   "rc": 3,
+   "lr": "1790735267.313379",
    "rfx": 3,
    "status": "wait",
    "handler": null,
