@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2738,
- "updatedAt": "2026-09-30 15:00",
+ "version": 2739,
+ "updatedAt": "2026-09-30 15:01",
  "days": 30,
  "items": [
   {
@@ -270,8 +270,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743710102899"
   },
   {
@@ -320,8 +320,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743012600649"
   },
   {
@@ -340,8 +340,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "통양갈비 57,000원\n양꼬치 15,900원\n매운양꼬치 16,900\n꿔바로우 19,500원\n가지볶음 16,000원\n지삼선 16,000원\n여향가지 16,000원\n삼선술국 20,000원\n\n주류\n연태고량주 대자 40,000원\n중 24,000원\n소 15,000원"
    ],
-   "rc": 2,
-   "lr": "1790742009.897189",
+   "rc": 3,
+   "lr": "1790748096.296759",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
