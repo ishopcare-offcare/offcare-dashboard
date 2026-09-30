@@ -3,10 +3,280 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2773,
- "updatedAt": "2026-09-30 17:33",
+ "version": 2774,
+ "updatedAt": "2026-09-30 17:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1790757377.048219",
+   "date": "2026-09-30",
+   "time": "17:36",
+   "store": "샌드베어",
+   "biz": "3851601667",
+   "pos": "",
+   "content": "메뉴등록요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C5PKYH14L",
+     "from": "댓글",
+     "path": "menu-files/1790757377_048219-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "디카페인아메",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤즐넛라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "돌체라떼HOT",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메ice",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "디카페인아메ICE",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "라떼ICE",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛ICE",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "돌체라떼ICE",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라빈라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "오트라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "소이라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "토피넛라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜라떼ICE",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라빈ice",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "오트라떼ICE",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "소이라떼ICE",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "토피넛ice",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "에스프레소",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아이스크림라떼",
+       "price": 7000
+      },
+      {
+       "category": "COFFEE",
+       "name": "디카페인",
+       "price": 500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아몬드크림라떼HOT",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "TO아메ICE",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "연하게",
+       "price": 0
+      },
+      {
+       "category": "COFFEE",
+       "name": "아몬드크림라떼ICE",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "TO아메HOT",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛시럽+",
+       "price": 500
+      },
+      {
+       "category": "COFFEE",
+       "name": "우유변경",
+       "price": 500
+      },
+      {
+       "category": "COFFEE",
+       "name": "샷추가",
+       "price": 500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5DNWETC3",
+     "from": "댓글",
+     "path": "menu-files/1790757377_048219-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "MILK & ADE",
+       "name": "말차라떼",
+       "price": 6000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "초코라떼",
+       "price": 5500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "고구마라떼",
+       "price": 5500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "호지차라떼HOT",
+       "price": 6500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "말차ice",
+       "price": 6000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "초코ICE",
+       "price": 5500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "고구마ICE",
+       "price": 5500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "호지차라떼ICE",
+       "price": 6500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "흰우유",
+       "price": 3000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "흰우유ice",
+       "price": 3000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "레몬에이드",
+       "price": 6000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "자몽에이드",
+       "price": 6500
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "청포도에이드",
+       "price": 6000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "오미자에이드",
+       "price": 6000
+      },
+      {
+       "category": "MILK & ADE",
+       "name": "청귤에이드",
+       "price": 6500
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 3,
+   "lr": "1790757416.503089",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790757377048219"
+  },
   {
    "ts": "1790757178.251279",
    "date": "2026-09-30",
