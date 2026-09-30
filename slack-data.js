@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14644,
+  "version": 14645,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220695,16 +220695,16 @@ window.SLACK_DATA = {
     },
     "2026-09-30": {
       "counts": {
+        "as": {
+          "송태양": 2,
+          "심성현": 1,
+          "고경림": 2
+        },
         "booking": {
           "심성현": 1
         },
         "nosetup": {
           "김동욱": 1
-        },
-        "as": {
-          "송태양": 1,
-          "심성현": 1,
-          "고경림": 2
         },
         "transfer": {
           "김동욱": 1
@@ -220717,6 +220717,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:52",
+          "store": "더 타이드 카페(THE TIDE CAFE)",
+          "biz": "8185101076",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "전표 영수증 출력 X / 점검 요청드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:49",
           "store": "케이핀초반",
@@ -220851,7 +220862,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 4,
         "unknown": 0
       },
@@ -221113,11 +221124,14 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790729887.032
+        "lastSeen": 1790729994.037
       },
       "1790729870.991309": {
         "post": "1790729870.991309",
-        "lastSeen": 1790729887.032
+        "lastSeen": 1790729994.037,
+        "r": 1,
+        "day": "2026-09-30",
+        "idx": 6
       }
     },
     "days": {
@@ -291905,8 +291919,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-30": {
-        "cnt": 6,
-        "sumMin": 18.752546266714734,
+        "cnt": 7,
+        "sumMin": 19.911599453290307,
         "over": 0,
         "items": [
           {
@@ -291962,13 +291976,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "menu",
             "dmin": 3.9
+          },
+          {
+            "hm": "09:57",
+            "min": 1.2,
+            "store": "스시집막내아들",
+            "biz": "6113101308",
+            "who": "김동욱",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:58",
+    "at": "2026-09-30 10:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292082,7 +292104,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:58",
+    "at": "2026-09-30 09:59",
     "pri": {
       "days": 0,
       "failed": [],
