@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14646,
+  "version": 14647,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220721,13 +220721,24 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
-          "김동욱": 2,
+          "김동욱": 3,
           "심성현": 1,
           "배선유": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:57",
+          "store": "스시집막내아들",
+          "biz": "6113101308",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "모듬새우 11p 15,500 -&gt; 18,000 왕새우튀김 2p 4,000 -&gt; 4,500 모듬새우 11p 15,500 - 18,000 왕새우튀김 2p 4,000 - 4,500"
+        },
         {
           "time": "09:52",
           "store": "더 타이드 카페(THE TIDE CAFE)",
@@ -220873,11 +220884,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:00",
+      "updatedAt": "10:02",
       "voc": {
         "responses": 2,
         "install": {
@@ -221135,14 +221146,11 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790730104.823
+        "lastSeen": 1790730164.562
       },
-      "1790729870.991309": {
-        "post": "1790729870.991309",
-        "lastSeen": 1790730104.823,
-        "r": 1,
-        "day": "2026-09-30",
-        "idx": 6
+      "1790730145.053979": {
+        "post": "1790730145.053979",
+        "lastSeen": 1790730164.562
       }
     },
     "days": {
@@ -291994,14 +292002,15 @@ window.SLACK_DATA = {
             "store": "스시집막내아들",
             "biz": "6113101308",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 4.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-30 10:02",
+    "at": "2026-09-30 10:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292115,7 +292124,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 10:01",
+    "at": "2026-09-30 10:02",
     "pri": {
       "days": 0,
       "failed": [],
