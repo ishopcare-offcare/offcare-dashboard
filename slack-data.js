@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14626,
+  "version": 14627,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220718,7 +220718,7 @@ window.SLACK_DATA = {
           "req": "토스포스 프로그램에서 왼쪽 상단 ≡ 버튼과 우측 상단 점 세개 버튼이 눌리지 않는 증상이 지속 발생하고 있다고 하시며 원격 점검 요청하셨습니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "• 껐켰 후 정상작동입니다 껐켰 후 정상작동입니다"
         },
         {
           "time": "09:09",
@@ -221019,7 +221019,7 @@ window.SLACK_DATA = {
       },
       "1790726406.222169": {
         "post": "1790726406.222169",
-        "lastSeen": 1790728028.115,
+        "lastSeen": 1790728160.074,
         "r": 1,
         "day": "2026-09-30",
         "idx": 0
@@ -291854,7 +291854,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:27",
+    "at": "2026-09-30 09:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -291968,7 +291968,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:27",
+    "at": "2026-09-30 09:29",
     "pri": {
       "days": 0,
       "failed": [],
