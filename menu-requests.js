@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2740,
- "updatedAt": "2026-09-30 15:03",
+ "version": 2741,
+ "updatedAt": "2026-09-30 15:05",
  "days": 30,
  "items": [
   {
@@ -266,9 +266,11 @@ window.MENU_REQUESTS = {
      ]
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "웅성...\n\n200, 500원 인상이라는 거겟지 웅성,,"
+   ],
+   "rc": 1,
+   "lr": "1790748242.346029",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
