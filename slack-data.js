@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14632,
+  "version": 14633,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220698,10 +220698,13 @@ window.SLACK_DATA = {
         "booking": {
           "심성현": 1
         },
+        "nosetup": {
+          "김동욱": 1
+        },
         "as": {
           "송태양": 1,
           "심성현": 1,
-          "고경림": 1
+          "고경림": 2
         },
         "transfer": {
           "김동욱": 1
@@ -220722,6 +220725,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "익일 1100 재예약"
+        },
+        {
+          "time": "09:30",
+          "store": "씨엔에스영재센터",
+          "biz": "7915201031",
+          "cat": "nosetup",
+          "emp": "김동욱",
+          "req": "노트북+프론트+프린터 온보딩",
+          "hw": "",
+          "intake": "online",
+          "note": "포프유프(노트북) 온보딩 완료"
         },
         {
           "time": "09:15",
@@ -220758,6 +220772,17 @@ window.SLACK_DATA = {
         },
         {
           "time": "09:00",
+          "store": "트레플",
+          "biz": "1020392618",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "• 나이스 NC-7000 단말기 연결 사용 중",
+          "hw": "",
+          "intake": "online",
+          "note": "매장도착후 재연락예정"
+        },
+        {
+          "time": "09:00",
           "store": "라라라 브런치카페 창원사파점",
           "biz": "6910204242",
           "cat": "transfer",
@@ -220780,11 +220805,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 5,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "09:34",
+      "updatedAt": "09:36",
       "voc": {
         "responses": 1,
         "install": {
@@ -221031,20 +221056,20 @@ window.SLACK_DATA = {
         "post": "1790697112.538429",
         "lastSeen": 1790712928.863
       },
-      "1790726406.222169": {
-        "post": "1790726406.222169",
-        "lastSeen": 1790728573.901,
-        "r": 1,
-        "day": "2026-09-30",
-        "idx": 0
-      },
       "1790728478.516029": {
         "post": "1790728478.516029",
-        "lastSeen": 1790728573.901
+        "lastSeen": 1790728682.005,
+        "r": 1,
+        "day": "2026-09-30",
+        "idx": 4
       },
       "1790728456.330009": {
         "post": "1790728456.330009",
-        "lastSeen": 1790728573.901
+        "lastSeen": 1790728682.005
+      },
+      "1790728609.426919": {
+        "post": "1790728609.426919",
+        "lastSeen": 1790728682.005
       }
     },
     "days": {
@@ -291832,8 +291857,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-30": {
-        "cnt": 4,
-        "sumMin": 15.224173398812614,
+        "cnt": 5,
+        "sumMin": 17.714789585272474,
         "over": 0,
         "items": [
           {
@@ -291842,7 +291867,8 @@ window.SLACK_DATA = {
             "store": "트레플",
             "biz": "1020392618",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 37
           },
           {
             "hm": "08:49",
@@ -291870,13 +291896,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "as",
             "dmin": 18.1
+          },
+          {
+            "hm": "09:34",
+            "min": 2.5,
+            "store": "느린시간",
+            "biz": "2014401474",
+            "who": "심성현",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:37",
+    "at": "2026-09-30 09:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -291990,7 +292024,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:36",
+    "at": "2026-09-30 09:38",
     "pri": {
       "days": 0,
       "failed": [],
