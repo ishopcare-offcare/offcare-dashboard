@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2716,
- "updatedAt": "2026-09-30 13:01",
+ "version": 2717,
+ "updatedAt": "2026-09-30 13:02",
  "days": 30,
  "items": [
   {
@@ -77,11 +77,28 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C5HJGMQH0",
+     "from": "댓글",
+     "path": "menu-files/1790736744_911709-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "일마지오 킨텍스점 > 일마지오 킨텍",
+       "name": "굿나잇흑임자라떼",
+       "price": 6300
+      }
+     ]
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "너무 6300인데"
+   ],
+   "rc": 1,
+   "lr": "1790740892.867119",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
