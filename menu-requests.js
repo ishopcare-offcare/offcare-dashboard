@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2686,
- "updatedAt": "2026-09-30 09:34",
+ "version": 2687,
+ "updatedAt": "2026-09-30 09:35",
  "days": 30,
  "items": [
+  {
+   "ts": "1790728478.516029",
+   "date": "2026-09-30",
+   "time": "09:34",
+   "store": "느린시간",
+   "biz": "2014401474",
+   "pos": "토스포스",
+   "content": "메뉴를 메일로 방금 보냈어요",
+   "special": "이미지는 어제 메일로 보냈어요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790728478516029"
+  },
   {
    "ts": "1790728456.330009",
    "date": "2026-09-30",
@@ -18,11 +39,26 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "소바다 메뉴 LIST (1).xlsx",
+     "fid": "F0C5A6X7EAX",
+     "from": "댓글",
+     "path": "menu-files/1790728456_330009-0.xlsx",
+     "nj": 1
+    },
+    {
+     "name": "소바다 메뉴 LIST.xlsx",
+     "fid": "F0C5L41CB7W",
+     "from": "댓글",
+     "path": "menu-files/1790728456_330009-1.xlsx",
+     "nj": 1
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 2,
+   "lr": "1790728466.307789",
    "rfx": 3,
    "status": "wait",
    "handler": null,
