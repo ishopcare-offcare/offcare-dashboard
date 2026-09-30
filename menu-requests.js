@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2752,
- "updatedAt": "2026-09-30 15:51",
+ "version": 2753,
+ "updatedAt": "2026-09-30 15:53",
  "days": 30,
  "items": [
   {
@@ -51603,36 +51603,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788163287128769"
-  },
-  {
-   "ts": "1788159116.377219",
-   "date": "2026-08-31",
-   "time": "15:51",
-   "store": "쇼쿠요쿠",
-   "biz": "6217900555",
-   "pos": "",
-   "content": "금액 수정 부탁 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[금액수정]\n온모밀 8500원\n사게도로동 13000원\n연어사시미 15000원",
-    "음,,,,그거말고는 없는거같습니다...",
-    "연어가 올랐으니 사케동도 올랐다",
-    "잠시만요 저 채팅 있어서",
-    "오잉",
-    "네넵..!",
-    "사게도로롱 > 사케동 맞는지\n연어사시미 > 덮밥에 있는데 카테고리 확인 필요\n:loading:",
-    "온모밀 : 금액 8,500으로 변경\n연어사시미 : 금액 15,000원으로 변경\n\n사케도로동 : 메뉴 등록 필요 // 금액 13,000원"
-   ],
-   "rc": 15,
-   "lr": "1788162732.866979",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788159116377219"
   }
  ],
  "ocr": {
