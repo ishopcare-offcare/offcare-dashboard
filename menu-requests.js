@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2707,
- "updatedAt": "2026-09-30 11:31",
+ "version": 2708,
+ "updatedAt": "2026-09-30 11:36",
  "days": 30,
  "items": [
   {
@@ -53174,146 +53174,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788144773390649"
-  },
-  {
-   "ts": "1788143729.837129",
-   "date": "2026-08-31",
-   "time": "11:35",
-   "store": "호남식당",
-   "biz": "1223243839",
-   "pos": "토스포스",
-   "content": "메뉴입력",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1F4X8Hq4DI6n1uTa65GH0QO-X1ELafsrU/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1F4X8Hq4DI6n1uTa65GH0QO-X1ELafsrU",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "메인메뉴",
-       "name": "소막창",
-       "price": 13000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "삼겹살",
-       "price": 12000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "왕갈비",
-       "price": 12000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "맛고기",
-       "price": 12000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "생선조림",
-       "price": 20000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "생선구이",
-       "price": 12000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "홍어찜",
-       "price": 20000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "간재미찜",
-       "price": 13000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "오삼불고기",
-       "price": 20000
-      },
-      {
-       "category": "메인메뉴",
-       "name": "오징어볶음",
-       "price": 15000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "소머리국밥",
-       "price": 10000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "아구알탕",
-       "price": 10000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "바지락탕",
-       "price": 15000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "다슬기된장",
-       "price": 9000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "김치찌개",
-       "price": 8000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "순두부",
-       "price": 8000
-      },
-      {
-       "category": "식사메뉴",
-       "name": "계란찜",
-       "price": 8000
-      },
-      {
-       "category": "",
-       "name": "갑오징어데침",
-       "price": 15000
-      },
-      {
-       "category": "주류/음료",
-       "name": "소주",
-       "price": 4000
-      },
-      {
-       "category": "주류/음료",
-       "name": "맥주",
-       "price": 5000
-      },
-      {
-       "category": "주류/음료",
-       "name": "청하",
-       "price": 5000
-      },
-      {
-       "category": "주류/음료",
-       "name": "음료",
-       "price": 2000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788143733.481409",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788143729837129"
   }
  ],
  "ocr": {
