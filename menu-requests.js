@@ -3,10 +3,200 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2721,
- "updatedAt": "2026-09-30 13:45",
+ "version": 2722,
+ "updatedAt": "2026-09-30 13:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1790743710.102899",
+   "date": "2026-09-30",
+   "time": "13:48",
+   "store": "움버거앤 윙스",
+   "biz": "1358560825",
+   "pos": "퍼스트포스",
+   "content": "가격인상건 입니다\n버거 단품 500원\n세트,시그니처,메가윙 200원",
+   "special": "치킨불고기 버거세트만",
+   "drive": [
+    "https://drive.google.com/file/d/1q1jQiFHqFLWFKEk7-BjBZ6pJZ30rGZCD/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1q1jQiFHqFLWFKEk7-BjBZ6pJZ30rGZCD",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "치킨 불고기",
+       "name": "단품",
+       "price": 6100
+      },
+      {
+       "category": "치킨 불고기",
+       "name": "버거 세트",
+       "price": 9600
+      },
+      {
+       "category": "치킨 불고기",
+       "name": "시그니처 세트",
+       "price": 10900
+      },
+      {
+       "category": "치킨 불고기",
+       "name": "메가윙 세트",
+       "price": 12100
+      },
+      {
+       "category": "오리지널",
+       "name": "단품",
+       "price": 6100
+      },
+      {
+       "category": "오리지널",
+       "name": "버거 세트",
+       "price": 9600
+      },
+      {
+       "category": "오리지널",
+       "name": "시그니처 세트",
+       "price": 10900
+      },
+      {
+       "category": "오리지널",
+       "name": "메가윙 세트",
+       "price": 12100
+      },
+      {
+       "category": "크리미마요",
+       "name": "단품",
+       "price": 7300
+      },
+      {
+       "category": "크리미마요",
+       "name": "버거 세트",
+       "price": 10800
+      },
+      {
+       "category": "크리미마요",
+       "name": "시그니처 세트",
+       "price": 12100
+      },
+      {
+       "category": "크리미마요",
+       "name": "메가윙 세트",
+       "price": 13300
+      },
+      {
+       "category": "할라피뇨",
+       "name": "단품",
+       "price": 7700
+      },
+      {
+       "category": "할라피뇨",
+       "name": "버거 세트",
+       "price": 11200
+      },
+      {
+       "category": "할라피뇨",
+       "name": "시그니처 세트",
+       "price": 12500
+      },
+      {
+       "category": "할라피뇨",
+       "name": "메가윙 세트",
+       "price": 13700
+      },
+      {
+       "category": "로제투움바",
+       "name": "단품",
+       "price": 7300
+      },
+      {
+       "category": "로제투움바",
+       "name": "버거 세트",
+       "price": 10800
+      },
+      {
+       "category": "로제투움바",
+       "name": "시그니처 세트",
+       "price": 12100
+      },
+      {
+       "category": "로제투움바",
+       "name": "메가윙 세트",
+       "price": 13300
+      },
+      {
+       "category": "버팔로",
+       "name": "단품",
+       "price": 7100
+      },
+      {
+       "category": "버팔로",
+       "name": "버거 세트",
+       "price": 10600
+      },
+      {
+       "category": "버팔로",
+       "name": "시그니처 세트",
+       "price": 11900
+      },
+      {
+       "category": "버팔로",
+       "name": "메가윙 세트",
+       "price": 13100
+      },
+      {
+       "category": "소이갈릭",
+       "name": "단품",
+       "price": 7100
+      },
+      {
+       "category": "소이갈릭",
+       "name": "버거 세트",
+       "price": 10600
+      },
+      {
+       "category": "소이갈릭",
+       "name": "시그니처 세트",
+       "price": 11900
+      },
+      {
+       "category": "소이갈릭",
+       "name": "메가윙 세트",
+       "price": 13100
+      },
+      {
+       "category": "볼케이노",
+       "name": "단품",
+       "price": 7100
+      },
+      {
+       "category": "볼케이노",
+       "name": "버거 세트",
+       "price": 10600
+      },
+      {
+       "category": "볼케이노",
+       "name": "시그니처 세트",
+       "price": 11900
+      },
+      {
+       "category": "볼케이노",
+       "name": "메가윙 세트",
+       "price": 13100
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743710102899"
+  },
   {
    "ts": "1790743012.600649",
    "date": "2026-09-30",
