@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2733,
- "updatedAt": "2026-09-30 14:26",
+ "version": 2734,
+ "updatedAt": "2026-09-30 14:28",
  "days": 30,
  "items": [
   {
@@ -52095,30 +52095,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788154566999879"
-  },
-  {
-   "ts": "1788154049.894859",
-   "date": "2026-08-31",
-   "time": "14:27",
-   "store": "부카리",
-   "biz": "7160802924",
-   "pos": "",
-   "content": "메뉴 추가 요청 드립니다. :감사합니다꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "RICE\nJIZ MAZZA / 소고기 야채볶음 — 18,000원\nIPAK YO'LI BEEF / 소고기 부추볶음 — 17,000원\nQAYMOQLI GO'SHT / 크림 소고기버섯 — 19,000원\n\nSALAD\nBAQLAJON MAZZA / 가지 후무스 — 18,000원\nQUVVAT SALAT / 소고기 브로콜리 — 16,000원",
-    ":memo: 메뉴 등록 후 솔라피 발송 예정"
-   ],
-   "rc": 4,
-   "lr": "1788155301.371949",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788154049894859"
   }
  ],
  "ocr": {
