@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2781,
- "updatedAt": "2026-09-30 19:58",
+ "version": 2782,
+ "updatedAt": "2026-09-30 20:10",
  "days": 30,
  "items": [
   {
@@ -52915,49 +52915,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788223382396969"
-  },
-  {
-   "ts": "1788174558.223329",
-   "date": "2026-08-31",
-   "time": "20:09",
-   "store": "집밥",
-   "biz": "1304800813",
-   "pos": "퍼스트포스",
-   "content": "• 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BTD8DP7P1",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1788174558_223329-0.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0BTSM0KHPG",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1788174558_223329-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "카테고리: 신메뉴\n메뉴명: 게살계란덮밥\n금액: 10,900원",
-    "사진은 이메일로 보내셨다고 합니다.",
-    "사진 직접 받았습니다!",
-    "키오스크도 사용하고 계신 것 같아서 반영 됐겠죵??"
-   ],
-   "rc": 7,
-   "lr": "1788184589.090459",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788174558223329"
   }
  ],
  "ocr": {
