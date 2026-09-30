@@ -1,1 +1,1 @@
-window.CHANGELOG = [{"d":"2026-09-30","k":"imp","t":"전체 현황: AS 타일에 예약 포함 (예약 타일은 그대로 따로)"}];
+window.CHANGELOG = [{"d":"2026-09-30","k":"imp","t":"GitHub 계정 이름 변경 반영: taeyangsong-art → ishopcare-offcare"}];
