@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2704,
- "updatedAt": "2026-09-30 10:36",
+ "version": 2705,
+ "updatedAt": "2026-09-30 11:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1790735251.157419",
+   "date": "2026-09-30",
+   "time": "11:27",
+   "store": "온천천고기주는밀면",
+   "biz": "6732101781",
+   "pos": "퍼스트포스",
+   "content": "메뉴 추가 요청드립니다 ! (유플러스)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 칼국수 카테고리 내\n    ◦ 칼만두 9,500원\n    ◦ 칼만두 곱빼기 10,500원\n    ◦ 매운칼국수 10,500원\n    ◦ 매운칼국수 곱빼기 11,500원"
+   ],
+   "rc": 2,
+   "lr": "1790735256.488429",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790735251157419"
+  },
   {
    "ts": "1790730641.583279",
    "date": "2026-09-30",
