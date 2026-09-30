@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14641,
+  "version": 14642,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220737,7 +220737,7 @@ window.SLACK_DATA = {
           "req": "레모네이드 단품 2900원 -&gt; 2700원 변경, 햄버거 세트에 있는 레모네이드들 800원 -&gt; 600원으로 변경 부탁드립니다",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "솔라피발송"
         },
         {
           "time": "09:34",
@@ -221113,7 +221113,7 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790729585.762
+        "lastSeen": 1790729667.937
       }
     },
     "days": {
@@ -291964,7 +291964,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:53",
+    "at": "2026-09-30 09:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292078,7 +292078,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:53",
+    "at": "2026-09-30 09:54",
     "pri": {
       "days": 0,
       "failed": [],
