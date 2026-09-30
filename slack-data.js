@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14638,
+  "version": 14639,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220710,12 +220710,24 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
+          "김동욱": 1,
           "심성현": 1,
           "배선유": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:45",
+          "store": "롯데리아 일산 킨텍스점",
+          "biz": "1283678917",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "레모네이드 단품 2900원 -&gt; 2700원 변경, 햄버거 세트에 있는 레모네이드들 800원 -&gt; 600원으로 변경 부탁드립니다",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "09:34",
           "store": "느린시간",
@@ -220829,10 +220841,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "09:45",
+      "updatedAt": "09:49",
       "voc": {
         "responses": 1,
         "install": {
@@ -221081,14 +221093,7 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790729309.718
-      },
-      "1790729120.124599": {
-        "post": "1790729120.124599",
-        "lastSeen": 1790729309.718,
-        "r": 1,
-        "day": "2026-09-30",
-        "idx": 5
+        "lastSeen": 1790729399.618
       }
     },
     "days": {
@@ -291931,14 +291936,15 @@ window.SLACK_DATA = {
             "store": "롯데리아 일산 킨텍스점",
             "biz": "1283678917",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 3.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:49",
+    "at": "2026-09-30 09:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292052,7 +292058,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:48",
+    "at": "2026-09-30 09:49",
     "pri": {
       "days": 0,
       "failed": [],

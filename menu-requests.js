@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2692,
- "updatedAt": "2026-09-30 09:49",
+ "version": 2693,
+ "updatedAt": "2026-09-30 09:50",
  "days": 30,
  "items": [
+  {
+   "ts": "1790729346.677329",
+   "date": "2026-09-30",
+   "time": "09:49",
+   "store": "케이핀초반",
+   "biz": "2660303234",
+   "pos": "기타",
+   "content": "안주류 카테고리에 한우차돌떡볶이 25000원 추가부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729346677329"
+  },
   {
    "ts": "1790729120.124599",
    "date": "2026-09-30",
