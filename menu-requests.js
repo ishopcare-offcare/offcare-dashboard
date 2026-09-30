@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2695,
- "updatedAt": "2026-09-30 09:55",
+ "version": 2696,
+ "updatedAt": "2026-09-30 09:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1790729870.991309",
+   "date": "2026-09-30",
+   "time": "09:57",
+   "store": "스시집막내아들",
+   "biz": "6113101308",
+   "pos": "기타",
+   "content": "튀김류 탭\n모듬튀김 18000원으로 가격수정\n새우튀김 2p 4500원으로 가격수정",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729870991309"
+  },
   {
    "ts": "1790729346.677329",
    "date": "2026-09-30",
