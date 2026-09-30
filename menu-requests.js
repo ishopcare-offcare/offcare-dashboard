@@ -3,31 +3,10 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2746,
- "updatedAt": "2026-09-30 15:14",
+ "version": 2747,
+ "updatedAt": "2026-09-30 15:16",
  "days": 30,
  "items": [
-  {
-   "ts": "1790748737.289989",
-   "date": "2026-09-30",
-   "time": "15:12",
-   "store": "교자501주식회사",
-   "biz": "7658703895",
-   "pos": "",
-   "content": "van 변경으로 인한 메뉴 복사 요청\n기존 :  KCP -> KSNET 변경 토플파 생성 완료\n28일 메뉴복사되었는데 점주님이 확인하니 예전에 썼던 메뉴가 등록되어있다고  현제 사용중인 메뉴로 등록해달라고 합니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790748740.327179",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790748737289989"
-  },
   {
    "ts": "1790747754.995379",
    "date": "2026-09-30",
