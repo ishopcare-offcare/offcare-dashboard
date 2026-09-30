@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14629,
+  "version": 14630,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220695,6 +220695,9 @@ window.SLACK_DATA = {
     },
     "2026-09-30": {
       "counts": {
+        "booking": {
+          "심성현": 1
+        },
         "as": {
           "송태양": 1,
           "심성현": 1,
@@ -220709,6 +220712,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "백카츠",
+          "biz": "1062934212",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "기존 사용 포스기 + 프론트 연결 온보딩 요청 드리며, 기존 사용 프린터 기기 연동 가능하면 해당 기기도 함께 연동 요청 주셨습니다!",
+          "hw": "",
+          "intake": "offline",
+          "note": "익일 1100 재예약"
+        },
         {
           "time": "09:15",
           "store": "주식회사 벗이(Versi)(미술관)",
@@ -220767,7 +220781,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "09:30",
@@ -221019,7 +221033,7 @@ window.SLACK_DATA = {
       },
       "1790726406.222169": {
         "post": "1790726406.222169",
-        "lastSeen": 1790728338.877,
+        "lastSeen": 1790728426.7,
         "r": 1,
         "day": "2026-09-30",
         "idx": 0
@@ -291854,7 +291868,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:32",
+    "at": "2026-09-30 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -291968,7 +291982,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:32",
+    "at": "2026-09-30 09:33",
     "pri": {
       "days": 0,
       "failed": [],
