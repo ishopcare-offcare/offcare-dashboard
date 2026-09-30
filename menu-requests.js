@@ -3,10 +3,46 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2714,
- "updatedAt": "2026-09-30 12:52",
+ "version": 2715,
+ "updatedAt": "2026-09-30 12:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1790740357.731879",
+   "date": "2026-09-30",
+   "time": "12:52",
+   "store": "사실빙 충북대점",
+   "biz": "1155401056",
+   "pos": "",
+   "content": "현재 등록메뉴 삭제 후 엑셀파일 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "f_c6379e866733.xlsx",
+     "fid": "F0C5CEFLZ61",
+     "from": "댓글",
+     "path": "menu-files/1790740357_731879-0.xlsx",
+     "nj": 1
+    },
+    {
+     "name": "f_ec1393dad74c.xlsx",
+     "fid": "F0C5MBM97J8",
+     "from": "댓글",
+     "path": "menu-files/1790740357_731879-1.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790740376.357979",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790740357731879"
+  },
   {
    "ts": "1790740094.179589",
    "date": "2026-09-30",
@@ -20,9 +56,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790740097.896669",
+   "replies": [
+    "피크시간일 것 같아, 점주님 연락이 닿지 않는다면\n\n본사 최봄이 매니저 <tel:···|···> 에게 안내 부탁드립니다~\nㄴ> 대형키오스크 화면 수정관련해서 문의 주셔서요!"
+   ],
+   "rc": 2,
+   "lr": "1790740421.007479",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
