@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2717,
- "updatedAt": "2026-09-30 13:02",
+ "version": 2718,
+ "updatedAt": "2026-09-30 13:21",
  "days": 30,
  "items": [
+  {
+   "ts": "1790741972.244189",
+   "date": "2026-09-30",
+   "time": "13:19",
+   "store": "장성양갈비",
+   "biz": "2765500363",
+   "pos": "퍼스트포스",
+   "content": "메뉴 가격수정 요청 주셨습니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "통양갈비 57,000원\n양꼬치 15,900원\n매운양꼬치 16,900\n꿔바로우 19,500원\n가지볶음 16,000원\n지삼선 16,000원\n여향가지 16,000원\n삼선술국 20,000원\n\n주류\n연태고량주 대자 40,000원\n중 24,000원\n소 15,000원"
+   ],
+   "rc": 2,
+   "lr": "1790742009.897189",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790741972244189"
+  },
   {
    "ts": "1790740357.731879",
    "date": "2026-09-30",
