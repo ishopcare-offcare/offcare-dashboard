@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2774,
- "updatedAt": "2026-09-30 17:37",
+ "version": 2775,
+ "updatedAt": "2026-09-30 17:40",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C5PKYH14L",
      "from": "댓글",
-     "path": "menu-files/1790757377_048219-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -181,13 +180,13 @@ window.MENU_REQUESTS = {
        "name": "샷추가",
        "price": 500
       }
-     ]
+     ],
+     "path": "menu-files/1790757377_048219-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C5DNWETC3",
      "from": "댓글",
-     "path": "menu-files/1790757377_048219-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -265,13 +264,373 @@ window.MENU_REQUESTS = {
        "name": "청귤에이드",
        "price": 6500
       }
+     ],
+     "path": "menu-files/1790757377_048219-1.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6EAYMBBJ",
+     "from": "댓글",
+     "path": "menu-files/1790757377_048219-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BLENDING only ice",
+       "name": "수박스무디",
+       "price": 7000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "키위쥬스",
+       "price": 6000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "꿀배스무디",
+       "price": 7000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "플레인요거트스무디",
+       "price": 6500
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "딸기요거트스무디",
+       "price": 7000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "블루베리요거트스무디",
+       "price": 7000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "망고요거트스무디",
+       "price": 7000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "사과요거트스무디",
+       "price": 7000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "베어빙수",
+       "price": 13000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "빙수아메HOT",
+       "price": 3000
+      },
+      {
+       "category": "BLENDING only ice",
+       "name": "빙수아메ICE",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C54JQ4BGF",
+     "from": "댓글",
+     "path": "menu-files/1790757377_048219-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "레몬차",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "대추생강차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아아이스티",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬ICE",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차ICE",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "대추생강ICE",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "청귤차Hot",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "애플시나몬차HOT",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "TEA",
+       "name": "청귤차ice",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차ice",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "애플시나몬차ICE",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "카모마일",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "머쉬룸히어로",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "카모마일ice",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스ice",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "머쉬룸히어로ice",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이ice",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트ice",
+       "price": 5500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5ENXNW0M",
+     "from": "댓글",
+     "path": "menu-files/1790757377_048219-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "오늘케이크",
+       "name": "플레인바스크",
+       "price": 6000
+      },
+      {
+       "category": "오늘케이크",
+       "name": "피스타치오 무화과",
+       "price": 7000
+      },
+      {
+       "category": "오늘케이크",
+       "name": "생망고케이크",
+       "price": 6500
+      },
+      {
+       "category": "오늘케이크",
+       "name": "초코바나나케이크",
+       "price": 6500
+      },
+      {
+       "category": "오늘케이크",
+       "name": "메론우유생크림",
+       "price": 6500
+      },
+      {
+       "category": "오늘케이크",
+       "name": "키위요거트생크림",
+       "price": 6500
+      },
+      {
+       "category": "오늘케이크",
+       "name": "샤인머스켓생크림",
+       "price": 6500
+      },
+      {
+       "category": "오늘케이크",
+       "name": "복숭아케이크",
+       "price": 6500
+      },
+      {
+       "category": "오늘케이크",
+       "name": "생망고케이크",
+       "price": 6500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5MU348D7",
+     "from": "댓글",
+     "path": "menu-files/1790757377_048219-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "오늘파운드",
+       "name": "레몬파운드",
+       "price": 4300
+      },
+      {
+       "category": "오늘파운드",
+       "name": "호두파운드",
+       "price": 4500
+      },
+      {
+       "category": "오늘파운드",
+       "name": "황치즈파운드",
+       "price": 4300
+      },
+      {
+       "category": "오늘파운드",
+       "name": "연유파운드",
+       "price": 4300
+      },
+      {
+       "category": "오늘파운드",
+       "name": "사과파운드",
+       "price": 4000
+      },
+      {
+       "category": "오늘파운드",
+       "name": "얼그레이파운드",
+       "price": 4300
+      },
+      {
+       "category": "오늘파운드",
+       "name": "코코넛파운드",
+       "price": 4000
+      },
+      {
+       "category": "오늘파운드",
+       "name": "흑임자파운드",
+       "price": 4300
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C54JVNHDM",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "오늘구움류",
+       "name": "트리플치즈포테이토",
+       "price": 4500
+      },
+      {
+       "category": "오늘구움류",
+       "name": "트리플치즈포테이토",
+       "price": 4500
+      },
+      {
+       "category": "오늘구움류",
+       "name": "초코칩스모어",
+       "price": 4300
+      },
+      {
+       "category": "오늘구움류",
+       "name": "갈릭새우크림치즈",
+       "price": 4500
+      },
+      {
+       "category": "오늘구움류",
+       "name": "미니초코칩",
+       "price": 3500
+      },
+      {
+       "category": "오늘구움류",
+       "name": "로투스크럼블",
+       "price": 4300
+      },
+      {
+       "category": "오늘구움류",
+       "name": "바닐라마들렌",
+       "price": 4300
+      },
+      {
+       "category": "오늘구움류",
+       "name": "쑥마들렌",
+       "price": 4300
+      },
+      {
+       "category": "오늘구움류",
+       "name": "코코넛마들렌",
+       "price": 4000
+      },
+      {
+       "category": "오늘구움류",
+       "name": "휘낭시에2000",
+       "price": 2000
+      },
+      {
+       "category": "오늘구움류",
+       "name": "발로나초코휘낭시에",
+       "price": 4500
+      },
+      {
+       "category": "오늘구움류",
+       "name": "휘낭시에2개입",
+       "price": 4500
+      }
      ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 3,
-   "lr": "1790757416.503089",
+   "rc": 8,
+   "lr": "1790757495.171029",
    "rfx": 3,
    "status": "wait",
    "handler": null,
