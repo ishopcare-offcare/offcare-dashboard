@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2725,
- "updatedAt": "2026-09-30 13:56",
+ "version": 2726,
+ "updatedAt": "2026-09-30 13:58",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,21 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_7013.heic",
+     "fid": "F0C5G5D4QUE",
+     "from": "댓글",
+     "path": "menu-files/1790744193_172249-0.heic",
+     "nj": 1
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "ice 메뉴는 모두 hot 메뉴와 가격동일하게 요청하셨습니다"
+   ],
+   "rc": 2,
+   "lr": "1790744239.859889",
    "rfx": 3,
    "status": "wait",
    "handler": null,
