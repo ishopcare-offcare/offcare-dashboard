@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14621,
+  "version": 14622,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220728,7 +220728,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 1,
         "unknown": 0
       },
@@ -220767,7 +220767,17 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": []
-      }
+      },
+      "absent": [
+        {
+          "time": "09:09",
+          "store": "미인이야기",
+          "biz": "6336200472",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -220981,14 +220991,14 @@ window.SLACK_DATA = {
       },
       "1790726406.222169": {
         "post": "1790726406.222169",
-        "lastSeen": 1790727395.849,
+        "lastSeen": 1790727475.029,
         "r": 1,
         "day": "2026-09-30",
         "idx": 0
       },
       "1790726742.504309": {
         "post": "1790726742.504309",
-        "lastSeen": 1790727395.849,
+        "lastSeen": 1790727475.029,
         "r": 1,
         "day": "2026-09-30",
         "idx": 3
@@ -291822,7 +291832,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 09:16",
+    "at": "2026-09-30 09:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -291936,7 +291946,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 09:16",
+    "at": "2026-09-30 09:17",
     "pri": {
       "days": 0,
       "failed": [],
