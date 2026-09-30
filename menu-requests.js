@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2754,
- "updatedAt": "2026-09-30 15:58",
+ "version": 2755,
+ "updatedAt": "2026-09-30 16:13",
  "days": 30,
  "items": [
+  {
+   "ts": "1790752308.694549",
+   "date": "2026-09-30",
+   "time": "16:11",
+   "store": "담",
+   "biz": "2311502979",
+   "pos": "",
+   "content": "[📧 메일] 제목: 포스기 신규메뉴 신청\n상호명 담 대표 한유정 사업자번호 ··· 연락처 ···  내일 포스기 설치후 저녁부터 영업이라 차질없이 등록 부탁드릴게요 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0f123ecf54d95a>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0f123ecf54d95a",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790752308694549"
+  },
   {
    "ts": "1790751411.074019",
    "date": "2026-09-30",
@@ -47,8 +73,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1790747929.877419",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790747754995379"
   },
   {
