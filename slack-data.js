@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14656,
+  "version": 14657,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220707,6 +220707,7 @@ window.SLACK_DATA = {
     "2026-09-30": {
       "counts": {
         "onboarding": {
+          "송태양": 1,
           "심성현": 1
         },
         "as": {
@@ -220732,6 +220733,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:13",
+          "store": "주식회사 오엔와이",
+          "biz": "2748503207",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "태블릿 + 프론트 + 유선프린터 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 완료입니다"
+        },
         {
           "time": "10:00",
           "store": "좋은나무독서논술학원",
@@ -220921,7 +220933,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 4,
         "unknown": 0
       },
@@ -221183,11 +221195,11 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790731017.871
+        "lastSeen": 1790731127.557
       },
       "1790730145.053979": {
         "post": "1790730145.053979",
-        "lastSeen": 1790731017.871,
+        "lastSeen": 1790731127.557,
         "r": 1,
         "day": "2026-09-30",
         "idx": 7
@@ -292058,7 +292070,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-09-30 10:17",
+    "at": "2026-09-30 10:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292172,7 +292184,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 10:16",
+    "at": "2026-09-30 10:18",
     "pri": {
       "days": 0,
       "failed": [],
