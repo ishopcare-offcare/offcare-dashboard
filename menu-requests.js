@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2689,
- "updatedAt": "2026-09-30 09:38",
+ "version": 2690,
+ "updatedAt": "2026-09-30 09:45",
  "days": 30,
  "items": [
+  {
+   "ts": "1790729120.124599",
+   "date": "2026-09-30",
+   "time": "09:45",
+   "store": "롯데리아 일산 킨텍스점",
+   "biz": "1283678917",
+   "pos": "퍼스트포스",
+   "content": "레모네이드 단품 2900원 -> 2700원 변경, 햄버거 세트에 있는 레모네이드들 800원 -> 600원으로 변경 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729120124599"
+  },
   {
    "ts": "1790728609.426919",
    "date": "2026-09-30",
@@ -53737,29 +53758,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788139000387999"
-  },
-  {
-   "ts": "1788136998.156179",
-   "date": "2026-08-31",
-   "time": "09:43",
-   "store": "바다양푼이동태탕",
-   "biz": "2103243951",
-   "pos": "퍼스트포스",
-   "content": "메뉴 가격수정 부탁드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• 돼지불백 11,000원에서 12,000원으로 변경"
-   ],
-   "rc": 3,
-   "lr": "1788137103.219209",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788136998156179"
   }
  ],
  "ocr": {
