@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2710,
- "updatedAt": "2026-09-30 11:44",
+ "version": 2711,
+ "updatedAt": "2026-09-30 11:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1790736744.911709",
+   "date": "2026-09-30",
+   "time": "11:52",
+   "store": "일마지오 킨텍스",
+   "biz": "7528502275",
+   "pos": "퍼스트포스",
+   "content": "시즌메뉴에 흑임자 라떼 가격수정요청\n\n63,000-> 6,300원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790736744911709"
+  },
   {
    "ts": "1790735251.157419",
    "date": "2026-09-30",
@@ -53151,29 +53172,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788146833103489"
-  },
-  {
-   "ts": "1788144773.390649",
-   "date": "2026-08-31",
-   "time": "11:52",
-   "store": "계부자",
-   "biz": "3460603093",
-   "pos": "퍼스트포스",
-   "content": "금액 수정 부탁 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "주류음료 카테고리\n소주 4000원\n맥주 4000원\n으로 가격변경 부탁 드립니다."
-   ],
-   "rc": 3,
-   "lr": "1788144907.286339",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788144773390649"
   }
  ],
  "ocr": {
