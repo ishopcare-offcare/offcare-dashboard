@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2764,
- "updatedAt": "2026-09-30 16:42",
+ "version": 2765,
+ "updatedAt": "2026-09-30 16:44",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,448 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20260930_160509.jpg.jpeg",
+     "fid": "F0C5HF48RSA",
+     "from": "댓글",
+     "path": "menu-files/1790754130_866489-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메인 메뉴",
+       "name": "제철 사시미",
+       "price": 44000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "제철 이시미",
+       "price": 25000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "시메사바",
+       "price": 37000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "해물 뚝배기",
+       "price": 26000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "어묵 나베",
+       "price": 18500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "바지락 술찜",
+       "price": 19500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "돈페이야끼",
+       "price": 14900
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "간짬뽕 파스타",
+       "price": 19500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "들기름 메밀면",
+       "price": 9000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러플 감자전",
+       "price": 18000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "항정살수육",
+       "price": 22000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "새우청양크림파스타",
+       "price": 19800
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "명란오일파스타",
+       "price": 19500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "게장파스타",
+       "price": 19500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "열순두부 나베",
+       "price": 18500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "백짬뽕탕",
+       "price": 19900
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "모츠나베",
+       "price": 21000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "해장파스탕",
+       "price": 21000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160511.jpg.jpeg",
+     "fid": "F0C6DQAE0SU",
+     "from": "댓글",
+     "path": "menu-files/1790754130_866489-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "가벼운 친구",
+       "name": "명란구이",
+       "price": 12000
+      },
+      {
+       "category": "가벼운 친구",
+       "name": "멘치카츠",
+       "price": 9800
+      },
+      {
+       "category": "가벼운 친구",
+       "name": "치킨 난반",
+       "price": 9800
+      },
+      {
+       "category": "가벼운 친구",
+       "name": "간장치킨",
+       "price": 9900
+      },
+      {
+       "category": "가벼운 친구",
+       "name": "게살 고로케",
+       "price": 8000
+      },
+      {
+       "category": "가벼운 친구",
+       "name": "계란말이",
+       "price": 15900
+      },
+      {
+       "category": "가벼운 친구",
+       "name": "아보카도명란튀김",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160514.jpg.jpeg",
+     "fid": "F0C5K9A1EDQ",
+     "from": "댓글",
+     "path": "menu-files/1790754130_866489-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "더 가벼운 친구",
+       "name": "모찌리도후",
+       "price": 3800
+      },
+      {
+       "category": "더 가벼운 친구",
+       "name": "꽂감말이",
+       "price": 7000
+      },
+      {
+       "category": "더 가벼운 친구",
+       "name": "그냥 메론",
+       "price": 6000
+      },
+      {
+       "category": "더 가벼운 친구",
+       "name": "레몬",
+       "price": 2000
+      },
+      {
+       "category": "더 가벼운 친구",
+       "name": "토마토절임",
+       "price": 6500
+      },
+      {
+       "category": "더 가벼운 친구",
+       "name": "공기밥",
+       "price": 1500
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160515.jpg.jpeg",
+     "fid": "F0C5D707Q75",
+     "from": "댓글",
+     "path": "menu-files/1790754130_866489-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "진로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "카스 병맥주",
+       "price": 5500
+      },
+      {
+       "category": "주류",
+       "name": "테라 생맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "기린 생맥주",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "느림마을 막걸리",
+       "price": 7000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160517.jpg.jpeg",
+     "fid": "F0C5P449NTE",
+     "from": "댓글",
+     "path": "menu-files/1790754130_866489-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "전통주",
+       "name": "강쇠주",
+       "price": 6500
+      },
+      {
+       "category": "전통주",
+       "name": "보해 복분자",
+       "price": 15000
+      },
+      {
+       "category": "전통주",
+       "name": "화요25",
+       "price": 25000
+      },
+      {
+       "category": "전통주",
+       "name": "우렁이 쌀청주",
+       "price": 35000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160519.jpg.jpeg",
+     "fid": "F0C542LSPTR",
+     "from": "댓글",
+     "path": "menu-files/1790754130_866489-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사케류",
+       "name": "쇼치쿠바이 타쿠조",
+       "price": 30000
+      },
+      {
+       "category": "사케류",
+       "name": "월계관 준마이",
+       "price": 40000
+      },
+      {
+       "category": "사케류",
+       "name": "쿄노노시즈쿠 준마이",
+       "price": 45000
+      },
+      {
+       "category": "사케류",
+       "name": "상선여수 준마이",
+       "price": 65000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160521.jpg.jpeg",
+     "fid": "F0C5HF6A1B8",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "하이볼",
+       "name": "가쿠빈 하이볼",
+       "price": 3000
+      },
+      {
+       "category": "하이볼",
+       "name": "진저 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "봄베이 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "세솔리 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "얼그레이 하이볼",
+       "price": 9500
+      },
+      {
+       "category": "하이볼",
+       "name": "연태꼬량 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "유자 하이볼",
+       "price": 9500
+      },
+      {
+       "category": "하이볼",
+       "name": "담솔 하이볼",
+       "price": 9500
+      },
+      {
+       "category": "하이볼",
+       "name": "베리하이볼",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160523.jpg.jpeg",
+     "fid": "F0C5D71E78T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "논알콜 사와",
+       "name": "한라봉 사와",
+       "price": 6000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "매실 사와",
+       "price": 6000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "복숭아 자두 사와",
+       "price": 6000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "콜라",
+       "price": 3000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "사이다",
+       "price": 3000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "토닉워터",
+       "price": 3000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "베리 사와",
+       "price": 6000
+      },
+      {
+       "category": "논알콜 사와",
+       "name": "제로콜라",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20260930_160525.jpg.jpeg",
+     "fid": "F0C5E6WLSA1",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기타",
+       "name": "500",
+       "price": 500
+      },
+      {
+       "category": "기타",
+       "name": "1000",
+       "price": 1000
+      },
+      {
+       "category": "기타",
+       "name": "10000",
+       "price": 10000
+      },
+      {
+       "category": "기타",
+       "name": "100",
+       "price": 100
+      },
+      {
+       "category": "기타",
+       "name": "-10000",
+       "price": -10000
+      },
+      {
+       "category": "기타",
+       "name": "-5000",
+       "price": -5000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790754133.763079",
+   "rc": 2,
+   "lr": "1790754158.525209",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790754130866489"
   },
   {
