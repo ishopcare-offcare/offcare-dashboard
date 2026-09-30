@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2682,
- "updatedAt": "2026-09-30 09:05",
+ "version": 2683,
+ "updatedAt": "2026-09-30 09:07",
  "days": 30,
  "items": [
   {
@@ -23,25 +23,28 @@ window.MENU_REQUESTS = {
      "name": "치즈밀크폼 피치우롱티 500PX.png",
      "fid": "F0C5B146P45",
      "from": "댓글",
-     "path": "menu-files/1790725768_078679-0.png",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790725768_078679-0.png"
     },
     {
      "name": "치즈밀크폼 로얄밀크티 500PX.png",
      "fid": "F0C50S6ERBR",
      "from": "댓글",
-     "path": "menu-files/1790725768_078679-1.png",
      "kind": "product_photo",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790725768_078679-1.png"
     }
    ],
    "datt": [],
    "replies": [
-    "원래 이렇게 많이 메뉴작업을 해주나요.....?ㅎㅎ\n몇 번 째인지 헤아릴수 조차 없네여ㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    "원래 이렇게 많이 메뉴작업을 해주나요.....?ㅎㅎ\n몇 번 째인지 헤아릴수 조차 없네여ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+    "신메뉴 카테고리에 새로나온 메뉴를 추가하겠다는 뜻 아닐까용????",
+    "아하",
+    "그러네^^"
    ],
-   "rc": 4,
-   "lr": "1790726687.742349",
+   "rc": 11,
+   "lr": "1790726788.430329",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
