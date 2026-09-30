@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 14649,
+  "version": 14650,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -220760,7 +220760,7 @@ window.SLACK_DATA = {
           "req": "포스기+프+유프/ 프린터 연결 오류로 지원 요청드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "가이드 보고 크로스젠더 쿠팡에서 구매하셨음 / rj45케이블로 변경"
         },
         {
           "time": "09:52",
@@ -221169,11 +221169,14 @@ window.SLACK_DATA = {
       },
       "1790728609.426919": {
         "post": "1790728609.426919",
-        "lastSeen": 1790730355.554
+        "lastSeen": 1790730451.324
       },
       "1790730145.053979": {
         "post": "1790730145.053979",
-        "lastSeen": 1790730355.554
+        "lastSeen": 1790730451.324,
+        "r": 1,
+        "day": "2026-09-30",
+        "idx": 7
       }
     },
     "days": {
@@ -291961,8 +291964,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-09-30": {
-        "cnt": 7,
-        "sumMin": 19.911599453290307,
+        "cnt": 8,
+        "sumMin": 24.218016469478613,
         "over": 0,
         "items": [
           {
@@ -292027,13 +292030,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "menu",
             "dmin": 4.4
+          },
+          {
+            "hm": "10:02",
+            "min": 4.3,
+            "store": "농업회사법인행복 주식회사",
+            "biz": "3138123849",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-09-30 10:06",
+    "at": "2026-09-30 10:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -292147,7 +292158,7 @@ window.SLACK_DATA = {
     "2026-09-30": 2
   },
   "noteMig": {
-    "at": "2026-09-30 10:05",
+    "at": "2026-09-30 10:07",
     "pri": {
       "days": 0,
       "failed": [],
