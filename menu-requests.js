@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2788,
- "updatedAt": "2026-10-01 09:24",
+ "version": 2789,
+ "updatedAt": "2026-10-01 09:25",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790814245.677839",
+   "replies": [
+    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743710102899",
+    "치킨불고기 버거 단품  6600 > 6100\n치킨불고기 버거 세트 9800 > 8600\n시그니처 치킨불고기 세트 11100 > 10900\n[NEW] 메가윙 버거 치킨세트 12300 > 12100"
+   ],
+   "rc": 3,
+   "lr": "1790814344.427399",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
