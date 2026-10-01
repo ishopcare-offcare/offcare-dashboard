@@ -3,10 +3,230 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2822,
- "updatedAt": "2026-10-01 15:15",
+ "version": 2823,
+ "updatedAt": "2026-10-01 15:21",
  "days": 30,
  "items": [
+  {
+   "ts": "1790835560.338789",
+   "date": "2026-10-01",
+   "time": "15:19",
+   "store": "캬베츠",
+   "biz": "2014901178",
+   "pos": "",
+   "content": "메뉴등록요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C6QMJHKBJ",
+     "from": "댓글",
+     "path": "menu-files/1790835560_338789-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "오코노미야끼",
+       "name": "토마토 오코노미야끼",
+       "price": 16000
+      },
+      {
+       "category": "오코노미야끼",
+       "name": "히로시마 오코노미야끼",
+       "price": 16000
+      },
+      {
+       "category": "야끼소바",
+       "name": "트러플짜장 야끼소바",
+       "price": 17000
+      },
+      {
+       "category": "야끼소바",
+       "name": "새우 시오 야끼소바",
+       "price": 18000
+      },
+      {
+       "category": "야끼소바",
+       "name": "바질 야끼소바",
+       "price": 17000
+      },
+      {
+       "category": "야끼소바",
+       "name": "칸쵸 야끼소바",
+       "price": 18000
+      },
+      {
+       "category": "야끼소바",
+       "name": "돈베이 야끼소바",
+       "price": 17000
+      },
+      {
+       "category": "토핑추가",
+       "name": "소이누들",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "삼겹살",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "새우",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "계란",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "체다치즈",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "할라피뇨",
+       "price": 0
+      },
+      {
+       "category": "곁들이기",
+       "name": "시소 토마토 절임",
+       "price": 6000
+      },
+      {
+       "category": "곁들이기",
+       "name": "아보카도 멘타마요",
+       "price": 8000
+      },
+      {
+       "category": "곁들이기",
+       "name": "바질 야끼교자",
+       "price": 6000
+      },
+      {
+       "category": "알콜-하이볼",
+       "name": "생과일 츄하이",
+       "price": 0
+      },
+      {
+       "category": "알콜-하이볼",
+       "name": "시소 토마토 하이볼",
+       "price": 8000
+      },
+      {
+       "category": "알콜-하이볼",
+       "name": "얼그레이 하이볼",
+       "price": 8000
+      },
+      {
+       "category": "알콜-하이볼",
+       "name": "진저에일 하이볼",
+       "price": 8000
+      },
+      {
+       "category": "알콜-칵테일",
+       "name": "라임 봄베이",
+       "price": 8000
+      },
+      {
+       "category": "알콜-칵테일",
+       "name": "피치 크러쉬",
+       "price": 8000
+      },
+      {
+       "category": "알콜-칵테일",
+       "name": "체잭콕",
+       "price": 8000
+      },
+      {
+       "category": "알콜-칵테일",
+       "name": "잭다니엘 코크",
+       "price": 8000
+      },
+      {
+       "category": "알콜-칵테일",
+       "name": "레몬 진저맨",
+       "price": 8000
+      },
+      {
+       "category": "비어",
+       "name": "레몬 비어",
+       "price": 8000
+      },
+      {
+       "category": "비어",
+       "name": "캬벳츠 비어",
+       "price": 7000
+      },
+      {
+       "category": "논 알콜",
+       "name": "생과일 에이드",
+       "price": 9000
+      },
+      {
+       "category": "논 알콜",
+       "name": "시소 토마토 에이드",
+       "price": 8000
+      },
+      {
+       "category": "논 알콜",
+       "name": "체리콕 에이드",
+       "price": 6000
+      },
+      {
+       "category": "논 알콜",
+       "name": "쿨라임 에이드",
+       "price": 6000
+      },
+      {
+       "category": "논 알콜",
+       "name": "유자 매실 에이드",
+       "price": 6000
+      },
+      {
+       "category": "논 알콜",
+       "name": "레몬 크렌베리 에이드",
+       "price": 6000
+      },
+      {
+       "category": "논 알콜",
+       "name": "콜라/제로콜라",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C601ENLP6",
+     "from": "댓글",
+     "path": "menu-files/1790835560_338789-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "RICE SPECIAL MENU",
+       "name": "철판 오믈렛라이스",
+       "price": 12900
+      },
+      {
+       "category": "RICE SPECIAL MENU",
+       "name": "돈테키 정식",
+       "price": 17900
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790835589.486179",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790835560338789"
+  },
   {
    "ts": "1790835157.765409",
    "date": "2026-10-01",
