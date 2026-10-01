@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2792,
- "updatedAt": "2026-10-01 09:44",
+ "version": 2793,
+ "updatedAt": "2026-10-01 10:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1790818187.498269",
+   "date": "2026-10-01",
+   "time": "10:29",
+   "store": "달달 부산",
+   "biz": "6276400898",
+   "pos": "토스포스",
+   "content": "음료 DRINKS\n(HOT 12 oz / ICED 16 oz)\n\n<커피 COFFEE>\n(Hot or Iced)\n\n아메리카노 Americano 2,900\n에어로카노 Aerocano 5,000\n카페 라떼 Caffe Latte 5,500\n바닐라 라떼 Vanilla Latte 6,000\n헤이즐넛 라떼 Hazelnut Latte 6,000\n모카 라떼 Mocha Latte 6,000\n카라멜 라떼 Caramel Latte 6,000\n달고나 라떼 Dalgona Latte 6,500\n보리차 라떼 Roasted Barley Latte 6,500\n제주 한라봉 에스프레소 클라우드 Jeju Hallabong Espresso Cloud (Iced Only) 7,000\n\n<시그니처 라떼 SIGNATURE LATTES>\n(Hot or Iced)\n\n우베 라떼 Ube Latte 6,500\n말차 라떼 Matcha Latte 6,500\n딸기 말차 라떼 Strawberry Matcha Latte 7,000\n딸기 우유 Strawberry Latte 6,000\n초코 라떼 Chocolate Latte 6,000\n민트 초코 라떼 Mint Chocolate Latte 6,500\n밤 라떼 Chestnut Latte (Seasonal) 6,500\n\n<블렌딩 티 TEA BLENDS>\n(Hot or Iced)\n\n허니 자몽 블랙티 Honey Grapefruit Black Tea 5,500\n리치 캐모마일 티 Lychee Chamomile Tea 5,500\n피치 우롱 티 Peach Oolong Tea 5,500\n페퍼민트 티 Peppermint Tea 5,000\n벚꽃차 Cherry Blossom Tea 5,000\n\n<벌스데이 밀크셰이크 BIRTHDAY MILKSHAKES>\n(Milkshake + Whipped Cream + Sprinkles)\n\n클래식 밀크셰이크 Classic Milkshake 8,500\n딸기 밀크셰이크 Strawberry Milkshake 8,500\n초콜릿 밀크셰이크 Chocolate Milkshake 8,500\n쿠키앤크림 밀크셰이크 Cookies & Cream Milkshake 8,500\n\n<과일 베이스 음료 FRUIT-BASED DRINKS>\n(Iced Only)\n\n부산 바다 레모네이드 Busan Ocean Lemonade 6,500\n제주 한라봉 레모네이드 Jeju Hallabong Lemonade 6,500\n말차 레모네이드 Matcha Lemona",
+   "special": "첫등록입니다",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790818187498269"
+  },
   {
    "ts": "1790814242.556149",
    "date": "2026-10-01",
