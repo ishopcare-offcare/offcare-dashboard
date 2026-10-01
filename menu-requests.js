@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2823,
- "updatedAt": "2026-10-01 15:21",
+ "version": 2824,
+ "updatedAt": "2026-10-01 15:22",
  "days": 30,
  "items": [
   {
@@ -243,7 +243,6 @@ window.MENU_REQUESTS = {
      "name": "스크린샷 2026-10-01 150301.png",
      "fid": "F0C5Q31MVC3",
      "from": "댓글",
-     "path": "menu-files/1790835157_765409-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -301,13 +300,13 @@ window.MENU_REQUESTS = {
        "name": "버섯떡사리",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1790835157_765409-0.png"
     },
     {
      "name": "스크린샷 2026-10-01 150307 (2).png",
      "fid": "F0C5Q31MX3M",
      "from": "댓글",
-     "path": "menu-files/1790835157_765409-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -345,13 +344,13 @@ window.MENU_REQUESTS = {
        "name": "공기밥",
        "price": 1500
       }
-     ]
+     ],
+     "path": "menu-files/1790835157_765409-1.png"
     },
     {
      "name": "스크린샷 2026-10-01 150307.png",
      "fid": "F0C6QLCNBDE",
      "from": "댓글",
-     "path": "menu-files/1790835157_765409-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -379,13 +378,13 @@ window.MENU_REQUESTS = {
        "name": "막걸리",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1790835157_765409-2.png"
     },
     {
      "name": "스크린샷 2026-10-01 150314.png",
      "fid": "F0C5EU3PRPH",
      "from": "댓글",
-     "path": "menu-files/1790835157_765409-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -423,13 +422,13 @@ window.MENU_REQUESTS = {
        "name": "[포장]직화 불곱창",
        "price": 11000
       }
-     ]
+     ],
+     "path": "menu-files/1790835157_765409-3.png"
     },
     {
      "name": "스크린샷 2026-10-01 150249.png",
      "fid": "F0C5Y7W8USV",
      "from": "댓글",
-     "path": "menu-files/1790835157_765409-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -477,13 +476,13 @@ window.MENU_REQUESTS = {
        "name": "직화곱창국밥",
        "price": 10000
       }
-     ]
+     ],
+     "path": "menu-files/1790835157_765409-4.png"
     },
     {
      "name": "스크린샷 2026-10-01 150256.png",
      "fid": "F0C5R0R7M3P",
      "from": "댓글",
-     "path": "menu-files/1790835157_765409-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -516,16 +515,17 @@ window.MENU_REQUESTS = {
        "name": "아주매운맛",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1790835157_765409-5.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790835184.552469",
+   "rc": 3,
+   "lr": "1790835752.697049",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790835157765409"
   },
   {
