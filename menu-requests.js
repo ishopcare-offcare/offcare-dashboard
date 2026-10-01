@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2819,
- "updatedAt": "2026-10-01 14:56",
+ "version": 2820,
+ "updatedAt": "2026-10-01 14:58",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "1000012682.jpg",
      "fid": "F0C5ZJST1BN",
      "from": "댓글",
-     "path": "menu-files/1790831435_218259-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -121,13 +120,13 @@ window.MENU_REQUESTS = {
        "name": "세팅비",
        "price": 3000
       }
-     ]
+     ],
+     "path": "menu-files/1790831435_218259-0.jpg"
     },
     {
      "name": "1000012683.jpg",
      "fid": "F0C5PMQ10RH",
      "from": "댓글",
-     "path": "menu-files/1790831435_218259-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -210,13 +209,13 @@ window.MENU_REQUESTS = {
        "name": "산토리위스키샷",
        "price": 9000
       }
-     ]
+     ],
+     "path": "menu-files/1790831435_218259-1.jpg"
     },
     {
      "name": "1000012684.jpg",
      "fid": "F0C5XSHM341",
      "from": "댓글",
-     "path": "menu-files/1790831435_218259-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -284,13 +283,13 @@ window.MENU_REQUESTS = {
        "name": "낫또추가",
        "price": 3000
       }
-     ]
+     ],
+     "path": "menu-files/1790831435_218259-2.jpg"
     },
     {
      "name": "1000012685.jpg",
      "fid": "F0C6Q9LQKS4",
      "from": "댓글",
-     "path": "menu-files/1790831435_218259-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -313,13 +312,13 @@ window.MENU_REQUESTS = {
        "name": "연어샐러드",
        "price": 17000
       }
-     ]
+     ],
+     "path": "menu-files/1790831435_218259-3.jpg"
     },
     {
      "name": "1000012686.jpg",
      "fid": "F0C5VPTBLF4",
      "from": "댓글",
-     "path": "menu-files/1790831435_218259-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -387,13 +386,13 @@ window.MENU_REQUESTS = {
        "name": "새우튀김 추가",
        "price": 10000
       }
-     ]
+     ],
+     "path": "menu-files/1790831435_218259-4.jpg"
     },
     {
      "name": "1000012687.jpg",
      "fid": "F0C5EHB02NB",
      "from": "댓글",
-     "path": "menu-files/1790831435_218259-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -491,7 +490,8 @@ window.MENU_REQUESTS = {
        "name": "꽈리고추",
        "price": 3000
       }
-     ]
+     ],
+     "path": "menu-files/1790831435_218259-5.jpg"
     },
     {
      "name": "1000012688.jpg",
@@ -763,10 +763,10 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790831492.291669",
+   "rc": 3,
+   "lr": "1790834255.658449",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790831435218259"
   },
