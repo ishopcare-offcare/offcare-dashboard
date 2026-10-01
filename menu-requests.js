@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2814,
- "updatedAt": "2026-10-01 14:11",
+ "version": 2815,
+ "updatedAt": "2026-10-01 14:14",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,753 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "1000012682.jpg",
+     "fid": "F0C5ZJST1BN",
+     "from": "댓글",
+     "path": "menu-files/1790831435_218259-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류1",
+       "name": "테라생",
+       "price": 6000
+      },
+      {
+       "category": "주류1",
+       "name": "삿포로생맥주",
+       "price": 9000
+      },
+      {
+       "category": "주류1",
+       "name": "논알콜맥주 하이네켄",
+       "price": 9000
+      },
+      {
+       "category": "주류1",
+       "name": "논알콜맥주 에딩거",
+       "price": 8000
+      },
+      {
+       "category": "주류1",
+       "name": "월계관더컵 210ml",
+       "price": 16000
+      },
+      {
+       "category": "주류1",
+       "name": "나마쵸조",
+       "price": 20000
+      },
+      {
+       "category": "주류1",
+       "name": "논알콜맥주 에딩거",
+       "price": 8000
+      },
+      {
+       "category": "주류1",
+       "name": "가모즈루 300ml",
+       "price": 24000
+      },
+      {
+       "category": "주류1",
+       "name": "잇떼끼뉴콘 300ml",
+       "price": 35000
+      },
+      {
+       "category": "주류1",
+       "name": "니와냉사케 300ml",
+       "price": 18000
+      },
+      {
+       "category": "주류1",
+       "name": "니와도쿠리 300ml",
+       "price": 18000
+      },
+      {
+       "category": "주류1",
+       "name": "히레사케",
+       "price": 16000
+      },
+      {
+       "category": "주류1",
+       "name": "잔술",
+       "price": 10000
+      },
+      {
+       "category": "주류1",
+       "name": "콜키지",
+       "price": 20000
+      },
+      {
+       "category": "주류1",
+       "name": "콜키지",
+       "price": 30000
+      },
+      {
+       "category": "주류1",
+       "name": "콜키지",
+       "price": 25000
+      },
+      {
+       "category": "주류1",
+       "name": "무룡차펏",
+       "price": 5000
+      },
+      {
+       "category": "주류1",
+       "name": "히레추가",
+       "price": 1000
+      },
+      {
+       "category": "주류1",
+       "name": "세팅비",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "1000012683.jpg",
+     "fid": "F0C5PMQ10RH",
+     "from": "댓글",
+     "path": "menu-files/1790831435_218259-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류2",
+       "name": "화요 375ml",
+       "price": 33000
+      },
+      {
+       "category": "주류2",
+       "name": "화요41",
+       "price": 59000
+      },
+      {
+       "category": "주류2",
+       "name": "비쟌크리어",
+       "price": 55000
+      },
+      {
+       "category": "주류2",
+       "name": "이이치코실루엣",
+       "price": 89000
+      },
+      {
+       "category": "주류2",
+       "name": "쿠로기리시마",
+       "price": 90000
+      },
+      {
+       "category": "주류2",
+       "name": "월계관준마이750",
+       "price": 45000
+      },
+      {
+       "category": "주류2",
+       "name": "쿠로마츠 준마이720ml",
+       "price": 49000
+      },
+      {
+       "category": "주류2",
+       "name": "카모츠루카라구치720",
+       "price": 54000
+      },
+      {
+       "category": "주류2",
+       "name": "구보타센쥬720",
+       "price": 81000
+      },
+      {
+       "category": "주류2",
+       "name": "준마이다이긴죠",
+       "price": 88000
+      },
+      {
+       "category": "주류2",
+       "name": "구보다만쥬",
+       "price": 270000
+      },
+      {
+       "category": "주류2",
+       "name": "나나쿠보",
+       "price": 140000
+      },
+      {
+       "category": "주류2",
+       "name": "센노유메 1.8L",
+       "price": 110000
+      },
+      {
+       "category": "주류2",
+       "name": "구보타센쥬 1.8L",
+       "price": 180000
+      },
+      {
+       "category": "주류2",
+       "name": "간바레오토짱",
+       "price": 48000
+      },
+      {
+       "category": "주류2",
+       "name": "산토리위스키샷",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "name": "1000012684.jpg",
+     "fid": "F0C5XSHM341",
+     "from": "댓글",
+     "path": "menu-files/1790831435_218259-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "라단",
+       "name": "낫또",
+       "price": 5000
+      },
+      {
+       "category": "라단",
+       "name": "에다마메",
+       "price": 6000
+      },
+      {
+       "category": "라단",
+       "name": "냉두부",
+       "price": 9000
+      },
+      {
+       "category": "라단",
+       "name": "가지조림",
+       "price": 10000
+      },
+      {
+       "category": "라단",
+       "name": "오이타타키",
+       "price": 9000
+      },
+      {
+       "category": "라단",
+       "name": "콘버터",
+       "price": 11000
+      },
+      {
+       "category": "라단",
+       "name": "콘치즈",
+       "price": 13000
+      },
+      {
+       "category": "라단",
+       "name": "타코와사비",
+       "price": 12000
+      },
+      {
+       "category": "라단",
+       "name": "시샤모",
+       "price": 17000
+      },
+      {
+       "category": "라단",
+       "name": "마구로야마가케",
+       "price": 16000
+      },
+      {
+       "category": "라단",
+       "name": "마구로낫또",
+       "price": 16000
+      },
+      {
+       "category": "라단",
+       "name": "마추가",
+       "price": 3000
+      },
+      {
+       "category": "라단",
+       "name": "낫또추가",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "1000012685.jpg",
+     "fid": "F0C6Q9LQKS4",
+     "from": "댓글",
+     "path": "menu-files/1790831435_218259-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샐러드",
+       "name": "무샐러드",
+       "price": 17000
+      },
+      {
+       "category": "샐러드",
+       "name": "두부샐러드",
+       "price": 17000
+      },
+      {
+       "category": "샐러드",
+       "name": "샤브샐러드",
+       "price": 19000
+      },
+      {
+       "category": "샐러드",
+       "name": "연어샐러드",
+       "price": 17000
+      }
+     ]
+    },
+    {
+     "name": "1000012686.jpg",
+     "fid": "F0C5VPTBLF4",
+     "from": "댓글",
+     "path": "menu-files/1790831435_218259-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "튀김",
+       "name": "고구마스틱",
+       "price": 15000
+      },
+      {
+       "category": "튀김",
+       "name": "감자튀김",
+       "price": 12000
+      },
+      {
+       "category": "튀김",
+       "name": "돈까스",
+       "price": 17000
+      },
+      {
+       "category": "튀김",
+       "name": "오징어다리튀김",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "오징어링",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "치킨가라아게",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "굴후라이",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "닭날개 소스맛",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "닭날개 소금후추맛",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "브리치즈튀김",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "새우튀김",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "관자튀김",
+       "price": 27000
+      },
+      {
+       "category": "튀김",
+       "name": "새우튀김 추가",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "1000012687.jpg",
+     "fid": "F0C5EHB02NB",
+     "from": "댓글",
+     "path": "menu-files/1790831435_218259-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "일품",
+       "name": "아게다시도후",
+       "price": 12000
+      },
+      {
+       "category": "일품",
+       "name": "야키만두",
+       "price": 15000
+      },
+      {
+       "category": "일품",
+       "name": "고등어구이",
+       "price": 19000
+      },
+      {
+       "category": "일품",
+       "name": "아부리 시메사바",
+       "price": 20000
+      },
+      {
+       "category": "일품",
+       "name": "닭껍질",
+       "price": 4000
+      },
+      {
+       "category": "일품",
+       "name": "계란말이",
+       "price": 19000
+      },
+      {
+       "category": "일품",
+       "name": "참치계란말이",
+       "price": 20000
+      },
+      {
+       "category": "일품",
+       "name": "낫토계란말이",
+       "price": 20000
+      },
+      {
+       "category": "일품",
+       "name": "명란계란말이",
+       "price": 21000
+      },
+      {
+       "category": "일품",
+       "name": "마구로타타키",
+       "price": 19000
+      },
+      {
+       "category": "일품",
+       "name": "메로데리야키",
+       "price": 29000
+      },
+      {
+       "category": "일품",
+       "name": "모듬꼬치",
+       "price": 21000
+      },
+      {
+       "category": "일품",
+       "name": "에비타마",
+       "price": 23000
+      },
+      {
+       "category": "일품",
+       "name": "명란구이",
+       "price": 16000
+      },
+      {
+       "category": "일품",
+       "name": "먹태",
+       "price": 23000
+      },
+      {
+       "category": "일품",
+       "name": "반건조 오징어",
+       "price": 24000
+      },
+      {
+       "category": "일품",
+       "name": "꼬치 닭",
+       "price": 25000
+      },
+      {
+       "category": "일품",
+       "name": "닭껍질",
+       "price": 4000
+      },
+      {
+       "category": "일품",
+       "name": "꽈리고추",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "1000012688.jpg",
+     "fid": "F0C5ZJSQ7NG",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "철판",
+       "name": "오코노미야키",
+       "price": 20000
+      },
+      {
+       "category": "철판",
+       "name": "해물오코노미야키",
+       "price": 21000
+      },
+      {
+       "category": "철판",
+       "name": "스페샬오코노미야키",
+       "price": 23000
+      },
+      {
+       "category": "철판",
+       "name": "히로시마오코 소바면",
+       "price": 22000
+      },
+      {
+       "category": "철판",
+       "name": "히로시마오코 우동면",
+       "price": 22000
+      },
+      {
+       "category": "철판",
+       "name": "돈페이야키",
+       "price": 20000
+      },
+      {
+       "category": "철판",
+       "name": "삼겹숙주볶음",
+       "price": 19000
+      },
+      {
+       "category": "철판",
+       "name": "해물숙주볶음",
+       "price": 19000
+      },
+      {
+       "category": "철판",
+       "name": "오징어몸통구이",
+       "price": 23000
+      },
+      {
+       "category": "철판",
+       "name": "제육생강볶음",
+       "price": 19000
+      },
+      {
+       "category": "철판",
+       "name": "철판 돼지구이",
+       "price": 16000
+      },
+      {
+       "category": "철판",
+       "name": "닭다리살 테리야키",
+       "price": 19000
+      },
+      {
+       "category": "철판",
+       "name": "함박스테이크",
+       "price": 20000
+      },
+      {
+       "category": "철판",
+       "name": "가리비관자 버터구이",
+       "price": 34000
+      },
+      {
+       "category": "철판",
+       "name": "일본식스테이크",
+       "price": 38000
+      },
+      {
+       "category": "철판",
+       "name": "철판치즈 타마센",
+       "price": 17000
+      },
+      {
+       "category": "철판",
+       "name": "봄베이더블샷",
+       "price": 15000
+      },
+      {
+       "category": "철판",
+       "name": "치즈추가",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "1000012689.jpg",
+     "fid": "F0C5ZJSGA5S",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "냄비",
+       "name": "오뎅",
+       "price": 25000
+      },
+      {
+       "category": "냄비",
+       "name": "오뎅(대)",
+       "price": 48000
+      },
+      {
+       "category": "냄비",
+       "name": "나가사키짬뽕나베",
+       "price": 30000
+      },
+      {
+       "category": "냄비",
+       "name": "카레창코나베",
+       "price": 30000
+      },
+      {
+       "category": "냄비",
+       "name": "스키야키",
+       "price": 30000
+      },
+      {
+       "category": "냄비",
+       "name": "스키야키 계란추가",
+       "price": 1000
+      },
+      {
+       "category": "냄비",
+       "name": "면추가",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "1000012690.jpg",
+     "fid": "F0C6Q9LN57A",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "면류",
+       "name": "미소야채라면",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "쇼유라면",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "나베우동",
+       "price": 14000
+      },
+      {
+       "category": "면류",
+       "name": "카레냄비우동",
+       "price": 15000
+      },
+      {
+       "category": "면류",
+       "name": "미소니꼬미우동",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "야키우동",
+       "price": 18000
+      },
+      {
+       "category": "면류",
+       "name": "야키소바",
+       "price": 18000
+      },
+      {
+       "category": "면류",
+       "name": "해물야키소바",
+       "price": 18000
+      },
+      {
+       "category": "면류",
+       "name": "해물야키우동",
+       "price": 18000
+      },
+      {
+       "category": "면류",
+       "name": "오므소바",
+       "price": 19000
+      },
+      {
+       "category": "면류",
+       "name": "소바나폴리탄",
+       "price": 19000
+      },
+      {
+       "category": "면류",
+       "name": "계란후라이 추가",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "1000012691.jpg",
+     "fid": "F0C5QKCH7L5",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "돈까스덮밥",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "오야코돈",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "규동",
+       "price": 16000
+      },
+      {
+       "category": "식사",
+       "name": "새우덮밥",
+       "price": 16000
+      },
+      {
+       "category": "식사",
+       "name": "돈까스카레",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "연어동",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "소바메시",
+       "price": 16000
+      },
+      {
+       "category": "식사",
+       "name": "미소된장국",
+       "price": 1000
+      },
+      {
+       "category": "식사",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사",
+       "name": "정식",
+       "price": 2000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790831438.365429",
+   "rc": 2,
+   "lr": "1790831492.291669",
    "rfx": 3,
    "status": "wait",
    "handler": null,
