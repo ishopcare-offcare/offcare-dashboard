@@ -1137,6 +1137,20 @@
     display:inline-flex; align-items:center; justify-content:center; transition:.15s}
   .add-ev:hover{background:var(--blue); color:#fff}
   .ev-list{display:flex; flex-direction:column; gap:5px; overflow:hidden}
+  /* 여러 날 일정 막대 — 칸 사이 여백(padding+border+gap/2)만큼 밖으로 늘려 옆 칸 막대와 이어 붙인다 */
+  .daycell.share{--bar-out:13px}
+  .cal-grid{isolation:isolate}   /* 막대 이름표(z-index)가 팝업·모달 위로 새지 않게 */
+  .ev-bars{display:flex; flex-direction:column; gap:4px}
+  .ev-bar, .ev-bar-gap{height:24px; flex:0 0 auto}
+  .ev-bar{position:relative; display:flex; align-items:center; gap:4px; padding:0 4px 0 9px; border-radius:7px;
+    color:#fff; font-size:12.5px; font-weight:700; cursor:pointer}
+  .ev-bar:hover{box-shadow:inset 0 0 0 99px rgba(255,255,255,.12)}
+  .ev-bar.dragging{opacity:.4}
+  .ev-bar.cont-l{margin-left:calc(-1 * var(--bar-out)); padding-left:0; border-top-left-radius:0; border-bottom-left-radius:0}
+  .ev-bar.cont-r{margin-right:calc(-1 * var(--bar-out)); border-top-right-radius:0; border-bottom-right-radius:0}
+  .bar-lab{position:relative; z-index:2; flex:0 0 auto; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .bar-lab small{font-weight:600; opacity:.9; margin-left:5px}
+  .ev-bar .ev-del{position:relative; z-index:3; margin-left:auto; padding:0 2px}
   .ev-chip{display:flex; align-items:flex-start; gap:6px; font-size:13px; font-weight:700; padding:7px 8px 7px 10px;
     border-radius:10px; line-height:1.4; color:#fff; box-shadow:0 1px 2px rgba(0,0,0,.12); transition:.15s}
   .ev-chip:hover{filter:brightness(1.08)}
@@ -1303,6 +1317,7 @@
     .grid2{grid-template-columns:1fr}
     .cal-grid{gap:4px}
     .daycell{min-height:auto; padding:6px}
+    .daycell.share{--bar-out:9.5px}
     /* 당직 달력: 좁은 화면에선 오늘 요약을 2열로, 칩·이름을 한 단계 작게 */
     .duty-hero{padding:14px; gap:12px}
     .dh-grid{flex-basis:100%; grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -1316,6 +1331,10 @@
     .duty-hero{padding:13px}
     .dh-name{font-size:16px}
     .daycell{min-height:70px; padding:6px 5px; gap:2px}
+    .daycell.share{--bar-out:8.5px}
+    /* 공휴일 이름이 세로로 접혀 날짜줄 높이가 칸마다 달라지면 막대가 계단처럼 어긋난다 → 한 줄로 자르기 */
+    .daycell.share .dnum{flex-wrap:nowrap; min-width:0} .daycell.share .holi-tag{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0}
+    .ev-bar, .ev-bar-gap{height:20px} .ev-bar{font-size:11px; padding-left:5px}
     .dnum{font-size:12.5px; gap:3px}
     .memo-btn{width:18px; height:18px}
     .duty-slot{flex-wrap:wrap; gap:2px}
@@ -1399,8 +1418,8 @@
 <div class="overlay" id="shareOverlay">
   <div class="modal form-modal">
     <h4 id="sfHeading" style="margin-bottom:18px">일정 공유 추가</h4>
-    <div class="form-row"><label id="sfDateLabel">날짜</label><input type="date" id="sfDate"></div>
-    <div class="form-row" id="sfEndDateRow" style="display:none"><label>종료일</label><input type="date" id="sfEndDate"></div>
+    <div class="form-row"><label id="sfDateLabel">시작일</label><input type="date" id="sfDate" onchange="onShareStartChange()"></div>
+    <div class="form-row" id="sfEndDateRow"><label>종료일</label><input type="date" id="sfEndDate"></div>
     <div class="form-row"><label>직원</label>
       <select id="sfEmp"></select></div>
     <div class="form-row"><label>유형</label>
@@ -1647,11 +1666,15 @@ const SHARE_TYPES = {
   half:    {label:"반차",   color:"#ff9500", soft:"#fff0dc"},
   time:    {label:"시간차", color:"#ffcc00", soft:"#fff8d6"},
   vacation:{label:"휴가",   color:"#af52de", soft:"#f4e8fb"},
+  winter:  {label:"겨울방학", color:"#5ac8fa", soft:"#e1f5fe"},
   outside: {label:"외부일정", color:"#5e5ce6", soft:"#e8e7ff"},
   edu:     {label:"교육일정", color:"#0aa5b1", soft:"#d6f2f5"},
   meeting: {label:"회의",   color:"#0071e3", soft:"#e2effc"},
   etc:     {label:"기타",   color:"#34c759", soft:"#e2f7e8"},
 };
+
+// 시간 없이 하루 종일인 유형 — 폼에서 시간 칸을 숨긴다
+const SHARE_ALLDAY = {vacation:true, winter:true};
 
 // VOC 수기 선택용 목록 (드롭다운)
 const VOC_INDUSTRIES = ["서비스[뷰티,헤어]","서비스[학원]","카페","요식업","서비스[체육]","서비스[숙박]","도소매","기타"];
@@ -6916,6 +6939,49 @@ function shareEvents(ds){
 }
 function typeMeta(t){ return SHARE_TYPES[t] || SHARE_TYPES.etc; }
 
+// 여러 날 일정 = 같은 grp 로 묶인 하루짜리 이벤트들. 2일 이상인 묶음만 막대로 그린다.
+function shareGroups(){
+  const g={};
+  for(const ds in SHARE) shareEvents(ds).forEach(e=>{
+    if(!e.grp) return;
+    const x=g[e.grp]=g[e.grp]||{grp:e.grp, ev:e, ids:{}};
+    x.ids[ds]=e.id;
+  });
+  const out={};
+  for(const k in g){ const days=Object.keys(g[k].ids).sort(); if(days.length<2) continue;
+    out[k]=Object.assign(g[k], {a:days[0], b:days[days.length-1], n:days.length}); }
+  return out;
+}
+// 주(달력 한 줄)마다 막대에 레인(세로 칸)을 배정 — 같은 일정은 그 주 안에서 같은 높이에 놓여야 이어져 보인다
+function shareBarLanes(cells, y, m, groups){
+  const weeks=[], at={};
+  for(let w=0; w*7<cells.length; w++){
+    const days=cells.slice(w*7, w*7+7).filter(d=>d!==null).map(d=>ymd(new Date(y,m,d)));
+    const hit=Object.values(groups).map(x=>({x, ds:days.filter(ds=>x.ids[ds])})).filter(o=>o.ds.length)
+      .sort((p,q)=>p.ds[0]<q.ds[0]?-1:p.ds[0]>q.ds[0]?1:(q.x.n-p.x.n));
+    let n=0;
+    hit.forEach(o=>{ let l=0; while(o.ds.some(ds=>at[ds+'|'+l])) l++; o.ds.forEach(ds=>at[ds+'|'+l]=o.x); n=Math.max(n,l+1); });
+    weeks.push({n});
+  }
+  return {weeks, at};
+}
+// 막대 한 칸. 앞(같은 주·같은 달)에서 이어지면 왼쪽을, 뒤로 이어지면 오른쪽을 옆 칸까지 늘린다.
+// 이름표는 줄의 첫 칸에만 쓰고, 이어지는 칸 수만큼 넓게 보여준다.
+function shareBarSeg(x, dateObj, d, lastDate){
+  const ds=ymd(dateObj), dow=dateObj.getDay(), id=x.ids[ds], e=x.ev, t=typeMeta(e.type);
+  const contL = dow!==0 && d>1 && !!x.ids[ymd(addDays(dateObj,-1))];
+  const contR = dow!==6 && d<lastDate && !!x.ids[ymd(addDays(dateObj,1))];
+  let run=1; if(!contL){ let c=dateObj; while(c.getDay()!==6 && c.getDate()<lastDate && x.ids[ymd(addDays(c,1))]){ c=addDays(c,1); run++; } }
+  const md=v=>{ const p=v.split('-'); return (+p[1])+'/'+(+p[2]); };
+  const range=`${md(x.a)}~${md(x.b)} · ${x.n}일`;
+  const tt=`${e.emp} · ${t.label} · ${range}${e.time?' · '+e.time:''}${e.title?' · '+e.title:''} — 클릭: 수정 · 드래그: 기간째 이동`;
+  const lab = contL ? '' : `<span class="bar-lab" style="max-width:calc(${run*100}% + ${(run-1)*30}px)">${escapeHtml(e.emp)} · ${t.label}${e.time?' · '+escapeHtml(e.time):''}${e.title?' · '+escapeHtml(e.title):''}<small>${range}</small></span>`;
+  const del = contR ? '' : `<button class="ev-del" title="기간 전체 삭제" onclick="event.stopPropagation();removeShare('${ds}','${id}')">×</button>`;
+  return `<div class="ev-bar${contL?' cont-l':''}${contR?' cont-r':''}" draggable="true" ondragstart="shareDragStart(event,'${ds}','${id}')" ondragend="shareDragEnd(event)" onclick="openShareEdit('${ds}','${id}')" style="background:${empColor(e.emp)}" title="${escapeHtml(tt)}">${lab}${del}</div>`;
+}
+// 같은 grp 의 살아있는 이벤트 id 들 (직원 필터와 무관하게 전체)
+function shareGroupIds(grp){ return Object.keys(SHAREEV).filter(k=>{ const e=SHAREEV[k]; return e && !e.deleted && e.grp===grp; }); }
+
 function renderShare(){
   const y=shareMonth.getFullYear(), m=shareMonth.getMonth();
   const first=new Date(y,m,1), lastDate=new Date(y,m+1,0).getDate();
@@ -6926,13 +6992,20 @@ function renderShare(){
   const dows=["일","월","화","수","목","금","토"];
   const todayStr=ymd(today());
   const dmap=dutyMap();   // 회의별 원격 당번(순번 자동)
+  const groups=shareGroups();
+  const lanes=shareBarLanes(cells, y, m, groups);
 
-  const dayCells = cells.map(d=>{
+  const dayCells = cells.map((d,ci)=>{
     if(d===null) return `<div class="daycell share empty"></div>`;
     const dateObj=new Date(y,m,d), ds=ymd(dateObj), dow=dateObj.getDay();
+    const wk=lanes.weeks[Math.floor(ci/7)];
+    const bars = wk.n ? `<div class="ev-bars">${Array.from({length:wk.n},(_,l)=>{
+      const x=lanes.at[ds+'|'+l]; if(!x) return '<div class="ev-bar-gap"></div>';
+      return shareBarSeg(x, dateObj, d, lastDate);
+    }).join('')}</div>` : '';
     const holi=HOLIDAYS[ds]; const isSun=dow===0||!!holi; const isSat=dow===6;
     const numCls = isSun?"s-sun":isSat?"s-sat":"";
-    const evs=shareEvents(ds);
+    const evs=shareEvents(ds).filter(e=>!(e.grp && groups[e.grp]));   // 여러 날 일정은 위 막대로
     const chips = evs.map(e=>{
       const t=typeMeta(e.type);
       const col=empColor(e.emp);
@@ -6958,7 +7031,7 @@ function renderShare(){
       ondragover="shareDragOver(event,this)" ondragleave="shareDragLeave(this)" ondrop="shareDrop(event,'${ds}',this)">
       <div class="dnum ${numCls} ${ds===todayStr?'is-today':''}"><span class="dn-n">${d}</span>${holi?`<span class="holi-tag">${holi}</span>`:''}
         <button class="add-ev" title="일정 추가" onclick="openShareForm('${ds}')">+</button></div>
-      <div class="ev-list">${tenChip}${chips}${gchips}</div>
+      ${bars}<div class="ev-list">${tenChip}${chips}${gchips}</div>
     </div>`;
   }).join("");
 
@@ -7032,11 +7105,13 @@ function shareChipClick(ev, ds, id){
 // 기존 일정 수정: 폼에 값 채우고 수정 모드로 열기
 function openShareEdit(ds, id){
   const ev=(SHARE[ds]||[]).find(e=>e.id===id); if(!ev) return;
-  shareEdit={ds, id};
+  shareEdit={ds, id, grp:ev.grp||null};
+  let a=ds, b=ds;
+  if(ev.grp){ shareGroupIds(ev.grp).forEach(k=>{ const d=SHAREEV[k].ds; if(d<a) a=d; if(d>b) b=d; }); }
   document.getElementById("sfHeading").textContent="일정 수정";
   document.getElementById("sfSubmit").textContent="저장";
-  document.getElementById("sfDate").value = ds;
-  document.getElementById("sfEndDate").value = ds;
+  document.getElementById("sfDate").value = a;
+  document.getElementById("sfEndDate").value = b;
   document.getElementById("sfEmp").value = ev.emp;
   document.getElementById("sfType").value = ev.type;
   const parts=(ev.time||"").split("~").map(x=>x.trim());
@@ -7046,12 +7121,15 @@ function openShareEdit(ds, id){
   onShareTypeChange();
   document.getElementById("shareOverlay").classList.add("show");
 }
-// 유형이 '휴가'면 종료일(기간) 노출·시간 숨김, 그 외는 반대
+// 모든 유형이 기간(시작일~종료일)을 받는다. 휴가·겨울방학처럼 종일인 유형은 시간 칸을 숨긴다.
 function onShareTypeChange(){
-  const isVac = document.getElementById("sfType").value==="vacation";
-  document.getElementById("sfEndDateRow").style.display = isVac?"":"none";
-  document.getElementById("sfTimeRow").style.display = isVac?"none":"";
-  document.getElementById("sfDateLabel").textContent = isVac?"시작일":"날짜";
+  const allDay = !!SHARE_ALLDAY[document.getElementById("sfType").value];
+  document.getElementById("sfTimeRow").style.display = allDay?"none":"";
+}
+// 시작일을 종료일 뒤로 옮기면 종료일을 따라 맞춘다(하루짜리 기본)
+function onShareStartChange(){
+  const a=document.getElementById("sfDate"), b=document.getElementById("sfEndDate");
+  if(!b.value || b.value<a.value) b.value=a.value;
 }
 function closeShareForm(){ document.getElementById("shareOverlay").classList.remove("show"); shareEdit=null; }
 function submitShare(){
@@ -7062,27 +7140,27 @@ function submitShare(){
   if(!ds||!emp) return;
   const changed=[];
 
-  // 수정 모드면 기존 일정(단건)을 삭제 표식 처리 (새 이벤트로 다시 등록)
-  if(shareEdit && SHAREEV[shareEdit.id]){ SHAREEV[shareEdit.id].deleted=true; SHAREEV[shareEdit.id].ts=Date.now(); changed.push(shareEdit.id); }
-
-  if(type==="vacation"){
-    // 휴가: 시작일~종료일 각 날짜에 하루씩 등록 (같은 grp 로 묶어 일괄 삭제 가능)
-    let a=ds, b=document.getElementById("sfEndDate").value||ds;
-    if(b<a){ const t=a; a=b; b=t; }
-    const grp="v"+ds.replace(/-/g,'')+"_"+(Date.now()%100000);
-    eachDate(a,b).forEach((d)=>{
-      const id=newShareId();
-      SHAREEV[id]={ id, ds:d, grp, emp, type, time:"", title, ts:Date.now() };
-      changed.push(id);
-    });
-  } else {
-    const s=document.getElementById("sfStart").value, e2=document.getElementById("sfEnd").value;
-    let time="";
-    if(s&&e2) time=`${s} ~ ${e2}`; else if(s) time=`${s} ~`; else if(e2) time=`~ ${e2}`;
-    const id=newShareId();
-    SHAREEV[id]={ id, ds, emp, type, time, title, ts:Date.now() };
-    changed.push(id);
+  // 수정 모드면 기존 일정(여러 날이면 기간 전체)을 삭제 표식 처리 (새 이벤트로 다시 등록)
+  if(shareEdit){
+    const old = shareEdit.grp ? shareGroupIds(shareEdit.grp) : (SHAREEV[shareEdit.id]?[shareEdit.id]:[]);
+    old.forEach(k=>{ SHAREEV[k].deleted=true; SHAREEV[k].ts=Date.now(); changed.push(k); });
   }
+
+  // 시작일~종료일 각 날짜에 하루씩 등록. 2일 이상이면 같은 grp 로 묶어 막대 표시·일괄 수정·삭제·이동.
+  let a=ds, b=document.getElementById("sfEndDate").value||ds;
+  if(b<a){ const t=a; a=b; b=t; }
+  let time="";
+  if(!SHARE_ALLDAY[type]){
+    const s=document.getElementById("sfStart").value, e2=document.getElementById("sfEnd").value;
+    if(s&&e2) time=`${s} ~ ${e2}`; else if(s) time=`${s} ~`; else if(e2) time=`~ ${e2}`;
+  }
+  const days=eachDate(a,b);
+  const grp = days.length>1 ? "v"+a.replace(/-/g,'')+"_"+newShareId().slice(3) : null;   // 같은 시작일·같은 순간에 저장돼도 묶음이 섞이지 않게
+  days.forEach(d=>{
+    const id=newShareId();
+    SHAREEV[id]= grp ? { id, ds:d, grp, emp, type, time, title, ts:Date.now() } : { id, ds:d, emp, type, time, title, ts:Date.now() };
+    changed.push(id);
+  });
   shareEdit=null;
   save(LS_SHAREEV, SHAREEV); rebuildShare(); pushShareEv(changed);
   closeShareForm();
@@ -7111,7 +7189,7 @@ function removeShare(ds, id){
   const changed=[];
   if(ev.grp){
     // 휴가(여러 날) → 그룹 전체 삭제(표식). 팀 전체에 삭제가 전파됨.
-    const members=Object.keys(SHAREEV).filter(k=>{ const e=SHAREEV[k]; return e && !e.deleted && e.grp===ev.grp; });
+    const members=shareGroupIds(ev.grp);
     if(!confirm(`${ev.emp}님의 ${t.label}(${members.length}일) 전체를 삭제할까요?`)) return;
     members.forEach(k=>{ SHAREEV[k].deleted=true; SHAREEV[k].ts=Date.now(); changed.push(k); });
   } else {
@@ -7140,8 +7218,11 @@ function shareDrop(ev, targetDs, cell){
   shareDrag=null;
   if(!src || src.ds===targetDs) return;           // 같은 날이면 무시
   const se=SHAREEV[src.id]; if(!se||se.deleted) return;
-  se.ds=targetDs; se.ts=Date.now();
-  save(LS_SHAREEV, SHAREEV); rebuildShare(); pushShareEv([src.id]);
+  // 여러 날 일정은 잡은 날 → 놓은 날 만큼 기간 전체를 옮긴다
+  const ids = se.grp ? shareGroupIds(se.grp) : [src.id];
+  const shift=Math.round((parseYmd(targetDs)-parseYmd(src.ds))/86400000);
+  ids.forEach(k=>{ const e=SHAREEV[k]; e.ds = k===src.id ? targetDs : ymd(addDays(parseYmd(e.ds), shift)); e.ts=Date.now(); });
+  save(LS_SHAREEV, SHAREEV); rebuildShare(); pushShareEv(ids);
   renderShare();
 }
 
