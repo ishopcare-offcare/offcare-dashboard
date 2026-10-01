@@ -1,1 +1,1 @@
-window.CHANGELOG = [{"d":"2026-09-30","k":"imp","t":"GitHub 계정 이름 변경 반영: taeyangsong-art → ishopcare-offcare"}];
+window.CHANGELOG = [{"d":"2026-10-01","k":"imp","t":"원격상점: 빈 브라우저 기록이 클라우드 기록을 덮어쓰지 못하게"}];
