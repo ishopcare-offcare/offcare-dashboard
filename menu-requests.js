@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2810,
- "updatedAt": "2026-10-01 13:21",
+ "version": 2811,
+ "updatedAt": "2026-10-01 13:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1790828521.938349",
+   "date": "2026-10-01",
+   "time": "13:22",
+   "store": "움버거앤윙스 킨텍스점",
+   "biz": "1358560825",
+   "pos": "퍼스트포스",
+   "content": "전체 메뉴 가격 인상 (치킨불고기 제외)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790828524.720339",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790828521938349"
+  },
   {
    "ts": "1790828276.369619",
    "date": "2026-10-01",
