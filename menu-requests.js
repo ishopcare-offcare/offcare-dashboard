@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2794,
- "updatedAt": "2026-10-01 10:40",
+ "version": 2795,
+ "updatedAt": "2026-10-01 10:51",
  "days": 30,
  "items": [
   {
@@ -52949,30 +52949,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788231681465979"
-  },
-  {
-   "ts": "1788227409.085049",
-   "date": "2026-09-01",
-   "time": "10:50",
-   "store": "더카페KCC 웰츠밸리점",
-   "biz": "3697400521",
-   "pos": "",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1788227268758529?thread_ts=···.246499&cid=C0ADC9759KQ",
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1788227281809329?thread_ts=···.246499&cid=C0ADC9759KQ"
-   ],
-   "rc": 4,
-   "lr": "1788228010.701779",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788227409085049"
   }
  ],
  "ocr": {
