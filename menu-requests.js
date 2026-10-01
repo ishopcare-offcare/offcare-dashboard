@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2790,
- "updatedAt": "2026-10-01 09:27",
+ "version": 2791,
+ "updatedAt": "2026-10-01 09:33",
  "days": 30,
  "items": [
   {
@@ -47,10 +47,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "한돈 김치찌개(국산) 12,000원 추가\n키오스크 화면에서 제일 먼저나오게(첫번째로 보이도록)\n기존 제일 앞에 있는 황태곰탕은 냉면 뒤로 위치 변경 요청"
    ],
-   "rc": 2,
-   "lr": "1790813651.132229",
+   "rc": 3,
+   "lr": "1790814752.779179",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790813597225489"
   },
