@@ -1195,6 +1195,13 @@
   .ten-chip{background:#e0f2fe; color:#075985; border:1px solid #bae6fd; box-shadow:none; cursor:pointer}
   .ten-chip:hover{background:#bae6fd; border-color:#7dd3fc}
   .ten-chip .ev-head{color:#075985; font-weight:800}
+  /* 10출 막대 — 그 주 월~금을 잇는다. 위아래 테두리만 그려 옆 칸과 이어 붙여도 이음새가 안 보이게 */
+  .ev-bar.ten-bar{background:#e0f2fe; color:#075985; box-shadow:inset 0 1px #bae6fd, inset 0 -1px #bae6fd}
+  .ev-bar.ten-bar:not(.cont-l){box-shadow:inset 1px 0 #bae6fd, inset 0 1px #bae6fd, inset 0 -1px #bae6fd}
+  .ev-bar.ten-bar:not(.cont-r){box-shadow:inset -1px 0 #bae6fd, inset 0 1px #bae6fd, inset 0 -1px #bae6fd}
+  .ev-bar.ten-bar:not(.cont-l):not(.cont-r){box-shadow:inset 0 0 0 1px #bae6fd}
+  .ev-bar.ten-bar:hover{background:#bae6fd}
+  .ten-bar .bar-lab{font-weight:800}
   .ten-lab{font-size:10px; font-weight:800; background:#075985; color:#fff; border-radius:5px; padding:1px 4px; margin-left:2px}
   /* 30분 전 당번 팝업 */
   .duty-pop-overlay{position:fixed; inset:0; background:rgba(15,15,15,.55); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; z-index:9999; animation:dutyfade .2s ease}
@@ -6961,7 +6968,11 @@ function shareBarLanes(cells, y, m, groups){
       .sort((p,q)=>p.ds[0]<q.ds[0]?-1:p.ds[0]>q.ds[0]?1:(q.x.n-p.x.n));
     let n=0;
     hit.forEach(o=>{ let l=0; while(o.ds.some(ds=>at[ds+'|'+l])) l++; o.ds.forEach(ds=>at[ds+'|'+l]=o.x); n=Math.max(n,l+1); });
-    weeks.push({n});
+    // 🕙 10출: 달력 한 줄(일~토)의 월요일이 그 주 담당 기준. 달이 주 중간에 시작해도 앞 달 월요일로 찾는다.
+    const any=days[0] ? parseYmd(days[0]) : null;
+    const mon=any ? ymd(addDays(any, 1-any.getDay())) : '';
+    const hasWeekday=days.some(ds=>{ const w=parseYmd(ds).getDay(); return w>=1 && w<=5; });
+    weeks.push({n, mon, ten: hasWeekday && mon ? tenPersonAt(mon) : ''});
   }
   return {weeks, at};
 }
@@ -6978,6 +6989,14 @@ function shareBarSeg(x, dateObj, d, lastDate){
   const lab = contL ? '' : `<span class="bar-lab" style="max-width:calc(${run*100}% + ${(run-1)*30}px)">${escapeHtml(e.emp)} · ${t.label}${e.time?' · '+escapeHtml(e.time):''}${e.title?' · '+escapeHtml(e.title):''}<small>${range}</small></span>`;
   const del = contR ? '' : `<button class="ev-del" title="기간 전체 삭제" onclick="event.stopPropagation();removeShare('${ds}','${id}')">×</button>`;
   return `<div class="ev-bar${contL?' cont-l':''}${contR?' cont-r':''}" draggable="true" ondragstart="shareDragStart(event,'${ds}','${id}')" ondragend="shareDragEnd(event)" onclick="openShareEdit('${ds}','${id}')" style="background:${empColor(e.emp)}" title="${escapeHtml(tt)}">${lab}${del}</div>`;
+}
+// 🕙 10출 막대 한 칸 — 월~금을 잇는다(주말은 빈 칸). 클릭하면 그 주 담당 교체.
+function tenBarSeg(who, mon, dateObj, d, lastDate){
+  const dow=dateObj.getDay();
+  const contL = dow>1 && d>1, contR = dow<5 && d<lastDate;
+  let run=1; if(!contL){ let c=dateObj; while(c.getDay()<5 && c.getDate()<lastDate){ c=addDays(c,1); run++; } }
+  const lab = contL ? '' : `<span class="bar-lab" style="max-width:calc(${run*100}% + ${(run-1)*30}px)">🕙 ${escapeHtml(who)} <span class="ten-lab">10출</span></span>`;
+  return `<div class="ev-bar ten-bar${contL?' cont-l':''}${contR?' cont-r':''}" onclick="openTenPicker('${mon}')" title="${escapeHtml(who)} · 이번 주(월~금) 10시 출근 — 클릭: 교체">${lab}</div>`;
 }
 // 같은 grp 의 살아있는 이벤트 id 들 (직원 필터와 무관하게 전체)
 function shareGroupIds(grp){ return Object.keys(SHAREEV).filter(k=>{ const e=SHAREEV[k]; return e && !e.deleted && e.grp===grp; }); }
@@ -6999,7 +7018,8 @@ function renderShare(){
     if(d===null) return `<div class="daycell share empty"></div>`;
     const dateObj=new Date(y,m,d), ds=ymd(dateObj), dow=dateObj.getDay();
     const wk=lanes.weeks[Math.floor(ci/7)];
-    const bars = wk.n ? `<div class="ev-bars">${Array.from({length:wk.n},(_,l)=>{
+    const tenRow = wk.ten ? (dow>=1 && dow<=5 ? tenBarSeg(wk.ten, wk.mon, dateObj, d, lastDate) : '<div class="ev-bar-gap"></div>') : '';
+    const bars = (wk.n || wk.ten) ? `<div class="ev-bars">${tenRow}${Array.from({length:wk.n},(_,l)=>{
       const x=lanes.at[ds+'|'+l]; if(!x) return '<div class="ev-bar-gap"></div>';
       return shareBarSeg(x, dateObj, d, lastDate);
     }).join('')}</div>` : '';
@@ -7023,15 +7043,11 @@ function renderShare(){
         <span class="ev-gtag">G</span>
         <span class="ev-txt"><span class="ev-head">${escapeHtml(g.title)}</span><span class="ev-sub">${g.time?'🕒 '+escapeHtml(g.time):'종일'}</span>${who?`<span class="ev-duty pick" title="클릭 → 근무당번 변경" onclick="event.stopPropagation();openDutyPicker(${gi})">🏠 ${escapeHtml(who)}<span class="duty-lab">근무당번</span></span>`:''}</span></div>`;
     }).join("");
-    // 🕙 10시 출근 로테이션 — 매주 월요일에 담당자 칩 표시(클릭 → 교체)
-    const tenWho=tenPersonAt(ds);
-    const tenChip = tenWho ? `<div class="ev-chip ten-chip" title="이번 주 10시 출근 · 클릭 → 교체" onclick="openTenPicker('${ds}')">
-        <span class="ev-txt"><span class="ev-head">🕙 ${escapeHtml(tenWho)} <span class="ten-lab">10출</span></span></span></div>` : '';
     return `<div class="daycell share ${ds===todayStr?'today':''} ${holi?'holi':''}"
       ondragover="shareDragOver(event,this)" ondragleave="shareDragLeave(this)" ondrop="shareDrop(event,'${ds}',this)">
       <div class="dnum ${numCls} ${ds===todayStr?'is-today':''}"><span class="dn-n">${d}</span>${holi?`<span class="holi-tag">${holi}</span>`:''}
         <button class="add-ev" title="일정 추가" onclick="openShareForm('${ds}')">+</button></div>
-      ${bars}<div class="ev-list">${tenChip}${chips}${gchips}</div>
+      ${bars}<div class="ev-list">${chips}${gchips}</div>
     </div>`;
   }).join("");
 
@@ -7066,7 +7082,7 @@ function renderShare(){
         <span style="margin-left:6px"><span class="swatch" style="background:#e8f0fe;border:1px solid #c6dafc"></span>회의(구글)</span>
       </div>
       <div class="duty-order">🏠 회의 중 원격 근무당번 순서 · ${DUTY_ORDER.join(' → ')}</div>
-      <div class="duty-order ten-order">🕙 10시 출근 로테이션(주 단위 · 월요일 시작) · ${TEN_ORDER.join(' → ')} <span style="font-weight:600;color:var(--gray2)">· 달력의 <b>10출</b> 칩 클릭 → 이름 변경</span></div>
+      <div class="duty-order ten-order">🕙 10시 출근 로테이션(주 단위 · 월요일 시작) · ${TEN_ORDER.join(' → ')} <span style="font-weight:600;color:var(--gray2)">· 달력의 <b>10출</b> 막대 클릭 → 이름 변경</span></div>
     </div>
   `;
 }
