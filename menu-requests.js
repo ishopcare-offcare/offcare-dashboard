@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2791,
- "updatedAt": "2026-10-01 09:33",
+ "version": 2792,
+ "updatedAt": "2026-10-01 09:44",
  "days": 30,
  "items": [
   {
@@ -52984,31 +52984,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788226711709729"
-  },
-  {
-   "ts": "1788223382.396969",
-   "date": "2026-09-01",
-   "time": "09:43",
-   "store": "광주갈치",
-   "biz": "2022242990",
-   "pos": "퍼스트포스",
-   "content": "유플러스 메뉴 등록 및 가격 수정 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "(등록)\n공기밥 > 2,000\n황석 짜박 > 중 25,000 대 35,000\n\n(수정)\n*소중대 있는 음식들 전부 소 삭제 요청\n병치조림 >중 45000 대60000\n초무침 >중 45000 대60000\n소주,맥주 > 5000\n청하 >7000\n복분자 > 15000",
-    "병치조림과 초무침은 원래 가격이 생각이 안난다고 가격 45000,60000으로 등록되어있으면 그냥 둬달라 하셨습니다!",
-    "*황석 짜박 대사이즈 60,000이 아니라 35,000원입니다! :개굴-죄송:"
-   ],
-   "rc": 5,
-   "lr": "1788223925.676369",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788223382396969"
   }
  ],
  "ocr": {
