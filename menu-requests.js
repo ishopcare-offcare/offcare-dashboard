@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2809,
- "updatedAt": "2026-10-01 13:18",
+ "version": 2810,
+ "updatedAt": "2026-10-01 13:21",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,277 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261001_131857562.jpg",
+     "fid": "F0C5QAZQACV",
+     "from": "댓글",
+     "path": "menu-files/1790828276_369619-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "생 와사비",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "배달비",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "타르타르소스",
+       "price": 900
+      },
+      {
+       "category": "",
+       "name": "케이준소스",
+       "price": 900
+      },
+      {
+       "category": "",
+       "name": "히말라야 핑크 솔트",
+       "price": 900
+      },
+      {
+       "category": "",
+       "name": "돈카츠 소스 추가",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "공깃밥",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261001_131857562_01.jpg",
+     "fid": "F0C5ZAE3RU4",
+     "from": "댓글",
+     "path": "menu-files/1790828276_369619-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "콜라(캔)",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "사이다(캔)",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "콜라 500ml",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "사이다 500ml",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "콜라 1.25L",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "사이다 1.25L",
+       "price": 2500
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261001_131857562_02.jpg",
+     "fid": "F0C5TM90SDU",
+     "from": "댓글",
+     "path": "menu-files/1790828276_369619-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가금",
+       "name": "100원",
+       "price": 100
+      },
+      {
+       "category": "추가금",
+       "name": "500원",
+       "price": 500
+      },
+      {
+       "category": "추가금",
+       "name": "1000원",
+       "price": 1000
+      },
+      {
+       "category": "추가금",
+       "name": "감자튀김 5P",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261001_131857562_03.jpg",
+     "fid": "F0C5ZAF89D2",
+     "from": "댓글",
+     "path": "menu-files/1790828276_369619-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "S - 등심2장 더블 셋트",
+       "price": 15500
+      },
+      {
+       "category": "메뉴",
+       "name": "더블안심 세트",
+       "price": 17500
+      },
+      {
+       "category": "메뉴",
+       "name": "새우덮밥(에비동)",
+       "price": 11000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우튀김 우동",
+       "price": 8900
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261001_131857562_04.jpg",
+     "fid": "F0C5ZAFHK7E",
+     "from": "댓글",
+     "path": "menu-files/1790828276_369619-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "등심 돈카츠",
+       "price": 7900
+      },
+      {
+       "category": "",
+       "name": "안심 돈카츠",
+       "price": 8900
+      },
+      {
+       "category": "",
+       "name": "치즈 돈카츠_2P",
+       "price": 9900
+      },
+      {
+       "category": "",
+       "name": "가츠동(돈부리)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "치킨덮밥(텐더동)",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "멘치카츠 2P",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "한가득 세트",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "텐더,카츠 세트",
+       "price": 19500
+      },
+      {
+       "category": "",
+       "name": "패밀리 세트",
+       "price": 33000
+      },
+      {
+       "category": "",
+       "name": "치돈 세트",
+       "price": 16500
+      },
+      {
+       "category": "",
+       "name": "혼밥 우동셋트",
+       "price": 15500
+      },
+      {
+       "category": "",
+       "name": "혼밥 모밀셋트",
+       "price": 15500
+      },
+      {
+       "category": "",
+       "name": "가쓰오우동",
+       "price": 7900
+      },
+      {
+       "category": "",
+       "name": "냉 모밀 소바",
+       "price": 7900
+      },
+      {
+       "category": "",
+       "name": "치킨안심 텐더 2P",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "왕 새우 튀김 1P",
+       "price": 4900
+      },
+      {
+       "category": "",
+       "name": "스마일 감자(5p)",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "공깃밥",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "안심 도시락 세트",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "등심 도시락 세트",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "치즈정식 세트",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "안심정식 세트",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "등심정식 세트",
+       "price": 11000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790828280.067969",
+   "rc": 2,
+   "lr": "1790828416.254319",
    "rfx": 3,
    "status": "wait",
    "handler": null,
