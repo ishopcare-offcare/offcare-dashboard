@@ -4567,7 +4567,15 @@ function pushPatch(patch){
       if(!d || d.ok!==true) saveFailBanner((d&&d.error)||t.slice(0,200)); })
     .catch(e=>saveFailBanner(String(e)));      // 네트워크 단절은 흔하지만, 저장 안 된 건 알려야 한다
 }
-function saveGame(){ if(gameMe&&GAME[gameMe]) GAME[gameMe]._t=Date.now(); save(LS_GAME,GAME); if(gameMe&&GAME[gameMe]) pushPatch({players:{[gameMe]:GAME[gameMe]}}); }
+// 클라우드를 한 번도 못 읽은 상태에서는 서버로 올리지 않는다(로컬에만 저장).
+// 2026-10-01 대시보드 주소 이전 때, 새 주소(빈 localStorage)에서 만들어진 빈 기록이 _t 가 더 최신이라
+// 서버의 송태양 기록(보유 아이템·사용 코인)을 통째로 덮어썼다. 로컬 변경분은 다음 loadCloud 병합 때 올라간다.
+function saveGame(){ if(gameMe&&GAME[gameMe]) GAME[gameMe]._t=Date.now(); save(LS_GAME,GAME); if(cloudReady&&gameMe&&GAME[gameMe]) pushPatch({players:{[gameMe]:GAME[gameMe]}}); }
+// 아이템·사용 이력이 하나도 없는 기록(새 브라우저에서 gs()가 만든 기본값 + 성별 정도) — 병합에서 _t 로 이기면 안 된다
+function isBlankPlayer(r){
+  if(!r) return true;
+  return !(r.owned&&r.owned.length) && !r.spent && !Object.keys(r.spentM||{}).length && !r.fishCasts && !r.spentFix;
+}
 // 게임 플레이어 기록은 '레코드 타임스탬프(_t)' 기준 최신 우선 병합.
 // → 방금 로컬에서 획득한 아이템(아직 클라우드 미반영)이 오래된 클라우드 값에 덮여 사라지는 문제 방지.
 //   관리자 초기화도 _t가 더 최신이므로 오래된 로컬을 올바르게 이깁니다.
@@ -4577,7 +4585,7 @@ function mergePlayers(local, cloud){
   if(cloud) for(const k in cloud){
     const lc=local&&local[k], cc=cloud[k];
     const lt=(lc&&lc._t)||0, ct=(cc&&cc._t)||0;
-    if(lc && lt>ct){ merged[k]=lc; restore[k]=lc; }   // 로컬이 더 최신 → 유지 + 클라우드에 되돌려 반영
+    if(lc && lt>ct && !(isBlankPlayer(lc) && !isBlankPlayer(cc))){ merged[k]=lc; restore[k]=lc; }   // 로컬이 더 최신 → 유지 + 클라우드에 되돌려 반영 (단, 빈 로컬이 실제 기록을 덮지는 못함)
     else merged[k]=cc;                                  // 클라우드가 최신(또는 동률) → 클라우드 채택
   }
   if(local) for(const k in local) if(!cloud || !(k in cloud)) restore[k]=local[k];   // 로컬에만 있는 기록 복원
@@ -4624,7 +4632,7 @@ function loadCloud(cb){
       save(LS_GAME,GAME); save(LS_VOCEDIT,VOCEDIT); save(LS_VOCPRAISE,VOCPRAISE); save(LS_VOCCOMMENT,VOCCOMMENT); save(LS_DUTYOVER,DUTYOVER); save(LS_TENOVER,TENOVER); save(LS_NOTICES,NOTICES); save(LS_NCOMMENTS,NCOMMENTS); save(LS_NREACTS,NREACTS); save(LS_SHAREEV,SHAREEV); save(LS_DUTY,DUTY); save(LS_MENUMEMO,MENUMEMO); save(LS_DUTYMEMO,DUTYMEMO); save(LS_DRI,DRI);
     }
     cloudReady=true; if(cb)cb();
-  }).catch(()=>{ cloudReady=true; if(cb)cb(); });
+  }).catch(()=>{ if(cb)cb(); });   // 실패 시 cloudReady 는 그대로 false — 서버를 못 읽은 채 덮어쓰지 않도록. checkCloudRev 가 재시도
 }
 function loadGameCloud(cb){ loadCloud(cb); }   // 하위호환
 // 팀 공유 클라우드 데이터 스냅샷 — 주기 동기화 시 '변경됐을 때만' 재렌더 판정용
@@ -7261,6 +7269,7 @@ function syncCloudNow(){
 // 리비전만 확인 → 달라졌을 때만 전체 동기화
 function checkCloudRev(){
   if(!GAME_API || !revSupported || syncBusy || document.hidden || syncBlocked()) return;   // 숨은 탭은 폴링 안 함
+  if(!cloudReady){ syncCloudNow(); return; }                          // 첫 로드가 실패했으면 다시 읽는다
   fetch(GAME_API+'?action=rev&t='+Date.now()).then(r=>r.json()).then(d=>{
     if(!d || typeof d.rev!=='number'){ revSupported=false; return; }   // 구버전 백엔드 → 느린 루프에 맡김
     if(cloudRev<0){ cloudRev=d.rev; return; }                          // 최초 기준값만 잡고 종료
