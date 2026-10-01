@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2820,
- "updatedAt": "2026-10-01 14:58",
+ "version": 2821,
+ "updatedAt": "2026-10-01 15:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1790835157.765409",
+   "date": "2026-10-01",
+   "time": "15:12",
+   "store": "따스한",
+   "biz": "1952701473",
+   "pos": "",
+   "content": "메뉴요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790835161.810989",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790835157765409"
+  },
   {
    "ts": "1790831435.218259",
    "date": "2026-10-01",
@@ -4501,8 +4522,8 @@ window.MENU_REQUESTS = {
     "원래 기존에도 토스포스 사용 중 이셨습니다!!",
     "선유님! 2번째 파일에 금액 있습니다!!"
    ],
-   "rc": 15,
-   "lr": "1790745721.626859",
+   "rc": 17,
+   "lr": "1790835160.410739",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
@@ -54287,115 +54308,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788246930584879"
-  },
-  {
-   "ts": "1788243086.936869",
-   "date": "2026-09-01",
-   "time": "15:11",
-   "store": "스키당",
-   "biz": "4582401280",
-   "pos": "",
-   "content": "테이블",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BUWHYUV9N",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "기본",
-       "name": "기본15",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본14",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본13",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본12",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본11",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본10",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본09",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본08",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본01",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본02",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본03",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본04",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본05",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본06",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본07",
-       "price": 0
-      }
-     ],
-     "path": "menu-files/1788243086_936869-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1788242984875409?thread_ts=···.246499&cid=C0ADC9759KQ",
-    "메뉴작업은 되어있음"
-   ],
-   "rc": 5,
-   "lr": "1788243925.272419",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788243086936869"
   }
  ],
  "ocr": {
