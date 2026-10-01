@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2821,
- "updatedAt": "2026-10-01 15:12",
+ "version": 2822,
+ "updatedAt": "2026-10-01 15:15",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,291 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "스크린샷 2026-10-01 150301.png",
+     "fid": "F0C5Q31MVC3",
+     "from": "댓글",
+     "path": "menu-files/1790835157_765409-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사리",
+       "name": "곱창사리",
+       "price": 6000
+      },
+      {
+       "category": "사리",
+       "name": "오돌뼈사리",
+       "price": 6500
+      },
+      {
+       "category": "사리",
+       "name": "막창사리",
+       "price": 8000
+      },
+      {
+       "category": "사리",
+       "name": "오소리사리",
+       "price": 2000
+      },
+      {
+       "category": "사리",
+       "name": "염통사리",
+       "price": 2000
+      },
+      {
+       "category": "사리",
+       "name": "양배추사리",
+       "price": 2000
+      },
+      {
+       "category": "사리",
+       "name": "콩나물사리",
+       "price": 1000
+      },
+      {
+       "category": "사리",
+       "name": "순대사리",
+       "price": 2500
+      },
+      {
+       "category": "사리",
+       "name": "치즈사리",
+       "price": 3000
+      },
+      {
+       "category": "사리",
+       "name": "당면사리",
+       "price": 1000
+      },
+      {
+       "category": "사리",
+       "name": "버섯떡사리",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "스크린샷 2026-10-01 150307 (2).png",
+     "fid": "F0C5Q31MX3M",
+     "from": "댓글",
+     "path": "menu-files/1790835157_765409-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "주먹밥",
+       "price": 2500
+      },
+      {
+       "category": "사이드",
+       "name": "참치마요주먹밥",
+       "price": 3500
+      },
+      {
+       "category": "사이드",
+       "name": "계란찜+참치마요주먹밥",
+       "price": 5500
+      },
+      {
+       "category": "사이드",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "치즈볶음밥",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "공기밥",
+       "price": 1500
+      }
+     ]
+    },
+    {
+     "name": "스크린샷 2026-10-01 150307.png",
+     "fid": "F0C6QLCNBDE",
+     "from": "댓글",
+     "path": "menu-files/1790835157_765409-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "마실거리",
+       "name": "콜라",
+       "price": 2500
+      },
+      {
+       "category": "마실거리",
+       "name": "사이다",
+       "price": 2500
+      },
+      {
+       "category": "마실거리",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "마실거리",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "마실거리",
+       "name": "막걸리",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "스크린샷 2026-10-01 150314.png",
+     "fid": "F0C5EU3PRPH",
+     "from": "댓글",
+     "path": "menu-files/1790835157_765409-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화야채곱창",
+       "price": 10000
+      },
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화소곱창",
+       "price": 10000
+      },
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화알곱창",
+       "price": 13000
+      },
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화곱창전골",
+       "price": 15000
+      },
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화오돌뼈",
+       "price": 10000
+      },
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화막곱창",
+       "price": 11000
+      },
+      {
+       "category": "포장메뉴",
+       "name": "[포장]직화 불곱창",
+       "price": 11000
+      }
+     ]
+    },
+    {
+     "name": "스크린샷 2026-10-01 150249.png",
+     "fid": "F0C5Y7W8USV",
+     "from": "댓글",
+     "path": "menu-files/1790835157_765409-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주메뉴",
+       "name": "직화야채곱창",
+       "price": 11000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화소금곱창",
+       "price": 11000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화알곱창",
+       "price": 14000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화 곱창전골",
+       "price": 16000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화오돌뼈",
+       "price": 11000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화로제야채곱창",
+       "price": 12000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화물곱창",
+       "price": 12000
+      },
+      {
+       "category": "주메뉴",
+       "name": "로제알곱창",
+       "price": 15000
+      },
+      {
+       "category": "주메뉴",
+       "name": "직화곱창국밥",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "스크린샷 2026-10-01 150256.png",
+     "fid": "F0C5R0R7M3P",
+     "from": "댓글",
+     "path": "menu-files/1790835157_765409-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "고기선택",
+       "name": "곱창을 순대로변경",
+       "price": 0
+      },
+      {
+       "category": "고기선택",
+       "name": "곱창을 오돌뼈로변경",
+       "price": 500
+      },
+      {
+       "category": "고기선택",
+       "name": "곱창을 막창으로변경",
+       "price": 2000
+      },
+      {
+       "category": "고기선택",
+       "name": "보통맛",
+       "price": 0
+      },
+      {
+       "category": "고기선택",
+       "name": "매운맛",
+       "price": 0
+      },
+      {
+       "category": "고기선택",
+       "name": "아주매운맛",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790835161.810989",
+   "rc": 2,
+   "lr": "1790835184.552469",
    "rfx": 3,
    "status": "wait",
    "handler": null,
