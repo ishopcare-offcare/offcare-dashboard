@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2817,
- "updatedAt": "2026-10-01 14:20",
+ "version": 2818,
+ "updatedAt": "2026-10-01 14:33",
  "days": 30,
  "items": [
   {
@@ -786,7 +786,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261001_132131372.jpg",
      "fid": "F0C5ZL808N8",
      "from": "댓글",
-     "path": "menu-files/1790828521_938349-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -949,13 +948,16 @@ window.MENU_REQUESTS = {
        "name": "메가윙 세트",
        "price": 13100
       }
-     ]
+     ],
+     "path": "menu-files/1790828521_938349-0.jpg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1790832025.412819",
+   "replies": [
+    "완료우"
+   ],
+   "rc": 3,
+   "lr": "1790832796.295349",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
