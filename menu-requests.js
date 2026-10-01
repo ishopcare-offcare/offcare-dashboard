@@ -3,10 +3,650 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2804,
- "updatedAt": "2026-10-01 12:33",
+ "version": 2805,
+ "updatedAt": "2026-10-01 12:36",
  "days": 30,
  "items": [
+  {
+   "ts": "1790825665.706209",
+   "date": "2026-10-01",
+   "time": "12:34",
+   "store": "남도주유소",
+   "biz": "6416400399",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_IMG_6519.jpg.jpeg",
+     "fid": "F0C5P6LNLBV",
+     "from": "댓글",
+     "path": "menu-files/1790825665_706209-0.jpeg",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "Resized_IMG_6520.jpg.jpeg",
+     "fid": "F0C5E28JVT9",
+     "from": "댓글",
+     "path": "menu-files/1790825665_706209-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류/전",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "주류/전",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "주류/전",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류/전",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류/전",
+       "name": "청하",
+       "price": 5500
+      },
+      {
+       "category": "주류/전",
+       "name": "별빛청하",
+       "price": 6500
+      },
+      {
+       "category": "주류/전",
+       "name": "카프리",
+       "price": 6000
+      },
+      {
+       "category": "주류/전",
+       "name": "호가든",
+       "price": 7000
+      },
+      {
+       "category": "주류/전",
+       "name": "해물파전",
+       "price": 19000
+      },
+      {
+       "category": "주류/전",
+       "name": "해물땡초전",
+       "price": 18000
+      },
+      {
+       "category": "주류/전",
+       "name": "4각햄전주먹밥",
+       "price": 18000
+      },
+      {
+       "category": "주류/전",
+       "name": "아이스황도",
+       "price": 7000
+      },
+      {
+       "category": "주류/전",
+       "name": "왕새우구이",
+       "price": 55000
+      },
+      {
+       "category": "주류/전",
+       "name": "왕새우구이",
+       "price": 45000
+      },
+      {
+       "category": "주류/전",
+       "name": "왕새우구이(중)",
+       "price": 45000
+      },
+      {
+       "category": "주류/전",
+       "name": "추가",
+       "price": 1000
+      },
+      {
+       "category": "주류/전",
+       "name": "햇반",
+       "price": 2000
+      },
+      {
+       "category": "주류/전",
+       "name": "날치알주먹밥",
+       "price": 4500
+      },
+      {
+       "category": "주류/전",
+       "name": "사리",
+       "price": 2000
+      },
+      {
+       "category": "주류/전",
+       "name": "추가",
+       "price": 500
+      },
+      {
+       "category": "주류/전",
+       "name": "스팸전주먹밥",
+       "price": 16000
+      }
+     ]
+    },
+    {
+     "name": "Resized_IMG_6521.jpg.jpeg",
+     "fid": "F0C5TEHDLCW",
+     "from": "댓글",
+     "path": "menu-files/1790825665_706209-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "보쌈/국수",
+       "name": "멸치국수",
+       "price": 6000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "비빔국수",
+       "price": 7000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "멸치국수(특)",
+       "price": 7000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "비빔국수(특)",
+       "price": 8000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "라면",
+       "price": 6000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "라면",
+       "price": 5000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "열무국수",
+       "price": 9000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "보쌈 특",
+       "price": 39000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "보쌈 보통",
+       "price": 29000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "삼합",
+       "price": 52000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "홍어",
+       "price": 27000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "생굴",
+       "price": 20000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "굴",
+       "price": 22000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "석화",
+       "price": 20000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "생굴",
+       "price": 22000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "홍어무침",
+       "price": 25000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "산낙지",
+       "price": 15000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "보쌈(소)/국수",
+       "price": 33000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "보쌈(대)/국수",
+       "price": 43000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "보쌈(소)/비빔국수",
+       "price": 34000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "보쌈(대)/비빔국수",
+       "price": 44000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "삼합/국수",
+       "price": 56000
+      },
+      {
+       "category": "보쌈/국수",
+       "name": "삼합/비빔국수",
+       "price": 57000
+      }
+     ]
+    },
+    {
+     "name": "Resized_IMG_6522.jpg.jpeg",
+     "fid": "F0C5P6M73FV",
+     "from": "댓글",
+     "path": "menu-files/1790825665_706209-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "볶이/찜",
+       "name": "땡초창옥",
+       "price": 19000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "두부김치",
+       "price": 18000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "제육볶음",
+       "price": 23000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "골뱅이소면",
+       "price": 20000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "문어숙회",
+       "price": 29000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "두뼘닭발볶음",
+       "price": 20000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "통잡마늘볶음",
+       "price": 18000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "멍게",
+       "price": 17000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "꼬막",
+       "price": 22000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "오징어볶음",
+       "price": 21000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "황초배구이(대)",
+       "price": 53000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "황새우구이(중)",
+       "price": 43000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "황새우회감",
+       "price": 27000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "황새우회",
+       "price": 30000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 25000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 20000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 10000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 1000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 32000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "광어회",
+       "price": 35000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "쥐포",
+       "price": 15000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "한치",
+       "price": 16000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "황태채",
+       "price": 15000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "반건조징어",
+       "price": 15000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 27000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "쭈꾸미",
+       "price": 65000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 28000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 35000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산낙지",
+       "price": 25000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "산오징어",
+       "price": 29000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "쭈꾸미 중",
+       "price": 55000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "쭈꾸미 대",
+       "price": 65000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "쭈꾸미 중",
+       "price": 45000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "쭈꾸미 대",
+       "price": 55000
+      },
+      {
+       "category": "볶이/찜",
+       "name": "돌방게",
+       "price": 32000
+      }
+     ]
+    },
+    {
+     "name": "Resized_IMG_6523.jpg.jpeg",
+     "fid": "F0C5Z3PUYTE",
+     "from": "댓글",
+     "path": "menu-files/1790825665_706209-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "튀김",
+       "name": "통집튀김",
+       "price": 17000
+      },
+      {
+       "category": "튀김",
+       "name": "닭발튀김",
+       "price": 16000
+      },
+      {
+       "category": "튀김",
+       "name": "새우튀김",
+       "price": 17000
+      },
+      {
+       "category": "튀김",
+       "name": "고추튀김",
+       "price": 17000
+      },
+      {
+       "category": "튀김",
+       "name": "오징어튀김",
+       "price": 16000
+      },
+      {
+       "category": "튀김",
+       "name": "양념치킨",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "반반치킨",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "간장치킨",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "후라이드치킨",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "닭날개",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "닭다리",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "윤봉",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "닭봉",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "닭날개",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "닭다리",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "새우/고추튀김",
+       "price": 17000
+      },
+      {
+       "category": "튀김",
+       "name": "오징어튀김",
+       "price": 18000
+      },
+      {
+       "category": "튀김",
+       "name": "순살치킨",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "순살반반",
+       "price": 21000
+      },
+      {
+       "category": "튀김",
+       "name": "순살양념",
+       "price": 21000
+      },
+      {
+       "category": "튀김",
+       "name": "소라숙회",
+       "price": 35000
+      }
+     ]
+    },
+    {
+     "name": "Resized_IMG_6524.jpg.jpeg",
+     "fid": "F0C5V8PEFK4",
+     "from": "댓글",
+     "path": "menu-files/1790825665_706209-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "찌개",
+       "name": "오뎅탕",
+       "price": 17000
+      },
+      {
+       "category": "찌개",
+       "name": "갈탕",
+       "price": 20000
+      },
+      {
+       "category": "찌개",
+       "name": "부대찌개",
+       "price": 19000
+      },
+      {
+       "category": "찌개",
+       "name": "김치찌개",
+       "price": 16000
+      },
+      {
+       "category": "찌개",
+       "name": "국물약볶이",
+       "price": 16000
+      },
+      {
+       "category": "찌개",
+       "name": "해물탕",
+       "price": 23000
+      },
+      {
+       "category": "찌개",
+       "name": "돼지고기 김치찌개",
+       "price": 18000
+      },
+      {
+       "category": "찌개",
+       "name": "꽁치김치찌개",
+       "price": 20000
+      },
+      {
+       "category": "찌개",
+       "name": "고등어김치찌개",
+       "price": 18000
+      },
+      {
+       "category": "찌개",
+       "name": "참치찌개",
+       "price": 18000
+      },
+      {
+       "category": "찌개",
+       "name": "소라숙회",
+       "price": 33000
+      },
+      {
+       "category": "찌개",
+       "name": "소라숙회",
+       "price": 34000
+      },
+      {
+       "category": "찌개",
+       "name": "소라숙회",
+       "price": 30000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790825712.236219",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790825665706209"
+  },
   {
    "ts": "1790822431.792529",
    "date": "2026-10-01",
