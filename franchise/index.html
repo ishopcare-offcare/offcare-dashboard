@@ -172,6 +172,7 @@
     margin-left:6px; vertical-align:middle; background:var(--blue); color:#fff}
   tr.cli-row td{background:var(--blue-soft); border-bottom:1px solid var(--line)}
   tr.cli-row:hover td{background:var(--blue-soft)}
+  tr.zero-row td{color:var(--muted)} tr.zero-row .brand-link{opacity:.7}
   .tierbadge{display:inline-block; font-size:10.5px; font-weight:800; padding:1px 7px; border-radius:20px;
     margin-left:6px; vertical-align:middle}
   .tierbadge.A{background:var(--green-soft); color:#166534}
@@ -541,10 +542,15 @@ let period = {mode:'all', from:'', to:''};
 function periodDates(){
   if(!ALL_DATES.length) return [];
   if(period.mode === 'all')   return ALL_DATES.slice();
-  if(period.mode === 'today') return ALL_DATES.filter(d=>d===LAST);
+  /* '오늘'·기간선택은 달력 날짜 그대로 쓴다. 데이터가 있는 날(ALL_DATES)로만 거르면
+     인입이 0건인 날을 고를 수 없어 브랜드별 현황 같은 화면이 아예 안 뜬다. */
+  if(period.mode === 'today') return [REAL_TODAY];
   if(period.mode === 'custom'){
-    const a = period.from || ALL_DATES[0], b = period.to || LAST;
-    return ALL_DATES.filter(d=>d>=a && d<=b);
+    let a = period.from || ALL_DATES[0], b = period.to || REAL_TODAY;
+    if(a > b){ const t = a; a = b; b = t; }
+    const out = [];
+    for(let d = a; d <= b && out.length < 3660; d = shiftDays(d, 1)) out.push(d);
+    return out;
   }
   const n = period.mode === 'd7' ? 7 : 30;
   const from = shiftDays(LAST, -(n-1));
@@ -558,7 +564,7 @@ const REAL_TODAY = (function(){
 function periodLabel(){
   const ds = periodDates();
   if(!ds.length) return '데이터 없음';
-  const t = {today:(LAST===REAL_TODAY ? '오늘' : '최신 데이터일'), d7:'최근 7일', d30:'최근 30일',
+  const t = {today:'오늘', d7:'최근 7일', d30:'최근 30일',
              all:'전체 기간', custom:'지정 기간'}[period.mode];
   return t + ' · ' + fmtD(ds[0]) + (ds.length>1 ? ' ~ ' + fmtD(ds[ds.length-1]) : '') + ' (' + ds.length + '일)';
 }
@@ -961,8 +967,13 @@ function brandHitQ(name){
 function viewBrands(){
   const S = scoped(), fr = S.fr;
   const m = new Map();
+  /* 브랜드별 현황은 인입과 무관하게 조회돼야 한다 — 등록 브랜드·계약 고객사를 먼저 0건으로 깔아두고
+     기간 인입을 얹는다. 그래야 인입 없는 날(예: 오늘 오전)에도 표가 뜨고 브랜드로 이동할 수 있다. */
+  const seed = (brand, tier) => { if(!m.has(brand)) m.set(brand, {brand:brand, tier:tier||'B', stores:new Set(), total:0, cats:{}, last:''}); };
+  CLIENTS.forEach(c=>seed(c.brand, 'A'));
+  BRAND_IDX.forEach(b=>seed(b.name, b.tier));
   fr.forEach(r=>{
-    if(!m.has(r.brand)) m.set(r.brand, {brand:r.brand, tier:r.tier, stores:new Set(), total:0, cats:{}, last:''});
+    seed(r.brand, r.tier);
     const o = m.get(r.brand);
     o.stores.add(keyOf(r.store)); o.total++;
     o.cats[r.cat] = (o.cats[r.cat]||0)+1;
@@ -983,7 +994,7 @@ function viewBrands(){
     return (av-bv)*dir || b.total-a.total;
   });
 
-  const notReg = BRAND_IDX.length - new Set(fr.map(r=>r.brand)).size;
+  const nActive = allRows.filter(o=>o.total>0).length;
   let h = hubSampleBanner();
   h += '<div class="notice"><span class="k">이동</span><span class="t">'
     + '<b>브랜드명을 클릭하면 그 프랜차이즈의 전용 대시보드</b>로 이동합니다. '
@@ -991,12 +1002,12 @@ function viewBrands(){
     + '</span></div>';
   if(!brandQ){
     h += '<div class="notice"><span class="k">기준</span><span class="t">'
-      + '등록 브랜드 <b>'+BRAND_IDX.length+'개</b> 중 이 기간에 인입이 있던 브랜드만 표시합니다'
-      + (notReg>0 ? ' (인입 없음 '+notReg+'개 숨김)' : '') + '. '
+      + '등록 브랜드 <b>'+allRows.length+'개</b>를 인입 여부와 관계없이 모두 표시합니다'
+      + ' (이 기간 인입 있음 <b>'+nActive+'개</b>, 0건 브랜드는 흐리게). '
       + '정렬: <b>계약 고객사</b> → <b>A</b>(매장 '+TIER_A_MIN+'곳 이상) → <b>B</b>(그 미만).</span></div>';
   }
 
-  if(!allRows.length) return h + '<div class="card"><div class="empty">기간에 프랜차이즈 인입이 없습니다.<br>기간을 넓히거나 brands.js 에 브랜드를 추가해 보세요.</div></div>';
+  if(!allRows.length) return h + '<div class="card"><div class="empty">등록된 브랜드가 없습니다.<br>brands.js 에 브랜드를 추가해 보세요.</div></div>';
 
   const th = (key,label,cls) => '<th class="sortable '+(cls||'')+'" onclick="setBrandSort(\''+key+'\')">'+label
     + (brandSort.k===key ? '<span class="arw">'+(dir<0?'▼':'▲')+'</span>' : '') + '</th>';
@@ -1006,15 +1017,9 @@ function viewBrands(){
   rows.forEach(o=>{ tot.total+=o.total; o.stores.forEach(s=>tot.stores.add(s));
     Object.keys(o.cats).forEach(c=>tot.cats[c]=(tot.cats[c]||0)+o.cats[c]); });
 
-  /* 검색어가 등록 브랜드와는 맞는데 이 기간에 인입이 0건인 경우.
-     "결과 없음"으로 끝내면 브랜드가 없는 건지 인입이 없는 건지 알 수 없다. */
-  const noHitButKnown = brandQ
-    ? BRAND_IDX.filter(b=>brandHitQ(b.name) && !allRows.some(o=>o.brand===b.name)).map(b=>b.name)
-    : [];
+  const noHitButKnown = [];   /* 등록 브랜드는 0건이어도 행으로 나오므로 이 경우는 더 생기지 않는다 */
 
-  /* 전용 원장 건수가 있으면 계약 고객사도 그냥 일반 행으로 들어온다.
-     아래 pinned 는 "아직 단 한 건도 없는 고객사"만 자리 표시용으로 남긴다. */
-  const pinned = CLIENTS.filter(c=>!allRows.some(o=>o.brand===c.brand) && brandHitQ(c.brand));
+  const pinned = [];          /* 계약 고객사도 위에서 0건 행으로 깔리므로 자리 표시 행이 필요 없다 */
 
   h += '<div class="card"><div class="card-head"><h3>브랜드별 인입 집계</h3>'
     + '<div class="controls">'
@@ -1023,7 +1028,7 @@ function viewBrands(){
     + '</div></div>'
     + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:12px">'
     + (brandQ ? '<b style="color:var(--ink)">“'+esc(brandQ)+'”</b> 검색 · ' : '')
-    + rows.length + '개 브랜드'
+    + rows.length + '개 브랜드 (인입 '+rows.filter(o=>o.total).length+'개)'
     + (brandQ ? ' <span style="color:var(--gray2)">(전체 '+allRows.length+'개 중)</span>' : '')
     + ' · '+num(tot.stores.size)+'개 지점 · '+num(tot.total)+'건</div>';
 
@@ -1060,13 +1065,13 @@ function viewBrands(){
           + '<td class="num zero">·</td></tr>';
       }).join('')
     + rows.map(function(o){
-        return '<tr><td><span class="brand-link" onclick="goBrand(\''+esc(o.brand).replace(/'/g,"\\'")+'\')">'+esc(o.brand)+'</span>'
+        return '<tr'+(o.total?'':' class="zero-row"')+'><td><span class="brand-link" onclick="goBrand(\''+esc(o.brand).replace(/'/g,"\\'")+'\')">'+esc(o.brand)+'</span>'
           + (clientOf(o.brand) ? '<span class="cli-badge">계약고객사</span>'
                                : '<span class="tierbadge '+o.tier+'">'+o.tier+'</span>')   /* 계약 고객사는 등급 표시 안 함 */
           + '</td>'
           + '<td class="num">'+o.nStore+'</td><td class="num totcell">'+o.total+'</td>'
           + CATS.map(c=>'<td class="num'+(o.cats[c.key]?'':' zero')+'">'+(o.cats[c.key]||'·')+'</td>').join('')
-          + '<td class="num" style="color:var(--gray)">'+fmtD(o.last)+'</td></tr>';
+          + '<td class="num" style="color:var(--gray)">'+(o.last ? fmtD(o.last) : '·')+'</td></tr>';
       }).join('')
     + '</tbody><tfoot><tr><td>합계</td><td class="num">'+tot.stores.size+'</td><td class="num">'+tot.total+'</td>'
     + CATS.map(c=>'<td class="num">'+(tot.cats[c.key]||0)+'</td>').join('')+'<td></td></tr></tfoot>'
@@ -1403,13 +1408,10 @@ document.getElementById('themeFab').addEventListener('click', function(){
     ['dFrom','dTo'].forEach(function(id, i){
       const el = document.getElementById(id);
       el.value = i === 0 ? a : b;
-      el.min = a; el.max = b;
+      el.min = a; el.max = b > REAL_TODAY ? b : REAL_TODAY;   /* 인입 없는 오늘도 고를 수 있게 */
     });
   }
-  /* '오늘' 버튼은 "가장 최신 데이터일"을 고른다. 실제 오늘과 다르면 라벨을 바꿔
-     08/31 짜리 데이터를 '오늘'이라 부르는 일이 없게 한다. */
-  const todayBtn = document.querySelector('#periodSeg button[data-p="today"]');
-  if(todayBtn && LAST && LAST !== REAL_TODAY) todayBtn.textContent = '최신 ' + fmtD(LAST);
+  /* '오늘' 버튼은 실제 오늘(브라우저 기준)이다. 인입이 없으면 0건으로 보여준다. */
 
   /* 기본 기간('전체')과 세그먼트 버튼 상태를 맞춘다 */
   document.querySelectorAll('#periodSeg button').forEach(function(b){
