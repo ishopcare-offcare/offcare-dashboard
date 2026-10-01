@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2793,
- "updatedAt": "2026-10-01 10:30",
+ "version": 2794,
+ "updatedAt": "2026-10-01 10:40",
  "days": 30,
  "items": [
   {
@@ -52973,38 +52973,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788227409085049"
-  },
-  {
-   "ts": "1788226711.709729",
-   "date": "2026-09-01",
-   "time": "10:38",
-   "store": "청명 푸드",
-   "biz": "8372002316",
-   "pos": "토스포스",
-   "content": "배민앱과 똑같이 등록 요청 / 토스포스프로그램 사용",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BU0R2CB6W",
-     "from": "댓글",
-     "path": "menu-files/1788226711_709729-0.png",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "넹! 말씀주신 내용 토대로 다시 말씀드려볼게요"
-   ],
-   "rc": 4,
-   "lr": "1788227433.816139",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788226711709729"
   }
  ],
  "ocr": {
