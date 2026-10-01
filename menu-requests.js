@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2825,
- "updatedAt": "2026-10-01 15:24",
+ "version": 2826,
+ "updatedAt": "2026-10-01 15:27",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C6QMJHKBJ",
      "from": "댓글",
-     "path": "menu-files/1790835560_338789-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -196,13 +195,13 @@ window.MENU_REQUESTS = {
        "name": "콜라/제로콜라",
        "price": 3000
       }
-     ]
+     ],
+     "path": "menu-files/1790835560_338789-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C601ENLP6",
      "from": "댓글",
-     "path": "menu-files/1790835560_338789-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -215,15 +214,16 @@ window.MENU_REQUESTS = {
        "name": "돈테키 정식",
        "price": 17900
       }
-     ]
+     ],
+     "path": "menu-files/1790835560_338789-1.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790835589.486179",
+   "rc": 3,
+   "lr": "1790836003.688509",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790835560338789"
   },
