@@ -3,10 +3,175 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2795,
- "updatedAt": "2026-10-01 10:51",
+ "version": 2796,
+ "updatedAt": "2026-10-01 11:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1790820189.132369",
+   "date": "2026-10-01",
+   "time": "11:03",
+   "store": "베란다",
+   "biz": "6046201022",
+   "pos": "토스포스",
+   "content": "주류 소주5000\n매주 5000 청하 6000\n별빛청하 6000 음료수2000\n이벤트 소주 2500\n양주 싯가\n\n점심메뉴\n브런치세트 10000\n백반세트 10000",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1ahLzUwX04vczREXWAZyhJ69K9uXZeMEp/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ahLzUwX04vczREXWAZyhJ69K9uXZeMEp",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "제철음식",
+       "name": "가오리조림찜",
+       "price": 49000
+      },
+      {
+       "category": "제철음식",
+       "name": "미더덕찜",
+       "price": 29000
+      },
+      {
+       "category": "제철음식",
+       "name": "향어·우럭 무침",
+       "price": 29000
+      },
+      {
+       "category": "제철음식",
+       "name": "바지락탕",
+       "price": 19000
+      },
+      {
+       "category": "제철음식",
+       "name": "볼낙(물X회)구이",
+       "price": 39000
+      },
+      {
+       "category": "제철음식",
+       "name": "문어숙회",
+       "price": 39000
+      },
+      {
+       "category": "제철음식",
+       "name": "닭도리탕",
+       "price": 29000
+      },
+      {
+       "category": "제철음식",
+       "name": "해물꽃게탕",
+       "price": 39000
+      },
+      {
+       "category": "제철음식",
+       "name": "꽃게무침",
+       "price": 39000
+      },
+      {
+       "category": "제철음식",
+       "name": "간장게장",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "두부조림",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "골뱅이소면",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "피자",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "계란말이",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "김치찌개(돼지고기,참치,묵은지)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "반건조 오징어",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "육전,미나리전,굴전",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "닭발",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "곱묵",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "호두치즈 감자",
+       "price": 15000
+      },
+      {
+       "category": "이모카세",
+       "name": "이모카세 하",
+       "price": 20000
+      },
+      {
+       "category": "이모카세",
+       "name": "이모카세 중",
+       "price": 30000
+      },
+      {
+       "category": "이모카세",
+       "name": "이모카세 상",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "스테이크&포테이토",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "샐러드(치킨새우)",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "오돌뼈볶음+주먹밥",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "파스타",
+       "price": 10000
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790820189132369"
+  },
   {
    "ts": "1790818187.498269",
    "date": "2026-10-01",
