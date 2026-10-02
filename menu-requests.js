@@ -3,10 +3,205 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2845,
- "updatedAt": "2026-10-02 10:15",
+ "version": 2846,
+ "updatedAt": "2026-10-02 10:25",
  "days": 30,
  "items": [
+  {
+   "ts": "1790904236.426159",
+   "date": "2026-10-02",
+   "time": "10:23",
+   "store": "고투카페",
+   "biz": "2280571942",
+   "pos": "토스포스",
+   "content": "메뉴판",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1ooUW3LtjdjzxVgCimS4m7VEeoHzMRkAP/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1bB9nRiaEKcMwQo4DXMxySzr2pTpwgasZ/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Zb4Xu40Z3BUBVSQdAQmnmeeayez0I_fV/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1L2k9g9DVqspMqz1EuWX54kmX0EuHdhPv/view?usp=drivesdk",
+    "https://drive.google.com/file/d/16hQeZNfV87tusNYOITFpcndvBfN8pXTc/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1NHtWLUDL5Yalumuvo5OKFd3x0c3GlA7v/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ooUW3LtjdjzxVgCimS4m7VEeoHzMRkAP",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Set",
+       "name": "Go-to Lunch Set",
+       "price": 9900
+      },
+      {
+       "category": "Set",
+       "name": "Soup & Sandwich Set",
+       "price": 11900
+      },
+      {
+       "category": "Set",
+       "name": "Soup & Sandwich Set",
+       "price": 12900
+      }
+     ]
+    },
+    {
+     "id": "1bB9nRiaEKcMwQo4DXMxySzr2pTpwgasZ",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샌드위치",
+       "name": "루꼴라잠봉 샌드위치",
+       "price": 8600
+      },
+      {
+       "category": "샌드위치",
+       "name": "튜나스위트 샌드위치",
+       "price": 9800
+      },
+      {
+       "category": "샌드위치",
+       "name": "리코타 복숭아 샌드위치",
+       "price": 9800
+      },
+      {
+       "category": "샌드위치",
+       "name": "블루베리잼 사과 샌드위치",
+       "price": 9800
+      },
+      {
+       "category": "샌드위치",
+       "name": "양송이 컵 스프",
+       "price": 4300
+      }
+     ]
+    },
+    {
+     "id": "1Zb4Xu40Z3BUBVSQdAQmnmeeayez0I_fV",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "유자 캐모마일",
+       "price": 5400
+      },
+      {
+       "category": "",
+       "name": "유자티",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "생강차",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "캐모마일",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "페퍼민트",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "히비스커스",
+       "price": 3200
+      }
+     ]
+    },
+    {
+     "id": "1L2k9g9DVqspMqz1EuWX54kmX0EuHdhPv",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "과일주스",
+       "name": "토마토주스",
+       "price": 6900
+      },
+      {
+       "category": "과일주스",
+       "name": "키위주스",
+       "price": 6900
+      },
+      {
+       "category": "과일주스",
+       "name": "복숭아주스",
+       "price": 6900
+      },
+      {
+       "category": "착즙주스",
+       "name": "케일주스",
+       "price": 6200
+      }
+     ]
+    },
+    {
+     "id": "16hQeZNfV87tusNYOITFpcndvBfN8pXTc",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "Go-to coffee (아메리카노)",
+       "price": 2800
+      },
+      {
+       "category": "",
+       "name": "카페라떼",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "바닐라 라떼",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "모카라떼",
+       "price": 3800
+      }
+     ]
+    },
+    {
+     "id": "1NHtWLUDL5Yalumuvo5OKFd3x0c3GlA7v",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "카라멜 라떼",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "연유라떼",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "레몬 샷 토닉",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "솔티드 바닐라 라떼",
+       "price": 4000
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790904236426159"
+  },
   {
    "ts": "1790903171.385269",
    "date": "2026-10-02",
