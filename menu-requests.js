@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2869,
- "updatedAt": "2026-10-02 15:43",
+ "version": 2870,
+ "updatedAt": "2026-10-02 15:52",
  "days": 30,
  "items": [
   {
@@ -55396,29 +55396,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788332029860289"
-  },
-  {
-   "ts": "1788331959.003039",
-   "date": "2026-09-02",
-   "time": "15:52",
-   "store": "램니쿠야 둔촌2호점",
-   "biz": "6687700434",
-   "pos": "퍼스트포스",
-   "content": "무슨 포스인지 모르겠다고 하심 / 메뉴 수정 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "기타 주류 > 기린생맥주 360ml 8,000원 밑에\n기린할인맥주 7,000원 추가\n노주노교블랙(?) 15,000 > 16,000 인상\n레몬 3,000 인상, 콜라/사이다/환타 3,000 인상\n하이네켄 / 타이거 맥주 삭제\n\n<tel:···|···> / <tel:···|···> 으로 문자 요청"
-   ],
-   "rc": 4,
-   "lr": "1788332565.796059",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788331959003039"
   }
  ],
  "ocr": {
