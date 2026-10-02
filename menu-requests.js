@@ -3,10 +3,358 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2859,
- "updatedAt": "2026-10-02 11:56",
+ "version": 2860,
+ "updatedAt": "2026-10-02 12:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1790912214.747469",
+   "date": "2026-10-02",
+   "time": "12:36",
+   "store": "달달(Dal Dal)",
+   "biz": "7960501181",
+   "pos": "",
+   "content": "신규 설치 예정",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_1790823647151.jpg.jpeg",
+     "fid": "F0C69RU0VK6",
+     "from": "댓글",
+     "path": "menu-files/1790912214_747469-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노 (Hot)",
+       "price": 2500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노 (Ice)",
+       "price": 3000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페 라떼 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페 라떼 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라 라떼 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라 라떼 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐럿 라떼 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐럿 라떼 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카푸치노 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카푸치노 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카 (Ice)",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜 마끼아또 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜 마끼아또 (Ice)",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "에스프레소 (Hot)",
+       "price": 2500
+      },
+      {
+       "category": "COFFEE",
+       "name": "고구마 라떼 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "고구마 라떼 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "녹차 라떼 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "녹차 라떼 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "초코 라떼 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "초코 라떼 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "딸기 라떼 (Ice)",
+       "price": 4500
+      }
+     ]
+    },
+    {
+     "name": "Resized_1790823647079.jpg.jpeg",
+     "fid": "F0C661H2BKL",
+     "from": "댓글",
+     "path": "menu-files/1790912214_747469-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "얼그레이 (Hot)",
+       "price": 3000
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이 (Ice)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "루이보스 (Hot)",
+       "price": 3000
+      },
+      {
+       "category": "TEA",
+       "name": "루이보스 (Ice)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "카모마일 (Hot)",
+       "price": 3000
+      },
+      {
+       "category": "TEA",
+       "name": "카모마일 (Ice)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트 (Hot)",
+       "price": 3000
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트 (Ice)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "스트로베리 홍차 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "스트로베리 홍차 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "유자차 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "생강차 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "생강차 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬차 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬차 (Ice)",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차 (Ice)",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "코코아 (Hot)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "코코아 (Ice)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬 아이스티",
+       "price": 3000
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아 아이스티",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "Resized_1790823647016.jpg.jpeg",
+     "fid": "F0C69S0EMTN",
+     "from": "댓글",
+     "path": "menu-files/1790912214_747469-2.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "ADE",
+       "name": "자몽 에이드",
+       "price": 4500
+      },
+      {
+       "category": "ADE",
+       "name": "레몬 에이드",
+       "price": 4500
+      },
+      {
+       "category": "ADE",
+       "name": "딸기 에이드",
+       "price": 4500
+      },
+      {
+       "category": "ADE",
+       "name": "청포도 에이드",
+       "price": 4500
+      },
+      {
+       "category": "ADE",
+       "name": "패션 후르츠",
+       "price": 4500
+      },
+      {
+       "category": "Smoothie",
+       "name": "딸기 스무디",
+       "price": 4000
+      },
+      {
+       "category": "Smoothie",
+       "name": "망고 스무디",
+       "price": 4000
+      },
+      {
+       "category": "Smoothie",
+       "name": "키위 스무디",
+       "price": 4000
+      },
+      {
+       "category": "Smoothie",
+       "name": "플레인 스무디",
+       "price": 4000
+      },
+      {
+       "category": "Smoothie",
+       "name": "구름 스무디",
+       "price": 4500
+      }
+     ]
+    },
+    {
+     "name": "Resized_1790823646921.jpg.jpeg",
+     "fid": "F0C684987CZ",
+     "from": "댓글",
+     "path": "menu-files/1790912214_747469-3.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "BEER",
+       "name": "생맥주",
+       "price": 5000
+      },
+      {
+       "category": "BEER",
+       "name": "병맥주",
+       "price": 5000
+      },
+      {
+       "category": "BEER",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "BEER",
+       "name": "기네스 맥주",
+       "price": 9000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790912243.329019",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790912214747469"
+  },
   {
    "ts": "1790909730.169859",
    "date": "2026-10-02",
@@ -26,8 +374,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1790909761.781519",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790909730169859"
   },
   {
