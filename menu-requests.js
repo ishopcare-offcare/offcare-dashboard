@@ -3,10 +3,290 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2889,
- "updatedAt": "2026-10-02 17:17",
+ "version": 2890,
+ "updatedAt": "2026-10-02 17:23",
  "days": 30,
  "items": [
+  {
+   "ts": "1790929294.484559",
+   "date": "2026-10-02",
+   "time": "17:21",
+   "store": "소이면관",
+   "biz": "6110666949",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "i_1ef7db6187b4.jpg",
+     "fid": "F0C65R504DU",
+     "from": "댓글",
+     "path": "menu-files/1790929294_484559-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "면류",
+       "name": "홍소 소고기면",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "회과육 비빔면",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "라쯔지 비빔면",
+       "price": 11000
+      },
+      {
+       "category": "면류",
+       "name": "산채면 (국물/비빔)",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "충칭 샤오면",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "쏸라펀 (새콤매콤 당면)",
+       "price": 8000
+      },
+      {
+       "category": "면류",
+       "name": "다진고기 쏸라펀",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "소고기 원탕면",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "가지 다루 비빔면",
+       "price": 8000
+      },
+      {
+       "category": "면류",
+       "name": "짜장면 (국물/비빔)",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "홍소갈비면",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "닭고기채 비빔면",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "비빈소면",
+       "price": 8000
+      },
+      {
+       "category": "면류",
+       "name": "이빈 란면 (사천식 비빔면)",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "냉면",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "i_15c207164ec1.jpg",
+     "fid": "F0C62EX2ADT",
+     "from": "댓글",
+     "path": "menu-files/1790929294_484559-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "음료수",
+       "name": "中国饮料",
+       "price": 3000
+      },
+      {
+       "category": "음료수",
+       "name": "환타",
+       "price": 2000
+      },
+      {
+       "category": "음료수",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료수",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료수",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료수",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "음료수",
+       "name": "태라",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "i_34e268d11ae8.jpg",
+     "fid": "F0C725A63R6",
+     "from": "댓글",
+     "path": "menu-files/1790929294_484559-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "새콤매콤 무뼈 닭발",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "쌀순대",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "건두부 순대",
+       "price": 6000
+      },
+      {
+       "category": "반찬류",
+       "name": "매운 중국 동사리 조림",
+       "price": 18000
+      },
+      {
+       "category": "반찬류",
+       "name": "고추 생선머리찜 (반마리)",
+       "price": 26000
+      },
+      {
+       "category": "반찬류",
+       "name": "매운 콩나물볶음",
+       "price": 10000
+      },
+      {
+       "category": "반찬류",
+       "name": "매운 감자조림",
+       "price": 10000
+      },
+      {
+       "category": "반찬류",
+       "name": "매운 민물새우볶음",
+       "price": 12000
+      },
+      {
+       "category": "반찬류",
+       "name": "가정식 냉채",
+       "price": 8000
+      },
+      {
+       "category": "반찬류",
+       "name": "철판 두부",
+       "price": 12000
+      },
+      {
+       "category": "반찬류",
+       "name": "매운 닭발",
+       "price": 16000
+      },
+      {
+       "category": "반찬류",
+       "name": "수제 돼지껍데기 묵",
+       "price": 10000
+      },
+      {
+       "category": "반찬류",
+       "name": "구운 가지 요리",
+       "price": 10000
+      },
+      {
+       "category": "반찬류",
+       "name": "청양고추 소고기볶음",
+       "price": 18000
+      }
+     ]
+    },
+    {
+     "name": "i_fd071cefcca1.jpg",
+     "fid": "F0C725AJHLY",
+     "from": "댓글",
+     "path": "menu-files/1790929294_484559-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "무침류",
+       "name": "건두부 무침",
+       "price": 8000
+      },
+      {
+       "category": "무침류",
+       "name": "오이무침",
+       "price": 8000
+      },
+      {
+       "category": "무침류",
+       "name": "닭뼈 무침",
+       "price": 12000
+      },
+      {
+       "category": "무침류",
+       "name": "감자채 무침",
+       "price": 8000
+      },
+      {
+       "category": "무침류",
+       "name": "구수계 (중국식 매콤한 닭고기 냉채)",
+       "price": 12000
+      },
+      {
+       "category": "무침류",
+       "name": "새콤매콤 무뼈 닭발",
+       "price": 12000
+      },
+      {
+       "category": "무침류",
+       "name": "쌀순대",
+       "price": 8000
+      },
+      {
+       "category": "무침류",
+       "name": "건두부 순대",
+       "price": 6000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "중국어 메뉴 제외 한국어 메뉴만 등록 요청 드립니다."
+   ],
+   "rc": 2,
+   "lr": "1790929391.853509",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790929294484559"
+  },
   {
    "ts": "1790928664.981579",
    "date": "2026-10-02",
