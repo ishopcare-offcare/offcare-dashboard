@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2900,
- "updatedAt": "2026-10-02 17:45",
+ "version": 2901,
+ "updatedAt": "2026-10-02 17:48",
  "days": 30,
  "items": [
   {
@@ -648,7 +648,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C7296HPT2",
      "from": "댓글",
-     "path": "menu-files/1790929831_465149-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -731,7 +730,8 @@ window.MENU_REQUESTS = {
        "name": "잔슨빌소세지 오므카레",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1790929831_465149-5.png"
     },
     {
      "name": "image.png",
@@ -995,6 +995,355 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69SRTM17",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "치킨가라아게 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "왕새우튀김 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "잔슨빌소세지 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "트러플새우 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "함박스테이크 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "돈까스 카레라이스",
+       "price": 1000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "모듬튀김 카레라이스",
+       "price": 1000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "통모짜 카레라이스",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "치킨가라아게 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "모듬튀김 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "왕새우튀김 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "돈까스 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "통모짜 치즈돈까스 오므카레",
+       "price": 3000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "함박스테이크 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "잔슨빌소세지 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴선택 (1)",
+       "name": "트러플새우 오므카레",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C61N33QG3",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "치킨가라아게 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "왕새우튀김 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "찬슨빌소세지 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "트러플새우 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "함박스테이크 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "돈까스 카레라이스",
+       "price": 1000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "모둠튀김 카레라이스",
+       "price": 1000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "퉁모짜 카레라이스",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "왕새우튀김 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "치킨가라아게 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "찬슨빌소세지 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "트러플새우 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "함박스테이크 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "돈까스 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "2인 세트 메뉴 선택 (2)",
+       "name": "퉁모짜 치즈돈까스 오므카레",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6BKA8FQU",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "밥선택 (2)",
+       "name": "유기농 쌀밥",
+       "price": 0
+      },
+      {
+       "category": "밥선택 (2)",
+       "name": "볶음밥",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C61N55PQT",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치즈 선택 (2)",
+       "name": "체다 치즈",
+       "price": 0
+      },
+      {
+       "category": "치즈 선택 (2)",
+       "name": "더블 체다치즈",
+       "price": 700
+      },
+      {
+       "category": "치즈 선택 (2)",
+       "name": "모짜렐라+체다치즈",
+       "price": 1500
+      },
+      {
+       "category": "치즈 선택 (2)",
+       "name": "치즈 빼주세요",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C72A6KKKJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "카레 맛 선택 (2)",
+       "name": "기본맛",
+       "price": 0
+      },
+      {
+       "category": "카레 맛 선택 (2)",
+       "name": "매운맛(신라면 맵기)",
+       "price": 0
+      },
+      {
+       "category": "카레 맛 선택 (2)",
+       "name": "크림맛(동물성100%크림)",
+       "price": 0
+      },
+      {
+       "category": "카레 맛 선택 (2)",
+       "name": "아주매운맛",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C72A9EM5W",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴 선택",
+       "name": "온천수란 2개",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴 선택",
+       "name": "가라아게2,김자고로케2",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴 선택",
+       "name": "치킨텐더 4ea",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴 선택",
+       "name": "한입군만두 14ea",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴 선택",
+       "name": "왕새우튀김 2ea",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴 선택",
+       "name": "치킨가라아게 6ea",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6BKFUEKE",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "2인세트음료선택",
+       "name": "코카콜라",
+       "price": 0
+      },
+      {
+       "category": "2인세트음료선택",
+       "name": "사이다",
+       "price": 0
+      },
+      {
+       "category": "2인세트음료선택",
+       "name": "코카콜라 제로",
+       "price": 0
+      },
+      {
+       "category": "2인세트음료선택",
+       "name": "아사히 생맥주캔",
+       "price": 4000
+      },
+      {
+       "category": "2인세트음료선택",
+       "name": "사무엘 아담스 맥주 미국 보스턴 라거",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C62KYPR1B",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "2인세트 음료선택 (2)",
+       "name": "코카콜라",
+       "price": 0
+      },
+      {
+       "category": "2인세트 음료선택 (2)",
+       "name": "사이다",
+       "price": 0
+      },
+      {
+       "category": "2인세트 음료선택 (2)",
+       "name": "코카콜라 제로",
+       "price": 0
+      },
+      {
+       "category": "2인세트 음료선택 (2)",
+       "name": "아사히 생맥주캔",
+       "price": 4000
+      },
+      {
+       "category": "2인세트 음료선택 (2)",
+       "name": "사무엘 아담스  맥주  미국 보스턴 라거",
+       "price": 5000
+      }
+     ]
     }
    ],
    "datt": [],
@@ -1002,8 +1351,8 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579 다시 부탁드립니다. ㅜ ㅜ",
     "엉엉 ㅜ ㅜ 최대한 빠르게 부탁드리겟습니다.\n죄송합니다 ㅜ ㅜ....."
    ],
-   "rc": 11,
-   "lr": "1790930675.894729",
+   "rc": 12,
+   "lr": "1790930824.408759",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
