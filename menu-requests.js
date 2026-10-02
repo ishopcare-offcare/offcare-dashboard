@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2898,
- "updatedAt": "2026-10-02 17:39",
+ "version": 2899,
+ "updatedAt": "2026-10-02 17:41",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C6BHD44HJ",
      "from": "댓글",
-     "path": "menu-files/1790929831_465149-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -146,13 +145,13 @@ window.MENU_REQUESTS = {
        "name": "모듬튀김 오므카레",
        "price": 13900
       }
-     ]
+     ],
+     "path": "menu-files/1790929831_465149-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C7289KRMW",
      "from": "댓글",
-     "path": "menu-files/1790929831_465149-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -260,13 +259,13 @@ window.MENU_REQUESTS = {
        "name": "모듬튀김 오므카레",
        "price": 13900
       }
-     ]
+     ],
+     "path": "menu-files/1790929831_465149-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C69R6EADP",
      "from": "댓글",
-     "path": "menu-files/1790929831_465149-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -384,13 +383,13 @@ window.MENU_REQUESTS = {
        "name": "모듬튀김 오므카레",
        "price": 13900
       }
-     ]
+     ],
+     "path": "menu-files/1790929831_465149-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C65UCTNBY",
      "from": "댓글",
-     "path": "menu-files/1790929831_465149-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -518,6 +517,131 @@ window.MENU_REQUESTS = {
        "name": "모듬튀김 오므카레",
        "price": 13900
       }
+     ],
+     "path": "menu-files/1790929831_465149-3.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C728PQWTS",
+     "from": "댓글",
+     "path": "menu-files/1790929831_465149-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "1인 세트 (메뉴+추가토핑+음료)",
+       "price": 14900
+      },
+      {
+       "category": "",
+       "name": "2인 세트 (메뉴 2 + 사이드메뉴 + 음료2)",
+       "price": 31000
+      },
+      {
+       "category": "",
+       "name": "온천수란 카레라이스",
+       "price": 9900
+      },
+      {
+       "category": "",
+       "name": "버섯 카레라이스",
+       "price": 9900
+      },
+      {
+       "category": "",
+       "name": "돈까스 카레라이스",
+       "price": 12400
+      },
+      {
+       "category": "",
+       "name": "치킨 가라아게 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "잔슬빌 소시지 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "트러플새우 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "함박스테이크 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "모둠튀김 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "통모짜 카레라이스",
+       "price": 13400
+      },
+      {
+       "category": "",
+       "name": "237 오므카레",
+       "price": 10900
+      },
+      {
+       "category": "",
+       "name": "돈까스 오므카레",
+       "price": 14400
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "",
+       "name": "치킨가라아게 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "",
+       "name": "잔슬빌 소시지 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "",
+       "name": "트러플새우 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "",
+       "name": "함박스테이크 오므카레",
+       "price": 13500
+      },
+      {
+       "category": "",
+       "name": "통모짜 오므카레",
+       "price": 15400
+      },
+      {
+       "category": "",
+       "name": "온천수란 카레우동",
+       "price": 9900
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김 카레우동",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "모둠튀김 오므카레",
+       "price": 13900
+      }
      ]
     }
    ],
@@ -526,8 +650,8 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579 다시 부탁드립니다. ㅜ ㅜ",
     "엉엉 ㅜ ㅜ 최대한 빠르게 부탁드리겟습니다.\n죄송합니다 ㅜ ㅜ....."
    ],
-   "rc": 9,
-   "lr": "1790930296.449189",
+   "rc": 10,
+   "lr": "1790930443.601719",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
