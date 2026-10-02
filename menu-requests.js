@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2901,
- "updatedAt": "2026-10-02 17:48",
+ "version": 2902,
+ "updatedAt": "2026-10-02 17:49",
  "days": 30,
  "items": [
   {
@@ -1344,6 +1344,13 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69TKB8DP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": []
     }
    ],
    "datt": [],
@@ -1351,8 +1358,8 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579 다시 부탁드립니다. ㅜ ㅜ",
     "엉엉 ㅜ ㅜ 최대한 빠르게 부탁드리겟습니다.\n죄송합니다 ㅜ ㅜ....."
    ],
-   "rc": 12,
-   "lr": "1790930824.408759",
+   "rc": 16,
+   "lr": "1790930946.438229",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
@@ -58438,38 +58445,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788339251237159"
-  },
-  {
-   "ts": "1788338917.960749",
-   "date": "2026-09-02",
-   "time": "17:48",
-   "store": "비틀주스(한국외대점)",
-   "biz": "6933800673",
-   "pos": "퍼스트포스",
-   "content": "메뉴 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MDkwMV8xMzQ2MD",
-     "fid": "F0BUBK3TY3G",
-     "from": "댓글",
-     "path": "menu-files/1788338917_960749-0.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "[브런치/프루츠/차]\n에그마요모닝빵옆에\n에그당근라페모닝빵2,800원 올려주세요~"
-   ],
-   "rc": 3,
-   "lr": "1788338936.454039",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788338917960749"
   }
  ],
  "ocr": {
