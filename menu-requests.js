@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2860,
- "updatedAt": "2026-10-02 12:37",
+ "version": 2861,
+ "updatedAt": "2026-10-02 12:39",
  "days": 30,
  "items": [
   {
@@ -371,10 +371,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "면 카테고리2종\n• (숙성간장)냉모밀 9900\n• 냉모밀곱배기11900\n키오스크에서만 삭제요청\n포스는 삭재 :x:"
    ],
-   "rc": 2,
-   "lr": "1790909761.781519",
+   "rc": 3,
+   "lr": "1790912336.743729",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790909730169859"
   },
