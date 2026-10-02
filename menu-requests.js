@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2837,
- "updatedAt": "2026-10-02 09:33",
+ "version": 2838,
+ "updatedAt": "2026-10-02 09:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1790902071.268719",
+   "date": "2026-10-02",
+   "time": "09:47",
+   "store": "어디피자 안산점",
+   "biz": "7755701015",
+   "pos": "",
+   "content": "피자 추가",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790902071268719"
+  },
   {
    "ts": "1790845345.336399",
    "date": "2026-10-01",
