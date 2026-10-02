@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15559,
+  "version": 15560,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227329,10 +227329,11 @@ window.SLACK_DATA = {
     },
     "2026-10-02": {
       "counts": {
-        "onboarding": {
+        "as": {
+          "송태양": 1,
           "심성현": 1
         },
-        "as": {
+        "onboarding": {
           "심성현": 1
         },
         "nosetup": {
@@ -227344,6 +227345,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:21",
+          "store": "라멘 토네이도",
+          "biz": "4223701622",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "태프유프 영수증이 주방영수증에서 계속 나오고있음 오류 원격 확인 요청하시어 점검 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "• 유프추가 온보딩 및 기존 무프 영수증 출력안되게 설정 완료입니다 유프추가 온보딩 및 기존 무프 영수증 출력안되게 설정 완료입니다"
+        },
         {
           "time": "09:18",
           "store": "몽실멍실",
@@ -227390,7 +227402,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 0,
         "unknown": 0
       },
@@ -227646,21 +227658,21 @@ window.SLACK_DATA = {
       },
       "1790900101.884419": {
         "post": "1790900101.884419",
-        "lastSeen": 1790900798.233,
+        "lastSeen": 1790900880.699,
         "r": 1,
         "day": "2026-10-02",
         "idx": 2
       },
       "1790900584.384109": {
         "post": "1790900584.384109",
-        "lastSeen": 1790900798.233,
+        "lastSeen": 1790900880.699,
         "r": 1,
         "day": "2026-10-02",
         "idx": 3
       },
       "1790900669.184349": {
         "post": "1790900669.184349",
-        "lastSeen": 1790900798.233,
+        "lastSeen": 1790900880.699,
         "r": 1,
         "day": "2026-10-02",
         "idx": 4
@@ -302465,7 +302477,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:27",
+    "at": "2026-10-02 09:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -302581,7 +302593,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:26",
+    "at": "2026-10-02 09:28",
     "pri": {
       "days": 0,
       "failed": [],
