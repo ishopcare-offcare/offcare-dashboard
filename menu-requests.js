@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2844,
- "updatedAt": "2026-10-02 10:13",
+ "version": 2845,
+ "updatedAt": "2026-10-02 10:15",
  "days": 30,
  "items": [
   {
@@ -44,8 +44,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "김밥 단품 가테고리에서\n소불고기김밥 1300원으로 수정"
    ],
-   "rc": 2,
-   "lr": "1790903445.976839",
+   "rc": 4,
+   "lr": "1790903724.144559",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
