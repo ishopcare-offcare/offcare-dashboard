@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2884,
- "updatedAt": "2026-10-02 17:05",
+ "version": 2885,
+ "updatedAt": "2026-10-02 17:08",
  "days": 30,
  "items": [
   {
@@ -23,15 +23,14 @@ window.MENU_REQUESTS = {
      "name": "1000062203.png",
      "fid": "F0C67CK12Q2",
      "from": "댓글",
-     "path": "menu-files/1790927449_944629-0.png",
      "kind": "other",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790927449_944629-0.png"
     },
     {
      "name": "1000062204.png",
      "fid": "F0C62854H53",
      "from": "댓글",
-     "path": "menu-files/1790927449_944629-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -139,13 +138,13 @@ window.MENU_REQUESTS = {
        "name": "김치전",
        "price": 13000
       }
-     ]
+     ],
+     "path": "menu-files/1790927449_944629-1.png"
     },
     {
      "name": "1000062205.png",
      "fid": "F0C6286QQPP",
      "from": "댓글",
-     "path": "menu-files/1790927449_944629-2.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -213,15 +212,16 @@ window.MENU_REQUESTS = {
        "name": "토닉워터",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1790927449_944629-2.png"
     }
    ],
    "datt": [],
    "replies": [
     "메뉴판 외에\n강아지 입장료 2,000\n견주 이용료 3,000\n\n강아지 간식 1,000\n강아지 간식 3,000\n강아지 간식 4,000\n강아지 간식 5,000\n\n 메너벨트 1,000\n입력 부탁드립니다"
    ],
-   "rc": 2,
-   "lr": "1790927500.830689",
+   "rc": 3,
+   "lr": "1790928411.360729",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
@@ -55597,29 +55597,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788338917960749"
-  },
-  {
-   "ts": "1788336491.348669",
-   "date": "2026-09-02",
-   "time": "17:08",
-   "store": "쏘주 맥쭈",
-   "biz": "1921702310",
-   "pos": "토스포스",
-   "content": "오케이포스 메뉴 등록 요청 카테고리 '디저트' > 앙버터 인절미 토스트 13,900원 요청드립니다. 완료 후 솔라피 발송 부탁드립니다.:woman-bowing:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴 등록 신청 링크 오류로 제출 안된다고 제보 주심..."
-   ],
-   "rc": 2,
-   "lr": "1788336532.067339",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788336491348669"
   }
  ],
  "ocr": {
