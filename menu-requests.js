@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2866,
- "updatedAt": "2026-10-02 15:08",
+ "version": 2867,
+ "updatedAt": "2026-10-02 15:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1790923038.116059",
+   "date": "2026-10-02",
+   "time": "15:37",
+   "store": "진미오뎅",
+   "biz": "3960902955",
+   "pos": "퍼스트포스",
+   "content": "메뉴 추가 수정 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790923041.875239",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790923038116059"
+  },
   {
    "ts": "1790920908.895409",
    "date": "2026-10-02",
@@ -55374,36 +55395,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788331959003039"
-  },
-  {
-   "ts": "1788330965.587429",
-   "date": "2026-09-02",
-   "time": "15:36",
-   "store": "샐러드타임",
-   "biz": "8854001099",
-   "pos": "퍼스트포스",
-   "content": "",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BUGDCJAR2",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1788330965_587429-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 9,
-   "lr": "1788332803.393359",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788330965587429"
   }
  ],
  "ocr": {
