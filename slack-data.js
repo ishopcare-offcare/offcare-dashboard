@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15554,
+  "version": 15555,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227350,7 +227350,7 @@ window.SLACK_DATA = {
           "req": "결제단말기가 중간중간 멈추어 랜선 구매 하시고 공유기와 프론트 연결 하시려고 하시나 어려워 하시어 확인 부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "공유기 LAN 연결 완료"
         },
         {
           "time": "09:00",
@@ -227380,7 +227380,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:15"
+      "updatedAt": "09:18"
     }
   },
   "resp": {
@@ -227622,7 +227622,7 @@ window.SLACK_DATA = {
       },
       "1790900101.884419": {
         "post": "1790900101.884419",
-        "lastSeen": 1790900294.65,
+        "lastSeen": 1790900389.018,
         "r": 1,
         "day": "2026-10-02",
         "idx": 2
@@ -302411,13 +302411,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:18",
+    "at": "2026-10-02 09:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4333,
+    "rows": 4334,
     "named": 1030,
     "unknownName": 0,
     "beforeStart": 0,
@@ -302527,7 +302527,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:18",
+    "at": "2026-10-02 09:19",
     "pri": {
       "days": 0,
       "failed": [],
