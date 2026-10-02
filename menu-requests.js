@@ -3,10 +3,61 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2885,
- "updatedAt": "2026-10-02 17:08",
+ "version": 2886,
+ "updatedAt": "2026-10-02 17:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1790928632.363099",
+   "date": "2026-10-02",
+   "time": "17:10",
+   "store": "우본가",
+   "biz": "4252602129",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790928636.396299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928632363099"
+  },
+  {
+   "ts": "1790928606.233279",
+   "date": "2026-10-02",
+   "time": "17:10",
+   "store": "토리키치(로데오점)",
+   "biz": "3135001399",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C67GRK55Y",
+     "from": "댓글",
+     "path": "menu-files/1790928606_233279-0.png",
+     "kind": "pos_screen",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790928620.980809",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928606233279"
+  },
   {
    "ts": "1790927449.944629",
    "date": "2026-10-02",
