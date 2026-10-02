@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15553,
+  "version": 15554,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227334,6 +227334,9 @@ window.SLACK_DATA = {
         },
         "nosetup": {
           "심성현": 1
+        },
+        "transfer": {
+          "송태양": 1
         }
       },
       "pending": [],
@@ -227359,10 +227362,21 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "온보딩 완료"
+        },
+        {
+          "time": "08:45",
+          "store": "주식회사 초미의관심사",
+          "biz": "2808704258",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "10월 2일 오전 9시 / 메뉴 복사 O / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "포프 핸드폰 명변 완료입니다"
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -227606,16 +227620,9 @@ window.SLACK_DATA = {
         "post": "1790866805.212059",
         "lastSeen": 1790885737.759
       },
-      "1790898302.074279": {
-        "post": "1790898302.074279",
-        "lastSeen": 1790900207.796,
-        "r": 1,
-        "day": "2026-10-02",
-        "idx": 0
-      },
       "1790900101.884419": {
         "post": "1790900101.884419",
-        "lastSeen": 1790900207.796,
+        "lastSeen": 1790900294.65,
         "r": 1,
         "day": "2026-10-02",
         "idx": 2
@@ -302379,7 +302386,8 @@ window.SLACK_DATA = {
             "store": "주식회사 초미의관심사",
             "biz": "2808704258",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 32.5
           },
           {
             "hm": "09:04",
@@ -302403,13 +302411,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:17",
+    "at": "2026-10-02 09:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4332,
+    "rows": 4333,
     "named": 1030,
     "unknownName": 0,
     "beforeStart": 0,
@@ -302519,7 +302527,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:16",
+    "at": "2026-10-02 09:18",
     "pri": {
       "days": 0,
       "failed": [],
