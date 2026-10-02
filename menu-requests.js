@@ -3,10 +3,230 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2880,
- "updatedAt": "2026-10-02 16:49",
+ "version": 2881,
+ "updatedAt": "2026-10-02 16:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1790927449.944629",
+   "date": "2026-10-02",
+   "time": "16:50",
+   "store": "태평하개",
+   "biz": "1580202747",
+   "pos": "",
+   "content": "메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "1000062203.png",
+     "fid": "F0C67CK12Q2",
+     "from": "댓글",
+     "path": "menu-files/1790927449_944629-0.png",
+     "kind": "other",
+     "menu": []
+    },
+    {
+     "name": "1000062204.png",
+     "fid": "F0C62854H53",
+     "from": "댓글",
+     "path": "menu-files/1790927449_944629-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "안주류",
+       "name": "닭한마리",
+       "price": 32000
+      },
+      {
+       "category": "안주류",
+       "name": "닭볶음탕",
+       "price": 32000
+      },
+      {
+       "category": "안주류",
+       "name": "골뱅이무침",
+       "price": 28000
+      },
+      {
+       "category": "안주류",
+       "name": "골뱅이무침 카펠리니면",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "매콤 새우 볶음우동",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "미나리 새우전",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "바팔로 윙봉&감자튀김",
+       "price": 17000
+      },
+      {
+       "category": "안주류",
+       "name": "왕계란말이",
+       "price": 17000
+      },
+      {
+       "category": "안주류",
+       "name": "우삼겹 숙주볶음",
+       "price": 16000
+      },
+      {
+       "category": "안주류",
+       "name": "제육볶음",
+       "price": 16000
+      },
+      {
+       "category": "안주류",
+       "name": "모듬 소세지",
+       "price": 16000
+      },
+      {
+       "category": "안주류",
+       "name": "즉석떡볶이",
+       "price": 16000
+      },
+      {
+       "category": "안주류",
+       "name": "매콤 틀립닭발",
+       "price": 15000
+      },
+      {
+       "category": "안주류",
+       "name": "닭똥집 튀김",
+       "price": 15000
+      },
+      {
+       "category": "안주류",
+       "name": "닭똥집 볶음",
+       "price": 15000
+      },
+      {
+       "category": "안주류",
+       "name": "오돌뼈 볶음",
+       "price": 15000
+      },
+      {
+       "category": "안주류",
+       "name": "옛날통닭",
+       "price": 14000
+      },
+      {
+       "category": "안주류",
+       "name": "옛날떡볶이",
+       "price": 13000
+      },
+      {
+       "category": "안주류",
+       "name": "만두튀김 + 카펠리니 비빔면",
+       "price": 13000
+      },
+      {
+       "category": "안주류",
+       "name": "감자전",
+       "price": 13000
+      },
+      {
+       "category": "안주류",
+       "name": "김치전",
+       "price": 13000
+      }
+     ]
+    },
+    {
+     "name": "1000062205.png",
+     "fid": "F0C6286QQPP",
+     "from": "댓글",
+     "path": "menu-files/1790927449_944629-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "화요 (25도 · 750ml)",
+       "price": 40000
+      },
+      {
+       "category": "주류",
+       "name": "태평하쥬",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "글렌그란트 하이볼",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "짐빔 하이볼",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "레몬소주",
+       "price": 5500
+      },
+      {
+       "category": "주류",
+       "name": "생맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "병맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "논알콜맥주",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "커피 & 차",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "캔음료",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "토닉워터",
+       "price": 2000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "메뉴판 외에\n강아지 입장료 2,000\n견주 이용료 3,000\n\n강아지 간식 1,000\n강아지 간식 3,000\n강아지 간식 4,000\n강아지 간식 5,000\n\n 메너벨트 1,000\n입력 부탁드립니다"
+   ],
+   "rc": 2,
+   "lr": "1790927500.830689",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790927449944629"
+  },
   {
    "ts": "1790927077.822919",
    "date": "2026-10-02",
@@ -303,8 +523,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1790926824.397269",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790926785580099"
   },
   {
@@ -516,8 +736,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1790926757.542599",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790926727516689"
   },
   {
@@ -544,8 +764,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790926308962719"
   },
   {
