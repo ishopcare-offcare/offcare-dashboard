@@ -3,10 +3,38 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2874,
- "updatedAt": "2026-10-02 16:26",
+ "version": 2875,
+ "updatedAt": "2026-10-02 16:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1790926308.962719",
+   "date": "2026-10-02",
+   "time": "16:31",
+   "store": "",
+   "biz": "1580202747",
+   "pos": "",
+   "content": "[📧 메일] 제목: 포스 메뉴판 작성요청\n네트워크 장애가 있다하여 이메일로 보냅니다\n 사업자번호 ···\n 태평하개\n 메뉴판 첨부합니다\n 메뉴판 외에\n 강아지 입장료 2,000\n 견주 이용료 3,000\n \n 강아지 간식 1,000\n 강아지 간식 3,000\n 강아지 간식 4,000\n 강아지 간식 5,000\n \n  메너벨트 1,000\n 입력 부탁드립니다\n <https://drive.google.com/file/d/1-33iQ-TFCsWi7UpnhOThj18JJ1RzyI1D/view?usp=drivesdk>\n ···.png\n <<https://drive>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0fb827977a2c00>)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1-33iQ-TFCsWi7UpnhOThj18JJ1RzyI1D/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0fb827977a2c00",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790926308962719"
+  },
   {
    "ts": "1790923378.506919",
    "date": "2026-10-02",
