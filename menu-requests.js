@@ -3,10 +3,289 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2876,
- "updatedAt": "2026-10-02 16:39",
+ "version": 2877,
+ "updatedAt": "2026-10-02 16:41",
  "days": 30,
  "items": [
+  {
+   "ts": "1790926785.580099",
+   "date": "2026-10-02",
+   "time": "16:39",
+   "store": "금일식당",
+   "biz": "4560402723",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_6459.jpg.jpeg",
+     "fid": "F0C69D52Z17",
+     "from": "댓글",
+     "path": "menu-files/1790926785_580099-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "고기",
+       "name": "금일 530",
+       "price": 52000
+      },
+      {
+       "category": "고기",
+       "name": "금일 830",
+       "price": 85000
+      },
+      {
+       "category": "고기",
+       "name": "YBD 근목살",
+       "price": 18000
+      },
+      {
+       "category": "고기",
+       "name": "YBD 삼겹살",
+       "price": 18000
+      },
+      {
+       "category": "고기",
+       "name": "YBD 숄더랙",
+       "price": 18000
+      },
+      {
+       "category": "고기",
+       "name": "YBD 가브리살",
+       "price": 19000
+      },
+      {
+       "category": "고기",
+       "name": "YBD 항정살",
+       "price": 20000
+      },
+      {
+       "category": "고기",
+       "name": "YBD 갈매기살",
+       "price": 18000
+      },
+      {
+       "category": "고기",
+       "name": "껍데기",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6460.jpg.jpeg",
+     "fid": "F0C65G67YLW",
+     "from": "댓글",
+     "path": "menu-files/1790926785_580099-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "스페셜",
+       "name": "우니와단새우",
+       "price": 35000
+      },
+      {
+       "category": "스페셜",
+       "name": "도미솥밥",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6461.jpg.jpeg",
+     "fid": "F0C6B5GUPTN",
+     "from": "댓글",
+     "path": "menu-files/1790926785_580099-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "타래껍데기",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "김치찜",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "된장술밥",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "김치볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "비빔쫄면",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "얼큰해물짬뽕라면",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "구이야채모듬",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "사이드",
+       "name": "냉모밀",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6462.jpg.jpeg",
+     "fid": "F0C67AFDEV8",
+     "from": "댓글",
+     "path": "menu-files/1790926785_580099-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "한라산",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류",
+       "name": "화요 25",
+       "price": 30000
+      },
+      {
+       "category": "주류",
+       "name": "화요 41",
+       "price": 50000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "레몬슬라이스",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "츄루우메유자 하이볼",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "산토리가쿠하이볼",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "레몬사와",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "콜키지/병",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "에세이",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "야만",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "싱하탄산수",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "니혼주",
+       "price": 70000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6463.jpg.jpeg",
+     "fid": "F0C71RRNG9W",
+     "from": "댓글",
+     "path": "menu-files/1790926785_580099-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "리빙이벤트",
+       "name": "하이볼쿠폰",
+       "price": 0
+      },
+      {
+       "category": "리빙이벤트",
+       "name": "우니쿠폰",
+       "price": 0
+      },
+      {
+       "category": "리빙이벤트",
+       "name": "타래밥",
+       "price": 0
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "주류사진에 레몬사와는 빼주셔도 됩니다!"
+   ],
+   "rc": 2,
+   "lr": "1790926824.397269",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790926785580099"
+  },
   {
    "ts": "1790926727.516689",
    "date": "2026-10-02",
@@ -18,11 +297,203 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwMl8xNTMyMT",
+     "fid": "F0C6B5AJP5J",
+     "from": "댓글",
+     "path": "menu-files/1790926727_516689-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "김밥류",
+       "name": "다혜김밥",
+       "price": 4000
+      },
+      {
+       "category": "김밥류",
+       "name": "참치김밥",
+       "price": 4800
+      },
+      {
+       "category": "김밥류",
+       "name": "치즈김밥",
+       "price": 4800
+      },
+      {
+       "category": "김밥류",
+       "name": "계란듬뿍김밥",
+       "price": 4800
+      },
+      {
+       "category": "김밥류",
+       "name": "불고기김밥",
+       "price": 5200
+      },
+      {
+       "category": "김밥류",
+       "name": "멸치땡초김밥",
+       "price": 5200
+      },
+      {
+       "category": "김밥류",
+       "name": "고추참치김밥",
+       "price": 5200
+      },
+      {
+       "category": "김밥류",
+       "name": "포두부샐러드",
+       "price": 6200
+      },
+      {
+       "category": "김밥류",
+       "name": "어린이김밥",
+       "price": 2500
+      },
+      {
+       "category": "김밥류",
+       "name": "불고기어린이",
+       "price": 3500
+      },
+      {
+       "category": "김밥류",
+       "name": "참치어린이",
+       "price": 3500
+      },
+      {
+       "category": "김밥류",
+       "name": "치즈어린이",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwMl8xNTMyMj",
+     "fid": "F0C65G07X2A",
+     "from": "댓글",
+     "path": "menu-files/1790926727_516689-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "면류",
+       "name": "그냥라면",
+       "price": 4500
+      },
+      {
+       "category": "면류",
+       "name": "떡라면",
+       "price": 5000
+      },
+      {
+       "category": "면류",
+       "name": "순한라면",
+       "price": 4500
+      },
+      {
+       "category": "면류",
+       "name": "만두라면",
+       "price": 5000
+      },
+      {
+       "category": "면류",
+       "name": "치즈라면",
+       "price": 5000
+      },
+      {
+       "category": "면류",
+       "name": "해장라면",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "유부우동",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "어묵탕",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwMl8xNTMyMz",
+     "fid": "F0C625T9RA9",
+     "from": "댓글",
+     "path": "menu-files/1790926727_516689-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "떡볶이",
+       "name": "국물떡볶이",
+       "price": 6000
+      },
+      {
+       "category": "떡볶이",
+       "name": "짜장떡볶이",
+       "price": 6000
+      },
+      {
+       "category": "떡볶이",
+       "name": "짜장라볶",
+       "price": 7000
+      },
+      {
+       "category": "떡볶이",
+       "name": "국물라볶",
+       "price": 7000
+      },
+      {
+       "category": "떡볶이",
+       "name": "계란추가",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이",
+       "name": "떡추기",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이",
+       "name": "어묵추가",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이",
+       "name": "치즈추가",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이",
+       "name": "깻잎떡볶이",
+       "price": 7000
+      },
+      {
+       "category": "떡볶이",
+       "name": "깻잎라볶",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwMl8xNTMyND",
+     "fid": "F0C69CZMZPT",
+     "from": "댓글",
+     "path": "menu-files/1790926727_516689-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "음료",
+       "price": 2000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790926732.512239",
+   "rc": 2,
+   "lr": "1790926757.542599",
    "rfx": 3,
    "status": "wait",
    "handler": null,
