@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2873,
- "updatedAt": "2026-10-02 16:10",
+ "version": 2874,
+ "updatedAt": "2026-10-02 16:26",
  "days": 30,
  "items": [
   {
@@ -54859,29 +54859,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788336491348669"
-  },
-  {
-   "ts": "1788333974.069589",
-   "date": "2026-09-02",
-   "time": "16:26",
-   "store": "샐러드타임",
-   "biz": "8854001099",
-   "pos": "토스포스",
-   "content": "스파로스 메뉴 내용 변경 필요하며,\n스파로스 ->토스포스로 메뉴이관 필요합니다.:꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴 가격 변경\n< 샐러드탭 >\n닭갈비샐러드 13,900\n수비드닭가슴살샐러드 12,600\n< 포케탭 >\n닭갈비포케 14,900\n수비드닭가슴살포케 13,100\n\n신메뉴\n< 월남쌈 탭 >\n유부월남쌈 13,900"
-   ],
-   "rc": 4,
-   "lr": "1788335006.353189",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788333974069589"
   }
  ],
  "ocr": {
