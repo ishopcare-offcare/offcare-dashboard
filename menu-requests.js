@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2863,
- "updatedAt": "2026-10-02 12:45",
+ "version": 2864,
+ "updatedAt": "2026-10-02 14:52",
  "days": 30,
  "items": [
   {
@@ -55401,51 +55401,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788329242763739"
-  },
-  {
-   "ts": "1788328295.046019",
-   "date": "2026-09-02",
-   "time": "14:51",
-   "store": "망고식스 전시장행사용",
-   "biz": "1283861142",
-   "pos": "퍼스트포스",
-   "content": "메뉴 수정 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "상품 제외 하고 그 자리에 상품 추가 요청드립니다.\n\n\n• 다용도컵 매장 [제외] → *핫 연유카페라떼 5,700원*\n• 추가 타피오카 [제외] → *아이스 연유카페라떼 5700원*",
-    ":white_check_mark: 완료 후 ··· 번호로 문자 발송 요청드립니다."
-   ],
-   "rc": 3,
-   "lr": "1788328357.982189",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788328295046019"
-  },
-  {
-   "ts": "1788328259.312579",
-   "date": "2026-09-02",
-   "time": "14:50",
-   "store": "형과아우 황칠누룽지 삼계탕",
-   "biz": "7643801386",
-   "pos": "오케이포스",
-   "content": "KIS오케이포스 사용 매장\n기존 메뉴중 황칠오리능이백숙 70,000원 > 75,000원으로 가격 변경 요청.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1788328476.974629",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788328259312579"
   }
  ],
  "ocr": {
