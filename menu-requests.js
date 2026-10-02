@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2912,
- "updatedAt": "2026-10-02 18:35",
+ "version": 2913,
+ "updatedAt": "2026-10-02 19:07",
  "days": 30,
  "items": [
   {
@@ -57710,32 +57710,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788343908807789"
-  },
-  {
-   "ts": "1788343608.572449",
-   "date": "2026-09-02",
-   "time": "19:06",
-   "store": "경대반점 진주경상대점",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 경대반점 진주경상대점 + 메뉴등록요청 입니다\nkhj6990님의블로그 자기소개가없습니다.   \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06193d04085ae7>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788343611.658809",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a06193d04085ae7",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788343608572449"
   }
  ],
  "ocr": {
