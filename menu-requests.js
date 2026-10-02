@@ -3,10 +3,53 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2886,
- "updatedAt": "2026-10-02 17:10",
+ "version": 2887,
+ "updatedAt": "2026-10-02 17:13",
  "days": 30,
  "items": [
+  {
+   "ts": "1790928664.981579",
+   "date": "2026-10-02",
+   "time": "17:11",
+   "store": "237오므카레 서초 지파이브점",
+   "biz": "4261502882",
+   "pos": "",
+   "content": "<@U08HAHM35U0> 세트메뉴 옵션 전체 삭제 후 순서대로 재생성",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C67H7LM26",
+     "from": "댓글",
+     "path": "menu-files/1790928664_981579-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트메뉴",
+       "name": "1인 세트 (메뉴+추가토핑+음료)",
+       "price": 14900
+      },
+      {
+       "category": "세트메뉴",
+       "name": "2인 세트 (메뉴 2 + 사이드메뉴 + 음료2)",
+       "price": 31000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "하이오더 쓰는데 옵션 우리쪽에서 옵션 순서를 변경해도 하이오더에 순서변경 적용되지 않는 이슈 있어서 소통중이라고 함\n해결 전이라 여기는 그냥 삭제 후 재등록으로 처리 :loading_win:"
+   ],
+   "rc": 3,
+   "lr": "1790928751.490769",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579"
+  },
   {
    "ts": "1790928632.363099",
    "date": "2026-10-02",
@@ -18,14 +61,159 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C722S8S0Y",
+     "from": "댓글",
+     "path": "menu-files/1790928632_363099-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 스페셜모듬 400g",
+       "price": 92000
+      },
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 스페셜모듬 600g",
+       "price": 138000
+      },
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 일반모듬 400g",
+       "price": 80000
+      },
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 일반모듬 600g",
+       "price": 120000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "안창살 (150g)",
+       "price": 52000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "살치살 (150g)",
+       "price": 42000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "부채살 (150g)",
+       "price": 34000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "업진살 (150g)",
+       "price": 33000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "갈비살 (150g)",
+       "price": 33000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "육회냉면",
+       "price": 10000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "한우된장술밥",
+       "price": 7000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "식사 육개장",
+       "price": 6000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "냉면 (물, 비빔)",
+       "price": 6000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "누룽지",
+       "price": 5000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "명란추가",
+       "price": 4000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "된장찌개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "간천엽추가",
+       "price": 5000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "장조림추가",
+       "price": 2000
+      },
+      {
+       "category": "생고기 메뉴",
+       "name": "뭉티기 (150g)",
+       "price": 29000
+      },
+      {
+       "category": "생고기 메뉴",
+       "name": "육회 (150g)",
+       "price": 25000
+      },
+      {
+       "category": "생고기 메뉴",
+       "name": "육회물회",
+       "price": 20000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "화요",
+       "price": 25000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "일품진로",
+       "price": 25000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1790928636.396299",
+   "rc": 2,
+   "lr": "1790928646.024559",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928632363099"
   },
   {
@@ -44,15 +232,700 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C67GRK55Y",
      "from": "댓글",
-     "path": "menu-files/1790928606_233279-0.png",
      "kind": "pos_screen",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1790928606_233279-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C722Q2FBJ",
+     "from": "댓글",
+     "path": "menu-files/1790928606_233279-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "소스 꼬치구이",
+       "name": "닭다리 소스 꼬치구이*",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "츠쿠네 소스 꼬치구이*",
+       "price": 5900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "새우 소스꼬치(2PCS)",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "닭목살 소스 꼬치구이*",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "닭날개 소스 꼬치구이*",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "낙지 소스꼬치",
+       "price": 2900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "껍질 소스 꼬치구이*",
+       "price": 2900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "염통 소스구이(2PCS)",
+       "price": 4800
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "한치 소스꼬치",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "파구이 소스 꼬치구이*",
+       "price": 2900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "돼지구이 소스 꼬치",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "쿠시떡볶이",
+       "price": 8900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "무뼈닭발 소스구이",
+       "price": 3900
+      },
+      {
+       "category": "소스 꼬치구이",
+       "name": "돼지 막창 소스구이꼬치",
+       "price": 3900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C722PUZKJ",
+     "from": "댓글",
+     "path": "menu-files/1790928606_233279-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛닭다리 매운소스 꼬치구이",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛츠쿠네 매운소스 꼬치구이",
+       "price": 5900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛닭목살 매운소스 꼬치구이",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛닭날개 매운소스 꼬치구이",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "돼지 막창 매운 구이꼬치",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛껍질 매운소스 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛염통 매운소스구이(2PCS)",
+       "price": 4800
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "무뼈닭발 매운소스구이",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛돼지구이 매운 꼬치",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛새우 매운소스꼬치(2PCS)",
+       "price": 3900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "파구이 매운소스 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛낙지 매운소스꼬치",
+       "price": 2900
+      },
+      {
+       "category": "매운소스 꼬치구이",
+       "name": "辛한치 매운소스꼬치",
+       "price": 3900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C61ES738B",
+     "from": "댓글",
+     "path": "menu-files/1790928606_233279-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "소금 꼬치구이",
+       "name": "닭다리 소금 꼬치구이",
+       "price": 3900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "염통 소금구이(2PCS)",
+       "price": 4800
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "표고버섯 소금 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "닭목살 소금 꼬치구이",
+       "price": 3900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "돼지구이 소금 꼬치",
+       "price": 3900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "마늘 소금구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "껍질 소금 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "가지 소금 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "새우 소금꼬치(2PCS)",
+       "price": 3900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "닭날개 소금 꼬치구이",
+       "price": 3900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "은행 소금구이(2PCS)",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "꽈리고추 소금 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "방울 토마토 소금 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "파구이 소금 꼬치구이",
+       "price": 2900
+      },
+      {
+       "category": "소금 꼬치구이",
+       "name": "돼지 막창 소금 구이꼬치",
+       "price": 3900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C62CELZBP",
+     "from": "댓글",
+     "path": "menu-files/1790928606_233279-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쿠시카츠",
+       "name": "표고버섯 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "닭목살 쿠시카츠",
+       "price": 3900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "치즈 쿠시카츠",
+       "price": 3900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "꽈리고추 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "방울토마토 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "연근 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "가지 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "마늘 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "양파 쿠시카츠",
+       "price": 2900
+      },
+      {
+       "category": "쿠시카츠",
+       "name": "닭날개 쿠시카츠",
+       "price": 3900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5SAABMLP",
+     "from": "댓글",
+     "path": "menu-files/1790928606_233279-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "간단 안주",
+       "name": "오꼬노미야키",
+       "price": 14000
+      },
+      {
+       "category": "간단 안주",
+       "name": "시샤모 구이 5마리",
+       "price": 17000
+      },
+      {
+       "category": "간단 안주",
+       "name": "타코야끼(8P)",
+       "price": 14000
+      },
+      {
+       "category": "간단 안주",
+       "name": "포테토 사라다",
+       "price": 5900
+      },
+      {
+       "category": "간단 안주",
+       "name": "황도",
+       "price": 6900
+      },
+      {
+       "category": "간단 안주",
+       "name": "구운 명란",
+       "price": 17000
+      },
+      {
+       "category": "간단 안주",
+       "name": "파인 샤베트",
+       "price": 7900
+      },
+      {
+       "category": "간단 안주",
+       "name": "카리카리 쥐포 튀김",
+       "price": 7000
+      },
+      {
+       "category": "간단 안주",
+       "name": "타코와사비",
+       "price": 9900
+      },
+      {
+       "category": "간단 안주",
+       "name": "김부각",
+       "price": 5900
+      },
+      {
+       "category": "간단 안주",
+       "name": "부츠기리 큐리",
+       "price": 7500
+      },
+      {
+       "category": "간단 안주",
+       "name": "아삭이 양배추",
+       "price": 3000
+      },
+      {
+       "category": "간단 안주",
+       "name": "연유 토마토",
+       "price": 7900
+      },
+      {
+       "category": "간단 안주",
+       "name": "노가리",
+       "price": 9900
+      },
+      {
+       "category": "간단 안주",
+       "name": "치즈 미니 감자채전",
+       "price": 7500
+      },
+      {
+       "category": "간단 안주",
+       "name": "냉모밀",
+       "price": 7500
+      },
+      {
+       "category": "간단 안주",
+       "name": "야끼 소바라면",
+       "price": 7500
+      },
+      {
+       "category": "간단 안주",
+       "name": "돈카츠",
+       "price": 9900
+      },
+      {
+       "category": "간단 안주",
+       "name": "미니오뎅",
+       "price": 15000
+      },
+      {
+       "category": "간단 안주",
+       "name": "홍합탕",
+       "price": 12000
+      },
+      {
+       "category": "간단 안주",
+       "name": "네리고마 샐러드",
+       "price": 8900
+      },
+      {
+       "category": "간단 안주",
+       "name": "미니 망고빙수",
+       "price": 8900
+      },
+      {
+       "category": "간단 안주",
+       "name": "똥소주 샤베트(요구르트)",
+       "price": 9900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69KNKF41",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "위스키",
+       "name": "얼그레이 하이볼 375ml",
+       "price": 8000
+      },
+      {
+       "category": "위스키",
+       "name": "카쿠 하이볼 375ml",
+       "price": 8000
+      },
+      {
+       "category": "위스키",
+       "name": "제임슨하이볼",
+       "price": 6900
+      },
+      {
+       "category": "위스키",
+       "name": "t->진저에일",
+       "price": 0
+      },
+      {
+       "category": "위스키",
+       "name": "리얼하이볼 375ml",
+       "price": 7500
+      },
+      {
+       "category": "위스키",
+       "name": "짐빔 하이볼 375ml",
+       "price": 8000
+      },
+      {
+       "category": "위스키",
+       "name": "샷추가",
+       "price": 3000
+      },
+      {
+       "category": "위스키",
+       "name": "t->탄산수 (단맛X)",
+       "price": 0
+      },
+      {
+       "category": "위스키",
+       "name": "리얼 대야하이볼",
+       "price": 14000
+      },
+      {
+       "category": "위스키",
+       "name": "짐빔 대야하이볼",
+       "price": 16000
+      },
+      {
+       "category": "위스키",
+       "name": "카쿠 대야하이볼",
+       "price": 17000
+      },
+      {
+       "category": "위스키",
+       "name": "t->토닉워터",
+       "price": 0
+      },
+      {
+       "category": "위스키",
+       "name": "카쿠 언더락 90ml",
+       "price": 13900
+      },
+      {
+       "category": "위스키",
+       "name": "짐 빔 언더락 90ml",
+       "price": 13900
+      },
+      {
+       "category": "위스키",
+       "name": "조각레몬 2pcs",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C65NQ7YGN",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "소주",
+       "name": "참이슬(fresh)",
+       "price": 4900
+      },
+      {
+       "category": "소주",
+       "name": "처음처럼",
+       "price": 4900
+      },
+      {
+       "category": "소주",
+       "name": "새로",
+       "price": 4900
+      },
+      {
+       "category": "소주",
+       "name": "일품진로(25도)",
+       "price": 28000
+      },
+      {
+       "category": "소주",
+       "name": "청하",
+       "price": 5500
+      },
+      {
+       "category": "소주",
+       "name": "진로",
+       "price": 4900
+      },
+      {
+       "category": "소주",
+       "name": "새로 살구",
+       "price": 4500
+      },
+      {
+       "category": "소주",
+       "name": "일품진로25도",
+       "price": 28000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6BC24CQL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "츄하이(사와)",
+       "name": "레몬사와 435ml",
+       "price": 7900
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "파인애플 사와 435ml",
+       "price": 7900
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "오렌지 사와 435ml",
+       "price": 7900
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "샤인머스켓사와 435ml",
+       "price": 7900
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "복숭아 사와 435ml",
+       "price": 7500
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "딸기사와",
+       "price": 7500
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "논알콜 복숭아사와 375ml",
+       "price": 6500
+      },
+      {
+       "category": "츄하이(사와)",
+       "name": "[하이볼 & 사와] 샷추가",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C67GZSR8A",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사케",
+       "name": "쿠보타 센쥬 720ml",
+       "price": 75000
+      },
+      {
+       "category": "사케",
+       "name": "간바래오도상팩 900ml",
+       "price": 38000
+      },
+      {
+       "category": "사케",
+       "name": "더 컵 210ml",
+       "price": 9000
+      },
+      {
+       "category": "사케",
+       "name": "더 컵 온사케",
+       "price": 10000
+      },
+      {
+       "category": "사케",
+       "name": "준마이750",
+       "price": 35000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5SAEJE6T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "튀김 요리",
+       "name": "테바나카(닭날개 10P)",
+       "price": 9900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "문어 가라아게",
+       "price": 13900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "순살치킨가라아게",
+       "price": 12000
+      },
+      {
+       "category": "튀김 요리",
+       "name": "아게교자",
+       "price": 6900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "고로케(4p)",
+       "price": 7900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "후렌치후라이",
+       "price": 8900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "치즈후라이",
+       "price": 8900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "에비후라이",
+       "price": 8900
+      },
+      {
+       "category": "튀김 요리",
+       "name": "오징어 가라아게",
+       "price": 7900
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790928620.980809",
+   "rc": 3,
+   "lr": "1790928691.284869",
    "rfx": 3,
    "status": "wait",
    "handler": null,
