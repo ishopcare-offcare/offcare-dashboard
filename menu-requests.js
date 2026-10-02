@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2891,
- "updatedAt": "2026-10-02 17:25",
+ "version": 2892,
+ "updatedAt": "2026-10-02 17:29",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "i_1ef7db6187b4.jpg",
      "fid": "F0C65R504DU",
      "from": "댓글",
-     "path": "menu-files/1790929294_484559-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -101,13 +100,13 @@ window.MENU_REQUESTS = {
        "name": "냉면",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1790929294_484559-0.jpg"
     },
     {
      "name": "i_15c207164ec1.jpg",
      "fid": "F0C62EX2ADT",
      "from": "댓글",
-     "path": "menu-files/1790929294_484559-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -145,13 +144,13 @@ window.MENU_REQUESTS = {
        "name": "태라",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1790929294_484559-1.jpg"
     },
     {
      "name": "i_34e268d11ae8.jpg",
      "fid": "F0C725A63R6",
      "from": "댓글",
-     "path": "menu-files/1790929294_484559-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -224,13 +223,13 @@ window.MENU_REQUESTS = {
        "name": "청양고추 소고기볶음",
        "price": 18000
       }
-     ]
+     ],
+     "path": "menu-files/1790929294_484559-2.jpg"
     },
     {
      "name": "i_fd071cefcca1.jpg",
      "fid": "F0C725AJHLY",
      "from": "댓글",
-     "path": "menu-files/1790929294_484559-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -273,17 +272,18 @@ window.MENU_REQUESTS = {
        "name": "건두부 순대",
        "price": 6000
       }
-     ]
+     ],
+     "path": "menu-files/1790929294_484559-3.jpg"
     }
    ],
    "datt": [],
    "replies": [
     "중국어 메뉴 제외 한국어 메뉴만 등록 요청 드립니다."
    ],
-   "rc": 2,
-   "lr": "1790929391.853509",
+   "rc": 3,
+   "lr": "1790929690.912699",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790929294484559"
   },
@@ -324,10 +324,13 @@ window.MENU_REQUESTS = {
     "하이오더 쓰는데 토스포스에서 옵션 순서를 변경해도 하이오더에 순서변경 적용되지 않는 이슈 있어서 소통중이라고 함\n해결 전이라 여기는 그냥 삭제 후 재등록으로 처리 :loading_win:",
     "1인 > 1인 세트 메뉴선택/밥선택 (1)/치즈 선택 (1)/카레 맛 선택 (1)/세트 음료선택/1인 세트메뉴 사이드 선택/추가 토핑 선택\n\n2인 > 2인 세트 메뉴선택 (1)/밥선택 (1)/치즈 선택 (1)/카레 맛 선택 (1)/2인 세트 메뉴 선택 (2)/밥선택 (2)/치즈 선택 (2)/카레 맛 선택 (2)/사이드메뉴 선택/2인세트음료선택/2인세트 음료선택 (2)/추가 토핑 선택",
     "넹~~~",
-    "다시 들어오면 재접수 부탁드려염"
+    "다시 들어오면 재접수 부탁드려염",
+    "재훈님 궁금한게 있어서요",
+    "대표님이 직접 수정하신다는게 하이오더 매니저 프로그램 들어가서 수정하고 계시는거죠?",
+    "모르시면 굳이 확인까지는 안하셔도 괜찮습니다 그냥 궁금증이에요ㅕ"
    ],
-   "rc": 8,
-   "lr": "1790929022.543769",
+   "rc": 11,
+   "lr": "1790929665.324449",
    "rfx": 3,
    "status": "wait",
    "handler": null,
