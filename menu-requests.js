@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2882,
- "updatedAt": "2026-10-02 16:58",
+ "version": 2883,
+ "updatedAt": "2026-10-02 17:00",
  "days": 30,
  "items": [
   {
@@ -264,7 +264,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_6459.jpg.jpeg",
      "fid": "F0C69D52Z17",
      "from": "댓글",
-     "path": "menu-files/1790926785_580099-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -312,13 +311,13 @@ window.MENU_REQUESTS = {
        "name": "껍데기",
        "price": 10000
       }
-     ]
+     ],
+     "path": "menu-files/1790926785_580099-0.jpeg"
     },
     {
      "name": "IMG_6460.jpg.jpeg",
      "fid": "F0C65G67YLW",
      "from": "댓글",
-     "path": "menu-files/1790926785_580099-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -331,13 +330,13 @@ window.MENU_REQUESTS = {
        "name": "도미솥밥",
        "price": 15000
       }
-     ]
+     ],
+     "path": "menu-files/1790926785_580099-1.jpeg"
     },
     {
      "name": "IMG_6461.jpg.jpeg",
      "fid": "F0C6B5GUPTN",
      "from": "댓글",
-     "path": "menu-files/1790926785_580099-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -390,13 +389,13 @@ window.MENU_REQUESTS = {
        "name": "냉모밀",
        "price": 9000
       }
-     ]
+     ],
+     "path": "menu-files/1790926785_580099-2.jpeg"
     },
     {
      "name": "IMG_6462.jpg.jpeg",
      "fid": "F0C67AFDEV8",
      "from": "댓글",
-     "path": "menu-files/1790926785_580099-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -489,13 +488,13 @@ window.MENU_REQUESTS = {
        "name": "니혼주",
        "price": 70000
       }
-     ]
+     ],
+     "path": "menu-files/1790926785_580099-3.jpeg"
     },
     {
      "name": "IMG_6463.jpg.jpeg",
      "fid": "F0C71RRNG9W",
      "from": "댓글",
-     "path": "menu-files/1790926785_580099-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -513,15 +512,16 @@ window.MENU_REQUESTS = {
        "name": "타래밥",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1790926785_580099-4.jpeg"
     }
    ],
    "datt": [],
    "replies": [
     "주류사진에 레몬사와는 빼주셔도 됩니다!"
    ],
-   "rc": 2,
-   "lr": "1790926824.397269",
+   "rc": 3,
+   "lr": "1790927894.670939",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
