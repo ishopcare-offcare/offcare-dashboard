@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2905,
- "updatedAt": "2026-10-02 17:59",
+ "version": 2906,
+ "updatedAt": "2026-10-02 18:19",
  "days": 30,
  "items": [
   {
@@ -57736,29 +57736,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788341004101259"
-  },
-  {
-   "ts": "1788340704.301269",
-   "date": "2026-09-02",
-   "time": "18:18",
-   "store": "미친피자 하남점",
-   "biz": "5036225357",
-   "pos": "",
-   "content": "• 메뉴 등록 요청 드립니다.\n• 일산직영점과 똑같이 등록 희망하고 계십니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "*일산 직영점*\n사업자번호: ···\n상호명: 미친피자 일산직영점"
-   ],
-   "rc": 4,
-   "lr": "1788340950.390819",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788340704301269"
   }
  ],
  "ocr": {
