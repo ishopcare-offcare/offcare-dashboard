@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2908,
- "updatedAt": "2026-10-02 18:23",
+ "version": 2909,
+ "updatedAt": "2026-10-02 18:24",
  "days": 30,
  "items": [
   {
@@ -57735,38 +57735,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788343608572449"
-  },
-  {
-   "ts": "1788341004.101259",
-   "date": "2026-09-02",
-   "time": "18:23",
-   "store": "주식회사 애니랩스",
-   "biz": "8958604295",
-   "pos": "",
-   "content": "메뉴 복사 요청드립니다 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BUDRXM0KC",
-     "from": "댓글",
-     "path": "menu-files/1788341004_101259-0.png",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "··· / 애니랩스 기준 토플파 메뉴 그대로 복사 부탁드리겠습니다. (3층 X, 아무것도 없는 애니랩스 토플파)"
-   ],
-   "rc": 5,
-   "lr": "1788341420.196819",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788341004101259"
   }
  ],
  "ocr": {
