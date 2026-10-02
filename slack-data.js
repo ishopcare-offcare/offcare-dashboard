@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15557,
+  "version": 15558,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227380,7 +227380,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:23",
+      "updatedAt": "09:24",
       "absent": [
         {
           "time": "09:00",
@@ -227632,14 +227632,21 @@ window.SLACK_DATA = {
       },
       "1790900101.884419": {
         "post": "1790900101.884419",
-        "lastSeen": 1790900604.453,
+        "lastSeen": 1790900722.507,
         "r": 1,
         "day": "2026-10-02",
         "idx": 2
       },
       "1790900584.384109": {
         "post": "1790900584.384109",
-        "lastSeen": 1790900604.453
+        "lastSeen": 1790900722.507,
+        "r": 1,
+        "day": "2026-10-02",
+        "idx": 3
+      },
+      "1790900669.184349": {
+        "post": "1790900669.184349",
+        "lastSeen": 1790900722.507
       }
     },
     "days": {
@@ -302390,8 +302397,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-02": {
-        "cnt": 3,
-        "sumMin": 16.402784883975983,
+        "cnt": 4,
+        "sumMin": 17.721049733956654,
         "over": 0,
         "items": [
           {
@@ -302419,13 +302426,21 @@ window.SLACK_DATA = {
             "biz": "7161802428",
             "who": "심성현",
             "cat": "nosetup"
+          },
+          {
+            "hm": "09:23",
+            "min": 1.3,
+            "store": "정원 질소충전 대형타이어",
+            "biz": "5480503713",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:24",
+    "at": "2026-10-02 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -302541,7 +302556,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:23",
+    "at": "2026-10-02 09:25",
     "pri": {
       "days": 0,
       "failed": [],
