@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2899,
- "updatedAt": "2026-10-02 17:41",
+ "version": 2900,
+ "updatedAt": "2026-10-02 17:45",
  "days": 30,
  "items": [
   {
@@ -524,7 +524,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C728PQWTS",
      "from": "댓글",
-     "path": "menu-files/1790929831_465149-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -642,6 +641,359 @@ window.MENU_REQUESTS = {
        "name": "모둠튀김 오므카레",
        "price": 13900
       }
+     ],
+     "path": "menu-files/1790929831_465149-4.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7296HPT2",
+     "from": "댓글",
+     "path": "menu-files/1790929831_465149-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "치킨가라아게 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "모듬튀김 카레라이스",
+       "price": 1000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "왕새우튀김 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "돈까스 카레라이스",
+       "price": 1000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "통모짜 치즈돈까스 카레라이스",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "함박스테이크 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "트러플새우 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "잔슨빌소세지 카레라이스",
+       "price": 0
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "치킨가라아게 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "모듬튀김 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "왕새우튀김 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "돈까스 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "통모짜 치즈돈까스 오므카레",
+       "price": 3000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "함박스테이크 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "트러플새우 오므카레",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트 메뉴선택",
+       "name": "잔슨빌소세지 오므카레",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69SAG5R7",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "밥선택 (1)",
+       "name": "유기농 쌀밥",
+       "price": 0
+      },
+      {
+       "category": "밥선택 (1)",
+       "name": "볶음밥",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5SH0FJ3Z",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치즈 선택 (1)",
+       "name": "체다 치즈",
+       "price": 0
+      },
+      {
+       "category": "치즈 선택 (1)",
+       "name": "더블 체다치즈",
+       "price": 700
+      },
+      {
+       "category": "치즈 선택 (1)",
+       "name": "모짜렐라+체다치즈",
+       "price": 1500
+      },
+      {
+       "category": "치즈 선택 (1)",
+       "name": "치즈 빼주세요",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C65VDRTEJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "카레 맛 선택 (1)",
+       "name": "기본맛",
+       "price": 0
+      },
+      {
+       "category": "카레 맛 선택 (1)",
+       "name": "매운맛(신라면 맵기)",
+       "price": 0
+      },
+      {
+       "category": "카레 맛 선택 (1)",
+       "name": "크림맛(동물성100%크림)",
+       "price": 0
+      },
+      {
+       "category": "카레 맛 선택 (1)",
+       "name": "아주매운맛",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C61MLG3S7",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트 음료선택",
+       "name": "코카콜라",
+       "price": 0
+      },
+      {
+       "category": "세트 음료선택",
+       "name": "사이다",
+       "price": 0
+      },
+      {
+       "category": "세트 음료선택",
+       "name": "코카콜라 제로",
+       "price": 0
+      },
+      {
+       "category": "세트 음료선택",
+       "name": "아사히 생맥주캔",
+       "price": 4000
+      },
+      {
+       "category": "세트 음료선택",
+       "name": "사무엘 아담스 맥주 미국 보스턴 라거",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5SH89LJK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "온천수란",
+       "price": 0
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "한입군만두 5ps",
+       "price": 0
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "어니언링 3ps",
+       "price": 0
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "겉바속촉 해쉬브라운 1ps",
+       "price": 0
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "모짜렐라 치즈스틱 2ps",
+       "price": 0
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "겉바속촉 감자고로케 1ps",
+       "price": 0
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "겉바속촉 감자고로케 2ps",
+       "price": 2000
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "잔슨빌소시지 1ps",
+       "price": 3000
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "왕새우튀김 2ps",
+       "price": 3000
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "가라아게 4ps",
+       "price": 3000
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "돈까스",
+       "price": 5000
+      },
+      {
+       "category": "1인 세트메뉴 사이드 선택",
+       "name": "빠삭촉촉 가지튀김 5ps",
+       "price": 1500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6BJZ40P6",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가 토핑 선택",
+       "name": "추가x",
+       "price": 0
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "온천수란",
+       "price": 1500
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "깊고 진한 화이트 트러플 오일",
+       "price": 1000
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "눈꽃치즈 추가",
+       "price": 1200
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "치킨텐더 1ea",
+       "price": 1200
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "해쉬브라운 1ea",
+       "price": 1500
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "김자고로케 1ea",
+       "price": 1700
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "한입 군만두 5ea",
+       "price": 1500
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "어니언링 3ea",
+       "price": 1500
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "모짜렐라 치즈스틱 2ea",
+       "price": 2000
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "치킨 가라아게 2ea",
+       "price": 2400
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "왕새우튀김 1ea",
+       "price": 2500
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "트러플새우 2마리",
+       "price": 2400
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "잔슨빌 소시지 1ea",
+       "price": 4000
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "통등심 돈까스",
+       "price": 4000
+      },
+      {
+       "category": "추가 토핑 선택",
+       "name": "통모짜 치즈돈까스",
+       "price": 5000
+      }
      ]
     }
    ],
@@ -650,8 +1002,8 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579 다시 부탁드립니다. ㅜ ㅜ",
     "엉엉 ㅜ ㅜ 최대한 빠르게 부탁드리겟습니다.\n죄송합니다 ㅜ ㅜ....."
    ],
-   "rc": 10,
-   "lr": "1790930443.601719",
+   "rc": 11,
+   "lr": "1790930675.894729",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
