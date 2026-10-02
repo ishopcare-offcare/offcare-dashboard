@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15558,
+  "version": 15559,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227329,6 +227329,9 @@ window.SLACK_DATA = {
     },
     "2026-10-02": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "as": {
           "심성현": 1
         },
@@ -227341,6 +227344,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:18",
+          "store": "몽실멍실",
+          "biz": "7760503754",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "• 프로그램+프2+터2 온보딩 부탁드려요",
+          "hw": "",
+          "intake": "online",
+          "note": "터프 온보딩 완료"
+        },
         {
           "time": "09:04",
           "store": "팜카페 빨간머리앤",
@@ -227376,7 +227390,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -227632,21 +227646,24 @@ window.SLACK_DATA = {
       },
       "1790900101.884419": {
         "post": "1790900101.884419",
-        "lastSeen": 1790900722.507,
+        "lastSeen": 1790900798.233,
         "r": 1,
         "day": "2026-10-02",
         "idx": 2
       },
       "1790900584.384109": {
         "post": "1790900584.384109",
-        "lastSeen": 1790900722.507,
+        "lastSeen": 1790900798.233,
         "r": 1,
         "day": "2026-10-02",
         "idx": 3
       },
       "1790900669.184349": {
         "post": "1790900669.184349",
-        "lastSeen": 1790900722.507
+        "lastSeen": 1790900798.233,
+        "r": 1,
+        "day": "2026-10-02",
+        "idx": 4
       }
     },
     "days": {
@@ -302397,8 +302414,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-02": {
-        "cnt": 4,
-        "sumMin": 17.721049733956654,
+        "cnt": 5,
+        "sumMin": 19.24081058104833,
         "over": 0,
         "items": [
           {
@@ -302434,13 +302451,21 @@ window.SLACK_DATA = {
             "biz": "5480503713",
             "who": "김동욱",
             "cat": "as"
+          },
+          {
+            "hm": "09:24",
+            "min": 1.5,
+            "store": "서나 스킨 앤 바디",
+            "biz": "8153000826",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:25",
+    "at": "2026-10-02 09:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -302556,7 +302581,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:25",
+    "at": "2026-10-02 09:26",
     "pri": {
       "days": 0,
       "failed": [],
