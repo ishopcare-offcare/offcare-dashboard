@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2867,
- "updatedAt": "2026-10-02 15:37",
+ "version": 2868,
+ "updatedAt": "2026-10-02 15:39",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790923041.875239",
+   "replies": [
+    "엘지 포스\n\n• 라면 : 명란크림파스타 11,500원 (추가)\n•  다이야메 65,000원 / 도쿠리 25,000원 2개 상품 (키오스크전시관리 상품 등록 여부 확인 요청)",
+    "수정 후 솔라피 발송 부탁 드립니다. :감사합니다꾸벅:"
+   ],
+   "rc": 3,
+   "lr": "1790923126.244009",
    "rfx": 3,
    "status": "wait",
    "handler": null,
