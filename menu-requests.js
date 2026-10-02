@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2914,
- "updatedAt": "2026-10-02 19:13",
+ "version": 2915,
+ "updatedAt": "2026-10-02 19:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1790937515.875629",
+   "date": "2026-10-02",
+   "time": "19:38",
+   "store": "진미오뎅",
+   "biz": "3960902955",
+   "pos": "퍼스트포스",
+   "content": "메뉴 수정 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1790937522.041299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790937515875629"
+  },
   {
    "ts": "1790932845.361069",
    "date": "2026-10-02",
@@ -57657,31 +57678,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788388572023099"
-  },
-  {
-   "ts": "1788345427.119649",
-   "date": "2026-09-02",
-   "time": "19:37",
-   "store": "집밥",
-   "biz": "1304800813",
-   "pos": "퍼스트포스",
-   "content": "• 메뉴 삭제 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "순두무 게살 스프 삭제 요청드려요.\n(포스/키오스크 반영 요청)",
-    "제가 비밀번호 5회 오류로 정지 되었는데.......\n\n정말 죄송합니다. 혹시 어떻게 비밀번호 배설정 할 수 있을까요",
-    "처리완료"
-   ],
-   "rc": 4,
-   "lr": "1788347116.129389",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788345427119649"
   }
  ],
  "ocr": {
