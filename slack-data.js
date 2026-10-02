@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15542,
+  "version": 15543,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227336,7 +227336,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:45"
+      "updatedAt": "09:00"
     }
   },
   "resp": {
@@ -227578,7 +227578,14 @@ window.SLACK_DATA = {
       },
       "1790898302.074279": {
         "post": "1790898302.074279",
-        "lastSeen": 1790898326.556
+        "lastSeen": 1790899235.055,
+        "r": 1,
+        "day": "2026-10-02",
+        "idx": 0
+      },
+      "1790899216.263989": {
+        "post": "1790899216.263989",
+        "lastSeen": 1790899235.055
       }
     },
     "days": {
@@ -302327,17 +302334,32 @@ window.SLACK_DATA = {
             "dmin": 11.5
           }
         ]
+      },
+      "2026-10-02": {
+        "cnt": 1,
+        "sumMin": 7.978853682676951,
+        "over": 0,
+        "items": [
+          {
+            "hm": "08:45",
+            "min": 8,
+            "store": "주식회사 초미의관심사",
+            "biz": "2808704258",
+            "who": "송태양",
+            "cat": "transfer"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-02 08:45",
+    "at": "2026-10-02 09:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4326,
+    "rows": 4328,
     "named": 1030,
     "unknownName": 0,
     "beforeStart": 0,
@@ -302447,7 +302469,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 08:45",
+    "at": "2026-10-02 09:00",
     "pri": {
       "days": 0,
       "failed": [],
