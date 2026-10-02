@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2887,
- "updatedAt": "2026-10-02 17:13",
+ "version": 2888,
+ "updatedAt": "2026-10-02 17:15",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C67H7LM26",
      "from": "댓글",
-     "path": "menu-files/1790928664_981579-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -36,15 +35,17 @@ window.MENU_REQUESTS = {
        "name": "2인 세트 (메뉴 2 + 사이드메뉴 + 음료2)",
        "price": 31000
       }
-     ]
+     ],
+     "path": "menu-files/1790928664_981579-0.png"
     }
    ],
    "datt": [],
    "replies": [
-    "하이오더 쓰는데 옵션 우리쪽에서 옵션 순서를 변경해도 하이오더에 순서변경 적용되지 않는 이슈 있어서 소통중이라고 함\n해결 전이라 여기는 그냥 삭제 후 재등록으로 처리 :loading_win:"
+    "하이오더 쓰는데 토스포스에서 옵션 순서를 변경해도 하이오더에 순서변경 적용되지 않는 이슈 있어서 소통중이라고 함\n해결 전이라 여기는 그냥 삭제 후 재등록으로 처리 :loading_win:",
+    "1인 > 1인 세트 메뉴선택/밥선택 (1)/치즈 선택 (1)/카레 맛 선택 (1)/세트 음료선택/1인 세트메뉴 사이드 선택/추가 토핑 선택\n\n2인 > 2인 세트 메뉴선택 (1)/밥선택 (1)/치즈 선택 (1)/카레 맛 선택 (1)/2인 세트 메뉴 선택 (2)/밥선택 (2)/치즈 선택 (2)/카레 맛 선택 (2)/사이드메뉴 선택/2인세트음료선택/2인세트 음료선택 (2)/추가 토핑 선택"
    ],
-   "rc": 3,
-   "lr": "1790928751.490769",
+   "rc": 6,
+   "lr": "1790928900.515329",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -212,7 +213,7 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1790928646.024559",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928632363099"
   },
@@ -240,7 +241,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C722Q2FBJ",
      "from": "댓글",
-     "path": "menu-files/1790928606_233279-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -313,13 +313,13 @@ window.MENU_REQUESTS = {
        "name": "돼지 막창 소스구이꼬치",
        "price": 3900
       }
-     ]
+     ],
+     "path": "menu-files/1790928606_233279-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C722PUZKJ",
      "from": "댓글",
-     "path": "menu-files/1790928606_233279-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -387,13 +387,13 @@ window.MENU_REQUESTS = {
        "name": "辛한치 매운소스꼬치",
        "price": 3900
       }
-     ]
+     ],
+     "path": "menu-files/1790928606_233279-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C61ES738B",
      "from": "댓글",
-     "path": "menu-files/1790928606_233279-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -471,13 +471,13 @@ window.MENU_REQUESTS = {
        "name": "돼지 막창 소금 구이꼬치",
        "price": 3900
       }
-     ]
+     ],
+     "path": "menu-files/1790928606_233279-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0C62CELZBP",
      "from": "댓글",
-     "path": "menu-files/1790928606_233279-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -530,13 +530,13 @@ window.MENU_REQUESTS = {
        "name": "닭날개 쿠시카츠",
        "price": 3900
       }
-     ]
+     ],
+     "path": "menu-files/1790928606_233279-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0C5SAABMLP",
      "from": "댓글",
-     "path": "menu-files/1790928606_233279-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -654,7 +654,8 @@ window.MENU_REQUESTS = {
        "name": "똥소주 샤베트(요구르트)",
        "price": 9900
       }
-     ]
+     ],
+     "path": "menu-files/1790928606_233279-5.png"
     },
     {
      "name": "image.png",
@@ -920,15 +921,327 @@ window.MENU_REQUESTS = {
        "price": 7900
       }
      ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C65NTP494",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맥주",
+       "name": "기린 생맥주 435ml",
+       "price": 7500
+      },
+      {
+       "category": "맥주",
+       "name": "카스",
+       "price": 5500
+      },
+      {
+       "category": "맥주",
+       "name": "켈리",
+       "price": 5500
+      },
+      {
+       "category": "맥주",
+       "name": "테라",
+       "price": 5500
+      },
+      {
+       "category": "맥주",
+       "name": "카스생맥주500cc",
+       "price": 4900
+      },
+      {
+       "category": "맥주",
+       "name": "하이트 논알콜",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C65NUABKQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "콜라",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "토닉워터(250ml)",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "탄산수(190ml)",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "진저에일(250ml)",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "웰치스 포도",
+       "price": 2500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69KUH23B",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "카케우동",
+       "price": 6900
+      },
+      {
+       "category": "식사",
+       "name": "카케어묵우동",
+       "price": 7900
+      },
+      {
+       "category": "식사",
+       "name": "백합조개탕",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "미니오뎅",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "계란라면",
+       "price": 5900
+      },
+      {
+       "category": "식사",
+       "name": "해물라면",
+       "price": 8900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C61F13127",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "해피아워",
+       "name": "(해피아워)참이슬",
+       "price": 3900
+      },
+      {
+       "category": "해피아워",
+       "name": "(해피아워)짐빔하이볼",
+       "price": 5500
+      },
+      {
+       "category": "해피아워",
+       "name": "(해피아워)리얼하이볼",
+       "price": 5000
+      },
+      {
+       "category": "해피아워",
+       "name": "(해피아워)카스생맥",
+       "price": 3900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7231N53J",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "소스리필",
+       "name": "야키토리 소스",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "겨자소스",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "쿠시카츠소스",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "소금",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "매운소스",
+       "price": 500
+      },
+      {
+       "category": "소스리필",
+       "name": "산초가루",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "시치미",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "마요네즈",
+       "price": 0
+      },
+      {
+       "category": "소스리필",
+       "name": "케찹",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7232F8BA",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "논알콜사와",
+       "name": "논알콜 레몬사와 375ml",
+       "price": 7900
+      },
+      {
+       "category": "논알콜사와",
+       "name": "논알콜 오렌지사와 375ml",
+       "price": 7900
+      },
+      {
+       "category": "논알콜사와",
+       "name": "논알콜 딸기사와",
+       "price": 6500
+      },
+      {
+       "category": "논알콜사와",
+       "name": "논알콜 파인애플 사와 375ml",
+       "price": 7900
+      },
+      {
+       "category": "논알콜사와",
+       "name": "논알콜 샤인머스켓 사와 375ml",
+       "price": 7900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7233K7NU",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "특선구이",
+       "name": "특선 야키토리 세트",
+       "price": 39000
+      },
+      {
+       "category": "특선구이",
+       "name": "특선 쿠시카츠 세트",
+       "price": 35000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C67H7AQP4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "직원호출",
+       "name": "생수",
+       "price": 0
+      },
+      {
+       "category": "직원호출",
+       "name": "물컵",
+       "price": 0
+      },
+      {
+       "category": "직원호출",
+       "name": "물티슈",
+       "price": 0
+      },
+      {
+       "category": "직원호출",
+       "name": "냅킨",
+       "price": 0
+      },
+      {
+       "category": "직원호출",
+       "name": "젓가락",
+       "price": 0
+      },
+      {
+       "category": "직원호출",
+       "name": "앞접시",
+       "price": 0
+      },
+      {
+       "category": "직원호출",
+       "name": "직원호출",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69L0495F",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "토리키치 가맹상담",
+       "name": "토리키치 가맹상담",
+       "price": 0
+      },
+      {
+       "category": "토리키치 가맹상담",
+       "name": "원산지",
+       "price": 0
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 3,
-   "lr": "1790928691.284869",
+   "rc": 4,
+   "lr": "1790928763.853879",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928606233279"
   },
   {
