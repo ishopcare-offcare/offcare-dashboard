@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15556,
+  "version": 15557,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227376,11 +227376,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:18"
+      "updatedAt": "09:23",
+      "absent": [
+        {
+          "time": "09:00",
+          "store": "원모어 바잇 베이크하우스",
+          "biz": "8301002903",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -227622,10 +227632,14 @@ window.SLACK_DATA = {
       },
       "1790900101.884419": {
         "post": "1790900101.884419",
-        "lastSeen": 1790900507.215,
+        "lastSeen": 1790900604.453,
         "r": 1,
         "day": "2026-10-02",
         "idx": 2
+      },
+      "1790900584.384109": {
+        "post": "1790900584.384109",
+        "lastSeen": 1790900604.453
       }
     },
     "days": {
@@ -302411,7 +302425,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:22",
+    "at": "2026-10-02 09:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -302527,7 +302541,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:21",
+    "at": "2026-10-02 09:23",
     "pri": {
       "days": 0,
       "failed": [],
