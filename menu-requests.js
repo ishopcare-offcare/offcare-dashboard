@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2864,
- "updatedAt": "2026-10-02 14:52",
+ "version": 2865,
+ "updatedAt": "2026-10-02 15:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1790920908.895409",
+   "date": "2026-10-02",
+   "time": "15:01",
+   "store": "느린시간",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 느린시간 입니다.. 메뉴 추가 등록 사진입니다..\n대용량 첨부 6개 23MB  맥주_빅 웨이브 골든에일.jpg 3931890 ~ 2026/11/01 맥주_하이네캔 실버.jpg 3795830 ~ 2026/11/01 와인_롱반피노누아.jpg 4005622 ~ 2026/11/01 와인_무초마스 화이트.jpg 3917471 ~ 2026/11/01 와인_앙시앙땅 까베르네 쉬라.jpg 4022776 ~ 2026/11/01 와인_인시투 샤도네이.jpg 4013189 ~ 2026/11/01 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    업데이트 감사합니다~^^ \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0fb339a5cbc4ca>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0fb339a5cbc4ca",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790920908895409"
+  },
   {
    "ts": "1790912214.747469",
    "date": "2026-10-02",
