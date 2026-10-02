@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15550,
+  "version": 15551,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227594,14 +227594,17 @@ window.SLACK_DATA = {
       },
       "1790898302.074279": {
         "post": "1790898302.074279",
-        "lastSeen": 1790899842.373,
+        "lastSeen": 1790899944.205,
         "r": 1,
         "day": "2026-10-02",
         "idx": 0
       },
       "1790899452.058209": {
         "post": "1790899452.058209",
-        "lastSeen": 1790899842.373
+        "lastSeen": 1790899944.205,
+        "r": 1,
+        "day": "2026-10-02",
+        "idx": 1
       }
     },
     "days": {
@@ -302352,8 +302355,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-02": {
-        "cnt": 1,
-        "sumMin": 7.978853682676951,
+        "cnt": 2,
+        "sumMin": 15.3327002008756,
         "over": 0,
         "items": [
           {
@@ -302363,13 +302366,21 @@ window.SLACK_DATA = {
             "biz": "2808704258",
             "who": "송태양",
             "cat": "transfer"
+          },
+          {
+            "hm": "09:04",
+            "min": 7.4,
+            "store": "팜카페 빨간머리앤",
+            "biz": "2590203812",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:11",
+    "at": "2026-10-02 09:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -302485,7 +302496,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:10",
+    "at": "2026-10-02 09:12",
     "pri": {
       "days": 0,
       "failed": [],
