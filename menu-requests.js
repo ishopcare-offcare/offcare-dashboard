@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2893,
- "updatedAt": "2026-10-02 17:30",
+ "version": 2894,
+ "updatedAt": "2026-10-02 17:32",
  "days": 30,
  "items": [
   {
@@ -20,12 +20,14 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790929834.208849",
+   "replies": [
+    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579 다시 부탁드립니다. ㅜ ㅜ"
+   ],
+   "rc": 3,
+   "lr": "1790929863.937079",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790929831465149"
   },
   {
@@ -350,8 +352,8 @@ window.MENU_REQUESTS = {
     "대표님이 직접 수정하신다는게 하이오더 매니저 프로그램 들어가서 수정하고 계시는거죠?",
     "모르시면 굳이 확인까지는 안하셔도 괜찮습니다 그냥 궁금증이에요ㅕ"
    ],
-   "rc": 11,
-   "lr": "1790929665.324449",
+   "rc": 12,
+   "lr": "1790929894.287679",
    "rfx": 3,
    "status": "wait",
    "handler": null,
