@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 15549,
+  "version": 15550,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -227328,11 +227328,27 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-02": {
-      "counts": {},
+      "counts": {
+        "nosetup": {
+          "심성현": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:00",
+          "store": "휘은갤러리 아트공방",
+          "biz": "5012495272",
+          "cat": "nosetup",
+          "emp": "심성현",
+          "req": "핸드폰+프론트 온보딩 요청",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 완료"
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -227578,14 +227594,14 @@ window.SLACK_DATA = {
       },
       "1790898302.074279": {
         "post": "1790898302.074279",
-        "lastSeen": 1790899752.881,
+        "lastSeen": 1790899842.373,
         "r": 1,
         "day": "2026-10-02",
         "idx": 0
       },
       "1790899452.058209": {
         "post": "1790899452.058209",
-        "lastSeen": 1790899752.881
+        "lastSeen": 1790899842.373
       }
     },
     "days": {
@@ -302353,13 +302369,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-02 09:10",
+    "at": "2026-10-02 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4330,
+    "rows": 4332,
     "named": 1030,
     "unknownName": 0,
     "beforeStart": 0,
@@ -302469,7 +302485,7 @@ window.SLACK_DATA = {
     "2026-10-02": 2
   },
   "noteMig": {
-    "at": "2026-10-02 09:09",
+    "at": "2026-10-02 09:10",
     "pri": {
       "days": 0,
       "failed": [],
