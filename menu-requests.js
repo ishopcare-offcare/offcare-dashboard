@@ -3,10 +3,175 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2846,
- "updatedAt": "2026-10-02 10:25",
+ "version": 2847,
+ "updatedAt": "2026-10-02 10:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1790904323.891359",
+   "date": "2026-10-02",
+   "time": "10:25",
+   "store": "우본가",
+   "biz": "4252602129",
+   "pos": "토스포스",
+   "content": "x",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1W72NVm9IoVBM1Z9B_i20bfubHtAVnGIB/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1W72NVm9IoVBM1Z9B_i20bfubHtAVnGIB",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 스페셜모듬 400g",
+       "price": 92000
+      },
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 스페셜모듬 600g",
+       "price": 138000
+      },
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 일반모듬 400g",
+       "price": 80000
+      },
+      {
+       "category": "한우 모듬 메뉴 (1++)",
+       "name": "우본가 일반모듬 600g",
+       "price": 120000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "안창살 (150g)",
+       "price": 52000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "살치살 (150g)",
+       "price": 42000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "부채살 (150g)",
+       "price": 34000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "업진살 (150g)",
+       "price": 33000
+      },
+      {
+       "category": "한우 단품 메뉴 (150g 기준)",
+       "name": "갈비살 (150g)",
+       "price": 33000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "육회냉면",
+       "price": 10000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "한우된장술밥",
+       "price": 7000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "식사 육개장",
+       "price": 6000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "냉면 (물, 비빔)",
+       "price": 6000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "누룽지",
+       "price": 5000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "명란추가",
+       "price": 4000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "된장찌개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "간천엽추가",
+       "price": 5000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "장조림추가",
+       "price": 2000
+      },
+      {
+       "category": "생고기 메뉴",
+       "name": "뭉티기 (150g)",
+       "price": 29000
+      },
+      {
+       "category": "생고기 메뉴",
+       "name": "육회 (150g)",
+       "price": 25000
+      },
+      {
+       "category": "생고기 메뉴",
+       "name": "육회물회",
+       "price": 20000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "화요",
+       "price": 25000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "일품진로",
+       "price": 25000
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790904323891359"
+  },
   {
    "ts": "1790904236.426159",
    "date": "2026-10-02",
