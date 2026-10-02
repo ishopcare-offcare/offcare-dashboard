@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2917,
- "updatedAt": "2026-10-02 19:52",
+ "version": 2918,
+ "updatedAt": "2026-10-02 22:36",
  "days": 30,
  "items": [
   {
@@ -1408,6 +1408,345 @@ window.MENU_REQUESTS = {
      "from": "댓글",
      "kind": "pos_screen",
      "menu": []
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5UF8PUVD",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트메뉴",
+       "name": "1인 세트 (메뉴+추가토핑+음료)",
+       "price": 14900
+      },
+      {
+       "category": "세트메뉴",
+       "name": "2인 세트 (메뉴 2 + 사이드메뉴 + 음료2)",
+       "price": 31000
+      },
+      {
+       "category": "카레라이스",
+       "name": "온천수란 카레라이스",
+       "price": 9900
+      },
+      {
+       "category": "카레라이스",
+       "name": "버섯 카레라이스",
+       "price": 9900
+      },
+      {
+       "category": "카레라이스",
+       "name": "돈까스 카레라이스",
+       "price": 12400
+      },
+      {
+       "category": "카레라이스",
+       "name": "치킨 가라아게 카레라이스",
+       "price": 11900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6DH2P8TE",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "카레라이스",
+       "name": "왕새우튀김 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "카레라이스",
+       "name": "잔슨빌 소시지 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "카레라이스",
+       "name": "트러플새우 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "카레라이스",
+       "name": "함박스테이크 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "카레라이스",
+       "name": "모듬튀김 카레라이스",
+       "price": 11900
+      },
+      {
+       "category": "카레라이스",
+       "name": "통모짜 카레라이스",
+       "price": 13400
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "237 오므카레",
+       "price": 10900
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C747YQ0Q0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "회오리 오므카레",
+       "name": "돈까스 오므카레",
+       "price": 14400
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "왕새우튀김 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "치킨가라아게 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "잔슨빌 소시지 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "트러플새우 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "함박스테이크 오므카레",
+       "price": 13500
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "통모짜 오므카레",
+       "price": 15400
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C67TX1CMC",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "구름계란 덮밥",
+       "name": "구름스크램블 치킨덮밥",
+       "price": 12500
+      },
+      {
+       "category": "구름계란 덮밥",
+       "name": "구름 스크램블 트러플새우덮밥",
+       "price": 13500
+      },
+      {
+       "category": "카레우동",
+       "name": "온천수란 카레우동",
+       "price": 9900
+      },
+      {
+       "category": "카레우동",
+       "name": "왕새우튀김 카레우동",
+       "price": 11900
+      },
+      {
+       "category": "사이드",
+       "name": "카레 추가",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "트러플 계란 스크램블",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "모듬튀김",
+       "price": 5500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5UFN91LP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "치킨탠더 4피스",
+       "price": 5500
+      },
+      {
+       "category": "사이드",
+       "name": "치킨가라아게 6피스",
+       "price": 6500
+      },
+      {
+       "category": "사이드",
+       "name": "한입군만두 14피스",
+       "price": 4500
+      },
+      {
+       "category": "사이드",
+       "name": "온천수란",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "유기농 쌀밥",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "갈릭 어니언 후레이크",
+       "price": 700
+      },
+      {
+       "category": "사이드",
+       "name": "가라아게와 감자튀김",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7486AP96",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "키즈 메뉴",
+       "name": "237 키즈 세트",
+       "price": 8000
+      },
+      {
+       "category": "영수증 리뷰 참여",
+       "name": "영수증 리뷰 참여",
+       "price": 0
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 제로",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "사무엘 아담스 355ml",
+       "price": 9000
+      },
+      {
+       "category": "음료",
+       "name": "아사히 생맥주 340ml",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C69NBD5LJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 제로",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "사무엘 아담스 355ml",
+       "price": 9000
+      },
+      {
+       "category": "음료",
+       "name": "아사히 생맥주 340ml",
+       "price": 8000
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "모둠튀김 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "음료",
+       "name": "하이오더 쿠폰",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C5UFS94TH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 제로",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "사무엘 아담스 355ml",
+       "price": 9000
+      },
+      {
+       "category": "음료",
+       "name": "아사히 생맥주 340ml",
+       "price": 8000
+      },
+      {
+       "category": "회오리 오므카레",
+       "name": "모듬튀김 오므카레",
+       "price": 13900
+      },
+      {
+       "category": "음료",
+       "name": "하이오더 쿠폰",
+       "price": 0
+      }
+     ]
     }
    ],
    "datt": [],
@@ -1415,8 +1754,8 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790928664981579 다시 부탁드립니다. ㅜ ㅜ",
     "엉엉 ㅜ ㅜ 최대한 빠르게 부탁드리겟습니다.\n죄송합니다 ㅜ ㅜ....."
    ],
-   "rc": 18,
-   "lr": "1790931457.058439",
+   "rc": 19,
+   "lr": "1790948095.572759",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
