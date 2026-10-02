@@ -1482,11 +1482,42 @@ function empColor(n){ return EMP_COLORS[n] || "#495057"; }
 const DUTY_ORDER = ["배선유","송태양","김동욱","김현기","서상원","김규빈","심성현"];
 const DUTY_ANCHOR_DATE = "2026-07-10";   // 이 날 회의 = 김현기(순번 idx 3) 기준으로 전체 정렬
 const DUTY_ANCHOR_IDX = 3;
+// 순번이 바뀌는 시점(from)마다 새 목록. from 이전 주는 앞 목록 그대로라 지난 배정은 안 바뀐다.
+// 바뀌는 첫 주 담당은 이전 순번이 정한 사람 그대로이고, 거기서부터 새 목록 순서로 이어간다.
+const DUTY_ORDER_CHANGES = [
+  {from:"2026-12-01", order:["배선유","송태양","김동욱","김현기","서상원","김규빈","심성현","고경림"]},   // 고경림 합류(심성현 다음)
+];
 const LS_DUTYALERT = "opcare_dutyalert_v1";
 function isDutyMeeting(t){ return /정기회의|타운홀|town\s*hall/i.test(t||""); }
 // 🕙 10시 출근 로테이션 — 매주(월요일 시작) 1명씩, 순서대로 회전. 2026-07-27(월) = 김현기부터.
 const TEN_ORDER = ["김현기","심성현","배선유","송태양","김규빈"];
 const TEN_ANCHOR_DATE = "2026-07-27";
+const TEN_ORDER_CHANGES = [   // from 은 월요일 (주 단위 배정 기준일)
+  {from:"2026-12-07", order:["김현기","심성현","배선유","송태양","김규빈","고경림"]},   // 고경림 합류(김규빈 다음) · 12월 첫 월요일
+];
+// 주 단위 순번 계산(변경 이력 반영). w = 앵커로부터 몇째 주인지.
+function rotPerson(order, idx, anchor, changes, ds){
+  const wk=v=>Math.round((parseYmd(v)-parseYmd(anchor))/(7*86400000));
+  const at=(o,i,n)=>o[(((i+n)%o.length)+o.length)%o.length];
+  let w0=0;
+  for(const c of changes){
+    if(ds<c.from) break;
+    const wc=wk(c.from), who=at(order, idx, wc-w0);   // 바뀌는 첫 주 = 이전 순번의 담당
+    order=c.order; idx=Math.max(0, order.indexOf(who)); w0=wc;
+  }
+  return at(order, idx, wk(ds)-w0);
+}
+// 보고 있는 달이 바뀌는 달이거나 그 전이면 '언제부터 누가 합류' 예고 (달 마지막 날 기준 순번을 보여주므로)
+function orderChangeNote(changes, y, m){
+  const first=ymd(new Date(y,m,1));
+  const last=ymd(new Date(y,m+1,0));
+  const c=changes.find(c=>c.from>=first); if(!c) return '';
+  const p=c.from.split('-'), when=(+p[1])+'/'+(+p[2])+'부터';
+  if(c.from<=last) return ` <span style="font-weight:600;color:var(--gray2)">(${when} 적용)</span>`;   // 이 달 안에 바뀜 → 새 순번 + 시작일
+  return ` <span style="font-weight:600;color:var(--gray2)">· ${when}: ${c.order.join(' → ')}</span>`;   // 다가올 변경 예고
+}
+// 그 날짜에 적용되는 순번 목록 (안내 문구·교체 팝업용)
+function orderAt(base, changes, ds){ let o=base; for(const c of changes){ if(ds<c.from) break; o=c.order; } return o; }
 function meetingDutyList(){
   const days=(window.GCAL_DATA&&window.GCAL_DATA.days)||{}; const list=[];
   Object.keys(days).forEach(d=>(days[d]||[]).forEach(e=>{ if(isDutyMeeting(e.title)) list.push({date:d, time:e.time||"", title:e.title}); }));
@@ -1496,9 +1527,7 @@ function meetingDutyList(){
 // 당번 배정 = 회의 날짜만의 순수 함수(주 단위 회전). 캘린더 로드 상태·목록과 무관 → 모두 동일하게 보임.
 // 앵커: 2026-07-10 주 = 김현기(DUTY_ORDER idx 3). 매주 다음 사람으로 회전.
 function dutyPersonByDate(dateStr){
-  const anchor=parseYmd(DUTY_ANCHOR_DATE), d=parseYmd(dateStr);
-  const weeks=Math.round((d-anchor)/(7*86400000));
-  return DUTY_ORDER[(((weeks+DUTY_ANCHOR_IDX)%7)+7)%7];
+  return rotPerson(DUTY_ORDER, DUTY_ANCHOR_IDX, DUTY_ANCHOR_DATE, DUTY_ORDER_CHANGES, dateStr);
 }
 function dutyMap(){
   const map={};
@@ -1897,7 +1926,7 @@ function tenPersonByDate(ds){
   const d=parseYmd(ds); if(d.getDay()!==1) return '';                 // 월요일만
   const w=Math.round((d-parseYmd(TEN_ANCHOR_DATE))/(7*86400000));
   if(w<0) return '';                                                  // 시작 주(2026-07-27) 이전은 표시 안 함
-  return TEN_ORDER[((w%TEN_ORDER.length)+TEN_ORDER.length)%TEN_ORDER.length];
+  return rotPerson(TEN_ORDER, 0, TEN_ANCHOR_DATE, TEN_ORDER_CHANGES, ds);
 }
 function tenPersonAt(ds){ return TENOVER[ds] || tenPersonByDate(ds); }
 function setTenOne(ds, name){ if(name && name!==tenPersonByDate(ds)) TENOVER[ds]=name; else delete TENOVER[ds]; }   // 자동 순번과 같아지면 override 제거
@@ -1917,7 +1946,7 @@ function openTenPicker(ds){
   el.innerHTML=`<div class="detail-box" style="max-width:380px">
     <div class="detail-head"><h3>🕙 10시 출근 지정</h3><button class="detail-x" onclick="document.getElementById('tenPickModal').remove()">✕</button></div>
     <div class="dp-meta">${fmtShort(ds)} 주 (월~일)${cur?` · 현재 <b>${escapeHtml(cur)}</b>`:''}</div>
-    <div class="dp-list">${TEN_ORDER.map(e=>`<button class="dp-item ${e===cur?'on':''}" onclick="pickTen('${ds}','${escapeHtml(e)}')">${escapeHtml(e)}${e===cur?' ✓':''}</button>`).join('')}</div>
+    <div class="dp-list">${orderAt(TEN_ORDER, TEN_ORDER_CHANGES, ds).map(e=>`<button class="dp-item ${e===cur?'on':''}" onclick="pickTen('${ds}','${escapeHtml(e)}')">${escapeHtml(e)}${e===cur?' ✓':''}</button>`).join('')}</div>
     <div class="dp-note">고른 사람으로 <b>이 주만</b> 바뀝니다 (다른 주는 그대로)</div>
     ${TENOVER[ds]?`<button class="dp-auto" onclick="pickTen('${ds}','')">↺ 순번 자동으로 되돌리기</button>`:''}
   </div>`;
@@ -7081,8 +7110,8 @@ function renderShare(){
         ${EMPLOYEES.map(n=>`<span><span class="swatch" style="background:${empColor(n)}"></span>${n}</span>`).join("")}
         <span style="margin-left:6px"><span class="swatch" style="background:#e8f0fe;border:1px solid #c6dafc"></span>회의(구글)</span>
       </div>
-      <div class="duty-order">🏠 회의 중 원격 근무당번 순서 · ${DUTY_ORDER.join(' → ')}</div>
-      <div class="duty-order ten-order">🕙 10시 출근 로테이션(주 단위 · 월요일 시작) · ${TEN_ORDER.join(' → ')} <span style="font-weight:600;color:var(--gray2)">· 달력의 <b>10출</b> 막대 클릭 → 이름 변경</span></div>
+      <div class="duty-order">🏠 회의 중 원격 근무당번 순서 · ${orderAt(DUTY_ORDER, DUTY_ORDER_CHANGES, ymd(new Date(y,m+1,0))).join(' → ')}${orderChangeNote(DUTY_ORDER_CHANGES, y, m)}</div>
+      <div class="duty-order ten-order">🕙 10시 출근 로테이션(주 단위 · 월요일 시작) · ${orderAt(TEN_ORDER, TEN_ORDER_CHANGES, ymd(new Date(y,m+1,0))).join(' → ')}${orderChangeNote(TEN_ORDER_CHANGES, y, m)} <span style="font-weight:600;color:var(--gray2)">· 달력의 <b>10출</b> 막대 클릭 → 이름 변경</span></div>
     </div>
   `;
 }
