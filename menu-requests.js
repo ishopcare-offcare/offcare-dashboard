@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2915,
- "updatedAt": "2026-10-02 19:39",
+ "version": 2916,
+ "updatedAt": "2026-10-02 19:41",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790937522.041299",
+   "replies": [
+    "대신 해주신데요",
+    "사유:\n• 카테고리 어묵 메뉴에 라면/사이드 메뉴가 전부 들어가 있음"
+   ],
+   "rc": 3,
+   "lr": "1790937620.463129",
    "rfx": 3,
    "status": "wait",
    "handler": null,
