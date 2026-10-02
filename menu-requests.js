@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2871,
- "updatedAt": "2026-10-02 15:54",
+ "version": 2872,
+ "updatedAt": "2026-10-02 16:07",
  "days": 30,
  "items": [
   {
@@ -55081,47 +55081,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788332915954999"
-  },
-  {
-   "ts": "1788332809.863799",
-   "date": "2026-09-02",
-   "time": "16:06",
-   "store": "샐러드타임",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 샐러드타임 메뉴정보 변경\n나의 iPhone에서 보냄\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a060ef244233b8d>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BU8V5R4AZ",
-     "from": "댓글",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "규빈넴 이거 보이십니까..?",
-    "저는 스팸을 해제해도 내용이 안보여요;;;;;; :아오:",
-    "첨부파일 없는듯",
-    "저만 안보이는거 아님 다행!",
-    "파일이나 텍스트 다 빼놓고 보내신듯!",
-    "급하셧네"
-   ],
-   "rc": 7,
-   "lr": "1788336205.998579",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a060ef244233b8d",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788332809863799"
   }
  ],
  "ocr": {
