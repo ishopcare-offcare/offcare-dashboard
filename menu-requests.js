@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2933,
- "updatedAt": "2026-10-03 13:22",
+ "version": 2934,
+ "updatedAt": "2026-10-03 13:25",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,399 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "ANEUK DRINK LIST - 4.png",
+     "fid": "F0C79PBUDK2",
+     "from": "댓글",
+     "path": "menu-files/1791001346_000849-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "FRIED",
+       "name": "브리치즈",
+       "price": 16000
+      },
+      {
+       "category": "FRIED",
+       "name": "테바사키후라이",
+       "price": 18000
+      },
+      {
+       "category": "FRIED",
+       "name": "칠리새우와 충샹풍미수좌병",
+       "price": 32000
+      },
+      {
+       "category": "FRIED",
+       "name": "복가라아게",
+       "price": 25000
+      },
+      {
+       "category": "BRAISED",
+       "name": "스지 된장 조림",
+       "price": 25000
+      },
+      {
+       "category": "BRAISED",
+       "name": "돌문어 간장 조림",
+       "price": 30000
+      },
+      {
+       "category": "BRAISED",
+       "name": "제철 생선 조림",
+       "price": 35000
+      },
+      {
+       "category": "RICE",
+       "name": "아늑 솥밥 2인",
+       "price": 42000
+      },
+      {
+       "category": "DESSERT",
+       "name": "모나카 아이스크림",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "name": "ANEUK - 5.png",
+     "fid": "F0C6F824V7U",
+     "from": "댓글",
+     "path": "menu-files/1791001346_000849-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "ANEUK TASTING COURSE",
+       "name": "ANEUK TASTING COURSE",
+       "price": 100000
+      }
+     ]
+    },
+    {
+     "name": "ANEUK - 6.png",
+     "fid": "F0C6HATMQQ1",
+     "from": "댓글",
+     "path": "menu-files/1791001346_000849-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "ANEUK SEASONAL COURSE",
+       "name": "ANEUK SEASONAL COURSE",
+       "price": 140000
+      }
+     ]
+    },
+    {
+     "name": "ANEUK - 7.png",
+     "fid": "F0C6HATQ649",
+     "from": "댓글",
+     "path": "menu-files/1791001346_000849-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Half Bottle Sake",
+       "name": "유키노보우샤 준마이 긴조 300ml",
+       "price": 45000
+      },
+      {
+       "category": "Half Bottle Sake",
+       "name": "핫카이산 에치고데소로 생주 300ml",
+       "price": 45000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "키타야 유메잇콘 토쿠베츠 준마이",
+       "price": 78000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "이나타히메 혼조조 나마겐슈",
+       "price": 85000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "토요비진 준도이치즈",
+       "price": 98000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "미무로스기 준마이 긴조",
+       "price": 115000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "센킨 모던",
+       "price": 120000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "나베시마 준마이 긴조 오마치",
+       "price": 135000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "이소지만 토쿠베츠 준마이",
+       "price": 175000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "토요비진 이치방마토이 준마이 다이긴조",
+       "price": 195000
+      },
+      {
+       "category": "Full Bottle Sake",
+       "name": "카쿠메이 센킨 잇세이",
+       "price": 210000
+      },
+      {
+       "category": "Sochu",
+       "name": "고쿠, 보리",
+       "price": 125000
+      },
+      {
+       "category": "Sochu",
+       "name": "나나쿠보, 고구마",
+       "price": 160000
+      },
+      {
+       "category": "Korean Soju",
+       "name": "화요25",
+       "price": 39000
+      },
+      {
+       "category": "Korean Soju",
+       "name": "화요41",
+       "price": 130000
+      },
+      {
+       "category": "Draft Beer",
+       "name": "에비스 생맥주 260ml",
+       "price": 9000
+      },
+      {
+       "category": "Draft Beer",
+       "name": "에비스 생맥주 380ml",
+       "price": 12000
+      },
+      {
+       "category": "Non-Alcoholic",
+       "name": "카시스베리 / 모히또 / 피치크러쉬",
+       "price": 11000
+      },
+      {
+       "category": "Soft Drinks",
+       "name": "토닉워터 / 진저에일",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "ANEUK - 8.png",
+     "fid": "F0C6HATUH89",
+     "from": "댓글",
+     "path": "menu-files/1791001346_000849-4.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "WINE BY THE GLASS",
+       "name": "Domaine Paquet, Macon Fuisse, France 도멘 파케, 마콩 퓌세",
+       "price": 17000
+      },
+      {
+       "category": "WINE BY THE GLASS",
+       "name": "Louis Jadot, Bourgogne Pinot Noir, France 루이 자도, 부르고뉴 피노 누아",
+       "price": 20000
+      },
+      {
+       "category": "CHAMPAGNE",
+       "name": "Moet & Chandon Imperial 모엣&샹동 임페리얼",
+       "price": 135000
+      },
+      {
+       "category": "CHAMPAGNE",
+       "name": "Veuve Clicquot Brut 뵈브 클리고 브뤼",
+       "price": 185000
+      },
+      {
+       "category": "CHAMPAGNE",
+       "name": "Ruinart, Blanc de Blancs 뤼나르, 블랑 드 블랑",
+       "price": 230000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Domaine Paquet, Macon Fuisse, France 도멘 파케, 마콩 퓌세",
+       "price": 84000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Gigondas, Cotes Du Rhone La Dame De Montmirail, France 지공다스 ",
+       "price": 89000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Berthier, Coteaux du Giennois 'Terre de Marne', France 베르띠에,",
+       "price": 96000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Pieropan, Soave Classico, Italy 피에로판, 소아베 클라시코",
+       "price": 115000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Cloudy Bay, Sauvignon Blanc, New Zealand 클라우디 베이, 소비뇽 블랑",
+       "price": 120000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Domaine William Fèvre Chablis, Premier Cru, France 도멘 윌리엄 페브",
+       "price": 165000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Domaine Vacheron, Sancerre Blanc, France 도멘 바쉐롱, 상세르 블랑",
+       "price": 215000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Grgich Hills Napa Valley Chardonnay, USA 그르기치 힐스 나파 밸리 샤도네이",
+       "price": 245000
+      }
+     ]
+    },
+    {
+     "name": "ANEUK - 9.png",
+     "fid": "F0C6K36KLKE",
+     "from": "댓글",
+     "path": "menu-files/1791001346_000849-5.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "ROSE WINE",
+       "name": "Chateau d'Esclans, Whispering Angel, France",
+       "price": 87000
+      },
+      {
+       "category": "ROSE WINE",
+       "name": "Domaines OTT, Bandol Rose, France",
+       "price": 145000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Wynns The Gables, Cabernet Sauvignon, Australia",
+       "price": 86000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Mouton Cadet, Cuvee Heritage, France",
+       "price": 93000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Tenuta San Guido, Le Difese, Italy",
+       "price": 95000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Louis Jadot, Bourgogne Pinot Noir, France",
+       "price": 98000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Dough Central Coast, Pinot Noir, USA",
+       "price": 108000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Grant Burge, Filsell Shiraz, Australia",
+       "price": 145000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Isole e Olena, Chianti Classico, Italy",
+       "price": 175000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Duckhorn, Napa Valley Merlot, USA",
+       "price": 230000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Domaine Geantet Pansiot, Gevrey Chambertin, France",
+       "price": 260000
+      },
+      {
+       "category": "RED WINE",
+       "name": "Pio Cesare, Barolo, Italy",
+       "price": 280000
+      }
+     ]
+    },
+    {
+     "name": "ANEUK - 3.png",
+     "fid": "F0C6DDVEN9L",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SASHIMI",
+       "name": "제철 모둠 생선회",
+       "price": 60000
+      },
+      {
+       "category": "SASHIMI",
+       "name": "흰살 생선회",
+       "price": 38000
+      },
+      {
+       "category": "SASHIMI",
+       "name": "찜전복 (大전복 2마리)",
+       "price": 19000
+      },
+      {
+       "category": "COLD",
+       "name": "대게와 해초냉채",
+       "price": 21000
+      },
+      {
+       "category": "COLD",
+       "name": "산니백육",
+       "price": 24000
+      },
+      {
+       "category": "COLD",
+       "name": "참치 타르타르와 김부각",
+       "price": 25000
+      },
+      {
+       "category": "GRILLED",
+       "name": "제철 생선 구이",
+       "price": 35000
+      },
+      {
+       "category": "GRILLED",
+       "name": "장어 구이",
+       "price": 38000
+      },
+      {
+       "category": "GRILLED",
+       "name": "항정살 미소구이",
+       "price": 36000
+      },
+      {
+       "category": "GRILLED",
+       "name": "양념갈비와 세 가지 곁들임",
+       "price": 45000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791001348.812989",
+   "rc": 2,
+   "lr": "1791001458.263049",
    "rfx": 3,
    "status": "wait",
    "handler": null,

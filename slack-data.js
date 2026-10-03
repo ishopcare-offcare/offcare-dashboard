@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16108,
+  "version": 16109,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230404,7 +230404,7 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "미지정": 3,
+          "미지정": 4,
           "김규빈": 24
         },
         "booking": {
@@ -230416,6 +230416,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:00",
+          "store": "달로브(DALOVE)",
+          "biz": "6740303930",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "노트북&gt;아이패드로 변경 후 포프 온보딩까지 했으나 용지출력이 되지 않아 확인 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:23",
           "store": "위드짐 탑동점",
@@ -230784,11 +230795,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 28,
+        "online": 29,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "13:21"
+      "updatedAt": "13:22"
     }
   },
   "resp": {
@@ -230977,19 +230988,19 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791001314.796
-      },
-      "1791000001.583139": {
-        "post": "1791000001.583139",
-        "lastSeen": 1791001314.796
+        "lastSeen": 1791001429.246
       },
       "1791000900.298169": {
         "post": "1791000900.298169",
-        "lastSeen": 1791001314.796
+        "lastSeen": 1791001429.246
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791001314.796
+        "lastSeen": 1791001429.246
+      },
+      "1791001346.000849": {
+        "post": "1791001346.000849",
+        "lastSeen": 1791001429.246
       }
     },
     "days": {
@@ -307357,8 +307368,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 27,
-        "sumMin": 894.906312608719,
+        "cnt": 28,
+        "sumMin": 917.7469436248144,
         "over": 9,
         "items": [
           {
@@ -307603,13 +307614,22 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "menu",
             "dmin": 97.9
+          },
+          {
+            "hm": "13:00",
+            "min": 22.8,
+            "store": "달로브(DALOVE)",
+            "biz": "6740303930",
+            "who": "",
+            "cat": "as",
+            "dmin": 22.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 13:22",
+    "at": "2026-10-03 13:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307726,7 +307746,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 13:21",
+    "at": "2026-10-03 13:23",
     "pri": {
       "days": 0,
       "failed": [],
