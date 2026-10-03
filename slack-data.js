@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16119,
+  "version": 16120,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,6 +230403,9 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
+        "onboarding": {
+          "미지정": 1
+        },
         "as": {
           "미지정": 4,
           "김규빈": 24
@@ -230419,6 +230422,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:35",
+          "store": "누헤어(NUU)",
+          "biz": "1495700901",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "프론트 연결 끊김으로 교체 받으신 매장, 포프(맥북) 재온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "받으신 프론트 온보딩완료. 기존 프론트 회수필요하며 추가로 이전에 사용중이신 터미널 반납여부를 문의주실예정입니다."
+        },
         {
           "time": "13:22",
           "store": "아늑",
@@ -230820,7 +230834,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 31,
+        "online": 32,
         "offline": 5,
         "unknown": 0
       },
@@ -231013,19 +231027,15 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791002913.134
+        "lastSeen": 1791002981.358
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791002913.134
+        "lastSeen": 1791002981.358
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791002913.134
-      },
-      "1791002145.746929": {
-        "post": "1791002145.746929",
-        "lastSeen": 1791002913.134
+        "lastSeen": 1791002981.358
       }
     },
     "days": {
@@ -307393,8 +307403,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 29,
-        "sumMin": 933.9863574783008,
+        "cnt": 30,
+        "sumMin": 947.344675330321,
         "over": 9,
         "items": [
           {
@@ -307657,13 +307667,22 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "transfer",
             "dmin": 24.1
+          },
+          {
+            "hm": "13:35",
+            "min": 13.4,
+            "store": "누헤어(NUU)",
+            "biz": "1495700901",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 13.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 13:48",
+    "at": "2026-10-03 13:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307780,7 +307799,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 13:48",
+    "at": "2026-10-03 13:49",
     "pri": {
       "days": 0,
       "failed": [],
