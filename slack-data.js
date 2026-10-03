@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16159,
+  "version": 16160,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,13 +230403,13 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
+        "onboarding": {
+          "미지정": 4
+        },
         "as": {
           "최민석": 1,
           "김규빈": 27,
           "미지정": 6
-        },
-        "onboarding": {
-          "미지정": 3
         },
         "nosetup": {
           "김규빈": 1
@@ -230426,6 +230426,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:02",
+          "store": "윤미당",
+          "biz": "3452201258",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(노트북) 사용 중, 유프 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:38",
           "store": "위베이프 송도해양 경찰청점",
@@ -230938,7 +230949,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 40,
+        "online": 41,
         "offline": 6,
         "unknown": 0
       },
@@ -231099,23 +231110,22 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791007648.881
+        "lastSeen": 1791007758.496
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791007648.881
+        "lastSeen": 1791007758.496
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791007648.881
+        "lastSeen": 1791007758.496
       },
       "1791007359.145789": {
         "post": "1791007359.145789",
-        "lastSeen": 1791007648.881
-      },
-      "1791007345.195219": {
-        "post": "1791007345.195219",
-        "lastSeen": 1791007648.881
+        "lastSeen": 1791007758.496,
+        "r": 1,
+        "day": "2026-10-03",
+        "idx": 35
       }
     },
     "days": {
@@ -307483,8 +307493,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 35,
-        "sumMin": 979.5256709138553,
+        "cnt": 37,
+        "sumMin": 991.2429374456406,
         "over": 9,
         "items": [
           {
@@ -307801,13 +307811,30 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 13.5
+          },
+          {
+            "hm": "15:02",
+            "min": 5.7,
+            "store": "툴립(Tulib)",
+            "biz": "8950902734",
+            "who": "최민석",
+            "cat": "as"
+          },
+          {
+            "hm": "15:02",
+            "min": 6,
+            "store": "윤미당",
+            "biz": "3452201258",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 15:08",
+    "at": "2026-10-03 15:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307924,7 +307951,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 15:07",
+    "at": "2026-10-03 15:09",
     "pri": {
       "days": 0,
       "failed": [],
