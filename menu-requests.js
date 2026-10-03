@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2924,
- "updatedAt": "2026-10-03 11:35",
+ "version": 2925,
+ "updatedAt": "2026-10-03 11:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1790995010.203339",
+   "date": "2026-10-03",
+   "time": "11:36",
+   "store": ". 아늑 토스 포스 사용",
+   "biz": "4647300611",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 메뉴 등록 신청합니다 / 아늑\n안녕하세요, 보내주신 메뉴 등록 신청 링크에서 제출이 안되고  계속 오류가 발생해서 메일보내드립니다  메뉴 전체 포스키생성 요청드리고 메뉴판은 사진 파일첨부해서 보내드립니다  매장명. 아늑 토스 포스 사용 / 맥북으로도 사용 사업자번호 ··· 전화번호 ··· 매장번호 <tel:···|···>  혹시 와인 포스키는 한글명, 프린트는 영문명으로 나오는게 가능할까요?  가능하다면 그렇게 해주시고 안되면 그냥 다 한글명으로 생성 부탁드리겠습니다.   \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ff9c600af8021>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ff9c600af8021",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790995010203339"
+  },
   {
    "ts": "1790994927.636079",
    "date": "2026-10-03",
