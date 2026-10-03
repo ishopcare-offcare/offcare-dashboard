@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2930,
- "updatedAt": "2026-10-03 13:18",
+ "version": 2931,
+ "updatedAt": "2026-10-03 13:19",
  "days": 30,
  "items": [
   {
@@ -169,17 +169,19 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "메일에 메뉴 없음 재전송"
+   ],
+   "rc": 1,
+   "lr": "1791001142.210729",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a0ff9c600af8021",
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790995010203339"
   },
   {
@@ -196,13 +198,14 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "메뉴없음"
+    "메뉴없음",
+    "아래매장임"
    ],
-   "rc": 1,
-   "lr": "1791001029.015649",
+   "rc": 2,
+   "lr": "1791001134.158959",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790994927636079"
   },
   {
