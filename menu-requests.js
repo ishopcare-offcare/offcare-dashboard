@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2919,
- "updatedAt": "2026-10-03 07:45",
+ "version": 2920,
+ "updatedAt": "2026-10-03 10:36",
  "days": 30,
  "items": [
   {
@@ -57632,29 +57632,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788401297490229"
-  },
-  {
-   "ts": "1788399291.107609",
-   "date": "2026-09-03",
-   "time": "10:34",
-   "store": "올데이크레페(ALL DAY CREPE) 시흥신천점",
-   "biz": "7562302527",
-   "pos": "",
-   "content": "메뉴 등록 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "··· / 올데이크레페(ALL DAY CREPE) 운정점\n\n메뉴 그대로 https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1788169062370749?thread_ts=···.726909&cid=C0AL2V3MM7U"
-   ],
-   "rc": 4,
-   "lr": "1788401635.035159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788399291107609"
   }
  ],
  "ocr": {
