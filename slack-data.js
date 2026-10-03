@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16005,
+  "version": 16006,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230419,7 +230419,7 @@ window.SLACK_DATA = {
           "req": "오케이포스 사용 중으로, 포스기 지속적으로 연결끊김 현상으로 점검 요청드립니다:감사합니다꾸벅:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "이전 내역 확인 시 용량지우고 메모리도 최적화 하였으나 바쁠때 포스기가 멈춘다고하여 7일 15시 일정등록 필요 포스기 모델 확인중 / KIS 2410 CAT 단말기도 교체요청"
         },
         {
           "time": "09:00",
@@ -307036,7 +307036,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 09:11",
+    "at": "2026-10-03 09:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307153,7 +307153,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 09:11",
+    "at": "2026-10-03 09:14",
     "pri": {
       "days": 0,
       "failed": [],
