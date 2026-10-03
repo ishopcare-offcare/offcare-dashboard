@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16203,
+  "version": 16204,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230451,7 +230451,7 @@ window.SLACK_DATA = {
           "req": "터프 사용 중 / 프론트 연결 끊김으로 도움 부탁드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "터프 재온보딩 완료"
         },
         {
           "time": "16:00",
@@ -231101,42 +231101,42 @@ window.SLACK_DATA = {
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "16:34",
+      "updatedAt": "16:40",
       "voc": {
-        "responses": 9,
+        "responses": 10,
         "install": {
-          "count": 6,
+          "count": 7,
           "low": 0
         },
         "nps": {
-          "count": 9,
+          "count": 10,
           "low": 0
         },
         "high": {
-          "install": 6,
-          "nps": 6
+          "install": 7,
+          "nps": 7
         },
         "npsDist": {
           "8": 2,
           "9": 1,
-          "10": 6
+          "10": 7
         },
         "installDist": {
-          "5": 6
+          "5": 7
         },
         "byIndustry": {
-          "서비스[학원]": 1,
+          "서비스[학원]": 2,
           "서비스[뷰티,헤어]": 3,
           "도소매": 1,
           "카페": 1
         },
         "byTenure": {
-          "6개월": {
-            "total": 2,
+          "구매설치": {
+            "total": 7,
             "low": 0
           },
-          "구매설치": {
-            "total": 6,
+          "6개월": {
+            "total": 2,
             "low": 0
           },
           "1개월": {
@@ -231145,6 +231145,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 2,
             "low": 0
@@ -231157,10 +231161,6 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "KIS": {
-            "total": 1,
-            "low": 0
-          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -231169,6 +231169,18 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": [
+          {
+            "time": "16:40",
+            "store": "올 댄스 로빅스",
+            "storeId": "690739",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "찐.기계치. . .입니다. 그런데 설명해주실때부터 원격으로도가능하니까.걱정마시라는 격려에 힘입어 기계치인제가 용기를내서.도전했어요 삼담해주시분 진짜감사해요 11살.아이키우며 직장생활했지만.창업을꿈꾸는,이유는다양하잖아요. 그이유가무엇이고.업종이.무엇이든. 기대와걱정속에.시작하게되고.아는거없어서.우왕좌왕하는데 처음부터  하나씩 설명해주시는분들덕에.이해가 되기시작했어요. 참고로,광고,놉 추천받은거없어요.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:40",
             "store": "스페셜바디",
@@ -231211,13 +231223,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1790840452.043289": {
-        "post": "1790840452.043289",
-        "lastSeen": 1790885737.759,
-        "r": 1,
-        "day": "2026-10-01",
-        "idx": 167
-      },
       "1790840875.646449": {
         "post": "1790840875.646449",
         "lastSeen": 1790885737.759,
@@ -231356,15 +231361,15 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791013172.416
+        "lastSeen": 1791013253.12
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791013172.416
+        "lastSeen": 1791013253.12
       },
       "1791012887.990039": {
         "post": "1791012887.990039",
-        "lastSeen": 1791013172.416
+        "lastSeen": 1791013253.12
       }
     },
     "days": {
@@ -308164,7 +308169,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 16:40",
+    "at": "2026-10-03 16:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308281,7 +308286,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 16:39",
+    "at": "2026-10-03 16:40",
     "pri": {
       "days": 0,
       "failed": [],
