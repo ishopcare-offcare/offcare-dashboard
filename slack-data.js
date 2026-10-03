@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16217,
+  "version": 16218,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230404,7 +230404,7 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "미지정": 12,
+          "미지정": 13,
           "최민석": 3,
           "김규빈": 27
         },
@@ -230431,6 +230431,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:28",
+          "store": "머스트 복싱 Must Boxing",
+          "biz": "8889901999",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "pos8385  일시불 구매 (<https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791010554399259?thread_ts=1790915927.848229&amp;cid=C0AL2V3",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "17:09",
           "store": "거진항",
@@ -231131,7 +231142,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 56,
+        "online": 57,
         "offline": 7,
         "unknown": 0
       },
@@ -231257,13 +231268,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1790843625.416469": {
-        "post": "1790843625.416469",
-        "lastSeen": 1790885737.759,
-        "r": 1,
-        "day": "2026-10-01",
-        "idx": 203
-      },
       "1790847901.040789": {
         "post": "1790847901.040789",
         "lastSeen": 1790885737.759,
@@ -231362,15 +231366,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791016306.818
+        "lastSeen": 1791016867.87
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791016306.818
-      },
-      "1791016102.832109": {
-        "post": "1791016102.832109",
-        "lastSeen": 1791016306.818
+        "lastSeen": 1791016867.87
       }
     },
     "days": {
@@ -307738,8 +307738,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 50,
-        "sumMin": 1286.4255458275477,
+        "cnt": 51,
+        "sumMin": 1294.500744009018,
         "over": 10,
         "items": [
           {
@@ -308191,13 +308191,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 21.6
+          },
+          {
+            "hm": "17:28",
+            "min": 8.1,
+            "store": "머스트 복싱 Must Boxing",
+            "biz": "8889901999",
+            "who": "",
+            "cat": "as",
+            "dmin": 8.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 17:32",
+    "at": "2026-10-03 17:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308314,7 +308323,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 17:31",
+    "at": "2026-10-03 17:41",
     "pri": {
       "days": 0,
       "failed": [],
