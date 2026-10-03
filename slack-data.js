@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16214,
+  "version": 16215,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,14 +230403,14 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
+        "onboarding": {
+          "미지정": 7,
+          "최민석": 3
+        },
         "as": {
           "미지정": 11,
           "최민석": 3,
           "김규빈": 27
-        },
-        "onboarding": {
-          "미지정": 6,
-          "최민석": 3
         },
         "nosetup": {
           "최민석": 1,
@@ -230431,6 +230431,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:05",
+          "store": "디어모어",
+          "biz": "7036900751",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(모바일) + 유프 / 연결 온보딩 지원 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "16:34",
           "store": "더 로우 커피아뜰리에",
@@ -231108,11 +231119,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 54,
+        "online": 55,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "17:09",
+      "updatedAt": "17:28",
       "voc": {
         "responses": 10,
         "install": {
@@ -231346,19 +231357,19 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791015328.375
+        "lastSeen": 1791016162.578
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791015328.375
-      },
-      "1791014702.791939": {
-        "post": "1791014702.791939",
-        "lastSeen": 1791015328.375
+        "lastSeen": 1791016162.578
       },
       "1791014981.942559": {
         "post": "1791014981.942559",
-        "lastSeen": 1791015328.375
+        "lastSeen": 1791016162.578
+      },
+      "1791016102.832109": {
+        "post": "1791016102.832109",
+        "lastSeen": 1791016162.578
       }
     },
     "days": {
@@ -307726,8 +307737,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 48,
-        "sumMin": 1247.4090457916259,
+        "cnt": 49,
+        "sumMin": 1264.7871218085288,
         "over": 10,
         "items": [
           {
@@ -308161,13 +308172,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 17
+          },
+          {
+            "hm": "17:05",
+            "min": 17.4,
+            "store": "디어모어",
+            "biz": "7036900751",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 17.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 17:15",
+    "at": "2026-10-03 17:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308284,7 +308304,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 17:15",
+    "at": "2026-10-03 17:29",
     "pri": {
       "days": 0,
       "failed": [],
