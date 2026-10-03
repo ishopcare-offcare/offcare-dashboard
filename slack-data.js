@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16198,
+  "version": 16199,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230404,8 +230404,8 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "onboarding": {
-          "최민석": 3,
-          "미지정": 5
+          "미지정": 6,
+          "최민석": 3
         },
         "as": {
           "미지정": 10,
@@ -230431,6 +230431,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:23",
+          "store": "코코진주",
+          "biz": "8805701001",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(포스기) 사용 중, 프린터기 출력 불가로 인한 온보딩 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "16:00",
           "store": "도트짐",
@@ -231075,7 +231086,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 52,
+        "online": 53,
         "offline": 6,
         "unknown": 0
       },
@@ -231334,22 +231345,18 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791012638.738
+        "lastSeen": 1791012819.768
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791012638.738
+        "lastSeen": 1791012819.768
       },
       "1791011058.812849": {
         "post": "1791011058.812849",
-        "lastSeen": 1791012638.738,
+        "lastSeen": 1791012819.768,
         "r": 1,
         "day": "2026-10-03",
         "idx": 44
-      },
-      "1791012201.559009": {
-        "post": "1791012201.559009",
-        "lastSeen": 1791012638.738
       }
     },
     "days": {
@@ -307717,8 +307724,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 46,
-        "sumMin": 1221.6080799301465,
+        "cnt": 47,
+        "sumMin": 1230.4029797752698,
         "over": 10,
         "items": [
           {
@@ -308133,13 +308140,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 27
+          },
+          {
+            "hm": "16:23",
+            "min": 8.8,
+            "store": "코코진주",
+            "biz": "8805701001",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 8.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 16:31",
+    "at": "2026-10-03 16:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308256,7 +308272,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 16:30",
+    "at": "2026-10-03 16:33",
     "pri": {
       "days": 0,
       "failed": [],
