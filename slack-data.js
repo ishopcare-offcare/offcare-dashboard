@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16250,
+  "version": 16251,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230404,7 +230404,7 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "최민석": 4,
+          "최민석": 5,
           "미지정": 16,
           "김규빈": 27
         },
@@ -230432,6 +230432,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:04",
+          "store": "장현쭈꾸미",
+          "biz": "1322282882",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "오케이포스) 결제 시 용지 출력 불가 문제로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "포스 껏켯 후 정상작동 완료"
+        },
         {
           "time": "18:47",
           "store": "달로브(DALOVE)",
@@ -231210,7 +231221,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 61,
-        "offline": 9,
+        "offline": 10,
         "unknown": 0
       },
       "updatedAt": "19:11",
@@ -231485,18 +231496,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791022625.109
+        "lastSeen": 1791022949.5
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791022625.109
-      },
-      "1791021878.216349": {
-        "post": "1791021878.216349",
-        "lastSeen": 1791022625.109,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 57
+        "lastSeen": 1791022949.5
       }
     },
     "days": {
@@ -308387,14 +308391,15 @@ window.SLACK_DATA = {
             "store": "장현쭈꾸미",
             "biz": "1322282882",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 15.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 19:17",
+    "at": "2026-10-03 19:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308511,7 +308516,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 19:17",
+    "at": "2026-10-03 19:22",
     "pri": {
       "days": 0,
       "failed": [],
