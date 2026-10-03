@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16238,
+  "version": 16239,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231191,15 +231191,15 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "18:11",
+      "updatedAt": "18:41",
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
-          "count": 9,
+          "count": 10,
           "low": 1
         },
         "nps": {
-          "count": 12,
+          "count": 13,
           "low": 1
         },
         "high": {
@@ -231209,23 +231209,24 @@ window.SLACK_DATA = {
         "npsDist": {
           "5": 1,
           "8": 3,
-          "9": 1,
+          "9": 2,
           "10": 7
         },
         "installDist": {
           "2": 1,
           "3": 1,
+          "4": 1,
           "5": 7
         },
         "byIndustry": {
+          "카페": 3,
           "서비스[학원]": 3,
-          "카페": 2,
           "서비스[뷰티,헤어]": 3,
           "도소매": 1
         },
         "byTenure": {
           "구매설치": {
-            "total": 9,
+            "total": 10,
             "low": 1
           },
           "6개월": {
@@ -231238,6 +231239,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
           "KSNET": {
             "total": 1,
             "low": 1
@@ -231297,6 +231302,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "18:41",
+            "store": "시오나 베이크(Siona Bake)",
+            "storeId": "687215",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 4,
+            "nps": 9,
+            "text": "설명서도 잘 되어있었고 카카오톡으로도 안내해줘서 좋았습니다. 부피도작도 설치도편하며 휴대폰으로도 포스가능한게 매력적입니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:40",
             "store": "올 댄스 로빅스",
@@ -231449,15 +231466,15 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791020146.308
+        "lastSeen": 1791020507.434
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791020146.308
+        "lastSeen": 1791020507.434
       },
       "1791018001.139069": {
         "post": "1791018001.139069",
-        "lastSeen": 1791020146.308,
+        "lastSeen": 1791020507.434,
         "r": 1,
         "day": "2026-10-03",
         "idx": 54
@@ -308340,7 +308357,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 18:36",
+    "at": "2026-10-03 18:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308457,7 +308474,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 18:35",
+    "at": "2026-10-03 18:41",
     "pri": {
       "days": 0,
       "failed": [],
