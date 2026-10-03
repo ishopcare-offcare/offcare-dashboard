@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16160,
+  "version": 16161,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230435,7 +230435,7 @@ window.SLACK_DATA = {
           "req": "포프(노트북) 사용 중, 유프 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩완료입니다"
         },
         {
           "time": "14:38",
@@ -230953,7 +230953,76 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "15:02"
+      "updatedAt": "15:10",
+      "voc": {
+        "responses": 3,
+        "install": {
+          "count": 3,
+          "low": 0
+        },
+        "nps": {
+          "count": 3,
+          "low": 0
+        },
+        "high": {
+          "install": 3,
+          "nps": 3
+        },
+        "npsDist": {
+          "10": 3
+        },
+        "installDist": {
+          "5": 3
+        },
+        "byIndustry": {
+          "서비스[뷰티,헤어]": 2,
+          "카페": 1
+        },
+        "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KPN": {
+            "total": 1,
+            "low": 0
+          },
+          "KOCES": {
+            "total": 2,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": [
+          {
+            "time": "15:10",
+            "store": "윤미당",
+            "storeId": "692103",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "직원 친절 직원들친절",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "15:10",
+            "store": "오브 옵티컬(OVE OPTICAL)",
+            "storeId": "636415",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "간편한 설치 친절하고 신속함",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
+      }
     }
   },
   "resp": {
@@ -231110,19 +231179,19 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791007758.496
+        "lastSeen": 1791007875.797
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791007758.496
+        "lastSeen": 1791007875.797
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791007758.496
+        "lastSeen": 1791007875.797
       },
       "1791007359.145789": {
         "post": "1791007359.145789",
-        "lastSeen": 1791007758.496,
+        "lastSeen": 1791007875.797,
         "r": 1,
         "day": "2026-10-03",
         "idx": 35
@@ -307834,7 +307903,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 15:10",
+    "at": "2026-10-03 15:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307951,7 +308020,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 15:09",
+    "at": "2026-10-03 15:11",
     "pri": {
       "days": 0,
       "failed": [],
