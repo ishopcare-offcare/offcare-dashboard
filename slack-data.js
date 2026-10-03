@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16207,
+  "version": 16208,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230440,7 +230440,7 @@ window.SLACK_DATA = {
           "req": "프린터기 작동 불가로 인한 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프린터 아답타 걸쳐있어서 완전체결후 정상완료입니다."
         },
         {
           "time": "16:23",
@@ -231357,11 +231357,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791014290.145
+        "lastSeen": 1791014411.561
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791014290.145
+        "lastSeen": 1791014411.561
       }
     },
     "days": {
@@ -308170,7 +308170,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 16:58",
+    "at": "2026-10-03 17:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308287,7 +308287,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 16:58",
+    "at": "2026-10-03 17:00",
     "pri": {
       "days": 0,
       "failed": [],
