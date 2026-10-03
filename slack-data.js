@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16027,
+  "version": 16028,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,11 +230405,22 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 7
+          "김규빈": 8
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:21",
+          "store": "웨스턴 타코",
+          "biz": "5472801915",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790939646753359|전일 부재건> 재인입",
+          "hw": "",
+          "intake": "online",
+          "note": "ping 테스트시 연결이 붙엇다가 떨어졌다가함 불필요한 프로그램 지우시거나 컴퓨터 포맷 요청 드림 / 설정산엔 문제없음 테스트도 완료"
+        },
         {
           "time": "10:16",
           "store": "커피스토리",
@@ -230489,7 +230500,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 1,
         "unknown": 0
       },
@@ -230680,16 +230691,12 @@ window.SLACK_DATA = {
         "post": "1790953193.133439",
         "lastSeen": 1790972129.813
       },
-      "1790990505.788219": {
-        "post": "1790990505.788219",
-        "lastSeen": 1790991006.532,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 3
-      },
       "1790990757.906539": {
         "post": "1790990757.906539",
-        "lastSeen": 1790991006.532
+        "lastSeen": 1790991060.637,
+        "r": 1,
+        "day": "2026-10-03",
+        "idx": 4
       }
     },
     "days": {
@@ -307057,8 +307064,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 4,
-        "sumMin": 9.88211590051651,
+        "cnt": 5,
+        "sumMin": 14.476748585700989,
         "over": 0,
         "items": [
           {
@@ -307094,6 +307101,15 @@ window.SLACK_DATA = {
             "store": "웨스턴 타코",
             "biz": "5472801915",
             "who": "김규빈",
+            "cat": "as",
+            "dmin": 8.8
+          },
+          {
+            "hm": "10:25",
+            "min": 4.6,
+            "store": "냥아 댕아 놀자",
+            "biz": "8423701637",
+            "who": "김규빈",
             "cat": "as"
           }
         ]
@@ -307101,7 +307117,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 10:30",
+    "at": "2026-10-03 10:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307218,7 +307234,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 10:30",
+    "at": "2026-10-03 10:31",
     "pri": {
       "days": 0,
       "failed": [],
