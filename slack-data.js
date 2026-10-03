@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16115,
+  "version": 16116,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230410,12 +230410,26 @@ window.SLACK_DATA = {
         "booking": {
           "김규빈": 2
         },
+        "transfer": {
+          "김규빈": 1
+        },
         "menu": {
           "김규빈": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:15",
+          "store": "해(HAE)",
+          "biz": "6560103961",
+          "cat": "transfer",
+          "emp": "김규빈",
+          "req": "10월 3일 오후 1시 30분 / 메뉴 복사 O / 프론트, 유프",
+          "hw": "",
+          "intake": "online",
+          "note": "/ 프론트는 온보딩 되어있음 / 유프 용지가 없으셔서 프린터 셋팅만 받고 테스트는 불가 완료"
+        },
         {
           "time": "13:00",
           "store": "달로브(DALOVE)",
@@ -230795,7 +230809,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 29,
+        "online": 30,
         "offline": 5,
         "unknown": 0
       },
@@ -230988,30 +231002,23 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791002277.369
-      },
-      "1791000900.298169": {
-        "post": "1791000900.298169",
-        "lastSeen": 1791002277.369,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 28
+        "lastSeen": 1791002411.392
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791002277.369
+        "lastSeen": 1791002411.392
       },
       "1791001346.000849": {
         "post": "1791001346.000849",
-        "lastSeen": 1791002277.369
+        "lastSeen": 1791002411.392
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791002277.369
+        "lastSeen": 1791002411.392
       },
       "1791002145.746929": {
         "post": "1791002145.746929",
-        "lastSeen": 1791002277.369
+        "lastSeen": 1791002411.392
       }
     },
     "days": {
@@ -307641,14 +307648,15 @@ window.SLACK_DATA = {
             "store": "해(HAE)",
             "biz": "6560103961",
             "who": "김규빈",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 24.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 13:38",
+    "at": "2026-10-03 13:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307765,7 +307773,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 13:37",
+    "at": "2026-10-03 13:40",
     "pri": {
       "days": 0,
       "failed": [],
