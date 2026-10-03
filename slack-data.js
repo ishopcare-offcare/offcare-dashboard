@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16218,
+  "version": 16219,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230440,7 +230440,7 @@ window.SLACK_DATA = {
           "req": "pos8385  일시불 구매 (<https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791010554399259?thread_ts=1790915927.848229&amp;cid=C0AL2V3",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "퇴근하셔서 월요일 오전10시이후로 예약남깁니다."
         },
         {
           "time": "17:09",
@@ -231366,11 +231366,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791016867.87
+        "lastSeen": 1791016966.909
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791016867.87
+        "lastSeen": 1791016966.909
       }
     },
     "days": {
@@ -308206,7 +308206,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 17:41",
+    "at": "2026-10-03 17:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308323,7 +308323,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 17:41",
+    "at": "2026-10-03 17:42",
     "pri": {
       "days": 0,
       "failed": [],
