@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16264,
+  "version": 16265,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231246,22 +231246,23 @@ window.SLACK_DATA = {
         "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "20:04",
+      "updatedAt": "20:11",
       "voc": {
-        "responses": 18,
+        "responses": 19,
         "install": {
-          "count": 12,
+          "count": 13,
           "low": 1
         },
         "nps": {
-          "count": 18,
-          "low": 1
+          "count": 19,
+          "low": 2
         },
         "high": {
-          "install": 9,
+          "install": 10,
           "nps": 10
         },
         "npsDist": {
+          "0": 1,
           "5": 1,
           "8": 5,
           "9": 2,
@@ -231271,22 +231272,23 @@ window.SLACK_DATA = {
           "2": 1,
           "3": 1,
           "4": 1,
-          "5": 9
+          "5": 10
         },
         "byIndustry": {
+          "요식업": 1,
           "서비스[뷰티,헤어]": 4,
           "서비스[학원]": 4,
           "카페": 3,
           "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 13,
+            "low": 2
+          },
           "1개월": {
             "total": 4,
             "low": 0
-          },
-          "구매설치": {
-            "total": 12,
-            "low": 1
           },
           "6개월": {
             "total": 2,
@@ -231295,8 +231297,8 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KOCES": {
-            "total": 6,
-            "low": 0
+            "total": 7,
+            "low": 1
           },
           "KIS": {
             "total": 3,
@@ -231328,9 +231330,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "구매,계약과정에서 설명이 부족": 1,
           "단말기 설치나 초기 과정이 어려움": 2
         },
         "alerts": [
+          {
+            "time": "20:11",
+            "store": "바거",
+            "storeId": "682618",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 5,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "탄순 포스기능만 설명해줘서",
+                "cat": "구매,계약과정에서 설명이 부족"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "18:11",
             "store": "로아비 필라테스&요가",
@@ -231530,11 +231555,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791025602.625
+        "lastSeen": 1791025926.531
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791025602.625
+        "lastSeen": 1791025926.531
       }
     },
     "days": {
@@ -308451,7 +308476,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 20:06",
+    "at": "2026-10-03 20:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308568,7 +308593,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 20:06",
+    "at": "2026-10-03 20:12",
     "pri": {
       "days": 0,
       "failed": [],
