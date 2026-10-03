@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16106,
+  "version": 16107,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230414,7 +230414,19 @@ window.SLACK_DATA = {
           "김규빈": 3
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:43",
+          "store": "키노아사 네일 스튜디오(KINOASA nail stud",
+          "biz": "6023266342",
+          "handler": "김규빈",
+          "cat": "menu",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "12:23",
@@ -230482,7 +230494,7 @@ window.SLACK_DATA = {
           "req": "*  안녕하세요, 보내주신 메뉴 등록 신청 링크에서 제출이 안되고  계속 오류가 발생해서 메일보내드립니다  메뉴 전체 포스키생성 요청드리고 메뉴판은 사진 파일첨부해서 보내드립니다  매장명. 아늑 토스 포스 사용 / 맥북으로도 사용 사업자번호 464-7",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "메일에 메뉴 없음 재전송"
         },
         {
           "time": "11:35",
@@ -230773,7 +230785,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 27,
+        "online": 28,
         "offline": 5,
         "unknown": 0
       },
@@ -230966,19 +230978,22 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791001138.178
+        "lastSeen": 1791001228.317
       },
       "1790995395.946049": {
         "post": "1790995395.946049",
-        "lastSeen": 1791001138.178
+        "lastSeen": 1791001228.317,
+        "r": 1,
+        "day": "2026-10-03",
+        "idx": 26
       },
       "1791000001.583139": {
         "post": "1791000001.583139",
-        "lastSeen": 1791001138.178
+        "lastSeen": 1791001228.317
       },
       "1791000900.298169": {
         "post": "1791000900.298169",
-        "lastSeen": 1791001138.178
+        "lastSeen": 1791001228.317
       }
     },
     "days": {
@@ -307346,9 +307361,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 26,
-        "sumMin": 798.4512884259225,
-        "over": 8,
+        "cnt": 27,
+        "sumMin": 894.906312608719,
+        "over": 9,
         "items": [
           {
             "hm": "09:00",
@@ -307583,13 +307598,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "menu",
             "dmin": 102.7
+          },
+          {
+            "hm": "11:43",
+            "min": 96.5,
+            "store": "키노아사 네일 스튜디오(KINOASA nail stud",
+            "biz": "6023266342",
+            "who": "김규빈",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 13:19",
+    "at": "2026-10-03 13:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307706,7 +307729,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 13:18",
+    "at": "2026-10-03 13:20",
     "pri": {
       "days": 0,
       "failed": [],
