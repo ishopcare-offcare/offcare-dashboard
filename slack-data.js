@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16173,
+  "version": 16174,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,6 +230403,10 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
+        "nosetup": {
+          "최민석": 1,
+          "김규빈": 1
+        },
         "onboarding": {
           "미지정": 5,
           "최민석": 1
@@ -230411,9 +230415,6 @@ window.SLACK_DATA = {
           "최민석": 1,
           "김규빈": 27,
           "미지정": 6
-        },
-        "nosetup": {
-          "김규빈": 1
         },
         "booking": {
           "김규빈": 2
@@ -230430,6 +230431,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:30",
+          "store": "도트짐",
+          "biz": "6663101818",
+          "cat": "nosetup",
+          "emp": "최민석",
+          "req": "컴퓨터 + 프론트 + 프린터 온보딩",
+          "hw": "",
+          "intake": "online",
+          "note": "4시 재연락 요청"
+        },
         {
           "time": "15:11",
           "store": "다같이음악여행실용음악교습소",
@@ -230986,7 +230998,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 44,
+        "online": 45,
         "offline": 6,
         "unknown": 0
       },
@@ -231233,26 +231245,19 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791009360.137
+        "lastSeen": 1791009466.601
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791009360.137
+        "lastSeen": 1791009466.601
       },
       "1791008500.517379": {
         "post": "1791008500.517379",
-        "lastSeen": 1791009360.137
+        "lastSeen": 1791009466.601
       },
       "1791008940.855969": {
         "post": "1791008940.855969",
-        "lastSeen": 1791009360.137
-      },
-      "1791009000.793639": {
-        "post": "1791009000.793639",
-        "lastSeen": 1791009360.137,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 39
+        "lastSeen": 1791009466.601
       }
     },
     "days": {
@@ -307981,14 +307986,15 @@ window.SLACK_DATA = {
             "store": "도트짐",
             "biz": "6663101818",
             "who": "최민석",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 6.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 15:36",
+    "at": "2026-10-03 15:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308105,7 +308111,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 15:36",
+    "at": "2026-10-03 15:37",
     "pri": {
       "days": 0,
       "failed": [],
