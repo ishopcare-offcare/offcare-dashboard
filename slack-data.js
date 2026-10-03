@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16004,
+  "version": 16005,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,11 +230405,22 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 2
+          "김규빈": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "돈키",
+          "biz": "1140120559",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "오케이포스 사용 중으로, 포스기 지속적으로 연결끊김 현상으로 점검 요청드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "09:00",
           "store": "오니브프룻",
@@ -230435,7 +230446,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 2,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:00"
@@ -230631,13 +230642,6 @@ window.SLACK_DATA = {
       "1790953193.133439": {
         "post": "1790953193.133439",
         "lastSeen": 1790972129.813
-      },
-      "1790985608.310029": {
-        "post": "1790985608.310029",
-        "lastSeen": 1790986106.272,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 0
       }
     },
     "days": {
@@ -307015,7 +307019,8 @@ window.SLACK_DATA = {
             "store": "돈키",
             "biz": "1140120559",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 9.9
           },
           {
             "hm": "09:00",
@@ -307031,7 +307036,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 09:08",
+    "at": "2026-10-03 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307148,7 +307153,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 09:08",
+    "at": "2026-10-03 09:11",
     "pri": {
       "days": 0,
       "failed": [],
