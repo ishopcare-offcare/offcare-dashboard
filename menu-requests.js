@@ -3,10 +3,159 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2925,
- "updatedAt": "2026-10-03 11:37",
+ "version": 2926,
+ "updatedAt": "2026-10-03 11:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1790995395.946049",
+   "date": "2026-10-03",
+   "time": "11:43",
+   "store": "키노아사 네일 스튜디오(KINOASA nail studio)",
+   "biz": "6023266342",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C6D5C678W",
+     "from": "댓글",
+     "path": "menu-files/1790995395_946049-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "HAND",
+       "name": "Care",
+       "price": 20000
+      },
+      {
+       "category": "HAND",
+       "name": "One Color",
+       "price": 40000
+      },
+      {
+       "category": "HAND",
+       "name": "Gradation",
+       "price": 50000
+      },
+      {
+       "category": "HAND",
+       "name": "French",
+       "price": 55000
+      },
+      {
+       "category": "HAND",
+       "name": "Glitter / Magnet",
+       "price": 3000
+      },
+      {
+       "category": "HAND",
+       "name": "Powder",
+       "price": 5000
+      },
+      {
+       "category": "ART",
+       "name": "Simple Art",
+       "price": 60000
+      },
+      {
+       "category": "ART",
+       "name": "Monthly Art",
+       "price": 65000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6JQ3A6GL",
+     "from": "댓글",
+     "path": "menu-files/1790995395_946049-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PEDI",
+       "name": "HAND MENU",
+       "price": 10000
+      },
+      {
+       "category": "OFF + CARE",
+       "name": "자샵 Gel Off + Care",
+       "price": 30000
+      },
+      {
+       "category": "OFF + CARE",
+       "name": "타샵 Gel Off + Care",
+       "price": 40000
+      },
+      {
+       "category": "GEL OFF",
+       "name": "자샵 Gel Off + 재시술",
+       "price": 5000
+      },
+      {
+       "category": "GEL OFF",
+       "name": "타샵 Gel Off + 재시술",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C79EX18JU",
+     "from": "댓글",
+     "path": "menu-files/1790995395_946049-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "OPTION",
+       "name": "Matte Top",
+       "price": 5000
+      },
+      {
+       "category": "OPTION",
+       "name": "Color Add",
+       "price": 5000
+      },
+      {
+       "category": "OPTION",
+       "name": "Wrapping",
+       "price": 5000
+      },
+      {
+       "category": "OPTION",
+       "name": "Extension",
+       "price": 10000
+      },
+      {
+       "category": "OPTION",
+       "name": "Extension Repair",
+       "price": 5000
+      },
+      {
+       "category": "FULL EXTENSION",
+       "name": "Tip Extension",
+       "price": 80000
+      },
+      {
+       "category": "FULL EXTENSION",
+       "name": "Silk Wrap Extension",
+       "price": 100000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1790995406.136069",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790995395946049"
+  },
   {
    "ts": "1790995010.203339",
    "date": "2026-10-03",
