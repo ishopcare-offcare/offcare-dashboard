@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2943,
- "updatedAt": "2026-10-03 18:12",
+ "version": 2944,
+ "updatedAt": "2026-10-03 18:20",
  "days": 30,
  "items": [
   {
@@ -56492,115 +56492,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788432444235589"
-  },
-  {
-   "ts": "1788427218.297809",
-   "date": "2026-09-03",
-   "time": "18:20",
-   "store": "(주)아말피소울",
-   "biz": "6058703346",
-   "pos": "토스포스",
-   "content": "토스포스 메뉴 추가 요청  / 9월4일 방문 설치 예정 매장\n• 2층 설치 예정이나  복수가맹심사중으로   1층 기존 매장에 메뉴 임시 등록 요청건",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BUS076BJ5",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "Smoothie",
-       "name": "와이낫진생",
-       "price": 12000
-      },
-      {
-       "category": "Smoothie",
-       "name": "코발토 호라이즌",
-       "price": 9500
-      },
-      {
-       "category": "Smoothie",
-       "name": "선셋 체리",
-       "price": 9500
-      },
-      {
-       "category": "Smoothie",
-       "name": "블루베리 나이트",
-       "price": 10000
-      },
-      {
-       "category": "Smoothie",
-       "name": "피치 오로라",
-       "price": 10000
-      },
-      {
-       "category": "Cloud",
-       "name": "말차 클라우드",
-       "price": 8500
-      },
-      {
-       "category": "Cloud",
-       "name": "베리 클라우드",
-       "price": 8500
-      },
-      {
-       "category": "Cloud",
-       "name": "초코 클라우드",
-       "price": 8500
-      },
-      {
-       "category": "Cloud",
-       "name": "말차 베리 클라우드",
-       "price": 9000
-      },
-      {
-       "category": "Cloud",
-       "name": "초코 베리 클라우드",
-       "price": 9000
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "아메리카노 ( hot / ice )",
-       "price": 5500
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "카페라떼 ( ice only )",
-       "price": 6000
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "바닐라라떼 ( ice only )",
-       "price": 6500
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "아인슈페너 ( ice only )",
-       "price": 7000
-      },
-      {
-       "category": "Tea",
-       "name": "메리골드, 국화, 목련, 벚꽃, 유자, 자몽 ( hot / ice )",
-       "price": 5500
-      }
-     ],
-     "path": "menu-files/1788427218_297809-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "카테고리명 : [코발토]  로 부탁드립니다!",
-    "규빈님 넘나 감사합니다... 초고속.."
-   ],
-   "rc": 4,
-   "lr": "1788427515.455299",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788427218297809"
   }
  ],
  "ocr": {
