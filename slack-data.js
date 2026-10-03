@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16023,
+  "version": 16024,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,11 +230405,22 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 5
+          "김규빈": 6
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:16",
+          "store": "커피스토리",
+          "biz": "1293747409",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "태블릿set  9/29 설치매장",
+          "hw": "",
+          "intake": "online",
+          "note": "아이폰 / 테블릿을 처음써보시는분이라 전원 켜고 앱키는법 안내완료"
+        },
         {
           "time": "10:10",
           "store": "뜰안에 행복",
@@ -230467,7 +230478,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -230660,14 +230671,14 @@ window.SLACK_DATA = {
       },
       "1790989202.348799": {
         "post": "1790989202.348799",
-        "lastSeen": 1790990540.599,
+        "lastSeen": 1790990609.211,
         "r": 1,
         "day": "2026-10-03",
         "idx": 2
       },
       "1790990505.788219": {
         "post": "1790990505.788219",
-        "lastSeen": 1790990540.599
+        "lastSeen": 1790990609.211
       }
     },
     "days": {
@@ -307070,7 +307081,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 10:22",
+    "at": "2026-10-03 10:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307187,7 +307198,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 10:22",
+    "at": "2026-10-03 10:23",
     "pri": {
       "days": 0,
       "failed": [],
