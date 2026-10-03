@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2936,
- "updatedAt": "2026-10-03 13:45",
+ "version": 2937,
+ "updatedAt": "2026-10-03 13:48",
  "days": 30,
  "items": [
   {
@@ -412,7 +412,7 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1791001458.263049",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791001346000849"
   },
@@ -57533,30 +57533,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788411180450239"
-  },
-  {
-   "ts": "1788410767.938709",
-   "date": "2026-09-03",
-   "time": "13:46",
-   "store": "부카리",
-   "biz": "7160802924",
-   "pos": "",
-   "content": "메뉴 추가 요청 드립니다. :감사합니다꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메인 카테고리에 추가\n크리스피 치킨윙 / Crispy Chicken Wings / Хрустящие куриные крылышки — 19,000원",
-    "추가한 메뉴가 가끔 주방 주문서로 잘 출력이 안된다고 하셔서 출력 될 수 있게끔 꼭 요청 주셨습니다..!\n\n항상 추가하고나면 출력이 안된다고 하셔서요. :꾸벅:\n\n(혹시 요청 드린 내용은 <#C09HRUSG4TX> 으로 올리는게 나을까요? )"
-   ],
-   "rc": 4,
-   "lr": "1788418782.402619",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788410767938709"
   }
  ],
  "ocr": {

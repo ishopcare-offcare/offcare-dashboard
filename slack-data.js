@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16118,
+  "version": 16119,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230414,11 +230414,22 @@ window.SLACK_DATA = {
           "김규빈": 1
         },
         "menu": {
-          "김규빈": 4
+          "김규빈": 5
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:22",
+          "store": "아늑",
+          "biz": "4647300611",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "메뉴 등록",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:15",
           "store": "해(HAE)",
@@ -230809,7 +230820,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 30,
+        "online": 31,
         "offline": 5,
         "unknown": 0
       },
@@ -231002,19 +231013,19 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791002728.612
+        "lastSeen": 1791002913.134
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791002728.612
+        "lastSeen": 1791002913.134
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791002728.612
+        "lastSeen": 1791002913.134
       },
       "1791002145.746929": {
         "post": "1791002145.746929",
-        "lastSeen": 1791002728.612
+        "lastSeen": 1791002913.134
       }
     },
     "days": {
@@ -307652,7 +307663,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 13:45",
+    "at": "2026-10-03 13:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307769,7 +307780,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 13:45",
+    "at": "2026-10-03 13:48",
     "pri": {
       "days": 0,
       "failed": [],
