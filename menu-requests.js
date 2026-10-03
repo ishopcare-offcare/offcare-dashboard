@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2941,
- "updatedAt": "2026-10-03 16:58",
+ "version": 2942,
+ "updatedAt": "2026-10-03 18:04",
  "days": 30,
  "items": [
   {
@@ -56624,31 +56624,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788426517226429"
-  },
-  {
-   "ts": "1788426213.323509",
-   "date": "2026-09-03",
-   "time": "18:03",
-   "store": "윤슬책방",
-   "biz": "1784901179",
-   "pos": "",
-   "content": "메뉴 수정 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "도서 카테고리 내 상품 과세 -> 면세로 변경 요청",
-    "요거 혹시 엑셀 파일로 받아서 면세로 바꾸고 업로드하면 한번에 바뀌지 않나요? ..제가 해보려고 하는데 엑셀 파일 편집이 안되네유..",
-    "넵 감사합니다 ㅠㅠ"
-   ],
-   "rc": 8,
-   "lr": "1788426500.433139",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788426213323509"
   }
  ],
  "ocr": {
