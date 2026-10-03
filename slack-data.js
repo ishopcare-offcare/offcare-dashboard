@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16003,
+  "version": 16004,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,11 +230405,22 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 1
+          "김규빈": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "오니브프룻",
+          "biz": "4982002635",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "가결제",
+          "hw": "",
+          "intake": "online",
+          "note": "가결제 되어있는듯요!"
+        },
         {
           "time": "07:30",
           "store": "트윈파크 매점",
@@ -230423,7 +230434,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -230623,14 +230634,10 @@ window.SLACK_DATA = {
       },
       "1790985608.310029": {
         "post": "1790985608.310029",
-        "lastSeen": 1790985766.259,
+        "lastSeen": 1790986106.272,
         "r": 1,
         "day": "2026-10-03",
         "idx": 0
-      },
-      "1790985600.194999": {
-        "post": "1790985600.194999",
-        "lastSeen": 1790985766.259
       }
     },
     "days": {
@@ -306998,8 +307005,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 1,
-        "sumMin": 0.6592328468958537,
+        "cnt": 2,
+        "sumMin": 6.260407865047455,
         "over": 0,
         "items": [
           {
@@ -307009,13 +307016,22 @@ window.SLACK_DATA = {
             "biz": "1140120559",
             "who": "김규빈",
             "cat": "as"
+          },
+          {
+            "hm": "09:00",
+            "min": 5.6,
+            "store": "오니브프룻",
+            "biz": "4982002635",
+            "who": "김규빈",
+            "cat": "as",
+            "dmin": 5.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 09:03",
+    "at": "2026-10-03 09:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307132,7 +307148,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 09:02",
+    "at": "2026-10-03 09:08",
     "pri": {
       "days": 0,
       "failed": [],
