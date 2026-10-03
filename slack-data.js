@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16254,
+  "version": 16255,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231224,24 +231224,24 @@ window.SLACK_DATA = {
         "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "19:34",
+      "updatedAt": "19:41",
       "voc": {
-        "responses": 15,
+        "responses": 16,
         "install": {
-          "count": 11,
+          "count": 12,
           "low": 1
         },
         "nps": {
-          "count": 15,
+          "count": 16,
           "low": 1
         },
         "high": {
-          "install": 8,
+          "install": 9,
           "nps": 8
         },
         "npsDist": {
           "5": 1,
-          "8": 4,
+          "8": 5,
           "9": 2,
           "10": 8
         },
@@ -231249,22 +231249,22 @@ window.SLACK_DATA = {
           "2": 1,
           "3": 1,
           "4": 1,
-          "5": 8
+          "5": 9
         },
         "byIndustry": {
+          "서비스[뷰티,헤어]": 4,
           "서비스[학원]": 4,
           "카페": 3,
-          "서비스[뷰티,헤어]": 3,
           "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 12,
+            "low": 1
+          },
           "1개월": {
             "total": 2,
             "low": 0
-          },
-          "구매설치": {
-            "total": 11,
-            "low": 1
           },
           "6개월": {
             "total": 2,
@@ -231272,6 +231272,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 3,
+            "low": 0
+          },
           "KOCES": {
             "total": 4,
             "low": 0
@@ -231290,10 +231294,6 @@ window.SLACK_DATA = {
           },
           "KPN": {
             "total": 3,
-            "low": 0
-          },
-          "KIS": {
-            "total": 2,
             "low": 0
           },
           "SMARTRO": {
@@ -231339,6 +231339,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "19:41",
+            "store": "유앤미헤어샵",
+            "storeId": "682990",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 8,
+            "text": "친절하게설명해주셨어요 테블릿으로모든기능을자유롭게할수있어서좋았어요",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "18:41",
             "store": "시오나 베이크(Siona Bake)",
@@ -231496,11 +231508,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791023694.576
+        "lastSeen": 1791024115.303
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791023694.576
+        "lastSeen": 1791024115.303
       }
     },
     "days": {
@@ -308399,7 +308411,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 19:35",
+    "at": "2026-10-03 19:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308516,7 +308528,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 19:34",
+    "at": "2026-10-03 19:41",
     "pri": {
       "days": 0,
       "failed": [],
