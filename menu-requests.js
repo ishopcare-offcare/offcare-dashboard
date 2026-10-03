@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2944,
- "updatedAt": "2026-10-03 18:20",
+ "version": 2945,
+ "updatedAt": "2026-10-03 19:49",
  "days": 30,
  "items": [
   {
@@ -56460,38 +56460,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788436396507689"
-  },
-  {
-   "ts": "1788432444.235589",
-   "date": "2026-09-03",
-   "time": "19:47",
-   "store": "집밥",
-   "biz": "1304800813",
-   "pos": "퍼스트포스",
-   "content": "• 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C05PTPCMN",
-     "from": "댓글",
-     "path": "menu-files/1788432444_235589-0.png",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "카테고리: 신메뉴\n메뉴명: 멸치국수\n금액: 7,000원\n옵션: 곱빼기 1,500원 추가\n옵션2: 공기밥 1,500원 추가"
-   ],
-   "rc": 3,
-   "lr": "1788438885.755219",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788432444235589"
   }
  ],
  "ocr": {
