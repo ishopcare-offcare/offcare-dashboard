@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16167,
+  "version": 16168,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,13 +230403,14 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
+        "onboarding": {
+          "미지정": 5,
+          "최민석": 1
+        },
         "as": {
-          "최민석": 2,
+          "최민석": 1,
           "김규빈": 27,
           "미지정": 6
-        },
-        "onboarding": {
-          "미지정": 4
         },
         "nosetup": {
           "김규빈": 1
@@ -230424,18 +230425,41 @@ window.SLACK_DATA = {
           "김규빈": 5
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "13:30",
+          "store": "오드리 바게트",
+          "biz": "1643001974",
+          "handler": "최민석",
+          "cat": "delivery",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
+        {
+          "time": "15:11",
+          "store": "다같이음악여행실용음악교습소",
+          "biz": "1659701723",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(노트북) 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "프리턴 재온보딩완료입니다,"
+        },
         {
           "time": "15:02",
           "store": "툴립(Tulib)",
           "biz": "8950902734",
-          "cat": "as",
+          "cat": "onboarding",
           "emp": "최민석",
           "req": "터프 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "터프 온보딩 완료"
         },
         {
           "time": "15:02",
@@ -230960,7 +230984,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 42,
+        "online": 44,
         "offline": 6,
         "unknown": 0
       },
@@ -231199,23 +231223,22 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791008742.855
+        "lastSeen": 1791008838
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791008742.855
+        "lastSeen": 1791008838
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791008742.855
-      },
-      "1791007916.538219": {
-        "post": "1791007916.538219",
-        "lastSeen": 1791008742.855
+        "lastSeen": 1791008838,
+        "r": 1,
+        "day": "2026-10-03",
+        "idx": 38
       },
       "1791008500.517379": {
         "post": "1791008500.517379",
-        "lastSeen": 1791008742.855
+        "lastSeen": 1791008838
       }
     },
     "days": {
@@ -307583,9 +307606,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 37,
-        "sumMin": 991.2429374456406,
-        "over": 9,
+        "cnt": 39,
+        "sumMin": 1122.310686814785,
+        "over": 10,
         "items": [
           {
             "hm": "09:00",
@@ -307919,13 +307942,30 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 6
+          },
+          {
+            "hm": "15:11",
+            "min": 14.6,
+            "store": "다같이음악여행실용음악교습소",
+            "biz": "1659701723",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 14.6
+          },
+          {
+            "hm": "13:30",
+            "min": 116.5,
+            "store": "오드리 바게트",
+            "biz": "1643001974",
+            "who": "최민석",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 15:26",
+    "at": "2026-10-03 15:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308042,7 +308082,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 15:25",
+    "at": "2026-10-03 15:27",
     "pri": {
       "days": 0,
       "failed": [],
