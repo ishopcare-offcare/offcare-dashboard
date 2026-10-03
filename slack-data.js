@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16024,
+  "version": 16025,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,7 +230405,7 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 6
+          "김규빈": 7
         }
       },
       "pending": [],
@@ -230431,6 +230431,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "COM2 주방 COM3 카운터 / 설정완료"
+        },
+        {
+          "time": "10:00",
+          "store": "윤미당",
+          "biz": "3452201258",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "포프(노트북) 사용 중, 유프 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "510분뒤 통화 / 지금 바빠서 못함 가능 하실 때 법인폰으로 문자 주시기로"
         },
         {
           "time": "09:30",
@@ -230478,7 +230489,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
@@ -230669,16 +230680,12 @@ window.SLACK_DATA = {
         "post": "1790953193.133439",
         "lastSeen": 1790972129.813
       },
-      "1790989202.348799": {
-        "post": "1790989202.348799",
-        "lastSeen": 1790990609.211,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 2
-      },
       "1790990505.788219": {
         "post": "1790990505.788219",
-        "lastSeen": 1790990609.211
+        "lastSeen": 1790990716.993,
+        "r": 1,
+        "day": "2026-10-03",
+        "idx": 3
       }
     },
     "days": {
@@ -307046,8 +307053,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 3,
-        "sumMin": 7.260219550132751,
+        "cnt": 4,
+        "sumMin": 9.88211590051651,
         "over": 0,
         "items": [
           {
@@ -307074,6 +307081,15 @@ window.SLACK_DATA = {
             "store": "윤미당",
             "biz": "3452201258",
             "who": "김규빈",
+            "cat": "as",
+            "dmin": 24.3
+          },
+          {
+            "hm": "10:21",
+            "min": 2.6,
+            "store": "웨스턴 타코",
+            "biz": "5472801915",
+            "who": "김규빈",
             "cat": "as"
           }
         ]
@@ -307081,7 +307097,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 10:24",
+    "at": "2026-10-03 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307198,7 +307214,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 10:23",
+    "at": "2026-10-03 10:25",
     "pri": {
       "days": 0,
       "failed": [],
