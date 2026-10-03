@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16010,
+  "version": 16011,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,11 +230405,22 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 3
+          "김규빈": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "해피플레이스happyplace",
+          "biz": "1664001488",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "프론트+포스(핸드폰) 연동 및 전자영수증 발행 방법 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "전일 처리건"
+        },
         {
           "time": "09:00",
           "store": "돈키",
@@ -230445,7 +230456,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
@@ -307036,7 +307047,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 09:31",
+    "at": "2026-10-03 09:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307153,7 +307164,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 09:31",
+    "at": "2026-10-03 09:42",
     "pri": {
       "days": 0,
       "failed": [],
