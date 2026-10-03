@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16143,
+  "version": 16144,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230890,11 +230890,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 36,
+        "online": 37,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "14:30"
+      "updatedAt": "14:30",
+      "absent": [
+        {
+          "time": "14:25",
+          "store": "오디오씨(ODOC)",
+          "biz": "5971902561",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -231058,26 +231068,26 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791005683.301
+        "lastSeen": 1791005794.423
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791005683.301
+        "lastSeen": 1791005794.423
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791005683.301
+        "lastSeen": 1791005794.423
       },
       "1791005119.892979": {
         "post": "1791005119.892979",
-        "lastSeen": 1791005683.301,
+        "lastSeen": 1791005794.423,
         "r": 1,
         "day": "2026-10-03",
         "idx": 32
       },
       "1791005400.877459": {
         "post": "1791005400.877459",
-        "lastSeen": 1791005683.301,
+        "lastSeen": 1791005794.423,
         "r": 1,
         "day": "2026-10-03",
         "idx": 33
@@ -307770,7 +307780,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 14:35",
+    "at": "2026-10-03 14:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307887,7 +307897,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 14:34",
+    "at": "2026-10-03 14:36",
     "pri": {
       "days": 0,
       "failed": [],
