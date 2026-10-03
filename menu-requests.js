@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2947,
- "updatedAt": "2026-10-03 21:16",
+ "version": 2948,
+ "updatedAt": "2026-10-04 08:45",
  "days": 30,
  "items": [
   {
@@ -55412,50 +55412,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788479188185309"
-  },
-  {
-   "ts": "1788478822.005229",
-   "date": "2026-09-04",
-   "time": "08:40",
-   "store": "TEST-DELETE-ME",
-   "biz": "0000000000",
-   "pos": "",
-   "content": "TEST",
-   "special": "�ڵ�ȭ �׽�Ʈ, ���� ����",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "테스트"
-   ],
-   "rc": 2,
-   "lr": "1788479257.531429",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788478822005229"
-  },
-  {
-   "ts": "1788478819.516799",
-   "date": "2026-09-04",
-   "time": "08:40",
-   "store": "제주치유농장보메와산",
-   "biz": "8940303548",
-   "pos": "토스포스",
-   "content": "메뉴등록\n1. 풋귤따기체험-₩9,000원\n2.풋귤청담그기클래스-₩20.000원\n3. 풋귤따기&청담그기 패키지-₩27.000원",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788478823.203999",
-   "rfx": 3,
-   "status": "done",
-   "handler": "서상원",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788478819516799"
   }
  ],
  "ocr": {
