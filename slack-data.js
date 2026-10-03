@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16180,
+  "version": 16181,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230451,7 +230451,7 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) +유프 / 지속 프론트 연결이 끊김 현상이 있는데,",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "아이패드 토스사장님어플 끔을 해야하는데 밀어서 끄기가 안되고 아이패드 재부팅도 안되는 상황으로 아이패드 정상적일때 다시연락 주시기로 하였습니다."
         },
         {
           "time": "15:21",
@@ -231024,7 +231024,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "15:45",
+      "updatedAt": "15:49",
       "voc": {
         "responses": 9,
         "install": {
@@ -231286,15 +231286,19 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791010127.967
+        "lastSeen": 1791010220.751
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791010127.967
+        "lastSeen": 1791010220.751
       },
       "1791009957.055969": {
         "post": "1791009957.055969",
-        "lastSeen": 1791010127.967
+        "lastSeen": 1791010220.751
+      },
+      "1791010195.933449": {
+        "post": "1791010195.933449",
+        "lastSeen": 1791010220.751
       }
     },
     "days": {
@@ -308049,7 +308053,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 15:49",
+    "at": "2026-10-03 15:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308166,7 +308170,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 15:48",
+    "at": "2026-10-03 15:50",
     "pri": {
       "days": 0,
       "failed": [],
