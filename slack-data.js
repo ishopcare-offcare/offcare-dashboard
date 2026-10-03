@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16122,
+  "version": 16123,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,12 +230403,12 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
+        "as": {
+          "김규빈": 25,
+          "미지정": 4
+        },
         "onboarding": {
           "미지정": 1
-        },
-        "as": {
-          "미지정": 4,
-          "김규빈": 24
         },
         "booking": {
           "김규빈": 2
@@ -230422,6 +230422,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:52",
+          "store": "라니지 디테일링",
+          "biz": "7975101236",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "포프(모바일) + 유프 연결하여 영수증 출력 및 금액입력결제모드 세팅 요청하셨습니다",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "재온보딩 금액입력 영수증 설정 완료"
+        },
         {
           "time": "13:35",
           "store": "누헤어(NUU)",
@@ -230834,7 +230846,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 32,
+        "online": 33,
         "offline": 5,
         "unknown": 0
       },
@@ -231027,15 +231039,15 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791003164.162
+        "lastSeen": 1791003394.92
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791003164.162
+        "lastSeen": 1791003394.92
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791003164.162
+        "lastSeen": 1791003394.92
       }
     },
     "days": {
@@ -307682,7 +307694,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 13:53",
+    "at": "2026-10-03 13:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307799,7 +307811,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 13:52",
+    "at": "2026-10-03 13:56",
     "pri": {
       "days": 0,
       "failed": [],
