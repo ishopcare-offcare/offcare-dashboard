@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16151,
+  "version": 16152,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230403,13 +230403,16 @@ window.SLACK_DATA = {
     },
     "2026-10-03": {
       "counts": {
-        "onboarding": {
-          "최민석": 1,
-          "미지정": 3
-        },
         "as": {
+          "최민석": 1,
           "미지정": 6,
           "김규빈": 26
+        },
+        "onboarding": {
+          "미지정": 3
+        },
+        "nosetup": {
+          "김규빈": 1
         },
         "booking": {
           "김규빈": 2
@@ -230427,12 +230430,12 @@ window.SLACK_DATA = {
           "time": "14:38",
           "store": "위베이프 송도해양 경찰청점",
           "biz": "5650602910",
-          "cat": "onboarding",
+          "cat": "as",
           "emp": "최민석",
           "req": "프론트+기존 보유 캣 LC-7403S / 영수증 출력 세팅 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "코벤 캣프선 없어 구매 안내 후 재인입 안내 완료"
         },
         {
           "time": "14:37",
@@ -230444,6 +230447,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "대체품 터미널 온보딩 정상완료입니다, 반품접수(회수)징행합니다"
+        },
+        {
+          "time": "14:30",
+          "store": "아미스튜디오-경안(amistu-gyeongan)",
+          "biz": "3611203114",
+          "cat": "nosetup",
+          "emp": "김규빈",
+          "req": "노트북 + 프론트 온보딩",
+          "hw": "",
+          "intake": "online",
+          "note": "통화중 1차 부재"
         },
         {
           "time": "14:20",
@@ -230913,7 +230927,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 38,
+        "online": 39,
         "offline": 6,
         "unknown": 0
       },
@@ -231081,29 +231095,22 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791006584.625
+        "lastSeen": 1791006637.675
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791006584.625
+        "lastSeen": 1791006637.675
       },
       "1791001800.251819": {
         "post": "1791001800.251819",
-        "lastSeen": 1791006584.625
+        "lastSeen": 1791006637.675
       },
       "1791005119.892979": {
         "post": "1791005119.892979",
-        "lastSeen": 1791006584.625,
+        "lastSeen": 1791006637.675,
         "r": 1,
         "day": "2026-10-03",
         "idx": 32
-      },
-      "1791005400.877459": {
-        "post": "1791005400.877459",
-        "lastSeen": 1791006584.625,
-        "r": 1,
-        "day": "2026-10-03",
-        "idx": 33
       }
     },
     "days": {
@@ -307777,7 +307784,8 @@ window.SLACK_DATA = {
             "store": "아미스튜디오-경안(amistu-gyeongan)",
             "biz": "3611203114",
             "who": "김규빈",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 20.2
           },
           {
             "hm": "14:20",
@@ -307793,7 +307801,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 14:50",
+    "at": "2026-10-03 14:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307910,7 +307918,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 14:49",
+    "at": "2026-10-03 14:50",
     "pri": {
       "days": 0,
       "failed": [],
