@@ -3,10 +3,57 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2932,
- "updatedAt": "2026-10-03 13:21",
+ "version": 2933,
+ "updatedAt": "2026-10-03 13:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1791001346.000849",
+   "date": "2026-10-03",
+   "time": "13:22",
+   "store": "아늑",
+   "biz": "4647300611",
+   "pos": "",
+   "content": "메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791001348.812989",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791001346000849"
+  },
+  {
+   "ts": "1791001308.185889",
+   "date": "2026-10-03",
+   "time": "13:21",
+   "store": "아늑",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 아늑 메뉴 보내드립니다!!\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0fffe603eedef0>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a0fffe603eedef0",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791001308185889"
+  },
   {
    "ts": "1790995395.946049",
    "date": "2026-10-03",
@@ -23,7 +70,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C6D5C678W",
      "from": "댓글",
-     "path": "menu-files/1790995395_946049-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -66,13 +112,13 @@ window.MENU_REQUESTS = {
        "name": "Monthly Art",
        "price": 65000
       }
-     ]
+     ],
+     "path": "menu-files/1790995395_946049-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C6JQ3A6GL",
      "from": "댓글",
-     "path": "menu-files/1790995395_946049-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -100,13 +146,13 @@ window.MENU_REQUESTS = {
        "name": "타샵 Gel Off + 재시술",
        "price": 10000
       }
-     ]
+     ],
+     "path": "menu-files/1790995395_946049-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C79EX18JU",
      "from": "댓글",
-     "path": "menu-files/1790995395_946049-2.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -144,15 +190,16 @@ window.MENU_REQUESTS = {
        "name": "Silk Wrap Extension",
        "price": 100000
       }
-     ]
+     ],
+     "path": "menu-files/1790995395_946049-2.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1790995406.136069",
+   "rc": 3,
+   "lr": "1791001294.785349",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790995395946049"
   },
