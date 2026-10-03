@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16199,
+  "version": 16200,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230440,7 +230440,7 @@ window.SLACK_DATA = {
           "req": "포프(포스기) 사용 중, 프린터기 출력 불가로 인한 온보딩 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "아임유포스사용중이셔서 프린터 시리얼케이블로 온보딩완료입니다."
         },
         {
           "time": "16:00",
@@ -231090,7 +231090,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "16:23",
+      "updatedAt": "16:34",
       "voc": {
         "responses": 9,
         "install": {
@@ -231345,18 +231345,22 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791012819.768
+        "lastSeen": 1791012923.188
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791012819.768
+        "lastSeen": 1791012923.188
       },
       "1791011058.812849": {
         "post": "1791011058.812849",
-        "lastSeen": 1791012819.768,
+        "lastSeen": 1791012923.188,
         "r": 1,
         "day": "2026-10-03",
         "idx": 44
+      },
+      "1791012887.990039": {
+        "post": "1791012887.990039",
+        "lastSeen": 1791012923.188
       }
     },
     "days": {
@@ -308155,7 +308159,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 16:33",
+    "at": "2026-10-03 16:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308272,7 +308276,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 16:33",
+    "at": "2026-10-03 16:35",
     "pri": {
       "days": 0,
       "failed": [],
