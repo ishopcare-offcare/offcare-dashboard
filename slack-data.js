@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16020,
+  "version": 16021,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230405,11 +230405,22 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "김규빈": 4
+          "김규빈": 5
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:10",
+          "store": "뜰안에 행복",
+          "biz": "8270402129",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "포프(보유포스) 온보딩 완료 /  보유프린터기 연결 가능할지 확인  부탁드립니다 ( AHAPOS 유프  유선연결 되어있다고 하심 )",
+          "hw": "",
+          "intake": "online",
+          "note": "COM2 주방 COM3 카운터 / 설정완료"
+        },
         {
           "time": "09:30",
           "store": "해피플레이스happyplace",
@@ -230456,11 +230467,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:10"
+      "updatedAt": "10:16"
     }
   },
   "resp": {
@@ -230649,7 +230660,7 @@ window.SLACK_DATA = {
       },
       "1790989202.348799": {
         "post": "1790989202.348799",
-        "lastSeen": 1790990182.747,
+        "lastSeen": 1790990235.478,
         "r": 1,
         "day": "2026-10-03",
         "idx": 2
@@ -307055,7 +307066,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 10:16",
+    "at": "2026-10-03 10:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -307172,7 +307183,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 10:16",
+    "at": "2026-10-03 10:17",
     "pri": {
       "days": 0,
       "failed": [],
