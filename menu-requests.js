@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2946,
- "updatedAt": "2026-10-03 21:01",
+ "version": 2947,
+ "updatedAt": "2026-10-03 21:16",
  "days": 30,
  "items": [
   {
@@ -55456,38 +55456,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788478819516799"
-  },
-  {
-   "ts": "1788437422.399659",
-   "date": "2026-09-03",
-   "time": "21:10",
-   "store": "와룡",
-   "biz": "3111297655",
-   "pos": "",
-   "content": "메뉴 등록 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C05JFK8KA",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1788437422_399659-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "탕수육 세트 카테고리에 추가"
-   ],
-   "rc": 3,
-   "lr": "1788439355.007649",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788437422399659"
   }
  ],
  "ocr": {
