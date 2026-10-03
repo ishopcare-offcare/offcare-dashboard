@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16269,
+  "version": 16270,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230404,7 +230404,7 @@ window.SLACK_DATA = {
     "2026-10-03": {
       "counts": {
         "as": {
-          "최민석": 7,
+          "최민석": 8,
           "미지정": 16,
           "김규빈": 27
         },
@@ -230432,6 +230432,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:37",
+          "store": "로즈소피아 부케말리기",
+          "biz": "3320403130",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "포프(포스기) 사용 중, 금액입력결제 모드 옵션 노출이 되지 않는다고 하여 온보딩 안된 것으로 보여짐, 온보딩 지원 및 해당 모드 설정까지 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:51",
           "store": "육식이 대패삼겹 무한리필",
@@ -231242,7 +231253,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 63,
+        "online": 64,
         "offline": 10,
         "unknown": 0
       },
@@ -231555,11 +231566,11 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791027528.355
+        "lastSeen": 1791027925.11
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791027528.355
+        "lastSeen": 1791027925.11
       }
     },
     "days": {
@@ -308476,7 +308487,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-03 20:39",
+    "at": "2026-10-03 20:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308593,7 +308604,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 20:38",
+    "at": "2026-10-03 20:45",
     "pri": {
       "days": 0,
       "failed": [],
