@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2935,
- "updatedAt": "2026-10-03 13:42",
+ "version": 2936,
+ "updatedAt": "2026-10-03 13:45",
  "days": 30,
  "items": [
   {
@@ -57557,27 +57557,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788410767938709"
-  },
-  {
-   "ts": "1788410577.934979",
-   "date": "2026-09-03",
-   "time": "13:42",
-   "store": "바다양푼이동태탕",
-   "biz": "2103243951",
-   "pos": "퍼스트포스",
-   "content": "메뉴 추가 부탁드립니다!\n• 곰탕 12,000원 추가 / 위치: 소내장탕 뒤",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 5,
-   "lr": "1788841172.987349",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788410577934979"
   }
  ],
  "ocr": {
