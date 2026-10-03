@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16177,
+  "version": 16178,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -230407,14 +230407,14 @@ window.SLACK_DATA = {
           "최민석": 1,
           "김규빈": 1
         },
+        "as": {
+          "미지정": 7,
+          "최민석": 1,
+          "김규빈": 27
+        },
         "onboarding": {
           "미지정": 5,
           "최민석": 1
-        },
-        "as": {
-          "최민석": 1,
-          "김규빈": 27,
-          "미지정": 6
         },
         "booking": {
           "김규빈": 2
@@ -230441,6 +230441,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "4시 재연락 요청"
+        },
+        {
+          "time": "15:29",
+          "store": "콩스키친",
+          "biz": "7415001143",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포프(태블릿) +유프 / 지속 프론트 연결이 끊김 현상이 있는데,",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "15:11",
@@ -230998,29 +231009,29 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 45,
+        "online": 46,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "15:40",
+      "updatedAt": "15:45",
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
           "count": 6,
           "low": 0
         },
         "nps": {
-          "count": 8,
+          "count": 9,
           "low": 0
         },
         "high": {
           "install": 6,
-          "nps": 5
+          "nps": 6
         },
         "npsDist": {
           "8": 2,
           "9": 1,
-          "10": 5
+          "10": 6
         },
         "installDist": {
           "5": 6
@@ -231032,6 +231043,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 2,
+            "low": 0
+          },
           "구매설치": {
             "total": 6,
             "low": 0
@@ -231039,13 +231054,13 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 1,
             "low": 0
-          },
-          "6개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 2,
+            "low": 0
+          },
           "KOCES": {
             "total": 3,
             "low": 0
@@ -231055,10 +231070,6 @@ window.SLACK_DATA = {
             "low": 0
           },
           "KIS": {
-            "total": 1,
-            "low": 0
-          },
-          "SMARTRO": {
             "total": 1,
             "low": 0
           },
@@ -231264,19 +231275,15 @@ window.SLACK_DATA = {
       },
       "1790995333.937899": {
         "post": "1790995333.937899",
-        "lastSeen": 1791009843.041
+        "lastSeen": 1791009945.43
       },
       "1791001308.185889": {
         "post": "1791001308.185889",
-        "lastSeen": 1791009843.041
+        "lastSeen": 1791009945.43
       },
       "1791008500.517379": {
         "post": "1791008500.517379",
-        "lastSeen": 1791009843.041
-      },
-      "1791008940.855969": {
-        "post": "1791008940.855969",
-        "lastSeen": 1791009843.041
+        "lastSeen": 1791009945.43
       }
     },
     "days": {
@@ -307644,8 +307651,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-03": {
-        "cnt": 40,
-        "sumMin": 1127.3834595004716,
+        "cnt": 41,
+        "sumMin": 1143.2731183489163,
         "over": 10,
         "items": [
           {
@@ -308007,13 +308014,22 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "nosetup",
             "dmin": 6.9
+          },
+          {
+            "hm": "15:29",
+            "min": 15.9,
+            "store": "콩스키친",
+            "biz": "7415001143",
+            "who": "",
+            "cat": "as",
+            "dmin": 15.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-03 15:45",
+    "at": "2026-10-03 15:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308130,7 +308146,7 @@ window.SLACK_DATA = {
     "2026-10-03": 2
   },
   "noteMig": {
-    "at": "2026-10-03 15:44",
+    "at": "2026-10-03 15:45",
     "pri": {
       "days": 0,
       "failed": [],
