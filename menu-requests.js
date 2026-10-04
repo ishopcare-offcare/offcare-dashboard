@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2960,
- "updatedAt": "2026-10-04 14:07",
+ "version": 2961,
+ "updatedAt": "2026-10-04 14:24",
  "days": 30,
  "items": [
   {
@@ -54162,27 +54162,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788499484508249"
-  },
-  {
-   "ts": "1788499278.988849",
-   "date": "2026-09-04",
-   "time": "14:21",
-   "store": "강창구찹쌀진순대 과천펜타원점",
-   "biz": "6103262196",
-   "pos": "",
-   "content": "메뉴 가격 수정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788499281.973279",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788499278988849"
   }
  ],
  "ocr": {

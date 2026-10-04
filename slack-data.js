@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16403,
+  "version": 16404,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,19 +231485,31 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "onboarding": {
+          "미지정": 1,
+          "배선유": 1
+        },
         "as": {
           "배선유": 8,
           "미지정": 1
         },
         "booking": {
           "배선유": 1
-        },
-        "onboarding": {
-          "배선유": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:06",
+          "store": "잇띠(itti)",
+          "biz": "2534801167",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "블루투스 무선프린터 설치 방법 안내 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "와이파이 프린터 온보당완료입니다"
+        },
         {
           "time": "14:02",
           "store": "운채",
@@ -231621,7 +231633,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 4,
         "unknown": 0
       },
@@ -231756,11 +231768,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791091022.837
-      },
-      "1791090402.420209": {
-        "post": "1791090402.420209",
-        "lastSeen": 1791091022.837
+        "lastSeen": 1791091428.5
       }
     },
     "days": {
@@ -308684,8 +308692,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 3,
-        "sumMin": 30.529691390196483,
+        "cnt": 4,
+        "sumMin": 44.2504962404569,
         "over": 0,
         "items": [
           {
@@ -308714,13 +308722,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 20.9
+          },
+          {
+            "hm": "14:06",
+            "min": 13.7,
+            "store": "잇띠(itti)",
+            "biz": "2534801167",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 13.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 14:17",
+    "at": "2026-10-04 14:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308838,7 +308855,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 14:17",
+    "at": "2026-10-04 14:23",
     "pri": {
       "days": 0,
       "failed": [],
