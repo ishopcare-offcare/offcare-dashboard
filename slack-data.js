@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16340,
+  "version": 16341,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231486,11 +231486,22 @@ window.SLACK_DATA = {
     "2026-10-04": {
       "counts": {
         "as": {
-          "배선유": 1
+          "배선유": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:36",
+          "store": "쏘리 에스프레소 바 제기점",
+          "biz": "3182002149",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프론트 전원이 아예 안켜진다 하셔서 점검 부탁드립니다. :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": "현지님 여기 퀵 좀 불러주세여! 프론트세투 / 프론트 전원x 기기교체 필요, 대체 단말기 없어서 퀵 발송 / 넨 / 13층 내다놓고 출하지시서도 써놨어욤"
+        },
         {
           "time": "08:58",
           "store": "드롭탑(금산인삼랜드(하)휴게소)",
@@ -231504,11 +231515,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:36",
+      "updatedAt": "10:05",
       "voc": {
         "responses": 1,
         "install": {
@@ -308565,7 +308576,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 10:01",
+    "at": "2026-10-04 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308683,7 +308694,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 10:00",
+    "at": "2026-10-04 10:05",
     "pri": {
       "days": 0,
       "failed": [],
