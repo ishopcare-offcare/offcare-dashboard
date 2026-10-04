@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16506,
+  "version": 16507,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231508,7 +231508,7 @@ window.SLACK_DATA = {
           "req": "무프W 온보딩 지원 요청드립니다. 포프(맥북) 연결 예정으로 윈도우 기기 보유 중",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "맥북에 무선프린터 온보딩완료입니다."
         },
         {
           "time": "20:18",
@@ -232003,7 +232003,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791115749.944
+        "lastSeen": 1791115818.466
       }
     },
     "days": {
@@ -309089,7 +309089,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 21:09",
+    "at": "2026-10-04 21:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309207,7 +309207,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 21:09",
+    "at": "2026-10-04 21:10",
     "pri": {
       "days": 0,
       "failed": [],
