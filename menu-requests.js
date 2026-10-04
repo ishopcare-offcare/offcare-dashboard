@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2965,
- "updatedAt": "2026-10-04 14:58",
+ "version": 2966,
+ "updatedAt": "2026-10-04 15:40",
  "days": 30,
  "items": [
   {
@@ -53996,69 +53996,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788504090756579"
-  },
-  {
-   "ts": "1788504043.752029",
-   "date": "2026-09-04",
-   "time": "15:40",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "카테고리 덮밥 타마고동 정식  가격수정  13500",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788504046.619099",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788504043752029"
-  },
-  {
-   "ts": "1788503914.263689",
-   "date": "2026-09-04",
-   "time": "15:38",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "카테고리 덮밥  타마고동 단품 9500.정식 12500",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788503917.033229",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788503914263689"
-  },
-  {
-   "ts": "1788503625.402299",
-   "date": "2026-09-04",
-   "time": "15:33",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "에비동 단품12500 에비동 정식15500",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788503628.552569",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788503625402299"
   }
  ],
  "ocr": {
