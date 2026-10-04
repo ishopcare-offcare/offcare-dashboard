@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16444,
+  "version": 16445,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231486,7 +231486,7 @@ window.SLACK_DATA = {
     "2026-10-04": {
       "counts": {
         "as": {
-          "미지정": 4,
+          "미지정": 5,
           "배선유": 10
         },
         "onboarding": {
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:25",
+          "store": "경암역 브런치 카페",
+          "biz": "3560401803",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "프린터 용지 씹힘 이후 개폐 불가 및 비프음 발생으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "셀프해결완료"
+        },
         {
           "time": "15:52",
           "store": "파작 청계천점",
@@ -231699,7 +231710,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 4,
         "unknown": 0
       },
@@ -231886,15 +231897,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791098942.567
+        "lastSeen": 1791099040.647
       },
       "1791097203.839929": {
         "post": "1791097203.839929",
-        "lastSeen": 1791098942.567
-      },
-      "1791098714.973629": {
-        "post": "1791098714.973629",
-        "lastSeen": 1791098942.567
+        "lastSeen": 1791099040.647
       }
     },
     "days": {
@@ -308818,8 +308825,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 8,
-        "sumMin": 89.19631514549255,
+        "cnt": 9,
+        "sumMin": 93.80687132676442,
         "over": 0,
         "items": [
           {
@@ -308893,13 +308900,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 14.6
+          },
+          {
+            "hm": "16:25",
+            "min": 4.6,
+            "store": "경암역 브런치 카페",
+            "biz": "3560401803",
+            "who": "",
+            "cat": "as",
+            "dmin": 4.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 16:29",
+    "at": "2026-10-04 16:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309017,7 +309033,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 16:29",
+    "at": "2026-10-04 16:30",
     "pri": {
       "days": 0,
       "failed": [],
