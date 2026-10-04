@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16378,
+  "version": 16379,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231580,27 +231580,32 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "11:00",
+      "updatedAt": "12:39",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
-          "low": 0
+          "count": 2,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "2": 1,
           "10": 1
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 1
+          },
           "12개월": {
             "total": 1,
             "low": 0
@@ -231608,25 +231613,43 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KPN": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "사용중 오류가 자주 발생함": 1
+        },
+        "alerts": [
+          {
+            "time": "12:39",
+            "store": "주식회사 삼찬",
+            "storeId": "628548",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 2,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 2,
+                "text": "밴사랑 토스플래이스랑 따로 놀아요 서비스 개선사항을 문의해도 담당 부서까지 연결이 안돼고 일매출 인쇄할때 카드사 별로 해달라고 했는대 개선이 안돼요 다른카드 단말기는 가능한데",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       }
     }
   },
   "resp": {
     "watch": {
-      "1790912332.482219": {
-        "post": "1790912332.482219",
-        "lastSeen": 1790972129.813,
-        "r": 1,
-        "day": "2026-10-02",
-        "idx": 65
-      },
       "1790913150.974399": {
         "post": "1790913150.974399",
         "lastSeen": 1790972129.813
@@ -231700,7 +231723,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791084632.915
+        "lastSeen": 1791085185.742
       }
     },
     "days": {
@@ -308651,7 +308674,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 12:30",
+    "at": "2026-10-04 12:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308769,7 +308792,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 12:30",
+    "at": "2026-10-04 12:39",
     "pri": {
       "days": 0,
       "failed": [],
