@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16419,
+  "version": 16420,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231659,28 +231659,38 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:09",
+      "updatedAt": "15:17",
       "voc": {
-        "responses": 2,
+        "responses": 5,
         "install": {
-          "count": 0,
+          "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 5,
           "low": 1
         },
         "high": {
-          "install": 0,
-          "nps": 1
+          "install": 2,
+          "nps": 3
         },
         "npsDist": {
           "2": 1,
-          "10": 1
+          "8": 1,
+          "10": 3
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "4": 1,
+          "5": 2
+        },
+        "byIndustry": {
+          "도소매": 3
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 0
+          },
           "1개월": {
             "total": 1,
             "low": 1
@@ -231691,8 +231701,12 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "KPN": {
+          "KOCES": {
             "total": 2,
+            "low": 0
+          },
+          "KPN": {
+            "total": 3,
             "low": 1
           }
         },
@@ -231723,19 +231737,25 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:17",
+            "store": "미니수퍼",
+            "storeId": "692636",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 4,
+            "nps": 8,
+            "text": "설치도 편하고 안내장도 있는데 쓸때없는 안내가 좀 신경쓰이는듯 예)  토스 프론트 + 터미널 구매인데 자꾸 토스포스 안내 톡이 오는경우 편하긴한데 기존것보다는 반응속도가  쬐끔 느힌편 한 2~3초정도???",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
   "resp": {
     "watch": {
-      "1790921792.052589": {
-        "post": "1790921792.052589",
-        "lastSeen": 1790972129.813,
-        "r": 1,
-        "day": "2026-10-02",
-        "idx": 99
-      },
       "1790922747.279999": {
         "post": "1790922747.279999",
         "lastSeen": 1790972129.813,
@@ -231775,11 +231795,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791094529.698
+        "lastSeen": 1791094654.354
       },
       "1791094147.338039": {
         "post": "1791094147.338039",
-        "lastSeen": 1791094529.698
+        "lastSeen": 1791094654.354
       }
     },
     "days": {
@@ -308757,7 +308777,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 15:15",
+    "at": "2026-10-04 15:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308875,7 +308895,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 15:15",
+    "at": "2026-10-04 15:17",
     "pri": {
       "days": 0,
       "failed": [],
