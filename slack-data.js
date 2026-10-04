@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16512,
+  "version": 16513,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231813,27 +231813,27 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "21:14",
+      "updatedAt": "21:26",
       "voc": {
-        "responses": 20,
+        "responses": 21,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 20,
+          "count": 21,
           "low": 2
         },
         "high": {
           "install": 2,
-          "nps": 13
+          "nps": 14
         },
         "npsDist": {
           "0": 1,
           "2": 1,
           "8": 1,
           "9": 4,
-          "10": 13
+          "10": 14
         },
         "installDist": {
           "4": 2,
@@ -231844,13 +231844,13 @@ window.SLACK_DATA = {
           "도소매": 3
         },
         "byTenure": {
+          "3개월": {
+            "total": 4,
+            "low": 0
+          },
           "1개월": {
             "total": 9,
             "low": 2
-          },
-          "3개월": {
-            "total": 3,
-            "low": 0
           },
           "구매설치": {
             "total": 4,
@@ -231866,6 +231866,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 3,
+            "low": 0
+          },
           "KIS": {
             "total": 2,
             "low": 0
@@ -231892,10 +231896,6 @@ window.SLACK_DATA = {
           },
           "NICE": {
             "total": 1,
-            "low": 0
-          },
-          "SECTA9": {
-            "total": 2,
             "low": 0
           },
           "KPN": {
@@ -232014,7 +232014,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791116413.023
+        "lastSeen": 1791116776.546
       }
     },
     "days": {
@@ -309109,7 +309109,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 21:20",
+    "at": "2026-10-04 21:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309227,7 +309227,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 21:20",
+    "at": "2026-10-04 21:26",
     "pri": {
       "days": 0,
       "failed": [],
