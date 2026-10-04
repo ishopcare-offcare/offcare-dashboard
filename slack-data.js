@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16434,
+  "version": 16435,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "onboarding": {
+          "미지정": 2,
+          "배선유": 1
+        },
         "as": {
           "미지정": 3,
           "배선유": 10
-        },
-        "onboarding": {
-          "미지정": 1,
-          "배선유": 1
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:50",
+          "store": "송도사쿠라",
+          "biz": "2593201562",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(태블릿) 세트 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩완료입니다."
+        },
         {
           "time": "15:09",
           "store": "에인킨드",
@@ -231677,7 +231688,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 4,
         "unknown": 0
       },
@@ -231847,19 +231858,15 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791097288.96
-      },
-      "1791096648.552209": {
-        "post": "1791096648.552209",
-        "lastSeen": 1791097288.96
+        "lastSeen": 1791097504.35
       },
       "1791096757.334509": {
         "post": "1791096757.334509",
-        "lastSeen": 1791097288.96
+        "lastSeen": 1791097504.35
       },
       "1791097203.839929": {
         "post": "1791097203.839929",
-        "lastSeen": 1791097288.96
+        "lastSeen": 1791097504.35
       }
     },
     "days": {
@@ -308783,8 +308790,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 6,
-        "sumMin": 62.08246044317881,
+        "cnt": 7,
+        "sumMin": 74.55084029436111,
         "over": 0,
         "items": [
           {
@@ -308840,13 +308847,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 9.2
+          },
+          {
+            "hm": "15:50",
+            "min": 12.5,
+            "store": "송도사쿠라",
+            "biz": "2593201562",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 12.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 16:01",
+    "at": "2026-10-04 16:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308964,7 +308980,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 16:01",
+    "at": "2026-10-04 16:05",
     "pri": {
       "days": 0,
       "failed": [],
