@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2974,
- "updatedAt": "2026-10-04 17:41",
+ "version": 2975,
+ "updatedAt": "2026-10-04 20:00",
  "days": 30,
  "items": [
   {
@@ -52369,79 +52369,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788519643779879"
-  },
-  {
-   "ts": "1788519235.984179",
-   "date": "2026-09-04",
-   "time": "19:53",
-   "store": "쌍령각",
-   "biz": "6291202710",
-   "pos": "",
-   "content": "메뉴 추가 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BV4FE0SLC",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "식사류",
-       "name": "짬뽕",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "차돌짬뽕",
-       "price": 15000
-      },
-      {
-       "category": "식사류",
-       "name": "삼선짬뽕",
-       "price": 15000
-      },
-      {
-       "category": "식사류",
-       "name": "굴짬뽕",
-       "price": 12000
-      },
-      {
-       "category": "식사류",
-       "name": "짬뽕(곱빼기)",
-       "price": 11000
-      },
-      {
-       "category": "식사류",
-       "name": "차돌짬뽕(곱빼기)",
-       "price": 16000
-      },
-      {
-       "category": "식사류",
-       "name": "삼선짬뽕(곱빼기)",
-       "price": 16000
-      },
-      {
-       "category": "식사류",
-       "name": "굴짬뽕(곱빼기)",
-       "price": 13000
-      }
-     ],
-     "path": "menu-files/1788519235_984179-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "산더미짬뽕(곱배기불가) 7000원을\n*짬뽕* 으로 변경\n\n옵션 짬뽕곱배기도 추가 요청(8000원)"
-   ],
-   "rc": 5,
-   "lr": "1788523094.916759",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788519235984179"
   }
  ],
  "ocr": {
