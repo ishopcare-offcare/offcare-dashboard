@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16420,
+  "version": 16421,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231486,8 +231486,8 @@ window.SLACK_DATA = {
     "2026-10-04": {
       "counts": {
         "as": {
-          "미지정": 2,
-          "배선유": 9
+          "미지정": 3,
+          "배선유": 10
         },
         "onboarding": {
           "미지정": 1,
@@ -231499,6 +231499,28 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:09",
+          "store": "에인킨드",
+          "biz": "1858701392",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "다른건 잘 되는데 특정 상품( 커비 팬츠 LP 뭐시기들 )만 재고 반영이 안된다고 하셔서 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "특정상품 수량차이가 1개 발생되어 새로고침해도 동일 / 토플 고객센터 16442955안내드렸습니다"
+        },
+        {
+          "time": "15:00",
+          "store": "센트 향수공방",
+          "biz": "8417300797",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790994167219449|이전 문의> 후 휴대폰 기기의 블루투스 기능 점검 받아보시도록 안내받으셨던 매장입니다. 해당 부분 검증을 위",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:50",
           "store": "주식회사 굿럭컴퍼니",
@@ -231655,7 +231677,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 12,
         "offline": 4,
         "unknown": 0
       },
@@ -231795,11 +231817,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791094654.354
-      },
-      "1791094147.338039": {
-        "post": "1791094147.338039",
-        "lastSeen": 1791094654.354
+        "lastSeen": 1791094748.255
       }
     },
     "days": {
@@ -308723,8 +308741,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 5,
-        "sumMin": 52.849686090151465,
+        "cnt": 6,
+        "sumMin": 62.08246044317881,
         "over": 0,
         "items": [
           {
@@ -308771,13 +308789,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 8.6
+          },
+          {
+            "hm": "15:09",
+            "min": 9.2,
+            "store": "에인킨드",
+            "biz": "1858701392",
+            "who": "",
+            "cat": "as",
+            "dmin": 9.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 15:18",
+    "at": "2026-10-04 15:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308895,7 +308922,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 15:17",
+    "at": "2026-10-04 15:19",
     "pri": {
       "days": 0,
       "failed": [],
