@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2964,
- "updatedAt": "2026-10-04 14:48",
+ "version": 2965,
+ "updatedAt": "2026-10-04 14:58",
  "days": 30,
  "items": [
   {
@@ -54059,30 +54059,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788503625402299"
-  },
-  {
-   "ts": "1788501528.796339",
-   "date": "2026-09-04",
-   "time": "14:58",
-   "store": "부잣집",
-   "biz": "1252809022",
-   "pos": "퍼스트포스",
-   "content": "VAN 변경으로 메뉴 복사 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[기존]\nhttps://partners.tossplace.com/merchants/474674  (고유번호: ···)\n\n[변경 후]\nhttps://partners.tossplace.com/merchants/627316(고유번호: ···)",
-    "저녁 장사로 인해 조금 빠른 진행 요청주셨습니다! (CC. )"
-   ],
-   "rc": 7,
-   "lr": "1788502852.727339",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788501528796339"
   }
  ],
  "ocr": {
