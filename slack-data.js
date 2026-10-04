@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16450,
+  "version": 16451,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231725,22 +231725,23 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:31",
+      "updatedAt": "16:40",
       "voc": {
-        "responses": 15,
+        "responses": 16,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 15,
-          "low": 1
+          "count": 16,
+          "low": 2
         },
         "high": {
           "install": 2,
           "nps": 9
         },
         "npsDist": {
+          "0": 1,
           "2": 1,
           "8": 1,
           "9": 4,
@@ -231755,6 +231756,10 @@ window.SLACK_DATA = {
           "도소매": 3
         },
         "byTenure": {
+          "1개월": {
+            "total": 6,
+            "low": 2
+          },
           "구매설치": {
             "total": 4,
             "low": 0
@@ -231762,10 +231767,6 @@ window.SLACK_DATA = {
           "6개월": {
             "total": 2,
             "low": 0
-          },
-          "1개월": {
-            "total": 5,
-            "low": 1
           },
           "12개월": {
             "total": 2,
@@ -231777,16 +231778,16 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 5,
+            "low": 1
+          },
           "KCP": {
             "total": 1,
             "low": 0
           },
           "NICE": {
             "total": 1,
-            "low": 0
-          },
-          "KOCES": {
-            "total": 4,
             "low": 0
           },
           "SECTA9": {
@@ -231807,9 +231808,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "사용중 오류가 자주 발생함": 1
         },
         "alerts": [
+          {
+            "time": "16:40",
+            "store": "국어의 문 안산 고잔 입시 학원",
+            "storeId": "608464",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "인터페이스도 별로고... 더 불편하기만 하고... 인쇄기도 일체형이 아니고 불편합니다",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "12:39",
             "store": "주식회사 삼찬",
@@ -231908,11 +231932,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791099496.602
+        "lastSeen": 1791099663.637
       },
       "1791099097.790229": {
         "post": "1791099097.790229",
-        "lastSeen": 1791099496.602
+        "lastSeen": 1791099663.637
       }
     },
     "days": {
@@ -308935,7 +308959,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 16:39",
+    "at": "2026-10-04 16:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309053,7 +309077,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 16:38",
+    "at": "2026-10-04 16:41",
     "pri": {
       "days": 0,
       "failed": [],
