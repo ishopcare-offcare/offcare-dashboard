@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16392,
+  "version": 16393,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231518,7 +231518,7 @@ window.SLACK_DATA = {
           "req": "컴퓨터에 설치한 토스포스를 켤때마다 백지로 뜬다 하셔서 점검 부탁드립니다. (5번정도 재부팅 했는데도 동일하다 하십니다 )",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "피씨사용중으로 실행이안되 삭제후 재설치"
         },
         {
           "time": "13:05",
@@ -231745,7 +231745,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791088712.524
+        "lastSeen": 1791088783.41
       }
     },
     "days": {
@@ -308705,7 +308705,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 13:38",
+    "at": "2026-10-04 13:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308823,7 +308823,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 13:38",
+    "at": "2026-10-04 13:39",
     "pri": {
       "days": 0,
       "failed": [],
