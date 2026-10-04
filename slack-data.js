@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16355,
+  "version": 16356,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231503,7 +231503,7 @@ window.SLACK_DATA = {
           "req": "포스기에 설치한 토스포스 실행 시 '속성' 이라는 부분만 뜨고 정상 실행이 안된다고 하셔서 원격 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "자체해결"
         },
         {
           "time": "10:21",
@@ -308648,7 +308648,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 10:40",
+    "at": "2026-10-04 10:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308766,7 +308766,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 10:39",
+    "at": "2026-10-04 10:41",
     "pri": {
       "days": 0,
       "failed": [],
