@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16342,
+  "version": 16343,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,12 +231485,26 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "onboarding": {
+          "배선유": 1
+        },
         "as": {
           "배선유": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:05",
+          "store": "미샤헤어",
+          "biz": "7542200531",
+          "cat": "onboarding",
+          "emp": "배선유",
+          "req": "터미널 프론트 설치가 너무 어렵다하셔서 온보딩 도움 요청드립니다. :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "터프 온보딩 완료"
+        },
         {
           "time": "09:36",
           "store": "쏘리 에스프레소 바 제기점",
@@ -231515,7 +231529,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -308576,7 +308590,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 10:06",
+    "at": "2026-10-04 10:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308694,7 +308708,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 10:06",
+    "at": "2026-10-04 10:12",
     "pri": {
       "days": 0,
       "failed": [],

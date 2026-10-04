@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2951,
- "updatedAt": "2026-10-04 10:07",
+ "version": 2952,
+ "updatedAt": "2026-10-04 10:13",
  "days": 30,
  "items": [
   {
@@ -54674,27 +54674,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788484450879859"
-  },
-  {
-   "ts": "1788484098.025589",
-   "date": "2026-09-04",
-   "time": "10:08",
-   "store": "젓가락질 잘해야만 밥을 먹나요(신림점)",
-   "biz": "6657100603",
-   "pos": "",
-   "content": "해당 매장 젓가락질 잘해야만 밥을 먹나요 구로점(<tel:···|···>) 메뉴와 동일하게 복사 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1788484266.129749",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788484098025589"
   }
  ],
  "ocr": {
