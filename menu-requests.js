@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2977,
- "updatedAt": "2026-10-04 21:14",
+ "version": 2978,
+ "updatedAt": "2026-10-04 22:15",
  "days": 30,
  "items": [
   {
@@ -52096,51 +52096,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788575597892429"
-  },
-  {
-   "ts": "1788527361.829209",
-   "date": "2026-09-04",
-   "time": "22:09",
-   "store": "비플러스",
-   "biz": "6121493916",
-   "pos": "",
-   "content": "• 메뉴 등록 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_2954fa3e8f12.cell",
-     "fid": "F0BV1G54YQJ",
-     "from": "댓글",
-     "path": "menu-files/1788527361_829209-0.cell",
-     "nj": 1
-    },
-    {
-     "name": "f_4c1eaa323ed0.tmp",
-     "fid": "F0BV3EBV9EV",
-     "from": "댓글",
-     "path": "menu-files/1788527361_829209-1.tmp",
-     "nj": 1
-    },
-    {
-     "name": "f_aa219dc1655c.tmp",
-     "fid": "F0BV56JQFRA",
-     "from": "댓글",
-     "path": "menu-files/1788527361_829209-2.tmp",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "안열려서..고객한테 pdf로 줄수없는지 물어봤어욤.."
-   ],
-   "rc": 5,
-   "lr": "1788533658.038479",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788527361829209"
   }
  ],
  "ocr": {
