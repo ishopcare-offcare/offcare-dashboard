@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16410,
+  "version": 16411,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231508,7 +231508,7 @@ window.SLACK_DATA = {
           "req": "매장은 외국인 대표님이신거 같고 배달 대행 기사님께서 프린터 포트와 속도 같은거 확인해 달라 요청주셔서 확인 부탁드립니다 :꾸벅곰:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "배달 기사와 통화 / 가상시리얼 설치해 후킹방식으로 배달대행 연동 필요 안내"
         },
         {
           "time": "14:06",
@@ -231648,7 +231648,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "14:47",
+      "updatedAt": "14:50",
       "voc": {
         "responses": 2,
         "install": {
@@ -231775,7 +231775,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791092964.788
+        "lastSeen": 1791093052.987
+      },
+      "1791093029.985609": {
+        "post": "1791093029.985609",
+        "lastSeen": 1791093052.987
       }
     },
     "days": {
@@ -308744,7 +308748,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 14:49",
+    "at": "2026-10-04 14:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308862,7 +308866,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 14:49",
+    "at": "2026-10-04 14:50",
     "pri": {
       "days": 0,
       "failed": [],
