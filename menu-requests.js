@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2952,
- "updatedAt": "2026-10-04 10:13",
+ "version": 2953,
+ "updatedAt": "2026-10-04 10:14",
  "days": 30,
  "items": [
   {
@@ -54626,54 +54626,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788485684888959"
-  },
-  {
-   "ts": "1788484450.879859",
-   "date": "2026-09-04",
-   "time": "10:14",
-   "store": "실타래(Siltarae)",
-   "biz": "5433201716",
-   "pos": "",
-   "content": "메뉴 등록 부탁 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "i_f4befc00784e.png",
-     "fid": "F0BUVB6RCNS",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1788484450_879859-0.png"
-    },
-    {
-     "name": "i_c65699313e05.png",
-     "fid": "F0BUX8X6A2E",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1788484450_879859-1.png"
-    },
-    {
-     "name": "i_1150de7c13bc.png",
-     "fid": "F0BUX8X7602",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1788484450_879859-2.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "버터소금빵 . 4500\n블루베리 크럼블 타르트 4800\n치즈 쫀득 타르트 4800"
-   ],
-   "rc": 3,
-   "lr": "1788484665.191369",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788484450879859"
   }
  ],
  "ocr": {
