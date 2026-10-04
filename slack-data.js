@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16421,
+  "version": 16422,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231519,7 +231519,7 @@ window.SLACK_DATA = {
           "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790994167219449|이전 문의> 후 휴대폰 기기의 블루투스 기능 점검 받아보시도록 안내받으셨던 매장입니다. 해당 부분 검증을 위",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "잘 해결해드림"
         },
         {
           "time": "14:50",
@@ -231817,7 +231817,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791094748.255
+        "lastSeen": 1791094851.657
       }
     },
     "days": {
@@ -308804,7 +308804,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 15:19",
+    "at": "2026-10-04 15:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308922,7 +308922,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 15:19",
+    "at": "2026-10-04 15:20",
     "pri": {
       "days": 0,
       "failed": [],
