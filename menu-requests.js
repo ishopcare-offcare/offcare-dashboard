@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2967,
- "updatedAt": "2026-10-04 15:41",
+ "version": 2968,
+ "updatedAt": "2026-10-04 16:00",
  "days": 30,
  "items": [
   {
@@ -53952,27 +53952,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788506580902479"
-  },
-  {
-   "ts": "1788504948.487549",
-   "date": "2026-09-04",
-   "time": "15:55",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "카테고리  라멘에 있는  에비동단품,정식 타마고동단품,정식 메뉴는  덮밥으로 분류해 주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788504953.073159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788504948487549"
   }
  ],
  "ocr": {
