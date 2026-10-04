@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2961,
- "updatedAt": "2026-10-04 14:24",
+ "version": 2962,
+ "updatedAt": "2026-10-04 14:25",
  "days": 30,
  "items": [
   {
@@ -54141,27 +54141,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788500281134289"
-  },
-  {
-   "ts": "1788499484.508249",
-   "date": "2026-09-04",
-   "time": "14:24",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300410",
-   "pos": "기타",
-   "content": "카테고리라멘 에비(새우살)라멘 단품 11500, 정식 14500",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788499487.421799",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788499484508249"
   }
  ],
  "ocr": {
