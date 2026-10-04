@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16330,
+  "version": 16331,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231484,11 +231484,27 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-04": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "배선유": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:58",
+          "store": "드롭탑(금산인삼랜드(하)휴게소)",
+          "biz": "3058211150",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프론트 네트워크연결문의",
+          "hw": "",
+          "intake": "online",
+          "note": "와이파이 비번 모르셔서 확인 후 재연락 예정"
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -308553,7 +308569,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 09:01",
+    "at": "2026-10-04 09:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308671,7 +308687,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 09:01",
+    "at": "2026-10-04 09:05",
     "pri": {
       "days": 0,
       "failed": [],
