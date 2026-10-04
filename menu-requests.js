@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2975,
- "updatedAt": "2026-10-04 20:00",
+ "version": 2976,
+ "updatedAt": "2026-10-04 20:01",
  "days": 30,
  "items": [
   {
@@ -52324,51 +52324,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788523849722469"
-  },
-  {
-   "ts": "1788519643.779879",
-   "date": "2026-09-04",
-   "time": "20:00",
-   "store": "비플러스",
-   "biz": "6121493916",
-   "pos": "",
-   "content": "• 메뉴 등록 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_31fa8a7e7d61.tmp",
-     "fid": "F0BUYNX6V9C",
-     "from": "댓글",
-     "path": "menu-files/1788519643_779879-0.tmp",
-     "nj": 1
-    },
-    {
-     "name": "f_272954f995c0.pdf",
-     "fid": "F0BV211JUUA",
-     "from": "댓글",
-     "path": "menu-files/1788519643_779879-2.pdf",
-     "nj": 1
-    },
-    {
-     "name": "f_44f010607db4.pdf",
-     "fid": "F0C0GCD9NBS",
-     "from": "댓글",
-     "path": "menu-files/1788519643_779879-3.pdf",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "다시 주셨어요!"
-   ],
-   "rc": 4,
-   "lr": "1788530835.278929",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788519643779879"
   }
  ],
  "ocr": {
