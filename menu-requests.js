@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2948,
- "updatedAt": "2026-10-04 08:45",
+ "version": 2949,
+ "updatedAt": "2026-10-04 09:00",
  "days": 30,
  "items": [
   {
@@ -55381,37 +55381,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788481266394559"
-  },
-  {
-   "ts": "1788479188.185309",
-   "date": "2026-09-04",
-   "time": "08:46",
-   "store": "아이샵케어(온채)",
-   "biz": "1078709701",
-   "pos": "토스포스",
-   "content": "다 수정해야합니다",
-   "special": "사진 첨부",
-   "drive": [
-    "https://drive.google.com/file/d/1DCqFMpHXKYhGQetQ9S7BqgWZGtuX1P12/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1DCqFMpHXKYhGQetQ9S7BqgWZGtuX1P12",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "replies": [
-    "테스트"
-   ],
-   "rc": 2,
-   "lr": "1788479262.145299",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788479188185309"
   }
  ],
  "ocr": {
