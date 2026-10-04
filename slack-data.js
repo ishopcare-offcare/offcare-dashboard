@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16519,
+  "version": 16520,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231813,23 +231813,23 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "21:26",
+      "updatedAt": "22:54",
       "voc": {
-        "responses": 21,
+        "responses": 22,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 21,
-          "low": 2
+          "count": 22,
+          "low": 3
         },
         "high": {
           "install": 2,
           "nps": 14
         },
         "npsDist": {
-          "0": 1,
+          "0": 2,
           "2": 1,
           "8": 1,
           "9": 4,
@@ -231844,6 +231844,10 @@ window.SLACK_DATA = {
           "도소매": 3
         },
         "byTenure": {
+          "6개월": {
+            "total": 3,
+            "low": 1
+          },
           "3개월": {
             "total": 4,
             "low": 0
@@ -231856,22 +231860,18 @@ window.SLACK_DATA = {
             "total": 4,
             "low": 0
           },
-          "6개월": {
-            "total": 2,
-            "low": 0
-          },
           "12개월": {
             "total": 2,
             "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 3,
+            "low": 1
+          },
           "SECTA9": {
             "total": 3,
-            "low": 0
-          },
-          "KIS": {
-            "total": 2,
             "low": 0
           },
           "KSNET": {
@@ -231904,10 +231904,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "필요한 기능이 없거나 몰라서 불편": 1,
+          "필요한 기능이 없거나 몰라서 불편": 2,
           "사용중 오류가 자주 발생함": 1
         },
         "alerts": [
+          {
+            "time": "22:54",
+            "store": "아트앤톡동래센터",
+            "storeId": "416751",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "전자영수증 불편함",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:40",
             "store": "국어의 문 안산 고잔 입시 학원",
@@ -232014,7 +232036,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791121529.056
+        "lastSeen": 1791122083.937
       }
     },
     "days": {
@@ -309109,7 +309131,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 22:45",
+    "at": "2026-10-04 22:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309227,7 +309249,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 22:45",
+    "at": "2026-10-04 22:54",
     "pri": {
       "days": 0,
       "failed": [],
