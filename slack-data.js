@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16475,
+  "version": 16476,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "onboarding": {
+          "미지정": 4,
+          "배선유": 1
+        },
         "as": {
           "미지정": 8,
           "배선유": 10
-        },
-        "onboarding": {
-          "미지정": 3,
-          "배선유": 1
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:33",
+          "store": "박정현 심리상담센터",
+          "biz": "7892700925",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(데스크탑) 사용 중, 프린터기 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "프린터 온보딩완료입니다"
+        },
         {
           "time": "18:03",
           "store": "소소한오늘",
@@ -231754,7 +231765,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 4,
         "unknown": 0
       },
@@ -231969,11 +231980,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791106533.625
-      },
-      "1791106390.299819": {
-        "post": "1791106390.299819",
-        "lastSeen": 1791106533.625
+        "lastSeen": 1791107118.825
       }
     },
     "days": {
@@ -308897,8 +308904,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 13,
-        "sumMin": 187.51341488758726,
+        "cnt": 14,
+        "sumMin": 194.77883456945423,
         "over": 2,
         "items": [
           {
@@ -309017,13 +309024,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 13.8
+          },
+          {
+            "hm": "18:33",
+            "min": 7.3,
+            "store": "박정현 심리상담센터",
+            "biz": "7892700925",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 7.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 18:36",
+    "at": "2026-10-04 18:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309141,7 +309157,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 18:35",
+    "at": "2026-10-04 18:45",
     "pri": {
       "days": 0,
       "failed": [],
