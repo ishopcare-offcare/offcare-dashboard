@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2957,
- "updatedAt": "2026-10-04 12:31",
+ "version": 2958,
+ "updatedAt": "2026-10-04 13:26",
  "days": 30,
  "items": [
   {
@@ -54410,129 +54410,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788496336232979"
-  },
-  {
-   "ts": "1788495944.435849",
-   "date": "2026-09-04",
-   "time": "13:25",
-   "store": "코발토",
-   "biz": "6058703346",
-   "pos": "토스포스",
-   "content": "토스포스 / 메뉴 등록 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 1,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BUTR04BV3",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1788495944_435849-1.png"
-    },
-    {
-     "name": "상품목록-260904133703.xlsx",
-     "fid": "F0BV1TLU5FE",
-     "from": "댓글",
-     "path": "menu-files/1788495944_435849-2.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "image.png",
-     "fid": "F0BUTQELJBX",
-     "from": "원글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "Smoothie",
-       "name": "와이낫진생",
-       "price": 12000
-      },
-      {
-       "category": "Smoothie",
-       "name": "코발토 호라이즌",
-       "price": 9500
-      },
-      {
-       "category": "Smoothie",
-       "name": "선셋 체리",
-       "price": 9500
-      },
-      {
-       "category": "Smoothie",
-       "name": "블루베리 나이트",
-       "price": 10000
-      },
-      {
-       "category": "Smoothie",
-       "name": "피치 오로라",
-       "price": 10000
-      },
-      {
-       "category": "Cloud",
-       "name": "말차 클라우드",
-       "price": 8500
-      },
-      {
-       "category": "Cloud",
-       "name": "베리 클라우드",
-       "price": 8500
-      },
-      {
-       "category": "Cloud",
-       "name": "초코 클라우드",
-       "price": 8500
-      },
-      {
-       "category": "Cloud",
-       "name": "말차 베리 클라우드",
-       "price": 9000
-      },
-      {
-       "category": "Cloud",
-       "name": "초코 베리 클라우드",
-       "price": 9000
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "아메리카노 ( hot / ice )",
-       "price": 5500
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "카페라떼 ( ice only )",
-       "price": 6000
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "바닐라라떼 ( ice only )",
-       "price": 6500
-      },
-      {
-       "category": "Coffee & Tea",
-       "name": "아인슈페너 ( ice only )",
-       "price": 7000
-      },
-      {
-       "category": "Tea",
-       "name": "메리골드, 국화, 목련, 벚꽃, 유자, 자몽 ( hot / ice )",
-       "price": 5500
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "악 여기 토플파 복제 되었나봐요\n\n2층  신규오픈 카페 에서만 쓰실꺼고\n오늘 방문설치라 1층에 [코발토] 카테고리로 임시등록했어요 ㅠㅠ\n\nhttps://partners.tossplace.com/merchants/635847/settings/catalog\n\n이 토플파에는 메뉴판 기준으로만 등록 되어야해요..!\n• 스무디\n• 클라우드 \n• 커피&티",
-    "네 감사합니다!!!"
-   ],
-   "rc": 8,
-   "lr": "1788497363.746399",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788495944435849"
   }
  ],
  "ocr": {
