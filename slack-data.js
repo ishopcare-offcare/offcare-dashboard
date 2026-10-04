@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16436,
+  "version": 16437,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "as": {
+          "미지정": 4,
+          "배선유": 10
+        },
         "onboarding": {
           "미지정": 2,
           "배선유": 1
-        },
-        "as": {
-          "미지정": 3,
-          "배선유": 10
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:52",
+          "store": "파작 청계천점",
+          "biz": "6038703864",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "프린터기 어댑터 미작동 증상 의심되다고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "15:50",
           "store": "송도사쿠라",
@@ -231688,7 +231699,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 4,
         "unknown": 0
       },
@@ -231858,15 +231869,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791097576.485
-      },
-      "1791096757.334509": {
-        "post": "1791096757.334509",
-        "lastSeen": 1791097576.485
+        "lastSeen": 1791097695.641
       },
       "1791097203.839929": {
         "post": "1791097203.839929",
-        "lastSeen": 1791097576.485
+        "lastSeen": 1791097695.641
       }
     },
     "days": {
@@ -308790,8 +308797,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 7,
-        "sumMin": 74.55084029436111,
+        "cnt": 8,
+        "sumMin": 89.19631514549255,
         "over": 0,
         "items": [
           {
@@ -308856,13 +308863,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 12.5
+          },
+          {
+            "hm": "15:52",
+            "min": 14.6,
+            "store": "파작 청계천점",
+            "biz": "6038703864",
+            "who": "",
+            "cat": "as",
+            "dmin": 14.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 16:07",
+    "at": "2026-10-04 16:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308980,7 +308996,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 16:06",
+    "at": "2026-10-04 16:08",
     "pri": {
       "days": 0,
       "failed": [],
