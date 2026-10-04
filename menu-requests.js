@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2955,
- "updatedAt": "2026-10-04 11:13",
+ "version": 2956,
+ "updatedAt": "2026-10-04 11:15",
  "days": 30,
  "items": [
   {
@@ -54558,30 +54558,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788492208081059"
-  },
-  {
-   "ts": "1788488067.505669",
-   "date": "2026-09-04",
-   "time": "11:14",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "신메뉴 등록 카테고리  라멘 에비(새우)라멘 12500",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "선유님! 이제 잘 들어온다요 그쵸! :amaze:",
-    "오 그러네여!!!!!! 나이쑤! 감삼다 고생하셨어용! :오예_룰루:"
-   ],
-   "rc": 3,
-   "lr": "1788497637.173299",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788488067505669"
   }
  ],
  "ocr": {
