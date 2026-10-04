@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16453,
+  "version": 16454,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "onboarding": {
+          "미지정": 3,
+          "배선유": 1
+        },
         "as": {
           "미지정": 6,
           "배선유": 10
-        },
-        "onboarding": {
-          "미지정": 2,
-          "배선유": 1
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:31",
+          "store": "손끝네일",
+          "biz": "3985700177",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "프론트-휴대폰 온보딩 도움 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "16:25",
           "store": "경암역 브런치 카페",
@@ -231721,7 +231732,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 4,
         "unknown": 0
       },
@@ -231932,11 +231943,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791100841.467
-      },
-      "1791099097.790229": {
-        "post": "1791099097.790229",
-        "lastSeen": 1791100841.467
+        "lastSeen": 1791101619.326
       }
     },
     "days": {
@@ -308860,9 +308867,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 10,
-        "sumMin": 129.78992250760396,
-        "over": 1,
+        "cnt": 11,
+        "sumMin": 165.3333603580793,
+        "over": 2,
         "items": [
           {
             "hm": "10:21",
@@ -308953,13 +308960,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 36
+          },
+          {
+            "hm": "16:31",
+            "min": 35.5,
+            "store": "손끝네일",
+            "biz": "3985700177",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 35.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 17:01",
+    "at": "2026-10-04 17:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309077,7 +309093,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 17:00",
+    "at": "2026-10-04 17:13",
     "pri": {
       "days": 0,
       "failed": [],
