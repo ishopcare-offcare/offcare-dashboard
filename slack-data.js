@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16487,
+  "version": 16488,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "as": {
+          "미지정": 9,
+          "배선유": 10
+        },
         "onboarding": {
           "미지정": 4,
           "배선유": 1
-        },
-        "as": {
-          "미지정": 8,
-          "배선유": 10
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:00",
+          "store": "가나안농원",
+          "biz": "1269927867",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포터프(포스기) 사용매장 /  터미널  영수증 흐릿하게 출력  , 용지 재삽입 해보셔도 동일하다셔서 점검 요청 드립니다",
+          "hw": "",
+          "intake": "offline",
+          "note": "수요일방문요청건입니다.터미널 장비 현장픽업필요"
+        },
         {
           "time": "18:33",
           "store": "박정현 심리상담센터",
@@ -231766,7 +231777,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 20,
-        "offline": 4,
+        "offline": 5,
         "unknown": 0
       },
       "updatedAt": "20:00",
@@ -231984,11 +231995,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791111685.769
-      },
-      "1791111600.470389": {
-        "post": "1791111600.470389",
-        "lastSeen": 1791111685.769
+        "lastSeen": 1791111758.958
       }
     },
     "days": {
@@ -308912,8 +308919,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 14,
-        "sumMin": 194.77883456945423,
+        "cnt": 15,
+        "sumMin": 196.81038642326996,
         "over": 2,
         "items": [
           {
@@ -309041,13 +309048,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 7.3
+          },
+          {
+            "hm": "20:00",
+            "min": 2,
+            "store": "가나안농원",
+            "biz": "1269927867",
+            "who": "",
+            "cat": "as",
+            "dmin": 2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 20:01",
+    "at": "2026-10-04 20:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309165,7 +309181,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 20:01",
+    "at": "2026-10-04 20:02",
     "pri": {
       "days": 0,
       "failed": [],
