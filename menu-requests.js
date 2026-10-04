@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2968,
- "updatedAt": "2026-10-04 16:00",
+ "version": 2969,
+ "updatedAt": "2026-10-04 16:26",
  "days": 30,
  "items": [
   {
@@ -53896,62 +53896,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788506972687589"
-  },
-  {
-   "ts": "1788506808.331539",
-   "date": "2026-09-04",
-   "time": "16:26",
-   "store": "그란데커피",
-   "biz": "1073364036",
-   "pos": "",
-   "content": "[📧 메일] 제목: 그란데커피 메뉴등록요청드려요 사업자 ···\n··· \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788506811.198299",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a06b4fc95ad7a31",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788506808331539"
-  },
-  {
-   "ts": "1788506580.902479",
-   "date": "2026-09-04",
-   "time": "16:23",
-   "store": "237오므카레 서초 지파이브점",
-   "biz": "4261502882",
-   "pos": "",
-   "content": "선불테이블 1개 추가생성 요청드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0BV18MBNRF",
-     "from": "댓글",
-     "path": "menu-files/1788506580_902479-0.png",
-     "kind": "pos_screen",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1788507876.157439",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788506580902479"
   }
  ],
  "ocr": {
