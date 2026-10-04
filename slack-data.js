@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16497,
+  "version": 16498,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231508,7 +231508,7 @@ window.SLACK_DATA = {
           "req": "배달 연동 후 알림음 설정 관련 원격 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "쿠팡이츠프로그램 신규주문알림켜졋으나 안들린다하여 알림음 껏다키고 가짜주문하니 사장님 핸드폰어플에서 우선소리가나고 포스에서 뒤늦게 알람울림.중복로그인상태여서 의심이 가 사장님 어플 쿠팡이츠사장님어플 꺼놓고 사용해보시라고안내드렸슴니다."
         },
         {
           "time": "20:00",
@@ -231992,7 +231992,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791113683.19
+        "lastSeen": 1791113842.023
       }
     },
     "days": {
@@ -309069,7 +309069,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 20:34",
+    "at": "2026-10-04 20:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309187,7 +309187,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 20:34",
+    "at": "2026-10-04 20:37",
     "pri": {
       "days": 0,
       "failed": [],
