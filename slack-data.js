@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16399,
+  "version": 16400,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231486,7 +231486,7 @@ window.SLACK_DATA = {
     "2026-10-04": {
       "counts": {
         "as": {
-          "배선유": 7,
+          "배선유": 8,
           "미지정": 1
         },
         "booking": {
@@ -231498,6 +231498,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:02",
+          "store": "운채",
+          "biz": "4510203572",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "영수증 출력시 글자가 흐리게 출력된다 하셔서 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:13",
           "store": "윤선생우리집앞영어교실신월센트럴아이파크",
@@ -231610,7 +231621,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 4,
         "unknown": 0
       },
@@ -231745,11 +231756,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791090423.625
+        "lastSeen": 1791090744.143
       },
       "1791090402.420209": {
         "post": "1791090402.420209",
-        "lastSeen": 1791090423.625
+        "lastSeen": 1791090744.143
       }
     },
     "days": {
@@ -308709,7 +308720,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 14:07",
+    "at": "2026-10-04 14:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308827,7 +308838,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 14:07",
+    "at": "2026-10-04 14:12",
     "pri": {
       "days": 0,
       "failed": [],
