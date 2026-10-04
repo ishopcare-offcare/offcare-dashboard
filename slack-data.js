@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16461,
+  "version": 16462,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "as": {
+          "미지정": 7,
+          "배선유": 10
+        },
         "onboarding": {
           "미지정": 3,
           "배선유": 1
-        },
-        "as": {
-          "미지정": 6,
-          "배선유": 10
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:29",
+          "store": "화이트허그(white hug)",
+          "biz": "6033605822",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "영수증 출력이 안된다 하셔서 확인 부탁드립니다. (영상통화를 매우매우 거부 하셔서 음성 통화로 진행 부탁드립니다. :ㅠㅠㅠㅠㅠ: )",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 아이피주소 달라져서 조정처리후 정상출력완료입니다."
+        },
         {
           "time": "16:31",
           "store": "손끝네일",
@@ -231732,7 +231743,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 4,
         "unknown": 0
       },
@@ -231943,11 +231954,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791102924.135
-      },
-      "1791102575.035609": {
-        "post": "1791102575.035609",
-        "lastSeen": 1791102924.135
+        "lastSeen": 1791103227.761
       }
     },
     "days": {
@@ -308871,8 +308878,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 11,
-        "sumMin": 165.3333603580793,
+        "cnt": 12,
+        "sumMin": 173.68190020720166,
         "over": 2,
         "items": [
           {
@@ -308973,13 +308980,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 35.5
+          },
+          {
+            "hm": "17:29",
+            "min": 8.3,
+            "store": "화이트허그(white hug)",
+            "biz": "6033605822",
+            "who": "",
+            "cat": "as",
+            "dmin": 8.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 17:36",
+    "at": "2026-10-04 17:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309097,7 +309113,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 17:35",
+    "at": "2026-10-04 17:40",
     "pri": {
       "days": 0,
       "failed": [],
