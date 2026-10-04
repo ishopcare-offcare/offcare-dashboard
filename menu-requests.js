@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2966,
- "updatedAt": "2026-10-04 15:40",
+ "version": 2967,
+ "updatedAt": "2026-10-04 15:41",
  "days": 30,
  "items": [
   {
@@ -53973,29 +53973,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788504948487549"
-  },
-  {
-   "ts": "1788504090.756579",
-   "date": "2026-09-04",
-   "time": "15:41",
-   "store": "",
-   "biz": "6291202710",
-   "pos": "",
-   "content": "메뉴 추가 부탁 드립니다 유플포스",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[메뉴명 수정]\n산더미짬뽕(곱배기불가)\n짬뽕 으로 변경\n\n[메뉴추가]\n짬뽕곱배기\n8000원"
-   ],
-   "rc": 3,
-   "lr": "1788504685.036749",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788504090756579"
   }
  ],
  "ocr": {
