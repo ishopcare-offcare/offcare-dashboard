@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16505,
+  "version": 16506,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "onboarding": {
+          "미지정": 5,
+          "배선유": 1
+        },
         "as": {
           "미지정": 10,
           "배선유": 10
-        },
-        "onboarding": {
-          "미지정": 4,
-          "배선유": 1
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "21:03",
+          "store": "잇띠(itti)",
+          "biz": "2534801167",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "무프W 온보딩 지원 요청드립니다. 포프(맥북) 연결 예정으로 윈도우 기기 보유 중",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "20:18",
           "store": "삼남매",
@@ -231787,7 +231798,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 21,
+        "online": 22,
         "offline": 5,
         "unknown": 0
       },
@@ -231992,11 +232003,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791115446.858
-      },
-      "1791115425.898359": {
-        "post": "1791115425.898359",
-        "lastSeen": 1791115446.858
+        "lastSeen": 1791115749.944
       }
     },
     "days": {
@@ -308920,8 +308927,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-04": {
-        "cnt": 16,
-        "sumMin": 210.56648743947352,
+        "cnt": 17,
+        "sumMin": 213.44153145551687,
         "over": 2,
         "items": [
           {
@@ -309067,13 +309074,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 13.8
+          },
+          {
+            "hm": "21:03",
+            "min": 2.9,
+            "store": "잇띠(itti)",
+            "biz": "2534801167",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 2.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 21:04",
+    "at": "2026-10-04 21:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309191,7 +309207,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 21:04",
+    "at": "2026-10-04 21:09",
     "pri": {
       "days": 0,
       "failed": [],
