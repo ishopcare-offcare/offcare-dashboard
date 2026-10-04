@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16362,
+  "version": 16363,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,6 +231485,9 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "booking": {
+          "배선유": 1
+        },
         "as": {
           "배선유": 5
         },
@@ -231494,6 +231497,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "코하마",
+          "biz": "6421601444",
+          "cat": "booking",
+          "emp": "배선유",
+          "req": "유니온포스 사용 / 페이스페이 사용 시 영수증 출력이 되지 않는 부분으로 문의 주셨어요. 확인 부탁드려요.",
+          "hw": "",
+          "intake": "offline",
+          "note": "1차부재 / 익일 11시"
+        },
         {
           "time": "10:28",
           "store": "무르익",
@@ -231563,7 +231577,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "11:00",
@@ -231694,7 +231708,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791079388.459
+        "lastSeen": 1791080003.184
       }
     },
     "days": {
@@ -308645,7 +308659,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 11:03",
+    "at": "2026-10-04 11:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308763,7 +308777,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 11:03",
+    "at": "2026-10-04 11:13",
     "pri": {
       "days": 0,
       "failed": [],

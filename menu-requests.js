@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2954,
- "updatedAt": "2026-10-04 10:35",
+ "version": 2955,
+ "updatedAt": "2026-10-04 11:13",
  "days": 30,
  "items": [
   {
@@ -54582,27 +54582,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788488067505669"
-  },
-  {
-   "ts": "1788487498.604019",
-   "date": "2026-09-04",
-   "time": "11:04",
-   "store": "형과아우 황칠누룽지 삼계탕",
-   "biz": "7643801386",
-   "pos": "오케이포스",
-   "content": "KIS오케이포스 사용 매장\n카테고리 : 추가메뉴\n삼계탕 밀키트 9,000원 추가등록 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1788487745.419179",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788487498604019"
   }
  ],
  "ocr": {
