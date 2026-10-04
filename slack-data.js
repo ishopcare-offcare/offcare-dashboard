@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16440,
+  "version": 16441,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231703,35 +231703,40 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:00",
+      "updatedAt": "16:17",
       "voc": {
-        "responses": 14,
+        "responses": 15,
         "install": {
-          "count": 3,
+          "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 14,
+          "count": 15,
           "low": 1
         },
         "high": {
           "install": 2,
-          "nps": 8
+          "nps": 9
         },
         "npsDist": {
           "2": 1,
           "8": 1,
           "9": 4,
-          "10": 8
+          "10": 9
         },
         "installDist": {
-          "4": 1,
+          "4": 2,
           "5": 2
         },
         "byIndustry": {
+          "카페": 1,
           "도소매": 3
         },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 0
+          },
           "6개월": {
             "total": 2,
             "low": 0
@@ -231747,13 +231752,13 @@ window.SLACK_DATA = {
           "3개월": {
             "total": 2,
             "low": 0
-          },
-          "구매설치": {
-            "total": 3,
-            "low": 0
           }
         },
         "byVan": {
+          "KCP": {
+            "total": 1,
+            "low": 0
+          },
           "NICE": {
             "total": 1,
             "low": 0
@@ -231807,6 +231812,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:17",
+            "store": "누에(Nu E)",
+            "storeId": "684306",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 4,
+            "nps": 10,
+            "text": "토스 포스기에 대한 설명이 조금 부족했음 물어보고 싶은거는 포스기 회사 따로 전화해야 했어서ㅜㅜ 하지만 기능적으로는 너무 맘에 들어요! 쿠폰이나 키오스크 기능들이 들어있어서 너무 좋았습니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:40",
             "store": "엘라라 댄스스튜디오",
@@ -231869,11 +231886,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791098162.339
+        "lastSeen": 1791098266.977
       },
       "1791097203.839929": {
         "post": "1791097203.839929",
-        "lastSeen": 1791098162.339
+        "lastSeen": 1791098266.977
       }
     },
     "days": {
@@ -308878,7 +308895,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 16:16",
+    "at": "2026-10-04 16:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308996,7 +309013,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 16:16",
+    "at": "2026-10-04 16:17",
     "pri": {
       "days": 0,
       "failed": [],
