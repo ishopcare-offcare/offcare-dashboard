@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16383,
+  "version": 16384,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231506,7 +231506,7 @@ window.SLACK_DATA = {
           "req": "토스포스를 다른 pc에 설치 후 배달앱 연동 요청 주셨습니다! 그리고 컬러 영수증 용지를 받으셨는데 크기가 안맞다고 하시는데 요거도 한번 확인 부탁드려요..!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "이미 재온보딩까지는 진행해놓으셔서 배달앱 연동, 출력설정 완료"
         },
         {
           "time": "11:00",
@@ -231730,7 +231730,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791087086.988
+        "lastSeen": 1791087179.091
       }
     },
     "days": {
@@ -308681,7 +308681,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 13:11",
+    "at": "2026-10-04 13:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308799,7 +308799,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 13:11",
+    "at": "2026-10-04 13:12",
     "pri": {
       "days": 0,
       "failed": [],
