@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16471,
+  "version": 16472,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231508,7 +231508,7 @@ window.SLACK_DATA = {
           "req": "배민 연동 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "피씨사용중으로 포멧하셔서 8385드라이버설치 완료입니다,"
         },
         {
           "time": "17:29",
@@ -231969,7 +231969,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791105508.924
+        "lastSeen": 1791105626.32
       }
     },
     "days": {
@@ -309019,7 +309019,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 18:18",
+    "at": "2026-10-04 18:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309137,7 +309137,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 18:18",
+    "at": "2026-10-04 18:20",
     "pri": {
       "days": 0,
       "failed": [],
