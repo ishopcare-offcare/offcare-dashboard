@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16409,
+  "version": 16410,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231485,13 +231485,13 @@ window.SLACK_DATA = {
     },
     "2026-10-04": {
       "counts": {
+        "as": {
+          "배선유": 9,
+          "미지정": 1
+        },
         "onboarding": {
           "미지정": 1,
           "배선유": 1
-        },
-        "as": {
-          "배선유": 8,
-          "미지정": 1
         },
         "booking": {
           "배선유": 1
@@ -231499,6 +231499,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:47",
+          "store": "(주)응웬네요",
+          "biz": "3468503370",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "매장은 외국인 대표님이신거 같고 배달 대행 기사님께서 프린터 포트와 속도 같은거 확인해 달라 요청주셔서 확인 부탁드립니다 :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:06",
           "store": "잇띠(itti)",
@@ -231633,7 +231644,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 4,
         "unknown": 0
       },
@@ -231764,7 +231775,7 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791092879.937
+        "lastSeen": 1791092964.788
       }
     },
     "days": {
@@ -308733,7 +308744,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 14:48",
+    "at": "2026-10-04 14:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308851,7 +308862,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 14:48",
+    "at": "2026-10-04 14:49",
     "pri": {
       "days": 0,
       "failed": [],
