@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16386,
+  "version": 16387,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231486,7 +231486,7 @@ window.SLACK_DATA = {
     "2026-10-04": {
       "counts": {
         "as": {
-          "배선유": 6
+          "배선유": 7
         },
         "booking": {
           "배선유": 1
@@ -231497,6 +231497,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:13",
+          "store": "윤선생우리집앞영어교실신월센트럴아이파크",
+          "biz": "7229901869",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "터프(터미널2) 로 연결하여 이용중, 터미널에 LAN 케이블 연결 없이 온보딩 되어있는 상황인데 터미널 기기에서 테스트 출력이 불가하여 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "용지 다시 넣고 테스트 시 이상없음"
+        },
         {
           "time": "13:05",
           "store": "소소한오늘",
@@ -231588,7 +231599,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 5,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "13:13",
@@ -231730,11 +231741,11 @@ window.SLACK_DATA = {
       },
       "1791078108.346589": {
         "post": "1791078108.346589",
-        "lastSeen": 1791087356.251
+        "lastSeen": 1791087709.992
       },
       "1791087216.351679": {
         "post": "1791087216.351679",
-        "lastSeen": 1791087356.251
+        "lastSeen": 1791087709.992
       }
     },
     "days": {
@@ -308685,7 +308696,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-04 13:16",
+    "at": "2026-10-04 13:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308803,7 +308814,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 13:15",
+    "at": "2026-10-04 13:21",
     "pri": {
       "days": 0,
       "failed": [],
