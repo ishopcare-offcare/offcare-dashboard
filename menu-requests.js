@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2949,
- "updatedAt": "2026-10-04 09:00",
+ "version": 2950,
+ "updatedAt": "2026-10-04 09:31",
  "days": 30,
  "items": [
   {
@@ -55311,76 +55311,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788483988462869"
-  },
-  {
-   "ts": "1788481268.678399",
-   "date": "2026-09-04",
-   "time": "09:21",
-   "store": "아이샵케어(온라인채널톡)",
-   "biz": "1078709701",
-   "pos": "스파로스포스",
-   "content": "테스트입니다.",
-   "special": "테스트test",
-   "drive": [
-    "https://drive.google.com/file/d/1tRI6jI5jRGS7h1QD-WwWfnZAkSkpDRWD/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1KdKrHBXS3X-J2aBVuLqilnz3mA0wmnlK/view?usp=drivesdk",
-    "https://drive.google.com/file/d/147yU7rZ0WXUoesWj7OaU9w5w3roK7EyQ/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1tRI6jI5jRGS7h1QD-WwWfnZAkSkpDRWD",
-     "kind": "other",
-     "menu": []
-    },
-    {
-     "id": "1KdKrHBXS3X-J2aBVuLqilnz3mA0wmnlK",
-     "kind": "other",
-     "menu": []
-    },
-    {
-     "id": "147yU7rZ0WXUoesWj7OaU9w5w3roK7EyQ",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788481271.447639",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788481268678399"
-  },
-  {
-   "ts": "1788481266.394559",
-   "date": "2026-09-04",
-   "time": "09:21",
-   "store": "테스트",
-   "biz": "1230000000",
-   "pos": "토스포스",
-   "content": "cx테스트",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1M9sEElYkMszLuB6-x0uv-kVg_jc_nG98/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1M9sEElYkMszLuB6-x0uv-kVg_jc_nG98",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788481269.531739",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788481266394559"
   }
  ],
  "ocr": {
