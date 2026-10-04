@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16347,
+  "version": 16348,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -231668,7 +231668,10 @@ window.SLACK_DATA = {
       },
       "1791076891.469389": {
         "post": "1791076891.469389",
-        "lastSeen": 1791076945.16
+        "lastSeen": 1791077051.278,
+        "r": 1,
+        "day": "2026-10-04",
+        "idx": 0
       }
     },
     "days": {
@@ -308590,11 +308593,26 @@ window.SLACK_DATA = {
             "dmin": 21.1
           }
         ]
+      },
+      "2026-10-04": {
+        "cnt": 1,
+        "sumMin": 1.7791601856549581,
+        "over": 0,
+        "items": [
+          {
+            "hm": "10:21",
+            "min": 1.8,
+            "store": "강창구찹쌀진순대 남부터미널점",
+            "biz": "2200530893",
+            "who": "배선유",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-04 10:22",
+    "at": "2026-10-04 10:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -308712,7 +308730,7 @@ window.SLACK_DATA = {
     "2026-10-04": 2
   },
   "noteMig": {
-    "at": "2026-10-04 10:22",
+    "at": "2026-10-04 10:24",
     "pri": {
       "days": 0,
       "failed": [],
