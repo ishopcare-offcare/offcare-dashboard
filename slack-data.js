@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16740,
+  "version": 16741,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232631,11 +232631,17 @@ window.SLACK_DATA = {
       },
       "1791193528.167519": {
         "post": "1791193528.167519",
-        "lastSeen": 1791193528.265
+        "lastSeen": 1791193621.092,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 26
       },
       "1791193490.443549": {
         "post": "1791193490.443549",
-        "lastSeen": 1791193528.265
+        "lastSeen": 1791193621.092,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 27
       }
     },
     "days": {
@@ -309728,8 +309734,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 26,
-        "sumMin": 263.60517243941626,
+        "cnt": 28,
+        "sumMin": 265.78427131176,
         "over": 1,
         "items": [
           {
@@ -309965,13 +309971,29 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "as",
             "dmin": 9.2
+          },
+          {
+            "hm": "18:45",
+            "min": 0.8,
+            "store": "칠링(Chilling)을지로점",
+            "biz": "6524101220",
+            "who": "최민석",
+            "cat": "as"
+          },
+          {
+            "hm": "18:44",
+            "min": 1.4,
+            "store": "온찬",
+            "biz": "2951902699",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 18:45",
+    "at": "2026-10-05 18:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310090,7 +310112,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 18:45",
+    "at": "2026-10-05 18:47",
     "pri": {
       "days": 0,
       "failed": [],
