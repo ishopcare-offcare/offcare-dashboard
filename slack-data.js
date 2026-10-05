@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16631,
+  "version": 16632,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232030,7 +232030,19 @@ window.SLACK_DATA = {
           "김규빈": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "12:00",
+          "store": "불당농장",
+          "biz": "3129249745",
+          "handler": "김규빈",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:45",
@@ -232166,7 +232178,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 2,
         "unknown": 0
       },
@@ -232263,7 +232275,7 @@ window.SLACK_DATA = {
       },
       "1791169259.126309": {
         "post": "1791169259.126309",
-        "lastSeen": 1791172796.635,
+        "lastSeen": 1791172885.803,
         "r": 1,
         "day": "2026-10-05",
         "idx": 8
@@ -309448,7 +309460,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:00",
+    "at": "2026-10-05 13:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309567,7 +309579,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 12:59",
+    "at": "2026-10-05 13:01",
     "pri": {
       "days": 0,
       "failed": [],
