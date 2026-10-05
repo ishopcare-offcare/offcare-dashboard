@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16672,
+  "version": 16673,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,13 +232017,13 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "onboarding": {
+          "김규빈": 2,
+          "미지정": 1
+        },
         "as": {
           "미지정": 3,
           "김규빈": 12
-        },
-        "onboarding": {
-          "미지정": 1,
-          "김규빈": 1
         },
         "booking": {
           "김규빈": 1
@@ -232045,6 +232045,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "매뉴등록 삭제완료 솔라피 발송 완료"
+        },
+        {
+          "time": "14:46",
+          "store": "델피(Delphi)",
+          "biz": "7490503806",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "포프 유프 태블릿 온보딩 부탁 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 및 사용방법 안내완료"
         },
         {
           "time": "14:25",
@@ -232257,7 +232268,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 2,
         "unknown": 0
       },
@@ -309607,7 +309618,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 15:04",
+    "at": "2026-10-05 15:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309726,7 +309737,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 15:04",
+    "at": "2026-10-05 15:05",
     "pri": {
       "days": 0,
       "failed": [],
