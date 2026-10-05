@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16642,
+  "version": 16643,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232021,6 +232021,7 @@ window.SLACK_DATA = {
           "김규빈": 11
         },
         "onboarding": {
+          "미지정": 1,
           "김규빈": 1
         },
         "booking": {
@@ -232042,6 +232043,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "핫스팟으로 사용중 인터넷 속도 문제로 온보딩 불가 인터넷 자체 해결 하시겠다고함"
+        },
+        {
+          "time": "13:05",
+          "store": "아이러니샵",
+          "biz": "1042885339",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "터프 온보딩 중 / 연결 중 네트워크 오류라고 뜬다고 하셔서 확인 요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "12:00",
@@ -232188,7 +232200,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -232278,10 +232290,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791173149.213529": {
-        "post": "1791173149.213529",
-        "lastSeen": 1791174521.711
       }
     },
     "days": {
@@ -309374,8 +309382,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 10,
-        "sumMin": 86.72670567433039,
+        "cnt": 11,
+        "sumMin": 110.34390519062677,
         "over": 1,
         "items": [
           {
@@ -309467,13 +309475,22 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "as",
             "dmin": 3.7
+          },
+          {
+            "hm": "13:05",
+            "min": 23.6,
+            "store": "아이러니샵",
+            "biz": "1042885339",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 23.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:28",
+    "at": "2026-10-05 13:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309592,7 +309609,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 13:28",
+    "at": "2026-10-05 13:30",
     "pri": {
       "days": 0,
       "failed": [],
