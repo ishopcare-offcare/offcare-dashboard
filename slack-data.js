@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16741,
+  "version": 16742,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "최민석": 6,
+          "최민석": 7,
           "미지정": 4,
           "김규빈": 12
         },
@@ -232039,6 +232039,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:45",
+          "store": "칠링(Chilling)을지로점",
+          "biz": "6524101220",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "• 프론트기 전원이 켜지지 않아 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "전원선 문제로 보여지며 c to c 선 구하셔서 선 연결 후 안켜질 시 법인폰 재인입 하신다고 합니다."
+        },
         {
           "time": "18:31",
           "store": "맷돌",
@@ -232416,7 +232427,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 32,
+        "online": 33,
         "offline": 3,
         "unknown": 0
       },
@@ -232629,16 +232640,9 @@ window.SLACK_DATA = {
         "post": "1791190805.903309",
         "lastSeen": 1791190965.13
       },
-      "1791193528.167519": {
-        "post": "1791193528.167519",
-        "lastSeen": 1791193621.092,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 26
-      },
       "1791193490.443549": {
         "post": "1791193490.443549",
-        "lastSeen": 1791193621.092,
+        "lastSeen": 1791193875.123,
         "r": 1,
         "day": "2026-10-05",
         "idx": 27
@@ -309978,7 +309982,8 @@ window.SLACK_DATA = {
             "store": "칠링(Chilling)을지로점",
             "biz": "6524101220",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.7
           },
           {
             "hm": "18:44",
@@ -309993,7 +309998,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 18:47",
+    "at": "2026-10-05 18:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310112,7 +310117,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 18:47",
+    "at": "2026-10-05 18:51",
     "pri": {
       "days": 0,
       "failed": [],
