@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-10-05 22:31 KST · 155건 (2026-07-01 이후)
+ * 갱신: 2026-10-06 00:01 KST · 155건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-10-05 22:31',
+  updatedAt: '2026-10-06 00:01',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -160,6 +160,6 @@ window.VISIT_DATA = {
   {"id":"15245","date":"2026-10-01","time":"14:20","store":"피자스쿨공릉점","biz":"2170550063","kind":"설치","status":"done","visitDate":"2026-10-05","region":"수도권","route":"오프라인","addr":"서울특별시 노원구","van":"KIS","equip":"포스기+프론트","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"피자스쿨"},
   {"id":"15252","date":"2026-10-01","time":"14:49","store":"(주)참치공방","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-10-02","region":"수도권","route":"오프라인","addr":"서울특별시 종로구","van":"DAOU","equip":"주방 라인점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":5,"roundDates":["2026-05-27","2026-07-01","2026-08-31","2026-09-02","2026-10-02","2026-05-27","2026-07-01","2026-08-31","2026-09-02","2026-10-02"],"brand":"참치공방"},
   {"id":"15280","date":"2026-10-02","time":"11:01","store":"김마리","biz":"5713201875","kind":"AS","status":"pending","visitDate":"2026-10-07","region":"수도권","route":"오프라인","addr":"경기도 성남시 분당구","van":"KPN","equip":"N250","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"김마리"},
-  {"id":"15285","date":"2026-10-02","time":"13:34","store":"참치공방강남지점","biz":"5146300877","kind":"AS","status":"pending","visitDate":"2026-10-06","region":"수도권","route":"오프라인","addr":"서울특별시 강남구","van":"DAOU","equip":"아임유포스2대","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"참치공방"},
+  {"id":"15285","date":"2026-10-02","time":"13:34","store":"참치공방강남지점","biz":"5146300877","kind":"AS","status":"done","visitDate":"2026-10-06","region":"수도권","route":"오프라인","addr":"서울특별시 강남구","van":"DAOU","equip":"아임유포스2대","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"참치공방"},
   ],
 };
