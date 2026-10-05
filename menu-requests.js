@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2989,
- "updatedAt": "2026-10-05 15:02",
+ "version": 2990,
+ "updatedAt": "2026-10-05 15:45",
  "days": 30,
  "items": [
   {
@@ -52079,29 +52079,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788684408354789"
-  },
-  {
-   "ts": "1788590182.148629",
-   "date": "2026-09-05",
-   "time": "15:36",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "카테고리 라멘 에비(새우)라멘 단품, 정식 옵션넣어 주세요 맵기선택 순한맛(고추가루×)매운맛(신라면정도)  카테고리 덮밥  에비동단품, 정식 옵션추가.맵기선택  순한맛(고추가루×)매운맛 (신라면정도) 카테고리 덮밥 타마고동 단품, 정식 옵션추가 맵기선택  순한맛(고추가루×) 매운맛(신라면정도) 추가밎 수정 바랍니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "옵션설정 완료 솔라피 발송완료"
-   ],
-   "rc": 2,
-   "lr": "1788603033.801569",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788590182148629"
   }
  ],
  "ocr": {
