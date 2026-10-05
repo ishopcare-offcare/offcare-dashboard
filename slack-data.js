@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16578,
+  "version": 16579,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232141,7 +232141,10 @@ window.SLACK_DATA = {
       },
       "1791162183.089139": {
         "post": "1791162183.089139",
-        "lastSeen": 1791162202.865
+        "lastSeen": 1791162296.829,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 1
       }
     },
     "days": {
@@ -309234,8 +309237,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 1,
-        "sumMin": 0.5148733496665955,
+        "cnt": 2,
+        "sumMin": 1.6275043686230979,
         "over": 0,
         "items": [
           {
@@ -309246,13 +309249,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "booking",
             "dmin": 1.4
+          },
+          {
+            "hm": "10:03",
+            "min": 1.1,
+            "store": "머스트 복싱 Must Boxing",
+            "biz": "8889901999",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 10:03",
+    "at": "2026-10-05 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309371,7 +309382,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 10:03",
+    "at": "2026-10-05 10:04",
     "pri": {
       "days": 0,
       "failed": [],
