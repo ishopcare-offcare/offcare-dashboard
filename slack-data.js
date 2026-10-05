@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16594,
+  "version": 16595,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,6 +232017,9 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "onboarding": {
+          "김규빈": 1
+        },
         "as": {
           "김규빈": 3
         },
@@ -232029,6 +232032,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:48",
+          "store": "이움 무브먼트",
+          "biz": "1743901692",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "태블릿 포프 유프 온보딩 부탁 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "테블릿 프론트만 온보딩 유프는 나중에 필요할때 설치하신다고함"
+        },
         {
           "time": "10:13",
           "store": "수정반점",
@@ -232086,7 +232100,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -309311,7 +309325,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 10:49",
+    "at": "2026-10-05 10:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309430,7 +309444,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 10:49",
+    "at": "2026-10-05 10:52",
     "pri": {
       "days": 0,
       "failed": [],
