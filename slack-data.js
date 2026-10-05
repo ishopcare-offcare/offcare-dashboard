@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16711,
+  "version": 16712,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,14 +232017,14 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "onboarding": {
+          "미지정": 3,
+          "김규빈": 2
+        },
         "as": {
           "최민석": 3,
           "미지정": 4,
           "김규빈": 12
-        },
-        "onboarding": {
-          "미지정": 2,
-          "김규빈": 2
         },
         "booking": {
           "김규빈": 1
@@ -232036,6 +232036,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:24",
+          "store": "네일리온다",
+          "biz": "8480903552",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프 핸드폰 온보딩 부탁 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "16:41",
           "store": "로이로이",
@@ -232325,7 +232336,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 25,
+        "online": 26,
         "offline": 2,
         "unknown": 0
       },
@@ -232534,21 +232545,17 @@ window.SLACK_DATA = {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
       },
-      "1791188698.087989": {
-        "post": "1791188698.087989",
-        "lastSeen": 1791189872.458
-      },
       "1791189190.473279": {
         "post": "1791189190.473279",
-        "lastSeen": 1791189872.458
+        "lastSeen": 1791189925.752
       },
       "1791189404.717449": {
         "post": "1791189404.717449",
-        "lastSeen": 1791189872.458
+        "lastSeen": 1791189925.752
       },
       "1791189730.940919": {
         "post": "1791189730.940919",
-        "lastSeen": 1791189872.458
+        "lastSeen": 1791189925.752
       }
     },
     "days": {
@@ -309641,8 +309648,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 19,
-        "sumMin": 163.78005048831304,
+        "cnt": 20,
+        "sumMin": 183.79700067043305,
         "over": 1,
         "items": [
           {
@@ -309815,13 +309822,22 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "as",
             "dmin": 51.6
+          },
+          {
+            "hm": "17:24",
+            "min": 20,
+            "store": "네일리온다",
+            "biz": "8480903552",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 20
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 17:44",
+    "at": "2026-10-05 17:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309940,7 +309956,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 17:44",
+    "at": "2026-10-05 17:45",
     "pri": {
       "days": 0,
       "failed": [],
