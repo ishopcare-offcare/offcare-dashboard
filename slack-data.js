@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16744,
+  "version": 16745,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232059,7 +232059,7 @@ window.SLACK_DATA = {
           "req": "메뉴 카테고리가 37페이지?까지 생겨서 확인 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "카테고리 오류로 보여지며 해당 신규 카테고리 생성 후 상품 옮긴 후 기존 카테고리 삭제 후 정상표기 완료"
         },
         {
           "time": "18:31",
@@ -232653,7 +232653,10 @@ window.SLACK_DATA = {
       },
       "1791194400.649819": {
         "post": "1791194400.649819",
-        "lastSeen": 1791194400.373
+        "lastSeen": 1791194522.655,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 28
       }
     },
     "days": {
@@ -309746,8 +309749,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 28,
-        "sumMin": 265.78427131176,
+        "cnt": 29,
+        "sumMin": 266.798674329122,
         "over": 1,
         "items": [
           {
@@ -310001,13 +310004,21 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "as",
             "dmin": 11.5
+          },
+          {
+            "hm": "19:00",
+            "min": 1,
+            "store": "버닝",
+            "biz": "3032093411",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 19:00",
+    "at": "2026-10-05 19:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310126,7 +310137,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 19:00",
+    "at": "2026-10-05 19:02",
     "pri": {
       "days": 0,
       "failed": [],
