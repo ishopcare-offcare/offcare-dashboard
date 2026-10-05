@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16647,
+  "version": 16648,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,6 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
+          "미지정": 1,
           "김규빈": 11
         },
         "onboarding": {
@@ -232033,6 +232034,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:34",
+          "store": "박술녀 인사점",
+          "biz": "5143671570",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "터미널 떨어뜨려서 프린터쪽 커버가 안닫힘 / 교체로 진행 하려 했으나, 수리 가능성 확인 원하신다고 하셔서 원격 지원 요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:17",
           "store": "붕팔공 프로젝트",
@@ -232200,7 +232212,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 2,
         "unknown": 0
       },
@@ -232290,10 +232302,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791174866.279459": {
-        "post": "1791174866.279459",
-        "lastSeen": 1791175121.19
       }
     },
     "days": {
@@ -309386,8 +309394,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 11,
-        "sumMin": 110.34390519062677,
+        "cnt": 12,
+        "sumMin": 115.21198087533314,
         "over": 1,
         "items": [
           {
@@ -309488,13 +309496,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 23.6
+          },
+          {
+            "hm": "13:34",
+            "min": 4.9,
+            "store": "박술녀 인사점",
+            "biz": "5143671570",
+            "who": "",
+            "cat": "as",
+            "dmin": 4.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:38",
+    "at": "2026-10-05 13:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309613,7 +309630,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 13:38",
+    "at": "2026-10-05 13:39",
     "pri": {
       "days": 0,
       "failed": [],
