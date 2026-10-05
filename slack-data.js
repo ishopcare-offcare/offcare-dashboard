@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16610,
+  "version": 16611,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232223,11 +232223,14 @@ window.SLACK_DATA = {
       },
       "1791167292.590159": {
         "post": "1791167292.590159",
-        "lastSeen": 1791167524.746
+        "lastSeen": 1791167612.428
       },
       "1791167227.968369": {
         "post": "1791167227.968369",
-        "lastSeen": 1791167524.746
+        "lastSeen": 1791167612.428,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 4
       }
     },
     "days": {
@@ -309320,8 +309323,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 4,
-        "sumMin": 15.325174399216971,
+        "cnt": 5,
+        "sumMin": 21.002151580651603,
         "over": 0,
         "items": [
           {
@@ -309359,13 +309362,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "menu",
             "dmin": 20
+          },
+          {
+            "hm": "11:27",
+            "min": 5.7,
+            "store": "살찐붕어",
+            "biz": "7250303368",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 11:32",
+    "at": "2026-10-05 11:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309484,7 +309495,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 11:32",
+    "at": "2026-10-05 11:33",
     "pri": {
       "days": 0,
       "failed": [],

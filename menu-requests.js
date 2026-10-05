@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2985,
- "updatedAt": "2026-10-05 11:25",
+ "version": 2986,
+ "updatedAt": "2026-10-05 11:34",
  "days": 30,
  "items": [
   {
@@ -52102,29 +52102,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788576671308029"
-  },
-  {
-   "ts": "1788575597.892429",
-   "date": "2026-09-05",
-   "time": "11:33",
-   "store": "계경순대국 송파점",
-   "biz": "1110224932",
-   "pos": "오케이포스",
-   "content": "뼈해장국 특 17,000원",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "완료"
-   ],
-   "rc": 2,
-   "lr": "1788585385.748589",
-   "rfx": 3,
-   "status": "done",
-   "handler": "송태양",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788575597892429"
   }
  ],
  "ocr": {
