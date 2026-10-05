@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16716,
+  "version": 16717,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232559,11 +232559,14 @@ window.SLACK_DATA = {
       },
       "1791189404.717449": {
         "post": "1791189404.717449",
-        "lastSeen": 1791190588.117
+        "lastSeen": 1791190676.809,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 21
       },
       "1791189730.940919": {
         "post": "1791189730.940919",
-        "lastSeen": 1791190588.117
+        "lastSeen": 1791190676.809
       }
     },
     "days": {
@@ -309656,8 +309659,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 21,
-        "sumMin": 202.48599601984026,
+        "cnt": 22,
+        "sumMin": 222.94842187166216,
         "over": 1,
         "items": [
           {
@@ -309848,13 +309851,21 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "booking",
             "dmin": 18.7
+          },
+          {
+            "hm": "17:36",
+            "min": 20.5,
+            "store": "제주도 정품전자담배 중문 직영점",
+            "biz": "2136200735",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 17:56",
+    "at": "2026-10-05 17:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309973,7 +309984,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 17:56",
+    "at": "2026-10-05 17:57",
     "pri": {
       "days": 0,
       "failed": [],
