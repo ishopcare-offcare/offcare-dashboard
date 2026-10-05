@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16575,
+  "version": 16576,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232054,33 +232054,45 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:03",
+      "updatedAt": "09:52",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
-          "count": 0,
-          "low": 0
-        },
-        "nps": {
           "count": 1,
           "low": 0
         },
+        "nps": {
+          "count": 2,
+          "low": 0
+        },
         "high": {
-          "install": 0,
-          "nps": 1
+          "install": 1,
+          "nps": 2
         },
         "npsDist": {
-          "10": 1
+          "10": 2
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "5": 1
+        },
+        "byIndustry": {
+          "요식업": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "NICE": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 1,
             "low": 0
@@ -232088,7 +232100,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "09:52",
+            "store": "헤어스파",
+            "storeId": "684092",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절하게 설치 설명해주셨음 좋아요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -309223,7 +309248,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 09:46",
+    "at": "2026-10-05 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309342,7 +309367,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 09:46",
+    "at": "2026-10-05 09:53",
     "pri": {
       "days": 0,
       "failed": [],
