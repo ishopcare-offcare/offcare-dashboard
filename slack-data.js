@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16612,
+  "version": 16613,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232041,7 +232041,7 @@ window.SLACK_DATA = {
           "req": "노트북 사용중",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "재연동은 하셨다고해서 주문 넣어보시고 테스트 해보시라고 안내드림"
         },
         {
           "time": "11:24",
@@ -232234,7 +232234,10 @@ window.SLACK_DATA = {
       },
       "1791167292.590159": {
         "post": "1791167292.590159",
-        "lastSeen": 1791167813.028
+        "lastSeen": 1791167876.578,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 5
       }
     },
     "days": {
@@ -309327,8 +309330,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 5,
-        "sumMin": 21.002151580651603,
+        "cnt": 6,
+        "sumMin": 30.205698931217196,
         "over": 0,
         "items": [
           {
@@ -309375,13 +309378,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "as",
             "dmin": 8.1
+          },
+          {
+            "hm": "11:28",
+            "min": 9.2,
+            "store": "꽃늘플라워",
+            "biz": "7046400744",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 11:37",
+    "at": "2026-10-05 11:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309500,7 +309511,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 11:36",
+    "at": "2026-10-05 11:37",
     "pri": {
       "days": 0,
       "failed": [],
