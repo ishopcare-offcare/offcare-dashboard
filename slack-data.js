@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16685,
+  "version": 16686,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "최민석": 1,
+          "최민석": 2,
           "미지정": 3,
           "김규빈": 12
         },
@@ -232036,6 +232036,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:58",
+          "store": "온도제이스튜디오",
+          "biz": "3830303408",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "휴대폰/포프 재온보딩 요청드립니다.",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "1차 부재 / 취소방법 안내 및 재온보딩 완료"
+        },
         {
           "time": "15:15",
           "store": "현풍 오늘 국수",
@@ -232280,7 +232292,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 21,
+        "online": 22,
         "offline": 2,
         "unknown": 0
       },
@@ -232438,13 +232450,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791183517.577119": {
-        "post": "1791183517.577119",
-        "lastSeen": 1791183718.072,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 15
       }
     },
     "days": {
@@ -309682,14 +309687,15 @@ window.SLACK_DATA = {
             "store": "온도제이스튜디오",
             "biz": "3830303408",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 16:02",
+    "at": "2026-10-05 16:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309808,7 +309814,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 16:01",
+    "at": "2026-10-05 16:08",
     "pri": {
       "days": 0,
       "failed": [],
