@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16758,
+  "version": 16759,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232464,23 +232464,23 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "19:50",
+      "updatedAt": "20:00",
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
           "count": 3,
           "low": 1
         },
         "nps": {
-          "count": 12,
-          "low": 1
+          "count": 13,
+          "low": 2
         },
         "high": {
           "install": 2,
           "nps": 9
         },
         "npsDist": {
-          "5": 1,
+          "5": 2,
           "7": 1,
           "8": 1,
           "10": 9
@@ -232496,8 +232496,8 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "6개월": {
-            "total": 2,
-            "low": 0
+            "total": 3,
+            "low": 1
           },
           "1개월": {
             "total": 3,
@@ -232517,6 +232517,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 5,
+            "low": 2
+          },
           "SECTA9": {
             "total": 2,
             "low": 0
@@ -232529,10 +232533,6 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 0
           },
-          "KIS": {
-            "total": 4,
-            "low": 1
-          },
           "KCP": {
             "total": 1,
             "low": 0
@@ -232543,10 +232543,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1,
           "필요한 기능이 없거나 몰라서 불편": 1,
           "구매,계약과정에서 설명이 부족": 1
         },
         "alerts": [
+          {
+            "time": "20:00",
+            "store": "뚝배기육칼",
+            "storeId": "424628",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "기존 포스를 10년이상 쓰다보니 토스가좀 불편해요. 특히 상담원 연결이 쉽지 않네요",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:46",
             "store": "클로드엠(M)입시미술학원",
@@ -232675,14 +232698,14 @@ window.SLACK_DATA = {
       },
       "1791196727.863209": {
         "post": "1791196727.863209",
-        "lastSeen": 1791197987.796,
+        "lastSeen": 1791198054.656,
         "r": 1,
         "day": "2026-10-05",
         "idx": 29
       },
       "1791197450.677729": {
         "post": "1791197450.677729",
-        "lastSeen": 1791197987.796
+        "lastSeen": 1791198054.656
       }
     },
     "days": {
@@ -310053,7 +310076,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 20:00",
+    "at": "2026-10-05 20:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310172,7 +310195,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 19:59",
+    "at": "2026-10-05 20:00",
     "pri": {
       "days": 0,
       "failed": [],
