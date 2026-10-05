@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16620,
+  "version": 16621,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "김규빈": 8
+          "김규빈": 9
         },
         "onboarding": {
           "김규빈": 1
@@ -232042,6 +232042,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "15시 15분 예약 매장손님 이슈"
+        },
+        {
+          "time": "11:39",
+          "store": "붕팔공 프로젝트",
+          "biz": "4151903763",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "배민 연동 요청 주시어 부탁 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "5분뒤 통화 테블릿 사용"
         },
         {
           "time": "11:28",
@@ -232155,7 +232166,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 2,
         "unknown": 0
       },
@@ -232249,13 +232260,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791167964.235249": {
-        "post": "1791167964.235249",
-        "lastSeen": 1791168493.877,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 6
       }
     },
     "days": {
@@ -309412,7 +309416,8 @@ window.SLACK_DATA = {
             "store": "붕팔공 프로젝트",
             "biz": "4151903763",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.3
           },
           {
             "hm": "11:45",
@@ -309428,7 +309433,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 11:48",
+    "at": "2026-10-05 11:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309547,7 +309552,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 11:48",
+    "at": "2026-10-05 11:51",
     "pri": {
       "days": 0,
       "failed": [],
