@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16619,
+  "version": 16620,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "김규빈": 7
+          "김규빈": 8
         },
         "onboarding": {
           "김규빈": 1
@@ -232032,6 +232032,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:45",
+          "store": "현풍 오늘 국수",
+          "biz": "1982402034",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "포프(포스기) / 프로그램 반응이 너무 느리다고 하셔서 원격 점검 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "15시 15분 예약 매장손님 이슈"
+        },
         {
           "time": "11:28",
           "store": "꽃늘플라워",
@@ -232144,7 +232155,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 2,
         "unknown": 0
       },
@@ -232241,17 +232252,10 @@ window.SLACK_DATA = {
       },
       "1791167964.235249": {
         "post": "1791167964.235249",
-        "lastSeen": 1791168422.674,
+        "lastSeen": 1791168493.877,
         "r": 1,
         "day": "2026-10-05",
         "idx": 6
-      },
-      "1791168322.587309": {
-        "post": "1791168322.587309",
-        "lastSeen": 1791168422.674,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 7
       }
     },
     "days": {
@@ -309416,14 +309420,15 @@ window.SLACK_DATA = {
             "store": "현풍 오늘 국수",
             "biz": "1982402034",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 2.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 11:47",
+    "at": "2026-10-05 11:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309542,7 +309547,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 11:47",
+    "at": "2026-10-05 11:48",
     "pri": {
       "days": 0,
       "failed": [],
