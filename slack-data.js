@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16609,
+  "version": 16610,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "김규빈": 4
+          "김규빈": 5
         },
         "onboarding": {
           "김규빈": 1
@@ -232032,6 +232032,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:24",
+          "store": "제육대가 성남점",
+          "biz": "6691003237",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "유프 출력만 되고 내용 인쇄가 안된다고 하시어 점검 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "CPP 3000 화이트 중고 본체 발송"
+        },
         {
           "time": "11:00",
           "store": "코하마",
@@ -232111,7 +232122,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 2,
         "unknown": 0
       },
@@ -232212,11 +232223,11 @@ window.SLACK_DATA = {
       },
       "1791167292.590159": {
         "post": "1791167292.590159",
-        "lastSeen": 1791167456.3
+        "lastSeen": 1791167524.746
       },
       "1791167227.968369": {
         "post": "1791167227.968369",
-        "lastSeen": 1791167456.3
+        "lastSeen": 1791167524.746
       }
     },
     "days": {
@@ -309354,7 +309365,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 11:31",
+    "at": "2026-10-05 11:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309473,7 +309484,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 11:30",
+    "at": "2026-10-05 11:32",
     "pri": {
       "days": 0,
       "failed": [],
