@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16656,
+  "version": 16657,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "미지정": 1,
+          "미지정": 2,
           "김규빈": 11
         },
         "onboarding": {
@@ -232034,6 +232034,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:03",
+          "store": "대왕갈비",
+          "biz": "7664700783",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "갑자기 토스포스 테이블 항목에서 휴지통이 보이지 않는다고 하시어 도움 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:34",
           "store": "박술녀 인사점",
@@ -232212,7 +232223,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 2,
         "unknown": 0
       },
@@ -232326,10 +232337,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791176594.878699": {
-        "post": "1791176594.878699",
-        "lastSeen": 1791176919.654
       }
     },
     "days": {
@@ -309422,8 +309429,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 12,
-        "sumMin": 115.21198087533314,
+        "cnt": 13,
+        "sumMin": 122.1027025580406,
         "over": 1,
         "items": [
           {
@@ -309533,13 +309540,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 4.9
+          },
+          {
+            "hm": "14:03",
+            "min": 6.9,
+            "store": "대왕갈비",
+            "biz": "7664700783",
+            "who": "",
+            "cat": "as",
+            "dmin": 6.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 14:08",
+    "at": "2026-10-05 14:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309658,7 +309674,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 14:08",
+    "at": "2026-10-05 14:11",
     "pri": {
       "days": 0,
       "failed": [],
