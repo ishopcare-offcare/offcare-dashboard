@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16683,
+  "version": 16684,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232441,7 +232441,10 @@ window.SLACK_DATA = {
       },
       "1791183517.577119": {
         "post": "1791183517.577119",
-        "lastSeen": 1791183538.626
+        "lastSeen": 1791183641.436,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 15
       }
     },
     "days": {
@@ -309534,8 +309537,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 15,
-        "sumMin": 130.3350775917371,
+        "cnt": 16,
+        "sumMin": 131.54264227549234,
         "over": 1,
         "items": [
           {
@@ -309672,13 +309675,21 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "menu",
             "dmin": 2.6
+          },
+          {
+            "hm": "15:58",
+            "min": 1.2,
+            "store": "온도제이스튜디오",
+            "biz": "3830303408",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 15:59",
+    "at": "2026-10-05 16:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309797,7 +309808,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 15:58",
+    "at": "2026-10-05 16:00",
     "pri": {
       "days": 0,
       "failed": [],
