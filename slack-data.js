@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16598,
+  "version": 16599,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,11 +232017,11 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "as": {
+          "김규빈": 4
+        },
         "onboarding": {
           "김규빈": 1
-        },
-        "as": {
-          "김규빈": 3
         },
         "booking": {
           "김규빈": 1
@@ -232032,6 +232032,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "코하마",
+          "biz": "6421601444",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "유니온포스 사용 / 페이스페이 사용 시 영수증 출력이 되지 않는 부분으로 문의 주셨어요. 확인 부탁드려요.",
+          "hw": "",
+          "intake": "offline",
+          "note": "정상적으로 영수증 나옴 페이스페이 결제 취소 방법 문의 &gt; 안내 완료 페이스페이 결제 취소 방법 문의 안내 완료"
+        },
         {
           "time": "10:48",
           "store": "이움 무브먼트",
@@ -232101,7 +232112,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 5,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "11:00",
@@ -309325,7 +309336,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 11:01",
+    "at": "2026-10-05 11:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309444,7 +309455,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 11:01",
+    "at": "2026-10-05 11:03",
     "pri": {
       "days": 0,
       "failed": [],
