@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16569,
+  "version": 16570,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,12 +232017,26 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "as": {
+          "김규빈": 1
+        },
         "booking": {
           "김규빈": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:03",
+          "store": "브라운도트 남구미점",
+          "biz": "1881602518",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "토스사장님 앱 실행 시 페이지를 찾을 수없습니다 라는 오류 문구가 뜨신다고하여 확인 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "삭제 후 재설치 정상 확인 테블릿이 구형"
+        },
         {
           "time": "09:00",
           "store": "올드피스(OLD PIECE)",
@@ -232036,7 +232050,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -309209,7 +309223,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 09:04",
+    "at": "2026-10-05 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309328,7 +309342,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 09:04",
+    "at": "2026-10-05 09:11",
     "pri": {
       "days": 0,
       "failed": [],
