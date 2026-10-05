@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16657,
+  "version": 16658,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,8 +232018,8 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "미지정": 2,
-          "김규빈": 11
+          "김규빈": 12,
+          "미지정": 2
         },
         "onboarding": {
           "미지정": 1,
@@ -232034,6 +232034,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:07",
+          "store": "글이베",
+          "biz": "1972002315",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "평소엔 현황 탭에 배민 주문건과 매장 주문건 합계가 합쳐져서 보이는데 금일은 현황이 합져져서 안보인다고 합니다. 확인 부탁 드립니다~",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:03",
           "store": "대왕갈비",
@@ -232223,7 +232234,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 2,
         "unknown": 0
       },
@@ -309555,7 +309566,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 14:11",
+    "at": "2026-10-05 14:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309674,7 +309685,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 14:11",
+    "at": "2026-10-05 14:12",
     "pri": {
       "days": 0,
       "failed": [],
