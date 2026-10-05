@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16586,
+  "version": 16587,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232035,7 +232035,7 @@ window.SLACK_DATA = {
           "req": "포스기 + 프론트 연결 끊겼다고 하셔서 확인 요청 드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "포스는 끄고 다니느데 프론트는 켜고 다님 포스기 프로그램 켜지기전에 프론트에 연결끊어짐 문구 보시고 연락주심 &gt; 프론트도 끄고 다니시라고 안내드림 프론트도 끄고 다니시라고 안내드림"
         },
         {
           "time": "10:03",
@@ -232163,7 +232163,10 @@ window.SLACK_DATA = {
       },
       "1791162756.861759": {
         "post": "1791162756.861759",
-        "lastSeen": 1791163278.576
+        "lastSeen": 1791163359.126,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 3
       }
     },
     "days": {
@@ -309256,8 +309259,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 3,
-        "sumMin": 5.958687051137289,
+        "cnt": 4,
+        "sumMin": 15.325174399216971,
         "over": 0,
         "items": [
           {
@@ -309286,13 +309289,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "as",
             "dmin": 7.3
+          },
+          {
+            "hm": "10:12",
+            "min": 9.4,
+            "store": "제야(ZEYA)",
+            "biz": "2612901338",
+            "who": "김규빈",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 10:21",
+    "at": "2026-10-05 10:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309411,7 +309422,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 10:21",
+    "at": "2026-10-05 10:22",
     "pri": {
       "days": 0,
       "failed": [],
