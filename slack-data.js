@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16743,
+  "version": 16744,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "최민석": 7,
+          "최민석": 8,
           "미지정": 4,
           "김규빈": 12
         },
@@ -232049,6 +232049,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "전원선 문제로 보여지며 c to c 선 구하셔서 선 연결 후 안켜질 시 법인폰 재인입 하신다고 합니다."
+        },
+        {
+          "time": "18:44",
+          "store": "온찬",
+          "biz": "2951902699",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "메뉴 카테고리가 37페이지?까지 생겨서 확인 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "18:31",
@@ -232427,11 +232438,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 33,
+        "online": 34,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "18:45",
+      "updatedAt": "19:00",
       "voc": {
         "responses": 12,
         "install": {
@@ -232640,12 +232651,9 @@ window.SLACK_DATA = {
         "post": "1791190805.903309",
         "lastSeen": 1791190965.13
       },
-      "1791193490.443549": {
-        "post": "1791193490.443549",
-        "lastSeen": 1791193964.394,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 27
+      "1791194400.649819": {
+        "post": "1791194400.649819",
+        "lastSeen": 1791194400.373
       }
     },
     "days": {
@@ -309991,14 +309999,15 @@ window.SLACK_DATA = {
             "store": "온찬",
             "biz": "2951902699",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 11.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 18:52",
+    "at": "2026-10-05 19:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310117,7 +310126,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 18:52",
+    "at": "2026-10-05 19:00",
     "pri": {
       "days": 0,
       "failed": [],
