@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16639,
+  "version": 16640,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232041,7 +232041,7 @@ window.SLACK_DATA = {
           "req": "갤제 시, 수신망 오류라고 떠서 재 온보딩 하려 했으나, 초기화에 실패 했다는 오류 문구가 뜬다고 하셔서 확인 부탁 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "핫스팟으로 사용중 인터넷 속도 문제로 온보딩 불가 인터넷 자체 해결 하시겠다고함"
         },
         {
           "time": "12:00",
@@ -232281,7 +232281,7 @@ window.SLACK_DATA = {
       },
       "1791173149.213529": {
         "post": "1791173149.213529",
-        "lastSeen": 1791174232.929
+        "lastSeen": 1791174319.371
       }
     },
     "days": {
@@ -309473,7 +309473,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:24",
+    "at": "2026-10-05 13:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309592,7 +309592,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 13:23",
+    "at": "2026-10-05 13:25",
     "pri": {
       "days": 0,
       "failed": [],
