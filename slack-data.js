@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16714,
+  "version": 16715,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,6 +232017,10 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "booking": {
+          "미지정": 1,
+          "김규빈": 1
+        },
         "onboarding": {
           "미지정": 3,
           "김규빈": 2
@@ -232026,9 +232030,6 @@ window.SLACK_DATA = {
           "미지정": 4,
           "김규빈": 12
         },
-        "booking": {
-          "김규빈": 1
-        },
         "menu": {
           "최민석": 1,
           "김규빈": 1
@@ -232036,6 +232037,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:33",
+          "store": "금빛치킨",
+          "biz": "1453501487",
+          "cat": "booking",
+          "emp": "미지정",
+          "req": "NM2000 사용 / 연결 끊김으로 재온보딩 진행했으나, 리더기 설정에서 모델명 눌러도 장치 검색이 안되고 있어서 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "17:24",
           "store": "네일리온다",
@@ -232336,7 +232348,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 26,
+        "online": 27,
         "offline": 2,
         "unknown": 0
       },
@@ -232545,17 +232557,13 @@ window.SLACK_DATA = {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
       },
-      "1791189190.473279": {
-        "post": "1791189190.473279",
-        "lastSeen": 1791190115.141
-      },
       "1791189404.717449": {
         "post": "1791189404.717449",
-        "lastSeen": 1791190115.141
+        "lastSeen": 1791190508.485
       },
       "1791189730.940919": {
         "post": "1791189730.940919",
-        "lastSeen": 1791190115.141
+        "lastSeen": 1791190508.485
       }
     },
     "days": {
@@ -309648,8 +309656,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 20,
-        "sumMin": 183.79700067043305,
+        "cnt": 21,
+        "sumMin": 202.48599601984026,
         "over": 1,
         "items": [
           {
@@ -309831,13 +309839,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 20
+          },
+          {
+            "hm": "17:33",
+            "min": 18.7,
+            "store": "금빛치킨",
+            "biz": "1453501487",
+            "who": "",
+            "cat": "booking",
+            "dmin": 18.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 17:48",
+    "at": "2026-10-05 17:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309956,7 +309973,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 17:48",
+    "at": "2026-10-05 17:55",
     "pri": {
       "days": 0,
       "failed": [],
