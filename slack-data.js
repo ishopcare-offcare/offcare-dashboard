@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16705,
+  "version": 16706,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232318,15 +232318,15 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "17:24",
+      "updatedAt": "17:29",
       "voc": {
-        "responses": 11,
+        "responses": 12,
         "install": {
           "count": 3,
           "low": 1
         },
         "nps": {
-          "count": 11,
+          "count": 12,
           "low": 1
         },
         "high": {
@@ -232335,6 +232335,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "5": 1,
+          "7": 1,
           "8": 1,
           "10": 9
         },
@@ -232348,16 +232349,16 @@ window.SLACK_DATA = {
           "요식업": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 2,
+            "low": 0
+          },
           "1개월": {
             "total": 3,
             "low": 1
           },
           "3개월": {
             "total": 3,
-            "low": 0
-          },
-          "6개월": {
-            "total": 1,
             "low": 0
           },
           "구매설치": {
@@ -232370,15 +232371,15 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 2,
+            "low": 0
+          },
           "KOCES": {
             "total": 3,
             "low": 1
           },
           "SMARTRO": {
-            "total": 1,
-            "low": 0
-          },
-          "SECTA9": {
             "total": 1,
             "low": 0
           },
@@ -232447,6 +232448,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "17:29",
+            "store": "제이에스(JS)아트싸커 유소년 아카데미",
+            "storeId": "432013",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 7,
+            "text": "사용법은 조금 숙지해야겠지만 가끔 페이스결제가 잘 안돼요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:24",
             "store": "학원동반솔루션",
             "storeId": "691959",
@@ -232512,14 +232525,14 @@ window.SLACK_DATA = {
       },
       "1791186072.648169": {
         "post": "1791186072.648169",
-        "lastSeen": 1791188928.939,
+        "lastSeen": 1791189013.35,
         "r": 1,
         "day": "2026-10-05",
         "idx": 18
       },
       "1791188698.087989": {
         "post": "1791188698.087989",
-        "lastSeen": 1791188928.939
+        "lastSeen": 1791189013.35
       }
     },
     "days": {
@@ -309791,7 +309804,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 17:29",
+    "at": "2026-10-05 17:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309910,7 +309923,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 17:28",
+    "at": "2026-10-05 17:30",
     "pri": {
       "days": 0,
       "failed": [],
