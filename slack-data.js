@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16779,
+  "version": 16780,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232497,15 +232497,15 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "21:35",
+      "updatedAt": "21:56",
       "voc": {
-        "responses": 13,
+        "responses": 14,
         "install": {
-          "count": 3,
+          "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 13,
+          "count": 14,
           "low": 2
         },
         "high": {
@@ -232515,19 +232515,25 @@ window.SLACK_DATA = {
         "npsDist": {
           "5": 2,
           "7": 1,
-          "8": 1,
+          "8": 2,
           "10": 9
         },
         "installDist": {
           "1": 1,
+          "3": 1,
           "5": 2
         },
         "byIndustry": {
+          "서비스[뷰티,헤어]": 1,
           "서비스[학원]": 1,
           "카페": 1,
           "요식업": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 1
+          },
           "6개월": {
             "total": 3,
             "low": 1
@@ -232540,16 +232546,16 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 0
           },
-          "구매설치": {
-            "total": 3,
-            "low": 1
-          },
           "12개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 5,
             "low": 2
@@ -232649,6 +232655,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "21:56",
+            "store": "아이루비",
+            "storeId": "692408",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 3,
+            "nps": 8,
+            "text": "기사분이 오셔서 설치해 주실줄 알았어요 무료이용 혜택이 만족스럽습니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "17:29",
             "store": "제이에스(JS)아트싸커 유소년 아카데미",
@@ -310117,7 +310135,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 21:53",
+    "at": "2026-10-05 21:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310236,7 +310254,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 21:53",
+    "at": "2026-10-05 21:56",
     "pri": {
       "days": 0,
       "failed": [],
