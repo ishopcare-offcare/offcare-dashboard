@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16759,
+  "version": 16760,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232033,12 +232033,23 @@ window.SLACK_DATA = {
           "김규빈": 1
         },
         "menu": {
-          "최민석": 1,
+          "최민석": 2,
           "김규빈": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:38",
+          "store": "반달가족",
+          "biz": "5586300159",
+          "cat": "menu",
+          "emp": "최민석",
+          "req": "• 메뉴 등록 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "메뉴추가 및 터치키 재등록 완료"
+        },
         {
           "time": "19:31",
           "store": "주상낙원",
@@ -232461,7 +232472,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 36,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "20:00",
@@ -232696,16 +232707,12 @@ window.SLACK_DATA = {
         "post": "1791190805.903309",
         "lastSeen": 1791190965.13
       },
-      "1791196727.863209": {
-        "post": "1791196727.863209",
-        "lastSeen": 1791198054.656,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 29
-      },
       "1791197450.677729": {
         "post": "1791197450.677729",
-        "lastSeen": 1791198054.656
+        "lastSeen": 1791198115.254,
+        "r": 1,
+        "day": "2026-10-05",
+        "idx": 30
       }
     },
     "days": {
@@ -309798,8 +309805,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 30,
-        "sumMin": 283.5820791761081,
+        "cnt": 31,
+        "sumMin": 294.153367026647,
         "over": 1,
         "items": [
           {
@@ -310069,14 +310076,23 @@ window.SLACK_DATA = {
             "store": "반달가족",
             "biz": "5586300159",
             "who": "최민석",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 22.6
+          },
+          {
+            "hm": "19:50",
+            "min": 10.6,
+            "store": "딱지치기",
+            "biz": "1011083924",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 20:01",
+    "at": "2026-10-05 20:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310195,7 +310211,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 20:00",
+    "at": "2026-10-05 20:01",
     "pri": {
       "days": 0,
       "failed": [],
