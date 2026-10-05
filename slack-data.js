@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16695,
+  "version": 16696,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,14 +232017,14 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "onboarding": {
+          "미지정": 2,
+          "김규빈": 2
+        },
         "as": {
           "미지정": 4,
           "최민석": 2,
           "김규빈": 12
-        },
-        "onboarding": {
-          "김규빈": 2,
-          "미지정": 1
         },
         "booking": {
           "김규빈": 1
@@ -232040,9 +232040,20 @@ window.SLACK_DATA = {
           "time": "16:33",
           "store": "리원타로",
           "biz": "2290272434",
-          "cat": "as",
+          "cat": "onboarding",
           "emp": "미지정",
           "req": "유프 온보딩 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "16:17",
+          "store": "아잉뜨잉",
+          "biz": "3946700529",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "유프 / 커버가 안열린다고 하셔서 영상통화로 도움 부탁드립니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -232303,7 +232314,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 23,
+        "online": 24,
         "offline": 2,
         "unknown": 0
       },
@@ -232475,13 +232486,9 @@ window.SLACK_DATA = {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
       },
-      "1791184631.105419": {
-        "post": "1791184631.105419",
-        "lastSeen": 1791186097.087
-      },
       "1791186072.648169": {
         "post": "1791186072.648169",
-        "lastSeen": 1791186097.087
+        "lastSeen": 1791186152.796
       }
     },
     "days": {
@@ -309574,8 +309581,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 17,
-        "sumMin": 136.7140102903048,
+        "cnt": 18,
+        "sumMin": 161.61127830743789,
         "over": 1,
         "items": [
           {
@@ -309730,13 +309737,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 5.2
+          },
+          {
+            "hm": "16:17",
+            "min": 24.9,
+            "store": "아잉뜨잉",
+            "biz": "3946700529",
+            "who": "",
+            "cat": "as",
+            "dmin": 24.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 16:41",
+    "at": "2026-10-05 16:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309855,7 +309871,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 16:41",
+    "at": "2026-10-05 16:42",
     "pri": {
       "days": 0,
       "failed": [],
