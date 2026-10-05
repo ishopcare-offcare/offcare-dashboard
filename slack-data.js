@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16658,
+  "version": 16659,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232043,7 +232043,7 @@ window.SLACK_DATA = {
           "req": "평소엔 현황 탭에 배민 주문건과 매장 주문건 합계가 합쳐져서 보이는데 금일은 현황이 합져져서 안보인다고 합니다. 확인 부탁 드립니다~",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "현황탭 설명드림 &gt; 주문 7개중 배달1개 완료처리 6개 포장주문으로 완료처리 안해서 숫자가 다른부분 설명드림 매출 및 프린터는 이상없음 주문 7개중 배달1개 완료처리 6개 포장주문으로 완료처리 안해서 숫자가 다른부분 설명드림 매출 및 프린터는 이상없음"
         },
         {
           "time": "14:03",
@@ -309566,7 +309566,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 14:13",
+    "at": "2026-10-05 14:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309685,7 +309685,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 14:12",
+    "at": "2026-10-05 14:14",
     "pri": {
       "days": 0,
       "failed": [],
