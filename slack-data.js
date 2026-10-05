@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16728,
+  "version": 16729,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,6 +232017,11 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "as": {
+          "최민석": 4,
+          "미지정": 4,
+          "김규빈": 12
+        },
         "booking": {
           "미지정": 2,
           "김규빈": 1
@@ -232025,11 +232030,6 @@ window.SLACK_DATA = {
           "미지정": 3,
           "김규빈": 2
         },
-        "as": {
-          "최민석": 3,
-          "미지정": 4,
-          "김규빈": 12
-        },
         "menu": {
           "최민석": 1,
           "김규빈": 1
@@ -232037,6 +232037,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:16",
+          "store": "금빛치킨",
+          "biz": "1453501487",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "• 재인입",
+          "hw": "",
+          "intake": "online",
+          "note": "01097655300 / 제품번호 입력 후 정상연결 완료"
+        },
         {
           "time": "17:42",
           "store": "코디드바이닐즈",
@@ -232359,7 +232370,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 28,
+        "online": 29,
         "offline": 2,
         "unknown": 0
       },
@@ -232570,7 +232581,7 @@ window.SLACK_DATA = {
       },
       "1791189404.717449": {
         "post": "1791189404.717449",
-        "lastSeen": 1791192024.196,
+        "lastSeen": 1791192130.674,
         "r": 1,
         "day": "2026-10-05",
         "idx": 21
@@ -232581,7 +232592,7 @@ window.SLACK_DATA = {
       },
       "1791190857.833399": {
         "post": "1791190857.833399",
-        "lastSeen": 1791192024.196,
+        "lastSeen": 1791192130.674,
         "r": 1,
         "day": "2026-10-05",
         "idx": 23
@@ -309900,7 +309911,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 18:20",
+    "at": "2026-10-05 18:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310019,7 +310030,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 18:20",
+    "at": "2026-10-05 18:22",
     "pri": {
       "days": 0,
       "failed": [],
