@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16633,
+  "version": 16634,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232041,7 +232041,7 @@ window.SLACK_DATA = {
           "req": "포스기 usb 장치 오작동 오류 메세지 발생되었다고 하셔서 통화 요청 주셨습니다! / ~규빈님 죄송한데 혹시 이 매장까지만 통화 가능하실까요..? 빠르게 연락 달라고 하셔서..~ :개굴-죄송:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "마우스 USB 풀리는 증상 선 재연결 해보고 사용 &gt; 그래도 안되면 다른 USB로 옮기는 방법 안내드림 그래도 안되면 다른 USB로 옮기는 방법 안내드림 / 현재는 정상사용중"
         },
         {
           "time": "11:45",
@@ -232181,7 +232181,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "12:00",
+      "updatedAt": "13:05",
       "voc": {
         "responses": 2,
         "install": {
@@ -232271,6 +232271,10 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
+      },
+      "1791173149.213529": {
+        "post": "1791173149.213529",
+        "lastSeen": 1791173179.883
       }
     },
     "days": {
@@ -309453,7 +309457,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:04",
+    "at": "2026-10-05 13:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309572,7 +309576,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 13:04",
+    "at": "2026-10-05 13:06",
     "pri": {
       "days": 0,
       "failed": [],
