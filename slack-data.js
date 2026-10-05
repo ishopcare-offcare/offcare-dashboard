@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16738,
+  "version": 16739,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,15 +232017,15 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "as": {
+          "최민석": 6,
+          "미지정": 4,
+          "김규빈": 12
+        },
         "booking": {
           "최민석": 1,
           "미지정": 2,
           "김규빈": 1
-        },
-        "as": {
-          "최민석": 5,
-          "미지정": 4,
-          "김규빈": 12
         },
         "onboarding": {
           "최민석": 1,
@@ -232039,6 +232039,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:31",
+          "store": "맷돌",
+          "biz": "8331901167",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "주방에 특정 알탕(소), 알구이 추가 메뉴가 출력되지 않아 확인 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "주방프린터 설정 완료 및 설정방법 안내 완료 토스포스"
+        },
         {
           "time": "18:30",
           "store": "아소비큐미르창의학원",
@@ -232406,7 +232417,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 32,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "18:31",
@@ -232617,13 +232628,6 @@ window.SLACK_DATA = {
       "1791190805.903309": {
         "post": "1791190805.903309",
         "lastSeen": 1791190965.13
-      },
-      "1791192666.761279": {
-        "post": "1791192666.761279",
-        "lastSeen": 1791193139.508,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 25
       }
     },
     "days": {
@@ -309951,14 +309955,15 @@ window.SLACK_DATA = {
             "store": "맷돌",
             "biz": "8331901167",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 9.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 18:39",
+    "at": "2026-10-05 18:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310077,7 +310082,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 18:38",
+    "at": "2026-10-05 18:41",
     "pri": {
       "days": 0,
       "failed": [],
