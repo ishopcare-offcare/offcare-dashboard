@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16669,
+  "version": 16670,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232029,11 +232029,23 @@ window.SLACK_DATA = {
           "김규빈": 1
         },
         "menu": {
+          "최민석": 1,
           "김규빈": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:58",
+          "store": "쭈닭한상",
+          "biz": "7822301997",
+          "cat": "menu",
+          "emp": "최민석",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:25",
           "store": "마음온도 심리 상담 센터",
@@ -232245,7 +232257,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 18,
+        "online": 19,
         "offline": 2,
         "unknown": 0
       },
@@ -232359,13 +232371,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791179903.396259": {
-        "post": "1791179903.396259",
-        "lastSeen": 1791180029.113,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 14
       }
     },
     "days": {
@@ -309594,14 +309599,15 @@ window.SLACK_DATA = {
             "store": "쭈닭한상",
             "biz": "7822301997",
             "who": "최민석",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 2.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 15:00",
+    "at": "2026-10-05 15:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309720,7 +309726,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 15:00",
+    "at": "2026-10-05 15:01",
     "pri": {
       "days": 0,
       "failed": [],
