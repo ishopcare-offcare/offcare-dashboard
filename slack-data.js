@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16718,
+  "version": 16719,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "booking": {
-          "미지정": 1,
+          "미지정": 2,
           "김규빈": 1
         },
         "onboarding": {
@@ -232037,6 +232037,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:42",
+          "store": "코디드바이닐즈",
+          "biz": "2865100775",
+          "cat": "booking",
+          "emp": "미지정",
+          "req": "프로그램 오류로 리드 인입/ ob요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "17:33",
           "store": "금빛치킨",
@@ -232348,11 +232359,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 27,
+        "online": 28,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "17:42",
+      "updatedAt": "18:00",
       "voc": {
         "responses": 12,
         "install": {
@@ -232559,14 +232570,14 @@ window.SLACK_DATA = {
       },
       "1791189404.717449": {
         "post": "1791189404.717449",
-        "lastSeen": 1791190761.994,
+        "lastSeen": 1791190835.363,
         "r": 1,
         "day": "2026-10-05",
         "idx": 21
       },
-      "1791189730.940919": {
-        "post": "1791189730.940919",
-        "lastSeen": 1791190761.994
+      "1791190805.903309": {
+        "post": "1791190805.903309",
+        "lastSeen": 1791190835.363
       }
     },
     "days": {
@@ -309659,8 +309670,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 22,
-        "sumMin": 222.94842187166216,
+        "cnt": 23,
+        "sumMin": 240.74404822190604,
         "over": 1,
         "items": [
           {
@@ -309859,13 +309870,22 @@ window.SLACK_DATA = {
             "biz": "2136200735",
             "who": "최민석",
             "cat": "as"
+          },
+          {
+            "hm": "17:42",
+            "min": 17.8,
+            "store": "코디드바이닐즈",
+            "biz": "2865100775",
+            "who": "",
+            "cat": "booking",
+            "dmin": 17.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 17:59",
+    "at": "2026-10-05 18:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309984,7 +310004,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 17:59",
+    "at": "2026-10-05 18:00",
     "pri": {
       "days": 0,
       "failed": [],
