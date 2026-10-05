@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16638,
+  "version": 16639,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "김규빈": 10
+          "김규빈": 11
         },
         "onboarding": {
           "김규빈": 1
@@ -232032,6 +232032,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:17",
+          "store": "붕팔공 프로젝트",
+          "biz": "4151903763",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "갤제 시, 수신망 오류라고 떠서 재 온보딩 하려 했으나, 초기화에 실패 했다는 오류 문구가 뜬다고 하셔서 확인 부탁 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:00",
           "store": "불당농장",
@@ -232177,7 +232188,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 2,
         "unknown": 0
       },
@@ -232256,10 +232267,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1791001308.185889": {
-        "post": "1791001308.185889",
-        "lastSeen": 1791058531.901
-      },
       "1791039626.100159": {
         "post": "1791039626.100159",
         "lastSeen": 1791058531.901
@@ -232274,14 +232281,7 @@ window.SLACK_DATA = {
       },
       "1791173149.213529": {
         "post": "1791173149.213529",
-        "lastSeen": 1791173967.521
-      },
-      "1791173879.046229": {
-        "post": "1791173879.046229",
-        "lastSeen": 1791173967.521,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 9
+        "lastSeen": 1791174232.929
       }
     },
     "days": {
@@ -309465,14 +309465,15 @@ window.SLACK_DATA = {
             "store": "붕팔공 프로젝트",
             "biz": "4151903763",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:19",
+    "at": "2026-10-05 13:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309591,7 +309592,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 13:19",
+    "at": "2026-10-05 13:23",
     "pri": {
       "days": 0,
       "failed": [],
