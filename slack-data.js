@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16632,
+  "version": 16633,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "김규빈": 9
+          "김규빈": 10
         },
         "onboarding": {
           "김규빈": 1
@@ -232030,20 +232030,19 @@ window.SLACK_DATA = {
           "김규빈": 1
         }
       },
-      "pending": [
+      "pending": [],
+      "done": [
         {
           "time": "12:00",
           "store": "불당농장",
           "biz": "3129249745",
-          "handler": "김규빈",
           "cat": "as",
+          "emp": "김규빈",
+          "req": "포스기 usb 장치 오작동 오류 메세지 발생되었다고 하셔서 통화 요청 주셨습니다! / ~규빈님 죄송한데 혹시 이 매장까지만 통화 가능하실까요..? 빠르게 연락 달라고 하셔서..~ :개굴-죄송:",
+          "hw": "",
           "intake": "online",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
-      "done": [
+          "note": ""
+        },
         {
           "time": "11:45",
           "store": "현풍 오늘 국수",
@@ -232272,13 +232271,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791169259.126309": {
-        "post": "1791169259.126309",
-        "lastSeen": 1791172885.803,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 8
       }
     },
     "days": {
@@ -309453,14 +309445,15 @@ window.SLACK_DATA = {
             "store": "불당농장",
             "biz": "3129249745",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 61.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 13:01",
+    "at": "2026-10-05 13:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309579,7 +309572,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 13:01",
+    "at": "2026-10-05 13:04",
     "pri": {
       "days": 0,
       "failed": [],
