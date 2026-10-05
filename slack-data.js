@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16763,
+  "version": 16764,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,7 +232018,7 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "최민석": 9,
+          "최민석": 10,
           "미지정": 4,
           "김규빈": 12
         },
@@ -232039,6 +232039,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:50",
+          "store": "딱지치기",
+          "biz": "1011083924",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "프론트에 매장 와이파이가 연결이 되지 않아 확인 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "베트남 외국인 직원분 한국어 부족으로 소통불가 매장 공유기 문제로 인터넷 점검 안내 / 한국인 직원분 방문으로 현재는 인터넷 정상작동 완료 점주님 공유기 점검안내 완료"
+        },
         {
           "time": "19:38",
           "store": "반달가족",
@@ -232472,7 +232483,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 36,
-        "offline": 4,
+        "offline": 5,
         "unknown": 0
       },
       "updatedAt": "20:00",
@@ -232706,13 +232717,6 @@ window.SLACK_DATA = {
       "1791190805.903309": {
         "post": "1791190805.903309",
         "lastSeen": 1791190965.13
-      },
-      "1791197450.677729": {
-        "post": "1791197450.677729",
-        "lastSeen": 1791198933.211,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 30
       }
     },
     "days": {
@@ -310085,14 +310089,15 @@ window.SLACK_DATA = {
             "store": "딱지치기",
             "biz": "1011083924",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 30
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 20:15",
+    "at": "2026-10-05 20:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310211,7 +310216,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 20:15",
+    "at": "2026-10-05 20:26",
     "pri": {
       "days": 0,
       "failed": [],
