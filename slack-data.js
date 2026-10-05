@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16677,
+  "version": 16678,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,13 +232017,14 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "as": {
+          "최민석": 1,
+          "미지정": 3,
+          "김규빈": 12
+        },
         "onboarding": {
           "김규빈": 2,
           "미지정": 1
-        },
-        "as": {
-          "미지정": 3,
-          "김규빈": 12
         },
         "booking": {
           "김규빈": 1
@@ -232035,6 +232036,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:15",
+          "store": "현풍 오늘 국수",
+          "biz": "1982402034",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "포프(포스기) / 프로그램 반응이 너무 느리다고 하셔서 원격 점검 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:58",
           "store": "쭈닭한상",
@@ -232268,7 +232280,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 2,
         "unknown": 0
       },
@@ -309658,7 +309670,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 15:24",
+    "at": "2026-10-05 15:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309777,7 +309789,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 15:24",
+    "at": "2026-10-05 15:26",
     "pri": {
       "days": 0,
       "failed": [],
