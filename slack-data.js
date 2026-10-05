@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16663,
+  "version": 16664,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,8 +232018,8 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
-          "김규빈": 12,
-          "미지정": 2
+          "미지정": 3,
+          "김규빈": 12
         },
         "onboarding": {
           "미지정": 1,
@@ -232034,6 +232034,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:25",
+          "store": "마음온도 심리 상담 센터",
+          "biz": "8579801402",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "프론트(키오스크모드)+유프 / 키오스크 모드로만 이용중이며, 연동 끊김이 있다고 하셔서 확인 한번 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:07",
           "store": "글이베",
@@ -232234,7 +232245,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 2,
         "unknown": 0
       },
@@ -232348,10 +232359,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791177931.158239": {
-        "post": "1791177931.158239",
-        "lastSeen": 1791178235.251
       }
     },
     "days": {
@@ -309444,8 +309451,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 13,
-        "sumMin": 122.1027025580406,
+        "cnt": 14,
+        "sumMin": 128.79309024413425,
         "over": 1,
         "items": [
           {
@@ -309564,13 +309571,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 6.9
+          },
+          {
+            "hm": "14:25",
+            "min": 6.7,
+            "store": "마음온도 심리 상담 센터",
+            "biz": "8579801402",
+            "who": "",
+            "cat": "as",
+            "dmin": 6.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 14:30",
+    "at": "2026-10-05 14:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309689,7 +309705,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 14:30",
+    "at": "2026-10-05 14:33",
     "pri": {
       "days": 0,
       "failed": [],
