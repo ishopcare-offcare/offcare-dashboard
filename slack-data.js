@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16590,
+  "version": 16591,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232022,6 +232022,9 @@ window.SLACK_DATA = {
         },
         "booking": {
           "김규빈": 1
+        },
+        "menu": {
+          "김규빈": 1
         }
       },
       "pending": [],
@@ -232036,6 +232039,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "포스는 끄고 다니느데 프론트는 켜고 다님 포스기 프로그램 켜지기전에 프론트에 연결끊어짐 문구 보시고 연락주심 &gt; 프론트도 끄고 다니시라고 안내드림 프론트도 끄고 다니시라고 안내드림"
+        },
+        {
+          "time": "10:12",
+          "store": "제야(ZEYA)",
+          "biz": "2612901338",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "일부만 들어가있음 통화필요 / 여기 칵테일바라서 싱글 더블 보틀 나눠져잇는데 메뉴가 몇백개는됨 근데 옵션으로 다 처리해달라고함... 큰일남 일단 작업하는데 12주 걸린다고 말은 해놨음.. / 일단 칵테일은 엑셀에 누락되서 작업하기로함 (단품)"
         },
         {
           "time": "10:03",
@@ -232072,7 +232086,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -232160,13 +232174,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791162756.861759": {
-        "post": "1791162756.861759",
-        "lastSeen": 1791163887.261,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 3
       }
     },
     "days": {
@@ -309296,14 +309303,15 @@ window.SLACK_DATA = {
             "store": "제야(ZEYA)",
             "biz": "2612901338",
             "who": "김규빈",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 20
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 10:31",
+    "at": "2026-10-05 10:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309422,7 +309430,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 10:31",
+    "at": "2026-10-05 10:33",
     "pri": {
       "days": 0,
       "failed": [],
