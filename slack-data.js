@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16678,
+  "version": 16679,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232045,7 +232045,7 @@ window.SLACK_DATA = {
           "req": "포프(포스기) / 프로그램 반응이 너무 느리다고 하셔서 원격 점검 부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프론트 업데이트 대기중 으로 못받아와 재시작 후 정상업데이트 정상작동 완료"
         },
         {
           "time": "14:58",
@@ -309670,7 +309670,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 15:26",
+    "at": "2026-10-05 15:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309789,7 +309789,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 15:26",
+    "at": "2026-10-05 15:27",
     "pri": {
       "days": 0,
       "failed": [],
