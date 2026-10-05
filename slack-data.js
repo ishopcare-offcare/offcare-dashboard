@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16694,
+  "version": 16695,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232018,8 +232018,8 @@ window.SLACK_DATA = {
     "2026-10-05": {
       "counts": {
         "as": {
+          "미지정": 4,
           "최민석": 2,
-          "미지정": 3,
           "김규빈": 12
         },
         "onboarding": {
@@ -232036,6 +232036,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:33",
+          "store": "리원타로",
+          "biz": "2290272434",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "유프 온보딩 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "15:58",
           "store": "온도제이스튜디오",
@@ -232292,11 +232303,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "16:33",
+      "updatedAt": "16:41",
       "voc": {
         "responses": 10,
         "install": {
@@ -232466,11 +232477,11 @@ window.SLACK_DATA = {
       },
       "1791184631.105419": {
         "post": "1791184631.105419",
-        "lastSeen": 1791185691.916
+        "lastSeen": 1791186097.087
       },
-      "1791185584.219419": {
-        "post": "1791185584.219419",
-        "lastSeen": 1791185691.916
+      "1791186072.648169": {
+        "post": "1791186072.648169",
+        "lastSeen": 1791186097.087
       }
     },
     "days": {
@@ -309563,8 +309574,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-05": {
-        "cnt": 16,
-        "sumMin": 131.54264227549234,
+        "cnt": 17,
+        "sumMin": 136.7140102903048,
         "over": 1,
         "items": [
           {
@@ -309710,13 +309721,22 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "as",
             "dmin": 6.5
+          },
+          {
+            "hm": "16:33",
+            "min": 5.2,
+            "store": "리원타로",
+            "biz": "2290272434",
+            "who": "",
+            "cat": "as",
+            "dmin": 5.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 16:35",
+    "at": "2026-10-05 16:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309835,7 +309855,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 16:34",
+    "at": "2026-10-05 16:41",
     "pri": {
       "days": 0,
       "failed": [],
