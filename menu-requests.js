@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2994,
- "updatedAt": "2026-10-05 20:01",
+ "version": 2995,
+ "updatedAt": "2026-10-05 20:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1791199810.414169",
+   "date": "2026-10-05",
+   "time": "20:30",
+   "store": "도마",
+   "biz": "8143601450",
+   "pos": "",
+   "content": "• 메뉴 추가 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "카테고리: 탕류\n메뉴명: 해불 라면\n금액: 8,000원"
+   ],
+   "rc": 2,
+   "lr": "1791199832.343099",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791199810414169"
+  },
   {
    "ts": "1791196727.863209",
    "date": "2026-10-05",
