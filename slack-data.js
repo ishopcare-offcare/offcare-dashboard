@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16567,
+  "version": 16568,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232016,11 +232016,27 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-05": {
-      "counts": {},
+      "counts": {
+        "booking": {
+          "김규빈": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:00",
+          "store": "올드피스(OLD PIECE)",
+          "biz": "7031902526",
+          "cat": "booking",
+          "emp": "김규빈",
+          "req": "아이패드 + 포프터 온보딩 부탁드리겠습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "7일 11시 에약"
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -232083,13 +232099,6 @@ window.SLACK_DATA = {
       "1791125975.893519": {
         "post": "1791125975.893519",
         "lastSeen": 1791144927.75
-      },
-      "1791158417.001599": {
-        "post": "1791158417.001599",
-        "lastSeen": 1791158475.708,
-        "r": 1,
-        "day": "2026-10-05",
-        "idx": 0
       }
     },
     "days": {
@@ -309192,14 +309201,15 @@ window.SLACK_DATA = {
             "store": "올드피스(OLD PIECE)",
             "biz": "7031902526",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 1.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-05 09:01",
+    "at": "2026-10-05 09:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309318,7 +309328,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 09:01",
+    "at": "2026-10-05 09:02",
     "pri": {
       "days": 0,
       "failed": [],
