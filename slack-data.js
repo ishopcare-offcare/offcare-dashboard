@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16676,
+  "version": 16677,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232272,40 +232272,43 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:15",
+      "updatedAt": "15:24",
       "voc": {
-        "responses": 4,
+        "responses": 6,
         "install": {
-          "count": 1,
-          "low": 0
+          "count": 3,
+          "low": 1
         },
         "nps": {
-          "count": 4,
+          "count": 6,
           "low": 0
         },
         "high": {
-          "install": 1,
-          "nps": 4
+          "install": 2,
+          "nps": 6
         },
         "npsDist": {
-          "10": 4
+          "10": 6
         },
         "installDist": {
-          "5": 1
+          "1": 1,
+          "5": 2
         },
         "byIndustry": {
+          "서비스[학원]": 1,
+          "카페": 1,
           "요식업": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 1
+          },
           "12개월": {
             "total": 1,
             "low": 0
           },
           "1개월": {
-            "total": 1,
-            "low": 0
-          },
-          "구매설치": {
             "total": 1,
             "low": 0
           },
@@ -232315,22 +232318,59 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "KIS": {
+          "KOCES": {
             "total": 2,
             "low": 0
           },
-          "KOCES": {
-            "total": 1,
-            "low": 0
+          "KIS": {
+            "total": 3,
+            "low": 1
           },
           "NICE": {
             "total": 1,
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "구매,계약과정에서 설명이 부족": 1
+        },
+        "alerts": [
+          {
+            "time": "15:24",
+            "store": "몽블랑펜션",
+            "storeId": "685398",
+            "industry": "카페/베이커리",
+            "indBucket": "카페",
+            "install": 1,
+            "nps": 10,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "상세설명만족함",
+                "cat": "구매,계약과정에서 설명이 부족"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
+          {
+            "time": "15:24",
+            "store": "학원동반솔루션",
+            "storeId": "691959",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설치 설명이 잘 나와 있어서 어렵지 않았습니다. 간편하고 깔끔하게 단말기를 이용할수 있기 때문에",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "14:07",
             "store": "인도이야기",
@@ -309618,7 +309658,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 15:17",
+    "at": "2026-10-05 15:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309737,7 +309777,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 15:17",
+    "at": "2026-10-05 15:24",
     "pri": {
       "days": 0,
       "failed": [],
