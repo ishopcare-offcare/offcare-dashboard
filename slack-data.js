@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16752,
+  "version": 16753,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232017,15 +232017,15 @@ window.SLACK_DATA = {
     },
     "2026-10-05": {
       "counts": {
+        "as": {
+          "최민석": 9,
+          "미지정": 4,
+          "김규빈": 12
+        },
         "onboarding": {
           "최민석": 2,
           "미지정": 3,
           "김규빈": 2
-        },
-        "as": {
-          "최민석": 8,
-          "미지정": 4,
-          "김규빈": 12
         },
         "booking": {
           "최민석": 1,
@@ -232039,6 +232039,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:31",
+          "store": "주상낙원",
+          "biz": "4151265270",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "용지 출력이 되지 않아 확인 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:00",
           "store": "버닝",
@@ -232449,7 +232460,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 35,
+        "online": 36,
         "offline": 3,
         "unknown": 0
       },
@@ -232664,7 +232675,7 @@ window.SLACK_DATA = {
       },
       "1791196727.863209": {
         "post": "1791196727.863209",
-        "lastSeen": 1791196762.749
+        "lastSeen": 1791196852.467
       }
     },
     "days": {
@@ -310027,7 +310038,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 19:39",
+    "at": "2026-10-05 19:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310146,7 +310157,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 19:39",
+    "at": "2026-10-05 19:40",
     "pri": {
       "days": 0,
       "failed": [],
