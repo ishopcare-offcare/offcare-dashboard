@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16698,
+  "version": 16699,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232318,22 +232318,23 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "16:41",
+      "updatedAt": "16:46",
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
           "count": 3,
           "low": 1
         },
         "nps": {
-          "count": 10,
-          "low": 0
+          "count": 11,
+          "low": 1
         },
         "high": {
           "install": 2,
           "nps": 9
         },
         "npsDist": {
+          "5": 1,
           "8": 1,
           "10": 9
         },
@@ -232347,16 +232348,16 @@ window.SLACK_DATA = {
           "요식업": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 3,
+            "low": 1
+          },
           "3개월": {
             "total": 3,
             "low": 0
           },
           "6개월": {
             "total": 1,
-            "low": 0
-          },
-          "1개월": {
-            "total": 2,
             "low": 0
           },
           "구매설치": {
@@ -232369,6 +232370,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 3,
+            "low": 1
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
@@ -232385,19 +232390,38 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 0
           },
-          "KOCES": {
-            "total": 2,
-            "low": 0
-          },
           "NICE": {
             "total": 1,
             "low": 0
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "구매,계약과정에서 설명이 부족": 1
         },
         "alerts": [
+          {
+            "time": "16:46",
+            "store": "클로드엠(M)입시미술학원",
+            "storeId": "627712",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "일반 결제단말기보다 기능이 적어서 아쉽습니다 직접카드번호 입력하고 결제할수가 없어서 업무에 차질이 생깁니다",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:24",
             "store": "몽블랑펜션",
@@ -232488,7 +232512,7 @@ window.SLACK_DATA = {
       },
       "1791186072.648169": {
         "post": "1791186072.648169",
-        "lastSeen": 1791186330.53,
+        "lastSeen": 1791186418.767,
         "r": 1,
         "day": "2026-10-05",
         "idx": 18
@@ -309763,7 +309787,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 16:45",
+    "at": "2026-10-05 16:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309882,7 +309906,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 16:45",
+    "at": "2026-10-05 16:46",
     "pri": {
       "days": 0,
       "failed": [],
