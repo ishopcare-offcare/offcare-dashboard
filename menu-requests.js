@@ -3,10 +3,87 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2996,
- "updatedAt": "2026-10-05 20:49",
+ "version": 2997,
+ "updatedAt": "2026-10-06 08:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1791243035.833119",
+   "date": "2026-10-06",
+   "time": "08:30",
+   "store": "맥쓰(MEXX)세계치킨제기역점",
+   "biz": "3464601387",
+   "pos": "",
+   "content": "메뉴 이미지 추가",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "왕갈비치킨.jpg",
+     "fid": "F0C6SU4BC3F",
+     "from": "댓글",
+     "path": "menu-files/1791243035_833119-0.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "마늘치킨.jpg",
+     "fid": "F0C7SJEPJD6",
+     "from": "댓글",
+     "path": "menu-files/1791243035_833119-1.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "허니버터치킨.jpg",
+     "fid": "F0C7SJK58QG",
+     "from": "댓글",
+     "path": "menu-files/1791243035_833119-2.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "청양마요치킨.jpg",
+     "fid": "F0C6GRY6MPZ",
+     "from": "댓글",
+     "path": "menu-files/1791243035_833119-3.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "필스너.jpg",
+     "fid": "F0C6GRXLT1V",
+     "from": "댓글",
+     "path": "menu-files/1791243035_833119-4.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "수박샤베트.jpg",
+     "fid": "F0C6SU5H761",
+     "from": "댓글",
+     "path": "menu-files/1791243035_833119-5.jpg",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "name": "나쵸플레터.jpg",
+     "fid": "F0C6GRZ2FLP",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791243060.875539",
+   "rfx": 3,
+   "status": "done",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791243035833119"
+  },
   {
    "ts": "1791199810.414169",
    "date": "2026-10-05",

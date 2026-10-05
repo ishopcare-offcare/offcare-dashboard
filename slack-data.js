@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16824,
+  "version": 16825,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232740,15 +232740,31 @@ window.SLACK_DATA = {
       ]
     },
     "2026-10-06": {
-      "counts": {},
+      "counts": {
+        "menu": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:30",
+          "store": "맥쓰(MEXX)세계치킨제기역점",
+          "biz": "3464601387",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "메뉴 이미지 추가",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": ""
+      "updatedAt": "08:30"
     }
   },
   "resp": {
@@ -310157,13 +310173,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 08:16",
+    "at": "2026-10-06 08:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4360,
+    "rows": 4368,
     "named": 1054,
     "unknownName": 0,
     "beforeStart": 0,
@@ -310277,7 +310293,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 08:16",
+    "at": "2026-10-06 08:31",
     "pri": {
       "days": 0,
       "failed": [],
