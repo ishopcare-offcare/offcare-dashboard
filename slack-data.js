@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16654,
+  "version": 16655,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232216,23 +232216,23 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "14:03",
+      "updatedAt": "14:07",
       "voc": {
-        "responses": 3,
+        "responses": 4,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 3,
+          "count": 4,
           "low": 0
         },
         "high": {
           "install": 1,
-          "nps": 3
+          "nps": 4
         },
         "npsDist": {
-          "10": 3
+          "10": 4
         },
         "installDist": {
           "5": 1
@@ -232241,6 +232241,10 @@ window.SLACK_DATA = {
           "요식업": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -232255,6 +232259,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "KOCES": {
             "total": 1,
             "low": 0
@@ -232262,15 +232270,23 @@ window.SLACK_DATA = {
           "NICE": {
             "total": 1,
             "low": 0
-          },
-          "KIS": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {},
         "alerts": [],
         "praises": [
+          {
+            "time": "14:07",
+            "store": "인도이야기",
+            "storeId": "264983",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "아 솔직히 적립 시스템 하고 싶었는데, 옛날 기기로는 그게 안 되어서 따로 마련해야 하나... 하고 있었는데, 이 기계로 그냥 적립이나 쿠폰도 다 되어서 좋아요. 다만 프린트기가 없다는 게 아쉽.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "09:52",
             "store": "헤어스파",
@@ -232313,7 +232329,7 @@ window.SLACK_DATA = {
       },
       "1791176594.878699": {
         "post": "1791176594.878699",
-        "lastSeen": 1791176619.926
+        "lastSeen": 1791176840.658
       }
     },
     "days": {
@@ -309523,7 +309539,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-05 14:03",
+    "at": "2026-10-05 14:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -309642,7 +309658,7 @@ window.SLACK_DATA = {
     "2026-10-05": 2
   },
   "noteMig": {
-    "at": "2026-10-05 14:03",
+    "at": "2026-10-05 14:07",
     "pri": {
       "days": 0,
       "failed": [],
