@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3025,
- "updatedAt": "2026-10-06 13:59",
+ "version": 3026,
+ "updatedAt": "2026-10-06 14:01",
  "days": 30,
  "items": [
   {
@@ -1157,30 +1157,6 @@ window.MENU_REQUESTS = {
    "files": 1,
    "att": [
     {
-     "name": "image.png",
-     "fid": "F0C71SRFCFK",
-     "from": "댓글",
-     "path": "menu-files/1791258493_472999-1.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "오리불고기",
-       "name": "황칠 오리야채불고기(2~3인)",
-       "price": 40000
-      },
-      {
-       "category": "오리불고기",
-       "name": "황칠 오리야채불고기(3~4인)",
-       "price": 59000
-      },
-      {
-       "category": "오리불고기",
-       "name": "오리야채불고기(1인추가)",
-       "price": 17000
-      }
-     ]
-    },
-    {
      "name": "=_UTF-8_B_UmVzaXplZCgxNzkxMjU3NDA3NDAxKV",
      "fid": "F0C6J6KT13R",
      "from": "원글",
@@ -1213,12 +1189,70 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791258493_472999-0.jpeg"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C71SRFCFK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "오리불고기",
+       "name": "황칠 오리야채불고기(2~3인)",
+       "price": 40000
+      },
+      {
+       "category": "오리불고기",
+       "name": "황칠 오리야채불고기(3~4인)",
+       "price": 59000
+      },
+      {
+       "category": "오리불고기",
+       "name": "오리야채불고기(1인추가)",
+       "price": 17000
+      }
+     ],
+     "path": "menu-files/1791258493_472999-1.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C73KZLBEY",
+     "from": "댓글",
+     "path": "menu-files/1791258493_472999-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "흑염소",
+       "name": "황칠 흑염소탕\"특대\"",
+       "price": 18000
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠흑염소 고기추가(200g)",
+       "price": 25000
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠 흑염소 전골(3~4인)",
+       "price": 78000
+      },
+      {
+       "category": "흑염소",
+       "name": "흑염소 수육(3~4인)",
+       "price": 87000
+      },
+      {
+       "category": "흑염소",
+       "name": "야채추가(버섯\"깻잎\"부추)",
+       "price": 5000
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 3,
-   "lr": "1791262619.010309",
+   "rc": 4,
+   "lr": "1791262841.338539",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
