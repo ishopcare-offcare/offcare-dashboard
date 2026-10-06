@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3051,
- "updatedAt": "2026-10-06 17:02",
+ "version": 3052,
+ "updatedAt": "2026-10-06 17:03",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,171 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_6785.jpg.jpeg",
+     "fid": "F0C6VTJF2MB",
+     "from": "댓글",
+     "path": "menu-files/1791273711_296629-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "녹차라떼(코코크림라떼)",
+       "price": 4300
+      }
+     ]
+    },
+    {
+     "name": "IMG_6786.jpg.jpeg",
+     "fid": "F0C6VTKKSKX",
+     "from": "댓글",
+     "path": "menu-files/1791273711_296629-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "애플시나몬 티",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "레몬 베실 티",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "딸기 말차 라떼",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "고구마 아인슈페너",
+       "price": 4200
+      },
+      {
+       "category": "",
+       "name": "아그작 라떼",
+       "price": 3800
+      }
+     ]
+    },
+    {
+     "name": "IMG_6787.jpg.jpeg",
+     "fid": "F0C7359N68Z",
+     "from": "댓글",
+     "path": "menu-files/1791273711_296629-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "아메리카노",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "카페 라떼",
+       "price": 2900
+      },
+      {
+       "category": "",
+       "name": "바닐라빈 라떼",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "IMG_6788.jpg.jpeg",
+     "fid": "F0C6KRDRQR5",
+     "from": "댓글",
+     "path": "menu-files/1791273711_296629-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "밀크티(투마알 스카크링)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "과일청 과배(소형)",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "누베라 과배",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "과일청 과배(그라네)",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "IMG_6789.jpg.jpeg",
+     "fid": "F0C74T8NQAG",
+     "from": "댓글",
+     "path": "menu-files/1791273711_296629-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "자스민 블렌드",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "라벤더 블렌드",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "애플향 홍차",
+       "price": 3200
+      },
+      {
+       "category": "TEA",
+       "name": "리치 캐모마일 아이스티",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "IMG_6790.jpg.jpeg",
+     "fid": "F0C6VTMMY4D",
+     "from": "댓글",
+     "path": "menu-files/1791273711_296629-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "레몬 애플티 에이드",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "청포도 애플티 에이드",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "페샤 에이드",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "망고파인 에이드",
+       "price": 4000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 2,
+   "lr": "1791273740.564279",
    "rfx": 3,
    "status": "wait",
    "handler": null,
