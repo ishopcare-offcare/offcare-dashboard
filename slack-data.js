@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16898,
+  "version": 16899,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232741,6 +232741,10 @@ window.SLACK_DATA = {
     },
     "2026-10-06": {
       "counts": {
+        "extern": {
+          "서상원": 1,
+          "배선유": 1
+        },
         "booking": {
           "배선유": 1,
           "고경림": 1,
@@ -232754,9 +232758,6 @@ window.SLACK_DATA = {
           "배선유": 3,
           "심성현": 2,
           "고경림": 1
-        },
-        "extern": {
-          "배선유": 1
         },
         "onboarding": {
           "심성현": 2,
@@ -232773,6 +232774,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:59",
+          "store": "수작 커피공방",
+          "biz": "2201271005",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:53",
           "store": "그랑웨이브(GRANWAVE)",
@@ -233072,11 +233084,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:55",
+      "updatedAt": "11:00",
       "voc": {
         "responses": 1,
         "install": {
@@ -233130,7 +233142,7 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791251978.377,
+        "lastSeen": 1791252055.124,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
@@ -233141,10 +233153,14 @@ window.SLACK_DATA = {
       },
       "1791251286.525559": {
         "post": "1791251286.525559",
-        "lastSeen": 1791251978.377,
+        "lastSeen": 1791252055.124,
         "r": 1,
         "day": "2026-10-06",
         "idx": 6
+      },
+      "1791252029.707619": {
+        "post": "1791252029.707619",
+        "lastSeen": 1791252055.124
       }
     },
     "days": {
@@ -310611,7 +310627,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:59",
+    "at": "2026-10-06 11:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310731,7 +310747,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:59",
+    "at": "2026-10-06 11:00",
     "pri": {
       "days": 0,
       "failed": [],
