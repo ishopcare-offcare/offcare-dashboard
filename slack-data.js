@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16894,
+  "version": 16895,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232750,9 +232750,9 @@ window.SLACK_DATA = {
         "as": {
           "김동욱": 2,
           "송태양": 2,
+          "김현기": 2,
           "배선유": 3,
           "심성현": 2,
-          "김현기": 1,
           "고경림": 1
         },
         "onboarding": {
@@ -232799,6 +232799,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "• 주방프린터 com2/9600로 세팅하시면 됨 안내. 프린터는 정상출력중 주방프린터 com2/9600로 세팅하시면 됨 안내. 프린터는 정상출력중"
+        },
+        {
+          "time": "10:41",
+          "store": "리틀포레스트(little forest)",
+          "biz": "7953301712",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "유프 온보딩 부탁드립니다 :꾸벅5:",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트와 연결은 했는데 태블릿 업데이트 중 / 해보고 안되면 다시 연락 주기로 함"
         },
         {
           "time": "10:38",
@@ -233011,11 +233022,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 18,
+        "online": 19,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:51",
+      "updatedAt": "10:53",
       "voc": {
         "responses": 1,
         "install": {
@@ -233069,14 +233080,14 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791251508.558,
+        "lastSeen": 1791251645.794,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
       },
       "1791251013.745809": {
         "post": "1791251013.745809",
-        "lastSeen": 1791251508.558,
+        "lastSeen": 1791251645.794,
         "r": 1,
         "day": "2026-10-06",
         "idx": 5
@@ -233087,10 +233098,14 @@ window.SLACK_DATA = {
       },
       "1791251286.525559": {
         "post": "1791251286.525559",
-        "lastSeen": 1791251508.558,
+        "lastSeen": 1791251645.794,
         "r": 1,
         "day": "2026-10-06",
         "idx": 6
+      },
+      "1791251634.625319": {
+        "post": "1791251634.625319",
+        "lastSeen": 1791251645.794
       }
     },
     "days": {
@@ -310547,7 +310562,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:52",
+    "at": "2026-10-06 10:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310667,7 +310682,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:51",
+    "at": "2026-10-06 10:54",
     "pri": {
       "days": 0,
       "failed": [],

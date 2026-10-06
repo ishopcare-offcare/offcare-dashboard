@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3006,
- "updatedAt": "2026-10-06 10:52",
+ "version": 3007,
+ "updatedAt": "2026-10-06 10:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1791251634.625319",
+   "date": "2026-10-06",
+   "time": "10:53",
+   "store": "그랑웨이브(GRANWAVE)",
+   "biz": "6812401648",
+   "pos": "토스포스",
+   "content": "해당 매장 메뉴 등록 요청 부탁드립니다.\n프로그램 : 토스포스",
+   "special": "",
+   "drive": [],
+   "files": 1,
+   "att": [
+    {
+     "name": "그랑웨이브 메뉴.zip",
+     "fid": "F0C70UGHBG9",
+     "from": "원글",
+     "path": "menu-files/1791251634_625319-0.zip",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791251637.948539",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791251634625319"
+  },
   {
    "ts": "1791251467.975209",
    "date": "2026-10-06",
@@ -18,13 +47,409 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "MAIN밥상.png",
+     "fid": "F0C6HJUMJTZ",
+     "from": "댓글",
+     "path": "menu-files/1791251467_975209-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "돼지불고기정식",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "불고기 한접시 추가",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "돼지김치찌개 (소)",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "돼지김치찌개 (중)",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "돼지김치찌개 (대)",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "라면",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "해물짬뽕라면",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "돼지두루치기 (소)",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "돼지두루치기 (중)",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "돼지두루치기 (대)",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "육개장",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "갈비탕",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "뼈감자탕 (소)",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "뼈감자탕 (중)",
+       "price": 36000
+      },
+      {
+       "category": "",
+       "name": "뼈감자탕 (대)",
+       "price": 44000
+      },
+      {
+       "category": "",
+       "name": "돼지국밥",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "순대국밥",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "뼈찜(소)",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "뼈찜 (중)",
+       "price": 37000
+      },
+      {
+       "category": "",
+       "name": "뼈찜 (대)",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "진만두(고기)",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "진만두(김치)",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "공기밥 추가",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "뼈 해장국",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "김치찌개",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "돼지불고기정식",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "오징어볶음",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "사이드메뉴",
+       "price": 20000
+      }
+     ]
+    },
+    {
+     "name": "SIDE술상.png",
+     "fid": "F0C7TBHQDQQ",
+     "from": "댓글",
+     "path": "menu-files/1791251467_975209-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SIDE술상",
+       "name": "외갓집 모둠전",
+       "price": 35000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "해물파전",
+       "price": 15000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "육전",
+       "price": 25000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "돔베기전",
+       "price": 20000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "동태전",
+       "price": 20000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "땡초부추전",
+       "price": 10000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "김치전",
+       "price": 10000
+      },
+      {
+       "category": "SIDE술상",
+       "name": "가자미전",
+       "price": 20000
+      },
+      {
+       "category": "ADD추가",
+       "name": "생굴",
+       "price": 20000
+      },
+      {
+       "category": "ADD추가",
+       "name": "굴전",
+       "price": 25000
+      },
+      {
+       "category": "ADD추가",
+       "name": "안주용오징어볶음",
+       "price": 20000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "과메기(중)",
+       "price": 30000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "과메기(대)",
+       "price": 40000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "오뎅탕",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "ALC 주류.png",
+     "fid": "F0C6YRPGZ6E",
+     "from": "댓글",
+     "path": "menu-files/1791251467_975209-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "ALC 주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "멕주",
+       "price": 5000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "몬스터",
+       "price": 3000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "생멕주500CC",
+       "price": 4500
+      },
+      {
+       "category": "ALC 주류",
+       "name": "생멕주1700CC",
+       "price": 15000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "생멕주1000CC포장",
+       "price": 8000
+      },
+      {
+       "category": "ALC 주류",
+       "name": "생맥주1500CC 포장",
+       "price": 12000
+      }
+     ]
+    },
+    {
+     "name": "ADD 추가.png",
+     "fid": "F0C6SPLPVL3",
+     "from": "댓글",
+     "path": "menu-files/1791251467_975209-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "ADD추가",
+       "name": "포장 비",
+       "price": 1000
+      },
+      {
+       "category": "ADD추가",
+       "name": "공기밥 추가",
+       "price": 1000
+      },
+      {
+       "category": "ADD추가",
+       "name": "계란 후라이",
+       "price": 1000
+      },
+      {
+       "category": "ADD추가",
+       "name": "당면사리",
+       "price": 2000
+      },
+      {
+       "category": "ADD추가",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "ADD추가",
+       "name": "육수 추가",
+       "price": 2000
+      },
+      {
+       "category": "ADD추가",
+       "name": "된장찌개",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "NOODLE 면.png",
+     "fid": "F0C6YRQFW0J",
+     "from": "댓글",
+     "path": "menu-files/1791251467_975209-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "NOODLE면",
+       "name": "냉메밀국수",
+       "price": 8000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "비빔메밀국수",
+       "price": 9000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "냉메밀 (고배기)",
+       "price": 10000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "비빔 메밀 (고배기)",
+       "price": 11000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "물냉면",
+       "price": 8000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "비빔냉면",
+       "price": 9000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "물냉면(고배기)",
+       "price": 10000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "비빔냉면(고배기)",
+       "price": 11000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "SET메뉴",
+       "price": 15000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "SET메뉴",
+       "price": 16000
+      },
+      {
+       "category": "NOODLE면",
+       "name": "SET메뉴",
+       "price": 17000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [
     "제가하겠습니당"
    ],
-   "rc": 2,
-   "lr": "1791251478.417999",
+   "rc": 3,
+   "lr": "1791251615.220049",
    "rfx": 3,
    "status": "confirm",
    "handler": "고경림",
