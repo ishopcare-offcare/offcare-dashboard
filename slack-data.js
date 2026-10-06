@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16873,
+  "version": 16874,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232784,7 +232784,7 @@ window.SLACK_DATA = {
           "req": "배민 프린터기 연동관련 원격 확인 요청주셨습니다. :꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "태블릿 사용 매장 배민 주문 접수 설치 후 프린터 연동 출력 테스트 완료"
         },
         {
           "time": "10:00",
@@ -232993,7 +232993,10 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791249676.269
+        "lastSeen": 1791249741.389,
+        "r": 1,
+        "day": "2026-10-06",
+        "idx": 3
       }
     },
     "days": {
@@ -310381,8 +310384,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-06": {
-        "cnt": 3,
-        "sumMin": 2.173117220401764,
+        "cnt": 4,
+        "sumMin": 2.7345165689786275,
         "over": 0,
         "items": [
           {
@@ -310411,13 +310414,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "menu",
             "dmin": 1.7
+          },
+          {
+            "hm": "10:21",
+            "min": 0.6,
+            "store": "꽃뜰에 꽃들이",
+            "biz": "3139901501",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:21",
+    "at": "2026-10-06 10:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310537,7 +310548,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:21",
+    "at": "2026-10-06 10:22",
     "pri": {
       "days": 0,
       "failed": [],
