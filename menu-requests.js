@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3012,
- "updatedAt": "2026-10-06 11:53",
+ "version": 3013,
+ "updatedAt": "2026-10-06 11:55",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C6Z5BK5H8",
      "from": "댓글",
-     "path": "menu-files/1791254149_652189-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -116,13 +115,23 @@ window.MENU_REQUESTS = {
        "name": "비엔나커피(ICED)",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791254149_652189-0.png"
+    },
+    {
+     "name": "스몰굿커피 문정점.xlsx",
+     "fid": "F0C7188NMQR",
+     "from": "댓글",
+     "path": "menu-files/1791254149_652189-1.xlsx",
+     "nj": 1
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791255149.409479",
+   "replies": [
+    "<mailto:···|···>"
+   ],
+   "rc": 3,
+   "lr": "1791255237.755639",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
