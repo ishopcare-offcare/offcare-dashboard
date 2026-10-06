@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16830,
+  "version": 16831,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232787,7 +232787,10 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791245091.754
+        "lastSeen": 1791245151.286,
+        "r": 1,
+        "day": "2026-10-06",
+        "idx": 0
       }
     },
     "days": {
@@ -310173,11 +310176,26 @@ window.SLACK_DATA = {
             "dmin": 18.2
           }
         ]
+      },
+      "2026-10-06": {
+        "cnt": 1,
+        "sumMin": 0.7046950181325277,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:04",
+            "min": 0.7,
+            "store": "주식회사 프리츠(장충점)",
+            "biz": "1058801127",
+            "who": "심성현",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:05",
+    "at": "2026-10-06 09:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310297,7 +310315,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:04",
+    "at": "2026-10-06 09:05",
     "pri": {
       "days": 0,
       "failed": [],
