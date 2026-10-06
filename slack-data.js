@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16879,
+  "version": 16880,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232741,6 +232741,11 @@ window.SLACK_DATA = {
     },
     "2026-10-06": {
       "counts": {
+        "onboarding": {
+          "고경림": 3,
+          "배선유": 1,
+          "심성현": 1
+        },
         "as": {
           "심성현": 2,
           "김동욱": 1,
@@ -232752,11 +232757,6 @@ window.SLACK_DATA = {
           "김동욱": 1,
           "심성현": 1
         },
-        "onboarding": {
-          "고경림": 2,
-          "배선유": 1,
-          "심성현": 1
-        },
         "menu": {
           "배선유": 1,
           "김동욱": 1
@@ -232764,6 +232764,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:20",
+          "store": "예아이뷰티",
+          "biz": "3462802102",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "포터프 온보딩중 터미널에 지속적으로 프론트와연결중으로 나와 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(노트북)+터미널2 온보딩완료 • 터미널c타입선이 노트북에 연결되어있어, 정상연결 안내후 온보딩완료 터미널c타입선이 노트북에 연결되어있어, 정상연결 안내후 온보딩완료"
+        },
         {
           "time": "10:15",
           "store": "시골마루",
@@ -232931,7 +232942,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -232993,7 +233004,7 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791250265.71,
+        "lastSeen": 1791250338.743,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
@@ -310428,7 +310439,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:31",
+    "at": "2026-10-06 10:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310548,7 +310559,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:31",
+    "at": "2026-10-06 10:32",
     "pri": {
       "days": 0,
       "failed": [],
