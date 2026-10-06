@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16885,
+  "version": 16886,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232742,7 +232742,7 @@ window.SLACK_DATA = {
     "2026-10-06": {
       "counts": {
         "as": {
-          "미지정": 1,
+          "송태양": 1,
           "심성현": 2,
           "김동욱": 1,
           "김현기": 1,
@@ -232770,11 +232770,11 @@ window.SLACK_DATA = {
           "store": "꾸안꾸",
           "biz": "8290203737",
           "cat": "as",
-          "emp": "미지정",
+          "emp": "송태양",
           "req": "유프 연결 재요청, 반응없음 /점검 부탁드립니다:감사합니다꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 금액입력결제모드로 결제시 토스사장님 어플 실행되어있는 상태여야 영수증 자동으로 출력됨 설명 -&gt; 결제테스트 자동출력 보여드렸고 수긍하심 금액입력결제모드로 결제시 토스사장님 어플 실행되어있는 상태여야 영수증 자동으로 출력됨 설명 - 결제테스트 자동출력 보여드렸고 수긍하심"
         },
         {
           "time": "10:20",
@@ -232958,7 +232958,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:38",
+      "updatedAt": "10:41",
       "voc": {
         "responses": 1,
         "install": {
@@ -233016,7 +233016,7 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791250789.932,
+        "lastSeen": 1791250885.918,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
@@ -310451,7 +310451,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:40",
+    "at": "2026-10-06 10:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310571,7 +310571,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:39",
+    "at": "2026-10-06 10:41",
     "pri": {
       "days": 0,
       "failed": [],
