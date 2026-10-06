@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3002,
- "updatedAt": "2026-10-06 10:16",
+ "version": 3003,
+ "updatedAt": "2026-10-06 10:18",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,71 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C70NYEK4Z",
+     "from": "댓글",
+     "path": "menu-files/1791249325_949739-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트류",
+       "name": "모듬보쌈세트",
+       "price": 70000
+      },
+      {
+       "category": "세트류",
+       "name": "보쌈세트",
+       "price": 38000
+      },
+      {
+       "category": "세트류",
+       "name": "쭈꾸미볶음세트",
+       "price": 17000
+      },
+      {
+       "category": "세트류",
+       "name": "오징어 볶음세트",
+       "price": 17000
+      },
+      {
+       "category": "세트류",
+       "name": "주삼불고기",
+       "price": 25000
+      },
+      {
+       "category": "세트류",
+       "name": "모듬오리훈제세트",
+       "price": 70000
+      },
+      {
+       "category": "세트류",
+       "name": "오리훈제세트",
+       "price": 38000
+      },
+      {
+       "category": "세트류",
+       "name": "쭈꾸미 전골",
+       "price": 37000
+      },
+      {
+       "category": "세트류",
+       "name": "아귀찜(대)",
+       "price": 58000
+      },
+      {
+       "category": "세트류",
+       "name": "아귀찜(소)",
+       "price": 34000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791249462.337269",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",

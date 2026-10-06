@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16870,
+  "version": 16871,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232758,11 +232758,23 @@ window.SLACK_DATA = {
           "심성현": 1
         },
         "menu": {
+          "배선유": 1,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:15",
+          "store": "시골마루",
+          "biz": "1304668196",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "오케이포스 사용중, 세트류&gt; 쭈꾸미 전골 37,000원 오리, 아구찜 사이에 비어있는 곳에 넣어달라 요청주셨습니다! :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": "완료/ 솔라피 발송"
+        },
         {
           "time": "10:08",
           "store": "서울간짬뽕",
@@ -232920,7 +232932,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 13,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "10:15",
@@ -232978,13 +232990,6 @@ window.SLACK_DATA = {
       "1791212383.012179": {
         "post": "1791212383.012179",
         "lastSeen": 1791230163.295
-      },
-      "1791249325.949739": {
-        "post": "1791249325.949739",
-        "lastSeen": 1791249377.617,
-        "r": 1,
-        "day": "2026-10-06",
-        "idx": 2
       }
     },
     "days": {
@@ -310400,14 +310405,15 @@ window.SLACK_DATA = {
             "store": "시골마루",
             "biz": "1304668196",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 1.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:16",
+    "at": "2026-10-06 10:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310527,7 +310533,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:16",
+    "at": "2026-10-06 10:18",
     "pri": {
       "days": 0,
       "failed": [],
