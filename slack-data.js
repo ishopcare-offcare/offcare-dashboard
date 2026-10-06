@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16896,
+  "version": 16897,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232760,13 +232760,27 @@ window.SLACK_DATA = {
           "고경림": 3,
           "배선유": 1
         },
+        "transfer": {
+          "송태양": 1
+        },
         "menu": {
-          "배선유": 1,
+          "배선유": 2,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:53",
+          "store": "그랑웨이브(GRANWAVE)",
+          "biz": "6812401648",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "해당 매장 메뉴 등록 요청 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "완료욤"
+        },
         {
           "time": "10:45",
           "store": "던라이틀리",
@@ -232788,6 +232802,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "프론트 껏켯 후 정상 확인"
+        },
+        {
+          "time": "10:43",
+          "store": "1955 강남낙지",
+          "biz": "7650703476",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "10월 6일 지금 바로 / 메뉴 복사 O / 프론트, 포스, CAT",
+          "hw": "",
+          "intake": "online",
+          "note": "/ / 명변 완료입니다"
         },
         {
           "time": "10:42",
@@ -233033,8 +233058,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
-        "offline": 4,
+        "online": 21,
+        "offline": 5,
         "unknown": 0
       },
       "updatedAt": "10:55",
@@ -233091,17 +233116,10 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791251788.025,
+        "lastSeen": 1791251884.834,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
-      },
-      "1791251013.745809": {
-        "post": "1791251013.745809",
-        "lastSeen": 1791251788.025,
-        "r": 1,
-        "day": "2026-10-06",
-        "idx": 5
       },
       "1791251234.432119": {
         "post": "1791251234.432119",
@@ -233109,17 +233127,10 @@ window.SLACK_DATA = {
       },
       "1791251286.525559": {
         "post": "1791251286.525559",
-        "lastSeen": 1791251788.025,
+        "lastSeen": 1791251884.834,
         "r": 1,
         "day": "2026-10-06",
         "idx": 6
-      },
-      "1791251634.625319": {
-        "post": "1791251634.625319",
-        "lastSeen": 1791251788.025,
-        "r": 1,
-        "day": "2026-10-06",
-        "idx": 7
       }
     },
     "days": {
@@ -310561,7 +310572,8 @@ window.SLACK_DATA = {
             "store": "1955 강남낙지",
             "biz": "7650703476",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 13.7
           },
           {
             "hm": "10:48",
@@ -310577,14 +310589,15 @@ window.SLACK_DATA = {
             "store": "그랑웨이브(GRANWAVE)",
             "biz": "6812401648",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 3.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:56",
+    "at": "2026-10-06 10:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310704,7 +310717,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:56",
+    "at": "2026-10-06 10:58",
     "pri": {
       "days": 0,
       "failed": [],
