@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3008,
- "updatedAt": "2026-10-06 10:58",
+ "version": 3009,
+ "updatedAt": "2026-10-06 11:12",
  "days": 30,
  "items": [
   {
@@ -52,7 +52,6 @@ window.MENU_REQUESTS = {
      "name": "MAIN밥상.png",
      "fid": "F0C6HJUMJTZ",
      "from": "댓글",
-     "path": "menu-files/1791251467_975209-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -200,13 +199,13 @@ window.MENU_REQUESTS = {
        "name": "사이드메뉴",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1791251467_975209-0.png"
     },
     {
      "name": "SIDE술상.png",
      "fid": "F0C7TBHQDQQ",
      "from": "댓글",
-     "path": "menu-files/1791251467_975209-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -279,13 +278,13 @@ window.MENU_REQUESTS = {
        "name": "오뎅탕",
        "price": 15000
       }
-     ]
+     ],
+     "path": "menu-files/1791251467_975209-1.png"
     },
     {
      "name": "ALC 주류.png",
      "fid": "F0C6YRPGZ6E",
      "from": "댓글",
-     "path": "menu-files/1791251467_975209-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -333,13 +332,13 @@ window.MENU_REQUESTS = {
        "name": "생맥주1500CC 포장",
        "price": 12000
       }
-     ]
+     ],
+     "path": "menu-files/1791251467_975209-2.png"
     },
     {
      "name": "ADD 추가.png",
      "fid": "F0C6SPLPVL3",
      "from": "댓글",
-     "path": "menu-files/1791251467_975209-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -377,13 +376,13 @@ window.MENU_REQUESTS = {
        "name": "된장찌개",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791251467_975209-3.png"
     },
     {
      "name": "NOODLE 면.png",
      "fid": "F0C6YRQFW0J",
      "from": "댓글",
-     "path": "menu-files/1791251467_975209-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -441,17 +440,19 @@ window.MENU_REQUESTS = {
        "name": "SET메뉴",
        "price": 17000
       }
-     ]
+     ],
+     "path": "menu-files/1791251467_975209-4.png"
     }
    ],
    "datt": [],
    "replies": [
-    "제가하겠습니당"
+    "제가하겠습니당",
+    "완료"
    ],
-   "rc": 3,
-   "lr": "1791251615.220049",
+   "rc": 4,
+   "lr": "1791252638.836559",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "고경림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791251467975209"
   },
