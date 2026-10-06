@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16854,
+  "version": 16855,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232763,7 +232763,7 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰)+유프 사용 매장으로, 동일한 와이파이 잡았으나 단말기 연결되지 않으신다고 하여 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "키오스크 모드로 로그인 상태 재온보딩 후 사용 방법 안내 완료"
         },
         {
           "time": "09:24",
@@ -232873,7 +232873,7 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791248005.793,
+        "lastSeen": 1791248086.759,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
@@ -310281,7 +310281,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:53",
+    "at": "2026-10-06 09:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310401,7 +310401,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:53",
+    "at": "2026-10-06 09:54",
     "pri": {
       "days": 0,
       "failed": [],
