@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16867,
+  "version": 16868,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232742,11 +232742,11 @@ window.SLACK_DATA = {
     "2026-10-06": {
       "counts": {
         "as": {
+          "심성현": 2,
           "김동욱": 1,
           "김현기": 1,
           "배선유": 2,
-          "고경림": 1,
-          "심성현": 1
+          "고경림": 1
         },
         "booking": {
           "김동욱": 1,
@@ -232763,6 +232763,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:08",
+          "store": "서울간짬뽕",
+          "biz": "6670203600",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "배민 프린터기 연동관련 원격 확인 요청주셨습니다. :꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:00",
           "store": "하이점핑다이어트",
@@ -232908,7 +232919,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 1,
         "unknown": 0
       },
@@ -310381,7 +310392,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:11",
+    "at": "2026-10-06 10:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310501,7 +310512,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:11",
+    "at": "2026-10-06 10:13",
     "pri": {
       "days": 0,
       "failed": [],
