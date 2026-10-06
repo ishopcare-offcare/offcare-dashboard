@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3026,
- "updatedAt": "2026-10-06 14:01",
+ "version": 3027,
+ "updatedAt": "2026-10-06 14:02",
  "days": 30,
  "items": [
   {
@@ -1140,8 +1140,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791259252241899"
   },
   {
@@ -1156,40 +1156,6 @@ window.MENU_REQUESTS = {
    "drive": [],
    "files": 1,
    "att": [
-    {
-     "name": "=_UTF-8_B_UmVzaXplZCgxNzkxMjU3NDA3NDAxKV",
-     "fid": "F0C6J6KT13R",
-     "from": "원글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "메뉴추가",
-       "name": "황칠 흑염소탕\"특대\"",
-       "price": 18000
-      },
-      {
-       "category": "메뉴추가",
-       "name": "황칠 흑염소 전골 (3~4인)",
-       "price": 78000
-      },
-      {
-       "category": "메뉴추가",
-       "name": "황칠흑염소 고기추가 (200g)",
-       "price": 25000
-      },
-      {
-       "category": "메뉴추가",
-       "name": "야채추가(버섯\"깻잎\"부추)",
-       "price": 5000
-      },
-      {
-       "category": "메뉴추가",
-       "name": "흑염소 수육(3~4인)",
-       "price": 87000
-      }
-     ],
-     "path": "menu-files/1791258493_472999-0.jpeg"
-    },
     {
      "name": "image.png",
      "fid": "F0C71SRFCFK",
@@ -1247,6 +1213,40 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZCgxNzkxMjU3NDA3NDAxKV",
+     "fid": "F0C6J6KT13R",
+     "from": "원글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "메뉴추가",
+       "name": "황칠 흑염소탕\"특대\"",
+       "price": 18000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "황칠 흑염소 전골 (3~4인)",
+       "price": 78000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "황칠흑염소 고기추가 (200g)",
+       "price": 25000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "야채추가(버섯\"깻잎\"부추)",
+       "price": 5000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "흑염소 수육(3~4인)",
+       "price": 87000
+      }
+     ],
+     "path": "menu-files/1791258493_472999-0.jpeg"
     }
    ],
    "datt": [],
