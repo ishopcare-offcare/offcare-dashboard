@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3032,
- "updatedAt": "2026-10-06 14:47",
+ "version": 3033,
+ "updatedAt": "2026-10-06 14:48",
  "days": 30,
  "items": [
   {
@@ -190,7 +190,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_0428.jpeg",
      "fid": "F0C6UMA5P0V",
      "from": "댓글",
-     "path": "menu-files/1791260808_803649-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -268,13 +267,13 @@ window.MENU_REQUESTS = {
        "name": "화요41",
        "price": 50000
       }
-     ]
+     ],
+     "path": "menu-files/1791260808_803649-0.jpeg"
     },
     {
      "name": "IMG_0426.jpeg",
      "fid": "F0C71UEHSEM",
      "from": "댓글",
-     "path": "menu-files/1791260808_803649-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -382,13 +381,13 @@ window.MENU_REQUESTS = {
        "name": "오픈푸드",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791260808_803649-1.jpeg"
     },
     {
      "name": "IMG_0427.jpeg",
      "fid": "F0C6Y24GM1C",
      "from": "댓글",
-     "path": "menu-files/1791260808_803649-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -461,13 +460,16 @@ window.MENU_REQUESTS = {
        "name": "사리추가",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791260808_803649-2.jpeg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791263187.280989",
+   "replies": [
+    "장금이전집 / ···"
+   ],
+   "rc": 3,
+   "lr": "1791265692.255559",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a10f751468b8711",
