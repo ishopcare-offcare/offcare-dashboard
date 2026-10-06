@@ -2081,7 +2081,7 @@ function empWorkByDay(emp){ const m={}; monthSlackDates().forEach(d=>{ ((slackDa
 // 일별 MVP(그날 업무처리 최다) 선정 횟수 맵 (이번 달)
 function dailyMvpCounts(){ const cnt={}; monthSlackDates().forEach(d=>{ const by={}; ((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp) by[x.emp]=(by[x.emp]||0)+1; }); let top=null,tv=0; for(const e in by){ if(by[e]>tv){ tv=by[e]; top=e; } } if(top) cnt[top]=(cnt[top]||0)+1; }); return cnt; }
 function mvpCountOf(emp){ return dailyMvpCounts()[emp]||0; }
-const ACH_SHORT={hand:'하루 35건',phoenix:'12시간 이상 처리',master:'6업무+VOC·미처리0',god:'하루50건+MVP10회',night:'밤8시후 300건',fool:'???',layoff:'???',fast:'???',thunder:'???',beta:'지정 인원 전용',workaholic:'평일 90일 연속 9~18시 처리',first:'???',bomb:'???',bling:'치장 아이템 50개 수집',star:'타이틀 20개 수집',angler:'낚시터 캐스팅 10,000회'};
+const ACH_SHORT={hand:'하루 35건',phoenix:'12시간 이상 처리',master:'6업무+미처리0',god:'하루50건+MVP10회',night:'밤8시후 300건',fool:'???',layoff:'???',fast:'???',thunder:'???',beta:'지정 인원 전용',workaholic:'평일 90일 연속 9~18시 처리',first:'???',bomb:'???',bling:'치장 아이템 50개 수집',star:'타이틀 20개 수집',angler:'낚시터 캐스팅 10,000회'};
 function achShort(k){ return ACH_SHORT[k]||''; }
 // 히든 조건 타이틀: 달성(ok) 또는 보유 전까지 조건·진행을 '???'로 감춤, 활성화되면 실제 조건 공개
 const HIDDEN_ACH = ['fool','layoff','fast','thunder','first','bomb'];
@@ -2111,7 +2111,7 @@ function achStatus(emp, it){
   if(!it || !it.ach || !emp) return it&&it.ach ? {ok:false, label:achShort(it.ach), prog:'-'} : null;
   if(it.ach==='hand'){ const best=Math.max(0,...Object.values(empWorkByDay(emp))); return {ok:best>=35, label:'하루 원격 35건 처리', prog:`${best}/35건`}; }
   if(it.ach==='phoenix'){ const toMin=t=>{ const p=(t||'').split(':'); return (+p[0]||0)*60+(+p[1]||0); }; let ok=false, bestSpan=0; monthSlackDates().forEach(d=>{ const ts=((slackDay(d)||{}).done||[]).filter(x=>x.emp===emp&&x.time).map(x=>toMin(x.time)); if(ts.length>=2){ const span=Math.max(...ts)-Math.min(...ts); if(span>bestSpan) bestSpan=span; if(span>=720) ok=true; } }); return {ok, label:'하루 원격 처리 이력 12시간 이상 (첫~마지막 처리 간격)', prog:ok?'달성 ✓':`최고 ${Math.floor(bestSpan/60)}시간 ${bestSpan%60}분/12시간`}; }
-  if(it.ach==='master'){ let ok=false; const W=['onboarding','as','transfer','menu','delivery','extern']; monthSlackDates().forEach(d=>{ const day=slackDay(d)||{}; const dn=(day.done||[]).filter(x=>x.emp===emp); const cs=new Set(dn.map(x=>x.cat)); const all6=W.every(c=>cs.has(c)); const voc=day.voc?[...(day.voc.alerts||[]),...(day.voc.praises||[])].some(x=>vocEmpAt(d,x)===emp&&vocDoneAt(d,x)===d&&vocCredited(d)):false; const anyPending=(day.pending||[]).some(p=>p.handler===emp); if(all6&&voc&&!anyPending) ok=true; }); return {ok, label:'하루에 온보딩·AS·명변·메뉴·배달·외주·VOC 각 1건 이상 + 부재·미처리 0건', prog:ok?'달성 ✓':'미달'}; }
+  if(it.ach==='master'){ let ok=false; const W=['onboarding','as','transfer','menu','delivery','extern']; monthSlackDates().forEach(d=>{ const day=slackDay(d)||{}; const dn=(day.done||[]).filter(x=>x.emp===emp); const cs=new Set(dn.map(x=>x.cat)); const all6=W.every(c=>cs.has(c)); const anyPending=(day.pending||[]).some(p=>p.handler===emp); if(all6&&!anyPending) ok=true; }); return {ok, label:'하루에 온보딩·AS·명변·메뉴·배달·외주 각 1건 이상 + 부재·미처리 0건', prog:ok?'달성 ✓':'미달'}; }
   if(it.ach==='god'){ const best=Math.max(0,...Object.values(empWorkByDay(emp))); const mvp=mvpCountOf(emp); return {ok:best>=50&&mvp>=10, label:'하루 50건 이상 처리 + MVP 10회 이상 선정', prog:`하루최고 ${best}/50 · MVP ${mvp}/10`}; }
   if(it.ach==='night'){ const have=nightHandled(emp,'20:00'); return {ok:have>=300, label:'밤 20:00 이후 300건 처리', prog:`${have}/300건`}; }
   if(it.ach==='fool'){ const miss=missCumCount(emp); return {ok:miss>=5, label:'이번 달 누락 이력 5건 이상 (해결해도 누적)', prog:`${miss}/5건`}; }   // 히든(달성 시 공개)
@@ -4135,7 +4135,7 @@ const GAME_ITEMS = {
     {id:'t_hand',name:'번개손',price:80,rarity:'rare',ach:'hand',desc:'따라올 수 없는 클릭 속도. 하루 35건을 쳐낸 전설의 손',perk:{item:0.001,miss:0.003}},
     {id:'t_night',name:'심야의 수호자',price:120,rarity:'epic',ach:'night',desc:'모두가 퇴근한 밤, 매장의 불빛을 지키는 그림자',perk:{item:0.0015,keep:0.005}},
     {id:'t_phoenix',name:'하드워커',price:200,rarity:'epic',ach:'phoenix',desc:'아침의 첫 건부터 밤의 마지막 건까지, 하루를 통째로 불태운 자',perk:{item:0.0015,miss:0.005}},
-    {id:'t_master',name:'원격 마스터',price:320,rarity:'epic',ach:'master',desc:'온보딩부터 VOC까지, 못 하는 게 없는 육각형 원격러',perk:{item:0.0015,miss:0.0025,keep:0.0025}},
+    {id:'t_master',name:'원격 마스터',price:320,rarity:'epic',ach:'master',desc:'온보딩부터 외주까지, 못 하는 게 없는 육각형 원격러',perk:{item:0.0015,miss:0.0025,keep:0.0025}},
     {id:'t_god',name:'원격의 신',price:600,rarity:'legendary',ach:'god',desc:'인간의 영역을 초월한 처리량. 신은 있다, 원격파트에',perk:{item:0.002,miss:0.003,keep:0.003},grad:'linear-gradient(90deg,#e8820a,#ff5a8a,#c77dff,#4ea8ff,#e8820a)'},
     {id:'t_fool',name:'바보',price:1,rarity:'common',ach:'fool',desc:'왜 받았는지는... 본인이 가장 잘 알고 있다',perk:{item:0.0005,miss:0.002}},
     {id:'t_layoff',name:'권고사직',price:1,rarity:'common',ach:'layoff',desc:'잠시 면담 좀 할까요? 커피는 제가 살게요',perk:{item:0.0005,keep:0.002},grad:'linear-gradient(90deg,#7a0f2e,#c02f5e,#7a0f2e)'},
