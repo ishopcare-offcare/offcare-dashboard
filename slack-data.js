@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16937,
+  "version": 16938,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232769,13 +232769,25 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "menu": {
-          "배선유": 2,
+          "배선유": 3,
+          "심성현": 1,
           "고경림": 1,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:56",
+          "store": "김송숯불갈비",
+          "biz": "6775200944",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "유플러스 사용 매장 > 메뉴 추가 요청",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:49",
           "store": "오케이스크린골프",
@@ -232819,6 +232831,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "단순질문 맥1이 뭘까요? / 토플파에 맥 없음 / 넵넵 메인 기기가 바뀐거라고 하시더라고요 원격으로 설치작업 완료 했습니다 / 아이맥 재온보딩 완료"
+        },
+        {
+          "time": "11:35",
+          "store": "스몰굿커피 문정점",
+          "biz": "6412901913",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "/ <mailto:js@smallgood.co.kr|js@smallgood.co.kr js@smallgood.co.kr / / 수정 양식 전달 및 방법 안내 완료 수정 파일 작업 후 재인입 예정"
         },
         {
           "time": "11:31",
@@ -233284,7 +233307,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 40,
+        "online": 42,
         "offline": 8,
         "unknown": 0
       },
@@ -233364,28 +233387,21 @@ window.SLACK_DATA = {
       },
       "1791251286.525559": {
         "post": "1791251286.525559",
-        "lastSeen": 1791255454.845,
+        "lastSeen": 1791255542.135,
         "r": 1,
         "day": "2026-10-06",
         "idx": 6
       },
       "1791252029.707619": {
         "post": "1791252029.707619",
-        "lastSeen": 1791255454.845,
+        "lastSeen": 1791255542.135,
         "r": 1,
         "day": "2026-10-06",
         "idx": 8
       },
-      "1791254149.652189": {
-        "post": "1791254149.652189",
-        "lastSeen": 1791255454.845,
-        "r": 1,
-        "day": "2026-10-06",
-        "idx": 15
-      },
       "1791254373.847969": {
         "post": "1791254373.847969",
-        "lastSeen": 1791255454.845,
+        "lastSeen": 1791255542.135,
         "r": 1,
         "day": "2026-10-06",
         "idx": 16
@@ -310919,7 +310935,8 @@ window.SLACK_DATA = {
             "store": "스몰굿커피 문정점",
             "biz": "6412901913",
             "who": "심성현",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 22.5
           },
           {
             "hm": "11:39",
@@ -310952,7 +310969,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 11:58",
+    "at": "2026-10-06 11:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -311072,7 +311089,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 11:57",
+    "at": "2026-10-06 11:59",
     "pri": {
       "days": 0,
       "failed": [],

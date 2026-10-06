@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3015,
- "updatedAt": "2026-10-06 11:58",
+ "version": 3016,
+ "updatedAt": "2026-10-06 11:59",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "<주류>\n• 카스 제로 4,000원 추가"
    ],
-   "rc": 2,
-   "lr": "1791255417.475979",
+   "rc": 3,
+   "lr": "1791255550.725059",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
@@ -151,10 +151,11 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "<mailto:···|···>"
+    "<mailto:···|···>",
+    "수정 양식 전달 및 방법 안내 완료\n\n수정 파일 작업 후 재인입 예정"
    ],
-   "rc": 3,
-   "lr": "1791255237.755639",
+   "rc": 4,
+   "lr": "1791255496.040349",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
