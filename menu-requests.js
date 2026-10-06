@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3020,
- "updatedAt": "2026-10-06 13:02",
+ "version": 3021,
+ "updatedAt": "2026-10-06 13:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1791260808.803649",
+   "date": "2026-10-06",
+   "time": "13:26",
+   "store": "장금이전집",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 장금이전집 토스 메뉴\n대용량 첨부 2개 12MB  IMG_0427.jpeg 6437961 ~ 2026/11/05 IMG_0426.jpeg 5817297 ~ 2026/11/05 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    토스 메뉴 사진보냅니다   ··· 매장고유번호 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a10f751468b8711>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a10f751468b8711",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791260808803649"
+  },
   {
    "ts": "1791259252.241899",
    "date": "2026-10-06",
