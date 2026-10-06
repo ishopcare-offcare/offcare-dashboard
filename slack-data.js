@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16884,
+  "version": 16885,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232741,17 +232741,18 @@ window.SLACK_DATA = {
     },
     "2026-10-06": {
       "counts": {
-        "onboarding": {
-          "고경림": 3,
-          "배선유": 1,
-          "심성현": 1
-        },
         "as": {
+          "미지정": 1,
           "심성현": 2,
           "김동욱": 1,
           "김현기": 1,
           "배선유": 2,
           "고경림": 1
+        },
+        "onboarding": {
+          "고경림": 3,
+          "배선유": 1,
+          "심성현": 1
         },
         "booking": {
           "김동욱": 1,
@@ -232764,6 +232765,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:32",
+          "store": "꾸안꾸",
+          "biz": "8290203737",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "유프 연결 재요청, 반응없음 /점검 부탁드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:20",
           "store": "예아이뷰티",
@@ -232942,7 +232954,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 2,
         "unknown": 0
       },
@@ -233004,7 +233016,7 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791250699.467,
+        "lastSeen": 1791250789.932,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
@@ -310439,7 +310451,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:38",
+    "at": "2026-10-06 10:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310559,7 +310571,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:38",
+    "at": "2026-10-06 10:39",
     "pri": {
       "days": 0,
       "failed": [],
