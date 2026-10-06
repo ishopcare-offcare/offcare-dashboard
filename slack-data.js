@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16855,
+  "version": 16856,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232745,6 +232745,7 @@ window.SLACK_DATA = {
           "심성현": 1
         },
         "as": {
+          "김현기": 1,
           "배선유": 2,
           "고경림": 1
         },
@@ -232764,6 +232765,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "키오스크 모드로 로그인 상태 재온보딩 후 사용 방법 안내 완료"
+        },
+        {
+          "time": "09:40",
+          "store": "라라라 브런치카페 창원사파점",
+          "biz": "2270953274",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "프론트를 키오스크모드로 사용중인데 주방쪽에서 주문서가 잘 나오다가 갑자기 안나온다 하십니다. 확인 부탁드려요 :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:24",
@@ -232811,7 +232823,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -232873,7 +232885,7 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791248086.759,
+        "lastSeen": 1791248161.56,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
@@ -310281,7 +310293,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:55",
+    "at": "2026-10-06 09:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310401,7 +310413,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:54",
+    "at": "2026-10-06 09:56",
     "pri": {
       "days": 0,
       "failed": [],
