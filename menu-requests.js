@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3048,
- "updatedAt": "2026-10-06 16:41",
+ "version": 3049,
+ "updatedAt": "2026-10-06 16:43",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "8000원"
+   ],
+   "rc": 1,
+   "lr": "1791272504.085989",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
@@ -1377,9 +1379,11 @@ window.MENU_REQUESTS = {
      ]
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "파일로 정리해서 다시 인입 예정"
+   ],
+   "rc": 1,
+   "lr": "1791272556.704589",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -1412,9 +1416,9 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C6KFKU755",
      "from": "댓글",
-     "path": "menu-files/1791266989_127029-0.png",
      "kind": "other",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791266989_127029-0.png"
     }
    ],
    "datt": [
@@ -1693,9 +1697,11 @@ window.MENU_REQUESTS = {
      "menu": []
     }
    ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791271251.009249",
+   "replies": [
+    "파일로 정리해서 다시 인입 예정"
+   ],
+   "rc": 2,
+   "lr": "1791272551.374899",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
