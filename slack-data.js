@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16897,
+  "version": 16898,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232755,6 +232755,9 @@ window.SLACK_DATA = {
           "심성현": 2,
           "고경림": 1
         },
+        "extern": {
+          "배선유": 1
+        },
         "onboarding": {
           "심성현": 2,
           "고경림": 3,
@@ -232857,6 +232860,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "타대리점 프로그램(OKPOS) - 토스포스 변경 매장 • 익일 오전9시 변경건으로 예약요청 • 예약완료 • 메뉴등록 작업 진행 익일 오전9시 변경건으로 예약요청 예약완료 메뉴등록 작업 진행"
+        },
+        {
+          "time": "10:33",
+          "store": "우리생고기·육회",
+          "biz": "7811902375",
+          "cat": "extern",
+          "emp": "배선유",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": "설치완료"
         },
         {
           "time": "10:32",
@@ -233058,7 +233072,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 21,
+        "online": 22,
         "offline": 5,
         "unknown": 0
       },
@@ -233116,7 +233130,7 @@ window.SLACK_DATA = {
       },
       "1791249675.145039": {
         "post": "1791249675.145039",
-        "lastSeen": 1791251884.834,
+        "lastSeen": 1791251978.377,
         "r": 1,
         "day": "2026-10-06",
         "idx": 3
@@ -233127,7 +233141,7 @@ window.SLACK_DATA = {
       },
       "1791251286.525559": {
         "post": "1791251286.525559",
-        "lastSeen": 1791251884.834,
+        "lastSeen": 1791251978.377,
         "r": 1,
         "day": "2026-10-06",
         "idx": 6
@@ -310597,7 +310611,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:58",
+    "at": "2026-10-06 10:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310717,7 +310731,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:58",
+    "at": "2026-10-06 10:59",
     "pri": {
       "days": 0,
       "failed": [],
