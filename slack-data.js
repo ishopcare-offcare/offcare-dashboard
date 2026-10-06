@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16865,
+  "version": 16866,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232794,7 +232794,7 @@ window.SLACK_DATA = {
           "req": "터프조합으로 확인됩니다., 전체적으로 설치 및 사용법 안내까지 있어 원격으로 이관(방문설치 방어)드립니다.(터프조합인데 터미널로만 결제가 가능한줄알고 터미널로만 결제를 했다고하셔서 일단 터프조합은 터미널로 가격입력/프론트로 곌제 안내까지는 완료):꾸벅",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "터미널2+프론트 온보딩완료 사용법 안내완료"
         },
         {
           "time": "09:59",
@@ -310381,7 +310381,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:09",
+    "at": "2026-10-06 10:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310501,7 +310501,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:08",
+    "at": "2026-10-06 10:09",
     "pri": {
       "days": 0,
       "failed": [],
