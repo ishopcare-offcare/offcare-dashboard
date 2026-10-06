@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16869,
+  "version": 16870,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232981,7 +232981,10 @@ window.SLACK_DATA = {
       },
       "1791249325.949739": {
         "post": "1791249325.949739",
-        "lastSeen": 1791249329.103
+        "lastSeen": 1791249377.617,
+        "r": 1,
+        "day": "2026-10-06",
+        "idx": 2
       }
     },
     "days": {
@@ -310369,8 +310372,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-06": {
-        "cnt": 2,
-        "sumMin": 1.7162795344988506,
+        "cnt": 3,
+        "sumMin": 2.173117220401764,
         "over": 0,
         "items": [
           {
@@ -310390,13 +310393,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "booking",
             "dmin": 4.8
+          },
+          {
+            "hm": "10:15",
+            "min": 0.5,
+            "store": "시골마루",
+            "biz": "1304668196",
+            "who": "배선유",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:15",
+    "at": "2026-10-06 10:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310516,7 +310527,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:15",
+    "at": "2026-10-06 10:16",
     "pri": {
       "days": 0,
       "failed": [],
