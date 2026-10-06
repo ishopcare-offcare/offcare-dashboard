@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16938,
+  "version": 16939,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232775,7 +232775,19 @@ window.SLACK_DATA = {
           "김동욱": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:00",
+          "store": "주식회사 에이치케이넷츠",
+          "biz": "2068124292",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "1차 부재"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:56",
@@ -232786,7 +232798,7 @@ window.SLACK_DATA = {
           "req": "유플러스 사용 매장 > 메뉴 추가 요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "테이블오더 사용 매장 / 터치키 생성ㅏ, 키오스크전시관리 추가"
         },
         {
           "time": "11:49",
@@ -233307,11 +233319,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 42,
+        "online": 43,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "11:56",
+      "updatedAt": "12:00",
       "voc": {
         "responses": 1,
         "install": {
@@ -233387,21 +233399,21 @@ window.SLACK_DATA = {
       },
       "1791251286.525559": {
         "post": "1791251286.525559",
-        "lastSeen": 1791255542.135,
+        "lastSeen": 1791255630.364,
         "r": 1,
         "day": "2026-10-06",
         "idx": 6
       },
       "1791252029.707619": {
         "post": "1791252029.707619",
-        "lastSeen": 1791255542.135,
+        "lastSeen": 1791255630.364,
         "r": 1,
         "day": "2026-10-06",
         "idx": 8
       },
       "1791254373.847969": {
         "post": "1791254373.847969",
-        "lastSeen": 1791255542.135,
+        "lastSeen": 1791255630.364,
         "r": 1,
         "day": "2026-10-06",
         "idx": 16
@@ -310969,7 +310981,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 11:59",
+    "at": "2026-10-06 12:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -311089,7 +311101,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 11:59",
+    "at": "2026-10-06 12:00",
     "pri": {
       "days": 0,
       "failed": [],
