@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16858,
+  "version": 16859,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232742,6 +232742,7 @@ window.SLACK_DATA = {
     "2026-10-06": {
       "counts": {
         "onboarding": {
+          "고경림": 1,
           "심성현": 1
         },
         "as": {
@@ -232755,6 +232756,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:50",
+          "store": "필라테스 리브르(pilates libre)",
+          "biz": "2072154500",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "터미널 + 프론트 연결 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재 (통화중) / 터미널2 + 프론트 온보딩완료 사용법 안내완료"
+        },
         {
           "time": "09:47",
           "store": "보배농장",
@@ -232823,11 +232835,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:59",
+      "updatedAt": "10:00",
       "voc": {
         "responses": 1,
         "install": {
@@ -232885,14 +232897,21 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791248364.906,
+        "lastSeen": 1791248437.892,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
       },
       "1791248340.703929": {
         "post": "1791248340.703929",
-        "lastSeen": 1791248364.906
+        "lastSeen": 1791248437.892,
+        "r": 1,
+        "day": "2026-10-06",
+        "idx": 1
+      },
+      "1791248409.283369": {
+        "post": "1791248409.283369",
+        "lastSeen": 1791248437.892
       }
     },
     "days": {
@@ -310280,8 +310299,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-06": {
-        "cnt": 1,
-        "sumMin": 0.7046950181325277,
+        "cnt": 2,
+        "sumMin": 1.7162795344988506,
         "over": 0,
         "items": [
           {
@@ -310291,13 +310310,21 @@ window.SLACK_DATA = {
             "biz": "1058801127",
             "who": "심성현",
             "cat": "as"
+          },
+          {
+            "hm": "09:59",
+            "min": 1,
+            "store": "커피쿡대구진천점",
+            "biz": "7421501320",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:59",
+    "at": "2026-10-06 10:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310417,7 +310444,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:59",
+    "at": "2026-10-06 10:00",
     "pri": {
       "days": 0,
       "failed": [],
