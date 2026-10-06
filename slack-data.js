@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16834,
+  "version": 16835,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232741,12 +232741,26 @@ window.SLACK_DATA = {
     },
     "2026-10-06": {
       "counts": {
+        "as": {
+          "배선유": 1
+        },
         "menu": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:03",
+          "store": "수정반점",
+          "biz": "8801502863",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포스기 + 프론트 연결 끊겼다고 하셔서 확인 요청 드립니다!",
+          "hw": "",
+          "intake": "offline",
+          "note": "lan 연결해서 사용중이셔서 케이블 제거 후 u+ 5g로 연결 ping 확인 시 이상없음"
+        },
         {
           "time": "08:30",
           "store": "맥쓰(MEXX)세계치킨제기역점",
@@ -232761,7 +232775,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:04"
@@ -232787,7 +232801,7 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791245542.602,
+        "lastSeen": 1791245661.602,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
@@ -310195,7 +310209,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:12",
+    "at": "2026-10-06 09:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310315,7 +310329,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:12",
+    "at": "2026-10-06 09:14",
     "pri": {
       "days": 0,
       "failed": [],
