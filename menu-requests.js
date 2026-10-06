@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3055,
- "updatedAt": "2026-10-06 17:32",
+ "version": 3056,
+ "updatedAt": "2026-10-06 17:33",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "• 덜미살(꼬들살) / 18000원으로 변경"
    ],
-   "rc": 2,
-   "lr": "1791275276.329689",
+   "rc": 3,
+   "lr": "1791275559.061189",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
