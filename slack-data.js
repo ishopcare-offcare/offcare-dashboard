@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16839,
+  "version": 16840,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232742,6 +232742,7 @@ window.SLACK_DATA = {
     "2026-10-06": {
       "counts": {
         "as": {
+          "고경림": 1,
           "배선유": 1
         },
         "menu": {
@@ -232750,6 +232751,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:16",
+          "store": "인동중고할인마트",
+          "biz": "1022901932",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "결제 후 영수증 출력 불가 확인 요청 드립니다. ( 고령 )",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트 -프린터 미설정 • 프린터 설정후 정상출력확인 프린터 설정후 정상출력확인"
+        },
         {
           "time": "09:03",
           "store": "수정반점",
@@ -232774,7 +232786,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 1,
         "unknown": 0
       },
@@ -232801,7 +232813,7 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791246129.775,
+        "lastSeen": 1791246209.724,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
@@ -310209,7 +310221,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:22",
+    "at": "2026-10-06 09:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310329,7 +310341,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:22",
+    "at": "2026-10-06 09:23",
     "pri": {
       "days": 0,
       "failed": [],
