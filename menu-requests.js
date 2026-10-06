@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3023,
- "updatedAt": "2026-10-06 13:56",
+ "version": 3024,
+ "updatedAt": "2026-10-06 13:58",
  "days": 30,
  "items": [
   {
@@ -1189,12 +1189,36 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791258493_472999-0.jpeg"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C71SRFCFK",
+     "from": "댓글",
+     "path": "menu-files/1791258493_472999-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "오리불고기",
+       "name": "황칠 오리야채불고기(2~3인)",
+       "price": 40000
+      },
+      {
+       "category": "오리불고기",
+       "name": "황칠 오리야채불고기(3~4인)",
+       "price": 59000
+      },
+      {
+       "category": "오리불고기",
+       "name": "오리야채불고기(1인추가)",
+       "price": 17000
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1791262583.184169",
+   "rc": 3,
+   "lr": "1791262619.010309",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
