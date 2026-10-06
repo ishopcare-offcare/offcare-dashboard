@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3028,
- "updatedAt": "2026-10-06 14:04",
+ "version": 3029,
+ "updatedAt": "2026-10-06 14:08",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,289 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_0428.jpeg",
+     "fid": "F0C6UMA5P0V",
+     "from": "댓글",
+     "path": "menu-files/1791260808_803649-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 6000
+      },
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "과일소주",
+       "price": 6000
+      },
+      {
+       "category": "주류/음료",
+       "name": "하이볼",
+       "price": 10000
+      },
+      {
+       "category": "주류/음료",
+       "name": "복분자",
+       "price": 18000
+      },
+      {
+       "category": "주류/음료",
+       "name": "막걸리",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "유자막걸리",
+       "price": 10000
+      },
+      {
+       "category": "주류/음료",
+       "name": "막걸리1잔",
+       "price": 3000
+      },
+      {
+       "category": "주류/음료",
+       "name": "인삼주",
+       "price": 10000
+      },
+      {
+       "category": "주류/음료",
+       "name": "아사히",
+       "price": 10000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료",
+       "price": 3000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료싯가",
+       "price": 0
+      },
+      {
+       "category": "주류/음료",
+       "name": "화요",
+       "price": 35000
+      },
+      {
+       "category": "주류/음료",
+       "name": "화요41",
+       "price": 50000
+      }
+     ]
+    },
+    {
+     "name": "IMG_0426.jpeg",
+     "fid": "F0C71UEHSEM",
+     "from": "댓글",
+     "path": "menu-files/1791260808_803649-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "해물볶음",
+       "price": 55000
+      },
+      {
+       "category": "메뉴",
+       "name": "산낙지",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "모듬전",
+       "price": 36000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우소금구이",
+       "price": 16000
+      },
+      {
+       "category": "메뉴",
+       "name": "해물파전",
+       "price": 26000
+      },
+      {
+       "category": "메뉴",
+       "name": "녹두전",
+       "price": 23000
+      },
+      {
+       "category": "메뉴",
+       "name": "감자전",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치전",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "두부제육",
+       "price": 26000
+      },
+      {
+       "category": "메뉴",
+       "name": "치킨",
+       "price": 26000
+      },
+      {
+       "category": "메뉴",
+       "name": "부대찌개",
+       "price": 28000
+      },
+      {
+       "category": "메뉴",
+       "name": "어묵탕",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "계란말이",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "계란찜",
+       "price": 13000
+      },
+      {
+       "category": "메뉴",
+       "name": "찐만두",
+       "price": 13000
+      },
+      {
+       "category": "메뉴",
+       "name": "군만두",
+       "price": 13000
+      },
+      {
+       "category": "메뉴",
+       "name": "잡채",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우튀김",
+       "price": 16000
+      },
+      {
+       "category": "메뉴",
+       "name": "부추새우전",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "떡볶이",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "오픈푸드",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "IMG_0427.jpeg",
+     "fid": "F0C6Y24GM1C",
+     "from": "댓글",
+     "path": "menu-files/1791260808_803649-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "식사",
+       "name": "김치찌개",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "순두부",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "설렁탕",
+       "price": 13000
+      },
+      {
+       "category": "식사",
+       "name": "떡만두국",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "돌솥비빔밥",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "라면",
+       "price": 7000
+      },
+      {
+       "category": "식사",
+       "name": "짜장",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "김밥",
+       "price": 5000
+      },
+      {
+       "category": "식사",
+       "name": "떡갈비정식",
+       "price": 13000
+      },
+      {
+       "category": "식사",
+       "name": "냉면",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "정식",
+       "price": 11000
+      },
+      {
+       "category": "식사",
+       "name": "밥",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "사리추가",
+       "price": 2000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 2,
+   "lr": "1791263187.280989",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a10f751468b8711",
