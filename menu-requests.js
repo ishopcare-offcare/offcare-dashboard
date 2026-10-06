@@ -3,10 +3,66 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3017,
- "updatedAt": "2026-10-06 12:45",
+ "version": 3018,
+ "updatedAt": "2026-10-06 12:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1791258493.472999",
+   "date": "2026-10-06",
+   "time": "12:48",
+   "store": "(봉명동)(주) 형과아우",
+   "biz": "1398802492",
+   "pos": "",
+   "content": "기존 포스에 오리불고기 메뉴 삭제 요청 및 아래 메뉴 추가 등록 요청.\n아래 메뉴 추가시에 흑염소 메뉴 카테고리도 추가 요청.",
+   "special": "",
+   "drive": [],
+   "files": 1,
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZCgxNzkxMjU3NDA3NDAxKV",
+     "fid": "F0C6J6KT13R",
+     "from": "원글",
+     "path": "menu-files/1791258493_472999-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "메뉴추가",
+       "name": "황칠 흑염소탕\"특대\"",
+       "price": 18000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "황칠 흑염소 전골 (3~4인)",
+       "price": 78000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "황칠흑염소 고기추가 (200g)",
+       "price": 25000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "야채추가(버섯\"깻잎\"부추)",
+       "price": 5000
+      },
+      {
+       "category": "메뉴추가",
+       "name": "흑염소 수육(3~4인)",
+       "price": 87000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791258496.949489",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791258493472999"
+  },
   {
    "ts": "1791258303.628519",
    "date": "2026-10-06",
