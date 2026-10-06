@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3011,
- "updatedAt": "2026-10-06 11:39",
+ "version": 3012,
+ "updatedAt": "2026-10-06 11:53",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,111 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C6Z5BK5H8",
+     "from": "댓글",
+     "path": "menu-files/1791254149_652189-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "초당옥수수 콜드브루",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "초당옥수수라떼",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "코코슈페너(10oz)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "더 블루(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "아메리카노(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "더 먹 (ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "굿데이 헤이즐넛(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "시나몬 허니라떼(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "스몰굿커피(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "더 블랙(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "카페라떼(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "헤이즐넛라떼(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "바닐라라떼(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "돌체라떼(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "굿커피(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "콜드브루(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "돌체콜드브루(ICED)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "비엔나커피(ICED)",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791255149.409479",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
