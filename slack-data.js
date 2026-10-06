@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16860,
+  "version": 16861,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232747,6 +232747,9 @@ window.SLACK_DATA = {
           "배선유": 2,
           "고경림": 1
         },
+        "booking": {
+          "김동욱": 1
+        },
         "onboarding": {
           "고경림": 1,
           "심성현": 1
@@ -232767,6 +232770,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:00",
+          "store": "화실1203미술교습소",
+          "biz": "6549702106",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "가결제",
+          "hw": "",
+          "intake": "online",
+          "note": "오후 3시 15분 재예약완료"
         },
         {
           "time": "09:50",
@@ -232847,7 +232861,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 1,
         "unknown": 0
       },
@@ -232909,14 +232923,14 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791248509.409,
+        "lastSeen": 1791248595.206,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
       },
       "1791248340.703929": {
         "post": "1791248340.703929",
-        "lastSeen": 1791248509.409,
+        "lastSeen": 1791248595.206,
         "r": 1,
         "day": "2026-10-06",
         "idx": 1
@@ -310332,7 +310346,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:02",
+    "at": "2026-10-06 10:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310452,7 +310466,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:01",
+    "at": "2026-10-06 10:03",
     "pri": {
       "days": 0,
       "failed": [],
