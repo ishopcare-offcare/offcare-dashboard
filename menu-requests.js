@@ -3,10 +3,177 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3029,
- "updatedAt": "2026-10-06 14:08",
+ "version": 3030,
+ "updatedAt": "2026-10-06 14:25",
  "days": 30,
  "items": [
+  {
+   "ts": "1791264257.064309",
+   "date": "2026-10-06",
+   "time": "14:24",
+   "store": "cafe soon",
+   "biz": "5193801689",
+   "pos": "토스포스",
+   "content": "파일에 첨부한 메뉴 등록 부탁드립니다.",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1bKvIWyYtoC5RnynurJ5pKwo7cygj2k6s/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1fiF7xgjiO75yeV4Xl31gdkZRxfYIn0t-/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1bKvIWyYtoC5RnynurJ5pKwo7cygj2k6s",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "DESSERT",
+       "name": "클래식 휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "DESSERT",
+       "name": "무화과아몬드 휘낭시에",
+       "price": 3800
+      },
+      {
+       "category": "DESSERT",
+       "name": "커피아몬드 마들렌",
+       "price": 3500
+      },
+      {
+       "category": "DESSERT",
+       "name": "초코크런치 마들렌",
+       "price": 3800
+      },
+      {
+       "category": "DESSERT",
+       "name": "단팥빵",
+       "price": 3000
+      },
+      {
+       "category": "DESSERT",
+       "name": "소금빵",
+       "price": 3000
+      },
+      {
+       "category": "DESSERT",
+       "name": "크로와상",
+       "price": 4500
+      }
+     ]
+    },
+    {
+     "id": "1fiF7xgjiO75yeV4Xl31gdkZRxfYIn0t-",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "모카라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "미숫가루라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "말차라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "고구마라떼",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "청포도에이드",
+       "price": 6000
+      },
+      {
+       "category": "ADE",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "딸기스무디",
+       "price": 6000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "고구마쉐이크",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "생강레몬차",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "대추차",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "카모마일",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스",
+       "price": 5000
+      },
+      {
+       "category": "SEASON",
+       "name": "눈꽃팥빙수",
+       "price": 9000
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791264257064309"
+  },
   {
    "ts": "1791260808.803649",
    "date": "2026-10-06",
