@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16853,
+  "version": 16854,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232741,6 +232741,9 @@ window.SLACK_DATA = {
     },
     "2026-10-06": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "as": {
           "배선유": 2,
           "고경림": 1
@@ -232751,6 +232754,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:47",
+          "store": "보배농장",
+          "biz": "7579302445",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "포프(휴대폰)+유프 사용 매장으로, 동일한 와이파이 잡았으나 단말기 연결되지 않으신다고 하여 도움 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:24",
           "store": "공증인 김세진 사무소",
@@ -232797,7 +232811,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -232859,7 +232873,7 @@ window.SLACK_DATA = {
       },
       "1791245079.238299": {
         "post": "1791245079.238299",
-        "lastSeen": 1791247936.935,
+        "lastSeen": 1791248005.793,
         "r": 1,
         "day": "2026-10-06",
         "idx": 0
@@ -310267,7 +310281,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 09:52",
+    "at": "2026-10-06 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310387,7 +310401,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 09:52",
+    "at": "2026-10-06 09:53",
     "pri": {
       "days": 0,
       "failed": [],
