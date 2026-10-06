@@ -3,10 +3,1121 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3019,
- "updatedAt": "2026-10-06 12:50",
+ "version": 3020,
+ "updatedAt": "2026-10-06 13:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1791259252.241899",
+   "date": "2026-10-06",
+   "time": "13:00",
+   "store": "멜토파스타",
+   "biz": "2921502969",
+   "pos": "토스포스",
+   "content": "전메뉴 등록",
+   "special": "가격표옵션 첨부해드리겠습니다.",
+   "drive": [
+    "https://drive.google.com/file/d/1re_lkQTFD1z2Qfjb_a3C6rtvd6p2aWHe/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1QeoPzWk2e4kPiigDCvbg0zBRF83qjiDW/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1V8gQ6SFZRaGFt2PWLzzRCseYOBe-Cmd3/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Cx_gO-aeiqThGySUqeDAJ594CwPG97vF/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1re_lkQTFD1z2Qfjb_a3C6rtvd6p2aWHe",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "MELTO · 1인세트",
+       "name": "나를 위한 멜토 세트",
+       "price": 16900
+      },
+      {
+       "category": "MELTO · SPECIAL SET",
+       "name": "찹스테이크 스페셜 세트",
+       "price": 30800
+      },
+      {
+       "category": "MELTO · SPECIAL SET",
+       "name": "스테이크 야채볶음 스페셜 세트",
+       "price": 30800
+      },
+      {
+       "category": "MELTO · SPECIAL SET",
+       "name": "감바스와 마늘빵 스페셜 세트",
+       "price": 30800
+      },
+      {
+       "category": "MELTO · SALAD SET",
+       "name": "프레시 멜토 샐러드 세트",
+       "price": 26800
+      },
+      {
+       "category": "MELTO · FULL SET",
+       "name": "멜토 풀세트",
+       "price": 43700
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "매콤 크림 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "바질 크림 파스타",
+       "price": 13400
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "베이컨 까르보나라 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "봉골레 크림 파스타",
+       "price": 13400
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "투움바 파스타",
+       "price": 13400
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "베이컨 불닭 크림 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "우삼겹 불닭 크림 파스타",
+       "price": 13900
+      },
+      {
+       "category": "PASTA · OIL",
+       "name": "우삼겹 알리오 올리오 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · OIL",
+       "name": "새우 알리오 올리오 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · OIL",
+       "name": "봉골레 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · TOMATO",
+       "name": "새우 토마토 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · TOMATO",
+       "name": "베이컨 토마토 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · TOMATO",
+       "name": "해산물 토마토 파스타",
+       "price": 13400
+      },
+      {
+       "category": "PASTA · ROSE",
+       "name": "새우 로제 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · ROSE",
+       "name": "베이컨 로제 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · ROSE",
+       "name": "베이컨 불닭 로제 파스타",
+       "price": 12900
+      },
+      {
+       "category": "PASTA · ROSE",
+       "name": "우삼겹 불닭 로제 파스타",
+       "price": 13900
+      },
+      {
+       "category": "PASTA · HANGOVER",
+       "name": "우삼겹 해장 파스타",
+       "price": 13900
+      },
+      {
+       "category": "PASTA · HANGOVER",
+       "name": "해산물 해장 파스타",
+       "price": 13900
+      },
+      {
+       "category": "PASTA · SALAD",
+       "name": "닭가슴살 샐러드 파스타",
+       "price": 14900
+      },
+      {
+       "category": "PASTA · SALAD",
+       "name": "새우 샐러드 파스타",
+       "price": 14900
+      },
+      {
+       "category": "PASTA · SALAD",
+       "name": "스테이크 샐러드 파스타",
+       "price": 15900
+      }
+     ]
+    },
+    {
+     "id": "1QeoPzWk2e4kPiigDCvbg0zBRF83qjiDW",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "매콤 크림 리조또",
+       "price": 12900
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "바질 크림 리조또",
+       "price": 13400
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "베이컨 까르보나라 리조또",
+       "price": 12900
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "베이컨 불닭 크림 리조또",
+       "price": 12900
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "우삼겹 불닭 크림 리조또",
+       "price": 13900
+      },
+      {
+       "category": "RISOTTO · ROSE",
+       "name": "새우 로제 리조또",
+       "price": 12900
+      },
+      {
+       "category": "RISOTTO · ROSE",
+       "name": "베이컨 로제 리조또",
+       "price": 12900
+      },
+      {
+       "category": "RISOTTO · ROSE",
+       "name": "베이컨 불닭 로제 리조또",
+       "price": 12900
+      },
+      {
+       "category": "RISOTTO · ROSE",
+       "name": "우삼겹 불닭 로제 리조또",
+       "price": 13900
+      },
+      {
+       "category": "PILAF",
+       "name": "베이컨 필라프",
+       "price": 12900
+      },
+      {
+       "category": "PILAF",
+       "name": "새우 필라프",
+       "price": 12900
+      },
+      {
+       "category": "PILAF",
+       "name": "우삼겹 필라프",
+       "price": 12900
+      },
+      {
+       "category": "PILAF",
+       "name": "베이컨 새우 필라프",
+       "price": 12900
+      },
+      {
+       "category": "PILAF",
+       "name": "베이컨 김치 필라프",
+       "price": 12900
+      },
+      {
+       "category": "MAYO PILAF",
+       "name": "베이컨 마요 필라프",
+       "price": 13400
+      },
+      {
+       "category": "MAYO PILAF",
+       "name": "새우 마요 필라프",
+       "price": 13400
+      },
+      {
+       "category": "MAYO PILAF",
+       "name": "우삼겹 마요 필라프",
+       "price": 13400
+      },
+      {
+       "category": "MAYO PILAF",
+       "name": "베이컨 새우 마요 필라프",
+       "price": 13400
+      },
+      {
+       "category": "MAYO PILAF",
+       "name": "베이컨 김치 마요 필라프",
+       "price": 13400
+      },
+      {
+       "category": "SALAD",
+       "name": "닭가슴살 샐러드",
+       "price": 12900
+      },
+      {
+       "category": "SALAD",
+       "name": "새우 샐러드",
+       "price": 12900
+      },
+      {
+       "category": "SALAD",
+       "name": "스테이크 샐러드",
+       "price": 13900
+      },
+      {
+       "category": "SPECIAL",
+       "name": "찹스테이크",
+       "price": 16900
+      },
+      {
+       "category": "SPECIAL",
+       "name": "스테이크 야채볶음",
+       "price": 16900
+      },
+      {
+       "category": "SPECIAL",
+       "name": "감바스와 마늘빵",
+       "price": 16900
+      },
+      {
+       "category": "SIDE",
+       "name": "마늘빵 3개",
+       "price": 3000
+      },
+      {
+       "category": "SIDE",
+       "name": "맛감자 15개",
+       "price": 3000
+      },
+      {
+       "category": "SIDE",
+       "name": "치즈볼 3개",
+       "price": 3000
+      },
+      {
+       "category": "SIDE",
+       "name": "대왕소시지 1개",
+       "price": 3000
+      },
+      {
+       "category": "SIDE",
+       "name": "왕새우튀김 2개",
+       "price": 3000
+      },
+      {
+       "category": "SIDE",
+       "name": "치킨가라아게 5개",
+       "price": 4000
+      },
+      {
+       "category": "SIDE",
+       "name": "치킨텐더 3개",
+       "price": 4000
+      },
+      {
+       "category": "SIDE",
+       "name": "버팔로윙 4개",
+       "price": 4000
+      },
+      {
+       "category": "SIDE",
+       "name": "버팔로봉 4개",
+       "price": 4000
+      },
+      {
+       "category": "SIDE",
+       "name": "버팔로윙/봉 4개",
+       "price": 4000
+      },
+      {
+       "category": "SIDE",
+       "name": "해쉬브라운 3개",
+       "price": 4000
+      },
+      {
+       "category": "DRINK",
+       "name": "펩시 355ml",
+       "price": 2000
+      },
+      {
+       "category": "DRINK",
+       "name": "펩시제로 355ml",
+       "price": 2000
+      },
+      {
+       "category": "DRINK",
+       "name": "스프라이트 355ml",
+       "price": 2000
+      },
+      {
+       "category": "DRINK",
+       "name": "스프라이트제로 355m",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "id": "1V8gQ6SFZRaGFt2PWLzzRCseYOBe-Cmd3",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "리뷰이벤트",
+       "name": "한 주문당 한번만 참여가능합니다.",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "음식만 맛있게 먹을게요.(리뷰참여X)",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "리뷰 [치킨가라아게 2개]",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "리뷰 [맛감자 8개]",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "리뷰 [치킨텐더 1개]",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "리뷰 [마늘빵 2개]",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "리뷰 [후라이 1개]",
+       "price": 0
+      },
+      {
+       "category": "리뷰이벤트",
+       "name": "리뷰 [피클 1개]",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "매콤 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "바질 크림 파스타",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 까르보나라 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "봉골레 크림 파스타",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "투움바 파스타",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 불닭 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 불닭 크림 파스타",
+       "price": 1000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 알리오 올리오 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 알리오 올리오 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "봉골레 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 토마토 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 토마토 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "해산물 토마토 파스타",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 로제 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 로제 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 불닭 로제 파스타",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 불닭 로제 파스타",
+       "price": 1000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 해장 파스타",
+       "price": 1000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "해산물 해장 파스타",
+       "price": 1000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "닭가슴살 샐러드 파스타",
+       "price": 2000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 샐러드 파스타",
+       "price": 2000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "스테이크 샐러드 파스타",
+       "price": 3000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "매콤 크림 리조또",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "바질 크림 리조또",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 까르보나라 리조또",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 불닭 크림 리조또",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 불닭 크림 리조또",
+       "price": 1000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 로제 리조또",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 로제 리조또",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 불닭 로제 리조또",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 불닭 로제 리조또",
+       "price": 1000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 필라프",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 필라프",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 필라프",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 새우 필라프",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 김치 필라프",
+       "price": 0
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 마요 필라프",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "새우 마요 필라프",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "우삼겹 마요 필라프",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 새우 마요 필라프",
+       "price": 500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "베이컨 김치 마요 필라프",
+       "price": 500
+      },
+      {
+       "category": "스페셜메뉴",
+       "name": "감바스",
+       "price": 0
+      },
+      {
+       "category": "스페셜메뉴",
+       "name": "찹스테이크",
+       "price": 0
+      },
+      {
+       "category": "스페셜메뉴",
+       "name": "스테이크 야채볶음",
+       "price": 0
+      },
+      {
+       "category": "샐러드",
+       "name": "새우샐러드",
+       "price": 0
+      },
+      {
+       "category": "샐러드",
+       "name": "닭가슴살샐러드",
+       "price": 0
+      },
+      {
+       "category": "샐러드",
+       "name": "스테이크샐러드",
+       "price": 1000
+      },
+      {
+       "category": "맵기 선택",
+       "name": "1단계 - 살짝 매운맛 (신라면 정도)",
+       "price": 0
+      },
+      {
+       "category": "맵기 선택",
+       "name": "2단계 - 매운맛 (틈새라면 정도)",
+       "price": 0
+      },
+      {
+       "category": "맵기 선택",
+       "name": "3단계 - 꽤 매운맛 (불닭볶음면 정도)",
+       "price": 0
+      },
+      {
+       "category": "맵기 선택",
+       "name": "4단계 - 아주 매운맛 (엽떡 기본맛 정도)",
+       "price": 0
+      },
+      {
+       "category": "맵기 선택",
+       "name": "5단계 - 극강의 매운맛 (진짜 맵부심만 도전)",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴 맵기 선택",
+       "name": "샐러드,불닭 메뉴는 맵기 선택 X",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴 맵기 선택",
+       "name": "1단계 - 살짝 매운맛 (신라면 정도)",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴 맵기 선택",
+       "name": "2단계 - 매운맛 (틈새라면 정도)",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴 맵기 선택",
+       "name": "3단계 - 꽤 매운맛 (불닭볶음면 정도)",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴 맵기 선택",
+       "name": "4단계 - 아주 매운맛 (엽떡 기본맛 정도)",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴 맵기 선택",
+       "name": "5단계 - 극강의 매운맛 (진짜 맵부심만 도전)",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1Cx_gO-aeiqThGySUqeDAJ594CwPG97vF",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "파스타 토핑추가",
+       "name": "면(40g)추가",
+       "price": 1000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "스테이크 추가",
+       "price": 5000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "우삼겹(80g)추가",
+       "price": 4000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "베이컨(30g)추가",
+       "price": 1500
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "베이컨(60g)추가",
+       "price": 3000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "새우(2마리)추가",
+       "price": 1500
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "새우(4마리)추가",
+       "price": 3000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "새우(8마리)추가",
+       "price": 5000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "버섯(30g)추가",
+       "price": 1500
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "버섯(60g)추가",
+       "price": 3000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "오징어(2개)추가",
+       "price": 1000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "홍합(50g)추가",
+       "price": 1500
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "바지락(100g)추가",
+       "price": 2000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "편마늘(20g)추가",
+       "price": 1000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "체다치즈(1개)추가",
+       "price": 1000
+      },
+      {
+       "category": "파스타 토핑추가",
+       "name": "후라이(1개)추가",
+       "price": 1000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "밥(40g)추가",
+       "price": 1000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "스테이크 추가",
+       "price": 5000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "우삼겹(80g)추가",
+       "price": 4000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "베이컨(30g)추가",
+       "price": 1500
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "베이컨(60g)추가",
+       "price": 3000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "새우(2마리)추가",
+       "price": 1500
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "새우(4마리)추가",
+       "price": 3000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "새우(8마리)추가",
+       "price": 5000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "버섯(30g)추가",
+       "price": 1500
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "버섯(60g)추가",
+       "price": 3000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "편마늘(20g)추가",
+       "price": 1000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "체다치즈(1개)추가",
+       "price": 1000
+      },
+      {
+       "category": "리조또/필라프 토핑 추가",
+       "name": "후라이(1개)추가",
+       "price": 1000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "면 40g 추가(리조또,필라프는 선택 불가능)",
+       "price": 1000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "밥 40g 추가(파스타는 선택 불가능)",
+       "price": 1000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "스테이크 추가",
+       "price": 5000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "우삼겹 80g 추가",
+       "price": 4000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "베이컨 30g 추가",
+       "price": 1500
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "베이컨 60g 추가",
+       "price": 3000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "새우 2마리 추가",
+       "price": 1500
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "새우 4마리 추가",
+       "price": 3000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "새우 8마리 추가",
+       "price": 5000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "버섯 30g 추가",
+       "price": 1500
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "버섯 60g 추가",
+       "price": 3000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "오징어 2개 추가(리조또,필라프는 선택 불가능)",
+       "price": 1000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "홍합 50g 추가(리조또,필라프는 선택 불가능)",
+       "price": 1500
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "바지락 100g 추가(리조또,필라프는 선택 불가능)",
+       "price": 2000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "편마늘 20g 추가",
+       "price": 1000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "체다치즈 1개 추가",
+       "price": 1000
+      },
+      {
+       "category": "세트메뉴 토핑추가",
+       "name": "후라이 1개 추가",
+       "price": 1000
+      },
+      {
+       "category": "사이드 선택",
+       "name": "마늘빵 3개",
+       "price": 0
+      },
+      {
+       "category": "사이드 선택",
+       "name": "맛감자 15개",
+       "price": 0
+      },
+      {
+       "category": "사이드 선택",
+       "name": "치즈볼 3개",
+       "price": 0
+      },
+      {
+       "category": "사이드 선택",
+       "name": "대왕소시지 1개",
+       "price": 0
+      },
+      {
+       "category": "사이드 선택",
+       "name": "왕새우튀김 2개",
+       "price": 0
+      },
+      {
+       "category": "사이드 선택",
+       "name": "치킨가라아게 5개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 선택",
+       "name": "치킨텐더 3개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 선택",
+       "name": "버팔로윙 4개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 선택",
+       "name": "버팔로봉 4개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 선택",
+       "name": "버팔로윙/봉 4개",
+       "price": 1000
+      },
+      {
+       "category": "사이드 선택",
+       "name": "해쉬브라운 3개",
+       "price": 1000
+      },
+      {
+       "category": "음료 선택",
+       "name": "펩시 355ml",
+       "price": 0
+      },
+      {
+       "category": "음료 선택",
+       "name": "펩시제로 355ml",
+       "price": 0
+      },
+      {
+       "category": "음료 선택",
+       "name": "스프라이트 355ml",
+       "price": 0
+      },
+      {
+       "category": "음료 선택",
+       "name": "스프라이트제로 355m",
+       "price": 0
+      },
+      {
+       "category": "사이드 추가",
+       "name": "마늘빵 3개",
+       "price": 3000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "맛감자 15개",
+       "price": 3000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "치즈볼 3개",
+       "price": 3000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "대왕소시지 1개",
+       "price": 3000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "왕새우튀김 2개",
+       "price": 3000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "치킨가라아게 5개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "치킨텐더 3개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "버팔로윙 4개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "버팔로봉 4개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "버팔로윙/봉 4개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 추가",
+       "name": "해쉬브라운 3개",
+       "price": 4000
+      },
+      {
+       "category": "음료 추가",
+       "name": "펩시 355ml",
+       "price": 2000
+      },
+      {
+       "category": "음료 추가",
+       "name": "펩시제로 355ml",
+       "price": 2000
+      },
+      {
+       "category": "음료 추가",
+       "name": "스프라이트 355ml",
+       "price": 2000
+      },
+      {
+       "category": "음료 추가",
+       "name": "스프라이트제로 355m",
+       "price": 2000
+      },
+      {
+       "category": "선택",
+       "name": "피클(O) 피클 주세요",
+       "price": 0
+      },
+      {
+       "category": "선택",
+       "name": "피클(X) 피클 빼주세요",
+       "price": 0
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791259252241899"
+  },
   {
    "ts": "1791258493.472999",
    "date": "2026-10-06",
