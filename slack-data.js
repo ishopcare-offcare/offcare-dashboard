@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 16864,
+  "version": 16865,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232753,8 +232753,8 @@ window.SLACK_DATA = {
           "심성현": 1
         },
         "onboarding": {
+          "고경림": 2,
           "배선유": 1,
-          "고경림": 1,
           "심성현": 1
         },
         "menu": {
@@ -232784,6 +232784,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "오후 3시 15분 재예약완료"
+        },
+        {
+          "time": "10:00",
+          "store": "썬플라워",
+          "biz": "4839402032",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "터프조합으로 확인됩니다., 전체적으로 설치 및 사용법 안내까지 있어 원격으로 이관(방문설치 방어)드립니다.(터프조합인데 터미널로만 결제가 가능한줄알고 터미널로만 결제를 했다고하셔서 일단 터프조합은 터미널로 가격입력/프론트로 곌제 안내까지는 완료):꾸벅",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:59",
@@ -232897,11 +232908,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:00",
+      "updatedAt": "10:08",
       "voc": {
         "responses": 1,
         "install": {
@@ -310370,7 +310381,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-06 10:07",
+    "at": "2026-10-06 10:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -310490,7 +310501,7 @@ window.SLACK_DATA = {
     "2026-10-06": 2
   },
   "noteMig": {
-    "at": "2026-10-06 10:07",
+    "at": "2026-10-06 10:08",
     "pri": {
       "days": 0,
       "failed": [],
