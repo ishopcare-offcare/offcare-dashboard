@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 2998,
- "updatedAt": "2026-10-06 09:04",
+ "version": 2999,
+ "updatedAt": "2026-10-06 09:05",
  "days": 30,
  "items": [
   {
@@ -166,7 +166,15 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1KkCdxQOecgF8d-JPPu9jmq2AeI8VVlDC/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "제야 메뉴판 2026년 04월 22일.pptx",
+     "fid": "F0C6S6C6BEX",
+     "from": "댓글",
+     "path": "menu-files/1791162756_861759-0.pptx",
+     "nj": 1
+    }
+   ],
    "datt": [],
    "replies": [
     "일부만 들어가있음 통화필요",
@@ -175,10 +183,10 @@ window.MENU_REQUESTS = {
     "ㅋㅋㅋㅋㅋㅋ",
     "거짓말 :lying_face:",
     "규빈님 이거 파일이 안열리는데 엑셀 가지고 계시면 여기 올려주실 수 있나요",
-    "PDF파일"
+    "PPT 파일이네"
    ],
-   "rc": 7,
-   "lr": "1791245007.625949",
+   "rc": 8,
+   "lr": "1791245091.257869",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
