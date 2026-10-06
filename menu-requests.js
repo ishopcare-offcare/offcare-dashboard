@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3058,
- "updatedAt": "2026-10-06 17:44",
+ "version": 3059,
+ "updatedAt": "2026-10-06 17:48",
  "days": 30,
  "items": [
   {
@@ -56536,36 +56536,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788739773355829"
-  },
-  {
-   "ts": "1788684408.354789",
-   "date": "2026-09-06",
-   "time": "17:46",
-   "store": "샐러드타임",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: (샐러드타임)키오스크메뉴사진\n··· 샐러드타임 키오스크 사진 등록 및 메뉴등록 요청 1.키오스크 메뉴등록(사진등록)   유부월남쌈 13,900원 2.스프 탭 : 메뉴등록(사진등록)   고구마스프 6,000원   3.나머지 사진은 탭별 사진이 없는 메뉴 사진 전송입니다. 키오스크에 업로드 시켜주세요   샌드위치탭: 치아바타불고기, 치아바타우삼겹   포케 탭 : 두부포케, 파채삼겹살포케   도시락 탭: 목살도시락, 부채살도시락,소불고기도시락, 파채삼겹도시락, 스팸김치볶음밥도시락   스프: 단호박스프, 양송이스프   소소한간식: 계란찜, 쫀득옥수수, 고\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a075e5ebf6fe1f8>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴등록완료 솔라피 발송 완료",
-    "민석님 안녕하세요!\n해당 매장 메뉴에서 단호박 스프 사진이 안올라왔다고 하셔서 확인 부탁드립니다",
-    "님\n이미지 등록 완료입니다"
-   ],
-   "rc": 4,
-   "lr": "1788766064.200909",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a075e5ebf6fe1f8",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788684408354789"
   }
  ],
  "ocr": {
