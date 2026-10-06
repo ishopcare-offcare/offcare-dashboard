@@ -3,10 +3,338 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3034,
- "updatedAt": "2026-10-06 14:50",
+ "version": 3035,
+ "updatedAt": "2026-10-06 15:11",
  "days": 30,
  "items": [
+  {
+   "ts": "1791266989.127029",
+   "date": "2026-10-06",
+   "time": "15:09",
+   "store": "멜토파스타",
+   "biz": "2921502969",
+   "pos": "토스포스",
+   "content": "옵션 추가,설명",
+   "special": "추가요청 내용 전달드립니다.",
+   "drive": [
+    "https://drive.google.com/file/d/1dLwgRg7gqZowZg8jq9i1mzLE-nzWgeQl/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1FvjdPJs97dyoAc-b8b7HlIHkZrNgbrz9/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1F2cHRXSGRzaGezw4MoTYb1hpVdBMj42x/view?usp=drivesdk",
+    "https://drive.google.com/file/d/15Y8GiC_jmTs7fO1GT0lnB0L0gxG0o5Ha/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1eIPSJ4ZtpoVDHKhPFTxEUDm9mLRhndFK/view?usp=drivesdk",
+    "https://drive.google.com/file/d/11k83F1pZQVSpZFkJG_0J84xoh9SflFN5/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1oo469PTSi2ODx9t1Pk6UCOGVsn4Ej1gu/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1gk500PxxMkiXQb9kn8gGIZH44aoBrYdx/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1OQ5jkXC93CVCBLOxysCLoKCMc0703x4U/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ZiHfZqHE9c00Lox7aWYhCyXNvjjbm5en/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1dLwgRg7gqZowZg8jq9i1mzLE-nzWgeQl",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "프레시 멜토 샐러드 세트",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "멜토 풀세트",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1FvjdPJs97dyoAc-b8b7HlIHkZrNgbrz9",
+     "kind": "other",
+     "menu": [
+      {
+       "category": "SET MENU",
+       "name": "MELTO · 1인세트",
+       "price": 0
+      },
+      {
+       "category": "MELTO · SPECIAL SET",
+       "name": "찹스테이크 스페셜 세트",
+       "price": 0
+      },
+      {
+       "category": "MELTO · SPECIAL SET",
+       "name": "스테이크 야채볶음 스페셜 세트",
+       "price": 0
+      },
+      {
+       "category": "MELTO · SPECIAL SET",
+       "name": "감바스와 마늘빵 스페셜 세트",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1F2cHRXSGRzaGezw4MoTYb1hpVdBMj42x",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PASTA · CREAM",
+       "name": "매콤 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "바질 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "베이컨 까르보나라 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "봉골레 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · CREAM",
+       "name": "투움바 파스타",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "15Y8GiC_jmTs7fO1GT0lnB0L0gxG0o5Ha",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "베이컨 불닭 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "우삼겹 불닭 크림 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · OIL",
+       "name": "우삼겹 알리오 올리오 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · OIL",
+       "name": "새우 알리오 올리오 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · OIL",
+       "name": "봉골레 파스타",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1eIPSJ4ZtpoVDHKhPFTxEUDm9mLRhndFK",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PASTA · TOMATO",
+       "name": "새우 토마토 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · TOMATO",
+       "name": "베이컨 토마토 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · TOMATO",
+       "name": "해산물 토마토 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · ROSÉ",
+       "name": "새우 로제 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · ROSÉ",
+       "name": "베이컨 로제 파스타",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "11k83F1pZQVSpZFkJG_0J84xoh9SflFN5",
+     "kind": "other",
+     "menu": [
+      {
+       "category": "",
+       "name": "베이컨 불닭 로제 파스타",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "우삼겹 불닭 로제 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · HANGOVER",
+       "name": "우삼겹 해장 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · HANGOVER",
+       "name": "해산물 해장 파스타",
+       "price": 0
+      },
+      {
+       "category": "PASTA · SALAD",
+       "name": "닭가슴살 샐러드 파스타",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1oo469PTSi2ODx9t1Pk6UCOGVsn4Ej1gu",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "새우 샐러드 파스타",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "스테이크 샐러드 파스타",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "매콤 크림 리조또",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "바질 크림 리조또",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · CREAM",
+       "name": "베이컨 까르보나라 리조또",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1gk500PxxMkiXQb9kn8gGIZH44aoBrYdx",
+     "kind": "other",
+     "menu": [
+      {
+       "category": "",
+       "name": "베이컨 불닭 크림 리조또",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "우삼겹 불닭 크림 리조또",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · ROSÉ",
+       "name": "새우 로제 리조또",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · ROSÉ",
+       "name": "베이컨 로제 리조또",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · ROSÉ",
+       "name": "베이컨 불닭 로제 리조또",
+       "price": 0
+      },
+      {
+       "category": "RISOTTO · ROSÉ",
+       "name": "우삼겹 불닭 로제 리조또",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1OQ5jkXC93CVCBLOxysCLoKCMc0703x4U",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PILAF",
+       "name": "베이컨 필라프",
+       "price": 0
+      },
+      {
+       "category": "PILAF",
+       "name": "새우 필라프",
+       "price": 0
+      },
+      {
+       "category": "PILAF",
+       "name": "우삼겹 필라프",
+       "price": 0
+      },
+      {
+       "category": "PILAF",
+       "name": "베이컨 새우 필라프",
+       "price": 0
+      },
+      {
+       "category": "PILAF",
+       "name": "베이컨 김치 필라프",
+       "price": 0
+      },
+      {
+       "category": "MAYO PILAF",
+       "name": "베이컨 마요 필라프",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "id": "1ZiHfZqHE9c00Lox7aWYhCyXNvjjbm5en",
+     "kind": "other",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791266989127029"
+  },
+  {
+   "ts": "1791266945.398359",
+   "date": "2026-10-06",
+   "time": "15:09",
+   "store": "용용선생 청주지웰복대점",
+   "biz": "6531002169",
+   "pos": "",
+   "content": "QR 테이블 오더에 '리뷰' 관련 된 메뉴 모두 삭제 요청 주셨습니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791266949.478299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791266945398359"
+  },
   {
    "ts": "1791264257.064309",
    "date": "2026-10-06",
