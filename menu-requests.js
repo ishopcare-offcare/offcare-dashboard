@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3068,
- "updatedAt": "2026-10-07 11:35",
+ "version": 3069,
+ "updatedAt": "2026-10-07 11:39",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_3014.jpg.jpeg",
      "fid": "F0C73U0ES8K",
      "from": "댓글",
-     "path": "menu-files/1791339865_322819-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -61,13 +60,13 @@ window.MENU_REQUESTS = {
        "name": "프리미엄 연어 리코타 샐러드",
        "price": 14900
       }
-     ]
+     ],
+     "path": "menu-files/1791339865_322819-0.jpeg"
     },
     {
      "name": "IMG_3015.jpg.jpeg",
      "fid": "F0C84G8NDME",
      "from": "댓글",
-     "path": "menu-files/1791339865_322819-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -105,13 +104,13 @@ window.MENU_REQUESTS = {
        "name": "프리미엄 연어 리코타 포케",
        "price": 17200
       }
-     ]
+     ],
+     "path": "menu-files/1791339865_322819-1.jpeg"
     },
     {
      "name": "IMG_3016.jpg.jpeg",
      "fid": "F0C7A0PHRSN",
      "from": "댓글",
-     "path": "menu-files/1791339865_322819-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -144,13 +143,13 @@ window.MENU_REQUESTS = {
        "name": "[벌크업]소고기 스테이크 볼",
        "price": 14900
       }
-     ]
+     ],
+     "path": "menu-files/1791339865_322819-2.jpeg"
     },
     {
      "name": "IMG_3023.jpg.jpeg",
      "fid": "F0C786EAQQN",
      "from": "댓글",
-     "path": "menu-files/1791339865_322819-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -168,13 +167,13 @@ window.MENU_REQUESTS = {
        "name": "[포장이뻬트]닭가슴살 샐러드",
        "price": 9000
       }
-     ]
+     ],
+     "path": "menu-files/1791339865_322819-3.jpeg"
     },
     {
      "name": "IMG_3017.jpg.jpeg",
      "fid": "F0C84G9DLF2",
      "from": "댓글",
-     "path": "menu-files/1791339865_322819-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -207,13 +206,13 @@ window.MENU_REQUESTS = {
        "name": "바질파스타리코타 포케",
        "price": 15100
       }
-     ]
+     ],
+     "path": "menu-files/1791339865_322819-4.jpeg"
     },
     {
      "name": "IMG_3018.jpg.jpeg",
      "fid": "F0C74RVHMTP",
      "from": "댓글",
-     "path": "menu-files/1791339865_322819-5.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -241,7 +240,8 @@ window.MENU_REQUESTS = {
        "name": "양송이스프",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1791339865_322819-5.jpeg"
     },
     {
      "name": "IMG_3019.jpg.jpeg",
@@ -539,17 +539,75 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ]
+    },
+    {
+     "name": "IMG_3024.jpg.jpeg",
+     "fid": "F0C7C48T48H",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "그린 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "포케로 변경",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "훈제오리 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "쉬림프 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "훈제오리 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "새우 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "새우 아보카도 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "토마토파스타 샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "소고기샐러드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "연어샐러드",
+       "price": 0
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
     "옵션은 세트안에 들어가는 것"
    ],
-   "rc": 2,
-   "lr": "1791340480.212269",
+   "rc": 3,
+   "lr": "1791340764.801619",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791339865322819"
   },
   {
