@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17321,
+  "version": 17322,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235618,7 +235618,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:00",
+      "updatedAt": "10:05",
       "voc": {
         "responses": 1,
         "install": {
@@ -235722,18 +235722,21 @@ window.SLACK_DATA = {
       },
       "1791331219.038829": {
         "post": "1791331219.038829",
-        "lastSeen": 1791335041.81,
+        "lastSeen": 1791335127.901,
         "r": 1,
         "day": "2026-10-07",
         "idx": 1
       },
       "1791334201.016449": {
         "post": "1791334201.016449",
-        "lastSeen": 1791335041.81
+        "lastSeen": 1791335127.901,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 5
       },
       "1791334807.997579": {
         "post": "1791334807.997579",
-        "lastSeen": 1791335041.81
+        "lastSeen": 1791335127.901
       }
     },
     "days": {
@@ -314307,8 +314310,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 5,
-        "sumMin": 45.647607751687374,
+        "cnt": 6,
+        "sumMin": 60.37825860182445,
         "over": 1,
         "items": [
           {
@@ -314354,13 +314357,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 14.3
+          },
+          {
+            "hm": "09:50",
+            "min": 14.7,
+            "store": "한양파스타 인천점",
+            "biz": "6663501795",
+            "who": "김현기",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 10:04",
+    "at": "2026-10-07 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314482,7 +314493,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 10:04",
+    "at": "2026-10-07 10:05",
     "pri": {
       "days": 0,
       "failed": [],
