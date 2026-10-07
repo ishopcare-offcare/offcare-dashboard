@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3062,
- "updatedAt": "2026-10-06 18:11",
+ "version": 3063,
+ "updatedAt": "2026-10-07 09:15",
  "days": 30,
  "items": [
   {
@@ -56440,104 +56440,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788741100510629"
-  },
-  {
-   "ts": "1788739773.355829",
-   "date": "2026-09-07",
-   "time": "09:09",
-   "store": "한상한판",
-   "biz": "4745401182",
-   "pos": "",
-   "content": "메뉴 이미지 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "오늘의 백반.jpeg",
-     "fid": "F0BV8B40G1K",
-     "from": "댓글",
-     "path": "menu-files/1788739773_355829-0.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "돼지짜글이.jpeg",
-     "fid": "F0C0T4WJ7EU",
-     "from": "댓글",
-     "path": "menu-files/1788739773_355829-1.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "육회.jpeg",
-     "fid": "F0BVAR99LLE",
-     "from": "댓글",
-     "path": "menu-files/1788739773_355829-2.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "닭발.jpeg",
-     "fid": "F0BV8B5PU4D",
-     "from": "댓글",
-     "path": "menu-files/1788739773_355829-3.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "오리주물럭.jpeg",
-     "fid": "F0C02DDFA12",
-     "from": "댓글",
-     "path": "menu-files/1788739773_355829-4.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "닭다리.jpeg",
-     "fid": "F0C0T4XQB2L",
-     "from": "댓글",
-     "path": "menu-files/1788739773_355829-5.jpeg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "오리로스.jpeg",
-     "fid": "F0C00M5NC9F",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "삼겹살.jpeg",
-     "fid": "F0C02DFAT2Q",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "김치삼겹.jpeg",
-     "fid": "F0BV6GGEV8T",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "닭돼오.jpeg",
-     "fid": "F0BV8B94J3X",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1788739874.616909",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788739773355829"
   }
  ],
  "ocr": {
