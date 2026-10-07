@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17373,
+  "version": 17374,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235500,6 +235500,11 @@ window.SLACK_DATA = {
     },
     "2026-10-07": {
       "counts": {
+        "booking": {
+          "배선유": 1,
+          "송태양": 2,
+          "심성현": 3
+        },
         "as": {
           "김동욱": 3,
           "심성현": 3,
@@ -235512,10 +235517,6 @@ window.SLACK_DATA = {
         "onboarding": {
           "박하림": 2,
           "배선유": 1
-        },
-        "booking": {
-          "송태양": 2,
-          "심성현": 3
         },
         "extern": {
           "송태양": 1
@@ -235545,6 +235546,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:29",
+          "store": "또래오래 김포장기1점",
+          "biz": "7693100030",
+          "cat": "booking",
+          "emp": "배선유",
+          "req": "캣단말기 프린터 사용중이며 배달프린터 충돌증상이후 오류출력 충돌증상 입니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "출근x / 1시 이후 재연락 요청 / 13:05 예약"
+        },
         {
           "time": "11:29",
           "store": "",
@@ -235858,7 +235870,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 23,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
       "updatedAt": "11:29",
@@ -235965,18 +235977,14 @@ window.SLACK_DATA = {
       },
       "1791339301.059689": {
         "post": "1791339301.059689",
-        "lastSeen": 1791340232.1
+        "lastSeen": 1791340300.003,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 14
       },
       "1791339865.322819": {
         "post": "1791339865.322819",
-        "lastSeen": 1791340232.1
-      },
-      "1791340142.926209": {
-        "post": "1791340142.926209",
-        "lastSeen": 1791340232.1,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 13
+        "lastSeen": 1791340300.003
       }
     },
     "days": {
@@ -314550,8 +314558,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 14,
-        "sumMin": 105.53093173901243,
+        "cnt": 15,
+        "sumMin": 121.61412858565652,
         "over": 1,
         "items": [
           {
@@ -314677,14 +314685,23 @@ window.SLACK_DATA = {
             "store": "또래오래 김포장기1점",
             "biz": "7693100030",
             "who": "배선유",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 2.1
+          },
+          {
+            "hm": "11:15",
+            "min": 16.1,
+            "store": "몬스터매쓰수학교습소",
+            "biz": "7169202262",
+            "who": "송태양",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:30",
+    "at": "2026-10-07 11:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314806,7 +314823,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:30",
+    "at": "2026-10-07 11:31",
     "pri": {
       "days": 0,
       "failed": [],
