@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3065,
- "updatedAt": "2026-10-07 10:07",
+ "version": 3066,
+ "updatedAt": "2026-10-07 10:08",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C77N1QKC6",
      "from": "댓글",
-     "path": "menu-files/1791335184_166789-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -126,13 +125,13 @@ window.MENU_REQUESTS = {
        "name": "하모(특대)",
        "price": 150000
       }
-     ]
+     ],
+     "path": "menu-files/1791335184_166789-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C7BK68V7T",
      "from": "댓글",
-     "path": "menu-files/1791335184_166789-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -250,13 +249,13 @@ window.MENU_REQUESTS = {
        "name": "라면사리",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791335184_166789-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C842HU5LY",
      "from": "댓글",
-     "path": "menu-files/1791335184_166789-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -294,13 +293,13 @@ window.MENU_REQUESTS = {
        "name": "회덮밥",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1791335184_166789-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C77N4JZ8E",
      "from": "댓글",
-     "path": "menu-files/1791335184_166789-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -338,13 +337,13 @@ window.MENU_REQUESTS = {
        "name": "꽃게찜,탕 (70,000)",
        "price": 70000
       }
-     ]
+     ],
+     "path": "menu-files/1791335184_166789-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0C842LB0RW",
      "from": "댓글",
-     "path": "menu-files/1791335184_166789-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -397,13 +396,187 @@ window.MENU_REQUESTS = {
        "name": "갑오징어",
        "price": 70000
       }
+     ],
+     "path": "menu-files/1791335184_166789-4.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C79GG7526",
+     "from": "댓글",
+     "path": "menu-files/1791335184_166789-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "해물종합",
+       "name": "해삼,멍게(20,000)",
+       "price": 20000
+      },
+      {
+       "category": "해물종합",
+       "name": "해물종합(30,000)",
+       "price": 30000
+      },
+      {
+       "category": "해물종합",
+       "name": "해물종합(40,000)",
+       "price": 40000
+      },
+      {
+       "category": "해물종합",
+       "name": "해물종합(50,000)",
+       "price": 50000
+      },
+      {
+       "category": "해물종합",
+       "name": "탕탕이(30,000)",
+       "price": 30000
+      },
+      {
+       "category": "해물종합",
+       "name": "탕탕이(40,000)",
+       "price": 40000
+      },
+      {
+       "category": "해물종합",
+       "name": "탕탕이(50,000)",
+       "price": 50000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C77N78UNS",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류/음료",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류/음료",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류/음료",
+       "name": "카스제로 맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "연포탕 카스제로 맥주1+1",
+       "price": 19000
+      },
+      {
+       "category": "주류/음료",
+       "name": "녹차캔",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료",
+       "name": "일품진로",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C842NHD88",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "추가 매운탕",
+       "price": 5000
+      },
+      {
+       "category": "추가",
+       "name": "방어 매운탕",
+       "price": 5000
+      },
+      {
+       "category": "추가",
+       "name": "계란찜 추가",
+       "price": 3000
+      },
+      {
+       "category": "추가",
+       "name": "민어탕",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7BKD22V7",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류 및 음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "녹차캔",
+       "price": 2000
+      }
      ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 6,
-   "lr": "1791335234.004719",
+   "rc": 10,
+   "lr": "1791335278.073169",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
