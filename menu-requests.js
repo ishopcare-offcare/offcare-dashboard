@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3088,
- "updatedAt": "2026-10-07 13:48",
+ "version": 3089,
+ "updatedAt": "2026-10-07 13:50",
  "days": 30,
  "items": [
   {
@@ -72,15 +72,98 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791347339_272849-0.png"
+    },
+    {
+     "name": "Screenshot_20261007_134829_Messages.jpg",
+     "fid": "F0C74K5KK99",
+     "from": "댓글",
+     "path": "menu-files/1791347339_272849-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "황칠 흑염소 전골 (3~4인)",
+       "price": 78000
+      },
+      {
+       "category": "",
+       "name": "흑염소 수육(3~4인)",
+       "price": 87000
+      },
+      {
+       "category": "",
+       "name": "야채 추가(버섯\"깻잎\"부추)",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "1791348540260.jpeg",
+     "fid": "F0C75H2C97F",
+     "from": "댓글",
+     "path": "menu-files/1791347339_272849-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "황칠 흑염소 전골 (3~4인)",
+       "price": 78000
+      },
+      {
+       "category": "",
+       "name": "흑염소 수육(3~4인)",
+       "price": 87000
+      },
+      {
+       "category": "",
+       "name": "야채 추가(버섯\"깻잎\"부추)",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image (82).png",
+     "fid": "F0C7CQ58Y3B",
+     "from": "댓글",
+     "path": "menu-files/1791347339_272849-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "흑염소",
+       "name": "황칠 흑염소탕\"특대\"",
+       "price": 18000
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠흑염소 고기추가(200g)",
+       "price": 25000
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠 흑염소 전골 (3~4인)",
+       "price": 78000
+      },
+      {
+       "category": "흑염소",
+       "name": "흑염소 수육(3~4인)",
+       "price": 87000
+      },
+      {
+       "category": "흑염소",
+       "name": "야채추가(버섯\"깻잎\"부추)",
+       "price": 5000
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
     "오잉????",
-    "엇 잠시만요!"
+    "엇 잠시만요!",
+    "이번호오 연락부탁드립니다!"
    ],
-   "rc": 4,
-   "lr": "1791348493.414399",
+   "rc": 8,
+   "lr": "1791348552.515649",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
