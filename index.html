@@ -7027,6 +7027,17 @@ function tenBarSeg(who, mon, dateObj, d, lastDate){
   const lab = contL ? '' : `<span class="bar-lab" style="max-width:calc(${run*100}% + ${(run-1)*30}px)">🕙 ${escapeHtml(who)} <span class="ten-lab">10출</span></span>`;
   return `<div class="ev-bar ten-bar${contL?' cont-l':''}${contR?' cont-r':''}" onclick="openTenPicker('${mon}')" title="${escapeHtml(who)} · 이번 주(월~금) 10시 출근 — 클릭: 교체">${lab}</div>`;
 }
+// 일정 정렬 키: 시간 문자열의 첫 HH:MM(분). 시간이 없으면(종일) -1 → 맨 위.
+// "~ 12:00"처럼 끝 시각만 있으면 그 시각으로 정렬한다.
+function shareTimeKey(t){ const x=/(\d{1,2}):(\d{2})/.exec(t||''); return x ? (+x[1])*60+(+x[2]) : -1; }
+// 개인 일정(하루짜리) 칩
+function shareChipHtml(ds, e, t){
+  const col=empColor(e.emp);
+  const tt=`${e.emp} · ${t.label}${e.time?' · '+e.time:''}${e.title?' · '+e.title:''}`;
+  return `<div class="ev-chip" draggable="true" ondragstart="shareDragStart(event,'${ds}','${e.id}')" ondragend="shareDragEnd(event)" onclick="shareChipClick(event,'${ds}','${e.id}')" style="background:${col}" title="${escapeHtml(tt)} — 클릭: 수정 · 드래그: 이동">
+    <span class="ev-txt"><span class="ev-head">${escapeHtml(e.emp)}</span><span class="ev-sub">${t.label}${e.time?' · '+escapeHtml(e.time):''}</span>${e.title?`<span class="ev-memo">${escapeHtml(e.title)}</span>`:''}</span>
+    <button class="ev-del" title="삭제" onclick="event.stopPropagation();removeShare('${ds}','${e.id}')">×</button></div>`;
+}
 // 같은 grp 의 살아있는 이벤트 id 들 (직원 필터와 무관하게 전체)
 function shareGroupIds(grp){ return Object.keys(SHAREEV).filter(k=>{ const e=SHAREEV[k]; return e && !e.deleted && e.grp===grp; }); }
 
@@ -7057,26 +7068,25 @@ function renderShare(){
     const evs=shareEvents(ds).filter(e=>!(e.grp && groups[e.grp]));   // 여러 날 일정은 위 막대로
     const chips = evs.map(e=>{
       const t=typeMeta(e.type);
-      const col=empColor(e.emp);
-      const tt=`${e.emp} · ${t.label}${e.time?' · '+e.time:''}${e.title?' · '+e.title:''}`;
-      return `<div class="ev-chip" draggable="true" ondragstart="shareDragStart(event,'${ds}','${e.id}')" ondragend="shareDragEnd(event)" onclick="shareChipClick(event,'${ds}','${e.id}')" style="background:${col}" title="${escapeHtml(tt)} — 클릭: 수정 · 드래그: 이동">
-        <span class="ev-txt"><span class="ev-head">${escapeHtml(e.emp)}</span><span class="ev-sub">${t.label}${e.time?' · '+escapeHtml(e.time):''}</span>${e.title?`<span class="ev-memo">${escapeHtml(e.title)}</span>`:''}</span>
-        <button class="ev-del" title="삭제" onclick="event.stopPropagation();removeShare('${ds}','${e.id}')">×</button></div>`;
-    }).join("");
+      return {k:shareTimeKey(e.time), h:shareChipHtml(ds, e, t)};
+    });
     // 구글 캘린더 회의(읽기 전용) + 원격 근무 당번 표시
     const gchips = gcalDay(ds).map(g=>{
       const gk=ds+"|"+(g.time||"")+"|"+g.title; const who=dutyPersonAt(gk, dmap[gk]);
       const tt=`${g.title}${g.time?' · '+g.time:''}${who?' · 원격 근무당번: '+who:''} — 구글 캘린더(읽기 전용)`;
       const gi=who?dutyKeyIdx(gk):-1;   // 당번 이름 클릭 → 직원 목록 팝업에서 교체
-      return `<div class="ev-chip gcal ${who?'duty':''}" title="${escapeHtml(tt)}">
+      return {k:shareTimeKey(g.time), h:`<div class="ev-chip gcal ${who?'duty':''}" title="${escapeHtml(tt)}">
         <span class="ev-gtag">G</span>
-        <span class="ev-txt"><span class="ev-head">${escapeHtml(g.title)}</span><span class="ev-sub">${g.time?'🕒 '+escapeHtml(g.time):'종일'}</span>${who?`<span class="ev-duty pick" title="클릭 → 근무당번 변경" onclick="event.stopPropagation();openDutyPicker(${gi})">🏠 ${escapeHtml(who)}<span class="duty-lab">근무당번</span></span>`:''}</span></div>`;
-    }).join("");
+        <span class="ev-txt"><span class="ev-head">${escapeHtml(g.title)}</span><span class="ev-sub">${g.time?'🕒 '+escapeHtml(g.time):'종일'}</span>${who?`<span class="ev-duty pick" title="클릭 → 근무당번 변경" onclick="event.stopPropagation();openDutyPicker(${gi})">🏠 ${escapeHtml(who)}<span class="duty-lab">근무당번</span></span>`:''}</span></div>`};
+    });
+    // 개인 일정 + 구글 회의를 한 줄로 시간순 정렬 — 시간 없는(종일) 일정이 맨 위, 그다음 이른 시각부터.
+    // 같은 시각이면 원래 순서(개인 → 회의) 유지 (Array.sort 는 안정 정렬)
+    const dayItems = chips.concat(gchips).sort((a,b)=>a.k-b.k).map(x=>x.h).join("");
     return `<div class="daycell share ${ds===todayStr?'today':''} ${holi?'holi':''}"
       ondragover="shareDragOver(event,this)" ondragleave="shareDragLeave(this)" ondrop="shareDrop(event,'${ds}',this)">
       <div class="dnum ${numCls} ${ds===todayStr?'is-today':''}"><span class="dn-n">${d}</span>${holi?`<span class="holi-tag">${holi}</span>`:''}
         <button class="add-ev" title="일정 추가" onclick="openShareForm('${ds}')">+</button></div>
-      ${bars}<div class="ev-list">${chips}${gchips}</div>
+      ${bars}<div class="ev-list">${dayItems}</div>
     </div>`;
   }).join("");
 
