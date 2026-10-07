@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3107,
- "updatedAt": "2026-10-07 17:09",
+ "version": 3108,
+ "updatedAt": "2026-10-07 17:16",
  "days": 30,
  "items": [
   {
@@ -55433,27 +55433,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788771114172739"
-  },
-  {
-   "ts": "1788768932.413159",
-   "date": "2026-09-07",
-   "time": "17:15",
-   "store": "김밥천국",
-   "biz": "1080327134",
-   "pos": "오케이포스",
-   "content": "오케이포스 / 참치덮밥 8000원 -> 8500원으로 가격 수정 부탁드립니다.\n완료 솔라피는 ··· 이 번호로 부탁드려요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1788771884.924899",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788768932413159"
   }
  ],
  "ocr": {
