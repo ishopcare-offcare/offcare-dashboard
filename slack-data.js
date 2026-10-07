@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17287,
+  "version": 17288,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235499,15 +235499,31 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-07": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:22",
+          "store": "컴포즈커피 성수코리아IT점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "성수점/ 오늘부터 판매하는 신메뉴 (신규 추가 상품) 에 대한 주문서 미출력으로 확인 부탁드립니다! (CC. <@U08BA4PDNLT>)",
+          "hw": "",
+          "intake": "online",
+          "note": "클래식딥라떼 치즈딥라떼 커피클라우드라떼 슈클라우드라떼 • 옵션 ◦ 사이즈(ICED 14oz 기본) ◦ 사이즈(HOT 20oz 기본) ◦ 온도(HOT 1.2) ◦ 샷(14oz) ◦ 샷(20oz) ◦ 디카페인 원두변경(14oz) ◦ 디카페인 원두변경(20oz) ◦ 원두 옵션 사이즈(ICED 14oz 기본) 사이즈(HOT 20oz 기본) 온도(HOT 1.2) 샷"
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:40",
+      "updatedAt": "09:00",
       "voc": {
         "responses": 1,
         "install": {
@@ -235609,9 +235625,9 @@ window.SLACK_DATA = {
         "post": "1791298843.204959",
         "lastSeen": 1791317728.229
       },
-      "1791328960.575549": {
-        "post": "1791328960.575549",
-        "lastSeen": 1791330333.058
+      "1791331219.038829": {
+        "post": "1791331219.038829",
+        "lastSeen": 1791331227.667
       }
     },
     "days": {
@@ -314183,17 +314199,33 @@ window.SLACK_DATA = {
             "dmin": 5.1
           }
         ]
+      },
+      "2026-10-07": {
+        "cnt": 1,
+        "sumMin": 30.329782521724702,
+        "over": 1,
+        "items": [
+          {
+            "hm": "08:22",
+            "min": 30.3,
+            "store": "컴포즈커피 성수코리아IT점",
+            "biz": "5218102386",
+            "who": "김동욱",
+            "cat": "as",
+            "dmin": 30.3
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 08:45",
+    "at": "2026-10-07 09:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4395,
+    "rows": 4397,
     "named": 1088,
     "unknownName": 0,
     "beforeStart": 0,
@@ -314309,7 +314341,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 08:45",
+    "at": "2026-10-07 09:00",
     "pri": {
       "days": 0,
       "failed": [],
