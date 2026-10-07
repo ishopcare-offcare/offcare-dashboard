@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17389,
+  "version": 17390,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235500,6 +235500,10 @@ window.SLACK_DATA = {
     },
     "2026-10-07": {
       "counts": {
+        "extern": {
+          "서상원": 1,
+          "송태양": 1
+        },
         "booking": {
           "배선유": 1,
           "송태양": 2,
@@ -235518,9 +235522,6 @@ window.SLACK_DATA = {
           "박하림": 2,
           "배선유": 1
         },
-        "extern": {
-          "송태양": 1
-        },
         "transfer": {
           "송태양": 2
         },
@@ -235535,6 +235536,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:56",
+          "store": "인헤어샵(#)",
+          "biz": "8496700484",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:29",
           "store": "또래오래 김포장기1점",
@@ -235891,11 +235903,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 25,
+        "online": 26,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "11:55",
+      "updatedAt": "11:56",
       "voc": {
         "responses": 1,
         "install": {
@@ -314722,7 +314734,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:56",
+    "at": "2026-10-07 11:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314844,7 +314856,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:56",
+    "at": "2026-10-07 11:57",
     "pri": {
       "days": 0,
       "failed": [],
