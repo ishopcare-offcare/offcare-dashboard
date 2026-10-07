@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3093,
- "updatedAt": "2026-10-07 14:27",
+ "version": 3094,
+ "updatedAt": "2026-10-07 14:36",
  "days": 30,
  "items": [
   {
@@ -159,9 +159,9 @@ window.MENU_REQUESTS = {
      "name": "1791348926179.jpeg",
      "fid": "F0C6VFMLCB1",
      "from": "댓글",
-     "path": "menu-files/1791347339_272849-4.jpeg",
      "kind": "other",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791347339_272849-4.jpeg"
     }
    ],
    "datt": [],
@@ -171,8 +171,8 @@ window.MENU_REQUESTS = {
     "이번호오 연락부탁드립니다!",
     "선유님 이번호로 재통화 부탁드려도 될까요??"
    ],
-   "rc": 13,
-   "lr": "1791348964.553069",
+   "rc": 14,
+   "lr": "1791351347.800589",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
