@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17357,
+  "version": 17358,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235501,11 +235501,11 @@ window.SLACK_DATA = {
     "2026-10-07": {
       "counts": {
         "as": {
+          "배선유": 2,
           "김현기": 2,
           "고경림": 2,
           "박하림": 1,
           "김동욱": 2,
-          "배선유": 1,
           "심성현": 1
         },
         "booking": {
@@ -235531,6 +235531,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:57",
+          "store": "주식회사 비에이치",
+          "biz": "6028156328",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프린터 온보딩 및 설정 상세 문의 / 도움 부탁드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "프린터 삭제되어있어 재설정"
+        },
         {
           "time": "10:41",
           "store": "공부아지트스터디카페&amp;공유오피스 성균관대점",
@@ -235753,7 +235765,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 4,
         "unknown": 0
       },
@@ -235861,14 +235873,14 @@ window.SLACK_DATA = {
       },
       "1791338403.171439": {
         "post": "1791338403.171439",
-        "lastSeen": 1791338506.358,
+        "lastSeen": 1791338590.783,
         "r": 1,
         "day": "2026-10-07",
         "idx": 11
       },
       "1791338400.337559": {
         "post": "1791338400.337559",
-        "lastSeen": 1791338506.358
+        "lastSeen": 1791338590.783
       }
     },
     "days": {
@@ -314558,7 +314570,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:02",
+    "at": "2026-10-07 11:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314680,7 +314692,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:01",
+    "at": "2026-10-07 11:03",
     "pri": {
       "days": 0,
       "failed": [],
