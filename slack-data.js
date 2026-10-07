@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17405,
+  "version": 17406,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235527,7 +235527,7 @@ window.SLACK_DATA = {
           "송태양": 2
         },
         "menu": {
-          "김규빈": 1,
+          "김규빈": 2,
           "배선유": 1,
           "송태양": 1
         },
@@ -235544,6 +235544,17 @@ window.SLACK_DATA = {
           "cat": "as",
           "emp": "심성현",
           "req": "아펙사 포스기+유프+금전함 연동 방법 지원 요청드립니다. / 고령/",
+          "hw": "",
+          "intake": "online",
+          "note": "금전함 사용 체크 돈통 열기 키 추가 계산서 제거 완료"
+        },
+        {
+          "time": "12:04",
+          "store": "도르프",
+          "biz": "2614401307",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -235960,7 +235971,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 31,
+        "online": 32,
         "offline": 7,
         "unknown": 0
       },
@@ -236066,23 +236077,16 @@ window.SLACK_DATA = {
         "post": "1791298843.204959",
         "lastSeen": 1791317728.229
       },
-      "1791342242.488719": {
-        "post": "1791342242.488719",
-        "lastSeen": 1791342954.226,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 16
-      },
       "1791342496.047619": {
         "post": "1791342496.047619",
-        "lastSeen": 1791342954.226,
+        "lastSeen": 1791343043.151,
         "r": 1,
         "day": "2026-10-07",
         "idx": 19
       },
       "1791342746.394549": {
         "post": "1791342746.394549",
-        "lastSeen": 1791342954.226
+        "lastSeen": 1791343043.151
       }
     },
     "days": {
@@ -314810,7 +314814,8 @@ window.SLACK_DATA = {
             "store": "도르프",
             "biz": "2614401307",
             "who": "김규빈",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 12.6
           },
           {
             "hm": "12:02",
@@ -314843,7 +314848,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 12:16",
+    "at": "2026-10-07 12:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314965,7 +314970,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 12:15",
+    "at": "2026-10-07 12:17",
     "pri": {
       "days": 0,
       "failed": [],
