@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17380,
+  "version": 17381,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235576,7 +235576,7 @@ window.SLACK_DATA = {
           "req": "캣에서 영수증출력이 이상하다고합니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "단말기 용지 설정 후 정상 출력"
         },
         {
           "time": "11:15",
@@ -235987,7 +235987,7 @@ window.SLACK_DATA = {
       },
       "1791339865.322819": {
         "post": "1791339865.322819",
-        "lastSeen": 1791340813.736,
+        "lastSeen": 1791340935.823,
         "r": 1,
         "day": "2026-10-07",
         "idx": 15
@@ -314716,7 +314716,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:41",
+    "at": "2026-10-07 11:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314838,7 +314838,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:40",
+    "at": "2026-10-07 11:42",
     "pri": {
       "days": 0,
       "failed": [],
