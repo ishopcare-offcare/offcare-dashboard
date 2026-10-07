@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3116,
- "updatedAt": "2026-10-07 17:49",
+ "version": 3117,
+ "updatedAt": "2026-10-07 17:52",
  "days": 30,
  "items": [
   {
@@ -55657,30 +55657,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788771263308199"
-  },
-  {
-   "ts": "1788771114.172739",
-   "date": "2026-09-07",
-   "time": "17:51",
-   "store": "강창구찹쌀진순대 토평점",
-   "biz": "4688700056",
-   "pos": "",
-   "content": "메뉴 프린터 설정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "홀프린터 출력안되게 부탁드립니다.\n낭만순대국=6,500\n얼큰순대국=5,700\n돼지껍데기=3,500\n양념오돌뼈3,900\n닭갈비=4.100\n매콤양념곱창=4,900\n소내장탕=6,100\n양념막창=5,800\n진편육=6.000\n찰순대=4,800\n상품입니다.",
-    "그리고 과자류.\n아이스크림\n마라볼트\n21곡두부과자\n찹쌀누룽지\n약과\n함초메주된장\n황금고구마칩"
-   ],
-   "rc": 3,
-   "lr": "1788771125.675449",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788771114172739"
   }
  ],
  "ocr": {
