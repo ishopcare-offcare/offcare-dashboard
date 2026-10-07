@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17360,
+  "version": 17361,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235506,11 +235506,11 @@ window.SLACK_DATA = {
         },
         "as": {
           "배선유": 3,
+          "심성현": 2,
           "김현기": 2,
           "고경림": 2,
           "박하림": 1,
-          "김동욱": 2,
-          "심성현": 1
+          "김동욱": 2
         },
         "extern": {
           "송태양": 1
@@ -235576,6 +235576,18 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "프린터 삭제되어있어 재설정"
+        },
+        {
+          "time": "10:56",
+          "store": "스시앤도시락",
+          "biz": "2410201604",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "배달의 민족 연동 불가로 확인 요청 드립니다.",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "10:41",
@@ -235799,7 +235811,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 4,
         "unknown": 0
       },
@@ -314603,7 +314615,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:06",
+    "at": "2026-10-07 11:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314725,7 +314737,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:05",
+    "at": "2026-10-07 11:10",
     "pri": {
       "days": 0,
       "failed": [],
