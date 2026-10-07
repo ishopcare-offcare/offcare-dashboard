@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3089,
- "updatedAt": "2026-10-07 13:50",
+ "version": 3090,
+ "updatedAt": "2026-10-07 13:51",
  "days": 30,
  "items": [
   {
@@ -77,7 +77,6 @@ window.MENU_REQUESTS = {
      "name": "Screenshot_20261007_134829_Messages.jpg",
      "fid": "F0C74K5KK99",
      "from": "댓글",
-     "path": "menu-files/1791347339_272849-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -95,13 +94,13 @@ window.MENU_REQUESTS = {
        "name": "야채 추가(버섯\"깻잎\"부추)",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1791347339_272849-1.jpg"
     },
     {
      "name": "1791348540260.jpeg",
      "fid": "F0C75H2C97F",
      "from": "댓글",
-     "path": "menu-files/1791347339_272849-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -119,13 +118,13 @@ window.MENU_REQUESTS = {
        "name": "야채 추가(버섯\"깻잎\"부추)",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1791347339_272849-2.jpeg"
     },
     {
      "name": "image (82).png",
      "fid": "F0C7CQ58Y3B",
      "from": "댓글",
-     "path": "menu-files/1791347339_272849-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -153,7 +152,8 @@ window.MENU_REQUESTS = {
        "name": "야채추가(버섯\"깻잎\"부추)",
        "price": 5000
       }
-     ]
+     ],
+     "path": "menu-files/1791347339_272849-3.png"
     }
    ],
    "datt": [],
@@ -162,8 +162,8 @@ window.MENU_REQUESTS = {
     "엇 잠시만요!",
     "이번호오 연락부탁드립니다!"
    ],
-   "rc": 8,
-   "lr": "1791348552.515649",
+   "rc": 10,
+   "lr": "1791348684.542909",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
