@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17314,
+  "version": 17315,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235506,6 +235506,7 @@ window.SLACK_DATA = {
         },
         "as": {
           "김동욱": 2,
+          "배선유": 1,
           "심성현": 1
         }
       },
@@ -235532,6 +235533,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "결제 취소방법 안내완료"
+        },
+        {
+          "time": "09:32",
+          "store": "서초동 장수족발 감자탕 본점",
+          "biz": "2464100856",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "결제할때 속도가 너무 느리다하여 점검부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "1차부재, :통화중: 1차부재,"
         },
         {
           "time": "09:22",
@@ -235569,7 +235581,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 5,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:50",
@@ -235676,21 +235688,14 @@ window.SLACK_DATA = {
       },
       "1791331219.038829": {
         "post": "1791331219.038829",
-        "lastSeen": 1791334245.538,
+        "lastSeen": 1791334534.827,
         "r": 1,
         "day": "2026-10-07",
         "idx": 1
       },
-      "1791333149.209589": {
-        "post": "1791333149.209589",
-        "lastSeen": 1791334245.538,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 3
-      },
       "1791334201.016449": {
         "post": "1791334201.016449",
-        "lastSeen": 1791334245.538
+        "lastSeen": 1791334534.827
       }
     },
     "days": {
@@ -314300,7 +314305,8 @@ window.SLACK_DATA = {
             "store": "서초동 장수족발 감자탕 본점",
             "biz": "2464100856",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 20.7
           },
           {
             "hm": "09:34",
@@ -314316,7 +314322,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 09:50",
+    "at": "2026-10-07 09:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314438,7 +314444,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 09:50",
+    "at": "2026-10-07 09:55",
     "pri": {
       "days": 0,
       "failed": [],
