@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3085,
- "updatedAt": "2026-10-07 13:40",
+ "version": 3086,
+ "updatedAt": "2026-10-07 13:41",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,66 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C6VDB3TFZ",
+     "from": "댓글",
+     "path": "menu-files/1791347339_272849-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "삼계탕",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "갈비탕",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "국밥류",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "탕찜요리",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "흑염소",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "오리요리",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "주류",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "인삼주",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791348045.645199",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
