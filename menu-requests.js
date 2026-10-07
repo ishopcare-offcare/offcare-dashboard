@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3119,
- "updatedAt": "2026-10-07 17:56",
+ "version": 3120,
+ "updatedAt": "2026-10-07 17:58",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C76JD2PAP",
      "from": "댓글",
-     "path": "menu-files/1791363325_521179-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -101,13 +100,13 @@ window.MENU_REQUESTS = {
        "name": "빼빼로",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791363325_521179-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C7EPBGC1F",
      "from": "댓글",
-     "path": "menu-files/1791363325_521179-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -225,13 +224,13 @@ window.MENU_REQUESTS = {
        "name": "팡팡할인 ice 카페라떼",
        "price": 4500
       }
-     ]
+     ],
+     "path": "menu-files/1791363325_521179-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C77G9KF1B",
      "from": "댓글",
-     "path": "menu-files/1791363325_521179-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -324,13 +323,13 @@ window.MENU_REQUESTS = {
        "name": "평일할인 ice 초코",
        "price": 4500
       }
-     ]
+     ],
+     "path": "menu-files/1791363325_521179-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C7CLMCXTL",
      "from": "댓글",
-     "path": "menu-files/1791363325_521179-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -388,13 +387,13 @@ window.MENU_REQUESTS = {
        "name": "평일할인 피치아이스티",
        "price": 3500
       }
-     ]
+     ],
+     "path": "menu-files/1791363325_521179-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0C7CLNH7U2",
      "from": "댓글",
-     "path": "menu-files/1791363325_521179-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -422,13 +421,314 @@ window.MENU_REQUESTS = {
        "name": "쿠키쉐이크",
        "price": 6800
       }
+     ],
+     "path": "menu-files/1791363325_521179-4.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C77GF3ZDK",
+     "from": "댓글",
+     "path": "menu-files/1791363325_521179-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "허브티",
+       "name": "캐모마일",
+       "price": 5000
+      },
+      {
+       "category": "허브티",
+       "name": "페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "허브티",
+       "name": "레몬그라스",
+       "price": 5000
+      },
+      {
+       "category": "허브티",
+       "name": "히비스커스",
+       "price": 5000
+      },
+      {
+       "category": "허브티",
+       "name": "얼그레이",
+       "price": 5000
+      },
+      {
+       "category": "허브티",
+       "name": "얼음주세요",
+       "price": 0
+      },
+      {
+       "category": "허브티",
+       "name": "HOT레몬생강차",
+       "price": 6700
+      },
+      {
+       "category": "허브티",
+       "name": "ice레몬생강차",
+       "price": 6700
+      },
+      {
+       "category": "허브티",
+       "name": "HOT 자몽차",
+       "price": 6500
+      },
+      {
+       "category": "허브티",
+       "name": "ice자몽차",
+       "price": 6500
+      },
+      {
+       "category": "허브티",
+       "name": "HOT 레몬차",
+       "price": 6500
+      },
+      {
+       "category": "허브티",
+       "name": "ice레몬차",
+       "price": 6500
+      },
+      {
+       "category": "허브티",
+       "name": "HOT석류차",
+       "price": 5800
+      },
+      {
+       "category": "허브티",
+       "name": "ice석류차",
+       "price": 5800
+      },
+      {
+       "category": "허브티",
+       "name": "HOT 매실차",
+       "price": 5800
+      },
+      {
+       "category": "허브티",
+       "name": "ice매실차",
+       "price": 5800
+      },
+      {
+       "category": "허브티",
+       "name": "HOT 유자차",
+       "price": 6700
+      },
+      {
+       "category": "허브티",
+       "name": "ice유자차",
+       "price": 6700
+      },
+      {
+       "category": "허브티",
+       "name": "HOT 청귤차",
+       "price": 5800
+      },
+      {
+       "category": "허브티",
+       "name": "ice청귤차",
+       "price": 5800
+      },
+      {
+       "category": "허브티",
+       "name": "뱅쇼",
+       "price": 7300
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C6XE4066T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "토스트",
+       "price": 3800
+      },
+      {
+       "category": "디저트",
+       "name": "커피콩",
+       "price": 3800
+      },
+      {
+       "category": "디저트",
+       "name": "딸기조각케이크",
+       "price": 6500
+      },
+      {
+       "category": "디저트",
+       "name": "치즈케이크",
+       "price": 6700
+      },
+      {
+       "category": "디저트",
+       "name": "쿠키조각케이크",
+       "price": 6700
+      },
+      {
+       "category": "디저트",
+       "name": "초코케이크",
+       "price": 7000
+      },
+      {
+       "category": "디저트",
+       "name": "쨀라또 크로플",
+       "price": 6200
+      },
+      {
+       "category": "디저트",
+       "name": "팬케이크와 과일볼",
+       "price": 7000
+      },
+      {
+       "category": "디저트",
+       "name": "허니브레드",
+       "price": 7500
+      },
+      {
+       "category": "디저트",
+       "name": "시나몬 팔첸카",
+       "price": 6000
+      },
+      {
+       "category": "디저트",
+       "name": "코코아말첸카",
+       "price": 6000
+      },
+      {
+       "category": "디저트",
+       "name": "과일요거트",
+       "price": 9900
+      },
+      {
+       "category": "디저트",
+       "name": "멜론요거트볼",
+       "price": 9500
+      },
+      {
+       "category": "디저트",
+       "name": "세트메뉴(마아+말첸카)",
+       "price": 14400
+      },
+      {
+       "category": "디저트",
+       "name": "세트메뉴(마아+조각케이크)",
+       "price": 15500
+      },
+      {
+       "category": "디저트",
+       "name": "쨀라또(아동)",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "바나나우유(아동)",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "초코라떼(아동)",
+       "price": 2500
+      },
+      {
+       "category": "디저트",
+       "name": "토스트 (아동)",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "아이스티(아동)",
+       "price": 2500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7CLTJRDG",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "얼음빙수",
+       "name": "수제 팥빙수1인",
+       "price": 9000
+      },
+      {
+       "category": "얼음빙수",
+       "name": "수제팥빙수2인",
+       "price": 16900
+      },
+      {
+       "category": "얼음빙수",
+       "name": "머르신 팥빙수",
+       "price": 6500
+      },
+      {
+       "category": "얼음빙수",
+       "name": "말차팥빙수1인",
+       "price": 9500
+      },
+      {
+       "category": "얼음빙수",
+       "name": "말차팥빙수2인",
+       "price": 17500
+      },
+      {
+       "category": "얼음빙수",
+       "name": "오레오초코빙수1인",
+       "price": 9800
+      },
+      {
+       "category": "얼음빙수",
+       "name": "허니자몽빙수1인",
+       "price": 10400
+      },
+      {
+       "category": "얼음빙수",
+       "name": "과일빙수1인",
+       "price": 11900
+      },
+      {
+       "category": "얼음빙수",
+       "name": "과일빙수2인",
+       "price": 24300
+      },
+      {
+       "category": "얼음빙수",
+       "name": "팥추가",
+       "price": 2000
+      },
+      {
+       "category": "얼음빙수",
+       "name": "1인빙수포장비",
+       "price": 500
+      },
+      {
+       "category": "얼음빙수",
+       "name": "2인빙수포장비",
+       "price": 1000
+      },
+      {
+       "category": "얼음빙수",
+       "name": "초코파르페",
+       "price": 12900
+      },
+      {
+       "category": "얼음빙수",
+       "name": "요거트파르페",
+       "price": 12900
+      }
      ]
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 6,
-   "lr": "1791363382.740359",
+   "rc": 9,
+   "lr": "1791363413.652959",
    "rfx": 3,
    "status": "wait",
    "handler": null,
