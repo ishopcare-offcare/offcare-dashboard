@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17372,
+  "version": 17373,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235524,6 +235524,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "menu": {
+          "김규빈": 1,
           "송태양": 1
         },
         "delivery": {
@@ -235544,6 +235545,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:29",
+          "store": "",
+          "biz": "",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:21",
           "store": "돈바치 가락점",
@@ -235845,7 +235857,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 6,
         "unknown": 0
       },
@@ -235953,15 +235965,18 @@ window.SLACK_DATA = {
       },
       "1791339301.059689": {
         "post": "1791339301.059689",
-        "lastSeen": 1791340159.759
+        "lastSeen": 1791340232.1
       },
       "1791339865.322819": {
         "post": "1791339865.322819",
-        "lastSeen": 1791340159.759
+        "lastSeen": 1791340232.1
       },
       "1791340142.926209": {
         "post": "1791340142.926209",
-        "lastSeen": 1791340159.759
+        "lastSeen": 1791340232.1,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 13
       }
     },
     "days": {
@@ -314535,8 +314550,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 13,
-        "sumMin": 104.64754355351133,
+        "cnt": 14,
+        "sumMin": 105.53093173901243,
         "over": 1,
         "items": [
           {
@@ -314655,13 +314670,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "as",
             "dmin": 5
+          },
+          {
+            "hm": "11:29",
+            "min": 0.9,
+            "store": "또래오래 김포장기1점",
+            "biz": "7693100030",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:29",
+    "at": "2026-10-07 11:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314783,7 +314806,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:29",
+    "at": "2026-10-07 11:30",
     "pri": {
       "days": 0,
       "failed": [],
