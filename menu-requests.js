@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3067,
- "updatedAt": "2026-10-07 11:25",
+ "version": 3068,
+ "updatedAt": "2026-10-07 11:35",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,535 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_3014.jpg.jpeg",
+     "fid": "F0C73U0ES8K",
+     "from": "댓글",
+     "path": "menu-files/1791339865_322819-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "그린 샐러드",
+       "price": 7900
+      },
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "수비드 닭가슴살 닭훈밥 샐러드",
+       "price": 10900
+      },
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "쉬림프 샐러드",
+       "price": 12300
+      },
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "훈제오리 샐러드",
+       "price": 12300
+      },
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "소고기 스테이크 샐러드",
+       "price": 13800
+      },
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "연어 샐러드",
+       "price": 13800
+      },
+      {
+       "category": "샐러먹트 샐러드",
+       "name": "프리미엄 연어 리코타 샐러드",
+       "price": 14900
+      }
+     ]
+    },
+    {
+     "name": "IMG_3015.jpg.jpeg",
+     "fid": "F0C84G8NDME",
+     "from": "댓글",
+     "path": "menu-files/1791339865_322819-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "그린 포케",
+       "price": 10200
+      },
+      {
+       "category": "",
+       "name": "수비드 닭가슴살 단호박 포케",
+       "price": 13200
+      },
+      {
+       "category": "",
+       "name": "훈제오리 포케",
+       "price": 14600
+      },
+      {
+       "category": "",
+       "name": "쉬림프 포케",
+       "price": 14600
+      },
+      {
+       "category": "",
+       "name": "연어 포케",
+       "price": 16100
+      },
+      {
+       "category": "",
+       "name": "소고기 스테이크 포케",
+       "price": 16100
+      },
+      {
+       "category": "",
+       "name": "프리미엄 연어 리코타 포케",
+       "price": 17200
+      }
+     ]
+    },
+    {
+     "name": "IMG_3016.jpg.jpeg",
+     "fid": "F0C7A0PHRSN",
+     "from": "댓글",
+     "path": "menu-files/1791339865_322819-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샐러드트 샐러드",
+       "name": "다이어트 닭가슴살 아보카도 샐러드",
+       "price": 10900
+      },
+      {
+       "category": "샐러드트 샐러드",
+       "name": "다이어트 닭가슴살 아보카도 포케",
+       "price": 13200
+      },
+      {
+       "category": "샐러드트 샐러드",
+       "name": "다이어티 새우 아보카도 샐러드",
+       "price": 13300
+      },
+      {
+       "category": "샐러드트 샐러드",
+       "name": "다이어티 새우 아보카도 포케",
+       "price": 15600
+      },
+      {
+       "category": "샐러드트 샐러드",
+       "name": "[벌크업]닭가슴살 볼",
+       "price": 11900
+      },
+      {
+       "category": "샐러드트 샐러드",
+       "name": "[벌크업]소고기 스테이크 볼",
+       "price": 14900
+      }
+     ]
+    },
+    {
+     "name": "IMG_3023.jpg.jpeg",
+     "fid": "F0C786EAQQN",
+     "from": "댓글",
+     "path": "menu-files/1791339865_322819-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "PICK 개취 샐러드 SET(샐러드+스프+치아바타)",
+       "price": 12700
+      },
+      {
+       "category": "",
+       "name": "샐러드 + 치아바타 + 음료",
+       "price": 12800
+      },
+      {
+       "category": "",
+       "name": "[포장이뻬트]닭가슴살 샐러드",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "name": "IMG_3017.jpg.jpeg",
+     "fid": "F0C84G9DLF2",
+     "from": "댓글",
+     "path": "menu-files/1791339865_322819-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "파스타샐러드",
+       "name": "토마토파스타 샐러드",
+       "price": 11800
+      },
+      {
+       "category": "파스타샐러드",
+       "name": "알리오올리오 파스타 샐러드",
+       "price": 11800
+      },
+      {
+       "category": "파스타샐러드",
+       "name": "바질파스타리코타 샐러드",
+       "price": 12800
+      },
+      {
+       "category": "파스타샐러드",
+       "name": "토마토파스타 포케",
+       "price": 14100
+      },
+      {
+       "category": "파스타샐러드",
+       "name": "알리오올리오 파스타 포케",
+       "price": 14100
+      },
+      {
+       "category": "파스타샐러드",
+       "name": "바질파스타리코타 포케",
+       "price": 15100
+      }
+     ]
+    },
+    {
+     "name": "IMG_3018.jpg.jpeg",
+     "fid": "F0C74RVHMTP",
+     "from": "댓글",
+     "path": "menu-files/1791339865_322819-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드 메뉴",
+       "name": "소고기 마녀스프",
+       "price": 3800
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "치아바타",
+       "price": 3400
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "올리브치아바타",
+       "price": 4200
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "감자스프",
+       "price": 5000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "양송이스프",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "IMG_3019.jpg.jpeg",
+     "fid": "F0C84G9G5C0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "현미퀴리밥 추가",
+       "price": 800
+      },
+      {
+       "category": "추가",
+       "name": "리코타 치즈 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "단호박 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "메추리알 3알 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "옥수수콘 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "병아리콩 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "방울토마토 4알 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "블랙올리브 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "그린빈 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "브로콜리 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "보코치니 4알 추가",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "아보카도 1/4 추가",
+       "price": 1300
+      },
+      {
+       "category": "추가",
+       "name": "메추리알 6알 추가",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "아보카도 1/2 추가",
+       "price": 2500
+      },
+      {
+       "category": "추가",
+       "name": "새우 3마리 추가",
+       "price": 2900
+      },
+      {
+       "category": "추가",
+       "name": "토마토파스타 추가",
+       "price": 3500
+      },
+      {
+       "category": "추가",
+       "name": "알리오올리오 추가",
+       "price": 3500
+      },
+      {
+       "category": "추가",
+       "name": "닭가슴살 추가",
+       "price": 3700
+      },
+      {
+       "category": "추가",
+       "name": "훈제오리 추가",
+       "price": 5200
+      },
+      {
+       "category": "추가",
+       "name": "새우 테리야 추가",
+       "price": 5700
+      },
+      {
+       "category": "추가",
+       "name": "연어 추가",
+       "price": 9800
+      },
+      {
+       "category": "추가",
+       "name": "소고기 추가",
+       "price": 9800
+      }
+     ]
+    },
+    {
+     "name": "IMG_3020.jpg.jpeg",
+     "fid": "F0C786F7M5L",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "칠성제로",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "펩시제로",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "아이스 아메리카노[콜드브루]",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "제주당근 100% 착즙쥬스",
+       "price": 5800
+      }
+     ]
+    },
+    {
+     "name": "IMG_3021.jpg.jpeg",
+     "fid": "F0C84G9PENL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샐러드",
+       "name": "그린 샐러드",
+       "price": 0
+      },
+      {
+       "category": "샐러드",
+       "name": "수비드 닭가슴살 단호박 샐러드",
+       "price": 3000
+      },
+      {
+       "category": "샐러드",
+       "name": "훈제오리 샐러드",
+       "price": 4400
+      },
+      {
+       "category": "샐러드",
+       "name": "쉬림프 샐러드",
+       "price": 4400
+      },
+      {
+       "category": "샐러드",
+       "name": "새우 샐러드",
+       "price": 4400
+      },
+      {
+       "category": "샐러드",
+       "name": "닭가슴살 아보카도 샐러드",
+       "price": 4900
+      },
+      {
+       "category": "샐러드",
+       "name": "새우 아보카도 샐러드",
+       "price": 4900
+      },
+      {
+       "category": "샐러드",
+       "name": "소고기샐러드",
+       "price": 5900
+      },
+      {
+       "category": "샐러드",
+       "name": "연어샐러드",
+       "price": 5900
+      },
+      {
+       "category": "샐러드",
+       "name": "연어 리코타 샐러드",
+       "price": 7000
+      },
+      {
+       "category": "샐러드",
+       "name": "포케로 변경",
+       "price": 2300
+      },
+      {
+       "category": "샐러드",
+       "name": "바질파스타리코타 샐러드",
+       "price": 4900
+      },
+      {
+       "category": "샐러드",
+       "name": "토마토파스타샐러드",
+       "price": 3900
+      },
+      {
+       "category": "샐러드",
+       "name": "알리올리오 파스타 샐러드",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "마늘스프",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "감자스프",
+       "price": 1200
+      },
+      {
+       "category": "",
+       "name": "양송이스프",
+       "price": 1200
+      }
+     ]
+    },
+    {
+     "name": "IMG_3022.jpg.jpeg",
+     "fid": "F0C786FJRD4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "소스 추가",
+       "name": "오리엔탈 드레싱",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "[수제]디종 발사믹드레싱",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "[수제]레몬 유자 발사믹드레싱",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "참깨 드래싱",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "흑임자 드래싱",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "허브 렌치 소스",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "치폴레마요",
+       "price": 1000
+      },
+      {
+       "category": "소스 추가",
+       "name": "레드 살사 소스[매콤]",
+       "price": 1000
+      }
+     ]
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791339869.346219",
+   "replies": [
+    "옵션은 세트안에 들어가는 것"
+   ],
+   "rc": 2,
+   "lr": "1791340480.212269",
    "rfx": 3,
    "status": "wait",
    "handler": null,
