@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17396,
+  "version": 17397,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -236034,11 +236034,14 @@ window.SLACK_DATA = {
       },
       "1791342171.102159": {
         "post": "1791342171.102159",
-        "lastSeen": 1791342265.252
+        "lastSeen": 1791342352.24
       },
       "1791342242.488719": {
         "post": "1791342242.488719",
-        "lastSeen": 1791342265.252
+        "lastSeen": 1791342352.24,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 16
       }
     },
     "days": {
@@ -314612,8 +314615,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 16,
-        "sumMin": 136.94135660330457,
+        "cnt": 17,
+        "sumMin": 138.04564462105435,
         "over": 1,
         "items": [
           {
@@ -314759,13 +314762,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "menu",
             "dmin": 22.8
+          },
+          {
+            "hm": "12:04",
+            "min": 1.1,
+            "store": "도르프",
+            "biz": "2614401307",
+            "who": "김규빈",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 12:04",
+    "at": "2026-10-07 12:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314887,7 +314898,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 12:04",
+    "at": "2026-10-07 12:05",
     "pri": {
       "days": 0,
       "failed": [],
