@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17780,
+  "version": 17781,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238278,15 +238278,42 @@ window.SLACK_DATA = {
       ]
     },
     "2026-10-08": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 2
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "06:30",
+          "store": "컴포즈커피 수원인계점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "옵션별 출력설정",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "06:29",
+          "store": "컴포즈커피 성수코리아IT점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "옵션별 출력설정",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "06:00"
+      "updatedAt": "06:30"
     }
   },
   "resp": {
@@ -318247,7 +318274,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-08 06:16",
+    "at": "2026-10-08 06:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318369,7 +318396,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 06:16",
+    "at": "2026-10-08 06:30",
     "pri": {
       "days": 0,
       "failed": [],
