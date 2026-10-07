@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17325,
+  "version": 17326,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235750,18 +235750,21 @@ window.SLACK_DATA = {
       },
       "1791331219.038829": {
         "post": "1791331219.038829",
-        "lastSeen": 1791335467.315,
+        "lastSeen": 1791335545.442,
         "r": 1,
         "day": "2026-10-07",
         "idx": 1
       },
       "1791334807.997579": {
         "post": "1791334807.997579",
-        "lastSeen": 1791335467.315
+        "lastSeen": 1791335545.442,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 6
       },
       "1791335305.263199": {
         "post": "1791335305.263199",
-        "lastSeen": 1791335467.315
+        "lastSeen": 1791335545.442
       }
     },
     "days": {
@@ -314335,8 +314338,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 6,
-        "sumMin": 60.37825860182445,
+        "cnt": 7,
+        "sumMin": 72.01794061660767,
         "over": 1,
         "items": [
           {
@@ -314391,13 +314394,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "delivery",
             "dmin": 19.7
+          },
+          {
+            "hm": "10:00",
+            "min": 11.6,
+            "store": "쥬시 앤 챠얌 세이브존 성남점",
+            "biz": "8552401837",
+            "who": "김현기",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 10:11",
+    "at": "2026-10-07 10:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314519,7 +314530,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 10:11",
+    "at": "2026-10-07 10:12",
     "pri": {
       "days": 0,
       "failed": [],
