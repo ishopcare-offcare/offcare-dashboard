@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17352,
+  "version": 17353,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235540,7 +235540,7 @@ window.SLACK_DATA = {
           "req": "포스프로그램에서는 당일권 선불권 스터디룸 순으로 나오나 프론트에서는 당일권 스터디룸 선불권 순으로 나온다하여 점검부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프론트 키오스크 모드에서 \"선불권\"은 무조건 제일 뒤로감 설정 불가"
         },
         {
           "time": "10:33",
@@ -235757,7 +235757,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:41",
+      "updatedAt": "10:56",
       "voc": {
         "responses": 1,
         "install": {
@@ -314539,7 +314539,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 10:56",
+    "at": "2026-10-07 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314661,7 +314661,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 10:56",
+    "at": "2026-10-07 10:57",
     "pri": {
       "days": 0,
       "failed": [],
