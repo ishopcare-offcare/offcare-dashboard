@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17361,
+  "version": 17362,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235587,7 +235587,7 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": ""
+          "note": "토스 포스 배달 연동 때문에 배달 대행 프로그램 연동 풀림 증상이 있다고 주장함 현재 매우 바쁜 상태로 토스 포스 연동 해제 후 배달 접수 프로그램, 대행사 프로그램 연동 확인 완료 / 매출 연동 필요 없으니 토스 포스 연동 사용 안 한다고 하셨습니다. / 배민 라이트 연동 해제"
         },
         {
           "time": "10:41",
@@ -314615,13 +314615,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:10",
+    "at": "2026-10-07 11:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4403,
+    "rows": 4404,
     "named": 1088,
     "unknownName": 6,
     "beforeStart": 0,
@@ -314737,7 +314737,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:10",
+    "at": "2026-10-07 11:14",
     "pri": {
       "days": 0,
       "failed": [],
