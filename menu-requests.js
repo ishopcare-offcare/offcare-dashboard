@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3104,
- "updatedAt": "2026-10-07 15:54",
+ "version": 3105,
+ "updatedAt": "2026-10-07 16:30",
  "days": 30,
  "items": [
   {
@@ -18,161 +18,11 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C6VDB3TFZ",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "삼계탕",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "갈비탕",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "국밥류",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "탕찜요리",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "흑염소",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "오리요리",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "주류",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "인삼주",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "음료수",
-       "price": 0
-      }
-     ],
-     "path": "menu-files/1791347339_272849-0.png"
-    },
-    {
-     "name": "Screenshot_20261007_134829_Messages.jpg",
-     "fid": "F0C74K5KK99",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "황칠 흑염소 전골 (3~4인)",
-       "price": 78000
-      },
-      {
-       "category": "",
-       "name": "흑염소 수육(3~4인)",
-       "price": 87000
-      },
-      {
-       "category": "",
-       "name": "야채 추가(버섯\"깻잎\"부추)",
-       "price": 5000
-      }
-     ],
-     "path": "menu-files/1791347339_272849-1.jpg"
-    },
-    {
-     "name": "1791348540260.jpeg",
-     "fid": "F0C75H2C97F",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "황칠 흑염소 전골 (3~4인)",
-       "price": 78000
-      },
-      {
-       "category": "",
-       "name": "흑염소 수육(3~4인)",
-       "price": 87000
-      },
-      {
-       "category": "",
-       "name": "야채 추가(버섯\"깻잎\"부추)",
-       "price": 5000
-      }
-     ],
-     "path": "menu-files/1791347339_272849-2.jpeg"
-    },
-    {
-     "name": "image (82).png",
-     "fid": "F0C7CQ58Y3B",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "흑염소",
-       "name": "황칠 흑염소탕\"특대\"",
-       "price": 18000
-      },
-      {
-       "category": "흑염소",
-       "name": "황칠흑염소 고기추가(200g)",
-       "price": 25000
-      },
-      {
-       "category": "흑염소",
-       "name": "황칠 흑염소 전골 (3~4인)",
-       "price": 78000
-      },
-      {
-       "category": "흑염소",
-       "name": "흑염소 수육(3~4인)",
-       "price": 87000
-      },
-      {
-       "category": "흑염소",
-       "name": "야채추가(버섯\"깻잎\"부추)",
-       "price": 5000
-      }
-     ],
-     "path": "menu-files/1791347339_272849-3.png"
-    },
-    {
-     "name": "1791348926179.jpeg",
-     "fid": "F0C6VFMLCB1",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1791347339_272849-4.jpeg"
-    }
-   ],
+   "att": [],
    "datt": [],
-   "replies": [
-    "오잉????",
-    "엇 잠시만요!",
-    "이번호오 연락부탁드립니다!",
-    "선유님 이번호로 재통화 부탁드려도 될까요??"
-   ],
-   "rc": 15,
-   "lr": "1791352102.036069",
+   "replies": [],
+   "rc": 16,
+   "lr": "1791358208.881689",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
