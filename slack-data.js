@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17367,
+  "version": 17368,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232770,7 +232770,7 @@ window.SLACK_DATA = {
         },
         "onboarding": {
           "최민석": 2,
-          "박하림": 7,
+          "박하림": 8,
           "심성현": 4,
           "김현기": 1,
           "고경림": 7,
@@ -232798,17 +232798,6 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
-        {
-          "time": "15:21",
-          "store": "밥집",
-          "biz": "7564500346",
-          "handler": "박하림",
-          "cat": "as",
-          "intake": "online",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
         {
           "time": "11:00",
           "store": "주식회사 에이치케이넷츠",
@@ -233721,6 +233710,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "15:21",
+          "store": "밥집",
+          "biz": "7564500346",
+          "cat": "onboarding",
+          "emp": "박하림",
+          "req": "포프유(태블릿) 온보딩 요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "현재는사용안하시는중이라서 사용하실때 다시 연락주신다고합니다."
         },
         {
           "time": "15:17",
@@ -235942,7 +235942,7 @@ window.SLACK_DATA = {
       },
       "1791339301.059689": {
         "post": "1791339301.059689",
-        "lastSeen": 1791339725.757
+        "lastSeen": 1791339807.783
       }
     },
     "days": {
@@ -314642,7 +314642,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:22",
+    "at": "2026-10-07 11:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314764,7 +314764,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:22",
+    "at": "2026-10-07 11:23",
     "pri": {
       "days": 0,
       "failed": [],
