@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17535,
+  "version": 17536,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -236707,24 +236707,26 @@ window.SLACK_DATA = {
         "offline": 20,
         "unknown": 0
       },
-      "updatedAt": "15:11",
+      "updatedAt": "15:15",
       "voc": {
-        "responses": 3,
+        "responses": 7,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 3,
-          "low": 0
+          "count": 7,
+          "low": 2
         },
         "high": {
           "install": 1,
-          "nps": 2
+          "nps": 4
         },
         "npsDist": {
+          "3": 1,
+          "5": 1,
           "8": 1,
-          "10": 2
+          "10": 4
         },
         "installDist": {
           "5": 1
@@ -236733,6 +236735,10 @@ window.SLACK_DATA = {
           "기타": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 4,
+            "low": 2
+          },
           "6개월": {
             "total": 2,
             "low": 0
@@ -236743,18 +236749,87 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "SECTA9": {
+          "KIS": {
             "total": 2,
             "low": 0
           },
-          "KIS": {
+          "KPN": {
+            "total": 2,
+            "low": 1
+          },
+          "SMARTRO": {
             "total": 1,
+            "low": 1
+          },
+          "SECTA9": {
+            "total": 2,
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
-        "praises": []
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
+          "필요한 기능이 없거나 몰라서 불편": 1
+        },
+        "alerts": [
+          {
+            "time": "15:15",
+            "store": "몽키헤어",
+            "storeId": "537044",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "수수료",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "15:15",
+            "store": "청서",
+            "storeId": "518574",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "디자인 좋음, 기능 애매",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
+        "praises": [
+          {
+            "time": "15:14",
+            "store": "네일햇송",
+            "storeId": "534452",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "사용법이 간편하고 셋팅해서 보내주시니 편해요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       },
       "ob": {
         "count": 14,
@@ -236969,45 +237044,57 @@ window.SLACK_DATA = {
       },
       "1791344400.590139": {
         "post": "1791344400.590139",
-        "lastSeen": 1791353574.057,
+        "lastSeen": 1791353710.9,
         "r": 1,
         "day": "2026-10-07",
         "idx": 25
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791353574.057,
+        "lastSeen": 1791353710.9,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791353574.057,
+        "lastSeen": 1791353710.9,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791353574.057,
+        "lastSeen": 1791353710.9,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791352537.811179": {
         "post": "1791352537.811179",
-        "lastSeen": 1791353574.057,
+        "lastSeen": 1791353710.9,
         "r": 1,
         "day": "2026-10-07",
         "idx": 70
       },
       "1791352812.428439": {
         "post": "1791352812.428439",
-        "lastSeen": 1791353574.057,
+        "lastSeen": 1791353710.9,
         "r": 1,
         "day": "2026-10-07",
         "idx": 72
+      },
+      "1791353700.830119": {
+        "post": "1791353700.830119",
+        "lastSeen": 1791353710.9
+      },
+      "1791353700.225429": {
+        "post": "1791353700.225429",
+        "lastSeen": 1791353710.9
+      },
+      "1791353700.661169": {
+        "post": "1791353700.661169",
+        "lastSeen": 1791353710.9
       }
     },
     "days": {
@@ -316249,7 +316336,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 15:13",
+    "at": "2026-10-07 15:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -316371,7 +316458,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 15:12",
+    "at": "2026-10-07 15:15",
     "pri": {
       "days": 0,
       "failed": [],
