@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17552,
+  "version": 17553,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -236787,34 +236787,39 @@ window.SLACK_DATA = {
         "offline": 22,
         "unknown": 0
       },
-      "updatedAt": "15:36",
+      "updatedAt": "15:38",
       "voc": {
-        "responses": 13,
+        "responses": 14,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 13,
+          "count": 14,
           "low": 4
         },
         "high": {
-          "install": 1,
-          "nps": 7
+          "install": 2,
+          "nps": 8
         },
         "npsDist": {
           "3": 2,
           "5": 2,
           "8": 2,
-          "10": 7
+          "10": 8
         },
         "installDist": {
-          "5": 1
+          "5": 2
         },
         "byIndustry": {
+          "도소매": 1,
           "기타": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 2,
+            "low": 0
+          },
           "1개월": {
             "total": 4,
             "low": 1
@@ -236830,20 +236835,16 @@ window.SLACK_DATA = {
           "6개월": {
             "total": 2,
             "low": 0
-          },
-          "구매설치": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 6,
+            "low": 2
+          },
           "KOCES": {
             "total": 1,
             "low": 0
-          },
-          "KPN": {
-            "total": 5,
-            "low": 2
           },
           "KIS": {
             "total": 3,
@@ -236985,9 +236986,9 @@ window.SLACK_DATA = {
         ]
       },
       "ob": {
-        "count": 20,
+        "count": 21,
         "byEmp": {
-          "김규빈": 20
+          "김규빈": 21
         },
         "items": [
           {
@@ -237021,6 +237022,14 @@ window.SLACK_DATA = {
             "recvDate": "2026-10-07",
             "planDate": "",
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790131068451809"
+          },
+          {
+            "key": "2026년 10월 7일 오후 1:31:37|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790575469671939#1",
+            "handler": "김규빈",
+            "status": "1차부재",
+            "recvDate": "2026-10-07",
+            "planDate": "",
+            "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790575469671939"
           },
           {
             "key": "2026년 10월 7일 오후 1:17:52|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790731737031139#1",
@@ -237245,35 +237254,35 @@ window.SLACK_DATA = {
       },
       "1791344400.590139": {
         "post": "1791344400.590139",
-        "lastSeen": 1791355009.143,
+        "lastSeen": 1791355112.37,
         "r": 1,
         "day": "2026-10-07",
         "idx": 25
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791355009.143,
+        "lastSeen": 1791355112.37,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791355009.143,
+        "lastSeen": 1791355112.37,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791355009.143,
+        "lastSeen": 1791355112.37,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791353700.661169": {
         "post": "1791353700.661169",
-        "lastSeen": 1791355009.143,
+        "lastSeen": 1791355112.37,
         "r": 1,
         "day": "2026-10-07",
         "idx": 77
@@ -316555,20 +316564,20 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 15:37",
+    "at": "2026-10-07 15:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
     "rows": 4411,
-    "named": 1108,
+    "named": 1109,
     "unknownName": 8,
     "beforeStart": 0,
-    "done": 1108,
+    "done": 1109,
     "byStatus": {
       "일정등록완료": 701,
-      "1차부재": 246,
+      "1차부재": 247,
       "점주직접접수": 91,
       "설치불가": 18,
       "(빈칸)": 5,
@@ -316677,7 +316686,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 15:36",
+    "at": "2026-10-07 15:38",
     "pri": {
       "days": 0,
       "failed": [],
