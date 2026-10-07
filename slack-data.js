@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17347,
+  "version": 17348,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235562,7 +235562,7 @@ window.SLACK_DATA = {
           "req": "포스기/ 터치가 잘 안먹혀서 점검 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "터치안되어서 A/S장비발송 도착하면 고객센터로 연락달라고 전다드림."
         },
         {
           "time": "10:08",
@@ -235839,7 +235839,7 @@ window.SLACK_DATA = {
       },
       "1791336787.959719": {
         "post": "1791336787.959719",
-        "lastSeen": 1791337478.882,
+        "lastSeen": 1791337543.387,
         "r": 1,
         "day": "2026-10-07",
         "idx": 10
@@ -314523,13 +314523,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 10:44",
+    "at": "2026-10-07 10:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4401,
+    "rows": 4403,
     "named": 1088,
     "unknownName": 6,
     "beforeStart": 0,
@@ -314645,7 +314645,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 10:44",
+    "at": "2026-10-07 10:45",
     "pri": {
       "days": 0,
       "failed": [],
