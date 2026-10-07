@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17384,
+  "version": 17385,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235526,6 +235526,7 @@ window.SLACK_DATA = {
         },
         "menu": {
           "김규빈": 1,
+          "배선유": 1,
           "송태양": 1
         },
         "delivery": {
@@ -235555,6 +235556,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "11:24",
+          "store": "샐러드연구소 샐리어트 연산점",
+          "biz": "3460803234",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "신규 설치 예정 메뉴 등록",
+          "hw": "",
+          "intake": "online",
+          "note": "규빈님 / 선택 메뉴 안에 들어가는게 옵션이자나여 / 저거 가격은 없나요? / • [포장이벤트] 닭가슴살 샐러드세트메뉴 • 샐러드 + 치아바타 + 음료세트메뉴 • PICK 개취 샐러드 SET(샐러드+스프+치아바타)세트메뉴 [포장이벤트] 닭가슴살 샐러드세트메뉴 샐러드 + 치아바타 + 음료세트메뉴 PICK 개취 샐러드 SET(샐러드+스프+치아바타)세트메뉴 / "
         },
         {
           "time": "11:21",
@@ -235879,11 +235891,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 24,
+        "online": 25,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "11:33",
+      "updatedAt": "11:47",
       "voc": {
         "responses": 1,
         "install": {
@@ -235984,13 +235996,6 @@ window.SLACK_DATA = {
       "1791298843.204959": {
         "post": "1791298843.204959",
         "lastSeen": 1791317728.229
-      },
-      "1791339865.322819": {
-        "post": "1791339865.322819",
-        "lastSeen": 1791341191.893,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 15
       }
     },
     "days": {
@@ -314709,14 +314714,15 @@ window.SLACK_DATA = {
             "store": "샐러드연구소 샐리어트 연산점",
             "biz": "3460803234",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 22.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:46",
+    "at": "2026-10-07 11:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314838,7 +314844,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:46",
+    "at": "2026-10-07 11:47",
     "pri": {
       "days": 0,
       "failed": [],
