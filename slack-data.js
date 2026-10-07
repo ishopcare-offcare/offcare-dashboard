@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17530,
+  "version": 17531,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235535,7 +235535,7 @@ window.SLACK_DATA = {
           "배선유": 1
         },
         "transfer": {
-          "송태양": 5,
+          "송태양": 4,
           "김동욱": 3
         },
         "menu": {
@@ -235593,7 +235593,7 @@ window.SLACK_DATA = {
           "req": "• 결제 진행 후 바로 취소되는 오류가 있으시다고 하여 점검 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "인터넷 기사 방문해 lan 케이블 교체했다고 함 / 현재는 식사하느라 외부에 계심"
         },
         {
           "time": "15:00",
@@ -235660,17 +235660,6 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "방전작업 후 정상 켜짐 확인 완료ㅑ"
-        },
-        {
-          "time": "14:39",
-          "store": "매씨스트아카데미학원",
-          "biz": "5078508500",
-          "cat": "transfer",
-          "emp": "송태양",
-          "req": "• 메뉴 복사 필요 / 프론트 / 아무떄나 연락 가능",
-          "hw": "",
-          "intake": "online",
-          "note": "1차부재"
         },
         {
           "time": "14:36",
@@ -236692,37 +236681,50 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 85,
+        "online": 84,
         "offline": 20,
         "unknown": 0
       },
-      "updatedAt": "15:00",
+      "updatedAt": "15:08",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
-          "count": 0,
-          "low": 0
-        },
-        "nps": {
           "count": 1,
           "low": 0
         },
+        "nps": {
+          "count": 2,
+          "low": 0
+        },
         "high": {
-          "install": 0,
-          "nps": 0
+          "install": 1,
+          "nps": 1
         },
         "npsDist": {
-          "8": 1
+          "8": 1,
+          "10": 1
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "5": 1
+        },
+        "byIndustry": {
+          "기타": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          },
           "6개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 0
+          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -236937,42 +236939,42 @@ window.SLACK_DATA = {
       },
       "1791344400.590139": {
         "post": "1791344400.590139",
-        "lastSeen": 1791353182.522,
+        "lastSeen": 1791353263.113,
         "r": 1,
         "day": "2026-10-07",
         "idx": 25
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791353182.522,
+        "lastSeen": 1791353263.113,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791353182.522,
+        "lastSeen": 1791353263.113,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791353182.522,
+        "lastSeen": 1791353263.113,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791352537.811179": {
         "post": "1791352537.811179",
-        "lastSeen": 1791353182.522,
+        "lastSeen": 1791353263.113,
         "r": 1,
         "day": "2026-10-07",
         "idx": 70
       },
       "1791352812.428439": {
         "post": "1791352812.428439",
-        "lastSeen": 1791353182.522,
+        "lastSeen": 1791353263.113,
         "r": 1,
         "day": "2026-10-07",
         "idx": 72
@@ -316217,7 +316219,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 15:06",
+    "at": "2026-10-07 15:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -316339,7 +316341,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 15:06",
+    "at": "2026-10-07 15:07",
     "pri": {
       "days": 0,
       "failed": [],
