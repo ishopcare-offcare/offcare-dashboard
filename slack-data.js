@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17370,
+  "version": 17371,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235501,13 +235501,13 @@ window.SLACK_DATA = {
     "2026-10-07": {
       "counts": {
         "as": {
+          "김동욱": 3,
           "심성현": 3,
           "배선유": 3,
           "김현기": 2,
           "고경림": 2,
           "박하림": 1,
-          "송태양": 1,
-          "김동욱": 2
+          "송태양": 1
         },
         "onboarding": {
           "박하림": 2,
@@ -235544,6 +235544,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:21",
+          "store": "돈바치 가락점",
+          "biz": "8821602416",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "프린터기에서 용지가 십힌다고 AS 문의주셨습니다.:꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": "cpp-3000 커버 누르고 있어야 출력됨. / 금일 퀵발송 / 안녕하세요 세연님! 해당매장 금일 퀵발송 부탁드립니다. 어드민 작성완료 안녕하세요 세연님!"
+        },
         {
           "time": "11:19",
           "store": "모녀김밥",
@@ -235835,7 +235846,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 22,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
       "updatedAt": "11:24",
@@ -235942,11 +235953,11 @@ window.SLACK_DATA = {
       },
       "1791339301.059689": {
         "post": "1791339301.059689",
-        "lastSeen": 1791339948.086
+        "lastSeen": 1791340100.448
       },
       "1791339865.322819": {
         "post": "1791339865.322819",
-        "lastSeen": 1791339948.086
+        "lastSeen": 1791340100.448
       }
     },
     "days": {
@@ -314646,7 +314657,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:25",
+    "at": "2026-10-07 11:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314768,7 +314779,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:25",
+    "at": "2026-10-07 11:28",
     "pri": {
       "days": 0,
       "failed": [],
