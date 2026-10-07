@@ -3,10 +3,437 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3118,
- "updatedAt": "2026-10-07 17:55",
+ "version": 3119,
+ "updatedAt": "2026-10-07 17:56",
  "days": 30,
  "items": [
+  {
+   "ts": "1791363325.521179",
+   "date": "2026-10-07",
+   "time": "17:55",
+   "store": "그녀의커피잔32",
+   "biz": "3740400762",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C76JD2PAP",
+     "from": "댓글",
+     "path": "menu-files/1791363325_521179-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "1번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "2번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "3번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "4번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "5번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "6번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "7번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "8번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "9번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "10번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "11번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "12번",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "리뉴토스트",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "딸기쨈",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "빼빼로",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7EPBGC1F",
+     "from": "댓글",
+     "path": "menu-files/1791363325_521179-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "바닐라 아포카토",
+       "price": 5700
+      },
+      {
+       "category": "커피",
+       "name": "hot아메리카노",
+       "price": 4200
+      },
+      {
+       "category": "커피",
+       "name": "ice아메리카노",
+       "price": 4700
+      },
+      {
+       "category": "커피",
+       "name": "레몬아메리카노",
+       "price": 5300
+      },
+      {
+       "category": "커피",
+       "name": "hot카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "ice카페라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "hot연유라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "ice연유라떼",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "썸머라떼",
+       "price": 7000
+      },
+      {
+       "category": "커피",
+       "name": "hot바닐라라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "ice바닐라라떼",
+       "price": 7000
+      },
+      {
+       "category": "커피",
+       "name": "hot카라멜마끼아토",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "ice카라멜마끼아토",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "초코카페라떼",
+       "price": 6800
+      },
+      {
+       "category": "커피",
+       "name": "hot카페모카",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "ice카페모카",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "말차카페라떼",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "샷 추가",
+       "price": 700
+      },
+      {
+       "category": "커피",
+       "name": "헤이즐넛시럽",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "팡팡할인 hot 아메",
+       "price": 3200
+      },
+      {
+       "category": "커피",
+       "name": "팡팡할인 ice 아메",
+       "price": 3700
+      },
+      {
+       "category": "커피",
+       "name": "팡팡할인 hot 카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "팡팡할인 ice 카페라떼",
+       "price": 4500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C77G9KF1B",
+     "from": "댓글",
+     "path": "menu-files/1791363325_521179-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "밀크",
+       "name": "hot초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "밀크",
+       "name": "ice초코라떼",
+       "price": 5500
+      },
+      {
+       "category": "밀크",
+       "name": "hot말차라떼",
+       "price": 5500
+      },
+      {
+       "category": "밀크",
+       "name": "ice말차라떼",
+       "price": 6000
+      },
+      {
+       "category": "밀크",
+       "name": "미숫가루 쏠라",
+       "price": 6500
+      },
+      {
+       "category": "밀크",
+       "name": "딸기라떼",
+       "price": 6500
+      },
+      {
+       "category": "밀크",
+       "name": "딸기말차라떼",
+       "price": 7500
+      },
+      {
+       "category": "밀크",
+       "name": "메론 쌍쌍",
+       "price": 7500
+      },
+      {
+       "category": "밀크",
+       "name": "초콜렛 초코 더하기",
+       "price": 7000
+      },
+      {
+       "category": "밀크",
+       "name": "초콜렛 딸기 더하기",
+       "price": 7000
+      },
+      {
+       "category": "밀크",
+       "name": "초콜렛 쿠키 더하기",
+       "price": 7000
+      },
+      {
+       "category": "밀크",
+       "name": "말차녹차더하기",
+       "price": 7400
+      },
+      {
+       "category": "밀크",
+       "name": "hot밤라떼",
+       "price": 6000
+      },
+      {
+       "category": "밀크",
+       "name": "ice밤라떼",
+       "price": 6500
+      },
+      {
+       "category": "밀크",
+       "name": "hot고구마라떼",
+       "price": 6000
+      },
+      {
+       "category": "밀크",
+       "name": "ice고구마라떼",
+       "price": 6500
+      },
+      {
+       "category": "밀크",
+       "name": "평일할인 hot 초코",
+       "price": 4000
+      },
+      {
+       "category": "밀크",
+       "name": "평일할인 ice 초코",
+       "price": 4500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7CLMCXTL",
+     "from": "댓글",
+     "path": "menu-files/1791363325_521179-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드",
+       "name": "메론모자른 망고에이드",
+       "price": 8500
+      },
+      {
+       "category": "에이드",
+       "name": "샹그리아 에이드",
+       "price": 7500
+      },
+      {
+       "category": "에이드",
+       "name": "장미레몬에이드",
+       "price": 7300
+      },
+      {
+       "category": "에이드",
+       "name": "라임모히또",
+       "price": 7300
+      },
+      {
+       "category": "에이드",
+       "name": "자몽 에이드",
+       "price": 7300
+      },
+      {
+       "category": "에이드",
+       "name": "유자히비스커스에이드",
+       "price": 7500
+      },
+      {
+       "category": "에이드",
+       "name": "레몬에이드",
+       "price": 7000
+      },
+      {
+       "category": "에이드",
+       "name": "패션후르츠",
+       "price": 7000
+      },
+      {
+       "category": "에이드",
+       "name": "블루레몬에이드",
+       "price": 7000
+      },
+      {
+       "category": "에이드",
+       "name": "피치아이스티",
+       "price": 4500
+      },
+      {
+       "category": "에이드",
+       "name": "평일할인 피치아이스티",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7CLNH7U2",
+     "from": "댓글",
+     "path": "menu-files/1791363325_521179-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "스무디쉐이크",
+       "name": "딸기스무디",
+       "price": 7000
+      },
+      {
+       "category": "스무디쉐이크",
+       "name": "망고스무디",
+       "price": 7000
+      },
+      {
+       "category": "스무디쉐이크",
+       "name": "블루베리 스무디",
+       "price": 7000
+      },
+      {
+       "category": "스무디쉐이크",
+       "name": "딸기쉐이크",
+       "price": 6800
+      },
+      {
+       "category": "스무디쉐이크",
+       "name": "쿠키쉐이크",
+       "price": 6800
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 6,
+   "lr": "1791363382.740359",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791363325521179"
+  },
   {
    "ts": "1791361839.738379",
    "date": "2026-10-07",
