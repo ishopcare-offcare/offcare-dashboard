@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3096,
- "updatedAt": "2026-10-07 14:48",
+ "version": 3097,
+ "updatedAt": "2026-10-07 14:57",
  "days": 30,
  "items": [
   {
@@ -57252,31 +57252,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788761255340449"
-  },
-  {
-   "ts": "1788760593.313109",
-   "date": "2026-09-07",
-   "time": "14:56",
-   "store": "계근상 경남대점",
-   "biz": "5360603658",
-   "pos": "토스포스",
-   "content": "계근상 고양화정점\n복사코드 : 14851502\n카테고리:  찜·탕·찌개 / 백반·죽·국수 / 야식\n\n전통숙성 황실김치찜&찌개 고양화정점\n복사코드 : 14846489 \n카테고리:  찜·탕·찌개 / 백반·죽·국수 / 야식",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "?? 복사코드가 뭐지...",
-    "배달 어플일거같은 느낌이 싹 드네",
-    "정답입니다. 이미지나 엑셀로 보내달라고 안내"
-   ],
-   "rc": 4,
-   "lr": "1788763856.537619",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788760593313109"
   }
  ],
  "ocr": {
