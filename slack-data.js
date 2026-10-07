@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17415,
+  "version": 17416,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235535,7 +235535,19 @@ window.SLACK_DATA = {
           "김현기": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:33",
+          "store": "퀼트공감",
+          "biz": "2481000858",
+          "handler": "박하림",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "12:12",
@@ -235546,7 +235558,7 @@ window.SLACK_DATA = {
           "req": "cat 단말기 영수증 출력 용도로 연결 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "기존 KOVAN 단말기 프린터 용도 사용 연결 출력 테스트 완료 NICE 단말기 타사 기기 추가 해당 기기로 출력 희망 시 다른 케이블 필요함 안내 단독 결제로 사용한다고 합니다."
         },
         {
           "time": "12:08",
@@ -236004,7 +236016,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 34,
+        "online": 35,
         "offline": 8,
         "unknown": 0
       },
@@ -236112,25 +236124,25 @@ window.SLACK_DATA = {
       },
       "1791343152.245479": {
         "post": "1791343152.245479",
-        "lastSeen": 1791343944.065,
+        "lastSeen": 1791344014.853,
         "r": 1,
         "day": "2026-10-07",
         "idx": 21
       },
       "1791343241.189959": {
         "post": "1791343241.189959",
-        "lastSeen": 1791343944.065,
+        "lastSeen": 1791344014.853,
         "r": 1,
         "day": "2026-10-07",
         "idx": 22
       },
       "1791343803.468059": {
         "post": "1791343803.468059",
-        "lastSeen": 1791343944.065
+        "lastSeen": 1791344014.853
       },
       "1791343885.267859": {
         "post": "1791343885.267859",
-        "lastSeen": 1791343944.065
+        "lastSeen": 1791344014.853
       }
     },
     "days": {
@@ -314918,7 +314930,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 12:32",
+    "at": "2026-10-07 12:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -315040,7 +315052,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 12:32",
+    "at": "2026-10-07 12:33",
     "pri": {
       "days": 0,
       "failed": [],
