@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17603,
+  "version": 17604,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235555,6 +235555,17 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
+          "time": "15:56",
+          "store": "벨로왁싱",
+          "biz": "7204900535",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
           "time": "15:44",
           "store": "주식회사 에이치케이넷츠",
           "biz": "2068124292",
@@ -235598,7 +235609,7 @@ window.SLACK_DATA = {
           "req": "아이패드/포프 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "타사 포스로 로그인 상태 재온보딩 사용 방법 전달 완료"
         },
         {
           "time": "16:45",
@@ -237104,11 +237115,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 117,
+        "online": 118,
         "offline": 26,
         "unknown": 0
       },
-      "updatedAt": "16:47",
+      "updatedAt": "16:56",
       "voc": {
         "responses": 15,
         "install": {
@@ -237586,35 +237597,35 @@ window.SLACK_DATA = {
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791359778.533,
+        "lastSeen": 1791359896.011,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791359778.533,
+        "lastSeen": 1791359896.011,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791359778.533,
+        "lastSeen": 1791359896.011,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791355501.061789": {
         "post": "1791355501.061789",
-        "lastSeen": 1791359778.533,
+        "lastSeen": 1791359896.011,
         "r": 1,
         "day": "2026-10-07",
         "idx": 78
       },
       "1791359032.113289": {
         "post": "1791359032.113289",
-        "lastSeen": 1791359778.533,
+        "lastSeen": 1791359896.011,
         "r": 1,
         "day": "2026-10-07",
         "idx": 87
@@ -316995,7 +317006,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 16:56",
+    "at": "2026-10-07 16:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -317116,7 +317127,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 16:56",
+    "at": "2026-10-07 16:58",
     "pri": {
       "days": 0,
       "failed": [],
