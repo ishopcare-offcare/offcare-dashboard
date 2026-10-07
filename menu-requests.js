@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3099,
- "updatedAt": "2026-10-07 15:20",
+ "version": 3100,
+ "updatedAt": "2026-10-07 15:34",
  "days": 30,
  "items": [
   {
@@ -57101,29 +57101,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788763179987469"
-  },
-  {
-   "ts": "1788762834.142499",
-   "date": "2026-09-07",
-   "time": "15:33",
-   "store": "유가네",
-   "biz": "4693200312",
-   "pos": "퍼스트포스",
-   "content": "FD 포스/ 메뉴 신규 등록 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[메뉴 특선]\n\n낙지볶음 2인분   26,000원"
-   ],
-   "rc": 3,
-   "lr": "1788764736.695049",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788762834142499"
   }
  ],
  "ocr": {
