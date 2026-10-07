@@ -3,10 +3,130 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3113,
- "updatedAt": "2026-10-07 17:28",
+ "version": 3114,
+ "updatedAt": "2026-10-07 17:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1791361839.738379",
+   "date": "2026-10-07",
+   "time": "17:30",
+   "store": "",
+   "biz": "2068124292",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_1791361745117.png",
+     "fid": "F0C7EGQMNF3",
+     "from": "댓글",
+     "path": "menu-files/1791361839_738379-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "단팥빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "소보로빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "생크림빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "인절미 (5개)",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "찹쌀떡 (3개)",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "호두과자 (3개)",
+       "price": 2500
+      }
+     ]
+    },
+    {
+     "name": "Resized_1791361744933.png",
+     "fid": "F0C6X794B6K",
+     "from": "댓글",
+     "path": "menu-files/1791361839_738379-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 2000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 3200
+      },
+      {
+       "category": "커피",
+       "name": "카페모카",
+       "price": 3700
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "카라멜마키아토",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "미숫가루",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "초코라떼",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "딸기라떼",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "레몬에이드",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "티(히비스커스/캐모마일/페퍼민트)",
+       "price": 2500
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791361890.488299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791361839738379"
+  },
   {
    "ts": "1791360499.253639",
    "date": "2026-10-07",
