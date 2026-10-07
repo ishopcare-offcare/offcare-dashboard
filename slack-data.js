@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17379,
+  "version": 17380,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235510,7 +235510,7 @@ window.SLACK_DATA = {
           "심성현": 3,
           "배선유": 3,
           "김현기": 2,
-          "고경림": 2,
+          "고경림": 3,
           "박하림": 1,
           "송태양": 1
         },
@@ -235532,19 +235532,7 @@ window.SLACK_DATA = {
           "김현기": 1
         }
       },
-      "pending": [
-        {
-          "time": "10:05",
-          "store": "롯데시네마 건대입구 (팝업)",
-          "biz": "3138700979",
-          "handler": "고경림",
-          "cat": "as",
-          "intake": "online",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "11:29",
@@ -235734,6 +235722,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "/ / / / / / / /"
+        },
+        {
+          "time": "10:05",
+          "store": "롯데시네마 건대입구 (팝업)",
+          "biz": "3138700979",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "롯데컬처윅스 주식회사 / 브이스퀘어(건대입구) 매장에서 영수증 출력 시 주소와 번호가 다르게 출력 된다고 합니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "CO팀 주소변경 요청완료"
         },
         {
           "time": "10:05",
@@ -235988,7 +235987,10 @@ window.SLACK_DATA = {
       },
       "1791339865.322819": {
         "post": "1791339865.322819",
-        "lastSeen": 1791340756.177
+        "lastSeen": 1791340813.736,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 15
       }
     },
     "days": {
@@ -314562,8 +314564,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 15,
-        "sumMin": 121.61412858565652,
+        "cnt": 16,
+        "sumMin": 136.94135660330457,
         "over": 1,
         "items": [
           {
@@ -314700,13 +314702,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "transfer",
             "dmin": 23.8
+          },
+          {
+            "hm": "11:24",
+            "min": 15.3,
+            "store": "샐러드연구소 샐리어트 연산점",
+            "biz": "3460803234",
+            "who": "배선유",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:39",
+    "at": "2026-10-07 11:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314828,7 +314838,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:39",
+    "at": "2026-10-07 11:40",
     "pri": {
       "days": 0,
       "failed": [],
