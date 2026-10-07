@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17351,
+  "version": 17352,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235501,12 +235501,12 @@ window.SLACK_DATA = {
     "2026-10-07": {
       "counts": {
         "as": {
+          "김현기": 2,
           "고경림": 2,
           "박하림": 1,
           "김동욱": 2,
           "배선유": 1,
-          "심성현": 1,
-          "김현기": 1
+          "심성현": 1
         },
         "booking": {
           "심성현": 3,
@@ -235531,6 +235531,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:41",
+          "store": "공부아지트스터디카페&amp;공유오피스 성균관대점",
+          "biz": "8018803562",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포스프로그램에서는 당일권 선불권 스터디룸 순으로 나오나 프론트에서는 당일권 스터디룸 선불권 순으로 나온다하여 점검부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:33",
           "store": "대원중국식품",
@@ -235742,7 +235753,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 4,
         "unknown": 0
       },
@@ -314528,7 +314539,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 10:54",
+    "at": "2026-10-07 10:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314650,7 +314661,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 10:54",
+    "at": "2026-10-07 10:56",
     "pri": {
       "days": 0,
       "failed": [],
