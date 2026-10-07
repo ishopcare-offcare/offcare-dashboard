@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3117,
- "updatedAt": "2026-10-07 17:52",
+ "version": 3118,
+ "updatedAt": "2026-10-07 17:55",
  "days": 30,
  "items": [
   {
@@ -55593,70 +55593,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788773722655939"
-  },
-  {
-   "ts": "1788771263.308199",
-   "date": "2026-09-07",
-   "time": "17:54",
-   "store": "쭈닭한상",
-   "biz": "7822301997",
-   "pos": "퍼스트포스",
-   "content": "스파로스 포스 메뉴 등록 요청 드립니다. ( 테이블 + 대형키오스크 함께 사용)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C03FXD473",
-     "from": "댓글",
-     "path": "menu-files/1788771263_308199-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "단품",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "두상세트메뉴",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "추가메뉴",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "주류 및 음료",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "3.3.3데이행사",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "비빔밥",
-       "price": 0
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "삭제\n우동  6,900\n달걀말이 10,000\n뽁음밥 2,000\n\n추가\n한상카테고리\n통통쭈꾸미 신라면 8,900",
-    "단품에 등록해주십쇼,,,!"
-   ],
-   "rc": 6,
-   "lr": "1788771746.281239",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788771263308199"
   }
  ],
  "ocr": {
