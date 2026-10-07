@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17356,
+  "version": 17357,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -232770,7 +232770,7 @@ window.SLACK_DATA = {
         },
         "onboarding": {
           "최민석": 2,
-          "박하림": 7,
+          "박하림": 8,
           "심성현": 4,
           "김현기": 1,
           "고경림": 7,
@@ -232798,17 +232798,6 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
-        {
-          "time": "15:21",
-          "store": "밥집",
-          "biz": "7564500346",
-          "handler": "박하림",
-          "cat": "as",
-          "intake": "online",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
         {
           "time": "11:00",
           "store": "주식회사 에이치케이넷츠",
@@ -233718,6 +233707,17 @@ window.SLACK_DATA = {
           "cat": "as",
           "emp": "김동욱",
           "req": "페이스페이 결제안됨 / 토플문의",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "15:21",
+          "store": "밥집",
+          "biz": "7564500346",
+          "cat": "onboarding",
+          "emp": "박하림",
+          "req": "포프유(태블릿) 온보딩 요청 드립니다!",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -235861,11 +235861,14 @@ window.SLACK_DATA = {
       },
       "1791338403.171439": {
         "post": "1791338403.171439",
-        "lastSeen": 1791338439.194
+        "lastSeen": 1791338506.358,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 11
       },
       "1791338400.337559": {
         "post": "1791338400.337559",
-        "lastSeen": 1791338439.194
+        "lastSeen": 1791338506.358
       }
     },
     "days": {
@@ -314439,8 +314442,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 11,
-        "sumMin": 99.76145185232164,
+        "cnt": 12,
+        "sumMin": 100.92152787049613,
         "over": 1,
         "items": [
           {
@@ -314541,13 +314544,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "as",
             "dmin": 15.4
+          },
+          {
+            "hm": "11:00",
+            "min": 1.2,
+            "store": "칼도에스프레소바",
+            "biz": "6041852998",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:00",
+    "at": "2026-10-07 11:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314669,7 +314680,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:00",
+    "at": "2026-10-07 11:01",
     "pri": {
       "days": 0,
       "failed": [],
