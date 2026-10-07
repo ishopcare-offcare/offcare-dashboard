@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17363,
+  "version": 17364,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235501,7 +235501,7 @@ window.SLACK_DATA = {
     "2026-10-07": {
       "counts": {
         "booking": {
-          "송태양": 3,
+          "송태양": 2,
           "심성현": 3
         },
         "as": {
@@ -235510,6 +235510,7 @@ window.SLACK_DATA = {
           "김현기": 2,
           "고경림": 2,
           "박하림": 1,
+          "송태양": 1,
           "김동욱": 2
         },
         "extern": {
@@ -235725,12 +235726,12 @@ window.SLACK_DATA = {
           "time": "09:47",
           "store": "1955 강남낙지",
           "biz": "7650703476",
-          "cat": "booking",
+          "cat": "as",
           "emp": "송태양",
           "req": "가결제",
           "hw": "",
           "intake": "online",
-          "note": "가맹점 확인문구로 co 확인요청 / 금일 오후8시 재예약"
+          "note": "가맹점 확인문구로 co 확인요청 / 금일 오후8시 재예약 / 완료"
         },
         {
           "time": "09:46",
@@ -235919,7 +235920,7 @@ window.SLACK_DATA = {
       },
       "1791339301.059689": {
         "post": "1791339301.059689",
-        "lastSeen": 1791339325.321
+        "lastSeen": 1791339394.715
       }
     },
     "days": {
@@ -314619,7 +314620,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:15",
+    "at": "2026-10-07 11:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314741,7 +314742,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:15",
+    "at": "2026-10-07 11:16",
     "pri": {
       "days": 0,
       "failed": [],
