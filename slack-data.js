@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17551,
+  "version": 17552,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235514,7 +235514,7 @@ window.SLACK_DATA = {
         },
         "booking": {
           "배선유": 3,
-          "고경림": 1,
+          "고경림": 2,
           "박하림": 2,
           "송태양": 2,
           "심성현": 3
@@ -235547,6 +235547,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "delivery": {
+          "최민석": 1,
           "김현기": 1
         }
       },
@@ -235587,6 +235588,17 @@ window.SLACK_DATA = {
       ],
       "done": [
         {
+          "time": "15:36",
+          "store": "당무네 삼겹살",
+          "biz": "1361702644",
+          "cat": "delivery",
+          "emp": "최민석",
+          "req": "배달프로그램 사진수취",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
           "time": "15:18",
           "store": "변경] 상호변경으로 인한 다운로드 요청",
           "biz": "7022002306",
@@ -235596,6 +235608,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "재다운로드 완료 • 상호변경 확인완료 상호변경 확인완료"
+        },
+        {
+          "time": "15:17",
+          "store": "쓰리어클락 김포",
+          "biz": "2182271020",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "10/7 즉시 / 메뉴 복사 O / 터프",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재 / 현재 매장 x 익일 오전 9시 예약요청 • 예약완료 예약완료"
         },
         {
           "time": "15:15",
@@ -236760,11 +236783,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 89,
+        "online": 91,
         "offline": 22,
         "unknown": 0
       },
-      "updatedAt": "15:34",
+      "updatedAt": "15:36",
       "voc": {
         "responses": 13,
         "install": {
@@ -236962,9 +236985,9 @@ window.SLACK_DATA = {
         ]
       },
       "ob": {
-        "count": 19,
+        "count": 20,
         "byEmp": {
-          "김규빈": 19
+          "김규빈": 20
         },
         "items": [
           {
@@ -237000,6 +237023,14 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790131068451809"
           },
           {
+            "key": "2026년 10월 7일 오후 1:17:52|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790731737031139#1",
+            "handler": "김규빈",
+            "status": "1차부재",
+            "recvDate": "2026-10-07",
+            "planDate": "",
+            "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790731737031139"
+          },
+          {
             "key": "2026년 10월 7일 오전 9:29:28|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790144882078689#1",
             "handler": "김규빈",
             "status": "점주직접접수",
@@ -237018,7 +237049,7 @@ window.SLACK_DATA = {
           {
             "key": "2026년 10월 7일 오전 9:09:40|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790922775073539#1",
             "handler": "김규빈",
-            "status": "설치보류요청",
+            "status": "일정등록완료",
             "recvDate": "2026-10-07",
             "planDate": "",
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790922775073539"
@@ -237214,45 +237245,38 @@ window.SLACK_DATA = {
       },
       "1791344400.590139": {
         "post": "1791344400.590139",
-        "lastSeen": 1791354922.727,
+        "lastSeen": 1791355009.143,
         "r": 1,
         "day": "2026-10-07",
         "idx": 25
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791354922.727,
+        "lastSeen": 1791355009.143,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791354922.727,
+        "lastSeen": 1791355009.143,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791354922.727,
+        "lastSeen": 1791355009.143,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791353700.661169": {
         "post": "1791353700.661169",
-        "lastSeen": 1791354922.727,
+        "lastSeen": 1791355009.143,
         "r": 1,
         "day": "2026-10-07",
         "idx": 77
-      },
-      "1791353873.193119": {
-        "post": "1791353873.193119",
-        "lastSeen": 1791354922.727,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 75
       }
     },
     "days": {
@@ -316506,7 +316530,8 @@ window.SLACK_DATA = {
             "store": "쓰리어클락 김포",
             "biz": "2182271020",
             "who": "고경림",
-            "cat": "transfer"
+            "cat": "booking",
+            "dmin": 18.2
           },
           {
             "hm": "15:18",
@@ -316530,25 +316555,25 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 15:35",
+    "at": "2026-10-07 15:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
     "rows": 4411,
-    "named": 1107,
+    "named": 1108,
     "unknownName": 8,
     "beforeStart": 0,
-    "done": 1107,
+    "done": 1108,
     "byStatus": {
-      "일정등록완료": 700,
-      "1차부재": 245,
+      "일정등록완료": 701,
+      "1차부재": 246,
       "점주직접접수": 91,
       "설치불가": 18,
       "(빈칸)": 5,
       "자가설치": 37,
-      "설치보류요청": 10,
+      "설치보류요청": 9,
       "토플파미생성": 1
     }
   },
@@ -316652,7 +316677,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 15:35",
+    "at": "2026-10-07 15:36",
     "pri": {
       "days": 0,
       "failed": [],
