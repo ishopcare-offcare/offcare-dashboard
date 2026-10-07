@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17359,
+  "version": 17360,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235505,7 +235505,7 @@ window.SLACK_DATA = {
           "심성현": 3
         },
         "as": {
-          "배선유": 2,
+          "배선유": 3,
           "김현기": 2,
           "고경림": 2,
           "박하림": 1,
@@ -235529,7 +235529,19 @@ window.SLACK_DATA = {
           "김현기": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "10:05",
+          "store": "롯데시네마 건대입구 (팝업)",
+          "biz": "3138700979",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:00",
@@ -235541,6 +235553,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "금일 오후 4시 15분 예약 요청으로 예약 완료입니다"
+        },
+        {
+          "time": "11:00",
+          "store": "237오므카레 서초 지파이브점",
+          "biz": "4261502882",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "하이오더 선불 결제 주문 시 토스포스에 주문이 누락되는 경우가 있어 확인 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "하이오더에서 조치 받았으니 금일 사용해보고 문제 있으면 재접수하기로"
         },
         {
           "time": "10:57",
@@ -235776,7 +235799,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 18,
+        "online": 20,
         "offline": 4,
         "unknown": 0
       },
@@ -235881,13 +235904,6 @@ window.SLACK_DATA = {
       "1791298843.204959": {
         "post": "1791298843.204959",
         "lastSeen": 1791317728.229
-      },
-      "1791338400.337559": {
-        "post": "1791338400.337559",
-        "lastSeen": 1791338657.014,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 12
       }
     },
     "days": {
@@ -314579,14 +314595,15 @@ window.SLACK_DATA = {
             "store": "237오므카레 서초 지파이브점",
             "biz": "4261502882",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:04",
+    "at": "2026-10-07 11:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314708,7 +314725,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:04",
+    "at": "2026-10-07 11:05",
     "pri": {
       "days": 0,
       "failed": [],
