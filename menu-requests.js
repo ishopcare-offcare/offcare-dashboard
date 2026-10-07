@@ -3,10 +3,325 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3072,
- "updatedAt": "2026-10-07 11:48",
+ "version": 3073,
+ "updatedAt": "2026-10-07 12:05",
  "days": 30,
  "items": [
+  {
+   "ts": "1791342242.488719",
+   "date": "2026-10-07",
+   "time": "12:04",
+   "store": "도르프",
+   "biz": "2614401307",
+   "pos": "토스포스",
+   "content": "메뉴 입력",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1J7Sv4L5kb7WpGXrTC8Xz-rNaANZq7jpp/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1J7Sv4L5kb7WpGXrTC8Xz-rNaANZq7jpp",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "뉴말 브뢰췐",
+       "price": 3000
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "깨 브뢰췐",
+       "price": 3300
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "호밀 브뢰췐",
+       "price": 3500
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "잡곡 브뢰췐",
+       "price": 3500
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "짭조름 브뢰췐",
+       "price": 4000
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "우유 브뢰췐",
+       "price": 4500
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "프렛첼",
+       "price": 4500
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "치즈 프렛첼",
+       "price": 5000
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "치즈 브뢰췐",
+       "price": 5000
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "풀콘 브로트",
+       "price": 15000
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "로켄브로트",
+       "price": 12000
+      },
+      {
+       "category": "빵 단품 (BREAD)",
+       "name": "그로스로켄브로트",
+       "price": 20000
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "햄 치즈",
+       "price": 5500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "햄 치즈 에그",
+       "price": 7000
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "호밀 살라미",
+       "price": 6500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "잡곡 플라이쉬케제",
+       "price": 8000
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "DORF 하우스 샌드위치",
+       "price": 8500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "[변경] 노말 살라미",
+       "price": 6000
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "[변경] 노말 플라이쉬케제",
+       "price": 7500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "DORF 브롯차이트",
+       "price": 14500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "카리부어스트",
+       "price": 12500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "브랏부어스트",
+       "price": 13500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "감자스프",
+       "price": 6000
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "하우스 요거트",
+       "price": 6500
+      },
+      {
+       "category": "식사 (MEAL)",
+       "name": "웨지감자",
+       "price": 5500
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "얼그레이",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "잉글리쉬 브렉퍼스트",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "캐모마일",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "레몬 버베나",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "자몽 허니 블랙티",
+       "price": 6500
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "레몬티",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "도르프 밀크티",
+       "price": 6500
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "그린티 라떼",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "초콜릿 라떼",
+       "price": 6000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "딸기 라떼 (iced only)",
+       "price": 6500
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "아이스티 (iced only)",
+       "price": 5500
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "스팀 밀크",
+       "price": 4000
+      },
+      {
+       "category": "티 & 논커피 (TEA & NON-COFFEE)",
+       "name": "오트밀크 변경",
+       "price": 500
+      },
+      {
+       "category": "맥주 & 병음료 (BEER & BOTTLED DRINK",
+       "name": "사과 주스",
+       "price": 6000
+      },
+      {
+       "category": "맥주 & 병음료 (BEER & BOTTLED DRINK",
+       "name": "오렌지 탄산음료",
+       "price": 6000
+      },
+      {
+       "category": "맥주 & 병음료 (BEER & BOTTLED DRINK",
+       "name": "레몬 탄산음료",
+       "price": 6000
+      },
+      {
+       "category": "맥주 & 병음료 (BEER & BOTTLED DRINK",
+       "name": "자몽 탄산음료",
+       "price": 6000
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "에스프레소",
+       "price": 4500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "카페라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "카푸치노",
+       "price": 5500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "바닐라 라떼",
+       "price": 6000
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "카페 모카",
+       "price": 6500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "카라멜 마키아토",
+       "price": 6500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "커피 (COFFEE)",
+       "name": "오트밀크 변경",
+       "price": 500
+      },
+      {
+       "category": "기타 (EXTRA)",
+       "name": "포션 버터",
+       "price": 1200
+      },
+      {
+       "category": "기타 (EXTRA)",
+       "name": "딸기잼",
+       "price": 1800
+      },
+      {
+       "category": "기타 (EXTRA)",
+       "name": "오렌지 마말레이드",
+       "price": 1800
+      },
+      {
+       "category": "기타 (EXTRA)",
+       "name": "살구잼",
+       "price": 1800
+      },
+      {
+       "category": "기타 (EXTRA)",
+       "name": "블랙커런트 잼",
+       "price": 1800
+      },
+      {
+       "category": "기타 (EXTRA)",
+       "name": "종이 쇼핑백(손잡이)",
+       "price": 200
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791342242488719"
+  },
   {
    "ts": "1791339865.322819",
    "date": "2026-10-07",
