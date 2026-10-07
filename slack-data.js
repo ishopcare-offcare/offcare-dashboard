@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17313,
+  "version": 17314,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235520,7 +235520,7 @@ window.SLACK_DATA = {
           "req": "가결제",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "금일 오후 1시 15분 예약 요청"
         },
         {
           "time": "09:34",
@@ -235572,7 +235572,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:47",
+      "updatedAt": "09:50",
       "voc": {
         "responses": 1,
         "install": {
@@ -235676,17 +235676,21 @@ window.SLACK_DATA = {
       },
       "1791331219.038829": {
         "post": "1791331219.038829",
-        "lastSeen": 1791334196.847,
+        "lastSeen": 1791334245.538,
         "r": 1,
         "day": "2026-10-07",
         "idx": 1
       },
       "1791333149.209589": {
         "post": "1791333149.209589",
-        "lastSeen": 1791334196.847,
+        "lastSeen": 1791334245.538,
         "r": 1,
         "day": "2026-10-07",
         "idx": 3
+      },
+      "1791334201.016449": {
+        "post": "1791334201.016449",
+        "lastSeen": 1791334245.538
       }
     },
     "days": {
@@ -314434,7 +314438,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 09:49",
+    "at": "2026-10-07 09:50",
     "pri": {
       "days": 0,
       "failed": [],
