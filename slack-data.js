@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17539,
+  "version": 17540,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -236718,26 +236718,26 @@ window.SLACK_DATA = {
         "offline": 20,
         "unknown": 0
       },
-      "updatedAt": "15:17",
+      "updatedAt": "15:20",
       "voc": {
-        "responses": 7,
+        "responses": 9,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 7,
-          "low": 2
+          "count": 9,
+          "low": 3
         },
         "high": {
           "install": 1,
-          "nps": 4
+          "nps": 5
         },
         "npsDist": {
           "3": 1,
-          "5": 1,
+          "5": 2,
           "8": 1,
-          "10": 4
+          "10": 5
         },
         "installDist": {
           "5": 1
@@ -236746,6 +236746,10 @@ window.SLACK_DATA = {
           "기타": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 2,
+            "low": 1
+          },
           "3개월": {
             "total": 4,
             "low": 2
@@ -236760,13 +236764,17 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 3,
+            "low": 1
+          },
+          "DAOU": {
+            "total": 1,
+            "low": 1
+          },
           "KIS": {
             "total": 2,
             "low": 0
-          },
-          "KPN": {
-            "total": 2,
-            "low": 1
           },
           "SMARTRO": {
             "total": 1,
@@ -236778,10 +236786,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "필요한 기능이 없거나 몰라서 불편": 1
         },
         "alerts": [
+          {
+            "time": "15:19",
+            "store": "제주아아사진관",
+            "storeId": "259561",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "광고 팝업좀 띄우지마요",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:15",
             "store": "몽키헤어",
@@ -236828,6 +236858,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "15:20",
+            "store": "주식회사 누리타운",
+            "storeId": "248075",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "키오스크로 활용 가능하여 출장 가도 고객응대 가늩",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:14",
             "store": "네일햇송",
@@ -237079,53 +237121,60 @@ window.SLACK_DATA = {
       },
       "1791344400.590139": {
         "post": "1791344400.590139",
-        "lastSeen": 1791353936.976,
+        "lastSeen": 1791353992.542,
         "r": 1,
         "day": "2026-10-07",
         "idx": 25
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791353936.976,
+        "lastSeen": 1791353992.542,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791353936.976,
+        "lastSeen": 1791353992.542,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791353936.976,
+        "lastSeen": 1791353992.542,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791352537.811179": {
         "post": "1791352537.811179",
-        "lastSeen": 1791353936.976,
+        "lastSeen": 1791353992.542,
         "r": 1,
         "day": "2026-10-07",
         "idx": 70
       },
       "1791352812.428439": {
         "post": "1791352812.428439",
-        "lastSeen": 1791353936.976,
+        "lastSeen": 1791353992.542,
         "r": 1,
         "day": "2026-10-07",
         "idx": 72
       },
       "1791353700.661169": {
         "post": "1791353700.661169",
-        "lastSeen": 1791353936.976
+        "lastSeen": 1791353992.542
       },
       "1791353873.193119": {
         "post": "1791353873.193119",
-        "lastSeen": 1791353936.976
+        "lastSeen": 1791353992.542,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 75
+      },
+      "1791353937.715539": {
+        "post": "1791353937.715539",
+        "lastSeen": 1791353992.542
       }
     },
     "days": {
@@ -315699,8 +315748,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 75,
-        "sumMin": 651.5686624248823,
+        "cnt": 76,
+        "sumMin": 653.0947604417802,
         "over": 3,
         "items": [
           {
@@ -316370,13 +316419,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "booking",
             "dmin": 0.9
+          },
+          {
+            "hm": "15:17",
+            "min": 1.5,
+            "store": "쓰리어클락 김포",
+            "biz": "2182271020",
+            "who": "고경림",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 15:19",
+    "at": "2026-10-07 15:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -316498,7 +316555,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 15:18",
+    "at": "2026-10-07 15:19",
     "pri": {
       "days": 0,
       "failed": [],
