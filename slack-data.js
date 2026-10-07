@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17416,
+  "version": 17417,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -236124,25 +236124,28 @@ window.SLACK_DATA = {
       },
       "1791343152.245479": {
         "post": "1791343152.245479",
-        "lastSeen": 1791344014.853,
+        "lastSeen": 1791344091.255,
         "r": 1,
         "day": "2026-10-07",
         "idx": 21
       },
       "1791343241.189959": {
         "post": "1791343241.189959",
-        "lastSeen": 1791344014.853,
+        "lastSeen": 1791344091.255,
         "r": 1,
         "day": "2026-10-07",
         "idx": 22
       },
       "1791343803.468059": {
         "post": "1791343803.468059",
-        "lastSeen": 1791344014.853
+        "lastSeen": 1791344091.255
       },
       "1791343885.267859": {
         "post": "1791343885.267859",
-        "lastSeen": 1791344014.853
+        "lastSeen": 1791344091.255,
+        "r": 1,
+        "day": "2026-10-07",
+        "idx": 23
       }
     },
     "days": {
@@ -314716,8 +314719,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-07": {
-        "cnt": 23,
-        "sumMin": 167.3329318841299,
+        "cnt": 24,
+        "sumMin": 170.12936756610875,
         "over": 1,
         "items": [
           {
@@ -314924,13 +314927,21 @@ window.SLACK_DATA = {
             "biz": "7773801456",
             "who": "김규빈",
             "cat": "as"
+          },
+          {
+            "hm": "12:31",
+            "min": 2.8,
+            "store": "아토키토가든파이브점",
+            "biz": "6334001483",
+            "who": "심성현",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-07 12:33",
+    "at": "2026-10-07 12:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314938,7 +314949,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4408,
     "named": 1088,
-    "unknownName": 7,
+    "unknownName": 8,
     "beforeStart": 0,
     "done": 1088,
     "byStatus": {
@@ -315052,7 +315063,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 12:33",
+    "at": "2026-10-07 12:34",
     "pri": {
       "days": 0,
       "failed": [],
