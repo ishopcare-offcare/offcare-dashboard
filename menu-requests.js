@@ -3,10 +3,412 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3064,
- "updatedAt": "2026-10-07 09:32",
+ "version": 3065,
+ "updatedAt": "2026-10-07 10:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1791335184.166789",
+   "date": "2026-10-07",
+   "time": "10:06",
+   "store": "득량만횟집",
+   "biz": "4943700405",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C77N1QKC6",
+     "from": "댓글",
+     "path": "menu-files/1791335184_166789-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "회",
+       "name": "활어회(특대)",
+       "price": 150000
+      },
+      {
+       "category": "회",
+       "name": "활어회(대)",
+       "price": 120000
+      },
+      {
+       "category": "회",
+       "name": "활어회(중)",
+       "price": 100000
+      },
+      {
+       "category": "회",
+       "name": "활어회(소)",
+       "price": 80000
+      },
+      {
+       "category": "회",
+       "name": "전어",
+       "price": 20000
+      },
+      {
+       "category": "회",
+       "name": "전어 (30,000)",
+       "price": 30000
+      },
+      {
+       "category": "회",
+       "name": "전어 (40,000)",
+       "price": 40000
+      },
+      {
+       "category": "회",
+       "name": "전어 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "회",
+       "name": "전어 (120,000)",
+       "price": 120000
+      },
+      {
+       "category": "회",
+       "name": "병어",
+       "price": 80000
+      },
+      {
+       "category": "회",
+       "name": "병어",
+       "price": 100000
+      },
+      {
+       "category": "회",
+       "name": "병어",
+       "price": 120000
+      },
+      {
+       "category": "회",
+       "name": "병어",
+       "price": 150000
+      },
+      {
+       "category": "회",
+       "name": "병어",
+       "price": 200000
+      },
+      {
+       "category": "회",
+       "name": "꽃게 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "회",
+       "name": "대하구이",
+       "price": 0
+      },
+      {
+       "category": "회",
+       "name": "하모(소)",
+       "price": 80000
+      },
+      {
+       "category": "회",
+       "name": "하모(중)",
+       "price": 100000
+      },
+      {
+       "category": "회",
+       "name": "하모(대)",
+       "price": 120000
+      },
+      {
+       "category": "회",
+       "name": "하모(특대)",
+       "price": 150000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7BK68V7T",
+     "from": "댓글",
+     "path": "menu-files/1791335184_166789-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "우럭탕 (30,000)",
+       "price": 30000
+      },
+      {
+       "category": "식사",
+       "name": "아나고탕 (40,000)",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "연포탕 (40,000)",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "낙지무침 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "낙지볶음 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "우럭탕 (40,000)",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "아나고탕 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "연포탕 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "낙지무침 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "낙지볶음 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "우럭탕 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "아나고탕 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "연포탕 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "연포탕 (70,000)",
+       "price": 70000
+      },
+      {
+       "category": "식사",
+       "name": "연포탕",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "대구탕 (30,000)",
+       "price": 30000
+      },
+      {
+       "category": "식사",
+       "name": "대구탕 (40,000)",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "대구탕 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사",
+       "name": "칼국수",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "죽",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "라면사리",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C842HU5LY",
+     "from": "댓글",
+     "path": "menu-files/1791335184_166789-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "서대,물회",
+       "name": "서대무침",
+       "price": 40000
+      },
+      {
+       "category": "서대,물회",
+       "name": "서대무침",
+       "price": 50000
+      },
+      {
+       "category": "서대,물회",
+       "name": "서대무침",
+       "price": 70000
+      },
+      {
+       "category": "서대,물회",
+       "name": "물회",
+       "price": 18000
+      },
+      {
+       "category": "서대,물회",
+       "name": "물회 (특)",
+       "price": 20000
+      },
+      {
+       "category": "서대,물회",
+       "name": "회덮밥",
+       "price": 15000
+      },
+      {
+       "category": "서대,물회",
+       "name": "회덮밥",
+       "price": 20000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C77N4JZ8E",
+     "from": "댓글",
+     "path": "menu-files/1791335184_166789-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "방어",
+       "name": "대방어 (80,000)",
+       "price": 80000
+      },
+      {
+       "category": "방어",
+       "name": "대방어 (100,000)",
+       "price": 100000
+      },
+      {
+       "category": "방어",
+       "name": "대방어 (120,000)",
+       "price": 120000
+      },
+      {
+       "category": "방어",
+       "name": "대방어 (150,000)",
+       "price": 150000
+      },
+      {
+       "category": "방어",
+       "name": "꽃게 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "방어",
+       "name": "꽃게탕,찜 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "방어",
+       "name": "꽃게찜,탕 (70,000)",
+       "price": 70000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C842LB0RW",
+     "from": "댓글",
+     "path": "menu-files/1791335184_166789-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "쭈꾸미 (50,000)",
+       "price": 50000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "쭈꾸미 (60,000)",
+       "price": 60000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "쭈꾸미 중 (80,000)",
+       "price": 80000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "쭈꾸미 대 (100,000)",
+       "price": 100000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "쭈꾸미 (120,000)",
+       "price": 120000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "새조개 (100,000)",
+       "price": 100000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "새조개 (120,000)",
+       "price": 120000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "새조개 (150,000)",
+       "price": 150000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "새조개 (200,000)",
+       "price": 200000
+      },
+      {
+       "category": "새조개/쭈꾸미",
+       "name": "갑오징어",
+       "price": 70000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 6,
+   "lr": "1791335234.004719",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791335184166789"
+  },
   {
    "ts": "1791275262.110579",
    "date": "2026-10-06",
