@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17414,
+  "version": 17415,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235501,8 +235501,8 @@ window.SLACK_DATA = {
     "2026-10-07": {
       "counts": {
         "as": {
+          "심성현": 6,
           "송태양": 3,
-          "심성현": 5,
           "김현기": 4,
           "김동욱": 3,
           "배선유": 3,
@@ -235537,6 +235537,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:12",
+          "store": "워너비헤어",
+          "biz": "8262200059",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "cat 단말기 영수증 출력 용도로 연결 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:08",
           "store": "미스터버거",
@@ -235993,11 +236004,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 33,
+        "online": 34,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "12:30",
+      "updatedAt": "12:31",
       "voc": {
         "responses": 1,
         "install": {
@@ -236099,30 +236110,27 @@ window.SLACK_DATA = {
         "post": "1791298843.204959",
         "lastSeen": 1791317728.229
       },
-      "1791342746.394549": {
-        "post": "1791342746.394549",
-        "lastSeen": 1791343835.442,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 20
-      },
       "1791343152.245479": {
         "post": "1791343152.245479",
-        "lastSeen": 1791343835.442,
+        "lastSeen": 1791343944.065,
         "r": 1,
         "day": "2026-10-07",
         "idx": 21
       },
       "1791343241.189959": {
         "post": "1791343241.189959",
-        "lastSeen": 1791343835.442,
+        "lastSeen": 1791343944.065,
         "r": 1,
         "day": "2026-10-07",
         "idx": 22
       },
       "1791343803.468059": {
         "post": "1791343803.468059",
-        "lastSeen": 1791343835.442
+        "lastSeen": 1791343944.065
+      },
+      "1791343885.267859": {
+        "post": "1791343885.267859",
+        "lastSeen": 1791343944.065
       }
     },
     "days": {
@@ -314886,7 +314894,8 @@ window.SLACK_DATA = {
             "store": "워너비헤어",
             "biz": "8262200059",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 19.1
           },
           {
             "hm": "12:19",
@@ -314909,15 +314918,15 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 12:30",
+    "at": "2026-10-07 12:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4407,
+    "rows": 4408,
     "named": 1088,
-    "unknownName": 6,
+    "unknownName": 7,
     "beforeStart": 0,
     "done": 1088,
     "byStatus": {
@@ -315031,7 +315040,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 12:30",
+    "at": "2026-10-07 12:32",
     "pri": {
       "days": 0,
       "failed": [],
