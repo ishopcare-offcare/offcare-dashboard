@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17345,
+  "version": 17346,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235502,6 +235502,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "고경림": 1,
+          "박하림": 1,
           "김동욱": 2,
           "배선유": 1,
           "심성현": 1,
@@ -235551,6 +235552,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "케이블 연결 진행 중 다른 업무로 1330 통화 요청"
+        },
+        {
+          "time": "10:20",
+          "store": "텍사스파파 크레페 면목점",
+          "biz": "4037002326",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "포스기/ 터치가 잘 안먹혀서 점검 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "10:08",
@@ -235719,7 +235731,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 4,
         "unknown": 0
       },
@@ -235825,16 +235837,9 @@ window.SLACK_DATA = {
         "post": "1791298843.204959",
         "lastSeen": 1791317728.229
       },
-      "1791336023.793689": {
-        "post": "1791336023.793689",
-        "lastSeen": 1791337306.315,
-        "r": 1,
-        "day": "2026-10-07",
-        "idx": 7
-      },
       "1791336787.959719": {
         "post": "1791336787.959719",
-        "lastSeen": 1791337306.315,
+        "lastSeen": 1791337379.065,
         "r": 1,
         "day": "2026-10-07",
         "idx": 10
@@ -314484,7 +314489,8 @@ window.SLACK_DATA = {
             "store": "텍사스파파 크레페 면목점",
             "biz": "4037002326",
             "who": "박하림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 22
           },
           {
             "hm": "10:22",
@@ -314517,7 +314523,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 10:41",
+    "at": "2026-10-07 10:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314639,7 +314645,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 10:41",
+    "at": "2026-10-07 10:42",
     "pri": {
       "days": 0,
       "failed": [],
