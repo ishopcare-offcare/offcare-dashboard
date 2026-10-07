@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3112,
- "updatedAt": "2026-10-07 17:25",
+ "version": 3113,
+ "updatedAt": "2026-10-07 17:28",
  "days": 30,
  "items": [
   {
@@ -37,15 +37,120 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791360499_253639-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7AJEHXKQ",
+     "from": "댓글",
+     "path": "menu-files/1791360499_253639-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "일반",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "회원권",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "가운대여",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "어린이",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "야간소인경찰",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "야간일반",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "두현입주자",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "10명이상단체",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "실면도입장",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "회원권10매",
+       "price": 110000
+      },
+      {
+       "category": "",
+       "name": "회원권20매",
+       "price": 215000
+      },
+      {
+       "category": "",
+       "name": "회원권30매",
+       "price": 320000
+      },
+      {
+       "category": "",
+       "name": "야간두현입주자",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "수건한장",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "복지센터",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "용역회원권30매",
+       "price": 300000
+      },
+      {
+       "category": "",
+       "name": "경찰소방군인",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "야간회원권추가",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "바지값",
+       "price": 2000
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
     "그냥 냅다 등록해 달라 하셨긴 했어요...",
-    "대표님이 오케이포스라고 하시는데 이전 이력 조회시 fd만 나오길래 fd로 올렸는데 혹시 오케이일까요,,., :개굴-죄송:"
+    "대표님이 오케이포스라고 하시는데 이전 이력 조회시 fd만 나오길래 fd로 올렸는데 혹시 오케이일까요,,., :개굴-죄송:",
+    "아앟... 첨부터 오케이포스로 말씀드릴걸 그랬어요 죄송합니다,..."
    ],
-   "rc": 10,
-   "lr": "1791361507.043049",
+   "rc": 14,
+   "lr": "1791361703.898439",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
