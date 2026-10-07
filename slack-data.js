@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17390,
+  "version": 17391,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235504,6 +235504,11 @@ window.SLACK_DATA = {
           "서상원": 1,
           "송태양": 1
         },
+        "onboarding": {
+          "심성현": 1,
+          "박하림": 2,
+          "배선유": 1
+        },
         "booking": {
           "배선유": 1,
           "송태양": 2,
@@ -235517,10 +235522,6 @@ window.SLACK_DATA = {
           "고경림": 3,
           "박하림": 1,
           "송태양": 1
-        },
-        "onboarding": {
-          "박하림": 2,
-          "배선유": 1
         },
         "transfer": {
           "송태양": 2
@@ -235543,6 +235544,17 @@ window.SLACK_DATA = {
           "cat": "extern",
           "emp": "서상원",
           "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "11:47",
+          "store": "딱풀리는 수학 도안점",
+          "biz": "3599701838",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "일단 프린터기 온보딩과 전체적인 사용방법 영상으로 요청주셨습니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -235903,7 +235915,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 26,
+        "online": 27,
         "offline": 7,
         "unknown": 0
       },
@@ -314734,7 +314746,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 11:57",
+    "at": "2026-10-07 11:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314856,7 +314868,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 11:57",
+    "at": "2026-10-07 11:59",
     "pri": {
       "days": 0,
       "failed": [],
