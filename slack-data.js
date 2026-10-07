@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17521,
+  "version": 17522,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235442,9 +235442,9 @@ window.SLACK_DATA = {
           {
             "key": "2026년 10월 6일 오전 8:04:06|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1789032952891169#1",
             "handler": "김규빈",
-            "status": "토플파미생성",
+            "status": "일정등록완료",
             "recvDate": "2026-10-06",
-            "planDate": "",
+            "planDate": "2026-10-08",
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1789032952891169"
           },
           {
@@ -236614,7 +236614,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 77,
+        "online": 78,
         "offline": 20,
         "unknown": 0
       },
@@ -236655,11 +236655,19 @@ window.SLACK_DATA = {
         "praises": []
       },
       "ob": {
-        "count": 9,
+        "count": 10,
         "byEmp": {
-          "김규빈": 9
+          "김규빈": 10
         },
         "items": [
+          {
+            "key": "2026년 10월 7일 오전 9:00:58|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790044454431299#1",
+            "handler": "김규빈",
+            "status": "1차부재",
+            "recvDate": "2026-10-07",
+            "planDate": "",
+            "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790044454431299"
+          },
           {
             "key": "2026년 10월 7일 오전 8:57:41|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1789715217232269#1",
             "handler": "김규빈",
@@ -236735,6 +236743,14 @@ window.SLACK_DATA = {
         ]
       },
       "absent": [
+        {
+          "time": "14:30",
+          "store": "한국초월명상원",
+          "biz": "1081520852",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        },
         {
           "time": "13:00",
           "store": "늘, 너와 애견수제간식 강아지케이크",
@@ -236819,42 +236835,42 @@ window.SLACK_DATA = {
       },
       "1791344400.590139": {
         "post": "1791344400.590139",
-        "lastSeen": 1791352200.151,
+        "lastSeen": 1791352454.56,
         "r": 1,
         "day": "2026-10-07",
         "idx": 25
       },
       "1791345063.653419": {
         "post": "1791345063.653419",
-        "lastSeen": 1791352200.151,
+        "lastSeen": 1791352454.56,
         "r": 1,
         "day": "2026-10-07",
         "idx": 26
       },
       "1791345603.860079": {
         "post": "1791345603.860079",
-        "lastSeen": 1791352200.151,
+        "lastSeen": 1791352454.56,
         "r": 1,
         "day": "2026-10-07",
         "idx": 33
       },
       "1791349063.801329": {
         "post": "1791349063.801329",
-        "lastSeen": 1791352200.151,
+        "lastSeen": 1791352454.56,
         "r": 1,
         "day": "2026-10-07",
         "idx": 60
       },
       "1791351540.133439": {
         "post": "1791351540.133439",
-        "lastSeen": 1791352200.151,
+        "lastSeen": 1791352454.56,
         "r": 1,
         "day": "2026-10-07",
         "idx": 69
       },
       "1791351900.685769": {
         "post": "1791351900.685769",
-        "lastSeen": 1791352200.151
+        "lastSeen": 1791352454.56
       }
     },
     "days": {
@@ -316061,26 +316077,26 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 14:50",
+    "at": "2026-10-07 14:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
     "rows": 4411,
-    "named": 1097,
+    "named": 1098,
     "unknownName": 8,
     "beforeStart": 0,
-    "done": 1097,
+    "done": 1098,
     "byStatus": {
-      "일정등록완료": 693,
-      "1차부재": 243,
+      "일정등록완료": 694,
+      "1차부재": 244,
       "점주직접접수": 91,
       "설치불가": 18,
       "(빈칸)": 5,
       "자가설치": 36,
       "설치보류요청": 9,
-      "토플파미생성": 2
+      "토플파미생성": 1
     }
   },
   "noteV": {
@@ -316183,7 +316199,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 14:50",
+    "at": "2026-10-07 14:54",
     "pri": {
       "days": 0,
       "failed": [],
