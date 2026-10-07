@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3100,
- "updatedAt": "2026-10-07 15:34",
+ "version": 3101,
+ "updatedAt": "2026-10-07 15:40",
  "days": 30,
  "items": [
   {
@@ -57078,29 +57078,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788763217285159"
-  },
-  {
-   "ts": "1788763179.987469",
-   "date": "2026-09-07",
-   "time": "15:39",
-   "store": "아찌라멘 울산점",
-   "biz": "4153300710",
-   "pos": "기타",
-   "content": "카테고리 덮밥  타마고동 정식 가격수졍 12500 변경해주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "수정 완료"
-   ],
-   "rc": 2,
-   "lr": "1788764827.808329",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788763179987469"
   }
  ],
  "ocr": {
