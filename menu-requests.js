@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3092,
- "updatedAt": "2026-10-07 14:08",
+ "version": 3093,
+ "updatedAt": "2026-10-07 14:27",
  "days": 30,
  "items": [
   {
@@ -57277,29 +57277,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788760593313109"
-  },
-  {
-   "ts": "1788758853.289079",
-   "date": "2026-09-07",
-   "time": "14:27",
-   "store": "계성식당",
-   "biz": "2531302640",
-   "pos": "",
-   "content": "메뉴 삭제 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "토스포스 사용\n메뉴에 콩국수, 열무국수 삭제"
-   ],
-   "rc": 3,
-   "lr": "1788759008.923389",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788758853289079"
   }
  ],
  "ocr": {
