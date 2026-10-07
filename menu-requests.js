@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3124,
- "updatedAt": "2026-10-07 18:47",
+ "version": 3125,
+ "updatedAt": "2026-10-07 20:00",
  "days": 30,
  "items": [
   {
@@ -56236,37 +56236,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788782237912229"
-  },
-  {
-   "ts": "1788778404.877429",
-   "date": "2026-09-07",
-   "time": "19:53",
-   "store": "마음문화공간한땀협동조합",
-   "biz": "2498103940",
-   "pos": "",
-   "content": "메뉴 등록 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_29aa3097814d.xlsx.exs",
-     "fid": "F0BVA4YJJCT",
-     "from": "댓글",
-     "path": "menu-files/1788778404_877429-0.exs",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "엑셀 파일 내 메뉴 등록 요청드립니다."
-   ],
-   "rc": 3,
-   "lr": "1788782496.046119",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788778404877429"
   }
  ],
  "ocr": {
