@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17293,
+  "version": 17294,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -235501,11 +235501,23 @@ window.SLACK_DATA = {
     "2026-10-07": {
       "counts": {
         "as": {
+          "심성현": 1,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:04",
+          "store": "하루에노래연습장",
+          "biz": "2152553849",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "지난번에 인터넷 오류 후 수리를 완료했는데 단말기에 여전히 인터넷 연결 불가로 나온다고하여 원격요청주셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "공유기 LAN 케이블 점검 후 정상"
+        },
         {
           "time": "08:22",
           "store": "컴포즈커피 성수코리아IT점",
@@ -235519,7 +235531,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -235627,7 +235639,7 @@ window.SLACK_DATA = {
       },
       "1791331219.038829": {
         "post": "1791331219.038829",
-        "lastSeen": 1791332129.814,
+        "lastSeen": 1791332519.083,
         "r": 1,
         "day": "2026-10-07",
         "idx": 1
@@ -314230,7 +314242,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-07 09:15",
+    "at": "2026-10-07 09:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -314238,7 +314250,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4400,
     "named": 1088,
-    "unknownName": 3,
+    "unknownName": 6,
     "beforeStart": 0,
     "done": 1088,
     "byStatus": {
@@ -314352,7 +314364,7 @@ window.SLACK_DATA = {
     "2026-10-07": 2
   },
   "noteMig": {
-    "at": "2026-10-07 09:15",
+    "at": "2026-10-07 09:21",
     "pri": {
       "days": 0,
       "failed": [],
