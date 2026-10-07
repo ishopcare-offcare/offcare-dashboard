@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17785,
+  "version": 17786,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238280,22 +238280,10 @@ window.SLACK_DATA = {
     "2026-10-08": {
       "counts": {
         "as": {
-          "김동욱": 2
+          "김동욱": 3
         }
       },
-      "pending": [
-        {
-          "time": "06:00",
-          "store": "로지을 카페(Ro-jieul kafe)",
-          "biz": "6214001651",
-          "handler": "김동욱",
-          "cat": "as",
-          "intake": "online",
-          "reasons": [
-            "1차 부재"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "06:30",
@@ -238318,6 +238306,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "06:00",
+          "store": "로지을 카페(Ro-jieul kafe)",
+          "biz": "6214001651",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "메뉴 <https://w1659946222-hxm266180.slack.com/archives/C04C4EZ8TGT/p1791349025392159?thread_ts=1781778061.693449&amp;cid=C04C4EZ8TGT|자동할인적용>으로",
+          "hw": "",
+          "intake": "online",
+          "note": "메뉴 수정 완료. 점장님 7시 통화요청 / 1차 부재 / 자동할인이 아닌 옵션가에 -700으로 진행."
         }
       ],
       "intake": {
@@ -318286,7 +318285,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-08 07:30",
+    "at": "2026-10-08 07:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318408,7 +318407,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 07:30",
+    "at": "2026-10-08 07:45",
     "pri": {
       "days": 0,
       "failed": [],
