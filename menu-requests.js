@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3128,
- "updatedAt": "2026-10-08 09:58",
+ "version": 3129,
+ "updatedAt": "2026-10-08 09:59",
  "days": 30,
  "items": [
   {
@@ -80,7 +80,47 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1B7hrwZWr94rgOrHwdK4w2sQ3x4_6pFo7/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C7K13PXC6",
+     "from": "댓글",
+     "path": "menu-files/1791421012_885379-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "청양아채롤 (6개입)",
+       "price": 4400
+      },
+      {
+       "category": "",
+       "name": "청양아채롤 (4개입)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "계란빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "쑥단팥빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "기분좋은 쌀베이글",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "올리브베이글",
+       "price": 3500
+      }
+     ]
+    }
+   ],
    "datt": [
     {
      "id": "1B7hrwZWr94rgOrHwdK4w2sQ3x4_6pFo7",
@@ -120,8 +160,8 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791421178.443849",
    "rfx": 3,
    "status": "wait",
    "handler": null,
