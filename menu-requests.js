@@ -3,10 +3,70 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3161,
- "updatedAt": "2026-10-08 11:55",
+ "version": 3162,
+ "updatedAt": "2026-10-08 11:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1791428240.615059",
+   "date": "2026-10-08",
+   "time": "11:57",
+   "store": "뚜레쥬르 킨텍스1전시장점",
+   "biz": "1283674814",
+   "pos": "토스포스",
+   "content": "수정",
+   "special": "몇번이나 요청드렸는데 2전시장만 변경되고 1전시장은 변경이 안되고있어요",
+   "drive": [
+    "https://drive.google.com/file/d/1ywK9Zc3GQ_yEsanbMoRDSOwvKfDBElUZ/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ywK9Zc3GQ_yEsanbMoRDSOwvKfDBElUZ",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "햄야채롤 (6개입)",
+       "price": 5400
+      },
+      {
+       "category": "추가",
+       "name": "햄야채롤 (4개입)",
+       "price": 4000
+      },
+      {
+       "category": "추가",
+       "name": "깨찰빵",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "쑥단팥빵",
+       "price": 3300
+      },
+      {
+       "category": "추가",
+       "name": "기분좋은 쌀베이글",
+       "price": 3300
+      },
+      {
+       "category": "추가",
+       "name": "올리브 베이글",
+       "price": 3500
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791428240615059"
+  },
   {
    "ts": "1791427773.625099",
    "date": "2026-10-08",
