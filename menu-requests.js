@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3187,
- "updatedAt": "2026-10-08 16:28",
+ "version": 3188,
+ "updatedAt": "2026-10-08 16:29",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791444444.043879",
+   "replies": [
+    "스피드보급화 10,000원 삭제\n피겨 13,000원 삭제\n보급화 주1회 30,000원 삭제\n\n새날 보급화 피겨 15,000원 바로 옆칸으로 자리 이동\n스피드 쇼트 선수화 바로 옆칸 이동\n\n피겨프레스 15,000원 금액 수정"
+   ],
+   "rc": 2,
+   "lr": "1791444510.949849",
    "rfx": 3,
    "status": "wait",
    "handler": null,
