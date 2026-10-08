@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3151,
- "updatedAt": "2026-10-08 11:22",
+ "version": 3152,
+ "updatedAt": "2026-10-08 11:24",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261008_103342.jpg",
      "fid": "F0C7620TWBH",
      "from": "원글",
-     "path": "menu-files/1791426080_644379-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -156,13 +155,13 @@ window.MENU_REQUESTS = {
        "name": "ICE 연유라떼",
        "price": 5700
       }
-     ]
+     ],
+     "path": "menu-files/1791426080_644379-0.jpg"
     },
     {
      "name": "Resized_20261008_103351.jpg",
      "fid": "F0C8FQA0NTS",
      "from": "원글",
-     "path": "menu-files/1791426080_644379-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -200,13 +199,13 @@ window.MENU_REQUESTS = {
        "name": "딸기바나나",
        "price": 6800
       }
-     ]
+     ],
+     "path": "menu-files/1791426080_644379-1.jpg"
     },
     {
      "name": "Resized_20261008_103358.jpg",
      "fid": "F0C7PBK2WL9",
      "from": "원글",
-     "path": "menu-files/1791426080_644379-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -309,7 +308,8 @@ window.MENU_REQUESTS = {
        "name": "HOT 유자차",
        "price": 5500
       }
-     ]
+     ],
+     "path": "menu-files/1791426080_644379-2.jpg"
     }
    ],
    "datt": [],
@@ -413,13 +413,104 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C7F6REYPM",
+     "from": "댓글",
+     "path": "menu-files/1791423671_057289-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "들깨삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "들깨삼계탕(포장)",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "들깨칼국수",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 삼계탕",
+       "price": 17000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 누룽지삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 녹두삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 능이삼계탕",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 흑마늘삼계탕",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 전복삼계탕",
+       "price": 21000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 전복누룽지삼계탕",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 흑마늘전복삼계탕",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 왕갈비탕",
+       "price": 17000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 갈낙탕",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "해신탕",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "들깨삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "들깨칼국수",
+       "price": 18000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [
-    "• 전복왕갈비탕 20,000원 >> *21,000원* \n• 들깨칼국수 18,000원 메뉴 생성"
+    "• 전복왕갈비탕 20,000원 >> *21,000원* \n• 들깨칼국수 18,000원 메뉴 생성",
+    "감사합니다!!:pleading_face::man-bowing:"
    ],
-   "rc": 2,
-   "lr": "1791423711.448699",
+   "rc": 5,
+   "lr": "1791426196.402929",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -467,7 +558,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C7R3GF20L",
      "from": "댓글",
-     "path": "menu-files/1791423126_373729-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -600,15 +690,17 @@ window.MENU_REQUESTS = {
        "name": "배즙노빙탕",
        "price": 4000
       }
-     ]
+     ],
+     "path": "menu-files/1791423126_373729-0.png"
     }
    ],
    "datt": [],
    "replies": [
-    "중복 메뉴\n\n금액, 바코드 다름으로 수정 시간 오래 걸림\n\n기존 포스 운영 중으로 다음 주까지 처리 예정 안내 상태"
+    "중복 메뉴\n\n금액, 바코드 다름으로 수정 시간 오래 걸림\n\n기존 포스 운영 중으로 다음 주까지 처리 예정 안내 상태",
+    "메뉴 6,000개 이상"
    ],
-   "rc": 2,
-   "lr": "1791425910.363299",
+   "rc": 3,
+   "lr": "1791426190.570599",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
