@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3198,
- "updatedAt": "2026-10-08 16:58",
+ "version": 3199,
+ "updatedAt": "2026-10-08 17:03",
  "days": 30,
  "items": [
   {
@@ -583,14 +583,39 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C7MGA65B8",
+     "from": "댓글",
+     "path": "menu-files/1791441742_241879-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "비빔밥",
+       "name": "부추 비빔밥(쭈꾸미)",
+       "price": 0
+      },
+      {
+       "category": "비빔밥",
+       "name": "부추 비빔밥(김치삼겹)",
+       "price": 0
+      },
+      {
+       "category": "비빔밥",
+       "name": "부추비빔밥(쭈삼)",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [
     "고구마순김치 비빔밥(쭈꾸미)\n고구마순김치 비빔밥(쭈삼)\n고구마순김치 비빔밥(쭈새삼)\n고사리비빔밥(김치삼겹)\n고사리비빔밥(쭈삼)",
     "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791179903396259"
    ],
-   "rc": 3,
-   "lr": "1791441775.388529",
+   "rc": 5,
+   "lr": "1791446588.135219",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
