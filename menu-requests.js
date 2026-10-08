@@ -3,10 +3,403 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3202,
- "updatedAt": "2026-10-08 17:16",
+ "version": 3203,
+ "updatedAt": "2026-10-08 17:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1791447659.061619",
+   "date": "2026-10-08",
+   "time": "17:20",
+   "store": "몽아르",
+   "biz": "7413901532",
+   "pos": "",
+   "content": "메뉴 등록 부탁드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C7TADANF6",
+     "from": "댓글",
+     "path": "menu-files/1791447659_061619-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "소형견",
+       "name": "~4kg 목욕",
+       "price": 15000
+      },
+      {
+       "category": "소형견",
+       "name": "~4kg 목욕+위생",
+       "price": 20000
+      },
+      {
+       "category": "소형견",
+       "name": "~4kg 전체(3mm)",
+       "price": 30000
+      },
+      {
+       "category": "소형견",
+       "name": "~4kg 스포팅(6mm)",
+       "price": 60000
+      },
+      {
+       "category": "소형견",
+       "name": "~4kg 가위컷",
+       "price": 70000
+      },
+      {
+       "category": "소형견",
+       "name": "4~6kg 목욕",
+       "price": 20000
+      },
+      {
+       "category": "소형견",
+       "name": "4~6kg 목욕+위생",
+       "price": 25000
+      },
+      {
+       "category": "소형견",
+       "name": "4~6kg 전체(3mm)",
+       "price": 35000
+      },
+      {
+       "category": "소형견",
+       "name": "4~6kg 스포팅(6mm)",
+       "price": 65000
+      },
+      {
+       "category": "소형견",
+       "name": "4~6kg 가위컷",
+       "price": 75000
+      },
+      {
+       "category": "소형견",
+       "name": "6~8kg 목욕",
+       "price": 25000
+      },
+      {
+       "category": "소형견",
+       "name": "6~8kg 목욕+위생",
+       "price": 30000
+      },
+      {
+       "category": "소형견",
+       "name": "6~8kg 전체(3mm)",
+       "price": 40000
+      },
+      {
+       "category": "소형견",
+       "name": "6~8kg 스포팅(6mm)",
+       "price": 70000
+      },
+      {
+       "category": "소형견",
+       "name": "6~8kg 가위컷",
+       "price": 80000
+      },
+      {
+       "category": "중형견",
+       "name": "~4kg 목욕",
+       "price": 20000
+      },
+      {
+       "category": "중형견",
+       "name": "~4kg 목욕+위생",
+       "price": 25000
+      },
+      {
+       "category": "중형견",
+       "name": "~4kg 전체(3mm)",
+       "price": 35000
+      },
+      {
+       "category": "중형견",
+       "name": "~4kg 스포팅(6mm)",
+       "price": 65000
+      },
+      {
+       "category": "중형견",
+       "name": "~4kg 가위컷",
+       "price": 75000
+      },
+      {
+       "category": "중형견",
+       "name": "4~6kg 목욕",
+       "price": 25000
+      },
+      {
+       "category": "중형견",
+       "name": "4~6kg 목욕+위생",
+       "price": 30000
+      },
+      {
+       "category": "중형견",
+       "name": "4~6kg 전체(3mm)",
+       "price": 40000
+      },
+      {
+       "category": "중형견",
+       "name": "4~6kg 스포팅(6mm)",
+       "price": 70000
+      },
+      {
+       "category": "중형견",
+       "name": "4~6kg 가위컷",
+       "price": 80000
+      },
+      {
+       "category": "중형견",
+       "name": "6~8kg 목욕",
+       "price": 30000
+      },
+      {
+       "category": "중형견",
+       "name": "6~8kg 목욕+위생",
+       "price": 35000
+      },
+      {
+       "category": "중형견",
+       "name": "6~8kg 전체(3mm)",
+       "price": 45000
+      },
+      {
+       "category": "중형견",
+       "name": "6~8kg 스포팅(6mm)",
+       "price": 75000
+      },
+      {
+       "category": "중형견",
+       "name": "6~8kg 가위컷",
+       "price": 85000
+      },
+      {
+       "category": "중형견",
+       "name": "8~10kg 목욕",
+       "price": 35000
+      },
+      {
+       "category": "중형견",
+       "name": "8~10kg 목욕+위생",
+       "price": 40000
+      },
+      {
+       "category": "중형견",
+       "name": "8~10kg 전체(3mm)",
+       "price": 50000
+      },
+      {
+       "category": "중형견",
+       "name": "8~10kg 스포팅(6mm)",
+       "price": 80000
+      },
+      {
+       "category": "중형견",
+       "name": "8~10kg 가위컷",
+       "price": 90000
+      },
+      {
+       "category": "특수견",
+       "name": "~4kg 목욕",
+       "price": 25000
+      },
+      {
+       "category": "특수견",
+       "name": "~4kg 목욕+위생",
+       "price": 30000
+      },
+      {
+       "category": "특수견",
+       "name": "~4kg 전체(3mm)",
+       "price": 40000
+      },
+      {
+       "category": "특수견",
+       "name": "~4kg 스포팅(6mm)",
+       "price": 70000
+      },
+      {
+       "category": "특수견",
+       "name": "~4kg 가위컷",
+       "price": 80000
+      },
+      {
+       "category": "특수견",
+       "name": "4~6kg 목욕",
+       "price": 30000
+      },
+      {
+       "category": "특수견",
+       "name": "4~6kg 목욕+위생",
+       "price": 35000
+      },
+      {
+       "category": "특수견",
+       "name": "4~6kg 전체(3mm)",
+       "price": 45000
+      },
+      {
+       "category": "특수견",
+       "name": "4~6kg 스포팅(6mm)",
+       "price": 75000
+      },
+      {
+       "category": "특수견",
+       "name": "4~6kg 가위컷",
+       "price": 85000
+      },
+      {
+       "category": "특수견",
+       "name": "6~8kg 목욕",
+       "price": 35000
+      },
+      {
+       "category": "특수견",
+       "name": "6~8kg 목욕+위생",
+       "price": 40000
+      },
+      {
+       "category": "특수견",
+       "name": "6~8kg 전체(3mm)",
+       "price": 50000
+      },
+      {
+       "category": "특수견",
+       "name": "6~8kg 스포팅(6mm)",
+       "price": 80000
+      },
+      {
+       "category": "특수견",
+       "name": "6~8kg 가위컷",
+       "price": 90000
+      },
+      {
+       "category": "특수견",
+       "name": "8~10kg 목욕",
+       "price": 40000
+      },
+      {
+       "category": "특수견",
+       "name": "8~10kg 목욕+위생",
+       "price": 45000
+      },
+      {
+       "category": "특수견",
+       "name": "8~10kg 전체(3mm)",
+       "price": 55000
+      },
+      {
+       "category": "특수견",
+       "name": "8~10kg 스포팅(6mm)",
+       "price": 85000
+      },
+      {
+       "category": "특수견",
+       "name": "8~10kg 가위컷",
+       "price": 95000
+      },
+      {
+       "category": "10kg 이상",
+       "name": "목욕 kg",
+       "price": 7000
+      },
+      {
+       "category": "10kg 이상",
+       "name": "클리핑 kg",
+       "price": 10000
+      },
+      {
+       "category": "10kg 이상",
+       "name": "스포팅 kg",
+       "price": 13000
+      },
+      {
+       "category": "10kg 이상",
+       "name": "가위컷 kg",
+       "price": 15000
+      },
+      {
+       "category": "추가비용",
+       "name": "기본 얼굴컷 (알머리·무스타슈·크라운)",
+       "price": 5000
+      },
+      {
+       "category": "추가비용",
+       "name": "스타일컷 (곰돌이·베이비컷·물개 등)",
+       "price": 10000
+      },
+      {
+       "category": "추가비용",
+       "name": "특수 얼굴컷 (귀톨퀴·하이바·앙송이 등)",
+       "price": 15000
+      },
+      {
+       "category": "추가비용",
+       "name": "기장·엉킴 추가",
+       "price": 5000
+      },
+      {
+       "category": "추가비용",
+       "name": "매너비",
+       "price": 10000
+      },
+      {
+       "category": "추가비용",
+       "name": "입질·미용거부",
+       "price": 5000
+      },
+      {
+       "category": "추가비용",
+       "name": "닭발",
+       "price": 5000
+      },
+      {
+       "category": "추가비용",
+       "name": "장화·방울",
+       "price": 15000
+      },
+      {
+       "category": "위생케어(목욕x)",
+       "name": "5kg 미만",
+       "price": 10000
+      },
+      {
+       "category": "위생케어(목욕x)",
+       "name": "10kg 미만",
+       "price": 15000
+      },
+      {
+       "category": "날 길이",
+       "name": "6mm",
+       "price": 5000
+      },
+      {
+       "category": "날 길이",
+       "name": "1cm",
+       "price": 10000
+      },
+      {
+       "category": "날 길이",
+       "name": "2cm",
+       "price": 15000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "이미지 전달드립니다!"
+   ],
+   "rc": 2,
+   "lr": "1791447674.437029",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791447659061619"
+  },
   {
    "ts": "1791445742.490879",
    "date": "2026-10-08",
@@ -542,8 +935,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "스피드보급화 10,000원 삭제\n피겨 13,000원 삭제\n보급화 주1회 30,000원 삭제\n\n새날 보급화 피겨 15,000원 바로 옆칸으로 자리 이동\n스피드 쇼트 선수화 바로 옆칸 이동\n\n피겨프레스 15,000원 금액 수정"
    ],
-   "rc": 2,
-   "lr": "1791444510.949849",
+   "rc": 4,
+   "lr": "1791447684.027009",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
