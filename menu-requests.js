@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3173,
- "updatedAt": "2026-10-08 14:27",
+ "version": 3174,
+ "updatedAt": "2026-10-08 14:31",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1791437184.511529",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791437181186319"
   },
   {
@@ -46,7 +46,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C7H0ZVBDK",
      "from": "댓글",
-     "path": "menu-files/1791435006_921069-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -459,7 +458,15 @@ window.MENU_REQUESTS = {
        "name": "계란후라이",
        "price": 1000
       }
-     ]
+     ],
+     "path": "menu-files/1791435006_921069-0.png"
+    },
+    {
+     "name": "excel_price_tmp.xlsx",
+     "fid": "F0C7S3RH2BW",
+     "from": "댓글",
+     "path": "menu-files/1791435006_921069-1.xlsx",
+     "nj": 1
     }
    ],
    "datt": [
@@ -893,8 +900,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "[B34651]김밥천국 강승환"
    ],
-   "rc": 2,
-   "lr": "1791436410.870729",
+   "rc": 3,
+   "lr": "1791437435.457869",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
