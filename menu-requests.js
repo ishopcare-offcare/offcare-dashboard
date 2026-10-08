@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3163,
- "updatedAt": "2026-10-08 12:02",
+ "version": 3164,
+ "updatedAt": "2026-10-08 12:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1791430208.819999",
+   "date": "2026-10-08",
+   "time": "12:30",
+   "store": "팟타이",
+   "biz": "2191207726",
+   "pos": "토스포스",
+   "content": "까파우무쌉+ 계란 프라이 13,000\n팟씨유무 14,000\n까파우느아쌉+계란 프라이15,000\n꿍팟퐁커리 15,000\n타레팟퐁꺼리 18,000\n카파우무껍+계란 프라이     15,000\n카우무텃까암+ 계란 프라이14,000\n카파우오징어+계란 프라이 15,000\n카파우타래 15,000\n얌타래 15,000\n쌀국수무 12,000\n랏나 무 14,000",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791430208819999"
+  },
   {
    "ts": "1791428240.615059",
    "date": "2026-10-08",
