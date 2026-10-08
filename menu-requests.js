@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3193,
- "updatedAt": "2026-10-08 16:46",
+ "version": 3194,
+ "updatedAt": "2026-10-08 16:47",
  "days": 30,
  "items": [
   {
@@ -18,13 +18,24 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C7J29175K",
+     "from": "댓글",
+     "path": "menu-files/1791445413_738239-0.png",
+     "kind": "pos_screen",
+     "menu": []
+    }
+   ],
    "datt": [],
    "replies": [
-    "먼저해줘 외주"
+    "먼저해줘 외주",
+    "토플파 복사",
+    "smt > kis"
    ],
-   "rc": 3,
-   "lr": "1791445543.038069",
+   "rc": 7,
+   "lr": "1791445612.357539",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -58318,295 +58329,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788854231878869"
-  },
-  {
-   "ts": "1788853584.863789",
-   "date": "2026-09-08",
-   "time": "16:46",
-   "store": "서당골 감자탕순대국",
-   "biz": "5930402492",
-   "pos": "오케이포스",
-   "content": "오케이포스 메뉴 카테고리 수정 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "1000101259 (1).jpg",
-     "fid": "F0C04050QTX",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "감자탕 소",
-       "price": 30000
-      },
-      {
-       "category": "",
-       "name": "감자탕 중",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "감자탕 대",
-       "price": 46000
-      },
-      {
-       "category": "",
-       "name": "감자바지락전골 소",
-       "price": 35000
-      },
-      {
-       "category": "",
-       "name": "감자바지락전골 중",
-       "price": 43000
-      },
-      {
-       "category": "",
-       "name": "홍합뼈해장 소",
-       "price": 26000
-      },
-      {
-       "category": "",
-       "name": "홍합뼈해장 중",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "미더백 소",
-       "price": 35000
-      },
-      {
-       "category": "",
-       "name": "미더백 중",
-       "price": 43000
-      },
-      {
-       "category": "",
-       "name": "야채뼈해장 소",
-       "price": 26000
-      },
-      {
-       "category": "",
-       "name": "야채뼈해장 중",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "뼈해장국",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "공기밥",
-       "price": 1000
-      },
-      {
-       "category": "",
-       "name": "소주",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "맥주",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "막걸리",
-       "price": 6000
-      },
-      {
-       "category": "",
-       "name": "음료수",
-       "price": 2000
-      }
-     ],
-     "path": "menu-files/1788853584_863789-0.jpg"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C12PX2E9W",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "path": "menu-files/1788853584_863789-1.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0BV72RCGDD",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "감자탕(소)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "감자탕(中)",
-       "price": 38000
-      },
-      {
-       "category": "",
-       "name": "감자탕(大)",
-       "price": 46000
-      },
-      {
-       "category": "",
-       "name": "물냉면",
-       "price": 8000
-      },
-      {
-       "category": "",
-       "name": "비빔냉면",
-       "price": 8000
-      },
-      {
-       "category": "",
-       "name": "백순대볶음(小)",
-       "price": 28000
-      },
-      {
-       "category": "",
-       "name": "백순대볶음(中)",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "양념순대볶음(小)",
-       "price": 28000
-      },
-      {
-       "category": "",
-       "name": "양념순대볶음(中)",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "얼큰뼈해장국",
-       "price": 11000
-      },
-      {
-       "category": "",
-       "name": "매운뼈찜(小)",
-       "price": 35000
-      },
-      {
-       "category": "",
-       "name": "매운뼈찜(中)",
-       "price": 43000
-      },
-      {
-       "category": "",
-       "name": "간장뼈찜(小)",
-       "price": 35000
-      },
-      {
-       "category": "",
-       "name": "간장뼈찜(中)",
-       "price": 43000
-      },
-      {
-       "category": "",
-       "name": "얼큰순살뼈해장국",
-       "price": 13000
-      },
-      {
-       "category": "",
-       "name": "뼈해장국",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "순대국",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "(특)순대국",
-       "price": 11000
-      },
-      {
-       "category": "",
-       "name": "얼큰순대국",
-       "price": 11000
-      },
-      {
-       "category": "",
-       "name": "(특)얼큰순대국",
-       "price": 12000
-      },
-      {
-       "category": "",
-       "name": "순대곱창전골 小",
-       "price": 28000
-      },
-      {
-       "category": "",
-       "name": "순대곱창전골 중",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "모둠수육",
-       "price": 28000
-      },
-      {
-       "category": "",
-       "name": "순대 한접시",
-       "price": 9000
-      },
-      {
-       "category": "",
-       "name": "편육 한접시",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "순살뼈해장국",
-       "price": 12000
-      },
-      {
-       "category": "",
-       "name": "(특)순살뼈해장국",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "머릿고기순대국",
-       "price": 11000
-      },
-      {
-       "category": "",
-       "name": "오소리순대국",
-       "price": 11000
-      },
-      {
-       "category": "",
-       "name": "공기밥",
-       "price": 1000
-      }
-     ],
-     "path": "menu-files/1788853584_863789-2.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788838939549189",
-    "토스포스 선택해주셨으나 오케이포스 사용 가맹점으로 아래 사진과 같이 분리 요청 드립니다.",
-    "완료 후 문자 발송 예정 전달 드렸습니다.",
-    "오케이포스 사용 중이라고합니다,.,,!",
-    "결제 내역 확인해보아도 토스포스 결제내역은 없숩니다,,,!ㅜㅜ"
-   ],
-   "rc": 16,
-   "lr": "1788854265.722679",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788853584863789"
   }
  ],
  "ocr": {
