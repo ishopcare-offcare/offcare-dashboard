@@ -3,10 +3,86 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3203,
- "updatedAt": "2026-10-08 17:22",
+ "version": 3204,
+ "updatedAt": "2026-10-08 17:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1791448673.366749",
+   "date": "2026-10-08",
+   "time": "17:37",
+   "store": "전원식당",
+   "biz": "1793501608",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image000000.jpg",
+     "fid": "F0C7MQXRY94",
+     "from": "댓글",
+     "path": "menu-files/1791448673_366749-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "곰탕",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "카레밥",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "정식",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "생삼겹살",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "막창",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 2000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791448726.096439",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791448673366749"
+  },
   {
    "ts": "1791447659.061619",
    "date": "2026-10-08",
