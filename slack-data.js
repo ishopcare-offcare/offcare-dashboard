@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17805,
+  "version": 17806,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238279,6 +238279,9 @@ window.SLACK_DATA = {
     },
     "2026-10-08": {
       "counts": {
+        "booking": {
+          "김동욱": 1
+        },
         "as": {
           "심성현": 2,
           "김동욱": 3
@@ -238289,6 +238292,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:26",
+          "store": "미아커피숍",
+          "biz": "3641403010",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "가결제",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:17",
           "store": "김밥천국",
@@ -238310,7 +238324,7 @@ window.SLACK_DATA = {
           "req": ": 포스기 모니터 2대 중 보조 포스기 모니터에 데이트베이스 접속 오류입니다 팝업되어 점검 부탁드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "메인 포스 고정 풀림 고정 아이피 설정 후 재연동 확인 방화벽 차단 완료"
         },
         {
           "time": "09:00",
@@ -238321,7 +238335,7 @@ window.SLACK_DATA = {
           "req": "아이패드+프론트+프린터",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩 완료 사용 방법 전달 완료"
         },
         {
           "time": "06:30",
@@ -238358,11 +238372,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "09:20"
+      "updatedAt": "09:26"
     }
   },
   "resp": {
@@ -238492,22 +238506,22 @@ window.SLACK_DATA = {
       },
       "1791417607.518959": {
         "post": "1791417607.518959",
-        "lastSeen": 1791419147.119,
+        "lastSeen": 1791419208.661,
         "r": 1,
         "day": "2026-10-08",
         "idx": 0
       },
       "1791417611.318959": {
         "post": "1791417611.318959",
-        "lastSeen": 1791419147.119
+        "lastSeen": 1791419208.661
       },
       "1791418415.130959": {
         "post": "1791418415.130959",
-        "lastSeen": 1791419147.119
+        "lastSeen": 1791419208.661
       },
       "1791418809.789939": {
         "post": "1791418809.789939",
-        "lastSeen": 1791419147.119
+        "lastSeen": 1791419208.661
       }
     },
     "days": {
@@ -318375,7 +318389,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:26",
+    "at": "2026-10-08 09:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318497,7 +318511,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:25",
+    "at": "2026-10-08 09:26",
     "pri": {
       "days": 0,
       "failed": [],
