@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3136,
- "updatedAt": "2026-10-08 10:32",
+ "version": 3137,
+ "updatedAt": "2026-10-08 10:33",
  "days": 30,
  "items": [
   {
@@ -39,13 +39,22 @@ window.MENU_REQUESTS = {
    "special": "배달의민족. 오늘은새우회",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Screenshot_20261008_103115.jpg",
+     "fid": "F0C7QRV7NMS",
+     "from": "댓글",
+     "path": "menu-files/1791421741_756999-0.jpg",
+     "kind": "menu_board",
+     "menu": []
+    }
+   ],
    "datt": [],
    "replies": [
     "+가결제"
    ],
-   "rc": 1,
-   "lr": "1791422402.225669",
+   "rc": 2,
+   "lr": "1791423198.102219",
    "rfx": 3,
    "status": "wait",
    "handler": null,
