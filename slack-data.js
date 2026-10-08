@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17791,
+  "version": 17792,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238454,11 +238454,14 @@ window.SLACK_DATA = {
       },
       "1791417607.518959": {
         "post": "1791417607.518959",
-        "lastSeen": 1791417621.187
+        "lastSeen": 1791417683.525,
+        "r": 1,
+        "day": "2026-10-08",
+        "idx": 0
       },
       "1791417611.318959": {
         "post": "1791417611.318959",
-        "lastSeen": 1791417621.187
+        "lastSeen": 1791417683.525
       }
     },
     "days": {
@@ -318289,11 +318292,26 @@ window.SLACK_DATA = {
             "dmin": 8
           }
         ]
+      },
+      "2026-10-08": {
+        "cnt": 1,
+        "sumMin": 0.7472840150197347,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 0.7,
+            "store": "파인테크",
+            "biz": "4551701793",
+            "who": "고경림",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:00",
+    "at": "2026-10-08 09:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318415,7 +318433,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:00",
+    "at": "2026-10-08 09:01",
     "pri": {
       "days": 0,
       "failed": [],
