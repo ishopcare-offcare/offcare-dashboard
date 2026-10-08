@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3160,
- "updatedAt": "2026-10-08 11:54",
+ "version": 3161,
+ "updatedAt": "2026-10-08 11:55",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "수정 완료\n\n솔라피 발송"
+   ],
+   "rc": 1,
+   "lr": "1791428067.563999",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -613,8 +615,8 @@ window.MENU_REQUESTS = {
     "선유님 감사합니다,,:pleading_face:",
     "채팅인입건이라 채팅 계속 갖고있기는한데 재시작 안내는 방금 드려놓기는 했습니다!"
    ],
-   "rc": 12,
-   "lr": "1791428011.277619",
+   "rc": 13,
+   "lr": "1791428053.229429",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
