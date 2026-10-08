@@ -3,10 +3,233 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3176,
- "updatedAt": "2026-10-08 14:36",
+ "version": 3177,
+ "updatedAt": "2026-10-08 14:44",
  "days": 30,
  "items": [
+  {
+   "ts": "1791438171.694879",
+   "date": "2026-10-08",
+   "time": "14:42",
+   "store": "꾸버스피자 기흥역점",
+   "biz": "3032024457",
+   "pos": "퍼스트포스",
+   "content": "메뉴 수정",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261008_144202797.jpg",
+     "fid": "F0C7S5UUW76",
+     "from": "댓글",
+     "path": "menu-files/1791438171_694879-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "반반피자",
+       "name": "슈퍼콤비",
+       "price": 1000
+      },
+      {
+       "category": "반반피자",
+       "name": "페페로니",
+       "price": 0
+      },
+      {
+       "category": "반반피자",
+       "name": "레이진 체다",
+       "price": 0
+      },
+      {
+       "category": "반반피자",
+       "name": "포테이토",
+       "price": 1000
+      },
+      {
+       "category": "반반피자",
+       "name": "고구마",
+       "price": 1000
+      },
+      {
+       "category": "반반피자",
+       "name": "베이컨 포테이토",
+       "price": 2000
+      },
+      {
+       "category": "반반피자",
+       "name": "양송이",
+       "price": 2000
+      },
+      {
+       "category": "반반피자",
+       "name": "불고기",
+       "price": 2000
+      },
+      {
+       "category": "반반피자",
+       "name": "매콤 불고기",
+       "price": 2000
+      },
+      {
+       "category": "반반피자",
+       "name": "킹 위럼쁜",
+       "price": 6000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261008_144202797_01.jpg",
+     "fid": "F0C7H66CHLM",
+     "from": "댓글",
+     "path": "menu-files/1791438171_694879-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "카테고리/토핑추가",
+       "name": "치즈추가",
+       "price": 3000
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "올리브",
+       "price": 1000
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "할라피뇨",
+       "price": 1000
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "페페로니",
+       "price": 2000
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "베이컨",
+       "price": 2000
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "파인애플",
+       "price": 1500
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "새우(2p)",
+       "price": 4000
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "피클",
+       "price": 500
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "갈릭소스",
+       "price": 500
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "핫소스",
+       "price": 100
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "파마산치즈가루",
+       "price": 100
+      },
+      {
+       "category": "카테고리/토핑추가",
+       "name": "꿀",
+       "price": 600
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261008_144202797_02.jpg",
+     "fid": "F0C7S5VR4AY",
+     "from": "댓글",
+     "path": "menu-files/1791438171_694879-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "피자",
+       "name": "데일리 조각피자",
+       "price": 4000
+      },
+      {
+       "category": "피자",
+       "name": "베이컨포테이토피자 L",
+       "price": 28000
+      },
+      {
+       "category": "피자",
+       "name": "양송이 피자 L",
+       "price": 28000
+      },
+      {
+       "category": "도우선택",
+       "name": "기본",
+       "price": 0
+      },
+      {
+       "category": "도우선택",
+       "name": "치즈크러스트",
+       "price": 4000
+      },
+      {
+       "category": "도우선택",
+       "name": "고구마크러스트",
+       "price": 4000
+      },
+      {
+       "category": "도우선택",
+       "name": "씬도우",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261008_144202797_03.jpg",
+     "fid": "F0C7LG76GVC",
+     "from": "댓글",
+     "path": "menu-files/1791438171_694879-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "도우선택",
+       "name": "기본",
+       "price": 0
+      },
+      {
+       "category": "도우선택",
+       "name": "치즈크러스트",
+       "price": 4000
+      },
+      {
+       "category": "도우선택",
+       "name": "고구마크러스트",
+       "price": 4000
+      },
+      {
+       "category": "도우선택",
+       "name": "씬도우",
+       "price": 2000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791438203.219639",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791438171694879"
+  },
   {
    "ts": "1791437181.186319",
    "date": "2026-10-08",
