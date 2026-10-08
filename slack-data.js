@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17795,
+  "version": 17796,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238279,12 +238279,26 @@ window.SLACK_DATA = {
     },
     "2026-10-08": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "as": {
           "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "브로우데이즈",
+          "biz": "1456700534",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "아이패드+프론트+프린터",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "06:30",
           "store": "컴포즈커피 수원인계점",
@@ -238320,7 +238334,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -238454,18 +238468,21 @@ window.SLACK_DATA = {
       },
       "1791417607.518959": {
         "post": "1791417607.518959",
-        "lastSeen": 1791417921.541,
+        "lastSeen": 1791418049.223,
         "r": 1,
         "day": "2026-10-08",
         "idx": 0
       },
       "1791417611.318959": {
         "post": "1791417611.318959",
-        "lastSeen": 1791417921.541
+        "lastSeen": 1791418049.223
       },
       "1791417876.190669": {
         "post": "1791417876.190669",
-        "lastSeen": 1791417921.541
+        "lastSeen": 1791418049.223,
+        "r": 1,
+        "day": "2026-10-08",
+        "idx": 1
       }
     },
     "days": {
@@ -318298,8 +318315,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-08": {
-        "cnt": 1,
-        "sumMin": 0.7472840150197347,
+        "cnt": 2,
+        "sumMin": 2.5671395301818847,
         "over": 0,
         "items": [
           {
@@ -318309,13 +318326,21 @@ window.SLACK_DATA = {
             "biz": "4551701793",
             "who": "고경림",
             "cat": "as"
+          },
+          {
+            "hm": "09:04",
+            "min": 1.8,
+            "store": "형아우삼계탕",
+            "biz": "4120636227",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:05",
+    "at": "2026-10-08 09:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318437,7 +318462,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:05",
+    "at": "2026-10-08 09:07",
     "pri": {
       "days": 0,
       "failed": [],
