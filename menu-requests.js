@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3156,
- "updatedAt": "2026-10-08 11:47",
+ "version": 3157,
+ "updatedAt": "2026-10-08 11:50",
  "days": 30,
  "items": [
+  {
+   "ts": "1791427773.625099",
+   "date": "2026-10-08",
+   "time": "11:49",
+   "store": "킨텍스2전시장 뚜레쥬르",
+   "biz": "1283678896",
+   "pos": "토스포스",
+   "content": "수정\nV.E.L.T샌드위치\n8500>9000원",
+   "special": "···",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791427773625099"
+  },
   {
    "ts": "1791426080.644379",
    "date": "2026-10-08",
@@ -502,6 +523,85 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791423671_057289-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C7FAUDZ27",
+     "from": "댓글",
+     "path": "menu-files/1791423671_057289-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "황칠 삼계탕",
+       "price": 17000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 누룽지삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 녹두삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 능이삼계탕",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 흑마늘삼계탕",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 전복삼계탕",
+       "price": 21000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 전복누룽지삼계탕",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 흑마늘전복삼계탕",
+       "price": 22000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 왕갈비탕",
+       "price": 17000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 전복왕갈비탕",
+       "price": 21000
+      },
+      {
+       "category": "메뉴",
+       "name": "황칠 갈낙탕",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "해신탕",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "들깨삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "들깨칼국수",
+       "price": 18000
+      }
+     ]
     }
    ],
    "datt": [],
@@ -509,10 +609,11 @@ window.MENU_REQUESTS = {
     "• 전복왕갈비탕 20,000원 >> *21,000원* \n• 들깨칼국수 18,000원 메뉴 생성",
     "감사합니다!!:pleading_face::man-bowing:",
     "성현님, 혹시 요기 다시 한번만 확인 가능하실까요..?\n\n전복갈비탕이 21,000원인데 18,000원으로 되어있다고 하셔서 다시 채팅인입되어 확인 한번만 부탁드리겠습니다..!",
-    "가능하시다면 빠르게 확인 한번만 부탁드립니다! 주문이 꼬이고 있다고 말씀주셔서요..!:pray:"
+    "가능하시다면 빠르게 확인 한번만 부탁드립니다! 주문이 꼬이고 있다고 말씀주셔서요..!:pray:",
+    "선유님 감사합니다,,:pleading_face:"
    ],
-   "rc": 7,
-   "lr": "1791427612.857529",
+   "rc": 10,
+   "lr": "1791427789.362029",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -56956,35 +57057,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788838939549189"
-  },
-  {
-   "ts": "1788835713.524539",
-   "date": "2026-09-08",
-   "time": "11:48",
-   "store": "메모라",
-   "biz": "8063002062",
-   "pos": "토스포스",
-   "content": "상품등록오류",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "해야되는겨? 하고있는겨?",
-    "나는 편집권한이 없네",
-    "자도 없어요...",
-    "해야하는데...",
-    "캡쳐떠서 어떻게든 해보려구욤",
-    "에잇 메일로 엑셀파일 첨부해 재전송 요청",
-    "완료우"
-   ],
-   "rc": 8,
-   "lr": "1788849003.147879",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788835713524539"
   }
  ],
  "ocr": {
