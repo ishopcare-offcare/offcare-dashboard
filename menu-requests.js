@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3130,
- "updatedAt": "2026-10-08 10:01",
+ "version": 3131,
+ "updatedAt": "2026-10-08 10:03",
  "days": 30,
  "items": [
   {
@@ -56293,40 +56293,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788833009509549"
-  },
-  {
-   "ts": "1788829378.855049",
-   "date": "2026-09-08",
-   "time": "10:02",
-   "store": "마음문화공간한땀협동조합",
-   "biz": "2498103940",
-   "pos": "",
-   "content": "메뉴 등록 요청(어제 진행했으나 다시 요청)주셨습니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_4c171c4674f9.xlsx",
-     "fid": "F0BV4U80487",
-     "from": "댓글",
-     "path": "menu-files/1788829378_855049-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788778404877429",
-    "확인해보니 카테고리가 도서인데.. 각 출판사별로 카테고리가 등록되어 있어서. 변경해야 할 것 같습니다.\n혹시 다시 등록 가능할까요?\n\n라고 하시네요...ㅎㅎ",
-    "그래도 엑셀 파일 보내주신것으로 위안을......:꾸벅:",
-    "감사합니다^^"
-   ],
-   "rc": 14,
-   "lr": "1788863990.104419",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788829378855049"
   }
  ],
  "ocr": {
