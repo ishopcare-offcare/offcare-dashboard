@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17822,
+  "version": 17823,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238317,7 +238317,7 @@ window.SLACK_DATA = {
           "req": "포프(휴대폰) 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩 완료입니다"
         },
         {
           "time": "09:29",
@@ -238610,18 +238610,18 @@ window.SLACK_DATA = {
       },
       "1791419405.160339": {
         "post": "1791419405.160339",
-        "lastSeen": 1791420774.636
+        "lastSeen": 1791420834.977
       },
       "1791419485.398169": {
         "post": "1791419485.398169",
-        "lastSeen": 1791420774.636,
+        "lastSeen": 1791420834.977,
         "r": 1,
         "day": "2026-10-08",
         "idx": 9
       },
       "1791419843.400589": {
         "post": "1791419843.400589",
-        "lastSeen": 1791420774.636,
+        "lastSeen": 1791420834.977,
         "r": 1,
         "day": "2026-10-08",
         "idx": 7
@@ -318554,7 +318554,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:53",
+    "at": "2026-10-08 09:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318676,7 +318676,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:52",
+    "at": "2026-10-08 09:53",
     "pri": {
       "days": 0,
       "failed": [],
