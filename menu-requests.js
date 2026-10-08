@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3137,
- "updatedAt": "2026-10-08 10:33",
+ "version": 3138,
+ "updatedAt": "2026-10-08 10:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1791423408.847609",
+   "date": "2026-10-08",
+   "time": "10:36",
+   "store": "대원중국식퓸",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: Fwd: 대원중국식퓸 메뉴추가\n---------- Forwarded message ---------\n 보낸사람: 최순단 <···>\n Date: 2026년 10월 8일 (목) 오전 10:31\n Subject:\n To: <···>\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a119261338a47e0>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a119261338a47e0",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791423408847609"
+  },
   {
    "ts": "1791423126.373729",
    "date": "2026-10-08",
