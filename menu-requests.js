@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3182,
- "updatedAt": "2026-10-08 15:43",
+ "version": 3183,
+ "updatedAt": "2026-10-08 15:44",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791441745.506709",
+   "replies": [
+    "고구마순김치 비빔밥(쭈꾸미)\n고구마순김치 비빔밥(쭈삼)\n고구마순김치 비빔밥(쭈새삼)\n고사리비빔밥(김치삼겹)\n고사리비빔밥(쭈삼)",
+    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791179903396259"
+   ],
+   "rc": 3,
+   "lr": "1791441775.388529",
    "rfx": 3,
    "status": "wait",
    "handler": null,
