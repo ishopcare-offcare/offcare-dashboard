@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3216,
- "updatedAt": "2026-10-08 19:06",
+ "version": 3217,
+ "updatedAt": "2026-10-08 19:09",
  "days": 30,
  "items": [
   {
@@ -46,10 +46,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "카테고리: 고기\n• 갈비살 (미국산170g)을 (미국산150g)으로 수정\n• 부채살도 (미국산150g) 수정\n• 갈비살+부채살(600g)을 (500g)으로 수정"
    ],
-   "rc": 2,
-   "lr": "1791451682.652239",
+   "rc": 3,
+   "lr": "1791454152.614469",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791451641161039"
   },
