@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3145,
- "updatedAt": "2026-10-08 11:00",
+ "version": 3146,
+ "updatedAt": "2026-10-08 11:04",
  "days": 30,
  "items": [
   {
@@ -56481,29 +56481,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788833780451419"
-  },
-  {
-   "ts": "1788833009.509549",
-   "date": "2026-09-08",
-   "time": "11:03",
-   "store": "피자스쿨(의정부민락점)",
-   "biz": "1274626512",
-   "pos": "오케이포스",
-   "content": "오케이포스 가격 수정 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "음료\n콜라,사이다,제로콜라 1.25L  2,900원\n콜라,사이다 500ml 1,900원\n\n\n1.25L 음료는 모두 2,900원\n500ml 음료는 모두 1,900원 이라고합니다!"
-   ],
-   "rc": 4,
-   "lr": "1788834677.851429",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788833009509549"
   }
  ],
  "ocr": {
