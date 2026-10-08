@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3139,
- "updatedAt": "2026-10-08 10:39",
+ "version": 3140,
+ "updatedAt": "2026-10-08 10:42",
  "days": 30,
  "items": [
+  {
+   "ts": "1791423671.057289",
+   "date": "2026-10-08",
+   "time": "10:41",
+   "store": "형과아우 삼계탕 안락점",
+   "biz": "4136200733",
+   "pos": "오케이포스",
+   "content": "메뉴 추가 및 변경 요청드립니다! (오케이포스)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 전복왕갈비탕 20,000원 >> *21,000원* \n• 들깨칼국수 18,000원 메뉴 생성"
+   ],
+   "rc": 2,
+   "lr": "1791423711.448699",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791423671057289"
+  },
   {
    "ts": "1791423408.847609",
    "date": "2026-10-08",
