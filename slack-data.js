@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17823,
+  "version": 17824,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238279,6 +238279,10 @@ window.SLACK_DATA = {
     },
     "2026-10-08": {
       "counts": {
+        "onboarding": {
+          "배선유": 1,
+          "심성현": 2
+        },
         "booking": {
           "김동욱": 4
         },
@@ -238290,13 +238294,21 @@ window.SLACK_DATA = {
           "배선유": 2,
           "심성현": 2,
           "김동욱": 3
-        },
-        "onboarding": {
-          "심성현": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:31",
+          "store": "주식회사 루돌프랑",
+          "biz": "5058703541",
+          "cat": "onboarding",
+          "emp": "배선유",
+          "req": "포프 / 가맹점정보 불러오기 실패 문구가 노출 된다고 하셔서 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "tid 오입력 / 오류 없어짐 확인 / 온보딩은 자가설치로 진행해보겠다고 함"
+        },
         {
           "time": "09:31",
           "store": "쏘잉(sewing)",
@@ -238476,11 +238488,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "09:37"
+      "updatedAt": "09:56"
     }
   },
   "resp": {
@@ -238610,21 +238622,18 @@ window.SLACK_DATA = {
       },
       "1791419405.160339": {
         "post": "1791419405.160339",
-        "lastSeen": 1791420834.977
-      },
-      "1791419485.398169": {
-        "post": "1791419485.398169",
-        "lastSeen": 1791420834.977,
-        "r": 1,
-        "day": "2026-10-08",
-        "idx": 9
+        "lastSeen": 1791421033.436
       },
       "1791419843.400589": {
         "post": "1791419843.400589",
-        "lastSeen": 1791420834.977,
+        "lastSeen": 1791421033.436,
         "r": 1,
         "day": "2026-10-08",
         "idx": 7
+      },
+      "1791421012.885379": {
+        "post": "1791421012.885379",
+        "lastSeen": 1791421033.436
       }
     },
     "days": {
@@ -318547,14 +318556,15 @@ window.SLACK_DATA = {
             "store": "주식회사 루돌프랑",
             "biz": "5058703541",
             "who": "배선유",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 24.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:54",
+    "at": "2026-10-08 09:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318676,7 +318686,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:53",
+    "at": "2026-10-08 09:57",
     "pri": {
       "days": 0,
       "failed": [],

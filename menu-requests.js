@@ -3,10 +3,70 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3126,
- "updatedAt": "2026-10-07 20:58",
+ "version": 3127,
+ "updatedAt": "2026-10-08 09:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1791421012.885379",
+   "date": "2026-10-08",
+   "time": "09:56",
+   "store": "뚜레쥬르 킨텍스2전시장점",
+   "biz": "1283678896",
+   "pos": "토스포스",
+   "content": "수정",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1B7hrwZWr94rgOrHwdK4w2sQ3x4_6pFo7/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1B7hrwZWr94rgOrHwdK4w2sQ3x4_6pFo7",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "햄야채롤 (6개입)",
+       "price": 5400
+      },
+      {
+       "category": "추가",
+       "name": "햄야채롤 (4개입)",
+       "price": 4000
+      },
+      {
+       "category": "추가",
+       "name": "계란빵",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "쑥단팥빵",
+       "price": 3300
+      },
+      {
+       "category": "추가",
+       "name": "기분좋은 쌀베이글",
+       "price": 3300
+      },
+      {
+       "category": "추가",
+       "name": "올리브 베이글",
+       "price": 3500
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791421012885379"
+  },
   {
    "ts": "1791363325.521179",
    "date": "2026-10-07",
@@ -56192,27 +56252,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788829259235009"
-  },
-  {
-   "ts": "1788828979.011029",
-   "date": "2026-09-08",
-   "time": "09:56",
-   "store": "한사랑마트",
-   "biz": "6681001406",
-   "pos": "",
-   "content": "메뉴 성민님 도움",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788828983.030159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788828979011029"
   }
  ],
  "ocr": {
