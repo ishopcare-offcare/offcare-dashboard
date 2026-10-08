@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3166,
- "updatedAt": "2026-10-08 12:44",
+ "version": 3167,
+ "updatedAt": "2026-10-08 12:50",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "카테고리 팟타이 생성 후 등록 완료"
+   ],
+   "rc": 1,
+   "lr": "1791431414.762679",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -80,9 +82,11 @@ window.MENU_REQUESTS = {
      ]
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "1 전시장 등록 완료 통화 확인"
+   ],
+   "rc": 1,
+   "lr": "1791431404.536459",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
