@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3213,
- "updatedAt": "2026-10-08 18:43",
+ "version": 3214,
+ "updatedAt": "2026-10-08 18:50",
  "days": 30,
  "items": [
   {
@@ -1899,7 +1899,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261008_144202797.jpg",
      "fid": "F0C7S5UUW76",
      "from": "댓글",
-     "path": "menu-files/1791438171_694879-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -1952,13 +1951,13 @@ window.MENU_REQUESTS = {
        "name": "킹 위럼쁜",
        "price": 6000
       }
-     ]
+     ],
+     "path": "menu-files/1791438171_694879-0.jpg"
     },
     {
      "name": "KakaoTalk_20261008_144202797_01.jpg",
      "fid": "F0C7H66CHLM",
      "from": "댓글",
-     "path": "menu-files/1791438171_694879-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -2021,13 +2020,13 @@ window.MENU_REQUESTS = {
        "name": "꿀",
        "price": 600
       }
-     ]
+     ],
+     "path": "menu-files/1791438171_694879-1.jpg"
     },
     {
      "name": "KakaoTalk_20261008_144202797_02.jpg",
      "fid": "F0C7S5VR4AY",
      "from": "댓글",
-     "path": "menu-files/1791438171_694879-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -2065,13 +2064,13 @@ window.MENU_REQUESTS = {
        "name": "씬도우",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791438171_694879-2.jpg"
     },
     {
      "name": "KakaoTalk_20261008_144202797_03.jpg",
      "fid": "F0C7LG76GVC",
      "from": "댓글",
-     "path": "menu-files/1791438171_694879-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -2094,13 +2093,16 @@ window.MENU_REQUESTS = {
        "name": "씬도우",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791438171_694879-3.jpg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791438203.219639",
+   "replies": [
+    "않이 이거 왜 안하고 넘어감"
+   ],
+   "rc": 3,
+   "lr": "1791453025.893199",
    "rfx": 3,
    "status": "wait",
    "handler": null,
