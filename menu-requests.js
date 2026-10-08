@@ -3,10 +3,474 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3189,
- "updatedAt": "2026-10-08 16:34",
+ "version": 3190,
+ "updatedAt": "2026-10-08 16:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1791444965.194299",
+   "date": "2026-10-08",
+   "time": "16:36",
+   "store": "(주)코르띨레(Cortile)",
+   "biz": "8328103820",
+   "pos": "",
+   "content": "신규오픈 메뉴등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "111.jpg",
+     "fid": "F0C7R773VBK",
+     "from": "댓글",
+     "path": "menu-files/1791444965_194299-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "시그니처 메뉴(디너 한정)",
+       "name": "코르띨레 휠 피쵸케리",
+       "price": 43000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "아시안 고추장 뇨끼",
+       "price": 24000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "된장 라구 파스타",
+       "price": 28000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "파래 스테이크 크림 리조또",
+       "price": 28000
+      },
+      {
+       "category": "파스타",
+       "name": "쉬림프 알리오 올리오",
+       "price": 25000
+      },
+      {
+       "category": "파스타",
+       "name": "엔초비 어란",
+       "price": 25000
+      },
+      {
+       "category": "파스타",
+       "name": "봉골레",
+       "price": 26000
+      },
+      {
+       "category": "파스타",
+       "name": "정통 까르보나라",
+       "price": 27000
+      },
+      {
+       "category": "파스타",
+       "name": "씨푸드 칠리",
+       "price": 28000
+      },
+      {
+       "category": "파스타",
+       "name": "시칠리아 뽀모도로",
+       "price": 28000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러플 매쉬드 살치스테이크",
+       "price": 56000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러플 매쉬드 안심스테이크",
+       "price": 58000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "토마호크 플래터 (예약 한정)",
+       "price": 250000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "시칠리아 씨푸드 스튜",
+       "price": 26000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "한우 꾸리살 카르파쵸&바게트",
+       "price": 29000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "관자구이&스모크 콘퓨레",
+       "price": 32000
+      },
+      {
+       "category": "리조또",
+       "name": "트러플 크림 리조또",
+       "price": 28000
+      },
+      {
+       "category": "샐러드",
+       "name": "스트라차텔라& 계절 과일 세비체",
+       "price": 18000
+      },
+      {
+       "category": "샐러드",
+       "name": "부라타 샐러드",
+       "price": 24000
+      },
+      {
+       "category": "샐러드",
+       "name": "참깨 스테이크 샐러드",
+       "price": 28000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "코르띨레 가지튀김",
+       "price": 16000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "셰프추천 샤퀴테리",
+       "price": 18000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "베이비 깔라마리",
+       "price": 28000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 수제 시즌 젤라또",
+       "price": 10000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 수제 시즌 티라미수",
+       "price": 11000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 바스크치즈 브륄레",
+       "price": 12000
+      }
+     ]
+    },
+    {
+     "name": "222.jpg",
+     "fid": "F0C7P4A8CCS",
+     "from": "댓글",
+     "path": "menu-files/1791444965_194299-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 플레인",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 오렌지",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 레드오렌지",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 그린자몽",
+       "price": 6000
+      },
+      {
+       "category": "에이드",
+       "name": "핑크 구아바 에이드",
+       "price": 7000
+      },
+      {
+       "category": "에이드",
+       "name": "패션후르츠 에이드",
+       "price": 7000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 레드 와인",
+       "price": 10000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 화이트 와인",
+       "price": 10000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "페로니 나스트로아즈로",
+       "price": 11000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "필스너 우르켈",
+       "price": 12000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "풀러스 런던 프라이드",
+       "price": 13000
+      },
+      {
+       "category": "커피",
+       "name": "콜드브루 핫커피",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "콜드브루 아이스커피",
+       "price": 6000
+      },
+      {
+       "category": "티",
+       "name": "얼그레이",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "캐모마일",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "333.jpg",
+     "fid": "F0C7P4AJZDY",
+     "from": "댓글",
+     "path": "menu-files/1791444965_194299-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "하우스 와인",
+       "name": "쁘띠 바투고 카베르네 쇼비뇽",
+       "price": 49000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "쁘띠 바투고 소비뇽 블랑",
+       "price": 49000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 레드or화이트 와인",
+       "price": 10000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 카베르네 쇼비뇽, 2024",
+       "price": 59000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 메를로, 2023",
+       "price": 59000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 소비뇽 블랑, 2024",
+       "price": 59000
+      },
+      {
+       "category": "프랑스",
+       "name": "도멘 생앙드레 마리팀 루즈, 2021",
+       "price": 69000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 피노누아, 2024",
+       "price": 69000
+      },
+      {
+       "category": "프랑스",
+       "name": "끌로 라 꾸띨, 2022",
+       "price": 79000
+      },
+      {
+       "category": "프랑스",
+       "name": "샤토 퓌 카스텔라, 2020",
+       "price": 99000
+      },
+      {
+       "category": "독일",
+       "name": "피터 메르테스 아우스레제(375ml)",
+       "price": 59000
+      },
+      {
+       "category": "독일",
+       "name": "피터 메르테스 트레디션 카비넷",
+       "price": 79000
+      },
+      {
+       "category": "독일",
+       "name": "파이브 어클락 리슬링",
+       "price": 89000
+      },
+      {
+       "category": "호주",
+       "name": "번 반야즈 플라바붐 바인 쉬라즈",
+       "price": 89000
+      },
+      {
+       "category": "미국",
+       "name": "불러, 화이트 진판델, 2023",
+       "price": 69000
+      },
+      {
+       "category": "미국",
+       "name": "램지 카베르네 쇼비뇽, 2022",
+       "price": 79000
+      },
+      {
+       "category": "미국",
+       "name": "랜치 피노누아",
+       "price": 79000
+      },
+      {
+       "category": "미국",
+       "name": "램지 샤도네이, 2024",
+       "price": 79000
+      },
+      {
+       "category": "미국",
+       "name": "루트 코즈, 카베르네 쇼비뇽, 2022",
+       "price": 89000
+      },
+      {
+       "category": "미국",
+       "name": "스톤캡 메를로, 2019",
+       "price": 89000
+      },
+      {
+       "category": "미국",
+       "name": "포바인, 올드 바인 진판델, 2021",
+       "price": 99000
+      },
+      {
+       "category": "미국",
+       "name": "라피스 루나 소비뇽 블랑",
+       "price": 99000
+      },
+      {
+       "category": "미국",
+       "name": "본다비 버터리 샤도네이, 2022",
+       "price": 99000
+      },
+      {
+       "category": "미국",
+       "name": "제이로어, 아로요 비스타 샤도네이, 2022",
+       "price": 159000
+      },
+      {
+       "category": "뉴질랜드",
+       "name": "코하 소비뇽 블랑, 2024",
+       "price": 79000
+      },
+      {
+       "category": "뉴질랜드",
+       "name": "대시우드 말보로 피노누아, 2022",
+       "price": 89000
+      },
+      {
+       "category": "뉴질랜드",
+       "name": "조지 미셸, 소비뇽 블랑",
+       "price": 89000
+      },
+      {
+       "category": "이탈리아",
+       "name": "프리모 산지오베제-메를로",
+       "price": 79000
+      },
+      {
+       "category": "이탈리아",
+       "name": "몬타리발디, 모스카토 다스티, 2024",
+       "price": 79000
+      },
+      {
+       "category": "이탈리아",
+       "name": "리토라레 베르멘티노, 2022",
+       "price": 89000
+      },
+      {
+       "category": "이탈리아",
+       "name": "몬타리발디 랑게 테르누스, 2020",
+       "price": 99000
+      },
+      {
+       "category": "이탈리아",
+       "name": "스파쏘 피에몬티 로쏘 파시토",
+       "price": 99000
+      },
+      {
+       "category": "이탈리아",
+       "name": "포지오 레 볼피 로마 로쏘",
+       "price": 99000
+      },
+      {
+       "category": "이탈리아",
+       "name": "체끼, 끼안티 클라시코",
+       "price": 119000
+      },
+      {
+       "category": "이탈리아",
+       "name": "판티니 에디씨오네",
+       "price": 159000
+      },
+      {
+       "category": "스페인",
+       "name": "프로스페로 브릿",
+       "price": 49000
+      },
+      {
+       "category": "스페인",
+       "name": "자리스 데 쉬라즈, 2019",
+       "price": 89000
+      },
+      {
+       "category": "아르헨티나",
+       "name": "에스코리후엘라 가스콘 말벡, 2024",
+       "price": 99000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791444989.029789",
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791444965194299"
+  },
   {
    "ts": "1791444440.943789",
    "date": "2026-10-08",
