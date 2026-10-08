@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17803,
+  "version": 17804,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238280,7 +238280,7 @@ window.SLACK_DATA = {
     "2026-10-08": {
       "counts": {
         "as": {
-          "심성현": 1,
+          "심성현": 2,
           "김동욱": 3
         },
         "onboarding": {
@@ -238289,6 +238289,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:17",
+          "store": "김밥천국",
+          "biz": "1080327134",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "오케이포스 사용중 서브포스기가 메인포스기랑 연결이 끊겨 도움 부탁드립니다!",
+          "hw": "",
+          "urgent": true,
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "09:04",
           "store": "형아우삼계탕",
@@ -238347,7 +238359,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "09:20"
@@ -238480,29 +238492,22 @@ window.SLACK_DATA = {
       },
       "1791417607.518959": {
         "post": "1791417607.518959",
-        "lastSeen": 1791418914.564,
+        "lastSeen": 1791419097.442,
         "r": 1,
         "day": "2026-10-08",
         "idx": 0
       },
       "1791417611.318959": {
         "post": "1791417611.318959",
-        "lastSeen": 1791418914.564
+        "lastSeen": 1791419097.442
       },
       "1791418415.130959": {
         "post": "1791418415.130959",
-        "lastSeen": 1791418914.564
-      },
-      "1791418625.130409": {
-        "post": "1791418625.130409",
-        "lastSeen": 1791418914.564,
-        "r": 1,
-        "day": "2026-10-08",
-        "idx": 2
+        "lastSeen": 1791419097.442
       },
       "1791418809.789939": {
         "post": "1791418809.789939",
-        "lastSeen": 1791418914.564
+        "lastSeen": 1791419097.442
       }
     },
     "days": {
@@ -318362,14 +318367,15 @@ window.SLACK_DATA = {
             "store": "김밥천국",
             "biz": "1080327134",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:22",
+    "at": "2026-10-08 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -318491,7 +318497,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:21",
+    "at": "2026-10-08 09:24",
     "pri": {
       "days": 0,
       "failed": [],
