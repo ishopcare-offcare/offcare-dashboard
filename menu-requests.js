@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3153,
- "updatedAt": "2026-10-08 11:36",
+ "version": 3154,
+ "updatedAt": "2026-10-08 11:42",
  "days": 30,
  "items": [
   {
@@ -418,7 +418,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C7F6REYPM",
      "from": "댓글",
-     "path": "menu-files/1791423671_057289-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -501,16 +500,18 @@ window.MENU_REQUESTS = {
        "name": "들깨칼국수",
        "price": 18000
       }
-     ]
+     ],
+     "path": "menu-files/1791423671_057289-0.png"
     }
    ],
    "datt": [],
    "replies": [
     "• 전복왕갈비탕 20,000원 >> *21,000원* \n• 들깨칼국수 18,000원 메뉴 생성",
-    "감사합니다!!:pleading_face::man-bowing:"
+    "감사합니다!!:pleading_face::man-bowing:",
+    "성현님, 혹시 요기 다시 한번만 확인 가능하실까요..?\n\n전복갈비탕이 21,000원인데 18,000원으로 되어있다고 하셔서 다시 채팅인입되어 확인 한번만 부탁드리겠습니다..!"
    ],
-   "rc": 5,
-   "lr": "1791426196.402929",
+   "rc": 6,
+   "lr": "1791427312.413769",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
