@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3181,
- "updatedAt": "2026-10-08 15:41",
+ "version": 3182,
+ "updatedAt": "2026-10-08 15:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1791441742.241879",
+   "date": "2026-10-08",
+   "time": "15:42",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "퍼스트포스",
+   "content": "(유플) 이전 메뉴 삭제 요청주셨었으나, 포스에서만 삭제되어 키오스크에도 삭제 요청주시어 부탁드리겠습니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791441745.506709",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791441742241879"
+  },
   {
    "ts": "1791441642.819949",
    "date": "2026-10-08",
@@ -18,11 +39,692 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_1791441458353.jpg",
+     "fid": "F0C7NMK6AF4",
+     "from": "댓글",
+     "path": "menu-files/1791441642_819949-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "시그니처 메뉴(디너 한정)",
+       "name": "코르띨레 휠 피츠케리",
+       "price": 43000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "아시안 고추장 뇨끼",
+       "price": 24000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "된장 라구 파스타",
+       "price": 28000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "파래 스테이크 크림 리조또",
+       "price": 28000
+      },
+      {
+       "category": "파스타",
+       "name": "쉬림프 알리오 올리오",
+       "price": 25000
+      },
+      {
+       "category": "파스타",
+       "name": "엔초비 어란",
+       "price": 25000
+      },
+      {
+       "category": "파스타",
+       "name": "봉골레",
+       "price": 26000
+      },
+      {
+       "category": "파스타",
+       "name": "정통 까르보나라",
+       "price": 27000
+      },
+      {
+       "category": "파스타",
+       "name": "씨푸드 칠리",
+       "price": 28000
+      },
+      {
+       "category": "파스타",
+       "name": "시칠리아 뽀모도로",
+       "price": 28000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러플 매쉬드 살치스테이크",
+       "price": 56000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러플 매쉬드 안심스테이크",
+       "price": 58000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "토마호크 플래터 (예약 한정)",
+       "price": 250000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "시칠리아 씨푸드 스튜",
+       "price": 26000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "한우 꾸리살 카르파쵸&바게트",
+       "price": 29000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "관자구이&스모크 콘퓨레",
+       "price": 32000
+      },
+      {
+       "category": "리조또",
+       "name": "트러플 크림 리조또",
+       "price": 28000
+      },
+      {
+       "category": "샐러드",
+       "name": "스트라차텔라& 계절 과일 세비체",
+       "price": 18000
+      },
+      {
+       "category": "샐러드",
+       "name": "부라타 샐러드",
+       "price": 24000
+      },
+      {
+       "category": "샐러드",
+       "name": "참깨 스테이크 샐러드",
+       "price": 28000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "코르띨레 가지튀김",
+       "price": 16000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "셰프추천 샤퀴테리",
+       "price": 18000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "베이비 깔라마리",
+       "price": 28000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 수제 시즌 젤라또",
+       "price": 10000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 수제 시즌 티라미수",
+       "price": 11000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 바스크치즈 브륄레",
+       "price": 12000
+      }
+     ]
+    },
+    {
+     "name": "Resized(1791441658332)_Resized_179144146",
+     "fid": "F0C7HH96B61",
+     "from": "댓글",
+     "path": "menu-files/1791441642_819949-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 플레인",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 오렌지",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 레드오렌지",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 그린자몽",
+       "price": 6000
+      },
+      {
+       "category": "에이드",
+       "name": "핑크 구아바 에이드",
+       "price": 7000
+      },
+      {
+       "category": "에이드",
+       "name": "패션후르츠 에이드",
+       "price": 7000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 레드 와인",
+       "price": 10000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 화이트 와인",
+       "price": 10000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "페로니 나스트로아즈로",
+       "price": 11000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "필스너 우르켈",
+       "price": 12000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "풀러스 런던 프라이드",
+       "price": 13000
+      },
+      {
+       "category": "커피",
+       "name": "콜드브루 핫커피",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "콜드브루 아이스커피",
+       "price": 6000
+      },
+      {
+       "category": "티",
+       "name": "얼그레이",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "캐모마일",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "Resized(1791441658526)_Resized_179144146",
+     "fid": "F0C77EYK015",
+     "from": "댓글",
+     "path": "menu-files/1791441642_819949-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "하우스 와인",
+       "name": "쁘띠 바투코 카베르네 쇼비뇽",
+       "price": 49000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "쁘띠 바투코 소비뇽 블랑",
+       "price": 49000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 레드or화이트 와인",
+       "price": 10000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 카베르네 쇼비뇽, 2024",
+       "price": 59000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 메를로,2023",
+       "price": 59000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 소비뇽 블랑, 2024",
+       "price": 59000
+      },
+      {
+       "category": "프랑스",
+       "name": "도멘 생앙드레 마리텀 루즈, 2021",
+       "price": 69000
+      },
+      {
+       "category": "프랑스",
+       "name": "장 발몽 피노누아,2024",
+       "price": 69000
+      },
+      {
+       "category": "프랑스",
+       "name": "끌로 라 꾸띨, 2022",
+       "price": 79000
+      },
+      {
+       "category": "프랑스",
+       "name": "샤토 뀌 카스텔라, 2020",
+       "price": 99000
+      },
+      {
+       "category": "독일",
+       "name": "피터 메르테스 아우스레제(375ml)",
+       "price": 59000
+      },
+      {
+       "category": "독일",
+       "name": "피터 메르테스 트레디션 카비넷",
+       "price": 79000
+      },
+      {
+       "category": "독일",
+       "name": "파이브 어클락 리슬링",
+       "price": 89000
+      },
+      {
+       "category": "호주",
+       "name": "빈 빈아죠 플라바붐 바인 쉬라즈",
+       "price": 89000
+      },
+      {
+       "category": "미국",
+       "name": "뷸러, 화이트 진판델, 2023",
+       "price": 69000
+      },
+      {
+       "category": "미국",
+       "name": "램지 카베르네 쇼비뇽, 2022",
+       "price": 79000
+      },
+      {
+       "category": "미국",
+       "name": "렌지 피노누아",
+       "price": 79000
+      },
+      {
+       "category": "미국",
+       "name": "램지 샤도네이, 2024",
+       "price": 79000
+      },
+      {
+       "category": "미국",
+       "name": "루트 코즈, 카베르네 쇼비뇽, 2022",
+       "price": 89000
+      },
+      {
+       "category": "미국",
+       "name": "스톤캡 메를로, 2019",
+       "price": 89000
+      },
+      {
+       "category": "미국",
+       "name": "포다인, 올드 바인 진판델, 2021",
+       "price": 99000
+      },
+      {
+       "category": "미국",
+       "name": "라피스 루나 소비뇽 블랑",
+       "price": 99000
+      },
+      {
+       "category": "미국",
+       "name": "본다비 버터리 샤도네이, 2022",
+       "price": 99000
+      },
+      {
+       "category": "뉴질랜드",
+       "name": "코하 소비뇽 블랑, 2024",
+       "price": 79000
+      },
+      {
+       "category": "뉴질랜드",
+       "name": "대시우드 말보로 피노누아, 2022",
+       "price": 89000
+      },
+      {
+       "category": "뉴질랜드",
+       "name": "조지 미셸, 소비뇽 블랑",
+       "price": 89000
+      },
+      {
+       "category": "이탈리아",
+       "name": "프리모 산지오베제-메를로",
+       "price": 79000
+      },
+      {
+       "category": "이탈리아",
+       "name": "폰타나발디, 모스카토 다스티, 2024",
+       "price": 79000
+      },
+      {
+       "category": "이탈리아",
+       "name": "리토라레 베르멘티노, 2022",
+       "price": 89000
+      },
+      {
+       "category": "이탈리아",
+       "name": "몬타나발디 랑게 테로누스, 2020",
+       "price": 99000
+      },
+      {
+       "category": "이탈리아",
+       "name": "스파쏘 피에몬티 로쏘 파시토",
+       "price": 99000
+      },
+      {
+       "category": "이탈리아",
+       "name": "포지오 레 볼피 로마 로쏘",
+       "price": 99000
+      },
+      {
+       "category": "이탈리아",
+       "name": "체끼, 끼안티 클라시코",
+       "price": 119000
+      },
+      {
+       "category": "이탈리아",
+       "name": "판티니 에디씨오네",
+       "price": 159000
+      },
+      {
+       "category": "스페인",
+       "name": "프로스페로 브륏",
+       "price": 49000
+      },
+      {
+       "category": "스페인",
+       "name": "자리스 데 쉬라즈, 2019",
+       "price": 89000
+      },
+      {
+       "category": "아르헨티나",
+       "name": "에스크리우엘라 가스콘 말벡, 2024",
+       "price": 99000
+      }
+     ]
+    },
+    {
+     "name": "Resized_1791441458353(1).jpg",
+     "fid": "F0C7GKFTCHZ",
+     "from": "댓글",
+     "path": "menu-files/1791441642_819949-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "시그니처 메뉴(디너 한정)",
+       "name": "코르띨레 휠 피츠케리",
+       "price": 43000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "아시안 고추장 뇨끼",
+       "price": 24000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "된장 라구 파스타",
+       "price": 28000
+      },
+      {
+       "category": "특별 메뉴",
+       "name": "파래 스테이크 크림 리조또",
+       "price": 28000
+      },
+      {
+       "category": "파스타",
+       "name": "쉬림프 알리오 올리오",
+       "price": 25000
+      },
+      {
+       "category": "파스타",
+       "name": "엔초비 어란",
+       "price": 25000
+      },
+      {
+       "category": "파스타",
+       "name": "봉골레",
+       "price": 26000
+      },
+      {
+       "category": "파스타",
+       "name": "정통 까르보나라",
+       "price": 27000
+      },
+      {
+       "category": "파스타",
+       "name": "씨푸드 칠리",
+       "price": 28000
+      },
+      {
+       "category": "파스타",
+       "name": "시칠리아 뽀모도로",
+       "price": 28000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러프 매쉬드 살치스테이크",
+       "price": 56000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "트러프 매쉬드 안심스테이크",
+       "price": 58000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "토마호크 플래터 (예약 한정)",
+       "price": 250000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "시칠리아 씨푸드 스투",
+       "price": 26000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "한우 꾸리살 카르파쵸&바게트",
+       "price": 29000
+      },
+      {
+       "category": "스몰디쉬",
+       "name": "관자구이&스모크 콘퓨레",
+       "price": 32000
+      },
+      {
+       "category": "리조또",
+       "name": "트러플 크림 리조또",
+       "price": 28000
+      },
+      {
+       "category": "샐러드",
+       "name": "스트라차텔라& 계절 과일 세비체",
+       "price": 18000
+      },
+      {
+       "category": "샐러드",
+       "name": "부라타 샐러드",
+       "price": 24000
+      },
+      {
+       "category": "샐러드",
+       "name": "참깨 스테이크 샐러드",
+       "price": 28000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "코르띨레 가지튀김",
+       "price": 16000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "셰프추천 샤퀴테리",
+       "price": 18000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "베이비 깔라마리",
+       "price": 28000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 수제 시즌 젤라또",
+       "price": 10000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 수제 시즌 티라미수",
+       "price": 11000
+      },
+      {
+       "category": "디저트",
+       "name": "코르띨레 바스크치즈 브륄레",
+       "price": 12000
+      }
+     ]
+    },
+    {
+     "name": "Resized(1791441657996)_Resized_179144146",
+     "fid": "F0C7QQGUV5X",
+     "from": "댓글",
+     "path": "menu-files/1791441642_819949-4.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 플레인",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 오렌지",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 레드오렌지",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "산펠레그리노 그린자몽",
+       "price": 6000
+      },
+      {
+       "category": "에이드",
+       "name": "핑크 구아바 에이드",
+       "price": 7000
+      },
+      {
+       "category": "에이드",
+       "name": "패션후르츠 에이드",
+       "price": 7000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 레드 와인",
+       "price": 10000
+      },
+      {
+       "category": "하우스 와인",
+       "name": "하우스 화이트 와인",
+       "price": 10000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "페로니 나스트로아즈로",
+       "price": 11000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "필스너 우르켈",
+       "price": 12000
+      },
+      {
+       "category": "프리미엄 맥주",
+       "name": "풀러스 런던 프라이드",
+       "price": 13000
+      },
+      {
+       "category": "커피",
+       "name": "콜드브루 핫커피",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "콜드브루 아이스커피",
+       "price": 6000
+      },
+      {
+       "category": "티",
+       "name": "얼그레이",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "캐모마일",
+       "price": 5000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791441649.253399",
+   "rc": 2,
+   "lr": "1791441748.323939",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -57392,237 +58094,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788852788210799"
-  },
-  {
-   "ts": "1788849707.608049",
-   "date": "2026-09-08",
-   "time": "15:41",
-   "store": "별난식당",
-   "biz": "1283960418",
-   "pos": "",
-   "content": "신규 설치 예정 메뉴 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "Resized_20260908_152755.jpg.jpeg",
-     "fid": "F0C09S8HK4Z",
-     "from": "댓글",
-     "path": "menu-files/1788849707_608049-0.jpeg",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "안주류",
-       "name": "삼겹살",
-       "price": 16000
-      },
-      {
-       "category": "안주류",
-       "name": "오리백숙",
-       "price": 70000
-      },
-      {
-       "category": "안주류",
-       "name": "오리로스",
-       "price": 70000
-      },
-      {
-       "category": "안주류",
-       "name": "토종닭백숙",
-       "price": 60000
-      },
-      {
-       "category": "안주류",
-       "name": "묵은지닭도리탕",
-       "price": 60000
-      },
-      {
-       "category": "안주류",
-       "name": "동태전골",
-       "price": 45000
-      },
-      {
-       "category": "안주류",
-       "name": "부어전골",
-       "price": 45000
-      },
-      {
-       "category": "안주류",
-       "name": "김치전골",
-       "price": 45000
-      },
-      {
-       "category": "안주류",
-       "name": "곱창전골",
-       "price": 45000
-      },
-      {
-       "category": "안주류",
-       "name": "제육볶음",
-       "price": 25000
-      },
-      {
-       "category": "안주류",
-       "name": "쭈꾸미",
-       "price": 25000
-      },
-      {
-       "category": "안주류",
-       "name": "두부김치",
-       "price": 20000
-      },
-      {
-       "category": "식사류",
-       "name": "묵은지고등어",
-       "price": 22000
-      },
-      {
-       "category": "식사류",
-       "name": "갈치조림",
-       "price": 22000
-      },
-      {
-       "category": "식사류",
-       "name": "갈비탕",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "내장탕",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "갈비탕",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "사골우거지탕",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "김치찌개",
-       "price": 9000
-      },
-      {
-       "category": "식사류",
-       "name": "손두부찌개",
-       "price": 9000
-      },
-      {
-       "category": "식사류",
-       "name": "된장찌개",
-       "price": 9000
-      },
-      {
-       "category": "식사류",
-       "name": "청국장",
-       "price": 9000
-      },
-      {
-       "category": "식사류",
-       "name": "콩비지",
-       "price": 9000
-      },
-      {
-       "category": "식사류",
-       "name": "제육덮밥",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "생선구이",
-       "price": 12000
-      },
-      {
-       "category": "식사류",
-       "name": "굴보쌈",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "임면수구이",
-       "price": 12000
-      },
-      {
-       "category": "",
-       "name": "김장철안주",
-       "price": 70000
-      },
-      {
-       "category": "계절",
-       "name": "떡만두국",
-       "price": 9000
-      },
-      {
-       "category": "계절",
-       "name": "열무국수",
-       "price": 9000
-      },
-      {
-       "category": "계절",
-       "name": "콩국수",
-       "price": 9000
-      },
-      {
-       "category": "주류",
-       "name": "맥주",
-       "price": 4000
-      },
-      {
-       "category": "주류",
-       "name": "소주",
-       "price": 4000
-      },
-      {
-       "category": "주류",
-       "name": "막걸리",
-       "price": 4000
-      },
-      {
-       "category": "주류",
-       "name": "청하",
-       "price": 5000
-      },
-      {
-       "category": "주류",
-       "name": "카프리",
-       "price": 5000
-      },
-      {
-       "category": "주류",
-       "name": "음료수",
-       "price": 2000
-      },
-      {
-       "category": "",
-       "name": "홍어삼합",
-       "price": 70000
-      },
-      {
-       "category": "",
-       "name": "국물닭발",
-       "price": 20000
-      },
-      {
-       "category": "",
-       "name": "홍어한접시",
-       "price": 30000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1788849738.843379",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788849707608049"
   }
  ],
  "ocr": {
