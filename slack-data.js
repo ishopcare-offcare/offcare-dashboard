@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 17821,
+  "version": 17822,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -238282,6 +238282,9 @@ window.SLACK_DATA = {
         "booking": {
           "김동욱": 4
         },
+        "nosetup": {
+          "송태양": 1
+        },
         "as": {
           "고경림": 2,
           "배선유": 2,
@@ -238301,6 +238304,17 @@ window.SLACK_DATA = {
           "cat": "booking",
           "emp": "김동욱",
           "req": "가결제",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "09:30",
+          "store": "단장",
+          "biz": "2190613455",
+          "cat": "nosetup",
+          "emp": "송태양",
+          "req": "포프(휴대폰) 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -238462,7 +238476,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 3,
         "unknown": 0
       },
@@ -238594,27 +238608,20 @@ window.SLACK_DATA = {
         "post": "1791385240.477339",
         "lastSeen": 1791404130.971
       },
-      "1791419400.112979": {
-        "post": "1791419400.112979",
-        "lastSeen": 1791420712.492,
-        "r": 1,
-        "day": "2026-10-08",
-        "idx": 8
-      },
       "1791419405.160339": {
         "post": "1791419405.160339",
-        "lastSeen": 1791420712.492
+        "lastSeen": 1791420774.636
       },
       "1791419485.398169": {
         "post": "1791419485.398169",
-        "lastSeen": 1791420712.492,
+        "lastSeen": 1791420774.636,
         "r": 1,
         "day": "2026-10-08",
         "idx": 9
       },
       "1791419843.400589": {
         "post": "1791419843.400589",
-        "lastSeen": 1791420712.492,
+        "lastSeen": 1791420774.636,
         "r": 1,
         "day": "2026-10-08",
         "idx": 7
@@ -318531,7 +318538,8 @@ window.SLACK_DATA = {
             "store": "단장",
             "biz": "2190613455",
             "who": "송태양",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 22.4
           },
           {
             "hm": "09:31",
@@ -318546,13 +318554,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-08 09:52",
+    "at": "2026-10-08 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4435,
+    "rows": 4436,
     "named": 1109,
     "unknownName": 8,
     "beforeStart": 0,
@@ -318668,7 +318676,7 @@ window.SLACK_DATA = {
     "2026-10-08": 2
   },
   "noteMig": {
-    "at": "2026-10-08 09:51",
+    "at": "2026-10-08 09:52",
     "pri": {
       "days": 0,
       "failed": [],
