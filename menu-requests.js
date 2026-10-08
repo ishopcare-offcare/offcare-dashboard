@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3179,
- "updatedAt": "2026-10-08 15:27",
+ "version": 3180,
+ "updatedAt": "2026-10-08 15:34",
  "days": 30,
  "items": [
   {
@@ -57602,44 +57602,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788849707608049"
-  },
-  {
-   "ts": "1788849239.318729",
-   "date": "2026-09-08",
-   "time": "15:33",
-   "store": "에쎄카페",
-   "biz": "1058541550",
-   "pos": "",
-   "content": "*닥터로빈 박하은 프로 / <tel:···|···>*",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "에쎼카페 메뉴.xlsx",
-     "fid": "F0C01L1GU3D",
-     "from": "댓글",
-     "path": "menu-files/1788849239_318729-0.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C03JAQMV3",
-     "from": "댓글",
-     "path": "menu-files/1788849239_318729-1.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "포스프로그램에 메뉴등록 후,\n대시보드로 메뉴 끌어갈 수 있죵??"
-   ],
-   "rc": 8,
-   "lr": "1788850626.475649",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788849239318729"
   }
  ],
  "ocr": {
