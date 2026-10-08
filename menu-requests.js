@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3218,
- "updatedAt": "2026-10-08 19:10",
+ "version": 3219,
+ "updatedAt": "2026-10-08 19:13",
  "days": 30,
  "items": [
   {
@@ -23,10 +23,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "카테고리 \"팟타이\" 제외 하고는 전 메뉴(카테고리 까지)삭제 요청 주셔서 부탁드리겠습니다."
    ],
-   "rc": 2,
-   "lr": "1791452579.345089",
+   "rc": 3,
+   "lr": "1791454402.752459",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791452531354839"
   },
