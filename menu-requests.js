@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3178,
- "updatedAt": "2026-10-08 15:07",
+ "version": 3179,
+ "updatedAt": "2026-10-08 15:27",
  "days": 30,
  "items": [
   {
@@ -57640,88 +57640,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788849239318729"
-  },
-  {
-   "ts": "1788848774.306129",
-   "date": "2026-09-08",
-   "time": "15:26",
-   "store": "쇼쿠요쿠",
-   "biz": "6217900555",
-   "pos": "토스포스",
-   "content": "사케동",
-   "special": "금액12000원",
-   "drive": [
-    "https://drive.google.com/file/d/1vtW97wI4_hwlRNOMfp0rtaeqf_DP9T4G/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1vtW97wI4_hwlRNOMfp0rtaeqf_DP9T4G",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "사케도로동",
-       "price": 13000
-      },
-      {
-       "category": "",
-       "name": "요쿠요쿠 오므라이스",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "챠슈덮밥",
-       "price": 11000
-      },
-      {
-       "category": "",
-       "name": "연어덮밥",
-       "price": 12000
-      },
-      {
-       "category": "",
-       "name": "카츠동",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "김치가쯔나베",
-       "price": 10500
-      },
-      {
-       "category": "",
-       "name": "가쯔나베",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "치킨동",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "일본라멘",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "토코츠라멘",
-       "price": 9500
-      }
-     ]
-    }
-   ],
-   "replies": [
-    "11000 > 12000 가격수정"
-   ],
-   "rc": 2,
-   "lr": "1788848987.781059",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788848774306129"
   }
  ],
  "ocr": {
