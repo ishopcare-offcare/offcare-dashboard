@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3129,
- "updatedAt": "2026-10-08 09:59",
+ "version": 3130,
+ "updatedAt": "2026-10-08 10:01",
  "days": 30,
  "items": [
   {
@@ -56327,31 +56327,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788829378855049"
-  },
-  {
-   "ts": "1788829259.235009",
-   "date": "2026-09-08",
-   "time": "10:00",
-   "store": "헤르츠 혼술바 계산점",
-   "biz": "4902102491",
-   "pos": "",
-   "content": "다른지점 메뉴와 동일하게 복사 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "헤르츠 혼술바 구월점 ··· 과 메뉴 동일하게 등록 부탁드립니다!\n• 메뉴순서, 카테고리, 메뉴이미지 등 완전히 똑같이 복붙 요청",
-    "님! 혹시 포스에 등록가능한 테이블 갯수 60개까지만 가능한게 맞나요..!?",
-    "네 규빈님!! 확인해주셔서 감사합니당!! :감사합니다_cute::최고심_짱:"
-   ],
-   "rc": 8,
-   "lr": "1788830046.164409",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788829259235009"
   }
  ],
  "ocr": {
