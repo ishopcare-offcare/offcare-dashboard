@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3149,
- "updatedAt": "2026-10-08 11:16",
+ "version": 3150,
+ "updatedAt": "2026-10-08 11:18",
  "days": 30,
  "items": [
   {
@@ -148,11 +148,153 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C7R3GF20L",
+     "from": "댓글",
+     "path": "menu-files/1791423126_373729-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "마장수모두",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "닭발",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "라또",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "머위랑맨",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "하이츠쟈쫜라편",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "머위쌍",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "꼬치",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "꼬치",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "영허두장분350g",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "미니소시지",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "라또",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "풍미와이퍼차이 200g",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "미니소시지",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "미니소시지20개",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "라또",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "라또",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "마장수모두",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "라또",
+       "price": 800
+      },
+      {
+       "category": "",
+       "name": "샹수황화위168g",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "어간",
+       "price": 700
+      },
+      {
+       "category": "",
+       "name": "닭발",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "즈차이",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "오징어",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "캉스푸라면",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "감자당면",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "배즙노빙탕",
+       "price": 4000
+      }
+     ]
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "중복 메뉴\n\n금액, 바코드 다름으로 수정 시간 오래 걸림\n\n기존 포스 운영 중으로 다음 주까지 처리 예정 안내 상태"
+   ],
+   "rc": 2,
+   "lr": "1791425910.363299",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
