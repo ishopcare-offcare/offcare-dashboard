@@ -3,10 +3,70 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3127,
- "updatedAt": "2026-10-08 09:57",
+ "version": 3128,
+ "updatedAt": "2026-10-08 09:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1791421074.183819",
+   "date": "2026-10-08",
+   "time": "09:57",
+   "store": "뚜레쥬르 킨텍스1전시장점",
+   "biz": "1283674814",
+   "pos": "토스포스",
+   "content": "수정",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1urzejDX6zAhYHf-JTf8Bxhhys0wxguoC/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1urzejDX6zAhYHf-JTf8Bxhhys0wxguoC",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "햄야채롤 (6개입)",
+       "price": 5400
+      },
+      {
+       "category": "",
+       "name": "햄야채롤 (4개입)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "깨찰빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "쑥단팥빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "기분좋은 쌀베이글",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "올리브 베이글",
+       "price": 3500
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791421074183819"
+  },
   {
    "ts": "1791421012.885379",
    "date": "2026-10-08",
