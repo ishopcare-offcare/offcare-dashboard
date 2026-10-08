@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3159,
- "updatedAt": "2026-10-08 11:52",
+ "version": 3160,
+ "updatedAt": "2026-10-08 11:54",
  "days": 30,
  "items": [
   {
@@ -610,10 +610,11 @@ window.MENU_REQUESTS = {
     "감사합니다!!:pleading_face::man-bowing:",
     "성현님, 혹시 요기 다시 한번만 확인 가능하실까요..?\n\n전복갈비탕이 21,000원인데 18,000원으로 되어있다고 하셔서 다시 채팅인입되어 확인 한번만 부탁드리겠습니다..!",
     "가능하시다면 빠르게 확인 한번만 부탁드립니다! 주문이 꼬이고 있다고 말씀주셔서요..!:pray:",
-    "선유님 감사합니다,,:pleading_face:"
+    "선유님 감사합니다,,:pleading_face:",
+    "채팅인입건이라 채팅 계속 갖고있기는한데 재시작 안내는 방금 드려놓기는 했습니다!"
    ],
-   "rc": 11,
-   "lr": "1791427907.381249",
+   "rc": 12,
+   "lr": "1791428011.277619",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
