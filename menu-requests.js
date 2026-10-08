@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3142,
- "updatedAt": "2026-10-08 10:54",
+ "version": 3143,
+ "updatedAt": "2026-10-08 10:57",
  "days": 30,
  "items": [
   {
@@ -174,17 +174,19 @@ window.MENU_REQUESTS = {
      "name": "Screenshot_20261008_103115.jpg",
      "fid": "F0C7QRV7NMS",
      "from": "댓글",
-     "path": "menu-files/1791421741_756999-0.jpg",
      "kind": "menu_board",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791421741_756999-0.jpg"
     }
    ],
    "datt": [],
    "replies": [
-    "+가결제"
+    "+가결제",
+    "성현님 그 죄송한데 제가 컴포즈 봐야하는게 있어서.... 이거 메뉴 좀 부탁드려도 될까요",
+    "메뉴 생성은 완료해놨어요"
    ],
-   "rc": 2,
-   "lr": "1791423198.102219",
+   "rc": 4,
+   "lr": "1791424610.015239",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
