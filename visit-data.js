@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-10-08 23:01 KST · 162건 (2026-07-01 이후)
+ * 갱신: 2026-10-09 03:04 KST · 162건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-10-08 23:01',
+  updatedAt: '2026-10-09 03:04',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -167,6 +167,6 @@ window.VISIT_DATA = {
   {"id":"15417","date":"2026-10-07","time":"15:19","store":"컴포즈커피 수원인계점","biz":"5218102386","kind":"AS","status":"done","visitDate":"2026-10-07","region":"지방","route":"오프라인","addr":"경기도 수원시 팔달구","van":"KPN","equip":"서류수취","ship":"","delivery":"","requester":"","assignee":"이동훈B","rounds":11,"roundDates":["2026-08-05","2026-08-24","2026-08-25","2026-08-27","2026-08-28","2026-09-02","2026-09-03","2026-09-04","2026-09-15","2026-10-07","2026-10-07","2026-08-05","2026-08-24","2026-08-25","2026-08-27","2026-08-28","2026-09-02","2026-09-03","2026-09-04","2026-09-15","2026-10-07","2026-10-07"],"brand":"컴포즈커피"},
   {"id":"15421","date":"2026-10-07","time":"15:29","store":"김마리","biz":"5713201875","kind":"AS","status":"pending","visitDate":"2026-10-12","region":"수도권","route":"오프라인","addr":"경기도 성남시 분당구","van":"KPN","equip":"N250 + SR-E25E","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":3,"roundDates":["2026-08-28","2026-10-07","2026-10-12","2026-08-28","2026-10-07","2026-10-12"],"brand":"김마리"},
   {"id":"15453","date":"2026-10-07","time":"19:57","store":"참치공방 강남지점","biz":"5146300877","kind":"AS","status":"pending","visitDate":"2026-10-13","region":"수도권","route":"오프라인","addr":"서울특별시 강남구","van":"DAOU","equip":"중고 금전함블랙일반 , 중고 아임유포스2대","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"참치공방"},
-  {"id":"15456","date":"2026-10-08","time":"10:13","store":"드롭탑(대구웨딩비엔나점)","biz":"5038179024","kind":"설치","status":"pending","visitDate":"2026-10-12","region":"지방","route":"오프라인","addr":"대구광역시 달서구","van":"KIS","equip":"포스기+듀얼모니터","ship":"2026-10-07","delivery":"","requester":"","assignee":"인터링크솔루션","rounds":0,"roundDates":[],"brand":"드롭탑"},
+  {"id":"15456","date":"2026-10-08","time":"10:13","store":"드롭탑(대구웨딩비엔나점)","biz":"5038179024","kind":"설치","status":"pending","visitDate":"2026-10-12","region":"지방","route":"오프라인","addr":"대구광역시 달서구","van":"KIS","equip":"포스기+듀얼모니터","ship":"2026-10-07","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"드롭탑"},
   ],
 };
