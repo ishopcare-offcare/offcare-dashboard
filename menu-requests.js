@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3200,
- "updatedAt": "2026-10-08 17:07",
+ "version": 3201,
+ "updatedAt": "2026-10-08 17:10",
  "days": 30,
  "items": [
   {
@@ -3399,10 +3399,11 @@ window.MENU_REQUESTS = {
     "메뉴 생성은 완료해놨어요",
     "넘기기가 좀 글킨한디...",
     "이런식으로 되어있는 메뉴 등록 시\n180g 49000원 메뉴로 생성했고 추가 사이즈는 옵션으로 넣어주심됩니다",
-    "메뉴 등록 옵션 설정 완료"
+    "메뉴 등록 옵션 설정 완료",
+    "가결제 원격 이관"
    ],
-   "rc": 7,
-   "lr": "1791439625.671459",
+   "rc": 8,
+   "lr": "1791446972.254579",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
