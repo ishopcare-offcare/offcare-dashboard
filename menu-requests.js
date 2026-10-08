@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3131,
- "updatedAt": "2026-10-08 10:03",
+ "version": 3132,
+ "updatedAt": "2026-10-08 10:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1791421741.756999",
+   "date": "2026-10-08",
+   "time": "10:09",
+   "store": "영종바다다",
+   "biz": "3810203837",
+   "pos": "토스포스",
+   "content": "배달의민족. 오늘은새우회\n영종도점의..\n메뉴를그대루. 영종바다다 포수기에넣어주세요",
+   "special": "배달의민족. 오늘은새우회",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791421741756999"
+  },
   {
    "ts": "1791421074.183819",
    "date": "2026-10-08",
@@ -63,8 +84,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791421074183819"
   },
   {
