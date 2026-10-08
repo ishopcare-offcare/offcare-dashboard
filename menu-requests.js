@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3177,
- "updatedAt": "2026-10-08 14:44",
+ "version": 3178,
+ "updatedAt": "2026-10-08 15:07",
  "days": 30,
  "items": [
   {
@@ -2055,7 +2055,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C7M4ULACA",
      "from": "댓글",
-     "path": "menu-files/1791421741_756999-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -2073,7 +2072,8 @@ window.MENU_REQUESTS = {
        "name": "자연산 제주 딱새우회(大 size) [380g]",
        "price": 98000
       }
-     ]
+     ],
+     "path": "menu-files/1791421741_756999-1.png"
     }
    ],
    "datt": [],
@@ -2082,10 +2082,11 @@ window.MENU_REQUESTS = {
     "성현님 그 죄송한데 제가 컴포즈 봐야하는게 있어서.... 이거 메뉴 좀 부탁드려도 될까요",
     "메뉴 생성은 완료해놨어요",
     "넘기기가 좀 글킨한디...",
-    "이런식으로 되어있는 메뉴 등록 시\n180g 49000원 메뉴로 생성했고 추가 사이즈는 옵션으로 넣어주심됩니다"
+    "이런식으로 되어있는 메뉴 등록 시\n180g 49000원 메뉴로 생성했고 추가 사이즈는 옵션으로 넣어주심됩니다",
+    "메뉴 등록 옵션 설정 완료"
    ],
-   "rc": 6,
-   "lr": "1791424721.900529",
+   "rc": 7,
+   "lr": "1791439625.671459",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
