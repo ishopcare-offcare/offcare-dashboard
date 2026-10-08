@@ -3,10 +3,324 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3150,
- "updatedAt": "2026-10-08 11:18",
+ "version": 3151,
+ "updatedAt": "2026-10-08 11:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1791426080.644379",
+   "date": "2026-10-08",
+   "time": "11:21",
+   "store": "빈블라썸",
+   "biz": "7840703536",
+   "pos": "퍼스트포스",
+   "content": "kpn포스 사용중이며 메뉴세팅요청주셨습니다(킨텍스매장)",
+   "special": "",
+   "drive": [],
+   "files": 3,
+   "att": [
+    {
+     "name": "Resized_20261008_103342.jpg",
+     "fid": "F0C7620TWBH",
+     "from": "원글",
+     "path": "menu-files/1791426080_644379-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "ICE 아메리카노",
+       "price": 4700
+      },
+      {
+       "category": "",
+       "name": "HOT 아메리카노",
+       "price": 4700
+      },
+      {
+       "category": "",
+       "name": "BIG 아메리카노",
+       "price": 5700
+      },
+      {
+       "category": "",
+       "name": "ICE 카페라떼",
+       "price": 5200
+      },
+      {
+       "category": "",
+       "name": "HOT 카페라떼",
+       "price": 5200
+      },
+      {
+       "category": "",
+       "name": "ICE 바닐라라떼",
+       "price": 5700
+      },
+      {
+       "category": "",
+       "name": "HOT 바닐라라떼",
+       "price": 5700
+      },
+      {
+       "category": "",
+       "name": "ICE 카라멜마끼아또",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "HOT 카라멜마끼아또",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "ICE 카페모카",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "HOT 카페모카",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "카푸치노",
+       "price": 5200
+      },
+      {
+       "category": "",
+       "name": "우유",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "(추가)얼음 한봉지",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "바닐라 시럽",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "헤이즐넛 시럽",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "오리지날 샷",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "덜달게",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "연하게",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "얼음 많이",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "얼음 적게",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "다용도쿠폰(매장)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "HOT 연유라떼",
+       "price": 5700
+      },
+      {
+       "category": "",
+       "name": "ICE 연유라떼",
+       "price": 5700
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261008_103351.jpg",
+     "fid": "F0C8FQA0NTS",
+     "from": "원글",
+     "path": "menu-files/1791426080_644379-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "딸기",
+       "name": "딸기라떼",
+       "price": 6500
+      },
+      {
+       "category": "딸기",
+       "name": "딸기초코",
+       "price": 6800
+      },
+      {
+       "category": "딸기",
+       "name": "딸기말차",
+       "price": 6800
+      },
+      {
+       "category": "딸기",
+       "name": "버블추가",
+       "price": 1000
+      },
+      {
+       "category": "딸기",
+       "name": "딸기 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "딸기",
+       "name": "수박 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "딸기",
+       "name": "딸기바나나",
+       "price": 6800
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261008_103358.jpg",
+     "fid": "F0C7PBK2WL9",
+     "from": "원글",
+     "path": "menu-files/1791426080_644379-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 밀크티라떼",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 밀크티라떼",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 그린티라떼",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 그린티라떼",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 얼그레이",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 얼그레이",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 그린티",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 그린티",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 캐모마일",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 캐모마일",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 리치 캐모마일",
+       "price": 5800
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 리치 캐모마일",
+       "price": 5800
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 레몬티",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 레몬티",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "BIG 아이스티(복숭아)",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "아샷추",
+       "price": 6000
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "ICE 유자차",
+       "price": 5500
+      },
+      {
+       "category": "TEA PLESURE",
+       "name": "HOT 유자차",
+       "price": 5500
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791426084.506189",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791426080644379"
+  },
   {
    "ts": "1791424379.392789",
    "date": "2026-10-08",
