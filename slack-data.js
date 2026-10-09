@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18379,
+  "version": 18380,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -241718,6 +241718,9 @@ window.SLACK_DATA = {
     },
     "2026-10-09": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "as": {
           "심성현": 8
         }
@@ -241736,6 +241739,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:43",
+          "store": "카페칠월",
+          "biz": "3013807291",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "자체 포스기에 프+터 연결중 프론트에 연결문구 비노출, 인증번호 확인하는 메뉴도 없으신 상태라하여 온보딩 지원부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:35",
           "store": "주식회사 비에이치",
@@ -241826,7 +241840,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 1,
         "unknown": 0
       },
@@ -242038,25 +242052,18 @@ window.SLACK_DATA = {
       },
       "1791507318.208309": {
         "post": "1791507318.208309",
-        "lastSeen": 1791512129.653,
+        "lastSeen": 1791512201.763,
         "r": 1,
         "day": "2026-10-09",
         "idx": 4
       },
-      "1791510233.958969": {
-        "post": "1791510233.958969",
-        "lastSeen": 1791512129.653,
-        "r": 1,
-        "day": "2026-10-09",
-        "idx": 7
-      },
       "1791511016.672709": {
         "post": "1791511016.672709",
-        "lastSeen": 1791512129.653
+        "lastSeen": 1791512201.763
       },
       "1791511200.422439": {
         "post": "1791511200.422439",
-        "lastSeen": 1791512129.653
+        "lastSeen": 1791512201.763
       }
     },
     "days": {
@@ -324051,14 +324058,15 @@ window.SLACK_DATA = {
             "store": "카페칠월",
             "biz": "3013807291",
             "who": "심성현",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 32.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-09 11:15",
+    "at": "2026-10-09 11:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -324181,7 +324189,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 11:15",
+    "at": "2026-10-09 11:16",
     "pri": {
       "days": 0,
       "failed": [],
