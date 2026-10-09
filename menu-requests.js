@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3232,
- "updatedAt": "2026-10-09 11:46",
+ "version": 3233,
+ "updatedAt": "2026-10-09 11:58",
  "days": 30,
  "items": [
   {
@@ -57220,27 +57220,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788927728982859"
-  },
-  {
-   "ts": "1788922582.887219",
-   "date": "2026-09-09",
-   "time": "11:56",
-   "store": "케이핀초반",
-   "biz": "2660303234",
-   "pos": "기타",
-   "content": "1.안주류 카테고리에 치즈김치전 삭제 부탁드립니다\n2.안주류 카테고리에 무뼈닭발 16000원->17000원, 치즈무뼈닭발 18000원->19000원으로 수정부탁드립니다\n3.안주류 카테고리에 닭목살소금구이 16000원, 닭목살양념구이 17000원 추가 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788922585.994659",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788922582887219"
   }
  ],
  "ocr": {
