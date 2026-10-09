@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18477,
+  "version": 18478,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242153,28 +242153,36 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "14:48",
+      "updatedAt": "14:52",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
-          "count": 0,
+          "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 3,
           "low": 0
         },
         "high": {
-          "install": 0,
-          "nps": 1
+          "install": 1,
+          "nps": 2
         },
         "npsDist": {
           "9": 1,
-          "10": 1
+          "10": 2
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "5": 1
+        },
+        "byIndustry": {
+          "카페": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -242185,6 +242193,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 0
+          },
           "KOCES": {
             "total": 1,
             "low": 0
@@ -242196,7 +242208,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "14:52",
+            "store": "메리원두상점",
+            "storeId": "458662",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절 편함",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       },
       "absent": [
         {
@@ -242359,25 +242384,25 @@ window.SLACK_DATA = {
       },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791525131.386
+        "lastSeen": 1791525176.867
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791525131.386,
+        "lastSeen": 1791525176.867,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791524603.064549": {
         "post": "1791524603.064549",
-        "lastSeen": 1791525131.386,
+        "lastSeen": 1791525176.867,
         "r": 1,
         "day": "2026-10-09",
         "idx": 32
       },
       "1791524923.917309": {
         "post": "1791524923.917309",
-        "lastSeen": 1791525131.386
+        "lastSeen": 1791525176.867
       }
     },
     "days": {
@@ -324603,13 +324628,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 14:52",
+    "at": "2026-10-09 14:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4463,
+    "rows": 4464,
     "named": 1133,
     "unknownName": 18,
     "beforeStart": 0,
