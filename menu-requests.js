@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3233,
- "updatedAt": "2026-10-09 11:58",
+ "version": 3234,
+ "updatedAt": "2026-10-09 12:49",
  "days": 30,
  "items": [
   {
@@ -20,57 +20,7 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1EQV6KWzACWnjzT5J9xxsem_xk13wANEg/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C820EN6HJ",
-     "from": "댓글",
-     "path": "menu-files/1791513530_587549-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "단품",
-       "name": "닭뽂이간장한상",
-       "price": 8900
-      },
-      {
-       "category": "단품",
-       "name": "닭뽂이매운한상",
-       "price": 8900
-      },
-      {
-       "category": "단품",
-       "name": "쭈뽂이 매운한상",
-       "price": 9900
-      },
-      {
-       "category": "단품",
-       "name": "쭈삼뽁이",
-       "price": 10900
-      },
-      {
-       "category": "단품",
-       "name": "쭈새우 뽁음우동",
-       "price": 11000
-      },
-      {
-       "category": "단품",
-       "name": "돈뽂이 간장 한상",
-       "price": 10900
-      },
-      {
-       "category": "단품",
-       "name": "돈뽂이 매운한상",
-       "price": 10900
-      },
-      {
-       "category": "단품",
-       "name": "쭈삼치즈존",
-       "price": 28000
-      }
-     ]
-    }
-   ],
+   "att": [],
    "datt": [
     {
      "id": "1EQV6KWzACWnjzT5J9xxsem_xk13wANEg",
@@ -78,9 +28,11 @@ window.MENU_REQUESTS = {
      "menu": []
     }
    ],
-   "replies": [],
+   "replies": [
+    "메뉴 2개 등록, 이미지 등록 완료"
+   ],
    "rc": 1,
-   "lr": "1791513920.021259",
+   "lr": "1791517771.221909",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
