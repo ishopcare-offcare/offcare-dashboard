@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3239,
- "updatedAt": "2026-10-09 14:33",
+ "version": 3240,
+ "updatedAt": "2026-10-09 14:44",
  "days": 30,
  "items": [
   {
@@ -56393,29 +56393,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788933281414819"
-  },
-  {
-   "ts": "1788932663.749689",
-   "date": "2026-09-09",
-   "time": "14:44",
-   "store": "올떡",
-   "biz": "5220503083",
-   "pos": "토스포스",
-   "content": "메뉴추가",
-   "special": "메뉴추가많음",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    ":전화해: 토스포스라 직접 등록하는 법 안내"
-   ],
-   "rc": 2,
-   "lr": "1788937865.362239",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788932663749689"
   }
  ],
  "ocr": {
