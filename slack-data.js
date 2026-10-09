@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18403,
+  "version": 18404,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242098,22 +242098,22 @@ window.SLACK_DATA = {
       },
       "1791512829.796879": {
         "post": "1791512829.796879",
-        "lastSeen": 1791515227.05
+        "lastSeen": 1791515364.217
       },
       "1791512911.164089": {
         "post": "1791512911.164089",
-        "lastSeen": 1791515227.05
+        "lastSeen": 1791515364.217
       },
       "1791513158.064429": {
         "post": "1791513158.064429",
-        "lastSeen": 1791515227.05,
+        "lastSeen": 1791515364.217,
         "r": 1,
         "day": "2026-10-09",
         "idx": 10
       },
       "1791514235.040489": {
         "post": "1791514235.040489",
-        "lastSeen": 1791515227.05
+        "lastSeen": 1791515364.217
       }
     },
     "days": {
@@ -324161,13 +324161,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 12:07",
+    "at": "2026-10-09 12:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4456,
+    "rows": 4457,
     "named": 1133,
     "unknownName": 18,
     "beforeStart": 0,
@@ -324284,7 +324284,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 12:07",
+    "at": "2026-10-09 12:09",
     "pri": {
       "days": 0,
       "failed": [],
