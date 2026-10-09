@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3225,
- "updatedAt": "2026-10-09 09:32",
+ "version": 3226,
+ "updatedAt": "2026-10-09 09:45",
  "days": 30,
  "items": [
   {
@@ -58782,119 +58782,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788916316587389"
-  },
-  {
-   "ts": "1788914571.670679",
-   "date": "2026-09-09",
-   "time": "09:42",
-   "store": "동래꿀팥빵",
-   "biz": "1552701970",
-   "pos": "",
-   "content": "메뉴 이전요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C0G59AD2N",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "기본",
-       "name": "빵",
-       "price": 2800
-      },
-      {
-       "category": "기본",
-       "name": "빵(4개이상)",
-       "price": 2500
-      },
-      {
-       "category": "기본",
-       "name": "팥빙수",
-       "price": 5500
-      },
-      {
-       "category": "기본",
-       "name": "단팥죽",
-       "price": 5500
-      },
-      {
-       "category": "기본",
-       "name": "양송이크림스프",
-       "price": 5500
-      },
-      {
-       "category": "음료",
-       "name": "아메리카노",
-       "price": 2000
-      },
-      {
-       "category": "음료",
-       "name": "카페라떼",
-       "price": 2500
-      },
-      {
-       "category": "음료",
-       "name": "수제오미자레몬차",
-       "price": 5500
-      },
-      {
-       "category": "음료",
-       "name": "수제흑임자두유(소금)",
-       "price": 3800
-      },
-      {
-       "category": "음료",
-       "name": "콩쥐팥쥐두유(꿀)",
-       "price": 3800
-      },
-      {
-       "category": "음료",
-       "name": "유기농과일쥬스",
-       "price": 2500
-      },
-      {
-       "category": "음료",
-       "name": "유기농차",
-       "price": 4000
-      },
-      {
-       "category": "음료",
-       "name": "청량음료(콜라,사이다)",
-       "price": 2000
-      },
-      {
-       "category": "기본",
-       "name": "선물용 쇼핑백",
-       "price": 2000
-      },
-      {
-       "category": "기본",
-       "name": "빵3800",
-       "price": 3800
-      },
-      {
-       "category": "기본",
-       "name": "빵3500",
-       "price": 3500
-      }
-     ],
-     "path": "menu-files/1788914571_670679-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "··· 동래꿀팥빵 메뉴를 > ··· 다고미고(동래꿀팥빵이 될 예정) 여기로 이전 부탁드립니다.\n\n기존 다고미고 메뉴들은 모두 삭제 부탁드려요!"
-   ],
-   "rc": 7,
-   "lr": "1788915035.916899",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788914571670679"
   }
  ],
  "ocr": {
