@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3252,
- "updatedAt": "2026-10-09 19:41",
+ "version": 3253,
+ "updatedAt": "2026-10-09 20:01",
  "days": 30,
  "items": [
   {
@@ -55214,144 +55214,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788998293267309"
-  },
-  {
-   "ts": "1788951686.669869",
-   "date": "2026-09-09",
-   "time": "20:01",
-   "store": "심쿵교복",
-   "biz": "1052593938",
-   "pos": "",
-   "content": "메뉴 신규 등록부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C0HUKRG4W",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "기본set",
-       "price": 20000
-      },
-      {
-       "category": "",
-       "name": "자켓",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "가방",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "운동화",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "1박추가",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "파우치",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "가디건",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "반팔티",
-       "price": 8000
-      },
-      {
-       "category": "",
-       "name": "속바지",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "니삭스",
-       "price": 3500
-      },
-      {
-       "category": "",
-       "name": "끈나시",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "삼각대",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "팬티스타킹",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "반목양말",
-       "price": 1500
-      },
-      {
-       "category": "",
-       "name": "우비",
-       "price": 1500
-      },
-      {
-       "category": "",
-       "name": "기타",
-       "price": 500
-      },
-      {
-       "category": "",
-       "name": "100원",
-       "price": 100
-      },
-      {
-       "category": "",
-       "name": "셀프스튜디오",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "전체 원본 구매",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "인화서비스(폰사진)",
-       "price": 1000
-      },
-      {
-       "category": "",
-       "name": "추가 셀렉 인화",
-       "price": 2000
-      }
-     ],
-     "path": "menu-files/1788951686_669869-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "사진에 있는 메뉴 그대로 등록 요청"
-   ],
-   "rc": 3,
-   "lr": "1788953432.928669",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788951686669869"
   }
  ],
  "ocr": {
