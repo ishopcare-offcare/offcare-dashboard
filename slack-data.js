@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18538,
+  "version": 18539,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242277,48 +242277,48 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:45",
+      "updatedAt": "16:53",
       "voc": {
-        "responses": 14,
+        "responses": 15,
         "install": {
-          "count": 8,
+          "count": 9,
           "low": 2
         },
         "nps": {
-          "count": 14,
+          "count": 15,
           "low": 3
         },
         "high": {
-          "install": 5,
-          "nps": 6
+          "install": 6,
+          "nps": 7
         },
         "npsDist": {
           "0": 1,
           "5": 2,
           "8": 2,
           "9": 3,
-          "10": 6
+          "10": 7
         },
         "installDist": {
           "1": 2,
           "4": 1,
-          "5": 5
+          "5": 6
         },
         "byIndustry": {
+          "카페": 2,
           "서비스[학원]": 1,
           "도소매": 2,
           "요식업": 3,
-          "서비스[뷰티,헤어]": 1,
-          "카페": 1
+          "서비스[뷰티,헤어]": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 9,
+            "low": 2
+          },
           "1개월": {
             "total": 3,
             "low": 1
-          },
-          "구매설치": {
-            "total": 8,
-            "low": 2
           },
           "3개월": {
             "total": 2,
@@ -242330,6 +242330,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "DAOU": {
+            "total": 1,
+            "low": 0
+          },
           "KPN": {
             "total": 5,
             "low": 1
@@ -242457,6 +242461,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:53",
+            "store": "카페대화",
+            "storeId": "689148",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설치가 쉽고 메뉴얼도 간단해요 메뉴얼도 쉽고 초기 설치자에게 안내를 잘해줘요 본사에서. 기기 디자인도 마음에 듭니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:52",
             "store": "숲길",
@@ -242649,22 +242665,22 @@ window.SLACK_DATA = {
       },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791532314.97
+        "lastSeen": 1791532400.975
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791532314.97,
+        "lastSeen": 1791532400.975,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791525804.010279": {
         "post": "1791525804.010279",
-        "lastSeen": 1791532314.97
+        "lastSeen": 1791532400.975
       },
       "1791526008.623089": {
         "post": "1791526008.623089",
-        "lastSeen": 1791532314.97
+        "lastSeen": 1791532400.975
       }
     },
     "days": {
@@ -324954,7 +324970,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 16:52",
+    "at": "2026-10-09 16:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325077,7 +325093,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 16:51",
+    "at": "2026-10-09 16:53",
     "pri": {
       "days": 0,
       "failed": [],
