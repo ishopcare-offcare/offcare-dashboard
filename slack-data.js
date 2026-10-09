@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18533,
+  "version": 18534,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242266,16 +242266,16 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:30",
+      "updatedAt": "16:43",
       "voc": {
-        "responses": 13,
+        "responses": 14,
         "install": {
           "count": 8,
           "low": 2
         },
         "nps": {
-          "count": 13,
-          "low": 2
+          "count": 14,
+          "low": 3
         },
         "high": {
           "install": 5,
@@ -242283,7 +242283,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
-          "5": 1,
+          "5": 2,
           "8": 2,
           "9": 3,
           "10": 6
@@ -242301,6 +242301,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 3,
+            "low": 1
+          },
           "구매설치": {
             "total": 8,
             "low": 2
@@ -242309,10 +242313,6 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 1
           },
-          "1개월": {
-            "total": 2,
-            "low": 0
-          },
           "6개월": {
             "total": 1,
             "low": 0
@@ -242320,8 +242320,8 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KPN": {
-            "total": 4,
-            "low": 0
+            "total": 5,
+            "low": 1
           },
           "KCP": {
             "total": 1,
@@ -242345,11 +242345,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "필요한 기능이 없거나 몰라서 불편": 2,
-          "단말기 설치나 초기 과정이 어려움": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+          "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "16:43",
+            "store": "정현헤어",
+            "storeId": "633654",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "고객님이 두고 가시는. 물건있을시 상세 번호를. 알수엢음",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:52",
             "store": "신데렐라",
@@ -242616,22 +242638,22 @@ window.SLACK_DATA = {
       },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791531571.067
+        "lastSeen": 1791531804.622
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791531571.067,
+        "lastSeen": 1791531804.622,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791525804.010279": {
         "post": "1791525804.010279",
-        "lastSeen": 1791531571.067
+        "lastSeen": 1791531804.622
       },
       "1791526008.623089": {
         "post": "1791526008.623089",
-        "lastSeen": 1791531571.067
+        "lastSeen": 1791531804.622
       }
     },
     "days": {
@@ -324921,7 +324943,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 16:39",
+    "at": "2026-10-09 16:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325044,7 +325066,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 16:39",
+    "at": "2026-10-09 16:43",
     "pri": {
       "days": 0,
       "failed": [],

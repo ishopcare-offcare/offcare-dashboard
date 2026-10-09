@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3242,
- "updatedAt": "2026-10-09 15:06",
+ "version": 3243,
+ "updatedAt": "2026-10-09 16:43",
  "days": 30,
  "items": [
   {
@@ -56374,32 +56374,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788940138399199"
-  },
-  {
-   "ts": "1788939708.491129",
-   "date": "2026-09-09",
-   "time": "16:41",
-   "store": "별에서온 쉐프",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 별에서온 쉐프 메뉴판입니다...\n별에서온 쉐프 메뉴판입니다...     <tel:···|···>  잘  부탁드립니다.... \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0851c8e4bca3ae>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1788939711.340419",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0851c8e4bca3ae",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788939708491129"
   }
  ],
  "ocr": {
