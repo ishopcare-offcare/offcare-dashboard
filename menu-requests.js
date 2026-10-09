@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3245,
- "updatedAt": "2026-10-09 17:52",
+ "version": 3246,
+ "updatedAt": "2026-10-09 17:57",
  "days": 30,
  "items": [
   {
@@ -55873,36 +55873,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788946067496159"
-  },
-  {
-   "ts": "1788944208.668899",
-   "date": "2026-09-09",
-   "time": "17:56",
-   "store": "",
-   "biz": "",
-   "pos": "토스포스",
-   "content": "[📧 메일] 제목: [로칼 문정점] 토스 메뉴 이미지 전달드립니다.\n토스프론트 메뉴 이미지.zip\n <https://drive.google.com/file/d/1pv2ZjP6BiMYz0AifrI0KIj5cbMPRAb02/view?usp=drive_web>\n 토스 '로칼 문정점' 메뉴 이미지 등록 요청드립니다.\n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0855f99e416547>)",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1pv2ZjP6BiMYz0AifrI0KIj5cbMPRAb02/view?usp=drive_web"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "내일할꺼임!~!!!!"
-   ],
-   "rc": 2,
-   "lr": "1788946964.676339",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0855f99e416547",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788944208668899"
   }
  ],
  "ocr": {
