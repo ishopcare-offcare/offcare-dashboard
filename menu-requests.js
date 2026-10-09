@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3247,
- "updatedAt": "2026-10-09 18:28",
+ "version": 3248,
+ "updatedAt": "2026-10-09 18:48",
  "days": 30,
  "items": [
   {
@@ -55658,34 +55658,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788947799317149"
-  },
-  {
-   "ts": "1788947208.832879",
-   "date": "2026-09-09",
-   "time": "18:46",
-   "store": "",
-   "biz": "",
-   "pos": "토스포스",
-   "content": "[📧 메일] 제목: [로칼 문정점] 토스 메뉴 등록 엑셀파일 전달드립니다.\n안녕하세요, 토스 메뉴 등록 엑셀파일 전달드립니다.\n 기존 '로칼 문정점' 에 등록되어있는 메뉴/옵션은 전체 삭제 후, 새로 등록해주셔도 될 것 같습니다.\n (덮음밥/음료 메뉴 모두 삭제 가능)\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0858e59b6b3e4d>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "이거 내일!"
-   ],
-   "rc": 2,
-   "lr": "1788947356.823379",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0858e59b6b3e4d",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788947208832879"
   }
  ],
  "ocr": {
