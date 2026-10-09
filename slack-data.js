@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18531,
+  "version": 18532,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -241719,8 +241719,8 @@ window.SLACK_DATA = {
     "2026-10-09": {
       "counts": {
         "as": {
+          "김현기": 5,
           "고경림": 12,
-          "김현기": 4,
           "심성현": 20
         },
         "onboarding": {
@@ -241739,6 +241739,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:28",
+          "store": "도시곳간 마곡점",
+          "biz": "4654001589",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "쿠팡이츠 연동 이후 주문 알림음 설정 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "16:23",
           "store": "과일영애",
@@ -242251,7 +242262,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 43,
+        "online": 44,
         "offline": 4,
         "unknown": 0
       },
@@ -242605,22 +242616,22 @@ window.SLACK_DATA = {
       },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791531090.345
+        "lastSeen": 1791531509.466
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791531090.345,
+        "lastSeen": 1791531509.466,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791525804.010279": {
         "post": "1791525804.010279",
-        "lastSeen": 1791531090.345
+        "lastSeen": 1791531509.466
       },
       "1791526008.623089": {
         "post": "1791526008.623089",
-        "lastSeen": 1791531090.345
+        "lastSeen": 1791531509.466
       }
     },
     "days": {
@@ -324910,7 +324921,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 16:31",
+    "at": "2026-10-09 16:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325033,7 +325044,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 16:31",
+    "at": "2026-10-09 16:38",
     "pri": {
       "days": 0,
       "failed": [],
