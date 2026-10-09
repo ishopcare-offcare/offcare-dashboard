@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3241,
- "updatedAt": "2026-10-09 14:55",
+ "version": 3242,
+ "updatedAt": "2026-10-09 15:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1791526008.623089",
+   "date": "2026-10-09",
+   "time": "15:06",
+   "store": "사송 원유로",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 사송 원유로 메뉴보냅니다\n<https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk>\n 1719.jpg\n <https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk>\n \n <https://drive.google.com/file/d/1tyOclN0b2VE0EH1-DMiqf7p651ITUFms/view?usp=drivesdk>\n 1721.jpg\n <<https://drive.go>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a11f426cb9b0611>)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk",
+    "https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1tyOclN0b2VE0EH1-DMiqf7p651ITUFms/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a11f426cb9b0611",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791526008623089"
+  },
   {
    "ts": "1791520256.316359",
    "date": "2026-10-09",
