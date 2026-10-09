@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18381,
+  "version": 18382,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -241722,22 +241722,10 @@ window.SLACK_DATA = {
           "심성현": 1
         },
         "as": {
-          "심성현": 8
+          "심성현": 9
         }
       },
-      "pending": [
-        {
-          "time": "09:55",
-          "store": "샐리스 커피 앤 브런치(SALLY's Coffee&am",
-          "biz": "2582202138",
-          "handler": "심성현",
-          "cat": "as",
-          "intake": "offline",
-          "reasons": [
-            "1차 부재"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "10:43",
@@ -241815,6 +241803,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "재온보딩 완료"
+        },
+        {
+          "time": "09:55",
+          "store": "샐리스 커피 앤 브런치(SALLY's Coffee&am",
+          "biz": "2582202138",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "매출이오늘 9일인데 8일로 잡히고있다하여 점검부탁드립니다",
+          "hw": "",
+          "intake": "offline",
+          "note": "/ 매출 마감 설정 18시 06시 설정 상태 기본 값 변경 완료"
         },
         {
           "time": "09:47",
@@ -242050,20 +242049,16 @@ window.SLACK_DATA = {
         "post": "1791471620.313739",
         "lastSeen": 1791490528.869
       },
-      "1791507318.208309": {
-        "post": "1791507318.208309",
-        "lastSeen": 1791512422.212,
-        "r": 1,
-        "day": "2026-10-09",
-        "idx": 4
-      },
       "1791511016.672709": {
         "post": "1791511016.672709",
-        "lastSeen": 1791512422.212
+        "lastSeen": 1791512489.748,
+        "r": 1,
+        "day": "2026-10-09",
+        "idx": 8
       },
       "1791511200.422439": {
         "post": "1791511200.422439",
-        "lastSeen": 1791512422.212
+        "lastSeen": 1791512489.748
       }
     },
     "days": {
@@ -323986,8 +323981,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-09": {
-        "cnt": 8,
-        "sumMin": 286.83087530136106,
+        "cnt": 9,
+        "sumMin": 310.8193301518758,
         "over": 2,
         "items": [
           {
@@ -324032,7 +324027,8 @@ window.SLACK_DATA = {
             "store": "샐리스 커피 앤 브런치(SALLY's Coffee&am",
             "biz": "2582202138",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 85.6
           },
           {
             "hm": "10:00",
@@ -324060,13 +324056,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "onboarding",
             "dmin": 32.2
+          },
+          {
+            "hm": "10:56",
+            "min": 24,
+            "store": "결담 왁싱&amp;헤드스파",
+            "biz": "7454201397",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-09 11:20",
+    "at": "2026-10-09 11:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -324189,7 +324193,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 11:20",
+    "at": "2026-10-09 11:21",
     "pri": {
       "days": 0,
       "failed": [],
