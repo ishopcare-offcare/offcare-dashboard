@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18382,
+  "version": 18383,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -241719,7 +241719,7 @@ window.SLACK_DATA = {
     "2026-10-09": {
       "counts": {
         "onboarding": {
-          "심성현": 1
+          "심성현": 2
         },
         "as": {
           "심성현": 9
@@ -241727,6 +241727,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:56",
+          "store": "결담 왁싱&amp;헤드스파",
+          "biz": "7454201397",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "포프(PC)+유프 사용 매장으로, 유프 배송받으시어 온보딩 요청주시어 도움 부탁드리겠습니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 출력 테스트 완료"
+        },
         {
           "time": "10:43",
           "store": "카페칠월",
@@ -241839,7 +241850,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 1,
         "unknown": 0
       },
@@ -242049,16 +242060,9 @@ window.SLACK_DATA = {
         "post": "1791471620.313739",
         "lastSeen": 1791490528.869
       },
-      "1791511016.672709": {
-        "post": "1791511016.672709",
-        "lastSeen": 1791512489.748,
-        "r": 1,
-        "day": "2026-10-09",
-        "idx": 8
-      },
       "1791511200.422439": {
         "post": "1791511200.422439",
-        "lastSeen": 1791512489.748
+        "lastSeen": 1791512728.548
       }
     },
     "days": {
@@ -324063,14 +324067,15 @@ window.SLACK_DATA = {
             "store": "결담 왁싱&amp;헤드스파",
             "biz": "7454201397",
             "who": "심성현",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 26.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-09 11:21",
+    "at": "2026-10-09 11:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -324193,7 +324198,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 11:21",
+    "at": "2026-10-09 11:25",
     "pri": {
       "days": 0,
       "failed": [],
