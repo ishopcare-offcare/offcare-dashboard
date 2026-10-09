@@ -3,10 +3,316 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3249,
- "updatedAt": "2026-10-09 19:00",
+ "version": 3250,
+ "updatedAt": "2026-10-09 19:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1791541769.559399",
+   "date": "2026-10-09",
+   "time": "19:29",
+   "store": "란도",
+   "biz": "8283401765",
+   "pos": "토스포스",
+   "content": "전채 입니다ㅜㅜ",
+   "special": "인터넷이 안되서 못하고 있어요ㅜㅜ 기사님은 오픈날에 올 수 있다고 하시고 너무 급합다ㅜ",
+   "drive": [
+    "https://drive.google.com/file/d/1Xg2dAFGeQiplBOWF9_KHMWexjthVyELr/view?usp=drivesdk",
+    "https://drive.google.com/file/d/12LAnfimEhIcfaeU58xD0LR6BkEmmevH7/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1c4cBkqwhC2MgUq-TssYAOZ3eqLFL3yFW/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1OvKTliWOXuVZjb8OGOInOMmkWjkJyBts/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ax_w_OdL-Nb9_6iZIpIKLihCb7EGepRm/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1Xg2dAFGeQiplBOWF9_KHMWexjthVyELr",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "스시 & 마키",
+       "name": "모둠초밥 6p",
+       "price": 14000
+      },
+      {
+       "category": "스시 & 마키",
+       "name": "모둠초밥 12p",
+       "price": 26000
+      },
+      {
+       "category": "스시 & 마키",
+       "name": "고등어 봉초밥",
+       "price": 27000
+      },
+      {
+       "category": "스시 & 마키",
+       "name": "후토마키 5p",
+       "price": 15000
+      },
+      {
+       "category": "스시 & 마키",
+       "name": "후토마키 10p",
+       "price": 28000
+      },
+      {
+       "category": "단품 초밥",
+       "name": "광어 2p",
+       "price": 4500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "도미 2p",
+       "price": 4500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "광어 지느러미 2p",
+       "price": 5500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "단새우 2p",
+       "price": 4500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "참치속살 2p",
+       "price": 4500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "방어/잿방어 2p",
+       "price": 5500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "연어초밥 2p",
+       "price": 4500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "유부초밥 2p",
+       "price": 2500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "전갱이/청어 2p",
+       "price": 3500
+      },
+      {
+       "category": "단품 초밥",
+       "name": "참치 뱃살 2p",
+       "price": 6000
+      },
+      {
+       "category": "단품 초밥",
+       "name": "계란 초밥 2p",
+       "price": 3500
+      },
+      {
+       "category": "전채요리",
+       "name": "안키모 후무스",
+       "price": 15000
+      },
+      {
+       "category": "전채요리",
+       "name": "빵 추가",
+       "price": 3000
+      },
+      {
+       "category": "전채요리",
+       "name": "마스카포네 크림치즈&고구마",
+       "price": 10000
+      },
+      {
+       "category": "전채요리",
+       "name": "포테토 사라다",
+       "price": 9000
+      },
+      {
+       "category": "전채요리",
+       "name": "오이 다시마 무침",
+       "price": 8000
+      },
+      {
+       "category": "전채요리",
+       "name": "멘타이코 다시마키",
+       "price": 13000
+      },
+      {
+       "category": "일본 중화요리",
+       "name": "마보도후",
+       "price": 16000
+      },
+      {
+       "category": "일본 중화요리",
+       "name": "공기밥 추가",
+       "price": 2000
+      },
+      {
+       "category": "일본 중화요리",
+       "name": "홍유만두",
+       "price": 14000
+      }
+     ]
+    },
+    {
+     "id": "12LAnfimEhIcfaeU58xD0LR6BkEmmevH7",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "사시미",
+       "name": "혼술 사시미",
+       "price": 30000
+      },
+      {
+       "category": "사시미",
+       "name": "모둠 사시미 12-14종 · 2人",
+       "price": 48000
+      },
+      {
+       "category": "사시미",
+       "name": "모둠 사시미 12-14종 · 3人",
+       "price": 70000
+      },
+      {
+       "category": "사시미",
+       "name": "모둠 사시미 12-14종 · 4人",
+       "price": 90000
+      },
+      {
+       "category": "사시미",
+       "name": "고등어 초절임회 (시메사바)",
+       "price": 26000
+      },
+      {
+       "category": "사시미",
+       "name": "샤리추가10p",
+       "price": 3000
+      },
+      {
+       "category": "사시미",
+       "name": "그 외 단품 사시미",
+       "price": 0
+      },
+      {
+       "category": "코스메뉴",
+       "name": "사시미 코스 1人",
+       "price": 55000
+      },
+      {
+       "category": "코스메뉴",
+       "name": "스시 코스 1人",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "어린이 세트",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "id": "1c4cBkqwhC2MgUq-TssYAOZ3eqLFL3yFW",
+     "kind": "other",
+     "menu": []
+    },
+    {
+     "id": "1OvKTliWOXuVZjb8OGOInOMmkWjkJyBts",
+     "kind": "menu_board",
+     "menu": []
+    },
+    {
+     "id": "1ax_w_OdL-Nb9_6iZIpIKLihCb7EGepRm",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "고구마소츄",
+       "name": "다이야메 (잔술)",
+       "price": 9000
+      },
+      {
+       "category": "고구마소츄",
+       "name": "다이야메 (도쿠리)",
+       "price": 28000
+      },
+      {
+       "category": "고구마소츄",
+       "name": "세키토바 무라사키 (잔술)",
+       "price": 11000
+      },
+      {
+       "category": "고구마소츄",
+       "name": "세키토바 무라사키 (도쿠리)",
+       "price": 34000
+      },
+      {
+       "category": "고구마소츄",
+       "name": "마다코 (잔술)",
+       "price": 13000
+      },
+      {
+       "category": "고구마소츄",
+       "name": "마다코 (도쿠리)",
+       "price": 40000
+      },
+      {
+       "category": "보리소츄",
+       "name": "무기시루 (잔술)",
+       "price": 9000
+      },
+      {
+       "category": "보리소츄",
+       "name": "무기시루 (도쿠리)",
+       "price": 28000
+      },
+      {
+       "category": "사케",
+       "name": "반슈이콘 초 카라구치 (잔술)",
+       "price": 8500
+      },
+      {
+       "category": "사케",
+       "name": "반슈이콘 초 카라구치 (도쿠리)",
+       "price": 26000
+      },
+      {
+       "category": "사케",
+       "name": "W준마이 (잔술)",
+       "price": 12000
+      },
+      {
+       "category": "사케",
+       "name": "W준마이 (도쿠리)",
+       "price": 38000
+      },
+      {
+       "category": "음료",
+       "name": "탄산음료",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "오렌지 쥬스",
+       "price": 4500
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791541769559399"
+  },
   {
    "ts": "1791526008.623089",
    "date": "2026-10-09",
