@@ -3,10 +3,68 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3227,
- "updatedAt": "2026-10-09 10:13",
+ "version": 3228,
+ "updatedAt": "2026-10-09 11:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1791512911.164089",
+   "date": "2026-10-09",
+   "time": "11:28",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "스파로스포스",
+   "content": "쭈삼새우 뽁음우동 12000",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1x7-D1Y-OdAytIKTySuUDumXBH90B2w5H/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1x7-D1Y-OdAytIKTySuUDumXBH90B2w5H",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791512911164089"
+  },
+  {
+   "ts": "1791512829.796879",
+   "date": "2026-10-09",
+   "time": "11:27",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "스파로스포스",
+   "content": "쭈삼새우 뽁음우동",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1MngGxU9peCyNxKBhspBZsgCTp6qnfzTG/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1MngGxU9peCyNxKBhspBZsgCTp6qnfzTG",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791512829796879"
+  },
   {
    "ts": "1791452531.354839",
    "date": "2026-10-08",
