@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3230,
- "updatedAt": "2026-10-09 11:38",
+ "version": 3231,
+ "updatedAt": "2026-10-09 11:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1791513530.587549",
+   "date": "2026-10-09",
+   "time": "11:38",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "스파로스포스",
+   "content": "쭈새우 뽁음우동 11,000",
+   "special": "최종사진 입니다",
+   "drive": [
+    "https://drive.google.com/file/d/1EQV6KWzACWnjzT5J9xxsem_xk13wANEg/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1EQV6KWzACWnjzT5J9xxsem_xk13wANEg",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791513530587549"
+  },
   {
    "ts": "1791513158.064429",
    "date": "2026-10-09",
@@ -32,8 +61,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
+   "status": "wait",
+   "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791513158064429"
   },
   {
