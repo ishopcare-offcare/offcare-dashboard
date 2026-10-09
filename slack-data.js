@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18469,
+  "version": 18470,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -241719,8 +241719,8 @@ window.SLACK_DATA = {
     "2026-10-09": {
       "counts": {
         "as": {
-          "고경림": 6,
-          "심성현": 18
+          "고경림": 7,
+          "심성현": 19
         },
         "onboarding": {
           "심성현": 3,
@@ -241735,32 +241735,10 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
-          "time": "13:34",
-          "store": "충장수퍼마켙 가맥",
-          "biz": "8262502117",
-          "handler": "심성현",
-          "cat": "as",
-          "intake": "online",
-          "reasons": [
-            "1차 부재"
-          ]
-        },
-        {
           "time": "13:25",
           "store": "브루어리 해먹(Brewery Hammock)",
           "biz": "2417200549",
           "handler": "고경림",
-          "cat": "as",
-          "intake": "online",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
-        {
-          "time": "11:50",
-          "store": "주식회사 비에이치",
-          "biz": "6028156328",
-          "handler": "심성현",
           "cat": "as",
           "intake": "online",
           "reasons": [
@@ -241883,6 +241861,17 @@ window.SLACK_DATA = {
         },
         {
           "time": "13:30",
+          "store": "반포리브영어학원",
+          "biz": "7369402014",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "캣프 가결제",
+          "hw": "",
+          "intake": "offline",
+          "note": "가결제완료"
+        },
+        {
+          "time": "13:30",
           "store": "요요 네일팁(YOYO NAIL TIP)",
           "biz": "3152025110",
           "cat": "booking",
@@ -241958,6 +241947,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "금일 매장방문 불가 • 익일 고객센터 재인입 예정 익일 고객센터 재인입 예정"
+        },
+        {
+          "time": "11:50",
+          "store": "주식회사 비에이치",
+          "biz": "6028156328",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "상품 생성되어있는 것은 정상이나, '왼쪽 상단탭 _ 주문' 화면에서 메뉴가 아예 안보인다고 하십니다,, 다시 한번만 확인 요청드립니다:man-bowing:",
+          "hw": "",
+          "intake": "online",
+          "note": "카테고리 설정 방법 사용 방법 안내 완료"
         },
         {
           "time": "11:42",
@@ -242127,10 +242127,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 33,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "14:35",
+      "updatedAt": "14:39",
       "voc": {
         "responses": 2,
         "install": {
@@ -242174,7 +242174,17 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": []
-      }
+      },
+      "absent": [
+        {
+          "time": "13:34",
+          "store": "충장수퍼마켙 가맥",
+          "biz": "8262502117",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -242324,31 +242334,24 @@ window.SLACK_DATA = {
         "post": "1791471620.313739",
         "lastSeen": 1791490528.869
       },
-      "1791514235.040489": {
-        "post": "1791514235.040489",
-        "lastSeen": 1791524287.454,
-        "r": 1,
-        "day": "2026-10-09",
-        "idx": 14
-      },
-      "1791520203.633349": {
-        "post": "1791520203.633349",
-        "lastSeen": 1791524287.454
-      },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791524287.454
+        "lastSeen": 1791524397.354
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791524287.454,
+        "lastSeen": 1791524397.354,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791524115.545909": {
         "post": "1791524115.545909",
-        "lastSeen": 1791524287.454
+        "lastSeen": 1791524397.354
+      },
+      "1791524379.753679": {
+        "post": "1791524379.753679",
+        "lastSeen": 1791524397.354
       }
     },
     "days": {
@@ -324271,9 +324274,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-09": {
-        "cnt": 30,
-        "sumMin": 815.6652080059051,
-        "over": 8,
+        "cnt": 31,
+        "sumMin": 884.6447188576062,
+        "over": 9,
         "items": [
           {
             "hm": "09:58",
@@ -324406,7 +324409,8 @@ window.SLACK_DATA = {
             "store": "주식회사 비에이치",
             "biz": "6028156328",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 168.5
           },
           {
             "hm": "13:27",
@@ -324541,13 +324545,22 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "booking",
             "dmin": 51.7
+          },
+          {
+            "hm": "13:30",
+            "min": 69,
+            "store": "반포리브영어학원",
+            "biz": "7369402014",
+            "who": "고경림",
+            "cat": "as",
+            "dmin": 69
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-09 14:38",
+    "at": "2026-10-09 14:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -324670,7 +324683,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 14:38",
+    "at": "2026-10-09 14:39",
     "pri": {
       "days": 0,
       "failed": [],
