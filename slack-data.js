@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18503,
+  "version": 18504,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242189,24 +242189,25 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "15:22",
+      "updatedAt": "15:28",
       "voc": {
-        "responses": 6,
+        "responses": 8,
         "install": {
           "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 6,
-          "low": 0
+          "count": 8,
+          "low": 1
         },
         "high": {
           "install": 3,
           "nps": 4
         },
         "npsDist": {
+          "0": 1,
           "8": 1,
-          "9": 1,
+          "9": 2,
           "10": 4
         },
         "installDist": {
@@ -242218,6 +242219,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 2,
+            "low": 1
+          },
           "구매설치": {
             "total": 3,
             "low": 0
@@ -242233,11 +242238,11 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KIS": {
-            "total": 2,
-            "low": 0
+            "total": 3,
+            "low": 1
           },
           "KPN": {
-            "total": 2,
+            "total": 3,
             "low": 0
           },
           "NICE": {
@@ -242249,8 +242254,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+        },
+        "alerts": [
+          {
+            "time": "15:28",
+            "store": "황금상황버섯삼계탕,오리",
+            "storeId": "543217",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "주장용지 거꾸로 안나옴",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "14:52",
@@ -242427,33 +242457,33 @@ window.SLACK_DATA = {
       },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791527304.202
+        "lastSeen": 1791527445.23
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791527304.202,
+        "lastSeen": 1791527445.23,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791525804.010279": {
         "post": "1791525804.010279",
-        "lastSeen": 1791527304.202
+        "lastSeen": 1791527445.23
       },
       "1791526008.623089": {
         "post": "1791526008.623089",
-        "lastSeen": 1791527304.202
+        "lastSeen": 1791527445.23
       },
       "1791526384.634909": {
         "post": "1791526384.634909",
-        "lastSeen": 1791527304.202,
+        "lastSeen": 1791527445.23,
         "r": 1,
         "day": "2026-10-09",
         "idx": 35
       },
       "1791526761.854909": {
         "post": "1791526761.854909",
-        "lastSeen": 1791527304.202
+        "lastSeen": 1791527445.23
       }
     },
     "days": {
@@ -324706,7 +324736,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 15:28",
+    "at": "2026-10-09 15:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -324829,7 +324859,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 15:28",
+    "at": "2026-10-09 15:30",
     "pri": {
       "days": 0,
       "failed": [],
