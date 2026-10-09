@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3226,
- "updatedAt": "2026-10-09 09:45",
+ "version": 3227,
+ "updatedAt": "2026-10-09 10:13",
  "days": 30,
  "items": [
   {
@@ -58759,29 +58759,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788921298650129"
-  },
-  {
-   "ts": "1788916316.587389",
-   "date": "2026-09-09",
-   "time": "10:11",
-   "store": "애니랩스 국전 8층",
-   "biz": "8958604295",
-   "pos": "",
-   "content": "애니랩스 국전 5층 메뉴를 8층으로 그대로 복사 요청 주셨습니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "최대한 빠르게 요청 주셔서 긴급으로 부탁 드립니다. :감사합니다꾸벅:"
-   ],
-   "rc": 5,
-   "lr": "1788917500.549839",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788916316587389"
   }
  ],
  "ocr": {
