@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3240,
- "updatedAt": "2026-10-09 14:44",
+ "version": 3241,
+ "updatedAt": "2026-10-09 14:55",
  "days": 30,
  "items": [
   {
@@ -56370,29 +56370,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788939708491129"
-  },
-  {
-   "ts": "1788933281.414819",
-   "date": "2026-09-09",
-   "time": "14:54",
-   "store": "쏘주맥쭈",
-   "biz": "1921702310",
-   "pos": "오케이포스",
-   "content": "'추가메뉴' 카테고리에\n'갈릭소스 2,000원' 추가해주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "이미 갈릭소스가 잇지만 원하시는대로 추가 완료"
-   ],
-   "rc": 2,
-   "lr": "1788938008.736279",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1788933281414819"
   }
  ],
  "ocr": {
