@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18515,
+  "version": 18516,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242234,43 +242234,48 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "15:48",
+      "updatedAt": "15:52",
       "voc": {
-        "responses": 8,
+        "responses": 13,
         "install": {
-          "count": 3,
-          "low": 0
+          "count": 8,
+          "low": 2
         },
         "nps": {
-          "count": 8,
-          "low": 1
+          "count": 13,
+          "low": 2
         },
         "high": {
-          "install": 3,
-          "nps": 4
+          "install": 5,
+          "nps": 6
         },
         "npsDist": {
           "0": 1,
-          "8": 1,
-          "9": 2,
-          "10": 4
+          "5": 1,
+          "8": 2,
+          "9": 3,
+          "10": 6
         },
         "installDist": {
-          "5": 3
+          "1": 2,
+          "4": 1,
+          "5": 5
         },
         "byIndustry": {
-          "요식업": 1,
+          "서비스[학원]": 1,
+          "도소매": 2,
+          "요식업": 3,
           "서비스[뷰티,헤어]": 1,
           "카페": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 8,
+            "low": 2
+          },
           "3개월": {
             "total": 2,
             "low": 1
-          },
-          "구매설치": {
-            "total": 3,
-            "low": 0
           },
           "1개월": {
             "total": 2,
@@ -242282,27 +242287,87 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "KIS": {
-            "total": 3,
+          "KPN": {
+            "total": 4,
+            "low": 0
+          },
+          "KCP": {
+            "total": 1,
             "low": 1
           },
-          "KPN": {
-            "total": 3,
+          "KOCES": {
+            "total": 2,
+            "low": 0
+          },
+          "KOVAN": {
+            "total": 1,
             "low": 0
           },
           "NICE": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           },
-          "KOCES": {
-            "total": 1,
-            "low": 0
+          "KIS": {
+            "total": 3,
+            "low": 1
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 2,
+          "단말기 설치나 초기 과정이 어려움": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "15:52",
+            "store": "신데렐라",
+            "storeId": "696701",
+            "industry": "도소매",
+            "indBucket": "도소매",
+            "install": 1,
+            "nps": 10,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "프론트 새것인데 0번 버튼쪽 (결제) 쪽이 여러번 눌려야 하는 불편함이 있음",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "15:52",
+            "store": "자가제빵 선명희피자 향남점",
+            "storeId": "693376",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 1,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "직접 설치해야한다는 안내를 받지 못함",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              },
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "아직 뭐가 좋은자 모르겠음",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:28",
             "store": "황금상황버섯삼계탕,오리",
@@ -242327,6 +242392,30 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "15:52",
+            "store": "숲길",
+            "storeId": "687885",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 4,
+            "nps": 8,
+            "text": "설명서가 그렇게 상세하지는 않았어요. 그리고 연결후 어떻게 하는지만 계속 나옴. 깔끔해서 쓰기 좋아요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "15:52",
+            "store": "하츠",
+            "storeId": "645502",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 9,
+            "text": "친절 프로그램 잘 만듬",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "14:52",
             "store": "메리원두상점",
@@ -242495,26 +242584,26 @@ window.SLACK_DATA = {
       },
       "1791520256.316359": {
         "post": "1791520256.316359",
-        "lastSeen": 1791528618.034
+        "lastSeen": 1791528795.37
       },
       "1791520466.554359": {
         "post": "1791520466.554359",
-        "lastSeen": 1791528618.034,
+        "lastSeen": 1791528795.37,
         "r": 1,
         "day": "2026-10-09",
         "idx": 27
       },
       "1791525804.010279": {
         "post": "1791525804.010279",
-        "lastSeen": 1791528618.034
+        "lastSeen": 1791528795.37
       },
       "1791526008.623089": {
         "post": "1791526008.623089",
-        "lastSeen": 1791528618.034
+        "lastSeen": 1791528795.37
       },
       "1791528491.079289": {
         "post": "1791528491.079289",
-        "lastSeen": 1791528618.034,
+        "lastSeen": 1791528795.37,
         "r": 1,
         "day": "2026-10-09",
         "idx": 38
@@ -324797,7 +324886,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-09 15:50",
+    "at": "2026-10-09 15:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -324920,7 +325009,7 @@ window.SLACK_DATA = {
     "2026-10-09": 2
   },
   "noteMig": {
-    "at": "2026-10-09 15:50",
+    "at": "2026-10-09 15:53",
     "pri": {
       "days": 0,
       "failed": [],
