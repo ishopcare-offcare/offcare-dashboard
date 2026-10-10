@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18958,
+  "version": 18959,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,7 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "미지정": 29,
+          "미지정": 30,
           "송태양": 15
         },
         "onboarding": {
@@ -242876,6 +242876,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:49",
+          "store": "묵은지매운등갈비찜",
+          "biz": "2091176234",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "오케이포스) 포스 프로그램 내 마감 및 정산 진행이 안된다고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "20:25",
           "store": "마이요거트립 제주화순점",
@@ -243466,7 +243477,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 47,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
       "updatedAt": "20:49",
@@ -243724,19 +243735,15 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791632969.154
+        "lastSeen": 1791633087.933
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791632969.154
+        "lastSeen": 1791633087.933
       },
       "1791617508.015069": {
         "post": "1791617508.015069",
-        "lastSeen": 1791632969.154
-      },
-      "1791632950.650929": {
-        "post": "1791632950.650929",
-        "lastSeen": 1791632969.154
+        "lastSeen": 1791633087.933
       }
     },
     "days": {
@@ -326212,8 +326219,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 52,
-        "sumMin": 729.7500080386799,
+        "cnt": 53,
+        "sumMin": 731.0482175548873,
         "over": 6,
         "items": [
           {
@@ -326683,13 +326690,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 6.4
+          },
+          {
+            "hm": "20:49",
+            "min": 1.3,
+            "store": "묵은지매운등갈비찜",
+            "biz": "2091176234",
+            "who": "",
+            "cat": "as",
+            "dmin": 1.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 20:49",
+    "at": "2026-10-10 20:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326813,7 +326829,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 20:49",
+    "at": "2026-10-10 20:51",
     "pri": {
       "days": 0,
       "failed": [],
