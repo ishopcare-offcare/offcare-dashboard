@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3280,
- "updatedAt": "2026-10-10 17:51",
+ "version": 3281,
+ "updatedAt": "2026-10-10 21:30",
  "days": 30,
  "items": [
   {
@@ -51959,38 +51959,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789053624416339"
-  },
-  {
-   "ts": "1789042938.104239",
-   "date": "2026-09-10",
-   "time": "21:22",
-   "store": "밀라노키친",
-   "biz": "8270703264",
-   "pos": "퍼스트포스",
-   "content": "메뉴 이미지 등록 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C10A2BPLL",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1789042938_104239-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "버섯크림스프"
-   ],
-   "rc": 3,
-   "lr": "1789050540.939829",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789042938104239"
   }
  ],
  "ocr": {
