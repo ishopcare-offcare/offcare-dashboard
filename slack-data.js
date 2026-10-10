@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18849,
+  "version": 18850,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,7 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "미지정": 8,
+          "미지정": 9,
           "송태양": 15
         },
         "onboarding": {
@@ -242873,6 +242873,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:06",
+          "store": "올데이크레페(ALL DAY CREPE) 시흥신천점",
+          "biz": "7562302527",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포프(데스크탑) 사용 중, 원격 지원 이후 유프 미출력된다고 하여 재점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:48",
           "store": "퀸스부띠끄코리아",
@@ -243206,28 +243217,29 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 26,
+        "online": 27,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:06",
+      "updatedAt": "15:18",
       "voc": {
-        "responses": 3,
+        "responses": 5,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 3,
-          "low": 0
+          "count": 5,
+          "low": 1
         },
         "high": {
           "install": 0,
-          "nps": 2
+          "nps": 3
         },
         "npsDist": {
+          "5": 1,
           "9": 1,
-          "10": 2
+          "10": 3
         },
         "installDist": {
           "3": 1,
@@ -243237,6 +243249,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 2
         },
         "byTenure": {
+          "1개월": {
+            "total": 2,
+            "low": 1
+          },
           "구매설치": {
             "total": 2,
             "low": 0
@@ -243247,9 +243263,13 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "KOCES": {
+          "NICE": {
             "total": 1,
             "low": 0
+          },
+          "KOCES": {
+            "total": 2,
+            "low": 1
           },
           "KIS": {
             "total": 1,
@@ -243260,8 +243280,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+        },
+        "alerts": [
+          {
+            "time": "15:18",
+            "store": "입실렌티 영어전문학원",
+            "storeId": "638994",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "학원에서 쓰기에는 단점이 있음. 결제자의 이름이 영수증 출력시 포함되어 나왔으면 좋겠음",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "10:57",
@@ -243347,27 +243392,23 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791612926.396
+        "lastSeen": 1791613128.751
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791612926.396
+        "lastSeen": 1791613128.751
       },
       "1791611791.869989": {
         "post": "1791611791.869989",
-        "lastSeen": 1791612926.396
+        "lastSeen": 1791613128.751
       },
       "1791612002.100959": {
         "post": "1791612002.100959",
-        "lastSeen": 1791612926.396
+        "lastSeen": 1791613128.751
       },
       "1791612000.244599": {
         "post": "1791612000.244599",
-        "lastSeen": 1791612926.396
-      },
-      "1791612390.528709": {
-        "post": "1791612390.528709",
-        "lastSeen": 1791612926.396
+        "lastSeen": 1791613128.751
       }
     },
     "days": {
@@ -325843,8 +325884,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 29,
-        "sumMin": 295.09707448879874,
+        "cnt": 30,
+        "sumMin": 305.71448767185205,
         "over": 1,
         "items": [
           {
@@ -326107,13 +326148,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 16.7
+          },
+          {
+            "hm": "15:06",
+            "min": 10.6,
+            "store": "올데이크레페(ALL DAY CREPE) 시흥신천점",
+            "biz": "7562302527",
+            "who": "",
+            "cat": "as",
+            "dmin": 10.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 15:15",
+    "at": "2026-10-10 15:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326237,7 +326287,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 15:15",
+    "at": "2026-10-10 15:18",
     "pri": {
       "days": 0,
       "failed": [],
