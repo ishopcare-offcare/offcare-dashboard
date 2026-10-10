@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18734,
+  "version": 18735,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242915,23 +242915,23 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:27",
+      "updatedAt": "10:40",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 1
+          "nps": 2
         },
         "npsDist": {
-          "10": 1
+          "10": 2
         },
         "installDist": {
           "3": 1
@@ -242940,12 +242940,20 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "구매설치": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 0
+          },
           "KPN": {
             "total": 1,
             "low": 0
@@ -243078,7 +243086,7 @@ window.SLACK_DATA = {
       },
       "1791595123.347059": {
         "post": "1791595123.347059",
-        "lastSeen": 1791596238.713,
+        "lastSeen": 1791596428.668,
         "r": 1,
         "day": "2026-10-10",
         "idx": 4
@@ -325610,7 +325618,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 10:37",
+    "at": "2026-10-10 10:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325734,7 +325742,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 10:37",
+    "at": "2026-10-10 10:40",
     "pri": {
       "days": 0,
       "failed": [],
