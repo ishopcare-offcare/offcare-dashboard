@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18718,
+  "version": 18719,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243008,7 +243008,10 @@ window.SLACK_DATA = {
       },
       "1791594002.256809": {
         "post": "1791594002.256809",
-        "lastSeen": 1791594070.352
+        "lastSeen": 1791594152.467,
+        "r": 1,
+        "day": "2026-10-10",
+        "idx": 0
       }
     },
     "days": {
@@ -325482,11 +325485,26 @@ window.SLACK_DATA = {
             "dmin": 4.3
           }
         ]
+      },
+      "2026-10-10": {
+        "cnt": 1,
+        "sumMin": 1.819211518764496,
+        "over": 0,
+        "items": [
+          {
+            "hm": "10:00",
+            "min": 1.8,
+            "store": "블랙노트 커피로스터스",
+            "biz": "8550102268",
+            "who": "송태양",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 10:01",
+    "at": "2026-10-10 10:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325610,7 +325628,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 10:01",
+    "at": "2026-10-10 10:02",
     "pri": {
       "days": 0,
       "failed": [],
