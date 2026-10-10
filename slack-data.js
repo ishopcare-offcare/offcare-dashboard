@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18881,
+  "version": 18882,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243298,42 +243298,43 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "16:23",
+      "updatedAt": "16:27",
       "voc": {
-        "responses": 11,
+        "responses": 12,
         "install": {
-          "count": 5,
+          "count": 6,
           "low": 1
         },
         "nps": {
-          "count": 11,
+          "count": 12,
           "low": 3
         },
         "high": {
-          "install": 1,
-          "nps": 6
+          "install": 2,
+          "nps": 7
         },
         "npsDist": {
           "4": 1,
           "5": 2,
           "7": 1,
           "9": 1,
-          "10": 6
+          "10": 7
         },
         "installDist": {
           "2": 1,
           "3": 1,
           "4": 2,
-          "5": 1
+          "5": 2
         },
         "byIndustry": {
+          "서비스[뷰티,헤어]": 1,
           "도소매": 2,
           "요식업": 1,
           "서비스[학원]": 2
         },
         "byTenure": {
           "구매설치": {
-            "total": 5,
+            "total": 6,
             "low": 1
           },
           "12개월": {
@@ -243355,7 +243356,7 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KPN": {
-            "total": 4,
+            "total": 5,
             "low": 0
           },
           "KIS": {
@@ -243454,6 +243455,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:27",
+            "store": "아나덴 슈가링왁싱 수원호매실점",
+            "storeId": "693825",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "하다가 잘 안되서 원격으로 받긴했지만 잘설명해주셔서 만족합니다 기존 쓰던제품보다 깔끔하고 쓰기도 편하고 디자인도 세련되고 추천안할 이유가 없어요",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:57",
             "store": "시소샵",
@@ -243562,23 +243575,23 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791617046.693
+        "lastSeen": 1791617273.629
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791617046.693
+        "lastSeen": 1791617273.629
       },
       "1791611791.869989": {
         "post": "1791611791.869989",
-        "lastSeen": 1791617046.693
+        "lastSeen": 1791617273.629
       },
       "1791612000.244599": {
         "post": "1791612000.244599",
-        "lastSeen": 1791617046.693
+        "lastSeen": 1791617273.629
       },
       "1791617022.537539": {
         "post": "1791617022.537539",
-        "lastSeen": 1791617046.693
+        "lastSeen": 1791617273.629
       }
     },
     "days": {
@@ -326396,7 +326409,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 16:24",
+    "at": "2026-10-10 16:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326520,7 +326533,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 16:24",
+    "at": "2026-10-10 16:27",
     "pri": {
       "days": 0,
       "failed": [],

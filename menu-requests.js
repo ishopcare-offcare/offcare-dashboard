@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3274,
- "updatedAt": "2026-10-10 15:57",
+ "version": 3275,
+ "updatedAt": "2026-10-10 16:28",
  "days": 30,
  "items": [
   {
@@ -53007,146 +53007,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789027503750099"
-  },
-  {
-   "ts": "1789025203.327209",
-   "date": "2026-09-10",
-   "time": "16:26",
-   "store": "화곡 온헤어 미용실",
-   "biz": "8193901489",
-   "pos": "기타",
-   "content": "전체 메뉴 등록",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/18luwe_Njgn9WD5pXLdmvg7hfNXe_0nEb/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "18luwe_Njgn9WD5pXLdmvg7hfNXe_0nEb",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "펌",
-       "name": "기본펌",
-       "price": 50000
-      },
-      {
-       "category": "펌",
-       "name": "디자인펌",
-       "price": 60000
-      },
-      {
-       "category": "펌",
-       "name": "디지털",
-       "price": 80000
-      },
-      {
-       "category": "펌",
-       "name": "매직",
-       "price": 80000
-      },
-      {
-       "category": "펌",
-       "name": "남성매직",
-       "price": 70000
-      },
-      {
-       "category": "펌",
-       "name": "매직+디지털",
-       "price": 150000
-      },
-      {
-       "category": "컬러",
-       "name": "뿌리",
-       "price": 40000
-      },
-      {
-       "category": "컬러",
-       "name": "뿌리(프리미엄)",
-       "price": 50000
-      },
-      {
-       "category": "컬러",
-       "name": "남성(컷+염색)",
-       "price": 50000
-      },
-      {
-       "category": "컬러",
-       "name": "전체",
-       "price": 70000
-      },
-      {
-       "category": "컬러",
-       "name": "탈색",
-       "price": 70000
-      },
-      {
-       "category": "컬러",
-       "name": "디자인염색",
-       "price": 80000
-      },
-      {
-       "category": "컷",
-       "name": "학생",
-       "price": 15000
-      },
-      {
-       "category": "컷",
-       "name": "남성",
-       "price": 15000
-      },
-      {
-       "category": "컷",
-       "name": "여성",
-       "price": 18000
-      },
-      {
-       "category": "컷",
-       "name": "앞머리컷",
-       "price": 5000
-      },
-      {
-       "category": "크리닉",
-       "name": "기본클리닉",
-       "price": 30000
-      },
-      {
-       "category": "크리닉",
-       "name": "3단계시스템클리닉",
-       "price": 50000
-      },
-      {
-       "category": "크리닉",
-       "name": "3회시",
-       "price": 120000
-      },
-      {
-       "category": "드라이",
-       "name": "기본드라이",
-       "price": 15000
-      },
-      {
-       "category": "드라이",
-       "name": "아이롱드라이",
-       "price": 20000
-      },
-      {
-       "category": "드라이",
-       "name": "샴푸",
-       "price": 7000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789025206.719129",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789025203327209"
   }
  ],
  "ocr": {
