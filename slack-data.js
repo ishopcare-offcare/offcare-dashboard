@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18996,
+  "version": 18997,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243742,19 +243742,19 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791662311.73
+        "lastSeen": 1791662414.149
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791662311.73
+        "lastSeen": 1791662414.149
       },
       "1791617508.015069": {
         "post": "1791617508.015069",
-        "lastSeen": 1791662311.73
+        "lastSeen": 1791662414.149
       },
       "1791644390.389909": {
         "post": "1791644390.389909",
-        "lastSeen": 1791662311.73
+        "lastSeen": 1791662414.149
       }
     },
     "days": {
@@ -326716,26 +326716,18 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 04:58",
+    "at": "2026-10-11 05:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": true,
-    "error": "",
-    "rows": 4470,
-    "named": 1133,
-    "unknownName": 18,
+    "ok": false,
+    "error": "GDRIVE_* 환경변수 없음",
+    "rows": 0,
+    "named": 0,
+    "unknownName": 0,
     "beforeStart": 0,
-    "done": 1133,
-    "byStatus": {
-      "일정등록완료": 718,
-      "1차부재": 248,
-      "점주직접접수": 94,
-      "설치불가": 21,
-      "(빈칸)": 5,
-      "자가설치": 37,
-      "설치보류요청": 10
-    }
+    "done": 0,
+    "byStatus": {}
   },
   "noteV": {
     "2026-09-29": 2,
@@ -326840,7 +326832,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-11 04:58",
+    "at": "2026-10-11 05:00",
     "pri": {
       "days": 0,
       "failed": [],
