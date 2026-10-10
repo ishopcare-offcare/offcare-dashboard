@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18765,
+  "version": 18766,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242859,15 +242859,26 @@ window.SLACK_DATA = {
     },
     "2026-10-10": {
       "counts": {
+        "onboarding": {
+          "송태양": 2
+        },
         "as": {
           "송태양": 9
-        },
-        "onboarding": {
-          "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:48",
+          "store": "(WE) 부동산공인중개사사무소",
+          "biz": "5557300654",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "컴퓨터 + 프론트 연결 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:35",
           "store": "몽글",
@@ -242980,7 +242991,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 2,
         "unknown": 0
       },
@@ -243177,14 +243188,14 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791600918.082,
+        "lastSeen": 1791600976.141,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
       },
       "1791600864.719219": {
         "post": "1791600864.719219",
-        "lastSeen": 1791600918.082
+        "lastSeen": 1791600976.141
       }
     },
     "days": {
@@ -325767,7 +325778,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 11:55",
+    "at": "2026-10-10 11:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325891,7 +325902,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 11:55",
+    "at": "2026-10-10 11:56",
     "pri": {
       "days": 0,
       "failed": [],
