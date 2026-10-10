@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18769,
+  "version": 18770,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242877,7 +242877,7 @@ window.SLACK_DATA = {
           "req": "PC와 프론트 연동 끊김, 재온보딩 도움 드리려 했으나 PC 에서 연결이 불가한 상황이라 원격 도움 부탁드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "재온보딩 완료입니다"
         },
         {
           "time": "11:48",
@@ -243199,7 +243199,7 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791601378.711,
+        "lastSeen": 1791601420.824,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
@@ -325918,7 +325918,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 12:02",
+    "at": "2026-10-10 12:03",
     "pri": {
       "days": 0,
       "failed": [],
