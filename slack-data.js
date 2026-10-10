@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18856,
+  "version": 18857,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243232,16 +243232,16 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:30",
+      "updatedAt": "15:32",
       "voc": {
-        "responses": 7,
+        "responses": 8,
         "install": {
           "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 7,
-          "low": 2
+          "count": 8,
+          "low": 3
         },
         "high": {
           "install": 0,
@@ -243249,7 +243249,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "4": 1,
-          "5": 1,
+          "5": 2,
           "9": 1,
           "10": 4
         },
@@ -243264,6 +243264,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 2
         },
         "byTenure": {
+          "6개월": {
+            "total": 1,
+            "low": 1
+          },
           "구매설치": {
             "total": 4,
             "low": 1
@@ -243278,6 +243282,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 1,
+            "low": 1
+          },
           "KPN": {
             "total": 2,
             "low": 0
@@ -243296,10 +243304,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "단말기 설치나 초기 과정이 어려움": 2,
+          "단말기 설치나 초기 과정이 어려움": 3,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "15:32",
+            "store": "윌그로우키즈랩사고력센터",
+            "storeId": "407212",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "영수증이 안나와서 프린터 구매 비용 추가",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:27",
             "store": "낭비",
@@ -243436,23 +243466,23 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791613880.082
+        "lastSeen": 1791613996.747
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791613880.082
+        "lastSeen": 1791613996.747
       },
       "1791611791.869989": {
         "post": "1791611791.869989",
-        "lastSeen": 1791613880.082
+        "lastSeen": 1791613996.747
       },
       "1791612000.244599": {
         "post": "1791612000.244599",
-        "lastSeen": 1791613880.082
+        "lastSeen": 1791613996.747
       },
       "1791613857.667899": {
         "post": "1791613857.667899",
-        "lastSeen": 1791613880.082
+        "lastSeen": 1791613996.747
       }
     },
     "days": {
@@ -326216,7 +326246,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 15:31",
+    "at": "2026-10-10 15:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326340,7 +326370,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 15:31",
+    "at": "2026-10-10 15:33",
     "pri": {
       "days": 0,
       "failed": [],
