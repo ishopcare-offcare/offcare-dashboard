@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18768,
+  "version": 18769,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242859,15 +242859,26 @@ window.SLACK_DATA = {
     },
     "2026-10-10": {
       "counts": {
+        "as": {
+          "송태양": 10
+        },
         "onboarding": {
           "송태양": 2
-        },
-        "as": {
-          "송태양": 9
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:54",
+          "store": "사또푸드 국,반찬",
+          "biz": "1876600472",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "PC와 프론트 연동 끊김, 재온보딩 도움 드리려 했으나 PC 에서 연결이 불가한 상황이라 원격 도움 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "11:48",
           "store": "(WE) 부동산공인중개사사무소",
@@ -242992,7 +243003,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 10,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "11:54",
@@ -243188,17 +243199,10 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791601243.151,
+        "lastSeen": 1791601378.711,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
-      },
-      "1791600864.719219": {
-        "post": "1791600864.719219",
-        "lastSeen": 1791601243.151,
-        "r": 1,
-        "day": "2026-10-10",
-        "idx": 11
       }
     },
     "days": {
@@ -325782,14 +325786,15 @@ window.SLACK_DATA = {
             "store": "사또푸드 국,반찬",
             "biz": "1876600472",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 12:00",
+    "at": "2026-10-10 12:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325913,7 +325918,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 12:00",
+    "at": "2026-10-10 12:02",
     "pri": {
       "days": 0,
       "failed": [],
