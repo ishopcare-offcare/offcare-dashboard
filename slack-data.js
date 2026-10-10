@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18743,
+  "version": 18744,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242859,12 +242859,26 @@ window.SLACK_DATA = {
     },
     "2026-10-10": {
       "counts": {
+        "onboarding": {
+          "송태양": 1
+        },
         "as": {
           "송태양": 5
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "칸고(看護)",
+          "biz": "5711503105",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "태블릿 + 프론트 온보딩 유선프린터 연결 안내 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 완료입니다"
+        },
         {
           "time": "10:18",
           "store": "블랑앤코",
@@ -242922,7 +242936,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 2,
         "unknown": 0
       },
@@ -243109,21 +243123,17 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791598175.017,
+        "lastSeen": 1791598307.265,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
       },
       "1791597602.730469": {
         "post": "1791597602.730469",
-        "lastSeen": 1791598175.017
-      },
-      "1791597601.701239": {
-        "post": "1791597601.701239",
-        "lastSeen": 1791598175.017,
+        "lastSeen": 1791598307.265,
         "r": 1,
         "day": "2026-10-10",
-        "idx": 6
+        "idx": 7
       }
     },
     "days": {
@@ -325599,8 +325609,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 7,
-        "sumMin": 61.458054776986444,
+        "cnt": 8,
+        "sumMin": 72.09823029438655,
         "over": 0,
         "items": [
           {
@@ -325662,6 +325672,15 @@ window.SLACK_DATA = {
             "store": "칸고(看護)",
             "biz": "5711503105",
             "who": "송태양",
+            "cat": "onboarding",
+            "dmin": 10.7
+          },
+          {
+            "hm": "11:00",
+            "min": 10.6,
+            "store": "LOVE LIFE",
+            "biz": "1436900060",
+            "who": "송태양",
             "cat": "as"
           }
         ]
@@ -325669,7 +325688,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 11:09",
+    "at": "2026-10-10 11:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325793,7 +325812,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 11:09",
+    "at": "2026-10-10 11:11",
     "pri": {
       "days": 0,
       "failed": [],
