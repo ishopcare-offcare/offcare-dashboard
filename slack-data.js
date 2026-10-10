@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18805,
+  "version": 18806,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,7 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "미지정": 2,
+          "미지정": 3,
           "송태양": 11
         },
         "onboarding": {
@@ -242873,6 +242873,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:57",
+          "store": "잉글(INGLE)",
+          "biz": "3753901617",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포프(태블릿) + 유프 조합으로 이용중이신데, 유프 테스트 출력이 불가한 상황입니다. RJ45 케이블 장착 해제 후 재연결 해봐도 동일한 상황이라 원격 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:40",
           "store": "퍼쉬(PAWSH)",
@@ -243073,11 +243084,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "13:57",
+      "updatedAt": "14:00",
       "voc": {
         "responses": 3,
         "install": {
@@ -243232,15 +243243,23 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791608388.045
+        "lastSeen": 1791608479.245
       },
       "1791608176.942159": {
         "post": "1791608176.942159",
-        "lastSeen": 1791608388.045
+        "lastSeen": 1791608479.245
       },
-      "1791608250.071139": {
-        "post": "1791608250.071139",
-        "lastSeen": 1791608388.045
+      "1791608401.003899": {
+        "post": "1791608401.003899",
+        "lastSeen": 1791608479.245
+      },
+      "1791608400.264419": {
+        "post": "1791608400.264419",
+        "lastSeen": 1791608479.245
+      },
+      "1791608400.167999": {
+        "post": "1791608400.167999",
+        "lastSeen": 1791608479.245
       }
     },
     "days": {
@@ -325716,8 +325735,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 17,
-        "sumMin": 162.62471911907193,
+        "cnt": 18,
+        "sumMin": 165.6842834671338,
         "over": 0,
         "items": [
           {
@@ -325872,13 +325891,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 25.8
+          },
+          {
+            "hm": "13:57",
+            "min": 3.1,
+            "store": "잉글(INGLE)",
+            "biz": "3753901617",
+            "who": "",
+            "cat": "as",
+            "dmin": 3.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 14:00",
+    "at": "2026-10-10 14:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326002,7 +326030,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 13:59",
+    "at": "2026-10-10 14:01",
     "pri": {
       "days": 0,
       "failed": [],
