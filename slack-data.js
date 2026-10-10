@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18789,
+  "version": 18790,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,8 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "송태양": 11
+          "송태양": 11,
+          "미지정": 1
         },
         "booking": {
           "미지정": 1,
@@ -242882,6 +242883,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "재온보딩 완료입니다"
+        },
+        {
+          "time": "13:11",
+          "store": "올데이크레페(ALL DAY CREPE) 시흥신천점",
+          "biz": "7562302527",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "유선프린터 연결 온보딩 받으셨으나 지속 출력 되지 않아 확인 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "13:00",
@@ -243039,11 +243051,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "13:30",
+      "updatedAt": "13:32",
       "voc": {
         "responses": 3,
         "install": {
@@ -243210,13 +243222,13 @@ window.SLACK_DATA = {
         "post": "1791558040.298139",
         "lastSeen": 1791576926.72
       },
-      "1791605470.109379": {
-        "post": "1791605470.109379",
-        "lastSeen": 1791606698.44
-      },
       "1791606632.589869": {
         "post": "1791606632.589869",
-        "lastSeen": 1791606698.44
+        "lastSeen": 1791606781.223
+      },
+      "1791606720.679859": {
+        "post": "1791606720.679859",
+        "lastSeen": 1791606781.223
       }
     },
     "days": {
@@ -325692,8 +325704,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 13,
-        "sumMin": 92.7797103802363,
+        "cnt": 14,
+        "sumMin": 113.94174573024112,
         "over": 0,
         "items": [
           {
@@ -325812,13 +325824,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "booking",
             "dmin": 2.3
+          },
+          {
+            "hm": "13:11",
+            "min": 21.2,
+            "store": "올데이크레페(ALL DAY CREPE) 시흥신천점",
+            "biz": "7562302527",
+            "who": "",
+            "cat": "as",
+            "dmin": 21.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 13:31",
+    "at": "2026-10-10 13:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325942,7 +325963,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 13:31",
+    "at": "2026-10-10 13:33",
     "pri": {
       "days": 0,
       "failed": [],
