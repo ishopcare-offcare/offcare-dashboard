@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18852,
+  "version": 18853,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243232,41 +243232,45 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:18",
+      "updatedAt": "15:27",
       "voc": {
-        "responses": 5,
+        "responses": 7,
         "install": {
-          "count": 2,
-          "low": 0
+          "count": 4,
+          "low": 1
         },
         "nps": {
-          "count": 5,
-          "low": 1
+          "count": 7,
+          "low": 2
         },
         "high": {
           "install": 0,
-          "nps": 3
+          "nps": 4
         },
         "npsDist": {
+          "4": 1,
           "5": 1,
           "9": 1,
-          "10": 3
+          "10": 4
         },
         "installDist": {
+          "2": 1,
           "3": 1,
-          "4": 1
+          "4": 2
         },
         "byIndustry": {
+          "도소매": 1,
+          "요식업": 1,
           "서비스[학원]": 2
         },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 1
+          },
           "1개월": {
             "total": 2,
             "low": 1
-          },
-          "구매설치": {
-            "total": 2,
-            "low": 0
           },
           "12개월": {
             "total": 1,
@@ -243274,6 +243278,14 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 2,
+            "low": 0
+          },
+          "KIS": {
+            "total": 2,
+            "low": 1
+          },
           "NICE": {
             "total": 1,
             "low": 0
@@ -243281,20 +243293,41 @@ window.SLACK_DATA = {
           "KOCES": {
             "total": 2,
             "low": 1
-          },
-          "KIS": {
-            "total": 1,
-            "low": 0
-          },
-          "KPN": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 2,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "15:27",
+            "store": "낭비",
+            "storeId": "686653",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 2,
+            "nps": 4,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 2,
+                "text": "지금 현재 무선프린터기 블루투스 적용이안됩니다",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              },
+              {
+                "q": "추천의향",
+                "score": 4,
+                "text": "불편합니다 설치하기 ㅠ",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:18",
             "store": "입실렌티 영어전문학원",
@@ -243403,19 +243436,19 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791613294.792
+        "lastSeen": 1791613670.084
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791613294.792
+        "lastSeen": 1791613670.084
       },
       "1791611791.869989": {
         "post": "1791611791.869989",
-        "lastSeen": 1791613294.792
+        "lastSeen": 1791613670.084
       },
       "1791612000.244599": {
         "post": "1791612000.244599",
-        "lastSeen": 1791613294.792
+        "lastSeen": 1791613670.084
       }
     },
     "days": {
@@ -326179,7 +326212,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 15:21",
+    "at": "2026-10-10 15:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326303,7 +326336,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 15:21",
+    "at": "2026-10-10 15:27",
     "pri": {
       "days": 0,
       "failed": [],
