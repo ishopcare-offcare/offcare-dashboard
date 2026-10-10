@@ -4977,7 +4977,10 @@ function resolveLoot(emp,out,cost){ const g=gs(emp);
   return {emoji:it.e||'🎁',big:'['+it.name+']',sub:RARITY_KO[it.rarity]+' '+(CAT_KO[it.cat]||'')+' 획득!',cls:'item',rarity:it.rarity};
 }
 // 캐스팅 n회분을 한 번에 추첨 → 결과 배열
-function rollCasts(emp, f, n){ const out=[]; for(let i=0;i<n;i++) out.push(resolveLoot(emp, rollLootPerk(f.loot, activePerk(emp)), f.cost)); return out; }
+// 이미 보유한 고정 아이템(id 지정) 칸은 추첨에서 뺀다 — 중복 획득 없음. 회차마다 다시 걸러서 2회 캐스팅 중 먼저 낚은 것도 제외된다.
+// (랜덤 아이템 칸은 pickItem 이 보유품을 이미 거른다) 빠진 확률은 rollLootPerk 에서 코인 유지가 흡수한다.
+function fishLootFor(emp, loot){ return loot.filter(x=>!(x.t==='item' && x.id && (()=>{ const it=itemByIdAny(x.id); return it && owns(emp,it.cat,it.id); })())); }
+function rollCasts(emp, f, n){ const out=[]; for(let i=0;i<n;i++) out.push(resolveLoot(emp, rollLootPerk(fishLootFor(emp, f.loot), activePerk(emp)), f.cost)); return out; }
 async function castFish(spot){
   const emp=gameMe; if(!emp){ alert('먼저 본인을 선택하세요 🙂'); return; }
   const f=FISH[spot]; if(fishBusy) return;
