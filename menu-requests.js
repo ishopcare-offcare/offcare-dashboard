@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3279,
- "updatedAt": "2026-10-10 17:45",
+ "version": 3280,
+ "updatedAt": "2026-10-10 17:51",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
     "• 냉삼 13000원으로 변경 요청.",
     "메뉴 수정 후 솔라피 발송 부탁드립니다 :pray::skin-tone-2:"
    ],
-   "rc": 3,
-   "lr": "1791621655.268589",
+   "rc": 4,
+   "lr": "1791622266.440909",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -51991,29 +51991,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789042938104239"
-  },
-  {
-   "ts": "1789030101.485939",
-   "date": "2026-09-10",
-   "time": "17:48",
-   "store": "대한복집",
-   "biz": "8434400599",
-   "pos": "토스포스",
-   "content": "전메뉴",
-   "special": "파일메일로보낼게요",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴등록 완료"
-   ],
-   "rc": 2,
-   "lr": "1789087280.876349",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789030101485939"
   }
  ],
  "ocr": {
