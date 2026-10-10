@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3265,
- "updatedAt": "2026-10-10 10:24",
+ "version": 3266,
+ "updatedAt": "2026-10-10 10:26",
  "days": 30,
  "items": [
   {
@@ -55132,29 +55132,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789008055247509"
-  },
-  {
-   "ts": "1789003521.720059",
-   "date": "2026-09-10",
-   "time": "10:25",
-   "store": "스매쉬크루원주점",
-   "biz": "7788503261",
-   "pos": "토스포스",
-   "content": "스매쉬크루 충주점 메뉴를 그대로 옮겨주시고 단가수정은 제가할게요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "토플파 복사 후 재온보딩 완료 / 매출내역, 고객정보 없어짐 안내"
-   ],
-   "rc": 2,
-   "lr": "1789006003.295209",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789003521720059"
   }
  ],
  "ocr": {
