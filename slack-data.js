@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18729,
+  "version": 18730,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,11 +242860,22 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "송태양": 2
+          "송태양": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:08",
+          "store": "멍뜰리에",
+          "biz": "8492402016",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "터미널 + 프론트 사용 중 van 전산 정보 수정했으나 최신정보 불러오기 실패 오류 문구 지속 노출 되어 반영 안내 요청 드립니다 :woman-bowing::skin-tone-4:",
+          "hw": "",
+          "intake": "offline",
+          "note": "재온보딩 완료입니다"
+        },
         {
           "time": "10:04",
           "store": "주식회사 화인푸드앤용역",
@@ -242890,7 +242901,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "10:27",
@@ -243065,20 +243076,16 @@ window.SLACK_DATA = {
         "post": "1791558040.298139",
         "lastSeen": 1791576926.72
       },
-      "1791594512.294749": {
-        "post": "1791594512.294749",
-        "lastSeen": 1791595642.32,
-        "r": 1,
-        "day": "2026-10-10",
-        "idx": 2
-      },
       "1791594927.815639": {
         "post": "1791594927.815639",
-        "lastSeen": 1791595642.32
+        "lastSeen": 1791595721.501,
+        "r": 1,
+        "day": "2026-10-10",
+        "idx": 3
       },
       "1791595123.347059": {
         "post": "1791595123.347059",
-        "lastSeen": 1791595642.32
+        "lastSeen": 1791595721.501
       }
     },
     "days": {
@@ -325554,8 +325561,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 3,
-        "sumMin": 20.144862214724224,
+        "cnt": 4,
+        "sumMin": 32.7131098985672,
         "over": 0,
         "items": [
           {
@@ -325582,6 +325589,15 @@ window.SLACK_DATA = {
             "store": "멍뜰리에",
             "biz": "8492402016",
             "who": "송태양",
+            "cat": "as",
+            "dmin": 19.5
+          },
+          {
+            "hm": "10:15",
+            "min": 12.6,
+            "store": "젠틀스트릿커피",
+            "biz": "7467700199",
+            "who": "송태양",
             "cat": "as"
           }
         ]
@@ -325589,7 +325605,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 10:27",
+    "at": "2026-10-10 10:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325713,7 +325729,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 10:27",
+    "at": "2026-10-10 10:28",
     "pri": {
       "days": 0,
       "failed": [],
