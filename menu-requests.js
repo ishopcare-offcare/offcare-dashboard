@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3276,
- "updatedAt": "2026-10-10 17:11",
+ "version": 3277,
+ "updatedAt": "2026-10-10 17:13",
  "days": 30,
  "items": [
+  {
+   "ts": "1791619957.088779",
+   "date": "2026-10-10",
+   "time": "17:12",
+   "store": "캠핑고(기)",
+   "biz": "5801302334",
+   "pos": "",
+   "content": "메뉴 수정 요청 (유플러스)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 냉삼 13000원으로 변경 요청."
+   ],
+   "rc": 2,
+   "lr": "1791619976.651119",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791619957088779"
+  },
   {
    "ts": "1791552476.725659",
    "date": "2026-10-09",
