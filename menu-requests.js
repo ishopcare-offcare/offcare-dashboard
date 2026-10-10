@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3271,
- "updatedAt": "2026-10-10 14:14",
+ "version": 3272,
+ "updatedAt": "2026-10-10 14:36",
  "days": 30,
  "items": [
   {
@@ -53747,29 +53747,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789021864475179"
-  },
-  {
-   "ts": "1789018529.338449",
-   "date": "2026-09-10",
-   "time": "14:35",
-   "store": "복자쌀쿡",
-   "biz": "7213601634",
-   "pos": "토스포스",
-   "content": "해당 매장 스파로스 ->토스포스로 변경 매장입니다! 메뉴 이관 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "님, 해당 매장 킴스 패밀리 [티오더 사용]에서 변경하는 매장입니다!"
-   ],
-   "rc": 5,
-   "lr": "1789026677.831909",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789018529338449"
   }
  ],
  "ocr": {
