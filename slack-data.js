@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18737,
+  "version": 18738,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242926,15 +242926,15 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:40",
+      "updatedAt": "10:57",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 3,
           "low": 0
         },
         "high": {
@@ -242942,25 +242942,31 @@ window.SLACK_DATA = {
           "nps": 2
         },
         "npsDist": {
+          "9": 1,
           "10": 2
         },
         "installDist": {
-          "3": 1
+          "3": 1,
+          "4": 1
         },
         "byIndustry": {
-          "서비스[학원]": 1
+          "서비스[학원]": 2
         },
         "byTenure": {
-          "12개월": {
-            "total": 1,
+          "구매설치": {
+            "total": 2,
             "low": 0
           },
-          "구매설치": {
+          "12개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 1,
             "low": 0
@@ -242972,7 +242978,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "10:57",
+            "store": "버클리음악학원",
+            "storeId": "690097",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 4,
+            "nps": 9,
+            "text": "유튜브, 큐알 등 설명서는 자세히 있어서 자가설치엔 무리없었지만 터미널2로 된 설명서가 없어서 처음엔 헷갈렸음 무난해서",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -325623,7 +325642,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 10:45",
+    "at": "2026-10-10 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325747,7 +325766,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 10:45",
+    "at": "2026-10-10 10:57",
     "pri": {
       "days": 0,
       "failed": [],
