@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3267,
- "updatedAt": "2026-10-10 11:45",
+ "version": 3268,
+ "updatedAt": "2026-10-10 12:45",
  "days": 30,
  "items": [
   {
@@ -54298,65 +54298,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789014523084569"
-  },
-  {
-   "ts": "1789011717.637199",
-   "date": "2026-09-10",
-   "time": "12:41",
-   "store": "유가네",
-   "biz": "4693200312",
-   "pos": "퍼스트포스",
-   "content": "제육 밑에 제육 2인분 2만원 추가 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C0NMG60VB",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "볶음",
-       "name": "버터키조개관자볶음",
-       "price": 30000
-      },
-      {
-       "category": "볶음",
-       "name": "두부김치",
-       "price": 20000
-      },
-      {
-       "category": "볶음",
-       "name": "제육볶음",
-       "price": 10000
-      },
-      {
-       "category": "볶음",
-       "name": "닭도리탕",
-       "price": 35000
-      },
-      {
-       "category": "볶음",
-       "name": "제육볶음 2인분",
-       "price": 20000
-      }
-     ],
-     "path": "menu-files/1789011717_637199-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "FD 포스\n추가 이후 솔라피 발송 부탁 드립니다..! :꾸벅:",
-    "그때 규빈님이 등록 해 드렸었는데 없다고 하셔서.. :당황소율:"
-   ],
-   "rc": 4,
-   "lr": "1789012100.429519",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789011717637199"
   }
  ],
  "ocr": {
