@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18791,
+  "version": 18792,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242861,14 +242861,13 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "송태양": 11,
-          "미지정": 1
-        },
-        "booking": {
-          "미지정": 1,
-          "송태양": 1
+          "미지정": 2
         },
         "onboarding": {
           "송태양": 2
+        },
+        "booking": {
+          "송태양": 1
         }
       },
       "pending": [],
@@ -242899,7 +242898,7 @@ window.SLACK_DATA = {
           "time": "13:00",
           "store": "일이.ON",
           "biz": "7630103541",
-          "cat": "booking",
+          "cat": "as",
           "emp": "미지정",
           "req": "노트북 + 프론트 + 유프 온보딩 도움부탁드립니다",
           "hw": "",
@@ -243224,11 +243223,11 @@ window.SLACK_DATA = {
       },
       "1791606632.589869": {
         "post": "1791606632.589869",
-        "lastSeen": 1791606822.345
+        "lastSeen": 1791606875.087
       },
       "1791606720.679859": {
         "post": "1791606720.679859",
-        "lastSeen": 1791606822.345
+        "lastSeen": 1791606875.087
       }
     },
     "days": {
@@ -325839,7 +325838,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 13:33",
+    "at": "2026-10-10 13:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325963,7 +325962,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 13:33",
+    "at": "2026-10-10 13:34",
     "pri": {
       "days": 0,
       "failed": [],
