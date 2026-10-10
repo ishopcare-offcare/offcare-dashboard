@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18754,
+  "version": 18755,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242958,7 +242958,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 2,
         "unknown": 0
       },
@@ -243030,6 +243030,14 @@ window.SLACK_DATA = {
         ]
       },
       "absent": [
+        {
+          "time": "11:13",
+          "store": "올데이크레페(ALL DAY CREPE) 시흥신천점",
+          "biz": "7562302527",
+          "handler": "송태양",
+          "cat": "as",
+          "intake": "online"
+        },
         {
           "time": "10:58",
           "store": "아침",
@@ -243155,14 +243163,14 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791599266.541,
+        "lastSeen": 1791599322.87,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
       },
       "1791598390.534969": {
         "post": "1791598390.534969",
-        "lastSeen": 1791599266.541,
+        "lastSeen": 1791599322.87,
         "r": 1,
         "day": "2026-10-10",
         "idx": 9
@@ -325738,7 +325746,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 11:27",
+    "at": "2026-10-10 11:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325862,7 +325870,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 11:27",
+    "at": "2026-10-10 11:28",
     "pri": {
       "days": 0,
       "failed": [],
