@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18860,
+  "version": 18861,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243243,15 +243243,15 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:35",
+      "updatedAt": "15:40",
       "voc": {
-        "responses": 9,
+        "responses": 10,
         "install": {
           "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 9,
+          "count": 10,
           "low": 3
         },
         "high": {
@@ -243261,6 +243261,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "4": 1,
           "5": 2,
+          "7": 1,
           "9": 1,
           "10": 5
         },
@@ -243275,6 +243276,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 2
         },
         "byTenure": {
+          "12개월": {
+            "total": 2,
+            "low": 0
+          },
           "3개월": {
             "total": 1,
             "low": 0
@@ -243290,13 +243295,13 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 2,
             "low": 1
-          },
-          "12개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 3,
+            "low": 0
+          },
           "KIS": {
             "total": 3,
             "low": 1
@@ -243304,10 +243309,6 @@ window.SLACK_DATA = {
           "SECTA9": {
             "total": 1,
             "low": 1
-          },
-          "KPN": {
-            "total": 2,
-            "low": 0
           },
           "NICE": {
             "total": 1,
@@ -243398,6 +243399,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:40",
+            "store": "네일오브봄",
+            "storeId": "226625",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 7,
+            "text": "토스페이, 할인쿠폰, 페이프페이 수수료 너무 많이 떼감 토스에서 할인쿠폰 뿌려놓고 수수료 많이 떼가는지? 그리고 스케줄 어플 불편함 가로모드만 지원하고 켜지는거 느리고 배터리 엄청 잡아먹고.. 그거 빼고는 괜찮음 예약 알림도 무료로 보내주고 방문 후 문자도 무료로 보내주고",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "10:57",
             "store": "버클리음악학원",
             "storeId": "690097",
@@ -243481,19 +243494,19 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791614426.184
+        "lastSeen": 1791614468.701
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791614426.184
+        "lastSeen": 1791614468.701
       },
       "1791611791.869989": {
         "post": "1791611791.869989",
-        "lastSeen": 1791614426.184
+        "lastSeen": 1791614468.701
       },
       "1791612000.244599": {
         "post": "1791612000.244599",
-        "lastSeen": 1791614426.184
+        "lastSeen": 1791614468.701
       }
     },
     "days": {
@@ -326266,7 +326279,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 15:40",
+    "at": "2026-10-10 15:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326390,7 +326403,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 15:40",
+    "at": "2026-10-10 15:41",
     "pri": {
       "days": 0,
       "failed": [],
