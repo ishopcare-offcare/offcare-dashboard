@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18803,
+  "version": 18804,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242864,7 +242864,7 @@ window.SLACK_DATA = {
           "송태양": 11
         },
         "onboarding": {
-          "미지정": 1,
+          "미지정": 2,
           "송태양": 2
         },
         "booking": {
@@ -242880,6 +242880,17 @@ window.SLACK_DATA = {
           "cat": "as",
           "emp": "미지정",
           "req": "영수증 프린터기 오작동 / 점검 부탁드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "13:32",
+          "store": "이지엠(EGM) 영어 교습소",
+          "biz": "2959202391",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "포프(핸드폰) 온보딩 도움 부탁드립니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -243062,11 +243073,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "13:56",
+      "updatedAt": "13:57",
       "voc": {
         "responses": 3,
         "install": {
@@ -243219,17 +243230,17 @@ window.SLACK_DATA = {
         "post": "1791558040.298139",
         "lastSeen": 1791576926.72
       },
-      "1791606720.679859": {
-        "post": "1791606720.679859",
-        "lastSeen": 1791608229.588
-      },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791608229.588
+        "lastSeen": 1791608307.588
       },
       "1791608176.942159": {
         "post": "1791608176.942159",
-        "lastSeen": 1791608229.588
+        "lastSeen": 1791608307.588
+      },
+      "1791608250.071139": {
+        "post": "1791608250.071139",
+        "lastSeen": 1791608307.588
       }
     },
     "days": {
@@ -325705,8 +325716,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 16,
-        "sumMin": 136.82625010013578,
+        "cnt": 17,
+        "sumMin": 162.62471911907193,
         "over": 0,
         "items": [
           {
@@ -325852,13 +325863,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 10
+          },
+          {
+            "hm": "13:32",
+            "min": 25.8,
+            "store": "이지엠(EGM) 영어 교습소",
+            "biz": "2959202391",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 25.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 13:57",
+    "at": "2026-10-10 13:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325982,7 +326002,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 13:57",
+    "at": "2026-10-10 13:58",
     "pri": {
       "days": 0,
       "failed": [],
