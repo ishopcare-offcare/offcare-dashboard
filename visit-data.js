@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-10-10 10:58 KST · 163건 (2026-07-01 이후)
+ * 갱신: 2026-10-10 11:00 KST · 163건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-10-10 10:58',
+  updatedAt: '2026-10-10 11:00',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -138,7 +138,7 @@ window.VISIT_DATA = {
   {"id":"14572","date":"2026-09-14","time":"17:01","store":"컴포즈커피 성수코리아IT점","biz":"5218102386","kind":"AS","status":"done","visitDate":"2026-09-15","region":"수도권","route":"컴포즈","addr":"서울특별시 성동구","van":"KPN","equip":"보수작업","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":9,"roundDates":["2026-08-05","2026-08-24","2026-08-25","2026-08-27","2026-08-28","2026-09-02","2026-09-03","2026-09-04","2026-09-15","2026-08-05","2026-08-24","2026-08-25","2026-08-27","2026-08-28","2026-09-02","2026-09-03","2026-09-04","2026-09-15"],"brand":"컴포즈커피"},
   {"id":"14656","date":"2026-09-16","time":"10:52","store":"피자스쿨일원점","biz":"1200925308","kind":"설치","status":"done","visitDate":"2026-09-16","region":"수도권","route":"오프라인","addr":"서울특별시 강남구","van":"KIS","equip":"프론트","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"피자스쿨"},
   {"id":"14715","date":"2026-09-17","time":"10:50","store":"강창구찹쌀진순대 덕소점","biz":"2061953558","kind":"AS","status":"done","visitDate":"2026-09-17","region":"수도권","route":"오프라인","addr":"경기도 남양주시","van":"KPN","equip":"오더포스","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
-  {"id":"14730","date":"2026-09-17","time":"15:28","store":"강창구 찹쌀 진순대(양벌점)","biz":"5613300139","kind":"기타","status":"done","visitDate":"2026-10-01","region":"지방","route":"오프라인","addr":"경기도 광주시","van":"NICE","equip":"포스기 1EA + 프론트 1EA + CAT단말기 1EA","ship":"","delivery":"","requester":"","assignee":"예스아이엔티","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
+  {"id":"14730","date":"2026-09-17","time":"15:28","store":"강창구 찹쌀 진순대(양벌점)","biz":"5613300139","kind":"기타","status":"done","visitDate":"2026-10-01","region":"지방","route":"오프라인","addr":"경기도 광주시","van":"NICE","equip":"포스기 1EA + 프론트 1EA + CAT단말기 1EA","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
   {"id":"14778","date":"2026-09-18","time":"09:42","store":"등촌샤브칼국수 성남금광점","biz":"5223201887","kind":"설치","status":"done","visitDate":"2026-09-21","region":"수도권","route":"오프라인","addr":"경기도 성남시 중원구","van":"KIS","equip":"기존 오더포스 옆쪽에 유선프린터기 1EA 장비 추가 설치 요청","ship":"2026-09-17","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"등촌샤브칼국수"},
   {"id":"14812","date":"2026-09-18","time":"15:35","store":"강창구찹쌀진순대 중계브라운스톤점","biz":"1673601335","kind":"AS","status":"done","visitDate":"2026-09-18","region":"수도권","route":"오프라인","addr":"서울특별시 노원구","van":"KIS","equip":"","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
   {"id":"14852","date":"2026-09-21","time":"09:44","store":"꽈백최선생 양주덕계점","biz":"1484701382","kind":"설치","status":"done","visitDate":"2026-09-21","region":"수도권","route":"온라인","addr":"경기도 양주시","van":"NICE","equip":"포스기 (추가 구매)","ship":"2026-09-15","delivery":"","requester":"","assignee":"하나비즈케어","rounds":0,"roundDates":[],"brand":"꽈백최선생"},
