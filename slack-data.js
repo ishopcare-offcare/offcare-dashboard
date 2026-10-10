@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18724,
+  "version": 18725,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,11 +242860,22 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "송태양": 1
+          "송태양": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:04",
+          "store": "주식회사 화인푸드앤용역",
+          "biz": "2208802600",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "이전 상담으로 키오스크 원격 지원 받은 후 키오스크 내 전원종료 아이콘이 사라졌다고 주장하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "10:00",
           "store": "블랙노트 커피로스터스",
@@ -242879,7 +242890,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "10:15"
@@ -243015,20 +243026,13 @@ window.SLACK_DATA = {
         "post": "1791558040.298139",
         "lastSeen": 1791576926.72
       },
-      "1791594254.842709": {
-        "post": "1791594254.842709",
-        "lastSeen": 1791594995.211,
-        "r": 1,
-        "day": "2026-10-10",
-        "idx": 1
-      },
       "1791594512.294749": {
         "post": "1791594512.294749",
-        "lastSeen": 1791594995.211
+        "lastSeen": 1791595074.535
       },
       "1791594927.815639": {
         "post": "1791594927.815639",
-        "lastSeen": 1791594995.211
+        "lastSeen": 1791595074.535
       }
     },
     "days": {
@@ -325523,14 +325527,15 @@ window.SLACK_DATA = {
             "store": "주식회사 화인푸드앤용역",
             "biz": "2208802600",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 10:16",
+    "at": "2026-10-10 10:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325654,7 +325659,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 10:16",
+    "at": "2026-10-10 10:17",
     "pri": {
       "days": 0,
       "failed": [],
