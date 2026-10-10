@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18782,
+  "version": 18783,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242859,11 +242859,11 @@ window.SLACK_DATA = {
     },
     "2026-10-10": {
       "counts": {
+        "as": {
+          "송태양": 11
+        },
         "booking": {
           "미지정": 1
-        },
-        "as": {
-          "송태양": 10
         },
         "onboarding": {
           "송태양": 2
@@ -242871,6 +242871,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:13",
+          "store": "블랑앤코",
+          "biz": "1014363659",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "터미널 지속 업데이트 문구 노출 후 관리자 문의 오류 노출 되어 퀵으로 교체 받으신 매장입니다. 재온보딩 도움 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "재온보딩 완료입니다"
+        },
         {
           "time": "13:00",
           "store": "일이.ON",
@@ -243016,7 +243027,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 3,
         "unknown": 0
       },
@@ -243101,13 +243112,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1791432900.363739": {
-        "post": "1791432900.363739",
-        "lastSeen": 1791490528.869,
-        "r": 1,
-        "day": "2026-10-08",
-        "idx": 71
-      },
       "1791434171.662079": {
         "post": "1791434171.662079",
         "lastSeen": 1791490528.869,
@@ -243206,14 +243210,14 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791605607.227,
+        "lastSeen": 1791605707.125,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
       },
       "1791605470.109379": {
         "post": "1791605470.109379",
-        "lastSeen": 1791605607.227
+        "lastSeen": 1791605707.125
       }
     },
     "days": {
@@ -325814,7 +325818,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 13:13",
+    "at": "2026-10-10 13:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325938,7 +325942,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 13:13",
+    "at": "2026-10-10 13:15",
     "pri": {
       "days": 0,
       "failed": [],
