@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18799,
+  "version": 18800,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242859,13 +242859,13 @@ window.SLACK_DATA = {
     },
     "2026-10-10": {
       "counts": {
+        "as": {
+          "미지정": 2,
+          "송태양": 11
+        },
         "onboarding": {
           "미지정": 1,
           "송태양": 2
-        },
-        "as": {
-          "송태양": 11,
-          "미지정": 1
         },
         "booking": {
           "송태양": 1
@@ -242873,6 +242873,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:40",
+          "store": "퍼쉬(PAWSH)",
+          "biz": "1057900505",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "영수증 프린터기 오작동 / 점검 부탁드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:30",
           "store": "아르벨헤어",
@@ -243051,7 +243062,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 3,
         "unknown": 0
       },
@@ -243217,15 +243228,11 @@ window.SLACK_DATA = {
       },
       "1791606720.679859": {
         "post": "1791606720.679859",
-        "lastSeen": 1791607819.398
-      },
-      "1791607244.105869": {
-        "post": "1791607244.105869",
-        "lastSeen": 1791607819.398
+        "lastSeen": 1791607872.987
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791607819.398
+        "lastSeen": 1791607872.987
       }
     },
     "days": {
@@ -325701,8 +325708,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 15,
-        "sumMin": 126.79147291580834,
+        "cnt": 16,
+        "sumMin": 136.82625010013578,
         "over": 0,
         "items": [
           {
@@ -325839,13 +325846,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 12.8
+          },
+          {
+            "hm": "13:40",
+            "min": 10,
+            "store": "퍼쉬(PAWSH)",
+            "biz": "1057900505",
+            "who": "",
+            "cat": "as",
+            "dmin": 10
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 13:50",
+    "at": "2026-10-10 13:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325969,7 +325985,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 13:50",
+    "at": "2026-10-10 13:51",
     "pri": {
       "days": 0,
       "failed": [],
