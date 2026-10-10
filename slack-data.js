@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18766,
+  "version": 18767,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242877,7 +242877,7 @@ window.SLACK_DATA = {
           "req": "컴퓨터 + 프론트 연결 온보딩 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩 완료입니다"
         },
         {
           "time": "11:35",
@@ -243188,14 +243188,17 @@ window.SLACK_DATA = {
       },
       "1791597506.177009": {
         "post": "1791597506.177009",
-        "lastSeen": 1791600976.141,
+        "lastSeen": 1791601127.273,
         "r": 1,
         "day": "2026-10-10",
         "idx": 5
       },
       "1791600864.719219": {
         "post": "1791600864.719219",
-        "lastSeen": 1791600976.141
+        "lastSeen": 1791601127.273,
+        "r": 1,
+        "day": "2026-10-10",
+        "idx": 11
       }
     },
     "days": {
@@ -325671,8 +325674,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 11,
-        "sumMin": 87.32378984689711,
+        "cnt": 12,
+        "sumMin": 90.4402528643608,
         "over": 0,
         "items": [
           {
@@ -325772,13 +325775,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "as",
             "dmin": 11.7
+          },
+          {
+            "hm": "11:54",
+            "min": 3.1,
+            "store": "사또푸드 국,반찬",
+            "biz": "1876600472",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 11:56",
+    "at": "2026-10-10 11:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -325902,7 +325913,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 11:56",
+    "at": "2026-10-10 11:58",
     "pri": {
       "days": 0,
       "failed": [],
