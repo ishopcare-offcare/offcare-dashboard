@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3263,
- "updatedAt": "2026-10-10 09:15",
+ "version": 3264,
+ "updatedAt": "2026-10-10 10:05",
  "days": 30,
  "items": [
   {
@@ -55176,30 +55176,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789003258765009"
-  },
-  {
-   "ts": "1789002181.292739",
-   "date": "2026-09-10",
-   "time": "10:03",
-   "store": "계경순대국 미아점",
-   "biz": "2692100244",
-   "pos": "",
-   "content": "메뉴 수정 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "안녕하세요 계경순대국 미아점 입니다\n\n주류행사가격 수정 하려는데 오늘 얼마 앱에서 수정이 안되네요\n\n수정가능하시면\n행사 카테고리는 그대로 두시고,\n●●메인카테고리인 계경순대국항목에서\n소주     4,000=>3,000\n맥주     5,000=>3,000\n막걸리 4,000=>3,000\n으로 수정좀 해 주세요\n\n완료되시면 문자주셔요\n고맙습니다",
-    "000019\n001510\n000021"
-   ],
-   "rc": 3,
-   "lr": "1789002899.633759",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789002181292739"
   }
  ],
  "ocr": {
