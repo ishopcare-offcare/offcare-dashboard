@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18971,
+  "version": 18972,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,7 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "미지정": 30,
+          "미지정": 31,
           "송태양": 15
         },
         "onboarding": {
@@ -242876,6 +242876,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "23:04",
+          "store": "싸다아구찜탕",
+          "biz": "1020288096",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포프(포스기) 사용 중, 주방에 서브포스(데스크탑) 및 유선프린터기 추가 설치했다고 하여 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "20:49",
           "store": "묵은지매운등갈비찜",
@@ -243477,10 +243488,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 47,
-        "offline": 7,
+        "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "21:50",
+      "updatedAt": "23:04",
       "voc": {
         "responses": 16,
         "install": {
@@ -243735,15 +243746,15 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791640839.437
+        "lastSeen": 1791641727.889
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791640839.437
+        "lastSeen": 1791641727.889
       },
       "1791617508.015069": {
         "post": "1791617508.015069",
-        "lastSeen": 1791640839.437
+        "lastSeen": 1791641727.889
       }
     },
     "days": {
@@ -326705,7 +326716,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-10 23:00",
+    "at": "2026-10-10 23:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326829,7 +326840,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 23:00",
+    "at": "2026-10-10 23:15",
     "pri": {
       "days": 0,
       "failed": [],
