@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3268,
- "updatedAt": "2026-10-10 12:45",
+ "version": 3269,
+ "updatedAt": "2026-10-10 13:30",
  "days": 30,
  "items": [
   {
@@ -54225,79 +54225,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789016294828389"
-  },
-  {
-   "ts": "1789014523.084569",
-   "date": "2026-09-10",
-   "time": "13:28",
-   "store": "하이체리",
-   "biz": "3681302336",
-   "pos": "토스포스",
-   "content": "새로 설치하는데\n기존 키오스크에서 사용하던 상품바코드를 토스 포스 프로그램에 등록해야합니다\n약 8000개 대량등록\n\n동일한 바코드로 기존 키오스크와 토스키오스크에서 다 결제 가능하도록",
-   "special": "<mailto:···|···> 메일로 보냈습니다",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "하이체리_매장_메뉴리스트_01_20260910132539.xlsx.exs",
-     "fid": "F0C0TFLLQ1G",
-     "from": "댓글",
-     "path": "menu-files/1789014523_084569-0.exs",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C0RJQ0XJS",
-     "from": "댓글",
-     "path": "menu-files/1789014523_084569-1.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C0X7P7L0L",
-     "from": "댓글",
-     "path": "menu-files/1789014523_084569-2.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C0XNRFQ4C",
-     "from": "댓글",
-     "path": "menu-files/1789014523_084569-3.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C0WJY3FS5",
-     "from": "댓글",
-     "path": "menu-files/1789014523_084569-4.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C0NS8HSHH",
-     "from": "댓글",
-     "path": "menu-files/1789014523_084569-5.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "아잇 백업을 생활화하자 :개굴-메모:",
-    "원본",
-    "이게 2번 파일",
-    "3번",
-    "4번",
-    "안넝하세요 선유님! 해당매장 바코드 등록해주신 것 확인해서 스캐너로 인식했을때 등록되지 않은 상품이라고 뜬다고 하셔가지구 확인부탁드려도 될까요!!:pray:",
-    "왜냐면 아직 등록중이니가...",
-    "ㅠㅠ"
-   ],
-   "rc": 16,
-   "lr": "1789032760.405939",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789014523084569"
   }
  ],
  "ocr": {
