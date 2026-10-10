@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18940,
+  "version": 18941,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,7 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "미지정": 26,
+          "미지정": 27,
           "송태양": 15
         },
         "onboarding": {
@@ -242876,6 +242876,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:02",
+          "store": "수피(souffy)",
+          "biz": "2731302547",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "프린터기 오토커팅 불가 증상으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:01",
           "store": "일만족발(청주점)(주)민석컴퍼니",
@@ -243432,7 +243443,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 44,
+        "online": 45,
         "offline": 6,
         "unknown": 0
       },
@@ -243702,19 +243713,15 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791627569.931
+        "lastSeen": 1791627703.626
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791627569.931
+        "lastSeen": 1791627703.626
       },
       "1791617508.015069": {
         "post": "1791617508.015069",
-        "lastSeen": 1791627569.931
-      },
-      "1791626571.202659": {
-        "post": "1791626571.202659",
-        "lastSeen": 1791627569.931
+        "lastSeen": 1791627703.626
       }
     },
     "days": {
@@ -326190,8 +326197,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 49,
-        "sumMin": 690.7473719835282,
+        "cnt": 50,
+        "sumMin": 708.5069693366687,
         "over": 6,
         "items": [
           {
@@ -326634,13 +326641,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 32.6
+          },
+          {
+            "hm": "19:02",
+            "min": 17.8,
+            "store": "수피(souffy)",
+            "biz": "2731302547",
+            "who": "",
+            "cat": "as",
+            "dmin": 17.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 19:19",
+    "at": "2026-10-10 19:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326764,7 +326780,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 19:19",
+    "at": "2026-10-10 19:21",
     "pri": {
       "days": 0,
       "failed": [],
