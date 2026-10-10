@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 18864,
+  "version": 18865,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -242860,7 +242860,7 @@ window.SLACK_DATA = {
     "2026-10-10": {
       "counts": {
         "as": {
-          "미지정": 11,
+          "미지정": 12,
           "송태양": 15
         },
         "onboarding": {
@@ -242873,6 +242873,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:56",
+          "store": "춘이네아구찜",
+          "biz": "3167700440",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "유플이관",
+          "hw": "확인 불가)",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "15:30",
           "store": "스시키요",
@@ -243239,43 +243250,48 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 29,
+        "online": 30,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:56",
+      "updatedAt": "15:58",
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
-          "count": 4,
+          "count": 5,
           "low": 1
         },
         "nps": {
-          "count": 10,
+          "count": 11,
           "low": 3
         },
         "high": {
-          "install": 0,
-          "nps": 5
+          "install": 1,
+          "nps": 6
         },
         "npsDist": {
           "4": 1,
           "5": 2,
           "7": 1,
           "9": 1,
-          "10": 5
+          "10": 6
         },
         "installDist": {
           "2": 1,
           "3": 1,
-          "4": 2
+          "4": 2,
+          "5": 1
         },
         "byIndustry": {
-          "도소매": 1,
+          "도소매": 2,
           "요식업": 1,
           "서비스[학원]": 2
         },
         "byTenure": {
+          "구매설치": {
+            "total": 5,
+            "low": 1
+          },
           "12개월": {
             "total": 2,
             "low": 0
@@ -243288,10 +243304,6 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 1
           },
-          "구매설치": {
-            "total": 4,
-            "low": 1
-          },
           "1개월": {
             "total": 2,
             "low": 1
@@ -243299,7 +243311,7 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KPN": {
-            "total": 3,
+            "total": 4,
             "low": 0
           },
           "KIS": {
@@ -243399,6 +243411,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:57",
+            "store": "시소샵",
+            "storeId": "691546",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "꼼꼼하게 설명이 되어 있고 안내도 친절하셨습니다. 저도 주변에서 추천받아 설치한건데 만족스럽습니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:40",
             "store": "네일오브봄",
             "storeId": "226625",
@@ -243494,27 +243518,27 @@ window.SLACK_DATA = {
       },
       "1791604802.154549": {
         "post": "1791604802.154549",
-        "lastSeen": 1791615424.02
+        "lastSeen": 1791615505.937
       },
       "1791608401.003899": {
         "post": "1791608401.003899",
-        "lastSeen": 1791615424.02
+        "lastSeen": 1791615505.937
       },
       "1791611791.869989": {
         "post": "1791611791.869989",
-        "lastSeen": 1791615424.02
+        "lastSeen": 1791615505.937
       },
       "1791612000.244599": {
         "post": "1791612000.244599",
-        "lastSeen": 1791615424.02
+        "lastSeen": 1791615505.937
       },
       "1791615133.265899": {
         "post": "1791615133.265899",
-        "lastSeen": 1791615424.02
+        "lastSeen": 1791615505.937
       },
-      "1791615401.938199": {
-        "post": "1791615401.938199",
-        "lastSeen": 1791615424.02
+      "1791615503.753809": {
+        "post": "1791615503.753809",
+        "lastSeen": 1791615505.937
       }
     },
     "days": {
@@ -325990,8 +326014,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-10": {
-        "cnt": 32,
-        "sumMin": 333.87887337207786,
+        "cnt": 33,
+        "sumMin": 334.9295450528462,
         "over": 1,
         "items": [
           {
@@ -326281,13 +326305,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 7.3
+          },
+          {
+            "hm": "15:56",
+            "min": 1.1,
+            "store": "춘이네아구찜",
+            "biz": "3167700440",
+            "who": "",
+            "cat": "as",
+            "dmin": 1.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-10 15:57",
+    "at": "2026-10-10 15:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326411,7 +326444,7 @@ window.SLACK_DATA = {
     "2026-10-10": 2
   },
   "noteMig": {
-    "at": "2026-10-10 15:57",
+    "at": "2026-10-10 15:58",
     "pri": {
       "days": 0,
       "failed": [],
