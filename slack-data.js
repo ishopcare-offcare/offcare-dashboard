@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19072,
+  "version": 19073,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243701,6 +243701,9 @@ window.SLACK_DATA = {
     },
     "2026-10-11": {
       "counts": {
+        "booking": {
+          "송태양": 1
+        },
         "as": {
           "송태양": 5,
           "미지정": 1
@@ -243714,6 +243717,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:40",
+          "store": "쌍령각",
+          "biz": "6291202710",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "영수증 출력이 꼬여서 지원 요청드립니다.  (현재: 주방 영수증이 홀에서/ 홀 영수증이 카운터에서 출력됨)",
+          "hw": "",
+          "intake": "online",
+          "note": "/ • 변경전 ip 25/27 -&gt; 27/25로 변경 변경전 ip 25/27 - 27/25로 변경 / • 현재 바쁘시다며 오후3시 재통화요청으로 예약 완료 현재 바쁘시다며 오후3시 재통화요청으로 예약 완료"
+        },
         {
           "time": "13:28",
           "store": "등촌샤브칼국수 시흥능곡점",
@@ -243804,11 +243818,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "13:40",
+      "updatedAt": "13:46",
       "voc": {
         "responses": 2,
         "install": {
@@ -243898,7 +243912,11 @@ window.SLACK_DATA = {
       },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791693931.953
+        "lastSeen": 1791694008.417
+      },
+      "1791693967.513699": {
+        "post": "1791693967.513699",
+        "lastSeen": 1791694008.417
       }
     },
     "days": {
@@ -326930,7 +326948,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 13:45",
+    "at": "2026-10-11 13:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327055,7 +327073,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 13:45",
+    "at": "2026-10-11 13:46",
     "pri": {
       "days": 0,
       "failed": [],
