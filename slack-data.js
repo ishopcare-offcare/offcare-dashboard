@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19046,
+  "version": 19047,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243722,7 +243722,7 @@ window.SLACK_DATA = {
           "req": "포프(자체포스) + 유프 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 메인포스 &lt;&gt; 프론트 배달3사 토스포스연동 • 오더포스 &lt;&gt; 프린터 배달3사 토스포스 연동 메인포스 < 프론트 배달3사 토스포스연동 오더포스 < 프린터 배달3사 토스포스 연동"
         },
         {
           "time": "10:31",
@@ -243875,7 +243875,10 @@ window.SLACK_DATA = {
       },
       "1791684798.757639": {
         "post": "1791684798.757639",
-        "lastSeen": 1791685125.25
+        "lastSeen": 1791685175.221,
+        "r": 1,
+        "day": "2026-10-11",
+        "idx": 4
       }
     },
     "days": {
@@ -326835,8 +326838,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 4,
-        "sumMin": 9.155696900685628,
+        "cnt": 5,
+        "sumMin": 15.013661249478659,
         "over": 0,
         "items": [
           {
@@ -326874,13 +326877,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "onboarding",
             "dmin": 17.2
+          },
+          {
+            "hm": "11:13",
+            "min": 5.9,
+            "store": "등촌샤브칼국수 시흥능곡점",
+            "biz": "5212601239",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 11:18",
+    "at": "2026-10-11 11:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327005,7 +327016,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 11:18",
+    "at": "2026-10-11 11:19",
     "pri": {
       "days": 0,
       "failed": [],
