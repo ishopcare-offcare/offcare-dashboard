@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19030,
+  "version": 19031,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243716,7 +243716,7 @@ window.SLACK_DATA = {
           "req": "캣+프 / 단말기에서 \"재부팅해주세요\" 문구만 발생/ 재부팅해도 동일해서 지원 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "• 프론트 재부팅해주세요 문구로 교체안내 및 캣단독으로 사용 안내 • 입출고 접수 완료입니다 프론트 재부팅해주세요 문구로 교체안내 및 캣단독으로 사용 안내 입출고 접수 완료입니다"
         },
         {
           "time": "10:07",
@@ -326790,7 +326790,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 10:16",
+    "at": "2026-10-11 10:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326915,7 +326915,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 10:16",
+    "at": "2026-10-11 10:17",
     "pri": {
       "days": 0,
       "failed": [],
