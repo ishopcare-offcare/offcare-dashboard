@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19049,
+  "version": 19050,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243722,7 +243722,7 @@ window.SLACK_DATA = {
           "req": "포스기+프론트/ 오픈 후 연결 끊김으로 지원 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "• 프론트 전원불, 방전작업 해도 동일증상으로 퀵 발송 안내 및 배차 완료입니다 프론트 전원불, 방전작업 해도 동일증상으로 퀵 발송 안내 및 배차 완료입니다"
         },
         {
           "time": "11:00",
@@ -326896,7 +326896,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 11:33",
+    "at": "2026-10-11 11:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327021,7 +327021,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 11:33",
+    "at": "2026-10-11 11:34",
     "pri": {
       "days": 0,
       "failed": [],
