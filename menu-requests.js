@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3290,
- "updatedAt": "2026-10-11 15:48",
+ "version": 3291,
+ "updatedAt": "2026-10-11 19:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1791714754.858389",
+   "date": "2026-10-11",
+   "time": "19:32",
+   "store": "사시미",
+   "biz": "6099901891",
+   "pos": "토스포스",
+   "content": "<https://web.coupangeats.com/share?storeId=976940&dishId&key=8d492f50-cc1c-4111-996e-9651fb7b865a>",
+   "special": "쿠팡메뉴 그대로 토스로 부탁드립니다 혹시 이미지 사진있으면 같이부탁드려요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791714754858389"
+  },
   {
    "ts": "1791682264.915799",
    "date": "2026-10-11",
