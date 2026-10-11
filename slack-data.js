@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19125,
+  "version": 19126,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243717,7 +243717,19 @@ window.SLACK_DATA = {
           "송태양": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "16:00",
+          "store": "구움집",
+          "biz": "2244501630",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "1차 부재"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "16:42",
@@ -243919,7 +243931,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 4,
         "unknown": 0
       },
@@ -244073,7 +244085,7 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791704829.158
+        "lastSeen": 1791705637.494
       }
     },
     "days": {
@@ -327168,7 +327180,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 16:47",
+    "at": "2026-10-11 17:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327293,7 +327305,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 16:47",
+    "at": "2026-10-11 17:00",
     "pri": {
       "days": 0,
       "failed": [],
