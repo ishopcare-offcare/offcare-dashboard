@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19095,
+  "version": 19096,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243701,12 +243701,12 @@ window.SLACK_DATA = {
     },
     "2026-10-11": {
       "counts": {
+        "as": {
+          "송태양": 9,
+          "미지정": 1
+        },
         "onboarding": {
           "송태양": 2
-        },
-        "as": {
-          "송태양": 8,
-          "미지정": 1
         },
         "booking": {
           "송태양": 1
@@ -243717,6 +243717,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:00",
+          "store": "쌍령각",
+          "biz": "6291202710",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "영수증 출력이 꼬여서 지원 요청드립니다. (현재: 주방 영수증이 홀에서/ 홀 영수증이 카운터에서 출력됨)",
+          "hw": "",
+          "intake": "online",
+          "note": "처리완!"
+        },
         {
           "time": "14:31",
           "store": "수학공방수학학원",
@@ -243862,7 +243873,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 3,
         "unknown": 0
       },
@@ -243911,14 +243922,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1791525804.010279": {
-        "post": "1791525804.010279",
-        "lastSeen": 1791576926.72
-      },
-      "1791526008.623089": {
-        "post": "1791526008.623089",
-        "lastSeen": 1791576926.72
-      },
       "1791536301.279119": {
         "post": "1791536301.279119",
         "lastSeen": 1791576926.72
@@ -243956,7 +243959,7 @@ window.SLACK_DATA = {
       },
       "1791698209.505949": {
         "post": "1791698209.505949",
-        "lastSeen": 1791698586.24
+        "lastSeen": 1791698828.507
       }
     },
     "days": {
@@ -327015,7 +327018,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 15:03",
+    "at": "2026-10-11 15:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327140,7 +327143,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 15:03",
+    "at": "2026-10-11 15:07",
     "pri": {
       "days": 0,
       "failed": [],
