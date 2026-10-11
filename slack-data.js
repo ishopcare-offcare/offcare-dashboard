@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19175,
+  "version": 19176,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243702,7 +243702,7 @@ window.SLACK_DATA = {
     "2026-10-11": {
       "counts": {
         "as": {
-          "미지정": 7,
+          "미지정": 8,
           "송태양": 9
         },
         "onboarding": {
@@ -243731,6 +243731,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "20:45",
+          "store": "뷰티워너비",
+          "biz": "4641700920",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포프(휴대폰) 사용 중, 결제 취소 버튼 클릭이 되지 않는다고 하여 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "20:08",
           "store": "다다김밥분식",
@@ -243986,7 +243997,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 4,
         "unknown": 0
       },
@@ -244159,15 +244170,11 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791719385.007
+        "lastSeen": 1791719441.417
       },
       "1791718200.610679": {
         "post": "1791718200.610679",
-        "lastSeen": 1791719385.007
-      },
-      "1791719107.271029": {
-        "post": "1791719107.271029",
-        "lastSeen": 1791719385.007
+        "lastSeen": 1791719441.417
       }
     },
     "days": {
@@ -327127,8 +327134,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 19,
-        "sumMin": 126.90690565506617,
+        "cnt": 20,
+        "sumMin": 132.00592183669409,
         "over": 0,
         "items": [
           {
@@ -327301,13 +327308,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "menu",
             "dmin": 28
+          },
+          {
+            "hm": "20:45",
+            "min": 5.1,
+            "store": "뷰티워너비",
+            "biz": "4641700920",
+            "who": "",
+            "cat": "as",
+            "dmin": 5.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 20:49",
+    "at": "2026-10-11 20:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327432,7 +327448,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 20:49",
+    "at": "2026-10-11 20:50",
     "pri": {
       "days": 0,
       "failed": [],
