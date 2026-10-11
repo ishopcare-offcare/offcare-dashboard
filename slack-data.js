@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19019,
+  "version": 19020,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243700,11 +243700,27 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-11": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "송태양": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:24",
+          "store": "황토골",
+          "biz": "2722101273",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포프(포스기)캣 조합으로 이용중이신것 같은데 용지가 잘 나오다가 갑자기 안나온다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -326727,7 +326743,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 09:24",
+    "at": "2026-10-11 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326852,7 +326868,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 09:24",
+    "at": "2026-10-11 09:30",
     "pri": {
       "days": 0,
       "failed": [],
