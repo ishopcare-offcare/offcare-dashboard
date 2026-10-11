@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3289,
- "updatedAt": "2026-10-11 12:30",
+ "version": 3290,
+ "updatedAt": "2026-10-11 15:48",
  "days": 30,
  "items": [
   {
@@ -51317,29 +51317,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789258250870129"
-  },
-  {
-   "ts": "1789109276.778279",
-   "date": "2026-09-11",
-   "time": "15:47",
-   "store": "더멀리",
-   "biz": "3976300914",
-   "pos": "토스포스",
-   "content": "그랬다고 적었다\t문학동네\t17,000\n모든 순간의 나를 믿어보기로 했다\t더퀘스트\t18,000\n완벽하지 않은 것이 살아남는다\t더퀘스트\t25,000\n안녕이라 그랬어(집에디션 리커버)\t문학동네\t16,800\n취소 13,000\n슬픔을 빨랫줄에 널었다 9,000\n이게 다 일요일 때문이야 13,000\n아무것도 아닌 내가 달릴 수 있을까 15,000\n법보다 먼저인 것들 16,000\n나를 아끼는 마음 13,000\n\n책 추가 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "완료"
-   ],
-   "rc": 2,
-   "lr": "1789112361.225569",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789109276778279"
   }
  ],
  "ocr": {
