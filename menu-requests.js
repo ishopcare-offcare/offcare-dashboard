@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3288,
- "updatedAt": "2026-10-11 11:31",
+ "version": 3289,
+ "updatedAt": "2026-10-11 12:30",
  "days": 30,
  "items": [
   {
@@ -51340,29 +51340,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789109276778279"
-  },
-  {
-   "ts": "1789096802.999089",
-   "date": "2026-09-11",
-   "time": "12:20",
-   "store": "홍이네",
-   "biz": "4874001444",
-   "pos": "스파로스포스",
-   "content": "치킨메뉴 에서 \n야채겨자 통찢닭 24000수정\n야채겨자 순살치킨 26000원 수정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "완"
-   ],
-   "rc": 2,
-   "lr": "1789103612.306239",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789096802999089"
   }
  ],
  "ocr": {
