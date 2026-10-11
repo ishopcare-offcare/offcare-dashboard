@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19082,
+  "version": 19083,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243702,7 +243702,7 @@ window.SLACK_DATA = {
     "2026-10-11": {
       "counts": {
         "as": {
-          "송태양": 7,
+          "송태양": 8,
           "미지정": 1
         },
         "booking": {
@@ -243717,6 +243717,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:15",
+          "store": "피앤알(P&amp;R)성수",
+          "biz": "7501602588",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포스기 + 프린터 연결이 끊어졌다하여 재온보딩 도움부탁드립니다.",
+          "hw": "확인 전 단선, 재연락시에도 안받는 상태로 기종 확인을 못했습니다",
+          "intake": "online",
+          "note": "프린터 온보딩 완료입니다"
+        },
         {
           "time": "14:00",
           "store": "플레르 앤드(fleur and)",
@@ -243840,7 +243851,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 3,
         "unknown": 0
       },
@@ -243934,7 +243945,7 @@ window.SLACK_DATA = {
       },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791695803.345
+        "lastSeen": 1791695937.877
       }
     },
     "days": {
@@ -326984,7 +326995,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 14:16",
+    "at": "2026-10-11 14:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327109,7 +327120,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 14:16",
+    "at": "2026-10-11 14:18",
     "pri": {
       "days": 0,
       "failed": [],
