@@ -47,10 +47,10 @@ async function token() {
   return j.access_token;
 }
 
-// 탭 이름에서 담당 연·월 범위를 뽑는다. '2026년 8~9월' → {y:2026, months:[8,9]}
+// 탭 이름에서 담당 연·월 범위를 뽑는다. '2026년 8~9월' · '2026년 10월~12월 (작업중)' → {y:2026, months:[...]}
 function tabRange(title) {
   if (/사본|복사|copy/i.test(title)) return null;               // 사본 탭은 원본으로 쓰지 않는다
-  const m = title.match(/(\d{4})\s*년\s*(\d{1,2})\s*(?:~|-|–)\s*(\d{1,2})\s*월/);
+  const m = title.match(/(\d{4})\s*년\s*(\d{1,2})\s*월?\s*(?:~|-|–)\s*(\d{1,2})\s*월/);
   if (m) { const a = +m[2], b = +m[3]; const out = []; for (let x = a; x <= b; x++) out.push(x); return { y: +m[1], months: out }; }
   const s = title.match(/(\d{4})\s*년\s*(\d{1,2})\s*월/);
   if (s) return { y: +s[1], months: [+s[2]] };
