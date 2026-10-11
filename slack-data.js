@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19126,
+  "version": 19127,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243935,22 +243935,23 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:42",
+      "updatedAt": "17:09",
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 8,
-          "low": 1
+          "count": 9,
+          "low": 2
         },
         "high": {
           "install": 0,
           "nps": 4
         },
         "npsDist": {
+          "0": 1,
           "2": 1,
           "7": 1,
           "9": 2,
@@ -243963,6 +243964,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 1,
+            "low": 1
+          },
           "구매설치": {
             "total": 1,
             "low": 0
@@ -243977,6 +243982,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 2,
+            "low": 2
+          },
           "NICE": {
             "total": 1,
             "low": 0
@@ -243984,10 +243993,6 @@ window.SLACK_DATA = {
           "KOCES": {
             "total": 3,
             "low": 0
-          },
-          "KPN": {
-            "total": 1,
-            "low": 1
           },
           "SECTA9": {
             "total": 1,
@@ -244003,9 +244008,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "구매,계약과정에서 설명이 부족": 1
         },
         "alerts": [
+          {
+            "time": "17:09",
+            "store": "더 다온 음악학원",
+            "storeId": "433276",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "학원용은 아님",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:25",
             "store": "해빈쌀롱",
@@ -244085,7 +244113,7 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791705637.494
+        "lastSeen": 1791706180.184
       }
     },
     "days": {
@@ -327180,7 +327208,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 17:00",
+    "at": "2026-10-11 17:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327305,7 +327333,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 17:00",
+    "at": "2026-10-11 17:09",
     "pri": {
       "days": 0,
       "failed": [],
