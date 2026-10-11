@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19041,
+  "version": 19042,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243861,7 +243861,10 @@ window.SLACK_DATA = {
       },
       "1791684001.064189": {
         "post": "1791684001.064189",
-        "lastSeen": 1791684017.758
+        "lastSeen": 1791684064.2,
+        "r": 1,
+        "day": "2026-10-11",
+        "idx": 3
       }
     },
     "days": {
@@ -326821,8 +326824,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 3,
-        "sumMin": 8.490450048446656,
+        "cnt": 4,
+        "sumMin": 9.155696900685628,
         "over": 0,
         "items": [
           {
@@ -326851,13 +326854,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "menu",
             "dmin": 7.6
+          },
+          {
+            "hm": "11:00",
+            "min": 0.7,
+            "store": "김경영요리연구소 포곡점",
+            "biz": "5280703561",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 11:00",
+    "at": "2026-10-11 11:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326982,7 +326993,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 11:00",
+    "at": "2026-10-11 11:01",
     "pri": {
       "days": 0,
       "failed": [],
