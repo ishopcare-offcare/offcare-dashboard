@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19110,
+  "version": 19111,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243702,8 +243702,8 @@ window.SLACK_DATA = {
     "2026-10-11": {
       "counts": {
         "as": {
-          "송태양": 9,
-          "미지정": 1
+          "미지정": 2,
+          "송태양": 9
         },
         "onboarding": {
           "미지정": 1,
@@ -243718,6 +243718,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:36",
+          "store": "쎄븐헤어커커",
+          "biz": "2240467395",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "캣+프/ 단말기 결제건 할부 개월 입력 도움 요청드립니다. /++ 승인 취소를 해야하는데 자꾸 결제하고 계심. 고령으로 영상 도움 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "15:00",
           "store": "쌍령각",
@@ -243886,7 +243897,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 12,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "15:36",
@@ -244010,10 +244021,6 @@ window.SLACK_DATA = {
       "1791644390.389909": {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
-      },
-      "1791700602.006169": {
-        "post": "1791700602.006169",
-        "lastSeen": 1791701125.186
       }
     },
     "days": {
@@ -326973,8 +326980,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 11,
-        "sumMin": 46.99455368518829,
+        "cnt": 12,
+        "sumMin": 56.44570920070012,
         "over": 0,
         "items": [
           {
@@ -327075,13 +327082,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 19.8
+          },
+          {
+            "hm": "15:36",
+            "min": 9.5,
+            "store": "쎄븐헤어커커",
+            "biz": "2240467395",
+            "who": "",
+            "cat": "as",
+            "dmin": 9.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 15:45",
+    "at": "2026-10-11 15:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327206,7 +327222,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 15:45",
+    "at": "2026-10-11 15:46",
     "pri": {
       "days": 0,
       "failed": [],
