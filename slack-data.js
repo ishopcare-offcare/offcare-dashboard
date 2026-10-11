@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19079,
+  "version": 19080,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243726,7 +243726,7 @@ window.SLACK_DATA = {
           "req": "포프(아이패드) 사용 중, 유프 이미지 커스텀 설정 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "설정완료입니다"
         },
         {
           "time": "13:46",
@@ -243934,7 +243934,7 @@ window.SLACK_DATA = {
       },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791695103.134
+        "lastSeen": 1791695178.858
       }
     },
     "days": {
@@ -326984,7 +326984,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 14:05",
+    "at": "2026-10-11 14:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327109,7 +327109,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 14:05",
+    "at": "2026-10-11 14:06",
     "pri": {
       "days": 0,
       "failed": [],
