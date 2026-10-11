@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19177,
+  "version": 19178,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243706,7 +243706,7 @@ window.SLACK_DATA = {
           "송태양": 9
         },
         "onboarding": {
-          "미지정": 1,
+          "미지정": 2,
           "송태양": 2
         },
         "booking": {
@@ -243738,6 +243738,17 @@ window.SLACK_DATA = {
           "cat": "as",
           "emp": "미지정",
           "req": "포프(휴대폰) 사용 중, 결제 취소 버튼 클릭이 되지 않는다고 하여 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "20:30",
+          "store": "해화",
+          "biz": "6192701945",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "인터넷 선 없어 포프만 명변 진행된 매장, 인터넷 선 구비 완료되어 캣프 추가 다운로드 및 온보딩 요청드립니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -243997,7 +244008,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 21,
+        "online": 22,
         "offline": 4,
         "unknown": 0
       },
@@ -244170,11 +244181,7 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791719491.699
-      },
-      "1791718200.610679": {
-        "post": "1791718200.610679",
-        "lastSeen": 1791719491.699
+        "lastSeen": 1791719638.684
       }
     },
     "days": {
@@ -327134,8 +327141,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 20,
-        "sumMin": 132.00592183669409,
+        "cnt": 21,
+        "sumMin": 154.74893552064896,
         "over": 0,
         "items": [
           {
@@ -327317,13 +327324,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 5.1
+          },
+          {
+            "hm": "20:30",
+            "min": 22.7,
+            "store": "해화",
+            "biz": "6192701945",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 22.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 20:51",
+    "at": "2026-10-11 20:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327448,7 +327464,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 20:51",
+    "at": "2026-10-11 20:53",
     "pri": {
       "days": 0,
       "failed": [],
