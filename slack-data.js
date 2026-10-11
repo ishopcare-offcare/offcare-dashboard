@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19074,
+  "version": 19075,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243701,12 +243701,12 @@ window.SLACK_DATA = {
     },
     "2026-10-11": {
       "counts": {
+        "as": {
+          "송태양": 6,
+          "미지정": 1
+        },
         "booking": {
           "송태양": 1
-        },
-        "as": {
-          "송태양": 5,
-          "미지정": 1
         },
         "onboarding": {
           "송태양": 1
@@ -243717,6 +243717,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:46",
+          "store": "문앤코",
+          "biz": "8641802445",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "프론트/ 외부 행사에서 사용 필요하여 갤럭시 핫스팟 연동 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "핫스팟 온보딩 완료입니다"
+        },
         {
           "time": "13:40",
           "store": "쌍령각",
@@ -243818,7 +243829,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 3,
         "unknown": 0
       },
@@ -243912,14 +243923,7 @@ window.SLACK_DATA = {
       },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791694075.462
-      },
-      "1791693967.513699": {
-        "post": "1791693967.513699",
-        "lastSeen": 1791694075.462,
-        "r": 1,
-        "day": "2026-10-11",
-        "idx": 7
+        "lastSeen": 1791694297.318
       }
     },
     "days": {
@@ -326952,14 +326956,15 @@ window.SLACK_DATA = {
             "store": "문앤코",
             "biz": "8641802445",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 13:48",
+    "at": "2026-10-11 13:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327084,7 +327089,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 13:47",
+    "at": "2026-10-11 13:51",
     "pri": {
       "days": 0,
       "failed": [],
