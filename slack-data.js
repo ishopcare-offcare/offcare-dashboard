@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19037,
+  "version": 19038,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243703,10 +243703,24 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "송태양": 3
+        },
+        "menu": {
+          "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:31",
+          "store": "시골마루",
+          "biz": "1304668196",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:09",
           "store": "원주성모병원",
@@ -243742,7 +243756,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
@@ -243844,13 +243858,6 @@ window.SLACK_DATA = {
       "1791644390.389909": {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
-      },
-      "1791682264.915799": {
-        "post": "1791682264.915799",
-        "lastSeen": 1791682573.976,
-        "r": 1,
-        "day": "2026-10-11",
-        "idx": 2
       }
     },
     "days": {
@@ -326838,14 +326845,15 @@ window.SLACK_DATA = {
             "store": "시골마루",
             "biz": "1304668196",
             "who": "송태양",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 7.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 10:36",
+    "at": "2026-10-11 10:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326970,7 +326978,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 10:36",
+    "at": "2026-10-11 10:41",
     "pri": {
       "days": 0,
       "failed": [],
