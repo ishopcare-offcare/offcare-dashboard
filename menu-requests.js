@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3282,
- "updatedAt": "2026-10-11 00:30",
+ "version": 3283,
+ "updatedAt": "2026-10-11 09:15",
  "days": 30,
  "items": [
   {
@@ -51851,91 +51851,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789085825848849"
-  },
-  {
-   "ts": "1789085425.941379",
-   "date": "2026-09-11",
-   "time": "09:10",
-   "store": "순둥이네 대구고성점",
-   "biz": "4433701221",
-   "pos": "",
-   "content": "메뉴 추가 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "=_UTF-8_B_UmVzaXplZF8zMDU2OV84NDY5MzQxOD",
-     "fid": "F0C10E2NVHU",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "화요25토닥세트",
-       "price": 32000
-      },
-      {
-       "category": "",
-       "name": "화요41토닥세트",
-       "price": 49000
-      },
-      {
-       "category": "",
-       "name": "한라토닥세트",
-       "price": 13500
-      },
-      {
-       "category": "",
-       "name": "소주토닥세트",
-       "price": 12000
-      },
-      {
-       "category": "",
-       "name": "토닥 세트",
-       "price": 7000
-      }
-     ],
-     "path": "menu-files/1789085425_941379-0.jpeg"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C0W70HFK5",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "가1)황태+순살치킨",
-       "price": 42000
-      },
-      {
-       "category": "",
-       "name": "2)떡볶이+통오징어",
-       "price": 35000
-      },
-      {
-       "category": "",
-       "name": "살치킨+떡볶이+건어물",
-       "price": 59000
-      },
-      {
-       "category": "",
-       "name": "+떡볶이+어묵탕+",
-       "price": 76000
-      }
-     ],
-     "path": "menu-files/1789085425_941379-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 4,
-   "lr": "1789086451.406629",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789085425941379"
   }
  ],
  "ocr": {
