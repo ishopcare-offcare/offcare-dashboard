@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3295,
- "updatedAt": "2026-10-11 20:11",
+ "version": 3296,
+ "updatedAt": "2026-10-11 20:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1791717108.693049",
+   "date": "2026-10-11",
+   "time": "20:11",
+   "store": "다다김밥분식",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 다다김밥분식 포스기 메뉴입니다.\n대용량 첨부 1개 69MB  다다.zip 72347528 ~ 2026/11/10 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a12aa5e9c3f1cff>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a12aa5e9c3f1cff",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791717108693049"
+  },
   {
    "ts": "1791716897.899959",
    "date": "2026-10-11",
@@ -22,10 +48,11 @@ window.MENU_REQUESTS = {
    "datt": [],
    "replies": [
     "님 혹시 메일 확인 가능하실까요~??",
-    "요렇게 왔네요!"
+    "요렇게 왔네요!",
+    "감사합니다!"
    ],
-   "rc": 2,
-   "lr": "1791717061.401259",
+   "rc": 3,
+   "lr": "1791717072.297839",
    "rfx": 3,
    "status": "wait",
    "handler": null,
