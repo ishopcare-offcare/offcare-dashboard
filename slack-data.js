@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19084,
+  "version": 19085,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243715,7 +243715,19 @@ window.SLACK_DATA = {
           "송태양": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "13:30",
+          "store": "전남친순대 광주본점",
+          "biz": "2251011347",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online",
+          "reasons": [
+            "1차 부재"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "14:15",
@@ -243851,7 +243863,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 3,
         "unknown": 0
       },
@@ -243945,7 +243957,7 @@ window.SLACK_DATA = {
       },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791695979.102
+        "lastSeen": 1791696636.835
       }
     },
     "days": {
@@ -326995,7 +327007,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 14:19",
+    "at": "2026-10-11 14:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327120,7 +327132,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 14:19",
+    "at": "2026-10-11 14:30",
     "pri": {
       "days": 0,
       "failed": [],
