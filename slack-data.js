@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19048,
+  "version": 19049,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243701,11 +243701,11 @@ window.SLACK_DATA = {
     },
     "2026-10-11": {
       "counts": {
+        "as": {
+          "송태양": 4
+        },
         "onboarding": {
           "송태양": 1
-        },
-        "as": {
-          "송태양": 3
         },
         "menu": {
           "송태양": 1
@@ -243713,6 +243713,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:13",
+          "store": "등촌샤브칼국수 시흥능곡점",
+          "biz": "5212601239",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포스기+프론트/ 오픈 후 연결 끊김으로 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "11:00",
           "store": "김경영요리연구소 포곡점",
@@ -243771,7 +243782,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "11:13",
@@ -243872,13 +243883,6 @@ window.SLACK_DATA = {
       "1791644390.389909": {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
-      },
-      "1791684798.757639": {
-        "post": "1791684798.757639",
-        "lastSeen": 1791685832.012,
-        "r": 1,
-        "day": "2026-10-11",
-        "idx": 4
       }
     },
     "days": {
@@ -326884,25 +326888,34 @@ window.SLACK_DATA = {
             "store": "등촌샤브칼국수 시흥능곡점",
             "biz": "5212601239",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 18.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 11:30",
+    "at": "2026-10-11 11:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": false,
-    "error": "시트 export 실패 HTTP 500",
-    "rows": 0,
-    "named": 0,
-    "unknownName": 0,
+    "ok": true,
+    "error": "",
+    "rows": 4470,
+    "named": 1133,
+    "unknownName": 18,
     "beforeStart": 0,
-    "done": 0,
-    "byStatus": {}
+    "done": 1133,
+    "byStatus": {
+      "일정등록완료": 718,
+      "1차부재": 248,
+      "점주직접접수": 94,
+      "설치불가": 21,
+      "(빈칸)": 5,
+      "자가설치": 37,
+      "설치보류요청": 10
+    }
   },
   "noteV": {
     "2026-09-29": 2,
@@ -327008,7 +327021,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 11:30",
+    "at": "2026-10-11 11:33",
     "pri": {
       "days": 0,
       "failed": [],
