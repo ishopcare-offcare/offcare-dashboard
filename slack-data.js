@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19116,
+  "version": 19117,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243900,15 +243900,15 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:00",
+      "updatedAt": "16:04",
       "voc": {
-        "responses": 7,
+        "responses": 8,
         "install": {
-          "count": 0,
+          "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 7,
+          "count": 8,
           "low": 1
         },
         "high": {
@@ -243918,12 +243918,20 @@ window.SLACK_DATA = {
         "npsDist": {
           "2": 1,
           "7": 1,
-          "9": 1,
+          "9": 2,
           "10": 4
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "4": 1
+        },
+        "byIndustry": {
+          "도소매": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 6,
             "low": 1
@@ -243934,6 +243942,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "NICE": {
+            "total": 1,
+            "low": 0
+          },
           "KOCES": {
             "total": 3,
             "low": 0
@@ -243982,7 +243994,20 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "16:04",
+            "store": "신앙촌 상회",
+            "storeId": "697674",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 4,
+            "nps": 9,
+            "text": "처음엔 조금 당황했는데 차근차근 해보니 잘됐어요 현재로선 매우 만족입니다. 한달동안써보고 최종적으로  평가하겠습니다",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -244025,7 +244050,7 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791702185.637
+        "lastSeen": 1791702266.035
       }
     },
     "days": {
@@ -327102,7 +327127,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 16:03",
+    "at": "2026-10-11 16:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327227,7 +327252,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 16:03",
+    "at": "2026-10-11 16:04",
     "pri": {
       "days": 0,
       "failed": [],
