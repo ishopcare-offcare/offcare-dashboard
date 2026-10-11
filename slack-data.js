@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19067,
+  "version": 19068,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243715,15 +243715,15 @@ window.SLACK_DATA = {
       "pending": [],
       "done": [
         {
-          "time": "13:30",
+          "time": "13:28",
           "store": "등촌샤브칼국수 시흥능곡점",
           "biz": "5212601239",
           "cat": "as",
           "emp": "송태양",
-          "req": "퀵 발송 건 재온보딩",
+          "req": "프론트 오류로 오전 퀵 출고건/ 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "재온보딩 완료입니다"
         },
         {
           "time": "13:06",
@@ -243903,13 +243903,9 @@ window.SLACK_DATA = {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
       },
-      "1791692882.162799": {
-        "post": "1791692882.162799",
-        "lastSeen": 1791693059.823
-      },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791693059.823
+        "lastSeen": 1791693124.672
       }
     },
     "days": {
@@ -326869,8 +326865,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 6,
-        "sumMin": 18.736747936407724,
+        "cnt": 7,
+        "sumMin": 22.23815962076187,
         "over": 0,
         "items": [
           {
@@ -326926,13 +326922,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 3.7
+          },
+          {
+            "hm": "13:28",
+            "min": 3.5,
+            "store": "등촌샤브칼국수 시흥능곡점",
+            "biz": "5212601239",
+            "who": "송태양",
+            "cat": "as",
+            "dmin": 3.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 13:31",
+    "at": "2026-10-11 13:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327057,7 +327062,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 13:31",
+    "at": "2026-10-11 13:32",
     "pri": {
       "days": 0,
       "failed": [],
