@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19036,
+  "version": 19037,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243847,7 +243847,10 @@ window.SLACK_DATA = {
       },
       "1791682264.915799": {
         "post": "1791682264.915799",
-        "lastSeen": 1791682325.951
+        "lastSeen": 1791682573.976,
+        "r": 1,
+        "day": "2026-10-11",
+        "idx": 2
       }
     },
     "days": {
@@ -326807,8 +326810,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 2,
-        "sumMin": 5.406321696440379,
+        "cnt": 3,
+        "sumMin": 8.490450048446656,
         "over": 0,
         "items": [
           {
@@ -326828,13 +326831,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "as",
             "dmin": 5.6
+          },
+          {
+            "hm": "10:31",
+            "min": 3.1,
+            "store": "시골마루",
+            "biz": "1304668196",
+            "who": "송태양",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 10:32",
+    "at": "2026-10-11 10:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326959,7 +326970,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 10:32",
+    "at": "2026-10-11 10:36",
     "pri": {
       "days": 0,
       "failed": [],
