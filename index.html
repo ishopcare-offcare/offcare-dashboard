@@ -1644,6 +1644,10 @@ const TILE_ALSO = {as:['booking']};
 const tileMembers = key => [...catMembers(key), ...(TILE_ALSO[key]||[])];
 const EMP_CATS = WORK_CATS.filter(c=>!GROUPED_INTO.has(c.key));
 const RESP_EXCL_CATS = [];   // 응답/소요시간 카드 — 전 카테고리 포함(AS·온보딩·미설치·외주·배달·예약·명의변경·메뉴등록). 빼고 싶은 카테고리 키만 넣으면 된다
+// AS·온보딩 응답/소요시간 카드의 '최근 7일·30일' 평균은 평일만 센다 — 주말·공휴일은 인원이 적어 시간이 튀므로 평균에서 뺀다.
+// 오늘·어제·기간 선택은 그날 그대로 보여 준다. (평일 판정은 관리탭 근무일 수와 같은 admIsBizDay)
+function respBizDates(dates){ return dates.filter(admIsBizDay); }
+function respCardDates(){ const d=ovDates(); return (ovMode==='d7'||ovMode==='d30') ? respBizDates(d) : d; }
 // 응답시간(요청→첫 확인) 폴링 집계. 날짜 배열만 받으므로 선택 기간·최근 7일·최근 30일에 그대로 재사용한다
 function respStats(dates){
   const R=(window.SLACK_DATA&&window.SLACK_DATA.resp&&window.SLACK_DATA.resp.days)||{};
@@ -5210,10 +5214,10 @@ function renderOverview(){
   const duty = DUTY[todayStr]||{};
   const dutyRowsHTML = [['day','주간'],['aft','오후'],['nit','야간'],['inst','행사']].map(([t,lab])=>`<div class="dt-row"><span class="slot-tag ${t}">${lab}</span><span class="dt-name">${duty[t]?escapeHtml(duty[t]):'—'}</span></div>`).join('');
   // 응답시간(요청→첫 확인) 폴링 집계 — 선택 기간 + 추세용 최근 7일·30일
-  const respAgg = respStats(viewDates);
-  const RESP_TRENDS = [7,30].map(n=>({n, lab:`최근 ${n}일 평균`, st:respStats(lastNDays(n))}));
-  const doneAgg = doneStats(viewDates);   // 요청 → 처리 완료(카테고리 이모지)까지
-  const DONE_TRENDS = [7,30].map(n=>({n, lab:`최근 ${n}일 평균`, st:doneStats(lastNDays(n))}));
+  const respAgg = respStats(respCardDates());
+  const RESP_TRENDS = [7,30].map(n=>({n, lab:`최근 ${n}일 평균`, st:respStats(respBizDates(lastNDays(n)))}));
+  const doneAgg = doneStats(respCardDates());   // 요청 → 처리 완료(카테고리 이모지)까지
+  const DONE_TRENDS = [7,30].map(n=>({n, lab:`최근 ${n}일 평균`, st:doneStats(respBizDates(lastNDays(n)))}));
   const ovRespItems = respItemsOf(viewDates);   // 카테고리 타일별 응답·소요시간
 
   document.getElementById("main").innerHTML = `
@@ -5524,7 +5528,8 @@ function showRespDetail(days, sort, cat){
   }
   const R=(window.SLACK_DATA&&window.SLACK_DATA.resp&&window.SLACK_DATA.resp.days)||{};
   respDetailItems=[];
-  for(const d of dates){ const arr=(R[d]&&R[d].items)||[]; for(const it of arr) respDetailItems.push(Object.assign({date:d}, it)); }
+  const cardDates = typeof days==='number' ? respBizDates(dates) : respCardDates();   // 카드 숫자와 같은 날짜(최근 7·30일은 평일만)
+  for(const d of cardDates){ const arr=(R[d]&&R[d].items)||[]; for(const it of arr) respDetailItems.push(Object.assign({date:d}, it)); }
   respDetailItems=respDetailItems.filter(x=>!(x.cat&&RESP_EXCL_CATS.includes(x.cat)));   // 응답/소요시간 카드와 같은 규칙(RESP_EXCL_CATS)
   if(ovShift==='night') respDetailItems=respDetailItems.filter(x=>isNightTime(x.hm));
   respSortMode = sort || 'fast';
