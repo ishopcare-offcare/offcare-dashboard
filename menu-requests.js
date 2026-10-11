@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3287,
- "updatedAt": "2026-10-11 10:43",
+ "version": 3288,
+ "updatedAt": "2026-10-11 11:31",
  "days": 30,
  "items": [
   {
@@ -51363,73 +51363,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789096802999089"
-  },
-  {
-   "ts": "1789093608.594209",
-   "date": "2026-09-11",
-   "time": "11:26",
-   "store": "서민제육 방배점",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 서민제육 방배점 이미지파일 및 메뉴엑셀\n방배점 이미지 파일.zip\n <https://l.jumpto.es/l/ba81104e447d0547bbeaa5d73d7997a3c6b0501b?u=14445247>\n \n \n \n \n [image: Mailsuite] Mailtrack로 발신자에게 알림 전송됨  ·  수신 거부\n <<https://u.list-pref-center.com/en/privacy/opt-out/unsubscribe/d4c8a3740da8ece9b24a04e491e87be0e0765d55/3ae7889b049c9de773c6a87774af2146cfec84a9>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a08e48c1fdc755d>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789093612.859159",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a08e48c1fdc755d",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789093608594209"
-  },
-  {
-   "ts": "1789093371.739099",
-   "date": "2026-09-11",
-   "time": "11:22",
-   "store": "서민제육 방배점",
-   "biz": "2690103485",
-   "pos": "토스포스",
-   "content": "메뉴 및 옵션 일괄 등록 요청드립니다.\n메뉴 및 옵션 정보를 엑셀 파일로 정리하여 전달드립니다.\n옵션의 메뉴 연동은 셀프로 진행할 예정입니다.\n확인 후 일괄 등록 부탁드립니다.\n*기존 등록된 내역은 모두 삭제해주세요",
-   "special": "메일로 메뉴 이미지 파일을 전달드리겠습니다.",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "토스프론트 메뉴_옵션 일괄등록 요청(덮음밥까지).xlsx",
-     "fid": "F0C15Q6E7C1",
-     "from": "댓글",
-     "path": "menu-files/1789093371_739099-0.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C15QARMG9",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1789093371_739099-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "사업자번호 조회xx",
-    "이미지파일zip은 권한 없어서 안열림",
-    "서민제육 어제작업한 다른매장있긴한디"
-   ],
-   "rc": 4,
-   "lr": "1789106321.925089",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789093371739099"
   }
  ],
  "ocr": {
