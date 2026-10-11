@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19101,
+  "version": 19102,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243706,6 +243706,7 @@ window.SLACK_DATA = {
           "미지정": 1
         },
         "onboarding": {
+          "미지정": 1,
           "송태양": 2
         },
         "booking": {
@@ -243727,6 +243728,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "처리완!"
+        },
+        {
+          "time": "14:56",
+          "store": "써니로스",
+          "biz": "7203100772",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "프+유프 이용 중 포스기 + 금전함 추가 하신 매장입니다. 포스기 설치 및 온보딩 도움 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "14:31",
@@ -243873,7 +243885,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 3,
         "unknown": 0
       },
@@ -243964,10 +243976,6 @@ window.SLACK_DATA = {
       "1791644390.389909": {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
-      },
-      "1791698209.505949": {
-        "post": "1791698209.505949",
-        "lastSeen": 1791699325.812
       }
     },
     "days": {
@@ -326927,8 +326935,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 10,
-        "sumMin": 27.151144504547116,
+        "cnt": 11,
+        "sumMin": 46.99455368518829,
         "over": 0,
         "items": [
           {
@@ -327020,13 +327028,22 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "onboarding",
             "dmin": 7.1
+          },
+          {
+            "hm": "14:56",
+            "min": 19.8,
+            "store": "써니로스",
+            "biz": "7203100772",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 19.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 15:15",
+    "at": "2026-10-11 15:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327151,7 +327168,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 15:15",
+    "at": "2026-10-11 15:17",
     "pri": {
       "days": 0,
       "failed": [],
