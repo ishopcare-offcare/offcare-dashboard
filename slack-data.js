@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19151,
+  "version": 19152,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243702,7 +243702,7 @@ window.SLACK_DATA = {
     "2026-10-11": {
       "counts": {
         "as": {
-          "미지정": 5,
+          "미지정": 6,
           "송태양": 9
         },
         "onboarding": {
@@ -243731,6 +243731,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "19:18",
+          "store": "주상낙원",
+          "biz": "4151265270",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "유프 전원이 지속적으로 꺼지는 증상이 있다고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:07",
           "store": "술상밥상",
@@ -243953,7 +243964,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 4,
         "unknown": 0
       },
@@ -244122,11 +244133,7 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791714320.009
-      },
-      "1791713938.380679": {
-        "post": "1791713938.380679",
-        "lastSeen": 1791714320.009
+        "lastSeen": 1791714489.703
       }
     },
     "days": {
@@ -327086,8 +327093,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-11": {
-        "cnt": 16,
-        "sumMin": 86.97503043413161,
+        "cnt": 17,
+        "sumMin": 94.74961911837259,
         "over": 0,
         "items": [
           {
@@ -327233,13 +327240,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 2.5
+          },
+          {
+            "hm": "19:18",
+            "min": 7.8,
+            "store": "주상낙원",
+            "biz": "4151265270",
+            "who": "",
+            "cat": "as",
+            "dmin": 7.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 19:25",
+    "at": "2026-10-11 19:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327364,7 +327380,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 19:25",
+    "at": "2026-10-11 19:28",
     "pri": {
       "days": 0,
       "failed": [],
