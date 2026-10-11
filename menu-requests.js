@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3291,
- "updatedAt": "2026-10-11 19:33",
+ "version": 3292,
+ "updatedAt": "2026-10-11 19:38",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "쿠팡 계정이 없으면 어떻게 확인하죠 ???"
+   ],
+   "rc": 1,
+   "lr": "1791715051.611389",
    "rfx": 3,
    "status": "wait",
    "handler": null,
