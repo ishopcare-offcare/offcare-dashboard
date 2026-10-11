@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19174,
+  "version": 19175,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243990,27 +243990,27 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "20:45",
+      "updatedAt": "20:49",
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 10,
+          "count": 11,
           "low": 2
         },
         "high": {
           "install": 1,
-          "nps": 5
+          "nps": 6
         },
         "npsDist": {
           "0": 1,
           "2": 1,
           "7": 1,
           "9": 2,
-          "10": 5
+          "10": 6
         },
         "installDist": {
           "4": 1,
@@ -244021,6 +244021,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "구매설치": {
             "total": 2,
             "low": 0
@@ -244039,6 +244043,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "KPN": {
             "total": 3,
             "low": 2
@@ -244052,10 +244060,6 @@ window.SLACK_DATA = {
             "low": 0
           },
           "SECTA9": {
-            "total": 1,
-            "low": 0
-          },
-          "KIS": {
             "total": 1,
             "low": 0
           },
@@ -244155,15 +244159,15 @@ window.SLACK_DATA = {
       },
       "1791702000.334259": {
         "post": "1791702000.334259",
-        "lastSeen": 1791719247.992
+        "lastSeen": 1791719385.007
       },
       "1791718200.610679": {
         "post": "1791718200.610679",
-        "lastSeen": 1791719247.992
+        "lastSeen": 1791719385.007
       },
       "1791719107.271029": {
         "post": "1791719107.271029",
-        "lastSeen": 1791719247.992
+        "lastSeen": 1791719385.007
       }
     },
     "days": {
@@ -327303,7 +327307,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-11 20:47",
+    "at": "2026-10-11 20:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327428,7 +327432,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 20:47",
+    "at": "2026-10-11 20:49",
     "pri": {
       "days": 0,
       "failed": [],
