@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19045,
+  "version": 19046,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243701,6 +243701,9 @@ window.SLACK_DATA = {
     },
     "2026-10-11": {
       "counts": {
+        "onboarding": {
+          "송태양": 1
+        },
         "as": {
           "송태양": 3
         },
@@ -243710,6 +243713,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "김경영요리연구소 포곡점",
+          "biz": "5280703561",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "포프(자체포스) + 유프 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:31",
           "store": "시골마루",
@@ -243756,7 +243770,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -243859,16 +243873,9 @@ window.SLACK_DATA = {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
       },
-      "1791684001.064189": {
-        "post": "1791684001.064189",
-        "lastSeen": 1791684939.494,
-        "r": 1,
-        "day": "2026-10-11",
-        "idx": 3
-      },
       "1791684798.757639": {
         "post": "1791684798.757639",
-        "lastSeen": 1791684939.494
+        "lastSeen": 1791685125.25
       }
     },
     "days": {
@@ -326865,14 +326872,15 @@ window.SLACK_DATA = {
             "store": "김경영요리연구소 포곡점",
             "biz": "5280703561",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 17.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 11:15",
+    "at": "2026-10-11 11:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326997,7 +327005,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 11:15",
+    "at": "2026-10-11 11:18",
     "pri": {
       "days": 0,
       "failed": [],
