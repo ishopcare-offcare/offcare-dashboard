@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19077,
+  "version": 19078,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243702,7 +243702,7 @@ window.SLACK_DATA = {
     "2026-10-11": {
       "counts": {
         "as": {
-          "송태양": 6,
+          "송태양": 7,
           "미지정": 1
         },
         "booking": {
@@ -243717,6 +243717,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:00",
+          "store": "플레르 앤드(fleur and)",
+          "biz": "2281004919",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포프(아이패드) 사용 중, 유프 이미지 커스텀 설정 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:46",
           "store": "문앤코",
@@ -243829,7 +243840,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 3,
         "unknown": 0
       },
@@ -243923,14 +243934,7 @@ window.SLACK_DATA = {
       },
       "1791693001.021499": {
         "post": "1791693001.021499",
-        "lastSeen": 1791694903.832
-      },
-      "1791694800.329649": {
-        "post": "1791694800.329649",
-        "lastSeen": 1791694903.832,
-        "r": 1,
-        "day": "2026-10-11",
-        "idx": 8
+        "lastSeen": 1791695062.31
       }
     },
     "days": {
@@ -326972,14 +326976,15 @@ window.SLACK_DATA = {
             "store": "플레르 앤드(fleur and)",
             "biz": "2281004919",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 14:01",
+    "at": "2026-10-11 14:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327104,7 +327109,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 14:01",
+    "at": "2026-10-11 14:04",
     "pri": {
       "days": 0,
       "failed": [],
