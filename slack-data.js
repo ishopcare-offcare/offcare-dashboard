@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19029,
+  "version": 19030,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -243702,11 +243702,22 @@ window.SLACK_DATA = {
     "2026-10-11": {
       "counts": {
         "as": {
-          "송태양": 2
+          "송태양": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:09",
+          "store": "원주성모병원",
+          "biz": "2248213261",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "캣+프 / 단말기에서 \"재부팅해주세요\" 문구만 발생/ 재부팅해도 동일해서 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "10:07",
           "store": "신림마당",
@@ -243732,7 +243743,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 2,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "10:09"
@@ -243793,13 +243804,6 @@ window.SLACK_DATA = {
       "1791644390.389909": {
         "post": "1791644390.389909",
         "lastSeen": 1791663324.587
-      },
-      "1791680982.097749": {
-        "post": "1791680982.097749",
-        "lastSeen": 1791681265.313,
-        "r": 1,
-        "day": "2026-10-11",
-        "idx": 1
       }
     },
     "days": {
@@ -326778,14 +326782,15 @@ window.SLACK_DATA = {
             "store": "원주성모병원",
             "biz": "2248213261",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-11 10:14",
+    "at": "2026-10-11 10:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -326910,7 +326915,7 @@ window.SLACK_DATA = {
     "2026-10-11": 2
   },
   "noteMig": {
-    "at": "2026-10-11 10:14",
+    "at": "2026-10-11 10:16",
     "pri": {
       "days": 0,
       "failed": [],
