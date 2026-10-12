@@ -3,10 +3,161 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3302,
- "updatedAt": "2026-10-12 09:58",
+ "version": 3303,
+ "updatedAt": "2026-10-12 10:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1791766870.380159",
+   "date": "2026-10-12",
+   "time": "10:01",
+   "store": "너티 카페(Nutty cafe)",
+   "biz": "2131623935",
+   "pos": "",
+   "content": "디저트 카테고리만 변경",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8F2R6Q6N",
+     "from": "댓글",
+     "path": "menu-files/1791766870_380159-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "DESSERT",
+       "name": "바닐라 빈 휘낭시에",
+       "price": 2800
+      },
+      {
+       "category": "DESSERT",
+       "name": "크럼블 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "DESSERT",
+       "name": "발로나 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "DESSERT",
+       "name": "버터 떡",
+       "price": 1800
+      },
+      {
+       "category": "DESSERT",
+       "name": "에그타르트",
+       "price": 3300
+      },
+      {
+       "category": "DESSERT",
+       "name": "아몬드 카라멜 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "DESSERT",
+       "name": "고구마 맛탕 휘낭시에",
+       "price": 3400
+      },
+      {
+       "category": "DESSERT",
+       "name": "플레인 소금빵",
+       "price": 2800
+      },
+      {
+       "category": "DESSERT",
+       "name": "뺑 오 소금빵",
+       "price": 3500
+      },
+      {
+       "category": "DESSERT",
+       "name": "올리브 치즈 소금빵",
+       "price": 3700
+      },
+      {
+       "category": "DESSERT",
+       "name": "고구마 소금빵",
+       "price": 3800
+      },
+      {
+       "category": "DESSERT",
+       "name": "소금빵 행사",
+       "price": 2800
+      },
+      {
+       "category": "DESSERT",
+       "name": "말차 모찌 소금빵(9알 한정)",
+       "price": 3500
+      },
+      {
+       "category": "DESSERT",
+       "name": "피자 소금빵",
+       "price": 4500
+      },
+      {
+       "category": "DESSERT",
+       "name": "할라피뇨 소세지 소금빵",
+       "price": 4700
+      },
+      {
+       "category": "DESSERT",
+       "name": "초코 씨 샌드 쿠키(두바이 맛)",
+       "price": 4000
+      },
+      {
+       "category": "DESSERT",
+       "name": "초코 씨 샌드 쿠키(페이즐넛 맛)",
+       "price": 4000
+      },
+      {
+       "category": "DESSERT",
+       "name": "초코바게트",
+       "price": 6500
+      },
+      {
+       "category": "DESSERT",
+       "name": "밤 소보루 소금빵",
+       "price": 3900
+      },
+      {
+       "category": "DESSERT",
+       "name": "호맥 인절미 소금빵",
+       "price": 3500
+      },
+      {
+       "category": "DESSERT",
+       "name": "콘 치즈마요 소금빵",
+       "price": 3800
+      },
+      {
+       "category": "DESSERT",
+       "name": "뺑 베그마요 소금빵",
+       "price": 4700
+      },
+      {
+       "category": "DESSERT",
+       "name": "블루베리 크림치즈 소금빵",
+       "price": 4800
+      },
+      {
+       "category": "DESSERT",
+       "name": "명란 감자 소금빵",
+       "price": 4900
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791766879.145659",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791766870380159"
+  },
   {
    "ts": "1791763910.379889",
    "date": "2026-10-12",
