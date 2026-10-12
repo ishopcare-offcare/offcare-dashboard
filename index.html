@@ -5506,8 +5506,8 @@ function runStoreSearch(q){
   const matchWork=(store,biz)=>{ if(store&&store.toLowerCase().includes(ql)) return true; const b=bizQ.length>=4?bizOf(store,biz):''; return !!b&&b.includes(bizQ); };
   const rows=[];
   for(const d of allSlackDates()){ const dd=slackDay(d)||{};
-    (dd.done||[]).forEach(x=>{ if(matchWork(x.store,x.biz)) rows.push({date:d,time:x.time,store:x.store,cat:x.cat,emp:x.emp,st:'처리',req:x.req||'',note:x.note||'',tv:x.tv||null}); });
-    (dd.pending||[]).forEach(x=>{ if(matchWork(x.store,x.biz)){ const ab=(x.reasons||[]).some(r=>/부재/.test(r)); rows.push({date:d,time:x.time,store:x.store,cat:x.cat,emp:x.handler,st:ab?'부재':'확인필요',req:x.req||'',note:(x.reasons||[]).join(', ')}); } });
+    (dd.done||[]).forEach(x=>{ if(matchWork(x.store,x.biz)) rows.push({date:d,time:x.time,store:x.store,biz:x.biz,cat:x.cat,emp:x.emp,st:'처리',req:x.req||'',note:x.note||'',tv:x.tv||null}); });
+    (dd.pending||[]).forEach(x=>{ if(matchWork(x.store,x.biz)){ const ab=(x.reasons||[]).some(r=>/부재/.test(r)); rows.push({date:d,time:x.time,store:x.store,biz:x.biz,cat:x.cat,emp:x.handler,st:ab?'부재':'확인필요',req:x.req||'',note:(x.reasons||[]).join(', ')}); } });
     const v=dd.voc; if(v)(v.alerts||[]).forEach(x=>{ if((x.store&&x.store.toLowerCase().includes(ql))||(x.storeId&&String(x.storeId).toLowerCase().includes(ql))) rows.push({date:d,time:x.time,store:x.store,cat:'voc',emp:vocEmpAt(d,x),st:vocDone(x.autoStatus||'')?'처리':'저점',note:x.autoNote||((x.reasons||[]).map(r=>r.text).filter(Boolean).join(' / '))}); });
   }
   if(!rows.length){ body.innerHTML=`<div class="empty-note">"${escapeHtml(q)}" 검색 결과가 없습니다.</div>`; return; }
@@ -5516,9 +5516,12 @@ function runStoreSearch(q){
   const doneN=rows.filter(r=>r.st==='처리').length, pendN=rows.filter(r=>r.st==='부재'||r.st==='확인필요').length, vocN=byCat['voc']||0;
   const stores=[...new Set(rows.map(r=>r.store).filter(Boolean))];
   const catChips=WORK_CATS.map(c=>byCat[c.key]?`<span class="ss-chip">${c.icon} ${c.name} <b>${byCat[c.key]}</b></span>`:'').filter(Boolean).join('')+(vocN?`<span class="ss-chip">💬 VOC저점 <b>${vocN}</b></span>`:'');
+  // 팀뷰어는 매장 단위 정보라, 그 건에 없으면 같은 매장(사업자번호, 없으면 상호)의 가장 최근 값을 보여준다
+  const tvKey=r=>bizOf(r.store,r.biz)||normStore(r.store), tvByStore={};
+  rows.forEach(r=>{ if(r.tv){ const k=tvKey(r); if(!tvByStore[k]) tvByStore[k]=r; } });
   const tvLast=rows.find(r=>r.tv);   // 최신순 정렬이라 첫 값 = 가장 최근에 남긴 팀뷰어 정보
   const summary=`<div class="ss-summary"><div class="ss-total">총 <b>${rows.length}</b>회 인입${stores.length>1?` · <b>${stores.length}</b>개 매장`:''} · 최근 ${fmtShort(rows[0].date)}</div><div class="ss-chips">${catChips}</div><div class="ss-status">✅ 처리 ${doneN} · ⚠️ 부재·미처리 ${pendN}</div>${tvLast?`<div class="ss-status">🖥️ 최근 팀뷰어 (${fmtShort(tvLast.date)}) ${ssTvHtml(tvLast.tv)}</div>`:''}</div>`;
-  const trs=rows.map(r=>`<tr><td class="trow-time">${fmtShort(r.date)}<br><span style="color:var(--gray2)">${escapeHtml(r.time||'')}</span></td><td class="emp-name">${escapeHtml(r.store||'-')}</td><td>${catChip(r.cat)}</td><td class="dm-emp">${escapeHtml(r.emp||'-')}</td><td>${detailStatusBadge(r.st==='저점'?'확인필요':r.st)}</td><td class="ss-note">${r.req?escapeHtml(r.req):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-note">${r.note?escapeHtml(r.note):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-tv">${r.tv?ssTvHtml(r.tv,true):'<span style="color:var(--gray2)">—</span>'}</td></tr>`).join('');
+  const trs=rows.map(r=>`<tr><td class="trow-time">${fmtShort(r.date)}<br><span style="color:var(--gray2)">${escapeHtml(r.time||'')}</span></td><td class="emp-name">${escapeHtml(r.store||'-')}</td><td>${catChip(r.cat)}</td><td class="dm-emp">${escapeHtml(r.emp||'-')}</td><td>${detailStatusBadge(r.st==='저점'?'확인필요':r.st)}</td><td class="ss-note">${r.req?escapeHtml(r.req):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-note">${r.note?escapeHtml(r.note):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-tv">${(()=>{ if(r.tv) return ssTvHtml(r.tv,true); const t=tvByStore[tvKey(r)]; return t?`${ssTvHtml(t.tv,true)}<br><span style="color:var(--gray2);font-size:11px">${fmtShort(t.date)} 기록</span>`:'<span style="color:var(--gray2)">—</span>'; })()}</td></tr>`).join('');
   body.innerHTML=`${summary}<div style="overflow-x:auto"><table class="voc-table" style="margin-top:12px"><thead><tr><th style="width:62px">인입일</th><th style="min-width:100px">상호</th><th style="width:72px">유형</th><th style="width:86px">담당</th><th style="width:70px">상태</th><th style="min-width:130px">요청내용</th><th style="min-width:150px">처리내역</th><th style="min-width:120px">팀뷰어</th></tr></thead><tbody>${trs}</tbody></table></div>`;
 }
 // 팀뷰어 ID/PW — 슬랙 스레드 댓글 '팀뷰어 ID : … / 팀뷰어 PW : …' 에서 적재(fetch-and-tally parseTv). 클릭하면 복사
