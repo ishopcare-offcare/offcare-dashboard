@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3341,
- "updatedAt": "2026-10-12 17:17",
+ "version": 3342,
+ "updatedAt": "2026-10-12 17:22",
  "days": 30,
  "items": [
   {
@@ -303,11 +303,36 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8M1TQ4G4",
+     "from": "댓글",
+     "path": "menu-files/1791788572_327819-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "누가라떼",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "누가카페라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "굿나잇흑임자라떼",
+       "price": 6300
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791793312.737849",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
