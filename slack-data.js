@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19370,
+  "version": 19371,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245809,7 +245809,7 @@ window.SLACK_DATA = {
         "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "12:20",
+      "updatedAt": "12:24",
       "absent": [
         {
           "time": "11:49",
@@ -245827,7 +245827,67 @@ window.SLACK_DATA = {
           "cat": "as",
           "intake": "online"
         }
-      ]
+      ],
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 1
+        },
+        "high": {
+          "install": 0,
+          "nps": 0
+        },
+        "npsDist": {
+          "1": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 1
+          }
+        },
+        "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 1
+          }
+        },
+        "reasonCounts": {
+          "사용중 오류가 자주 발생함": 1
+        },
+        "alerts": [
+          {
+            "time": "12:24",
+            "store": "아델음악학원",
+            "storeId": "242263",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 1,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 1,
+                "text": "오류잘나서 이제안씀",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
+        "praises": []
+      }
     }
   },
   "resp": {
@@ -245858,7 +245918,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791775421.02,
+        "lastSeen": 1791775459.374,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245869,50 +245929,53 @@ window.SLACK_DATA = {
       },
       "1791772765.225549": {
         "post": "1791772765.225549",
-        "lastSeen": 1791775421.02,
+        "lastSeen": 1791775459.374,
         "r": 1,
         "day": "2026-10-12",
         "idx": 37
       },
       "1791772843.762139": {
         "post": "1791772843.762139",
-        "lastSeen": 1791775421.02,
+        "lastSeen": 1791775459.374,
         "r": 1,
         "day": "2026-10-12",
         "idx": 38
       },
       "1791773367.958589": {
         "post": "1791773367.958589",
-        "lastSeen": 1791775421.02,
+        "lastSeen": 1791775459.374,
         "r": 1,
         "day": "2026-10-12",
         "idx": 39
       },
       "1791774003.165239": {
         "post": "1791774003.165239",
-        "lastSeen": 1791775421.02,
+        "lastSeen": 1791775459.374,
         "r": 1,
         "day": "2026-10-12",
         "idx": 40
       },
       "1791774611.165659": {
         "post": "1791774611.165659",
-        "lastSeen": 1791775421.02,
+        "lastSeen": 1791775459.374,
         "r": 1,
         "day": "2026-10-12",
         "idx": 42
       },
       "1791774939.457839": {
         "post": "1791774939.457839",
-        "lastSeen": 1791775421.02
+        "lastSeen": 1791775459.374
       },
       "1791774939.440819": {
         "post": "1791774939.440819",
-        "lastSeen": 1791775421.02
+        "lastSeen": 1791775459.374,
+        "r": 1,
+        "day": "2026-10-12",
+        "idx": 44
       },
       "1791775228.503929": {
         "post": "1791775228.503929",
-        "lastSeen": 1791775421.02
+        "lastSeen": 1791775459.374
       }
     },
     "days": {
@@ -329077,8 +329140,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-12": {
-        "cnt": 44,
-        "sumMin": 168.13158290783562,
+        "cnt": 45,
+        "sumMin": 176.47751925786335,
         "over": 0,
         "items": [
           {
@@ -329470,13 +329533,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 5.2
+          },
+          {
+            "hm": "12:15",
+            "min": 8.3,
+            "store": "사시미",
+            "biz": "6099901891",
+            "who": "심성현",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 12:23",
+    "at": "2026-10-12 12:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329602,7 +329673,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 12:23",
+    "at": "2026-10-12 12:24",
     "pri": {
       "days": 0,
       "failed": [],
