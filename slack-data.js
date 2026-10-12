@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19264,
+  "version": 19265,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244172,11 +244172,11 @@ window.SLACK_DATA = {
         "onboarding": {
           "송태양": 1
         },
-        "extern": {
+        "as": {
+          "김현기": 3,
           "김동욱": 1
         },
-        "as": {
-          "김현기": 2,
+        "extern": {
           "김동욱": 1
         },
         "menu": {
@@ -244195,6 +244195,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "온보딩/ 금액입력결제모드 설정 및 결제테스트 완료입니다"
+        },
+        {
+          "time": "09:31",
+          "store": "르플로스",
+          "biz": "1059151383",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "btr-1100 휴대용 단말기 사용 중 /  재연결  요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "사업자가 더있음 / 5분만 / 블루투스 연결하니 자동으로 연결 되서 사용 가능"
         },
         {
           "time": "09:30",
@@ -244254,7 +244265,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "09:45"
@@ -244286,23 +244297,16 @@ window.SLACK_DATA = {
         "post": "1791730790.988029",
         "lastSeen": 1791749727.128
       },
-      "1791765065.263629": {
-        "post": "1791765065.263629",
-        "lastSeen": 1791766304.624,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 4
-      },
       "1791765677.644759": {
         "post": "1791765677.644759",
-        "lastSeen": 1791766304.624,
+        "lastSeen": 1791766394.514,
         "r": 1,
         "day": "2026-10-12",
         "idx": 6
       },
       "1791765900.756559": {
         "post": "1791765900.756559",
-        "lastSeen": 1791766304.624
+        "lastSeen": 1791766394.514
       }
     },
     "days": {
@@ -327513,7 +327517,8 @@ window.SLACK_DATA = {
             "store": "르플로스",
             "biz": "1059151383",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 21.4
           },
           {
             "hm": "09:39",
@@ -327537,7 +327542,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 09:52",
+    "at": "2026-10-12 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327663,7 +327668,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 09:51",
+    "at": "2026-10-12 09:53",
     "pri": {
       "days": 0,
       "failed": [],
