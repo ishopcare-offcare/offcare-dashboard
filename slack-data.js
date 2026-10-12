@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19751,
+  "version": 19752,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248541,15 +248541,31 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-13": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:25",
+          "store": "컴포즈커피 HD올림픽 셀프주유소점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "키오스크 1번 RNDIS 방식 프론트캠관련 주진님 지원",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": ""
+      "updatedAt": "08:25"
     }
   },
   "resp": {
@@ -333566,13 +333582,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 08:15",
+    "at": "2026-10-13 08:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4491,
+    "rows": 4495,
     "named": 1157,
     "unknownName": 34,
     "beforeStart": 0,
@@ -333693,7 +333709,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 08:15",
+    "at": "2026-10-13 08:30",
     "pri": {
       "days": 0,
       "failed": [],
