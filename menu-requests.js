@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3322,
- "updatedAt": "2026-10-12 15:48",
+ "version": 3323,
+ "updatedAt": "2026-10-12 15:50",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,472 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwMT",
+     "fid": "F0C8GGTA4JE",
+     "from": "댓글",
+     "path": "menu-files/1791787641_109849-0.jpeg",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwMj",
+     "fid": "F0C8LCJLYKW",
+     "from": "댓글",
+     "path": "menu-files/1791787641_109849-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트메뉴",
+       "name": "닭볶음탕+치즈계란말이",
+       "price": 42000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "동태탕+돼지고기두전",
+       "price": 43000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "오뎅탕+제육볶음",
+       "price": 36000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "후라이드치킨+곱창이",
+       "price": 34000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "(뼈)+소고기육전",
+       "price": 33000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwMz",
+     "fid": "F0C8LCJRVEY",
+     "from": "댓글",
+     "path": "menu-files/1791787641_109849-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "전,차",
+       "name": "은행볶음",
+       "price": 10000
+      },
+      {
+       "category": "전,차",
+       "name": "치즈계란말이",
+       "price": 14000
+      },
+      {
+       "category": "전,차",
+       "name": "계란후라이n스팸",
+       "price": 14000
+      },
+      {
+       "category": "전,차",
+       "name": "닭똥집볶음",
+       "price": 14000
+      },
+      {
+       "category": "전,차",
+       "name": "돼지고기육전",
+       "price": 15000
+      },
+      {
+       "category": "전,차",
+       "name": "소고기육전",
+       "price": 20000
+      },
+      {
+       "category": "전,차",
+       "name": "두부김치",
+       "price": 17000
+      },
+      {
+       "category": "전,차",
+       "name": "골뱅이무침",
+       "price": 18000
+      },
+      {
+       "category": "전,차",
+       "name": "제육볶음",
+       "price": 20000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwMz",
+     "fid": "F0C8BD0DFAR",
+     "from": "댓글",
+     "path": "menu-files/1791787641_109849-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "튀김",
+       "name": "후라이드치킨",
+       "price": 18000
+      },
+      {
+       "category": "튀김",
+       "name": "양념치킨",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "치킨반반",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "모듬소세지n감자튀김",
+       "price": 18000
+      },
+      {
+       "category": "튀김",
+       "name": "돈가스",
+       "price": 15000
+      },
+      {
+       "category": "튀김",
+       "name": "감자튀김",
+       "price": 10000
+      },
+      {
+       "category": "튀김",
+       "name": "치즈스틱(9개)",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwMz",
+     "fid": "F0C8BD0TPGV",
+     "from": "댓글",
+     "path": "menu-files/1791787641_109849-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "탕&찌개",
+       "name": "국물떡볶이",
+       "price": 15000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "국물닭발(뼈)",
+       "price": 15000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "김치찌개",
+       "price": 17000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "부대찌개",
+       "price": 17000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "오뎅탕",
+       "price": 18000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "해물누룽지탕",
+       "price": 20000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "동태탕",
+       "price": 30000
+      },
+      {
+       "category": "탕&찌개",
+       "name": "닭볶음탕",
+       "price": 30000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwND",
+     "fid": "F0C8GGUJ54J",
+     "from": "댓글",
+     "path": "menu-files/1791787641_109849-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "마른n간단",
+       "name": "황도",
+       "price": 10000
+      },
+      {
+       "category": "마른n간단",
+       "name": "노가리n넛츠",
+       "price": 15000
+      },
+      {
+       "category": "마른n간단",
+       "name": "한치n너츠",
+       "price": 15000
+      },
+      {
+       "category": "마른n간단",
+       "name": "먹태n너츠",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwND",
+     "fid": "F0C8JL1J3UZ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사리추가",
+       "name": "공깃밥",
+       "price": 1000
+      },
+      {
+       "category": "사리추가",
+       "name": "라면사리",
+       "price": 1000
+      },
+      {
+       "category": "사리추가",
+       "name": "오뎅꽂이1p",
+       "price": 1000
+      },
+      {
+       "category": "사리추가",
+       "name": "납작만두(1p)",
+       "price": 2000
+      },
+      {
+       "category": "사리추가",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "사리추가",
+       "name": "소면추가-곰뱅이",
+       "price": 3000
+      },
+      {
+       "category": "사리추가",
+       "name": "두부추가",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwND",
+     "fid": "F0C8GGUNLUS",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류, 음료",
+       "name": "참이슬 초록색",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "참이슬 빨간색",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "한라산",
+       "price": 6000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "진로이즈백",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "생맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "켈리",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "크러시",
+       "price": 5000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "아이스아메리카노(더치)",
+       "price": 4000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "하이볼",
+       "price": 8000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "칵테일소주",
+       "price": 7000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "레몬/유자에이드",
+       "price": 4000
+      },
+      {
+       "category": "주류, 음료",
+       "name": "무알콜하이볼",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwNT",
+     "fid": "F0C8ENVD0NS",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "한식뷔페",
+       "name": "식권 1장 - 현금",
+       "price": 8000
+      },
+      {
+       "category": "한식뷔페",
+       "name": "식권 1장 - 카드",
+       "price": 9000
+      },
+      {
+       "category": "한식뷔페",
+       "name": "식권 1장 - 페이",
+       "price": 9000
+      },
+      {
+       "category": "한식뷔페",
+       "name": "식권 10장 - 현금",
+       "price": 80000
+      },
+      {
+       "category": "한식뷔페",
+       "name": "식권 10장 - 카드",
+       "price": 90000
+      },
+      {
+       "category": "한식뷔페",
+       "name": "초등학생",
+       "price": 6000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxMl8xNDUwNT",
+     "fid": "F0C8BD1L75K",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기타",
+       "name": "100원",
+       "price": 100
+      },
+      {
+       "category": "기타",
+       "name": "오백원",
+       "price": 500
+      },
+      {
+       "category": "기타",
+       "name": "일천원",
+       "price": 1000
+      },
+      {
+       "category": "기타",
+       "name": "오천원",
+       "price": 5000
+      },
+      {
+       "category": "기타",
+       "name": "일만원",
+       "price": 10000
+      },
+      {
+       "category": "기타",
+       "name": "오만원",
+       "price": 50000
+      },
+      {
+       "category": "기타",
+       "name": "일십만원",
+       "price": 100000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791787645.170839",
+   "rc": 2,
+   "lr": "1791787764.444199",
    "rfx": 3,
    "status": "wait",
    "handler": null,
