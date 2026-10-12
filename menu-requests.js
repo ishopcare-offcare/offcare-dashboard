@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3307,
- "updatedAt": "2026-10-12 11:10",
+ "version": 3308,
+ "updatedAt": "2026-10-12 11:14",
  "days": 30,
  "items": [
   {
@@ -24,10 +24,10 @@ window.MENU_REQUESTS = {
     "점심메뉴 카테에  [법성포 굴비튀김 5마리 8,000원]",
     "등록 완료 후 솔라피 발송 요청"
    ],
-   "rc": 3,
-   "lr": "1791770968.416239",
+   "rc": 5,
+   "lr": "1791771277.048979",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791770922257449"
   },
