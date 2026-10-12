@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3300,
- "updatedAt": "2026-10-12 09:15",
+ "version": 3301,
+ "updatedAt": "2026-10-12 09:57",
  "days": 30,
  "items": [
   {
@@ -499,16 +499,28 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1tyOclN0b2VE0EH1-DMiqf7p651ITUFms/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8F2307U2",
+     "from": "댓글",
+     "path": "menu-files/1791526008_623089-0.png",
+     "kind": "other",
+     "menu": []
+    }
+   ],
    "datt": [],
    "replies": [
     "액세스 거부됨",
     "님 월요일날 빠르게 부탁드립니다",
     "저도 지금 들어갈라니까 거부되네용",
-    "입구컷"
+    "입구컷",
+    "여기 걸려있는애들 엑세스 권한 없어서 못봄ㅋㅋㅋㅋ",
+    "다같이 입구컷",
+    "점주한테 전화 해볼게요 찾아내서"
    ],
-   "rc": 4,
-   "lr": "1791545719.998399",
+   "rc": 7,
+   "lr": "1791766602.099059",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a11f426cb9b0611",
