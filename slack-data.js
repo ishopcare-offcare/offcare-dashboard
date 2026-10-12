@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19305,
+  "version": 19306,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -140593,6 +140593,7 @@ window.SLACK_DATA = {
           "handler": "김기범",
           "cat": "as",
           "intake": "online",
+          "req": "포프+유프 사용 매장이나, 통신속도 맞췄으나 용지 출력되지 않으신다고 하여 확인 부탁드리겠습니다!",
           "reasons": [
             "확인 후 미완료"
           ]
@@ -192389,6 +192390,7 @@ window.SLACK_DATA = {
           "handler": "미지정",
           "cat": "as",
           "intake": "online",
+          "req": "터+프 온보딩 요청드립니다.",
           "reasons": [
             "1차 부재"
           ]
@@ -199140,6 +199142,7 @@ window.SLACK_DATA = {
           "handler": "미지정",
           "cat": "as",
           "intake": "online",
+          "req": "포프+유프(태블릿) / 유프 출력이 안되고 있어서 케이블 연결 상태 확인 한번부탁드립니다.",
           "reasons": [
             "1차 부재"
           ]
@@ -199151,6 +199154,7 @@ window.SLACK_DATA = {
           "handler": "미지정",
           "cat": "delivery",
           "intake": "online",
+          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 스티커 부착된 매장 외관 사진 1장 (간판 나오게)",
           "reasons": [
             "1차 부재"
           ]
@@ -238351,6 +238355,7 @@ window.SLACK_DATA = {
           "handler": "김동욱",
           "cat": "as",
           "intake": "online",
+          "req": "포스(태블릿)+프론트 사용 중이었는데 태블릿 고장으로 포스(핸드폰) 어플 재연동 요청 주셨습니다.",
           "reasons": [
             "1차 부재"
           ]
@@ -238362,6 +238367,7 @@ window.SLACK_DATA = {
           "handler": "심성현",
           "cat": "menu",
           "intake": "online",
+          "req": "",
           "reasons": [
             "확인 후 미완료"
           ]
@@ -238373,6 +238379,7 @@ window.SLACK_DATA = {
           "handler": "배선유",
           "cat": "as",
           "intake": "offline",
+          "req": "전일 포스 옮겨달라 요청했다고 하시나 아직 안되었다고 하십니다. *<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1791347440339889|관련 스레드>*",
           "reasons": [
             "1차 부재"
           ]
@@ -243725,6 +243732,7 @@ window.SLACK_DATA = {
           "handler": "미지정",
           "cat": "as",
           "intake": "online",
+          "req": "포프(태블릿) 사용 중, 유프 연결끊김으로 인한 재온보딩 지원 및 주문서가 원치 않을 때 지속 출력되는 증상도 있다고 하여 같이 점검 요청드립니다.",
           "reasons": [
             "1차 부재"
           ]
@@ -244476,21 +244484,21 @@ window.SLACK_DATA = {
       },
       "1791768603.647999": {
         "post": "1791768603.647999",
-        "lastSeen": 1791769399.143,
+        "lastSeen": 1791769458.946,
         "r": 1,
         "day": "2026-10-12",
         "idx": 15
       },
       "1791769265.949969": {
         "post": "1791769265.949969",
-        "lastSeen": 1791769399.143,
+        "lastSeen": 1791769458.946,
         "r": 1,
         "day": "2026-10-12",
         "idx": 16
       },
       "1791769349.753289": {
         "post": "1791769349.753289",
-        "lastSeen": 1791769399.143
+        "lastSeen": 1791769458.946
       }
     },
     "days": {
@@ -327815,7 +327823,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:43",
+    "at": "2026-10-12 10:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327941,7 +327949,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:43",
+    "at": "2026-10-12 10:44",
     "pri": {
       "days": 0,
       "failed": [],
