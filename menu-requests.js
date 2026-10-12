@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3309,
- "updatedAt": "2026-10-12 11:48",
+ "version": 3310,
+ "updatedAt": "2026-10-12 11:52",
  "days": 30,
  "items": [
   {
@@ -24,10 +24,10 @@ window.MENU_REQUESTS = {
     "• 왕갈비탕 18,000원 으로 수정\n•  뼈해장국 15,000원 으로 수정\n•  양평해장국 삭제 \n• 장터국밥 16,000원 추가 부탁 드립니다. :감사합니다꾸벅:",
     "오케이 포스"
    ],
-   "rc": 4,
-   "lr": "1791773329.265869",
+   "rc": 5,
+   "lr": "1791773393.855679",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791773246484069"
   },
