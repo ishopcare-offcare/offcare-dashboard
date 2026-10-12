@@ -5496,7 +5496,11 @@ function runStoreSearch(q){
   const body=document.getElementById('storeSearchBody'); if(!body) return;
   q=(q||'').trim(); if(q.length<2){ body.innerHTML='<div class="empty-note">두 글자 이상 입력하세요.</div>'; return; }
   const ql=q.toLowerCase(), bizQ=q.replace(/[^0-9]/g,'');
-  const matchWork=(store,biz)=> (store&&store.toLowerCase().includes(ql)) || (bizQ.length>=4 && biz&&String(biz).includes(bizQ));
+  // 사업자번호가 빈 옛 기록(슬랙 tel 링크로 못 읽은 명의변경 등)은 같은 상호의 다른 기록 번호로 보완 — 번호가 하나뿐일 때만
+  const normStore=s=>(s||'').replace(/\s+/g,'').toLowerCase(), storeBiz={};
+  for(const d of allSlackDates()){ const dd=slackDay(d)||{}; [...(dd.done||[]),...(dd.pending||[])].forEach(x=>{ if(x.biz&&x.store){ const k=normStore(x.store); (storeBiz[k]=storeBiz[k]||new Set()).add(String(x.biz)); } }); }
+  const bizOf=(store,biz)=>{ if(biz) return String(biz); const s=storeBiz[normStore(store)]; return s&&s.size===1?[...s][0]:''; };
+  const matchWork=(store,biz)=>{ if(store&&store.toLowerCase().includes(ql)) return true; const b=bizQ.length>=4?bizOf(store,biz):''; return !!b&&b.includes(bizQ); };
   const rows=[];
   for(const d of allSlackDates()){ const dd=slackDay(d)||{};
     (dd.done||[]).forEach(x=>{ if(matchWork(x.store,x.biz)) rows.push({date:d,time:x.time,store:x.store,cat:x.cat,emp:x.emp,st:'처리',req:x.req||'',note:x.note||''}); });

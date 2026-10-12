@@ -298,6 +298,15 @@ function workerIds(m) {
 /* 처리내역 규칙 버전 — 올리면 과거 날짜의 note 를 조금씩 새 규칙으로 다시 수집한다(아래 이관 단계).
    data.noteV[날짜] = 이 값이면 그 날의 note 는 새 규칙으로 모은 것. */
 const NOTE_RULE = 2;
+// 사업자번호 — 슬랙이 숫자를 <tel:4719601771|4719601771> 링크로 바꾸거나 '사업자등록번호' 라벨을 쓰면
+// 예전 규칙이 못 읽어 명의변경 등이 빈 칸이었다. 링크를 벗기고, 라벨 변형·공백/하이픈 섞인 숫자를 허용해 앞 10자리를 쓴다.
+function parseBiz(text) {
+  const t = String(text || '').replace(/<tel:[^|>]*\|([^>]*)>/g, '$1');
+  const m = t.match(/사업자\s*(?:등록)?\s*번?\s*호?\s*[:：]?\s*(\d[\d\- ]*)/);
+  if (!m) return '';
+  const d = m[1].replace(/\D/g, '');
+  return d.length >= 10 ? d.slice(0, 10) : d;
+}
 const noteKey = (it) => it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
 /* 이관 중인 날에서 이미 새 규칙으로 확정된 건(nv 표시)만 재사용 대상으로 */
 function v2Notes(items) {
@@ -369,7 +378,7 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     const text = m.text || '';
     let store = (((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
     if (store.length > 30) store = store.slice(0, 30);
-    const biz = ((text.match(/사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/) || [])[1] || '').replace(/-/g, '').trim();
+    const biz = parseBiz(text);
     const req = ((text.match(/내용\s*[:：]?\s*(.+)/) || [])[1] || '').trim().slice(0, 140);   // 요청 '내용' 필드(문제 유형 분류용)
     const hw = ((text.match(/(?:하드웨어|장비|기종|hw)\s*[:：]?\s*(.+)/i) || [])[1] || '').trim().slice(0, 60);   // 하드웨어 필드 → AS 유형 분류 우선 반영(글 수정 시 반영됨)
     // 인입유형(온라인/오프라인) — '인입유형:' 또는 '오프/온라인:' 라벨 파싱. 미기재(미상)는 온라인으로 적재(팀 정책).
@@ -584,7 +593,7 @@ function trackResp(data, msgs, ch) {
       const text = m.text || '';
       let store = (((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
       if (store.length > 30) store = store.slice(0, 30);
-      const biz = ((text.match(/사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/) || [])[1] || '').replace(/-/g, '').trim();
+      const biz = parseBiz(text);
       let who = '';
       for (const n of names) { const pm = n.match(RE_EMP); if (pm) { who = personMap[pm[1]]; break; } }
       if (!who) for (const n of names) { const cm = n.match(RE_CONFIRM); if (cm) { who = personMap[cm[1]]; break; } }
