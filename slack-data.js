@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19344,
+  "version": 19345,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245097,6 +245097,10 @@ window.SLACK_DATA = {
     },
     "2026-10-12": {
       "counts": {
+        "onboarding": {
+          "송태양": 2,
+          "김기범": 1
+        },
         "as": {
           "고경림": 7,
           "심성현": 6,
@@ -245105,10 +245109,6 @@ window.SLACK_DATA = {
           "김현기": 6,
           "김규빈": 2,
           "송태양": 2
-        },
-        "onboarding": {
-          "김기범": 1,
-          "송태양": 1
         },
         "nosetup": {
           "송태양": 1
@@ -245155,6 +245155,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:27",
+          "store": "브림 스테이(Brim Stay)",
+          "biz": "6532601972",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "터+프 온보딩 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:23",
           "store": "다시봄",
@@ -245708,7 +245719,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 34,
+        "online": 35,
         "offline": 14,
         "unknown": 0
       },
@@ -245743,7 +245754,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791772381.89,
+        "lastSeen": 1791772448.03,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245752,16 +245763,12 @@ window.SLACK_DATA = {
         "post": "1791771079.483339",
         "lastSeen": 1791771080.388
       },
-      "1791772079.799719": {
-        "post": "1791772079.799719",
-        "lastSeen": 1791772381.89,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 34
-      },
       "1791772200.120779": {
         "post": "1791772200.120779",
-        "lastSeen": 1791772381.89
+        "lastSeen": 1791772448.03,
+        "r": 1,
+        "day": "2026-10-12",
+        "idx": 35
       }
     },
     "days": {
@@ -328926,8 +328933,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-12": {
-        "cnt": 35,
-        "sumMin": 141.94457976023355,
+        "cnt": 36,
+        "sumMin": 145.5252334435781,
         "over": 0,
         "items": [
           {
@@ -329241,6 +329248,15 @@ window.SLACK_DATA = {
             "store": "브림 스테이(Brim Stay)",
             "biz": "6532601972",
             "who": "송태양",
+            "cat": "onboarding",
+            "dmin": 5.6
+          },
+          {
+            "hm": "11:30",
+            "min": 3.6,
+            "store": "악기가방쟁이KWC",
+            "biz": "1011231605",
+            "who": "김동욱",
             "cat": "as"
           }
         ]
@@ -329248,7 +329264,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:33",
+    "at": "2026-10-12 11:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329374,7 +329390,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:33",
+    "at": "2026-10-12 11:34",
     "pri": {
       "days": 0,
       "failed": [],
