@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19276,
+  "version": 19277,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244169,12 +244169,13 @@ window.SLACK_DATA = {
     },
     "2026-10-12": {
       "counts": {
-        "onboarding": {
-          "송태양": 1
-        },
         "as": {
+          "고경림": 1,
           "김현기": 3,
           "김동욱": 1
+        },
+        "onboarding": {
+          "송태양": 1
         },
         "extern": {
           "김동욱": 1
@@ -244198,6 +244199,17 @@ window.SLACK_DATA = {
           "req": "디저트 카테고리만 변경",
           "hw": "",
           "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "10:00",
+          "store": "스튜디오 리센츠점",
+          "biz": "5028545382",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "쿠팡, 배민 등 접수용도에 활용차 프린터 추가 문의주셨는데,",
+          "hw": "",
+          "intake": "offline",
           "note": ""
         },
         {
@@ -244291,7 +244303,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 6,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "10:04"
@@ -244325,28 +244337,21 @@ window.SLACK_DATA = {
       },
       "1791765677.644759": {
         "post": "1791765677.644759",
-        "lastSeen": 1791767124.927,
+        "lastSeen": 1791767219.139,
         "r": 1,
         "day": "2026-10-12",
         "idx": 6
       },
       "1791766498.016729": {
         "post": "1791766498.016729",
-        "lastSeen": 1791767124.927,
+        "lastSeen": 1791767219.139,
         "r": 1,
         "day": "2026-10-12",
         "idx": 9
       },
-      "1791766835.570669": {
-        "post": "1791766835.570669",
-        "lastSeen": 1791767124.927,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 8
-      },
       "1791767053.479059": {
         "post": "1791767053.479059",
-        "lastSeen": 1791767124.927,
+        "lastSeen": 1791767219.139,
         "r": 1,
         "day": "2026-10-12",
         "idx": 10
@@ -327595,7 +327600,8 @@ window.SLACK_DATA = {
             "store": "스튜디오 리센츠점",
             "biz": "5028545382",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.6
           },
           {
             "hm": "09:54",
@@ -327618,7 +327624,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:05",
+    "at": "2026-10-12 10:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327744,7 +327750,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:05",
+    "at": "2026-10-12 10:06",
     "pri": {
       "days": 0,
       "failed": [],
