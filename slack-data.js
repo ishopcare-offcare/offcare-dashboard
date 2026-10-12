@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19346,
+  "version": 19347,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245235,8 +245235,8 @@ window.SLACK_DATA = {
           "req": "포터프 사용 중, 영수증 커스텀 과정 중 프론트 연결끊김으로 인한 재온보딩 및 커스텀 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "172.30.1.36",
-          "rc": 1
+          "note": "172.30.1.36 / 프론트 / 터미널2 재연결 및 포프터2 연결 완료",
+          "rc": 2
         },
         {
           "time": "11:08",
@@ -245767,7 +245767,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791772528.589,
+        "lastSeen": 1791772580.038,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245778,7 +245778,7 @@ window.SLACK_DATA = {
       },
       "1791772200.120779": {
         "post": "1791772200.120779",
-        "lastSeen": 1791772528.589,
+        "lastSeen": 1791772580.038,
         "r": 1,
         "day": "2026-10-12",
         "idx": 35
@@ -329277,7 +329277,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:35",
+    "at": "2026-10-12 11:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329403,7 +329403,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:35",
+    "at": "2026-10-12 11:36",
     "pri": {
       "days": 0,
       "failed": [],
