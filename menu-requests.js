@@ -3,10 +3,528 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3324,
- "updatedAt": "2026-10-12 15:53",
+ "version": 3325,
+ "updatedAt": "2026-10-12 15:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1791788030.124169",
+   "date": "2026-10-12",
+   "time": "15:53",
+   "store": "웅이네오돌뼈(충북혁신점)",
+   "biz": "7765400997",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261012_154857.jpg.jpeg",
+     "fid": "F0C8EPMKBML",
+     "from": "댓글",
+     "path": "menu-files/1791788030_124169-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "단품",
+       "name": "직화무뼈닭발 매 단품",
+       "price": 19000
+      },
+      {
+       "category": "단품",
+       "name": "직화무뼈닭발 중 단품",
+       "price": 19000
+      },
+      {
+       "category": "단품",
+       "name": "무뼈국물닭발 매 단품",
+       "price": 19000
+      },
+      {
+       "category": "단품",
+       "name": "무뼈국물닭발 중 단품",
+       "price": 19000
+      },
+      {
+       "category": "단품",
+       "name": "양념똥집 단품",
+       "price": 16000
+      },
+      {
+       "category": "단품",
+       "name": "마늘직화똥집 단품",
+       "price": 16000
+      },
+      {
+       "category": "단품",
+       "name": "튀김모래집 단품",
+       "price": 15000
+      },
+      {
+       "category": "단품",
+       "name": "야채똥집 단품",
+       "price": 16000
+      },
+      {
+       "category": "단품",
+       "name": "돼지껍데기",
+       "price": 17000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_154124.jpg.jpeg",
+     "fid": "F0C8LDD9LFN",
+     "from": "댓글",
+     "path": "menu-files/1791788030_124169-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "오돌뼈 매",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "오돌뼈 순",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "오돌뼈 중",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "직화무뼈닭발 매",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치 오돌뼈 중",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치 오돌뼈 매",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "갈비 오돌뼈",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치 오돌뼈 순",
+       "price": 24000
+      },
+      {
+       "category": "메뉴",
+       "name": "직화무뼈닭발 중",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "직화뼈닭발 매",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "직화뼈닭발 중",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "불닭 매",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "불닭 중",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈불닭 매",
+       "price": 27000
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈불닭 중",
+       "price": 27000
+      },
+      {
+       "category": "메뉴",
+       "name": "무뼈 국물닭발 매",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "무뼈 국물닭발 중",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈 국물닭발 매",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈 국물닭발 중",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_154135.jpg.jpeg",
+     "fid": "F0C8GHMF89G",
+     "from": "댓글",
+     "path": "menu-files/1791788030_124169-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "야채 똥집",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "양념 똥집",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "마늘직화똥집",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "튀김 모래집",
+       "price": 19000
+      },
+      {
+       "category": "메뉴",
+       "name": "불쭈꾸미 매",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "불쭈꾸미 순",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "불쭈꾸미 중",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "불막창",
+       "price": 26000
+      },
+      {
+       "category": "메뉴",
+       "name": "직화돼지껍데기",
+       "price": 23000
+      },
+      {
+       "category": "메뉴",
+       "name": "빽국물닭발",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "오돌뼈 (중간맛)",
+       "price": 20004
+      },
+      {
+       "category": "메뉴",
+       "name": "순한맛",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "중간맛",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "매운맛",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "여백",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_154950.jpg.jpeg",
+     "fid": "F0C8EPN0XB8",
+     "from": "댓글",
+     "path": "menu-files/1791788030_124169-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달료",
+       "name": "용몽리",
+       "price": 4000
+      },
+      {
+       "category": "배달료",
+       "name": "배달료 혁신 도시내",
+       "price": 3000
+      },
+      {
+       "category": "배달료",
+       "name": "배달료 합목리 추가",
+       "price": 4000
+      },
+      {
+       "category": "배달료",
+       "name": "배달료 구덕산 맹동",
+       "price": 5000
+      },
+      {
+       "category": "배달료",
+       "name": "쿠폰배달",
+       "price": 4000
+      },
+      {
+       "category": "배달료",
+       "name": "야간할증",
+       "price": 500
+      },
+      {
+       "category": "배달료",
+       "name": "쿠폰배달(우천할증)",
+       "price": 4500
+      },
+      {
+       "category": "배달료",
+       "name": "우천할증",
+       "price": 300
+      },
+      {
+       "category": "배달료",
+       "name": "배달료 혁신",
+       "price": 2000
+      },
+      {
+       "category": "배달료",
+       "name": "배달료 신척리",
+       "price": 8000
+      },
+      {
+       "category": "배달료",
+       "name": "배달료 합목리",
+       "price": 7000
+      },
+      {
+       "category": "배달료",
+       "name": "추가 배달료",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_154903.jpg.jpeg",
+     "fid": "F0C8GHN1TQS",
+     "from": "댓글",
+     "path": "menu-files/1791788030_124169-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "오뎅탕",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "누룽지",
+       "price": 7000
+      },
+      {
+       "category": "사이드",
+       "name": "잔치국수",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "계란찜 대",
+       "price": 5500
+      },
+      {
+       "category": "사이드",
+       "name": "주먹밥",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "날치알추가",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "사조김(5EA)",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "사조김(10EA)",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "치즈추가",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "우동사리",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "마요네즈",
+       "price": 500
+      },
+      {
+       "category": "사이드",
+       "name": "찍먹가루(콩가루)",
+       "price": 1000
+      },
+      {
+       "category": "사이드",
+       "name": "공기밥",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "옛날통닭",
+       "price": 12000
+      },
+      {
+       "category": "사이드",
+       "name": "감자튀김",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "김말이3p",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "계란찜",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "오뎅탕 곱빼기",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "단무지",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_154910.jpg.jpeg",
+     "fid": "F0C8JLVRQC9",
+     "from": "댓글",
+     "path": "menu-files/1791788030_124169-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료 및 주류",
+       "name": "사이다1.25L",
+       "price": 3000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "콜라1.25L",
+       "price": 3000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "사이다500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "콜라500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "쿨피스(小)",
+       "price": 500
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "쿨피스(大)",
+       "price": 2000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "탄산수소",
+       "price": 1500
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "탄산수",
+       "price": 2000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "쿨피스中",
+       "price": 1500
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "배달 주류",
+       "price": 4000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "카스",
+       "price": 5000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "메뉴가격  불닭26000원 치즈불닭28000원으로 변경해서 올려주세요\n단품 불닭 20000원 치즈불닭22000원 변경해서 올려주세요"
+   ],
+   "rc": 2,
+   "lr": "1791788050.783119",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791788030124169"
+  },
   {
    "ts": "1791787910.376709",
    "date": "2026-10-12",
@@ -23,23 +541,22 @@ window.MENU_REQUESTS = {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5Mj",
      "fid": "F0C8LD22UH2",
      "from": "댓글",
-     "path": "menu-files/1791787910_376709-0.jpeg",
      "kind": "pos_screen",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791787910_376709-0.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5Mz",
      "fid": "F0C9B41J6Q0",
      "from": "댓글",
-     "path": "menu-files/1791787910_376709-1.jpeg",
      "kind": "pos_screen",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791787910_376709-1.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5Mz",
      "fid": "F0C8EPALP7Y",
      "from": "댓글",
-     "path": "menu-files/1791787910_376709-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -187,13 +704,13 @@ window.MENU_REQUESTS = {
        "name": "쉬림프로제리조또",
        "price": 14500
       }
-     ]
+     ],
+     "path": "menu-files/1791787910_376709-2.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5ND",
      "fid": "F0C8AFM2Z6X",
      "from": "댓글",
-     "path": "menu-files/1791787910_376709-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -331,13 +848,13 @@ window.MENU_REQUESTS = {
        "name": "잔와인 모스카토",
        "price": 8500
       }
-     ]
+     ],
+     "path": "menu-files/1791787910_376709-3.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5ND",
      "fid": "F0C81B6FNNB",
      "from": "댓글",
-     "path": "menu-files/1791787910_376709-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -390,13 +907,13 @@ window.MENU_REQUESTS = {
        "name": "매장)부팔라치즈",
        "price": 6300
       }
-     ]
+     ],
+     "path": "menu-files/1791787910_376709-4.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5ND",
      "fid": "F0C8GHBMCE6",
      "from": "댓글",
-     "path": "menu-files/1791787910_376709-5.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -474,7 +991,8 @@ window.MENU_REQUESTS = {
        "name": "포장)하이네켄1리터",
        "price": 25000
       }
-     ]
+     ],
+     "path": "menu-files/1791787910_376709-5.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5NT",
@@ -720,10 +1238,11 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "사이드쪽에 리뷰 0원은 없어도됩니다"
+    "사이드쪽에 리뷰 0원은 없어도됩니다",
+    "배달 2페이지 없음 이대로 진행"
    ],
-   "rc": 3,
-   "lr": "1791787945.921179",
+   "rc": 4,
+   "lr": "1791787970.934249",
    "rfx": 3,
    "status": "wait",
    "handler": null,
