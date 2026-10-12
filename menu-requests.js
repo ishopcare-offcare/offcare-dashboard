@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3339,
- "updatedAt": "2026-10-12 17:14",
+ "version": 3340,
+ "updatedAt": "2026-10-12 17:16",
  "days": 30,
  "items": [
   {
@@ -44,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C9BDT0716",
      "from": "댓글",
-     "path": "menu-files/1791790901_184229-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -232,15 +231,18 @@ window.MENU_REQUESTS = {
        "name": "멜란카 허니케이크 (코코아)",
        "price": 6000
       }
-     ]
+     ],
+     "path": "menu-files/1791790901_184229-0.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791790915.565239",
+   "replies": [
+    "완료"
+   ],
+   "rc": 3,
+   "lr": "1791792959.441839",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790901184229"
   },
