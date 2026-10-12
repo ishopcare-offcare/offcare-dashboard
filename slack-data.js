@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19300,
+  "version": 19301,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244170,11 +244170,11 @@ window.SLACK_DATA = {
     "2026-10-12": {
       "counts": {
         "as": {
+          "심성현": 2,
           "김현기": 4,
           "김규빈": 1,
           "김동욱": 3,
           "송태양": 1,
-          "심성현": 1,
           "박하림": 1,
           "고경림": 2
         },
@@ -244197,6 +244197,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:29",
+          "store": "주육점",
+          "biz": "8281602595",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프론트 떨어뜨려서 파손이 있다고 합니다. 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "파손 면책 1회 적용 / /"
+        },
         {
           "time": "10:27",
           "store": "점핑하이 경북도청점",
@@ -244420,11 +244431,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "10:34"
+      "updatedAt": "10:36"
     }
   },
   "resp": {
@@ -244455,7 +244466,7 @@ window.SLACK_DATA = {
       },
       "1791768603.647999": {
         "post": "1791768603.647999",
-        "lastSeen": 1791768959.748,
+        "lastSeen": 1791769062.241,
         "r": 1,
         "day": "2026-10-12",
         "idx": 15
@@ -327775,7 +327786,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:36",
+    "at": "2026-10-12 10:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327901,7 +327912,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:35",
+    "at": "2026-10-12 10:37",
     "pri": {
       "days": 0,
       "failed": [],
