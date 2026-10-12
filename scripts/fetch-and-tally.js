@@ -307,7 +307,15 @@ function parseBiz(text) {
   const d = m[1].replace(/\D/g, '');
   return d.length >= 10 ? d.slice(0, 10) : d;
 }
-const noteKey = (it) => it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
+// 팀뷰어 접속정보 — 스레드 댓글의 '팀뷰어 ID : 627830237' / '팀뷰어 PW : c2qzd4gs' (작성자 무관, 마지막 값 우선)
+function parseTv(reps) {
+  const t = reps.map(r => blocksText(r)).join('\n').replace(/<tel:[^|>]*\|([^>]*)>/g, '$1').replace(/[*`_~]/g, '');
+  const last = (re) => { let v = ''; for (const m of t.matchAll(re)) v = m[1]; return v; };
+  const id = last(/(?:팀\s*뷰어|teamviewer)\s*(?:ID|아이디)\s*[:：]?\s*(\d[\d \-]{6,14}\d)/gi).replace(/\D/g, '');
+  const pw = last(/(?:팀\s*뷰어|teamviewer)\s*(?:PW|P\/W|비번|비밀번호|패스워드|password)\s*[:：]?\s*([^\s/]+)/gi);
+  return (id || pw) ? { id, pw } : null;
+}
+const noteKey = (it) =>it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
 /* 이관 중인 날에서 이미 새 규칙으로 확정된 건(nv 표시)만 재사용 대상으로 */
 function v2Notes(items) {
   const o = {};
@@ -345,12 +353,20 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
   const fresh = state.fresh || (state.fresh = new Set());
   const reuseEmpty = !!(opts && opts.reuseEmpty);         // 빈 note 도 재사용(과거 날짜 — 나중에 댓글이 달릴 일이 없다)
   // 스레드 처리내역 수집: 이미 있으면 재사용, 없으면 착수 이모지를 찍은 사람의 댓글만 정리해 저장
+  /* 건별 부가정보 — rc = 처리내역을 모을 때의 댓글 수, tv = 팀뷰어 접속정보.
+     처리내역은 한 번 모으면 재사용하므로, 그 뒤 댓글이 늘어난 건(팀뷰어 정보를 나중에 단 경우)만 다시 읽는다 */
+  const priorMeta = (opts && opts.priorMeta) || {};
+  const metaOut = {};
+  const metaOf = (k) => { const x = metaOut[k] || {}, o = {}; if (x.rc) o.rc = x.rc; if (x.tv) o.tv = x.tv; return o; };
   async function grabNote(m, catKey, time, store, biz) {
     const key = time + '|' + store + '|' + biz + '|' + catKey;
-    if (priorNotes[key] || (reuseEmpty && key in priorNotes)) { fresh.add(key); return priorNotes[key]; }
+    const pm = priorMeta[key] || {}, rc = m.reply_count || 0;
+    metaOut[key] = { rc: pm.rc != null ? pm.rc : rc, tv: pm.tv };   // 기록이 없던 건은 지금 댓글 수부터 센다(일괄 재조회 방지)
+    const grown = !reuseEmpty && pm.rc != null && rc > pm.rc;
+    if (!grown && (priorNotes[key] || (reuseEmpty && key in priorNotes))) { fresh.add(key); return priorNotes[key]; }
     if (!((m.reply_count || 0) > 0 && ch.id)) { fresh.add(key); return ''; }
     const ids = workerIds(m);
-    if (!ids.size) { fresh.add(key); return ''; }          // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다
+    if (!ids.size) { fresh.add(key); return priorNotes[key] || ''; }   // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다(댓글이 늘어 다시 본 건은 기존 값 유지)
     /* 과거 날짜 이관은 실행당 예산 안에서만 — 한 번에 다 읽으면 호출 제한에 걸려 실행이 길어지고 실시간 집계가 밀린다 */
     /* 우선 이관(특정 브랜드 건만) — 나머지는 기존 값 그대로 두고 확정하지 않는다 */
     if (opts && opts.onlyKeys && !opts.onlyKeys.has(key)) { state.incomplete = true; return oldNotes[key] || ''; }
@@ -362,6 +378,7 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     }
     const reps = await fetchRepliesStrict(ch.id, m.ts);
     if (reps === null) { state.incomplete = true; return oldNotes[key] || ''; }   // 못 읽었으면 기존 값 유지
+    metaOut[key] = { rc, tv: parseTv(reps) || pm.tv };
     // blocksText는 m.text와 m.blocks의 동일 내용을 둘 다 담아 문구가 중복됨 → 답글별 동일 줄 제거
     const txt = reps.filter(r => r.user && ids.has(r.user))
       .map(r => [...new Set(blocksText(r).split('\n').map(x => x.trim()).filter(Boolean))].join(' ')).join(' / ');
@@ -416,13 +433,13 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
       const who = doer || '미지정';
       counts.extern = counts.extern || {};
       counts.extern[who] = (counts.extern[who] || 0) + 1; externCount++;
-      done.push({ time, store, biz, cat: 'extern', emp: who, req, hw, urgent, intake, note: await grabNote(m, 'extern', time, store, biz) });
+      done.push({ time, store, biz, cat: 'extern', emp: who, req, hw, urgent, intake, note: await grabNote(m, 'extern', time, store, biz), ...metaOf(time + '|' + store + '|' + biz + '|extern') });
     } else if (emojiCat || (emp && !ch.requireCat && !newRule)) {   // 카테고리 이모지 있음. (옛 규칙 한정) AS채널은 '원격XX'만 있어도 완료→defaultCat
       const catKey = noSetup ? 'nosetup' : (emojiCat || ch.defaultCat);
       const who = emp || confirmPerson || '미지정';
       counts[catKey] = counts[catKey] || {};
       counts[catKey][who] = (counts[catKey][who] || 0) + 1; completed++;
-      done.push({ time, store, biz, cat: catKey, emp: who, req, hw, urgent, intake, note: await grabNote(m, catKey, time, store, biz) });
+      done.push({ time, store, biz, cat: catKey, emp: who, req, hw, urgent, intake, note: await grabNote(m, catKey, time, store, biz), ...metaOf(time + '|' + store + '|' + biz + '|' + catKey) });
     } else if (hasAbsent && !invalidPost) {  // 완료·카테고리 이모지 없이 '부재만' (확인+X 잘못올린글 제외)
       // 2차부재(재부재=연락 불가)는 확인필요에서 제외, 1차부재만 — 그것도 1시간 지나야 확인필요로 적재
       // 2차부재는 종결 건이라 미처리·누락 랭킹에는 넣지 않지만 인입 건이므로 '원격 총 건수'에는 센다 → days[d].absent
@@ -778,6 +795,8 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     // 이전 실행에서 수집한 처리내역 보존(재호출 방지) — done 항목 key: time|store|biz|cat
     const priorNotes = {};
     for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.note) priorNotes[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note; }
+    const priorMeta = {};   // 댓글 수·팀뷰어 정보 — 다시 모은 하루치에도 이어서 보존
+    for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.rc != null || it.tv) priorMeta[noteKey(it)] = { rc: it.rc, tv: it.tv }; }
     /* 처리내역 규칙이 바뀐 뒤 아직 새 규칙으로 모으지 않은 날이면 기존 note 를 재사용하지 않고 다시 모은다
        (못 읽은 건은 기존 값 유지). 전부 채워지면 그 날을 새 규칙 완료로 표시한다. */
     const noteDone = (data.noteV || {})[dstr] === NOTE_RULE;
@@ -789,7 +808,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
       try { msgs = await fetchAllRange(ch.id, b.oldest, b.latestBound); }
       catch (e) { console.error(`  ⚠ [${ch.label} ${dstr}] 읽기 실패(${e.message}) — 건너뜀`); failedChs.push(ch.label); continue; }
       const r = await tallyInto(msgs, ch, counts, pending, done,
-        { absent, priorNotes: noteDone ? priorNotes : v2Notes((data.days[dstr] || {}).done), oldNotes: priorNotes, state: noteState,
+        { absent, priorNotes: noteDone ? priorNotes : v2Notes((data.days[dstr] || {}).done), oldNotes: priorNotes, priorMeta, state: noteState,
           reuseEmpty: !noteDone && dstr < wdStart,
           budget: (dstr < wdStart && !backfillFrom) ? noteMigBudget : null });   // 최근 3일은 예산 없이 바로
       if (dstr === targetDate) trackResp(data, msgs, ch);   // 오늘 인입 건만 응답시간 폴링 추적
