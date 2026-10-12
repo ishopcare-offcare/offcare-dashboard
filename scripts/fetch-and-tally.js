@@ -307,6 +307,14 @@ function parseBiz(text) {
   const d = m[1].replace(/\D/g, '');
   return d.length >= 10 ? d.slice(0, 10) : d;
 }
+// 팀뷰어 ID — 스레드 댓글의 '팀뷰어 ID : 627830237' (작성자 무관, 마지막 값 우선).
+// PW 는 싣지 않는다 — 공개 저장소라 ID+PW 가 같이 있으면 누구나 매장에 원격접속할 수 있다(2026-10-12 결정)
+function parseTv(reps) {
+  const t = reps.map(r => blocksText(r)).join('\n').replace(/<tel:[^|>]*\|([^>]*)>/g, '$1').replace(/[*`_~]/g, '');
+  const last = (re) => { let v = ''; for (const m of t.matchAll(re)) v = m[1]; return v; };
+  const id = last(/(?:팀\s*뷰어|teamviewer)\s*(?:ID|아이디)\s*[:：]?\s*(\d[\d \-]{6,14}\d)/gi).replace(/\D/g, '');
+  return id ? { id } : null;
+}
 const noteKey = (it) =>it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
 /* 이관 중인 날에서 이미 새 규칙으로 확정된 건(nv 표시)만 재사용 대상으로 */
 function v2Notes(items) {
@@ -345,18 +353,18 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
   const fresh = state.fresh || (state.fresh = new Set());
   const reuseEmpty = !!(opts && opts.reuseEmpty);         // 빈 note 도 재사용(과거 날짜 — 나중에 댓글이 달릴 일이 없다)
   // 스레드 처리내역 수집: 이미 있으면 재사용, 없으면 착수 이모지를 찍은 사람의 댓글만 정리해 저장
-  /* 건별 부가정보 — rn = 댓글을 실제로 읽었을 때의 댓글 수.
-     처리내역은 한 번 모으면 재사용하므로, 읽은 기록이 없거나(rn 없음) 그 뒤 댓글이 늘어난 건만 다시 읽는다(최근 3일).
-     ⚠️ 읽지 않고 댓글 수만 기록하면 안 된다 — 그 전에 달린 댓글을 영영 놓친다(2026-10-12)
-     (팀뷰어 ID/PW 적재는 2026-10-12 제거 — 공개 저장소라 접속정보를 싣지 않는다) */
+  /* 건별 부가정보 — rr = 댓글을 실제로 읽었을 때의 댓글 수, tv = 팀뷰어 ID.
+     처리내역은 한 번 모으면 재사용하므로, 읽은 기록이 없거나(rr 없음) 그 뒤 댓글이 늘어난 건만 다시 읽는다(최근 3일).
+     (rn→rr 로 이름을 바꾼 건 팀뷰어 적재를 껐다 켜면서 지워졌을 수 있는 값을 한 번 다시 읽게 하려는 것 — 2026-10-12)
+     ⚠️ 읽지 않고 댓글 수만 기록하면 안 된다 — 첫 배포 때 그렇게 해서 이미 달려 있던 팀뷰어 댓글을 놓쳤다(2026-10-12) */
   const priorMeta = (opts && opts.priorMeta) || {};
   const metaOut = {};
-  const metaOf = (k) => { const x = metaOut[k] || {}, o = {}; if (x.rn) o.rn = x.rn; return o; };
+  const metaOf = (k) => { const x = metaOut[k] || {}, o = {}; if (x.rr) o.rr = x.rr; if (x.tv) o.tv = x.tv; return o; };
   async function grabNote(m, catKey, time, store, biz) {
     const key = time + '|' + store + '|' + biz + '|' + catKey;
     const pm = priorMeta[key] || {}, rc = m.reply_count || 0;
-    metaOut[key] = { rn: pm.rn };
-    const recheck = !reuseEmpty && rc > 0 && (pm.rn == null || rc > pm.rn);
+    metaOut[key] = { rr: pm.rr, tv: pm.tv };
+    const recheck = !reuseEmpty && rc > 0 && (pm.rr == null || rc > pm.rr);
     if (!recheck && (priorNotes[key] || (reuseEmpty && key in priorNotes))) { fresh.add(key); return priorNotes[key]; }
     if (!((m.reply_count || 0) > 0 && ch.id)) { fresh.add(key); return ''; }
     const ids = workerIds(m);
@@ -372,7 +380,7 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     }
     const reps = await fetchRepliesStrict(ch.id, m.ts);
     if (reps === null) { state.incomplete = true; return oldNotes[key] || ''; }   // 못 읽었으면 기존 값 유지
-    metaOut[key] = { rn: rc };
+    metaOut[key] = { rr: rc, tv: parseTv(reps) || pm.tv };
     // blocksText는 m.text와 m.blocks의 동일 내용을 둘 다 담아 문구가 중복됨 → 답글별 동일 줄 제거
     const txt = reps.filter(r => r.user && ids.has(r.user))
       .map(r => [...new Set(blocksText(r).split('\n').map(x => x.trim()).filter(Boolean))].join(' ')).join(' / ');
@@ -789,8 +797,8 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     // 이전 실행에서 수집한 처리내역 보존(재호출 방지) — done 항목 key: time|store|biz|cat
     const priorNotes = {};
     for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.note) priorNotes[it.time + '|' + it.store + '|' + it.biz + '|' + it.cat] = it.note; }
-    const priorMeta = {};   // 댓글 수 — 다시 모은 하루치에도 이어서 보존 (옛 tv 는 넘기지 않아 다시 모으면 지워진다)
-    for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.rn != null) priorMeta[noteKey(it)] = { rn: it.rn }; }   // 옛 rc(읽지 않고 센 값)는 버린다
+    const priorMeta = {};   // 댓글 수·팀뷰어 정보 — 다시 모은 하루치에도 이어서 보존
+    for (const it of (((data.days[dstr] || {}).done) || [])) { if (it.rr != null || (it.tv && it.tv.id)) priorMeta[noteKey(it)] = { rr: it.rr, tv: it.tv && it.tv.id ? { id: it.tv.id } : undefined }; }   // 옛 rc(읽지 않고 센 값)·옛 PW 는 버린다
     /* 처리내역 규칙이 바뀐 뒤 아직 새 규칙으로 모으지 않은 날이면 기존 note 를 재사용하지 않고 다시 모은다
        (못 읽은 건은 기존 값 유지). 전부 채워지면 그 날을 새 규칙 완료로 표시한다. */
     const noteDone = (data.noteV || {})[dstr] === NOTE_RULE;
