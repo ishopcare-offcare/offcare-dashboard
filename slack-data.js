@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19340,
+  "version": 19341,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245130,6 +245130,18 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
+          "time": "10:28",
+          "store": "대성 원예",
+          "biz": "6969001723",
+          "handler": "박하림",
+          "cat": "as",
+          "intake": "online",
+          "req": "프론트 인터넷 연결이 자꾸 끊겼다고 나온다고 하셔서 확인 요청 드립니다!",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
           "time": "10:25",
           "store": "스투썸 (주)",
           "biz": "6178702689",
@@ -245673,7 +245685,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 31,
+        "online": 32,
         "offline": 14,
         "unknown": 0
       },
@@ -245708,7 +245720,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791772110.567,
+        "lastSeen": 1791772172.572,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245719,14 +245731,17 @@ window.SLACK_DATA = {
       },
       "1791771792.369559": {
         "post": "1791771792.369559",
-        "lastSeen": 1791772110.567,
+        "lastSeen": 1791772172.572,
         "r": 1,
         "day": "2026-10-12",
         "idx": 33
       },
       "1791772079.799719": {
         "post": "1791772079.799719",
-        "lastSeen": 1791772110.567
+        "lastSeen": 1791772172.572,
+        "r": 1,
+        "day": "2026-10-12",
+        "idx": 34
       }
     },
     "days": {
@@ -328891,8 +328906,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-12": {
-        "cnt": 34,
-        "sumMin": 140.91508341232935,
+        "cnt": 35,
+        "sumMin": 141.94457976023355,
         "over": 0,
         "items": [
           {
@@ -329198,13 +329213,21 @@ window.SLACK_DATA = {
             "biz": "1526300932",
             "who": "고경림",
             "cat": "as"
+          },
+          {
+            "hm": "11:27",
+            "min": 1,
+            "store": "브림 스테이(Brim Stay)",
+            "biz": "6532601972",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:28",
+    "at": "2026-10-12 11:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329330,7 +329353,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:28",
+    "at": "2026-10-12 11:29",
     "pri": {
       "days": 0,
       "failed": [],
