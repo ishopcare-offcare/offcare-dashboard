@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19349,
+  "version": 19350,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245097,6 +245097,11 @@ window.SLACK_DATA = {
     },
     "2026-10-12": {
       "counts": {
+        "booking": {
+          "박하림": 1,
+          "고경림": 1,
+          "김현기": 1
+        },
         "onboarding": {
           "송태양": 2,
           "김기범": 1
@@ -245112,10 +245117,6 @@ window.SLACK_DATA = {
         },
         "nosetup": {
           "송태양": 1
-        },
-        "booking": {
-          "고경림": 1,
-          "김현기": 1
         },
         "extern": {
           "김동욱": 1
@@ -245143,6 +245144,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:36",
+          "store": "살롱 드 메이(MAY)",
+          "biz": "6931802902",
+          "cat": "booking",
+          "emp": "박하림",
+          "req": "노트북 + 터프 온보딩 도움부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:27",
           "store": "브림 스테이(Brim Stay)",
@@ -245732,11 +245744,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 37,
+        "online": 38,
         "offline": 14,
         "unknown": 0
       },
-      "updatedAt": "11:36",
+      "updatedAt": "11:39",
       "absent": [
         {
           "time": "11:00",
@@ -245777,7 +245789,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791772705.553,
+        "lastSeen": 1791772780.448,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245788,17 +245800,18 @@ window.SLACK_DATA = {
       },
       "1791772200.120779": {
         "post": "1791772200.120779",
-        "lastSeen": 1791772705.553,
+        "lastSeen": 1791772780.448,
         "r": 1,
         "day": "2026-10-12",
         "idx": 35
       },
-      "1791772603.966569": {
-        "post": "1791772603.966569",
-        "lastSeen": 1791772705.553,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 36
+      "1791772765.225549": {
+        "post": "1791772765.225549",
+        "lastSeen": 1791772780.448
+      },
+      "1791772742.897099": {
+        "post": "1791772742.897099",
+        "lastSeen": 1791772780.448
       }
     },
     "days": {
@@ -329295,14 +329308,15 @@ window.SLACK_DATA = {
             "store": "살롱 드 메이(MAY)",
             "biz": "6931802902",
             "who": "박하림",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 2.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:38",
+    "at": "2026-10-12 11:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329428,7 +329442,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:38",
+    "at": "2026-10-12 11:39",
     "pri": {
       "days": 0,
       "failed": [],
