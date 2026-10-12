@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19334,
+  "version": 19335,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245476,7 +245476,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "IP 주소 추적 제한 끄기 후 온보딩 완료 / 상세하게 잘 안내드렸는데 재연락 필요할까요?",
-          "rc": 4
+          "rc": 5
         },
         {
           "time": "10:04",
@@ -245671,7 +245671,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791771670.68,
+        "lastSeen": 1791771744.52,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245682,7 +245682,7 @@ window.SLACK_DATA = {
       },
       "1791771305.571359": {
         "post": "1791771305.571359",
-        "lastSeen": 1791771670.68,
+        "lastSeen": 1791771744.52,
         "r": 1,
         "day": "2026-10-12",
         "idx": 32
@@ -329154,7 +329154,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:21",
+    "at": "2026-10-12 11:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329280,7 +329280,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:21",
+    "at": "2026-10-12 11:22",
     "pri": {
       "days": 0,
       "failed": [],
