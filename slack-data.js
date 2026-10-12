@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19299,
+  "version": 19300,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244188,7 +244188,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "transfer": {
-          "송태양": 1
+          "송태양": 2
         },
         "menu": {
           "김규빈": 1,
@@ -244207,6 +244207,17 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "프론트에 보이는 순서 변경 요청 -&gt; 토스 포스 내에서 고객용 채널 눌러서 순서 변경 필요함 안내 완료 프론트에 보이는 순서 변경 요청 - 토스 포스 내에서 고객용 채널 눌러서 순서 변경 필요함 안내 완료"
+        },
+        {
+          "time": "10:23",
+          "store": "에픽영어학원",
+          "biz": "1759002680",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "10월 12일 지금 바로 / 메뉴 복사 O / 프론트, 유프",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(PC)+유프 명변 완료입니다"
         },
         {
           "time": "10:18",
@@ -244409,11 +244420,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "10:30"
+      "updatedAt": "10:34"
     }
   },
   "resp": {
@@ -244442,16 +244453,9 @@ window.SLACK_DATA = {
         "post": "1791730790.988029",
         "lastSeen": 1791749727.128
       },
-      "1791768215.820289": {
-        "post": "1791768215.820289",
-        "lastSeen": 1791768878.523,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 14
-      },
       "1791768603.647999": {
         "post": "1791768603.647999",
-        "lastSeen": 1791768878.523,
+        "lastSeen": 1791768959.748,
         "r": 1,
         "day": "2026-10-12",
         "idx": 15
@@ -327755,7 +327759,8 @@ window.SLACK_DATA = {
             "store": "에픽영어학원",
             "biz": "1759002680",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 11.7
           },
           {
             "hm": "10:30",
@@ -327770,7 +327775,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:34",
+    "at": "2026-10-12 10:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327896,7 +327901,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:34",
+    "at": "2026-10-12 10:35",
     "pri": {
       "days": 0,
       "failed": [],
