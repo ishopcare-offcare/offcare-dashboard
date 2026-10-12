@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19329,
+  "version": 19330,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244203,12 +244203,23 @@ window.SLACK_DATA = {
           "송태양": 3
         },
         "menu": {
-          "김규빈": 2,
+          "김규빈": 3,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:08",
+          "store": "신돌판(수원직영점)",
+          "biz": "6760902623",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "메뉴 추가 요청 드립니다!",
+          "hw": "",
+          "intake": "offline",
+          "note": "KISOKPOS 검색할때 돌판으로만 검색 신돌판으로 하면 안나옴 / 완료"
+        },
         {
           "time": "11:05",
           "store": "명인김치찌개",
@@ -244632,10 +244643,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 27,
-        "offline": 11,
+        "offline": 12,
         "unknown": 0
       },
-      "updatedAt": "11:13"
+      "updatedAt": "11:15"
     }
   },
   "resp": {
@@ -244666,14 +244677,14 @@ window.SLACK_DATA = {
       },
       "1791769818.596409": {
         "post": "1791769818.596409",
-        "lastSeen": 1791771263.46,
+        "lastSeen": 1791771340.443,
         "r": 1,
         "day": "2026-10-12",
         "idx": 23
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791771263.46,
+        "lastSeen": 1791771340.443,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -244684,7 +244695,14 @@ window.SLACK_DATA = {
       },
       "1791771234.900339": {
         "post": "1791771234.900339",
-        "lastSeen": 1791771263.46
+        "lastSeen": 1791771340.443,
+        "r": 1,
+        "day": "2026-10-12",
+        "idx": 31
+      },
+      "1791771305.571359": {
+        "post": "1791771305.571359",
+        "lastSeen": 1791771340.443
       }
     },
     "days": {
@@ -327849,8 +327867,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-12": {
-        "cnt": 31,
-        "sumMin": 137.21558769146603,
+        "cnt": 32,
+        "sumMin": 138.33310704231263,
         "over": 0,
         "items": [
           {
@@ -328129,13 +328147,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "nosetup",
             "dmin": 11.7
+          },
+          {
+            "hm": "11:13",
+            "min": 1.1,
+            "store": "킹덤바버샵",
+            "biz": "1972702177",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:14",
+    "at": "2026-10-12 11:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -328261,7 +328287,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:14",
+    "at": "2026-10-12 11:15",
     "pri": {
       "days": 0,
       "failed": [],
