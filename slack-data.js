@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19263,
+  "version": 19264,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244169,6 +244169,9 @@ window.SLACK_DATA = {
     },
     "2026-10-12": {
       "counts": {
+        "onboarding": {
+          "송태양": 1
+        },
         "extern": {
           "김동욱": 1
         },
@@ -244182,6 +244185,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:39",
+          "store": "오손내미오",
+          "biz": "3020651654",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "포프(태블릿) 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩/ 금액입력결제모드 설정 및 결제테스트 완료입니다"
+        },
         {
           "time": "09:30",
           "store": "드롭탑(대구웨딩비엔나점)",
@@ -244239,7 +244253,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 2,
         "unknown": 0
       },
@@ -244274,28 +244288,21 @@ window.SLACK_DATA = {
       },
       "1791765065.263629": {
         "post": "1791765065.263629",
-        "lastSeen": 1791766264.926,
+        "lastSeen": 1791766304.624,
         "r": 1,
         "day": "2026-10-12",
         "idx": 4
       },
-      "1791765562.134379": {
-        "post": "1791765562.134379",
-        "lastSeen": 1791766264.926,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 5
-      },
       "1791765677.644759": {
         "post": "1791765677.644759",
-        "lastSeen": 1791766264.926,
+        "lastSeen": 1791766304.624,
         "r": 1,
         "day": "2026-10-12",
         "idx": 6
       },
       "1791765900.756559": {
         "post": "1791765900.756559",
-        "lastSeen": 1791766264.926
+        "lastSeen": 1791766304.624
       }
     },
     "days": {
@@ -327514,7 +327521,8 @@ window.SLACK_DATA = {
             "store": "오손내미오",
             "biz": "3020651654",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 12
           },
           {
             "hm": "09:41",
@@ -327529,7 +327537,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 09:51",
+    "at": "2026-10-12 09:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
