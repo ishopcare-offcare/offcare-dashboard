@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19336,
+  "version": 19337,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245102,8 +245102,8 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "as": {
+          "고경림": 6,
           "김동욱": 7,
-          "고경림": 5,
           "박하림": 2,
           "김현기": 6,
           "심성현": 5,
@@ -245140,6 +245140,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "스파로스 및 단말기 재설치 완료",
+          "rc": 1
+        },
+        {
+          "time": "11:18",
+          "store": "모던컷",
+          "biz": "4082953527",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프+cat 사용 중 전화번호 수정 재다운로드 안내 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "단말기 재다운로드 완료",
           "rc": 1
         },
         {
@@ -245636,7 +245648,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 28,
+        "online": 29,
         "offline": 14,
         "unknown": 0
       },
@@ -245671,7 +245683,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791771801.677,
+        "lastSeen": 1791771851.854,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245682,14 +245694,14 @@ window.SLACK_DATA = {
       },
       "1791771305.571359": {
         "post": "1791771305.571359",
-        "lastSeen": 1791771801.677,
+        "lastSeen": 1791771851.854,
         "r": 1,
         "day": "2026-10-12",
         "idx": 32
       },
       "1791771792.369559": {
         "post": "1791771792.369559",
-        "lastSeen": 1791771801.677
+        "lastSeen": 1791771851.854
       }
     },
     "days": {
@@ -329158,7 +329170,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:23",
+    "at": "2026-10-12 11:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329284,7 +329296,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:23",
+    "at": "2026-10-12 11:24",
     "pri": {
       "days": 0,
       "failed": [],
