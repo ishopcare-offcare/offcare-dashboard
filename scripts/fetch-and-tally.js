@@ -418,9 +418,9 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
       // 2차부재(재부재=연락 불가)는 확인필요에서 제외, 1차부재만 — 그것도 1시간 지나야 확인필요로 적재
       // 2차부재는 종결 건이라 미처리·누락 랭킹에는 넣지 않지만 인입 건이므로 '원격 총 건수'에는 센다 → days[d].absent
       if (absTag === '2차 부재') { if (opts && opts.absent) opts.absent.push({ time, store, biz, handler: doer || '미지정', cat: pendCat, intake }); }
-      else if (ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: doer || '미지정', cat: pendCat, intake, reasons: [absTag] });
+      else if (ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: doer || '미지정', cat: pendCat, intake, req, reasons: [absTag] });
     } else if (toucher && !invalidPost) { // 착수만 찍힘 → 1시간 지나면 '확인 후 미완료' (착수+X 잘못올린글 제외)
-      if (ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: toucher, cat: pendCat, intake, reasons: ['확인 후 미완료'] });
+      if (ageSec >= CONFIRM_GRACE_SEC) pending.push({ time, store, biz, handler: toucher, cat: pendCat, intake, req, reasons: ['확인 후 미완료'] });
     }
   }
   return { completed, externCount, dup, latest };
