@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19294,
+  "version": 19295,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244238,7 +244238,7 @@ window.SLACK_DATA = {
           "req": "터미널2 기기 토스포스에 프린터로 연결중인데 진행이 어렵다고 하셔서 원격 도움 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "IP 주소 추적 제한 끄기 후 온보딩 완료"
         },
         {
           "time": "10:04",
@@ -244389,7 +244389,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "10:27"
+      "updatedAt": "10:30"
     }
   },
   "resp": {
@@ -244420,17 +244420,21 @@ window.SLACK_DATA = {
       },
       "1791767913.049859": {
         "post": "1791767913.049859",
-        "lastSeen": 1791768508.939,
+        "lastSeen": 1791768604.869,
         "r": 1,
         "day": "2026-10-12",
         "idx": 13
       },
       "1791768215.820289": {
         "post": "1791768215.820289",
-        "lastSeen": 1791768508.939,
+        "lastSeen": 1791768604.869,
         "r": 1,
         "day": "2026-10-12",
         "idx": 14
+      },
+      "1791768603.647999": {
+        "post": "1791768603.647999",
+        "lastSeen": 1791768604.869
       }
     },
     "days": {
@@ -327737,7 +327741,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:29",
+    "at": "2026-10-12 10:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327863,7 +327867,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:28",
+    "at": "2026-10-12 10:30",
     "pri": {
       "days": 0,
       "failed": [],
