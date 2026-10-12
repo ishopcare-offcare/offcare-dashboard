@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19301,
+  "version": 19302,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244431,11 +244431,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "10:36"
+      "updatedAt": "10:36",
+      "absent": [
+        {
+          "time": "10:30",
+          "store": "이너커피",
+          "biz": "6591302829",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -244466,7 +244476,7 @@ window.SLACK_DATA = {
       },
       "1791768603.647999": {
         "post": "1791768603.647999",
-        "lastSeen": 1791769062.241,
+        "lastSeen": 1791769172.989,
         "r": 1,
         "day": "2026-10-12",
         "idx": 15
@@ -327786,7 +327796,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:37",
+    "at": "2026-10-12 10:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327912,7 +327922,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:37",
+    "at": "2026-10-12 10:39",
     "pri": {
       "days": 0,
       "failed": [],
