@@ -3,10 +3,34 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3306,
- "updatedAt": "2026-10-12 11:06",
+ "version": 3307,
+ "updatedAt": "2026-10-12 11:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1791770922.257449",
+   "date": "2026-10-12",
+   "time": "11:08",
+   "store": "신돌판(수원직영점)",
+   "biz": "6760902623",
+   "pos": "",
+   "content": "메뉴 추가 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "점심메뉴 카테에  [법성포 굴비튀김 5마리 8,000원]",
+    "등록 완료 후 솔라피 발송 요청"
+   ],
+   "rc": 3,
+   "lr": "1791770968.416239",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791770922257449"
+  },
   {
    "ts": "1791770611.187439",
    "date": "2026-10-12",
@@ -123,7 +147,7 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791770611187439"
   },
