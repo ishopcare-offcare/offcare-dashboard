@@ -3,10 +3,185 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3311,
- "updatedAt": "2026-10-12 12:16",
+ "version": 3312,
+ "updatedAt": "2026-10-12 12:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1791775228.503929",
+   "date": "2026-10-12",
+   "time": "12:20",
+   "store": "피자브레드랩",
+   "biz": "7861902759",
+   "pos": "토스포스",
+   "content": "디트로이트피자메뉴\n하프앤하프 13800\n(옵션 필수2개선택) 오리진치즈 0원\n더블페퍼로니 1400\n페스토치킨 2400\n잠봉루꼴라 2500\n트러플 3000\n모르타델라리코타허니 3000\n레드쉬림프 4000\n\n오리진치즈 13800\n더블페퍼로니 15800\n페스토치킨 18600\n잠봉루꼴라 18800\n트러플머쉬룸 19800\n모르타델라리코타허니 19800\n레드쉬림프 21800\n사이드메뉴\n치킨페스토파스타 6900\n미트볼라구파스타 6900\n수비드 닭가슴살 시저샐러드 6300\n쉬림프시저샐러드 6300\n아메리칸나초 5500\n하우스피클 800\n음료\n자몽에이드 3500\n레몬에이드 3500\n콜라 2000\n제로콜라 2000\n스프라이트 2000\n제로스프라이트 2000\n맥주\n페로니 7000\n버드와이저 6000",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1HqOIRqU1K6drUsQfSHAv9AqxSS6ZGLYj/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1HqOIRqU1K6drUsQfSHAv9AqxSS6ZGLYj",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "HALF & HALF",
+       "name": "하프앤하프",
+       "price": 13800
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "오리진치즈",
+       "price": 0
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "더블페퍼로니",
+       "price": 1400
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "페스토치킨",
+       "price": 2400
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "잠봉루꼴라",
+       "price": 2500
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "트러플",
+       "price": 3000
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "모르타델라리코타허니",
+       "price": 3000
+      },
+      {
+       "category": "HALF & HALF",
+       "name": "레드쉬림프",
+       "price": 4000
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "오리진치즈",
+       "price": 13800
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "더블페퍼로니",
+       "price": 15800
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "페스토치킨",
+       "price": 18600
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "잠봉루꼴라",
+       "price": 18800
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "트러플머쉬룸",
+       "price": 19800
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "모르타델라리코타허니",
+       "price": 19800
+      },
+      {
+       "category": "DETROIT PIZZA",
+       "name": "레드쉬림프",
+       "price": 21800
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "치킨페스토파스타",
+       "price": 6900
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "미트볼라구파스타",
+       "price": 6900
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "수비드 닭가슴살 시저샐러드",
+       "price": 6300
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "쉬림프시저샐러드",
+       "price": 6300
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "아메리칸나초",
+       "price": 5500
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "하우스피클",
+       "price": 800
+      },
+      {
+       "category": "DRINKS",
+       "name": "자몽에이드",
+       "price": 3500
+      },
+      {
+       "category": "DRINKS",
+       "name": "레몬에이드",
+       "price": 3500
+      },
+      {
+       "category": "DRINKS",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "DRINKS",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "DRINKS",
+       "name": "스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "DRINKS",
+       "name": "제로스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "BEER",
+       "name": "페로니",
+       "price": 7000
+      },
+      {
+       "category": "BEER",
+       "name": "버드와이저",
+       "price": 6000
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791775228503929"
+  },
   {
    "ts": "1791774939.440819",
    "date": "2026-10-12",
