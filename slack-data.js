@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19338,
+  "version": 19339,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245121,14 +245121,27 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "transfer": {
-          "송태양": 3
+          "송태양": 4
         },
         "menu": {
           "김규빈": 3,
           "김동욱": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "10:25",
+          "store": "스투썸 (주)",
+          "biz": "6178702689",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online",
+          "req": "포프 온보딩 요청드립니다.",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:19",
@@ -245152,6 +245165,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "단말기 재다운로드 완료",
+          "rc": 1
+        },
+        {
+          "time": "11:15",
+          "store": "굽네치킨 안양박달점",
+          "biz": "4971602751",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "10월 12일 지금 바로 / 메뉴 복사 X / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "• 포프(포스기)+메이트포스 명변 완료입니다 포프(포스기)+메이트포스 명변 완료입니다",
           "rc": 1
         },
         {
@@ -245648,7 +245673,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 29,
+        "online": 31,
         "offline": 14,
         "unknown": 0
       },
@@ -245683,7 +245708,7 @@ window.SLACK_DATA = {
       },
       "1791770402.742199": {
         "post": "1791770402.742199",
-        "lastSeen": 1791771910.472,
+        "lastSeen": 1791772037.991,
         "r": 1,
         "day": "2026-10-12",
         "idx": 27
@@ -245692,16 +245717,9 @@ window.SLACK_DATA = {
         "post": "1791771079.483339",
         "lastSeen": 1791771080.388
       },
-      "1791771305.571359": {
-        "post": "1791771305.571359",
-        "lastSeen": 1791771910.472,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 32
-      },
       "1791771792.369559": {
         "post": "1791771792.369559",
-        "lastSeen": 1791771910.472,
+        "lastSeen": 1791772037.991,
         "r": 1,
         "day": "2026-10-12",
         "idx": 33
@@ -329166,7 +329184,8 @@ window.SLACK_DATA = {
             "store": "굽네치킨 안양박달점",
             "biz": "4971602751",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 11.1
           },
           {
             "hm": "11:23",
@@ -329181,7 +329200,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 11:25",
+    "at": "2026-10-12 11:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -329307,7 +329326,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 11:25",
+    "at": "2026-10-12 11:27",
     "pri": {
       "days": 0,
       "failed": [],
