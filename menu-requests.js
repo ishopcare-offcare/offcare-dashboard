@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3297,
- "updatedAt": "2026-10-11 20:41",
+ "version": 3298,
+ "updatedAt": "2026-10-12 09:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1791763910.379889",
+   "date": "2026-10-12",
+   "time": "09:11",
+   "store": "행복한집",
+   "biz": "3931301196",
+   "pos": "토스포스",
+   "content": "숯불양념구이정식10,000원 → 11,000원 가격 수정 요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791763910379889"
+  },
   {
    "ts": "1791717108.693049",
    "date": "2026-10-11",
