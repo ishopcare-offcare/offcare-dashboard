@@ -217,9 +217,6 @@
   .ss-status{font-size:12.5px; color:var(--gray)}
   .ss-pick{cursor:pointer} .ss-pick:hover{border-color:var(--blue,#1F4FFA); color:var(--blue,#1F4FFA)}
   .ss-back{cursor:pointer; font-size:12.5px; font-weight:600; color:var(--blue,#1F4FFA)}
-  .ss-tv{font-size:12.5px; white-space:nowrap}
-  .ss-tv-v{cursor:pointer; border-radius:6px; padding:1px 4px; font-family:ui-monospace,Menlo,Consolas,monospace}
-  .ss-tv-v:hover{background:var(--blue-200,#DAE5FF)}
   .ss-note{font-size:12.5px; color:var(--slate,#454b54); max-width:280px; white-space:normal; word-break:break-word}
   .as-brk{display:flex; flex-direction:column; gap:9px}
   .as-brk-row{display:flex; align-items:center; gap:12px; cursor:pointer; padding:5px 6px; border-radius:9px; transition:background .12s}
@@ -5492,7 +5489,7 @@ function filterDoneModal(q){ q=(q||'').trim().toLowerCase(); document.querySelec
 function openStoreSearch(){
   let el=document.getElementById('storeSearchModal');
   if(!el){ el=document.createElement('div'); el.id='storeSearchModal'; el.className='detail-overlay'; el.onclick=e=>{ if(e.target===el) el.remove(); }; document.body.appendChild(el); }
-  el.innerHTML=`<div class="detail-box" style="max-width:1080px"><div class="detail-head"><h3>🔍 매장 이력 조회</h3><button class="detail-x" onclick="document.getElementById('storeSearchModal').remove()">✕</button></div>
+  el.innerHTML=`<div class="detail-box" style="max-width:940px"><div class="detail-head"><h3>🔍 매장 이력 조회</h3><button class="detail-x" onclick="document.getElementById('storeSearchModal').remove()">✕</button></div>
     <input class="search-box" id="storeSearchBox" type="text" placeholder="상호명 또는 사업자번호 입력 (2글자 이상)…" oninput="ssBackQ='';runStoreSearch(this.value)">
     <div class="detail-scroll" id="storeSearchBody"><div class="empty-note">상호명 또는 사업자번호를 입력하면<br>전체 기간의 인입 이력·횟수·요청내용·처리내역이 표시됩니다.</div></div></div>`;
   const inp=document.getElementById('storeSearchBox'); if(inp) inp.focus();
@@ -5509,7 +5506,7 @@ function runStoreSearch(q,exact){
   const matchWork=(store,biz)=>{ if(exact) return normStore(store)===normStore(exact); if(store&&store.toLowerCase().includes(ql)) return true; const b=bizQ.length>=4?bizOf(store,biz):''; return !!b&&b.includes(bizQ); };
   const rows=[];
   for(const d of allSlackDates()){ const dd=slackDay(d)||{};
-    (dd.done||[]).forEach(x=>{ if(matchWork(x.store,x.biz)) rows.push({date:d,time:x.time,store:x.store,biz:x.biz,cat:x.cat,emp:x.emp,st:'처리',req:x.req||'',note:x.note||'',tv:x.tv||null}); });
+    (dd.done||[]).forEach(x=>{ if(matchWork(x.store,x.biz)) rows.push({date:d,time:x.time,store:x.store,biz:x.biz,cat:x.cat,emp:x.emp,st:'처리',req:x.req||'',note:x.note||''}); });
     (dd.pending||[]).forEach(x=>{ if(matchWork(x.store,x.biz)){ const ab=(x.reasons||[]).some(r=>/부재/.test(r)); rows.push({date:d,time:x.time,store:x.store,biz:x.biz,cat:x.cat,emp:x.handler,st:ab?'부재':'확인필요',req:x.req||'',note:(x.reasons||[]).join(', ')}); } });
     const v=dd.voc; if(v)(v.alerts||[]).forEach(x=>{ if(exact?normStore(x.store)===normStore(exact):(x.store&&x.store.toLowerCase().includes(ql))||(x.storeId&&String(x.storeId).toLowerCase().includes(ql))) rows.push({date:d,time:x.time,store:x.store,cat:'voc',emp:vocEmpAt(d,x),st:vocDone(x.autoStatus||'')?'처리':'저점',note:x.autoNote||((x.reasons||[]).map(r=>r.text).filter(Boolean).join(' / '))}); });
   }
@@ -5519,26 +5516,19 @@ function runStoreSearch(q,exact){
   const doneN=rows.filter(r=>r.st==='처리').length, pendN=rows.filter(r=>r.st==='부재'||r.st==='확인필요').length, vocN=byCat['voc']||0;
   const stores=[...new Set(rows.map(r=>r.store).filter(Boolean))];
   const catChips=WORK_CATS.map(c=>byCat[c.key]?`<span class="ss-chip">${c.icon} ${c.name} <b>${byCat[c.key]}</b></span>`:'').filter(Boolean).join('')+(vocN?`<span class="ss-chip">💬 VOC저점 <b>${vocN}</b></span>`:'');
-  // 팀뷰어는 매장 단위 정보라, 그 건에 없으면 같은 매장(사업자번호, 없으면 상호)의 가장 최근 값을 보여준다
-  const tvKey=r=>bizOf(r.store,r.biz)||normStore(r.store), tvByStore={};
-  rows.forEach(r=>{ if(r.tv){ const k=tvKey(r); if(!tvByStore[k]) tvByStore[k]=r; } });
-  const tvLast=rows.find(r=>r.tv);
-  const byStore={}; rows.forEach(r=>{ const k=tvKey(r); const o=byStore[k]||(byStore[k]={store:r.store,biz:bizOf(r.store,r.biz),n:0}); o.n++; });   // 최신순이라 store = 가장 최근 상호
-  ssStoreList=Object.values(byStore).sort((a,b)=>b.n-a.n); const storeIdx={}; ssStoreList.forEach((o,i)=>storeIdx[tvKey({store:o.store,biz:o.biz})]=i);
+  const storeKey=r=>bizOf(r.store,r.biz)||normStore(r.store);   // 매장 = 사업자번호, 없으면 상호
+  const byStore={}; rows.forEach(r=>{ const k=storeKey(r); const o=byStore[k]||(byStore[k]={store:r.store,biz:bizOf(r.store,r.biz),n:0}); o.n++; });   // 최신순이라 store = 가장 최근 상호
+  ssStoreList=Object.values(byStore).sort((a,b)=>b.n-a.n); const storeIdx={}; ssStoreList.forEach((o,i)=>storeIdx[storeKey({store:o.store,biz:o.biz})]=i);
   const multi=ssStoreList.length>1;
-  const backLink=ssBackQ?`<div><span class="ss-back" onclick="ssBack()">← '${escapeHtml(ssBackQ)}' 전체 결과로</span></div>`:'';   // 최신순 정렬이라 첫 값 = 가장 최근에 남긴 팀뷰어 정보
-  const summary=`<div class="ss-summary">${backLink}<div class="ss-total">총 <b>${rows.length}</b>회 인입${multi?` · <b>${ssStoreList.length}</b>개 매장 <span style="color:var(--gray2);font-size:12px">(상호를 클릭하면 그 매장만)</span>`:''} · 최근 ${fmtShort(rows[0].date)}</div><div class="ss-chips">${catChips}</div><div class="ss-status">✅ 처리 ${doneN} · ⚠️ 부재·미처리 ${pendN}</div>${tvLast&&!multi?`<div class="ss-status">🖥️ 최근 팀뷰어 (${fmtShort(tvLast.date)}) ${ssTvHtml(tvLast.tv)}</div>`:''}</div>`;
-  const trs=rows.map(r=>`<tr><td class="trow-time">${fmtShort(r.date)}<br><span style="color:var(--gray2)">${escapeHtml(r.time||'')}</span></td><td class="emp-name${multi?' emp-click':''}"${multi?` onclick="ssPickStore(${storeIdx[tvKey(r)]})" title="이 매장 이력만 보기"`:''}>${escapeHtml(r.store||'-')}</td><td>${catChip(r.cat)}</td><td class="dm-emp">${escapeHtml(r.emp||'-')}</td><td>${detailStatusBadge(r.st==='저점'?'확인필요':r.st)}</td><td class="ss-note">${r.req?escapeHtml(r.req):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-note">${r.note?escapeHtml(r.note):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-tv">${(()=>{ if(r.tv) return ssTvHtml(r.tv,true); const t=tvByStore[tvKey(r)]; return t?`${ssTvHtml(t.tv,true)}<br><span style="color:var(--gray2);font-size:11px">${fmtShort(t.date)} 기록</span>`:'<span style="color:var(--gray2)">—</span>'; })()}</td></tr>`).join('');
-  body.innerHTML=`${summary}<div style="overflow-x:auto"><table class="voc-table" style="margin-top:12px"><thead><tr><th style="width:62px">인입일</th><th style="min-width:100px">상호</th><th style="width:72px">유형</th><th style="width:86px">담당</th><th style="width:70px">상태</th><th style="min-width:130px">요청내용</th><th style="min-width:150px">처리내역</th><th style="min-width:120px">팀뷰어</th></tr></thead><tbody>${trs}</tbody></table></div>`;
+  const backLink=ssBackQ?`<div><span class="ss-back" onclick="ssBack()">← '${escapeHtml(ssBackQ)}' 전체 결과로</span></div>`:'';
+  const summary=`<div class="ss-summary">${backLink}<div class="ss-total">총 <b>${rows.length}</b>회 인입${multi?` · <b>${ssStoreList.length}</b>개 매장 <span style="color:var(--gray2);font-size:12px">(상호를 클릭하면 그 매장만)</span>`:''} · 최근 ${fmtShort(rows[0].date)}</div><div class="ss-chips">${catChips}</div><div class="ss-status">✅ 처리 ${doneN} · ⚠️ 부재·미처리 ${pendN}</div></div>`;
+  const trs=rows.map(r=>`<tr><td class="trow-time">${fmtShort(r.date)}<br><span style="color:var(--gray2)">${escapeHtml(r.time||'')}</span></td><td class="emp-name${multi?' emp-click':''}"${multi?` onclick="ssPickStore(${storeIdx[storeKey(r)]})" title="이 매장 이력만 보기"`:''}>${escapeHtml(r.store||'-')}</td><td>${catChip(r.cat)}</td><td class="dm-emp">${escapeHtml(r.emp||'-')}</td><td>${detailStatusBadge(r.st==='저점'?'확인필요':r.st)}</td><td class="ss-note">${r.req?escapeHtml(r.req):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-note">${r.note?escapeHtml(r.note):'<span style="color:var(--gray2)">—</span>'}</td></tr>`).join('');
+  body.innerHTML=`${summary}<div style="overflow-x:auto"><table class="voc-table" style="margin-top:12px"><thead><tr><th style="width:62px">인입일</th><th style="min-width:100px">상호</th><th style="width:72px">유형</th><th style="width:86px">담당</th><th style="width:70px">상태</th><th style="min-width:130px">요청내용</th><th style="min-width:150px">처리내역</th></tr></thead><tbody>${trs}</tbody></table></div>`;
 }
-// 팀뷰어 ID/PW — 슬랙 스레드 댓글 '팀뷰어 ID : … / 팀뷰어 PW : …' 에서 적재(fetch-and-tally parseTv). 클릭하면 복사
 function ssPickStore(i){ const o=ssStoreList[i]; if(!o) return; const inp=document.getElementById('storeSearchBox');
   if(!ssBackQ) ssBackQ=inp?inp.value:''; const v=o.biz||o.store||''; if(inp) inp.value=v; runStoreSearch(v, o.biz?undefined:o.store);
   const sc=document.getElementById('storeSearchBody'); if(sc) sc.scrollTop=0; }
 function ssBack(){ const q=ssBackQ; ssBackQ=''; const inp=document.getElementById('storeSearchBox'); if(inp) inp.value=q; runStoreSearch(q); }
-function ssTvHtml(tv,br){ const one=(k,v)=>v?`<span class="ss-tv-v" data-c="${escapeHtml(v)}" onclick="ssCopy(this)" title="클릭해서 복사">${k} <b>${escapeHtml(v)}</b></span>`:''; return [one('ID',tv.id),one('PW',tv.pw)].filter(Boolean).join(br?'<br>':' · '); }
-function ssCopy(el){ const v=el.dataset.c||''; const ok=()=>{ const o=el.innerHTML; el.innerHTML='✅ 복사됨'; setTimeout(()=>{ el.innerHTML=o; },900); };
-  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(v).then(ok,()=>prompt('복사하세요:',v)); else prompt('복사하세요:',v); }
 // ⏱️ 평균 응답시간 카드 클릭 → 건별 상세(올라온시간·응답분·담당), 응답 빠른순/느린순 정렬
 let respDetailItems=[]; let respSortMode='fast'; let respDetailLabel='';
 // days 를 주면 최근 N일(카드의 7일·30일 추세 행 클릭), 없으면 화면에서 선택한 기간
