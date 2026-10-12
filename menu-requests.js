@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3325,
- "updatedAt": "2026-10-12 15:54",
+ "version": 3326,
+ "updatedAt": "2026-10-12 16:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1791788572.327819",
+   "date": "2026-10-12",
+   "time": "16:02",
+   "store": "일마지오 킨텍스점",
+   "biz": "7528502275",
+   "pos": "퍼스트포스",
+   "content": "안녕하세요 저번에 문의 드렸는데 영수증에만 핫,아이스 구분되게 나오고 빌지에는 구분이 안되서 다시 수정 부탁드립니다\n반영이 어려우시면 핫,아이스 따로따로 메뉴를 만들어 주세요 \n\nice 누가라떼, hot 누가라떼, ice 누가카페라떼 \nhot 누가 카페라떼, 굿나잇흑임자라떼(only ice)\n\n\n감사합니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791788572327819"
+  },
   {
    "ts": "1791788030.124169",
    "date": "2026-10-12",
