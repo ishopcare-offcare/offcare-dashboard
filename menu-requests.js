@@ -3,10 +3,34 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3308,
- "updatedAt": "2026-10-12 11:14",
+ "version": 3309,
+ "updatedAt": "2026-10-12 11:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1791773246.484069",
+   "date": "2026-10-12",
+   "time": "11:47",
+   "store": "통큰축산",
+   "biz": "3073002809",
+   "pos": "",
+   "content": "메뉴 삭제 및 가격 수정 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 왕갈비탕 18,000원 으로 수정\n•  뼈해장국 15,000원 으로 수정\n•  양평해장국 삭제 \n• 장터국밥 16,000원 추가 부탁 드립니다. :감사합니다꾸벅:",
+    "오케이 포스"
+   ],
+   "rc": 4,
+   "lr": "1791773329.265869",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791773246484069"
+  },
   {
    "ts": "1791770922.257449",
    "date": "2026-10-12",
