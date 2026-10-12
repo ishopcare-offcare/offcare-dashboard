@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19241,
+  "version": 19242,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244171,10 +244171,24 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김현기": 1
+        },
+        "menu": {
+          "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:11",
+          "store": "행복한집",
+          "biz": "3931301196",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "솔라피발송"
+        },
         {
           "time": "09:07",
           "store": "아이러니커피브루어리(ironycoffeebrewery)",
@@ -244184,11 +244198,11 @@ window.SLACK_DATA = {
           "req": "빌지 인식문제가 있다하여 점검부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "유프 내에 용지심 넣어서 제대로 안됨 / 용지심 제거 필요 안내 / 가결제 했으나 가결제 사라지지 않음"
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -244223,17 +244237,10 @@ window.SLACK_DATA = {
       },
       "1791763457.227179": {
         "post": "1791763457.227179",
-        "lastSeen": 1791764009.514,
+        "lastSeen": 1791764078.203,
         "r": 1,
         "day": "2026-10-12",
         "idx": 0
-      },
-      "1791763910.379889": {
-        "post": "1791763910.379889",
-        "lastSeen": 1791764009.514,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 1
       }
     },
     "days": {
@@ -327416,14 +327423,15 @@ window.SLACK_DATA = {
             "store": "행복한집",
             "biz": "3931301196",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 2.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 09:13",
+    "at": "2026-10-12 09:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327549,7 +327557,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 09:13",
+    "at": "2026-10-12 09:14",
     "pri": {
       "days": 0,
       "failed": [],
