@@ -3,10 +3,226 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3329,
- "updatedAt": "2026-10-12 16:39",
+ "version": 3330,
+ "updatedAt": "2026-10-12 16:42",
  "days": 30,
  "items": [
+  {
+   "ts": "1791790901.184229",
+   "date": "2026-10-12",
+   "time": "16:41",
+   "store": "더아쿠아(THE AQUA)",
+   "biz": "3840203699",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C9BDT0716",
+     "from": "댓글",
+     "path": "menu-files/1791790901_184229-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 3800
+      },
+      {
+       "category": "COFFEE",
+       "name": "디카페인 아메리카노",
+       "price": 4300
+      },
+      {
+       "category": "LATTE",
+       "name": "바나나 커피",
+       "price": 6000
+      },
+      {
+       "category": "LATTE",
+       "name": "카페 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "바닐라 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "카라멜 마끼아또",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "연유 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "헤이즐넛 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "카페모카",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "녹차 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "초코 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "고구마 라떼",
+       "price": 4800
+      },
+      {
+       "category": "LATTE",
+       "name": "미숫가루",
+       "price": 5500
+      },
+      {
+       "category": "LATTE",
+       "name": "미숫 커피",
+       "price": 6000
+      },
+      {
+       "category": "ADE",
+       "name": "자몽 에이드",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "청포도 에이드",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "레몬 에이드",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "유자 에이드",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "체리 에이드",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "매실차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "생강차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "레몬차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아 아이스티",
+       "price": 4500
+      },
+      {
+       "category": "STRAWBERRY",
+       "name": "딸기 라떼",
+       "price": 6000
+      },
+      {
+       "category": "STRAWBERRY",
+       "name": "딸기 에이드",
+       "price": 6000
+      },
+      {
+       "category": "YOGURT SMOOTHIE",
+       "name": "키위 스무디",
+       "price": 5000
+      },
+      {
+       "category": "YOGURT SMOOTHIE",
+       "name": "딸기 스무디",
+       "price": 5000
+      },
+      {
+       "category": "YOGURT SMOOTHIE",
+       "name": "망고 스무디",
+       "price": 5000
+      },
+      {
+       "category": "YOGURT SMOOTHIE",
+       "name": "블루베리 스무디",
+       "price": 5000
+      },
+      {
+       "category": "YOGURT SMOOTHIE",
+       "name": "플레인 스무디",
+       "price": 5000
+      },
+      {
+       "category": "DESSERT",
+       "name": "멜란카 허니케이크 (시나몬)",
+       "price": 6000
+      },
+      {
+       "category": "DESSERT",
+       "name": "멜란카 허니케이크 (코코아)",
+       "price": 6000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791790915.565239",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790901184229"
+  },
   {
    "ts": "1791790707.206759",
    "date": "2026-10-12",
