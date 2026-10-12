@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19303,
+  "version": 19304,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244476,14 +244476,17 @@ window.SLACK_DATA = {
       },
       "1791768603.647999": {
         "post": "1791768603.647999",
-        "lastSeen": 1791769280.735,
+        "lastSeen": 1791769346.847,
         "r": 1,
         "day": "2026-10-12",
         "idx": 15
       },
       "1791769265.949969": {
         "post": "1791769265.949969",
-        "lastSeen": 1791769280.735
+        "lastSeen": 1791769346.847,
+        "r": 1,
+        "day": "2026-10-12",
+        "idx": 16
       }
     },
     "days": {
@@ -327648,8 +327651,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-12": {
-        "cnt": 16,
-        "sumMin": 65.65371478001278,
+        "cnt": 17,
+        "sumMin": 66.45106529394786,
         "over": 0,
         "items": [
           {
@@ -327794,13 +327797,21 @@ window.SLACK_DATA = {
             "biz": "6591302829",
             "who": "김동욱",
             "cat": "as"
+          },
+          {
+            "hm": "10:41",
+            "min": 0.8,
+            "store": "주식회사 아이디어스온보드(Ideas On Board C",
+            "biz": "5698103354",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 10:41",
+    "at": "2026-10-12 10:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327926,7 +327937,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 10:41",
+    "at": "2026-10-12 10:42",
     "pri": {
       "days": 0,
       "failed": [],
