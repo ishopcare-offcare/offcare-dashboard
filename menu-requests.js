@@ -3,10 +3,732 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3323,
- "updatedAt": "2026-10-12 15:50",
+ "version": 3324,
+ "updatedAt": "2026-10-12 15:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1791787910.376709",
+   "date": "2026-10-12",
+   "time": "15:51",
+   "store": "메타피자",
+   "biz": "3560600303",
+   "pos": "퍼스트포스",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5Mj",
+     "fid": "F0C8LD22UH2",
+     "from": "댓글",
+     "path": "menu-files/1791787910_376709-0.jpeg",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5Mz",
+     "fid": "F0C9B41J6Q0",
+     "from": "댓글",
+     "path": "menu-files/1791787910_376709-1.jpeg",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5Mz",
+     "fid": "F0C8EPALP7Y",
+     "from": "댓글",
+     "path": "menu-files/1791787910_376709-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "FOOD",
+       "name": "하와이안",
+       "price": 19900
+      },
+      {
+       "category": "FOOD",
+       "name": "프리마베라",
+       "price": 19500
+      },
+      {
+       "category": "FOOD",
+       "name": "미트디럭스",
+       "price": 19900
+      },
+      {
+       "category": "FOOD",
+       "name": "콰트로 살라미",
+       "price": 19500
+      },
+      {
+       "category": "FOOD",
+       "name": "프로슈토에 풍기",
+       "price": 19900
+      },
+      {
+       "category": "FOOD",
+       "name": "콰트로포르마지",
+       "price": 18900
+      },
+      {
+       "category": "FOOD",
+       "name": "페퍼로니",
+       "price": 17900
+      },
+      {
+       "category": "FOOD",
+       "name": "마르게리따",
+       "price": 17500
+      },
+      {
+       "category": "FOOD",
+       "name": "메타 클래시카",
+       "price": 18900
+      },
+      {
+       "category": "FOOD",
+       "name": "비스마르크 2022",
+       "price": 24000
+      },
+      {
+       "category": "FOOD",
+       "name": "프로슈토에 루꼴라",
+       "price": 21900
+      },
+      {
+       "category": "FOOD",
+       "name": "프로슈토에 부라타",
+       "price": 24000
+      },
+      {
+       "category": "FOOD",
+       "name": "마르게리따 콘 부팔라",
+       "price": 18900
+      },
+      {
+       "category": "FOOD",
+       "name": "빠따따 돌체",
+       "price": 19500
+      },
+      {
+       "category": "FOOD",
+       "name": "트러플풍기 리조또",
+       "price": 14800
+      },
+      {
+       "category": "FOOD",
+       "name": "알리오 올리오에 페",
+       "price": 12900
+      },
+      {
+       "category": "FOOD",
+       "name": "쉬림프크림파스타",
+       "price": 13800
+      },
+      {
+       "category": "FOOD",
+       "name": "쉬림프토마토파스타",
+       "price": 13500
+      },
+      {
+       "category": "FOOD",
+       "name": "로제파스타",
+       "price": 13500
+      },
+      {
+       "category": "FOOD",
+       "name": "봉골레파스타",
+       "price": 13500
+      },
+      {
+       "category": "FOOD",
+       "name": "잠봉바질크림리조또",
+       "price": 15400
+      },
+      {
+       "category": "FOOD",
+       "name": "카프레제",
+       "price": 10900
+      },
+      {
+       "category": "FOOD",
+       "name": "치킨/베이컨",
+       "price": 10900
+      },
+      {
+       "category": "FOOD",
+       "name": "하우스샐러드",
+       "price": 7900
+      },
+      {
+       "category": "FOOD",
+       "name": "콜라",
+       "price": 2500
+      },
+      {
+       "category": "FOOD",
+       "name": "제로콜라",
+       "price": 2500
+      },
+      {
+       "category": "FOOD",
+       "name": "스프라이트",
+       "price": 2500
+      },
+      {
+       "category": "FOOD",
+       "name": "무화과프로슈토",
+       "price": 26000
+      },
+      {
+       "category": "FOOD",
+       "name": "쉬림프로제리조또",
+       "price": 14500
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5ND",
+     "fid": "F0C8AFM2Z6X",
+     "from": "댓글",
+     "path": "menu-files/1791787910_376709-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BEER/SIDE",
+       "name": "META LAGER",
+       "price": 5500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "SandCastle",
+       "price": 7500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "슬로위IPA",
+       "price": 7500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "린데만스크릭생맥",
+       "price": 9500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "상상 페일에일",
+       "price": 6900
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "그림 코젤다크",
+       "price": 8500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "코젤다크",
+       "price": 7500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "인디카IPA",
+       "price": 8900
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "하이네켄",
+       "price": 7900
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "더 롱독 로제",
+       "price": 24000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "더 벤드 쉬라",
+       "price": 60000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "베나띠 까베르네 프",
+       "price": 33000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "아라우카노 까르미네",
+       "price": 46000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "앙주 샹데 로즈",
+       "price": 46000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "보데가 삐에드라 네",
+       "price": 55000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "오발로 산 로렌 호벤",
+       "price": 38000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "샤또 필르부아 트라",
+       "price": 46000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "더치커피hot",
+       "price": 4000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "더치커피ice",
+       "price": 4000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "타이거 레몬라들러",
+       "price": 4900
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "호가든 싱글",
+       "price": 6500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "호가든 더블",
+       "price": 12000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "버드와이저 0.0",
+       "price": 5000
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "팝콘",
+       "price": 3900
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "산펠레그리노 탄산수",
+       "price": 2900
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "잔와인 까베르네소비",
+       "price": 8500
+      },
+      {
+       "category": "BEER/SIDE",
+       "name": "잔와인 모스카토",
+       "price": 8500
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5ND",
+     "fid": "F0C81B6FNNB",
+     "from": "댓글",
+     "path": "menu-files/1791787910_376709-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "DRINK",
+       "name": "콜라",
+       "price": 2500
+      },
+      {
+       "category": "DRINK",
+       "name": "스프라이트",
+       "price": 2500
+      },
+      {
+       "category": "DRINK",
+       "name": "더치커피ho t",
+       "price": 4000
+      },
+      {
+       "category": "DRINK",
+       "name": "더치커피ic e",
+       "price": 4000
+      },
+      {
+       "category": "DRINK",
+       "name": "매장)부라타치즈 쿠",
+       "price": 4000
+      },
+      {
+       "category": "DRINK",
+       "name": "매장)모짜렐라치즈",
+       "price": 3000
+      },
+      {
+       "category": "DRINK",
+       "name": "매장) 무쇠 꿔추가",
+       "price": 3500
+      },
+      {
+       "category": "DRINK",
+       "name": "매장) 프로슈토포토",
+       "price": 5000
+      },
+      {
+       "category": "DRINK",
+       "name": "매장) 프로슈토 크루",
+       "price": 5000
+      },
+      {
+       "category": "DRINK",
+       "name": "매장)부팔라치즈",
+       "price": 6300
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5ND",
+     "fid": "F0C8GHBMCE6",
+     "from": "댓글",
+     "path": "menu-files/1791787910_376709-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BOTTLE",
+       "name": "올드라스푸틴",
+       "price": 11500
+      },
+      {
+       "category": "BOTTLE",
+       "name": "린데만스쁘슈레제",
+       "price": 8500
+      },
+      {
+       "category": "BOTTLE",
+       "name": "린데만스크릭",
+       "price": 8500
+      },
+      {
+       "category": "BOTTLE",
+       "name": "100",
+       "price": 100
+      },
+      {
+       "category": "BOTTLE",
+       "name": "1000",
+       "price": 1000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "10000",
+       "price": 10000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "50000",
+       "price": 50000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)인디카ipa1리터",
+       "price": 25000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)린데만스크릭1",
+       "price": 40000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)코젤다크1리터",
+       "price": 16000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)상상페일에일1",
+       "price": 13000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)메타라거1리터",
+       "price": 14000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)호가든1리터",
+       "price": 13000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)슐로우ipa1리터",
+       "price": 15000
+      },
+      {
+       "category": "BOTTLE",
+       "name": "포장)하이네켄1리터",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5NT",
+     "fid": "F0C8BDJ2TRB",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달",
+       "name": "(배달)하와이안",
+       "price": 20900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)미트디럭스",
+       "price": 20900
+      },
+      {
+       "category": "배ald",
+       "name": "(배달)프리마베라",
+       "price": 20500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)콰트로살라미",
+       "price": 20500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)프로슈토에풍기",
+       "price": 20900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)콰트로포르마지",
+       "price": 19900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)페퍼로니",
+       "price": 18900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)마르게리따",
+       "price": 18500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)메타클래시카",
+       "price": 19900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)빠따따돌체",
+       "price": 20500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)프로슈토 부라",
+       "price": 25000
+      },
+      {
+       "category": "배달",
+       "name": "(배달)비스마르크2022",
+       "price": 25000
+      },
+      {
+       "category": "배달",
+       "name": "(배달)프로슈토 루꼴",
+       "price": 22900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)마르게리따 콘",
+       "price": 19900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)트러플풍기리",
+       "price": 14800
+      },
+      {
+       "category": "배달",
+       "name": "(배달)잠봉바질크림",
+       "price": 15400
+      },
+      {
+       "category": "배달",
+       "name": "(배달)크림파스타",
+       "price": 13800
+      },
+      {
+       "category": "배달",
+       "name": "(배달)토마토파스타",
+       "price": 13500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)로제파스타",
+       "price": 13500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)봉골레파스타",
+       "price": 13500
+      },
+      {
+       "category": "배달",
+       "name": "(배달)카프레제샐러드",
+       "price": 10900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)치킨베이컨샐러",
+       "price": 10900
+      },
+      {
+       "category": "배달",
+       "name": "(배달)콜라",
+       "price": 2000
+      },
+      {
+       "category": "배달",
+       "name": "(배달)스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "배달",
+       "name": "(배달)제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "배달",
+       "name": "배달팁3000",
+       "price": 3000
+      },
+      {
+       "category": "배달",
+       "name": "배달팁3500",
+       "price": 3500
+      },
+      {
+       "category": "배달",
+       "name": "배달팁4000",
+       "price": 4000
+      },
+      {
+       "category": "배달",
+       "name": "(배달)알리오 올리오",
+       "price": 12900
+      }
+     ]
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xODI5NT",
+     "fid": "F0C8JLKRC1F",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "루꼴라 추가",
+       "price": 3500
+      },
+      {
+       "category": "사이드",
+       "name": "수제바질페스토 소",
+       "price": 1200
+      },
+      {
+       "category": "사이드",
+       "name": "그라나파다노치즈",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "엑스트라버진올리브오일",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "프로슈토1장",
+       "price": 2500
+      },
+      {
+       "category": "사이드",
+       "name": "프로슈토2장",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "모짜렐라치즈 추가50g",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "모짜렐라치즈100g",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "후레쉬모짜렐라60g",
+       "price": 0
+      },
+      {
+       "category": "사이드",
+       "name": "갈릭디핑소스 추가",
+       "price": 700
+      },
+      {
+       "category": "사이드",
+       "name": "수제파클 추가",
+       "price": 500
+      },
+      {
+       "category": "사이드",
+       "name": "리뷰",
+       "price": 0
+      },
+      {
+       "category": "사이드",
+       "name": "리뷰",
+       "price": 0
+      },
+      {
+       "category": "사이드",
+       "name": "아카시아꿀",
+       "price": 800
+      },
+      {
+       "category": "사이드",
+       "name": "리뷰",
+       "price": 0
+      },
+      {
+       "category": "사이드",
+       "name": "리뷰",
+       "price": 0
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "사이드쪽에 리뷰 0원은 없어도됩니다"
+   ],
+   "rc": 3,
+   "lr": "1791787945.921179",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791787910376709"
+  },
   {
    "ts": "1791787641.109849",
    "date": "2026-10-12",
