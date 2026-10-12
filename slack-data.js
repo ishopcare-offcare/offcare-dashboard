@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19253,
+  "version": 19254,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244170,7 +244170,7 @@ window.SLACK_DATA = {
     "2026-10-12": {
       "counts": {
         "as": {
-          "김현기": 1,
+          "김현기": 2,
           "김동욱": 1
         },
         "menu": {
@@ -244179,6 +244179,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:28",
+          "store": "태형이네.",
+          "biz": "2011680480",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "화면이 원위치가 되지않으며 확인 불가하신 상태, 원격 점검 부탁드립니다",
+          "hw": "",
+          "intake": "offline",
+          "note": "01037652585 / 터미널 초기화 되어 있었음 / 정보 연결 후 정상"
+        },
         {
           "time": "09:11",
           "store": "행복한집",
@@ -244215,7 +244226,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:31"
@@ -244247,23 +244258,16 @@ window.SLACK_DATA = {
         "post": "1791730790.988029",
         "lastSeen": 1791749727.128
       },
-      "1791764938.275499": {
-        "post": "1791764938.275499",
-        "lastSeen": 1791765215.371,
-        "r": 1,
-        "day": "2026-10-12",
-        "idx": 2
-      },
       "1791765030.958169": {
         "post": "1791765030.958169",
-        "lastSeen": 1791765215.371,
+        "lastSeen": 1791765451.05,
         "r": 1,
         "day": "2026-10-12",
         "idx": 3
       },
       "1791765065.263629": {
         "post": "1791765065.263629",
-        "lastSeen": 1791765215.371
+        "lastSeen": 1791765451.05
       }
     },
     "days": {
@@ -327456,7 +327460,8 @@ window.SLACK_DATA = {
             "store": "태형이네.",
             "biz": "2011680480",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.6
           },
           {
             "hm": "09:30",
@@ -327471,7 +327476,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-12 09:34",
+    "at": "2026-10-12 09:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327597,7 +327602,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 09:33",
+    "at": "2026-10-12 09:37",
     "pri": {
       "days": 0,
       "failed": [],
