@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19237,
+  "version": 19238,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -244207,7 +244207,10 @@ window.SLACK_DATA = {
       },
       "1791763457.227179": {
         "post": "1791763457.227179",
-        "lastSeen": 1791763518.638
+        "lastSeen": 1791763570,
+        "r": 1,
+        "day": "2026-10-12",
+        "idx": 0
       }
     },
     "days": {
@@ -327370,11 +327373,26 @@ window.SLACK_DATA = {
             "dmin": 7.4
           }
         ]
+      },
+      "2026-10-12": {
+        "cnt": 1,
+        "sumMin": 1.451530349254608,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:04",
+            "min": 1.5,
+            "store": "주식회사 프리츠",
+            "biz": "1058801127",
+            "who": "김동욱",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-12 09:05",
+    "at": "2026-10-12 09:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -327500,7 +327518,7 @@ window.SLACK_DATA = {
     "2026-10-12": 2
   },
   "noteMig": {
-    "at": "2026-10-12 09:05",
+    "at": "2026-10-12 09:06",
     "pri": {
       "days": 0,
       "failed": [],
