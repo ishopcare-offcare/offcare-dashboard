@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3419,
- "updatedAt": "2026-10-13 15:23",
+ "version": 3420,
+ "updatedAt": "2026-10-13 15:24",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,189 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C9L92AUJC",
+     "from": "댓글",
+     "path": "menu-files/1791872576_282729-0.png",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8KLMCRLK",
+     "from": "댓글",
+     "path": "menu-files/1791872576_282729-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "왕새우 1kg",
+       "price": 55000
+      },
+      {
+       "category": "",
+       "name": "왕새우1.5kg",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "새우추가 500g",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "꽃새우500g",
+       "price": 130000
+      },
+      {
+       "category": "",
+       "name": "꽃새우1Kg",
+       "price": 260000
+      },
+      {
+       "category": "",
+       "name": "전복회",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "전복버터구이",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "갑오징어 숙회",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "매콤한치무침",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "새우 오뎅탕",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "대가리 튀김",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "쭈꾸미철판볶음",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "전복죽",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "계란찜",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "새우볶음밥",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "즉석밥",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "게새라면",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "비빔면",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "생맥주500L",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "한치물회",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "꽃 게찜",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "과메기",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "굴추가",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "하이볼",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "청하",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "복분자",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "화요",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "매실마을",
+       "price": 7000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791872578.874999",
+   "rc": 3,
+   "lr": "1791872602.599879",
    "rfx": 3,
    "status": "wait",
    "handler": null,
