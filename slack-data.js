@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19850,
+  "version": 19851,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248543,12 +248543,14 @@ window.SLACK_DATA = {
       "counts": {
         "booking": {
           "송태양": 1,
+          "김현기": 1,
+          "고경림": 1,
           "김동욱": 1,
           "심성현": 1
         },
         "as": {
+          "김현기": 7,
           "고경림": 3,
-          "김현기": 6,
           "박하림": 1,
           "송태양": 4,
           "김동욱": 4,
@@ -248595,6 +248597,30 @@ window.SLACK_DATA = {
           "rr": 1
         },
         {
+          "time": "11:16",
+          "store": "최진석합기도무휼관",
+          "biz": "7249200019",
+          "cat": "booking",
+          "emp": "김현기",
+          "req": "가결제",
+          "hw": "",
+          "intake": "offline",
+          "note": "매장 아님 15시 이후 재연락",
+          "rr": 1
+        },
+        {
+          "time": "11:15",
+          "store": "중대음악학원",
+          "biz": "1319063391",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "가결제",
+          "hw": "",
+          "intake": "online",
+          "note": "16시 30분 예약요청 • 예약완료 예약완료",
+          "rr": 1
+        },
+        {
           "time": "11:15",
           "store": "가온음악학원",
           "biz": "2389202118",
@@ -248604,6 +248630,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "오후 1시 15분 재통화",
+          "rr": 1
+        },
+        {
+          "time": "11:15",
+          "store": "파주점핑운동전문센터 엠제이점핑",
+          "biz": "3061268726",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "가결제",
+          "hw": "",
+          "intake": "offline",
+          "note": "",
           "rr": 1
         },
         {
@@ -249131,11 +249169,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 33,
-        "offline": 13,
+        "online": 34,
+        "offline": 15,
         "unknown": 0
       },
-      "updatedAt": "11:16",
+      "updatedAt": "11:18",
       "voc": {
         "responses": 2,
         "install": {
@@ -249326,25 +249364,18 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791857883.408,
+        "lastSeen": 1791857946.421,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791857883.408
+        "lastSeen": 1791857946.421
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
         "lastSeen": 1791855539.385
-      },
-      "1791857700.806389": {
-        "post": "1791857700.806389",
-        "lastSeen": 1791857883.408,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 25
       }
     },
     "days": {
@@ -334487,14 +334518,15 @@ window.SLACK_DATA = {
             "store": "파주점핑운동전문센터 엠제이점핑",
             "biz": "3061268726",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:18",
+    "at": "2026-10-13 11:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334621,7 +334653,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 11:18",
+    "at": "2026-10-13 11:19",
     "pri": {
       "days": 0,
       "failed": [],
