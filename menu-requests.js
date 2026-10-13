@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3430,
- "updatedAt": "2026-10-13 15:57",
+ "version": 3431,
+ "updatedAt": "2026-10-13 16:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1791874908.730159",
+   "date": "2026-10-13",
+   "time": "16:01",
+   "store": "신규",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 신규메뉴등록요청\n메일빈카페디저트 ··· 010-870,-49279 이경옥  등록메뉴 간짬뽕4500 배홍동비빔면 3600 한강라면 4200 진짬뽕 4500    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a1340dd86136592>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a1340dd86136592",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791874908730159"
+  },
   {
    "ts": "1791874608.316849",
    "date": "2026-10-13",
