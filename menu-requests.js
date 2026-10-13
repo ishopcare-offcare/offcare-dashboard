@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3374,
- "updatedAt": "2026-10-13 10:15",
+ "version": 3375,
+ "updatedAt": "2026-10-13 10:16",
  "days": 30,
  "items": [
   {
@@ -67,7 +67,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C8PTU0802",
      "from": "댓글",
-     "path": "menu-files/1791852231_194769-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -155,13 +154,75 @@ window.MENU_REQUESTS = {
        "name": "영양탕",
        "price": 0
       }
+     ],
+     "path": "menu-files/1791852231_194769-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8Q3MJUHY",
+     "from": "댓글",
+     "path": "menu-files/1791852231_194769-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "백세주",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "산사춘",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "산삼주",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "대포",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      }
      ]
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791852239.928639",
+   "replies": [
+    "주류 추가"
+   ],
+   "rc": 3,
+   "lr": "1791854183.063949",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",

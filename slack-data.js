@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19801,
+  "version": 19802,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248615,7 +248615,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 유프 온보딩 요청드립니다. / 상품 등록, 결제 방법 등 사용 방법 안내 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩 완료",
+          "rr": 1
         },
         {
           "time": "09:58",
@@ -248881,7 +248882,7 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:11",
+      "updatedAt": "10:15",
       "voc": {
         "responses": 1,
         "install": {
@@ -249026,7 +249027,7 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791854071.242,
+        "lastSeen": 1791854149.576,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
@@ -334090,7 +334091,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:14",
+    "at": "2026-10-13 10:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334217,7 +334218,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:14",
+    "at": "2026-10-13 10:15",
     "pri": {
       "days": 0,
       "failed": [],
