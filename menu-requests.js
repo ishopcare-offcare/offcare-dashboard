@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3434,
- "updatedAt": "2026-10-13 16:16",
+ "version": 3435,
+ "updatedAt": "2026-10-13 16:18",
  "days": 30,
  "items": [
+  {
+   "ts": "1791875817.260379",
+   "date": "2026-10-13",
+   "time": "16:16",
+   "store": "카페 에덴 #2",
+   "biz": "1922101813",
+   "pos": "",
+   "content": "카페에덴 건양사이버대점 포스에 카페에덴#2의 상품을 똑같이 복사 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791875817260379"
+  },
   {
    "ts": "1791875616.477499",
    "date": "2026-10-13",
@@ -170,7 +191,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261013_122637_1791870156632.jp",
      "fid": "F0C8LV7ELJ1",
      "from": "댓글",
-     "path": "menu-files/1791875616_477499-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -318,13 +338,13 @@ window.MENU_REQUESTS = {
        "name": "떡케이크3호",
        "price": 90000
       }
-     ]
+     ],
+     "path": "menu-files/1791875616_477499-2.jpeg"
     },
     {
      "name": "image.png",
      "fid": "F0C8Q9M9BC6",
      "from": "댓글",
-     "path": "menu-files/1791875616_477499-3.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -357,13 +377,13 @@ window.MENU_REQUESTS = {
        "name": "두바이쫀득쿠키",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791875616_477499-3.png"
     },
     {
      "name": "Resized_20261013_122658_1791870379238.jp",
      "fid": "F0C8U6S3WQH",
      "from": "댓글",
-     "path": "menu-files/1791875616_477499-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -471,13 +491,13 @@ window.MENU_REQUESTS = {
        "name": "대판2개",
        "price": 4000
       }
-     ]
+     ],
+     "path": "menu-files/1791875616_477499-4.jpeg"
     },
     {
      "name": "image.png",
      "fid": "F0C8U6UB333",
      "from": "댓글",
-     "path": "menu-files/1791875616_477499-5.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -515,7 +535,8 @@ window.MENU_REQUESTS = {
        "name": "앗세",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791875616_477499-5.png"
     },
     {
      "name": "Resized_20261013_122714_1791870875270.jp",
@@ -928,14 +949,554 @@ window.MENU_REQUESTS = {
        "price": 35000
       }
      ]
+    },
+    {
+     "name": "Resized_20261013_122753_1791872059786.jp",
+     "fid": "F0C9LL1PK3J",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "오레오케이크",
+       "price": 26000
+      },
+      {
+       "category": "",
+       "name": "약밥",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "옥수수마요소세지빵",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "연탄빵",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "옥수수쉬폰(2/1)",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "영양쿠키",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "옥수수쿠키",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "야채소세지빵",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "아이스 아메리카노",
+       "price": 3400
+      },
+      {
+       "category": "",
+       "name": "에그타르트",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "옥수수식빵",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "우유식빵",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "인절미크림빵",
+       "price": 3700
+      },
+      {
+       "category": "",
+       "name": "옥수수스틱",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "영양빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "옥수수술빵",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "옥수수술찜케익",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "은박접시피자빵",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "완두앙꼬빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "아몬드초코쿠키",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "연유브레드빵",
+       "price": 6200
+      },
+      {
+       "category": "",
+       "name": "연유",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "육쪽마늘빵",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "엘리게이트",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "우유생크림카스테라",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "아몬드크림치즈",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "우유스틱",
+       "price": 600
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8M05KUCV",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
+    },
+    {
+     "name": "Resized_20261013_122807_1791872472630.jp",
+     "fid": "F0C9LL40PUY",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "조각케익",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "잡채카레빵로제",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "밥먹는빵",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "치즈빵",
+       "price": 800
+      },
+      {
+       "category": "",
+       "name": "초코머핀1개",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "치즈머핀1개",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "초코파운드",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "초코머핀2개",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "초코쿠키1개",
+       "price": 2300
+      },
+      {
+       "category": "",
+       "name": "치즈머핀2개",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "츄러스10구세일중",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "초코크로와상",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "초코파이",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "합쌀도넛2개",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "치아바타",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "초코케익조각6개",
+       "price": 34000
+      },
+      {
+       "category": "",
+       "name": "찹쌀빵6개세트",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "찹쌀카스테라",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "초코반달케익",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "초코케이크1호",
+       "price": 27000
+      },
+      {
+       "category": "",
+       "name": "크랜베리스콘",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "롤식빵",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "콘브레드",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "크리스마스케이크",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "큐빅",
+       "price": 6300
+      },
+      {
+       "category": "",
+       "name": "크로와상",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "커피브레드",
+       "price": 6200
+      },
+      {
+       "category": "",
+       "name": "카스테라꽈배기2개",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8L29K9TM",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
+    },
+    {
+     "name": "Resized_20261013_122818_1791872589037.jp",
+     "fid": "F0C8VV98560",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "팥 소보로빵",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "팥도넛",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "보로생크림빵",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "피자빵(대)",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "피자설기",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "호두단팥빵",
+       "price": 2200
+      },
+      {
+       "category": "",
+       "name": "호두피칸타르트",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "개(치즈.초쿠)",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "햄치즈에그토스트",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "하트파이",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "호두초코브라우니",
+       "price": 4800
+      },
+      {
+       "category": "",
+       "name": "호밀빵",
+       "price": 6200
+      },
+      {
+       "category": "",
+       "name": "호박카스테라",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "핫소세지빵",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "황치즈쉘브론",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "호도쉬폰(통)",
+       "price": 7500
+      },
+      {
+       "category": "",
+       "name": "호도과자",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "황남빵4개",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "햄치즈마늘바게트",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "호두홀은박도시락",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "후렌치마늘스틱3개",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "흑미파운드(미니)",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "핫도그샐러드빵",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "호박만쥬",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "호빵맨쿠키",
+       "price": 2300
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8QA448G6",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
+    },
+    {
+     "name": "Resized_20261013_122210_1791872774477.jp",
+     "fid": "F0C8U7A9WKT",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "큐벨",
+       "price": 6300
+      },
+      {
+       "category": "",
+       "name": "1/3모카롤",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "숯불소세지",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "크림치즈빵",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "샌드위치,음료세트",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "음료(라이브)",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "고깔모자",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "폭죽",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "토퍼",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "배달팁",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "1호시트",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "2호시트",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "종이박스",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "무화과파운드",
+       "price": 7500
+      },
+      {
+       "category": "",
+       "name": "빵칼",
+       "price": 100
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8VVB6DV2",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
     }
    ],
    "datt": [],
    "replies": [
     "글씨 가려진 메뉴는 생크림생딸기케이크1호,생딸기생크림케이크2호,생크림 루돌프케이크1호, 입니다"
    ],
-   "rc": 6,
-   "lr": "1791875726.587139",
+   "rc": 10,
+   "lr": "1791875811.514499",
    "rfx": 3,
    "status": "wait",
    "handler": null,
