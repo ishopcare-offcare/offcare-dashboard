@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3436,
- "updatedAt": "2026-10-13 16:25",
+ "version": 3437,
+ "updatedAt": "2026-10-13 16:26",
  "days": 30,
  "items": [
   {
@@ -1760,8 +1760,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791874908730159"
   },
   {
@@ -1786,8 +1786,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791874608316849"
   },
   {
@@ -1812,8 +1812,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791874308788639"
   },
   {
@@ -1838,8 +1838,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791873409456689"
   },
   {
@@ -1864,8 +1864,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791873108862629"
   },
   {
@@ -1890,8 +1890,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791873108473849"
   },
   {
@@ -1916,8 +1916,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791872808472569"
   },
   {
@@ -2141,8 +2141,8 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791872508649789"
   },
   {
@@ -3166,7 +3166,7 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1791868078.408899",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791868059275709"
   },
