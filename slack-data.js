@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19773,
+  "version": 19774,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248549,10 +248549,24 @@ window.SLACK_DATA = {
         },
         "transfer": {
           "김동욱": 1
+        },
+        "menu": {
+          "김규빈": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:21",
+          "store": "아인탑",
+          "biz": "6968803577",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
+          "hw": "qPaN1NcmPmNY8/view?usp=drivesdk>, <https://drive.google.com/",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:20",
           "store": "신림마당",
@@ -248566,6 +248580,28 @@ window.SLACK_DATA = {
           "rr": 3
         },
         {
+          "time": "09:19",
+          "store": "아인탑",
+          "biz": "6968803577",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "09:18",
+          "store": "아인탑",
+          "biz": "6968803577",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
+          "hw": "mx6deAsqMhx9pN/view?usp=drivesdk>, <https://drive.google.com",
+          "intake": "online",
+          "note": ""
+        },
+        {
           "time": "09:16",
           "store": "책읽는달팽이",
           "biz": "8606000895",
@@ -248576,6 +248612,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "프론트아님 kis BTR1100 임 / 일비 전달 완료",
           "rr": 2
+        },
+        {
+          "time": "09:16",
+          "store": "아인탑",
+          "biz": "6968803577",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:05",
@@ -248599,7 +248646,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "1차 부재 / 포프무프(태블릿) 명의변경완료 / 안녕하세요 정예님! 토페 청약 부탁드립니다. cc.<!subteam^S0B6EGNARDF 안녕하세요 정예님! cc.",
-          "rr": 3
+          "rr": 4
         },
         {
           "time": "08:25",
@@ -248614,11 +248661,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 8,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:30"
+      "updatedAt": "09:34"
     }
   },
   "resp": {
@@ -248728,45 +248775,21 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791851571.509,
+        "lastSeen": 1791851753.424,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791849632.065459": {
         "post": "1791849632.065459",
-        "lastSeen": 1791851571.509,
+        "lastSeen": 1791851753.424,
         "r": 1,
         "day": "2026-10-13",
         "idx": 2
       },
-      "1791850582.646199": {
-        "post": "1791850582.646199",
-        "lastSeen": 1791851571.509,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 7
-      },
-      "1791850699.113949": {
-        "post": "1791850699.113949",
-        "lastSeen": 1791851571.509,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 6
-      },
-      "1791850780.454349": {
-        "post": "1791850780.454349",
-        "lastSeen": 1791851571.509,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 5
-      },
-      "1791850908.884939": {
-        "post": "1791850908.884939",
-        "lastSeen": 1791851571.509,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 4
+      "1791851684.798329": {
+        "post": "1791851684.798329",
+        "lastSeen": 1791851753.424
       }
     },
     "days": {
@@ -333719,7 +333742,8 @@ window.SLACK_DATA = {
             "store": "아인탑",
             "biz": "6968803577",
             "who": "김규빈",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 12.6
           },
           {
             "hm": "09:19",
@@ -333727,7 +333751,8 @@ window.SLACK_DATA = {
             "store": "아인탑",
             "biz": "6968803577",
             "who": "김규빈",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 14.7
           },
           {
             "hm": "09:18",
@@ -333735,7 +333760,8 @@ window.SLACK_DATA = {
             "store": "아인탑",
             "biz": "6968803577",
             "who": "김규빈",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 16.1
           },
           {
             "hm": "09:16",
@@ -333743,14 +333769,15 @@ window.SLACK_DATA = {
             "store": "아인탑",
             "biz": "6968803577",
             "who": "김규빈",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 18
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-13 09:33",
+    "at": "2026-10-13 09:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -333877,7 +333904,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 09:32",
+    "at": "2026-10-13 09:35",
     "pri": {
       "days": 0,
       "failed": [],
