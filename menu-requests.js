@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3417,
- "updatedAt": "2026-10-13 15:11",
+ "version": 3418,
+ "updatedAt": "2026-10-13 15:13",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C8VFSGGJY",
      "from": "댓글",
-     "path": "menu-files/1791871811_650199-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -171,13 +170,13 @@ window.MENU_REQUESTS = {
        "name": "공기밥",
        "price": 1000
       }
-     ]
+     ],
+     "path": "menu-files/1791871811_650199-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8ADWV06T",
      "from": "댓글",
-     "path": "menu-files/1791871811_650199-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -310,13 +309,13 @@ window.MENU_REQUESTS = {
        "name": "꼬리구이",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1791871811_650199-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8RL24QCA",
      "from": "댓글",
-     "path": "menu-files/1791871811_650199-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -349,13 +348,13 @@ window.MENU_REQUESTS = {
        "name": "지평막걸리",
        "price": 4000
       }
-     ]
+     ],
+     "path": "menu-files/1791871811_650199-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8TP7DH8R",
      "from": "댓글",
-     "path": "menu-files/1791871811_650199-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -458,13 +457,13 @@ window.MENU_REQUESTS = {
        "name": "불막창(대)",
        "price": 24000
       }
-     ]
+     ],
+     "path": "menu-files/1791871811_650199-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8PS30VHU",
      "from": "댓글",
-     "path": "menu-files/1791871811_650199-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -542,13 +541,13 @@ window.MENU_REQUESTS = {
        "name": "지평막걸리",
        "price": 4000
       }
-     ]
+     ],
+     "path": "menu-files/1791871811_650199-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8LGAUWH3",
      "from": "댓글",
-     "path": "menu-files/1791871811_650199-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -586,7 +585,8 @@ window.MENU_REQUESTS = {
        "name": "당면사리추가",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791871811_650199-5.png"
     },
     {
      "name": "image.png",
@@ -766,8 +766,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "백업"
    ],
-   "rc": 1,
-   "lr": "1791871814.482989",
+   "rc": 2,
+   "lr": "1791871876.565239",
    "rfx": 3,
    "status": "wait",
    "handler": null,
