@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3427,
- "updatedAt": "2026-10-13 15:40",
+ "version": 3428,
+ "updatedAt": "2026-10-13 15:50",
  "days": 30,
  "items": [
   {
@@ -2522,112 +2522,15 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791865140_396939-5.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C8VAAA1LL",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "메뉴",
-       "name": "카스",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "하이트",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "테라",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "켈리",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "크러쉬",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "한맥",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "참이슬",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "처음처럼",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "진로",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "새로",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "별빛청하",
-       "price": 3500
-      },
-      {
-       "category": "메뉴",
-       "name": "펩시콜라",
-       "price": 2000
-      },
-      {
-       "category": "메뉴",
-       "name": "사이다",
-       "price": 2000
-      },
-      {
-       "category": "메뉴",
-       "name": "펩시제로",
-       "price": 2000
-      },
-      {
-       "category": "메뉴",
-       "name": "환타파인",
-       "price": 2000
-      },
-      {
-       "category": "메뉴",
-       "name": "테라라이트.",
-       "price": 4500
-      },
-      {
-       "category": "메뉴",
-       "name": "남원생막걸리 술소리",
-       "price": 4000
-      }
-     ]
     }
    ],
    "datt": [],
    "replies": [
-    "배쿠요",
     "메뉴",
     "제대로한거맞아요?",
-    "검수안해?",
-    "왜 일두번하지",
-    "빨리해",
     "문제점 무엇"
    ],
-   "rc": 28,
+   "rc": 23,
    "lr": "1791873591.959809",
    "rfx": 3,
    "status": "done",
