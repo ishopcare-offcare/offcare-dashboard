@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19817,
+  "version": 19818,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248908,40 +248908,70 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:35",
+      "updatedAt": "10:38",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
-          "low": 0
+          "count": 2,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "5": 1,
           "10": 1
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
           "1개월": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 1
+          },
           "KOCES": {
             "total": 1,
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1
+        },
+        "alerts": [
+          {
+            "time": "10:38",
+            "store": "영네일",
+            "storeId": "453130",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "영수증안낭느는게불편",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       }
     }
@@ -249053,42 +249083,46 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791855464.405,
+        "lastSeen": 1791855539.385,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791855464.405
+        "lastSeen": 1791855539.385
       },
       "1791855026.481029": {
         "post": "1791855026.481029",
-        "lastSeen": 1791855464.405,
+        "lastSeen": 1791855539.385,
         "r": 1,
         "day": "2026-10-13",
         "idx": 16
       },
       "1791855116.243549": {
         "post": "1791855116.243549",
-        "lastSeen": 1791855464.405,
+        "lastSeen": 1791855539.385,
         "r": 1,
         "day": "2026-10-13",
         "idx": 18
       },
       "1791855221.038819": {
         "post": "1791855221.038819",
-        "lastSeen": 1791855464.405,
+        "lastSeen": 1791855539.385,
         "r": 1,
         "day": "2026-10-13",
         "idx": 17
       },
       "1791855324.857959": {
         "post": "1791855324.857959",
-        "lastSeen": 1791855464.405,
+        "lastSeen": 1791855539.385,
         "r": 1,
         "day": "2026-10-13",
         "idx": 19
+      },
+      "1791855538.679189": {
+        "post": "1791855538.679189",
+        "lastSeen": 1791855539.385
       }
     },
     "days": {
@@ -334181,7 +334215,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:38",
+    "at": "2026-10-13 10:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334308,7 +334342,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:37",
+    "at": "2026-10-13 10:38",
     "pri": {
       "days": 0,
       "failed": [],
