@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3386,
- "updatedAt": "2026-10-13 10:44",
+ "version": 3387,
+ "updatedAt": "2026-10-13 10:49",
  "days": 30,
  "items": [
   {
@@ -73,8 +73,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791855835535499"
   },
   {
@@ -10196,10 +10196,11 @@ window.MENU_REQUESTS = {
     "중복 메뉴\n\n금액, 바코드 다름으로 수정 시간 오래 걸림\n\n기존 포스 운영 중으로 다음 주까지 처리 예정 안내 상태",
     "메뉴 6,000개 이상",
     "님 안녕하세요\n대표님께서 방금 다 완료되었다는 문자를 받았는데 바코드 찍으니까 바코드를 메뉴가 없다고 등록해야된다고 하시는데\n혹시 현재 완료된게 맞는건지 확인차 문의드립니다\n토플파에는 등록된 상품수가 안보입니다!",
-    "님 안녕하세요.\n해당 매장 작업 중입니다.\n금일 중 연락 예정입니다."
+    "님 안녕하세요.\n해당 매장 작업 중입니다.\n금일 중 연락 예정입니다.",
+    "메뉴 등록 완료"
    ],
-   "rc": 5,
-   "lr": "1791852364.091689",
+   "rc": 6,
+   "lr": "1791856128.059869",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
