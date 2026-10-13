@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19810,
+  "version": 19811,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248543,6 +248543,7 @@ window.SLACK_DATA = {
     "2026-10-13": {
       "counts": {
         "as": {
+          "고경림": 1,
           "배선유": 1,
           "김현기": 4,
           "김동욱": 2,
@@ -248571,6 +248572,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:26",
+          "store": "옐로우카멜",
+          "biz": "7273400866",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "쿠팡이츠 연동요청주셨습니다:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:15",
           "store": "필라테스혜윰",
@@ -248891,7 +248903,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 5,
         "unknown": 0
       },
@@ -249040,14 +249052,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791854884.75,
+        "lastSeen": 1791854965.391,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791854884.75
+        "lastSeen": 1791854965.391
       }
     },
     "days": {
@@ -334108,7 +334120,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:28",
+    "at": "2026-10-13 10:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334235,7 +334247,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:28",
+    "at": "2026-10-13 10:29",
     "pri": {
       "days": 0,
       "failed": [],
