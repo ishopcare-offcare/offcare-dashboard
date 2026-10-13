@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3378,
- "updatedAt": "2026-10-13 10:21",
+ "version": 3379,
+ "updatedAt": "2026-10-13 10:23",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,517 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "1000032409.jpg",
+     "fid": "F0C8TVCUD36",
+     "from": "댓글",
+     "path": "menu-files/1791854208_801149-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "얼박사",
+       "price": 5800
+      },
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "얼비사 (마시는 비타민)",
+       "price": 5800
+      },
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "리얼 체리콕",
+       "price": 5800
+      },
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "생 토마토100프로 주스 (해장주스)",
+       "price": 7200
+      },
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "완전 꿀 토마토100프로주스",
+       "price": 7200
+      },
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "100프로 수박주스",
+       "price": 8800
+      },
+      {
+       "category": "코끼리 해장 시리즈",
+       "name": "배 꿀 스무디",
+       "price": 5800
+      }
+     ]
+    },
+    {
+     "name": "1000032413.jpg",
+     "fid": "F0C8K0K0F53",
+     "from": "댓글",
+     "path": "menu-files/1791854208_801149-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "아메리카노(보틀) 2잔",
+       "price": 0
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "카페라떼(보틀) 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "말차라떼 (보틀) 2잔",
+       "price": 5200
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "돌체라떼(보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "카라멜 마끼아또 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "바닐라라떼 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "복숭아 아이스티(보틀) 2잔",
+       "price": 2000
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "매실에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "자몽에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[1. 음료(보틀)선택 2잔]",
+       "name": "딸기에이드(보틀) 2잔",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "1000032415.jpg",
+     "fid": "F0C8J2LNLGK",
+     "from": "댓글",
+     "path": "menu-files/1791854208_801149-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "아메리카노(보틀) 2잔",
+       "price": 0
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "카페라떼(보틀) 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "말차라떼 (보틀) 2잔",
+       "price": 5200
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "돌체라떼(보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "카라멜 마끼아또 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "바닐라라떼 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "복숭아 아이스티(보틀) 2잔",
+       "price": 2000
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "매실에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "자몽에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[2. 음료(보틀)선택 2잔]",
+       "name": "딸기에이드(보틀) 2잔",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "1000032366.jpg",
+     "fid": "F0C8U03MFPE",
+     "from": "댓글",
+     "path": "menu-files/1791854208_801149-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "두바이 Series",
+       "name": "두바이초코 떡꼬치",
+       "price": 4900
+      },
+      {
+       "category": "두바이 Series",
+       "name": "두바이+누텔라 와플",
+       "price": 10000
+      },
+      {
+       "category": "두바이 Series",
+       "name": "두바이+누텔라+생크림 와플",
+       "price": 11000
+      }
+     ]
+    },
+    {
+     "name": "1000032372.jpg",
+     "fid": "F0C8U044X36",
+     "from": "댓글",
+     "path": "menu-files/1791854208_801149-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "클래식 버터 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "클래식 초코 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "초코청크 휘낭시에",
+       "price": 3300
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "츄러스 휘낭시에",
+       "price": 3300
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "레몬 휘낭시에",
+       "price": 3400
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "솔티 다크초코 휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "초코 페레로 휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "얼그레이 휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "황치즈 휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "프리미엄 휘낭시에 컬렉션",
+       "name": "화이트 페레로 휘낭시에",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "1000032376.jpg",
+     "fid": "F0C8Q4CSQ2W",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "코끼리 카페 BEST",
+       "name": "두바이초코 떡꼬치",
+       "price": 4900
+      },
+      {
+       "category": "코끼리 카페 BEST",
+       "name": "학교앞 양념 떡꼬치",
+       "price": 2900
+      },
+      {
+       "category": "코끼리 카페 BEST",
+       "name": "설탕시나몬 떡꼬치",
+       "price": 2900
+      }
+     ]
+    },
+    {
+     "name": "1000032385.jpg",
+     "fid": "F0C8S7HDKLZ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "와플",
+       "name": "두바이+누텔라 와플",
+       "price": 10000
+      },
+      {
+       "category": "와플",
+       "name": "두바이+누텔라+생크림 와플",
+       "price": 11000
+      },
+      {
+       "category": "와플",
+       "name": "생크림 와플",
+       "price": 4500
+      },
+      {
+       "category": "와플",
+       "name": "생크림따로 와플",
+       "price": 6000
+      },
+      {
+       "category": "와플",
+       "name": "초코 와플",
+       "price": 5000
+      },
+      {
+       "category": "와플",
+       "name": "로투스 와플",
+       "price": 5300
+      },
+      {
+       "category": "와플",
+       "name": "애플시나몬 와플",
+       "price": 5300
+      },
+      {
+       "category": "와플",
+       "name": "누텔라바나나 와플",
+       "price": 5900
+      }
+     ]
+    },
+    {
+     "name": "1000032399.jpg",
+     "fid": "F0C8J2ML86P",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "무화과 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "자몽에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "레몬에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "제주 청귤에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "제주 한라봉에이드",
+       "price": 5200
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "복자에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "복숭아에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "유자에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "딸기에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "딸기레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "체리에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "청포도에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "매실에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
+       "name": "소다에이드",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "1000032401.jpg",
+     "fid": "F0C9JLJ8K16",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생과일주스",
+       "name": "딸기주스",
+       "price": 6200
+      },
+      {
+       "category": "생과일주스",
+       "name": "바나나주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일주스",
+       "name": "블루베리바나나주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "망고주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "딸기바나나주스",
+       "price": 6800
+      }
+     ]
+    },
+    {
+     "name": "1000032405.jpg",
+     "fid": "F0C9JLHEUG0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "프라페",
+       "name": "초코칩프라페",
+       "price": 6500
+      },
+      {
+       "category": "프라페",
+       "name": "커피코코넛 프라페",
+       "price": 6800
+      },
+      {
+       "category": "프라페",
+       "name": "돼지바프라페",
+       "price": 7500
+      },
+      {
+       "category": "프라페",
+       "name": "미숫가루(17곡물) 프라페",
+       "price": 6500
+      }
+     ]
+    },
+    {
+     "name": "1000032472.jpg",
+     "fid": "F0C8K0JK7C5",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 초코칩프라페",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 미숫가루(17곡물) 프라페",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 커피코코넛 프라페",
+       "price": 600
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 돼지바 프라페",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "1000032476.jpg",
+     "fid": "F0C8K0MDUE9",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "콜드브루 카페인 선택",
+       "name": "카페인",
+       "price": 0
+      },
+      {
+       "category": "콜드브루 카페인 선택",
+       "name": "디카페인",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [
     "아니 제발...",
-    "배민을 보내주셧네요.. cc"
+    "배민을 보내주셧네요.. cc",
+    "ㅎ ㅎ ..............선생님들... 제가보내진 않았거든요? 근데...... 제가 죄송할게요.......  :ㅠㅠ_interpark: :ㅠㅠ_interpark: :ㅠㅠ_interpark:"
    ],
-   "rc": 3,
-   "lr": "1791854411.085039",
+   "rc": 7,
+   "lr": "1791854559.726779",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
