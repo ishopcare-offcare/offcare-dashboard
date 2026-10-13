@@ -3,10 +3,246 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3431,
- "updatedAt": "2026-10-13 16:02",
+ "version": 3432,
+ "updatedAt": "2026-10-13 16:13",
  "days": 30,
  "items": [
+  {
+   "ts": "1791875540.202419",
+   "date": "2026-10-13",
+   "time": "16:12",
+   "store": "군포식당",
+   "biz": "2055300595",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_6433.jpg.jpeg",
+     "fid": "F0C8ASKBSDV",
+     "from": "댓글",
+     "path": "menu-files/1791875540_202419-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "식사류",
+       "name": "(특)한우양지설렁탕(밥따로)",
+       "price": 17000
+      },
+      {
+       "category": "식사류",
+       "name": "(특)한우양지설렁탕(토렴식)",
+       "price": 17000
+      },
+      {
+       "category": "식사류",
+       "name": "공깃밥 추가",
+       "price": 1000
+      },
+      {
+       "category": "식사류",
+       "name": "(보통)한우양지설렁탕(밥따로)",
+       "price": 14000
+      },
+      {
+       "category": "식사류",
+       "name": "(보통)한우양지설렁탕(토렴식)",
+       "price": 14000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6434.jpg.jpeg",
+     "fid": "F0C8L1JDM5H",
+     "from": "댓글",
+     "path": "menu-files/1791875540_202419-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "요리류",
+       "name": "한우양지수육(대)",
+       "price": 50000
+      },
+      {
+       "category": "요리류",
+       "name": "한우양지수육(소)",
+       "price": 37000
+      },
+      {
+       "category": "요리류",
+       "name": "보쌈제육(대)",
+       "price": 42000
+      },
+      {
+       "category": "요리류",
+       "name": "보쌈제육(소)",
+       "price": 32000
+      },
+      {
+       "category": "요리류",
+       "name": "보쌈김치 추가",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6435.jpg.jpeg",
+     "fid": "F0C8S39NTC2",
+     "from": "댓글",
+     "path": "menu-files/1791875540_202419-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "포장(비조리)",
+       "name": "(포장)한우양지설렁탕(특)",
+       "price": 17000
+      },
+      {
+       "category": "포장(비조리)",
+       "name": "(포장)한우양지설렁탕(보통)",
+       "price": 14000
+      },
+      {
+       "category": "포장(비조리)",
+       "name": "(포장)한우양지수육(대)",
+       "price": 50000
+      },
+      {
+       "category": "포장(비조리)",
+       "name": "(포장)한우양지수육(소)",
+       "price": 37000
+      },
+      {
+       "category": "포장(비조리)",
+       "name": "(포장)보쌈제육(대)",
+       "price": 42000
+      },
+      {
+       "category": "포장(비조리)",
+       "name": "(포장)보쌈제육(소)",
+       "price": 32000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6436.jpg.jpeg",
+     "fid": "F0C9LKED7G8",
+     "from": "댓글",
+     "path": "menu-files/1791875540_202419-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "코카콜라 오리지널",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 제로",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "환타",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6437.jpg.jpeg",
+     "fid": "F0C8LUWLLCD",
+     "from": "댓글",
+     "path": "menu-files/1791875540_202419-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "장수 막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "화요 25도",
+       "price": 30000
+      },
+      {
+       "category": "주류",
+       "name": "일품진로",
+       "price": 30000
+      }
+     ]
+    },
+    {
+     "name": "IMG_6438.jpg.jpeg",
+     "fid": "F0C9LKENUNL",
+     "from": "댓글",
+     "path": "menu-files/1791875540_202419-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "진로 이즈백",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "켈리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "참이슬 Fresh",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "참이슬 오리지날",
+       "price": 5000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791875582.154979",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791875540202419"
+  },
   {
    "ts": "1791874908.730159",
    "date": "2026-10-13",
