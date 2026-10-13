@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3367,
- "updatedAt": "2026-10-13 09:54",
+ "version": 3368,
+ "updatedAt": "2026-10-13 09:57",
  "days": 30,
  "items": [
   {
@@ -529,8 +529,8 @@ window.MENU_REQUESTS = {
    "rc": 5,
    "lr": "1791852800.609429",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791852029157779"
   },
   {
@@ -572,7 +572,6 @@ window.MENU_REQUESTS = {
      "name": "1.png",
      "fid": "F0C9JC82WFJ",
      "from": "댓글",
-     "path": "menu-files/1791851320_047849-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -615,13 +614,13 @@ window.MENU_REQUESTS = {
        "name": "닭칼국수",
        "price": 9500
       }
-     ]
+     ],
+     "path": "menu-files/1791851320_047849-0.png"
     },
     {
      "name": "2.png",
      "fid": "F0C8JMRBB29",
      "from": "댓글",
-     "path": "menu-files/1791851320_047849-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -689,13 +688,13 @@ window.MENU_REQUESTS = {
        "name": "Kazan Kabob 카잔카밥",
        "price": 14500
       }
-     ]
+     ],
+     "path": "menu-files/1791851320_047849-1.png"
     },
     {
      "name": "3.png",
      "fid": "F0C88KEHFPZ",
      "from": "댓글",
-     "path": "menu-files/1791851320_047849-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -733,13 +732,13 @@ window.MENU_REQUESTS = {
        "name": "Tandir 1kg",
        "price": 39000
       }
-     ]
+     ],
+     "path": "menu-files/1791851320_047849-2.png"
     },
     {
      "name": "4.png",
      "fid": "F0C8TMBQ3NG",
      "from": "댓글",
-     "path": "menu-files/1791851320_047849-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -782,13 +781,13 @@ window.MENU_REQUESTS = {
        "name": "sezar 시저닭",
        "price": 8500
       }
-     ]
+     ],
+     "path": "menu-files/1791851320_047849-3.png"
     },
     {
      "name": "5.png",
      "fid": "F0C88KFDM2T",
      "from": "댓글",
-     "path": "menu-files/1791851320_047849-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -846,13 +845,13 @@ window.MENU_REQUESTS = {
        "name": "시금치삼사",
        "price": 3500
       }
-     ]
+     ],
+     "path": "menu-files/1791851320_047849-4.png"
     },
     {
      "name": "6.png",
      "fid": "F0C8PRLH4LS",
      "from": "댓글",
-     "path": "menu-files/1791851320_047849-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -955,7 +954,8 @@ window.MENU_REQUESTS = {
        "name": "케밥&카잔셋트",
        "price": 25000
       }
-     ]
+     ],
+     "path": "menu-files/1791851320_047849-5.png"
     },
     {
      "name": "7.png",
@@ -1326,9 +1326,11 @@ window.MENU_REQUESTS = {
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791851389.594359",
+   "replies": [
+    "메뉴등록완료"
+   ],
+   "rc": 3,
+   "lr": "1791852976.295379",
    "rfx": 3,
    "status": "done",
    "handler": "고경림",
