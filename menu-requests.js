@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3408,
- "updatedAt": "2026-10-13 14:20",
+ "version": 3409,
+ "updatedAt": "2026-10-13 14:35",
  "days": 30,
  "items": [
   {
@@ -349,7 +349,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261013_135752767_05.jpg",
      "fid": "F0C8L3WKYKX",
      "from": "댓글",
-     "path": "menu-files/1791867553_819499-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -397,13 +396,13 @@ window.MENU_REQUESTS = {
        "name": "생맥주1700cc",
        "price": 15000
       }
-     ]
+     ],
+     "path": "menu-files/1791867553_819499-0.jpg"
     },
     {
      "name": "KakaoTalk_20261013_135752767_04.jpg",
      "fid": "F0C8V3GCP60",
      "from": "댓글",
-     "path": "menu-files/1791867553_819499-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -411,13 +410,13 @@ window.MENU_REQUESTS = {
        "name": "돌솥비빔밥",
        "price": 10000
       }
-     ]
+     ],
+     "path": "menu-files/1791867553_819499-1.jpg"
     },
     {
      "name": "KakaoTalk_20261013_135752767_03.jpg",
      "fid": "F0C8K5ZTNDR",
      "from": "댓글",
-     "path": "menu-files/1791867553_819499-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -540,13 +539,13 @@ window.MENU_REQUESTS = {
        "name": "생선까스",
        "price": 9000
       }
-     ]
+     ],
+     "path": "menu-files/1791867553_819499-2.jpg"
     },
     {
      "name": "KakaoTalk_20261013_135752767.jpg",
      "fid": "F0C8A1MP63Z",
      "from": "댓글",
-     "path": "menu-files/1791867553_819499-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -649,13 +648,13 @@ window.MENU_REQUESTS = {
        "name": "비정가",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791867553_819499-3.jpg"
     },
     {
      "name": "KakaoTalk_20261013_135752767_01.jpg",
      "fid": "F0C9KPX95JL",
      "from": "댓글",
-     "path": "menu-files/1791867553_819499-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -778,13 +777,13 @@ window.MENU_REQUESTS = {
        "name": "(시즌)비빔냉면",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1791867553_819499-4.jpg"
     },
     {
      "name": "KakaoTalk_20261013_135752767_02.jpg",
      "fid": "F0C8PDT29RU",
      "from": "댓글",
-     "path": "menu-files/1791867553_819499-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -792,13 +791,14 @@ window.MENU_REQUESTS = {
        "name": "얼큰우동",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1791867553_819499-5.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1791867621.936799",
+   "rc": 3,
+   "lr": "1791869730.389309",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
