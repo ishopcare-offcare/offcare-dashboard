@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3358,
- "updatedAt": "2026-10-13 09:29",
+ "version": 3359,
+ "updatedAt": "2026-10-13 09:31",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,768 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "1.png",
+     "fid": "F0C9JC82WFJ",
+     "from": "댓글",
+     "path": "menu-files/1791851320_047849-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SOOD",
+       "name": "Pel lmeni 물만두",
+       "price": 9000
+      },
+      {
+       "category": "SOOD",
+       "name": "Mashkhurda 마쉬쿠르다",
+       "price": 10000
+      },
+      {
+       "category": "SOOD",
+       "name": "lagman 라그만",
+       "price": 10000
+      },
+      {
+       "category": "SOOD",
+       "name": "Ouy Shurpa 슈르파",
+       "price": 11000
+      },
+      {
+       "category": "SOOD",
+       "name": "Chuchvara 추치와라",
+       "price": 10000
+      },
+      {
+       "category": "SOOD",
+       "name": "Mastava 마스타바",
+       "price": 9500
+      },
+      {
+       "category": "SOOD",
+       "name": "Borsch",
+       "price": 9500
+      },
+      {
+       "category": "SOOD",
+       "name": "닭칼국수",
+       "price": 9500
+      }
+     ]
+    },
+    {
+     "name": "2.png",
+     "fid": "F0C8JMRBB29",
+     "from": "댓글",
+     "path": "menu-files/1791851320_047849-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Hot Menu",
+       "name": "Riba 생선",
+       "price": 25000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Manty 만두",
+       "price": 12000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Khanum 카눔",
+       "price": 12000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Dulma 덜마",
+       "price": 11000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Qovurma Lag mon 로스터키",
+       "price": 11000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Bifshteks 비프스테이크",
+       "price": 12000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Beshbarmak 베쉬바르막",
+       "price": 15000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Okorochka 닭다리",
+       "price": 12000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Norin 나른",
+       "price": 12000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Plov 필라프",
+       "price": 12000
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Achiq Go sht 아치크",
+       "price": 14500
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Kovurdak 쿠이르닥",
+       "price": 14500
+      },
+      {
+       "category": "Hot Menu",
+       "name": "Kazan Kabob 카잔카밥",
+       "price": 14500
+      }
+     ]
+    },
+    {
+     "name": "3.png",
+     "fid": "F0C88KEHFPZ",
+     "from": "댓글",
+     "path": "menu-files/1791851320_047849-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Shashlik",
+       "name": "Lyulya-kebob govyazhiy(케)",
+       "price": 4500
+      },
+      {
+       "category": "Shashlik",
+       "name": "Kurinyy shashlik(닭)",
+       "price": 5000
+      },
+      {
+       "category": "Shashlik",
+       "name": "Govyadina kuskovoy(소)",
+       "price": 5500
+      },
+      {
+       "category": "Shashlik",
+       "name": "Baranina kuskovoy(양)",
+       "price": 5500
+      },
+      {
+       "category": "Shashlik",
+       "name": "Asarti 세트",
+       "price": 23000
+      },
+      {
+       "category": "Shashlik",
+       "name": "Tandoor Gusht 0*5",
+       "price": 18000
+      },
+      {
+       "category": "Shashlik",
+       "name": "Tandir 1kg",
+       "price": 39000
+      }
+     ]
+    },
+    {
+     "name": "4.png",
+     "fid": "F0C8TMBQ3NG",
+     "from": "댓글",
+     "path": "menu-files/1791851320_047849-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Salad",
+       "name": "Morkov Salat(당근)",
+       "price": 5000
+      },
+      {
+       "category": "Salad",
+       "name": "Shakarob(샤카롭)",
+       "price": 5500
+      },
+      {
+       "category": "Salad",
+       "name": "SVEJI SALAD",
+       "price": 6500
+      },
+      {
+       "category": "Salad",
+       "name": "Marinad(마리네이드)",
+       "price": 6000
+      },
+      {
+       "category": "Salad",
+       "name": "샐)Achichuk 아치추크",
+       "price": 6000
+      },
+      {
+       "category": "Salad",
+       "name": "Olivlye 올리비에",
+       "price": 7500
+      },
+      {
+       "category": "Salad",
+       "name": "Smak 스마크",
+       "price": 7500
+      },
+      {
+       "category": "Salad",
+       "name": "sezar 시저닭",
+       "price": 8500
+      }
+     ]
+    },
+    {
+     "name": "5.png",
+     "fid": "F0C88KFDM2T",
+     "from": "댓글",
+     "path": "menu-files/1791851320_047849-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Vypechka&Hleb",
+       "name": "NON 0.5",
+       "price": 2000
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "Non",
+       "price": 3000
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "Kartoshka somsa",
+       "price": 3500
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "치킨삼사(Kurinyy Samsa)",
+       "price": 3700
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "Samsa 화덕삼사",
+       "price": 3700
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "GLMINdl",
+       "price": 2500
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "Cheburekl",
+       "price": 3500
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "도시락B)맨티.오븐.필라프.카잔",
+       "price": 25000
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "도시락A)쿠이.오븐.필라프.로스터",
+       "price": 25000
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "Plrozhkl 피로시키",
+       "price": 2500
+      },
+      {
+       "category": "Vypechka&Hleb",
+       "name": "시금치삼사",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "6.png",
+     "fid": "F0C8PRLH4LS",
+     "from": "댓글",
+     "path": "menu-files/1791851320_047849-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Garnir",
+       "name": "서어비스 비용",
+       "price": 7500
+      },
+      {
+       "category": "Garnir",
+       "name": "김치(kimch)",
+       "price": 2000
+      },
+      {
+       "category": "Garnir",
+       "name": "Grechka(메밀)",
+       "price": 3000
+      },
+      {
+       "category": "Garnir",
+       "name": "Ris(공기밥)",
+       "price": 1000
+      },
+      {
+       "category": "Garnir",
+       "name": "Yaitso",
+       "price": 1500
+      },
+      {
+       "category": "Garnir",
+       "name": "sous",
+       "price": 500
+      },
+      {
+       "category": "Garnir",
+       "name": "Pyure(감자)",
+       "price": 3500
+      },
+      {
+       "category": "Garnir",
+       "name": "마카로니(Makarony)",
+       "price": 3000
+      },
+      {
+       "category": "Garnir",
+       "name": "양꼬치변경(baranina)",
+       "price": 1000
+      },
+      {
+       "category": "Garnir",
+       "name": "샤슬릭 핫독(shashlik ...",
+       "price": 8500
+      },
+      {
+       "category": "Garnir",
+       "name": "핫독(우즈벡햄버거)",
+       "price": 5000
+      },
+      {
+       "category": "Garnir",
+       "name": "Fri 감자튀김",
+       "price": 7000
+      },
+      {
+       "category": "Garnir",
+       "name": "Kotlet set",
+       "price": 8000
+      },
+      {
+       "category": "Garnir",
+       "name": "닭다리set",
+       "price": 16000
+      },
+      {
+       "category": "Garnir",
+       "name": "쿠이르닥/필라브set",
+       "price": 21000
+      },
+      {
+       "category": "Garnir",
+       "name": "카잔set",
+       "price": 17000
+      },
+      {
+       "category": "Garnir",
+       "name": "오쉬&화덕삼사셋트",
+       "price": 10000
+      },
+      {
+       "category": "Garnir",
+       "name": "샤슬릭도시락",
+       "price": 10000
+      },
+      {
+       "category": "Garnir",
+       "name": "카잔셋트",
+       "price": 19500
+      },
+      {
+       "category": "Garnir",
+       "name": "케밥&카잔셋트",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "7.png",
+     "fid": "F0C8TMCFCMA",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Tea Hall",
+       "name": "Tashkent skiy Tea(블랙.녹차...",
+       "price": 4500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Mlks 1+1",
+       "price": 3500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Lemon(블랙+레몬)",
+       "price": 3000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Tea 추가",
+       "price": 1000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Zaelenyy Tea(녹차)",
+       "price": 2000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "BLACK TEA(블랙)",
+       "price": 1500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "S molokom Tea(블랙+우유)",
+       "price": 5500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Coka-cola(L)",
+       "price": 4500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Pepsi Cola(L)",
+       "price": 4000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Pepsi / cola 500ml",
+       "price": 2500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "cen",
+       "price": 2000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Mahito 500ml(모히또)",
+       "price": 3500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "에너지음료(HOT LINE)",
+       "price": 3500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "데나Con(SOK)",
+       "price": 2500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Sok",
+       "price": 5000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "kefir 0.5 요거트",
+       "price": 5000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "kefir(소)요거트",
+       "price": 3000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "탄산수(NABEGHLAVI)",
+       "price": 3900
+      },
+      {
+       "category": "Tea Hall",
+       "name": "ayran(아이란500ml)",
+       "price": 3500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "주스",
+       "price": 4000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "DIZZY",
+       "price": 5000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "에너지음료(GORILLA)",
+       "price": 3700
+      },
+      {
+       "category": "Tea Hall",
+       "name": "녹차레몬/ 홍차베리(MAXI)",
+       "price": 3900
+      },
+      {
+       "category": "Tea Hall",
+       "name": "바질씨드 음료(Basil Seed ...",
+       "price": 3000
+      },
+      {
+       "category": "Tea Hall",
+       "name": "kompot(소)",
+       "price": 3500
+      },
+      {
+       "category": "Tea Hall",
+       "name": "Kompot 1L",
+       "price": 6500
+      }
+     ]
+    },
+    {
+     "name": "8.png",
+     "fid": "F0C9JCBV3LY",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Desert",
+       "name": "mentos",
+       "price": 2500
+      },
+      {
+       "category": "Desert",
+       "name": "orbit",
+       "price": 2300
+      },
+      {
+       "category": "Desert",
+       "name": "바클라바(Pakhlava)소",
+       "price": 8000
+      },
+      {
+       "category": "Desert",
+       "name": "조각케이크",
+       "price": 6000
+      },
+      {
+       "category": "Desert",
+       "name": "NAPAL YON",
+       "price": 8500
+      },
+      {
+       "category": "Desert",
+       "name": "MEDAVIK",
+       "price": 8500
+      },
+      {
+       "category": "Desert",
+       "name": "Morojenoe(아이스크림)",
+       "price": 4500
+      },
+      {
+       "category": "Desert",
+       "name": "줌마토스트",
+       "price": 4500
+      },
+      {
+       "category": "Desert",
+       "name": "수제버거",
+       "price": 5000
+      },
+      {
+       "category": "Desert",
+       "name": "레몬젤리(JTYKYM)",
+       "price": 5500
+      },
+      {
+       "category": "Desert",
+       "name": "휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "Desert",
+       "name": "해바라기씨",
+       "price": 3500
+      },
+      {
+       "category": "Desert",
+       "name": "바클라바박스Box",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "9.png",
+     "fid": "F0C8TMDVCGL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "밀크티",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카푸치노",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "vanilla latte 바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "café latte 카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "americano 아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "AFFOGATO 아포카토(카라멜)",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "MILK LATTE(연유라떼)",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "caramel machiato 카라멜",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "망고라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "딸기라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "LATTE (오곡.녹차.초코)",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "밀크쉐이크",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "YOGURT (요거트.딸기.블루베리.망고)",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "과일쥬스(토마토.딸기.망고.블루베리.키위.오렌지)",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "daigona 달고나",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "얼그레이(홍차)",
+       "price": 3000
+      },
+      {
+       "category": "COFFEE",
+       "name": "페파민트(허브)",
+       "price": 3000
+      },
+      {
+       "category": "COFFEE",
+       "name": "건강차(유자.레몬.모과.청귤)",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "에이드",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아이스티",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아/아(1리터)",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "레몬에이드(대)",
+       "price": 7500
+      }
+     ]
+    },
+    {
+     "name": "10.png",
+     "fid": "F0C8HPXKSG3",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "PLOV ZAKAZ",
+       "name": "ZAKAZ PLOV 1KG",
+       "price": 100000
+      },
+      {
+       "category": "PLOV ZAKAZ",
+       "name": "ZAJAZ DEVZRA ISG 0.5",
+       "price": 65000
+      },
+      {
+       "category": "PLOV ZAKAZ",
+       "name": "PLOV 1KG",
+       "price": 80000
+      },
+      {
+       "category": "PLOV ZAKAZ",
+       "name": "ZAKAZ DEVZIRA OSH 1.kg",
+       "price": 145000
+      },
+      {
+       "category": "PLOV ZAKAZ",
+       "name": "fruktoviy asarti",
+       "price": 30000
+      },
+      {
+       "category": "PLOV ZAKAZ",
+       "name": "과일셋트",
+       "price": 45000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791851324.204389",
+   "rc": 2,
+   "lr": "1791851389.594359",
    "rfx": 3,
    "status": "confirm",
    "handler": "고경림",
