@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3437,
- "updatedAt": "2026-10-13 16:26",
+ "version": 3438,
+ "updatedAt": "2026-10-13 16:31",
  "days": 30,
  "items": [
   {
@@ -3066,6 +3066,205 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8B0L1ETH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "정식추가",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "특으로 변경",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "다대기빼기",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "파빼기",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "들깨빼기",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8W2HS420",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "정식추가",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "특으로 변경",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "파빼기",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "들깨빼기",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8M3118J1",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "선택상품",
+       "name": "정식추가",
+       "price": 5000
+      },
+      {
+       "category": "선택상품",
+       "name": "다대기빼기",
+       "price": 0
+      },
+      {
+       "category": "선택상품",
+       "name": "파빼기",
+       "price": 0
+      },
+      {
+       "category": "선택상품",
+       "name": "들깨빼기",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9LP08BKJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "곱빼기",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "정식추가",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "사이드등심돈까스",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "사이드치즈돈까스",
+       "price": 7000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8W2PKJRJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "정식추가",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9LP3RFME",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "정식추가",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "특으로 변경",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8L5A093M",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "특으로 변경",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "다대기빼기",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "파빼기",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "들깨빼기",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8W2UTTJQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "특으로 변경",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "파빼기",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "들깨빼기",
+       "price": 0
+      }
+     ]
     }
    ],
    "datt": [],
@@ -3073,8 +3272,8 @@ window.MENU_REQUESTS = {
     "백업",
     "2차백업"
    ],
-   "rc": 3,
-   "lr": "1791873012.088619",
+   "rc": 4,
+   "lr": "1791876603.710099",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
