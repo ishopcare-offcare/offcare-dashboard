@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3392,
- "updatedAt": "2026-10-13 11:01",
+ "version": 3393,
+ "updatedAt": "2026-10-13 11:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1791856908.442469",
+   "date": "2026-10-13",
+   "time": "11:01",
+   "store": "(봉명동)(주) 형과아우",
+   "biz": "1398802492",
+   "pos": "오케이포스",
+   "content": "프로그램 : 오케이포스\n흑염소탕(보통) 15,000 원 > 13,000원으로 수정 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791856913.247859",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791856908442469"
+  },
   {
    "ts": "1791855835.535499",
    "date": "2026-10-13",
@@ -187,461 +208,6 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [
     {
-     "name": "1000032409.jpg",
-     "fid": "F0C8TVCUD36",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "얼박사",
-       "price": 5800
-      },
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "얼비사 (마시는 비타민)",
-       "price": 5800
-      },
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "리얼 체리콕",
-       "price": 5800
-      },
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "생 토마토100프로 주스 (해장주스)",
-       "price": 7200
-      },
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "완전 꿀 토마토100프로주스",
-       "price": 7200
-      },
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "100프로 수박주스",
-       "price": 8800
-      },
-      {
-       "category": "코끼리 해장 시리즈",
-       "name": "배 꿀 스무디",
-       "price": 5800
-      }
-     ],
-     "path": "menu-files/1791854208_801149-1.jpg"
-    },
-    {
-     "name": "1000032413.jpg",
-     "fid": "F0C8K0K0F53",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "아메리카노(보틀) 2잔",
-       "price": 0
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "카페라떼(보틀) 2잔",
-       "price": 3200
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "말차라떼 (보틀) 2잔",
-       "price": 5200
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "돌체라떼(보틀) 2잔",
-       "price": 6000
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "카라멜 마끼아또 (보틀) 2잔",
-       "price": 6000
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "바닐라라떼 (보틀) 2잔",
-       "price": 6000
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "복숭아 아이스티(보틀) 2잔",
-       "price": 2000
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "매실에이드(보틀) 2잔",
-       "price": 4000
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "자몽에이드(보틀) 2잔",
-       "price": 4000
-      },
-      {
-       "category": "[1. 음료(보틀)선택 2잔]",
-       "name": "딸기에이드(보틀) 2잔",
-       "price": 8000
-      }
-     ],
-     "path": "menu-files/1791854208_801149-2.jpg"
-    },
-    {
-     "name": "1000032415.jpg",
-     "fid": "F0C8J2LNLGK",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "아메리카노(보틀) 2잔",
-       "price": 0
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "카페라떼(보틀) 2잔",
-       "price": 3200
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "말차라떼 (보틀) 2잔",
-       "price": 5200
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "돌체라떼(보틀) 2잔",
-       "price": 6000
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "카라멜 마끼아또 (보틀) 2잔",
-       "price": 6000
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "바닐라라떼 (보틀) 2잔",
-       "price": 6000
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "복숭아 아이스티(보틀) 2잔",
-       "price": 2000
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "매실에이드(보틀) 2잔",
-       "price": 4000
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "자몽에이드(보틀) 2잔",
-       "price": 4000
-      },
-      {
-       "category": "[2. 음료(보틀)선택 2잔]",
-       "name": "딸기에이드(보틀) 2잔",
-       "price": 8000
-      }
-     ],
-     "path": "menu-files/1791854208_801149-3.jpg"
-    },
-    {
-     "name": "1000032366.jpg",
-     "fid": "F0C8U03MFPE",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "두바이 Series",
-       "name": "두바이초코 떡꼬치",
-       "price": 4900
-      },
-      {
-       "category": "두바이 Series",
-       "name": "두바이+누텔라 와플",
-       "price": 10000
-      },
-      {
-       "category": "두바이 Series",
-       "name": "두바이+누텔라+생크림 와플",
-       "price": 11000
-      }
-     ],
-     "path": "menu-files/1791854208_801149-4.jpg"
-    },
-    {
-     "name": "1000032372.jpg",
-     "fid": "F0C8U044X36",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "클래식 버터 휘낭시에",
-       "price": 3200
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "클래식 초코 휘낭시에",
-       "price": 3200
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "초코청크 휘낭시에",
-       "price": 3300
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "츄러스 휘낭시에",
-       "price": 3300
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "레몬 휘낭시에",
-       "price": 3400
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "솔티 다크초코 휘낭시에",
-       "price": 3500
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "초코 페레로 휘낭시에",
-       "price": 3500
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "얼그레이 휘낭시에",
-       "price": 3500
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "황치즈 휘낭시에",
-       "price": 3500
-      },
-      {
-       "category": "프리미엄 휘낭시에 컬렉션",
-       "name": "화이트 페레로 휘낭시에",
-       "price": 3500
-      }
-     ],
-     "path": "menu-files/1791854208_801149-5.jpg"
-    },
-    {
-     "name": "1000032376.jpg",
-     "fid": "F0C8Q4CSQ2W",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "코끼리 카페 BEST",
-       "name": "두바이초코 떡꼬치",
-       "price": 4900
-      },
-      {
-       "category": "코끼리 카페 BEST",
-       "name": "학교앞 양념 떡꼬치",
-       "price": 2900
-      },
-      {
-       "category": "코끼리 카페 BEST",
-       "name": "설탕시나몬 떡꼬치",
-       "price": 2900
-      }
-     ]
-    },
-    {
-     "name": "1000032385.jpg",
-     "fid": "F0C8S7HDKLZ",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "와플",
-       "name": "두바이+누텔라 와플",
-       "price": 10000
-      },
-      {
-       "category": "와플",
-       "name": "두바이+누텔라+생크림 와플",
-       "price": 11000
-      },
-      {
-       "category": "와플",
-       "name": "생크림 와플",
-       "price": 4500
-      },
-      {
-       "category": "와플",
-       "name": "생크림따로 와플",
-       "price": 6000
-      },
-      {
-       "category": "와플",
-       "name": "초코 와플",
-       "price": 5000
-      },
-      {
-       "category": "와플",
-       "name": "로투스 와플",
-       "price": 5300
-      },
-      {
-       "category": "와플",
-       "name": "애플시나몬 와플",
-       "price": 5300
-      },
-      {
-       "category": "와플",
-       "name": "누텔라바나나 와플",
-       "price": 5900
-      }
-     ]
-    },
-    {
-     "name": "1000032399.jpg",
-     "fid": "F0C8J2ML86P",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "무화과 에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "자몽에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "레몬에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "제주 청귤에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "제주 한라봉에이드",
-       "price": 5200
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "복자에이드",
-       "price": 5500
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "복숭아에이드",
-       "price": 5500
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "유자에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "딸기에이드",
-       "price": 6000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "딸기레몬에이드",
-       "price": 5500
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "체리에이드",
-       "price": 5500
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "청포도에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "매실에이드",
-       "price": 5000
-      },
-      {
-       "category": "에이드(탄산을 섞은 시원한 과즙 음료)",
-       "name": "소다에이드",
-       "price": 5000
-      }
-     ]
-    },
-    {
-     "name": "1000032401.jpg",
-     "fid": "F0C9JLJ8K16",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "생과일주스",
-       "name": "딸기주스",
-       "price": 6200
-      },
-      {
-       "category": "생과일주스",
-       "name": "바나나주스",
-       "price": 6000
-      },
-      {
-       "category": "생과일주스",
-       "name": "블루베리바나나주스",
-       "price": 6500
-      },
-      {
-       "category": "생과일주스",
-       "name": "망고주스",
-       "price": 6500
-      },
-      {
-       "category": "생과일주스",
-       "name": "딸기바나나주스",
-       "price": 6800
-      }
-     ]
-    },
-    {
-     "name": "1000032405.jpg",
-     "fid": "F0C9JLHEUG0",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "프라페",
-       "name": "초코칩프라페",
-       "price": 6500
-      },
-      {
-       "category": "프라페",
-       "name": "커피코코넛 프라페",
-       "price": 6800
-      },
-      {
-       "category": "프라페",
-       "name": "돼지바프라페",
-       "price": 7500
-      },
-      {
-       "category": "프라페",
-       "name": "미숫가루(17곡물) 프라페",
-       "price": 6500
-      }
-     ]
-    },
-    {
      "name": "1000032472.jpg",
      "fid": "F0C8K0JK7C5",
      "from": "댓글",
@@ -667,7 +233,8 @@ window.MENU_REQUESTS = {
        "name": "1L 돼지바 프라페",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-0.jpg"
     },
     {
      "name": "1000032476.jpg",
@@ -685,7 +252,8 @@ window.MENU_REQUESTS = {
        "name": "디카페인",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-1.jpg"
     },
     {
      "name": "1000032417.jpg",
@@ -743,7 +311,8 @@ window.MENU_REQUESTS = {
        "name": "딸기에이드(보틀) 2잔",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-2.jpg"
     },
     {
      "name": "1000032419.jpg",
@@ -801,7 +370,8 @@ window.MENU_REQUESTS = {
        "name": "딸기에이드(보틀) 2잔",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-3.jpg"
     },
     {
      "name": "1000032423.jpg",
@@ -859,7 +429,8 @@ window.MENU_REQUESTS = {
        "name": "딸기에이드 2잔",
        "price": 4200
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-4.jpg"
     },
     {
      "name": "1000032426.jpg",
@@ -917,7 +488,8 @@ window.MENU_REQUESTS = {
        "name": "딸기에이드 2잔",
        "price": 4200
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-5.jpg"
     },
     {
      "name": "1000032432.jpg",
@@ -1412,21 +984,504 @@ window.MENU_REQUESTS = {
        "price": 3900
       }
      ]
+    },
+    {
+     "name": "1000032374.jpg",
+     "fid": "F0C8NAHESMC",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "휴게소 소세지",
+       "price": 4300
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "롱~치즈스틱",
+       "price": 5500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "[맛있어서돌아버린]회오리감자",
+       "price": 3900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "놀이공원 츄러스",
+       "price": 6900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "[추억속의 맛]피카츄돈까스",
+       "price": 4500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "[추억의콜팝] 팝콘치킨",
+       "price": 5900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "팝콘만두",
+       "price": 4900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "소떡소떡",
+       "price": 4500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "노릇노릇 맛감자",
+       "price": 5300
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "노릇노릇 한입간식 델리만쥬",
+       "price": 6400
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "앙금에 진심인 국화빵",
+       "price": 8500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "연유 꽃빵튀김",
+       "price": 5500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "페스츄리 소세지",
+       "price": 4900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "바나나브륄레",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "1000032374.jpg",
+     "fid": "F0C8Q4KJHFU",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "휴게소 소세지",
+       "price": 4300
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "롱~치즈스틱",
+       "price": 5500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "[맛있어서돌아버린]회오리감자",
+       "price": 3900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "놀이공원 츄러스",
+       "price": 6900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "[추억속의 맛]피카츄돈까스",
+       "price": 4500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "[추억의콜팝] 팝콘치킨",
+       "price": 5900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "팝콘만두",
+       "price": 4900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "소떡소떡",
+       "price": 4500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "노릇노릇 맛감자",
+       "price": 5300
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "노릇노릇 한입간식 델리만쥬",
+       "price": 6400
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "앙금에 진심인 국화빵",
+       "price": 8500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "연유 꽃빵튀김",
+       "price": 5500
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "페스츄리 소세지",
+       "price": 4900
+      },
+      {
+       "category": "쉬어가는 휴게소",
+       "name": "바나나브륄레",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "1000032378.jpg",
+     "fid": "F0C8S7QL189",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "국물 촉촉 계란볶이",
+       "price": 5500
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "오리지널 떡볶이",
+       "price": 6300
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "매콤 떡볶이",
+       "price": 6300
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "불닭 떡볶이",
+       "price": 6500
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "로제 떡볶이",
+       "price": 6800
+      }
+     ]
+    },
+    {
+     "name": "1000032381.jpg",
+     "fid": "F0C8S7RA28Z",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "김치볶음밥",
+       "price": 7500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "햄야채볶음밥",
+       "price": 7500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "새우볶음밥",
+       "price": 8500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "불닭 김치볶음밥",
+       "price": 8500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "불닭 햄야채볶음밥",
+       "price": 8500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "불닭 새우볶음밥",
+       "price": 9500
+      }
+     ]
+    },
+    {
+     "name": "1000032480.jpg",
+     "fid": "F0C8S7R1Z17",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맛 변경 선택",
+       "name": "연하게",
+       "price": 0
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "1샷 추가",
+       "price": 500
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "2샷 추가",
+       "price": 1000
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "시럽 추가",
+       "price": 0
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "헤이즐넛 시럽 추가",
+       "price": 500
+      }
+     ]
+    },
+    {
+     "name": "1000032482.jpg",
+     "fid": "F0C8NALML6S",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생크림 추가 선택",
+       "name": "생크림 OK (용기에 따로 담아나갑니다)",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "1000032359.jpg",
+     "fid": "F0C8S7R5FRP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "900원 득템찬스(리뷰 이벤트 진행중)",
+       "name": "구공공 음료",
+       "price": 900
+      },
+      {
+       "category": "[단체주문 할인 이벤트]",
+       "name": "[단체주문 EVENT]500ml커피(ONLY ICE)",
+       "price": 24000
+      },
+      {
+       "category": "[단체주문 할인 이벤트]",
+       "name": "[단체주문 EVENT]1L(보틀)커피(ONLY ICE)",
+       "price": 65000
+      }
+     ]
+    },
+    {
+     "name": "1000032361.jpg",
+     "fid": "F0C8NAM2N3Y",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "칠리스 치즈스틱",
+       "name": "오리지널 칠리스 치즈스틱",
+       "price": 8900
+      },
+      {
+       "category": "칠리스 치즈스틱",
+       "name": "불닭 칠리스 치즈스틱",
+       "price": 8900
+      },
+      {
+       "category": "칠리스 치즈스틱",
+       "name": "반반 칠리스 치즈스틱",
+       "price": 8900
+      }
+     ]
+    },
+    {
+     "name": "1000032364.jpg",
+     "fid": "F0C88TWUMJT",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베라떼",
+       "price": 5300
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 카페라떼",
+       "price": 5600
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 말차라떼",
+       "price": 5800
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 딸기라떼",
+       "price": 6800
+      }
+     ]
+    },
+    {
+     "name": "1000032368.jpg",
+     "fid": "F0C8S7RMVUZ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "닭강정이 되고 싶은 컵 양념치킨",
+       "price": 5800
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "더 푸짐한 양념치킨",
+       "price": 9800
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 분모자 떡볶이",
+       "price": 5300
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 타코야끼",
+       "price": 4500
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 김치볶음밥",
+       "price": 4300
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 계란볶이",
+       "price": 3500
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 떡꼬치",
+       "price": 2500
+      }
+     ]
+    },
+    {
+     "name": "1000032370.jpg",
+     "fid": "F0C8NAMJZEJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 묵사발",
+       "price": 6800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 컷팅수박",
+       "price": 5900
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컷팅수박",
+       "price": 10500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 불닭냉면",
+       "price": 6800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "망고 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "망고 요거트 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "우베 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "1인 1빙수 가능한 컵빙수",
+       "price": 7500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "제주말차 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "담백하고 맛있는 고구마스틱",
+       "price": 3800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 카라멜 팝콘",
+       "price": 4200
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "추억의 빠삭 컵라면땅",
+       "price": 3900
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "내짝꿍 컵 토마토+설탕",
+       "price": 5900
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "한컵으로 시원하게 컵냉면",
+       "price": 5800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 참치 비빔우동",
+       "price": 6300
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 경주쫀드기",
+       "price": 3900
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
-    "배민을 보내주셧네요.. cc",
     "ㅎ ㅎ ..............선생님들... 제가보내진 않았거든요? 근데...... 제가 죄송할게요.......  :ㅠㅠ_interpark: :ㅠㅠ_interpark: :ㅠㅠ_interpark:",
     "다시 보내달라고할게요........",
     "그만올려요 선유님 ......",
     "ㅠㅠㅠㅠ 다시보내봐달라고할게요.......기다려주세요.......",
     "이미지로 올려야 판독이 되서용",
     "일단 올려놓고 새로 받아주시면 감사드릴게요! 만약에 따로 못보내주신다고 하는걸 대비해서요...",
-    "아니 이거 ai 돌리려구용!"
+    "아니 이거 ai 돌리려구용!",
+    "ㅠㅠㅠ 저희 이런거는 보내지말아달라고 스크립트에 추가할게요ㅠㅠ 고생이많으십니다 :눈물ㅠ:"
    ],
-   "rc": 31,
-   "lr": "1791856875.675259",
+   "rc": 34,
+   "lr": "1791856920.273509",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
