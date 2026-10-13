@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3396,
- "updatedAt": "2026-10-13 11:08",
+ "version": 3397,
+ "updatedAt": "2026-10-13 11:09",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1791856913.247859",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791856908442469"
   },
   {
@@ -211,32 +211,32 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C8U3E9XUL",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-0.png",
      "kind": "other",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791854208_801149-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8J92RK51",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-1.png",
      "kind": "other",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791854208_801149-1.png"
     }
    ],
    "datt": [],
    "replies": [
-    "슬기님 호오옥시 여기 기존에 사용중인 포스프로그램 있으면 화면 찍어서 보내시는게 베스트에용!",
-    "ㅎ ㅎ... ㅠㅠㅠㅠㅠㅠㅠㅠㅠ\n그렇지만 여기는 신규였다고한다..",
     "옵션이 넘 많음 AI 불가",
     "오우,.,",
     "통화 거는중 제가 말씀드려볼게여 잠시만요 흐엉",
     "선유님 규빈님,, 배달 전문이라 별도로 텍스트로 정리하거나 기재해 둔 메뉴판은 없고 프랜차이즈 본사에서 제공받은 레시피북 같은 자료가 있다고 하는데요.\n해당 자료에는 옵션 정보는 없지만 일단 한번 주신다고 해요.. :냥냥단_눈물:",
     "매장에 메뉴판도 별도로 없는 상황일까요..?",
-    "아니면 본사에서 따로 관리하는 매장별 메뉴 리스트가 있을거 같습니다"
+    "아니면 본사에서 따로 관리하는 매장별 메뉴 리스트가 있을거 같습니다",
+    "규빈님 업참바...",
+    "그럼 여기 배민 게정은 받을 수 있나요?\n도저히 방법없으면 저희가 배민 계정에서 상품 다운받아가지고 엑셀로 보는게 더 나을수도 있을거같습니다"
    ],
-   "rc": 49,
-   "lr": "1791857294.053689",
+   "rc": 51,
+   "lr": "1791857318.630359",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
