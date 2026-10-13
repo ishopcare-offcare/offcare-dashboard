@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19797,
+  "version": 19798,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248542,13 +248542,13 @@ window.SLACK_DATA = {
     },
     "2026-10-13": {
       "counts": {
+        "as": {
+          "김현기": 4,
+          "김동욱": 2,
+          "송태양": 3
+        },
         "onboarding": {
           "고경림": 2
-        },
-        "as": {
-          "김동욱": 2,
-          "김현기": 3,
-          "송태양": 3
         },
         "extern": {
           "서상원": 1
@@ -248575,6 +248575,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "아직 메일 안옴",
+          "rr": 1
+        },
+        {
+          "time": "09:58",
+          "store": "칠보흑염소탕 부추감자탕",
+          "biz": "2862800078",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "페이스페이 결제시 캠화면 노출이 아닌 [사장님에게 주문해주세요]  라는 문구가 뜬다하여 확인부탁드립니다",
+          "hw": "",
+          "intake": "offline",
+          "note": "퍼스트 포스 사용 중 / 버전이 낮아 페이스페이 불가함 / 버전 업데이트",
           "rr": 1
         },
         {
@@ -248814,10 +248826,45 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 19,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "10:01"
+      "updatedAt": "10:08",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 1
+        },
+        "npsDist": {
+          "10": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": []
+      }
     }
   },
   "resp": {
@@ -248927,28 +248974,28 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791853659.659,
+        "lastSeen": 1791853736.584,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791852029.157779": {
         "post": "1791852029.157779",
-        "lastSeen": 1791853659.659,
+        "lastSeen": 1791853736.584,
         "r": 1,
         "day": "2026-10-13",
         "idx": 12
       },
       "1791853201.776279": {
         "post": "1791853201.776279",
-        "lastSeen": 1791853659.659,
+        "lastSeen": 1791853736.584,
         "r": 1,
         "day": "2026-10-13",
         "idx": 13
       },
       "1791853304.960009": {
         "post": "1791853304.960009",
-        "lastSeen": 1791853659.659,
+        "lastSeen": 1791853736.584,
         "r": 1,
         "day": "2026-10-13",
         "idx": 14
@@ -334009,7 +334056,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:07",
+    "at": "2026-10-13 10:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334136,7 +334183,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:07",
+    "at": "2026-10-13 10:08",
     "pri": {
       "days": 0,
       "failed": [],
