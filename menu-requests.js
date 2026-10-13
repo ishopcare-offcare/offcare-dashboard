@@ -3,10 +3,57 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3355,
- "updatedAt": "2026-10-13 09:20",
+ "version": 3356,
+ "updatedAt": "2026-10-13 09:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1791850908.884939",
+   "date": "2026-10-13",
+   "time": "09:21",
+   "store": "아인탑",
+   "biz": "6968803577",
+   "pos": "토스포스",
+   "content": "메뉴 사진 등록 요청",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1fKV83QBQll5mfow1A_Eo279B03PFEtRt/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1soIlLE7St5ZMnoQd-wp82DhpppoDJpF9/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1S1WKqzJRmOlVdug5ZHwqPaN1NcmPmNY8/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1fWN_PJ1VVwdaPFHTscsqC-GqlZDgZzNl/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1fKV83QBQll5mfow1A_Eo279B03PFEtRt",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1soIlLE7St5ZMnoQd-wp82DhpppoDJpF9",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1S1WKqzJRmOlVdug5ZHwqPaN1NcmPmNY8",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1fWN_PJ1VVwdaPFHTscsqC-GqlZDgZzNl",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791850908884939"
+  },
   {
    "ts": "1791850780.454349",
    "date": "2026-10-13",
