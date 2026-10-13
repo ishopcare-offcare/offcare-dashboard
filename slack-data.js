@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19800,
+  "version": 19801,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248562,13 +248562,26 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
+          "김동욱": 2,
           "김규빈": 6,
-          "김동욱": 1,
+          "배선유": 1,
           "고경림": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:11",
+          "store": "춘천닭갈비vs양푼이김치찌개",
+          "biz": "8677000309",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "퍼스트포스 <https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790707206759|https://w1659946222-hxm266180.slack.com/archives/C0874",
+          "hw": "",
+          "intake": "offline",
+          "note": "솔라피발송",
+          "rr": 2
+        },
         {
           "time": "10:01",
           "store": "남성클럽",
@@ -248662,6 +248675,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "09:40",
+          "store": "타로 야",
+          "biz": "6710101230",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "신규 설치 예정 메뉴 등록",
+          "hw": "",
+          "intake": "offline",
+          "note": "zzz 넵 /",
+          "rr": 6
         },
         {
           "time": "09:39",
@@ -248853,7 +248878,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 21,
-        "offline": 3,
+        "offline": 5,
         "unknown": 0
       },
       "updatedAt": "10:11",
@@ -249001,17 +249026,10 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791854020.647,
+        "lastSeen": 1791854071.242,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
-      },
-      "1791852029.157779": {
-        "post": "1791852029.157779",
-        "lastSeen": 1791854020.647,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 12
       }
     },
     "days": {
@@ -334037,7 +334055,8 @@ window.SLACK_DATA = {
             "store": "타로 야",
             "biz": "6710101230",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 33.6
           },
           {
             "hm": "10:00",
@@ -334071,7 +334090,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:13",
+    "at": "2026-10-13 10:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334198,7 +334217,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:13",
+    "at": "2026-10-13 10:14",
     "pri": {
       "days": 0,
       "failed": [],
