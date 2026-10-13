@@ -3,10 +3,57 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3418,
- "updatedAt": "2026-10-13 15:13",
+ "version": 3419,
+ "updatedAt": "2026-10-13 15:23",
  "days": 30,
  "items": [
+  {
+   "ts": "1791872576.282729",
+   "date": "2026-10-13",
+   "time": "15:22",
+   "store": "새우야",
+   "biz": "2891801704",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791872578.874999",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791872576282729"
+  },
+  {
+   "ts": "1791872508.649789",
+   "date": "2026-10-13",
+   "time": "15:21",
+   "store": "",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 메뉴수정건\n건\n내용: 메뉴중 신라면골드 가격을 3600원에서3800윈으로 수정 너구리 메뉴를 얼근한 너구리 로 명칭 변경해주세요 기존 메뉴중 이미지 미삽입한 메뉴시진 넣어추세요 향라우육향라면 홍소우육향라면 사진 첨부합니다 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a133e8fec2c20dc>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a133e8fec2c20dc",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791872508649789"
+  },
   {
    "ts": "1791871811.650199",
    "date": "2026-10-13",
