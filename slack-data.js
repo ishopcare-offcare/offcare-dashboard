@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20308,
+  "version": 20309,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248593,11 +248593,11 @@ window.SLACK_DATA = {
         },
         "menu": {
           "김규빈": 19,
+          "김동욱": 3,
           "최민석": 1,
           "배선유": 6,
           "서상원": 1,
           "심성현": 1,
-          "김동욱": 2,
           "고경림": 1
         },
         "transfer": {
@@ -248698,6 +248698,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "현재 매장 아님 익일 오후6시 재연락 요청",
           "rr": 1
+        },
+        {
+          "time": "21:13",
+          "store": "코끼리 카페",
+          "biz": "2531802965",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "• 메뉴 등록 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "메뉴/옵션 등록완료.",
+          "rr": 3
         },
         {
           "time": "21:03",
@@ -251687,7 +251699,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 203,
+        "online": 204,
         "offline": 60,
         "unknown": 0
       },
@@ -338930,7 +338942,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-14 07:45",
+    "at": "2026-10-14 08:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -339058,7 +339070,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 07:45",
+    "at": "2026-10-14 08:00",
     "pri": {
       "days": 0,
       "failed": [],
