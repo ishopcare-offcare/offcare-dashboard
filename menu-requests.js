@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3379,
- "updatedAt": "2026-10-13 10:23",
+ "version": 3380,
+ "updatedAt": "2026-10-13 10:25",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "1000032409.jpg",
      "fid": "F0C8TVCUD36",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -61,13 +60,13 @@ window.MENU_REQUESTS = {
        "name": "배 꿀 스무디",
        "price": 5800
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-1.jpg"
     },
     {
      "name": "1000032413.jpg",
      "fid": "F0C8K0K0F53",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -120,13 +119,13 @@ window.MENU_REQUESTS = {
        "name": "딸기에이드(보틀) 2잔",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-2.jpg"
     },
     {
      "name": "1000032415.jpg",
      "fid": "F0C8J2LNLGK",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -179,13 +178,13 @@ window.MENU_REQUESTS = {
        "name": "딸기에이드(보틀) 2잔",
        "price": 8000
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-3.jpg"
     },
     {
      "name": "1000032366.jpg",
      "fid": "F0C8U03MFPE",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -203,13 +202,13 @@ window.MENU_REQUESTS = {
        "name": "두바이+누텔라+생크림 와플",
        "price": 11000
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-4.jpg"
     },
     {
      "name": "1000032372.jpg",
      "fid": "F0C8U044X36",
      "from": "댓글",
-     "path": "menu-files/1791854208_801149-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -262,7 +261,8 @@ window.MENU_REQUESTS = {
        "name": "화이트 페레로 휘낭시에",
        "price": 3500
       }
-     ]
+     ],
+     "path": "menu-files/1791854208_801149-5.jpg"
     },
     {
      "name": "1000032376.jpg",
@@ -519,16 +519,537 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ]
+    },
+    {
+     "name": "1000032417.jpg",
+     "fid": "F0C9JLJE7FA",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "아메리카노(보틀) 2잔",
+       "price": 0
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "카페라떼(보틀) 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "말차라떼 (보틀) 2잔",
+       "price": 5200
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "돌체라떼(보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "카라멜 마끼아또 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "바닐라라떼 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "복숭아 아이스티(보틀) 2잔",
+       "price": 2000
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "매실에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "자몽에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[3. 음료(보틀)선택 2잔]",
+       "name": "딸기에이드(보틀) 2잔",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "1000032419.jpg",
+     "fid": "F0C8S7JM4NM",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "아메리카노(보틀) 2잔",
+       "price": 0
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "카페라떼(보틀) 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "말차라떼 (보틀) 2잔",
+       "price": 5200
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "돌체라떼(보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "카라멜 마끼아또 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "바닐라라떼 (보틀) 2잔",
+       "price": 6000
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "복숭아 아이스티(보틀) 2잔",
+       "price": 2000
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "매실에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "자몽에이드(보틀) 2잔",
+       "price": 4000
+      },
+      {
+       "category": "[4. 음료(보틀)선택 2잔]",
+       "name": "딸기에이드(보틀) 2잔",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "1000032423.jpg",
+     "fid": "F0C8Q4EB6G2",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "아메리카노 2잔",
+       "price": 0
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "카페라떼 2잔",
+       "price": 1800
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "말차라떼 2잔",
+       "price": 2800
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "돌체라떼 2잔",
+       "price": 3200
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "카라멜 마끼아또 2잔",
+       "price": 3200
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "바닐라라떼 2잔",
+       "price": 3200
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "복숭아 아이스티 2잔",
+       "price": 1200
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "매실에이드 2잔",
+       "price": 2200
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "자몽에이드 2잔",
+       "price": 2200
+      },
+      {
+       "category": "1. 음료선택 2잔",
+       "name": "딸기에이드 2잔",
+       "price": 4200
+      }
+     ]
+    },
+    {
+     "name": "1000032426.jpg",
+     "fid": "F0C8U06BZ5J",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "아메리카노 2잔",
+       "price": 0
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "카페라떼 2잔",
+       "price": 1800
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "말차라떼 2잔",
+       "price": 2800
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "돌체라떼 2잔",
+       "price": 3200
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "카라멜 마끼아또 2잔",
+       "price": 3200
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "바닐라라떼 2잔",
+       "price": 3200
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "복숭아 아이스티 2잔",
+       "price": 1200
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "매실에이드 2잔",
+       "price": 2200
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "자몽에이드 2잔",
+       "price": 2200
+      },
+      {
+       "category": "2. 음료선택 2잔",
+       "name": "딸기에이드 2잔",
+       "price": 4200
+      }
+     ]
+    },
+    {
+     "name": "1000032432.jpg",
+     "fid": "F0C8K0N5CA1",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "아메리카노 2잔",
+       "price": 0
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "카페라떼 2잔",
+       "price": 1800
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "말차라떼 2잔",
+       "price": 2800
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "돌체라떼 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "카라멜 마끼아또 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "바닐라라떼 2잔",
+       "price": 3200
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "복숭아 아이스티 2잔",
+       "price": 1200
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "매실에이드 2잔",
+       "price": 2200
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "자몽에이드 2잔",
+       "price": 2200
+      },
+      {
+       "category": "[5. 음료선택 2잔]",
+       "name": "딸기에이드 2잔",
+       "price": 4200
+      }
+     ]
+    },
+    {
+     "name": "1000032450.jpg",
+     "fid": "F0C8S7KTFBK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 매실차 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 녹차 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 유자차 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 청귤차 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 얼그레이티 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 캐모마일티 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 페퍼민트티 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 히비스커스티 (ICE)",
+       "price": 0
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 유자민트티 (ICE)",
+       "price": 600
+      },
+      {
+       "category": "1L 음료 선택",
+       "name": "1L 무화과 밀크티 (ICE)",
+       "price": 4600
+      }
+     ]
+    },
+    {
+     "name": "1000032456.jpg",
+     "fid": "F0C8U070W12",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "떡볶이 토핑 추가 선택",
+       "name": "체다치즈 1장 추가",
+       "price": 500
+      },
+      {
+       "category": "떡볶이 토핑 추가 선택",
+       "name": "삶은계란 1개 추가",
+       "price": 900
+      },
+      {
+       "category": "떡볶이 토핑 추가 선택",
+       "name": "어묵 추가",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이 토핑 추가 선택",
+       "name": "비엔나소세지 6개 추가",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이 토핑 추가 선택",
+       "name": "떡 추가",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "1000032462.jpg",
+     "fid": "F0C9JLL3AHE",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "츄러스 토핑 추가선택",
+       "name": "초코소스 추가",
+       "price": 500
+      },
+      {
+       "category": "츄러스 토핑 추가선택",
+       "name": "생크림 추가",
+       "price": 1000
+      }
+     ]
+    },
+    {
+     "name": "1000032378.jpg",
+     "fid": "F0C8NAG3GB0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "국물 촉촉 계란볶이",
+       "price": 5500
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "오리지널 떡볶이",
+       "price": 6300
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "매콤 떡볶이",
+       "price": 6300
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "불닭 떡볶이",
+       "price": 6500
+      },
+      {
+       "category": "떡볶이&계란볶이",
+       "name": "로제 떡볶이",
+       "price": 6800
+      }
+     ]
+    },
+    {
+     "name": "1000032381.jpg",
+     "fid": "F0C8Q4GLF42",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "김치볶음밥",
+       "price": 7500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "햄야채볶음밥",
+       "price": 7500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "새우볶음밥",
+       "price": 8500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "불닭 김치볶음밥",
+       "price": 8500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "불닭 햄야채볶음밥",
+       "price": 8500
+      },
+      {
+       "category": "입맛 돋구는 볶음밥",
+       "name": "불닭 새우볶음밥",
+       "price": 9500
+      }
+     ]
+    },
+    {
+     "name": "1000032480.jpg",
+     "fid": "F0C8Q4H1VK4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맛 변경 선택",
+       "name": "연하게",
+       "price": 0
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "1샷 추가",
+       "price": 500
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "2샷 추가",
+       "price": 1000
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "시럽 추가",
+       "price": 0
+      },
+      {
+       "category": "맛 변경 선택",
+       "name": "헤이즐넛 시럽 추가",
+       "price": 500
+      }
+     ]
+    },
+    {
+     "name": "1000032482.jpg",
+     "fid": "F0C8U08LAVA",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생크림 추가 선택",
+       "name": "생크림 OK (용기에 따로 담아나갑니다)",
+       "price": 1000
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
     "아니 제발...",
     "배민을 보내주셧네요.. cc",
-    "ㅎ ㅎ ..............선생님들... 제가보내진 않았거든요? 근데...... 제가 죄송할게요.......  :ㅠㅠ_interpark: :ㅠㅠ_interpark: :ㅠㅠ_interpark:"
+    "ㅎ ㅎ ..............선생님들... 제가보내진 않았거든요? 근데...... 제가 죄송할게요.......  :ㅠㅠ_interpark: :ㅠㅠ_interpark: :ㅠㅠ_interpark:",
+    "다시 보내달라고할게요........",
+    "그만올려요 선유님 ......",
+    "ㅠㅠㅠㅠ 다시보내봐달라고할게요.......기다려주세요.......",
+    "이미지로 올려야 판독이 되서용",
+    "일단 올려놓고 새로 받아주시면 감사드릴게요! 만약에 따로 못보내주신다고 하는걸 대비해서요..."
    ],
-   "rc": 7,
-   "lr": "1791854559.726779",
+   "rc": 19,
+   "lr": "1791854683.339379",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
