@@ -3,10 +3,63 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3354,
- "updatedAt": "2026-10-13 09:19",
+ "version": 3355,
+ "updatedAt": "2026-10-13 09:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1791850780.454349",
+   "date": "2026-10-13",
+   "time": "09:19",
+   "store": "아인탑",
+   "biz": "6968803577",
+   "pos": "토스포스",
+   "content": "메뉴 사진 등록 요청",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1UlxBXhvPTIVk9ffP4A-FXaFWofklfFFS/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1JYT5aE075-ydYV_IcGnHO2dD0DSnKovc/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ySlmGJR8s0RgGDjRw7l5pYcGj2x8KboV/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1iXCj1Njw-xKJkqk5n-4Q57vyUBzE9C-X/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Te5C2X5hmxPVuJiuaI2QMDeGKm5mZLoP/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1UlxBXhvPTIVk9ffP4A-FXaFWofklfFFS",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1JYT5aE075-ydYV_IcGnHO2dD0DSnKovc",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1ySlmGJR8s0RgGDjRw7l5pYcGj2x8KboV",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1iXCj1Njw-xKJkqk5n-4Q57vyUBzE9C-X",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1Te5C2X5hmxPVuJiuaI2QMDeGKm5mZLoP",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791850780454349"
+  },
   {
    "ts": "1791850699.113949",
    "date": "2026-10-13",
