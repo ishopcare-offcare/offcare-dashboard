@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19848,
+  "version": 19849,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248541,6 +248541,9 @@ window.SLACK_DATA = {
     },
     "2026-10-13": {
       "counts": {
+        "booking": {
+          "심성현": 1
+        },
         "as": {
           "고경림": 3,
           "김현기": 6,
@@ -248577,6 +248580,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:14",
+          "store": "케이(K)-점핑줄넘기클럽",
+          "biz": "8239201810",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "가결제",
+          "hw": "",
+          "intake": "offline",
+          "note": "15시 이후 재예약 요청 1515 예약",
+          "rr": 1
+        },
         {
           "time": "11:04",
           "store": "리메인룸(REMAINROOM) 서면전포점",
@@ -249091,7 +249106,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 33,
-        "offline": 10,
+        "offline": 11,
         "unknown": 0
       },
       "updatedAt": "11:16",
@@ -249159,6 +249174,22 @@ window.SLACK_DATA = {
           }
         ],
         "praises": []
+      },
+      "ob": {
+        "count": 1,
+        "byEmp": {
+          "김규빈": 1
+        },
+        "items": [
+          {
+            "key": "2026년 10월 13일 오전 8:08:56|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791427195785309#1",
+            "handler": "김규빈",
+            "status": "일정등록완료",
+            "recvDate": "2026-10-13",
+            "planDate": "",
+            "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791427195785309"
+          }
+        ]
       }
     }
   },
@@ -249269,14 +249300,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791857775.867,
+        "lastSeen": 1791857834.849,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791857775.867
+        "lastSeen": 1791857834.849
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
@@ -249284,7 +249315,7 @@ window.SLACK_DATA = {
       },
       "1791857700.806389": {
         "post": "1791857700.806389",
-        "lastSeen": 1791857775.867
+        "lastSeen": 1791857834.849
       }
     },
     "days": {
@@ -334426,19 +334457,19 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:16",
+    "at": "2026-10-13 11:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
     "rows": 4505,
-    "named": 1157,
-    "unknownName": 46,
+    "named": 1158,
+    "unknownName": 45,
     "beforeStart": 0,
-    "done": 1157,
+    "done": 1158,
     "byStatus": {
-      "일정등록완료": 737,
+      "일정등록완료": 738,
       "1차부재": 250,
       "점주직접접수": 96,
       "설치불가": 21,
@@ -334553,7 +334584,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 11:16",
+    "at": "2026-10-13 11:17",
     "pri": {
       "days": 0,
       "failed": [],
