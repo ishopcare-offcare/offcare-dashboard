@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19803,
+  "version": 19804,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248542,17 +248542,18 @@ window.SLACK_DATA = {
     },
     "2026-10-13": {
       "counts": {
+        "as": {
+          "배선유": 1,
+          "김현기": 4,
+          "김동욱": 2,
+          "송태양": 3
+        },
         "onboarding": {
           "송태양": 1,
           "고경림": 2
         },
         "nosetup": {
           "배선유": 1
-        },
-        "as": {
-          "김현기": 4,
-          "김동욱": 2,
-          "송태양": 3
         },
         "extern": {
           "서상원": 1
@@ -248570,6 +248571,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:15",
+          "store": "필라테스혜윰",
+          "biz": "5481901478",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프(노트북) 사용 매장으로, 프론트 결제 시 인터넷 연결이 불안정하다는 문구가 떠서 점검 요청드립니다! 매장 내 인터넷은 잘 된다고 말씀주셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "현재는 정상 / 동일 증상 발생 시 조치방법 안내",
+          "rr": 1
+        },
         {
           "time": "10:11",
           "store": "춘천닭갈비vs양푼이김치찌개",
@@ -248663,8 +248676,8 @@ window.SLACK_DATA = {
           "req": "신규 설치 예정 메뉴 등록",
           "hw": "",
           "intake": "online",
-          "note": "/ 주류 추가",
-          "rr": 3
+          "note": "/ 주류 추가 /",
+          "rr": 4
         },
         {
           "time": "09:40",
@@ -248878,7 +248891,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 21,
+        "online": 22,
         "offline": 5,
         "unknown": 0
       },
@@ -249027,14 +249040,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791854223.356,
+        "lastSeen": 1791854287.207,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791854223.356
+        "lastSeen": 1791854287.207
       }
     },
     "days": {
@@ -334095,7 +334108,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:17",
+    "at": "2026-10-13 10:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334222,7 +334235,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:17",
+    "at": "2026-10-13 10:18",
     "pri": {
       "days": 0,
       "failed": [],
