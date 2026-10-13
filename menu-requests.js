@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3380,
- "updatedAt": "2026-10-13 10:25",
+ "version": 3381,
+ "updatedAt": "2026-10-13 10:27",
  "days": 30,
  "items": [
   {
@@ -1035,6 +1035,216 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ]
+    },
+    {
+     "name": "1000032359.jpg",
+     "fid": "F0C8NAH6J2J",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "900원 득템찬스(리뷰 이벤트 진행중)",
+       "name": "구공공 음료",
+       "price": 900
+      },
+      {
+       "category": "[단체주문 할인 이벤트]",
+       "name": "[단체주문 EVENT]500ml커피(ONLY ICE)",
+       "price": 24000
+      },
+      {
+       "category": "[단체주문 할인 이벤트]",
+       "name": "[단체주문 EVENT]1L(보틀)커피(ONLY ICE)",
+       "price": 65000
+      }
+     ]
+    },
+    {
+     "name": "1000032361.jpg",
+     "fid": "F0C9JLM7KUY",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "칠리스 치즈스틱",
+       "name": "오리지널 칠리스 치즈스틱",
+       "price": 8900
+      },
+      {
+       "category": "칠리스 치즈스틱",
+       "name": "불닭 칠리스 치즈스틱",
+       "price": 8900
+      },
+      {
+       "category": "칠리스 치즈스틱",
+       "name": "반반 칠리스 치즈스틱",
+       "price": 8900
+      }
+     ]
+    },
+    {
+     "name": "1000032364.jpg",
+     "fid": "F0C9JLMGYNL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베라떼",
+       "price": 5300
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 카페라떼",
+       "price": 5600
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 말차라떼",
+       "price": 5800
+      },
+      {
+       "category": "SNS에서 핫한 우베 시리즈",
+       "name": "우베 딸기라떼",
+       "price": 6800
+      }
+     ]
+    },
+    {
+     "name": "1000032368.jpg",
+     "fid": "F0C8NAHKBUN",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "닭강정이 되고 싶은 컵 양념치킨",
+       "price": 5800
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "더 푸짐한 양념치킨",
+       "price": 9800
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 분모자 떡볶이",
+       "price": 5300
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 타코야끼",
+       "price": 4500
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 김치볶음밥",
+       "price": 4300
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 계란볶이",
+       "price": 3500
+      },
+      {
+       "category": "[NEW] 아기코끼리 Series",
+       "name": "컵 떡꼬치",
+       "price": 2500
+      }
+     ]
+    },
+    {
+     "name": "1000032370.jpg",
+     "fid": "F0C8K0QL413",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 묵사발",
+       "price": 6800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 컷팅수박",
+       "price": 5900
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컷팅수박",
+       "price": 10500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 불닭냉면",
+       "price": 6800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "망고 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "망고 요거트 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "우베 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "1인 1빙수 가능한 컵빙수",
+       "price": 7500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "제주말차 컵빙수",
+       "price": 8500
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "담백하고 맛있는 고구마스틱",
+       "price": 3800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 카라멜 팝콘",
+       "price": 4200
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "추억의 빠삭 컵라면땅",
+       "price": 3900
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "내짝꿍 컵 토마토+설탕",
+       "price": 5900
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "한컵으로 시원하게 컵냉면",
+       "price": 5800
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 참치 비빔우동",
+       "price": 6300
+      },
+      {
+       "category": "요즘대세 코끼리 컵 Series",
+       "name": "컵 경주쫀드기",
+       "price": 3900
+      }
+     ]
     }
    ],
    "datt": [],
@@ -1048,8 +1258,8 @@ window.MENU_REQUESTS = {
     "이미지로 올려야 판독이 되서용",
     "일단 올려놓고 새로 받아주시면 감사드릴게요! 만약에 따로 못보내주신다고 하는걸 대비해서요..."
    ],
-   "rc": 19,
-   "lr": "1791854683.339379",
+   "rc": 24,
+   "lr": "1791854807.718119",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
