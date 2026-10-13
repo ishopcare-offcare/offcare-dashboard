@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3422,
- "updatedAt": "2026-10-13 15:27",
+ "version": 3423,
+ "updatedAt": "2026-10-13 15:31",
  "days": 30,
  "items": [
   {
@@ -1011,14 +1011,183 @@ window.MENU_REQUESTS = {
        "price": 18000
       }
      ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8VKFE3JQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "26.10월식사류",
+       "name": "진순대국",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "진순대국(순대만)",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "진순대국(고기만)",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "진순대정식",
+       "price": 16000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "뼈해장국",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "얼큰순대국",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "얼큰순대국(순대만)",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "얼큰순대국(고기만)",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "얼큰순대라면",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "인삼순대국",
+       "price": 13000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "(특)순대국",
+       "price": 13000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "(특)순대국(순대만)",
+       "price": 13000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "(특)순대국(고기만)",
+       "price": 13000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "마라순대국",
+       "price": 13000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "녹두삼계탕",
+       "price": 18000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "토마토순대국",
+       "price": 13000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "내장국밥",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "얼큰내장국밥",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "추어탕",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "물냉면",
+       "price": 10000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "비빔냉면",
+       "price": 10000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "냉면곱배기추가",
+       "price": 2000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "등심돈까스",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "치즈돈까스",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "사골순대만두국",
+       "price": 11000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "얼큰순대만두국",
+       "price": 12000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "(특)으로 변경",
+       "price": 2000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "정식(추가)",
+       "price": 5000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "조리",
+       "price": 0
+      },
+      {
+       "category": "26.10월식사류",
+       "name": "비조리",
+       "price": 0
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
-    "백업"
+    "백업",
+    "2차백업"
    ],
-   "rc": 2,
-   "lr": "1791871876.565239",
+   "rc": 3,
+   "lr": "1791873012.088619",
    "rfx": 3,
    "status": "wait",
    "handler": null,
