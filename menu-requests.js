@@ -3,10 +3,246 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3405,
- "updatedAt": "2026-10-13 14:01",
+ "version": 3406,
+ "updatedAt": "2026-10-13 14:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1791867766.880739",
+   "date": "2026-10-13",
+   "time": "14:02",
+   "store": "조프로뼈구이감자탕 양산사송점",
+   "biz": "2862601485",
+   "pos": "퍼스트포스",
+   "content": "메뉴등록요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8V42S9PE",
+     "from": "댓글",
+     "path": "menu-files/1791867766_880739-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "직화구이",
+       "name": "뼈구이 (소)",
+       "price": 31000
+      },
+      {
+       "category": "직화구이",
+       "name": "뼈구이 (중)",
+       "price": 38000
+      },
+      {
+       "category": "직화구이",
+       "name": "뼈구이 (대)",
+       "price": 45000
+      },
+      {
+       "category": "철판볶음",
+       "name": "갑오징어철판 (2인)",
+       "price": 36000
+      },
+      {
+       "category": "철판볶음",
+       "name": "갑오징어철판 (3인)",
+       "price": 47000
+      },
+      {
+       "category": "철판볶음",
+       "name": "갑오징어철판 (4인)",
+       "price": 58000
+      },
+      {
+       "category": "철판볶음",
+       "name": "갑오쭈꾸미철판 (2인)",
+       "price": 36000
+      },
+      {
+       "category": "철판볶음",
+       "name": "갑오쭈꾸미철판 (3인)",
+       "price": 47000
+      },
+      {
+       "category": "철판볶음",
+       "name": "갑오쭈꾸미철판 (4인)",
+       "price": 58000
+      },
+      {
+       "category": "철판볶음",
+       "name": "철판쭈꾸미 (2인)",
+       "price": 28000
+      },
+      {
+       "category": "철판볶음",
+       "name": "철판쭈꾸미 (3인)",
+       "price": 42000
+      },
+      {
+       "category": "철판볶음",
+       "name": "철판쭈삼 (2인)",
+       "price": 30000
+      },
+      {
+       "category": "철판볶음",
+       "name": "철판쭈삼 (3인)",
+       "price": 45000
+      },
+      {
+       "category": "탕",
+       "name": "감자탕 (2인)",
+       "price": 32000
+      },
+      {
+       "category": "탕",
+       "name": "감자탕 (3인)",
+       "price": 40000
+      },
+      {
+       "category": "탕",
+       "name": "감자탕 (4인)",
+       "price": 48000
+      },
+      {
+       "category": "탕",
+       "name": "묵은지감자탕 (2~3인)",
+       "price": 39000
+      },
+      {
+       "category": "탕",
+       "name": "묵은지감자탕 (3~4인)",
+       "price": 49000
+      },
+      {
+       "category": "식사",
+       "name": "뼈해장국",
+       "price": 11000
+      },
+      {
+       "category": "식사",
+       "name": "(특)뼈해장국",
+       "price": 14000
+      },
+      {
+       "category": "식사",
+       "name": "김치뼈해장국",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "막국수",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "막국수(곱)",
+       "price": 10000
+      },
+      {
+       "category": "점심특선",
+       "name": "갑오징어쭈꾸미덮밥",
+       "price": 11000
+      },
+      {
+       "category": "사이드",
+       "name": "고르곤졸라피자",
+       "price": 11000
+      },
+      {
+       "category": "사이드",
+       "name": "어린이떡갈비",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "새우만두(8P)",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "우거지탕",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "갑오징어숙회",
+       "price": 18000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "뼈(4조각)",
+       "price": 15000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "우거지",
+       "price": 5000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치즈떡",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치즈",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "수제비",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "셀프주먹밥",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "소주, 맥주, 막걸리",
+       "price": 4500
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791867788.477769",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791867766880739"
+  },
   {
    "ts": "1791867553.819499",
    "date": "2026-10-13",
