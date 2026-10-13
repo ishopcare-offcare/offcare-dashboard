@@ -1643,11 +1643,11 @@ function enableDutyNotif(){
 }
 const CATEGORIES = [
   {key:"menureg",    name:"메뉴등록", icon:"🍱"},
-  {key:"voc",        name:"VOC",    icon:"💬"},
   {key:"share",      name:"공유",    icon:"📢"},
   {key:"duty",       name:"당직근무", icon:"📅"},
   {key:"game",       name:"원격 상점", icon:"🎮"},
   {key:"teamgoal",   name:"팀 목표", icon:"🎁"},
+  {key:"voc",        name:"VOC",    icon:"💬"},
   {key:"admin",      name:"관리",    icon:"🔐"},   // 파트리더 전용 — selectCat 에서 비밀번호 확인
 ];
 
@@ -5373,7 +5373,7 @@ function renderOverview(){
     <div class="card">
       <div class="card-head">
         <h3>직원별 · 카테고리별 처리건수</h3>
-        <span class="hint">${viewLabel} · 🔎 <b>직원 이름 클릭 → 처리 내역 상세</b> · 미등록 담당(타파트 지원 등)은 <b>🧩 기타</b> 행 · <b>📞 설치 OB</b>는 설치일정 시트 D열 기준${NIGHT?' (야간은 시각 정보가 없어 집계 제외)':''} · <b style="color:var(--red)">💬 VOC는 ${fmtShort(VOC_DRI_HANDOVER)}부터 CX팀 이관 — 전체현황 집계에서 제외</b> · <b>🗓️ 예약</b>은 적재 경로 준비중</span>
+        <span class="hint">${viewLabel} · 🔎 <b>직원 이름 클릭 → 처리 내역 상세 · 숫자 클릭 → 그 카테고리 처리 매장</b> · 미등록 담당(타파트 지원 등)은 <b>🧩 기타</b> 행 · <b>📞 설치 OB</b>는 설치일정 시트 D열 기준${NIGHT?' (야간은 시각 정보가 없어 집계 제외)':''} · <b style="color:var(--red)">💬 VOC는 ${fmtShort(VOC_DRI_HANDOVER)}부터 CX팀 이관 — 전체현황 집계에서 제외</b> · <b>🗓️ 예약</b>은 적재 경로 준비중</span>
       </div>
       <div style="overflow-x:auto">
         <table class="matrix">
@@ -5381,7 +5381,7 @@ function renderOverview(){
           <tbody>
             ${empRows.map((r,i)=>`<tr>
               <td class="emp-name emp-click" onclick="showDoneDetail('emp','${r.emp}')" title="🔎 ${escapeHtml(r.emp)}님 처리 내역 보기">${medal(i)} ${r.emp}</td>
-              ${r.cells.map((n,ci)=>`<td class="num mcell" style="${n>0?`background:${hexA(EMP_CATS[ci].color,0.08+n/maxCell*0.30)}`:''}">${n||'<span class="zero">·</span>'}</td>`).join("")}
+              ${r.cells.map((n,ci)=>`<td class="num mcell"${n>0?` onclick="showDoneDetail('empcat','${r.emp}|${EMP_CATS[ci].key}')" title="🔎 ${escapeHtml(r.emp)} · ${EMP_CATS[ci].name} 처리 매장 보기"`:''} style="${n>0?`cursor:pointer;background:${hexA(EMP_CATS[ci].color,0.08+n/maxCell*0.30)}`:''}">${n||'<span class="zero">·</span>'}</td>`).join("")}
               <td class="num mcell ob-col"${r.ob>0?` onclick="event.stopPropagation();showObDetail()" style="cursor:pointer;background:${hexA('#5856d6',0.08+r.ob/maxCell*0.30)}" title="🔎 설치 OB 상세"`:''}>${r.ob||'<span class="zero">·</span>'}</td>
               <td class="num tot">${r.total}</td>
             </tr>`).join("")}
@@ -5468,6 +5468,8 @@ function showObDetail(){
     <div class="detail-scroll"><table class="voc-table"><thead><tr><th style="width:34px">#</th><th style="width:62px">집계일</th><th style="width:104px">상태</th><th style="width:78px">설치예정</th><th style="width:86px">담당</th><th style="width:70px">원문</th></tr></thead><tbody id="doneModalBody">${rows}</tbody></table></div></div>`;
 }
 function showDoneDetail(mode, key){
+  // 'empcat' = 직원별·카테고리별 표의 숫자 칸 — key '직원|카테고리'. 직원 상세를 만든 뒤 그 칸의 카테고리(묶음 포함)만 남긴다
+  let catPick=null; if(mode==='empcat'){ const p=String(key).split('|'); key=p[0]; catPick=p[1]; mode='emp'; }
   const dates=ovDates(), set=new Set(dates); let items=[], title='';
   const pushVocDone=(empFilter)=>{ allSlackDates().forEach(d=>{ const v=(slackDay(d)||{}).voc; if(!v)return; [...(v.alerts||[]),...(v.praises||[])].forEach(x=>{ const e=vocEmpAt(d,x), dd=vocDoneAt(d,x); if(e&&(!empFilter||e===empFilter)&&vocCredited(dd)&&set.has(dd)) items.push({time:'',store:x.store,biz:x.storeId,emp:e,cat:'voc',date:dd,st:'처리',nt:isNightTime(x.time)}); }); }); };
   // 설치 OB — 시트 기준이라 상호·사업자·시각이 없다. 상태를 상호 칸에 넣어 무엇인지 알아보게 한다.
@@ -5507,6 +5509,7 @@ function showDoneDetail(mode, key){
   else if(mode==='etc') pushAdj(x=>!EMPLOYEES.includes((x.emp||'').trim()));
   else                  pushAdj();
 
+  if(catPick){ const mem=catMembers(catPick), c=EMP_CATS.find(c=>c.key===catPick)||{}; items=items.filter(x=>mem.includes(x.cat)); title=`${key} · ${c.icon||''} ${c.name||catPick} 처리 상세`; }
   if(ovShift==='night'){ items=items.filter(x=> x.cat==='voc' ? x.nt : isNightTime(x.time)); title='🌙 '+title; }
   openDetailModal(title, items, (mode==='cat' && WORK_CATS.some(c=>c.key===key)) ? catRespStrip(key, dates) : '');
 }
