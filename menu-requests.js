@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3375,
- "updatedAt": "2026-10-13 10:16",
+ "version": 3376,
+ "updatedAt": "2026-10-13 10:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1791854208.801149",
+   "date": "2026-10-13",
+   "time": "10:16",
+   "store": "코끼리 카페 신창점",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 코끼리 카페 신창점 메뉴 첨부\n안녕하세요. 코끼리 카페 신창점 메뉴 사진 파일 보내드립니다.\n ※ 선택 옵션 및 추가 옵션 사진도 함께 첨부합니다. 연결된 메뉴 잘 확인 부탁드립니다. ※\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791854208801149"
+  },
   {
    "ts": "1791853896.629799",
    "date": "2026-10-13",
@@ -161,7 +187,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C8Q3MJUHY",
      "from": "댓글",
-     "path": "menu-files/1791852231_194769-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -214,15 +239,24 @@ window.MENU_REQUESTS = {
        "name": "음료수",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791852231_194769-1.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8TUXS7NY",
+     "from": "댓글",
+     "path": "menu-files/1791852231_194769-2.png",
+     "kind": "pos_screen",
+     "menu": []
     }
    ],
    "datt": [],
    "replies": [
     "주류 추가"
    ],
-   "rc": 3,
-   "lr": "1791854183.063949",
+   "rc": 4,
+   "lr": "1791854234.249699",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
