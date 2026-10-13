@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3428,
- "updatedAt": "2026-10-13 15:50",
+ "version": 3429,
+ "updatedAt": "2026-10-13 15:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1791874308.788639",
+   "date": "2026-10-13",
+   "time": "15:51",
+   "store": "",
+   "biz": "58702353",
+   "pos": "",
+   "content": "[📧 메일] 제목: 메뉴수정요청\n요청\n내용: 사업자번호 58702353 이경옥 카페메일빈디저트 신라면골드 3600원에서 3800원으로 가격수정 요청 너구리 메뉴 를 얼큰한너구리로 이름 변경요청 기존메뉴중 이미지없는 메뉴사진 삽입요청 향라우육향라면 홍소우육향라면 \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a1340560298629b>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a1340560298629b",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791874308788639"
+  },
   {
    "ts": "1791873409.456689",
    "date": "2026-10-13",
