@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3421,
- "updatedAt": "2026-10-13 15:26",
+ "version": 3422,
+ "updatedAt": "2026-10-13 15:27",
  "days": 30,
  "items": [
   {
@@ -228,8 +228,8 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1791872602.599879",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791872576282729"
   },
   {
@@ -58396,140 +58396,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789345308421489"
-  },
-  {
-   "ts": "1789280815.389539",
-   "date": "2026-09-13",
-   "time": "15:26",
-   "store": "우연초밥",
-   "biz": "1910903529",
-   "pos": "토스포스",
-   "content": "토스포스  / 메뉴등록 요청  / 0914 반영 가능함으로 사전 양해완료 (0915오픈)\n• 익일 반영완료되면  완료 문자 발송 한번만 부탁드립니다 !",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C1A2KALE7",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "초밥류",
-       "name": "연어초밥 10p",
-       "price": 17500
-      },
-      {
-       "category": "초밥류",
-       "name": "연어초밥 5p",
-       "price": 9000
-      },
-      {
-       "category": "초밥류",
-       "name": "연어회",
-       "price": 17000
-      },
-      {
-       "category": "초밥류",
-       "name": "소고기초밥 · 우삼겹 10p",
-       "price": 15500
-      },
-      {
-       "category": "초밥류",
-       "name": "소고기초밥 · 우삼겹 5p",
-       "price": 7500
-      },
-      {
-       "category": "초밥류",
-       "name": "소고기초밥 · 살치살 10p",
-       "price": 19000
-      },
-      {
-       "category": "초밥류",
-       "name": "소고기초밥 · 살치살 5p",
-       "price": 9500
-      },
-      {
-       "category": "초밥류",
-       "name": "계란초밥 5p",
-       "price": 5000
-      },
-      {
-       "category": "초밥류",
-       "name": "유부초밥 5p",
-       "price": 4000
-      },
-      {
-       "category": "덮밥류",
-       "name": "연어덮밥",
-       "price": 16500
-      },
-      {
-       "category": "덮밥류",
-       "name": "소고기 덮밥",
-       "price": 11000
-      },
-      {
-       "category": "덮밥류",
-       "name": "돈까츠덮밥",
-       "price": 12000
-      },
-      {
-       "category": "사이드메뉴",
-       "name": "새우튀김 3p",
-       "price": 5000
-      },
-      {
-       "category": "사이드메뉴",
-       "name": "어묵튀김",
-       "price": 5000
-      },
-      {
-       "category": "사이드메뉴",
-       "name": "왕치즈스틱",
-       "price": 6000
-      },
-      {
-       "category": "사이드메뉴",
-       "name": "어묵우동",
-       "price": 9000
-      },
-      {
-       "category": "사이드메뉴",
-       "name": "수제 돈카츠",
-       "price": 12000
-      },
-      {
-       "category": "주류/음료",
-       "name": "레몬하이볼",
-       "price": 7000
-      },
-      {
-       "category": "주류/음료",
-       "name": "소주 백주",
-       "price": 5000
-      },
-      {
-       "category": "주류/음료",
-       "name": "콜라 사이다",
-       "price": 2000
-      }
-     ],
-     "path": "menu-files/1789280815_389539-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "초밥류에\n• 우연초밥 10p  16,500원   추가 등록 요청",
-    "헙  :스피드_zoom:  감사합니다!!"
-   ],
-   "rc": 4,
-   "lr": "1789281373.174139",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789280815389539"
   }
  ],
  "ocr": {
