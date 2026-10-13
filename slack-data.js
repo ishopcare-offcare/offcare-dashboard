@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19835,
+  "version": 19836,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248593,8 +248593,8 @@ window.SLACK_DATA = {
           "req": "영수증 프린터 용지가 걸리고 안열린다 하셔서 점검 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "어제 용지가 안되서 강제로 개폐 / 그 이후 톱니 부분 파손으로 교체 필요",
-          "rr": 1
+          "note": "어제 용지가 안되서 강제로 개폐 / 그 이후 톱니 부분 파손으로 교체 필요 / 대체품 출고 및 금요일날 회수 접수 완료ㅑ",
+          "rr": 2
         },
         {
           "time": "10:43",
@@ -249017,7 +249017,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "10:45",
+      "updatedAt": "10:59",
       "voc": {
         "responses": 2,
         "install": {
@@ -249192,18 +249192,18 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791856712.3,
+        "lastSeen": 1791856786.689,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791856712.3
+        "lastSeen": 1791856786.689
       },
       "1791855026.481029": {
         "post": "1791855026.481029",
-        "lastSeen": 1791856712.3,
+        "lastSeen": 1791856786.689,
         "r": 1,
         "day": "2026-10-13",
         "idx": 16
@@ -334333,7 +334333,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:58",
+    "at": "2026-10-13 11:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334460,7 +334460,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:58",
+    "at": "2026-10-13 10:59",
     "pri": {
       "days": 0,
       "failed": [],
