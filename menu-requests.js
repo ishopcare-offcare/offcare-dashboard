@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3465,
- "updatedAt": "2026-10-13 19:10",
+ "version": 3466,
+ "updatedAt": "2026-10-13 19:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1791886608.301069",
+   "date": "2026-10-13",
+   "time": "19:16",
+   "store": "카페메일빈디저트 이경옥 <tel:···|···> 또는 ···입니다 수정사",
+   "biz": "5872302353",
+   "pos": "",
+   "content": "[📧 메일] 제목: 메뉴수정밎이미지수정\n밎이미지수정\n내용:  대용량 첨부 1개 3MB  ···.jpg 3421195 ~ 2026/11/12 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    사업자번호 ··· 관리번호 105102 상호  카페메일빈디저트 이경옥 <tel:···|···> 또는 ···입니다 수정사항 한강라면 이미지 교체 진짬뽕 4500원(신규등록) 감자면 4000원(신규등록) 부대찌개 4500원(신규등록) 메뉴등록중에 간짬뽕이 두개가 입력되어이슷니다. 이미지없는것 삭제요망  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a134c162be0cbe1>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a134c162be0cbe1",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791886608301069"
+  },
   {
    "ts": "1791883230.513009",
    "date": "2026-10-13",
