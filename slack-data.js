@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19775,
+  "version": 19776,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248543,8 +248543,8 @@ window.SLACK_DATA = {
     "2026-10-13": {
       "counts": {
         "as": {
+          "송태양": 3,
           "김현기": 2,
-          "송태양": 2,
           "김동욱": 1
         },
         "transfer": {
@@ -248556,6 +248556,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "네일도",
+          "biz": "1062952205",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "•  결제 하자마자 취소 되는 현상이 있어 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:30",
           "store": "서초동 장수족발 감자탕 본점",
@@ -248673,7 +248684,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 2,
         "unknown": 0
       },
@@ -248787,21 +248798,21 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791851812.528,
+        "lastSeen": 1791851887.98,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791849632.065459": {
         "post": "1791849632.065459",
-        "lastSeen": 1791851812.528,
+        "lastSeen": 1791851887.98,
         "r": 1,
         "day": "2026-10-13",
         "idx": 2
       },
       "1791851684.798329": {
         "post": "1791851684.798329",
-        "lastSeen": 1791851812.528
+        "lastSeen": 1791851887.98
       }
     },
     "days": {
@@ -333789,7 +333800,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 09:37",
+    "at": "2026-10-13 09:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -333916,7 +333927,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 09:36",
+    "at": "2026-10-13 09:38",
     "pri": {
       "days": 0,
       "failed": [],
