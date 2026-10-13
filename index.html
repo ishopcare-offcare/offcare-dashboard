@@ -1321,8 +1321,40 @@
   .swatch{width:12px; height:12px; border-radius:4px; display:inline-block}
 
   @media (max-width:900px){
-    .sidebar{display:none}
-    .main{padding:22px 18px 48px}
+    /* 모바일: 사이드바를 숨기기만 하면 다른 카테고리로 갈 방법이 없다 → 상단 고정 가로 스크롤 탭 바로 바꾼다 */
+    body{flex-direction:column}
+    .sidebar{width:100%; flex:none; height:auto; flex-direction:row; align-items:center; gap:8px;
+      padding:8px 10px; border-right:none; border-bottom:1px solid var(--line-soft); z-index:50}
+    .sidebar .brand, .sidebar .nav-label, .sidebar .nav-div{display:none}
+    #nav{display:flex; gap:4px; flex:1; min-width:0; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch}
+    #nav::-webkit-scrollbar{display:none}
+    .navbtn{width:auto; flex:none; white-space:nowrap; padding:8px 12px; font-size:13.5px; gap:6px; border-radius:20px}
+    .navbtn .ic{width:auto; font-size:14px}
+    .navbtn.sub .ic{display:none}
+    .lock-out{margin-top:0; flex:none; padding:8px 10px; font-size:12px; border-radius:20px}
+    .main{padding:18px 14px 48px}
+    /* 카드 제목·설명이 나란히 있으면 제목이 한두 글자씩 접힌다 → 위아래로 */
+    .card-head{flex-direction:column; align-items:flex-start; gap:4px}
+    .grid2.even{grid-template-columns:1fr}
+    .grid2.even>.card{min-height:0}
+    .grid2>*, .chart-wrap{min-width:0; max-width:100%}
+    /* 차트는 화면 폭에 맞춰 줄이면 글자가 안 읽힌다 → 원래 크기로 두고 옆으로 밀어 보기 (.chart-wrap 이 가로 스크롤) */
+    .chart-wrap>svg{max-width:none}
+    .chart-wrap>svg[width="100%"]{min-width:600px}
+    /* 메뉴등록 요청 목록: 한 줄에 다 넣으면 POS명이 세로로 접힌다 → 줄바꿈 허용, 요청 내용은 아랫줄 */
+    .mr-row{flex-wrap:wrap; row-gap:4px}
+    .mr-row>b{max-width:calc(100% - 100px) !important}
+    .mr-row .mr-content{flex:1 1 100%; order:9}
+    /* 매장 이력 조회: 8칸 표는 폰에서 대부분 화면 밖 → 한 건씩 카드로 (윗줄 인입일·상호·유형·담당·상태, 아래 요청·처리·팀뷰어) */
+    .ss-table thead{display:none}
+    .ss-table, .ss-table tbody{display:block}
+    .ss-table tr{display:flex; flex-wrap:wrap; align-items:center; gap:4px 8px; padding:10px 2px; border-bottom:1px solid var(--line-soft)}
+    .ss-table td{display:block; padding:0 !important; border:none !important; max-width:none !important}
+    .ss-table td:nth-child(1){flex-basis:100%; font-size:12px} .ss-table td:nth-child(1) br{display:none} .ss-table td:nth-child(1) span{margin-left:6px}
+    .ss-table td:nth-child(2){font-size:14px}
+    .ss-table td:nth-child(n+6){flex-basis:100%}
+    .ss-table td:nth-child(n+6)::before{display:block; font-size:11px; font-weight:700; color:var(--gray2); margin-top:4px}
+    .ss-table td:nth-child(6)::before{content:'요청내용'} .ss-table td:nth-child(7)::before{content:'처리내역'} .ss-table td:nth-child(8)::before{content:'팀뷰어 ID'}
     .kpis{grid-template-columns:repeat(2,1fr)}
     .ov-tiles{grid-template-columns:repeat(2,1fr)}
     .headline{grid-template-columns:1fr}
@@ -1356,6 +1388,13 @@
       white-space:normal; overflow-wrap:anywhere}
     .memo-chip{font-size:10.5px; padding:4px 5px; -webkit-line-clamp:2}
     .legend{gap:10px; font-size:11.5px}
+  }
+  /* 아주 좁은 폰(≤420px): 7칸 달력 한 칸이 45px 안팎이라 세 글자 이름이 두 줄로 접힌다 → 여백·글자를 한 단계 더 줄인다 */
+  @media (max-width:420px){
+    .cal-grid{gap:3px}
+    .daycell{padding:5px 2px}
+    .slot-field{font-size:11.5px; padding:1px 1px; letter-spacing:-.04em}
+    .ev-duty{max-width:100%; overflow:hidden; text-overflow:ellipsis}
   }
 </style>
 </head>
@@ -2455,6 +2494,9 @@ function renderNav(){
     }
     return btn;
   }).join("");
+  // 모바일 가로 탭 바: 선택한 탭이 화면 밖에 있으면 보이게 스크롤
+  const act=[...document.querySelectorAll('#nav .navbtn.active')].pop();   // 하위 탭이 켜져 있으면 그쪽
+  if(act && window.innerWidth<=900) act.scrollIntoView({block:'nearest',inline:'center'});
 }
 const VOC_MONTHLY_PW='3395';   // VOC Monthly 접속 비밀번호
 // 들어올 때마다 확인한다(세션 기억 없음). 자리를 비운 사이 탭만 눌러 들어오는 걸 막기 위함.
@@ -2566,12 +2608,12 @@ function menuregRowsHtml(items){
   return items.length?items.map(i=>{
     const st=MENUREG_ST[i.status]||MENUREG_ST.wait;
     const memo=MENUMEMO[menuregMemoKey(i)];
-    return `<div onclick="menuregSelect('${i.ts}')" style="display:flex;gap:10px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line,#eee);cursor:pointer;${i.ts===menuregSel?'background:rgba(94,92,230,.08);':''}">
+    return `<div class="mr-row" onclick="menuregSelect('${i.ts}')" style="display:flex;gap:10px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line,#eee);cursor:pointer;${i.ts===menuregSel?'background:rgba(94,92,230,.08);':''}">
       <span style="font-size:12px;color:#888;white-space:nowrap">${i.date.slice(5)} ${i.time}</span>
       <b style="flex:0 0 auto;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${i.mail?'<span title="메일 접수">📧</span> ':''}${escapeHtml(i.store||'(상호미상)')}</b>
       ${memo?`<span title="${escapeHtml(memo)}" style="font-size:11px;background:#fff3c4;color:#7a5d00;border-radius:8px;padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">📝 ${escapeHtml(String(memo).replace(/\n/g,' ').slice(0,26))}</span>`:''}
-      <span style="font-size:12px;color:#666">${escapeHtml(i.pos||'POS?')}</span>
-      <span style="font-size:12px;color:#999;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml((i.content||'').slice(0,40))}</span>
+      <span style="font-size:12px;color:#666;white-space:nowrap">${escapeHtml(i.pos||'POS?')}</span>
+      <span class="mr-content" style="font-size:12px;color:#999;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml((i.content||'').slice(0,40))}</span>
       ${(i.replies||[]).length?`<span style="font-size:12px;color:var(--blue,#5e5ce6);white-space:nowrap">💬${i.replies.length}</span>`:''}
       <span style="font-size:12px;font-weight:700;color:${st[1]};white-space:nowrap">${st[0]}</span>
       ${i.handler?`<span style="font-size:12px;color:#666;white-space:nowrap">${escapeHtml(i.handler)}</span>`:''}
@@ -5529,7 +5571,7 @@ function runStoreSearch(q,exact){
   const backLink=ssBackQ?`<div><span class="ss-back" onclick="ssBack()">← '${escapeHtml(ssBackQ)}' 전체 결과로</span></div>`:'';   // 최신순 정렬이라 첫 값 = 가장 최근에 남긴 팀뷰어 정보
   const summary=`<div class="ss-summary">${backLink}<div class="ss-total">총 <b>${rows.length}</b>회 인입${multi?` · <b>${ssStoreList.length}</b>개 매장 <span style="color:var(--gray2);font-size:12px">(상호를 클릭하면 그 매장만)</span>`:''} · 최근 ${fmtShort(rows[0].date)}</div><div class="ss-chips">${catChips}</div><div class="ss-status">✅ 처리 ${doneN} · ⚠️ 부재·미처리 ${pendN}</div>${tvLast&&!multi?`<div class="ss-status">🖥️ 최근 팀뷰어 (${fmtShort(tvLast.date)}) ${ssTvHtml(tvLast.tv)}</div>`:''}</div>`;
   const trs=rows.map(r=>`<tr><td class="trow-time">${fmtShort(r.date)}<br><span style="color:var(--gray2)">${escapeHtml(r.time||'')}</span></td><td class="emp-name${multi?' emp-click':''}"${multi?` onclick="ssPickStore(${storeIdx[tvKey(r)]})" title="이 매장 이력만 보기"`:''}>${escapeHtml(r.store||'-')}</td><td>${catChip(r.cat)}</td><td class="dm-emp">${escapeHtml(r.emp||'-')}</td><td>${detailStatusBadge(r.st==='저점'?'확인필요':r.st)}</td><td class="ss-note">${r.req?escapeHtml(r.req):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-note">${r.note?escapeHtml(r.note):'<span style="color:var(--gray2)">—</span>'}</td><td class="ss-tv">${(()=>{ if(r.tv) return ssTvHtml(r.tv,true); const t=tvByStore[tvKey(r)]; return t?`${ssTvHtml(t.tv,true)}<br><span style="color:var(--gray2);font-size:11px">${fmtShort(t.date)} 기록</span>`:'<span style="color:var(--gray2)">—</span>'; })()}</td></tr>`).join('');
-  body.innerHTML=`${summary}<div style="overflow-x:auto"><table class="voc-table" style="margin-top:12px"><thead><tr><th style="width:62px">인입일</th><th style="min-width:100px">상호</th><th style="width:72px">유형</th><th style="width:86px">담당</th><th style="width:70px">상태</th><th style="min-width:130px">요청내용</th><th style="min-width:150px">처리내역</th><th style="min-width:110px">팀뷰어 ID</th></tr></thead><tbody>${trs}</tbody></table></div>`;
+  body.innerHTML=`${summary}<div style="overflow-x:auto"><table class="voc-table ss-table" style="margin-top:12px"><thead><tr><th style="width:62px">인입일</th><th style="min-width:100px">상호</th><th style="width:72px">유형</th><th style="width:86px">담당</th><th style="width:70px">상태</th><th style="min-width:130px">요청내용</th><th style="min-width:150px">처리내역</th><th style="min-width:110px">팀뷰어 ID</th></tr></thead><tbody>${trs}</tbody></table></div>`;
 }
 // 팀뷰어 ID — 슬랙 스레드 댓글 '팀뷰어 ID : …' 에서 적재(fetch-and-tally parseTv, PW 는 공개 저장소라 싣지 않음). 클릭하면 복사
 function ssPickStore(i){ const o=ssStoreList[i]; if(!o) return; const inp=document.getElementById('storeSearchBox');

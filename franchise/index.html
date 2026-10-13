@@ -238,6 +238,27 @@
     .page-head h2{font-size:24px}
     .ov-tiles{grid-template-columns:1fr}
   }
+  /* 모바일 보강 (2026-10-13) — 인쇄(A4 폭도 860px 미만)에 영향 없도록 screen 한정 */
+  @media screen and (max-width:860px){
+    .sidebar{position:sticky; top:0; z-index:50; background:var(--canvas); padding:10px 12px}
+    /* 숫자 카드: 한 줄에 하나면 화면이 너무 길다 → 2열, 맨 앞 합계 카드만 한 줄 전체 */
+    .ov-tiles,.rep-kpi{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .ov-tiles>.grand{grid-column:1/-1}
+    .ov-tile{padding:14px}
+    .ov-tile .ov-val{font-size:30px}
+    /* 기간·카테고리 버튼 묶음: 좁아지면 글자가 세로로 쌓인다 → 줄바꿈 없이 옆으로 밀기 */
+    .seg{max-width:100%; min-width:0; overflow-x:auto; scrollbar-width:none}
+    .seg::-webkit-scrollbar{display:none}
+    .seg button{white-space:nowrap; flex:none; padding:8px 12px}
+    .controls, .card-head>*{min-width:0; max-width:100%}
+    /* 가로 스크롤 표: 첫 칸(지점·브랜드·일시)이 한 글자씩 세로로 접히지 않게 */
+    .tbl-scroll th:first-child, .tbl-scroll td:first-child, .tbl-wrap th:first-child, .tbl-wrap td:first-child, td.num, th.num{white-space:nowrap}
+    /* 보고서 표: 구분명이 한 단어씩 접히지 않게 한 줄로 두고 표만 옆으로 밀기 (긴 설명 칸은 줄바꿈 허용) */
+    table.rep-tbl{display:block; overflow-x:auto; max-width:100%}
+    table.rep-tbl th, table.rep-tbl td{white-space:nowrap}
+    table.rep-tbl td:last-child{white-space:normal; min-width:150px}
+    .rep-head h2{font-size:22px}
+  }
 </style>
 </head>
 <body>
