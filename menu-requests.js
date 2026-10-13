@@ -3,10 +3,80 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3385,
- "updatedAt": "2026-10-13 10:43",
+ "version": 3386,
+ "updatedAt": "2026-10-13 10:44",
  "days": 30,
  "items": [
+  {
+   "ts": "1791855835.535499",
+   "date": "2026-10-13",
+   "time": "10:43",
+   "store": "움버거앤 윙스",
+   "biz": "1358560825",
+   "pos": "퍼스트포스",
+   "content": "시그니처 치킨불고기세트\n옵션 선택에\n음료가 없어요\n추가해주세요\n\n치킨불고기 버거세트\n\n옵션에\n사이드선택에  콘소메시즈닝감자 M 핫솔트시즈닝 감자 M 추가 해주세요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1MIj1tHFt6jYVX2lBF46ar5jyEQLeg1pO/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1MIj1tHFt6jYVX2lBF46ar5jyEQLeg1pO",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "시그니처필수[선택]",
+       "name": "시그니처 1윙스+감자튀김...",
+       "price": 0
+      },
+      {
+       "category": "요청사항[선택]",
+       "name": "피클 빼주세요",
+       "price": 0
+      },
+      {
+       "category": "요청사항[선택]",
+       "name": "양파 빼주세요",
+       "price": 0
+      },
+      {
+       "category": "요청사항[선택]",
+       "name": "청상추 빼주세요",
+       "price": 0
+      },
+      {
+       "category": "요청사항[선택]",
+       "name": "마요네즈 빼주세요",
+       "price": 0
+      },
+      {
+       "category": "토핑 추가[선택]",
+       "name": "치즈토핑추가",
+       "price": 600
+      },
+      {
+       "category": "토핑 추가[선택]",
+       "name": "베이컨 토핑 추가",
+       "price": 0
+      },
+      {
+       "category": "토핑 추가[선택]",
+       "name": "해쉬브라운 토핑 추가",
+       "price": 0
+      }
+     ]
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791855835535499"
+  },
   {
    "ts": "1791854208.801149",
    "date": "2026-10-13",
