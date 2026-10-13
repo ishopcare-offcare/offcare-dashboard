@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19847,
+  "version": 19848,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248586,7 +248586,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿)+유프 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "포프(태블릿)+유프 온보딩완료 • 사용법 안내 완료 및 가이드 발송완료 사용법 안내 완료 및 가이드 발송완료",
+          "rr": 1
         },
         {
           "time": "11:01",
@@ -249093,7 +249094,7 @@ window.SLACK_DATA = {
         "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "11:15",
+      "updatedAt": "11:16",
       "voc": {
         "responses": 2,
         "install": {
@@ -249268,14 +249269,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791857705.782,
+        "lastSeen": 1791857775.867,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791857705.782
+        "lastSeen": 1791857775.867
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
@@ -249283,7 +249284,7 @@ window.SLACK_DATA = {
       },
       "1791857700.806389": {
         "post": "1791857700.806389",
-        "lastSeen": 1791857705.782
+        "lastSeen": 1791857775.867
       }
     },
     "days": {
@@ -334425,7 +334426,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:15",
+    "at": "2026-10-13 11:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334552,7 +334553,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 11:15",
+    "at": "2026-10-13 11:16",
     "pri": {
       "days": 0,
       "failed": [],
