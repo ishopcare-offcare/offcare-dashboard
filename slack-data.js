@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19878,
+  "version": 19879,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -249392,7 +249392,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 46,
-        "offline": 21,
+        "offline": 22,
         "unknown": 0
       },
       "updatedAt": "11:51",
@@ -249503,7 +249503,17 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791427195785309"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "11:34",
+          "store": "위드음악학원",
+          "biz": "2719200835",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "offline"
+        }
+      ]
     }
   },
   "resp": {
@@ -249613,14 +249623,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791859987.678,
+        "lastSeen": 1791860043.254,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791859987.678
+        "lastSeen": 1791860043.254
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
@@ -249628,21 +249638,17 @@ window.SLACK_DATA = {
       },
       "1791858932.085939": {
         "post": "1791858932.085939",
-        "lastSeen": 1791859987.678,
+        "lastSeen": 1791860043.254,
         "r": 1,
         "day": "2026-10-13",
         "idx": 30
       },
       "1791858888.658799": {
         "post": "1791858888.658799",
-        "lastSeen": 1791859987.678,
+        "lastSeen": 1791860043.254,
         "r": 1,
         "day": "2026-10-13",
         "idx": 31
-      },
-      "1791859915.928139": {
-        "post": "1791859915.928139",
-        "lastSeen": 1791859987.678
       }
     },
     "days": {
@@ -334872,7 +334878,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:53",
+    "at": "2026-10-13 11:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334999,7 +335005,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 11:53",
+    "at": "2026-10-13 11:54",
     "pri": {
       "days": 0,
       "failed": [],
