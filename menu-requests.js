@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3407,
- "updatedAt": "2026-10-13 14:08",
+ "version": 3408,
+ "updatedAt": "2026-10-13 14:20",
  "days": 30,
  "items": [
   {
@@ -2170,16 +2170,385 @@ window.MENU_REQUESTS = {
        "price": 84000
       }
      ]
+    },
+    {
+     "name": "Resized_20261012_180505.jpg.jpeg",
+     "fid": "F0C8A4PUQH5",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사시미",
+       "name": "모듬사시미(소)",
+       "price": 32000
+      },
+      {
+       "category": "사시미",
+       "name": "모듬사시미(중)",
+       "price": 52000
+      },
+      {
+       "category": "사시미",
+       "name": "광어고노와다",
+       "price": 30000
+      },
+      {
+       "category": "사시미",
+       "name": "대방어사시미",
+       "price": 55000
+      },
+      {
+       "category": "사시미",
+       "name": "반반사시미(방어/연어)",
+       "price": 45000
+      },
+      {
+       "category": "사시미",
+       "name": "반반사시미(방어/광어)",
+       "price": 45000
+      },
+      {
+       "category": "사시미",
+       "name": "단품사시미(연어)",
+       "price": 30000
+      },
+      {
+       "category": "사시미",
+       "name": "단품사시미(광어)",
+       "price": 30000
+      },
+      {
+       "category": "사시미",
+       "name": "간장새우(10마리)",
+       "price": 18000
+      },
+      {
+       "category": "사시미",
+       "name": "광어+연어",
+       "price": 35000
+      },
+      {
+       "category": "사시미",
+       "name": "전복",
+       "price": 6000
+      },
+      {
+       "category": "사시미",
+       "name": "멍게",
+       "price": 3000
+      },
+      {
+       "category": "사시미",
+       "name": "문어초회",
+       "price": 18000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180516.jpg.jpeg",
+     "fid": "F0C8L71CK9B",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "탕/나베",
+       "name": "오뎅 나베",
+       "price": 25000
+      },
+      {
+       "category": "탕/나베",
+       "name": "나가사키 해물 짬뽕",
+       "price": 20000
+      },
+      {
+       "category": "탕/나베",
+       "name": "카라이 해물 짬뽕",
+       "price": 20000
+      },
+      {
+       "category": "탕/나베",
+       "name": "알탕",
+       "price": 25000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180528.jpg.jpeg",
+     "fid": "F0C8A4R3CNT",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "타로야백김치",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "메론(2줄)",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "마카로니 샐러드",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "알새우칩",
+       "price": 1000
+      },
+      {
+       "category": "사이드",
+       "name": "레몬 슬라이스",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "고노와다",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "마카로니 리필",
+       "price": 0
+      },
+      {
+       "category": "사이드",
+       "name": "알새우칩리필",
+       "price": 0
+      },
+      {
+       "category": "사이드",
+       "name": "모찌리도후",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "방울토마토",
+       "price": 7000
+      },
+      {
+       "category": "사이드",
+       "name": "타코와사비",
+       "price": 15000
+      },
+      {
+       "category": "사이드",
+       "name": "공기밥",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "샤리밥",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "토닉+레몬",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180532.jpg.jpeg",
+     "fid": "F0C8TDZQ3ND",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "방어초밥",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "도미초밥",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "참치초밥",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "새우초밥",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "광어초밥",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "연어초밥",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "간장새우초밥",
+       "price": 3000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180536.jpg (1).jpeg",
+     "fid": "F0C8RAVHJQ2",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류/음료수",
+       "name": "참이슬",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "처음처럼",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "진로",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "카스",
+       "price": 6500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "테라",
+       "price": 6500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "카스(생)",
+       "price": 6400
+      },
+      {
+       "category": "주류/음료수",
+       "name": "기네스",
+       "price": 11000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "새로",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "화요25",
+       "price": 25000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "화요41",
+       "price": 50000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "갈아만든배",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "진저엘",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "한라산",
+       "price": 7000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "카스논알콜",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180540.jpg.jpeg",
+     "fid": "F0C8A4RESUX",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "마커스",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "봄베이하이볼",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "짐빔하이볼",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "수이진하이볼",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "가쿠하이볼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "도쿠리",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "히레사케(잔)",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "잔사케",
+       "price": 6000
+      }
+     ]
     }
    ],
    "datt": [],
    "replies": [
     "카테고리 몇개 사진 흐리함 재전송",
     "사진 오려먼 멀었음",
-    "사시미 탕/나베 사이드 주류/음료 화면만 이상하고 나머진 정상이라 일단 업로드"
+    "사시미 탕/나베 사이드 주류/음료 화면만 이상하고 나머진 정상이라 일단 업로드",
+    "나머지 재전달"
    ],
-   "rc": 6,
-   "lr": "1791853122.491959",
+   "rc": 7,
+   "lr": "1791868719.237379",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
