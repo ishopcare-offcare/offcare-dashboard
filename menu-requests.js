@@ -3,10 +3,100 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3406,
- "updatedAt": "2026-10-13 14:03",
+ "version": 3407,
+ "updatedAt": "2026-10-13 14:08",
  "days": 30,
  "items": [
+  {
+   "ts": "1791868059.275709",
+   "date": "2026-10-13",
+   "time": "14:07",
+   "store": "지홈(GHOME)",
+   "biz": "2860302452",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8A317SNB",
+     "from": "댓글",
+     "path": "menu-files/1791868059_275709-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "설렁탕",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "사골황태국",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "사골들깨미역국",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "(양송이와 양파로 만든) 카레",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "버터 없는 단호박 스프",
+       "price": 3500
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8K7F1CBV",
+     "from": "댓글",
+     "path": "menu-files/1791868059_275709-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "포장",
+       "name": "설렁탕",
+       "price": 13000
+      },
+      {
+       "category": "포장",
+       "name": "사골황태국",
+       "price": 11000
+      },
+      {
+       "category": "포장",
+       "name": "사골들깨미역국",
+       "price": 11000
+      },
+      {
+       "category": "포장",
+       "name": "카레",
+       "price": 10000
+      },
+      {
+       "category": "포장",
+       "name": "단호박 스프",
+       "price": 4000
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791868078.408899",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791868059275709"
+  },
   {
    "ts": "1791867766.880739",
    "date": "2026-10-13",
