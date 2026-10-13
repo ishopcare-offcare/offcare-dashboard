@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3368,
- "updatedAt": "2026-10-13 09:57",
+ "version": 3369,
+ "updatedAt": "2026-10-13 09:59",
  "days": 30,
  "items": [
   {
@@ -139,15 +139,14 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261012_180455.jpg.jpeg",
      "fid": "F0C8N5Q8NBG",
      "from": "댓글",
-     "path": "menu-files/1791852029_157779-0.jpeg",
      "kind": "pos_screen",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791852029_157779-0.jpeg"
     },
     {
      "name": "Resized_20261012_180509.jpg.jpeg",
      "fid": "F0C88P0HXEK",
      "from": "댓글",
-     "path": "menu-files/1791852029_157779-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -185,13 +184,13 @@ window.MENU_REQUESTS = {
        "name": "바지락 술찜면",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1791852029_157779-1.jpeg"
     },
     {
      "name": "Resized_20261012_180513.jpg.jpeg",
      "fid": "F0C8S2VQ00Z",
      "from": "댓글",
-     "path": "menu-files/1791852029_157779-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -219,13 +218,13 @@ window.MENU_REQUESTS = {
        "name": "연어머리튀김",
        "price": 18000
       }
-     ]
+     ],
+     "path": "menu-files/1791852029_157779-2.jpeg"
     },
     {
      "name": "Resized_20261012_180519.jpg.jpeg",
      "fid": "F0C8HTDN23V",
      "from": "댓글",
-     "path": "menu-files/1791852029_157779-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -253,13 +252,13 @@ window.MENU_REQUESTS = {
        "name": "차슈",
        "price": 20000
       }
-     ]
+     ],
+     "path": "menu-files/1791852029_157779-3.jpeg"
     },
     {
      "name": "Resized_20261012_180523.jpg.jpeg",
      "fid": "F0C8S2W2G3B",
      "from": "댓글",
-     "path": "menu-files/1791852029_157779-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -292,13 +291,13 @@ window.MENU_REQUESTS = {
        "name": "10000",
        "price": 10000
       }
-     ]
+     ],
+     "path": "menu-files/1791852029_157779-4.jpeg"
     },
     {
      "name": "Resized_20261012_180536.jpg.jpeg",
      "fid": "F0C8HTE6MQT",
      "from": "댓글",
-     "path": "menu-files/1791852029_157779-5.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -386,7 +385,8 @@ window.MENU_REQUESTS = {
        "name": "카스논알콜",
        "price": 4000
       }
-     ]
+     ],
+     "path": "menu-files/1791852029_157779-5.jpeg"
     },
     {
      "name": "Resized_20261012_180544.jpg.jpeg",
@@ -526,8 +526,8 @@ window.MENU_REQUESTS = {
     "사진 오려먼 멀었음",
     "사시미 탕/나베 사이드 주류/음료 화면만 이상하고 나머진 정상이라 일단 업로드"
    ],
-   "rc": 5,
-   "lr": "1791852800.609429",
+   "rc": 6,
+   "lr": "1791853122.491959",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",

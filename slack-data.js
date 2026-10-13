@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19790,
+  "version": 19791,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248634,7 +248634,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 포프 핸드폰 명변 완료입니다 포프 핸드폰 명변 완료입니다",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "09:30",
@@ -248793,7 +248793,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "09:44"
+      "updatedAt": "09:57"
     }
   },
   "resp": {
@@ -248903,14 +248903,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791853034.365,
+        "lastSeen": 1791853096.555,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791852029.157779": {
         "post": "1791852029.157779",
-        "lastSeen": 1791853034.365,
+        "lastSeen": 1791853096.555,
         "r": 1,
         "day": "2026-10-13",
         "idx": 12
@@ -333946,7 +333946,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 09:57",
+    "at": "2026-10-13 09:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -333954,7 +333954,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4505,
     "named": 1157,
-    "unknownName": 41,
+    "unknownName": 44,
     "beforeStart": 0,
     "done": 1157,
     "byStatus": {
@@ -334073,7 +334073,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 09:57",
+    "at": "2026-10-13 09:58",
     "pri": {
       "days": 0,
       "failed": [],
