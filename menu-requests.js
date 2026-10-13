@@ -3,10 +3,126 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3363,
- "updatedAt": "2026-10-13 09:42",
+ "version": 3364,
+ "updatedAt": "2026-10-13 09:44",
  "days": 30,
  "items": [
+  {
+   "ts": "1791852231.194769",
+   "date": "2026-10-13",
+   "time": "09:43",
+   "store": "가마솥영양탕",
+   "biz": "3031325083",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8PTU0802",
+     "from": "댓글",
+     "path": "menu-files/1791852231_194769-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주메뉴",
+       "name": "흑염소전골",
+       "price": 30000
+      },
+      {
+       "category": "주메뉴",
+       "name": "흑염소수육",
+       "price": 30000
+      },
+      {
+       "category": "주메뉴",
+       "name": "흑염소무침",
+       "price": 30000
+      },
+      {
+       "category": "주메뉴",
+       "name": "흑염소탕",
+       "price": 20000
+      },
+      {
+       "category": "주메뉴",
+       "name": "흑염소특탕",
+       "price": 25000
+      },
+      {
+       "category": "주메뉴",
+       "name": "영양전골",
+       "price": 35000
+      },
+      {
+       "category": "주메뉴",
+       "name": "영양수육",
+       "price": 35000
+      },
+      {
+       "category": "주메뉴",
+       "name": "영양무침",
+       "price": 35000
+      },
+      {
+       "category": "주메뉴",
+       "name": "영양탕",
+       "price": 28000
+      },
+      {
+       "category": "주메뉴",
+       "name": "영양특탕",
+       "price": 30000
+      },
+      {
+       "category": "주메뉴",
+       "name": "한방토종닭백숙",
+       "price": 50000
+      },
+      {
+       "category": "주메뉴",
+       "name": "한방토종닭볶음",
+       "price": 50000
+      },
+      {
+       "category": "주메뉴",
+       "name": "한방토종산계탕",
+       "price": 15000
+      },
+      {
+       "category": "주메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "주메뉴",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "주메뉴",
+       "name": "흑염소탕",
+       "price": 0
+      },
+      {
+       "category": "주메뉴",
+       "name": "영양탕",
+       "price": 0
+      }
+     ]
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791852239.928639",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791852231194769"
+  },
   {
    "ts": "1791852029.157779",
    "date": "2026-10-13",
@@ -20,9 +136,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791852032.706359",
+   "replies": [
+    "카테고리 몇개 사진 흐리함 재전송"
+   ],
+   "rc": 2,
+   "lr": "1791852195.933359",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -8241,10 +8359,11 @@ window.MENU_REQUESTS = {
    "datt": [],
    "replies": [
     "중복 메뉴\n\n금액, 바코드 다름으로 수정 시간 오래 걸림\n\n기존 포스 운영 중으로 다음 주까지 처리 예정 안내 상태",
-    "메뉴 6,000개 이상"
+    "메뉴 6,000개 이상",
+    "님 안녕하세요\n대표님께서 방금 다 완료되었다는 문자를 받았는데 바코드 찍으니까 바코드를 메뉴가 없다고 등록해야된다고 하시는데\n혹시 현재 완료된게 맞는건지 확인차 문의드립니다\n토플파에는 등록된 상품수가 안보입니다!"
    ],
-   "rc": 3,
-   "lr": "1791426190.570599",
+   "rc": 4,
+   "lr": "1791852232.889559",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
