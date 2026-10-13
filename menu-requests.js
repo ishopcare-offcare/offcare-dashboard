@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3397,
- "updatedAt": "2026-10-13 11:09",
+ "version": 3398,
+ "updatedAt": "2026-10-13 11:14",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,46 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8K8MPM7F",
+     "from": "댓글",
+     "path": "menu-files/1791856908_442469-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "흑염소",
+       "name": "흑염소탕(보통)",
+       "price": 13000
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠 흑염소탕\"특대\"",
+       "price": 18000
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠 흑염소 전골 (3~4인분)",
+       "price": 0
+      },
+      {
+       "category": "흑염소",
+       "name": "황칠흑염소 고기추가 (200g)",
+       "price": 0
+      },
+      {
+       "category": "흑염소",
+       "name": "버섯야채추가",
+       "price": 5000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791856913.247859",
+   "rc": 3,
+   "lr": "1791857583.332949",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
