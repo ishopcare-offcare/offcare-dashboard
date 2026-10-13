@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19834,
+  "version": 19835,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248546,7 +248546,7 @@ window.SLACK_DATA = {
           "박하림": 1,
           "송태양": 4,
           "고경림": 2,
-          "김동욱": 3,
+          "김동욱": 4,
           "배선유": 1
         },
         "onboarding": {
@@ -248679,6 +248679,18 @@ window.SLACK_DATA = {
           "intake": "offline",
           "note": "방화벽 해제 후 정상 출력 확인. 직원분께 다시 한번 전달 완",
           "rr": 2
+        },
+        {
+          "time": "10:16",
+          "store": "그여행 문덕점",
+          "biz": "5101993861",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "해당 매장 아래 화면과 같이 계속 로딩중으로 뜨며, 재부팅해도 동일증상 발생. 이 부분 확인 한번만 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "포스기 인터넷안됨. 점주님 확인 후 다시 연락주기로 하심",
+          "rr": 1
         },
         {
           "time": "10:15",
@@ -249002,7 +249014,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 29,
-        "offline": 7,
+        "offline": 8,
         "unknown": 0
       },
       "updatedAt": "10:45",
@@ -249180,18 +249192,18 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791856638.986,
+        "lastSeen": 1791856712.3,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791856638.986
+        "lastSeen": 1791856712.3
       },
       "1791855026.481029": {
         "post": "1791855026.481029",
-        "lastSeen": 1791856638.986,
+        "lastSeen": 1791856712.3,
         "r": 1,
         "day": "2026-10-13",
         "idx": 16
@@ -334321,7 +334333,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:57",
+    "at": "2026-10-13 10:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334448,7 +334460,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:57",
+    "at": "2026-10-13 10:58",
     "pri": {
       "days": 0,
       "failed": [],
