@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3409,
- "updatedAt": "2026-10-13 14:35",
+ "version": 3410,
+ "updatedAt": "2026-10-13 14:41",
  "days": 30,
  "items": [
   {
@@ -793,12 +793,22 @@ window.MENU_REQUESTS = {
       }
      ],
      "path": "menu-files/1791867553_819499-5.jpg"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8THM93CZ",
+     "from": "댓글",
+     "kind": "other",
+     "menu": []
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1791869730.389309",
+   "replies": [
+    "다대써여?ㅋㅋㅋㅋ",
+    "ㅋㅋㅋㅋ오케 땡큐요!:선유_확실:"
+   ],
+   "rc": 8,
+   "lr": "1791870049.942379",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
@@ -828,7 +838,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C8USTLDPE",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -896,13 +905,13 @@ window.MENU_REQUESTS = {
        "name": "리뷰이벤트(대패1인분)",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8R1NGNF4",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -980,13 +989,13 @@ window.MENU_REQUESTS = {
        "name": "리뷰이벤트 볶음밥",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8T4U005P",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1039,13 +1048,13 @@ window.MENU_REQUESTS = {
        "name": "뽀로로음료(딸기)",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0C89QYUQS3",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1193,13 +1202,13 @@ window.MENU_REQUESTS = {
        "name": "콩나물",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8USVHK4L",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1247,15 +1256,111 @@ window.MENU_REQUESTS = {
        "name": "양파채",
        "price": 0
       }
+     ],
+     "path": "menu-files/1791865140_396939-5.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8VAAA1LL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "카스",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "하이트",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "테라",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "켈리",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "크러쉬",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "한맥",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "참이슬",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "처음처럼",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "진로",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "새로",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "별빛청하",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "펩시콜라",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "펩시제로",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "환타파인",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "테라라이트.",
+       "price": 4500
+      },
+      {
+       "category": "메뉴",
+       "name": "남원생막걸리 술소리",
+       "price": 4000
+      }
      ]
     }
    ],
    "datt": [],
    "replies": [
-    "배쿠요"
+    "배쿠요",
+    "메뉴",
+    "제대로한거맞아요?"
    ],
-   "rc": 4,
-   "lr": "1791865219.009779",
+   "rc": 7,
+   "lr": "1791870028.985419",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
