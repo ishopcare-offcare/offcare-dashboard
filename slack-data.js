@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19774,
+  "version": 19775,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248543,8 +248543,8 @@ window.SLACK_DATA = {
     "2026-10-13": {
       "counts": {
         "as": {
+          "김현기": 2,
           "송태양": 2,
-          "김현기": 1,
           "김동욱": 1
         },
         "transfer": {
@@ -248556,6 +248556,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "서초동 장수족발 감자탕 본점",
+          "biz": "2464100856",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "주방 프린터 용지 교체 이후, 커버를 잘못 닫았는지 출력이 되지 않으신다고 하여 점검 요청드립니다:man-bowing:",
+          "hw": "",
+          "intake": "offline",
+          "note": "ts200 부품 파손 추정 / 대체품 발송",
+          "rr": 1
+        },
         {
           "time": "09:21",
           "store": "아인탑",
@@ -248662,7 +248674,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 8,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "09:34"
@@ -248775,21 +248787,21 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791851753.424,
+        "lastSeen": 1791851812.528,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791849632.065459": {
         "post": "1791849632.065459",
-        "lastSeen": 1791851753.424,
+        "lastSeen": 1791851812.528,
         "r": 1,
         "day": "2026-10-13",
         "idx": 2
       },
       "1791851684.798329": {
         "post": "1791851684.798329",
-        "lastSeen": 1791851753.424
+        "lastSeen": 1791851812.528
       }
     },
     "days": {
@@ -333777,7 +333789,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 09:36",
+    "at": "2026-10-13 09:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -333904,7 +333916,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 09:35",
+    "at": "2026-10-13 09:36",
     "pri": {
       "days": 0,
       "failed": [],
