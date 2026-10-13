@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3387,
- "updatedAt": "2026-10-13 10:49",
+ "version": 3388,
+ "updatedAt": "2026-10-13 10:51",
  "days": 30,
  "items": [
   {
@@ -20,7 +20,37 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1MIj1tHFt6jYVX2lBF46ar5jyEQLeg1pO/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C892LC5M5",
+     "from": "댓글",
+     "path": "menu-files/1791855835_535499-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료선택",
+       "name": "펩시(M)",
+       "price": 0
+      },
+      {
+       "category": "음료선택",
+       "name": "펩시제로(M)",
+       "price": 0
+      },
+      {
+       "category": "음료선택",
+       "name": "칠성사이다(M)",
+       "price": 0
+      },
+      {
+       "category": "음료선택",
+       "name": "마운틴듀(M)",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [
     {
      "id": "1MIj1tHFt6jYVX2lBF46ar5jyEQLeg1pO",
@@ -70,8 +100,8 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791856186.254509",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
