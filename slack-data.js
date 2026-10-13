@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19799,
+  "version": 19800,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248542,13 +248542,17 @@ window.SLACK_DATA = {
     },
     "2026-10-13": {
       "counts": {
+        "onboarding": {
+          "송태양": 1,
+          "고경림": 2
+        },
+        "nosetup": {
+          "배선유": 1
+        },
         "as": {
           "김현기": 4,
           "김동욱": 2,
           "송태양": 3
-        },
-        "onboarding": {
-          "고경림": 2
         },
         "extern": {
           "서상원": 1
@@ -248567,6 +248571,18 @@ window.SLACK_DATA = {
       "done": [
         {
           "time": "10:01",
+          "store": "남성클럽",
+          "biz": "1781802650",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "기계가 어려워 원격 온보딩 요청주셨습니다.(터프조합으로 세팅 요청):꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 완료입니다",
+          "rr": 1
+        },
+        {
+          "time": "10:01",
           "store": "코끼리 카페",
           "biz": "2531802965",
           "cat": "menu",
@@ -248576,6 +248592,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "아직 메일 안옴",
           "rr": 1
+        },
+        {
+          "time": "10:00",
+          "store": "뮤즈 씨투엠 수학교습소",
+          "biz": "1819102168",
+          "cat": "nosetup",
+          "emp": "배선유",
+          "req": "포프(노트북) + 유프 온보딩 요청드립니다. / 상품 등록, 결제 방법 등 사용 방법 안내 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:58",
@@ -248825,7 +248852,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 21,
         "offline": 3,
         "unknown": 0
       },
@@ -248974,31 +249001,17 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791853929.477,
+        "lastSeen": 1791854020.647,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791852029.157779": {
         "post": "1791852029.157779",
-        "lastSeen": 1791853929.477,
+        "lastSeen": 1791854020.647,
         "r": 1,
         "day": "2026-10-13",
         "idx": 12
-      },
-      "1791853201.776279": {
-        "post": "1791853201.776279",
-        "lastSeen": 1791853929.477,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 13
-      },
-      "1791853304.960009": {
-        "post": "1791853304.960009",
-        "lastSeen": 1791853929.477,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 14
       }
     },
     "days": {
@@ -334032,7 +334045,8 @@ window.SLACK_DATA = {
             "store": "뮤즈 씨투엠 수학교습소",
             "biz": "1819102168",
             "who": "배선유",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 12.9
           },
           {
             "hm": "10:01",
@@ -334040,7 +334054,8 @@ window.SLACK_DATA = {
             "store": "남성클럽",
             "biz": "1781802650",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 11.2
           },
           {
             "hm": "10:01",
@@ -334056,7 +334071,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 10:12",
+    "at": "2026-10-13 10:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334183,7 +334198,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 10:12",
+    "at": "2026-10-13 10:13",
     "pri": {
       "days": 0,
       "failed": [],
