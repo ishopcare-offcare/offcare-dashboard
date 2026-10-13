@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19854,
+  "version": 19855,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248541,6 +248541,10 @@ window.SLACK_DATA = {
     },
     "2026-10-13": {
       "counts": {
+        "extern": {
+          "배선유": 1,
+          "서상원": 1
+        },
         "booking": {
           "송태양": 1,
           "김현기": 1,
@@ -248567,9 +248571,6 @@ window.SLACK_DATA = {
           "송태양": 1,
           "고경림": 2
         },
-        "extern": {
-          "서상원": 1
-        },
         "transfer": {
           "송태양": 2,
           "김동욱": 1
@@ -248584,6 +248585,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:18",
+          "store": "야키마루(Yakimaru)",
+          "biz": "5011153215",
+          "cat": "extern",
+          "emp": "배선유",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": "설치완료",
+          "rr": 1
+        },
         {
           "time": "11:16",
           "store": "수담수학학원",
@@ -249180,11 +249193,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 35,
+        "online": 36,
         "offline": 15,
         "unknown": 0
       },
-      "updatedAt": "11:23",
+      "updatedAt": "11:26",
       "voc": {
         "responses": 2,
         "install": {
@@ -249375,18 +249388,22 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791858286.252,
+        "lastSeen": 1791858388.956,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791858286.252
+        "lastSeen": 1791858388.956
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
         "lastSeen": 1791855539.385
+      },
+      "1791858383.315809": {
+        "post": "1791858383.315809",
+        "lastSeen": 1791858388.956
       }
     },
     "days": {
@@ -334537,7 +334554,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:25",
+    "at": "2026-10-13 11:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334664,7 +334681,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 11:24",
+    "at": "2026-10-13 11:26",
     "pri": {
       "days": 0,
       "failed": [],
