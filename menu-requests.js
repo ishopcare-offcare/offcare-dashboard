@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3366,
- "updatedAt": "2026-10-13 09:52",
+ "version": 3367,
+ "updatedAt": "2026-10-13 09:54",
  "days": 30,
  "items": [
   {
@@ -134,14 +134,400 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261012_180455.jpg.jpeg",
+     "fid": "F0C8N5Q8NBG",
+     "from": "댓글",
+     "path": "menu-files/1791852029_157779-0.jpeg",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "Resized_20261012_180509.jpg.jpeg",
+     "fid": "F0C88P0HXEK",
+     "from": "댓글",
+     "path": "menu-files/1791852029_157779-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "볶음/요리",
+       "name": "부타 숙주볶음",
+       "price": 17000
+      },
+      {
+       "category": "볶음/요리",
+       "name": "소고기 숙주볶음",
+       "price": 18000
+      },
+      {
+       "category": "볶음/요리",
+       "name": "나가사키 볶음우동",
+       "price": 20000
+      },
+      {
+       "category": "볶음/요리",
+       "name": "돈베야끼",
+       "price": 23000
+      },
+      {
+       "category": "볶음/요리",
+       "name": "오코노미야끼",
+       "price": 18000
+      },
+      {
+       "category": "볶음/요리",
+       "name": "치명감",
+       "price": 15000
+      },
+      {
+       "category": "볶음/요리",
+       "name": "바지락 술찜면",
+       "price": 20000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180513.jpg.jpeg",
+     "fid": "F0C8S2VQ00Z",
+     "from": "댓글",
+     "path": "menu-files/1791852029_157779-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "튀김",
+       "name": "토리 가라아게 (250g)",
+       "price": 0
+      },
+      {
+       "category": "튀김",
+       "name": "카와 가라아케 (250g)",
+       "price": 0
+      },
+      {
+       "category": "튀김",
+       "name": "모듬고로케",
+       "price": 0
+      },
+      {
+       "category": "튀김",
+       "name": "카키후라이",
+       "price": 0
+      },
+      {
+       "category": "튀김",
+       "name": "연어머리튀김",
+       "price": 18000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180519.jpg.jpeg",
+     "fid": "F0C8HTDN23V",
+     "from": "댓글",
+     "path": "menu-files/1791852029_157779-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "구이/조림",
+       "name": "미소 메로구이",
+       "price": 25000
+      },
+      {
+       "category": "구이/조림",
+       "name": "메로 소금구이",
+       "price": 25000
+      },
+      {
+       "category": "구이/조림",
+       "name": "메로 조림",
+       "price": 27000
+      },
+      {
+       "category": "구이/조림",
+       "name": "도미 머리 조림",
+       "price": 20000
+      },
+      {
+       "category": "구이/조림",
+       "name": "차슈",
+       "price": 20000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180523.jpg.jpeg",
+     "fid": "F0C8S2W2G3B",
+     "from": "댓글",
+     "path": "menu-files/1791852029_157779-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샐러드",
+       "name": "와사비 생연어 관자 샐러드",
+       "price": 20000
+      },
+      {
+       "category": "샐러드",
+       "name": "규 타다끼",
+       "price": 22000
+      },
+      {
+       "category": "샐러드",
+       "name": "참치 타다끼",
+       "price": 22000
+      },
+      {
+       "category": "",
+       "name": "1000",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "5000",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "10000",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180536.jpg.jpeg",
+     "fid": "F0C8HTE6MQT",
+     "from": "댓글",
+     "path": "menu-files/1791852029_157779-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류/음료수",
+       "name": "참이슬",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "처음처럼",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "진로",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "카스",
+       "price": 6500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "테라",
+       "price": 6500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "카스(생)",
+       "price": 6100
+      },
+      {
+       "category": "주류/음료수",
+       "name": "기네스",
+       "price": 11000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "새로",
+       "price": 5500
+      },
+      {
+       "category": "주류/음료수",
+       "name": "화요25",
+       "price": 25000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "화요41",
+       "price": 50000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "갈아만든배",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "진저엘",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "한라산",
+       "price": 7000
+      },
+      {
+       "category": "주류/음료수",
+       "name": "카스논알콜",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180544.jpg.jpeg",
+     "fid": "F0C8S2X023B",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사케",
+       "name": "월계관준마이750",
+       "price": 0
+      },
+      {
+       "category": "사케",
+       "name": "월계관 준마이 다이긴죠",
+       "price": 80000
+      },
+      {
+       "category": "사케",
+       "name": "스타치 레이슈",
+       "price": 0
+      },
+      {
+       "category": "사케",
+       "name": "간바레오도상",
+       "price": 0
+      },
+      {
+       "category": "사케",
+       "name": "이치고이치에",
+       "price": 0
+      },
+      {
+       "category": "사케",
+       "name": "하쿠시카 카로쿠",
+       "price": 0
+      },
+      {
+       "category": "사케",
+       "name": "하쿠시카 혼죠조",
+       "price": 30000
+      },
+      {
+       "category": "사케",
+       "name": "하쿠시카 준마이팩",
+       "price": 0
+      },
+      {
+       "category": "사케",
+       "name": "하쿠시카 준마이 긴죠 팩",
+       "price": 40000
+      },
+      {
+       "category": "사케",
+       "name": "하쿠쯔루 마루",
+       "price": 35000
+      },
+      {
+       "category": "사케",
+       "name": "하쿠쯔루 죠센 탄레이 준마이",
+       "price": 40000
+      },
+      {
+       "category": "사케",
+       "name": "하쿠쯔루 마루 준마이",
+       "price": 70000
+      },
+      {
+       "category": "사케",
+       "name": "쿠보다센쥬",
+       "price": 85000
+      },
+      {
+       "category": "사케",
+       "name": "쿠보다만쥬",
+       "price": 250000
+      },
+      {
+       "category": "사케",
+       "name": "하나기자쿠라",
+       "price": 43000
+      },
+      {
+       "category": "사케",
+       "name": "온나나카세",
+       "price": 100000
+      },
+      {
+       "category": "사케",
+       "name": "야마모토블랙",
+       "price": 120000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261012_180551.jpg.jpeg",
+     "fid": "F0C8TQXTSTW",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트메뉴",
+       "name": "사시미(소)+도쿠리",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴",
+       "name": "사시미(중)+도쿠리",
+       "price": 52000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "소주+토닉세트",
+       "price": 0
+      },
+      {
+       "category": "세트메뉴",
+       "name": "토리가라아게+생맥2",
+       "price": 28000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "사시미+화요25",
+       "price": 59000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "사시미소+화요41",
+       "price": 84000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [
     "카테고리 몇개 사진 흐리함 재전송",
-    "사진 오려먼 멀었음"
+    "사진 오려먼 멀었음",
+    "사시미 탕/나베 사이드 주류/음료 화면만 이상하고 나머진 정상이라 일단 업로드"
    ],
-   "rc": 4,
-   "lr": "1791852743.500559",
+   "rc": 5,
+   "lr": "1791852800.609429",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -944,7 +1330,7 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1791851389.594359",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "고경림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791851320047849"
   },
