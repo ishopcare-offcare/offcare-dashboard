@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3433,
- "updatedAt": "2026-10-13 16:14",
+ "version": 3434,
+ "updatedAt": "2026-10-13 16:16",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261013_122519_1791869915577.jp",
      "fid": "F0C9LKP6SV6",
      "from": "댓글",
-     "path": "menu-files/1791875616_477499-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -156,21 +155,787 @@ window.MENU_REQUESTS = {
        "name": "깨찰도너츠",
        "price": 1600
       }
-     ]
+     ],
+     "path": "menu-files/1791875616_477499-0.jpeg"
     },
     {
      "name": "image.png",
      "fid": "F0C9LKPBZQ8",
      "from": "댓글",
-     "path": "menu-files/1791875616_477499-1.png",
      "kind": "other",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791875616_477499-1.png"
+    },
+    {
+     "name": "Resized_20261013_122637_1791870156632.jp",
+     "fid": "F0C8LV7ELJ1",
+     "from": "댓글",
+     "path": "menu-files/1791875616_477499-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "딸기우유",
+       "price": 1400
+      },
+      {
+       "category": "",
+       "name": "땅콩쨈(소)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "단호박 은박 파운드",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "대판카스테라",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "단팥호두저당생크림빵",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "단호박카스테라",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "다쿠아즈케이크",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "단호박파운드",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "롤케이크(선물용)",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "롤케익",
+       "price": 7800
+      },
+      {
+       "category": "",
+       "name": "러스크",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "롤치즈빵",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "롤케? 슬라이스",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "롤케이크(딸기,모카)",
+       "price": 7800
+      },
+      {
+       "category": "",
+       "name": "롤케이크(대)",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "롱누네띠네",
+       "price": 3600
+      },
+      {
+       "category": "",
+       "name": "롤케? 특 선물포장",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "리츠머랭쿠키",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "펑슈크림도넛",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "롤케? 슬라이스",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "딸기쨈(대)",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "타르트두바이쫀득쿠키",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "딸기잼 소",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "딸기케이크 1호",
+       "price": 27000
+      },
+      {
+       "category": "",
+       "name": "뽕카롱",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "딸기빵케이크1호",
+       "price": 34000
+      },
+      {
+       "category": "",
+       "name": "두바이 쫀득 쿠키",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "딸기빵케이크2호",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "떡케이크3호",
+       "price": 90000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8Q9M9BC6",
+     "from": "댓글",
+     "path": "menu-files/1791875616_477499-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "딸기우유",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "땅콩잼 小",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "당호박 은박 파운드",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "다쿠아즈 케이크",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "타르트 두바이쫀득쿠키",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "두바이쫀득쿠키",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261013_122658_1791870379238.jp",
+     "fid": "F0C8U6S3WQH",
+     "from": "댓글",
+     "path": "menu-files/1791875616_477499-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "단께2개",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "맛나빵",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "마늘빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "메론빵",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "미니캄보넬",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "마랑쿠키",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "모닝빵10개입",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "모카빵1개",
+       "price": 400
+      },
+      {
+       "category": "",
+       "name": "망고산도",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "뚱할랑",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "모카파운드",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "모카빵",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "마들렌세트",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "미니쵸코슐",
+       "price": 6200
+      },
+      {
+       "category": "",
+       "name": "미니화이트",
+       "price": 6200
+      },
+      {
+       "category": "",
+       "name": "미니버거",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "광금파이",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "밤모스",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "맛세",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "하들렌",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "대판2개",
+       "price": 4000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8U6UB333",
+     "from": "댓글",
+     "path": "menu-files/1791875616_477499-5.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "모찌 2개",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "미니찹쌀볼",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "망고산도",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "밀흡파이",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "마블카스테라",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "먹을블루베리 크림치즈",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "앗세",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261013_122714_1791870875270.jp",
+     "fid": "F0C9LKU22JU",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "종루(소)",
+       "price": 100
+      },
+      {
+       "category": "",
+       "name": "종두(대)",
+       "price": 200
+      },
+      {
+       "category": "",
+       "name": "베이비슈",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "베이비슈 2개",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "버터크림빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "베이비만쥬",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "블랙치즈소금빵",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "버터링쿠키(2개)",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "브라우니",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "바게트",
+       "price": 2800
+      },
+      {
+       "category": "",
+       "name": "참치스타르트",
+       "price": 2900
+      },
+      {
+       "category": "",
+       "name": "밤만쥬2개",
+       "price": 3600
+      },
+      {
+       "category": "",
+       "name": "보자기케이크2호",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "블루베리파이",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "블랙베리",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "바나나빵",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "바나나생크림빵",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "바나나쿠키",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "바나나카스테라",
+       "price": 6800
+      },
+      {
+       "category": "",
+       "name": "블루베리생크림빵",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "방식빵(대)",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "밤파운드",
+       "price": 6800
+      },
+      {
+       "category": "",
+       "name": "보자기케이크1호",
+       "price": 65000
+      },
+      {
+       "category": "",
+       "name": "빼빼로(2개입)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "빼빼로(1개입)",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "바나나패배기(2개입)",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "버터떡(2개입)",
+       "price": 5000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8Q9R6EES",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "블랙치즈 소금빵",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "버터링쿠키",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "블루베리 크림치즈 타르트",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "블랙베리",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "버터떡",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261013_150045_1791871394001.jp",
+     "fid": "F0C8AT3G06T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "생크림꽃케이크2호",
+       "price": 43000
+      },
+      {
+       "category": "",
+       "name": "생크림케이크꽃3호",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "생크림4호케이크",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "생크림케이크3호",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "생크림꽃케?3호",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "생크림케이크6호",
+       "price": 65000
+      },
+      {
+       "category": "",
+       "name": "생크림케이크5호",
+       "price": 55000
+      },
+      {
+       "category": "",
+       "name": "쌀쉬폰",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "생크림(짤주머니)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "숯불소세지",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "샤인머스켓케이크1호",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "소보로생크림빵",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "소보로케이크",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "1호상자",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "3호2단꽃케이크",
+       "price": 100000
+      },
+      {
+       "category": "",
+       "name": "3호3단꽃케이크",
+       "price": 130000
+      }
+     ]
+    },
+    {
+     "name": "Resized_20261013_150034_1791871394336.jp",
+     "fid": "F0C8M01T0AH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "숫자초",
+       "price": 1300
+      },
+      {
+       "category": "",
+       "name": "생크림",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "소보루빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "슈크림빵",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "소금빵",
+       "price": 2800
+      },
+      {
+       "category": "",
+       "name": "시몬카스테라1개",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "스위트롤",
+       "price": 6300
+      },
+      {
+       "category": "",
+       "name": "소세지빵",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "수박식빵",
+       "price": 8500
+      },
+      {
+       "category": "",
+       "name": "상투과자",
+       "price": 5900
+      },
+      {
+       "category": "",
+       "name": "서울우유",
+       "price": 3400
+      },
+      {
+       "category": "",
+       "name": "시몬카스테라(4개입)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "소프트콘",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "샌드위치",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "샌드위치사각식빵",
+       "price": 4700
+      },
+      {
+       "category": "",
+       "name": "사각샌드위치",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "슈가볼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "사과파이",
+       "price": 5600
+      },
+      {
+       "category": "",
+       "name": "삼색롤케이크",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "식빵롤",
+       "price": 7500
+      },
+      {
+       "category": "",
+       "name": "샴페인(소)",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "샴페인(대)",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "단팥빵외6종",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "삼색케이크",
+       "price": 27000
+      },
+      {
+       "category": "",
+       "name": "생크림케이크1호",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "생크림꽃케이크1호",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "생크림꽃케이크2호",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "생크림케이크2호",
+       "price": 35000
+      }
+     ]
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791875651.766619",
+   "replies": [
+    "글씨 가려진 메뉴는 생크림생딸기케이크1호,생딸기생크림케이크2호,생크림 루돌프케이크1호, 입니다"
+   ],
+   "rc": 6,
+   "lr": "1791875726.587139",
    "rfx": 3,
    "status": "wait",
    "handler": null,
