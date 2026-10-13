@@ -3,7 +3,7 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3389,
+ "version": 3390,
  "updatedAt": "2026-10-13 10:52",
  "days": 30,
  "items": [
@@ -170,7 +170,7 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1791856305.091469",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791855835535499"
   },
@@ -1472,10 +1472,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "아직 메일 안옴"
+    "아직 메일 안옴",
+    "님, 안녕하세요:감사합니다꾸벅:\n[코끼리 카페 신창점] 메뉴 사진 메일로 보내주셨다고 하는데 혹시 확인 가능하실까요?\n\n본사 통해서 메뉴 파일 요청한 상태이나 아직 답변 X ..\n답변오면 추가 전달 예정으로, 우선 배민에 등록된 사진을 보내주셨다고 하십니다..! (매장 내 메뉴판은 아직없다고 하십니다)"
    ],
-   "rc": 1,
-   "lr": "1791853369.233699",
+   "rc": 2,
+   "lr": "1791856347.640089",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
