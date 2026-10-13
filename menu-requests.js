@@ -3,10 +3,69 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3352,
- "updatedAt": "2026-10-13 09:15",
+ "version": 3353,
+ "updatedAt": "2026-10-13 09:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1791850582.646199",
+   "date": "2026-10-13",
+   "time": "09:16",
+   "store": "아인탑",
+   "biz": "6968803577",
+   "pos": "토스포스",
+   "content": "전체 메뉴 사진등록 요청",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1k9TelqScS-olrWl5WJ1tBtcHzrfSH4_F/view?usp=drivesdk",
+    "https://drive.google.com/file/d/10k41-mQSVU23edcFQJ2uMuqZycBOps_i/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1DaoW1ww7eJGY5nRD8R7YH12jOYKlxPvn/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1vra8YQDDQoQV25pVavQoAk-ri8vuzxfJ/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1hO5OiDxd5tWfh2QigXiS90I23PwEZOP1/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1R0bVwSxWGz1XisiqYiTXxON7vnIhKw0q/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1k9TelqScS-olrWl5WJ1tBtcHzrfSH4_F",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "10k41-mQSVU23edcFQJ2uMuqZycBOps_i",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1DaoW1ww7eJGY5nRD8R7YH12jOYKlxPvn",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1vra8YQDDQoQV25pVavQoAk-ri8vuzxfJ",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1hO5OiDxd5tWfh2QigXiS90I23PwEZOP1",
+     "kind": "product_photo",
+     "menu": []
+    },
+    {
+     "id": "1R0bVwSxWGz1XisiqYiTXxON7vnIhKw0q",
+     "kind": "product_photo",
+     "menu": []
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791850582646199"
+  },
   {
    "ts": "1791797171.828569",
    "date": "2026-10-12",

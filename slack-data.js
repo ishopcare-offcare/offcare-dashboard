@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19760,
+  "version": 19761,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248543,11 +248543,24 @@ window.SLACK_DATA = {
     "2026-10-13": {
       "counts": {
         "as": {
+          "송태양": 1,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:05",
+          "store": "원주성모병원",
+          "biz": "2248213261",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1791680982097749|https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX",
+          "hw": "",
+          "intake": "offline",
+          "note": "• 프론트 재온보딩 완료입니다 프론트 재온보딩 완료입니다",
+          "rr": 1
+        },
         {
           "time": "08:25",
           "store": "컴포즈커피 HD올림픽 셀프주유소점",
@@ -248562,10 +248575,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:05"
+      "updatedAt": "09:16"
     }
   },
   "resp": {
@@ -248675,31 +248688,28 @@ window.SLACK_DATA = {
       },
       "1791848701.099699": {
         "post": "1791848701.099699",
-        "lastSeen": 1791850527.843,
+        "lastSeen": 1791850625.992,
         "r": 1,
         "day": "2026-10-13",
         "idx": 1
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791850527.843,
+        "lastSeen": 1791850625.992,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791849632.065459": {
         "post": "1791849632.065459",
-        "lastSeen": 1791850527.843,
+        "lastSeen": 1791850625.992,
         "r": 1,
         "day": "2026-10-13",
         "idx": 2
       },
-      "1791849939.784129": {
-        "post": "1791849939.784129",
-        "lastSeen": 1791850527.843,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 3
+      "1791850582.646199": {
+        "post": "1791850582.646199",
+        "lastSeen": 1791850625.992
       }
     },
     "days": {
@@ -333642,14 +333652,15 @@ window.SLACK_DATA = {
             "store": "원주성모병원",
             "biz": "2248213261",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-13 09:15",
+    "at": "2026-10-13 09:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -333776,7 +333787,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 09:15",
+    "at": "2026-10-13 09:17",
     "pri": {
       "days": 0,
       "failed": [],
