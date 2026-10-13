@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20311,
+  "version": 20312,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248708,8 +248708,8 @@ window.SLACK_DATA = {
           "req": "• 메뉴 등록 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "메뉴/옵션 등록완료.",
-          "rr": 3
+          "note": "메뉴/옵션 등록완료. / 이미지 등록중. 대시보드 3페이지 공주밤라떼까지 등록",
+          "rr": 4
         },
         {
           "time": "21:03",
@@ -252144,7 +252144,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": ""
+      "updatedAt": "08:45"
     }
   },
   "resp": {
@@ -252324,6 +252324,14 @@ window.SLACK_DATA = {
       "1791903627.558599": {
         "post": "1791903627.558599",
         "lastSeen": 1791922528.075
+      },
+      "1791935103.241349": {
+        "post": "1791935103.241349",
+        "lastSeen": 1791935126.276
+      },
+      "1791935101.437099": {
+        "post": "1791935101.437099",
+        "lastSeen": 1791935126.276
       }
     },
     "days": {
@@ -338942,13 +338950,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-14 08:30",
+    "at": "2026-10-14 08:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4522,
+    "rows": 4530,
     "named": 1175,
     "unknownName": 45,
     "beforeStart": 0,
@@ -339070,7 +339078,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 08:30",
+    "at": "2026-10-14 08:45",
     "pri": {
       "days": 0,
       "failed": [],
