@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3448,
- "updatedAt": "2026-10-13 16:55",
+ "version": 3449,
+ "updatedAt": "2026-10-13 16:56",
  "days": 30,
  "items": [
   {
@@ -4102,15 +4102,14 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C8T4RTUHX",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-0.png",
      "kind": "pos_screen",
-     "menu": []
+     "menu": [],
+     "path": "menu-files/1791865140_396939-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8USTLDPE",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -4178,13 +4177,13 @@ window.MENU_REQUESTS = {
        "name": "리뷰이벤트(대패1인분)",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8R1NGNF4",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -4262,13 +4261,13 @@ window.MENU_REQUESTS = {
        "name": "리뷰이벤트 볶음밥",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8T4U005P",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -4321,13 +4320,13 @@ window.MENU_REQUESTS = {
        "name": "뽀로로음료(딸기)",
        "price": 2000
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0C89QYUQS3",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -4475,13 +4474,13 @@ window.MENU_REQUESTS = {
        "name": "콩나물",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0C8USVHK4L",
      "from": "댓글",
-     "path": "menu-files/1791865140_396939-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -4529,7 +4528,8 @@ window.MENU_REQUESTS = {
        "name": "양파채",
        "price": 0
       }
-     ]
+     ],
+     "path": "menu-files/1791865140_396939-5.png"
     }
    ],
    "datt": [],
@@ -4537,10 +4537,11 @@ window.MENU_REQUESTS = {
     "메뉴",
     "제대로한거맞아요?",
     "문제점 무엇",
-    "해당매장 민원매장이며\n티오더 연동필요매장\n• 메뉴도 제대로 안되어있으면 온도감이 더 커짐 \n• 수정 두번 티오더에 연동해야함 당일에 티오더에서 작업안해주면 기존포스 원복 후 다시 설치해야하는 상황발생\n• 담당자는 최종 업로드전 검수 필요\n• AI를 100% 신뢰할 수 없음, 가격정보도 마찬가지 가격에 0하나 빠져있으면 이것도 강성민원 보상해줘야하는 case 발생"
+    "해당매장 민원매장이며\n티오더 연동필요매장\n• 메뉴도 제대로 안되어있으면 온도감이 더 커짐 \n• 수정 두번 티오더에 연동해야함 당일에 티오더에서 작업안해주면 기존포스 원복 후 다시 설치해야하는 상황발생\n• 담당자는 최종 업로드전 검수 필요\n• AI를 100% 신뢰할 수 없음, 가격정보도 마찬가지 가격에 0하나 빠져있으면 이것도 강성민원 보상해줘야하는 case 발생",
+    "4번케이스 발생을 막기위해 솔라피 발송시 한번 확인해 달라는 멘트 필요."
    ],
-   "rc": 27,
-   "lr": "1791878073.552919",
+   "rc": 28,
+   "lr": "1791878145.259759",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
