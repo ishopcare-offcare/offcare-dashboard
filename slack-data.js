@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19865,
+  "version": 19866,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -249269,22 +249269,23 @@ window.SLACK_DATA = {
         "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "11:35",
+      "updatedAt": "11:39",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 2,
-          "low": 1
+          "count": 3,
+          "low": 2
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "3": 1,
           "5": 1,
           "10": 1
         },
@@ -249292,11 +249293,15 @@ window.SLACK_DATA = {
         "byIndustry": {},
         "byTenure": {
           "1개월": {
-            "total": 2,
-            "low": 1
+            "total": 3,
+            "low": 2
           }
         },
         "byVan": {
+          "KOVAN": {
+            "total": 1,
+            "low": 1
+          },
           "KIS": {
             "total": 1,
             "low": 1
@@ -249307,9 +249312,31 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "필요한 기능이 없거나 몰라서 불편": 1
+          "필요한 기능이 없거나 몰라서 불편": 2
         },
         "alerts": [
+          {
+            "time": "11:39",
+            "store": "제주자연농장",
+            "storeId": "606035",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "카드넘버로 결제가 안되서 불편",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "10:38",
             "store": "영네일",
@@ -249460,14 +249487,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791859086.458,
+        "lastSeen": 1791859136.599,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791859086.458
+        "lastSeen": 1791859136.599
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
@@ -249475,29 +249502,29 @@ window.SLACK_DATA = {
       },
       "1791858602.824079": {
         "post": "1791858602.824079",
-        "lastSeen": 1791859086.458,
+        "lastSeen": 1791859136.599,
         "r": 1,
         "day": "2026-10-13",
         "idx": 27
       },
-      "1791858823.249039": {
-        "post": "1791858823.249039",
-        "lastSeen": 1791859086.458
-      },
       "1791858790.025429": {
         "post": "1791858790.025429",
-        "lastSeen": 1791859086.458,
+        "lastSeen": 1791859136.599,
         "r": 1,
         "day": "2026-10-13",
         "idx": 29
       },
       "1791858932.085939": {
         "post": "1791858932.085939",
-        "lastSeen": 1791859086.458
+        "lastSeen": 1791859136.599
       },
       "1791858888.658799": {
         "post": "1791858888.658799",
-        "lastSeen": 1791859086.458
+        "lastSeen": 1791859136.599
+      },
+      "1791859118.107249": {
+        "post": "1791859118.107249",
+        "lastSeen": 1791859136.599
       }
     },
     "days": {
@@ -334682,7 +334709,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:38",
+    "at": "2026-10-13 11:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
