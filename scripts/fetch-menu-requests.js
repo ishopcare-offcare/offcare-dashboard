@@ -58,7 +58,9 @@ async function fetchReplies(channelId, ts) {
   url.searchParams.set('limit', '30');
   const res = await fetch(url, { headers: { Authorization: 'Bearer ' + TOKEN } });
   const j = await res.json();
-  if (!j.ok) return [];
+  // 실패(ratelimited 등)를 '댓글 없음'([])으로 돌려주면 기존 댓글·첨부 판독이 통째로 지워진다
+  // (2026-10-13 금정돼지: 연속 실행 중 실패 한 번에 판독 6장이 사라짐). null = 기존 캐시 유지.
+  if (!j.ok) { console.log(`댓글 조회 실패(${j.error || '?'}) — 기존 댓글·첨부 유지:`, ts); return null; }
   return (j.messages || []).slice(1);   // [0]은 원글
 }
 const cleanReply = (t) => scrubPII(String(t || '')
@@ -122,6 +124,15 @@ const OCR_MODEL = process.env.OCR_MODEL || 'claude-opus-5';
 const OCR_PRICE = { in: 5, out: 25 };                // $/1M tok — 로그의 비용 추정용
 const KRW_PER_USD = Number(process.env.KRW_PER_USD || 1380);
 let ocrDone = 0, ocrUsd = 0;
+// 같은 파일 중복 판독 방지. 같은 메뉴판을 원글·댓글에 또 올리거나, 재요청 글·메일로 다시 보내는 일이 잦다.
+// 파일명만으로 묶으면 슬랙 붙여넣기 기본명 'image.png' 끼리 서로 다른 사진이 합쳐지므로 용량까지 같아야 같은 파일로 본다.
+// 값은 {kind, menu} 또는 {nj:1}. 실행 범위 — 이전 실행 결과는 각 첨부의 캐시로 이미 재사용된다.
+const ocrSeen = new Map();
+let ocrDupSkipped = 0;
+const ocrKey = (name, size) => (name && Number(size) > 0) ? `${String(name).trim().toLowerCase()}|${Number(size)}` : null;
+// 판독 결과 필드만 추린다. v(판독 규칙 버전)를 같이 옮겨야 대시보드가 0원·시가를 구 판독과 구분한다.
+const ocrRes = (r) => ({ kind: r.kind, menu: r.menu || [], ...(r.v ? { v: r.v } : {}) });
+const ocrRemember = (key, r) => { if (key && r && !ocrSeen.has(key)) ocrSeen.set(key, r.bad || r.nj ? { nj: 1 } : ocrRes(r)); };
 const OCR_MEDIA = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.gif': 'image/gif', '.bmp': 'image/bmp' };
 // PDF 는 이미지가 아니라 document 블록으로 보낸다(모델이 페이지를 직접 읽는다).
 // HEIF(아이폰 원본)는 API 가 받지 않아 제외 — 요청자가 jpg 로 다시 올려야 한다.
@@ -138,11 +149,13 @@ const OCR_SCHEMA = {
       items: {
         type: 'object',
         properties: {
-          category: { type: 'string', description: '메뉴가 속한 분류. 이미지에 분류 표기가 없으면 빈 문자열.' },
+          category: { type: 'string', description: '메뉴가 속한 분류. POS 화면이면 선택(강조)된 카테고리 탭 이름. 분류 표기가 없으면 빈 문자열.' },
           name: { type: 'string', description: '메뉴명. 이미지 표기 그대로. 맞춤법 교정 금지.' },
-          price: { type: 'integer', description: '가격. 콤마 없는 정수. 가격이 안 보이면 0.' },
+          price: { type: 'integer', description: '가격. 콤마 없는 정수. 시가·미판독이면 0.' },
+          price_type: { type: 'string', enum: ['fixed', 'market', 'unknown'],
+                        description: '가격 종류. 숫자 가격(0원 포함)=fixed, 시가·싯가·시세=market, 가격이 안 보이거나 잘림=unknown' },
         },
-        required: ['category', 'name', 'price'],
+        required: ['category', 'name', 'price', 'price_type'],
         additionalProperties: false,
       },
     },
@@ -161,8 +174,15 @@ const OCR_PROMPT = `이 이미지에서 등록 대상 메뉴(상품명과 가격
 추출 규칙:
 - product_photo 와 other 는 items 를 빈 배열로 두세요.
 - 메뉴명은 보이는 표기 그대로 적습니다. 맞춤법을 고치지 마세요.
-- 가격은 콤마를 빼고 정수로 적습니다. 가격이 안 보이면 0 으로 둡니다.
+- 가격은 콤마를 빼고 정수로 적고 price_type 을 고릅니다.
+  · 숫자로 적힌 가격은 fixed. '0' 이라고 적힌 것도 실제 0원 상품이므로 fixed + 0 입니다.
+  · '시가'·'싯가'·'시세'·'싯가상품' 표기는 market + 0 입니다. 시가 상품도 반드시 넣으세요.
+  · 가격이 안 보이거나 잘렸으면 unknown + 0 입니다. 지어내지 마세요.
 - 분류(주류/식사류 등) 표기가 있으면 category 에 넣고, 없으면 빈 문자열로 둡니다.
+- POS 화면은 위쪽 카테고리 탭 중 선택(강조색)된 탭 이름이 그 화면 상품들의 category 입니다.
+  탭 이름은 보이는 그대로 적습니다(예: 'MIIN MENU', '티오더').
+- POS 화면에 보이는 상품 버튼은 0원 버튼(직원호출·수저·반찬 리필 등)까지 전부 넣으세요.
+  POS 에 등록된 상품이므로 메뉴가 아니라고 판단해 빼면 안 됩니다. 빈 칸·화살표·결제 버튼은 상품이 아닙니다.
 - 글자가 흐릿해 확신이 없으면 그 항목은 넣지 마세요. 추측해서 채우지 마세요.
 - 매장 전화번호·주소·사업자번호 같은 연락처 정보는 절대 넣지 마세요.`;
 
@@ -278,10 +298,12 @@ async function readMenuImage(dest) {
     const menu = (parsed.items || [])
       .map((x) => ({ category: scrubPII(String(x.category || '')).slice(0, 30),
                      name: scrubPII(String(x.name || '')).slice(0, 60),
-                     price: Number(x.price) || 0 }))
+                     price: Number(x.price) || 0,
+                     // 가격 종류 — 고정가는 생략, 시가 'm' · 미판독 'u'
+                     ...(x.price_type === 'market' ? { pt: 'm' } : x.price_type === 'unknown' ? { pt: 'u' } : {}) }))
       .filter((x) => x.name)
       .slice(0, 200);
-    return { kind: parsed.kind || 'other', menu };
+    return { kind: parsed.kind || 'other', menu, v: 2 };
   } catch (e) {
     const st = e.status || 0;
     const msg = String((e.error && e.error.error && e.error.error.message) || e.message || e).slice(0, 200);
@@ -339,10 +361,12 @@ async function readMenuText(dest) {
     const menu = (parsed.items || [])
       .map((x) => ({ category: scrubPII(String(x.category || '')).slice(0, 30),
                      name: scrubPII(String(x.name || '')).slice(0, 60),
-                     price: Number(x.price) || 0 }))
+                     price: Number(x.price) || 0,
+                     // 가격 종류 — 고정가는 생략, 시가 'm' · 미판독 'u'
+                     ...(x.price_type === 'market' ? { pt: 'm' } : x.price_type === 'unknown' ? { pt: 'u' } : {}) }))
       .filter((x) => x.name)
       .slice(0, 500);
-    return { kind: 'menu_file', menu };
+    return { kind: 'menu_file', menu, v: 2 };
   } catch (e) {
     const st = e.status || 0;
     const msg = String((e.error && e.error.error && e.error.error.message) || e.message || e).slice(0, 200);
@@ -490,6 +514,15 @@ function detectPos(text) {
   const prevMap = {};
   if (fs.existsSync(OUT)) { const w = {}; try { new Function('window', fs.readFileSync(OUT, 'utf8'))(w); for (const it of ((w.MENU_REQUESTS || {}).items || [])) prevMap[it.ts] = it; } catch (e) {} }
 
+  // 이전 실행에서 판독 끝난 원글 첨부를 먼저 등록 — 처리 순서상 사본이 원본보다 먼저 나와도 재판독하지 않게
+  for (const m of msgs) {
+    const prevAtt = ((prevMap[m.ts] || {}).att) || [];
+    for (const f of (m.files || [])) {
+      const p = prevAtt.find((x) => x.fid && x.fid === f.id);
+      if (p && 'kind' in p) ocrRemember(ocrKey(f.name, f.size), p);
+    }
+  }
+
   const items = [];
   for (const m of msgs) {
     if (m.subtype && m.subtype !== 'bot_message') continue;   // 시스템 메시지 제외(봇 접수글은 포함)
@@ -557,15 +590,20 @@ function detectPos(text) {
         for (const id of allIds.slice(0, JUDGE_PER_MSG)) {
           const p = prevD.find((x) => x.id === id) || {};
           // 판독 완료분은 영구 재사용. 구 tesseract 캐시(ocr 문자열)도 그대로 살려 재판독 비용을 아낀다.
-          if ('kind' in p) { datt.push({ id, kind: p.kind, menu: p.menu || [] }); continue; }
+          if ('kind' in p) { ocrRemember(`d:${id}`, p); datt.push({ id, ...ocrRes(p) }); continue; }
           if ('ocr' in p) { datt.push({ id, ocr: p.ocr }); continue; }
           if (p.nj) { datt.push({ id, nj: 1 }); continue; }               // 판독 불가로 확정된 파일
+          const idDup = ocrSeen.get(`d:${id}`);   // 같은 Drive 링크를 다른 요청에 또 붙인 경우
+          if (idDup) { datt.push({ id, ...idDup }); ocrDupSkipped++; continue; }
           di++;
 
           const meta = await driveMeta(id, tok);
           if (!meta) continue;
           if (!DRIVE_READABLE.test(String(meta.mimeType || ''))) { driveSkipped++; continue; }   // heif·hwp·xlsx 등
           if (Number(meta.size || 0) > FILE_MAX) continue;
+          const dKey = ocrKey(meta.name, meta.size);
+          const dup = dKey && ocrSeen.get(dKey);
+          if (dup) { datt.push({ id, ...dup }); ocrDupSkipped++; continue; }
 
           // 임시 파일로만 받는다 — 저장소에는 이미지도 파일명도 남기지 않는다
           const ext = (String(meta.mimeType).split('/')[1] || 'jpg').replace('jpeg', 'jpg');
@@ -575,8 +613,9 @@ function detectPos(text) {
           if (!got) continue;
           try {
             const r = await readMenuImage(tmp);
+            ocrRemember(dKey, r); ocrRemember(`d:${id}`, r);
             if (r && r.bad) datt.push({ id, nj: 1 });                      // 판독 불가 — 매 실행 다시 받아 호출하지 않는다
-            else if (r) datt.push({ id, kind: r.kind, menu: r.menu });     // null(상한/키없음)은 다음 실행 재시도
+            else if (r) datt.push({ id, ...ocrRes(r) });     // null(상한/키없음)은 다음 실행 재시도
           } finally { try { fs.unlinkSync(tmp); } catch (e) {} }
         }
       }
@@ -627,7 +666,9 @@ function detectPos(text) {
       const dest = `${FILE_DIR}/${String(m.ts).replace('.', '_')}-${idx}${ext}`;
       const prevA = prevAtt.find((x) => x.fid && x.fid === f.id) || {};
       const a = { name: String(f.name || '첨부').slice(0, 40), fid: f.id, from };
-      if ('kind' in prevA) { a.kind = prevA.kind; a.menu = prevA.menu || []; }   // 판독 완료분 재사용(빈 결과도 재사용)
+      const sKey = ocrKey(f.name, f.size);
+      if ('kind' in prevA) { Object.assign(a, ocrRes(prevA)); ocrRemember(sKey, prevA); }   // 판독 완료분 재사용(빈 결과도 재사용)
+      else if (sKey && ocrSeen.has(sKey)) { Object.assign(a, ocrSeen.get(sKey)); ocrDupSkipped++; }   // 같은 파일명·용량은 이미 판독한 결과를 복사
       const small = (f.size || 0) <= FILE_MAX && !!f.url_private_download;
       let stored = false;
       if (inWindow && small && idx < FILE_PER_MSG) {   // 저장은 앞 몇 장만 — 판독은 아래에서 전량
@@ -642,7 +683,7 @@ function detectPos(text) {
       const thumb = bigOriginal ? (f.thumb_1024 || f.thumb_960 || f.thumb_800 || f.thumb_720 || null) : null;
       const judgeable = OCR_EXT.test(ext) && !!f.url_private_download && (!bigOriginal || !!thumb);
       if (!('kind' in a) && !judgeable) a.nj = 1;
-      if (!('kind' in a) && judgeable) {
+      if (!('kind' in a) && !a.nj && judgeable) {
         let judgePath = (stored && !bigOriginal) ? dest : null;
         if (!judgePath) {   // 창 밖이라 저장을 안 했거나, 원본이 커서 축소본을 받아야 하는 경우
           const src = thumb || f.url_private_download;
@@ -655,8 +696,9 @@ function detectPos(text) {
           const isTemp = judgePath.startsWith(DRIVE_TMP);   // 축소본·창밖 임시본은 판독 후 지운다
           try {
             const r = await readMenuImage(judgePath);
+            ocrRemember(sKey, r);
             if (r && r.bad) a.nj = 1;                                   // 판독 불가 사진 — 다음 실행에서 재시도하지 않는다
-            else if (r) { a.kind = r.kind; a.menu = r.menu; }
+            else if (r) Object.assign(a, ocrRes(r));
           }
           finally { if (isTemp) { try { fs.unlinkSync(judgePath); } catch (e) {} } }
         }
@@ -681,8 +723,11 @@ function detectPos(text) {
         for (const fl of files) {
           const t = extOf(fl.name) || String(fl.type || '').split('/')[1] || '';
           const p = prevM.find((x) => x.id === fl.id) || {};
-          if ('kind' in p) { matt.push({ id: fl.id, t, kind: p.kind, menu: p.menu || [] }); continue; }
+          const mKey = ocrKey(fl.name, fl.size);
+          if ('kind' in p) { ocrRemember(mKey, p); matt.push({ id: fl.id, t, ...ocrRes(p) }); continue; }
           if (p.nj) { matt.push({ id: fl.id, t, nj: 1 }); continue; }
+          const dup = mKey && ocrSeen.get(mKey);
+          if (dup) { matt.push({ id: fl.id, t, ...dup }); ocrDupSkipped++; continue; }
           const isImg = DRIVE_READABLE.test(String(fl.type || ''));
           const src = fl.csv || (isImg ? fl.id : null);
           if (!src) { matt.push({ id: fl.id, t, nj: 1 }); continue; }        // hwp·pptx·zip 등 — 원본 링크만
@@ -693,8 +738,9 @@ function detectPos(text) {
           if (got !== true) { matt.push({ id: fl.id, t }); continue; }       // 다음 실행 재시도
           try {
             const r = fl.csv ? await readMenuText(tmp) : await readMenuImage(tmp);
+            ocrRemember(mKey, r);
             if (r && r.bad) matt.push({ id: fl.id, t, nj: 1 });
-            else if (r) matt.push({ id: fl.id, t, kind: r.kind, menu: r.menu });
+            else if (r) matt.push({ id: fl.id, t, ...ocrRes(r) });
             else matt.push({ id: fl.id, t });
           } finally { try { fs.unlinkSync(tmp); } catch (x) {} }
         }
@@ -738,6 +784,7 @@ function detectPos(text) {
   fs.writeFileSync(OUT, header + 'window.MENU_REQUESTS = ' + JSON.stringify(data, null, 1) + ';\n', 'utf8');
   const byStatus = capped.reduce((a, i) => { a[i.status] = (a[i.status] || 0) + 1; return a; }, {});
   if (ocrDone) console.log(`🔎 신규 이미지 판독 ${ocrDone}건 (${OCR_MODEL}) · 이번 실행 비용 약 $${ocrUsd.toFixed(3)} (₩${Math.round(ocrUsd * KRW_PER_USD).toLocaleString()})${ocrDone >= OCR_CAP ? ` · 상한 ${OCR_CAP}건 도달 — 나머지는 다음 실행에서` : ''}`);
+  if (ocrDupSkipped) console.log(`♻️ 중복 파일 ${ocrDupSkipped}건은 판독 없이 기존 결과 재사용(같은 파일명·용량)`);
   if (driveDownloaded || driveBlocked || driveSkipped) console.log(`🖼 Drive 파일 ${driveDownloaded}건 수집${driveBlocked ? ` · 권한차단 ${driveBlocked}건(권한 풀리면 자동 복구)` : ''}${driveSkipped ? ` · 미지원형식 ${driveSkipped}건(heif·hwp·xlsx 등)` : ''} — 파일은 저장소에 남기지 않음`);
   if (truncated) console.log(`⚠ 요청당 상한(JUDGE_PER_MSG=${JUDGE_PER_MSG})에 걸려 ${truncated}건을 판독하지 못했습니다 — 상한을 올리세요`);
   // 남은 판독 대기량. 이 값이 실행을 거듭해도 안 줄면 어딘가 막힌 것이다(예전엔 캐시 분기에 묶여 43장이 고정돼 있었다).

@@ -4102,7 +4102,7 @@ window.MENU_REQUESTS = {
    "replies": [],
    "rc": 26,
    "lr": "1791877388.774729",
-   "rfx": 3,
+   "rfx": 0,
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791865140396939"

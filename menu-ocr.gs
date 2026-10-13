@@ -29,11 +29,13 @@ var SCHEMA = {
       items: {
         type: 'object',
         properties: {
-          category: { type: 'string', description: '메뉴가 속한 분류. 이미지에 분류 표기가 없으면 빈 문자열.' },
+          category: { type: 'string', description: '메뉴가 속한 분류. POS 화면이면 선택(강조)된 카테고리 탭 이름. 분류 표기가 없으면 빈 문자열.' },
           name: { type: 'string', description: '메뉴명. 이미지 표기 그대로. 맞춤법 교정 금지.' },
-          price: { type: 'integer', description: '가격. 콤마 없는 정수. 가격이 안 보이면 0.' }
+          price: { type: 'integer', description: '가격. 콤마 없는 정수. 시가·미판독이면 0.' },
+          price_type: { type: 'string', enum: ['fixed', 'market', 'unknown'],
+                        description: '가격 종류. 숫자 가격(0원 포함)=fixed, 시가·싯가·시세=market, 가격이 안 보이거나 잘림=unknown' }
         },
-        required: ['category', 'name', 'price'],
+        required: ['category', 'name', 'price', 'price_type'],
         additionalProperties: false
       }
     }
@@ -53,8 +55,15 @@ var PROMPT = [
   '추출 규칙:',
   '- product_photo 와 other 는 items 를 빈 배열로 두세요.',
   '- 메뉴명은 보이는 표기 그대로 적습니다. 맞춤법을 고치지 마세요.',
-  '- 가격은 콤마를 빼고 정수로 적습니다. 가격이 안 보이면 0 으로 둡니다.',
+  '- 가격은 콤마를 빼고 정수로 적고 price_type 을 고릅니다.',
+  "  · 숫자로 적힌 가격은 fixed. '0' 이라고 적힌 것도 실제 0원 상품이므로 fixed + 0 입니다.",
+  "  · '시가'·'싯가'·'시세'·'싯가상품' 표기는 market + 0 입니다. 시가 상품도 반드시 넣으세요.",
+  '  · 가격이 안 보이거나 잘렸으면 unknown + 0 입니다. 지어내지 마세요.',
   '- 분류(주류/식사류 등) 표기가 있으면 category 에 넣고, 없으면 빈 문자열로 둡니다.',
+  '- POS 화면은 위쪽 카테고리 탭 중 선택(강조색)된 탭 이름이 그 화면 상품들의 category 입니다.',
+  "  탭 이름은 보이는 그대로 적습니다(예: 'MIIN MENU', '티오더').",
+  '- POS 화면에 보이는 상품 버튼은 0원 버튼(직원호출·수저·반찬 리필 등)까지 전부 넣으세요.',
+  '  POS 에 등록된 상품이므로 메뉴가 아니라고 판단해 빼면 안 됩니다. 빈 칸·화살표·결제 버튼은 상품이 아닙니다.',
   '- 글자가 흐릿해 확신이 없으면 그 항목은 넣지 마세요. 추측해서 채우지 마세요.',
   '- 매장 전화번호·주소·사업자번호 같은 연락처 정보는 절대 넣지 마세요.'
 ].join('\n');
@@ -120,9 +129,13 @@ function readMenu_(key, mime, data) {
   (j.content || []).forEach(function (b) { if (b.type === 'text') text += b.text; });
   var parsed = JSON.parse(text || '{}');
   var items = (parsed.items || []).filter(function (x) { return x && x.name; }).slice(0, 300).map(function (x) {
-    return { category: String(x.category || '').slice(0, 30), name: String(x.name).slice(0, 60), price: Number(x.price) || 0 };
+    var it = { category: String(x.category || '').slice(0, 30), name: String(x.name).slice(0, 60), price: Number(x.price) || 0 };
+    if (x.price_type === 'market') it.pt = 'm';        // 시가
+    else if (x.price_type === 'unknown') it.pt = 'u';  // 가격 미판독
+    return it;
   });
-  return { ok: true, kind: parsed.kind || 'other', items: items };
+  // v:2 = price_type 을 받은 판독 — 대시보드가 0원(fixed)을 미판독과 구분한다
+  return { ok: true, kind: parsed.kind || 'other', items: items, v: 2 };
 }
 
 function call_(key, req, withFallback) {

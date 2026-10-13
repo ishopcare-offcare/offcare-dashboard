@@ -2706,8 +2706,10 @@ function menuregParseGrid(gridId){
     else continue;
     // 가격 칸에 '시가' 라고 적히면 시가상품(가격 미정). 0원이라 그냥 두면 버려지므로 따로 표시해 통과시킨다.
     const sigg=MENUREG_HEAD.sigg.test(String(price));
-    price=sigg?0:parseInt(String(price).replace(/[^\d]/g,''),10);
-    if(!name||(!price&&!sigg)) continue;
+    // '0' 이라고 적힌 칸은 0원 상품(티오더 직원호출·리뷰이벤트 등)이다. 빈 칸만 가격 미판독으로 버린다.
+    const zero=/^0+\s*원?$/.test(String(price).replace(/,/g,'').trim());
+    price=sigg?0:(parseInt(String(price).replace(/[^\d]/g,''),10)||0);
+    if(!name||(!price&&!sigg&&!zero)) continue;
     // 안전망 — 손으로 'SNAPPLE 애플 / 망고' 라고 적어도 내보낼 때 맛별로 나뉜다.
     // 추출 단계에서 이미 펼쳐진 이름은 여기서 그대로 통과한다(같은 규칙이라 두 번 돌아도 안전).
     for(const nm of menuregSplitVariants(name))
@@ -3097,16 +3099,24 @@ function menuregCacheGrid(){ const ta=document.getElementById('mrGrid'); if(ta&&
 /* 판독 결과 [{category,name,price}] → 변환란 줄('분류 | 상품명 | 가격'). 반환: 가격 미판독 수.
  * 맛별로 펼친다 — 'JARRITOS 자몽 / 구아바 / 망고' 가 한 줄로 오는 경우가 많다.
  * 이름 안의 '|' 는 칸 구분자라 '·' 로 바꾼다('/' 로 바꾸면 다시 나열로 읽힌다). */
-function menuregPushMenu(menu, lines, seen){
+/* 가격 칸 값. v2(가격 종류를 받은 판독)는 0원도 실제 가격이다 — 티오더 직원호출·리뷰이벤트 같은 0원 상품.
+ * 구 판독(v 없음)은 0 이 '가격 미판독' 이었으므로 예전처럼 비운다. */
+function menuregPriceCell(m, v2){
+  if(m.pt==='m') return '시가';
+  if(m.pt==='u') return '';
+  const p=Number(m.price)||0;
+  return (p||v2)?String(p):'';
+}
+function menuregPushMenu(menu, lines, seen, v2){
   let noPrice=0;
   for(const m0 of menu) for(const vName of menuregSplitVariants(String(m0.name||'').replace(/\|/g,'·'))){
     const name=String(vName||'').replace(/\|/g,'/').trim(); if(!name) continue;
     const cat=String(m0.category||'').replace(/\|/g,'/').trim()||'메뉴';
-    const price=Number(m0.price)||0;
-    const key=cat+' '+name+' '+price;
+    const pc=menuregPriceCell(m0, v2);
+    const key=cat+' '+name+' '+(pc==='시가'?'시가':(Number(pc)||0));
     if(seen.has(key)) continue; seen.add(key);
-    if(!price) noPrice++;
-    lines.push(cat+' | '+name+' | '+(price||''));
+    if(pc==='') noPrice++;
+    lines.push(cat+' | '+name+' | '+pc);
   }
   return noPrice;
 }
@@ -3168,7 +3178,7 @@ async function menuregOcrFiles(fileList){
       say(`⏳ 사진 판독 중 ${i+1}/${files.length} — ${nm} (장당 10~30초)`);
       try{
         const d=await menuregOcrCall(await menuregPrepImage(f));
-        if(!(d.items||[]).length) empty.push(nm); else { got+=d.items.length; noPrice+=menuregPushMenu(d.items, lines, seen); }
+        if(!(d.items||[]).length) empty.push(nm); else { got+=d.items.length; noPrice+=menuregPushMenu(d.items, lines, seen, d.v===2); }
       }catch(e){ fails.push(nm+': '+e.message); if(/암호/.test(e.message)) break; }
     }
   }finally{ menuregOcrBusy=false; }
@@ -3200,7 +3210,7 @@ function menuregFillFromOcr(ts){
   let noPrice=0;
   for(const a of imgs){
     if((a.menu||[]).length){
-      noPrice+=menuregPushMenu(a.menu, lines, seen);
+      noPrice+=menuregPushMenu(a.menu, lines, seen, a.v===2);
     }else if(a.ocr){                                  // 구 tesseract 캐시(문자열)
       for(const l of String(ocrExtractMenu(a.ocr,it.store)||'').split('\n')){
         const t=l.trim(); if(!t) continue;
@@ -3273,7 +3283,7 @@ function renderMenuReg(){
         if(!withMenu.length&&!skipped.length&&!legacy.length&&!blocked) return '';
         // 여기 보이는 줄과 「양식변환으로 보내기」 결과가 달라지면 안 되므로, 표시도 맛별로 펼친다
         const rows=a=>(a.menu||[]).flatMap(m=>menuregSplitVariants(String(m.name||'').replace(/\|/g,'·'))
-          .map(nm=>`${m.category?escapeHtml(m.category)+' | ':''}${escapeHtml(nm)} | ${m.price?m.price.toLocaleString():'가격미상'}`)).join('\n');
+          .map(nm=>`${m.category?escapeHtml(m.category)+' | ':''}${escapeHtml(nm)} | ${(pc=>pc==='시가'?'시가':pc===''?'가격미상':Number(pc).toLocaleString())(menuregPriceCell(m,a.v===2))}`)).join('\n');
         return `<div style="margin-top:8px">
         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px">
           <div style="font-size:13px;font-weight:700">🔎 이미지 자동판독 <span class="cnt-badge">${withMenu.reduce((n,a)=>n+a.menu.length,0)}</span></div>
