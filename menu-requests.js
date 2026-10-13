@@ -3,10 +3,179 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3432,
- "updatedAt": "2026-10-13 16:13",
+ "version": 3433,
+ "updatedAt": "2026-10-13 16:14",
  "days": 30,
  "items": [
+  {
+   "ts": "1791875616.477499",
+   "date": "2026-10-13",
+   "time": "16:13",
+   "store": "빵누리",
+   "biz": "2373800702",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261013_122519_1791869915577.jp",
+     "fid": "F0C9LKP6SV6",
+     "from": "댓글",
+     "path": "menu-files/1791875616_477499-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "고구마브레드",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "고방카스테라",
+       "price": 2700
+      },
+      {
+       "category": "",
+       "name": "감자빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "고구마빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "고구마타르트",
+       "price": 2700
+      },
+      {
+       "category": "",
+       "name": "구운잡채카레고로케",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "꽁알빵",
+       "price": 3600
+      },
+      {
+       "category": "",
+       "name": "고구마케이크1호",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "고구마케이크 2호",
+       "price": 36000
+      },
+      {
+       "category": "",
+       "name": "고구마옹케이크4호",
+       "price": 55000
+      },
+      {
+       "category": "",
+       "name": "고구마생크림케이크",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "과일생크림빵2개",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "녹차호떡",
+       "price": 3700
+      },
+      {
+       "category": "",
+       "name": "낙엽파이",
+       "price": 3600
+      },
+      {
+       "category": "",
+       "name": "눈꽃카스테라(소)",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "눈꽃카스테라(대)",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "녹차식빵",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "녹차찰떡브레드",
+       "price": 6200
+      },
+      {
+       "category": "",
+       "name": "나이테롤케이크",
+       "price": 8900
+      },
+      {
+       "category": "",
+       "name": "깨소미",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "깨찰빵2개",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "녹차샌드위치",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "뮤벨",
+       "price": 6300
+      },
+      {
+       "category": "",
+       "name": "까망베르",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "고구마케이크4호",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "깨찰도너츠",
+       "price": 1600
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9LKPBZQ8",
+     "from": "댓글",
+     "path": "menu-files/1791875616_477499-1.png",
+     "kind": "other",
+     "menu": []
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791875651.766619",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791875616477499"
+  },
   {
    "ts": "1791875540.202419",
    "date": "2026-10-13",
