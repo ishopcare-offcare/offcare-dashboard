@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3388,
- "updatedAt": "2026-10-13 10:51",
+ "version": 3389,
+ "updatedAt": "2026-10-13 10:52",
  "days": 30,
  "items": [
   {
@@ -25,7 +25,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C892LC5M5",
      "from": "댓글",
-     "path": "menu-files/1791855835_535499-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -48,7 +47,75 @@ window.MENU_REQUESTS = {
        "name": "마운틴듀(M)",
        "price": 0
       }
+     ],
+     "path": "menu-files/1791855835_535499-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C892WG0TZ",
+     "from": "댓글",
+     "path": "menu-files/1791855835_535499-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "감자튀김",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "콘소메 시즈닝",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "핫 솔티 시즈닝",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "코울슬로",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "블랙 치즈스틱",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "해쉬브라운 2EA",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "휘핑 츄러스윗",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "아이스크림 츄러스윗",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "[NEW] 메가윙 할라피뇨",
+       "price": 5400
+      },
+      {
+       "category": "",
+       "name": "지파이",
+       "price": 5400
+      }
      ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9JR515MW",
+     "from": "댓글",
+     "path": "menu-files/1791855835_535499-2.png",
+     "kind": "pos_screen",
+     "menu": []
     }
    ],
    "datt": [
@@ -100,8 +167,8 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [],
-   "rc": 1,
-   "lr": "1791856186.254509",
+   "rc": 3,
+   "lr": "1791856305.091469",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
