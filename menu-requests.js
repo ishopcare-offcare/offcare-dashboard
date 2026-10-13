@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3447,
- "updatedAt": "2026-10-13 16:50",
+ "version": 3448,
+ "updatedAt": "2026-10-13 16:55",
  "days": 30,
  "items": [
   {
@@ -4097,12 +4097,451 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8T4RTUHX",
+     "from": "댓글",
+     "path": "menu-files/1791865140_396939-0.png",
+     "kind": "pos_screen",
+     "menu": []
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8USTLDPE",
+     "from": "댓글",
+     "path": "menu-files/1791865140_396939-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "MIIN MENU",
+       "name": "생삼겹살(180g)",
+       "price": 14000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "목살(180g)",
+       "price": 14000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "꼬들살",
+       "price": 15000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "소갈비살(180g)",
+       "price": 15000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "대패삼겹살(150g)",
+       "price": 9900
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "패밀리세트",
+       "price": 53000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "A모듬set(540g)",
+       "price": 38000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "B모듬set(540g)",
+       "price": 40000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "C모듬set(540g)",
+       "price": 39000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "항정살",
+       "price": 13000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "삼겹살 이벤트",
+       "price": 42000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "갈매기살(200g)",
+       "price": 15000
+      },
+      {
+       "category": "MIIN MENU",
+       "name": "리뷰이벤트(대패1인분)",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8R1NGNF4",
+     "from": "댓글",
+     "path": "menu-files/1791865140_396939-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SIDE MENU",
+       "name": "김치찌개",
+       "price": 6000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "된장찌개",
+       "price": 6000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "된장찌개 리필",
+       "price": 3000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "계란말이",
+       "price": 6000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "계란찜",
+       "price": 5000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "물냉면",
+       "price": 6000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "비빔냉면",
+       "price": 6000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "짜파게티",
+       "price": 5000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "해장라면",
+       "price": 4000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "누룽지",
+       "price": 3000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "불짜파게티",
+       "price": 5000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "치즈볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "셀프주먹밥",
+       "price": 3000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "SIDE MENU",
+       "name": "리뷰이벤트 볶음밥",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8T4U005P",
+     "from": "댓글",
+     "path": "menu-files/1791865140_396939-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "DRINK",
+       "name": "소주",
+       "price": 3500
+      },
+      {
+       "category": "DRINK",
+       "name": "맥주",
+       "price": 3500
+      },
+      {
+       "category": "DRINK",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "DRINK",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "DRINK",
+       "name": "한라산",
+       "price": 3500
+      },
+      {
+       "category": "DRINK",
+       "name": "청하",
+       "price": 3500
+      },
+      {
+       "category": "DRINK",
+       "name": "카스무알콜 보틀",
+       "price": 4500
+      },
+      {
+       "category": "DRINK",
+       "name": "테라라이트",
+       "price": 4500
+      },
+      {
+       "category": "DRINK",
+       "name": "뽀로로음료(밀크)",
+       "price": 2000
+      },
+      {
+       "category": "DRINK",
+       "name": "뽀로로음료(딸기)",
+       "price": 2000
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C89QYUQS3",
+     "from": "댓글",
+     "path": "menu-files/1791865140_396939-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "직원호출",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "숟가락",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "젓가락",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "앞접시",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "소주잔",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "맥주잔",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "냅킨",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "물티슈",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "물",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "물컵",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "카스",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "하이트",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "테라",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "켈리",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "크러쉬",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "한맥",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "참이슬",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "처음처럼",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "진로",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "새로",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "별빛청하",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "펩시콜라",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "펩시제로",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "환타파인",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "김치",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "백김치",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "고사리",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "콩나물",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C8USVHK4L",
+     "from": "댓글",
+     "path": "menu-files/1791865140_396939-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "명이나물",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "쌈장",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "부탄가스",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "상추",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "고추",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "마늘",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "테라라이트",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "남원생막걸리 술소리",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "양파채",
+       "price": 0
+      }
+     ]
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 26,
-   "lr": "1791877388.774729",
-   "rfx": 0,
+   "replies": [
+    "메뉴",
+    "제대로한거맞아요?",
+    "문제점 무엇",
+    "해당매장 민원매장이며\n티오더 연동필요매장\n• 메뉴도 제대로 안되어있으면 온도감이 더 커짐 \n• 수정 두번 티오더에 연동해야함 당일에 티오더에서 작업안해주면 기존포스 원복 후 다시 설치해야하는 상황발생\n• 담당자는 최종 업로드전 검수 필요\n• AI를 100% 신뢰할 수 없음, 가격정보도 마찬가지 가격에 0하나 빠져있으면 이것도 강성민원 보상해줘야하는 case 발생"
+   ],
+   "rc": 27,
+   "lr": "1791878073.552919",
+   "rfx": 3,
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791865140396939"
