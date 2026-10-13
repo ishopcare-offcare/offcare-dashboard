@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3420,
- "updatedAt": "2026-10-13 15:24",
+ "version": 3421,
+ "updatedAt": "2026-10-13 15:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1791872808.472569",
+   "date": "2026-10-13",
+   "time": "15:26",
+   "store": "신규",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 신규메뉴 등록요청\n대용량 첨부 2개 6MB  ···.jpg 3173864 ~ 2026/11/12 ···.jpg 3399909 ~ 2026/11/12 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    짜파게티더블랙 4000원 순한너구리 3600원 마 열라면 3600원 농심라면4000 참깨라면3800      네이버 메일 앱에서 보냈습니다. \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a133edb05bad3df>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a133edb05bad3df",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791872808472569"
+  },
   {
    "ts": "1791872576.282729",
    "date": "2026-10-13",
