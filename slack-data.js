@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 19849,
+  "version": 19850,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248542,6 +248542,8 @@ window.SLACK_DATA = {
     "2026-10-13": {
       "counts": {
         "booking": {
+          "송태양": 1,
+          "김동욱": 1,
           "심성현": 1
         },
         "as": {
@@ -248580,6 +248582,30 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:16",
+          "store": "수담수학학원",
+          "biz": "1289386443",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "가결제",
+          "hw": "",
+          "intake": "offline",
+          "note": "금일 2시 15분 예약",
+          "rr": 1
+        },
+        {
+          "time": "11:15",
+          "store": "가온음악학원",
+          "biz": "2389202118",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "가결제",
+          "hw": "",
+          "intake": "offline",
+          "note": "오후 1시 15분 재통화",
+          "rr": 1
+        },
         {
           "time": "11:14",
           "store": "케이(K)-점핑줄넘기클럽",
@@ -249106,7 +249132,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 33,
-        "offline": 11,
+        "offline": 13,
         "unknown": 0
       },
       "updatedAt": "11:16",
@@ -249300,14 +249326,14 @@ window.SLACK_DATA = {
       },
       "1791849608.153869": {
         "post": "1791849608.153869",
-        "lastSeen": 1791857834.849,
+        "lastSeen": 1791857883.408,
         "r": 1,
         "day": "2026-10-13",
         "idx": 0
       },
       "1791854208.801149": {
         "post": "1791854208.801149",
-        "lastSeen": 1791857834.849
+        "lastSeen": 1791857883.408
       },
       "1791855538.679189": {
         "post": "1791855538.679189",
@@ -249315,7 +249341,10 @@ window.SLACK_DATA = {
       },
       "1791857700.806389": {
         "post": "1791857700.806389",
-        "lastSeen": 1791857834.849
+        "lastSeen": 1791857883.408,
+        "r": 1,
+        "day": "2026-10-13",
+        "idx": 25
       }
     },
     "days": {
@@ -334224,8 +334253,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-13": {
-        "cnt": 25,
-        "sumMin": 110.90639572540918,
+        "cnt": 26,
+        "sumMin": 113.54509757359821,
         "over": 0,
         "items": [
           {
@@ -334451,13 +334480,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "menu",
             "dmin": 11.1
+          },
+          {
+            "hm": "11:15",
+            "min": 2.6,
+            "store": "파주점핑운동전문센터 엠제이점핑",
+            "biz": "3061268726",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-13 11:17",
+    "at": "2026-10-13 11:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -334584,7 +334621,7 @@ window.SLACK_DATA = {
     "2026-10-13": 2
   },
   "noteMig": {
-    "at": "2026-10-13 11:17",
+    "at": "2026-10-13 11:18",
     "pri": {
       "days": 0,
       "failed": [],
