@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3404,
- "updatedAt": "2026-10-13 13:59",
+ "version": 3405,
+ "updatedAt": "2026-10-13 14:01",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,464 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261013_135752767_05.jpg",
+     "fid": "F0C8L3WKYKX",
+     "from": "댓글",
+     "path": "menu-files/1791867553_819499-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "월결제",
+       "price": 0
+      },
+      {
+       "category": "음료",
+       "name": "커피",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "우유",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "생맥주500cc",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "생맥주1700cc",
+       "price": 15000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261013_135752767_04.jpg",
+     "fid": "F0C8V3GCP60",
+     "from": "댓글",
+     "path": "menu-files/1791867553_819499-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "돌솥비빔밥",
+       "price": 10000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261013_135752767_03.jpg",
+     "fid": "F0C8K5ZTNDR",
+     "from": "댓글",
+     "path": "menu-files/1791867553_819499-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "새우볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "김치볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "오므라이스",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "제육덮밥",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "불고기덮밥",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "뚝배기불고기",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "기봉이돈가스",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "치즈돈가스",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사",
+       "name": "면추가",
+       "price": 1000
+      },
+      {
+       "category": "식사",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "돼지김치찌개",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "부대찌개",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "짜글이(1인)",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "콩나물황태해장탕",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "계란후라이",
+       "price": 800
+      },
+      {
+       "category": "식사",
+       "name": "계란후라이3개",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "육개장",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "순두부찌개",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "콩국수",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "곱빼기",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "치킨",
+       "price": 20000
+      },
+      {
+       "category": "식사",
+       "name": "생선까스",
+       "price": 9000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261013_135752767.jpg",
+     "fid": "F0C8A1MP63Z",
+     "from": "댓글",
+     "path": "menu-files/1791867553_819499-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "김밥",
+       "name": "기봉이김밥",
+       "price": 3500
+      },
+      {
+       "category": "김밥",
+       "name": "돈가스김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "참치김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "생와사비참치김밥",
+       "price": 4800
+      },
+      {
+       "category": "김밥",
+       "name": "치즈김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "땡초김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "생와사비돈가스김밥",
+       "price": 4800
+      },
+      {
+       "category": "김밥",
+       "name": "제육김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "생와사비제육김밥",
+       "price": 4800
+      },
+      {
+       "category": "김밥",
+       "name": "참치땡초김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "배달팁",
+       "price": 2000
+      },
+      {
+       "category": "김밥",
+       "name": "배달팁",
+       "price": 4000
+      },
+      {
+       "category": "김밥",
+       "name": "모듬튀김",
+       "price": 20000
+      },
+      {
+       "category": "김밥",
+       "name": "새우튀김",
+       "price": 10000
+      },
+      {
+       "category": "김밥",
+       "name": "감자튀김",
+       "price": 8000
+      },
+      {
+       "category": "김밥",
+       "name": "비정가",
+       "price": 0
+      },
+      {
+       "category": "김밥",
+       "name": "삼계탕",
+       "price": 10000
+      },
+      {
+       "category": "김밥",
+       "name": "새우튀김우동",
+       "price": 9000
+      },
+      {
+       "category": "김밥",
+       "name": "닭도리탕",
+       "price": 35000
+      },
+      {
+       "category": "김밥",
+       "name": "비정가",
+       "price": 0
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261013_135752767_01.jpg",
+     "fid": "F0C9KPX95JL",
+     "from": "댓글",
+     "path": "menu-files/1791867553_819499-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "분식",
+       "name": "라면",
+       "price": 4000
+      },
+      {
+       "category": "분식",
+       "name": "떡라면",
+       "price": 4500
+      },
+      {
+       "category": "분식",
+       "name": "치즈라면",
+       "price": 4500
+      },
+      {
+       "category": "분식",
+       "name": "만두라면",
+       "price": 4500
+      },
+      {
+       "category": "분식",
+       "name": "계란라면",
+       "price": 4500
+      },
+      {
+       "category": "분식",
+       "name": "땡초황태라면",
+       "price": 6000
+      },
+      {
+       "category": "분식",
+       "name": "우동",
+       "price": 7000
+      },
+      {
+       "category": "분식",
+       "name": "모둠떡볶이",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "쫄면",
+       "price": 7000
+      },
+      {
+       "category": "분식",
+       "name": "비빔만두",
+       "price": 7000
+      },
+      {
+       "category": "분식",
+       "name": "떡만두국",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "오뎅탕",
+       "price": 5000
+      },
+      {
+       "category": "분식",
+       "name": "잔치국수",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "비빔국수",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "분식",
+       "name": "면추가",
+       "price": 1000
+      },
+      {
+       "category": "분식",
+       "name": "라볶이",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "떡만두라면",
+       "price": 5000
+      },
+      {
+       "category": "분식",
+       "name": "얼큰이사골칼국수",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "곱빼기2",
+       "price": 2000
+      },
+      {
+       "category": "분식",
+       "name": "짜빠구리",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "치즈추가",
+       "price": 1000
+      },
+      {
+       "category": "분식",
+       "name": "(시즌)물냉면",
+       "price": 8000
+      },
+      {
+       "category": "분식",
+       "name": "(시즌)비빔냉면",
+       "price": 8000
+      }
+     ]
+    },
+    {
+     "name": "KakaoTalk_20261013_135752767_02.jpg",
+     "fid": "F0C8PDT29RU",
+     "from": "댓글",
+     "path": "menu-files/1791867553_819499-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "분식",
+       "name": "얼큰우동",
+       "price": 8000
+      }
+     ]
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791867557.089569",
+   "rc": 2,
+   "lr": "1791867621.936799",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791867553819499"
   },
   {
