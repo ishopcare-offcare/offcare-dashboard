@@ -4333,7 +4333,7 @@ const GAME_ITEMS = {
     {id:'cp_sakura',name:'벚꽃망토',price:250,rarity:'epic',cs:'plain',col:'#ff9ad5',fishOnly:true},
     {id:'cp_white',name:'천사망토',price:800,rarity:'mythic',cs:'plain',col:'#f6f0fa',fishOnly:true},
   ],
-  // 🐾 펫 능력(perk)은 '착용 중인 1마리'만 적용. 아이템 확률은 등급별로 일반 0.15% ~ 신화 0.6%,
+  // 🐾 펫 능력(perk)은 착용한 1마리는 100%, 착용하지 않은 보유 펫은 각각 절반(보유 효과, ownedPetPerk · 상한 PET_OWN_CAP). 아이템 확률은 등급별로 일반 0.15% ~ 신화 0.6%,
   //    펫 전체(10마리) 합계도 +4.2%로 5% 미만 — 타이틀 보유 합계(최대 5%)와 겹쳐도 과하지 않게.
   //    ⚠️ 코인 추가 지급(coin) 퍽은 폐지 — 지급 상한(=캐스트 비용) 때문에 무의미해져서 '코인 유지 확률(keep)'로 전환.
   //       등급별 전환값: +1코인→+4% · +2→+6% · +3→+8% · +4→+10% · +5→+12%
@@ -4638,6 +4638,7 @@ function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; cons
     ${it.ach?(function(){ const d=achDisplay(gameMe,it,owned); return `<div class="it-tip-req"><div class="it-tip-cond">🎯 달성 조건: ${escapeHtml(d.cond)}</div>${d.prog?`<div class="it-tip-prog">📊 내 진행 <b>${escapeHtml(d.prog)}</b></div>`:''}${(it.autoGrant||it.onlyFor)?'':'<div class="it-tip-reset">🔄 매월 1일 진행 초기화</div>'}</div>`; })():''}
     ${(!it.ach && it.fishOnly)?`<div class="it-tip-req"><div class="it-tip-cond">🎣 획득: ${escapeHtml(fishSpotHint(it))}에서 낚시로 획득${it.id==='ft_captain'?' · 🌈 0.00001% 극악 확률':''}</div></div>`:''}
     ${it.perk?`<div class="it-tip-perk"><span class="it-tip-perk-h">${cat==='pet'?'🐾 펫 능력 (착용 시)':cat==='title'?'👑 타이틀 보유 효과 (착용 안 해도 적용)':'✨ 능력'}</span> ${escapeHtml(perkDesc(it.perk))}</div>`:''}
+    ${(cat==='pet'&&it.perk)?`<div class="it-tip-perk"><span class="it-tip-perk-h">🐾 보유 효과 (착용 안 해도 절반 적용)</span> ${escapeHtml(perkDesc(Object.fromEntries(Object.entries(it.perk).map(([k,v])=>[k,v*PET_OWN_RATE]))))}</div>`:''}
     ${it.freeShop?`<div class="it-tip-perk"><span class="it-tip-perk-h">👑 유일 능력</span> 착용 시 모든 상점 아이템 무료!</div>`:''}
     <div class="it-tip-foot">${it.ach?(owned?'✓ 보유중':(gameMe&&achStatus(gameMe,it).ok?'🎁 지금 무료 획득 가능!':'🎯 달성 시 무료 획득')):(it.price===0?'기본 제공':(owned?'✓ 보유중':(it.fishOnly?'낚시로만 획득':((gameMe&&hasFreeShop(gameMe))?'🆓 무료 (곽호영 능력)':'🪙 '+it.price+' 코인'))))}</div>
   </div>`;
@@ -4979,8 +4980,28 @@ function ownedTitlePerk(emp){
   if(sway>TITLE_PERK_CAP.sway){ const r=TITLE_PERK_CAP.sway/sway; if(out.miss) out.miss*=r; if(out.keep) out.keep*=r; }
   return out;
 }
-// 낚시 능력치: 보유 타이틀 전체 + 착용한 펫의 perk 합산 (타이틀은 보유만 해도 적용, 펫은 착용해야 적용)
-function activePerk(emp){ const out=ownedTitlePerk(emp); const pet=itemById('pet',(gs(emp).equipped||{}).pet); if(pet&&pet.perk){ for(const k in pet.perk) out[k]=(out[k]||0)+pet.perk[k]; } return out; }
+// ── 🐾 펫 보유 효과: 착용하지 않은 보유 펫은 각자 능력의 절반(PET_OWN_RATE)이 합산 적용 ──
+// 착용 중인 펫은 착용 효과(100%)만 받는다 — 보유 효과와 겹쳐 150% 가 되지 않게 뺀다.
+// 상한 — 펫을 다 모으면 코인유지 합계만 절반으로도 +60% 가 넘어 꽝이 사라진다. 타이틀 보유 상한과 같은 선으로 묶는다.
+const PET_OWN_RATE=0.5;
+const PET_OWN_CAP={item:0.025, sway:0.20};
+function ownedPetPerk(emp){
+  const out={}; const eq=(gs(emp).equipped||{}).pet;
+  (GAME_ITEMS.pet||[]).forEach(it=>{ if(!it.perk||it.id===eq||!owns(emp,'pet',it.id)) return; for(const k in it.perk) out[k]=(out[k]||0)+it.perk[k]*PET_OWN_RATE; });
+  if(out.item) out.item=Math.min(out.item, PET_OWN_CAP.item);
+  const sway=(out.miss||0)+(out.keep||0);
+  if(sway>PET_OWN_CAP.sway){ const r=PET_OWN_CAP.sway/sway; if(out.miss) out.miss*=r; if(out.keep) out.keep*=r; }
+  return out;
+}
+function ownedPetCount(emp){ const eq=(gs(emp).equipped||{}).pet; return (GAME_ITEMS.pet||[]).filter(it=>it.perk&&it.id!==eq&&owns(emp,'pet',it.id)).length; }
+// 낚시 능력치: 보유 타이틀 전체 + 착용한 펫(100%) + 착용 안 한 보유 펫(절반) 합산
+function activePerk(emp){
+  const out=ownedTitlePerk(emp);
+  const add=p=>{ for(const k in p) out[k]=(out[k]||0)+p[k]; };
+  const pet=itemById('pet',(gs(emp).equipped||{}).pet); if(pet&&pet.perk) add(pet.perk);
+  add(ownedPetPerk(emp));
+  return out;
+}
 // 능력치는 '각 결과의 자기 확률'에 곱연산 → 아이템 1% + 아이템+10%펫 = 정확히 1.1%.
 // 아이템↑(item)·꽝↓(miss)·손실↓(loss)을 각 확률에 곱하고, 남는 확률은 코인획득이 흡수.
 function rollLootPerk(loot, perk){
@@ -5148,12 +5169,17 @@ function renderGameFish(){
   const petbar = (mp&&mp.perk)
     ? `<div class="fish-petbar"><span class="fpb-emoji">${mp.e||'🐾'}</span><span>착용 펫 <b>${escapeHtml(mp.name)}</b> · ${escapeHtml(perkDesc(mp.perk))}</span></div>`
     : `<div class="fish-petbar" style="background:#f1f5f9;color:#64748b"><span class="fpb-emoji">🐾</span><span>펫을 착용하면 낚시 능력치 보너스! (에픽↑ 펫은 낚시터에서 획득)</span></div>`;
+  // 🐾 보유 펫 합산 효과 (착용 펫 제외 · 절반 · 상한 아이템 +2.5% / 꽝감소·코인유지 합계 +20%)
+  const opp=ownedPetPerk(emp), opn=ownedPetCount(emp);
+  const petownbar = opn
+    ? `<div class="fish-petbar" style="background:#ecfdf5;color:#047857"><span class="fpb-emoji">🐾</span><span>보유 펫 <b>${opn}마리</b> 보유 효과(절반) · ${escapeHtml(perkDesc(opp))}</span></div>`
+    : '';
   // 👑 보유 타이틀 합산 효과 (착용과 무관 · 상한 아이템 +5% / 꽝감소·코인유지 합계 +20%)
   const tp=ownedTitlePerk(emp), tn=(GAME_ITEMS.title||[]).filter(it=>it.perk&&owns(emp,'title',it.id)).length;
   const titlebar = Object.keys(tp).length
     ? `<div class="fish-petbar" style="background:#fff4d6;color:#8a5a08"><span class="fpb-emoji">👑</span><span>보유 타이틀 <b>${tn}개</b> 효과 · ${escapeHtml(perkDesc(tp))}</span></div>`
     : `<div class="fish-petbar" style="background:#f1f5f9;color:#64748b"><span class="fpb-emoji">👑</span><span>타이틀은 <b>보유만 해도</b> 낚시 능력치가 붙어요! (등급이 높을수록 강력)</span></div>`;
-  document.getElementById("main").innerHTML=head+petbar+titlebar+`<div class="fish-grid">${['low','mid','high'].map(k=>{ const f=FISH[k]; const locked=!fishGate(emp,f).ok; const cg=fishCastGate(emp,f);
+  document.getElementById("main").innerHTML=head+petbar+petownbar+titlebar+`<div class="fish-grid">${['low','mid','high'].map(k=>{ const f=FISH[k]; const locked=!fishGate(emp,f).ok; const cg=fishCastGate(emp,f);
     return `<div class="fish-spot fs-${k}">
       <div class="fs-emoji">${f.emoji}</div><div class="fs-name">${f.name}</div>
       <div class="fs-desc">${f.desc}</div>
