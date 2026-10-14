@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3527,
- "updatedAt": "2026-10-14 15:53",
+ "version": 3528,
+ "updatedAt": "2026-10-14 15:58",
  "days": 30,
  "items": [
   {
@@ -18,19 +18,420 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_4981.jpeg",
+     "fid": "F0C9XJKCJ56",
+     "from": "댓글",
+     "path": "menu-files/1791958009_098999-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "남성 컷",
+       "name": "남성 컷",
+       "price": 20000
+      },
+      {
+       "category": "남성 컷",
+       "name": "학생 컷 <남, 여> (0~12세)",
+       "price": 17000
+      },
+      {
+       "category": "여성 컷",
+       "name": "기본 컷",
+       "price": 25000
+      },
+      {
+       "category": "여성 컷",
+       "name": "디자인 컷",
+       "price": 30000
+      },
+      {
+       "category": "여성 컷",
+       "name": "앞머리 컷",
+       "price": 5000
+      },
+      {
+       "category": "남성 펌",
+       "name": "컷 다운펌 옆",
+       "price": 40000
+      },
+      {
+       "category": "남성 펌",
+       "name": "컷 다운펌 뒤",
+       "price": 55000
+      },
+      {
+       "category": "남성 펌",
+       "name": "일반펌",
+       "price": 70000
+      },
+      {
+       "category": "남성 펌",
+       "name": "특수펌 <호일,스왈 등>",
+       "price": 90000
+      },
+      {
+       "category": "남성 펌",
+       "name": "열펌 <아이롱,매직,볼륨 등>",
+       "price": 100000
+      },
+      {
+       "category": "남성 펌",
+       "name": "다운펌 추가 옆",
+       "price": 30000
+      },
+      {
+       "category": "남성 펌",
+       "name": "다운펌 추가 뒤",
+       "price": 40000
+      },
+      {
+       "category": "여성 펌",
+       "name": "일반펌",
+       "price": 80000
+      },
+      {
+       "category": "여성 펌",
+       "name": "열펌",
+       "price": 130000
+      },
+      {
+       "category": "여성 펌",
+       "name": "매직 & 볼매",
+       "price": 140000
+      },
+      {
+       "category": "여성 펌",
+       "name": "단발 C컬펌",
+       "price": 150000
+      },
+      {
+       "category": "여성 펌",
+       "name": "히피 젤리",
+       "price": 170000
+      },
+      {
+       "category": "여성 펌",
+       "name": "매직 셋팅",
+       "price": 180000
+      },
+      {
+       "category": "여성 펌",
+       "name": "뿌리 매직",
+       "price": 120000
+      },
+      {
+       "category": "여성 펌",
+       "name": "뿌리 펌 (샴푸 포함)",
+       "price": 70000
+      },
+      {
+       "category": "여성 펌",
+       "name": "앞머리 펌 (샴푸 포함)",
+       "price": 50000
+      },
+      {
+       "category": "남성 염색",
+       "name": "염색 컷",
+       "price": 80000
+      },
+      {
+       "category": "남성 염색",
+       "name": "탈색 컷",
+       "price": 100000
+      },
+      {
+       "category": "여성 염색",
+       "name": "뿌리 염색 (3cm)",
+       "price": 50000
+      },
+      {
+       "category": "여성 염색",
+       "name": "전체 염색 (단발)",
+       "price": 100000
+      },
+      {
+       "category": "여성 염색",
+       "name": "뿌리 탈색",
+       "price": 60000
+      },
+      {
+       "category": "여성 염색",
+       "name": "전체 탈색",
+       "price": 120000
+      },
+      {
+       "category": "남성 샴푸 & 드라이",
+       "name": "샴푸",
+       "price": 10000
+      },
+      {
+       "category": "남성 샴푸 & 드라이",
+       "name": "드라이",
+       "price": 25000
+      },
+      {
+       "category": "여성 샴푸 & 드라이",
+       "name": "샴푸",
+       "price": 15000
+      },
+      {
+       "category": "여성 샴푸 & 드라이",
+       "name": "샴푸 붙임",
+       "price": 20000
+      },
+      {
+       "category": "여성 샴푸 & 드라이",
+       "name": "드라이",
+       "price": 25000
+      },
+      {
+       "category": "여성 샴푸 & 드라이",
+       "name": "드라이 붙임",
+       "price": 30000
+      },
+      {
+       "category": "남성 클리닉",
+       "name": "두피스케일링",
+       "price": 40000
+      },
+      {
+       "category": "여성 클리닉",
+       "name": "두피스케일링",
+       "price": 50000
+      },
+      {
+       "category": "클리닉",
+       "name": "시술 추가 단백질",
+       "price": 30000
+      },
+      {
+       "category": "클리닉",
+       "name": "나노힐 5단계 클리닉",
+       "price": 130000
+      },
+      {
+       "category": "클리닉",
+       "name": "기본 3단계 클리닉",
+       "price": 70000
+      },
+      {
+       "category": "클리닉",
+       "name": "복구클리닉＆매직",
+       "price": 200000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_4982.jpeg",
+     "fid": "F0C8XU6L3QV",
+     "from": "댓글",
+     "path": "menu-files/1791958009_098999-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "남성 - 컷",
+       "name": "남성 컷",
+       "price": 17000
+      },
+      {
+       "category": "남성 - 컷",
+       "name": "학생 컷 <남, 여> (0~12세)",
+       "price": 15000
+      },
+      {
+       "category": "여성 - 컷",
+       "name": "기본 컷",
+       "price": 18000
+      },
+      {
+       "category": "여성 - 컷",
+       "name": "디자인 컷",
+       "price": 20000
+      },
+      {
+       "category": "여성 - 컷",
+       "name": "앞머리 컷",
+       "price": 3000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "컷 다운펌 옆",
+       "price": 30000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "컷 다운펌 뒤",
+       "price": 40000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "일반펌",
+       "price": 60000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "특수펌 <호일,스왈 등>",
+       "price": 70000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "열펌 <매직,볼매 등>",
+       "price": 80000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "다운펌 추가 옆",
+       "price": 20000
+      },
+      {
+       "category": "남성 - 펌",
+       "name": "다운펌 추가 뒤",
+       "price": 30000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "일반펌",
+       "price": 70000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "열펌",
+       "price": 110000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "매직 & 볼매",
+       "price": 120000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "히피 젤리",
+       "price": 140000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "매직 셋팅",
+       "price": 160000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "뿌리 매직",
+       "price": 100000
+      },
+      {
+       "category": "여성 - 펌",
+       "name": "앞머리 펌 (샴푸 포함)",
+       "price": 40000
+      },
+      {
+       "category": "남성 - 염색",
+       "name": "염색 컷",
+       "price": 60000
+      },
+      {
+       "category": "남성 - 염색",
+       "name": "탈색 컷",
+       "price": 90000
+      },
+      {
+       "category": "여성 - 염색",
+       "name": "뿌리 염색 (3cm)",
+       "price": 40000
+      },
+      {
+       "category": "여성 - 염색",
+       "name": "전체 염색 (단발)",
+       "price": 80000
+      },
+      {
+       "category": "여성 - 염색",
+       "name": "뿌리 탈색",
+       "price": 50000
+      },
+      {
+       "category": "여성 - 염색",
+       "name": "전체 탈색",
+       "price": 100000
+      },
+      {
+       "category": "남성 - 샴푸 & 드라이",
+       "name": "샴푸",
+       "price": 7000
+      },
+      {
+       "category": "남성 - 샴푸 & 드라이",
+       "name": "드라이",
+       "price": 15000
+      },
+      {
+       "category": "여성 - 샴푸 & 드라이",
+       "name": "샴푸",
+       "price": 10000
+      },
+      {
+       "category": "여성 - 샴푸 & 드라이",
+       "name": "샴푸 붙임",
+       "price": 15000
+      },
+      {
+       "category": "여성 - 샴푸 & 드라이",
+       "name": "드라이",
+       "price": 15000
+      },
+      {
+       "category": "여성 - 샴푸 & 드라이",
+       "name": "드라이 붙임",
+       "price": 20000
+      },
+      {
+       "category": "남성 - 클리닉",
+       "name": "두피스케일링",
+       "price": 30000
+      },
+      {
+       "category": "여성 - 클리닉",
+       "name": "두피스케일링",
+       "price": 40000
+      },
+      {
+       "category": "클리닉",
+       "name": "시술 추가 단백질",
+       "price": 30000
+      },
+      {
+       "category": "클리닉",
+       "name": "나노힐 5단계 클리닉",
+       "price": 120000
+      },
+      {
+       "category": "클리닉",
+       "name": "기본 3단계 클리닉",
+       "price": 60000
+      },
+      {
+       "category": "클리닉",
+       "name": "복구클리닉＆매직",
+       "price": 180000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1791961085.206509",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a1390179650d4e8",
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791958009098999"
   },
   {
@@ -47,8 +448,8 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791956385.931449",
+   "rc": 2,
+   "lr": "1791961074.010289",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
