@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20322,
+  "version": 20323,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252137,6 +252137,9 @@ window.SLACK_DATA = {
     },
     "2026-10-14": {
       "counts": {
+        "onboarding": {
+          "고경림": 1
+        },
         "as": {
           "고경림": 2
         },
@@ -252149,6 +252152,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:10",
+          "store": "더뉴빈헤어",
+          "biz": "8596300144",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "터미널 + 프론트 연결 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트+터미널2 온보딩완료 • 사용법안내완료 사용법안내완료",
+          "rr": 1
+        },
         {
           "time": "09:00",
           "store": "수샵",
@@ -252199,7 +252214,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -252386,25 +252401,18 @@ window.SLACK_DATA = {
       },
       "1791935101.437099": {
         "post": "1791935101.437099",
-        "lastSeen": 1791936830.403,
+        "lastSeen": 1791936925.261,
         "r": 1,
         "day": "2026-10-14",
         "idx": 1
       },
       "1791936047.435199": {
         "post": "1791936047.435199",
-        "lastSeen": 1791936830.403
+        "lastSeen": 1791936925.261
       },
       "1791936656.459519": {
         "post": "1791936656.459519",
-        "lastSeen": 1791936830.403
-      },
-      "1791936608.895839": {
-        "post": "1791936608.895839",
-        "lastSeen": 1791936830.403,
-        "r": 1,
-        "day": "2026-10-14",
-        "idx": 5
+        "lastSeen": 1791936925.261
       }
     },
     "days": {
@@ -339075,14 +339083,15 @@ window.SLACK_DATA = {
             "store": "더뉴빈헤어",
             "biz": "8596300144",
             "who": "고경림",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 4.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-14 09:14",
+    "at": "2026-10-14 09:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -339210,7 +339219,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 09:13",
+    "at": "2026-10-14 09:15",
     "pri": {
       "days": 0,
       "failed": [],
