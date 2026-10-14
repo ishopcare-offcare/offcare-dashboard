@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3501,
- "updatedAt": "2026-10-14 13:13",
+ "version": 3502,
+ "updatedAt": "2026-10-14 13:15",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,382 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "1000012982.jpg",
+     "fid": "F0C942R7F25",
+     "from": "댓글",
+     "path": "menu-files/1791951186_561499-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "(I)아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "(I)카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "(I)플랫화이트",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "(I)바닐라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "md 커피",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "(H)아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "(H)카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "(H)플랫화이트",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "(H)바닐라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "md 라떼",
+       "price": 6300
+      },
+      {
+       "category": "커피",
+       "name": "샷추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000012983.jpg",
+     "fid": "F0C9WFR27CG",
+     "from": "댓글",
+     "path": "menu-files/1791951186_561499-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)패션하이비",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)패션하이비",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "라임모히또",
+       "price": 6500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)밀크라떼",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)레몬그린티",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)레몬그린티",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "레몬에이드",
+       "price": 6500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)밀크라떼",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)복숭아티",
+       "price": 5500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)복숭아티",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "패션후르츠에이드",
+       "price": 6500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)초콜릿라떼",
+       "price": 6000
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)윈터드림",
+       "price": 5500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)윈터드림",
+       "price": 5500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "복숭아에이드",
+       "price": 6500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)초콜릿라떼",
+       "price": 6500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(I)레몬스카이",
+       "price": 5500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "(H)레몬스카이",
+       "price": 5500
+      },
+      {
+       "category": "티&에이드&베버리지",
+       "name": "청귤에이드",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000012984.jpg",
+     "fid": "F0C8WR7SNAZ",
+     "from": "댓글",
+     "path": "menu-files/1791951186_561499-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "젤라또",
+       "name": "바닐라",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "초코",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "녹차",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "딸기",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "요거트",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "망고",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "블루베리",
+       "price": 5300
+      },
+      {
+       "category": "젤라또",
+       "name": "아포카토 2샷추가",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000012985.jpg",
+     "fid": "F0C8WR8BMSR",
+     "from": "댓글",
+     "path": "menu-files/1791951186_561499-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "케이크",
+       "name": "홀케이크1호",
+       "price": 40000
+      },
+      {
+       "category": "케이크",
+       "name": "빅토리아",
+       "price": 7000
+      },
+      {
+       "category": "케이크",
+       "name": "레몬크럼블",
+       "price": 7000
+      },
+      {
+       "category": "케이크",
+       "name": "생크림(오렌지)",
+       "price": 7500
+      },
+      {
+       "category": "케이크",
+       "name": "생크림(무화과)",
+       "price": 7500
+      },
+      {
+       "category": "케이크",
+       "name": "포크 0 (D)",
+       "price": 0
+      },
+      {
+       "category": "케이크",
+       "name": "빅토리아(배달)",
+       "price": 7500
+      },
+      {
+       "category": "케이크",
+       "name": "레몬크럼블(배달)",
+       "price": 7500
+      },
+      {
+       "category": "케이크",
+       "name": "생크림(배달)",
+       "price": 7500
+      },
+      {
+       "category": "케이크",
+       "name": "홀케이크 3호",
+       "price": 52000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000012986.jpg",
+     "fid": "F0C91UX680J",
+     "from": "댓글",
+     "path": "menu-files/1791951186_561499-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쿠키",
+       "name": "선물포장박스",
+       "price": 1000
+      },
+      {
+       "category": "쿠키",
+       "name": "미니 선물박스",
+       "price": 500
+      },
+      {
+       "category": "쿠키",
+       "name": "무화과",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "더블치즈쿠키",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "스모어다크",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "카야코코넛",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "르뱅말차",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "라즈베리피넛",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "르뱅호두",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "쑥절미",
+       "price": 3900
+      },
+      {
+       "category": "쿠키",
+       "name": "도투스",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000012987.jpg",
+     "fid": "F0C91UX3P4J",
+     "from": "댓글",
+     "path": "menu-files/1791951186_561499-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기타",
+       "name": "일반초",
+       "price": 500
+      },
+      {
+       "category": "기타",
+       "name": "곰돌이초",
+       "price": 1000
+      },
+      {
+       "category": "기타",
+       "name": "쿠키 세트",
+       "price": 25000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791951190.455799",
+   "rc": 2,
+   "lr": "1791951221.057059",
    "rfx": 3,
    "status": "wait",
    "handler": null,
