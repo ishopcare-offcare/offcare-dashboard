@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3516,
- "updatedAt": "2026-10-14 14:40",
+ "version": 3517,
+ "updatedAt": "2026-10-14 14:51",
  "days": 30,
  "items": [
   {
@@ -59771,105 +59771,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789365194155359"
-  },
-  {
-   "ts": "1789365065.073499",
-   "date": "2026-09-14",
-   "time": "14:51",
-   "store": "별난식당",
-   "biz": "1283960418",
-   "pos": "",
-   "content": "테이블 설정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "62376.jpg",
-     "fid": "F0C1E4R7QUB",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "path": "menu-files/1789365065_073499-0.jpg"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C1ND4E8TT",
-     "from": "댓글",
-     "path": "menu-files/1789365065_073499-1.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "기본",
-       "name": "기본01",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본02",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본03",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본04",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본05",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본06",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본07",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본08",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본09",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본10",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본11",
-       "price": 0
-      },
-      {
-       "category": "기본",
-       "name": "기본12",
-       "price": 0
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1789366408.706019",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789365065073499"
   }
  ],
  "ocr": {
