@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3490,
- "updatedAt": "2026-10-14 11:16",
+ "version": 3491,
+ "updatedAt": "2026-10-14 11:30",
  "days": 30,
  "items": [
   {
@@ -59113,58 +59113,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789355377148869"
-  },
-  {
-   "ts": "1789352883.722729",
-   "date": "2026-09-14",
-   "time": "11:28",
-   "store": "힘난다 떡볶이 강남점",
-   "biz": "7438100222",
-   "pos": "토스포스",
-   "content": "토스포스 메뉴등록 요청드립니다\n• 본사에서 제공한 별도 엑셀파일인 것 같아요 , 스레드에 별도 첨부하겠습니다 !",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_1eb97cb13e0e.xlsx",
-     "fid": "F0C1HGRF0NA",
-     "from": "댓글",
-     "path": "menu-files/1789352883_722729-0.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "메뉴사진.zip",
-     "fid": "F0C2DRS8U1W",
-     "from": "댓글",
-     "path": "menu-files/1789352883_722729-1.zip",
-     "nj": 1
-    },
-    {
-     "name": "shake upgrade.jpg",
-     "fid": "F0C1ES7FTQD",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1789352883_722729-2.jpg"
-    },
-    {
-     "name": "add stack.jpg",
-     "fid": "F0C1MDB3589",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1789352883_722729-3.jpg"
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 5,
-   "lr": "1789354358.565699",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789352883722729"
   }
  ],
  "ocr": {
