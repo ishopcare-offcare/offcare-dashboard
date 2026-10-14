@@ -3,10 +3,592 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3497,
- "updatedAt": "2026-10-14 11:54",
+ "version": 3498,
+ "updatedAt": "2026-10-14 12:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1791947426.465599",
+   "date": "2026-10-14",
+   "time": "12:10",
+   "store": "괴로피자고양화정점",
+   "biz": "3620402603",
+   "pos": "토스포스",
+   "content": "가격은 추후에 수정하겠습니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1t_s0XgGMw3nJQfTZJ1o2rc_iNigC_ULZ/view?usp=drivesdk",
+    "https://drive.google.com/file/d/13llzjTTpxvV9dUkAOg4iGm0UQijOobIt/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1sDGcpXRUXrwKkBS0TKFgkGHZ5bxvIXUf/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1t_s0XgGMw3nJQfTZJ1o2rc_iNigC_ULZ",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Classic",
+       "name": "더블 리얼 치즈피자 (P)",
+       "price": 11900
+      },
+      {
+       "category": "Classic",
+       "name": "더블 리얼 치즈피자 (R)",
+       "price": 18900
+      },
+      {
+       "category": "Classic",
+       "name": "더블 리얼 치즈피자 (L)",
+       "price": 21900
+      },
+      {
+       "category": "Classic",
+       "name": "리얼 치즈불고기 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "Classic",
+       "name": "리얼 치즈불고기 피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "Classic",
+       "name": "리얼 치즈불고기 피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "Classic",
+       "name": "페퍼로니 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "Classic",
+       "name": "페퍼로니 피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "Classic",
+       "name": "페퍼로니 피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "Classic",
+       "name": "베이컨 체다 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "Classic",
+       "name": "베이컨 체다 피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "Classic",
+       "name": "베이컨 체다 피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "Classic",
+       "name": "하와이안피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "Classic",
+       "name": "하와이안피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "Classic",
+       "name": "하와이안피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "Classic",
+       "name": "고르곤졸라 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "Classic",
+       "name": "고르곤졸라 피자 (R)",
+       "price": 19900
+      },
+      {
+       "category": "Classic",
+       "name": "고르곤졸라 피자 (L)",
+       "price": 22900
+      },
+      {
+       "category": "Classic",
+       "name": "슈퍼 콤비네이션 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "Classic",
+       "name": "슈퍼 콤비네이션 피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "Classic",
+       "name": "슈퍼 콤비네이션 피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "Classic",
+       "name": "콤비네이션 쉬림프 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "Classic",
+       "name": "콤비네이션 쉬림프 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "Classic",
+       "name": "콤비네이션 쉬림프 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "Classic",
+       "name": "콰트로 치즈 피자 (P)",
+       "price": 15900
+      },
+      {
+       "category": "Classic",
+       "name": "콰트로 치즈 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "Classic",
+       "name": "콰트로 치즈 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "Signature",
+       "name": "고기듬뿍 괴로피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "Signature",
+       "name": "고기듬뿍 괴로피자 (R)",
+       "price": 23900
+      },
+      {
+       "category": "Signature",
+       "name": "고기듬뿍 괴로피자 (L)",
+       "price": 26900
+      },
+      {
+       "category": "Signature",
+       "name": "악마의 괴로피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "Signature",
+       "name": "악마의 괴로피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "Signature",
+       "name": "악마의 괴로피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "Signature",
+       "name": "슈프림 갈릭 페퍼로니 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "Signature",
+       "name": "슈프림 갈릭 페퍼로니 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "Signature",
+       "name": "슈프림 갈릭 페퍼로니 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "Signature",
+       "name": "콘 크럼블 베이컨 고구마 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "Signature",
+       "name": "콘 크럼블 베이컨 고구마 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "Signature",
+       "name": "콘 크럼블 베이컨 고구마 피자 (L)",
+       "price": 25900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "13llzjTTpxvV9dUkAOg4iGm0UQijOobIt",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Side",
+       "name": "리얼 브레드 스틱 바",
+       "price": 5900
+      },
+      {
+       "category": "Side",
+       "name": "버팔로윙 5p",
+       "price": 4900
+      },
+      {
+       "category": "Side",
+       "name": "버팔로윙 10p",
+       "price": 8900
+      },
+      {
+       "category": "Side",
+       "name": "버팔로봉 5p",
+       "price": 4900
+      },
+      {
+       "category": "Side",
+       "name": "버팔로봉 10p",
+       "price": 8900
+      },
+      {
+       "category": "Side",
+       "name": "리얼 치즈 프라이즈",
+       "price": 5500
+      },
+      {
+       "category": "Side",
+       "name": "갈바소",
+       "price": 8900
+      },
+      {
+       "category": "Side",
+       "name": "훈제오븐구이 치킨 반마리",
+       "price": 7500
+      },
+      {
+       "category": "Side",
+       "name": "훈제오븐구이 치킨 한마리",
+       "price": 13000
+      },
+      {
+       "category": "Side",
+       "name": "치킨텐더 5p",
+       "price": 4900
+      },
+      {
+       "category": "Side",
+       "name": "치킨텐더 10p",
+       "price": 8900
+      },
+      {
+       "category": "Side",
+       "name": "가라아게 순살 5p",
+       "price": 4900
+      },
+      {
+       "category": "Side",
+       "name": "가라아게 순살 10p",
+       "price": 8900
+      },
+      {
+       "category": "Set Line up",
+       "name": "피자 사이드 set R 2판",
+       "price": 31900
+      },
+      {
+       "category": "Set Line up",
+       "name": "피자 사이드 set L 2판",
+       "price": 38900
+      },
+      {
+       "category": "Set Line up",
+       "name": "피자 1+1 두판 set R 2판",
+       "price": 32900
+      },
+      {
+       "category": "Set Line up",
+       "name": "피자 1+1 두판 set L 2판",
+       "price": 39900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1sDGcpXRUXrwKkBS0TKFgkGHZ5bxvIXUf",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PREMIUM",
+       "name": "연탄불고기 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "연탄불고기 피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "연탄불고기 피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "청양불고기 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "청양불고기 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "청양불고기 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "불새 피자 (P)",
+       "price": 15900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "불새 피자 (R)",
+       "price": 23900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "불새 피자 (L)",
+       "price": 26900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "더블 베이컨 고구마 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "더블 베이컨 고구마 피자 (R)",
+       "price": 20900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "더블 베이컨 고구마 피자 (L)",
+       "price": 23900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "베이컨 고구마 무스 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "베이컨 고구마 무스 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "베이컨 고구마 무스 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "콘 크럼블 베이컨 고구마 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "콘 크럼블 베이컨 고구마 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "콘 크럼블 베이컨 고구마 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "더블 베이컨 포테이토 피자 (P)",
+       "price": 12900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "더블 베이컨 포테이토 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "더블 베이컨 포테이토 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "바질 마스카포네 치즈 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "바질 마스카포네 치즈 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "바질 마스카포네 치즈 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "발사믹 바질 마스카포네 치즈 피자 (P)",
+       "price": 15900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "발사믹 바질 마스카포네 치즈 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "발사믹 바질 마스카포네 치즈 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "갈릭 더블베이컨 포테이토 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "갈릭 더블베이컨 포테이토 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "갈릭 더블베이컨 포테이토 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "화이트 갈릭 쉬림프 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "화이트 갈릭 쉬림프 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "화이트 갈릭 쉬림프 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "매콤 칠리 쉬림프 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "매콤 칠리 쉬림프 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "매콤 칠리 쉬림프 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "연탄 핫 치킨 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "연탄 핫 치킨 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "연탄 핫 치킨 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "핫 치킨 쉬림프 피자 (P)",
+       "price": 15900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "핫 치킨 쉬림프 피자 (R)",
+       "price": 23900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "핫 치킨 쉬림프 피자 (L)",
+       "price": 26900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "스테이크 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "스테이크 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "스테이크 피자 (L)",
+       "price": 25900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "달달콘 베이컨 피자 (P)",
+       "price": 13900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "달달콘 베이컨 피자 (R)",
+       "price": 21900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "달달콘 베이컨 피자 (L)",
+       "price": 24900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "매콤양념 콘 베이컨 피자 (P)",
+       "price": 14900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "매콤양념 콘 베이컨 피자 (R)",
+       "price": 22900
+      },
+      {
+       "category": "PREMIUM",
+       "name": "매콤양념 콘 베이컨 피자 (L)",
+       "price": 25900
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791947426465599"
+  },
   {
    "ts": "1791945626.134079",
    "date": "2026-10-14",
@@ -59298,29 +59880,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789358795146169"
-  },
-  {
-   "ts": "1789355377.148869",
-   "date": "2026-09-14",
-   "time": "12:09",
-   "store": "한계령식당",
-   "biz": "3054769137",
-   "pos": "오케이포스",
-   "content": "오케이포스 사용 / 메뉴추가 부탁드립니다.\n• 카테고리: 추천메뉴\n• 상품명: 대구뽈탕\n• 가격: 25,000원\n• 배치: 오징어볶음 오른쪽 \n    ◦ 완료 후 문자 발송 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "규빈님 바쁘신데 죄송합니다 ㅠㅠ\n\n위 매장에서 지금 매장에서 오셨다고 하셔서 확인 한번 가능하실까요?"
-   ],
-   "rc": 12,
-   "lr": "1789363754.880619",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789355377148869"
   }
  ],
  "ocr": {
