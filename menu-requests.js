@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3528,
- "updatedAt": "2026-10-14 15:58",
+ "version": 3529,
+ "updatedAt": "2026-10-14 16:03",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_4981.jpeg",
      "fid": "F0C9XJKCJ56",
      "from": "댓글",
-     "path": "menu-files/1791958009_098999-0.jpeg",
      "kind": "menu_board",
      "menu": [
       {
@@ -222,13 +221,13 @@ window.MENU_REQUESTS = {
        "price": 200000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1791958009_098999-0.jpeg"
     },
     {
      "name": "IMG_4982.jpeg",
      "fid": "F0C8XU6L3QV",
      "from": "댓글",
-     "path": "menu-files/1791958009_098999-1.jpeg",
      "kind": "menu_board",
      "menu": [
       {
@@ -417,13 +416,16 @@ window.MENU_REQUESTS = {
        "price": 180000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1791958009_098999-1.jpeg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791961085.206509",
+   "replies": [
+    "상호: 진심 헤어 살롱 / KPN\n오프/온라인: 온라인 / 임대\n사업자번호 : ···"
+   ],
+   "rc": 2,
+   "lr": "1791961417.508079",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a1390179650d4e8",
