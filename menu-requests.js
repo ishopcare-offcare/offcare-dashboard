@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3506,
- "updatedAt": "2026-10-14 13:31",
+ "version": 3507,
+ "updatedAt": "2026-10-14 13:35",
  "days": 30,
  "items": [
   {
@@ -59871,29 +59871,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789361674850839"
-  },
-  {
-   "ts": "1789360508.598689",
-   "date": "2026-09-14",
-   "time": "13:35",
-   "store": "더멀리",
-   "biz": "3976300914",
-   "pos": "토스포스",
-   "content": "espresso 메뉴에 디카페인, 샷추가, 오트밀크 변경 중복 가능하게 변경 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "최대선택 3개로 변경"
-   ],
-   "rc": 2,
-   "lr": "1789365438.217159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789360508598689"
   }
  ],
  "ocr": {
