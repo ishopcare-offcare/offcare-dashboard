@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3543,
- "updatedAt": "2026-10-14 17:32",
+ "version": 3544,
+ "updatedAt": "2026-10-14 17:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1791967641.976309",
+   "date": "2026-10-14",
+   "time": "17:47",
+   "store": "태복",
+   "biz": "3294201268",
+   "pos": "퍼스트포스",
+   "content": "스파로스 포스 사용 중 메뉴 등록 요청 드립니다 ( 테이블 오더 함께 사용 중)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "식사류\n뼈육개장 11,000원\n옵션으로 특 3,000원\n뼈고기추가 3,000원\n포장 0원\n순한맛 0원\n얼큰한맛 1,000원\n매운맛 1,000원\n\n등록 요청 드립니다."
+   ],
+   "rc": 2,
+   "lr": "1791967669.251589",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791967641976309"
+  },
   {
    "ts": "1791966282.148409",
    "date": "2026-10-14",
