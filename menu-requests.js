@@ -3,10 +3,181 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3504,
- "updatedAt": "2026-10-14 13:27",
+ "version": 3505,
+ "updatedAt": "2026-10-14 13:29",
  "days": 30,
  "items": [
+  {
+   "ts": "1791952043.722269",
+   "date": "2026-10-14",
+   "time": "13:27",
+   "store": "백연전골",
+   "biz": "8050803335",
+   "pos": "기타",
+   "content": "전체 가격변동",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1n1OHcLooC1sBokaN9gsqYY_XrikULkh9/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1n1OHcLooC1sBokaN9gsqYY_XrikULkh9",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "한우 전골",
+       "name": "한우 전골 소",
+       "price": 39000
+      },
+      {
+       "category": "한우 전골",
+       "name": "한우 전골 중",
+       "price": 55000
+      },
+      {
+       "category": "한우 전골",
+       "name": "한우 전골 대",
+       "price": 70000
+      },
+      {
+       "category": "한우 전골",
+       "name": "고기추가",
+       "price": 18000
+      },
+      {
+       "category": "소갈비찜 전골",
+       "name": "소갈비찜 전골 소",
+       "price": 48000
+      },
+      {
+       "category": "소갈비찜 전골",
+       "name": "소갈비찜 전골 중",
+       "price": 65000
+      },
+      {
+       "category": "소갈비찜 전골",
+       "name": "소갈비찜 전골 대",
+       "price": 82000
+      },
+      {
+       "category": "소갈비찜 전골",
+       "name": "고기추가",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "LA양념갈비 (200g)",
+       "price": 23000
+      },
+      {
+       "category": "",
+       "name": "돼지양념갈비 (200g)",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "생삼겹살 (180g)",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "한우얼큰국밥",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "제육백반",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "떡국",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "떡만둣국",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "콩국수",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "국수(냉/비빔)",
+       "price": 8000
+      },
+      {
+       "category": "후식",
+       "name": "비빔국수",
+       "price": 5000
+      },
+      {
+       "category": "후식",
+       "name": "볶음밥",
+       "price": 5000
+      },
+      {
+       "category": "후식",
+       "name": "계란찜",
+       "price": 1500
+      },
+      {
+       "category": "후식",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "후식",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "후식",
+       "name": "모듬사리추가",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "소주/맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 13000
+      },
+      {
+       "category": "주류",
+       "name": "음료(캔)",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791952043722269"
+  },
   {
    "ts": "1791951991.867749",
    "date": "2026-10-14",
