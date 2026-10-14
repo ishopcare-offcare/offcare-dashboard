@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3495,
- "updatedAt": "2026-10-14 11:45",
+ "version": 3496,
+ "updatedAt": "2026-10-14 11:49",
  "days": 30,
  "items": [
   {
@@ -205,10 +205,11 @@ window.MENU_REQUESTS = {
     "일단 넣어드렷어요",
     "디카페인 샷추가 두유변경",
     "옵션으로 필요한지 체크 필요",
-    "일단 coffee 카테고리 메뉴처럼 빼놧음"
+    "일단 coffee 카테고리 메뉴처럼 빼놧음",
+    "오렌지싱글샷 라떼\n>  두잔시키면 천원할인 이거 옵션으로 불가능함 \n> \n> 그냥 옵션에서 두잔 주문 할인으로 5000원으로 넣음"
    ],
-   "rc": 9,
-   "lr": "1791945871.231459",
+   "rc": 10,
+   "lr": "1791946143.726429",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
