@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20325,
+  "version": 20326,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252137,11 +252137,11 @@ window.SLACK_DATA = {
     },
     "2026-10-14": {
       "counts": {
+        "as": {
+          "고경림": 3
+        },
         "onboarding": {
           "고경림": 1
-        },
-        "as": {
-          "고경림": 2
         },
         "booking": {
           "송태양": 1
@@ -252152,6 +252152,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:10",
+          "store": "인수당유통",
+          "biz": "5700400832",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프론트 단말기가 종종 인터넷 연결이 끊어지는 증상이 나타난다 하셔서 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "09:10",
           "store": "더뉴빈헤어",
@@ -252215,7 +252226,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 5,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:16"
@@ -252401,25 +252412,18 @@ window.SLACK_DATA = {
       },
       "1791935101.437099": {
         "post": "1791935101.437099",
-        "lastSeen": 1791937043.901,
+        "lastSeen": 1791937272.622,
         "r": 1,
         "day": "2026-10-14",
         "idx": 1
       },
       "1791936047.435199": {
         "post": "1791936047.435199",
-        "lastSeen": 1791937043.901
-      },
-      "1791936656.459519": {
-        "post": "1791936656.459519",
-        "lastSeen": 1791937043.901,
-        "r": 1,
-        "day": "2026-10-14",
-        "idx": 6
+        "lastSeen": 1791937272.622
       },
       "1791936975.167609": {
         "post": "1791936975.167609",
-        "lastSeen": 1791937043.901
+        "lastSeen": 1791937272.622
       }
     },
     "days": {
@@ -339099,14 +339103,15 @@ window.SLACK_DATA = {
             "store": "인수당유통",
             "biz": "5700400832",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-14 09:17",
+    "at": "2026-10-14 09:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -339234,7 +339239,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 09:17",
+    "at": "2026-10-14 09:21",
     "pri": {
       "days": 0,
       "failed": [],
