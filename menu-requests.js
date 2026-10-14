@@ -3,10 +3,201 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3503,
- "updatedAt": "2026-10-14 13:22",
+ "version": 3504,
+ "updatedAt": "2026-10-14 13:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1791951991.867749",
+   "date": "2026-10-14",
+   "time": "13:26",
+   "store": "충장수퍼마켙 가맥",
+   "biz": "8262502117",
+   "pos": "",
+   "content": "메뉴판 등록 요청 / 스레드로 사진 첨부하겠습니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C9WHLK50Q",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "구이·건어물",
+       "name": "건어물 모둠 (노가리,아귀포,한치,육포,쥐포)",
+       "price": 29000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "갑오징어 (반마리or한마리)",
+       "price": 19000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "오징어 (마른or촉촉)",
+       "price": 17000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "쥐포",
+       "price": 14000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "노가리 (마른or촉촉)",
+       "price": 17000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "한치",
+       "price": 17000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "아귀포",
+       "price": 18000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "육포",
+       "price": 19000
+      },
+      {
+       "category": "구이·건어물",
+       "name": "먹태",
+       "price": 20000
+      },
+      {
+       "category": "간단한 메뉴",
+       "name": "분홍소세지 한접시",
+       "price": 5000
+      },
+      {
+       "category": "간단한 메뉴",
+       "name": "스팸 한접시",
+       "price": 7000
+      },
+      {
+       "category": "간단한 메뉴",
+       "name": "옛날도시락",
+       "price": 7000
+      },
+      {
+       "category": "간단한 메뉴",
+       "name": "도토리무침",
+       "price": 15000
+      },
+      {
+       "category": "간단한 메뉴",
+       "name": "실탄방범 계란토스트",
+       "price": 7000
+      },
+      {
+       "category": "간단한 메뉴",
+       "name": "옛날토스트",
+       "price": 8000
+      },
+      {
+       "category": "안주",
+       "name": "골뱅이무침",
+       "price": 25000
+      },
+      {
+       "category": "안주",
+       "name": "떡볶이",
+       "price": 10000
+      },
+      {
+       "category": "안주",
+       "name": "피카츄",
+       "price": 3000
+      },
+      {
+       "category": "안주",
+       "name": "왕소알밤",
+       "price": 10000
+      },
+      {
+       "category": "안주",
+       "name": "들림닭발",
+       "price": 15000
+      },
+      {
+       "category": "안주",
+       "name": "고르곤졸라피자",
+       "price": 16000
+      },
+      {
+       "category": "안주",
+       "name": "페퍼로니피자",
+       "price": 16000
+      },
+      {
+       "category": "안주",
+       "name": "김치우동",
+       "price": 19000
+      },
+      {
+       "category": "안주",
+       "name": "스페셜오뎅탕",
+       "price": 28000
+      },
+      {
+       "category": "안주",
+       "name": "소세지모둠 &니쵸",
+       "price": 19000
+      },
+      {
+       "category": "안주",
+       "name": "라면",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "하이볼 (산토리,짐빔,피자)",
+       "price": 9000
+      },
+      {
+       "category": "주류/음료",
+       "name": "무등산막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "콜겔",
+       "price": 9000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료 (콜라,제로콜라,사이다,환타)",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791952037.918069",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791951991867749"
+  },
   {
    "ts": "1791951664.472839",
    "date": "2026-10-14",
