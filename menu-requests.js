@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3534,
- "updatedAt": "2026-10-14 16:45",
+ "version": 3535,
+ "updatedAt": "2026-10-14 16:48",
  "days": 30,
  "items": [
   {
@@ -163,8 +163,8 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791963786.391369",
+   "rc": 5,
+   "lr": "1791964095.364789",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -60734,100 +60734,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789374580984969"
-  },
-  {
-   "ts": "1789372042.533599",
-   "date": "2026-09-14",
-   "time": "16:47",
-   "store": "집밥",
-   "biz": "1304800813",
-   "pos": "퍼스트포스",
-   "content": "- 메뉴 등록 및 일부 메뉴 삭제 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "주먹밥.jpg",
-     "fid": "F0C15MWDGEB",
-     "from": "댓글",
-     "path": "menu-files/1789372042_533599-0.jpg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "참치주먹밥.jpg",
-     "fid": "F0C1ERZMYNP",
-     "from": "댓글",
-     "path": "menu-files/1789372042_533599-1.jpg",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C1ESBDTA7",
-     "from": "댓글",
-     "path": "menu-files/1789372042_533599-2.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "청국장",
-       "price": 10900
-      },
-      {
-       "category": "",
-       "name": "우삼겹 청국장",
-       "price": 13900
-      },
-      {
-       "category": "",
-       "name": "명란 젓국(냉부 레시피)",
-       "price": 10900
-      },
-      {
-       "category": "",
-       "name": "매운맛 추가",
-       "price": 1000
-      },
-      {
-       "category": "",
-       "name": "돼지고기 김치찌개",
-       "price": 10900
-      },
-      {
-       "category": "",
-       "name": "참치 김치찌개",
-       "price": 10900
-      },
-      {
-       "category": "",
-       "name": "스팸 김치찌개",
-       "price": 10900
-      },
-      {
-       "category": "",
-       "name": "공기밥추가",
-       "price": 1500
-      },
-      {
-       "category": "",
-       "name": "곱빼기",
-       "price": 2000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "메뉴 삭제\n• 찌개류 카테고리 전체 삭제\n메뉴 추가(카테고리: 신메뉴)\n• 주먹밥(4,000원)\n• 참치주먹밥(5,000원)"
-   ],
-   "rc": 3,
-   "lr": "1789372283.761379",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789372042533599"
   }
  ],
  "ocr": {
