@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3492,
- "updatedAt": "2026-10-14 11:40",
+ "version": 3493,
+ "updatedAt": "2026-10-14 11:42",
  "days": 30,
  "items": [
   {
@@ -18,16 +18,196 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C8L8TPZF1",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "OPTION",
+       "name": "디카페인 변경",
+       "price": 1000
+      },
+      {
+       "category": "OPTION",
+       "name": "샷추가",
+       "price": 1000
+      },
+      {
+       "category": "OPTION",
+       "name": "두유 변경",
+       "price": 500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 4800
+      },
+      {
+       "category": "COFFEE",
+       "name": "라떼",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "플랫화이트",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "소이라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라빈라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "돌체라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "엑설런트 라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아인슈패너",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "오렌지싱글샷라떼",
+       "price": 6000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "쑥 라떼",
+       "price": 6000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "발로나 초콜릿 라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "딸기 라떼",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬티",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "청귤티",
+       "price": 6000
+      },
+      {
+       "category": "SIGNATURE",
+       "name": "블랙",
+       "price": 6000
+      },
+      {
+       "category": "SIGNATURE",
+       "name": "화이트",
+       "price": 6500
+      },
+      {
+       "category": "SIGNATURE",
+       "name": "브라운",
+       "price": 7000
+      },
+      {
+       "category": "SIGNATURE",
+       "name": "멜론",
+       "price": 7000
+      },
+      {
+       "category": "ADE",
+       "name": "청귤 에이드",
+       "price": 7000
+      },
+      {
+       "category": "ADE",
+       "name": "레몬 에이드",
+       "price": 7000
+      },
+      {
+       "category": "ADE",
+       "name": "오렌지 에이드",
+       "price": 7000
+      },
+      {
+       "category": "ADE",
+       "name": "딸기 에이드",
+       "price": 7000
+      },
+      {
+       "category": "ADE",
+       "name": "자두 에이드",
+       "price": 7000
+      },
+      {
+       "category": "MATCHA",
+       "name": "말차 라떼",
+       "price": 6500
+      },
+      {
+       "category": "MATCHA",
+       "name": "말차 에스프레소 라떼",
+       "price": 7000
+      },
+      {
+       "category": "MATCHA",
+       "name": "말차 딸기라떼",
+       "price": 7500
+      },
+      {
+       "category": "MATCHA",
+       "name": "말차 레몬에이드",
+       "price": 8000
+      },
+      {
+       "category": "MATCHA",
+       "name": "말차 코코넛",
+       "price": 8000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "님 여기다가 이미지 파일 올려주세유"
    ],
-   "rc": 2,
-   "lr": "1791945633.371819",
+   "rc": 3,
+   "lr": "1791945649.525839",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791945626134079"
   },
   {
