@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3545,
- "updatedAt": "2026-10-14 17:49",
+ "version": 3546,
+ "updatedAt": "2026-10-14 17:50",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,304 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_5483.jpg.jpeg",
+     "fid": "F0C9YJM3B08",
+     "from": "댓글",
+     "path": "menu-files/1791967698_233769-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주메뉴",
+       "name": "막창닭구이(소)",
+       "price": 29000
+      },
+      {
+       "category": "주메뉴",
+       "name": "막창닭구이(중)",
+       "price": 37000
+      },
+      {
+       "category": "주메뉴",
+       "name": "막창닭구이(대)",
+       "price": 47000
+      },
+      {
+       "category": "주메뉴",
+       "name": "닭구이(소)",
+       "price": 27000
+      },
+      {
+       "category": "주메뉴",
+       "name": "닭구이(중)",
+       "price": 34000
+      },
+      {
+       "category": "주메뉴",
+       "name": "닭구이(대)",
+       "price": 41000
+      },
+      {
+       "category": "주메뉴",
+       "name": "막구이(소)",
+       "price": 32000
+      },
+      {
+       "category": "주메뉴",
+       "name": "막구이(중)",
+       "price": 42000
+      },
+      {
+       "category": "주메뉴",
+       "name": "막구이(대)",
+       "price": 52000
+      },
+      {
+       "category": "주메뉴",
+       "name": "닭 목살구이(소)",
+       "price": 32000
+      },
+      {
+       "category": "주메뉴",
+       "name": "닭 목살구이(대)",
+       "price": 39000
+      },
+      {
+       "category": "주메뉴",
+       "name": "순살 곱도리탕(소)",
+       "price": 29000
+      },
+      {
+       "category": "주메뉴",
+       "name": "순살 곱도리탕(대)",
+       "price": 39000
+      },
+      {
+       "category": "주메뉴",
+       "name": "치즈닭갈비(보통)",
+       "price": 33000
+      },
+      {
+       "category": "주메뉴",
+       "name": "연탄닭고기(소)",
+       "price": 14000
+      },
+      {
+       "category": "주메뉴",
+       "name": "연탄불고기(대)",
+       "price": 27000
+      },
+      {
+       "category": "주메뉴",
+       "name": "마른안주",
+       "price": 15000
+      },
+      {
+       "category": "주메뉴",
+       "name": "곰주",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5486.jpg.jpeg",
+     "fid": "F0C9YJMNN00",
+     "from": "댓글",
+     "path": "menu-files/1791967698_233769-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "부가메뉴",
+       "name": "소금 *숙성*",
+       "price": 0
+      },
+      {
+       "category": "부가메뉴",
+       "name": "양념 *숙성*",
+       "price": 0
+      },
+      {
+       "category": "부가메뉴",
+       "name": "마늘 *숙성*",
+       "price": 0
+      },
+      {
+       "category": "부가메뉴",
+       "name": "치즈추가",
+       "price": 4000
+      },
+      {
+       "category": "부가메뉴",
+       "name": "소금+마늘 *숙성*",
+       "price": 0
+      },
+      {
+       "category": "부가메뉴",
+       "name": "소금+양념 *숙성*",
+       "price": 0
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5484.jpg.jpeg",
+     "fid": "F0C928E7F2A",
+     "from": "댓글",
+     "path": "menu-files/1791967698_233769-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가메뉴",
+       "name": "왕큰순두부",
+       "price": 12000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "닭껍질구이",
+       "price": 12000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치즈사리추가",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "셀프볶음밥",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "셀프주먹밥",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "우동사리",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "라면사리",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치즈볶음밥",
+       "price": 6000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "맛보기막창",
+       "price": 14000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "맛보기닭목살",
+       "price": 13000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "맛보기곱도리",
+       "price": 17000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "파인애플샤베트",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "813660344.jpg.jpeg",
+     "fid": "F0C8Y0T28HH",
+     "from": "댓글",
+     "path": "menu-files/1791967698_233769-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "식혜",
+       "price": 1000
+      },
+      {
+       "category": "주류",
+       "name": "레쓰비",
+       "price": 1000
+      },
+      {
+       "category": "주류",
+       "name": "소주(이벤트)",
+       "price": 1000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주(1700cc)",
+       "price": 14000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주(500cc)",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주(300cc)",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "생탁",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "일품진로",
+       "price": 25000
+      },
+      {
+       "category": "주류",
+       "name": "매실마을",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "무알콜",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791967701.494169",
+   "replies": [
+    "옵션은 주메뉴에 닭막창구이(소) 부터 닭목살구이(대)까지\n\n곱도리탕에 매운맛 1단계 2단계 3단계 4단계\n추가가격없고 필수로"
+   ],
+   "rc": 2,
+   "lr": "1791967750.213799",
    "rfx": 3,
    "status": "wait",
    "handler": null,
