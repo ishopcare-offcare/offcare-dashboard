@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3481,
- "updatedAt": "2026-10-14 09:57",
+ "version": 3482,
+ "updatedAt": "2026-10-14 10:00",
  "days": 30,
  "items": [
   {
@@ -59123,81 +59123,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789347949506809"
-  },
-  {
-   "ts": "1789347512.915619",
-   "date": "2026-09-14",
-   "time": "09:58",
-   "store": "온꽈배기 왕십리점",
-   "biz": "7710202894",
-   "pos": "",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "20260914_100459.jpg",
-     "fid": "F0C1K2YMA66",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "음료 메뉴",
-       "name": "아메리카노",
-       "price": 1500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "카페라떼",
-       "price": 2500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "카페모카",
-       "price": 2500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "바닐라라떼",
-       "price": 2500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "초코라떼",
-       "price": 2500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "말차라떼",
-       "price": 2500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "오미자 에이드",
-       "price": 2500
-      },
-      {
-       "category": "음료 메뉴",
-       "name": "복숭아 아이스티",
-       "price": 2500
-      }
-     ],
-     "path": "menu-files/1789347512_915619-0.jpg"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1789347447104449?thread_ts=···.926609&cid=C0A7CLLANP7",
-    "F0C1K2YMA66",
-    "음료추가!"
-   ],
-   "rc": 5,
-   "lr": "1789348803.165889",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789347512915619"
   }
  ],
  "ocr": {
