@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3476,
- "updatedAt": "2026-10-14 09:31",
+ "version": 3477,
+ "updatedAt": "2026-10-14 09:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1791938295.324999",
+   "date": "2026-10-14",
+   "time": "09:38",
+   "store": "케이가든 킨텍스지점",
+   "biz": "2888501829",
+   "pos": "퍼스트포스",
+   "content": "에비앙 메뉴 추가",
+   "special": "병음료 칸에 추가해주세요",
+   "drive": [
+    "https://drive.google.com/file/d/1-H9f5kyqM_b7d1O2deY60QLCM2mD48Fy/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1-H9f5kyqM_b7d1O2deY60QLCM2mD48Fy",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791938295324999"
+  },
   {
    "ts": "1791893589.720899",
    "date": "2026-10-13",

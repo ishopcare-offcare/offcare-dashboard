@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20336,
+  "version": 20337,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252282,7 +252282,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:30"
+      "updatedAt": "09:38"
     }
   },
   "resp": {
@@ -252465,25 +252465,32 @@ window.SLACK_DATA = {
       },
       "1791936047.435199": {
         "post": "1791936047.435199",
-        "lastSeen": 1791937913.863
+        "lastSeen": 1791938317.365
       },
       "1791937490.108759": {
         "post": "1791937490.108759",
-        "lastSeen": 1791937913.863,
+        "lastSeen": 1791938317.365,
         "r": 1,
         "day": "2026-10-14",
         "idx": 9
       },
       "1791937463.211709": {
         "post": "1791937463.211709",
-        "lastSeen": 1791937913.863,
+        "lastSeen": 1791938317.365,
         "r": 1,
         "day": "2026-10-14",
         "idx": 8
       },
       "1791937832.789749": {
         "post": "1791937832.789749",
-        "lastSeen": 1791937913.863
+        "lastSeen": 1791938317.365,
+        "r": 1,
+        "day": "2026-10-14",
+        "idx": 10
+      },
+      "1791938295.324999": {
+        "post": "1791938295.324999",
+        "lastSeen": 1791938317.365
       }
     },
     "days": {
@@ -339100,8 +339107,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-14": {
-        "cnt": 10,
-        "sumMin": 53.657764001687376,
+        "cnt": 11,
+        "sumMin": 58.37150151729585,
         "over": 0,
         "items": [
           {
@@ -339191,13 +339198,21 @@ window.SLACK_DATA = {
             "biz": "3333001696",
             "who": "고경림",
             "cat": "as"
+          },
+          {
+            "hm": "09:30",
+            "min": 4.7,
+            "store": "뚜레쥬르 킨텍스2전시장",
+            "biz": "1283678896",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-14 09:32",
+    "at": "2026-10-14 09:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -339205,7 +339220,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4530,
     "named": 1175,
-    "unknownName": 45,
+    "unknownName": 50,
     "beforeStart": 0,
     "done": 1175,
     "byStatus": {
@@ -339325,7 +339340,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 09:31",
+    "at": "2026-10-14 09:38",
     "pri": {
       "days": 0,
       "failed": [],
