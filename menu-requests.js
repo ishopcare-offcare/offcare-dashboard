@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3548,
- "updatedAt": "2026-10-14 17:57",
+ "version": 3549,
+ "updatedAt": "2026-10-14 18:02",
  "days": 30,
  "items": [
   {
@@ -337,8 +337,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "식사류\n뼈육개장 11,000원\n옵션으로 특 3,000원\n뼈고기추가 3,000원\n포장 0원\n순한맛 0원\n얼큰한맛 1,000원\n매운맛 1,000원\n\n등록 요청 드립니다."
    ],
-   "rc": 2,
-   "lr": "1791967669.251589",
+   "rc": 3,
+   "lr": "1791968540.260729",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
