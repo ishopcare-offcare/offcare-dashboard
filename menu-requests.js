@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3514,
- "updatedAt": "2026-10-14 14:01",
+ "version": 3515,
+ "updatedAt": "2026-10-14 14:35",
  "days": 30,
  "items": [
   {
@@ -59849,48 +59849,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789365065073499"
-  },
-  {
-   "ts": "1789364059.591009",
-   "date": "2026-09-14",
-   "time": "14:34",
-   "store": "형과아우황칠누룽지삼계탕",
-   "biz": "7983401362",
-   "pos": "오케이포스",
-   "content": "황칠매운소갈비찜",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1ROjbhSNARPB3WeJ18jdVmKtQc8JACq9C/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C1NBVF1CH",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1789364059_591009-0.png"
-    }
-   ],
-   "datt": [
-    {
-     "id": "1ROjbhSNARPB3WeJ18jdVmKtQc8JACq9C",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "replies": [
-    "[N44936](칠곡점)",
-    "이걸..?",
-    "황칠매운소갈비찜(2인이상) - 21000원\n메뉴, 포장 카테고리에 1개씩"
-   ],
-   "rc": 4,
-   "lr": "1789366246.357949",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789364059591009"
   }
  ],
  "ocr": {
