@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20459,
+  "version": 20460,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252969,7 +252969,7 @@ window.SLACK_DATA = {
         "offline": 11,
         "unknown": 0
       },
-      "updatedAt": "12:34",
+      "updatedAt": "12:37",
       "absent": [
         {
           "time": "10:15",
@@ -252979,7 +252979,42 @@ window.SLACK_DATA = {
           "cat": "as",
           "intake": "online"
         }
-      ]
+      ],
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 1
+        },
+        "npsDist": {
+          "10": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": []
+      }
     }
   },
   "resp": {
@@ -253126,40 +253161,43 @@ window.SLACK_DATA = {
       },
       "1791936047.435199": {
         "post": "1791936047.435199",
-        "lastSeen": 1791948921.776
+        "lastSeen": 1791949048.321
       },
       "1791940500.356879": {
         "post": "1791940500.356879",
-        "lastSeen": 1791948921.776,
+        "lastSeen": 1791949048.321,
         "r": 1,
         "day": "2026-10-14",
         "idx": 22
       },
       "1791946116.155599": {
         "post": "1791946116.155599",
-        "lastSeen": 1791948921.776,
+        "lastSeen": 1791949048.321,
         "r": 1,
         "day": "2026-10-14",
         "idx": 43
       },
       "1791947426.465599": {
         "post": "1791947426.465599",
-        "lastSeen": 1791948921.776
+        "lastSeen": 1791949048.321
       },
       "1791948301.680999": {
         "post": "1791948301.680999",
-        "lastSeen": 1791948921.776,
+        "lastSeen": 1791949048.321,
         "r": 1,
         "day": "2026-10-14",
         "idx": 51
       },
       "1791948603.107949": {
         "post": "1791948603.107949",
-        "lastSeen": 1791948921.776
+        "lastSeen": 1791949048.321
       },
       "1791948899.208499": {
         "post": "1791948899.208499",
-        "lastSeen": 1791948921.776
+        "lastSeen": 1791949048.321,
+        "r": 1,
+        "day": "2026-10-14",
+        "idx": 52
       }
     },
     "days": {
@@ -339776,8 +339814,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-14": {
-        "cnt": 52,
-        "sumMin": 294.29689151446036,
+        "cnt": 53,
+        "sumMin": 295.7275581995647,
         "over": 1,
         "items": [
           {
@@ -340243,13 +340281,21 @@ window.SLACK_DATA = {
             "biz": "1082452870",
             "who": "송태양",
             "cat": "as"
+          },
+          {
+            "hm": "12:34",
+            "min": 1.4,
+            "store": "",
+            "biz": "",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-14 12:35",
+    "at": "2026-10-14 12:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -340377,7 +340423,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 12:35",
+    "at": "2026-10-14 12:37",
     "pri": {
       "days": 0,
       "failed": [],
