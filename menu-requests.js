@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3518,
- "updatedAt": "2026-10-14 14:53",
+ "version": 3519,
+ "updatedAt": "2026-10-14 14:54",
  "days": 30,
  "items": [
   {
@@ -59478,30 +59478,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789365611484119"
-  },
-  {
-   "ts": "1789365232.636119",
-   "date": "2026-09-14",
-   "time": "14:53",
-   "store": "삼성복집",
-   "biz": "4132801460",
-   "pos": "오케이포스",
-   "content": "오케이 포스 / 메뉴 수정 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "화이트 와인 안에\n루이자도 보르고뉴 130,000 -> 150,000 금액 수정 요청 주셨어요.",
-    "재인입 / 지연 양해 드렸습니다."
-   ],
-   "rc": 9,
-   "lr": "1789369008.063059",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789365232636119"
   }
  ],
  "ocr": {
