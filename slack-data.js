@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20332,
+  "version": 20333,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252140,15 +252140,16 @@ window.SLACK_DATA = {
         "extern": {
           "김동욱": 1
         },
+        "booking": {
+          "고경림": 1,
+          "송태양": 1
+        },
         "as": {
           "고경림": 3,
           "김동욱": 1
         },
         "onboarding": {
           "고경림": 1
-        },
-        "booking": {
-          "송태양": 1
         },
         "transfer": {
           "송태양": 2
@@ -252163,6 +252164,17 @@ window.SLACK_DATA = {
           "cat": "extern",
           "emp": "김동욱",
           "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "09:16",
+          "store": "",
+          "biz": "2068124292",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "토스페이먼츠건입니다. 프론트 유프 온보딩부탁드립니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -252265,7 +252277,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 1,
         "unknown": 0
       },
@@ -252452,22 +252464,15 @@ window.SLACK_DATA = {
       },
       "1791936047.435199": {
         "post": "1791936047.435199",
-        "lastSeen": 1791937637.675
-      },
-      "1791936975.167609": {
-        "post": "1791936975.167609",
-        "lastSeen": 1791937637.675,
-        "r": 1,
-        "day": "2026-10-14",
-        "idx": 7
+        "lastSeen": 1791937689.989
       },
       "1791937490.108759": {
         "post": "1791937490.108759",
-        "lastSeen": 1791937637.675
+        "lastSeen": 1791937689.989
       },
       "1791937463.211709": {
         "post": "1791937463.211709",
-        "lastSeen": 1791937637.675,
+        "lastSeen": 1791937689.989,
         "r": 1,
         "day": "2026-10-14",
         "idx": 8
@@ -339160,7 +339165,8 @@ window.SLACK_DATA = {
             "store": "",
             "biz": "2068124292",
             "who": "고경림",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 11.5
           },
           {
             "hm": "09:24",
@@ -339175,7 +339181,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-14 09:27",
+    "at": "2026-10-14 09:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -339303,7 +339309,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 09:27",
+    "at": "2026-10-14 09:28",
     "pri": {
       "days": 0,
       "failed": [],
