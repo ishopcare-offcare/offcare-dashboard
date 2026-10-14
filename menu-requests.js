@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3511,
- "updatedAt": "2026-10-14 13:55",
+ "version": 3512,
+ "updatedAt": "2026-10-14 13:56",
  "days": 30,
  "items": [
+  {
+   "ts": "1791953808.130519",
+   "date": "2026-10-14",
+   "time": "13:56",
+   "store": "",
+   "biz": "5872302353",
+   "pos": "",
+   "content": "[📧 메일] 제목: 메뉴 수정 요청건\n요청건\n내용: 카페메일빈디저드 사업자번호 ··· 관리번호 105102 대표자 이경옥 0108704 또는 ··· 수고하십니다. 어제는 정말 서비스 잘 받고 고마웠습니다. 제가 사진을 준비하지 못한 품목이 있어 수정 요청및 사진 첨부해 드립니다. 수정해야 할 품목 및 내용  1)이미 등록된 메뉴 중 \"장칼국수\" 4500원 짜리가 있습니다. \"장칼국수\"를 \"얼큰한 장칼국수\"로 명칭을 변경해 주세요. 2)장칼국수 이미지를 올려 드립니다. 등록 해 주세요.  서비스가 바쁜데 죄송합니다. 번창하시고 그리고 개인적으로는 건강하세요.\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a138c3dcf1814cf>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a138c3dcf1814cf",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791953808130519"
+  },
   {
    "ts": "1791953248.442859",
    "date": "2026-10-14",
