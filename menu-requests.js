@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3532,
- "updatedAt": "2026-10-14 16:41",
+ "version": 3533,
+ "updatedAt": "2026-10-14 16:43",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,819 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261014_163850518.jpg",
+     "fid": "F0C8N7QPJ15",
+     "from": "댓글",
+     "path": "menu-files/1791963650_675769-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "햇반",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "국수사리",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "우동사리",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "해물라면",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "납작만두",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "두부추가",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "두부반모추가",
+       "price": 2500
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "레몬추가",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "아이스 홍시",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "파인애플샤베트",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "나초",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "매콤짜파게티",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "오징어/새우가스",
+       "price": 13000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "계란찜",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "어묵1꼬치",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "콘키지",
+       "price": 20000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치즈볼",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "배달기본",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "모듬감자",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치즈스틱",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "포장",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_01.jpg",
+     "fid": "F0C91KWSUCW",
+     "from": "댓글",
+     "path": "menu-files/1791963650_675769-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "아라치",
+       "name": "바사삭후라이드",
+       "price": 24000
+      },
+      {
+       "category": "아라치",
+       "name": "매간장치킨",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "매운간장치킨",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "고추매간장치킨",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "양념치킨",
+       "price": 26000
+      },
+      {
+       "category": "아라치",
+       "name": "똥집후라이드",
+       "price": 20000
+      },
+      {
+       "category": "아라치",
+       "name": "계이득",
+       "price": 18000
+      },
+      {
+       "category": "아라치",
+       "name": "양념추가",
+       "price": 1000
+      },
+      {
+       "category": "아라치",
+       "name": "바사삭부위변경",
+       "price": 2000
+      },
+      {
+       "category": "아라치",
+       "name": "브라타치즈",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "감자튀김",
+       "price": 10000
+      },
+      {
+       "category": "아라치",
+       "name": "옛날쥐포튀김",
+       "price": 10000
+      },
+      {
+       "category": "아라치",
+       "name": "아이스황도",
+       "price": 18000
+      },
+      {
+       "category": "아라치",
+       "name": "소떡소떡",
+       "price": 3000
+      },
+      {
+       "category": "아라치",
+       "name": "국물떡볶이",
+       "price": 10000
+      },
+      {
+       "category": "아라치",
+       "name": "한치쥐포",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "먹태",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "순살변경",
+       "price": 3000
+      },
+      {
+       "category": "아라치",
+       "name": "삼색똥집후라이드",
+       "price": 28000
+      },
+      {
+       "category": "아라치",
+       "name": "아귀포",
+       "price": 25000
+      },
+      {
+       "category": "아라치",
+       "name": "깐풍치킨",
+       "price": 26000
+      },
+      {
+       "category": "아라치",
+       "name": "번데기탕",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_02.jpg",
+     "fid": "F0C979P5V7E",
+     "from": "댓글",
+     "path": "menu-files/1791963650_675769-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "무침&수육&탕",
+       "name": "조개오뎅탕",
+       "price": 30000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "바지락조개탕",
+       "price": 25000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "해물짬뽕탕",
+       "price": 25000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "홍게오댕탕",
+       "price": 30000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "돌게탕",
+       "price": 30000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "차돌짬뽕탕",
+       "price": 25000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "오골뱅이무침",
+       "price": 35000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "백골뱅이 어묵탕",
+       "price": 40000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "도토리묵무침",
+       "price": 25000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "골뱅이무침",
+       "price": 30000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "오징어무침",
+       "price": 30000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "갑오징어무침",
+       "price": 38000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "닭볶음탕",
+       "price": 35000
+      },
+      {
+       "category": "무침&수육&탕",
+       "name": "홍가리비무침",
+       "price": 35000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_03.jpg",
+     "fid": "F0C979Q1GRJ",
+     "from": "댓글",
+     "path": "menu-files/1791963650_675769-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "전",
+       "name": "모듬전",
+       "price": 40000
+      },
+      {
+       "category": "전",
+       "name": "녹두전",
+       "price": 25000
+      },
+      {
+       "category": "전",
+       "name": "해물파전",
+       "price": 28000
+      },
+      {
+       "category": "전",
+       "name": "치즈감자전",
+       "price": 25000
+      },
+      {
+       "category": "전",
+       "name": "땡초부추전",
+       "price": 25000
+      },
+      {
+       "category": "전",
+       "name": "오징어김치전",
+       "price": 25000
+      },
+      {
+       "category": "전",
+       "name": "육전",
+       "price": 28000
+      },
+      {
+       "category": "전",
+       "name": "동태전",
+       "price": 25000
+      },
+      {
+       "category": "전",
+       "name": "굴전",
+       "price": 28000
+      },
+      {
+       "category": "전",
+       "name": "시금치해물전",
+       "price": 25000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_04.jpg",
+     "fid": "F0C91KYQAES",
+     "from": "댓글",
+     "path": "menu-files/1791963650_675769-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트메뉴",
+       "name": "모듬전+오징어무침",
+       "price": 60000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "모듬전+골뱅이무침",
+       "price": 60000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "모듬전+도토리묵무침",
+       "price": 60000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "모듬전+오뎅탕",
+       "price": 60000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_05.jpg",
+     "fid": "F0C8XC8DQ3V",
+     "from": "댓글",
+     "path": "menu-files/1791963650_675769-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "환타오렌지",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "선셋골드",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "토닉+레몬",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "싱하",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_06.jpg",
+     "fid": "F0C8YA72ZDK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "막걸리",
+       "name": "생탁",
+       "price": 5000
+      },
+      {
+       "category": "막걸리",
+       "name": "경주쌀막걸리",
+       "price": 5000
+      },
+      {
+       "category": "막걸리",
+       "name": "지평생",
+       "price": 6000
+      },
+      {
+       "category": "막걸리",
+       "name": "옥수수통통",
+       "price": 7000
+      },
+      {
+       "category": "막걸리",
+       "name": "메밀막걸리",
+       "price": 8000
+      },
+      {
+       "category": "막걸리",
+       "name": "금정산",
+       "price": 6000
+      },
+      {
+       "category": "막걸리",
+       "name": "알밤막걸리",
+       "price": 6000
+      },
+      {
+       "category": "막걸리",
+       "name": "호랭이생막걸리",
+       "price": 7000
+      },
+      {
+       "category": "막걸리",
+       "name": "느린막걸리",
+       "price": 8000
+      },
+      {
+       "category": "막걸리",
+       "name": "월 매",
+       "price": 6000
+      },
+      {
+       "category": "막걸리",
+       "name": "복순도가",
+       "price": 23000
+      },
+      {
+       "category": "막걸리",
+       "name": "붉은원숭이",
+       "price": 17000
+      },
+      {
+       "category": "막걸리",
+       "name": "이화백주",
+       "price": 21000
+      },
+      {
+       "category": "막걸리",
+       "name": "복분자막걸리",
+       "price": 6000
+      },
+      {
+       "category": "막걸리",
+       "name": "남원막걸리",
+       "price": 5000
+      },
+      {
+       "category": "막걸리",
+       "name": "해창6%",
+       "price": 20000
+      },
+      {
+       "category": "막걸리",
+       "name": "해창9%",
+       "price": 23000
+      },
+      {
+       "category": "막걸리",
+       "name": "해창12%",
+       "price": 28000
+      },
+      {
+       "category": "막걸리",
+       "name": "지평보늬달밤",
+       "price": 7000
+      },
+      {
+       "category": "막걸리",
+       "name": "유자막걸리",
+       "price": 8000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_07.jpg",
+     "fid": "F0C95H5B12M",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "한라산16",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "하이네캔",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "기네스",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "호가든",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "무제한1인",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "아사히生",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "카스生",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 20000
+      },
+      {
+       "category": "주류",
+       "name": "화요25+토닉2",
+       "price": 30000
+      },
+      {
+       "category": "주류",
+       "name": "화요41+토닉2",
+       "price": 45000
+      },
+      {
+       "category": "주류",
+       "name": "하이볼",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "산토리샷추가",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "히비끼 하이볼",
+       "price": 18000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261014_163850518_08.jpg",
+     "fid": "F0C8N7XJCLX",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "안주류",
+       "name": "닭갈비",
+       "price": 35000
+      },
+      {
+       "category": "안주류",
+       "name": "국물닭발",
+       "price": 25000
+      },
+      {
+       "category": "안주류",
+       "name": "계란말이",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "대패쭈꾸미",
+       "price": 38000
+      },
+      {
+       "category": "안주류",
+       "name": "두부김치",
+       "price": 25000
+      },
+      {
+       "category": "안주류",
+       "name": "모듬소세지",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "똥집볶음",
+       "price": 25000
+      },
+      {
+       "category": "안주류",
+       "name": "치즈계란말이",
+       "price": 23000
+      },
+      {
+       "category": "안주류",
+       "name": "LA갈비",
+       "price": 30000
+      },
+      {
+       "category": "안주류",
+       "name": "생굴",
+       "price": 30000
+      },
+      {
+       "category": "안주류",
+       "name": "오돌뼈",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "왕새우구이",
+       "price": 35000
+      },
+      {
+       "category": "안주류",
+       "name": "반건조오징어",
+       "price": 25000
+      },
+      {
+       "category": "안주류",
+       "name": "박대",
+       "price": 25000
+      },
+      {
+       "category": "안주류",
+       "name": "편육",
+       "price": 30000
+      },
+      {
+       "category": "안주류",
+       "name": "홍합탕",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "한입갑오징어",
+       "price": 30000
+      },
+      {
+       "category": "안주류",
+       "name": "굴수제비",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "무뼈닭발",
+       "price": 25000
+      },
+      {
+       "category": "안주류",
+       "name": "비단가리비무침",
+       "price": 38000
+      },
+      {
+       "category": "안주류",
+       "name": "살고동1kg",
+       "price": 30000
+      },
+      {
+       "category": "안주류",
+       "name": "살고동 특",
+       "price": 38000
+      },
+      {
+       "category": "안주류",
+       "name": "과메기 추가",
+       "price": 20000
+      },
+      {
+       "category": "안주류",
+       "name": "백골뱅이1kg",
+       "price": 38000
+      },
+      {
+       "category": "안주류",
+       "name": "백골뱅이2kg",
+       "price": 70000
+      },
+      {
+       "category": "안주류",
+       "name": "홍가리비 한 솥",
+       "price": 30000
+      },
+      {
+       "category": "안주류",
+       "name": "갑오징어숙회",
+       "price": 50000
+      },
+      {
+       "category": "안주류",
+       "name": "과메기",
+       "price": 45000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1791963656.116529",
+   "rc": 2,
+   "lr": "1791963731.928059",
    "rfx": 3,
    "status": "wait",
    "handler": null,
