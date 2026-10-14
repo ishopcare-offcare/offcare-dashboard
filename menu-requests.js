@@ -3,10 +3,173 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3533,
- "updatedAt": "2026-10-14 16:43",
+ "version": 3534,
+ "updatedAt": "2026-10-14 16:45",
  "days": 30,
  "items": [
+  {
+   "ts": "1791963865.967529",
+   "date": "2026-10-14",
+   "time": "16:44",
+   "store": "철뚝집",
+   "biz": "6761002804",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxNF8xNjIzMT",
+     "fid": "F0C97AEA12Q",
+     "from": "댓글",
+     "path": "menu-files/1791963865_967529-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "철뚝삼겹살",
+       "price": 9900
+      },
+      {
+       "category": "",
+       "name": "철뚝우겹살",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "계란찜(서비스)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "냉꽃삼",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "철뚝대패목살",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "된장찌개(서비스)",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "제로맥주",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "라면",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "관자(소)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "물냉면",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "비빔냉면",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "볼비냉",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "관자(대)",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "된장찌개(추가)",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "계란찜(추가)",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "복음밥(셀프)",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "곱빼기",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1791963874.304779",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791963865967529"
+  },
+  {
+   "ts": "1791963782.484659",
+   "date": "2026-10-14",
+   "time": "16:43",
+   "store": "우월감성",
+   "biz": "3678103684",
+   "pos": "",
+   "content": "키오스크 상품 이미지 등록 요청.",
+   "special": "",
+   "drive": [],
+   "files": 1,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1791963786.391369",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791963782484659"
+  },
   {
    "ts": "1791963650.675769",
    "date": "2026-10-14",
@@ -832,8 +995,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1791963731.928059",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791963650675769"
   },
   {
