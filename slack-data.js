@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20337,
+  "version": 20338,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252137,16 +252137,16 @@ window.SLACK_DATA = {
     },
     "2026-10-14": {
       "counts": {
+        "as": {
+          "고경림": 4,
+          "김동욱": 1
+        },
         "extern": {
           "김동욱": 1
         },
         "booking": {
           "고경림": 1,
           "송태양": 1
-        },
-        "as": {
-          "고경림": 3,
-          "김동욱": 1
         },
         "onboarding": {
           "고경림": 1
@@ -252157,6 +252157,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:24",
+          "store": "떡보의 하루 연향점",
+          "biz": "3333001696",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "휴대용 단말기(NM-2000) 사용 중으로, 사용하다 살짝 떨어트리신 이후 용지 출력이 되지 않으신다고 하여 점검 요청드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:22",
           "store": "떡언니네Cafe",
@@ -252278,7 +252289,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 1,
         "unknown": 0
       },
@@ -252465,32 +252476,25 @@ window.SLACK_DATA = {
       },
       "1791936047.435199": {
         "post": "1791936047.435199",
-        "lastSeen": 1791938317.365
-      },
-      "1791937490.108759": {
-        "post": "1791937490.108759",
-        "lastSeen": 1791938317.365,
-        "r": 1,
-        "day": "2026-10-14",
-        "idx": 9
+        "lastSeen": 1791938375.584
       },
       "1791937463.211709": {
         "post": "1791937463.211709",
-        "lastSeen": 1791938317.365,
+        "lastSeen": 1791938375.584,
         "r": 1,
         "day": "2026-10-14",
         "idx": 8
       },
       "1791937832.789749": {
         "post": "1791937832.789749",
-        "lastSeen": 1791938317.365,
+        "lastSeen": 1791938375.584,
         "r": 1,
         "day": "2026-10-14",
         "idx": 10
       },
       "1791938295.324999": {
         "post": "1791938295.324999",
-        "lastSeen": 1791938317.365
+        "lastSeen": 1791938375.584
       }
     },
     "days": {
@@ -339197,7 +339201,8 @@ window.SLACK_DATA = {
             "store": "떡보의 하루 연향점",
             "biz": "3333001696",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 14.3
           },
           {
             "hm": "09:30",
@@ -339212,7 +339217,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-14 09:38",
+    "at": "2026-10-14 09:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -339220,7 +339225,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4530,
     "named": 1175,
-    "unknownName": 50,
+    "unknownName": 53,
     "beforeStart": 0,
     "done": 1175,
     "byStatus": {
@@ -339340,7 +339345,7 @@ window.SLACK_DATA = {
     "2026-10-14": 2
   },
   "noteMig": {
-    "at": "2026-10-14 09:38",
+    "at": "2026-10-14 09:39",
     "pri": {
       "days": 0,
       "failed": [],
