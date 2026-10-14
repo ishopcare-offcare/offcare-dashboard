@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3510,
- "updatedAt": "2026-10-14 13:52",
+ "version": 3511,
+ "updatedAt": "2026-10-14 13:55",
  "days": 30,
  "items": [
   {
@@ -59865,35 +59865,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789364059591009"
-  },
-  {
-   "ts": "1789361674.850839",
-   "date": "2026-09-14",
-   "time": "13:54",
-   "store": "리즈뷰티 스튜디오 오목교점",
-   "biz": "6375001086",
-   "pos": "토스포스",
-   "content": "토스포스 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_b11c9e397bac.pptx",
-     "fid": "F0C1DSE4A03",
-     "from": "댓글",
-     "path": "menu-files/1789361674_850839-0.pptx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1789361689.172169",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789361674850839"
   }
  ],
  "ocr": {
