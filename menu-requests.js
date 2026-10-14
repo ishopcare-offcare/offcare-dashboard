@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3525,
- "updatedAt": "2026-10-14 15:40",
+ "version": 3526,
+ "updatedAt": "2026-10-14 15:52",
  "days": 30,
  "items": [
   {
@@ -59410,81 +59410,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789372042533599"
-  },
-  {
-   "ts": "1789368680.592549",
-   "date": "2026-09-14",
-   "time": "15:51",
-   "store": "제주왕꽈배기",
-   "biz": "3581403126",
-   "pos": "토스포스",
-   "content": "메뉴등록요청",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1lZ89fV1lEIcoz2o6qh7judPJCxOr5BmY/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1lZ89fV1lEIcoz2o6qh7judPJCxOr5BmY",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "A세트 박스",
-       "price": 20000
-      },
-      {
-       "category": "",
-       "name": "B세트 박스",
-       "price": 25000
-      },
-      {
-       "category": "",
-       "name": "제주 왕 꽈배기 3개",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "못난이 팥도너츠 2개",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "못난이 팥도너츠 4개",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "찹쌀도너츠 2개",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "찹쌀도너츠 4개",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "수제 고로케 1개",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "못난이 소세지 1개",
-       "price": 3000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789368684.375269",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789368680592549"
   }
  ],
  "ocr": {
