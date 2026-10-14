@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3513,
- "updatedAt": "2026-10-14 13:59",
+ "version": 3514,
+ "updatedAt": "2026-10-14 14:01",
  "days": 30,
  "items": [
   {
@@ -49,8 +49,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "실제로 명의 변경으로 진행하시진 않았으나\n동일한 대표님으로 그대로 복사해달라고 하셨습니다"
    ],
-   "rc": 2,
-   "lr": "1791953334.345119",
+   "rc": 3,
+   "lr": "1791953997.294199",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
