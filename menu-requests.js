@@ -3,10 +3,256 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3502,
- "updatedAt": "2026-10-14 13:15",
+ "version": 3503,
+ "updatedAt": "2026-10-14 13:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1791951664.472839",
+   "date": "2026-10-14",
+   "time": "13:21",
+   "store": "카페루",
+   "biz": "6300300457",
+   "pos": "토스포스",
+   "content": "메뉴판 부탁드려요",
+   "special": "메뉴판새로 합니다",
+   "drive": [
+    "https://drive.google.com/file/d/1cbh4As6mmEE3aaACrZjrainEpnbquHPa/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1cbh4As6mmEE3aaACrZjrainEpnbquHPa",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카푸치노",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "다방커피",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛 아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛 라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "오곡라떼",
+       "price": 4000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "초코라떼",
+       "price": 4000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "그린티라떼",
+       "price": 4000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "쑥라떼",
+       "price": 4300
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "밀크티",
+       "price": 4500
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "토피넛라떼",
+       "price": 4500
+      },
+      {
+       "category": "HERB TEA",
+       "name": "캐모마일",
+       "price": 3500
+      },
+      {
+       "category": "HERB TEA",
+       "name": "페퍼민트",
+       "price": 3500
+      },
+      {
+       "category": "HERB TEA",
+       "name": "루이보스",
+       "price": 3500
+      },
+      {
+       "category": "HERB TEA",
+       "name": "녹차",
+       "price": 3500
+      },
+      {
+       "category": "HERB TEA",
+       "name": "히비스커스",
+       "price": 3500
+      },
+      {
+       "category": "HERB TEA",
+       "name": "우엉차",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "생강차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "오미자차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "한방차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "허니자몽블랙티",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "비타민차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "생강라떼",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "플레인 스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "딸기 스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "블루베리 스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "유자 스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "오미자 스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "밀크 쉐이크",
+       "price": 5000
+      },
+      {
+       "category": "FRESH JUICE",
+       "name": "토마토",
+       "price": 5000
+      },
+      {
+       "category": "FRESH JUICE",
+       "name": "골드 키위",
+       "price": 5000
+      },
+      {
+       "category": "FRESH JUICE",
+       "name": "딸기 라떼",
+       "price": 5500
+      },
+      {
+       "category": "ADE",
+       "name": "자몽 에이드",
+       "price": 5500
+      },
+      {
+       "category": "ADE",
+       "name": "레몬 에이드",
+       "price": 5500
+      },
+      {
+       "category": "ADE",
+       "name": "유자 에이드",
+       "price": 5500
+      },
+      {
+       "category": "ADE",
+       "name": "오미자 에이드",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791951664472839"
+  },
   {
    "ts": "1791951186.561499",
    "date": "2026-10-14",
@@ -395,8 +641,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1791951221.057059",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791951186561499"
   },
   {
