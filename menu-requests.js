@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3483,
- "updatedAt": "2026-10-14 10:06",
+ "version": 3484,
+ "updatedAt": "2026-10-14 10:08",
  "days": 30,
  "items": [
+  {
+   "ts": "1791940074.955729",
+   "date": "2026-10-14",
+   "time": "10:07",
+   "store": "호텔파리칠",
+   "biz": "8558702938",
+   "pos": "토스포스",
+   "content": "카테고리 + 상품 등, 기존 재고 초기화 후 엑셀파일상 재고로 조정 부탁드리비니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791940074955729"
+  },
   {
    "ts": "1791938295.324999",
    "date": "2026-10-14",
