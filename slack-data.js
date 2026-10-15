@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20848,
+  "version": 20849,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255739,7 +255739,8 @@ window.SLACK_DATA = {
           "req": "후불형 매장 세팅 및 자세한 사용법 안내 필요하여 이관드립니다:꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "평소에는 선불형결제사용 , 가끔 후불형이필요하시다고하심 • 후불형매장 설정후 , 선불결제,후불결제방법 안내완료 후불형매장 설정후 , 선불결제,후불결제방법 안내완료",
+          "rr": 1
         },
         {
           "time": "07:15",
@@ -344577,7 +344578,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:10",
+    "at": "2026-10-15 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344706,7 +344707,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:09",
+    "at": "2026-10-15 09:10",
     "pri": {
       "days": 0,
       "failed": [],
