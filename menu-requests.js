@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3594,
- "updatedAt": "2026-10-15 16:59",
+ "version": 3595,
+ "updatedAt": "2026-10-15 17:25",
  "days": 30,
  "items": [
   {
@@ -25,10 +25,10 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1792050010010259?thread_ts=···.624109&cid=C0A7CLLANP7",
     "한글 영어 같이..?"
    ],
-   "rc": 8,
-   "lr": "1792051180.829169",
+   "rc": 9,
+   "lr": "1792052686.574109",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792050450312839"
   },
