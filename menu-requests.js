@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3567,
- "updatedAt": "2026-10-15 14:19",
+ "version": 3568,
+ "updatedAt": "2026-10-15 14:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1792042310.355459",
+   "date": "2026-10-15",
+   "time": "14:31",
+   "store": "",
+   "biz": "5872302353",
+   "pos": "",
+   "content": "[📧 메일] 제목: 메뉴 추가 등록 요청\n카페메일빈디저드 사업자번호 ··· 관리번호 105102 대표자 이경옥 0108704 또는 ··· 팔도 짜장면 4500원  감사합니다    기다리는마음    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a13e096788a4d84>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a13e096788a4d84",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792042310355459"
+  },
   {
    "ts": "1792040857.650649",
    "date": "2026-10-15",
