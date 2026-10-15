@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20847,
+  "version": 20848,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255721,12 +255721,26 @@ window.SLACK_DATA = {
     },
     "2026-10-15": {
       "counts": {
+        "as": {
+          "고경림": 1
+        },
         "booking": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "황금토스트",
+          "biz": "1012224613",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "후불형 매장 세팅 및 자세한 사용법 안내 필요하여 이관드립니다:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "07:15",
           "store": "아시아(ASIA)",
@@ -255741,7 +255755,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -344563,7 +344577,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:09",
+    "at": "2026-10-15 09:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344692,7 +344706,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:08",
+    "at": "2026-10-15 09:09",
     "pri": {
       "days": 0,
       "failed": [],
