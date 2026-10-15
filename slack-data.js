@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20874,
+  "version": 20875,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -253788,7 +253788,8 @@ window.SLACK_DATA = {
           "req": "최초 연결 이후 터프로 이용 중 / 영수증 커스텀 출력하고 싶다고 하셔서 온보딩 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "터프랑 터미널이용하는 매장임 토스포스 사용안하면 로고는사용못한다고 설명드림",
+          "rr": 1
         },
         {
           "time": "14:20",
@@ -255839,7 +255840,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "09:50"
+      "updatedAt": "10:00"
     }
   },
   "resp": {
@@ -255984,15 +255985,15 @@ window.SLACK_DATA = {
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792025982.92
+        "lastSeen": 1792026039.513
       },
       "1792025200.007739": {
         "post": "1792025200.007739",
-        "lastSeen": 1792025982.92
+        "lastSeen": 1792026039.513
       },
       "1792025400.350969": {
         "post": "1792025400.350969",
-        "lastSeen": 1792025982.92
+        "lastSeen": 1792026039.513
       }
     },
     "days": {
@@ -344703,7 +344704,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:59",
+    "at": "2026-10-15 10:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344832,7 +344833,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:59",
+    "at": "2026-10-15 10:00",
     "pri": {
       "days": 0,
       "failed": [],
