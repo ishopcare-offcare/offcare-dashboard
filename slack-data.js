@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21336,
+  "version": 21337,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255777,6 +255777,7 @@ window.SLACK_DATA = {
           "김동욱": 4
         },
         "menu": {
+          "김동욱": 1,
           "최민석": 2,
           "김규빈": 8,
           "배선유": 5
@@ -255848,6 +255849,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "1차 거절 / 키오스크 모드 및 결제 방법 안내 완료",
           "rr": 2
+        },
+        {
+          "time": "21:46",
+          "store": "취향아카이브",
+          "biz": "1721103273",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "21:30",
@@ -258960,7 +258972,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 240,
+        "online": 241,
         "offline": 28,
         "unknown": 0
       },
@@ -350008,7 +350020,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 06:00",
+    "at": "2026-10-16 06:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350138,7 +350150,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 06:00",
+    "at": "2026-10-16 06:15",
     "pri": {
       "days": 0,
       "failed": [],
