@@ -3,10 +3,234 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3552,
- "updatedAt": "2026-10-15 09:09",
+ "version": 3553,
+ "updatedAt": "2026-10-15 09:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1792025200.007739",
+   "date": "2026-10-15",
+   "time": "09:46",
+   "store": "한양파스타 인천점",
+   "biz": "6663501795",
+   "pos": "토스포스",
+   "content": "사진에있는메뉴 부탁드립니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1ifHQ_7nO3vOsAKgHMFBHkkby46q2K-xn/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1E2rENUQ6CEzQTEEEwXlJyWdoslgdFPoo/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ifHQ_7nO3vOsAKgHMFBHkkby46q2K-xn",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "땡초갈비크림파스타",
+       "price": 12900
+      },
+      {
+       "category": "",
+       "name": "알리오올리오",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "체·치·소",
+       "price": 12900
+      },
+      {
+       "category": "",
+       "name": "차돌마라로제파스타",
+       "price": 12900
+      },
+      {
+       "category": "",
+       "name": "한양갈비 오일파스타",
+       "price": 12900
+      },
+      {
+       "category": "",
+       "name": "차돌갈릭 오일파스타",
+       "price": 12900
+      },
+      {
+       "category": "",
+       "name": "베이컨크림파스타",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "바질크림파스타",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "베이컨토마토파스타",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "쉬림프토마토파스타",
+       "price": 11900
+      },
+      {
+       "category": "",
+       "name": "한양갈비필라프",
+       "price": 12900
+      },
+      {
+       "category": "",
+       "name": "차돌마라필라프",
+       "price": 12900
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "윙/봉 3개",
+       "price": 2500
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "윙/봉 5개",
+       "price": 4000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "윙/봉 10개",
+       "price": 7500
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "한양갈비범벅",
+       "price": 6000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "케이준감자",
+       "price": 5000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "잉글넙떡갈비 / 김치전 / 감자전",
+       "price": 3500
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "쿼서브라운 / 핑떡호떡",
+       "price": 1500
+      },
+      {
+       "category": "주류/음료",
+       "name": "참이슬후레쉬 / 처음처럼",
+       "price": 3500
+      },
+      {
+       "category": "주류/음료",
+       "name": "콜라(제로) / 사이다(제로)",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료",
+       "name": "복숭아아이스티 / 아샷추",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "아이스아메리카노",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1E2rENUQ6CEzQTEEEwXlJyWdoslgdFPoo",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "구슬아이스크림",
+       "name": "M size",
+       "price": 7900
+      },
+      {
+       "category": "구슬아이스크림",
+       "name": "XL size",
+       "price": 11900
+      },
+      {
+       "category": "구슬아이스크림",
+       "name": "XXL size",
+       "price": 15900
+      },
+      {
+       "category": "보틀음료",
+       "name": "ICE아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "보틀음료",
+       "name": "복숭아 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "보틀음료",
+       "name": "복숭아 아샷추",
+       "price": 4000
+      },
+      {
+       "category": "보틀음료",
+       "name": "레몬 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "보틀음료",
+       "name": "레몬 아샷추",
+       "price": 4000
+      },
+      {
+       "category": "사이드 / 추가메뉴",
+       "name": "한양감튀범벅",
+       "price": 6000
+      },
+      {
+       "category": "사이드 / 추가메뉴",
+       "name": "케이준감튀",
+       "price": 5000
+      },
+      {
+       "category": "사이드 / 추가메뉴",
+       "name": "옛날떡꼬치만두튀김",
+       "price": 2900
+      },
+      {
+       "category": "사이드 / 추가메뉴",
+       "name": "도지마크림롤",
+       "price": 4500
+      },
+      {
+       "category": "사이드 / 추가메뉴",
+       "name": "에그타르트",
+       "price": 3300
+      },
+      {
+       "category": "사이드 / 추가메뉴",
+       "name": "크림치즈프레즐",
+       "price": 3500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792025200007739"
+  },
   {
    "ts": "1791967698.233769",
    "date": "2026-10-14",
