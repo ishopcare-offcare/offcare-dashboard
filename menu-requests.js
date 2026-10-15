@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3572,
- "updatedAt": "2026-10-15 15:04",
+ "version": 3573,
+ "updatedAt": "2026-10-15 15:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1792044751.549109",
+   "date": "2026-10-15",
+   "time": "15:12",
+   "store": "온카페",
+   "biz": "5464000517",
+   "pos": "토스포스",
+   "content": "아메리카노 3500\n아이스 아메리카노 4000\n카페라떼 4000\n아이스 카페라떼 4500\n차 4500\n밀크티 4500\n아이스 밀크티 5000\n핫초코 5000\n애플주스 5000\n쿠키 2500",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792044751549109"
+  },
   {
    "ts": "1792043928.105359",
    "date": "2026-10-15",
@@ -24,8 +45,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792043928105359"
   },
   {
