@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20871,
+  "version": 20872,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252863,7 +252863,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "다른 업무 중 20시 이후 통화 예약 요청",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "17:00",
@@ -255722,7 +255722,7 @@ window.SLACK_DATA = {
     "2026-10-15": {
       "counts": {
         "as": {
-          "김규빈": 1,
+          "김규빈": 2,
           "송태양": 1,
           "고경림": 2
         },
@@ -255738,6 +255738,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:38",
+          "store": "제이모션",
+          "biz": "4871000583",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "프캣/ 주소 변경 후 최신정보 불러오기 불가하여 (프론트에서 결제정보 없음) / 캣프 최신화 작업 도움 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "재온보딩 및 사용방법 안내 완료",
+          "rr": 1
+        },
         {
           "time": "09:36",
           "store": "안동회관",
@@ -255825,7 +255837,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 6,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "09:50"
@@ -255973,22 +255985,15 @@ window.SLACK_DATA = {
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792025663.406
-      },
-      "1792024691.610339": {
-        "post": "1792024691.610339",
-        "lastSeen": 1792025663.406,
-        "r": 1,
-        "day": "2026-10-15",
-        "idx": 2
+        "lastSeen": 1792025775.91
       },
       "1792025200.007739": {
         "post": "1792025200.007739",
-        "lastSeen": 1792025663.406
+        "lastSeen": 1792025775.91
       },
       "1792025400.350969": {
         "post": "1792025400.350969",
-        "lastSeen": 1792025663.406
+        "lastSeen": 1792025775.91
       }
     },
     "days": {
@@ -344691,14 +344696,15 @@ window.SLACK_DATA = {
             "store": "제이모션",
             "biz": "4871000583",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 17.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:54",
+    "at": "2026-10-15 09:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344827,7 +344833,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:54",
+    "at": "2026-10-15 09:56",
     "pri": {
       "days": 0,
       "failed": [],
