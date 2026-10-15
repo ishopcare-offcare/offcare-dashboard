@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21095,
+  "version": 21096,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -257498,7 +257498,7 @@ window.SLACK_DATA = {
         "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "15:26",
+      "updatedAt": "15:28",
       "absent": [
         {
           "time": "13:15",
@@ -257518,11 +257518,19 @@ window.SLACK_DATA = {
         }
       ],
       "ob": {
-        "count": 5,
+        "count": 6,
         "byEmp": {
-          "김규빈": 5
+          "김규빈": 6
         },
         "items": [
+          {
+            "key": "2026년 10월 15일 오전 8:45:45|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790843904300899#1",
+            "handler": "김규빈",
+            "status": "",
+            "recvDate": "2026-10-15",
+            "planDate": "",
+            "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790843904300899"
+          },
           {
             "key": "2026년 10월 15일 오전 8:44:13|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1790500413535109#1",
             "handler": "김규빈",
@@ -257566,26 +257574,39 @@ window.SLACK_DATA = {
         ]
       },
       "voc": {
-        "responses": 5,
+        "responses": 10,
         "install": {
-          "count": 0,
-          "low": 0
-        },
-        "nps": {
           "count": 5,
           "low": 0
         },
+        "nps": {
+          "count": 10,
+          "low": 0
+        },
         "high": {
-          "install": 0,
-          "nps": 4
+          "install": 2,
+          "nps": 7
         },
         "npsDist": {
           "8": 1,
-          "10": 4
+          "9": 2,
+          "10": 7
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "3": 2,
+          "4": 1,
+          "5": 2
+        },
+        "byIndustry": {
+          "카페": 1,
+          "요식업": 1,
+          "서비스[학원]": 3
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 5,
+            "low": 0
+          },
           "1개월": {
             "total": 4,
             "low": 0
@@ -257596,16 +257617,24 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 1,
+            "low": 0
+          },
           "KPN": {
+            "total": 3,
+            "low": 0
+          },
+          "KIS": {
+            "total": 3,
+            "low": 0
+          },
+          "SECTA9": {
             "total": 1,
             "low": 0
           },
           "NICE": {
             "total": 1,
-            "low": 0
-          },
-          "KIS": {
-            "total": 2,
             "low": 0
           },
           "KCP": {
@@ -257615,7 +257644,32 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:28",
+            "store": "달빛오름",
+            "storeId": "704092",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 3,
+            "nps": 9,
+            "text": "유선들에 대한 설명이 없음 가성비 좋음",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "15:28",
+            "store": "프레이즈 음악학원",
+            "storeId": "673619",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 4,
+            "nps": 10,
+            "text": "원격 안내를 잘 해주심 너무 편하고 깔끔",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -257717,57 +257771,61 @@ window.SLACK_DATA = {
       },
       "1792025400.350969": {
         "post": "1792025400.350969",
-        "lastSeen": 1792045623.929,
+        "lastSeen": 1792045714.252,
         "r": 1,
         "day": "2026-10-15",
         "idx": 17
       },
       "1792027009.866319": {
         "post": "1792027009.866319",
-        "lastSeen": 1792045623.929
+        "lastSeen": 1792045714.252
       },
       "1792028700.765849": {
         "post": "1792028700.765849",
-        "lastSeen": 1792045623.929,
+        "lastSeen": 1792045714.252,
         "r": 1,
         "day": "2026-10-15",
         "idx": 18
       },
       "1792030788.047579": {
         "post": "1792030788.047579",
-        "lastSeen": 1792045623.929
+        "lastSeen": 1792045714.252
       },
       "1792037700.304859": {
         "post": "1792037700.304859",
-        "lastSeen": 1792045623.929,
+        "lastSeen": 1792045714.252,
         "r": 1,
         "day": "2026-10-15",
         "idx": 53
       },
       "1792037885.796799": {
         "post": "1792037885.796799",
-        "lastSeen": 1792045623.929
+        "lastSeen": 1792045714.252
       },
       "1792039446.539869": {
         "post": "1792039446.539869",
-        "lastSeen": 1792045623.929,
+        "lastSeen": 1792045714.252,
         "r": 1,
         "day": "2026-10-15",
         "idx": 63
       },
       "1792044752.060889": {
         "post": "1792044752.060889",
-        "lastSeen": 1792045623.929,
+        "lastSeen": 1792045714.252,
         "r": 1,
         "day": "2026-10-15",
         "idx": 113
       },
       "1792045048.584939": {
         "post": "1792045048.584939",
-        "lastSeen": 1792045623.929,
+        "lastSeen": 1792045714.252,
         "r": 1,
         "day": "2026-10-15",
         "idx": 112
+      },
+      "1792045678.089759": {
+        "post": "1792045678.089759",
+        "lastSeen": 1792045714.252
       }
     },
     "days": {
@@ -347480,23 +347538,23 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 15:27",
+    "at": "2026-10-15 15:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
     "rows": 4562,
-    "named": 1194,
+    "named": 1195,
     "unknownName": 68,
     "beforeStart": 0,
-    "done": 1194,
+    "done": 1195,
     "byStatus": {
       "일정등록완료": 765,
       "1차부재": 255,
       "점주직접접수": 97,
       "설치불가": 22,
-      "(빈칸)": 7,
+      "(빈칸)": 8,
       "자가설치": 37,
       "설치보류요청": 11
     }
@@ -347609,7 +347667,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 15:27",
+    "at": "2026-10-15 15:28",
     "pri": {
       "days": 0,
       "failed": [],
