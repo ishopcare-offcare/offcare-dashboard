@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20857,
+  "version": 20858,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255722,7 +255722,7 @@ window.SLACK_DATA = {
     "2026-10-15": {
       "counts": {
         "as": {
-          "고경림": 1
+          "고경림": 2
         },
         "booking": {
           "김동욱": 1
@@ -255730,6 +255730,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:25",
+          "store": "모앤도트",
+          "biz": "6904301212",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프론트+터미널(어떤 조합으로 사용하실지는 확인 하지 못했습니다.)  온보딩 요청(기계 어려워하셔서 최대한 방문설치 방어는 했으나 영상통화 진행중 내일 방문으로 요청을 주실 수도 있습니다.):꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:00",
           "store": "황금토스트",
@@ -255756,7 +255767,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -255905,14 +255916,14 @@ window.SLACK_DATA = {
       },
       "1792023275.733469": {
         "post": "1792023275.733469",
-        "lastSeen": 1792024134.705,
+        "lastSeen": 1792024191.764,
         "r": 1,
         "day": "2026-10-15",
         "idx": 0
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792024134.705
+        "lastSeen": 1792024191.764
       }
     },
     "days": {
@@ -344604,7 +344615,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:29",
+    "at": "2026-10-15 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344733,7 +344744,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:28",
+    "at": "2026-10-15 09:29",
     "pri": {
       "days": 0,
       "failed": [],
