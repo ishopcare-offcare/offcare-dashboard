@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3595,
- "updatedAt": "2026-10-15 17:25",
+ "version": 3596,
+ "updatedAt": "2026-10-15 17:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1792054438.956699",
+   "date": "2026-10-15",
+   "time": "17:53",
+   "store": "토이즈나(TOISNA)",
+   "biz": "2641902297",
+   "pos": "기타",
+   "content": "카테고리 이벤트 택1 여기에 \n\n할로윈데낄라쿠폰 : 0원\n\n만들어주세요.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792054438956699"
+  },
   {
    "ts": "1792050450.312839",
    "date": "2026-10-15",
