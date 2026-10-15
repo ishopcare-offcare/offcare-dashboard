@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20853,
+  "version": 20854,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -248555,7 +248555,7 @@ window.SLACK_DATA = {
           "최민석": 8,
           "심성현": 20,
           "고경림": 18,
-          "김현기": 19,
+          "김현기": 20,
           "배선유": 6,
           "송태양": 15,
           "서상원": 2,
@@ -248622,18 +248622,6 @@ window.SLACK_DATA = {
           "req": "영수증 불러오기 필요",
           "reasons": [
             "확인 후 미완료"
-          ]
-        },
-        {
-          "time": "14:15",
-          "store": "세신샵 아르떼",
-          "biz": "1216868234",
-          "handler": "김현기",
-          "cat": "as",
-          "intake": "online",
-          "req": "포프(pc) + 유프 온보딩요청드립니다",
-          "reasons": [
-            "1차 부재"
           ]
         }
       ],
@@ -250201,6 +250189,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "TS400B 온보딩 완료",
           "rr": 1
+        },
+        {
+          "time": "14:15",
+          "store": "세신샵 아르떼",
+          "biz": "1216868234",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포프(pc) + 유프 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재 / 민석님 후 온보딩 완료",
+          "rr": 2
         },
         {
           "time": "14:15",
@@ -255905,7 +255905,7 @@ window.SLACK_DATA = {
       },
       "1792023275.733469": {
         "post": "1792023275.733469",
-        "lastSeen": 1792023387.866,
+        "lastSeen": 1792023471.281,
         "r": 1,
         "day": "2026-10-15",
         "idx": 0
@@ -344600,7 +344600,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:17",
+    "at": "2026-10-15 09:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344608,7 +344608,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4554,
     "named": 1189,
-    "unknownName": 56,
+    "unknownName": 60,
     "beforeStart": 0,
     "done": 1189,
     "byStatus": {
@@ -344729,7 +344729,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:16",
+    "at": "2026-10-15 09:17",
     "pri": {
       "days": 0,
       "failed": [],
