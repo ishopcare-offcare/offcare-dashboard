@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3556,
- "updatedAt": "2026-10-15 11:20",
+ "version": 3557,
+ "updatedAt": "2026-10-15 11:21",
  "days": 30,
  "items": [
   {
@@ -27,8 +27,8 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1792030831.533619",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792030804128329"
   },
   {
@@ -17108,8 +17108,7 @@ window.MENU_REQUESTS = {
        "name": "ICE 연유라떼",
        "price": 5700
       }
-     ],
-     "path": "menu-files/1791426080_644379-0.jpg"
+     ]
     },
     {
      "name": "Resized_20261008_103351.jpg",
@@ -17152,8 +17151,7 @@ window.MENU_REQUESTS = {
        "name": "딸기바나나",
        "price": 6800
       }
-     ],
-     "path": "menu-files/1791426080_644379-1.jpg"
+     ]
     },
     {
      "name": "Resized_20261008_103358.jpg",
@@ -17261,8 +17259,7 @@ window.MENU_REQUESTS = {
        "name": "HOT 유자차",
        "price": 5500
       }
-     ],
-     "path": "menu-files/1791426080_644379-2.jpg"
+     ]
     }
    ],
    "datt": [],
