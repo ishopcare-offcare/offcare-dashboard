@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20858,
+  "version": 20859,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255726,6 +255726,9 @@ window.SLACK_DATA = {
         },
         "booking": {
           "김동욱": 1
+        },
+        "transfer": {
+          "김동욱": 1
         }
       },
       "pending": [],
@@ -255740,6 +255743,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "09:14",
+          "store": "인사이트 고등관 영어학원",
+          "biz": "4129405696",
+          "cat": "transfer",
+          "emp": "김동욱",
+          "req": "메뉴복사X, 연락 왔던 담당자분이 계셨으나 통화가 안된다며 인입,",
+          "hw": "",
+          "intake": "online",
+          "note": "2191702522 =&gt; 4129405696 2191702522 = 4129405696 / 터프 명의변경완료. 터프케이블없어 가결제 못함. 구매링크 전달 차주 화요일 오전 10시 가결제 진행 예정 / cc. cc.",
+          "rr": 3
         },
         {
           "time": "09:00",
@@ -255767,11 +255782,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:28"
+      "updatedAt": "09:30"
     }
   },
   "resp": {
@@ -255914,16 +255929,13 @@ window.SLACK_DATA = {
         "post": "1791989997.832399",
         "lastSeen": 1792008930.642
       },
-      "1792023275.733469": {
-        "post": "1792023275.733469",
-        "lastSeen": 1792024191.764,
-        "r": 1,
-        "day": "2026-10-15",
-        "idx": 0
-      },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792024191.764
+        "lastSeen": 1792024265.468
+      },
+      "1792024205.960089": {
+        "post": "1792024205.960089",
+        "lastSeen": 1792024265.468
       }
     },
     "days": {
@@ -344608,14 +344620,15 @@ window.SLACK_DATA = {
             "store": "인사이트 고등관 영어학원",
             "biz": "4129405696",
             "who": "김동욱",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 15.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:30",
+    "at": "2026-10-15 09:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344744,7 +344757,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:29",
+    "at": "2026-10-15 09:31",
     "pri": {
       "days": 0,
       "failed": [],
