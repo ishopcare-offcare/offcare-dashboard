@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3603,
- "updatedAt": "2026-10-15 20:15",
+ "version": 3604,
+ "updatedAt": "2026-10-15 20:21",
  "days": 30,
  "items": [
+  {
+   "ts": "1792063242.936819",
+   "date": "2026-10-15",
+   "time": "20:20",
+   "store": "취향아카이브",
+   "biz": "1721103273",
+   "pos": "",
+   "content": "엑셀 파일 내 메뉴 등록 요청 드립니다 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "f_88d2bf4ff574.xlsx 2.exs",
+     "fid": "F0C9ACMCC3D",
+     "from": "댓글",
+     "path": "menu-files/1792063242_936819-0.exs",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792063254.185409",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792063242936819"
+  },
   {
    "ts": "1792062408.642239",
    "date": "2026-10-15",
