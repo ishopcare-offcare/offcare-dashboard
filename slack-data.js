@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20850,
+  "version": 20851,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252396,7 +252396,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "님 해당 매장 키오스크 멀티패드만 가고 프론트는 출고 된걸까요? 아직 매장에 프론트는 못받으셧다고 하여 문의드립니다. 님 해당 매장 키오스크 멀티패드만 가고 프론트는 출고 된걸까요? 아직 매장에 프론트는 못받으셧다고 하여 문의드립니다. / 키오스크 2대 온보딩 완료",
-          "rr": 2
+          "rr": 3
         },
         {
           "time": "19:08",
@@ -344578,7 +344578,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:12",
+    "at": "2026-10-15 09:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344707,7 +344707,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:11",
+    "at": "2026-10-15 09:12",
     "pri": {
       "days": 0,
       "failed": [],
