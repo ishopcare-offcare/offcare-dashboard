@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20863,
+  "version": 20864,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -245548,7 +245548,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "터프명변 완료입니다",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "17:29",
@@ -250440,7 +250440,7 @@ window.SLACK_DATA = {
           "hw": ")",
           "intake": "online",
           "note": "1차 부재 / 포터프(포스기)+키오스크(타사) 명의변경 완료",
-          "rr": 2
+          "rr": 3
         },
         {
           "time": "13:49",
@@ -251256,7 +251256,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "명변 완료입니다",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "10:43",
@@ -255800,7 +255800,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:36"
+      "updatedAt": "09:38"
     }
   },
   "resp": {
@@ -255945,11 +255945,15 @@ window.SLACK_DATA = {
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792024681.946
+        "lastSeen": 1792024784.776
       },
       "1792024588.152439": {
         "post": "1792024588.152439",
-        "lastSeen": 1792024681.946
+        "lastSeen": 1792024784.776
+      },
+      "1792024691.610339": {
+        "post": "1792024691.610339",
+        "lastSeen": 1792024784.776
       }
     },
     "days": {
@@ -344642,7 +344646,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:38",
+    "at": "2026-10-15 09:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344771,7 +344775,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:38",
+    "at": "2026-10-15 09:39",
     "pri": {
       "days": 0,
       "failed": [],
@@ -344783,7 +344787,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 134,
+      "budgetLeft": 133,
       "failed": []
     }
   }
