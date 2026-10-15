@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20852,
+  "version": 20853,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255905,7 +255905,10 @@ window.SLACK_DATA = {
       },
       "1792023275.733469": {
         "post": "1792023275.733469",
-        "lastSeen": 1792023326.004
+        "lastSeen": 1792023387.866,
+        "r": 1,
+        "day": "2026-10-15",
+        "idx": 0
       }
     },
     "days": {
@@ -344578,11 +344581,26 @@ window.SLACK_DATA = {
             "dmin": 16.2
           }
         ]
+      },
+      "2026-10-15": {
+        "cnt": 1,
+        "sumMin": 1.3533588488896688,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:14",
+            "min": 1.4,
+            "store": "인사이트 고등관 영어학원",
+            "biz": "4129405696",
+            "who": "김동욱",
+            "cat": "transfer"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:15",
+    "at": "2026-10-15 09:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344711,7 +344729,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:15",
+    "at": "2026-10-15 09:16",
     "pri": {
       "days": 0,
       "failed": [],
