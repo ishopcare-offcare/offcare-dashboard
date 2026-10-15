@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20846,
+  "version": 20847,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252169,12 +252169,12 @@ window.SLACK_DATA = {
         },
         "booking": {
           "최민석": 2,
+          "송태양": 5,
           "서상원": 1,
           "고경림": 5,
           "박하림": 1,
           "배선유": 1,
           "심성현": 1,
-          "송태양": 4,
           "김동욱": 1
         },
         "extern": {
@@ -252203,18 +252203,6 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
-        {
-          "time": "18:00",
-          "store": "이뮤 아카이브(emyu archive)",
-          "biz": "3281203140",
-          "handler": "송태양",
-          "cat": "as",
-          "intake": "online",
-          "req": "• 용지 출력이 되지 않아 확인 부탁드립니다.",
-          "reasons": [
-            "1차 부재"
-          ]
-        },
         {
           "time": "14:20",
           "store": "원파인데이 (One Fine Day)",
@@ -252577,6 +252565,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "1차 부재 / 금일 오후 7시 재연락 요청",
           "rr": 2
+        },
+        {
+          "time": "18:00",
+          "store": "이뮤 아카이브(emyu archive)",
+          "biz": "3281203140",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "• 용지 출력이 되지 않아 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "통화거부",
+          "rr": 1
         },
         {
           "time": "18:00",
@@ -344563,7 +344563,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:03",
+    "at": "2026-10-15 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344692,7 +344692,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:03",
+    "at": "2026-10-15 09:08",
     "pri": {
       "days": 0,
       "failed": [],
