@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3571,
- "updatedAt": "2026-10-15 15:00",
+ "version": 3572,
+ "updatedAt": "2026-10-15 15:04",
  "days": 30,
  "items": [
   {
@@ -61675,51 +61675,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789453493948249"
-  },
-  {
-   "ts": "1789452184.455939",
-   "date": "2026-09-15",
-   "time": "15:03",
-   "store": "미식공감",
-   "biz": "5560403473",
-   "pos": "토스포스",
-   "content": "토스프로그램->NICE OKPOS프로그램으로 변경,원장 생성 완료 / 토플파 메뉴 그대로 복사 부탁드립니다.\n\n\n <https://w1659946222-hxm266180.slack.com/archives/C08TFJDCA1K/p1789432669237749?thread_ts=···.328569&cid=C08TFJDCA1K|https://w1659946222-hxm266180.slack.com/archives/C08TFJDCA1K/p1789432669237749?thread_ts=···.328569&cid=C08TFJDCA1K>\n<@U09UJ6H2SUR> 님,\n• 여기 토스프로그램->NICE OKPOS프로그램으로 변경,원장은 생성완료입니다.\n• 제가 나이스 OKPOS프로그램 원장만 생성가능 메뉴는 프로그램이 달라서 복사할수없고 메뉴요청방에 올려주셔야 할 것 같습니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1789454917.432259",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789452184455939"
-  },
-  {
-   "ts": "1789452156.491719",
-   "date": "2026-09-15",
-   "time": "15:02",
-   "store": "부곡맛전",
-   "biz": "5682000315",
-   "pos": "퍼스트포스",
-   "content": "메뉴추가",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "대구포  17000원",
-    "메뉴등록 완료"
-   ],
-   "rc": 3,
-   "lr": "1789452191.886819",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789452156491719"
   }
  ],
  "ocr": {
