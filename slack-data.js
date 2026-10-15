@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20865,
+  "version": 20866,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -246221,7 +246221,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "1차부재 / 터프 명변 완료입니다",
-          "rr": 2
+          "rr": 3
         },
         {
           "time": "15:51",
@@ -255746,7 +255746,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) + 터미널 + 금전함 온보딩 요청드립니다. (10/15 09:30 예약)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩 및 사용방법 안내 완료",
+          "rr": 1
         },
         {
           "time": "09:28",
@@ -255959,15 +255960,18 @@ window.SLACK_DATA = {
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792024927.808
+        "lastSeen": 1792025001.884
       },
       "1792024588.152439": {
         "post": "1792024588.152439",
-        "lastSeen": 1792024927.808
+        "lastSeen": 1792025001.884,
+        "r": 1,
+        "day": "2026-10-15",
+        "idx": 1
       },
       "1792024691.610339": {
         "post": "1792024691.610339",
-        "lastSeen": 1792024927.808
+        "lastSeen": 1792025001.884
       }
     },
     "days": {
@@ -344642,8 +344646,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-15": {
-        "cnt": 1,
-        "sumMin": 1.3533588488896688,
+        "cnt": 2,
+        "sumMin": 7.631584866841634,
         "over": 0,
         "items": [
           {
@@ -344654,13 +344658,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "transfer",
             "dmin": 15.9
+          },
+          {
+            "hm": "09:36",
+            "min": 6.3,
+            "store": "안동회관",
+            "biz": "7856800760",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:42",
+    "at": "2026-10-15 09:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344789,7 +344801,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:42",
+    "at": "2026-10-15 09:43",
     "pri": {
       "days": 0,
       "failed": [],
@@ -344801,7 +344813,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 134,
+      "budgetLeft": 133,
       "failed": []
     }
   }
