@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3550,
- "updatedAt": "2026-10-14 18:17",
+ "version": 3551,
+ "updatedAt": "2026-10-15 09:00",
  "days": 30,
  "items": [
   {
@@ -61030,29 +61030,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789430629489939"
-  },
-  {
-   "ts": "1789430402.137989",
-   "date": "2026-09-15",
-   "time": "09:00",
-   "store": "한계령식당",
-   "biz": "3054769137",
-   "pos": "오케이포스",
-   "content": "오케이포스 사용 / 메뉴추가 부탁드립니다.\n• 카테고리: 추천메뉴\n• 상품명: 대구뽈탕\n• 가격: 25,000원\n• 배치: 오징어볶음 오른쪽\n    ◦ 완료 후 문자 발송 부탁드립니다.\n> 계정 확인 안되서 원격으로 확인필요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "처리된건"
-   ],
-   "rc": 2,
-   "lr": "1789430445.341239",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789430402137989"
   }
  ],
  "ocr": {

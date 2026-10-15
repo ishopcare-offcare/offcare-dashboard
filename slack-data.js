@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20843,
+  "version": 20844,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255720,26 +255720,36 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-15": {
-      "counts": {},
+      "counts": {
+        "booking": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "07:15",
+          "store": "아시아(ASIA)",
+          "biz": "4272000727",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "TOSS POS -&gt; OK POS 전환 건 / 프로그램 설치, 매장 환경 설정, 메뉴 등록 완료",
+          "hw": "",
+          "intake": "online",
+          "note": "성현님 안녕하세요. 금일 오전 7시 15분이 아닌 익일 오전 8시 30분 방문하여 진행해주기로 하셨다는데 맞을까요?? 성현님 안녕하세요. 금일 오전 7시 15분이 아닌 익일 오전 8시 30분 방문하여 진행해주기로 하셨다는데 맞을까요?? / 익일 방문은 테이블오더. 금일 토스포스 -&gt; 오케이포스 전환을 위해 프론트 재온보딩 필요. 오후 2시 통화요청. ",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "07:15"
+      "updatedAt": "09:00"
     }
   },
   "resp": {
     "watch": {
-      "1791849608.153869": {
-        "post": "1791849608.153869",
-        "lastSeen": 1791922528.075,
-        "r": 1,
-        "day": "2026-10-13",
-        "idx": 0
-      },
       "1791854208.801149": {
         "post": "1791854208.801149",
         "lastSeen": 1791922528.075
@@ -344553,13 +344563,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 08:46",
+    "at": "2026-10-15 09:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4552,
+    "rows": 4554,
     "named": 1189,
     "unknownName": 56,
     "beforeStart": 0,
@@ -344682,7 +344692,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 08:46",
+    "at": "2026-10-15 09:00",
     "pri": {
       "days": 0,
       "failed": [],
