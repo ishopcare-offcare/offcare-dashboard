@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3578,
- "updatedAt": "2026-10-15 15:30",
+ "version": 3579,
+ "updatedAt": "2026-10-15 15:33",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,866 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261015_151330008_02.jpg",
+     "fid": "F0C985AFP5Z",
+     "from": "댓글",
+     "path": "menu-files/1792045833_839029-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "삐약2",
+       "name": "무뼈간장닭발+조개탕",
+       "price": 31000
+      },
+      {
+       "category": "삐약2",
+       "name": "무뼈간장닭발+홍합탕",
+       "price": 31000
+      },
+      {
+       "category": "삐약2",
+       "name": "무뼈간장닭발+오뎅탕",
+       "price": 31000
+      },
+      {
+       "category": "삐약2",
+       "name": "야채무뼈닭발+조개탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약2",
+       "name": "야채무뼈닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약2",
+       "name": "야채무뼈닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약2",
+       "name": "똥집세트+조개탕",
+       "price": 30000
+      },
+      {
+       "category": "삐약2",
+       "name": "똥집세트+홍합탕",
+       "price": 30000
+      },
+      {
+       "category": "삐약2",
+       "name": "똥집세트+오뎅탕",
+       "price": 30000
+      },
+      {
+       "category": "삐약2",
+       "name": "닭목살세트+조개탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약2",
+       "name": "닭목살세트+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약2",
+       "name": "닭목살세트+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약2",
+       "name": "닭날개세트+조개탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약2",
+       "name": "닭날개세트+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약2",
+       "name": "닭날개세트+오뎅탕",
+       "price": 34000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261015_151330008_03.jpg",
+     "fid": "F0C9E6KCGBU",
+     "from": "댓글",
+     "path": "menu-files/1792045833_839029-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "포장",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "포장",
+       "name": "무뼈세트+조개탕",
+       "price": 34000
+      },
+      {
+       "category": "포장",
+       "name": "통뼈반",
+       "price": 10000
+      },
+      {
+       "category": "포장",
+       "name": "통뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "포장",
+       "name": "무뼈닭발",
+       "price": 20000
+      },
+      {
+       "category": "포장",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "포장",
+       "name": "야채무뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "포장",
+       "name": "무뼈반",
+       "price": 10000
+      },
+      {
+       "category": "포장",
+       "name": "닭똥집",
+       "price": 16000
+      },
+      {
+       "category": "포장",
+       "name": "야채무뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "포장",
+       "name": "똥집+무뼈",
+       "price": 35000
+      },
+      {
+       "category": "포장",
+       "name": "똥집+통뼈",
+       "price": 34000
+      },
+      {
+       "category": "포장",
+       "name": "홍합탕",
+       "price": 16000
+      },
+      {
+       "category": "포장",
+       "name": "오뎅탕",
+       "price": 16000
+      },
+      {
+       "category": "포장",
+       "name": "샐러드(대)",
+       "price": 1000
+      },
+      {
+       "category": "포장",
+       "name": "조개탕",
+       "price": 16000
+      },
+      {
+       "category": "포장",
+       "name": "닭목살직화구이",
+       "price": 19000
+      },
+      {
+       "category": "포장",
+       "name": "샐러드추가",
+       "price": 500
+      },
+      {
+       "category": "포장",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "포장",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "포장",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "포장",
+       "name": "쿨피스",
+       "price": 2500
+      },
+      {
+       "category": "포장",
+       "name": "깻잎 추가",
+       "price": 500
+      },
+      {
+       "category": "포장",
+       "name": "주먹밥",
+       "price": 3000
+      },
+      {
+       "category": "포장",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "포장",
+       "name": "계란찜",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261015_151330008_04.jpg",
+     "fid": "F0C985BM9S7",
+     "from": "댓글",
+     "path": "menu-files/1792045833_839029-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "포장2",
+       "name": "무뼈세트닭발+조개탕",
+       "price": 34000
+      },
+      {
+       "category": "포장2",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "포장2",
+       "name": "무뼈세트닭발+오뎅탕",
+       "price": 34000
+      },
+      {
+       "category": "포장2",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "포장2",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "포장2",
+       "name": "통뼈세트닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "포장2",
+       "name": "야채무뼈세트닭발+조개탕",
+       "price": 33000
+      },
+      {
+       "category": "포장2",
+       "name": "야채무뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "포장2",
+       "name": "야채무뼈세트닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "포장2",
+       "name": "똥집세트똥집+홍합탕",
+       "price": 30000
+      },
+      {
+       "category": "포장2",
+       "name": "똥집세트똥집+홍합탕",
+       "price": 30000
+      },
+      {
+       "category": "포장2",
+       "name": "똥집세트똥집+오뎅탕",
+       "price": 30000
+      },
+      {
+       "category": "포장2",
+       "name": "닭목살+무뼈닭발",
+       "price": 37000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261015_151330008_05.jpg",
+     "fid": "F0C9G98PV3K",
+     "from": "댓글",
+     "path": "menu-files/1792045833_839029-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달",
+       "name": "무뼈세트+조개탕",
+       "price": 34000
+      },
+      {
+       "category": "배달",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "배달",
+       "name": "무뼈세트+오뎅탕",
+       "price": 34000
+      },
+      {
+       "category": "배달",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "배달",
+       "name": "야채무뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "배달",
+       "name": "조개탕",
+       "price": 16000
+      },
+      {
+       "category": "배달",
+       "name": "오뎅탕",
+       "price": 16000
+      },
+      {
+       "category": "배달",
+       "name": "홍합탕",
+       "price": 16000
+      },
+      {
+       "category": "배달",
+       "name": "샐러드추가",
+       "price": 500
+      },
+      {
+       "category": "배달",
+       "name": "배달비",
+       "price": 3000
+      },
+      {
+       "category": "배달",
+       "name": "무뼈닭발",
+       "price": 20000
+      },
+      {
+       "category": "배달",
+       "name": "통뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "배달",
+       "name": "닭똥집",
+       "price": 16000
+      },
+      {
+       "category": "배달",
+       "name": "깻잎 추가",
+       "price": 500
+      },
+      {
+       "category": "배달",
+       "name": "배달비",
+       "price": 1000
+      },
+      {
+       "category": "배달",
+       "name": "무뼈반",
+       "price": 10000
+      },
+      {
+       "category": "배달",
+       "name": "통뼈반",
+       "price": 10000
+      },
+      {
+       "category": "배달",
+       "name": "닭목살직화구이",
+       "price": 19000
+      },
+      {
+       "category": "배달",
+       "name": "오돌뼈",
+       "price": 16000
+      },
+      {
+       "category": "배달",
+       "name": "배달비",
+       "price": 2000
+      },
+      {
+       "category": "배달",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "배달",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "배달",
+       "name": "쿨피스",
+       "price": 2500
+      },
+      {
+       "category": "배달",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "배달",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "배달",
+       "name": "주먹밥",
+       "price": 3000
+      },
+      {
+       "category": "배달",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "배달",
+       "name": "즉석 떡볶이",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261015_151330008_06.jpg",
+     "fid": "F0C985CQE59",
+     "from": "댓글",
+     "path": "menu-files/1792045833_839029-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달2",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "배달2",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "배달2",
+       "name": "통뼈세트닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "배달2",
+       "name": "똥집+똥집",
+       "price": 30000
+      },
+      {
+       "category": "배달2",
+       "name": "배달",
+       "price": 1000
+      },
+      {
+       "category": "배달2",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "배달2",
+       "name": "통뼈세트닭발+조개탕",
+       "price": 33000
+      },
+      {
+       "category": "배달2",
+       "name": "무뼈세트닭발+오뎅탕",
+       "price": 34000
+      },
+      {
+       "category": "배달2",
+       "name": "똥집+통뼈",
+       "price": 34000
+      },
+      {
+       "category": "배달2",
+       "name": "퀵비",
+       "price": 2000
+      },
+      {
+       "category": "배달2",
+       "name": "야채무뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "배달2",
+       "name": "야채무뼈세트닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "배달2",
+       "name": "똥집+무뼈",
+       "price": 35000
+      },
+      {
+       "category": "배달2",
+       "name": "똥집세트똥집+홍합탕",
+       "price": 30000
+      },
+      {
+       "category": "배달2",
+       "name": "퀵비",
+       "price": 3000
+      },
+      {
+       "category": "배달2",
+       "name": "똥집세트똥집+오뎅탕",
+       "price": 30000
+      },
+      {
+       "category": "배달2",
+       "name": "똥집+야채무뼈",
+       "price": 34000
+      },
+      {
+       "category": "배달2",
+       "name": "야채무뼈세트닭발+조개탕",
+       "price": 33000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261015_151330008.jpg",
+     "fid": "F0C985DT6RH",
+     "from": "댓글",
+     "path": "menu-files/1792045833_839029-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "삐약",
+       "name": "무뼈세트닭발+조개탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈세트+오뎅탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈닭발",
+       "price": 20000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈반",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈세트닭발+조개탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈세트닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈반",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "조개탕",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "홍합탕",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "오뎅탕",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "닭날개직화구이2인분",
+       "price": 20000
+      },
+      {
+       "category": "삐약",
+       "name": "닭날개직화구이1인분",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "닭똥집",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "똥집소금구이",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "야채무뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "삐약",
+       "name": "닭목살직화구이",
+       "price": 19000
+      },
+      {
+       "category": "삐약",
+       "name": "닭목살직화구이1인분",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "주먹밥",
+       "price": 3000
+      },
+      {
+       "category": "삐약",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "삐약",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "삐약",
+       "name": "조개추가(홀)",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "삐약",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "삐약",
+       "name": "쿨피스",
+       "price": 2500
+      },
+      {
+       "category": "삐약",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261015_151330008_01.jpg",
+     "fid": "F0CA8P54CFJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "삐약",
+       "name": "무뼈세트닭발+조개탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈세트닭발+홍합탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈세트+오뎅탕",
+       "price": 34000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈닭발",
+       "price": 20000
+      },
+      {
+       "category": "삐약",
+       "name": "무뼈반",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈세트닭발+조개탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈세트닭발+홍합탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈세트닭발+오뎅탕",
+       "price": 33000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "삐약",
+       "name": "통뼈반",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "조개탕",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "홍합탕",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "오뎅탕",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "닭날개직화구이2인분",
+       "price": 20000
+      },
+      {
+       "category": "삐약",
+       "name": "닭날개직화구이1인분",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "닭똥집",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "똥집소금구이",
+       "price": 16000
+      },
+      {
+       "category": "삐약",
+       "name": "야채무뼈닭발",
+       "price": 19000
+      },
+      {
+       "category": "삐약",
+       "name": "닭목살직화구이",
+       "price": 19000
+      },
+      {
+       "category": "삐약",
+       "name": "닭목살직화구이1인분",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "주먹밥",
+       "price": 3000
+      },
+      {
+       "category": "삐약",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "삐약",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "삐약",
+       "name": "조개추가(홀)",
+       "price": 10000
+      },
+      {
+       "category": "삐약",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "삐약",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "삐약",
+       "name": "쿨피스",
+       "price": 2500
+      },
+      {
+       "category": "삐약",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "화면이 왜 흔들리나했네"
+   ],
+   "rc": 5,
+   "lr": "1792045893.341059",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792045833839029"
   },
   {
