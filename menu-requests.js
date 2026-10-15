@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3558,
- "updatedAt": "2026-10-15 11:27",
+ "version": 3559,
+ "updatedAt": "2026-10-15 11:51",
  "days": 30,
  "items": [
+  {
+   "ts": "1792032677.334339",
+   "date": "2026-10-15",
+   "time": "11:51",
+   "store": "샌딜리버블 SAND&SALAD 효자서곡점",
+   "biz": "6121962761",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792032680.225339",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792032677334339"
+  },
   {
    "ts": "1792030804.128329",
    "date": "2026-10-15",
