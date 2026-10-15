@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20864,
+  "version": 20865,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255721,6 +255721,9 @@ window.SLACK_DATA = {
     },
     "2026-10-15": {
       "counts": {
+        "onboarding": {
+          "김규빈": 1
+        },
         "as": {
           "송태양": 1,
           "고경림": 2
@@ -255734,6 +255737,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "미스터브리즈 커피",
+          "biz": "1011255325",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "포프(태블릿) + 터미널 + 금전함 온보딩 요청드립니다. (10/15 09:30 예약)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:28",
           "store": "양촌리돈가스 민락점",
@@ -255796,7 +255810,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 0,
         "unknown": 0
       },
@@ -255945,15 +255959,15 @@ window.SLACK_DATA = {
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792024784.776
+        "lastSeen": 1792024927.808
       },
       "1792024588.152439": {
         "post": "1792024588.152439",
-        "lastSeen": 1792024784.776
+        "lastSeen": 1792024927.808
       },
       "1792024691.610339": {
         "post": "1792024691.610339",
-        "lastSeen": 1792024784.776
+        "lastSeen": 1792024927.808
       }
     },
     "days": {
@@ -344646,7 +344660,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:40",
+    "at": "2026-10-15 09:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344775,7 +344789,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:39",
+    "at": "2026-10-15 09:42",
     "pri": {
       "days": 0,
       "failed": [],
@@ -344787,7 +344801,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 133,
+      "budgetLeft": 134,
       "failed": []
     }
   }
