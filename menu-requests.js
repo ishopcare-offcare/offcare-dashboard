@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3600,
- "updatedAt": "2026-10-15 18:05",
+ "version": 3601,
+ "updatedAt": "2026-10-15 19:32",
  "days": 30,
  "items": [
   {
@@ -62545,111 +62545,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789519230730479"
-  },
-  {
-   "ts": "1789468274.039419",
-   "date": "2026-09-15",
-   "time": "19:31",
-   "store": "보글보글",
-   "biz": "3860702916",
-   "pos": "토스포스",
-   "content": "전체입력",
-   "special": "<mailto:···|···>",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "4791.jpg",
-     "fid": "F0C28AEER4L",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "무인라면",
-       "price": 2500
-      },
-      {
-       "category": "",
-       "name": "계란토핑",
-       "price": 800
-      },
-      {
-       "category": "",
-       "name": "치즈토핑",
-       "price": 800
-      },
-      {
-       "category": "",
-       "name": "참치",
-       "price": 1300
-      },
-      {
-       "category": "",
-       "name": "탄산(캔)",
-       "price": 8500
-      },
-      {
-       "category": "",
-       "name": "생수",
-       "price": 500
-      },
-      {
-       "category": "",
-       "name": "콜라",
-       "price": 1300
-      },
-      {
-       "category": "",
-       "name": "콜라 제로",
-       "price": 1500
-      },
-      {
-       "category": "",
-       "name": "스프라이트",
-       "price": 1300
-      },
-      {
-       "category": "",
-       "name": "밀키스",
-       "price": 1000
-      },
-      {
-       "category": "",
-       "name": "햇반",
-       "price": 1300
-      },
-      {
-       "category": "",
-       "name": "단무지",
-       "price": 500
-      },
-      {
-       "category": "",
-       "name": "치즈불고기버거",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "치킨텐더",
-       "price": 0
-      }
-     ],
-     "path": "menu-files/1789468274_039419-0.jpg"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "메일에 없음",
-    "다시 요청드림",
-    "완"
-   ],
-   "rc": 5,
-   "lr": "1789518311.390759",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789468274039419"
   }
  ],
  "ocr": {
