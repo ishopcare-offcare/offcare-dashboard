@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 20859,
+  "version": 20860,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -255722,6 +255722,7 @@ window.SLACK_DATA = {
     "2026-10-15": {
       "counts": {
         "as": {
+          "송태양": 1,
           "고경림": 2
         },
         "booking": {
@@ -255733,6 +255734,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:28",
+          "store": "양촌리돈가스 민락점",
+          "biz": "2690803408",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "전일 명의변경으로 다운로드 완료 매장, 테이블QR 주문시 현황에 뜨지 않는다하여 점검부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 2
+        },
         {
           "time": "09:25",
           "store": "모앤도트",
@@ -255782,7 +255795,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -255931,11 +255944,11 @@ window.SLACK_DATA = {
       },
       "1792023709.169129": {
         "post": "1792023709.169129",
-        "lastSeen": 1792024265.468
+        "lastSeen": 1792024381.416
       },
       "1792024205.960089": {
         "post": "1792024205.960089",
-        "lastSeen": 1792024265.468
+        "lastSeen": 1792024381.416
       }
     },
     "days": {
@@ -344628,7 +344641,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-15 09:31",
+    "at": "2026-10-15 09:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -344757,7 +344770,7 @@ window.SLACK_DATA = {
     "2026-10-15": 2
   },
   "noteMig": {
-    "at": "2026-10-15 09:31",
+    "at": "2026-10-15 09:33",
     "pri": {
       "days": 0,
       "failed": [],
