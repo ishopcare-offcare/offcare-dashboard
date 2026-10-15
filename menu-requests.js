@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3601,
- "updatedAt": "2026-10-15 19:32",
+ "version": 3602,
+ "updatedAt": "2026-10-15 20:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1792062408.642239",
+   "date": "2026-10-15",
+   "time": "20:06",
+   "store": "사시미",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 사시미 메뉴\n키오스크 토스 둘다 부탁드립니다\n \n 회 단품\n 오마카세 모듬회 소(1~1.5인)  39000\n  대표메뉴          중(2인)        59000\n                        대(3인)        85000\n                        특(4인)        110000\n \n 대방어 소(1~1.5인)  57000\n            중(2인)       79000\n            대(3인)       99000\n            특(4인)       128000\n \n 대광어 소(1\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a13f3df2ce2da32>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a13f3df2ce2da32",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792062408642239"
+  },
   {
    "ts": "1792054895.123379",
    "date": "2026-10-15",
