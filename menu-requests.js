@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3564,
- "updatedAt": "2026-10-15 14:08",
+ "version": 3565,
+ "updatedAt": "2026-10-15 14:09",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,174 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "0b006535-d239-4133-8e6a-42e107228532.jpg",
+     "fid": "F0C9FPKQPU1",
+     "from": "댓글",
+     "path": "menu-files/1792040857_650649-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "호두과자",
+       "name": "호두과자 5개",
+       "price": 3500
+      },
+      {
+       "category": "호두과자",
+       "name": "호두과자 10개",
+       "price": 6000
+      },
+      {
+       "category": "호두과자",
+       "name": "호두과자 20개",
+       "price": 12000
+      },
+      {
+       "category": "호두과자",
+       "name": "호두과자 30개",
+       "price": 18000
+      },
+      {
+       "category": "미니붕어빵",
+       "name": "미니붕어빵 5개",
+       "price": 3500
+      },
+      {
+       "category": "미니붕어빵",
+       "name": "미니붕어빵 10개",
+       "price": 6000
+      },
+      {
+       "category": "미니붕어빵",
+       "name": "미니붕어빵 20개",
+       "price": 12000
+      },
+      {
+       "category": "미니붕어빵",
+       "name": "미니붕어빵 30개",
+       "price": 18000
+      },
+      {
+       "category": "콘옥수수",
+       "name": "콘옥수수 5개",
+       "price": 3500
+      },
+      {
+       "category": "콘옥수수",
+       "name": "콘옥수수 10개",
+       "price": 6000
+      },
+      {
+       "category": "콘옥수수",
+       "name": "콘옥수수 20개",
+       "price": 12000
+      },
+      {
+       "category": "콘옥수수",
+       "name": "콘옥수수 30개",
+       "price": 18000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "초코라떼",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "딸기라떼",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "자몽에이드",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "레몬에이드",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "유자애플에이드",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "아이스티",
+       "price": 2000
+      },
+      {
+       "category": "티",
+       "name": "유자애플티",
+       "price": 4000
+      },
+      {
+       "category": "티",
+       "name": "시그니쳐티",
+       "price": 3500
+      },
+      {
+       "category": "젤라또",
+       "name": "바닐라",
+       "price": 4000
+      },
+      {
+       "category": "젤라또",
+       "name": "초코",
+       "price": 4000
+      },
+      {
+       "category": "젤라또",
+       "name": "녹차",
+       "price": 4000
+      },
+      {
+       "category": "젤라또",
+       "name": "딸기",
+       "price": 4000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "디저트 5개 + 아메리카노 1잔",
+       "price": 6000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "디저트 30개 + 아메리카노 1잔",
+       "price": 20000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "앙버터(2개)",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "토스트",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792040861.773539",
+   "replies": [
+    "해당 메뉴판으로 등록해주시면 세부사항 직접 수정하시겠다고 합니다"
+   ],
+   "rc": 2,
+   "lr": "1792040888.124889",
    "rfx": 3,
    "status": "wait",
    "handler": null,
