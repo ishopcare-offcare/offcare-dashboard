@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21430,
+  "version": 21431,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259437,7 +259437,8 @@ window.SLACK_DATA = {
           "req": "토스포스 태블릿 + 프론트 + 유프 + 키오스크 사용 중 / 키오스크 주문 건이 프린터기 출력이 안되어 확인 요청 주셨습니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "주문서 출력설정완료 영수증 + 주문서 분리 출력완료",
+          "rr": 1
         },
         {
           "time": "10:17",
@@ -259661,7 +259662,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "11:03",
+      "updatedAt": "11:09",
       "voc": {
         "responses": 3,
         "install": {
@@ -259853,14 +259854,14 @@ window.SLACK_DATA = {
       },
       "1792116007.909149": {
         "post": "1792116007.909149",
-        "lastSeen": 1792116447.809,
+        "lastSeen": 1792116636.41,
         "r": 1,
         "day": "2026-10-16",
         "idx": 23
       },
       "1792116165.862999": {
         "post": "1792116165.862999",
-        "lastSeen": 1792116447.809,
+        "lastSeen": 1792116636.41,
         "r": 1,
         "day": "2026-10-16",
         "idx": 24
@@ -350717,7 +350718,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:07",
+    "at": "2026-10-16 11:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350847,7 +350848,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:07",
+    "at": "2026-10-16 11:10",
     "pri": {
       "days": 0,
       "failed": [],
