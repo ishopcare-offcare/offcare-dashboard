@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3644,
- "updatedAt": "2026-10-16 13:19",
+ "version": 3645,
+ "updatedAt": "2026-10-16 13:22",
  "days": 30,
  "items": [
   {
@@ -63474,82 +63474,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789542458257129"
-  },
-  {
-   "ts": "1789532559.998929",
-   "date": "2026-09-16",
-   "time": "13:22",
-   "store": "홍천식당",
-   "biz": "7986900837",
-   "pos": "토스포스",
-   "content": "전체메뉴를  사진처럼  입력해주세요",
-   "special": "홀 배치도와  메뉴판  사진참조",
-   "drive": [
-    "https://drive.google.com/file/d/1nkxtXrLISLGFXz6Fj1c7A60YG9R70XpA/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1St4_vy_4MvJ5ajKfadWYBO181fdFd3nh/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1nkxtXrLISLGFXz6Fj1c7A60YG9R70XpA",
-     "kind": "other",
-     "menu": []
-    },
-    {
-     "id": "1St4_vy_4MvJ5ajKfadWYBO181fdFd3nh",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "Menu",
-       "name": "불맛제육볶음",
-       "price": 10000
-      },
-      {
-       "category": "Menu",
-       "name": "찐한 김치찌개",
-       "price": 9000
-      },
-      {
-       "category": "Menu",
-       "name": "매콤 고추장찌개",
-       "price": 9000
-      },
-      {
-       "category": "Side",
-       "name": "김치볶음밥",
-       "price": 9000
-      },
-      {
-       "category": "Side",
-       "name": "김치전",
-       "price": 8000
-      },
-      {
-       "category": "Drink",
-       "name": "맥주",
-       "price": 5000
-      },
-      {
-       "category": "Drink",
-       "name": "소주",
-       "price": 4000
-      },
-      {
-       "category": "Drink",
-       "name": "음료",
-       "price": 2000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789532563.119719",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789532559998929"
   }
  ],
  "ocr": {
