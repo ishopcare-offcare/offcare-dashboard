@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21444,
+  "version": 21445,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259272,9 +259272,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "배선유": 6,
+          "김현기": 3,
           "심성현": 7,
           "김동욱": 3,
-          "김현기": 2,
           "박하림": 2
         },
         "onboarding": {
@@ -259337,6 +259337,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "타사 포스 온보딩 상태 / 온보딩 출력 테스트 완료",
+          "rr": 2
+        },
+        {
+          "time": "11:13",
+          "store": "전진 법률사무소",
+          "biz": "3402501972",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "프론트 단말기가  화면 깜빡임과 검은 화면이 반복되며 먹통이 되었다 하십니다. 재부팅 해도 동일하다 하셔서 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "가산하나비즈메트로 2차 / 가산동 554-2번지 16층 1613호 / 하드웨어 불량 / as 대체품 발송 및 회수 접수 완료",
           "rr": 2
         },
         {
@@ -259746,7 +259758,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 30,
+        "online": 31,
         "offline": 7,
         "unknown": 0
       },
@@ -259947,17 +259959,10 @@ window.SLACK_DATA = {
       },
       "1792116165.862999": {
         "post": "1792116165.862999",
-        "lastSeen": 1792117617.081,
+        "lastSeen": 1792117679.592,
         "r": 1,
         "day": "2026-10-16",
         "idx": 24
-      },
-      "1792116836.664729": {
-        "post": "1792116836.664729",
-        "lastSeen": 1792117617.081,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 25
       }
     },
     "days": {
@@ -350813,7 +350818,8 @@ window.SLACK_DATA = {
             "store": "전진 법률사무소",
             "biz": "3402501972",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13.5
           },
           {
             "hm": "11:12",
@@ -350838,13 +350844,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:27",
+    "at": "2026-10-16 11:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4576,
+    "rows": 4577,
     "named": 1201,
     "unknownName": 76,
     "beforeStart": 0,
@@ -350968,7 +350974,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:26",
+    "at": "2026-10-16 11:27",
     "pri": {
       "days": 0,
       "failed": [],
