@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21445,
+  "version": 21446,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259274,7 +259274,7 @@ window.SLACK_DATA = {
           "배선유": 6,
           "김현기": 3,
           "심성현": 7,
-          "김동욱": 3,
+          "김동욱": 4,
           "박하림": 2
         },
         "onboarding": {
@@ -259397,6 +259397,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "11:02",
+          "store": "수기네상회",
+          "biz": "8953201859",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "터미널 배달 주문서 및 영수증 출력되도록 세팅 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "터프 이용중 / 노트북에서 배민,쿠팡 사용하며 터미널에서 출력되길 원하심. 터미널 타사포스 연동으로 네트워크 프린터 설정. TS-400드라이버 설치 후 배민 프린터 설정해드림. 쿠팡은 ID/PW 찾으신 뒤 고객센터로 다시 연락주기로 하심",
+          "rr": 1
         },
         {
           "time": "11:00",
@@ -259758,7 +259770,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 31,
+        "online": 32,
         "offline": 7,
         "unknown": 0
       },
@@ -259956,13 +259968,6 @@ window.SLACK_DATA = {
       "1792076439.931269": {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
-      },
-      "1792116165.862999": {
-        "post": "1792116165.862999",
-        "lastSeen": 1792117679.592,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 24
       }
     },
     "days": {
@@ -350810,7 +350815,8 @@ window.SLACK_DATA = {
             "store": "수기네상회",
             "biz": "8953201859",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 25.8
           },
           {
             "hm": "11:13",
@@ -350844,13 +350850,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:28",
+    "at": "2026-10-16 11:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4577,
+    "rows": 4578,
     "named": 1201,
     "unknownName": 76,
     "beforeStart": 0,
@@ -350974,7 +350980,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:27",
+    "at": "2026-10-16 11:29",
     "pri": {
       "days": 0,
       "failed": [],
