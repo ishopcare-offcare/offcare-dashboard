@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21355,
+  "version": 21356,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259448,25 +259448,28 @@ window.SLACK_DATA = {
       },
       "1792107901.222819": {
         "post": "1792107901.222819",
-        "lastSeen": 1792109193.446,
+        "lastSeen": 1792109266.323,
         "r": 1,
         "day": "2026-10-16",
         "idx": 1
       },
       "1792108816.738409": {
         "post": "1792108816.738409",
-        "lastSeen": 1792109193.446,
+        "lastSeen": 1792109266.323,
         "r": 1,
         "day": "2026-10-16",
         "idx": 0
       },
       "1792109182.033929": {
         "post": "1792109182.033929",
-        "lastSeen": 1792109193.446
+        "lastSeen": 1792109266.323,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 2
       },
       "1792109177.939499": {
         "post": "1792109177.939499",
-        "lastSeen": 1792109193.446
+        "lastSeen": 1792109266.323
       }
     },
     "days": {
@@ -350088,8 +350091,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 2,
-        "sumMin": 19.61306286652883,
+        "cnt": 3,
+        "sumMin": 20.41057238181432,
         "over": 0,
         "items": [
           {
@@ -350107,13 +350110,21 @@ window.SLACK_DATA = {
             "biz": "6539501978",
             "who": "김동욱",
             "cat": "transfer"
+          },
+          {
+            "hm": "09:06",
+            "min": 0.8,
+            "store": "주식회사 피엠지솔루션즈",
+            "biz": "4968100438",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 09:06",
+    "at": "2026-10-16 09:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350121,7 +350132,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4575,
     "named": 1200,
-    "unknownName": 74,
+    "unknownName": 76,
     "beforeStart": 0,
     "done": 1200,
     "byStatus": {
@@ -350243,7 +350254,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 09:06",
+    "at": "2026-10-16 09:07",
     "pri": {
       "days": 0,
       "failed": [],
