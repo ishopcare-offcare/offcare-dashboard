@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3678,
- "updatedAt": "2026-10-16 16:50",
+ "version": 3679,
+ "updatedAt": "2026-10-16 16:53",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,530 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "i_455b872bf94a.jpg",
+     "fid": "F0C9TQR4Q73",
+     "from": "댓글",
+     "path": "menu-files/1792136988_360889-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "육회(한우++) 180g",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "연어회 280g",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "한우육회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "연어회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "광어회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "바다포도",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김6P",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "숯굴튀김 8P",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "김치볶음밥",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "백골뱅이탕",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "오징어통찜(3마리)",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "자연산 동해 귀오징어 숙회",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "동해 창문어 숙회",
+       "price": 42000
+      },
+      {
+       "category": "",
+       "name": "골뱅이 숙회",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "우니(성게알) 100g",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "우니(성게알) 50g",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "블랙타이거새우구이 8마",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "대게장 덮밥",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "육회비빔밥(한우++)",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "우동",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "비빔국수",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "골뱅이 비빔국수",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_9556d9691f34.jpg",
+     "fid": "F0C9LK18CR3",
+     "from": "댓글",
+     "path": "menu-files/1792136988_360889-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "모듬3종새우회",
+       "name": "① (제주딱새우大6마 + 달마새우 + 단새우)",
+       "price": 49000
+      },
+      {
+       "category": "모듬3종새우회",
+       "name": "② 제주딱새우 + 단새우 + 흑새우",
+       "price": 52000
+      },
+      {
+       "category": "모듬3종새우회",
+       "name": "③ 제주딱새우 + 흑새우 + 단새우",
+       "price": 48000
+      },
+      {
+       "category": "",
+       "name": "모듬4종 제주딱새우+단새우+흑새우+달마",
+       "price": 63000
+      },
+      {
+       "category": "",
+       "name": "모듬5종 제주딱새우+흑새우+단새우+흑새우+달마",
+       "price": 73000
+      },
+      {
+       "category": "",
+       "name": "모듬 6종 (+백새우)",
+       "price": 87000
+      },
+      {
+       "category": "",
+       "name": "모듬 7종 (+흰다리)",
+       "price": 98000
+      },
+      {
+       "category": "",
+       "name": "흰다리 새우회 (소)",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "흰다리 새우회 (중)",
+       "price": 48000
+      },
+      {
+       "category": "",
+       "name": "흰다리 새우회 (대)",
+       "price": 59000
+      },
+      {
+       "category": "",
+       "name": "전복회 (5마)",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "전복버터구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우찜 + 머리버터구이 500g",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "우찜 + 머리버터구이 1kg",
+       "price": 69000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_0ccec7d28673.jpg",
+     "fid": "F0C9LK2BF9B",
+     "from": "댓글",
+     "path": "menu-files/1792136988_360889-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "육회(한우) 180g",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "연어회 280g",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "한우육회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "연어회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "광어회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "바다포도",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김 6P",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "숯굴튀김 8P",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "김치볶음밥",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_50c3ab980f70.jpg",
+     "fid": "F0C9VJPSZL4",
+     "from": "댓글",
+     "path": "menu-files/1792136988_360889-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "백골뱅이탕",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "오징어통찜(3마리)",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "자연산 동해 귀오징어 숙회",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "동해 참문어 숙회",
+       "price": 42000
+      },
+      {
+       "category": "",
+       "name": "골뱅이 숙회",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "우니(성게알) 100g",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "50g",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "블랙타이거새우구이 8미",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "대게장 덮밥",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "육회비빔밥(한우++)",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "우동",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "비빔국수",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "골뱅이 비빔국수",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_a5178a43f43f.jpg",
+     "fid": "F0C9TQURY3B",
+     "from": "댓글",
+     "path": "menu-files/1792136988_360889-4.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "모둠3종새우회 ① (제주딱새우大6미 + 달마새우 + 단새우)",
+       "price": 49000
+      },
+      {
+       "category": "",
+       "name": "모둠3종새우회 ② 제주딱새우 + 단새우 + 흰새우",
+       "price": 52000
+      },
+      {
+       "category": "",
+       "name": "모둠3종새우회 ③ 제주딱새우 + 흑새우 + 단새우",
+       "price": 48000
+      },
+      {
+       "category": "",
+       "name": "모둠4종 제주딱새우+단새우+흰새우+달마",
+       "price": 63000
+      },
+      {
+       "category": "",
+       "name": "모둠5종 제주딱새우+꽃새우+단새우+흰새우+달마",
+       "price": 73000
+      },
+      {
+       "category": "",
+       "name": "모둠6종 (+백새우)",
+       "price": 87000
+      },
+      {
+       "category": "",
+       "name": "모둠7종 (+흰다리)",
+       "price": 98000
+      },
+      {
+       "category": "",
+       "name": "흰다리새우회 (소)",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "흰다리새우회 (중)",
+       "price": 48000
+      },
+      {
+       "category": "",
+       "name": "흰다리새우회 (대)",
+       "price": 58000
+      },
+      {
+       "category": "",
+       "name": "전복회 (5미)",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "전복버터구이 500g",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "새우찜+머리버터구이 1kg",
+       "price": 69000
+      },
+      {
+       "category": "",
+       "name": "육회(한우) 180g",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "연어회 280g",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "한우육회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "연어회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "광어회 + 새우회 SET",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "바다포도",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "왕새우튀김 6P",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "숯굴튀김 8P",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "김치볶음밥",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "백골뱅이탕",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "오징어통찜(3마리)",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "자연산 동해 귀오징어 숙회",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "동해 창문어 숙회",
+       "price": 42000
+      },
+      {
+       "category": "",
+       "name": "골뱅이 숙회",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "우니(성게알) 100g",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "우니(성게알) 50g",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "블랙타이거새우구이 8미",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "대게장 덮밥",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "육회비빔밥(한우)",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "우동",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "비빔국수",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "골뱅이 비빔국수",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792136991.578129",
+   "replies": [
+    "금액 수정 요청 주셨습니다."
+   ],
+   "rc": 2,
+   "lr": "1792137068.367309",
    "rfx": 3,
    "status": "wait",
    "handler": null,
