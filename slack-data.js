@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21387,
+  "version": 21388,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259601,7 +259601,10 @@ window.SLACK_DATA = {
       },
       "1792112471.904969": {
         "post": "1792112471.904969",
-        "lastSeen": 1792112472.81
+        "lastSeen": 1792112533.139,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 10
       }
     },
     "days": {
@@ -350223,8 +350226,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 10,
-        "sumMin": 101.20901015996932,
+        "cnt": 11,
+        "sumMin": 101.72683567603428,
         "over": 0,
         "items": [
           {
@@ -350316,13 +350319,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "nosetup",
             "dmin": 23.8
+          },
+          {
+            "hm": "10:01",
+            "min": 0.5,
+            "store": "오고가고 베이커리(OGOGAGO BAKERY)",
+            "biz": "4433301733",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:01",
+    "at": "2026-10-16 10:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350452,7 +350463,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:01",
+    "at": "2026-10-16 10:02",
     "pri": {
       "days": 0,
       "failed": [],
