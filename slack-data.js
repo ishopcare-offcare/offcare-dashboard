@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21400,
+  "version": 21401,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259303,7 +259303,8 @@ window.SLACK_DATA = {
           "req": "사용중 인터넷 연결이 끊어졌다하여 재온보딩 도움부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "온보딩X 배달앱 설치 요청 진행후 테스트 출력완료",
+          "rr": 1
         },
         {
           "time": "10:11",
@@ -259503,7 +259504,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:17",
+      "updatedAt": "10:27",
       "voc": {
         "responses": 1,
         "install": {
@@ -259680,6 +259681,10 @@ window.SLACK_DATA = {
       "1792076439.931269": {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
+      },
+      "1792114045.724979": {
+        "post": "1792114045.724979",
+        "lastSeen": 1792114100.894
       }
     },
     "days": {
@@ -350445,7 +350450,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:26",
+    "at": "2026-10-16 10:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350575,7 +350580,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:26",
+    "at": "2026-10-16 10:28",
     "pri": {
       "days": 0,
       "failed": [],
