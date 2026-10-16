@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21526,
+  "version": 21527,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259307,20 +259307,7 @@ window.SLACK_DATA = {
           "서상원": 1
         }
       },
-      "pending": [
-        {
-          "time": "11:59",
-          "store": "진뷰티&amp;오로지푸스용인흥덕점",
-          "biz": "4980601455",
-          "handler": "김현기",
-          "cat": "as",
-          "intake": "online",
-          "req": "프론트 IC 칩 인식 불가 확인 요청 드립니다.",
-          "reasons": [
-            "1차 부재"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "13:18",
@@ -260241,7 +260228,17 @@ window.SLACK_DATA = {
             "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791266446903289"
           }
         ]
-      }
+      },
+      "absent": [
+        {
+          "time": "11:59",
+          "store": "진뷰티&amp;오로지푸스용인흥덕점",
+          "biz": "4980601455",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -260339,32 +260336,32 @@ window.SLACK_DATA = {
       },
       "1792122409.031469": {
         "post": "1792122409.031469",
-        "lastSeen": 1792124692.256
+        "lastSeen": 1792124770.741
       },
       "1792123209.656259": {
         "post": "1792123209.656259",
-        "lastSeen": 1792124692.256,
+        "lastSeen": 1792124770.741,
         "r": 1,
         "day": "2026-10-16",
         "idx": 39
       },
       "1792124159.539229": {
         "post": "1792124159.539229",
-        "lastSeen": 1792124692.256,
+        "lastSeen": 1792124770.741,
         "r": 1,
         "day": "2026-10-16",
         "idx": 49
       },
       "1792124305.593739": {
         "post": "1792124305.593739",
-        "lastSeen": 1792124692.256,
+        "lastSeen": 1792124770.741,
         "r": 1,
         "day": "2026-10-16",
         "idx": 52
       },
       "1792124422.813969": {
         "post": "1792124422.813969",
-        "lastSeen": 1792124692.256
+        "lastSeen": 1792124770.741
       }
     },
     "days": {
@@ -351469,7 +351466,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 13:25",
+    "at": "2026-10-16 13:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351599,7 +351596,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 13:24",
+    "at": "2026-10-16 13:26",
     "pri": {
       "days": 0,
       "failed": [],
