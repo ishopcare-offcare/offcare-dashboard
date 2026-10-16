@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3659,
- "updatedAt": "2026-10-16 14:28",
+ "version": 3660,
+ "updatedAt": "2026-10-16 14:30",
  "days": 30,
  "items": [
   {
@@ -146,17 +146,17 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "4개 다 다운받앗?",
     "2하고 3 ㄱㄱ",
     "1하고 4는 내가",
     "작업 고고요",
     "뒤에 두글자만 검색하기 기법",
     "23 말고 다른것도 넣는중? 넣을라고하니깐 들어가잇는디",
     "쉣..",
-    "토스로그인해서 봐야것네.."
+    "토스로그인해서 봐야것네..",
+    "옼돜"
    ],
-   "rc": 39,
-   "lr": "1792128518.906299",
+   "rc": 40,
+   "lr": "1792128589.187849",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
