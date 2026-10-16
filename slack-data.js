@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21384,
+  "version": 21385,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,7 +259271,7 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
-          "김동욱": 1,
+          "김동욱": 2,
           "배선유": 2,
           "김현기": 1
         },
@@ -259322,6 +259322,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "자체온보딩 완료 / 사용방법 가이드 발송",
           "rr": 1
+        },
+        {
+          "time": "09:23",
+          "store": "피부 공감",
+          "biz": "",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "10/16 즉시 / 프론트,터미널 /메뉴 복사x",
+          "hw": "",
+          "intake": "online",
+          "note": "샵 가는중 10분 뒤 통화요청 / 매장 이전하였는데 인터넷 미설치로 진행 불가",
+          "rr": 2
         },
         {
           "time": "09:22",
@@ -259398,7 +259410,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 0,
         "unknown": 0
       },
@@ -259452,6 +259464,22 @@ window.SLACK_DATA = {
             "text": "너무 깔끔하게 설치하시고 설명도 잘해주시고 감사합니다 가게가 산뜻해지고. 밝아졌어요",
             "byReaction": false,
             "doneDate": ""
+          }
+        ]
+      },
+      "ob": {
+        "count": 1,
+        "byEmp": {
+          "김규빈": 1
+        },
+        "items": [
+          {
+            "key": "2026년 10월 16일 오전 7:57:32|https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791266446903289#1",
+            "handler": "김규빈",
+            "status": "일정등록완료",
+            "recvDate": "2026-10-16",
+            "planDate": "",
+            "link": "https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1791266446903289"
           }
         ]
       }
@@ -259570,13 +259598,6 @@ window.SLACK_DATA = {
       "1792076439.931269": {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
-      },
-      "1792110223.106949": {
-        "post": "1792110223.106949",
-        "lastSeen": 1792112066.222,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 6
       }
     },
     "days": {
@@ -350262,7 +350283,8 @@ window.SLACK_DATA = {
             "store": "피부 공감",
             "biz": "",
             "who": "김동욱",
-            "cat": "transfer"
+            "cat": "as",
+            "dmin": 32.4
           },
           {
             "hm": "09:44",
@@ -350296,19 +350318,19 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 09:54",
+    "at": "2026-10-16 09:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
     "rows": 4575,
-    "named": 1200,
+    "named": 1201,
     "unknownName": 76,
     "beforeStart": 0,
-    "done": 1200,
+    "done": 1201,
     "byStatus": {
-      "일정등록완료": 771,
+      "일정등록완료": 772,
       "1차부재": 255,
       "점주직접접수": 97,
       "설치불가": 22,
@@ -350426,7 +350448,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 09:54",
+    "at": "2026-10-16 09:57",
     "pri": {
       "days": 0,
       "failed": [],
