@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21413,
+  "version": 21414,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259272,9 +259272,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "심성현": 4,
+          "김동욱": 2,
           "배선유": 5,
           "박하림": 1,
-          "김동욱": 1,
           "김현기": 1
         },
         "nosetup": {
@@ -259305,6 +259305,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:34",
+          "store": "몽그랑",
+          "biz": "6710603418",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "별도 보유 포스기 + CAT ( 영수증 출력 용도) + 프론트 연결 완료",
+          "hw": "",
+          "intake": "offline",
+          "note": "무프X 기존 포스기+CAT(출력용)+프론ㅌ+주방프린터(유선) 연결완료. 프론트만 아샵꺼",
+          "rr": 1
         },
         {
           "time": "10:30",
@@ -259561,10 +259573,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 19,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:38",
+      "updatedAt": "10:45",
       "voc": {
         "responses": 3,
         "install": {
@@ -259756,17 +259768,10 @@ window.SLACK_DATA = {
       },
       "1792114045.724979": {
         "post": "1792114045.724979",
-        "lastSeen": 1792115093.675,
+        "lastSeen": 1792115143.852,
         "r": 1,
         "day": "2026-10-16",
         "idx": 15
-      },
-      "1792114482.340119": {
-        "post": "1792114482.340119",
-        "lastSeen": 1792115093.675,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 18
       }
     },
     "days": {
@@ -350559,7 +350564,8 @@ window.SLACK_DATA = {
             "store": "몽그랑",
             "biz": "6710603418",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.6
           },
           {
             "hm": "10:30",
@@ -350584,7 +350590,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:45",
+    "at": "2026-10-16 10:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350714,7 +350720,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:44",
+    "at": "2026-10-16 10:45",
     "pri": {
       "days": 0,
       "failed": [],
