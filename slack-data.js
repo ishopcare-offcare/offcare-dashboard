@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21507,
+  "version": 21508,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259307,7 +259307,20 @@ window.SLACK_DATA = {
           "서상원": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:59",
+          "store": "진뷰티&amp;오로지푸스용인흥덕점",
+          "biz": "4980601455",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online",
+          "req": "프론트 IC 칩 인식 불가 확인 요청 드립니다.",
+          "reasons": [
+            "1차 부재"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "12:52",
@@ -259992,11 +260005,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 48,
+        "online": 49,
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "12:52",
+      "updatedAt": "13:00",
       "voc": {
         "responses": 6,
         "install": {
@@ -260183,7 +260196,23 @@ window.SLACK_DATA = {
       },
       "1792122409.031469": {
         "post": "1792122409.031469",
-        "lastSeen": 1792123126.67
+        "lastSeen": 1792123223.23
+      },
+      "1792123209.656259": {
+        "post": "1792123209.656259",
+        "lastSeen": 1792123223.23
+      },
+      "1792123209.460409": {
+        "post": "1792123209.460409",
+        "lastSeen": 1792123223.23
+      },
+      "1792123206.786669": {
+        "post": "1792123206.786669",
+        "lastSeen": 1792123223.23
+      },
+      "1792123215.180819": {
+        "post": "1792123215.180819",
+        "lastSeen": 1792123223.23
       }
     },
     "days": {
@@ -351165,7 +351194,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:59",
+    "at": "2026-10-16 13:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351295,7 +351324,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:58",
+    "at": "2026-10-16 13:00",
     "pri": {
       "days": 0,
       "failed": [],
