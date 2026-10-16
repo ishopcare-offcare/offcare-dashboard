@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21464,
+  "version": 21465,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259272,9 +259272,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "심성현": 9,
+          "김동욱": 5,
           "김현기": 4,
           "배선유": 6,
-          "김동욱": 4,
           "박하림": 2
         },
         "onboarding": {
@@ -259319,6 +259319,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "프론트 프린터 설정 변경 후 정상",
           "rr": 1
+        },
+        {
+          "time": "11:47",
+          "store": "주식회사 나인스포츠",
+          "biz": "2018644487",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "터미널로 키인 결제 설정 활성화, 전산에도 개시 완료된 상태인데 대표님께서 키인결제 방법을 못찾으셔서 안내 부탁드립니다. :꾸벅곰:",
+          "hw": "",
+          "intake": "online",
+          "note": "키인결제 방법 안내완료. / 위임장 작성하였다고합니다. 토페 청약 부탁드려요! 위임장 작성하였다고합니다. 토페 청약 부탁드려요!",
+          "rr": 2
         },
         {
           "time": "11:35",
@@ -259859,7 +259871,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 39,
+        "online": 40,
         "offline": 7,
         "unknown": 0
       },
@@ -260060,7 +260072,7 @@ window.SLACK_DATA = {
       },
       "1792118680.145019": {
         "post": "1792118680.145019",
-        "lastSeen": 1792119262.536,
+        "lastSeen": 1792119333.551,
         "r": 1,
         "day": "2026-10-16",
         "idx": 30
@@ -350981,7 +350993,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:54",
+    "at": "2026-10-16 11:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351111,7 +351123,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:54",
+    "at": "2026-10-16 11:55",
     "pri": {
       "days": 0,
       "failed": [],
