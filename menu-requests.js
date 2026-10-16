@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3698,
- "updatedAt": "2026-10-16 18:48",
+ "version": 3699,
+ "updatedAt": "2026-10-16 19:10",
  "days": 30,
  "items": [
   {
@@ -62876,100 +62876,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789565439715769"
-  },
-  {
-   "ts": "1789553301.713549",
-   "date": "2026-09-16",
-   "time": "19:08",
-   "store": "만원수산",
-   "biz": "1080846102",
-   "pos": "오케이포스",
-   "content": "재인입/오케이포스 메뉴 가격 수정 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C23FU016H",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "주류및음료",
-       "name": "소주",
-       "price": 3000
-      },
-      {
-       "category": "주류및음료",
-       "name": "맥주",
-       "price": 3000
-      },
-      {
-       "category": "주류및음료",
-       "name": "한라산",
-       "price": 6000
-      },
-      {
-       "category": "주류및음료",
-       "name": "청하",
-       "price": 6000
-      },
-      {
-       "category": "주류및음료",
-       "name": "매화수",
-       "price": 5000
-      },
-      {
-       "category": "주류및음료",
-       "name": "막걸리",
-       "price": 5000
-      },
-      {
-       "category": "주류및음료",
-       "name": "백세주",
-       "price": 8000
-      },
-      {
-       "category": "주류및음료",
-       "name": "복분자",
-       "price": 12000
-      },
-      {
-       "category": "주류및음료",
-       "name": "별빛청하",
-       "price": 6000
-      },
-      {
-       "category": "주류및음료",
-       "name": "레몬진",
-       "price": 6000
-      },
-      {
-       "category": "주류및음료",
-       "name": "음료수",
-       "price": 2000
-      },
-      {
-       "category": "주류및음료",
-       "name": "토닉워터",
-       "price": 2000
-      }
-     ],
-     "path": "menu-files/1789553301_713549-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "소주/맥주 가격 3,000원으로 변경 요청 드립니다.\n\n아직 반영 안되었다고 합니다!",
-    "앗.... 고생하셨어여 선유님 ㅠㅠㅠ"
-   ],
-   "rc": 7,
-   "lr": "1789555490.293689",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789553301713549"
   }
  ],
  "ocr": {
