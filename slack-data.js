@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21379,
+  "version": 21380,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259275,6 +259275,12 @@ window.SLACK_DATA = {
           "배선유": 2,
           "김현기": 1
         },
+        "onboarding": {
+          "김동욱": 1
+        },
+        "nosetup": {
+          "배선유": 1
+        },
         "transfer": {
           "김동욱": 2
         }
@@ -259291,6 +259297,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "프론트 프린터 미설정으로 설정 후 정상 출력",
+          "rr": 1
+        },
+        {
+          "time": "09:34",
+          "store": "해랑남자머리커트샵",
+          "biz": "7142002575",
+          "cat": "onboarding",
+          "emp": "김동욱",
+          "req": "터프 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "터프 온보딩완료",
           "rr": 1
         },
         {
@@ -259343,6 +259361,18 @@ window.SLACK_DATA = {
           "rr": 2
         },
         {
+          "time": "09:00",
+          "store": "브레인쿡",
+          "biz": "7752000397",
+          "cat": "nosetup",
+          "emp": "배선유",
+          "req": "포프(태블릿) + 유프 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "월요일 오전 9시 예약",
+          "rr": 1
+        },
+        {
           "time": "08:45",
           "store": "청년프룻",
           "biz": "6539501978",
@@ -259356,7 +259386,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
@@ -259529,30 +259559,16 @@ window.SLACK_DATA = {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
       },
-      "1792108816.738409": {
-        "post": "1792108816.738409",
-        "lastSeen": 1792111699.103,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 0
-      },
       "1792110223.106949": {
         "post": "1792110223.106949",
-        "lastSeen": 1792111699.103,
+        "lastSeen": 1792111812.401,
         "r": 1,
         "day": "2026-10-16",
         "idx": 6
       },
       "1792110602.374569": {
         "post": "1792110602.374569",
-        "lastSeen": 1792111699.103
-      },
-      "1792110881.599769": {
-        "post": "1792110881.599769",
-        "lastSeen": 1792111699.103,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 8
+        "lastSeen": 1792111812.401
       }
     },
     "days": {
@@ -350184,7 +350200,8 @@ window.SLACK_DATA = {
             "store": "브레인쿡",
             "biz": "7752000397",
             "who": "배선유",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 49
           },
           {
             "hm": "08:45",
@@ -350254,14 +350271,15 @@ window.SLACK_DATA = {
             "store": "해랑남자머리커트샵",
             "biz": "7142002575",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 14.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 09:48",
+    "at": "2026-10-16 09:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350391,7 +350409,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 09:48",
+    "at": "2026-10-16 09:50",
     "pri": {
       "days": 0,
       "failed": [],
