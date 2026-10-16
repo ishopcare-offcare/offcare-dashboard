@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21452,
+  "version": 21453,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259986,14 +259986,17 @@ window.SLACK_DATA = {
       },
       "1792118010.104229": {
         "post": "1792118010.104229",
-        "lastSeen": 1792118207.221,
+        "lastSeen": 1792118270.468,
         "r": 1,
         "day": "2026-10-16",
         "idx": 28
       },
       "1792118144.077669": {
         "post": "1792118144.077669",
-        "lastSeen": 1792118207.221
+        "lastSeen": 1792118270.468,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 29
       }
     },
     "days": {
@@ -350615,8 +350618,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 29,
-        "sumMin": 162.94503266016642,
+        "cnt": 30,
+        "sumMin": 164.5244798461596,
         "over": 0,
         "items": [
           {
@@ -350878,13 +350881,21 @@ window.SLACK_DATA = {
             "biz": "6761802585",
             "who": "배선유",
             "cat": "as"
+          },
+          {
+            "hm": "11:35",
+            "min": 1.6,
+            "store": "연미정 서울역점",
+            "biz": "1558703079",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:37",
+    "at": "2026-10-16 11:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351014,7 +351025,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:36",
+    "at": "2026-10-16 11:37",
     "pri": {
       "days": 0,
       "failed": [],
