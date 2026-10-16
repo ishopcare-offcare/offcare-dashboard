@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3689,
- "updatedAt": "2026-10-16 17:20",
+ "version": 3690,
+ "updatedAt": "2026-10-16 17:22",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "주류 > 테라 제로 > 5,500원 1건만 추가 부탁드립니다! :머쓱_바덕:"
    ],
-   "rc": 2,
-   "lr": "1792138792.234389",
+   "rc": 4,
+   "lr": "1792138848.599649",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
