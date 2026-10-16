@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21462,
+  "version": 21463,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,9 +259271,9 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
+          "심성현": 9,
           "김현기": 4,
           "배선유": 6,
-          "심성현": 8,
           "김동욱": 4,
           "박하림": 2
         },
@@ -259308,6 +259308,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:48",
+          "store": "와이아이",
+          "biz": "5812501194",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프린터기 속도가 느리다하여 점검부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트 프린터 설정 변경 후 정상",
+          "rr": 1
+        },
         {
           "time": "11:35",
           "store": "연미정 서울역점",
@@ -259847,7 +259859,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 38,
+        "online": 39,
         "offline": 7,
         "unknown": 0
       },
@@ -260048,17 +260060,10 @@ window.SLACK_DATA = {
       },
       "1792118680.145019": {
         "post": "1792118680.145019",
-        "lastSeen": 1792118971.009,
+        "lastSeen": 1792119108.102,
         "r": 1,
         "day": "2026-10-16",
         "idx": 30
-      },
-      "1792118898.481069": {
-        "post": "1792118898.481069",
-        "lastSeen": 1792118971.009,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 31
       }
     },
     "days": {
@@ -350968,14 +350973,15 @@ window.SLACK_DATA = {
             "store": "와이아이",
             "biz": "5812501194",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 2.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:49",
+    "at": "2026-10-16 11:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351105,7 +351111,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:49",
+    "at": "2026-10-16 11:51",
     "pri": {
       "days": 0,
       "failed": [],
