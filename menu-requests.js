@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3616,
- "updatedAt": "2026-10-16 10:13",
+ "version": 3617,
+ "updatedAt": "2026-10-16 10:15",
  "days": 30,
  "items": [
   {
@@ -18,15 +18,146 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C987NEKBR",
+     "from": "댓글",
+     "path": "menu-files/1792113069_720099-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "해장국(기본)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(선지빼기)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(양빼기)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(야채탕)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장탕",
+       "price": 14000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈감자탕",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "등갈비탕",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장전골",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운오돌뼈",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운닭발",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈감자탕전골",
+       "price": 27000
+      },
+      {
+       "category": "메뉴",
+       "name": "수육",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "메뉴",
+       "name": "양추가",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "양추가",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치찌개",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장전골",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "삼겹살 180g",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "오징어전",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "오늘부터 수정하여 운영 필요하다하셔서 완료되면 ···으로 문자 발송부탁드립니다.\n\n인입은 ··· 번호로 인입"
    ],
-   "rc": 2,
-   "lr": "1792113100.657689",
+   "rc": 3,
+   "lr": "1792113265.959589",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792113069720099"
   },
