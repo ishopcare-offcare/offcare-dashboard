@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21415,
+  "version": 21416,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,7 +259271,7 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
-          "심성현": 4,
+          "심성현": 5,
           "김동욱": 2,
           "배선유": 5,
           "박하림": 1,
@@ -259295,6 +259295,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:45",
+          "store": "마이바레 경남지부",
+          "biz": "4073101238",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "페이스페이 가맹이되어있지 않은것은 맞으나 버튼이 보였다가 없어졋다고 하셔서 원격요청드립니다(재시작은 해봤습니다)",
+          "hw": "",
+          "intake": "online",
+          "note": "/ 님, 안녕하세요! 해당 가맹점 토스페이 미청약 상태라 페이스 페이 비활성화 상태로 확인됩니다. 가맹점 안내 완료 님, 안녕하세요!",
+          "rr": 2
+        },
         {
           "time": "10:38",
           "store": "노브",
@@ -259572,7 +259584,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 4,
         "unknown": 0
       },
@@ -259768,7 +259780,7 @@ window.SLACK_DATA = {
       },
       "1792114045.724979": {
         "post": "1792114045.724979",
-        "lastSeen": 1792115302.397,
+        "lastSeen": 1792115374.068,
         "r": 1,
         "day": "2026-10-16",
         "idx": 15
@@ -350590,7 +350602,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:48",
+    "at": "2026-10-16 10:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350720,7 +350732,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:48",
+    "at": "2026-10-16 10:49",
     "pri": {
       "days": 0,
       "failed": [],
