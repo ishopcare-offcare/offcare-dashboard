@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21500,
+  "version": 21501,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259391,8 +259391,8 @@ window.SLACK_DATA = {
           "req": "메뉴 등록(이미지는 말고 일단 등록만)",
           "hw": "",
           "intake": "online",
-          "note": "/ / 메뉴 이미지는 메일로 따로 보내주기로함",
-          "rr": 4
+          "note": "/ / 메뉴 이미지는 메일로 따로 보내주기로함 / 선유님 여기 메일로 이미지 보내줫는데 좀따가 14시부터 같이하죠...쫌 많네 선유님 여기 메일로 이미지 보내줫는데 좀따가 14시부터 같이하죠...쫌 많네",
+          "rr": 6
         },
         {
           "time": "12:02",
@@ -260172,7 +260172,7 @@ window.SLACK_DATA = {
       },
       "1792122409.031469": {
         "post": "1792122409.031469",
-        "lastSeen": 1792122475.418
+        "lastSeen": 1792122607.418
       }
     },
     "days": {
@@ -351154,7 +351154,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:48",
+    "at": "2026-10-16 12:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351284,7 +351284,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:47",
+    "at": "2026-10-16 12:50",
     "pri": {
       "days": 0,
       "failed": [],
