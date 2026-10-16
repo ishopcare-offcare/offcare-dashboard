@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21496,
+  "version": 21497,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,10 +259271,10 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
+          "김현기": 5,
           "심성현": 14,
           "배선유": 7,
           "김동욱": 5,
-          "김현기": 4,
           "박하림": 2
         },
         "onboarding": {
@@ -259309,6 +259309,19 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:27",
+          "store": "갯벌철판낙지",
+          "biz": "1191052330",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "NM-2000N 앱과 연동하여 사용 중인데 금액 입력 후 결제가 안넘어간다고 하셔서 통화 부탁 드립니다!",
+          "hw": "",
+          "urgent": true,
+          "intake": "offline",
+          "note": "3738009000 / 040372 / <tel:0107624009|010-7624 0987 010-7624 0987 / NM2000 블투 삭제 및 기기 껏켯 후 재작동 완료",
+          "rr": 4
+        },
         {
           "time": "12:25",
           "store": "8(팔)8(팔) 라멘&amp;이자카야",
@@ -259969,7 +259982,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 47,
-        "offline": 8,
+        "offline": 9,
         "unknown": 0
       },
       "updatedAt": "12:27",
@@ -260066,13 +260079,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1791949414.860219": {
-        "post": "1791949414.860219",
-        "lastSeen": 1792008930.642,
-        "r": 1,
-        "day": "2026-10-14",
-        "idx": 56
-      },
       "1791952758.043729": {
         "post": "1791952758.043729",
         "lastSeen": 1792008930.642,
@@ -260163,13 +260169,6 @@ window.SLACK_DATA = {
       "1792076439.931269": {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
-      },
-      "1792121265.434639": {
-        "post": "1792121265.434639",
-        "lastSeen": 1792121934.635,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 36
       }
     },
     "days": {
@@ -351125,7 +351124,8 @@ window.SLACK_DATA = {
             "store": "갯벌철판낙지",
             "biz": "1191052330",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13.7
           },
           {
             "hm": "12:22",
@@ -351150,13 +351150,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:39",
+    "at": "2026-10-16 12:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4579,
+    "rows": 4582,
     "named": 1201,
     "unknownName": 78,
     "beforeStart": 0,
@@ -351280,7 +351280,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:38",
+    "at": "2026-10-16 12:43",
     "pri": {
       "days": 0,
       "failed": [],
