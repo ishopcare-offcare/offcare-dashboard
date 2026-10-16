@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21424,
+  "version": 21425,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -254263,8 +254263,8 @@ window.SLACK_DATA = {
           "req": "10월 14일 오후 1시 30분 / 메뉴 복사 O / 프론트",
           "hw": "",
           "intake": "online",
-          "note": "통화중 1차 부재 / 포프(노트북) 명의변경 완료 / 오후 1시 15분통화예정",
-          "rr": 5
+          "note": "통화중 1차 부재 / 포프(노트북) 명의변경 완료 / 오후 1시 15분통화예정 / 금일 1시 30분 이 후 통화요청. 예약메시지",
+          "rr": 6
         },
         {
           "time": "13:14",
@@ -259290,6 +259290,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "transfer": {
+          "송태양": 1,
           "김동욱": 3
         },
         "menu": {
@@ -259308,6 +259309,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:51",
+          "store": "마음이폰하다 청주점",
+          "biz": "5401003557",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "10월 16일 오전 11시 / 메뉴 복사 X / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "명변 완료입니다",
+          "rr": 3
         },
         {
           "time": "10:45",
@@ -259609,11 +259622,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:56",
+      "updatedAt": "11:00",
       "voc": {
         "responses": 3,
         "install": {
@@ -259803,19 +259816,16 @@ window.SLACK_DATA = {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
       },
-      "1792115502.151399": {
-        "post": "1792115502.151399",
-        "lastSeen": 1792115988.924,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 21
-      },
       "1792115803.481079": {
         "post": "1792115803.481079",
-        "lastSeen": 1792115988.924,
+        "lastSeen": 1792116069.637,
         "r": 1,
         "day": "2026-10-16",
         "idx": 22
+      },
+      "1792116007.909149": {
+        "post": "1792116007.909149",
+        "lastSeen": 1792116069.637
       }
     },
     "days": {
@@ -350636,7 +350646,8 @@ window.SLACK_DATA = {
             "store": "마음이폰하다 청주점",
             "biz": "5401003557",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 8.8
           },
           {
             "hm": "10:56",
@@ -350651,7 +350662,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:00",
+    "at": "2026-10-16 11:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350781,7 +350792,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:59",
+    "at": "2026-10-16 11:01",
     "pri": {
       "days": 0,
       "failed": [],
