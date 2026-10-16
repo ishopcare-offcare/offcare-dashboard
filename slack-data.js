@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21505,
+  "version": 21506,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -252488,7 +252488,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "터프 온보딩 완료",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "18:02",
@@ -259271,9 +259271,9 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
+          "배선유": 8,
           "김현기": 5,
           "심성현": 14,
-          "배선유": 7,
           "김동욱": 5,
           "박하림": 2
         },
@@ -259309,6 +259309,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:52",
+          "store": "주식회사 파이커스코리아",
+          "biz": "1508602006",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프(pc) / 프론트에 토스포스와 프론트 연결하기 화면이 나오는 상태인데 연동 어려워 하시어 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:27",
           "store": "갯벌철판낙지",
@@ -259392,7 +259403,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "/ / 메뉴 이미지는 메일로 따로 보내주기로함 / 선유님 여기 메일로 이미지 보내줫는데 좀따가 14시부터 같이하죠...쫌 많네 선유님 여기 메일로 이미지 보내줫는데 좀따가 14시부터 같이하죠...쫌 많네 / 저거 메뉴 4 3 2랑 그냥 원유로라고적힌거 / 4개 다 다운받앗? / 2하고 3 ㄱㄱ / 1하고 4는 내가",
-          "rr": 13
+          "rr": 15
         },
         {
           "time": "12:02",
@@ -259981,7 +259992,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 47,
+        "online": 48,
         "offline": 9,
         "unknown": 0
       },
@@ -260172,7 +260183,7 @@ window.SLACK_DATA = {
       },
       "1792122409.031469": {
         "post": "1792122409.031469",
-        "lastSeen": 1792122979.488
+        "lastSeen": 1792123055.438
       }
     },
     "days": {
@@ -351154,7 +351165,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:56",
+    "at": "2026-10-16 12:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351284,7 +351295,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:56",
+    "at": "2026-10-16 12:57",
     "pri": {
       "days": 0,
       "failed": [],
