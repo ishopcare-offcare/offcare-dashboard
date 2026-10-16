@@ -3,10 +3,222 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3673,
- "updatedAt": "2026-10-16 16:08",
+ "version": 3674,
+ "updatedAt": "2026-10-16 16:16",
  "days": 30,
  "items": [
+  {
+   "ts": "1792134890.560019",
+   "date": "2026-10-16",
+   "time": "16:14",
+   "store": "박할매쭈꾸미",
+   "biz": "1260103422",
+   "pos": "오케이포스",
+   "content": "메뉴 금액 수정 부탁드리겠습니다! (오케이포스)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C9A8UNN5V",
+     "from": "댓글",
+     "path": "menu-files/1792134890_560019-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "메인 메뉴",
+       "name": "쭈꾸미 철판 볶음",
+       "price": 16000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "쭈꾸미 삼겹 볶음",
+       "price": 17000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "쭈꾸미 치즈 볶음",
+       "price": 17000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "쭈꾸미 닭 볶음",
+       "price": 18000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "쭈꾸미 새우 볶음",
+       "price": 17000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "왕새우 튀김 5마리",
+       "price": 12000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "왕새우 튀김 10마리",
+       "price": 22000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "왕새우 소금구이 11마리",
+       "price": 28000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "산낙지철판 볶음",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "산쭈꾸미 샤브샤브",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "산 쭈꾸미 철판 볶음",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "삼겹살",
+       "price": 12000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "새우 사리",
+       "price": 12000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "버섯 사리",
+       "price": 4000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "떡 사리",
+       "price": 2000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "당면 사리",
+       "price": 2000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "치즈 사리",
+       "price": 4000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "야채 추가",
+       "price": 5000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "계란찜",
+       "price": 6000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "치즈 계란찜",
+       "price": 8000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "주먹밥",
+       "price": 4000
+      },
+      {
+       "category": "주류&음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류&음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류&음료",
+       "name": "매화수",
+       "price": 6000
+      },
+      {
+       "category": "주류&음료",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류&음료",
+       "name": "산사춘",
+       "price": 10000
+      },
+      {
+       "category": "주류&음료",
+       "name": "백세주",
+       "price": 10000
+      },
+      {
+       "category": "주류&음료",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류&음료",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류&음료",
+       "name": "무알콜 맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류&음료",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "안주 메뉴",
+       "name": "쭈꾸미 해물 부침개",
+       "price": 18000
+      },
+      {
+       "category": "안주 메뉴",
+       "name": "감자 치즈 부침개",
+       "price": 18000
+      },
+      {
+       "category": "안주 메뉴",
+       "name": "컵라면",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "변경된 금액의 메뉴판으로 보내주셨습니다:man-bowing:\n\n메뉴 추가는 별도 없이 가격만 변동되었다고 하시어 부탁드리겠습니다!"
+   ],
+   "rc": 2,
+   "lr": "1792134918.960099",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792134890560019"
+  },
   {
    "ts": "1792134429.109069",
    "date": "2026-10-16",
