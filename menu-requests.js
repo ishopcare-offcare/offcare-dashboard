@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3686,
- "updatedAt": "2026-10-16 17:12",
+ "version": 3687,
+ "updatedAt": "2026-10-16 17:14",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261016_170710.jpg.jpeg",
      "fid": "F0C9U0AGECR",
      "from": "댓글",
-     "path": "menu-files/1792138220_743969-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -117,13 +116,13 @@ window.MENU_REQUESTS = {
        "price": 15000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792138220_743969-0.jpeg"
     },
     {
      "name": "Resized_20261016_170715.jpg.jpeg",
      "fid": "F0C9Q4CRHD4",
      "from": "댓글",
-     "path": "menu-files/1792138220_743969-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -167,13 +166,13 @@ window.MENU_REQUESTS = {
        "price": 16000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792138220_743969-1.jpeg"
     },
     {
      "name": "Resized_20261016_170718.jpg.jpeg",
      "fid": "F0CALE4QGN4",
      "from": "댓글",
-     "path": "menu-files/1792138220_743969-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -277,13 +276,13 @@ window.MENU_REQUESTS = {
        "price": 20000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792138220_743969-2.jpeg"
     },
     {
      "name": "Resized_20261016_170721.jpg.jpeg",
      "fid": "F0C9LQ0CHSR",
      "from": "댓글",
-     "path": "menu-files/1792138220_743969-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -377,13 +376,13 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792138220_743969-3.jpeg"
     },
     {
      "name": "Resized_20261016_170724.jpg.jpeg",
      "fid": "F0C9VPM3GKW",
      "from": "댓글",
-     "path": "menu-files/1792138220_743969-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -422,13 +421,16 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792138220_743969-4.jpeg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1792138275.395429",
+   "replies": [
+    "마른안주/세트안주를\n마른안주로수정해주세요"
+   ],
+   "rc": 3,
+   "lr": "1792138449.223939",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -1194,14 +1196,149 @@ window.MENU_REQUESTS = {
      ],
      "v": 2,
      "path": "menu-files/1792134890_560019-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9KSAKCAX",
+     "from": "댓글",
+     "path": "menu-files/1792134890_560019-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "MENU",
+       "name": "쭈꾸미철판볶음(순한맛)",
+       "price": 16000
+      },
+      {
+       "category": "MENU",
+       "name": "치즈쭈꾸미볶음(순한맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.삼철판볶음(순한맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.새철판볶음(순한맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.닭갈비볶음(순한맛)",
+       "price": 18000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈꾸미철판볶음(중간맛)",
+       "price": 16000
+      },
+      {
+       "category": "MENU",
+       "name": "치즈쭈꾸미볶음(중간맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.삼철판볶음(중간맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.새철판볶음(중간맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.닭갈비볶음(중간맛)",
+       "price": 18000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈꾸미철판볶음(매운맛)",
+       "price": 16000
+      },
+      {
+       "category": "MENU",
+       "name": "치즈쭈꾸미볶음(매운맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.삼철판볶음(매운맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.새철판볶음(매운맛)",
+       "price": 17000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.닭갈비볶음(매운맛)",
+       "price": 18000
+      },
+      {
+       "category": "MENU",
+       "name": "쭈꾸미철판볶음(아주매운맛)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "MENU",
+       "name": "치즈쭈꾸미볶음(아주매운맛)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.삼철판볶음(아주매운맛)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.새철판볶음(아주매운맛)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "MENU",
+       "name": "쭈.닭갈비볶음(아주매운맛)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "MENU",
+       "name": "점심특선",
+       "price": 12000
+      },
+      {
+       "category": "MENU",
+       "name": "추가야채",
+       "price": 5000
+      },
+      {
+       "category": "MENU",
+       "name": "추가",
+       "price": 0
+      },
+      {
+       "category": "MENU",
+       "name": "쭈꾸미데침",
+       "price": 15000
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
     "변경된 금액의 메뉴판으로 보내주셨습니다:man-bowing:\n\n메뉴 추가는 별도 없이 가격만 변동되었다고 하시어 부탁드리겠습니다!"
    ],
-   "rc": 5,
-   "lr": "1792138229.948169",
+   "rc": 6,
+   "lr": "1792138401.702349",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
