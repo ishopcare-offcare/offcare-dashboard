@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21455,
+  "version": 21456,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259272,6 +259272,7 @@ window.SLACK_DATA = {
       "counts": {
         "onboarding": {
           "배선유": 1,
+          "박하림": 1,
           "심성현": 1,
           "송태양": 1,
           "김동욱": 1
@@ -259329,6 +259330,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "12:00 예약",
+          "rr": 1
+        },
+        {
+          "time": "11:22",
+          "store": "경희성원한의원",
+          "biz": "3601503000",
+          "cat": "onboarding",
+          "emp": "박하림",
+          "req": "포프(노트북)+유프 사용 매장으로, pc &gt; 노트북 온보딩 요청주시어 도움 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "노트북 +프론트 + 유선프린터 재온보딩완료 추후 진행시 모르는거있으면 다시 연락주신다고하셨습니다.",
           "rr": 1
         },
         {
@@ -259798,7 +259811,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 34,
+        "online": 35,
         "offline": 7,
         "unknown": 0
       },
@@ -259999,7 +260012,7 @@ window.SLACK_DATA = {
       },
       "1792118144.077669": {
         "post": "1792118144.077669",
-        "lastSeen": 1792118419.756,
+        "lastSeen": 1792118465.908,
         "r": 1,
         "day": "2026-10-16",
         "idx": 29
@@ -350902,7 +350915,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:40",
+    "at": "2026-10-16 11:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351032,7 +351045,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:40",
+    "at": "2026-10-16 11:41",
     "pri": {
       "days": 0,
       "failed": [],
