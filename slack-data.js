@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21351,
+  "version": 21352,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259448,11 +259448,14 @@ window.SLACK_DATA = {
       },
       "1792107901.222819": {
         "post": "1792107901.222819",
-        "lastSeen": 1792108884.206
+        "lastSeen": 1792108933.72
       },
       "1792108816.738409": {
         "post": "1792108816.738409",
-        "lastSeen": 1792108884.206
+        "lastSeen": 1792108933.72,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 0
       }
     },
     "days": {
@@ -350072,11 +350075,26 @@ window.SLACK_DATA = {
             "dmin": 22.9
           }
         ]
+      },
+      "2026-10-16": {
+        "cnt": 1,
+        "sumMin": 1.5370765169461569,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 1.5,
+            "store": "브레인쿡",
+            "biz": "7752000397",
+            "who": "배선유",
+            "cat": "nosetup"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 09:01",
+    "at": "2026-10-16 09:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350206,7 +350224,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 09:01",
+    "at": "2026-10-16 09:02",
     "pri": {
       "days": 0,
       "failed": [],
