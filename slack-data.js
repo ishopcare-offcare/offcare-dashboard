@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21399,
+  "version": 21400,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,6 +259271,7 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
+          "박하림": 1,
           "심성현": 1,
           "배선유": 4,
           "김동욱": 1,
@@ -259293,6 +259294,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:17",
+          "store": "수랏간들밥&파크",
+          "biz": "5162101469",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "사용중 인터넷 연결이 끊어졌다하여 재온보딩 도움부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:11",
           "store": "숲길해장",
@@ -259487,7 +259499,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 2,
         "unknown": 0
       },
@@ -350433,7 +350445,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:20",
+    "at": "2026-10-16 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350563,7 +350575,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:20",
+    "at": "2026-10-16 10:26",
     "pri": {
       "days": 0,
       "failed": [],
