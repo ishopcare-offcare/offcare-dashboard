@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3680,
- "updatedAt": "2026-10-16 16:54",
+ "version": 3681,
+ "updatedAt": "2026-10-16 16:59",
  "days": 30,
  "items": [
   {
@@ -24,7 +24,7 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1792137249.687349",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792137247118069"
   },
@@ -63267,30 +63267,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789546825815319"
-  },
-  {
-   "ts": "1789545461.046379",
-   "date": "2026-09-16",
-   "time": "16:57",
-   "store": "북청포차",
-   "biz": "2662202369",
-   "pos": "토스포스",
-   "content": "메일로드릴께요",
-   "special": "메인메뉴를",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "사업자 ···",
-    "메뉴 등록 완료"
-   ],
-   "rc": 2,
-   "lr": "1789550133.446489",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789545461046379"
   }
  ],
  "ocr": {
