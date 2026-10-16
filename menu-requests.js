@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3670,
- "updatedAt": "2026-10-16 15:53",
+ "version": 3671,
+ "updatedAt": "2026-10-16 15:54",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C9K82E403",
      "from": "댓글",
-     "path": "menu-files/1792133484_658089-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -42,13 +41,13 @@ window.MENU_REQUESTS = {
        "price": 350000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792133484_658089-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0C9K86QWHZ",
      "from": "댓글",
-     "path": "menu-files/1792133484_658089-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -62,18 +61,20 @@ window.MENU_REQUESTS = {
        "price": -50000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792133484_658089-1.png"
     }
    ],
    "datt": [],
    "replies": [
-    "네 규빈님 가격이랑 옵션만 부탁드려요(사정이 있어 키오스크모드로 화룡ㅇ해야해서요...)"
+    "네 규빈님 가격이랑 옵션만 부탁드려요(사정이 있어 키오스크모드로 화룡ㅇ해야해서요...)",
+    "님 감사해요\n:꾸벅:"
    ],
-   "rc": 4,
-   "lr": "1792133581.214929",
+   "rc": 7,
+   "lr": "1792133646.182429",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792133484658089"
   },
   {
