@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3628,
- "updatedAt": "2026-10-16 12:04",
+ "version": 3629,
+ "updatedAt": "2026-10-16 12:07",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,671 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxNl8xMjAwMT",
+     "fid": "F0CAJHF02V6",
+     "from": "댓글",
+     "path": "menu-files/1792119796_457199-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "시그니처 블랜드 아메리카노 (고소)",
+       "price": 2000
+      },
+      {
+       "category": "커피",
+       "name": "시그니처 오리진 아메리카노 (산미)",
+       "price": 2000
+      },
+      {
+       "category": "커피",
+       "name": "시그니처 디카페인 아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "일반 아메리카노",
+       "price": 1600
+      },
+      {
+       "category": "커피",
+       "name": "와이리크노 1L",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "스페셜티 카페라떼",
+       "price": 2800
+      },
+      {
+       "category": "커피",
+       "name": "드라이 카푸치노",
+       "price": 3700
+      },
+      {
+       "category": "커피",
+       "name": "바닐라 라떼",
+       "price": 3200
+      },
+      {
+       "category": "커피",
+       "name": "카페모카",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "돌체 라떼",
+       "price": 3900
+      },
+      {
+       "category": "커피",
+       "name": "솔티드 카라멜 라떼",
+       "price": 3900
+      },
+      {
+       "category": "커피",
+       "name": "유로 헤이즐넛 라떼 (ICE)",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2MD",
+     "fid": "F0C9N7PPSA2",
+     "from": "댓글",
+     "path": "menu-files/1792119796_457199-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "쇼콜라 헤이즐넛 라떼",
+       "price": 4200
+      },
+      {
+       "category": "커피",
+       "name": "스윗 시나몬 라떼",
+       "price": 3800
+      },
+      {
+       "category": "커피",
+       "name": "코튼 라떼",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "멜팅 카라멜 라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "코튼 슈패너",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "쇼콜라 코튼 슈패너",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소 도피오",
+       "price": 2000
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소 쇼콜라",
+       "price": 2500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2MT",
+     "fid": "F0C98QWQBN3",
+     "from": "댓글",
+     "path": "menu-files/1792119796_457199-2.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "논커피 라떼",
+       "name": "투베 라떼",
+       "price": 3900
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "피스타치오 라떼",
+       "price": 3800
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "초콜릿 라떼",
+       "price": 3300
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "말차 라떼",
+       "price": 3300
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "흑당 버블티",
+       "price": 4500
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "흑당 라떼",
+       "price": 3500
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "쿠키 크림 라떼",
+       "price": 3800
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "밀크티 라떼",
+       "price": 3700
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "토피넛 라떼",
+       "price": 3500
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "딸기 라떼 (ICE)",
+       "price": 3600
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "복숭아 라떼 (ICE)",
+       "price": 3900
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "고물 라떼",
+       "price": 3800
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2MT",
+     "fid": "F0C98QWTAKZ",
+     "from": "댓글",
+     "path": "menu-files/1792119796_457199-3.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "논커피 라떼",
+       "name": "자색고구마 라떼",
+       "price": 3300
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "플레인 드링킹 요거트 (ICE)",
+       "price": 3800
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "복숭아 드링킹 요거트 (ICE)",
+       "price": 3900
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "딸기 드링킹 요거트 (ICE)",
+       "price": 3900
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "밤 라떼",
+       "price": 3500
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "딸기 말차 라떼",
+       "price": 3800
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "딸기 크림치즈 라떼",
+       "price": 4200
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "쇼콜라 크림치즈 라떼",
+       "price": 4500
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "밀차 크림치즈 라떼",
+       "price": 4200
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "달고나 라떼",
+       "price": 3000
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "쑥 라떼",
+       "price": 3300
+      },
+      {
+       "category": "논커피 라떼",
+       "name": "흑임자 라떼",
+       "price": 3300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2Mj",
+     "fid": "F0C9HV59MQB",
+     "from": "댓글",
+     "path": "menu-files/1792119796_457199-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "진저 라떼",
+       "price": 3300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2Mz",
+     "fid": "F0C98QY2CQ7",
+     "from": "댓글",
+     "path": "menu-files/1792119796_457199-5.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "아이스티",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "아이스티 1+1",
+       "price": 3600
+      },
+      {
+       "category": "",
+       "name": "리얼 오미자티",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "꿀 대추차",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "복숭아 코코 아이스티",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "자두 코코 아이스티",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "샤인머스켓 코코 아이스티",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "얼그레이",
+       "price": 2400
+      },
+      {
+       "category": "",
+       "name": "자몽차",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "자몽허니 블랙티",
+       "price": 4300
+      },
+      {
+       "category": "",
+       "name": "허니레몬차",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "루이보스 넥타",
+       "price": 2400
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2Mz",
+     "fid": "F0CAJHFJRTJ",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "피치 가든",
+       "price": 2400
+      },
+      {
+       "category": "",
+       "name": "오렌지 썬셋",
+       "price": 2400
+      },
+      {
+       "category": "",
+       "name": "잉글리시 브렉퍼스트",
+       "price": 2400
+      },
+      {
+       "category": "",
+       "name": "페퍼민트",
+       "price": 2400
+      },
+      {
+       "category": "",
+       "name": "허니 캐모마일",
+       "price": 2400
+      },
+      {
+       "category": "",
+       "name": "생강차",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "유자차",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "베리피치 티",
+       "price": 4200
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2ND",
+     "fid": "F0C9TSYL3QC",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "바닐라 밀크쉐이크",
+       "price": 3800
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "카라멜 밀크쉐이크",
+       "price": 4500
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "시그니처 커피 밀크쉐이크",
+       "price": 4300
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "리얼초코 밀크쉐이크",
+       "price": 4000
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "레드베리 밀크쉐이크",
+       "price": 4000
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "더블초코 블라스트",
+       "price": 4000
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "돌체 블라스트",
+       "price": 4300
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "밀크코코넛 커피 스무디",
+       "price": 4300
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "쿠키앤크림 스무디",
+       "price": 3900
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "플레인 요거트 스무디",
+       "price": 3800
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "딸기 요거트 스무디",
+       "price": 3900
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "복숭아 요거트 스무디",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2ND",
+     "fid": "F0CAJHG042C",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "망고 요거트 스무디",
+       "price": 3900
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "블루베리 요거트 스무디",
+       "price": 4300
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "스트로베리 밀크 스무디",
+       "price": 4300
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "리얼망고 스무디",
+       "price": 4300
+      },
+      {
+       "category": "스무디/밀크쉐이크",
+       "name": "더블치즈 딸기 스무디",
+       "price": 4800
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2NT",
+     "fid": "F0C9S3NGKKK",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "딸기 주스",
+       "price": 4000
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "망고 주스",
+       "price": 4300
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "수박 주스",
+       "price": 4000
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "리얼 오미자 에이드",
+       "price": 4400
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "파인애플 에이드",
+       "price": 3600
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "복숭아 에이드",
+       "price": 3600
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "샤인머스캣 에이드",
+       "price": 3600
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "블루레몬 에이드",
+       "price": 3900
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "자두 에이드",
+       "price": 3600
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "자몽 에이드",
+       "price": 4500
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "복숭아 칠러",
+       "price": 3900
+      },
+      {
+       "category": "주스/에이드/쉴러",
+       "name": "딸기레몬 칠라",
+       "price": 4300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3MD",
+     "fid": "F0C9JTBTR8D",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주스/에이드/칠러",
+       "name": "파인애플 칠러",
+       "price": 3900
+      },
+      {
+       "category": "주스/에이드/칠러",
+       "name": "샤인머스캣 칠러",
+       "price": 3900
+      },
+      {
+       "category": "주스/에이드/칠러",
+       "name": "자두 칠러",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3MD",
+     "fid": "F0CAJHGC68Y",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "보틀",
+       "name": "[보틀] 시그니처 블랜드 아메리카노 (고소)",
+       "price": 4800
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 시그니처 오리진 아메리카노 (산미)",
+       "price": 4800
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 시그니처 디카페인 아메리카노",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 일반 아메리카노",
+       "price": 4200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 솔티드 카라멜 라떼",
+       "price": 8800
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 돌체 라떼",
+       "price": 7800
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 드라이 카푸치노",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 카페모카",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 바닐라 라떼",
+       "price": 7000
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 스페셜티 카페라떼",
+       "price": 6300
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 스윗 시나몬 라떼",
+       "price": 8200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 쇼콜라 헤이즐넛 라떼",
+       "price": 8200
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792119799.480019",
+   "rc": 3,
+   "lr": "1792119911.207469",
    "rfx": 3,
    "status": "wait",
    "handler": null,
