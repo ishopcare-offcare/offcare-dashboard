@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21453,
+  "version": 21454,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259270,6 +259270,12 @@ window.SLACK_DATA = {
     },
     "2026-10-16": {
       "counts": {
+        "onboarding": {
+          "배선유": 1,
+          "심성현": 1,
+          "송태양": 1,
+          "김동욱": 1
+        },
         "booking": {
           "배선유": 1
         },
@@ -259279,11 +259285,6 @@ window.SLACK_DATA = {
           "심성현": 7,
           "김동욱": 4,
           "박하림": 2
-        },
-        "onboarding": {
-          "심성현": 1,
-          "송태양": 1,
-          "김동욱": 1
         },
         "nosetup": {
           "송태양": 2,
@@ -259306,6 +259307,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:33",
+          "store": "네일오브온&amp;속눈썹",
+          "biz": "6761802585",
+          "cat": "onboarding",
+          "emp": "배선유",
+          "req": "터프 사용 매장으로, 터미널 최근 받으시어 프론트와 온보딩 요청주시어 도움 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "완료",
+          "rr": 1
+        },
         {
           "time": "11:30",
           "store": "다올(Da All)",
@@ -259785,7 +259798,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 33,
+        "online": 34,
         "offline": 7,
         "unknown": 0
       },
@@ -259984,16 +259997,9 @@ window.SLACK_DATA = {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
       },
-      "1792118010.104229": {
-        "post": "1792118010.104229",
-        "lastSeen": 1792118270.468,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 28
-      },
       "1792118144.077669": {
         "post": "1792118144.077669",
-        "lastSeen": 1792118270.468,
+        "lastSeen": 1792118331.365,
         "r": 1,
         "day": "2026-10-16",
         "idx": 29
@@ -350880,7 +350886,8 @@ window.SLACK_DATA = {
             "store": "네일오브온&amp;속눈썹",
             "biz": "6761802585",
             "who": "배선유",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 4.8
           },
           {
             "hm": "11:35",
@@ -350895,7 +350902,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:38",
+    "at": "2026-10-16 11:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351025,7 +351032,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:37",
+    "at": "2026-10-16 11:38",
     "pri": {
       "days": 0,
       "failed": [],
