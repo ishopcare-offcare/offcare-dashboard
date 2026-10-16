@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21373,
+  "version": 21374,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259275,7 +259275,7 @@ window.SLACK_DATA = {
           "김현기": 1
         },
         "transfer": {
-          "김동욱": 1
+          "김동욱": 2
         }
       },
       "pending": [],
@@ -259317,6 +259317,19 @@ window.SLACK_DATA = {
           "rr": 3
         },
         {
+          "time": "09:06",
+          "store": "흥부닭강정",
+          "biz": "4801802816",
+          "cat": "transfer",
+          "emp": "김동욱",
+          "req": "10월 16일 즉시 / 포스, 터미널, 프론트 / 메뉴 복사X",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "포터프(포스기) 명의변경 완료.",
+          "rr": 2
+        },
+        {
           "time": "08:45",
           "store": "청년프룻",
           "biz": "6539501978",
@@ -259330,7 +259343,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -259505,29 +259518,25 @@ window.SLACK_DATA = {
       },
       "1792108816.738409": {
         "post": "1792108816.738409",
-        "lastSeen": 1792111066.344,
+        "lastSeen": 1792111140.665,
         "r": 1,
         "day": "2026-10-16",
         "idx": 0
       },
-      "1792109177.939499": {
-        "post": "1792109177.939499",
-        "lastSeen": 1792111066.344,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 4
-      },
       "1792110223.106949": {
         "post": "1792110223.106949",
-        "lastSeen": 1792111066.344
+        "lastSeen": 1792111140.665,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 6
       },
       "1792110602.374569": {
         "post": "1792110602.374569",
-        "lastSeen": 1792111066.344
+        "lastSeen": 1792111140.665
       },
       "1792110881.599769": {
         "post": "1792110881.599769",
-        "lastSeen": 1792111066.344
+        "lastSeen": 1792111140.665
       }
     },
     "days": {
@@ -350149,8 +350158,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 6,
-        "sumMin": 51.92925910154978,
+        "cnt": 7,
+        "sumMin": 66.60255161523818,
         "over": 0,
         "items": [
           {
@@ -350194,7 +350203,8 @@ window.SLACK_DATA = {
             "store": "흥부닭강정",
             "biz": "4801802816",
             "who": "김동욱",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 32.1
           },
           {
             "hm": "09:22",
@@ -350204,13 +350214,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "as",
             "dmin": 14.4
+          },
+          {
+            "hm": "09:23",
+            "min": 14.7,
+            "store": "피부 공감",
+            "biz": "",
+            "who": "김동욱",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 09:38",
+    "at": "2026-10-16 09:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350340,7 +350358,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 09:37",
+    "at": "2026-10-16 09:39",
     "pri": {
       "days": 0,
       "failed": [],
