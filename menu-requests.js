@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3617,
- "updatedAt": "2026-10-16 10:15",
+ "version": 3618,
+ "updatedAt": "2026-10-16 10:20",
  "days": 30,
  "items": [
   {
@@ -62706,27 +62706,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789522108300109"
-  },
-  {
-   "ts": "1789521592.259489",
-   "date": "2026-09-16",
-   "time": "10:19",
-   "store": "스시집막내아들",
-   "biz": "6113101308",
-   "pos": "기타",
-   "content": "1. 식사메뉴 \n장어덮밥 21900 등록\n\n2.할인이벤트 탭 추가 후 \n할인연어초밥 20000원 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789521595.795169",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789521592259489"
   }
  ],
  "ocr": {

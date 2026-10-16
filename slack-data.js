@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21398,
+  "version": 21399,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259276,12 +259276,13 @@ window.SLACK_DATA = {
           "김동욱": 1,
           "김현기": 1
         },
+        "onboarding": {
+          "송태양": 1,
+          "김동욱": 1
+        },
         "nosetup": {
           "심성현": 1,
           "배선유": 2
-        },
-        "onboarding": {
-          "김동욱": 1
         },
         "transfer": {
           "김동욱": 3
@@ -259313,7 +259314,8 @@ window.SLACK_DATA = {
           "req": "오케이포스 사용 중 금일 날짜가 아닌 포스 상 10/17로 표기 되어, 확인 요청 드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "개점 후 매출 발생 날짜 복구 불가 내일까지 영업 후 마감 처리 안내 완료",
+          "rr": 1
         },
         {
           "time": "10:02",
@@ -259325,6 +259327,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "재연동 후 테스트 완료",
+          "rr": 1
+        },
+        {
+          "time": "10:02",
+          "store": "애플트리",
+          "biz": "1132601149",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "컴퓨터 + 프론트 + 유선프린터 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 완료입니다",
           "rr": 1
         },
         {
@@ -259473,7 +259487,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -259654,13 +259668,6 @@ window.SLACK_DATA = {
       "1792076439.931269": {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
-      },
-      "1792112548.076199": {
-        "post": "1792112548.076199",
-        "lastSeen": 1792113525.764,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 11
       }
     },
     "days": {
@@ -350391,7 +350398,8 @@ window.SLACK_DATA = {
             "store": "애플트리",
             "biz": "1132601149",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 16.9
           },
           {
             "hm": "10:02",
@@ -350425,7 +350433,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:19",
+    "at": "2026-10-16 10:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350555,7 +350563,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:18",
+    "at": "2026-10-16 10:20",
     "pri": {
       "days": 0,
       "failed": [],
