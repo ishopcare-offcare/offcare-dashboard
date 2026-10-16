@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21450,
+  "version": 21451,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259986,7 +259986,10 @@ window.SLACK_DATA = {
       },
       "1792118010.104229": {
         "post": "1792118010.104229",
-        "lastSeen": 1792118047.242
+        "lastSeen": 1792118127.52,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 28
       }
     },
     "days": {
@@ -350608,8 +350611,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 28,
-        "sumMin": 161.6570864756902,
+        "cnt": 29,
+        "sumMin": 162.94503266016642,
         "over": 0,
         "items": [
           {
@@ -350863,13 +350866,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "onboarding",
             "dmin": 7.4
+          },
+          {
+            "hm": "11:33",
+            "min": 1.3,
+            "store": "네일오브온&amp;속눈썹",
+            "biz": "6761802585",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:34",
+    "at": "2026-10-16 11:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350999,7 +351010,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:34",
+    "at": "2026-10-16 11:35",
     "pri": {
       "days": 0,
       "failed": [],
