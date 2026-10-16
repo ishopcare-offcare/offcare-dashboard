@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21484,
+  "version": 21485,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259300,6 +259300,7 @@ window.SLACK_DATA = {
           "김동욱": 3
         },
         "menu": {
+          "심성현": 1,
           "김규빈": 2
         },
         "delivery": {
@@ -259308,6 +259309,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:11",
+          "store": "엄마 반찬",
+          "biz": "7360403220",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "메뉴 전체 수정 요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "메뉴 등록 완료",
+          "rr": 4
+        },
         {
           "time": "12:02",
           "store": "헤어천사",
@@ -259895,7 +259908,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 42,
+        "online": 43,
         "offline": 7,
         "unknown": 0
       },
@@ -260100,25 +260113,21 @@ window.SLACK_DATA = {
       },
       "1792120122.381099": {
         "post": "1792120122.381099",
-        "lastSeen": 1792121026.07,
+        "lastSeen": 1792121104.471,
         "r": 1,
         "day": "2026-10-16",
         "idx": 33
       },
-      "1792120284.185239": {
-        "post": "1792120284.185239",
-        "lastSeen": 1792121026.07,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 34
-      },
       "1792120924.717329": {
         "post": "1792120924.717329",
-        "lastSeen": 1792121026.07
+        "lastSeen": 1792121104.471
       },
       "1792120968.529949": {
         "post": "1792120968.529949",
-        "lastSeen": 1792121026.07
+        "lastSeen": 1792121104.471,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 35
       }
     },
     "days": {
@@ -350740,8 +350749,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 35,
-        "sumMin": 180.8983500957489,
+        "cnt": 36,
+        "sumMin": 182.5106926123301,
         "over": 0,
         "items": [
           {
@@ -351055,14 +351064,23 @@ window.SLACK_DATA = {
             "store": "엄마 반찬",
             "biz": "7360403220",
             "who": "심성현",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 13
+          },
+          {
+            "hm": "12:22",
+            "min": 1.6,
+            "store": "아시아(ASIA)",
+            "biz": "4272000727",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:24",
+    "at": "2026-10-16 12:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351192,7 +351210,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:23",
+    "at": "2026-10-16 12:25",
     "pri": {
       "days": 0,
       "failed": [],
