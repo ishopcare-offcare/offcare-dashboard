@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3684,
- "updatedAt": "2026-10-16 17:03",
+ "version": 3685,
+ "updatedAt": "2026-10-16 17:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1792138220.743969",
+   "date": "2026-10-16",
+   "time": "17:10",
+   "store": "삼삼치킨",
+   "biz": "1051234278",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792138223.994689",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792138220743969"
+  },
   {
    "ts": "1792137247.118069",
    "date": "2026-10-16",
@@ -773,8 +794,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "변경된 금액의 메뉴판으로 보내주셨습니다:man-bowing:\n\n메뉴 추가는 별도 없이 가격만 변동되었다고 하시어 부탁드리겠습니다!"
    ],
-   "rc": 4,
-   "lr": "1792136115.791199",
+   "rc": 5,
+   "lr": "1792138229.948169",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
