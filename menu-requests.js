@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3635,
- "updatedAt": "2026-10-16 12:28",
+ "version": 3636,
+ "updatedAt": "2026-10-16 12:33",
  "days": 30,
  "items": [
   {
@@ -47,7 +47,6 @@ window.MENU_REQUESTS = {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAxNl8xMjAwMT",
      "fid": "F0CAJHF02V6",
      "from": "댓글",
-     "path": "menu-files/1792119796_457199-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -111,13 +110,13 @@ window.MENU_REQUESTS = {
        "price": 3900
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792119796_457199-0.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2MD",
      "fid": "F0C9N7PPSA2",
      "from": "댓글",
-     "path": "menu-files/1792119796_457199-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -161,13 +160,13 @@ window.MENU_REQUESTS = {
        "price": 2500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792119796_457199-1.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2MT",
      "fid": "F0C98QWQBN3",
      "from": "댓글",
-     "path": "menu-files/1792119796_457199-2.jpeg",
      "kind": "menu_board",
      "menu": [
       {
@@ -231,13 +230,13 @@ window.MENU_REQUESTS = {
        "price": 3800
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792119796_457199-2.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2MT",
      "fid": "F0C98QWTAKZ",
      "from": "댓글",
-     "path": "menu-files/1792119796_457199-3.jpeg",
      "kind": "menu_board",
      "menu": [
       {
@@ -301,13 +300,13 @@ window.MENU_REQUESTS = {
        "price": 3300
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792119796_457199-3.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2Mj",
      "fid": "F0C9HV59MQB",
      "from": "댓글",
-     "path": "menu-files/1792119796_457199-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -316,13 +315,13 @@ window.MENU_REQUESTS = {
        "price": 3300
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792119796_457199-4.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2Mz",
      "fid": "F0C98QY2CQ7",
      "from": "댓글",
-     "path": "menu-files/1792119796_457199-5.jpeg",
      "kind": "menu_board",
      "menu": [
       {
@@ -386,7 +385,8 @@ window.MENU_REQUESTS = {
        "price": 2400
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792119796_457199-5.jpeg"
     },
     {
      "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU2Mz",
@@ -701,12 +701,501 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3MT",
+     "fid": "F0C98QZ1GTZ",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "보틀",
+       "name": "[보틀] 유로 헤이즐넛 라떼",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 초콜릿 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 말차 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 진저 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 곡물 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 자색고구마 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 밀크티 라떼",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 토피넛 라떼",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 쿠키 크림 라떼",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 딸기 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 복숭아 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 쌀티밀 드링킹 요거트",
+       "price": 7600
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3MT",
+     "fid": "F0C9Q11BC7L",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "보틀",
+       "name": "[보틀] 복숭아 드링킹 요거트",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 딸기 드링킹 요거트",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 밤 라떼",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 딸기 말차 라떼",
+       "price": 8200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 흑임자 라떼",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 흑당 라떼",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 흑당 버블티",
+       "price": 8900
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 쑥 라떼",
+       "price": 8900
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 딸기 크림치즈 라떼",
+       "price": 8900
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 쇼콜라 크림치즈 라떼",
+       "price": 8900
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 말차 크림치즈 라떼",
+       "price": 8900
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 달고나 라떼",
+       "price": 6700
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3Mj",
+     "fid": "F0C9TSZD820",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "보틀",
+       "name": "[보틀] 리얼 오미자에이드",
+       "price": 9400
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 복숭아 에이드",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 샤인머스켓 에이드",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 블루레몬에이드",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 자두 에이드",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 파인애플 에이드",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 자몽 에이드",
+       "price": 7200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 리얼 오미자차",
+       "price": 8600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 루이보스 넥타",
+       "price": 5500
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 피치 가든",
+       "price": 5500
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 오렌지 썬셋",
+       "price": 5500
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 얼그레이",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3Mj",
+     "fid": "F0C9Q11JA9Y",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "보틀",
+       "name": "[보틀] 잉글리시 브렉퍼스트",
+       "price": 5500
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 페퍼민트",
+       "price": 5500
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 허니 캐모마일",
+       "price": 5500
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 자몽허니 블랙",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 자몽차",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 허니 레몬차",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 생강차",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 유자차",
+       "price": 6700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 꿀 대추차",
+       "price": 7600
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 복숭아 코코 아이스티",
+       "price": 8200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 샤인머스켓 코코 아이스티",
+       "price": 8200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 자두 코코 아이스티",
+       "price": 8200
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3Mj",
+     "fid": "F0C9S3QK1TK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "보틀",
+       "name": "[보틀] 아이스티",
+       "price": 5700
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 우베 라떼",
+       "price": 8200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 피스타치오 라떼",
+       "price": 8200
+      },
+      {
+       "category": "보틀",
+       "name": "[보틀] 베리피치 티",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3Mz",
+     "fid": "F0C9S3QAD25",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "초코머핀",
+       "price": 2900
+      },
+      {
+       "category": "디저트",
+       "name": "치즈머핀",
+       "price": 3200
+      },
+      {
+       "category": "디저트",
+       "name": "다크초코 브라우니",
+       "price": 2400
+      },
+      {
+       "category": "디저트",
+       "name": "황치즈 뚱카롱",
+       "price": 2600
+      },
+      {
+       "category": "디저트",
+       "name": "다크초콜릿 뚱카롱",
+       "price": 2600
+      },
+      {
+       "category": "디저트",
+       "name": "피스타치오 뚱카롱",
+       "price": 2600
+      },
+      {
+       "category": "디저트",
+       "name": "녹차커스타드 뚱낭시에",
+       "price": 2700
+      },
+      {
+       "category": "디저트",
+       "name": "무화과크림치즈 뚱낭시에",
+       "price": 2700
+      },
+      {
+       "category": "디저트",
+       "name": "다크초코 뚱낭시에",
+       "price": 2700
+      },
+      {
+       "category": "디저트",
+       "name": "플레인 비스켓 슈",
+       "price": 2300
+      },
+      {
+       "category": "디저트",
+       "name": "초코 비스켓 슈",
+       "price": 2300
+      },
+      {
+       "category": "디저트",
+       "name": "오레오 마카롱",
+       "price": 2400
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3ND",
+     "fid": "F0C9Q12DF5Y",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "크롱지",
+       "price": 1500
+      },
+      {
+       "category": "디저트",
+       "name": "핸드메이드 브라우니 쿠키",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "핸드메이드 쇼콜라 쿠키",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "갈릭버터맛 베이글칩",
+       "price": 2700
+      },
+      {
+       "category": "디저트",
+       "name": "바닐라 크리스피 웨이퍼",
+       "price": 1500
+      },
+      {
+       "category": "디저트",
+       "name": "데이비드 마카다미아 쿠키",
+       "price": 1900
+      },
+      {
+       "category": "디저트",
+       "name": "데이비드 초코칩 쿠키",
+       "price": 1900
+      },
+      {
+       "category": "디저트",
+       "name": "미니 프레첼 와사비맛",
+       "price": 1900
+      },
+      {
+       "category": "디저트",
+       "name": "올리브 치아바타칩",
+       "price": 3000
+      },
+      {
+       "category": "디저트",
+       "name": "초코바이트",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "=_UTF-8_B_UmVzaXplZF8yMDI2MTAwOV8xMzU3ND",
+     "fid": "F0C9S3R0KMF",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "스낵",
+       "name": "버터떡",
+       "price": 3400
+      },
+      {
+       "category": "스낵",
+       "name": "행커버터 소금빵",
+       "price": 2900
+      },
+      {
+       "category": "스낵",
+       "name": "마늘크림치즈빵",
+       "price": 4500
+      },
+      {
+       "category": "스낵",
+       "name": "소떡소떡",
+       "price": 2500
+      },
+      {
+       "category": "스낵",
+       "name": "대파베이킨계란빵",
+       "price": 2900
+      },
+      {
+       "category": "스낵",
+       "name": "잉글리시머핀 샌드위치",
+       "price": 3600
+      },
+      {
+       "category": "스낵",
+       "name": "대파크림치즈 베이글",
+       "price": 3900
+      },
+      {
+       "category": "스낵",
+       "name": "츄러스",
+       "price": 2400
+      },
+      {
+       "category": "스낵",
+       "name": "부시맨브레드",
+       "price": 1700
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1792119911.207469",
+   "replies": [
+    "메뉴 이미지는 메일로 따로 보내주기로함"
+   ],
+   "rc": 4,
+   "lr": "1792121507.072119",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
