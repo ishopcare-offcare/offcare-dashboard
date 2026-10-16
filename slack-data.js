@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21426,
+  "version": 21427,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259274,7 +259274,7 @@ window.SLACK_DATA = {
           "서상원": 1
         },
         "as": {
-          "심성현": 5,
+          "심성현": 6,
           "김동욱": 2,
           "박하림": 2,
           "배선유": 5,
@@ -259309,6 +259309,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:51",
+          "store": "(주) 밀론코리아",
+          "biz": "2668501926",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "PC+프론트 온보딩 요청 드립니다! / 전자 영수증 발송 방법 관련해서도 안내 부탁 드립니다. :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": "10분 뒤 통화 요청 / 다른 급한 업무로 추후 고객센터로 재연락 예정",
+          "rr": 2
         },
         {
           "time": "10:51",
@@ -259623,10 +259635,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 23,
-        "offline": 4,
+        "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "11:00",
+      "updatedAt": "11:02",
       "voc": {
         "responses": 3,
         "install": {
@@ -259818,14 +259830,18 @@ window.SLACK_DATA = {
       },
       "1792115803.481079": {
         "post": "1792115803.481079",
-        "lastSeen": 1792116132.836,
+        "lastSeen": 1792116220.658,
         "r": 1,
         "day": "2026-10-16",
         "idx": 22
       },
       "1792116007.909149": {
         "post": "1792116007.909149",
-        "lastSeen": 1792116132.836
+        "lastSeen": 1792116220.658
+      },
+      "1792116165.862999": {
+        "post": "1792116165.862999",
+        "lastSeen": 1792116220.658
       }
     },
     "days": {
@@ -350662,7 +350678,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:02",
+    "at": "2026-10-16 11:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350792,7 +350808,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:02",
+    "at": "2026-10-16 11:03",
     "pri": {
       "days": 0,
       "failed": [],
