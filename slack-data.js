@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21470,
+  "version": 21471,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,7 +259271,7 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
-          "심성현": 9,
+          "심성현": 10,
           "김동욱": 5,
           "김현기": 4,
           "배선유": 6,
@@ -259330,6 +259330,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "키인결제 방법 안내완료. / 위임장 작성하였다고합니다. 토페 청약 부탁드려요! 위임장 작성하였다고합니다. 토페 청약 부탁드려요!",
+          "rr": 2
+        },
+        {
+          "time": "11:44",
+          "store": "김마리",
+          "biz": "5713201875",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "영수증 설정 관련으로 원격 요청하시어 전달드립니다. 도움 부탁드려요 :꾸벅5:",
+          "hw": "",
+          "intake": "online",
+          "note": "691영수증전표 발행문의 : 사용 / 키오스크 메뉴 등록 완료",
           "rr": 2
         },
         {
@@ -259449,8 +259461,8 @@ window.SLACK_DATA = {
           "req": "신규설치중 메뉴 등록",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 1
+          "note": "/",
+          "rr": 3
         },
         {
           "time": "11:12",
@@ -259871,11 +259883,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 40,
+        "online": 41,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "12:02",
+      "updatedAt": "12:03",
       "voc": {
         "responses": 6,
         "install": {
@@ -260074,16 +260086,13 @@ window.SLACK_DATA = {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
       },
-      "1792118680.145019": {
-        "post": "1792118680.145019",
-        "lastSeen": 1792119765.748,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 30
-      },
       "1792119728.474359": {
         "post": "1792119728.474359",
-        "lastSeen": 1792119765.748
+        "lastSeen": 1792119852.594
+      },
+      "1792119796.457199": {
+        "post": "1792119796.457199",
+        "lastSeen": 1792119852.594
       }
     },
     "days": {
@@ -350985,7 +350994,8 @@ window.SLACK_DATA = {
             "store": "김마리",
             "biz": "5713201875",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 18.8
           },
           {
             "hm": "11:48",
@@ -351001,7 +351011,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:03",
+    "at": "2026-10-16 12:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351131,7 +351141,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:02",
+    "at": "2026-10-16 12:04",
     "pri": {
       "days": 0,
       "failed": [],
