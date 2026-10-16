@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3681,
- "updatedAt": "2026-10-16 16:59",
+ "version": 3682,
+ "updatedAt": "2026-10-16 17:00",
  "days": 30,
  "items": [
   {
@@ -44,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "i_455b872bf94a.jpg",
      "fid": "F0C9TQR4Q73",
      "from": "댓글",
-     "path": "menu-files/1792136988_360889-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -158,13 +157,13 @@ window.MENU_REQUESTS = {
        "price": 12000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792136988_360889-0.jpg"
     },
     {
      "name": "i_9556d9691f34.jpg",
      "fid": "F0C9LK18CR3",
      "from": "댓글",
-     "path": "menu-files/1792136988_360889-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -239,13 +238,13 @@ window.MENU_REQUESTS = {
        "price": 69000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792136988_360889-1.jpg"
     },
     {
      "name": "i_0ccec7d28673.jpg",
      "fid": "F0C9LK2BF9B",
      "from": "댓글",
-     "path": "menu-files/1792136988_360889-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -294,13 +293,13 @@ window.MENU_REQUESTS = {
        "price": 9000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792136988_360889-2.jpg"
     },
     {
      "name": "i_50c3ab980f70.jpg",
      "fid": "F0C9VJPSZL4",
      "from": "댓글",
-     "path": "menu-files/1792136988_360889-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -369,13 +368,13 @@ window.MENU_REQUESTS = {
        "price": 12000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792136988_360889-3.jpg"
     },
     {
      "name": "i_a5178a43f43f.jpg",
      "fid": "F0C9TQURY3B",
      "from": "댓글",
-     "path": "menu-files/1792136988_360889-4.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -554,15 +553,16 @@ window.MENU_REQUESTS = {
        "price": 12000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792136988_360889-4.jpg"
     }
    ],
    "datt": [],
    "replies": [
     "금액 수정 요청 주셨습니다."
    ],
-   "rc": 2,
-   "lr": "1792137068.367309",
+   "rc": 3,
+   "lr": "1792137601.626359",
    "rfx": 3,
    "status": "wait",
    "handler": null,
