@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21407,
+  "version": 21408,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259528,9 +259528,9 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:34",
+      "updatedAt": "10:37",
       "voc": {
-        "responses": 1,
+        "responses": 3,
         "install": {
           "count": 1,
           "low": 0
@@ -259553,12 +259553,24 @@ window.SLACK_DATA = {
           "요식업": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 2,
+            "low": 0
+          },
           "구매설치": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "NICE": {
+            "total": 1,
+            "low": 0
+          },
+          "KSNET": {
+            "total": 1,
+            "low": 0
+          },
           "KOVAN": {
             "total": 1,
             "low": 0
@@ -259708,18 +259720,24 @@ window.SLACK_DATA = {
       },
       "1792114045.724979": {
         "post": "1792114045.724979",
-        "lastSeen": 1792114593.231,
+        "lastSeen": 1792114681.652,
         "r": 1,
         "day": "2026-10-16",
         "idx": 15
       },
       "1792114251.337249": {
         "post": "1792114251.337249",
-        "lastSeen": 1792114593.231
+        "lastSeen": 1792114681.652,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 19
       },
       "1792114482.340119": {
         "post": "1792114482.340119",
-        "lastSeen": 1792114593.231
+        "lastSeen": 1792114681.652,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 18
       }
     },
     "days": {
@@ -350341,8 +350359,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 18,
-        "sumMin": 124.37932780186335,
+        "cnt": 20,
+        "sumMin": 133.39942166805267,
         "over": 0,
         "items": [
           {
@@ -350505,13 +350523,29 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "nosetup",
             "dmin": 5
+          },
+          {
+            "hm": "10:34",
+            "min": 2.6,
+            "store": "몽그랑",
+            "biz": "6710603418",
+            "who": "김동욱",
+            "cat": "as"
+          },
+          {
+            "hm": "10:30",
+            "min": 6.4,
+            "store": "농업회사법인 주식회사 청도원감",
+            "biz": "1718600586",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:37",
+    "at": "2026-10-16 10:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350641,7 +350675,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:36",
+    "at": "2026-10-16 10:38",
     "pri": {
       "days": 0,
       "failed": [],
