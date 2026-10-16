@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3613,
- "updatedAt": "2026-10-16 09:41",
+ "version": 3614,
+ "updatedAt": "2026-10-16 10:08",
  "days": 30,
  "items": [
   {
@@ -62573,29 +62573,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789521592259489"
-  },
-  {
-   "ts": "1789520647.217549",
-   "date": "2026-09-16",
-   "time": "10:04",
-   "store": "바이트앤 레스트",
-   "biz": "5438503030",
-   "pos": "퍼스트포스",
-   "content": "죄송합니다 \n에스프레소  4.000원입니다\n가격수정부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "수정 완료\n\n솔라피 발송"
-   ],
-   "rc": 2,
-   "lr": "1789520898.666739",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789520647217549"
   }
  ],
  "ocr": {

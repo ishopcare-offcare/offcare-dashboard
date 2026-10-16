@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21389,
+  "version": 21390,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259271,8 +259271,8 @@ window.SLACK_DATA = {
     "2026-10-16": {
       "counts": {
         "as": {
+          "배선유": 3,
           "김동욱": 2,
-          "배선유": 2,
           "김현기": 1
         },
         "onboarding": {
@@ -259287,6 +259287,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:01",
+          "store": "오고가고 베이커리(OGOGAGO BAKERY)",
+          "biz": "4433301733",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프터 온보딩 및 주방주문서 출력 설정 함께 체크부탁드려요",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 출력 설정 완료",
+          "rr": 1
+        },
         {
           "time": "09:44",
           "store": "맛나분식",
@@ -259410,11 +259422,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:02",
+      "updatedAt": "10:08",
       "voc": {
         "responses": 1,
         "install": {
@@ -259599,20 +259611,20 @@ window.SLACK_DATA = {
         "post": "1792076439.931269",
         "lastSeen": 1792095330.797
       },
-      "1792112471.904969": {
-        "post": "1792112471.904969",
-        "lastSeen": 1792112599.142,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 10
-      },
       "1792112556.356639": {
         "post": "1792112556.356639",
-        "lastSeen": 1792112599.142
+        "lastSeen": 1792112918.11
       },
       "1792112548.076199": {
         "post": "1792112548.076199",
-        "lastSeen": 1792112599.142
+        "lastSeen": 1792112918.11,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 11
+      },
+      "1792112892.762249": {
+        "post": "1792112892.762249",
+        "lastSeen": 1792112918.11
       }
     },
     "days": {
@@ -350234,8 +350246,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 11,
-        "sumMin": 101.72683567603428,
+        "cnt": 12,
+        "sumMin": 105.23599902391433,
         "over": 0,
         "items": [
           {
@@ -350334,6 +350346,15 @@ window.SLACK_DATA = {
             "store": "오고가고 베이커리(OGOGAGO BAKERY)",
             "biz": "4433301733",
             "who": "배선유",
+            "cat": "as",
+            "dmin": 4.8
+          },
+          {
+            "hm": "10:02",
+            "min": 3.5,
+            "store": "애플트리",
+            "biz": "1132601149",
+            "who": "송태양",
             "cat": "as"
           }
         ]
@@ -350341,7 +350362,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:03",
+    "at": "2026-10-16 10:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350471,7 +350492,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:03",
+    "at": "2026-10-16 10:08",
     "pri": {
       "days": 0,
       "failed": [],
