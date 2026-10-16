@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3691,
- "updatedAt": "2026-10-16 17:24",
+ "version": 3692,
+ "updatedAt": "2026-10-16 17:34",
  "days": 30,
  "items": [
   {
@@ -455,7 +455,7 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1792138449.223939",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792138220743969"
   },
@@ -62993,29 +62993,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789549420699089"
-  },
-  {
-   "ts": "1789547613.931959",
-   "date": "2026-09-16",
-   "time": "17:33",
-   "store": "튜나펍(TUNA PUB)",
-   "biz": "5350802631",
-   "pos": "",
-   "content": "메뉴 테스트",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "재피어 살려옴"
-   ],
-   "rc": 2,
-   "lr": "1789547633.214509",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789547613931959"
   }
  ],
  "ocr": {
