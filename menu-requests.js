@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3687,
- "updatedAt": "2026-10-16 17:14",
+ "version": 3688,
+ "updatedAt": "2026-10-16 17:17",
  "days": 30,
  "items": [
   {
@@ -984,14 +984,49 @@ window.MENU_REQUESTS = {
      ],
      "v": 2,
      "path": "menu-files/1792136988_360889-4.jpg"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9RUA8J58",
+     "from": "댓글",
+     "path": "menu-files/1792136988_360889-5.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "생맥주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "하이볼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
     "금액 수정 요청 주셨습니다."
    ],
-   "rc": 7,
-   "lr": "1792137771.571439",
+   "rc": 14,
+   "lr": "1792138623.575909",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
