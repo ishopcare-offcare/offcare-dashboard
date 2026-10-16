@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21391,
+  "version": 21392,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259275,11 +259275,12 @@ window.SLACK_DATA = {
           "김동욱": 2,
           "김현기": 1
         },
+        "nosetup": {
+          "심성현": 1,
+          "배선유": 2
+        },
         "onboarding": {
           "김동욱": 1
-        },
-        "nosetup": {
-          "배선유": 2
         },
         "transfer": {
           "김동욱": 2
@@ -259298,6 +259299,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "터미널 출력 설정 완료",
           "rr": 1
+        },
+        {
+          "time": "10:00",
+          "store": "플레이굿즈",
+          "biz": "7791202669",
+          "cat": "nosetup",
+          "emp": "심성현",
+          "req": "포프(노트북) 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:44",
@@ -259422,11 +259434,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:08",
+      "updatedAt": "10:11",
       "voc": {
         "responses": 1,
         "install": {
@@ -259613,18 +259625,25 @@ window.SLACK_DATA = {
       },
       "1792112556.356639": {
         "post": "1792112556.356639",
-        "lastSeen": 1792112962.438
+        "lastSeen": 1792113106.729,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 12
       },
       "1792112548.076199": {
         "post": "1792112548.076199",
-        "lastSeen": 1792112962.438,
+        "lastSeen": 1792113106.729,
         "r": 1,
         "day": "2026-10-16",
         "idx": 11
       },
       "1792112892.762249": {
         "post": "1792112892.762249",
-        "lastSeen": 1792112962.438
+        "lastSeen": 1792113106.729
+      },
+      "1792113069.720099": {
+        "post": "1792113069.720099",
+        "lastSeen": 1792113106.729
       }
     },
     "days": {
@@ -350246,8 +350265,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 12,
-        "sumMin": 105.23599902391433,
+        "cnt": 13,
+        "sumMin": 113.20644670724869,
         "over": 0,
         "items": [
           {
@@ -350356,13 +350375,21 @@ window.SLACK_DATA = {
             "biz": "1132601149",
             "who": "송태양",
             "cat": "as"
+          },
+          {
+            "hm": "10:02",
+            "min": 8,
+            "store": "제이라이킷",
+            "biz": "5062484523",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 10:09",
+    "at": "2026-10-16 10:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350492,7 +350519,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 10:09",
+    "at": "2026-10-16 10:11",
     "pri": {
       "days": 0,
       "failed": [],
