@@ -3,10 +3,72 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3699,
- "updatedAt": "2026-10-16 19:10",
+ "version": 3700,
+ "updatedAt": "2026-10-16 20:13",
  "days": 30,
  "items": [
+  {
+   "ts": "1792149161.054709",
+   "date": "2026-10-16",
+   "time": "20:12",
+   "store": "영종바다다",
+   "biz": "3810203837",
+   "pos": "",
+   "content": "• 메뉴 등록 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C9M6HP4SX",
+     "from": "댓글",
+     "path": "menu-files/1792149161_054709-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "시그쳐메뉴",
+       "name": "낙곱새 (중)",
+       "price": 31900
+      },
+      {
+       "category": "시그쳐메뉴",
+       "name": "낙곱새 (대)",
+       "price": 38900
+      },
+      {
+       "category": "시그쳐메뉴",
+       "name": "낙우새 (중)",
+       "price": 30900
+      },
+      {
+       "category": "시그쳐메뉴",
+       "name": "낙우새 (대)",
+       "price": 37900
+      },
+      {
+       "category": "시그쳐메뉴",
+       "name": "낙삼새 (중)",
+       "price": 30900
+      },
+      {
+       "category": "시그쳐메뉴",
+       "name": "낙삼새 (대)",
+       "price": 37900
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792149173.595559",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792149161054709"
+  },
   {
    "ts": "1792143473.793609",
    "date": "2026-10-16",
