@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3669,
- "updatedAt": "2026-10-16 15:51",
+ "version": 3670,
+ "updatedAt": "2026-10-16 15:53",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,59 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0C9K82E403",
+     "from": "댓글",
+     "path": "menu-files/1792133484_658089-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기본",
+       "name": "초등수학",
+       "price": 210000
+      },
+      {
+       "category": "기본",
+       "name": "중등수학",
+       "price": 270000
+      },
+      {
+       "category": "기본",
+       "name": "고등수학",
+       "price": 350000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0C9K86QWHZ",
+     "from": "댓글",
+     "path": "menu-files/1792133484_658089-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "할인",
+       "name": "형제할인",
+       "price": -30000
+      },
+      {
+       "category": "할인",
+       "name": "두과목할인",
+       "price": -50000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792133487.754249",
+   "replies": [
+    "네 규빈님 가격이랑 옵션만 부탁드려요(사정이 있어 키오스크모드로 화룡ㅇ해야해서요...)"
+   ],
+   "rc": 4,
+   "lr": "1792133581.214929",
    "rfx": 3,
    "status": "wait",
    "handler": null,
