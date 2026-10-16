@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21487,
+  "version": 21488,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259301,7 +259301,7 @@ window.SLACK_DATA = {
         },
         "menu": {
           "심성현": 1,
-          "김규빈": 2
+          "김규빈": 3
         },
         "delivery": {
           "서상원": 1
@@ -259320,6 +259320,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "메뉴 등록 완료",
           "rr": 4
+        },
+        {
+          "time": "12:03",
+          "store": "원유로커피스페셜티 양산사송점",
+          "biz": "4816400778",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "메뉴 등록(이미지는 말고 일단 등록만)",
+          "hw": "",
+          "intake": "online",
+          "note": "/",
+          "rr": 3
         },
         {
           "time": "12:02",
@@ -259355,7 +259367,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "키인결제 방법 안내완료. / 위임장 작성하였다고합니다. 토페 청약 부탁드려요! 위임장 작성하였다고합니다. 토페 청약 부탁드려요!",
-          "rr": 2
+          "rr": 3
         },
         {
           "time": "11:44",
@@ -259908,11 +259920,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 43,
+        "online": 44,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "12:25",
+      "updatedAt": "12:27",
       "voc": {
         "responses": 6,
         "install": {
@@ -260113,25 +260125,29 @@ window.SLACK_DATA = {
       },
       "1792120122.381099": {
         "post": "1792120122.381099",
-        "lastSeen": 1792121232.9,
+        "lastSeen": 1792121301.572,
         "r": 1,
         "day": "2026-10-16",
         "idx": 33
       },
       "1792120924.717329": {
         "post": "1792120924.717329",
-        "lastSeen": 1792121232.9
+        "lastSeen": 1792121301.572
       },
       "1792120968.529949": {
         "post": "1792120968.529949",
-        "lastSeen": 1792121232.9,
+        "lastSeen": 1792121301.572,
         "r": 1,
         "day": "2026-10-16",
         "idx": 35
       },
       "1792121140.962009": {
         "post": "1792121140.962009",
-        "lastSeen": 1792121232.9
+        "lastSeen": 1792121301.572
+      },
+      "1792121265.434639": {
+        "post": "1792121265.434639",
+        "lastSeen": 1792121301.572
       }
     },
     "days": {
@@ -351084,7 +351100,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-16 12:27",
+    "at": "2026-10-16 12:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -351214,7 +351230,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 12:27",
+    "at": "2026-10-16 12:28",
     "pri": {
       "days": 0,
       "failed": [],
