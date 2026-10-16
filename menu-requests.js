@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3668,
- "updatedAt": "2026-10-16 15:50",
+ "version": 3669,
+ "updatedAt": "2026-10-16 15:51",
  "days": 30,
  "items": [
+  {
+   "ts": "1792133484.658089",
+   "date": "2026-10-16",
+   "time": "15:51",
+   "store": "이박사수학전문학원",
+   "biz": "2519202028",
+   "pos": "",
+   "content": "초등수학 21만원, 중등수학 27만원 고등수학 35만원 설정 및 각 메뉴별 옵션에  형제할인 -3만원(할인)  두과목할인 -5만원(할인)\n학원인데 단독 키오스크 모드로 사용예정이라 고객화면 노출하기 설정까지 부탁드리며, 단독키오스크모드 설정중 대표님 연락 끊겼고, 프론트 원격지원도 끊겨서 혹시 메뉴 설정 완료 후 대표님과 통화를 통해 단독키오스크 모드 설정 부탁드립니다:꾸벅:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792133487.754249",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792133484658089"
+  },
   {
    "ts": "1792132731.869039",
    "date": "2026-10-16",
@@ -23,10 +44,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "[오케이포스]\n카테고리: 주류\n메뉴명: 찰랑\n금액: 6,000원"
    ],
-   "rc": 2,
-   "lr": "1792132746.875609",
+   "rc": 3,
+   "lr": "1792133464.519449",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792132731869039"
   },
