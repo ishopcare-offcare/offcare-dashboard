@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21435,
+  "version": 21436,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259294,11 +259294,23 @@ window.SLACK_DATA = {
           "김동욱": 3
         },
         "menu": {
-          "김규빈": 1
+          "김규빈": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:13",
+          "store": "진미가든(진미펜션)",
+          "biz": "2680200712",
+          "cat": "menu",
+          "emp": "김규빈",
+          "req": "신규설치중 메뉴 등록",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "11:09",
           "store": "레드팟타코",
@@ -259682,7 +259694,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 26,
+        "online": 27,
         "offline": 6,
         "unknown": 0
       },
@@ -259878,18 +259890,21 @@ window.SLACK_DATA = {
       },
       "1792116165.862999": {
         "post": "1792116165.862999",
-        "lastSeen": 1792116931.661,
+        "lastSeen": 1792117003.736,
         "r": 1,
         "day": "2026-10-16",
         "idx": 24
       },
       "1792116769.840139": {
         "post": "1792116769.840139",
-        "lastSeen": 1792116931.661
+        "lastSeen": 1792117003.736,
+        "r": 1,
+        "day": "2026-10-16",
+        "idx": 26
       },
       "1792116836.664729": {
         "post": "1792116836.664729",
-        "lastSeen": 1792116931.661,
+        "lastSeen": 1792117003.736,
         "r": 1,
         "day": "2026-10-16",
         "idx": 25
@@ -350514,8 +350529,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-16": {
-        "cnt": 26,
-        "sumMin": 150.9124186038971,
+        "cnt": 27,
+        "sumMin": 154.2100579579671,
         "over": 0,
         "items": [
           {
@@ -350749,13 +350764,21 @@ window.SLACK_DATA = {
             "biz": "3402501972",
             "who": "김현기",
             "cat": "as"
+          },
+          {
+            "hm": "11:12",
+            "min": 3.3,
+            "store": "두발이모빌리티",
+            "biz": "7555900995",
+            "who": "송태양",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-16 11:16",
+    "at": "2026-10-16 11:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -350885,7 +350908,7 @@ window.SLACK_DATA = {
     "2026-10-16": 2
   },
   "noteMig": {
-    "at": "2026-10-16 11:15",
+    "at": "2026-10-16 11:16",
     "pri": {
       "days": 0,
       "failed": [],
