@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3685,
- "updatedAt": "2026-10-16 17:10",
+ "version": 3686,
+ "updatedAt": "2026-10-16 17:12",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,417 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261016_170710.jpg.jpeg",
+     "fid": "F0C9U0AGECR",
+     "from": "댓글",
+     "path": "menu-files/1792138220_743969-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨류",
+       "name": "과일치킨",
+       "price": 30000
+      },
+      {
+       "category": "치킨류",
+       "name": "과일",
+       "price": 20000
+      },
+      {
+       "category": "치킨류",
+       "name": "치킨골뱅이",
+       "price": 30000
+      },
+      {
+       "category": "치킨류",
+       "name": "골뱅이무침",
+       "price": 20000
+      },
+      {
+       "category": "치킨류",
+       "name": "후라이드치킨",
+       "price": 14000
+      },
+      {
+       "category": "치킨류",
+       "name": "양념치킨",
+       "price": 15000
+      },
+      {
+       "category": "치킨류",
+       "name": "한마리(반+반)",
+       "price": 15000
+      },
+      {
+       "category": "치킨류",
+       "name": "마늘치킨",
+       "price": 15000
+      },
+      {
+       "category": "치킨류",
+       "name": "간장치킨",
+       "price": 15000
+      },
+      {
+       "category": "치킨류",
+       "name": "파닭",
+       "price": 15000
+      },
+      {
+       "category": "치킨류",
+       "name": "순살후라이드",
+       "price": 19000
+      },
+      {
+       "category": "치킨류",
+       "name": "순살양념",
+       "price": 20000
+      },
+      {
+       "category": "치킨류",
+       "name": "순살반+반",
+       "price": 20000
+      },
+      {
+       "category": "치킨류",
+       "name": "매운치킨",
+       "price": 15000
+      },
+      {
+       "category": "치킨류",
+       "name": "순살파닭",
+       "price": 22000
+      },
+      {
+       "category": "치킨류",
+       "name": "후라이드(반)",
+       "price": 8000
+      },
+      {
+       "category": "치킨류",
+       "name": "양념반마리",
+       "price": 8000
+      },
+      {
+       "category": "치킨류",
+       "name": "양념반+반",
+       "price": 15000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261016_170715.jpg.jpeg",
+     "fid": "F0C9Q4CRHD4",
+     "from": "댓글",
+     "path": "menu-files/1792138220_743969-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "마른안주",
+       "name": "모듬안주",
+       "price": 20000
+      },
+      {
+       "category": "마른안주",
+       "name": "개코먹태",
+       "price": 16000
+      },
+      {
+       "category": "마른안주",
+       "name": "육포",
+       "price": 16000
+      },
+      {
+       "category": "마른안주",
+       "name": "한치+땅콩",
+       "price": 16000
+      },
+      {
+       "category": "마른안주",
+       "name": "노가리+땅콩",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "대구포+땅콩",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "쥐포+땅콩",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "오징어+땅콩",
+       "price": 16000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261016_170718.jpg.jpeg",
+     "fid": "F0CALE4QGN4",
+     "from": "댓글",
+     "path": "menu-files/1792138220_743969-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "탕/볶음류",
+       "name": "모듬소세지",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "모듬소세지,포테이토",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "모듬감자튀김",
+       "price": 12000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "과일화채",
+       "price": 20000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "과일샐러드",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "황도",
+       "price": 8000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "계란말이",
+       "price": 12000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "두부김치",
+       "price": 20000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "김치찌개",
+       "price": 20000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "오뎅탕",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "번데기탕",
+       "price": 8000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "계란탕",
+       "price": 6000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "닭똥집",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "오징어볶음+소면",
+       "price": 20000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "모듬튀김",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "떡볶기",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "새우튀김",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "돈가스",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "닭발",
+       "price": 15000
+      },
+      {
+       "category": "탕/볶음류",
+       "name": "특오뎅탕",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261016_170721.jpg.jpeg",
+     "fid": "F0C9LQ0CHSR",
+     "from": "댓글",
+     "path": "menu-files/1792138220_743969-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "생맥주500cc",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주2000cc",
+       "price": 19000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주3000cc",
+       "price": 29000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "클라우드",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "진로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카프리",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "오렌지",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "파인",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "웰치스",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261016_170724.jpg.jpeg",
+     "fid": "F0C9VPM3GKW",
+     "from": "댓글",
+     "path": "menu-files/1792138220_743969-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기타",
+       "name": "추가사리",
+       "price": 2000
+      },
+      {
+       "category": "기타",
+       "name": "공기밥",
+       "price": 2000
+      },
+      {
+       "category": "기타",
+       "name": "포장콜라",
+       "price": 3000
+      },
+      {
+       "category": "기타",
+       "name": "양념소스",
+       "price": 1000
+      },
+      {
+       "category": "기타",
+       "name": "1000cc",
+       "price": 9000
+      },
+      {
+       "category": "기타",
+       "name": "샐러드",
+       "price": 3000
+      },
+      {
+       "category": "기타",
+       "name": "치킨무",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792138223.994689",
+   "rc": 2,
+   "lr": "1792138275.395429",
    "rfx": 3,
    "status": "wait",
    "handler": null,
