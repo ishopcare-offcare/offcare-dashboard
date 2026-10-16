@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3692,
- "updatedAt": "2026-10-16 17:34",
+ "version": 3693,
+ "updatedAt": "2026-10-16 18:04",
  "days": 30,
  "items": [
   {
@@ -62970,29 +62970,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789551537295649"
-  },
-  {
-   "ts": "1789549420.699089",
-   "date": "2026-09-16",
-   "time": "18:03",
-   "store": "잼(JAM)",
-   "biz": "8011702447",
-   "pos": "스파로스포스",
-   "content": "스파로스 메뉴 수정 부탁드리며, 수정 완료 후 문자 한 번 발송 부탁드립니다!!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "안주 카테고리에 아래 4가지 메뉴 추가 부탁드립니다~!\n• 스낵류 3천원 \n• 스낵류 5천원 \n• 스낵류 1만원 \n• 스낵류 2만원"
-   ],
-   "rc": 3,
-   "lr": "1789551080.706189",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789549420699089"
   }
  ],
  "ocr": {
