@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3720,
- "updatedAt": "2026-10-17 16:55",
+ "version": 3721,
+ "updatedAt": "2026-10-17 16:59",
  "days": 30,
  "items": [
   {
@@ -59774,58 +59774,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789632798899299"
-  },
-  {
-   "ts": "1789631808.504719",
-   "date": "2026-09-17",
-   "time": "16:56",
-   "store": "The Prelude Shop",
-   "biz": "7288103778",
-   "pos": "토스포스",
-   "content": "[📧 메일] 제목: 메뉴 등록 신청 [사업자번호: ···] (파일첨부)\n사업자번호: ··· 사업자명: 주식회사 프렐류드 매장명: The Prelude Shop 전화번호: <tel:···|···> 포스 프로그램: 토스포스  수정할 메뉴: 기존에 이지포스를 6년간 사용했습니다. 이지포스에 등록되어 있는 상품들을 토스 포스기에 등록해야 합니다. 상품은 큰 카테고리로 나뉘면 좋겠습니다. 아래의 이미지를 참고해주세요!    <tel:···|···> 정다은 대표.     \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ae5cd1e599ecf>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ae5cd1e599ecf",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789631808504719"
-  },
-  {
-   "ts": "1789631753.141979",
-   "date": "2026-09-17",
-   "time": "16:55",
-   "store": "주식회사 프렐류드",
-   "biz": "7288103778",
-   "pos": "토스포스",
-   "content": "이지포스에서 사용하던 상품 옵션명을 토스포스기로 옮기고 싶어요.",
-   "special": "메일로 이지포스 엑셀파일 전송했습니다.",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "이거 하고잇는겨?",
-    "방금 마무리햇죠~",
-    "옼돜~",
-    "지피티랑 오지게 기싸움햇햇"
-   ],
-   "rc": 4,
-   "lr": "1789639032.117699",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789631753141979"
   }
  ],
  "ocr": {
