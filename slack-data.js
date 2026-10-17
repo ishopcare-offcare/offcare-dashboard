@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22073,
+  "version": 22074,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262774,7 +262774,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프론트 + 터미널2 온보딩 완료",
+          "rr": 1
         },
         {
           "time": "15:56",
@@ -263236,27 +263237,27 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "16:53",
+      "updatedAt": "17:00",
       "voc": {
-        "responses": 22,
+        "responses": 23,
         "install": {
           "count": 11,
           "low": 0
         },
         "nps": {
-          "count": 22,
+          "count": 23,
           "low": 2
         },
         "high": {
           "install": 7,
-          "nps": 14
+          "nps": 15
         },
         "npsDist": {
           "2": 1,
           "4": 1,
           "8": 4,
           "9": 2,
-          "10": 14
+          "10": 15
         },
         "installDist": {
           "4": 4,
@@ -263270,6 +263271,10 @@ window.SLACK_DATA = {
           "기타": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 4,
+            "low": 0
+          },
           "구매설치": {
             "total": 11,
             "low": 1
@@ -263278,16 +263283,16 @@ window.SLACK_DATA = {
             "total": 7,
             "low": 1
           },
-          "12개월": {
-            "total": 3,
-            "low": 0
-          },
           "6개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 9,
+            "low": 0
+          },
           "NICE": {
             "total": 2,
             "low": 0
@@ -263311,10 +263316,6 @@ window.SLACK_DATA = {
           "KOVAN": {
             "total": 1,
             "low": 1
-          },
-          "KIS": {
-            "total": 8,
-            "low": 0
           },
           "KOCES": {
             "total": 3,
@@ -263612,7 +263613,7 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792223928.9,
+        "lastSeen": 1792224036.502,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
@@ -263623,37 +263624,40 @@ window.SLACK_DATA = {
       },
       "1792203441.094409": {
         "post": "1792203441.094409",
-        "lastSeen": 1792223928.9,
+        "lastSeen": 1792224036.502,
         "r": 1,
         "day": "2026-10-17",
         "idx": 9
       },
       "1792205808.469629": {
         "post": "1792205808.469629",
-        "lastSeen": 1792223928.9
+        "lastSeen": 1792224036.502
       },
       "1792210100.381449": {
         "post": "1792210100.381449",
-        "lastSeen": 1792223928.9,
+        "lastSeen": 1792224036.502,
         "r": 1,
         "day": "2026-10-17",
         "idx": 18
       },
       "1792219644.584179": {
         "post": "1792219644.584179",
-        "lastSeen": 1792223928.9
+        "lastSeen": 1792224036.502
       },
       "1792221297.043199": {
         "post": "1792221297.043199",
-        "lastSeen": 1792223928.9
+        "lastSeen": 1792224036.502
       },
       "1792223159.831909": {
         "post": "1792223159.831909",
-        "lastSeen": 1792223928.9
+        "lastSeen": 1792224036.502,
+        "r": 1,
+        "day": "2026-10-17",
+        "idx": 39
       },
       "1792223592.599359": {
         "post": "1792223592.599359",
-        "lastSeen": 1792223928.9
+        "lastSeen": 1792224036.502
       }
     },
     "days": {
@@ -356107,8 +356111,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-17": {
-        "cnt": 39,
-        "sumMin": 946.1087156573934,
+        "cnt": 40,
+        "sumMin": 959.8232005119327,
         "over": 15,
         "items": [
           {
@@ -356458,13 +356462,21 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 46.2
+          },
+          {
+            "hm": "16:45",
+            "min": 13.7,
+            "store": "지블링",
+            "biz": "8683201667",
+            "who": "김기범",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 16:59",
+    "at": "2026-10-17 17:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -356596,7 +356608,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 16:58",
+    "at": "2026-10-17 17:00",
     "pri": {
       "days": 0,
       "failed": [],
