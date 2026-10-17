@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21924,
+  "version": 21925,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262720,7 +262720,7 @@ window.SLACK_DATA = {
     "2026-10-17": {
       "counts": {
         "as": {
-          "김동욱": 6
+          "김동욱": 7
         },
         "delivery": {
           "김동욱": 1
@@ -262728,6 +262728,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:18",
+          "store": "싸르뜨르",
+          "biz": "5070575759",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "매장 인터넷 공유기 재부팅 후 프론트 인터넷 연결이 안된다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "1차 부재 / 아이패드에서 토스 사장님 앱 재시작 후 정상",
+          "rr": 2
+        },
         {
           "time": "10:00",
           "store": "옵샵(offshop)",
@@ -262813,7 +262825,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 0,
         "unknown": 0
       },
@@ -263011,7 +263023,7 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792200631.626,
+        "lastSeen": 1792200739.99,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
@@ -355530,7 +355542,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 10:30",
+    "at": "2026-10-17 10:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355662,7 +355674,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 10:30",
+    "at": "2026-10-17 10:32",
     "pri": {
       "days": 0,
       "failed": [],
