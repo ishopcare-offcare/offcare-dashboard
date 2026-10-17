@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21911,
+  "version": 21912,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262720,7 +262720,7 @@ window.SLACK_DATA = {
     "2026-10-17": {
       "counts": {
         "as": {
-          "김동욱": 3
+          "김동욱": 4
         }
       },
       "pending": [
@@ -262738,6 +262738,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "09:45",
+          "store": "오늘은김밥",
+          "biz": "6212136353",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포프유프(포스기) / 용량부족 문구 노출",
+          "hw": "",
+          "intake": "online",
+          "note": "가상메모리 설정 및 Antimalware service 점유율 낮춰드림",
+          "rr": 1
+        },
         {
           "time": "09:31",
           "store": "맛나분식",
@@ -262775,7 +262787,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -262967,22 +262979,25 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792198819.254,
+        "lastSeen": 1792198867.925,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
       },
       "1792197900.317199": {
         "post": "1792197900.317199",
-        "lastSeen": 1792198819.254
+        "lastSeen": 1792198867.925,
+        "r": 1,
+        "day": "2026-10-17",
+        "idx": 3
       },
       "1792198803.785219": {
         "post": "1792198803.785219",
-        "lastSeen": 1792198819.254
+        "lastSeen": 1792198867.925
       },
       "1792198802.060489": {
         "post": "1792198802.060489",
-        "lastSeen": 1792198819.254
+        "lastSeen": 1792198867.925
       }
     },
     "days": {
@@ -355436,8 +355451,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-17": {
-        "cnt": 3,
-        "sumMin": 9.546192383766176,
+        "cnt": 4,
+        "sumMin": 25.267397399743402,
         "over": 0,
         "items": [
           {
@@ -355465,13 +355480,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 5.5
+          },
+          {
+            "hm": "09:45",
+            "min": 15.7,
+            "store": "카페 일삼육",
+            "biz": "1152302406",
+            "who": "김동욱",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 10:00",
+    "at": "2026-10-17 10:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355603,7 +355626,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 10:00",
+    "at": "2026-10-17 10:01",
     "pri": {
       "days": 0,
       "failed": [],
