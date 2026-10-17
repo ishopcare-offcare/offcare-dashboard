@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21922,
+  "version": 21923,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262721,6 +262721,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김동욱": 6
+        },
+        "delivery": {
+          "김동욱": 1
         }
       },
       "pending": [],
@@ -262762,6 +262765,18 @@ window.SLACK_DATA = {
           "rr": 1
         },
         {
+          "time": "09:45",
+          "store": "카페 일삼육",
+          "biz": "1152302406",
+          "cat": "delivery",
+          "emp": "김동욱",
+          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": "1차 부재 / 쿠팡설치완료",
+          "rr": 2
+        },
+        {
           "time": "09:31",
           "store": "맛나분식",
           "biz": "4523601683",
@@ -262798,7 +262813,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
@@ -262996,17 +263011,10 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792200154.191,
+        "lastSeen": 1792200401.32,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
-      },
-      "1792197900.317199": {
-        "post": "1792197900.317199",
-        "lastSeen": 1792200154.191,
-        "r": 1,
-        "day": "2026-10-17",
-        "idx": 3
       }
     },
     "days": {
@@ -355496,7 +355504,8 @@ window.SLACK_DATA = {
             "store": "카페 일삼육",
             "biz": "1152302406",
             "who": "김동욱",
-            "cat": "delivery"
+            "cat": "delivery",
+            "dmin": 39.6
           },
           {
             "hm": "10:00",
@@ -355521,7 +355530,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 10:22",
+    "at": "2026-10-17 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355653,7 +355662,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 10:22",
+    "at": "2026-10-17 10:26",
     "pri": {
       "days": 0,
       "failed": [],
