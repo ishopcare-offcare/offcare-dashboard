@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21895,
+  "version": 21896,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -259463,7 +259463,7 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "해당매장 리커버리로 지연안내 부탁드립니다. / 리커버리 후에도 불안정으로 익일 포스 퀵배송 안내 완료 / 오전 최대한 빠른시간 퀵출고 요청드립니다 c.c c.c / /",
-          "rr": 7
+          "rr": 8
         },
         {
           "time": "19:30",
@@ -262718,15 +262718,31 @@ window.SLACK_DATA = {
       ]
     },
     "2026-10-17": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:48",
+          "store": "컴포즈커피 HD올림픽 셀프주유소점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "RNDIS 프론트캠 오류",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:37",
+      "updatedAt": "09:00",
       "voc": {
         "responses": 1,
         "install": {
@@ -262911,6 +262927,10 @@ window.SLACK_DATA = {
       "1792162854.874149": {
         "post": "1792162854.874149",
         "lastSeen": 1792181731.997
+      },
+      "1792195203.451979": {
+        "post": "1792195203.451979",
+        "lastSeen": 1792195237.176
       }
     },
     "days": {
@@ -355366,7 +355386,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 08:45",
+    "at": "2026-10-17 09:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355498,7 +355518,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 08:45",
+    "at": "2026-10-17 09:00",
     "pri": {
       "days": 0,
       "failed": [],
