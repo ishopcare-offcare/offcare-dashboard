@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3723,
- "updatedAt": "2026-10-17 17:15",
+ "version": 3724,
+ "updatedAt": "2026-10-17 17:21",
  "days": 30,
  "items": [
   {
@@ -59582,30 +59582,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789633921127079"
-  },
-  {
-   "ts": "1789633021.683259",
-   "date": "2026-09-17",
-   "time": "17:17",
-   "store": "스시꾼",
-   "biz": "2270755074",
-   "pos": "",
-   "content": "메뉴 추가 요청드립니다! (유플러스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[ 사이드 메뉴 ] _ 기존 카테고리에서 메뉴 추가\n• 회덮밥 재료 7,900원\n• 실속회 12,000원\n• 문어숙회 8,900원\n• 소라숙회 8,900원\n&\n\n[ 점심 런치 ] _ 새 카테고리에서 메뉴 추가\n• 초밥 정식 12,000원\n• 회덮밥 12,000원\n• 돈까스 정식 12,000원",
-    "감사합니다!!"
-   ],
-   "rc": 5,
-   "lr": "1789635656.942479",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789633021683259"
   }
  ],
  "ocr": {
