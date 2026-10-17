@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22081,
+  "version": 22082,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263261,15 +263261,15 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "17:00",
+      "updatedAt": "17:14",
       "voc": {
-        "responses": 23,
+        "responses": 24,
         "install": {
-          "count": 11,
+          "count": 12,
           "low": 0
         },
         "nps": {
-          "count": 23,
+          "count": 24,
           "low": 2
         },
         "high": {
@@ -263280,28 +263280,28 @@ window.SLACK_DATA = {
           "2": 1,
           "4": 1,
           "8": 4,
-          "9": 2,
+          "9": 3,
           "10": 15
         },
         "installDist": {
-          "4": 4,
+          "4": 5,
           "5": 7
         },
         "byIndustry": {
+          "도소매": 3,
           "서비스[학원]": 3,
           "요식업": 4,
-          "도소매": 2,
           "서비스[뷰티,헤어]": 1,
           "기타": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 12,
+            "low": 1
+          },
           "12개월": {
             "total": 4,
             "low": 0
-          },
-          "구매설치": {
-            "total": 11,
-            "low": 1
           },
           "1개월": {
             "total": 7,
@@ -263313,6 +263313,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 4,
+            "low": 0
+          },
           "KIS": {
             "total": 9,
             "low": 0
@@ -263340,10 +263344,6 @@ window.SLACK_DATA = {
           "KOVAN": {
             "total": 1,
             "low": 1
-          },
-          "KOCES": {
-            "total": 3,
-            "low": 0
           },
           "SECTA9": {
             "total": 1,
@@ -263401,6 +263401,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "17:14",
+            "store": "파인테크",
+            "storeId": "689721",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 4,
+            "nps": 9,
+            "text": "처음제품 프린트기 불량이었는데   빠른조치 감사했구요.  설치 상담기사분 차분히 잘 설명해주시면서 많은 도움이되었읍니다 타업체보다 신곡하고 상담 하시는분들 좋아요",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:44",
             "store": "도레미음악학원",
@@ -263637,7 +263649,7 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792224762.333,
+        "lastSeen": 1792224905.021,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
@@ -263648,29 +263660,29 @@ window.SLACK_DATA = {
       },
       "1792203441.094409": {
         "post": "1792203441.094409",
-        "lastSeen": 1792224762.333,
+        "lastSeen": 1792224905.021,
         "r": 1,
         "day": "2026-10-17",
         "idx": 9
       },
       "1792205808.469629": {
         "post": "1792205808.469629",
-        "lastSeen": 1792224762.333
+        "lastSeen": 1792224905.021
       },
       "1792210100.381449": {
         "post": "1792210100.381449",
-        "lastSeen": 1792224762.333,
+        "lastSeen": 1792224905.021,
         "r": 1,
         "day": "2026-10-17",
         "idx": 18
       },
       "1792219644.584179": {
         "post": "1792219644.584179",
-        "lastSeen": 1792224762.333
+        "lastSeen": 1792224905.021
       },
       "1792223592.599359": {
         "post": "1792223592.599359",
-        "lastSeen": 1792224762.333
+        "lastSeen": 1792224905.021
       }
     },
     "days": {
@@ -356499,7 +356511,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 17:12",
+    "at": "2026-10-17 17:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -356631,7 +356643,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 17:12",
+    "at": "2026-10-17 17:15",
     "pri": {
       "days": 0,
       "failed": [],
