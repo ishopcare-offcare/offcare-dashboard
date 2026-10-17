@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3714,
- "updatedAt": "2026-10-17 15:36",
+ "version": 3715,
+ "updatedAt": "2026-10-17 15:39",
  "days": 30,
  "items": [
   {
@@ -61271,147 +61271,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789627200240759"
-  },
-  {
-   "ts": "1789627170.094269",
-   "date": "2026-09-17",
-   "time": "15:39",
-   "store": "삼송 고기다",
-   "biz": "1026300897",
-   "pos": "",
-   "content": "실규 설치 예정 메뉴 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "=_UTF-8_B_UmVzaXplZF8xNzg5NjIyNjMyMDA2Ln",
-     "fid": "F0C2ALJTJCT",
-     "from": "댓글",
-     "path": "menu-files/1789627170_094269-0.png",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "돼지양념구이 200g",
-       "price": 16000
-      },
-      {
-       "category": "",
-       "name": "갈비살 200g",
-       "price": 23000
-      },
-      {
-       "category": "",
-       "name": "실속 400g",
-       "price": 45000
-      },
-      {
-       "category": "",
-       "name": "대용량 600g",
-       "price": 67000
-      },
-      {
-       "category": "",
-       "name": "통양념 갈비살 200g",
-       "price": 23000
-      },
-      {
-       "category": "",
-       "name": "실속 400g",
-       "price": 45000
-      },
-      {
-       "category": "",
-       "name": "대용량 600g",
-       "price": 67000
-      },
-      {
-       "category": "",
-       "name": "이동갈비 3대 230g",
-       "price": 33000
-      },
-      {
-       "category": "주류·음료",
-       "name": "소주",
-       "price": 4000
-      },
-      {
-       "category": "주류·음료",
-       "name": "맥주",
-       "price": 4000
-      },
-      {
-       "category": "주류·음료",
-       "name": "막걸리",
-       "price": 4000
-      },
-      {
-       "category": "주류·음료",
-       "name": "청하",
-       "price": 6000
-      },
-      {
-       "category": "주류·음료",
-       "name": "복분자",
-       "price": 15000
-      },
-      {
-       "category": "주류·음료",
-       "name": "음료수",
-       "price": 2000
-      },
-      {
-       "category": "식사류",
-       "name": "옛날불고기 300g",
-       "price": 16000
-      },
-      {
-       "category": "식사류",
-       "name": "육회비빔밥",
-       "price": 10000
-      },
-      {
-       "category": "식사류",
-       "name": "된장찌개",
-       "price": 9000
-      },
-      {
-       "category": "식사류",
-       "name": "국수 냉/온",
-       "price": 8000
-      },
-      {
-       "category": "곁들임·후식",
-       "name": "한우육회 150g",
-       "price": 24000
-      },
-      {
-       "category": "곁들임·후식",
-       "name": "후식국수 냉/온",
-       "price": 3000
-      },
-      {
-       "category": "곁들임·후식",
-       "name": "계란찜",
-       "price": 5000
-      },
-      {
-       "category": "곁들임·후식",
-       "name": "공기밥",
-       "price": 1000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1789627188.304709",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789627170094269"
   }
  ],
  "ocr": {
