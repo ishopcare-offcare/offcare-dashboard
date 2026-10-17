@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21933,
+  "version": 21934,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262722,12 +262722,26 @@ window.SLACK_DATA = {
         "as": {
           "김동욱": 8
         },
+        "menu": {
+          "김동욱": 1
+        },
         "delivery": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:46",
+          "store": "카페헐리우드",
+          "biz": "1011135512",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:45",
           "store": "51커피로스터스(51 COFFEE ROASTERS)",
@@ -262837,7 +262851,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 0,
         "unknown": 0
       },
@@ -263028,26 +263042,22 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792202470.83,
+        "lastSeen": 1792202619.551,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
       },
-      "1792201605.557959": {
-        "post": "1792201605.557959",
-        "lastSeen": 1792202470.83
-      },
       "1792202291.042639": {
         "post": "1792202291.042639",
-        "lastSeen": 1792202470.83
+        "lastSeen": 1792202619.551
       },
       "1792202401.780449": {
         "post": "1792202401.780449",
-        "lastSeen": 1792202470.83
+        "lastSeen": 1792202619.551
       },
       "1792202404.640359": {
         "post": "1792202404.640359",
-        "lastSeen": 1792202470.83
+        "lastSeen": 1792202619.551
       }
     },
     "days": {
@@ -355501,8 +355511,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-17": {
-        "cnt": 7,
-        "sumMin": 36.00001111825307,
+        "cnt": 8,
+        "sumMin": 51.66055346727371,
         "over": 0,
         "items": [
           {
@@ -355566,13 +355576,22 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 1.3
+          },
+          {
+            "hm": "10:46",
+            "min": 15.7,
+            "store": "카페헐리우드",
+            "biz": "1011135512",
+            "who": "김동욱",
+            "cat": "menu",
+            "dmin": 15.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 11:01",
+    "at": "2026-10-17 11:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355704,7 +355723,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 11:01",
+    "at": "2026-10-17 11:03",
     "pri": {
       "days": 0,
       "failed": [],
