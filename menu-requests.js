@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3708,
- "updatedAt": "2026-10-17 11:03",
+ "version": 3709,
+ "updatedAt": "2026-10-17 11:05",
  "days": 30,
  "items": [
   {
@@ -61830,95 +61830,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789615690317039"
-  },
-  {
-   "ts": "1789610678.062739",
-   "date": "2026-09-17",
-   "time": "11:04",
-   "store": "일마지오 킨텍스점",
-   "biz": "7528502275",
-   "pos": "퍼스트포스",
-   "content": "메뉴 삭제신청\n\n피자메뉴에\n2인피맥세트,포테이토피자 삭제\n\n파스타 메뉴에\n일맥세트 삭제\n\n음료(캔,병) 메뉴에 생맥주 삭제\n\n시즌음료에\n딸기말차,레몬말차,치즈폼음료,컵빙수 삭제",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C2053QTHD",
-     "from": "댓글",
-     "path": "menu-files/1789610678_062739-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "시즌메뉴",
-       "name": "HOT_얄마지오제주말차라떼",
-       "price": 4300
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "ICE_얄마지오제주말차라떼",
-       "price": 4300
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "ICE_말차 딸기 라떼",
-       "price": 5000
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "ICE_말차 레몬에이드",
-       "price": 5000
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "HOT_얄마지오치즈폼초콜릿라떼",
-       "price": 4500
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "HOT_얄마지오치즈폼로알밀크티",
-       "price": 5000
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "HOT_얄마지오치즈폼제주말차라떼",
-       "price": 4800
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "치즈폼 추가",
-       "price": 500
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "우베 카페라떼",
-       "price": 6600
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "제로 복숭아 아이스티",
-       "price": 5500
-      },
-      {
-       "category": "시즌메뉴",
-       "name": "오리지널 컵빙수",
-       "price": 7000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "음료는 불안하니 백업",
-    "완료"
-   ],
-   "rc": 2,
-   "lr": "1789611438.342589",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789610678062739"
   }
  ],
  "ocr": {
