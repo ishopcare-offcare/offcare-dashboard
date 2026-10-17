@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3711,
- "updatedAt": "2026-10-17 11:17",
+ "version": 3712,
+ "updatedAt": "2026-10-17 12:29",
  "days": 30,
  "items": [
   {
@@ -61800,36 +61800,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789623418140949"
-  },
-  {
-   "ts": "1789615690.317039",
-   "date": "2026-09-17",
-   "time": "12:28",
-   "store": "차오름 김밥&누들",
-   "biz": "4701202893",
-   "pos": "",
-   "content": "하이오더 인입 // 선불테이블 7개 생성 부탁 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C3A7X2P1N",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "path": "menu-files/1789615690_317039-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 4,
-   "lr": "1789694116.676129",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김현기",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789615690317039"
   }
  ],
  "ocr": {

@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21966,
+  "version": 21967,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262720,7 +262720,7 @@ window.SLACK_DATA = {
     "2026-10-17": {
       "counts": {
         "as": {
-          "김동욱": 12
+          "김동욱": 13
         },
         "onboarding": {
           "김동욱": 1
@@ -262734,6 +262734,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:37",
+          "store": "아시아(ASIA)",
+          "biz": "4272000727",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1792133778181099|10/16 프린터 설치 및 오더 출력 확인 완료> &gt;&gt; 다시 출력 안 됨으로 한번 더 확인 요청",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:30",
           "store": "필라델피아 호기 스쿨(Philadelphia Hoagi",
@@ -262914,7 +262925,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 1,
         "unknown": 0
       },
@@ -263113,14 +263124,14 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792207136.519,
+        "lastSeen": 1792207744.911,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
       },
       "1792202404.640359": {
         "post": "1792202404.640359",
-        "lastSeen": 1792207136.519
+        "lastSeen": 1792207744.911
       },
       "1792202774.794479": {
         "post": "1792202774.794479",
@@ -263128,18 +263139,14 @@ window.SLACK_DATA = {
       },
       "1792203441.094409": {
         "post": "1792203441.094409",
-        "lastSeen": 1792207136.519,
+        "lastSeen": 1792207744.911,
         "r": 1,
         "day": "2026-10-17",
         "idx": 9
       },
-      "1792204642.828759": {
-        "post": "1792204642.828759",
-        "lastSeen": 1792207136.519
-      },
       "1792205808.469629": {
         "post": "1792205808.469629",
-        "lastSeen": 1792207136.519
+        "lastSeen": 1792207744.911
       }
     },
     "days": {
@@ -355593,9 +355600,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-17": {
-        "cnt": 14,
-        "sumMin": 188.83494023084643,
-        "over": 1,
+        "cnt": 15,
+        "sumMin": 235.46637758413954,
+        "over": 2,
         "items": [
           {
             "hm": "09:00",
@@ -355720,13 +355727,22 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 42.8
+          },
+          {
+            "hm": "11:37",
+            "min": 46.6,
+            "store": "아시아(ASIA)",
+            "biz": "4272000727",
+            "who": "김동욱",
+            "cat": "as",
+            "dmin": 46.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 12:19",
+    "at": "2026-10-17 12:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355858,7 +355874,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 12:18",
+    "at": "2026-10-17 12:29",
     "pri": {
       "days": 0,
       "failed": [],
