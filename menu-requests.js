@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3732,
- "updatedAt": "2026-10-17 20:05",
+ "version": 3733,
+ "updatedAt": "2026-10-17 20:45",
  "days": 30,
  "items": [
   {
@@ -58296,47 +58296,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789692861261909"
-  },
-  {
-   "ts": "1789645287.292659",
-   "date": "2026-09-17",
-   "time": "20:41",
-   "store": "일마지오 킨텍스점",
-   "biz": "7528502275",
-   "pos": "퍼스트포스",
-   "content": "[시즌메뉴 카테고리 메뉴 추가]\n\n1. 누가라떼 : 5,800원 (옵션 HOT, ICE선택 必)\n\n2. 누가카페라떼 : 6,000원 (옵션 HOT, ICE선택 必)\n\n3. 굿나잇흑임자라떼 : 6,300원 (옵션 HOT, ICE선택 必)",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1EQDNtXjXu2wYvZ41eHW5cZkM9x5-bwBy/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1JK3mnZvNwGTQ20wW2Ys_rGYsBLpR6uCm/view?usp=drivesdk",
-    "https://drive.google.com/file/d/108jLAqJoFlUWp6o_Pbr84bRRaawWkYPL/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1EQDNtXjXu2wYvZ41eHW5cZkM9x5-bwBy",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1JK3mnZvNwGTQ20wW2Ys_rGYsBLpR6uCm",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "108jLAqJoFlUWp6o_Pbr84bRRaawWkYPL",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789645287292659"
   }
  ],
  "ocr": {
