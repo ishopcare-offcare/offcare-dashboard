@@ -3,10 +3,91 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3706,
- "updatedAt": "2026-10-17 10:05",
+ "version": 3707,
+ "updatedAt": "2026-10-17 10:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1792201605.557959",
+   "date": "2026-10-17",
+   "time": "10:46",
+   "store": "카페헐리우드",
+   "biz": "1011135512",
+   "pos": "오케이포스",
+   "content": "사진보냈어요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1zFM66UytWQVn2fP8xvDSkUWQ8KVJfc0-/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1zFM66UytWQVn2fP8xvDSkUWQ8KVJfc0-",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "수제매실차",
+       "price": 3800
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "흑유자차",
+       "price": 3800
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "토피넛라떼",
+       "price": 3800
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "수제자몽차",
+       "price": 3800
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "흑제라떼",
+       "price": 3800
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "딸기바나나",
+       "price": 5000
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "오렌지자몽주스",
+       "price": 4500
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "블루베리바나나",
+       "price": 5000
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "망고바나나",
+       "price": 5000
+      },
+      {
+       "category": "오늘의 새로운 메뉴",
+       "name": "키위바나나",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792201605557959"
+  },
   {
    "ts": "1792149161.054709",
    "date": "2026-10-16",

@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21927,
+  "version": 21928,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262720,7 +262720,7 @@ window.SLACK_DATA = {
     "2026-10-17": {
       "counts": {
         "as": {
-          "김동욱": 7
+          "김동욱": 8
         },
         "delivery": {
           "김동욱": 1
@@ -262728,6 +262728,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:45",
+          "store": "51커피로스터스(51 COFFEE ROASTERS)",
+          "biz": "7670104256",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "프린터 전원이 안켜진다고 하셔서 원격 점검 요청드립니다. (전원 케이블 재장착 해도 동일하다고 주장)",
+          "hw": "",
+          "intake": "online",
+          "note": "가게 전기가 내려간 것 같다고 하심",
+          "rr": 1
+        },
         {
           "time": "10:18",
           "store": "싸르뜨르",
@@ -262825,11 +262837,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:45",
+      "updatedAt": "10:46",
       "voc": {
         "responses": 1,
         "install": {
@@ -263016,17 +263028,14 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792201568.121,
+        "lastSeen": 1792201611.267,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
       },
-      "1792201513.093469": {
-        "post": "1792201513.093469",
-        "lastSeen": 1792201568.121,
-        "r": 1,
-        "day": "2026-10-17",
-        "idx": 6
+      "1792201605.557959": {
+        "post": "1792201605.557959",
+        "lastSeen": 1792201611.267
       }
     },
     "days": {
@@ -355543,14 +355552,15 @@ window.SLACK_DATA = {
             "store": "51커피로스터스(51 COFFEE ROASTERS)",
             "biz": "7670104256",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 1.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 10:46",
+    "at": "2026-10-17 10:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
