@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21901,
+  "version": 21902,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262930,14 +262930,17 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792196134.664,
+        "lastSeen": 1792196198.388,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
       },
       "1792195988.171169": {
         "post": "1792195988.171169",
-        "lastSeen": 1792196134.664
+        "lastSeen": 1792196198.388,
+        "r": 1,
+        "day": "2026-10-17",
+        "idx": 1
       }
     },
     "days": {
@@ -355391,8 +355394,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-17": {
-        "cnt": 1,
-        "sumMin": 5.737050350507101,
+        "cnt": 2,
+        "sumMin": 8.70963086684545,
         "over": 0,
         "items": [
           {
@@ -355402,13 +355405,21 @@ window.SLACK_DATA = {
             "biz": "2661103321",
             "who": "김동욱",
             "cat": "delivery"
+          },
+          {
+            "hm": "09:13",
+            "min": 3,
+            "store": "주식회사 강산에프엔씨",
+            "biz": "2648804103",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 09:15",
+    "at": "2026-10-17 09:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355540,7 +355551,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 09:15",
+    "at": "2026-10-17 09:16",
     "pri": {
       "days": 0,
       "failed": [],
