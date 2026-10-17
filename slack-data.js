@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22066,
+  "version": 22067,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262761,7 +262761,8 @@ window.SLACK_DATA = {
           "req": "터미널1 -&gt; 2 교체 매장, 포스기 + 터미널 + 유프 사용 매장으로 재온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "터미널 아닌 프론트2 교체, 온보딩 완료",
+          "rr": 1
         },
         {
           "time": "15:48",
@@ -263211,42 +263212,42 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "16:14",
+      "updatedAt": "16:44",
       "voc": {
-        "responses": 21,
+        "responses": 22,
         "install": {
-          "count": 10,
+          "count": 11,
           "low": 0
         },
         "nps": {
-          "count": 21,
+          "count": 22,
           "low": 2
         },
         "high": {
-          "install": 6,
-          "nps": 13
+          "install": 7,
+          "nps": 14
         },
         "npsDist": {
           "2": 1,
           "4": 1,
           "8": 4,
           "9": 2,
-          "10": 13
+          "10": 14
         },
         "installDist": {
           "4": 4,
-          "5": 6
+          "5": 7
         },
         "byIndustry": {
+          "서비스[학원]": 3,
           "요식업": 4,
           "도소매": 2,
-          "서비스[학원]": 2,
           "서비스[뷰티,헤어]": 1,
           "기타": 1
         },
         "byTenure": {
           "구매설치": {
-            "total": 10,
+            "total": 11,
             "low": 1
           },
           "1개월": {
@@ -263263,6 +263264,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "NICE": {
+            "total": 2,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
@@ -263292,10 +263297,6 @@ window.SLACK_DATA = {
             "low": 0
           },
           "SECTA9": {
-            "total": 1,
-            "low": 0
-          },
-          "NICE": {
             "total": 1,
             "low": 0
           }
@@ -263351,6 +263352,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:44",
+            "store": "도레미음악학원",
+            "storeId": "694650",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설치해주시고 사용방법까지 잘 설명해주셨어요 결제하기 너무 편하고 짜른속도로 결제된다",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:14",
             "store": "올레치킨호프(오렌지)",
@@ -263575,7 +263588,7 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792223027.043,
+        "lastSeen": 1792223093.632,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
@@ -263586,36 +263599,36 @@ window.SLACK_DATA = {
       },
       "1792203441.094409": {
         "post": "1792203441.094409",
-        "lastSeen": 1792223027.043,
+        "lastSeen": 1792223093.632,
         "r": 1,
         "day": "2026-10-17",
         "idx": 9
       },
       "1792205808.469629": {
         "post": "1792205808.469629",
-        "lastSeen": 1792223027.043
+        "lastSeen": 1792223093.632
       },
       "1792210100.381449": {
         "post": "1792210100.381449",
-        "lastSeen": 1792223027.043,
+        "lastSeen": 1792223093.632,
         "r": 1,
         "day": "2026-10-17",
         "idx": 18
       },
       "1792219644.584179": {
         "post": "1792219644.584179",
-        "lastSeen": 1792223027.043
+        "lastSeen": 1792223093.632
       },
       "1792220406.134009": {
         "post": "1792220406.134009",
-        "lastSeen": 1792223027.043,
+        "lastSeen": 1792223093.632,
         "r": 1,
         "day": "2026-10-17",
         "idx": 37
       },
       "1792221297.043199": {
         "post": "1792221297.043199",
-        "lastSeen": 1792223027.043
+        "lastSeen": 1792223093.632
       }
     },
     "days": {
@@ -356425,7 +356438,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 16:43",
+    "at": "2026-10-17 16:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -356557,7 +356570,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 16:43",
+    "at": "2026-10-17 16:44",
     "pri": {
       "days": 0,
       "failed": [],
