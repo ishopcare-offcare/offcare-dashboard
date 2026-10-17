@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22092,
+  "version": 22093,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263276,33 +263276,34 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "17:29",
+      "updatedAt": "17:44",
       "voc": {
-        "responses": 24,
+        "responses": 25,
         "install": {
-          "count": 12,
+          "count": 13,
           "low": 0
         },
         "nps": {
-          "count": 24,
+          "count": 25,
           "low": 2
         },
         "high": {
-          "install": 7,
-          "nps": 15
+          "install": 8,
+          "nps": 16
         },
         "npsDist": {
           "2": 1,
           "4": 1,
           "8": 4,
           "9": 3,
-          "10": 15
+          "10": 16
         },
         "installDist": {
           "4": 5,
-          "5": 7
+          "5": 8
         },
         "byIndustry": {
+          "카페": 1,
           "도소매": 3,
           "서비스[학원]": 3,
           "요식업": 4,
@@ -263311,7 +263312,7 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "구매설치": {
-            "total": 12,
+            "total": 13,
             "low": 1
           },
           "12개월": {
@@ -263328,6 +263329,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 2,
+            "low": 0
+          },
           "KOCES": {
             "total": 4,
             "low": 0
@@ -263359,10 +263364,6 @@ window.SLACK_DATA = {
           "KOVAN": {
             "total": 1,
             "low": 1
-          },
-          "SECTA9": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
@@ -263416,6 +263417,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "17:44",
+            "store": "카페동키",
+            "storeId": "699822",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절하고 깔끔하게 설치해주셨어요 기존포스보다 엄청간단하구 쓰기편해요",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "17:14",
             "store": "파인테크",
@@ -263664,7 +263677,7 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792226189.009,
+        "lastSeen": 1792226714.697,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
@@ -263675,37 +263688,37 @@ window.SLACK_DATA = {
       },
       "1792203441.094409": {
         "post": "1792203441.094409",
-        "lastSeen": 1792226189.009,
+        "lastSeen": 1792226714.697,
         "r": 1,
         "day": "2026-10-17",
         "idx": 9
       },
       "1792205808.469629": {
         "post": "1792205808.469629",
-        "lastSeen": 1792226189.009
+        "lastSeen": 1792226714.697
       },
       "1792210100.381449": {
         "post": "1792210100.381449",
-        "lastSeen": 1792226189.009,
+        "lastSeen": 1792226714.697,
         "r": 1,
         "day": "2026-10-17",
         "idx": 18
       },
       "1792219644.584179": {
         "post": "1792219644.584179",
-        "lastSeen": 1792226189.009
+        "lastSeen": 1792226714.697
       },
       "1792223592.599359": {
         "post": "1792223592.599359",
-        "lastSeen": 1792226189.009
+        "lastSeen": 1792226714.697
       },
       "1792225668.134059": {
         "post": "1792225668.134059",
-        "lastSeen": 1792226189.009
+        "lastSeen": 1792226714.697
       },
       "1792225752.259699": {
         "post": "1792225752.259699",
-        "lastSeen": 1792226189.009
+        "lastSeen": 1792226714.697
       }
     },
     "days": {
@@ -356543,7 +356556,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 17:36",
+    "at": "2026-10-17 17:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -356675,7 +356688,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 17:36",
+    "at": "2026-10-17 17:45",
     "pri": {
       "days": 0,
       "failed": [],
