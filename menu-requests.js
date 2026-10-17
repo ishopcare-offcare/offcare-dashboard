@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3718,
- "updatedAt": "2026-10-17 16:38",
+ "version": 3719,
+ "updatedAt": "2026-10-17 16:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1792223592.599359",
+   "date": "2026-10-17",
+   "time": "16:53",
+   "store": "주디마리 동명점",
+   "biz": "1733601437",
+   "pos": "토스포스",
+   "content": "(주)주디마리 광주유스퀘어2호점 (사업자 : ···)와 동일하게 적용해주세요.",
+   "special": "(주)주디마리 광주유스퀘어2호점 (사업자 : ···)와 동일하게 적용해주세요.",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792223592599359"
+  },
   {
    "ts": "1792201605.557959",
    "date": "2026-10-17",
@@ -60357,32 +60378,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789631693879589"
-  },
-  {
-   "ts": "1789631508.461549",
-   "date": "2026-09-17",
-   "time": "16:51",
-   "store": "",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 포스기 메뉴 이미지\n안녕하세요 매니저님,\n \n 포스기 메뉴 이미지 송부 드립니다\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ae5541a9768eb>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ae5541a9768eb",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789631508461549"
   }
  ],
  "ocr": {
