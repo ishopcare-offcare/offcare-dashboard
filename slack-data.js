@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22213,
+  "version": 22214,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262730,7 +262730,7 @@ window.SLACK_DATA = {
           "김동욱": 3
         },
         "booking": {
-          "미지정": 1
+          "미지정": 2
         },
         "transfer": {
           "김동욱": 1
@@ -262744,20 +262744,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         }
       },
-      "pending": [
-        {
-          "time": "15:47",
-          "store": "몽무드",
-          "biz": "7051303228",
-          "handler": "미지정",
-          "cat": "as",
-          "intake": "online",
-          "req": "포터프 연결 희망 전달드립니다 감사합니다",
-          "reasons": [
-            "1차 부재"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "23:15",
@@ -263057,6 +263044,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "프론트 구매 고객 프론트 결제는 정상적으로 되나 화면이 안나온다고 함 AS시 수리요금 발생으로 케어서비스 권유 케어서비스 한다고 함",
           "rr": 6
+        },
+        {
+          "time": "15:47",
+          "store": "몽무드",
+          "biz": "7051303228",
+          "cat": "booking",
+          "emp": "미지정",
+          "req": "포터프 연결 희망 전달드립니다 감사합니다",
+          "hw": "",
+          "intake": "online",
+          "note": "퇴근하셨다고 함, 월요일날 다시 고객센터로 연락주신다고 하심",
+          "rr": 1
         },
         {
           "time": "15:45",
@@ -356957,7 +356956,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 05:45",
+    "at": "2026-10-18 06:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357090,7 +357089,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 05:45",
+    "at": "2026-10-18 06:00",
     "pri": {
       "days": 0,
       "failed": [],
