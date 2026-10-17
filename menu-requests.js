@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3712,
- "updatedAt": "2026-10-17 12:29",
+ "version": 3713,
+ "updatedAt": "2026-10-17 14:45",
  "days": 30,
  "items": [
   {
@@ -61776,30 +61776,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789626727419779"
-  },
-  {
-   "ts": "1789623418.140949",
-   "date": "2026-09-17",
-   "time": "14:36",
-   "store": "갈풍집",
-   "biz": "3014014266",
-   "pos": "오케이포스",
-   "content": "메뉴 가격 변경 요청드립니다! (오케이포스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "생안창살 29,000원\n남대문주물럭 29,000원",
-    "• 솔라피 발송 필요"
-   ],
-   "rc": 4,
-   "lr": "1789623839.146359",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789623418140949"
   }
  ],
  "ocr": {
