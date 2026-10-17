@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21904,
+  "version": 21905,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262720,11 +262720,23 @@ window.SLACK_DATA = {
     "2026-10-17": {
       "counts": {
         "as": {
-          "김동욱": 1
+          "김동욱": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:13",
+          "store": "주식회사 강산에프엔씨",
+          "biz": "2648804103",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포터프(PC) / 온보딩 요청",
+          "hw": "",
+          "intake": "online",
+          "note": "포스뱅크(메인)+프론트2+터미널2+포스뱅크(오더)+홀프린터(포뱅)+주방프린터(포뱅) 오더-홀프린터 메인-터미널+주방프린터 터프 제외 점주님 소유장비",
+          "rr": 1
+        },
         {
           "time": "08:48",
           "store": "컴포즈커피 HD올림픽 셀프주유소점",
@@ -262738,11 +262750,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:13",
+      "updatedAt": "09:31",
       "voc": {
         "responses": 1,
         "install": {
@@ -262930,17 +262942,14 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792197034.957,
+        "lastSeen": 1792197096.281,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
       },
-      "1792195988.171169": {
-        "post": "1792195988.171169",
-        "lastSeen": 1792197034.957,
-        "r": 1,
-        "day": "2026-10-17",
-        "idx": 1
+      "1792197076.924809": {
+        "post": "1792197076.924809",
+        "lastSeen": 1792197096.281
       }
     },
     "days": {
@@ -355412,14 +355421,15 @@ window.SLACK_DATA = {
             "store": "주식회사 강산에프엔씨",
             "biz": "2648804103",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 18
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 09:30",
+    "at": "2026-10-17 09:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355551,7 +355561,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 09:30",
+    "at": "2026-10-17 09:31",
     "pri": {
       "days": 0,
       "failed": [],
