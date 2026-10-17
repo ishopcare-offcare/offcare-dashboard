@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22019,
+  "version": 22020,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263089,28 +263089,40 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:10",
+      "updatedAt": "15:14",
       "voc": {
-        "responses": 4,
+        "responses": 7,
         "install": {
-          "count": 0,
+          "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 4,
+          "count": 7,
           "low": 0
         },
         "high": {
-          "install": 0,
-          "nps": 3
+          "install": 2,
+          "nps": 4
         },
         "npsDist": {
+          "8": 2,
           "9": 1,
-          "10": 3
+          "10": 4
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "4": 1,
+          "5": 2
+        },
+        "byIndustry": {
+          "기타": 1,
+          "서비스[학원]": 1,
+          "도소매": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 0
+          },
           "1개월": {
             "total": 4,
             "low": 0
@@ -263118,6 +263130,10 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KIS": {
+            "total": 3,
+            "low": 0
+          },
+          "KPN": {
             "total": 1,
             "low": 0
           },
@@ -263132,7 +263148,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:14",
+            "store": "우주아빠컴퓨터",
+            "storeId": "707630",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "혼자하다 막히는 부분 문의하니 바로 알려주셔서 쉽게 설치했습니다. 깔끔한 디자인이라 인테리어 효과까지 있어서 좋아요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       },
       "absent": [
         {
@@ -263286,7 +263315,7 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792217488.579,
+        "lastSeen": 1792217664.095,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
@@ -263297,29 +263326,29 @@ window.SLACK_DATA = {
       },
       "1792203441.094409": {
         "post": "1792203441.094409",
-        "lastSeen": 1792217488.579,
+        "lastSeen": 1792217664.095,
         "r": 1,
         "day": "2026-10-17",
         "idx": 9
       },
       "1792205808.469629": {
         "post": "1792205808.469629",
-        "lastSeen": 1792217488.579
+        "lastSeen": 1792217664.095
       },
       "1792210100.381449": {
         "post": "1792210100.381449",
-        "lastSeen": 1792217488.579,
+        "lastSeen": 1792217664.095,
         "r": 1,
         "day": "2026-10-17",
         "idx": 18
       },
       "1792217457.936069": {
         "post": "1792217457.936069",
-        "lastSeen": 1792217488.579
+        "lastSeen": 1792217664.095
       },
       "1792217424.146339": {
         "post": "1792217424.146339",
-        "lastSeen": 1792217488.579
+        "lastSeen": 1792217664.095
       }
     },
     "days": {
@@ -356031,7 +356060,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-17 15:11",
+    "at": "2026-10-17 15:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -356163,7 +356192,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 15:11",
+    "at": "2026-10-17 15:14",
     "pri": {
       "days": 0,
       "failed": [],
