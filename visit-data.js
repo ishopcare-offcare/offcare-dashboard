@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-10-17 11:00 KST · 176건 (2026-07-01 이후)
+ * 갱신: 2026-10-17 11:02 KST · 176건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-10-17 11:00',
+  updatedAt: '2026-10-17 11:02',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -179,8 +179,8 @@ window.VISIT_DATA = {
   {"id":"15728","date":"2026-10-14","time":"17:58","store":"용용선생 구로디지털단지점","biz":"4440102471","kind":"기타","status":"pending","visitDate":"2026-10-22","region":"수도권","route":"오프라인","addr":"서울특별시 구로구","van":"NICE","equip":"[회수] 포스기 2EA + 프론트 1EA + NC-8000 1EA + 유선프린터기 3EA + 금전함 1EA","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"용용선생"},
   {"id":"15731","date":"2026-10-14","time":"18:10","store":"용용선생 오목교점","biz":"3013618571","kind":"기타","status":"done","visitDate":"2026-10-16","region":"수도권","route":"오프라인","addr":"서울특별시 양천구","van":"NICE","equip":"[회수] 포스기 2EA + 프론트 1EA + NC-8000 1EA + 금전함 1EA / 유선프린터기 3EA는 화재로 인해 회수가 어려움.","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"용용선생"},
   {"id":"15740","date":"2026-10-15","time":"10:02","store":"용용선생 역북점","biz":"8111602016","kind":"기타","status":"done","visitDate":"2026-10-16","region":"지방","route":"오프라인","addr":"경기도 용인시 처인구","van":"NICE","equip":"[회수] 포스기 2EA + 프론트 1EA + NC-8000 1EA + 유선프린터기 3EA + 금전함 1EA","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"용용선생"},
-  {"id":"15792","date":"2026-10-15","time":"18:13","store":"강창구찹쌀진순대 가양역점","biz":"3264401133","kind":"기타","status":"done","visitDate":"2026-10-16","region":"수도권","route":"오프라인","addr":"서울특별시 강서구","van":"KIS","equip":"포스기 회수","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":3,"roundDates":["2025-07-18","2026-07-08","2026-10-16","2025-07-18","2026-07-08","2026-10-16"],"brand":"강창구찹쌀진순대"},
-  {"id":"15800","date":"2026-10-16","time":"10:38","store":"미친피자 안양점","biz":"3643201433","kind":"AS","status":"done","visitDate":"2026-10-16","region":"수도권","route":"온라인","addr":"경기도 안양시 동안구","van":"KIS","equip":"가결제","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"미친피자"},
+  {"id":"15792","date":"2026-10-15","time":"18:13","store":"강창구찹쌀진순대 가양역점","biz":"3264401133","kind":"기타","status":"done","visitDate":"2026-10-16","region":"수도권","route":"오프라인","addr":"서울특별시 강서구","van":"KIS","equip":"포스기 회수","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"강창구찹쌀진순대"},
+  {"id":"15800","date":"2026-10-16","time":"10:38","store":"미친피자 안양점","biz":"3643201433","kind":"AS","status":"done","visitDate":"2026-10-16","region":"수도권","route":"온라인","addr":"경기도 안양시 동안구","van":"KIS","equip":"가결제","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"미친피자"},
   {"id":"15804","date":"2026-10-16","time":"13:40","store":"용용선생 역북점","biz":"8111602016","kind":"기타","status":"pending","visitDate":"2026-10-19","region":"지방","route":"오프라인","addr":"경기도 용인시 처인구","van":"NICE","equip":"[회수] 포스기 2EA + 프론트 1EA + NC-8000 1EA + 유선프린터기 3EA + 금전함 1EA","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"용용선생"},
   ],
 };
