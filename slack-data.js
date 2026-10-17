@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 21906,
+  "version": 21907,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -262720,11 +262720,23 @@ window.SLACK_DATA = {
     "2026-10-17": {
       "counts": {
         "as": {
-          "김동욱": 2
+          "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:31",
+          "store": "맛나분식",
+          "biz": "4523601683",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포프(노트북) + 유프 재온보딩 부탁드립니다. (현재 이전 결제 건 영수증 출력 필요하나 프론트 연결 끊겨서 출력 불가한 상황)",
+          "hw": "",
+          "intake": "online",
+          "note": "공유기 재시작 후 포프유프(노트북) 재온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "09:13",
           "store": "주식회사 강산에프엔씨",
@@ -262750,7 +262762,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -262942,17 +262954,10 @@ window.SLACK_DATA = {
       },
       "1792195203.451979": {
         "post": "1792195203.451979",
-        "lastSeen": 1792197157.956,
+        "lastSeen": 1792197653.273,
         "r": 1,
         "day": "2026-10-17",
         "idx": 0
-      },
-      "1792197076.924809": {
-        "post": "1792197076.924809",
-        "lastSeen": 1792197157.956,
-        "r": 1,
-        "day": "2026-10-17",
-        "idx": 2
       }
     },
     "days": {
@@ -355433,14 +355438,15 @@ window.SLACK_DATA = {
             "store": "맛나분식",
             "biz": "4523601683",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-17 09:32",
+    "at": "2026-10-17 09:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -355572,7 +355578,7 @@ window.SLACK_DATA = {
     "2026-10-17": 2
   },
   "noteMig": {
-    "at": "2026-10-17 09:32",
+    "at": "2026-10-17 09:40",
     "pri": {
       "days": 0,
       "failed": [],
