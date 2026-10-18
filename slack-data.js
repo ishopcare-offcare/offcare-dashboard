@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22316,
+  "version": 22317,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263925,16 +263925,16 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "16:00",
+      "updatedAt": "16:08",
       "voc": {
-        "responses": 11,
+        "responses": 12,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 11,
-          "low": 2
+          "count": 12,
+          "low": 3
         },
         "high": {
           "install": 3,
@@ -263942,6 +263942,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
+          "3": 1,
           "5": 1,
           "6": 1,
           "8": 2,
@@ -263958,6 +263959,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 1
+          },
           "구매설치": {
             "total": 4,
             "low": 0
@@ -263973,8 +263978,8 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KIS": {
-            "total": 2,
-            "low": 1
+            "total": 3,
+            "low": 2
           },
           "SMARTRO": {
             "total": 1,
@@ -264010,10 +264015,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "고객센터 연락이 매우 힘듦": 1,
           "필요한 기능이 없거나 몰라서 불편": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "16:08",
+            "store": "청명하늘신당",
+            "storeId": "274786",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "영업할때 외에 담당자랑 연락이 안되고 소통도 못함",
+                "cat": "고객센터 연락이 매우 힘듦"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:27",
             "store": "수알음수학교습소",
@@ -264200,11 +264228,11 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792307080.807
+        "lastSeen": 1792307328.986
       },
       "1792306803.161909": {
         "post": "1792306803.161909",
-        "lastSeen": 1792307080.807,
+        "lastSeen": 1792307328.986,
         "r": 1,
         "day": "2026-10-18",
         "idx": 5
@@ -357266,7 +357294,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:04",
+    "at": "2026-10-18 16:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357399,7 +357427,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:04",
+    "at": "2026-10-18 16:08",
     "pri": {
       "days": 0,
       "failed": [],
