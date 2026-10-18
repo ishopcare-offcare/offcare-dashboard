@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3747,
- "updatedAt": "2026-10-18 15:54",
+ "version": 3748,
+ "updatedAt": "2026-10-18 16:57",
  "days": 30,
  "items": [
   {
@@ -55477,29 +55477,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789719637097609"
-  },
-  {
-   "ts": "1789717841.377259",
-   "date": "2026-09-18",
-   "time": "16:50",
-   "store": "마닐라 스모크",
-   "biz": "6953001541",
-   "pos": "",
-   "content": "• 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "오케이포스 사용중/메뉴 1개 신규 추가 요청\n\n카테고리: 메인메뉴\n메뉴명: 그릴드 푸싯\n가격: 19,000원"
-   ],
-   "rc": 2,
-   "lr": "1789717866.522729",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789717841377259"
   }
  ],
  "ocr": {
