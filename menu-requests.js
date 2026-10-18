@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3743,
- "updatedAt": "2026-10-18 14:46",
+ "version": 3744,
+ "updatedAt": "2026-10-18 15:15",
  "days": 30,
  "items": [
   {
@@ -55839,27 +55839,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789712625619189"
-  },
-  {
-   "ts": "1789712077.245919",
-   "date": "2026-09-18",
-   "time": "15:14",
-   "store": "젓가락질잘해야만밥을먹나요동광주점",
-   "biz": "4481802530",
-   "pos": "토스포스",
-   "content": "젓가락질 잘해야만 밥을 먹나요 구로점(<tel:···|···>) 메뉴 복사 부탁드립니다.\n프로그램 : 토스포스",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1789714551.839209",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789712077245919"
   }
  ],
  "ocr": {
