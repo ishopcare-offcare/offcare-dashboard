@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3740,
- "updatedAt": "2026-10-18 11:41",
+ "version": 3741,
+ "updatedAt": "2026-10-18 13:01",
  "days": 30,
  "items": [
   {
@@ -55931,27 +55931,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789707902494889"
-  },
-  {
-   "ts": "1789703782.577199",
-   "date": "2026-09-18",
-   "time": "12:56",
-   "store": "용천통닭 김포점",
-   "biz": "1063537826",
-   "pos": "기타",
-   "content": "●안주류 추가\n버터구이오징어 16,000\n\n●주류  \n무알콜맥주 가격변경 5,000\n\n장수생막걸리를 생막걸리로\n이름변경",
-   "special": "3시오픈이라 그전에 변경부탁드립니다",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789703782577199"
   }
  ],
  "ocr": {
