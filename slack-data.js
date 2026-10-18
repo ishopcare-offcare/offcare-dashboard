@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22244,
+  "version": 22245,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263800,11 +263800,28 @@ window.SLACK_DATA = {
       ]
     },
     "2026-10-18": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "10:31",
+          "store": "그래니살룬 영통점",
+          "biz": "1110367068",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "토스포스(pc) 사용 중 / 토스포스 프로그램 실행 시 압축해제 파일 기록하는 도중 오류 발생 문구가 뜬다고 합니다. 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "<tel:010-7222-7812|010-7222-7812 010-7222-7812 / 음.. 원격 보면 용량부족으로 업데이트가 진행이 안되면서 발생했을 거라고 의심되긴해요! / 삭제 후 재설치뿐 아니라 용량확보까지 필요해보여요! / 포스 용량확보 후 재설치 완료",
+          "rr": 6
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -356956,7 +356973,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 10:47",
+    "at": "2026-10-18 10:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357089,7 +357106,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 10:47",
+    "at": "2026-10-18 10:48",
     "pri": {
       "days": 0,
       "failed": [],
