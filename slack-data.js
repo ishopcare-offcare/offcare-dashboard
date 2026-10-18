@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22300,
+  "version": 22301,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,7 +263802,7 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김기범": 2,
+          "김기범": 3,
           "김동욱": 5
         },
         "booking": {
@@ -263811,6 +263811,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:29",
+          "store": "샤브랑월남쌈",
+          "biz": "8122301681",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "주방 내 포스기 미작동으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "14:44",
           "store": "사실빙 충북대점",
@@ -263910,7 +263921,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "15:29",
@@ -264181,13 +264192,6 @@ window.SLACK_DATA = {
       "1792249202.504229": {
         "post": "1792249202.504229",
         "lastSeen": 1792268132.614
-      },
-      "1792304996.970849": {
-        "post": "1792304996.970849",
-        "lastSeen": 1792305170.343,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 4
       }
     },
     "days": {
@@ -357230,14 +357234,15 @@ window.SLACK_DATA = {
             "store": "샤브랑월남쌈",
             "biz": "8122301681",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 15:33",
+    "at": "2026-10-18 15:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357370,7 +357375,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 15:32",
+    "at": "2026-10-18 15:34",
     "pri": {
       "days": 0,
       "failed": [],
