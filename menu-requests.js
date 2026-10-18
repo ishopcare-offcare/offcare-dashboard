@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3738,
- "updatedAt": "2026-10-18 10:30",
+ "version": 3739,
+ "updatedAt": "2026-10-18 11:15",
  "days": 30,
  "items": [
   {
@@ -55973,27 +55973,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789699264640439"
-  },
-  {
-   "ts": "1789697384.976529",
-   "date": "2026-09-18",
-   "time": "11:09",
-   "store": "뚜레쥬르 킨텍스2전시장점",
-   "biz": "1283678896",
-   "pos": "토스포스",
-   "content": "수정\nICE그린티>ICE말차\nHOT그린티>HOT말차\nHOT유자레몬티5300>5500\nHOT꿀배모과차5300>5500\n리얼치즈브라우니>크런치브라우니",
-   "special": "···",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789697384976529"
   }
  ],
  "ocr": {
