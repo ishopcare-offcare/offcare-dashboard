@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22262,
+  "version": 22263,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263991,7 +263991,10 @@ window.SLACK_DATA = {
       },
       "1792296623.274429": {
         "post": "1792296623.274429",
-        "lastSeen": 1792296679.694
+        "lastSeen": 1792296734.137,
+        "r": 1,
+        "day": "2026-10-18",
+        "idx": 0
       }
     },
     "days": {
@@ -356986,11 +356989,26 @@ window.SLACK_DATA = {
             "dmin": 22.9
           }
         ]
+      },
+      "2026-10-18": {
+        "cnt": 1,
+        "sumMin": 1.3940178513526917,
+        "over": 0,
+        "items": [
+          {
+            "hm": "13:10",
+            "min": 1.4,
+            "store": "남원골추어탕",
+            "biz": "1160145425",
+            "who": "김기범",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 13:11",
+    "at": "2026-10-18 13:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357123,7 +357141,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 13:11",
+    "at": "2026-10-18 13:12",
     "pri": {
       "days": 0,
       "failed": [],
