@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22325,
+  "version": 22326,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,7 +263802,7 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김기범": 4,
+          "김기범": 5,
           "김동욱": 5
         },
         "booking": {
@@ -263811,6 +263811,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:11",
+          "store": "빰빠네오",
+          "biz": "1776800595",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "오케이포스) 주방 주문서 재출력 및 테이블 취소 내역 확인 방법에 대한 원격 교육 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "16:00",
           "store": "아이비아카데미 학원",
@@ -263933,7 +263944,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 2,
         "unknown": 0
       },
@@ -264289,14 +264300,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792308767.088
-      },
-      "1792307460.474129": {
-        "post": "1792307460.474129",
-        "lastSeen": 1792308767.088,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 6
+        "lastSeen": 1792308845.65
       }
     },
     "days": {
@@ -357357,14 +357361,15 @@ window.SLACK_DATA = {
             "store": "빰빠네오",
             "biz": "1776800595",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 22.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:33",
+    "at": "2026-10-18 16:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357497,7 +357502,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:32",
+    "at": "2026-10-18 16:34",
     "pri": {
       "days": 0,
       "failed": [],
