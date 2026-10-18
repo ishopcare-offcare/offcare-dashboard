@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22277,
+  "version": 22278,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263801,6 +263801,9 @@ window.SLACK_DATA = {
     },
     "2026-10-18": {
       "counts": {
+        "booking": {
+          "김동욱": 1
+        },
         "as": {
           "김동욱": 4,
           "김기범": 1
@@ -263808,6 +263811,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:00",
+          "store": "아코랩",
+          "biz": "5701501332",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "포터프 사용(포스기) / 휴대폰 및 태블릿으로도 연동하는 방법에 대한 교육 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "외부로 익일 오전 11시 통화요청. 예약메시지 진행",
+          "rr": 1
+        },
         {
           "time": "13:30",
           "store": "용타쿠",
@@ -263870,7 +263885,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -264013,13 +264028,6 @@ window.SLACK_DATA = {
       "1792249202.504229": {
         "post": "1792249202.504229",
         "lastSeen": 1792268132.614
-      },
-      "1792299600.163809": {
-        "post": "1792299600.163809",
-        "lastSeen": 1792299751.436,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 2
       }
     },
     "days": {
@@ -357044,14 +357052,15 @@ window.SLACK_DATA = {
             "store": "아코랩",
             "biz": "5701501332",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 3.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 14:02",
+    "at": "2026-10-18 14:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357184,7 +357193,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 14:02",
+    "at": "2026-10-18 14:03",
     "pri": {
       "days": 0,
       "failed": [],
