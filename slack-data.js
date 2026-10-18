@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22324,
+  "version": 22325,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263937,15 +263937,15 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "16:22",
+      "updatedAt": "16:32",
       "voc": {
-        "responses": 15,
+        "responses": 16,
         "install": {
           "count": 5,
           "low": 0
         },
         "nps": {
-          "count": 15,
+          "count": 16,
           "low": 5
         },
         "high": {
@@ -263957,7 +263957,7 @@ window.SLACK_DATA = {
           "3": 1,
           "5": 3,
           "6": 1,
-          "8": 2,
+          "8": 3,
           "9": 1,
           "10": 6
         },
@@ -263971,6 +263971,10 @@ window.SLACK_DATA = {
           "기타": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 0
+          },
           "구매설치": {
             "total": 5,
             "low": 0
@@ -263989,6 +263993,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "DAOU": {
+            "total": 2,
+            "low": 0
+          },
           "KPN": {
             "total": 2,
             "low": 1
@@ -264015,10 +264023,6 @@ window.SLACK_DATA = {
           },
           "KOCES": {
             "total": 2,
-            "low": 0
-          },
-          "DAOU": {
-            "total": 1,
             "low": 0
           },
           "KOVAN": {
@@ -264285,11 +264289,11 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792308631.881
+        "lastSeen": 1792308767.088
       },
       "1792307460.474129": {
         "post": "1792307460.474129",
-        "lastSeen": 1792308631.881,
+        "lastSeen": 1792308767.088,
         "r": 1,
         "day": "2026-10-18",
         "idx": 6
@@ -357360,7 +357364,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:30",
+    "at": "2026-10-18 16:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357493,7 +357497,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:30",
+    "at": "2026-10-18 16:32",
     "pri": {
       "days": 0,
       "failed": [],
