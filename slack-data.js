@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22296,
+  "version": 22297,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263913,24 +263913,25 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "15:22",
+      "updatedAt": "15:27",
       "voc": {
-        "responses": 7,
+        "responses": 9,
         "install": {
           "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 7,
-          "low": 1
+          "count": 9,
+          "low": 2
         },
         "high": {
           "install": 2,
           "nps": 5
         },
         "npsDist": {
+          "0": 1,
           "5": 1,
-          "8": 1,
+          "8": 2,
           "10": 5
         },
         "installDist": {
@@ -263943,6 +263944,10 @@ window.SLACK_DATA = {
           "요식업": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 2,
+            "low": 1
+          },
           "구매설치": {
             "total": 3,
             "low": 0
@@ -263953,6 +263958,14 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "NICE": {
+            "total": 1,
+            "low": 0
+          },
+          "KIS": {
+            "total": 1,
+            "low": 1
+          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -263979,9 +263992,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "15:27",
+            "store": "수알음수학교습소",
+            "storeId": "440801",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "세상에 영수증이 안나오는 카드 단말기가 있다니 충격적이네요 거기다 진짜 불편하고 되는 기능이 없음 너무너무 불편하고 카드리더기 하나 쓰는데 알아야 할 게 너무 많음 주변 모든 사람들에게 쓰지말라고 홍보 정말 많이 하고 있습니다.",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:17",
             "store": "온블릿",
@@ -357186,7 +357222,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 15:23",
+    "at": "2026-10-18 15:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357319,7 +357355,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 15:23",
+    "at": "2026-10-18 15:27",
     "pri": {
       "days": 0,
       "failed": [],
