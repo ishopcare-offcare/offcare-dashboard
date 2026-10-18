@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22345,
+  "version": 22346,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263974,16 +263974,16 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "17:48",
+      "updatedAt": "18:23",
       "voc": {
-        "responses": 20,
+        "responses": 21,
         "install": {
-          "count": 5,
+          "count": 6,
           "low": 0
         },
         "nps": {
-          "count": 20,
-          "low": 5
+          "count": 21,
+          "low": 6
         },
         "high": {
           "install": 3,
@@ -263992,6 +263992,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "3": 1,
+          "4": 1,
           "5": 3,
           "6": 1,
           "8": 4,
@@ -263999,15 +264000,21 @@ window.SLACK_DATA = {
           "10": 8
         },
         "installDist": {
+          "3": 1,
           "4": 2,
           "5": 3
         },
         "byIndustry": {
+          "카페": 1,
           "서비스[학원]": 2,
           "요식업": 2,
           "기타": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 6,
+            "low": 1
+          },
           "1개월": {
             "total": 8,
             "low": 3
@@ -264020,16 +264027,16 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 0
           },
-          "구매설치": {
-            "total": 5,
-            "low": 0
-          },
           "6개월": {
             "total": 2,
             "low": 1
           }
         },
         "byVan": {
+          "KCP": {
+            "total": 1,
+            "low": 1
+          },
           "KOCES": {
             "total": 3,
             "low": 0
@@ -264068,12 +264075,34 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 2,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "고객센터 연락이 매우 힘듦": 1,
-          "필요한 기능이 없거나 몰라서 불편": 1,
-          "단말기 설치나 초기 과정이 어려움": 1
+          "필요한 기능이 없거나 몰라서 불편": 1
         },
         "alerts": [
+          {
+            "time": "18:23",
+            "store": "에덴동산제빵소",
+            "storeId": "692287",
+            "industry": "카페/베이커리",
+            "indBucket": "카페",
+            "install": 3,
+            "nps": 4,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 4,
+                "text": "토스 단말기를 기사가직접 설치하는것으로 알고 있었는데.기계만보내고 자가설치하는 것이라면고려했을것입니다",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:17",
             "store": "대양리어카",
@@ -264297,7 +264326,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792314926.014
+        "lastSeen": 1792315402.861
       }
     },
     "days": {
@@ -357375,7 +357404,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 18:15",
+    "at": "2026-10-18 18:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357508,7 +357537,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 18:15",
+    "at": "2026-10-18 18:23",
     "pri": {
       "days": 0,
       "failed": [],
