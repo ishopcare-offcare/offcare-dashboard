@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22415,
+  "version": 22416,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264372,11 +264372,11 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792348234.251
+        "lastSeen": 1792348486.475
       },
       "1792335607.268979": {
         "post": "1792335607.268979",
-        "lastSeen": 1792348234.251
+        "lastSeen": 1792348486.475
       }
     },
     "days": {
@@ -357472,27 +357472,18 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 03:30",
+    "at": "2026-10-19 03:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": true,
-    "error": "",
-    "rows": 4591,
-    "named": 1211,
-    "unknownName": 84,
+    "ok": false,
+    "error": "GDRIVE_* 환경변수 없음",
+    "rows": 0,
+    "named": 0,
+    "unknownName": 0,
     "beforeStart": 0,
-    "done": 1211,
-    "byStatus": {
-      "일정등록완료": 777,
-      "1차부재": 257,
-      "점주직접접수": 98,
-      "설치불가": 23,
-      "(빈칸)": 7,
-      "자가설치": 37,
-      "설치보류요청": 11,
-      "토플파미생성": 1
-    }
+    "done": 0,
+    "byStatus": {}
   },
   "noteV": {
     "2026-09-29": 2,
@@ -357605,7 +357596,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-19 03:30",
+    "at": "2026-10-19 03:34",
     "pri": {
       "days": 0,
       "failed": [],
