@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22334,
+  "version": 22335,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,7 +263802,7 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김기범": 5,
+          "김기범": 6,
           "김동욱": 5
         },
         "booking": {
@@ -263811,6 +263811,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:56",
+          "store": "닭발먹고삐약삐약",
+          "biz": "1640100242",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "슬랙 이력 보니 OKPOS... / 전화주문CID 연동 요청 주셨는데 방법 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "배달 설정 안되어있어 배달 설정 완료",
+          "rr": 3
+        },
         {
           "time": "16:11",
           "store": "빰빠네오",
@@ -263945,7 +263957,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 2,
         "unknown": 0
       },
@@ -264276,14 +264288,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792311328.592
-      },
-      "1792310203.024459": {
-        "post": "1792310203.024459",
-        "lastSeen": 1792311328.592,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 7
+        "lastSeen": 1792311383.759
       }
     },
     "days": {
@@ -357353,14 +357358,15 @@ window.SLACK_DATA = {
             "store": "닭발먹고삐약삐약",
             "biz": "1640100242",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 19.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 17:15",
+    "at": "2026-10-18 17:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357493,7 +357499,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 17:15",
+    "at": "2026-10-18 17:16",
     "pri": {
       "days": 0,
       "failed": [],
