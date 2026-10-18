@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22377,
+  "version": 22378,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263836,7 +263836,8 @@ window.SLACK_DATA = {
           "req": "주방용 유프 랜선 구비하여 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "지금은 퇴근했고 방문요청하신다고 합니다.",
+          "rr": 1
         },
         {
           "time": "19:14",
@@ -264376,7 +264377,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792324504.684
+        "lastSeen": 1792324551.937
       }
     },
     "days": {
@@ -357472,7 +357473,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 20:55",
+    "at": "2026-10-18 20:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
