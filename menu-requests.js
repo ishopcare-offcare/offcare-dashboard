@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3749,
- "updatedAt": "2026-10-18 17:30",
+ "version": 3750,
+ "updatedAt": "2026-10-18 18:43",
  "days": 30,
  "items": [
   {
@@ -55036,50 +55036,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789781473046279"
-  },
-  {
-   "ts": "1789724584.645169",
-   "date": "2026-09-18",
-   "time": "18:43",
-   "store": "황제소갈비살 청파점",
-   "biz": "5143204369",
-   "pos": "",
-   "content": "메뉴 출력설정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789724587.744869",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789724584645169"
-  },
-  {
-   "ts": "1789724117.495689",
-   "date": "2026-09-18",
-   "time": "18:35",
-   "store": "듀듀베베",
-   "biz": "8270301142",
-   "pos": "",
-   "content": "메뉴등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "중복 메뉴 많아서 넘버링"
-   ],
-   "rc": 2,
-   "lr": "1789724885.100089",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789724117495689"
   }
  ],
  "ocr": {
