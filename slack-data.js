@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22309,
+  "version": 22310,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263925,19 +263925,19 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:47",
+      "updatedAt": "15:52",
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
-          "count": 3,
+          "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 10,
+          "count": 11,
           "low": 2
         },
         "high": {
-          "install": 2,
+          "install": 3,
           "nps": 5
         },
         "npsDist": {
@@ -263945,18 +263945,23 @@ window.SLACK_DATA = {
           "5": 1,
           "6": 1,
           "8": 2,
+          "9": 1,
           "10": 5
         },
         "installDist": {
           "4": 1,
-          "5": 2
+          "5": 3
         },
         "byIndustry": {
+          "요식업": 2,
           "기타": 1,
-          "서비스[학원]": 1,
-          "요식업": 1
+          "서비스[학원]": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 0
+          },
           "1개월": {
             "total": 5,
             "low": 1
@@ -263964,13 +263969,13 @@ window.SLACK_DATA = {
           "6개월": {
             "total": 2,
             "low": 1
-          },
-          "구매설치": {
-            "total": 3,
-            "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 1
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
@@ -263978,10 +263983,6 @@ window.SLACK_DATA = {
           "NICE": {
             "total": 1,
             "low": 0
-          },
-          "KIS": {
-            "total": 1,
-            "low": 1
           },
           "SECTA9": {
             "total": 1,
@@ -264060,6 +264061,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:52",
+            "store": "주식회사 강산에프엔씨",
+            "storeId": "701133",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 9,
+            "text": "좋음 사용하기 편리함",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:22",
             "store": "케이이에스(KES)클럽",
             "storeId": "706937",
@@ -264089,13 +264102,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1792133333.976449": {
-        "post": "1792133333.976449",
-        "lastSeen": 1792181731.997,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 117
-      },
       "1792133572.713419": {
         "post": "1792133572.713419",
         "lastSeen": 1792181731.997,
@@ -264201,7 +264207,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792306113.227
+        "lastSeen": 1792306354.212
       }
     },
     "days": {
@@ -357252,7 +357258,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 15:48",
+    "at": "2026-10-18 15:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357385,7 +357391,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 15:48",
+    "at": "2026-10-18 15:52",
     "pri": {
       "days": 0,
       "failed": [],
