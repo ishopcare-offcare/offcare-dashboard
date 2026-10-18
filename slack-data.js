@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22294,
+  "version": 22295,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263913,35 +263913,58 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "15:17",
+      "updatedAt": "15:22",
       "voc": {
-        "responses": 4,
+        "responses": 7,
         "install": {
-          "count": 0,
+          "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 4,
+          "count": 7,
           "low": 1
         },
         "high": {
-          "install": 0,
-          "nps": 2
+          "install": 2,
+          "nps": 5
         },
         "npsDist": {
           "5": 1,
           "8": 1,
-          "10": 2
+          "10": 5
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "4": 1,
+          "5": 2
+        },
+        "byIndustry": {
+          "기타": 1,
+          "서비스[학원]": 1,
+          "요식업": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 0
+          },
           "1개월": {
             "total": 4,
             "low": 1
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 1,
+            "low": 0
+          },
+          "KOCES": {
+            "total": 2,
+            "low": 0
+          },
+          "DAOU": {
+            "total": 1,
+            "low": 0
+          },
           "KOVAN": {
             "total": 1,
             "low": 0
@@ -263951,10 +263974,6 @@ window.SLACK_DATA = {
             "low": 1
           },
           "KSNET": {
-            "total": 1,
-            "low": 0
-          },
-          "KOCES": {
             "total": 1,
             "low": 0
           }
@@ -263988,6 +264007,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:22",
+            "store": "케이이에스(KES)클럽",
+            "storeId": "706937",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "기존에 쓰던 단말기 보다 기능 또는 반응속도 좋고 손님들께서 보기도 좋고 편리하셨습니다 구형 옛날 단말기 쓰는 업종이 있으시면 일단 무료 교체 안 바꾸면 손해 입니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:17",
             "store": "주식회사 오포르",
             "storeId": "631727",
@@ -264005,17 +264036,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1792131690.232089": {
-        "post": "1792131690.232089",
-        "lastSeen": 1792181731.997,
-        "r": 1,
-        "day": "2026-10-16",
-        "idx": 105
-      },
-      "1792131690.410779": {
-        "post": "1792131690.410779",
-        "lastSeen": 1792181731.997
-      },
       "1792133333.976449": {
         "post": "1792133333.976449",
         "lastSeen": 1792181731.997,
@@ -357166,7 +357186,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 15:18",
+    "at": "2026-10-18 15:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357299,7 +357319,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 15:18",
+    "at": "2026-10-18 15:22",
     "pri": {
       "days": 0,
       "failed": [],
