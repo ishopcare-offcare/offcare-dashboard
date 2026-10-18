@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22319,
+  "version": 22320,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263925,16 +263925,16 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "16:11",
+      "updatedAt": "16:17",
       "voc": {
-        "responses": 12,
+        "responses": 14,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 12,
-          "low": 3
+          "count": 14,
+          "low": 5
         },
         "high": {
           "install": 3,
@@ -263943,7 +263943,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "3": 1,
-          "5": 1,
+          "5": 3,
           "6": 1,
           "8": 2,
           "9": 1,
@@ -263959,6 +263959,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 7,
+            "low": 3
+          },
           "12개월": {
             "total": 1,
             "low": 1
@@ -263967,19 +263971,19 @@ window.SLACK_DATA = {
             "total": 4,
             "low": 0
           },
-          "1개월": {
-            "total": 5,
-            "low": 1
-          },
           "6개월": {
             "total": 2,
             "low": 1
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 2,
+            "low": 1
+          },
           "KIS": {
-            "total": 3,
-            "low": 2
+            "total": 4,
+            "low": 3
           },
           "SMARTRO": {
             "total": 1,
@@ -264008,18 +264012,59 @@ window.SLACK_DATA = {
           "KPN": {
             "total": 1,
             "low": 1
-          },
-          "KSNET": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "고객센터 연락이 매우 힘듦": 1,
           "필요한 기능이 없거나 몰라서 불편": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "16:17",
+            "store": "대양리어카",
+            "storeId": "668953",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "결제숫자버튼이 작아요",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "16:17",
+            "store": "한국마인드셋연구소",
+            "storeId": "585126",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "카드 수수료가 너무 비싸다",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:08",
             "store": "청명하늘신당",
@@ -264228,18 +264273,18 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792307725.717
+        "lastSeen": 1792307862.171
       },
       "1792306803.161909": {
         "post": "1792306803.161909",
-        "lastSeen": 1792307725.717,
+        "lastSeen": 1792307862.171,
         "r": 1,
         "day": "2026-10-18",
         "idx": 5
       },
       "1792307460.474129": {
         "post": "1792307460.474129",
-        "lastSeen": 1792307725.717
+        "lastSeen": 1792307862.171
       }
     },
     "days": {
@@ -357298,7 +357343,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:15",
+    "at": "2026-10-18 16:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357431,7 +357476,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:15",
+    "at": "2026-10-18 16:17",
     "pri": {
       "days": 0,
       "failed": [],
