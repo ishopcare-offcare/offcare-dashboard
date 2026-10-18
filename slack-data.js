@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22326,
+  "version": 22327,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263820,7 +263820,8 @@ window.SLACK_DATA = {
           "req": "오케이포스) 주방 주문서 재출력 및 테이블 취소 내역 확인 방법에 대한 원격 교육 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "KISOKPOS ASP 에서 기초관리- 매장관리- 포스기능정의 에서 재출력 및 주문서 조회 키 생성 완료",
+          "rr": 1
         },
         {
           "time": "16:00",
@@ -264300,7 +264301,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792308845.65
+        "lastSeen": 1792308918.828
       }
     },
     "days": {
@@ -357369,7 +357370,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:34",
+    "at": "2026-10-18 16:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357502,7 +357503,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:34",
+    "at": "2026-10-18 16:35",
     "pri": {
       "days": 0,
       "failed": [],
