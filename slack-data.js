@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22269,
+  "version": 22270,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263817,7 +263817,8 @@ window.SLACK_DATA = {
           "req": "용지 출력이 잘 되다가 갑자기 출력 불가, 프린터 커버가 안닫히는 증상이 발생했다고 하셔서 원격 점검 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "cpp3000 칼날 때문에 커버 안닫힘 수동 칼날 설정 후 정상 완료",
+          "rr": 1
         },
         {
           "time": "11:35",
@@ -264003,7 +264004,7 @@ window.SLACK_DATA = {
       },
       "1792297800.223599": {
         "post": "1792297800.223599",
-        "lastSeen": 1792298562.597,
+        "lastSeen": 1792298665.654,
         "r": 1,
         "day": "2026-10-18",
         "idx": 1
@@ -357029,18 +357030,27 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 13:42",
+    "at": "2026-10-18 13:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": false,
-    "error": "시트 export 실패 HTTP 403",
-    "rows": 0,
-    "named": 0,
-    "unknownName": 0,
+    "ok": true,
+    "error": "",
+    "rows": 4591,
+    "named": 1211,
+    "unknownName": 84,
     "beforeStart": 0,
-    "done": 0,
-    "byStatus": {}
+    "done": 1211,
+    "byStatus": {
+      "일정등록완료": 777,
+      "1차부재": 257,
+      "점주직접접수": 98,
+      "설치불가": 23,
+      "(빈칸)": 7,
+      "자가설치": 37,
+      "설치보류요청": 11,
+      "토플파미생성": 1
+    }
   },
   "noteV": {
     "2026-09-29": 2,
@@ -357153,7 +357163,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 13:42",
+    "at": "2026-10-18 13:44",
     "pri": {
       "days": 0,
       "failed": [],
