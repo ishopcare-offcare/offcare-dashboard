@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22359,
+  "version": 22360,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263989,16 +263989,16 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "19:14",
+      "updatedAt": "19:28",
       "voc": {
-        "responses": 21,
+        "responses": 22,
         "install": {
           "count": 6,
           "low": 0
         },
         "nps": {
-          "count": 21,
-          "low": 6
+          "count": 22,
+          "low": 7
         },
         "high": {
           "install": 3,
@@ -264006,7 +264006,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
-          "3": 1,
+          "3": 2,
           "4": 1,
           "5": 3,
           "6": 1,
@@ -264026,6 +264026,10 @@ window.SLACK_DATA = {
           "기타": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 3,
+            "low": 2
+          },
           "구매설치": {
             "total": 6,
             "low": 1
@@ -264041,13 +264045,13 @@ window.SLACK_DATA = {
           "3개월": {
             "total": 3,
             "low": 0
-          },
-          "6개월": {
-            "total": 2,
-            "low": 1
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 7,
+            "low": 4
+          },
           "KCP": {
             "total": 1,
             "low": 1
@@ -264055,10 +264059,6 @@ window.SLACK_DATA = {
           "KOCES": {
             "total": 3,
             "low": 0
-          },
-          "KIS": {
-            "total": 6,
-            "low": 3
           },
           "SMARTRO": {
             "total": 2,
@@ -264090,12 +264090,35 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "사용중 오류가 자주 발생함": 1,
           "단말기 설치나 초기 과정이 어려움": 2,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "고객센터 연락이 매우 힘듦": 1,
           "필요한 기능이 없거나 몰라서 불편": 1
         },
         "alerts": [
+          {
+            "time": "19:28",
+            "store": "루비",
+            "storeId": "433851",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "자꾸 에러남",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "18:23",
             "store": "에덴동산제빵소",
@@ -264334,11 +264357,11 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792319112.145
+        "lastSeen": 1792319325.48
       },
       "1792318473.878919": {
         "post": "1792318473.878919",
-        "lastSeen": 1792319112.145,
+        "lastSeen": 1792319325.48,
         "r": 1,
         "day": "2026-10-18",
         "idx": 9
@@ -357436,7 +357459,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 19:25",
+    "at": "2026-10-18 19:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357569,7 +357592,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 19:25",
+    "at": "2026-10-18 19:28",
     "pri": {
       "days": 0,
       "failed": [],
