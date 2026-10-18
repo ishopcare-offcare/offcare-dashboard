@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22353,
+  "version": 22354,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263801,6 +263801,9 @@ window.SLACK_DATA = {
     },
     "2026-10-18": {
       "counts": {
+        "onboarding": {
+          "김기범": 1
+        },
         "as": {
           "김기범": 6,
           "김동욱": 5
@@ -263824,6 +263827,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "18:24",
+          "store": "소슬금(sosulguem)",
+          "biz": "4112364028",
+          "cat": "onboarding",
+          "emp": "김기범",
+          "req": "캣단말기 기추 수령하여 캣프 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "광두님 KS넷 전산 켜져있나요??? / C226071470 / 시리얼 번호 / 다운로드 완료 및 키인결제 성공",
+          "rr": 6
+        },
         {
           "time": "16:56",
           "store": "닭발먹고삐약삐약",
@@ -263970,7 +263985,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 2,
         "unknown": 0
       },
@@ -264326,14 +264341,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792317040.345
-      },
-      "1792315480.547379": {
-        "post": "1792315480.547379",
-        "lastSeen": 1792317040.345,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 8
+        "lastSeen": 1792317374.399
       }
     },
     "days": {
@@ -357412,14 +357420,15 @@ window.SLACK_DATA = {
             "store": "소슬금(sosulguem)",
             "biz": "4112364028",
             "who": "김기범",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 28.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 18:50",
+    "at": "2026-10-18 18:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357552,7 +357561,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 18:50",
+    "at": "2026-10-18 18:56",
     "pri": {
       "days": 0,
       "failed": [],
