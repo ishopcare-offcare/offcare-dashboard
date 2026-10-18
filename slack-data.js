@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22376,
+  "version": 22377,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,7 +263802,7 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김기범": 7,
+          "김기범": 8,
           "김동욱": 5
         },
         "onboarding": {
@@ -263827,6 +263827,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "20:52",
+          "store": "소바다 너구리",
+          "biz": "3032024457",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "주방용 유프 랜선 구비하여 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:14",
           "store": "만야수산",
@@ -263997,7 +264008,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -264365,7 +264376,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792324389.797
+        "lastSeen": 1792324504.684
       }
     },
     "days": {
@@ -357461,7 +357472,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 20:53",
+    "at": "2026-10-18 20:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357594,7 +357605,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 20:53",
+    "at": "2026-10-18 20:55",
     "pri": {
       "days": 0,
       "failed": [],
