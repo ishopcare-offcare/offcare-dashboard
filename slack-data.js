@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22392,
+  "version": 22393,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264000,20 +264000,20 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "20:52",
+      "updatedAt": "22:24",
       "voc": {
-        "responses": 22,
+        "responses": 23,
         "install": {
-          "count": 6,
+          "count": 7,
           "low": 0
         },
         "nps": {
-          "count": 22,
+          "count": 23,
           "low": 7
         },
         "high": {
-          "install": 3,
-          "nps": 8
+          "install": 4,
+          "nps": 9
         },
         "npsDist": {
           "0": 1,
@@ -264023,27 +264023,27 @@ window.SLACK_DATA = {
           "6": 1,
           "8": 4,
           "9": 2,
-          "10": 8
+          "10": 9
         },
         "installDist": {
           "3": 1,
           "4": 2,
-          "5": 3
+          "5": 4
         },
         "byIndustry": {
-          "카페": 1,
+          "카페": 2,
           "서비스[학원]": 2,
           "요식업": 2,
           "기타": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 7,
+            "low": 1
+          },
           "6개월": {
             "total": 3,
             "low": 2
-          },
-          "구매설치": {
-            "total": 6,
-            "low": 1
           },
           "1개월": {
             "total": 8,
@@ -264059,6 +264059,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 4,
+            "low": 0
+          },
           "KIS": {
             "total": 7,
             "low": 4
@@ -264066,10 +264070,6 @@ window.SLACK_DATA = {
           "KCP": {
             "total": 1,
             "low": 1
-          },
-          "KOCES": {
-            "total": 3,
-            "low": 0
           },
           "SMARTRO": {
             "total": 2,
@@ -264265,6 +264265,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "22:24",
+            "store": "킹콩커피",
+            "storeId": "699150",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "전화상담을 잘 해주셨슴 사용함에 복잡하지 않음",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:52",
             "store": "주식회사 강산에프엔씨",
             "storeId": "701133",
@@ -264364,7 +264376,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792329325.503
+        "lastSeen": 1792329875.759
       }
     },
     "days": {
@@ -357460,7 +357472,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 22:15",
+    "at": "2026-10-18 22:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357593,7 +357605,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 22:15",
+    "at": "2026-10-18 22:24",
     "pri": {
       "days": 0,
       "failed": [],
