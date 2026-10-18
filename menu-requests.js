@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3736,
- "updatedAt": "2026-10-18 10:00",
+ "version": 3737,
+ "updatedAt": "2026-10-18 10:15",
  "days": 30,
  "items": [
   {
@@ -56047,67 +56047,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789694283332829"
-  },
-  {
-   "ts": "1789693886.185649",
-   "date": "2026-09-18",
-   "time": "10:11",
-   "store": "소복샤브야채찜 중구점",
-   "biz": "3670502911",
-   "pos": "토스포스",
-   "content": "국대찜닭메뉴를 소복샤브야채찜메뉴로 변경/ 배달의민족 앱 내 소복샤브야채찜 중구점(대전 서구 유천동 308-8번지,1층 102호)의 가게 내 메뉴와 옵션을 따와서 토스포스기에 옮겨주세요.",
-   "special": "배달의민족 앱 내 소복샤브야채찜 중구점(대전 서구 유천동 308-8번지,1층 102호)의 가게 내 메뉴와 옵션을 따와서 토스포스기에 옮겨주세요",
-   "drive": [
-    "https://drive.google.com/file/d/1Z6C362cz4Va7wZavvXT6ceiVB8xSW2WK/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1giNKINXpj0ZG2duEUpcOATd82CBbXp-z/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1Ay2is2YAwci5Uw44O1iUbPOaZATdwmxC/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1Z6C362cz4Va7wZavvXT6ceiVB8xSW2WK",
-     "kind": "other",
-     "menu": []
-    },
-    {
-     "id": "1giNKINXpj0ZG2duEUpcOATd82CBbXp-z",
-     "kind": "other",
-     "menu": []
-    },
-    {
-     "id": "1Ay2is2YAwci5Uw44O1iUbPOaZATdwmxC",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "인기 메뉴",
-       "name": "우삼겹 야채찜 [453 칼로리]",
-       "price": 15800
-      },
-      {
-       "category": "인기 메뉴",
-       "name": "대패삼겹 야채찜 [653 칼로리]",
-       "price": 15800
-      },
-      {
-       "category": "소복 샤브야채찜&고기구이",
-       "name": "우삼겹 야채찜 [453 칼로리]",
-       "price": 0
-      }
-     ]
-    }
-   ],
-   "replies": [
-    "https://s.baemin.com/7c000M5ePH49d",
-    "국대 카테고리 지우고 진행",
-    "완료우'"
-   ],
-   "rc": 3,
-   "lr": "1789695295.200819",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789693886185649"
   }
  ],
  "ocr": {
