@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22268,
+  "version": 22269,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263449,8 +263449,8 @@ window.SLACK_DATA = {
           "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": "1차 부재 / 쿠팡설치완료",
-          "rr": 2
+          "note": "1차 부재 / 쿠팡설치완료 / 안녕하세요 지혜님! 대표님께서 쿠팡 메뉴 등록 관련 문의가 있습니다. 익일 확인 부탁드리겠습니다! 안녕하세요 지혜님!",
+          "rr": 3
         },
         {
           "time": "09:31",
@@ -263802,11 +263802,23 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
+          "김기범": 1,
           "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:10",
+          "store": "남원골추어탕",
+          "biz": "1160145425",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "용지 출력이 잘 되다가 갑자기 출력 불가, 프린터 커버가 안닫히는 증상이 발생했다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "11:35",
           "store": "마라중독",
@@ -263846,7 +263858,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "13:30"
@@ -263989,16 +264001,9 @@ window.SLACK_DATA = {
         "post": "1792249202.504229",
         "lastSeen": 1792268132.614
       },
-      "1792296623.274429": {
-        "post": "1792296623.274429",
-        "lastSeen": 1792298478.752,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 0
-      },
       "1792297800.223599": {
         "post": "1792297800.223599",
-        "lastSeen": 1792298478.752,
+        "lastSeen": 1792298562.597,
         "r": 1,
         "day": "2026-10-18",
         "idx": 1
@@ -357008,7 +357013,8 @@ window.SLACK_DATA = {
             "store": "남원골추어탕",
             "biz": "1160145425",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 31.6
           },
           {
             "hm": "13:30",
@@ -357023,27 +357029,18 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 13:41",
+    "at": "2026-10-18 13:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": true,
-    "error": "",
-    "rows": 4591,
-    "named": 1211,
-    "unknownName": 84,
+    "ok": false,
+    "error": "시트 export 실패 HTTP 403",
+    "rows": 0,
+    "named": 0,
+    "unknownName": 0,
     "beforeStart": 0,
-    "done": 1211,
-    "byStatus": {
-      "일정등록완료": 777,
-      "1차부재": 257,
-      "점주직접접수": 98,
-      "설치불가": 23,
-      "(빈칸)": 7,
-      "자가설치": 37,
-      "설치보류요청": 11,
-      "토플파미생성": 1
-    }
+    "done": 0,
+    "byStatus": {}
   },
   "noteV": {
     "2026-09-29": 2,
@@ -357156,7 +357153,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 13:41",
+    "at": "2026-10-18 13:42",
     "pri": {
       "days": 0,
       "failed": [],
