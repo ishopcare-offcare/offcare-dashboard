@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22362,
+  "version": 22363,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263801,12 +263801,12 @@ window.SLACK_DATA = {
     },
     "2026-10-18": {
       "counts": {
+        "as": {
+          "김기범": 7,
+          "김동욱": 5
+        },
         "onboarding": {
           "김기범": 1
-        },
-        "as": {
-          "김기범": 6,
-          "김동욱": 5
         },
         "booking": {
           "김동욱": 1
@@ -263827,6 +263827,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "19:14",
+          "store": "만야수산",
+          "biz": "3534101570",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "무프W 연결 끊김으로 인한 재온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "TS400 와이파이 정보가 안뜸 교체해야함 출고요청 완료",
+          "rr": 1
+        },
         {
           "time": "18:24",
           "store": "소슬금(sosulguem)",
@@ -263985,7 +263997,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 2,
         "unknown": 0
       },
@@ -264353,14 +264365,7 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792320328.555
-      },
-      "1792318473.878919": {
-        "post": "1792318473.878919",
-        "lastSeen": 1792320328.555,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 9
+        "lastSeen": 1792320413.284
       }
     },
     "days": {
@@ -357448,14 +357453,15 @@ window.SLACK_DATA = {
             "store": "만야수산",
             "biz": "3534101570",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 31.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 19:45",
+    "at": "2026-10-18 19:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357588,7 +357594,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 19:45",
+    "at": "2026-10-18 19:46",
     "pri": {
       "days": 0,
       "failed": [],
