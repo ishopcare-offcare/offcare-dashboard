@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3741,
- "updatedAt": "2026-10-18 13:01",
+ "version": 3742,
+ "updatedAt": "2026-10-18 14:15",
  "days": 30,
  "items": [
   {
@@ -55881,56 +55881,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789710341302039"
-  },
-  {
-   "ts": "1789708304.732719",
-   "date": "2026-09-18",
-   "time": "14:11",
-   "store": "네자매 돈까스",
-   "biz": "6373601590",
-   "pos": "오케이포스",
-   "content": ".",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789708304732719"
-  },
-  {
-   "ts": "1789707902.494889",
-   "date": "2026-09-18",
-   "time": "14:05",
-   "store": "일마지오 킨텍스점",
-   "biz": "7528502275",
-   "pos": "퍼스트포스",
-   "content": "굿나잇 흑임자 라떼 가격\n63,000원에서 6,300원으로 수정해주세요\n\n파스타 메뉴에\n오븐미트볼로냐,오븐버섯 삭제 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "?.? 흑임자를 못찾겠어요",
-    "상품코드 012010 터치키는 등록되어있는데 상품등록에는 안보이고~~ 본사메뉴에도 없고~~~",
-    "도움! 진짜 못찾겠습니다",
-    "그럼 새로 등록!!!!",
-    "ㅋㅋㅋㅋ",
-    "본사관리 상품인뎅 상관없져?",
-    "완료우"
-   ],
-   "rc": 7,
-   "lr": "1789711302.194929",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789707902494889"
   }
  ],
  "ocr": {
