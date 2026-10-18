@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3737,
- "updatedAt": "2026-10-18 10:15",
+ "version": 3738,
+ "updatedAt": "2026-10-18 10:30",
  "days": 30,
  "items": [
   {
@@ -55994,59 +55994,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789697384976529"
-  },
-  {
-   "ts": "1789695041.605169",
-   "date": "2026-09-18",
-   "time": "10:30",
-   "store": "토모니",
-   "biz": "4143300527",
-   "pos": "토스포스",
-   "content": "토스포스 테이블 생성 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C2TEFHUNM",
-     "from": "댓글",
-     "path": "menu-files/1789695041_605169-0.png",
-     "kind": "pos_screen",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "토스포스 계정 로그인 전으로 토플파 생성 불가로 부득이하게 요청 드립니다 :woman-bowing::skin-tone-4:\n\n테이블 카테고리 : 선불\n테이블 9개 생성 요청 ( 선불 1, 선불 2 와 같이 이름 생성 요청 )"
-   ],
-   "rc": 4,
-   "lr": "1789695577.752739",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789695041605169"
-  },
-  {
-   "ts": "1789694283.332829",
-   "date": "2026-09-18",
-   "time": "10:18",
-   "store": "움버거앤윙스 킨텍스점",
-   "biz": "1358560825",
-   "pos": "퍼스트포스",
-   "content": "FD포스 메뉴 이미지등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1789694286.453379",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789694283332829"
   }
  ],
  "ocr": {
