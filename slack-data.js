@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22284,
+  "version": 22285,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264036,7 +264036,10 @@ window.SLACK_DATA = {
       },
       "1792302291.538579": {
         "post": "1792302291.538579",
-        "lastSeen": 1792302319.357
+        "lastSeen": 1792302363.165,
+        "r": 1,
+        "day": "2026-10-18",
+        "idx": 3
       }
     },
     "days": {
@@ -357033,8 +357036,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-18": {
-        "cnt": 3,
-        "sumMin": 4.758061051368713,
+        "cnt": 4,
+        "sumMin": 5.58676807085673,
         "over": 0,
         "items": [
           {
@@ -357063,13 +357066,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "booking",
             "dmin": 3.2
+          },
+          {
+            "hm": "14:44",
+            "min": 0.8,
+            "store": "사실빙 충북대점",
+            "biz": "1155401056",
+            "who": "김기범",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 14:45",
+    "at": "2026-10-18 14:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357202,7 +357213,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 14:45",
+    "at": "2026-10-18 14:46",
     "pri": {
       "days": 0,
       "failed": [],

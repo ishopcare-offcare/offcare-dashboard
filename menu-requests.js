@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3742,
- "updatedAt": "2026-10-18 14:15",
+ "version": 3743,
+ "updatedAt": "2026-10-18 14:46",
  "days": 30,
  "items": [
   {
@@ -55860,27 +55860,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789712077245919"
-  },
-  {
-   "ts": "1789710341.302039",
-   "date": "2026-09-18",
-   "time": "14:45",
-   "store": "플라워비다",
-   "biz": "2321601932",
-   "pos": "스파로스포스",
-   "content": "[원데이클래스] 카테고리 탭 내 과세 메뉴로 꽃 12만원 상품 추가 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789710341302039"
   }
  ],
  "ocr": {
