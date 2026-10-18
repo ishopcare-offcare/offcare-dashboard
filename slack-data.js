@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22301,
+  "version": 22302,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263820,7 +263820,8 @@ window.SLACK_DATA = {
           "req": "주방 내 포스기 미작동으로 인한 점검 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "아펙사 엣지 모델....전원버튼을 모르고 있었음 ㅎㅎ 동작 잘됨",
+          "rr": 1
         },
         {
           "time": "14:44",
@@ -357242,7 +357243,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 15:34",
+    "at": "2026-10-18 15:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357375,7 +357376,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 15:34",
+    "at": "2026-10-18 15:36",
     "pri": {
       "days": 0,
       "failed": [],
