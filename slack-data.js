@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22292,
+  "version": 22293,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263913,7 +263913,94 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "14:44"
+      "updatedAt": "15:17",
+      "voc": {
+        "responses": 4,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 4,
+          "low": 1
+        },
+        "high": {
+          "install": 0,
+          "nps": 2
+        },
+        "npsDist": {
+          "5": 1,
+          "8": 1,
+          "10": 2
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "1개월": {
+            "total": 4,
+            "low": 1
+          }
+        },
+        "byVan": {
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
+          "KPN": {
+            "total": 1,
+            "low": 1
+          },
+          "KSNET": {
+            "total": 1,
+            "low": 0
+          },
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1
+        },
+        "alerts": [
+          {
+            "time": "15:17",
+            "store": "온블릿",
+            "storeId": "628936",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "아이샵케어 고객센터는 채팅형 AI 답변 위주인 데다 상담사 연결도 오래 걸리고 전화 상담조차 없어 문제가 생기거나 용무가 있을 때 해결하기 어렵고 시간이 많이 소요됩니다. 나이가 있으시거나 기기 및 앱 사용이 익숙하지 않은 분들은 이용하기 힘들 것 같습니다.",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
+        "praises": [
+          {
+            "time": "15:17",
+            "store": "주식회사 오포르",
+            "storeId": "631727",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 8,
+            "text": "편리하고 직관적입니다. 다만 빠른 고객상담이나 핫라인이 부재하다는게 좀 불편합니다",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
+      }
     }
   },
   "resp": {
@@ -357079,7 +357166,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 15:15",
+    "at": "2026-10-18 15:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357212,7 +357299,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 15:15",
+    "at": "2026-10-18 15:17",
     "pri": {
       "days": 0,
       "failed": [],
