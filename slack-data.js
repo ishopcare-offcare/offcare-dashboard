@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22321,
+  "version": 22322,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,7 +263802,7 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김기범": 3,
+          "김기범": 4,
           "김동욱": 5
         },
         "booking": {
@@ -263811,6 +263811,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:00",
+          "store": "아이비아카데미 학원",
+          "biz": "2049252255",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "터프+pc 대표님의 카드가 아니나 여러카드사 결제가 거절이 되어 점검 요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "15:29",
           "store": "샤브랑월남쌈",
@@ -263921,7 +263932,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 2,
         "unknown": 0
       },
@@ -264273,18 +264284,11 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792308164.96
-      },
-      "1792306803.161909": {
-        "post": "1792306803.161909",
-        "lastSeen": 1792308164.96,
-        "r": 1,
-        "day": "2026-10-18",
-        "idx": 5
+        "lastSeen": 1792308296.2
       },
       "1792307460.474129": {
         "post": "1792307460.474129",
-        "lastSeen": 1792308164.96
+        "lastSeen": 1792308296.2
       }
     },
     "days": {
@@ -357336,14 +357340,15 @@ window.SLACK_DATA = {
             "store": "아이비아카데미 학원",
             "biz": "2049252255",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 23.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:22",
+    "at": "2026-10-18 16:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357476,7 +357481,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:22",
+    "at": "2026-10-18 16:24",
     "pri": {
       "days": 0,
       "failed": [],
