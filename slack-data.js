@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22252,
+  "version": 22253,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,11 +263802,23 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김동욱": 2
+          "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:35",
+          "store": "마라중독",
+          "biz": "8650803225",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "쿠팡이츠 배달 연동 원격 도움 요청하셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "쿠팡이츠 연동 완료",
+          "rr": 1
+        },
         {
           "time": "11:30",
           "store": "스테이에브리데이",
@@ -263833,7 +263845,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -356985,7 +356997,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 11:36",
+    "at": "2026-10-18 11:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357118,7 +357130,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 11:36",
+    "at": "2026-10-18 11:41",
     "pri": {
       "days": 0,
       "failed": [],
