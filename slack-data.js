@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22313,
+  "version": 22314,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264200,11 +264200,14 @@ window.SLACK_DATA = {
       },
       "1792305706.831659": {
         "post": "1792305706.831659",
-        "lastSeen": 1792306821.569
+        "lastSeen": 1792306898.942
       },
       "1792306803.161909": {
         "post": "1792306803.161909",
-        "lastSeen": 1792306821.569
+        "lastSeen": 1792306898.942,
+        "r": 1,
+        "day": "2026-10-18",
+        "idx": 5
       }
     },
     "days": {
@@ -357201,8 +357204,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-18": {
-        "cnt": 5,
-        "sumMin": 7.929153919219971,
+        "cnt": 6,
+        "sumMin": 8.880713764826456,
         "over": 0,
         "items": [
           {
@@ -357249,13 +357252,21 @@ window.SLACK_DATA = {
             "who": "김기범",
             "cat": "as",
             "dmin": 3.8
+          },
+          {
+            "hm": "16:00",
+            "min": 1,
+            "store": "아이비아카데미 학원",
+            "biz": "2049252255",
+            "who": "김기범",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-18 16:00",
+    "at": "2026-10-18 16:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357388,7 +357399,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 16:00",
+    "at": "2026-10-18 16:01",
     "pri": {
       "days": 0,
       "failed": [],
