@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22281,
+  "version": 22282,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263801,16 +263801,28 @@ window.SLACK_DATA = {
     },
     "2026-10-18": {
       "counts": {
+        "as": {
+          "김동욱": 5,
+          "김기범": 1
+        },
         "booking": {
           "김동욱": 1
-        },
-        "as": {
-          "김동욱": 4,
-          "김기범": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:33",
+          "store": "오로지족발보쌈",
+          "biz": "6010766240",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "배달 오토포스 프로그램 사용 중 / POS8385 프린터에 연동 가능한지 문의 주셨어요.",
+          "hw": "",
+          "intake": "online",
+          "note": "pos8385 AB케이블 연결 후 드라이버 설치 완료",
+          "rr": 1
+        },
         {
           "time": "14:00",
           "store": "아코랩",
@@ -263885,7 +263897,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
@@ -357053,7 +357065,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 14:34",
+    "at": "2026-10-18 14:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357186,7 +357198,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 14:34",
+    "at": "2026-10-18 14:39",
     "pri": {
       "days": 0,
       "failed": [],
