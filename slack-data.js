@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22250,
+  "version": 22251,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -263802,11 +263802,23 @@ window.SLACK_DATA = {
     "2026-10-18": {
       "counts": {
         "as": {
-          "김동욱": 1
+          "김동욱": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:30",
+          "store": "스테이에브리데이",
+          "biz": "3628503654",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포프터(핸드폰) 메뉴가 핸드폰에는 나오나 터미널에서 확인 되지 않는다고 하시어 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "대표님 휴대폰에 토스사장님 앱 설치되어 있으나 매장에 안계심. 매장에 계셔야 세팅 도와드릴 수 있음 안내드림. 나중에 고객센터로 다시 연락주신다고 하심",
+          "rr": 1
+        },
         {
           "time": "10:31",
           "store": "그래니살룬 영통점",
@@ -263821,7 +263833,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -356973,7 +356985,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-18 11:31",
+    "at": "2026-10-18 11:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357106,7 +357118,7 @@ window.SLACK_DATA = {
     "2026-10-18": 2
   },
   "noteMig": {
-    "at": "2026-10-18 11:31",
+    "at": "2026-10-18 11:32",
     "pri": {
       "days": 0,
       "failed": [],
