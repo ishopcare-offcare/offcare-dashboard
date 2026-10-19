@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3778,
- "updatedAt": "2026-10-19 15:29",
+ "version": 3779,
+ "updatedAt": "2026-10-19 15:32",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0C9THV0K55",
      "from": "댓글",
-     "path": "menu-files/1792391219_797499-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -67,13 +66,13 @@ window.MENU_REQUESTS = {
        "price": 13000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792391219_797499-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CA3LC7MQV",
      "from": "댓글",
-     "path": "menu-files/1792391219_797499-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -142,13 +141,13 @@ window.MENU_REQUESTS = {
        "price": 26000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792391219_797499-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CACKXSBNG",
      "from": "댓글",
-     "path": "menu-files/1792391219_797499-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -207,13 +206,13 @@ window.MENU_REQUESTS = {
        "price": 35000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792391219_797499-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0C9THXKFD5",
      "from": "댓글",
-     "path": "menu-files/1792391219_797499-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -287,13 +286,13 @@ window.MENU_REQUESTS = {
        "price": 21000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792391219_797499-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CACKZDSQL",
      "from": "댓글",
-     "path": "menu-files/1792391219_797499-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -392,13 +391,13 @@ window.MENU_REQUESTS = {
        "price": 12000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792391219_797499-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0CA2N8UN67",
      "from": "댓글",
-     "path": "menu-files/1792391219_797499-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -422,7 +421,8 @@ window.MENU_REQUESTS = {
        "price": 20000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792391219_797499-5.png"
     },
     {
      "name": "image.png",
@@ -521,14 +521,728 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "Resized_20261019_151402.jpg.jpeg",
+     "fid": "F0C9TJ5JB2T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "계절특미",
+       "name": "밀면",
+       "price": 9000
+      },
+      {
+       "category": "계절특미",
+       "name": "비빔밀면",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "냉면",
+       "price": 9000
+      },
+      {
+       "category": "계절특미",
+       "name": "비빔냉면",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "콩국수",
+       "price": 9000
+      },
+      {
+       "category": "계절특미",
+       "name": "육개장",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "갈비탕",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "냉짬뽕",
+       "price": 13000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151413.jpg.jpeg",
+     "fid": "F0CA2NH606P",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+짜장1",
+       "price": 19000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+짬뽕1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+볶음밥1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+잡채밥1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+쟁반짜장1",
+       "price": 24000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+간짜장1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+울면1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+물냉면1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+콩국수1",
+       "price": 21000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+비빔밀면1",
+       "price": 22000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+비빔냉면1",
+       "price": 22000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+차돌짬뽕1",
+       "price": 25000
+      },
+      {
+       "category": "나홀로세트",
+       "name": "탕수육+냉짬뽕1",
+       "price": 26000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151419.jpg.jpeg",
+     "fid": "F0CB3AS9N64",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+짜장2",
+       "price": 26000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+짬뽕2",
+       "price": 30000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+볶음밥2",
+       "price": 30000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+잡채밥2",
+       "price": 30000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+쟁반짜장2",
+       "price": 34000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+짬뽕+짜장",
+       "price": 28000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+짬뽕밥2",
+       "price": 30000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+간짜장2",
+       "price": 30000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+냉짬뽕2",
+       "price": 38000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+차돌짬뽕2",
+       "price": 36000
+      },
+      {
+       "category": "레몬+등심2인세트",
+       "name": "탕수육+음료+불짬뽕2",
+       "price": 36000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151430.jpg.jpeg",
+     "fid": "F0C9TJ6CK8X",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+냉면1",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+밀면1",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+콩국수",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+비빔냉면1",
+       "price": 18000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+비빔밀면",
+       "price": 18000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+냉짬뽕",
+       "price": 22000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+짜장",
+       "price": 15000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+짬뽕",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+볶음밥",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+물면",
+       "price": 18000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+잡채밥",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+간파장",
+       "price": 17000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+쟁반짜장",
+       "price": 20000
+      },
+      {
+       "category": "맛보기세트",
+       "name": "맛보기+차돌짬뽕",
+       "price": 21000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151435.jpg.jpeg",
+     "fid": "F0CA2NHF69H",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "면류",
+       "name": "짜장면",
+       "price": 7000
+      },
+      {
+       "category": "면류",
+       "name": "짬뽕",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "불짜장",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "불짬뽕",
+       "price": 11000
+      },
+      {
+       "category": "면류",
+       "name": "우동",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "간짜장",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "울면",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "삼선짜장",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "사천짜장",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "쟁반짜장1인분",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "삼선짬뽕",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "삼선우동",
+       "price": 12000
+      },
+      {
+       "category": "면류",
+       "name": "아끼우동",
+       "price": 11000
+      },
+      {
+       "category": "면류",
+       "name": "삼선간짜장",
+       "price": 11000
+      },
+      {
+       "category": "면류",
+       "name": "백짬뽕",
+       "price": 11000
+      },
+      {
+       "category": "면류",
+       "name": "유니짜장",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "볶음짬뽕",
+       "price": 11000
+      },
+      {
+       "category": "면류",
+       "name": "사천짬뽕",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "차돌짬뽕",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151441.jpg.jpeg",
+     "fid": "F0CAASBAAUR",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "미니요리",
+       "name": "칠리탕수육",
+       "price": 20000
+      },
+      {
+       "category": "미니요리",
+       "name": "칠리새우",
+       "price": 20000
+      },
+      {
+       "category": "미니요리",
+       "name": "미니깐쇼육",
+       "price": 20000
+      },
+      {
+       "category": "미니요리",
+       "name": "미니물보채",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151447.jpg.jpeg",
+     "fid": "F0CACL7UMUL",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "반반메뉴",
+       "name": "짬짜면",
+       "price": 10000
+      },
+      {
+       "category": "반반메뉴",
+       "name": "탕짜면",
+       "price": 11000
+      },
+      {
+       "category": "반반메뉴",
+       "name": "탕짬면",
+       "price": 12000
+      },
+      {
+       "category": "반반메뉴",
+       "name": "볶짜",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151504.jpg.jpeg",
+     "fid": "F0C9TJ86BFZ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "밥류",
+       "name": "볶음밥",
+       "price": 9000
+      },
+      {
+       "category": "밥류",
+       "name": "짬뽕밥",
+       "price": 9000
+      },
+      {
+       "category": "밥류",
+       "name": "중화비빔밥",
+       "price": 10000
+      },
+      {
+       "category": "밥류",
+       "name": "김치볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "밥류",
+       "name": "잡채밥",
+       "price": 9000
+      },
+      {
+       "category": "밥류",
+       "name": "오므라이스",
+       "price": 10000
+      },
+      {
+       "category": "밥류",
+       "name": "새우볶음밥",
+       "price": 11000
+      },
+      {
+       "category": "밥류",
+       "name": "삼선볶음밥",
+       "price": 11000
+      },
+      {
+       "category": "밥류",
+       "name": "잡탕밥",
+       "price": 18000
+      },
+      {
+       "category": "밥류",
+       "name": "마파두부밥",
+       "price": 11000
+      },
+      {
+       "category": "밥류",
+       "name": "짜장밥",
+       "price": 9000
+      },
+      {
+       "category": "밥류",
+       "name": "삼선짬뽕밥",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151513.jpg.jpeg",
+     "fid": "F0CAASB54TT",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "군만두",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "물만두",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "유린만두샐러드",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151518.jpg.jpeg",
+     "fid": "F0CA3LQJ68M",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요리부",
+       "name": "미니탕수육",
+       "price": 18000
+      },
+      {
+       "category": "요리부",
+       "name": "탕수육(소)",
+       "price": 25000
+      },
+      {
+       "category": "요리부",
+       "name": "탕수육(중)",
+       "price": 30000
+      },
+      {
+       "category": "요리부",
+       "name": "탕수육(대)",
+       "price": 35000
+      },
+      {
+       "category": "요리부",
+       "name": "잡채",
+       "price": 22000
+      },
+      {
+       "category": "요리부",
+       "name": "깐풍기",
+       "price": 37000
+      },
+      {
+       "category": "요리부",
+       "name": "깐풍육",
+       "price": 37000
+      },
+      {
+       "category": "요리부",
+       "name": "고추잡채",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "팔보채",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "유산슬",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "깐쇼새우",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "깐풍새우",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "양장피",
+       "price": 42000
+      },
+      {
+       "category": "요리부",
+       "name": "삼선짬뽕탕",
+       "price": 23000
+      },
+      {
+       "category": "요리부",
+       "name": "라조기",
+       "price": 35000
+      },
+      {
+       "category": "요리부",
+       "name": "난자완스",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "라조육",
+       "price": 40000
+      },
+      {
+       "category": "요리부",
+       "name": "사천탕수육(소)",
+       "price": 27000
+      },
+      {
+       "category": "요리부",
+       "name": "사천탕수육(중)",
+       "price": 32000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151523.jpg.jpeg",
+     "fid": "F0CA8PU9066",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류 음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류 음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 음료",
+       "name": "이과두주",
+       "price": 5000
+      },
+      {
+       "category": "주류 음료",
+       "name": "고량주",
+       "price": 7000
+      },
+      {
+       "category": "주류 음료",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류 음료",
+       "name": "환타",
+       "price": 2000
+      },
+      {
+       "category": "주류 음료",
+       "name": "콜라 1.25L",
+       "price": 3000
+      },
+      {
+       "category": "주류 음료",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류 음료",
+       "name": "음료수",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_151530.jpg.jpeg",
+     "fid": "F0CA714LDTQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가금액",
+       "name": "추가금액",
+       "price": 1000
+      },
+      {
+       "category": "추가금액",
+       "name": "추가금액2",
+       "price": 2000
+      },
+      {
+       "category": "추가금액",
+       "name": "추가금액3",
+       "price": 3000
+      },
+      {
+       "category": "추가금액",
+       "name": "추가금액4",
+       "price": 4000
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
-    "여기까지 매장메뉴"
+    "여기까지 매장메뉴",
+    "여기부터 배달메뉴"
    ],
-   "rc": 2,
-   "lr": "1792391286.588949",
+   "rc": 4,
+   "lr": "1792391378.351859",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -581,8 +1295,8 @@ window.MENU_REQUESTS = {
     "퍼스트포스 사용 중\n\n<단품메뉴> 카테고리 메뉴\n치킨버거 세트 10,000 > 치킨버거 7,000\n서울대버거 세트 16,500 > 서울대버거 13,000\n\n[토스트 버거, 한입 치즈버거, 한입 파인버거, 한입 베이컨버거, 한입 새우버거, 통살 오징어버거, 치킨버거, 서울대버거]\n\n에 옵션이 빠져 있다고 합니다.\n\n더블치즈버거에 등록되어있는 옵션 보고 동일하게 넣어달라고 요청 주셨어요.",
     "추가로 키오스크 2대 사용 중이라 전부 적용 요청"
    ],
-   "rc": 3,
-   "lr": "1792390368.047379",
+   "rc": 4,
+   "lr": "1792391412.257479",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
