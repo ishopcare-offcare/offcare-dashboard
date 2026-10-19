@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22452,
+  "version": 22453,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264352,7 +264352,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -264391,7 +264391,17 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": []
-      }
+      },
+      "absent": [
+        {
+          "time": "09:00",
+          "store": "브레인쿡",
+          "biz": "7752000397",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -264451,7 +264461,10 @@ window.SLACK_DATA = {
       },
       "1792368901.736989": {
         "post": "1792368901.736989",
-        "lastSeen": 1792369012.215
+        "lastSeen": 1792369156.147,
+        "r": 1,
+        "day": "2026-10-19",
+        "idx": 1
       }
     },
     "days": {
@@ -357545,8 +357558,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-19": {
-        "cnt": 1,
-        "sumMin": 0.6020235180854797,
+        "cnt": 2,
+        "sumMin": 3.642757034301758,
         "over": 0,
         "items": [
           {
@@ -357557,13 +357570,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "onboarding",
             "dmin": 3.1
+          },
+          {
+            "hm": "09:15",
+            "min": 3,
+            "store": "[잠실_팝업_더 티니핑 그랜드 서머 페스티벌]",
+            "biz": "3138700979",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-19 09:17",
+    "at": "2026-10-19 09:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357697,7 +357718,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 09:16",
+    "at": "2026-10-19 09:19",
     "pri": {
       "days": 0,
       "failed": [],
