@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22514,
+  "version": 22515,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264321,14 +264321,14 @@ window.SLACK_DATA = {
           "배선유": 3,
           "심성현": 2
         },
+        "nosetup": {
+          "김현기": 2
+        },
         "as": {
           "배선유": 1,
           "심성현": 3,
           "김현기": 4,
           "김동욱": 1
-        },
-        "nosetup": {
-          "김현기": 1
         },
         "booking": {
           "박하림": 1
@@ -264377,6 +264377,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:30",
+          "store": "화화 베이크 하우스",
+          "biz": "8332202486",
+          "cat": "nosetup",
+          "emp": "김현기",
+          "req": "포프(태블릿) + 유프 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "온ㅇ보딩은 셀프로 완료 (개인아이패드) / 유프 연결 설정 완료",
+          "rr": 1
         },
         {
           "time": "10:24",
@@ -264570,7 +264582,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 3,
         "unknown": 0
       },
@@ -264709,25 +264721,18 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792374021.05,
+        "lastSeen": 1792374112.852,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
       },
       "1792372786.845139": {
         "post": "1792372786.845139",
-        "lastSeen": 1792374021.05
+        "lastSeen": 1792374112.852
       },
       "1792373068.535729": {
         "post": "1792373068.535729",
-        "lastSeen": 1792374021.05
-      },
-      "1792373401.257039": {
-        "post": "1792373401.257039",
-        "lastSeen": 1792374021.05,
-        "r": 1,
-        "day": "2026-10-19",
-        "idx": 12
+        "lastSeen": 1792374112.852
       }
     },
     "days": {
@@ -357938,7 +357943,8 @@ window.SLACK_DATA = {
             "store": "화화 베이크 하우스",
             "biz": "8332202486",
             "who": "김현기",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 11.1
           },
           {
             "hm": "10:31",
@@ -357954,7 +357960,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 10:40",
+    "at": "2026-10-19 10:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -358088,7 +358094,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 10:40",
+    "at": "2026-10-19 10:41",
     "pri": {
       "days": 0,
       "failed": [],
