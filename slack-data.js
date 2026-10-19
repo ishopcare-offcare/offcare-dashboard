@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22455,
+  "version": 22456,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264318,7 +264318,7 @@ window.SLACK_DATA = {
     "2026-10-19": {
       "counts": {
         "onboarding": {
-          "심성현": 1
+          "심성현": 2
         },
         "as": {
           "김현기": 1
@@ -264326,6 +264326,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:13",
+          "store": "안녕 필리",
+          "biz": "1576300878",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "프론트 키오스크 모드 사용중인데 영수증 프린터가 안나온다 하십니다. (토스포스 설치한 pc가 사양이 많이 안좋다고 하십니다.)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:08",
           "store": "숨쉼필라테스",
@@ -264352,7 +264363,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -264461,14 +264472,17 @@ window.SLACK_DATA = {
       },
       "1792368901.736989": {
         "post": "1792368901.736989",
-        "lastSeen": 1792369246.276,
+        "lastSeen": 1792369316.963,
         "r": 1,
         "day": "2026-10-19",
         "idx": 1
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792369246.276
+        "lastSeen": 1792369316.963,
+        "r": 1,
+        "day": "2026-10-19",
+        "idx": 2
       }
     },
     "days": {
@@ -357562,8 +357576,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-19": {
-        "cnt": 2,
-        "sumMin": 3.642757034301758,
+        "cnt": 3,
+        "sumMin": 5.182301052411398,
         "over": 0,
         "items": [
           {
@@ -357582,13 +357596,21 @@ window.SLACK_DATA = {
             "biz": "3138700979",
             "who": "김현기",
             "cat": "as"
+          },
+          {
+            "hm": "09:19",
+            "min": 1.5,
+            "store": "마블스퀘어",
+            "biz": "6526700764",
+            "who": "김규빈",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-19 09:21",
+    "at": "2026-10-19 09:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357596,7 +357618,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4603,
     "named": 1211,
-    "unknownName": 86,
+    "unknownName": 84,
     "beforeStart": 0,
     "done": 1211,
     "byStatus": {
@@ -357722,7 +357744,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 09:20",
+    "at": "2026-10-19 09:21",
     "pri": {
       "days": 0,
       "failed": [],
