@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22940,
+  "version": 22941,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267196,11 +267196,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-20": {
-      "counts": {},
+      "counts": {
+        "menu": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "07:50",
+          "store": "도야장",
+          "biz": "5201902315",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "메뉴등록요청",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -267275,10 +267292,6 @@ window.SLACK_DATA = {
       "1792422036.658939": {
         "post": "1792422036.658939",
         "lastSeen": 1792440926.999
-      },
-      "1792450206.264579": {
-        "post": "1792450206.264579",
-        "lastSeen": 1792450844.183
       }
     },
     "days": {
@@ -361776,17 +361789,33 @@ window.SLACK_DATA = {
             "dmin": 6.9
           }
         ]
+      },
+      "2026-10-20": {
+        "cnt": 1,
+        "sumMin": 18.025348683198292,
+        "over": 0,
+        "items": [
+          {
+            "hm": "07:50",
+            "min": 18,
+            "store": "도야장",
+            "biz": "5201902315",
+            "who": "김동욱",
+            "cat": "menu",
+            "dmin": 18
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-20 08:00",
+    "at": "2026-10-20 08:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4621,
+    "rows": 4628,
     "named": 1225,
     "unknownName": 102,
     "beforeStart": 0,
@@ -361914,7 +361943,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 08:00",
+    "at": "2026-10-20 08:15",
     "pri": {
       "days": 0,
       "failed": [],
