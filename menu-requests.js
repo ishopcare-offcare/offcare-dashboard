@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3787,
- "updatedAt": "2026-10-19 18:03",
+ "version": 3788,
+ "updatedAt": "2026-10-19 19:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1792405533.415649",
+   "date": "2026-10-19",
+   "time": "19:25",
+   "store": "바다향기",
+   "biz": "3840403301",
+   "pos": "",
+   "content": "• 메뉴 신규 등록 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "주류\n순하리 레몬(9도)\n6000원"
+   ],
+   "rc": 2,
+   "lr": "1792405541.529709",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792405533415649"
+  },
   {
    "ts": "1792399033.127129",
    "date": "2026-10-19",
