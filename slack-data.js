@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22465,
+  "version": 22466,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264318,7 +264318,7 @@ window.SLACK_DATA = {
     "2026-10-19": {
       "counts": {
         "as": {
-          "심성현": 1,
+          "심성현": 2,
           "김현기": 1
         },
         "onboarding": {
@@ -264327,6 +264327,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "장헤어",
+          "biz": "1060597701",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "터미널1 사용중, 인터넷 연결이 되지 않는다 하셔서 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "09:13",
           "store": "안녕 필리",
@@ -264366,7 +264377,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:30",
@@ -264474,24 +264485,17 @@ window.SLACK_DATA = {
       },
       "1792368901.736989": {
         "post": "1792368901.736989",
-        "lastSeen": 1792369934.674,
+        "lastSeen": 1792370047.41,
         "r": 1,
         "day": "2026-10-19",
         "idx": 1
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792369934.674,
+        "lastSeen": 1792370047.41,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
-      },
-      "1792369816.132589": {
-        "post": "1792369816.132589",
-        "lastSeen": 1792369934.674,
-        "r": 1,
-        "day": "2026-10-19",
-        "idx": 3
       }
     },
     "days": {
@@ -357620,14 +357624,15 @@ window.SLACK_DATA = {
             "store": "장헤어",
             "biz": "1060597701",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 2.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-19 09:32",
+    "at": "2026-10-19 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357635,7 +357640,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4604,
     "named": 1211,
-    "unknownName": 90,
+    "unknownName": 91,
     "beforeStart": 0,
     "done": 1211,
     "byStatus": {
@@ -357761,7 +357766,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 09:32",
+    "at": "2026-10-19 09:34",
     "pri": {
       "days": 0,
       "failed": [],
