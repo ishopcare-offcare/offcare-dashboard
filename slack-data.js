@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22450,
+  "version": 22451,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264319,6 +264319,9 @@ window.SLACK_DATA = {
       "counts": {
         "onboarding": {
           "심성현": 1
+        },
+        "as": {
+          "김현기": 1
         }
       },
       "pending": [],
@@ -264334,14 +264337,25 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "온보딩 완료",
           "rr": 1
+        },
+        {
+          "time": "09:06",
+          "store": "호명종합상사",
+          "biz": "7182001054",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "프론트에 메뉴를 등록하라는 창이 뜨고 아무것도 안된다 하시는데 고령 대표님이라 토스포스에 프론트 연결 되어있는지도 잘 모르셔서 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:13",
+      "updatedAt": "09:15",
       "voc": {
         "responses": 1,
         "install": {
@@ -264433,6 +264447,10 @@ window.SLACK_DATA = {
       "1792335607.268979": {
         "post": "1792335607.268979",
         "lastSeen": 1792354527.986
+      },
+      "1792368901.736989": {
+        "post": "1792368901.736989",
+        "lastSeen": 1792368948.753
       }
     },
     "days": {
@@ -357544,7 +357562,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 09:14",
+    "at": "2026-10-19 09:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357678,7 +357696,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 09:14",
+    "at": "2026-10-19 09:15",
     "pri": {
       "days": 0,
       "failed": [],
