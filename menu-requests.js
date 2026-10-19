@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3755,
- "updatedAt": "2026-10-19 09:45",
+ "version": 3756,
+ "updatedAt": "2026-10-19 10:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1792372786.845139",
+   "date": "2026-10-19",
+   "time": "10:19",
+   "store": "주식회사 서브원 (부산)",
+   "biz": "4738800389",
+   "pos": "",
+   "content": "더블케이 딥스점의 메뉴와 상품의 옵션들을 주식회사 서브원(부산) 으로 복사요청주셨습니다.(완료후 위 번호로 연락 요청:꾸벅:)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792372790.620199",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792372786845139"
+  },
   {
    "ts": "1792369189.246859",
    "date": "2026-10-19",

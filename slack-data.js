@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22497,
+  "version": 22498,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264339,7 +264339,20 @@ window.SLACK_DATA = {
           "심성현": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "09:19",
+          "store": "마블스퀘어",
+          "biz": "6526700764",
+          "handler": "김규빈",
+          "cat": "menu",
+          "intake": "online",
+          "req": "디저트메뉴 20프로 금액 할인 요청드립니다.",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "10:00",
@@ -264485,11 +264498,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:17",
+      "updatedAt": "10:19",
       "voc": {
         "responses": 2,
         "install": {
@@ -264624,31 +264637,35 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792372729.928,
+        "lastSeen": 1792372820.366,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
       },
       "1792372297.583839": {
         "post": "1792372297.583839",
-        "lastSeen": 1792372729.928,
+        "lastSeen": 1792372820.366,
         "r": 1,
         "day": "2026-10-19",
         "idx": 7
       },
       "1792372514.512169": {
         "post": "1792372514.512169",
-        "lastSeen": 1792372729.928,
+        "lastSeen": 1792372820.366,
         "r": 1,
         "day": "2026-10-19",
         "idx": 8
       },
       "1792372640.792759": {
         "post": "1792372640.792759",
-        "lastSeen": 1792372729.928,
+        "lastSeen": 1792372820.366,
         "r": 1,
         "day": "2026-10-19",
         "idx": 9
+      },
+      "1792372786.845139": {
+        "post": "1792372786.845139",
+        "lastSeen": 1792372820.366
       }
     },
     "days": {
@@ -357837,7 +357854,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 10:19",
+    "at": "2026-10-19 10:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357971,7 +357988,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 10:18",
+    "at": "2026-10-19 10:20",
     "pri": {
       "days": 0,
       "failed": [],
