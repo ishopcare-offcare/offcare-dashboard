@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22527,
+  "version": 22528,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264369,7 +264369,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "폰 토스포스 우측에 포스 아이콘 눌러 가로 모드 상태에서 켜놔야 출력 됨 안내 / 테스트 시 정상 출력 ㅗ학인",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "10:48",
@@ -264650,41 +264650,49 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:56",
+      "updatedAt": "10:58",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
-          "count": 0,
+          "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 3,
           "low": 1
         },
         "high": {
-          "install": 0,
-          "nps": 1
+          "install": 1,
+          "nps": 2
         },
         "npsDist": {
           "1": 1,
-          "10": 1
+          "10": 2
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "5": 1
+        },
+        "byIndustry": {
+          "도소매": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 2,
             "low": 1
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 2,
+            "low": 0
+          },
           "KPN": {
             "total": 1,
             "low": 1
-          },
-          "KOCES": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
@@ -264714,7 +264722,20 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "10:58",
+            "store": "산아래시팔공산다시책방",
+            "storeId": "685100",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "메뉴얼과 단말기의 연결 구성부품이 달라 당황했지만 상담원 연결후 잘 설치했습니다. 잘 사용중이어서 ...",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       },
       "absent": [
         {
@@ -264785,21 +264806,25 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792375025.04,
+        "lastSeen": 1792375113.757,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
       },
       "1792373068.535729": {
         "post": "1792373068.535729",
-        "lastSeen": 1792375025.04
+        "lastSeen": 1792375113.757
       },
       "1792374649.967999": {
         "post": "1792374649.967999",
-        "lastSeen": 1792375025.04,
+        "lastSeen": 1792375113.757,
         "r": 1,
         "day": "2026-10-19",
         "idx": 15
+      },
+      "1792375043.948479": {
+        "post": "1792375043.948479",
+        "lastSeen": 1792375113.757
       }
     },
     "days": {
@@ -358053,7 +358078,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 10:57",
+    "at": "2026-10-19 10:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -358187,7 +358212,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 10:57",
+    "at": "2026-10-19 10:58",
     "pri": {
       "days": 0,
       "failed": [],
