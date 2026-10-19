@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3770,
- "updatedAt": "2026-10-19 14:36",
+ "version": 3771,
+ "updatedAt": "2026-10-19 15:06",
  "days": 30,
  "items": [
   {
@@ -55146,41 +55146,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789798804065659"
-  },
-  {
-   "ts": "1789797922.993969",
-   "date": "2026-09-19",
-   "time": "15:05",
-   "store": "요아정전주인후점",
-   "biz": "1854700932",
-   "pos": "",
-   "content": "<@U08HHP6TV39> 배민보고 해달래요... 메뉴...ㅠ",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "요아정인후점_배민_상품옵션_20260922.xlsx",
-     "fid": "F0C3BDATEJX",
-     "from": "댓글",
-     "path": "menu-files/1789797922_993969-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1789794001050779",
-    "네 이악물고 방해했는데, 제 이를 깨부셨어요",
-    "그러면 CX팀이나 다른 팀 전부에도 공유 해주세요",
-    "강철수비로 방어했지만... 뚫렸어요 ㅠ",
-    "최고"
-   ],
-   "rc": 31,
-   "lr": "1790129754.377419",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789797922993969"
   }
  ],
  "ocr": {
