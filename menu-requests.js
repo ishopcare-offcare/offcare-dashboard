@@ -3,10 +3,227 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3790,
- "updatedAt": "2026-10-19 19:32",
+ "version": 3791,
+ "updatedAt": "2026-10-20 08:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1792450206.264579",
+   "date": "2026-10-20",
+   "time": "07:50",
+   "store": "도야장",
+   "biz": "5201902315",
+   "pos": "",
+   "content": "메뉴등록요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAASC8W1Z",
+     "from": "댓글",
+     "path": "menu-files/1792450206_264579-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "대갈비김치찜",
+       "name": "대갈비김치찜 점심정식 1人",
+       "price": 13500
+      },
+      {
+       "category": "대갈비김치찜",
+       "name": "대갈비김치찜 1人",
+       "price": 15500
+      },
+      {
+       "category": "대갈비김치찜",
+       "name": "대갈비김치찜 小",
+       "price": 28000
+      },
+      {
+       "category": "대갈비김치찜",
+       "name": "대갈비김치찜 中",
+       "price": 38000
+      },
+      {
+       "category": "대갈비김치찜",
+       "name": "대갈비김치찜 大",
+       "price": 48000
+      },
+      {
+       "category": "대갈비간장찜",
+       "name": "대갈비간장찜 점심정식 1人",
+       "price": 13500
+      },
+      {
+       "category": "대갈비간장찜",
+       "name": "대갈비간장찜 1人",
+       "price": 15500
+      },
+      {
+       "category": "대갈비간장찜",
+       "name": "대갈비간장찜 小",
+       "price": 28000
+      },
+      {
+       "category": "대갈비간장찜",
+       "name": "대갈비간장찜 中",
+       "price": 38000
+      },
+      {
+       "category": "대갈비간장찜",
+       "name": "대갈비간장찜 大",
+       "price": 48000
+      },
+      {
+       "category": "찜 추가메뉴",
+       "name": "순수제비",
+       "price": 2000
+      },
+      {
+       "category": "찜 추가메뉴",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "찜 추가메뉴",
+       "name": "당면사리",
+       "price": 2000
+      },
+      {
+       "category": "찜 추가메뉴",
+       "name": "우동사리",
+       "price": 2000
+      },
+      {
+       "category": "찜 추가메뉴",
+       "name": "중면사리",
+       "price": 2000
+      },
+      {
+       "category": "직화매운등갈비",
+       "name": "직화매운등갈비 小",
+       "price": 28000
+      },
+      {
+       "category": "직화매운등갈비",
+       "name": "직화매운등갈비 中",
+       "price": 38000
+      },
+      {
+       "category": "직화매운등갈비",
+       "name": "직화매운등갈비 大",
+       "price": 48000
+      },
+      {
+       "category": "직화맥적등갈비",
+       "name": "직화맥적등갈비 小",
+       "price": 28000
+      },
+      {
+       "category": "직화맥적등갈비",
+       "name": "직화맥적등갈비 中",
+       "price": 38000
+      },
+      {
+       "category": "직화맥적등갈비",
+       "name": "직화맥적등갈비 大",
+       "price": 48000
+      },
+      {
+       "category": "등갈비 추가메뉴",
+       "name": "눈꽃치즈",
+       "price": 2000
+      },
+      {
+       "category": "등갈비 추가메뉴",
+       "name": "떡추가",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "수제치즈감자고로케",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "계란말이",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "김치전",
+       "price": 8000
+      },
+      {
+       "category": "추가",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "콩나물국",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "계란후라이",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "공기밥 + 계란후라이",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "주먹밥",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "콜라",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "환타파인",
+       "price": 1500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792450214.661599",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792450206264579"
+  },
   {
    "ts": "1792405533.415649",
    "date": "2026-10-19",
