@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22477,
+  "version": 22478,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264420,40 +264420,70 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:45",
+      "updatedAt": "09:53",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
-          "low": 0
+          "count": 2,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "1": 1,
           "10": 1
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
           "1개월": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 1,
+            "low": 1
+          },
           "KOCES": {
             "total": 1,
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1
+        },
+        "alerts": [
+          {
+            "time": "09:52",
+            "store": "루미스 스킨랩",
+            "storeId": "632489",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 1,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 1,
+                "text": "네이버연동도안되고 예약문자 시간설정도 안되고 결제시스템도 복잡해서 쓰기어랴움",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       },
       "absent": [
@@ -264525,10 +264555,14 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792371086.784,
+        "lastSeen": 1792371191.101,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
+      },
+      "1792371180.601519": {
+        "post": "1792371180.601519",
+        "lastSeen": 1792371191.101
       }
     },
     "days": {
@@ -357666,7 +357700,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 09:51",
+    "at": "2026-10-19 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357800,7 +357834,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 09:51",
+    "at": "2026-10-19 09:53",
     "pri": {
       "days": 0,
       "failed": [],
