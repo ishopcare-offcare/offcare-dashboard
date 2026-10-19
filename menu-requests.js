@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3775,
- "updatedAt": "2026-10-19 15:21",
+ "version": 3776,
+ "updatedAt": "2026-10-19 15:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1792390868.154759",
+   "date": "2026-10-19",
+   "time": "15:21",
+   "store": "버거307 용인명지대점",
+   "biz": "1420609684",
+   "pos": "퍼스트포스",
+   "content": "한입치즈버거",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1IqDuJ6xGcFv3K9lUEJfxnRmE859znUoP/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1IqDuJ6xGcFv3K9lUEJfxnRmE859znUoP",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792390868154759"
+  },
   {
    "ts": "1792390141.147319",
    "date": "2026-10-19",
