@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-10-19 23:01 KST · 180건 (2026-07-01 이후)
+ * 갱신: 2026-10-20 00:01 KST · 180건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-10-19 23:01',
+  updatedAt: '2026-10-20 00:01',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -184,7 +184,7 @@ window.VISIT_DATA = {
   {"id":"15804","date":"2026-10-16","time":"13:40","store":"용용선생 역북점","biz":"8111602016","kind":"기타","status":"done","visitDate":"2026-10-19","region":"지방","route":"오프라인","addr":"경기도 용인시 처인구","van":"NICE","equip":"[회수] 포스기 2EA + 프론트 1EA + NC-8000 1EA + 유선프린터기 3EA + 금전함 1EA","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"용용선생"},
   {"id":"15858","date":"2026-10-17","time":"22:51","store":"피자스쿨가양점","biz":"2741100081","kind":"AS","status":"done","visitDate":"2026-10-13","region":"수도권","route":"오프라인","addr":"서울특별시 강서구","van":"KIS","equip":"다우단말기 6300","ship":"","delivery":"","requester":"","assignee":"","rounds":3,"roundDates":["2026-05-07","2026-05-19","2026-10-13","2026-05-07","2026-05-19","2026-10-13"],"brand":"피자스쿨"},
   {"id":"15872","date":"2026-10-19","time":"11:58","store":"피자스쿨가양점","biz":"2741100081","kind":"설치","status":"pending","visitDate":"2026-10-21","region":"수도권","route":"오프라인","addr":"서울특별시 강서구","van":"KIS","equip":"kis 1421","ship":"2026-10-19","delivery":"","requester":"","assignee":"","rounds":4,"roundDates":["2026-05-07","2026-05-19","2026-10-20","2026-10-21","2026-05-07","2026-05-19","2026-10-20","2026-10-21"],"brand":"피자스쿨"},
-  {"id":"15915","date":"2026-10-19","time":"17:48","store":"올드페리도넛 동작구청점","biz":"8043901338","kind":"설치","status":"pending","visitDate":"2026-10-20","region":"수도권","route":"오프라인","addr":"서울특별시 동작구","van":"KIS","equip":"포스기세트(포스+프론트+유프+금전함)","ship":"2026-10-16","delivery":"","requester":"","assignee":"이동훈B","rounds":0,"roundDates":[],"brand":"올드페리도넛"},
+  {"id":"15915","date":"2026-10-19","time":"17:48","store":"올드페리도넛 동작구청점","biz":"8043901338","kind":"설치","status":"done","visitDate":"2026-10-20","region":"수도권","route":"오프라인","addr":"서울특별시 동작구","van":"KIS","equip":"포스기세트(포스+프론트+유프+금전함)","ship":"2026-10-16","delivery":"","requester":"","assignee":"이동훈B","rounds":0,"roundDates":[],"brand":"올드페리도넛"},
   {"id":"15916","date":"2026-10-19","time":"17:51","store":"뵈르뵈르 분당정자점","biz":"6193201895","kind":"설치","status":"pending","visitDate":"2026-10-21","region":"수도권","route":"오프라인","addr":"경기도 성남시 분당구","van":"KIS","equip":"포스기 1EA + 프론트 1EA + 유선프린터기 1EA + 금전함 1EA + 키오스크(스탠드형) 1EA","ship":"2026-10-19","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"뵈르뵈르"},
   ],
 };
