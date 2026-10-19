@@ -3,10 +3,71 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3762,
- "updatedAt": "2026-10-19 10:45",
+ "version": 3763,
+ "updatedAt": "2026-10-19 11:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1792378055.509199",
+   "date": "2026-10-19",
+   "time": "11:47",
+   "store": "강화누룽지닭강정",
+   "biz": "6900400999",
+   "pos": "토스포스",
+   "content": "최가네먹거리",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1KVtvV01BxUEeiLBuNZgPzl1HqWUmqMi3/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1KVtvV01BxUEeiLBuNZgPzl1HqWUmqMi3",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "누룽지닭강정 2~3인",
+       "price": 24000
+      },
+      {
+       "category": "",
+       "name": "반반메뉴",
+       "price": 25000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "버터갈릭감자튀김",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "콜라 500ml",
+       "price": 2000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "콜라 1.25L",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치킨무",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792378055509199"
+  },
   {
    "ts": "1792372786.845139",
    "date": "2026-10-19",
