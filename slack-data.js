@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22492,
+  "version": 22493,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264334,6 +264334,9 @@ window.SLACK_DATA = {
         },
         "extern": {
           "서상원": 1
+        },
+        "transfer": {
+          "심성현": 1
         }
       },
       "pending": [],
@@ -264383,6 +264386,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": ""
+        },
+        {
+          "time": "09:53",
+          "store": "(주)한길에너텍",
+          "biz": "1058192861",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "10월 19일 지금부터 통화 가능 / 캣단말기(KICC) + kpn-1202",
+          "hw": "",
+          "intake": "online",
+          "note": "TID: 0855981 TS-111 / TS-111 CAT 다운로드 완료 / KPN-1202 무선 외부 사용 중 15시 재예약 요청",
+          "rr": 4
         },
         {
           "time": "09:45",
@@ -264469,7 +264484,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 2,
         "unknown": 0
       },
@@ -264608,21 +264623,14 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792372404.833,
+        "lastSeen": 1792372479.037,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
       },
-      "1792371180.601519": {
-        "post": "1792371180.601519",
-        "lastSeen": 1792372404.833,
-        "r": 1,
-        "day": "2026-10-19",
-        "idx": 4
-      },
       "1792372297.583839": {
         "post": "1792372297.583839",
-        "lastSeen": 1792372404.833
+        "lastSeen": 1792372479.037
       }
     },
     "days": {
@@ -357761,7 +357769,8 @@ window.SLACK_DATA = {
             "store": "(주)한길에너텍",
             "biz": "1058192861",
             "who": "심성현",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 21
           },
           {
             "hm": "10:00",
@@ -357786,7 +357795,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 10:13",
+    "at": "2026-10-19 10:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357920,7 +357929,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 10:13",
+    "at": "2026-10-19 10:14",
     "pri": {
       "days": 0,
       "failed": [],
