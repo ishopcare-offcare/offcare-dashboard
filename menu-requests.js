@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3780,
- "updatedAt": "2026-10-19 15:33",
+ "version": 3781,
+ "updatedAt": "2026-10-19 15:42",
  "days": 30,
  "items": [
   {
@@ -1234,6 +1234,124 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "Resized_20261019_151533.jpg.jpeg",
+     "fid": "F0CB3AWB7EU",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+밀면1",
+       "price": 22000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+냉면1",
+       "price": 22000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+콩국수",
+       "price": 22000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+비냉1",
+       "price": 23000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+비빔밀면1",
+       "price": 23000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+냉짬뽕1",
+       "price": 27000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+짜장1",
+       "price": 21000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+짬뽕1",
+       "price": 23000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+간짜장1",
+       "price": 23000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+볶음밥1",
+       "price": 23000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+잡채밥1",
+       "price": 23000
+      },
+      {
+       "category": "칠리세트",
+       "name": "칠리탕수육+쟁반짜장1",
+       "price": 26000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CACNEVB7W",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "계절특미",
+       "name": "밀면",
+       "price": 9000
+      },
+      {
+       "category": "계절특미",
+       "name": "비빔밀면",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "냉면",
+       "price": 9000
+      },
+      {
+       "category": "계절특미",
+       "name": "비빔냉면",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "콩국수",
+       "price": 9000
+      },
+      {
+       "category": "계절특미",
+       "name": "육개장",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "갈비탕",
+       "price": 10000
+      },
+      {
+       "category": "계절특미",
+       "name": "냉짬뽕",
+       "price": 13000
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
@@ -1241,11 +1359,11 @@ window.MENU_REQUESTS = {
     "여기까지 매장메뉴",
     "여기부터 배달메뉴"
    ],
-   "rc": 4,
-   "lr": "1792391378.351859",
+   "rc": 5,
+   "lr": "1792392059.349549",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792391219797499"
   },
   {
