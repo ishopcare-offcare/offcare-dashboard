@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22943,
+  "version": 22944,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267197,12 +267197,41 @@ window.SLACK_DATA = {
     },
     "2026-10-20": {
       "counts": {
+        "extern": {
+          "김동욱": 1
+        },
+        "as": {
+          "김동욱": 1
+        },
         "menu": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "08:52",
+          "store": "꾹이네 돼지불백",
+          "biz": "8831802392",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "08:40",
+          "store": "컴포즈 성수코리아, HD올림픽, 인계점",
+          "biz": "",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "주문서에 오늘부터 판매하는 신메뉴 와플이 표기가 되지 않는다 하십니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "담당자님과 통화하였씁니다. / 엇 제가 방금 통화했는데 인입된거에여??? 3군데 모두 적용했어요! / 아아 전 적어주신 연락처로 안내드렸어요!",
+          "rr": 8
+        },
         {
           "time": "07:50",
           "store": "도야장",
@@ -267217,11 +267246,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:45"
+      "updatedAt": "08:53"
     }
   },
   "resp": {
@@ -267295,7 +267324,15 @@ window.SLACK_DATA = {
       },
       "1792453501.378839": {
         "post": "1792453501.378839",
-        "lastSeen": 1792453529.931
+        "lastSeen": 1792454029.049
+      },
+      "1792454015.813829": {
+        "post": "1792454015.813829",
+        "lastSeen": 1792454029.049
+      },
+      "1792454003.113459": {
+        "post": "1792454003.113459",
+        "lastSeen": 1792454029.049
       }
     },
     "days": {
@@ -361813,13 +361850,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 08:45",
+    "at": "2026-10-20 08:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4639,
+    "rows": 4640,
     "named": 1225,
     "unknownName": 102,
     "beforeStart": 0,
@@ -361947,7 +361984,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 08:45",
+    "at": "2026-10-20 08:53",
     "pri": {
       "days": 0,
       "failed": [],
