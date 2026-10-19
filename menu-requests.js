@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3769,
- "updatedAt": "2026-10-19 14:20",
+ "version": 3770,
+ "updatedAt": "2026-10-19 14:36",
  "days": 30,
  "items": [
+  {
+   "ts": "1792388209.083609",
+   "date": "2026-10-19",
+   "time": "14:36",
+   "store": "초대장: 이동포함 아이샵케어",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 초대장: (이동포함) 아이샵케어 메뉴등록 다운로드 - 2026년 10월 21일 (수) 오후 12시 - 오후 3시 (GMT+9) (<mailto:···|···>)\n(이동포함) 아이샵케어 메뉴등록 다운로드\n 2026년 10월 21일 (수요일) ⋅ 오후 12시 – 오후 3시\n 한국 표준시 - 서울\n \n 위치\n 아이콘역삼빌딩, 대한민국 서울특별시 강남구 역삼2동 706-19\t\n <https://www.google.com/maps/search/%EC%95%84%EC%9D%B4%EC%BD%98%EC%97%AD%EC%82%BC%EB%B9%8C%EB%94%A9,+%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a152a71f341d93d>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a152a71f341d93d",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792388209083609"
+  },
   {
    "ts": "1792387175.934819",
    "date": "2026-10-19",
