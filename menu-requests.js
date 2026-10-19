@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3782,
- "updatedAt": "2026-10-19 16:53",
+ "version": 3783,
+ "updatedAt": "2026-10-19 16:56",
  "days": 30,
  "items": [
   {
@@ -20,12 +20,14 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792396407.564869",
+   "replies": [
+    "• *메뉴 생성*\n    ◦ [ 점심 특선 ] 카테고리에\n    ◦ 샤브전골 12,900원 추가\n-----\n• *메뉴 이동*\n    ◦ <제육볶음>\n    ◦ [ 사이드 메뉴 ] 카테고리에 있던 메뉴를\n    ◦ [ 점심 특선 ] 카테고리로 이동\n-----\n• *메뉴 복사*\n    ◦ *<차돌 된장찌개>* & *<차돌 순두부찌개>*\n    ◦ [ 사이드 메뉴 ] 카테고리에 있던 메뉴를\n    ◦ [ 점심 특선 ] 카테고리에 새로 생성"
+   ],
+   "rc": 2,
+   "lr": "1792396545.419419",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792396402985349"
   },
   {
