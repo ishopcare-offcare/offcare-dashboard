@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3768,
- "updatedAt": "2026-10-19 12:16",
+ "version": 3769,
+ "updatedAt": "2026-10-19 14:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1792387175.934819",
+   "date": "2026-10-19",
+   "time": "14:19",
+   "store": "어웨이브(행사용)",
+   "biz": "3302101827",
+   "pos": "토스포스",
+   "content": "에그타르트 1박스 14000원\n에그타르트 3800원\n어웨이브 엽서 1000원\n어웨이브 자석 1500원",
+   "special": "렌탈 신규입니다!",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792387175934819"
+  },
   {
    "ts": "1792379569.751919",
    "date": "2026-10-19",
