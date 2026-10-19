@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3781,
- "updatedAt": "2026-10-19 15:42",
+ "version": 3782,
+ "updatedAt": "2026-10-19 16:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1792396402.985349",
+   "date": "2026-10-19",
+   "time": "16:53",
+   "store": "대패삼국지 창원중앙역점",
+   "biz": "2191102874",
+   "pos": "퍼스트포스",
+   "content": "(유플러스) 키오스크 사용중 / 포스 및 키오스크 메뉴 가격 수정 요청드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792396407.564869",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792396402985349"
+  },
   {
    "ts": "1792391219.797499",
    "date": "2026-10-19",
