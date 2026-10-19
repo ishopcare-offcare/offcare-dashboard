@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22490,
+  "version": 22491,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264328,11 +264328,12 @@ window.SLACK_DATA = {
           "심성현": 2,
           "김동욱": 1
         },
+        "onboarding": {
+          "배선유": 1,
+          "심성현": 1
+        },
         "extern": {
           "서상원": 1
-        },
-        "onboarding": {
-          "심성현": 1
         }
       },
       "pending": [],
@@ -264371,6 +264372,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "단말기 미설치 / 지금은 잘 됨 / 지 혼자 계속 똑같은 부분이 따다닥 터치 됨 / 일시적인 문제 or 기기 불량일 수 있으니 일단 조금 써보고(지금은 잘됨) 똑같은 증상시 바로 기기 교체 해주기로 함",
           "rr": 2
+        },
+        {
+          "time": "09:57",
+          "store": "오늘,채움",
+          "biz": "1032702041",
+          "cat": "onboarding",
+          "emp": "배선유",
+          "req": "프2터2 온보딩 요청드립니다",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
         },
         {
           "time": "09:45",
@@ -264458,10 +264470,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 10,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:00",
+      "updatedAt": "10:11",
       "voc": {
         "responses": 2,
         "install": {
@@ -264596,17 +264608,21 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792372094.81,
+        "lastSeen": 1792372307.184,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
       },
       "1792371180.601519": {
         "post": "1792371180.601519",
-        "lastSeen": 1792372094.81,
+        "lastSeen": 1792372307.184,
         "r": 1,
         "day": "2026-10-19",
         "idx": 4
+      },
+      "1792372297.583839": {
+        "post": "1792372297.583839",
+        "lastSeen": 1792372307.184
       }
     },
     "days": {
@@ -357770,7 +357786,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 10:08",
+    "at": "2026-10-19 10:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357904,7 +357920,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 10:08",
+    "at": "2026-10-19 10:11",
     "pri": {
       "days": 0,
       "failed": [],
