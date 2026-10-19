@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3761,
- "updatedAt": "2026-10-19 10:44",
+ "version": 3762,
+ "updatedAt": "2026-10-19 10:45",
  "days": 30,
  "items": [
   {
@@ -18,16 +18,24 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "주식회사 서브원 (부산) (X)__상품목록-261019104319.xls",
+     "fid": "F0CB1U4JF8Q",
+     "from": "댓글",
+     "path": "menu-files/1792372786_845139-0.xlsx",
+     "nj": 1
+    }
+   ],
    "datt": [],
    "replies": [
     "님 위 번호가 다이렉트 번호라고 하셨어요~~"
    ],
-   "rc": 6,
-   "lr": "1792374238.498259",
+   "rc": 7,
+   "lr": "1792374306.690519",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792372786845139"
   },
   {
