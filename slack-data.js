@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22473,
+  "version": 22474,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -264322,6 +264322,7 @@ window.SLACK_DATA = {
         },
         "as": {
           "심성현": 2,
+          "김동욱": 1,
           "김현기": 2
         },
         "onboarding": {
@@ -264352,6 +264353,18 @@ window.SLACK_DATA = {
           "intake": "offline",
           "note": "인터넷 장비 모두 연결 불가 / 통신사 통화 안내",
           "rr": 2
+        },
+        {
+          "time": "09:30",
+          "store": "이름 없다",
+          "biz": "8870603221",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포프+유프 인데 이전에 온보딩완료해서 사용중에 있으시다가 노트북이 고장나서 핸드폰으로 다시 온보딩을 상태였으나, 노트북 새로 구비하셔서 핸드폰-&gt;노트북 재 온보딩 요청 주셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "노트북 재온보딩 완료. 배달앱은 점주님이 ID/PW를 모르셔서 연동방법 안내드림",
+          "rr": 1
         },
         {
           "time": "09:15",
@@ -264403,7 +264416,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 1,
         "unknown": 0
       },
@@ -264512,7 +264525,7 @@ window.SLACK_DATA = {
       },
       "1792369189.246859": {
         "post": "1792369189.246859",
-        "lastSeen": 1792370800.229,
+        "lastSeen": 1792370927.165,
         "r": 1,
         "day": "2026-10-19",
         "idx": 2
@@ -357653,7 +357666,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-19 09:46",
+    "at": "2026-10-19 09:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -357787,7 +357800,7 @@ window.SLACK_DATA = {
     "2026-10-19": 2
   },
   "noteMig": {
-    "at": "2026-10-19 09:46",
+    "at": "2026-10-19 09:48",
     "pri": {
       "days": 0,
       "failed": [],
