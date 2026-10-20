@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3848,
- "updatedAt": "2026-10-20 16:19",
+ "version": 3849,
+ "updatedAt": "2026-10-20 16:23",
  "days": 30,
  "items": [
   {
@@ -173,7 +173,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CAPHY7KFW",
      "from": "댓글",
-     "path": "menu-files/1792480035_018299-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -227,13 +226,13 @@ window.MENU_REQUESTS = {
        "price": 10000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792480035_018299-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CAPHYNQ3E",
      "from": "댓글",
-     "path": "menu-files/1792480035_018299-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -302,6 +301,167 @@ window.MENU_REQUESTS = {
        "price": 12000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792480035_018299-3.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAKNAGG74",
+     "from": "댓글",
+     "path": "menu-files/1792480035_018299-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료메뉴",
+       "name": "칠성사이다 500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료메뉴",
+       "name": "코카콜라 500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료메뉴",
+       "name": "코카콜라1.25L",
+       "price": 3000
+      },
+      {
+       "category": "음료메뉴",
+       "name": "음료수",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CADM04DLK",
+     "from": "댓글",
+     "path": "menu-files/1792480035_018299-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "쟁반국수(소)",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "쟁반국수(중)",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "쟁반국수(대)",
+       "price": 20000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "족발고기추가",
+       "price": 18000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "보쌈고기추가",
+       "price": 18000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "숯불직화구이200g",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "숯불직화구이400g",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "날치알주먹밥",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "약국수",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "물냉면",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "비빔냉면",
+       "price": 8000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "굴라면",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "왕대라면",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "통영굴",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "한우국밥",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "무김치추가",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "겉절이추가",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "무김치+겉절이추가",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "도시락추가",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "고기왕만두4p",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "김치왕만두4p",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "갈비만두4p",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "상추추가",
+       "price": 1000
+      }
+     ],
      "v": 2
     }
    ],
@@ -309,8 +469,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "사이드랑 주류는 안보내줘서 일 단 이것만"
    ],
-   "rc": 4,
-   "lr": "1792480751.146429",
+   "rc": 5,
+   "lr": "1792481004.065749",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -1039,8 +1199,8 @@ window.MENU_REQUESTS = {
     "메뉴",
     "옵션"
    ],
-   "rc": 12,
-   "lr": "1792476199.824009",
+   "rc": 13,
+   "lr": "1792480966.903669",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
