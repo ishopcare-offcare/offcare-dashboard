@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3829,
- "updatedAt": "2026-10-20 14:42",
+ "version": 3830,
+ "updatedAt": "2026-10-20 14:45",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,450 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "스크린샷 2026-10-20 143011.png",
+     "fid": "F0CAHA5896J",
+     "from": "댓글",
+     "path": "menu-files/1792474889_970389-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "음료 (5만원) (50,000원)",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "음료 (10만원) (100,000원)",
+       "price": 90000
+      },
+      {
+       "category": "",
+       "name": "3 (30,000원)",
+       "price": 27000
+      },
+      {
+       "category": "",
+       "name": "4만원 (40,000원)",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "20만원권 (220,000원)",
+       "price": 200000
+      },
+      {
+       "category": "",
+       "name": "5.5만원 (55,000원)",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "5천원권 (아... (5,000원)",
+       "price": 0
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 142810.png",
+     "fid": "F0CAD25Q2N7",
+     "from": "댓글",
+     "path": "menu-files/1792474889_970389-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "필터커피",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "카페 라떼",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "카푸치노",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "콜비 라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "플랫화이트",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "바닐라빈 라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "제로 바닐라 라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "메이플 오트 라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "돌체라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "* 카페 모카",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "버터스카치",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "호두 오트라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "아인슈페너",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 142929.png",
+     "fid": "F0CANVC7SG4",
+     "from": "댓글",
+     "path": "menu-files/1792474889_970389-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "* 우베 클라우드",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "미숫가루 라떼",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "호두라떼",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "* 베리 클라우디",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "* 제로 자몽허니 블랙티",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "* 유자 스쿼시",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "콘슈페너",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "그라니따",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "밀크티 딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "말차 딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "* 리얼딸기라떼",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "* 아이스티",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "말차라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "밀크티",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "초코라떼",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 142935.png",
+     "fid": "F0CAM5YJHND",
+     "from": "댓글",
+     "path": "menu-files/1792474889_970389-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "* 우베 롤케이크",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "* 상하이 버터떡 3개",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "* 두쫀쿠 선불권 이용고객",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "* 4구 포장",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "* 두바이초코딸기",
+       "price": 9600
+      },
+      {
+       "category": "",
+       "name": "* 두바이초코보틀케이크",
+       "price": 20500
+      },
+      {
+       "category": "",
+       "name": "두바이초코바스크",
+       "price": 23500
+      },
+      {
+       "category": "",
+       "name": "* 두쫀쿠",
+       "price": 6300
+      },
+      {
+       "category": "",
+       "name": "당근케이크",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "* 선물세트",
+       "price": 0
+      },
+      {
+       "category": "",
+       "name": "* 쫀득쿠키",
+       "price": 8900
+      },
+      {
+       "category": "",
+       "name": "쿠키",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "학생 할인 쿠키",
+       "price": 1500
+      },
+      {
+       "category": "",
+       "name": "보틀쿠키",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "스콘",
+       "price": 0
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 142711.png",
+     "fid": "F0CAM5YLJ5P",
+     "from": "댓글",
+     "path": "menu-files/1792474889_970389-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "클래스",
+       "name": "* 유치부",
+       "price": 60000
+      },
+      {
+       "category": "클래스",
+       "name": "* 초등부",
+       "price": 70000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 142922.png",
+     "fid": "F0CANVDG71A",
+     "from": "댓글",
+     "path": "menu-files/1792474889_970389-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "파리 블랜디드 (블랙티,바닐...",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "블루베리 그린 블랜디드",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "옐로우 &블루 블랜디드",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "페퍼민트",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "유자차",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "* 아이스티",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 142942.png",
+     "fid": "F0CAE0F4AUV",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "* 디카페인",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "소호",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "* 센트럴파크",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "* 첼시 (예가체프)",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143000.png",
+     "fid": "F0CANVDA684",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "머그컵",
+       "price": 14000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143049.png",
+     "fid": "F0CAK3HG0F4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143102.png",
+     "fid": "F0CA3TBM007",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143119.png",
+     "fid": "F0CAM5ZMQ0Z",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143129.png",
+     "fid": "F0CA3TC55FH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792474893.205869",
+   "replies": [
+    "메뉴",
+    "옵션"
+   ],
+   "rc": 3,
+   "lr": "1792474992.158459",
    "rfx": 3,
    "status": "wait",
    "handler": null,
