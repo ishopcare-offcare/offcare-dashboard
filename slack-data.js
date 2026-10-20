@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22957,
+  "version": 22958,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267409,7 +267409,10 @@ window.SLACK_DATA = {
       },
       "1792455679.637869": {
         "post": "1792455679.637869",
-        "lastSeen": 1792455708.109
+        "lastSeen": 1792455779.182,
+        "r": 1,
+        "day": "2026-10-20",
+        "idx": 3
       }
     },
     "days": {
@@ -361909,8 +361912,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-20": {
-        "cnt": 3,
-        "sumMin": 38.99871638218562,
+        "cnt": 4,
+        "sumMin": 40.06551023324331,
         "over": 0,
         "items": [
           {
@@ -361939,13 +361942,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "transfer",
             "dmin": 27.6
+          },
+          {
+            "hm": "09:21",
+            "min": 1.1,
+            "store": "하프카페(Half cafe)",
+            "biz": "6490304082",
+            "who": "고경림",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:21",
+    "at": "2026-10-20 09:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362079,7 +362090,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:21",
+    "at": "2026-10-20 09:22",
     "pri": {
       "days": 0,
       "failed": [],
