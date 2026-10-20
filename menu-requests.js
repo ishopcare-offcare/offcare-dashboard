@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3797,
- "updatedAt": "2026-10-20 09:51",
+ "version": 3798,
+ "updatedAt": "2026-10-20 09:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1792457632.565189",
+   "date": "2026-10-20",
+   "time": "09:53",
+   "store": "대패삼국지 창원중앙역점",
+   "biz": "2191102874",
+   "pos": "퍼스트포스",
+   "content": "(유플러스) 키오스크 사용중 / 포스 및 키오스크 메뉴 가격 수정 요청드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "점심 특선 카테고리에 아래 2가지 메뉴 추가 부탁드립니다!\n• 죽 2,000원 \n• 고기 추가 100g 5,000원"
+   ],
+   "rc": 2,
+   "lr": "1792457659.020759",
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792457632565189"
+  },
   {
    "ts": "1792457385.574329",
    "date": "2026-10-20",
@@ -39,11 +62,255 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "스크린샷 2026-10-20 094516.png",
+     "fid": "F0CBC4JTA72",
+     "from": "댓글",
+     "path": "menu-files/1792457155_440889-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Options",
+       "name": "Hot",
+       "price": 0
+      },
+      {
+       "category": "Options",
+       "name": "Ice",
+       "price": 0
+      },
+      {
+       "category": "Options",
+       "name": "Takeout",
+       "price": 0
+      },
+      {
+       "category": "Options",
+       "name": "연하게",
+       "price": 0
+      },
+      {
+       "category": "Options",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "Options",
+       "name": "오트밀크",
+       "price": 500
+      },
+      {
+       "category": "Options",
+       "name": "디카페인",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 094542.png",
+     "fid": "F0CAHHHSCUA",
+     "from": "댓글",
+     "path": "menu-files/1792457155_440889-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "Hotdog",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "시나몬 롤",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "바닐라 아이스크림",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "초코 아이스크림",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "프렌치 토스트 1/2",
+       "price": 8500
+      },
+      {
+       "category": "",
+       "name": "프렌치 토스트&아이스크림",
+       "price": 10500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 094600.png",
+     "fid": "F0CABG7URDZ",
+     "from": "댓글",
+     "path": "menu-files/1792457155_440889-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "하이볼",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "바르셀로나",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "오또",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "비안코",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "비안코 바틀",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "오또벤티 바틀",
+       "price": 60000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 094627.png",
+     "fid": "F0CA2BZ1MMM",
+     "from": "댓글",
+     "path": "menu-files/1792457155_440889-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "Seycoffee_Colombia...",
+       "price": 32000
+      },
+      {
+       "category": "",
+       "name": "일자컵",
+       "price": 33000
+      },
+      {
+       "category": "",
+       "name": "머그컵",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "핀버튼",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 094445.png",
+     "fid": "F0CAME0PWPN",
+     "from": "댓글",
+     "path": "menu-files/1792457155_440889-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "필터",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "",
+       "name": "에스프레소",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "아메리카노",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "플랫화이트",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "카푸치노 (only hot)",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "바닐라 라떼",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "림보라떼",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "림보 커피",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "오랜지레몬에이드",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "루이보스 티",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "잉글리쉬 블랙퍼스트 티",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 094702.png",
+     "fid": "F0CBC4KSRL0",
+     "from": "댓글",
+     "path": "menu-files/1792457155_440889-5.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 095151.png",
+     "fid": "F0CAMEECHM2",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792457444.771689",
+   "rc": 3,
+   "lr": "1792457597.513259",
    "rfx": 3,
    "status": "confirm",
    "handler": "김동욱",
