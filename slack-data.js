@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22952,
+  "version": 22953,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267204,6 +267204,9 @@ window.SLACK_DATA = {
         "extern": {
           "김동욱": 1
         },
+        "transfer": {
+          "고경림": 1
+        },
         "menu": {
           "김동욱": 2
         }
@@ -267279,6 +267282,17 @@ window.SLACK_DATA = {
           "note": ""
         },
         {
+          "time": "08:45",
+          "store": "아나톨리아 케밥",
+          "biz": "5945101068",
+          "cat": "transfer",
+          "emp": "고경림",
+          "req": "10월 20일 오전 9시 / 메뉴 복사 O / 프론트, 태블릿, 유프, 금전함",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
           "time": "08:40",
           "store": "컴포즈 성수코리아, HD올림픽, 인계점",
           "biz": "",
@@ -267288,7 +267302,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "담당자님과 통화하였씁니다. / 엇 제가 방금 통화했는데 인입된거에여??? 3군데 모두 적용했어요! / 아아 전 적어주신 연락처로 안내드렸어요!",
-          "rr": 9
+          "rr": 10
         },
         {
           "time": "07:50",
@@ -267304,7 +267318,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 0,
         "unknown": 0
       },
@@ -267380,16 +267394,9 @@ window.SLACK_DATA = {
         "post": "1792422036.658939",
         "lastSeen": 1792440926.999
       },
-      "1792453501.378839": {
-        "post": "1792453501.378839",
-        "lastSeen": 1792454989.619,
-        "r": 1,
-        "day": "2026-10-20",
-        "idx": 2
-      },
       "1792454599.052099": {
         "post": "1792454599.052099",
-        "lastSeen": 1792454989.619,
+        "lastSeen": 1792455325.129,
         "r": 1,
         "day": "2026-10-20",
         "idx": 1
@@ -361919,22 +361926,23 @@ window.SLACK_DATA = {
             "store": "아나톨리아 케밥",
             "biz": "5945101068",
             "who": "고경림",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 27.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:10",
+    "at": "2026-10-20 09:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4640,
+    "rows": 4641,
     "named": 1225,
-    "unknownName": 102,
+    "unknownName": 112,
     "beforeStart": 0,
     "done": 1225,
     "byStatus": {
@@ -362060,7 +362068,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:09",
+    "at": "2026-10-20 09:15",
     "pri": {
       "days": 0,
       "failed": [],
