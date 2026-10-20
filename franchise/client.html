@@ -563,7 +563,7 @@ function buildFromClientData(){
     time  : r.time || '',
     store : r.store || '',
     branch: r.branch ? String(r.branch).trim() : deriveBranch(r.store),
-    biz   : String(r.biz||'').replace(/\D/g,''),
+    biz   : String(r.biz||'').replace(/[^\d*]/g,''),   // 공개 데이터는 앞 5자리 + *****
     cat   : r.cat,
     emp   : r.emp || '미지정',
     intake: INTAKE_MAP[r.intake] ? r.intake : 'unknown',
@@ -594,7 +594,7 @@ function buildFromSlack(){
       out.push({
         date:date, time:r.time||'', store:r.store||'',
         branch: BrandMatch.branchOf(r.store||'', m.hit),
-        biz:String(r.biz||'').replace(/\D/g,''), cat:r.cat||'',
+        biz:String(r.biz||'').replace(/[^\d*]/g,''), cat:r.cat||'',
         emp:r.emp||'미지정',
         intake: INTAKE_MAP[r.intake] ? r.intake : 'unknown',
         status:'done', req:r.req||'', note:r.note||'',
@@ -607,7 +607,7 @@ function buildFromSlack(){
       out.push({
         date:date, time:r.time||'', store:r.store||'',
         branch: BrandMatch.branchOf(r.store||'', m.hit),
-        biz:String(r.biz||'').replace(/\D/g,''), cat:r.cat||'',
+        biz:String(r.biz||'').replace(/[^\d*]/g,''), cat:r.cat||'',
         emp:r.handler||'미지정',
         intake: INTAKE_MAP[r.intake] ? r.intake : 'unknown',
         status:'pending', req:(r.reasons||[]).join(', '), note:'',
@@ -1425,7 +1425,7 @@ function mergeVisits(){
       time  : v.time || '',
       store : v.store || '',
       branch: BrandMatch.branchOf(v.store || '', m.hit),
-      biz   : String(v.biz || '').replace(/\D/g, ''),
+      biz   : String(v.biz || '').replace(/[^\d*]/g, ''),
       cat   : 'visit',
       emp   : v.assignee || '미지정',   /* 요청자로 대체하지 않는다 — 접수자 ≠ 방문 담당 */
       intake: 'unknown',
@@ -1890,7 +1890,7 @@ function viewEquip(){
   const sel = equipSel ? all.find(s => s.branch === equipSel) : null;
   if(sel) return h + equipDetail(sel);
 
-  const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '');
+  const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '').slice(0, 5);   /* 사업자번호는 앞 5자리만 공개 */
   let list = all.filter(s => !q || BrandMatch.keyOf(s.branch + ' ' + s.store).indexOf(q) >= 0
                                || (qd.length >= 3 && String(s.biz).indexOf(qd) >= 0));
   list.forEach(s => { s.inv = equipInventory(s.evs, s.branch).filter(o => !o.hidden); s.last = s.evs.length ? s.evs[0].date : ''; });

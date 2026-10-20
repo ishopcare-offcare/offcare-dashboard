@@ -29,6 +29,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { maskKeyTail } = require('./pii-mask');   // 키 끝 칸이 사업자번호 — 가려서 싣는다
 const { spawnSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
@@ -170,7 +171,7 @@ fs.writeFileSync(OUT, JSON.stringify({
   from: DAYS[0], to: DAYS[DAYS.length - 1],
   builtAt: new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 16).replace('T', ' ') + ' KST',
   note: 'git 히스토리의 slack-data.js 스냅샷을 비교해 복원한 완료 이모지 시각 (scripts/mine-emoji-times.js)',
-  items,
+  items: Object.fromEntries(Object.entries(items).map(([k, v]) => [maskKeyTail(k), v])),
 }), 'utf8');
 
 console.log(`\n복원 ${Object.keys(items).length}건 · 측정 불가 ${baselineSkipped}건(관찰 시작 때 이미 완료) · 버림 ${dropped}건`);

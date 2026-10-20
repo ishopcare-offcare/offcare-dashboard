@@ -449,7 +449,7 @@ async function loadVisits(){
       date  : String(v.date).slice(0,10),
       time  : v.time || '',
       store : v.store || '',
-      biz   : String(v.biz||'').replace(/\D/g,''),
+      biz   : String(v.biz||'').replace(/[^\d*]/g,''),   // 공개 데이터는 앞 5자리 + *****
       cat   : 'visit',
       emp   : v.assignee || '미지정',
       req   : '[' + (v.kind || '기타') + ']' + (v.visitDate ? ' 방문 ' + v.visitDate : ''),
@@ -500,7 +500,7 @@ async function loadClientLedgers(){
         date  : String(r.date).slice(0,10),
         time  : r.time || '',
         store : r.store || '',
-        biz   : String(r.biz||'').replace(/\D/g,''),
+        biz   : String(r.biz||'').replace(/[^\d*]/g,''),
         cat   : r.cat,
         emp   : r.emp || '미지정',
         req   : r.req || '', hw:'', note:r.note || '',

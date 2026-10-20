@@ -12,6 +12,7 @@
  * 백필본에서 그 날을 못 읽었던 경우(기존 값 보존으로 건너뜀)는 최신본과 같거나 더 오래된 값이라 그대로 덮어도 된다.
  */
 const fs = require('fs');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 const [, , bfPath, outPath, from] = process.argv;
 if (!bfPath || !outPath || !/^\d{4}-\d{2}-\d{2}$/.test(from || '')) {
   console.error('사용법: node scripts/merge-backfill.js <백필본> <최신본> <YYYY-MM-DD>');
@@ -43,5 +44,6 @@ for (const d of Object.keys(bf.days)) {
 data.version = Math.max(data.version || 0, bf.version || 0) + 1;
 // 머리말은 최신본 그대로 쓴다(fetch-and-tally.js 와 같은 형식 유지)
 const header = latest.text.slice(0, latest.text.indexOf('window.SLACK_DATA'));
+maskDeep(data);
 fs.writeFileSync(outPath, header + 'window.SLACK_DATA = ' + JSON.stringify(data, null, 2) + ';\n', 'utf8');
 console.log(`백필 병합: ${from} ~ ${cutoff} 전날까지 ${replaced}일 교체 (최근 ${RECENT_DAYS}일은 최신 집계 유지) · version=${data.version}`);

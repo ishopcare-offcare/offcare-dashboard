@@ -2580,20 +2580,25 @@ function menuregItems(){ return (window.MENU_REQUESTS&&window.MENU_REQUESTS.item
 // ── 매장 메모 (팀 공유: 클라우드 동기화) — 사용 프로그램·ASP 계정 등. 키=사업자번호(없으면 상호)
 const LS_MENUMEMO = "opcare_menumemo_v1";
 let MENUMEMO = load(LS_MENUMEMO, {});   // { "<사업자번호|상호>": "메모" }
-function menuregMemoKey(it){ return (it&&(it.biz||it.store))||''; }
+// 사업자번호는 공개 데이터에서 앞 5자리만 남는다(2026-10-20) — 여러 매장이 겹칠 수 있어 상호까지 붙여 키로 쓴다.
+function menuregMemoKey(it){ if(!it) return ''; return it.biz ? it.biz+'|'+(it.store||'') : (it.store||''); }
+// 그 전에 원본 10자리로 저장된 메모 — 앞자리가 같은 옛 키가 딱 하나일 때만 이어서 보여준다
+function menuregMemoLegacyKey(it){ const b=String((it&&it.biz)||''); if(b.indexOf('*')<0) return ''; const p=b.replace(/\*/g,''); const ks=Object.keys(MENUMEMO).filter(k=>/^\d{10}$/.test(k)&&k.slice(0,p.length)===p&&MENUMEMO[k]); return ks.length===1?ks[0]:''; }
+function menuregMemoGet(it){ const k=menuregMemoKey(it); if(k&&MENUMEMO[k]) return MENUMEMO[k]; const lk=menuregMemoLegacyKey(it); return lk?MENUMEMO[lk]:''; }
 function menuregMemoSave(){
   const it=menuregItems().find(i=>i.ts===menuregSel); if(!it) return;
   const k=menuregMemoKey(it); if(!k){ alert('사업자번호/상호가 없어 메모를 저장할 수 없습니다.'); return; }
   const v=(document.getElementById('mrMemo').value||'').trim();
   if(v) MENUMEMO[k]=v; else delete MENUMEMO[k];
-  save(LS_MENUMEMO,MENUMEMO); pushPatch({menuMemo:{[k]:v}});   // 삭제도 ''(묘비) — 타 브라우저 복원 방지
+  const mp={[k]:v}, lk=menuregMemoLegacyKey(it); if(lk){ delete MENUMEMO[lk]; mp[lk]=''; }   // 옛 키는 새 키로 옮기고 묘비
+  save(LS_MENUMEMO,MENUMEMO); pushPatch({menuMemo:mp});   // 삭제도 ''(묘비) — 타 브라우저 복원 방지
   renderMenuReg();
 }
 // ── 매장조회(검색) — 상호 또는 사업자번호
 let menuregSearch='';
 function menuregFiltered(){
   const all=menuregItems();
-  const q=(menuregSearch||'').trim().toLowerCase(), qd=q.replace(/[^0-9]/g,'');
+  const q=(menuregSearch||'').trim().toLowerCase(), qd=q.replace(/[^0-9]/g,'').slice(0,5);   // 사업자번호는 앞 5자리만 공개
   let items=q?all.filter(i=>((i.store||'').toLowerCase().includes(q))||(qd.length>=3&&String(i.biz||'').includes(qd))):all;
   if(menuregFilter!=='all') items=items.filter(i=>i.status===menuregFilter);
   return {all,items};
@@ -2607,7 +2612,7 @@ function menuregSetSearch(v){   // 입력 중 포커스 유지 위해 목록만 
 function menuregRowsHtml(items){
   return items.length?items.map(i=>{
     const st=MENUREG_ST[i.status]||MENUREG_ST.wait;
-    const memo=MENUMEMO[menuregMemoKey(i)];
+    const memo=menuregMemoGet(i);
     return `<div class="mr-row" onclick="menuregSelect('${i.ts}')" style="display:flex;gap:10px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--line,#eee);cursor:pointer;${i.ts===menuregSel?'background:rgba(94,92,230,.08);':''}">
       <span style="font-size:12px;color:#888;white-space:nowrap">${i.date.slice(5)} ${i.time}</span>
       <b style="flex:0 0 auto;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${i.mail?'<span title="메일 접수">📧</span> ':''}${escapeHtml(i.store||'(상호미상)')}</b>
@@ -3240,7 +3245,7 @@ function renderMenuReg(){
   const chips=[['all','전체 '+all.length],['wait','⏳ 대기 '+cnt('wait')],['confirm','🔎 확인중 '+cnt('confirm')],['done','✅ 완료 '+cnt('done')],['dup','🔁 중복 '+cnt('dup')]]
     .map(([k,l])=>`<button class="btn" style="${menuregFilter===k?'background:var(--blue);color:#fff;border-color:var(--blue)':''}" onclick="menuregSetFilter('${k}')">${l}</button>`).join(' ');
   const sel=all.find(i=>i.ts===menuregSel);
-  const memoVal=sel?(MENUMEMO[menuregMemoKey(sel)]||''):'';
+  const memoVal=sel?menuregMemoGet(sel):'';
   const rows=menuregRowsHtml(items);
   const detail=sel?`
     <div class="card">
@@ -5582,7 +5587,7 @@ let ssBackQ='', ssStoreList=[];   // 매장 하나를 골랐을 때 돌아갈 �
 function runStoreSearch(q,exact){
   const body=document.getElementById('storeSearchBody'); if(!body) return;
   q=(q||'').trim(); if(q.length<2){ body.innerHTML='<div class="empty-note">두 글자 이상 입력하세요.</div>'; return; }
-  const ql=q.toLowerCase(), bizQ=q.replace(/[^0-9]/g,'');
+  const ql=q.toLowerCase(), bizQ=q.replace(/[^0-9]/g,'').slice(0,5);   // 사업자번호는 앞 5자리만 공개
   // 사업자번호가 빈 옛 기록(슬랙 tel 링크로 못 읽은 명의변경 등)은 같은 상호의 다른 기록 번호로 보완 — 번호가 하나뿐일 때만
   const normStore=s=>(s||'').replace(/\s+/g,'').toLowerCase(), storeBiz={};
   for(const d of allSlackDates()){ const dd=slackDay(d)||{}; [...(dd.done||[]),...(dd.pending||[])].forEach(x=>{ if(x.biz&&x.store){ const k=normStore(x.store); (storeBiz[k]=storeBiz[k]||new Set()).add(String(x.biz)); } }); }
@@ -5601,7 +5606,7 @@ function runStoreSearch(q,exact){
   const stores=[...new Set(rows.map(r=>r.store).filter(Boolean))];
   const catChips=WORK_CATS.map(c=>byCat[c.key]?`<span class="ss-chip">${c.icon} ${c.name} <b>${byCat[c.key]}</b></span>`:'').filter(Boolean).join('')+(vocN?`<span class="ss-chip">💬 VOC저점 <b>${vocN}</b></span>`:'');
   // 팀뷰어는 매장 단위 정보라, 그 건에 없으면 같은 매장(사업자번호, 없으면 상호)의 가장 최근 값을 보여준다
-  const tvKey=r=>bizOf(r.store,r.biz)||normStore(r.store), tvByStore={};
+  const tvKey=r=>{ const b=bizOf(r.store,r.biz); return (b?b+'|':'')+normStore(r.store); }, tvByStore={};   // 가린 번호는 겹칠 수 있어 상호까지
   rows.forEach(r=>{ if(r.tv){ const k=tvKey(r); if(!tvByStore[k]) tvByStore[k]=r; } });
   const tvLast=rows.find(r=>r.tv);
   const byStore={}; rows.forEach(r=>{ const k=tvKey(r); const o=byStore[k]||(byStore[k]={store:r.store,biz:bizOf(r.store,r.biz),n:0}); o.n++; });   // 최신순이라 store = 가장 최근 상호
@@ -5614,7 +5619,7 @@ function runStoreSearch(q,exact){
 }
 // 팀뷰어 ID — 슬랙 스레드 댓글 '팀뷰어 ID : …' 에서 적재(fetch-and-tally parseTv, PW 는 공개 저장소라 싣지 않음). 클릭하면 복사
 function ssPickStore(i){ const o=ssStoreList[i]; if(!o) return; const inp=document.getElementById('storeSearchBox');
-  if(!ssBackQ) ssBackQ=inp?inp.value:''; const v=o.biz||o.store||''; if(inp) inp.value=v; runStoreSearch(v, o.biz?undefined:o.store);
+  if(!ssBackQ) ssBackQ=inp?inp.value:''; const v=o.store||o.biz||''; if(inp) inp.value=v; runStoreSearch(v, o.store);   // 번호(앞 5자리)로 찾으면 다른 매장이 섞인다
   const sc=document.getElementById('storeSearchBody'); if(sc) sc.scrollTop=0; }
 function ssBack(){ const q=ssBackQ; ssBackQ=''; const inp=document.getElementById('storeSearchBox'); if(inp) inp.value=q; runStoreSearch(q); }
 function ssTvHtml(tv,br){ const one=(k,v)=>v?`<span class="ss-tv-v" data-c="${escapeHtml(v)}" onclick="ssCopy(this)" title="클릭해서 복사">${k} <b>${escapeHtml(v)}</b></span>`:''; return one('ID',tv.id); }

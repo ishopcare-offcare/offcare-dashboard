@@ -6,6 +6,7 @@
  * --write 하면 slack-data.js 의 days["YYYY-MM-DD"] 항목을 추가/갱신하고 version 을 +1 합니다.
  */
 const fs = require('fs');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 const file = process.argv[2];
 const targetDate = process.argv[3];
 const writeIdx = process.argv.indexOf('--write');
@@ -92,6 +93,7 @@ if (outPath) {
   data.days[targetDate] = dayEntry;       // 해당 날짜 추가/갱신
   data.version = (data.version || 0) + 1;  // 브라우저 재반영용 버전 증가
   const header = '/*\n * 슬랙 #0_원격_as_요청 채널 집계 데이터 (날짜별 누적)\n * /원격집계 스킬이 매일 days["YYYY-MM-DD"] 항목을 추가/갱신합니다.\n */\n';
+  maskDeep(data);
   fs.writeFileSync(outPath, header + 'window.SLACK_DATA = ' + JSON.stringify(data, null, 2) + ';\n', 'utf8');
   console.log('\n✅ ' + outPath + ' 갱신 완료 (version=' + data.version + ', 누적 날짜: ' + Object.keys(data.days).join(', ') + ')');
 } else {

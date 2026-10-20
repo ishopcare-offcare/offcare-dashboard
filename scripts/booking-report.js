@@ -24,6 +24,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 
 const TOKEN = process.env.SLACK_BOT_TOKEN;
 if (!TOKEN) { console.error('SLACK_BOT_TOKEN 환경변수가 필요합니다.'); process.exit(1); }
@@ -323,8 +324,9 @@ function timeStat(list, pick) {
       const invalid = names.includes('x');
 
       let store = (field(text, /상호\s*[:：]?\s*(.+)/) || field(text, /매장명\s*[:：]?\s*(.+)/)).split('/')[0].trim().slice(0, 40);
-      const biz = field(text, /사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/).replace(/-/g, '');
-      const req = field(text, /내용\s*[:：]?\s*(.+)/).slice(0, 120);
+      // slack-data.js·emoji-times.json 의 키도 가린 값이라 같은 모양으로 맞춰야 짝이 맞는다
+      const biz = maskBiz(field(text, /사업자\s*번?호?\s*[:：]?\s*([\d\-]+)/).replace(/-/g, ''));
+      const req = maskText(field(text, /내용\s*[:：]?\s*(.+)/).slice(0, 120));
 
       const row = {
         ch: ch.label, stamp: kstStamp(m.ts), date: kstStamp(m.ts).slice(0, 10), store, biz, req,

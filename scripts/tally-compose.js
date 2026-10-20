@@ -23,6 +23,7 @@
 const fs   = require('fs');
 const path = require('path');
 const vm   = require('vm');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 
 const ROOT = path.join(__dirname, '..');
 const FR   = path.join(ROOT, 'franchise');
@@ -76,13 +77,13 @@ function take(date, r, status, emp, req){
     time  : r.time || '',
     store : r.store || '',
     branch: BM.branchOf(r.store || '', m.hit),
-    biz   : String(r.biz || '').replace(/\D/g, ''),
+    biz   : maskBiz(r.biz || ''),
     cat   : cat,
     emp   : emp || '미지정',
     intake: r.intake || 'unknown',
     status: status,
-    req   : req || '',
-    note  : r.note || '',
+    req   : maskText(req || ''),
+    note  : maskText(r.note || ''),
   });
 }
 

@@ -7,6 +7,7 @@
  * 메뉴 항목의 세부 해석(가격표 초안)은 대시보드(브라우저)와 /메뉴판독 스킬에서 수행.
  */
 const fs = require('fs');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 const path = require('path');
 
 // 판독(API 호출) 오류로 메뉴 적재 자체가 멈추면 안 된다 — 판독 계열 오류만 조용히 흡수.
@@ -760,6 +761,7 @@ function detectPos(text) {
   }
   items.sort((a, b) => parseFloat(b.ts) - parseFloat(a.ts));
   const capped = items.slice(0, 800);
+  capped.forEach(it => maskDeep(it));   // 원문(content)에 사업자번호·연락처 폼·주소가 그대로 있다
 
   // 기존 파일과 내용 동일하면 rewrite 생략(불필요한 커밋 방지) · version 승계
   let version = 0, prevItems = null;

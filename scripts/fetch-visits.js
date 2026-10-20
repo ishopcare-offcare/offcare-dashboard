@@ -28,6 +28,7 @@
  */
 const fs   = require('fs');
 const path = require('path');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 
 const ROOT = path.join(__dirname, '..');
 const OUT  = path.join(ROOT, 'visit-data.js');
@@ -325,6 +326,8 @@ async function replies(ts){
   }
 
   recs.sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  /* 제외 판정(사업자번호 10자리)까지 끝난 뒤에 가린다 */
+  recs.forEach(r => maskDeep(r));
 
   const stamp = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ');
   const body = recs.map(r => '  ' + JSON.stringify(r) + ',').join('\n');

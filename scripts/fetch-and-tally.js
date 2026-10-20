@@ -4,6 +4,7 @@
  * 실행: node scripts/fetch-and-tally.js
  */
 const fs = require('fs');
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 
 const TOKEN = process.env.SLACK_BOT_TOKEN;
 const OUT = 'slack-data.js';
@@ -305,7 +306,7 @@ function parseBiz(text) {
   const m = t.match(/사업자\s*(?:등록)?\s*번?\s*호?\s*[:：]?\s*(\d[\d\- ]*)/);
   if (!m) return '';
   const d = m[1].replace(/\D/g, '');
-  return d.length >= 10 ? d.slice(0, 10) : d;
+  return maskBiz(d.length >= 10 ? d.slice(0, 10) : d);   // 키(time|store|biz|cat)도 가린 값으로 맞춘다
 }
 // 팀뷰어 ID — 스레드 댓글의 '팀뷰어 ID : 627830237' (작성자 무관, 마지막 값 우선).
 // PW 는 싣지 않는다 — 공개 저장소라 ID+PW 가 같이 있으면 누구나 매장에 원격접속할 수 있다(2026-10-12 결정)
@@ -746,6 +747,9 @@ async function tallyVoc(msgs, voc, channelId, opts) {
     const win = {};
     try { new Function('window', fs.readFileSync(OUT, 'utf8'))(win); if (win.SLACK_DATA) data = win.SLACK_DATA; } catch (e) {}
   }
+  // 예전 파일에 가리지 않은 값이 남아 있어도 여기서 가린다 — 새로 읽은 건(가린 biz)과 키가 맞아야
+  // 처리내역을 다시 부르지 않는다(재호출이 몰리면 429).
+  maskDeep(data);
   data.days = data.days || {};
 
   // ===== 업무 채널 집계 (백필이면 BACKFILL_FROM~오늘, 아니면 최근 3일 롤링) =====
@@ -1018,6 +1022,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
   console.log(`[완료] 업무 ${workDates.length}일 · VOC ${vocResTotal}응답/${vocDaysTouched}일 재집계`);
   data.version = (data.version || 0) + 1;
   const header = '/*\n * 슬랙 원격 처리 채널(AS요청·명의변경 등) 집계 데이터 (날짜별 누적)\n * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.\n */\n';
+  maskDeep(data);
   fs.writeFileSync(OUT, header + 'window.SLACK_DATA = ' + JSON.stringify(data, null, 2) + ';\n', 'utf8');
   console.log('✅ slack-data.js 갱신 (version=' + data.version + ', 누적: ' + Object.keys(data.days).join(', ') + ')');
 })().catch(e => { console.error(e.message); process.exit(1); });

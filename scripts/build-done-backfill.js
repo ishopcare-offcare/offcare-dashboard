@@ -8,6 +8,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { maskBiz } = require('./pii-mask');
 
 const src = process.argv[2] || path.join(__dirname, '..', 'share', 'emoji-times.json');
 const out = path.join(__dirname, '..', 'done-backfill.js');
@@ -17,7 +18,7 @@ const days = {};
 let n = 0;
 for (const [key, v] of Object.entries(j.items || {})) {
   const [day, hm, biz] = key.split('|');
-  (days[day] = days[day] || []).push([hm, biz, v.done, v.cat || '']);
+  (days[day] = days[day] || []).push([hm, maskBiz(biz), v.done, v.cat || '']);
   n++;
 }
 for (const d of Object.keys(days)) days[d].sort((a, b) => a[0].localeCompare(b[0]));
