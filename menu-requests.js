@@ -3,10 +3,182 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3807,
- "updatedAt": "2026-10-20 11:02",
+ "version": 3808,
+ "updatedAt": "2026-10-20 11:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1792462143.290719",
+   "date": "2026-10-20",
+   "time": "11:09",
+   "store": "숲길해장",
+   "biz": "2075100433",
+   "pos": "퍼스트포스",
+   "content": "김치찌개 추가",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/13M9VTWpu7GJYwwS_kAWxzEuPGhiODCc6/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "13M9VTWpu7GJYwwS_kAWxzEuPGhiODCc6",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "해장국(기본)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "해장국(선지빼기)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "해장국(양빼기)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "해장국(야채탕)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "내장탕",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "뼈감자탕",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "갈비탕",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "김치찌개",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "수육",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "삼겹살",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "뼈감자탕 전골",
+       "price": 27000
+      },
+      {
+       "category": "",
+       "name": "해장전골",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "내장전골",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "매운라면",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "매운오돌뼈",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "오징어부추전",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "양추가",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "양추가",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792462143290719"
+  },
+  {
+   "ts": "1792462140.324079",
+   "date": "2026-10-20",
+   "time": "11:09",
+   "store": "착한통닭",
+   "biz": "8805400786",
+   "pos": "",
+   "content": "*어묵탕 메뉴 옆에* 훈제오리 15,000원 메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792462144.746419",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792462140324079"
+  },
   {
    "ts": "1792461318.287349",
    "date": "2026-10-20",
