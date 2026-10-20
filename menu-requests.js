@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3809,
- "updatedAt": "2026-10-20 11:11",
+ "version": 3810,
+ "updatedAt": "2026-10-20 11:15",
  "days": 30,
  "items": [
   {
@@ -20,7 +20,275 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/13M9VTWpu7GJYwwS_kAWxzEuPGhiODCc6/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CACU176BF",
+     "from": "댓글",
+     "path": "menu-files/1792462143_290719-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "해장국(기본)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(선지빼기)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(양빼기)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(야채탕)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장탕",
+       "price": 14000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈감자탕",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "등갈비탕",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치찌개",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "메뉴",
+       "name": "수육",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈감자탕전골",
+       "price": 27000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장전골",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장전골",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운닭발",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "삼겹살 180g",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운오돌뼈",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "오징어전",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "양추가",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "양추가",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAG8ESYKG",
+     "from": "댓글",
+     "path": "menu-files/1792462143_290719-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "해장국 (기본)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "해장국 (선지빼기)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "해장국 (양빼기)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "해장국 (아차탕)",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "내장탕",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "빼갈자장",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "갈비탕",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "김치찌개",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "수육",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "삼겹살",
+       "price": 9000
+      },
+      {
+       "category": "",
+       "name": "빼갈자장 전골",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "해장전골",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "내장전골",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "매운닭발",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "매운등갈비",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "오징어",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "동죽전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "양주가",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "양주가",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [
     {
      "id": "13M9VTWpu7GJYwwS_kAWxzEuPGhiODCc6",
@@ -150,11 +418,13 @@ window.MENU_REQUESTS = {
      "v": 2
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "그림 그려준거랑 칸위치가 안맞아서 일단 이대로-"
+   ],
+   "rc": 1,
+   "lr": "1792462474.684419",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792462143290719"
   },
