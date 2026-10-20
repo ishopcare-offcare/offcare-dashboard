@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22967,
+  "version": 22968,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267356,11 +267356,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:32"
+      "updatedAt": "09:39",
+      "absent": [
+        {
+          "time": "09:30",
+          "store": "은 헤어샵",
+          "biz": "7953600301",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -267434,32 +267444,32 @@ window.SLACK_DATA = {
       },
       "1792455679.637869": {
         "post": "1792455679.637869",
-        "lastSeen": 1792456645.786,
+        "lastSeen": 1792456903.822,
         "r": 1,
         "day": "2026-10-20",
         "idx": 3
       },
       "1792456209.851119": {
         "post": "1792456209.851119",
-        "lastSeen": 1792456645.786,
+        "lastSeen": 1792456903.822,
         "r": 1,
         "day": "2026-10-20",
         "idx": 6
       },
       "1792456205.730659": {
         "post": "1792456205.730659",
-        "lastSeen": 1792456645.786,
+        "lastSeen": 1792456903.822,
         "r": 1,
         "day": "2026-10-20",
         "idx": 4
       },
       "1792456208.404469": {
         "post": "1792456208.404469",
-        "lastSeen": 1792456645.786
+        "lastSeen": 1792456903.822
       },
       "1792456344.816069": {
         "post": "1792456344.816069",
-        "lastSeen": 1792456645.786,
+        "lastSeen": 1792456903.822,
         "r": 1,
         "day": "2026-10-20",
         "idx": 5
@@ -362030,7 +362040,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:37",
+    "at": "2026-10-20 09:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362164,7 +362174,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:37",
+    "at": "2026-10-20 09:41",
     "pri": {
       "days": 0,
       "failed": [],
