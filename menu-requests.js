@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3818,
- "updatedAt": "2026-10-20 13:45",
+ "version": 3819,
+ "updatedAt": "2026-10-20 13:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1792471707.182669",
+   "date": "2026-10-20",
+   "time": "13:48",
+   "store": "숲길해장",
+   "biz": "2075100433",
+   "pos": "퍼스트포스",
+   "content": "메일로 보낸 도면처럼 두번째줄 칸 크기를 첫번째줄 칸 크기를 동일하게 해주세요\n세번째줄은 자리가 부족하면 칸 크기를 마지막줄과 동일하게 해주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792471707182669"
+  },
   {
    "ts": "1792471100.424889",
    "date": "2026-10-20",
