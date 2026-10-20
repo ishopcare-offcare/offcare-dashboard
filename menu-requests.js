@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3830,
- "updatedAt": "2026-10-20 14:45",
+ "version": 3831,
+ "updatedAt": "2026-10-20 14:47",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "스크린샷 2026-10-20 143011.png",
      "fid": "F0CAHA5896J",
      "from": "댓글",
-     "path": "menu-files/1792474889_970389-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -62,13 +61,13 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792474889_970389-0.png"
     },
     {
      "name": "스크린샷 2026-10-20 142810.png",
      "fid": "F0CAD25Q2N7",
      "from": "댓글",
-     "path": "menu-files/1792474889_970389-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -147,13 +146,13 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792474889_970389-1.png"
     },
     {
      "name": "스크린샷 2026-10-20 142929.png",
      "fid": "F0CANVC7SG4",
      "from": "댓글",
-     "path": "menu-files/1792474889_970389-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -232,13 +231,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792474889_970389-2.png"
     },
     {
      "name": "스크린샷 2026-10-20 142935.png",
      "fid": "F0CAM5YJHND",
      "from": "댓글",
-     "path": "menu-files/1792474889_970389-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -317,13 +316,13 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792474889_970389-3.png"
     },
     {
      "name": "스크린샷 2026-10-20 142711.png",
      "fid": "F0CAM5YLJ5P",
      "from": "댓글",
-     "path": "menu-files/1792474889_970389-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -337,13 +336,13 @@ window.MENU_REQUESTS = {
        "price": 70000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792474889_970389-4.png"
     },
     {
      "name": "스크린샷 2026-10-20 142922.png",
      "fid": "F0CANVDG71A",
      "from": "댓글",
-     "path": "menu-files/1792474889_970389-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -377,7 +376,8 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792474889_970389-5.png"
     },
     {
      "name": "스크린샷 2026-10-20 142942.png",
@@ -453,6 +453,67 @@ window.MENU_REQUESTS = {
      "kind": "pos_screen",
      "menu": [],
      "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143142.png",
+     "fid": "F0CAE0F7WCD",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "옵션 그룹",
+       "name": "플로랑땅",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "옵션 그룹",
+       "name": "그라니따",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "옵션 그룹",
+       "name": "머랭쿠키 할인",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "옵션 그룹",
+       "name": "모카크루번",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "옵션 그룹",
+       "name": "모카크루번",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "옵션 그룹",
+       "name": "ㅇ",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143151.png",
+     "fid": "F0CBDKZM9GQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-10-20 143200.png",
+     "fid": "F0CAK3JP598",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
     }
    ],
    "datt": [],
@@ -460,11 +521,11 @@ window.MENU_REQUESTS = {
     "메뉴",
     "옵션"
    ],
-   "rc": 3,
-   "lr": "1792474992.158459",
+   "rc": 4,
+   "lr": "1792475215.125509",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792474889970389"
   },
   {
@@ -507,8 +568,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792473255356529"
   },
   {
