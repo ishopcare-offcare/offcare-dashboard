@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3799,
- "updatedAt": "2026-10-20 09:59",
+ "version": 3800,
+ "updatedAt": "2026-10-20 10:02",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "점심 특선 카테고리에 아래 2가지 메뉴 추가 부탁드립니다!\n• 죽 2,000원 \n• 고기 추가 100g 5,000원"
    ],
-   "rc": 2,
-   "lr": "1792457659.020759",
+   "rc": 3,
+   "lr": "1792458152.163079",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
