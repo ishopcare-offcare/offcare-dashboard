@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3863,
- "updatedAt": "2026-10-20 19:51",
+ "version": 3864,
+ "updatedAt": "2026-10-20 19:52",
  "days": 30,
  "items": [
   {
@@ -354,12 +354,66 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAF7RBP0T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음주류",
+       "name": "참소주",
+       "price": 4000
+      },
+      {
+       "category": "음주류",
+       "name": "생맥주(500cc)",
+       "price": 4000
+      },
+      {
+       "category": "음주류",
+       "name": "생맥주(1700cc)",
+       "price": 12000
+      },
+      {
+       "category": "음주류",
+       "name": "카스",
+       "price": 4000
+      },
+      {
+       "category": "음주류",
+       "name": "콜라",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAPBJPY3B",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달",
+       "name": "배달료",
+       "price": 3000
+      },
+      {
+       "category": "배달",
+       "name": "부어",
+       "price": 0
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 5,
-   "lr": "1792493432.190609",
+   "rc": 7,
+   "lr": "1792493456.861429",
    "rfx": 3,
    "status": "wait",
    "handler": null,
