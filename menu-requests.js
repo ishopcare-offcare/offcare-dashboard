@@ -3,10 +3,146 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3792,
- "updatedAt": "2026-10-20 08:15",
+ "version": 3793,
+ "updatedAt": "2026-10-20 09:09",
  "days": 30,
  "items": [
+  {
+   "ts": "1792454877.241399",
+   "date": "2026-10-20",
+   "time": "09:07",
+   "store": "꾹이네 돼지불백",
+   "biz": "8831802392",
+   "pos": "",
+   "content": "메뉴/테이블 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_0250.jpeg[1].jpg",
+     "fid": "F0CA257GQ7R",
+     "from": "댓글",
+     "path": "menu-files/1792454877_241399-0.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0246.jpeg[1].jpg",
+     "fid": "F0CAM7ANB8U",
+     "from": "댓글",
+     "path": "menu-files/1792454877_241399-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "볶음류",
+       "name": "돼지불백(2인분기준)",
+       "price": 24000
+      },
+      {
+       "category": "볶음류",
+       "name": "소불고기(2인분기준)",
+       "price": 30000
+      },
+      {
+       "category": "볶음류",
+       "name": "우삼겹숙주볶음(2인기준)",
+       "price": 30000
+      },
+      {
+       "category": "볶음류",
+       "name": "갑오징어볶음(2인분기준)",
+       "price": 30000
+      },
+      {
+       "category": "볶음류",
+       "name": "오삼불고기(2인분기준)",
+       "price": 30000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_0247.jpeg[2].jpg",
+     "fid": "F0CAB9J2U91",
+     "from": "댓글",
+     "path": "menu-files/1792454877_241399-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "비빔류",
+       "name": "육회비빔밥 (1인분기준)",
+       "price": 15000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_0248.jpeg[1].jpg",
+     "fid": "F0CAKDBLRMX",
+     "from": "댓글",
+     "path": "menu-files/1792454877_241399-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료및주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "음료및주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "음료및주류",
+       "name": "린",
+       "price": 5000
+      },
+      {
+       "category": "음료및주류",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료및주류",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료및주류",
+       "name": "사이다",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_0249.jpeg[1].jpg",
+     "fid": "F0CA25AE355",
+     "from": "댓글",
+     "path": "menu-files/1792454877_241399-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1인식사전용",
+       "name": "1인불백",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792454912.459719",
+   "rfx": 3,
+   "status": "done",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792454877241399"
+  },
   {
    "ts": "1792450206.264579",
    "date": "2026-10-20",
