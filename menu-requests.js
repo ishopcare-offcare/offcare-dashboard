@@ -3,10 +3,429 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3850,
- "updatedAt": "2026-10-20 16:25",
+ "version": 3851,
+ "updatedAt": "2026-10-20 16:34",
  "days": 30,
  "items": [
+  {
+   "ts": "1792481603.651009",
+   "date": "2026-10-20",
+   "time": "16:33",
+   "store": "카페 헤이,데이",
+   "biz": "53509*****",
+   "pos": "토스포스",
+   "content": "전체메뉴",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1q-nNZ4ygu8nExKU7-5-WxnO8QyIo7cID/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1z7HgmEuvOMWdK5q9pSH0WQQmdGvl5fuc/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1NalDqEapw1NaFkRRp9obMhHcHso2FVE3/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1oBh436XuQg0YlgQS3V_wtoMwyeuBYf2m/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ERn736crMmq4Wsdsdy-8WzqAKgCsVB84/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1v6ucerWjQtpnsDcU52COBL12x55bkUPi/view?usp=drivesdk",
+    "https://drive.google.com/file/d/13Qtwpq42HCkRx2gThmLW4UzHBUkbVaRx/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1esFBClNB-0S2XzoekgXReImS9qWfCb4n/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1QIaXZ3bYTKa-xHU3jFt9ZFDU8eS45BZI/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1qOFpdLSK1uRvWgHgREBL2fZl7bsXVG4H/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1q-nNZ4ygu8nExKU7-5-WxnO8QyIo7cID",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "(1) Coffee",
+       "name": "아메리카노",
+       "price": 1500
+      },
+      {
+       "category": "(1) Coffee",
+       "name": "*1L(ICE)",
+       "price": 2500
+      },
+      {
+       "category": "(1) Coffee",
+       "name": "카페라떼",
+       "price": 3500
+      },
+      {
+       "category": "(1) Coffee",
+       "name": "바몬드크림라떼",
+       "price": 4000
+      },
+      {
+       "category": "(1) Coffee",
+       "name": "돌체라떼",
+       "price": 4000
+      },
+      {
+       "category": "(1) Coffee",
+       "name": "아인슈페너",
+       "price": 4000
+      },
+      {
+       "category": "(1) Coffee",
+       "name": "바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "(2) Latte",
+       "name": "녹차라떼",
+       "price": 4000
+      },
+      {
+       "category": "(2) Latte",
+       "name": "고구마라떼",
+       "price": 4000
+      },
+      {
+       "category": "(2) Latte",
+       "name": "초코라떼",
+       "price": 4500
+      },
+      {
+       "category": "(2) Latte",
+       "name": "딸기라떼",
+       "price": 4000
+      },
+      {
+       "category": "(2) Latte",
+       "name": "망고라떼",
+       "price": 5300
+      },
+      {
+       "category": "(2) Latte",
+       "name": "미숫가루",
+       "price": 3500
+      },
+      {
+       "category": "(3) smoothie",
+       "name": "플레인 요거트스무디",
+       "price": 4200
+      },
+      {
+       "category": "(3) smoothie",
+       "name": "블루베리요거트스무디",
+       "price": 4800
+      },
+      {
+       "category": "(3) smoothie",
+       "name": "딸기요거트스무디",
+       "price": 4800
+      },
+      {
+       "category": "(3) smoothie",
+       "name": "망고요거트스무디",
+       "price": 4800
+      },
+      {
+       "category": "(4) Shake",
+       "name": "밀크쉐이크",
+       "price": 4200
+      },
+      {
+       "category": "(4) Shake",
+       "name": "에스프레소쉐이크",
+       "price": 4500
+      },
+      {
+       "category": "(4) Shake",
+       "name": "초코쉐이크",
+       "price": 4500
+      },
+      {
+       "category": "(4) Shake",
+       "name": "쿠앤크쉐이크",
+       "price": 4800
+      },
+      {
+       "category": "(4) Shake",
+       "name": "소다쉐이크",
+       "price": 4800
+      },
+      {
+       "category": "(4) Shake",
+       "name": "퐁퐁쉐이크",
+       "price": 4800
+      },
+      {
+       "category": "(5) Tea",
+       "name": "얼그레이",
+       "price": 3500
+      },
+      {
+       "category": "(5) Tea",
+       "name": "캐모마일",
+       "price": 3500
+      },
+      {
+       "category": "(5) Tea",
+       "name": "페퍼민트",
+       "price": 3500
+      },
+      {
+       "category": "(6) Ade",
+       "name": "복숭아 아이스티",
+       "price": 3500
+      },
+      {
+       "category": "(6) Ade",
+       "name": "복숭아에이드",
+       "price": 3500
+      },
+      {
+       "category": "(6) Ade",
+       "name": "레몬에이드",
+       "price": 3500
+      },
+      {
+       "category": "(6) Ade",
+       "name": "청포도에이드",
+       "price": 3500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1z7HgmEuvOMWdK5q9pSH0WQQmdGvl5fuc",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1NalDqEapw1NaFkRRp9obMhHcHso2FVE3",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1oBh436XuQg0YlgQS3V_wtoMwyeuBYf2m",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1ERn736crMmq4Wsdsdy-8WzqAKgCsVB84",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1v6ucerWjQtpnsDcU52COBL12x55bkUPi",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "13Qtwpq42HCkRx2gThmLW4UzHBUkbVaRx",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1esFBClNB-0S2XzoekgXReImS9qWfCb4n",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1QIaXZ3bYTKa-xHU3jFt9ZFDU8eS45BZI",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1qOFpdLSK1uRvWgHgREBL2fZl7bsXVG4H",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "아이스아메리카노",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "카페라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "바몬드크림라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돌체라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아인슈페너",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "바닐라라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "녹차라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고구마라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "초코라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "딸기라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "망고라떼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미숫가루",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "플레인요거트스무디",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "블루베리요거트스무디",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "딸기요거트스무디",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "망고요거트스무디",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "밀크쉐이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "에스프레소쉐이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "초코쉐이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쿠앤크쉐이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "소다쉐이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "퐁퐁쉐이크(초리퐁)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "얼그레이 티",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "캐모마일 티",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "페퍼민트 티",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "복숭아 아이스티",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "복숭아 에이드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "레몬에이드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "청포도에이드",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792481603651009"
+  },
   {
    "ts": "1792480035.018299",
    "date": "2026-10-20",
