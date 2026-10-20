@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3855,
- "updatedAt": "2026-10-20 16:50",
+ "version": 3856,
+ "updatedAt": "2026-10-20 16:52",
  "days": 30,
  "items": [
   {
@@ -367,7 +367,15 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1qOFpdLSK1uRvWgHgREBL2fZl7bsXVG4H/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "HeyDey_음료_개별이미지_29종.zip",
+     "fid": "F0CAKUGE68J",
+     "from": "댓글",
+     "path": "menu-files/1792481603_651009-0.zip",
+     "nj": 1
+    }
+   ],
    "datt": [
     {
      "id": "1q-nNZ4ygu8nExKU7-5-WxnO8QyIo7cID",
@@ -759,8 +767,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "문자발송"
    ],
-   "rc": 1,
-   "lr": "1792482519.874299",
+   "rc": 2,
+   "lr": "1792482681.771669",
    "rfx": 3,
    "status": "wait",
    "handler": null,
