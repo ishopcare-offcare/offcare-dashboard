@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3845,
- "updatedAt": "2026-10-20 16:08",
+ "version": 3846,
+ "updatedAt": "2026-10-20 16:17",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,164 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAKK2KF9Q",
+     "from": "댓글",
+     "path": "menu-files/1792480035_018299-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "장수왕족발메뉴",
+       "name": "궁보첩(대)",
+       "price": 47000
+      },
+      {
+       "category": "장수왕족발메뉴",
+       "name": "궁보첩(중)",
+       "price": 42000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAHRS9Y1L",
+     "from": "댓글",
+     "path": "menu-files/1792480035_018299-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "장수 스페셜(족발+불족+보쌈)",
+       "price": 67000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발+보쌈(특대)",
+       "price": 62000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발+보쌈(대)",
+       "price": 56000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발+보쌈(중)",
+       "price": 49000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발+불족(대)",
+       "price": 56000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발+불족(중)",
+       "price": 49000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "불족+보쌈(대)",
+       "price": 56000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "불족+보쌈(중)",
+       "price": 49000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "옛날스타일(특대)",
+       "price": 49000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "찬족(대)",
+       "price": 44000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "찬족(중)",
+       "price": 39000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발(특대)",
+       "price": 49000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발(대)",
+       "price": 44000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발(중)",
+       "price": 39000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "족발(소)",
+       "price": 34000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "불족(특대)",
+       "price": 51000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "불족(대)",
+       "price": 46000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "불족(중)",
+       "price": 41000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "보쌈(특대)",
+       "price": 49000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "보쌈(대)",
+       "price": 44000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "보쌈(중)",
+       "price": 39000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "보쌈(소)",
+       "price": 34000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "반반(소)",
+       "price": 42000
+      },
+      {
+       "category": "장수왕족발 메뉴",
+       "name": "고기추가",
+       "price": 18000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792480038.643729",
+   "replies": [
+    "사이드랑 주류는 안보내줘서 일 단 이것만"
+   ],
+   "rc": 3,
+   "lr": "1792480596.653829",
    "rfx": 3,
    "status": "wait",
    "handler": null,
