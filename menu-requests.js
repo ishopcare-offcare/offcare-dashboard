@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3862,
- "updatedAt": "2026-10-20 19:49",
+ "version": 3863,
+ "updatedAt": "2026-10-20 19:51",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,348 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CA638MSKH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨",
+       "name": "그릴후라이드치킨",
+       "price": 22000
+      },
+      {
+       "category": "치킨",
+       "name": "통다리(오리지널)",
+       "price": 26000
+      },
+      {
+       "category": "치킨",
+       "name": "그릴윙(오리지널)",
+       "price": 24000
+      },
+      {
+       "category": "치킨",
+       "name": "그릴순살(오리지널)",
+       "price": 28000
+      },
+      {
+       "category": "치킨",
+       "name": "그릴통지킨(오리지널)",
+       "price": 13900
+      },
+      {
+       "category": "치킨",
+       "name": "꿀마늘그릴순살",
+       "price": 29000
+      },
+      {
+       "category": "치킨",
+       "name": "맛쇼킹그릴순살",
+       "price": 27000
+      },
+      {
+       "category": "치킨",
+       "name": "치즈바베큐",
+       "price": 26000
+      },
+      {
+       "category": "치킨",
+       "name": "그릴콤보",
+       "price": 26900
+      },
+      {
+       "category": "치킨",
+       "name": "소스",
+       "price": 2000
+      },
+      {
+       "category": "치킨",
+       "name": "순살",
+       "price": 2000
+      },
+      {
+       "category": "치킨",
+       "name": "크리스피",
+       "price": 18000
+      },
+      {
+       "category": "치킨",
+       "name": "양념",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "딸리치킨",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "갈릭",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "맛쇼킹치킨",
+       "price": 21000
+      },
+      {
+       "category": "치킨",
+       "name": "파닭",
+       "price": 21000
+      },
+      {
+       "category": "치킨",
+       "name": "어니언",
+       "price": 21000
+      },
+      {
+       "category": "치킨",
+       "name": "골드부어",
+       "price": 21000
+      },
+      {
+       "category": "치킨",
+       "name": "땡초",
+       "price": 21000
+      },
+      {
+       "category": "치킨",
+       "name": "내마음대로반반",
+       "price": 19000
+      },
+      {
+       "category": "치킨",
+       "name": "내마음대로세트",
+       "price": 29900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAG5TS9FX",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨",
+       "name": "살로만세트",
+       "price": 27900
+      },
+      {
+       "category": "치킨",
+       "name": "살로만그릴드플러스",
+       "price": 30900
+      },
+      {
+       "category": "치킨",
+       "name": "콤보",
+       "price": 3000
+      },
+      {
+       "category": "치킨",
+       "name": "윙봉",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBFRE5G48",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "햄버거",
+       "name": "골든부어치킨(단품)",
+       "price": 5700
+      },
+      {
+       "category": "햄버거",
+       "name": "골든부어치킨(세트)",
+       "price": 8200
+      },
+      {
+       "category": "햄버거",
+       "name": "마요라치치킨(단품)",
+       "price": 5700
+      },
+      {
+       "category": "햄버거",
+       "name": "마요라치치킨(세트)",
+       "price": 8200
+      },
+      {
+       "category": "햄버거",
+       "name": "햄식치킨(단품)",
+       "price": 5700
+      },
+      {
+       "category": "햄버거",
+       "name": "블랙페퍼(단품)",
+       "price": 5700
+      },
+      {
+       "category": "햄버거",
+       "name": "블랙페퍼(세트)",
+       "price": 8200
+      },
+      {
+       "category": "햄버거",
+       "name": "통새우(단품)",
+       "price": 4900
+      },
+      {
+       "category": "햄버거",
+       "name": "통새우(세트)",
+       "price": 7400
+      },
+      {
+       "category": "햄버거",
+       "name": "치즈더블버거셋트",
+       "price": 6900
+      },
+      {
+       "category": "햄버거",
+       "name": "불고기(단품)",
+       "price": 3400
+      },
+      {
+       "category": "햄버거",
+       "name": "불고기(세트)",
+       "price": 5900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBFRDB740",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "치킨너겟4P",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치킨너겟6P",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치킨너겟8P",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "부어소떡",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "통새우바",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "콘크러치오징어",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "기름떡볶이",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치즈볼(4P)",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "타코야끼(9P)",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "저크갈릭찜",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "중화가지몸집",
+       "price": 16000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "오뎅탕",
+       "price": 17000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "꼬치오뎅",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "짬뽕탕",
+       "price": 17000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "무뼈닭발",
+       "price": 16000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "먹태",
+       "price": 16000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "아귀포",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "노가리",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "그릴통다리(1)",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "그릴윙(6P)",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "황도",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "골뱅이무침",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 5,
+   "lr": "1792493432.190609",
    "rfx": 3,
    "status": "wait",
    "handler": null,
