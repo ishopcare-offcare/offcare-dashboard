@@ -3,10 +3,239 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3816,
- "updatedAt": "2026-10-20 13:03",
+ "version": 3817,
+ "updatedAt": "2026-10-20 13:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1792471100.424889",
+   "date": "2026-10-20",
+   "time": "13:38",
+   "store": "촌돼지",
+   "biz": "7091802513",
+   "pos": "스파로스포스",
+   "content": "전체",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1sUtAfcNu73XWoNUcKmfJDHXgtOWWJGhA/view?usp=drivesdk",
+    "https://drive.google.com/file/d/144Ja6O_zu8al6mTxvijav8cx6A2gjtBA/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1sUtAfcNu73XWoNUcKmfJDHXgtOWWJGhA",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "고기메뉴",
+       "name": "삼겹살",
+       "price": 17000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "오겹살",
+       "price": 17000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "목살",
+       "price": 17000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "항정살",
+       "price": 20000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "돼지갈비",
+       "price": 15000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "덜미살",
+       "price": 16000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "반 판 600g",
+       "price": 48000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "한 판 1.2kg",
+       "price": 93000
+      },
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "후식",
+       "name": "된장찌개",
+       "price": 2000
+      },
+      {
+       "category": "후식",
+       "name": "계란찜",
+       "price": 2000
+      },
+      {
+       "category": "후식",
+       "name": "김치말이국수",
+       "price": 4000
+      },
+      {
+       "category": "후식",
+       "name": "비빔국수",
+       "price": 4000
+      },
+      {
+       "category": "후식",
+       "name": "라면",
+       "price": 4000
+      },
+      {
+       "category": "후식",
+       "name": "짜계치",
+       "price": 4000
+      },
+      {
+       "category": "후식",
+       "name": "누룽지탕",
+       "price": 6000
+      },
+      {
+       "category": "후식",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "김치말이국수",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "비빔국수",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "김치찌개",
+       "price": 8000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "144Ja6O_zu8al6mTxvijav8cx6A2gjtBA",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "고기메뉴",
+       "name": "삼겹살 200g",
+       "price": 15000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "오겹살 200g",
+       "price": 15000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "목살 200g",
+       "price": 15000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "돼지갈비 300g",
+       "price": 15000
+      },
+      {
+       "category": "고기메뉴",
+       "name": "특수부위 150g",
+       "price": 15000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "김치말이 비빔국수",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "라면·짜계치",
+       "price": 4000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "누룽지탕",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "김치찌개",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "된장찌개",
+       "price": 2000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "옛날 육개장 한우",
+       "price": 8000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "계란찜",
+       "price": 2000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 3000
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792471100424889"
+  },
   {
    "ts": "1792468502.690429",
    "date": "2026-10-20",
