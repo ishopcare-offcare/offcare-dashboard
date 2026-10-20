@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3834,
- "updatedAt": "2026-10-20 14:51",
+ "version": 3835,
+ "updatedAt": "2026-10-20 14:53",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,147 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261019_155018.jpeg",
+     "fid": "F0CAP1APKBN",
+     "from": "댓글",
+     "path": "menu-files/1792475365_812889-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "추가메뉴",
+       "name": "냉면",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "계란말이",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "비빔국수",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "잔치국수",
+       "price": 6000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "된장찌개",
+       "price": 5000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_162743.jpeg",
+     "fid": "F0CAD3HK79R",
+     "from": "댓글",
+     "path": "menu-files/1792475365_812889-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "직화 무뼈닭발",
+       "price": 15000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261019_154936.jpeg",
+     "fid": "F0CAM7AANAD",
+     "from": "댓글",
+     "path": "menu-files/1792475365_812889-2.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "파불고기",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "고추장파불고기",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "연탄삼겹살",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "고추장초벌삼겹살",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "생삼겹살",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "차돌박이",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "돼지막창",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "덜미살",
+       "price": 14000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792475368.937269",
+   "rc": 2,
+   "lr": "1792475494.204299",
    "rfx": 3,
    "status": "wait",
    "handler": null,
