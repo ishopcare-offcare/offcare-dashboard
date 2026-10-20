@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3853,
- "updatedAt": "2026-10-20 16:43",
+ "version": 3854,
+ "updatedAt": "2026-10-20 16:45",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,328 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAPP8PQ9J",
+     "from": "댓글",
+     "path": "menu-files/1792482180_932849-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "짬뽕",
+       "name": "짜장면",
+       "price": 6000
+      },
+      {
+       "category": "짬뽕",
+       "name": "짜장면 곱배기",
+       "price": 7000
+      },
+      {
+       "category": "짬뽕",
+       "name": "볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "짬뽕",
+       "name": "볶음밥 고배기",
+       "price": 9000
+      },
+      {
+       "category": "짬뽕",
+       "name": "짬뽕",
+       "price": 8000
+      },
+      {
+       "category": "짬뽕",
+       "name": "짬뽕 곱배기",
+       "price": 9000
+      },
+      {
+       "category": "짬뽕",
+       "name": "순두부짬뽕밥",
+       "price": 9000
+      },
+      {
+       "category": "짬뽕",
+       "name": "순두부짬뽕밥 곱배기",
+       "price": 10000
+      },
+      {
+       "category": "짬뽕",
+       "name": "차돌짬뽕",
+       "price": 12000
+      },
+      {
+       "category": "짬뽕",
+       "name": "차돌짬뽕 곱배기",
+       "price": 13000
+      },
+      {
+       "category": "짬뽕",
+       "name": "소고기잡채덮밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "짬뽕",
+       "name": "콩국수",
+       "price": 9000
+      },
+      {
+       "category": "짬뽕",
+       "name": "콩국수 곱배기",
+       "price": 10000
+      },
+      {
+       "category": "짬뽕",
+       "name": "곱배기",
+       "price": 1000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짜장",
+       "price": 17000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+볶음밥",
+       "price": 19000
+      },
+      {
+       "category": "짬뽕",
+       "name": "냉면",
+       "price": 9000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짬뽕",
+       "price": 19000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짬뽕+짜장",
+       "price": 25000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육 (소)",
+       "price": 20000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육 (중)",
+       "price": 25000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육 (대)",
+       "price": 30000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짜장2그릇",
+       "price": 23000
+      },
+      {
+       "category": "짬뽕",
+       "name": "군만두",
+       "price": 6000
+      },
+      {
+       "category": "짬뽕",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짬뽕2그릇",
+       "price": 27000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAPPB6VSQ",
+     "from": "댓글",
+     "path": "menu-files/1792482180_932849-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "짬뽕",
+       "name": "짜장면",
+       "price": 5000
+      },
+      {
+       "category": "짬뽕",
+       "name": "짜장면 곱배기",
+       "price": 6000
+      },
+      {
+       "category": "짬뽕",
+       "name": "짬뽕",
+       "price": 7000
+      },
+      {
+       "category": "짬뽕",
+       "name": "짬뽕 곱배기",
+       "price": 8000
+      },
+      {
+       "category": "짬뽕",
+       "name": "차돌짬뽕",
+       "price": 11000
+      },
+      {
+       "category": "짬뽕",
+       "name": "차돌짬뽕",
+       "price": 12000
+      },
+      {
+       "category": "짬뽕",
+       "name": "볶음밥",
+       "price": 7000
+      },
+      {
+       "category": "짬뽕",
+       "name": "볶음밥 곱배기",
+       "price": 8000
+      },
+      {
+       "category": "짬뽕",
+       "name": "순두부짬뽕밥",
+       "price": 8000
+      },
+      {
+       "category": "짬뽕",
+       "name": "순두부짬뽕밥",
+       "price": 9000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육(소)",
+       "price": 19000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육(중)",
+       "price": 24000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육(대)",
+       "price": 29000
+      },
+      {
+       "category": "짬뽕",
+       "name": "군만두",
+       "price": 5000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짜장",
+       "price": 16000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+짬뽕",
+       "price": 18000
+      },
+      {
+       "category": "짬뽕",
+       "name": "미니탕수육+볶음밥",
+       "price": 18000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육+짜장+짬뽕",
+       "price": 23000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육+짜장면 2그릇",
+       "price": 21000
+      },
+      {
+       "category": "짬뽕",
+       "name": "탕수육+짬뽕 2그릇",
+       "price": 25000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBEDWLPMW",
+     "from": "댓글",
+     "path": "menu-files/1792482180_932849-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료/주류",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "콜라 1.25L",
+       "price": 3000
+      },
+      {
+       "category": "음료/주류",
+       "name": "아이스아메리카노",
+       "price": 1500
+      },
+      {
+       "category": "음료/주류",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "칠성사이다 1.25L",
+       "price": 3000
+      },
+      {
+       "category": "음료/주류",
+       "name": "소주",
+       "price": 3000
+      },
+      {
+       "category": "음료/주류",
+       "name": "맥주",
+       "price": 3500
+      },
+      {
+       "category": "음료/주류",
+       "name": "막걸레",
+       "price": 3000
+      },
+      {
+       "category": "음료/주류",
+       "name": "이과두주",
+       "price": 5000
+      },
+      {
+       "category": "음료/주류",
+       "name": "연태고량주(소)",
+       "price": 12000
+      },
+      {
+       "category": "음료/주류",
+       "name": "연태고량주(중)",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792482184.474819",
+   "rc": 2,
+   "lr": "1792482244.172489",
    "rfx": 3,
    "status": "wait",
    "handler": null,
