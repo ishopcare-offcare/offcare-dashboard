@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3849,
- "updatedAt": "2026-10-20 16:23",
+ "version": 3850,
+ "updatedAt": "2026-10-20 16:25",
  "days": 30,
  "items": [
   {
@@ -308,7 +308,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CAKNAGG74",
      "from": "댓글",
-     "path": "menu-files/1792480035_018299-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -332,13 +331,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792480035_018299-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0CADM04DLK",
      "from": "댓글",
-     "path": "menu-files/1792480035_018299-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -462,6 +461,26 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792480035_018299-5.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAPK3MVGC",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "고추추가",
+       "price": 500
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "마늘추가",
+       "price": 500
+      }
+     ],
      "v": 2
     }
    ],
@@ -469,8 +488,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "사이드랑 주류는 안보내줘서 일 단 이것만"
    ],
-   "rc": 5,
-   "lr": "1792481004.065749",
+   "rc": 6,
+   "lr": "1792481069.199439",
    "rfx": 3,
    "status": "wait",
    "handler": null,
