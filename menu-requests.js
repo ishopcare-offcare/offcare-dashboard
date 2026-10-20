@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3856,
- "updatedAt": "2026-10-20 16:52",
+ "version": 3857,
+ "updatedAt": "2026-10-20 16:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1792483017.784879",
+   "date": "2026-10-20",
+   "time": "16:56",
+   "store": "대패삼국지 창원중앙역점",
+   "biz": "21911*****",
+   "pos": "퍼스트포스",
+   "content": "테이블오더 샤브전골 노출이 되지 않아 <https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792396402985349|요청>주셨는데 아직 반영이 되지 않았다 하셔서 확인 부탁드립니다. :꾸벅곰:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792483049.495609",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792483017784879"
+  },
   {
    "ts": "1792482180.932849",
    "date": "2026-10-20",
@@ -770,8 +791,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1792482681.771669",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792481603651009"
   },
   {
