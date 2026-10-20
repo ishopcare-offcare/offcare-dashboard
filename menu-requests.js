@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3847,
- "updatedAt": "2026-10-20 16:18",
+ "version": 3848,
+ "updatedAt": "2026-10-20 16:19",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CAKK2KF9Q",
      "from": "댓글",
-     "path": "menu-files/1792480035_018299-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -37,13 +36,13 @@ window.MENU_REQUESTS = {
        "price": 42000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792480035_018299-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CAHRS9Y1L",
      "from": "댓글",
-     "path": "menu-files/1792480035_018299-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -167,6 +166,142 @@ window.MENU_REQUESTS = {
        "price": 18000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792480035_018299-1.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAPHY7KFW",
+     "from": "댓글",
+     "path": "menu-files/1792480035_018299-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 1000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 2000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 3000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 4000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 5000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 6000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 7000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 8000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 9000
+      },
+      {
+       "category": "배달로",
+       "name": "배달로",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAPHYNQ3E",
+     "from": "댓글",
+     "path": "menu-files/1792480035_018299-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류메뉴",
+       "name": "참이슬후레쉬",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "처음처럼",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "이제우린",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "진로이즈백",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "청하",
+       "price": 5000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "카스",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "테라",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "저칼로리막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "청하",
+       "price": 5000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "복분자",
+       "price": 12000
+      }
+     ],
      "v": 2
     }
    ],
@@ -174,8 +309,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "사이드랑 주류는 안보내줘서 일 단 이것만"
    ],
-   "rc": 3,
-   "lr": "1792480596.653829",
+   "rc": 4,
+   "lr": "1792480751.146429",
    "rfx": 3,
    "status": "wait",
    "handler": null,
