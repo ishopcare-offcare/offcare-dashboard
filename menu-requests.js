@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3828,
- "updatedAt": "2026-10-20 14:33",
+ "version": 3829,
+ "updatedAt": "2026-10-20 14:42",
  "days": 30,
  "items": [
+  {
+   "ts": "1792474889.970389",
+   "date": "2026-10-20",
+   "time": "14:41",
+   "store": "콜비 에비뉴 압구정 디저트, 카페",
+   "biz": "7380502715",
+   "pos": "",
+   "content": "메뉴 추가 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792474893.205869",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792474889970389"
+  },
   {
    "ts": "1792473633.735039",
    "date": "2026-10-20",
@@ -377,8 +398,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792471790482599"
   },
   {
@@ -392,11 +413,142 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CANUYUGP6",
+     "from": "댓글",
+     "path": "menu-files/1792471707_182669-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "해장국(기본)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(선지빼기)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(양빼기)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장국(야채탕)",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장탕",
+       "price": 14000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈감자탕",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "등갈비탕",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "김치찌개",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "메뉴",
+       "name": "수육",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "삼겹살 180g",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "뼈감자탕전골",
+       "price": 27000
+      },
+      {
+       "category": "메뉴",
+       "name": "해장전골",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장전골",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운닭발",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "오징어전",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운오돌뼈",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "양추가",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "양추가",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1792474813.061949",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
