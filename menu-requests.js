@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3819,
- "updatedAt": "2026-10-20 13:48",
+ "version": 3820,
+ "updatedAt": "2026-10-20 13:50",
  "days": 30,
  "items": [
+  {
+   "ts": "1792471790.482599",
+   "date": "2026-10-20",
+   "time": "13:49",
+   "store": "시골마루",
+   "biz": "1304668196",
+   "pos": "오케이포스",
+   "content": "수고하십니다.\n부천 시골마루 입니다.\n\n1.세트류:\n쭈꾸미 전골 37,000\n주문 시 주방 프린트\n출력이 안되고 있습니다.\n작동 조정 부탁드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792471790482599"
+  },
   {
    "ts": "1792471707.182669",
    "date": "2026-10-20",
