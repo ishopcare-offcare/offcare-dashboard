@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22947,
+  "version": 22948,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267198,6 +267198,7 @@ window.SLACK_DATA = {
     "2026-10-20": {
       "counts": {
         "as": {
+          "고경림": 1,
           "김동욱": 4
         },
         "extern": {
@@ -267209,6 +267210,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "로운헤어",
+          "biz": "7742601454",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "캣프 및 핸드SOS 재온보딩 지원 요청드립니다. (리모델링으로 인해 기존 연결 해제된 상태에서 재연결)",
+          "hw": "재설치 필요 하드웨어는 그대로 전원 연결 및 기본 세팅 안내 완료",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "08:53",
           "store": "컴포즈커피 성수코리아IT점",
@@ -267279,11 +267291,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:00"
+      "updatedAt": "09:03"
     }
   },
   "resp": {
@@ -267357,7 +267369,11 @@ window.SLACK_DATA = {
       },
       "1792453501.378839": {
         "post": "1792453501.378839",
-        "lastSeen": 1792454541.862
+        "lastSeen": 1792454604.565
+      },
+      "1792454599.052099": {
+        "post": "1792454599.052099",
+        "lastSeen": 1792454604.565
       }
     },
     "days": {
@@ -361875,7 +361891,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:02",
+    "at": "2026-10-20 09:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362009,7 +362025,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:02",
+    "at": "2026-10-20 09:03",
     "pri": {
       "days": 0,
       "failed": [],
