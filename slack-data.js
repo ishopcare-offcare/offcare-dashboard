@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22951,
+  "version": 22952,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267205,11 +267205,23 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
-          "김동욱": 1
+          "김동욱": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:07",
+          "store": "꾹이네 돼지불백",
+          "biz": "8831802392",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "메뉴/테이블 등록",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 2
+        },
         {
           "time": "09:00",
           "store": "로운헤어",
@@ -267292,7 +267304,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
@@ -267370,21 +267382,17 @@ window.SLACK_DATA = {
       },
       "1792453501.378839": {
         "post": "1792453501.378839",
-        "lastSeen": 1792454900.91,
+        "lastSeen": 1792454989.619,
         "r": 1,
         "day": "2026-10-20",
         "idx": 2
       },
       "1792454599.052099": {
         "post": "1792454599.052099",
-        "lastSeen": 1792454900.91,
+        "lastSeen": 1792454989.619,
         "r": 1,
         "day": "2026-10-20",
         "idx": 1
-      },
-      "1792454877.241399": {
-        "post": "1792454877.241399",
-        "lastSeen": 1792454900.91
       }
     },
     "days": {
@@ -361918,7 +361926,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:08",
+    "at": "2026-10-20 09:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362052,7 +362060,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:08",
+    "at": "2026-10-20 09:09",
     "pri": {
       "days": 0,
       "failed": [],
