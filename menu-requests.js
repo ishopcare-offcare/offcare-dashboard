@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3867,
- "updatedAt": "2026-10-20 21:29",
+ "version": 3868,
+ "updatedAt": "2026-10-20 21:39",
  "days": 30,
  "items": [
   {
@@ -408,12 +408,223 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CARTKM42G",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "회전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꿰비가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "사이드메뉴",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "음수류",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "배달류",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "무어",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAQ45KVBK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAG0CJD6F",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "치킨너겟",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치킨너겟8",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치킨너겟",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "케이준후라이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "콘치즈감자",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "크림치즈볼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "오렌지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "환타방",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "모둠닭꼬치",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CARTLS7E0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "불고기",
+       "name": "골드부어치킨 (단품)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "골드부어치킨 (세트)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "마요간장치킨 (단품)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "마요간장치킨 (세트)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "블랙페퍼(단품)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "블랙페퍼(세트)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "치즈덮밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "치즈덮밥세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "불고기",
+       "name": "불고기(단품)",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAQ46H5MX",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨",
+       "name": "상호연애니애페토",
+       "price": 21900
+      },
+      {
+       "category": "치킨",
+       "name": "상호만그맣드불갈ㄱ스",
+       "price": 20300
+      },
+      {
+       "category": "치킨",
+       "name": "콤보",
+       "price": 19000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAQ4852JV",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 8,
-   "lr": "1792494968.800159",
+   "rc": 14,
+   "lr": "1792499878.454689",
    "rfx": 3,
    "status": "wait",
    "handler": null,
