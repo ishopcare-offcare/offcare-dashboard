@@ -5675,7 +5675,7 @@ function overviewTrend(dates){
     return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="5" fill="${isT?'var(--purple)':'#cfe3fb'}"><title>${fmtShort(d)}${holi?' · '+holi:''} · ${v}건</title></rect>`
       +(v>0?`<text x="${(x+bw/2).toFixed(1)}" y="${(y-7).toFixed(1)}" text-anchor="middle" font-size="${fs.toFixed(1)}" font-weight="800" style="fill:var(--ink-soft)">${v}</text>`:'')
       +`<text x="${(x+bw/2).toFixed(1)}" y="${H-12}" text-anchor="middle" font-size="${(fs*0.85).toFixed(1)}" font-weight="${dateAxisBold(d)?'800':'600'}" style="fill:${lblCol}">${lbl}${holi?`<title>${escapeHtml(holi)}</title>`:''}</text>`;}).join('');
-  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" style="display:block"><line x1="${pad}" y1="${H-32}" x2="${W-pad}" y2="${H-32}" stroke="var(--line)"/>${bars}</svg></div>`;
+  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" style="display:block"><line x1="${pad}" y1="${H-32}" x2="${W-pad}" y2="${H-32}" stroke="var(--line)"/>${bars}</svg></div>`;
 }
 // 시간대별 처리 추이 — done(처리완료) 항목을 인입 시각(HH) 시간대로 버킷팅
 function overviewHourly(dates){
@@ -5697,7 +5697,7 @@ function overviewHourly(dates){
     return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${bh.toFixed(1)}" rx="5" fill="${peak?'var(--blue)':'#9dc4ef'}"><title>${h}시~${h+1}시: ${v}건</title></rect>`
       +(v>0?`<text x="${(x+bw/2).toFixed(1)}" y="${(y-7).toFixed(1)}" text-anchor="middle" font-size="${fs.toFixed(1)}" font-weight="800" style="fill:var(--ink-soft)">${v}</text>`:'')
       +`<text x="${(x+bw/2).toFixed(1)}" y="${H-12}" text-anchor="middle" font-size="${(fs*0.85).toFixed(1)}" font-weight="${peak?'800':'600'}" style="fill:${peak?'var(--blue)':'var(--gray2)'}">${h}시</text>`;}).join('');
-  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" style="display:block"><line x1="${pad}" y1="${H-32}" x2="${W-pad}" y2="${H-32}" stroke="var(--line)"/>${bars}</svg></div>`;
+  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" style="display:block"><line x1="${pad}" y1="${H-32}" x2="${W-pad}" y2="${H-32}" stroke="var(--line)"/>${bars}</svg></div>`;
 }
 // 도넛 차트
 function donutChart(entries){
@@ -6401,7 +6401,7 @@ function vocDailyTrend(dates){
       +(c>0?`<text x="${(x+bw/2).toFixed(1)}" y="${(y-5).toFixed(1)}" text-anchor="middle" font-size="${fs.toFixed(1)}" font-weight="800" style="fill:var(--ink-soft)">${c}</text>`:'')
       +`<text x="${(x+bw/2).toFixed(1)}" y="${base+16}" text-anchor="middle" font-size="${(fs*0.92).toFixed(1)}" font-weight="${dateAxisBold(d)?'800':'600'}" style="fill:${dateAxisColor(d)}">${day}${holi?`<title>${escapeHtml(holi)}</title>`:''}</text>`;
   }).join('');
-  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" style="display:block"><line x1="${padL-4}" y1="${base}" x2="${W-padR+4}" y2="${base}" stroke="#d2d2d7"/>${bars}</svg></div>`;
+  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" style="display:block"><line x1="${padL-4}" y1="${base}" x2="${W-padR+4}" y2="${base}" stroke="#d2d2d7"/>${bars}</svg></div>`;
 }
 function renderVocMonthly(){
   VOCQUOTE=[];

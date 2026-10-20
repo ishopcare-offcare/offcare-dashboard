@@ -10,8 +10,11 @@
  *      원장(franchise/data/<slug>.js)만 런타임에 읽는다 → 슬랙 적재로 원장이
  *      갱신되면 페이지는 그대로 두고 데이터만 바뀐다(커밋 용량도 작다).
  *
- *   2) share/compose-dashboard.html  단독 파일 · 메일·슬랙 첨부용
+ *   2) dist/compose-dashboard.html   단독 파일 · 메일·슬랙 첨부용
  *      원장까지 전부 인라인해 외부 의존이 0. 만든 시점의 스냅샷이다.
+ *      dist/ 는 커밋하지 않는다 — 공개 주소에 옛 스냅샷이 남아 오늘 0건으로
+ *      보이던 문제 때문(2026-10-20). share/compose-dashboard.html 은
+ *      호스팅본(share/compose/)으로 넘기는 안내 페이지만 남겨둔다.
  *
  *  왜 스크립트인가: client.html 을 손으로 복사해두면 원본이 바뀔 때마다
  *  세 벌이 어긋난다. 원본은 그대로 두고 여기서 기계적으로 뽑아낸다.
@@ -29,7 +32,7 @@ const SLUG  = 'compose';
 const BRAND = '컴포즈커피';
 
 const OUT_HOSTED = path.join(ROOT, 'share', SLUG, 'index.html');
-const OUT_SINGLE = path.join(ROOT, 'share', SLUG + '-dashboard.html');
+const OUT_SINGLE = path.join(ROOT, 'dist', SLUG + '-dashboard.html');
 /* 호스팅본 위치(share/<slug>/) 에서 원장까지의 상대 경로 */
 const LEDGER_REL = '../../franchise/data/' + SLUG + '.js';
 
@@ -255,7 +258,7 @@ if(!HOSTED_ONLY){
 
 fs.mkdirSync(path.dirname(OUT_HOSTED), { recursive: true });
 fs.writeFileSync(OUT_HOSTED, hosted, 'utf8');
-if(single) fs.writeFileSync(OUT_SINGLE, single, 'utf8');
+if(single){ fs.mkdirSync(path.dirname(OUT_SINGLE), { recursive: true }); fs.writeFileSync(OUT_SINGLE, single, 'utf8'); }
 
 /* 원장이 샘플이면 알려준다 — 이 상태로 고객사에 공유하면 안 된다 */
 const ledger = read(path.join(FR, 'data', SLUG + '.js'));
