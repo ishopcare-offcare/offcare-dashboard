@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3821,
- "updatedAt": "2026-10-20 14:01",
+ "version": 3822,
+ "updatedAt": "2026-10-20 14:04",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,302 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "스크린샷 2026-10-20 140158.png",
+     "fid": "F0CAH40TVSS",
+     "from": "댓글",
+     "path": "menu-files/1792472436_805559-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "소형견 3kg이하까지",
+       "name": "전체",
+       "price": 50000
+      },
+      {
+       "category": "소형견 3kg이하까지",
+       "name": "목욕",
+       "price": 30000
+      },
+      {
+       "category": "소형견 3kg이하까지",
+       "name": "부분+목욕",
+       "price": 35000
+      },
+      {
+       "category": "소형견 3kg이하까지",
+       "name": "부분+목욕+얼굴컷",
+       "price": 45000
+      },
+      {
+       "category": "소형견 3kg이하까지",
+       "name": "스포팅",
+       "price": 70000
+      },
+      {
+       "category": "소형견 3kg이하까지",
+       "name": "가위컷",
+       "price": 80000
+      },
+      {
+       "category": "소형견 3~5kg",
+       "name": "전체",
+       "price": 55000
+      },
+      {
+       "category": "소형견 3~5kg",
+       "name": "목욕",
+       "price": 35000
+      },
+      {
+       "category": "소형견 3~5kg",
+       "name": "부분+목욕",
+       "price": 40000
+      },
+      {
+       "category": "소형견 3~5kg",
+       "name": "부분+목욕+얼굴컷",
+       "price": 50000
+      },
+      {
+       "category": "소형견 3~5kg",
+       "name": "스포팅",
+       "price": 75000
+      },
+      {
+       "category": "소형견 3~5kg",
+       "name": "가위컷",
+       "price": 85000
+      },
+      {
+       "category": "중형견 4kg 이하까지",
+       "name": "전체",
+       "price": 60000
+      },
+      {
+       "category": "중형견 4kg 이하까지",
+       "name": "목욕",
+       "price": 40000
+      },
+      {
+       "category": "중형견 4kg 이하까지",
+       "name": "부분+목욕",
+       "price": 45000
+      },
+      {
+       "category": "중형견 4kg 이하까지",
+       "name": "부분+목욕+얼굴컷",
+       "price": 55000
+      },
+      {
+       "category": "중형견 4kg 이하까지",
+       "name": "스포팅",
+       "price": 90000
+      },
+      {
+       "category": "중형견 4kg 이하까지",
+       "name": "가위컷",
+       "price": 100000
+      },
+      {
+       "category": "중형견 4~6kg",
+       "name": "전체",
+       "price": 65000
+      },
+      {
+       "category": "중형견 4~6kg",
+       "name": "목욕",
+       "price": 45000
+      },
+      {
+       "category": "중형견 4~6kg",
+       "name": "부분+목욕",
+       "price": 50000
+      },
+      {
+       "category": "중형견 4~6kg",
+       "name": "부분+목욕+얼굴컷",
+       "price": 60000
+      },
+      {
+       "category": "중형견 4~6kg",
+       "name": "스포팅",
+       "price": 95000
+      },
+      {
+       "category": "중형견 4~6kg",
+       "name": "가위컷",
+       "price": 105000
+      },
+      {
+       "category": "중형견 6~8kg",
+       "name": "전체",
+       "price": 70000
+      },
+      {
+       "category": "중형견 6~8kg",
+       "name": "목욕",
+       "price": 50000
+      },
+      {
+       "category": "중형견 6~8kg",
+       "name": "부분+목욕",
+       "price": 55000
+      },
+      {
+       "category": "중형견 6~8kg",
+       "name": "부분+목욕+얼굴컷",
+       "price": 65000
+      },
+      {
+       "category": "중형견 6~8kg",
+       "name": "스포팅",
+       "price": 100000
+      },
+      {
+       "category": "중형견 6~8kg",
+       "name": "가위컷",
+       "price": 110000
+      },
+      {
+       "category": "중형견 8~10kg",
+       "name": "전체",
+       "price": 85000
+      },
+      {
+       "category": "중형견 8~10kg",
+       "name": "목욕",
+       "price": 55000
+      },
+      {
+       "category": "중형견 8~10kg",
+       "name": "부분+목욕",
+       "price": 60000
+      },
+      {
+       "category": "중형견 8~10kg",
+       "name": "부분+목욕+얼굴컷",
+       "price": 70000
+      },
+      {
+       "category": "중형견 8~10kg",
+       "name": "스포팅",
+       "price": 110000
+      },
+      {
+       "category": "중형견 8~10kg",
+       "name": "가위컷",
+       "price": 120000
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "장모 / 엉킴 / 적은털",
+       "price": 5000
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "치핑 (이중모 정리)",
+       "price": 10000
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "발톱 / 나팔 / 장화",
+       "price": 10000
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "모량추가",
+       "price": 10000
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "이중모 / 강모",
+       "price": 5000
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "매너비용",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "추가요금 안내",
+       "name": "노령견",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "길이추가",
+       "name": "5mm",
+       "price": 5000
+      },
+      {
+       "category": "길이추가",
+       "name": "1cm",
+       "price": 10000
+      },
+      {
+       "category": "길이추가",
+       "name": "2cm",
+       "price": 15000
+      },
+      {
+       "category": "얼굴 디자인컷",
+       "name": "양머리 / 무쉬타슈 / 작은테디 / 푸들크라운",
+       "price": 5000
+      },
+      {
+       "category": "얼굴 디자인컷",
+       "name": "큰 테디 / 큰 곰돌이 / 슈나 버펄로컷",
+       "price": 10000
+      },
+      {
+       "category": "얼굴 디자인컷",
+       "name": "하이바 / 캔디 / 보노보노 / 브로콜리 / 베를린턴 외 다양한 컷",
+       "price": 15000
+      },
+      {
+       "category": "★ 발등 & 발바닥",
+       "name": "기본",
+       "price": 10000
+      },
+      {
+       "category": "★ 발등 & 발바닥",
+       "name": "중/대형견",
+       "price": 15000
+      },
+      {
+       "category": "특수견",
+       "name": "비숑 / 웰시코기 / 꼬똥 / 베들링턴 테리어 외 추가비용",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "스파",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "팩",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "약욕",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792472458.662249",
+   "rc": 2,
+   "lr": "1792472579.828039",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792472436805559"
   },
   {
