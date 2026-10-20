@@ -3,10 +3,62 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3842,
- "updatedAt": "2026-10-20 15:26",
+ "version": 3843,
+ "updatedAt": "2026-10-20 15:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1792477608.544689",
+   "date": "2026-10-20",
+   "time": "15:26",
+   "store": "업데이트된 초대장: 컴포즈",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 업데이트된 초대장: 컴포즈 메뉴 다운로드 - 2026년 10월 21일 (수) 오후 1시 - 오후 3시 (GMT+9) (김규빈)\n일정이 업데이트되었습니다\n 변경됨: 시간, 위치\n \n \n 컴포즈 메뉴 다운로드\n 2026년 10월 21일 (수요일) ⋅ 오후 1시 – 오후 3시\n 한국 표준시 - 서울\n \n 위치\n 아이콘역삼-12-ICON 12.7 (8)\t\n <https://www.google.com/maps/search/%EC%95%84%EC%9D%B4%EC%BD%98%EC%97%AD%EC%82%BC-12-ICON+12.7+(8)?hl=ko>\n \n Google Meet으로 참여하기\n <https://meet.google.com/wii-oegf-imm?hs=224>\n \n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a157fb0fc782616>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a157fb0fc782616",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792477608544689"
+  },
+  {
+   "ts": "1792477608.270239",
+   "date": "2026-10-20",
+   "time": "15:26",
+   "store": "업데이트되어 메모가 추가된 초대장: 이동포함 아이샵케어",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 업데이트되어 메모가 추가된 초대장: (이동포함) 아이샵케어 메뉴등록 다운로드 - 2026년 10월 21일 (수) 오전 11:30 - 오후 3:30 (GMT+9) (<mailto:···|···>)\n일정이 업데이트되었습니다. 메모를 확인하세요\n \"12시 식사 이후 1~3시 회의실에서 진행예정입니다! \"\n 변경됨: 시간\n \n \n (이동포함) 아이샵케어 메뉴등록 다운로드\n 2026년 10월 21일 (수요일) ⋅ 오전 11:30 – 오후 3:30\n 한국 표준시 - 서울\n \n 위치\n 아이콘역삼빌딩, 대한민국 서울특별시 강남구 역삼2동\t\n <https://www.google.com/maps/search/%EC%95%84%EC%9D%B4%EC%BD%98%EC%97%AD%EC%82%BC%EB%B9%8C%EB%94%A9,+%EB%>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a157fc57610a77a>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a157fc57610a77a",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792477608270239"
+  },
   {
    "ts": "1792475365.812889",
    "date": "2026-10-20",
@@ -2703,8 +2755,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "• *메뉴 생성*\n    ◦ [ 점심 특선 ] 카테고리에\n    ◦ 샤브전골 12,900원 추가\n-----\n• *메뉴 이동*\n    ◦ <제육볶음>\n    ◦ [ 사이드 메뉴 ] 카테고리에 있던 메뉴를\n    ◦ [ 점심 특선 ] 카테고리로 이동\n-----\n• *메뉴 복사*\n    ◦ *<차돌 된장찌개>* & *<차돌 순두부찌개>*\n    ◦ [ 사이드 메뉴 ] 카테고리에 있던 메뉴를\n    ◦ [ 점심 특선 ] 카테고리에 새로 생성"
    ],
-   "rc": 3,
-   "lr": "1792477505.281299",
+   "rc": 4,
+   "lr": "1792477688.445569",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
