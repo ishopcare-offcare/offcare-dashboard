@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22949,
+  "version": 22950,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267370,11 +267370,14 @@ window.SLACK_DATA = {
       },
       "1792453501.378839": {
         "post": "1792453501.378839",
-        "lastSeen": 1792454670.889
+        "lastSeen": 1792454771.323,
+        "r": 1,
+        "day": "2026-10-20",
+        "idx": 2
       },
       "1792454599.052099": {
         "post": "1792454599.052099",
-        "lastSeen": 1792454670.889,
+        "lastSeen": 1792454771.323,
         "r": 1,
         "day": "2026-10-20",
         "idx": 1
@@ -361877,8 +361880,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-20": {
-        "cnt": 2,
-        "sumMin": 18.669930366675057,
+        "cnt": 3,
+        "sumMin": 38.99871638218562,
         "over": 0,
         "items": [
           {
@@ -361897,13 +361900,21 @@ window.SLACK_DATA = {
             "biz": "1663201601",
             "who": "심성현",
             "cat": "as"
+          },
+          {
+            "hm": "08:45",
+            "min": 20.3,
+            "store": "아나톨리아 케밥",
+            "biz": "5945101068",
+            "who": "고경림",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:04",
+    "at": "2026-10-20 09:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362037,7 +362048,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:04",
+    "at": "2026-10-20 09:06",
     "pri": {
       "days": 0,
       "failed": [],
