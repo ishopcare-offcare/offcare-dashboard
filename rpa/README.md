@@ -41,13 +41,13 @@ npx playwright install chromium
 node rpa/login.js
 
 # 2) 반자동(dry-run 기본) — 등록 직전까지만, 검수 스크린샷 생성
-node rpa/upload-menu.js --biz 3850103958 --file out/토스플레이스_업로드_중화호반.csv
+node rpa/upload-menu.js --biz 1234567890 --file out/토스플레이스_업로드_중화호반.csv
 
 # 3) 검수 OK → 실제 등록
-node rpa/upload-menu.js --biz 3850103958 --file out/토스플레이스_업로드_중화호반.csv --confirm
+node rpa/upload-menu.js --biz 1234567890 --file out/토스플레이스_업로드_중화호반.csv --confirm
 
 # 이미지 동시 첨부
-node rpa/upload-menu.js --biz 3850103958 --file out/...csv --images shots/a.jpg,shots/b.jpg
+node rpa/upload-menu.js --biz 1234567890 --file out/...csv --images shots/a.jpg,shots/b.jpg
 ```
 
 ## ⚠️ 실제 셀렉터를 채워야 동작함
