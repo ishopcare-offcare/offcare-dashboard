@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22987,
+  "version": 22988,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267215,6 +267215,9 @@ window.SLACK_DATA = {
         },
         "booking": {
           "고경림": 1
+        },
+        "delivery": {
+          "고경림": 1
         }
       },
       "pending": [],
@@ -267313,7 +267316,8 @@ window.SLACK_DATA = {
           "req": "안녕하세요,",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "사업자 지출 증빙 안내 완료",
+          "rr": 1
         },
         {
           "time": "09:26",
@@ -267326,6 +267330,17 @@ window.SLACK_DATA = {
           "intake": "offline",
           "note": "2420 할부 미설정 설정 후 정상 결제 완료 / 특수 -&gt; 사용자용 -&gt; 할부기능 -&gt; 1. 미사용 / 0. 사용 사용으로 변경 특수 - 사용자용 - 할부기능 - 1. 미사용 / 0. 사용 사용으로 변경 / 입니다",
           "rr": 5
+        },
+        {
+          "time": "09:21",
+          "store": "하프카페(Half cafe)",
+          "biz": "6490304082",
+          "cat": "delivery",
+          "emp": "고경림",
+          "req": "쿠팡이츠 주문 접수프로그램 설치 후 로그인 사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:17",
@@ -267456,7 +267471,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 5,
         "unknown": 0
       },
@@ -267542,30 +267557,23 @@ window.SLACK_DATA = {
         "post": "1792422036.658939",
         "lastSeen": 1792440926.999
       },
-      "1792455679.637869": {
-        "post": "1792455679.637869",
-        "lastSeen": 1792458394.478,
-        "r": 1,
-        "day": "2026-10-20",
-        "idx": 3
-      },
       "1792456205.730659": {
         "post": "1792456205.730659",
-        "lastSeen": 1792458394.478,
+        "lastSeen": 1792458528.505,
         "r": 1,
         "day": "2026-10-20",
         "idx": 4
       },
       "1792456208.404469": {
         "post": "1792456208.404469",
-        "lastSeen": 1792458394.478,
+        "lastSeen": 1792458528.505,
         "r": 1,
         "day": "2026-10-20",
         "idx": 10
       },
       "1792458011.570759": {
         "post": "1792458011.570759",
-        "lastSeen": 1792458394.478,
+        "lastSeen": 1792458528.505,
         "r": 1,
         "day": "2026-10-20",
         "idx": 11
@@ -362105,7 +362113,8 @@ window.SLACK_DATA = {
             "store": "하프카페(Half cafe)",
             "biz": "6490304082",
             "who": "고경림",
-            "cat": "delivery"
+            "cat": "delivery",
+            "dmin": 46.4
           },
           {
             "hm": "09:30",
@@ -362190,7 +362199,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 10:06",
+    "at": "2026-10-20 10:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362324,7 +362333,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 10:06",
+    "at": "2026-10-20 10:08",
     "pri": {
       "days": 0,
       "failed": [],
