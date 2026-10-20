@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3813,
- "updatedAt": "2026-10-20 12:13",
+ "version": 3814,
+ "updatedAt": "2026-10-20 12:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1792468502.690429",
+   "date": "2026-10-20",
+   "time": "12:55",
+   "store": "솥뚜껑 닭 목살구이",
+   "biz": "7033401724",
+   "pos": "기타",
+   "content": "메뉴추가\n\n갈매기살   18000원\n돼지목덜미살   18000원\n오징어숙회  20000원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792468502690429"
+  },
   {
    "ts": "1792462910.401549",
    "date": "2026-10-20",
