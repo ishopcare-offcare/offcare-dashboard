@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22953,
+  "version": 22954,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267290,7 +267290,8 @@ window.SLACK_DATA = {
           "req": "10월 20일 오전 9시 / 메뉴 복사 O / 프론트, 태블릿, 유프, 금전함",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "명의변경완료 • 온보딩후 가결제 충족으로 확인완료 온보딩후 가결제 충족으로 확인완료",
+          "rr": 1
         },
         {
           "time": "08:40",
@@ -267396,7 +267397,7 @@ window.SLACK_DATA = {
       },
       "1792454599.052099": {
         "post": "1792454599.052099",
-        "lastSeen": 1792455325.129,
+        "lastSeen": 1792455399.862,
         "r": 1,
         "day": "2026-10-20",
         "idx": 1
@@ -361934,7 +361935,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:15",
+    "at": "2026-10-20 09:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -361942,7 +361943,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4641,
     "named": 1225,
-    "unknownName": 112,
+    "unknownName": 113,
     "beforeStart": 0,
     "done": 1225,
     "byStatus": {
@@ -362068,7 +362069,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:15",
+    "at": "2026-10-20 09:16",
     "pri": {
       "days": 0,
       "failed": [],
