@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22944,
+  "version": 22945,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267197,10 +267197,10 @@ window.SLACK_DATA = {
     },
     "2026-10-20": {
       "counts": {
-        "extern": {
-          "김동욱": 1
-        },
         "as": {
+          "김동욱": 4
+        },
+        "extern": {
           "김동욱": 1
         },
         "menu": {
@@ -267209,6 +267209,39 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "08:53",
+          "store": "컴포즈커피 성수코리아IT점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "와플 메뉴 6개 추가하였으나 주방 출력안됨.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "08:53",
+          "store": "컴포즈커피 HD올림픽 셀프주유소점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "와플 메뉴 6개 추가하였으나 주방 출력안됨.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "08:53",
+          "store": "컴포즈커피 수원인계점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "와플 메뉴 6개 추가하였으나 주방 출력안됨.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "08:52",
           "store": "꾹이네 돼지불백",
@@ -267230,7 +267263,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "담당자님과 통화하였씁니다. / 엇 제가 방금 통화했는데 인입된거에여??? 3군데 모두 적용했어요! / 아아 전 적어주신 연락처로 안내드렸어요!",
-          "rr": 8
+          "rr": 9
         },
         {
           "time": "07:50",
@@ -267246,7 +267279,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 6,
         "offline": 0,
         "unknown": 0
       },
@@ -267324,15 +267357,7 @@ window.SLACK_DATA = {
       },
       "1792453501.378839": {
         "post": "1792453501.378839",
-        "lastSeen": 1792454029.049
-      },
-      "1792454015.813829": {
-        "post": "1792454015.813829",
-        "lastSeen": 1792454029.049
-      },
-      "1792454003.113459": {
-        "post": "1792454003.113459",
-        "lastSeen": 1792454029.049
+        "lastSeen": 1792454421.112
       }
     },
     "days": {
@@ -361850,7 +361875,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 08:54",
+    "at": "2026-10-20 09:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -361984,7 +362009,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 08:53",
+    "at": "2026-10-20 09:00",
     "pri": {
       "days": 0,
       "failed": [],
