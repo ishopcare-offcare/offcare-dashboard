@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3812,
- "updatedAt": "2026-10-20 12:05",
+ "version": 3813,
+ "updatedAt": "2026-10-20 12:13",
  "days": 30,
  "items": [
   {
@@ -56708,32 +56708,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789888668603149"
-  },
-  {
-   "ts": "1789873908.192519",
-   "date": "2026-09-20",
-   "time": "12:11",
-   "store": "청연",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 청연 메뉴이미지\n대용량 첨부 1개 190MB  ai이미지컷.zip 199123954 ~ 2026/10/20 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    청연  메뉴 이미지  문구 보내드립니다, 감사합니다. \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0bcc9a83205fce>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0bcc9a83205fce",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789873908192519"
   }
  ],
  "ocr": {
