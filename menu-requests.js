@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3810,
- "updatedAt": "2026-10-20 11:15",
+ "version": 3811,
+ "updatedAt": "2026-10-20 11:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1792462910.401549",
+   "date": "2026-10-20",
+   "time": "11:21",
+   "store": "초대장: 컴포즈",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 초대장: 컴포즈 메뉴 다운로드 - 2026년 10월 21일 (수) 오후 1시 - 오후 2시 (GMT+9) (김규빈)\n컴포즈 메뉴 다운로드\n 2026년 10월 21일 (수요일) ⋅ 오후 1시 – 오후 2시\n 한국 표준시 - 서울\n \n 위치\n 아이콘역삼-12-ICON 12.6 (6)\t\n <https://www.google.com/maps/search/%EC%95%84%EC%9D%B4%EC%BD%98%EC%97%AD%EC%82%BC-12-ICON+12.6+(6)?hl=ko>\n \n Google Meet으로 참여하기\n <https://meet.google.com/wii-oegf-imm?hs=224>\n \n \n \t\n 휴대전화로 참여하기\n (US) +1 317-868\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a1571b7ad9af590>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a1571b7ad9af590",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792462910401549"
+  },
   {
    "ts": "1792462143.290719",
    "date": "2026-10-20",
