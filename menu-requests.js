@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3846,
- "updatedAt": "2026-10-20 16:17",
+ "version": 3847,
+ "updatedAt": "2026-10-20 16:18",
  "days": 30,
  "items": [
   {
@@ -58368,30 +58368,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789953205988469"
-  },
-  {
-   "ts": "1789888668.603149",
-   "date": "2026-09-20",
-   "time": "16:17",
-   "store": "평강삼계탕 중앙대점",
-   "biz": "26109*****",
-   "pos": "오케이포스",
-   "content": "오케이포스) 메뉴 추가 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "포장 숟가락 추가 / 0원",
-    "2+1 / 45,000원"
-   ],
-   "rc": 4,
-   "lr": "1789901121.556479",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789888668603149"
   }
  ],
  "ocr": {
