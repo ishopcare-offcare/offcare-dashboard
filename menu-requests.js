@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3857,
- "updatedAt": "2026-10-20 16:57",
+ "version": 3858,
+ "updatedAt": "2026-10-20 16:59",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,45 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAN307AQ1",
+     "from": "댓글",
+     "path": "menu-files/1792483017_784879-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "죽",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고기 추가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "샤브전골",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792483049.495609",
+   "replies": [
+    "헉 그렇구나 그러면 테이블오더측으로 문의 하셔야 되는 점으로 안내 드리겠습니다 확인해 주셔서 감사합니다!"
+   ],
+   "rc": 4,
+   "lr": "1792483122.970599",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792483017784879"
   },
   {
