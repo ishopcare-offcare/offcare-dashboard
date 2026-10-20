@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3871,
- "updatedAt": "2026-10-20 21:52",
+ "version": 3872,
+ "updatedAt": "2026-10-20 21:56",
  "days": 30,
  "items": [
   {
@@ -627,8 +627,8 @@ window.MENU_REQUESTS = {
     "부어 라는 메뉴 0원으로 노출 및 가격을 마음대로 설정할 수 있도록\n메뉴추가 부탁드립니다. (금액 직접입력)",
     "큰일이 났구만요.."
    ],
-   "rc": 17,
-   "lr": "1792500748.455389",
+   "rc": 18,
+   "lr": "1792500940.019979",
    "rfx": 3,
    "status": "wait",
    "handler": null,
