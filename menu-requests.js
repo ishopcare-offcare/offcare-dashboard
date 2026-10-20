@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3836,
- "updatedAt": "2026-10-20 15:03",
+ "version": 3837,
+ "updatedAt": "2026-10-20 15:05",
  "days": 30,
  "items": [
   {
@@ -160,8 +160,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1792475494.204299",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792475365812889"
   },
   {
@@ -699,10 +699,12 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1792473449447209?thread_ts=···.381229&cid=C0ADC9759KQ"
+    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1792473449447209?thread_ts=···.381229&cid=C0ADC9759KQ",
+    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1792476183688059?thread_ts=···.381229&cid=C0ADC9759KQ",
+    "2층테이블 작업 안된듯!"
    ],
-   "rc": 4,
-   "lr": "1792473839.413709",
+   "rc": 7,
+   "lr": "1792476297.742619",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
