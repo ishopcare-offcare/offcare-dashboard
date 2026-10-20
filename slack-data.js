@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 22958,
+  "version": 22959,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -267198,6 +267198,7 @@ window.SLACK_DATA = {
     "2026-10-20": {
       "counts": {
         "as": {
+          "송태양": 1,
           "심성현": 1,
           "고경림": 1,
           "김동욱": 4
@@ -267214,6 +267215,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:17",
+          "store": "어라운드 필라테스",
+          "biz": "8993201910",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "프론트/ 할부개월수 입력이 불가한 (터치 안먹음) 상황으로 사용 상태 확인 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:07",
           "store": "꾹이네 돼지불백",
@@ -267331,7 +267343,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 0,
         "unknown": 0
       },
@@ -267409,7 +267421,7 @@ window.SLACK_DATA = {
       },
       "1792455679.637869": {
         "post": "1792455679.637869",
-        "lastSeen": 1792455779.182,
+        "lastSeen": 1792455834.642,
         "r": 1,
         "day": "2026-10-20",
         "idx": 3
@@ -361956,7 +361968,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-20 09:23",
+    "at": "2026-10-20 09:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -362090,7 +362102,7 @@ window.SLACK_DATA = {
     "2026-10-20": 2
   },
   "noteMig": {
-    "at": "2026-10-20 09:22",
+    "at": "2026-10-20 09:23",
     "pri": {
       "days": 0,
       "failed": [],
