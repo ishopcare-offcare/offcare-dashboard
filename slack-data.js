@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23573,
+  "version": 23574,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270406,6 +270406,7 @@ window.SLACK_DATA = {
     "2026-10-21": {
       "counts": {
         "extern": {
+          "심성현": 1,
           "서상원": 1,
           "김동욱": 2,
           "배선유": 3
@@ -270444,6 +270445,18 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
+          "time": "10:57",
+          "store": "앨리스 공방",
+          "biz": "57711*****",
+          "handler": "박하림",
+          "cat": "as",
+          "intake": "online",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1792383284010359|재발송 >받고 설치중인데 똑같이 안된다 하셔서 점검 부탁드립니다.",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
           "time": "10:32",
           "store": "카페반달",
           "biz": "25111*****",
@@ -270457,6 +270470,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:59",
+          "store": "한상명가한식뷔페입장점",
+          "biz": "55404*****",
+          "cat": "extern",
+          "emp": "심성현",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:47",
           "store": "엄마 반찬",
@@ -271030,11 +271054,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 41,
+        "online": 43,
         "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "11:47",
+      "updatedAt": "11:59",
       "absent": [
         {
           "time": "11:00",
@@ -271240,36 +271264,36 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792551341.288,
+        "lastSeen": 1792551564.289,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792546366.734869": {
         "post": "1792546366.734869",
-        "lastSeen": 1792551341.288,
+        "lastSeen": 1792551564.289,
         "r": 1,
         "day": "2026-10-21",
         "idx": 13
       },
       "1792547100.386469": {
         "post": "1792547100.386469",
-        "lastSeen": 1792551341.288
+        "lastSeen": 1792551564.289
       },
       "1792547508.494359": {
         "post": "1792547508.494359",
-        "lastSeen": 1792551341.288
+        "lastSeen": 1792551564.289
       },
       "1792547853.417599": {
         "post": "1792547853.417599",
-        "lastSeen": 1792551341.288,
+        "lastSeen": 1792551564.289,
         "r": 1,
         "day": "2026-10-21",
         "idx": 28
       },
       "1792548006.808889": {
         "post": "1792548006.808889",
-        "lastSeen": 1792551341.288,
+        "lastSeen": 1792551564.289,
         "r": 1,
         "day": "2026-10-21",
         "idx": 22
@@ -367754,13 +367778,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-21 11:56",
+    "at": "2026-10-21 11:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4670,
+    "rows": 4671,
     "named": 1245,
     "unknownName": 119,
     "beforeStart": 0,
@@ -367889,7 +367913,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 11:55",
+    "at": "2026-10-21 11:59",
     "pri": {
       "days": 0,
       "failed": [],
