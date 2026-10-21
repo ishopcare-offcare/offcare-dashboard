@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23502,
+  "version": 23503,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270466,8 +270466,8 @@ window.SLACK_DATA = {
           "req": "나들가게 프로그램 연동을 위해 vcat 설치 관련 원격 요청 주셨습니다. (<https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1792037322586119|주문스레드>)",
           "hw": "",
           "intake": "online",
-          "note": "102102026 / 나들가게 연동 및 페페 결제 테스트 완료",
-          "rr": 4
+          "note": "102102026 / 나들가게 연동 및 페페 결제 테스트 완료 / 제로페이/카카오페이 등록 완료. 제로페이/카카오페이 등록 완료.",
+          "rr": 5
         },
         {
           "time": "09:36",
@@ -270707,7 +270707,7 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792545107.015,
+        "lastSeen": 1792545170.173,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
@@ -366943,7 +366943,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-21 10:12",
+    "at": "2026-10-21 10:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -367078,7 +367078,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 10:11",
+    "at": "2026-10-21 10:12",
     "pri": {
       "days": 0,
       "failed": [],
