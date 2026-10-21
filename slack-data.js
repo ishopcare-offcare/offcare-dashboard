@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23465,
+  "version": 23466,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270393,11 +270393,23 @@ window.SLACK_DATA = {
     "2026-10-21": {
       "counts": {
         "as": {
-          "김동욱": 2
+          "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:05",
+          "store": "호텔초콜릿성남",
+          "biz": "36706*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "단말기 액정이 깜빡거린다고하십니다.:꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": "mpos-2100 대체품 출고",
+          "rr": 1
+        },
         {
           "time": "09:00",
           "store": "주식회사 엠에프씨21",
@@ -270425,7 +270437,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 2,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:05"
@@ -270578,17 +270590,10 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792541395.822,
+        "lastSeen": 1792541650.672,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
-      },
-      "1792541158.881519": {
-        "post": "1792541158.881519",
-        "lastSeen": 1792541395.822,
-        "r": 1,
-        "day": "2026-10-21",
-        "idx": 2
       }
     },
     "days": {
@@ -366768,14 +366773,15 @@ window.SLACK_DATA = {
             "store": "호텔초콜릿성남",
             "biz": "36706*****",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-21 09:10",
+    "at": "2026-10-21 09:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -366910,7 +366916,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 09:09",
+    "at": "2026-10-21 09:14",
     "pri": {
       "days": 0,
       "failed": [],
