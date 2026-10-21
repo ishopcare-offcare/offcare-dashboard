@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3920,
- "updatedAt": "2026-10-21 16:25",
+ "version": 3921,
+ "updatedAt": "2026-10-21 16:28",
  "days": 30,
  "items": [
   {
@@ -60,16 +60,123 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CB0F9JH9S",
+     "from": "댓글",
+     "path": "menu-files/1792566245_340119-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "선불",
+       "name": "선불01",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불02",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불03",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불04",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불05",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불06",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불07",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불08",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불09",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불10",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불11",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불12",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불13",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불14",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불15",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "선불",
+       "name": "선불16",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     ":중요2: KSNET이 아닌 KIS 입니다!"
    ],
-   "rc": 2,
-   "lr": "1792566256.282729",
+   "rc": 3,
+   "lr": "1792567686.877129",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566245340119"
   },
   {
@@ -94,10 +201,10 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792563804.516689",
+   "rc": 3,
+   "lr": "1792567627.387339",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792563792635789"
   },
