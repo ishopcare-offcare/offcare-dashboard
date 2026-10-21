@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3877,
- "updatedAt": "2026-10-21 09:38",
+ "version": 3878,
+ "updatedAt": "2026-10-21 09:39",
  "days": 30,
  "items": [
   {
@@ -6232,7 +6232,68 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1KVtvV01BxUEeiLBuNZgPzl1HqWUmqMi3/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAU6YEE82",
+     "from": "댓글",
+     "path": "menu-files/1792378055_509199-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "닭강정",
+       "name": "커플닭강정",
+       "price": 16900
+      },
+      {
+       "category": "닭발",
+       "name": "통닭발",
+       "price": 17000
+      },
+      {
+       "category": "닭강정",
+       "name": "누룽지 닭강정 2~3인",
+       "price": 24000
+      },
+      {
+       "category": "닭강정",
+       "name": "반반메뉴",
+       "price": 25000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "버터갈릭감자튀김",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "콜라 500ml",
+       "price": 2000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "콜라 1.25L",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치킨무",
+       "price": 1000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "물",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [
     {
      "id": "1KVtvV01BxUEeiLBuNZgPzl1HqWUmqMi3",
@@ -6274,10 +6335,12 @@ window.MENU_REQUESTS = {
    ],
    "replies": [
     "누룽지 닭강정 2~3인 24000원\n반반메뉴 25000원\n버터갈릭감자튀김 7000원\n콜라 500ml 2000원\n콜라 1.25L 3000원\n치킨무 1000원\n\n금일 오전 내에 빠르게 등록 필요하다고 하시어 내용 공유드립니다",
-    "님 바쁘신데 죄송합니다만\n금일 오전에 꼭 등록 필요하다고, 안되어있다고 인입되어 내용 공유드립니다"
+    "님 바쁘신데 죄송합니다만\n금일 오전에 꼭 등록 필요하다고, 안되어있다고 인입되어 내용 공유드립니다",
+    "상품관리에는 있는데 없다고 하십니다..",
+    "님 올려주신 글하고 상호명이 조금 다른거같은데 사업자번호는 맞을까요?"
    ],
-   "rc": 2,
-   "lr": "1792543107.243119",
+   "rc": 4,
+   "lr": "1792543179.498669",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
