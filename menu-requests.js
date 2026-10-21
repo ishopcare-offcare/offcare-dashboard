@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3882,
- "updatedAt": "2026-10-21 10:42",
+ "version": 3883,
+ "updatedAt": "2026-10-21 10:44",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,478 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "화면 캡처 2026-10-21 095115.png",
+     "fid": "F0CANG3D84B",
+     "from": "댓글",
+     "path": "menu-files/1792546924_905089-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아이스 아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "오츠라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아이스 오츠라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "원두 200g",
+       "price": 17000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페 라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아이스 카페 라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라 라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아이스 바닐라 라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "원두",
+       "price": 28000
+      },
+      {
+       "category": "COFFEE",
+       "name": "몽블랑라떼(only iced)",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "토스티 1kg",
+       "price": 43000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100314.png",
+     "fid": "F0CANGAFFH9",
+     "from": "댓글",
+     "path": "menu-files/1792546924_905089-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "NON-COFFEE",
+       "name": "히비스커스",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "아이스 히비스커스",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "카모마일",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "아이스 카모마일",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "쑥절미 라떼(only iced)",
+       "price": 5500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "피치우롱",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "아이스 피치우롱",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "밀크티",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "아이스 밀크티",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "레몬소르베에이드",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100350.png",
+     "fid": "F0CANGAL29Z",
+     "from": "댓글",
+     "path": "menu-files/1792546924_905089-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "FILTER",
+       "name": "온두라스 워시드",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 온두라스 워시드",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "게이샤",
+       "price": 7500
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 게이샤",
+       "price": 7500
+      },
+      {
+       "category": "FILTER",
+       "name": "르완다",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "에콰도르 워시드",
+       "price": 7000
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 에콰도르 워시드",
+       "price": 7000
+      },
+      {
+       "category": "FILTER",
+       "name": "에티오피아 워시드",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 에티오피아 워시드",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 르완다",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "볼리비아 게이샤",
+       "price": 7000
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 볼리비아 게이샤",
+       "price": 7000
+      },
+      {
+       "category": "FILTER",
+       "name": "케냐 워시드",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "아이스 케냐 워시드",
+       "price": 6000
+      },
+      {
+       "category": "FILTER",
+       "name": "코스타리카",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100416.png",
+     "fid": "F0CAPEKSLRK",
+     "from": "댓글",
+     "path": "menu-files/1792546924_905089-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "FILTER",
+       "name": "아이스 코스타리카",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100501.png",
+     "fid": "F0CADBZ5295",
+     "from": "댓글",
+     "path": "menu-files/1792546924_905089-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BAKE",
+       "name": "애플 시나몬 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "땅콩 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "얼그레이 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "바스크 치즈 케이크",
+       "price": 6500
+      },
+      {
+       "category": "BAKE",
+       "name": "갈레트 브루통",
+       "price": 2200
+      },
+      {
+       "category": "BAKE",
+       "name": "초코 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "말차 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "쑥 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "티라미수 바스크",
+       "price": 7000
+      },
+      {
+       "category": "BAKE",
+       "name": "푸딩",
+       "price": 4000
+      },
+      {
+       "category": "BAKE",
+       "name": "레몬브륄레 티그레",
+       "price": 3200
+      },
+      {
+       "category": "BAKE",
+       "name": "오렌지 컵케이크",
+       "price": 5000
+      },
+      {
+       "category": "BAKE",
+       "name": "밤바스크",
+       "price": 7000
+      },
+      {
+       "category": "BAKE",
+       "name": "복숭아 바스크",
+       "price": 7000
+      },
+      {
+       "category": "BAKE",
+       "name": "딸기케이크",
+       "price": 8500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100534.png",
+     "fid": "F0CBP4PEB3J",
+     "from": "댓글",
+     "path": "menu-files/1792546924_905089-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BAKE",
+       "name": "무화과 케이크",
+       "price": 8500
+      },
+      {
+       "category": "BAKE",
+       "name": "미니 티그레4p",
+       "price": 3500
+      },
+      {
+       "category": "BAKE",
+       "name": "바스크 1호",
+       "price": 37000
+      },
+      {
+       "category": "BAKE",
+       "name": "무화과 미니 케이크",
+       "price": 30000
+      },
+      {
+       "category": "BAKE",
+       "name": "쿠키슈",
+       "price": 7000
+      },
+      {
+       "category": "BAKE",
+       "name": "티라미수 1호",
+       "price": 39000
+      },
+      {
+       "category": "BAKE",
+       "name": "말차 티그레",
+       "price": 1400
+      },
+      {
+       "category": "BAKE",
+       "name": "초코 티그레",
+       "price": 1400
+      },
+      {
+       "category": "BAKE",
+       "name": "얼그레이 티그레",
+       "price": 100
+      },
+      {
+       "category": "BAKE",
+       "name": "택배",
+       "price": 4000
+      },
+      {
+       "category": "BAKE",
+       "name": "딸기케이크",
+       "price": 42000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100143.png",
+     "fid": "F0CBP4N3V96",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장여부",
+       "name": "Drink To-go",
+       "price": -1000
+      },
+      {
+       "category": "매장여부",
+       "name": "For here",
+       "price": 0
+      },
+      {
+       "category": "매장여부",
+       "name": "Togo",
+       "price": 0
+      },
+      {
+       "category": "변경",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "변경",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "변경",
+       "name": "오트밀크 변경",
+       "price": 500
+      },
+      {
+       "category": "변경",
+       "name": "얼음 적게",
+       "price": 0
+      },
+      {
+       "category": "변경",
+       "name": "1shot",
+       "price": 0
+      },
+      {
+       "category": "변경",
+       "name": "우유적게",
+       "price": 0
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 100622.png",
+     "fid": "F0CANGDE0TD",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장여부",
+       "name": "Drink To-go",
+       "price": -1000
+      },
+      {
+       "category": "매장여부",
+       "name": "For here",
+       "price": 0
+      },
+      {
+       "category": "매장여부",
+       "name": "Togo",
+       "price": 0
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "화면 캡처 2026-10-21 095038.png",
+     "fid": "F0CANGDEE5R",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792546929.064219",
+   "rc": 2,
+   "lr": "1792547011.561939",
    "rfx": 3,
    "status": "wait",
    "handler": null,
