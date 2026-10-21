@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3912,
- "updatedAt": "2026-10-21 14:17",
+ "version": 3913,
+ "updatedAt": "2026-10-21 15:22",
  "days": 30,
  "items": [
   {
@@ -61237,29 +61237,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789973172170769"
-  },
-  {
-   "ts": "1789971691.690409",
-   "date": "2026-09-21",
-   "time": "15:21",
-   "store": "오늘애",
-   "biz": "23515*****",
-   "pos": "퍼스트포스",
-   "content": "메뉴 수정 및 추가 요청드립니다! (스파로스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• 카라멜 마끼아또 5,500\n• 헤이즐넛 카페라떼 5,000\n• 돌체라떼 5,500\n• 고구마라떼 5,500\n• 호지라떼 6,500\n• 치스크림라떼 7,000\n• 오봉에이드6,000\n• 복숭아스무디 싯가 >> 6,500원\n• 성주참외스무디 >> 키위스무디 6,500원\n[ 디저트 ]\n• 아이스크림 추가 1,000원\n• 다쿠아즈 3,700원\n• 명란소금빵 4,800원"
-   ],
-   "rc": 3,
-   "lr": "1789972697.708019",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789971691690409"
   }
  ],
  "ocr": {
