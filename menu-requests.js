@@ -3,10 +3,181 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3939,
- "updatedAt": "2026-10-21 17:58",
+ "version": 3940,
+ "updatedAt": "2026-10-21 18:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1792574201.336059",
+   "date": "2026-10-21",
+   "time": "18:16",
+   "store": "을지로골뱅이",
+   "biz": "10704*****",
+   "pos": "오케이포스",
+   "content": "가격 변경있습니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1W5wetINRzuhA3vWPaikkqoKLnIJUFuWT/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1W5wetINRzuhA3vWPaikkqoKLnIJUFuWT",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "골뱅이무침",
+       "price": 33000
+      },
+      {
+       "category": "",
+       "name": "후라이드치킨",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "버팔로윙,스틱",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "닭똥집튀김",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "고르곤졸라피자",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "모듬감자튀김",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "번데기탕",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "얼큰어묵탕",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "낙지볶음",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "오징어볶음",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "모듬소시지구이",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "스팸구이",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "황도",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "과일안주(계절)",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "과일야채샐러드",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "먹태+땅콩",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "노가리+땅콩",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "한치+땅콩",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "쥐포+땅콩",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "국산 삼겹살 200g",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "*사리추가",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "생맥주(500cc)",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "병맥주(500cc)",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "콜라,사이다",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "커피",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "와인",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "양주",
+       "price": 100000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792574201336059"
+  },
   {
    "ts": "1792572192.633629",
    "date": "2026-10-21",
