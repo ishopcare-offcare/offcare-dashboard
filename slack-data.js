@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23982,
+  "version": 23983,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273681,11 +273681,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-22": {
-      "counts": {},
+      "counts": {
+        "menu": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:24",
+          "store": "온빛",
+          "biz": "82410*****",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "oSy11jnblfOSfp/view?usp=drivesdk>, <https://drive.google.com",
+          "intake": "online",
+          "note": "찹쌀과일모찌 딸기 /키위 4500 그릭요거트모찌 4500 딸기/키위 생초코모찌 4500",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -273854,13 +273871,6 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
-      },
-      "1792625079.159329": {
-        "post": "1792625079.159329",
-        "lastSeen": 1792626325.323,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 0
       }
     },
     "days": {
@@ -371840,14 +371850,15 @@ window.SLACK_DATA = {
             "store": "온빛",
             "biz": "82410*****",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 25.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 08:45",
+    "at": "2026-10-22 08:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -371983,7 +371994,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 08:45",
+    "at": "2026-10-22 08:55",
     "pri": {
       "days": 0,
       "failed": [],
