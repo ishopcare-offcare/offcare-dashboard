@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3933,
- "updatedAt": "2026-10-21 17:17",
+ "version": 3934,
+ "updatedAt": "2026-10-21 17:31",
  "days": 30,
  "items": [
   {
@@ -60786,29 +60786,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789979905786569"
-  },
-  {
-   "ts": "1789979502.981039",
-   "date": "2026-09-21",
-   "time": "17:31",
-   "store": "행복한집",
-   "biz": "39313*****",
-   "pos": "퍼스트포스",
-   "content": "메뉴 요청 ->  추어탕 제거,   주류에 하이볼 6,000원 추가  요청    :꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "감사합니다 규빈님"
-   ],
-   "rc": 3,
-   "lr": "1789982103.183009",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789979502981039"
   }
  ],
  "ocr": {
