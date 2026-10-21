@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23460,
+  "version": 23461,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270549,14 +270549,17 @@ window.SLACK_DATA = {
       },
       "1792540801.477409": {
         "post": "1792540801.477409",
-        "lastSeen": 1792541043.089,
+        "lastSeen": 1792541119.446,
         "r": 1,
         "day": "2026-10-21",
         "idx": 0
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792541043.089
+        "lastSeen": 1792541119.446,
+        "r": 1,
+        "day": "2026-10-21",
+        "idx": 1
       }
     },
     "days": {
@@ -366709,8 +366712,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-21": {
-        "cnt": 1,
-        "sumMin": 3.1630931854248048,
+        "cnt": 2,
+        "sumMin": 7.377935866514841,
         "over": 0,
         "items": [
           {
@@ -366720,13 +366723,21 @@ window.SLACK_DATA = {
             "biz": "20781*****",
             "who": "김동욱",
             "cat": "as"
+          },
+          {
+            "hm": "09:00",
+            "min": 4.2,
+            "store": "해리스 뷰티랩",
+            "biz": "69564*****",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-21 09:04",
+    "at": "2026-10-21 09:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -366861,7 +366872,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 09:04",
+    "at": "2026-10-21 09:05",
     "pri": {
       "days": 0,
       "failed": [],
