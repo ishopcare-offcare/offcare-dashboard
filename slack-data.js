@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23981,
+  "version": 23982,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273857,7 +273857,10 @@ window.SLACK_DATA = {
       },
       "1792625079.159329": {
         "post": "1792625079.159329",
-        "lastSeen": 1792625567.417
+        "lastSeen": 1792626325.323,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 0
       }
     },
     "days": {
@@ -371825,11 +371828,26 @@ window.SLACK_DATA = {
             "dmin": 40.1
           }
         ]
+      },
+      "2026-10-22": {
+        "cnt": 1,
+        "sumMin": 14.453511182467143,
+        "over": 0,
+        "items": [
+          {
+            "hm": "08:24",
+            "min": 14.5,
+            "store": "온빛",
+            "biz": "82410*****",
+            "who": "김동욱",
+            "cat": "menu"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 08:33",
+    "at": "2026-10-22 08:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -371965,7 +371983,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 08:32",
+    "at": "2026-10-22 08:45",
     "pri": {
       "days": 0,
       "failed": [],
