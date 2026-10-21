@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3949,
- "updatedAt": "2026-10-21 19:02",
+ "version": 3950,
+ "updatedAt": "2026-10-21 21:30",
  "days": 30,
  "items": [
   {
@@ -60327,30 +60327,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790035203484649"
-  },
-  {
-   "ts": "1789993358.129479",
-   "date": "2026-09-21",
-   "time": "21:22",
-   "store": "집밥",
-   "biz": "13048*****",
-   "pos": "퍼스트포스",
-   "content": "• 메뉴 수정 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "카테고리 : 빙수 바보 빙식이\n메뉴명:\n아포카토 치즈\n조리퐁쵸코\n커피빙수\n망고 바나나빙수\n찐한우유빙수\n1인망고\n1인딸기\n리얼생딸기\n생딸기바나나\n생딸기치즈\n\n빙수 메뉴 에세 제일 뒤쪽으로 설정 부탁드립니다.",
-    "해당 메뉴들 품절 메뉴여서 뒤쪽으로 배치 해달라고 하십니다."
-   ],
-   "rc": 4,
-   "lr": "1789997430.853789",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789993358129479"
   }
  ],
  "ocr": {
