@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3892,
- "updatedAt": "2026-10-21 12:22",
+ "version": 3893,
+ "updatedAt": "2026-10-21 12:35",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792552885524669"
   },
   {
@@ -60010,30 +60010,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789964193152119"
-  },
-  {
-   "ts": "1789961722.398899",
-   "date": "2026-09-21",
-   "time": "12:35",
-   "store": "강창구찹쌀진순대청송점",
-   "biz": "55102*****",
-   "pos": "",
-   "content": "메뉴 추가 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[마늘추가 1,000원] 추가 생성 요청\n\n(공기밥 1000원 옆에 생성 해달라고 하십니다.)",
-    "OK포스 입니다"
-   ],
-   "rc": 4,
-   "lr": "1789961833.377299",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789961722398899"
   }
  ],
  "ocr": {
