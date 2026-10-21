@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3913,
- "updatedAt": "2026-10-21 15:22",
+ "version": 3914,
+ "updatedAt": "2026-10-21 15:23",
  "days": 30,
  "items": [
+  {
+   "ts": "1792563792.635789",
+   "date": "2026-10-21",
+   "time": "15:23",
+   "store": "하우스플랜",
+   "biz": "33867*****",
+   "pos": "",
+   "content": "메뉴등록 요청드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "상품정보_하우스플랜 인천검단점_261021.xlsx",
+     "fid": "F0CAUBGH3UN",
+     "from": "댓글",
+     "path": "menu-files/1792563792_635789-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792563804.516689",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792563792635789"
+  },
   {
    "ts": "1792559494.920749",
    "date": "2026-10-21",
