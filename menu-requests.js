@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3923,
- "updatedAt": "2026-10-21 16:31",
+ "version": 3924,
+ "updatedAt": "2026-10-21 16:43",
  "days": 30,
  "items": [
   {
@@ -41,11 +41,13 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "대추차에 옵션만\n크랜베리스무디 삭제 완"
+   ],
+   "rc": 1,
+   "lr": "1792568602.495549",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566645987239"
   },
