@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3941,
- "updatedAt": "2026-10-21 18:23",
+ "version": 3942,
+ "updatedAt": "2026-10-21 18:24",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792574586.439719",
+   "replies": [
+    "*KOCES 토플파 > KPN 토플파* 에 메뉴 그대로 복사 부탁 드립니다!\n\n상품에 등록 된 바코드랑 시제도 동일하게 복사가 되는걸까요?"
+   ],
+   "rc": 2,
+   "lr": "1792574646.999619",
    "rfx": 3,
    "status": "wait",
    "handler": null,
