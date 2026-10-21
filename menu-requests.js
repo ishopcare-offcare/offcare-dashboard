@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3903,
- "updatedAt": "2026-10-21 13:55",
+ "version": 3904,
+ "updatedAt": "2026-10-21 13:57",
  "days": 30,
  "items": [
   {
@@ -44,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261020_165046.jpeg",
      "fid": "F0CAXFV81K3",
      "from": "댓글",
-     "path": "menu-files/1792556257_231279-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -98,13 +97,13 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792556257_231279-0.jpeg"
     },
     {
      "name": "Resized_20261020_165109.jpeg",
      "fid": "F0CAQAB079T",
      "from": "댓글",
-     "path": "menu-files/1792556257_231279-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -143,13 +142,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792556257_231279-1.jpeg"
     },
     {
      "name": "Resized_20261020_165328.jpeg",
      "fid": "F0CAE7QREET",
      "from": "댓글",
-     "path": "menu-files/1792556257_231279-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -183,15 +182,16 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792556257_231279-2.jpeg"
     }
    ],
    "datt": [],
    "replies": [
     "메인 메뉴는 매운맛 단계가 있습니다!"
    ],
-   "rc": 2,
-   "lr": "1792556706.453999",
+   "rc": 3,
+   "lr": "1792558632.397309",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
