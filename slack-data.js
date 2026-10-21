@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23470,
+  "version": 23471,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270590,14 +270590,17 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792542087.344,
+        "lastSeen": 1792542142.017,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792542044.282119": {
         "post": "1792542044.282119",
-        "lastSeen": 1792542087.344
+        "lastSeen": 1792542142.017,
+        "r": 1,
+        "day": "2026-10-21",
+        "idx": 3
       }
     },
     "days": {
@@ -366750,8 +366753,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-21": {
-        "cnt": 3,
-        "sumMin": 10.986627213160197,
+        "cnt": 4,
+        "sumMin": 12.159933563073476,
         "over": 0,
         "items": [
           {
@@ -366779,13 +366782,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 6.1
+          },
+          {
+            "hm": "09:20",
+            "min": 1.2,
+            "store": "크리밍",
+            "biz": "60410*****",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-21 09:21",
+    "at": "2026-10-21 09:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -366920,7 +366931,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 09:21",
+    "at": "2026-10-21 09:22",
     "pri": {
       "days": 0,
       "failed": [],
