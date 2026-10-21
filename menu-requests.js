@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3900,
- "updatedAt": "2026-10-21 13:24",
+ "version": 3901,
+ "updatedAt": "2026-10-21 13:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1792556691.157729",
+   "date": "2026-10-21",
+   "time": "13:24",
+   "store": "대왕곱창",
+   "biz": "11320*****",
+   "pos": "토스포스",
+   "content": "일품진로 30000 추가입니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792556691157729"
+  },
   {
    "ts": "1792556257.231279",
    "date": "2026-10-21",
@@ -18,11 +39,159 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261020_165046.jpeg",
+     "fid": "F0CAXFV81K3",
+     "from": "댓글",
+     "path": "menu-files/1792556257_231279-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "쭈꾸미볶음",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "쭈꾸미철판",
+       "price": 16000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우튀김",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "오징어튀김",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈돈까스",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "도토리전",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "날치알볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "된장찌개",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261020_165109.jpeg",
+     "fid": "F0CAQAB079T",
+     "from": "댓글",
+     "path": "menu-files/1792556257_231279-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "대포",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "식혜",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261020_165328.jpeg",
+     "fid": "F0CAE7QREET",
+     "from": "댓글",
+     "path": "menu-files/1792556257_231279-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맛 [선택]",
+       "name": "매운맛",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "맛 [선택]",
+       "name": "중간맛",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "맛 [선택]",
+       "name": "중간보다매운맛",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "맛 [선택]",
+       "name": "순한맛",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "맛 [선택]",
+       "name": "순한보다매운맛",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792556260.294309",
+   "replies": [
+    "메인 메뉴는 매운맛 단계가 있습니다!"
+   ],
+   "rc": 2,
+   "lr": "1792556706.453999",
    "rfx": 3,
    "status": "wait",
    "handler": null,
