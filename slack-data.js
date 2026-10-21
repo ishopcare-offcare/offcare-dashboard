@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23490,
+  "version": 23491,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270476,11 +270476,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:50"
+      "updatedAt": "09:50",
+      "absent": [
+        {
+          "time": "09:00",
+          "store": "해리스 뷰티랩",
+          "biz": "69564*****",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -270630,14 +270640,14 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792544032.587,
+        "lastSeen": 1792544111.787,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792543807.223259": {
         "post": "1792543807.223259",
-        "lastSeen": 1792544032.587,
+        "lastSeen": 1792544111.787,
         "r": 1,
         "day": "2026-10-21",
         "idx": 6
@@ -366863,7 +366873,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-21 09:54",
+    "at": "2026-10-21 09:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -366998,7 +367008,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 09:53",
+    "at": "2026-10-21 09:55",
     "pri": {
       "days": 0,
       "failed": [],
