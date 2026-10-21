@@ -3,10 +3,81 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3925,
- "updatedAt": "2026-10-21 16:53",
+ "version": 3926,
+ "updatedAt": "2026-10-21 16:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1792569387.029809",
+   "date": "2026-10-21",
+   "time": "16:56",
+   "store": "뚜레쥬르 킨텍스2전시장점",
+   "biz": "12836*****",
+   "pos": "토스포스",
+   "content": "수정",
+   "special": "···",
+   "drive": [
+    "https://drive.google.com/file/d/1tVpjDcooePES_XoUPVTz1P0dAFifH9b8/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1tVpjDcooePES_XoUPVTz1P0dAFifH9b8",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "쉐이크 바나나",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "쉐이크 오렌지",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "쉐이크 키위",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "리얼 브라우니",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "크런치 브라우니",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "더블초코머핀",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "블루베리 크럼블 머핀",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "부드러운 카스텔라",
+       "price": 3300
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김규빈",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792569387029809"
+  },
   {
    "ts": "1792566996.422649",
    "date": "2026-10-21",
