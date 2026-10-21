@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3944,
- "updatedAt": "2026-10-21 18:32",
+ "version": 3945,
+ "updatedAt": "2026-10-21 18:36",
  "days": 30,
  "items": [
   {
@@ -49,11 +49,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "*KOCES 토플파 > KPN 토플파* 에 메뉴 그대로 복사 부탁 드립니다!\n\n상품에 등록 된 바코드랑 시제도 동일하게 복사가 되는걸까요?"
    ],
-   "rc": 2,
-   "lr": "1792574646.999619",
+   "rc": 3,
+   "lr": "1792575343.604139",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792574583382019"
   },
   {
