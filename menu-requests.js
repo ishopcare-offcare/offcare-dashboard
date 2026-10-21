@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3897,
- "updatedAt": "2026-10-21 13:12",
+ "version": 3898,
+ "updatedAt": "2026-10-21 13:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1792556208.403969",
+   "date": "2026-10-21",
+   "time": "13:16",
+   "store": "족발로일등하는집 응암본점",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 족발로일등하는집 응암본점(메뉴사진)\n대용량 첨부 3개 19MB  IMG_1889.jpeg 6398110 ~ 2026/11/20 IMG_1890.jpeg 7389566 ~ 2026/11/20 IMG_1891.jpeg 6563116 ~ 2026/11/20 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a15ca79fbc022b8>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a15ca79fbc022b8",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792556208403969"
+  },
   {
    "ts": "1792555910.153829",
    "date": "2026-10-21",
@@ -61030,40 +61056,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789964619184829"
-  },
-  {
-   "ts": "1789964193.152119",
-   "date": "2026-09-21",
-   "time": "13:16",
-   "store": "마이요거트립 부평점",
-   "biz": "52763*****",
-   "pos": "",
-   "content": "대시보드에 있는 메뉴 그대로 넣어주세요~ 샵인샵으로 아래의 3개 브랜드 모두 운영중입니다.\n> • 마이요거트립 부평점\n> • 빙수핑 부평점\n> • 와플픽 부평점",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "마이요거트립_대시보드_상품목록-260921131137.xlsx",
-     "fid": "F0C33CV4621",
-     "from": "댓글",
-     "path": "menu-files/1789964193_152119-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "사진 필요 시, 대시보드 초대 해드리겠습니다!",
-    "메뉴는 대시보드에 다 있다고해요~\n 님 그럼 이미지 파일은 별도로 받아올게요~",
-    "님 초대 되셨을거에요~ 확인 부탁드립니다.\ncc.  혹시 몰라서, 선유님도 초대 드렸어용ㅎㅎㅎ\n사진은 제가 이메일로 받아서 전달드릴게요~",
-    "네네 대시보드에 3개 브랜드 메뉴가 다 들어가있다고 하셨어요~"
-   ],
-   "rc": 12,
-   "lr": "1789976665.681219",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789964193152119"
   }
  ],
  "ocr": {
