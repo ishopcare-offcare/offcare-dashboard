@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3883,
- "updatedAt": "2026-10-21 10:44",
+ "version": 3884,
+ "updatedAt": "2026-10-21 10:45",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "화면 캡처 2026-10-21 095115.png",
      "fid": "F0CANG3D84B",
      "from": "댓글",
-     "path": "menu-files/1792546924_905089-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -87,13 +86,13 @@ window.MENU_REQUESTS = {
        "price": 43000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792546924_905089-0.png"
     },
     {
      "name": "화면 캡처 2026-10-21 100314.png",
      "fid": "F0CANGAFFH9",
      "from": "댓글",
-     "path": "menu-files/1792546924_905089-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -147,13 +146,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792546924_905089-1.png"
     },
     {
      "name": "화면 캡처 2026-10-21 100350.png",
      "fid": "F0CANGAL29Z",
      "from": "댓글",
-     "path": "menu-files/1792546924_905089-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -232,13 +231,13 @@ window.MENU_REQUESTS = {
        "price": 7000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792546924_905089-2.png"
     },
     {
      "name": "화면 캡처 2026-10-21 100416.png",
      "fid": "F0CAPEKSLRK",
      "from": "댓글",
-     "path": "menu-files/1792546924_905089-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -247,13 +246,13 @@ window.MENU_REQUESTS = {
        "price": 7000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792546924_905089-3.png"
     },
     {
      "name": "화면 캡처 2026-10-21 100501.png",
      "fid": "F0CADBZ5295",
      "from": "댓글",
-     "path": "menu-files/1792546924_905089-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -332,13 +331,13 @@ window.MENU_REQUESTS = {
        "price": 8500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792546924_905089-4.png"
     },
     {
      "name": "화면 캡처 2026-10-21 100534.png",
      "fid": "F0CBP4PEB3J",
      "from": "댓글",
-     "path": "menu-files/1792546924_905089-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -397,7 +396,8 @@ window.MENU_REQUESTS = {
        "price": 42000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792546924_905089-5.png"
     },
     {
      "name": "화면 캡처 2026-10-21 100143.png",
@@ -488,11 +488,11 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792547011.561939",
+   "rc": 4,
+   "lr": "1792547093.667179",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792546924905089"
   },
   {
