@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3940,
- "updatedAt": "2026-10-21 18:17",
+ "version": 3941,
+ "updatedAt": "2026-10-21 18:23",
  "days": 30,
  "items": [
+  {
+   "ts": "1792574583.382019",
+   "date": "2026-10-21",
+   "time": "18:23",
+   "store": "대주(969-2453)부동산공인중개사사무소",
+   "biz": "88211*****",
+   "pos": "퍼스트포스",
+   "content": "여기 메뉴 복사 필요해서 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792574586.439719",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792574583382019"
+  },
   {
    "ts": "1792574201.336059",
    "date": "2026-10-21",
