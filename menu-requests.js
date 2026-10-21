@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3945,
- "updatedAt": "2026-10-21 18:36",
+ "version": 3946,
+ "updatedAt": "2026-10-21 18:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1792575408.396639",
+   "date": "2026-10-21",
+   "time": "18:36",
+   "store": "초대장: 컴포즈",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 초대장: 컴포즈 메뉴+캠퍼인 배포 - 2026년 10월 22일 (목) 오전 12시 - 오전 1시 (GMT+9) (김규빈)\n컴포즈 메뉴+캠퍼인 배포\n 2026년 10월 22일 (목요일) ⋅ 오전 12시 – 오전 1시\n 한국 표준시 - 서울\n \n Google Meet으로 참여하기\n <https://meet.google.com/nfj-pkhj-rkd?hs=224>\n \n \n \t\n 휴대전화로 참여하기\n (US) <tel:+1252-573-3247|+1 252-573-3247>\n PIN: 646421821\n \n 전화번호 더보기\n <https://tel.meet/nfj-pkhj-rkd?pin=7083621604300&hs=0>\n \n \n 참석자\n 김규빈\n 서상원\n 모든 참석자 정보 보기  \n https://c\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a15dd1370e1a845>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a15dd1370e1a845",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792575408396639"
+  },
   {
    "ts": "1792575108.653929",
    "date": "2026-10-21",
@@ -44,13 +70,24 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAGF6BN4F",
+     "from": "댓글",
+     "path": "menu-files/1792574583_382019-0.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
-    "*KOCES 토플파 > KPN 토플파* 에 메뉴 그대로 복사 부탁 드립니다!\n\n상품에 등록 된 바코드랑 시제도 동일하게 복사가 되는걸까요?"
+    "*KOCES 토플파 > KPN 토플파* 에 메뉴 그대로 복사 부탁 드립니다!\n\n상품에 등록 된 바코드랑 시제도 동일하게 복사가 되는걸까요?",
+    "오..?"
    ],
-   "rc": 3,
-   "lr": "1792575343.604139",
+   "rc": 7,
+   "lr": "1792575426.831099",
    "rfx": 3,
    "status": "confirm",
    "handler": "최민석",
