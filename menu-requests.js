@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3878,
- "updatedAt": "2026-10-21 09:39",
+ "version": 3879,
+ "updatedAt": "2026-10-21 09:41",
  "days": 30,
  "items": [
   {
@@ -6237,7 +6237,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CAU6YEE82",
      "from": "댓글",
-     "path": "menu-files/1792378055_509199-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -6291,6 +6290,72 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792378055_509199-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAW9QQP25",
+     "from": "댓글",
+     "path": "menu-files/1792378055_509199-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "닭강정",
+       "name": "커플닭강정",
+       "price": 16900
+      },
+      {
+       "category": "닭강정",
+       "name": "누룽지 닭강정 2~3인",
+       "price": 24000
+      },
+      {
+       "category": "닭강정",
+       "name": "반반메뉴",
+       "price": 25000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CAW9NJ4DP",
+     "from": "댓글",
+     "path": "menu-files/1792378055_509199-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가메뉴",
+       "name": "버터갈릭감자튀김",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "콜라 500ml",
+       "price": 2000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "콜라 1.25L",
+       "price": 3000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "치킨무",
+       "price": 1000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "물",
+       "price": 1000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "딸기라떼",
+       "price": 6000
+      }
+     ],
      "v": 2
     }
    ],
@@ -6337,10 +6402,11 @@ window.MENU_REQUESTS = {
     "누룽지 닭강정 2~3인 24000원\n반반메뉴 25000원\n버터갈릭감자튀김 7000원\n콜라 500ml 2000원\n콜라 1.25L 3000원\n치킨무 1000원\n\n금일 오전 내에 빠르게 등록 필요하다고 하시어 내용 공유드립니다",
     "님 바쁘신데 죄송합니다만\n금일 오전에 꼭 등록 필요하다고, 안되어있다고 인입되어 내용 공유드립니다",
     "상품관리에는 있는데 없다고 하십니다..",
-    "님 올려주신 글하고 상호명이 조금 다른거같은데 사업자번호는 맞을까요?"
+    "님 올려주신 글하고 상호명이 조금 다른거같은데 사업자번호는 맞을까요?",
+    "또한, 포스기에 안보이신다는건지, 키오스크 모드했을때 안보이는건지 확인 해주시고 AS방으로 이관 해주셔야될거같습니다.\n\n메뉴등록엔 문제가 없어보입니다"
    ],
-   "rc": 4,
-   "lr": "1792543179.498669",
+   "rc": 6,
+   "lr": "1792543272.492859",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
