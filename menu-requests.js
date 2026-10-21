@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3887,
- "updatedAt": "2026-10-21 10:54",
+ "version": 3888,
+ "updatedAt": "2026-10-21 10:55",
  "days": 30,
  "items": [
   {
@@ -537,10 +537,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "• coffee메뉴중 토스티,원두200g,원두 메뉴는 옵션없음\n• non-coffee 메뉴중 밀크티,아이스밀크티 만 옵션있음\n• bake 메뉴중 말차,초코,얼그레이 티그레만 take out 옵션있음"
    ],
-   "rc": 5,
-   "lr": "1792547168.378909",
+   "rc": 6,
+   "lr": "1792547660.985369",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792546924905089"
   },
