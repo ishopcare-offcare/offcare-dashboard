@@ -1,9 +1,11 @@
 /* =========================================================================
- * 금요일 '당직 :star:' 워크플로 글에 당직자 · 10시 출근자 태그 댓글 달기
+ * '당직 :star:' 워크플로 글에 당직자 · 10시 출근자 태그 댓글 달기
  *
  * #ishopcare_octeam 에 매주 금 16:30 워크플로가 '당직 :star:' 글을 올린다.
- * 5분 트리거(dutyTagTick)가 금 16:30~20:00 사이에 그 글을 찾아 스레드에 한 번만 댓글을 단다.
- *   - 당직: 이번 토요일 ~ 다음 금요일 중 당직이 잡힌 날(주말 + 공휴일)
+ * 5분 트리거(dutyTagTick)가 금 16:30~20:00 사이에만 그 글을 찾아 스레드에 한 번만 댓글을 단다.
+ * (공휴일 전날 글에는 달지 않는다 — 금요일 전용)
+ *   - 당직: 이번 토요일 ~ 다음 금요일 중 쉬는 날(토 · 일 + 당직자 이름이 잡힌 평일 = 공휴일)
+ *           '행사' 칸만 있는 평일(건강검진 · 출장 메모)은 넣지 않는다.
  *   - 10시 출근: 다음주 월요일 주의 담당자
  * 데이터는 원격파트 대시보드와 똑같이 계산한다.
  *   당직  = duty-data.js(구글 당직시트) 위에 대시보드 수정분(클라우드 blob.duty)을 칸 단위로 덮어씀
@@ -20,9 +22,9 @@
  *
  * 편집기에서 실행
  *   installDutyTagTrigger()  5분 트리거 설치 (한 번만)
- *   previewDutyTag()         이번 주 댓글 내용만 로그로 확인 (슬랙에 안 올림)
+ *   previewDutyTag()         이번 주 금요일에 달릴 댓글 내용만 로그로 확인 (슬랙에 안 올림)
  *   learnDutySlackIds()      원격 AS 채널의 '원격OOO' 이모지를 누른 사람으로 팀원 ID 추정 → 로그
- *   runDutyTagNow()          지금 바로 찾아서 댓글 달기 (금요일이 아니어도, 오늘 올라온 글 대상)
+ *   runDutyTagNow()          지금 바로 오늘 올라온 글을 찾아 댓글 달기 (금요일이 아니어도)
  * ========================================================================= */
 
 // 이름 → 슬랙 멤버 ID. 비어 있으면 태그 대신 이름만 굵게 쓴다.
@@ -60,7 +62,7 @@ function runDutyTagNow() { dtRun_(dtNowKst_().date, true); }
 
 function previewDutyTag() {
   var fri = dtThisFriday_(dtNowKst_().date);
-  console.log('기준 금요일 ' + fri + '\n\n' + dtBuildText_(fri));
+  console.log('기준 금요일 ' + fri + '\n\n' + dtBuildText_(fri, dtLoad_()));
 }
 
 function installDutyTagTrigger() {
@@ -94,7 +96,7 @@ function dtRun_(date, force) {
   if (!post) { console.log(date + ' 당직 워크플로 글을 아직 못 찾음'); return; }
   if (props.getProperty(doneKey) === post.ts) { console.log('이미 이 글에 댓글을 달았습니다: ' + post.ts); return; }
 
-  var text = dtBuildText_(dtThisFriday_(date));
+  var text = dtBuildText_(dtThisFriday_(date), dtLoad_());
   var res = dtSlack_('chat.postMessage', { channel: channel, thread_ts: post.ts, text: text, unfurl_links: false });
   if (!res.ok) { console.log('댓글 실패: ' + res.error); return; }   // 표시 안 함 → 다음 5분에 재시도
   props.setProperty(doneKey, post.ts);
@@ -126,34 +128,27 @@ function dtMsgText_(m) {
   return parts.join('\n');
 }
 
-function dtBuildText_(fri) {
-  var days = dtDutyDays_();
-  var cloud = {};
-  try { cloud = readBlob_() || {}; } catch (e) { console.log('클라우드 수정분 읽기 실패(시트 값만 사용): ' + e); }
-  var over = cloud.duty || {}, tenOver = cloud.tenOver || {};
+// fri = 기준 금요일. 토 ~ 다음 금 중 쉬는 날(주말 · 공휴일)의 당직 + 다음주 10시 출근자.
+function dtBuildText_(fri, data) {
   var ids = dtSlackIds_();
   var tag = function (name) { return ids[name] ? '<@' + ids[name] + '>' : '*' + name + '*'; };
   var DOW = ['일', '월', '화', '수', '목', '금', '토'];
 
   var lines = [];
-  for (var i = 1; i <= 7; i++) {                                 // 토 ~ 다음 금
-    var ds = dtAddDays_(fri, i), base = days[ds] || {}, o = over[ds] || {}, row = [];
-    DUTY_TAG.slots.forEach(function (s) {
-      var v = (o[s[0]] !== undefined && o[s[0]] !== '') ? o[s[0]] : base[s[0]];   // dutyOf 와 같은 규칙
-      if (v) { row.push(s[1] + ' ' + tag(v)); }
-    });
-    if (row.length) {
-      var p = ds.split('-');
-      lines.push('• ' + (+p[1]) + '/' + (+p[2]) + '(' + DOW[dtDow_(ds)] + ')  ' + row.join(' · '));
-    }
+  for (var i = 1; i <= 7; i++) {
+    var ds = dtAddDays_(fri, i);
+    if (!dtIsRest_(data, ds)) { continue; }
+    var r = dtDutyOf_(data, ds), row = [];
+    DUTY_TAG.slots.forEach(function (s) { if (r[s[0]]) { row.push(s[1] + ' ' + tag(r[s[0]])); } });
+    var p = ds.split('-');
+    lines.push('• ' + (+p[1]) + '/' + (+p[2]) + '(' + DOW[dtDow_(ds)] + ')  ' + (row.length ? row.join(' · ') : '미지정'));
   }
 
-  var mon = dtAddDays_(fri, 3);
-  var ten = tenOver[mon] || dtTenPerson_(mon);
-  var mp = mon.split('-');
+  var mon = dtAddDays_(fri, 3), mp = mon.split('-');
+  var ten = data.tenOver[mon] || dtTenPerson_(mon);
 
   var out = [':star: *이번 주 당직*'];
-  out = out.concat(lines.length ? lines : ['• 지정된 당직이 없습니다']);
+  out = out.concat(lines);
   out.push('', ':clock10: *다음주 10시 출근* (' + (+mp[1]) + '/' + (+mp[2]) + '~)  ' + (ten ? tag(ten) : '미지정'));
   out.push('', '_원격파트 대시보드 기준 자동 안내 · 변경 사항은 대시보드에서 수정해 주세요_');
   return out.join('\n');
@@ -161,12 +156,31 @@ function dtBuildText_(fri) {
 
 /* ---------- 데이터 ---------- */
 
-function dtDutyDays_() {
+// 당직시트(duty-data.js) + 대시보드 수정분(blob.duty) + 10시 수동 교체(blob.tenOver)
+function dtLoad_() {
   var res = UrlFetchApp.fetch(DUTY_TAG.dataUrl + '?t=' + Date.now(), { muteHttpExceptions: true });
   if (res.getResponseCode() !== 200) { throw new Error('duty-data.js 읽기 실패 ' + res.getResponseCode()); }
   var src = res.getContentText();
   var json = src.slice(src.indexOf('{'), src.lastIndexOf('}') + 1);
-  return (JSON.parse(json).days) || {};
+  var cloud = {};
+  try { cloud = readBlob_() || {}; } catch (e) { console.log('클라우드 수정분 읽기 실패(시트 값만 사용): ' + e); }
+  return { days: JSON.parse(json).days || {}, over: cloud.duty || {}, tenOver: cloud.tenOver || {} };
+}
+
+// index.html dutyOf 와 같은 규칙 — 칸 단위로 대시보드 수정분이 시트를 이긴다
+function dtDutyOf_(data, ds) {
+  var s = data.days[ds] || {}, o = data.over[ds] || {}, out = {};
+  ['day', 'aft', 'nit', 'inst'].forEach(function (k) {
+    var v = (o[k] !== undefined && o[k] !== '') ? o[k] : s[k];
+    if (v) { out[k] = v; }
+  });
+  return out;
+}
+// 쉬는 날 = 토 · 일, 또는 당직자 이름(주간·오후·야간)이 잡힌 날(= 공휴일).
+// '행사' 칸만 있는 날은 평일 메모(건강검진·출장 등)라 쉬는 날로 보지 않는다.
+function dtIsRest_(data, ds) {
+  var w = dtDow_(ds), r = dtDutyOf_(data, ds);
+  return w === 0 || w === 6 || !!(r.day || r.aft || r.nit);
 }
 
 // index.html rotPerson + tenPersonByDate 와 같은 계산 (mon = 월요일)
@@ -257,5 +271,5 @@ function dtNowKst_() {
   var date = t.getUTCFullYear() + '-' + dtPad_(t.getUTCMonth() + 1) + '-' + dtPad_(t.getUTCDate());
   return { date: date, dow: t.getUTCDay(), min: t.getUTCHours() * 60 + t.getUTCMinutes() };
 }
-// 그 주(월~일)의 금요일. 토·일에 미리보기하면 지난 금요일 기준.
+// 그 주(월~일)의 금요일. 토·일에 실행하면 지난 금요일 기준.
 function dtThisFriday_(ds) { var d = dtDow_(ds); return dtAddDays_(ds, d === 0 ? -2 : 5 - d); }
