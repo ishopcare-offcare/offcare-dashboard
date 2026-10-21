@@ -3,10 +3,139 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3950,
- "updatedAt": "2026-10-21 21:30",
+ "version": 3951,
+ "updatedAt": "2026-10-22 08:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1792625079.159329",
+   "date": "2026-10-22",
+   "time": "08:24",
+   "store": "온빛",
+   "biz": "82410*****",
+   "pos": "토스포스",
+   "content": "나중에더추가하겠습니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1pO0sQjm9TeN-BmR3HWoSy11jnblfOSfp/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1h8VEd0IkwFAT3iaPAT6AE-hBBTEGNHXk/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1pO0sQjm9TeN-BmR3HWoSy11jnblfOSfp",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "수제차",
+       "name": "쌍화차",
+       "price": 9000
+      },
+      {
+       "category": "수제차",
+       "name": "대추차",
+       "price": 8000
+      },
+      {
+       "category": "수제차",
+       "name": "생강차",
+       "price": 7000
+      },
+      {
+       "category": "수제차",
+       "name": "배도라지차",
+       "price": 7000
+      },
+      {
+       "category": "수제차",
+       "name": "레몬차",
+       "price": 5000
+      },
+      {
+       "category": "수제차",
+       "name": "자몽차",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "레몬에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드",
+       "name": "자몽에이드",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1h8VEd0IkwFAT3iaPAT6AE-hBBTEGNHXk",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "디저트류",
+       "name": "쌀마들렌",
+       "price": 3000
+      },
+      {
+       "category": "쌀 까불이",
+       "name": "오리지널",
+       "price": 1800
+      },
+      {
+       "category": "쌀 까불이",
+       "name": "견과류",
+       "price": 2000
+      },
+      {
+       "category": "쌀 까불이",
+       "name": "모카커피맛",
+       "price": 2000
+      },
+      {
+       "category": "쌀 까불이",
+       "name": "감태맛",
+       "price": 2300
+      },
+      {
+       "category": "오븐에 구운 건빵",
+       "name": "오리지널 60g",
+       "price": 1500
+      },
+      {
+       "category": "오븐에 구운 건빵",
+       "name": "오리지널 · 모카커피맛 130g",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792625079159329"
+  },
   {
    "ts": "1792575408.396639",
    "date": "2026-10-21",
