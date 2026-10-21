@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3888,
- "updatedAt": "2026-10-21 10:55",
+ "version": 3889,
+ "updatedAt": "2026-10-21 10:57",
  "days": 30,
  "items": [
   {
@@ -44,14 +44,419 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "20261021_103353.jpg",
+     "fid": "F0CAWN30RL1",
+     "from": "댓글",
+     "path": "menu-files/1792547193_848769-0.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "20261021_103417.jpg",
+     "fid": "F0CADDZ060P",
+     "from": "댓글",
+     "path": "menu-files/1792547193_848769-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "송어회[1kg]",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "송어회[1.5kg]",
+       "price": 90000
+      },
+      {
+       "category": "식사",
+       "name": "송어회[2kg]",
+       "price": 120000
+      },
+      {
+       "category": "식사",
+       "name": "닭도리탕",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "소머리곰탕",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "도가니탕",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "수육[소]",
+       "price": 20000
+      },
+      {
+       "category": "식사",
+       "name": "수육[대]",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "묵은지닭도리",
+       "price": 65000
+      },
+      {
+       "category": "식사",
+       "name": "매기매운탕[대]",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "매기매운탕[중]",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "백숙",
+       "price": 80000
+      },
+      {
+       "category": "식사",
+       "name": "오리탕",
+       "price": 65000
+      },
+      {
+       "category": "식사",
+       "name": "빠가매운탕[대]",
+       "price": 55000
+      },
+      {
+       "category": "식사",
+       "name": "빠가매운탕[중]",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "빠가매운탕[소]",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "잡탕[중]",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "오리주물럭",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "새우매운탕[대]",
+       "price": 45000
+      },
+      {
+       "category": "식사",
+       "name": "새우매운탕[중]",
+       "price": 40000
+      },
+      {
+       "category": "식사",
+       "name": "새우매운탕[소]",
+       "price": 30000
+      },
+      {
+       "category": "식사",
+       "name": "잡탕[대]",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "식사",
+       "name": "매기찜[대]",
+       "price": 60000
+      },
+      {
+       "category": "식사",
+       "name": "매기찜[중]",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "누룽지",
+       "price": 0
+      },
+      {
+       "category": "식사",
+       "name": "인원",
+       "price": 0
+      },
+      {
+       "category": "식사",
+       "name": "공기밥",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261021_103424.jpg",
+     "fid": "F0CAUKN94GJ",
+     "from": "댓글",
+     "path": "menu-files/1792547193_848769-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "부안참뽕",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "황진이",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "산사춘",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "백세주",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "고택찹쌀생주",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "고창복분자",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "추가",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "무침회[1kg]",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "무침회[1.5kg]",
+       "price": 95000
+      },
+      {
+       "category": "주류",
+       "name": "무침회[2kg]",
+       "price": 125000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261021_103345.jpg",
+     "fid": "F0CAUKP0TEE",
+     "from": "댓글",
+     "path": "menu-files/1792547193_848769-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "식사 및 탕류",
+       "name": "소머리곰탕",
+       "price": 12000
+      },
+      {
+       "category": "식사 및 탕류",
+       "name": "도가니탕",
+       "price": 15000
+      },
+      {
+       "category": "식사 및 탕류",
+       "name": "수육 大",
+       "price": 40000
+      },
+      {
+       "category": "식사 및 탕류",
+       "name": "수육 小",
+       "price": 20000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "메기찜 大",
+       "price": 60000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "메기찜 中",
+       "price": 50000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "메기매운탕 大",
+       "price": 50000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "메기매운탕 中",
+       "price": 40000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "빠가매운탕 大",
+       "price": 55000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "빠가매운탕 中",
+       "price": 50000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "빠가매운탕 小",
+       "price": 40000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "새우매운탕 大",
+       "price": 45000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "새우매운탕 中",
+       "price": 40000
+      },
+      {
+       "category": "매운탕 & 찜",
+       "name": "새우매운탕 小",
+       "price": 30000
+      },
+      {
+       "category": "오리·닭·회",
+       "name": "송어회 (1kg, 매운탕 포함)",
+       "price": 60000
+      },
+      {
+       "category": "오리·닭·회",
+       "name": "순살 오리탕 (1마리)",
+       "price": 65000
+      },
+      {
+       "category": "오리·닭·회",
+       "name": "오리 주물럭 (1마리)",
+       "price": 60000
+      },
+      {
+       "category": "오리·닭·회",
+       "name": "닭도리탕 (1마리)",
+       "price": 60000
+      },
+      {
+       "category": "오리·닭·회",
+       "name": "묵은지 닭도리탕 (1마리)",
+       "price": 65000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "공기밥 (전 메뉴 별도)",
+       "price": 1000
+      },
+      {
+       "category": "추가 메뉴",
+       "name": "볶음밥 (주물럭 전용)",
+       "price": 2000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "묵밥지",
+       "price": 12000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "참쌀 생주",
+       "price": 8000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "부안 참뽕주",
+       "price": 8000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "백세주",
+       "price": 8000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "청하",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1792547766.736259",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792547193848769"
   },
   {
