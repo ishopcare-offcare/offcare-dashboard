@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3917,
- "updatedAt": "2026-10-21 16:05",
+ "version": 3918,
+ "updatedAt": "2026-10-21 16:11",
  "days": 30,
  "items": [
+  {
+   "ts": "1792566645.987239",
+   "date": "2026-10-21",
+   "time": "16:10",
+   "store": "카페맑음",
+   "biz": "41140*****",
+   "pos": "오케이포스",
+   "content": "추가/수제차/대추차/5,000/옵션 사이즈업 1,000\n\n삭제/스무디/크랜베리스무디",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566645987239"
+  },
   {
    "ts": "1792566245.340119",
    "date": "2026-10-21",
