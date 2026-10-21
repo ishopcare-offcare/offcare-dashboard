@@ -3,10 +3,1038 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3895,
- "updatedAt": "2026-10-21 12:41",
+ "version": 3896,
+ "updatedAt": "2026-10-21 13:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1792555546.186929",
+   "date": "2026-10-21",
+   "time": "13:05",
+   "store": "챠이나프로",
+   "biz": "10709*****",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "167.jpg",
+     "fid": "F0CAE50F48P",
+     "from": "댓글",
+     "path": "menu-files/1792555546_186929-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "코스",
+       "name": "디너A코스",
+       "price": 46000
+      },
+      {
+       "category": "코스",
+       "name": "디너B코스",
+       "price": 60000
+      },
+      {
+       "category": "코스",
+       "name": "디너C코스",
+       "price": 80000
+      },
+      {
+       "category": "코스",
+       "name": "디너S코스",
+       "price": 130000
+      },
+      {
+       "category": "코스",
+       "name": "디너R코스",
+       "price": 160000
+      },
+      {
+       "category": "코스",
+       "name": "런치A코스",
+       "price": 35000
+      },
+      {
+       "category": "코스",
+       "name": "스페셜코스",
+       "price": 30000
+      },
+      {
+       "category": "코스",
+       "name": "런치C코스",
+       "price": 45000
+      },
+      {
+       "category": "코스",
+       "name": "런치D코스",
+       "price": 58000
+      },
+      {
+       "category": "코스",
+       "name": "런치S코스",
+       "price": 88000
+      },
+      {
+       "category": "코스",
+       "name": "[준비]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "코스",
+       "name": "[시작]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "코스",
+       "name": "[빨리]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "코스",
+       "name": "[VIP]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "코스",
+       "name": "( 소스 따로 )",
+       "price": 0
+      },
+      {
+       "category": "코스",
+       "name": "유린만두",
+       "price": 12000
+      },
+      {
+       "category": "코스",
+       "name": "안주국물",
+       "price": 15000
+      },
+      {
+       "category": "코스",
+       "name": "안주국물 ( L )",
+       "price": 30000
+      },
+      {
+       "category": "코스",
+       "name": "코스짬뽕",
+       "price": 0
+      },
+      {
+       "category": "코스",
+       "name": "코스고추굴",
+       "price": 0
+      },
+      {
+       "category": "코스",
+       "name": "송이소고기[대]",
+       "price": 85000
+      },
+      {
+       "category": "코스",
+       "name": "삼선샥스핀[대]",
+       "price": 80000
+      },
+      {
+       "category": "코스",
+       "name": "설화샥스핀[대]",
+       "price": 70000
+      },
+      {
+       "category": "코스",
+       "name": "게살스프[대]",
+       "price": 30000
+      },
+      {
+       "category": "코스",
+       "name": "게살샥스핀스프1인",
+       "price": 15000
+      },
+      {
+       "category": "코스",
+       "name": "송이소고기[소]",
+       "price": 65000
+      },
+      {
+       "category": "코스",
+       "name": "삼선샥스핀[소]",
+       "price": 60000
+      },
+      {
+       "category": "코스",
+       "name": "설화샥스핀[소]",
+       "price": 60000
+      },
+      {
+       "category": "코스",
+       "name": "불도장 정식",
+       "price": 100000
+      },
+      {
+       "category": "코스",
+       "name": "불도장",
+       "price": 80000
+      },
+      {
+       "category": "코스",
+       "name": "대하 [1인]",
+       "price": 20000
+      },
+      {
+       "category": "코스",
+       "name": "샥스핀 홀",
+       "price": 70000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "168.jpg",
+     "fid": "F0CBPT41WLQ",
+     "from": "댓글",
+     "path": "menu-files/1792555546_186929-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "특선요리[1",
+       "name": "전가복[대]",
+       "price": 95000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "해삼전복[대]",
+       "price": 90000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "해삼쥬스[대]",
+       "price": 85000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "해삼송이[대]",
+       "price": 90000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "오룡해삼[대]",
+       "price": 80000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "전가복[소]",
+       "price": 80000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "해삼전복[소]",
+       "price": 70000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "해삼쥬스[소]",
+       "price": 65000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "해삼송이[소]",
+       "price": 70000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "오룡해삼[소]",
+       "price": 60000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "동파육[대]",
+       "price": 68000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "자연송이죽생[대]",
+       "price": 80000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "철판통후추쇠고기[대]",
+       "price": 80000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "특선냉채[대]",
+       "price": 68000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "오향장육[대]",
+       "price": 50000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "동파육[소]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "자연송이죽생[소]",
+       "price": 60000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "철판통후추쇠고기[소]",
+       "price": 60000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "특선냉채[소]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "오향장육[소]",
+       "price": 40000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "팔보라조[대]",
+       "price": 55000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "류산슬[대]",
+       "price": 50000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "양장피[대]",
+       "price": 50000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "어향육사[대]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "마파두부[대]",
+       "price": 35000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "팔보라조[소]",
+       "price": 45000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "류산슬[소]",
+       "price": 40000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "양장피[소]",
+       "price": 40000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "어향육사[소]",
+       "price": 38000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "마파두부[소]",
+       "price": 30000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "블랙빈 소고기",
+       "price": 50000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "청경채 굴소스",
+       "price": 40000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "좌종당계[대]",
+       "price": 50000
+      },
+      {
+       "category": "특선요리[1",
+       "name": "좌종당계[소]",
+       "price": 40000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "169.jpg",
+     "fid": "F0CAXD5NGSV",
+     "from": "댓글",
+     "path": "menu-files/1792555546_186929-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "특선요리[2",
+       "name": "삼선해물누룽지탕[대]",
+       "price": 55000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "비풍당새우[대]",
+       "price": 55000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "깐풍새우[대]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "파인새우[대]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "간소새우[대]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "삼선해물누룽지탕[소]",
+       "price": 45000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "비풍당새우[소]",
+       "price": 45000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "깐풍새우[소]",
+       "price": 38000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "파인새우[소]",
+       "price": 38000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "간소새우[소]",
+       "price": 38000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "깐풍육[대]",
+       "price": 47000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "라조육[대]",
+       "price": 47000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "깐풍기[대]",
+       "price": 47000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "유린기[대]",
+       "price": 47000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "라조기[대]",
+       "price": 47000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "깐풍육[소]",
+       "price": 37000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "라조육[소]",
+       "price": 37000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "깐풍기[소]",
+       "price": 37000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "유린기[소]",
+       "price": 37000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "라조기[소]",
+       "price": 37000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "소고기탕수육[대]",
+       "price": 50000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "탕수육[대]",
+       "price": 40000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "사천탕수육[대]",
+       "price": 42000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "고추잡채[대]",
+       "price": 48000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "회과육[대]",
+       "price": 55000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "소고기탕수육[소]",
+       "price": 40000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "탕수육[중]",
+       "price": 35000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "사천탕수육[소]",
+       "price": 37000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "고추잡채[소]",
+       "price": 38000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "회과육[소]",
+       "price": 45000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "( 두 접시로 )",
+       "price": 0
+      },
+      {
+       "category": "특선요리[2",
+       "name": "탕수육[소]",
+       "price": 30000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "꽃빵추가",
+       "price": 1000
+      },
+      {
+       "category": "특선요리[2",
+       "name": "꽃빵",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "170.jpg",
+     "fid": "F0CAE519HAB",
+     "from": "댓글",
+     "path": "menu-files/1792555546_186929-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "코스",
+       "name": "마파두부[대]",
+       "price": 35000
+      },
+      {
+       "category": "코스",
+       "name": "어향육사[대]",
+       "price": 48000
+      },
+      {
+       "category": "코스",
+       "name": "마파두부[소]",
+       "price": 30000
+      },
+      {
+       "category": "코스",
+       "name": "어향육사[소]",
+       "price": 38000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "171.jpg",
+     "fid": "F0CAXD62W57",
+     "from": "댓글",
+     "path": "menu-files/1792555546_186929-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사/면요",
+       "name": "소고기안심식사",
+       "price": 22000
+      },
+      {
+       "category": "식사/면요",
+       "name": "자연송이식사",
+       "price": 22000
+      },
+      {
+       "category": "식사/면요",
+       "name": "해물잡탕식사",
+       "price": 18000
+      },
+      {
+       "category": "식사/면요",
+       "name": "좌당식사",
+       "price": 16000
+      },
+      {
+       "category": "식사/면요",
+       "name": "류산슬식사",
+       "price": 16000
+      },
+      {
+       "category": "식사/면요",
+       "name": "궁보새우식사",
+       "price": 16000
+      },
+      {
+       "category": "식사/면요",
+       "name": "어향육사식사",
+       "price": 16000
+      },
+      {
+       "category": "식사/면요",
+       "name": "마파두부식사",
+       "price": 13000
+      },
+      {
+       "category": "식사/면요",
+       "name": "라조기식사",
+       "price": 15000
+      },
+      {
+       "category": "식사/면요",
+       "name": "잡채식사",
+       "price": 14000
+      },
+      {
+       "category": "식사/면요",
+       "name": "마파초면",
+       "price": 18000
+      },
+      {
+       "category": "식사/면요",
+       "name": "오선특면",
+       "price": 17000
+      },
+      {
+       "category": "식사/면요",
+       "name": "삼선만두국",
+       "price": 15000
+      },
+      {
+       "category": "식사/면요",
+       "name": "기스면",
+       "price": 12000
+      },
+      {
+       "category": "식사/면요",
+       "name": "중국냉면",
+       "price": 18000
+      },
+      {
+       "category": "식사/면요",
+       "name": "버섯굴탕면",
+       "price": 14000
+      },
+      {
+       "category": "식사/면요",
+       "name": "고추굴짬뽕",
+       "price": 14000
+      },
+      {
+       "category": "식사/면요",
+       "name": "삼선짬뽕",
+       "price": 13000
+      },
+      {
+       "category": "식사/면요",
+       "name": "삼선짜장면",
+       "price": 11000
+      },
+      {
+       "category": "식사/면요",
+       "name": "코스식사 짬뽕(반)",
+       "price": 5000
+      },
+      {
+       "category": "식사/면요",
+       "name": "버섯굴탕면(L)",
+       "price": 15000
+      },
+      {
+       "category": "식사/면요",
+       "name": "고추굴짬뽕(L)",
+       "price": 15000
+      },
+      {
+       "category": "식사/면요",
+       "name": "삼선짬뽕(L)",
+       "price": 14000
+      },
+      {
+       "category": "식사/면요",
+       "name": "삼선짜장면(L)",
+       "price": 12000
+      },
+      {
+       "category": "식사/면요",
+       "name": "중국냉면(L)",
+       "price": 19000
+      },
+      {
+       "category": "식사/면요",
+       "name": "버섯굴 밥",
+       "price": 14000
+      },
+      {
+       "category": "식사/면요",
+       "name": "고추굴 밥",
+       "price": 14000
+      },
+      {
+       "category": "식사/면요",
+       "name": "짬뽕 밥",
+       "price": 13000
+      },
+      {
+       "category": "식사/면요",
+       "name": "기스면 (특 반그릇)",
+       "price": 6000
+      },
+      {
+       "category": "식사/면요",
+       "name": "( 두개를 세개로 )",
+       "price": 0
+      },
+      {
+       "category": "식사/면요",
+       "name": "버섯굴 (특 반그릇)",
+       "price": 7000
+      },
+      {
+       "category": "식사/면요",
+       "name": "고추굴 (특 반그릇)",
+       "price": 7000
+      },
+      {
+       "category": "식사/면요",
+       "name": "짬뽕면 (특 반그릇)",
+       "price": 7000
+      },
+      {
+       "category": "식사/면요",
+       "name": "짜장면 (특 반그릇)",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "172.jpg",
+     "fid": "F0CBPT5FTC0",
+     "from": "댓글",
+     "path": "menu-files/1792555546_186929-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 7000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "모리화차",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "콜라",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "사이다",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "연태[대]",
+       "price": 55000
+      },
+      {
+       "category": "주류",
+       "name": "천진고량주[대]",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "[중국산]죽엽청주[대]",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "수정방[대]",
+       "price": 600000
+      },
+      {
+       "category": "주류",
+       "name": "금문고량주[대]",
+       "price": 200000
+      },
+      {
+       "category": "주류",
+       "name": "연태[중]",
+       "price": 28000
+      },
+      {
+       "category": "주류",
+       "name": "천진고량주[중]",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "[중국산]죽엽청주[중]",
+       "price": 33000
+      },
+      {
+       "category": "주류",
+       "name": "수정방[중]",
+       "price": 300000
+      },
+      {
+       "category": "주류",
+       "name": "금문고량주[소]",
+       "price": 100000
+      },
+      {
+       "category": "주류",
+       "name": "연태[소]",
+       "price": 15000
+      },
+      {
+       "category": "주류",
+       "name": "천진고량주[소]",
+       "price": 18000
+      },
+      {
+       "category": "주류",
+       "name": "[중국산]죽엽청주[소]",
+       "price": 17000
+      },
+      {
+       "category": "주류",
+       "name": "수정방[소]",
+       "price": 150000
+      },
+      {
+       "category": "주류",
+       "name": "고량주",
+       "price": 80000
+      },
+      {
+       "category": "주류",
+       "name": "[대만산]죽엽청주500m",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "청도맥주[대]",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "주중주패[대]",
+       "price": 40000
+      },
+      {
+       "category": "주류",
+       "name": "마오타이",
+       "price": 600000
+      },
+      {
+       "category": "주류",
+       "name": "공부가주",
+       "price": 60000
+      },
+      {
+       "category": "주류",
+       "name": "[대만산]죽엽청주250m",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "주중주패[소]",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "진년소흥주",
+       "price": 50000
+      },
+      {
+       "category": "주류",
+       "name": "경주",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "오량액",
+       "price": 600000
+      },
+      {
+       "category": "주류",
+       "name": "마오타이",
+       "price": 600000
+      },
+      {
+       "category": "주류",
+       "name": "샘떼멜리옹",
+       "price": 60000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "173.jpg",
+     "fid": "F0CAP9E8WFM",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기타",
+       "name": "술셋팅비",
+       "price": 20000
+      },
+      {
+       "category": "기타",
+       "name": "술셋팅비",
+       "price": 30000
+      },
+      {
+       "category": "기타",
+       "name": "술셋팅비",
+       "price": 40000
+      },
+      {
+       "category": "기타",
+       "name": "술셋팅비",
+       "price": 50000
+      },
+      {
+       "category": "기타",
+       "name": "추가",
+       "price": 10000
+      },
+      {
+       "category": "기타",
+       "name": "대하 [1인]",
+       "price": 20000
+      },
+      {
+       "category": "기타",
+       "name": "꽃빵",
+       "price": 5000
+      },
+      {
+       "category": "기타",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "기타",
+       "name": "안주국물",
+       "price": 15000
+      },
+      {
+       "category": "기타",
+       "name": "유린만두",
+       "price": 12000
+      },
+      {
+       "category": "기타",
+       "name": "오룡해삼 추가",
+       "price": 5000
+      },
+      {
+       "category": "기타",
+       "name": "새우 추가",
+       "price": 3500
+      },
+      {
+       "category": "기타",
+       "name": "[VIP]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "기타",
+       "name": "[준비]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "기타",
+       "name": "[시작]",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "기타",
+       "name": "메뉴외",
+       "price": 0
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792555598.693949",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792555546186929"
+  },
   {
    "ts": "1792552885.524669",
    "date": "2026-10-21",
