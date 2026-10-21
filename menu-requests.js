@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3934,
- "updatedAt": "2026-10-21 17:31",
+ "version": 3935,
+ "updatedAt": "2026-10-21 17:38",
  "days": 30,
  "items": [
   {
@@ -60762,30 +60762,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789981029823089"
-  },
-  {
-   "ts": "1789979905.786569",
-   "date": "2026-09-21",
-   "time": "17:38",
-   "store": "마이요거트립 연수점",
-   "biz": "59309*****",
-   "pos": "",
-   "content": "마이요거트립 부평점(<tel:···|···>) 메뉴로 복제 부탁드립니다!!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "님 해당 매장은 이미지 괜찮다고 합니다용~ ㅎㅎ",
-    "부평점만 내일 이미지 받아서 제가 재요청 드릴게요 !"
-   ],
-   "rc": 7,
-   "lr": "1789981034.537009",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789979905786569"
   }
  ],
  "ocr": {
