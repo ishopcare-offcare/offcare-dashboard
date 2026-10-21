@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3881,
- "updatedAt": "2026-10-21 10:14",
+ "version": 3882,
+ "updatedAt": "2026-10-21 10:42",
  "days": 30,
  "items": [
+  {
+   "ts": "1792546924.905089",
+   "date": "2026-10-21",
+   "time": "10:42",
+   "store": "자고로 커피(zagoro coffee)",
+   "biz": "21808*****",
+   "pos": "",
+   "content": "메뉴등록요청드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792546929.064219",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792546924905089"
+  },
   {
    "ts": "1792493353.613599",
    "date": "2026-10-20",
@@ -653,8 +674,8 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1792542297.131309",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792489368175609"
   },
   {
