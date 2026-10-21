@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23495,
+  "version": 23496,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270394,6 +270394,7 @@ window.SLACK_DATA = {
     "2026-10-21": {
       "counts": {
         "as": {
+          "고경림": 1,
           "김동욱": 5
         },
         "nosetup": {
@@ -270402,6 +270403,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "테넷커피랩(TENET Coffee Lab)",
+          "biz": "13817*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "옵션 설정하셨으나 일부 메뉴 옵션 노출이 안된다하여 확인부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:36",
           "store": "티커피 (T'COFFEE)",
@@ -270476,7 +270488,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 1,
         "unknown": 0
       },
@@ -270640,21 +270652,21 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792544582.559,
+        "lastSeen": 1792544679.004,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792543807.223259": {
         "post": "1792543807.223259",
-        "lastSeen": 1792544582.559,
+        "lastSeen": 1792544679.004,
         "r": 1,
         "day": "2026-10-21",
         "idx": 6
       },
       "1792544417.498269": {
         "post": "1792544417.498269",
-        "lastSeen": 1792544582.559
+        "lastSeen": 1792544679.004
       }
     },
     "days": {
@@ -366877,7 +366889,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-21 10:03",
+    "at": "2026-10-21 10:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -367012,7 +367024,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 10:03",
+    "at": "2026-10-21 10:04",
     "pri": {
       "days": 0,
       "failed": [],
