@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3876,
- "updatedAt": "2026-10-21 09:25",
+ "version": 3877,
+ "updatedAt": "2026-10-21 09:38",
  "days": 30,
  "items": [
   {
@@ -6272,9 +6272,12 @@ window.MENU_REQUESTS = {
      "v": 2
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "누룽지 닭강정 2~3인 24000원\n반반메뉴 25000원\n버터갈릭감자튀김 7000원\n콜라 500ml 2000원\n콜라 1.25L 3000원\n치킨무 1000원\n\n금일 오전 내에 빠르게 등록 필요하다고 하시어 내용 공유드립니다",
+    "님 바쁘신데 죄송합니다만\n금일 오전에 꼭 등록 필요하다고, 안되어있다고 인입되어 내용 공유드립니다"
+   ],
+   "rc": 2,
+   "lr": "1792543107.243119",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
