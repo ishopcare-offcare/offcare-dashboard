@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3910,
- "updatedAt": "2026-10-21 14:12",
+ "version": 3911,
+ "updatedAt": "2026-10-21 14:16",
  "days": 30,
  "items": [
   {
@@ -18,13 +18,23 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CAPLLRFQT",
+     "from": "댓글",
+     "path": "menu-files/1792559494_920749-0.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "테이블 카테고리 : 선불\n\n테이블 이름 선불 1, 선불 2 등 과 같이 선불 띄고 테이블 숫자 생성 요청 드립니다."
    ],
-   "rc": 2,
-   "lr": "1792559523.065469",
+   "rc": 4,
+   "lr": "1792559736.253279",
    "rfx": 3,
    "status": "confirm",
    "handler": "김동욱",
