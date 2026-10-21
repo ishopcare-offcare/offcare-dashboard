@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3879,
- "updatedAt": "2026-10-21 09:41",
+ "version": 3880,
+ "updatedAt": "2026-10-21 09:42",
  "days": 30,
  "items": [
   {
@@ -6297,7 +6297,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CAW9QQP25",
      "from": "댓글",
-     "path": "menu-files/1792378055_509199-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -6316,13 +6315,13 @@ window.MENU_REQUESTS = {
        "price": 25000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792378055_509199-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CAW9NJ4DP",
      "from": "댓글",
-     "path": "menu-files/1792378055_509199-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -6356,6 +6355,16 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792378055_509199-2.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CASDTECNA",
+     "from": "댓글",
+     "path": "menu-files/1792378055_509199-3.png",
+     "kind": "pos_screen",
+     "menu": [],
      "v": 2
     }
    ],
@@ -6403,10 +6412,11 @@ window.MENU_REQUESTS = {
     "님 바쁘신데 죄송합니다만\n금일 오전에 꼭 등록 필요하다고, 안되어있다고 인입되어 내용 공유드립니다",
     "상품관리에는 있는데 없다고 하십니다..",
     "님 올려주신 글하고 상호명이 조금 다른거같은데 사업자번호는 맞을까요?",
-    "또한, 포스기에 안보이신다는건지, 키오스크 모드했을때 안보이는건지 확인 해주시고 AS방으로 이관 해주셔야될거같습니다.\n\n메뉴등록엔 문제가 없어보입니다"
+    "또한, 포스기에 안보이신다는건지, 키오스크 모드했을때 안보이는건지 확인 해주시고 AS방으로 이관 해주셔야될거같습니다.\n\n메뉴등록엔 문제가 없어보입니다",
+    "넵 메뉴등록엔 이상없는것으로  확인 후 AS로 이관하겠습니다\n감사합니다!"
    ],
-   "rc": 6,
-   "lr": "1792543272.492859",
+   "rc": 7,
+   "lr": "1792543296.426599",
    "rfx": 3,
    "status": "done",
    "handler": "김규빈",
