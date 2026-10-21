@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23496,
+  "version": 23497,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270397,6 +270397,9 @@ window.SLACK_DATA = {
           "고경림": 1,
           "김동욱": 5
         },
+        "extern": {
+          "김동욱": 1
+        },
         "nosetup": {
           "김현기": 1
         }
@@ -270413,6 +270416,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "09:42",
+          "store": "우리할인마트",
+          "biz": "12710*****",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "나들가게 프로그램 연동을 위해 vcat 설치 관련 원격 요청 주셨습니다. (<https://w1659946222-hxm266180.slack.com/archives/C0AL2V3MM7U/p1792037322586119|주문스레드>)",
+          "hw": "",
+          "intake": "online",
+          "note": "102102026 / 나들가게 연동 및 페페 결제 테스트 완료",
+          "rr": 2
         },
         {
           "time": "09:36",
@@ -270488,7 +270503,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 1,
         "unknown": 0
       },
@@ -270652,21 +270667,24 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792544679.004,
+        "lastSeen": 1792544732.659,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792543807.223259": {
         "post": "1792543807.223259",
-        "lastSeen": 1792544679.004,
+        "lastSeen": 1792544732.659,
         "r": 1,
         "day": "2026-10-21",
         "idx": 6
       },
       "1792544417.498269": {
         "post": "1792544417.498269",
-        "lastSeen": 1792544679.004
+        "lastSeen": 1792544732.659,
+        "r": 1,
+        "day": "2026-10-21",
+        "idx": 7
       }
     },
     "days": {
@@ -366819,8 +366837,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-21": {
-        "cnt": 7,
-        "sumMin": 17.55899061759313,
+        "cnt": 8,
+        "sumMin": 22.364544467131296,
         "over": 0,
         "items": [
           {
@@ -366883,13 +366901,21 @@ window.SLACK_DATA = {
             "biz": "10803*****",
             "who": "송태양",
             "cat": "as"
+          },
+          {
+            "hm": "10:00",
+            "min": 4.8,
+            "store": "가진플라워",
+            "biz": "37891*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-21 10:04",
+    "at": "2026-10-21 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -367024,7 +367050,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 10:04",
+    "at": "2026-10-21 10:05",
     "pri": {
       "days": 0,
       "failed": [],
