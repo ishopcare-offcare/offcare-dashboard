@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3884,
- "updatedAt": "2026-10-21 10:45",
+ "version": 3885,
+ "updatedAt": "2026-10-21 10:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1792547193.848769",
+   "date": "2026-10-21",
+   "time": "10:46",
+   "store": "산정호수가든",
+   "biz": "40306*****",
+   "pos": "토스포스",
+   "content": "지속된 파일첨부 오류로 메일수신.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792547193848769"
+  },
   {
    "ts": "1792546924.905089",
    "date": "2026-10-21",
@@ -487,9 +508,11 @@ window.MENU_REQUESTS = {
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 4,
-   "lr": "1792547093.667179",
+   "replies": [
+    "• coffee메뉴중 토스티,원두200g,원두 메뉴는 옵션없음\n• non-coffee 메뉴중 밀크티,아이스밀크티 만 옵션있음\n• bake 메뉴중 말차,초코,얼그레이 티그레만 take out 옵션있음"
+   ],
+   "rc": 5,
+   "lr": "1792547168.378909",
    "rfx": 3,
    "status": "confirm",
    "handler": "김규빈",
