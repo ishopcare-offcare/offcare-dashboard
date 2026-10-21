@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3938,
- "updatedAt": "2026-10-21 17:48",
+ "version": 3939,
+ "updatedAt": "2026-10-21 17:58",
  "days": 30,
  "items": [
   {
@@ -60729,62 +60729,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789983661814449"
-  },
-  {
-   "ts": "1789981029.823089",
-   "date": "2026-09-21",
-   "time": "17:57",
-   "store": "예솔스토리",
-   "biz": "26724*****",
-   "pos": "",
-   "content": "해당 매장 기존 메뉴중에 가격 변경이 필요한 메뉴들이 있어 리스트 공유드립니다. 가격 수정 변경 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 1,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C37SWBYK0",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "TUFFSOAP 터프솝 올인원 향수비누 - 그린",
-       "price": 13900
-      }
-     ],
-     "path": "menu-files/1789981029_823089-1.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C33K0157V",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "[TUFFSOAP] 터프솝 올인원 향수비누 - 그린(155g)",
-       "price": 13900
-      }
-     ],
-     "path": "menu-files/1789981029_823089-2.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "네네 맞습니다!",
-    "가격만 수정 부탁드립니다!",
-    "리스트가 너무 많아서 버거워하시는거 같아요....",
-    "넵넵 알겠습니다!",
-    "아니면 제가 한번 다시 확인해보겠습니다."
-   ],
-   "rc": 17,
-   "lr": "1789981439.722159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1789981029823089"
   }
  ],
  "ocr": {
