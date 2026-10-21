@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23464,
+  "version": 23465,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270578,14 +270578,17 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792541354.984,
+        "lastSeen": 1792541395.822,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792541158.881519": {
         "post": "1792541158.881519",
-        "lastSeen": 1792541354.984
+        "lastSeen": 1792541395.822,
+        "r": 1,
+        "day": "2026-10-21",
+        "idx": 2
       }
     },
     "days": {
@@ -366738,8 +366741,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-21": {
-        "cnt": 2,
-        "sumMin": 7.377935866514841,
+        "cnt": 3,
+        "sumMin": 10.986627213160197,
         "over": 0,
         "items": [
           {
@@ -366758,13 +366761,21 @@ window.SLACK_DATA = {
             "biz": "69564*****",
             "who": "김현기",
             "cat": "as"
+          },
+          {
+            "hm": "09:05",
+            "min": 3.6,
+            "store": "호텔초콜릿성남",
+            "biz": "36706*****",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-21 09:09",
+    "at": "2026-10-21 09:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
