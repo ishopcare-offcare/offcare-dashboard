@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3896,
- "updatedAt": "2026-10-21 13:07",
+ "version": 3897,
+ "updatedAt": "2026-10-21 13:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1792555910.153829",
+   "date": "2026-10-21",
+   "time": "13:11",
+   "store": "족발로일등하는집 응암본점",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 족발로일등하는집 응암본점(메뉴사진)\n대용량 첨부 6개 30MB  IMG_1897.jpeg 2539448 ~ 2026/11/20 IMG_1896.jpeg 2755917 ~ 2026/11/20 IMG_1895.jpeg 5637359 ~ 2026/11/20 IMG_1894.jpeg 5487280 ~ 2026/11/20 IMG_1893.jpeg 7840199 ~ 2026/11/20 IMG_1892.jpeg 7041943 ~ 2026/11/20 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a15ca79fbc022b8>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a15ca79fbc022b8",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792555910153829"
+  },
   {
    "ts": "1792555546.186929",
    "date": "2026-10-21",
