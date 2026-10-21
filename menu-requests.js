@@ -3,10 +3,126 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3928,
- "updatedAt": "2026-10-21 17:00",
+ "version": 3929,
+ "updatedAt": "2026-10-21 17:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1792569633.035149",
+   "date": "2026-10-21",
+   "time": "17:00",
+   "store": "커피장류장",
+   "biz": "50707*****",
+   "pos": "토스포스",
+   "content": "전체등록",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/11-DbCj-jJL9QSVYzWex__9FrHmJh65pF/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "11-DbCj-jJL9QSVYzWex__9FrHmJh65pF",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노 (HOT / ICE)",
+       "price": 3000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼 (HOT / ICE)",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아샷추 (ICE)",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼 (HOT / ICE)",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "달고나라떼 (ICE)",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "돌체라떼 (HOT / ICE)",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "그린티라떼 (HOT / ICE)",
+       "price": 4500
+      },
+      {
+       "category": "ADE",
+       "name": "레몬에이드 (ICE)",
+       "price": 4500
+      },
+      {
+       "category": "ADE",
+       "name": "자몽에이드 (ICE)",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일 (HOT / ICE)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이 (HOT / ICE)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트 (HOT / ICE)",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽허니블랙티 (ICE)",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "아이스티 (ICE)",
+       "price": 3500
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "요거트 스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "블루베리 요거트 스무디",
+       "price": 5500
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "딸기 요거트 스무디",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792569633035149"
+  },
   {
    "ts": "1792569518.615929",
    "date": "2026-10-21",
