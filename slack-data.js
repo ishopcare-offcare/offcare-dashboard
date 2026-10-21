@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23474,
+  "version": 23475,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270590,21 +270590,24 @@ window.SLACK_DATA = {
       },
       "1792540828.376939": {
         "post": "1792540828.376939",
-        "lastSeen": 1792542618.966,
+        "lastSeen": 1792542666.57,
         "r": 1,
         "day": "2026-10-21",
         "idx": 1
       },
       "1792542044.282119": {
         "post": "1792542044.282119",
-        "lastSeen": 1792542618.966,
+        "lastSeen": 1792542666.57,
         "r": 1,
         "day": "2026-10-21",
         "idx": 3
       },
       "1792542600.403019": {
         "post": "1792542600.403019",
-        "lastSeen": 1792542618.966
+        "lastSeen": 1792542666.57,
+        "r": 1,
+        "day": "2026-10-21",
+        "idx": 4
       }
     },
     "days": {
@@ -366757,8 +366760,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-21": {
-        "cnt": 4,
-        "sumMin": 12.159933563073476,
+        "cnt": 5,
+        "sumMin": 12.86601658264796,
         "over": 0,
         "items": [
           {
@@ -366794,13 +366797,21 @@ window.SLACK_DATA = {
             "biz": "60410*****",
             "who": "김동욱",
             "cat": "as"
+          },
+          {
+            "hm": "09:30",
+            "min": 0.7,
+            "store": "실버네일",
+            "biz": "34523*****",
+            "who": "김현기",
+            "cat": "nosetup"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-21 09:30",
+    "at": "2026-10-21 09:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -366808,7 +366819,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4670,
     "named": 1245,
-    "unknownName": 120,
+    "unknownName": 119,
     "beforeStart": 0,
     "done": 1245,
     "byStatus": {
@@ -366935,7 +366946,7 @@ window.SLACK_DATA = {
     "2026-10-21": 2
   },
   "noteMig": {
-    "at": "2026-10-21 09:30",
+    "at": "2026-10-21 09:31",
     "pri": {
       "days": 0,
       "failed": [],
