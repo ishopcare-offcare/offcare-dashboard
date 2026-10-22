@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3982,
- "updatedAt": "2026-10-22 12:09",
+ "version": 3983,
+ "updatedAt": "2026-10-22 12:11",
  "days": 30,
  "items": [
   {
@@ -59327,29 +59327,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790046847483469"
-  },
-  {
-   "ts": "1790046589.680589",
-   "date": "2026-09-22",
-   "time": "12:09",
-   "store": "마이요거트립 부평점",
-   "biz": "52763*****",
-   "pos": "",
-   "content": "메뉴 이미지 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "님 부평점 이미지 등록완료했으니 참고해주세요"
-   ],
-   "rc": 2,
-   "lr": "1790046597.589859",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790046589680589"
   }
  ],
  "ocr": {
