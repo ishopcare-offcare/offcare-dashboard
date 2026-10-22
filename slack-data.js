@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24027,
+  "version": 24028,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273682,14 +273682,15 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "extern": {
+          "김동욱": 2
+        },
         "as": {
+          "김기범": 1,
           "김현기": 1,
           "송태양": 1,
           "고경림": 2,
           "심성현": 3
-        },
-        "extern": {
-          "김동욱": 1
         },
         "booking": {
           "심성현": 1
@@ -273707,6 +273708,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:24",
+          "store": "반프안(BAAN PUEAN)",
+          "biz": "29118*****",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "10:21",
+          "store": "드롭탑 함평나비(무안)휴게소",
+          "biz": "15685*****",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "카드리더기 먹통",
+          "hw": "",
+          "intake": "offline",
+          "note": "선 뺏다가 재결합 완료",
+          "rr": 1
+        },
         {
           "time": "10:20",
           "store": "IFS 2026",
@@ -273864,11 +273888,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
-        "offline": 1,
+        "online": 13,
+        "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:21"
+      "updatedAt": "10:24"
     }
   },
   "resp": {
@@ -274029,7 +274053,14 @@ window.SLACK_DATA = {
       },
       "1792632042.506749": {
         "post": "1792632042.506749",
-        "lastSeen": 1792632200.498
+        "lastSeen": 1792632284.566,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 5
+      },
+      "1792632238.623409": {
+        "post": "1792632238.623409",
+        "lastSeen": 1792632284.566
       }
     },
     "days": {
@@ -371999,8 +372030,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 5,
-        "sumMin": 20.164163752396902,
+        "cnt": 6,
+        "sumMin": 23.497917938232423,
         "over": 0,
         "items": [
           {
@@ -372047,13 +372078,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "as",
             "dmin": 8.3
+          },
+          {
+            "hm": "10:20",
+            "min": 3.3,
+            "store": "스테이 패스포트 익스프레스 스파 당산점",
+            "biz": "81085*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:23",
+    "at": "2026-10-22 10:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372189,7 +372228,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:23",
+    "at": "2026-10-22 10:24",
     "pri": {
       "days": 0,
       "failed": [],
