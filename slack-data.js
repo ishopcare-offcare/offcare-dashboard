@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23995,
+  "version": 23996,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273923,11 +273923,14 @@ window.SLACK_DATA = {
       },
       "1792629020.003929": {
         "post": "1792629020.003929",
-        "lastSeen": 1792629024.322
+        "lastSeen": 1792629094.129
       },
       "1792629000.226189": {
         "post": "1792629000.226189",
-        "lastSeen": 1792629024.322
+        "lastSeen": 1792629094.129,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 1
       }
     },
     "days": {
@@ -371897,8 +371900,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 1,
-        "sumMin": 14.453511182467143,
+        "cnt": 2,
+        "sumMin": 15.436833035945892,
         "over": 0,
         "items": [
           {
@@ -371909,13 +371912,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "menu",
             "dmin": 25.9
+          },
+          {
+            "hm": "09:30",
+            "min": 1,
+            "store": "다인뷰티",
+            "biz": "11216*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:30",
+    "at": "2026-10-22 09:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372051,7 +372062,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:30",
+    "at": "2026-10-22 09:31",
     "pri": {
       "days": 0,
       "failed": [],
