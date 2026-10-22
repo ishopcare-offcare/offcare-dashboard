@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3978,
- "updatedAt": "2026-10-22 11:48",
+ "version": 3979,
+ "updatedAt": "2026-10-22 11:51",
  "days": 30,
  "items": [
   {
@@ -367,12 +367,51 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB4BYAEJ2",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장 or 테이크 아웃",
+       "name": "매장",
+       "price": 0
+      },
+      {
+       "category": "매장 or 테이크 아웃",
+       "name": "테이크 아웃",
+       "price": 0
+      },
+      {
+       "category": "추가옵션",
+       "name": "디카페인 +1.0",
+       "price": 1000
+      },
+      {
+       "category": "추가옵션",
+       "name": "오트 변경 +1.0",
+       "price": 1000
+      },
+      {
+       "category": "추가옵션",
+       "name": "두유 변경 +0.5",
+       "price": 500
+      },
+      {
+       "category": "추가옵션",
+       "name": "사이즈 업 +0.5",
+       "price": 500
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 3,
-   "lr": "1792637243.456039",
+   "rc": 4,
+   "lr": "1792637460.279169",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
