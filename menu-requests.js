@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3975,
- "updatedAt": "2026-10-22 11:29",
+ "version": 3976,
+ "updatedAt": "2026-10-22 11:37",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,361 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_5710.png",
+     "fid": "F0CB49BMA94",
+     "from": "댓글",
+     "path": "menu-files/1792636061_975459-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페 라떼",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "인하프 크림 라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "버터스카치 크림라떼",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "피넛버터크림라떼",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "수제 바닐라 라떼",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "오트 라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "연유 라떼",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "코코넛 라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜라떼",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5711.png",
+     "fid": "F0CAQSH04EB",
+     "from": "댓글",
+     "path": "menu-files/1792636061_975459-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Milk",
+       "name": "바밤 라떼",
+       "price": 6000
+      },
+      {
+       "category": "Milk",
+       "name": "망고 라떼",
+       "price": 6000
+      },
+      {
+       "category": "Milk",
+       "name": "바닐라 얼그레이 밀크티",
+       "price": 5500
+      },
+      {
+       "category": "Milk",
+       "name": "생딸기 라떼",
+       "price": 6000
+      },
+      {
+       "category": "Milk",
+       "name": "말차라떼",
+       "price": 6000
+      },
+      {
+       "category": "Milk",
+       "name": "초코 라떼",
+       "price": 5000
+      },
+      {
+       "category": "Milk",
+       "name": "미숫가루",
+       "price": 5000
+      },
+      {
+       "category": "Milk",
+       "name": "고구마라떼",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5712.png",
+     "fid": "F0CC0KABTB2",
+     "from": "댓글",
+     "path": "menu-files/1792636061_975459-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Ade",
+       "name": "땡모반",
+       "price": 6000
+      },
+      {
+       "category": "Ade",
+       "name": "패션후르츠 망고 에이드",
+       "price": 6000
+      },
+      {
+       "category": "Ade",
+       "name": "라임 모히또",
+       "price": 6000
+      },
+      {
+       "category": "Ade",
+       "name": "청포도 에이드",
+       "price": 6000
+      },
+      {
+       "category": "Ade",
+       "name": "매실에이드",
+       "price": 5000
+      },
+      {
+       "category": "Ade",
+       "name": "백향유자에이드",
+       "price": 6000
+      },
+      {
+       "category": "Ade",
+       "name": "패션후르츠 에이드",
+       "price": 5000
+      },
+      {
+       "category": "Ade",
+       "name": "레몬 에이드",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5713.png",
+     "fid": "F0CB49HKFPY",
+     "from": "댓글",
+     "path": "menu-files/1792636061_975459-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Tea",
+       "name": "와일드 베리 아이스티",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "페퍼민트",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "캐모마일",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "얼그레이",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "히비스커스",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "민들레",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "유자백향티",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5715.png",
+     "fid": "F0CB9UVHRQC",
+     "from": "댓글",
+     "path": "menu-files/1792636061_975459-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "for pet",
+       "name": "멍 푸딩",
+       "price": 5000
+      },
+      {
+       "category": "for pet",
+       "name": "하프치노",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5716.png",
+     "fid": "F0CB01Q6FNX",
+     "from": "댓글",
+     "path": "menu-files/1792636061_975459-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "etc",
+       "name": "초",
+       "price": 1500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5714.png",
+     "fid": "F0CB01LLCTD",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Dessert",
+       "name": "바나나 푸딩",
+       "price": 5000
+      },
+      {
+       "category": "Dessert",
+       "name": "얼그레이 푸딩",
+       "price": 5000
+      },
+      {
+       "category": "Dessert",
+       "name": "반반 푸딩",
+       "price": 5500
+      },
+      {
+       "category": "Dessert",
+       "name": "명란 마요 바게트",
+       "price": 6000
+      },
+      {
+       "category": "Dessert",
+       "name": "베이컨 쪽파 크림치즈 베이글",
+       "price": 7000
+      },
+      {
+       "category": "Dessert",
+       "name": "과일 그래놀라 요거트",
+       "price": 6000
+      },
+      {
+       "category": "Dessert",
+       "name": "바밤푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "카라멜 약과 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "블루베리치즈 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "무화과 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "버터스카치 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "피넛 버터 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "두바이푸딩",
+       "price": 8000
+      },
+      {
+       "category": "Dessert",
+       "name": "딸기푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "망고 치즈 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "팥절미 푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "러버 푸딩 세트",
+       "price": 12000
+      },
+      {
+       "category": "Dessert",
+       "name": "고구마푸딩",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "패션후르츠 망고 요거트",
+       "price": 6000
+      },
+      {
+       "category": "Dessert",
+       "name": "푸딩 테이크아웃 사이즈업",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792636066.011969",
+   "rc": 2,
+   "lr": "1792636581.474699",
    "rfx": 3,
    "status": "wait",
    "handler": null,
