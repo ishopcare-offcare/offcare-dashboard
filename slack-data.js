@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24063,
+  "version": 24064,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273759,7 +273759,8 @@ window.SLACK_DATA = {
           "req": "터미널에 금액 입력한 뒤 결제 버튼 눌러도 프론트에 카드 넣었을 때 아무 반응이 없다고 하십니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프론트 재온보딩후 정상 연동확인완료 • 결제 취소방법 안내완료 결제 취소방법 안내완료",
+          "rr": 1
         },
         {
           "time": "10:59",
@@ -274282,7 +274283,7 @@ window.SLACK_DATA = {
       },
       "1792634406.737289": {
         "post": "1792634406.737289",
-        "lastSeen": 1792635003.008,
+        "lastSeen": 1792635075.916,
         "r": 1,
         "day": "2026-10-22",
         "idx": 14
@@ -372407,7 +372408,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:10",
+    "at": "2026-10-22 11:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372543,7 +372544,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:10",
+    "at": "2026-10-22 11:11",
     "pri": {
       "days": 0,
       "failed": [],
