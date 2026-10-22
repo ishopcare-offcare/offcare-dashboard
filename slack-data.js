@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24026,
+  "version": 24027,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273716,8 +273716,8 @@ window.SLACK_DATA = {
           "req": "부스 내 인터넷 ip확인 및 설정",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 1
+          "note": "/ 혜인님 왔다갔다 하면서 중간에 한번씩 봐주기로 했슴다 혜인님 왔다갔다 하면서 중간에 한번씩 봐주기로 했슴다",
+          "rr": 2
         },
         {
           "time": "10:19",
@@ -274029,7 +274029,7 @@ window.SLACK_DATA = {
       },
       "1792632042.506749": {
         "post": "1792632042.506749",
-        "lastSeen": 1792632129.837
+        "lastSeen": 1792632200.498
       }
     },
     "days": {
@@ -372053,7 +372053,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:22",
+    "at": "2026-10-22 10:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372189,7 +372189,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:22",
+    "at": "2026-10-22 10:23",
     "pri": {
       "days": 0,
       "failed": [],
