@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24030,
+  "version": 24031,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273694,6 +273694,7 @@ window.SLACK_DATA = {
         },
         "onboarding": {
           "심성현": 2,
+          "고경림": 1,
           "김동욱": 1
         },
         "booking": {
@@ -273766,6 +273767,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "카드결제를 받으시고 대금이 입금이 안되어서 모든 카드사에 전화를 했더니 카드가맹이 안되어있다는 안내를 받으셨다는데, 일단 거래대금은 34일 정도 소요되는걸 안내드렸는데도 미수긍, 가맹 다 잘 되어있고 결제내역까지 정상적으로 결제 하신점 확인해드렸으나 지속 미수긍 하셔서 일단 자사 고객센터 연락하셔서 입금계좌 확인해보셔야한다고 안내드렸어요! 카드결제를 받으시",
           "rr": 1
+        },
+        {
+          "time": "10:14",
+          "store": "피티웨이",
+          "biz": "41837*****",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "포프(PC) + 유프 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "10:05",
@@ -273900,7 +273912,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 2,
         "unknown": 0
       },
@@ -274065,7 +274077,7 @@ window.SLACK_DATA = {
       },
       "1792632238.623409": {
         "post": "1792632238.623409",
-        "lastSeen": 1792632406.287,
+        "lastSeen": 1792632465.173,
         "r": 1,
         "day": "2026-10-22",
         "idx": 6
@@ -372109,7 +372121,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:27",
+    "at": "2026-10-22 10:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372245,7 +372257,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:26",
+    "at": "2026-10-22 10:27",
     "pri": {
       "days": 0,
       "failed": [],
