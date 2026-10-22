@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3956,
- "updatedAt": "2026-10-22 09:48",
+ "version": 3957,
+ "updatedAt": "2026-10-22 09:58",
  "days": 30,
  "items": [
   {
@@ -59266,47 +59266,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038908506169"
-  },
-  {
-   "ts": "1790038608.680899",
-   "date": "2026-09-22",
-   "time": "09:56",
-   "store": "스몰굿 컴퍼니 마이요거트립",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 스몰굿 컴퍼니 / 마이요거트립 메뉴사진\n규빈님 안녕하세요~\n \n 이메일로 한 번에 내려받는게 편하실 것 같아\n \n    - 스몰굿커피 문정점\n    - 마이요거트립\n \n 메뉴 사진 송부 드립니다.\n  [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달.eml\n <https://drive.google.com/file/d/18iAMn3DI6IvYBaDtw0UbV7z9SO9_vXDO/view?usp=drive_web>\n 감사합니다.\n \n 장혜인 드림\n \n \n ㈜아이샵케어 \n \n \n 장혜인 Offline Sales Team\n \n \n T ···  M 010-\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c698e7403a7e4>)",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/18iAMn3DI6IvYBaDtw0UbV7z9SO9_vXDO/view?usp=drive_web"
-   ],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C4B6EHLSU",
-     "from": "댓글",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "요상요상..!",
-    "요상요상합니다!",
-    "어어엇",
-    "님 이메일 3개 각각 전달로 재발송 드렸습니당!!!!!!  확인 부탁드려용~"
-   ],
-   "rc": 5,
-   "lr": "1790038870.283829",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c698e7403a7e4",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038608680899"
   }
  ],
  "ocr": {

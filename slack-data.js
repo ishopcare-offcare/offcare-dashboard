@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24007,
+  "version": 24008,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273695,10 +273695,24 @@ window.SLACK_DATA = {
         },
         "menu": {
           "김동욱": 1
+        },
+        "delivery": {
+          "심성현": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:45",
+          "store": "루",
+          "biz": "32058*****",
+          "cat": "delivery",
+          "emp": "심성현",
+          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 스티커 부착된 매장 외관 사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:30",
           "store": "김마리(태전점)",
@@ -273785,7 +273799,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 1,
         "unknown": 0
       },
@@ -273947,13 +273961,6 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
-      },
-      "1792629900.463999": {
-        "post": "1792629900.463999",
-        "lastSeen": 1792630586.145,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 3
       }
     },
     "days": {
@@ -371960,14 +371967,15 @@ window.SLACK_DATA = {
             "store": "루",
             "biz": "32058*****",
             "who": "심성현",
-            "cat": "delivery"
+            "cat": "delivery",
+            "dmin": 12.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:56",
+    "at": "2026-10-22 09:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372103,7 +372111,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:56",
+    "at": "2026-10-22 09:57",
     "pri": {
       "days": 0,
       "failed": [],
