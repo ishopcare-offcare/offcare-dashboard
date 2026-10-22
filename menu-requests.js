@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4031,
- "updatedAt": "2026-10-22 23:15",
+ "version": 4032,
+ "updatedAt": "2026-10-22 23:23",
  "days": 30,
  "items": [
   {
@@ -242,14 +242,65 @@ window.MENU_REQUESTS = {
      ],
      "v": 2,
      "path": "menu-files/1792661815_618359-1.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB58TKDMH",
+     "from": "댓글",
+     "path": "menu-files/1792661815_618359-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "청양 멘보장 덮밥",
+       "price": 14500
+      },
+      {
+       "category": "",
+       "name": "콘크림 폴당다리살 덮밥",
+       "price": 11500
+      },
+      {
+       "category": "",
+       "name": "돼지고기 가지 덮밥",
+       "price": 11500
+      },
+      {
+       "category": "국수",
+       "name": "사골 고기 국수",
+       "price": 9000
+      },
+      {
+       "category": "국수",
+       "name": "얼큰 고기 국수",
+       "price": 9000
+      },
+      {
+       "category": "파스타",
+       "name": "매콤 두부장 들기름 파스타",
+       "price": 7900
+      },
+      {
+       "category": "파스타",
+       "name": "새우 리코타 시금치 파스타",
+       "price": 12500
+      },
+      {
+       "category": "파스타",
+       "name": "무쇠팬 로제크림 파스타",
+       "price": 10500
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
-    "메뉴판 메뉴 등록 부탁드립니다!"
+    "메뉴판 메뉴 등록 부탁드립니다!",
+    "증거사진 첨부드립니다..."
    ],
-   "rc": 5,
-   "lr": "1792678532.074289",
+   "rc": 8,
+   "lr": "1792678859.947729",
    "rfx": 3,
    "status": "done",
    "handler": "최민석",
