@@ -3,10 +3,510 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4021,
- "updatedAt": "2026-10-22 18:02",
+ "version": 4022,
+ "updatedAt": "2026-10-22 18:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1792659969.246609",
+   "date": "2026-10-22",
+   "time": "18:06",
+   "store": "고모카세",
+   "biz": "67109*****",
+   "pos": "스파로스포스",
+   "content": "스파로스 메뉴 삭제 및 추가, 가격 수정 부탁 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CB6TKNL9L",
+     "from": "댓글",
+     "path": "menu-files/1792659969_246609-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "사리 추가",
+       "name": "칼국수면, 파스타면",
+       "price": 3000
+      },
+      {
+       "category": "사리 추가",
+       "name": "우동, 라면, 소면",
+       "price": 2000
+      },
+      {
+       "category": "사리 추가",
+       "name": "오뎅꼬지 3EA",
+       "price": 2000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "제육 우동 볶음",
+       "price": 23000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "매콤 제육볶음",
+       "price": 20000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "치즈떡 불닭",
+       "price": 20000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "오돌뼈 + 참치주먹밥",
+       "price": 19000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "닭목살구이",
+       "price": 19000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "삼겹수육",
+       "price": 19000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "훈제오리",
+       "price": 18000
+      },
+      {
+       "category": "뽀끔류",
+       "name": "모듬소세지",
+       "price": 16000
+      },
+      {
+       "category": "이건어때?!",
+       "name": "홍어삼합",
+       "price": 30000
+      },
+      {
+       "category": "이건어때?!",
+       "name": "육회 + 육사시미 (1 ++ 한우)",
+       "price": 29000
+      },
+      {
+       "category": "이건어때?!",
+       "name": "냉수육 초무침",
+       "price": 25000
+      },
+      {
+       "category": "이건어때?!",
+       "name": "가오리찜 ( 20분 걸려용 )",
+       "price": 23000
+      },
+      {
+       "category": "이건어때?!",
+       "name": "쭈꾸미초무침",
+       "price": 21000
+      },
+      {
+       "category": "이건어때?!",
+       "name": "모듬숙회(오징어,문어,위소라)",
+       "price": 21000
+      },
+      {
+       "category": "탕류",
+       "name": "아롱사태 전골",
+       "price": 30000
+      },
+      {
+       "category": "탕류",
+       "name": "갯일 닭볶음탕(순살+4.5)",
+       "price": 29000
+      },
+      {
+       "category": "탕류",
+       "name": "동태탕",
+       "price": 21000
+      },
+      {
+       "category": "탕류",
+       "name": "통우렁뱅이탕",
+       "price": 23000
+      },
+      {
+       "category": "탕류",
+       "name": "바지락 술찜",
+       "price": 16000
+      },
+      {
+       "category": "탕류",
+       "name": "꼬지어묵탕",
+       "price": 15000
+      },
+      {
+       "category": "전류",
+       "name": "반반전 (해물 + 김치)",
+       "price": 19000
+      },
+      {
+       "category": "전류",
+       "name": "해물 파전",
+       "price": 18000
+      },
+      {
+       "category": "전류",
+       "name": "해물 김치전",
+       "price": 17000
+      },
+      {
+       "category": "전류",
+       "name": "감자전",
+       "price": 15000
+      },
+      {
+       "category": "전류",
+       "name": "참치 김치찌개 추가",
+       "price": 6000
+      },
+      {
+       "category": "전류",
+       "name": "모짜렐라 치즈 추가",
+       "price": 2500
+      },
+      {
+       "category": "요고 조고만",
+       "name": "불닭 육회",
+       "price": 29000
+      },
+      {
+       "category": "요고 조고만",
+       "name": "한우 육회 or 사시미만",
+       "price": 27000
+      },
+      {
+       "category": "요고 조고만",
+       "name": "숙성 연어만",
+       "price": 26000
+      },
+      {
+       "category": "요고 조고만",
+       "name": "홍어만 한점시",
+       "price": 22000
+      },
+      {
+       "category": "국민 메뉴",
+       "name": "삼겹 두부김치",
+       "price": 16000
+      },
+      {
+       "category": "국민 메뉴",
+       "name": "반건조 노가리",
+       "price": 16000
+      },
+      {
+       "category": "국민 메뉴",
+       "name": "먹태",
+       "price": 16000
+      },
+      {
+       "category": "튀김류",
+       "name": "갈릭 포테이토",
+       "price": 9000
+      },
+      {
+       "category": "튀김류",
+       "name": "파향 까눌 크림고로케",
+       "price": 9000
+      },
+      {
+       "category": "튀김류",
+       "name": "치즈폭탄 고구마 고로케",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "하이볼",
+       "name": "산토리 하이볼",
+       "price": 7000
+      },
+      {
+       "category": "하이볼",
+       "name": "짐빔 하이볼",
+       "price": 7000
+      },
+      {
+       "category": "하이볼",
+       "name": "얼그레이 하이볼",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "짐빔 애플 하이볼",
+       "price": 8000
+      },
+      {
+       "category": "사케",
+       "name": "간빠레 오도상 (900ml)",
+       "price": 35000
+      },
+      {
+       "category": "사케",
+       "name": "오가네 (900ml)",
+       "price": 31000
+      },
+      {
+       "category": "사케",
+       "name": "도쿠리한병",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "곁들임~",
+       "name": "치즈 폭탄 계란말이",
+       "price": 10000
+      },
+      {
+       "category": "곁들임~",
+       "name": "야채 계란말이",
+       "price": 8000
+      },
+      {
+       "category": "곁들임~",
+       "name": "들기름 후라이",
+       "price": 7000
+      },
+      {
+       "category": "곁들임~",
+       "name": "된장 솥밥",
+       "price": 6000
+      },
+      {
+       "category": "곁들임~",
+       "name": "김치 우동 (라면,국수)",
+       "price": 6000
+      },
+      {
+       "category": "곁들임~",
+       "name": "파인애플 or 한라봉샤베트",
+       "price": 6000
+      },
+      {
+       "category": "곁들임~",
+       "name": "황도",
+       "price": 5000
+      },
+      {
+       "category": "곁들임~",
+       "name": "참치주먹밥",
+       "price": 4500
+      },
+      {
+       "category": "곁들임~",
+       "name": "뽀끔밥 ( 제육, 닭볶음탕 )",
+       "price": 3000
+      },
+      {
+       "category": "막걸리",
+       "name": "복분자 막걸리",
+       "price": 8000
+      },
+      {
+       "category": "막걸리",
+       "name": "오미자 막걸리",
+       "price": 8000
+      },
+      {
+       "category": "막걸리",
+       "name": "지평 막걸리",
+       "price": 5000
+      },
+      {
+       "category": "막걸리",
+       "name": "장수막걸리",
+       "price": 4500
+      },
+      {
+       "category": "주류",
+       "name": "별빛 청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "로제 청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주 500cc",
+       "price": 4500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB3HTR75K",
+     "from": "댓글",
+     "path": "menu-files/1792659969_246609-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "홍어 삼합",
+       "price": 30000
+      },
+      {
+       "category": "",
+       "name": "깻잎 닭볶음탕",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "석화1켤",
+       "price": 21000
+      },
+      {
+       "category": "",
+       "name": "빈대떡 + 참치찌개 set",
+       "price": 24000
+      },
+      {
+       "category": "",
+       "name": "삼겹 두루 김치",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "냉수육 초무침",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "사사사철 과메기",
+       "price": 24000
+      },
+      {
+       "category": "신메뉴 출시",
+       "name": "육해오합",
+       "price": 49000
+      },
+      {
+       "category": "신메뉴 출시",
+       "name": "무순 OR 배추",
+       "price": 1000
+      },
+      {
+       "category": "신메뉴 출시",
+       "name": "김추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB3HUM805",
+     "from": "댓글",
+     "path": "menu-files/1792659969_246609-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "계절 메뉴",
+       "name": "과메기(야채추가 2.0)",
+       "price": 24000
+      },
+      {
+       "category": "계절 메뉴",
+       "name": "석화찜",
+       "price": 21000
+      },
+      {
+       "category": "계절 메뉴",
+       "name": "통꼬막",
+       "price": 21000
+      },
+      {
+       "category": "계절 메뉴",
+       "name": "거북손",
+       "price": 21000
+      },
+      {
+       "category": "",
+       "name": "치즈떡 사리 추가",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "쌀국수 변경",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "볶음밥 추가",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "사리 추가",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "육회 + 육사시미 + 연어 + 단새우 + 날치알",
+       "price": 49000
+      },
+      {
+       "category": "",
+       "name": "육회 + 육사시미 + 연어사시미",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "육회 + 육사시미",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "육회 + 연어사시미",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "육사시미 + 연어사시미",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "연어사시미 + 단새우",
+       "price": 28000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "• 2번째,3번째 사진은 신메뉴 추가\n• 해당 메뉴판에 없고, 기 등록 된 메뉴가 있다면 삭제 요청 주셨습니다!"
+   ],
+   "rc": 2,
+   "lr": "1792660014.453279",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792659969246609"
+  },
   {
    "ts": "1792659675.480839",
    "date": "2026-10-22",
