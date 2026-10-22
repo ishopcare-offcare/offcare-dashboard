@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24069,
+  "version": 24070,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273686,17 +273686,17 @@ window.SLACK_DATA = {
           "서상원": 2,
           "김동욱": 2
         },
+        "onboarding": {
+          "심성현": 4,
+          "고경림": 2,
+          "김동욱": 1
+        },
         "as": {
           "고경림": 3,
           "심성현": 5,
           "송태양": 2,
           "김기범": 1,
           "김현기": 1
-        },
-        "onboarding": {
-          "심성현": 3,
-          "고경림": 2,
-          "김동욱": 1
         },
         "booking": {
           "심성현": 3,
@@ -273726,6 +273726,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "11:06",
+          "store": "독일보청기",
+          "biz": "63858*****",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "터미널-프론트 온보딩 요청 드립니다. :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "손님 응대 중 1145 통화 재예약 요청 / 재인입 온보딩 완료",
+          "rr": 2
         },
         {
           "time": "11:04",
@@ -274098,7 +274110,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 30,
+        "online": 31,
         "offline": 3,
         "unknown": 0
       },
@@ -274283,11 +274295,11 @@ window.SLACK_DATA = {
       },
       "1792635300.173639": {
         "post": "1792635300.173639",
-        "lastSeen": 1792635421.54
+        "lastSeen": 1792635479.941
       },
       "1792635416.970859": {
         "post": "1792635416.970859",
-        "lastSeen": 1792635421.54
+        "lastSeen": 1792635479.941
       }
     },
     "days": {
@@ -372410,7 +372422,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:17",
+    "at": "2026-10-22 11:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372546,7 +372558,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:17",
+    "at": "2026-10-22 11:18",
     "pri": {
       "days": 0,
       "failed": [],
