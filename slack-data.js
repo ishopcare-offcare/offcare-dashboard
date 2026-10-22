@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24131,
+  "version": 24132,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -274389,7 +274389,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "12:42",
+      "updatedAt": "12:45",
       "absent": [
         {
           "time": "11:00",
@@ -274567,14 +274567,21 @@ window.SLACK_DATA = {
       },
       "1792640561.475049": {
         "post": "1792640561.475049",
-        "lastSeen": 1792640676.627
+        "lastSeen": 1792640745.195,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 37
       },
       "1792640539.011989": {
         "post": "1792640539.011989",
-        "lastSeen": 1792640676.627,
+        "lastSeen": 1792640745.195,
         "r": 1,
         "day": "2026-10-22",
         "idx": 36
+      },
+      "1792640701.338529": {
+        "post": "1792640701.338529",
+        "lastSeen": 1792640745.195
       }
     },
     "days": {
@@ -372544,8 +372551,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 37,
-        "sumMin": 294.8953782876332,
+        "cnt": 38,
+        "sumMin": 297.3859774708747,
         "over": 0,
         "items": [
           {
@@ -372879,13 +372886,21 @@ window.SLACK_DATA = {
             "biz": "36285*****",
             "who": "배선유",
             "cat": "as"
+          },
+          {
+            "hm": "12:42",
+            "min": 2.5,
+            "store": "플로라 드 베일리(Flora de Bailey)2",
+            "biz": "45021*****",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 12:44",
+    "at": "2026-10-22 12:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -373021,7 +373036,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 12:44",
+    "at": "2026-10-22 12:45",
     "pri": {
       "days": 0,
       "failed": [],
