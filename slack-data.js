@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24067,
+  "version": 24068,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270580,7 +270580,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "터미널 아답터 고장으로 대체품 발송 안내 오나료",
-          "rr": 6
+          "rr": 7
         },
         {
           "time": "19:15",
@@ -273085,7 +273085,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 터+프 온보딩도 안되어있고 박스도 뜯지않은 상황으로 익일 오전 10시 방문하여 온보딩 및 배달설치예정 입니다. 터+프 온보딩도 안되어있고 박스도 뜯지않은 상황으로 익일 오전 10시 방문하여 온보딩 및 배달설치예정 입니다.",
-          "rr": 11
+          "rr": 12
         },
         {
           "time": "10:44",
@@ -273759,8 +273759,8 @@ window.SLACK_DATA = {
           "req": "10월 22일 오전 11시 15분",
           "hw": "",
           "intake": "online",
-          "note": "0103633****",
-          "rr": 1
+          "note": "0103633**** / 포프PC 명변 완료입니다",
+          "rr": 2
         },
         {
           "time": "10:59",
@@ -274102,7 +274102,7 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "11:09",
+      "updatedAt": "11:15",
       "absent": [
         {
           "time": "10:19",
@@ -274280,6 +274280,10 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
+      },
+      "1792635300.173639": {
+        "post": "1792635300.173639",
+        "lastSeen": 1792635350.704
       }
     },
     "days": {
@@ -372402,7 +372406,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:15",
+    "at": "2026-10-22 11:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372538,7 +372542,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:14",
+    "at": "2026-10-22 11:15",
     "pri": {
       "days": 0,
       "failed": [],
