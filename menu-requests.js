@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3958,
- "updatedAt": "2026-10-22 10:03",
+ "version": 3959,
+ "updatedAt": "2026-10-22 10:07",
  "days": 30,
  "items": [
   {
@@ -59188,32 +59188,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790041039194019"
-  },
-  {
-   "ts": "1790039208.231169",
-   "date": "2026-09-22",
-   "time": "10:06",
-   "store": "문정점",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: Fwd: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n---------- Forwarded message ---------\n 보낸사람: 최봄이 <···>\n Date: 2026년 9월 21일 (월) 오후 6:21\n Subject: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n To: <···>\n Cc: 유정선 <···>, 강현우 <···>\n \n \n 다운로드 기한이 있는 첨부파일 5개 (13MB) 7일 보관 / 100회 다운로드\n [image: etc] 플레\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c6a1b736a9a9f>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c6a1b736a9a9f",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790039208231169"
   }
  ],
  "ocr": {
