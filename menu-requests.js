@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3998,
- "updatedAt": "2026-10-22 14:27",
+ "version": 3999,
+ "updatedAt": "2026-10-22 14:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1792647108.335349",
+   "date": "2026-10-22",
+   "time": "14:31",
+   "store": "신규",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 신규메뉴등록 요청\n카페메일빈 ··· 이경옥 ··· 등록메뉴 팔도짜장면. 4500원    네이버 메일 앱에서 보냈습니다. \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a16214a826ad81a>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a16214a826ad81a",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792647108335349"
+  },
   {
    "ts": "1792645835.090059",
    "date": "2026-10-22",
