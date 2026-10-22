@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4030,
- "updatedAt": "2026-10-22 22:52",
+ "version": 4031,
+ "updatedAt": "2026-10-22 23:15",
  "days": 30,
  "items": [
   {
@@ -47,7 +47,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CBCQXQKMJ",
      "from": "댓글",
-     "path": "menu-files/1792661815_618359-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -116,13 +115,13 @@ window.MENU_REQUESTS = {
        "price": 11500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792661815_618359-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CB75NPAEA",
      "from": "댓글",
-     "path": "menu-files/1792661815_618359-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -241,18 +240,19 @@ window.MENU_REQUESTS = {
        "price": 2500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792661815_618359-1.png"
     }
    ],
    "datt": [],
    "replies": [
     "메뉴판 메뉴 등록 부탁드립니다!"
    ],
-   "rc": 4,
-   "lr": "1792661838.952999",
+   "rc": 5,
+   "lr": "1792678532.074289",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792661815618359"
   },
   {
@@ -271,10 +271,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "술국 27,000\n만두국 12,000\n진순대정식 18,000\n정식추가 7,000\n*3색순대:\n소 12,000\n중 22,000\n대 32,000\n\n수정 후 문자 안내까지 부탁드리겠습니다!"
    ],
-   "rc": 2,
-   "lr": "1792660263.754849",
+   "rc": 3,
+   "lr": "1792677791.785269",
    "rfx": 3,
-   "status": "wait",
+   "status": "dup",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792660251647549"
   },
@@ -795,7 +795,7 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792659675480839"
   },
