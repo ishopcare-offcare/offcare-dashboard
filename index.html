@@ -1529,7 +1529,7 @@ const DUTY_ANCHOR_IDX = 3;
 // 순번이 바뀌는 시점(from)마다 새 목록. from 이전 주는 앞 목록 그대로라 지난 배정은 안 바뀐다.
 // 바뀌는 첫 주 담당은 이전 순번이 정한 사람 그대로이고, 거기서부터 새 목록 순서로 이어간다.
 const DUTY_ORDER_CHANGES = [
-  {from:"2026-12-01", order:["배선유","송태양","김동욱","김현기","서상원","김규빈","심성현","고경림"]},   // 고경림 합류(심성현 다음)
+  {from:"2026-11-01", order:["배선유","송태양","김동욱","김현기","서상원","김규빈","심성현","고경림"]},   // 고경림 합류(심성현 다음)
 ];
 const LS_DUTYALERT = "opcare_dutyalert_v1";
 function isDutyMeeting(t){ return /정기회의|타운홀|town\s*hall/i.test(t||""); }
@@ -1537,7 +1537,7 @@ function isDutyMeeting(t){ return /정기회의|타운홀|town\s*hall/i.test(t||
 const TEN_ORDER = ["김현기","심성현","배선유","송태양","김규빈"];
 const TEN_ANCHOR_DATE = "2026-07-27";
 const TEN_ORDER_CHANGES = [   // from 은 월요일 (주 단위 배정 기준일)
-  {from:"2026-12-07", order:["김현기","심성현","배선유","송태양","김규빈","고경림"]},   // 고경림 합류(김규빈 다음) · 12월 첫 월요일
+  {from:"2026-11-02", order:["김현기","심성현","배선유","송태양","김규빈","고경림"]},   // 고경림 합류(김규빈 다음) · 11월 첫 월요일
 ];
 // 주 단위 순번 계산(변경 이력 반영). w = 앵커로부터 몇째 주인지.
 function rotPerson(order, idx, anchor, changes, ds){
