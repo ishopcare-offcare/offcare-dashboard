@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3988,
- "updatedAt": "2026-10-22 12:57",
+ "version": 3989,
+ "updatedAt": "2026-10-22 12:59",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,612 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CB4N7CSRL",
+     "from": "댓글",
+     "path": "menu-files/1792641446_682439-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "조개구이메뉴",
+       "name": "술상세트 모둠조개구이 + 홍가리비탕",
+       "price": 95000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "SET 1 모둠조개구이 + 해물라면",
+       "price": 80000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "SET 2 가리비구이(대) + 해물라면",
+       "price": 80000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "SET 3 가리비구이(소) + 해물라면",
+       "price": 70000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "모둠조개구이",
+       "price": 68000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "가리비구이(대)",
+       "price": 68000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "가리비구이(소)",
+       "price": 58000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "가리비추가",
+       "price": 20000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "구이치즈추가",
+       "price": 2000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "볶음밥추가",
+       "price": 3000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "대왕50cm조개전골",
+       "price": 89000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "해물탕",
+       "price": 65000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "가리비찜",
+       "price": 75000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "야채추가",
+       "price": 3000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "오뎅추가",
+       "price": 2000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "떡추가",
+       "price": 2000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "칼국수추가",
+       "price": 2000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "대하구이(대)",
+       "price": 75000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "대하구이(소)",
+       "price": 65000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "새우회(대)",
+       "price": 75000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "새우회(소)",
+       "price": 65000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "연화리해산물모둠",
+       "price": 65000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "낙지",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "전복",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "소라",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "개불",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "멍게",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "해삼",
+       "price": 20000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "살아잇네 모둠회VIP",
+       "price": 110000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "모둠회(대)",
+       "price": 75000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "모둠회(소)",
+       "price": 65000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "회+해산물세트",
+       "price": 65000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "매운탕",
+       "price": 10000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "광어",
+       "price": 60000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "우럭",
+       "price": 60000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "밀치",
+       "price": 60000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "참돔",
+       "price": 75000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "방어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "석화찜",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "삼배체굴 4kg",
+       "price": 80000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "삼배체굴 1kg",
+       "price": 20000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "꽃게찜/탕",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "오징어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "전어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "홍가리비탕",
+       "price": 35000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "통통 새우튀김",
+       "price": 35000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "베이비크랩튀김",
+       "price": 15000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "푸짐한해물라면",
+       "price": 15000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "돈까스",
+       "price": 10000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "옛날주먹밥",
+       "price": 5000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "계란찜",
+       "price": 2000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "햇반",
+       "price": 2000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "소주 / 맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "한라산 / 청하",
+       "price": 6000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "일품진로 / 화요",
+       "price": 27000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "음료/토닉워터",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB1CFR5BP",
+     "from": "댓글",
+     "path": "menu-files/1792641446_682439-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "조개구이메뉴",
+       "name": "슬상세트 모듬조개구이 + 홍가리비탕",
+       "price": 95000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "SET 1 모듬조개구이 + 해물라면",
+       "price": 80000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "SET 2 가리비구이(대) + 해물라면",
+       "price": 80000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "SET 3 가리비구이(소) + 해물라면",
+       "price": 70000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "모듬조개구이",
+       "price": 68000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "가리비구이(대)",
+       "price": 68000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "가리비구이(소)",
+       "price": 58000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "가리비추가",
+       "price": 20000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "구이치즈추가",
+       "price": 2000
+      },
+      {
+       "category": "조개구이메뉴",
+       "name": "볶음밥추가",
+       "price": 3000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "대하구이(대)",
+       "price": 75000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "대하구이(소)",
+       "price": 65000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "새우회(대)",
+       "price": 75000
+      },
+      {
+       "category": "대하구이메뉴",
+       "name": "새우회(소)",
+       "price": 65000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "대왕50cm조개전골",
+       "price": 89000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "해물탕",
+       "price": 65000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "가리비찜",
+       "price": 75000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "야채추가",
+       "price": 3000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "오뎅추가",
+       "price": 2000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "떡추가",
+       "price": 2000
+      },
+      {
+       "category": "전골&탕메뉴",
+       "name": "칼국수추가",
+       "price": 2000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "연화리해산물모듬",
+       "price": 65000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "낙지",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "전복",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "소라",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "개불",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "멍게",
+       "price": 20000
+      },
+      {
+       "category": "해산물메뉴",
+       "name": "해삼",
+       "price": 20000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "살아있네 모듬회VIP",
+       "price": 110000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "모듬회(대)",
+       "price": 75000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "모듬회(소)",
+       "price": 65000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "회+해산물세트",
+       "price": 65000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "매운탕",
+       "price": 10000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "광어",
+       "price": 60000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "우럭",
+       "price": 60000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "밀치",
+       "price": 60000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "참돔",
+       "price": 75000
+      },
+      {
+       "category": "활어메뉴",
+       "name": "방어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "석화찜",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "삼배체굴 4kg",
+       "price": 80000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "삼배체굴 1kg",
+       "price": 20000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "꽃게찜/탕",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "오징어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절메뉴",
+       "name": "전어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "홍가리비탕",
+       "price": 35000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "통통 새우튀김",
+       "price": 35000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "베이비크랩튀김",
+       "price": 15000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "푸짐한해물라면",
+       "price": 15000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "돈까스",
+       "price": 10000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "옛날주먹밥",
+       "price": 5000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "계란찜",
+       "price": 2000
+      },
+      {
+       "category": "추가/식사메뉴",
+       "name": "햇반",
+       "price": 2000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "소주 / 맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "한라산 / 청하",
+       "price": 6000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "일품진로 / 화요",
+       "price": 27000
+      },
+      {
+       "category": "주류메뉴",
+       "name": "음료/토닉워터",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792641450.329109",
+   "rc": 2,
+   "lr": "1792641479.156759",
    "rfx": 3,
    "status": "wait",
    "handler": null,
