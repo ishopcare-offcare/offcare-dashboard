@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3997,
- "updatedAt": "2026-10-22 14:10",
+ "version": 3998,
+ "updatedAt": "2026-10-22 14:27",
  "days": 30,
  "items": [
   {
@@ -59854,27 +59854,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790060900133479"
-  },
-  {
-   "ts": "1790054820.193379",
-   "date": "2026-09-22",
-   "time": "14:27",
-   "store": "더멀리",
-   "biz": "39763*****",
-   "pos": "토스포스",
-   "content": "한국사 이상현상 연구원(일반판)\t다이브\t22,000\n열심히 대충 쓰는 사람\t세미콜론\t18,000\n박완서의 낱말들(양장본 Hardcover)\t웅진지식하우스\t19,800\n문학을 사랑하는 젊은이들에게(양장본 Hardcover)\t다산책방\t17,000\n도파민의 함정\t지니의서재\t18,800\n돈의 심리학(50만 부 기념 뉴 에디션)(양장본 Hardcover)\t인플루엔셜\t24,800\n아무것도 간절하지 않은 날의 기술\t민음사\t18,000\n키 얘기 좀 그만해(비밀서재)\t키다리\t14,000\n우리가 빛의 속도로 갈 수 없다면(양장본 Hardcover)\t허블\t17,000\n열심히 대충 쓰는 사람\t세미콜론\t18,000\n예수로 충분하다\t규장\t13,000\n싯다르타(세계문학전집 58)\t민음사\t8,000\n수족관\t포스터샵\t17,700\n신경 끄기의 기술(한교동 에디션)\t갤리온\t19,000\n\n추가 부탁드려요.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790054820193379"
   }
  ],
  "ocr": {
