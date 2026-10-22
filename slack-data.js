@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24130,
+  "version": 24131,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273682,6 +273682,12 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "onboarding": {
+          "김동욱": 2,
+          "박하림": 1,
+          "심성현": 5,
+          "고경림": 2
+        },
         "booking": {
           "고경림": 3,
           "박하림": 1,
@@ -273696,12 +273702,6 @@ window.SLACK_DATA = {
           "송태양": 4,
           "고경림": 3,
           "김기범": 1
-        },
-        "onboarding": {
-          "박하림": 1,
-          "심성현": 5,
-          "고경림": 2,
-          "김동욱": 1
         },
         "extern": {
           "서상원": 2,
@@ -273726,6 +273726,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:33",
+          "store": "긱로(GIGLO)",
+          "biz": "49407*****",
+          "cat": "onboarding",
+          "emp": "김동욱",
+          "req": "터프 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포터프(맥) 온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "12:20",
           "store": "진미가든(진미펜션)",
@@ -274373,7 +274385,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 50,
+        "online": 51,
         "offline": 6,
         "unknown": 0
       },
@@ -274553,20 +274565,16 @@ window.SLACK_DATA = {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
       },
-      "1792640031.361279": {
-        "post": "1792640031.361279",
-        "lastSeen": 1792640602.203,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 35
-      },
       "1792640561.475049": {
         "post": "1792640561.475049",
-        "lastSeen": 1792640602.203
+        "lastSeen": 1792640676.627
       },
       "1792640539.011989": {
         "post": "1792640539.011989",
-        "lastSeen": 1792640602.203
+        "lastSeen": 1792640676.627,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 36
       }
     },
     "days": {
@@ -372536,8 +372544,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 36,
-        "sumMin": 293.2219947735468,
+        "cnt": 37,
+        "sumMin": 294.8953782876332,
         "over": 0,
         "items": [
           {
@@ -372861,6 +372869,15 @@ window.SLACK_DATA = {
             "store": "긱로(GIGLO)",
             "biz": "49407*****",
             "who": "김동욱",
+            "cat": "onboarding",
+            "dmin": 10.1
+          },
+          {
+            "hm": "12:42",
+            "min": 1.7,
+            "store": "스테이에브리데이",
+            "biz": "36285*****",
+            "who": "배선유",
             "cat": "as"
           }
         ]
@@ -372868,7 +372885,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 12:43",
+    "at": "2026-10-22 12:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -373004,7 +373021,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 12:43",
+    "at": "2026-10-22 12:44",
     "pri": {
       "days": 0,
       "failed": [],
