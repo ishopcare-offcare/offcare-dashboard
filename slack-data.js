@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24008,
+  "version": 24009,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -268411,7 +268411,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "/ / / 명변 완료입니다 / 금일 오후3시 15분 예약 완료입니다 / 넵, 이슈는 없었고 어제 가결제까지도 진행된 매장인데 일단 OB드려볼게요! 넵, 이슈는 없었고 어제 가결제까지도 진행된 매장인데 일단 OB드려볼게요!",
-          "rr": 8
+          "rr": 9
         },
         {
           "time": "15:09",
@@ -273711,7 +273711,8 @@ window.SLACK_DATA = {
           "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 스티커 부착된 매장 외관 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "설치, 사진 전송 완료",
+          "rr": 1
         },
         {
           "time": "09:30",
@@ -371975,7 +371976,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:58",
+    "at": "2026-10-22 09:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372111,7 +372112,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:57",
+    "at": "2026-10-22 09:59",
     "pri": {
       "days": 0,
       "failed": [],
