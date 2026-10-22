@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24070,
+  "version": 24071,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270580,7 +270580,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "터미널 아답터 고장으로 대체품 발송 안내 오나료",
-          "rr": 7
+          "rr": 8
         },
         {
           "time": "19:15",
@@ -271634,8 +271634,8 @@ window.SLACK_DATA = {
           "req": "",
           "hw": "",
           "intake": "online",
-          "note": "대추차에 옵션만 크랜베리스무디 삭제 완",
-          "rr": 2
+          "note": "대추차에 옵션만 크랜베리스무디 삭제 완 / 님 키오스크일까요? 포스일까요? 님 키오스크일까요? 포스일까요?",
+          "rr": 3
         },
         {
           "time": "16:07",
@@ -273682,6 +273682,10 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "booking": {
+          "고경림": 2,
+          "심성현": 3
+        },
         "extern": {
           "서상원": 2,
           "김동욱": 2
@@ -273698,10 +273702,6 @@ window.SLACK_DATA = {
           "김기범": 1,
           "김현기": 1
         },
-        "booking": {
-          "심성현": 3,
-          "고경림": 1
-        },
         "transfer": {
           "송태양": 2
         },
@@ -273716,6 +273716,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:16",
+          "store": "브리스토트(Bristot)",
+          "biz": "45385*****",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "10월 14일 방문 설치 이후 포스 켜지지 않음 코드 등 제대로 연결되지 않은 것 같다고하여 확인 요청드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:09",
           "store": "밥시그널 동탄영천점",
@@ -274110,7 +274121,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 31,
+        "online": 32,
         "offline": 3,
         "unknown": 0
       },
@@ -274295,11 +274306,14 @@ window.SLACK_DATA = {
       },
       "1792635300.173639": {
         "post": "1792635300.173639",
-        "lastSeen": 1792635479.941
+        "lastSeen": 1792635540.023
       },
       "1792635416.970859": {
         "post": "1792635416.970859",
-        "lastSeen": 1792635479.941
+        "lastSeen": 1792635540.023,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 16
       }
     },
     "days": {
@@ -372269,8 +372283,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 16,
-        "sumMin": 72.35740827719371,
+        "cnt": 17,
+        "sumMin": 73.90759395758312,
         "over": 0,
         "items": [
           {
@@ -372416,13 +372430,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "booking",
             "dmin": 2.5
+          },
+          {
+            "hm": "11:16",
+            "min": 1.6,
+            "store": "(주)스파더제이",
+            "biz": "63787*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:18",
+    "at": "2026-10-22 11:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372558,7 +372580,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:18",
+    "at": "2026-10-22 11:19",
     "pri": {
       "days": 0,
       "failed": [],
