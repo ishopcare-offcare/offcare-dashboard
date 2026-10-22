@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24020,
+  "version": 24021,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273711,7 +273711,8 @@ window.SLACK_DATA = {
           "req": "NM-400 사용 매장으로, 연결 이후 다른 휴대폰 연결을 위해 지금 휴대폰에 연결되어있는 단말기 연결 해제 방법 문의주시어,",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "블루투스 연결해제후 타기기 apppos 설치후 재연동방법 안내완료",
+          "rr": 1
         },
         {
           "time": "10:00",
@@ -273827,7 +273828,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:05"
+      "updatedAt": "10:14"
     }
   },
   "resp": {
@@ -372008,7 +372009,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:13",
+    "at": "2026-10-22 10:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372144,7 +372145,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:13",
+    "at": "2026-10-22 10:14",
     "pri": {
       "days": 0,
       "failed": [],
