@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23999,
+  "version": 24000,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -268411,7 +268411,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "/ / / 명변 완료입니다 / 금일 오후3시 15분 예약 완료입니다",
-          "rr": 6
+          "rr": 7
         },
         {
           "time": "15:09",
@@ -270459,9 +270459,9 @@ window.SLACK_DATA = {
         },
         "menu": {
           "최민석": 1,
+          "심성현": 2,
           "김규빈": 11,
-          "송태양": 5,
-          "심성현": 1
+          "송태양": 5
         },
         "delivery": {
           "송태양": 1,
@@ -270471,18 +270471,6 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
-        {
-          "time": "18:16",
-          "store": "을지로골뱅이",
-          "biz": "10704*****",
-          "handler": "심성현",
-          "cat": "menu",
-          "intake": "online",
-          "req": "",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
         {
           "time": "12:45",
           "store": "카페범(CAFEBE:OM)",
@@ -270772,6 +270760,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "님 안녕하세요 시제가 재고 말씀주시는 걸까요? 님 안녕하세요 시제가 재고 말씀주시는 걸까요? / 요기 복사되어있는 것 같아요! / / 처음부터 복제로 토플파 생성한 것 같습니다!",
           "rr": 8
+        },
+        {
+          "time": "18:16",
+          "store": "을지로골뱅이",
+          "biz": "10704*****",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "메뉴 수정 중 익일까지 요청",
+          "rr": 1
         },
         {
           "time": "18:14",
@@ -273789,7 +273789,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:30"
+      "updatedAt": "09:45"
     }
   },
   "resp": {
@@ -273947,6 +273947,10 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
+      },
+      "1792629900.463999": {
+        "post": "1792629900.463999",
+        "lastSeen": 1792629917.046
       }
     },
     "days": {
@@ -371952,7 +371956,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:43",
+    "at": "2026-10-22 09:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372088,7 +372092,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:43",
+    "at": "2026-10-22 09:45",
     "pri": {
       "days": 0,
       "failed": [],
