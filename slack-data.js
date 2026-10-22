@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24036,
+  "version": 24037,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273683,7 +273683,7 @@ window.SLACK_DATA = {
     "2026-10-22": {
       "counts": {
         "booking": {
-          "심성현": 2
+          "심성현": 3
         },
         "extern": {
           "김동욱": 2
@@ -273709,6 +273709,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:30",
+          "store": "리즈메이크업",
+          "biz": "79413*****",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "휴대폰 + 프론트 연결 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "1100 통화 재예약 요청",
+          "rr": 1
+        },
         {
           "time": "10:30",
           "store": "블링블링헤어샵",
@@ -273925,7 +273937,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 2,
         "unknown": 0
       },
@@ -274086,25 +274098,21 @@ window.SLACK_DATA = {
       },
       "1792632238.623409": {
         "post": "1792632238.623409",
-        "lastSeen": 1792632814.332,
+        "lastSeen": 1792632897.164,
         "r": 1,
         "day": "2026-10-22",
         "idx": 6
       },
-      "1792632604.357939": {
-        "post": "1792632604.357939",
-        "lastSeen": 1792632814.332,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 7
-      },
       "1792632603.755409": {
         "post": "1792632603.755409",
-        "lastSeen": 1792632814.332
+        "lastSeen": 1792632897.164
       },
       "1792632792.648919": {
         "post": "1792632792.648919",
-        "lastSeen": 1792632814.332
+        "lastSeen": 1792632897.164,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 8
       }
     },
     "days": {
@@ -372074,8 +372082,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 8,
-        "sumMin": 26.58334546883901,
+        "cnt": 9,
+        "sumMin": 27.634996819496155,
         "over": 0,
         "items": [
           {
@@ -372146,6 +372154,15 @@ window.SLACK_DATA = {
             "store": "리즈메이크업",
             "biz": "79413*****",
             "who": "심성현",
+            "cat": "booking",
+            "dmin": 4.2
+          },
+          {
+            "hm": "10:33",
+            "min": 1.1,
+            "store": "헤어바이（hair by）연",
+            "biz": "11922*****",
+            "who": "심성현",
             "cat": "as"
           }
         ]
@@ -372153,7 +372170,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:33",
+    "at": "2026-10-22 10:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372289,7 +372306,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:33",
+    "at": "2026-10-22 10:34",
     "pri": {
       "days": 0,
       "failed": [],
