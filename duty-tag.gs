@@ -47,7 +47,7 @@ var DUTY_TAG = {
 var DT_TEN_ORDER = ['김현기', '심성현', '배선유', '송태양', '김규빈'];
 var DT_TEN_ANCHOR = '2026-07-27';
 var DT_TEN_CHANGES = [
-  { from: '2026-11-02', order: ['김현기', '심성현', '배선유', '송태양', '김규빈', '고경림'] }
+  { from: '2026-11-02', order: ['심성현', '배선유', '송태양', '김규빈', '고경림'] }
 ];
 
 /* ---------- 트리거 진입점 ---------- */
@@ -192,7 +192,9 @@ function dtTenPerson_(mon) {
   for (var i = 0; i < DT_TEN_CHANGES.length; i++) {
     var c = DT_TEN_CHANGES[i];
     if (mon < c.from) { break; }
-    var wc = wk(c.from), who = at(order, idx, wc - w0);
+    var wc = wk(c.from), k = 0;   // 첫 주 담당이 새 목록에서 빠졌으면 이전 순번상 다음 사람부터
+    while (k < order.length - 1 && c.order.indexOf(at(order, idx, wc - w0 + k)) < 0) { k++; }
+    var who = at(order, idx, wc - w0 + k);
     order = c.order; idx = Math.max(0, order.indexOf(who)); w0 = wc;
   }
   return at(order, idx, wk(mon) - w0);
