@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24062,
+  "version": 24063,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -271635,7 +271635,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "대추차에 옵션만 크랜베리스무디 삭제 완",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "16:07",
@@ -273085,7 +273085,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 터+프 온보딩도 안되어있고 박스도 뜯지않은 상황으로 익일 오전 10시 방문하여 온보딩 및 배달설치예정 입니다. 터+프 온보딩도 안되어있고 박스도 뜯지않은 상황으로 익일 오전 10시 방문하여 온보딩 및 배달설치예정 입니다.",
-          "rr": 9
+          "rr": 10
         },
         {
           "time": "10:44",
@@ -273683,8 +273683,12 @@ window.SLACK_DATA = {
     "2026-10-22": {
       "counts": {
         "extern": {
-          "서상원": 1,
+          "서상원": 2,
           "김동욱": 2
+        },
+        "booking": {
+          "심성현": 4,
+          "고경림": 1
         },
         "as": {
           "고경림": 3,
@@ -273697,10 +273701,6 @@ window.SLACK_DATA = {
           "심성현": 3,
           "고경림": 2,
           "김동욱": 1
-        },
-        "booking": {
-          "심성현": 3,
-          "고경림": 1
         },
         "transfer": {
           "송태양": 1
@@ -273716,6 +273716,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:09",
+          "store": "밥시그널 동탄영천점",
+          "biz": "63502*****",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "11:06",
+          "store": "독일보청기",
+          "biz": "63858*****",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "터미널-프론트 온보딩 요청 드립니다. :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "손님 응대 중 1145 통화 재예약 요청",
+          "rr": 1
+        },
         {
           "time": "11:04",
           "store": "더밥상 동탄영천점",
@@ -274074,11 +274097,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 28,
+        "online": 30,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "11:06",
+      "updatedAt": "11:09",
       "absent": [
         {
           "time": "10:19",
@@ -274259,17 +274282,10 @@ window.SLACK_DATA = {
       },
       "1792634406.737289": {
         "post": "1792634406.737289",
-        "lastSeen": 1792634904.372,
+        "lastSeen": 1792635003.008,
         "r": 1,
         "day": "2026-10-22",
         "idx": 14
-      },
-      "1792634805.714489": {
-        "post": "1792634805.714489",
-        "lastSeen": 1792634904.372,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 15
       }
     },
     "days": {
@@ -372383,14 +372399,15 @@ window.SLACK_DATA = {
             "store": "독일보청기",
             "biz": "63858*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 2.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:09",
+    "at": "2026-10-22 11:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372526,7 +372543,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:08",
+    "at": "2026-10-22 11:10",
     "pri": {
       "days": 0,
       "failed": [],
