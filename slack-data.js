@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24004,
+  "version": 24005,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -268410,8 +268410,8 @@ window.SLACK_DATA = {
           "req": "10월 20일 지금 바로 / 메뉴복사O / 포프,포스+브라켓,유프(2ea),금전함,CAT",
           "hw": "",
           "intake": "online",
-          "note": "/ / / 명변 완료입니다 / 금일 오후3시 15분 예약 완료입니다",
-          "rr": 7
+          "note": "/ / / 명변 완료입니다 / 금일 오후3시 15분 예약 완료입니다 / 넵, 이슈는 없었고 어제 가결제까지도 진행된 매장인데 일단 OB드려볼게요! 넵, 이슈는 없었고 어제 가결제까지도 진행된 매장인데 일단 OB드려볼게요!",
+          "rr": 8
         },
         {
           "time": "15:09",
@@ -270580,7 +270580,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "터미널 아답터 고장으로 대체품 발송 안내 오나료",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "19:15",
@@ -273950,7 +273950,7 @@ window.SLACK_DATA = {
       },
       "1792629900.463999": {
         "post": "1792629900.463999",
-        "lastSeen": 1792630234.975,
+        "lastSeen": 1792630314.373,
         "r": 1,
         "day": "2026-10-22",
         "idx": 3
@@ -371967,7 +371967,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:50",
+    "at": "2026-10-22 09:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372103,7 +372103,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:50",
+    "at": "2026-10-22 09:51",
     "pri": {
       "days": 0,
       "failed": [],
