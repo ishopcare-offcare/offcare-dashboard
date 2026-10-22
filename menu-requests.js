@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4022,
- "updatedAt": "2026-10-22 18:07",
+ "version": 4023,
+ "updatedAt": "2026-10-22 18:11",
  "days": 30,
  "items": [
+  {
+   "ts": "1792660251.647549",
+   "date": "2026-10-22",
+   "time": "18:10",
+   "store": "강창구찹쌀진순대 양재역점",
+   "biz": "54456*****",
+   "pos": "오케이포스",
+   "content": "오케이포스) 가격 수정 요청드립니다 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "술국 27,000\n만두국 12,000\n진순대정식 18,000\n정식추가 7,000\n*3색순대:\n소 12,000\n중 22,000\n대 32,000\n\n수정 후 문자 안내까지 부탁드리겠습니다!"
+   ],
+   "rc": 2,
+   "lr": "1792660263.754849",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792660251647549"
+  },
   {
    "ts": "1792659969.246609",
    "date": "2026-10-22",
