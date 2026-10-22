@@ -3,10 +3,234 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4024,
- "updatedAt": "2026-10-22 18:28",
+ "version": 4025,
+ "updatedAt": "2026-10-22 18:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1792661815.618359",
+   "date": "2026-10-22",
+   "time": "18:36",
+   "store": "나만의 고요",
+   "biz": "34652*****",
+   "pos": "",
+   "content": "메뉴 등록 요청드립니다 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBCQXQKMJ",
+     "from": "댓글",
+     "path": "menu-files/1792661815_618359-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "샐러드",
+       "name": "인절미 리코타 샐러드",
+       "price": 7900
+      },
+      {
+       "category": "샐러드",
+       "name": "수비드 스테이크 샐러드",
+       "price": 14500
+      },
+      {
+       "category": "샐러드",
+       "name": "갈비풍 목살 샐러드",
+       "price": 12500
+      },
+      {
+       "category": "샐러드",
+       "name": "새우 망고 샐러드",
+       "price": 12500
+      },
+      {
+       "category": "샐러드",
+       "name": "고소한 닭가슴살 샐러드",
+       "price": 11500
+      },
+      {
+       "category": "샐러드",
+       "name": "들기름 구운야채 샐러드",
+       "price": 10500
+      },
+      {
+       "category": "포케",
+       "name": "연어장 아보카도 포케",
+       "price": 14500
+      },
+      {
+       "category": "포케",
+       "name": "대파 닭다리살 포케",
+       "price": 12500
+      },
+      {
+       "category": "포케",
+       "name": "구운버섯 두부장 포케",
+       "price": 11500
+      },
+      {
+       "category": "덮밥",
+       "name": "고추장 우삼겹 덮밥",
+       "price": 7900
+      },
+      {
+       "category": "덮밥",
+       "name": "청양 연어장 덮밥",
+       "price": 14500
+      },
+      {
+       "category": "덮밥",
+       "name": "콘크림 불닭다리살 덮밥",
+       "price": 11500
+      },
+      {
+       "category": "덮밥",
+       "name": "돼지고기 가지 덮밥",
+       "price": 11500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB75NPAEA",
+     "from": "댓글",
+     "path": "menu-files/1792661815_618359-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "청양 연어장 덮밥",
+       "price": 14500
+      },
+      {
+       "category": "",
+       "name": "콘크림 불닭다리살 덮밥",
+       "price": 11500
+      },
+      {
+       "category": "",
+       "name": "돼지고기 가지 덮밥",
+       "price": 11500
+      },
+      {
+       "category": "국수",
+       "name": "사골 고기 국수",
+       "price": 9000
+      },
+      {
+       "category": "국수",
+       "name": "얼큰 고기 국수",
+       "price": 9000
+      },
+      {
+       "category": "파스타",
+       "name": "명란 두부장 들기름 파스타",
+       "price": 7900
+      },
+      {
+       "category": "파스타",
+       "name": "새우 리코타 시금치 파스타",
+       "price": 12500
+      },
+      {
+       "category": "파스타",
+       "name": "우삼겹 오색비빔 파스타",
+       "price": 10500
+      },
+      {
+       "category": "찹스테이크",
+       "name": "부채살 찹스테이크",
+       "price": 18500
+      },
+      {
+       "category": "찹스테이크",
+       "name": "닭다리살 찹스테이크",
+       "price": 14500
+      },
+      {
+       "category": "사이드",
+       "name": "브리오슈",
+       "price": 2500
+      },
+      {
+       "category": "사이드",
+       "name": "당중이 스프",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "궁중떡볶이",
+       "price": 4900
+      },
+      {
+       "category": "사이드",
+       "name": "깻잎떡볶이",
+       "price": 4900
+      },
+      {
+       "category": "음료",
+       "name": "아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "카페라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "밀차라떼",
+       "price": 3900
+      },
+      {
+       "category": "음료",
+       "name": "제주유기 아이스티",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "그린 착즙주스 (케일, 사과, 레몬)",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "옐로우 착즙주스 (오렌지, 자몽, 파인애플)",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "스필링 착즙주스 (당근, 오렌지, 유자)",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "제로 스프라이트",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "제로 콜라",
+       "price": 2500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "메뉴판 메뉴 등록 부탁드립니다!"
+   ],
+   "rc": 4,
+   "lr": "1792661838.952999",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792661815618359"
+  },
   {
    "ts": "1792660251.647549",
    "date": "2026-10-22",
