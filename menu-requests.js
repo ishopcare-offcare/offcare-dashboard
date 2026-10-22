@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3976,
- "updatedAt": "2026-10-22 11:37",
+ "version": 3977,
+ "updatedAt": "2026-10-22 11:47",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_5710.png",
      "fid": "F0CB49BMA94",
      "from": "댓글",
-     "path": "menu-files/1792636061_975459-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -77,13 +76,13 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792636061_975459-0.png"
     },
     {
      "name": "IMG_5711.png",
      "fid": "F0CAQSH04EB",
      "from": "댓글",
-     "path": "menu-files/1792636061_975459-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -127,13 +126,13 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792636061_975459-1.png"
     },
     {
      "name": "IMG_5712.png",
      "fid": "F0CC0KABTB2",
      "from": "댓글",
-     "path": "menu-files/1792636061_975459-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -177,13 +176,13 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792636061_975459-2.png"
     },
     {
      "name": "IMG_5713.png",
      "fid": "F0CB49HKFPY",
      "from": "댓글",
-     "path": "menu-files/1792636061_975459-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -222,13 +221,13 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792636061_975459-3.png"
     },
     {
      "name": "IMG_5715.png",
      "fid": "F0CB9UVHRQC",
      "from": "댓글",
-     "path": "menu-files/1792636061_975459-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -242,13 +241,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792636061_975459-4.png"
     },
     {
      "name": "IMG_5716.png",
      "fid": "F0CB01Q6FNX",
      "from": "댓글",
-     "path": "menu-files/1792636061_975459-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -257,7 +256,8 @@ window.MENU_REQUESTS = {
        "price": 1500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792636061_975459-5.png"
     },
     {
      "name": "IMG_5714.png",
@@ -371,8 +371,8 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792636581.474699",
+   "rc": 3,
+   "lr": "1792637243.456039",
    "rfx": 3,
    "status": "wait",
    "handler": null,
