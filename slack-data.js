@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23987,
+  "version": 23988,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273682,12 +273682,27 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "menu": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:03",
+          "store": "은유영",
+          "biz": "14393*****",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "포프(휴대폰) 사용 매장으로, 온보딩 요청주시어 도움 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "08:24",
           "store": "온빛",
@@ -273702,7 +273717,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -371858,7 +371873,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:05",
+    "at": "2026-10-22 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -371994,7 +372009,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:05",
+    "at": "2026-10-22 09:09",
     "pri": {
       "days": 0,
       "failed": [],
