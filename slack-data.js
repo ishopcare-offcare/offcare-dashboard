@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24497,
+  "version": 24498,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276392,11 +276392,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-23": {
-      "counts": {},
+      "counts": {
+        "menu": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "06:00",
+          "store": "호주에서온스시 왜관점",
+          "biz": "85956*****",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "메뉴등록 / <@U08BA4PDNLT>",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -276538,10 +276555,6 @@ window.SLACK_DATA = {
       "1792681292.472849": {
         "post": "1792681292.472849",
         "lastSeen": 1792700126.849
-      },
-      "1792702816.244489": {
-        "post": "1792702816.244489",
-        "lastSeen": 1792702842.806
       }
     },
     "days": {
@@ -376036,7 +376049,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 06:00",
+    "at": "2026-10-23 06:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376173,7 +376186,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 06:00",
+    "at": "2026-10-23 06:15",
     "pri": {
       "days": 0,
       "failed": [],
