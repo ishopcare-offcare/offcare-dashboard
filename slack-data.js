@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23996,
+  "version": 23997,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273923,11 +273923,14 @@ window.SLACK_DATA = {
       },
       "1792629020.003929": {
         "post": "1792629020.003929",
-        "lastSeen": 1792629094.129
+        "lastSeen": 1792629179.447,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 2
       },
       "1792629000.226189": {
         "post": "1792629000.226189",
-        "lastSeen": 1792629094.129,
+        "lastSeen": 1792629179.447,
         "r": 1,
         "day": "2026-10-22",
         "idx": 1
@@ -371900,8 +371903,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 2,
-        "sumMin": 15.436833035945892,
+        "cnt": 3,
+        "sumMin": 17.38323422273,
         "over": 0,
         "items": [
           {
@@ -371920,13 +371923,21 @@ window.SLACK_DATA = {
             "biz": "11216*****",
             "who": "심성현",
             "cat": "as"
+          },
+          {
+            "hm": "09:30",
+            "min": 1.9,
+            "store": "김마리(태전점)",
+            "biz": "12938*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:31",
+    "at": "2026-10-22 09:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372062,7 +372073,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:31",
+    "at": "2026-10-22 09:32",
     "pri": {
       "days": 0,
       "failed": [],
