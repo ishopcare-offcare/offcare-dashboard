@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24023,
+  "version": 24024,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273683,8 +273683,12 @@ window.SLACK_DATA = {
     "2026-10-22": {
       "counts": {
         "as": {
+          "송태양": 1,
           "고경림": 2,
           "심성현": 3
+        },
+        "extern": {
+          "김동욱": 1
         },
         "booking": {
           "심성현": 1
@@ -273702,6 +273706,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:19",
+          "store": "논현우미각",
+          "biz": "17323*****",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "민원처리",
+          "hw": "",
+          "intake": "online",
+          "note": "카드결제를 받으시고 대금이 입금이 안되어서 모든 카드사에 전화를 했더니 카드가맹이 안되어있다는 안내를 받으셨다는데, 일단 거래대금은 34일 정도 소요되는걸 안내드렸는데도 미수긍, 가맹 다 잘 되어있고 결제내역까지 정상적으로 결제 하신점 확인해드렸으나 지속 미수긍 하셔서 일단 자사 고객센터 연락하셔서 입금계좌 확인해보셔야한다고 안내드렸어요! 카드결제를 받으시",
+          "rr": 1
+        },
+        {
+          "time": "10:05",
+          "store": "장수왕족발 온양본점",
+          "biz": "88348*****",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:04",
           "store": "카페총각",
@@ -273824,11 +273851,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 11,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:14"
+      "updatedAt": "10:19"
     }
   },
   "resp": {
@@ -372009,7 +372036,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:17",
+    "at": "2026-10-22 10:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372145,7 +372172,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:16",
+    "at": "2026-10-22 10:19",
     "pri": {
       "days": 0,
       "failed": [],
