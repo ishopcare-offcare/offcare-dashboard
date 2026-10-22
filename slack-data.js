@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24031,
+  "version": 24032,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273912,11 +273912,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:24"
+      "updatedAt": "10:24",
+      "absent": [
+        {
+          "time": "10:19",
+          "store": "주식회사 토스트하우스(토스트)",
+          "biz": "67488*****",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -274077,7 +274087,7 @@ window.SLACK_DATA = {
       },
       "1792632238.623409": {
         "post": "1792632238.623409",
-        "lastSeen": 1792632465.173,
+        "lastSeen": 1792632522.938,
         "r": 1,
         "day": "2026-10-22",
         "idx": 6
@@ -372121,7 +372131,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:28",
+    "at": "2026-10-22 10:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372257,7 +372267,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:27",
+    "at": "2026-10-22 10:28",
     "pri": {
       "days": 0,
       "failed": [],
