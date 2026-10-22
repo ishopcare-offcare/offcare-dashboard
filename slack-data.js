@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23992,
+  "version": 23993,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273683,6 +273683,7 @@ window.SLACK_DATA = {
     "2026-10-22": {
       "counts": {
         "as": {
+          "심성현": 1,
           "고경림": 1
         },
         "onboarding": {
@@ -273694,6 +273695,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:15",
+          "store": "트윈쿠키",
+          "biz": "80204*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "포프(태블릿)사용 매장으로, 오랜만에 프론트 연결하는 상황으로 연결이 끊겨있다고 하시어",
+          "hw": "",
+          "intake": "online",
+          "note": "태블릿 프론트 재온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "09:03",
           "store": "화양순대국감자탕",
@@ -273732,7 +273745,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -371888,7 +371901,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:20",
+    "at": "2026-10-22 09:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372024,7 +372037,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:20",
+    "at": "2026-10-22 09:23",
     "pri": {
       "days": 0,
       "failed": [],
