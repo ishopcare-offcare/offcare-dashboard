@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23993,
+  "version": 23994,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273687,7 +273687,8 @@ window.SLACK_DATA = {
           "고경림": 1
         },
         "onboarding": {
-          "심성현": 1
+          "심성현": 1,
+          "김동욱": 1
         },
         "menu": {
           "김동욱": 1
@@ -273732,6 +273733,18 @@ window.SLACK_DATA = {
           "rr": 2
         },
         {
+          "time": "09:00",
+          "store": "크레용팜",
+          "biz": "40393*****",
+          "cat": "onboarding",
+          "emp": "김동욱",
+          "req": "포프(노트북) + 터미널2 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "포터프(노트북) 온볻딩 완료",
+          "rr": 1
+        },
+        {
           "time": "08:24",
           "store": "온빛",
           "biz": "82410*****",
@@ -273745,7 +273758,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -371901,26 +371914,18 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:23",
+    "at": "2026-10-22 09:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": true,
-    "error": "",
-    "rows": 4690,
-    "named": 1245,
-    "unknownName": 140,
+    "ok": false,
+    "error": "시트 export 실패 HTTP 403",
+    "rows": 0,
+    "named": 0,
+    "unknownName": 0,
     "beforeStart": 0,
-    "done": 1245,
-    "byStatus": {
-      "일정등록완료": 802,
-      "1차부재": 262,
-      "점주직접접수": 100,
-      "설치불가": 24,
-      "(빈칸)": 7,
-      "자가설치": 38,
-      "설치보류요청": 12
-    }
+    "done": 0,
+    "byStatus": {}
   },
   "noteV": {
     "2026-09-29": 2,
@@ -372037,7 +372042,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:23",
+    "at": "2026-10-22 09:24",
     "pri": {
       "days": 0,
       "failed": [],
