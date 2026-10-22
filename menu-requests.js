@@ -3,10 +3,103 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4007,
- "updatedAt": "2026-10-22 16:10",
+ "version": 4008,
+ "updatedAt": "2026-10-22 16:19",
  "days": 30,
  "items": [
+  {
+   "ts": "1792653437.732499",
+   "date": "2026-10-22",
+   "time": "16:17",
+   "store": "기운재풍천장어",
+   "biz": "16258*****",
+   "pos": "토스포스",
+   "content": "전체",
+   "special": "파일이안올라가요",
+   "drive": [
+    "https://drive.google.com/file/d/1_Sv3DL060rOPiIqs6r4WqMe_mLSqRjPn/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1H1ZnUF8RqiNj4WZE2L14KBWVjUuL3vmC/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1y-Wo-yR_zPaYAhrzMa_C0lCdfH-QO9MS/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1wleNWIZDCnbl-5TSUuzKvw5XBRKXgpeE/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ciW7iLXQcIOb2jcrxAYtzAcaN1fn8_T4/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1KhL2U_wVjclaRgIywVfslHqRrzWwDHpu/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1LGXePxgvtWo5xzA40pVxP5dwx71pF07l/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1dADdluOUfII48wRT69Lnm2x80JMvNvSG/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1UjSLfHftaXCRi4Ir2sapLgevGRgqCivb/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1fz-TtzYKYiA_WAosgaw-dwub1UNpIXfI/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1_Sv3DL060rOPiIqs6r4WqMe_mLSqRjPn",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1H1ZnUF8RqiNj4WZE2L14KBWVjUuL3vmC",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1y-Wo-yR_zPaYAhrzMa_C0lCdfH-QO9MS",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1wleNWIZDCnbl-5TSUuzKvw5XBRKXgpeE",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1ciW7iLXQcIOb2jcrxAYtzAcaN1fn8_T4",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1KhL2U_wVjclaRgIywVfslHqRrzWwDHpu",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1LGXePxgvtWo5xzA40pVxP5dwx71pF07l",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1dADdluOUfII48wRT69Lnm2x80JMvNvSG",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1UjSLfHftaXCRi4Ir2sapLgevGRgqCivb",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1fz-TtzYKYiA_WAosgaw-dwub1UNpIXfI",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792653437732499"
+  },
   {
    "ts": "1792652998.644319",
    "date": "2026-10-22",
