@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24135,
+  "version": 24136,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273699,7 +273699,7 @@ window.SLACK_DATA = {
           "고경림": 2
         },
         "booking": {
-          "고경림": 3,
+          "고경림": 4,
           "박하림": 1,
           "심성현": 3,
           "송태양": 1
@@ -273727,6 +273727,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:45",
+          "store": "프루타 맨션(FRUTA MANSION)",
+          "biz": "61105*****",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 매장 외관 사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:42",
           "store": "플로라 드 베일리(Flora de Bailey)2",
@@ -274398,12 +274409,20 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 52,
+        "online": 54,
         "offline": 6,
         "unknown": 0
       },
       "updatedAt": "12:48",
       "absent": [
+        {
+          "time": "12:46",
+          "store": "족발로일등하는집 응암본점",
+          "biz": "30207*****",
+          "handler": "미지정",
+          "cat": "as",
+          "intake": "online"
+        },
         {
           "time": "11:00",
           "store": "리즈메이크업",
@@ -274580,21 +274599,14 @@ window.SLACK_DATA = {
       },
       "1792640539.011989": {
         "post": "1792640539.011989",
-        "lastSeen": 1792640973.046,
+        "lastSeen": 1792641053.2,
         "r": 1,
         "day": "2026-10-22",
         "idx": 36
       },
-      "1792640701.338529": {
-        "post": "1792640701.338529",
-        "lastSeen": 1792640973.046,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 39
-      },
       "1792640791.570189": {
         "post": "1792640791.570189",
-        "lastSeen": 1792640973.046,
+        "lastSeen": 1792641053.2,
         "r": 1,
         "day": "2026-10-22",
         "idx": 38
@@ -372926,14 +372938,15 @@ window.SLACK_DATA = {
             "store": "프루타 맨션(FRUTA MANSION)",
             "biz": "61105*****",
             "who": "고경림",
-            "cat": "delivery"
+            "cat": "booking",
+            "dmin": 5.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 12:50",
+    "at": "2026-10-22 12:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -373069,7 +373082,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 12:49",
+    "at": "2026-10-22 12:50",
     "pri": {
       "days": 0,
       "failed": [],
