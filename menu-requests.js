@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4009,
- "updatedAt": "2026-10-22 16:21",
+ "version": 4010,
+ "updatedAt": "2026-10-22 16:28",
  "days": 30,
  "items": [
   {
@@ -59953,27 +59953,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790069274048279"
-  },
-  {
-   "ts": "1790062035.905579",
-   "date": "2026-09-22",
-   "time": "16:27",
-   "store": "상계식당",
-   "biz": "66249*****",
-   "pos": "스파로스포스",
-   "content": "조기구이5마리\n가격 15,000원",
-   "special": "위 메뉴 추가",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790062035905579"
   }
  ],
  "ocr": {
