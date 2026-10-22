@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4017,
- "updatedAt": "2026-10-22 16:56",
+ "version": 4018,
+ "updatedAt": "2026-10-22 16:57",
  "days": 30,
  "items": [
   {
@@ -23,10 +23,10 @@ window.MENU_REQUESTS = {
    "replies": [
     "* 감동까스\n• 1인경양식 돈까스 : 13,500원\n• 매운돈까스 : 13,500원\n• 돈까스김치치즈나베 : 13,500원\n*사이드 메뉴\n• 반모밀 : 3,900원\n• 김말이 : 1,000원"
    ],
-   "rc": 2,
-   "lr": "1792655508.646099",
+   "rc": 3,
+   "lr": "1792655817.724979",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792655446938589"
   },
