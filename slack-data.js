@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24125,
+  "version": 24126,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273689,6 +273689,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "as": {
+          "배선유": 1,
           "김현기": 4,
           "심성현": 8,
           "박하림": 1,
@@ -273735,6 +273736,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "금일 13시 30분 연락요청 • 예약완료 예약완료",
+          "rr": 1
+        },
+        {
+          "time": "12:19",
+          "store": "이대탁구용품",
+          "biz": "59073*****",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "터프 &gt; 포프(PC)+터 로 재온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "재온보딩 완료",
           "rr": 1
         },
         {
@@ -273806,8 +273819,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북) + 터미널2 온보딩요청드립니다",
           "hw": "",
           "intake": "online",
-          "note": "5분뒤 다시 연락예정",
-          "rr": 1
+          "note": "5분뒤 다시 연락예정 / 오후2시에 다시예약진행",
+          "rr": 2
         },
         {
           "time": "11:45",
@@ -274360,7 +274373,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 49,
+        "online": 50,
         "offline": 6,
         "unknown": 0
       },
@@ -274539,13 +274552,6 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
-      },
-      "1792639180.934889": {
-        "post": "1792639180.934889",
-        "lastSeen": 1792639920.055,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 33
       }
     },
     "days": {
@@ -372822,7 +372828,8 @@ window.SLACK_DATA = {
             "store": "이대탁구용품",
             "biz": "59073*****",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13
           },
           {
             "hm": "12:20",
@@ -372838,7 +372845,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 12:32",
+    "at": "2026-10-22 12:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372974,7 +372981,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 12:32",
+    "at": "2026-10-22 12:33",
     "pri": {
       "days": 0,
       "failed": [],
