@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4034,
- "updatedAt": "2026-10-23 00:01",
+ "version": 4035,
+ "updatedAt": "2026-10-23 01:01",
  "days": 30,
  "items": [
   {
@@ -60220,32 +60220,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790129864653649"
-  },
-  {
-   "ts": "1790092008.174489",
-   "date": "2026-09-23",
-   "time": "00:46",
-   "store": "제야 ZEYA",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 제야(ZEYA) 메뉴 내용입니다\n입니다\n내용:  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c9c87b91ad549>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c9c87b91ad549",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790092008174489"
   }
  ],
  "ocr": {
