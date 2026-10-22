@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24055,
+  "version": 24056,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273695,7 +273695,8 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "booking": {
-          "심성현": 3
+          "심성현": 3,
+          "고경림": 1
         },
         "extern": {
           "김동욱": 2
@@ -273808,6 +273809,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "업무 중 1145 재예약 요청",
+          "rr": 1
+        },
+        {
+          "time": "10:30",
+          "store": "하우스 오브 크림(haus of cream)",
+          "biz": "26611*****",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "쿠팡이츠 쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 쿠팡이츠 도어 스티커가 부착 된 매장 외관사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": "금요일 11시 예약건이라고합니다 ! • 금요일 오전 11시 예약완료 금요일 오전 11시 예약완료",
           "rr": 1
         },
         {
@@ -274026,11 +274039,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 24,
+        "online": 25,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "10:59",
+      "updatedAt": "11:00",
       "absent": [
         {
           "time": "10:19",
@@ -274080,13 +274093,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1792461606.756509": {
-        "post": "1792461606.756509",
-        "lastSeen": 1792527328.989,
-        "r": 1,
-        "day": "2026-10-20",
-        "idx": 23
-      },
       "1792462852.236529": {
         "post": "1792462852.236529",
         "lastSeen": 1792527328.989,
@@ -274216,12 +274222,9 @@ window.SLACK_DATA = {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
       },
-      "1792632603.755409": {
-        "post": "1792632603.755409",
-        "lastSeen": 1792634383.149,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 13
+      "1792634406.737289": {
+        "post": "1792634406.737289",
+        "lastSeen": 1792634454.18
       }
     },
     "days": {
@@ -372318,14 +372321,15 @@ window.SLACK_DATA = {
             "store": "하우스 오브 크림(haus of cream)",
             "biz": "26611*****",
             "who": "고경림",
-            "cat": "delivery"
+            "cat": "booking",
+            "dmin": 30.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:59",
+    "at": "2026-10-22 11:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372461,7 +372465,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:59",
+    "at": "2026-10-22 11:00",
     "pri": {
       "days": 0,
       "failed": [],
