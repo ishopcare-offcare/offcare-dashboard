@@ -1596,9 +1596,25 @@ function dutyPersonByDate(dateStr){
   }
   return who;
 }
+// 한 주에 회의가 둘 이상이면(목 정기회의 + 금 타운홀) 같은 사람이 두 번 서지 않게, 두 번째부터는
+// 순번상 절반쯤 뒤 차례(반 바퀴 뒤)인 사람이 선다 — 그 주에 이미 선 사람·10시 출근자는 건너뜀.
+// 반 바퀴 뒤라 직전·다음 주 당번과도 붙지 않는다. 달력은 지난 회의가 빠지는 창이라 회의 수로 순번을 세지 않고 날짜만으로 정한다.
+function dutyExtraPerson(dateStr, taken){
+  const thu=addDays(parseYmd(weekMonday(dateStr)), 3), n=orderAt(DUTY_ORDER, DUTY_ORDER_CHANGES, dateStr).length;
+  for(let j=Math.floor(n/2); j<Math.floor(n/2)+n; j++){
+    const p=dutyRotByDate(ymd(addDays(thu, 7*j)));
+    if(p && !taken.includes(p)) return p;
+  }
+  return "";
+}
 function dutyMap(){
-  const map={};
-  meetingDutyList().forEach(m=>{ map[m.date+"|"+m.time+"|"+m.title]=dutyPersonByDate(m.date); });
+  const map={}, week={};   // week: 월요일 → 그 주에 이미 배정된 사람(수동 지정 포함)
+  meetingDutyList().forEach(m=>{
+    const key=m.date+"|"+m.time+"|"+m.title, mon=weekMonday(m.date);
+    const taken=week[mon];
+    map[key]=(taken && mon>=DUTY_TEN_GUARD_FROM) ? dutyExtraPerson(m.date, taken.concat(tenPersonOfWeek(m.date))) : dutyPersonByDate(m.date);
+    (week[mon]=week[mon]||[]).push(dutyPersonAt(key, map[key]));
+  });
   return map;
 }
 function meetingStart(m){
