@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24124,
+  "version": 24125,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273684,6 +273684,7 @@ window.SLACK_DATA = {
       "counts": {
         "booking": {
           "고경림": 3,
+          "박하림": 1,
           "심성현": 3,
           "송태양": 1
         },
@@ -273794,6 +273795,18 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "offline",
           "note": "스파로스 프로그램 안 켜짐 증상 재부팅 후 정상",
+          "rr": 1
+        },
+        {
+          "time": "11:45",
+          "store": "블링블링헤어샵",
+          "biz": "64733*****",
+          "cat": "booking",
+          "emp": "박하림",
+          "req": "포프(노트북) + 터미널2 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "5분뒤 다시 연락예정",
           "rr": 1
         },
         {
@@ -274347,7 +274360,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 48,
+        "online": 49,
         "offline": 6,
         "unknown": 0
       },
@@ -274527,16 +274540,9 @@ window.SLACK_DATA = {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
       },
-      "1792637101.396719": {
-        "post": "1792637101.396719",
-        "lastSeen": 1792639853.614,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 27
-      },
       "1792639180.934889": {
         "post": "1792639180.934889",
-        "lastSeen": 1792639853.614,
+        "lastSeen": 1792639920.055,
         "r": 1,
         "day": "2026-10-22",
         "idx": 33
@@ -372762,7 +372768,8 @@ window.SLACK_DATA = {
             "store": "블링블링헤어샵",
             "biz": "64733*****",
             "who": "박하림",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 46.4
           },
           {
             "hm": "11:50",
@@ -372831,7 +372838,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 12:31",
+    "at": "2026-10-22 12:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372967,7 +372974,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 12:30",
+    "at": "2026-10-22 12:32",
     "pri": {
       "days": 0,
       "failed": [],
