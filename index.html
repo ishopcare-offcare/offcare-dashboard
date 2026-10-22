@@ -1570,8 +1570,31 @@ function meetingDutyList(){
 }
 // 당번 배정 = 회의 날짜만의 순수 함수(주 단위 회전). 캘린더 로드 상태·목록과 무관 → 모두 동일하게 보임.
 // 앵커: 2026-07-10 주 = 김현기(DUTY_ORDER idx 3). 매주 다음 사람으로 회전.
-function dutyPersonByDate(dateStr){
+function dutyRotByDate(dateStr){
   return rotPerson(DUTY_ORDER, DUTY_ANCHOR_IDX, DUTY_ANCHOR_DATE, DUTY_ORDER_CHANGES, dateStr);
+}
+// 그 주 10시 출근자는 9:30 회의 당번을 못 선다 → 순번은 그대로 두고 그 사람만 미뤄, 다음 사람이 먼저 선다.
+// 밀린 사람은 대기열 맨 앞에 남아 10출이 아닌 가장 빠른 주에 선다(차례가 사라지거나 두 번 서는 사람 없음).
+// 10시 출근은 수동 교체(TENOVER)까지 반영한 실제 담당자 기준. 지난 배정을 건드리지 않도록 DUTY_TEN_GUARD_FROM 주부터 적용.
+const DUTY_TEN_GUARD_FROM = "2026-11-02";   // 월요일
+function weekMonday(ds){ const d=parseYmd(ds); return ymd(addDays(d, -((d.getDay()+6)%7))); }
+function tenPersonOfWeek(ds){ return tenPersonAt(weekMonday(ds)); }
+function dutyPersonByDate(dateStr){
+  const mon=weekMonday(dateStr);
+  if(mon<DUTY_TEN_GUARD_FROM) return dutyRotByDate(dateStr);
+  const wkMon=k=>ymd(addDays(parseYmd(DUTY_TEN_GUARD_FROM), 7*k));
+  const base=k=>dutyRotByDate(ymd(addDays(parseYmd(wkMon(k)), 3)));   // 주 대표일 = 목요일(정기회의) — 순번 주 계산과 같은 칸
+  const target=Math.round((parseYmd(mon)-parseYmd(DUTY_TEN_GUARD_FROM))/(7*86400000));
+  const queue=[]; let next=0, who="";
+  for(let w=0; w<=target; w++){
+    while(next<=w) queue.push(base(next++));
+    const ten=tenPersonAt(wkMon(w));
+    let i=queue.findIndex(p=>p!==ten);
+    while(i<0 && next<=w+DUTY_ORDER.length){ queue.push(base(next++)); i=queue.findIndex(p=>p!==ten); }
+    who=i<0 ? queue[0] : queue.splice(i,1)[0];
+    if(i<0) queue.shift();
+  }
+  return who;
 }
 function dutyMap(){
   const map={};
@@ -2010,13 +2033,13 @@ function setDutyByIdx(i, name){ setDutyOverride(DUTYKEYS[i], name); }
 // 🏠 달력에서 근무당번 이름 클릭 → 직원 목록 팝업에서 바로 교체
 function openDutyPicker(i){
   const key=DUTYKEYS[i]; if(!key) return;
-  const [date,,title]=key.split('|'), cur=dutyPersonAt(key, dutyMap()[key]);
+  const [date,,title]=key.split('|'), cur=dutyPersonAt(key, dutyMap()[key]), ten=tenPersonOfWeek(date);
   let el=document.getElementById('dutyPickModal');
   if(!el){ el=document.createElement('div'); el.id='dutyPickModal'; el.className='detail-overlay'; el.onclick=e=>{ if(e.target===el) el.remove(); }; document.body.appendChild(el); }
   el.innerHTML=`<div class="detail-box" style="max-width:380px">
     <div class="detail-head"><h3>🏠 근무당번 지정</h3><button class="detail-x" onclick="document.getElementById('dutyPickModal').remove()">✕</button></div>
     <div class="dp-meta">${fmtShort(date)} · ${escapeHtml(title||'회의')}${cur?` · 현재 <b>${escapeHtml(cur)}</b>`:''}</div>
-    <div class="dp-list">${EMPLOYEES.map(e=>`<button class="dp-item ${e===cur?'on':''}" onclick="pickDuty(${i},'${escapeHtml(e)}')">${escapeHtml(e)}${e===cur?' ✓':''}</button>`).join('')}</div>
+    <div class="dp-list">${EMPLOYEES.map(e=>`<button class="dp-item ${e===cur?'on':''}" ${e===ten?`style="opacity:.45" title="이 주 10시 출근자 — 9:30 회의 당번 불가"`:''} onclick="pickDuty(${i},'${escapeHtml(e)}')">${escapeHtml(e)}${e===ten?' 🕙10출':''}${e===cur?' ✓':''}</button>`).join('')}</div>
     <div class="dp-note">고른 사람으로 <b>이 회의 당번만</b> 바뀝니다 (다른 날짜는 그대로)</div>
     ${DUTYOVER[key]?`<button class="dp-auto" onclick="pickDuty(${i},'')">↺ 순번 자동으로 되돌리기</button>`:''}
   </div>`;
