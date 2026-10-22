@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23990,
+  "version": 23991,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273682,6 +273682,9 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "as": {
+          "고경림": 1
+        },
         "onboarding": {
           "심성현": 1
         },
@@ -273691,6 +273694,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:03",
+          "store": "화양순대국감자탕",
+          "biz": "37111*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "캣 단말기 카드 꽂으면 서명 패드 확인 요청이라고 나오며 결제 불가하여 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:03",
           "store": "은유영",
@@ -273717,11 +273731,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:03"
+      "updatedAt": "09:15"
     }
   },
   "resp": {
@@ -371873,7 +371887,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:15",
+    "at": "2026-10-22 09:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372009,7 +372023,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:15",
+    "at": "2026-10-22 09:16",
     "pri": {
       "days": 0,
       "failed": [],
