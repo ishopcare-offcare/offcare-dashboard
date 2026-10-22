@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24064,
+  "version": 24065,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273085,7 +273085,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 터+프 온보딩도 안되어있고 박스도 뜯지않은 상황으로 익일 오전 10시 방문하여 온보딩 및 배달설치예정 입니다. 터+프 온보딩도 안되어있고 박스도 뜯지않은 상황으로 익일 오전 10시 방문하여 온보딩 및 배달설치예정 입니다.",
-          "rr": 10
+          "rr": 11
         },
         {
           "time": "10:44",
@@ -274283,7 +274283,7 @@ window.SLACK_DATA = {
       },
       "1792634406.737289": {
         "post": "1792634406.737289",
-        "lastSeen": 1792635075.916,
+        "lastSeen": 1792635159.18,
         "r": 1,
         "day": "2026-10-22",
         "idx": 14
@@ -372408,7 +372408,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:11",
+    "at": "2026-10-22 11:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372544,7 +372544,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:11",
+    "at": "2026-10-22 11:12",
     "pri": {
       "days": 0,
       "failed": [],
