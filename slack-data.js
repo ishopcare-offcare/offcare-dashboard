@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24138,
+  "version": 24139,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273699,7 +273699,7 @@ window.SLACK_DATA = {
           "고경림": 2
         },
         "booking": {
-          "고경림": 4,
+          "고경림": 3,
           "박하림": 1,
           "심성현": 3,
           "송태양": 1
@@ -273727,17 +273727,6 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
-        {
-          "time": "12:45",
-          "store": "프루타 맨션(FRUTA MANSION)",
-          "biz": "61105*****",
-          "cat": "booking",
-          "emp": "고경림",
-          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 매장 외관 사진 1장",
-          "hw": "",
-          "intake": "online",
-          "note": ""
-        },
         {
           "time": "12:42",
           "store": "플로라 드 베일리(Flora de Bailey)2",
@@ -274409,11 +274398,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 54,
+        "online": 53,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "12:51",
+      "updatedAt": "12:54",
       "absent": [
         {
           "time": "12:46",
@@ -274599,21 +274588,25 @@ window.SLACK_DATA = {
       },
       "1792640539.011989": {
         "post": "1792640539.011989",
-        "lastSeen": 1792641210.335,
+        "lastSeen": 1792641291.042,
         "r": 1,
         "day": "2026-10-22",
         "idx": 36
       },
       "1792640791.570189": {
         "post": "1792640791.570189",
-        "lastSeen": 1792641210.335,
+        "lastSeen": 1792641291.042,
         "r": 1,
         "day": "2026-10-22",
         "idx": 38
       },
       "1792641094.894979": {
         "post": "1792641094.894979",
-        "lastSeen": 1792641210.335
+        "lastSeen": 1792641291.042
+      },
+      "1792641242.773409": {
+        "post": "1792641242.773409",
+        "lastSeen": 1792641291.042
       }
     },
     "days": {
@@ -372950,7 +372943,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 12:53",
+    "at": "2026-10-22 12:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -373086,7 +373079,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 12:53",
+    "at": "2026-10-22 12:54",
     "pri": {
       "days": 0,
       "failed": [],
