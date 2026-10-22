@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23997,
+  "version": 23998,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273682,6 +273682,9 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "booking": {
+          "심성현": 1
+        },
         "as": {
           "심성현": 1,
           "고경림": 1
@@ -273696,6 +273699,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "다인뷰티",
+          "biz": "11216*****",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "단말기 전원 콘센트를 뺀 후로 프론트 연결이 안되고 있음, 포프 온보딩 부탁드립니다 :woman-bowing::skin-tone-2:",
+          "hw": "",
+          "intake": "online",
+          "note": "17시 예약 요청",
+          "rr": 1
+        },
         {
           "time": "09:15",
           "store": "트윈쿠키",
@@ -273758,7 +273773,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 0,
         "unknown": 0
       },
@@ -273923,17 +273938,10 @@ window.SLACK_DATA = {
       },
       "1792629020.003929": {
         "post": "1792629020.003929",
-        "lastSeen": 1792629179.447,
+        "lastSeen": 1792629233.29,
         "r": 1,
         "day": "2026-10-22",
         "idx": 2
-      },
-      "1792629000.226189": {
-        "post": "1792629000.226189",
-        "lastSeen": 1792629179.447,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 1
       }
     },
     "days": {
@@ -371922,7 +371930,8 @@ window.SLACK_DATA = {
             "store": "다인뷰티",
             "biz": "11216*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 3.4
           },
           {
             "hm": "09:30",
@@ -371937,7 +371946,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:33",
+    "at": "2026-10-22 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372073,7 +372082,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:32",
+    "at": "2026-10-22 09:33",
     "pri": {
       "days": 0,
       "failed": [],
