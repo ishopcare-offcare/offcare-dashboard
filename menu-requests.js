@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3957,
- "updatedAt": "2026-10-22 09:58",
+ "version": 3958,
+ "updatedAt": "2026-10-22 10:03",
  "days": 30,
  "items": [
   {
@@ -59214,58 +59214,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790039208231169"
-  },
-  {
-   "ts": "1790038908.859219",
-   "date": "2026-09-22",
-   "time": "10:01",
-   "store": "문정점",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: Fwd: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n---------- Forwarded message ---------\n 보낸사람: 최봄이 <···>\n Date: 2026년 9월 21일 (월) 오후 6:38\n Subject: [스몰굿컴퍼니]_문정점 메뉴판 이미지 전달\n To: <···>\n Cc: 유정선 <···>, 강현우 <···>\n \n \n 안녕하세요, 담당자님 이전 전달드린 메일에서\n 문정점의 스몰굿딸기는 해당이미지로 부탁드립니다.\n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c6a1bc122863b>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c6a1bc122863b",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038908859219"
-  },
-  {
-   "ts": "1790038908.506169",
-   "date": "2026-09-22",
-   "time": "10:01",
-   "store": "마이요거트립",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: Fwd: 마이요거트립 메뉴 사진\n---------- Forwarded message ---------\n 보낸사람: 조민희 <···>\n Date: 2026년 9월 22일 (화) 오전 8:42\n Subject: 마이요거트립 메뉴 사진\n To: <···>\n \n \n 다운로드 기한이 있는 첨부파일 1개 (71MB) 7일 보관 / 100회 다운로드\n [image: zip] 마이요거트립 메뉴 사진.zip 71MB\n <<https://bigfile.mail.worksmobile.com/storage/down>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0c6a1e21e75a7c>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0c6a1e21e75a7c",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790038908506169"
   }
  ],
  "ocr": {
