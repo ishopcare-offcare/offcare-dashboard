@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24028,
+  "version": 24029,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273692,12 +273692,12 @@ window.SLACK_DATA = {
           "고경림": 2,
           "심성현": 3
         },
+        "onboarding": {
+          "심성현": 2,
+          "김동욱": 1
+        },
         "booking": {
           "심성현": 1
-        },
-        "onboarding": {
-          "심성현": 1,
-          "김동욱": 1
         },
         "menu": {
           "김동욱": 1
@@ -273742,6 +273742,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "/ 혜인님 왔다갔다 하면서 중간에 한번씩 봐주기로 했슴다 혜인님 왔다갔다 하면서 중간에 한번씩 봐주기로 했슴다",
           "rr": 2
+        },
+        {
+          "time": "10:20",
+          "store": "스테이 패스포트 익스프레스 스파 당산점",
+          "biz": "81085*****",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "HS오퍼레이션 대량발주건 (토스페이먼츠건입니다) 프론트1대 온보딩부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
         },
         {
           "time": "10:19",
@@ -273888,7 +273900,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -274051,16 +274063,12 @@ window.SLACK_DATA = {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
       },
-      "1792632042.506749": {
-        "post": "1792632042.506749",
-        "lastSeen": 1792632284.566,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 5
-      },
       "1792632238.623409": {
         "post": "1792632238.623409",
-        "lastSeen": 1792632284.566
+        "lastSeen": 1792632347.639,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 6
       }
     },
     "days": {
@@ -372030,8 +372038,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 6,
-        "sumMin": 23.497917938232423,
+        "cnt": 7,
+        "sumMin": 24.789236120382945,
         "over": 0,
         "items": [
           {
@@ -372085,6 +372093,15 @@ window.SLACK_DATA = {
             "store": "스테이 패스포트 익스프레스 스파 당산점",
             "biz": "81085*****",
             "who": "심성현",
+            "cat": "onboarding",
+            "dmin": 4.6
+          },
+          {
+            "hm": "10:23",
+            "min": 1.3,
+            "store": "경희성원한의원",
+            "biz": "36015*****",
+            "who": "송태양",
             "cat": "as"
           }
         ]
@@ -372092,7 +372109,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:24",
+    "at": "2026-10-22 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372228,7 +372245,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:24",
+    "at": "2026-10-22 10:25",
     "pri": {
       "days": 0,
       "failed": [],
