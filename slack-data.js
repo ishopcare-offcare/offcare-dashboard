@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24019,
+  "version": 24020,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273683,8 +273683,8 @@ window.SLACK_DATA = {
     "2026-10-22": {
       "counts": {
         "as": {
-          "심성현": 3,
-          "고경림": 1
+          "고경림": 2,
+          "심성현": 3
         },
         "booking": {
           "심성현": 1
@@ -273702,6 +273702,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:04",
+          "store": "카페총각",
+          "biz": "82036*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "NM-400 사용 매장으로, 연결 이후 다른 휴대폰 연결을 위해 지금 휴대폰에 연결되어있는 단말기 연결 해제 방법 문의주시어,",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:00",
           "store": "밀레브",
@@ -273812,7 +273823,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 1,
         "unknown": 0
       },
@@ -273974,13 +273985,6 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
-      },
-      "1792631040.830229": {
-        "post": "1792631040.830229",
-        "lastSeen": 1792631480.632,
-        "r": 1,
-        "day": "2026-10-22",
-        "idx": 4
       }
     },
     "days": {
@@ -371996,14 +372000,15 @@ window.SLACK_DATA = {
             "store": "카페총각",
             "biz": "82036*****",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:11",
+    "at": "2026-10-22 10:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372139,7 +372144,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:11",
+    "at": "2026-10-22 10:13",
     "pri": {
       "days": 0,
       "failed": [],
