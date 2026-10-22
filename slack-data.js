@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24059,
+  "version": 24060,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273682,6 +273682,10 @@ window.SLACK_DATA = {
     },
     "2026-10-22": {
       "counts": {
+        "extern": {
+          "서상원": 1,
+          "김동욱": 2
+        },
         "as": {
           "심성현": 5,
           "송태양": 2,
@@ -273698,9 +273702,6 @@ window.SLACK_DATA = {
           "심성현": 3,
           "고경림": 1
         },
-        "extern": {
-          "김동욱": 2
-        },
         "transfer": {
           "송태양": 1
         },
@@ -273715,6 +273716,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:04",
+          "store": "더밥상 동탄영천점",
+          "biz": "30931*****",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:48",
           "store": "경기미당송도점",
@@ -274039,11 +274051,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 25,
+        "online": 26,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "11:03",
+      "updatedAt": "11:04",
       "absent": [
         {
           "time": "10:19",
@@ -274224,7 +274236,10 @@ window.SLACK_DATA = {
       },
       "1792634406.737289": {
         "post": "1792634406.737289",
-        "lastSeen": 1792634672.61
+        "lastSeen": 1792634759.244,
+        "r": 1,
+        "day": "2026-10-22",
+        "idx": 14
       }
     },
     "days": {
@@ -372194,8 +372209,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-22": {
-        "cnt": 14,
-        "sumMin": 66.23755457401276,
+        "cnt": 15,
+        "sumMin": 71.3907164255778,
         "over": 0,
         "items": [
           {
@@ -372323,13 +372338,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "booking",
             "dmin": 30.2
+          },
+          {
+            "hm": "11:00",
+            "min": 5.2,
+            "store": "수능하루",
+            "biz": "46701*****",
+            "who": "송태양",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-22 11:05",
+    "at": "2026-10-22 11:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372465,7 +372488,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 11:04",
+    "at": "2026-10-22 11:05",
     "pri": {
       "days": 0,
       "failed": [],
