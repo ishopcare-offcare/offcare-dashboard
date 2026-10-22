@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4006,
- "updatedAt": "2026-10-22 16:03",
+ "version": 4007,
+ "updatedAt": "2026-10-22 16:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1792652998.644319",
+   "date": "2026-10-22",
+   "time": "16:09",
+   "store": "기운재풍천장어",
+   "biz": "16258*****",
+   "pos": "토스포스",
+   "content": "전채메뉴",
+   "special": "카카오톡으로받은거라공유밖에안되네요 ㅠ",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792652998644319"
+  },
   {
    "ts": "1792652189.430709",
    "date": "2026-10-22",
@@ -59858,74 +59879,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790062035905579"
-  },
-  {
-   "ts": "1790060900.133479",
-   "date": "2026-09-22",
-   "time": "16:08",
-   "store": "집밥",
-   "biz": "13048*****",
-   "pos": "퍼스트포스",
-   "content": "유플러스/ 메뉴 수정 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C4D333XDE",
-     "from": "댓글",
-     "path": "menu-files/1790060900_133479-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "빙수바보 빙식이",
-       "name": "애플망고 치즈 눈꽃빙수",
-       "price": 15500
-      },
-      {
-       "category": "빙수바보 빙식이",
-       "name": "슈퍼푸드 빙식이 빙수",
-       "price": 11900
-      },
-      {
-       "category": "빙수바보 빙식이",
-       "name": "로투스 빙수",
-       "price": 14900
-      },
-      {
-       "category": "빙수바보 빙식이",
-       "name": "첵스초코 눈꽃빙수",
-       "price": 14500
-      },
-      {
-       "category": "빙수바보 빙식이",
-       "name": "생딸기 바나나 눈꽃빙수",
-       "price": 15900
-      },
-      {
-       "category": "빙수바보 빙식이",
-       "name": "(신메뉴) 바나나 초코 눈꽃빙수",
-       "price": 15500
-      },
-      {
-       "category": "빙수바보 빙식이",
-       "name": "조리퐁 초코 눈꽃빙수",
-       "price": 14500
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "*카테고리* \n빙수바보 빙식이\n\n바나나초코눈꽂빙수\n조리퐁쵸코빙수\n\n메뉴 뒤쪽으로 배치 부탁드립니다\n#2가지가 빠졌어요"
-   ],
-   "rc": 5,
-   "lr": "1790063147.408229",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790060900133479"
   }
  ],
  "ocr": {
