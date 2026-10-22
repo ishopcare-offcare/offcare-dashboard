@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 3989,
- "updatedAt": "2026-10-22 12:59",
+ "version": 3990,
+ "updatedAt": "2026-10-22 13:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1792641687.591069",
+   "date": "2026-10-22",
+   "time": "13:01",
+   "store": "일마지오 킨텍스점",
+   "biz": "75285*****",
+   "pos": "퍼스트포스",
+   "content": "시즌메뉴에 굿나잇 흑임자라떼 오타나서 굿나인 으로 되어있습니다 수정부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792641687591069"
+  },
   {
    "ts": "1792641446.682439",
    "date": "2026-10-22",
@@ -625,8 +646,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1792641479.156759",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792641446682439"
   },
   {
