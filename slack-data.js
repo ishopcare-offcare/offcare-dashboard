@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 23994,
+  "version": 23995,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273762,18 +273762,11 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:15"
+      "updatedAt": "09:30"
     }
   },
   "resp": {
     "watch": {
-      "1792456205.730659": {
-        "post": "1792456205.730659",
-        "lastSeen": 1792527328.989,
-        "r": 1,
-        "day": "2026-10-20",
-        "idx": 4
-      },
       "1792459802.004609": {
         "post": "1792459802.004609",
         "lastSeen": 1792527328.989,
@@ -273927,6 +273920,14 @@ window.SLACK_DATA = {
       "1792594851.460879": {
         "post": "1792594851.460879",
         "lastSeen": 1792613728.41
+      },
+      "1792629020.003929": {
+        "post": "1792629020.003929",
+        "lastSeen": 1792629024.322
+      },
+      "1792629000.226189": {
+        "post": "1792629000.226189",
+        "lastSeen": 1792629024.322
       }
     },
     "days": {
@@ -371914,18 +371915,26 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 09:26",
+    "at": "2026-10-22 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": false,
-    "error": "시트 export 실패 HTTP 403",
-    "rows": 0,
-    "named": 0,
-    "unknownName": 0,
+    "ok": true,
+    "error": "",
+    "rows": 4690,
+    "named": 1245,
+    "unknownName": 140,
     "beforeStart": 0,
-    "done": 0,
-    "byStatus": {}
+    "done": 1245,
+    "byStatus": {
+      "일정등록완료": 802,
+      "1차부재": 262,
+      "점주직접접수": 100,
+      "설치불가": 24,
+      "(빈칸)": 7,
+      "자가설치": 38,
+      "설치보류요청": 12
+    }
   },
   "noteV": {
     "2026-09-29": 2,
@@ -372042,7 +372051,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 09:24",
+    "at": "2026-10-22 09:30",
     "pri": {
       "days": 0,
       "failed": [],
