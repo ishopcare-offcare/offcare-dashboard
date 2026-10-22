@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24025,
+  "version": 24026,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273683,6 +273683,7 @@ window.SLACK_DATA = {
     "2026-10-22": {
       "counts": {
         "as": {
+          "김현기": 1,
           "송태양": 1,
           "고경림": 2,
           "심성현": 3
@@ -273706,6 +273707,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:20",
+          "store": "IFS 2026",
+          "biz": "33188*****",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "부스 내 인터넷 ip확인 및 설정",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "10:19",
           "store": "논현우미각",
@@ -273851,11 +273864,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:20"
+      "updatedAt": "10:21"
     }
   },
   "resp": {
@@ -274016,7 +274029,7 @@ window.SLACK_DATA = {
       },
       "1792632042.506749": {
         "post": "1792632042.506749",
-        "lastSeen": 1792632059.68
+        "lastSeen": 1792632129.837
       }
     },
     "days": {
@@ -372040,7 +372053,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-22 10:21",
+    "at": "2026-10-22 10:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -372176,7 +372189,7 @@ window.SLACK_DATA = {
     "2026-10-22": 2
   },
   "noteMig": {
-    "at": "2026-10-22 10:21",
+    "at": "2026-10-22 10:22",
     "pri": {
       "days": 0,
       "failed": [],
