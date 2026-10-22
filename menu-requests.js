@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4032,
- "updatedAt": "2026-10-22 23:23",
+ "version": 4033,
+ "updatedAt": "2026-10-22 23:45",
  "days": 30,
  "items": [
+  {
+   "ts": "1792679945.938569",
+   "date": "2026-10-22",
+   "time": "23:39",
+   "store": "강창구찹쌀진순대 양재역점",
+   "biz": "54456*****",
+   "pos": "오케이포스",
+   "content": "식사메뉴에서\n예를들어 진순대정식, 얼큰정식 등 정식은 모두 삭제해주세요\n정식추가7,000원 으로 선택할수있게 하려고요\n테이블오더는 별도 연락해야죠?",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792679945938569"
+  },
   {
    "ts": "1792670658.009539",
    "date": "2026-10-22",
