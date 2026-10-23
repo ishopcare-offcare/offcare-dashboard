@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24519,
+  "version": 24520,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276428,7 +276428,8 @@ window.SLACK_DATA = {
           "req": "단말기 업데이트 지속 반복 / 점검 부탁드립니다:잔망루피꾸벅:",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "상호 : 133.우리끼리 키즈카페 스포츠마을 동대구역점 사업자번호 : 89987***** 프론트 무한업데이트 오류 • 기기교체필요 금일 출고요청완료 , 10/28(수) 문제기기회수 요청완료 기기교체필요",
+          "rr": 1
         },
         {
           "time": "08:45",
@@ -276594,7 +276595,7 @@ window.SLACK_DATA = {
       },
       "1792714598.038869": {
         "post": "1792714598.038869",
-        "lastSeen": 1792715035.921,
+        "lastSeen": 1792715122.262,
         "r": 1,
         "day": "2026-10-23",
         "idx": 1
@@ -376116,7 +376117,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:24",
+    "at": "2026-10-23 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376253,7 +376254,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:23",
+    "at": "2026-10-23 09:25",
     "pri": {
       "days": 0,
       "failed": [],
