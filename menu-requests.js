@@ -3,10 +3,157 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4055,
- "updatedAt": "2026-10-23 13:56",
+ "version": 4056,
+ "updatedAt": "2026-10-23 14:11",
  "days": 30,
  "items": [
+  {
+   "ts": "1792732235.620339",
+   "date": "2026-10-23",
+   "time": "14:10",
+   "store": "에그 앤 꼬꼬",
+   "biz": "85905*****",
+   "pos": "",
+   "content": "메뉴 등록 요청 드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261022_212248.jpeg.jpg",
+     "fid": "F0CBL4KEMQ9",
+     "from": "댓글",
+     "path": "menu-files/1792732235_620339-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "배부른 행복, 든든한 한 끼",
+       "name": "흑돼지를 품은 치즈 오믈렛 - 기본 〈소스없이 담백하게 유아용으로도 굿〉",
+       "price": 9000
+      },
+      {
+       "category": "배부른 행복, 든든한 한 끼",
+       "name": "흑돼지를 품은 치즈 오믈렛 - 수제소스 선택 (수제 토마토소스/수제 청양마늘 크림소스/수제 불닭크림소스)",
+       "price": 10500
+      },
+      {
+       "category": "배부른 행복, 든든한 한 끼",
+       "name": "버터치킨 카레덮밥",
+       "price": 10500
+      },
+      {
+       "category": "도란도란, 맛있는 시간",
+       "name": "철판 직화 닭다리살 구이",
+       "price": 14900
+      },
+      {
+       "category": "도란도란, 맛있는 시간",
+       "name": "유린풍 파채 닭다리살 샐러드",
+       "price": 12900
+      },
+      {
+       "category": "호로록,행복 한 입",
+       "name": "불닭 탄탄 파스타",
+       "price": 10900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261022_212331.jpeg.jpg",
+     "fid": "F0CBMU1FZUL",
+     "from": "댓글",
+     "path": "menu-files/1792732235_620339-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "치즈 불닭크림 떡볶이",
+       "price": 6500
+      },
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "수제 청양마늘 크림 떡볶이",
+       "price": 6500
+      },
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "매콤 바삭 고추기름 만두 (5~6개)",
+       "price": 4500
+      },
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "대파크림치즈고로케 (75g *2개)",
+       "price": 4900
+      },
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "맛살크림고로케 (40g * 3개)",
+       "price": 4500
+      },
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "감자 고로케 (40g * 3개)",
+       "price": 4500
+      },
+      {
+       "category": "이 맛에 하나 더!",
+       "name": "치즈 고로케 (40g * 3개)",
+       "price": 4500
+      },
+      {
+       "category": "시원한 달콤한 모금",
+       "name": "코카콜라 350ml",
+       "price": 2000
+      },
+      {
+       "category": "시원한 달콤한 모금",
+       "name": "칠성사이다 355ml",
+       "price": 2000
+      },
+      {
+       "category": "시원한 달콤한 모금",
+       "name": "웰치스 그레이프맛 355ml",
+       "price": 2000
+      },
+      {
+       "category": "시원한 달콤한 모금",
+       "name": "미닛메이드 레몬에이드 355ml",
+       "price": 2000
+      },
+      {
+       "category": "시원한 달콤한 모금",
+       "name": "미닛메이드 자몽에이드 355ml",
+       "price": 2000
+      },
+      {
+       "category": "시원한 달콤한 모금",
+       "name": "제로콜라 350ml",
+       "price": 2000
+      },
+      {
+       "category": "추가 곁들임",
+       "name": "수제 샬롯피클",
+       "price": 1000
+      },
+      {
+       "category": "추가 곁들임",
+       "name": "밥 추가 200g",
+       "price": 1500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1792732248.336769",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792732235620339"
+  },
   {
    "ts": "1792727808.406499",
    "date": "2026-10-23",
