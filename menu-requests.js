@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4097,
- "updatedAt": "2026-10-23 18:41",
+ "version": 4098,
+ "updatedAt": "2026-10-23 18:43",
  "days": 30,
  "items": [
   {
@@ -18,15 +18,31 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBF3S2S1K",
+     "from": "댓글",
+     "path": "menu-files/1792748016_091569-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "복분자주",
+       "price": 15000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "1.주류:\n복분자 15,000원\n으로 조정 부탁드립니다!"
    ],
-   "rc": 2,
-   "lr": "1792748022.789599",
+   "rc": 3,
+   "lr": "1792748574.707779",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792748016091569"
   },
