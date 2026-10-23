@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24512,
+  "version": 24513,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276393,12 +276393,27 @@ window.SLACK_DATA = {
     },
     "2026-10-23": {
       "counts": {
+        "transfer": {
+          "김동욱": 1
+        },
         "menu": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "08:45",
+          "store": "오벳(Obed)",
+          "biz": "35142*****",
+          "cat": "transfer",
+          "emp": "김동욱",
+          "req": "10월 23일 오전 9시 / 메뉴복사O / 프론트 <@U08BA4PDNLT> 제가 오전9시에 업탐이라 한번만 부탁드려용:하트하트:",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(태블릿) 명의변경 완료",
+          "rr": 1
+        },
         {
           "time": "06:00",
           "store": "호주에서온스시 왜관점",
@@ -276413,7 +276428,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -276548,13 +276563,6 @@ window.SLACK_DATA = {
       "1792681292.472849": {
         "post": "1792681292.472849",
         "lastSeen": 1792700126.849
-      },
-      "1792712701.382149": {
-        "post": "1792712701.382149",
-        "lastSeen": 1792713670.726,
-        "r": 1,
-        "day": "2026-10-23",
-        "idx": 0
       }
     },
     "days": {
@@ -376057,20 +376065,21 @@ window.SLACK_DATA = {
             "store": "오벳(Obed)",
             "biz": "35142*****",
             "who": "김동욱",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 19
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:01",
+    "at": "2026-10-23 09:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4716,
+    "rows": 4718,
     "named": 1245,
     "unknownName": 160,
     "beforeStart": 0,
@@ -376201,7 +376210,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:01",
+    "at": "2026-10-23 09:06",
     "pri": {
       "days": 0,
       "failed": [],
