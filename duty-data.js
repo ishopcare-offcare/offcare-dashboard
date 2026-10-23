@@ -3,8 +3,8 @@
  * scripts/fetch-duty.js 가 GitHub Actions 에서 주기 갱신합니다. 원본은 구글시트입니다.
  */
 window.DUTY_DATA = {
- "version": 53,
- "updatedAt": "2026-10-23 05:15",
+ "version": 54,
+ "updatedAt": "2026-10-23 10:00",
  "sheet": "1Gto8lYR1Nvh8M_YpcuBs1DG2LiX7b0iMUm2YeN5-2wM",
  "url": "https://docs.google.com/spreadsheets/d/1Gto8lYR1Nvh8M_YpcuBs1DG2LiX7b0iMUm2YeN5-2wM/edit",
  "days": {
@@ -188,7 +188,7 @@ window.DUTY_DATA = {
   },
   "2026-11-15": {
    "day": "송태양",
-   "nit": "최민석"
+   "nit": "박하림"
   },
   "2026-11-16": {
    "inst": "심헌터 군사훈련"
@@ -205,7 +205,7 @@ window.DUTY_DATA = {
   "2026-11-21": {
    "day": "김현기",
    "aft": "박성민",
-   "nit": "박하림"
+   "nit": "최민석"
   },
   "2026-11-22": {
    "day": "배선유",
@@ -221,12 +221,12 @@ window.DUTY_DATA = {
   },
   "2026-11-29": {
    "day": "심성현",
-   "nit": "최민석"
+   "nit": "박하림"
   },
   "2026-12-05": {
    "day": "고경림",
    "aft": "김명석",
-   "nit": "박하림"
+   "nit": "최민석"
   },
   "2026-12-06": {
    "day": "김기범",
@@ -239,14 +239,14 @@ window.DUTY_DATA = {
   },
   "2026-12-13": {
    "day": "김현기",
-   "nit": "최민석"
+   "nit": "박하림"
   },
   "2026-12-18": {
    "inst": "송태양 건강검진"
   },
   "2026-12-19": {
    "day": "송태양",
-   "nit": "박하림"
+   "nit": "최민석"
   },
   "2026-12-20": {
    "day": "김규빈",
@@ -262,7 +262,7 @@ window.DUTY_DATA = {
   },
   "2026-12-27": {
    "day": "고경림",
-   "nit": "최민석"
+   "nit": "박하림"
   }
  }
 };
