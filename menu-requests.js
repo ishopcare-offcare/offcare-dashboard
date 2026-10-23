@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4088,
- "updatedAt": "2026-10-23 18:06",
+ "version": 4089,
+ "updatedAt": "2026-10-23 18:09",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,241 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261023_152359.jpg",
+     "fid": "F0CBJ5E2LNS",
+     "from": "댓글",
+     "path": "menu-files/1792746318_168559-0.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261023_152422.jpg",
+     "fid": "F0CBER03877",
+     "from": "댓글",
+     "path": "menu-files/1792746318_168559-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "맑은탕",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "상쾌",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "통유부",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "콘소세지",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "순한맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "사각어묵",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "메추리알",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "중간맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "문어피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "땅콩X",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "오징어피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "강한맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "샌드위치",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "소고기",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "유부주머니",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "벌집모양유부",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "양고기",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "소고기 할인",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "면류",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "심게알피쉬볼",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261023_152434.jpg",
+     "fid": "F0CBDSX302X",
+     "from": "댓글",
+     "path": "menu-files/1792746318_168559-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료/주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "중국음료",
+       "price": 3500
+      },
+      {
+       "category": "음료/주류",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "음료/주류",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "음료/주류",
+       "name": "중국맥주",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261023_152429.jpg",
+     "fid": "F0CBEQYKXHT",
+     "from": "댓글",
+     "path": "menu-files/1792746318_168559-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "차돌삼겹",
+       "price": 12000
+      },
+      {
+       "category": "사이드",
+       "name": "마늘새우",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "계란볶음밥",
+       "price": 7000
+      },
+      {
+       "category": "사이드",
+       "name": "옛날소시지",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "쫄면튀김",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "판만두튀김",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "타코야끼",
+       "price": 4900
+      },
+      {
+       "category": "사이드",
+       "name": "새우브리또",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792746321.263249",
+   "rc": 2,
+   "lr": "1792746497.190049",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -47,8 +277,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1792745962.250019",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "고경림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792745951821409"
   },
   {
