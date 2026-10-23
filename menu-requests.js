@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4066,
- "updatedAt": "2026-10-23 15:27",
+ "version": 4067,
+ "updatedAt": "2026-10-23 15:28",
  "days": 30,
  "items": [
   {
@@ -18,12 +18,205 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "20261023_152508.jpg",
+     "fid": "F0CBDEZKVQD",
+     "from": "댓글",
+     "path": "menu-files/1792736771_458469-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "술녀왔습니다",
+       "name": "술녀보쌈",
+       "price": 40000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "통삼겹 김치찌개",
+       "price": 32000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "광어 묵은지말이",
+       "price": 36000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "해물 쫄순두부",
+       "price": 28000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "메로구이",
+       "price": 36000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "제육 두부김치",
+       "price": 28000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "매콤 해물볶음면",
+       "price": 28000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "명란 아보카도",
+       "price": 28000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "오삼불고기",
+       "price": 30000
+      },
+      {
+       "category": "술녀왔습니다",
+       "name": "차돌숙주볶음",
+       "price": 28000
+      },
+      {
+       "category": "오늘 날씨 전 같네",
+       "name": "미나리 새우전",
+       "price": 30000
+      },
+      {
+       "category": "오늘 날씨 전 같네",
+       "name": "치즈 감자전",
+       "price": 28000
+      },
+      {
+       "category": "오늘 날씨 전 같네",
+       "name": "리얼 새우전",
+       "price": 30000
+      },
+      {
+       "category": "오늘 날씨 전 같네",
+       "name": "코리아 김치전",
+       "price": 28000
+      },
+      {
+       "category": "오늘 날씨 전 같네",
+       "name": "해물 오꼬전",
+       "price": 28000
+      },
+      {
+       "category": "탕이오",
+       "name": "차돌 샤브전골",
+       "price": 33000
+      },
+      {
+       "category": "탕이오",
+       "name": "백합탕",
+       "price": 28000
+      },
+      {
+       "category": "탕이오",
+       "name": "간사이 어묵탕",
+       "price": 28000
+      },
+      {
+       "category": "탕이오",
+       "name": "술녀 부대찌개",
+       "price": 29000
+      },
+      {
+       "category": "탕이오",
+       "name": "얼큰 짬뽕탕",
+       "price": 28000
+      },
+      {
+       "category": "탕이오",
+       "name": "김치우동전골",
+       "price": 28000
+      },
+      {
+       "category": "구이",
+       "name": "메로구이",
+       "price": 36000
+      },
+      {
+       "category": "구이",
+       "name": "시사모구이",
+       "price": 20000
+      },
+      {
+       "category": "구이",
+       "name": "고등어구이",
+       "price": 20000
+      },
+      {
+       "category": "구이",
+       "name": "먹태",
+       "price": 18000
+      },
+      {
+       "category": "튀김",
+       "name": "모둠감자튀김",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "치킨 가라아게",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "굴튀김",
+       "price": 20000
+      },
+      {
+       "category": "튀김",
+       "name": "모둠튀김",
+       "price": 25000
+      },
+      {
+       "category": "사이드",
+       "name": "스팸후라이",
+       "price": 18000
+      },
+      {
+       "category": "사이드",
+       "name": "왕계란말이",
+       "price": 18000
+      },
+      {
+       "category": "사이드",
+       "name": "김치볶음밥",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "오므라이스",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "해물라면",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "짜계치",
+       "price": 10000
+      },
+      {
+       "category": "특별메뉴",
+       "name": "술녀카세 (1인)",
+       "price": 40000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
+   "replies": [
+    "지워진 메뉴까지 등록부탁드립니다~"
+   ],
    "rc": 2,
    "lr": "1792736794.283219",
-   "rfx": 0,
+   "rfx": 3,
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792736771458469"
@@ -687,7 +880,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261022_212248.jpeg.jpg",
      "fid": "F0CBL4KEMQ9",
      "from": "댓글",
-     "path": "menu-files/1792732235_620339-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -721,13 +913,13 @@ window.MENU_REQUESTS = {
        "price": 10900
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792732235_620339-0.jpg"
     },
     {
      "name": "Resized_20261022_212331.jpeg.jpg",
      "fid": "F0CBMU1FZUL",
      "from": "댓글",
-     "path": "menu-files/1792732235_620339-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -806,15 +998,16 @@ window.MENU_REQUESTS = {
        "price": 1500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792732235_620339-1.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792732248.336769",
+   "rc": 3,
+   "lr": "1792736898.417989",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792732235620339"
   },
