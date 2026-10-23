@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4040,
- "updatedAt": "2026-10-23 10:48",
+ "version": 4041,
+ "updatedAt": "2026-10-23 10:49",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,137 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261022_175829.jpg",
+     "fid": "F0CBATK7Z6X",
+     "from": "댓글",
+     "path": "menu-files/1792720037_471619-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "닭발",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "닭발2인분",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "무뼈닭발",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "똥집(매운맛)",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "똥집(기름)",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "닭도리탕",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "오돌뼈",
+       "price": 17000
+      },
+      {
+       "category": "메뉴",
+       "name": "계란찜",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "주먹밥",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "떡사리",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "볶음밥",
+       "price": 2500
+      },
+      {
+       "category": "메뉴",
+       "name": "콩나물",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "쿨피스",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "메뉴",
+       "name": "산사춘 백세주",
+       "price": 9000
+      },
+      {
+       "category": "메뉴",
+       "name": "매취순 복분자주",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "매취순",
+       "price": 13000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792720041.346349",
+   "rc": 2,
+   "lr": "1792720115.425179",
    "rfx": 3,
    "status": "wait",
    "handler": null,
