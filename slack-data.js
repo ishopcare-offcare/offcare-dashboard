@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24524,
+  "version": 24525,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276392,14 +276392,14 @@ window.SLACK_DATA = {
     },
     "2026-10-23": {
       "counts": {
+        "as": {
+          "고경림": 2
+        },
         "onboarding": {
           "심성현": 1
         },
         "nosetup": {
           "심성현": 1
-        },
-        "as": {
-          "고경림": 1
         },
         "transfer": {
           "김동욱": 1
@@ -276410,6 +276410,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:31",
+          "store": "멜번커피하우스",
+          "biz": "15408*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "대형 키오스크 전원 버튼이 눌리지 않아 확인 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:16",
           "store": "플로아",
@@ -276472,7 +276483,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -376126,7 +376137,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:33",
+    "at": "2026-10-23 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376263,7 +376274,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:33",
+    "at": "2026-10-23 09:34",
     "pri": {
       "days": 0,
       "failed": [],
