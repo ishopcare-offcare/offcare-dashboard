@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24526,
+  "version": 24527,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276444,8 +276444,8 @@ window.SLACK_DATA = {
           "req": "유선프린터 온보딩 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "가결제도 필요 / co팀 토페 등록 확ㅇ인중",
-          "rr": 2
+          "note": "가결제도 필요 / co팀 토페 등록 확ㅇ인중 / 유프 연결 완료 / 프론트가 자동적으로 com1 유선연결로 붙어서 프론트 유프 연결 불가 / usb 방식으로 프린터 연결",
+          "rr": 3
         },
         {
           "time": "09:15",
@@ -376151,7 +376151,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:38",
+    "at": "2026-10-23 09:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376288,7 +376288,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:38",
+    "at": "2026-10-23 09:39",
     "pri": {
       "days": 0,
       "failed": [],
