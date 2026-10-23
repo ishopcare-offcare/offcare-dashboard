@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24520,
+  "version": 24521,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276392,6 +276392,9 @@ window.SLACK_DATA = {
     },
     "2026-10-23": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "nosetup": {
           "심성현": 1
         },
@@ -276407,6 +276410,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:16",
+          "store": "플로아",
+          "biz": "87293*****",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "포프유프 (PC) 온보딩중 프린터기 유선연결이 어렵다고하시어 도움 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 출력 테스트 완료",
+          "rr": 1
+        },
         {
           "time": "09:15",
           "store": "논개양조장",
@@ -276457,7 +276472,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -276592,13 +276607,6 @@ window.SLACK_DATA = {
       "1792681292.472849": {
         "post": "1792681292.472849",
         "lastSeen": 1792700126.849
-      },
-      "1792714598.038869": {
-        "post": "1792714598.038869",
-        "lastSeen": 1792715122.262,
-        "r": 1,
-        "day": "2026-10-23",
-        "idx": 1
       }
     },
     "days": {
@@ -376110,14 +376118,15 @@ window.SLACK_DATA = {
             "store": "플로아",
             "biz": "87293*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 9.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:25",
+    "at": "2026-10-23 09:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376254,7 +376263,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:25",
+    "at": "2026-10-23 09:26",
     "pri": {
       "days": 0,
       "failed": [],
