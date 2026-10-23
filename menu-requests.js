@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4061,
- "updatedAt": "2026-10-23 14:48",
+ "version": 4062,
+ "updatedAt": "2026-10-23 14:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1792735101.175969",
+   "date": "2026-10-23",
+   "time": "14:58",
+   "store": "블리스버거 대천해수욕장점",
+   "biz": "65121*****",
+   "pos": "",
+   "content": "세트 메뉴에 옵션이 있으나, 단품 메뉴에는 옵션이 없음. 세트메뉴와 동일하게 *단품 메뉴에도 옵션 일괄* 적용 요청.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792735104.620089",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792735101175969"
+  },
   {
    "ts": "1792734487.192459",
    "date": "2026-10-23",
