@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24525,
+  "version": 24526,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276393,7 +276393,8 @@ window.SLACK_DATA = {
     "2026-10-23": {
       "counts": {
         "as": {
-          "고경림": 2
+          "고경림": 2,
+          "김현기": 1
         },
         "onboarding": {
           "심성현": 1
@@ -276419,7 +276420,8 @@ window.SLACK_DATA = {
           "req": "대형 키오스크 전원 버튼이 눌리지 않아 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "키오스크 내부 멀티탭 전원 껏다 킨후 정상작동확인완료",
+          "rr": 1
         },
         {
           "time": "09:16",
@@ -276432,6 +276434,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "온보딩 출력 테스트 완료",
           "rr": 1
+        },
+        {
+          "time": "09:16",
+          "store": "카페까살",
+          "biz": "89355*****",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "유선프린터 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "가결제도 필요 / co팀 토페 등록 확ㅇ인중",
+          "rr": 2
         },
         {
           "time": "09:15",
@@ -276483,7 +276497,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
@@ -376137,7 +376151,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:34",
+    "at": "2026-10-23 09:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376274,7 +376288,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:34",
+    "at": "2026-10-23 09:38",
     "pri": {
       "days": 0,
       "failed": [],
