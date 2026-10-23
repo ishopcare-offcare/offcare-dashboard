@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24534,
+  "version": 24535,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276406,7 +276406,7 @@ window.SLACK_DATA = {
     "2026-10-23": {
       "counts": {
         "as": {
-          "고경림": 3,
+          "고경림": 4,
           "김현기": 1
         },
         "onboarding": {
@@ -276424,6 +276424,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:48",
+          "store": "예담호두",
+          "biz": "68031*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "POS8385 유선프린터 / 용지를 바꾼 후 걸려서 갑자기 안 나온다고하시어 점검 부탁드립니다 (방향 변경도 해보았으나 동일하게 걸려서 안 나오는거같다고하십니다)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:42",
           "store": "법무법인 피앤엘",
@@ -276522,7 +276533,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 1,
         "unknown": 0
       },
@@ -276660,21 +276671,14 @@ window.SLACK_DATA = {
       },
       "1792716237.687949": {
         "post": "1792716237.687949",
-        "lastSeen": 1792716700.661
+        "lastSeen": 1792716767.728
       },
       "1792716301.062459": {
         "post": "1792716301.062459",
-        "lastSeen": 1792716700.661,
+        "lastSeen": 1792716767.728,
         "r": 1,
         "day": "2026-10-23",
         "idx": 3
-      },
-      "1792716523.394169": {
-        "post": "1792716523.394169",
-        "lastSeen": 1792716700.661,
-        "r": 1,
-        "day": "2026-10-23",
-        "idx": 2
       }
     },
     "days": {
@@ -376195,7 +376199,8 @@ window.SLACK_DATA = {
             "store": "예담호두",
             "biz": "68031*****",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.5
           },
           {
             "hm": "09:45",
@@ -376210,13 +376215,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:51",
+    "at": "2026-10-23 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4719,
+    "rows": 4720,
     "named": 1245,
     "unknownName": 160,
     "beforeStart": 0,
@@ -376347,7 +376352,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:51",
+    "at": "2026-10-23 09:52",
     "pri": {
       "days": 0,
       "failed": [],
