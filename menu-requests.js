@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4094,
- "updatedAt": "2026-10-23 18:34",
+ "version": 4095,
+ "updatedAt": "2026-10-23 18:37",
  "days": 30,
  "items": [
   {
@@ -544,10 +544,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "메뉴추가 합니다\n계절메뉴\n대하구이 30,000원\n\n식사\n양푼비빔밥+된장찌개\n(2인이상) 11,000원 추가해주세요"
+    "메뉴추가 합니다\n계절메뉴\n대하구이 30,000원\n\n식사\n양푼비빔밥+된장찌개\n(2인이상) 11,000원 추가해주세요",
+    "님 안녕하세요.\n양푼비빔밥+된장찌개가 없다고 하시는데 확인 가능할까요..?"
    ],
-   "rc": 3,
-   "lr": "1792747862.089239",
+   "rc": 4,
+   "lr": "1792748174.876339",
    "rfx": 3,
    "status": "done",
    "handler": "고경림",
