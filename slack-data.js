@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24678,
+  "version": 24679,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -277257,7 +277257,7 @@ window.SLACK_DATA = {
         "offline": 16,
         "unknown": 0
       },
-      "updatedAt": "12:55",
+      "updatedAt": "12:56",
       "voc": {
         "responses": 1,
         "install": {
@@ -277439,25 +277439,25 @@ window.SLACK_DATA = {
       },
       "1792716237.687949": {
         "post": "1792716237.687949",
-        "lastSeen": 1792727797.278
+        "lastSeen": 1792727866.766
       },
       "1792717215.025379": {
         "post": "1792717215.025379",
-        "lastSeen": 1792727797.278,
+        "lastSeen": 1792727866.766,
         "r": 1,
         "day": "2026-10-23",
         "idx": 10
       },
       "1792719504.814539": {
         "post": "1792719504.814539",
-        "lastSeen": 1792727797.278,
+        "lastSeen": 1792727866.766,
         "r": 1,
         "day": "2026-10-23",
         "idx": 18
       },
       "1792720800.693139": {
         "post": "1792720800.693139",
-        "lastSeen": 1792727797.278,
+        "lastSeen": 1792727866.766,
         "r": 1,
         "day": "2026-10-23",
         "idx": 27
@@ -277468,7 +277468,11 @@ window.SLACK_DATA = {
       },
       "1792727746.411799": {
         "post": "1792727746.411799",
-        "lastSeen": 1792727797.278
+        "lastSeen": 1792727866.766
+      },
+      "1792727808.406499": {
+        "post": "1792727808.406499",
+        "lastSeen": 1792727866.766
       }
     },
     "days": {
@@ -377479,13 +377483,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 12:56",
+    "at": "2026-10-23 12:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4727,
+    "rows": 4728,
     "named": 1245,
     "unknownName": 161,
     "beforeStart": 0,
@@ -377616,7 +377620,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 12:56",
+    "at": "2026-10-23 12:57",
     "pri": {
       "days": 0,
       "failed": [],
