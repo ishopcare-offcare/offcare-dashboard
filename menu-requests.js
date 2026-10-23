@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4044,
- "updatedAt": "2026-10-23 11:18",
+ "version": 4045,
+ "updatedAt": "2026-10-23 11:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1792722006.362549",
+   "date": "2026-10-23",
+   "time": "11:20",
+   "store": "압구정찌개마을",
+   "biz": "36714*****",
+   "pos": "퍼스트포스",
+   "content": "퍼스트포스 사용 중 / 메뉴 삭제 및 키 순서 변경 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792722009.722789",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792722006362549"
+  },
   {
    "ts": "1792721011.743479",
    "date": "2026-10-23",
@@ -191,8 +212,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "만두국 12000 원\n얼큰 만두국 13000 원\n비빔냉면 10000 원\n비빔냉면 곱뺴기는 12000 원"
    ],
-   "rc": 2,
-   "lr": "1792719106.436409",
+   "rc": 3,
+   "lr": "1792722008.012089",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
