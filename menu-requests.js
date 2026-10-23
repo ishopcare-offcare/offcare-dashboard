@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4067,
- "updatedAt": "2026-10-23 15:28",
+ "version": 4068,
+ "updatedAt": "2026-10-23 15:30",
  "days": 30,
  "items": [
   {
@@ -857,11 +857,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "• 옵션 설정 \n사이즈업 ( 라떼 종류 ) : +1.500원\n아메리카노, 디카페인 아메리카노, 연아메리카노 : +1,000원\n\n아이스 : +200원\n카페라떼 : +100원\n\n아래의 메뉴는 아이스, 핫 금액 변경 없이 동일\n\n에스프레소\n아메리카노 연아메리카노\n연라떼\n디카페인아메리카노\n디카페인라떼\n옥수수라떼\n흑임자라떼\n버터스카치라떼\n\n아래의 카테고리는 금액 변경 옵션 없이 모두 동일\n라떼\n에이드\n스무디쉐이크\n전부다 가격동일"
    ],
-   "rc": 2,
-   "lr": "1792734267.434539",
+   "rc": 3,
+   "lr": "1792737010.614979",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792733683173999"
   },
   {
