@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4086,
- "updatedAt": "2026-10-23 17:33",
+ "version": 4087,
+ "updatedAt": "2026-10-23 17:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1792745951.821409",
+   "date": "2026-10-23",
+   "time": "17:59",
+   "store": "마포갈비92",
+   "biz": "13326*****",
+   "pos": "",
+   "content": "메뉴 수정 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "메뉴추가 합니다\n계절메뉴\n대하구이 30,000원\n\n식사\n양푼비빔밥+된장찌개\n(2인이상) 11,000원 추가해주세요"
+   ],
+   "rc": 2,
+   "lr": "1792745962.250019",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792745951821409"
+  },
   {
    "ts": "1792742066.527769",
    "date": "2026-10-23",
