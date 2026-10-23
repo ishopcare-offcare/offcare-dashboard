@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4041,
- "updatedAt": "2026-10-23 10:49",
+ "version": 4042,
+ "updatedAt": "2026-10-23 11:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1792721011.743479",
+   "date": "2026-10-23",
+   "time": "11:03",
+   "store": "강창구찹쌀진순대 양재역점",
+   "biz": "54456*****",
+   "pos": "",
+   "content": "아직 패스오더에서 가격 변동이 안되어 있다고 함. *모든 메뉴에 정식 추가 > 상품 옵션 5천원을 모두 7천원*으로 일괄 변경 요청.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792721015.099079",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792721011743479"
+  },
   {
    "ts": "1792720037.471619",
    "date": "2026-10-23",
