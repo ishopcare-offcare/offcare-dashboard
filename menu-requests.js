@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4048,
- "updatedAt": "2026-10-23 12:27",
+ "version": 4049,
+ "updatedAt": "2026-10-23 12:38",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "1. 등갈비 대 37,000원 삭제\n2. 등갈비 47,000원 삭제\n==\n등갈비 대 47,000원을 등갈비 김치찜 중자 오른쪽에 옮기고싶다고 하셨습니다!\n\n추가로 혹시 포스기 화면에서 대표님이 직접 수정 하는 방법이 궁금하다고 하시는데, 경로 간단히 알 수 있을까요..?"
    ],
-   "rc": 2,
-   "lr": "1792722149.505949",
+   "rc": 3,
+   "lr": "1792726699.364999",
    "rfx": 3,
    "status": "wait",
    "handler": null,
