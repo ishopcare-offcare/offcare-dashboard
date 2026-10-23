@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-10-20 15:05 KST
+ *  갱신: 2026-10-23 11:39 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-10-20 15:05',
+  updatedAt : '2026-10-23 11:39',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -33,5 +33,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-10-20","time":"08:53","store":"컴포즈커피 성수코리아IT점","branch":"성수코리아IT점","biz":"52181*****","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"와플 메뉴 6개 추가하였으나 주방 출력안됨.","note":""},
     {"date":"2026-10-20","time":"08:53","store":"컴포즈커피 HD올림픽 셀프주유소점","branch":"HD올림픽 셀프주유소점","biz":"52181*****","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"와플 메뉴 6개 추가하였으나 주방 출력안됨.","note":""},
     {"date":"2026-10-20","time":"08:53","store":"컴포즈커피 수원인계점","branch":"수원인계점","biz":"52181*****","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"와플 메뉴 6개 추가하였으나 주방 출력안됨.","note":""},
+    {"date":"2026-10-23","time":"10:38","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"52181*****","cat":"as","emp":"김동욱","intake":"online","status":"pending","req":"확인 후 미완료","note":""},
   ],
 };
