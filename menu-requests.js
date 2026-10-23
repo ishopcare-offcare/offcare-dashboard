@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4051,
- "updatedAt": "2026-10-23 12:57",
+ "version": 4052,
+ "updatedAt": "2026-10-23 13:04",
  "days": 30,
  "items": [
   {
@@ -60416,48 +60416,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "고경림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790137763132519"
-  },
-  {
-   "ts": "1790136247.556579",
-   "date": "2026-09-23",
-   "time": "13:04",
-   "store": "어디피자 안산점",
-   "biz": "77557*****",
-   "pos": "",
-   "content": "메뉴등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "어디피자_동대문본점_배달_메뉴_20260922_222915.csv",
-     "fid": "F0C3V8EU2RF",
-     "from": "댓글",
-     "path": "menu-files/1790136247_556579-0.csv",
-     "nj": 1
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C3NQE205B",
-     "from": "댓글",
-     "path": "menu-files/1790136247_556579-1.png",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "이미지는 나중에 하기로",
-    "옵션지옥",
-    "세트상품에 정확히 어떤 옵션이 들어가야하는지 잘 모르셔서 본사미팅때 물어보고 재접수 예정 / 메뉴, 사이드, 옵션은 등록 완료된 상태",
-    "이미지는 느낌대로 넣어보기로..."
-   ],
-   "rc": 6,
-   "lr": "1790142666.172839",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790136247556579"
   }
  ],
  "ocr": {
