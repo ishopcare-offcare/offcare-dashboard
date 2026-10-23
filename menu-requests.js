@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4057,
- "updatedAt": "2026-10-23 14:21",
+ "version": 4058,
+ "updatedAt": "2026-10-23 14:29",
  "days": 30,
  "items": [
   {
@@ -59988,30 +59988,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790144213515159"
-  },
-  {
-   "ts": "1790141297.045979",
-   "date": "2026-09-23",
-   "time": "14:28",
-   "store": "카페 첼로",
-   "biz": "25612*****",
-   "pos": "",
-   "content": "다우 VAN꺼 섹터나인으로 토플파 복제",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "냅둬유 내가할게염",
-    "아래꺼 ㄱ"
-   ],
-   "rc": 3,
-   "lr": "1790145583.327659",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790141297045979"
   }
  ],
  "ocr": {
