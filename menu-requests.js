@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4100,
- "updatedAt": "2026-10-23 18:47",
+ "version": 4101,
+ "updatedAt": "2026-10-23 18:48",
  "days": 30,
  "items": [
   {
@@ -562,7 +562,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CBL7QELKC",
      "from": "댓글",
-     "path": "menu-files/1792745951_821409-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -631,17 +630,19 @@ window.MENU_REQUESTS = {
        "price": 11000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792745951_821409-0.png"
     }
    ],
    "datt": [],
    "replies": [
     "메뉴추가 합니다\n계절메뉴\n대하구이 30,000원\n\n식사\n양푼비빔밥+된장찌개\n(2인이상) 11,000원 추가해주세요",
     "님 안녕하세요.\n양푼비빔밥+된장찌개가 없다고 하시는데 확인 가능할까요..?",
-    "경림님 퇴근하신듯하여 대신 확인 부탁드릴 수 있을까요?"
+    "경림님 퇴근하신듯하여 대신 확인 부탁드릴 수 있을까요?",
+    "감사합니다!"
    ],
-   "rc": 9,
-   "lr": "1792748801.448409",
+   "rc": 10,
+   "lr": "1792748857.083639",
    "rfx": 3,
    "status": "done",
    "handler": "고경림",
