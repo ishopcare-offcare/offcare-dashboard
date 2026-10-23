@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4060,
- "updatedAt": "2026-10-23 14:45",
+ "version": 4061,
+ "updatedAt": "2026-10-23 14:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1792734487.192459",
+   "date": "2026-10-23",
+   "time": "14:48",
+   "store": "바다향기",
+   "biz": "38404*****",
+   "pos": "",
+   "content": "유플러스 메뉴 추가 부탁 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "화요 옆에 레몬슬라이스 1000원 추가"
+   ],
+   "rc": 2,
+   "lr": "1792734493.310249",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792734487192459"
+  },
   {
    "ts": "1792733683.173999",
    "date": "2026-10-23",
