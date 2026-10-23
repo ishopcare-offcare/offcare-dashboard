@@ -3,10 +3,74 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4101,
- "updatedAt": "2026-10-23 18:48",
+ "version": 4102,
+ "updatedAt": "2026-10-23 19:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1792749658.871539",
+   "date": "2026-10-23",
+   "time": "19:00",
+   "store": "고모카세",
+   "biz": "67109*****",
+   "pos": "스파로스포스",
+   "content": "스파로스) 메뉴 등록 요청 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBLBGGHR8",
+     "from": "댓글",
+     "path": "menu-files/1792749658_871539-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "육회 + 육사시미 + 연어 + 텐사우 + 날치알",
+       "price": 49000
+      },
+      {
+       "category": "",
+       "name": "육회 + 육사시미 + 연어 + 텐사우",
+       "price": 39000
+      },
+      {
+       "category": "",
+       "name": "육회 + 육사시미 + 연어사시미",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "육회 + 육사시미",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "육회 + 연어사시미",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "연어사시미 + 텐사우",
+       "price": 28000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "사진 상 중앙에 있는 부분\n\n+\n\n사이드 메뉴에\n김추가      500\n야채추가  2.000"
+   ],
+   "rc": 2,
+   "lr": "1792749672.944629",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792749658871539"
+  },
   {
    "ts": "1792748016.091569",
    "date": "2026-10-23",
