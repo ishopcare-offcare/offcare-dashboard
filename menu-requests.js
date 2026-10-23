@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4085,
- "updatedAt": "2026-10-23 17:28",
+ "version": 4086,
+ "updatedAt": "2026-10-23 17:33",
  "days": 30,
  "items": [
   {
@@ -59468,30 +59468,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790222973279209"
-  },
-  {
-   "ts": "1790152424.397739",
-   "date": "2026-09-23",
-   "time": "17:33",
-   "store": "린푸드",
-   "biz": "61823*****",
-   "pos": "토스포스",
-   "content": "해물린짬뽕 왕갈비짬뽕 닭다리살튀김짬뽕 굴듬뿍린짬뽕 고구마튀김린짜장 카테고리 면에 넣어주시고\n짬뽕메뉴들은 옵션에 매운맛1단계 2단계 3단계 0단계 넣어주시고 모든메뉴에 곱빼기1000원 옵션도 넣어주세요\n카테고리 밥에는 모든메뉴들앞에 (밥) 붙혀서 매운맛 단계만 옵션 넣어주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "저 지금 offpg 하는게 잇어서 아무나 부탁부탁",
-    "완"
-   ],
-   "rc": 2,
-   "lr": "1790153904.669009",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790152424397739"
   }
  ],
  "ocr": {
