@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4050,
- "updatedAt": "2026-10-23 12:50",
+ "version": 4051,
+ "updatedAt": "2026-10-23 12:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1792727808.406499",
+   "date": "2026-10-23",
+   "time": "12:56",
+   "store": "거절함: 컴포즈",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 거절함: 컴포즈 메뉴 공부 - 2026년 10월 23일 (금) 오후 2시 - 오후 4시 (GMT+9) (<mailto:···|···>)\n아이콘역삼-13-ICON 13.1 (10)님이 초대를 거부했습니다.\n \n 컴포즈 메뉴 공부\n 2026년 10월 23일 (금요일) ⋅ 오후 2시 – 오후 4시\n 한국 표준시 - 서울\n \n Google Meet으로 참여하기\n <https://meet.google.com/jpn-brgu-fhi?hs=224>\n \n \n \t\n 휴대전화로 참여하기\n (US) +1 920-605-5884\n PIN: 110907240\n \n 전화번호 더보기\n <https://tel.meet/jpn-brgu-fhi?pin=9686784980398&hs=0>\n \n \n 주최자\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a166e710bd6713b>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a166e710bd6713b",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792727808406499"
+  },
   {
    "ts": "1792722006.362549",
    "date": "2026-10-23",
