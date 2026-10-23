@@ -3,10 +3,586 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4062,
- "updatedAt": "2026-10-23 14:58",
+ "version": 4063,
+ "updatedAt": "2026-10-23 15:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1792735417.708939",
+   "date": "2026-10-23",
+   "time": "15:03",
+   "store": "땐서의순정",
+   "biz": "57816*****",
+   "pos": "토스포스",
+   "content": "전체등록",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1z4M18qSHaPkbwL5pmwCwBc_6SjTYZKCy/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1dFkOUVYReGW_rwsb2FHXA_e8OT7QOR5r/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1906aO276MXhEsQMW0FkDcnbt6047q6Cp/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Sdj__C5IkJel34HrJ73hC9j5PveNxWnz/view?usp=drivesdk",
+    "https://drive.google.com/file/d/14V2SiZ1ceoMOuCY7PdiggAjLboS5ylnJ/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1rhxxvvTM4FqM3-VLMgyMKRcH6PSRYHEg/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1LK4Bu8gFxYwREwP6PfypobcTH2TTCa9E/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1jlKv_v59BEd4svBq-piVbYEusymv6avm/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1z4M18qSHaPkbwL5pmwCwBc_6SjTYZKCy",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Red wine 레드 와인",
+       "name": "El Picaro, Tempranillo 엘 피카로, 템프라니뇨 Spain",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "El Recio, Tempranillo 엘 레시오, 템프라니뇨 Spain",
+       "price": 90
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "El Viejo, Tempranillo 엘 비에호, 템프라니뇨 Spain",
+       "price": 120
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Submisson, Cabernet Sauvignon 서브미션, 까쇼 USA",
+       "price": 70
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Tussok Jumper, Pinot Noir 투석 점퍼, 피노누아 | France",
+       "price": 70
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Mucho Mas, Rad 무쵸마스, 레드 | Spain",
+       "price": 70
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "COTES DU RHONE AOP, Prestige Le Serre- Vignerons Des 4 Chemi",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "19 Crimes, Syrah 19 크라임, 시라 | Australia",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Lapas Luna, Jinfandel 라파스 루나, 진판델 | USA",
+       "price": 90
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "COSTKERESDE NIVES AOP GALLICIAN-TERRESDES LAUNES 꼬스티에르 드 남 A",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "ALSACE, PINOT NOIR, Les Chais Saint Antoine 알자스 피노누아, 레 쉐 생트",
+       "price": 90
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "부르주아 ,샤또 라 피루엣뜨 (까베르네소비뇽50%,메르르로45%) | France",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Spellbound, Merlot 스펠바운드, 메를로 | USA",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Jean Balmont, Cabernet Sauvignon 장 발몽, 까쇼 | France",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Chateau mont-Perat 샤또 몽페라루즈 | France",
+       "price": 80
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1dFkOUVYReGW_rwsb2FHXA_e8OT7QOR5r",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Mucho Mas, White 무쵸마스화이트",
+       "price": 70
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Tussok Jumper, Chardonnay 투석 점퍼, 샤도네이",
+       "price": 70
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Marlborough Ridge, SauvignonBlanc 말보로릿지 소비뇽블랑",
+       "price": 70
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "BORDEAUX, AOP, CHATEAU LEG VENGNES 보르도 AOP 샤또 레 베르니유 (소미뇽블랑 ",
+       "price": 80
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Russian Jack, Sauvignon Blanc 러시안 잭 , 쇼비뇽블랑",
+       "price": 80
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Donnafugata Anthilia 돈나푸카타 안씰리아, 시칠리아",
+       "price": 90
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Kim Crawford, Sauvignon Blanc 킴 크로포드, 쇼비뇽블랑",
+       "price": 90
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Bread & Butter,Chardonnay 브래드 앤 버터, 샤도네이",
+       "price": 80
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "SAVOIE, CHARDONNAY AOP, Domaine Perrier 사보와 샤르도네AOP, 도멘 페리에 ",
+       "price": 100
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Au Bon Climat,Chardonnay 오봉 클리마, 샤도네이",
+       "price": 110
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "BOURGOGNE, MACON VILLAGE, Closerie Des Alisiers-Stephane Bro",
+       "price": 110
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Cloudy Bay, Sauvignon Blanc 클라우디 베이, 쇼비뇽블랑",
+       "price": 110
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Taken Chardonnay 테이큰 나파밸리 샤도네이",
+       "price": 110
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "LOIRE AOP POUILLY FUME, Domaine Carroy 루아르-푸이 퓌메, 도멘 캐로이 202",
+       "price": 120
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "PROVENCE, AOPCHATEAU PEYRASSOL 꼬뜨 드 프로방스 AOP, 샤또페이라솔 (롤 65%,",
+       "price": 140
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "Catena Alta, Chardonnay 까데나 알타, 샤도네이",
+       "price": 140
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "BOURGOGNE, CHABLIS, Closerie Des Alisiers-Stephane Brocart 2",
+       "price": 140
+      },
+      {
+       "category": "White Wine 화이트 와인",
+       "name": "BOURGOGNE, ST AUBIN 1er Cru Les Castets 부르고뉴, 생-오뱅, 프리미에 크뤼 ",
+       "price": 190
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1906aO276MXhEsQMW0FkDcnbt6047q6Cp",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Port Wine 포트 와인",
+       "name": "Kopke Fine Tawny 콥케 파인 타우니 |Portugal",
+       "price": 80
+      },
+      {
+       "category": "Port Wine 포트 와인",
+       "name": "Taylor's Fine Tawny Port 테일러스 파인 타우니 포트 Portugal",
+       "price": 80
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Louis Perdrier 루이페트리에|France",
+       "price": 70
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "PAUL DE COSTE BLANC DE BLANCS BRUT 파울드 코스트 블랑드 블랑 |France",
+       "price": 70
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "LOIRE, SPARKLING BRUT AOP, Domaine Des Herbauges-Luminiscenc",
+       "price": 80
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Grande Cuvee 1531 그랑꾸베 1531|France",
+       "price": 80
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "CREMANT DE BOURGOGNE, Paul Robin 크레망 드 부르고뉴, 폴 로빈 NV |France",
+       "price": 90
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Moet & Chandon 모엣샹동 |France",
+       "price": 150
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "CHAMPAGNE, BERNARD REMY BLANC DE BLANCS 샴페인, 베르나르 레미 블랑 드 블랑",
+       "price": 180
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Moet & Chandon Rose 모엣샹동 로제 |France",
+       "price": 170
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Perrier-Jouet 페리에 쥬에 France",
+       "price": 180
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Veuve Clicquot 뵈브 클리코 |France",
+       "price": 180
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Charles Heisieck 찰스 하이직 France",
+       "price": 200
+      },
+      {
+       "category": "Champagne 샴페인 & Cremant 크레망",
+       "name": "Dom Perignon 돔 페리뇽 |France",
+       "price": 600
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1Sdj__C5IkJel34HrJ73hC9j5PveNxWnz",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Cava & Brut 까바 & 브륏",
+       "name": "Jaume Serra Cava Brut 호메세라 까바 브륏 Spain",
+       "price": 70
+      },
+      {
+       "category": "Cava & Brut 까바 & 브륏",
+       "name": "Alenya Cava Brut 알레냐 까바 브륏 Spain",
+       "price": 80
+      },
+      {
+       "category": "Cava & Brut 까바 & 브륏",
+       "name": "Freixenet, Cordon Negro Cave Brut 프레시넷, 꼬든 네그로 까바 브륏 Spain",
+       "price": 80
+      },
+      {
+       "category": "Cava & Brut 까바 & 브륏",
+       "name": "Clos Montblanc, ProyectoCu4tro 클로 몽블랑 까바 브륏 Spain",
+       "price": 90
+      },
+      {
+       "category": "Cava & Brut 까바 & 브륏",
+       "name": "Roger Goulart Reserva 로저구라트 리제르바 Spain",
+       "price": 90
+      },
+      {
+       "category": "Sparkling Wine 스파클링 와인 & Mosca",
+       "name": "Villa Jolanda Moscato d'Asti 빌라 욜란다 모스카토다스티 Italy",
+       "price": 70
+      },
+      {
+       "category": "Sparkling Wine 스파클링 와인 & Mosca",
+       "name": "Toso Fiocco Di Vite Moscato d'Asti 토소 피오코 디비테 모스카토다스티 Italy",
+       "price": 70
+      },
+      {
+       "category": "Sparkling Wine 스파클링 와인 & Mosca",
+       "name": "Toso Fiocco Di Vite Brachetto 토소 피오코 디비테 브라케토 Italy",
+       "price": 70
+      },
+      {
+       "category": "Sparkling Wine 스파클링 와인 & Mosca",
+       "name": "Saracco Moscato d'Asti 시라코 모스카토다스티 Italy",
+       "price": 70
+      },
+      {
+       "category": "House Wine",
+       "name": "Red / White",
+       "price": 9
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "14V2SiZ1ceoMOuCY7PdiggAjLboS5ylnJ",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Whisky",
+       "name": "GLENFIDDICH12Y 그렌피딕12Y (SHOT)",
+       "price": 15
+      },
+      {
+       "category": "Whisky",
+       "name": "GLENFIDDICH12Y 그렌피딕12Y (BOTTLE)",
+       "price": 250
+      },
+      {
+       "category": "Whisky",
+       "name": "BALVENIE 12Y 발베니12Y (SHOT)",
+       "price": 17
+      },
+      {
+       "category": "Whisky",
+       "name": "BALVENIE 12Y 발베니12Y (BOTTLE)",
+       "price": 300
+      },
+      {
+       "category": "Whisky",
+       "name": "MACALLAN 12Y 맥칼란12Y (HIGHLAND) (SHOT)",
+       "price": 17
+      },
+      {
+       "category": "Whisky",
+       "name": "MACALLAN 12Y 맥칼란12Y (HIGHLAND) (BOTTLE)",
+       "price": 300
+      },
+      {
+       "category": "Whisky",
+       "name": "ROYAL SALUTE 21Y 로얄살루트 21Y (BOTTLE)",
+       "price": 650
+      },
+      {
+       "category": "Whisky",
+       "name": "JOHNLNIE WALKER BULE LABEL 조니워커블루라벨 (BOTTLE)",
+       "price": 700
+      },
+      {
+       "category": "Soju",
+       "name": "HWAYO 화요 25%",
+       "price": 60
+      },
+      {
+       "category": "Soju",
+       "name": "ILPUMJINRO 일품진로 25%",
+       "price": 60
+      },
+      {
+       "category": "Beer",
+       "name": "하이네켄/Heineken",
+       "price": 10
+      },
+      {
+       "category": "Beer",
+       "name": "블루문/Blue Moon",
+       "price": 10
+      },
+      {
+       "category": "Beer",
+       "name": "기네스/Guinness",
+       "price": 11
+      },
+      {
+       "category": "Beer",
+       "name": "클라우드/Kloud",
+       "price": 9
+      },
+      {
+       "category": "Beverage",
+       "name": "COFFEE(MOCA-POT) / TEA / SPARKLING WATER / SODA DRINK",
+       "price": 7
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1rhxxvvTM4FqM3-VLMgyMKRcH6PSRYHEg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Snack",
+       "name": "샤퀴테리 플래터 A / Charcuteric Flatter A",
+       "price": 40
+      },
+      {
+       "category": "Snack",
+       "name": "샤퀴테리 플래터 B / Charcuteric Flatter B",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "샤퀴테리 플래터 C / Charcuteric Flatter C (1인용)",
+       "price": 20
+      },
+      {
+       "category": "Snack",
+       "name": "마르게리따 피자 / Margherita Pizza",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "허니고르곤졸라 피자 / Honey Gorgonzola Pizza",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "과일 / Seasonal Fruit계절 / 3종류 과일 요거트",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "또띠아칩&살사/ Tortilla Chips & Salsa",
+       "price": 25
+      },
+      {
+       "category": "Snack",
+       "name": "로메인 시저 샐러드 / Romaine Caesar Salad",
+       "price": 25
+      },
+      {
+       "category": "Snack",
+       "name": "쥐포&땅콩 / Fish jerky & Peanut",
+       "price": 25
+      },
+      {
+       "category": "Snack",
+       "name": "왕딸기&건자두 / Kingsberry & Dried plums",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "크림 팬케익 & 요거트 / Redbean Cream Pancake, Yogurt",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "까망베르 치즈구이 / Roaster camembert cheese",
+       "price": 30
+      },
+      {
+       "category": "Snack",
+       "name": "토마토 마리네이드, 화이트 비네거&올리브, 크래커 / Tomato marinade with White Vin",
+       "price": 30
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1LK4Bu8gFxYwREwP6PfypobcTH2TTCa9E",
+     "kind": "other",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1jlKv_v59BEd4svBq-piVbYEusymv6avm",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Bread & Butter, Cabernet Sauvignon 브래드 앤 버터,피노 |USA",
+       "price": 80
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "샤또 라 네르프( 그루나슈 누아 60% 시라 33% 무르베드르7%)|France",
+       "price": 120
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "BORDEAUX AOP HAUT MEDOC , La Closerie De 9%Malescasse 보르도 오 ",
+       "price": 90
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Enemigo, Malbec 에네미고, 말벡|Argentina",
+       "price": 110
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Antigal, Uno Platinum Edition, Malbec안티갈, 우노 플래티넘 에디션, 말백 |A",
+       "price": 110
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Decoy, Cabernet Sauvignon 디코이, 까쇼USA",
+       "price": 110
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "샤또네프 뒤 파프 레 그라니에르, 샤또 라네뜨 2021(그르나슈 누아 40% 뺑소30% 시라20% 무루베드로",
+       "price": 210
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "ITALY DOCG TOSCANA, TENUTA CASENUOVECHIANTI – CLASSICO ANNAT",
+       "price": 110
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "BOURGOGNE HAUTES COTES DE NUITS RED, Domaine Fribourg 부르고뉴 피",
+       "price": 140
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Château Malescasse Haut MedocCRU BOURGEOIS 2017 보르도 오 메독, 샤또",
+       "price": 140
+      },
+      {
+       "category": "Red wine 레드 와인",
+       "name": "Le Margaux du Château de Malleret 보르도 마고, 르 마고 뒤 샤또 드 말르레 20",
+       "price": 210
+      },
+      {
+       "category": "Rose Wine 로제 와인",
+       "name": "Henkell Rose 헨켈, 로제 |Germany",
+       "price": 90
+      },
+      {
+       "category": "Rose Wine 로제 와인",
+       "name": "COTES DE PROVENCE AOP , Peyrassol Lou Rose 꼬뜨 드 프로방스AOP, 페이라",
+       "price": 90
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792735417708939"
+  },
   {
    "ts": "1792735101.175969",
    "date": "2026-10-23",
