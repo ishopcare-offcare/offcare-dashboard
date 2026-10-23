@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24530,
+  "version": 24531,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -273736,7 +273736,20 @@ window.SLACK_DATA = {
           "심성현": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "18:06",
+          "store": "고모카세",
+          "biz": "67109*****",
+          "handler": "심성현",
+          "cat": "menu",
+          "intake": "online",
+          "req": "스파로스 메뉴 삭제 및 추가, 가격 수정 부탁 드립니다!",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "23:39",
@@ -276210,7 +276223,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 179,
+        "online": 180,
         "offline": 31,
         "unknown": 0
       },
@@ -276501,7 +276514,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:43"
+      "updatedAt": "09:45"
     }
   },
   "resp": {
@@ -276635,7 +276648,11 @@ window.SLACK_DATA = {
       },
       "1792716237.687949": {
         "post": "1792716237.687949",
-        "lastSeen": 1792716266.242
+        "lastSeen": 1792716343.171
+      },
+      "1792716301.062459": {
+        "post": "1792716301.062459",
+        "lastSeen": 1792716343.171
       }
     },
     "days": {
@@ -376155,7 +376172,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:44",
+    "at": "2026-10-23 09:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376292,7 +376309,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:44",
+    "at": "2026-10-23 09:45",
     "pri": {
       "days": 0,
       "failed": [],
