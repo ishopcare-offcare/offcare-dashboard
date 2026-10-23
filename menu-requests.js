@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4090,
- "updatedAt": "2026-10-23 18:10",
+ "version": 4091,
+ "updatedAt": "2026-10-23 18:14",
  "days": 30,
  "items": [
   {
@@ -23,16 +23,15 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261023_152359.jpg",
      "fid": "F0CBJ5E2LNS",
      "from": "댓글",
-     "path": "menu-files/1792746318_168559-0.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792746318_168559-0.jpg"
     },
     {
      "name": "Resized_20261023_152422.jpg",
      "fid": "F0CBER03877",
      "from": "댓글",
-     "path": "menu-files/1792746318_168559-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -161,13 +160,13 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792746318_168559-1.jpg"
     },
     {
      "name": "Resized_20261023_152434.jpg",
      "fid": "F0CBDSX302X",
      "from": "댓글",
-     "path": "menu-files/1792746318_168559-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -196,13 +195,13 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1792746318_168559-2.jpg"
     },
     {
      "name": "Resized_20261023_152429.jpg",
      "fid": "F0CBEQYKXHT",
      "from": "댓글",
-     "path": "menu-files/1792746318_168559-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -246,13 +245,263 @@ window.MENU_REQUESTS = {
        "price": 3900
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792746318_168559-3.jpg"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBKV5NKD0",
+     "from": "댓글",
+     "path": "menu-files/1792746318_168559-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "맑은탕",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "상궈",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "통유부",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "콘소세지",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "순한맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "-",
+       "price": 500
+      },
+      {
+       "category": "메뉴",
+       "name": "-",
+       "price": 100
+      },
+      {
+       "category": "메뉴",
+       "name": "사각어묵",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "메추리알",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "중간맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "문어피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "땅콩X",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "오징어피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈피쉬",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "강한맛",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "샌드위치",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "새우",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "소고기",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "유부주머니",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "벌집모양유부",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "양고기",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "소고기 할인",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "면류",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "성게알피쉬볼",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBJ6DS5CN",
+     "from": "댓글",
+     "path": "menu-files/1792746318_168559-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "꿔바로우",
+       "price": 12000
+      },
+      {
+       "category": "사이드",
+       "name": "멘보샤",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "새우튀김2P",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "크림새우",
+       "price": 13000
+      },
+      {
+       "category": "사이드",
+       "name": "꽃빵튀김",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "새우튀김4P",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "계란볶음밥",
+       "price": 7000
+      },
+      {
+       "category": "사이드",
+       "name": "왕만두튀김",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "타코야끼",
+       "price": 4500
+      },
+      {
+       "category": "사이드",
+       "name": "유티아오 2p",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "헤시브라운",
+       "price": 3500
+      },
+      {
+       "category": "사이드",
+       "name": "유티아오 4p",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CB4PKKRLP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료/주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "중국음료",
+       "price": 3500
+      },
+      {
+       "category": "음료/주류",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "음료/주류",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "음료/주류",
+       "name": "중국맥주",
+       "price": 6500
+      }
+     ],
      "v": 2
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792746497.190049",
+   "rc": 3,
+   "lr": "1792746750.652329",
    "rfx": 3,
    "status": "confirm",
    "handler": "최민석",
