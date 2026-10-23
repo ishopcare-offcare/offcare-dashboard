@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24533,
+  "version": 24534,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276406,7 +276406,7 @@ window.SLACK_DATA = {
     "2026-10-23": {
       "counts": {
         "as": {
-          "고경림": 2,
+          "고경림": 3,
           "김현기": 1
         },
         "onboarding": {
@@ -276424,6 +276424,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:42",
+          "store": "법무법인 피앤엘",
+          "biz": "65186*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "유선프린터기 불량으로 새로 받으셨는데, 당시 같이 원격으로 설치 요청 받아서 연락 드렸으나 부재로 인입되었습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "유프 온보딩완료",
+          "rr": 1
+        },
         {
           "time": "09:31",
           "store": "멜번커피하우스",
@@ -276510,7 +276522,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 1,
         "unknown": 0
       },
@@ -276648,15 +276660,21 @@ window.SLACK_DATA = {
       },
       "1792716237.687949": {
         "post": "1792716237.687949",
-        "lastSeen": 1792716636.326
+        "lastSeen": 1792716700.661
       },
       "1792716301.062459": {
         "post": "1792716301.062459",
-        "lastSeen": 1792716636.326
+        "lastSeen": 1792716700.661,
+        "r": 1,
+        "day": "2026-10-23",
+        "idx": 3
       },
       "1792716523.394169": {
         "post": "1792716523.394169",
-        "lastSeen": 1792716636.326
+        "lastSeen": 1792716700.661,
+        "r": 1,
+        "day": "2026-10-23",
+        "idx": 2
       }
     },
     "days": {
@@ -376149,8 +376167,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-23": {
-        "cnt": 2,
-        "sumMin": 6.401924701531728,
+        "cnt": 4,
+        "sumMin": 14.944097566604615,
         "over": 0,
         "items": [
           {
@@ -376170,13 +376188,29 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "onboarding",
             "dmin": 9.4
+          },
+          {
+            "hm": "09:48",
+            "min": 2.4,
+            "store": "예담호두",
+            "biz": "68031*****",
+            "who": "고경림",
+            "cat": "as"
+          },
+          {
+            "hm": "09:45",
+            "min": 6.1,
+            "store": "보다푸드(BODA FOOD)",
+            "biz": "82604*****",
+            "who": "송태양",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:50",
+    "at": "2026-10-23 09:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376313,7 +376347,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:50",
+    "at": "2026-10-23 09:51",
     "pri": {
       "days": 0,
       "failed": [],
