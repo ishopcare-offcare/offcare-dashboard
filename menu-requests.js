@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4082,
- "updatedAt": "2026-10-23 16:46",
+ "version": 4083,
+ "updatedAt": "2026-10-23 16:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1792742066.527769",
+   "date": "2026-10-23",
+   "time": "16:54",
+   "store": "100카츠",
+   "biz": "10629*****",
+   "pos": "퍼스트포스",
+   "content": "등심2장더블셋트 15500원 >11000원으로 가격 변경",
+   "special": "바로 해주세요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "고경림",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792742066527769"
+  },
   {
    "ts": "1792736771.458469",
    "date": "2026-10-23",
