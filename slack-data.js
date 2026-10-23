@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24513,
+  "version": 24514,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -270415,7 +270415,7 @@ window.SLACK_DATA = {
           "박하림": 9,
           "심성현": 20,
           "김동욱": 16,
-          "김현기": 6
+          "김현기": 7
         },
         "nosetup": {
           "최민석": 4,
@@ -270470,20 +270470,7 @@ window.SLACK_DATA = {
           "심성현": 1
         }
       },
-      "pending": [
-        {
-          "time": "12:45",
-          "store": "카페범(CAFEBE:OM)",
-          "biz": "72904*****",
-          "handler": "김현기",
-          "cat": "as",
-          "intake": "online",
-          "req": "토스프론트 화면이 계속 지지직 거리면서 이상 현상 발생한다고 하십니다. 확인 부탁드립니다!",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "22:28",
@@ -272669,6 +272656,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "포프(태블릿) + 터미널 재온보딩완료",
+          "rr": 2
+        },
+        {
+          "time": "12:45",
+          "store": "카페범(CAFEBE:OM)",
+          "biz": "72904*****",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "토스프론트 화면이 계속 지지직 거리면서 이상 현상 발생한다고 하십니다. 확인 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "공초중 / 공초 후에도 화면 지지직 거림 대체품 출고",
           "rr": 2
         },
         {
@@ -376073,13 +376072,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:07",
+    "at": "2026-10-23 09:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4718,
+    "rows": 4719,
     "named": 1245,
     "unknownName": 160,
     "beforeStart": 0,
@@ -376210,7 +376209,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:06",
+    "at": "2026-10-23 09:08",
     "pri": {
       "days": 0,
       "failed": [],
