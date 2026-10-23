@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24518,
+  "version": 24519,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276395,6 +276395,9 @@ window.SLACK_DATA = {
         "nosetup": {
           "심성현": 1
         },
+        "as": {
+          "고경림": 1
+        },
         "transfer": {
           "김동욱": 1
         },
@@ -276415,6 +276418,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "1030 재예약 요청",
           "rr": 1
+        },
+        {
+          "time": "09:00",
+          "store": "우리끼리키즈카페 스포츠마을 삼봉점",
+          "biz": "39004*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "단말기 업데이트 지속 반복 / 점검 부탁드립니다:잔망루피꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
         },
         {
           "time": "08:45",
@@ -276443,7 +276457,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:16"
@@ -276580,7 +276594,7 @@ window.SLACK_DATA = {
       },
       "1792714598.038869": {
         "post": "1792714598.038869",
-        "lastSeen": 1792714738.968,
+        "lastSeen": 1792715035.921,
         "r": 1,
         "day": "2026-10-23",
         "idx": 1
@@ -376102,7 +376116,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:19",
+    "at": "2026-10-23 09:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376239,7 +376253,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:18",
+    "at": "2026-10-23 09:23",
     "pri": {
       "days": 0,
       "failed": [],
