@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4099,
- "updatedAt": "2026-10-23 18:44",
+ "version": 4100,
+ "updatedAt": "2026-10-23 18:47",
  "days": 30,
  "items": [
   {
@@ -557,15 +557,91 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBL7QELKC",
+     "from": "댓글",
+     "path": "menu-files/1792745951_821409-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "우거지해장국+솥밥",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "우거지갈비탕",
+       "price": 13000
+      },
+      {
+       "category": "식사",
+       "name": "뚝배기불고기+솥밥",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "갈비탕",
+       "price": 14000
+      },
+      {
+       "category": "식사",
+       "name": "차돌된장찌개+솥밥",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "삼계탕",
+       "price": 14000
+      },
+      {
+       "category": "식사",
+       "name": "흑임자 삼계탕",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "황태해장국",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "꼬막비빔밥",
+       "price": 12000
+      },
+      {
+       "category": "식사",
+       "name": "떡만두국",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "백반",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "버섯불고기전골",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "양푼비빔밥+된장찌게(2인이상)",
+       "price": 11000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "메뉴추가 합니다\n계절메뉴\n대하구이 30,000원\n\n식사\n양푼비빔밥+된장찌개\n(2인이상) 11,000원 추가해주세요",
     "님 안녕하세요.\n양푼비빔밥+된장찌개가 없다고 하시는데 확인 가능할까요..?",
     "경림님 퇴근하신듯하여 대신 확인 부탁드릴 수 있을까요?"
    ],
-   "rc": 7,
-   "lr": "1792748653.049069",
+   "rc": 9,
+   "lr": "1792748801.448409",
    "rfx": 3,
    "status": "done",
    "handler": "고경림",
