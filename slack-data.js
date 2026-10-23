@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 24535,
+  "version": 24536,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -276433,7 +276433,8 @@ window.SLACK_DATA = {
           "req": "POS8385 유선프린터 / 용지를 바꾼 후 걸려서 갑자기 안 나온다고하시어 점검 부탁드립니다 (방향 변경도 해보았으나 동일하게 걸려서 안 나오는거같다고하십니다)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프린터 용지 고정막대 제거안내후 정상출력완료",
+          "rr": 1
         },
         {
           "time": "09:42",
@@ -276537,7 +276538,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:48"
+      "updatedAt": "09:53"
     }
   },
   "resp": {
@@ -276671,14 +276672,18 @@ window.SLACK_DATA = {
       },
       "1792716237.687949": {
         "post": "1792716237.687949",
-        "lastSeen": 1792716767.728
+        "lastSeen": 1792716824.296
       },
       "1792716301.062459": {
         "post": "1792716301.062459",
-        "lastSeen": 1792716767.728,
+        "lastSeen": 1792716824.296,
         "r": 1,
         "day": "2026-10-23",
         "idx": 3
+      },
+      "1792716800.874799": {
+        "post": "1792716800.874799",
+        "lastSeen": 1792716824.296
       }
     },
     "days": {
@@ -376215,7 +376220,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-23 09:53",
+    "at": "2026-10-23 09:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -376352,7 +376357,7 @@ window.SLACK_DATA = {
     "2026-10-23": 2
   },
   "noteMig": {
-    "at": "2026-10-23 09:52",
+    "at": "2026-10-23 09:53",
     "pri": {
       "days": 0,
       "failed": [],
