@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4063,
- "updatedAt": "2026-10-23 15:06",
+ "version": 4064,
+ "updatedAt": "2026-10-23 15:17",
  "days": 30,
  "items": [
   {
@@ -60557,80 +60557,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790145256937759"
-  },
-  {
-   "ts": "1790144213.515159",
-   "date": "2026-09-23",
-   "time": "15:16",
-   "store": "라펠리시타(LaFelisita)",
-   "biz": "82809*****",
-   "pos": "",
-   "content": "메뉴등록 요청 / 아이스 +500원 추가 / 옵션말고 별도 상품으로 부탁드러요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "IMG_0363.jpg",
-     "fid": "F0C4NB0LLRW",
-     "from": "댓글",
-     "path": "menu-files/1790144213_515159-0.jpg",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "에스프레소",
-       "price": 6000
-      },
-      {
-       "category": "",
-       "name": "아메리카노",
-       "price": 6000
-      },
-      {
-       "category": "",
-       "name": "카페라떼",
-       "price": 6500
-      },
-      {
-       "category": "",
-       "name": "카푸치노",
-       "price": 6500
-      },
-      {
-       "category": "",
-       "name": "아포가토",
-       "price": 7000
-      },
-      {
-       "category": "",
-       "name": "허브티",
-       "price": 6000
-      },
-      {
-       "category": "",
-       "name": "마살라 차이",
-       "price": 7000
-      },
-      {
-       "category": "",
-       "name": "핫초콜렛",
-       "price": 7000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "사진대기중",
-    "아포가토 제외 나머지 전부 아이스 가능"
-   ],
-   "rc": 4,
-   "lr": "1790145073.006289",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790144213515159"
   }
  ],
  "ocr": {
