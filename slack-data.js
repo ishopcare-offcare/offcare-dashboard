@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25228,
+  "version": 25229,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,7 +279433,7 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
-          "서상원": 2,
+          "서상원": 3,
           "미지정": 5,
           "심성현": 21
         },
@@ -279467,6 +279467,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "15:38",
+          "store": "리본리페어",
+          "biz": "16662*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "터프 사용 중 연결끊김으로 인한 재온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "터프온보딩",
+          "rr": 1
+        },
         {
           "time": "15:36",
           "store": "라온헤어",
@@ -279965,19 +279977,19 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 39,
+        "online": 40,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:41",
+      "updatedAt": "15:52",
       "voc": {
-        "responses": 14,
+        "responses": 15,
         "install": {
           "count": 8,
           "low": 3
         },
         "nps": {
-          "count": 14,
+          "count": 15,
           "low": 3
         },
         "high": {
@@ -279990,7 +280002,7 @@ window.SLACK_DATA = {
           "2": 1,
           "7": 1,
           "8": 3,
-          "9": 1,
+          "9": 2,
           "10": 6
         },
         "installDist": {
@@ -280004,15 +280016,15 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 3,
+            "low": 0
+          },
           "구매설치": {
             "total": 8,
             "low": 3
           },
           "1개월": {
-            "total": 2,
-            "low": 0
-          },
-          "12개월": {
             "total": 2,
             "low": 0
           },
@@ -280022,6 +280034,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "KOCES": {
             "total": 6,
             "low": 1
@@ -280039,10 +280055,6 @@ window.SLACK_DATA = {
             "low": 1
           },
           "NICE": {
-            "total": 1,
-            "low": 0
-          },
-          "KIS": {
             "total": 1,
             "low": 0
           },
@@ -280325,7 +280337,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792824518.124,
+        "lastSeen": 1792824781.499,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280336,25 +280348,18 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792824518.124,
+        "lastSeen": 1792824781.499,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
       },
       "1792822847.576639": {
         "post": "1792822847.576639",
-        "lastSeen": 1792824518.124
-      },
-      "1792823929.774109": {
-        "post": "1792823929.774109",
-        "lastSeen": 1792824518.124,
-        "r": 1,
-        "day": "2026-10-24",
-        "idx": 38
+        "lastSeen": 1792824781.499
       },
       "1792824060.137159": {
         "post": "1792824060.137159",
-        "lastSeen": 1792824518.124
+        "lastSeen": 1792824781.499
       }
     },
     "days": {
@@ -382011,14 +382016,15 @@ window.SLACK_DATA = {
             "store": "리본리페어",
             "biz": "16662*****",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 12
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 15:48",
+    "at": "2026-10-24 15:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382156,7 +382162,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 15:48",
+    "at": "2026-10-24 15:53",
     "pri": {
       "days": 0,
       "failed": [],
