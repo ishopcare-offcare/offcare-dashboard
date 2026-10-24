@@ -3,10 +3,70 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4121,
- "updatedAt": "2026-10-24 13:36",
+ "version": 4122,
+ "updatedAt": "2026-10-24 13:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1792816653.660459",
+   "date": "2026-10-24",
+   "time": "13:37",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "매운부타동",
+   "drive": [
+    "https://drive.google.com/file/d/11BeQECmBH-tPphCEj6CuFFTq3wfqPHo0/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "11BeQECmBH-tPphCEj6CuFFTq3wfqPHo0",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792816653660459"
+  },
+  {
+   "ts": "1792816602.457079",
+   "date": "2026-10-24",
+   "time": "13:36",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "명란에그덮밥",
+   "drive": [
+    "https://drive.google.com/file/d/1WtLtrsvp3IsBqMRUhOQ42JPfk9-sk09q/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1WtLtrsvp3IsBqMRUhOQ42JPfk9-sk09q",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792816602457079"
+  },
   {
    "ts": "1792816558.534829",
    "date": "2026-10-24",
