@@ -3,10 +3,70 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4127,
- "updatedAt": "2026-10-24 13:49",
+ "version": 4128,
+ "updatedAt": "2026-10-24 13:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1792817663.877109",
+   "date": "2026-10-24",
+   "time": "13:54",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "해물카레나베",
+   "drive": [
+    "https://drive.google.com/file/d/1gRBwkK3fU0bSAcJL7SphUGlr_7Bh5KJI/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1gRBwkK3fU0bSAcJL7SphUGlr_7Bh5KJI",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792817663877109"
+  },
+  {
+   "ts": "1792817608.007969",
+   "date": "2026-10-24",
+   "time": "13:53",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "나가사키짬뽕",
+   "drive": [
+    "https://drive.google.com/file/d/1LxrpqG3eO9UQO94vd2yVDyOcWnb8i5_O/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1LxrpqG3eO9UQO94vd2yVDyOcWnb8i5_O",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792817608007969"
+  },
   {
    "ts": "1792817141.347909",
    "date": "2026-10-24",
