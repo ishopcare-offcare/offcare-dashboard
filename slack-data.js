@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25124,
+  "version": 25125,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279436,6 +279436,7 @@ window.SLACK_DATA = {
           "심성현": 15
         },
         "onboarding": {
+          "미지정": 1,
           "심성현": 1
         },
         "booking": {
@@ -279486,6 +279487,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "",
           "rr": 1
+        },
+        {
+          "time": "11:30",
+          "store": "De oro Nail(데오로네일)",
+          "biz": "21532*****",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "토스포스 상 프론트 내 마케팅 수신 동의 요청 화면이 나타나나 프론트에서 무반응 증상으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "11:17",
@@ -279680,7 +279692,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 2,
         "unknown": 0
       },
@@ -279903,19 +279915,15 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792810431.41
+        "lastSeen": 1792810556.864
       },
       "1792804249.479589": {
         "post": "1792804249.479589",
         "lastSeen": 1792805030.662
       },
-      "1792809001.016989": {
-        "post": "1792809001.016989",
-        "lastSeen": 1792810431.41
-      },
       "1792810123.491599": {
         "post": "1792810123.491599",
-        "lastSeen": 1792810431.41
+        "lastSeen": 1792810556.864
       }
     },
     "days": {
@@ -381222,8 +381230,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-24": {
-        "cnt": 15,
-        "sumMin": 167.095286266009,
+        "cnt": 16,
+        "sumMin": 191.9806197841962,
         "over": 1,
         "items": [
           {
@@ -381360,13 +381368,22 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "booking",
             "dmin": 33
+          },
+          {
+            "hm": "11:30",
+            "min": 24.9,
+            "store": "De oro Nail(데오로네일)",
+            "biz": "21532*****",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 24.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 11:54",
+    "at": "2026-10-24 11:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381504,7 +381521,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 11:53",
+    "at": "2026-10-24 11:55",
     "pri": {
       "days": 0,
       "failed": [],
