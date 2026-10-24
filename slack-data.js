@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25212,
+  "version": 25213,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,8 +279433,8 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
+          "미지정": 5,
           "서상원": 1,
-          "미지정": 4,
           "심성현": 21
         },
         "booking": {
@@ -279467,6 +279467,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "15:15",
+          "store": "티엠디자인(T.M. Design)",
+          "biz": "85825*****",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "터프 / 생산번호 불일치 문구 노출로 재온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "15:01",
           "store": "카페범(CAFEBE:OM)",
@@ -279942,11 +279953,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 37,
+        "online": 38,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:15",
+      "updatedAt": "15:20",
       "voc": {
         "responses": 8,
         "install": {
@@ -280243,7 +280254,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792822613.664,
+        "lastSeen": 1792822870.057,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280254,14 +280265,14 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792822613.664,
+        "lastSeen": 1792822870.057,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
       },
-      "1792822523.377199": {
-        "post": "1792822523.377199",
-        "lastSeen": 1792822613.664
+      "1792822847.576639": {
+        "post": "1792822847.576639",
+        "lastSeen": 1792822870.057
       }
     },
     "days": {
@@ -381568,8 +381579,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-24": {
-        "cnt": 36,
-        "sumMin": 903.6785049319268,
+        "cnt": 37,
+        "sumMin": 907.3198932806652,
         "over": 9,
         "items": [
           {
@@ -381893,13 +381904,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 4.9
+          },
+          {
+            "hm": "15:15",
+            "min": 3.6,
+            "store": "티엠디자인(T.M. Design)",
+            "biz": "85825*****",
+            "who": "",
+            "cat": "as",
+            "dmin": 3.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 15:17",
+    "at": "2026-10-24 15:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382037,7 +382057,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 15:16",
+    "at": "2026-10-24 15:21",
     "pri": {
       "days": 0,
       "failed": [],
