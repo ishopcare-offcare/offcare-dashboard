@@ -3,10 +3,160 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4135,
- "updatedAt": "2026-10-24 23:45",
+ "version": 4136,
+ "updatedAt": "2026-10-25 00:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1792853523.613209",
+   "date": "2026-10-24",
+   "time": "23:52",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "1인모츠나베완조리",
+   "drive": [
+    "https://drive.google.com/file/d/1ozm-ZOk5Zfwb1cLA45koWqonIdEx6YBv/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ozm-ZOk5Zfwb1cLA45koWqonIdEx6YBv",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792853523613209"
+  },
+  {
+   "ts": "1792853420.241369",
+   "date": "2026-10-24",
+   "time": "23:50",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "2인스키야키",
+   "drive": [
+    "https://drive.google.com/file/d/1wRrPteNgmSZCvdQKEOztu8DxJubHC5Hx/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1wRrPteNgmSZCvdQKEOztu8DxJubHC5Hx",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792853420241369"
+  },
+  {
+   "ts": "1792853309.001039",
+   "date": "2026-10-24",
+   "time": "23:48",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "1인스키야키완조리",
+   "drive": [
+    "https://drive.google.com/file/d/1OcX_5JSlSHpECP8M9-fMiI-kwtJvu6Dd/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1OcX_5JSlSHpECP8M9-fMiI-kwtJvu6Dd",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792853309001039"
+  },
+  {
+   "ts": "1792853222.347579",
+   "date": "2026-10-24",
+   "time": "23:47",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "아보카도씨앗젓갈",
+   "drive": [
+    "https://drive.google.com/file/d/111Y6RqHoipsoZGS5_4jsf3W_bPQQ0m61/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "111Y6RqHoipsoZGS5_4jsf3W_bPQQ0m61",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792853222347579"
+  },
+  {
+   "ts": "1792853175.436839",
+   "date": "2026-10-24",
+   "time": "23:46",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "대게내장덮밥",
+   "drive": [
+    "https://drive.google.com/file/d/1t3HwELiMvUfBLWQCOmkrxQqil9K5otrp/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1t3HwELiMvUfBLWQCOmkrxQqil9K5otrp",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792853175436839"
+  },
   {
    "ts": "1792853029.036479",
    "date": "2026-10-24",
