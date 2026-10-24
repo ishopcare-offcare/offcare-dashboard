@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25209,
+  "version": 25210,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,6 +279433,7 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
+          "서상원": 1,
           "미지정": 4,
           "심성현": 21
         },
@@ -279466,6 +279467,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "15:01",
+          "store": "카페범(CAFEBE:OM)",
+          "biz": "72904*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "지난번 태블릿 대체품 받고 원격 요청주셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "재온보딩 / 회수접수완료",
+          "rr": 3
+        },
         {
           "time": "15:00",
           "store": "주식회사 마이너스(MINERS Co., Ltd.)",
@@ -279929,7 +279942,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 36,
+        "online": 37,
         "offline": 5,
         "unknown": 0
       },
@@ -280230,7 +280243,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792822098.253,
+        "lastSeen": 1792822306.271,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280241,17 +280254,10 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792822098.253,
+        "lastSeen": 1792822306.271,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
-      },
-      "1792821674.605589": {
-        "post": "1792821674.605589",
-        "lastSeen": 1792822098.253,
-        "r": 1,
-        "day": "2026-10-24",
-        "idx": 34
       }
     },
     "days": {
@@ -381872,7 +381878,8 @@ window.SLACK_DATA = {
             "store": "카페범(CAFEBE:OM)",
             "biz": "72904*****",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.8
           },
           {
             "hm": "15:00",
@@ -381888,7 +381895,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 15:08",
+    "at": "2026-10-24 15:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382026,7 +382033,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 15:08",
+    "at": "2026-10-24 15:11",
     "pri": {
       "days": 0,
       "failed": [],
