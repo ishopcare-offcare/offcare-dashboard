@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25220,
+  "version": 25221,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279957,39 +279957,45 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:31",
+      "updatedAt": "15:36",
       "voc": {
-        "responses": 11,
+        "responses": 14,
         "install": {
-          "count": 5,
-          "low": 2
+          "count": 8,
+          "low": 3
         },
         "nps": {
-          "count": 11,
-          "low": 2
+          "count": 14,
+          "low": 3
         },
         "high": {
-          "install": 1,
-          "nps": 5
+          "install": 2,
+          "nps": 6
         },
         "npsDist": {
           "0": 1,
+          "1": 1,
           "2": 1,
           "7": 1,
-          "8": 2,
+          "8": 3,
           "9": 1,
-          "10": 5
+          "10": 6
         },
         "installDist": {
-          "1": 2,
-          "4": 2,
-          "5": 1
+          "1": 3,
+          "4": 3,
+          "5": 2
         },
         "byIndustry": {
-          "도소매": 3,
-          "요식업": 2
+          "요식업": 3,
+          "도소매": 4,
+          "카페": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 8,
+            "low": 3
+          },
           "1개월": {
             "total": 2,
             "low": 0
@@ -279998,10 +280004,6 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "구매설치": {
-            "total": 5,
-            "low": 2
-          },
           "3개월": {
             "total": 2,
             "low": 1
@@ -280009,8 +280011,16 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KOCES": {
-            "total": 5,
+            "total": 6,
             "low": 1
+          },
+          "KOVAN": {
+            "total": 1,
+            "low": 1
+          },
+          "SECTA9": {
+            "total": 1,
+            "low": 0
           },
           "SMARTRO": {
             "total": 3,
@@ -280030,11 +280040,39 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 3,
           "사용중 오류가 자주 발생함": 2,
-          "단말기 설치나 초기 과정이 어려움": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+          "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "15:36",
+            "store": "제주자연농장 영농조합법인",
+            "storeId": "713958",
+            "industry": "도소매",
+            "indBucket": "도소매",
+            "install": 1,
+            "nps": 1,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "번호결제가 안되고 월마다 돈을 내야한다고함",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              },
+              {
+                "q": "추천의향",
+                "score": 1,
+                "text": "숫자입력 결제가 안되고 월마다 돈을 내야한다고 함",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:06",
             "store": "주식회사 에이엘엘코스메틱(ALL Cosmetic Co., Ltd,)",
@@ -280275,7 +280313,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792823675.059,
+        "lastSeen": 1792823819.619,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280286,14 +280324,18 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792823675.059,
+        "lastSeen": 1792823819.619,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
       },
       "1792822847.576639": {
         "post": "1792822847.576639",
-        "lastSeen": 1792823675.059
+        "lastSeen": 1792823819.619
+      },
+      "1792823811.104399": {
+        "post": "1792823811.104399",
+        "lastSeen": 1792823819.619
       }
     },
     "days": {
@@ -381940,7 +381982,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 15:34",
+    "at": "2026-10-24 15:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382078,7 +382120,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 15:34",
+    "at": "2026-10-24 15:37",
     "pri": {
       "days": 0,
       "failed": [],
