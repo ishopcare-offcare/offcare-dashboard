@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25057,
+  "version": 25058,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,11 +279433,23 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
-          "심성현": 1
+          "심성현": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:20",
+          "store": "서담",
+          "biz": "43302*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "포스기가 지속적으로 페이지를 찾을수 없다고 나와 원격요청주셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "Chrome에서 다운 받은 설치 파일로 설치 시 해당 증상 동일 발생 / Edge로 다운로드 시 정상 / 재설치 후 결제 테스트 출력 테스트 완료",
+          "rr": 4
+        },
         {
           "time": "09:12",
           "store": "샐리스 커피 앤 브런치(SALLY's Coffee&am",
@@ -279452,7 +279464,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 1,
         "unknown": 0
       },
@@ -279639,16 +279651,9 @@ window.SLACK_DATA = {
         "post": "1792767614.108589",
         "lastSeen": 1792786527.023
       },
-      "1792801229.325529": {
-        "post": "1792801229.325529",
-        "lastSeen": 1792802239.09,
-        "r": 1,
-        "day": "2026-10-24",
-        "idx": 0
-      },
       "1792801801.407049": {
         "post": "1792801801.407049",
-        "lastSeen": 1792802239.09
+        "lastSeen": 1792802300.941
       }
     },
     "days": {
@@ -380965,14 +380970,15 @@ window.SLACK_DATA = {
             "store": "서담",
             "biz": "43302*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 17.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 09:37",
+    "at": "2026-10-24 09:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381110,7 +381116,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 09:37",
+    "at": "2026-10-24 09:38",
     "pri": {
       "days": 0,
       "failed": [],
