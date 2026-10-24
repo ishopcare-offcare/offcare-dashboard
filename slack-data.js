@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25050,
+  "version": 25051,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279447,7 +279447,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) / 다른 기기 연결한적 없으나, 재온보딩 진행시 다른포스 연결 됨 문구 노출 되고 있어 확인 부탁드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "태블릿 핸드폰 중복 연결 핸드폰 연결 내역 삭제 후 정상 동작",
+          "rr": 1
         }
       ],
       "intake": {
@@ -380945,7 +380946,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 09:18",
+    "at": "2026-10-24 09:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381083,7 +381084,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 09:18",
+    "at": "2026-10-24 09:19",
     "pri": {
       "days": 0,
       "failed": [],
