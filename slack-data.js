@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25064,
+  "version": 25065,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,11 +279433,22 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
-          "심성현": 3
+          "심성현": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:45",
+          "store": "더예쁨(the예쁨)",
+          "biz": "51430*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "• 터미널 현금영수증 발행방법 문의 주셔서 안내 부탁드립니다. (채팅 상담을 통해 방법 안내 드렸으나 이해못하심)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:39",
           "store": "송헤어샵(song's hair #)",
@@ -279476,7 +279487,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
@@ -279665,11 +279676,7 @@ window.SLACK_DATA = {
       },
       "1792801801.407049": {
         "post": "1792801801.407049",
-        "lastSeen": 1792802971.281
-      },
-      "1792802700.913379": {
-        "post": "1792802700.913379",
-        "lastSeen": 1792802971.281
+        "lastSeen": 1792803049.173
       }
     },
     "days": {
@@ -380976,8 +380983,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-24": {
-        "cnt": 1,
-        "sumMin": 0.7776495138804118,
+        "cnt": 2,
+        "sumMin": 5.9328765312830605,
         "over": 0,
         "items": [
           {
@@ -380988,13 +380995,22 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 17.3
+          },
+          {
+            "hm": "09:45",
+            "min": 5.2,
+            "store": "더예쁨(the예쁨)",
+            "biz": "51430*****",
+            "who": "심성현",
+            "cat": "as",
+            "dmin": 5.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 09:49",
+    "at": "2026-10-24 09:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381132,7 +381148,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 09:49",
+    "at": "2026-10-24 09:50",
     "pri": {
       "days": 0,
       "failed": [],
