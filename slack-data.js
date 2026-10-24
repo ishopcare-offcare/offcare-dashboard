@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25137,
+  "version": 25138,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279448,7 +279448,20 @@ window.SLACK_DATA = {
           "심성현": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:48",
+          "store": "유디코",
+          "biz": "22628*****",
+          "handler": "심성현",
+          "cat": "menu",
+          "intake": "online",
+          "req": "",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "13:01",
@@ -279459,7 +279472,8 @@ window.SLACK_DATA = {
           "req": "OKPOS 결제 불가로 통화 요청",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프론트 전원 OFF 상태로 실행하셨음 사용 방법 안내 완료",
+          "rr": 1
         },
         {
           "time": "11:59",
@@ -279715,7 +279729,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 2,
         "unknown": 0
       },
@@ -279931,7 +279945,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792814523.267
+        "lastSeen": 1792814576.769
       },
       "1792804249.479589": {
         "post": "1792804249.479589",
@@ -279939,15 +279953,18 @@ window.SLACK_DATA = {
       },
       "1792810123.491599": {
         "post": "1792810123.491599",
-        "lastSeen": 1792814523.267
+        "lastSeen": 1792814576.769,
+        "r": 1,
+        "day": "2026-10-24",
+        "idx": 16
       },
       "1792813500.396329": {
         "post": "1792813500.396329",
-        "lastSeen": 1792814523.267
+        "lastSeen": 1792814576.769
       },
       "1792814400.553549": {
         "post": "1792814400.553549",
-        "lastSeen": 1792814523.267
+        "lastSeen": 1792814576.769
       }
     },
     "days": {
@@ -381254,9 +381271,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-24": {
-        "cnt": 16,
-        "sumMin": 191.9806197841962,
-        "over": 1,
+        "cnt": 17,
+        "sumMin": 265.7560598015785,
+        "over": 2,
         "items": [
           {
             "hm": "09:20",
@@ -381401,13 +381418,21 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 24.9
+          },
+          {
+            "hm": "11:48",
+            "min": 73.8,
+            "store": "유디코",
+            "biz": "22628*****",
+            "who": "심성현",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 13:02",
+    "at": "2026-10-24 13:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
