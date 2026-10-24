@@ -3,10 +3,136 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4132,
- "updatedAt": "2026-10-24 14:58",
+ "version": 4133,
+ "updatedAt": "2026-10-24 17:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1792828851.243719",
+   "date": "2026-10-24",
+   "time": "17:00",
+   "store": "유디코",
+   "biz": "22628*****",
+   "pos": "오케이포스",
+   "content": "1.생선까스 17,000(변경)\n2.돈까스+면세트 \n메뉴 배치 변경\n첫줄-우동세트(로스-히레-생선-상로스 순)\n둘째줄-냉모밀세트(로스-히레-생선-상로스 순)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1uzK1V7jYDpRLE6G0Ez-V3bCyH7WhC3Gk/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1KW1l3k7NBuy7MG--vgbqkCO8gZRSAOPL/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1uzK1V7jYDpRLE6G0Ez-V3bCyH7WhC3Gk",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메인메뉴",
+       "name": "리뷰이벤트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "메인메뉴",
+       "name": "돈까스+면세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "메인메뉴",
+       "name": "로스(등심)",
+       "price": 15000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "히레(안심)",
+       "price": 15000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "상로스(등심)",
+       "price": 18000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "생선까스",
+       "price": 16500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "씨푸드까스",
+       "price": 18000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "모짜렐라치즈그릴까스",
+       "price": 15500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "하모니세트",
+       "price": 16000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1KW1l3k7NBuy7MG--vgbqkCO8gZRSAOPL",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "로스1/2+우동",
+       "price": 14500
+      },
+      {
+       "category": "",
+       "name": "히레1/2+우동",
+       "price": 14500
+      },
+      {
+       "category": "",
+       "name": "로스1/2+냉모밀",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "히레1/2+냉모밀",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "생선1/2+우동",
+       "price": 16500
+      },
+      {
+       "category": "",
+       "name": "생선1/2+냉모밀",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "상로스1/2우동",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "상로스1/2+냉모밀",
+       "price": 17500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792828851243719"
+  },
   {
    "ts": "1792817823.490339",
    "date": "2026-10-24",
