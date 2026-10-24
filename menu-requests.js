@@ -3,10 +3,70 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4134,
- "updatedAt": "2026-10-24 20:54",
+ "version": 4135,
+ "updatedAt": "2026-10-24 23:45",
  "days": 30,
  "items": [
+  {
+   "ts": "1792853029.036479",
+   "date": "2026-10-24",
+   "time": "23:43",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "저염백명란마요덮밥",
+   "drive": [
+    "https://drive.google.com/file/d/1s-m_uYMv4h7uMgyhRPQu21FHS2F21iA3/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1s-m_uYMv4h7uMgyhRPQu21FHS2F21iA3",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792853029036479"
+  },
+  {
+   "ts": "1792852978.420769",
+   "date": "2026-10-24",
+   "time": "23:42",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "명란아보카도덮밥",
+   "drive": [
+    "https://drive.google.com/file/d/1MpEd-7NgNmanDJwT4koeTrK3SyLAE4QO/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1MpEd-7NgNmanDJwT4koeTrK3SyLAE4QO",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792852978420769"
+  },
   {
    "ts": "1792828851.243719",
    "date": "2026-10-24",
