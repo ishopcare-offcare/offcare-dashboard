@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4125,
- "updatedAt": "2026-10-24 13:41",
+ "version": 4126,
+ "updatedAt": "2026-10-24 13:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1792817141.347909",
+   "date": "2026-10-24",
+   "time": "13:45",
+   "store": "아자스",
+   "biz": "57312*****",
+   "pos": "토스포스",
+   "content": "이미지등록",
+   "special": "2인모츠나베",
+   "drive": [
+    "https://drive.google.com/file/d/1HQ8M707WiPgH-rimAyj4A75LiLMmNaYb/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1HQ8M707WiPgH-rimAyj4A75LiLMmNaYb",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792817141347909"
+  },
   {
    "ts": "1792816867.052299",
    "date": "2026-10-24",
