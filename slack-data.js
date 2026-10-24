@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25073,
+  "version": 25074,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279492,40 +279492,70 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:10",
+      "updatedAt": "10:14",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
-          "low": 0
+          "count": 2,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "2": 1,
           "10": 1
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
           "3개월": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 1,
+            "low": 1
+          },
           "KOCES": {
             "total": 1,
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+        },
+        "alerts": [
+          {
+            "time": "10:14",
+            "store": "졸리레이드(Jolie Laide)",
+            "storeId": "528149",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 2,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 2,
+                "text": "사이즈별 재고 관리 불가",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       }
     }
@@ -279677,32 +279707,32 @@ window.SLACK_DATA = {
       },
       "1792801801.407049": {
         "post": "1792801801.407049",
-        "lastSeen": 1792804354.425,
+        "lastSeen": 1792804511.446,
         "r": 1,
         "day": "2026-10-24",
         "idx": 2
       },
       "1792803163.061089": {
         "post": "1792803163.061089",
-        "lastSeen": 1792804354.425,
+        "lastSeen": 1792804511.446,
         "r": 1,
         "day": "2026-10-24",
         "idx": 3
       },
       "1792803551.691359": {
         "post": "1792803551.691359",
-        "lastSeen": 1792804354.425,
+        "lastSeen": 1792804511.446,
         "r": 1,
         "day": "2026-10-24",
         "idx": 4
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792804354.425
+        "lastSeen": 1792804511.446
       },
       "1792804249.479589": {
         "post": "1792804249.479589",
-        "lastSeen": 1792804354.425
+        "lastSeen": 1792804511.446
       }
     },
     "days": {
@@ -381060,7 +381090,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 10:12",
+    "at": "2026-10-24 10:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381198,7 +381228,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 10:12",
+    "at": "2026-10-24 10:15",
     "pri": {
       "days": 0,
       "failed": [],
