@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25266,
+  "version": 25267,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280111,16 +280111,16 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "17:00",
+      "updatedAt": "17:42",
       "voc": {
-        "responses": 19,
+        "responses": 20,
         "install": {
           "count": 10,
           "low": 3
         },
         "nps": {
-          "count": 19,
-          "low": 3
+          "count": 20,
+          "low": 4
         },
         "high": {
           "install": 4,
@@ -280130,6 +280130,7 @@ window.SLACK_DATA = {
           "0": 1,
           "1": 1,
           "2": 1,
+          "4": 1,
           "7": 1,
           "8": 4,
           "9": 2,
@@ -280147,6 +280148,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 1,
+            "low": 1
+          },
           "12개월": {
             "total": 5,
             "low": 0
@@ -280165,6 +280170,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 2,
+            "low": 1
+          },
           "KIS": {
             "total": 5,
             "low": 0
@@ -280181,10 +280190,6 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 1
           },
-          "SECTA9": {
-            "total": 1,
-            "low": 0
-          },
           "SMARTRO": {
             "total": 3,
             "low": 1
@@ -280195,11 +280200,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "사용중 오류가 자주 발생함": 3,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 3,
-          "사용중 오류가 자주 발생함": 2,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "17:42",
+            "store": "하마상점",
+            "storeId": "442461",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 4,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 4,
+                "text": "토스 오류가 충격적이었다... 단말기가 2개였고 이후 큰 문제가 없어 계속사용은 하지만 네이버에 바로 별점등록 가능한 네이버 단말기를 쓰겠다.",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:36",
             "store": "제주자연농장 영농조합법인",
@@ -280453,7 +280480,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792830633.715,
+        "lastSeen": 1792831362.775,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280464,18 +280491,18 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792830633.715,
+        "lastSeen": 1792831362.775,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
       },
       "1792825200.903969": {
         "post": "1792825200.903969",
-        "lastSeen": 1792830633.715
+        "lastSeen": 1792831362.775
       },
       "1792828851.243719": {
         "post": "1792828851.243719",
-        "lastSeen": 1792830633.715
+        "lastSeen": 1792831362.775
       }
     },
     "days": {
@@ -382221,7 +382248,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 17:30",
+    "at": "2026-10-24 17:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382359,7 +382386,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 17:30",
+    "at": "2026-10-24 17:42",
     "pri": {
       "days": 0,
       "failed": [],
