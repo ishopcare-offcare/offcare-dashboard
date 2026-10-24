@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25099,
+  "version": 25100,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,7 +279433,7 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
-          "심성현": 9
+          "심성현": 10
         },
         "onboarding": {
           "심성현": 1
@@ -279444,6 +279444,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:47",
+          "store": "더블케이 딥스점",
+          "biz": "47388*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "주소 변경 했으나, 수정이 안되고 있어 확인 한번 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "재온보딩 반영 완료",
+          "rr": 1
+        },
         {
           "time": "10:20",
           "store": "주식회사 에이엘엘코스메틱(ALL Cosmetic Co.",
@@ -279577,7 +279589,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 1,
         "unknown": 0
       },
@@ -279800,22 +279812,15 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792807374.375
+        "lastSeen": 1792807625.14
       },
       "1792804249.479589": {
         "post": "1792804249.479589",
         "lastSeen": 1792805030.662
       },
-      "1792806458.889289": {
-        "post": "1792806458.889289",
-        "lastSeen": 1792807374.375,
-        "r": 1,
-        "day": "2026-10-24",
-        "idx": 8
-      },
       "1792807200.151629": {
         "post": "1792807200.151629",
-        "lastSeen": 1792807374.375
+        "lastSeen": 1792807625.14
       }
     },
     "days": {
@@ -381204,14 +381209,15 @@ window.SLACK_DATA = {
             "store": "더블케이 딥스점",
             "biz": "47388*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 17.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 11:03",
+    "at": "2026-10-24 11:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381349,7 +381355,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 11:02",
+    "at": "2026-10-24 11:07",
     "pri": {
       "days": 0,
       "failed": [],
