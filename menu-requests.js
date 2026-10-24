@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4107,
- "updatedAt": "2026-10-23 21:35",
+ "version": 4108,
+ "updatedAt": "2026-10-24 09:35",
  "days": 30,
  "items": [
   {
@@ -1552,11 +1552,62 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBMUY9F6H",
+     "from": "댓글",
+     "path": "menu-files/1792735101_175969-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BURGER",
+       "name": "도네이션버거",
+       "price": 12300
+      },
+      {
+       "category": "BURGER",
+       "name": "새우버거",
+       "price": 8900
+      },
+      {
+       "category": "BURGER",
+       "name": "베이컨 치즈버거",
+       "price": 8900
+      },
+      {
+       "category": "BURGER",
+       "name": "하와이안버거",
+       "price": 8900
+      },
+      {
+       "category": "BURGER",
+       "name": "더블치즈버거",
+       "price": 7900
+      },
+      {
+       "category": "BURGER",
+       "name": "할라피뇨 치킨버거",
+       "price": 8500
+      },
+      {
+       "category": "BURGER",
+       "name": "주니어해쉬버거",
+       "price": 6300
+      },
+      {
+       "category": "BURGER",
+       "name": "주니어버거",
+       "price": 5300
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 3,
-   "lr": "1792738163.141289",
+   "rc": 4,
+   "lr": "1792802074.143329",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
