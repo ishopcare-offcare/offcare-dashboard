@@ -3,10 +3,442 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4111,
- "updatedAt": "2026-10-24 11:34",
+ "version": 4112,
+ "updatedAt": "2026-10-24 11:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1792810123.491599",
+   "date": "2026-10-24",
+   "time": "11:48",
+   "store": "유디코",
+   "biz": "22628*****",
+   "pos": "오케이포스",
+   "content": "생선까스 17,000(변경)\n상로스+생선 19,000(추가)\n로스1/2+우동 14,500(변경)\n히레1/2+우동 14,500(변경)\n생선1/2+우동 16,500(추가)\n상로스1/2우동 17,000(추가)\n로스1/2+냉모밀 15,000(변경)\n히레1/2+냉모밀 15,000(변경)\n생선1/2+냉모밀 17,000(추가)\n상로스1/2+냉모밀 17,500(추가)\n미니우동 5,000(변경)\n미니냉모밀 5,500(변경)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1bJifdw2u5IAjAtsH-fsEaSXIQzeHHfU4/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1OZW6aAnfOf6YCgcoAFR8WwTU5RlMjdF3/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1DNjzCRimX4ljOpPsz8y2-UvwzPK8MAtk/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1S8jATu6EBvojOHVkkLLJN-y-d3MBiYRu/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1VXckwq-6shQChGretEoPrXa6zMm3gR2m/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1UIke_lNC7Lm7G-sJlY1Ro_OSu-Utcmhw/view?usp=drivesdk",
+    "https://drive.google.com/file/d/11OQvdGQ1BgfuhhVHE1wbH1HRLdhYP7OX/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1bJifdw2u5IAjAtsH-fsEaSXIQzeHHfU4",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메인메뉴",
+       "name": "리뷰이벤트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "메인메뉴",
+       "name": "돈까스+면세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "메인메뉴",
+       "name": "로스(등심)",
+       "price": 15000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "히레(안심)",
+       "price": 15000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "상로스(등심)",
+       "price": 18000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "생선까스",
+       "price": 16500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "씨푸드까스",
+       "price": 18000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "모짜렐라치즈그릴까스",
+       "price": 15500
+      },
+      {
+       "category": "메인메뉴",
+       "name": "하모니세트",
+       "price": 16000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1OZW6aAnfOf6YCgcoAFR8WwTU5RlMjdF3",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "반만모듬",
+       "name": "리뷰이벤트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "반만모듬",
+       "name": "돈까스+면세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "반만모듬",
+       "name": "로스(등심)+히레(안심)",
+       "price": 15500
+      },
+      {
+       "category": "반만모듬",
+       "name": "상로스+로스(등심)",
+       "price": 16500
+      },
+      {
+       "category": "반만모듬",
+       "name": "상로스(등심)+히레(안심)",
+       "price": 16500
+      },
+      {
+       "category": "반만모듬",
+       "name": "로스(등심)+생선까스",
+       "price": 17000
+      },
+      {
+       "category": "반만모듬",
+       "name": "히레(안심)+생선까스",
+       "price": 17000
+      },
+      {
+       "category": "반만모듬",
+       "name": "로스(등심)+새우까스",
+       "price": 17500
+      },
+      {
+       "category": "반만모듬",
+       "name": "히레(안심)+새우까스",
+       "price": 17500
+      },
+      {
+       "category": "반만모듬",
+       "name": "상로스(등심)+새우까스",
+       "price": 19500
+      },
+      {
+       "category": "반만모듬",
+       "name": "상로스+생선",
+       "price": 19000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1DNjzCRimX4ljOpPsz8y2-UvwzPK8MAtk",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "반만모음",
+       "name": "리뷰이벤트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "반만모음",
+       "name": "돈까스+면세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "반만모음",
+       "name": "로스1/2+우동",
+       "price": 14000
+      },
+      {
+       "category": "반만모음",
+       "name": "히레1/2+우동",
+       "price": 14000
+      },
+      {
+       "category": "반만모음",
+       "name": "로스1/2+냉모밀",
+       "price": 14500
+      },
+      {
+       "category": "반만모음",
+       "name": "히레1/2+냉모밀",
+       "price": 14500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1S8jATu6EBvojOHVkkLLJN-y-d3MBiYRu",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가메뉴",
+       "name": "리뷰이벤트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "추가메뉴",
+       "name": "돈까스+면세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "추가메뉴",
+       "name": "카레",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "새우1미",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "로스(등심) 1/2",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "히레(안심) 1/2",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "미니우동",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "미니냉모밀",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1VXckwq-6shQChGretEoPrXa6zMm3gR2m",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "로스까스",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "히레까스",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "상로스까스",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "생선까스",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "씨푸드까스",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "모짜렐라치즈그릴까스",
+       "price": 15500
+      },
+      {
+       "category": "",
+       "name": "하모니세트",
+       "price": 16000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1UIke_lNC7Lm7G-sJlY1Ro_OSu-Utcmhw",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "반반모둠",
+       "name": "로스까스 + 히레까스 각 1/2",
+       "price": 15500
+      },
+      {
+       "category": "반반모둠",
+       "name": "상로스까스 + 로스까스 각 1/2",
+       "price": 16500
+      },
+      {
+       "category": "반반모둠",
+       "name": "상로스까스 + 히레까스 각 1/2",
+       "price": 16500
+      },
+      {
+       "category": "반반모둠",
+       "name": "로스 1/2 or 히레 1/2 中 택1 + 생선까스 1/2",
+       "price": 17000
+      },
+      {
+       "category": "반반모둠",
+       "name": "로스 1/2 or 히레 1/2 中 택1 + 새우까스 새우2미",
+       "price": 17500
+      },
+      {
+       "category": "반반모둠",
+       "name": "상로스까스 + 생선까스 각 1/2",
+       "price": 19000
+      },
+      {
+       "category": "반반모둠",
+       "name": "상로스까스 + 새우까스 상로스 1/2 + 새우2미",
+       "price": 19500
+      },
+      {
+       "category": "돈까스+우동세트",
+       "name": "로스 1/2 + 우동",
+       "price": 14500
+      },
+      {
+       "category": "돈까스+우동세트",
+       "name": "히레 1/2 + 우동",
+       "price": 14500
+      },
+      {
+       "category": "돈까스+우동세트",
+       "name": "생선 1/2 + 우동",
+       "price": 16500
+      },
+      {
+       "category": "돈까스+우동세트",
+       "name": "상로스 1/2 + 우동",
+       "price": 17000
+      },
+      {
+       "category": "돈까스+냉모밀세트",
+       "name": "로스 1/2 + 냉모밀",
+       "price": 15000
+      },
+      {
+       "category": "돈까스+냉모밀세트",
+       "name": "히레 1/2 + 냉모밀",
+       "price": 15000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "11OQvdGQ1BgfuhhVHE1wbH1HRLdhYP7OX",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "생선 1/2 + 냉모밀",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "상로스 1/2 + 냉모밀",
+       "price": 17500
+      },
+      {
+       "category": "면류",
+       "name": "가케우동",
+       "price": 9000
+      },
+      {
+       "category": "면류",
+       "name": "냉모밀",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "카레우동",
+       "price": 9000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "로스까스 1/2",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "히레까스 1/2",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "새우 추가 1미",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "카레",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "미니우동",
+       "price": 5000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "미니냉모밀",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "콜라",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "제로콜라",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "사이다",
+       "price": 2500
+      },
+      {
+       "category": "주류",
+       "name": "클라우드 330ml",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792810123491599"
+  },
   {
    "ts": "1792809248.672919",
    "date": "2026-10-24",
