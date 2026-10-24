@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25066,
+  "version": 25067,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279492,7 +279492,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:45",
+      "updatedAt": "09:52",
       "voc": {
         "responses": 1,
         "install": {
@@ -279677,7 +279677,14 @@ window.SLACK_DATA = {
       },
       "1792801801.407049": {
         "post": "1792801801.407049",
-        "lastSeen": 1792803111.498
+        "lastSeen": 1792803171.36,
+        "r": 1,
+        "day": "2026-10-24",
+        "idx": 2
+      },
+      "1792803163.061089": {
+        "post": "1792803163.061089",
+        "lastSeen": 1792803171.36
       }
     },
     "days": {
@@ -380984,8 +380991,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-24": {
-        "cnt": 2,
-        "sumMin": 5.9328765312830605,
+        "cnt": 3,
+        "sumMin": 28.26657571395238,
         "over": 0,
         "items": [
           {
@@ -381005,13 +381012,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 5.2
+          },
+          {
+            "hm": "09:30",
+            "min": 22.3,
+            "store": "편선생스피치교습소",
+            "biz": "26599*****",
+            "who": "심성현",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 09:52",
+    "at": "2026-10-24 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381149,7 +381164,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 09:51",
+    "at": "2026-10-24 09:52",
     "pri": {
       "days": 0,
       "failed": [],
