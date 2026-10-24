@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25091,
+  "version": 25092,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279788,7 +279788,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792806160.951
+        "lastSeen": 1792806223.618
       },
       "1792804249.479589": {
         "post": "1792804249.479589",
@@ -279796,7 +279796,10 @@ window.SLACK_DATA = {
       },
       "1792804826.228159": {
         "post": "1792804826.228159",
-        "lastSeen": 1792806160.951
+        "lastSeen": 1792806223.618,
+        "r": 1,
+        "day": "2026-10-24",
+        "idx": 7
       }
     },
     "days": {
@@ -381103,8 +381106,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-24": {
-        "cnt": 7,
-        "sumMin": 59.2256484468778,
+        "cnt": 8,
+        "sumMin": 81.99325413306553,
         "over": 0,
         "items": [
           {
@@ -381169,13 +381172,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 17.7
+          },
+          {
+            "hm": "10:20",
+            "min": 22.8,
+            "store": "주식회사 에이엘엘코스메틱(ALL Cosmetic Co.",
+            "biz": "88181*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-24 10:42",
+    "at": "2026-10-24 10:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381313,7 +381324,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 10:42",
+    "at": "2026-10-24 10:43",
     "pri": {
       "days": 0,
       "failed": [],
