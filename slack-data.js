@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25061,
+  "version": 25062,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279433,11 +279433,22 @@ window.SLACK_DATA = {
     "2026-10-24": {
       "counts": {
         "as": {
-          "심성현": 2
+          "심성현": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:39",
+          "store": "송헤어샵(song's hair #)",
+          "biz": "71003*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "포프(아이패드) 고객관리 이용중 / 고객 등록 후 마케팅 미동의 진행 했으나, 결제할때마다 팝업 지속 노출 되고 있어 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:20",
           "store": "서담",
@@ -279464,7 +279475,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 1,
         "unknown": 0
       },
@@ -279653,11 +279664,11 @@ window.SLACK_DATA = {
       },
       "1792801801.407049": {
         "post": "1792801801.407049",
-        "lastSeen": 1792802721.901
+        "lastSeen": 1792802794.438
       },
       "1792802700.913379": {
         "post": "1792802700.913379",
-        "lastSeen": 1792802721.901
+        "lastSeen": 1792802794.438
       }
     },
     "days": {
@@ -380982,7 +380993,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 09:45",
+    "at": "2026-10-24 09:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381120,7 +381131,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 09:45",
+    "at": "2026-10-24 09:46",
     "pri": {
       "days": 0,
       "failed": [],
