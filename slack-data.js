@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25207,
+  "version": 25208,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279933,28 +279933,42 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:01",
+      "updatedAt": "15:06",
       "voc": {
-        "responses": 3,
+        "responses": 8,
         "install": {
-          "count": 0,
-          "low": 0
+          "count": 5,
+          "low": 2
         },
         "nps": {
-          "count": 3,
-          "low": 1
+          "count": 8,
+          "low": 2
         },
         "high": {
-          "install": 0,
-          "nps": 2
+          "install": 1,
+          "nps": 4
         },
         "npsDist": {
+          "0": 1,
           "2": 1,
-          "10": 2
+          "8": 1,
+          "9": 1,
+          "10": 4
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "1": 2,
+          "4": 2,
+          "5": 1
+        },
+        "byIndustry": {
+          "도소매": 3,
+          "요식업": 2
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 5,
+            "low": 2
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -279965,9 +279979,17 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "KOCES": {
+          "SMARTRO": {
             "total": 2,
+            "low": 1
+          },
+          "KIS": {
+            "total": 1,
             "low": 0
+          },
+          "KOCES": {
+            "total": 4,
+            "low": 1
           },
           "KPN": {
             "total": 1,
@@ -279975,9 +279997,61 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "사용중 오류가 자주 발생함": 2,
+          "단말기 설치나 초기 과정이 어려움": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "15:06",
+            "store": "주식회사 에이엘엘코스메틱(ALL Cosmetic Co., Ltd,)",
+            "storeId": "715708",
+            "industry": "도소매",
+            "indBucket": "도소매",
+            "install": 1,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "잦은 오류발생",
+                "cat": "사용중 오류가 자주 발생함"
+              },
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "잦은 오류발생",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "15:06",
+            "store": "성문식당",
+            "storeId": "712257",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 1,
+            "nps": 10,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "설치기사가 기분나쁜태도로 설치함",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "10:14",
             "store": "졸리레이드(Jolie Laide)",
@@ -280001,7 +280075,20 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:06",
+            "store": "올레치킨호프(오렌지)",
+            "storeId": "702208",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "꼼꼼히 잘 설치해 주셨습니다 깨끗하구 인테리어에도 좋아요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       },
       "absent": [
         {
@@ -280143,7 +280230,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792821937.389,
+        "lastSeen": 1792821998.413,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280154,14 +280241,14 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792821937.389,
+        "lastSeen": 1792821998.413,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
       },
       "1792821674.605589": {
         "post": "1792821674.605589",
-        "lastSeen": 1792821937.389,
+        "lastSeen": 1792821998.413,
         "r": 1,
         "day": "2026-10-24",
         "idx": 34
@@ -381801,7 +381888,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 15:05",
+    "at": "2026-10-24 15:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -381939,7 +382026,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 15:05",
+    "at": "2026-10-24 15:06",
     "pri": {
       "days": 0,
       "failed": [],
