@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25254,
+  "version": 25255,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279456,6 +279456,18 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
+          "time": "15:52",
+          "store": "컴포즈커피 사당역점",
+          "biz": "52181*****",
+          "handler": "서상원",
+          "cat": "as",
+          "intake": "online",
+          "req": "중복 결제된 내역 이었다고 배달 할이 노출이 되는데 잘못된 결제를 취소하라고 해서 확인을 하는데 이거를 취소를 할 수가 없다고하여 급하게 원격 요청주셨습니다.:꾸벅:",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
           "time": "10:09",
           "store": "스위트",
           "biz": "31716*****",
@@ -280060,24 +280072,24 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 46,
+        "online": 47,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "16:48",
+      "updatedAt": "16:53",
       "voc": {
-        "responses": 18,
+        "responses": 19,
         "install": {
           "count": 10,
           "low": 3
         },
         "nps": {
-          "count": 18,
+          "count": 19,
           "low": 3
         },
         "high": {
           "install": 4,
-          "nps": 8
+          "nps": 9
         },
         "npsDist": {
           "0": 1,
@@ -280086,7 +280098,7 @@ window.SLACK_DATA = {
           "7": 1,
           "8": 4,
           "9": 2,
-          "10": 8
+          "10": 9
         },
         "installDist": {
           "1": 3,
@@ -280100,13 +280112,13 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 5,
+            "low": 0
+          },
           "구매설치": {
             "total": 10,
             "low": 3
-          },
-          "12개월": {
-            "total": 4,
-            "low": 0
           },
           "1개월": {
             "total": 2,
@@ -280118,13 +280130,13 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 5,
+            "low": 0
+          },
           "KPN": {
             "total": 2,
             "low": 1
-          },
-          "KIS": {
-            "total": 4,
-            "low": 0
           },
           "KOCES": {
             "total": 6,
@@ -280413,7 +280425,7 @@ window.SLACK_DATA = {
       },
       "1792804161.193749": {
         "post": "1792804161.193749",
-        "lastSeen": 1792828192.829,
+        "lastSeen": 1792828404.612,
         "r": 1,
         "day": "2026-10-24",
         "idx": 17
@@ -280424,29 +280436,29 @@ window.SLACK_DATA = {
       },
       "1792818099.043019": {
         "post": "1792818099.043019",
-        "lastSeen": 1792828192.829,
+        "lastSeen": 1792828404.612,
         "r": 1,
         "day": "2026-10-24",
         "idx": 31
       },
       "1792825200.903969": {
         "post": "1792825200.903969",
-        "lastSeen": 1792828192.829
+        "lastSeen": 1792828404.612
       },
       "1792827775.334619": {
         "post": "1792827775.334619",
-        "lastSeen": 1792828192.829
+        "lastSeen": 1792828404.612
       },
       "1792827746.164849": {
         "post": "1792827746.164849",
-        "lastSeen": 1792828192.829,
+        "lastSeen": 1792828404.612,
         "r": 1,
         "day": "2026-10-24",
         "idx": 44
       },
       "1792828123.381669": {
         "post": "1792828123.381669",
-        "lastSeen": 1792828192.829
+        "lastSeen": 1792828404.612
       }
     },
     "days": {
@@ -382173,7 +382185,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-24 16:50",
+    "at": "2026-10-24 16:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382311,7 +382323,7 @@ window.SLACK_DATA = {
     "2026-10-24": 2
   },
   "noteMig": {
-    "at": "2026-10-24 16:49",
+    "at": "2026-10-24 16:53",
     "pri": {
       "days": 0,
       "failed": [],
