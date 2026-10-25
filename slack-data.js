@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25485,
+  "version": 25486,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 7,
+          "서상원": 8,
           "심성현": 11
         },
         "booking": {
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:00",
+          "store": "용용선생 신불당점",
+          "biz": "84224*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "어제 새벽부터 포스기 옆에 설치된 단말기에서 프린터 출력 불가하다고 하셔서 원격 점검 요청드립니다. (16시 예약)",
+          "hw": "",
+          "intake": "offline",
+          "note": "10분후",
+          "rr": 1
+        },
         {
           "time": "15:31",
           "store": "주식회사 드루어리",
@@ -280779,7 +280791,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 21,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
       "updatedAt": "16:00",
@@ -382951,7 +382963,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 16:02",
+    "at": "2026-10-25 16:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383090,7 +383102,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 16:01",
+    "at": "2026-10-25 16:10",
     "pri": {
       "days": 0,
       "failed": [],
