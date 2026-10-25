@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25434,
+  "version": 25435,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280455,7 +280455,7 @@ window.SLACK_DATA = {
         },
         "booking": {
           "서상원": 2,
-          "심성현": 3
+          "심성현": 4
         }
       },
       "pending": [],
@@ -280483,6 +280483,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "13시반",
           "rr": 1
+        },
+        {
+          "time": "13:00",
+          "store": "소노키라멘 한양대점",
+          "biz": "30313*****",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "내용: 쿠팡이츠 쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 쿠팡이츠 도어 스티커가 부착 된 매장 외관사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "12:01",
@@ -280632,7 +280643,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 5,
         "unknown": 0
       },
@@ -280804,13 +280815,6 @@ window.SLACK_DATA = {
       "1792900800.429139": {
         "post": "1792900800.429139",
         "lastSeen": 1792900823.053
-      },
-      "1792900800.647559": {
-        "post": "1792900800.647559",
-        "lastSeen": 1792901862.987,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 12
       }
     },
     "days": {
@@ -382726,14 +382730,15 @@ window.SLACK_DATA = {
             "store": "소노키라멘 한양대점",
             "biz": "30313*****",
             "who": "심성현",
-            "cat": "delivery"
+            "cat": "booking",
+            "dmin": 18.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:18",
+    "at": "2026-10-25 13:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382872,7 +382877,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:17",
+    "at": "2026-10-25 13:18",
     "pri": {
       "days": 0,
       "failed": [],
