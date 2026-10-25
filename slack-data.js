@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25458,
+  "version": 25459,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280898,7 +280898,10 @@ window.SLACK_DATA = {
       },
       "1792906252.593919": {
         "post": "1792906252.593919",
-        "lastSeen": 1792906313.713
+        "lastSeen": 1792906658.446,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 17
       }
     },
     "days": {
@@ -382696,8 +382699,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 17,
-        "sumMin": 248.69402028322222,
+        "cnt": 18,
+        "sumMin": 252.58544663588208,
         "over": 3,
         "items": [
           {
@@ -382852,13 +382855,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 3.4
+          },
+          {
+            "hm": "14:30",
+            "min": 3.9,
+            "store": "해옫 강릉",
+            "biz": "42144*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 14:32",
+    "at": "2026-10-25 14:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382997,7 +383008,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 14:31",
+    "at": "2026-10-25 14:37",
     "pri": {
       "days": 0,
       "failed": [],
