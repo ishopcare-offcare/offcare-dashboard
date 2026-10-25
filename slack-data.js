@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25433,
+  "version": 25434,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280449,17 +280449,29 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
+        "as": {
+          "심성현": 8,
+          "서상원": 1
+        },
         "booking": {
           "서상원": 2,
           "심성현": 3
-        },
-        "as": {
-          "심성현": 7,
-          "서상원": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:04",
+          "store": "최임선맘스테라피",
+          "biz": "32142*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프론트 + 유프 수령했는데 유프 전원버튼에 문제가 있는것 같다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "/ 초기 불량 재발송 / /",
+          "rr": 4
+        },
         {
           "time": "13:00",
           "store": "브레인코칭 감성융합연구소 성산점",
@@ -280620,7 +280632,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 5,
         "unknown": 0
       },
@@ -280795,17 +280807,10 @@ window.SLACK_DATA = {
       },
       "1792900800.647559": {
         "post": "1792900800.647559",
-        "lastSeen": 1792901785.479,
+        "lastSeen": 1792901862.987,
         "r": 1,
         "day": "2026-10-25",
         "idx": 12
-      },
-      "1792901095.396839": {
-        "post": "1792901095.396839",
-        "lastSeen": 1792901785.479,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 11
       }
     },
     "days": {
@@ -382712,7 +382717,8 @@ window.SLACK_DATA = {
             "store": "최임선맘스테라피",
             "biz": "32142*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 12.1
           },
           {
             "hm": "13:00",
@@ -382727,7 +382733,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:16",
+    "at": "2026-10-25 13:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382866,7 +382872,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:16",
+    "at": "2026-10-25 13:17",
     "pri": {
       "days": 0,
       "failed": [],
