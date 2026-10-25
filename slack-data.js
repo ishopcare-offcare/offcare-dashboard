@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25419,
+  "version": 25420,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280449,12 +280449,13 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
-        "as": {
-          "서상원": 2,
-          "심성현": 6
-        },
         "booking": {
+          "서상원": 1,
           "심성현": 3
+        },
+        "as": {
+          "서상원": 1,
+          "심성현": 6
         }
       },
       "pending": [],
@@ -280463,7 +280464,7 @@ window.SLACK_DATA = {
           "time": "11:52",
           "store": "시크하게 Hair 대평점",
           "biz": "24817*****",
-          "cat": "as",
+          "cat": "booking",
           "emp": "서상원",
           "req": "유프 용지 출력 불가로 설정 점검 요청드립니다.",
           "hw": "",
@@ -280770,7 +280771,7 @@ window.SLACK_DATA = {
       },
       "1792897289.379499": {
         "post": "1792897289.379499",
-        "lastSeen": 1792899683.216
+        "lastSeen": 1792899756.514
       }
     },
     "days": {
@@ -382658,7 +382659,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 12:41",
+    "at": "2026-10-25 12:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382797,7 +382798,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 12:41",
+    "at": "2026-10-25 12:42",
     "pri": {
       "days": 0,
       "failed": [],
