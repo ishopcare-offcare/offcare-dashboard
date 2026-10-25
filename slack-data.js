@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25438,
+  "version": 25439,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280451,7 +280451,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "심성현": 8,
-          "서상원": 1
+          "서상원": 2
         },
         "booking": {
           "서상원": 2,
@@ -280471,6 +280471,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "/ 초기 불량 재발송 / /",
           "rr": 4
+        },
+        {
+          "time": "13:00",
+          "store": "시크하게 Hair 대평점",
+          "biz": "24817*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "유프 용지 출력 불가로 설정 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "13:00",
@@ -280644,7 +280655,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 5,
         "unknown": 0
       },
@@ -280819,11 +280830,14 @@ window.SLACK_DATA = {
       },
       "1792902607.787809": {
         "post": "1792902607.787809",
-        "lastSeen": 1792902921.974
+        "lastSeen": 1792903066.839,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 13
       },
       "1792902878.452109": {
         "post": "1792902878.452109",
-        "lastSeen": 1792902921.974
+        "lastSeen": 1792903066.839
       }
     },
     "days": {
@@ -382621,8 +382635,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 13,
-        "sumMin": 229.34151172240576,
+        "cnt": 14,
+        "sumMin": 235.7851565718651,
         "over": 3,
         "items": [
           {
@@ -382741,13 +382755,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "booking",
             "dmin": 18.2
+          },
+          {
+            "hm": "13:30",
+            "min": 6.4,
+            "store": "가배137",
+            "biz": "68933*****",
+            "who": "서상원",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:35",
+    "at": "2026-10-25 13:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382886,7 +382908,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:35",
+    "at": "2026-10-25 13:37",
     "pri": {
       "days": 0,
       "failed": [],
