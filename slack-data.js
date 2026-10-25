@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25517,
+  "version": 25518,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 9,
+          "서상원": 10,
           "심성현": 11
         },
         "booking": {
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "21:18",
+          "store": "카페포지(cafe pause)",
+          "biz": "25915*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "순서 안바뀐다는 내용",
+          "hw": "",
+          "intake": "offline",
+          "note": "고객용채널노출 카테고리 수정",
+          "rr": 1
+        },
         {
           "time": "18:50",
           "store": "팔레트 젤라또",
@@ -280803,7 +280815,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 22,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
       "updatedAt": "21:18",
@@ -382986,7 +382998,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 21:18",
+    "at": "2026-10-25 21:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383125,7 +383137,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 21:18",
+    "at": "2026-10-25 21:21",
     "pri": {
       "days": 0,
       "failed": [],
