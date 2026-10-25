@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25465,
+  "version": 25466,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,8 +280450,8 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "심성현": 11,
-          "서상원": 4
+          "서상원": 5,
+          "심성현": 11
         },
         "booking": {
           "서상원": 3,
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:00",
+          "store": "베니베니",
+          "biz": "60147*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "포프(노트북) + 유프 온보딩 직접 진행했는데 결제는 잘 되나 프린터 출력이 안된다고 하셔서 원격 온보딩 도움 요청드립니다. (15시 예약)",
+          "hw": "",
+          "intake": "online",
+          "note": "케이블 연결 후 설정\\",
+          "rr": 1
+        },
         {
           "time": "14:30",
           "store": "해옫 강릉",
@@ -280742,7 +280754,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 18,
+        "online": 19,
         "offline": 5,
         "unknown": 0
       },
@@ -382875,7 +382887,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 15:01",
+    "at": "2026-10-25 15:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383014,7 +383026,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 15:01",
+    "at": "2026-10-25 15:05",
     "pri": {
       "days": 0,
       "failed": [],
