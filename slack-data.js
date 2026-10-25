@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25384,
+  "version": 25385,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280439,7 +280439,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "booking": {
-          "심성현": 2
+          "심성현": 3
         },
         "as": {
           "심성현": 2
@@ -280447,6 +280447,19 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "시크하게 Hair 대평점",
+          "biz": "24817*****",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "유프 용지 출력 불가로 설정 점검 요청드립니다.",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "고령 파마 중 13시 통화 예약 요청",
+          "rr": 1
+        },
         {
           "time": "10:00",
           "store": "단빗 동해점",
@@ -280498,7 +280511,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 2,
         "unknown": 0
       },
@@ -280635,13 +280648,6 @@ window.SLACK_DATA = {
       "1792853175.436839": {
         "post": "1792853175.436839",
         "lastSeen": 1792872927.556
-      },
-      "1792890002.363669": {
-        "post": "1792890002.363669",
-        "lastSeen": 1792891830.109,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 4
       }
     },
     "days": {
@@ -382485,14 +382491,15 @@ window.SLACK_DATA = {
             "store": "시크하게 Hair 대평점",
             "biz": "24817*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 31
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 10:30",
+    "at": "2026-10-25 10:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382631,7 +382638,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 10:30",
+    "at": "2026-10-25 10:31",
     "pri": {
       "days": 0,
       "failed": [],
