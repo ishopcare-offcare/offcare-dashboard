@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25467,
+  "version": 25468,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280922,7 +280922,10 @@ window.SLACK_DATA = {
       },
       "1792908467.191589": {
         "post": "1792908467.191589",
-        "lastSeen": 1792908500.22
+        "lastSeen": 1792908546.795,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 18
       }
     },
     "days": {
@@ -382720,8 +382723,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 18,
-        "sumMin": 252.58544663588208,
+        "cnt": 19,
+        "sumMin": 253.52404515345893,
         "over": 3,
         "items": [
           {
@@ -382885,13 +382888,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 8.6
+          },
+          {
+            "hm": "15:07",
+            "min": 0.9,
+            "store": "클로버케이푸드랩",
+            "biz": "27107*****",
+            "who": "서상원",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 15:08",
+    "at": "2026-10-25 15:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383030,7 +383041,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 15:08",
+    "at": "2026-10-25 15:09",
     "pri": {
       "days": 0,
       "failed": [],
