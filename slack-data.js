@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25382,
+  "version": 25383,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280438,15 +280438,27 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
-        "as": {
+        "booking": {
           "심성현": 2
         },
-        "booking": {
-          "심성현": 1
+        "as": {
+          "심성현": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "단빗 동해점",
+          "biz": "53512*****",
+          "cat": "booking",
+          "emp": "심성현",
+          "req": "터프 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "외부 일정으로 당분간 매장 갈 일이 없다고 합니다. 10/29 19시 통화 예약 요청",
+          "rr": 1
+        },
         {
           "time": "09:46",
           "store": "콘텍스트(KONTEXT)",
@@ -280486,7 +280498,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 2,
         "unknown": 0
       },
@@ -280626,14 +280638,10 @@ window.SLACK_DATA = {
       },
       "1792890002.363669": {
         "post": "1792890002.363669",
-        "lastSeen": 1792891699.423
-      },
-      "1792890002.006589": {
-        "post": "1792890002.006589",
-        "lastSeen": 1792891699.423,
+        "lastSeen": 1792891766.423,
         "r": 1,
         "day": "2026-10-25",
-        "idx": 3
+        "idx": 4
       }
     },
     "days": {
@@ -382431,8 +382439,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 4,
-        "sumMin": 26.807704734802243,
+        "cnt": 5,
+        "sumMin": 55.65036025444667,
         "over": 0,
         "items": [
           {
@@ -382468,6 +382476,15 @@ window.SLACK_DATA = {
             "store": "단빗 동해점",
             "biz": "53512*****",
             "who": "심성현",
+            "cat": "booking",
+            "dmin": 28.8
+          },
+          {
+            "hm": "10:00",
+            "min": 28.8,
+            "store": "시크하게 Hair 대평점",
+            "biz": "24817*****",
+            "who": "심성현",
             "cat": "as"
           }
         ]
@@ -382475,7 +382492,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 10:28",
+    "at": "2026-10-25 10:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382614,7 +382631,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 10:28",
+    "at": "2026-10-25 10:29",
     "pri": {
       "days": 0,
       "failed": [],
