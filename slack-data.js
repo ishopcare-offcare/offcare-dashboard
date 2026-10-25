@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25379,
+  "version": 25380,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280438,15 +280438,28 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
-        "booking": {
-          "심성현": 1
-        },
         "as": {
+          "심성현": 2
+        },
+        "booking": {
           "심성현": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:46",
+          "store": "콘텍스트(KONTEXT)",
+          "biz": "48114*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프론트/ 전원 재부팅 불가하며 하얀 화면만 나옴/ 긴급 영상지원 요청드립니다.",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "프론트 공초 3회 진행했으나 계속 꺼짐 증상 / 결제가 밀린 상태라 빠른 퀵 요청 / 님, 13층으로 퀵 접수 부탁드립니다. 장비는 챙겨 오겠습니다. 님, 13층으로 퀵 접수 부탁드립니다. / 네넵! 네넵 ! / <!subteam^S0ANLUVK3PG",
+          "rr": 8
+        },
         {
           "time": "09:26",
           "store": "카페포지(cafe pause)",
@@ -280473,7 +280486,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 2,
         "unknown": 0
       },
@@ -280611,20 +280624,13 @@ window.SLACK_DATA = {
         "post": "1792853175.436839",
         "lastSeen": 1792872927.556
       },
-      "1792889219.071239": {
-        "post": "1792889219.071239",
-        "lastSeen": 1792891394.769,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 2
-      },
       "1792890002.363669": {
         "post": "1792890002.363669",
-        "lastSeen": 1792891394.769
+        "lastSeen": 1792891547.407
       },
       "1792890002.006589": {
         "post": "1792890002.006589",
-        "lastSeen": 1792891394.769,
+        "lastSeen": 1792891547.407,
         "r": 1,
         "day": "2026-10-25",
         "idx": 3
@@ -382453,7 +382459,8 @@ window.SLACK_DATA = {
             "store": "콘텍스트(KONTEXT)",
             "biz": "48114*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 37.5
           },
           {
             "hm": "10:00",
@@ -382468,7 +382475,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 10:23",
+    "at": "2026-10-25 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382607,7 +382614,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 10:23",
+    "at": "2026-10-25 10:25",
     "pri": {
       "days": 0,
       "failed": [],
