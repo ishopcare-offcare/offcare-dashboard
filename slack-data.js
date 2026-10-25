@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25568,
+  "version": 25569,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280972,11 +280972,35 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
-          "김동욱": 1
+          "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "08:08",
+          "store": "컴포즈커피 강남보건소점",
+          "biz": "52181*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포스 실행 해두었고, 앱오더에 금일 영업시간 정상 설정 해두었으나 실제로 앱에서는 '준비중' 이라고 뜨는 상황이라고 하십니다. 원격 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
+        {
+          "time": "08:03",
+          "store": "컴포즈커피 성수코리아IT점",
+          "biz": "52181*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포스 실행 해두었고, 앱오더에 금일 영업시간 정상 설정 해두었으나 실제로 앱에서는 '준비중' 이라고 뜨는 상황이라고 하십니다. 원격 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "허허... / 강남보건소도 준비중인에ㅛ / 정상화 완료 / 성수IT코리아점 / 강남보건소점 하면서 정확히 알게되었는데 현황 영업설정에서 마감하기 후 저장한 뒤 다시 영업시작하니까 살아났어요!",
+          "rr": 8
+        },
         {
           "time": "07:22",
           "store": "컴포즈커피 사당역점",
@@ -280991,11 +281015,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:03",
+      "updatedAt": "08:08",
       "voc": {
         "responses": 2,
         "install": {
@@ -383085,13 +383109,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 08:04",
+    "at": "2026-10-26 08:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4732,
+    "rows": 4733,
     "named": 1247,
     "unknownName": 190,
     "beforeStart": 0,
@@ -383225,7 +383249,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 08:04",
+    "at": "2026-10-26 08:15",
     "pri": {
       "days": 0,
       "failed": [],
