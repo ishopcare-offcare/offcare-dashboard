@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25522,
+  "version": 25523,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 10,
+          "서상원": 11,
           "심성현": 11
         },
         "booking": {
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "21:50",
+          "store": "짱구마을",
+          "biz": "16988*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "토스포스(휴대폰) 로그인 과정에서 인증 → 버튼 클릭이 안되는 문제가 있다고 하여 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "기존 매장 로그아웃 후 다른 매장으로 연결해드림",
+          "rr": 1
+        },
         {
           "time": "21:18",
           "store": "카페포지(cafe pause)",
@@ -280814,7 +280826,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 7,
         "unknown": 0
       },
@@ -382998,7 +383010,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 22:00",
+    "at": "2026-10-25 22:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383137,7 +383149,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 22:00",
+    "at": "2026-10-25 22:04",
     "pri": {
       "days": 0,
       "failed": [],
