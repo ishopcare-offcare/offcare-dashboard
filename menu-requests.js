@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4138,
- "updatedAt": "2026-10-25 12:15",
+ "version": 4139,
+ "updatedAt": "2026-10-25 13:00",
  "days": 30,
  "items": [
   {
@@ -61096,132 +61096,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790324366779919"
-  },
-  {
-   "ts": "1790308208.864679",
-   "date": "2026-09-25",
-   "time": "12:50",
-   "store": "텍사스",
-   "biz": "82226*****",
-   "pos": "",
-   "content": "메뉴등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "TEXAS_menu_beer_draft_can_bottle.pdf",
-     "fid": "F0C3XM1SF71",
-     "from": "댓글",
-     "path": "menu-files/1790308208_864679-0.pdf",
-     "nj": 1
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C3XNTSYGP",
-     "from": "댓글",
-     "path": "menu-files/1790308208_864679-1.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C4FBFTQU9",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "독립병입",
-       "name": "시그나토리 글렌 로티스 2015. 10y",
-       "price": 24000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 로얄 브라클라 2014. 11y",
-       "price": 25000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 벤네비스 2014. 10y",
-       "price": 24000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 벤리악 2014. 12y",
-       "price": 25000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 부나하벤 2014. 10y",
-       "price": 24000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 부나하벤 2016. 8y",
-       "price": 26000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 에드라두어 7y",
-       "price": 32000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 오크니 하이랜드파크 2011. 14y",
-       "price": 25000
-      },
-      {
-       "category": "독립병입",
-       "name": "시그나토리 하이랜드파크 2006. 18년 빈티지",
-       "price": 67000
-      },
-      {
-       "category": "독립병입",
-       "name": "글렌 로티스 2015 · 10년",
-       "price": 24000
-      },
-      {
-       "category": "독립병입",
-       "name": "로얄 브라클라 2014 · 11년",
-       "price": 25000
-      },
-      {
-       "category": "독립병입",
-       "name": "벤네비스 2014 · 10년",
-       "price": 24000
-      },
-      {
-       "category": "독립병입",
-       "name": "벤리악 2014 · 12년",
-       "price": 25000
-      },
-      {
-       "category": "독립병입",
-       "name": "부나하벤 2014 · 10년",
-       "price": 24000
-      },
-      {
-       "category": "독립병입",
-       "name": "부나하벤 2016 · 8년",
-       "price": 26000
-      }
-     ],
-     "path": "menu-files/1790308208_864679-2.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "넹~",
-    "호에ㅔㅇ",
-    "오케이 차근차근해볼게여",
-    "자. 없어져야 하는 7개 카테고리의 이름은 무엇일까욤",
-    "찐완료링"
-   ],
-   "rc": 13,
-   "lr": "1790316339.731269",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790308208864679"
   }
  ],
  "ocr": {
