@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25564,
+  "version": 25565,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280986,8 +280986,8 @@ window.SLACK_DATA = {
           "req": "포스 실행 해두었고, 앱오더에 금일 영업시간 7시 이후로 정상 설정 해두었으나 실제로 앱에서는 '준비중' 이라고 뜨는 상황이라고 하십니다. 원격 확인 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "앱오픈 완료. 정확한 원인분석을 위해 토플 전달",
-          "rr": 2
+          "note": "앱오픈 완료. 정확한 원인분석을 위해 토플 전달 / 영업설정에 마감 후 재시작 했는데도 동일했습니다! 연동이 풀린건지 플러그인 확인 했고, 대시보드에서 [앱 노출 매장명] 수정하면서 연동 확인하는 과정에서 다시 활성화 되었습니다!",
+          "rr": 4
         }
       ],
       "intake": {
@@ -280995,33 +280995,41 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "07:22",
+      "updatedAt": "07:43",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 1
+          "nps": 2
         },
         "npsDist": {
-          "10": 1
+          "10": 2
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          },
           "6개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 1,
             "low": 0
@@ -383077,7 +383085,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 07:30",
+    "at": "2026-10-26 07:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383217,7 +383225,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 07:30",
+    "at": "2026-10-26 07:45",
     "pri": {
       "days": 0,
       "failed": [],
