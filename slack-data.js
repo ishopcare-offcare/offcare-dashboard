@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25401,
+  "version": 25402,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279435,7 +279435,7 @@ window.SLACK_DATA = {
         "as": {
           "서상원": 10,
           "미지정": 7,
-          "심성현": 21
+          "심성현": 22
         },
         "onboarding": {
           "서상원": 3,
@@ -279457,18 +279457,6 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
-          "time": "23:52",
-          "store": "아자스",
-          "biz": "57312*****",
-          "handler": "심성현",
-          "cat": "menu",
-          "intake": "online",
-          "req": "",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
-        {
           "time": "10:09",
           "store": "스위트",
           "biz": "31716*****",
@@ -279482,6 +279470,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "23:52",
+          "store": "아자스",
+          "biz": "57312*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "19:28",
           "store": "뿌리아구",
