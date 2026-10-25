@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25418,
+  "version": 25419,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 1,
+          "서상원": 2,
           "심성현": 6
         },
         "booking": {
@@ -280459,6 +280459,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:52",
+          "store": "시크하게 Hair 대평점",
+          "biz": "24817*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "유프 용지 출력 불가로 설정 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "13시 연락요청",
+          "rr": 1
+        },
         {
           "time": "11:51",
           "store": "꽈백최선생 일산주엽점",
@@ -280583,7 +280595,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 5,
         "unknown": 0
       },
@@ -280756,16 +280768,9 @@ window.SLACK_DATA = {
         "post": "1792853175.436839",
         "lastSeen": 1792872927.556
       },
-      "1792896755.506629": {
-        "post": "1792896755.506629",
-        "lastSeen": 1792899575.956,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 8
-      },
       "1792897289.379499": {
         "post": "1792897289.379499",
-        "lastSeen": 1792899575.956
+        "lastSeen": 1792899683.216
       }
     },
     "days": {
@@ -382645,14 +382650,15 @@ window.SLACK_DATA = {
             "store": "시크하게 Hair 대평점",
             "biz": "24817*****",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 47.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 12:40",
+    "at": "2026-10-25 12:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382791,7 +382797,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 12:39",
+    "at": "2026-10-25 12:41",
     "pri": {
       "days": 0,
       "failed": [],
