@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25435,
+  "version": 25436,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280493,7 +280493,8 @@ window.SLACK_DATA = {
           "req": "내용: 쿠팡이츠 쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 쿠팡이츠 도어 스티커가 부착 된 매장 외관사진 1장",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "익일 15시 통화 예약 요청",
+          "rr": 1
         },
         {
           "time": "12:01",
@@ -280647,7 +280648,7 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "13:04",
+      "updatedAt": "13:30",
       "voc": {
         "responses": 1,
         "install": {
@@ -280815,6 +280816,10 @@ window.SLACK_DATA = {
       "1792900800.429139": {
         "post": "1792900800.429139",
         "lastSeen": 1792900823.053
+      },
+      "1792902607.787809": {
+        "post": "1792902607.787809",
+        "lastSeen": 1792902621.507
       }
     },
     "days": {
@@ -382738,7 +382743,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:19",
+    "at": "2026-10-25 13:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382877,7 +382882,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:18",
+    "at": "2026-10-25 13:30",
     "pri": {
       "days": 0,
       "failed": [],
