@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25452,
+  "version": 25453,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,8 +280450,8 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 4,
-          "심성현": 9
+          "심성현": 10,
+          "서상원": 4
         },
         "onboarding": {
           "심성현": 1
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:08",
+          "store": "태영생막창 둔포테크노밸리점",
+          "biz": "62022*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "포스기/ 배민, 쿠팡이츠 연동 건만 주문서 미출력/ 원격 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "배달 연동 및 출력 테스트 완료",
+          "rr": 1
+        },
         {
           "time": "13:42",
           "store": "비스트로 웨일",
@@ -280706,7 +280718,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 5,
         "unknown": 0
       },
@@ -280871,13 +280883,6 @@ window.SLACK_DATA = {
       "1792900800.429139": {
         "post": "1792900800.429139",
         "lastSeen": 1792900823.053
-      },
-      "1792904891.372179": {
-        "post": "1792904891.372179",
-        "lastSeen": 1792905037.123,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 16
       }
     },
     "days": {
@@ -382829,14 +382834,15 @@ window.SLACK_DATA = {
             "store": "태영생막창 둔포테크노밸리점",
             "biz": "62022*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 14:10",
+    "at": "2026-10-25 14:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382975,7 +382981,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 14:10",
+    "at": "2026-10-25 14:12",
     "pri": {
       "days": 0,
       "failed": [],
