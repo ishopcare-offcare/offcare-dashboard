@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25490,
+  "version": 25491,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280794,24 +280794,24 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "16:00",
+      "updatedAt": "16:54",
       "voc": {
-        "responses": 7,
+        "responses": 8,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 7,
+          "count": 8,
           "low": 0
         },
         "high": {
           "install": 3,
-          "nps": 6
+          "nps": 7
         },
         "npsDist": {
           "8": 1,
-          "10": 6
+          "10": 7
         },
         "installDist": {
           "4": 1,
@@ -280822,6 +280822,10 @@ window.SLACK_DATA = {
           "서비스[뷰티,헤어]": 3
         },
         "byTenure": {
+          "3개월": {
+            "total": 2,
+            "low": 0
+          },
           "6개월": {
             "total": 2,
             "low": 0
@@ -280829,13 +280833,13 @@ window.SLACK_DATA = {
           "구매설치": {
             "total": 4,
             "low": 0
-          },
-          "3개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 3,
+            "low": 0
+          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -280848,10 +280852,6 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "SMARTRO": {
-            "total": 2,
-            "low": 0
-          },
           "KSNET": {
             "total": 1,
             "low": 0
@@ -280860,6 +280860,18 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": [
+          {
+            "time": "16:54",
+            "store": "하얀고래펜션",
+            "storeId": "485280",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "만족하고 세심하게 알려주세요",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:18",
             "store": "스테파니",
@@ -382949,7 +382961,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 16:45",
+    "at": "2026-10-25 16:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383088,7 +383100,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 16:45",
+    "at": "2026-10-25 16:54",
     "pri": {
       "days": 0,
       "failed": [],
