@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25471,
+  "version": 25472,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280472,8 +280472,8 @@ window.SLACK_DATA = {
           "req": "프론트/ 7979 에러 발생하여 확인 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 3
+          "note": "월요일에 co 확인후 안내예정입니다 법인카드추정",
+          "rr": 4
         },
         {
           "time": "15:00",
@@ -280770,37 +280770,41 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "15:07",
+      "updatedAt": "15:13",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
-          "install": 1,
-          "nps": 1
+          "install": 2,
+          "nps": 2
         },
         "npsDist": {
-          "10": 1
+          "10": 2
         },
         "installDist": {
-          "5": 1
+          "5": 2
         },
         "byIndustry": {
-          "서비스[뷰티,헤어]": 1
+          "서비스[뷰티,헤어]": 2
         },
         "byTenure": {
           "구매설치": {
-            "total": 1,
+            "total": 2,
             "low": 0
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 1,
+            "low": 0
+          },
           "KPN": {
             "total": 1,
             "low": 0
@@ -280808,7 +280812,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:13",
+            "store": "플레임바버샵(FLAME BARBERSHOP)",
+            "storeId": "713021",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "그냥 일반 단말기 보다 좋음 좋으니까",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -382908,7 +382925,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 15:12",
+    "at": "2026-10-25 15:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383047,7 +383064,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 15:12",
+    "at": "2026-10-25 15:13",
     "pri": {
       "days": 0,
       "failed": [],
