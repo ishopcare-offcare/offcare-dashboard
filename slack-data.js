@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25563,
+  "version": 25564,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280970,15 +280970,32 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-26": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "07:22",
+          "store": "컴포즈커피 사당역점",
+          "biz": "52181*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포스 실행 해두었고, 앱오더에 금일 영업시간 7시 이후로 정상 설정 해두었으나 실제로 앱에서는 '준비중' 이라고 뜨는 상황이라고 하십니다. 원격 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "앱오픈 완료. 정확한 원인분석을 위해 토플 전달",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "06:22",
+      "updatedAt": "07:22",
       "voc": {
         "responses": 1,
         "install": {
@@ -383060,7 +383077,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 07:15",
+    "at": "2026-10-26 07:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383200,7 +383217,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 07:15",
+    "at": "2026-10-26 07:30",
     "pri": {
       "days": 0,
       "failed": [],
