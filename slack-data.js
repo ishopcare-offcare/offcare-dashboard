@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25359,
+  "version": 25360,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280437,12 +280437,29 @@ window.SLACK_DATA = {
       ]
     },
     "2026-10-25": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "심성현": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:16",
+          "store": "농업회사법인 대본 주식회사",
+          "biz": "60686*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "휴대폰+프+유프/ 용지 자동 컷팅되어 출력 불량으로 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "테스트 프린터 글씨 잘림 문의 정상임 안내 완료",
+          "rr": 2
+        }
+      ],
       "intake": {
         "online": 0,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:26"
@@ -280590,16 +280607,12 @@ window.SLACK_DATA = {
         "post": "1792853175.436839",
         "lastSeen": 1792872927.556
       },
-      "1792887369.758209": {
-        "post": "1792887369.758209",
-        "lastSeen": 1792888100.352,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 0
-      },
       "1792888009.554679": {
         "post": "1792888009.554679",
-        "lastSeen": 1792888100.352
+        "lastSeen": 1792888143.713,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 1
       }
     },
     "days": {
@@ -382397,8 +382410,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 1,
-        "sumMin": 3.5723631819089254,
+        "cnt": 2,
+        "sumMin": 5.446993533770243,
         "over": 0,
         "items": [
           {
@@ -382407,6 +382420,15 @@ window.SLACK_DATA = {
             "store": "농업회사법인 대본 주식회사",
             "biz": "60686*****",
             "who": "심성현",
+            "cat": "as",
+            "dmin": 12.5
+          },
+          {
+            "hm": "09:26",
+            "min": 1.9,
+            "store": "카페포지(cafe pause)",
+            "biz": "25915*****",
+            "who": "심성현",
             "cat": "as"
           }
         ]
@@ -382414,7 +382436,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 09:28",
+    "at": "2026-10-25 09:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382553,7 +382575,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 09:28",
+    "at": "2026-10-25 09:29",
     "pri": {
       "days": 0,
       "failed": [],
