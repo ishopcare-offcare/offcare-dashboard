@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4139,
- "updatedAt": "2026-10-25 13:00",
+ "version": 4140,
+ "updatedAt": "2026-10-25 14:52",
  "days": 30,
  "items": [
   {
@@ -1141,11 +1141,2404 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "스크린샷_2026-10-24_134147.png",
+     "fid": "F0CBY0FNKV0",
+     "from": "댓글",
+     "path": "menu-files/1792804161_193749-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음식",
+       "name": "페퍼로니 피자",
+       "price": 20000
+      },
+      {
+       "category": "음식",
+       "name": "스위트 플래터",
+       "price": 23000
+      },
+      {
+       "category": "음식",
+       "name": "프로슈토 칩",
+       "price": 7000
+      },
+      {
+       "category": "음식",
+       "name": "프로슈토 에 멜로네",
+       "price": 19000
+      },
+      {
+       "category": "음식",
+       "name": "미드나잇 샌드",
+       "price": 10000
+      },
+      {
+       "category": "음식",
+       "name": "무화과 브리치즈 구이",
+       "price": 20000
+      },
+      {
+       "category": "음식",
+       "name": "바닐라 아이스크림",
+       "price": 5000
+      },
+      {
+       "category": "음식",
+       "name": "[추가]올리브",
+       "price": 3000
+      },
+      {
+       "category": "음식",
+       "name": "[추가]과일치즈",
+       "price": 3000
+      },
+      {
+       "category": "음식",
+       "name": "[추가]초콜릿",
+       "price": 3000
+      },
+      {
+       "category": "음식",
+       "name": "[추가]체리",
+       "price": 2000
+      },
+      {
+       "category": "음식",
+       "name": "음식",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "브랜디 알렉산더",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "브랜디 크러스타",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "사제락 브랜디",
+       "price": 25000
+      },
+      {
+       "category": "칵테일",
+       "name": "사이드 카",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "뷰카레",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "프렌치 커넥션",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "벨지네",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "피스코 사워",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "칠카노",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "Arthur Special",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "HOWL Special",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "Evan Special",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "진 피즈",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "챈들러 김렛",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "프레시 김렛",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "래플스 슬링",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "네그로니",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "비즈 니스",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "브램블",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "콥스 리바이버",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "화이트 레이디",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "진 리키",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "파리지앵",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "사우스 사이드",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "사우스사이드 리키",
+       "price": 21000
+      },
+      {
+       "category": "칵테일",
+       "name": "진진 뮬",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "크롭 톱",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "진 마티니",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "베스퍼 마티니",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "더티 마티니",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "페구 클럽",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "하이볼",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "하이볼",
+       "price": 5000
+      },
+      {
+       "category": "칵테일",
+       "name": "하이볼",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134135.png",
+     "fid": "F0CBY04RHPC",
+     "from": "댓글",
+     "path": "menu-files/1792804161_193749-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "칵테일",
+       "name": "올드 패션드",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "페이퍼 플레인",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "골드 러쉬",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "갓 파더",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "러스티 네일",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "민트 줄렙",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "맨하탄",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "버번 밀크 펀치",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "린치버그 레모네이드",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "아이리쉬 커피",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "롭 로이",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "사제락 라이",
+       "price": 23000
+      },
+      {
+       "category": "칵테일",
+       "name": "페니실린",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "켄터키 콜로넬",
+       "price": 22000
+      },
+      {
+       "category": "칵테일",
+       "name": "블링커",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "하이랜드 쿨러",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "파이게 피즈",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "차이나 블루",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "마론 케이크",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "롬 윗 어 뷰",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "세컨드 서브",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "생제르망 피즈",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "페라리",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "스푸모니",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "아메리카노",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "차이나 블루",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "카카오 피즈",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "아프리칸 퀸",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "그래스 하퍼",
+       "price": 16000
+      },
+      {
+       "category": "칵테일",
+       "name": "피치크러쉬",
+       "price": 16000
+      },
+      {
+       "category": "칵테일",
+       "name": "도화",
+       "price": 16000
+      },
+      {
+       "category": "칵테일",
+       "name": "준벽",
+       "price": 16000
+      },
+      {
+       "category": "칵테일",
+       "name": "동해",
+       "price": 16000
+      },
+      {
+       "category": "칵테일",
+       "name": "섭리대 숲",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "용고지신",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "스윗 윗 어 뷰",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "골든 스크림",
+       "price": 15000
+      },
+      {
+       "category": "칵테일",
+       "name": "썬 팝",
+       "price": 15000
+      },
+      {
+       "category": "칵테일",
+       "name": "모아나",
+       "price": 15000
+      },
+      {
+       "category": "칵테일",
+       "name": "버진 모히또",
+       "price": 15000
+      },
+      {
+       "category": "칵테일",
+       "name": "가넷",
+       "price": 15000
+      },
+      {
+       "category": "칵테일",
+       "name": "버진 뮬",
+       "price": 15000
+      },
+      {
+       "category": "칵테일",
+       "name": "논 알콜",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "다이퀴리",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "모히또",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "보스턴 쿨러",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "쿠바 리브레",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "쿠반 맨하탄",
+       "price": 21000
+      },
+      {
+       "category": "칵테일",
+       "name": "킹스톤 네그로니",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "노네임",
+       "price": 22000
+      },
+      {
+       "category": "칵테일",
+       "name": "피나콜라다",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "까이피리냐",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "오더 메이드",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "클래식 칵테일",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "디스코 칵테일",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "기주 변경",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134104.png",
+     "fid": "F0CC1SCNPRS",
+     "from": "댓글",
+     "path": "menu-files/1792804161_193749-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "아일라",
+       "name": "킬커란 8년 쉐리 c.s",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "킬커란 8년 버번 c,s",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "킬커란 12년",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "킬커란 16년",
+       "price": 30000
+      },
+      {
+       "category": "아일라",
+       "name": "킬커란 헤빌리 피티드",
+       "price": 23000
+      },
+      {
+       "category": "아일라",
+       "name": "롱로우 피티드",
+       "price": 18000
+      },
+      {
+       "category": "아일라",
+       "name": "글렌 스코시아 캠벨타운 하버",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "글렌 스코시아 더블",
+       "price": 17000
+      },
+      {
+       "category": "아일라",
+       "name": "글렌 스코시아 15년",
+       "price": 22000
+      },
+      {
+       "category": "아일라",
+       "name": "글렌킨치 12년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "스프링뱅크 10년",
+       "price": 22000
+      },
+      {
+       "category": "아일라",
+       "name": "스프링뱅크 18년",
+       "price": 110000
+      },
+      {
+       "category": "아일라",
+       "name": "하이랜드 파크 18년",
+       "price": 40000
+      },
+      {
+       "category": "아일라",
+       "name": "하이랜드 파크 12년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "하이랜드 파크 CS 릴리즈 5",
+       "price": 30000
+      },
+      {
+       "category": "아일라",
+       "name": "아란 쉐리 CS",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "아란 소테른",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "아란 포트",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "아란 아마로네",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "아란 10년 마크 리무어",
+       "price": 29000
+      },
+      {
+       "category": "아일라",
+       "name": "탈리스커 10년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "탈리스커 8년 SR 2021",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "탈리스커 11년 SR 2022",
+       "price": 26000
+      },
+      {
+       "category": "아일라",
+       "name": "알프레드 지로 헤리티지",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "인트라바간자",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "인트라바간자 올로로소",
+       "price": 29000
+      },
+      {
+       "category": "아일라",
+       "name": "인트라바간자 모스카텔",
+       "price": 29000
+      },
+      {
+       "category": "아일라",
+       "name": "캠벨타운 위스키",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "아일라",
+       "name": "로우랜드 위스키",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "아일라",
+       "name": "헤브리디안 위스키",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "아일라",
+       "name": "아드벡 10년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "아드벡 안 오",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "아드벡 우가다일",
+       "price": 25000
+      },
+      {
+       "category": "아일라",
+       "name": "아드벡 코리브레칸",
+       "price": 30000
+      },
+      {
+       "category": "아일라",
+       "name": "고든앤맥페일 쿨일라 13년",
+       "price": 31000
+      },
+      {
+       "category": "아일라",
+       "name": "라프로익 10년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "라프로익 셀렉트",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "라프로익 쿼터 캐스크",
+       "price": 17000
+      },
+      {
+       "category": "아일라",
+       "name": "라프로익 포트우드",
+       "price": 31000
+      },
+      {
+       "category": "아일라",
+       "name": "고든앤맥페일 부나하벤 12년",
+       "price": 21000
+      },
+      {
+       "category": "아일라",
+       "name": "라가불린 12년 SR 2020",
+       "price": 31000
+      },
+      {
+       "category": "아일라",
+       "name": "라가불린 12년 SR 2022",
+       "price": 31000
+      },
+      {
+       "category": "아일라",
+       "name": "라가불린 디스틸러리",
+       "price": 29000
+      },
+      {
+       "category": "아일라",
+       "name": "라가불린 16년",
+       "price": 29000
+      },
+      {
+       "category": "아일라",
+       "name": "블랙애더 로우 캐스크 쿨일라 9년",
+       "price": 32000
+      },
+      {
+       "category": "아일라",
+       "name": "브록라디 클래식 라디",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "부나하벤 12년",
+       "price": 16000
+      },
+      {
+       "category": "아일라",
+       "name": "부나하벤 스튜라다",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "쿨일라 12년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "블랙애더 애버딘 부나하벤 10년",
+       "price": 21000
+      },
+      {
+       "category": "아일라",
+       "name": "킬호만 마키어 베이",
+       "price": 16000
+      },
+      {
+       "category": "아일라",
+       "name": "킬호만 마키어 베이 CS",
+       "price": 30000
+      },
+      {
+       "category": "아일라",
+       "name": "킬호만 사닉",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "킬호만 사닉 CS",
+       "price": 28000
+      },
+      {
+       "category": "아일라",
+       "name": "킬호만 마데이라 캐스크",
+       "price": 30000
+      },
+      {
+       "category": "아일라",
+       "name": "아일라 위스키",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "아일라",
+       "name": "보모어 12년",
+       "price": 15000
+      },
+      {
+       "category": "아일라",
+       "name": "보모어 15년",
+       "price": 20000
+      },
+      {
+       "category": "아일라",
+       "name": "보모어 18년",
+       "price": 30000
+      },
+      {
+       "category": "아일라",
+       "name": "킬호만 메즈칼 피니쉬",
+       "price": 35000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌모렌지 오리지널 12년",
+       "price": 15000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌 모렌지 퀸타 루반 14년",
+       "price": 19000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌 모렌지 라산타 15년",
+       "price": 20000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌 모렌지 더 넥타 16년",
+       "price": 23000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌모렌지 18년",
+       "price": 34000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌모렌지 시그넷",
+       "price": 40000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌드로낙 12년",
+       "price": 15000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌드로낙 15년",
+       "price": 23000
+      },
+      {
+       "category": "하이랜드",
+       "name": "글렌드로낙 21년",
+       "price": 60000
+      },
+      {
+       "category": "하이랜드",
+       "name": "달모어 12년",
+       "price": 18000
+      },
+      {
+       "category": "하이랜드",
+       "name": "달모어 12 쉐리",
+       "price": 25000
+      },
+      {
+       "category": "하이랜드",
+       "name": "달모어 15년",
+       "price": 33000
+      },
+      {
+       "category": "하이랜드",
+       "name": "달위니 15년",
+       "price": 17000
+      },
+      {
+       "category": "하이랜드",
+       "name": "에드라두어 10년",
+       "price": 17000
+      },
+      {
+       "category": "하이랜드",
+       "name": "아녹 12년",
+       "price": 15000
+      },
+      {
+       "category": "하이랜드",
+       "name": "클라이넬리쉬 14년",
+       "price": 17000
+      },
+      {
+       "category": "하이랜드",
+       "name": "오반 14년",
+       "price": 19000
+      },
+      {
+       "category": "하이랜드",
+       "name": "로크 로몬드 오리지널",
+       "price": 15000
+      },
+      {
+       "category": "하이랜드",
+       "name": "로크 로몬드 12년",
+       "price": 17000
+      },
+      {
+       "category": "하이랜드",
+       "name": "로크 로몬드 14년",
+       "price": 27000
+      },
+      {
+       "category": "하이랜드",
+       "name": "로크 로몬드 18년",
+       "price": 38000
+      },
+      {
+       "category": "하이랜드",
+       "name": "오반 12년 2021 SR",
+       "price": 37000
+      },
+      {
+       "category": "하이랜드",
+       "name": "하이랜드 위스키",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134110.png",
+     "fid": "F0CBSSNNS0M",
+     "from": "댓글",
+     "path": "menu-files/1792804161_193749-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "블렌디드",
+       "name": "오챠드 하우스",
+       "price": 17000
+      },
+      {
+       "category": "블렌디드",
+       "name": "피트 몬스터",
+       "price": 17000
+      },
+      {
+       "category": "블렌디드",
+       "name": "스파이스 트리",
+       "price": 17000
+      },
+      {
+       "category": "블렌디드",
+       "name": "헤도니즘",
+       "price": 30000
+      },
+      {
+       "category": "블렌디드",
+       "name": "에피큐리안",
+       "price": 15000
+      },
+      {
+       "category": "블렌디드",
+       "name": "티모러스 비스티",
+       "price": 15000
+      },
+      {
+       "category": "블렌디드",
+       "name": "스칼리왝",
+       "price": 15000
+      },
+      {
+       "category": "블렌디드",
+       "name": "스칼리왝 윈터",
+       "price": 22000
+      },
+      {
+       "category": "블렌디드",
+       "name": "빅 피트",
+       "price": 15000
+      },
+      {
+       "category": "블렌디드",
+       "name": "빅 피트 크리스마스",
+       "price": 23000
+      },
+      {
+       "category": "블렌디드",
+       "name": "몽키 숄더",
+       "price": 14000
+      },
+      {
+       "category": "블렌디드",
+       "name": "네이키드 그라우스",
+       "price": 14000
+      },
+      {
+       "category": "블렌디드",
+       "name": "화이트 헤더 15년",
+       "price": 25000
+      },
+      {
+       "category": "블렌디드",
+       "name": "조니워커 레드",
+       "price": 13000
+      },
+      {
+       "category": "블렌디드",
+       "name": "조니워커 블랙",
+       "price": 14000
+      },
+      {
+       "category": "블렌디드",
+       "name": "조니워커 블랙 셰리",
+       "price": 14000
+      },
+      {
+       "category": "블렌디드",
+       "name": "조니워커 그린",
+       "price": 16000
+      },
+      {
+       "category": "블렌디드",
+       "name": "조니워커 골드",
+       "price": 16000
+      },
+      {
+       "category": "블렌디드",
+       "name": "조니워커 블루",
+       "price": 41000
+      },
+      {
+       "category": "블렌디드",
+       "name": "발렌타인 17년",
+       "price": 25000
+      },
+      {
+       "category": "블렌디드",
+       "name": "블렌디드 위스키",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "블렌디드",
+       "name": "시바스 리갈 12년",
+       "price": 13000
+      },
+      {
+       "category": "블렌디드",
+       "name": "시바스 리갈 18년",
+       "price": 25000
+      },
+      {
+       "category": "블렌디드",
+       "name": "화이트 워커",
+       "price": 14000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌 알라키 10년CS",
+       "price": 25000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌 알라키 12년",
+       "price": 16000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌 알라키 15년",
+       "price": 27000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌 알라키 2012 뀌베",
+       "price": 27000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌 알라키 싱글캐스크 2007",
+       "price": 50000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "더 글렌리벳 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "더 글렌리벳 15년",
+       "price": 20000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "더 글렌리벳 18년",
+       "price": 34000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "맥캘란 12년 셰리",
+       "price": 18000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "맥캘란 12년 더블",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "맥캘란 12년 트리플",
+       "price": 25000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "맥캘란 15년 더블",
+       "price": 30000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "맥캘란 18년 더블",
+       "price": 55000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "맥캘란 클래식 컷",
+       "price": 50000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "몰트락 13년 2021 SR",
+       "price": 25000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "시그나토리 몰트락 2014",
+       "price": 27000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "아벨라워 12년",
+       "price": 16000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "아벨라워 14년",
+       "price": 26000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "아벨라워 아부나흐",
+       "price": 30000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "발베니 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "발베니 12년 싱글캐스크",
+       "price": 23000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "발베니 14년",
+       "price": 25000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "발베니 18년 P.X",
+       "price": 65000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌로티스 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌로티스 위스키 메이커스 컷",
+       "price": 25000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌그란트 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌그란트 15년",
+       "price": 20000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌그란트 18년",
+       "price": 34000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌파클라스 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌파클라스 15년",
+       "price": 27000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌파클라스 105",
+       "price": 25000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "크라겐모어 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "벤로막 10년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "벤로막 2012 배치 2",
+       "price": 21000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "싱글톤 12년 더프 타운",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "싱글톤 15년 더프 타운",
+       "price": 17000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌피딕 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌피딕 15년",
+       "price": 18000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌피딕 18년",
+       "price": 31000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌피딕 21년",
+       "price": 55000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "벤리악 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "스페이사이드 위스키",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "글렌버기 12년",
+       "price": 15000
+      },
+      {
+       "category": "스페이 사이드",
+       "name": "발베니 테이스팅",
+       "price": 55000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134120.png",
+     "fid": "F0CBGQ6AW6T",
+     "from": "댓글",
+     "path": "menu-files/1792804161_193749-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "칵테일",
+       "name": "모스코 뮬",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "코스모폴리탄",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "발랄라이카",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "에스프레소 마티니",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "프렌치 마티니",
+       "price": 17000
+      },
+      {
+       "category": "칵테일",
+       "name": "롱 아일랜드 아이스티",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "보드카 마티니",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "토미스 마가리타",
+       "price": 20000
+      },
+      {
+       "category": "칵테일",
+       "name": "마가리타",
+       "price": 22000
+      },
+      {
+       "category": "칵테일",
+       "name": "팔로마",
+       "price": 18000
+      },
+      {
+       "category": "칵테일",
+       "name": "생일주",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "슈터",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "칵테일",
+       "name": "칵테일 연습",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "브랜디",
+       "name": "타베르네로 이 딸리아",
+       "price": 13000
+      },
+      {
+       "category": "브랜디",
+       "name": "레미 마르탱 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "까뮤 인텐슬리 아로마틱 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "까뮤 보더리 VSOP",
+       "price": 18000
+      },
+      {
+       "category": "브랜디",
+       "name": "피에르 페랑 1840",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "폴 지로 엘레강스",
+       "price": 18000
+      },
+      {
+       "category": "브랜디",
+       "name": "헤네시 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "헤네시 X.O",
+       "price": 45000
+      },
+      {
+       "category": "브랜디",
+       "name": "다니엘 부주 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "다니엘 부주 로얄",
+       "price": 30000
+      },
+      {
+       "category": "브랜디",
+       "name": "폴 지로 비에이 리저브",
+       "price": 36000
+      },
+      {
+       "category": "브랜디",
+       "name": "샤또 드 로바드",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "뷔스넬",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "불라 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "샤또 드 브뤼 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "크리스찬 드루잉 VSOP",
+       "price": 15000
+      },
+      {
+       "category": "브랜디",
+       "name": "브랜디",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "아메리칸",
+       "name": "와일드 터키 101 버번",
+       "price": 13000
+      },
+      {
+       "category": "아메리칸",
+       "name": "와일드 터키 라이",
+       "price": 14000
+      },
+      {
+       "category": "아메리칸",
+       "name": "와일드 터키 8년 101",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "와일드 터키 12년",
+       "price": 20000
+      },
+      {
+       "category": "아메리칸",
+       "name": "와일드 터키 13년",
+       "price": 17000
+      },
+      {
+       "category": "아메리칸",
+       "name": "러셀 싱글 배럴",
+       "price": 17000
+      },
+      {
+       "category": "아메리칸",
+       "name": "와일드 터키 레어 브리드",
+       "price": 17000
+      },
+      {
+       "category": "아메리칸",
+       "name": "베이커스",
+       "price": 17000
+      },
+      {
+       "category": "아메리칸",
+       "name": "믹터스 버번",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "믹터스 싱글 배럴 라이",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "리뎀션 버번",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "리뎀션 라이",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "납 크릭 버번",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "납 크릭 라이",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "불렛 버번",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "불렛 라이",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "1792 스몰 배치",
+       "price": 14000
+      },
+      {
+       "category": "아메리칸",
+       "name": "1792 풀 프루프",
+       "price": 25000
+      },
+      {
+       "category": "아메리칸",
+       "name": "버팔로 트레이스",
+       "price": 13000
+      },
+      {
+       "category": "아메리칸",
+       "name": "사제락 라이",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "메이커스 마크",
+       "price": 13000
+      },
+      {
+       "category": "아메리칸",
+       "name": "메이커스 마크 46",
+       "price": 16000
+      },
+      {
+       "category": "아메리칸",
+       "name": "일라이저 크레이그 스몰 배치",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "우드포드 리저브",
+       "price": 15000
+      },
+      {
+       "category": "아메리칸",
+       "name": "윌렛 라이",
+       "price": 26000
+      },
+      {
+       "category": "아메리칸",
+       "name": "아메리칸 위스키",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134125.png",
+     "fid": "F0CBY0G0SR0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "꽁테 디 깜뻬아노 프리미티보",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "매누아 그리뇽",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "크리오스 토론테스",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "아마란타 몬테풀치아노",
+       "price": 130000
+      },
+      {
+       "category": "",
+       "name": "사라코 모스카토 다스티",
+       "price": 100000
+      },
+      {
+       "category": "",
+       "name": "헨켈 블랑 드 블랑",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "멉 그랑 꼬르동",
+       "price": 160000
+      },
+      {
+       "category": "",
+       "name": "루이 페드리에 브뤼",
+       "price": 80000
+      },
+      {
+       "category": "",
+       "name": "기네스",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "코로나",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "글렌모렌지 디 오리지널 12년 B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "글렌모렌지 퀸타 루반 14년 B",
+       "price": 290000
+      },
+      {
+       "category": "",
+       "name": "글렌모렌지 라산타 15년 B",
+       "price": 290000
+      },
+      {
+       "category": "",
+       "name": "글렌드로낙 12년 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "달모어 12년 B",
+       "price": 290000
+      },
+      {
+       "category": "",
+       "name": "달위니 15년 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "글렌피딕 12년 B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "글렌피딕 15년 B",
+       "price": 290000
+      },
+      {
+       "category": "",
+       "name": "글렌피딕 18년 B",
+       "price": 440000
+      },
+      {
+       "category": "",
+       "name": "발베니 12년 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "발베니 14년 B",
+       "price": 360000
+      },
+      {
+       "category": "",
+       "name": "글렌알라키 12년 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "아벨라위 12년 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "아드벡 10년 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "라프로익 쿼터 캐스크 B",
+       "price": 270000
+      },
+      {
+       "category": "",
+       "name": "아란 소테른 B",
+       "price": 340000
+      },
+      {
+       "category": "",
+       "name": "아란 아마로네 B",
+       "price": 340000
+      },
+      {
+       "category": "",
+       "name": "스톨리 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "디플로마티코 익스클루시바 B",
+       "price": 230000
+      },
+      {
+       "category": "",
+       "name": "핸드릭스 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "호세 쿠엘보 에스페샬 레포사도 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "레미마틴 VSOP B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "헤네시 VSOP B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "다니엘 부주 VSOP B",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "와일드 터키8년 101 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "잭 다니엘 NO.7 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "포 로지스 싱글 배럴 B",
+       "price": 230000
+      },
+      {
+       "category": "",
+       "name": "올드 파 12년 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "몽키 숄더 B",
+       "price": 180000
+      },
+      {
+       "category": "",
+       "name": "조니워커 블랙 B",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "조니워커 블루 500 B",
+       "price": 480000
+      },
+      {
+       "category": "",
+       "name": "발렌타인 17년 B",
+       "price": 360000
+      },
+      {
+       "category": "",
+       "name": "로얄 살루트 21년 B",
+       "price": 530000
+      },
+      {
+       "category": "",
+       "name": "바틀",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134130.png",
+     "fid": "F0CBSSPB77X",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "올드 파 12년",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "듀워스 12년",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "로얄 살루트 21년",
+       "price": 42000
+      },
+      {
+       "category": "",
+       "name": "히비키 하모니",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "산토리 가쿠빈",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "부쉬밀 오리지널",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "부쉬밀 블랙 부쉬",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "제임슨",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "레드브레스트 12년",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "산시바 21년",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "더 글렌리벳 12년 B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "더 글렌리벳 15년 B",
+       "price": 340000
+      },
+      {
+       "category": "",
+       "name": "더 글렌리벳 18년 B",
+       "price": 450000
+      },
+      {
+       "category": "",
+       "name": "글렌알라키 15년",
+       "price": 400000
+      },
+      {
+       "category": "",
+       "name": "하이랜드 파크 12년 B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "라프로익 10년 B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "조니워커 그린 B",
+       "price": 250000
+      },
+      {
+       "category": "",
+       "name": "우드포드 리저브",
+       "price": 230000
+      },
+      {
+       "category": "",
+       "name": "몽키 47 B",
+       "price": 230000
+      },
+      {
+       "category": "",
+       "name": "옐로우 로즈 아메리칸",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "옐로우 로즈 해리스 카운티",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "옐로우 로즈 아웃로우 버번",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "잭 다니엘 no7",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "잭 다니엘 허니",
+       "price": 14000
+      },
+      {
+       "category": "",
+       "name": "포 로지스 싱글 배럴",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "노아스밀",
+       "price": 22000
+      },
+      {
+       "category": "",
+       "name": "부커스",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "이글레어 10년",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "와일드터키 켄터키 스피릿",
+       "price": 18000
+      },
+      {
+       "category": "",
+       "name": "타운 브랜치 트루 캐스크",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "타운 브랜치 싱글 배럴",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "제임스 이 페퍼 1776 버번",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "제임스 이 페퍼 1776 라이",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "올드 페퍼 라이 싱글 배럴",
+       "price": 22000
+      },
+      {
+       "category": "",
+       "name": "리젠트",
+       "price": 17000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134115.png",
+     "fid": "F0CBGQ714TH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "칵테일",
+       "name": "올드 쿠반",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "화이트 로터스",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "몽생미셸",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "할리스코 플라워",
+       "price": 19000
+      },
+      {
+       "category": "칵테일",
+       "name": "쿼터 센츄리",
+       "price": 19000
+      },
+      {
+       "category": "스피릿",
+       "name": "포 필라스 레어 드라이",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "포 필라스 네이비 스트렝스",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "포 필라스 블러디 쉬라즈",
+       "price": 23000
+      },
+      {
+       "category": "스피릿",
+       "name": "포 필라스 셰리 캐스크",
+       "price": 18000
+      },
+      {
+       "category": "스피릿",
+       "name": "포 필라스 샤도네이 배럴",
+       "price": 18000
+      },
+      {
+       "category": "스피릿",
+       "name": "포 필라스 2022 크리스마스",
+       "price": 23000
+      },
+      {
+       "category": "스피릿",
+       "name": "핸드릭스",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "핸드릭스 루나",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "핸드릭스 넵튜니아",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "핸드릭스 플로라",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "더 보타니스트",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "마틴 밀러",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "르",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "볼스 쥬네버",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "몽키 47",
+       "price": 18000
+      },
+      {
+       "category": "스피릿",
+       "name": "마레",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "No.3",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "수이",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "헤이만스 슬로우",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "헤이만스 올드 탐",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "비피터 24",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "텐커레이 넘버텐",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "잔술",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "스피릿",
+       "name": "벨루가 노블",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "벨베디어",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "그레이 구스",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "시락",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "케텔 원",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "선비 보드카",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "크리스탈 헤드",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "호세 트레디셔널 레포사도",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "1800 레포사도",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "1800 아네호",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "몬테 알반 메즈칼",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "돈 훌리오 블랑코",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "패트론 실버",
+       "price": 17000
+      },
+      {
+       "category": "스피릿",
+       "name": "패트론 레포사도",
+       "price": 19000
+      },
+      {
+       "category": "스피릿",
+       "name": "패트론 아네호",
+       "price": 21000
+      },
+      {
+       "category": "스피릿",
+       "name": "디플로마티코 플라나스",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "디플로마티코 만투아노",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "디플로마티코 익스크루시바",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "골드 오브 모리셔스 다크",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "골드 오브 모리셔스 솔레라 5",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "범부 오리지날",
+       "price": 14000
+      },
+      {
+       "category": "스피릿",
+       "name": "돈 파파 7년",
+       "price": 15000
+      },
+      {
+       "category": "스피릿",
+       "name": "바카디 8년",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "스미스 크로스 자메이카",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "고슬링 블랙 실",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "자카파 23",
+       "price": 18000
+      },
+      {
+       "category": "스피릿",
+       "name": "고슬링 151",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "플랜테이션 마일 오브 피지",
+       "price": 13000
+      },
+      {
+       "category": "스피릿",
+       "name": "플랜테이션 XO",
+       "price": 18000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷_2026-10-24_134141.png",
+     "fid": "F0CCSGX4FR6",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "차지",
+       "name": "킵 차지",
+       "price": 10000
+      },
+      {
+       "category": "차지",
+       "name": "브로큰 차지",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "차지",
+       "name": "차지",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "차지",
+       "name": "결제 완료",
+       "price": 0
+      },
+      {
+       "category": "음료",
+       "name": "탄산수",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "주스",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "커피",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "음료",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "캡틴 Q",
+       "name": "GLASS",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "캡틴 Q",
+       "name": "BOTTLE",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1792818310.263579",
+   "rc": 3,
+   "lr": "1792907312.440069",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
