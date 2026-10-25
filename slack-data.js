@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25503,
+  "version": 25504,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280794,24 +280794,24 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "18:50",
+      "updatedAt": "18:54",
       "voc": {
-        "responses": 9,
+        "responses": 10,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 9,
+          "count": 10,
           "low": 0
         },
         "high": {
           "install": 3,
-          "nps": 8
+          "nps": 9
         },
         "npsDist": {
           "8": 1,
-          "10": 8
+          "10": 9
         },
         "installDist": {
           "4": 1,
@@ -280822,12 +280822,12 @@ window.SLACK_DATA = {
           "서비스[뷰티,헤어]": 3
         },
         "byTenure": {
-          "1개월": {
-            "total": 1,
+          "3개월": {
+            "total": 3,
             "low": 0
           },
-          "3개월": {
-            "total": 2,
+          "1개월": {
+            "total": 1,
             "low": 0
           },
           "6개월": {
@@ -280840,6 +280840,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 3,
+            "low": 0
+          },
           "DAOU": {
             "total": 1,
             "low": 0
@@ -280854,10 +280858,6 @@ window.SLACK_DATA = {
           },
           "KIS": {
             "total": 1,
-            "low": 0
-          },
-          "KPN": {
-            "total": 2,
             "low": 0
           },
           "KSNET": {
@@ -382948,7 +382948,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 18:50",
+    "at": "2026-10-25 18:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383087,7 +383087,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 18:50",
+    "at": "2026-10-25 18:54",
     "pri": {
       "days": 0,
       "failed": [],
