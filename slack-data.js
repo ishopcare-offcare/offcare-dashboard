@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25447,
+  "version": 25448,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,8 +280450,8 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "심성현": 9,
-          "서상원": 3
+          "서상원": 4,
+          "심성현": 9
         },
         "onboarding": {
           "심성현": 1
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:42",
+          "store": "비스트로 웨일",
+          "biz": "30930*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "컴퓨터+프+터미널/ 터미널 용지 출력 불가로 재설정 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "iptime / lg 공유가 엇갈림",
+          "rr": 1
+        },
         {
           "time": "13:34",
           "store": "루나리치푸드",
@@ -280694,7 +280706,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 5,
         "unknown": 0
       },
@@ -280866,13 +280878,6 @@ window.SLACK_DATA = {
       "1792900800.429139": {
         "post": "1792900800.429139",
         "lastSeen": 1792900823.053
-      },
-      "1792903322.905389": {
-        "post": "1792903322.905389",
-        "lastSeen": 1792904032.059,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 15
       }
     },
     "days": {
@@ -382815,14 +382820,15 @@ window.SLACK_DATA = {
             "store": "비스트로 웨일",
             "biz": "30930*****",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 12.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:54",
+    "at": "2026-10-25 13:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382961,7 +382967,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:53",
+    "at": "2026-10-25 13:56",
     "pri": {
       "days": 0,
       "failed": [],
