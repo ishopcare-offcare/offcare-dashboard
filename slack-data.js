@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25355,
+  "version": 25356,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280592,7 +280592,10 @@ window.SLACK_DATA = {
       },
       "1792887369.758209": {
         "post": "1792887369.758209",
-        "lastSeen": 1792887440.349
+        "lastSeen": 1792887727.851,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 0
       }
     },
     "days": {
@@ -382388,11 +382391,26 @@ window.SLACK_DATA = {
             "dmin": 229.1
           }
         ]
+      },
+      "2026-10-25": {
+        "cnt": 1,
+        "sumMin": 3.5723631819089254,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:16",
+            "min": 3.6,
+            "store": "농업회사법인 대본 주식회사",
+            "biz": "60686*****",
+            "who": "심성현",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 09:17",
+    "at": "2026-10-25 09:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382531,7 +382549,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 09:17",
+    "at": "2026-10-25 09:22",
     "pri": {
       "days": 0,
       "failed": [],
