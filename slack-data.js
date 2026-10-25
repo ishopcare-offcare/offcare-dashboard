@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25459,
+  "version": 25460,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280449,13 +280449,13 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
+        "as": {
+          "심성현": 11,
+          "서상원": 4
+        },
         "booking": {
           "서상원": 3,
           "심성현": 4
-        },
-        "as": {
-          "심성현": 10,
-          "서상원": 4
         },
         "onboarding": {
           "심성현": 1
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:30",
+          "store": "해옫 강릉",
+          "biz": "42144*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "타사 CAT+프 / 프린터기로 연결 지원 요청드립니다 (A케이블 소지)",
+          "hw": "",
+          "intake": "online",
+          "note": "KOCES CAT 프론트, 포스 연동 완료",
+          "rr": 2
+        },
         {
           "time": "14:14",
           "store": "030커피룸",
@@ -280730,7 +280742,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 5,
         "unknown": 0
       },
@@ -280895,13 +280907,6 @@ window.SLACK_DATA = {
       "1792900800.429139": {
         "post": "1792900800.429139",
         "lastSeen": 1792900823.053
-      },
-      "1792906252.593919": {
-        "post": "1792906252.593919",
-        "lastSeen": 1792906658.446,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 17
       }
     },
     "days": {
@@ -382862,14 +382867,15 @@ window.SLACK_DATA = {
             "store": "해옫 강릉",
             "biz": "42144*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 14:37",
+    "at": "2026-10-25 14:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383008,7 +383014,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 14:37",
+    "at": "2026-10-25 14:41",
     "pri": {
       "days": 0,
       "failed": [],
