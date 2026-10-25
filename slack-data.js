@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25504,
+  "version": 25505,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 8,
+          "서상원": 9,
           "심성현": 11
         },
         "booking": {
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:50",
+          "store": "팔레트 젤라또",
+          "biz": "87323*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "포터프 사용 중 터미널 작동불가로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "무한 업데이트 내일 교체방문",
+          "rr": 1
+        },
         {
           "time": "16:00",
           "store": "용용선생 신불당점",
@@ -280790,7 +280802,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 21,
+        "online": 22,
         "offline": 6,
         "unknown": 0
       },
@@ -382948,7 +382960,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 18:55",
+    "at": "2026-10-25 18:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383087,7 +383099,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 18:54",
+    "at": "2026-10-25 18:59",
     "pri": {
       "days": 0,
       "failed": [],
