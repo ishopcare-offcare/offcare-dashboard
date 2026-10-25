@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25500,
+  "version": 25501,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280794,24 +280794,24 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "16:54",
+      "updatedAt": "18:39",
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 8,
+          "count": 9,
           "low": 0
         },
         "high": {
           "install": 3,
-          "nps": 7
+          "nps": 8
         },
         "npsDist": {
           "8": 1,
-          "10": 7
+          "10": 8
         },
         "installDist": {
           "4": 1,
@@ -280822,6 +280822,10 @@ window.SLACK_DATA = {
           "서비스[뷰티,헤어]": 3
         },
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 2,
             "low": 0
@@ -280836,6 +280840,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "DAOU": {
+            "total": 1,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 3,
             "low": 0
@@ -382940,7 +382948,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 18:30",
+    "at": "2026-10-25 18:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383079,7 +383087,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 18:30",
+    "at": "2026-10-25 18:39",
     "pri": {
       "days": 0,
       "failed": [],
