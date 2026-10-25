@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25470,
+  "version": 25471,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 5,
+          "서상원": 6,
           "심성현": 11
         },
         "booking": {
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:07",
+          "store": "클로버케이푸드랩",
+          "biz": "27107*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "프론트/ 7979 에러 발생하여 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 3
+        },
         {
           "time": "15:00",
           "store": "베니베니",
@@ -280754,7 +280766,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 5,
         "unknown": 0
       },
@@ -280919,13 +280931,6 @@ window.SLACK_DATA = {
       "1792900800.429139": {
         "post": "1792900800.429139",
         "lastSeen": 1792900823.053
-      },
-      "1792908467.191589": {
-        "post": "1792908467.191589",
-        "lastSeen": 1792908680.124,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 18
       }
     },
     "days": {
@@ -382895,14 +382900,15 @@ window.SLACK_DATA = {
             "store": "클로버케이푸드랩",
             "biz": "27107*****",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 4.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 15:11",
+    "at": "2026-10-25 15:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383041,7 +383047,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 15:11",
+    "at": "2026-10-25 15:12",
     "pri": {
       "days": 0,
       "failed": [],
