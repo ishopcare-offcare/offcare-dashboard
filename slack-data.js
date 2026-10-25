@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25430,
+  "version": 25431,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280795,11 +280795,14 @@ window.SLACK_DATA = {
       },
       "1792900800.647559": {
         "post": "1792900800.647559",
-        "lastSeen": 1792901548.643
+        "lastSeen": 1792901619.082,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 12
       },
       "1792901095.396839": {
         "post": "1792901095.396839",
-        "lastSeen": 1792901548.643,
+        "lastSeen": 1792901619.082,
         "r": 1,
         "day": "2026-10-25",
         "idx": 11
@@ -382600,8 +382603,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 12,
-        "sumMin": 216.28792937199276,
+        "cnt": 13,
+        "sumMin": 229.34151172240576,
         "over": 3,
         "items": [
           {
@@ -382710,13 +382713,21 @@ window.SLACK_DATA = {
             "biz": "32142*****",
             "who": "심성현",
             "cat": "as"
+          },
+          {
+            "hm": "13:00",
+            "min": 13.1,
+            "store": "소노키라멘 한양대점",
+            "biz": "30313*****",
+            "who": "심성현",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:12",
+    "at": "2026-10-25 13:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382855,7 +382866,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:12",
+    "at": "2026-10-25 13:13",
     "pri": {
       "days": 0,
       "failed": [],
