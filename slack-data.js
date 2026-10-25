@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25439,
+  "version": 25440,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280449,6 +280449,9 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "as": {
           "심성현": 8,
           "서상원": 2
@@ -280460,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:30",
+          "store": "브레인코칭 감성융합연구소 성산점",
+          "biz": "43385*****",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "VAN 변경 ( KCP -&gt; KPN) 노트북 + 프론트 + 유선프린터 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "KPN 온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "13:04",
           "store": "최임선맘스테라피",
@@ -280655,11 +280670,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "13:34",
+      "updatedAt": "13:42",
       "voc": {
         "responses": 1,
         "install": {
@@ -280830,14 +280845,18 @@ window.SLACK_DATA = {
       },
       "1792902607.787809": {
         "post": "1792902607.787809",
-        "lastSeen": 1792903066.839,
+        "lastSeen": 1792903333.088,
         "r": 1,
         "day": "2026-10-25",
         "idx": 13
       },
       "1792902878.452109": {
         "post": "1792902878.452109",
-        "lastSeen": 1792903066.839
+        "lastSeen": 1792903333.088
+      },
+      "1792903322.905389": {
+        "post": "1792903322.905389",
+        "lastSeen": 1792903333.088
       }
     },
     "days": {
@@ -382769,7 +382788,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:37",
+    "at": "2026-10-25 13:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382908,7 +382927,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:37",
+    "at": "2026-10-25 13:42",
     "pri": {
       "days": 0,
       "failed": [],
