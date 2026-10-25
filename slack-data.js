@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25478,
+  "version": 25479,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,7 +280450,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "서상원": 6,
+          "서상원": 7,
           "심성현": 11
         },
         "booking": {
@@ -280463,6 +280463,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:31",
+          "store": "주식회사 드루어리",
+          "biz": "11688*****",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "포스기 인터넷 연결끊김으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "인터넷 불안정 모뎀 재부팅 후 동일증상시 kt 장애접수",
+          "rr": 1
+        },
         {
           "time": "15:07",
           "store": "클로버케이푸드랩",
@@ -280766,7 +280778,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 5,
         "unknown": 0
       },
@@ -382942,7 +382954,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 15:32",
+    "at": "2026-10-25 15:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383081,7 +383093,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 15:32",
+    "at": "2026-10-25 15:41",
     "pri": {
       "days": 0,
       "failed": [],
