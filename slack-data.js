@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25394,
+  "version": 25395,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280439,7 +280439,7 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "심성현": 3
+          "심성현": 4
         },
         "booking": {
           "심성현": 3
@@ -280447,6 +280447,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:41",
+          "store": "육미",
+          "biz": "66234*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프론트 또는 캣에서 온보딩 메시지 발생인듯 합니다.매장에 계시데요",
+          "hw": "",
+          "intake": "offline",
+          "note": "인터넷 연결 후 정상",
+          "rr": 1
+        },
         {
           "time": "10:34",
           "store": "드롭탑 세종도담점",
@@ -280524,7 +280536,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "11:00",
@@ -280700,16 +280712,9 @@ window.SLACK_DATA = {
         "post": "1792853175.436839",
         "lastSeen": 1792872927.556
       },
-      "1792892462.341479": {
-        "post": "1792892462.341479",
-        "lastSeen": 1792893676.084,
-        "r": 1,
-        "day": "2026-10-25",
-        "idx": 5
-      },
       "1792893601.702749": {
         "post": "1792893601.702749",
-        "lastSeen": 1792893676.084
+        "lastSeen": 1792893720.166
       }
     },
     "days": {
@@ -382562,14 +382567,15 @@ window.SLACK_DATA = {
             "store": "육미",
             "biz": "66234*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 20.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 11:01",
+    "at": "2026-10-25 11:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382708,7 +382714,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 11:01",
+    "at": "2026-10-25 11:02",
     "pri": {
       "days": 0,
       "failed": [],
