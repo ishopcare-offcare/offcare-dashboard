@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4137,
- "updatedAt": "2026-10-25 11:04",
+ "version": 4138,
+ "updatedAt": "2026-10-25 12:15",
  "days": 30,
  "items": [
   {
@@ -61222,35 +61222,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790308208864679"
-  },
-  {
-   "ts": "1790305908.338549",
-   "date": "2026-09-25",
-   "time": "12:11",
-   "store": "텍사스",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 텍사스 메뉴판 보내드려요. 오늘 오후 5시 이전까지 부탁 드리겠습니다\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0d68b862cd6e60>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "혹시 ··· 인가욥!",
-    "넴 맞습니다~!"
-   ],
-   "rc": 2,
-   "lr": "1790308243.075399",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0d68b862cd6e60",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790305908338549"
   }
  ],
  "ocr": {
