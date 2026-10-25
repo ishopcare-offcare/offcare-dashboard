@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25455,
+  "version": 25456,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280449,20 +280449,32 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
+        "booking": {
+          "서상원": 3,
+          "심성현": 4
+        },
         "as": {
           "심성현": 10,
           "서상원": 4
         },
         "onboarding": {
           "심성현": 1
-        },
-        "booking": {
-          "서상원": 2,
-          "심성현": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:14",
+          "store": "030커피룸",
+          "biz": "51931*****",
+          "cat": "booking",
+          "emp": "서상원",
+          "req": "포프(아이패드) + 유프 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "7D설정필요 익일 한시 예약",
+          "rr": 1
+        },
         {
           "time": "14:08",
           "store": "태영생막창 둔포테크노밸리점",
@@ -280718,7 +280730,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 5,
         "unknown": 0
       },
@@ -382842,7 +382854,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 14:16",
+    "at": "2026-10-25 14:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382981,7 +382993,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 14:15",
+    "at": "2026-10-25 14:17",
     "pri": {
       "days": 0,
       "failed": [],
