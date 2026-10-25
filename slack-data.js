@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25507,
+  "version": 25508,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280806,22 +280806,23 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "18:54",
+      "updatedAt": "19:24",
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
           "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 10,
-          "low": 0
+          "count": 11,
+          "low": 1
         },
         "high": {
           "install": 3,
           "nps": 9
         },
         "npsDist": {
+          "0": 1,
           "8": 1,
           "10": 9
         },
@@ -280835,8 +280836,8 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "3개월": {
-            "total": 3,
-            "low": 0
+            "total": 4,
+            "low": 1
           },
           "1개월": {
             "total": 1,
@@ -280852,6 +280853,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 1
+          },
           "KPN": {
             "total": 3,
             "low": 0
@@ -280868,17 +280873,38 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 0
           },
-          "KIS": {
-            "total": 1,
-            "low": 0
-          },
           "KSNET": {
             "total": 1,
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1
+        },
+        "alerts": [
+          {
+            "time": "19:24",
+            "store": "제주아홉 혼술바 인천검단 아라역점",
+            "storeId": "538463",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "네이버단말기처럼 네이버플레이스에 도움되는기능이 없음",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "16:54",
@@ -382960,7 +382986,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 19:15",
+    "at": "2026-10-25 19:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383099,7 +383125,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 19:15",
+    "at": "2026-10-25 19:24",
     "pri": {
       "days": 0,
       "failed": [],
