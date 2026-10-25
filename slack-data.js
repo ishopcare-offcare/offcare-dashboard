@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25413,
+  "version": 25414,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280456,7 +280456,20 @@ window.SLACK_DATA = {
           "심성현": 3
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:30",
+          "store": "카페포지(cafe pause)",
+          "biz": "25915*****",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "offline",
+          "req": "노트북+프// 대형 키오스크 오류 발생으로 지원 요청드립니다.",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:00",
@@ -280559,7 +280572,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 4,
+        "offline": 5,
         "unknown": 0
       },
       "updatedAt": "12:01",
@@ -280733,15 +280746,15 @@ window.SLACK_DATA = {
       },
       "1792896691.658089": {
         "post": "1792896691.658089",
-        "lastSeen": 1792898125.072
+        "lastSeen": 1792899033.444
       },
       "1792896755.506629": {
         "post": "1792896755.506629",
-        "lastSeen": 1792898125.072
+        "lastSeen": 1792899033.444
       },
       "1792897289.379499": {
         "post": "1792897289.379499",
-        "lastSeen": 1792898125.072
+        "lastSeen": 1792899033.444
       }
     },
     "days": {
@@ -382611,7 +382624,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 12:15",
+    "at": "2026-10-25 12:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382750,7 +382763,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 12:15",
+    "at": "2026-10-25 12:30",
     "pri": {
       "days": 0,
       "failed": [],
