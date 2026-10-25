@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25442,
+  "version": 25443,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280857,14 +280857,17 @@ window.SLACK_DATA = {
       },
       "1792902878.452109": {
         "post": "1792902878.452109",
-        "lastSeen": 1792903479.736,
+        "lastSeen": 1792903526.729,
         "r": 1,
         "day": "2026-10-25",
         "idx": 14
       },
       "1792903322.905389": {
         "post": "1792903322.905389",
-        "lastSeen": 1792903479.736
+        "lastSeen": 1792903526.729,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 15
       }
     },
     "days": {
@@ -382662,8 +382665,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 15,
-        "sumMin": 243.85617975393933,
+        "cnt": 16,
+        "sumMin": 246.86163160403572,
         "over": 3,
         "items": [
           {
@@ -382799,13 +382802,21 @@ window.SLACK_DATA = {
             "biz": "34321*****",
             "who": "심성현",
             "cat": "as"
+          },
+          {
+            "hm": "13:42",
+            "min": 3,
+            "store": "비스트로 웨일",
+            "biz": "30930*****",
+            "who": "서상원",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 13:44",
+    "at": "2026-10-25 13:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382944,7 +382955,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 13:44",
+    "at": "2026-10-25 13:45",
     "pri": {
       "days": 0,
       "failed": [],
