@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25389,
+  "version": 25390,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280438,15 +280438,27 @@ window.SLACK_DATA = {
     },
     "2026-10-25": {
       "counts": {
-        "booking": {
+        "as": {
           "심성현": 3
         },
-        "as": {
-          "심성현": 2
+        "booking": {
+          "심성현": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:34",
+          "store": "드롭탑 세종도담점",
+          "biz": "83237*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "프론트 인터넷 연결안됨. Wifi 연결 확인부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "드롭탑 와이파이 타기기 모두 연결 불가 공유기 점검 요청 유선은 가능한 상태이며 프론트 와이파이 미설정 상태로 결제 테스트 완료",
+          "rr": 2
+        },
         {
           "time": "10:00",
           "store": "시크하게 Hair 대평점",
@@ -280512,7 +280524,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "10:42",
@@ -280690,7 +280702,7 @@ window.SLACK_DATA = {
       },
       "1792892462.341479": {
         "post": "1792892462.341479",
-        "lastSeen": 1792892555.967
+        "lastSeen": 1792892725.721
       }
     },
     "days": {
@@ -382542,7 +382554,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-25 10:42",
+    "at": "2026-10-25 10:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382681,7 +382693,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 10:42",
+    "at": "2026-10-25 10:45",
     "pri": {
       "days": 0,
       "failed": [],
