@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25415,
+  "version": 25416,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280450,27 +280450,26 @@ window.SLACK_DATA = {
     "2026-10-25": {
       "counts": {
         "as": {
-          "심성현": 5
+          "심성현": 6
         },
         "booking": {
           "심성현": 3
         }
       },
-      "pending": [
+      "pending": [],
+      "done": [
         {
           "time": "11:30",
           "store": "카페포지(cafe pause)",
           "biz": "25915*****",
-          "handler": "심성현",
           "cat": "as",
-          "intake": "offline",
+          "emp": "심성현",
           "req": "노트북+프// 대형 키오스크 오류 발생으로 지원 요청드립니다.",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
-      "done": [
+          "hw": "",
+          "intake": "offline",
+          "note": "/ 완료",
+          "rr": 2
+        },
         {
           "time": "11:00",
           "store": "온결네일",
@@ -280746,15 +280745,18 @@ window.SLACK_DATA = {
       },
       "1792896691.658089": {
         "post": "1792896691.658089",
-        "lastSeen": 1792899163.374
+        "lastSeen": 1792899478.438,
+        "r": 1,
+        "day": "2026-10-25",
+        "idx": 7
       },
       "1792896755.506629": {
         "post": "1792896755.506629",
-        "lastSeen": 1792899163.374
+        "lastSeen": 1792899478.438
       },
       "1792897289.379499": {
         "post": "1792897289.379499",
-        "lastSeen": 1792899163.374
+        "lastSeen": 1792899478.438
       }
     },
     "days": {
@@ -382552,9 +382554,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-25": {
-        "cnt": 7,
-        "sumMin": 63.16952311992645,
-        "over": 0,
+        "cnt": 8,
+        "sumMin": 106.99032164017359,
+        "over": 1,
         "items": [
           {
             "hm": "09:16",
@@ -382618,13 +382620,21 @@ window.SLACK_DATA = {
             "who": "심성현",
             "cat": "as",
             "dmin": 7.1
+          },
+          {
+            "hm": "11:51",
+            "min": 43.8,
+            "store": "꽈백최선생 일산주엽점",
+            "biz": "13307*****",
+            "who": "서상원",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-25 12:32",
+    "at": "2026-10-25 12:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -382763,7 +382773,7 @@ window.SLACK_DATA = {
     "2026-10-25": 2
   },
   "noteMig": {
-    "at": "2026-10-25 12:32",
+    "at": "2026-10-25 12:37",
     "pri": {
       "days": 0,
       "failed": [],
