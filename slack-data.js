@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25636,
+  "version": 25637,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280972,11 +280972,11 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "고경림": 3,
+          "김동욱": 8,
           "송태양": 4,
           "배선유": 2,
           "박하림": 2,
-          "심성현": 3,
-          "김동욱": 7
+          "심성현": 3
         },
         "booking": {
           "김동욱": 1
@@ -280998,6 +280998,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "프론트 - 프린터설정이 되어있지않음 • 설정후 정상출력확인 완료 설정후 정상출력확인 완료",
+          "rr": 1
+        },
+        {
+          "time": "10:43",
+          "store": "플라워",
+          "biz": "82314*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "대형키오스크/ 방문 시 하드웨어만 설치됨/ 토스 프로그램 설치 및 세팅 지원 요청드립니다.",
+          "hw": "만 설치됨/ 토스 프로그램 설치 및 세팅 지원 요청드립니다.",
+          "intake": "online",
+          "note": "키오스크 설치 완료",
           "rr": 1
         },
         {
@@ -281300,11 +281312,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 23,
+        "online": 24,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "10:53",
+      "updatedAt": "10:55",
       "voc": {
         "responses": 2,
         "install": {
@@ -383525,7 +383537,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:54",
+    "at": "2026-10-26 10:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383665,7 +383677,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:54",
+    "at": "2026-10-26 10:55",
     "pri": {
       "days": 0,
       "failed": [],
