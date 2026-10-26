@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25656,
+  "version": 25657,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,11 +280971,11 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "배선유": 4,
           "김동욱": 9,
           "고경림": 5,
           "심성현": 4,
           "송태양": 5,
-          "배선유": 3,
           "박하림": 2
         },
         "nosetup": {
@@ -280994,6 +280994,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:19",
+          "store": "포토라이크",
+          "biz": "86919*****",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프린터기 소리 끄는방법 어려워하셔서 원격 요청드립니다.(저희 쪽에서 진행하셨다는데 어떤 프린터기인지 확인 불가):꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "완료",
+          "rr": 1
+        },
         {
           "time": "11:11",
           "store": "젓가락질 잘해야만 밥을먹나요 화정점",
@@ -281424,11 +281436,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 30,
+        "online": 31,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "11:21",
+      "updatedAt": "11:23",
       "voc": {
         "responses": 2,
         "install": {
@@ -281533,7 +281545,7 @@ window.SLACK_DATA = {
       },
       "1792980885.807199": {
         "post": "1792980885.807199",
-        "lastSeen": 1792981323.953,
+        "lastSeen": 1792981420.984,
         "r": 1,
         "day": "2026-10-26",
         "idx": 17
@@ -383682,7 +383694,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:22",
+    "at": "2026-10-26 11:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383822,7 +383834,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:22",
+    "at": "2026-10-26 11:23",
     "pri": {
       "days": 0,
       "failed": [],
