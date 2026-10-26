@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4168,
- "updatedAt": "2026-10-26 15:14",
+ "version": 4169,
+ "updatedAt": "2026-10-26 15:20",
  "days": 30,
  "items": [
   {
@@ -50,7 +50,103 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1L4nQU-PXBEqz8jVuESaavtvZZ_w087Zh/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CC14SBAAJ",
+     "from": "댓글",
+     "path": "menu-files/1792994278_921419-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "연유라떼(HOT)",
+       "price": 3600
+      },
+      {
+       "category": "음료",
+       "name": "연유라떼(ICE)",
+       "price": 3600
+      },
+      {
+       "category": "음료",
+       "name": "망고라떼",
+       "price": 3600
+      },
+      {
+       "category": "음료",
+       "name": "밀크쉐이크",
+       "price": 3600
+      },
+      {
+       "category": "음료",
+       "name": "초코쉐이크",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "망고스무디",
+       "price": 4900
+      },
+      {
+       "category": "음료",
+       "name": "라임모히또에이드",
+       "price": 3900
+      },
+      {
+       "category": "음료",
+       "name": "패션후르츠에이드",
+       "price": 4200
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 2200
+      },
+      {
+       "category": "음료",
+       "name": "스프라이트",
+       "price": 2200
+      },
+      {
+       "category": "버거류",
+       "name": "test2",
+       "price": 10000
+      },
+      {
+       "category": "치킨&사이드",
+       "name": "매콤양념소스",
+       "price": 300
+      },
+      {
+       "category": "음료",
+       "name": "제로코카콜라(레몬라임)",
+       "price": 2200
+      },
+      {
+       "category": "버거류",
+       "name": "스윗망고에그",
+       "price": 4400
+      },
+      {
+       "category": "버거류",
+       "name": "치즈베이컨에그",
+       "price": 5400
+      },
+      {
+       "category": "버거류",
+       "name": "해쉬브라운에그",
+       "price": 5400
+      },
+      {
+       "category": "버거류",
+       "name": "하와이안치즈버거",
+       "price": 9500
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [
     {
      "id": "1L4nQU-PXBEqz8jVuESaavtvZZ_w087Zh",
@@ -60,8 +156,8 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1792995610.720749",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
