@@ -3,10 +3,181 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4196,
- "updatedAt": "2026-10-26 21:21",
+ "version": 4197,
+ "updatedAt": "2026-10-27 03:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1793036855.101909",
+   "date": "2026-10-27",
+   "time": "02:47",
+   "store": "토리슌",
+   "biz": "7196500874",
+   "pos": "토스포스",
+   "content": "야키토리 카테고리 \n가슴살 안심 목살 껍질 꼬리 다리살대파 종아리살 안다리살 소리레스 어깨 날개 윙봉 가슴연골 무릎연골 모래집 4천원\n쯔꾸네 5천원\n야채 카테고리\n마 4천원 표고버섯4000 방울토마토3000\n베이컨팽이말이6000아스파라거스6000\n\n사이드 카테고리\n라멘 8000 소보로동8000치킨난반8000\n감자샐러드7000오이타다끼6000\n양배추2000",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1wrXhGjm1fdkX3YTQnUeU95uMfJLEFB54/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1wrXhGjm1fdkX3YTQnUeU95uMfJLEFB54",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "YAKITORI",
+       "name": "안심",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "목살",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "날개",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "윙봉",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "어깨",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "껍질",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "꼬리살",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "쯔꾸네",
+       "price": 5000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "가슴살",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "모래집",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "종아리살",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "소리레스",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "안다리살",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "무릎연골",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "가슴연골",
+       "price": 4000
+      },
+      {
+       "category": "YAKITORI",
+       "name": "다리살대파",
+       "price": 4000
+      },
+      {
+       "category": "VEGETABLES",
+       "name": "연근",
+       "price": 4000
+      },
+      {
+       "category": "VEGETABLES",
+       "name": "표고버섯",
+       "price": 4000
+      },
+      {
+       "category": "VEGETABLES",
+       "name": "방울토마토",
+       "price": 3000
+      },
+      {
+       "category": "VEGETABLES",
+       "name": "아스파라거스",
+       "price": 6000
+      },
+      {
+       "category": "VEGETABLES",
+       "name": "베이컨 팽이버섯",
+       "price": 6000
+      },
+      {
+       "category": "SIDE",
+       "name": "라멘",
+       "price": 8000
+      },
+      {
+       "category": "SIDE",
+       "name": "미소 소보로동",
+       "price": 8000
+      },
+      {
+       "category": "SIDE",
+       "name": "치킨난반",
+       "price": 8000
+      },
+      {
+       "category": "SIDE",
+       "name": "닭간파테",
+       "price": 6000
+      },
+      {
+       "category": "QUICK MENU",
+       "name": "감자사라다",
+       "price": 7000
+      },
+      {
+       "category": "QUICK MENU",
+       "name": "오이타다끼",
+       "price": 6000
+      },
+      {
+       "category": "QUICK MENU",
+       "name": "양배추 추가",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793036855101909"
+  },
   {
    "ts": "1793017093.328169",
    "date": "2026-10-26",
