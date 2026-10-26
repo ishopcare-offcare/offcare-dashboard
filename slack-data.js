@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25598,
+  "version": 25599,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280979,11 +280979,23 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
-          "심성현": 1
+          "심성현": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:46",
+          "store": "명지카페",
+          "biz": "14206*****",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "퍼스트포스 사용중 / 메뉴 수정 요청",
+          "hw": "",
+          "intake": "offline",
+          "note": "메뉴 등록 완료",
+          "rr": 3
+        },
         {
           "time": "09:36",
           "store": "용호 유도아카데미",
@@ -281107,7 +281119,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 10,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:54",
@@ -281226,18 +281238,17 @@ window.SLACK_DATA = {
       },
       "1792974685.022949": {
         "post": "1792974685.022949",
-        "lastSeen": 1792976099.032,
+        "lastSeen": 1792976143.783,
         "r": 1,
         "day": "2026-10-26",
         "idx": 3
       },
-      "1792975567.791799": {
-        "post": "1792975567.791799",
-        "lastSeen": 1792976099.032
-      },
       "1792976045.521029": {
         "post": "1792976045.521029",
-        "lastSeen": 1792976099.032
+        "lastSeen": 1792976143.783,
+        "r": 1,
+        "day": "2026-10-26",
+        "idx": 4
       }
     },
     "days": {
@@ -383213,8 +383224,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-26": {
-        "cnt": 4,
-        "sumMin": 12.347420895099642,
+        "cnt": 6,
+        "sumMin": 22.8391237616539,
         "over": 0,
         "items": [
           {
@@ -383251,13 +383262,30 @@ window.SLACK_DATA = {
             "biz": "10803*****",
             "who": "김동욱",
             "cat": "as"
+          },
+          {
+            "hm": "09:54",
+            "min": 1.3,
+            "store": "수브로우",
+            "biz": "55366*****",
+            "who": "송태양",
+            "cat": "as"
+          },
+          {
+            "hm": "09:46",
+            "min": 9.2,
+            "store": "명지카페",
+            "biz": "14206*****",
+            "who": "심성현",
+            "cat": "menu",
+            "dmin": 9.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:55",
+    "at": "2026-10-26 09:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383397,7 +383425,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:54",
+    "at": "2026-10-26 09:55",
     "pri": {
       "days": 0,
       "failed": [],
