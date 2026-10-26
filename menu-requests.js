@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4181,
- "updatedAt": "2026-10-26 16:53",
+ "version": 4182,
+ "updatedAt": "2026-10-26 16:55",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,427 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "i_629077ab2607.jpg",
+     "fid": "F0CCY2PQXFS",
+     "from": "댓글",
+     "path": "menu-files/1793001186_156849-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨",
+       "name": "두마리세트",
+       "price": 29000
+      },
+      {
+       "category": "치킨",
+       "name": "똥집세트",
+       "price": 27000
+      },
+      {
+       "category": "치킨",
+       "name": "숯불한마리 치킨",
+       "price": 18000
+      },
+      {
+       "category": "치킨",
+       "name": "튀김한마리 치킨",
+       "price": 18000
+      },
+      {
+       "category": "치킨",
+       "name": "오리지널 바삭구이",
+       "price": 19500
+      },
+      {
+       "category": "치킨",
+       "name": "옛날 통닭 한 마리",
+       "price": 10000
+      },
+      {
+       "category": "치킨",
+       "name": "치즈 빠삭구이",
+       "price": 20000
+      },
+      {
+       "category": "치킨",
+       "name": "옛날 통닭 한 마리 포장",
+       "price": 8900
+      },
+      {
+       "category": "치킨",
+       "name": "옛날통닭 두 마리 포장",
+       "price": 16900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_568f5114ee5a.jpg",
+     "fid": "F0CC7C776DS",
+     "from": "댓글",
+     "path": "menu-files/1793001186_156849-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "안주류",
+       "name": "먹태",
+       "price": 16000
+      },
+      {
+       "category": "안주류",
+       "name": "노가리",
+       "price": 9000
+      },
+      {
+       "category": "안주류",
+       "name": "두절노가리",
+       "price": 9000
+      },
+      {
+       "category": "안주류",
+       "name": "명태알포",
+       "price": 9000
+      },
+      {
+       "category": "안주류",
+       "name": "문어다리",
+       "price": 10000
+      },
+      {
+       "category": "안주류",
+       "name": "오징어",
+       "price": 14000
+      },
+      {
+       "category": "안주류",
+       "name": "한치",
+       "price": 15000
+      },
+      {
+       "category": "안주류",
+       "name": "쥐포",
+       "price": 8000
+      },
+      {
+       "category": "안주류",
+       "name": "오뎅탕",
+       "price": 14000
+      },
+      {
+       "category": "안주류",
+       "name": "국물떡볶이",
+       "price": 12000
+      },
+      {
+       "category": "안주류",
+       "name": "똥집후라이드",
+       "price": 13000
+      },
+      {
+       "category": "안주류",
+       "name": "새우튀김",
+       "price": 14000
+      },
+      {
+       "category": "안주류",
+       "name": "감자튀김",
+       "price": 8000
+      },
+      {
+       "category": "안주류",
+       "name": "치즈볼(5p)",
+       "price": 5000
+      },
+      {
+       "category": "안주류",
+       "name": "파인샤베트",
+       "price": 8000
+      },
+      {
+       "category": "안주류",
+       "name": "소떡소떡",
+       "price": 4000
+      },
+      {
+       "category": "안주류",
+       "name": "김치어묵우동",
+       "price": 10000
+      },
+      {
+       "category": "안주류",
+       "name": "김말이튀김(5p)",
+       "price": 4000
+      },
+      {
+       "category": "안주류",
+       "name": "새우 멘보샤(8p)",
+       "price": 6000
+      },
+      {
+       "category": "안주류",
+       "name": "맛보기똥집",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_45345f0ee1bc.jpg",
+     "fid": "F0CCY2QP65N",
+     "from": "댓글",
+     "path": "menu-files/1793001186_156849-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "치킨",
+       "name": "뼈 치킨",
+       "price": 0
+      },
+      {
+       "category": "치킨",
+       "name": "순살 변경",
+       "price": 2000
+      },
+      {
+       "category": "치킨",
+       "name": "곡물 후라이드",
+       "price": 8000
+      },
+      {
+       "category": "치킨",
+       "name": "양념치킨",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "간장치킨",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "허니 간장치킨",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "허니 마늘 간장 치킨",
+       "price": 10000
+      },
+      {
+       "category": "치킨",
+       "name": "숯불 소금구이",
+       "price": 8000
+      },
+      {
+       "category": "치킨",
+       "name": "숯불 간장 맛",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "숯불 순한맛",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "숯불보통 맛",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "숯불 매운 맛",
+       "price": 9000
+      },
+      {
+       "category": "치킨",
+       "name": "마늘 범벅 소금구이",
+       "price": 9500
+      },
+      {
+       "category": "치킨",
+       "name": "오리지널빠삭구이",
+       "price": 9500
+      },
+      {
+       "category": "치킨",
+       "name": "치즈빠삭 구이",
+       "price": 9500
+      },
+      {
+       "category": "치킨",
+       "name": "11",
+       "price": 114000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_fa71c6e8ede6.jpg",
+     "fid": "F0CC3FRN56W",
+     "from": "댓글",
+     "path": "menu-files/1793001186_156849-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류음료",
+       "name": "카스(500CC)",
+       "price": 4500
+      },
+      {
+       "category": "주류음료",
+       "name": "카스(병맥주)",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "켈리",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "X하이볼",
+       "price": 8000
+      },
+      {
+       "category": "주류음료",
+       "name": "산미구엘",
+       "price": 7000
+      },
+      {
+       "category": "주류음료",
+       "name": "카스생맥주300cc",
+       "price": 3000
+      },
+      {
+       "category": "주류음료",
+       "name": "샷추가",
+       "price": 3000
+      },
+      {
+       "category": "주류음료",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "진로",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류음료",
+       "name": "스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "환타파인",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "펩시제로라임",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "팹시콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류음료",
+       "name": "한라산21",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "코젤 다크",
+       "price": 7000
+      },
+      {
+       "category": "주류음료",
+       "name": "버드와이져",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "레몬진",
+       "price": 6000
+      },
+      {
+       "category": "주류음료",
+       "name": "생맥주포장",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_49d374361fe9.jpg",
+     "fid": "F0CC3FS2L2W",
+     "from": "댓글",
+     "path": "menu-files/1793001186_156849-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사리추가",
+       "name": "즉석밥",
+       "price": 2000
+      },
+      {
+       "category": "사리추가",
+       "name": "무동사리 추가 (숯불 양념에만)",
+       "price": 2000
+      },
+      {
+       "category": "사리추가",
+       "name": "떡사리 추가 10개",
+       "price": 1000
+      },
+      {
+       "category": "사리추가",
+       "name": "치킨무 추가",
+       "price": 500
+      },
+      {
+       "category": "사리추가",
+       "name": "양념 소스 추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793001189.545189",
+   "rc": 2,
+   "lr": "1793001227.992359",
    "rfx": 3,
    "status": "wait",
    "handler": null,
