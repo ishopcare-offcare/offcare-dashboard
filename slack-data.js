@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25591,
+  "version": 25592,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280972,8 +280972,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "심성현": 1,
-          "김동욱": 5,
-          "송태양": 1
+          "송태양": 2,
+          "김동욱": 5
         },
         "booking": {
           "김동욱": 1
@@ -281006,6 +281006,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "배송 전 업무 전화로 재인입 예정",
+          "rr": 1
+        },
+        {
+          "time": "09:27",
+          "store": "늘푸른화원",
+          "biz": "31390*****",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "PC / 프론트 + 터미널 출력 설정 어려움으로 도움 부탁드립니다 :감사합니다꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "• 포터프 터미널 프린터 설정 완료입니다 포터프 터미널 프린터 설정 완료입니다",
           "rr": 1
         },
         {
@@ -281094,7 +281106,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 0,
         "unknown": 0
       },
@@ -281212,16 +281224,9 @@ window.SLACK_DATA = {
         "post": "1792940399.221799",
         "lastSeen": 1792959327.497
       },
-      "1792974428.304449": {
-        "post": "1792974428.304449",
-        "lastSeen": 1792975369.486,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 2
-      },
       "1792974685.022949": {
         "post": "1792974685.022949",
-        "lastSeen": 1792975369.486,
+        "lastSeen": 1792975435.987,
         "r": 1,
         "day": "2026-10-26",
         "idx": 3
@@ -383228,7 +383233,8 @@ window.SLACK_DATA = {
             "store": "늘푸른화원",
             "biz": "31390*****",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 16.2
           },
           {
             "hm": "09:31",
@@ -383243,7 +383249,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:43",
+    "at": "2026-10-26 09:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383383,7 +383389,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:42",
+    "at": "2026-10-26 09:43",
     "pri": {
       "days": 0,
       "failed": [],
