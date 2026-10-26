@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25586,
+  "version": 25587,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -281186,14 +281186,17 @@ window.SLACK_DATA = {
       },
       "1792974428.304449": {
         "post": "1792974428.304449",
-        "lastSeen": 1792974918.835,
+        "lastSeen": 1792974962.741,
         "r": 1,
         "day": "2026-10-26",
         "idx": 2
       },
       "1792974685.022949": {
         "post": "1792974685.022949",
-        "lastSeen": 1792974918.835
+        "lastSeen": 1792974962.741,
+        "r": 1,
+        "day": "2026-10-26",
+        "idx": 3
       }
     },
     "days": {
@@ -383169,8 +383172,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-26": {
-        "cnt": 3,
-        "sumMin": 8.08467004299164,
+        "cnt": 4,
+        "sumMin": 12.347420895099642,
         "over": 0,
         "items": [
           {
@@ -383198,13 +383201,21 @@ window.SLACK_DATA = {
             "biz": "31390*****",
             "who": "송태양",
             "cat": "as"
+          },
+          {
+            "hm": "09:31",
+            "min": 4.3,
+            "store": "김밥천국 중앙대점",
+            "biz": "10803*****",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:35",
+    "at": "2026-10-26 09:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383344,7 +383355,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:35",
+    "at": "2026-10-26 09:36",
     "pri": {
       "days": 0,
       "failed": [],
