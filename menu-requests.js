@@ -3,10 +3,54 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4149,
- "updatedAt": "2026-10-26 10:26",
+ "version": 4150,
+ "updatedAt": "2026-10-26 10:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1792978009.543999",
+   "date": "2026-10-26",
+   "time": "10:26",
+   "store": "라디오 헤드 펍앤킷사 (RADIO HEAD pub&kissa)",
+   "biz": "40503*****",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBZLMKU4E",
+     "from": "댓글",
+     "path": "menu-files/1792978009_543999-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "오픈 특가 SET 1",
+       "name": "글렌피딕 15 / 글렌파글라스 105 CS/ 러셀 10년 (30ml) + 미니 치즈플레이트 + 탄산수",
+       "price": 35000
+      },
+      {
+       "category": "오픈 특가 SET 2",
+       "name": "글렌그란트 10 / 12 / 15년 (30ml) + 미니 치즈플레이트 + 탄산수",
+       "price": 27000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "오픈특가 메뉴판"
+   ],
+   "rc": 2,
+   "lr": "1792978036.327719",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792978009543999"
+  },
   {
    "ts": "1792977955.541129",
    "date": "2026-10-26",
