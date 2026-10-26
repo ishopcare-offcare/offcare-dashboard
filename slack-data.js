@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25600,
+  "version": 25601,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,8 +280971,8 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "송태양": 3,
           "심성현": 1,
-          "송태양": 2,
           "김동욱": 5
         },
         "booking": {
@@ -280984,6 +280984,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:54",
+          "store": "수브로우",
+          "biz": "55366*****",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "메뉴 등록 되어있으나 갑자기 결제창이 보이지 않고 해당 화면만 노출됨.",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "09:46",
           "store": "명지카페",
@@ -281118,11 +281130,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:54",
+      "updatedAt": "10:00",
       "voc": {
         "responses": 2,
         "install": {
@@ -281238,17 +281250,14 @@ window.SLACK_DATA = {
       },
       "1792974685.022949": {
         "post": "1792974685.022949",
-        "lastSeen": 1792976217.695,
+        "lastSeen": 1792976428.374,
         "r": 1,
         "day": "2026-10-26",
         "idx": 3
       },
-      "1792976045.521029": {
-        "post": "1792976045.521029",
-        "lastSeen": 1792976217.695,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 4
+      "1792976400.998629": {
+        "post": "1792976400.998629",
+        "lastSeen": 1792976428.374
       }
     },
     "days": {
@@ -383269,7 +383278,8 @@ window.SLACK_DATA = {
             "store": "수브로우",
             "biz": "55366*****",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 4.6
           },
           {
             "hm": "09:46",
@@ -383285,7 +383295,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:57",
+    "at": "2026-10-26 10:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383425,7 +383435,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:56",
+    "at": "2026-10-26 10:00",
     "pri": {
       "days": 0,
       "failed": [],
