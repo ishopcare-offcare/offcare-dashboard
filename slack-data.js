@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25579,
+  "version": 25580,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279452,23 +279452,10 @@ window.SLACK_DATA = {
         },
         "menu": {
           "서상원": 1,
-          "심성현": 3
+          "심성현": 4
         }
       },
-      "pending": [
-        {
-          "time": "10:09",
-          "store": "스위트",
-          "biz": "31716*****",
-          "handler": "심성현",
-          "cat": "menu",
-          "intake": "online",
-          "req": "메뉴등록 파일 첨부드립니다.",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "23:52",
@@ -280089,6 +280076,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "통화 진행 중입니다. / KIS VAN이 특정 네트워크 망에서 초기화 싪패 오류 발생하는 경우가 있어서 / 완료 / 공초도 불가 초기화 실패 뜨네요. KIS VAN 이럴 때 다른 네트워크 망 연결해서 온보딩만 다시하고 결제하면 이상 없습니다.",
           "rr": 10
+        },
+        {
+          "time": "10:09",
+          "store": "스위트",
+          "biz": "31716*****",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "메뉴등록 파일 첨부드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "파일 많아서 작업 중 월요일까지 진행 예정 /",
+          "rr": 3
         },
         {
           "time": "09:59",
@@ -281175,7 +281174,7 @@ window.SLACK_DATA = {
       },
       "1792974161.135289": {
         "post": "1792974161.135289",
-        "lastSeen": 1792974275.066,
+        "lastSeen": 1792974346.943,
         "r": 1,
         "day": "2026-10-26",
         "idx": 1
@@ -383180,7 +383179,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:25",
+    "at": "2026-10-26 09:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383320,7 +383319,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:24",
+    "at": "2026-10-26 09:25",
     "pri": {
       "days": 0,
       "failed": [],
