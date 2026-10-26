@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25609,
+  "version": 25610,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,6 +280971,7 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "박하림": 1,
           "심성현": 2,
           "고경림": 1,
           "송태양": 3,
@@ -280985,6 +280986,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:10",
+          "store": "손톱",
+          "biz": "10422*****",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "포프터(핸드폰) 터미널 네트워크가 끊어졌다고 나오시며 선3개 클릭자체가 불가하신상황이라고하시어 확인 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 전원선 연결후 정상적으로 프린터 출력완료",
+          "rr": 1
+        },
         {
           "time": "10:00",
           "store": "리브커피",
@@ -281167,7 +281180,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -281276,17 +281289,10 @@ window.SLACK_DATA = {
       },
       "1792977000.302719": {
         "post": "1792977000.302719",
-        "lastSeen": 1792977420.939,
+        "lastSeen": 1792977471.09,
         "r": 1,
         "day": "2026-10-26",
         "idx": 7
-      },
-      "1792977033.461879": {
-        "post": "1792977033.461879",
-        "lastSeen": 1792977420.939,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 8
       }
     },
     "days": {
@@ -383343,14 +383349,15 @@ window.SLACK_DATA = {
             "store": "손톱",
             "biz": "10422*****",
             "who": "박하림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:17",
+    "at": "2026-10-26 10:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
