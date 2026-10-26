@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25673,
+  "version": 25674,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -281082,8 +281082,8 @@ window.SLACK_DATA = {
           "req": "쿠팡이츠 쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장",
           "hw": "",
           "intake": "online",
-          "note": "포프(태블릿) + 유프 설치 및 토스포스 연동완료 • 사진 수령예정 사진 수령예정",
-          "rr": 1
+          "note": "포프(태블릿) + 유프 설치 및 토스포스 연동완료 • 사진 수령예정 사진 수령예정 / 사진전달완료",
+          "rr": 2
         },
         {
           "time": "11:21",
@@ -281554,7 +281554,7 @@ window.SLACK_DATA = {
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "11:42",
+      "updatedAt": "11:53",
       "voc": {
         "responses": 2,
         "install": {
@@ -383811,7 +383811,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:49",
+    "at": "2026-10-26 11:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383951,7 +383951,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:49",
+    "at": "2026-10-26 11:53",
     "pri": {
       "days": 0,
       "failed": [],
