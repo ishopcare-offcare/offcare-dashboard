@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4150,
- "updatedAt": "2026-10-26 10:27",
+ "version": 4151,
+ "updatedAt": "2026-10-26 10:30",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CBZLMKU4E",
      "from": "댓글",
-     "path": "menu-files/1792978009_543999-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -37,15 +36,459 @@ window.MENU_REQUESTS = {
        "price": 27000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1792978009_543999-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBVCW10D9",
+     "from": "댓글",
+     "path": "menu-files/1792978009_543999-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌그란트 아보랄리스 Glen Grant Arboralis",
+       "price": 7
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌그란트 10년 Glen Grant 10Year Old",
+       "price": 10
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌그란트 12년 Glen Grant 12Year Old",
+       "price": 12
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌그란트 15년 Glen Grant 15Year Old",
+       "price": 16
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌피딕 12년 Glenfiddich 12Year Old",
+       "price": 12
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌피딕 12년 쉐리 Glenfiddich 12Year Sherry Cask",
+       "price": 12
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글레피딕 15년 Glenfiddich 15Year Old",
+       "price": 16
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "발베니 12년 Balvenie Double Wood12Year Old",
+       "price": 15
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "로얄브라클라 12년 Royal Brackla 12Year Old",
+       "price": 14
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "글렌파클라스105 Glenfarclas Cask Strength",
+       "price": 14
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "맥켈란12년 더블캐스크 Macallan 12Year Old Double Cask",
+       "price": 15
+      },
+      {
+       "category": "SINGLE MALT WHISKY",
+       "name": "맥켈란 15년 Macallan 15Year Old",
+       "price": 20
+      },
+      {
+       "category": "Bourbon Whiskey",
+       "name": "와일드터키 버번 Wild Turkey Bourbon",
+       "price": 8
+      },
+      {
+       "category": "Bourbon Whiskey",
+       "name": "와일드터키 8년 Wild Turkey 8 Year Old",
+       "price": 9
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBVCWF9H9",
+     "from": "댓글",
+     "path": "menu-files/1792978009_543999-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "버팔로트레이스 Buffalo Trace",
+       "price": 9
+      },
+      {
+       "category": "",
+       "name": "1792스몰배치 1792 Small Batch",
+       "price": 10
+      },
+      {
+       "category": "",
+       "name": "러셀10년 Russell's Reserve 10 Year Old",
+       "price": 12
+      },
+      {
+       "category": "",
+       "name": "이글레어10년 Eagle Rare 10 Year Old",
+       "price": 12
+      },
+      {
+       "category": "Peated Whisky",
+       "name": "탈레스커 10년 Talisker 10 Year Old",
+       "price": 10
+      },
+      {
+       "category": "Peated Whisky",
+       "name": "라프로익 쿼터케스크 Laphroaig Quarter Cask",
+       "price": 11
+      },
+      {
+       "category": "Peated Whisky",
+       "name": "아드벡 10년 Ardbeg 10 Year Old",
+       "price": 12
+      },
+      {
+       "category": "BLENDED WHISKY",
+       "name": "제임슨 Jameson",
+       "price": 7
+      },
+      {
+       "category": "BLENDED WHISKY",
+       "name": "듀어스 12년 Dewar's 12 Year Old",
+       "price": 8
+      },
+      {
+       "category": "BLENDED WHISKY",
+       "name": "조니워커 블랙 Johnnie Walker Black Label",
+       "price": 8
+      },
+      {
+       "category": "Cognac",
+       "name": "레미마틴 Rémy Martin V.S.O.P",
+       "price": 12
+      },
+      {
+       "category": "Cognac",
+       "name": "헤네시 Hennessy V.S.O.P",
+       "price": 12
+      },
+      {
+       "category": "Draft Beer (생맥주)",
+       "name": "산토리 Suntory",
+       "price": 8
+      },
+      {
+       "category": "Draft Beer (생맥주)",
+       "name": "기네스 Guinness",
+       "price": 10
+      },
+      {
+       "category": "Bottle Beer (병맥주)",
+       "name": "버드와이저 Budweiser",
+       "price": 7
+      },
+      {
+       "category": "Bottle Beer (병맥주)",
+       "name": "호가든 Hoegaarden",
+       "price": 8
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBVCXDQTV",
+     "from": "댓글",
+     "path": "menu-files/1792978009_543999-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "스텔라 Stella Artois",
+       "price": 8
+      },
+      {
+       "category": "",
+       "name": "빅웨이브 Big Wave Golden Ale",
+       "price": 11
+      },
+      {
+       "category": "",
+       "name": "논알코올 맥주 칭타오 Tsingtao Non-Alcoholic",
+       "price": 8
+      },
+      {
+       "category": "Highball",
+       "name": "엑스레이티드 하이볼 X-Rated Highball",
+       "price": 8
+      },
+      {
+       "category": "Highball",
+       "name": "산토리 하이볼 Suntory Highball",
+       "price": 8
+      },
+      {
+       "category": "Highball",
+       "name": "와일드터키 하이볼 Wild Turkey Highball",
+       "price": 8
+      },
+      {
+       "category": "WINE",
+       "name": "로렌즈 모스까토 Lorenzo Moscato",
+       "price": 35
+      },
+      {
+       "category": "WINE",
+       "name": "본샹 로제 모스카토 Bonchamps Rosé Moscato",
+       "price": 35
+      },
+      {
+       "category": "WINE",
+       "name": "산타헬레나 까베네소비뇽 Santa Helena Cabernet Sauvignon",
+       "price": 35
+      },
+      {
+       "category": "WINE",
+       "name": "닥터 린더만 Dr. Lindeman's",
+       "price": 45
+      },
+      {
+       "category": "WINE",
+       "name": "샤또 라메리에 Château Lamérie",
+       "price": 55
+      },
+      {
+       "category": "Non-Alcoholic Cocktail",
+       "name": "신데렐라 Cinderella",
+       "price": 9000
+      },
+      {
+       "category": "Non-Alcoholic Cocktail",
+       "name": "셜리 템플 Shirley Temple",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBWB1SJCV",
+     "from": "댓글",
+     "path": "menu-files/1792978009_543999-4.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "진토닉 Gin & Tonic",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "피치크러쉬 Peach Crush (추천)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미도리사워 Midori Sour (추천)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "데낄라선라이즈 Tequila Sunrise",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "잭콕 Jack & Coke",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "블랙러시안 Black Russian",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쿠바 리브레 Cuba Libre",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "준벅 Jun Bug",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "12,000",
+       "name": "피나콜라다 Piña Colada",
+       "price": 12000
+      },
+      {
+       "category": "12,000",
+       "name": "블루하와이안 Blue Hawaiian",
+       "price": 12000
+      },
+      {
+       "category": "12,000",
+       "name": "코스모폴리탄 Cosmopolitan",
+       "price": 12000
+      },
+      {
+       "category": "12,000",
+       "name": "갓파더 Godfather",
+       "price": 12000
+      },
+      {
+       "category": "12,000",
+       "name": "갓마더 Godmother",
+       "price": 12000
+      },
+      {
+       "category": "14,000",
+       "name": "올드패션드 Old Fashioned",
+       "price": 14000
+      },
+      {
+       "category": "14,000",
+       "name": "네그로니 Negroni",
+       "price": 14000
+      },
+      {
+       "category": "14,000",
+       "name": "맨하탄 Manhattan",
+       "price": 14000
+      },
+      {
+       "category": "14,000",
+       "name": "불바디에 Boulevardier",
+       "price": 14000
+      },
+      {
+       "category": "Beverage",
+       "name": "콜드브루 Cold Brew",
+       "price": 7
+      },
+      {
+       "category": "Beverage",
+       "name": "콜드브루 연유 라떼 Cold Brew Condensed Milk Latte",
+       "price": 8
+      },
+      {
+       "category": "Beverage",
+       "name": "콜드브루 바닐라 라떼 Cold Brew Vanilla Latte",
+       "price": 8
+      },
+      {
+       "category": "Beverage",
+       "name": "말차라떼 Matcha Latte",
+       "price": 8
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CBWB21D1T",
+     "from": "댓글",
+     "path": "menu-files/1792978009_543999-5.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "패션후르츠 에이드",
+       "price": 8
+      },
+      {
+       "category": "",
+       "name": "화이트템플 ( TEA)",
+       "price": 8
+      },
+      {
+       "category": "",
+       "name": "쿨허벌 (TEA)",
+       "price": 8
+      },
+      {
+       "category": "Dessert",
+       "name": "초코 브라우니",
+       "price": 5
+      },
+      {
+       "category": "Bar Snacks",
+       "name": "크래미 오이샐러드",
+       "price": 6
+      },
+      {
+       "category": "Bar Snacks",
+       "name": "나초",
+       "price": 6
+      },
+      {
+       "category": "Bar Snacks",
+       "name": "초콜릿 플레이트",
+       "price": 12
+      },
+      {
+       "category": "Bar Snacks",
+       "name": "과일치즈 플레이트",
+       "price": 12
+      },
+      {
+       "category": "Bar Snacks",
+       "name": "소세지",
+       "price": 15
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CC3GQH7JM",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "육포& 견과류",
+       "price": 15
+      },
+      {
+       "category": "",
+       "name": "치즈 플레이트",
+       "price": 15
+      }
+     ],
      "v": 2
     }
    ],
    "datt": [],
    "replies": [
-    "오픈특가 메뉴판"
+    "오픈특가 메뉴판",
+    "일반 메뉴판"
    ],
-   "rc": 2,
-   "lr": "1792978036.327719",
+   "rc": 3,
+   "lr": "1792978153.187349",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",

@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25617,
+  "version": 25618,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,12 +280971,12 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "김동욱": 7,
           "박하림": 1,
           "배선유": 1,
           "심성현": 2,
           "고경림": 1,
-          "송태양": 3,
-          "김동욱": 6
+          "송태양": 3
         },
         "booking": {
           "김동욱": 1
@@ -280988,6 +280988,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:28",
+          "store": "(주) 비욘드오피스 (Beyond the office)",
+          "biz": "48081*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "성철님 지원",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:25",
           "store": "온빛",
@@ -281205,11 +281216,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:27",
+      "updatedAt": "10:28",
       "voc": {
         "responses": 2,
         "install": {
@@ -281314,11 +281325,14 @@ window.SLACK_DATA = {
       },
       "1792978032.402419": {
         "post": "1792978032.402419",
-        "lastSeen": 1792978104.765
+        "lastSeen": 1792978169.895,
+        "r": 1,
+        "day": "2026-10-26",
+        "idx": 10
       },
       "1792978009.543999": {
         "post": "1792978009.543999",
-        "lastSeen": 1792978104.765,
+        "lastSeen": 1792978169.895,
         "r": 1,
         "day": "2026-10-26",
         "idx": 9
@@ -383297,8 +383311,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-26": {
-        "cnt": 10,
-        "sumMin": 27.549194995562235,
+        "cnt": 11,
+        "sumMin": 29.29798800945282,
         "over": 0,
         "items": [
           {
@@ -383389,13 +383403,21 @@ window.SLACK_DATA = {
             "biz": "40503*****",
             "who": "배선유",
             "cat": "menu"
+          },
+          {
+            "hm": "10:27",
+            "min": 1.7,
+            "store": "",
+            "biz": "",
+            "who": "고경림",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:28",
+    "at": "2026-10-26 10:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383535,7 +383557,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:28",
+    "at": "2026-10-26 10:29",
     "pri": {
       "days": 0,
       "failed": [],
