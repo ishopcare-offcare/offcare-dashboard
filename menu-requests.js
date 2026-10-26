@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4145,
- "updatedAt": "2026-10-26 09:42",
+ "version": 4146,
+ "updatedAt": "2026-10-26 09:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1792975567.791799",
+   "date": "2026-10-26",
+   "time": "09:46",
+   "store": "명지카페",
+   "biz": "14206*****",
+   "pos": "퍼스트포스",
+   "content": "퍼스트포스 사용중 / 메뉴 수정 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 서울대버거 세트 16,500원\n위 메뉴가 포스기에는 정상 등록되어 있으나\n키오스크에는 13,000원으로 뜬다고 하시어\n수정 후 문자 안내 한 번 부탁드리겠습니다! :핑크_굽신:"
+   ],
+   "rc": 2,
+   "lr": "1792975640.331109",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792975567791799"
+  },
   {
    "ts": "1792974982.145359",
    "date": "2026-10-26",
