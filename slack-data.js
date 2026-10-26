@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25590,
+  "version": 25591,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280977,10 +280977,25 @@ window.SLACK_DATA = {
         },
         "booking": {
           "김동욱": 1
+        },
+        "menu": {
+          "심성현": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:36",
+          "store": "용호 유도아카데미",
+          "biz": "24991*****",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "키인 설정으로 koces -&gt; KPN 으로 VAN 변경 했는데 메뉴 그대로 복사 요청주셨습니다.:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "기존 메뉴 등록 완료",
+          "rr": 2
+        },
         {
           "time": "09:30",
           "store": "대원",
@@ -281079,7 +281094,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 0,
         "unknown": 0
       },
@@ -281199,14 +281214,14 @@ window.SLACK_DATA = {
       },
       "1792974428.304449": {
         "post": "1792974428.304449",
-        "lastSeen": 1792975309.86,
+        "lastSeen": 1792975369.486,
         "r": 1,
         "day": "2026-10-26",
         "idx": 2
       },
       "1792974685.022949": {
         "post": "1792974685.022949",
-        "lastSeen": 1792975309.86,
+        "lastSeen": 1792975369.486,
         "r": 1,
         "day": "2026-10-26",
         "idx": 3
@@ -383228,7 +383243,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:42",
+    "at": "2026-10-26 09:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383368,7 +383383,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:41",
+    "at": "2026-10-26 09:42",
     "pri": {
       "days": 0,
       "failed": [],
