@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25616,
+  "version": 25617,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280982,11 +280982,23 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
+          "배선유": 1,
           "심성현": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:25",
+          "store": "온빛",
+          "biz": "82410*****",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:10",
           "store": "손톱",
@@ -281193,7 +281205,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 2,
         "unknown": 0
       },
@@ -281302,11 +281314,14 @@ window.SLACK_DATA = {
       },
       "1792978032.402419": {
         "post": "1792978032.402419",
-        "lastSeen": 1792978049.191
+        "lastSeen": 1792978104.765
       },
       "1792978009.543999": {
         "post": "1792978009.543999",
-        "lastSeen": 1792978049.191
+        "lastSeen": 1792978104.765,
+        "r": 1,
+        "day": "2026-10-26",
+        "idx": 9
       }
     },
     "days": {
@@ -383282,8 +383297,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-26": {
-        "cnt": 9,
-        "sumMin": 26.42529497543971,
+        "cnt": 10,
+        "sumMin": 27.549194995562235,
         "over": 0,
         "items": [
           {
@@ -383366,13 +383381,21 @@ window.SLACK_DATA = {
             "who": "박하림",
             "cat": "as",
             "dmin": 6.9
+          },
+          {
+            "hm": "10:26",
+            "min": 1.1,
+            "store": "라디오 헤드 펍앤킷사 (RADIO HEAD pub&am",
+            "biz": "40503*****",
+            "who": "배선유",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:27",
+    "at": "2026-10-26 10:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383512,7 +383535,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:27",
+    "at": "2026-10-26 10:28",
     "pri": {
       "days": 0,
       "failed": [],
