@@ -1057,42 +1057,64 @@
     padding-top:11px; margin-top:2px}
   .dh-next b{color:var(--ink-soft); font-weight:700}
   .dh-next .none{color:var(--muted); font-weight:600}
-  /* 공유 탭 맨 위 '오늘 + 이번 주' 요약 — 월간 달력을 훑지 않고 팀 일정을 한눈에 */
-  .sw-today .dh-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .sw-today .dh-item{align-items:flex-start}
-  .sw-today .dh-item.wide{grid-column:1/-1}
-  .sw-list{font-size:14px; font-weight:600; color:var(--ink); line-height:1.5; display:flex; flex-wrap:wrap; gap:4px 12px; margin-top:1px}
-  .sw-list .none{color:var(--muted); font-weight:600}
-  .sw-who{display:inline-flex; align-items:center; gap:5px; white-space:nowrap}
-  .sw-who small{font-size:12px; font-weight:600; color:var(--gray)}
-  .sw-dot{width:8px; height:8px; border-radius:50%; flex:0 0 auto}
-  .sw-week{background:var(--canvas); border:1px solid var(--line-soft); border-radius:var(--radius); padding:14px 16px 16px; margin-bottom:14px}
-  .sw-week-head{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:10px}
-  .sw-week-head h3{font-size:15px; font-weight:700; letter-spacing:-.02em}
-  .sw-week-head .sw-range{font-size:12.5px; color:var(--gray)}
-  .sw-week-head .sw-ten{margin-left:auto; font-size:12.5px; font-weight:700; color:var(--ink-soft)}
-  .sw-days{display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:8px}
-  .sw-day{background:var(--surface); border-radius:14px; padding:9px 9px 10px; min-width:0; display:flex; flex-direction:column; gap:5px}
-  .sw-day.today{background:var(--blue-soft); box-shadow:inset 0 0 0 1.5px var(--blue)}
-  .sw-day.holi .sw-dh b{color:var(--red)}
-  .sw-dh{display:flex; align-items:center; gap:6px; font-size:12px; color:var(--blue); font-weight:700; min-height:24px}
-  .sw-dh b{font-size:14px; color:var(--ink); font-weight:700}
-  .sw-dh .holi-tag{font-size:10.5px}
-  .sw-dh .add-ev{margin-left:auto}
-  .sw-it{display:flex; gap:6px; align-items:flex-start; font-size:12.5px; line-height:1.35; padding:5px 7px; border-radius:9px; background:var(--canvas); min-width:0}
+  /* 공유 탭 맨 위 '오늘 + 이번 주' 요약 — 월간 달력을 훑지 않고 팀 일정을 한눈에.
+     읽히는 순서: 이름(굵게) → 종류(색 태그) → 시간. 보조 글씨도 회색 대신 진한 글씨로 대비를 확보. */
+  .sw-today{align-items:flex-start}
+  .sw-today .dh-head{padding-top:4px}
+  .sw-trows{flex:1 1 420px; display:flex; flex-direction:column; gap:8px; min-width:0}
+  .sw-trow{display:flex; gap:14px; align-items:center; padding:10px 14px; border-radius:14px; background:var(--surface); min-width:0}
+  .sw-tlab{flex:0 0 92px; font-size:13.5px; font-weight:700; color:var(--ink-soft); white-space:nowrap}
+  .sw-tval{display:flex; flex-wrap:wrap; gap:6px 8px; min-width:0}
+  .sw-tval .none{font-size:14.5px; color:var(--gray2); font-weight:600}
+  .sw-pill{display:inline-flex; align-items:center; gap:7px; padding:5px 11px 5px 9px; border-radius:999px;
+    background:var(--canvas); border:1px solid var(--line-soft); font-size:15px; font-weight:700; color:var(--ink); white-space:nowrap}
+  .sw-pill .sw-time{font-size:13px}
+  .sw-dot{width:9px; height:9px; border-radius:50%; flex:0 0 auto}
+  .sw-type{display:inline-block; font-size:12px; font-weight:800; padding:2px 7px; border-radius:6px; line-height:1.35; white-space:nowrap;
+    background:color-mix(in srgb, var(--tc) 15%, transparent); color:color-mix(in srgb, var(--tc) 72%, #000)}
+  :root[data-theme="dark"] .sw-type{background:color-mix(in srgb, var(--tc) 26%, transparent); color:color-mix(in srgb, var(--tc) 70%, #fff)}
+  .sw-time{font-size:13px; font-weight:600; color:var(--ink-soft); font-variant-numeric:tabular-nums}
+  .sw-week{background:var(--canvas); border:1px solid var(--line-soft); border-radius:var(--radius); padding:16px 18px 18px; margin-bottom:14px}
+  .sw-week-head{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:12px}
+  .sw-week-head h3{font-size:17px; font-weight:700; letter-spacing:-.02em}
+  .sw-week-head .sw-range{font-size:14px; font-weight:600; color:var(--ink-soft)}
+  .sw-week-head .sw-ten{margin-left:auto; font-size:14px; font-weight:700; color:var(--ink); background:var(--surface); padding:4px 11px; border-radius:999px}
+  .sw-grid{display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:8px}
+  .sw-dhead{display:flex; align-items:center; gap:7px; padding:2px 4px 0}
+  .sw-dhead b{font-size:15.5px; font-weight:700; color:var(--ink); letter-spacing:-.02em}
+  .sw-dhead.today b{color:var(--blue)}
+  .sw-dhead.holi b{color:var(--red)}
+  .sw-dhead .sw-now{font-size:11.5px; font-weight:800; color:#fff; background:var(--blue); padding:1px 7px; border-radius:999px}
+  .sw-dhead .holi-tag{font-size:11px}
+  .sw-dhead .add-ev{margin-left:auto}
+  .sw-span{display:flex; align-items:center; gap:8px; min-width:0; padding:7px 12px; border-radius:11px; cursor:pointer;
+    background:color-mix(in srgb, var(--ec) 12%, var(--canvas)); border:1px solid color-mix(in srgb, var(--ec) 35%, transparent)}
+  .sw-span:hover{border-color:var(--ec)}
+  .sw-span .sw-name{font-size:14.5px; font-weight:700; color:var(--ink); white-space:nowrap}
+  .sw-span .sw-memo{font-size:13.5px; color:var(--ink-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0}
+  .sw-span .sw-range2{margin-left:auto; font-size:12.5px; font-weight:600; color:var(--ink-soft); white-space:nowrap}
+  .sw-col{background:var(--surface); border-radius:14px; padding:8px; min-width:0; display:flex; flex-direction:column; gap:6px; min-height:58px}
+  .sw-col.today{background:var(--blue-soft); box-shadow:inset 0 0 0 1.5px var(--blue)}
+  .sw-it{display:flex; flex-direction:column; gap:3px; padding:8px 10px; border-radius:10px; background:var(--canvas); min-width:0;
+    border-left:4px solid var(--ec)}
   .sw-it.mine{cursor:pointer} .sw-it.mine:hover{box-shadow:0 0 0 1px var(--line)}
-  .sw-it .sw-dot{margin-top:5px}
-  .sw-it-txt{min-width:0; overflow-wrap:anywhere}
-  .sw-it-txt b{font-weight:700; color:var(--ink)}
-  .sw-it-txt span{color:var(--gray)}
-  .sw-it.gcal{background:#e8f0fe}
-  .sw-it.gcal .sw-it-txt b{color:#174ea6} .sw-it.gcal .sw-it-txt > span{color:#3c64b1}
-  :root[data-theme="dark"] .sw-it.gcal{background:rgba(10,132,255,.18)}
-  :root[data-theme="dark"] .sw-it.gcal .sw-it-txt b,:root[data-theme="dark"] .sw-it.gcal .sw-it-txt > span{color:#9ec5ff}
-  .sw-it .ev-duty{margin-top:3px; cursor:pointer}
-  .sw-empty{font-size:12px; color:var(--muted); padding:2px}
-  @media (max-width:900px){ .sw-days{grid-template-columns:1fr} .sw-day{flex-direction:row; flex-wrap:wrap; align-items:flex-start} .sw-dh{flex:0 0 100%} .sw-it{flex:1 1 180px} }
-  @media (max-width:640px){ .sw-today .dh-grid{grid-template-columns:1fr} }
+  .sw-it-top{display:flex; align-items:center; gap:6px; flex-wrap:wrap}
+  .sw-it .sw-name{font-size:14.5px; font-weight:700; color:var(--ink)}
+  .sw-it .sw-memo{font-size:13px; color:var(--ink-soft); line-height:1.4; overflow-wrap:anywhere}
+  .sw-it.gcal{--ec:#1a73e8; background:#eef4fe}
+  .sw-it.gcal .sw-mt{font-size:14px; font-weight:700; color:#174ea6; line-height:1.35}
+  .sw-it.gcal .sw-mt .sw-time{font-weight:800; color:#174ea6; margin-right:4px}
+  :root[data-theme="dark"] .sw-it.gcal{background:rgba(26,115,232,.16)}
+  :root[data-theme="dark"] .sw-it.gcal .sw-mt,:root[data-theme="dark"] .sw-it.gcal .sw-mt .sw-time{color:#a8c7fa}
+  .sw-it .ev-duty{margin-top:2px; font-size:12.5px; cursor:pointer}
+  .sw-empty{font-size:13px; color:var(--gray2); padding:6px 4px; text-align:center}
+  @media (max-width:900px){
+    .sw-grid{grid-template-columns:1fr}
+    .sw-grid > *{grid-column:auto !important; grid-row:auto !important; order:var(--o)}
+    .sw-span{order:-1}
+    .sw-tlab{flex-basis:76px}
+  }
+  @media (max-width:640px){ .sw-trow{flex-direction:column; align-items:flex-start; gap:6px} .sw-tlab{flex:none} .sw-pill{font-size:14px} }
 
   /* minmax(0,1fr) — 셀 내용(이름)이 길어도 7칸이 화면 밖으로 밀려나지 않게 */
   .cal-grid{display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:7px}
@@ -7240,28 +7262,29 @@ function shareGroupIds(grp){ return Object.keys(SHAREEV).filter(k=>{ const e=SHA
 
 // ── 공유 탭 맨 위 요약: 오늘 카드 + 이번 주(월~금) 띠 ──
 // 직원 필터(shareFilter)를 그대로 따른다. 개인 일정은 클릭하면 바로 수정, 회의는 근무당번까지 보여준다.
-function shareWhoHtml(e){
-  const t=typeMeta(e.type);
-  return `<span class="sw-who"><span class="sw-dot" style="background:${empColor(e.emp)}"></span>${escapeHtml(e.emp)} <small>${t.label}${e.time?' '+escapeHtml(e.time):''}</small></span>`;
-}
+// 며칠 이어지는 일정(grp)은 날마다 반복하지 않고 이번 주 띠 위에 막대 하나로 그린다.
+function shareTypeTag(type){ const t=typeMeta(type); return `<span class="sw-type" style="--tc:${t.color}">${t.label}</span>`; }
 function shareMeetLine(ds, g, dmap){
   const key=ds+"|"+(g.time||"")+"|"+g.title;
   return {title:g.title, time:g.time||'', who:dutyPersonAt(key, dmap[key]), key};
 }
 function shareTodayHTML(dmap){
   const t=today(), ds=ymd(t), dow=t.getDay(), wkday=dow>=1&&dow<=5&&!HOLIDAYS[ds];
+  const groups=shareGroups();
   const evs=shareEvents(ds).slice().sort((a,b)=>shareTimeKey(a.time)-shareTimeKey(b.time));
   const meets=gcalDay(ds).map(g=>shareMeetLine(ds, g, dmap));
   const ten=wkday ? tenPersonOfWeek(ds) : '';
-  const duty=dutyOf(ds), dutyTxt=DUTY_SLOTS.filter(([k])=>k!=='inst'&&duty[k]).map(([k,lab])=>`${lab} ${escapeHtml(duty[k])}`).join(' · ');
+  const duty=dutyOf(ds), dutyTxt=DUTY_SLOTS.filter(([k])=>k!=='inst'&&duty[k]).map(([k,lab])=>`<span class="sw-pill">${lab} ${escapeHtml(duty[k])}</span>`).join('');
   const none='<span class="none">없음</span>';
-  const item=(ico, lab, html, wide)=>`<div class="dh-item${wide?' wide':''}"><span class="dh-ico">${ico}</span><div class="dh-txt"><div class="dh-lab">${lab}</div><div class="sw-list">${html}</div></div></div>`;
+  const row=(lab, html)=>`<div class="sw-trow"><div class="sw-tlab">${lab}</div><div class="sw-tval">${html}</div></div>`;
+  const who=e=>{ const g=e.grp&&groups[e.grp];
+    return `<span class="sw-pill"><span class="sw-dot" style="background:${empColor(e.emp)}"></span>${escapeHtml(e.emp)} ${shareTypeTag(e.type)}${e.time?`<span class="sw-time">${escapeHtml(e.time)}</span>`:''}${g?`<span class="sw-time">~${fmtShort(g.b)}</span>`:''}</span>`; };
   return `<div class="duty-hero sw-today">
     <div class="dh-head"><div class="dh-kicker">TODAY</div><div class="dh-date">${dutyDowLabel(t)}</div>${HOLIDAYS[ds]?`<div class="dh-holi">${escapeHtml(HOLIDAYS[ds])}</div>`:''}</div>
-    <div class="dh-grid">
-      ${item('🌴', '부재 · 일정'+(evs.length?' '+evs.length+'건':''), evs.length?evs.map(shareWhoHtml).join(''):none, true)}
-      ${item('📅', '회의', meets.length?meets.map(m=>`<span class="sw-who">${escapeHtml(m.title)} <small>${escapeHtml(m.time)}${m.who?' · 🏠 '+escapeHtml(m.who):''}</small></span>`).join(''):none)}
-      ${wkday?item('🕙', '10시 출근', ten?escapeHtml(ten):none):item('☀️', '당직', dutyTxt||none)}
+    <div class="sw-trows">
+      ${row('🌴 부재·일정', evs.length?evs.map(who).join(''):none)}
+      ${row('📅 회의', meets.length?meets.map(m=>`<span class="sw-pill"><span class="sw-time">${escapeHtml(m.time)}</span>${escapeHtml(m.title)}${m.who?`<span class="sw-time">🏠 ${escapeHtml(m.who)}</span>`:''}</span>`).join(''):none)}
+      ${wkday?row('🕙 10시 출근', ten?`<span class="sw-pill"><span class="sw-dot" style="background:${empColor(ten)}"></span>${escapeHtml(ten)}</span>`:none):row('☀️ 당직', dutyTxt||none)}
     </div>
   </div>`;
 }
@@ -7269,21 +7292,32 @@ function shareWeekHTML(dmap){
   const t=today(), dow=t.getDay();
   const mon=weekMonday(ymd(dow===6||dow===0 ? addDays(t, 2) : t));   // 주말엔 다가오는 주
   const todayStr=ymd(t), next=mon>todayStr, ten=tenPersonAt(mon);
-  const days=[0,1,2,3,4].map(i=>{
-    const d=addDays(parseYmd(mon), i), ds=ymd(d), holi=HOLIDAYS[ds];
-    const mine=shareEvents(ds).map(e=>{ const tm=typeMeta(e.type);
-      return {k:shareTimeKey(e.time), h:`<div class="sw-it mine" title="클릭 → 수정" onclick="openShareEdit('${ds}','${e.id}')"><span class="sw-dot" style="background:${empColor(e.emp)}"></span><div class="sw-it-txt"><b>${escapeHtml(e.emp)}</b> <span>${tm.label}${e.time?' · '+escapeHtml(e.time):''}</span>${e.title?`<br><span>${escapeHtml(e.title)}</span>`:''}</div></div>`}; });
+  const wd=[0,1,2,3,4].map(i=>ymd(addDays(parseYmd(mon), i))), fri=wd[4];
+  const groups=shareGroups();
+  // ① 며칠짜리 일정 → 막대(이번 주 범위로 자름)
+  const spans=Object.values(groups).filter(g=>g.a<=fri && g.b>=mon).sort((x,y)=>x.a.localeCompare(y.a)||x.ev.emp.localeCompare(y.ev.emp)).map((g,k)=>{
+    const a=g.a<mon?mon:g.a, b=g.b>fri?fri:g.b, c0=wd.indexOf(a)+1, c1=wd.indexOf(b)+2, e=g.ev, id=g.ids[a]||e.id;
+    if(c0<1||c1<2) return '';
+    return `<div class="sw-span" style="grid-column:${c0} / ${c1}; grid-row:${2+k}; --ec:${empColor(e.emp)}" title="클릭 → 수정" onclick="openShareEdit('${a}','${id}')">
+      <span class="sw-dot" style="background:${empColor(e.emp)}"></span><span class="sw-name">${escapeHtml(e.emp)}</span>${shareTypeTag(e.type)}${e.title?`<span class="sw-memo">${escapeHtml(e.title)}</span>`:''}<span class="sw-range2">${fmtShort(g.a)}~${fmtShort(g.b)}</span></div>`;
+  });
+  const nSpan=spans.filter(Boolean).length;
+  // ② 날짜 머리 + 그날 일정(하루짜리 개인 일정 + 회의, 시간순)
+  const heads=wd.map((ds,i)=>{ const d=parseYmd(ds), holi=HOLIDAYS[ds];
+    return `<div class="sw-dhead ${ds===todayStr?'today':''} ${holi?'holi':''}" style="grid-column:${i+1}; grid-row:1; --o:${i*3}"><b>${DOW_KR[d.getDay()]} ${d.getDate()}</b>${ds===todayStr?'<span class="sw-now">오늘</span>':''}${holi?`<span class="holi-tag">${escapeHtml(holi)}</span>`:''}<button class="add-ev" title="일정 추가" onclick="openShareForm('${ds}')">+</button></div>`; }).join('');
+  const cols=wd.map((ds,i)=>{
+    const mine=shareEvents(ds).filter(e=>!(e.grp&&groups[e.grp])).map(e=>({k:shareTimeKey(e.time), h:
+      `<div class="sw-it mine" style="--ec:${empColor(e.emp)}" title="클릭 → 수정" onclick="openShareEdit('${ds}','${e.id}')">
+        <div class="sw-it-top"><span class="sw-name">${escapeHtml(e.emp)}</span>${shareTypeTag(e.type)}${e.time?`<span class="sw-time">${escapeHtml(e.time)}</span>`:''}</div>
+        ${e.title?`<div class="sw-memo">${escapeHtml(e.title)}</div>`:''}</div>`}));
     const meets=gcalDay(ds).map(g=>{ const m=shareMeetLine(ds, g, dmap), gi=m.who?dutyKeyIdx(m.key):-1;
-      return {k:shareTimeKey(m.time), h:`<div class="sw-it gcal"><div class="sw-it-txt"><b>${escapeHtml(m.title)}</b> <span>${m.time?escapeHtml(m.time):'종일'}</span>${m.who?`<span class="ev-duty pick" title="클릭 → 근무당번 변경" onclick="openDutyPicker(${gi})">🏠 ${escapeHtml(m.who)}<span class="duty-lab">근무당번</span></span>`:''}</div></div>`}; });
+      return {k:shareTimeKey(m.time), h:`<div class="sw-it gcal"><div class="sw-mt">${m.time?`<span class="sw-time">${escapeHtml(m.time.split('~')[0].trim())}</span>`:''}${escapeHtml(m.title)}</div>${m.who?`<span class="ev-duty pick" title="클릭 → 근무당번 변경" onclick="openDutyPicker(${gi})">🏠 ${escapeHtml(m.who)}<span class="duty-lab">근무당번</span></span>`:''}</div>`}; });
     const its=mine.concat(meets).sort((a,b)=>a.k-b.k).map(x=>x.h).join('');
-    return `<div class="sw-day ${ds===todayStr?'today':''} ${holi?'holi':''}">
-      <div class="sw-dh"><b>${DOW_KR[d.getDay()]} ${d.getDate()}</b>${ds===todayStr?'오늘':''}${holi?`<span class="holi-tag">${escapeHtml(holi)}</span>`:''}<button class="add-ev" title="일정 추가" onclick="openShareForm('${ds}')">+</button></div>
-      ${its||'<div class="sw-empty">일정 없음</div>'}
-    </div>`;
+    return `<div class="sw-col ${ds===todayStr?'today':''}" style="grid-column:${i+1}; grid-row:${2+nSpan}; --o:${i*3+2}">${its||'<div class="sw-empty">일정 없음</div>'}</div>`;
   }).join('');
   return `<div class="sw-week">
-    <div class="sw-week-head"><h3>${next?'다음 주':'이번 주'}</h3><span class="sw-range">${fmtShort(mon)} ~ ${fmtShort(ymd(addDays(parseYmd(mon),4)))}</span>${ten?`<span class="sw-ten">🕙 10시 출근 ${escapeHtml(ten)}</span>`:''}</div>
-    <div class="sw-days">${days}</div>
+    <div class="sw-week-head"><h3>${next?'다음 주':'이번 주'}</h3><span class="sw-range">${fmtShort(mon)} ~ ${fmtShort(fri)}</span>${ten?`<span class="sw-ten">🕙 10시 출근 · ${escapeHtml(ten)}</span>`:''}</div>
+    <div class="sw-grid">${heads}${spans.join('')}${cols}</div>
   </div>`;
 }
 function renderShare(){
