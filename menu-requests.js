@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4155,
- "updatedAt": "2026-10-26 11:43",
+ "version": 4156,
+ "updatedAt": "2026-10-26 13:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1792987913.521799",
+   "date": "2026-10-26",
+   "time": "13:11",
+   "store": "식물카페 가든홀릭 대전본점",
+   "biz": "33308*****",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1792987920.784519",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792987913521799"
+  },
   {
    "ts": "1792982564.703119",
    "date": "2026-10-26",
