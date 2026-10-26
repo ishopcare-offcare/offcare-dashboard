@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25686,
+  "version": 25687,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280970,17 +280970,17 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
-        "extern": {
-          "김현기": 1,
-          "서상원": 2
-        },
         "as": {
-          "고경림": 6,
+          "고경림": 7,
           "배선유": 5,
           "김동욱": 10,
           "심성현": 5,
           "박하림": 3,
           "송태양": 5
+        },
+        "extern": {
+          "김현기": 1,
+          "서상원": 2
         },
         "onboarding": {
           "고경림": 1
@@ -281003,6 +281003,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:26",
+          "store": "티엠디자인(T.M. Design)",
+          "biz": "85825*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "터프  / 생산번호 불일치 문구 재노출  <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1792822851988379?thread_ts=1792822523.377199&amp;cid=C",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 단말기초기화후 11850824 -&gt; 12097119 TID 변경 온보딩완료 • 정상결제 확인완료 11850824 - 12097119 TID 변경 온보딩완료 정상결제 확인완료",
+          "rr": 5
+        },
         {
           "time": "12:06",
           "store": "오투정원",
@@ -281575,7 +281587,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 41,
+        "online": 42,
         "offline": 7,
         "unknown": 0
       },
@@ -281684,21 +281696,21 @@ window.SLACK_DATA = {
       },
       "1792983883.387549": {
         "post": "1792983883.387549",
-        "lastSeen": 1792985504.969,
+        "lastSeen": 1792985627.283,
         "r": 1,
         "day": "2026-10-26",
         "idx": 19
       },
       "1792985313.316999": {
         "post": "1792985313.316999",
-        "lastSeen": 1792985504.969,
+        "lastSeen": 1792985627.283,
         "r": 1,
         "day": "2026-10-26",
         "idx": 20
       },
       "1792985403.781979": {
         "post": "1792985403.781979",
-        "lastSeen": 1792985504.969
+        "lastSeen": 1792985627.283
       }
     },
     "days": {
@@ -383870,7 +383882,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 12:32",
+    "at": "2026-10-26 12:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -384010,7 +384022,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 12:31",
+    "at": "2026-10-26 12:33",
     "pri": {
       "days": 0,
       "failed": [],
