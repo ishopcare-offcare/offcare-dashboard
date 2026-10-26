@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25610,
+  "version": 25611,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280995,8 +280995,8 @@ window.SLACK_DATA = {
           "req": "포프터(핸드폰) 터미널 네트워크가 끊어졌다고 나오시며 선3개 클릭자체가 불가하신상황이라고하시어 확인 부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": "터미널 전원선 연결후 정상적으로 프린터 출력완료",
-          "rr": 1
+          "note": "터미널 전원선 연결후 정상적으로 프린터 출력완료 / 정상작동확인",
+          "rr": 2
         },
         {
           "time": "10:00",
@@ -281289,7 +281289,7 @@ window.SLACK_DATA = {
       },
       "1792977000.302719": {
         "post": "1792977000.302719",
-        "lastSeen": 1792977471.09,
+        "lastSeen": 1792977544.006,
         "r": 1,
         "day": "2026-10-26",
         "idx": 7
@@ -383357,7 +383357,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:18",
+    "at": "2026-10-26 10:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383497,7 +383497,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:17",
+    "at": "2026-10-26 10:19",
     "pri": {
       "days": 0,
       "failed": [],
