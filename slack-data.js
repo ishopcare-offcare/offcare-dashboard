@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25668,
+  "version": 25669,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280989,6 +280989,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "menu": {
+          "서상원": 1,
           "배선유": 3,
           "심성현": 2
         },
@@ -280998,6 +280999,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:42",
+          "store": "오투정원",
+          "biz": "19901*****",
+          "cat": "menu",
+          "emp": "서상원",
+          "req": "메뉴",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "11:30",
           "store": "오투정원",
@@ -281499,11 +281512,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 35,
+        "online": 36,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "11:30",
+      "updatedAt": "11:42",
       "voc": {
         "responses": 2,
         "install": {
@@ -383760,7 +383773,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:42",
+    "at": "2026-10-26 11:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383900,7 +383913,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:42",
+    "at": "2026-10-26 11:43",
     "pri": {
       "days": 0,
       "failed": [],
