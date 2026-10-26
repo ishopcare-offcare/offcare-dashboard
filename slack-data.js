@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25687,
+  "version": 25688,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280992,6 +280992,9 @@ window.SLACK_DATA = {
           "김동욱": 1,
           "송태양": 1
         },
+        "transfer": {
+          "심성현": 1
+        },
         "menu": {
           "서상원": 1,
           "배선유": 3,
@@ -281014,6 +281017,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "터미널 단말기초기화후 11850824 -&gt; 12097119 TID 변경 온보딩완료 • 정상결제 확인완료 11850824 - 12097119 TID 변경 온보딩완료 정상결제 확인완료",
           "rr": 5
+        },
+        {
+          "time": "12:10",
+          "store": "정로스트볼",
+          "biz": "63101*****",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "10월 26일 오후 12시 15분 / 메뉴복사O / 터프",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
         },
         {
           "time": "12:06",
@@ -281587,7 +281602,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 42,
+        "online": 43,
         "offline": 7,
         "unknown": 0
       },
@@ -281696,21 +281711,21 @@ window.SLACK_DATA = {
       },
       "1792983883.387549": {
         "post": "1792983883.387549",
-        "lastSeen": 1792985627.283,
+        "lastSeen": 1792985701.613,
         "r": 1,
         "day": "2026-10-26",
         "idx": 19
       },
       "1792985313.316999": {
         "post": "1792985313.316999",
-        "lastSeen": 1792985627.283,
+        "lastSeen": 1792985701.613,
         "r": 1,
         "day": "2026-10-26",
         "idx": 20
       },
       "1792985403.781979": {
         "post": "1792985403.781979",
-        "lastSeen": 1792985627.283
+        "lastSeen": 1792985701.613
       }
     },
     "days": {
@@ -383882,7 +383897,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 12:34",
+    "at": "2026-10-26 12:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -384022,7 +384037,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 12:33",
+    "at": "2026-10-26 12:35",
     "pri": {
       "days": 0,
       "failed": [],
