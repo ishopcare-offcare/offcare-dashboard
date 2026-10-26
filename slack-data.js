@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25641,
+  "version": 25642,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280970,16 +280970,19 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
-        "extern": {
-          "서상원": 1
-        },
         "as": {
+          "고경림": 4,
           "배선유": 3,
-          "고경림": 3,
           "김동욱": 8,
           "송태양": 4,
           "박하림": 2,
           "심성현": 3
+        },
+        "nosetup": {
+          "배선유": 1
+        },
+        "extern": {
+          "서상원": 1
         },
         "booking": {
           "김동욱": 1
@@ -280991,6 +280994,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "JPM필라테스장유지부",
+          "biz": "61516*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프론트 연결 끊어진 후 같은 와이파이이나  안붙는다하여 점검부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "11:00",
+          "store": "소년공방 미술학원",
+          "biz": "86596*****",
+          "cat": "nosetup",
+          "emp": "배선유",
+          "req": "포프(노트북) 온보딩 및 사용 방법 안내 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "30분 후 / 재예약",
+          "rr": 1
+        },
         {
           "time": "10:54",
           "store": "미장원",
@@ -281338,7 +281364,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 25,
+        "online": 27,
         "offline": 4,
         "unknown": 0
       },
@@ -281447,7 +281473,7 @@ window.SLACK_DATA = {
       },
       "1792979809.555399": {
         "post": "1792979809.555399",
-        "lastSeen": 1792980037.996,
+        "lastSeen": 1792980125.984,
         "r": 1,
         "day": "2026-10-26",
         "idx": 15
@@ -383578,7 +383604,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:01",
+    "at": "2026-10-26 11:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383718,7 +383744,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:00",
+    "at": "2026-10-26 11:02",
     "pri": {
       "days": 0,
       "failed": [],
@@ -383730,7 +383756,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 131,
+      "budgetLeft": 132,
       "failed": []
     }
   }
