@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25620,
+  "version": 25621,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280982,7 +280982,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "menu": {
-          "배선유": 1,
+          "배선유": 2,
           "심성현": 2
         }
       },
@@ -280998,6 +280998,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "10:26",
+          "store": "라디오 헤드 펍앤킷사 (RADIO HEAD pub&am",
+          "biz": "40503*****",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "토스포스 메뉴 등록 요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 3
         },
         {
           "time": "10:25",
@@ -281216,7 +281228,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 2,
         "unknown": 0
       },
@@ -281325,21 +281337,17 @@ window.SLACK_DATA = {
       },
       "1792978032.402419": {
         "post": "1792978032.402419",
-        "lastSeen": 1792978371.802,
+        "lastSeen": 1792978435.354,
         "r": 1,
         "day": "2026-10-26",
         "idx": 10
       },
-      "1792978009.543999": {
-        "post": "1792978009.543999",
-        "lastSeen": 1792978371.802,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 9
-      },
       "1792978326.610219": {
         "post": "1792978326.610219",
-        "lastSeen": 1792978371.802
+        "lastSeen": 1792978435.354,
+        "r": 1,
+        "day": "2026-10-26",
+        "idx": 11
       }
     },
     "days": {
@@ -383315,8 +383323,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-26": {
-        "cnt": 11,
-        "sumMin": 29.29798800945282,
+        "cnt": 12,
+        "sumMin": 30.580784360567726,
         "over": 0,
         "items": [
           {
@@ -383406,7 +383414,8 @@ window.SLACK_DATA = {
             "store": "라디오 헤드 펍앤킷사 (RADIO HEAD pub&am",
             "biz": "40503*****",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 6.6
           },
           {
             "hm": "10:27",
@@ -383415,13 +383424,21 @@ window.SLACK_DATA = {
             "biz": "",
             "who": "고경림",
             "cat": "as"
+          },
+          {
+            "hm": "10:32",
+            "min": 1.3,
+            "store": "멜번커피하우스",
+            "biz": "15408*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:33",
+    "at": "2026-10-26 10:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383561,7 +383578,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:32",
+    "at": "2026-10-26 10:33",
     "pri": {
       "days": 0,
       "failed": [],
