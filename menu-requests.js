@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4187,
- "updatedAt": "2026-10-26 17:57",
+ "version": 4188,
+ "updatedAt": "2026-10-26 17:59",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,26 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CBNQM5MPZ",
+     "from": "댓글",
+     "path": "menu-files/1793005049_991679-0.png",
+     "kind": "other",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793005054.055199",
+   "replies": [
+    "토스포스에는\n레몬슬라이스 1000원\n잘 등록되어있으나 테이블오더에는 등록이 되어있지 않아 등록을 요청주신다고하십니다!"
+   ],
+   "rc": 2,
+   "lr": "1793005101.744859",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793005049991679"
   },
   {
