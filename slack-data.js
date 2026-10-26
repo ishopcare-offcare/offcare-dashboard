@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25740,
+  "version": 25741,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -278326,7 +278326,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "터프 명변 완료입니다.",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "12:59",
@@ -280958,6 +280958,16 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
+        "as": {
+          "김동욱": 12,
+          "배선유": 8,
+          "박하림": 4,
+          "송태양": 6,
+          "서상원": 1,
+          "고경림": 8,
+          "심성현": 6,
+          "김현기": 1
+        },
         "booking": {
           "배선유": 1,
           "김동욱": 1,
@@ -280966,16 +280976,6 @@ window.SLACK_DATA = {
         "onboarding": {
           "송태양": 3,
           "고경림": 1
-        },
-        "as": {
-          "배선유": 8,
-          "박하림": 4,
-          "송태양": 6,
-          "김동욱": 11,
-          "서상원": 1,
-          "고경림": 8,
-          "심성현": 6,
-          "김현기": 1
         },
         "extern": {
           "김현기": 1,
@@ -280999,6 +280999,30 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
+          "time": "13:00",
+          "store": "늘솜",
+          "biz": "4107300647",
+          "handler": "박하림",
+          "cat": "as",
+          "intake": "online",
+          "req": "포프(노트북)+유프 온보딩 요청드립니다!",
+          "reasons": [
+            "1차 부재"
+          ]
+        },
+        {
+          "time": "13:00",
+          "store": "똑똑창의교구놀이교습소",
+          "biz": "6129942151",
+          "handler": "박하림",
+          "cat": "transfer",
+          "intake": "online",
+          "req": "10월 26일 오후 1시 30분 / 메뉴복사O / 프론트",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
           "time": "12:04",
           "store": "",
           "biz": "",
@@ -281012,6 +281036,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "13:58",
+          "store": "카페 곧, 감",
+          "biz": "2112912107",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "페이스캠 연결안도미",
+          "hw": "",
+          "intake": "online",
+          "note": "rndis 방식으로 네트워크 어댑터 삭제 후 정상",
+          "rr": 1
+        },
         {
           "time": "13:43",
           "store": "촌돼지",
@@ -281814,11 +281850,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 58,
+        "online": 61,
         "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "13:55",
+      "updatedAt": "14:00",
       "voc": {
         "responses": 2,
         "install": {
@@ -281923,28 +281959,36 @@ window.SLACK_DATA = {
       },
       "1792983883.387549": {
         "post": "1792983883.387549",
-        "lastSeen": 1792990717.646,
+        "lastSeen": 1792990809.071,
         "r": 1,
         "day": "2026-10-26",
         "idx": 19
       },
       "1792987205.145399": {
         "post": "1792987205.145399",
-        "lastSeen": 1792990717.646,
+        "lastSeen": 1792990809.071,
         "r": 1,
         "day": "2026-10-26",
         "idx": 22
       },
       "1792987201.632159": {
         "post": "1792987201.632159",
-        "lastSeen": 1792990717.646,
+        "lastSeen": 1792990809.071,
         "r": 1,
         "day": "2026-10-26",
         "idx": 26
       },
       "1792989004.604929": {
         "post": "1792989004.604929",
-        "lastSeen": 1792990717.646
+        "lastSeen": 1792990809.071
+      },
+      "1792990800.466699": {
+        "post": "1792990800.466699",
+        "lastSeen": 1792990809.071
+      },
+      "1792990750.959509": {
+        "post": "1792990750.959509",
+        "lastSeen": 1792990809.071
       }
     },
     "days": {
@@ -384241,7 +384285,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 13:59",
+    "at": "2026-10-26 14:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -384249,7 +384293,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4769,
     "named": 1247,
-    "unknownName": 190,
+    "unknownName": 191,
     "beforeStart": 0,
     "done": 1247,
     "byStatus": {
@@ -384381,7 +384425,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 13:58",
+    "at": "2026-10-26 14:00",
     "pri": {
       "days": 0,
       "failed": [],
@@ -384393,7 +384437,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 132,
+      "budgetLeft": 131,
       "failed": []
     }
   }
