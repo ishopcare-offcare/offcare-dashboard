@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25695,
+  "version": 25696,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,9 +280971,9 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "고경림": 8,
           "심성현": 6,
           "김현기": 1,
-          "고경림": 7,
           "배선유": 5,
           "김동욱": 10,
           "박하림": 3,
@@ -281007,6 +281007,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:39",
+          "store": "댕냥이 점빵",
+          "biz": "38745*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "포프(휴대폰) 사용 중 / 최근 들어 프론트 결제 로딩이 오래 걸린다고 함 / 인터넷 환경을 바꾼 뒤로 발생 된다고 함",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:38",
           "store": "레스트+",
@@ -281627,7 +281638,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 44,
+        "online": 45,
         "offline": 8,
         "unknown": 0
       },
@@ -281736,14 +281747,14 @@ window.SLACK_DATA = {
       },
       "1792983883.387549": {
         "post": "1792983883.387549",
-        "lastSeen": 1792986370.829,
+        "lastSeen": 1792986471.491,
         "r": 1,
         "day": "2026-10-26",
         "idx": 19
       },
       "1792985403.781979": {
         "post": "1792985403.781979",
-        "lastSeen": 1792986370.829
+        "lastSeen": 1792986471.491
       }
     },
     "days": {
@@ -383916,7 +383927,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 12:46",
+    "at": "2026-10-26 12:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -384056,7 +384067,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 12:46",
+    "at": "2026-10-26 12:47",
     "pri": {
       "days": 0,
       "failed": [],
