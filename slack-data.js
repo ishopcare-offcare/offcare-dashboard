@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25635,
+  "version": 25636,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280975,8 +280975,8 @@ window.SLACK_DATA = {
           "송태양": 4,
           "배선유": 2,
           "박하림": 2,
-          "김동욱": 7,
-          "심성현": 2
+          "심성현": 3,
+          "김동욱": 7
         },
         "booking": {
           "김동욱": 1
@@ -281035,6 +281035,18 @@ window.SLACK_DATA = {
           "intake": "offline",
           "note": "10분 후 연락요청 / 전원재부팅후 정상작동확인 카드인식도 확인함.",
           "rr": 2
+        },
+        {
+          "time": "10:32",
+          "store": "멜번커피하우스",
+          "biz": "15408*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "키오스크 전원 켰는데 에러라고만 나온다고하셔서 도움 부탁드립니다.:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "/ T6 D타입 기기 전원 인가 불가 멀팉탭 정상, 잔류 전력 제거 후 동일 / <!subteam^S0A0JFMNAAX 해당 매장 T6 전원 불량으로 최대한 빠른 설치 요청하셨으나 10/28 수요일로 안내드렸습니다. A/S 설치 일정 올렸습니다. 해당 매장 T6 전원 불량으로 최대한 빠른 설치 요청하셨으나 10/28 수요일로 안내드렸습니다.",
+          "rr": 3
         },
         {
           "time": "10:28",
@@ -281288,11 +281300,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 23,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "10:46",
+      "updatedAt": "10:53",
       "voc": {
         "responses": 2,
         "install": {
@@ -281394,13 +281406,6 @@ window.SLACK_DATA = {
       "1792940399.221799": {
         "post": "1792940399.221799",
         "lastSeen": 1792959327.497
-      },
-      "1792978326.610219": {
-        "post": "1792978326.610219",
-        "lastSeen": 1792979552.539,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 11
       }
     },
     "days": {
@@ -383485,7 +383490,8 @@ window.SLACK_DATA = {
             "store": "멜번커피하우스",
             "biz": "15408*****",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 21.2
           },
           {
             "hm": "10:37",
@@ -383519,7 +383525,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:53",
+    "at": "2026-10-26 10:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383659,7 +383665,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:52",
+    "at": "2026-10-26 10:54",
     "pri": {
       "days": 0,
       "failed": [],
