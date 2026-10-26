@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4175,
- "updatedAt": "2026-10-26 16:39",
+ "version": 4176,
+ "updatedAt": "2026-10-26 16:43",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CBXBC77GB",
      "from": "댓글",
-     "path": "menu-files/1793000250_879929-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -142,13 +141,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793000250_879929-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CBXBBJT35",
      "from": "댓글",
-     "path": "menu-files/1793000250_879929-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -177,13 +176,13 @@ window.MENU_REQUESTS = {
        "price": 500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793000250_879929-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CBN701R3R",
      "from": "댓글",
-     "path": "menu-files/1793000250_879929-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -252,13 +251,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793000250_879929-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CC795MSUU",
      "from": "댓글",
-     "path": "menu-files/1793000250_879929-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -307,13 +306,13 @@ window.MENU_REQUESTS = {
        "price": 16900
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793000250_879929-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CC3CPLGTC",
      "from": "댓글",
-     "path": "menu-files/1793000250_879929-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -392,16 +391,17 @@ window.MENU_REQUESTS = {
        "price": 9500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793000250_879929-4.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1793000269.416039",
+   "rc": 3,
+   "lr": "1793000538.965199",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793000250879929"
   },
   {
