@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25618,
+  "version": 25619,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -279443,8 +279443,7 @@ window.SLACK_DATA = {
           "심성현": 3
         },
         "booking": {
-          "심성현": 2,
-          "미지정": 1
+          "심성현": 3
         },
         "transfer": {
           "서상원": 1,
@@ -279902,12 +279901,13 @@ window.SLACK_DATA = {
           "store": "온결네일",
           "biz": "33405*****",
           "cat": "booking",
-          "emp": "미지정",
+          "emp": "심성현",
           "req": "토요일 오후 1시 / 메뉴 복사 O / 프론트",
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": ""
+          "note": "",
+          "rr": 3
         },
         {
           "time": "11:59",
@@ -281325,14 +281325,14 @@ window.SLACK_DATA = {
       },
       "1792978032.402419": {
         "post": "1792978032.402419",
-        "lastSeen": 1792978169.895,
+        "lastSeen": 1792978299.548,
         "r": 1,
         "day": "2026-10-26",
         "idx": 10
       },
       "1792978009.543999": {
         "post": "1792978009.543999",
-        "lastSeen": 1792978169.895,
+        "lastSeen": 1792978299.548,
         "r": 1,
         "day": "2026-10-26",
         "idx": 9
@@ -383417,7 +383417,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:29",
+    "at": "2026-10-26 10:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383557,7 +383557,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:29",
+    "at": "2026-10-26 10:31",
     "pri": {
       "days": 0,
       "failed": [],
