@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25580,
+  "version": 25581,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280797,7 +280797,7 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "프론트 공초 3회 진행했으나 계속 꺼짐 증상 / 결제가 밀린 상태라 빠른 퀵 요청 / 님, 13층으로 퀵 접수 부탁드립니다. 장비는 챙겨 오겠습니다. 님, 13층으로 퀵 접수 부탁드립니다. / 네넵! 네넵 ! / <!subteam^S0ANLUVK3PG /",
-          "rr": 10
+          "rr": 11
         },
         {
           "time": "09:26",
@@ -281058,7 +281058,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:22",
+      "updatedAt": "09:27",
       "voc": {
         "responses": 2,
         "install": {
@@ -281174,10 +281174,14 @@ window.SLACK_DATA = {
       },
       "1792974161.135289": {
         "post": "1792974161.135289",
-        "lastSeen": 1792974346.943,
+        "lastSeen": 1792974458.376,
         "r": 1,
         "day": "2026-10-26",
         "idx": 1
+      },
+      "1792974428.304449": {
+        "post": "1792974428.304449",
+        "lastSeen": 1792974458.376
       }
     },
     "days": {
@@ -383179,7 +383183,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:26",
+    "at": "2026-10-26 09:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383319,7 +383323,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 09:25",
+    "at": "2026-10-26 09:27",
     "pri": {
       "days": 0,
       "failed": [],
