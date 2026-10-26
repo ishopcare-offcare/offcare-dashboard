@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25674,
+  "version": 25675,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280970,19 +280970,19 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
+        "as": {
+          "고경림": 6,
+          "배선유": 5,
+          "김동욱": 10,
+          "심성현": 5,
+          "박하림": 3,
+          "송태양": 5
+        },
         "extern": {
           "서상원": 2
         },
         "onboarding": {
           "고경림": 1
-        },
-        "as": {
-          "배선유": 5,
-          "김동욱": 10,
-          "심성현": 5,
-          "박하림": 3,
-          "고경림": 5,
-          "송태양": 5
         },
         "nosetup": {
           "배선유": 1
@@ -281002,6 +281002,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:53",
+          "store": "원모어",
+          "biz": "23054*****",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "포프유프(노트북) 온보딩 부탁드립니다 (영수증 출력불가)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:42",
           "store": "오투정원",
@@ -281550,7 +281561,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 39,
+        "online": 40,
         "offline": 7,
         "unknown": 0
       },
@@ -383811,7 +383822,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:53",
+    "at": "2026-10-26 12:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383951,7 +383962,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:53",
+    "at": "2026-10-26 12:00",
     "pri": {
       "days": 0,
       "failed": [],
