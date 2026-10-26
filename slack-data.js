@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25643,
+  "version": 25644,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -281134,7 +281134,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "넵 부재중이셔서 통화되면 방문안내드리도록 하겠습니다. 프론트 1세대 사용중으로 확인되는데 , 2세대로 따로 교체는 필요없을까요 ? / / 통화완료되어 금일방문건으로 안내드렸습니다. / 넵!!",
-          "rr": 41
+          "rr": 42
         },
         {
           "time": "10:26",
@@ -281474,14 +281474,14 @@ window.SLACK_DATA = {
       },
       "1792979809.555399": {
         "post": "1792979809.555399",
-        "lastSeen": 1792980199.309,
+        "lastSeen": 1792980263.475,
         "r": 1,
         "day": "2026-10-26",
         "idx": 15
       },
       "1792980190.608349": {
         "post": "1792980190.608349",
-        "lastSeen": 1792980199.309
+        "lastSeen": 1792980263.475
       }
     },
     "days": {
@@ -383609,7 +383609,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:03",
+    "at": "2026-10-26 11:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383749,7 +383749,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:03",
+    "at": "2026-10-26 11:04",
     "pri": {
       "days": 0,
       "failed": [],
