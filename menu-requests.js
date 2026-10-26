@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4153,
- "updatedAt": "2026-10-26 11:06",
+ "version": 4154,
+ "updatedAt": "2026-10-26 11:14",
  "days": 30,
  "items": [
   {
@@ -64014,29 +64014,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790554204114979"
-  },
-  {
-   "ts": "1790388829.543579",
-   "date": "2026-09-26",
-   "time": "11:13",
-   "store": "푸다훠궈",
-   "biz": "52215*****",
-   "pos": "토스포스",
-   "content": "1. 평일 점심에\n마라홍탕 클릭 후 기본 , 덜맵게\n토마토탕 클릭 후 기본 , 진하게\n\n2. 주류에 오타 수정 (밑에 사진 첨부)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "옵션 수정 및 오타 수정 완료"
-   ],
-   "rc": 1,
-   "lr": "1790389208.203149",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790388829543579"
   }
  ],
  "ocr": {

@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25650,
+  "version": 25651,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,11 +280971,11 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "김동욱": 9,
           "고경림": 5,
           "심성현": 4,
           "송태양": 5,
           "배선유": 3,
-          "김동욱": 8,
           "박하림": 2
         },
         "nosetup": {
@@ -280994,6 +280994,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:11",
+          "store": "젓가락질 잘해야만 밥을먹나요 화정점",
+          "biz": "22707*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "해당 매장 배민 프린터 출력 오류로 인한 원격 점검 요청.",
+          "hw": "",
+          "intake": "offline",
+          "note": "자체 해결 하셨다고 합니다.",
+          "rr": 1
+        },
         {
           "time": "11:09",
           "store": "보야주하우스",
@@ -281413,7 +281425,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 30,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
       "updatedAt": "11:11",
@@ -383655,7 +383667,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:13",
+    "at": "2026-10-26 11:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383795,7 +383807,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:12",
+    "at": "2026-10-26 11:14",
     "pri": {
       "days": 0,
       "failed": [],
@@ -383807,7 +383819,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 131,
+      "budgetLeft": 132,
       "failed": []
     }
   }
