@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25612,
+  "version": 25613,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280972,6 +280972,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "박하림": 1,
+          "배선유": 1,
           "심성현": 2,
           "고경림": 1,
           "송태양": 3,
@@ -280997,6 +280998,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "터미널 전원선 연결후 정상적으로 프린터 출력완료 / 정상작동확인",
           "rr": 2
+        },
+        {
+          "time": "10:10",
+          "store": "포인트스팀",
+          "biz": "60319*****",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프(PC) 이용중 NC7000 을 프린터 용으로 연결 도움 요청하셨습니다. A케이블은 구매해서 가지고있다고 주장하셔서 원격 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "설정 완료 / 키오스크 모드, 금액입력결제모드 사용 방법 안내",
+          "rr": 1
         },
         {
           "time": "10:00",
@@ -281180,7 +281193,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 2,
         "unknown": 0
       },
@@ -281286,13 +281299,6 @@ window.SLACK_DATA = {
       "1792940399.221799": {
         "post": "1792940399.221799",
         "lastSeen": 1792959327.497
-      },
-      "1792977000.302719": {
-        "post": "1792977000.302719",
-        "lastSeen": 1792977606.014,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 7
       }
     },
     "days": {
@@ -383341,7 +383347,8 @@ window.SLACK_DATA = {
             "store": "포인트스팀",
             "biz": "60319*****",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.9
           },
           {
             "hm": "10:10",
@@ -383357,7 +383364,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:20",
+    "at": "2026-10-26 10:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383497,7 +383504,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:20",
+    "at": "2026-10-26 10:21",
     "pri": {
       "days": 0,
       "failed": [],
