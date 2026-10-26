@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25692,
+  "version": 25693,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,6 +280971,7 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "김현기": 1,
           "고경림": 7,
           "배선유": 5,
           "김동욱": 10,
@@ -281006,6 +281007,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:28",
+          "store": "카페바이브",
+          "biz": "34508*****",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포스로 사용하던 노트북 고장",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "12:26",
           "store": "티엠디자인(T.M. Design)",
@@ -281603,7 +281615,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 43,
-        "offline": 7,
+        "offline": 8,
         "unknown": 0
       },
       "updatedAt": "12:39",
@@ -281711,21 +281723,14 @@ window.SLACK_DATA = {
       },
       "1792983883.387549": {
         "post": "1792983883.387549",
-        "lastSeen": 1792986052.64,
+        "lastSeen": 1792986228.168,
         "r": 1,
         "day": "2026-10-26",
         "idx": 19
       },
-      "1792985313.316999": {
-        "post": "1792985313.316999",
-        "lastSeen": 1792986052.64,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 20
-      },
       "1792985403.781979": {
         "post": "1792985403.781979",
-        "lastSeen": 1792986052.64
+        "lastSeen": 1792986228.168
       }
     },
     "days": {
@@ -383890,20 +383895,21 @@ window.SLACK_DATA = {
             "store": "카페바이브",
             "biz": "34508*****",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 12:41",
+    "at": "2026-10-26 12:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4757,
+    "rows": 4759,
     "named": 1247,
     "unknownName": 190,
     "beforeStart": 0,
@@ -384037,7 +384043,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 12:40",
+    "at": "2026-10-26 12:43",
     "pri": {
       "days": 0,
       "failed": [],
