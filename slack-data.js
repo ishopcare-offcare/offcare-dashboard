@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25663,
+  "version": 25664,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280972,9 +280972,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김동욱": 10,
+          "심성현": 5,
           "배선유": 4,
           "고경림": 5,
-          "심성현": 4,
           "송태양": 5,
           "박하림": 2
         },
@@ -281009,6 +281009,18 @@ window.SLACK_DATA = {
           "intake": "offline",
           "note": "헤더 청소 및 용지 인쇄농도 100% 진행. 추 후에도 흐려질 경우 교체 필요.",
           "rr": 1
+        },
+        {
+          "time": "11:23",
+          "store": "옥자",
+          "biz": "10927*****",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "인터넷 단선되어 비상결제모드 사용중 / 비상결제모드로 카드 결제 시 카드 결제 오류발생되어 확인 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "비상 결제 모드는 토스 내 오류가 있을 경우 결제가 가능한 모드이며 인터넷이 없으면 결제가 불가능한 것이 맞습니다. / 프론트 핫스팟 연결 후 금액 입력 결제 모드로 결제 테스트 완료 / 취소는 인터넷 연결 후 포스 결제 내역을 통해 가능함 안내",
+          "rr": 3
         },
         {
           "time": "11:22",
@@ -281476,7 +281488,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 33,
+        "online": 34,
         "offline": 7,
         "unknown": 0
       },
@@ -383737,7 +383749,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:31",
+    "at": "2026-10-26 11:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383877,7 +383889,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:30",
+    "at": "2026-10-26 11:37",
     "pri": {
       "days": 0,
       "failed": [],
