@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4151,
- "updatedAt": "2026-10-26 10:30",
+ "version": 4152,
+ "updatedAt": "2026-10-26 11:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1792980190.608349",
+   "date": "2026-10-26",
+   "time": "11:03",
+   "store": "온빛",
+   "biz": "82410*****",
+   "pos": "토스포스",
+   "content": "포스폴더에 답례 선물셋트폴더를만들어주세요 간식a b는 답례쪽에넣어주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792980190608349"
+  },
   {
    "ts": "1792978009.543999",
    "date": "2026-10-26",

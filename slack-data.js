@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25642,
+  "version": 25643,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -281003,7 +281003,8 @@ window.SLACK_DATA = {
           "req": "프론트 연결 끊어진 후 같은 와이파이이나  안붙는다하여 점검부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "현재통화불가 고객센터 재인입하신다고합니다.",
+          "rr": 1
         },
         {
           "time": "11:00",
@@ -281133,7 +281134,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "넵 부재중이셔서 통화되면 방문안내드리도록 하겠습니다. 프론트 1세대 사용중으로 확인되는데 , 2세대로 따로 교체는 필요없을까요 ? / / 통화완료되어 금일방문건으로 안내드렸습니다. / 넵!!",
-          "rr": 40
+          "rr": 41
         },
         {
           "time": "10:26",
@@ -281368,7 +281369,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "11:00",
+      "updatedAt": "11:03",
       "voc": {
         "responses": 2,
         "install": {
@@ -281473,10 +281474,14 @@ window.SLACK_DATA = {
       },
       "1792979809.555399": {
         "post": "1792979809.555399",
-        "lastSeen": 1792980125.984,
+        "lastSeen": 1792980199.309,
         "r": 1,
         "day": "2026-10-26",
         "idx": 15
+      },
+      "1792980190.608349": {
+        "post": "1792980190.608349",
+        "lastSeen": 1792980199.309
       }
     },
     "days": {
@@ -383604,7 +383609,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:02",
+    "at": "2026-10-26 11:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383744,7 +383749,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:02",
+    "at": "2026-10-26 11:03",
     "pri": {
       "days": 0,
       "failed": [],
