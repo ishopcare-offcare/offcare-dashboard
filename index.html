@@ -2679,10 +2679,13 @@ function menuregItems(){ return (window.MENU_REQUESTS&&window.MENU_REQUESTS.item
 // ── 매장 메모 (팀 공유: 클라우드 동기화) — 사용 프로그램·ASP 계정 등. 키=사업자번호(없으면 상호)
 const LS_MENUMEMO = "opcare_menumemo_v1";
 let MENUMEMO = load(LS_MENUMEMO, {});   // { "<사업자번호|상호>": "메모" }
-// 사업자번호는 공개 데이터에서 앞 5자리만 남는다(2026-10-20) — 여러 매장이 겹칠 수 있어 상호까지 붙여 키로 쓴다.
+// 사업자번호 + 상호를 키로 쓴다. 2026-10-20~26 에는 번호를 앞 5자리만 실었다(그때 저장된 메모 키 = '12345*****|상호').
+// 검색: 전체 번호로 찾되, 아직 가린 채 남은 값(12345*****)은 앞 5자리가 맞으면 같은 건으로 본다.
+function bizMatch(biz, qd){ const b=String(biz||''); if(!qd) return false; if(b.includes(qd)) return true; const i=b.indexOf('*'); return i>=3 && qd.length>=i && qd.slice(0,i)===b.slice(0,i); }
+function bizStar(b){ b=String(b||''); return /^\d{10}$/.test(b) ? b.slice(0,5)+'*****' : b; }
 function menuregMemoKey(it){ if(!it) return ''; return it.biz ? it.biz+'|'+(it.store||'') : (it.store||''); }
 // 그 전에 원본 10자리로 저장된 메모 — 앞자리가 같은 옛 키가 딱 하나일 때만 이어서 보여준다
-function menuregMemoLegacyKey(it){ const b=String((it&&it.biz)||''); if(b.indexOf('*')<0) return ''; const p=b.replace(/\*/g,''); const ks=Object.keys(MENUMEMO).filter(k=>/^\d{10}$/.test(k)&&k.slice(0,p.length)===p&&MENUMEMO[k]); return ks.length===1?ks[0]:''; }
+function menuregMemoLegacyKey(it){ const b=String((it&&it.biz)||''); if(/^\d{10}$/.test(b)){ const sk=bizStar(b)+'|'+((it&&it.store)||''); return MENUMEMO[sk]?sk:(MENUMEMO[b]?b:''); }   /* 가린 기간 키 → 그 전 원본 10자리 키 */ if(b.indexOf('*')<0) return ''; const p=b.replace(/\*/g,''); const ks=Object.keys(MENUMEMO).filter(k=>/^\d{10}$/.test(k)&&k.slice(0,p.length)===p&&MENUMEMO[k]); return ks.length===1?ks[0]:''; }
 function menuregMemoGet(it){ const k=menuregMemoKey(it); if(k&&MENUMEMO[k]) return MENUMEMO[k]; const lk=menuregMemoLegacyKey(it); return lk?MENUMEMO[lk]:''; }
 function menuregMemoSave(){
   const it=menuregItems().find(i=>i.ts===menuregSel); if(!it) return;
@@ -2697,8 +2700,8 @@ function menuregMemoSave(){
 let menuregSearch='';
 function menuregFiltered(){
   const all=menuregItems();
-  const q=(menuregSearch||'').trim().toLowerCase(), qd=q.replace(/[^0-9]/g,'').slice(0,5);   // 사업자번호는 앞 5자리만 공개
-  let items=q?all.filter(i=>((i.store||'').toLowerCase().includes(q))||(qd.length>=3&&String(i.biz||'').includes(qd))):all;
+  const q=(menuregSearch||'').trim().toLowerCase(), qd=q.replace(/[^0-9]/g,'');
+  let items=q?all.filter(i=>((i.store||'').toLowerCase().includes(q))||(qd.length>=3&&bizMatch(i.biz,qd))):all;
   if(menuregFilter!=='all') items=items.filter(i=>i.status===menuregFilter);
   return {all,items};
 }
@@ -5686,12 +5689,12 @@ let ssBackQ='', ssStoreList=[];   // 매장 하나를 골랐을 때 돌아갈 �
 function runStoreSearch(q,exact){
   const body=document.getElementById('storeSearchBody'); if(!body) return;
   q=(q||'').trim(); if(q.length<2){ body.innerHTML='<div class="empty-note">두 글자 이상 입력하세요.</div>'; return; }
-  const ql=q.toLowerCase(), bizQ=q.replace(/[^0-9]/g,'').slice(0,5);   // 사업자번호는 앞 5자리만 공개
+  const ql=q.toLowerCase(), bizQ=q.replace(/[^0-9]/g,'');
   // 사업자번호가 빈 옛 기록(슬랙 tel 링크로 못 읽은 명의변경 등)은 같은 상호의 다른 기록 번호로 보완 — 번호가 하나뿐일 때만
   const normStore=s=>(s||'').replace(/\s+/g,'').toLowerCase(), storeBiz={};
   for(const d of allSlackDates()){ const dd=slackDay(d)||{}; [...(dd.done||[]),...(dd.pending||[])].forEach(x=>{ if(x.biz&&x.store){ const k=normStore(x.store); (storeBiz[k]=storeBiz[k]||new Set()).add(String(x.biz)); } }); }
   const bizOf=(store,biz)=>{ if(biz) return String(biz); const s=storeBiz[normStore(store)]; return s&&s.size===1?[...s][0]:''; };
-  const matchWork=(store,biz)=>{ if(exact) return normStore(store)===normStore(exact); if(store&&store.toLowerCase().includes(ql)) return true; const b=bizQ.length>=4?bizOf(store,biz):''; return !!b&&b.includes(bizQ); };
+  const matchWork=(store,biz)=>{ if(exact) return normStore(store)===normStore(exact); if(store&&store.toLowerCase().includes(ql)) return true; const b=bizQ.length>=4?bizOf(store,biz):''; return !!b&&bizMatch(b,bizQ); };
   const rows=[];
   for(const d of allSlackDates()){ const dd=slackDay(d)||{};
     (dd.done||[]).forEach(x=>{ if(matchWork(x.store,x.biz)) rows.push({date:d,time:x.time,store:x.store,biz:x.biz,cat:x.cat,emp:x.emp,st:'처리',req:x.req||'',note:x.note||'',tv:x.tv||null}); });

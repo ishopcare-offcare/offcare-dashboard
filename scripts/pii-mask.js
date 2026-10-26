@@ -1,16 +1,17 @@
 /*
- * 공개 데이터 개인정보 가리기 — 사업자번호 뒤 5자리 · 전화번호 뒤 4자리 · 주소는 구/동까지 (2026-10-20 결정)
+ * 공개 데이터 개인정보 가리기 — 전화번호 뒤 4자리 · 주소는 구/동까지 (2026-10-20 결정)
+ *  사업자번호는 2026-10-26 결정으로 다시 전부 싣는다(가리지 않음). maskBiz 는 숫자만 남기는 정리만 한다.
  *
  *  이 저장소는 GitHub Pages 로 누구나 볼 수 있다. 대시보드에 싣는 파일은
  *  전부 여기를 거쳐서 쓴다.
  *
- *   maskBiz('2338800379')        → '23388*****'
+ *   maskBiz('233-88-00379')      → '2338800379'   (가리지 않음 — 숫자만)
  *   maskAddr('서울 강남구 테헤란로 1 (역삼동)') → '서울 강남구 역삼동'
- *   maskText(자유 텍스트)          → 라벨 붙은 사업자번호 · 000-00-00000 · 전화번호(010-1234-****) · 상세 주소를 가림
+ *   maskText(자유 텍스트)          → 전화번호(010-1234-****) · 상세 주소를 가림 (사업자번호는 그대로)
  *   maskDeep(객체)                → biz·addr 칸은 위 규칙, 나머지 문자열은 maskText
  *
- *  ⚠️ 가린 사업자번호(앞 5자리)는 여러 매장이 겹칠 수 있다 — 세무서·업태 코드라서.
- *     사업자번호만으로 매장을 특정하는 로직은 시각·상호와 함께 써야 한다.
+ *  ⚠️ 2026-10-20~26 사이 쌓인 데이터·클라우드 키에는 가린 번호(앞 5자리 + *****)가 남아 있을 수 있다.
+ *     복원: scripts/unmask-biz.js (git 기록의 원본으로 되살림).
  *  같은 입력을 몇 번 넣어도 결과가 같다(이미 가린 값은 그대로).
  */
 'use strict';
@@ -37,8 +38,7 @@ function maskBiz(v){
   if(v == null) return v;
   const d = String(v).replace(/[^\d*]/g, '');
   if(!d) return '';
-  if(d.indexOf('*') >= 0) return d;             // 이미 가림
-  return d.length > 5 ? d.slice(0, 5) + STARS(d.length - 5) : d;
+  return d;                                     // 2026-10-26 부터 가리지 않는다(이미 가려진 값은 그대로 둠)
 }
 
 const SIDO = '(?:서울|부산|대구|인천|광주|대전|울산|세종|경기|강원|충북|충남|전북|전남|경북|경남|제주|충청북|충청남|전라북|전라남|경상북|경상남|전남광주)[가-힣]*';
@@ -111,16 +111,7 @@ function maskText(v){
   // 전화번호 — 휴대폰(010…)·지역번호·070·050x. 마지막 4자리를 가린다 (010-1234-****).
   // 사업자번호는 0으로 시작하지 않으므로(앞 3자리 = 세무서 코드) 0 으로 시작하는 숫자는 전화로 본다.
   s = s.replace(RE_PHONE, (m, head) => head + '****');
-  // 슬랙 전화 링크로 바뀐 사업자번호 <tel:1234567890|1234567890>
-  s = s.replace(/<tel:([\d\-]{10,13})\|([\d\-]{10,13})>/g, (m, a, b) =>
-    /^[1-9]\d{2}-?\d{2}-?\d{5}$/.test(b) ? '<tel:' + maskDigits(a) + '|' + maskDigits(b) + '>' : m);
-  // 라벨 붙은 사업자번호 (공백·하이픈 섞여도)
-  s = s.replace(/(사업자\s*(?:등록)?\s*번?\s*호?\s*[:：]?\s*)(\d[\d\- ]{8,14}\d)/g, (m, lab, num) =>
-    num.replace(/\D/g, '').length >= 10 ? lab + maskDigits(num) : m);
-  // 000-00-00000 모양은 라벨이 없어도 사업자번호
-  s = s.replace(/(?<!\d)(\d{3}-\d{2}-)(\d{5})(?!\d)/g, (m, a) => a + '*****');
-  // 라벨 없이 숫자만 적은 것 — 검증번호(끝자리)가 맞는 10자리만. 슬랙 ts(소수점)·파일명(_)은 제외
-  s = s.replace(/(?<![\d_.])[1-9]\d{9}(?![\d_.])/g, d => (bizChecksumOk(d) ? maskDigits(d) : d));
+  // 사업자번호(라벨·000-00-00000·검증번호 맞는 10자리)는 2026-10-26 부터 가리지 않는다.
   if(/[시군구]\s/.test(s)) s = maskAddrInText(s);
   return s;
 }
@@ -140,7 +131,10 @@ function maskDeep(o, key){
   return o;
 }
 
-/* 'YYYY-MM-DD|HH:MM|사업자번호' 꼴 키의 마지막 칸 */
+/* 'YYYY-MM-DD|HH:MM|사업자번호' 꼴 키의 마지막 칸 — maskBiz 가 가리지 않으므로 이제 숫자 정리만 */
 const maskKeyTail = k => { const i = k.lastIndexOf('|'); return i < 0 ? k : k.slice(0, i + 1) + maskBiz(k.slice(i + 1)); };
 
-module.exports = { maskBiz, maskAddr, maskText, maskDeep, maskDigits, maskKeyTail };
+/* 가린 모양(앞 5자리 + *****)으로 바꾼다 — 2026-10-20~26 에 가린 키로 저장된 값을 찾을 때만 쓴다 */
+const starBiz = v => { const d = String(v == null ? '' : v).replace(/[^\d*]/g, ''); return d.length === 10 && d.indexOf('*') < 0 ? d.slice(0, 5) + '*****' : d; };
+
+module.exports = { maskBiz, maskAddr, maskText, maskDeep, maskDigits, maskKeyTail, bizChecksumOk, starBiz };

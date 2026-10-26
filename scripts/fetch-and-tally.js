@@ -4,7 +4,7 @@
  * 실행: node scripts/fetch-and-tally.js
  */
 const fs = require('fs');
-const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
+const { maskBiz, maskText, maskDeep, starBiz } = require('./pii-mask');   // 공개 데이터 — 전화번호·상세주소 가림(사업자번호는 2026-10-26 부터 그대로)
 
 const TOKEN = process.env.SLACK_BOT_TOKEN;
 const OUT = 'slack-data.js';
@@ -311,7 +311,7 @@ function parseBiz(text) {
   const m = t.match(/사업자\s*(?:등록)?\s*번?\s*호?\s*[:：]?\s*(\d[\d\- ]*)/);
   if (!m) return '';
   const d = m[1].replace(/\D/g, '');
-  return maskBiz(d.length >= 10 ? d.slice(0, 10) : d);   // 키(time|store|biz|cat)도 가린 값으로 맞춘다
+  return maskBiz(d.length >= 10 ? d.slice(0, 10) : d);
 }
 // 팀뷰어 ID — 스레드 댓글의 '팀뷰어 ID : 627830237' (작성자 무관, 마지막 값 우선).
 // PW 는 싣지 않는다 — 공개 저장소라 ID+PW 가 같이 있으면 누구나 매장에 원격접속할 수 있다(2026-10-12 결정)
@@ -322,6 +322,11 @@ function parseTv(reps) {
   return id ? { id } : null;
 }
 const noteKey = (it) =>it.time + '|' + it.store + '|' + it.biz + '|' + it.cat;
+/* 2026-10-20~26 에는 biz 를 가려(앞 5자리 + *****) 저장했다. 지금 읽은 원본 번호 키로 못 찾으면 가린 키로도 찾는다 —
+   못 찾으면 처리내역을 슬랙에서 다시 부르게 되고, 한꺼번에 몰리면 429 로 그 날 집계가 깨진다. */
+const starKey = (k) => { const p = k.split('|'); if (p.length < 4) return k; p[p.length - 2] = starBiz(p[p.length - 2]); return p.join('|'); };
+const pick = (o, k) => (k in o ? o[k] : o[starKey(k)]);
+const has = (o, k) => (k in o) || (starKey(k) in o);
 /* 이관 중인 날에서 이미 새 규칙으로 확정된 건(nv 표시)만 재사용 대상으로 */
 function v2Notes(items) {
   const o = {};
@@ -368,24 +373,24 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
   const metaOf = (k) => { const x = metaOut[k] || {}, o = {}; if (x.rr) o.rr = x.rr; if (x.tv) o.tv = x.tv; return o; };
   async function grabNote(m, catKey, time, store, biz) {
     const key = time + '|' + store + '|' + biz + '|' + catKey;
-    const pm = priorMeta[key] || {}, rc = m.reply_count || 0;
+    const pm = pick(priorMeta, key) || {}, rc = m.reply_count || 0;
     metaOut[key] = { rr: pm.rr, tv: pm.tv };
     const recheck = !reuseEmpty && rc > 0 && (pm.rr == null || rc > pm.rr);
-    if (!recheck && (priorNotes[key] || (reuseEmpty && key in priorNotes))) { fresh.add(key); return priorNotes[key]; }
+    if (!recheck && (pick(priorNotes, key) || (reuseEmpty && has(priorNotes, key)))) { fresh.add(key); return pick(priorNotes, key); }
     if (!((m.reply_count || 0) > 0 && ch.id)) { fresh.add(key); return ''; }
     const ids = workerIds(m);
-    if (!ids.size) { fresh.add(key); return priorNotes[key] || ''; }   // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다(댓글이 늘어 다시 본 건은 기존 값 유지)
+    if (!ids.size) { fresh.add(key); return pick(priorNotes, key) || ''; }   // 착수 이모지를 찍은 사람이 없으면 처리내역도 없다(댓글이 늘어 다시 본 건은 기존 값 유지)
     /* 과거 날짜 이관은 실행당 예산 안에서만 — 한 번에 다 읽으면 호출 제한에 걸려 실행이 길어지고 실시간 집계가 밀린다 */
     /* 우선 이관(특정 브랜드 건만) — 나머지는 기존 값 그대로 두고 확정하지 않는다 */
-    if (opts && opts.onlyKeys && !opts.onlyKeys.has(key)) { state.incomplete = true; return oldNotes[key] || ''; }
+    if (opts && opts.onlyKeys && !opts.onlyKeys.has(key)) { state.incomplete = true; return pick(oldNotes, key) || ''; }
     const budget = opts && opts.budget;
     if (budget) {
-      if (budget.left <= 0) { state.incomplete = true; return oldNotes[key] || ''; }
+      if (budget.left <= 0) { state.incomplete = true; return pick(oldNotes, key) || ''; }
       budget.left--;
       await new Promise((r) => setTimeout(r, 250));
     }
     const reps = await fetchRepliesStrict(ch.id, m.ts);
-    if (reps === null) { state.incomplete = true; return oldNotes[key] || ''; }   // 못 읽었으면 기존 값 유지
+    if (reps === null) { state.incomplete = true; return pick(oldNotes, key) || ''; }   // 못 읽었으면 기존 값 유지
     metaOut[key] = { rr: rc, tv: parseTv(reps) || pm.tv };
     // blocksText는 m.text와 m.blocks의 동일 내용을 둘 다 담아 문구가 중복됨 → 답글별 동일 줄 제거
     const txt = reps.filter(r => r.user && ids.has(r.user))
