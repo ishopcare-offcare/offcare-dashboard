@@ -3,10 +3,126 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4159,
- "updatedAt": "2026-10-26 13:49",
+ "version": 4160,
+ "updatedAt": "2026-10-26 14:14",
  "days": 30,
  "items": [
+  {
+   "ts": "1792991600.834159",
+   "date": "2026-10-26",
+   "time": "14:13",
+   "store": "아이쁨",
+   "biz": "8921001751",
+   "pos": "토스포스",
+   "content": "사진업로드가 안돼요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1KT5GdcGnqiLPKZm96HJaZunDEXBWVAy2/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1KT5GdcGnqiLPKZm96HJaZunDEXBWVAy2",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Eyelash Extension",
+       "name": "내추럴[~70%]",
+       "price": 45000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "볼륨[~100%]",
+       "price": 55000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "다크브라운",
+       "price": 55000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "더블[2D, Y레쉬]",
+       "price": 70000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "러시안볼륨[3D,4D]",
+       "price": 80000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "스모키블랙 네추럴",
+       "price": 50000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "스모키블랙 볼륨",
+       "price": 60000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "LED 연장",
+       "price": 70000
+      },
+      {
+       "category": "Eyelash Extension",
+       "name": "LED 연장 더블",
+       "price": 80000
+      },
+      {
+       "category": "Semipermanent Make-up",
+       "name": "브로우 메이크업",
+       "price": 170000
+      },
+      {
+       "category": "Semipermanent Make-up",
+       "name": "[1년이내 리터치]",
+       "price": 90000
+      },
+      {
+       "category": "Semipermanent Make-up",
+       "name": "헤어라인교정",
+       "price": 280000
+      },
+      {
+       "category": "Semipermanent Make-up",
+       "name": "립 메이크업",
+       "price": 300000
+      },
+      {
+       "category": "Eyelash Perm",
+       "name": "수분영양펌",
+       "price": 35000
+      },
+      {
+       "category": "Eyelash Perm",
+       "name": "블랙틴팅펌",
+       "price": 40000
+      },
+      {
+       "category": "Eyelash Perm",
+       "name": "2인 펌",
+       "price": 60000
+      },
+      {
+       "category": "Eyelash Perm",
+       "name": "펌포인트래쉬(LED)",
+       "price": 60000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792991600834159"
+  },
   {
    "ts": "1792987913.521799",
    "date": "2026-10-26",
