@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4156,
- "updatedAt": "2026-10-26 13:12",
+ "version": 4157,
+ "updatedAt": "2026-10-26 13:15",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,592 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "i_5147de329677.jpeg",
+     "fid": "F0CBW654CH1",
+     "from": "댓글",
+     "path": "menu-files/1792987913_521799-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.콤파냐",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.아메리카노 S",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.바닐라라떼",
+       "price": 4800
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.바닐라라떼",
+       "price": 5300
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.디카페인 아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.디카페인 아메리카노",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.연유라떼",
+       "price": 4800
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.연유라떼",
+       "price": 5300
+      },
+      {
+       "category": "COFFEE",
+       "name": "디카페인 콜드브루",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "디카페인 콜드브루 라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.버터크림",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.솔티라떼",
+       "price": 4800
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.솔티라떼",
+       "price": 5300
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.아포가토",
+       "price": 5800
+      },
+      {
+       "category": "COFFEE",
+       "name": "H.카페모카",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.카페모카",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "샷추가",
+       "price": 1000
+      },
+      {
+       "category": "COFFEE",
+       "name": "수제크림 추가",
+       "price": 1000
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.가든슈페너",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "I.흘릭슈페너",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_d3db139f48ea.jpeg",
+     "fid": "F0CCWPWNG0G",
+     "from": "댓글",
+     "path": "menu-files/1792987913_521799-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "LATTE",
+       "name": "H.초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "LATTE",
+       "name": "I.초코젤라또라떼",
+       "price": 7500
+      },
+      {
+       "category": "LATTE",
+       "name": "I.딸기젤라또라떼",
+       "price": 7500
+      },
+      {
+       "category": "LATTE",
+       "name": "H.제주유기농말차크림라떼",
+       "price": 6000
+      },
+      {
+       "category": "LATTE",
+       "name": "I.제주유기농말차크림라떼",
+       "price": 6500
+      },
+      {
+       "category": "LATTE",
+       "name": "H.생강라떼",
+       "price": 5000
+      },
+      {
+       "category": "LATTE",
+       "name": "I.생강라떼",
+       "price": 5500
+      },
+      {
+       "category": "LATTE",
+       "name": "I.쑥쑥곡물",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_266a6ab80db6.jpeg",
+     "fid": "F0CC49YF07K",
+     "from": "댓글",
+     "path": "menu-files/1792987913_521799-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "JUICE/ADE",
+       "name": "레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "청귤에이드",
+       "price": 5500
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "청포도에이드",
+       "price": 5500
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "딸기자몽 에이드",
+       "price": 6000
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "복분자에이드",
+       "price": 4900
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "오렌지",
+       "price": 6000
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "자몽",
+       "price": 6000
+      },
+      {
+       "category": "JUICE/ADE",
+       "name": "토마토",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_983f18217f20.jpeg",
+     "fid": "F0CC6410NGL",
+     "from": "댓글",
+     "path": "menu-files/1792987913_521799-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "H.퍼플티",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "I.퍼플티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "H.유자레드티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "I.유자레드티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "H.베리티",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "I.베리티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "H.청귤옐로티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "I.청귤옐로티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "H.민트티",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "I.민트티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "H.허니그린",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "I.허니그린",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "H.오트펌킨티",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "I.오트펌킨티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "H.피치블랙티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "I.피치블랙티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "H.자몽허니블랙티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "I.자몽허니블랙티",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "H.진저골드티",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "I.진저골드티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "H.생강차",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "H.레몬차",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "I.복숭아아이스티",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_b0a982b0e275.jpeg",
+     "fid": "F0CBW68FBS7",
+     "from": "댓글",
+     "path": "menu-files/1792987913_521799-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식물",
+       "name": "식물 100",
+       "price": 100
+      },
+      {
+       "category": "식물",
+       "name": "식물 1000원",
+       "price": 1000
+      },
+      {
+       "category": "식물",
+       "name": "식물 10,000원",
+       "price": 10000
+      },
+      {
+       "category": "식물",
+       "name": "클래스 1000",
+       "price": 1000
+      },
+      {
+       "category": "식물",
+       "name": "클래스",
+       "price": 15000
+      },
+      {
+       "category": "식물",
+       "name": "클래스30000",
+       "price": 30000
+      },
+      {
+       "category": "식물",
+       "name": "클래스",
+       "price": 50000
+      },
+      {
+       "category": "식물",
+       "name": "클래스",
+       "price": 60000
+      },
+      {
+       "category": "식물",
+       "name": "클래스",
+       "price": 65000
+      },
+      {
+       "category": "식물",
+       "name": "클래스 100000",
+       "price": 100000
+      },
+      {
+       "category": "식물",
+       "name": "꽃 1000",
+       "price": 1000
+      },
+      {
+       "category": "식물",
+       "name": "1.플라워",
+       "price": 10000
+      },
+      {
+       "category": "식물",
+       "name": "이끼 20,000",
+       "price": 20000
+      },
+      {
+       "category": "식물",
+       "name": "향수체험",
+       "price": 9900
+      },
+      {
+       "category": "식물",
+       "name": "향수체험",
+       "price": 25000
+      },
+      {
+       "category": "식물",
+       "name": "계좌이체",
+       "price": 0
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_4dc24d9cb47f.jpeg",
+     "fid": "F0CC0E6QD2A",
+     "from": "댓글",
+     "path": "menu-files/1792987913_521799-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "DESSERT",
+       "name": "화분 트리미수",
+       "price": 4800
+      },
+      {
+       "category": "DESSERT",
+       "name": "초코 트리미수",
+       "price": 4800
+      },
+      {
+       "category": "DESSERT",
+       "name": "보늬밤 티라미슈케이크",
+       "price": 5800
+      },
+      {
+       "category": "DESSERT",
+       "name": "홀릭 치즈케이크",
+       "price": 6500
+      },
+      {
+       "category": "DESSERT",
+       "name": "홀릭 레인보우케이크",
+       "price": 6300
+      },
+      {
+       "category": "DESSERT",
+       "name": "홀릭 치즈케이크",
+       "price": 6500
+      },
+      {
+       "category": "DESSERT",
+       "name": "얼그레이 레몬타르트",
+       "price": 6800
+      },
+      {
+       "category": "DESSERT",
+       "name": "토네이도 초코케이크",
+       "price": 6000
+      },
+      {
+       "category": "DESSERT",
+       "name": "오레오 아이스박스",
+       "price": 5800
+      },
+      {
+       "category": "DESSERT",
+       "name": "몽블랑 꿀고구마케이크",
+       "price": 5800
+      },
+      {
+       "category": "DESSERT",
+       "name": "시젠 딸기생크림케이크",
+       "price": 6500
+      },
+      {
+       "category": "DESSERT",
+       "name": "밀크크레이프 케이크",
+       "price": 6000
+      },
+      {
+       "category": "DESSERT",
+       "name": "폭탄카스테라",
+       "price": 5800
+      },
+      {
+       "category": "DESSERT",
+       "name": "소금빵",
+       "price": 2500
+      },
+      {
+       "category": "DESSERT",
+       "name": "크룽지",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "i_df327e79b319.jpeg",
+     "fid": "F0CCWQ0SHFA",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SMOOTHIE",
+       "name": "플레인요거트스무디",
+       "price": 6000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "딸기요거트스무디",
+       "price": 6000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "블루베리요거트스무디",
+       "price": 6000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "파인자몽",
+       "price": 6000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "오레오스무디",
+       "price": 6000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "보카도 찜마끼",
+       "price": 6800
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "1.요거트 말고 찜마끼",
+       "price": 6800
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1792987920.784519",
+   "rc": 2,
+   "lr": "1792988017.883489",
    "rfx": 3,
    "status": "wait",
    "handler": null,
