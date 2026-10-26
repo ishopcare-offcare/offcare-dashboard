@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25639,
+  "version": 25640,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280970,11 +280970,14 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
+        "extern": {
+          "서상원": 1
+        },
         "as": {
+          "배선유": 3,
           "고경림": 3,
           "김동욱": 8,
           "송태양": 4,
-          "배선유": 2,
           "박하림": 2,
           "심성현": 3
         },
@@ -280988,6 +280991,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:54",
+          "store": "미장원",
+          "biz": "69961*****",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
+        {
+          "time": "10:53",
+          "store": "늘푸른화원",
+          "biz": "31390*****",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "여기 매장 아까 유선으로 안내 받으셨는데, 또 키인 쓰는 법을 모르겠다고 하셔서 영상통화로 차근차근 안내해주시면 감사하겠습니다... :눈물햄스터:",
+          "hw": "",
+          "intake": "online",
+          "note": "사용법은 알고 계시는데 전산에 키인이 안열려있네요. 업무신청 넣어놧어요",
+          "rr": 1
+        },
         {
           "time": "10:46",
           "store": "씨에프코드",
@@ -281312,8 +281338,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 24,
-        "offline": 3,
+        "online": 25,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "10:56",
@@ -281421,7 +281447,7 @@ window.SLACK_DATA = {
       },
       "1792979809.555399": {
         "post": "1792979809.555399",
-        "lastSeen": 1792979903.573,
+        "lastSeen": 1792979982.154,
         "r": 1,
         "day": "2026-10-26",
         "idx": 15
@@ -383552,7 +383578,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:58",
+    "at": "2026-10-26 11:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383692,7 +383718,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:58",
+    "at": "2026-10-26 10:59",
     "pri": {
       "days": 0,
       "failed": [],
