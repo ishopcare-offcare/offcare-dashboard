@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25649,
+  "version": 25650,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -277659,7 +277659,7 @@ window.SLACK_DATA = {
           "hw": "와 오배송된 장비들은 <@U0A7FJLH1EJ> 님께서 회수예정",
           "intake": "online",
           "note": "안녕하세요 우선 온보딩은 다진행되었다고 하고 기존에받은장비 회수 요청만주셨습니다. 안녕하세요 우선 온보딩은 다진행되었다고 하고 기존에받은장비 회수 요청만주셨습니다. / 다시한번확인해보겠습니다 ! 다시한번확인해보겠습니다 ! / 우선다시 통화진행은해보았는데 현재3개다 박스로 포장을해놓으셔서 뜯기가 힘들다고합니다 . 다시통화하니 온도감이 좀있는거같은데 현장방문 ",
-          "rr": 20
+          "rr": 21
         },
         {
           "time": "14:49",
@@ -280973,9 +280973,9 @@ window.SLACK_DATA = {
         "as": {
           "고경림": 5,
           "심성현": 4,
+          "송태양": 5,
           "배선유": 3,
           "김동욱": 8,
-          "송태양": 4,
           "박하림": 2
         },
         "nosetup": {
@@ -281051,6 +281051,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "단말기 초기화 후 정상이나 동일한 증상 또 발생할 경우 기기 교체로 안내 필요",
+          "rr": 1
+        },
+        {
+          "time": "10:55",
+          "store": "포우포우",
+          "biz": "21817*****",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포스기 세트 온보딩 부탁드립니다:꾸벅5:",
+          "hw": "",
+          "intake": "online",
+          "note": "익일 오후 4시 방문설치 일정 접수 완료입니다",
           "rr": 1
         },
         {
@@ -281400,11 +281412,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 29,
+        "online": 30,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "11:09",
+      "updatedAt": "11:11",
       "voc": {
         "responses": 2,
         "install": {
@@ -383643,7 +383655,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:11",
+    "at": "2026-10-26 11:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383783,7 +383795,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:11",
+    "at": "2026-10-26 11:12",
     "pri": {
       "days": 0,
       "failed": [],
