@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4166,
- "updatedAt": "2026-10-26 14:58",
+ "version": 4167,
+ "updatedAt": "2026-10-26 15:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1792994491.516469",
+   "date": "2026-10-26",
+   "time": "15:01",
+   "store": "번크러쉬",
+   "biz": "2011872873",
+   "pos": "기타",
+   "content": "제로코카콜라(레몬라임)",
+   "special": "제로펩시콜라에서",
+   "drive": [
+    "https://drive.google.com/file/d/1JIEzETDDATb2awhXZKJLP0jZXyh9SuFA/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1JIEzETDDATb2awhXZKJLP0jZXyh9SuFA",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792994491516469"
+  },
   {
    "ts": "1792994278.921419",
    "date": "2026-10-26",
