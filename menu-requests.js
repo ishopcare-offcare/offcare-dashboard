@@ -3,10 +3,43 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4160,
- "updatedAt": "2026-10-26 14:14",
+ "version": 4161,
+ "updatedAt": "2026-10-26 14:41",
  "days": 30,
  "items": [
+  {
+   "ts": "1792993227.013069",
+   "date": "2026-10-26",
+   "time": "14:40",
+   "store": "카페메일빈디저트",
+   "biz": "5872302353",
+   "pos": "퍼스트포스",
+   "content": "단무지 메뉴 사진 변경 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CC0TJ0YLW",
+     "from": "댓글",
+     "path": "menu-files/1792993227_013069-0.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "혼자 진행하기 어렵다며 변경 요청주시어 부득이 전달드립니다 ㅜ.ㅜ"
+   ],
+   "rc": 2,
+   "lr": "1792993241.990709",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792993227013069"
+  },
   {
    "ts": "1792991600.834159",
    "date": "2026-10-26",
