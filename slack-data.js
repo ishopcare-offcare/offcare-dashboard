@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25638,
+  "version": 25639,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -281421,7 +281421,10 @@ window.SLACK_DATA = {
       },
       "1792979809.555399": {
         "post": "1792979809.555399",
-        "lastSeen": 1792979815.705
+        "lastSeen": 1792979903.573,
+        "r": 1,
+        "day": "2026-10-26",
+        "idx": 15
       }
     },
     "days": {
@@ -383397,8 +383400,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-26": {
-        "cnt": 15,
-        "sumMin": 33.146984906991314,
+        "cnt": 16,
+        "sumMin": 33.98171159029006,
         "over": 0,
         "items": [
           {
@@ -383535,13 +383538,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "as",
             "dmin": 5.1
+          },
+          {
+            "hm": "10:56",
+            "min": 0.8,
+            "store": "더포레스파 성수서울숲본점",
+            "biz": "70407*****",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 10:57",
+    "at": "2026-10-26 10:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383681,7 +383692,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:56",
+    "at": "2026-10-26 10:58",
     "pri": {
       "days": 0,
       "failed": [],
