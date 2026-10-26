@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25705,
+  "version": 25706,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280995,6 +280995,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "transfer": {
+          "송태양": 1,
           "심성현": 1
         },
         "menu": {
@@ -281056,6 +281057,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "토스 포스 단말기 초기화 후 재온보딩 완료",
           "rr": 1
+        },
+        {
+          "time": "12:30",
+          "store": "김찌(KIMCCI)",
+          "biz": "35414*****",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "10월 26일 오후 1시 / 메뉴복사O / 포프, 유프(2ea), 금전함",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "12:28",
@@ -281666,7 +281678,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 47,
+        "online": 48,
         "offline": 8,
         "unknown": 0
       },
@@ -281775,39 +281787,32 @@ window.SLACK_DATA = {
       },
       "1792983883.387549": {
         "post": "1792983883.387549",
-        "lastSeen": 1792987567.866,
+        "lastSeen": 1792987660.282,
         "r": 1,
         "day": "2026-10-26",
         "idx": 19
       },
-      "1792985403.781979": {
-        "post": "1792985403.781979",
-        "lastSeen": 1792987567.866,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 21
-      },
       "1792987205.145399": {
         "post": "1792987205.145399",
-        "lastSeen": 1792987567.866,
+        "lastSeen": 1792987660.282,
         "r": 1,
         "day": "2026-10-26",
         "idx": 22
       },
       "1792987202.196149": {
         "post": "1792987202.196149",
-        "lastSeen": 1792987567.866,
+        "lastSeen": 1792987660.282,
         "r": 1,
         "day": "2026-10-26",
         "idx": 23
       },
       "1792987201.632159": {
         "post": "1792987201.632159",
-        "lastSeen": 1792987567.866
+        "lastSeen": 1792987660.282
       },
       "1792987200.265589": {
         "post": "1792987200.265589",
-        "lastSeen": 1792987567.866
+        "lastSeen": 1792987660.282
       }
     },
     "days": {
@@ -383981,7 +383986,8 @@ window.SLACK_DATA = {
             "store": "김찌(KIMCCI)",
             "biz": "35414*****",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 36.8
           },
           {
             "hm": "13:00",
@@ -384013,7 +384019,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 13:06",
+    "at": "2026-10-26 13:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -384153,7 +384159,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 13:06",
+    "at": "2026-10-26 13:07",
     "pri": {
       "days": 0,
       "failed": [],
