@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4186,
- "updatedAt": "2026-10-26 17:01",
+ "version": 4187,
+ "updatedAt": "2026-10-26 17:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1793005049.991679",
+   "date": "2026-10-26",
+   "time": "17:57",
+   "store": "바다향기",
+   "biz": "3840403301",
+   "pos": "",
+   "content": "LG 유플러스 티오더 메뉴등록요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793005054.055199",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793005049991679"
+  },
   {
    "ts": "1793000250.879929",
    "date": "2026-10-26",
