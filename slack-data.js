@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25664,
+  "version": 25665,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280970,6 +280970,9 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
+        "extern": {
+          "서상원": 2
+        },
         "as": {
           "김동욱": 10,
           "심성현": 5,
@@ -280980,9 +280983,6 @@ window.SLACK_DATA = {
         },
         "nosetup": {
           "배선유": 1
-        },
-        "extern": {
-          "서상원": 1
         },
         "booking": {
           "김동욱": 1,
@@ -280998,6 +280998,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:30",
+          "store": "오투정원",
+          "biz": "19901*****",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:24",
           "store": "드롭탑(세정아울렛점)",
@@ -281488,7 +281499,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 34,
+        "online": 35,
         "offline": 7,
         "unknown": 0
       },
@@ -383749,7 +383760,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:37",
+    "at": "2026-10-26 11:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383889,7 +383900,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:37",
+    "at": "2026-10-26 11:38",
     "pri": {
       "days": 0,
       "failed": [],
