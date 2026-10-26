@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25669,
+  "version": 25670,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280973,13 +280973,16 @@ window.SLACK_DATA = {
         "extern": {
           "서상원": 2
         },
+        "onboarding": {
+          "고경림": 1
+        },
         "as": {
           "김동욱": 10,
           "심성현": 5,
+          "박하림": 3,
           "배선유": 4,
           "고경림": 5,
-          "송태양": 5,
-          "박하림": 2
+          "송태양": 5
         },
         "nosetup": {
           "배선유": 1
@@ -281023,6 +281026,18 @@ window.SLACK_DATA = {
           "note": ""
         },
         {
+          "time": "11:30",
+          "store": "소년공방 미술학원",
+          "biz": "86596*****",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "포프(노트북) 온보딩 및 사용 방법 안내 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(노트북) 온보딩완료 • 사용법 안내 및 전자 영수증 설정완료 사용법 안내 및 전자 영수증 설정완료",
+          "rr": 1
+        },
+        {
           "time": "11:24",
           "store": "드롭탑(세정아울렛점)",
           "biz": "15802*****",
@@ -281057,6 +281072,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "포프(태블릿) + 유프 설치 및 토스포스 연동완료 • 사진 수령예정 사진 수령예정",
           "rr": 1
+        },
+        {
+          "time": "11:21",
+          "store": "용호 유도아카데미",
+          "biz": "24991*****",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "키인결제 니즈로 밴변경한 매장(KOCES-&gt;KPN), c타입 케이블 연결하였으나 터미널에서만 결제가뜬다하여 재온보딩 도움부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "11:19",
@@ -281512,7 +281538,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 36,
+        "online": 38,
         "offline": 7,
         "unknown": 0
       },
@@ -383773,7 +383799,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:43",
+    "at": "2026-10-26 11:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383913,7 +383939,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:43",
+    "at": "2026-10-26 11:44",
     "pri": {
       "days": 0,
       "failed": [],
