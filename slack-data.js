@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25640,
+  "version": 25641,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -277659,7 +277659,7 @@ window.SLACK_DATA = {
           "hw": "와 오배송된 장비들은 <@U0A7FJLH1EJ> 님께서 회수예정",
           "intake": "online",
           "note": "안녕하세요 우선 온보딩은 다진행되었다고 하고 기존에받은장비 회수 요청만주셨습니다. 안녕하세요 우선 온보딩은 다진행되었다고 하고 기존에받은장비 회수 요청만주셨습니다. / 다시한번확인해보겠습니다 ! 다시한번확인해보겠습니다 ! / 우선다시 통화진행은해보았는데 현재3개다 박스로 포장을해놓으셔서 뜯기가 힘들다고합니다 . 다시통화하니 온도감이 좀있는거같은데 현장방문 ",
-          "rr": 12
+          "rr": 14
         },
         {
           "time": "14:49",
@@ -281342,7 +281342,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:56",
+      "updatedAt": "11:00",
       "voc": {
         "responses": 2,
         "install": {
@@ -281447,7 +281447,7 @@ window.SLACK_DATA = {
       },
       "1792979809.555399": {
         "post": "1792979809.555399",
-        "lastSeen": 1792979982.154,
+        "lastSeen": 1792980037.996,
         "r": 1,
         "day": "2026-10-26",
         "idx": 15
@@ -383578,7 +383578,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:00",
+    "at": "2026-10-26 11:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383718,7 +383718,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 10:59",
+    "at": "2026-10-26 11:00",
     "pri": {
       "days": 0,
       "failed": [],
@@ -383730,7 +383730,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 132,
+      "budgetLeft": 131,
       "failed": []
     }
   }
