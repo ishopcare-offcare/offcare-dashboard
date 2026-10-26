@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25662,
+  "version": 25663,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,8 +280971,8 @@ window.SLACK_DATA = {
     "2026-10-26": {
       "counts": {
         "as": {
+          "김동욱": 10,
           "배선유": 4,
-          "김동욱": 9,
           "고경림": 5,
           "심성현": 4,
           "송태양": 5,
@@ -280991,10 +280991,37 @@ window.SLACK_DATA = {
         "menu": {
           "배선유": 3,
           "심성현": 2
+        },
+        "delivery": {
+          "고경림": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:24",
+          "store": "드롭탑(세정아울렛점)",
+          "biz": "15802*****",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "영수증 출력 시 흐릿하게 나온다고 합니다. 점검 부탁 드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "헤더 청소 및 용지 인쇄농도 100% 진행. 추 후에도 흐려질 경우 교체 필요.",
+          "rr": 1
+        },
+        {
+          "time": "11:22",
+          "store": "바라브레드",
+          "biz": "14723*****",
+          "cat": "delivery",
+          "emp": "고경림",
+          "req": "쿠팡이츠 쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(태블릿) + 유프 설치 및 토스포스 연동완료 • 사진 수령예정 사진 수령예정",
+          "rr": 1
+        },
         {
           "time": "11:19",
           "store": "포토라이크",
@@ -281449,11 +281476,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 32,
-        "offline": 6,
+        "online": 33,
+        "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "11:24",
+      "updatedAt": "11:30",
       "voc": {
         "responses": 2,
         "install": {
@@ -281555,13 +281582,6 @@ window.SLACK_DATA = {
       "1792940399.221799": {
         "post": "1792940399.221799",
         "lastSeen": 1792959327.497
-      },
-      "1792981469.040929": {
-        "post": "1792981469.040929",
-        "lastSeen": 1792981766.263,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 18
       }
     },
     "days": {
@@ -383709,14 +383729,15 @@ window.SLACK_DATA = {
             "store": "드롭탑(세정아울렛점)",
             "biz": "15802*****",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 11:30",
+    "at": "2026-10-26 11:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383856,7 +383877,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 11:29",
+    "at": "2026-10-26 11:30",
     "pri": {
       "days": 0,
       "failed": [],
