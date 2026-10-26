@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4189,
- "updatedAt": "2026-10-26 18:02",
+ "version": 4190,
+ "updatedAt": "2026-10-26 18:03",
  "days": 30,
  "items": [
   {
@@ -33,8 +33,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "토스포스에는\n레몬슬라이스 1000원\n잘 등록되어있으나 테이블오더에는 등록이 되어있지 않아 등록을 요청주신다고하십니다!"
    ],
-   "rc": 3,
-   "lr": "1793005297.600259",
+   "rc": 4,
+   "lr": "1793005370.837979",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
