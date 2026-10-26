@@ -2602,9 +2602,9 @@ function viewEquip(){
   const sel = equipSel ? all.find(s => s.branch === equipSel) : null;
   if(sel) return h + equipDetail(sel);
 
-  const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '').slice(0, 5);   /* 사업자번호는 앞 5자리만 공개 */
+  const q = BrandMatch.keyOf(equipQ), qd = String(equipQ).replace(/\D/g, '');
   let list = all.filter(s => !q || BrandMatch.keyOf(s.branch + ' ' + s.store).indexOf(q) >= 0
-                               || (qd.length >= 3 && String(s.biz).indexOf(qd) >= 0));
+                               || (qd.length >= 3 && (String(s.biz).indexOf(qd) >= 0 || (String(s.biz).indexOf('*') === 5 && qd.slice(0, 5) === String(s.biz).slice(0, 5)))));
   list.forEach(s => { s.inv = equipInventory(s.evs, s.branch).filter(o => !o.hidden); s.last = s.evs.length ? s.evs[0].date : ''; });
   list.sort((a, b) => (b.inv.length > 0) - (a.inv.length > 0) || (b.last || '').localeCompare(a.last || '')
                       || a.branch.localeCompare(b.branch, 'ko'));
