@@ -120,6 +120,11 @@ const VOC_HIGH_NPS = 10;     // 추천의향 10 (만점)
 // '확인 후 미완료' 유예: 확인 이모지 뒤에도 완료/카테고리 이모지가 안 찍힌 채 이 시간이 지나야 미처리로 적재.
 // (슬랙 API가 이모지 시각을 안 주므로 메시지 게시 시각 기준 경과시간으로 근사)
 const CONFIRM_GRACE_SEC = 3600; // 1시간
+// 누락(미처리)에서 손으로 빼는 건 — 실제로는 끝났는데 슬랙 이모지가 안 맞아 계속 남는 글. 키 = 날짜|시각|상호.
+// 대시보드 index.html 의 PENDING_EXCLUDE 와 같은 목록으로 유지할 것.
+const PENDING_EXCLUDE = new Set([
+  '2026-10-23|17:13|비브아트미술학원',
+]);
 const RESP_DELAY_MIN = 30;      // 응대 지연 기준: 첫 확인까지 30분 초과 시 '지연'
 const pad = n => String(n).padStart(2, '0');
 
@@ -819,6 +824,9 @@ async function tallyVoc(msgs, voc, channelId, opts) {
           budget: (dstr < wdStart && !backfillFrom) ? noteMigBudget : null });   // 최근 3일은 예산 없이 바로
       if (dstr === targetDate) trackResp(data, msgs, ch);   // 오늘 인입 건만 응답시간 폴링 추적
       completed += r.completed; externCount += r.externCount; dupTotal += r.dup; if (r.latest > latest) latest = r.latest;
+    }
+    for (let i = pending.length - 1; i >= 0; i--) {
+      if (PENDING_EXCLUDE.has(dstr + '|' + pending[i].time + '|' + pending[i].store)) pending.splice(i, 1);
     }
     pending.sort((a, b) => (b.time || '').localeCompare(a.time || ''));
     done.sort((a, b) => (b.time || '').localeCompare(a.time || ''));

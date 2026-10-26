@@ -2313,7 +2313,7 @@ function recordMissLog(emp){
 }
 // 이번 달 누락 누적 건수 = 기록해둔 이력 ∪ 지금 보이는 미처리 건
 function missCumCount(emp){
-  const mk=curMonthKey(); const set=new Set(Object.keys(((gs(emp).missLog||{})[mk])||{}));
+  const mk=curMonthKey(); const set=new Set(Object.keys(((gs(emp).missLog||{})[mk])||{}).filter(k=>!PENDING_EXCLUDE.has(k.split('|').slice(0,3).join('|'))));   // 누락 제외 건은 이미 쌓인 이력에서도 뺀다
   allSlackDates().filter(d=>d.slice(0,7)===mk).forEach(d=>{
     ((slackDay(d)||{}).pending||[]).forEach(p=>{ if(p.handler===emp) set.add(missKey(d,p)); });
   });
@@ -7794,7 +7794,17 @@ function applySlackData(){
   if(typeof gameMe!=='undefined' && gameMe) recordMissLog(gameMe);   // 누락 이력 누적 기록(해결돼도 남도록 데이터 갱신 때마다)
 }
 // 선택한 날짜의 슬랙 집계 항목 (없으면 null)
-function slackDay(date){ return (window.SLACK_DATA&&window.SLACK_DATA.days&&window.SLACK_DATA.days[date])||null; }
+// 누락(미처리)에서 손으로 빼는 건 — 실제로는 끝났는데 슬랙 이모지가 안 맞아 계속 남는 글. 키 = 날짜|시각|상호.
+// 집계(scripts/fetch-and-tally.js PENDING_EXCLUDE)도 같은 목록으로 거른다. 데이터 갱신 전에도 바로 빠지도록 여기서 한 번 더.
+const PENDING_EXCLUDE = new Set([
+  '2026-10-23|17:13|비브아트미술학원',
+]);
+function pendingExcluded(date, p){ return PENDING_EXCLUDE.has(date+'|'+(p.time||'')+'|'+(p.store||'')); }
+function slackDay(date){
+  const d=(window.SLACK_DATA&&window.SLACK_DATA.days&&window.SLACK_DATA.days[date])||null;
+  if(d && d.pending && d._px!==d.pending){ d.pending=d.pending.filter(p=>!pendingExcluded(date,p)); d._px=d.pending; }   // 같은 배열이면 다시 거르지 않음
+  return d;
+}
 function allSlackDates(){ return (window.SLACK_DATA&&window.SLACK_DATA.days)?Object.keys(window.SLACK_DATA.days).sort():[]; }
 // VOC 처리(완료)를 완료일(doneDate) 기준으로 집계 — 설문 원본 날짜와 무관
 function vocDoneByDay(){ const map={}; allSlackDates().forEach(d=>{ const v=(slackDay(d)||{}).voc; if(!v)return; [...(v.alerts||[]),...(v.praises||[])].forEach(x=>{ const dd=vocDoneAt(d,x); if(vocEmpAt(d,x)&&vocCredited(dd)) map[dd]=(map[dd]||0)+1; }); }); return map; }
