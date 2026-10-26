@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25574,
+  "version": 25575,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -280971,12 +280971,27 @@ window.SLACK_DATA = {
     },
     "2026-10-26": {
       "counts": {
+        "booking": {
+          "김동욱": 1
+        },
         "as": {
           "김동욱": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "포인트스팀",
+          "biz": "60319*****",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "포프(PC) 이용중 NC7000 을 프린터 용으로 연결 도움 요청하셨습니다. A케이블은 구매해서 가지고있다고 주장하셔서 원격 요청드립니다. (10/26 09:00 예약)",
+          "hw": "",
+          "intake": "online",
+          "note": "전원 꺼져있음. 1차 부재 / 10시 10분 재예약",
+          "rr": 2
+        },
         {
           "time": "08:27",
           "store": "컴포즈커피 신대방역점",
@@ -281027,7 +281042,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -281144,13 +281159,6 @@ window.SLACK_DATA = {
       "1792940399.221799": {
         "post": "1792940399.221799",
         "lastSeen": 1792959327.497
-      },
-      "1792972805.846059": {
-        "post": "1792972805.846059",
-        "lastSeen": 1792973584.966,
-        "r": 1,
-        "day": "2026-10-26",
-        "idx": 0
       }
     },
     "days": {
@@ -383136,14 +383144,15 @@ window.SLACK_DATA = {
             "store": "포인트스팀",
             "biz": "60319*****",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 13.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-26 09:13",
+    "at": "2026-10-26 09:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
