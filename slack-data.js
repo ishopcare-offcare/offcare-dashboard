@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 25675,
+  "version": 25676,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -281011,7 +281011,8 @@ window.SLACK_DATA = {
           "req": "포프유프(노트북) 온보딩 부탁드립니다 (영수증 출력불가)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "영수프린터 정상설정되어있고, 정상출력됨 • 115200 , 매장로고사용중매장 115200 , 매장로고사용중매장",
+          "rr": 1
         },
         {
           "time": "11:42",
@@ -383822,7 +383823,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-26 12:00",
+    "at": "2026-10-26 12:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -383962,7 +383963,7 @@ window.SLACK_DATA = {
     "2026-10-26": 2
   },
   "noteMig": {
-    "at": "2026-10-26 12:00",
+    "at": "2026-10-26 12:01",
     "pri": {
       "days": 0,
       "failed": [],
