@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4212,
- "updatedAt": "2026-10-27 10:49",
+ "version": 4213,
+ "updatedAt": "2026-10-27 10:57",
  "days": 30,
  "items": [
   {
@@ -554,11 +554,277 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CC6HUQXR9",
+     "from": "댓글",
+     "path": "menu-files/1793065010_104599-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-MT 100",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-MT 110",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-MT 120",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-MT 130",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-MT 140",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-BR 100",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-BR 110",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-BR 120",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-BR 130",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-BR 140",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-PK 100",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-PK 110",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-PK 120",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-PK 130",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-PK 140",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-MT 100",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-MT 110",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-MT 120",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-MT 130",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-MT 140",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-BR 100",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-BR 110",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-BR 120",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-BR 130",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-BR 140",
+       "price": 32500
+      },
+      {
+       "category": "플리스",
+       "name": "덤블퍼블랭킷 PK FREE",
+       "price": 38500
+      },
+      {
+       "category": "플리스",
+       "name": "덤블퍼블랭킷 MT FREE",
+       "price": 38500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CCARVS4BG",
+     "from": "댓글",
+     "path": "menu-files/1793065010_104599-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-CR 100",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-CR 110",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-CR 120",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-CR 130",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-CR 140",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-NY 100",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-NY 110",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-NY 120",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-NY 130",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀼팅자켓-NY 140",
+       "price": 119000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-RD S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-RD M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-RD L",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-YE S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-YE M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-YE L",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-NV S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-NV M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-NV L",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-CR S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-CR M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-CR L",
+       "price": 49000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793066161.084649",
    "matt": [],
    "mail": {
     "link": "https://mail.google.com/mail/u/0/#inbox/1a17afda4461ff6e",
