@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4214,
- "updatedAt": "2026-10-27 12:24",
+ "version": 4215,
+ "updatedAt": "2026-10-27 13:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1793073944.092939",
+   "date": "2026-10-27",
+   "time": "13:05",
+   "store": "더멀리",
+   "biz": "3976300914",
+   "pos": "토스포스",
+   "content": "내 피부색이 어때서!(토토 사과)\t15,000\n빨강의 자서전\t\t15,000\n여성노동자의 펼침막\t\t18,000\n김승옥문학상 수상작품집(2026)\t15,000\n안녕 주정뱅이\t\t15,000\n테오\t\t21,000\n혼자 살기 워크숍\t\t20,000\nAI 3대 강국(개정판)\t20,000\n예술원에 드리는 보고         18,000\n가호(동네서점에디션)          18,500\n도넛                      18,000\n빵과 우유                   17,500\n\n\n책 추가 부탁드릴게요.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793073944092939"
+  },
   {
    "ts": "1793071428.925469",
    "date": "2026-10-27",
