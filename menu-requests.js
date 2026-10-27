@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4208,
- "updatedAt": "2026-10-27 10:38",
+ "version": 4209,
+ "updatedAt": "2026-10-27 10:40",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,401 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CCAP1SLJJ",
+     "from": "댓글",
+     "path": "menu-files/1793065060_362549-0.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CCCGJQU0J",
+     "from": "댓글",
+     "path": "menu-files/1793065060_362549-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "홀",
+       "name": "짜장면",
+       "price": 7000
+      },
+      {
+       "category": "홀",
+       "name": "짜장면(곱)",
+       "price": 8000
+      },
+      {
+       "category": "홀",
+       "name": "우동",
+       "price": 8000
+      },
+      {
+       "category": "홀",
+       "name": "우동(곱)",
+       "price": 9000
+      },
+      {
+       "category": "홀",
+       "name": "탕수육 미니",
+       "price": 15000
+      },
+      {
+       "category": "홀",
+       "name": "짬뽕",
+       "price": 9000
+      },
+      {
+       "category": "홀",
+       "name": "짬뽕(곱)",
+       "price": 10000
+      },
+      {
+       "category": "홀",
+       "name": "짬뽕밥",
+       "price": 10000
+      },
+      {
+       "category": "홀",
+       "name": "짬뽕밥(곱)",
+       "price": 11000
+      },
+      {
+       "category": "홀",
+       "name": "탕수육[소]",
+       "price": 20000
+      },
+      {
+       "category": "홀",
+       "name": "해물짬뽕",
+       "price": 11000
+      },
+      {
+       "category": "홀",
+       "name": "해물짬뽕(곱)",
+       "price": 12000
+      },
+      {
+       "category": "홀",
+       "name": "차돌짬뽕",
+       "price": 13000
+      },
+      {
+       "category": "홀",
+       "name": "차돌짬뽕(곱)",
+       "price": 14000
+      },
+      {
+       "category": "홀",
+       "name": "탕수육[중]",
+       "price": 25000
+      },
+      {
+       "category": "홀",
+       "name": "해물짬뽕밥",
+       "price": 11000
+      },
+      {
+       "category": "홀",
+       "name": "해물짬뽕밥(곱)",
+       "price": 12000
+      },
+      {
+       "category": "홀",
+       "name": "차돌짜장밥",
+       "price": 13000
+      },
+      {
+       "category": "홀",
+       "name": "차돌짬뽕밥(곱)",
+       "price": 14000
+      },
+      {
+       "category": "홀",
+       "name": "탕수육(대)",
+       "price": 30000
+      },
+      {
+       "category": "홀",
+       "name": "미친짬뽕",
+       "price": 12000
+      },
+      {
+       "category": "홀",
+       "name": "미친짬뽕 곱빼기",
+       "price": 13000
+      },
+      {
+       "category": "홀",
+       "name": "중화비빔밥",
+       "price": 10000
+      },
+      {
+       "category": "홀",
+       "name": "제육덮밥",
+       "price": 12000
+      },
+      {
+       "category": "홀",
+       "name": "짬뽕국물",
+       "price": 17000
+      },
+      {
+       "category": "홀",
+       "name": "잡채밥",
+       "price": 8000
+      },
+      {
+       "category": "홀",
+       "name": "잡채밥(곱)",
+       "price": 9000
+      },
+      {
+       "category": "홀",
+       "name": "볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "홀",
+       "name": "볶음밥(곱)",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CC7DD621K",
+     "from": "댓글",
+     "path": "menu-files/1793065060_362549-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "홀",
+       "name": "만두",
+       "price": 7000
+      },
+      {
+       "category": "홀",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "홀",
+       "name": "곱배기",
+       "price": 1000
+      },
+      {
+       "category": "홀",
+       "name": "벌금",
+       "price": 3000
+      },
+      {
+       "category": "홀",
+       "name": "미니탕수육",
+       "price": 15000
+      },
+      {
+       "category": "홀",
+       "name": "2인세트+짱뽕밥(흠)2",
+       "price": 32000
+      },
+      {
+       "category": "홀",
+       "name": "배달비",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CCEK2LR5F",
+     "from": "댓글",
+     "path": "menu-files/1793065060_362549-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류/음료",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "주류/음료",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "주류/음료",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "주류/음료",
+       "name": "콜라1.5",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "이과두주",
+       "price": 5000
+      },
+      {
+       "category": "주류/음료",
+       "name": "사이다1.5",
+       "price": 4000
+      },
+      {
+       "category": "주류/음료",
+       "name": "고량주",
+       "price": 7000
+      },
+      {
+       "category": "주류/음료",
+       "name": "물500",
+       "price": 1500
+      },
+      {
+       "category": "주류/음료",
+       "name": "연태고량주[소]",
+       "price": 10000
+      },
+      {
+       "category": "주류/음료",
+       "name": "물1.5",
+       "price": 3000
+      },
+      {
+       "category": "주류/음료",
+       "name": "연태고량주[중]",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CD73PKR7A",
+     "from": "댓글",
+     "path": "menu-files/1793065060_362549-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1인세트",
+       "name": "1인세트+짜장면",
+       "price": 20000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+짜장면(곱)",
+       "price": 21000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+해물짬뽕",
+       "price": 24000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+해물짬뽕(곱)",
+       "price": 25000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+짬뽕",
+       "price": 22000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+짬뽕(곱)",
+       "price": 23000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+해물짬뽕밥",
+       "price": 24000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+해물짬뽕밥(곱)",
+       "price": 25000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+차돌짬뽕",
+       "price": 26000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+차돌짬뽕(곱)",
+       "price": 27000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+우동",
+       "price": 21000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+우동(곱)",
+       "price": 22000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+차돌짬뽕밥",
+       "price": 26000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+차돌짬뽕밥(곱)",
+       "price": 27000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+볶음밥",
+       "price": 21000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+볶음밥(곱)",
+       "price": 22000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+잡채밥",
+       "price": 21000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+잡채밥(곱)",
+       "price": 21000
+      },
+      {
+       "category": "1인세트",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+짬뽕밥",
+       "price": 22000
+      },
+      {
+       "category": "1인세트",
+       "name": "1인세트+짬뽕밥(곱)",
+       "price": 23000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793065063.544509",
+   "rc": 6,
+   "lr": "1793065209.135759",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -121,8 +511,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064861501919"
   },
   {
