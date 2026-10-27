@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26066,
+  "version": 26067,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283959,6 +283959,7 @@ window.SLACK_DATA = {
     "2026-10-27": {
       "counts": {
         "as": {
+          "김동욱": 1,
           "심성현": 2
         },
         "onboarding": {
@@ -283967,6 +283968,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:51",
+          "store": "진스 핏",
+          "biz": "2500403600",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "캣프 통신 오류로  국민카드가 갑자기 결제 불가한 상태(정상가맹되어있음)라고하시어 점검 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "cat 단말기 cdma로 되어있어 lan으로 변경 후 정상결제 확인",
+          "rr": 1
+        },
         {
           "time": "09:51",
           "store": "김밥산책",
@@ -284005,7 +284018,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -284170,25 +284183,18 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793062678.396,
+        "lastSeen": 1793062743.567,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
       },
       "1793061004.082769": {
         "post": "1793061004.082769",
-        "lastSeen": 1793062678.396
+        "lastSeen": 1793062743.567
       },
       "1793061002.609679": {
         "post": "1793061002.609679",
-        "lastSeen": 1793062678.396
-      },
-      "1793062289.266059": {
-        "post": "1793062289.266059",
-        "lastSeen": 1793062678.396,
-        "r": 1,
-        "day": "2026-10-27",
-        "idx": 2
+        "lastSeen": 1793062743.567
       }
     },
     "days": {
@@ -387701,20 +387707,21 @@ window.SLACK_DATA = {
             "store": "진스 핏",
             "biz": "2500403600",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-27 09:58",
+    "at": "2026-10-27 09:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4781,
+    "rows": 4782,
     "named": 1260,
     "unknownName": 214,
     "beforeStart": 0,
@@ -387850,7 +387857,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 09:57",
+    "at": "2026-10-27 09:59",
     "pri": {
       "days": 0,
       "failed": [],
