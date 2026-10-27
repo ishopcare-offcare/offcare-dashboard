@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4211,
- "updatedAt": "2026-10-27 10:45",
+ "version": 4212,
+ "updatedAt": "2026-10-27 10:49",
  "days": 30,
  "items": [
   {
@@ -565,7 +565,7 @@ window.MENU_REQUESTS = {
     "big": 0
    },
    "rfx": 3,
-   "status": "wait",
+   "status": "dup",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793065010104599"
   },
@@ -615,7 +615,7 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793065002.353029",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064924448619"
   },
@@ -633,10 +633,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "님 안녕하세요! 아래와 같이 추가 수정 인입되어서 공유드립니다 :꾸벅곰:\n\n• 수정 요청 1- 대방어회덮밥 ~19900원~ 18900원 \n• 수정 요청 2- 대방어초밥 기존 사진이 남아있는 경우에는 있는 그대로 써주시고 없으면 사진 없이 부탁드린다고 합니다!!"
+    "님 안녕하세요! 아래와 같이 추가 수정 인입되어서 공유드립니다 :꾸벅곰:\n\n• 수정 요청 1- 대방어회덮밥 ~19900원~ 18900원 \n• 수정 요청 2- 대방어초밥 기존 사진이 남아있는 경우에는 있는 그대로 써주시고 없으면 사진 없이 부탁드린다고 합니다!!",
+    "메뉴 등록 완료"
    ],
-   "rc": 1,
-   "lr": "1793065530.426249",
+   "rc": 2,
+   "lr": "1793065743.518979",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
