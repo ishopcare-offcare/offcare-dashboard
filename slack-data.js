@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26131,
+  "version": 26132,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283959,8 +283959,8 @@ window.SLACK_DATA = {
     "2026-10-27": {
       "counts": {
         "as": {
+          "심성현": 6,
           "고경림": 4,
-          "심성현": 5,
           "김동욱": 4,
           "박하림": 1
         },
@@ -283991,6 +283991,19 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:35",
+          "store": "주식회사 에스앤제이 에프앤비",
+          "biz": "6468703949",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "오케이포스 사용중이신데 갑자기 포스기 언어가 이상한 언어로 나온다고하여 급하게 원격요청주셨습니다",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "/ 언어 설정 한국어로 변경 후 재시작 정상 윈도우 업데이트 오류로 업데이트 off처리",
+          "rr": 2
+        },
         {
           "time": "11:34",
           "store": "뉴불솥집",
@@ -284403,11 +284416,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 29,
+        "online": 30,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "11:35",
+      "updatedAt": "11:44",
       "voc": {
         "responses": 1,
         "install": {
@@ -284568,17 +284581,14 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793068969.476,
+        "lastSeen": 1793069061.788,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
       },
-      "1793068543.791529": {
-        "post": "1793068543.791529",
-        "lastSeen": 1793068969.476,
-        "r": 1,
-        "day": "2026-10-27",
-        "idx": 24
+      "1793069057.722859": {
+        "post": "1793069057.722859",
+        "lastSeen": 1793069061.788
       }
     },
     "days": {
@@ -388289,7 +388299,8 @@ window.SLACK_DATA = {
             "store": "주식회사 에스앤제이 에프앤비",
             "biz": "6468703949",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7.9
           },
           {
             "hm": "11:34",
@@ -388305,7 +388316,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-27 11:43",
+    "at": "2026-10-27 11:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -388447,7 +388458,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 11:42",
+    "at": "2026-10-27 11:44",
     "pri": {
       "days": 0,
       "failed": [],
