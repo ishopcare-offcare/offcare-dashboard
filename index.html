@@ -763,6 +763,24 @@
   /* 연도별 비교 선 그래프(관리 탭) — 가로축 1~12월, 해마다 선 하나. 색은 검증한 파랑(2025)·빨강(2026) */
   .yoy-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-bottom:18px}
   .yoy-grid > .card{margin:0}
+  /* 전월 비교 막대 — 유형마다 이번 달(파랑)·전월(회색) 두 줄, 같은 눈금이라 길이로 바로 비교 */
+  .pb-sum{display:flex; flex-wrap:wrap; gap:6px 18px; align-items:baseline; margin:-2px 0 12px; font-size:13px; color:var(--ink-soft)}
+  .pb-sum b{font-size:22px; font-weight:800; letter-spacing:-.02em; color:var(--ink)}
+  .pb-sum .pb-sub{color:var(--gray)}
+  .pb-row{display:grid; grid-template-columns:104px minmax(0,1fr) 62px; gap:4px 10px; align-items:center; padding:7px 0; border-top:1px solid var(--line-soft)}
+  .pb-lab{font-size:13.5px; font-weight:700; color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .pb-bars{display:flex; flex-direction:column; gap:3px; min-width:0}
+  .pb-line{display:grid; grid-template-columns:30px minmax(0,1fr); align-items:center; gap:6px}
+  .pb-m{font-size:11px; font-weight:700; color:var(--gray)}
+  .pb-track{display:flex; align-items:center; gap:6px; min-width:0}
+  .pb-bar{height:12px; border-radius:0 4px 4px 0; min-width:2px; flex:0 0 auto}
+  .pb-bar.cur{background:var(--blue)} .pb-bar.prev{background:var(--gray2); opacity:.55}
+  .pb-v{font-size:12.5px; font-weight:800; color:var(--ink); white-space:nowrap; font-variant-numeric:tabular-nums}
+  .pb-v small{font-weight:600; color:var(--gray)}
+  .pb-line.prev .pb-v{color:var(--ink-soft); font-weight:700}
+  .pb-d{text-align:right; font-size:13px; font-weight:800; white-space:nowrap}
+  .pb-d.up{color:var(--green)} .pb-d.down{color:var(--red)} .pb-d.flat,.pb-d.na{color:var(--gray2); font-weight:600; font-size:12px}
+  .pb-key{display:inline-block; width:12px; height:10px; border-radius:0 3px 3px 0; vertical-align:middle; margin-right:5px}
   .yoy-sum{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; margin:-2px 0 10px; font-size:13.5px; color:var(--ink-soft)}
   .yoy-sum b{font-size:20px; font-weight:800; letter-spacing:-.02em; color:var(--ink)}
   .yoy-sum .up{color:var(--green); font-weight:800} .yoy-sum .down{color:var(--red); font-weight:800}
@@ -3978,46 +3996,49 @@ function admDri(){
  * 증감은 라이브와 같은 기준(1일 평균끼리)으로 계산한다. 1월은 전월(2025.12)이 없어 '—'. */
 const PREVM_FROM='2026-02';   // 전월 비교에서 고를 수 있는 첫 달
 // 월 전체 비교 — cur·pm 이 리포트 달이든 라이브 달이든 월별 행(admMonthlyWithHist)으로 유형별 1일 평균을 비교
+// 전월 비교 카드 — rows:[{label, a, b, na?}] (건수), ad·bd = 이번 달·전월 평일 수. 비교·막대는 1일 평균(건수 ÷ 평일).
+// 두 달 다 0 인 유형은 숨기고 이번 달 1일 평균이 큰 순서. 맨 위 요약은 totals(합계 등).
+function prevBarsCard(o){
+  const mLab=m=>m?Number(m.slice(5,7))+'월':'전월', per=(n,d)=>n/(d||1);
+  const f1=v=>(Math.round(v*10)/10).toFixed(1);
+  const delta=(x,y,na)=>{ if(!o.prev) return {c:'na',t:'—'}; if(na) return {c:'na',t:'기준 다름'};
+    if(!y) return x?{c:'up',t:'신규'}:{c:'na',t:'—'}; const p=Math.round((x-y)/y*100);
+    return {c:p>0?'up':p<0?'down':'flat', t:(p>0?'▲':p<0?'▼':'')+Math.abs(p)+'%'}; };
+  const rows=o.rows.filter(r=>r.a||(o.prev&&r.b)).map(r=>Object.assign({}, r, {pa:per(r.a,o.ad), pb:per(r.b,o.bd)}))
+    .sort((x,y)=>y.pa-x.pa || y.pb-x.pb);
+  const mx=Math.max(0.0001, ...rows.map(r=>Math.max(r.pa, o.prev?r.pb:0)));
+  const bar=(cls, m, v, n)=>`<div class="pb-line ${cls}"><span class="pb-m">${m}</span><span class="pb-track">
+      <span class="pb-bar ${cls}" style="width:calc((100% - 92px) * ${(v/mx).toFixed(4)})"></span>
+      <span class="pb-v">${f1(v)} <small>${n.toLocaleString()}건</small></span></span></div>`;
+  const body=rows.map(r=>{ const d=delta(r.pa, r.pb, r.na);
+    return `<div class="pb-row" title="${escapeHtml(r.label)} · ${mLab(o.cur)} ${r.a}건 / ${o.prev?mLab(o.prev)+' '+r.b+'건':'전월 없음'} (1일 평균 비교)">
+      <span class="pb-lab">${r.label}</span>
+      <div class="pb-bars">${bar('cur', mLab(o.cur), r.pa, r.a)}${o.prev?bar('prev', mLab(o.prev), r.pb, r.b):''}</div>
+      <span class="pb-d ${d.c}">${d.t}</span></div>`; }).join('');
+  const sum=(o.totals||[]).map(t=>{ const x=per(t.a,o.ad), y=per(t.b,o.bd), d=delta(x,y);
+    return `<span>${t.label} 1일 평균 <b>${f1(x)}</b> <span class="pb-sub">${t.a.toLocaleString()}건${o.prev?` · ${mLab(o.prev)} ${f1(y)}`:''}</span>
+      <span class="pb-d ${d.c}" style="display:inline">${o.prev?d.t:''}</span></span>`; }).join('');
+  return `<div class="card"><div class="card-head"><h3>${o.title}</h3><span class="hint">${o.hint||''}</span></div>
+    <div class="pb-sum">${sum}</div>
+    <div class="legend" style="margin:0 0 6px"><span><span class="pb-key" style="background:var(--blue)"></span>${mLab(o.cur)} (평일 ${o.ad}일)</span>${o.prev?`<span><span class="pb-key" style="background:var(--gray2);opacity:.55"></span>${mLab(o.prev)} (평일 ${o.bd}일)</span>`:''}<span style="color:var(--gray)">막대·증감 = 1일 평균 기준</span></div>
+    ${body||'<div class="empty-note">처리 건이 없습니다.</div>'}</div>`;
+}
 function admWholePrevBlock(cur, pm){
   const R=admMonthlyWithHist(), H=m=>R.find(r=>r.m===m);
   const a=H(cur), b=pm?H(pm):null;
   if(!a) return '';
   const ad=a.biz||1, bd=b?(b.biz||1):1;
-  const per=(n,d)=>(n/d).toFixed(1);
-  const dl=(x,y)=>{ if(!b) return '<span class="zero">—</span>';
-    if(!y) return x?'<span style="color:var(--green);font-weight:700">신규</span>':'<span class="zero">—</span>';
-    const p=Math.round((x-y)/y*100);
-    return `<span style="color:${p>0?'var(--green)':p<0?'var(--red)':'var(--gray2)'};font-weight:700">${p>0?'▲':p<0?'▼':''}${Math.abs(p)}%</span>`; };
-  const line=(label,ax,bx,strong)=>`<tr><td>${label}</td>
-    <td class="num"${strong?' style="font-weight:800"':''}>${ax.toLocaleString()}</td>
-    <td class="num" style="font-weight:800">${per(ax,ad)}</td>
-    <td class="num" style="color:var(--gray2)">${b?bx.toLocaleString():'—'}</td>
-    <td class="num" style="color:var(--gray2);font-weight:800">${b?per(bx,bd):'—'}</td>
-    <td class="num">${dl(ax/ad, b?bx/bd:0)}</td></tr>`;
-  // 리포트 표의 유형별 순서 그대로. 설치 OB 는 리포트에 없다.
+  // 리포트 표의 유형별 항목. 설치 OB 는 리포트에 없다. 부재는 리포트(발생)·대시보드(미해결) 기준이 달라 섞이면 증감을 내지 않는다
   const ROWS=[['🚀 온보딩','onboarding'],['🔧 AS','as'],['🧩 외주설치','extern'],['📝 명의변경','transfer'],
               ['💬 VOC','voc'],['🍱 메뉴등록','menu'],['🛵 배달','delivery']];
   const val=(r,k)=>k==='voc'?(r.voc||0):(r.by[k]||0);   // VOC 는 라이브 달에선 by 가 아니라 처리 완료 건(voc)
-  const rowsH=ROWS.map(([n,k])=>line(n, val(a,k), b?val(b,k):0)).join('')
-    // 부재는 리포트(발생 건수)·대시보드(미해결 건수) 기준이 달라 두 출처가 섞이면 증감을 내지 않는다
-    + (b&&a.hist!==b.hist
-      ? `<tr><td>📵 부재</td><td class="num">${(a.absent||0).toLocaleString()}</td><td class="num" style="font-weight:800">${per(a.absent||0,ad)}</td>
-          <td class="num" style="color:var(--gray2)">${(b.absent||0).toLocaleString()}</td><td class="num" style="color:var(--gray2);font-weight:800">${per(b.absent||0,bd)}</td>
-          <td class="num"><span style="color:var(--gray2);font-size:12px">기준 다름</span></td></tr>`
-      : line('📵 부재', a.absent||0, b?(b.absent||0):0));
-  return `<div class="card"><div class="card-head">
-      <h3>📄 전체 — ${cur.replace('-','.')} vs ${pm?pm.replace('-','.'):'전월 없음'}</h3>
-      <span class="hint">${a.hist?'월간 리포트 수치':'대시보드 집계'}${b?(b.hist!==a.hist?' vs '+(b.hist?'월간 리포트':'대시보드 집계'):''):''} · 주/야 구분 없음 · 평일 ${ad}일 / 전월 평일 ${pm?bd+'일':'—'}</span></div>
-    <div style="overflow-x:auto"><table class="matrix">
-      <thead><tr><th>유형</th>
-        <th class="num">${cur.replace('-','.')}<br><span style="font-weight:600;color:var(--muted)">건수</span></th>
-        <th class="num">${cur.replace('-','.')}<br>1일 평균</th>
-        <th class="num">${pm?pm.replace('-','.'):'전월'}<br><span style="font-weight:600;color:var(--muted)">건수</span></th>
-        <th class="num">${pm?pm.replace('-','.'):'전월'}<br>1일 평균</th>
-        <th class="num">1일 평균<br>증감</th></tr></thead>
-      <tbody>${rowsH}</tbody>
-      <tfoot>${a.intake!=null&&(!b||b.intake!=null)?line('원격 인입 건수', a.intake, b?b.intake:0, true):''}${line('실 처리 건수', a.total, b?b.total:0, true)}</tfoot>
-    </table></div></div>`;
+  const rows=ROWS.map(([n,k])=>({label:n, a:val(a,k), b:b?val(b,k):0}))
+    .concat([{label:'📵 부재', a:a.absent||0, b:b?(b.absent||0):0, na:!!(b&&a.hist!==b.hist)}]);
+  const totals=[...(a.intake!=null&&(!b||b.intake!=null)?[{label:'원격 인입', a:a.intake, b:b?b.intake:0}]:[]),
+                {label:'실 처리', a:a.total, b:b?b.total:0}];
+  return prevBarsCard({title:`📄 전체 — ${cur.replace('-','.')} vs ${pm?pm.replace('-','.'):'전월 없음'}`,
+    hint:`${a.hist?'월간 리포트 수치':'대시보드 집계'}${b&&b.hist!==a.hist?' vs '+(b.hist?'월간 리포트':'대시보드 집계'):''} · 주/야 구분 없음`,
+    cur, prev:b?pm:null, ad, bd, rows, totals});
 }
 function admPrevMonth(){
   const withData=adminLiveDates();
@@ -4030,7 +4051,7 @@ function admPrevMonth(){
   if(months.length<1) return `<div class="empty-note">처리 상세 데이터가 없습니다.</div>`;
   const cur = adminMonth && months.includes(adminMonth) ? adminMonth : months[months.length-1];
   const prevAny = m => { const i=allMonths.indexOf(m); return i>0 ? allMonths[i-1] : null; };   // 리포트·라이브 상관없이 바로 앞 달
-  const pick=`<div class="seg" style="flex-wrap:wrap">${months.map(m=>`<button class="${m===cur?'on':''}" onclick="setAdminMonth('${m}')">${m.replace('-','.')}${histMonths.includes(m)?'<span style="font-size:10px;opacity:.65"> 리포트</span>':''}</button>`).join('')}</div>`;
+  const pick=`<div class="seg" style="flex-wrap:wrap;margin-bottom:14px">${months.map(m=>`<button class="${m===cur?'on':''}" onclick="setAdminMonth('${m}')">${m.replace('-','.')}${histMonths.includes(m)?'<span style="font-size:10px;opacity:.65"> 리포트</span>':''}</button>`).join('')}</div>`;
   if(histMonths.includes(cur)){
     return `<div class="adm-note">📄 <b>${cur.replace('-','.')}</b> 은 월간 리포트 수치입니다 — 건별 상세가 없어 <b>주/야 구분은 불가</b>하고 '전체' 한 표로 보여줍니다.
         주/야 비교는 <b>2026.07</b> 이후 달을 고르세요.</div>${pick}${admWholePrevBlock(cur, prevAny(cur))}`;
@@ -4055,31 +4076,13 @@ function admPrevMonth(){
     const ad=admBizDays(cur, lastOf(cur))||1, bd=(prev?admBizDays(prev, lastOf(prev)):0)||1;
     // 진행 중인 달은 날짜 수가 달라 '건수' 증감이 무의미하다(8월 4일치 vs 7월 30일치 → 전부 ▼94%).
     // 증감은 반드시 1일 평균끼리 비교한다.
-    const dl=(x,y)=>{ if(b===null) return '<span class="zero">—</span>';
-      if(!y) return x?'<span style="color:var(--green);font-weight:700">신규</span>':'<span class="zero">—</span>';
-      const p=Math.round((x-y)/y*100);
-      return `<span style="color:${p>0?'var(--green)':p<0?'var(--red)':'var(--gray2)'};font-weight:700">${p>0?'▲':p<0?'▼':''}${Math.abs(p)}%</span>`; };
-    const per=(n,d)=>(n/d).toFixed(1);
-    const line=(label,ax,bx)=>`<tr><td>${label}</td>
-      <td class="num">${ax}</td><td class="num" style="font-weight:800">${per(ax,ad)}</td>
-      <td class="num" style="color:var(--gray2)">${b?bx:'—'}</td><td class="num" style="color:var(--gray2);font-weight:800">${b?per(bx,bd):'—'}</td>
-      <td class="num">${dl(ax/ad, b?bx/bd:0)}</td></tr>`;
     // 미상 유형이 있는 달에만 기타 행을 붙인다 — 없으면 빈 행이 늘 남는다
     const rowCats=[...ADM_CATS, ...((a.by.etc||(b&&b.by.etc))?[ETC_CAT]:[])];
-    const rowsH=rowCats.map(c=>line(`${c.icon} ${c.name}`, a.by[c.key]||0, b?(b.by[c.key]||0):0)).join('');
-    return `<div class="card"><div class="card-head">
-        <h3>${night?'🌙 야간':'☀️ 주간'} — ${cur.replace('-','.')} vs ${prev?prev.replace('-','.'):'전월 없음'}</h3>
-        <span class="hint">${night?NIGHT_FROM+' 이후':NIGHT_FROM+' 이전'} 처리 건 · 평일 ${ad}일 / 전월 평일 ${prev?bd+'일':'—'}</span></div>
-      <div style="overflow-x:auto"><table class="matrix">
-        <thead><tr><th>유형</th>
-          <th class="num">${cur.replace('-','.')}<br><span style="font-weight:600;color:var(--muted)">건수</span></th>
-          <th class="num">${cur.replace('-','.')}<br>1일 평균</th>
-          <th class="num">${prev?prev.replace('-','.'):'전월'}<br><span style="font-weight:600;color:var(--muted)">건수</span></th>
-          <th class="num">${prev?prev.replace('-','.'):'전월'}<br>1일 평균</th>
-          <th class="num">1일 평균<br>증감</th></tr></thead>
-        <tbody>${rowsH}</tbody>
-        <tfoot>${line('합계', a.total, b?b.total:0)}</tfoot>
-      </table></div></div>`;
+    return prevBarsCard({title:`${night?'🌙 야간':'☀️ 주간'} — ${cur.replace('-','.')} vs ${prev?prev.replace('-','.'):'전월 없음'}`,
+      hint:`${night?NIGHT_FROM+' 이후':NIGHT_FROM+' 이전'} 처리 건`,
+      cur, prev:b?prev:null, ad, bd,
+      rows:rowCats.map(c=>({label:`${c.icon} ${c.name}`, a:a.by[c.key]||0, b:b?(b.by[c.key]||0):0})),
+      totals:[{label:'합계', a:a.total, b:b?b.total:0}]});
   };
   const curDays=withData.filter(d=>d.startsWith(cur)).length;
   const isPartial = cur===months[months.length-1] && curDays<20;
@@ -4092,7 +4095,7 @@ function admPrevMonth(){
        건수를 그대로 비교하면 날짜 수 차이 때문에 전부 급감으로 보이므로, 증감은 <b>1일 평균끼리</b> 계산했습니다.
        분모는 <b>평일 수</b>(토·일·공휴일 제외)입니다.</div>` : '');
   return `<div class="adm-note">기준 시각 <b>${NIGHT_FROM}</b> — 그 이후 처리 건을 야간으로 봅니다. 조회할 달을 고르세요.</div>
-    ${pick}${warn}${block(false)}${block(true)}`;
+    ${pick}${warn}<div class="yoy-grid">${block(false)}${block(true)}</div>`;
 }
 
 /* ── 탭 4~6. 월별 리포트 (대시보드 자체 데이터) ── */
