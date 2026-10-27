@@ -3524,6 +3524,7 @@ let adminMonth = '';            // 전월 비교에서 보는 '이번 달' (YYYY
 const ADMIN_TABS = [
   {k:'hourly',  n:'시간대별 처리추이', ic:'🕘', live:true},
   {k:'dri',     n:'DRI 정·부',        ic:'👥', live:true},
+  {k:'drim',    n:'DRI별 월별',       ic:'📊'},
   {k:'prevm',   n:'전월 비교 (주/야)', ic:'🔀'},   // 자체 월 선택기를 쓰므로 기간 세그먼트는 안 띄운다
   {k:'workday', n:'근무일·1일 평균',   ic:'📆'},
   {k:'onbas',   n:'온보딩·AS 월별',    ic:'📈'},
@@ -4162,7 +4163,7 @@ function yoyData(R, get){
   const cur=ymd(today()).slice(0,7), vals={}, partial={};
   years.forEach(y=>{ vals[y]=Array(12).fill(null); });
   R.forEach(r=>{ const y=r.m.slice(0,4), i=Number(r.m.slice(5,7))-1, v=get(r); if(v!=null&&!isNaN(v)) vals[y][i]=Number(v); if(r.m===cur) partial[y]=i; });
-  return {years, vals, partial};
+  return {years:years.filter(y=>vals[y].some(v=>v!=null)), vals, partial};   // 값이 하나도 없는 해(배달 2025 등)는 빼고 그린다
 }
 function yoyNice(mx){ if(mx<=0) return {top:1, step:1}; const raw=mx/4, p=Math.pow(10,Math.floor(Math.log10(raw))), m=raw/p, st=(m<=1?1:m<=2?2:m<=2.5?2.5:m<=5?5:10)*p; return {top:Math.ceil(mx/st)*st, step:st}; }
 // mode: 'sum'(월 건수 — 누적 비교) | 'avg'(1일 평균 — 평균 비교)
@@ -4195,7 +4196,12 @@ function yoyChart(title, R, get, fmt, mode, hint){
   }).join('');
   const hits=[...Array(12)].map((_,i)=>`<rect class="yoy-hit" x="${(X(i)-plotW/22).toFixed(1)}" y="${topPad}" width="${(plotW/11).toFixed(1)}" height="${plotH}" onmousemove="yoyTip(event,'${id}',${i})" onmouseleave="yoyTipHide('${id}')"/>`).join('');
   // 요약: 올해가 데이터 있는 달까지, 작년 같은 달들과 비교
-  const [ya, yb]=years.slice(-2); let sum='';
+  const [ya, yb]=years.length>1?years.slice(-2):[null, years[0]]; let sum='';
+  if(!ya&&yb){   // 비교할 작년이 없으면 올해 끝난 달까지 누적·평균만
+    const idx=vals[yb].map((v,i)=>v!=null&&partial[yb]!==i?i:-1).filter(i=>i>=0);
+    if(idx.length){ const xs=idx.map(i=>vals[yb][i]), t=xs.reduce((a,b)=>a+b,0), v=mode==='avg'?t/xs.length:t;
+      sum=`<div class="yoy-sum"><span><span class="yoy-key" style="border-color:${YOY_COLORS[yb]}"></span>${yb} ${idx[0]+1}~${idx[idx.length-1]+1}월 ${mode==='avg'?'평균':'누적'} <b>${fmt(v)}</b></span><span>작년 같은 기간 데이터 없음</span></div>`; }
+  }
   if(ya&&yb){
     const idx=vals[yb].map((v,i)=>v!=null&&partial[yb]!==i&&vals[ya][i]!=null?i:-1).filter(i=>i>=0);   // 진행 중인 달은 빼고 끝난 달끼리
     if(idx.length){
@@ -4233,6 +4239,32 @@ function yoyTip(ev, id, i){
   if(cr){ const hit=ev.target, cx=(+hit.getAttribute('x'))+(+hit.getAttribute('width'))/2; cr.setAttribute('x1',cx); cr.setAttribute('x2',cx); cr.style.display=''; }
 }
 function yoyTipHide(id){ const t=document.getElementById('yoyTip'); if(t) t.style.display='none'; const cr=document.querySelector('#'+id+' .yoy-cross'); if(cr) cr.style.display='none'; }
+/* ── DRI별 월별 — DRI 카테고리(명의변경·메뉴등록·배달·외주)의 월 건수를 연도별 꺾은선으로 ──
+ * 온보딩·AS 월별과 같은 모양. 차트 머리에 그 카테고리의 정·부 담당자를 붙인다(DRI 정·부 탭에서 지정).
+ * 배달은 2026.04 부터 따로 세기 시작해 그 전 달은 0 이 아니라 '없음'(선 없음)으로 둔다. */
+const DRIM_CATS=[
+  {key:'transfer', icon:'📝', name:'명의변경'},
+  {key:'menu',     icon:'🍱', name:'메뉴등록'},
+  {key:'delivery', icon:'🛵', name:'배달', from:'2026-04'},
+  {key:'extern',   icon:'🧩', name:'외주'},
+];
+function admDriMonthly(){
+  const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
+  const get=c=>r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0);
+  const who=c=>{ const ns=DRI_ROLES.map(x=>[x.n, driGet(c.key,x.k)]).filter(([,v])=>v);
+    return ns.length?ns.map(([r,v])=>`${r} ${escapeHtml(v)}`).join(' · '):'DRI 미지정'; };
+  const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
+  return admHistNote(R)
+    + `<div class="adm-note">카테고리별 <b>월 건수</b>를 해마다 한 선으로 겹쳐 봅니다(2025 파랑 · 2026 빨강). 제목 옆은 <b>DRI 정·부</b> 탭에서 지정한 담당자입니다.
+       배달은 <b>2026.04</b> 부터 집계해 그 전 달은 비워 둡니다.</div>`
+    + `<div class="yoy-grid">`
+    + DRIM_CATS.map(c=>yoyChart(`${c.icon} ${c.name} 월 건수`, R, get(c), null, 'sum', who(c))).join('')
+    + `</div>`
+    + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3></div>
+        ${monthTable(Ry.map(r=>r.m.replace('-','.')),
+                     DRIM_CATS.map(c=>({n:`${c.icon} ${c.name}`, c:colorOf(c.key), v:Ry.map(r=>{ const v=get(c)(r); return v==null?'':v; })})),
+                     [{n:'평일 수', v:Ry.map(r=>r.biz), tot:Ry.reduce((a,r)=>a+r.biz,0)}])}</div>`).join('');
+}
 function admOnbAs(){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const L=R.map(r=>r.m.replace('-','.'));
@@ -4335,6 +4367,7 @@ function renderAdmin(){
   let body='';
   if(adminTab==='hourly')       body=admHourly();
   else if(adminTab==='dri')     body=admDri();
+  else if(adminTab==='drim')    body=admDriMonthly();
   else if(adminTab==='prevm')   body=admPrevMonth();
   else if(adminTab==='workday') body=admWorkday();
   else if(adminTab==='onbas')   body=admOnbAs();
