@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4210,
- "updatedAt": "2026-10-27 10:42",
+ "version": 4211,
+ "updatedAt": "2026-10-27 10:45",
  "days": 30,
  "items": [
   {
@@ -632,9 +632,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "님 안녕하세요! 아래와 같이 추가 수정 인입되어서 공유드립니다 :꾸벅곰:\n\n• 수정 요청 1- 대방어회덮밥 ~19900원~ 18900원 \n• 수정 요청 2- 대방어초밥 기존 사진이 남아있는 경우에는 있는 그대로 써주시고 없으면 사진 없이 부탁드린다고 합니다!!"
+   ],
+   "rc": 1,
+   "lr": "1793065530.426249",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
