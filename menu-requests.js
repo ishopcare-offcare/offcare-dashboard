@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4233,
- "updatedAt": "2026-10-27 17:09",
+ "version": 4234,
+ "updatedAt": "2026-10-27 17:12",
  "days": 30,
  "items": [
   {
@@ -39,14 +39,260 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "20261027_155655.jpg",
+     "fid": "F0CBZMMUMB9",
+     "from": "댓글",
+     "path": "menu-files/1793085155_149799-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "굿즈",
+       "name": "티셔츠",
+       "price": 39000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261027_155619.jpg",
+     "fid": "F0CCETC3P9Q",
+     "from": "댓글",
+     "path": "menu-files/1793085155_149799-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "위스키",
+       "name": "패트론실버",
+       "price": 250000
+      },
+      {
+       "category": "위스키",
+       "name": "패트론아네호",
+       "price": 350000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261027_155609.jpg",
+     "fid": "F0CBZMNUPNK",
+     "from": "댓글",
+     "path": "menu-files/1793085155_149799-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "위스키",
+       "name": "맥캘란 15y 더블캐스크",
+       "price": 480000
+      },
+      {
+       "category": "위스키",
+       "name": "발베니 14y 캐리비안",
+       "price": 400000
+      },
+      {
+       "category": "위스키",
+       "name": "라가불린 16y",
+       "price": 390000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌피딕 15y",
+       "price": 320000
+      },
+      {
+       "category": "위스키",
+       "name": "맥캘란12y쉐리",
+       "price": 300000
+      },
+      {
+       "category": "위스키",
+       "name": "발베니 12y",
+       "price": 290000
+      },
+      {
+       "category": "위스키",
+       "name": "맥캘란 12y 더블",
+       "price": 280000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌피딕 12y 700ml",
+       "price": 280000
+      },
+      {
+       "category": "위스키",
+       "name": "그렌모렌지 12Y",
+       "price": 260000
+      },
+      {
+       "category": "위스키",
+       "name": "죠니워커그린",
+       "price": 230000
+      },
+      {
+       "category": "위스키",
+       "name": "발렌타인 12y 글렌버기",
+       "price": 210000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌리벳12y더블우드",
+       "price": 200000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌모렌지 10y",
+       "price": 200000
+      },
+      {
+       "category": "위스키",
+       "name": "탈리스커10y",
+       "price": 190000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌그란트12y",
+       "price": 200000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌피딕 12y 500ml",
+       "price": 180000
+      },
+      {
+       "category": "위스키",
+       "name": "글렌그란트10y",
+       "price": 170000
+      },
+      {
+       "category": "위스키",
+       "name": "조니블랙(700ml)",
+       "price": 160000
+      },
+      {
+       "category": "위스키",
+       "name": "몽키숄더",
+       "price": 160000
+      },
+      {
+       "category": "위스키",
+       "name": "와일드터키 8y",
+       "price": 150000
+      },
+      {
+       "category": "위스키",
+       "name": "잭다니엘(700ml)",
+       "price": 150000
+      },
+      {
+       "category": "위스키",
+       "name": "잭다니엘(500ml)",
+       "price": 140000
+      },
+      {
+       "category": "위스키",
+       "name": "제임슨스탠다드",
+       "price": 130000
+      },
+      {
+       "category": "위스키",
+       "name": "호세쿠엘보",
+       "price": 80000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261027_155601.jpg",
+     "fid": "F0CCETD4CCA",
+     "from": "댓글",
+     "path": "menu-files/1793085155_149799-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "맥주",
+       "name": "기네스",
+       "price": 12000
+      },
+      {
+       "category": "맥주",
+       "name": "사무엘아담스",
+       "price": 10000
+      },
+      {
+       "category": "맥주",
+       "name": "버드와이저",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "산미구엘",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "스텔라",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "아사히",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "코로나",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "필스너",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "하이네켄",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "호가든",
+       "price": 9000
+      },
+      {
+       "category": "맥주",
+       "name": "무알콜 하이네켄",
+       "price": 8000
+      },
+      {
+       "category": "맥주",
+       "name": "세트스텔라5먹태",
+       "price": 56000
+      },
+      {
+       "category": "맥주",
+       "name": "세트스텔라5감자",
+       "price": 54000
+      },
+      {
+       "category": "맥주",
+       "name": "세트스텔라5오징어",
+       "price": 58000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793084334589629?thread_ts=···.417019&cid=C0ADC9759KQ",
     "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793084345087369?thread_ts=···.417019&cid=C0ADC9759KQ"
    ],
-   "rc": 3,
-   "lr": "1793085170.259719",
+   "rc": 4,
+   "lr": "1793088674.220639",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
