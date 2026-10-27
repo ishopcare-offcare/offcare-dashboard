@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4207,
- "updatedAt": "2026-10-27 10:37",
+ "version": 4208,
+ "updatedAt": "2026-10-27 10:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1793065060.362549",
+   "date": "2026-10-27",
+   "time": "10:37",
+   "store": "하이루",
+   "biz": "4543701411",
+   "pos": "",
+   "content": "메뉴등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793065063.544509",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793065060362549"
+  },
   {
    "ts": "1793065010.104599",
    "date": "2026-10-27",
@@ -129,8 +150,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793064832.199989",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064788447699"
   },
   {
@@ -144,11 +165,177 @@ window.MENU_REQUESTS = {
    "special": "파일 첨부 후 메일로도 전달드리겠습니다.",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CC6F1JDGB",
+     "from": "댓글",
+     "path": "menu-files/1793064607_092519-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-MT",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-BR",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼플리스자켓-PK",
+       "price": 49000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-MT",
+       "price": 32500
+      },
+      {
+       "category": "자켓/집업",
+       "name": "덤블퍼베스트-BR",
+       "price": 32500
+      },
+      {
+       "category": "플리스",
+       "name": "덤블퍼블랭킷 PK",
+       "price": 38500
+      },
+      {
+       "category": "플리스",
+       "name": "덤블퍼블랭킷 MT",
+       "price": 38500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CC6F38M1R",
+     "from": "댓글",
+     "path": "menu-files/1793064607_092519-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-CR 100",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-CR 110",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-CR 120",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-CR 130",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-CR 140",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-NY 100",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-NY 110",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-NY 120",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-NY 130",
+       "price": 119000
+      },
+      {
+       "category": "자켓/집업",
+       "name": "노아퀄팅자켓-NY 140",
+       "price": 119000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-RD S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-RD M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-RD L",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-YE S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-YE M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-YE L",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-NV S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-NV M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-NV L",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-CR S",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-CR M",
+       "price": 49000
+      },
+      {
+       "category": "긴팔티",
+       "name": "루즈핏스웨터-CR L",
+       "price": 49000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793065109.181979",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
