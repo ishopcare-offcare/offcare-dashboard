@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26079,
+  "version": 26080,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283966,6 +283966,7 @@ window.SLACK_DATA = {
           "고경림": 1
         },
         "transfer": {
+          "고경림": 1,
           "송태양": 1
         }
       },
@@ -284021,6 +284022,18 @@ window.SLACK_DATA = {
         },
         {
           "time": "09:30",
+          "store": "동성제일한의원",
+          "biz": "4323401633",
+          "cat": "transfer",
+          "emp": "고경림",
+          "req": "10월 27일 오전 10시 / 메뉴복사O / 프론트, 유프",
+          "hw": "",
+          "intake": "online",
+          "note": "<tel:010-9439-****|010-9439-**** 010-9439-****",
+          "rr": 1
+        },
+        {
+          "time": "09:30",
           "store": "설악오리주물럭",
           "biz": "3031694413",
           "cat": "transfer",
@@ -284045,7 +284058,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
@@ -284210,14 +284223,14 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793063727.33,
+        "lastSeen": 1793063823.498,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
       },
       "1793062808.766039": {
         "post": "1793062808.766039",
-        "lastSeen": 1793063727.33,
+        "lastSeen": 1793063823.498,
         "r": 1,
         "day": "2026-10-27",
         "idx": 4
@@ -387767,7 +387780,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-27 10:15",
+    "at": "2026-10-27 10:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -387909,7 +387922,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 10:15",
+    "at": "2026-10-27 10:17",
     "pri": {
       "days": 0,
       "failed": [],
