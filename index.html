@@ -1864,8 +1864,14 @@ const VOC_INDUSTRIES = ["서비스[뷰티,헤어]","서비스[학원]","카페",
 const VOC_REASONS = ["필요한 기능이 없거나 몰라서 불편","고객센터 연락이 매우 힘듦","사용중 오류가 자주 발생함","단말기 설치나 초기 과정이 어려움","구매,계약과정에서 설명이 부족","기타 이슈(정산/직원에 대한 불만/호영님출몰)"];
 const VOC_STATUSES = ["처리중","부재","통화거부","OB필요없음","처리완료","오적재"];
 
-// 2026 대한민국 공휴일 (대체공휴일 포함, 대표)
+// 대한민국 공휴일 (대체공휴일·임시공휴일 포함) — 2025 는 관리 탭 월별 비교(평일 수)용
 const HOLIDAYS = {
+  "2025-01-01":"신정","2025-01-27":"임시공휴일","2025-01-28":"설날","2025-01-29":"설날","2025-01-30":"설날",
+  "2025-03-01":"삼일절","2025-03-03":"대체공휴일",
+  "2025-05-05":"어린이날·부처님오신날","2025-05-06":"대체공휴일",
+  "2025-06-03":"대통령선거일","2025-06-06":"현충일","2025-08-15":"광복절",
+  "2025-10-03":"개천절","2025-10-05":"추석","2025-10-06":"추석","2025-10-07":"추석","2025-10-08":"대체공휴일","2025-10-09":"한글날",
+  "2025-12-25":"성탄절",
   "2026-01-01":"신정",
   "2026-02-16":"설날","2026-02-17":"설날","2026-02-18":"설날",
   "2026-03-01":"삼일절","2026-03-02":"대체공휴일",
@@ -3622,11 +3628,38 @@ function admBizDays(m, upto){
   }
   return n;
 }
-/* 2026년 상반기(1~6월) 월간 리포트 수치 — 대시보드 집계(2026-07-01~) 이전 구간이라
+/* 2025년(1~12월) — '[원격] 2025 Offline Care Team' 시트 잡동 탭 값(2026-10-27 옮김, 시트 ID 1sqtw7J6wfTxe3PuHXURlYYem5O9vR_tvHKUXTYBjNX8).
+ * 끝난 해라 값이 바뀌지 않아 그대로 싣는다. 유형별 건수·부재·실 처리 건수만 있고 원격 인입 건수·온/오프라인 구분은 없다(null).
+ * 실 처리 건수(done)는 7월부터 부재·중복을 포함한 값 — 2026 리포트 행과 같은 기준. 1~6월 부재는 집계 전이라 0.
+ * 2026년 상반기(1~6월) 월간 리포트 수치 — 대시보드 집계(2026-07-01~) 이전 구간이라
  * 슬랙에서 다시 뽑을 수 없어 월간 리포트 표의 값을 그대로 둔다. 7월부터는 라이브 집계가 이어받는다.
  * ⚠️ 온라인+오프라인 < 총 건수 다(월 100~280건). 리포트 원본이 그렇고, 인입유형 미기재분으로 보인다.
  *    그래서 '온라인 비중' 은 (온라인 ÷ 온·오프 합계) 로 계산해 라이브 구간과 기준을 맞춘다. */
 const ADM_HIST = [
+  {m:'2025-01', total:null, online:null, offline:null, done:1248, absent:0,
+   by:{onboarding:241, as:880, extern:59, transfer:65, menu:3, delivery:0, voc:0}},
+  {m:'2025-02', total:null, online:null, offline:null, done:2203, absent:0,
+   by:{onboarding:424, as:1518, extern:87, transfer:69, menu:67, delivery:0, voc:38}},
+  {m:'2025-03', total:null, online:null, offline:null, done:2319, absent:0,
+   by:{onboarding:593, as:1502, extern:96, transfer:84, menu:15, delivery:0, voc:29}},
+  {m:'2025-04', total:null, online:null, offline:null, done:3085, absent:0,
+   by:{onboarding:922, as:1848, extern:184, transfer:106, menu:5, delivery:0, voc:20}},
+  {m:'2025-05', total:null, online:null, offline:null, done:2750, absent:0,
+   by:{onboarding:979, as:1521, extern:144, transfer:77, menu:8, delivery:0, voc:21}},
+  {m:'2025-06', total:null, online:null, offline:null, done:3020, absent:0,
+   by:{onboarding:1050, as:1633, extern:178, transfer:100, menu:12, delivery:0, voc:47}},
+  {m:'2025-07', total:null, online:null, offline:null, done:4138, absent:105,
+   by:{onboarding:1034, as:2327, extern:219, transfer:165, menu:273, delivery:0, voc:10}},
+  {m:'2025-08', total:null, online:null, offline:null, done:3504, absent:106,
+   by:{onboarding:879, as:2041, extern:128, transfer:119, menu:230, delivery:0, voc:1}},
+  {m:'2025-09', total:null, online:null, offline:null, done:4495, absent:178,
+   by:{onboarding:1183, as:2489, extern:179, transfer:165, menu:301, delivery:0, voc:0}},
+  {m:'2025-10', total:null, online:null, offline:null, done:3855, absent:144,
+   by:{onboarding:957, as:2294, extern:106, transfer:115, menu:239, delivery:0, voc:0}},
+  {m:'2025-11', total:null, online:null, offline:null, done:3966, absent:149,
+   by:{onboarding:734, as:2310, extern:174, transfer:159, menu:440, delivery:0, voc:0}},
+  {m:'2025-12', total:null, online:null, offline:null, done:4448, absent:206,
+   by:{onboarding:603, as:2930, extern:258, transfer:156, menu:295, delivery:0, voc:0}},
   {m:'2026-01', total:4657, online:3376, offline:1003, done:4634, absent:171,
    by:{onboarding:552, as:3073, extern:168, transfer:231, menu:439, delivery:0, voc:0}},
   {m:'2026-02', total:3839, online:2889, offline:827,  done:3813, absent:112,
@@ -3656,7 +3689,7 @@ function admMonthlyWithHist(){
 }
 function admHistNote(rows){
   const first=rows[0], last=rows[rows.length-1];
-  return `<div class="adm-note">출처: <b>2026.01~06</b> 은 월간 리포트 수기 수치(대시보드 집계 이전 구간),
+  return `<div class="adm-note">출처: <b>2025.01~12</b> 는 <b>[원격] 2025 Offline Care Team</b> 시트(잡동 탭), <b>2026.01~06</b> 은 월간 리포트 수기 수치(대시보드 집계 이전 구간),
     <b>2026.07</b> 부터는 <b>대시보드 집계</b>(전체현황과 동일 소스) · 이력 <b>${first.m.replace('-','.')} ~ ${last.m.replace('-','.')}</b>
     ${last.days&&last.days<20?`<br>⚠️ <b>${last.m.replace('-','.')}</b> 는 진행 중(평일 ${last.biz}일)이라 총 건수는 아직 작습니다 — <b>1일 평균</b>으로 보세요.`:''}</div>`;
 }
@@ -4031,7 +4064,10 @@ function admPrevMonth(){
 // 월 묶음 막대. 달 수가 적어도(현재 2개) 읽히도록 라인 대신 막대를 쓴다
 function monthBarChart(labels, series, fmt){
   const f = fmt || (v=>Number(v).toLocaleString());
-  const barW=52, barGap=8, groupGap=46, padL=26, padR=20, topPad=28, botPad=40;
+  // 12개월을 넘으면(2025~ 이력) 화면 폭에 맞춰 줄이지 않는다 — 줄이면 숫자·월 라벨이 안 읽힌다.
+  // 막대를 좁혀 원래 글자 크기로 그리고 옆으로 밀어 본다(처음엔 최근 달이 보이게 오른쪽 끝).
+  const wide=labels.length>12;
+  const barW=wide?40:52, barGap=wide?4:8, groupGap=wide?26:46, padL=26, padR=20, topPad=28, botPad=40;
   const groupW=series.length*barW+(series.length-1)*barGap;
   const W=Math.max(420, padL+padR+labels.length*groupW+(labels.length-1)*groupGap);
   const H=280, base=H-botPad, plotH=H-topPad-botPad;
@@ -4043,11 +4079,11 @@ function monthBarChart(labels, series, fmt){
       if(v<=0) return `<rect x="${bx}" y="${base-2}" width="${barW}" height="2" rx="1" style="fill:var(--line-soft)"/>`;
       const h=v/mx*plotH, y=base-h;
       return `<rect x="${bx}" y="${y.toFixed(1)}" width="${barW}" height="${h.toFixed(1)}" rx="3" fill="${s.c}"><title>${lab} · ${s.n} ${f(v)}</title></rect>`
-        + `<text x="${bx+barW/2}" y="${(y-6).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="800" style="fill:${s.c}">${f(v)}</text>`;
+        + `<text x="${bx+barW/2}" y="${(y-6).toFixed(1)}" text-anchor="middle" font-size="${wide?11:12}" font-weight="800" style="fill:${s.c}">${f(v)}</text>`;
     }).join('');
     return bars+`<text x="${gx+groupW/2}" y="${base+20}" text-anchor="middle" font-size="12.5" font-weight="700" style="fill:var(--ink)">${lab}</text>`;
   }).join('');
-  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
+  return `<div class="chart-wrap${wide?' wide':''}"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}"${wide?' style="max-width:none"':''}>
       <line x1="${padL-8}" y1="${base}" x2="${W-padR}" y2="${base}" style="stroke:var(--line)"/>${groups}</svg></div>
     <div class="legend">${series.map(s=>`<span><span class="swatch" style="background:${s.c}"></span>${s.n}</span>`).join('')}</div>`;
 }
@@ -4094,7 +4130,7 @@ function admOnbAs(){
                             {n:'A/S 1일 평균',   v:R.map(r=>admPerDay(r.by.as,r))}])}</div>`;
 }
 function admChannel(){
-  const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
+  const R=admMonthlyWithHist().filter(r=>r.online!=null); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;   // 2025 는 온·오프라인 구분이 없어 제외
   const L=R.map(r=>r.m.replace('-','.'));
   const s=[{n:'온라인',c:'#0071e3',v:R.map(r=>r.online)},{n:'오프라인',c:'#ff9500',v:R.map(r=>r.offline)}];
   const share=R.map(r=>{ const t=r.online+r.offline; return t?Math.round(r.online/t*100):0; });
@@ -4104,7 +4140,7 @@ function admChannel(){
         ${monthBarChart(L,[{n:'온라인',c:'#0071e3',v:R.map(r=>admPerDay(r.online,r))},
                            {n:'오프라인',c:'#ff9500',v:R.map(r=>admPerDay(r.offline,r))}], v=>Number(v).toFixed(1))}</div>`
     + `<div class="card"><div class="card-head"><h3>월별 수치</h3>
-          <span class="hint">유형별: <b>01~06</b> 월간 리포트 · <b>07~</b> 대시보드 집계 · VOC는 처리 완료 건</span></div>
+          <span class="hint">유형별: <b>2026.01~06</b> 월간 리포트 · <b>07~</b> 대시보드 집계 · VOC는 처리 완료 건 · 2025년은 온·오프라인 구분이 없어 <b>온보딩·AS</b> · <b>근무일</b> 탭에서 보세요</span></div>
         <div class="adm-note" style="margin:0 0 10px">⚠️ <b>부재*</b> 는 두 구간의 기준이 다릅니다 —
           <b>01~06</b> 은 그 달에 <b>발생한</b> 부재 건수(리포트), <b>07~</b> 은 <b>미해결로 남은</b> 부재 건수입니다.
           대시보드는 부재가 처리되면 처리 건으로 옮기고 미처리에서 빼기 때문에 발생 누계를 복원할 수 없습니다. 두 구간을 직접 비교하지 마세요.</div>
@@ -4165,13 +4201,13 @@ function admWorkday(){
     const pts=perDay.map((v,i)=>`${cx(i)},${Y(v).toFixed(1)}`).join(' ');
     const dots=perDay.map((v,i)=>`<circle cx="${cx(i)}" cy="${Y(v).toFixed(1)}" r="4" fill="#ff3b30"><title>${R[i].m} 1일 평균 ${v}건</title></circle>
       <text x="${cx(i)}" y="${(Y(v)-10).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="800" fill="#ff3b30">${v}</text>`).join('');
-    return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
+    return `<div class="chart-wrap${R.length>12?' wide':''}"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}"${R.length>12?' style="max-width:none"':''}>
         <line x1="${padL-10}" y1="${base}" x2="${W-padR}" y2="${base}" style="stroke:var(--line)"/>${bars}
         ${R.length>1?`<polyline points="${pts}" fill="none" stroke="#ff3b30" stroke-width="2.5"/>`:''}${dots}</svg></div>
       <div class="legend"><span><span class="swatch" style="background:#0071e3"></span>근무일 수(평일)</span><span><span class="swatch" style="background:#ff3b30"></span>1일 평균 처리</span></div>`;
   })();
   return admHistNote(R)
-    + `<div class="adm-note">ℹ️ <b>2026.01~06</b> 은 월간 리포트 수치라 <b>담당자 수·1인 1일 평균·주말 처리분</b>은 알 수 없어 <b>—</b> 로 둡니다.</div>`
+    + `<div class="adm-note">ℹ️ <b>2025.01~2026.06</b> 은 시트·월간 리포트 수치라 <b>담당자 수·1인 1일 평균·주말 처리분</b>은 알 수 없어 <b>—</b> 로 둡니다.</div>`
     + `<div class="adm-note"><b>근무일 수 = 평일</b>(토·일·공휴일 제외, 공휴일은 대체공휴일 포함). 진행 중인 달은 <b>오늘까지 경과한 평일</b>만 셉니다.
        <b>1일 평균 = 총 건수 ÷ 평일 수</b> — 주말·당직에 처리한 건도 분자에는 들어갑니다(맨 오른쪽 열에 따로 표기).</div>`
     + `<div class="card"><div class="card-head"><h3>근무일 수 · 1일 평균</h3><span class="hint">막대 = 평일 수 · 선 = 1일 평균 처리 건수</span></div>${chart}</div>`
@@ -4196,6 +4232,7 @@ function renderAdmin(){
       ${cur.live?`<div class="controls">${adminControls()}</div>`:''}
     </div>
     ${tabs}${body}`;
+  document.querySelectorAll('#main .chart-wrap.wide').forEach(w=>{ w.scrollLeft=w.scrollWidth; });   // 긴 월별 차트는 최근 달부터 보이게
 }
 
 /* ================= 🎁 팀 목표 (월별 원격 처리 건수 리워드) ================= */
