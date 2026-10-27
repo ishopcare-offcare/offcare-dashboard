@@ -4230,10 +4230,17 @@ function admOnbAs(){
     + yoyChart('🚀 온보딩 1일 평균', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 건수 ÷ 평일 수')
     + yoyChart('🔧 A/S 1일 평균', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 건수 ÷ 평일 수')
     + `</div>`
-    + `<div class="card"><div class="card-head"><h3>월별 수치</h3></div>
-        ${monthTable(L, s, [{n:'평일 수', v:R.map(r=>r.biz), tot:R.reduce((a,r)=>a+r.biz,0)},
-                            {n:'온보딩 1일 평균', v:R.map(r=>admPerDay(r.by.onboarding,r))},
-                            {n:'A/S 1일 평균',   v:R.map(r=>admPerDay(r.by.as,r))}])}</div>`;
+    + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3></div>
+        ${monthTable(Ry.map(r=>r.m.replace('-','.')),
+                     [{n:'온보딩',c:'#0071e3',v:Ry.map(r=>r.by.onboarding||0)},{n:'A/S',c:'#34c759',v:Ry.map(r=>r.by.as||0)}],
+                     [{n:'평일 수', v:Ry.map(r=>r.biz), tot:Ry.reduce((a,r)=>a+r.biz,0)},
+                      {n:'온보딩 1일 평균', v:Ry.map(r=>admPerDay(r.by.onboarding,r))},
+                      {n:'A/S 1일 평균',   v:Ry.map(r=>admPerDay(r.by.as,r))}])}</div>`).join('');
+}
+// 월별 행을 연도별로 묶는다(오래된 해부터) — 월별 수치 표를 해마다 따로 그린다
+function admByYear(R){
+  const ys=[...new Set(R.map(r=>r.m.slice(0,4)))].sort();
+  return ys.map(y=>({y, rows:R.filter(r=>r.m.startsWith(y))}));
 }
 function admChannel(){
   const R=admMonthlyWithHist().filter(r=>r.online!=null); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;   // 2025 는 온·오프라인 구분이 없어 제외
@@ -4275,20 +4282,25 @@ function admTypeRows(R){
 }
 function admWorkday(){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
-  const L=R.map(r=>r.m.replace('-','.'));
+  const table=R=>{
   const perDay=R.map(r=>admPerDay(r.total,r));
   const perPer=R.map(r=>+(r.total/(r.biz||1)/(r.emps||1)).toFixed(1));
   const weekend=R.map(r=>r.total-r.bizCnt);   // 주말·공휴일에 처리한 건 (분자에는 포함, 분모에는 미포함)
-  const table=`<div style="overflow-x:auto"><table class="matrix">
+  const sumT=R.reduce((a,r)=>a+r.total,0), sumB=R.reduce((a,r)=>a+r.biz,0);
+  return `<div style="overflow-x:auto"><table class="matrix">
     <thead><tr><th>월</th><th class="num">근무일 수<br><span style="font-weight:600;color:var(--muted)">평일</span></th>
       <th class="num">총 건수</th><th class="num">1일 평균</th><th class="num">담당자</th><th class="num tot">1인 1일 평균</th>
       <th class="num">주말·공휴일<br><span style="font-weight:600;color:var(--muted)">처리분</span></th></tr></thead>
-    <tbody>${R.map((r,i)=>`<tr><td>${r.m.replace('-','.')}</td>
+    <tbody>${R.map((r,i)=>`<tr><td>${Number(r.m.slice(5,7))}월</td>
       <td class="num" style="font-weight:800">${r.biz}</td>
       <td class="num">${r.total.toLocaleString()}</td><td class="num" style="font-weight:800">${perDay[i]}</td>
       <td class="num" style="color:var(--gray2)">${r.hist?'—':r.emps}</td><td class="num tot">${r.hist?'—':perPer[i]}</td>
-      <td class="num" style="color:var(--gray2)">${r.hist?'—':weekend[i].toLocaleString()}</td></tr>`).join('')}</tbody>
+      <td class="num" style="color:var(--gray2)">${r.hist?'—':weekend[i].toLocaleString()}</td></tr>`).join('')}
+      <tr style="border-top:2px solid var(--line)"><td style="font-weight:800">합계</td><td class="num" style="font-weight:800">${sumB}</td>
+        <td class="num" style="font-weight:800">${sumT.toLocaleString()}</td><td class="num" style="font-weight:800">${(sumT/(sumB||1)).toFixed(1)}</td>
+        <td class="num" style="color:var(--gray2)"></td><td class="num tot"></td><td class="num" style="color:var(--gray2)"></td></tr></tbody>
   </table></div>`;
+  };
   // 막대 = 근무일 수(평일), 선 = 1일 평균 — 참고 이미지의 '근무일 수, 1일 평균' 형태
   // (예전 막대+선 두 축 차트는 연도별 비교 선 그래프로 바꿈 — 아래 yoyChart)
   return admHistNote(R)
@@ -4299,7 +4311,7 @@ function admWorkday(){
     + yoyChart('📦 월 총 처리 건수', R, r=>r.total, null, 'sum')
     + yoyChart('📆 1일 평균 처리', R, r=>admPerDay(r.total,r), v=>Number(v).toFixed(1), 'avg', '총 건수 ÷ 평일 수')
     + `</div>`
-    + `<div class="card"><div class="card-head"><h3>월별 수치</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수</span></div>${table}</div>`;
+    + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수 · 합계 줄의 1일 평균 = 연간 총 건수 ÷ 연간 평일 수</span></div>${table(Ry)}</div>`).join('');
 }
 
 function renderAdmin(){
