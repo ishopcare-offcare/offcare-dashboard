@@ -3,10 +3,71 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4213,
- "updatedAt": "2026-10-27 10:57",
+ "version": 4214,
+ "updatedAt": "2026-10-27 12:24",
  "days": 30,
  "items": [
+  {
+   "ts": "1793071428.925469",
+   "date": "2026-10-27",
+   "time": "12:23",
+   "store": "하프카페",
+   "biz": "6490304082",
+   "pos": "토스포스",
+   "content": "쿠팡이츠에 다 넣어주세요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1ZWn789akQ4uTAl5TX9joLCkApdLxe0nl/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ZWn789akQ4uTAl5TX9joLCkApdLxe0nl",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "DESSERT",
+       "name": "오레오 생크림 케이크",
+       "price": 5800
+      },
+      {
+       "category": "DESSERT",
+       "name": "뉴욕치즈케이크",
+       "price": 6300
+      },
+      {
+       "category": "DESSERT",
+       "name": "허니브레드",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "바닐라 아이스크림",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "코코아",
+       "price": 4300
+      },
+      {
+       "category": "",
+       "name": "딸기라떼",
+       "price": 4700
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793071428925469"
+  },
   {
    "ts": "1793065060.362549",
    "date": "2026-10-27",
