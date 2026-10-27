@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26126,
+  "version": 26127,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283965,7 +283965,8 @@ window.SLACK_DATA = {
           "박하림": 1
         },
         "booking": {
-          "박하림": 2
+          "박하림": 2,
+          "송태양": 1
         },
         "nosetup": {
           "고경림": 1,
@@ -283985,23 +283986,10 @@ window.SLACK_DATA = {
         "menu": {
           "송태양": 2,
           "김동욱": 2,
-          "심성현": 1
+          "심성현": 2
         }
       },
-      "pending": [
-        {
-          "time": "10:30",
-          "store": "에인킨드",
-          "biz": "1858701392",
-          "handler": "심성현",
-          "cat": "menu",
-          "intake": "online",
-          "req": "",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "11:30",
@@ -284027,6 +284015,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "오후12시 에 연락요청 예약완료",
           "rr": 1
+        },
+        {
+          "time": "11:15",
+          "store": "여의도반하다",
+          "biz": "3533500906",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "프론트2 교체 프로모션 원격교체 / 원격 거부시 방문 (수일 걸릴 수 있음 안내)",
+          "hw": "는 배송된 장비에 재포장 후 택배회수접수필요 / 반품접수시 프론트 세대교체 사유 선택해서 반품접수 필요",
+          "intake": "online",
+          "note": "1차부재 / 2차부재",
+          "rr": 2
         },
         {
           "time": "11:14",
@@ -284258,6 +284258,18 @@ window.SLACK_DATA = {
           "rr": 4
         },
         {
+          "time": "10:30",
+          "store": "에인킨드",
+          "biz": "1858701392",
+          "cat": "menu",
+          "emp": "심성현",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
+        {
           "time": "10:25",
           "store": "번크러쉬",
           "biz": "2011872873",
@@ -284383,7 +284395,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "11:34",
+      "updatedAt": "11:35",
       "voc": {
         "responses": 1,
         "install": {
@@ -284445,14 +284457,6 @@ window.SLACK_DATA = {
         "praises": []
       },
       "absent": [
-        {
-          "time": "11:15",
-          "store": "여의도반하다",
-          "biz": "3533500906",
-          "handler": "송태양",
-          "cat": "as",
-          "intake": "online"
-        },
         {
           "time": "09:00",
           "store": "하하&amp;전",
@@ -284552,28 +284556,18 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793068472.177,
+        "lastSeen": 1793068561.853,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
       },
-      "1793064607.092519": {
-        "post": "1793064607.092519",
-        "lastSeen": 1793068472.177,
-        "r": 1,
-        "day": "2026-10-27",
-        "idx": 8
-      },
-      "1793067300.532829": {
-        "post": "1793067300.532829",
-        "lastSeen": 1793068472.177,
-        "r": 1,
-        "day": "2026-10-27",
-        "idx": 23
-      },
       "1793068470.750089": {
         "post": "1793068470.750089",
-        "lastSeen": 1793068472.177
+        "lastSeen": 1793068561.853
+      },
+      "1793068543.791529": {
+        "post": "1793068543.791529",
+        "lastSeen": 1793068561.853
       }
     },
     "days": {
@@ -388140,7 +388134,8 @@ window.SLACK_DATA = {
             "store": "에인킨드",
             "biz": "1858701392",
             "who": "심성현",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 65.2
           },
           {
             "hm": "10:30",
@@ -388274,14 +388269,15 @@ window.SLACK_DATA = {
             "store": "여의도반하다",
             "biz": "3533500906",
             "who": "송태양",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 20.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-27 11:35",
+    "at": "2026-10-27 11:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -388423,7 +388419,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 11:34",
+    "at": "2026-10-27 11:36",
     "pri": {
       "days": 0,
       "failed": [],
