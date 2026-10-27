@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4216,
- "updatedAt": "2026-10-27 13:32",
+ "version": 4217,
+ "updatedAt": "2026-10-27 13:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1793077109.915899",
+   "date": "2026-10-27",
+   "time": "13:58",
+   "store": "고기주는밀면",
+   "biz": "6732101781",
+   "pos": "스파로스포스",
+   "content": "특선메뉴 카테고리\n김치찌개(공기밥포함)\n9500원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793077109915899"
+  },
   {
    "ts": "1793073944.092939",
    "date": "2026-10-27",
