@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4206,
- "updatedAt": "2026-10-27 10:35",
+ "version": 4207,
+ "updatedAt": "2026-10-27 10:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1793065010.104599",
+   "date": "2026-10-27",
+   "time": "10:36",
+   "store": "에인킨드 겨을 신상품",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 에인킨드_겨을 신상품 메뉴 등록 요청\n담당자님.\n 안녕하세요. 에인킨드입니다.\n \n 겨울 신상품이 추가되어 토스 메뉴 등록 요청드립니다.\n 링크로 일단 신청 완료하였고 메일로도 첨부파일 전달드림을 참고 부탁드립니다.\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a17afda4461ff6e>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a17afda4461ff6e",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793065010104599"
+  },
   {
    "ts": "1793064924.448619",
    "date": "2026-10-27",
@@ -18,11 +44,40 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "81470524338__6DDC0995-75D9-4080-80E4-B73",
+     "fid": "F0CC6ERAJ3V",
+     "from": "댓글",
+     "path": "menu-files/1793064924_448619-0.heic",
+     "nj": 1
+    },
+    {
+     "name": "81470525185__C015C4E4-538A-4538-9B34-67F",
+     "fid": "F0CCCG25NAE",
+     "from": "댓글",
+     "path": "menu-files/1793064924_448619-1.heic",
+     "nj": 1
+    },
+    {
+     "name": "81470526001__374ABAC8-3EF9-4E56-AC85-36A",
+     "fid": "F0CD7331UF2",
+     "from": "댓글",
+     "path": "menu-files/1793064924_448619-2.heic",
+     "nj": 1
+    },
+    {
+     "name": "81470527286__66885231-DBAF-41D1-8527-708",
+     "fid": "F0CBXADHFHV",
+     "from": "댓글",
+     "path": "menu-files/1793064924_448619-3.heic",
+     "nj": 1
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793064927.828539",
+   "rc": 2,
+   "lr": "1793065002.353029",
    "rfx": 3,
    "status": "wait",
    "handler": null,
