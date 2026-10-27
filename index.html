@@ -1221,6 +1221,20 @@
     white-space:pre-wrap; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;
     overflow:hidden; transition:.15s}
   .memo-chip:hover{background:#fff5cf; border-color:#e5cf88}
+  .cx-chip{margin-top:3px; width:100%; text-align:left; font:inherit; font-size:11.5px; font-weight:700; line-height:1.4;
+    color:#0a2eb8; background:#eef3ff; border:1px solid #cddcff; border-radius:9px; padding:4px 7px; cursor:pointer;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; transition:.15s}
+  .cx-chip:hover{background:#dae5ff; border-color:#a9c1ff}
+  .cx-chip b{font-weight:800}
+  :root[data-theme="dark"] .cx-chip{background:rgba(31,79,250,.16); border-color:rgba(126,162,255,.35); color:#a9c1ff}
+  .cx-list{display:flex; flex-direction:column; gap:6px; margin:4px 0 14px}
+  .cx-row{display:flex; align-items:center; gap:8px; padding:8px 11px; border:1px solid var(--line-soft); border-radius:11px; font-size:14px}
+  .cx-row.duty{background:#eef3ff; border-color:#cddcff}
+  :root[data-theme="dark"] .cx-row.duty{background:rgba(31,79,250,.16); border-color:rgba(126,162,255,.35)}
+  .cx-row .cx-name{font-weight:700}
+  .cx-row .cx-code{margin-left:auto; font-size:12.5px; color:var(--gray2)}
+  .cx-row .cx-tag{font-size:11px; font-weight:800; padding:1px 7px; border-radius:20px; background:#1f4ffa; color:#fff}
+  .cx-row .cx-note{font-size:11px; font-weight:600; padding:1px 7px; border-radius:20px; background:var(--surface); color:var(--gray2)}
   :root[data-theme="dark"] .memo-chip{background:rgba(255,159,10,.13); border-color:rgba(255,159,10,.32); color:#f0c88a}
   :root[data-theme="dark"] .memo-btn.on{background:rgba(255,159,10,.20); color:#ffca7a}
   .memo-ta{width:100%; font-family:inherit; font-size:14px; line-height:1.6; padding:11px 13px;
@@ -1595,6 +1609,19 @@
       <button class="btn" onclick="closeDutyMemo()">취소</button>
       <button class="btn" id="dmDelete" onclick="deleteDutyMemo()">삭제</button>
       <button class="btn primary" onclick="saveDutyMemo()">저장</button>
+    </div>
+  </div>
+</div>
+
+<!-- CX팀 당직 modal (당직근무 달력) -->
+<div class="overlay" id="cxDutyOverlay" onclick="if(event.target===this) closeCxDuty()">
+  <div class="modal form-modal">
+    <h4 style="margin-bottom:6px">🎧 CX팀 근무자</h4>
+    <div class="date-line" id="cxDate" style="text-align:center; margin-bottom:14px"></div>
+    <div class="cx-list" id="cxList"></div>
+    <div class="acts">
+      <a class="btn" id="cxSheetLink" target="_blank" rel="noopener" style="text-decoration:none">CX 스케줄 시트 열기</a>
+      <button class="btn primary" onclick="closeCxDuty()">닫기</button>
     </div>
   </div>
 </div>
@@ -7279,6 +7306,7 @@ function renderDuty(){
       ${slot("nit","야간",ds,rec.nit)}
       ${slot("inst","행사",ds,rec.inst)}
       ${memo?`<div class="memo-chip" title="클릭 → 메모 수정" onclick="openDutyMemo('${ds}')">${escapeHtml(memo)}</div>`:''}
+      ${cxChip(ds)}
     </div>`;
   }).join("");
 
@@ -7343,6 +7371,27 @@ function saveDuty(ds,type,text){
 }
 function dutyNav(n){ dutyMonth=new Date(dutyMonth.getFullYear(), dutyMonth.getMonth()+n, 1); renderDuty(); }
 function dutyToday(){ dutyMonth=new Date(today().getFullYear(), today().getMonth(), 1); renderDuty(); }
+
+/* ===== CX팀 당직 (CX 스케줄 공유 시트 → scripts/fetch-cx-duty.js → cx-duty-data.js) =====
+ * 주말·공휴일에 근무코드가 있는 CX팀원 목록. 시트에 '당직' 표시된 사람은 duty:true 로 맨 앞. 읽기 전용. */
+function cxDutyOf(ds){ const D=window.CX_DUTY_DATA; return (D && D.days && D.days[ds]) || []; }
+function cxChip(ds){
+  const list=cxDutyOf(ds); if(!list.length) return '';
+  const lead=list.filter(x=>x.duty).map(x=>x.name);
+  const label = lead.length ? `당직 <b>${escapeHtml(lead.join('·'))}</b>` : `근무 ${list.length}명`;
+  return `<button class="cx-chip" title="클릭 → 이 날 CX팀 근무자 보기" onclick="openCxDuty('${ds}')">CX팀 · ${label}</button>`;
+}
+function openCxDuty(ds){
+  const list=cxDutyOf(ds), D=window.CX_DUTY_DATA||{};
+  document.getElementById("cxDate").textContent = dutyMemoLabel(ds) + (D.updatedAt?` · 시트 ${D.updatedAt} 기준`:'');
+  document.getElementById("cxList").innerHTML = list.length ? list.map(x=>`<div class="cx-row${x.duty?' duty':''}">
+      ${x.duty?'<span class="cx-tag">당직</span>':''}<span class="cx-name">${escapeHtml(x.name)}</span>
+      ${x.note?`<span class="cx-note">${escapeHtml(x.note)}</span>`:''}<span class="cx-code">${escapeHtml(x.code)}</span></div>`).join('')
+    : '<div class="cx-row">이 날 CX팀 근무 정보가 없습니다.</div>';
+  const a=document.getElementById("cxSheetLink"); if(D.url) a.href=D.url; a.style.display=D.url?'':'none';
+  document.getElementById("cxDutyOverlay").classList.add("show");
+}
+function closeCxDuty(){ document.getElementById("cxDutyOverlay").classList.remove("show"); }
 
 /* ===== 날짜 메모 (당직근무 달력) ===== */
 let dutyMemoDate = "";
@@ -7841,7 +7890,9 @@ function loadData(file, cb){
 // 최초 로드(둘 다) → 부팅. 데이터 실패해도 앱은 뜸.
 loadData("slack-data.js", function(){ loadData("calendar-data.js", function(){ loadData("duty-data.js", function(){ boot();
   // 소요시간 git 복원분 — 한 번 만든 뒤 안 바뀌는 과거 데이터라 부팅을 막지 않고 뒤에 받는다
-  loadData("done-backfill.js", function(ok){ if(ok && activeCat==="overview") renderWhenIdle(renderMain); }); }); }); });
+  loadData("done-backfill.js", function(ok){ if(ok && activeCat==="overview") renderWhenIdle(renderMain); });
+  // CX팀 당직 — 당직근무 달력의 'CX팀' 버튼에만 쓰여 부팅을 막지 않는다
+  loadData("cx-duty-data.js", function(ok){ if(ok && activeCat==="duty") renderDuty(); }); }); }); });
 // 선택 날짜의 구글 캘린더 일정 배열 (없으면 [])
 function gcalDay(date){ return (window.GCAL_DATA&&window.GCAL_DATA.days&&window.GCAL_DATA.days[date])||[]; }
 function reloadSlackData(cb){ loadData("slack-data.js", cb); }
