@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4209,
- "updatedAt": "2026-10-27 10:40",
+ "version": 4210,
+ "updatedAt": "2026-10-27 10:42",
  "days": 30,
  "items": [
   {
@@ -23,16 +23,15 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CCAP1SLJJ",
      "from": "댓글",
-     "path": "menu-files/1793065060_362549-0.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793065060_362549-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CCCGJQU0J",
      "from": "댓글",
-     "path": "menu-files/1793065060_362549-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -181,13 +180,13 @@ window.MENU_REQUESTS = {
        "price": 9000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793065060_362549-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CC7DD621K",
      "from": "댓글",
-     "path": "menu-files/1793065060_362549-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -226,13 +225,13 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793065060_362549-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CCEK2LR5F",
      "from": "댓글",
-     "path": "menu-files/1793065060_362549-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -291,13 +290,13 @@ window.MENU_REQUESTS = {
        "price": 20000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793065060_362549-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CD73PKR7A",
      "from": "댓글",
-     "path": "menu-files/1793065060_362549-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -406,13 +405,139 @@ window.MENU_REQUESTS = {
        "price": 23000
       }
      ],
+     "v": 2,
+     "path": "menu-files/1793065060_362549-4.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CCEK5P0GH",
+     "from": "댓글",
+     "path": "menu-files/1793065060_362549-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "2인세트",
+       "name": "2인세트+짜장면2",
+       "price": 27000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+짜장면(곱)2",
+       "price": 29000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+짬뽕2",
+       "price": 30000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+짬뽕(곱)2",
+       "price": 32000
+      },
+      {
+       "category": "2인세트",
+       "name": "탕수육+짜장+짬뽕",
+       "price": 29000
+      },
+      {
+       "category": "2인세트",
+       "name": "탕수육+짜장곱빼기+짬뽕곱빼기",
+       "price": 31000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+해물짬뽕밥2",
+       "price": 32000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+해물짬뽕밥(곱)2",
+       "price": 34000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+차돌짬뽕2",
+       "price": 32000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+차돌짬뽕(곱)2",
+       "price": 36000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+차돌짬뽕밥2",
+       "price": 34000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+차돌짬뽕밥(곱)2",
+       "price": 36000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+볶음밥2",
+       "price": 29000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+볶음밥(곱)2",
+       "price": 31000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+잡채밥2",
+       "price": 29000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+잡채밥(곱)2",
+       "price": 31000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+우동2",
+       "price": 29000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+우동(곱)2",
+       "price": 31000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+짬뽕밥2",
+       "price": 30000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+짬뽕밥(곱)2",
+       "price": 32000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+해물짬뽕2",
+       "price": 32000
+      },
+      {
+       "category": "2인세트",
+       "name": "2인세트+해물짬뽕(곱)2",
+       "price": 34000
+      },
+      {
+       "category": "2인세트",
+       "name": "공기밥",
+       "price": 1000
+      }
+     ],
      "v": 2
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 6,
-   "lr": "1793065209.135759",
+   "rc": 7,
+   "lr": "1793065229.970859",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -490,8 +615,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793065002.353029",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064924448619"
   },
   {
@@ -540,7 +665,7 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793064832.199989",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064788447699"
   },
