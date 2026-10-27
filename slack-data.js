@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26068,
+  "version": 26069,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -284183,25 +284183,28 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793062815.988,
+        "lastSeen": 1793062885.191,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
       },
       "1793061004.082769": {
         "post": "1793061004.082769",
-        "lastSeen": 1793062815.988
+        "lastSeen": 1793062885.191
       },
       "1793061002.609679": {
         "post": "1793061002.609679",
-        "lastSeen": 1793062815.988,
+        "lastSeen": 1793062885.191,
         "r": 1,
         "day": "2026-10-27",
         "idx": 3
       },
       "1793062808.766039": {
         "post": "1793062808.766039",
-        "lastSeen": 1793062815.988
+        "lastSeen": 1793062885.191,
+        "r": 1,
+        "day": "2026-10-27",
+        "idx": 4
       }
     },
     "days": {
@@ -387687,8 +387690,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-27": {
-        "cnt": 4,
-        "sumMin": 39.45898223320643,
+        "cnt": 5,
+        "sumMin": 40.15603991746902,
         "over": 0,
         "items": [
           {
@@ -387724,19 +387727,27 @@ window.SLACK_DATA = {
             "biz": "3031694413",
             "who": "송태양",
             "cat": "transfer"
+          },
+          {
+            "hm": "10:00",
+            "min": 0.7,
+            "store": "타로쌀롱",
+            "biz": "1195201092",
+            "who": "김동욱",
+            "cat": "nosetup"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-27 10:00",
+    "at": "2026-10-27 10:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4783,
+    "rows": 4784,
     "named": 1260,
     "unknownName": 214,
     "beforeStart": 0,
@@ -387872,7 +387883,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 10:00",
+    "at": "2026-10-27 10:01",
     "pri": {
       "days": 0,
       "failed": [],
