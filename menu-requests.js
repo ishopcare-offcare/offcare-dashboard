@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4204,
- "updatedAt": "2026-10-27 10:30",
+ "version": 4205,
+ "updatedAt": "2026-10-27 10:34",
  "days": 30,
  "items": [
+  {
+   "ts": "1793064788.447699",
+   "date": "2026-10-27",
+   "time": "10:33",
+   "store": "물오름",
+   "biz": "8582601320",
+   "pos": "퍼스트포스",
+   "content": "메뉴등록요청드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "상품정보_물오름_261027.xlsx",
+     "fid": "F0CC7CFFBEH",
+     "from": "댓글",
+     "path": "menu-files/1793064788_447699-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793064832.199989",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064788447699"
+  },
   {
    "ts": "1793064607.092519",
    "date": "2026-10-27",
@@ -24,8 +53,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793064607092519"
   },
   {
