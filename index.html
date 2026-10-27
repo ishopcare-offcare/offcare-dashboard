@@ -760,6 +760,25 @@
   .voc-hd-filter .btn{padding:6px 9px; font-size:12.5px}
   .card-head .hint{font-size:12.5px; color:var(--gray2)}
   .grid2{display:grid; grid-template-columns:1.15fr .85fr; gap:24px; align-items:start}
+  /* 연도별 비교 선 그래프(관리 탭) — 가로축 1~12월, 해마다 선 하나. 색은 검증한 파랑(2025)·빨강(2026) */
+  .yoy-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-bottom:18px}
+  .yoy-grid > .card{margin:0}
+  .yoy-sum{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; margin:-2px 0 10px; font-size:13.5px; color:var(--ink-soft)}
+  .yoy-sum b{font-size:20px; font-weight:800; letter-spacing:-.02em; color:var(--ink)}
+  .yoy-sum .up{color:var(--green); font-weight:800} .yoy-sum .down{color:var(--red); font-weight:800}
+  .yoy-svg{display:block; width:100%; height:auto; overflow:visible}
+  .yoy-svg .yoy-hit{fill:transparent; cursor:crosshair}
+  .yoy-key{display:inline-block; width:18px; height:0; border-top:2.5px solid; vertical-align:middle; margin-right:6px}
+  .yoy-key.dash{border-top-style:dashed}
+  #yoyTip{position:fixed; z-index:9999; pointer-events:none; background:var(--canvas); border:1px solid var(--line); border-radius:10px;
+    box-shadow:0 6px 20px rgba(0,0,0,.14); padding:8px 11px; font-size:12.5px; color:var(--ink-soft); min-width:150px; display:none}
+  #yoyTip .t{font-weight:700; color:var(--ink); margin-bottom:4px}
+  #yoyTip .r{display:flex; align-items:center; gap:6px; margin-top:2px}
+  #yoyTip .r b{margin-left:auto; color:var(--ink); font-size:13.5px}
+  #yoyTip .d{margin-top:5px; padding-top:5px; border-top:1px solid var(--line-soft); font-weight:700}
+  .yoy-wrap{overflow-x:auto}
+  @media (max-width:900px){ .yoy-grid{grid-template-columns:1fr} }
+  @media (max-width:640px){ .yoy-svg{min-width:500px} }   /* 폰에선 줄이지 않고 옆으로 밀어 본다(축 글씨가 읽히게) */
   .grid2.even{grid-template-columns:1fr 1fr; align-items:stretch}
   .grid2.even>.card{display:flex; flex-direction:column; min-height:300px}
   .grid2.even .chart-wrap{flex:1; display:flex; align-items:center}
@@ -4116,14 +4135,101 @@ function monthTable(labels, series, rows){
       <td class="num" style="color:var(--gray2)">${r.tot!==undefined?r.tot:'—'}</td></tr>`).join('')}
     </tbody></table></div>`;
 }
+/* ── 연도별 비교 선 그래프 ──────────────────────────────
+ * R(월별 행)에서 get(r) 값을 뽑아 해마다 1~12월 선으로 그린다. 같은 달끼리 위아래로 바로 비교된다.
+ * 진행 중인 이번 달은 점선 + 빈 점(아직 덜 쌓인 값). 마우스를 올리면 그 달 두 해 값과 증감률.
+ * 차트 위 요약 = 올해 데이터가 있는 달까지 누적(또는 평균) vs 작년 같은 달들. */
+const YOY_COLORS={'2025':'var(--blue)','2026':'var(--red)','2027':'var(--purple)'};   // 2025 파랑 · 2026 빨강(라이트·다크 모두 색약·대비 검증)
+const YOY={};   // 차트 id → {years, vals, fmt, title} (툴팁용)
+let yoySeq=0;
+function yoyData(R, get){
+  const years=[...new Set(R.map(r=>r.m.slice(0,4)))].sort();
+  const cur=ymd(today()).slice(0,7), vals={}, partial={};
+  years.forEach(y=>{ vals[y]=Array(12).fill(null); });
+  R.forEach(r=>{ const y=r.m.slice(0,4), i=Number(r.m.slice(5,7))-1, v=get(r); if(v!=null&&!isNaN(v)) vals[y][i]=Number(v); if(r.m===cur) partial[y]=i; });
+  return {years, vals, partial};
+}
+function yoyNice(mx){ if(mx<=0) return {top:1, step:1}; const raw=mx/4, p=Math.pow(10,Math.floor(Math.log10(raw))), m=raw/p, st=(m<=1?1:m<=2?2:m<=2.5?2.5:m<=5?5:10)*p; return {top:Math.ceil(mx/st)*st, step:st}; }
+// mode: 'sum'(월 건수 — 누적 비교) | 'avg'(1일 평균 — 평균 비교)
+function yoyChart(title, R, get, fmt, mode, hint){
+  fmt=fmt||(v=>Math.round(v).toLocaleString());
+  const id='yoy'+(++yoySeq), {years, vals, partial}=yoyData(R, get);
+  YOY[id]={years, vals, fmt, partial};
+  const W=560, H=250, padL=46, padR=46, topPad=14, botPad=30, plotW=W-padL-padR, plotH=H-topPad-botPad, base=H-botPad;
+  const mx=Math.max(0,...years.flatMap(y=>vals[y].filter(v=>v!=null))), {top, step}=yoyNice(mx*1.08);
+  const X=i=>padL+plotW*i/11, Y=v=>base-plotH*v/top;
+  let grid='';
+  for(let v=0; v<=top+1e-9; v+=step){ const y=Y(v).toFixed(1);
+    grid+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" style="stroke:var(--line-soft)"/><text x="${padL-8}" y="${(+y+4).toFixed(1)}" text-anchor="end" font-size="11" style="fill:var(--gray2)">${fmt(v)}</text>`; }
+  const xl=[...Array(12)].map((_,i)=>`<text x="${X(i).toFixed(1)}" y="${base+19}" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:var(--ink-soft)">${i+1}월</text>`).join('');
+  const lines=years.map(y=>{
+    const c=YOY_COLORS[y]||'var(--gray)', v=vals[y], pi=partial[y];
+    const seg=(a,b,dash)=>`<line x1="${X(a).toFixed(1)}" y1="${Y(v[a]).toFixed(1)}" x2="${X(b).toFixed(1)}" y2="${Y(v[b]).toFixed(1)}" stroke="${c}" stroke-width="2.5" stroke-linecap="round"${dash?' stroke-dasharray="5 4"':''}/>`;
+    let out=''; for(let i=0;i<11;i++) if(v[i]!=null&&v[i+1]!=null) out+=seg(i,i+1, pi===i+1);
+    let last=-1; v.forEach((x,i)=>{ if(x!=null) last=i; });
+    out+=v.map((x,i)=>x==null?'':(i===pi
+      ? `<circle cx="${X(i).toFixed(1)}" cy="${Y(x).toFixed(1)}" r="4.5" style="fill:var(--canvas)" stroke="${c}" stroke-width="2.5"/>`
+      : `<circle cx="${X(i).toFixed(1)}" cy="${Y(x).toFixed(1)}" r="4" fill="${c}" style="stroke:var(--canvas)" stroke-width="2"/>`)).join('');
+    // 직접 라벨 — 선 끝에 연도와 마지막 값(글씨는 잉크색, 색은 선이 맡는다)
+    // 12월이면 오른쪽 끝에, 아니면(올해) 점 위·아래 중 다른 해 선에서 먼 쪽에 둔다 — 같은 달 다른 해 점과 겹치지 않게
+    if(last>=0){ const o=years.find(z=>z!==y&&vals[z][last]!=null), ov=o!=null?vals[o][last]:null, above=ov==null||v[last]>=ov;
+      out+= last===11
+        ? `<text x="${(X(last)+8).toFixed(1)}" y="${(Y(v[last])+4).toFixed(1)}" font-size="11.5" font-weight="800" style="fill:var(--ink)">${y}</text>`
+        : `<text x="${X(last).toFixed(1)}" y="${(Y(v[last])+(above?-11:20)).toFixed(1)}" text-anchor="middle" font-size="11.5" font-weight="800" style="fill:var(--ink)">${y}</text>`; }
+    return out;
+  }).join('');
+  const hits=[...Array(12)].map((_,i)=>`<rect class="yoy-hit" x="${(X(i)-plotW/22).toFixed(1)}" y="${topPad}" width="${(plotW/11).toFixed(1)}" height="${plotH}" onmousemove="yoyTip(event,'${id}',${i})" onmouseleave="yoyTipHide('${id}')"/>`).join('');
+  // 요약: 올해가 데이터 있는 달까지, 작년 같은 달들과 비교
+  const [ya, yb]=years.slice(-2); let sum='';
+  if(ya&&yb){
+    const idx=vals[yb].map((v,i)=>v!=null&&partial[yb]!==i&&vals[ya][i]!=null?i:-1).filter(i=>i>=0);   // 진행 중인 달은 빼고 끝난 달끼리
+    if(idx.length){
+      const agg=y=>{ const xs=idx.map(i=>vals[y][i]); const t=xs.reduce((a,b)=>a+b,0); return mode==='avg'?t/xs.length:t; };
+      const a=agg(ya), b=agg(yb), pct=a?Math.round((b-a)/a*100):0;
+      const rng=idx.length===1?(idx[0]+1)+'월':(idx[0]+1)+'~'+(idx[idx.length-1]+1)+'월';
+      sum=`<div class="yoy-sum"><span><span class="yoy-key" style="border-color:${YOY_COLORS[yb]}"></span>${yb} ${rng} ${mode==='avg'?'평균':'누적'} <b>${fmt(b)}</b></span>
+        <span><span class="yoy-key" style="border-color:${YOY_COLORS[ya]}"></span>${ya} 같은 기간 <b>${fmt(a)}</b></span>
+        <span class="${pct>=0?'up':'down'}">${pct>=0?'▲':'▼'} ${Math.abs(pct)}%</span></div>`;
+    }
+  }
+  const legend=`<div class="legend">${years.map(y=>`<span><span class="yoy-key" style="border-color:${YOY_COLORS[y]||'var(--gray)'}"></span>${y}년</span>`).join('')}${Object.keys(partial).length?'<span><span class="yoy-key dash" style="border-color:var(--gray)"></span>진행 중인 달</span>':''}</div>`;
+  return `<div class="card"><div class="card-head"><h3>${title}</h3>${hint?`<span class="hint">${hint}</span>`:''}</div>${sum}
+    <div class="yoy-wrap"><svg class="yoy-svg" id="${id}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escapeHtml(title)} 연도별 비교">${grid}<line x1="${padL}" y1="${base}" x2="${W-padR}" y2="${base}" style="stroke:var(--line)"/>${xl}
+      <line class="yoy-cross" x1="0" y1="${topPad}" x2="0" y2="${base}" style="stroke:var(--gray2); display:none" stroke-dasharray="3 3"/>${lines}${hits}</svg></div>${legend}</div>`;
+}
+function yoyTip(ev, id, i){
+  const d=YOY[id]; if(!d) return;
+  let t=document.getElementById('yoyTip'); if(!t){ t=document.createElement('div'); t.id='yoyTip'; document.body.appendChild(t); }
+  t.textContent='';
+  const head=document.createElement('div'); head.className='t'; head.textContent=(i+1)+'월'; t.appendChild(head);
+  d.years.slice().reverse().forEach(y=>{ const v=d.vals[y][i]; if(v==null) return;
+    const r=document.createElement('div'); r.className='r';
+    const k=document.createElement('span'); k.className='yoy-key'+(d.partial[y]===i?' dash':''); k.style.borderColor=YOY_COLORS[y]||'var(--gray)';
+    const n=document.createElement('span'); n.textContent=y+(d.partial[y]===i?' (진행 중)':'');
+    const b=document.createElement('b'); b.textContent=d.fmt(v);
+    r.append(k,n,b); t.appendChild(r); });
+  const [ya,yb]=d.years.slice(-2), a=ya&&d.vals[ya][i], b=yb&&d.vals[yb][i];
+  if(a!=null&&b!=null&&a){ const p=Math.round((b-a)/a*100), dv=document.createElement('div'); dv.className='d';
+    dv.textContent=`${yb} vs ${ya}: ${p>=0?'▲':'▼'} ${Math.abs(p)}%`; dv.style.color=p>=0?'var(--green)':'var(--red)'; t.appendChild(dv); }
+  t.style.display='block';
+  const x=Math.min(ev.clientX+14, window.innerWidth-t.offsetWidth-8), y=Math.max(8, ev.clientY-t.offsetHeight-12);
+  t.style.left=x+'px'; t.style.top=y+'px';
+  const svg=document.getElementById(id), cr=svg&&svg.querySelector('.yoy-cross');
+  if(cr){ const hit=ev.target, cx=(+hit.getAttribute('x'))+(+hit.getAttribute('width'))/2; cr.setAttribute('x1',cx); cr.setAttribute('x2',cx); cr.style.display=''; }
+}
+function yoyTipHide(id){ const t=document.getElementById('yoyTip'); if(t) t.style.display='none'; const cr=document.querySelector('#'+id+' .yoy-cross'); if(cr) cr.style.display='none'; }
 function admOnbAs(){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const L=R.map(r=>r.m.replace('-','.'));
   const s=[{n:'온보딩',c:'#0071e3',v:R.map(r=>r.by.onboarding||0)},{n:'A/S',c:'#34c759',v:R.map(r=>r.by.as||0)}];
+  const f1=v=>Number(v).toFixed(1);
   return admHistNote(R)
-    + `<div class="card"><div class="card-head"><h3>온보딩 · A/S 월 건수</h3><span class="hint">막대 위 숫자 = 월 총 건수</span></div>${monthBarChart(L,s)}</div>`
-    + `<div class="card"><div class="card-head"><h3>1일 평균 비교</h3><span class="hint">월 건수 ÷ 평일 수(토·일·공휴일 제외) — 진행 중인 달도 공정하게 비교됩니다</span></div>
-        ${monthBarChart(L,[{n:'온보딩',c:'#0071e3',v:R.map(r=>admPerDay(r.by.onboarding,r))},{n:'A/S',c:'#34c759',v:R.map(r=>admPerDay(r.by.as,r))}], v=>Number(v).toFixed(1))}</div>`
+    + `<div class="yoy-grid">`
+    + yoyChart('🚀 온보딩 월 건수', R, r=>r.by.onboarding, null, 'sum')
+    + yoyChart('🔧 A/S 월 건수', R, r=>r.by.as, null, 'sum')
+    + yoyChart('🚀 온보딩 1일 평균', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 건수 ÷ 평일 수')
+    + yoyChart('🔧 A/S 1일 평균', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 건수 ÷ 평일 수')
+    + `</div>`
     + `<div class="card"><div class="card-head"><h3>월별 수치</h3></div>
         ${monthTable(L, s, [{n:'평일 수', v:R.map(r=>r.biz), tot:R.reduce((a,r)=>a+r.biz,0)},
                             {n:'온보딩 1일 평균', v:R.map(r=>admPerDay(r.by.onboarding,r))},
@@ -4184,33 +4290,15 @@ function admWorkday(){
       <td class="num" style="color:var(--gray2)">${r.hist?'—':weekend[i].toLocaleString()}</td></tr>`).join('')}</tbody>
   </table></div>`;
   // 막대 = 근무일 수(평일), 선 = 1일 평균 — 참고 이미지의 '근무일 수, 1일 평균' 형태
-  const chart=(function(){
-    const colW=64, gap=54, padL=40, padR=26, topPad=30, botPad=38;
-    const W=Math.max(420, padL+padR+R.length*colW+(R.length-1)*gap), H=260, base=H-botPad, plotH=H-topPad-botPad;
-    const mxD=Math.max(1,...R.map(r=>r.biz)), mxP=Math.max(1,...perDay);
-    const cx=i=>padL+i*(colW+gap)+colW/2;
-    const bars=R.map((r,i)=>{
-      const x=padL+i*(colW+gap), h=r.biz/mxD*plotH*0.6, y=base-h;
-      // 막대가 짧으면 안쪽 흰 글씨가 축 밖으로 삐져나간다 — 그럴 땐 막대 위에 파란 글씨로
-      const inside=h>=26;
-      return `<rect x="${x}" y="${y.toFixed(1)}" width="${colW}" height="${h.toFixed(1)}" rx="3" fill="#0071e3"><title>${r.m} 근무일(평일) ${r.biz}일</title></rect>
-        <text x="${x+colW/2}" y="${(inside?y+18:y-7).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="800" fill="${inside?'#fff':'#0071e3'}">${r.biz}</text>
-        <text x="${x+colW/2}" y="${base+20}" text-anchor="middle" font-size="12.5" font-weight="700" style="fill:var(--ink)">${r.m.replace('-','.')}</text>`;
-    }).join('');
-    const Y=v=>base-v/mxP*plotH;
-    const pts=perDay.map((v,i)=>`${cx(i)},${Y(v).toFixed(1)}`).join(' ');
-    const dots=perDay.map((v,i)=>`<circle cx="${cx(i)}" cy="${Y(v).toFixed(1)}" r="4" fill="#ff3b30"><title>${R[i].m} 1일 평균 ${v}건</title></circle>
-      <text x="${cx(i)}" y="${(Y(v)-10).toFixed(1)}" text-anchor="middle" font-size="12" font-weight="800" fill="#ff3b30">${v}</text>`).join('');
-    return `<div class="chart-wrap${R.length>12?' wide':''}"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}"${R.length>12?' style="max-width:none"':''}>
-        <line x1="${padL-10}" y1="${base}" x2="${W-padR}" y2="${base}" style="stroke:var(--line)"/>${bars}
-        ${R.length>1?`<polyline points="${pts}" fill="none" stroke="#ff3b30" stroke-width="2.5"/>`:''}${dots}</svg></div>
-      <div class="legend"><span><span class="swatch" style="background:#0071e3"></span>근무일 수(평일)</span><span><span class="swatch" style="background:#ff3b30"></span>1일 평균 처리</span></div>`;
-  })();
+  // (예전 막대+선 두 축 차트는 연도별 비교 선 그래프로 바꿈 — 아래 yoyChart)
   return admHistNote(R)
     + `<div class="adm-note">ℹ️ <b>2025.01~2026.06</b> 은 시트·월간 리포트 수치라 <b>담당자 수·1인 1일 평균·주말 처리분</b>은 알 수 없어 <b>—</b> 로 둡니다.</div>`
     + `<div class="adm-note"><b>근무일 수 = 평일</b>(토·일·공휴일 제외, 공휴일은 대체공휴일 포함). 진행 중인 달은 <b>오늘까지 경과한 평일</b>만 셉니다.
        <b>1일 평균 = 총 건수 ÷ 평일 수</b> — 주말·당직에 처리한 건도 분자에는 들어갑니다(맨 오른쪽 열에 따로 표기).</div>`
-    + `<div class="card"><div class="card-head"><h3>근무일 수 · 1일 평균</h3><span class="hint">막대 = 평일 수 · 선 = 1일 평균 처리 건수</span></div>${chart}</div>`
+    + `<div class="yoy-grid">`
+    + yoyChart('📦 월 총 처리 건수', R, r=>r.total, null, 'sum')
+    + yoyChart('📆 1일 평균 처리', R, r=>admPerDay(r.total,r), v=>Number(v).toFixed(1), 'avg', '총 건수 ÷ 평일 수')
+    + `</div>`
     + `<div class="card"><div class="card-head"><h3>월별 수치</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수</span></div>${table}</div>`;
 }
 
