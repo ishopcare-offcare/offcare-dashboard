@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26046,
+  "version": 26047,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -284116,11 +284116,14 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793059224.468
+        "lastSeen": 1793059285.452
       },
       "1793059211.682429": {
         "post": "1793059211.682429",
-        "lastSeen": 1793059224.468
+        "lastSeen": 1793059285.452,
+        "r": 1,
+        "day": "2026-10-27",
+        "idx": 0
       }
     },
     "days": {
@@ -387604,11 +387607,26 @@ window.SLACK_DATA = {
             "dmin": 1.9
           }
         ]
+      },
+      "2026-10-27": {
+        "cnt": 1,
+        "sumMin": 0.7212928493817647,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 0.7,
+            "store": "단대 오거리 장어",
+            "biz": "8545001279",
+            "who": "심성현",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-27 09:00",
+    "at": "2026-10-27 09:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -387750,7 +387768,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 09:00",
+    "at": "2026-10-27 09:01",
     "pri": {
       "days": 0,
       "failed": [],
