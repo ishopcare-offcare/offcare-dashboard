@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26063,
+  "version": 26064,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283958,12 +283958,27 @@ window.SLACK_DATA = {
     },
     "2026-10-27": {
       "counts": {
+        "onboarding": {
+          "고경림": 1
+        },
         "as": {
           "심성현": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "갈매IT컴퓨터아트학원",
+          "biz": "3459301622",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "프론트2 교체 프로모션 원격교체 / 원격 거부시 방문 (수일 걸릴 수 있음 안내)",
+          "hw": "는 배송된 장비에 재포장 후 택배회수접수필요 / 반품접수시 프론트 세대교체 사유 선택해서 반품접수 필요",
+          "intake": "online",
+          "note": "10분뒤 연락요청",
+          "rr": 1
+        },
         {
           "time": "09:00",
           "store": "단대 오거리 장어",
@@ -283978,7 +283993,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -284143,22 +284158,22 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793062331.078,
+        "lastSeen": 1793062518.428,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
       },
       "1793061004.082769": {
         "post": "1793061004.082769",
-        "lastSeen": 1793062331.078
+        "lastSeen": 1793062518.428
       },
       "1793061002.609679": {
         "post": "1793061002.609679",
-        "lastSeen": 1793062331.078
+        "lastSeen": 1793062518.428
       },
       "1793062289.266059": {
         "post": "1793062289.266059",
-        "lastSeen": 1793062331.078
+        "lastSeen": 1793062518.428
       }
     },
     "days": {
@@ -387670,13 +387685,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-27 09:52",
+    "at": "2026-10-27 09:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4780,
+    "rows": 4781,
     "named": 1260,
     "unknownName": 214,
     "beforeStart": 0,
@@ -387812,7 +387827,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 09:52",
+    "at": "2026-10-27 09:55",
     "pri": {
       "days": 0,
       "failed": [],
