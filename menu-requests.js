@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4218,
- "updatedAt": "2026-10-27 14:59",
+ "version": 4219,
+ "updatedAt": "2026-10-27 15:00",
  "days": 30,
  "items": [
   {
@@ -1004,13 +1004,28 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CBYQ9L3QF",
      "from": "댓글",
-     "path": "menu-files/1793064861_501919-0.png",
      "kind": "pos_screen",
      "menu": [
       {
        "category": "메뉴",
        "name": "광어회덮밥",
        "price": 19900
+      }
+     ],
+     "v": 2,
+     "path": "menu-files/1793064861_501919-0.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CD8H8A3SL",
+     "from": "댓글",
+     "path": "menu-files/1793064861_501919-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "대방어회덮밥",
+       "price": 18900
       }
      ],
      "v": 2
@@ -1021,8 +1036,8 @@ window.MENU_REQUESTS = {
     "님 안녕하세요! 아래와 같이 추가 수정 인입되어서 공유드립니다 :꾸벅곰:\n\n• 수정 요청 1- 대방어회덮밥 ~19900원~ 18900원 \n• 수정 요청 2- 대방어초밥 기존 사진이 남아있는 경우에는 있는 그대로 써주시고 없으면 사진 없이 부탁드린다고 합니다!!",
     "메뉴 등록 완료"
    ],
-   "rc": 3,
-   "lr": "1793080727.390539",
+   "rc": 4,
+   "lr": "1793080801.412849",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
