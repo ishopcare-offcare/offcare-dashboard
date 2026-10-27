@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26082,
+  "version": 26083,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283971,10 +283971,25 @@ window.SLACK_DATA = {
         "transfer": {
           "고경림": 1,
           "송태양": 1
+        },
+        "menu": {
+          "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:25",
+          "store": "번크러쉬",
+          "biz": "2011872873",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "메뉴 이미지 추가",
+          "hw": "",
+          "intake": "offline",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "10:03",
           "store": "칸스 KANS 장위점",
@@ -284074,7 +284089,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 9,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "10:25",
@@ -284238,7 +284253,7 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793064347.736,
+        "lastSeen": 1793064400.554,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
@@ -387789,7 +387804,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-27 10:25",
+    "at": "2026-10-27 10:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -387931,7 +387946,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 10:25",
+    "at": "2026-10-27 10:26",
     "pri": {
       "days": 0,
       "failed": [],

@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4202,
- "updatedAt": "2026-10-27 10:26",
+ "version": 4203,
+ "updatedAt": "2026-10-27 10:27",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793064334.492849",
+   "replies": [
+    "• 이지포스 프렌치프라이 L 이미지 추가 / 솔라피 전송 완료 cc"
+   ],
+   "rc": 2,
+   "lr": "1793064416.914579",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
