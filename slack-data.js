@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26053,
+  "version": 26054,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -283973,7 +283973,8 @@ window.SLACK_DATA = {
           "req": "토프 + 유프 / 토스포스 노트북으로 다시 온보딩 부탁드립니다 !",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "새로 구비한 노트북도 매우 구형 설치 불가 포스기 따로 구해서 진행 or 렌탈 상담 받기로 하셨습니다.",
+          "rr": 1
         }
       ],
       "intake": {
@@ -284132,7 +284133,7 @@ window.SLACK_DATA = {
       },
       "1793059215.965899": {
         "post": "1793059215.965899",
-        "lastSeen": 1793060300.645,
+        "lastSeen": 1793060360.688,
         "r": 1,
         "day": "2026-10-27",
         "idx": 1
@@ -387647,7 +387648,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-27 09:18",
+    "at": "2026-10-27 09:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -387789,7 +387790,7 @@ window.SLACK_DATA = {
     "2026-10-27": 2
   },
   "noteMig": {
-    "at": "2026-10-27 09:18",
+    "at": "2026-10-27 09:19",
     "pri": {
       "days": 0,
       "failed": [],
