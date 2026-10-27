@@ -3975,10 +3975,13 @@ function admDri(){
 /* ── 탭 3. 전월 업무 비교표 (주간/야간 따로) ── */
 /* 리포트(1~6월) 달의 전월 비교 — 주/야 구분이 없어 '전체' 한 블록으로 낸다.
  * 증감은 라이브와 같은 기준(1일 평균끼리)으로 계산한다. 1월은 전월(2025.12)이 없어 '—'. */
-function admHistPrevBlock(cur, histMonths){
-  const H=m=>ADM_HIST.find(h=>h.m===m);
-  const a=H(cur), i=histMonths.indexOf(cur), pm=i>0?histMonths[i-1]:null, b=pm?H(pm):null;
-  const ad=admBizDays(cur)||1, bd=pm?(admBizDays(pm)||1):1;
+const PREVM_FROM='2026-02';   // 전월 비교에서 고를 수 있는 첫 달
+// 월 전체 비교 — cur·pm 이 리포트 달이든 라이브 달이든 월별 행(admMonthlyWithHist)으로 유형별 1일 평균을 비교
+function admWholePrevBlock(cur, pm){
+  const R=admMonthlyWithHist(), H=m=>R.find(r=>r.m===m);
+  const a=H(cur), b=pm?H(pm):null;
+  if(!a) return '';
+  const ad=a.biz||1, bd=b?(b.biz||1):1;
   const per=(n,d)=>(n/d).toFixed(1);
   const dl=(x,y)=>{ if(!b) return '<span class="zero">—</span>';
     if(!y) return x?'<span style="color:var(--green);font-weight:700">신규</span>':'<span class="zero">—</span>';
@@ -3993,11 +3996,17 @@ function admHistPrevBlock(cur, histMonths){
   // 리포트 표의 유형별 순서 그대로. 설치 OB 는 리포트에 없다.
   const ROWS=[['🚀 온보딩','onboarding'],['🔧 AS','as'],['🧩 외주설치','extern'],['📝 명의변경','transfer'],
               ['💬 VOC','voc'],['🍱 메뉴등록','menu'],['🛵 배달','delivery']];
-  const rowsH=ROWS.map(([n,k])=>line(n, a.by[k]||0, b?(b.by[k]||0):0)).join('')
-    + line('📵 부재', a.absent||0, b?(b.absent||0):0);
+  const val=(r,k)=>k==='voc'?(r.voc||0):(r.by[k]||0);   // VOC 는 라이브 달에선 by 가 아니라 처리 완료 건(voc)
+  const rowsH=ROWS.map(([n,k])=>line(n, val(a,k), b?val(b,k):0)).join('')
+    // 부재는 리포트(발생 건수)·대시보드(미해결 건수) 기준이 달라 두 출처가 섞이면 증감을 내지 않는다
+    + (b&&a.hist!==b.hist
+      ? `<tr><td>📵 부재</td><td class="num">${(a.absent||0).toLocaleString()}</td><td class="num" style="font-weight:800">${per(a.absent||0,ad)}</td>
+          <td class="num" style="color:var(--gray2)">${(b.absent||0).toLocaleString()}</td><td class="num" style="color:var(--gray2);font-weight:800">${per(b.absent||0,bd)}</td>
+          <td class="num"><span style="color:var(--gray2);font-size:12px">기준 다름</span></td></tr>`
+      : line('📵 부재', a.absent||0, b?(b.absent||0):0));
   return `<div class="card"><div class="card-head">
       <h3>📄 전체 — ${cur.replace('-','.')} vs ${pm?pm.replace('-','.'):'전월 없음'}</h3>
-      <span class="hint">월간 리포트 수치 · 주/야 구분 없음 · 평일 ${ad}일 / 전월 평일 ${pm?bd+'일':'—'}</span></div>
+      <span class="hint">${a.hist?'월간 리포트 수치':'대시보드 집계'}${b?(b.hist!==a.hist?' vs '+(b.hist?'월간 리포트':'대시보드 집계'):''):''} · 주/야 구분 없음 · 평일 ${ad}일 / 전월 평일 ${pm?bd+'일':'—'}</span></div>
     <div style="overflow-x:auto"><table class="matrix">
       <thead><tr><th>유형</th>
         <th class="num">${cur.replace('-','.')}<br><span style="font-weight:600;color:var(--muted)">건수</span></th>
@@ -4006,20 +4015,24 @@ function admHistPrevBlock(cur, histMonths){
         <th class="num">${pm?pm.replace('-','.'):'전월'}<br>1일 평균</th>
         <th class="num">1일 평균<br>증감</th></tr></thead>
       <tbody>${rowsH}</tbody>
-      <tfoot>${line('원격 인입 건수', a.total, b?b.total:0, true)}${line('실 처리 건수', a.done, b?b.done:0, true)}</tfoot>
+      <tfoot>${a.intake!=null&&(!b||b.intake!=null)?line('원격 인입 건수', a.intake, b?b.intake:0, true):''}${line('실 처리 건수', a.total, b?b.total:0, true)}</tfoot>
     </table></div></div>`;
 }
 function admPrevMonth(){
   const withData=adminLiveDates();
   const liveMonths=[...new Set(withData.map(d=>d.slice(0,7)))].sort();
   const histMonths=ADM_HIST.map(h=>h.m).filter(m=>!liveMonths.includes(m));
-  const months=[...histMonths, ...liveMonths];
+  const allMonths=[...histMonths, ...liveMonths];
+  // 고를 수 있는 달은 2026.02 부터 — 2026.01 은 2월의 전월로만 쓴다(2025 는 연도별 비교 탭에서).
+  // 2025 를 붙인 뒤 버튼이 22개로 늘어 한 줄 밖으로 밀려 최근 달이 안 보였다.
+  const months=allMonths.filter(m=>m>=PREVM_FROM);
   if(months.length<1) return `<div class="empty-note">처리 상세 데이터가 없습니다.</div>`;
   const cur = adminMonth && months.includes(adminMonth) ? adminMonth : months[months.length-1];
-  const pick=`<div class="seg">${months.map(m=>`<button class="${m===cur?'on':''}" onclick="setAdminMonth('${m}')">${m.replace('-','.')}${histMonths.includes(m)?'<span style="font-size:10px;opacity:.65"> 리포트</span>':''}</button>`).join('')}</div>`;
+  const prevAny = m => { const i=allMonths.indexOf(m); return i>0 ? allMonths[i-1] : null; };   // 리포트·라이브 상관없이 바로 앞 달
+  const pick=`<div class="seg" style="flex-wrap:wrap">${months.map(m=>`<button class="${m===cur?'on':''}" onclick="setAdminMonth('${m}')">${m.replace('-','.')}${histMonths.includes(m)?'<span style="font-size:10px;opacity:.65"> 리포트</span>':''}</button>`).join('')}</div>`;
   if(histMonths.includes(cur)){
     return `<div class="adm-note">📄 <b>${cur.replace('-','.')}</b> 은 월간 리포트 수치입니다 — 건별 상세가 없어 <b>주/야 구분은 불가</b>하고 '전체' 한 표로 보여줍니다.
-        주/야 비교는 <b>2026.07</b> 이후 달을 고르세요.</div>${pick}${admHistPrevBlock(cur, histMonths)}`;
+        주/야 비교는 <b>2026.07</b> 이후 달을 고르세요.</div>${pick}${admWholePrevBlock(cur, prevAny(cur))}`;
   }
   // 라이브 달의 전월은 '직전 라이브 달' 만 쓴다 — 리포트 달과는 주/야 기준이 달라 비교하면 전부 급감으로 보인다.
   const ci = liveMonths.indexOf(cur), prev = ci>0 ? liveMonths[ci-1] : null;
@@ -4069,9 +4082,11 @@ function admPrevMonth(){
   };
   const curDays=withData.filter(d=>d.startsWith(cur)).length;
   const isPartial = cur===months[months.length-1] && curDays<20;
+  const pa = !prev ? prevAny(cur) : null;
   const warn = !prev
-    ? `<div class="adm-note">⚠️ <b>${cur.replace('-','.')}</b> 앞에 비교할 달이 없습니다.
-       대시보드 처리 상세는 <b>7/1부터</b> 쌓여서 그 이전 달은 주/야 구분이 불가능합니다. 월별 총량은 시트 기반 탭을 보세요.</div>`
+    ? (pa ? `<div class="adm-note">ℹ️ <b>${pa.replace('-','.')}</b> 는 월간 리포트 수치라 주/야 구분이 없습니다. 아래 <b>월 전체 비교</b>로 보시고,
+       주/야 표는 <b>${cur.replace('-','.')}</b> 값만 보여줍니다(⚠️ 부재는 리포트=발생 건수, 대시보드=미해결 건수라 기준이 다릅니다).</div>${admWholePrevBlock(cur, pa)}`
+          : `<div class="adm-note">⚠️ <b>${cur.replace('-','.')}</b> 앞에 비교할 달이 없습니다.</div>`)
     : (isPartial ? `<div class="adm-note">⚠️ <b>${cur.replace('-','.')}</b> 은 아직 <b>${curDays}일</b>치입니다.
        건수를 그대로 비교하면 날짜 수 차이 때문에 전부 급감으로 보이므로, 증감은 <b>1일 평균끼리</b> 계산했습니다.
        분모는 <b>평일 수</b>(토·일·공휴일 제외)입니다.</div>` : '');
