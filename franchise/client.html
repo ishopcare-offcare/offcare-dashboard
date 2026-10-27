@@ -619,6 +619,12 @@ function buildFromSlack(){
 }
 
 function finishInit(){
+  /* 띄어쓰기·기호만 다른 지점명은 한 지점으로 묶는다 — '수원 인계점' = '수원인계점'.
+     지점별 집계가 branch 문자열로 그룹핑하므로, 표기는 가장 많이 쓰인 쪽으로 통일 */
+  const brSpell = {};
+  REC.forEach(r=>{ const k = BrandMatch.keyOf(r.branch); (brSpell[k] = brSpell[k] || {})[r.branch] = (brSpell[k][r.branch] || 0) + 1; });
+  REC.forEach(r=>{ const c = brSpell[BrandMatch.keyOf(r.branch)];
+    r.branch = Object.keys(c).sort((a,b)=>c[b]-c[a] || a.localeCompare(b,'ko'))[0]; });
   REC.sort((a,b)=> a.date<b.date?1 : a.date>b.date?-1 : (a.time<b.time?1:-1));
   const all = REC.map(r=>ymOf(r.date)).concat(START_YM?[START_YM]:[], [nowYM()]).filter(Boolean);
   if(!all.length) MONTHS = [nowYM()];
