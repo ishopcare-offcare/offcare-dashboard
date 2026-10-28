@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26539,
+  "version": 26540,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -286577,12 +286577,26 @@ window.SLACK_DATA = {
     },
     "2026-10-28": {
       "counts": {
+        "nosetup": {
+          "고경림": 1
+        },
         "transfer": {
           "고경림": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "임마누엘공인중개사사무소",
+          "biz": "7750803747",
+          "cat": "nosetup",
+          "emp": "고경림",
+          "req": "프론트 + 터미널2 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:00",
           "store": "주식회사 미글커뮤니케이션",
@@ -286597,7 +286611,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -286729,16 +286743,9 @@ window.SLACK_DATA = {
         "post": "1793113225.748779",
         "lastSeen": 1793132136.225
       },
-      "1793147401.244599": {
-        "post": "1793147401.244599",
-        "lastSeen": 1793147703.165,
-        "r": 1,
-        "day": "2026-10-28",
-        "idx": 1
-      },
       "1793147403.388099": {
         "post": "1793147403.388099",
-        "lastSeen": 1793147703.165
+        "lastSeen": 1793148242.566
       }
     },
     "days": {
@@ -391676,14 +391683,15 @@ window.SLACK_DATA = {
             "store": "임마누엘공인중개사사무소",
             "biz": "7750803747",
             "who": "고경림",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 9.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-28 09:35",
+    "at": "2026-10-28 09:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -391825,7 +391833,7 @@ window.SLACK_DATA = {
     "2026-10-28": 2
   },
   "noteMig": {
-    "at": "2026-10-28 09:35",
+    "at": "2026-10-28 09:44",
     "pri": {
       "days": 0,
       "failed": [],

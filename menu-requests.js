@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4245,
- "updatedAt": "2026-10-28 09:27",
+ "version": 4246,
+ "updatedAt": "2026-10-28 09:44",
  "days": 30,
  "items": [
   {
@@ -67340,30 +67340,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790556836888669"
-  },
-  {
-   "ts": "1790555938.347009",
-   "date": "2026-09-28",
-   "time": "09:38",
-   "store": "더크래프트버거세종도담점",
-   "biz": "4291800486",
-   "pos": "토스포스",
-   "content": "기존포스에서 새로운포스로 메뉴 전체이전",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "20분 후 매장 출근 예정 / 원격으로 들어가서 메뉴 보기로, 엄청 많다고 함 :눈알덜덜:",
-    "완ㄹ"
-   ],
-   "rc": 2,
-   "lr": "1790563470.704629",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790555938347009"
   }
  ],
  "ocr": {
