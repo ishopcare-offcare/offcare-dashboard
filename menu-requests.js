@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4255,
- "updatedAt": "2026-10-28 11:09",
+ "version": 4256,
+ "updatedAt": "2026-10-28 11:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1793153538.441649",
+   "date": "2026-10-28",
+   "time": "11:12",
+   "store": "일만족발 온산온양점",
+   "biz": "7536200820",
+   "pos": "토스포스",
+   "content": "메뉴등록",
+   "special": "파일 <mailto:···|···>.kr로 보냈습니다",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793153538441649"
+  },
   {
    "ts": "1793152871.932659",
    "date": "2026-10-28",
@@ -21,10 +42,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793152459073659?thread_ts=···.901999&cid=C0ADC9759KQ"
+    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793152459073659?thread_ts=···.901999&cid=C0ADC9759KQ",
+    "아직매장에 계심!"
    ],
-   "rc": 3,
-   "lr": "1793153358.090399",
+   "rc": 4,
+   "lr": "1793153552.803179",
    "rfx": 3,
    "status": "confirm",
    "handler": "김동욱",
