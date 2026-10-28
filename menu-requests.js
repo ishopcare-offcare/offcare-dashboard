@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4264,
- "updatedAt": "2026-10-28 11:39",
+ "version": 4265,
+ "updatedAt": "2026-10-28 11:45",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_20261028_113103.jpg",
      "fid": "F0CCNTT4K9C",
      "from": "댓글",
-     "path": "menu-files/1793155044_145339-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -107,13 +106,13 @@ window.MENU_REQUESTS = {
        "price": 2800
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155044_145339-0.jpg"
     },
     {
      "name": "IMG_20261028_113102.jpg",
      "fid": "F0CCKJ1D537",
      "from": "댓글",
-     "path": "menu-files/1793155044_145339-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -147,13 +146,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155044_145339-1.jpg"
     },
     {
      "name": "IMG_20261028_113101.jpg",
      "fid": "F0CCQM6HDAN",
      "from": "댓글",
-     "path": "menu-files/1793155044_145339-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -302,13 +301,13 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155044_145339-2.jpg"
     },
     {
      "name": "IMG_20261028_113100.jpg",
      "fid": "F0CCJKW94GK",
      "from": "댓글",
-     "path": "menu-files/1793155044_145339-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -407,13 +406,13 @@ window.MENU_REQUESTS = {
        "price": 500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155044_145339-3.jpg"
     },
     {
      "name": "IMG_20261028_113059.jpg",
      "fid": "F0CCQM7BB98",
      "from": "댓글",
-     "path": "menu-files/1793155044_145339-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -447,13 +446,13 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155044_145339-4.jpg"
     },
     {
      "name": "IMG_20261028_113058.jpg",
      "fid": "F0CCJKWHVKM",
      "from": "댓글",
-     "path": "menu-files/1793155044_145339-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -602,7 +601,8 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155044_145339-5.jpg"
     },
     {
      "name": "IMG_20261028_113057.jpg",
@@ -815,35 +815,15 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "테이크아웃시 500원 할인이 들어가서 폴더가 나눠져있어요 !"
+    "테이크아웃시 500원 할인이 들어가서 폴더가 나눠져있어요 !",
+    "cc  님 이런식으로 요청"
    ],
-   "rc": 3,
-   "lr": "1793155105.132609",
+   "rc": 4,
+   "lr": "1793155485.472399",
    "rfx": 3,
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793155044145339"
-  },
-  {
-   "ts": "1793153875.141049",
-   "date": "2026-10-28",
-   "time": "11:17",
-   "store": "*  씨크스페셜티커피(SEEK specialty coffee)",
-   "biz": "",
-   "pos": "토스포스",
-   "content": "메뉴 등록 요청*",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1793154830.726969",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793153875141049"
   },
   {
    "ts": "1793153538.441649",
@@ -883,10 +863,11 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793152459073659?thread_ts=···.901999&cid=C0ADC9759KQ",
     "아직매장에 계심!",
     "···",
-    "나도 일단 문의는 남겨놨음!"
+    "나도 일단 문의는 남겨놨음!",
+    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793154948954419?thread_ts=···.901999&cid=C0ADC9759KQ"
    ],
-   "rc": 8,
-   "lr": "1793154561.826249",
+   "rc": 9,
+   "lr": "1793155481.830029",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
