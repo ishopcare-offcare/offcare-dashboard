@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4304,
- "updatedAt": "2026-10-28 16:09",
+ "version": 4305,
+ "updatedAt": "2026-10-28 16:10",
  "days": 30,
  "items": [
   {
@@ -425,8 +425,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "추천메뉴 카테고리  - 서비스 페페로니 타르트 피자 , 서비스 순살 후라이드 치킨 모두 0원으로 추가 부탁 드립니다!\n추가 후 위 번호로 문자 한 번만 부탁 드립니다. :감사합니다11:"
    ],
-   "rc": 2,
-   "lr": "1793170247.675029",
+   "rc": 3,
+   "lr": "1793171355.650789",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -68466,52 +68466,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790581963101709"
-  },
-  {
-   "ts": "1790579369.694059",
-   "date": "2026-09-28",
-   "time": "16:09",
-   "store": "데이리프",
-   "biz": "1332471664",
-   "pos": "토스포스",
-   "content": "메일 신청",
-   "special": "접수건 확인 불가로 메일로 발송",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": ".메뉴_원산지_모닝세트의 사본.xlsx",
-     "fid": "F0C4WGB8XR8",
-     "from": "댓글",
-     "path": "menu-files/1790579369_694059-0.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C5R1B5QNL",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1790579369_694059-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "안녕하세요!\n해당 가맹점 빠른 메뉴 등록 요청 전달 주시어, 바쁘시겠지만 등록 요청 드립니다 :woman-bowing::skin-tone-4:\n\nCC.",
-    "여기 키오스크인거같긴한데 이미지는 일단 없네요 빼고 진행할게요\n\n옵션도없어요",
-    "완료입니다",
-    "안녕하세요, 해당 파일에 일부 수정해야 될 내용이 있어서 수정항목만 붉은색 표기하여 다시 발송해주신다고 합니다!\n참고 부탁드리겠습니다. :woman-bowing::skin-tone-2:",
-    "• 메일제목: 데이리프",
-    "확인했습니다",
-    "옵션 추가 하시는거같습니다",
-    "옵션 완료입니다"
-   ],
-   "rc": 10,
-   "lr": "1790583214.634219",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790579369694059"
   }
  ],
  "ocr": {
