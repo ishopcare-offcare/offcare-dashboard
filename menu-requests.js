@@ -3,10 +3,182 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4296,
- "updatedAt": "2026-10-28 15:58",
+ "version": 4297,
+ "updatedAt": "2026-10-28 15:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1793170725.173199",
+   "date": "2026-10-28",
+   "time": "15:58",
+   "store": "스포이드(SPOID)",
+   "biz": "8010403505",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 2,
+   "att": [
+    {
+     "name": "20261008_135754.jpg",
+     "fid": "F0CCU9SHC1F",
+     "from": "원글",
+     "path": "menu-files/1793170725_173199-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 에티오피아",
+       "price": 3800
+      },
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 브라질",
+       "price": 3800
+      },
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 디카페인",
+       "price": 4300
+      },
+      {
+       "category": "Batch Brew",
+       "name": "+ 배치 브루 리필",
+       "price": 1800
+      },
+      {
+       "category": "Batch Brew",
+       "name": "클라우드 배치 브루",
+       "price": 5500
+      },
+      {
+       "category": "Espresso",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "Espresso",
+       "name": "카페 라떼",
+       "price": 5000
+      },
+      {
+       "category": "Espresso",
+       "name": "바닐라 라떼",
+       "price": 5500
+      },
+      {
+       "category": "Espresso",
+       "name": "타이 티 카페 라떼",
+       "price": 6500
+      },
+      {
+       "category": "Espresso",
+       "name": "+ 오트 밀크로 변경",
+       "price": 300
+      },
+      {
+       "category": "Espresso",
+       "name": "+ 디카페인 원두로 변경",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261008_135758.jpg",
+     "fid": "F0CCL5ZPUUB",
+     "from": "원글",
+     "path": "menu-files/1793170725_173199-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "NON-COFFEE",
+       "name": "타이 티 라떼 Thai Tea Latte",
+       "price": 6000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "호지 라떼 Hojicha Latte",
+       "price": 6000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코 라떼 Chocolate Latte",
+       "price": 6000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "진저 에이드 Ginger Ade",
+       "price": 5900
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "애플 유즈 에이드 Apple Yuzu Ade",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "망고 멜란지 티 Mango Mélange",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이 티 Earl Grey Tea",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "쿨 민트 티 Cool Mint Tea",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "피치 우롱 티 Peach Oolong Tea",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "크림슨 펀치 티 Crimson Punch Tea",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "로제 아이스티 Rosé Ice tea",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "에이드로 변경 Switch to an Ade",
+       "price": 500
+      },
+      {
+       "category": "CHILL DRINKS",
+       "name": "로제 시타델 Rosé Citadelle",
+       "price": 6500
+      },
+      {
+       "category": "CHILL DRINKS",
+       "name": "레드 와인(잔) Red Wine (Glass)",
+       "price": 6500
+      },
+      {
+       "category": "CHILL DRINKS",
+       "name": "화이트 와인(잔) White Wine (Glass)",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793170728.583179",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793170725173199"
+  },
   {
    "ts": "1793170217.790599",
    "date": "2026-10-28",
@@ -26,8 +198,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793170247.675029",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793170217790599"
   },
   {
