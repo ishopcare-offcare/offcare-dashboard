@@ -1226,9 +1226,10 @@
   .memo-chip:hover{background:#fff5cf; border-color:#e5cf88}
   .cx-chip{margin-top:3px; width:100%; text-align:left; font:inherit; font-size:11.5px; font-weight:700; line-height:1.4;
     color:#0a2eb8; background:#eef3ff; border:1px solid #cddcff; border-radius:9px; padding:4px 7px; cursor:pointer;
-    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; transition:.15s}
+    white-space:normal; word-break:keep-all; transition:.15s}
   .cx-chip:hover{background:#dae5ff; border-color:#a9c1ff}
-  .cx-chip b{font-weight:800}
+  .cx-chip b{font-weight:800; text-decoration:underline; text-underline-offset:2px}
+  .cx-chip .cx-lab{font-size:10.5px; font-weight:800; opacity:.7; margin-right:2px}
   :root[data-theme="dark"] .cx-chip{background:rgba(31,79,250,.16); border-color:rgba(126,162,255,.35); color:#a9c1ff}
   .cx-list{display:flex; flex-direction:column; gap:6px; margin:4px 0 14px}
   .cx-row{display:flex; align-items:center; gap:8px; padding:8px 11px; border:1px solid var(--line-soft); border-radius:11px; font-size:14px}
@@ -7379,9 +7380,9 @@ function dutyToday(){ dutyMonth=new Date(today().getFullYear(), today().getMonth
 function cxDutyOf(ds){ const D=window.CX_DUTY_DATA; return (D && D.days && D.days[ds]) || []; }
 function cxChip(ds){
   const list=cxDutyOf(ds); if(!list.length) return '';
-  const lead=list.filter(x=>x.duty).map(x=>x.name);
-  const label = lead.length ? `당직 <b>${escapeHtml(lead.join('·'))}</b>` : `근무 ${list.length}명`;
-  return `<button class="cx-chip" title="클릭 → 이 날 CX팀 근무자 보기" onclick="openCxDuty('${ds}')">CX팀 · ${label}</button>`;
+  // 근무자 전원을 다 보여준다. 시트에 '당직' 표시된 사람은 맨 앞(데이터가 이미 그 순서)·굵게.
+  const label = list.map(x=>x.duty?`<b>${escapeHtml(x.name)}</b>`:escapeHtml(x.name)).join(' · ');
+  return `<button class="cx-chip" title="클릭 → 이 날 CX팀 근무자 보기" onclick="openCxDuty('${ds}')"><span class="cx-lab">CX팀</span> ${label}</button>`;
 }
 function openCxDuty(ds){
   const list=cxDutyOf(ds), D=window.CX_DUTY_DATA||{};

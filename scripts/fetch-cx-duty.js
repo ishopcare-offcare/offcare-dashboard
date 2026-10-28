@@ -20,7 +20,7 @@ const OUT = 'cx-duty-data.js';
 const MONTHS = Number(process.env.DUTY_MONTHS || 6);
 
 const pad = (n) => String(n).padStart(2, '0');
-const OFF = /^(휴|휴무|휴가|방학|대휴|리프|경조|병가|결근)?$/;   // 빈칸 포함 — 근무 아님
+const OFF = /^(휴.*|방학|대휴|리프|경조|병가|결근)?$/;   // 빈칸 포함 — 근무 아님. '휴…' 는 오타(휴뮤 등)까지 쉬는 날로
 
 async function token() {
   const { GDRIVE_CLIENT_ID: id, GDRIVE_CLIENT_SECRET: sec, GDRIVE_REFRESH_TOKEN: rt } = process.env;
