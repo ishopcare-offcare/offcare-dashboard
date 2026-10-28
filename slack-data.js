@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27028,
+  "version": 27029,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289663,6 +289663,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김동욱": 7
+        },
+        "booking": {
+          "김동욱": 1
         }
       },
       "pending": [],
@@ -289723,6 +289726,18 @@ window.SLACK_DATA = {
           "note": ""
         },
         {
+          "time": "08:00",
+          "store": "원산3리영농조합법인",
+          "biz": "7578100949",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "프론트 + 터미널2 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "통화중 1차 부재 / 8시 넘었다고 나왔다고 하심. 역정내심..하하 차주 월요일 8시 재통화예정",
+          "rr": 2
+        },
+        {
           "time": "07:46",
           "store": "컴포즈커피 사당역점",
           "biz": "5218102386",
@@ -289748,7 +289763,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
@@ -289860,13 +289875,6 @@ window.SLACK_DATA = {
       "1793199716.367639": {
         "post": "1793199716.367639",
         "lastSeen": 1793218541.953
-      },
-      "1793228401.540979": {
-        "post": "1793228401.540979",
-        "lastSeen": 1793229327.026,
-        "r": 1,
-        "day": "2026-10-29",
-        "idx": 0
       }
     },
     "days": {
@@ -396526,20 +396534,21 @@ window.SLACK_DATA = {
             "store": "원산3리영농조합법인",
             "biz": "7578100949",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 23
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-29 08:15",
+    "at": "2026-10-29 08:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4829,
+    "rows": 4830,
     "named": 1272,
     "unknownName": 256,
     "beforeStart": 0,
@@ -396676,7 +396685,7 @@ window.SLACK_DATA = {
     "2026-10-29": 2
   },
   "noteMig": {
-    "at": "2026-10-29 08:15",
+    "at": "2026-10-29 08:30",
     "pri": {
       "days": 0,
       "failed": [],
