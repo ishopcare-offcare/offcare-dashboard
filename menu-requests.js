@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4317,
- "updatedAt": "2026-10-28 17:58",
+ "version": 4318,
+ "updatedAt": "2026-10-28 18:18",
  "days": 30,
  "items": [
   {
@@ -67507,27 +67507,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790588307050009"
-  },
-  {
-   "ts": "1790587061.615549",
-   "date": "2026-09-28",
-   "time": "18:17",
-   "store": "*코즈커피*",
-   "biz": "4500503643",
-   "pos": "",
-   "content": "해당 매장 암튼커피스탠드(<tel:···|···>)와 동일하게 메뉴 및 옵션 복사 요청 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1790587155.141019",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790587061615549"
   }
  ],
  "ocr": {
