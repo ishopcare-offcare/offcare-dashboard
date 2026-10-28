@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4286,
- "updatedAt": "2026-10-28 14:45",
+ "version": 4287,
+ "updatedAt": "2026-10-28 14:46",
  "days": 30,
  "items": [
   {
@@ -26,8 +26,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793166291.221509",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793166248152099"
   },
   {
@@ -67605,29 +67605,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790577374141689"
-  },
-  {
-   "ts": "1790574392.924269",
-   "date": "2026-09-28",
-   "time": "14:46",
-   "store": "홍대앞떡볶이",
-   "biz": "1720201351",
-   "pos": "오케이포스",
-   "content": "오케이포스 메뉴 수정 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "생삽겹살 17,000 > 20,000"
-   ],
-   "rc": 2,
-   "lr": "1790574400.942389",
-   "rfx": 3,
-   "status": "done",
-   "handler": "서상원",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790574392924269"
   }
  ],
  "ocr": {
