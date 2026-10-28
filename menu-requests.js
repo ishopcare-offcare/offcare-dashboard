@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4293,
- "updatedAt": "2026-10-28 15:42",
+ "version": 4294,
+ "updatedAt": "2026-10-28 15:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1793170008.595749",
+   "date": "2026-10-28",
+   "time": "15:46",
+   "store": "더테이스팅키친",
+   "biz": "",
+   "pos": "",
+   "content": "[📧 메일] 제목: 더테이스팅키친  포스 메뉴입력\nDaum 메일앱  <https://mail.daum.net/hanmailex/LinkMailAppSignature.daum?via=mail_sign>에서  보냈습니다.  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a18141f472dbf5c>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a18141f472dbf5c",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793170008595749"
+  },
   {
    "ts": "1793169647.458549",
    "date": "2026-10-28",
