@@ -786,6 +786,9 @@
   .yoy-sum .up{color:var(--green); font-weight:800} .yoy-sum .down{color:var(--red); font-weight:800}
   .yoy-svg{display:block; width:100%; height:auto; overflow:visible}
   .yoy-svg .yoy-hit{fill:transparent; cursor:crosshair}
+  /* 점마다 붙는 값 라벨 — 선과 겹쳐도 읽히게 배경색 테두리(halo) */
+  .yoy-svg .yoy-val, .yoy-svg .yoy-yr{paint-order:stroke; stroke:var(--canvas); stroke-width:3.5px; stroke-linejoin:round}
+  .yoy-svg .yoy-val{font-size:10.5px; font-weight:700; fill:var(--ink-soft); pointer-events:none}
   .yoy-key{display:inline-block; width:18px; height:0; border-top:2.5px solid; vertical-align:middle; margin-right:6px}
   .yoy-key.dash{border-top-style:dashed}
   #yoyTip{position:fixed; z-index:9999; pointer-events:none; background:var(--canvas); border:1px solid var(--line); border-radius:10px;
@@ -4202,7 +4205,7 @@ function yoyChart(title, R, get, fmt, mode, hint){
   const id='yoy'+(++yoySeq), {years, vals, partial}=yoyData(R, get);
   YOY[id]={years, vals, fmt, partial};
   const W=560, H=250, padL=46, padR=46, topPad=14, botPad=30, plotW=W-padL-padR, plotH=H-topPad-botPad, base=H-botPad;
-  const mx=Math.max(0,...years.flatMap(y=>vals[y].filter(v=>v!=null))), {top, step}=yoyNice(mx*1.08);
+  const mx=Math.max(0,...years.flatMap(y=>vals[y].filter(v=>v!=null))), {top, step}=yoyNice(mx*1.15);
   const X=i=>padL+plotW*i/11, Y=v=>base-plotH*v/top;
   let grid='';
   for(let v=0; v<=top+1e-9; v+=step){ const y=Y(v).toFixed(1);
@@ -4216,12 +4219,11 @@ function yoyChart(title, R, get, fmt, mode, hint){
     out+=v.map((x,i)=>x==null?'':(i===pi
       ? `<circle cx="${X(i).toFixed(1)}" cy="${Y(x).toFixed(1)}" r="4.5" style="fill:var(--canvas)" stroke="${c}" stroke-width="2.5"/>`
       : `<circle cx="${X(i).toFixed(1)}" cy="${Y(x).toFixed(1)}" r="4" fill="${c}" style="stroke:var(--canvas)" stroke-width="2"/>`)).join('');
-    // 직접 라벨 — 선 끝에 연도와 마지막 값(글씨는 잉크색, 색은 선이 맡는다)
-    // 12월이면 오른쪽 끝에, 아니면(올해) 점 위·아래 중 다른 해 선에서 먼 쪽에 둔다 — 같은 달 다른 해 점과 겹치지 않게
-    if(last>=0){ const o=years.find(z=>z!==y&&vals[z][last]!=null), ov=o!=null?vals[o][last]:null, above=ov==null||v[last]>=ov;
-      out+= last===11
-        ? `<text x="${(X(last)+8).toFixed(1)}" y="${(Y(v[last])+4).toFixed(1)}" font-size="11.5" font-weight="800" style="fill:var(--ink)">${y}</text>`
-        : `<text x="${X(last).toFixed(1)}" y="${(Y(v[last])+(above?-11:20)).toFixed(1)}" text-anchor="middle" font-size="11.5" font-weight="800" style="fill:var(--ink)">${y}</text>`; }
+    out+=v.map((x,i)=>{ if(x==null) return '';
+      const lower=years.some(z=>z!==y&&vals[z][i]!=null&&vals[z][i]>x);
+      return `<text class="yoy-val" x="${X(i).toFixed(1)}" y="${(Y(x)+(lower?17:-9)).toFixed(1)}" text-anchor="middle">${fmt(x)}</text>`; }).join('');
+    // 직접 라벨 — 선 끝(마지막 점 오른쪽)에 연도. 점 위·아래는 값 라벨 자리라 옆으로 비킨다(글씨는 잉크색, 색은 선이 맡는다)
+    if(last>=0) out+=`<text class="yoy-yr" x="${(X(last)+9).toFixed(1)}" y="${(Y(v[last])+4).toFixed(1)}" font-size="11.5" font-weight="800" style="fill:var(--ink)">${y}</text>`;
     return out;
   }).join('');
   const hits=[...Array(12)].map((_,i)=>`<rect class="yoy-hit" x="${(X(i)-plotW/22).toFixed(1)}" y="${topPad}" width="${(plotW/11).toFixed(1)}" height="${plotH}" onmousemove="yoyTip(event,'${id}',${i})" onmouseleave="yoyTipHide('${id}')"/>`).join('');
