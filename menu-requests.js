@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4294,
- "updatedAt": "2026-10-28 15:46",
+ "version": 4295,
+ "updatedAt": "2026-10-28 15:51",
  "days": 30,
  "items": [
+  {
+   "ts": "1793170217.790599",
+   "date": "2026-10-28",
+   "time": "15:50",
+   "store": "쏘주 맥쭈",
+   "biz": "1921702310",
+   "pos": "오케이포스",
+   "content": "오케이 포스 메뉴 등록 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "추천메뉴 카테고리  - 서비스 페페로니 타르트 피자 , 서비스 순살 후라이드 치킨 모두 0원으로 추가 부탁 드립니다!\n추가 후 위 번호로 문자 한 번만 부탁 드립니다. :감사합니다11:"
+   ],
+   "rc": 2,
+   "lr": "1793170247.675029",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793170217790599"
+  },
   {
    "ts": "1793170008.595749",
    "date": "2026-10-28",
@@ -282,8 +305,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793169409327549"
   },
   {
