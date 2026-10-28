@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4301,
- "updatedAt": "2026-10-28 16:04",
+ "version": 4302,
+ "updatedAt": "2026-10-28 16:05",
  "days": 30,
  "items": [
   {
@@ -189,14 +189,200 @@ window.MENU_REQUESTS = {
      ],
      "v": 2,
      "path": "menu-files/1793170725_173199-1.jpg"
+    },
+    {
+     "name": "IMG_5469.png",
+     "fid": "F0CCUBEKBUZ",
+     "from": "댓글",
+     "path": "menu-files/1793170725_173199-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 콜롬비아",
+       "price": 5500
+      },
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 에티오피아",
+       "price": 4300
+      },
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 브라질",
+       "price": 3800
+      },
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 디카페인",
+       "price": 4300
+      },
+      {
+       "category": "Batch Brew",
+       "name": "배치 브루 리필",
+       "price": 1800
+      },
+      {
+       "category": "Batch Brew",
+       "name": "클라우드 배치 브루",
+       "price": 5500
+      },
+      {
+       "category": "Espresso",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "Espresso",
+       "name": "카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "Espresso",
+       "name": "바닐라 라떼",
+       "price": 5500
+      },
+      {
+       "category": "Espresso",
+       "name": "타이 티 카페 라떼",
+       "price": 6500
+      },
+      {
+       "category": "Espresso",
+       "name": "오트 밀크로 변경",
+       "price": 300
+      },
+      {
+       "category": "Espresso",
+       "name": "디카페인 원두로 변경",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5470.png",
+     "fid": "F0CCL7P3DR9",
+     "from": "댓글",
+     "path": "menu-files/1793170725_173199-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "LATTE&ADE",
+       "name": "타이 티 라떼",
+       "price": 6
+      },
+      {
+       "category": "LATTE&ADE",
+       "name": "호지 라떼",
+       "price": 6
+      },
+      {
+       "category": "LATTE&ADE",
+       "name": "초코 라떼",
+       "price": 6
+      },
+      {
+       "category": "LATTE&ADE",
+       "name": "진저 에이드",
+       "price": 5
+      },
+      {
+       "category": "LATTE&ADE",
+       "name": "애플 유즈 에이드",
+       "price": 6
+      },
+      {
+       "category": "TEA",
+       "name": "망고 멜란지 티",
+       "price": 5
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이 티",
+       "price": 5
+      },
+      {
+       "category": "TEA",
+       "name": "쿨 민트 티",
+       "price": 5
+      },
+      {
+       "category": "TEA",
+       "name": "피치 우롱 티",
+       "price": 5
+      },
+      {
+       "category": "TEA",
+       "name": "크림슨 펀치 티",
+       "price": 5
+      },
+      {
+       "category": "TEA",
+       "name": "로제 아이스티",
+       "price": 5
+      },
+      {
+       "category": "TEA",
+       "name": "+ 에이드로 변경",
+       "price": 0
+      },
+      {
+       "category": "CHILL DRINKS",
+       "name": "로제 시타델",
+       "price": 6
+      },
+      {
+       "category": "CHILL DRINKS",
+       "name": "레드 와인(잔)",
+       "price": 6
+      },
+      {
+       "category": "CHILL DRINKS",
+       "name": "화이트 와인(잔)",
+       "price": 6
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_5468.png",
+     "fid": "F0CCQFKET46",
+     "from": "댓글",
+     "path": "menu-files/1793170725_173199-4.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Pop-over",
+       "name": "베리베리 콩포트&크림 팝오버",
+       "price": 6100
+      },
+      {
+       "category": "Pop-over",
+       "name": "허니 커스터드&시나몬 팝오버",
+       "price": 5800
+      },
+      {
+       "category": "Banana Bread",
+       "name": "바나나 브레드",
+       "price": 6000
+      },
+      {
+       "category": "Banana Bread",
+       "name": "초콜릿 바나나 브레드",
+       "price": 7500
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
-    "님 잠시만요!!"
+    "님 잠시만요!!",
+    "아래 사진으로 등록 부탁드립니다!"
    ],
-   "rc": 2,
-   "lr": "1793171038.391689",
+   "rc": 3,
+   "lr": "1793171089.769469",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
