@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4280,
- "updatedAt": "2026-10-28 14:06",
+ "version": 4281,
+ "updatedAt": "2026-10-28 14:08",
  "days": 30,
  "items": [
   {
@@ -21,8 +21,8 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793163970.022219",
+   "rc": 2,
+   "lr": "1793164041.366659",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -1098,7 +1098,7 @@ window.MENU_REQUESTS = {
    "rc": 4,
    "lr": "1793155485.472399",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793155044145339"
   },
@@ -68025,27 +68025,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790572151647679"
-  },
-  {
-   "ts": "1790572078.891599",
-   "date": "2026-09-28",
-   "time": "14:07",
-   "store": "옥군.",
-   "biz": "1191490875",
-   "pos": "스파로스포스",
-   "content": "스파로스 테이블 오더 사용중인 매장인데 포스 메뉴중 주류 > 테라 제로 5,000원 테이블 오더 반영 부탁드립니다. 완료 후 문자 발송해 주시면 감사하겠습니다. :꾸벅곰:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1790830758.555339",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790572078891599"
   }
  ],
  "ocr": {
