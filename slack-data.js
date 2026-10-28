@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26564,
+  "version": 26565,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -286735,11 +286735,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:15"
+      "updatedAt": "10:15",
+      "absent": [
+        {
+          "time": "09:55",
+          "store": "오디커피(OD coffee)",
+          "biz": "3761902678",
+          "handler": "고경림",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -286869,35 +286879,35 @@ window.SLACK_DATA = {
       },
       "1793148314.850869": {
         "post": "1793148314.850869",
-        "lastSeen": 1793150303.19,
+        "lastSeen": 1793150379.311,
         "r": 1,
         "day": "2026-10-28",
         "idx": 4
       },
       "1793148902.518239": {
         "post": "1793148902.518239",
-        "lastSeen": 1793150303.19,
+        "lastSeen": 1793150379.311,
         "r": 1,
         "day": "2026-10-28",
         "idx": 7
       },
       "1793149222.633689": {
         "post": "1793149222.633689",
-        "lastSeen": 1793150303.19,
+        "lastSeen": 1793150379.311,
         "r": 1,
         "day": "2026-10-28",
         "idx": 13
       },
       "1793149768.165359": {
         "post": "1793149768.165359",
-        "lastSeen": 1793150303.19,
+        "lastSeen": 1793150379.311,
         "r": 1,
         "day": "2026-10-28",
         "idx": 9
       },
       "1793150110.902709": {
         "post": "1793150110.902709",
-        "lastSeen": 1793150303.19,
+        "lastSeen": 1793150379.311,
         "r": 1,
         "day": "2026-10-28",
         "idx": 14
@@ -391958,7 +391968,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-28 10:18",
+    "at": "2026-10-28 10:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -392100,7 +392110,7 @@ window.SLACK_DATA = {
     "2026-10-28": 2
   },
   "noteMig": {
-    "at": "2026-10-28 10:18",
+    "at": "2026-10-28 10:19",
     "pri": {
       "days": 0,
       "failed": [],
