@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4311,
- "updatedAt": "2026-10-28 17:00",
+ "version": 4312,
+ "updatedAt": "2026-10-28 17:07",
  "days": 30,
  "items": [
   {
@@ -67523,32 +67523,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790585823649619"
-  },
-  {
-   "ts": "1790582809.049709",
-   "date": "2026-09-28",
-   "time": "17:06",
-   "store": "데이리프 ···",
-   "biz": "1332471664",
-   "pos": "",
-   "content": "[📧 메일] 제목: 데이리프 ··· 메뉴 수정요청\n요청\n내용: 사업자 등록번호 ···\n \n 데이리프 메뉴 수정 요청드립니다.\n \n 파일 상 붉은색 폰트로 표기한 항목이 수정할 항목입니다.\n \n 샌드위치, 샐러드, 프로틴박스. 들기름 메밀면, 웜샐러드(구운야채찜), 웜포케 선택시 옵션사항으로\n 등록이 필요합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0e70d17a993e88>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0e70d17a993e88",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790582809049709"
   }
  ],
  "ocr": {
