@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4246,
- "updatedAt": "2026-10-28 09:44",
+ "version": 4247,
+ "updatedAt": "2026-10-28 09:55",
  "days": 30,
  "items": [
   {
@@ -67307,39 +67307,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790559202033459"
-  },
-  {
-   "ts": "1790556836.888669",
-   "date": "2026-09-28",
-   "time": "09:53",
-   "store": "스몰굿커피 문정점",
-   "biz": "6412901913",
-   "pos": "",
-   "content": "손님이 주문하는 화면(키오스크) 메뉴 사진이 안보인다고 하는데, 확인 부탁드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C4E88E4G7",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1790556836_888669-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "[메모] 이미지 없는 메뉴!\n\n초당옥수수 콜드브루 라떼\n초당옥수수라떼\n코코슈페너(10oz)\n더 블루(ICE)\n\n빅 아메리카노(ICE)\n빅 아메리카노(HOT)\n빅 더 블랙(ICE)\n빅 카페라떼(ICE)\n빅 헤이즐넛라떼(ICE)\n빅 바닐라라떼(ICE)\n빅 카페모카(ICE)\n빅 비엔나커피(ICE)\n빅 돌체라떼(ICE)\n빅 굿커피(ICE)\n빅 카라멜라떼(ICE)\n빅 너티밀키(ICE)\n식혜\n\n\n케리베인 칵테일 티(HOT)\n청포도(ICE)\n레몬(ICE)\n소금빵 러스크\n애플시나몬크랙쿠키",
-    "님 이메일로 파일 송부드렸습니다~ 확인부탁드려요!:감사합니다꾸벅:"
-   ],
-   "rc": 7,
-   "lr": "1790568987.721979",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790556836888669"
   }
  ],
  "ocr": {
