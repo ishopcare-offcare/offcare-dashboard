@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4263,
- "updatedAt": "2026-10-28 11:37",
+ "version": 4264,
+ "updatedAt": "2026-10-28 11:39",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,807 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_20261028_113103.jpg",
+     "fid": "F0CCNTT4K9C",
+     "from": "댓글",
+     "path": "menu-files/1793155044_145339-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Dessert",
+       "name": "* 과일컵, 콜라",
+       "price": 5900
+      },
+      {
+       "category": "Dessert",
+       "name": "* 후루트링 쫀득쿠키",
+       "price": 5500
+      },
+      {
+       "category": "Dessert",
+       "name": "* 오레오딸기 쫀득쿠키",
+       "price": 5800
+      },
+      {
+       "category": "Dessert",
+       "name": "* 콥샐러드",
+       "price": 6100
+      },
+      {
+       "category": "Dessert",
+       "name": "* 치킨시저 샐러드",
+       "price": 9500
+      },
+      {
+       "category": "Dessert",
+       "name": "뚝섬 베이글 샌드위치",
+       "price": 8000
+      },
+      {
+       "category": "Dessert",
+       "name": "462베이글 샌드위치",
+       "price": 8500
+      },
+      {
+       "category": "Dessert",
+       "name": "#SET뚝섬베이글",
+       "price": 11500
+      },
+      {
+       "category": "Dessert",
+       "name": "#SET462베이글",
+       "price": 12000
+      },
+      {
+       "category": "Dessert",
+       "name": "플레인 크로플",
+       "price": 3500
+      },
+      {
+       "category": "Dessert",
+       "name": "초코 오레오 크로플",
+       "price": 6000
+      },
+      {
+       "category": "Dessert",
+       "name": "생과일 크로플",
+       "price": 6500
+      },
+      {
+       "category": "Dessert",
+       "name": "플레인 휘낭시에",
+       "price": 2600
+      },
+      {
+       "category": "Dessert",
+       "name": "피칸 휘낭시에",
+       "price": 2800
+      },
+      {
+       "category": "Dessert",
+       "name": "크랜베리 크림치즈 휘낭시에",
+       "price": 2800
+      },
+      {
+       "category": "Dessert",
+       "name": "로투스 휘낭시에",
+       "price": 2800
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113102.jpg",
+     "fid": "F0CCKJ1D537",
+     "from": "댓글",
+     "path": "menu-files/1793155044_145339-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "티백 Tea",
+       "name": "캐모마일 ICE",
+       "price": 5500
+      },
+      {
+       "category": "티백 Tea",
+       "name": "페퍼민트 ICE",
+       "price": 5500
+      },
+      {
+       "category": "티백 Tea",
+       "name": "쟈흐뎅 블루 ICE",
+       "price": 5500
+      },
+      {
+       "category": "티백 Tea",
+       "name": "캐모마일 HOT",
+       "price": 5500
+      },
+      {
+       "category": "티백 Tea",
+       "name": "페퍼민트 HOT",
+       "price": 5500
+      },
+      {
+       "category": "티백 Tea",
+       "name": "쟈흐뎅 블루 HOT",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113101.jpg",
+     "fid": "F0CCQM6HDAN",
+     "from": "댓글",
+     "path": "menu-files/1793155044_145339-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Non Coffee",
+       "name": "* 애플시나몬티",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "딸기 라떼",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "딸기 에이드",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "* 토마토 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "* 수박쥬스",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "키위쥬스",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "* 키위바나나 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "바나나 쥬스",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "아보카도 바나나 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "바질-토마토 에이드",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "오렌지-레몬 에이드",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "자몽 에이드",
+       "price": 4500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "블루베리 스무디",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "딸기 스무디",
+       "price": 6000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "고구마 라떼 ICE",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "오곡 라떼 ICE",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "초콜릿 라떼 ICE",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "매실차 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "유자차 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "아이스티",
+       "price": 4500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "* 자몽차 ICE",
+       "price": 4500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "자몽차 HOT",
+       "price": 4500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "고구마 라떼 HOT",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "오곡 라떼 HOT",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "초콜릿 라떼 HOT",
+       "price": 5500
+      },
+      {
+       "category": "Non Coffee",
+       "name": "매실차 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "유자차 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Non Coffee",
+       "name": "애플시나몬티",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113100.jpg",
+     "fid": "F0CCJKW94GK",
+     "from": "댓글",
+     "path": "menu-files/1793155044_145339-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노 ICE",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페 라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛 라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "연유돌체 라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페모카 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜마끼아또 ICE",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "흑임자 라떼",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "462 크림 라떼",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "아메리카노 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페 라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛 라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "연유돌체 라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페모카 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜마끼아또 HOT",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "Coffee",
+       "name": "시럽 추가(설탕시럽제외)",
+       "price": 500
+      },
+      {
+       "category": "Coffee",
+       "name": "샷 추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113059.jpg",
+     "fid": "F0CCQM7BB98",
+     "from": "댓글",
+     "path": "menu-files/1793155044_145339-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "(To Go)티백 Tea",
+       "name": "(포장)캐모마일 ICE",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)티백 Tea",
+       "name": "(포장)페퍼민트 ICE",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)티백 Tea",
+       "name": "(포장)쟈흐뎅 블루 ICE",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)티백 Tea",
+       "name": "(포장)캐모마일 HOT",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)티백 Tea",
+       "name": "(포장)페퍼민트 HOT",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)티백 Tea",
+       "name": "(포장)쟈흐뎅 블루 HOT",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113058.jpg",
+     "fid": "F0CCJKWHVKM",
+     "from": "댓글",
+     "path": "menu-files/1793155044_145339-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "(To Go)Non coff",
+       "name": "* (포장)애플시나몬티",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)딸기 라떼",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)딸기 에이드",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "* (포장)토마토 쥬스",
+       "price": 6000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)수박쥬스",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)키위쥬스",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "* (포장)키위바나나 쥬스",
+       "price": 6000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)바나나쥬스",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)아보카도바나나쥬스",
+       "price": 6000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)바질-토마토 에이드",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)오렌지-레몬 에이드",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)자몽에이드",
+       "price": 4000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)요거트 스무디",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)블루베리 스무디",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)딸기 스무디",
+       "price": 5500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)고구마 라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)오곡 라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)초콜릿 라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)매실차 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)유자차 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)아이스티",
+       "price": 4000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "* 자몽차 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)자몽차 HOT",
+       "price": 4000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)고구마 라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)오곡 라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)초콜릿 라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)매실차 HOT",
+       "price": 4500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)유자차 HOT",
+       "price": 4500
+      },
+      {
+       "category": "(To Go)Non coff",
+       "name": "(포장)애플시나몬티",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113057.jpg",
+     "fid": "F0CCUHQLZTN",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)아메리카노 ICE",
+       "price": 3500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)카페라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)바닐라라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)헤이즐넛라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)연유돌체라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)카페모카 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)카라멜마끼아또 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)흑임자라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)462크림라떼 ICE",
+       "price": 5500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)헤이즐넛라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)연유돌체라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)카페모카 HOT",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "(포장)카라멜마끼아또 HOT",
+       "price": 4500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "시럽 추가",
+       "price": 500
+      },
+      {
+       "category": "(To Go) Coffee",
+       "name": "샷 추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_20261028_113056.jpg",
+     "fid": "F0CCQMA1K6E",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "아메리카노 ICE",
+       "price": 3000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "카페 라떼 ICE",
+       "price": 3500
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "바닐라 라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "헤이즐넛 라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "연유돌체 라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "카페모카 ICE",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "캬라멜마끼아또 ICE",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "흑임자 라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "462 크림 라떼",
+       "price": 5000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "아메리카노 HOT",
+       "price": 3000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "카페 라떼 HOT",
+       "price": 3500
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "바닐라 라떼 HOT",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "헤이즐넛 라떼 HOT",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "연유돌체 라떼 HOT",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "카페모카 HOT",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "캬라멜 마끼아또 HOT",
+       "price": 4000
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "시럽추가",
+       "price": 500
+      },
+      {
+       "category": "모닝 할인<8-10am>",
+       "name": "샷추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793155047.390059",
+   "replies": [
+    "테이크아웃시 500원 할인이 들어가서 폴더가 나눠져있어요 !"
+   ],
+   "rc": 3,
+   "lr": "1793155105.132609",
    "rfx": 3,
    "status": "wait",
    "handler": null,
