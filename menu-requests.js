@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4319,
- "updatedAt": "2026-10-28 18:38",
+ "version": 4320,
+ "updatedAt": "2026-10-28 18:42",
  "days": 30,
  "items": [
   {
@@ -67456,32 +67456,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790589741744639"
-  },
-  {
-   "ts": "1790588508.641419",
-   "date": "2026-09-28",
-   "time": "18:41",
-   "store": "에인킨드",
-   "biz": "",
-   "pos": "토스포스",
-   "content": "[📧 메일] 제목: 에인킨드_토스 메뉴 등록 관련 파일\n안녕하세요. 에인킨드입니다.\n \n 토스 메뉴 등록 관련 파일 송부드립니다.\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0e76217aed3724>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0e76217aed3724",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790588508641419"
   }
  ],
  "ocr": {
