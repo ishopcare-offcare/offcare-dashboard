@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4288,
- "updatedAt": "2026-10-28 14:51",
+ "version": 4289,
+ "updatedAt": "2026-10-28 15:08",
  "days": 30,
  "items": [
   {
@@ -41,13 +41,291 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CCRG8EY8J",
+     "from": "댓글",
+     "path": "menu-files/1793163966_211879-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "소형견",
+       "name": "~ 3kg 위생 + 목욕",
+       "price": 25000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 3kg 전체 클리핑",
+       "price": 35000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 3kg 스포팅",
+       "price": 60000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 3kg 가위컷",
+       "price": 75000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 5kg 위생 + 목욕",
+       "price": 30000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 5kg 전체 클리핑",
+       "price": 40000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 5kg 스포팅",
+       "price": 65000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 5kg 가위컷",
+       "price": 80000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 7kg 위생 + 목욕",
+       "price": 35000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 7kg 전체 클리핑",
+       "price": 45000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 7kg 스포팅",
+       "price": 70000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 7kg 가위컷",
+       "price": 85000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 9kg 위생 + 목욕",
+       "price": 40000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 9kg 전체 클리핑",
+       "price": 50000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 9kg 스포팅",
+       "price": 75000
+      },
+      {
+       "category": "소형견",
+       "name": "~ 9kg 가위컷",
+       "price": 90000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 3kg 위생 + 목욕",
+       "price": 30000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 3kg 전체 클리핑",
+       "price": 45000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 3kg 스포팅",
+       "price": 70000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 3kg 가위컷",
+       "price": 85000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 5kg 위생 + 목욕",
+       "price": 35000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 5kg 전체 클리핑",
+       "price": 50000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 5kg 스포팅",
+       "price": 75000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 5kg 가위컷",
+       "price": 95000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 7kg 위생 + 목욕",
+       "price": 40000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 7kg 전체 클리핑",
+       "price": 55000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 7kg 스포팅",
+       "price": 80000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 7kg 가위컷",
+       "price": 105000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 9kg 위생 + 목욕",
+       "price": 45000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 9kg 전체 클리핑",
+       "price": 60000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 9kg 스포팅",
+       "price": 85000
+      },
+      {
+       "category": "중형견",
+       "name": "~ 9kg 가위컷",
+       "price": 115000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 3kg 위생 + 목욕",
+       "price": 35000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 3kg 전체 클리핑",
+       "price": 50000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 3kg 스포팅",
+       "price": 75000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 3kg 가위컷",
+       "price": 85000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 5kg 위생 + 목욕",
+       "price": 40000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 5kg 전체 클리핑",
+       "price": 55000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 5kg 스포팅",
+       "price": 80000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 5kg 가위컷",
+       "price": 95000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 7kg 위생 + 목욕",
+       "price": 45000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 7kg 전체 클리핑",
+       "price": 60000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 7kg 스포팅",
+       "price": 85000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 7kg 가위컷",
+       "price": 105000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 9kg 위생 + 목욕",
+       "price": 50000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 9kg 전체 클리핑",
+       "price": 65000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 9kg 스포팅",
+       "price": 90000
+      },
+      {
+       "category": "특수견",
+       "name": "~ 9kg 가위컷",
+       "price": 115000
+      },
+      {
+       "category": "추가요금",
+       "name": "디자인컷 · 크라운, 무슈",
+       "price": 5000
+      },
+      {
+       "category": "추가요금",
+       "name": "디자인컷 · 하이바, 테디, 곰돌이",
+       "price": 10000
+      },
+      {
+       "category": "추가요금",
+       "name": "덧발 모량, 기장, 염색",
+       "price": 5000
+      },
+      {
+       "category": "추가요금",
+       "name": "덧발 1cm",
+       "price": 10000
+      },
+      {
+       "category": "추가요금",
+       "name": "덧발 2cm",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1793164041.366659",
+   "replies": [
+    "카테고리 : 소형견, 중형견,대형견\n9kg 추가 시 kg 당 5,000원 추가 / 디자인컷, 덧발 < 옵션으로 등록\n외 모든 사항 상품으로 등록 요청 주셨습니다."
+   ],
+   "rc": 3,
+   "lr": "1793167680.332329",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793163966211879"
   },
