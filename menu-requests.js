@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4248,
- "updatedAt": "2026-10-28 10:33",
+ "version": 4249,
+ "updatedAt": "2026-10-28 10:34",
  "days": 30,
  "items": [
   {
@@ -67261,29 +67261,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "고경림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790559571271339"
-  },
-  {
-   "ts": "1790559287.794999",
-   "date": "2026-09-28",
-   "time": "10:34",
-   "store": "삼호맛집",
-   "biz": "2160973343",
-   "pos": "토스포스",
-   "content": "한방닭죽을 그냥\"전복 닭죽\"으로1\"전복닭칼국수\"\"전복 닭곰탕\" \"전복 닭개장칼국수\" \"",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "금액 미기재로 통화로 등록 방법 안내 및 수정 완료"
-   ],
-   "rc": 1,
-   "lr": "1790560162.530279",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790559287794999"
   }
  ],
  "ocr": {
