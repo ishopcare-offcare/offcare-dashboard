@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4295,
- "updatedAt": "2026-10-28 15:51",
+ "version": 4296,
+ "updatedAt": "2026-10-28 15:58",
  "days": 30,
  "items": [
   {
@@ -229,8 +229,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793169684.656839",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793169647458549"
   },
   {
@@ -68110,57 +68110,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790579369694059"
-  },
-  {
-   "ts": "1790578675.880139",
-   "date": "2026-09-28",
-   "time": "15:57",
-   "store": "행복식당",
-   "biz": "3683501585",
-   "pos": "토스포스",
-   "content": "해당 매장 유플러스 건입니다.\n스파로스 ->토스포스로 변경 예정으로 메뉴 이관 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C4S0M1FFF",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "국내산돼지양념갈비(200g)",
-       "price": 8000
-      },
-      {
-       "category": "",
-       "name": "코다리회무침(250g)",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "원계란찜",
-       "price": 3000
-      },
-      {
-       "category": "",
-       "name": "명태조림",
-       "price": 20000
-      }
-     ],
-     "path": "menu-files/1790578675_880139-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1790582909.632919",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790578675880139"
   }
  ],
  "ocr": {
