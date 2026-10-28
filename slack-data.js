@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26538,
+  "version": 26539,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -286592,7 +286592,8 @@ window.SLACK_DATA = {
           "req": "10월 28일 오전 9시 30분 / 메뉴복사 O / 프론트",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "명변완료 포프(pc) 온보딩완료",
+          "rr": 1
         }
       ],
       "intake": {
@@ -286730,11 +286731,14 @@ window.SLACK_DATA = {
       },
       "1793147401.244599": {
         "post": "1793147401.244599",
-        "lastSeen": 1793147652.039
+        "lastSeen": 1793147703.165,
+        "r": 1,
+        "day": "2026-10-28",
+        "idx": 1
       },
       "1793147403.388099": {
         "post": "1793147403.388099",
-        "lastSeen": 1793147652.039
+        "lastSeen": 1793147703.165
       }
     },
     "days": {
@@ -391653,8 +391657,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-28": {
-        "cnt": 1,
-        "sumMin": 22.458202683925627,
+        "cnt": 2,
+        "sumMin": 27.064159365495044,
         "over": 0,
         "items": [
           {
@@ -391665,13 +391669,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "transfer",
             "dmin": 32.8
+          },
+          {
+            "hm": "09:30",
+            "min": 4.6,
+            "store": "임마누엘공인중개사사무소",
+            "biz": "7750803747",
+            "who": "고경림",
+            "cat": "nosetup"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-28 09:34",
+    "at": "2026-10-28 09:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -391813,7 +391825,7 @@ window.SLACK_DATA = {
     "2026-10-28": 2
   },
   "noteMig": {
-    "at": "2026-10-28 09:34",
+    "at": "2026-10-28 09:35",
     "pri": {
       "days": 0,
       "failed": [],
