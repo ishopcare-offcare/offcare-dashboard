@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4292,
- "updatedAt": "2026-10-28 15:41",
+ "version": 4293,
+ "updatedAt": "2026-10-28 15:42",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,167 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CCM11MCJH",
+     "from": "댓글",
+     "path": "menu-files/1793169647_458549-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "카스병맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "캔음료",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "마른안주",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CCQAW5GB0",
+     "from": "댓글",
+     "path": "menu-files/1793169647_458549-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "매콤제육정식",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "간장제육정식",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "철판삼겹살정식",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "반찬정식",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "우삼겹덮밥 200g",
+       "price": 9800
+      },
+      {
+       "category": "식사",
+       "name": "우삼겹덮밥 300g",
+       "price": 12800
+      },
+      {
+       "category": "식사",
+       "name": "닭목살덮밥 200g",
+       "price": 9800
+      },
+      {
+       "category": "식사",
+       "name": "닭목살덮밥 300g",
+       "price": 12800
+      },
+      {
+       "category": "식사",
+       "name": "닭목살덮밥 200g 매운맛",
+       "price": 9800
+      },
+      {
+       "category": "식사",
+       "name": "닭목살덮밥 300g 매운맛",
+       "price": 12800
+      },
+      {
+       "category": "식사",
+       "name": "부채살덮밥 150g",
+       "price": 13000
+      },
+      {
+       "category": "식사",
+       "name": "부채살덮밥 150g 매운맛",
+       "price": 13000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CCM15NVRB",
+     "from": "댓글",
+     "path": "menu-files/1793169647_458549-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "부채살덮밥 250g",
+       "price": 19000
+      },
+      {
+       "category": "식사",
+       "name": "부채살덮밥  250g 매운맛",
+       "price": 19000
+      },
+      {
+       "category": "식사",
+       "name": "부채살짜파게티",
+       "price": 13000
+      },
+      {
+       "category": "식사",
+       "name": "훈제오리(2인분)",
+       "price": 25000
+      },
+      {
+       "category": "식사",
+       "name": "매콤제육추가",
+       "price": 4000
+      },
+      {
+       "category": "식사",
+       "name": "간장제육추가",
+       "price": 4000
+      },
+      {
+       "category": "식사",
+       "name": "닭목살추가",
+       "price": 4000
+      },
+      {
+       "category": "식사",
+       "name": "삼겹살추가",
+       "price": 4000
+      },
+      {
+       "category": "식사",
+       "name": "부채살추가(100g)",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793169650.445889",
+   "rc": 2,
+   "lr": "1793169684.656839",
    "rfx": 3,
    "status": "wait",
    "handler": null,
