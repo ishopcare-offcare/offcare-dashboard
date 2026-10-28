@@ -3,10 +3,36 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4315,
- "updatedAt": "2026-10-28 17:24",
+ "version": 4316,
+ "updatedAt": "2026-10-28 17:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1793176308.343169",
+   "date": "2026-10-28",
+   "time": "17:31",
+   "store": "공유 캘린더 ’컴포즈",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: 공유 캘린더 ’컴포즈(메뉴)’에 참여하려면 초대를 수락하세요\n이정현F님이 캘린더를 공유했습니다\\n\\n이정현F <···>님이  \n ’컴포즈(메뉴)’ 캘린더에 대한 일정 세부정보 보기 권한으로 나를  \n 초대했습니다.\\n\\n이 공유 캘린더에 참여하려면 초대를 수락하세요. 언제든지  \n 캘린더를 숨기거나 삭제할 수 있습니다.\\n\\n공유 캘린더에 참여하려면  \n <https://calendar.google.com/calendar/r?cid=Y19lYzg1MmMyOTBkYjA3MzBiNTVjYjFkYTJmNDhhOTBmMWU1NTgyNjRmNGI5ZjVhYmFjOWM1NGY1NWZk>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a181a10d5889fd7>)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a181a10d5889fd7",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793176308343169"
+  },
   {
    "ts": "1793174340.755599",
    "date": "2026-10-28",
