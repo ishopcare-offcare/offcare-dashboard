@@ -3,10 +3,197 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4266,
- "updatedAt": "2026-10-28 11:46",
+ "version": 4267,
+ "updatedAt": "2026-10-28 11:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1793155612.090769",
+   "date": "2026-10-28",
+   "time": "11:46",
+   "store": "물텀벙 아구찜.탕 송악점",
+   "biz": "7555701025",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261028_114246060.jpg",
+     "fid": "F0CDK9QGKNU",
+     "from": "댓글",
+     "path": "menu-files/1793155612_090769-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "순살 아구찜 2인",
+       "price": 42000
+      },
+      {
+       "category": "",
+       "name": "순살 아구찜 3인",
+       "price": 52000
+      },
+      {
+       "category": "",
+       "name": "순살 아구찜 4인",
+       "price": 62000
+      },
+      {
+       "category": "",
+       "name": "오리지널 아구찜(뼈) 2인",
+       "price": 40000
+      },
+      {
+       "category": "",
+       "name": "오리지널 아구찜(뼈) 3인",
+       "price": 50000
+      },
+      {
+       "category": "",
+       "name": "오리지널 아구찜(뼈) 4인",
+       "price": 60000
+      },
+      {
+       "category": "",
+       "name": "알,곤이찜 2인",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "알,곤이찜 3인",
+       "price": 55000
+      },
+      {
+       "category": "",
+       "name": "알,곤이찜 4인",
+       "price": 65000
+      },
+      {
+       "category": "",
+       "name": "황제 해물찜 2인",
+       "price": 55000
+      },
+      {
+       "category": "",
+       "name": "황제 해물찜 3인",
+       "price": 65000
+      },
+      {
+       "category": "",
+       "name": "황제 해물찜 4인",
+       "price": 75000
+      },
+      {
+       "category": "",
+       "name": "아구탕",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "알내장탕",
+       "price": 13000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "아구살 (500g)",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "명란알 (250g)",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "곤이 (300g)",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "갑오징어 (1마리)",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "왕새우 (6마리)",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "미나리",
+       "price": 3000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "순살 아구튀김",
+       "price": 20000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "갑오징어 초무침",
+       "price": 20000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "새우튀김",
+       "price": 15000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "미나리 새우전",
+       "price": 15000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "주류 / 음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류 / 음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 / 음료",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류 / 음료",
+       "name": "복분자",
+       "price": 13000
+      },
+      {
+       "category": "주류 / 음료",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793155632.680539",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793155612090769"
+  },
   {
    "ts": "1793155510.225739",
    "date": "2026-10-28",
