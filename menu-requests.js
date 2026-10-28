@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4271,
- "updatedAt": "2026-10-28 11:56",
+ "version": 4272,
+ "updatedAt": "2026-10-28 11:58",
  "days": 30,
  "items": [
   {
@@ -1069,7 +1069,15 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "상품정보_Seekcoffee_261027.xlsx",
+     "fid": "F0CC9JQC3EK",
+     "from": "댓글",
+     "path": "menu-files/1793152871_932659-0.xlsx",
+     "nj": 1
+    }
+   ],
    "datt": [],
    "replies": [
     "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793152459073659?thread_ts=···.901999&cid=C0ADC9759KQ",
@@ -1078,8 +1086,8 @@ window.MENU_REQUESTS = {
     "나도 일단 문의는 남겨놨음!",
     "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1793154948954419?thread_ts=···.901999&cid=C0ADC9759KQ"
    ],
-   "rc": 9,
-   "lr": "1793155481.830029",
+   "rc": 10,
+   "lr": "1793156271.034369",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
