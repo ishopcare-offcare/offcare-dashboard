@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4251,
- "updatedAt": "2026-10-28 10:46",
+ "version": 4252,
+ "updatedAt": "2026-10-28 10:53",
  "days": 30,
  "items": [
   {
@@ -66937,27 +66937,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790567587419239"
-  },
-  {
-   "ts": "1790560355.398329",
-   "date": "2026-09-28",
-   "time": "10:52",
-   "store": "이방인 혼술바 서울 강남역점",
-   "biz": "8407800673",
-   "pos": "토스포스",
-   "content": "기존 토스포스 코세스 메뉴를 나이스로 이관부탁드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1790561181.410369",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790560355398329"
   }
  ],
  "ocr": {
