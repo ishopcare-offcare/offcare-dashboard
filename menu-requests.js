@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4320,
- "updatedAt": "2026-10-28 18:42",
+ "version": 4321,
+ "updatedAt": "2026-10-28 19:03",
  "days": 30,
  "items": [
   {
@@ -67433,29 +67433,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790642872827949"
-  },
-  {
-   "ts": "1790589741.744639",
-   "date": "2026-09-28",
-   "time": "19:02",
-   "store": "교자501주식회사",
-   "biz": "7658703895",
-   "pos": "",
-   "content": "van 변경으로 인한 메뉴 복사 요청\n기존 :  KCP -> KSNET 변경 토플파 생성 완료",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "오! 감사합니다:woman-bowing::skin-tone-4: :최고심_짱: :감사합니다2:"
-   ],
-   "rc": 4,
-   "lr": "1790589983.760749",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790589741744639"
   }
  ],
  "ocr": {
