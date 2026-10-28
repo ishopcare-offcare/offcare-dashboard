@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26566,
+  "version": 26567,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -286577,6 +286577,9 @@ window.SLACK_DATA = {
     },
     "2026-10-28": {
       "counts": {
+        "extern": {
+          "김동욱": 1
+        },
         "as": {
           "박하림": 2,
           "송태양": 1,
@@ -286601,6 +286604,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:22",
+          "store": "루마코브",
+          "biz": "1457400570",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:15",
           "store": "사랑세차장",
@@ -286747,11 +286761,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:15",
+      "updatedAt": "10:22",
       "absent": [
         {
           "time": "09:55",
@@ -286891,28 +286905,28 @@ window.SLACK_DATA = {
       },
       "1793148314.850869": {
         "post": "1793148314.850869",
-        "lastSeen": 1793150468.425,
+        "lastSeen": 1793150554.651,
         "r": 1,
         "day": "2026-10-28",
         "idx": 4
       },
       "1793148902.518239": {
         "post": "1793148902.518239",
-        "lastSeen": 1793150468.425,
+        "lastSeen": 1793150554.651,
         "r": 1,
         "day": "2026-10-28",
         "idx": 7
       },
       "1793149222.633689": {
         "post": "1793149222.633689",
-        "lastSeen": 1793150468.425,
+        "lastSeen": 1793150554.651,
         "r": 1,
         "day": "2026-10-28",
         "idx": 13
       },
       "1793149768.165359": {
         "post": "1793149768.165359",
-        "lastSeen": 1793150468.425,
+        "lastSeen": 1793150554.651,
         "r": 1,
         "day": "2026-10-28",
         "idx": 9
@@ -391974,7 +391988,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-28 10:21",
+    "at": "2026-10-28 10:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -392116,7 +392130,7 @@ window.SLACK_DATA = {
     "2026-10-28": 2
   },
   "noteMig": {
-    "at": "2026-10-28 10:21",
+    "at": "2026-10-28 10:22",
     "pri": {
       "days": 0,
       "failed": [],
