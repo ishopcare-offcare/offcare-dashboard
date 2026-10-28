@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26776,
+  "version": 26777,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -288053,7 +288053,7 @@ window.SLACK_DATA = {
         "offline": 14,
         "unknown": 0
       },
-      "updatedAt": "15:36",
+      "updatedAt": "15:39",
       "absent": [
         {
           "time": "14:15",
@@ -288105,22 +288105,24 @@ window.SLACK_DATA = {
         ]
       },
       "voc": {
-        "responses": 4,
+        "responses": 8,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 4,
-          "low": 0
+          "count": 8,
+          "low": 2
         },
         "high": {
           "install": 0,
-          "nps": 3
+          "nps": 4
         },
         "npsDist": {
+          "5": 2,
+          "7": 1,
           "9": 1,
-          "10": 3
+          "10": 4
         },
         "installDist": {
           "3": 1
@@ -288129,6 +288131,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 4,
+            "low": 2
+          },
           "구매설치": {
             "total": 1,
             "low": 0
@@ -288143,12 +288149,16 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 3,
+            "low": 1
+          },
+          "SECTA9": {
+            "total": 2,
+            "low": 1
+          },
           "KOCES": {
             "total": 2,
-            "low": 0
-          },
-          "KPN": {
-            "total": 1,
             "low": 0
           },
           "KIS": {
@@ -288156,8 +288166,55 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2
+        },
+        "alerts": [
+          {
+            "time": "15:39",
+            "store": "오프왁(OFFWAX)",
+            "storeId": "437754",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "유료가 아니라서 그런지 제한이많음",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "15:39",
+            "store": "프로스트",
+            "storeId": "443379",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "5",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "15:35",
@@ -288277,83 +288334,83 @@ window.SLACK_DATA = {
       },
       "1793155510.225739": {
         "post": "1793155510.225739",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 33
       },
       "1793159128.962999": {
         "post": "1793159128.962999",
-        "lastSeen": 1793169444.879
+        "lastSeen": 1793169574.133
       },
       "1793161185.714769": {
         "post": "1793161185.714769",
-        "lastSeen": 1793169444.879
+        "lastSeen": 1793169574.133
       },
       "1793163857.118449": {
         "post": "1793163857.118449",
-        "lastSeen": 1793169444.879
+        "lastSeen": 1793169574.133
       },
       "1793164369.679769": {
         "post": "1793164369.679769",
-        "lastSeen": 1793169444.879
+        "lastSeen": 1793169574.133
       },
       "1793168181.704319": {
         "post": "1793168181.704319",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 101
       },
       "1793168588.191199": {
         "post": "1793168588.191199",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 104
       },
       "1793168576.909709": {
         "post": "1793168576.909709",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 102
       },
       "1793168567.663329": {
         "post": "1793168567.663329",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 103
       },
       "1793168940.341259": {
         "post": "1793168940.341259",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 105
       },
       "1793169001.857499": {
         "post": "1793169001.857499",
-        "lastSeen": 1793169444.879
+        "lastSeen": 1793169574.133
       },
       "1793169000.859379": {
         "post": "1793169000.859379",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 106
       },
       "1793169181.101299": {
         "post": "1793169181.101299",
-        "lastSeen": 1793169444.879,
+        "lastSeen": 1793169574.133,
         "r": 1,
         "day": "2026-10-28",
         "idx": 107
       },
       "1793169409.327549": {
         "post": "1793169409.327549",
-        "lastSeen": 1793169444.879
+        "lastSeen": 1793169574.133
       }
     },
     "days": {
@@ -394245,7 +394302,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-28 15:37",
+    "at": "2026-10-28 15:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -394253,7 +394310,7 @@ window.SLACK_DATA = {
     "error": "",
     "rows": 4823,
     "named": 1267,
-    "unknownName": 242,
+    "unknownName": 243,
     "beforeStart": 0,
     "done": 1267,
     "byStatus": {
@@ -394387,7 +394444,7 @@ window.SLACK_DATA = {
     "2026-10-28": 2
   },
   "noteMig": {
-    "at": "2026-10-28 15:37",
+    "at": "2026-10-28 15:39",
     "pri": {
       "days": 0,
       "failed": [],
