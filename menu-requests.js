@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4267,
- "updatedAt": "2026-10-28 11:47",
+ "version": 4268,
+ "updatedAt": "2026-10-28 11:52",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261028_114246060.jpg",
      "fid": "F0CDK9QGKNU",
      "from": "댓글",
-     "path": "menu-files/1793155612_090769-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -182,15 +181,18 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793155612_090769-0.jpg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1793155632.680539",
+   "replies": [
+    "외주작업완료"
+   ],
+   "rc": 3,
+   "lr": "1793155941.062029",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793155612090769"
   },
