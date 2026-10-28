@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 26534,
+  "version": 26535,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -286714,7 +286714,10 @@ window.SLACK_DATA = {
       },
       "1793145602.725839": {
         "post": "1793145602.725839",
-        "lastSeen": 1793146692.706
+        "lastSeen": 1793147207.73,
+        "r": 1,
+        "day": "2026-10-28",
+        "idx": 0
       }
     },
     "days": {
@@ -391631,17 +391634,32 @@ window.SLACK_DATA = {
             "dmin": 2.5
           }
         ]
+      },
+      "2026-10-28": {
+        "cnt": 1,
+        "sumMin": 22.458202683925627,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 22.5,
+            "store": "주식회사 미글커뮤니케이션",
+            "biz": "8258102110",
+            "who": "고경림",
+            "cat": "transfer"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-28 09:18",
+    "at": "2026-10-28 09:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4810,
+    "rows": 4811,
     "named": 1263,
     "unknownName": 237,
     "beforeStart": 0,
@@ -391777,7 +391795,7 @@ window.SLACK_DATA = {
     "2026-10-28": 2
   },
   "noteMig": {
-    "at": "2026-10-28 09:18",
+    "at": "2026-10-28 09:26",
     "pri": {
       "days": 0,
       "failed": [],
