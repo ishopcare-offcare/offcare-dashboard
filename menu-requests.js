@@ -3,39 +3,10 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4269,
- "updatedAt": "2026-10-28 11:53",
+ "version": 4270,
+ "updatedAt": "2026-10-28 11:55",
  "days": 30,
  "items": [
-  {
-   "ts": "1793155980.211329",
-   "date": "2026-10-28",
-   "time": "11:53",
-   "store": "씨크스페셜티커피(SEEK specialty coffee)",
-   "biz": "3750502019",
-   "pos": "",
-   "content": "메뉴등록요청드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "상품정보_Seekcoffee_261027.xlsx",
-     "fid": "F0CCSS5BERF",
-     "from": "댓글",
-     "path": "menu-files/1793155980_211329-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1793156006.328249",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793155980211329"
-  },
   {
    "ts": "1793155612.090769",
    "date": "2026-10-28",
