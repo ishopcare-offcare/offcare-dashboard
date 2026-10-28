@@ -3,10 +3,86 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4290,
- "updatedAt": "2026-10-28 15:36",
+ "version": 4291,
+ "updatedAt": "2026-10-28 15:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1793169409.327549",
+   "date": "2026-10-28",
+   "time": "15:36",
+   "store": "더테이스팅키친",
+   "biz": "5782100298",
+   "pos": "토스포스",
+   "content": "메뉴",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1JlUX35u8OA3LpydzDpGdFeXuJflF5wX9/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1JlUX35u8OA3LpydzDpGdFeXuJflF5wX9",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Steak",
+       "name": "Sirloin 200g 채끝등심 스테이크 (한우1++)",
+       "price": 65000
+      },
+      {
+       "category": "Steak",
+       "name": "Tenderloin 200g 안심 스테이크 (한우1+이상)",
+       "price": 75000
+      },
+      {
+       "category": "Starter",
+       "name": "Spicy Shrimp Salad 스파이시 새우 샐러드",
+       "price": 19500
+      },
+      {
+       "category": "Starter",
+       "name": "Beef Salad 비프 샐러드 (한우1+이상)",
+       "price": 25500
+      },
+      {
+       "category": "Starter",
+       "name": "Ricotta Cheese Salad 리코타 치즈 샐러드",
+       "price": 18500
+      },
+      {
+       "category": "Starter",
+       "name": "Soup of the day 오늘의 스프",
+       "price": 8000
+      },
+      {
+       "category": "Risotto",
+       "name": "Squid Ink Risotto 오징어 먹물 리조또",
+       "price": 20500
+      },
+      {
+       "category": "Risotto",
+       "name": "Mushroom Risotto 머쉬룸 리조또",
+       "price": 19500
+      },
+      {
+       "category": "Risotto",
+       "name": "Seafood Tomato Risotto 해산물 토마토 리조또",
+       "price": 19500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793169409327549"
+  },
   {
    "ts": "1793166248.152099",
    "date": "2026-10-28",
