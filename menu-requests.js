@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4285,
- "updatedAt": "2026-10-28 14:44",
+ "version": 4286,
+ "updatedAt": "2026-10-28 14:45",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793166251.239779",
+   "replies": [
+    "• 당근카스테라 + 땅콩강정 삭제 부탁드립니다. \n• 단호박 식빵 6,000원 추가 생성 부탁드립니다."
+   ],
+   "rc": 2,
+   "lr": "1793166291.221509",
    "rfx": 3,
    "status": "wait",
    "handler": null,
