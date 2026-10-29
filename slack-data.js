@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27165,
+  "version": 27166,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289661,6 +289661,10 @@ window.SLACK_DATA = {
     },
     "2026-10-29": {
       "counts": {
+        "nosetup": {
+          "미지정": 1,
+          "심성현": 4
+        },
         "onboarding": {
           "심성현": 2,
           "고경림": 3,
@@ -289674,9 +289678,6 @@ window.SLACK_DATA = {
           "김동욱": 15,
           "김기범": 4,
           "고경림": 9
-        },
-        "nosetup": {
-          "심성현": 4
         },
         "booking": {
           "김동욱": 2,
@@ -289692,6 +289693,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:45",
+          "store": "카공인 제주인제점",
+          "biz": "6191177838",
+          "cat": "nosetup",
+          "emp": "미지정",
+          "req": "태블릿/노트북 둘중하나 고민중 + 프론트 + 프린터",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:25",
           "store": "오션스케치",
@@ -290542,11 +290554,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 65,
+        "online": 66,
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "12:41",
+      "updatedAt": "12:45",
       "absent": [
         {
           "time": "12:00",
@@ -290665,7 +290677,7 @@ window.SLACK_DATA = {
       },
       "1793233646.610999": {
         "post": "1793233646.610999",
-        "lastSeen": 1793245460.248,
+        "lastSeen": 1793245527.304,
         "r": 1,
         "day": "2026-10-29",
         "idx": 4
@@ -290676,21 +290688,21 @@ window.SLACK_DATA = {
       },
       "1793242800.734549": {
         "post": "1793242800.734549",
-        "lastSeen": 1793245460.248,
+        "lastSeen": 1793245527.304,
         "r": 1,
         "day": "2026-10-29",
         "idx": 52
       },
       "1793245193.463759": {
         "post": "1793245193.463759",
-        "lastSeen": 1793245460.248,
+        "lastSeen": 1793245527.304,
         "r": 1,
         "day": "2026-10-29",
         "idx": 62
       },
       "1793245295.874299": {
         "post": "1793245295.874299",
-        "lastSeen": 1793245460.248,
+        "lastSeen": 1793245527.304,
         "r": 1,
         "day": "2026-10-29",
         "idx": 61
@@ -397915,7 +397927,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-29 12:44",
+    "at": "2026-10-29 12:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -398058,7 +398070,7 @@ window.SLACK_DATA = {
     "2026-10-29": 2
   },
   "noteMig": {
-    "at": "2026-10-29 12:44",
+    "at": "2026-10-29 12:45",
     "pri": {
       "days": 0,
       "failed": [],
