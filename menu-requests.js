@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4377,
- "updatedAt": "2026-10-29 19:12",
+ "version": 4378,
+ "updatedAt": "2026-10-29 19:17",
  "days": 30,
  "items": [
   {
@@ -959,7 +959,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CE07STZ1N",
      "from": "댓글",
-     "path": "menu-files/1793263203_319139-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1073,16 +1072,18 @@ window.MENU_REQUESTS = {
        "price": 16900
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793263203_319139-0.png"
     }
    ],
    "datt": [],
    "replies": [
     "포스 / 키오스크\n\n카테고리에서 이벤트 메뉴, 빙수바보 빙식이, 팥빙수 토핑만 남기고 모두 지우고 위 메뉴는 모두 등록 요청",
-    "일요일까지 꼭 등록 요청"
+    "일요일까지 꼭 등록 요청",
+    "스파로스 포스 \n상호 : 집밥\n\n집밥 -> 코끼리 카페로 변경"
    ],
-   "rc": 2,
-   "lr": "1793268691.618099",
+   "rc": 3,
+   "lr": "1793269030.114999",
    "rfx": 3,
    "status": "wait",
    "handler": null,
