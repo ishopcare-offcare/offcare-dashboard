@@ -3,10 +3,271 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4357,
- "updatedAt": "2026-10-29 16:08",
+ "version": 4358,
+ "updatedAt": "2026-10-29 16:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1793257907.239179",
+   "date": "2026-10-29",
+   "time": "16:11",
+   "store": "길건너피자",
+   "biz": "1770203747",
+   "pos": "토스포스",
+   "content": "전체설정해주시면 됩니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/15QrsmeYpYFKIo3llIaHCvr55H3yZ-U_N/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "15QrsmeYpYFKIo3llIaHCvr55H3yZ-U_N",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "피자",
+       "name": "치즈크러스트 S",
+       "price": 2000
+      },
+      {
+       "category": "피자",
+       "name": "치즈크러스트 L",
+       "price": 3000
+      },
+      {
+       "category": "피자",
+       "name": "골드크러스트(고구마+치즈) S",
+       "price": 2500
+      },
+      {
+       "category": "피자",
+       "name": "골드크러스트(고구마+치즈) L",
+       "price": 3500
+      },
+      {
+       "category": "피자",
+       "name": "치즈피자 S",
+       "price": 10900
+      },
+      {
+       "category": "피자",
+       "name": "치즈피자 L",
+       "price": 16900
+      },
+      {
+       "category": "피자",
+       "name": "페퍼로니피자 S",
+       "price": 11900
+      },
+      {
+       "category": "피자",
+       "name": "페퍼로니피자 L",
+       "price": 17900
+      },
+      {
+       "category": "피자",
+       "name": "하와이안피자 S",
+       "price": 12900
+      },
+      {
+       "category": "피자",
+       "name": "하와이안피자 L",
+       "price": 18900
+      },
+      {
+       "category": "피자",
+       "name": "포테이토피자 S",
+       "price": 13900
+      },
+      {
+       "category": "피자",
+       "name": "포테이토피자 L",
+       "price": 19900
+      },
+      {
+       "category": "피자",
+       "name": "콤비네이션피자 S",
+       "price": 13900
+      },
+      {
+       "category": "피자",
+       "name": "콤비네이션피자 L",
+       "price": 20900
+      },
+      {
+       "category": "피자",
+       "name": "고구마피자 S",
+       "price": 13900
+      },
+      {
+       "category": "피자",
+       "name": "고구마피자 L",
+       "price": 19900
+      },
+      {
+       "category": "피자",
+       "name": "야채피자 S",
+       "price": 12900
+      },
+      {
+       "category": "피자",
+       "name": "야채피자 L",
+       "price": 18900
+      },
+      {
+       "category": "피자",
+       "name": "수제불고기피자 S",
+       "price": 13900
+      },
+      {
+       "category": "피자",
+       "name": "수제불고기피자 L",
+       "price": 21900
+      },
+      {
+       "category": "피자",
+       "name": "미트체다피자 S",
+       "price": 12900
+      },
+      {
+       "category": "피자",
+       "name": "미트체다피자 L",
+       "price": 18900
+      },
+      {
+       "category": "피자",
+       "name": "고르곤졸라피자 S",
+       "price": 13900
+      },
+      {
+       "category": "피자",
+       "name": "고르곤졸라피자 L",
+       "price": 19900
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "치즈 S",
+       "price": 2000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "치즈 L",
+       "price": 3000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "페퍼로니 / 햄 S",
+       "price": 1000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "페퍼로니 / 햄 L",
+       "price": 2000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "베이컨 S",
+       "price": 1000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "베이컨 L",
+       "price": 2000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "올리브 / 콘 / 파인애플 S",
+       "price": 1000
+      },
+      {
+       "category": "토핑(추가)",
+       "name": "올리브 / 콘 / 파인애플 L",
+       "price": 2000
+      },
+      {
+       "category": "파스타",
+       "name": "토마토 파스타",
+       "price": 5900
+      },
+      {
+       "category": "파스타",
+       "name": "로제 파스타",
+       "price": 6900
+      },
+      {
+       "category": "파스타",
+       "name": "크림 파스타",
+       "price": 6900
+      },
+      {
+       "category": "사이드",
+       "name": "윙 & 봉 (4조각)",
+       "price": 6900
+      },
+      {
+       "category": "사이드",
+       "name": "치킨텐더 (4조각)",
+       "price": 5900
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 / 코카콜라 제로 / 칠성사이다 355ml",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 / 코카콜라 제로 / 칠성사이다 500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 / 코카콜라 제로 / 칠성사이다 1.25L",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "오렌지 주스 (델몬트) 400ml",
+       "price": 1500
+      },
+      {
+       "category": "소스",
+       "name": "갈릭",
+       "price": 200
+      },
+      {
+       "category": "소스",
+       "name": "핫소스",
+       "price": 100
+      },
+      {
+       "category": "소스",
+       "name": "파마산",
+       "price": 100
+      },
+      {
+       "category": "소스",
+       "name": "머스타드",
+       "price": 100
+      },
+      {
+       "category": "소스",
+       "name": "피클(수제)",
+       "price": 800
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793257907239179"
+  },
   {
    "ts": "1793253487.959209",
    "date": "2026-10-29",
