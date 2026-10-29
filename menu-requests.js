@@ -3,10 +3,302 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4350,
- "updatedAt": "2026-10-29 14:57",
+ "version": 4351,
+ "updatedAt": "2026-10-29 15:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1793253487.959209",
+   "date": "2026-10-29",
+   "time": "14:58",
+   "store": "처갓집양념치킨",
+   "biz": "1272997607",
+   "pos": "",
+   "content": "메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "20261029_135634.jpg",
+     "fid": "F0CDY99DRG8",
+     "from": "댓글",
+     "path": "menu-files/1793253487_959209-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "안주",
+       "name": "골뱅이(소면)",
+       "price": 19000
+      },
+      {
+       "category": "안주",
+       "name": "돈까스",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "굴짬뽕",
+       "price": 17000
+      },
+      {
+       "category": "안주",
+       "name": "소세지 야채볶음",
+       "price": 20000
+      },
+      {
+       "category": "안주",
+       "name": "모듬소세지",
+       "price": 15000
+      },
+      {
+       "category": "안주",
+       "name": "감자튀김",
+       "price": 12000
+      },
+      {
+       "category": "안주",
+       "name": "오징어튀김",
+       "price": 10000
+      },
+      {
+       "category": "안주",
+       "name": "튀김만두",
+       "price": 10000
+      },
+      {
+       "category": "안주",
+       "name": "어묵김치우동",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "똥집튀김",
+       "price": 14000
+      },
+      {
+       "category": "안주",
+       "name": "어묵탕",
+       "price": 16000
+      },
+      {
+       "category": "안주",
+       "name": "라볶이",
+       "price": 14000
+      },
+      {
+       "category": "안주",
+       "name": "떡튀김",
+       "price": 5000
+      },
+      {
+       "category": "안주",
+       "name": "콘치즈",
+       "price": 7000
+      },
+      {
+       "category": "안주",
+       "name": "라이스치즈볼(6개)",
+       "price": 5000
+      },
+      {
+       "category": "안주",
+       "name": "김말이(6개)",
+       "price": 5000
+      },
+      {
+       "category": "안주",
+       "name": "소면(추가)",
+       "price": 1000
+      },
+      {
+       "category": "안주",
+       "name": "햇반",
+       "price": 2500
+      },
+      {
+       "category": "안주",
+       "name": "반건조오징어",
+       "price": 15000
+      },
+      {
+       "category": "안주",
+       "name": "먹태",
+       "price": 15000
+      },
+      {
+       "category": "안주",
+       "name": "한치",
+       "price": 17000
+      },
+      {
+       "category": "안주",
+       "name": "노가리",
+       "price": 15000
+      },
+      {
+       "category": "안주",
+       "name": "대구포",
+       "price": 11000
+      },
+      {
+       "category": "안주",
+       "name": "쥐포",
+       "price": 10000
+      },
+      {
+       "category": "안주",
+       "name": "황도",
+       "price": 6000
+      },
+      {
+       "category": "안주",
+       "name": "번데기탕",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261029_135639.jpg",
+     "fid": "F0CCXLZCZT5",
+     "from": "댓글",
+     "path": "menu-files/1793253487_959209-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "켈리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "클라우드",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "순하리",
+       "price": 5500
+      },
+      {
+       "category": "주류",
+       "name": "생맥주 500cc",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "생맥주 320cc",
+       "price": 3500
+      },
+      {
+       "category": "주류",
+       "name": "별빛청하",
+       "price": 5500
+      },
+      {
+       "category": "주류",
+       "name": "산토리 하이볼",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "짐빔 하이볼",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "후레쉬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "진로이즈백",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "세로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 5500
+      },
+      {
+       "category": "주류",
+       "name": "코카콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "칠성사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "환타",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "코카콜라 1.25",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "콜라1.25변경",
+       "price": 2500
+      },
+      {
+       "category": "주류",
+       "name": "사과야",
+       "price": 1000
+      },
+      {
+       "category": "주류",
+       "name": "칠성사이다 500ml",
+       "price": 2500
+      },
+      {
+       "category": "주류",
+       "name": "화요",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793253513.492579",
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793253487959209"
+  },
   {
    "ts": "1793253112.540349",
    "date": "2026-10-29",
@@ -67,11 +359,13 @@ window.MENU_REQUESTS = {
      "v": 2
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "메뉴등록 솔라피발송"
+   ],
+   "rc": 1,
+   "lr": "1793253564.611419",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793253112540349"
   },
