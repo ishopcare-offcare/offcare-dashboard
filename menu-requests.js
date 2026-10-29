@@ -3,10 +3,78 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4347,
- "updatedAt": "2026-10-29 14:51",
+ "version": 4348,
+ "updatedAt": "2026-10-29 14:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1793253112.540349",
+   "date": "2026-10-29",
+   "time": "14:51",
+   "store": "단대 오거리 장어",
+   "biz": "8545001279",
+   "pos": "토스포스",
+   "content": "1kg  대 32,000원\n     중 33,000원\n     소 34,000원",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1XJh2wGa5QLZF95wkkFfepgy2XCeGym-7/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1CWBDepgAZacdvbdc14SGDEUpqUdUmXCr/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1XJh2wGa5QLZF95wkkFfepgy2XCeGym-7",
+     "kind": "other",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1CWBDepgAZacdvbdc14SGDEUpqUdUmXCr",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "1kg 大 2마리",
+       "price": 32000
+      },
+      {
+       "category": "",
+       "name": "1kg 中 3마리",
+       "price": 33000
+      },
+      {
+       "category": "",
+       "name": "1kg 小 4마리",
+       "price": 34000
+      },
+      {
+       "category": "",
+       "name": "간장,고추장 소스",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "초생강채",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "손질장어 1kg",
+       "price": 47000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793253112540349"
+  },
   {
    "ts": "1793250057.740389",
    "date": "2026-10-29",
@@ -66100,38 +66168,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790662008437779"
-  },
-  {
-   "ts": "1790661177.192909",
-   "date": "2026-09-29",
-   "time": "14:52",
-   "store": "스시집 막내아들",
-   "biz": "6113101308",
-   "pos": "퍼스트포스",
-   "content": "메뉴 추가 및 비용 수정 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C54LU579C",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790661177_192909-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "식사류 >\n활어회덮밥 / 참치회덮밥 추가 16,900원\n회덮밥이랑 같은 그림 사용\n\n튀김 >\n모듬 튀김 18,000원 금액 수정\n감자고로케 4,500원 금액 수정\n왕새우 4,500원 금액 수정\n멘보샤 4,500원 금액 수정\n가라아게 5p 6,000원 금액 수정\n가라아게 20p 22,000원 금액 수정"
-   ],
-   "rc": 6,
-   "lr": "1790661994.333929",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790661177192909"
   }
  ],
  "ocr": {
