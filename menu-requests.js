@@ -3,10 +3,38 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4332,
- "updatedAt": "2026-10-29 11:04",
+ "version": 4333,
+ "updatedAt": "2026-10-29 12:04",
  "days": 30,
  "items": [
+  {
+   "ts": "1793243016.554269",
+   "date": "2026-10-29",
+   "time": "12:03",
+   "store": "사이공 프리미엄 베트남 힐링케어",
+   "biz": "7430903387",
+   "pos": "토스포스",
+   "content": "파일",
+   "special": "파일",
+   "drive": [
+    "https://drive.google.com/file/d/1a-H_8aRO7oEkSXkhZgKvJWQnDNFicjO9/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1a-H_8aRO7oEkSXkhZgKvJWQnDNFicjO9",
+     "nj": 1
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793243016554269"
+  },
   {
    "ts": "1793237161.569079",
    "date": "2026-10-29",
