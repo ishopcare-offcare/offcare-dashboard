@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4340,
- "updatedAt": "2026-10-29 13:59",
+ "version": 4341,
+ "updatedAt": "2026-10-29 14:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1793250057.740389",
+   "date": "2026-10-29",
+   "time": "14:00",
+   "store": "초우정",
+   "biz": "5652000091",
+   "pos": "",
+   "content": "메뉴 수정 후 문자 발송 부탁드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 식사류\n특왕갈비탕 삭제\n고기 물냉면 삭제\n고기 비냉 삭제\n고기 추가 삭제\n일반갈비탕 12,000원 추가\n\n• 고기류\n버섯갈비전골 중 40,000원 수정"
+   ],
+   "rc": 2,
+   "lr": "1793250074.802679",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793250057740389"
+  },
   {
    "ts": "1793249928.739749",
    "date": "2026-10-29",
