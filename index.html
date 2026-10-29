@@ -242,9 +242,9 @@
   .nps-kpi-val small{font-size:13px; color:var(--gray2); font-weight:700}
   .nps-kpi-sub{font-size:12px; color:var(--gray2); margin-top:2px}
   @media (max-width:760px){ .nps-kpis{grid-template-columns:repeat(2,1fr)} }
-  /* 만족도 레이스 — 순위별 한 줄 트랙 */
+  /* 만족도 레이스 — 순위별 한 줄 트랙 · 순위마다 탈것이 다르다 */
   .nps-race{display:flex; flex-direction:column; gap:8px}
-  .nps-lane{display:grid; grid-template-columns:44px 150px 1fr 118px; align-items:center; gap:10px; cursor:pointer;
+  .nps-lane{display:grid; grid-template-columns:44px 150px 1fr 150px; align-items:center; gap:10px; cursor:pointer;
     padding:4px 10px 4px 6px; border-radius:16px; transition:.15s}
   .nps-lane:hover{background:var(--surface)}
   .nps-lane-rk{font-size:26px; text-align:center; line-height:1}
@@ -252,33 +252,55 @@
     background:var(--surface); color:var(--ink-soft); font-size:15px; font-weight:800}
   .nps-lane-who b{display:block; font-size:15px; color:var(--ink)}
   .nps-lane-who small{font-size:12px; color:var(--gray); font-weight:600}
+  .nps-lane.zero .nps-lane-who small{color:var(--red)}
   .nps-track{position:relative; height:62px; border-radius:14px; overflow:hidden}
   .nps-trail{position:absolute; left:0; top:50%; height:0; border-top:3px dashed rgba(255,255,255,.75)}
-  .nps-runner{position:absolute; bottom:0; transform:translateX(-50%); display:flex; align-items:flex-end}
-  .nps-ride{font-size:24px; margin-right:-6px; margin-bottom:8px; filter:drop-shadow(0 2px 2px rgba(0,0,0,.25))}
+  .nps-runner{position:absolute; bottom:2px; transform:translateX(-50%); display:flex; align-items:flex-end}
+  .nps-ride{font-size:30px; line-height:1; margin-right:-12px; margin-bottom:4px; filter:drop-shadow(0 2px 2px rgba(0,0,0,.25))}
   .nps-goal{position:absolute; right:8px; top:50%; transform:translateY(-50%); font-size:28px; filter:drop-shadow(0 2px 3px rgba(0,0,0,.25))}
   .nps-lane-cap{font-size:12.5px; font-weight:800; color:var(--ink-soft); white-space:nowrap}
-  /* 줄 배경: 우주 → 지구 → 하늘 → 들판 → 땅속 */
-  .t-mars .nps-track{background:radial-gradient(circle at 12% 30%,#fff 0 1px,transparent 2px),radial-gradient(circle at 37% 70%,#fff 0 1px,transparent 2px),
-    radial-gradient(circle at 58% 22%,#fff 0 1px,transparent 2px),radial-gradient(circle at 78% 64%,#fff 0 1px,transparent 2px),linear-gradient(90deg,#070b26,#2a1a5e 60%,#7a2a18)}
-  .t-mars .nps-lane-cap{color:#c2410c}
-  .t-earth .nps-track{background:linear-gradient(90deg,#16205a,#2f7de1)}
-  .t-plane .nps-track{background:linear-gradient(90deg,#8cc1ff,#d6ecff)}
-  .t-plane .nps-trail{border-top-color:rgba(255,255,255,.95)}
-  .t-run .nps-track{background:linear-gradient(180deg,#bfe0ff 0 58%,#5cc85a 58% 64%,#3fa33e 64%)}
-  .t-dirt .nps-track{background:linear-gradient(180deg,#d6ecff 0 34%,#5cc85a 34% 40%,#a8743f 40%,#6e4520)}
-  .t-dirt .nps-lane-cap{color:#8a5a2c}
   /* 상점 아바타 카드 배경을 빼고 캐릭터만 */
   .nps-race .avatar-big{background:none; border:none; box-shadow:none; border-radius:0}
   .nps-race .ab-glow, .nps-race .ab-platform{display:none}
-  .nps-race .av-mini{margin:0 0 -6px; filter:drop-shadow(0 2px 3px rgba(0,0,0,.25))}
-  /* 꼴등: 머리만 땅 위로 */
-  .nps-sunk{width:46px; height:36px; overflow:hidden; margin-bottom:20px}
-  .nps-sunk .av-mini{margin:0; animation:npsWig 1.4s ease-in-out infinite}
-  .nps-sunk .ab-char{animation:none}
-  @keyframes npsWig{25%{transform:rotate(-4deg)} 75%{transform:rotate(4deg)}}
-  .nps-mound{position:absolute; left:10px; bottom:14px; width:62px; height:14px; border-radius:50% 50% 6px 6px; background:#8a5a2c; box-shadow:inset 0 3px 0 #a8743f}
-  .t-dirt .nps-ride{order:2; margin:0 0 18px 2px}
+  .nps-av{position:relative; z-index:1; margin-bottom:-6px; filter:drop-shadow(0 2px 3px rgba(0,0,0,.25))}
+  .nps-av .av-mini{margin:0}
+  /* 줄 배경 — 우주에서 땅속(관)까지 */
+  .t-ufo .nps-track{background:radial-gradient(circle at 12% 30%,#fff 0 1px,transparent 2px),radial-gradient(circle at 37% 70%,#fff 0 1px,transparent 2px),
+    radial-gradient(circle at 58% 22%,#fff 0 1px,transparent 2px),radial-gradient(circle at 78% 64%,#fff 0 1px,transparent 2px),linear-gradient(90deg,#070b26,#2a1a5e 60%,#5b2a8a)}
+  .t-ufo .nps-lane-cap{color:#7c3aed}
+  .t-rocket .nps-track{background:radial-gradient(circle at 20% 40%,#fff 0 1px,transparent 2px),radial-gradient(circle at 66% 30%,#fff 0 1px,transparent 2px),linear-gradient(90deg,#16205a,#3b5bd1)}
+  .t-rocket .nps-ride{transform:rotate(45deg); margin-bottom:12px}
+  .t-plane .nps-track{background:linear-gradient(90deg,#8cc1ff,#d6ecff)}
+  .t-plane .nps-ride{margin-bottom:16px}
+  /* 윈도우 이모지는 왼쪽을 보고 있다 → 오른쪽(결승선)으로 달리게 뒤집는다 */
+  .t-plane .nps-ride, .t-ktx .nps-ride, .t-car .nps-ride, .t-moto .nps-ride, .t-kick .nps-ride{transform:scaleX(-1)}
+  .t-ktx .nps-track{background:linear-gradient(180deg,#cfe7ff 0 62%,#9aa4b5 62% 66%,#c7cdd8 66% 80%,#9aa4b5 80% 84%,#d7dbe3 84%)}
+  .t-car .nps-track, .t-moto .nps-track{background:linear-gradient(180deg,#cfe7ff 0 46%,#4b5563 46%,#374151);
+    background-image:linear-gradient(90deg,#fde047 0 22px,transparent 22px 44px),linear-gradient(180deg,#cfe7ff 0 46%,#4b5563 46%,#374151);
+    background-size:44px 3px,100% 100%; background-position:0 78%,0 0; background-repeat:repeat-x,no-repeat}
+  .t-kick .nps-track{background:linear-gradient(180deg,#d6ecff 0 56%,#e5e7eb 56%); background-image:linear-gradient(90deg,#d1d5db 2px,transparent 2px),linear-gradient(180deg,#d6ecff 0 56%,#e5e7eb 56%);
+    background-size:34px 100%,100% 100%}
+  .t-run .nps-track{background:linear-gradient(180deg,#bfe0ff 0 56%,#e76f51 56% 100%); background-image:linear-gradient(180deg,transparent 74%,rgba(255,255,255,.7) 74% 77%,transparent 77%),linear-gradient(180deg,#bfe0ff 0 56%,#e76f51 56% 100%)}
+  .t-cart .nps-track{background:linear-gradient(180deg,#f3e3c3 0 50%,#c8a06a 50%,#a8743f)}
+  .t-cart .nps-av{transform:rotate(14deg); transform-origin:bottom center}
+  .nps-cart{width:58px; height:40px; margin-right:-10px; margin-bottom:2px}
+  .nps-sweat{font-size:16px; margin:0 0 34px -10px; z-index:2; animation:npsDrip 1.2s ease-in infinite}
+  @keyframes npsDrip{0%{transform:translateY(-4px); opacity:1} 100%{transform:translateY(8px); opacity:0}}
+  .t-fall .nps-track{background:linear-gradient(180deg,#e7ddd0 0 54%,#b08a5a 54%,#8a6a40)}
+  .t-fall .nps-av{transform:rotate(-80deg); transform-origin:50% 60%; margin:0 0 -10px 10px}
+  .nps-dizzy{position:absolute; left:2px; top:-4px; font-size:18px; z-index:2; animation:npsSpin 1.6s linear infinite}
+  @keyframes npsSpin{to{transform:rotate(360deg)}}
+  .nps-peel{font-size:16px; margin-left:-4px}
+  .t-hosp .nps-track{background:linear-gradient(180deg,#ecfdf5 0 64%,#d1fae5 64%)}
+  .t-hosp .nps-av{transform:rotate(-90deg); transform-origin:50% 60%; margin:0 0 -10px 0}
+  .nps-bandage{position:absolute; left:4px; top:12px; font-size:16px; z-index:2}
+  .t-hosp .nps-lane-cap{color:#0f766e}
+  .t-hosp .nps-ride{margin:0 0 4px 4px}
+  .t-grave .nps-track{background:linear-gradient(180deg,#3f3f46 0 58%,#52525b 58%,#27272a)}
+  .t-grave .nps-av{filter:grayscale(1) opacity(.55); transform:translateY(-8px); animation:npsGhost 2.4s ease-in-out infinite}
+  @keyframes npsGhost{50%{transform:translateY(-14px)}}
+  .nps-coffin{font-size:34px; margin-right:-20px; z-index:2; filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
+  .t-grave .nps-lane-cap{color:#52525b}
   .nps-race-empty{padding:40px 20px; text-align:center; color:var(--gray); font-weight:700}
   @media (max-width:760px){
     .nps-lane{grid-template-columns:34px 92px 1fr; gap:6px}
@@ -303,7 +325,6 @@
   .nps-q{color:var(--gray)}
   .nps-score{font-weight:800; padding:2px 8px; border-radius:20px}
   .nps-score.good{background:var(--green-soft); color:#15803d} .nps-score.mid{background:#fff4d6; color:#b45309} .nps-score.bad{background:var(--red-soft); color:var(--red)}
-  .nps-nores{font-size:12.5px; color:var(--gray2); margin-top:10px}
   .nps-none{color:var(--gray); text-align:center; padding:18px}
   .nps-cnt{font-size:13px; font-weight:800; color:var(--blue); background:var(--blue-soft); padding:1px 9px; border-radius:20px; margin-left:4px}
   .nps-voices{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:10px; max-height:620px; overflow-y:auto}
@@ -4475,7 +4496,7 @@ function renderAdmin(){
 /* ================= ⭐ NPS (원격지원 만족도 조사) ================= */
 // 원본: 구글시트 'new 아이샵케어 원격지원 만족도 조사 대시보드'의 직원별 응답 탭 → scripts/fetch-nps.js → nps-data.js
 // 점수는 0~10. 평점 = 전반 만족도(첫 문항) 평균. NPS = 추천(9~10점) 비율 − 비추천(0~6점) 비율.
-// 순위는 그 기간 응답이 1건 이상인 직원끼리만 매긴다(응답 없는 직원을 꼴등으로 묻지 않는다).
+// 순위에는 응답 0건 직원도 넣는다(사용자 요청 — 0건은 맨 뒤, 평점 없음은 평점 순에서도 뒤).
 let npsBy='cnt';      // 순위 기준: 'cnt' 응답 수 | 'avg' 평점
 let npsPeriod='all';  // 'all' 전체 | 'this' 이번 달 | 'last' 지난 달
 let npsSel='';        // 아래 의견 목록에 펼친 직원('' = 1위)
@@ -4500,37 +4521,55 @@ function npsRanked(){
   const cmp = npsBy==='avg'
     ? (a,b)=>r2(b.avg)-r2(a.avg) || b.n-a.n || a.emp.localeCompare(b.emp)
     : (a,b)=>b.n-a.n || r2(b.avg)-r2(a.avg) || a.emp.localeCompare(b.emp);
-  return {ranked:all.filter(s=>s.n>0).sort(cmp), none:all.filter(s=>s.n===0)};
+  return {ranked:all.sort(cmp)};
 }
 const npsFmt=v=>v==null?'-':v.toFixed(1);
 function npsMetric(s){ return npsBy==='avg' ? `⭐ ${npsFmt(s.avg)}점 · ${s.n}건` : `💬 ${s.n}건 · ⭐ ${npsFmt(s.avg)}`; }
-function npsTag(rank, s, cls){ return `<div class="nps-tag ${cls||''}"><span class="nps-rk">${rank}위</span> ${escapeHtml(s.emp)} <small>${npsMetric(s)}</small></div>`; }
 
-// ── 만족도 레이스 — 1위부터 꼴등까지 한 줄씩. 캐릭터는 기준값만큼 트랙을 달려 나가 있다.
-//    줄 배경으로 순위를 표현: 1위 우주(화성 도착) · 2위 지구 · 3위 하늘(비행기) · 중간 들판 · 꼴등 땅속
-const NPS_TIER={
-  mars: {cap:'화성 도착! 🚀', ride:'🚀', goal:'🪐'},
-  earth:{cap:'지구 도착 🌍',  ride:'',   goal:'🌍'},
-  plane:{cap:'비행 중 ✈️',    ride:'✈️', goal:'☁️'},
-  run:  {cap:'달리는 중 🏃',  ride:'💨', goal:'🏁'},
-  dirt: {cap:'땅속… 살려줘 💦', ride:'⛏️', goal:'🏁'},
-};
+// ── 만족도 레이스 — 1위부터 꼴등까지 한 줄씩. 캐릭터는 기준값만큼 트랙을 나가 있다.
+//    순위마다 탈것·장면이 다르다(사용자 지정): 1 우주선 · 2 로켓 · 3 비행기 · 4 고속철도 · 5 스포츠카 · 6 오토바이
+//    · 7 퀵보드 · 8 달리기 · 9 리어카 · 10 넘어짐 · 11 병원 · 12위부터 관속
+const NPS_CART=`<svg viewBox="0 0 64 44" class="nps-cart"><path d="M2 10 L44 10 L40 30 L8 30Z" fill="#c8894a" stroke="#8a5a2c" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M10 16 L40 16 M12 23 L38 23" stroke="#8a5a2c" stroke-width="2"/><path d="M42 18 L62 22" stroke="#8a5a2c" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="16" cy="34" r="8" fill="#4b5563"/><circle cx="16" cy="34" r="3" fill="#d1d5db"/><circle cx="34" cy="34" r="8" fill="#4b5563"/><circle cx="34" cy="34" r="3" fill="#d1d5db"/>
+  <path d="M6 8 Q10 0 18 6 Q24 -1 30 6 Q36 1 40 8" fill="#7cb342"/></svg>`;
+const NPS_TIERS=[
+  {k:'ufo',    ride:'🛸', cap:'우주선 타고 우주로 🛸', goal:'🪐'},
+  {k:'rocket', ride:'🚀', cap:'로켓 발사 🚀',          goal:'🌙'},
+  {k:'plane',  ride:'✈️', cap:'비행기 ✈️',             goal:'☁️'},
+  {k:'ktx',    ride:'🚄', cap:'고속철도 🚄',           goal:'🚉'},
+  {k:'car',    ride:'🏎️', cap:'스포츠카 🏎️',          goal:'🏁'},
+  {k:'moto',   ride:'🏍️', cap:'오토바이 🏍️',          goal:'🏁'},
+  {k:'kick',   ride:'🛴', cap:'퀵보드 🛴',             goal:'🏁'},
+  {k:'run',    ride:'💨', cap:'달리기 🏃',             goal:'🏁'},
+  {k:'cart',   ride:NPS_CART, cap:'리어카 끄는 중… 💦', goal:'🏁'},
+  {k:'fall',   ride:'',   cap:'꽈당! 넘어짐 💫',       goal:'🏁'},
+  {k:'hosp',   ride:'🚑', cap:'병원 신세 🏥',          goal:'🏥'},
+  {k:'grave',  ride:'',   cap:'관속… ⚰️',              goal:'🪦'},
+];
 function npsRace(ranked){
   const N=ranked.length;
-  if(!N) return `<div class="nps-race-empty">이 기간에는 아직 만족도 응답이 없어요 🛰️</div>`;
-  const val=s=>npsBy==='avg'?(s.avg||0):s.n, max=Math.max(...ranked.map(val));
-  // 평점은 대부분 9.7~10 이라 0~10 으로 놓으면 다 붙어 버린다 → 최저점 조금 아래부터 10 까지를 트랙으로
-  const lo = npsBy==='avg' ? Math.max(0, Math.min(...ranked.map(val))-0.3) : 0;
-  const pos=s=>{ const span=max-lo; return span>0 ? 6+80*(val(s)-lo)/span : 86; };
+  if(!N) return `<div class="nps-race-empty">직원 목록이 비어 있어요</div>`;
+  // 평점은 대부분 9.7~10 이라 0~10 으로 놓으면 다 붙어 버린다 → 최저점 조금 아래부터를 트랙으로. 응답 0건은 출발선.
+  const avgs=ranked.map(s=>s.avg).filter(v=>v!=null);
+  const lo = npsBy==='avg' ? Math.max(0, (avgs.length?Math.min(...avgs):0)-0.3) : 0;
+  const val=s=>npsBy==='avg'?(s.avg==null?lo:s.avg):s.n, max=Math.max(...ranked.map(val));
+  const pos=s=>{ const span=max-lo; return span>0 ? 6+80*(val(s)-lo)/span : 6; };
   return `<div class="nps-race">${ranked.map((s,i)=>{
-    const tier = i===0?'mars':i===1?'earth':i===2?'plane':(N>=4&&i===N-1)?'dirt':'run', T=NPS_TIER[tier], p=pos(s).toFixed(1);
+    const T=NPS_TIERS[Math.min(i, NPS_TIERS.length-1)], p=pos(s).toFixed(1);
     const rk = i<3 ? ['🥇','🥈','🥉'][i] : `<span>${i+1}</span>`;
-    const av = tier==='dirt' ? `<div class="nps-sunk">${avatarMini(s.emp, 46)}</div><div class="nps-mound"></div>` : avatarMini(s.emp, 46);
-    return `<div class="nps-lane t-${tier}" onclick="setNpsSel('${escapeHtml(s.emp)}')" title="눌러서 ${escapeHtml(s.emp)} 님 고객 의견 보기">
+    const av=avatarMini(s.emp, 46);
+    let runner;
+    if(T.k==='cart')       runner=`<span class="nps-ride">${T.ride}</span><div class="nps-av">${av}</div><span class="nps-sweat">💦</span>`;
+    else if(T.k==='fall')  runner=`<span class="nps-dizzy">💫</span><div class="nps-av">${av}</div><span class="nps-peel">🍌</span>`;
+    else if(T.k==='hosp')  runner=`<div class="nps-av">${av}</div><span class="nps-bandage">🩹</span><span class="nps-ride">${T.ride}</span>`;
+    else if(T.k==='grave') runner=`<span class="nps-coffin">⚰️</span><div class="nps-av">${av}</div>`;
+    else                   runner=`${T.ride?`<span class="nps-ride">${T.ride}</span>`:''}<div class="nps-av">${av}</div>`;
+    return `<div class="nps-lane t-${T.k}${s.n?'':' zero'}" onclick="setNpsSel('${escapeHtml(s.emp)}')" title="눌러서 ${escapeHtml(s.emp)} 님 고객 응답 보기">
       <div class="nps-lane-rk">${rk}</div>
       <div class="nps-lane-who"><b>${escapeHtml(s.emp)}</b><small>${npsMetric(s)}</small></div>
       <div class="nps-track"><div class="nps-trail" style="width:${p}%"></div>
-        <div class="nps-runner" style="left:clamp(34px, ${p}%, calc(100% - 62px))">${T.ride?`<span class="nps-ride">${T.ride}</span>`:''}${av}</div>
+        <div class="nps-runner" style="left:clamp(58px, ${p}%, calc(100% - 70px))">${runner}</div>
         <div class="nps-goal">${T.goal}</div></div>
       <div class="nps-lane-cap">${T.cap}</div></div>`; }).join('')}</div>`;
 }
@@ -4544,11 +4583,11 @@ function renderNps(){
       <div class="controls">${seg(npsPeriod,'setNpsPeriod',[['all','전체'],['this','이번 달'],['last','지난 달']])}${seg(npsBy,'setNpsBy',[['cnt','💬 응답 수 순'],['avg','⭐ 평점 순']])}</div>
     </div>`;
   if(!D){ document.getElementById("main").innerHTML=head; return; }
-  const {ranked, none}=npsRanked();
+  const {ranked}=npsRanked();
   const all=ranked.flatMap(s=>s.list), q1=all.map(r=>r.s[0]).filter(v=>v!=null);
   const tPro=q1.filter(v=>v>=9).length, tDet=q1.filter(v=>v<=6).length;
   const kpi=(lab,val,sub)=>`<div class="nps-kpi"><div class="nps-kpi-lab">${lab}</div><div class="nps-kpi-val">${val}</div>${sub?`<div class="nps-kpi-sub">${sub}</div>`:''}</div>`;
-  const kpis=`<div class="nps-kpis">${kpi('응답 수', all.length.toLocaleString()+'건', `${ranked.length}명 응답 받음`)}${kpi('팀 평점', npsFmt(npsAvg(q1))+'<small> / 10</small>', '전반 만족도 평균')}
+  const kpis=`<div class="nps-kpis">${kpi('응답 수', all.length.toLocaleString()+'건', `${ranked.filter(s=>s.n).length}명 응답 받음 · 0건 ${ranked.filter(s=>!s.n).length}명`)}${kpi('팀 평점', npsFmt(npsAvg(q1))+'<small> / 10</small>', '전반 만족도 평균')}
     ${kpi('팀 NPS', q1.length?Math.round((tPro-tDet)/q1.length*100):'-', `추천 ${tPro} · 비추천 ${tDet}`)}${kpi('고객 의견', all.filter(r=>r.c).length+'건', '의견을 남긴 응답')}</div>`;
   const sel = ranked.find(s=>s.emp===npsSel) || ranked[0];
   const rows=ranked.map((s,i)=>`<tr class="${sel&&s.emp===sel.emp?'on':''}" onclick="setNpsSel('${escapeHtml(s.emp)}')">
@@ -4561,7 +4600,7 @@ function renderNps(){
   const table=`<div class="card"><div class="card-head"><h3>📋 직원별 만족도</h3><span class="hint">줄을 누르면 아래에 그 직원의 고객 의견이 나와요</span></div>
     <div class="nps-table-wrap"><table class="nps-table"><thead><tr><th>순위</th><th>직원</th><th class="num">응답 수</th><th class="num">평점</th><th class="num">NPS</th>
       ${NPS_Q.slice(1).map(q=>`<th class="num nps-q">${q}</th>`).join('')}<th class="num">의견</th></tr></thead><tbody>${rows||`<tr><td colspan="9" class="nps-none">응답이 없어요</td></tr>`}</tbody></table></div>
-    ${none.length?`<div class="nps-nores">이 기간 응답 없음 · ${none.map(s=>escapeHtml(s.emp)).join(' · ')}</div>`:''}</div>`;
+</div>`;
   let voices='';
   if(sel){
     const withC=sel.list.filter(r=>r.c).length;
@@ -4571,7 +4610,7 @@ function renderNps(){
         return `<div class="nps-voice${sc!=null&&sc<=6?' low':''}${r.c?'':' empty'}"><div class="nps-v-top"><span class="nps-v-sc">${sc==null?'점수 없음':'⭐ '+sc}</span><b>${escapeHtml(r.shop||'매장명 없음')}</b><span class="nps-v-d">${r.d.slice(0,10)}</span></div>
           <div class="nps-v-c">${r.c?escapeHtml(r.c):'의견 없이 별점만 남겼어요'}</div></div>`; }).join('') || '<div class="nps-none">응답이 없어요</div>'}</div></div>`;
   }
-  document.getElementById("main").innerHTML = head + kpis + `<div class="card nps-race-card"><div class="card-head"><h3>🚀 만족도 레이스</h3><span class="hint">${npsBy==='avg'?'평점':'응답 수'} 기준 · 1위 화성 · 2위 지구 · 3위 비행기 · 꼴등은 땅속… · 줄을 누르면 고객 의견</span></div>${npsRace(ranked)}</div>` + table + voices;
+  document.getElementById("main").innerHTML = head + kpis + `<div class="card nps-race-card"><div class="card-head"><h3>🚀 만족도 레이스</h3><span class="hint">${npsBy==='avg'?'평점':'응답 수'} 기준 · 1위 우주선부터 12위 관속까지 · 줄을 누르면 고객 응답</span></div>${npsRace(ranked)}</div>` + table + voices;
 }
 function setNpsBy(k){ npsBy=k; npsSel=''; renderNps(); }
 function setNpsPeriod(k){ npsPeriod=k; npsSel=''; renderNps(); }
