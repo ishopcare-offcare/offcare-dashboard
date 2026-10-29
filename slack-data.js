@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27523,
+  "version": 27524,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289708,7 +289708,7 @@ window.SLACK_DATA = {
           "박하림": 1
         },
         "menu": {
-          "김동욱": 2,
+          "김동욱": 3,
           "고경림": 2,
           "최민석": 1,
           "심성현": 5
@@ -290008,6 +290008,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "업무 중 1945 통화 예약 요청",
           "rr": 1
+        },
+        {
+          "time": "18:21",
+          "store": "카페퍼퓸",
+          "biz": "2746300585",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "신규 설치 예정 메뉴 등록",
+          "hw": "",
+          "intake": "offline",
+          "note": "",
+          "rr": 3
         },
         {
           "time": "18:17",
@@ -292462,7 +292474,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 206,
-        "offline": 30,
+        "offline": 31,
         "unknown": 0
       },
       "updatedAt": "23:06",
@@ -401317,7 +401329,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 07:30",
+    "at": "2026-10-30 07:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401461,7 +401473,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 07:30",
+    "at": "2026-10-30 07:45",
     "pri": {
       "days": 0,
       "failed": [],
