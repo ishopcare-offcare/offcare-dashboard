@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4337,
- "updatedAt": "2026-10-29 12:57",
+ "version": 4338,
+ "updatedAt": "2026-10-29 13:01",
  "days": 30,
  "items": [
   {
@@ -66608,27 +66608,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790655557782039"
-  },
-  {
-   "ts": "1790654404.152009",
-   "date": "2026-09-29",
-   "time": "13:00",
-   "store": "로칼밥상 서정점",
-   "biz": "4492602071",
-   "pos": "",
-   "content": "토플파 천안두정점으로 메뉴 복제하고 바뀐 고유번호로 재온보딩 필요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1790656041.857859",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790654404152009"
   }
  ],
  "ocr": {
