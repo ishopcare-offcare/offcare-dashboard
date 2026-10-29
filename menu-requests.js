@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4321,
- "updatedAt": "2026-10-28 19:03",
+ "version": 4322,
+ "updatedAt": "2026-10-29 09:48",
  "days": 30,
  "items": [
   {
@@ -67412,27 +67412,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790643532426979"
-  },
-  {
-   "ts": "1790642872.827949",
-   "date": "2026-09-29",
-   "time": "09:47",
-   "store": "스몰굿커피 문정점",
-   "biz": "6412901913",
-   "pos": "",
-   "content": "디카페인 500 ->800원 변경 등 옵션부분이랑 메뉴명 오타\n크림추가, 크림빼기등 옵션 추가\n\n자세한 사항은 점주님과 유선으로 체크 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1790644048.374479",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790642872827949"
   }
  ],
  "ocr": {
