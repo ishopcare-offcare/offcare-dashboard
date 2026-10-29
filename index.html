@@ -308,6 +308,20 @@
     .nps-lane-who b{font-size:13.5px}
     .nps-lane-who small{font-size:11px}
   }
+  .nps-month{border:none; background:var(--surface); border-radius:11px; padding:8px 12px; font:inherit; font-size:13.5px; font-weight:600; color:var(--gray); cursor:pointer}
+  .nps-month.on{background:var(--canvas); color:var(--ink); box-shadow:0 0 0 3px var(--surface), 0 1px 2px rgba(0,0,0,.08)}
+  .nps-pop{max-width:380px}
+  .nps-pop .duty-pop-sub{color:#c77800}
+  .nps-pop-list{margin-top:16px; display:flex; flex-direction:column; gap:8px; text-align:left; max-height:260px; overflow-y:auto}
+  .nps-pop-item{border:1px solid var(--line-soft); border-radius:12px; padding:9px 12px; background:var(--surface)}
+  .nps-pop-item.low{border-color:var(--red); background:var(--red-soft)}
+  .nps-pop-top{display:flex; align-items:baseline; gap:7px; font-size:13.5px}
+  .nps-pop-top span{font-size:12px; font-weight:800; color:#b45309}
+  .nps-pop-top small{margin-left:auto; font-size:11.5px; color:var(--gray2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:150px}
+  .nps-pop-c{margin-top:4px; font-size:12.5px; line-height:1.5; color:var(--ink-soft)}
+  .nps-pop-c.empty{color:var(--gray2); font-style:italic}
+  .nps-pop-more{font-size:12px; color:var(--gray); text-align:center}
+  .nps-pop-ok{margin-top:8px; width:100%; border:none; background:var(--surface); color:var(--ink-soft); font:inherit; font-size:14px; font-weight:700; padding:11px; border-radius:13px; cursor:pointer}
   .nps-voice.empty .nps-v-c{color:var(--gray2); font-style:italic}
   .nps-voice.empty{background:var(--surface)}
   /* 표·의견 */
@@ -2727,7 +2741,7 @@ function renderNav(){
   document.getElementById("nav").innerHTML = ov + CATEGORIES.map(c=>{
     const active = (c.key===activeCat) || (c.key==='voc' && activeCat==='voc-monthly') || (c.key==='game' && activeCat==='game-fish') || (c.key==='share' && (activeCat==='share-notice'||activeCat==='share-changelog'));
     let btn = `<button class="navbtn ${active?'active':''}" onclick="selectCat('${c.key}')">
-      <span class="ic">${c.icon}</span>${c.name}${c.key==='share'&&shareHasUnread()?'<span class="nav-dot"></span>':''}</button>`;
+      <span class="ic">${c.icon}</span>${c.name}${(c.key==='share'&&shareHasUnread())||(c.key==='nps'&&npsUnread())?'<span class="nav-dot"></span>':''}</button>`;
     if(c.key==='voc' && (activeCat==='voc'||activeCat==='voc-monthly')){
       btn += `<button class="navbtn sub ${activeCat==='voc-monthly'?'active':''}" onclick="selectCat('voc-monthly')">
         <span class="ic">└</span>Monthly</button>`;
@@ -4498,14 +4512,24 @@ function renderAdmin(){
 // 점수는 0~10. 평점 = 전반 만족도(첫 문항) 평균. NPS = 추천(9~10점) 비율 − 비추천(0~6점) 비율.
 // 순위에는 응답 0건 직원도 넣는다(사용자 요청 — 0건은 맨 뒤, 평점 없음은 평점 순에서도 뒤).
 let npsBy='cnt';      // 순위 기준: 'cnt' 응답 수 | 'avg' 평점
-let npsPeriod='all';  // 'all' 전체 | 'this' 이번 달 | 'last' 지난 달
+let npsPeriod='all';  // 'all' 전체 | 'yday' 어제 | 'today' 오늘 | 'week' 이번 주(월~) | 'month' 이번 달 | 'YYYY-MM' 월별
 let npsSel='';        // 아래 의견 목록에 펼친 직원('' = 1위)
 const NPS_Q=['전반 만족도','설명 이해도','태도','접속 편리'];
-function npsMonthKey(off){ const d=today(), x=new Date(d.getFullYear(), d.getMonth()+off, 1); return `${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}`; }
+// 응답 시각(r.d = 'YYYY-MM-DD HH:MM')은 달력 날짜 기준 — 업무일(today()의 새벽 경계)이 아니라 실제 날짜로 자른다
+function npsRange(){
+  const now=new Date(), d0=ymd(now);
+  if(npsPeriod==='today') return [d0, d0];
+  if(npsPeriod==='yday'){ const y=ymd(addDays(now,-1)); return [y, y]; }
+  if(npsPeriod==='week') return [ymd(addDays(now, -((now.getDay()+6)%7))), d0];   // 월요일부터
+  if(npsPeriod==='month') return [d0.slice(0,7)+'-01', d0];
+  if(/^\d{4}-\d{2}$/.test(npsPeriod)) return [npsPeriod+'-01', npsPeriod+'-31'];
+  return null;
+}
+function npsMonths(){ const set=new Set(); Object.values((window.NPS_DATA||{}).emps||{}).forEach(L=>L.forEach(r=>set.add(r.d.slice(0,7)))); return [...set].sort().reverse(); }
 function npsList(emp){
   const all=((window.NPS_DATA||{}).emps||{})[emp]||[];
-  if(npsPeriod==='all') return all;
-  const mk=npsMonthKey(npsPeriod==='this'?0:-1); return all.filter(r=>r.d.slice(0,7)===mk);
+  const rg=npsRange(); if(!rg) return all;
+  return all.filter(r=>{ const d=r.d.slice(0,10); return d>=rg[0] && d<=rg[1]; });
 }
 function npsAvg(xs){ xs=xs.filter(v=>v!=null); return xs.length?xs.reduce((a,b)=>a+b,0)/xs.length:null; }
 function npsStat(emp){
@@ -4580,9 +4604,12 @@ function renderNps(){
   const head=`<div class="page-head">
       <div><h2>⭐ NPS <span class="nps-sub-lab">원격지원 만족도</span></h2>
         <div class="sub">${D?`<a href="${D.url}" target="_blank" rel="noopener"><b>${escapeHtml(D.title||'만족도 조사 시트')}</b></a>를 자동으로 불러옵니다 (${D.updatedAt} 기준) · 점수는 10점 만점 · 평점 = 전반 만족도 평균 · NPS = 추천(9~10점)% − 비추천(0~6점)%`:'만족도 데이터를 불러오는 중이에요…'}</div></div>
-      <div class="controls">${seg(npsPeriod,'setNpsPeriod',[['all','전체'],['this','이번 달'],['last','지난 달']])}${seg(npsBy,'setNpsBy',[['cnt','💬 응답 수 순'],['avg','⭐ 평점 순']])}</div>
+      <div class="controls">${seg(npsPeriod,'setNpsPeriod',[['all','전체'],['yday','어제'],['today','오늘'],['week','이번 주'],['month','이번 달']])}
+        <select class="nps-month${/^\d{4}-\d{2}$/.test(npsPeriod)?' on':''}" onchange="if(this.value) setNpsPeriod(this.value)" title="월별로 보기">
+          <option value="">📅 월별</option>${npsMonths().map(m=>`<option value="${m}" ${m===npsPeriod?'selected':''}>${m.slice(0,4)}년 ${+m.slice(5)}월</option>`).join('')}</select>${seg(npsBy,'setNpsBy',[['cnt','💬 응답 수 순'],['avg','⭐ 평점 순']])}</div>
     </div>`;
   if(!D){ document.getElementById("main").innerHTML=head; return; }
+  npsMarkViewed();
   const {ranked}=npsRanked();
   const all=ranked.flatMap(s=>s.list), q1=all.map(r=>r.s[0]).filter(v=>v!=null);
   const tPro=q1.filter(v=>v>=9).length, tDet=q1.filter(v=>v<=6).length;
@@ -4614,6 +4641,44 @@ function renderNps(){
 }
 function setNpsBy(k){ npsBy=k; npsSel=''; renderNps(); }
 function setNpsPeriod(k){ npsPeriod=k; npsSel=''; renderNps(); }
+/* 새 응답 알림 — 브라우저마다 '이미 알린 응답'과 '탭에서 본 응답'을 따로 기억한다.
+ * 처음 여는 브라우저는 지금까지의 응답을 전부 본 것으로 치고 시작한다(236건이 한꺼번에 뜨지 않게).
+ * 팝업은 새 응답마다 한 번 · 빨간 점은 NPS 탭을 열 때까지 남는다. */
+const LS_NPS_ALERTED="opcare_nps_alerted_v1", LS_NPS_VIEWED="opcare_nps_viewed_v1";
+function npsIds(){ const out=[]; for(const [e,L] of Object.entries((window.NPS_DATA||{}).emps||{})) L.forEach(r=>out.push({id:e+'|'+r.d+'|'+r.shop, emp:e, r})); return out; }
+function npsLoadSet(k){ const v=load(k, null); return Array.isArray(v)?new Set(v):null; }
+function npsUnread(){ const v=npsLoadSet(LS_NPS_VIEWED); return !!v && npsIds().some(x=>!v.has(x.id)); }
+function npsMarkViewed(){ const had=npsUnread(); save(LS_NPS_VIEWED, npsIds().map(x=>x.id)); if(had) renderNav(); }
+function npsCheckNew(){
+  if(!window.NPS_DATA) return;
+  const all=npsIds(), alerted=npsLoadSet(LS_NPS_ALERTED);
+  if(!alerted){ const ids=all.map(x=>x.id); save(LS_NPS_ALERTED, ids); if(!npsLoadSet(LS_NPS_VIEWED)) save(LS_NPS_VIEWED, ids); return; }
+  const fresh=all.filter(x=>!alerted.has(x.id)).sort((a,b)=>a.r.d<b.r.d?1:-1);
+  if(fresh.length){ save(LS_NPS_ALERTED, all.map(x=>x.id)); npsShowAlert(fresh); }
+  if(activeCat==='nps') npsMarkViewed(); else renderNav();
+}
+function npsShowAlert(fresh){
+  const byEmp={}; fresh.forEach(x=>(byEmp[x.emp]=byEmp[x.emp]||[]).push(x.r));
+  const emps=Object.keys(byEmp), first=emps[0];
+  const title = emps.length===1 ? `${escapeHtml(first)}님 고객의 응답이 도착했어요` : `${escapeHtml(first)}님 외 ${emps.length-1}명 고객의 응답이 도착했어요`;
+  const items=fresh.slice(0,4).map(x=>{ const sc=x.r.s[0];
+    return `<div class="nps-pop-item${sc!=null&&sc<=6?' low':''}"><div class="nps-pop-top"><b>${escapeHtml(x.emp)}</b><span>${sc==null?'점수 없음':'⭐ '+sc}</span><small>${escapeHtml(x.r.shop||'')}</small></div>
+      ${x.r.c?`<div class="nps-pop-c">${escapeHtml(x.r.c.length>80?x.r.c.slice(0,80)+'…':x.r.c)}</div>`:'<div class="nps-pop-c empty">의견 없이 별점만 남겼어요</div>'}</div>`; }).join('');
+  let el=document.getElementById('npsPop'); if(el) el.remove();
+  el=document.createElement('div'); el.id='npsPop'; el.className='duty-pop-overlay';
+  el.innerHTML=`<div class="duty-pop nps-pop">
+    <div class="duty-pop-ic">💌</div>
+    <div class="duty-pop-sub">NPS · 고객 만족도 ${fresh.length}건</div>
+    <div class="duty-pop-title">${title}</div>
+    <div class="nps-pop-list">${items}${fresh.length>4?`<div class="nps-pop-more">외 ${fresh.length-4}건 더</div>`:''}</div>
+    <button class="duty-pop-btn" onclick="document.getElementById('npsPop').remove(); npsSel='${escapeHtml(first)}'; selectCat('nps')">NPS 탭에서 보기 ⭐</button>
+    <button class="nps-pop-ok" onclick="document.getElementById('npsPop').remove()">확인했어요 👍</button>
+  </div>`;
+  document.body.appendChild(el);
+}
+function npsDataReload(){
+  loadData('nps-data.js', function(ok){ if(!ok) return; npsCheckNew(); if(activeCat==='nps') renderWhenIdle(renderNps); });
+}
 function setNpsSel(emp){ npsSel=emp; renderNps(); const v=document.getElementById('npsVoices'); if(v) v.scrollIntoView({behavior:'smooth', block:'start'}); }
 
 /* ================= 🎮 원격 상점 (게임) ================= */
@@ -8008,7 +8073,7 @@ loadData("slack-data.js", function(){ loadData("calendar-data.js", function(){ l
   loadData("done-backfill.js", function(ok){ if(ok && activeCat==="overview") renderWhenIdle(renderMain); });
   // CX팀 당직 — 당직근무 달력의 'CX팀' 버튼에만 쓰여 부팅을 막지 않는다
   // NPS(만족도 조사) — NPS 탭에만 쓰여 부팅을 막지 않는다
-  loadData("nps-data.js", function(ok){ if(ok && activeCat==="nps") renderNps(); });
+  loadData("nps-data.js", function(ok){ if(!ok) return; npsCheckNew(); if(activeCat==="nps") renderNps(); });
   loadData("cx-duty-data.js", function(ok){ if(ok && activeCat==="duty") renderDuty(); }); }); }); });
 // 선택 날짜의 구글 캘린더 일정 배열 (없으면 [])
 function gcalDay(date){ return (window.GCAL_DATA&&window.GCAL_DATA.days&&window.GCAL_DATA.days[date])||[]; }
@@ -8116,6 +8181,7 @@ function checkDataUpdates(){
   // syncBlocked() 여도 확인·다운로드는 진행한다 — 재렌더만 renderWhenIdle 로 미뤄진다.
   checkDataFile('slack-data.js', slackDataReload);
   if(activeCat==='menureg') checkDataFile('menu-requests.js', menuReqReload);
+  checkDataFile('nps-data.js', npsDataReload);   // 새 만족도 응답 → 알림(어느 탭에 있든)
 }
 function startAutoRefresh(){
   setInterval(checkCloudRev, SYNC_FAST_MS);
@@ -8137,6 +8203,7 @@ function startAutoRefresh(){
     // 위 빠른 루프가 못 잡은 변경을 여기서 확실히 받는다.
     if(dataTagOk['slack-data.js']===false) slackDataReload();
     if(activeCat==='menureg' && dataTagOk['menu-requests.js']===false) menuReqReload();
+    if(dataTagOk['nps-data.js']===false) npsDataReload();
   }, SYNC_SLOW_MS);
 }
 
