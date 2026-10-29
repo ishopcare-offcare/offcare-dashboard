@@ -350,15 +350,30 @@
   .shop-item.star-item{position:relative; border:2px solid transparent; background:linear-gradient(var(--canvas),var(--canvas)) padding-box, linear-gradient(120deg,#ffd23f,#ff7ac2,#7ac8ff,#ffd23f) border-box; background-size:100% 100%, 300% 300%; animation:starBorder 3.5s linear infinite}
   @keyframes starBorder{to{background-position:0 0, 300% 300%}}
   .si-perk.star{background:#fff3c4; color:#92400e}
-  /* 아바타: 왕별 펫 반짝임 · 왕별 탈것 · 세트 황금 오라 */
+  /* 아바타: 왕별 펫 반짝임 · 별똥별 배경 · 세트 황금 오라 */
   .ab-pet.fx-star{animation:petStar 1.8s ease-in-out infinite; filter:drop-shadow(0 0 6px #ffd23f) drop-shadow(0 0 14px rgba(255,190,40,.8))}
   @keyframes petStar{50%{transform:scale(1.15) rotate(12deg)}}
-  .avatar-big.riding .ab-char{top:-7px}
-  .avatar-big.riding .ab-pet{bottom:auto; top:62px; right:0}
-  .ab-ride{position:absolute; left:50%; bottom:-10px; width:112px; transform:translateX(-50%); z-index:3; animation:rideBob 2.4s ease-in-out infinite; filter:drop-shadow(0 0 8px rgba(255,200,60,.85))}
-  .ab-ride-svg{display:block; width:100%}
-  @keyframes rideBob{50%{transform:translateX(-50%) translateY(-4px)}}
-  .avatar-big.riding .ab-platform{display:none}
+  /* 🌌 별똥별 배경 — 밤하늘 + 반짝이는 별 + 대각선으로 떨어지는 별똥별 5개 */
+  .ab-bg{position:absolute; inset:0; z-index:0; overflow:hidden; border-radius:inherit}
+  .ab-bg.meteor{background:radial-gradient(circle at 18% 22%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 74% 16%,#fff 0 1px,transparent 1.6px),
+    radial-gradient(circle at 40% 48%,#fff 0 .8px,transparent 1.4px),radial-gradient(circle at 86% 58%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 12% 70%,#fff 0 .8px,transparent 1.4px),
+    linear-gradient(180deg,#070b26 0%,#1d1a5e 55%,#5b2a8a 100%)}
+  .ab-bg.meteor b{position:absolute; inset:0; background:radial-gradient(circle at 60% 30%,#fff8c4 0 1.2px,transparent 2px),radial-gradient(circle at 28% 86%,#fff8c4 0 1.2px,transparent 2px); animation:bgTw 2.2s ease-in-out infinite}
+  @keyframes bgTw{50%{opacity:.2}}
+  .ab-bg.meteor i{position:absolute; top:-20px; width:2px; height:46px; border-radius:2px; transform:rotate(38deg); opacity:0;
+    background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,236,150,.8) 70%,#fff); animation:meteorFall 2.6s linear infinite}
+  .ab-bg.meteor i::after{content:''; position:absolute; left:-2px; bottom:-3px; width:6px; height:6px; border-radius:50%; background:#fff; box-shadow:0 0 6px 2px #ffe680}
+  .ab-bg.meteor i:nth-child(2){left:78%; animation-delay:0s}
+  .ab-bg.meteor i:nth-child(3){left:104%; animation-delay:.6s; animation-duration:2.2s}
+  .ab-bg.meteor i:nth-child(4){left:56%; animation-delay:1.3s; animation-duration:3s}
+  .ab-bg.meteor i:nth-child(5){left:92%; animation-delay:1.9s}
+  .ab-bg.meteor i:nth-child(6){left:40%; animation-delay:2.4s; animation-duration:2.4s}
+  @keyframes meteorFall{0%{transform:translate(0,0) rotate(38deg); opacity:0} 8%{opacity:1} 70%{opacity:1} 100%{transform:translate(-120px,170px) rotate(38deg); opacity:0}}
+  .avatar-big.bg-on{border-color:#5b4bd6}
+  .avatar-big.bg-on .ab-glow{opacity:.35}
+  .avatar-big.bg-on .ab-platform{background:radial-gradient(ellipse,rgba(160,140,255,.45),transparent 70%)}
+  .nps-race .ab-bg{display:none}   /* 레이스 트랙에는 자기 배경이 있다 */
+  .si-perk.star.wear{background:#ffe7f3; color:#9d174d; margin-top:4px}
   .avatar-big.star-set{border-color:#ffd23f; box-shadow:0 0 0 2px #ffd23f, 0 0 22px rgba(255,200,60,.75)}
   .ab-aura{position:absolute; inset:-30%; background:conic-gradient(from 0deg, transparent 0 8%, rgba(255,214,60,.55) 10%, transparent 14% 33%, rgba(255,150,220,.45) 36%, transparent 40% 58%, rgba(255,214,60,.55) 61%, transparent 65% 83%, rgba(140,200,255,.45) 86%, transparent 90%); animation:auraSpin 6s linear infinite; z-index:0}
   @keyframes auraSpin{to{transform:rotate(360deg)}}
@@ -4909,11 +4924,11 @@ const GAME_ITEMS = {
     // 돌고래(0.08/0.05/0.005)와 총합을 비슷하게 맞췄다. 신화 인어(miss 0.06)보다 miss 만 높고 나머지는 낮다.
     {id:'fp_frog',name:'개구리',price:550,e:'🐸',rarity:'legendary',fishOnly:true,perk:{miss:0.07,keep:0.05,item:0.004}},
     {id:'fp_mermaid',name:'인어',price:850,e:'🧜‍♀️',rarity:'mythic',fishOnly:true,perk:{keep:0.10,item:0.006,miss:0.06}},
-    {id:'sp_star',name:'왕별',price:1,starPrice:5,e:'🌟',rarity:'unique',sp:{fragAmt:2},spDesc:'별조각이 한 번에 2개씩',desc:'밤하늘에서 내려와 곁을 지키는 작은 왕별'},
+    {id:'sp_star',name:'왕별',price:1,starPrice:5,e:'🌟',rarity:'unique',sp:{fragAmt:2},spDesc:'별조각이 한 번에 2개씩',wear:{starSave:0.20},wearDesc:'꽝이 나오면 20% 확률로 별조각으로 바뀜 (별빛 구조)',desc:'밤하늘에서 내려와 곁을 지키는 작은 왕별'},
   ],
-  // 🌠 탈것 — 별 상점 전용 카테고리
-  ride: [
-    {id:'sr_star',name:'왕별 탈것',price:1,starPrice:10,e:'🌠',rarity:'unique',sp:{freeCast:0.15},spDesc:'낚싯대를 던질 때마다 15% 확률로 캐스트 비용 전액 환급',desc:'커다란 왕별 위에 걸터앉아 하늘을 가른다'},
+  // 🌌 배경 — 별 상점 전용 카테고리. 캐릭터 뒤 하늘에 별똥별이 떨어진다 (2026-10-29 탈것 아이템을 대체)
+  bg: [
+    {id:'bg_meteor',name:'별똥별 배경',price:1,starPrice:10,e:'🌠',rarity:'unique',sp:{freeCast:0.15},spDesc:'낚싯대를 던질 때마다 15% 확률로 캐스트 비용 전액 환급',desc:'캐릭터 뒤 밤하늘로 별똥별이 쉼 없이 쏟아진다. 소원은 이미 이루어졌다'},
   ],
 };
 const LS_GAME = "opcare_game_v1";
@@ -4939,8 +4954,8 @@ function npsDoneMonths(){ const cur=ymd(new Date()).slice(0,7), out=[]; let [y,m
 function npsWinMonths(emp){ return npsDoneMonths().filter(mk=>npsMonthWinners(mk).includes(emp)); }
 function starEarned(emp){ return npsWinMonths(emp).length+(gs(emp).starConv||0); }
 function starAvail(emp){ return Math.max(0, starEarned(emp)-(gs(emp).starSpent||0)); }
-// 별 아이템 보유 효과(착용 안 해도 적용) + 👑 왕별 세트(왕별 눈·왕별 펫·왕별 탈것 모두 보유)
-const STAR_SET=['eyes:ey_bigstar','pet:sp_star','ride:sr_star'];
+// 별 아이템 보유 효과(착용 안 해도 적용) + 👑 왕별 세트(왕별 눈·왕별 펫·별똥별 배경 모두 보유)
+const STAR_SET=['eyes:ey_bigstar','pet:sp_star','bg:bg_meteor'];
 const STAR_SET_DESC='초급 낚시터에서도 별조각 + 모든 낚시터 별조각 확률 2배';
 function hasStarSet(emp){ return STAR_SET.every(k=>{ const p=k.split(':'); return owns(emp,p[0],p[1]); }); }
 function starPerk(emp){ const out={};
@@ -5147,23 +5162,16 @@ function charSvg(eq, gender){ eq=eq||{}; const g=gender||'m';
     ${pHairFront(ha.hs, hairCol, hairHi)}
   </svg></div>`;
 }
-// 🌠 왕별 탈것 — 캐릭터가 걸터앉는 큰 별(다리 앞을 가린다)
-const STAR_RIDE_SVG=(()=>{ let p=''; for(let i=0;i<10;i++){ const a=-Math.PI/2+i*Math.PI/5, rr=i%2?19:40; p+=(i?'L':'M')+(60+rr*Math.cos(a)*1.25).toFixed(1)+','+(44+rr*Math.sin(a)*0.78).toFixed(1); }
-  return `<svg viewBox="0 0 120 80" class="ab-ride-svg"><defs><radialGradient id="gRideStar" cx="45%" cy="35%" r="75%"><stop offset="0" stop-color="#fffbe0"/><stop offset=".4" stop-color="#ffd23f"/><stop offset="1" stop-color="#f59e0b"/></radialGradient></defs>
-    <path d="M2,52 L22,48 M0,60 L18,58 M4,68 L20,66" stroke="#ffe680" stroke-width="3" stroke-linecap="round" opacity=".85"/>
-    <path d="${p}Z" fill="url(#gRideStar)" stroke="#d97706" stroke-width="2" stroke-linejoin="round"/>
-    <circle cx="52" cy="48" r="2.4" fill="#7c4a03"/><circle cx="68" cy="48" r="2.4" fill="#7c4a03"/><path d="M55,54 Q60,58 65,54" stroke="#7c4a03" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <ellipse cx="47" cy="53" rx="3" ry="1.8" fill="#ff9db0" opacity=".7"/><ellipse cx="73" cy="53" rx="3" ry="1.8" fill="#ff9db0" opacity=".7"/></svg>`; })();
 function avatarBig(eq, gender){ eq=eq||{};
   const hat=partE('hat',eq.hat), pet=partE('pet',eq.pet);
-  const ride=eq.ride==='sr_star', starSet=ride && eq.eyes==='ey_bigstar' && eq.pet==='sp_star';
-  return `<div class="avatar-big${ride?' riding':''}${starSet?' star-set':''}">
+  const meteor=eq.bg==='bg_meteor', starSet=meteor && eq.eyes==='ey_bigstar' && eq.pet==='sp_star';
+  return `<div class="avatar-big${meteor?' bg-on':''}${starSet?' star-set':''}">
+    ${meteor?`<div class="ab-bg meteor"><b></b>${'<i></i>'.repeat(5)}</div>`:''}
     ${starSet?'<div class="ab-aura"></div>':''}
     <div class="ab-glow"></div>
     <div class="ab-sparkle s1">✨</div><div class="ab-sparkle s2">⭐</div><div class="ab-sparkle s3">✨</div>
     <div class="ab-platform"></div>
     <div class="ab-char">${hat?`<div class="ab-hat">${hat}</div>`:''}${charSvg(eq, gender)}</div>
-    ${ride?`<div class="ab-ride">${STAR_RIDE_SVG}</div>`:''}
     ${pet?`<div class="ab-pet${eq.pet==='sp_star'?' fx-star':''}">${pet}</div>`:''}
   </div>`;
 }
@@ -5218,7 +5226,7 @@ function gameMeInner(emp, eq){ const t=itemById('title',(eq||{}).title);
 function previewEq(cat,id){ const emp=gameMe; if(!emp) return; const eq=Object.assign({},(gs(emp).equipped||{})); eq[cat]=id; const box=document.getElementById('gmBox'); if(box){ box.innerHTML=gameMeInner(emp,eq); box.classList.add('previewing'); } }
 function clearPreview(){ const emp=gameMe; if(!emp) return; const box=document.getElementById('gmBox'); if(box){ box.innerHTML=gameMeInner(emp,(gs(emp).equipped||{})); box.classList.remove('previewing'); } }
 // 🔍 아이템 마우스오버 → 그 자리에 미리보기 팝업
-const CAT_LABEL={ride:'탈것',title:'타이틀',nametag:'네임택',hat:'모자',pet:'펫',skin:'피부',hair:'헤어',dye:'염색',eyes:'눈',brows:'눈썹',mouth:'입',beard:'수염',top:'상의',pants:'하의',shoes:'신발',gloves:'장갑',cape:'망토'};
+const CAT_LABEL={bg:'배경',title:'타이틀',nametag:'네임택',hat:'모자',pet:'펫',skin:'피부',hair:'헤어',dye:'염색',eyes:'눈',brows:'눈썹',mouth:'입',beard:'수염',top:'상의',pants:'하의',shoes:'신발',gloves:'장갑',cape:'망토'};
 function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; const r=it.rarity||'common';
   let big; if(cat==='title') big=`<span class="tr-${r}" style="${titleStyleOf(it)};font-size:24px;font-weight:800">[${escapeHtml(it.name)}]</span>`;
   else if(cat==='nametag') big=`<span style="${nametagStyle({nametag:id})};font-size:24px;font-weight:800">홍길동</span>`;
@@ -5226,7 +5234,7 @@ function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; cons
   else big=`<div style="font-size:52px;line-height:1">${it.e||'✕'}</div>`;
   const owned=gameMe?owns(gameMe,cat,id):false;
   // 외형을 바꾸는 파츠는 '내 캐릭터에 입혀본' 모습을 팝업에 띄움
-  const tryOnCats = AVATAR_CATS.concat(['hat','pet','ride']);
+  const tryOnCats = AVATAR_CATS.concat(['hat','pet','bg']);
   let disp;
   if(gameMe && tryOnCats.includes(cat)){
     const peq=Object.assign({}, (gs(gameMe).equipped||{})); peq[cat]=id;
@@ -5241,6 +5249,7 @@ function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; cons
     ${(!it.ach && it.fishOnly)?`<div class="it-tip-req"><div class="it-tip-cond">🎣 획득: ${escapeHtml(fishSpotHint(it))}에서 낚시로 획득${it.id==='ft_captain'?' · 🌈 0.00001% 극악 확률':''}</div></div>`:''}
     ${it.perk?`<div class="it-tip-perk"><span class="it-tip-perk-h">${cat==='pet'?'🐾 펫 능력 (착용 시)':cat==='title'?'👑 타이틀 보유 효과 (착용 안 해도 적용)':'✨ 능력'}</span> ${escapeHtml(perkDesc(it.perk))}</div>`:''}
     ${(cat==='pet'&&it.perk)?`<div class="it-tip-perk"><span class="it-tip-perk-h">🐾 보유 효과 (착용 안 해도 절반 적용)</span> ${escapeHtml(perkDesc(Object.fromEntries(Object.entries(it.perk).map(([k,v])=>[k,v*PET_OWN_RATE]))))}</div>`:''}
+    ${it.wear?`<div class="it-tip-perk"><span class="it-tip-perk-h">🌟 착용 효과 (착용 중일 때만)</span> ${escapeHtml(it.wearDesc||'')}</div>`:''}
     ${it.sp?`<div class="it-tip-perk"><span class="it-tip-perk-h">⭐ 보유 효과 (착용 안 해도 적용)</span> ${escapeHtml(it.spDesc||'')}${STAR_SET.includes(it.cat+':'+it.id)?`<br><span class="it-tip-perk-h">👑 왕별 세트</span> ${STAR_SET_DESC}`:''}</div>`:''}
     ${it.freeShop?`<div class="it-tip-perk"><span class="it-tip-perk-h">👑 유일 능력</span> 착용 시 모든 상점 아이템 무료!</div>`:''}
     <div class="it-tip-foot">${it.ach?(owned?'✓ 보유중':(gameMe&&achStatus(gameMe,it).ok?'🎁 지금 무료 획득 가능!':'🎯 달성 시 무료 획득')):(it.price===0?'기본 제공':(owned?'✓ 보유중':(it.fishOnly?'낚시로만 획득':((gameMe&&hasFreeShop(gameMe))?'🆓 무료 (곽호영 능력)':'🪙 '+it.price+' 코인'))))}</div>
@@ -5470,7 +5479,7 @@ function shopCard(cat,it,emp){
       return `<div class="si-req ${owned||d.ok?'met':'locked'}">🎯 ${escapeHtml(d.cond)}${owned?' ✓':inline}${sub}</div>`; })()
     : (fishLocked ? `<div class="si-req locked">🎣 낚시터에서 획득가능</div>` : '');
   // 타이틀 보유 효과는 카드에 항상 띄우면 목록이 난잡해짐 → 카드를 클릭(또는 마우스오버)했을 때 툴팁에서만 표시
-  const perkBadge = it.sp ? `<div class="si-perk star">⭐ 보유 효과 · ${escapeHtml(it.spDesc||'')}</div>`
+  const perkBadge = it.sp ? `<div class="si-perk star">⭐ 보유 효과 · ${escapeHtml(it.spDesc||'')}</div>${it.wear?`<div class="si-perk star wear">🌟 착용 효과 · ${escapeHtml(it.wearDesc||'')}</div>`:''}`
     : (it.perk && cat!=='title') ? `<div class="si-perk">🐾 ${escapeHtml(perkDesc(it.perk))}</div>`
     : it.freeShop ? `<div class="si-perk">👑 착용 시 모든 상점 아이템 무료</div>` : '';
   const freeNow = !owned && !a && !fishLocked && it.price>0 && hasFreeShop(emp);
@@ -5498,9 +5507,9 @@ function npsGoStarShop(){ selectCat('nps'); setTimeout(()=>{ const el=document.q
 function renderShopHost(){ if(activeCat==='nps') renderNps(); else renderGame(); }
 function starShopSection(emp){
   const frag=gs(emp).starFrag||0, wins=npsWinMonths(emp), set=hasStarSet(emp);
-  const list=[['eyes','ey_bigstar'],['eyes','ey_starheart'],['pet','sp_star'],['ride','sr_star']].map(([c,id])=>shopCard(c,itemById(c,id),emp)).join('');
+  const list=[['eyes','ey_bigstar'],['eyes','ey_starheart'],['pet','sp_star'],['bg','bg_meteor']].map(([c,id])=>shopCard(c,itemById(c,id),emp)).join('');
   return `<div class="card star-shop">
-    <div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><div class="ss-who">${npsWhoSel()}<button class="btn" onclick="unequipPart('ride')">탈것 해제</button></div></div>
+    <div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><div class="ss-who">${npsWhoSel()}<button class="btn" onclick="unequipPart('bg')">배경 해제</button></div></div>
     <div class="ss-wallet">
       <div class="ss-stars"><span class="ss-big">⭐ ${starAvail(emp)}</span><span>보유 별</span></div>
       <div class="ss-frag"><div>🌠 별조각 <b>${frag}</b> / 100</div><div class="ss-bar"><i style="width:${Math.min(100,frag)}%"></i></div></div>
@@ -5509,7 +5518,7 @@ function starShopSection(emp){
         🪽 NPS 1위 누적 <b>6개월</b> → [천사🪽] 타이틀</div>
     </div>
     <div class="shop-grid">${list}</div>
-    <div class="ss-set ${set?'on':''}">👑 <b>왕별 세트</b> <small>왕별 눈 + 왕별 펫 + 왕별 탈것</small> — ${set?'<b>발동 중!</b>':'모두 모으면 발동'} · ${STAR_SET_DESC} · 세 개를 모두 착용하면 캐릭터에 <b>황금 오라</b></div>
+    <div class="ss-set ${set?'on':''}">👑 <b>왕별 세트</b> <small>왕별 눈 + 왕별 펫 + 별똥별 배경</small> — ${set?'<b>발동 중!</b>':'모두 모으면 발동'} · ${STAR_SET_DESC} · 세 개를 모두 착용하면 캐릭터에 <b>황금 오라</b></div>
   </div>`;
 }
 // 끝난 달 NPS 1위가 새로 확정되면(본인 브라우저에서) 축하 팝업 1회
@@ -5537,7 +5546,7 @@ function renderGame(){
     const emp=gameMe, g=gs(emp), eq=g.equipped||{};
     body=`
     <div class="card game-me" id="gmBox">${gameMeInner(emp, eq)}</div>
-    <div class="ach-reset-note">⭐ <b>별 상점</b>(왕별 눈·하트 눈장식·왕별 펫·왕별 탈것)은 <a href="#" onclick="event.preventDefault(); npsGoStarShop()"><b>NPS 탭</b></a>으로 옮겼어요 · 산 아이템은 여기 각 칸에서도 착용할 수 있어요</div>
+    <div class="ach-reset-note">⭐ <b>별 상점</b>(왕별 눈·하트 눈장식·왕별 펫·별똥별 배경)은 <a href="#" onclick="event.preventDefault(); npsGoStarShop()"><b>NPS 탭</b></a>으로 옮겼어요 · 산 아이템은 여기 각 칸에서도 착용할 수 있어요</div>
     <div class="preview-hint">💡 아이템에 마우스를 올리면 위 캐릭터에 <b>미리 입어보기</b> 돼요 · 코인은 왼쪽 <b>🎣 낚시터</b>에서도 획득!</div>
     ${shopSection('title','👑 타이틀',emp)}
     <div class="ach-reset-note">👑 타이틀은 <b>보유만 해도</b> 낚시 능력치가 붙어요 (등급↑일수록 강력 · 중복 합산) · <b>카드를 클릭</b>하면 효과가 보여요 · 내 합계는 🎣 낚시터에서 확인</div>
@@ -5655,6 +5664,7 @@ function activePerk(emp){
   const out=ownedTitlePerk(emp);
   const add=p=>{ for(const k in p) out[k]=(out[k]||0)+p[k]; };
   const pet=itemById('pet',(gs(emp).equipped||{}).pet); if(pet&&pet.perk) add(pet.perk);
+  if(pet&&pet.wear) add(pet.wear);   // ⭐ 별 펫 착용 효과 — 착용 중일 때만(보유 절반 합산 없음)
   add(ownedPetPerk(emp));
   Object.assign(out, starPerk(emp));   // ⭐ 별 아이템·왕별 세트(fragUp·fragMul·fragAll·fragAmt 등 — 다른 능력치와 키가 겹치지 않음)
   return out;
@@ -5679,7 +5689,8 @@ function rollLootPerk(loot, perk){
   const sum=pItem+pCoin+pNone+pFrag;
   const pick=arr=>{ const t2=arr.reduce((a,x)=>a+x.w,0)||1; let rr=Math.random()*t2; for(const x of arr){ if((rr-=x.w)<0) return x; } return arr[arr.length-1]; };
   // 🕊️ [천사] 타이틀 보유 효과: 꽝이 나와도 확률(perk.save)로 '코인 유지'로 구제
-  const nonePick=()=>{ if(perk.save && coins.length && Math.random()<perk.save) return Object.assign({}, pick(coins), {saved:true}); return pick(nones); };
+  const nonePick=()=>{ if(perk.starSave && Math.random()<perk.starSave) return {t:'frag', starSaved:true};   // 🌟 [왕별] 착용: 별빛 구조
+    if(perk.save && coins.length && Math.random()<perk.save) return Object.assign({}, pick(coins), {saved:true}); return pick(nones); };
   const r=Math.random()*sum; let acc=pItem;
   if(r<acc && items.length) return pick(items);
   acc+=pCoin; if(r<acc && coins.length) return pick(coins);
@@ -5690,7 +5701,7 @@ function perkDesc(perk){ if(!perk) return ''; const p=[]; const pct=x=>fmtPct(x)
 // 한 번의 '낚싯대 던지기'로 진행되는 캐스팅 횟수 ([세월을 낚은] 타이틀 보유 시 2회)
 function castCount(emp){ return Math.max(1, ownedTitlePerk(emp).casts||1); }
 function pickItem(rars, fishOnly, emp){ const pool=[]; for(const cat in GAME_ITEMS){ for(const it of GAME_ITEMS[cat]){ if(it.price===0) continue; if(it.targetOnly) continue; if(it.ach || it.onlyFor) continue; if(it.gender && emp && !genderOK(emp,it)) continue; if(!rars.includes(it.rarity)) continue; if(fishOnly && !it.fishOnly) continue; if(!fishOnly && it.fishOnly) continue; if(emp && owns(emp,cat,it.id)) continue; pool.push(Object.assign({cat},it)); } } if(!pool.length) return null; const tot=pool.reduce((a,it)=>a+(it.dropWeight||1),0); let r=Math.random()*tot; for(const it of pool){ if((r-=(it.dropWeight||1))<0) return it; } return pool[pool.length-1]; }
-const CAT_KO={ride:'탈것',title:'타이틀',nametag:'네임택',hat:'모자',pet:'펫',skin:'피부',hair:'헤어',dye:'염색',eyes:'눈',brows:'눈썹',mouth:'입',beard:'수염',top:'상의',pants:'하의',shoes:'신발',gloves:'장갑',cape:'망토'};
+const CAT_KO={bg:'배경',title:'타이틀',nametag:'네임택',hat:'모자',pet:'펫',skin:'피부',hair:'헤어',dye:'염색',eyes:'눈',brows:'눈썹',mouth:'입',beard:'수염',top:'상의',pants:'하의',shoes:'신발',gloves:'장갑',cape:'망토'};
 // 💧 낚시 1회로 받는 코인은 절대 '캐스트 비용'을 넘지 않는다 — 던질수록 코인이 불어나는 무한 증식 차단.
 //    (코인 유지 + 펫 보너스 + 고래 2배 · 아이템 풀 소진 보상 · 중복 환급 모두 동일 규칙)
 function coinCap(v, cost){ return cost ? Math.min(v, cost) : v; }
@@ -5699,7 +5710,7 @@ function resolveLoot(emp,out,cost){ const g=gs(emp);
     const n=starPerk(emp).fragAmt||1; g.starFrag=(g.starFrag||0)+n; let conv=0;
     while(g.starFrag>=100){ g.starFrag-=100; g.starConv=(g.starConv||0)+1; conv++; }
     return conv ? {emoji:'⭐',big:'별 +'+conv+'개!',sub:'별조각 100개가 모여 ⭐ 별로 바뀌었어요! (조각 '+g.starFrag+'/100)',cls:'item',rarity:'unique'}
-                : {emoji:'🌠',big:'별조각 +'+n,sub:'별조각 '+g.starFrag+'/100 · 100개 모으면 ⭐ 별 1개'+(n>1?' · [왕별] 펫 2배!':''),cls:'item',rarity:'legendary'}; }
+                : {emoji:'🌠',big:'별조각 +'+n,sub:(out.starSaved?'🌟 [왕별] 별빛 구조! 꽝이 별조각으로 · ':'')+'별조각 '+g.starFrag+'/100 · 100개 모으면 ⭐ 별 1개'+(n>1?' · [왕별] 펫 2배!':''),cls:'item',rarity:'legendary'}; }
   if(out.t==='none'){ g.fishMiss=(g.fishMiss||0)+1; return {emoji:'🐚',big:'꽝!',sub:'빈 낚싯대... 다음 기회에!',cls:'miss'}; }   // 꽝 누적 카운트(💣 타이틀용)
   if(out.t==='coin'){ const perk=activePerk(emp); let n = randInt(out.min,out.max);
     if(n<0){   // 손실 결과: 추가 차감 없음 — 던질 때 낸 캐스트 비용만 소모됨
@@ -5741,7 +5752,7 @@ async function castFish(spot){
     const n=(gs(emp).pendN&&gs(emp).pendN[spot])||castCount(emp);
     fishBusy=true; stopFishTick(); clearFishCast(emp,spot); showFishing(f,n);
     const res=rollCasts(emp,f,n); if(gs(emp).pendN) delete gs(emp).pendN[spot];
-    const pf=gs(emp).pendFree&&gs(emp).pendFree[spot]; if(pf){ res.push({emoji:'🌠',big:'캐스트 비용 환급 +'+pf+' 코인',sub:'[왕별 탈것] 유성 찬스! 이번 캐스팅은 공짜였어요',cls:'coin',rarity:'legendary'}); delete gs(emp).pendFree[spot]; }
+    const pf=gs(emp).pendFree&&gs(emp).pendFree[spot]; if(pf){ res.push({emoji:'🌠',big:'캐스트 비용 환급 +'+pf+' 코인',sub:'[별똥별 배경] 유성 찬스! 이번 캐스팅은 공짜였어요',cls:'coin',rarity:'legendary'}); delete gs(emp).pendFree[spot]; }
     saveGame();
     setTimeout(()=>{ showFishResults(res); renderMain(); fishBusy=false; }, 1200);
     return;
@@ -5760,10 +5771,10 @@ async function castFish(spot){
   const authed=await requireAuth(emp);
   if(!authed || empAvail(emp)<cost){ fishBusy=false; if(authed) short(); return; }
   addSpent(emp, cost); gs(emp).fishCasts=(gs(emp).fishCasts||0)+n; saveGame();   // 캐스팅 누적(세월을 낚은 타이틀용)
-  // 🌠 [왕별 탈것] 유성 찬스: 던질 때마다 확률로 캐스트 비용 전액 환급
+  // 🌠 [별똥별 배경] 유성 찬스: 던질 때마다 확률로 캐스트 비용 전액 환급
   const fc=starPerk(emp).freeCast, freed=(fc && Math.random()<fc) ? cost : 0;
   if(freed){ addSpent(emp, -freed); saveGame(); }
-  const freeRes=c=>({emoji:'🌠',big:'캐스트 비용 환급 +'+c+' 코인',sub:'[왕별 탈것] 유성 찬스! 이번 캐스팅은 공짜예요',cls:'coin',rarity:'legendary'});
+  const freeRes=c=>({emoji:'🌠',big:'캐스트 비용 환급 +'+c+' 코인',sub:'[별똥별 배경] 유성 찬스! 이번 캐스팅은 공짜예요',cls:'coin',rarity:'legendary'});
   if(fishWaitFor(emp,spot)<=0){   // 대기 0(초급·중급, 왕별 눈 보유 시 고급) → 던지자마자 바로 결과
     showFishing(f,n);   // fishBusy 는 위에서 이미 켜 뒀다
     const res=rollCasts(emp,f,n); if(freed) res.push(freeRes(freed)); saveGame();
@@ -5841,8 +5852,8 @@ function renderGameFish(){
   if(fishRoom){ renderFishRoom(fishRoom, emp); return; }
   // 로비 — 낚시터 3곳
   const mp=itemById('pet',(gs(emp).equipped||{}).pet);
-  const petbar = (mp&&mp.perk)
-    ? `<div class="fish-petbar"><span class="fpb-emoji">${mp.e||'🐾'}</span><span>착용 펫 <b>${escapeHtml(mp.name)}</b> · ${escapeHtml(perkDesc(mp.perk))}</span></div>`
+  const petbar = (mp&&(mp.perk||mp.wear))
+    ? `<div class="fish-petbar"><span class="fpb-emoji">${mp.e||'🐾'}</span><span>착용 펫 <b>${escapeHtml(mp.name)}</b> · ${escapeHtml(mp.wear?mp.wearDesc:perkDesc(mp.perk))}</span></div>`
     : `<div class="fish-petbar" style="background:#f1f5f9;color:#64748b"><span class="fpb-emoji">🐾</span><span>펫을 착용하면 낚시 능력치 보너스! (에픽↑ 펫은 낚시터에서 획득)</span></div>`;
   // 🐾 보유 펫 합산 효과 (착용 펫 제외 · 절반 · 상한 아이템 +2.5% / 꽝감소·코인유지 합계 +20%)
   const opp=ownedPetPerk(emp), opn=ownedPetCount(emp);
