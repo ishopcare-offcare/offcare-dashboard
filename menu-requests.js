@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4348,
- "updatedAt": "2026-10-29 14:53",
+ "version": 4349,
+ "updatedAt": "2026-10-29 14:56",
  "days": 30,
  "items": [
   {
@@ -114,7 +114,6 @@ window.MENU_REQUESTS = {
      "name": "20261029_135555.jpg",
      "fid": "F0CCXEQARQT",
      "from": "댓글",
-     "path": "menu-files/1793249928_739749-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -188,13 +187,13 @@ window.MENU_REQUESTS = {
        "price": 20000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793249928_739749-0.jpg"
     },
     {
      "name": "20261029_135601.jpg",
      "fid": "F0CD5JGSSUR",
      "from": "댓글",
-     "path": "menu-files/1793249928_739749-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -263,13 +262,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793249928_739749-1.jpg"
     },
     {
      "name": "20261029_135612.jpg",
      "fid": "F0CCXEREKJP",
      "from": "댓글",
-     "path": "menu-files/1793249928_739749-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -328,13 +327,13 @@ window.MENU_REQUESTS = {
        "price": 35000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793249928_739749-2.jpg"
     },
     {
      "name": "20261029_135606.jpg",
      "fid": "F0CCYCX7DDK",
      "from": "댓글",
-     "path": "menu-files/1793249928_739749-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -413,13 +412,13 @@ window.MENU_REQUESTS = {
        "price": 800
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793249928_739749-3.jpg"
     },
     {
      "name": "20261029_135617.jpg",
      "fid": "F0CD7CMDX8C",
      "from": "댓글",
-     "path": "menu-files/1793249928_739749-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -478,15 +477,18 @@ window.MENU_REQUESTS = {
        "price": 37000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793249928_739749-4.jpg"
     }
    ],
    "datt": [],
    "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1793249876719089?thread_ts=···.755009&cid=C0A7CLLANP7"
+    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1793249876719089?thread_ts=···.755009&cid=C0A7CLLANP7",
+    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1793253146428399?thread_ts=···.755009&cid=C0A7CLLANP7",
+    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1793252843654619?thread_ts=···.755009&cid=C0A7CLLANP7"
    ],
-   "rc": 3,
-   "lr": "1793251376.866649",
+   "rc": 5,
+   "lr": "1793253392.404949",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
