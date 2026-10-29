@@ -242,79 +242,52 @@
   .nps-kpi-val small{font-size:13px; color:var(--gray2); font-weight:700}
   .nps-kpi-sub{font-size:12px; color:var(--gray2); margin-top:2px}
   @media (max-width:760px){ .nps-kpis{grid-template-columns:repeat(2,1fr)} }
-  .nps-scene-wrap{overflow-x:auto; border-radius:16px}
-  .nps-scene{position:relative; min-width:860px; height:540px; border-radius:16px; overflow:hidden;
-    background:linear-gradient(180deg,#070b26 0%,#16205a 26%,#3b5bd1 48%,#8cc1ff 66%,#cfe7ff 78%)}
-  .nps-star{position:absolute; border-radius:50%; background:#fff; opacity:.85; animation:npsTw 2.6s ease-in-out infinite}
-  @keyframes npsTw{50%{opacity:.25}}
-  .nps-char{position:absolute; filter:drop-shadow(0 3px 4px rgba(0,0,0,.25))}
-  /* 상점 아바타의 카드 배경·받침을 빼고 캐릭터만 — 행성·땅 위에 바로 서 있게 */
-  .nps-scene .avatar-big{background:none; border:none; box-shadow:none; border-radius:0}
-  .nps-scene .ab-glow, .nps-scene .ab-platform{display:none}
-  .nps-buried .ab-char{animation:none}
-  .nps-tag{position:absolute; left:50%; transform:translateX(-50%); white-space:nowrap; background:rgba(255,255,255,.95); color:#1c1c1e;
-    font-size:12.5px; font-weight:800; padding:4px 11px; border-radius:20px; box-shadow:0 2px 8px rgba(0,0,0,.18)}
-  .nps-tag small{font-size:11px; font-weight:700; color:#6b7280; margin-left:3px}
-  .nps-tag .nps-rk{color:#1f4ffa}
-  .nps-tag.gold{background:linear-gradient(135deg,#fff3c4,#ffd85a)} .nps-tag.gold .nps-rk{color:#b45309}
-  .nps-tag.silver{background:linear-gradient(135deg,#ffffff,#dfe5ee)} .nps-tag.silver .nps-rk{color:#475569}
-  .nps-tag.bronze{background:linear-gradient(135deg,#ffe8d4,#f4b483)} .nps-tag.bronze .nps-rk{color:#9a3412}
-  .nps-tag.last{background:#f3e3cf} .nps-tag.last .nps-rk{color:#7c4a1e}
-  .nps-cap{position:absolute; left:50%; transform:translateX(-50%); white-space:nowrap; font-size:11.5px; font-weight:800; color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.6)}
-  /* 1위 화성 */
-  .nps-mars{position:absolute; right:5%; top:30px; width:190px; height:250px}
-  .nps-mars-ball{position:absolute; left:10px; top:96px; width:170px; height:170px; border-radius:50%;
-    background:radial-gradient(circle at 35% 30%,#ffb08a 0%,#f0703c 40%,#b9381a 80%,#8a2610 100%); box-shadow:0 0 40px rgba(255,112,60,.55)}
-  .nps-mars-ball i{position:absolute; border-radius:50%; background:rgba(120,30,10,.35)}
-  .nps-mars-ball i:nth-child(1){left:38px; top:52px; width:30px; height:22px}
-  .nps-mars-ball i:nth-child(2){left:100px; top:92px; width:22px; height:16px}
-  .nps-mars-ball i:nth-child(3){left:62px; top:118px; width:16px; height:12px}
-  .nps-rocket{position:absolute; left:24px; top:22px; width:46px; height:84px; transform:rotate(-8deg)}
-  .nps-flag{position:absolute; left:148px; top:66px; font-size:28px}
-  .nps-c1{left:55px; top:16px}
-  .nps-mars .nps-tag{top:-12px} .nps-mars .nps-cap{top:270px}
-  /* 2위 지구 */
-  .nps-earth{position:absolute; left:6%; top:58px; width:170px; height:230px}
-  .nps-earth-ball{position:absolute; left:10px; top:84px; width:150px; height:150px; border-radius:50%; overflow:hidden;
-    background:radial-gradient(circle at 35% 30%,#7cc4ff 0%,#2f7de1 55%,#1747a6 100%); box-shadow:0 0 34px rgba(90,170,255,.6)}
-  .nps-earth-ball svg{width:100%; height:100%}
-  .nps-c2{left:49px; top:8px}
-  .nps-earth .nps-tag{top:-6px} .nps-earth .nps-cap{top:244px}
-  /* 3위 비행기 */
-  .nps-plane{position:absolute; left:36%; top:236px; width:220px; height:120px; animation:npsFly 3.2s ease-in-out infinite}
-  @keyframes npsFly{50%{transform:translateY(-8px)}}
-  .nps-plane-svg{position:absolute; left:0; top:40px; width:220px; height:90px}
-  .nps-c3{left:116px; top:12px; z-index:0}
-  .nps-plane-svg{z-index:1}
-  .nps-plane .nps-tag{top:-14px} .nps-plane .nps-cap{top:132px; color:#1c1c1e; text-shadow:none}
-  .nps-cloud{position:absolute; background:#fff; border-radius:40px; opacity:.85}
-  .nps-cloud::before,.nps-cloud::after{content:''; position:absolute; background:#fff; border-radius:50%}
-  .nps-cloud.c1{left:16%; top:330px; width:110px; height:30px} .nps-cloud.c1::before{left:18px; top:-16px; width:42px; height:42px} .nps-cloud.c1::after{left:52px; top:-10px; width:32px; height:32px}
-  .nps-cloud.c2{left:62%; top:300px; width:90px; height:26px} .nps-cloud.c2::before{left:14px; top:-14px; width:36px; height:36px} .nps-cloud.c2::after{left:44px; top:-8px; width:26px; height:26px}
-  .nps-cloud.c3{left:82%; top:352px; width:70px; height:22px; opacity:.7} .nps-cloud.c3::before{left:12px; top:-12px; width:30px; height:30px}
-  /* 땅 */
-  .nps-ground{position:absolute; left:0; right:0; bottom:0; height:96px;
-    background:linear-gradient(180deg,#5cc85a 0,#3fa33e 12px,#a8743f 12px,#8a5a2c 60%,#6e4520 100%)}
-  .nps-ground i{position:absolute; border-radius:50%; background:rgba(60,35,12,.35)}
-  .nps-ground i:nth-child(1){left:8%; top:40px; width:12px; height:8px} .nps-ground i:nth-child(2){left:30%; top:62px; width:16px; height:10px}
-  .nps-ground i:nth-child(3){left:52%; top:44px; width:10px; height:7px} .nps-ground i:nth-child(4){left:70%; top:70px; width:14px; height:9px}
-  .nps-ground i:nth-child(5){left:90%; top:52px; width:12px; height:8px}
-  .nps-walkers{position:absolute; left:3%; right:22%; bottom:84px; display:flex; justify-content:space-around; align-items:flex-end}
-  .nps-walker{position:relative; width:90px; height:96px}
-  .nps-walker .nps-char{left:19px; bottom:-6px}
-  .nps-walker .nps-tag{bottom:-44px; font-size:11.5px; padding:3px 9px}
-  .nps-walker .nps-tag small{display:block; margin:0; text-align:center}
-  /* 꼴등 땅속 */
-  .nps-buried{position:absolute; right:6%; bottom:0; width:150px; height:150px}
-  .nps-buried-clip{position:absolute; left:43px; bottom:70px; width:64px; height:46px; overflow:hidden}
-  .nps-buried-clip .av-mini{position:absolute; left:0; top:0; animation:npsWig 1.4s ease-in-out infinite}
+  /* 만족도 레이스 — 순위별 한 줄 트랙 */
+  .nps-race{display:flex; flex-direction:column; gap:8px}
+  .nps-lane{display:grid; grid-template-columns:44px 150px 1fr 118px; align-items:center; gap:10px; cursor:pointer;
+    padding:4px 10px 4px 6px; border-radius:16px; transition:.15s}
+  .nps-lane:hover{background:var(--surface)}
+  .nps-lane-rk{font-size:26px; text-align:center; line-height:1}
+  .nps-lane-rk span{display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%;
+    background:var(--surface); color:var(--ink-soft); font-size:15px; font-weight:800}
+  .nps-lane-who b{display:block; font-size:15px; color:var(--ink)}
+  .nps-lane-who small{font-size:12px; color:var(--gray); font-weight:600}
+  .nps-track{position:relative; height:62px; border-radius:14px; overflow:hidden}
+  .nps-trail{position:absolute; left:0; top:50%; height:0; border-top:3px dashed rgba(255,255,255,.75)}
+  .nps-runner{position:absolute; bottom:0; transform:translateX(-50%); display:flex; align-items:flex-end}
+  .nps-ride{font-size:24px; margin-right:-6px; margin-bottom:8px; filter:drop-shadow(0 2px 2px rgba(0,0,0,.25))}
+  .nps-goal{position:absolute; right:8px; top:50%; transform:translateY(-50%); font-size:28px; filter:drop-shadow(0 2px 3px rgba(0,0,0,.25))}
+  .nps-lane-cap{font-size:12.5px; font-weight:800; color:var(--ink-soft); white-space:nowrap}
+  /* 줄 배경: 우주 → 지구 → 하늘 → 들판 → 땅속 */
+  .t-mars .nps-track{background:radial-gradient(circle at 12% 30%,#fff 0 1px,transparent 2px),radial-gradient(circle at 37% 70%,#fff 0 1px,transparent 2px),
+    radial-gradient(circle at 58% 22%,#fff 0 1px,transparent 2px),radial-gradient(circle at 78% 64%,#fff 0 1px,transparent 2px),linear-gradient(90deg,#070b26,#2a1a5e 60%,#7a2a18)}
+  .t-mars .nps-lane-cap{color:#c2410c}
+  .t-earth .nps-track{background:linear-gradient(90deg,#16205a,#2f7de1)}
+  .t-plane .nps-track{background:linear-gradient(90deg,#8cc1ff,#d6ecff)}
+  .t-plane .nps-trail{border-top-color:rgba(255,255,255,.95)}
+  .t-run .nps-track{background:linear-gradient(180deg,#bfe0ff 0 58%,#5cc85a 58% 64%,#3fa33e 64%)}
+  .t-dirt .nps-track{background:linear-gradient(180deg,#d6ecff 0 34%,#5cc85a 34% 40%,#a8743f 40%,#6e4520)}
+  .t-dirt .nps-lane-cap{color:#8a5a2c}
+  /* 상점 아바타 카드 배경을 빼고 캐릭터만 */
+  .nps-race .avatar-big{background:none; border:none; box-shadow:none; border-radius:0}
+  .nps-race .ab-glow, .nps-race .ab-platform{display:none}
+  .nps-race .av-mini{margin:0 0 -6px; filter:drop-shadow(0 2px 3px rgba(0,0,0,.25))}
+  /* 꼴등: 머리만 땅 위로 */
+  .nps-sunk{width:46px; height:36px; overflow:hidden; margin-bottom:20px}
+  .nps-sunk .av-mini{margin:0; animation:npsWig 1.4s ease-in-out infinite}
+  .nps-sunk .ab-char{animation:none}
   @keyframes npsWig{25%{transform:rotate(-4deg)} 75%{transform:rotate(4deg)}}
-  .nps-mound{position:absolute; left:28px; bottom:56px; width:94px; height:22px; border-radius:50% 50% 8px 8px; background:#8a5a2c; box-shadow:inset 0 4px 0 #a8743f}
-  .nps-shovel{position:absolute; left:116px; bottom:58px; width:24px; height:42px; transform:rotate(18deg)}
-  .nps-bubble{position:absolute; left:74px; bottom:114px; white-space:nowrap; background:#fff; color:#1c1c1e; font-size:11.5px; font-weight:800;
-    padding:4px 9px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,.15)}
-  .nps-buried .nps-tag{bottom:12px}
-  .nps-scene-empty{padding:60px 20px; text-align:center; color:var(--gray); font-weight:700}
+  .nps-mound{position:absolute; left:10px; bottom:14px; width:62px; height:14px; border-radius:50% 50% 6px 6px; background:#8a5a2c; box-shadow:inset 0 3px 0 #a8743f}
+  .t-dirt .nps-ride{order:2; margin:0 0 18px 2px}
+  .nps-race-empty{padding:40px 20px; text-align:center; color:var(--gray); font-weight:700}
+  @media (max-width:760px){
+    .nps-lane{grid-template-columns:34px 92px 1fr; gap:6px}
+    .nps-lane-cap{display:none}
+    .nps-lane-who b{font-size:13.5px}
+    .nps-lane-who small{font-size:11px}
+  }
+  .nps-voice.empty .nps-v-c{color:var(--gray2); font-style:italic}
+  .nps-voice.empty{background:var(--surface)}
   /* 표·의견 */
   .nps-table-wrap{overflow-x:auto}
   .nps-table{width:100%; border-collapse:collapse; font-size:14px}
@@ -4533,35 +4506,33 @@ const npsFmt=v=>v==null?'-':v.toFixed(1);
 function npsMetric(s){ return npsBy==='avg' ? `⭐ ${npsFmt(s.avg)}점 · ${s.n}건` : `💬 ${s.n}건 · ⭐ ${npsFmt(s.avg)}`; }
 function npsTag(rank, s, cls){ return `<div class="nps-tag ${cls||''}"><span class="nps-rk">${rank}위</span> ${escapeHtml(s.emp)} <small>${npsMetric(s)}</small></div>`; }
 
-// ── 우주 → 하늘 → 땅 장면. 1위 화성(우주선) · 2위 지구 · 3위 비행기 · 중간은 땅 위 · 꼴등은 땅속 ──
-const NPS_ROCKET=`<svg viewBox="0 0 60 110" class="nps-rocket"><path d="M30 4 C44 18 46 44 44 70 L16 70 C14 44 16 18 30 4Z" fill="#f4f6fb" stroke="#c9d1e3" stroke-width="2"/>
-  <path d="M30 4 C37 11 41 19 42 26 L18 26 C19 19 23 11 30 4Z" fill="#ff453a"/><circle cx="30" cy="42" r="8" fill="#5ac8fa" stroke="#3a7bd5" stroke-width="3"/>
-  <path d="M16 56 L4 78 L16 74Z M44 56 L56 78 L44 74Z" fill="#ff453a"/><rect x="22" y="70" width="16" height="7" rx="2" fill="#8e9ab3"/>
-  <path d="M8 104 Q30 92 52 104" fill="none" stroke="#ffb38a" stroke-width="3" stroke-linecap="round" opacity=".7"/></svg>`;
-const NPS_PLANE=`<svg viewBox="0 0 220 90" class="nps-plane-svg"><path d="M18 48 Q20 36 40 36 L170 36 Q206 38 212 52 Q206 62 170 62 L40 62 Q22 62 18 48Z" fill="#ffffff" stroke="#c9d1e3" stroke-width="2"/>
-  <path d="M30 37 L14 10 L34 10 L58 37Z" fill="#1f4ffa"/><path d="M92 56 L66 86 L96 86 L130 56Z" fill="#1f4ffa"/><path d="M90 40 L74 22 L92 22 L116 40Z" fill="#7aa2ff"/>
-  <path d="M186 42 Q200 44 206 51 L186 51Z" fill="#5ac8fa"/>${[70,90,110,130,150].map(x=>`<circle cx="${x}" cy="48" r="4" fill="#5ac8fa"/>`).join('')}
-  <path d="M2 44 L14 44 M0 52 L12 52" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".8"/></svg>`;
-const NPS_SHOVEL=`<svg viewBox="0 0 40 70" class="nps-shovel"><rect x="18" y="0" width="5" height="44" rx="2" fill="#a0703c"/><rect x="12" y="0" width="17" height="6" rx="3" fill="#a0703c"/><path d="M8 42 L33 42 L31 62 Q20 72 10 62Z" fill="#9aa4b5" stroke="#6b7486" stroke-width="2"/></svg>`;
-function npsStars(){ let s='', seed=7; const rnd=()=>{ seed=(seed*9301+49297)%233280; return seed/233280; };
-  for(let i=0;i<46;i++){ const x=(rnd()*100).toFixed(1), y=(rnd()*40).toFixed(1), z=(1+rnd()*2.2).toFixed(1), d=(rnd()*3).toFixed(1);
-    s+=`<i class="nps-star" style="left:${x}%;top:${y}%;width:${z}px;height:${z}px;animation-delay:${d}s"></i>`; } return s; }
-function npsScene(ranked){
+// ── 만족도 레이스 — 1위부터 꼴등까지 한 줄씩. 캐릭터는 기준값만큼 트랙을 달려 나가 있다.
+//    줄 배경으로 순위를 표현: 1위 우주(화성 도착) · 2위 지구 · 3위 하늘(비행기) · 중간 들판 · 꼴등 땅속
+const NPS_TIER={
+  mars: {cap:'화성 도착! 🚀', ride:'🚀', goal:'🪐'},
+  earth:{cap:'지구 도착 🌍',  ride:'',   goal:'🌍'},
+  plane:{cap:'비행 중 ✈️',    ride:'✈️', goal:'☁️'},
+  run:  {cap:'달리는 중 🏃',  ride:'💨', goal:'🏁'},
+  dirt: {cap:'땅속… 살려줘 💦', ride:'⛏️', goal:'🏁'},
+};
+function npsRace(ranked){
   const N=ranked.length;
-  if(!N) return `<div class="nps-scene-empty">이 기간에는 아직 만족도 응답이 없어요 🛰️</div>`;
-  const at=i=>ranked[i], last=N>=4?N-1:-1, mids=ranked.map((_,i)=>i).filter(i=>i>=3&&i!==last);
-  let h='';
-  if(at(0)) h+=`<div class="nps-mars"><div class="nps-mars-ball"><i></i><i></i><i></i></div>${NPS_ROCKET}
-      <div class="nps-flag">🚩</div><div class="nps-char nps-c1">${avatarMini(at(0).emp, 80)}</div>${npsTag(1, at(0), 'gold')}<div class="nps-cap">화성 도착! 🚀</div></div>`;
-  if(at(1)) h+=`<div class="nps-earth"><div class="nps-earth-ball"><svg viewBox="0 0 100 100"><path d="M18 30 Q30 18 44 26 Q50 38 38 44 Q26 48 22 40Z M58 20 Q74 22 80 36 Q70 40 62 34Z M50 58 Q66 52 76 64 Q72 80 56 82 Q46 72 50 58Z M14 60 Q24 58 28 68 Q22 74 16 70Z" fill="#34c759" opacity=".9"/></svg></div>
-      <div class="nps-char nps-c2">${avatarMini(at(1).emp, 72)}</div>${npsTag(2, at(1), 'silver')}<div class="nps-cap">지구 한 바퀴 🌍</div></div>`;
-  if(at(2)) h+=`<div class="nps-plane"><div class="nps-char nps-c3">${avatarMini(at(2).emp, 58)}</div>${NPS_PLANE}${npsTag(3, at(2), 'bronze')}<div class="nps-cap">비행 중 ✈️</div></div>`;
-  h+=`<div class="nps-cloud c1"></div><div class="nps-cloud c2"></div><div class="nps-cloud c3"></div>`;
-  // 땅 위 — 4위부터 꼴등 앞까지 왼쪽부터 나란히
-  h+=`<div class="nps-walkers">${mids.map(i=>`<div class="nps-walker"><div class="nps-char">${avatarMini(at(i).emp, 52)}</div>${npsTag(i+1, at(i))}</div>`).join('')}</div>`;
-  if(last>=0) h+=`<div class="nps-buried"><div class="nps-bubble">살려줘~ 💦</div><div class="nps-buried-clip">${avatarMini(at(last).emp, 64)}</div>
-      <div class="nps-mound"></div>${NPS_SHOVEL}${npsTag(last+1, at(last), 'last')}</div>`;
-  return `<div class="nps-scene-wrap"><div class="nps-scene">${npsStars()}<div class="nps-ground"><i></i><i></i><i></i><i></i><i></i></div>${h}</div></div>`;
+  if(!N) return `<div class="nps-race-empty">이 기간에는 아직 만족도 응답이 없어요 🛰️</div>`;
+  const val=s=>npsBy==='avg'?(s.avg||0):s.n, max=Math.max(...ranked.map(val));
+  // 평점은 대부분 9.7~10 이라 0~10 으로 놓으면 다 붙어 버린다 → 최저점 조금 아래부터 10 까지를 트랙으로
+  const lo = npsBy==='avg' ? Math.max(0, Math.min(...ranked.map(val))-0.3) : 0;
+  const pos=s=>{ const span=max-lo; return span>0 ? 6+80*(val(s)-lo)/span : 86; };
+  return `<div class="nps-race">${ranked.map((s,i)=>{
+    const tier = i===0?'mars':i===1?'earth':i===2?'plane':(N>=4&&i===N-1)?'dirt':'run', T=NPS_TIER[tier], p=pos(s).toFixed(1);
+    const rk = i<3 ? ['🥇','🥈','🥉'][i] : `<span>${i+1}</span>`;
+    const av = tier==='dirt' ? `<div class="nps-sunk">${avatarMini(s.emp, 46)}</div><div class="nps-mound"></div>` : avatarMini(s.emp, 46);
+    return `<div class="nps-lane t-${tier}" onclick="setNpsSel('${escapeHtml(s.emp)}')" title="눌러서 ${escapeHtml(s.emp)} 님 고객 의견 보기">
+      <div class="nps-lane-rk">${rk}</div>
+      <div class="nps-lane-who"><b>${escapeHtml(s.emp)}</b><small>${npsMetric(s)}</small></div>
+      <div class="nps-track"><div class="nps-trail" style="width:${p}%"></div>
+        <div class="nps-runner" style="left:clamp(34px, ${p}%, calc(100% - 62px))">${T.ride?`<span class="nps-ride">${T.ride}</span>`:''}${av}</div>
+        <div class="nps-goal">${T.goal}</div></div>
+      <div class="nps-lane-cap">${T.cap}</div></div>`; }).join('')}</div>`;
 }
 
 function renderNps(){
@@ -4593,17 +4564,18 @@ function renderNps(){
     ${none.length?`<div class="nps-nores">이 기간 응답 없음 · ${none.map(s=>escapeHtml(s.emp)).join(' · ')}</div>`:''}</div>`;
   let voices='';
   if(sel){
-    const withC=sel.list.filter(r=>r.c);
-    voices=`<div class="card"><div class="card-head"><h3>💬 ${escapeHtml(sel.emp)} 님 고객 의견 <span class="nps-cnt">${withC.length}</span></h3><span class="hint">최근 순 · 의견 없이 점수만 남긴 응답 ${sel.n-withC.length}건</span></div>
-      <div class="nps-voices">${withC.map(r=>{ const sc=r.s[0];
-        return `<div class="nps-voice${sc!=null&&sc<=6?' low':''}"><div class="nps-v-top"><span class="nps-v-sc">${sc==null?'점수 없음':'⭐ '+sc}</span><b>${escapeHtml(r.shop||'매장명 없음')}</b><span class="nps-v-d">${r.d.slice(0,10)}</span></div>
-          <div class="nps-v-c">${escapeHtml(r.c)}</div></div>`; }).join('') || '<div class="nps-none">남긴 의견이 없어요</div>'}</div></div>`;
+    const withC=sel.list.filter(r=>r.c).length;
+    // 의견 없이 별점만 준 매장도 모두 보여준다(최근 순)
+    voices=`<div class="card" id="npsVoices"><div class="card-head"><h3>💬 ${escapeHtml(sel.emp)} 님 고객 응답 <span class="nps-cnt">${sel.n}</span></h3><span class="hint">최근 순 · 의견 ${withC}건 · 별점만 ${sel.n-withC}건</span></div>
+      <div class="nps-voices">${sel.list.map(r=>{ const sc=r.s[0];
+        return `<div class="nps-voice${sc!=null&&sc<=6?' low':''}${r.c?'':' empty'}"><div class="nps-v-top"><span class="nps-v-sc">${sc==null?'점수 없음':'⭐ '+sc}</span><b>${escapeHtml(r.shop||'매장명 없음')}</b><span class="nps-v-d">${r.d.slice(0,10)}</span></div>
+          <div class="nps-v-c">${r.c?escapeHtml(r.c):'의견 없이 별점만 남겼어요'}</div></div>`; }).join('') || '<div class="nps-none">응답이 없어요</div>'}</div></div>`;
   }
-  document.getElementById("main").innerHTML = head + kpis + `<div class="card nps-scene-card"><div class="card-head"><h3>🚀 만족도 레이스</h3><span class="hint">${npsBy==='avg'?'평점':'응답 수'} 기준 · 1위 화성 · 2위 지구 · 3위 비행기 · 꼴등은 땅속…</span></div>${npsScene(ranked)}</div>` + table + voices;
+  document.getElementById("main").innerHTML = head + kpis + `<div class="card nps-race-card"><div class="card-head"><h3>🚀 만족도 레이스</h3><span class="hint">${npsBy==='avg'?'평점':'응답 수'} 기준 · 1위 화성 · 2위 지구 · 3위 비행기 · 꼴등은 땅속… · 줄을 누르면 고객 의견</span></div>${npsRace(ranked)}</div>` + table + voices;
 }
 function setNpsBy(k){ npsBy=k; npsSel=''; renderNps(); }
 function setNpsPeriod(k){ npsPeriod=k; npsSel=''; renderNps(); }
-function setNpsSel(emp){ npsSel=emp; renderNps(); }
+function setNpsSel(emp){ npsSel=emp; renderNps(); const v=document.getElementById('npsVoices'); if(v) v.scrollIntoView({behavior:'smooth', block:'start'}); }
 
 /* ================= 🎮 원격 상점 (게임) ================= */
 const GAME_API = "https://script.google.com/macros/s/AKfycbwlPj0fbNjMWTpU1jiGI3gUNPvOE8MlZ7ANqgQP41ZrWE0vo4r2en1pSYZVgEiYYR8M_A/exec";   // Apps Script 웹앱(팀 공유 클라우드)
