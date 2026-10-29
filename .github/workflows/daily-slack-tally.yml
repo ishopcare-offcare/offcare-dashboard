@@ -68,6 +68,13 @@ jobs:
           GDRIVE_REFRESH_TOKEN: ${{ secrets.GDRIVE_REFRESH_TOKEN }}
         run: node scripts/fetch-cx-duty.js || echo "CX 당직 동기화 실패 — 집계는 계속"
 
+      - name: NPS 동기화 (원격지원 만족도 조사 시트 → NPS 탭)
+        env:
+          GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+          GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+          GDRIVE_REFRESH_TOKEN: ${{ secrets.GDRIVE_REFRESH_TOKEN }}
+        run: node scripts/fetch-nps.js || echo "NPS 동기화 실패 — 집계는 계속"
+
       - name: 판독 SDK 설치 (@anthropic-ai/sdk · 메뉴 이미지 판독)
         run: npm install --no-audit --no-fund || echo "SDK 설치 실패 — 판독 없이 진행"
 
@@ -104,13 +111,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -z "$(git status --porcelain slack-data.js menu-requests.js duty-data.js cx-duty-data.js menu-files visit-data.js franchise/data share/compose 2>/dev/null)" ]; then
+          if [ -z "$(git status --porcelain slack-data.js menu-requests.js duty-data.js cx-duty-data.js nps-data.js menu-files visit-data.js franchise/data share/compose 2>/dev/null)" ]; then
             echo "변경 없음 — 커밋 생략"
           else
             git add slack-data.js
             [ -f menu-requests.js ] && git add menu-requests.js
             [ -f duty-data.js ] && git add duty-data.js
             [ -f cx-duty-data.js ] && git add cx-duty-data.js
+            [ -f nps-data.js ] && git add nps-data.js
             [ -d menu-files ] && git add -A menu-files
             [ -f visit-data.js ] && git add visit-data.js
             [ -d franchise/data ] && git add -A franchise/data
