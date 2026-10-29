@@ -3,10 +3,54 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4324,
- "updatedAt": "2026-10-29 10:03",
+ "version": 4325,
+ "updatedAt": "2026-10-29 10:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1793237161.569079",
+   "date": "2026-10-29",
+   "time": "10:26",
+   "store": "텍사스파파크레페 면목점",
+   "biz": "4037002326",
+   "pos": "기타",
+   "content": "땅콩과 그레첼",
+   "special": "금액 7500원 입니다",
+   "drive": [
+    "https://drive.google.com/file/d/1F8d9FCuBzPBrt71Lpvk9Y3Her2UitJQ8/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Sh66nMyqvejQ9IaJX4F0nMLPN_fIUdhE/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1XosrmKcnF0gX2sKuCZHE-XTzal3CpWIb/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1F8d9FCuBzPBrt71Lpvk9Y3Her2UitJQ8",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1Sh66nMyqvejQ9IaJX4F0nMLPN_fIUdhE",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1XosrmKcnF0gX2sKuCZHE-XTzal3CpWIb",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793237161569079"
+  },
   {
    "ts": "1793176308.343169",
    "date": "2026-10-28",
