@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4355,
- "updatedAt": "2026-10-29 15:38",
+ "version": 4356,
+ "updatedAt": "2026-10-29 15:47",
  "days": 30,
  "items": [
   {
@@ -293,16 +293,18 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CD26RUU4W",
      "from": "댓글",
-     "path": "menu-files/1793253487_959209-2.png",
      "kind": "other",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793253487_959209-2.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1793255773.893069",
+   "replies": [
+    "완료"
+   ],
+   "rc": 4,
+   "lr": "1793256444.045449",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
@@ -65985,182 +65987,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790665655665649"
-  },
-  {
-   "ts": "1790664430.007499",
-   "date": "2026-09-29",
-   "time": "15:47",
-   "store": "평화족발",
-   "biz": "4561702591",
-   "pos": "",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "Resized_36073_1492753851300796.jpeg",
-     "fid": "F0C619XBJKA",
-     "from": "댓글",
-     "path": "menu-files/1790664430_007499-0.jpeg",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "온족발",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "꼬들족발",
-       "price": 36000
-      },
-      {
-       "category": "",
-       "name": "마늘족발",
-       "price": 39000
-      },
-      {
-       "category": "",
-       "name": "불족발",
-       "price": 39000
-      },
-      {
-       "category": "",
-       "name": "냉채족발",
-       "price": 42000
-      },
-      {
-       "category": "",
-       "name": "족뱅이",
-       "price": 42000
-      },
-      {
-       "category": "",
-       "name": "보쌈",
-       "price": 34000
-      },
-      {
-       "category": "",
-       "name": "굴보쌈(계절)",
-       "price": 42000
-      },
-      {
-       "category": "",
-       "name": "족발·보쌈 Set",
-       "price": 59000
-      },
-      {
-       "category": "",
-       "name": "반반족발",
-       "price": 39000
-      },
-      {
-       "category": "",
-       "name": "미니족",
-       "price": 13000
-      },
-      {
-       "category": "",
-       "name": "불미니족",
-       "price": 15000
-      },
-      {
-       "category": "추가",
-       "name": "보쌈고기 150g",
-       "price": 15000
-      },
-      {
-       "category": "추가",
-       "name": "굴(계절)",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "오뎅탕",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "녹두전",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "막국수",
-       "price": 9000
-      },
-      {
-       "category": "",
-       "name": "참치주먹밥",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "계란찜",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "냄비라면",
-       "price": 5000
-      },
-      {
-       "category": "",
-       "name": "공기밥",
-       "price": 1500
-      },
-      {
-       "category": "도시락",
-       "name": "족발 정식도시락",
-       "price": 12000
-      },
-      {
-       "category": "도시락",
-       "name": "보쌈 정식도시락",
-       "price": 12000
-      },
-      {
-       "category": "",
-       "name": "소주",
-       "price": 4000
-      },
-      {
-       "category": "",
-       "name": "맥주",
-       "price": 4000
-      },
-      {
-       "category": "",
-       "name": "막걸리",
-       "price": 4000
-      },
-      {
-       "category": "",
-       "name": "음료수",
-       "price": 2000
-      },
-      {
-       "category": "하이볼",
-       "name": "짐빔",
-       "price": 7000
-      },
-      {
-       "category": "하이볼",
-       "name": "산토리니",
-       "price": 7000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1790664499.942289",
-   "rfx": 3,
-   "status": "done",
-   "handler": "서상원",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790664430007499"
   }
  ],
  "ocr": {
