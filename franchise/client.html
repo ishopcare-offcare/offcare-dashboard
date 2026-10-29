@@ -1514,11 +1514,11 @@ function visitKindBreakdown(rows){
     + '<div class="as-brk">' + body + '</div></div>';
 }
 
-/* 방문을 누가 수행했는지 — 자사 직원인지 외주 업체인지.
+/* 방문을 누가 수행했는지 — 자사 직원인지 지사인지.
    명단은 clients.js 의 FRANCHISE_INHOUSE 에 있다. */
 const VISIT_BY = [
   { key:'자사직원', color:'#0071e3' },
-  { key:'외주',     color:'#af52de' },
+  { key:'지사',     color:'#af52de' },
   { key:'미지정',   color:'#8e8e93' },
 ];
 function visitByOf(r){ return window.visitBy ? window.visitBy(r.visit && r.visit.assignee) : '미지정'; }
@@ -1532,9 +1532,9 @@ function visitByBreakdown(rows){
   const total = vs.length;
   const counts = VISIT_BY.map(k => vs.filter(r => visitByOf(r) === k.key).length);
   const mx = Math.max.apply(null, counts);
-  /* 외주는 어느 업체가 많은지가 실제로 궁금한 부분이다 */
+  /* 지사는 어느 곳이 많은지가 실제로 궁금한 부분이다 */
   const vendors = {};
-  vs.filter(r => visitByOf(r) === '외주')
+  vs.filter(r => visitByOf(r) === '지사')
     .forEach(r => vendors[r.visit.assignee] = (vendors[r.visit.assignee] || 0) + 1);
   const top = Object.entries(vendors).sort((a, b) => b[1] - a[1]).slice(0, 6);
 
@@ -1549,7 +1549,7 @@ function visitByBreakdown(rows){
           + '<div class="as-brk-n"><b>' + n + '</b>건 · ' + Math.round(n / total * 100) + '%</div></div>';
       }).join('')
     + '</div>'
-    + (top.length ? '<div class="vendors"><span class="vh">외주 업체</span>'
+    + (top.length ? '<div class="vendors"><span class="vh">지사</span>'
         + top.map(x => '<span class="lg"><i style="background:#af52de"></i>' + esc(x[0]) + ' <b>' + x[1] + '</b></span>').join('')
         + (Object.keys(vendors).length > 6 ? '<span class="lg" style="color:var(--gray2)">외 '
             + (Object.keys(vendors).length - 6) + '곳</span>' : '')

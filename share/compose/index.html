@@ -707,22 +707,22 @@ window.FRANCHISE_STATUSES = [
 ];
 
 /* ── 현장방문 수행 주체 ────────────────────────────────────
- *  방문 건의 '설치 담당 배정' 에는 자사 직원 이름과 외주 업체명이 섞여 들어온다.
- *  이름 생김새로 추측하면 틀리므로 자사 직원만 명시하고 나머지를 외주로 본다.
- *  ※ 새 직원이 들어오면 여기에 이름을 추가해야 외주로 잘못 잡히지 않는다.
+ *  방문 건의 '설치 담당 배정' 에는 자사 직원 이름과 지사명이 섞여 들어온다.
+ *  이름 생김새로 추측하면 틀리므로 자사 직원만 명시하고 나머지를 지사로 본다.
+ *  ※ 새 직원이 들어오면 여기에 이름을 추가해야 지사로 잘못 잡히지 않는다.
  * ───────────────────────────────────────────────────────── */
 window.FRANCHISE_INHOUSE = [
   '이성철', '김명석', '김주진', '공명현', '박성민',
   '강승철', '홍남수', '황선혁', '유동건', '이동훈B', '박효빈',
 ];
 
-/* 담당자 이름 → '자사직원' | '외주' | '미지정' */
+/* 담당자 이름 → '자사직원' | '지사' | '미지정' */
 window.visitBy = function(assignee){
   const v = String(assignee == null ? '' : assignee).trim();
   if(!v) return '미지정';
   /* 스레드에서 잘못 긁힌 문구는 담당자로 치지 않는다 (예: '분께 확인요청중 .') */
   if(/요청|확인|문의|대기|미정/.test(v)) return '미지정';
-  return (window.FRANCHISE_INHOUSE || []).indexOf(v) >= 0 ? '자사직원' : '외주';
+  return (window.FRANCHISE_INHOUSE || []).indexOf(v) >= 0 ? '자사직원' : '지사';
 };
 
 /* 브랜드명 → 고객사 조회 (client.html·index.html 공용) */
@@ -2226,11 +2226,11 @@ function visitKindBreakdown(rows){
     + '<div class="as-brk">' + body + '</div></div>';
 }
 
-/* 방문을 누가 수행했는지 — 자사 직원인지 외주 업체인지.
+/* 방문을 누가 수행했는지 — 자사 직원인지 지사인지.
    명단은 clients.js 의 FRANCHISE_INHOUSE 에 있다. */
 const VISIT_BY = [
   { key:'자사직원', color:'#0071e3' },
-  { key:'외주',     color:'#af52de' },
+  { key:'지사',     color:'#af52de' },
   { key:'미지정',   color:'#8e8e93' },
 ];
 function visitByOf(r){ return window.visitBy ? window.visitBy(r.visit && r.visit.assignee) : '미지정'; }
@@ -2244,9 +2244,9 @@ function visitByBreakdown(rows){
   const total = vs.length;
   const counts = VISIT_BY.map(k => vs.filter(r => visitByOf(r) === k.key).length);
   const mx = Math.max.apply(null, counts);
-  /* 외주는 어느 업체가 많은지가 실제로 궁금한 부분이다 */
+  /* 지사는 어느 곳이 많은지가 실제로 궁금한 부분이다 */
   const vendors = {};
-  vs.filter(r => visitByOf(r) === '외주')
+  vs.filter(r => visitByOf(r) === '지사')
     .forEach(r => vendors[r.visit.assignee] = (vendors[r.visit.assignee] || 0) + 1);
   const top = Object.entries(vendors).sort((a, b) => b[1] - a[1]).slice(0, 6);
 
@@ -2261,7 +2261,7 @@ function visitByBreakdown(rows){
           + '<div class="as-brk-n"><b>' + n + '</b>건 · ' + Math.round(n / total * 100) + '%</div></div>';
       }).join('')
     + '</div>'
-    + (top.length ? '<div class="vendors"><span class="vh">외주 업체</span>'
+    + (top.length ? '<div class="vendors"><span class="vh">지사</span>'
         + top.map(x => '<span class="lg"><i style="background:#af52de"></i>' + esc(x[0]) + ' <b>' + x[1] + '</b></span>').join('')
         + (Object.keys(vendors).length > 6 ? '<span class="lg" style="color:var(--gray2)">외 '
             + (Object.keys(vendors).length - 6) + '곳</span>' : '')
