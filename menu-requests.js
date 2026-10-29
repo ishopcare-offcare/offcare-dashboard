@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4358,
- "updatedAt": "2026-10-29 16:12",
+ "version": 4359,
+ "updatedAt": "2026-10-29 16:17",
  "days": 30,
  "items": [
   {
@@ -657,8 +657,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "• 식사류\n특왕갈비탕 삭제\n고기 물냉면 삭제\n고기 비냉 삭제\n고기 추가 삭제\n일반갈비탕 12,000원 추가\n\n• 고기류\n버섯갈비전골 중 40,000원 수정"
    ],
-   "rc": 4,
-   "lr": "1793253621.590289",
+   "rc": 5,
+   "lr": "1793258217.194029",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
