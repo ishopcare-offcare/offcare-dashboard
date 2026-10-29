@@ -2827,6 +2827,7 @@ function renderNav(){
   if(act && window.innerWidth<=900) act.scrollIntoView({block:'nearest',inline:'center'});
 }
 const VOC_MONTHLY_PW='3395';   // VOC Monthly 접속 비밀번호
+const NPS_PW='1029';            // NPS 탭 접속 비밀번호 (탭에 들어올 때마다 — 이미 NPS 탭 안에서 이동할 땐 묻지 않음)
 // 들어올 때마다 확인한다(세션 기억 없음). 자리를 비운 사이 탭만 눌러 들어오는 걸 막기 위함.
 // 브라우저 prompt() 는 입력값이 그대로 보여서 type=password 모달을 직접 띄운다 → 비동기.
 let pwResolve=null, pwExpect='';
@@ -2862,6 +2863,7 @@ function pwCancel(){ pwClose(false); }
 async function selectCat(k){
   if(k==='voc-monthly' && !(await askPw('VOC Monthly', VOC_MONTHLY_PW))) return;
   if(k==='admin'       && !(await askPw('관리(파트리더)', ADMIN_PW))) return;
+  if(k==='nps' && activeCat!=='nps' && !(await askPw('NPS', NPS_PW))) return;
   // 메뉴등록 탭을 벗어나면 양식 변환란을 비운다 — 남겨두면 나중에 돌아왔을 때
   // 앞 매장 메뉴가 그대로 있어 다음 매장 양식에 섞인다(되돌리기는 계속 제공).
   if(activeCat==='menureg' && k!=='menureg') menuregClearGrid('메뉴등록 탭을 벗어났습니다');
@@ -5511,7 +5513,7 @@ function npsStarShop(){
   return `<div class="card star-shop"><div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><div class="ss-who">${npsWhoSel()}</div></div>
     <div class="empty-note">본인 이름을 고르면 내 ⭐ 별·🌠 별조각과 별 아이템이 보여요</div></div>`;
 }
-function npsGoStarShop(){ selectCat('nps'); setTimeout(()=>{ const el=document.querySelector('.star-shop'); if(el) el.scrollIntoView({behavior:'smooth', block:'start'}); }, 60); }
+async function npsGoStarShop(){ await selectCat('nps'); if(activeCat!=='nps') return; setTimeout(()=>{ const el=document.querySelector('.star-shop'); if(el) el.scrollIntoView({behavior:'smooth', block:'start'}); }, 60); }
 // 별 상점이 NPS 탭으로 옮겨가 구매·해제·본인 선택 후에 '지금 보고 있는 탭'을 다시 그린다
 function renderShopHost(){ if(activeCat==='nps') renderNps(); else renderGame(); }
 function starShopSection(emp){
