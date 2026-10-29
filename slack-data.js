@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27159,
+  "version": 27160,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289661,6 +289661,11 @@ window.SLACK_DATA = {
     },
     "2026-10-29": {
       "counts": {
+        "onboarding": {
+          "심성현": 2,
+          "고경림": 3,
+          "김동욱": 2
+        },
         "as": {
           "박하림": 2,
           "김현기": 2,
@@ -289672,11 +289677,6 @@ window.SLACK_DATA = {
         },
         "nosetup": {
           "심성현": 4
-        },
-        "onboarding": {
-          "고경림": 3,
-          "김동욱": 2,
-          "심성현": 1
         },
         "booking": {
           "김동욱": 2,
@@ -289692,6 +289692,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "12:25",
+          "store": "오션스케치",
+          "biz": "7090801650",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "프론트와 터미널 연결 후 프론트에 토스 할인 하기 동의해서 사장님 앱 실행 후 아래 순서로 진행해주세요.",
+          "hw": "",
+          "intake": "online",
+          "note": "터프 온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "12:10",
           "store": "반가워",
@@ -290530,7 +290542,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 64,
+        "online": 65,
         "offline": 9,
         "unknown": 0
       },
@@ -290653,7 +290665,7 @@ window.SLACK_DATA = {
       },
       "1793233646.610999": {
         "post": "1793233646.610999",
-        "lastSeen": 1793244710.682,
+        "lastSeen": 1793244848.575,
         "r": 1,
         "day": "2026-10-29",
         "idx": 4
@@ -290664,17 +290676,10 @@ window.SLACK_DATA = {
       },
       "1793242800.734549": {
         "post": "1793242800.734549",
-        "lastSeen": 1793244710.682,
+        "lastSeen": 1793244848.575,
         "r": 1,
         "day": "2026-10-29",
         "idx": 52
-      },
-      "1793244349.147579": {
-        "post": "1793244349.147579",
-        "lastSeen": 1793244710.682,
-        "r": 1,
-        "day": "2026-10-29",
-        "idx": 60
       }
     },
     "days": {
@@ -397872,14 +397877,15 @@ window.SLACK_DATA = {
             "store": "오션스케치",
             "biz": "7090801650",
             "who": "심성현",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 7.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-29 12:32",
+    "at": "2026-10-29 12:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -398022,7 +398028,7 @@ window.SLACK_DATA = {
     "2026-10-29": 2
   },
   "noteMig": {
-    "at": "2026-10-29 12:31",
+    "at": "2026-10-29 12:34",
     "pri": {
       "days": 0,
       "failed": [],
