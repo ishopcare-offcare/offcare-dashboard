@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4383,
- "updatedAt": "2026-10-30 01:01",
+ "version": 4384,
+ "updatedAt": "2026-10-30 03:31",
  "days": 30,
  "items": [
   {
@@ -2503,7 +2503,7 @@ window.MENU_REQUESTS = {
      "v": 2
     },
     {
-     "name": "20261008_135754.jpg",
+     "name": "첨부",
      "fid": "F0CCU9SHC1F",
      "from": "원글",
      "kind": "menu_board",
@@ -2564,11 +2564,10 @@ window.MENU_REQUESTS = {
        "price": 500
       }
      ],
-     "v": 2,
-     "path": "menu-files/1793170725_173199-0.jpg"
+     "v": 2
     },
     {
-     "name": "20261008_135758.jpg",
+     "name": "첨부",
      "fid": "F0CCL5ZPUUB",
      "from": "원글",
      "kind": "menu_board",
@@ -2649,8 +2648,7 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 2,
-     "path": "menu-files/1793170725_173199-1.jpg"
+     "v": 2
     }
    ],
    "datt": [],
@@ -25953,7 +25951,7 @@ window.MENU_REQUESTS = {
    "files": 1,
    "att": [
     {
-     "name": "image.png",
+     "name": "첨부",
      "fid": "F0CA70FREM8",
      "from": "원글",
      "kind": "menu_board",
@@ -34639,7 +34637,7 @@ window.MENU_REQUESTS = {
    "files": 2,
    "att": [
     {
-     "name": "키오스크-첫화면gif.gif",
+     "name": "첨부",
      "fid": "F0C8X0712GL",
      "from": "원글",
      "kind": "other",
@@ -47697,49 +47695,6 @@ window.MENU_REQUESTS = {
      ]
     },
     {
-     "name": "Resized_20261008_103351.jpg",
-     "fid": "F0C8FQA0NTS",
-     "from": "원글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "딸기",
-       "name": "딸기라떼",
-       "price": 6500
-      },
-      {
-       "category": "딸기",
-       "name": "딸기초코",
-       "price": 6800
-      },
-      {
-       "category": "딸기",
-       "name": "딸기말차",
-       "price": 6800
-      },
-      {
-       "category": "딸기",
-       "name": "버블추가",
-       "price": 1000
-      },
-      {
-       "category": "딸기",
-       "name": "딸기 쥬스",
-       "price": 6500
-      },
-      {
-       "category": "딸기",
-       "name": "수박 쥬스",
-       "price": 6500
-      },
-      {
-       "category": "딸기",
-       "name": "딸기바나나",
-       "price": 6800
-      }
-     ]
-    },
-    {
      "name": "Resized_20261008_103358.jpg",
      "fid": "F0C7PBK2WL9",
      "from": "원글",
@@ -47844,6 +47799,49 @@ window.MENU_REQUESTS = {
        "category": "TEA PLESURE",
        "name": "HOT 유자차",
        "price": 5500
+      }
+     ]
+    },
+    {
+     "name": "첨부",
+     "fid": "F0C8FQA0NTS",
+     "from": "원글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "딸기",
+       "name": "딸기라떼",
+       "price": 6500
+      },
+      {
+       "category": "딸기",
+       "name": "딸기초코",
+       "price": 6800
+      },
+      {
+       "category": "딸기",
+       "name": "딸기말차",
+       "price": 6800
+      },
+      {
+       "category": "딸기",
+       "name": "버블추가",
+       "price": 1000
+      },
+      {
+       "category": "딸기",
+       "name": "딸기 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "딸기",
+       "name": "수박 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "딸기",
+       "name": "딸기바나나",
+       "price": 6800
       }
      ]
     }
