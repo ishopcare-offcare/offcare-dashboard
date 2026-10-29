@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4352,
- "updatedAt": "2026-10-29 15:01",
+ "version": 4353,
+ "updatedAt": "2026-10-29 15:07",
  "days": 30,
  "items": [
   {
@@ -66390,80 +66390,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790663818178039"
-  },
-  {
-   "ts": "1790662008.740759",
-   "date": "2026-09-29",
-   "time": "15:06",
-   "store": "영거",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 영거+메뉴등록 요청\n옵션같은 경우 메뉴별 설정이 달라서 나중에 직접 처리하겠습니다.\n \n 카테고리와 메뉴만 설정해 주시면 됩니다\n \n ---------- Forwarded message ---------\n 보낸사람: 상품메뉴등록(솔루션운영팀) <···>\n Date: 2026년 9월 29일 (화) 오후 1:48\n Subject: [비버 매장연구소] 영거 매장 메뉴 파일\n To: <···>\n \n \n 안녕하세요.\n \n 비버 매장연구소입니다.\n \n 요청주신 매장에 등록된 메뉴 파일 전달\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ebc4a03b09900>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C4RHQ7WDD",
-     "from": "댓글",
-     "path": "menu-files/1790662008_740759-0.png",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "옵션 외 등록 완료"
-   ],
-   "rc": 2,
-   "lr": "1790664565.493329",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ebc4a03b09900",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790662008740759"
-  },
-  {
-   "ts": "1790662008.437779",
-   "date": "2026-09-29",
-   "time": "15:06",
-   "store": "영거",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 영거+메뉴등록 요청 (이미지)\n---------- Forwarded message ---------\n 보낸사람: 상품메뉴등록(솔루션운영팀) <···>\n Date: 2026년 9월 28일 (월) 오후 12:44\n Subject: [비버 매장연구소] 영거 매장 메뉴 이미지 파일\n To: <···>\n \n \n 안녕하세요.\n \n 비버 매장연구소입니다.\n \n 요청주신 매장에 등록된 메뉴 이미지 전달 드립니다.\n \n 감사합니다.\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0ebc5b1ba6266c>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C58T90C8H",
-     "from": "댓글",
-     "path": "menu-files/1790662008_437779-0.png",
-     "kind": "other",
-     "menu": []
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "옵션 외 등록 완료"
-   ],
-   "rc": 2,
-   "lr": "1790664570.818159",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0ebc5b1ba6266c",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790662008437779"
   }
  ],
  "ocr": {
