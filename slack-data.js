@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27526,
+  "version": 27527,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289708,7 +289708,7 @@ window.SLACK_DATA = {
           "박하림": 1
         },
         "menu": {
-          "김동욱": 3,
+          "김동욱": 4,
           "고경림": 2,
           "최민석": 1,
           "심성현": 5
@@ -289959,6 +289959,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "터프 온보딩 완료",
           "rr": 1
+        },
+        {
+          "time": "18:49",
+          "store": "플라워케이크디자인협회",
+          "biz": "3200700091",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "18:39",
@@ -292473,7 +292484,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 206,
+        "online": 207,
         "offline": 31,
         "unknown": 0
       },
@@ -401329,13 +401340,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 08:15",
+    "at": "2026-10-30 08:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4838,
+    "rows": 4842,
     "named": 1272,
     "unknownName": 271,
     "beforeStart": 0,
@@ -401473,7 +401484,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 08:15",
+    "at": "2026-10-30 08:30",
     "pri": {
       "days": 0,
       "failed": [],
