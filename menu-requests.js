@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4364,
- "updatedAt": "2026-10-29 18:10",
+ "version": 4365,
+ "updatedAt": "2026-10-29 18:12",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,54 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "563.heic",
+     "fid": "F0CCQ01LF5M",
+     "from": "댓글",
+     "path": "menu-files/1793264930_407479-0.heic",
+     "nj": 1
+    },
+    {
+     "name": "562.heic",
+     "fid": "F0CD55SH7J6",
+     "from": "댓글",
+     "path": "menu-files/1793264930_407479-1.heic",
+     "nj": 1
+    },
+    {
+     "name": "564.heic",
+     "fid": "F0CD92AV31A",
+     "from": "댓글",
+     "path": "menu-files/1793264930_407479-2.heic",
+     "nj": 1
+    },
+    {
+     "name": "565.heic",
+     "fid": "F0CD55USULS",
+     "from": "댓글",
+     "path": "menu-files/1793264930_407479-3.heic",
+     "nj": 1
+    },
+    {
+     "name": "566.heic",
+     "fid": "F0CD55VRERG",
+     "from": "댓글",
+     "path": "menu-files/1793264930_407479-4.heic",
+     "nj": 1
+    },
+    {
+     "name": "568.heic",
+     "fid": "F0CDZNC9AE4",
+     "from": "댓글",
+     "path": "menu-files/1793264930_407479-5.heic",
+     "nj": 1
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793264966.189779",
+   "rc": 2,
+   "lr": "1793265105.324629",
    "rfx": 3,
    "status": "wait",
    "handler": null,
