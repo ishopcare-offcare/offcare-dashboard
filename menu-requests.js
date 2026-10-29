@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4326,
- "updatedAt": "2026-10-29 10:27",
+ "version": 4327,
+ "updatedAt": "2026-10-29 10:30",
  "days": 30,
  "items": [
   {
@@ -66862,35 +66862,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790645508847849"
-  },
-  {
-   "ts": "1790645367.540739",
-   "date": "2026-09-29",
-   "time": "10:29",
-   "store": "면과육",
-   "biz": "5922102496",
-   "pos": "",
-   "content": "메뉴 추가 등록 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "부산아지매국밥 천안불당동점_메뉴리스트.xlsx",
-     "fid": "F0C4Z0AJQ1Z",
-     "from": "댓글",
-     "path": "menu-files/1790645367_540739-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1790647046.957309",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790645367540739"
   }
  ],
  "ocr": {
