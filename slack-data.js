@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27034,
+  "version": 27035,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289661,6 +289661,9 @@ window.SLACK_DATA = {
     },
     "2026-10-29": {
       "counts": {
+        "nosetup": {
+          "심성현": 1
+        },
         "as": {
           "김동욱": 7
         },
@@ -289670,6 +289673,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "에스앤피치과의원",
+          "biz": "6390903579",
+          "cat": "nosetup",
+          "emp": "심성현",
+          "req": "포터프 설치 매장 / 터미널에서 결제하는 내역을 프론트에서 보이게 설정하고 싶다고 문의 주셨습니다. 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "08:03",
           "store": "컴포즈커피 성수코리아IT점",
@@ -289763,7 +289777,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 0,
         "unknown": 0
       },
@@ -289871,7 +289885,7 @@ window.SLACK_DATA = {
       },
       "1793232008.275499": {
         "post": "1793232008.275499",
-        "lastSeen": 1793232248.042,
+        "lastSeen": 1793232380.242,
         "r": 1,
         "day": "2026-10-29",
         "idx": 1
@@ -396550,7 +396564,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-29 09:04",
+    "at": "2026-10-29 09:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -396693,7 +396707,7 @@ window.SLACK_DATA = {
     "2026-10-29": 2
   },
   "noteMig": {
-    "at": "2026-10-29 09:04",
+    "at": "2026-10-29 09:06",
     "pri": {
       "days": 0,
       "failed": [],
