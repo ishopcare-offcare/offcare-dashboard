@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4382,
- "updatedAt": "2026-10-29 23:16",
+ "version": 4383,
+ "updatedAt": "2026-10-30 01:01",
  "days": 30,
  "items": [
   {
@@ -66697,60 +66697,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790725768078679"
-  },
-  {
-   "ts": "1790697408.785409",
-   "date": "2026-09-30",
-   "time": "00:56",
-   "store": "소바다 꾸버스피자",
-   "biz": "3032024457",
-   "pos": "",
-   "content": "[📧 메일] 제목: 소바다(꾸버스피자)메뉴 등록 요청입니다.\n사업자번호 : ··· 전화번호 : ··· \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0edd924a9f4b6a>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0edd924a9f4b6a",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790697408785409"
-  },
-  {
-   "ts": "1790697112.538429",
-   "date": "2026-09-30",
-   "time": "00:51",
-   "store": "소바다 꾸버스피자",
-   "biz": "3032024457",
-   "pos": "",
-   "content": "[📧 메일] 제목: 소바다(꾸버스피자)메뉴 등록 요청입니다.\n사업자번호 : ··· 전화번호 : ··· \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0edd924a9f4b6a>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴 73개 등록되어있음.\n기존 메뉴 삭제 후 등록해야하는지 확인필요.\n피자 옵션도 있음."
-   ],
-   "rc": 1,
-   "lr": "1790717355.207609",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0edd924a9f4b6a",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790697112538429"
   }
  ],
  "ocr": {
