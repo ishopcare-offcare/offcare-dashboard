@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4370,
- "updatedAt": "2026-10-29 18:22",
+ "version": 4371,
+ "updatedAt": "2026-10-29 18:30",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,601 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "614.jpg",
+     "fid": "F0CD5A9GSHY",
+     "from": "댓글",
+     "path": "menu-files/1793265701_108389-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "과일차",
+       "name": "레몬차",
+       "price": 4500
+      },
+      {
+       "category": "과일차",
+       "name": "자몽차",
+       "price": 4500
+      },
+      {
+       "category": "과일차",
+       "name": "유자차",
+       "price": 4500
+      },
+      {
+       "category": "과일차",
+       "name": "생강차",
+       "price": 4500
+      },
+      {
+       "category": "과일차",
+       "name": "대추차",
+       "price": 4500
+      },
+      {
+       "category": "과일차",
+       "name": "오미자차",
+       "price": 5300
+      },
+      {
+       "category": "과일차",
+       "name": "금산인삼생강차",
+       "price": 6900
+      },
+      {
+       "category": "과일차",
+       "name": "쌍화차",
+       "price": 6000
+      },
+      {
+       "category": "과일차",
+       "name": "쌍화차(계란추가)",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "615.jpg",
+     "fid": "F0CDZSLPZ16",
+     "from": "댓글",
+     "path": "menu-files/1793265701_108389-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "과일스무디",
+       "name": "딸기스무디",
+       "price": 5500
+      },
+      {
+       "category": "과일스무디",
+       "name": "망고스무디",
+       "price": 5500
+      },
+      {
+       "category": "과일스무디",
+       "name": "블루베리스무디",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "616.jpg",
+     "fid": "F0CCZ8ZA0UT",
+     "from": "댓글",
+     "path": "menu-files/1793265701_108389-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요거트스무디",
+       "name": "플레인요거트스무디",
+       "price": 5800
+      },
+      {
+       "category": "요거트스무디",
+       "name": "딸기요거트스무디",
+       "price": 5800
+      },
+      {
+       "category": "요거트스무디",
+       "name": "망고요거트스무디",
+       "price": 5800
+      },
+      {
+       "category": "요거트스무디",
+       "name": "블루베리요거트스무디",
+       "price": 5800
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "617.jpg",
+     "fid": "F0CD07591C5",
+     "from": "댓글",
+     "path": "menu-files/1793265701_108389-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쉐이크",
+       "name": "딸기쉐이크",
+       "price": 5500
+      },
+      {
+       "category": "쉐이크",
+       "name": "망고쉐이크",
+       "price": 5500
+      },
+      {
+       "category": "쉐이크",
+       "name": "블루베리쉐이크",
+       "price": 5500
+      },
+      {
+       "category": "쉐이크",
+       "name": "밀크쉐이크",
+       "price": 5500
+      },
+      {
+       "category": "쉐이크",
+       "name": "초코쉐이크",
+       "price": 5500
+      },
+      {
+       "category": "쉐이크",
+       "name": "커피쉐이크",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "618.jpg",
+     "fid": "F0CCZ90AAAF",
+     "from": "댓글",
+     "path": "menu-files/1793265701_108389-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드/아이스티",
+       "name": "레몬에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "자몽에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "청포도에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "깔라만시에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "깔.레에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "폭탄에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "오미자에이드",
+       "price": 5300
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "딸기에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "망고에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "블루베리에이드",
+       "price": 4500
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "복숭아아이스티",
+       "price": 4000
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "레몬아이스티",
+       "price": 4000
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "오미자아이스",
+       "price": 5300
+      },
+      {
+       "category": "에이드/아이스티",
+       "name": "아샷추",
+       "price": 5300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "619.jpg",
+     "fid": "F0CDZSR4W6L",
+     "from": "댓글",
+     "path": "menu-files/1793265701_108389-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "햄치즈샌드위치",
+       "price": 6500
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "에그더블샌드위치",
+       "price": 6800
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "소세지샌드위치",
+       "price": 6600
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "햄치즈토스트",
+       "price": 4500
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "햄치즈에그 토스트",
+       "price": 5200
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "더블햄치즈토스트",
+       "price": 5200
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "햄치즈 크로와상",
+       "price": 5700
+      },
+      {
+       "category": "수제샌드위치/샐러드",
+       "name": "대만샌드위치",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "620.jpg",
+     "fid": "F0CD7CSJE65",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "생크림 크로와상",
+       "price": 5800
+      },
+      {
+       "category": "디저트",
+       "name": "생크림 베이글",
+       "price": 5800
+      },
+      {
+       "category": "디저트",
+       "name": "크랜베리 스콘",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "플레인 스콘",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "모카번",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "치즈번",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "블루베리머핀",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "초코머핀",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "크로플",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "621.jpg",
+     "fid": "F0CCQ4NRF9D",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "조각케이크",
+       "name": "티라미수케이크",
+       "price": 6800
+      },
+      {
+       "category": "조각케이크",
+       "name": "악마의초코",
+       "price": 6800
+      },
+      {
+       "category": "조각케이크",
+       "name": "뉴욕치즈케이크",
+       "price": 6800
+      },
+      {
+       "category": "조각케이크",
+       "name": "깔루아마키아토",
+       "price": 6600
+      },
+      {
+       "category": "조각케이크",
+       "name": "초코딸기",
+       "price": 6600
+      },
+      {
+       "category": "조각케이크",
+       "name": "딸기생크림",
+       "price": 6800
+      },
+      {
+       "category": "조각케이크",
+       "name": "당근",
+       "price": 6600
+      },
+      {
+       "category": "조각케이크",
+       "name": "호두타르트",
+       "price": 6600
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "622.jpg",
+     "fid": "F0CD5AC88QJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "팥빙수",
+       "name": "옛날팥빙수",
+       "price": 12000
+      },
+      {
+       "category": "팥빙수",
+       "name": "오색떡빙수",
+       "price": 14900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "623.jpg",
+     "fid": "F0CCQ4PEES3",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "타로",
+       "name": "1인 타로상담",
+       "price": 40000
+      },
+      {
+       "category": "타로",
+       "name": "1인 사주+타로상담",
+       "price": 80000
+      },
+      {
+       "category": "타로",
+       "name": "1인 사주상담",
+       "price": 60000
+      },
+      {
+       "category": "타로",
+       "name": "성명학(이름풀이)+사주상담",
+       "price": 100000
+      },
+      {
+       "category": "타로",
+       "name": "커플타로상담",
+       "price": 50000
+      },
+      {
+       "category": "타로",
+       "name": "택일상담",
+       "price": 50000
+      },
+      {
+       "category": "타로",
+       "name": "택일+사주상담",
+       "price": 80000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "610.jpg",
+     "fid": "F0CD5AD6CN6",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "라떼",
+       "name": "초코라떼(HOT)",
+       "price": 4700
+      },
+      {
+       "category": "라떼",
+       "name": "초코라떼(ICE)",
+       "price": 4700
+      },
+      {
+       "category": "라떼",
+       "name": "녹차라떼(HOT)",
+       "price": 4700
+      },
+      {
+       "category": "라떼",
+       "name": "녹차라떼(ICE)",
+       "price": 4700
+      },
+      {
+       "category": "라떼",
+       "name": "고구마라떼(HOT)",
+       "price": 4800
+      },
+      {
+       "category": "라떼",
+       "name": "고구마라떼(ICE)",
+       "price": 4800
+      },
+      {
+       "category": "라떼",
+       "name": "단호박라떼(HOT)",
+       "price": 4800
+      },
+      {
+       "category": "라떼",
+       "name": "단호박라떼(ICE)",
+       "price": 4800
+      },
+      {
+       "category": "라떼",
+       "name": "로얄밀크티(HOT)",
+       "price": 4700
+      },
+      {
+       "category": "라떼",
+       "name": "로얄밀크티(ICE)",
+       "price": 4700
+      },
+      {
+       "category": "라떼",
+       "name": "밤라떼(HOT)",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "밤라떼(ICE)",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "흑임자라떼(ICE)",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "생강라떼(HOT)",
+       "price": 6900
+      },
+      {
+       "category": "라떼",
+       "name": "생강라떼(ICE)",
+       "price": 6900
+      },
+      {
+       "category": "라떼",
+       "name": "미숫가루(ICE)",
+       "price": 4800
+      },
+      {
+       "category": "라떼",
+       "name": "딸기라떼(ICE)",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "오레오라떼(ICE)",
+       "price": 5800
+      },
+      {
+       "category": "라떼",
+       "name": "버블추가",
+       "price": 1500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "611.jpg",
+     "fid": "F0CCZ92TFR9",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생과일주스",
+       "name": "딸기주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "망고주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "블루베리주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "토마토주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "수박주스",
+       "price": 6500
+      },
+      {
+       "category": "생과일주스",
+       "name": "배달비2",
+       "price": 3500
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793265704.366309",
+   "rc": 3,
+   "lr": "1793266149.601299",
    "rfx": 3,
    "status": "wait",
    "handler": null,
