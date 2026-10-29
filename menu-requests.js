@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4327,
- "updatedAt": "2026-10-29 10:30",
+ "version": 4328,
+ "updatedAt": "2026-10-29 10:33",
  "days": 30,
  "items": [
   {
@@ -66834,34 +66834,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790646200190279"
-  },
-  {
-   "ts": "1790645508.847849",
-   "date": "2026-09-29",
-   "time": "10:31",
-   "store": "면과육",
-   "biz": "5922102496",
-   "pos": "",
-   "content": "[📧 메일] 제목: ··· 메뉴신청\n대용량 첨부 1개 200MB  천안불당동점.zip 209585543 ~ 2026/10/29 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능      안녕하세요   부산아지매국밥 운영기획팀 이승미 주임입니다.  상호명 : 면과육 사업자번호 : ···  메뉴 등록 요청드립니다.  ───────────────────────── (주) 제이엘푸드　　운영기획팀　 / 　주임　이승미 서울특별시 송파구 M. ···           E. <mailto:···|···> \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0eac68893658ee>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "위에꺼"
-   ],
-   "rc": 1,
-   "lr": "1790646291.855529",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0eac68893658ee",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790645508847849"
   }
  ],
  "ocr": {
