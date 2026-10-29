@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4344,
- "updatedAt": "2026-10-29 14:24",
+ "version": 4345,
+ "updatedAt": "2026-10-29 14:37",
  "days": 30,
  "items": [
   {
@@ -66153,63 +66153,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790661050810769"
-  },
-  {
-   "ts": "1790660222.115419",
-   "date": "2026-09-29",
-   "time": "14:37",
-   "store": "킨텍스 나주곰탕",
-   "biz": "7291800862",
-   "pos": "퍼스트포스",
-   "content": "메일에 보내진 사진 등록 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "나주곰탕.jpg",
-     "fid": "F0C56BAR12N",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790660222_115419-0.jpg"
-    },
-    {
-     "name": "얼큰소머리국밥.jpg",
-     "fid": "F0C4R46CXAB",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790660222_115419-1.jpg"
-    },
-    {
-     "name": "제육덮밥 (4).png",
-     "fid": "F0C51B0C5K7",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "name": "갈비탕.jpg",
-     "fid": "F0C56BGPVSN",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790660222_115419-3.jpg"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "용량 너무 커서 다운 어려우면 이메일 확인 GO",
-    "깔깔",
-    "명현님이 메일 왔냐고 봐달라고해서 본건디 스팸에 빠져있더라고용"
-   ],
-   "rc": 10,
-   "lr": "1790661784.635199",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790660222115419"
   }
  ],
  "ocr": {
