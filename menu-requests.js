@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4371,
- "updatedAt": "2026-10-29 18:30",
+ "version": 4372,
+ "updatedAt": "2026-10-29 18:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1793267347.525759",
+   "date": "2026-10-29",
+   "time": "18:49",
+   "store": "플라워케이크디자인협회",
+   "biz": "3200700091",
+   "pos": "토스포스",
+   "content": ":label:마카롱\n:black_small_square:황치즈 2,800원\n:black_small_square:크렘뷔륄레  2,6 \n:black_small_square:블루베리요거트2,5\n:black_small_square:말차 2,5\n:black_small_square:티라미수 2,5\n:black_small_square:마약옥수수 2,5\n:black_small_square:요거트 2,5\n:black_small_square:돼지바 2,8\n:black_small_square:생과일 2,6\n:black_small_square:순수우유 2,5\n:black_small_square:딸기우유 2,5\n:black_small_square:인절미 2,5\n:black_small_square:쿠앤크 2,5\n:black_small_square:솔티캬라멜 2,5\n:black_small_square:리얼초코 2,8\n\n:label:모찌\n:black_small_square:딸기요거트 4,500원\n:black_small_square:딸기 모찌 4,5\n:black_small_square:망고요거트 5,5\n:black_small_square:통귤요거트 4,5\n:black_small_square:복숭아요거트 4,5\n:black_small_square:골드키위요거트 4,5\n:black_small_square:샤인머스켓요거트 4,5\n:black_small_square:블루베리요거트 5,5\n\n:label:케이크\n:black_small_square:미니도시락 11,000\n:black_small_square:도시락케이크 15,000\n:black_small_square:큐브 케이크 8,000\n:black_small_square:바스크치즈 10,000\n:black_small_square:조각케이크 7,500원",
+   "special": "단말기 메인화면",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793267347525759"
+  },
   {
    "ts": "1793265701.108389",
    "date": "2026-10-29",
