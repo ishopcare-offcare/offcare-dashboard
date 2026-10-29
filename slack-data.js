@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27522,
+  "version": 27523,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289708,10 +289708,10 @@ window.SLACK_DATA = {
           "박하림": 1
         },
         "menu": {
+          "김동욱": 2,
           "고경림": 2,
           "최민석": 1,
-          "심성현": 5,
-          "김동욱": 1
+          "심성현": 5
         },
         "delivery": {
           "최민석": 3
@@ -290044,6 +290044,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "10분 뒤 재연락 요청 / 배민 라이트 재연동 및 일반배민접수로 배달연동 완료 및 출력설정 완료",
           "rr": 2
+        },
+        {
+          "time": "18:08",
+          "store": "신선한주방 나주혁신점",
+          "biz": "1097800188",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "신규 설치 예정 메뉴 등록",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 3
         },
         {
           "time": "18:05",
@@ -292449,7 +292461,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 205,
+        "online": 206,
         "offline": 30,
         "unknown": 0
       },
@@ -401305,7 +401317,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 07:15",
+    "at": "2026-10-30 07:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401449,7 +401461,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 07:15",
+    "at": "2026-10-30 07:30",
     "pri": {
       "days": 0,
       "failed": [],
