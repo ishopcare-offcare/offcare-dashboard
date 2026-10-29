@@ -3,10 +3,250 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4362,
- "updatedAt": "2026-10-29 18:00",
+ "version": 4363,
+ "updatedAt": "2026-10-29 18:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1793264717.296109",
+   "date": "2026-10-29",
+   "time": "18:05",
+   "store": "만만한 만원 족발",
+   "biz": "5200703572",
+   "pos": "",
+   "content": "메뉴 추가 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "편육 6,000\n보쌈 중 12,000\n보쌈 대 18,000"
+   ],
+   "rc": 2,
+   "lr": "1793264723.376849",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793264717296109"
+  },
+  {
+   "ts": "1793264706.413139",
+   "date": "2026-10-29",
+   "time": "18:05",
+   "store": "양평동 장군집",
+   "biz": "3354900069",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261028_171708.jpeg",
+     "fid": "F0CD01AQWTX",
+     "from": "댓글",
+     "path": "menu-files/1793264706_413139-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "모듬스페셜",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "모듬스페셜(반근)",
+       "price": 17500
+      },
+      {
+       "category": "메뉴",
+       "name": "고기모듬",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "고기모듬(반근)",
+       "price": 17500
+      },
+      {
+       "category": "메뉴",
+       "name": "잔치국수",
+       "price": 6000
+      },
+      {
+       "category": "메뉴",
+       "name": "갈매기살",
+       "price": 33000
+      },
+      {
+       "category": "메뉴",
+       "name": "갈매기살(반근)",
+       "price": 16500
+      },
+      {
+       "category": "메뉴",
+       "name": "뽈살",
+       "price": 33000
+      },
+      {
+       "category": "메뉴",
+       "name": "뽈살(반근)",
+       "price": 16500
+      },
+      {
+       "category": "메뉴",
+       "name": "김치말이국수",
+       "price": 6000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장모듬",
+       "price": 33000
+      },
+      {
+       "category": "메뉴",
+       "name": "내장모듬(반근)",
+       "price": 16500
+      },
+      {
+       "category": "메뉴",
+       "name": "꼬리",
+       "price": 33000
+      },
+      {
+       "category": "메뉴",
+       "name": "꼬리(반근)",
+       "price": 16500
+      },
+      {
+       "category": "메뉴",
+       "name": "라면",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "껍데기",
+       "price": 23000
+      },
+      {
+       "category": "메뉴",
+       "name": "껍데기(반근)",
+       "price": 11500
+      },
+      {
+       "category": "메뉴",
+       "name": "막창",
+       "price": 33000
+      },
+      {
+       "category": "메뉴",
+       "name": "막창(반근)",
+       "price": 16500
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "메뉴",
+       "name": "덜미살",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "덜미살(반근)",
+       "price": 17500
+      },
+      {
+       "category": "메뉴",
+       "name": "반접시",
+       "price": 18000
+      },
+      {
+       "category": "메뉴",
+       "name": "된장",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261028_171719.jpeg",
+     "fid": "F0CCPU7BMPZ",
+     "from": "댓글",
+     "path": "menu-files/1793264706_413139-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "진로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "시원",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "맥주(클라우드생)",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "대포",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793264734.984549",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793264706413139"
+  },
   {
    "ts": "1793263203.319139",
    "date": "2026-10-29",
