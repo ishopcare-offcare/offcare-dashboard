@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4376,
- "updatedAt": "2026-10-29 19:11",
+ "version": 4377,
+ "updatedAt": "2026-10-29 19:12",
  "days": 30,
  "items": [
   {
@@ -954,11 +954,135 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CE07STZ1N",
+     "from": "댓글",
+     "path": "menu-files/1793263203_319139-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빙수바보 빙식이",
+       "name": "그래놀라 눈꽃빙수",
+       "price": 12900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "추억의 옛날 팥빙수",
+       "price": 14900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "돼지바 빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "인절미 팥 눈꽃수",
+       "price": 12900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "오레오 초코눈꽃빙수",
+       "price": 13900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "녹차 눈꽃빙수",
+       "price": 14000
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "팥 녹차 눈꽃빙수",
+       "price": 15000
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "녹차 초코 눈꽃빙수",
+       "price": 15000
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "냉동 딸기 눈꽃수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "치즈브라우니 눈꽃빙수",
+       "price": 15500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "빙식이 팥 눈꽃빙수",
+       "price": 13500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "오즈 초코 눈꽃빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "인절미 눈꽃빙수",
+       "price": 11900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "리얼초코 눈꽃빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 아포카토 치즈 눈꽃 빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 커피 눈꽃 빙수",
+       "price": 12500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 망고 바나나 눈꽃빙수",
+       "price": 15500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 찐한 우유 팥빙수",
+       "price": 10800
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 1인 냉동 망고빙수",
+       "price": 10800
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 1인 냉동 딸기빙수",
+       "price": 10800
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "리얼 생딸기 눈꽃빙수",
+       "price": 15900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "생딸기 치즈 눈꽃빙수",
+       "price": 16900
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "포스 / 키오스크\n\n카테고리에서 이벤트 메뉴, 빙수바보 빙식이, 팥빙수 토핑만 남기고 모두 지우고 위 메뉴는 모두 등록 요청",
+    "일요일까지 꼭 등록 요청"
+   ],
+   "rc": 2,
+   "lr": "1793268691.618099",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -66728,29 +66852,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790683412926439"
-  },
-  {
-   "ts": "1790676689.125079",
-   "date": "2026-09-29",
-   "time": "19:11",
-   "store": "신전떡볶이신불당점",
-   "biz": "5081210311",
-   "pos": "",
-   "content": "• 메뉴 복사 및 수정 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "···(신전떡볶이쌍용동나사렛대점) > ···(신전떡볶이신불당점)\n\n메뉴 그대로 복사 요청 주셨고 그 중\n7개의 메뉴(옵션 포함) 삭제 요청 주셨습니다.\n\n*[메뉴]*\n1. *어묵볶이*\n2. *맵닭* \n3. *반반 뽑기*\n4. *참치마요김밥*\n5. *참치샐러드컵밥*\n*[옵션]*\n1. *베이컨*\n2. *분모자*"
-   ],
-   "rc": 3,
-   "lr": "1790716816.613709",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790676689125079"
   }
  ],
  "ocr": {
