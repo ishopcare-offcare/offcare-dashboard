@@ -331,6 +331,7 @@
   .star-shop{background:linear-gradient(160deg,#fffbea,#fff3d1 60%,#ffe9f3); border:1.5px solid #f5d27a}
   :root[data-theme="dark"] .star-shop{background:linear-gradient(160deg,rgba(255,200,60,.10),rgba(255,120,200,.08)); border-color:rgba(255,200,60,.35)}
   .ss-tag{font-size:12px; font-weight:800; color:#b45309; background:#ffe7a3; padding:2px 9px; border-radius:20px; margin-left:6px; vertical-align:middle}
+  .ss-who{display:flex; gap:8px; align-items:center}
   .ss-wallet{display:grid; grid-template-columns:auto 220px 1fr; gap:16px; align-items:center; margin-bottom:14px}
   .ss-stars{display:flex; flex-direction:column; align-items:center; padding:6px 14px; border-radius:14px; background:#fff; box-shadow:0 2px 10px rgba(245,158,11,.25)}
   :root[data-theme="dark"] .ss-stars{background:rgba(0,0,0,.25)}
@@ -2461,7 +2462,7 @@ function fishSpotHint(it){
 // 달성 상태 { ok, label, prog } — 조건(it.ach) 없으면 null (=일반 코인 아이템)
 function achStatus(emp, it){
   if(!it || !it.ach || !emp) return it&&it.ach ? {ok:false, label:achShort(it.ach), prog:'-'} : null;
-  if(it.ach==='kind'){ const w=npsWinMonths(emp); return {ok:w.length>=1, label:'한 달 NPS 응답 수 1위 (2026년 10월부터 · 달이 끝나면 확정)', prog:`1위 ${w.length}회`}; }
+  if(it.ach==='kind'){ const w=npsWinMonths(emp).filter(m=>m>=NPS_KIND_FROM); return {ok:w.length>=1, label:'한 달 NPS 응답 수 1위 (2026년 11월부터 · 달이 끝나면 확정)', prog:`1위 ${w.length}회`}; }
   if(it.ach==='angel'){ const w=npsWinMonths(emp); return {ok:w.length>=6, label:'NPS 응답 수 1위 누적 6개월 (2026년 10월부터)', prog:`${w.length}/6개월`}; }
   if(it.ach==='hand'){ const best=Math.max(0,...Object.values(empWorkByDay(emp))); return {ok:best>=35, label:'하루 원격 35건 처리', prog:`${best}/35건`}; }
   if(it.ach==='phoenix'){ const toMin=t=>{ const p=(t||'').split(':'); return (+p[0]||0)*60+(+p[1]||0); }; let ok=false, bestSpan=0; monthSlackDates().forEach(d=>{ const ts=((slackDay(d)||{}).done||[]).filter(x=>x.emp===emp&&x.time).map(x=>toMin(x.time)); if(ts.length>=2){ const span=Math.max(...ts)-Math.min(...ts); if(span>bestSpan) bestSpan=span; if(span>=720) ok=true; } }); return {ok, label:'하루 원격 처리 이력 12시간 이상 (첫~마지막 처리 간격)', prog:ok?'달성 ✓':`최고 ${Math.floor(bestSpan/60)}시간 ${bestSpan%60}분/12시간`}; }
@@ -4651,7 +4652,7 @@ function renderNps(){
           <option value="">📅 월별</option>${npsMonths().map(m=>`<option value="${m}" ${m===npsPeriod?'selected':''}>${m.slice(0,4)}년 ${+m.slice(5)}월</option>`).join('')}</select>${seg(npsBy,'setNpsBy',[['cnt','💬 응답 수 순'],['avg','⭐ 평점 순']])}</div>
     </div>`;
   if(!D){ document.getElementById("main").innerHTML=head; return; }
-  npsMarkViewed();
+  npsMarkViewed(); if(gameMe){ autoGrantTitles(gameMe); starCelebrate(gameMe); }
   const {ranked}=npsRanked();
   const all=ranked.flatMap(s=>s.list), q1=all.map(r=>r.s[0]).filter(v=>v!=null);
   const tPro=q1.filter(v=>v>=9).length, tDet=q1.filter(v=>v<=6).length;
@@ -4660,7 +4661,7 @@ function renderNps(){
     ${kpi('팀 NPS', q1.length?Math.round((tPro-tDet)/q1.length*100):'-', `추천 ${tPro} · 비추천 ${tDet}`)}${kpi('고객 의견', all.filter(r=>r.c).length+'건', '의견을 남긴 응답')}</div>`;
   // 🏆 1위 보상 — 확정된 달(10월부터) + 이번 달 현재 1위
   const curMk=ymd(new Date()).slice(0,7), lead=npsMonthWinners(curMk), done=npsDoneMonths().map(mk=>({mk, w:npsMonthWinners(mk)})).filter(x=>x.w.length);
-  const reward=`<div class="nps-reward"><span class="nr-ic">🏆</span><div><b>매달 NPS 응답 수 1위</b> → ⭐ 별 1개 + [친절한] 타이틀 · 1위 누적 6개월 → [천사🪽] 타이틀 <small>(2026년 10월부터 · 별은 원격 상점 ⭐ 별 상점에서 사용)</small>
+  const reward=`<div class="nps-reward"><span class="nr-ic">🏆</span><div><b>매달 NPS 응답 수 1위</b> → ⭐ 별 1개 + [친절한] 타이틀<small>(11월부터)</small> · 1위 누적 6개월 → [천사🪽] 타이틀 <small>(별·천사는 2026년 10월부터 · 별은 아래 ⭐ 별 상점에서 사용)</small>
     <div class="nr-now">이번 달 현재 1위 <b>${lead.length?lead.map(escapeHtml).join(' · '):'-'}</b> <small>(달이 끝나면 확정)</small>${done.length?' · 확정 '+done.map(x=>(+x.mk.slice(5))+'월 '+x.w.map(escapeHtml).join('·')).join(' / '):''}</div></div></div>`;
   const sel = ranked.find(s=>s.emp===npsSel) || ranked[0];
   const rows=ranked.map((s,i)=>`<tr class="${sel&&s.emp===sel.emp?'on':''}" onclick="setNpsSel('${escapeHtml(s.emp)}')">
@@ -4683,7 +4684,7 @@ function renderNps(){
         return `<div class="nps-voice${sc!=null&&sc<=6?' low':''}${r.c?'':' empty'}"><div class="nps-v-top"><span class="nps-v-sc">${sc==null?'점수 없음':'⭐ '+sc}</span><b>${escapeHtml(r.shop||'매장명 없음')}</b><span class="nps-v-d">${r.d.slice(0,10)}</span></div>
           <div class="nps-v-c">${r.c?escapeHtml(r.c):'의견 없이 별점만 남겼어요'}</div></div>`; }).join('') || '<div class="nps-none">응답이 없어요</div>'}</div></div>`;
   }
-  document.getElementById("main").innerHTML = head + kpis + reward + `<div class="card nps-race-card"><div class="card-head"><h3>🚀 만족도 레이스</h3><span class="hint">${npsBy==='avg'?'평점':'응답 수'} 기준 · 1위 우주선부터 12위 관속까지 · 줄을 누르면 고객 응답</span></div>${npsRace(ranked)}</div>` + table + voices;
+  document.getElementById("main").innerHTML = head + kpis + reward + `<div class="card nps-race-card"><div class="card-head"><h3>🚀 만족도 레이스</h3><span class="hint">${npsBy==='avg'?'평점':'응답 수'} 기준 · 1위 우주선부터 12위 관속까지 · 줄을 누르면 고객 응답</span></div>${npsRace(ranked)}</div>` + npsStarShop() + table + voices;
 }
 function setNpsBy(k){ npsBy=k; npsSel=''; renderNps(); }
 function setNpsPeriod(k){ npsPeriod=k; npsSel=''; renderNps(); }
@@ -4924,6 +4925,7 @@ function gs(emp){ if(!GAME[emp]) GAME[emp]={spent:0,owned:[],equipped:{}}; retur
  * 1위 횟수는 nps-data.js 에서 매번 계산 → 따로 저장하지 않아 모든 브라우저가 같은 값을 본다.
  * 1위 = 응답 수 최다, 같으면 평점(전반 만족도) 높은 쪽, 그래도 같으면 공동 1위(둘 다 지급). */
 const NPS_REWARD_FROM='2026-10';
+const NPS_KIND_FROM='2026-11';   // [친절한] 타이틀은 11월 1위부터(사용자 결정 10/29) — 별·천사 집계는 10월부터
 function npsMonthWinners(mk){
   const D=window.NPS_DATA; if(!D) return [];
   const st=EMPLOYEES.map(e=>{ const L=((D.emps||{})[e]||[]).filter(r=>r.d.slice(0,7)===mk), q=L.map(r=>r.s[0]).filter(v=>v!=null);
@@ -5360,10 +5362,10 @@ function loadGameCloud(cb){ loadCloud(cb); }   // 하위호환
 // 팀 공유 클라우드 데이터 스냅샷 — 주기 동기화 시 '변경됐을 때만' 재렌더 판정용
 function cloudSnapshot(){ try{ return JSON.stringify([GAME,FISHWAIT,VOCEDIT,VOCPRAISE,VOCCOMMENT,DUTYOVER,TENOVER,NOTICES,NCOMMENTS,NREACTS,SHAREEV,DUTY,MENUMEMO,DUTYMEMO,DRI,ADJUST]); }catch(e){ return '';} }
 async function setGameMe(v){
-  gameMe=v; save("opcare_gameme_v1",gameMe); renderGame();
+  gameMe=v; save("opcare_gameme_v1",gameMe); renderShopHost();
   if(v && GAME_API && !isGameAuthed(v)){
     const ok = await requireAuth(v);      // 이름 선택 즉시 PIN 입력/최초설정 창
-    if(!ok){ gameMe=""; save("opcare_gameme_v1",gameMe); renderGame(); }   // 실패/취소 → 선택 해제
+    if(!ok){ gameMe=""; save("opcare_gameme_v1",gameMe); renderShopHost(); }   // 실패/취소 → 선택 해제
   }
 }
 /* ===== 코인 사용 본인 인증 (직원별 PIN + 이메일 OTP, 서버 검증) ===== */
@@ -5449,9 +5451,9 @@ async function buyOrEquip(cat,id){
       buyBusy=false;
     }
   }
-  g.equipped=g.equipped||{}; g.equipped[cat]=id; saveGame(); renderGame();
+  g.equipped=g.equipped||{}; g.equipped[cat]=id; saveGame(); renderShopHost();
 }
-function unequipPart(cat){ const emp=gameMe; if(!emp) return; const g=gs(emp); if(g.equipped) delete g.equipped[cat]; saveGame(); renderGame(); }
+function unequipPart(cat){ const emp=gameMe; if(!emp) return; const g=gs(emp); if(g.equipped) delete g.equipped[cat]; saveGame(); renderShopHost(); }
 function shopCard(cat,it,emp){
   const eq=(gs(emp).equipped||{})[cat]===it.id, owned=owns(emp,cat,it.id), r=it.rarity||'common';
   const a = owned ? null : achStatus(emp,it);
@@ -5484,15 +5486,25 @@ function shopCard(cat,it,emp){
 // 성별 전용 아이템(gender:'m'/'f')은 해당 성별로 설정했을 때만 노출. 미설정 시 기본 남자('m').
 function genderOK(emp,it){ if(!it.gender) return true; return it.gender===((gs(emp).gender)||'m'); }
 function shopSection(cat,label,emp){ const canoff=['hat','pet','cape','gloves','beard','title'].includes(cat); let list=GAME_ITEMS[cat].filter(it=>(cat==='title'||!it.fishOnly||owns(emp,cat,it.id))&&(!it.starPrice||owns(emp,cat,it.id))&&genderOK(emp,it)&&(!it.onlyFor||it.onlyFor.includes(emp))); if(cat==='title') list=list.slice().sort((a,b)=>(RARITY_ORDER[a.rarity]||0)-(RARITY_ORDER[b.rarity]||0)); return `<div class="card"><div class="card-head"><h3>${label}</h3>${canoff?`<button class="btn" onclick="unequipPart('${cat}')">해제</button>`:''}</div><div class="shop-grid">${list.map(it=>shopCard(cat,it,emp)).join('')}</div></div>`; }
+function npsWhoSel(){ return `<select class="sel" onchange="setGameMe(this.value)"><option value="">👤 본인 선택</option>${EMPLOYEES.map(e=>`<option ${e===gameMe?'selected':''}>${escapeHtml(e)}</option>`).join('')}</select>`; }
+// NPS 탭의 별 상점 카드 — 본인을 고르기 전에는 안내만
+function npsStarShop(){
+  if(gameMe) return starShopSection(gameMe);
+  return `<div class="card star-shop"><div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><div class="ss-who">${npsWhoSel()}</div></div>
+    <div class="empty-note">본인 이름을 고르면 내 ⭐ 별·🌠 별조각과 별 아이템이 보여요</div></div>`;
+}
+function npsGoStarShop(){ selectCat('nps'); setTimeout(()=>{ const el=document.querySelector('.star-shop'); if(el) el.scrollIntoView({behavior:'smooth', block:'start'}); }, 60); }
+// 별 상점이 NPS 탭으로 옮겨가 구매·해제·본인 선택 후에 '지금 보고 있는 탭'을 다시 그린다
+function renderShopHost(){ if(activeCat==='nps') renderNps(); else renderGame(); }
 function starShopSection(emp){
   const frag=gs(emp).starFrag||0, wins=npsWinMonths(emp), set=hasStarSet(emp);
   const list=[['eyes','ey_bigstar'],['eyes','ey_starheart'],['pet','sp_star'],['ride','sr_star']].map(([c,id])=>shopCard(c,itemById(c,id),emp)).join('');
   return `<div class="card star-shop">
-    <div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><button class="btn" onclick="unequipPart('ride')">탈것 해제</button></div>
+    <div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><div class="ss-who">${npsWhoSel()}<button class="btn" onclick="unequipPart('ride')">탈것 해제</button></div></div>
     <div class="ss-wallet">
       <div class="ss-stars"><span class="ss-big">⭐ ${starAvail(emp)}</span><span>보유 별</span></div>
       <div class="ss-frag"><div>🌠 별조각 <b>${frag}</b> / 100</div><div class="ss-bar"><i style="width:${Math.min(100,frag)}%"></i></div></div>
-      <div class="ss-how">⭐ 매달 <b>NPS 응답 수 1위</b> → 별 1개 + [친절한] 타이틀 <small>(2026년 10월부터 · 달이 끝나면 지급 · 내 1위 ${wins.length}회)</small><br>
+      <div class="ss-how">⭐ 매달 <b>NPS 응답 수 1위</b> → 별 1개 <small>(2026년 10월부터)</small> + [친절한] 타이틀 <small>(11월부터) · 달이 끝나면 지급 · 내 1위 ${wins.length}회</small><br>
         🌠 <b>중급·고급 낚시터</b>에서 5% 확률로 별조각 · 100개 모이면 별 1개로 자동 변환<br>
         🪽 NPS 1위 누적 <b>6개월</b> → [천사🪽] 타이틀</div>
     </div>
@@ -5506,14 +5518,14 @@ function starCelebrate(emp){
   const g=gs(emp), wins=npsWinMonths(emp), seen=new Set(g.npsWinSeen||[]), fresh=wins.filter(m=>!seen.has(m));
   if(!fresh.length) return;
   g.npsWinSeen=wins; saveGame();
-  const angel=wins.length>=6 && wins.length-fresh.length<6;
+  const angel=wins.length>=6 && wins.length-fresh.length<6, kind=fresh.some(m=>m>=NPS_KIND_FROM);
   let el=document.getElementById('starPop'); if(el) el.remove();
   el=document.createElement('div'); el.id='starPop'; el.className='duty-pop-overlay';
   el.innerHTML=`<div class="duty-pop star-pop"><div class="duty-pop-ic">🏆</div>
     <div class="duty-pop-sub">${fresh.map(m=>(+m.slice(5))+'월').join(' · ')} NPS 1위!</div>
     <div class="duty-pop-title">⭐ 별 ${fresh.length}개 획득!</div>
-    <div class="duty-pop-time">[친절한] 타이틀${angel?' · 🪽 [천사🪽] 타이틀':''}도 함께 받았어요</div>
-    <button class="duty-pop-btn" onclick="document.getElementById('starPop').remove(); selectCat('game')">⭐ 별 상점 가기</button></div>`;
+    ${kind||angel?`<div class="duty-pop-time">${[kind?'[친절한] 타이틀':'', angel?'🪽 [천사🪽] 타이틀':''].filter(Boolean).join(' · ')}도 함께 받았어요</div>`:''}
+    <button class="duty-pop-btn" onclick="document.getElementById('starPop').remove(); npsGoStarShop()">⭐ 별 상점 가기</button></div>`;
   document.body.appendChild(el);
 }
 function renderGame(){
@@ -5525,7 +5537,7 @@ function renderGame(){
     const emp=gameMe, g=gs(emp), eq=g.equipped||{};
     body=`
     <div class="card game-me" id="gmBox">${gameMeInner(emp, eq)}</div>
-    ${starShopSection(emp)}
+    <div class="ach-reset-note">⭐ <b>별 상점</b>(왕별 눈·하트 눈장식·왕별 펫·왕별 탈것)은 <a href="#" onclick="event.preventDefault(); npsGoStarShop()"><b>NPS 탭</b></a>으로 옮겼어요 · 산 아이템은 여기 각 칸에서도 착용할 수 있어요</div>
     <div class="preview-hint">💡 아이템에 마우스를 올리면 위 캐릭터에 <b>미리 입어보기</b> 돼요 · 코인은 왼쪽 <b>🎣 낚시터</b>에서도 획득!</div>
     ${shopSection('title','👑 타이틀',emp)}
     <div class="ach-reset-note">👑 타이틀은 <b>보유만 해도</b> 낚시 능력치가 붙어요 (등급↑일수록 강력 · 중복 합산) · <b>카드를 클릭</b>하면 효과가 보여요 · 내 합계는 🎣 낚시터에서 확인</div>
