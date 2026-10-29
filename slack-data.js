@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27160,
+  "version": 27161,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -289713,8 +289713,8 @@ window.SLACK_DATA = {
           "req": "포프(포스기) 사용 매장으로, 포스기가 먹통 상태라고 하시어 점검 요청드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": "현재 껏다 키니까 정상작동확인",
-          "rr": 1
+          "note": "현재 껏다 키니까 정상작동확인 / 지속적으로 그러는증상으로 교체진행하기로함.",
+          "rr": 2
         },
         {
           "time": "12:06",
@@ -290665,7 +290665,7 @@ window.SLACK_DATA = {
       },
       "1793233646.610999": {
         "post": "1793233646.610999",
-        "lastSeen": 1793244848.575,
+        "lastSeen": 1793244979.263,
         "r": 1,
         "day": "2026-10-29",
         "idx": 4
@@ -290676,7 +290676,7 @@ window.SLACK_DATA = {
       },
       "1793242800.734549": {
         "post": "1793242800.734549",
-        "lastSeen": 1793244848.575,
+        "lastSeen": 1793244979.263,
         "r": 1,
         "day": "2026-10-29",
         "idx": 52
@@ -397885,7 +397885,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-29 12:34",
+    "at": "2026-10-29 12:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -398028,7 +398028,7 @@ window.SLACK_DATA = {
     "2026-10-29": 2
   },
   "noteMig": {
-    "at": "2026-10-29 12:34",
+    "at": "2026-10-29 12:36",
     "pri": {
       "days": 0,
       "failed": [],
