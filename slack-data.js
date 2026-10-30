@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27542,
+  "version": 27543,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292806,6 +292806,9 @@ window.SLACK_DATA = {
     },
     "2026-10-30": {
       "counts": {
+        "extern": {
+          "김동욱": 1
+        },
         "as": {
           "고경림": 1,
           "김동욱": 1
@@ -292817,6 +292820,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:27",
+          "store": "샤랄랄라키즈카페",
+          "biz": "7681802467",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:11",
           "store": "유앤미스킨앤바디",
@@ -292867,11 +292881,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:11"
+      "updatedAt": "09:28"
     }
   },
   "resp": {
@@ -293013,10 +293027,14 @@ window.SLACK_DATA = {
       },
       "1793318411.644649": {
         "post": "1793318411.644649",
-        "lastSeen": 1793320006.342,
+        "lastSeen": 1793320094.48,
         "r": 1,
         "day": "2026-10-30",
         "idx": 1
+      },
+      "1793320080.219149": {
+        "post": "1793320080.219149",
+        "lastSeen": 1793320094.48
       }
     },
     "days": {
@@ -401447,7 +401465,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:27",
+    "at": "2026-10-30 09:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401591,7 +401609,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:26",
+    "at": "2026-10-30 09:28",
     "pri": {
       "days": 0,
       "failed": [],
