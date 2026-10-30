@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4405,
- "updatedAt": "2026-10-30 13:21",
+ "version": 4406,
+ "updatedAt": "2026-10-30 13:35",
  "days": 30,
  "items": [
+  {
+   "ts": "1793334893.317129",
+   "date": "2026-10-30",
+   "time": "13:34",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "스파로스포스",
+   "content": "추가/쭈꾸미 정식 9,900\n추가/쭈꾸미삼겹정식 10,900\n추가/쭈새삼정식 11,900",
+   "special": "한상 카테고리 에 넣어주세요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793334893317129"
+  },
   {
    "ts": "1793334053.728309",
    "date": "2026-10-30",
