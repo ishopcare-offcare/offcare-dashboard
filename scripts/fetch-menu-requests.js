@@ -114,13 +114,15 @@ function cleanupOldFiles(nowSec) {
 // 빈 배열로 돌아오고 kind 가 캐시되므로 다시 호출하지 않는다.
 // 결과는 att[].menu / datt[].menu 에 구조화된 배열로 캐시. 신규 이미지에만 1회 호출.
 const OCR_EXT = /\.(jpe?g|png|webp|bmp|gif)$/i;
+// 아이폰 HEIC — API 가 못 받는 형식이라 JPEG 로 바꿔 판독한다(heic-convert, 없으면 예전처럼 판독 불가).
+const HEIC_EXT = /\.(heic|heif)$/i;
 const OCR_CAP = Number(process.env.OCR_CAP || 12);   // 실행당 신규 판독 상한(비용·런타임 보호)
 // API 가 받는 이미지 상한은 base64 기준 5MB. 여유를 두고 4.5MB 를 넘으면 축소본을 쓴다.
 const OCR_MAX_BYTES = 4.5 * 1024 * 1024;
 // 용량과 별개로 픽셀 상한도 있다 — 한 변이 8000px 를 넘으면 400. 안드로이드 스크롤 스크린샷은
 // 용량은 1MB 도 안 되면서 세로가 1만을 넘어 여기 걸린다(2026-09-09 판독 정지의 원인).
 const OCR_MAX_PX = 8000;
-let thumbUsed = 0, pxShrunk = 0;
+let thumbUsed = 0, pxShrunk = 0, heicConv = 0;
 const OCR_MODEL = process.env.OCR_MODEL || 'claude-opus-5';
 const OCR_PRICE = { in: 5, out: 25 };                // $/1M tok — 로그의 비용 추정용
 const KRW_PER_USD = Number(process.env.KRW_PER_USD || 1380);
@@ -253,16 +255,49 @@ async function shrinkToLimit(src) {
     return { ok: true, path: out };
   } catch (e) { console.log('축소 실패:', src, String(e.message || e).slice(0, 100)); return { ok: false }; }
 }
+// heic-convert 는 optionalDependencies — 순수 JS(wasm)라 sharp 가 못 여는 아이폰 HEVC 사진도 연다.
+let _heic = null;   // null=미확인, 'FAIL'=사용불가
+function getHeic() {
+  if (_heic === 'FAIL') return null;
+  if (_heic) return _heic;
+  try { _heic = require('heic-convert'); return _heic; }
+  catch (e) { console.log('HEIC 변환 비활성: heic-convert 없음 — 아이폰 HEIC 사진은 판독하지 않습니다'); _heic = 'FAIL'; return null; }
+}
+/* HEIC → 임시 JPEG. 12MP 원본은 JPEG 로 5MB 를 넘기 쉬워(실측 3024x4032 = 5.1MB) API 상한 안으로 줄인다.
+ *   경로 문자열 = 변환한 JPEG(판독 후 지운다) · null = 변환기 없음 · false = 변환 실패(판독 불가로 굳힌다) */
+async function heicToJpeg(src) {
+  const conv = getHeic();
+  if (!conv) return null;
+  try {
+    const raw = fs.readFileSync(src);
+    let jpg = Buffer.from(await conv({ buffer: raw, format: 'JPEG', quality: 0.85 }));
+    const sharp = getSharp();
+    if (jpg.length > OCR_MAX_BYTES && sharp) jpg = await sharp(jpg).resize({ width: 3000, height: 3000, fit: 'inside' }).jpeg({ quality: 85 }).toBuffer();
+    for (const q of [0.7, 0.55, 0.4]) { if (jpg.length <= OCR_MAX_BYTES) break; jpg = Buffer.from(await conv({ buffer: raw, format: 'JPEG', quality: q })); }
+    if (jpg.length > OCR_MAX_BYTES) { console.log('HEIC 변환본이 상한 초과:', src); return false; }
+    const out = `${DRIVE_TMP}/heic-${path.basename(src)}.jpg`;
+    fs.writeFileSync(out, jpg);
+    heicConv++;
+    return out;
+  } catch (e) { console.log('HEIC 변환 실패:', src, String(e.message || e).slice(0, 100)); return false; }
+}
 async function readMenuImage(dest) {
   if (ocrHalt) return null;
   if (ocrDone >= OCR_CAP) return null;
   const client = getAnthropic();
   if (!client) return null;
-  const ext = path.extname(dest).toLowerCase();
+  let ext = path.extname(dest).toLowerCase();
+  let heicTmp = null;
+  if (HEIC_EXT.test(ext)) {
+    const j = await heicToJpeg(dest);
+    if (j === null) return null;            // 변환기 없음 — 판독 대상에서 이미 빠져 있어 여기 올 일은 드물다
+    if (j === false) return { bad: true };
+    heicTmp = j; ext = '.jpg';
+  }
   let media = OCR_MEDIA[ext];
   const isPdf = ext === OCR_PDF;
   if (!media && !isPdf) return null;
-  let src = dest, shrunk = null;
+  let src = heicTmp || dest, shrunk = null;
   if (!isPdf) {
     const sh = await shrinkToLimit(dest);
     if (sh && !sh.ok) { console.log(`판독 건너뜀(한 변 ${OCR_MAX_PX}px 초과 · 축소 불가):`, dest); return { bad: true }; }
@@ -270,7 +305,8 @@ async function readMenuImage(dest) {
   }
   let buf = null;
   try { buf = fs.readFileSync(src); } catch (e) {}
-  if (shrunk) { try { fs.unlinkSync(shrunk); } catch (e) {} }   // 데이터는 buf 에 있다 — 바로 정리
+  if (shrunk) { try { fs.unlinkSync(shrunk); } catch (e) {} }
+  if (heicTmp) { try { fs.unlinkSync(heicTmp); } catch (e) {} }   // 데이터는 buf 에 있다 — 바로 정리
   if (!buf || !buf.length) return null;
   if (buf.length > OCR_MAX_BYTES) {   // 상한 초과 — 보내봐야 400 이다. 호출하지 않고 건너뛴다
     console.log(`판독 건너뜀(용량 ${(buf.length / 1048576).toFixed(1)}MB > ${(OCR_MAX_BYTES / 1048576).toFixed(1)}MB):`, dest);
@@ -393,7 +429,9 @@ const DRIVE_DL_CAP = 20;                      // 실행당 신규 다운로드 �
 // 판독 상한은 슬랙 첨부와 동일 기준(JUDGE_PER_MSG) — Drive 링크도 여러 장 나눠 올린다
 // 판독 가능한 형식. PDF 는 document 블록으로 모델이 직접 읽는다.
 // HEIF(아이폰 원본)·hwp·xlsx 는 API 가 못 받으므로 제외하고, 몇 건 걸렀는지만 로그에 남긴다.
-const DRIVE_READABLE = /^(image\/(jpe?g|png|webp|bmp|gif)|application\/pdf)$/i;
+const DRIVE_READABLE_BASE = /^(image\/(jpe?g|png|webp|bmp|gif)|application\/pdf)$/i;
+// HEIC 는 변환기가 있을 때만 판독 대상(없으면 예전처럼 건너뜀)
+const DRIVE_READABLE = { test: (t) => DRIVE_READABLE_BASE.test(t) || (/^image\/hei[cf]$/i.test(t) && !!getHeic()) };
 let driveDownloaded = 0, driveBlocked = 0, driveSkipped = 0;
 let _dtok = null;                             // null=미시도, 'FAIL'=사용불가, 문자열=access token
 async function driveToken() {
@@ -635,7 +673,7 @@ function detectPos(text) {
       // 첨부 바이트는 슬랙 API 의 url_private_download 로만 받을 수 있는데, 캐시 분기로 빠지면
       // rawReplies 가 null 이라 그 URL 이 없어 영영 판독되지 않는다(43장이 이 상태로 묶여 있었다).
       const pendingReply = ((prevMap[m.ts] || {}).att || [])
-        .some((x) => x.from === '댓글' && !('kind' in x) && !x.nj);
+        .some((x) => x.from === '댓글' && !('kind' in x) && (!x.nj || (HEIC_EXT.test(x.name || '') && !x.hx && !!getHeic())));
       if (!pendingReply && prev && prev.rc === rc && prev.lr === lr && (prev.rfx || 0) >= RFX_VER) { replies = prev.replies || []; repliesCached = true; }   // 변경 없음 → 캐시
       else {
         rawReplies = await fetchReplies(CHANNEL, m.ts);
@@ -680,9 +718,10 @@ function detectPos(text) {
       // 표시해 두지 않으면 위 pendingReply 가 매 실행 참이 되어 스레드를 계속 다시 읽는다.
       // 원본이 API 상한(5MB)을 넘으면 슬랙이 만들어 둔 축소본을 쓴다 — 폰으로 찍은 4000x3000
       // 사진이 흔하고(반달커피 10.0MB), 원본 그대로 보내면 매번 400 으로 떨어진다.
-      const bigOriginal = (f.size || 0) > OCR_MAX_BYTES;
+      const isHeic = HEIC_EXT.test(ext);
+      const bigOriginal = (f.size || 0) > OCR_MAX_BYTES && !isHeic;   // HEIC 는 변환하며 줄이므로 원본(≤FILE_MAX)을 쓴다
       const thumb = bigOriginal ? (f.thumb_1024 || f.thumb_960 || f.thumb_800 || f.thumb_720 || null) : null;
-      const judgeable = OCR_EXT.test(ext) && !!f.url_private_download && (!bigOriginal || !!thumb);
+      const judgeable = (OCR_EXT.test(ext) || (isHeic && !!getHeic() && (f.size || 0) <= FILE_MAX)) && !!f.url_private_download && (!bigOriginal || !!thumb);
       if (!('kind' in a) && !judgeable) a.nj = 1;
       if (!('kind' in a) && !a.nj && judgeable) {
         let judgePath = (stored && !bigOriginal) ? dest : null;
@@ -698,7 +737,7 @@ function detectPos(text) {
           try {
             const r = await readMenuImage(judgePath);
             ocrRemember(sKey, r);
-            if (r && r.bad) a.nj = 1;                                   // 판독 불가 사진 — 다음 실행에서 재시도하지 않는다
+            if (r && r.bad) { a.nj = 1; if (isHeic) a.hx = 1; }       // 판독 불가 사진 — 다음 실행에서 재시도하지 않는다(HEIC 는 hx 로 재스캔도 막음)
             else if (r) Object.assign(a, ocrRes(r));
           }
           finally { if (isTemp) { try { fs.unlinkSync(judgePath); } catch (e) {} } }
@@ -726,7 +765,7 @@ function detectPos(text) {
           const p = prevM.find((x) => x.id === fl.id) || {};
           const mKey = ocrKey(fl.name, fl.size);
           if ('kind' in p) { ocrRemember(mKey, p); matt.push({ id: fl.id, t, ...ocrRes(p) }); continue; }
-          if (p.nj) { matt.push({ id: fl.id, t, nj: 1 }); continue; }
+          if (p.nj && !(/^image\/hei[cf]$/i.test(String(fl.type || '')) && !p.hx && getHeic())) { matt.push({ id: fl.id, t, nj: 1, ...(p.hx ? { hx: 1 } : {}) }); continue; }
           const dup = mKey && ocrSeen.get(mKey);
           if (dup) { matt.push({ id: fl.id, t, ...dup }); ocrDupSkipped++; continue; }
           const isImg = DRIVE_READABLE.test(String(fl.type || ''));
@@ -740,7 +779,7 @@ function detectPos(text) {
           try {
             const r = fl.csv ? await readMenuText(tmp) : await readMenuImage(tmp);
             ocrRemember(mKey, r);
-            if (r && r.bad) matt.push({ id: fl.id, t, nj: 1 });
+            if (r && r.bad) matt.push({ id: fl.id, t, nj: 1, ...(/^image\/hei[cf]$/i.test(String(fl.type || '')) ? { hx: 1 } : {}) });
             else if (r) matt.push({ id: fl.id, t, ...ocrRes(r) });
             else matt.push({ id: fl.id, t });
           } finally { try { fs.unlinkSync(tmp); } catch (x) {} }
@@ -800,7 +839,8 @@ function detectPos(text) {
     console.log(`🖼 첨부 판독 현황 — 원글 ${c.원글[0]}/${c.원글[1]} · 댓글 ${c.댓글[0]}/${c.댓글[1]}`
       + (pend ? ` · 대기 ${pend}장(판독 불가 제외, 다음 실행에서 계속)` : ' · 대기 없음')
       + (thumbUsed ? ` · 큰 사진 ${thumbUsed}장은 슬랙 축소본으로 판독` : '')
-      + (pxShrunk ? ` · ${OCR_MAX_PX}px 초과 ${pxShrunk}장은 축소해 판독` : ''));
+      + (pxShrunk ? ` · ${OCR_MAX_PX}px 초과 ${pxShrunk}장은 축소해 판독` : '')
+      + (heicConv ? ` · 아이폰 HEIC ${heicConv}장은 JPEG 로 바꿔 판독` : ''));
     if (ocrHalt) console.log(`⛔ 이번 실행 판독 중단 — HTTP ${ocrHalt.status}: ${ocrHalt.message}\n`
       + `   해결 전까지 대기 ${pend}장은 그대로 남습니다(데이터는 보존되고, 풀리면 자동으로 이어서 판독합니다).`);
   }
