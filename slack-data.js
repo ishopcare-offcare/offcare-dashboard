@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27607,
+  "version": 27608,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292830,7 +292830,32 @@ window.SLACK_DATA = {
           "고경림": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "10:30",
+          "store": "세븐시스템",
+          "biz": "3392701976",
+          "handler": "박하림",
+          "cat": "transfer",
+          "intake": "online",
+          "req": "10월 30일 오전 11시 / 메뉴복사 X / 프론트",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
+          "time": "10:29",
+          "store": "얄리",
+          "biz": "1047900216",
+          "handler": "김현기",
+          "cat": "menu",
+          "intake": "online",
+          "req": "메뉴",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:02",
@@ -293121,11 +293146,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 22,
+        "online": 24,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "11:27",
+      "updatedAt": "11:30",
       "voc": {
         "responses": 1,
         "install": {
@@ -293321,38 +293346,42 @@ window.SLACK_DATA = {
       },
       "1793323800.175739": {
         "post": "1793323800.175739",
-        "lastSeen": 1793327320.471,
+        "lastSeen": 1793327424.355,
         "r": 1,
         "day": "2026-10-30",
         "idx": 15
       },
       "1793324908.551339": {
         "post": "1793324908.551339",
-        "lastSeen": 1793327320.471,
+        "lastSeen": 1793327424.355,
         "r": 1,
         "day": "2026-10-30",
         "idx": 13
       },
       "1793325601.904929": {
         "post": "1793325601.904929",
-        "lastSeen": 1793327320.471,
+        "lastSeen": 1793327424.355,
         "r": 1,
         "day": "2026-10-30",
         "idx": 17
       },
       "1793326996.583609": {
         "post": "1793326996.583609",
-        "lastSeen": 1793327320.471,
+        "lastSeen": 1793327424.355,
         "r": 1,
         "day": "2026-10-30",
         "idx": 21
       },
       "1793327220.910439": {
         "post": "1793327220.910439",
-        "lastSeen": 1793327320.471,
+        "lastSeen": 1793327424.355,
         "r": 1,
         "day": "2026-10-30",
         "idx": 22
+      },
+      "1793327405.350369": {
+        "post": "1793327405.350369",
+        "lastSeen": 1793327424.355
       }
     },
     "days": {
@@ -401950,7 +401979,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 11:29",
+    "at": "2026-10-30 11:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -402094,7 +402123,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 11:28",
+    "at": "2026-10-30 11:30",
     "pri": {
       "days": 0,
       "failed": [],
