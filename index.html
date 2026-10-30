@@ -3528,15 +3528,20 @@ async function menuregOcrFiles(fileList){
   const ta0=document.getElementById('mrXlGrid');
   const seen=new Set((ta0?ta0.value:menuregXlCache).split('\n').map(l=>{ const p=l.split('|').map(x=>x.trim()); return p.length>=2?(p[0]||'메뉴')+' '+p[1]+' '+(Number(String(p[2]||'').replace(/,/g,''))||0):''; }).filter(Boolean));
   const lines=[], fails=[], empty=[]; let noPrice=0, got=0;
+  // 한 장씩 차례로 기다리면 N장 = N×(10~30초)라 느리다 → 동시에 3장씩 판독(10/30 실측: 메뉴 17개 사진 11초, 서버 왕복은 1초).
+  // 결과는 올린 순서대로 변환란에 넣는다. 첫 장은 혼자 보내 팀 암호를 먼저 확인(암호가 있으면 동시에 여러 번 묻지 않게).
+  const nameOf=f=>f.name&&f.name!=='image.png'?f.name:'붙여넣은 이미지';
+  const res=new Array(files.length); let done=0, stop=false;
+  const one=async i=>{ if(stop) return; try{ res[i]={d:await menuregOcrCall(await menuregPrepImage(files[i]))}; }catch(e){ res[i]={e}; if(/암호/.test(e.message)) stop=true; }
+    done++; say(`⏳ 사진 판독 중 ${done}/${files.length}장 완료 — 동시에 3장씩 읽는 중 (장당 10~30초)`); };
   try{
-    for(const [i,f] of files.entries()){
-      const nm=f.name&&f.name!=='image.png'?f.name:'붙여넣은 이미지';
-      say(`⏳ 사진 판독 중 ${i+1}/${files.length} — ${nm} (장당 10~30초)`);
-      try{
-        const d=await menuregOcrCall(await menuregPrepImage(f));
-        if(!(d.items||[]).length) empty.push(nm); else { got+=d.items.length; noPrice+=menuregPushMenu(d.items, lines, seen, d.v===2); }
-      }catch(e){ fails.push(nm+': '+e.message); if(/암호/.test(e.message)) break; }
-    }
+    say(`⏳ 사진 판독 중 0/${files.length}장 — ${nameOf(files[0])} (장당 10~30초)`);
+    await one(0);
+    let next=1; const worker=async()=>{ while(!stop && next<files.length){ const i=next++; await one(i); } };
+    await Promise.all([worker(),worker(),worker()]);
+    res.forEach((r,i)=>{ if(!r) return; const nm=nameOf(files[i]);
+      if(r.e){ fails.push(nm+': '+r.e.message); return; }
+      const d=r.d; if(!(d.items||[]).length) empty.push(nm); else { got+=d.items.length; noPrice+=menuregPushMenu(d.items, lines, seen, d.v===2); } });
   }finally{ menuregOcrBusy=false; }
   const ta=document.getElementById('mrXlGrid');   // 판독하는 동안 화면이 다시 그려졌을 수 있다 — 새로 찾는다
   const cur=((ta?ta.value:menuregXlCache)||'').trim();
