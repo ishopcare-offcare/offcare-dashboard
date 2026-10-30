@@ -63,7 +63,7 @@
   :root[data-theme="dark"] .fs-btn,:root[data-theme="dark"] .fr-cast{background:#eaeaf0;color:#123}
   /* 강조 하이라이트 카드는 다크에서 톤 다운(밝은 파스텔 유지 방지) */
   :root[data-theme="dark"] .hl-card.blue{background:linear-gradient(155deg,#0b3fa8,#0a2a6e);border-color:transparent}
-  :root[data-theme="dark"] .hl-card.gold{background:linear-gradient(155deg,#a34a05,#6e3104);border-color:transparent}
+  :root[data-theme="dark"] .hl-card.gold{background:linear-gradient(155deg,#2a2a2e,#0e0e10);border-color:#d4a017}
   :root[data-theme="dark"] .hl-card.mint{background:linear-gradient(155deg,#0a6b42,#06452b);border-color:transparent}
   :root[data-theme="dark"] .hl-card.plum{background:linear-gradient(155deg,#4b23a8,#2f1570);border-color:transparent}
   /* 다크: 천국(직원) 랭킹은 밝은 카드(반짝임 유지) → 글자를 어둡게 해 가독성 확보 */
@@ -148,7 +148,7 @@
   .hl-card:hover{transform:translateY(-2px)}
   /* 전체현황 4박스 — 진한 단색 카드 + 흰 글씨 (파스텔이 흐릿하다는 의견 10/30) */
   .hl-card.blue{background:linear-gradient(155deg,#1f6bff,#0a46c9); border-color:transparent}
-  .hl-card.gold{background:linear-gradient(155deg,#e0820b,#b85a04); border-color:transparent}
+  .hl-card.gold{background:linear-gradient(155deg,#2c2c30,#161618); border:2px solid #d4a017}   /* MVP: 차콜 + 골드 (주황은 타이틀·이름과 안 어울려 10/30 교체) */
   .hl-card.mint{background:linear-gradient(155deg,#15a365,#0b7748); border-color:transparent}
   .hl-card.plum{background:linear-gradient(155deg,#8150e8,#5a2bc2); border-color:transparent}   /* 소요시간 */
   .headline .hl-card{color:#fff; box-shadow:0 6px 18px rgba(0,0,0,.12)}
@@ -164,11 +164,12 @@
   .headline .hl-card .hl-trend-row .tv.pend{color:#ffe08a}
   .headline .hl-card .hl-trend-row.clickable:hover{background:rgba(255,255,255,.14)}
   .headline .hl-card.clickable:hover{box-shadow:0 12px 28px rgba(0,0,0,.2)}
-  /* MVP: 타이틀·이름은 각자 색이 있어 흰 칩 위에 올려 가독성 유지 */
-  #mvpCard .hl-big{display:inline-block; background:rgba(255,255,255,.95); border-radius:14px; padding:6px 14px; margin-top:6px; color:#1d1d1f}
-  #mvpCard .mvp-proc{background:rgba(255,255,255,.18)}
-  #mvpCard .mvp-proc:hover{background:rgba(255,255,255,.3)}
-  #mvpCard .mvp-proc b, #mvpCard .mvp-proc small, #mvpCard .mvp-proc-hint{color:#fff}
+  /* MVP: 어두운 바탕이라 타이틀 발광이 다크 모드처럼 살아난다 · 회색(일반) 타이틀만 밝게 */
+  .headline #mvpCard .hl-lab{color:#f2cf63}
+  #mvpCard .r-title.tr-common{color:#c7c7cc!important}
+  #mvpCard .mvp-proc{background:rgba(242,207,99,.16)}
+  #mvpCard .mvp-proc:hover{background:rgba(242,207,99,.28)}
+  #mvpCard .mvp-proc b{color:#f2cf63} #mvpCard .mvp-proc small, #mvpCard .mvp-proc-hint{color:#fff}
   /* 관리자 보정 — 직원별 표 우측 하단 */
   .adj-foot{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:12px}
   .adj-note{font-size:12px; color:var(--gray2); font-weight:600}
