@@ -3,10 +3,507 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4414,
- "updatedAt": "2026-10-30 14:25",
+ "version": 4415,
+ "updatedAt": "2026-10-30 14:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1793338657.619279",
+   "date": "2026-10-30",
+   "time": "14:37",
+   "store": "도트커피 바리스타학원",
+   "biz": "2973100364",
+   "pos": "",
+   "content": "오ㅓㅣ주메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261030_143041979.jpg",
+     "fid": "F0CDKAGGQ7N",
+     "from": "댓글",
+     "path": "menu-files/1793338657_619279-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "국비과정",
+       "name": "(국비)바리스타2급자격증과정",
+       "price": 300300
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)바리스타1급자격증과정",
+       "price": 369600
+      },
+      {
+       "category": "국비과정",
+       "name": "(주말반)바리스타2급+1급",
+       "price": 369600
+      },
+      {
+       "category": "국비과정",
+       "name": "오전(10:00-13:00)",
+       "price": 0
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트1",
+       "price": 138600
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트2",
+       "price": 138600
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트3",
+       "price": 184800
+      },
+      {
+       "category": "국비과정",
+       "name": "오후(14:00-17:00)",
+       "price": 0
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트1재료비",
+       "price": 30000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트2 재료비",
+       "price": 30000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트3 재료비",
+       "price": 50000
+      },
+      {
+       "category": "국비과정",
+       "name": "저녁(18:30-21:30)",
+       "price": 0
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)핸드드립 자격증과정",
+       "price": 415800
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)SCA바리스타자격증과정",
+       "price": 462000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)SCA센서리 자격증과정",
+       "price": 369600
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)기초/시니어바리스타양성과정",
+       "price": 462000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)심화/시니어바리스타양성과정",
+       "price": 462000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)시니어바리스타양성과정 재료비",
+       "price": 30000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_143041979_01.jpg",
+     "fid": "F0CD9CPEL3D",
+     "from": "댓글",
+     "path": "menu-files/1793338657_619279-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "시험준비",
+       "name": "연습실",
+       "price": 30000
+      },
+      {
+       "category": "시험준비",
+       "name": "시험준비물set",
+       "price": 25000
+      },
+      {
+       "category": "시험준비",
+       "name": "린넨(1장)",
+       "price": 4000
+      },
+      {
+       "category": "시험준비",
+       "name": "행주(1장)",
+       "price": 1000
+      },
+      {
+       "category": "시험준비",
+       "name": "앞치마",
+       "price": 15000
+      },
+      {
+       "category": "시험준비",
+       "name": "1급 필기책 대여",
+       "price": 5000
+      },
+      {
+       "category": "시험준비",
+       "name": "1급 필기책",
+       "price": 10000
+      },
+      {
+       "category": "시험준비",
+       "name": "바리스타 3급 발급비용",
+       "price": 22000
+      },
+      {
+       "category": "시험준비",
+       "name": "바리스타 2급 필기 응시료",
+       "price": 33000
+      },
+      {
+       "category": "시험준비",
+       "name": "바리스타 2급 실기 응시료",
+       "price": 66000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_143041979_02.jpg",
+     "fid": "F0CEA103T32",
+     "from": "댓글",
+     "path": "menu-files/1793338657_619279-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SCA과정",
+       "name": "SCA Foundation",
+       "price": 450000
+      },
+      {
+       "category": "SCA과정",
+       "name": "SCA Intermediate",
+       "price": 750000
+      },
+      {
+       "category": "SCA과정",
+       "name": "SCA Professional",
+       "price": 1000000
+      },
+      {
+       "category": "SCA과정",
+       "name": "SCA Diploma",
+       "price": 8000000
+      },
+      {
+       "category": "SCA과정",
+       "name": "(할인)SCA Foundation",
+       "price": 400000
+      },
+      {
+       "category": "SCA과정",
+       "name": "(할인)SCA Intermediate",
+       "price": 650000
+      },
+      {
+       "category": "SCA과정",
+       "name": "(할인)SCA Professional",
+       "price": 800000
+      },
+      {
+       "category": "SCA과정",
+       "name": "(할인) SCA Diploma",
+       "price": 6000000
+      },
+      {
+       "category": "SCA과정",
+       "name": "TEST-Foundation",
+       "price": 200000
+      },
+      {
+       "category": "SCA과정",
+       "name": "TEST-Intermediate",
+       "price": 250000
+      },
+      {
+       "category": "SCA과정",
+       "name": "TEST-Professional",
+       "price": 350000
+      },
+      {
+       "category": "SCA과정",
+       "name": "SCA자격증과정(Foundation)",
+       "price": 600000
+      },
+      {
+       "category": "SCA과정",
+       "name": "SCA자격증과정(Intermediate)",
+       "price": 800000
+      },
+      {
+       "category": "SCA과정",
+       "name": "SCA자격증과정(Professional)",
+       "price": 1000000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_143041979_03.jpg",
+     "fid": "F0CD08BBFQX",
+     "from": "댓글",
+     "path": "menu-files/1793338657_619279-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "교육상품",
+       "name": "바리스타 2급",
+       "price": 300000
+      },
+      {
+       "category": "교육상품",
+       "name": "핸드드립기초반",
+       "price": 300000
+      },
+      {
+       "category": "교육상품",
+       "name": "홈카페커피지도사2급",
+       "price": 550000
+      },
+      {
+       "category": "교육상품",
+       "name": "커피지도사1급",
+       "price": 550000
+      },
+      {
+       "category": "교육상품",
+       "name": "(할인)바리스타 2급",
+       "price": 250000
+      },
+      {
+       "category": "교육상품",
+       "name": "(할인)바리스타 1급",
+       "price": 550000
+      },
+      {
+       "category": "교육상품",
+       "name": "(할인)홈카페커피지도사2급",
+       "price": 490000
+      },
+      {
+       "category": "교육상품",
+       "name": "(할인)커피지도사 1급",
+       "price": 490000
+      },
+      {
+       "category": "교육상품",
+       "name": "창업반",
+       "price": 1200000
+      },
+      {
+       "category": "교육상품",
+       "name": "실기평가반",
+       "price": 2000000
+      },
+      {
+       "category": "교육상품",
+       "name": "원데이클래스",
+       "price": 70000
+      },
+      {
+       "category": "교육상품",
+       "name": "(할인)창업반",
+       "price": 1000000
+      },
+      {
+       "category": "교육상품",
+       "name": "(할인)실기평가반",
+       "price": 1500000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_143045454.jpg",
+     "fid": "F0CDDLMDSLE",
+     "from": "댓글",
+     "path": "menu-files/1793338657_619279-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "시험준비",
+       "name": "연습실",
+       "price": 30000
+      },
+      {
+       "category": "시험준비",
+       "name": "시험준비물set",
+       "price": 25000
+      },
+      {
+       "category": "시험준비",
+       "name": "린넨(1장)",
+       "price": 4000
+      },
+      {
+       "category": "시험준비",
+       "name": "행주(1장)",
+       "price": 1000
+      },
+      {
+       "category": "시험준비",
+       "name": "앞치마",
+       "price": 15000
+      },
+      {
+       "category": "시험준비",
+       "name": "1급 필기책 대여",
+       "price": 5000
+      },
+      {
+       "category": "시험준비",
+       "name": "1급 필기책",
+       "price": 10000
+      },
+      {
+       "category": "시험준비",
+       "name": "바리스타 3급 발급비용",
+       "price": 22000
+      },
+      {
+       "category": "시험준비",
+       "name": "바리스타 2급 필기 응시료",
+       "price": 33000
+      },
+      {
+       "category": "시험준비",
+       "name": "바리스타 2급 실기 응시료",
+       "price": 66000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_143045454_01.jpg",
+     "fid": "F0CD08CAKSB",
+     "from": "댓글",
+     "path": "menu-files/1793338657_619279-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "국비과정",
+       "name": "(국비)바리스타2급자격증과정",
+       "price": 300300
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)바리스타1급자격증과정",
+       "price": 369600
+      },
+      {
+       "category": "국비과정",
+       "name": "(주말반)바리스타2급+1급",
+       "price": 369600
+      },
+      {
+       "category": "국비과정",
+       "name": "오전(10:00-13:00)",
+       "price": 0
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트1",
+       "price": 138600
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트2",
+       "price": 138600
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트3",
+       "price": 184800
+      },
+      {
+       "category": "국비과정",
+       "name": "오후(14:00-17:00)",
+       "price": 0
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트1재료비",
+       "price": 30000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트2 재료비",
+       "price": 30000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)라떼아트3 재료비",
+       "price": 50000
+      },
+      {
+       "category": "국비과정",
+       "name": "저녁(18:30-21:30)",
+       "price": 0
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)핸드드립 자격증과정",
+       "price": 415800
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)SCA바리스타자격증과정",
+       "price": 462000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)SCA센서리 자격증과정",
+       "price": 369600
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)기초/시니어바리스타양성과정",
+       "price": 462000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)심화/시니어바리스타양성과정",
+       "price": 462000
+      },
+      {
+       "category": "국비과정",
+       "name": "(국비)시니어바리스타양성과정 재료비",
+       "price": 30000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793338699.240769",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793338657619279"
+  },
   {
    "ts": "1793335334.272309",
    "date": "2026-10-30",
