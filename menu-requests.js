@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4393,
- "updatedAt": "2026-10-30 09:45",
+ "version": 4394,
+ "updatedAt": "2026-10-30 09:50",
  "days": 30,
  "items": [
   {
@@ -66522,31 +66522,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729870991309"
-  },
-  {
-   "ts": "1790729346.677329",
-   "date": "2026-09-30",
-   "time": "09:49",
-   "store": "케이핀초반",
-   "biz": "2660303234",
-   "pos": "기타",
-   "content": "안주류 카테고리에 한우차돌떡볶이 25000원 추가부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "연락처가 가게번호라 통화하였으나 부재",
-    "님, ··· 로 인입하시어 메뉴 등록 문의주시는데\n어떤 내용 확인 도와드리면 될까요~? 스파로스 프로그램 사용하신다고 하십니다!!",
-    "메뉴등록은 완료하였습니다. 재시작해주시면 됩니다!"
-   ],
-   "rc": 3,
-   "lr": "1790732175.346739",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729346677329"
   }
  ],
  "ocr": {

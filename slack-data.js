@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27554,
+  "version": 27555,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -293067,15 +293067,18 @@ window.SLACK_DATA = {
       },
       "1793320202.694909": {
         "post": "1793320202.694909",
-        "lastSeen": 1793321282.398
+        "lastSeen": 1793321412.136
       },
       "1793321100.977709": {
         "post": "1793321100.977709",
-        "lastSeen": 1793321282.398
+        "lastSeen": 1793321412.136,
+        "r": 1,
+        "day": "2026-10-30",
+        "idx": 5
       },
       "1793321101.204369": {
         "post": "1793321101.204369",
-        "lastSeen": 1793321282.398
+        "lastSeen": 1793321412.136
       }
     },
     "days": {
@@ -401462,8 +401465,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-30": {
-        "cnt": 5,
-        "sumMin": 19.279848245779675,
+        "cnt": 6,
+        "sumMin": 23.384669760862987,
         "over": 0,
         "items": [
           {
@@ -401510,13 +401513,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "booking",
             "dmin": 5.1
+          },
+          {
+            "hm": "09:45",
+            "min": 4.1,
+            "store": "고수의운전면허 천안신불당점",
+            "biz": "8164700846",
+            "who": "고경림",
+            "cat": "nosetup"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:48",
+    "at": "2026-10-30 09:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401660,7 +401671,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:48",
+    "at": "2026-10-30 09:50",
     "pri": {
       "days": 0,
       "failed": [],
