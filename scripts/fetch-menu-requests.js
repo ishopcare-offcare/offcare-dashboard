@@ -122,7 +122,7 @@ const OCR_MAX_BYTES = 4.5 * 1024 * 1024;
 // 용량과 별개로 픽셀 상한도 있다 — 한 변이 8000px 를 넘으면 400. 안드로이드 스크롤 스크린샷은
 // 용량은 1MB 도 안 되면서 세로가 1만을 넘어 여기 걸린다(2026-09-09 판독 정지의 원인).
 const OCR_MAX_PX = 8000;
-let thumbUsed = 0, pxShrunk = 0, heicConv = 0;
+let thumbUsed = 0, pxShrunk = 0, heicConv = 0, mbShrunk = 0;
 const OCR_MODEL = process.env.OCR_MODEL || 'claude-opus-5';
 const OCR_PRICE = { in: 5, out: 25 };                // $/1M tok — 로그의 비용 추정용
 const KRW_PER_USD = Number(process.env.KRW_PER_USD || 1380);
@@ -308,7 +308,27 @@ async function readMenuImage(dest) {
   if (shrunk) { try { fs.unlinkSync(shrunk); } catch (e) {} }
   if (heicTmp) { try { fs.unlinkSync(heicTmp); } catch (e) {} }   // 데이터는 buf 에 있다 — 바로 정리
   if (!buf || !buf.length) return null;
-  if (buf.length > OCR_MAX_BYTES) {   // 상한 초과 — 보내봐야 400 이다. 호출하지 않고 건너뛴다
+  if (buf.length > OCR_MAX_BYTES && !isPdf) {
+    // 용량 초과 사진(드라이브 원본 PNG 7.1MB 등)은 JPEG 로 다시 구워 상한 안으로 줄인다.
+    // 예전엔 null(재시도)로 돌려 매 실행 다시 받기만 하고 영영 판독되지 않았다.
+    const sharp = getSharp();
+    if (!sharp) {
+      console.log(`판독 건너뜀(용량 ${(buf.length / 1048576).toFixed(1)}MB > ${(OCR_MAX_BYTES / 1048576).toFixed(1)}MB · sharp 없음):`, dest);
+      return null;
+    }
+    const before = buf.length;
+    try {
+      for (const [px, q] of [[3000, 85], [2400, 80], [2000, 75]]) {
+        const out = await sharp(buf).rotate().resize({ width: px, height: px, fit: 'inside', withoutEnlargement: true })
+          .flatten({ background: '#ffffff' }).jpeg({ quality: q }).toBuffer();
+        if (out.length <= OCR_MAX_BYTES) { buf = out; break; }
+      }
+    } catch (e) { console.log('용량 축소 실패:', dest, String(e.message || e).slice(0, 100)); return { bad: true }; }
+    if (buf.length > OCR_MAX_BYTES) { console.log('판독 불가(축소해도 상한 초과):', dest); return { bad: true }; }
+    media = 'image/jpeg'; mbShrunk++;
+    console.log(`↧ 용량 ${(before / 1048576).toFixed(1)}MB → ${(buf.length / 1048576).toFixed(1)}MB 로 줄여 판독: ${dest}`);
+  }
+  if (buf.length > OCR_MAX_BYTES) {   // PDF 상한 초과 — 보내봐야 400 이다. 호출하지 않고 건너뛴다
     console.log(`판독 건너뜀(용량 ${(buf.length / 1048576).toFixed(1)}MB > ${(OCR_MAX_BYTES / 1048576).toFixed(1)}MB):`, dest);
     return null;
   }
@@ -846,7 +866,8 @@ function detectPos(text) {
       + (pend ? ` · 대기 ${pend}장(판독 불가 제외, 다음 실행에서 계속)` : ' · 대기 없음')
       + (thumbUsed ? ` · 큰 사진 ${thumbUsed}장은 슬랙 축소본으로 판독` : '')
       + (pxShrunk ? ` · ${OCR_MAX_PX}px 초과 ${pxShrunk}장은 축소해 판독` : '')
-      + (heicConv ? ` · 아이폰 HEIC ${heicConv}장은 JPEG 로 바꿔 판독` : ''));
+      + (heicConv ? ` · 아이폰 HEIC ${heicConv}장은 JPEG 로 바꿔 판독` : '')
+      + (mbShrunk ? ` · 용량 초과 ${mbShrunk}장은 줄여서 판독` : ''));
     if (ocrHalt) console.log(`⛔ 이번 실행 판독 중단 — HTTP ${ocrHalt.status}: ${ocrHalt.message}\n`
       + `   해결 전까지 대기 ${pend}장은 그대로 남습니다(데이터는 보존되고, 풀리면 자동으로 이어서 판독합니다).`);
   }
