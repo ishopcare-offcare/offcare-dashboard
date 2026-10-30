@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27564,
+  "version": 27565,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292925,7 +292925,55 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:07"
+      "updatedAt": "10:10",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 1
+        },
+        "npsDist": {
+          "10": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KCP": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": [
+          {
+            "time": "10:10",
+            "store": "별난맛집",
+            "storeId": "602676",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "편리성",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
+      }
     }
   },
   "resp": {
@@ -293067,42 +293115,42 @@ window.SLACK_DATA = {
       },
       "1793320202.694909": {
         "post": "1793320202.694909",
-        "lastSeen": 1793322607.441,
+        "lastSeen": 1793322684.92,
         "r": 1,
         "day": "2026-10-30",
         "idx": 8
       },
       "1793321100.977709": {
         "post": "1793321100.977709",
-        "lastSeen": 1793322607.441,
+        "lastSeen": 1793322684.92,
         "r": 1,
         "day": "2026-10-30",
         "idx": 5
       },
       "1793321101.204369": {
         "post": "1793321101.204369",
-        "lastSeen": 1793322607.441,
+        "lastSeen": 1793322684.92,
         "r": 1,
         "day": "2026-10-30",
         "idx": 7
       },
       "1793321807.295819": {
         "post": "1793321807.295819",
-        "lastSeen": 1793322607.441,
+        "lastSeen": 1793322684.92,
         "r": 1,
         "day": "2026-10-30",
         "idx": 6
       },
       "1793322278.701049": {
         "post": "1793322278.701049",
-        "lastSeen": 1793322607.441,
+        "lastSeen": 1793322684.92,
         "r": 1,
         "day": "2026-10-30",
         "idx": 9
       },
       "1793322427.683399": {
         "post": "1793322427.683399",
-        "lastSeen": 1793322607.441
+        "lastSeen": 1793322684.92
       }
     },
     "days": {
@@ -401583,7 +401631,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 10:10",
+    "at": "2026-10-30 10:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401727,7 +401775,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 10:10",
+    "at": "2026-10-30 10:11",
     "pri": {
       "days": 0,
       "failed": [],
