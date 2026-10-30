@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4435,
- "updatedAt": "2026-10-30 17:47",
+ "version": 4436,
+ "updatedAt": "2026-10-30 18:04",
  "days": 30,
  "items": [
   {
@@ -1915,42 +1915,1040 @@ window.MENU_REQUESTS = {
      "fid": "F0CD04QQ3S9",
      "from": "댓글",
      "path": "menu-files/1793264930_407479-0.heic",
-     "nj": 1
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생과일 쥬스",
+       "name": "토마토 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "오렌지 파인 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "키위 바나나 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "블베 바나나 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "청포도주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "수박주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "오렌지주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "키위주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "감귤주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼토마토주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼블루베리바나나주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼키위바나나주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼오렌지주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼키위주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼블루베리주스",
+       "price": 7500
+      }
+     ],
+     "v": 2
     },
     {
      "name": "565.heic",
      "fid": "F0CCZ6KUQJF",
      "from": "댓글",
      "path": "menu-files/1793264930_407479-1.heic",
-     "nj": 1
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "쇼콜라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "말차라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "얼그레이 복숭아티 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "밀크티 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "히비스커스 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "캐모마일 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "루이보스 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "얼그레이 ICE",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "단체음료",
+       "price": 1000
+      },
+      {
+       "category": "음료",
+       "name": "아이스티",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "샌드위치셋트",
+       "price": 8000
+      },
+      {
+       "category": "음료",
+       "name": "배달수수료1",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "음료",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "생수",
+       "price": 1000
+      },
+      {
+       "category": "음료",
+       "name": "쇼콜라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "말차라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "얼그레이 복숭아티 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "밀크티 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "히비스커스 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "캐모마일 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "루이보스 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "얼그레이 HOT",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "아침에주스",
+       "price": 2500
+      }
+     ],
+     "v": 2
     },
     {
      "name": "566.heic",
      "fid": "F0CD57WJKS6",
      "from": "댓글",
      "path": "menu-files/1793264930_407479-2.heic",
-     "nj": 1
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "레몬티 HOT",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "자몽티 HOT",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "패션후르츠 HOT",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "패션후르츠 에이드",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "패션후르츠수제청250ml",
+       "price": 9500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "자몽수제청250ml",
+       "price": 9500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "레몬수제청250ml",
+       "price": 9500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "패션후르츠수제청350ml",
+       "price": 11000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "자몽수제청350ml",
+       "price": 11000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "레몬수제청350ml",
+       "price": 11000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "자몽수제청500ml",
+       "price": 19000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "레몬수제청500ml",
+       "price": 19000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "패션후르츠수제청500ml",
+       "price": 19000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "파인애플식초1200ml",
+       "price": 21000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "바나나식초1200ml",
+       "price": 21000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "오미자식초1200ml",
+       "price": 23000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "추석수제청2구세트-250",
+       "price": 10000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "수제청선물세트-250 2구",
+       "price": 12000
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "바나나식초ICE",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "파인애플식초 ICE",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "오미자식초ICE",
+       "price": 5500
+      },
+      {
+       "category": "수제청티&에이드&식초",
+       "name": "수제청200ml",
+       "price": 7000
+      }
+     ],
+     "v": 2
     },
     {
      "name": "568.heic",
      "fid": "F0CCQ29PD1V",
      "from": "댓글",
      "path": "menu-files/1793264930_407479-3.heic",
-     "nj": 1
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장/포장",
+       "name": "에그듬뿍샌드위치한팩",
+       "price": 8500
+      },
+      {
+       "category": "매장/포장",
+       "name": "에그듬뿍샌드위치반팩",
+       "price": 4600
+      },
+      {
+       "category": "매장/포장",
+       "name": "햄치즈에그샌드위치한팩",
+       "price": 8500
+      },
+      {
+       "category": "매장/포장",
+       "name": "햄치즈에그샌드위치반팩",
+       "price": 4600
+      },
+      {
+       "category": "매장/포장",
+       "name": "닭가슴살크랜베리샌드위치한팩",
+       "price": 9500
+      },
+      {
+       "category": "매장/포장",
+       "name": "닭가슴살크랜베리샌드위치반팩",
+       "price": 5100
+      },
+      {
+       "category": "매장/포장",
+       "name": "치킨텐더칠리샌드위치한팩",
+       "price": 9500
+      },
+      {
+       "category": "매장/포장",
+       "name": "치킨텐더칠리샌드위치반팩",
+       "price": 5100
+      },
+      {
+       "category": "매장/포장",
+       "name": "단호박햄치즈샌드위치한팩",
+       "price": 9500
+      },
+      {
+       "category": "매장/포장",
+       "name": "단호박햄치즈샌드위치반팩",
+       "price": 5100
+      },
+      {
+       "category": "매장/포장",
+       "name": "크래미듬뿍샌드위치한팩",
+       "price": 9500
+      },
+      {
+       "category": "매장/포장",
+       "name": "크래미듬뿍샌드위치반팩",
+       "price": 5100
+      },
+      {
+       "category": "매장/포장",
+       "name": "비프데리야끼샌드위치한팩",
+       "price": 10500
+      },
+      {
+       "category": "매장/포장",
+       "name": "비프데리야끼샌드위치반팩",
+       "price": 5600
+      },
+      {
+       "category": "매장/포장",
+       "name": "통새우칠리샌드위치한팩",
+       "price": 10500
+      },
+      {
+       "category": "매장/포장",
+       "name": "통새우칠리샌드위치반팩",
+       "price": 5600
+      },
+      {
+       "category": "매장/포장",
+       "name": "연어아보카도샌드위치한팩",
+       "price": 10500
+      },
+      {
+       "category": "매장/포장",
+       "name": "연어아보카도샌드위치반팩",
+       "price": 5600
+      }
+     ],
+     "v": 2
     },
     {
      "name": "570.heic",
      "fid": "F0CD04UTG1K",
      "from": "댓글",
      "path": "menu-files/1793264930_407479-4.heic",
-     "nj": 1
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장/포장",
+       "name": "배달수수료",
+       "price": 3500
+      },
+      {
+       "category": "매장/포장",
+       "name": "샌드위치",
+       "price": 4000
+      },
+      {
+       "category": "매장/포장",
+       "name": "배달료(동신대)",
+       "price": 15000
+      }
+     ],
+     "v": 2
     },
     {
      "name": "571.heic",
      "fid": "F0CCZ6QJ3GT",
      "from": "댓글",
      "path": "menu-files/1793264930_407479-5.heic",
-     "nj": 1
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "리얼우유&요거트",
+       "name": "생딸기우유",
+       "price": 8000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "생바나나딸기우유",
+       "price": 8000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "딸기 꿀 라떼",
+       "price": 7000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "딸기라떼300",
+       "price": 7000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "과일컵",
+       "price": 8000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "생바나나우유300",
+       "price": 6000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "생과일 컵",
+       "price": 6000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "생과일 요거트볼",
+       "price": 8000
+      },
+      {
+       "category": "리얼우유&요거트",
+       "name": "생과일요거트컵",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "569.heic",
+     "fid": "F0CDZQGMEM6",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노 ICE",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노 ICE",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "모카라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "카라멜라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "연유라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노ICE",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "헤즐럿 샷 추가",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노HOT",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "마들렌3개",
+       "price": 3900
+      },
+      {
+       "category": "커피",
+       "name": "마들렌1개",
+       "price": 1300
+      },
+      {
+       "category": "커피",
+       "name": "에소프레소",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노 HOT 50%",
+       "price": 1500
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노 ICE 50%",
+       "price": 1500
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노 HOT",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노 HOT",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "모카라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "카라멜라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "연유라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "샷추가",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "572.heic",
+     "fid": "F0CCZ6SJS7M",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샌드위치",
+       "name": "샌드위치&음료세트",
+       "price": 7000
+      },
+      {
+       "category": "샌드위치",
+       "name": "감자듬뿍베이컨샌드위치",
+       "price": 6500
+      },
+      {
+       "category": "샌드위치",
+       "name": "감자듬뿍베이컨샌드위치듬1개",
+       "price": 2500
+      },
+      {
+       "category": "샌드위치",
+       "name": "감자듬뿍베이컨샌드위치감2개세트",
+       "price": 4500
+      },
+      {
+       "category": "샌드위치",
+       "name": "치킨텐더칠리샌드위치반쪽(단체)",
+       "price": 4500
+      },
+      {
+       "category": "샌드위치",
+       "name": "닭가슴살크랜베리샌드위치반쪽(단체)",
+       "price": 4500
+      },
+      {
+       "category": "샌드위치",
+       "name": "단호박햄치즈샌드위치반쪽(단체)",
+       "price": 4500
+      },
+      {
+       "category": "샌드위치",
+       "name": "샌드위치&음료",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "573.heic",
+     "fid": "F0CD04Z0M61",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "샌드위치",
+       "name": "햄치즈에그 샌드위치",
+       "price": 8000
+      },
+      {
+       "category": "샌드위치",
+       "name": "햄치즈하프",
+       "price": 4100
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그듬뿍 샌드위치",
+       "price": 8000
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그듬뿍하프",
+       "price": 4100
+      },
+      {
+       "category": "샌드위치",
+       "name": "햄추가",
+       "price": 1000
+      },
+      {
+       "category": "샌드위치",
+       "name": "닭가슴살크랜 샌드위치",
+       "price": 9000
+      },
+      {
+       "category": "샌드위치",
+       "name": "닭가슴살크랜베리샌드위치하프",
+       "price": 4600
+      },
+      {
+       "category": "샌드위치",
+       "name": "치킨텐더칠리 샌드위치",
+       "price": 9000
+      },
+      {
+       "category": "샌드위치",
+       "name": "치킨텐더칠리샌드위치하프",
+       "price": 4600
+      },
+      {
+       "category": "샌드위치",
+       "name": "치즈추가",
+       "price": 1000
+      },
+      {
+       "category": "샌드위치",
+       "name": "단호박햄치즈샌드위치",
+       "price": 9000
+      },
+      {
+       "category": "샌드위치",
+       "name": "단호박햄치즈샌드위치하프",
+       "price": 4600
+      },
+      {
+       "category": "샌드위치",
+       "name": "통새우칠리 샌드위치",
+       "price": 10000
+      },
+      {
+       "category": "샌드위치",
+       "name": "통새우칠리샌드위치하프",
+       "price": 5100
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그후라미추가",
+       "price": 1000
+      },
+      {
+       "category": "샌드위치",
+       "name": "연어아보카도 샌드위치",
+       "price": 10000
+      },
+      {
+       "category": "샌드위치",
+       "name": "연어아보카도샌드위치하프",
+       "price": 5100
+      },
+      {
+       "category": "샌드위치",
+       "name": "비프데리야끼 샌드위치",
+       "price": 10000
+      },
+      {
+       "category": "샌드위치",
+       "name": "비프데리야끼샌드위치하프",
+       "price": 5100
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그샌드위치반팩&음료",
+       "price": 5000
+      },
+      {
+       "category": "샌드위치",
+       "name": "크래미치즈 샌드위치",
+       "price": 9000
+      },
+      {
+       "category": "샌드위치",
+       "name": "크래미치즈샌드위치하프",
+       "price": 4600
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그포테이토 샌드위치",
+       "price": 8500
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그포테이토하프 샌드위치",
+       "price": 4300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "567.heic",
+     "fid": "F0CCZ6V9YSX",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장/포장",
+       "name": "햄치즈에그샌드위치 반팩",
+       "price": 4000
+      },
+      {
+       "category": "매장/포장",
+       "name": "치킨텐더칠리샌드위치 반팩",
+       "price": 4500
+      },
+      {
+       "category": "매장/포장",
+       "name": "통새우칠리하프",
+       "price": 5000
+      },
+      {
+       "category": "매장/포장",
+       "name": "샌드위치",
+       "price": 4300
+      },
+      {
+       "category": "매장/포장",
+       "name": "소불고기샌드위치하프",
+       "price": 5000
+      },
+      {
+       "category": "매장/포장",
+       "name": "배달료",
+       "price": 1000
+      },
+      {
+       "category": "매장/포장",
+       "name": "#배달수수료#",
+       "price": 30000
+      },
+      {
+       "category": "매장/포장",
+       "name": "광주배달수수료",
+       "price": 20000
+      },
+      {
+       "category": "매장/포장",
+       "name": "우리밀마들렌",
+       "price": 5000
+      },
+      {
+       "category": "매장/포장",
+       "name": "유아도시락",
+       "price": 10000
+      },
+      {
+       "category": "매장/포장",
+       "name": "컵과일",
+       "price": 5000
+      },
+      {
+       "category": "매장/포장",
+       "name": "다과set",
+       "price": 8000
+      },
+      {
+       "category": "매장/포장",
+       "name": "샌드위치&과일",
+       "price": 11000
+      },
+      {
+       "category": "매장/포장",
+       "name": "샌드위치&음료",
+       "price": 8000
+      },
+      {
+       "category": "매장/포장",
+       "name": "샌드위치&음료세트",
+       "price": 10000
+      },
+      {
+       "category": "매장/포장",
+       "name": "그린샐러드",
+       "price": 9000
+      },
+      {
+       "category": "매장/포장",
+       "name": "샌드위치반팩&과일",
+       "price": 9000
+      },
+      {
+       "category": "매장/포장",
+       "name": "딸기라떼300",
+       "price": 6000
+      },
+      {
+       "category": "매장/포장",
+       "name": "배달수수료",
+       "price": 10000
+      },
+      {
+       "category": "매장/포장",
+       "name": "우리밀마들렌",
+       "price": 6000
+      },
+      {
+       "category": "매장/포장",
+       "name": "신선한주방set",
+       "price": 20000
+      },
+      {
+       "category": "매장/포장",
+       "name": "다과셋트",
+       "price": 6000
+      },
+      {
+       "category": "매장/포장",
+       "name": "신선한주방정식",
+       "price": 70000
+      },
+      {
+       "category": "매장/포장",
+       "name": "배달수수료",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "563.heic",
+     "fid": "F0CD3ET1U14",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생과일 쥬스",
+       "name": "토마토 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "오렌지 파인 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "키위 바나나 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "블베 바나나 쥬스",
+       "price": 6500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "청포도주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "수박주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "오렌지주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "키위주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "감귤주스",
+       "price": 7000
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼토마토주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼블루베리바나나주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼키위바나나주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼오렌지주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼키위주스",
+       "price": 7500
+      },
+      {
+       "category": "생과일 쥬스",
+       "name": "리얼블루베리주스",
+       "price": 7500
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
@@ -6062,17 +7060,16 @@ window.MENU_REQUESTS = {
      "name": "63700.heic",
      "fid": "F0CCG575R7T",
      "from": "댓글",
-     "path": "menu-files/1793081356_881889-0.heic",
-     "nj": 1
+     "path": "menu-files/1793081356_881889-0.heic"
     },
     {
      "name": "image.png",
      "fid": "F0CC901CASH",
      "from": "댓글",
-     "path": "menu-files/1793081356_881889-1.png",
      "kind": "other",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793081356_881889-1.png"
     }
    ],
    "datt": [],
