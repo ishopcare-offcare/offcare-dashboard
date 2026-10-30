@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27529,
+  "version": 27530,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292955,11 +292955,14 @@ window.SLACK_DATA = {
       },
       "1793318411.644649": {
         "post": "1793318411.644649",
-        "lastSeen": 1793318429.579
+        "lastSeen": 1793318527.237
       },
       "1793318405.520389": {
         "post": "1793318405.520389",
-        "lastSeen": 1793318429.579
+        "lastSeen": 1793318527.237,
+        "r": 1,
+        "day": "2026-10-30",
+        "idx": 0
       }
     },
     "days": {
@@ -401344,11 +401347,26 @@ window.SLACK_DATA = {
             "dmin": 10.3
           }
         ]
+      },
+      "2026-10-30": {
+        "cnt": 1,
+        "sumMin": 1.2147935152053833,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 1.2,
+            "store": "신화영농조합법인",
+            "biz": "3088143014",
+            "who": "고경림",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:00",
+    "at": "2026-10-30 09:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401492,7 +401510,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:00",
+    "at": "2026-10-30 09:02",
     "pri": {
       "days": 0,
       "failed": [],
