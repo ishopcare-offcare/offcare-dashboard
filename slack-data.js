@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27535,
+  "version": 27536,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292805,11 +292805,29 @@ window.SLACK_DATA = {
       }
     },
     "2026-10-30": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:06",
+          "store": "그린테이블",
+          "biz": "8353501519",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "삼성페이가 안되신다고 하십니다! 확인 부탁드립니다! 토프 사용",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "다시 정상결제 되심",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -292955,24 +292973,17 @@ window.SLACK_DATA = {
       },
       "1793318411.644649": {
         "post": "1793318411.644649",
-        "lastSeen": 1793318986.453,
+        "lastSeen": 1793319062.283,
         "r": 1,
         "day": "2026-10-30",
         "idx": 1
       },
       "1793318405.520389": {
         "post": "1793318405.520389",
-        "lastSeen": 1793318986.453,
+        "lastSeen": 1793319062.283,
         "r": 1,
         "day": "2026-10-30",
         "idx": 0
-      },
-      "1793318779.719009": {
-        "post": "1793318779.719009",
-        "lastSeen": 1793318986.453,
-        "r": 1,
-        "day": "2026-10-30",
-        "idx": 2
       }
     },
     "days": {
@@ -401385,14 +401396,15 @@ window.SLACK_DATA = {
             "store": "그린테이블",
             "biz": "8353501519",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 4.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:10",
+    "at": "2026-10-30 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401536,7 +401548,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:09",
+    "at": "2026-10-30 09:11",
     "pri": {
       "days": 0,
       "failed": [],
