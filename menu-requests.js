@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4427,
- "updatedAt": "2026-10-30 17:05",
+ "version": 4428,
+ "updatedAt": "2026-10-30 17:17",
  "days": 30,
  "items": [
   {
@@ -65720,29 +65720,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790757178251279"
-  },
-  {
-   "ts": "1790756172.229279",
-   "date": "2026-09-30",
-   "time": "17:16",
-   "store": "갈풍집",
-   "biz": "3014014266",
-   "pos": "오케이포스",
-   "content": "오케이포스 사용 중 메뉴 가격 수정 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "양념안창살구이  29,000원"
-   ],
-   "rc": 4,
-   "lr": "1790756408.173319",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790756172229279"
   }
  ],
  "ocr": {
