@@ -2455,10 +2455,10 @@ function empWorkByDay(emp){ const m={}; monthSlackDates().forEach(d=>{ ((slackDa
 // 일별 MVP(그날 업무처리 최다) 선정 횟수 맵 (이번 달)
 function dailyMvpCounts(){ const cnt={}; monthSlackDates().forEach(d=>{ const by={}; ((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp) by[x.emp]=(by[x.emp]||0)+1; }); let top=null,tv=0; for(const e in by){ if(by[e]>tv){ tv=by[e]; top=e; } } if(top) cnt[top]=(cnt[top]||0)+1; }); return cnt; }
 function mvpCountOf(emp){ return dailyMvpCounts()[emp]||0; }
-const ACH_SHORT={kind:'NPS 한 달 1위',angel:'NPS 누적 6개월 1위',hand:'하루 35건',phoenix:'12시간 이상 처리',master:'6업무 각2건+미처리0',god:'하루50건+MVP10회',night:'밤8시후 300건',fool:'???',layoff:'???',fast:'???',thunder:'???',beta:'지정 인원 전용',workaholic:'평일 90일 연속 9~18시 처리',first:'???',bomb:'???',bling:'치장 아이템 50개 수집',star:'타이틀 20개 수집',angler:'낚시터 캐스팅 10,000회'};
+const ACH_SHORT={kind:'NPS 한 달 1위',angel:'NPS 누적 6개월 1위',hand:'하루 35건',phoenix:'12시간 이상 처리',master:'6업무 각2건+미처리0',god:'하루50건+MVP10회',night:'밤8시후 300건',fool:'???',layoff:'???',fast:'???',thunder:'???',beta:'지정 인원 전용',workaholic:'평일 90일 연속 9~18시 처리',first:'???',bomb:'???',bling:'치장 아이템 50개 수집',star:'???',angler:'낚시터 캐스팅 10,000회'};
 function achShort(k){ return ACH_SHORT[k]||''; }
 // 히든 조건 타이틀: 달성(ok) 또는 보유 전까지 조건·진행을 '???'로 감춤, 활성화되면 실제 조건 공개
-const HIDDEN_ACH = ['fool','layoff','fast','thunder','first','bomb'];
+const HIDDEN_ACH = ['fool','layoff','fast','thunder','first','bomb','star'];
 // 히든 타이틀 진행도 마스킹: '2/5건' → '요건 5건 중 2건 달성' (무엇을 세는지는 숨기고 수치만 공개)
 function maskProg(prog){
   const m=String(prog||'').match(/^\s*([\d,]+)\s*\/\s*([\d,]+)\s*(\D*)$/);
@@ -2497,7 +2497,7 @@ function achStatus(emp, it){
   if(it.ach==='beta'){ const ok=(it.onlyFor||[]).includes(emp); return {ok, label:'베타테스터 지정 인원 전용', prog:ok?'달성 ✓':'대상 아님'}; }   // 배선유·김동욱 전용
   if(it.ach==='bomb'){ const c=gs(emp).fishMiss||0; return {ok:c>=5000, label:'낚시터 꽝 5,000회 달성', prog:`${c.toLocaleString()}/5,000회`}; }   // 히든: 꽝 누적(카운터 도입 시점부터)
   if(it.ach==='bling'){ const COS=['nametag','hat','pet','skin','hair','dye','eyes','brows','mouth','beard','top','pants','shoes','gloves','cape']; const c=(gs(emp).owned||[]).filter(o=>COS.includes(String(o).split(':')[0])).length; return {ok:c>=50, label:'꾸미기 치장 아이템 50개 수집 (타이틀 제외)', prog:`${c}/50개`}; }
-  if(it.ach==='star'){ const c=(gs(emp).owned||[]).filter(o=>String(o).split(':')[0]==='title').length; return {ok:c>=20, label:'타이틀 20개 이상 보유', prog:`${c}/20개`}; }
+  if(it.ach==='star'){ const c=STAR_SET.filter(k=>{ const p=k.split(':'); return owns(emp,p[0],p[1]); }).length; return {ok:c>=STAR_SET.length, label:'👑 왕별 세트(왕별 눈·왕별 펫·별똥별 배경) 모두 보유', prog:`${c}/${STAR_SET.length}개`}; }   // 히든: 세트 완성 시 공개
   if(it.ach==='angler'){ const c=gs(emp).fishCasts||0; return {ok:c>=10000, label:'낚시터 캐스팅 10,000회 달성', prog:`${c.toLocaleString()}/10,000회`}; }
   if(it.ach==='first'){   // 히든: 그날의 첫 원격 처리 건이 본인 111회 (누적 · 월간 초기화 없음)
     let c=0;
@@ -5178,9 +5178,9 @@ function charSvg(eq, gender){ eq=eq||{}; const g=gender||'m';
     ${pHairFront(ha.hs, hairCol, hairHi)}
   </svg></div>`;
 }
-function avatarBig(eq, gender){ eq=eq||{};
+function avatarBig(eq, gender, emp){ eq=eq||{};
   const hat=partE('hat',eq.hat), pet=partE('pet',eq.pet);
-  const meteor=eq.bg==='bg_meteor', starSet=meteor && eq.eyes==='ey_bigstar' && eq.pet==='sp_star';
+  const meteor=eq.bg==='bg_meteor', starSet=(emp && hasStarSet(emp)) || (meteor && eq.eyes==='ey_bigstar' && eq.pet==='sp_star');
   return `<div class="avatar-big${meteor?' bg-on':''}${starSet?' star-set':''}">
     ${meteor?`<div class="ab-bg meteor"><b></b>${'<i></i>'.repeat(5)}</div>`:''}
     ${starSet?'<div class="ab-aura"></div>':''}
@@ -5230,7 +5230,7 @@ function titleStyleOf(t){ if(!t) return ''; if(t.grad){ // 이모지 전용 타�
 function titleStyle(eq){ return titleStyleOf(itemById('title',(eq||{}).title)); }
 // 내 캐릭터 카드 내부(미리보기 시 이 부분만 교체)
 function gameMeInner(emp, eq){ const t=itemById('title',(eq||{}).title);
-  return `${avatarBig(eq, (GAME[emp]||{}).gender)}
+  return `${avatarBig(eq, (GAME[emp]||{}).gender, emp)}
     <div class="gm-right">
       ${t?`<div class="gm-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${escapeHtml(t.name)}]</div>`:''}
       <div class="gm-name" style="${nametagStyle(eq)}">${escapeHtml(emp)}</div>
@@ -5254,7 +5254,7 @@ function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; cons
   let disp;
   if(gameMe && tryOnCats.includes(cat)){
     const peq=Object.assign({}, (gs(gameMe).equipped||{})); peq[cat]=id;
-    disp=`<div class="it-tip-char">${avatarBig(peq, (GAME[gameMe]||{}).gender)}</div>`;
+    disp=`<div class="it-tip-char">${avatarBig(peq, (GAME[gameMe]||{}).gender, gameMe)}</div>`;
   } else { disp=`<div class="it-tip-disp">${big}</div>`; }
   return `<div class="it-tip-inner" style="--rar:${RARITY[r]}">
     <div class="it-tip-top"><span class="it-tip-rar" style="color:${RARITY[r]}">${RARITY_KO[r]}</span>${it.fishOnly?'<span class="it-tip-fish">🎣 낚시전용</span>':''}</div>
@@ -5534,7 +5534,7 @@ function starShopSection(emp){
         🪽 NPS 1위 누적 <b>6개월</b> → [천사🪽] 타이틀 <small>(11월부터 집계 · 내 ${npsTitleWins(emp).length}/6개월)</small></div>
     </div>
     <div class="shop-grid">${list}</div>
-    <div class="ss-set ${set?'on':''}">👑 <b>왕별 세트</b> <small>왕별 눈 + 왕별 펫 + 별똥별 배경</small> — ${set?'<b>발동 중!</b>':'모두 모으면 발동'} · ${STAR_SET_DESC} · 세 개를 모두 착용하면 캐릭터에 <b>황금 오라</b></div>
+    <div class="ss-set ${set?'on':''}">👑 <b>왕별 세트</b> <small>왕별 눈 + 왕별 펫 + 별똥별 배경</small> — ${set?'<b>발동 중!</b>':'모두 모으면 발동'} · ${STAR_SET_DESC} · 모두 모으면 캐릭터에 <b>황금 오라</b> + 🎁 <b>???</b></div>
   </div>`;
 }
 // 끝난 달 NPS 1위가 새로 확정되면(본인 브라우저에서) 축하 팝업 1회
