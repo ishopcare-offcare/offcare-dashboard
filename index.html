@@ -4946,7 +4946,7 @@ let GAME = load(LS_GAME, {});         // { emp: {spent, owned:[], equipped:{}} }
 let gameMe = load("opcare_gameme_v1", "");
 function gs(emp){ if(!GAME[emp]) GAME[emp]={spent:0,owned:[],equipped:{}}; return GAME[emp]; }
 /* ⭐ 별 — NPS 보상 화폐(코인과 별개).
- * 획득 = 2026년 11월부터 '끝난 달'의 NPS 응답 수 1위 횟수 + 별조각 100개 변환(g.starConv) · 사용 = g.starSpent
+ * 획득 = 2026년 11월부터 '끝난 달'의 NPS 응답 수 1위 횟수 + 별조각(낚시 + 고객응답 1건당 1개) 100개마다 1개 · 사용 = g.starSpent
  * 1위 횟수는 nps-data.js 에서 매번 계산 → 따로 저장하지 않아 모든 브라우저가 같은 값을 본다.
  * 1위 = 응답 수 최다, 같으면 평점(전반 만족도) 높은 쪽, 그래도 같으면 공동 1위(둘 다 지급). */
 const NPS_REWARD_FROM='2026-11';   // 별·타이틀 모두 11월 1위부터(사용자 결정 10/30 — 별도 10월 → 11월)
@@ -4963,7 +4963,12 @@ function npsMonthWinners(mk){
 function npsDoneMonths(){ const cur=ymd(new Date()).slice(0,7), out=[]; let [y,m]=NPS_REWARD_FROM.split('-').map(Number);
   for(;;){ const mk=y+'-'+String(m).padStart(2,'0'); if(mk>=cur) break; out.push(mk); if(++m>12){ m=1; y++; } } return out; }
 function npsWinMonths(emp){ return npsDoneMonths().filter(mk=>npsMonthWinners(mk).includes(emp)); }
-function starEarned(emp){ return npsWinMonths(emp).length+(gs(emp).starConv||0); }
+// 🌠 NPS 고객응답 1건 = 별조각 1개(2026년 11월 응답부터, 달이 안 끝나도 바로) — nps-data.js 에서 매번 계산(저장 안 함).
+// 조각 총합 = 낚시 조각(starConv×100 + starFrag) + 응답 조각 → 100개마다 별 1개, 나머지가 표시 조각.
+function npsRespFrag(emp){ const D=window.NPS_DATA; return D ? ((D.emps||{})[emp]||[]).filter(r=>r.d.slice(0,7)>=NPS_REWARD_FROM).length : 0; }
+function fragTotal(emp){ const g=gs(emp); return (g.starConv||0)*100+(g.starFrag||0)+npsRespFrag(emp); }
+function fragShown(emp){ return fragTotal(emp)%100; }
+function starEarned(emp){ return npsWinMonths(emp).length+Math.floor(fragTotal(emp)/100); }
 function starAvail(emp){ return Math.max(0, starEarned(emp)-(gs(emp).starSpent||0)); }
 // 별 아이템 보유 효과(착용 안 해도 적용) + 👑 왕별 세트(왕별 눈·왕별 펫·별똥별 배경 모두 보유)
 const STAR_SET=['eyes:ey_bigstar','pet:sp_star','bg:bg_meteor'];
@@ -5445,7 +5450,7 @@ async function buyOrEquip(cat,id){
   const emp=gameMe; if(!emp){ alert('먼저 상단에서 본인 이름을 선택하세요 🙂'); return; }
   const it=itemById(cat,id); if(!it) return; const g=gs(emp);
   if(!owns(emp,cat,id) && it.starPrice){   // ⭐ 별로 구매 — 코인과 같은 본인 인증·이중 결제 방지
-    if(starAvail(emp)<it.starPrice){ alert(`⭐ 별이 부족해요! (필요 ${it.starPrice}개 · 보유 ${starAvail(emp)}개)\n별은 매달 NPS 응답 수 1위, 또는 별조각 100개로 얻을 수 있어요.`); return; }
+    if(starAvail(emp)<it.starPrice){ alert(`⭐ 별이 부족해요! (필요 ${it.starPrice}개 · 보유 ${starAvail(emp)}개)\n별은 매달 NPS 응답 수 1위, 또는 별조각 100개로 얻을 수 있어요. (별조각: 고객응답 1건당 1개 · 낚시)`); return; }
     if(buyBusy) return; buyBusy=true;
     const authed=await requireAuth(emp);
     if(!authed || starAvail(emp)<it.starPrice || owns(emp,cat,id)){ buyBusy=false; return; }
@@ -5517,7 +5522,7 @@ async function npsGoStarShop(){ await selectCat('nps'); if(activeCat!=='nps') re
 // 별 상점이 NPS 탭으로 옮겨가 구매·해제·본인 선택 후에 '지금 보고 있는 탭'을 다시 그린다
 function renderShopHost(){ if(activeCat==='nps') renderNps(); else renderGame(); }
 function starShopSection(emp){
-  const frag=gs(emp).starFrag||0, wins=npsWinMonths(emp), set=hasStarSet(emp);
+  const frag=fragShown(emp), resp=npsRespFrag(emp), wins=npsWinMonths(emp), set=hasStarSet(emp);
   const list=[['eyes','ey_bigstar'],['eyes','ey_starheart'],['pet','sp_star'],['bg','bg_meteor']].map(([c,id])=>shopCard(c,itemById(c,id),emp)).join('');
   return `<div class="card star-shop">
     <div class="card-head"><h3>⭐ 별 상점 <span class="ss-tag">NPS 보상</span></h3><div class="ss-who">${npsWhoSel()}<button class="btn" onclick="unequipPart('bg')">배경 해제</button></div></div>
@@ -5525,7 +5530,7 @@ function starShopSection(emp){
       <div class="ss-stars"><span class="ss-big">⭐ ${starAvail(emp)}</span><span>보유 별</span></div>
       <div class="ss-frag"><div>🌠 별조각 <b>${frag}</b> / 100</div><div class="ss-bar"><i style="width:${Math.min(100,frag)}%"></i></div></div>
       <div class="ss-how">⭐ 매달 <b>NPS 응답 수 1위</b> → 별 1개 + [친절한] 타이틀 <small>(2026년 11월부터 · 달이 끝나면 지급 · 내 1위 ${wins.length}회</small><br>
-        🌠 <b>중급·고급 낚시터</b>에서 5% 확률로 별조각 · 100개 모이면 별 1개로 자동 변환<br>
+        🌠 <b>NPS 고객응답 1건</b>마다 별조각 1개 <small>(2026년 11월 응답부터 · 내 응답 조각 ${resp}개)</small> · <b>중급·고급 낚시터</b>에서 5% 확률로 별조각 · 100개 모이면 별 1개로 자동 변환<br>
         🪽 NPS 1위 누적 <b>6개월</b> → [천사🪽] 타이틀 <small>(11월부터 집계 · 내 ${npsTitleWins(emp).length}/6개월)</small></div>
     </div>
     <div class="shop-grid">${list}</div>
@@ -5718,10 +5723,11 @@ const CAT_KO={bg:'배경',title:'타이틀',nametag:'네임택',hat:'모자',pet
 function coinCap(v, cost){ return cost ? Math.min(v, cost) : v; }
 function resolveLoot(emp,out,cost){ const g=gs(emp);
   if(out.t==='frag'){   // 🌠 별조각 — 100개 모이면 별 1개로 자동 변환
-    const n=starPerk(emp).fragAmt||1; g.starFrag=(g.starFrag||0)+n; let conv=0;
-    while(g.starFrag>=100){ g.starFrag-=100; g.starConv=(g.starConv||0)+1; conv++; }
-    return conv ? {emoji:'⭐',big:'별 +'+conv+'개!',sub:'별조각 100개가 모여 ⭐ 별로 바뀌었어요! (조각 '+g.starFrag+'/100)',cls:'item',rarity:'unique'}
-                : {emoji:'🌠',big:'별조각 +'+n,sub:(out.starSaved?'🌟 [왕별] 별빛 구조! 꽝이 별조각으로 · ':'')+'별조각 '+g.starFrag+'/100 · 100개 모으면 ⭐ 별 1개'+(n>1?' · [왕별] 펫 2배!':''),cls:'item',rarity:'legendary'}; }
+    const n=starPerk(emp).fragAmt||1, before=Math.floor(fragTotal(emp)/100); g.starFrag=(g.starFrag||0)+n;
+    while(g.starFrag>=100){ g.starFrag-=100; g.starConv=(g.starConv||0)+1; }
+    const conv=Math.floor(fragTotal(emp)/100)-before, fragNow=fragShown(emp);
+    return conv ? {emoji:'⭐',big:'별 +'+conv+'개!',sub:'별조각 100개가 모여 ⭐ 별로 바뀌었어요! (조각 '+fragNow+'/100)',cls:'item',rarity:'unique'}
+                : {emoji:'🌠',big:'별조각 +'+n,sub:(out.starSaved?'🌟 [왕별] 별빛 구조! 꽝이 별조각으로 · ':'')+'별조각 '+fragNow+'/100 · 100개 모으면 ⭐ 별 1개'+(n>1?' · [왕별] 펫 2배!':''),cls:'item',rarity:'legendary'}; }
   if(out.t==='none'){ g.fishMiss=(g.fishMiss||0)+1; return {emoji:'🐚',big:'꽝!',sub:'빈 낚싯대... 다음 기회에!',cls:'miss'}; }   // 꽝 누적 카운트(💣 타이틀용)
   if(out.t==='coin'){ const perk=activePerk(emp); let n = randInt(out.min,out.max);
     if(n<0){   // 손실 결과: 추가 차감 없음 — 던질 때 낸 캐스트 비용만 소모됨
@@ -5877,7 +5883,7 @@ function renderGameFish(){
     ? `<div class="fish-petbar" style="background:#fff4d6;color:#8a5a08"><span class="fpb-emoji">👑</span><span>보유 타이틀 <b>${tn}개</b> 효과 · ${escapeHtml(perkDesc(tp))}</span></div>`
     : `<div class="fish-petbar" style="background:#f1f5f9;color:#64748b"><span class="fpb-emoji">👑</span><span>타이틀은 <b>보유만 해도</b> 낚시 능력치가 붙어요! (등급이 높을수록 강력)</span></div>`;
   const sp=starPerk(emp), spn=Object.keys(sp).length;
-  const starbar=`<div class="fish-petbar" style="background:linear-gradient(90deg,#fff7d6,#ffe9a8);color:#8a5a08"><span class="fpb-emoji">⭐</span><span>보유 별 <b>${starAvail(emp)}</b> · 🌠 별조각 <b>${gs(emp).starFrag||0}</b>/100 (중급·고급 5%)${spn?' · 별 아이템 효과 적용 중'+(hasStarSet(emp)?' · 👑 왕별 세트!':''):''}</span></div>`;
+  const starbar=`<div class="fish-petbar" style="background:linear-gradient(90deg,#fff7d6,#ffe9a8);color:#8a5a08"><span class="fpb-emoji">⭐</span><span>보유 별 <b>${starAvail(emp)}</b> · 🌠 별조각 <b>${fragShown(emp)}</b>/100 (중급·고급 5%)${spn?' · 별 아이템 효과 적용 중'+(hasStarSet(emp)?' · 👑 왕별 세트!':''):''}</span></div>`;
   document.getElementById("main").innerHTML=head+petbar+petownbar+titlebar+starbar+`<div class="fish-grid">${['low','mid','high'].map(k=>{ const f=FISH[k]; const locked=!fishGate(emp,f).ok; const cg=fishCastGate(emp,f);
     return `<div class="fish-spot fs-${k}">
       <div class="fs-emoji">${f.emoji}</div><div class="fs-name">${f.name}</div>
