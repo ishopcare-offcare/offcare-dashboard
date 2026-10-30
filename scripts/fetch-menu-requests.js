@@ -318,7 +318,9 @@ async function readMenuImage(dest) {
   try {
     const res = await client.messages.create({
       model: OCR_MODEL,
-      max_tokens: 4096,
+      // 메뉴 150개짜리 메뉴판은 JSON 이 4096 토큰을 넘어 잘린다(10/30 플렌루노 — 잘린 JSON 파싱 실패로 매 실행 재호출·과금).
+      // 대시보드 즉시판독(menu-ocr.gs)과 같은 16000 으로 맞춘다.
+      max_tokens: 16000,
       // thinking 은 붙이지 않는다. 같은 이미지로 실측했을 때 출력 토큰(802)·추출 결과(31/31)가
       // 완전히 동일한데 지연만 13.4s → 100.6s 로 늘었다. 10분 주기 크론이라 실행이 겹칠 위험이 크다.
       // (effort:'low' 는 유지 — 인식 작업에 필요 이상의 추론을 막는다)
@@ -331,7 +333,11 @@ async function readMenuImage(dest) {
     ocrUsd += inTok / 1e6 * OCR_PRICE.in + (u.output_tokens || 0) / 1e6 * OCR_PRICE.out;
     if (res.stop_reason === 'refusal') { console.log('판독 거부:', dest); return { kind: 'other', menu: [] }; }
     const text = (res.content.find((b) => b.type === 'text') || {}).text || '{}';
-    let parsed; try { parsed = JSON.parse(text); } catch (e) { console.log('판독 JSON 파싱 실패:', dest); return null; }
+    let parsed; try { parsed = JSON.parse(text); } catch (e) {
+      console.log('판독 JSON 파싱 실패:', dest, '(stop_reason=' + res.stop_reason + ')');
+      // 16000 으로도 잘렸으면 다시 불러도 똑같다 — 판독 불가로 굳혀 매 실행 재호출·과금을 막는다
+      return res.stop_reason === 'max_tokens' ? { bad: true } : null;
+    }
     const menu = (parsed.items || [])
       .map((x) => ({ category: scrubPII(String(x.category || '')).slice(0, 30),
                      name: scrubPII(String(x.name || '')).slice(0, 60),
