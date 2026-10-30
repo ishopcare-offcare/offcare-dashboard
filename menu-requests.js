@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4432,
- "updatedAt": "2026-10-30 17:25",
+ "version": 4433,
+ "updatedAt": "2026-10-30 17:34",
  "days": 30,
  "items": [
   {
@@ -88,11 +88,410 @@ window.MENU_REQUESTS = {
    "special": "긴급으로 요청드리며, 오류 발생으로 메일 발송했습니다.",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261030_164302168.png",
+     "fid": "F0CD1B0DF3R",
+     "from": "댓글",
+     "path": "menu-files/1793347444_963649-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "안주",
+       "name": "상큼한 제철과일",
+       "price": 28000
+      },
+      {
+       "category": "안주",
+       "name": "싱싱한 야채 set",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "오징어숙회",
+       "price": 17000
+      },
+      {
+       "category": "안주",
+       "name": "아보카도명란오이",
+       "price": 17000
+      },
+      {
+       "category": "안주",
+       "name": "피자 (갈릭/페페로니)",
+       "price": 17000
+      },
+      {
+       "category": "안주",
+       "name": "골뱅이쫄면",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "건강해지는 오리훈제",
+       "price": 25000
+      },
+      {
+       "category": "안주",
+       "name": "김삼두씨 (김치+삼겹살+두부)",
+       "price": 25000
+      },
+      {
+       "category": "안주",
+       "name": "불향 가득 오징어볶음",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "음~매 갈비찜 (550g~600g)",
+       "price": 38000
+      },
+      {
+       "category": "안주",
+       "name": "화끈하게 매운 무뼈 닭발",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "햄치즈롤",
+       "price": 18000
+      },
+      {
+       "category": "안주",
+       "name": "생율 with HONEY",
+       "price": 17000
+      },
+      {
+       "category": "안주",
+       "name": "오늘밤 치즈파티 (모둠치즈)",
+       "price": 30000
+      },
+      {
+       "category": "안주",
+       "name": "돈카스 양배추 탑 샐러드",
+       "price": 20000
+      },
+      {
+       "category": "안주",
+       "name": "전복버터구이 (당일한정메뉴)",
+       "price": 25000
+      },
+      {
+       "category": "안주",
+       "name": "애호박새우전 (당일한정메뉴)",
+       "price": 18000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_164302168_01.png",
+     "fid": "F0CD1B0S9GX",
+     "from": "댓글",
+     "path": "menu-files/1793347444_963649-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "탕류",
+       "name": "바지락 술찜",
+       "price": 18000
+      },
+      {
+       "category": "탕류",
+       "name": "오뎅탕",
+       "price": 20000
+      },
+      {
+       "category": "탕류",
+       "name": "김치찌개 (참치/돼지고기)",
+       "price": 20000
+      },
+      {
+       "category": "탕류",
+       "name": "추억의 국물떡볶이",
+       "price": 18000
+      },
+      {
+       "category": "탕류",
+       "name": "얼큰 해물짬뽕탕",
+       "price": 20000
+      },
+      {
+       "category": "탕류",
+       "name": "단백질 폭탄 번데기탕",
+       "price": 10000
+      },
+      {
+       "category": "탕류",
+       "name": "관절에 좋은 스지탕",
+       "price": 30000
+      },
+      {
+       "category": "튀김류",
+       "name": "바사삭 화이어윙 & 감자튀김",
+       "price": 18000
+      },
+      {
+       "category": "튀김류",
+       "name": "모듬 감자튀김",
+       "price": 12000
+      },
+      {
+       "category": "튀김류",
+       "name": "식감이 살아있는 해물동그랑땡",
+       "price": 15000
+      },
+      {
+       "category": "튀김류",
+       "name": "쥐포튀김",
+       "price": 5000
+      },
+      {
+       "category": "튀김류",
+       "name": "베토 (식빵 + 치즈 + 식빵에 베이컨으로 돌돌~)",
+       "price": 15000
+      },
+      {
+       "category": "튀김류",
+       "name": "추억의 분홍소세지",
+       "price": 10000
+      },
+      {
+       "category": "튀김류",
+       "name": "스팸 + 계란후라이",
+       "price": 15000
+      },
+      {
+       "category": "건어물류",
+       "name": "쥐포 + 땅콩",
+       "price": 12000
+      },
+      {
+       "category": "건어물류",
+       "name": "아귀포 + 땅콩 / 오징어 + 땅콩",
+       "price": 17000
+      },
+      {
+       "category": "건어물류",
+       "name": "모듬포 + 땅콩",
+       "price": 30000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_164302168_02.png",
+     "fid": "F0CDAFE39FV",
+     "from": "댓글",
+     "path": "menu-files/1793347444_963649-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "예약메뉴",
+       "name": "능이 오리백숙",
+       "price": 70000
+      },
+      {
+       "category": "예약메뉴",
+       "name": "능이 한방백숙",
+       "price": 70000
+      },
+      {
+       "category": "예약메뉴",
+       "name": "국물 닭도리탕",
+       "price": 30000
+      },
+      {
+       "category": "간단한 안주",
+       "name": "망고샤베트",
+       "price": 10000
+      },
+      {
+       "category": "간단한 안주",
+       "name": "파인애플샤베트",
+       "price": 8000
+      },
+      {
+       "category": "간단한 안주",
+       "name": "황도를 품은 베리친구들",
+       "price": 15000
+      },
+      {
+       "category": "사이드",
+       "name": "햇반",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "김가루밥",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "사리 (물만두, 라면, 쫄면, 우동)",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "레몬슬라이스",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "컵라면",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "누룽지",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "전자렌지 팝콘",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261030_164302168_03.png",
+     "fid": "F0CD1B2ETB9",
+     "from": "댓글",
+     "path": "menu-files/1793347444_963649-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "소주와 맥주",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "소주와 맥주",
+       "name": "맥주",
+       "price": 6000
+      },
+      {
+       "category": "소주와 맥주",
+       "name": "논알콜맥주",
+       "price": 4000
+      },
+      {
+       "category": "소주와 맥주",
+       "name": "한맥 450cc",
+       "price": 4000
+      },
+      {
+       "category": "소주와 맥주",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "소주와 맥주",
+       "name": "일품진로",
+       "price": 30000
+      },
+      {
+       "category": "음료와 차",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "음료와 차",
+       "name": "토닉워터",
+       "price": 3000
+      },
+      {
+       "category": "음료와 차",
+       "name": "헛개차 / 옥수수차",
+       "price": 3000
+      },
+      {
+       "category": "하이볼",
+       "name": "봄배이 1잔",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "피치트리 1잔",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "산토리 1잔",
+       "price": 8000
+      },
+      {
+       "category": "하이볼",
+       "name": "하이볼 세트",
+       "price": 100000
+      },
+      {
+       "category": "양주",
+       "name": "예거 (소)",
+       "price": 70000
+      },
+      {
+       "category": "양주",
+       "name": "예거 (대)",
+       "price": 100000
+      },
+      {
+       "category": "양주",
+       "name": "원저 17y (과일안주 포함)",
+       "price": 150000
+      },
+      {
+       "category": "양주",
+       "name": "골든블루 (과일안주 포함)",
+       "price": 150000
+      },
+      {
+       "category": "양주",
+       "name": "발렌타인 17y (과일 or 마른안주)",
+       "price": 280000
+      },
+      {
+       "category": "양주",
+       "name": "글렌피딕 12y (과일 or 마른안주)",
+       "price": 200000
+      },
+      {
+       "category": "양주",
+       "name": "글렌피딕 15y (과일 or 마른안주)",
+       "price": 280000
+      },
+      {
+       "category": "양주",
+       "name": "조니워커블루 (과일 or 마른안주)",
+       "price": 500000
+      },
+      {
+       "category": "양주",
+       "name": "로얄살루트 21y (과일 or 마른안주)",
+       "price": 500000
+      },
+      {
+       "category": "기타",
+       "name": "복분자술",
+       "price": 20000
+      },
+      {
+       "category": "기타",
+       "name": "연태고량주",
+       "price": 40000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793348284.851959",
+   "replies": [
+    "님 안녕하세요!\n해당 건 빠르게 요청주시어 등록 후 문자 발송 도와주실 수 있을까요~?",
+    "등록/솔라피전송 완료입니다"
+   ],
+   "rc": 2,
+   "lr": "1793349202.513079",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -65565,231 +65964,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790757377048219"
-  },
-  {
-   "ts": "1790757178.251279",
-   "date": "2026-09-30",
-   "time": "17:32",
-   "store": "필구커피",
-   "biz": "5504601268",
-   "pos": "토스포스",
-   "content": "없습니다",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/16D1eVMRXe6GQpwNqba579neiBxasCtYe/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "16D1eVMRXe6GQpwNqba579neiBxasCtYe",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "coffee",
-       "name": "에스프레소",
-       "price": 3500
-      },
-      {
-       "category": "coffee",
-       "name": "아메리카노",
-       "price": 4000
-      },
-      {
-       "category": "coffee",
-       "name": "카페라떼",
-       "price": 4500
-      },
-      {
-       "category": "coffee",
-       "name": "바닐라라떼",
-       "price": 5000
-      },
-      {
-       "category": "coffee",
-       "name": "카라멜 마끼야또",
-       "price": 5000
-      },
-      {
-       "category": "coffee",
-       "name": "초당옥수수크림라떼 (샷o)",
-       "price": 6500
-      },
-      {
-       "category": "non-coffee",
-       "name": "초당옥수수크림라떼 (샷x)",
-       "price": 6500
-      },
-      {
-       "category": "non-coffee",
-       "name": "초코라떼",
-       "price": 5000
-      },
-      {
-       "category": "non-coffee",
-       "name": "말차라떼",
-       "price": 5000
-      },
-      {
-       "category": "non-coffee",
-       "name": "토피넛라떼",
-       "price": 5500
-      },
-      {
-       "category": "beverage",
-       "name": "자몽에이드",
-       "price": 5500
-      },
-      {
-       "category": "beverage",
-       "name": "레몬에이드",
-       "price": 5500
-      },
-      {
-       "category": "beverage",
-       "name": "청포도에이드",
-       "price": 5500
-      },
-      {
-       "category": "beverage",
-       "name": "오미자에이드",
-       "price": 5500
-      },
-      {
-       "category": "beverage",
-       "name": "플레인요거트스무디",
-       "price": 5500
-      },
-      {
-       "category": "beverage",
-       "name": "블루베리요거트스무디",
-       "price": 6000
-      },
-      {
-       "category": "beverage",
-       "name": "딸기요거트스무디",
-       "price": 6000
-      },
-      {
-       "category": "tea",
-       "name": "유자차",
-       "price": 4500
-      },
-      {
-       "category": "tea",
-       "name": "청귤차",
-       "price": 4500
-      },
-      {
-       "category": "tea",
-       "name": "대추차",
-       "price": 5000
-      },
-      {
-       "category": "tea",
-       "name": "생강차",
-       "price": 5000
-      },
-      {
-       "category": "tea",
-       "name": "밀크티",
-       "price": 5000
-      },
-      {
-       "category": "tea",
-       "name": "아이스티",
-       "price": 4500
-      },
-      {
-       "category": "tea",
-       "name": "얼그레이",
-       "price": 4500
-      },
-      {
-       "category": "tea",
-       "name": "캐모마일",
-       "price": 4500
-      },
-      {
-       "category": "tea",
-       "name": "루이보스",
-       "price": 4500
-      },
-      {
-       "category": "dessert",
-       "name": "버터쿠키",
-       "price": 3500
-      },
-      {
-       "category": "dessert",
-       "name": "생강쿠키",
-       "price": 4000
-      },
-      {
-       "category": "dessert",
-       "name": "머랭쿠키",
-       "price": 9000
-      },
-      {
-       "category": "dessert",
-       "name": "뚱뚱이쿠키 초코",
-       "price": 4500
-      },
-      {
-       "category": "dessert",
-       "name": "뚱뚱이쿠키 말차",
-       "price": 4500
-      },
-      {
-       "category": "dessert",
-       "name": "뚱뚱이쿠키 황치즈",
-       "price": 4800
-      },
-      {
-       "category": "dessert",
-       "name": "뚱뚱이쿠키 레몬크림치즈",
-       "price": 4800
-      },
-      {
-       "category": "dessert",
-       "name": "뚱뚱이쿠키 오레오스모어",
-       "price": 4800
-      },
-      {
-       "category": "dessert",
-       "name": "뚱뚱이쿠키 로투스스모어",
-       "price": 4800
-      },
-      {
-       "category": "dessert",
-       "name": "바스크치즈케이크",
-       "price": 6800
-      },
-      {
-       "category": "dessert",
-       "name": "파블로바",
-       "price": 8500
-      },
-      {
-       "category": "dessert",
-       "name": "소금빵",
-       "price": 3500
-      },
-      {
-       "category": "dessert",
-       "name": "잠봉뵈르 소금빵",
-       "price": 6500
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790757178251279"
   }
  ],
  "ocr": {
