@@ -4799,7 +4799,7 @@ const GAME_ITEMS = {
     {id:'t_first',name:'1st',price:1,rarity:'mythic',ach:'first',autoGrant:true,desc:'일찍 일어나는 새가...',perk:{item:0.0025,keep:0.008},grad:'linear-gradient(90deg,#ffd60a,#fffbe6,#ffd60a,#ff9f0a)'},
     {id:'t_bomb',name:'💣',price:1,rarity:'legendary',ach:'bomb',autoGrant:true,desc:'심지는 이미 타들어가고 있다. 터질 때까지, 던지고 또 던질 뿐',perk:{item:0.002,miss:0.006},grad:'linear-gradient(90deg,#1c1c1e,#ff453a,#ff9f0a,#1c1c1e)'},
     {id:'t_bling',name:'여기서부터 저기까지 다주세요',price:1,rarity:'epic',ach:'bling',autoGrant:true,desc:'머리부터 발끝까지, 빛나지 않는 곳이 없다',perk:{item:0.0015,keep:0.005},grad:'linear-gradient(90deg,#ffd60a,#ff9ff3,#4ea8ff,#ffd60a)'},
-    {id:'t_star',name:'⭐',price:1,rarity:'mythic',ach:'star',autoGrant:true,desc:'모든 칭호 위에 떠오른, 단 하나의 별',perk:{item:0.0025,miss:0.004,keep:0.004},grad:'linear-gradient(90deg,#0a1a4a,#4ea8ff,#fffbe6,#ffd60a,#0a1a4a)'},
+    {id:'t_star',name:'⭐',price:1,rarity:'mythic',ach:'star',autoGrant:true,emojiScale:1.4,desc:'고객이 건넨 별 하나하나가 모여, 마침내 머리 위의 왕관으로 빛나는 별',perk:{item:0.0025,miss:0.004,keep:0.004},grad:'linear-gradient(90deg,#0a1a4a,#4ea8ff,#fffbe6,#ffd60a,#0a1a4a)'},
     {id:'t_angler',name:'세월을 낚은',price:1,rarity:'mythic',ach:'angler',autoGrant:true,desc:'찌 끝에 걸린 것은 물고기가 아니라, 흘러간 시간이었다',perk:{item:0.0025,casts:2},grad:'linear-gradient(90deg,#0a3d62,#00c7be,#4ea8ff,#0a3d62)'},
     {id:'t_kind',name:'친절한',price:1,rarity:'legendary',ach:'kind',autoGrant:true,desc:'고객이 먼저 알아본 따뜻함. 한 달 동안 가장 많은 고객 응답을 받은 상담사',perk:{item:0.002,keep:0.006},grad:'linear-gradient(90deg,#ff7aa8,#ffb347,#ff7aa8)'},
     // 천사: 2026-10-29 부터 낚시터 구매 → NPS 응답 수 1위 누적 6개월 달성으로 획득 방식 변경. 이미 산 사람은 그대로 보유(사용자 결정).
@@ -5241,7 +5241,7 @@ function genderModal(){ return `<div id="genderPop" class="duty-pop-overlay"><di
 function showGenderModal(){ if(!gameMe) return; genderDismissed=false; const o=document.getElementById('genderPop'); if(o) o.remove(); document.body.insertAdjacentHTML('beforeend', genderModal()); }
 // 타이틀 등급별 폰트색·후광
 function titleStyleOf(t){ if(!t) return ''; if(t.grad){ // 이모지 전용 타이틀은 background-clip:text가 검정 실루엣으로 깨짐 → 네이티브 이모지 + 발광
-    if(/^[\p{Extended_Pictographic}\u{FE0F}\u{200D}\u{20E3}\s]+$/u.test(t.name||'')){ const glow={mythic:'#ffd60a',legendary:'#ff453a',epic:'#ffe14d'}[t.rarity]||'#ffd60a'; return `filter:drop-shadow(0 0 4px ${glow}) drop-shadow(0 0 10px ${glow})`; }
+    if(/^[\p{Extended_Pictographic}\u{FE0F}\u{200D}\u{20E3}\s]+$/u.test(t.name||'')){ const glow={mythic:'#ffd60a',legendary:'#ff453a',epic:'#ffe14d'}[t.rarity]||'#ffd60a'; return `filter:drop-shadow(0 0 4px ${glow}) drop-shadow(0 0 10px ${glow})`+(t.emojiScale?`;font-size:${t.emojiScale}em;line-height:1.1`:''); }   // emojiScale: 이모지 타이틀 크기 배율(⭐ 1.4)
     // 전설 이상 등급은 그라데이션 텍스트에 발광 효과 추가 (drop-shadow는 클리핑된 글리프 픽셀 기준이라 안전)
     const gl={mythic:';filter:drop-shadow(0 0 5px rgba(255,214,10,.9)) drop-shadow(0 0 13px rgba(255,214,10,.5))',legendary:';filter:drop-shadow(0 0 5px rgba(255,159,10,.85)) drop-shadow(0 0 13px rgba(255,159,10,.45))'}[t.rarity]||'';
     return `background:${t.grad};-webkit-background-clip:text;background-clip:text;color:transparent`+gl; } const map={common:'color:#6b7280',rare:'color:#1a73e8;text-shadow:0 0 6px rgba(26,115,232,.55)',epic:'color:#9c36b5;text-shadow:0 0 8px rgba(156,54,181,.6)',legendary:'color:#e8820a;text-shadow:0 0 10px rgba(232,130,10,.8)'}; return map[t.rarity]||map.common; }
