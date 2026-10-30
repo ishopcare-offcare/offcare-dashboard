@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27546,
+  "version": 27547,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292816,10 +292816,25 @@ window.SLACK_DATA = {
         "onboarding": {
           "고경림": 1,
           "김동욱": 1
+        },
+        "booking": {
+          "고경림": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:28",
+          "store": "까치불백",
+          "biz": "3753501040",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "쿠팡이츠 주문접수 프로그램 설치 후 로그인한 사진 1장 / 쿠팡이츠 도어 스티커가 부착 된 매장 외관사진 1장",
+          "hw": "",
+          "intake": "online",
+          "note": "<tel:010-3410-****|010-3410-**** 010-3410-**** / 11시 예약요청 • 예약완료 예약완료",
+          "rr": 2
+        },
         {
           "time": "09:27",
           "store": "샤랄랄라키즈카페",
@@ -292882,7 +292897,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 0,
         "unknown": 0
       },
@@ -293028,21 +293043,14 @@ window.SLACK_DATA = {
       },
       "1793318411.644649": {
         "post": "1793318411.644649",
-        "lastSeen": 1793320343.38,
+        "lastSeen": 1793320431.099,
         "r": 1,
         "day": "2026-10-30",
         "idx": 1
       },
-      "1793320080.219149": {
-        "post": "1793320080.219149",
-        "lastSeen": 1793320343.38,
-        "r": 1,
-        "day": "2026-10-30",
-        "idx": 4
-      },
       "1793320202.694909": {
         "post": "1793320202.694909",
-        "lastSeen": 1793320343.38
+        "lastSeen": 1793320431.099
       }
     },
     "days": {
@@ -401474,14 +401482,15 @@ window.SLACK_DATA = {
             "store": "까치불백",
             "biz": "3753501040",
             "who": "고경림",
-            "cat": "delivery"
+            "cat": "booking",
+            "dmin": 5.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:32",
+    "at": "2026-10-30 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401625,7 +401634,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:32",
+    "at": "2026-10-30 09:33",
     "pri": {
       "days": 0,
       "failed": [],

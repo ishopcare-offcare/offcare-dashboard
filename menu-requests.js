@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4390,
- "updatedAt": "2026-10-30 09:01",
+ "version": 4391,
+ "updatedAt": "2026-10-30 09:34",
  "days": 30,
  "items": [
   {
@@ -66615,45 +66615,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790728478516029"
-  },
-  {
-   "ts": "1790728456.330009",
-   "date": "2026-09-30",
-   "time": "09:34",
-   "store": "꾸버스피자 기흥역점",
-   "biz": "3032024457",
-   "pos": "퍼스트포스",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "소바다 메뉴 LIST (1).xlsx",
-     "fid": "F0C5A6X7EAX",
-     "from": "댓글",
-     "path": "menu-files/1790728456_330009-0.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "소바다 메뉴 LIST.xlsx",
-     "fid": "F0C5L41CB7W",
-     "from": "댓글",
-     "path": "menu-files/1790728456_330009-1.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "메뉴 전체 삭제 후 등록 요청 / 확인 후 필요한 건 다시 접수하신다고 함",
-    "완료 / 솔라피 발송"
-   ],
-   "rc": 4,
-   "lr": "1790729239.452509",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790728456330009"
   }
  ],
  "ocr": {
