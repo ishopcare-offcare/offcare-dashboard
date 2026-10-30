@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4412,
- "updatedAt": "2026-10-30 14:06",
+ "version": 4413,
+ "updatedAt": "2026-10-30 14:08",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261026_091423.jpeg[1].jpg",
      "fid": "F0CD92ZSKC3",
      "from": "댓글",
-     "path": "menu-files/1793335334_272309-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -77,13 +76,13 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793335334_272309-0.jpg"
     },
     {
      "name": "Resized_20261026_091420.jpeg[1].jpg",
      "fid": "F0CDF4BF1J6",
      "from": "댓글",
-     "path": "menu-files/1793335334_272309-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -127,13 +126,14 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793335334_272309-1.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1793335358.805609",
+   "rc": 3,
+   "lr": "1793336868.614849",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -1325,8 +1325,8 @@ window.MENU_REQUESTS = {
    "rc": 3,
    "lr": "1793269030.114999",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793263203319139"
   },
   {
