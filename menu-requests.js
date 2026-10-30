@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4398,
- "updatedAt": "2026-10-30 10:34",
+ "version": 4399,
+ "updatedAt": "2026-10-30 11:27",
  "days": 30,
  "items": [
   {
@@ -66472,30 +66472,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790736744911709"
-  },
-  {
-   "ts": "1790735251.157419",
-   "date": "2026-09-30",
-   "time": "11:27",
-   "store": "온천천고기주는밀면",
-   "biz": "6732101781",
-   "pos": "퍼스트포스",
-   "content": "메뉴 추가 요청드립니다 ! (유플러스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• 칼국수 카테고리 내\n    ◦ 칼만두 9,500원\n    ◦ 칼만두 곱빼기 10,500원\n    ◦ 매운칼국수 10,500원\n    ◦ 매운칼국수 곱빼기 11,500원",
-    "완료 이후 문자 한통 부탁드리겠습니다 :감사합니다꾸벅:"
-   ],
-   "rc": 5,
-   "lr": "1790736214.732639",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790735251157419"
   }
  ],
  "ocr": {
