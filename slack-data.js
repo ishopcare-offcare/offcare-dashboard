@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27570,
+  "version": 27571,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292807,8 +292807,8 @@ window.SLACK_DATA = {
     "2026-10-30": {
       "counts": {
         "as": {
+          "박하림": 2,
           "김동욱": 3,
-          "박하림": 1,
           "고경림": 2
         },
         "extern": {
@@ -292827,6 +292827,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:07",
+          "store": "미객",
+          "biz": "3385601099",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "주방프린터기 불은 들어오는데 전원이 안켜지신다하여 점검부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:04",
           "store": "기생(KI SAENG)",
@@ -292973,11 +292984,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:10",
+      "updatedAt": "10:25",
       "voc": {
         "responses": 1,
         "install": {
@@ -293167,17 +293178,14 @@ window.SLACK_DATA = {
       },
       "1793321100.977709": {
         "post": "1793321100.977709",
-        "lastSeen": 1793323142.702,
+        "lastSeen": 1793323526.359,
         "r": 1,
         "day": "2026-10-30",
         "idx": 5
       },
-      "1793322427.683399": {
-        "post": "1793322427.683399",
-        "lastSeen": 1793323142.702,
-        "r": 1,
-        "day": "2026-10-30",
-        "idx": 10
+      "1793323522.153339": {
+        "post": "1793323522.153339",
+        "lastSeen": 1793323526.359
       }
     },
     "days": {
@@ -401663,14 +401671,15 @@ window.SLACK_DATA = {
             "store": "미객",
             "biz": "3385601099",
             "who": "박하림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 15.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-30 10:19",
+    "at": "2026-10-30 10:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401814,7 +401823,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 10:19",
+    "at": "2026-10-30 10:25",
     "pri": {
       "days": 0,
       "failed": [],
