@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-10-29 14:07 KST
+ *  갱신: 2026-10-30 20:26 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-10-29 14:07',
+  updatedAt : '2026-10-30 20:26',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -58,5 +58,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-10-29","time":"08:03","store":"컴포즈커피 강남보건소점","branch":"강남보건소점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"영수증은 출력 되는데 주문서가 안나옴","note":""},
     {"date":"2026-10-29","time":"08:03","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"영수증은 출력 되는데 주문서가 안나옴","note":""},
     {"date":"2026-10-29","time":"14:00","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"서상원","intake":"online","status":"done","req":"컴포즈 사당역점/ 포스 주문건의 경우, 주문서 2장 출력되었으나 현재 1장 출력된다고 하시어 점검 요청드립니다!","note":"고객용주문서 off 되어있음"},
+    {"date":"2026-10-30","time":"20:16","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"배선유","intake":"online","status":"done","req":"/토스포스 포인트 적립 시 다른 매장으로 나와 확인 요청드립니다.","note":"키오스크 주문건 / 20:05 아이스아메리카노 신대방역점이 아닌 강남보건소점에 스탬프 적립이 되었다는 고객 제보"},
   ],
 };
