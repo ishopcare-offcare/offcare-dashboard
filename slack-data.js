@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27549,
+  "version": 27550,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -282579,7 +282579,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 프린터 교체 안내 및 입출고 접수 완료입니다 프린터 교체 안내 및 입출고 접수 완료입니다",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "14:20",
@@ -292814,8 +292814,8 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "onboarding": {
-          "고경림": 1,
-          "김동욱": 1
+          "김동욱": 2,
+          "고경림": 1
         },
         "booking": {
           "고경림": 1
@@ -292873,6 +292873,18 @@ window.SLACK_DATA = {
         },
         {
           "time": "09:00",
+          "store": "손이가요 땅콩빵",
+          "biz": "1570203909",
+          "cat": "onboarding",
+          "emp": "김동욱",
+          "req": "포스기에 세팅 원격요청 희망",
+          "hw": "",
+          "intake": "online",
+          "note": "5분 뒤 통화요청 / 포프유프(apexa) 온보딩 완료",
+          "rr": 2
+        },
+        {
+          "time": "09:00",
           "store": "신화영농조합법인",
           "biz": "3088143014",
           "cat": "onboarding",
@@ -292897,7 +292909,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 0,
         "unknown": 0
       },
@@ -293041,16 +293053,9 @@ window.SLACK_DATA = {
         "post": "1793286393.147989",
         "lastSeen": 1793304935.323
       },
-      "1793318411.644649": {
-        "post": "1793318411.644649",
-        "lastSeen": 1793320710.57,
-        "r": 1,
-        "day": "2026-10-30",
-        "idx": 1
-      },
       "1793320202.694909": {
         "post": "1793320202.694909",
-        "lastSeen": 1793320710.57
+        "lastSeen": 1793320783.357
       }
     },
     "days": {
@@ -401456,7 +401461,8 @@ window.SLACK_DATA = {
             "store": "손이가요 땅콩빵",
             "biz": "1570203909",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 38.9
           },
           {
             "hm": "09:06",
@@ -401490,7 +401496,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:39",
+    "at": "2026-10-30 09:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401634,7 +401640,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:38",
+    "at": "2026-10-30 09:39",
     "pri": {
       "days": 0,
       "failed": [],
@@ -401646,7 +401652,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 130,
+      "budgetLeft": 129,
       "failed": []
     }
   }
