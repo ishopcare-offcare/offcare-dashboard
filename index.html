@@ -4682,9 +4682,9 @@ function renderNps(){
   const kpi=(lab,val,sub)=>`<div class="nps-kpi"><div class="nps-kpi-lab">${lab}</div><div class="nps-kpi-val">${val}</div>${sub?`<div class="nps-kpi-sub">${sub}</div>`:''}</div>`;
   const kpis=`<div class="nps-kpis">${kpi('응답 수', all.length.toLocaleString()+'건', `${ranked.filter(s=>s.n).length}명 응답 받음 · 0건 ${ranked.filter(s=>!s.n).length}명`)}${kpi('팀 평점', npsFmt(npsAvg(q1))+'<small> / 10</small>', '전반 만족도 평균')}
     ${kpi('팀 NPS', q1.length?Math.round((tPro-tDet)/q1.length*100):'-', `추천 ${tPro} · 비추천 ${tDet}`)}${kpi('고객 의견', all.filter(r=>r.c).length+'건', '의견을 남긴 응답')}</div>`;
-  // 🏆 1위 보상 — 확정된 달(10월부터) + 이번 달 현재 1위
+  // 🏆 1위 보상 — 확정된 달(11월부터) + 이번 달 현재 1위
   const curMk=ymd(new Date()).slice(0,7), lead=npsMonthWinners(curMk), done=npsDoneMonths().map(mk=>({mk, w:npsMonthWinners(mk)})).filter(x=>x.w.length);
-  const reward=`<div class="nps-reward"><span class="nr-ic">🏆</span><div><b>매달 NPS 응답 수 1위</b> → ⭐ 별 1개 + [친절한] 타이틀<small>(11월부터)</small> · 1위 누적 6개월 → [천사🪽] 타이틀 <small>(타이틀은 11월부터 · 별은 10월부터 · 별은 아래 ⭐ 별 상점에서 사용)</small>
+  const reward=`<div class="nps-reward"><span class="nr-ic">🏆</span><div><b>매달 NPS 응답 수 1위</b> → ⭐ 별 1개 + [친절한] 타이틀 · 1위 누적 6개월 → [천사🪽] 타이틀 <small>(2026년 11월부터 · 별은 아래 ⭐ 별 상점에서 사용)</small>
     <div class="nr-now">이번 달 현재 1위 <b>${lead.length?lead.map(escapeHtml).join(' · '):'-'}</b> <small>(달이 끝나면 확정)</small>${done.length?' · 확정 '+done.map(x=>(+x.mk.slice(5))+'월 '+x.w.map(escapeHtml).join('·')).join(' / '):''}</div></div></div>`;
   const sel = ranked.find(s=>s.emp===npsSel) || ranked[0];
   const rows=ranked.map((s,i)=>`<tr class="${sel&&s.emp===sel.emp?'on':''}" onclick="setNpsSel('${escapeHtml(s.emp)}')">
@@ -4946,11 +4946,11 @@ let GAME = load(LS_GAME, {});         // { emp: {spent, owned:[], equipped:{}} }
 let gameMe = load("opcare_gameme_v1", "");
 function gs(emp){ if(!GAME[emp]) GAME[emp]={spent:0,owned:[],equipped:{}}; return GAME[emp]; }
 /* ⭐ 별 — NPS 보상 화폐(코인과 별개).
- * 획득 = 2026년 10월부터 '끝난 달'의 NPS 응답 수 1위 횟수 + 별조각 100개 변환(g.starConv) · 사용 = g.starSpent
+ * 획득 = 2026년 11월부터 '끝난 달'의 NPS 응답 수 1위 횟수 + 별조각 100개 변환(g.starConv) · 사용 = g.starSpent
  * 1위 횟수는 nps-data.js 에서 매번 계산 → 따로 저장하지 않아 모든 브라우저가 같은 값을 본다.
  * 1위 = 응답 수 최다, 같으면 평점(전반 만족도) 높은 쪽, 그래도 같으면 공동 1위(둘 다 지급). */
-const NPS_REWARD_FROM='2026-10';
-const NPS_TITLE_FROM='2026-11';   // NPS 타이틀([친절한]·[천사🪽])은 11월 1위부터 센다(사용자 결정 10/29) — 별만 10월부터
+const NPS_REWARD_FROM='2026-11';   // 별·타이틀 모두 11월 1위부터(사용자 결정 10/30 — 별도 10월 → 11월)
+const NPS_TITLE_FROM='2026-11';   // NPS 타이틀([친절한]·[천사🪽])도 11월 1위부터 — 지금은 NPS_REWARD_FROM 과 같다
 function npsTitleWins(emp){ return npsWinMonths(emp).filter(m=>m>=NPS_TITLE_FROM); }
 function npsMonthWinners(mk){
   const D=window.NPS_DATA; if(!D) return [];
@@ -5524,7 +5524,7 @@ function starShopSection(emp){
     <div class="ss-wallet">
       <div class="ss-stars"><span class="ss-big">⭐ ${starAvail(emp)}</span><span>보유 별</span></div>
       <div class="ss-frag"><div>🌠 별조각 <b>${frag}</b> / 100</div><div class="ss-bar"><i style="width:${Math.min(100,frag)}%"></i></div></div>
-      <div class="ss-how">⭐ 매달 <b>NPS 응답 수 1위</b> → 별 1개 <small>(2026년 10월부터)</small> + [친절한] 타이틀 <small>(11월부터) · 달이 끝나면 지급 · 내 1위 ${wins.length}회</small><br>
+      <div class="ss-how">⭐ 매달 <b>NPS 응답 수 1위</b> → 별 1개 + [친절한] 타이틀 <small>(2026년 11월부터 · 달이 끝나면 지급 · 내 1위 ${wins.length}회</small><br>
         🌠 <b>중급·고급 낚시터</b>에서 5% 확률로 별조각 · 100개 모이면 별 1개로 자동 변환<br>
         🪽 NPS 1위 누적 <b>6개월</b> → [천사🪽] 타이틀 <small>(11월부터 집계 · 내 ${npsTitleWins(emp).length}/6개월)</small></div>
     </div>
