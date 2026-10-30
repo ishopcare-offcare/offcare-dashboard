@@ -4852,7 +4852,7 @@ const GAME_ITEMS = {
     {id:'ey_sharp',name:'날카로운',price:80,rarity:'rare',es:'sharp'},
     {id:'ey_heart',name:'하트눈',price:200,rarity:'epic',es:'heart',fishOnly:true},
     // ⭐ 별 상점 전용(starPrice) — price 는 '기본 보유'(price 0)로 오인되지 않게 1 로 둔다. sp = 별 아이템 보유 효과.
-    {id:'ey_bigstar',name:'왕별 눈',price:1,starPrice:1,rarity:'unique',es:'bigstar',sp:{nowait:true},spDesc:'고급 낚시터 입질 대기(30초) 없이 바로 결과',desc:'눈 속에 은하가 통째로 들어앉았다'},
+    {id:'ey_bigstar',name:'왕별 눈',price:1,starPrice:1,rarity:'unique',es:'bigstar',sp:{freeCast:0.15},spDesc:'낚싯대를 던질 때마다 15% 확률로 캐스트 비용 전액 환급',desc:'눈 속에 은하가 통째로 들어앉았다'},
     {id:'ey_starheart',name:'하트 눈장식',price:1,starPrice:1,rarity:'unique',es:'starheart',sp:{fragUp:0.02},spDesc:'별조각 확률 +2%p',desc:'반짝이는 하트가 눈가를 수놓는다. 보는 사람마다 사랑에 빠진다'},
   ],
   brows: [
@@ -4934,11 +4934,11 @@ const GAME_ITEMS = {
     // 돌고래(0.08/0.05/0.005)와 총합을 비슷하게 맞췄다. 신화 인어(miss 0.06)보다 miss 만 높고 나머지는 낮다.
     {id:'fp_frog',name:'개구리',price:550,e:'🐸',rarity:'legendary',fishOnly:true,perk:{miss:0.07,keep:0.05,item:0.004}},
     {id:'fp_mermaid',name:'인어',price:850,e:'🧜‍♀️',rarity:'mythic',fishOnly:true,perk:{keep:0.10,item:0.006,miss:0.06}},
-    {id:'sp_star',name:'왕별',price:1,starPrice:5,e:'🌟',rarity:'unique',sp:{fragAmt:2},spDesc:'별조각이 한 번에 2개씩',wear:{starSave:0.20},wearDesc:'꽝이 나오면 20% 확률로 별조각으로 바뀜 (별빛 구조)',desc:'밤하늘에서 내려와 곁을 지키는 작은 왕별'},
+    {id:'sp_star',name:'왕별',price:1,starPrice:5,e:'🌟',rarity:'unique',sp:{fragAmt:2},spDesc:'별조각이 한 번에 2개씩',wear:{starSave:0.10},wearDesc:'꽝이 나오면 10% 확률로 별조각으로 바뀜 (별빛 구조)',desc:'밤하늘에서 내려와 곁을 지키는 작은 왕별'},
   ],
   // 🌌 배경 — 별 상점 전용 카테고리. 캐릭터 뒤 하늘에 별똥별이 떨어진다 (2026-10-29 탈것 아이템을 대체)
   bg: [
-    {id:'bg_meteor',name:'별똥별 배경',price:1,starPrice:10,e:'🌠',rarity:'unique',sp:{freeCast:0.15},spDesc:'낚싯대를 던질 때마다 15% 확률로 캐스트 비용 전액 환급',desc:'캐릭터 뒤 밤하늘로 별똥별이 쉼 없이 쏟아진다. 소원은 이미 이루어졌다'},
+    {id:'bg_meteor',name:'별똥별 배경',price:1,starPrice:10,e:'🌠',rarity:'unique',sp:{nowait:true},spDesc:'고급 낚시터 입질 대기(30초) 없이 바로 결과',desc:'캐릭터 뒤 밤하늘로 별똥별이 쉼 없이 쏟아진다. 소원은 이미 이루어졌다'},
   ],
 };
 const LS_GAME = "opcare_game_v1";
@@ -5599,7 +5599,7 @@ const FISH = {
 let fishBusy=false;
 // 낚시 대기(쿨다운): 캐스팅 후 이 시간이 지나야 결과 확인. 초급·중급 즉시 / 고급 30초. 서버(FISHWAIT)에 저장.
 const FISH_WAIT = {low:0, mid:0, high:30*1000};
-function fishWaitFor(emp,spot){ return (spot==='high' && emp && starPerk(emp).nowait) ? 0 : (FISH_WAIT[spot]||0); }   // ⭐ [왕별 눈]: 고급 대기 없음
+function fishWaitFor(emp,spot){ return (spot==='high' && emp && starPerk(emp).nowait) ? 0 : (FISH_WAIT[spot]||0); }   // ⭐ [별똥별 배경]: 고급 대기 없음 (10/30 왕별 눈과 효과 맞바꿈)
 function fishWaitLabel(spot){ const ms=FISH_WAIT[spot]||0; if(ms<=0) return '즉시'; const s=Math.round(ms/1000); return s<60?s+'초':Math.round(s/60)+'분'; }
 const LS_FISHWAIT = "opcare_fishwait_v1";
 let FISHWAIT = load(LS_FISHWAIT, {});   // { "emp|spot": castAtMs }
@@ -5763,7 +5763,7 @@ async function castFish(spot){
     const n=(gs(emp).pendN&&gs(emp).pendN[spot])||castCount(emp);
     fishBusy=true; stopFishTick(); clearFishCast(emp,spot); showFishing(f,n);
     const res=rollCasts(emp,f,n); if(gs(emp).pendN) delete gs(emp).pendN[spot];
-    const pf=gs(emp).pendFree&&gs(emp).pendFree[spot]; if(pf){ res.push({emoji:'🌠',big:'캐스트 비용 환급 +'+pf+' 코인',sub:'[별똥별 배경] 유성 찬스! 이번 캐스팅은 공짜였어요',cls:'coin',rarity:'legendary'}); delete gs(emp).pendFree[spot]; }
+    const pf=gs(emp).pendFree&&gs(emp).pendFree[spot]; if(pf){ res.push({emoji:'🌠',big:'캐스트 비용 환급 +'+pf+' 코인',sub:'[왕별 눈] 유성 찬스! 이번 캐스팅은 공짜였어요',cls:'coin',rarity:'legendary'}); delete gs(emp).pendFree[spot]; }
     saveGame();
     setTimeout(()=>{ showFishResults(res); renderMain(); fishBusy=false; }, 1200);
     return;
@@ -5782,10 +5782,10 @@ async function castFish(spot){
   const authed=await requireAuth(emp);
   if(!authed || empAvail(emp)<cost){ fishBusy=false; if(authed) short(); return; }
   addSpent(emp, cost); gs(emp).fishCasts=(gs(emp).fishCasts||0)+n; saveGame();   // 캐스팅 누적(세월을 낚은 타이틀용)
-  // 🌠 [별똥별 배경] 유성 찬스: 던질 때마다 확률로 캐스트 비용 전액 환급
+  // 🌠 [왕별 눈] 유성 찬스: 던질 때마다 확률로 캐스트 비용 전액 환급
   const fc=starPerk(emp).freeCast, freed=(fc && Math.random()<fc) ? cost : 0;
   if(freed){ addSpent(emp, -freed); saveGame(); }
-  const freeRes=c=>({emoji:'🌠',big:'캐스트 비용 환급 +'+c+' 코인',sub:'[별똥별 배경] 유성 찬스! 이번 캐스팅은 공짜예요',cls:'coin',rarity:'legendary'});
+  const freeRes=c=>({emoji:'🌠',big:'캐스트 비용 환급 +'+c+' 코인',sub:'[왕별 눈] 유성 찬스! 이번 캐스팅은 공짜예요',cls:'coin',rarity:'legendary'});
   if(fishWaitFor(emp,spot)<=0){   // 대기 0(초급·중급, 왕별 눈 보유 시 고급) → 던지자마자 바로 결과
     showFishing(f,n);   // fishBusy 는 위에서 이미 켜 뒀다
     const res=rollCasts(emp,f,n); if(freed) res.push(freeRes(freed)); saveGame();
