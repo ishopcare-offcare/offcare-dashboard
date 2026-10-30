@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4394,
- "updatedAt": "2026-10-30 09:50",
+ "version": 4395,
+ "updatedAt": "2026-10-30 10:01",
  "days": 30,
  "items": [
   {
@@ -66499,29 +66499,6 @@ window.MENU_REQUESTS = {
    "status": "dup",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790730641583279"
-  },
-  {
-   "ts": "1790729870.991309",
-   "date": "2026-09-30",
-   "time": "09:57",
-   "store": "스시집막내아들",
-   "biz": "6113101308",
-   "pos": "기타",
-   "content": "튀김류 탭\n모듬튀김 18000원으로 가격수정\n새우튀김 2p 4500원으로 가격수정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "모듬새우 11p 15,500 -> 18,000\n왕새우튀김 2p 4,000 -> 4,500"
-   ],
-   "rc": 1,
-   "lr": "1790730123.173369",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729870991309"
   }
  ],
  "ocr": {
