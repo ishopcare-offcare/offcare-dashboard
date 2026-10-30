@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4391,
- "updatedAt": "2026-10-30 09:34",
+ "version": 4392,
+ "updatedAt": "2026-10-30 09:37",
  "days": 30,
  "items": [
   {
@@ -66568,53 +66568,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729120124599"
-  },
-  {
-   "ts": "1790728609.426919",
-   "date": "2026-09-30",
-   "time": "09:36",
-   "store": "느린시간",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 느린시간 메뉴입니다.\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0efbb9dedc8c97>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0efbb9dedc8c97",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790728609426919"
-  },
-  {
-   "ts": "1790728478.516029",
-   "date": "2026-09-30",
-   "time": "09:34",
-   "store": "느린시간",
-   "biz": "2014401474",
-   "pos": "토스포스",
-   "content": "메뉴를 메일로 방금 보냈어요",
-   "special": "이미지는 어제 메일로 보냈어요",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790728478516029"
   }
  ],
  "ocr": {
