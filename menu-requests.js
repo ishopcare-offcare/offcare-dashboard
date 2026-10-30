@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4426,
- "updatedAt": "2026-10-30 16:47",
+ "version": 4427,
+ "updatedAt": "2026-10-30 17:05",
  "days": 30,
  "items": [
+  {
+   "ts": "1793347444.963649",
+   "date": "2026-10-30",
+   "time": "17:04",
+   "store": "벙포차",
+   "biz": "4275201197",
+   "pos": "토스포스",
+   "content": "메뉴판 발송",
+   "special": "긴급으로 요청드리며, 오류 발생으로 메일 발송했습니다.",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793347444963649"
+  },
   {
    "ts": "1793339243.291239",
    "date": "2026-10-30",
@@ -65722,27 +65743,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790756172229279"
-  },
-  {
-   "ts": "1790755435.183439",
-   "date": "2026-09-30",
-   "time": "17:03",
-   "store": "전라도밥집",
-   "biz": "5385200071",
-   "pos": "기타",
-   "content": "불고기전골 가격43000원으로 변경해주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790755435183439"
   }
  ],
  "ocr": {
