@@ -3,10 +3,142 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4408,
- "updatedAt": "2026-10-30 13:39",
+ "version": 4409,
+ "updatedAt": "2026-10-30 13:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1793335334.272309",
+   "date": "2026-10-30",
+   "time": "13:42",
+   "store": "하늘마루",
+   "biz": "3091203305",
+   "pos": "",
+   "content": "신규 매장 메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261026_091423.jpeg[1].jpg",
+     "fid": "F0CD92ZSKC3",
+     "from": "댓글",
+     "path": "menu-files/1793335334_272309-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "식사. Side",
+       "name": "하누 불고기 잡채",
+       "price": 10000
+      },
+      {
+       "category": "식사. Side",
+       "name": "치즈 양념 돈까스",
+       "price": 13000
+      },
+      {
+       "category": "식사. Side",
+       "name": "매운 나베 돈까스",
+       "price": 12000
+      },
+      {
+       "category": "식사. Side",
+       "name": "떡볶이",
+       "price": 5000
+      },
+      {
+       "category": "식사. Side",
+       "name": "우동",
+       "price": 6000
+      },
+      {
+       "category": "식사. Side",
+       "name": "쫄볶이",
+       "price": 6000
+      },
+      {
+       "category": "식사. Side",
+       "name": "라면",
+       "price": 4500
+      },
+      {
+       "category": "식사. Side",
+       "name": "모듬튀김",
+       "price": 6000
+      },
+      {
+       "category": "식사. Side",
+       "name": "오뎅",
+       "price": 5000
+      },
+      {
+       "category": "식사. Side",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261026_091420.jpeg[1].jpg",
+     "fid": "F0CDF4BF1J6",
+     "from": "댓글",
+     "path": "menu-files/1793335334_272309-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "김밥",
+       "name": "해초진미",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "한우불고기",
+       "price": 6500
+      },
+      {
+       "category": "김밥",
+       "name": "묵은지참치",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "진짜새우튀김",
+       "price": 6500
+      },
+      {
+       "category": "김밥",
+       "name": "하늘마루",
+       "price": 4000
+      },
+      {
+       "category": "김밥",
+       "name": "스팸계란",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "샐러드",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "화끈한",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793335358.805609",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793335334272309"
+  },
   {
    "ts": "1793335084.360449",
    "date": "2026-10-30",
