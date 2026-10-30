@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27553,
+  "version": 27554,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292806,11 +292806,11 @@ window.SLACK_DATA = {
     },
     "2026-10-30": {
       "counts": {
-        "extern": {
+        "as": {
+          "고경림": 2,
           "김동욱": 1
         },
-        "as": {
-          "고경림": 1,
+        "extern": {
           "김동욱": 1
         },
         "onboarding": {
@@ -292823,6 +292823,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:36",
+          "store": "꽃순",
+          "biz": "2159363064",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "주문서 설정하셨으나 출력이 안된다하여 점검부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재 / 키오스크 활성화 방법문의 • 키오스크 활성화방법 안내완료 키오스크 활성화방법 안내완료",
+          "rr": 2
+        },
         {
           "time": "09:28",
           "store": "까치불백",
@@ -292909,7 +292921,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
@@ -293055,15 +293067,15 @@ window.SLACK_DATA = {
       },
       "1793320202.694909": {
         "post": "1793320202.694909",
-        "lastSeen": 1793321209.796
+        "lastSeen": 1793321282.398
       },
       "1793321100.977709": {
         "post": "1793321100.977709",
-        "lastSeen": 1793321209.796
+        "lastSeen": 1793321282.398
       },
       "1793321101.204369": {
         "post": "1793321101.204369",
-        "lastSeen": 1793321209.796
+        "lastSeen": 1793321282.398
       }
     },
     "days": {
@@ -401504,7 +401516,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:47",
+    "at": "2026-10-30 09:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401648,7 +401660,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:46",
+    "at": "2026-10-30 09:48",
     "pri": {
       "days": 0,
       "failed": [],
