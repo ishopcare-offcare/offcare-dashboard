@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4392,
- "updatedAt": "2026-10-30 09:37",
+ "version": 4393,
+ "updatedAt": "2026-10-30 09:45",
  "days": 30,
  "items": [
   {
@@ -66547,27 +66547,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729346677329"
-  },
-  {
-   "ts": "1790729120.124599",
-   "date": "2026-09-30",
-   "time": "09:45",
-   "store": "롯데리아 일산 킨텍스점",
-   "biz": "1283678917",
-   "pos": "퍼스트포스",
-   "content": "레모네이드 단품 2900원 -> 2700원 변경, 햄버거 세트에 있는 레모네이드들 800원 -> 600원으로 변경 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1790729662.837169",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790729120124599"
   }
  ],
  "ocr": {
