@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4395,
- "updatedAt": "2026-10-30 10:01",
+ "version": 4396,
+ "updatedAt": "2026-10-30 10:10",
  "days": 30,
  "items": [
   {
@@ -66475,30 +66475,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790735251157419"
-  },
-  {
-   "ts": "1790730641.583279",
-   "date": "2026-09-30",
-   "time": "10:10",
-   "store": "스시집 막내아들",
-   "biz": "6113101308",
-   "pos": "퍼스트포스",
-   "content": "메뉴 가격 수정 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "새우튀김  4500원\n모듬튀김  18000원",
-    "님, 안녕하세요..! 오우 대표님이 채널톡으로 요청을 한 번 더 주신 거라 중복으로 처리 하시면 될 것 같아요 :감사콩:"
-   ],
-   "rc": 4,
-   "lr": "1790730985.828519",
-   "rfx": 3,
-   "status": "dup",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790730641583279"
   }
  ],
  "ocr": {
