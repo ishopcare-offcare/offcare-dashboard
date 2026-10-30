@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4437,
- "updatedAt": "2026-10-30 18:07",
+ "version": 4438,
+ "updatedAt": "2026-10-30 18:08",
  "days": 30,
  "items": [
   {
@@ -63203,7 +63203,160 @@ window.MENU_REQUESTS = {
    ],
    "files": 0,
    "att": [],
-   "datt": [],
+   "datt": [
+    {
+     "id": "1-33iQ-TFCsWi7UpnhOThj18JJ1RzyI1D",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "국물안주",
+       "name": "소곱창내장전골",
+       "price": 17000
+      },
+      {
+       "category": "국물안주",
+       "name": "해물백짬뽕",
+       "price": 17000
+      },
+      {
+       "category": "국물안주",
+       "name": "햄김치찌개",
+       "price": 17000
+      },
+      {
+       "category": "국물안주",
+       "name": "햄가득부대찌개 (라면사리 포함)",
+       "price": 17000
+      },
+      {
+       "category": "국물안주",
+       "name": "김치 오뎅 전골",
+       "price": 16000
+      },
+      {
+       "category": "국물안주",
+       "name": "참치김치찌개",
+       "price": 16000
+      },
+      {
+       "category": "국물안주",
+       "name": "오뎅탕",
+       "price": 15000
+      },
+      {
+       "category": "마른안주",
+       "name": "반건조오징어",
+       "price": 16000
+      },
+      {
+       "category": "마른안주",
+       "name": "먹태",
+       "price": 15000
+      },
+      {
+       "category": "마른안주",
+       "name": "패스츄리오징어 (단짠 단짠 영화관 오징어)",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "마른오징어",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "앤치노가리 (통째로 씹어먹는 아기노가리)",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "쥐포",
+       "price": 12000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "깍두기양밥 + 육개장사발면",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "새우볶음밥 + 육개장사발면",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "김치볶음밥 + 육개장사발면",
+       "price": 10000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "요쿠르트 샤베트",
+       "price": 7000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "아이스황도",
+       "price": 6000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "짜파게티 + 계란 + 치즈",
+       "price": 6000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "계란라면 (얼라면 or 진라면)",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "외부음식 (메뉴 1개당)",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "콜키지",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "볶음밥",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "우동·칼국수·중화면 사리",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "카펠리니면",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "즉석밥",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "육개장 사발면",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "소면·라면사리",
+       "price": 1000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "계란후라이",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "replies": [],
    "rc": 0,
    "lr": "",
