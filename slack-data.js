@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27572,
+  "version": 27573,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292861,7 +292861,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "현재 주방에 8385에 렌선 꽂아져있음 . 프린터 와이파이나 무선으로 변경진행해야 될것가타서 ob로 통화요청",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "09:45",
@@ -292989,7 +292989,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:25",
+      "updatedAt": "10:29",
       "voc": {
         "responses": 1,
         "install": {
@@ -293179,17 +293179,21 @@ window.SLACK_DATA = {
       },
       "1793321100.977709": {
         "post": "1793321100.977709",
-        "lastSeen": 1793323685.496,
+        "lastSeen": 1793323764.314,
         "r": 1,
         "day": "2026-10-30",
         "idx": 5
       },
       "1793323522.153339": {
         "post": "1793323522.153339",
-        "lastSeen": 1793323685.496,
+        "lastSeen": 1793323764.314,
         "r": 1,
         "day": "2026-10-30",
         "idx": 11
+      },
+      "1793323742.831669": {
+        "post": "1793323742.831669",
+        "lastSeen": 1793323764.314
       }
     },
     "days": {
@@ -401691,7 +401695,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 10:28",
+    "at": "2026-10-30 10:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401835,7 +401839,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 10:28",
+    "at": "2026-10-30 10:29",
     "pri": {
       "days": 0,
       "failed": [],
