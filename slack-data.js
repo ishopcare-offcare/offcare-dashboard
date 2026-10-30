@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27540,
+  "version": 27541,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -293001,14 +293001,17 @@ window.SLACK_DATA = {
       },
       "1793318411.644649": {
         "post": "1793318411.644649",
-        "lastSeen": 1793319876.626,
+        "lastSeen": 1793319941.331,
         "r": 1,
         "day": "2026-10-30",
         "idx": 1
       },
       "1793319112.961909": {
         "post": "1793319112.961909",
-        "lastSeen": 1793319876.626
+        "lastSeen": 1793319941.331,
+        "r": 1,
+        "day": "2026-10-30",
+        "idx": 3
       }
     },
     "days": {
@@ -401395,8 +401398,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-30": {
-        "cnt": 3,
-        "sumMin": 5.079207547505697,
+        "cnt": 4,
+        "sumMin": 18.346150728066764,
         "over": 0,
         "items": [
           {
@@ -401424,13 +401427,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 4.1
+          },
+          {
+            "hm": "09:11",
+            "min": 13.3,
+            "store": "유앤미스킨앤바디",
+            "biz": "4082420981",
+            "who": "고경림",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-30 09:24",
+    "at": "2026-10-30 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401574,7 +401585,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 09:24",
+    "at": "2026-10-30 09:25",
     "pri": {
       "days": 0,
       "failed": [],
