@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4389,
- "updatedAt": "2026-10-30 08:31",
+ "version": 4390,
+ "updatedAt": "2026-10-30 09:01",
  "days": 30,
  "items": [
   {
@@ -66654,49 +66654,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790728456330009"
-  },
-  {
-   "ts": "1790725768.078679",
-   "date": "2026-09-30",
-   "time": "08:49",
-   "store": "스몰굿커피 문정점",
-   "biz": "6412901913",
-   "pos": "토스포스",
-   "content": "<@U08HHP6TV39> 님 이미지 파일 메일로 전달 드렸습니다~\n```안녕하세요, 매니저님.\n문정점 토스 신메뉴 카테고리에 해당메뉴 추가 부탁드립니다.\n감사합니다.\n빅 메뉴 카테고리의 이미지는 일반 메뉴 이미지와 동일합니다.\n메뉴명에 맞는 이미지로 업로드 부탁드립니다.\n\n-스몰굿커피 최봄이 매니저-```",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "치즈밀크폼 피치우롱티 500PX.png",
-     "fid": "F0C5B146P45",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790725768_078679-0.png"
-    },
-    {
-     "name": "치즈밀크폼 로얄밀크티 500PX.png",
-     "fid": "F0C50S6ERBR",
-     "from": "댓글",
-     "kind": "product_photo",
-     "menu": [],
-     "path": "menu-files/1790725768_078679-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "원래 이렇게 많이 메뉴작업을 해주나요.....?ㅎㅎ\n몇 번 째인지 헤아릴수 조차 없네여ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-    "신메뉴 카테고리에 새로나온 메뉴를 추가하겠다는 뜻 아닐까용????",
-    "아하",
-    "그러네^^"
-   ],
-   "rc": 12,
-   "lr": "1790726966.849749",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790725768078679"
   }
  ],
  "ocr": {
