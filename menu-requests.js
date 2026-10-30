@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4406,
- "updatedAt": "2026-10-30 13:35",
+ "version": 4407,
+ "updatedAt": "2026-10-30 13:38",
  "days": 30,
  "items": [
   {
@@ -66362,56 +66362,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743710102899"
-  },
-  {
-   "ts": "1790743012.600649",
-   "date": "2026-09-30",
-   "time": "13:36",
-   "store": "묘리사주타로",
-   "biz": "2815001184",
-   "pos": "토스포스",
-   "content": "가격표 제출",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1CIB86rFOSJZE8o4NmQpbCytbjQwphUoA/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1CIB86rFOSJZE8o4NmQpbCytbjQwphUoA",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "간단 타로",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "심화 타로",
-       "price": 30000
-      },
-      {
-       "category": "",
-       "name": "사주",
-       "price": 50000
-      },
-      {
-       "category": "",
-       "name": "궁합",
-       "price": 80000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743012600649"
   }
  ],
  "ocr": {
