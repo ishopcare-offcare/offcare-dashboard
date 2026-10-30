@@ -62,12 +62,10 @@
   /* 게임/낚시터 흰 버튼은 다크에서도 밝게 유지(가독성) */
   :root[data-theme="dark"] .fs-btn,:root[data-theme="dark"] .fr-cast{background:#eaeaf0;color:#123}
   /* 강조 하이라이트 카드는 다크에서 톤 다운(밝은 파스텔 유지 방지) */
-  :root[data-theme="dark"] .hl-card.blue{background:linear-gradient(155deg,#1a2740,#141a26);border-color:#25406b}
-  :root[data-theme="dark"] .hl-card.gold{background:linear-gradient(155deg,#332a12,#241f13);border-color:#5c4a1f}
-  :root[data-theme="dark"] .hl-card.mint{background:linear-gradient(155deg,#123028,#0f231d);border-color:#1e5545}
-  :root[data-theme="dark"] .hl-card.blue .hl-big{color:#5aa9ff}
-  :root[data-theme="dark"] .hl-card.gold .hl-big{color:#ffb340}
-  :root[data-theme="dark"] .hl-card.mint .hl-big{color:#4fe07a}
+  :root[data-theme="dark"] .hl-card.blue{background:linear-gradient(155deg,#0b3fa8,#0a2a6e);border-color:transparent}
+  :root[data-theme="dark"] .hl-card.gold{background:linear-gradient(155deg,#a34a05,#6e3104);border-color:transparent}
+  :root[data-theme="dark"] .hl-card.mint{background:linear-gradient(155deg,#0a6b42,#06452b);border-color:transparent}
+  :root[data-theme="dark"] .hl-card.plum{background:linear-gradient(155deg,#4b23a8,#2f1570);border-color:transparent}
   /* 다크: 천국(직원) 랭킹은 밝은 카드(반짝임 유지) → 글자를 어둡게 해 가독성 확보 */
   :root[data-theme="dark"] .rank-item.light{background:#ffffff; border-color:#e6eeff}
   /* 흰 랭킹 항목 위 → 어둡게 */
@@ -148,10 +146,29 @@
   @media (max-width:1240px){ .headline{grid-template-columns:repeat(2,1fr)} }
   .hl-card{border-radius:20px; padding:18px 20px; border:1.5px solid transparent; position:relative; overflow:hidden; transition:transform .15s}
   .hl-card:hover{transform:translateY(-2px)}
-  .hl-card.blue{background:linear-gradient(155deg,#e9f2ff,#f6faff); border-color:#d5e6ff}
-  .hl-card.gold{background:linear-gradient(155deg,#fff5db,#fffdf4); border-color:#ffe6a8}
-  .hl-card.mint{background:linear-gradient(155deg,#e4faef,#f4fffa); border-color:#c3efd7}
-  .hl-card.plum{background:linear-gradient(155deg,#f3ecff,#faf7ff); border-color:#e0d2ff}   /* 소요시간 */
+  /* 전체현황 4박스 — 진한 단색 카드 + 흰 글씨 (파스텔이 흐릿하다는 의견 10/30) */
+  .hl-card.blue{background:linear-gradient(155deg,#1f6bff,#0a46c9); border-color:transparent}
+  .hl-card.gold{background:linear-gradient(155deg,#e0820b,#b85a04); border-color:transparent}
+  .hl-card.mint{background:linear-gradient(155deg,#15a365,#0b7748); border-color:transparent}
+  .hl-card.plum{background:linear-gradient(155deg,#8150e8,#5a2bc2); border-color:transparent}   /* 소요시간 */
+  .headline .hl-card{color:#fff; box-shadow:0 6px 18px rgba(0,0,0,.12)}
+  .headline .hl-card .hl-lab{color:rgba(255,255,255,.88)}
+  .headline .hl-card .hl-big, .headline .hl-card.blue .hl-big, .headline .hl-card.gold .hl-big, .headline .hl-card.mint .hl-big{color:#fff}
+  .headline .hl-card .hl-big small{color:rgba(255,255,255,.75)}
+  .headline .hl-card.mint .hl-big > span[style], .headline .hl-card.plum .hl-big > span[style]{color:rgba(255,255,255,.8)!important}
+  .headline .hl-card .ov-delta, .headline .hl-card .ov-delta span, .headline .hl-card .ov-delta.flat{color:rgba(255,255,255,.8)}
+  .headline .hl-card .ov-delta.up{color:#b9f6ca} .headline .hl-card .ov-delta.down{color:#ffd0d0}
+  .headline .hl-card .hl-trend{border-top-color:rgba(255,255,255,.25)}
+  .headline .hl-card .hl-trend-row .tl, .headline .hl-card .hl-trend-row .tc, .headline .hl-card .hl-trend-row .tv small, .headline .hl-card .hl-trend-row .tv-none{color:rgba(255,255,255,.78)}
+  .headline .hl-card .hl-trend-row .tv{color:#fff}
+  .headline .hl-card .hl-trend-row .tv.pend{color:#ffe08a}
+  .headline .hl-card .hl-trend-row.clickable:hover{background:rgba(255,255,255,.14)}
+  .headline .hl-card.clickable:hover{box-shadow:0 12px 28px rgba(0,0,0,.2)}
+  /* MVP: 타이틀·이름은 각자 색이 있어 흰 칩 위에 올려 가독성 유지 */
+  #mvpCard .hl-big{display:inline-block; background:rgba(255,255,255,.95); border-radius:14px; padding:6px 14px; margin-top:6px; color:#1d1d1f}
+  #mvpCard .mvp-proc{background:rgba(255,255,255,.18)}
+  #mvpCard .mvp-proc:hover{background:rgba(255,255,255,.3)}
+  #mvpCard .mvp-proc b, #mvpCard .mvp-proc small, #mvpCard .mvp-proc-hint{color:#fff}
   /* 관리자 보정 — 직원별 표 우측 하단 */
   .adj-foot{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:12px}
   .adj-note{font-size:12px; color:var(--gray2); font-weight:600}
