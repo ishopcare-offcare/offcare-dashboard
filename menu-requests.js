@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4410,
- "updatedAt": "2026-10-30 13:54",
+ "version": 4411,
+ "updatedAt": "2026-10-30 13:56",
  "days": 30,
  "items": [
   {
@@ -66291,37 +66291,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790745930779889"
-  },
-  {
-   "ts": "1790744193.172249",
-   "date": "2026-09-30",
-   "time": "13:56",
-   "store": "바부각시네뜨락",
-   "biz": "4423100606",
-   "pos": "퍼스트포스",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "IMG_7013.heic",
-     "fid": "F0C5G5D4QUE",
-     "from": "댓글",
-     "path": "menu-files/1790744193_172249-0.heic",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "ice 메뉴는 모두 hot 메뉴와 가격동일하게 요청하셨습니다"
-   ],
-   "rc": 2,
-   "lr": "1790744239.859889",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790744193172249"
   }
  ],
  "ocr": {
