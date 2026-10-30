@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4402,
- "updatedAt": "2026-10-30 12:48",
+ "version": 4403,
+ "updatedAt": "2026-10-30 12:54",
  "days": 30,
  "items": [
   {
@@ -66393,45 +66393,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790741972244189"
-  },
-  {
-   "ts": "1790740357.731879",
-   "date": "2026-09-30",
-   "time": "12:52",
-   "store": "사실빙 충북대점",
-   "biz": "1155401056",
-   "pos": "",
-   "content": "현재 등록메뉴 삭제 후 엑셀파일 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_c6379e866733.xlsx",
-     "fid": "F0C5CEFLZ61",
-     "from": "댓글",
-     "path": "menu-files/1790740357_731879-0.xlsx",
-     "nj": 1
-    },
-    {
-     "name": "f_ec1393dad74c.xlsx",
-     "fid": "F0C5MBM97J8",
-     "from": "댓글",
-     "path": "menu-files/1790740357_731879-1.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "원래 기존에도 토스포스 사용 중 이셨습니다!!",
-    "선유님! 2번째 파일에 금액 있습니다!!"
-   ],
-   "rc": 17,
-   "lr": "1790835160.410739",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790740357731879"
   }
  ],
  "ocr": {
