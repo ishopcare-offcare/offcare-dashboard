@@ -3,10 +3,38 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4431,
- "updatedAt": "2026-10-30 17:21",
+ "version": 4432,
+ "updatedAt": "2026-10-30 17:25",
  "days": 30,
  "items": [
+  {
+   "ts": "1793348660.928499",
+   "date": "2026-10-30",
+   "time": "17:24",
+   "store": "플렌루노(PLENLUNO)",
+   "biz": "2643001707",
+   "pos": "",
+   "content": "신규 설치 예정 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_1793343548458.png",
+     "fid": "F0CDEQUVCJJ",
+     "from": "댓글",
+     "path": "menu-files/1793348660_928499-0.png"
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793348680.154419",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793348660928499"
+  },
   {
    "ts": "1793348246.191089",
    "date": "2026-10-30",
@@ -66,8 +94,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1793348284.851959",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793347444963649"
   },
   {
