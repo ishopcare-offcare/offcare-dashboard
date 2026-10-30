@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 27573,
+  "version": 27574,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -292811,6 +292811,9 @@ window.SLACK_DATA = {
           "김동욱": 3,
           "고경림": 2
         },
+        "nosetup": {
+          "고경림": 1
+        },
         "extern": {
           "김동욱": 1
         },
@@ -292861,6 +292864,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "현재 주방에 8385에 렌선 꽂아져있음 . 프린터 와이파이나 무선으로 변경진행해야 될것가타서 ob로 통화요청",
+          "rr": 2
+        },
+        {
+          "time": "09:45",
+          "store": "고수의운전면허 천안신불당점",
+          "biz": "8164700846",
+          "cat": "nosetup",
+          "emp": "고경림",
+          "req": "포프(pc) 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "<tel:010-7542-****|010-7542-**** 010-7542-**** / 포프(pc) 온보딩완료",
           "rr": 2
         },
         {
@@ -292985,11 +293000,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:29",
+      "updatedAt": "10:30",
       "voc": {
         "responses": 1,
         "install": {
@@ -293177,23 +293192,20 @@ window.SLACK_DATA = {
         "post": "1793286393.147989",
         "lastSeen": 1793304935.323
       },
-      "1793321100.977709": {
-        "post": "1793321100.977709",
-        "lastSeen": 1793323764.314,
-        "r": 1,
-        "day": "2026-10-30",
-        "idx": 5
-      },
       "1793323522.153339": {
         "post": "1793323522.153339",
-        "lastSeen": 1793323764.314,
+        "lastSeen": 1793323828.86,
         "r": 1,
         "day": "2026-10-30",
         "idx": 11
       },
       "1793323742.831669": {
         "post": "1793323742.831669",
-        "lastSeen": 1793323764.314
+        "lastSeen": 1793323828.86
+      },
+      "1793323800.175739": {
+        "post": "1793323800.175739",
+        "lastSeen": 1793323828.86
       }
     },
     "days": {
@@ -401635,7 +401647,8 @@ window.SLACK_DATA = {
             "store": "고수의운전면허 천안신불당점",
             "biz": "8164700846",
             "who": "고경림",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 44.9
           },
           {
             "hm": "09:56",
@@ -401695,7 +401708,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-30 10:29",
+    "at": "2026-10-30 10:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -401839,7 +401852,7 @@ window.SLACK_DATA = {
     "2026-10-30": 2
   },
   "noteMig": {
-    "at": "2026-10-30 10:29",
+    "at": "2026-10-30 10:30",
     "pri": {
       "days": 0,
       "failed": [],
