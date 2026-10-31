@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28128,
+  "version": 28129,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296211,7 +296211,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:04",
+      "updatedAt": "15:19",
       "absent": [
         {
           "time": "14:30",
@@ -296239,25 +296239,30 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 1,
+        "responses": 6,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 6,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 1
+          "nps": 5
         },
         "npsDist": {
-          "10": 1
+          "8": 1,
+          "10": 5
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "1개월": {
+            "total": 5,
+            "low": 0
+          },
           "3개월": {
             "total": 1,
             "low": 0
@@ -296265,13 +296270,46 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KOCES": {
+            "total": 4,
+            "low": 0
+          },
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
+          "KSNET": {
             "total": 1,
             "low": 0
           }
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:19",
+            "store": "도림",
+            "storeId": "688612",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "와이파이 문제만 없댜면 만족합니다 디자인도 이쁘고 빠른화면전환 매출정보 등 사장으로서 보고싶은 화면이 잘되어 있어요 고객관리도 잘 이용하면 도움 될것같아요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "15:19",
+            "store": "에이치티에이치(HTH)홍태형수학전문학원",
+            "storeId": "684581",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 8,
+            "text": "사용법이 조금 어려워서 초반에 조금 어려웠지만 지금은 잘쓰고 있어요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -296408,28 +296446,28 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793427502.835,
+        "lastSeen": 1793427603.746,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793427502.835,
+        "lastSeen": 1793427603.746,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426280.467349": {
         "post": "1793426280.467349",
-        "lastSeen": 1793427502.835,
+        "lastSeen": 1793427603.746,
         "r": 1,
         "day": "2026-10-31",
         "idx": 24
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793427502.835,
+        "lastSeen": 1793427603.746,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406728,7 +406766,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:19",
+    "at": "2026-10-31 15:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406873,7 +406911,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:18",
+    "at": "2026-10-31 15:20",
     "pri": {
       "days": 0,
       "failed": [],
