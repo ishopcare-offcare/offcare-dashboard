@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28150,
+  "version": 28151,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,8 +295716,8 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
+          "김기범": 2,
           "고경림": 13,
-          "김기범": 1,
           "김동욱": 18
         },
         "booking": {
@@ -295737,6 +295737,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:43",
+          "store": "잔틈",
+          "biz": "1122466596",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "브라켓 직접 설치 후 모니터 전원 ON 시도 시 전원이 안들어온다고 해서 확인 요청 드립니다!",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "15:42",
           "store": "산체스 단골집",
@@ -296269,7 +296280,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 40,
-        "offline": 8,
+        "offline": 9,
         "unknown": 0
       },
       "updatedAt": "15:59",
@@ -296663,21 +296674,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793430082.62,
+        "lastSeen": 1793430617.796,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793430082.62,
+        "lastSeen": 1793430617.796,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793430082.62,
+        "lastSeen": 1793430617.796,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406977,7 +406988,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 16:01",
+    "at": "2026-10-31 16:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407122,7 +407133,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 16:01",
+    "at": "2026-10-31 16:10",
     "pri": {
       "days": 0,
       "failed": [],
