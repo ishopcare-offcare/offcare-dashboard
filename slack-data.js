@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28027,
+  "version": 28028,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 6
+          "김동욱": 7
         },
         "onboarding": {
           "김동욱": 2
@@ -295727,6 +295727,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:44",
+          "store": "갤러리 플라워즈",
+          "biz": "3331401959",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "오케이포스 사용 중이신 것 같습니다. 키오스크 메뉴 추가 및 삭제 진행 하시려는 것 같은데 권한만 풀어주면 본인이 하시겠다고 하시고, 메뉴키 위치 바꾸는 등 수정 방법 문의 주셔서 통화 부탁 드립니다!",
+          "hw": "",
+          "intake": "offline",
+          "note": "키오스크 X 포스 판매터치키수정방법 안내완료",
+          "rr": 1
+        },
         {
           "time": "10:35",
           "store": "카페 율정",
@@ -295838,7 +295850,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 6,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "10:44"
@@ -406082,7 +406094,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 10:46",
+    "at": "2026-10-31 10:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406227,7 +406239,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 10:46",
+    "at": "2026-10-31 10:50",
     "pri": {
       "days": 0,
       "failed": [],
