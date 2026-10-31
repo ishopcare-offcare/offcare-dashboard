@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28017,
+  "version": 28018,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295715,18 +295715,30 @@ window.SLACK_DATA = {
     },
     "2026-10-31": {
       "counts": {
+        "as": {
+          "김동욱": 4
+        },
         "onboarding": {
           "김동욱": 2
         },
         "booking": {
           "김동욱": 1
-        },
-        "as": {
-          "김동욱": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:06",
+          "store": "진미닭집",
+          "biz": "5929201861",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "매장 인터넷에 문제가 없는데 단말기로 결제 시 인터넷 연결이 안되어있다는 문구가 뜨며 결제가 불가하다고 하십니다. 원격 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "모뎀과 공유기 선을 잘못연결하심",
+          "rr": 1
+        },
         {
           "time": "10:00",
           "store": "다듬",
@@ -295802,7 +295814,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "10:06"
@@ -295967,13 +295979,6 @@ window.SLACK_DATA = {
       "1793372442.753609": {
         "post": "1793372442.753609",
         "lastSeen": 1793391330.86
-      },
-      "1793408783.712869": {
-        "post": "1793408783.712869",
-        "lastSeen": 1793409329.159,
-        "r": 1,
-        "day": "2026-10-31",
-        "idx": 2
       }
     },
     "days": {
@@ -406049,14 +406054,15 @@ window.SLACK_DATA = {
             "store": "진미닭집",
             "biz": "5929201861",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 12.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-31 10:15",
+    "at": "2026-10-31 10:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406201,7 +406207,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 10:15",
+    "at": "2026-10-31 10:22",
     "pri": {
       "days": 0,
       "failed": [],
