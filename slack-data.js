@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28179,
+  "version": 28180,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296358,7 +296358,7 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "17:12",
+      "updatedAt": "17:20",
       "absent": [
         {
           "time": "15:00",
@@ -296394,13 +296394,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 23,
+        "responses": 24,
         "install": {
           "count": 7,
           "low": 1
         },
         "nps": {
-          "count": 23,
+          "count": 24,
           "low": 3
         },
         "high": {
@@ -296412,7 +296412,7 @@ window.SLACK_DATA = {
           "1": 1,
           "5": 1,
           "7": 2,
-          "8": 3,
+          "8": 4,
           "9": 2,
           "10": 13
         },
@@ -296430,7 +296430,7 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "1개월": {
-            "total": 10,
+            "total": 11,
             "low": 1
           },
           "구매설치": {
@@ -296451,6 +296451,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 2,
+            "low": 1
+          },
           "KOCES": {
             "total": 6,
             "low": 0
@@ -296466,10 +296470,6 @@ window.SLACK_DATA = {
           "KCP": {
             "total": 1,
             "low": 0
-          },
-          "KPN": {
-            "total": 1,
-            "low": 1
           },
           "KSNET": {
             "total": 2,
@@ -296563,6 +296563,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "17:20",
+            "store": "원모어",
+            "storeId": "684678",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 8,
+            "text": "설치방법이나 문제 해결 방법이 잘 나와있지만, 그냥 해줬으면 좋겠다는 생각이 사실 많이 들었습니다. 읽는것 자체가 귀찮고 읽어도 뭐라하는지 모르겠고 더 적나라하게 말하자면 알고 싶지 않은 마음이 더 큽니다. 저는 직원시켜서 설치하고 문제가 발생했을때도 영상통화로 해결했는데 빠르고 즉각적이긴 하나 많이 귀찮네요.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:25",
             "store": "희지네포차",
@@ -296762,32 +296774,32 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793434709.486,
+        "lastSeen": 1793434817.533,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793434709.486,
+        "lastSeen": 1793434817.533,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793434709.486,
+        "lastSeen": 1793434817.533,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
       },
       "1793433832.674219": {
         "post": "1793433832.674219",
-        "lastSeen": 1793434709.486
+        "lastSeen": 1793434817.533
       },
       "1793434170.091159": {
         "post": "1793434170.091159",
-        "lastSeen": 1793434709.486,
+        "lastSeen": 1793434817.533,
         "r": 1,
         "day": "2026-10-31",
         "idx": 30
@@ -407122,7 +407134,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 17:19",
+    "at": "2026-10-31 17:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407267,7 +407279,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 17:18",
+    "at": "2026-10-31 17:20",
     "pri": {
       "days": 0,
       "failed": [],
