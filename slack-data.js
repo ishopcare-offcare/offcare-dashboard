@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28136,
+  "version": 28137,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295746,7 +295746,8 @@ window.SLACK_DATA = {
           "req": "유프 연결 설정 및 용지 방향 이상 없으나 결제 영수증 출력 시 용지가 짧게만 나오고 출력이 안된다고 하셔서 확인 부탁 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "용지 테스트 용지로 하셔서 방향이 바뀜 용지 약관용지로 교체 정상 출력",
+          "rr": 1
         },
         {
           "time": "15:03",
@@ -296235,7 +296236,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:30",
+      "updatedAt": "15:34",
       "absent": [
         {
           "time": "15:00",
@@ -296271,13 +296272,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
           "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 12,
+          "count": 13,
           "low": 2
         },
         "high": {
@@ -296287,7 +296288,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "1": 1,
-          "8": 1,
+          "8": 2,
           "9": 2,
           "10": 7
         },
@@ -296304,6 +296305,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 2,
+            "low": 0
+          },
           "6개월": {
             "total": 2,
             "low": 1
@@ -296315,20 +296320,16 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 5,
             "low": 0
-          },
-          "3개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 2,
+            "low": 0
+          },
           "KPN": {
             "total": 1,
             "low": 1
-          },
-          "SECTA9": {
-            "total": 1,
-            "low": 0
           },
           "KSNET": {
             "total": 2,
@@ -296586,21 +296587,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793428448.953,
+        "lastSeen": 1793428502.457,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793428448.953,
+        "lastSeen": 1793428502.457,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793428448.953,
+        "lastSeen": 1793428502.457,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406900,7 +406901,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:34",
+    "at": "2026-10-31 15:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407045,7 +407046,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:34",
+    "at": "2026-10-31 15:35",
     "pri": {
       "days": 0,
       "failed": [],
