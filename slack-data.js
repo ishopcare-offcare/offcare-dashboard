@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28029,
+  "version": 28030,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295845,7 +295845,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "네 포스에만 노출되고 키오스크는 미노출로 되어있습니다! / 매장에 통화하여 내부 확인이 필요하며, 키오스크 미노출 세팅이 정상이라면 금일은 주말이라 확인이 어려워 차주 플레이스/컴포즈 본사에 확인해보겠다 안내드림 / 10월 28일에 작업한 이력이 보이는데 그 시점부터 미노출로 변경되지 않았나 추측됩니다. / 대파크림햄샌드위치도 미노출 -&gt; 노출로 변경",
-          "rr": 22
+          "rr": 23
         }
       ],
       "intake": {
@@ -406094,7 +406094,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 10:52",
+    "at": "2026-10-31 10:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406239,7 +406239,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 10:52",
+    "at": "2026-10-31 10:56",
     "pri": {
       "days": 0,
       "failed": [],
