@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4465,
- "updatedAt": "2026-10-31 17:03",
+ "version": 4466,
+ "updatedAt": "2026-10-31 17:04",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CELKHQBC0",
      "from": "댓글",
-     "path": "menu-files/1793432928_683709-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -82,13 +81,13 @@ window.MENU_REQUESTS = {
        "price": 18000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793432928_683709-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CELKJ6CHE",
      "from": "댓글",
-     "path": "menu-files/1793432928_683709-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -188,15 +187,17 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793432928_683709-1.png"
     }
    ],
    "datt": [],
    "replies": [
-    ":햄스터-죄송: 죄송합니다ㅠㅠ"
+    ":햄스터-죄송: 죄송합니다ㅠㅠ",
+    "감사합니다... 번거롭게 해드려 죄송해요 :ㅠㅠ_interpark:"
    ],
-   "rc": 5,
-   "lr": "1793433659.683979",
+   "rc": 6,
+   "lr": "1793433793.674089",
    "rfx": 3,
    "status": "done",
    "handler": "김기범",
