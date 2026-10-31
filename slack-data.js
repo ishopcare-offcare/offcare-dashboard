@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28115,
+  "version": 28116,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295745,7 +295745,8 @@ window.SLACK_DATA = {
           "req": "유프 케이블 연결이 안되어 있는 것 같은데 어려워하셔서 연결만 도움 부탁 드립니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "rs232 케이블 젠더로 연결하여 사용중 • 선재연결후 정상출력확인완료 선재연결후 정상출력확인완료",
+          "rr": 1
         },
         {
           "time": "14:22",
@@ -296367,14 +296368,14 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793425972.032,
+        "lastSeen": 1793426064.407,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793425972.032,
+        "lastSeen": 1793426064.407,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
@@ -406648,7 +406649,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 14:53",
+    "at": "2026-10-31 14:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406793,7 +406794,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 14:52",
+    "at": "2026-10-31 14:54",
     "pri": {
       "days": 0,
       "failed": [],
