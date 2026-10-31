@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28021,
+  "version": 28022,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 4
+          "김동욱": 5
         },
         "onboarding": {
           "김동욱": 2
@@ -295727,6 +295727,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:30",
+          "store": "라르본스킨랩",
+          "biz": "2575001027",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "유프 온보딩 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포프유프(노트북) 연결완료",
+          "rr": 1
+        },
         {
           "time": "10:06",
           "store": "진미닭집",
@@ -295813,7 +295825,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 3,
         "unknown": 0
       },
@@ -406062,7 +406074,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 10:32",
+    "at": "2026-10-31 10:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406207,7 +406219,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 10:31",
+    "at": "2026-10-31 10:35",
     "pri": {
       "days": 0,
       "failed": [],
