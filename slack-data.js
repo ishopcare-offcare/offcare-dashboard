@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28045,
+  "version": 28046,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 10
+          "김동욱": 11
         },
         "onboarding": {
           "김동욱": 2
@@ -295727,6 +295727,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:30",
+          "store": "쁘띠독",
+          "biz": "2725900883",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "테블릿으로 재온보딩요청",
+          "hw": "",
+          "intake": "online",
+          "note": "태블릿으로 재온보딩완료. 버그증상 해결 후 연락요청하심",
+          "rr": 1
+        },
         {
           "time": "11:25",
           "store": "논현우미각",
@@ -295885,7 +295897,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 4,
         "unknown": 0
       },
@@ -296050,18 +296062,18 @@ window.SLACK_DATA = {
       },
       "1793412095.376519": {
         "post": "1793412095.376519",
-        "lastSeen": 1793414281.298,
+        "lastSeen": 1793414362.901,
         "r": 1,
         "day": "2026-10-31",
         "idx": 5
       },
       "1793414061.160759": {
         "post": "1793414061.160759",
-        "lastSeen": 1793414281.298
+        "lastSeen": 1793414362.901
       },
       "1793414221.885239": {
         "post": "1793414221.885239",
-        "lastSeen": 1793414281.298
+        "lastSeen": 1793414362.901
       }
     },
     "days": {
@@ -406171,7 +406183,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 11:38",
+    "at": "2026-10-31 11:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406316,7 +406328,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 11:38",
+    "at": "2026-10-31 11:39",
     "pri": {
       "days": 0,
       "failed": [],
