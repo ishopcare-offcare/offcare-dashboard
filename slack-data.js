@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28133,
+  "version": 28134,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296223,7 +296223,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:27",
+      "updatedAt": "15:29",
       "absent": [
         {
           "time": "15:00",
@@ -296259,24 +296259,25 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 10,
+        "responses": 12,
         "install": {
           "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 10,
-          "low": 1
+          "count": 12,
+          "low": 2
         },
         "high": {
           "install": 1,
-          "nps": 6
+          "nps": 7
         },
         "npsDist": {
           "0": 1,
+          "1": 1,
           "8": 1,
           "9": 2,
-          "10": 6
+          "10": 7
         },
         "installDist": {
           "1": 1,
@@ -296291,6 +296292,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 2,
+            "low": 1
+          },
           "구매설치": {
             "total": 4,
             "low": 1
@@ -296305,6 +296310,14 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 1,
+            "low": 1
+          },
+          "SECTA9": {
+            "total": 1,
+            "low": 0
+          },
           "KSNET": {
             "total": 2,
             "low": 0
@@ -296327,9 +296340,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "사용중 오류가 자주 발생함": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2
         },
         "alerts": [
+          {
+            "time": "15:29",
+            "store": "필라테스에이치(H)",
+            "storeId": "448869",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 1,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 1,
+                "text": "일반단말기에 비해 번거러운점이 많은것 같습니다.간혹 인터넷 불안정으로 먹통이 되기도해서",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:25",
             "store": "마마야",
@@ -296538,21 +296574,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793428094.132,
+        "lastSeen": 1793428191.299,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793428094.132,
+        "lastSeen": 1793428191.299,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793428094.132,
+        "lastSeen": 1793428191.299,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406852,7 +406888,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:28",
+    "at": "2026-10-31 15:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406997,7 +407033,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:28",
+    "at": "2026-10-31 15:29",
     "pri": {
       "days": 0,
       "failed": [],
