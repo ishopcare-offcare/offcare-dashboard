@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28216,
+  "version": 28217,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295715,15 +295715,15 @@ window.SLACK_DATA = {
     },
     "2026-10-31": {
       "counts": {
+        "onboarding": {
+          "고경림": 6,
+          "김기범": 1,
+          "김동욱": 3
+        },
         "as": {
           "고경림": 21,
           "김기범": 4,
           "김동욱": 18
-        },
-        "onboarding": {
-          "고경림": 5,
-          "김기범": 1,
-          "김동욱": 3
         },
         "booking": {
           "김기범": 1,
@@ -295740,6 +295740,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:29",
+          "store": "동동 미장원",
+          "biz": "8943800825",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "포터프(휴대폰) 온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "포프(휴대폰) + 터미널2 온보딩완료 • 사용법안내완료 사용법안내완료",
+          "rr": 1
+        },
         {
           "time": "17:56",
           "store": "용용선생 포항영일대점",
@@ -296464,7 +296476,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 53,
-        "offline": 11,
+        "offline": 12,
         "unknown": 0
       },
       "updatedAt": "18:30",
@@ -296871,21 +296883,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793439104.895,
+        "lastSeen": 1793439399.884,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793439104.895,
+        "lastSeen": 1793439399.884,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793439104.895,
+        "lastSeen": 1793439399.884,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -407275,7 +407287,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 18:31",
+    "at": "2026-10-31 18:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407420,7 +407432,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 18:31",
+    "at": "2026-10-31 18:36",
     "pri": {
       "days": 0,
       "failed": [],
