@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28036,
+  "version": 28037,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 8
+          "김동욱": 9
         },
         "onboarding": {
           "김동욱": 2
@@ -295727,6 +295727,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "담스(daMs)",
+          "biz": "8474800833",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "KTC-SC500 케이블 구매 하셔서 프론트랑 연결 도움 부탁 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "예전에 구매한거라 아닌것 같다고 다시 찾아보고 연락주신다고 하심",
+          "rr": 1
+        },
         {
           "time": "10:58",
           "store": "샤브앤 운정점",
@@ -295861,7 +295873,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 4,
         "unknown": 0
       },
@@ -296024,16 +296036,12 @@ window.SLACK_DATA = {
         "post": "1793372442.753609",
         "lastSeen": 1793391330.86
       },
-      "1793412000.237439": {
-        "post": "1793412000.237439",
-        "lastSeen": 1793412587.646,
-        "r": 1,
-        "day": "2026-10-31",
-        "idx": 4
-      },
       "1793412095.376519": {
         "post": "1793412095.376519",
-        "lastSeen": 1793412587.646
+        "lastSeen": 1793412688.378,
+        "r": 1,
+        "day": "2026-10-31",
+        "idx": 5
       }
     },
     "days": {
@@ -406081,8 +406089,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-31": {
-        "cnt": 5,
-        "sumMin": 17.813704256216685,
+        "cnt": 6,
+        "sumMin": 26.85762894153595,
         "over": 0,
         "items": [
           {
@@ -406127,6 +406135,15 @@ window.SLACK_DATA = {
             "store": "담스(daMs)",
             "biz": "8474800833",
             "who": "김동욱",
+            "cat": "as",
+            "dmin": 10.6
+          },
+          {
+            "hm": "11:01",
+            "min": 9,
+            "store": "드롭탑(금산인삼랜드(하)휴게소)",
+            "biz": "3058211150",
+            "who": "김동욱",
             "cat": "as"
           }
         ]
@@ -406134,7 +406151,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 11:10",
+    "at": "2026-10-31 11:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406279,7 +406296,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 11:09",
+    "at": "2026-10-31 11:11",
     "pri": {
       "days": 0,
       "failed": [],
