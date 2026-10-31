@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4447,
- "updatedAt": "2026-10-31 06:01",
+ "version": 4448,
+ "updatedAt": "2026-10-31 09:15",
  "days": 30,
  "items": [
   {
@@ -67666,29 +67666,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790814242556149"
-  },
-  {
-   "ts": "1790813597.225489",
-   "date": "2026-10-01",
-   "time": "09:13",
-   "store": "파나시아(샐러마켓)킨텍스점",
-   "biz": "8628502271",
-   "pos": "퍼스트포스",
-   "content": "메뉴 추가 및 사진등록(사진은 전화주시면 바로보내주시겠다고하십니다.)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "한돈 김치찌개(국산) 12,000원 추가\n키오스크 화면에서 제일 먼저나오게(첫번째로 보이도록)\n기존 제일 앞에 있는 황태곰탕은 냉면 뒤로 위치 변경 요청"
-   ],
-   "rc": 3,
-   "lr": "1790814752.779179",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790813597225489"
   }
  ],
  "ocr": {
