@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28138,
+  "version": 28139,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296236,7 +296236,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:35",
+      "updatedAt": "15:39",
       "absent": [
         {
           "time": "15:00",
@@ -296272,25 +296272,25 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 13,
+        "responses": 14,
         "install": {
           "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 13,
+          "count": 14,
           "low": 2
         },
         "high": {
           "install": 1,
-          "nps": 7
+          "nps": 8
         },
         "npsDist": {
           "0": 1,
           "1": 1,
           "8": 2,
           "9": 2,
-          "10": 7
+          "10": 8
         },
         "installDist": {
           "1": 1,
@@ -296305,6 +296305,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 2,
             "low": 0
@@ -296323,6 +296327,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "SECTA9": {
             "total": 2,
             "low": 0
@@ -296338,10 +296346,6 @@ window.SLACK_DATA = {
           "SMARTRO": {
             "total": 2,
             "low": 1
-          },
-          "KIS": {
-            "total": 1,
-            "low": 0
           },
           "KOCES": {
             "total": 4,
@@ -296587,21 +296591,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793428596.611,
+        "lastSeen": 1793428773.484,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793428596.611,
+        "lastSeen": 1793428773.484,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793428596.611,
+        "lastSeen": 1793428773.484,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406901,7 +406905,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:37",
+    "at": "2026-10-31 15:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407046,7 +407050,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:36",
+    "at": "2026-10-31 15:39",
     "pri": {
       "days": 0,
       "failed": [],
