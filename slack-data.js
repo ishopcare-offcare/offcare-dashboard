@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28057,
+  "version": 28058,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295719,11 +295719,11 @@ window.SLACK_DATA = {
           "고경림": 1,
           "김동욱": 14
         },
-        "onboarding": {
+        "booking": {
           "김동욱": 2
         },
-        "booking": {
-          "김동욱": 1
+        "onboarding": {
+          "김동욱": 2
         }
       },
       "pending": [],
@@ -295763,6 +295763,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "차주 목요일(휴무) 방문하여 교체 진행",
           "rr": 1
+        },
+        {
+          "time": "11:34",
+          "store": "스톤짐",
+          "biz": "5023083275",
+          "cat": "booking",
+          "emp": "김동욱",
+          "req": "터미널 선을 직접 구매하셔서 연결했는데 전원이 들어오지 않는다 하셔서 확인 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "전화거절 1차 부재 / 1시 이후 통화요청",
+          "rr": 3
         },
         {
           "time": "11:30",
@@ -295946,7 +295958,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 5,
         "unknown": 0
       },
@@ -295955,13 +295967,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1793242800.734549": {
-        "post": "1793242800.734549",
-        "lastSeen": 1793304935.323,
-        "r": 1,
-        "day": "2026-10-29",
-        "idx": 52
-      },
       "1793247696.988839": {
         "post": "1793247696.988839",
         "lastSeen": 1793304935.323,
@@ -296108,13 +296113,6 @@ window.SLACK_DATA = {
       "1793372442.753609": {
         "post": "1793372442.753609",
         "lastSeen": 1793391330.86
-      },
-      "1793414061.160759": {
-        "post": "1793414061.160759",
-        "lastSeen": 1793415582.372,
-        "r": 1,
-        "day": "2026-10-31",
-        "idx": 7
       }
     },
     "days": {
@@ -406235,7 +406233,8 @@ window.SLACK_DATA = {
             "store": "스톤짐",
             "biz": "5023083275",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 26.2
           },
           {
             "hm": "11:41",
@@ -406260,7 +406259,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 12:00",
+    "at": "2026-10-31 12:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406405,7 +406404,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 11:59",
+    "at": "2026-10-31 12:01",
     "pri": {
       "days": 0,
       "failed": [],
