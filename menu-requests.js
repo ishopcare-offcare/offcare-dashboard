@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4469,
- "updatedAt": "2026-10-31 17:55",
+ "version": 4470,
+ "updatedAt": "2026-10-31 18:03",
  "days": 30,
  "items": [
   {
@@ -65188,27 +65188,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790902071268719"
-  },
-  {
-   "ts": "1790845345.336399",
-   "date": "2026-10-01",
-   "time": "18:02",
-   "store": "레몬트리",
-   "biz": "2953701485",
-   "pos": "스파로스포스",
-   "content": "콜드브루라떼\n6500>7000\n꽃차메뉴에서 녹차 아이스.핫 메뉴추가\n7000",
-   "special": "유기농수제차에서 크렌베리쥬스",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790845345336399"
   }
  ],
  "ocr": {
