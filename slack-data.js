@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28144,
+  "version": 28145,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "고경림": 11,
+          "고경림": 12,
           "김기범": 1,
           "김동욱": 18
         },
@@ -295737,6 +295737,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:42",
+          "store": "산체스 단골집",
+          "biz": "3771102919",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "포터프(포스기) 사용 중, 프론트 연결끊김으로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "15:35",
           "store": "카페423",
@@ -296244,11 +296255,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 38,
+        "online": 39,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:43",
+      "updatedAt": "15:49",
       "absent": [
         {
           "time": "15:00",
@@ -296284,25 +296295,27 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 14,
+        "responses": 17,
         "install": {
           "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 14,
-          "low": 2
+          "count": 17,
+          "low": 3
         },
         "high": {
           "install": 1,
-          "nps": 8
+          "nps": 9
         },
         "npsDist": {
           "0": 1,
           "1": 1,
+          "5": 1,
+          "7": 1,
           "8": 2,
           "9": 2,
-          "10": 8
+          "10": 9
         },
         "installDist": {
           "1": 1,
@@ -296317,6 +296330,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 8,
+            "low": 1
+          },
           "12개월": {
             "total": 1,
             "low": 0
@@ -296332,20 +296349,20 @@ window.SLACK_DATA = {
           "구매설치": {
             "total": 4,
             "low": 1
-          },
-          "1개월": {
-            "total": 5,
-            "low": 0
           }
         },
         "byVan": {
           "KIS": {
-            "total": 2,
+            "total": 3,
+            "low": 0
+          },
+          "KCP": {
+            "total": 1,
             "low": 0
           },
           "SECTA9": {
-            "total": 2,
-            "low": 0
+            "total": 3,
+            "low": 1
           },
           "KPN": {
             "total": 1,
@@ -296369,10 +296386,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "사용중 오류가 자주 발생함": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 3,
+          "사용중 오류가 자주 발생함": 1
         },
         "alerts": [
+          {
+            "time": "15:49",
+            "store": "소리숲 음악심리센터",
+            "storeId": "317756",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "답답",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:29",
             "store": "필라테스에이치(H)",
@@ -296603,21 +296642,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793429157.839,
+        "lastSeen": 1793429371.37,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793429157.839,
+        "lastSeen": 1793429371.37,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793429157.839,
+        "lastSeen": 1793429371.37,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406917,7 +406956,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:46",
+    "at": "2026-10-31 15:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407062,7 +407101,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:45",
+    "at": "2026-10-31 15:49",
     "pri": {
       "days": 0,
       "failed": [],
