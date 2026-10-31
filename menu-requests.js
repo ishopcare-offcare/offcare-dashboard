@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4461,
- "updatedAt": "2026-10-31 16:33",
+ "version": 4462,
+ "updatedAt": "2026-10-31 16:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1793432928.683709",
+   "date": "2026-10-31",
+   "time": "16:48",
+   "store": "카페정거장",
+   "biz": "6817400493",
+   "pos": "",
+   "content": "주류메뉴추가 부탁드립니다\n캡틴큐 35%\n가격 18000원\n출력 주류나오는곳",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793432934.284229",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793432928683709"
+  },
   {
    "ts": "1793424153.307659",
    "date": "2026-10-31",
