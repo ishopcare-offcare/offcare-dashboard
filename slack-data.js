@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28114,
+  "version": 28115,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "고경림": 8,
+          "고경림": 9,
           "김동욱": 18
         },
         "booking": {
@@ -295736,6 +295736,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:49",
+          "store": "(주) 르벙쓸레브",
+          "biz": "1498603403",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "유프 케이블 연결이 안되어 있는 것 같은데 어려워하셔서 연결만 도움 부탁 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:22",
           "store": "아이캔인지학습",
@@ -296183,7 +296194,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 32,
+        "online": 33,
         "offline": 8,
         "unknown": 0
       },
@@ -296356,14 +296367,14 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793425789.262,
+        "lastSeen": 1793425972.032,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793425789.262,
+        "lastSeen": 1793425972.032,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
@@ -406637,7 +406648,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 14:50",
+    "at": "2026-10-31 14:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406782,7 +406793,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 14:49",
+    "at": "2026-10-31 14:52",
     "pri": {
       "days": 0,
       "failed": [],
