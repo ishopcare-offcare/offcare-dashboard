@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4463,
- "updatedAt": "2026-10-31 16:56",
+ "version": 4464,
+ "updatedAt": "2026-10-31 17:01",
  "days": 30,
  "items": [
   {
@@ -18,13 +18,185 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CELKHQBC0",
+     "from": "댓글",
+     "path": "menu-files/1793432928_683709-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료 및 주류",
+       "name": "국순당생막걸리",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "선양소주",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "켈리생맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "경주법주쌀막걸리",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "경주법주막걸리",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "부산소주",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "한라산",
+       "price": 6000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "클라우드 맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "테라 제로 0.00",
+       "price": 5000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "순하리 레몬(9도)",
+       "price": 6000
+      },
+      {
+       "category": "음료 및 주류",
+       "name": "캡틴큐 35%",
+       "price": 18000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CELKJ6CHE",
+     "from": "댓글",
+     "path": "menu-files/1793432928_683709-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "고래고기 (중)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "고래고기 (대)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "카스 무알콜",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "한맥 크림생맥주",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "야채(회덮밥용)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "클라우드생맥주",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "간바레오또상",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "선양소주",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "경주법주쌀막걸리",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "부산소주",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "한라산",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "클라우드 맥주",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "국수사리",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "테라 제로 0.00",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "전복죽 추가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주방프린터/KDS설정",
+       "name": "캡틴큐 35%",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     ":햄스터-죄송: 죄송합니다ㅠㅠ"
    ],
-   "rc": 4,
-   "lr": "1793433407.215199",
+   "rc": 5,
+   "lr": "1793433659.683979",
    "rfx": 3,
    "status": "wait",
    "handler": null,
