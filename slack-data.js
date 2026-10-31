@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28009,
+  "version": 28010,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 2
+          "김동욱": 3
         },
         "onboarding": {
           "김동욱": 1
@@ -295724,6 +295724,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:35",
+          "store": "드롭탑(동해(상)휴게소2호점",
+          "biz": "2228507463",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "드롭탑 매장, 드림하이테크(?) 측에 문의 해보니 어제 일 마감 매출 파일 생성이 안된것 같다는 안내를 받았다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "신세계측에 전달완료.",
+          "rr": 1
+        },
         {
           "time": "09:14",
           "store": "스카이모텔",
@@ -295763,7 +295775,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 2,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "09:35"
@@ -405993,7 +406005,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 09:45",
+    "at": "2026-10-31 09:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406138,7 +406150,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 09:45",
+    "at": "2026-10-31 09:57",
     "pri": {
       "days": 0,
       "failed": [],
