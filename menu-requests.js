@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4467,
- "updatedAt": "2026-10-31 17:07",
+ "version": 4468,
+ "updatedAt": "2026-10-31 17:33",
  "days": 30,
  "items": [
   {
@@ -189,15 +189,25 @@ window.MENU_REQUESTS = {
      ],
      "v": 2,
      "path": "menu-files/1793432928_683709-1.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CDQCH4CTY",
+     "from": "댓글",
+     "path": "menu-files/1793432928_683709-2.png",
+     "kind": "other",
+     "menu": [],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
     ":햄스터-죄송: 죄송합니다ㅠㅠ",
-    "감사합니다... 번거롭게 해드려 죄송해요 :ㅠㅠ_interpark:"
+    "감사합니다... 번거롭게 해드려 죄송해요 :ㅠㅠ_interpark:",
+    "기범님 대표님께서 추가로 요청 주셔서 확인 부탁드립니다 :감사합니다꾸벅:"
    ],
-   "rc": 6,
-   "lr": "1793433793.674089",
+   "rc": 7,
+   "lr": "1793435591.761489",
    "rfx": 3,
    "status": "done",
    "handler": "김기범",
