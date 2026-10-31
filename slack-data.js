@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28147,
+  "version": 28148,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296272,7 +296272,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:49",
+      "updatedAt": "15:55",
       "absent": [
         {
           "time": "15:00",
@@ -296308,17 +296308,17 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 17,
+        "responses": 18,
         "install": {
-          "count": 4,
+          "count": 5,
           "low": 1
         },
         "nps": {
-          "count": 17,
+          "count": 18,
           "low": 3
         },
         "high": {
-          "install": 1,
+          "install": 2,
           "nps": 9
         },
         "npsDist": {
@@ -296326,7 +296326,7 @@ window.SLACK_DATA = {
           "1": 1,
           "5": 1,
           "7": 1,
-          "8": 2,
+          "8": 3,
           "9": 2,
           "10": 9
         },
@@ -296334,15 +296334,19 @@ window.SLACK_DATA = {
           "1": 1,
           "3": 1,
           "4": 1,
-          "5": 1
+          "5": 2
         },
         "byIndustry": {
+          "서비스[학원]": 2,
           "서비스[뷰티,헤어]": 1,
           "요식업": 1,
-          "도소매": 1,
-          "서비스[학원]": 1
+          "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 5,
+            "low": 1
+          },
           "1개월": {
             "total": 8,
             "low": 1
@@ -296358,15 +296362,11 @@ window.SLACK_DATA = {
           "6개월": {
             "total": 2,
             "low": 1
-          },
-          "구매설치": {
-            "total": 4,
-            "low": 1
           }
         },
         "byVan": {
           "KIS": {
-            "total": 3,
+            "total": 4,
             "low": 0
           },
           "KCP": {
@@ -296478,6 +296478,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:55",
+            "store": "대치수학인재",
+            "storeId": "725803",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 8,
+            "text": "출장오신 기사님이 너무 친절하고 능숙도가 매우 좋음 토스 기기를 설치하는데 어플로 확인하는데 통일성 부족",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:25",
             "store": "초록하다",
             "storeId": "722401",
@@ -296531,10 +296543,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1793256892.429279": {
-        "post": "1793256892.429279",
-        "lastSeen": 1793257001.84
-      },
       "1793258604.780449": {
         "post": "1793258604.780449",
         "lastSeen": 1793304935.323
@@ -296655,21 +296663,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793429557.221,
+        "lastSeen": 1793429757.037,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793429557.221,
+        "lastSeen": 1793429757.037,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793429557.221,
+        "lastSeen": 1793429757.037,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406969,7 +406977,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:53",
+    "at": "2026-10-31 15:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407114,7 +407122,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:52",
+    "at": "2026-10-31 15:55",
     "pri": {
       "days": 0,
       "failed": [],
