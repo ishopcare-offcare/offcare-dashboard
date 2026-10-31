@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28097,
+  "version": 28098,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295715,6 +295715,9 @@ window.SLACK_DATA = {
     },
     "2026-10-31": {
       "counts": {
+        "nosetup": {
+          "김동욱": 1
+        },
         "as": {
           "고경림": 6,
           "김동욱": 17
@@ -295729,6 +295732,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:00",
+          "store": "뼈돌이",
+          "biz": "7632202440",
+          "cat": "nosetup",
+          "emp": "김동욱",
+          "req": "포프(기존포스기) 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(기존포스기) 온보딩 완료.",
+          "rr": 1
+        },
         {
           "time": "13:48",
           "store": "어쿠스틱 미니츠",
@@ -296080,7 +296095,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 24,
+        "online": 25,
         "offline": 5,
         "unknown": 0
       },
@@ -296231,29 +296246,22 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793423724.078,
+        "lastSeen": 1793423807.759,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793422800.867379": {
         "post": "1793422800.867379",
-        "lastSeen": 1793423724.078
-      },
-      "1793422800.487599": {
-        "post": "1793422800.487599",
-        "lastSeen": 1793423724.078,
-        "r": 1,
-        "day": "2026-10-31",
-        "idx": 17
+        "lastSeen": 1793423807.759
       },
       "1793422845.931419": {
         "post": "1793422845.931419",
-        "lastSeen": 1793423724.078
+        "lastSeen": 1793423807.759
       },
       "1793423700.432559": {
         "post": "1793423700.432559",
-        "lastSeen": 1793423724.078
+        "lastSeen": 1793423807.759
       }
     },
     "days": {
@@ -406463,14 +406471,15 @@ window.SLACK_DATA = {
             "store": "뼈돌이",
             "biz": "7632202440",
             "who": "김동욱",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 16.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-31 14:15",
+    "at": "2026-10-31 14:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406615,7 +406624,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 14:15",
+    "at": "2026-10-31 14:16",
     "pri": {
       "days": 0,
       "failed": [],
