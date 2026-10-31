@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28023,
+  "version": 28024,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 5
+          "김동욱": 6
         },
         "onboarding": {
           "김동욱": 2
@@ -295727,6 +295727,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:35",
+          "store": "카페 율정",
+          "biz": "5675301060",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "유프 전원 포트가 이상하다고 하십니다. 어댑터 문제라고 판단하셔서 새걸로 교체 해서 꽂았는데 이후 작동이 되다가 또 오늘 안되신다고 하셔서 확인 요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "차주 월요일 대체품 출고",
+          "rr": 1
+        },
         {
           "time": "10:30",
           "store": "라르본스킨랩",
@@ -295825,7 +295837,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 3,
         "unknown": 0
       },
@@ -295834,10 +295846,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1793238025.532469": {
-        "post": "1793238025.532469",
-        "lastSeen": 1793238129.336
-      },
       "1793242800.734549": {
         "post": "1793242800.734549",
         "lastSeen": 1793304935.323,
@@ -406074,7 +406082,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 10:37",
+    "at": "2026-10-31 10:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406219,7 +406227,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 10:36",
+    "at": "2026-10-31 10:41",
     "pri": {
       "days": 0,
       "failed": [],
