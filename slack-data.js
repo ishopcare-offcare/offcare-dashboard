@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28130,
+  "version": 28131,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296223,7 +296223,7 @@ window.SLACK_DATA = {
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "15:19",
+      "updatedAt": "15:25",
       "absent": [
         {
           "time": "14:30",
@@ -296251,26 +296251,42 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 6,
+        "responses": 10,
         "install": {
-          "count": 0,
-          "low": 0
+          "count": 4,
+          "low": 1
         },
         "nps": {
-          "count": 6,
-          "low": 0
+          "count": 10,
+          "low": 1
         },
         "high": {
-          "install": 0,
-          "nps": 5
+          "install": 1,
+          "nps": 6
         },
         "npsDist": {
+          "0": 1,
           "8": 1,
-          "10": 5
+          "9": 2,
+          "10": 6
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "1": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "byIndustry": {
+          "서비스[뷰티,헤어]": 1,
+          "요식업": 1,
+          "도소매": 1,
+          "서비스[학원]": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 1
+          },
           "1개월": {
             "total": 5,
             "low": 0
@@ -296281,6 +296297,18 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 2,
+            "low": 0
+          },
+          "SMARTRO": {
+            "total": 2,
+            "low": 1
+          },
+          "KIS": {
+            "total": 1,
+            "low": 0
+          },
           "KOCES": {
             "total": 4,
             "low": 0
@@ -296288,15 +296316,66 @@ window.SLACK_DATA = {
           "KOVAN": {
             "total": 1,
             "low": 0
-          },
-          "KSNET": {
-            "total": 1,
-            "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2
+        },
+        "alerts": [
+          {
+            "time": "15:25",
+            "store": "마마야",
+            "storeId": "707939",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 1,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "개업했는대 승인이 안되서 손님이 결제를 못함. 처리속도가 매우 느림..",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              },
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "경험그대로",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
+          {
+            "time": "15:25",
+            "store": "초록하다",
+            "storeId": "722401",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절히 설치 설명해주셨습니다 편리합니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "15:25",
+            "store": "학림스터디카페 광주방림점",
+            "storeId": "723594",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 3,
+            "nps": 9,
+            "text": "설치에 필요없는 부품(9핀연결잭)이 같이와서 괜히 혼선을 일으켰음. 제미나이에게 물어보고 필요없다고해서 빼고 설치했음. 매장에 보내는 형태로만 안내문을 차별화하는것도 필요해보임 스터디카페 매장을 무인으로 운영(어프내 결제)하다보니 광주상생카드,꿈드리미카드,남구동행카드,온누리상품권들을 활용할수없었는데 이제 사용가능해져서 매우좋음. 단말기를 무료로 사용하는것도 좋음",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:19",
             "store": "도림",
@@ -296327,13 +296406,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1793255013.174479": {
-        "post": "1793255013.174479",
-        "lastSeen": 1793304935.323,
-        "r": 1,
-        "day": "2026-10-29",
-        "idx": 114
-      },
       "1793256892.429279": {
         "post": "1793256892.429279",
         "lastSeen": 1793257001.84
@@ -296458,21 +296530,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793427693.39,
+        "lastSeen": 1793427946.939,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793427693.39,
+        "lastSeen": 1793427946.939,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793427693.39,
+        "lastSeen": 1793427946.939,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406772,7 +406844,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 15:22",
+    "at": "2026-10-31 15:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406917,7 +406989,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 15:21",
+    "at": "2026-10-31 15:25",
     "pri": {
       "days": 0,
       "failed": [],
