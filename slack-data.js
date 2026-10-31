@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28078,
+  "version": 28079,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,8 +295716,8 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "고경림": 3,
-          "김동욱": 15
+          "김동욱": 16,
+          "고경림": 3
         },
         "booking": {
           "김동욱": 2
@@ -295728,6 +295728,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:21",
+          "store": "르누아뷰티",
+          "biz": "5883101895",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "터미널 + 프론트 사용 / 프론트 화면 깜박거림 증상  + 네트워크 오류로 뜬다고 하셔서 확인 요청 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트 전원안켜짐. 프론트 어댑터로 연결해도 동일증상. 수령하신지 1주일 안되어 신품출고",
+          "rr": 1
+        },
         {
           "time": "13:19",
           "store": "주식회사 에이엠컬쳐(AM Culture) 예림당 MD",
@@ -295994,11 +296006,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "13:25"
+      "updatedAt": "13:27"
     }
   },
   "resp": {
@@ -296145,14 +296157,18 @@ window.SLACK_DATA = {
       },
       "1793420101.068019": {
         "post": "1793420101.068019",
-        "lastSeen": 1793420788.436,
+        "lastSeen": 1793420879.005,
         "r": 1,
         "day": "2026-10-31",
         "idx": 12
       },
       "1793420746.752969": {
         "post": "1793420746.752969",
-        "lastSeen": 1793420788.436
+        "lastSeen": 1793420879.005
+      },
+      "1793420849.824789": {
+        "post": "1793420849.824789",
+        "lastSeen": 1793420879.005
       }
     },
     "days": {
@@ -406325,7 +406341,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 13:26",
+    "at": "2026-10-31 13:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406470,7 +406486,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 13:26",
+    "at": "2026-10-31 13:27",
     "pri": {
       "days": 0,
       "failed": [],
