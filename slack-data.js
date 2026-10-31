@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28248,
+  "version": 28249,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,7 +295716,7 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김기범": 7,
+          "김기범": 8,
           "고경림": 21,
           "김동욱": 18
         },
@@ -295740,6 +295740,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "21:37",
+          "store": "용용선생 부천역곡점",
+          "biz": "6848103032",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "신메뉴 주방주문서 출력 설정 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "용용돌짜장에 옵션이 바겼음 ㅠㅠ 설정 완료",
+          "rr": 1
+        },
         {
           "time": "21:03",
           "store": "천년명가닭강정덕진점",
@@ -296536,7 +296548,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 56,
-        "offline": 14,
+        "offline": 15,
         "unknown": 0
       },
       "updatedAt": "21:37",
@@ -296935,21 +296947,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793450725.772,
+        "lastSeen": 1793450892.08,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793450725.772,
+        "lastSeen": 1793450892.08,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793450725.772,
+        "lastSeen": 1793450892.08,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -407357,7 +407369,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 21:45",
+    "at": "2026-10-31 21:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407502,7 +407514,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 21:45",
+    "at": "2026-10-31 21:48",
     "pri": {
       "days": 0,
       "failed": [],
