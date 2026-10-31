@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28157,
+  "version": 28158,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296297,7 +296297,7 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "16:23",
+      "updatedAt": "16:25",
       "absent": [
         {
           "time": "15:00",
@@ -296333,18 +296333,18 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 20,
+        "responses": 22,
         "install": {
-          "count": 5,
+          "count": 7,
           "low": 1
         },
         "nps": {
-          "count": 20,
+          "count": 22,
           "low": 3
         },
         "high": {
-          "install": 2,
-          "nps": 11
+          "install": 3,
+          "nps": 13
         },
         "npsDist": {
           "0": 1,
@@ -296353,31 +296353,31 @@ window.SLACK_DATA = {
           "7": 1,
           "8": 3,
           "9": 2,
-          "10": 11
+          "10": 13
         },
         "installDist": {
           "1": 1,
           "3": 1,
-          "4": 1,
-          "5": 2
+          "4": 2,
+          "5": 3
         },
         "byIndustry": {
+          "요식업": 2,
+          "서비스[뷰티,헤어]": 2,
           "서비스[학원]": 2,
-          "서비스[뷰티,헤어]": 1,
-          "요식업": 1,
           "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 7,
+            "low": 1
+          },
           "1개월": {
             "total": 9,
             "low": 1
           },
           "6개월": {
             "total": 3,
-            "low": 1
-          },
-          "구매설치": {
-            "total": 5,
             "low": 1
           },
           "12개월": {
@@ -296390,6 +296390,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 6,
+            "low": 0
+          },
           "KOCES": {
             "total": 5,
             "low": 0
@@ -296397,10 +296401,6 @@ window.SLACK_DATA = {
           "SECTA9": {
             "total": 4,
             "low": 1
-          },
-          "KIS": {
-            "total": 4,
-            "low": 0
           },
           "KCP": {
             "total": 1,
@@ -296502,6 +296502,30 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:25",
+            "store": "희지네포차",
+            "storeId": "727778",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "너무 친절하게 알려주세요 좋아요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "16:25",
+            "store": "대동미용실",
+            "storeId": "719457",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 4,
+            "nps": 10,
+            "text": "설명도 잘해주고 시간도잘지켜줬음 선 정리만 잘했줬으면5점이었을거예요 동종업체단체방에 추천 설치하신분도 있음 기계 영수증 무료",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:55",
             "store": "대치수학인재",
@@ -296684,21 +296708,21 @@ window.SLACK_DATA = {
       },
       "1793421000.550749": {
         "post": "1793421000.550749",
-        "lastSeen": 1793431443.723,
+        "lastSeen": 1793431571.978,
         "r": 1,
         "day": "2026-10-31",
         "idx": 16
       },
       "1793424600.723599": {
         "post": "1793424600.723599",
-        "lastSeen": 1793431443.723,
+        "lastSeen": 1793431571.978,
         "r": 1,
         "day": "2026-10-31",
         "idx": 21
       },
       "1793426401.115649": {
         "post": "1793426401.115649",
-        "lastSeen": 1793431443.723,
+        "lastSeen": 1793431571.978,
         "r": 1,
         "day": "2026-10-31",
         "idx": 25
@@ -406998,7 +407022,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 16:24",
+    "at": "2026-10-31 16:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407143,7 +407167,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 16:24",
+    "at": "2026-10-31 16:26",
     "pri": {
       "days": 0,
       "failed": [],
