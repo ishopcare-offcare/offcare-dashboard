@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28015,
+  "version": 28016,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295970,7 +295970,10 @@ window.SLACK_DATA = {
       },
       "1793408783.712869": {
         "post": "1793408783.712869",
-        "lastSeen": 1793408822.286
+        "lastSeen": 1793408909.637,
+        "r": 1,
+        "day": "2026-10-31",
+        "idx": 2
       }
     },
     "days": {
@@ -406018,8 +406021,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-10-31": {
-        "cnt": 2,
-        "sumMin": 4.590377867221832,
+        "cnt": 3,
+        "sumMin": 5.961188387870789,
         "over": 0,
         "items": [
           {
@@ -406039,13 +406042,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "onboarding",
             "dmin": 5.1
+          },
+          {
+            "hm": "10:06",
+            "min": 1.4,
+            "store": "진미닭집",
+            "biz": "5929201861",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-10-31 10:07",
+    "at": "2026-10-31 10:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406190,7 +406201,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 10:07",
+    "at": "2026-10-31 10:08",
     "pri": {
       "days": 0,
       "failed": [],
