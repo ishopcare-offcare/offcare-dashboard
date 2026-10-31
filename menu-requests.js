@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4448,
- "updatedAt": "2026-10-31 09:15",
+ "version": 4449,
+ "updatedAt": "2026-10-31 09:25",
  "days": 30,
  "items": [
   {
@@ -67642,30 +67642,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790818187498269"
-  },
-  {
-   "ts": "1790814242.556149",
-   "date": "2026-10-01",
-   "time": "09:24",
-   "store": "움버거앤윙스 킨텍스점",
-   "biz": "1358560825",
-   "pos": "퍼스트포스",
-   "content": "어제 수정한 가격 원복",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790743710102899",
-    "치킨불고기 버거 단품  6600 > 6100\n치킨불고기 버거 세트 9800 > 8600\n시그니처 치킨불고기 세트 11100 > 10900\n[NEW] 메가윙 버거 치킨세트 12300 > 12100"
-   ],
-   "rc": 3,
-   "lr": "1790814344.427399",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790814242556149"
   }
  ],
  "ocr": {
