@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28076,
+  "version": 28077,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -295716,8 +295716,8 @@ window.SLACK_DATA = {
     "2026-10-31": {
       "counts": {
         "as": {
-          "김동욱": 15,
-          "고경림": 2
+          "고경림": 3,
+          "김동욱": 15
         },
         "booking": {
           "김동욱": 2
@@ -295728,6 +295728,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:19",
+          "store": "주식회사 에이엠컬쳐(AM Culture) 예림당 MD",
+          "biz": "4168800993",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "공간이 바껴서 갤탭 + 프론트 연결 새로 하려고 했으나 연결 안됨 / 두 기기 동일한 와이파이 잡고 있다고 하시는데 확인 부탁 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "연결기기 변경으로 확인 • 프론트 로그아웃후 재온보딩 • 정상연동 확인완료 프론트 로그아웃후 재온보딩 정상연동 확인완료",
+          "rr": 1
+        },
         {
           "time": "13:09",
           "store": "삼삼호떡",
@@ -295982,11 +295994,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "13:21"
+      "updatedAt": "13:24"
     }
   },
   "resp": {
@@ -296133,7 +296145,7 @@ window.SLACK_DATA = {
       },
       "1793420101.068019": {
         "post": "1793420101.068019",
-        "lastSeen": 1793420590.226,
+        "lastSeen": 1793420690.048,
         "r": 1,
         "day": "2026-10-31",
         "idx": 12
@@ -406309,7 +406321,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-10-31 13:23",
+    "at": "2026-10-31 13:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -406454,7 +406466,7 @@ window.SLACK_DATA = {
     "2026-10-31": 2
   },
   "noteMig": {
-    "at": "2026-10-31 13:23",
+    "at": "2026-10-31 13:24",
     "pri": {
       "days": 0,
       "failed": [],
