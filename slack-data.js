@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28368,
+  "version": 28369,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296889,7 +296889,8 @@ window.SLACK_DATA = {
           "req": "PC / 토스포스 프로그램 페이지를 찾을 수 없다는 문구 지속 확인으로 점검 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "업데이트중 오류로 판정 토스포스 재설치 완료",
+          "rr": 1
         },
         {
           "time": "13:02",
@@ -296993,7 +296994,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "13:04",
+      "updatedAt": "13:11",
       "absent": [
         {
           "time": "10:00",
@@ -297146,7 +297147,7 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793506204.572,
+        "lastSeen": 1793506283.455,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
@@ -407605,7 +407606,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 13:10",
+    "at": "2026-11-01 13:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407751,7 +407752,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 13:10",
+    "at": "2026-11-01 13:11",
     "pri": {
       "days": 0,
       "failed": [],
