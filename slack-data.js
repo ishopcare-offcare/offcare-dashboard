@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28470,
+  "version": 28471,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,7 +296871,7 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "김기범": 9,
+          "김기범": 10,
           "배선유": 10
         },
         "onboarding": {
@@ -296890,6 +296890,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:14",
+          "store": "쿠치엘라",
+          "biz": "7850203679",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "포터프(휴대폰) 사용 중, 포터프(노트북) + 유프 재온보딩 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "17:11",
           "store": "강원집",
@@ -297180,7 +297191,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 7,
         "unknown": 0
       },
@@ -297406,28 +297417,21 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793526330.219,
+        "lastSeen": 1793527102.647,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793526330.219,
+        "lastSeen": 1793527102.647,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
-      "1793524453.852789": {
-        "post": "1793524453.852789",
-        "lastSeen": 1793526330.219,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 17
-      },
       "1793525812.547199": {
         "post": "1793525812.547199",
-        "lastSeen": 1793526330.219
+        "lastSeen": 1793527102.647
       }
     },
     "days": {
@@ -407991,7 +407995,8 @@ window.SLACK_DATA = {
             "store": "쿠치엘라",
             "biz": "7850203679",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 37.7
           },
           {
             "hm": "15:47",
@@ -408007,7 +408012,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 18:45",
+    "at": "2026-11-01 18:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408153,7 +408158,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 18:45",
+    "at": "2026-11-01 18:58",
     "pri": {
       "days": 0,
       "failed": [],
