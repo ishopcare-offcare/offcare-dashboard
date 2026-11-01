@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28320,
+  "version": 28321,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296870,12 +296870,27 @@ window.SLACK_DATA = {
     },
     "2026-11-01": {
       "counts": {
+        "booking": {
+          "배선유": 1
+        },
         "as": {
           "배선유": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "달홀",
+          "biz": "4920302741",
+          "cat": "booking",
+          "emp": "배선유",
+          "req": "포프(pc) 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "익일 14:30 예약",
+          "rr": 1
+        },
         {
           "time": "09:08",
           "store": "육선가",
@@ -296890,7 +296905,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -297009,7 +297024,10 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793494825.769
+        "lastSeen": 1793494914.096,
+        "r": 1,
+        "day": "2026-11-01",
+        "idx": 0
       }
     },
     "days": {
@@ -407410,11 +407428,26 @@ window.SLACK_DATA = {
             "dmin": 8.7
           }
         ]
+      },
+      "2026-11-01": {
+        "cnt": 1,
+        "sumMin": 1.1506751815478007,
+        "over": 0,
+        "items": [
+          {
+            "hm": "10:00",
+            "min": 1.2,
+            "store": "뭉치",
+            "biz": "7751303038",
+            "who": "배선유",
+            "cat": "delivery"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 10:00",
+    "at": "2026-11-01 10:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407560,7 +407593,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 10:00",
+    "at": "2026-11-01 10:01",
     "pri": {
       "days": 0,
       "failed": [],
