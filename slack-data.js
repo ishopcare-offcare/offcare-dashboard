@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28365,
+  "version": 28366,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,7 +296871,7 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "배선유": 6
+          "배선유": 7
         },
         "booking": {
           "배선유": 1
@@ -296879,6 +296879,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:02",
+          "store": "용천상회",
+          "biz": "1813501654",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프(태블릿) + 유프 온보딩 부탁드립니다. (프론트 단독 키오스크 모드로 온보딩 해두신 것으로 보입니다.)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:54",
           "store": "청송국수",
@@ -296965,7 +296976,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 2,
         "unknown": 0
       },
@@ -297122,7 +297133,7 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793505899.845,
+        "lastSeen": 1793506016.414,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
@@ -407581,7 +407592,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 13:05",
+    "at": "2026-11-01 13:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407727,7 +407738,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 13:05",
+    "at": "2026-11-01 13:06",
     "pri": {
       "days": 0,
       "failed": [],
