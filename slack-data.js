@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28338,
+  "version": 28339,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,7 +296871,7 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "배선유": 2
+          "배선유": 3
         },
         "booking": {
           "배선유": 1
@@ -296879,6 +296879,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:29",
+          "store": "따바프레스 주식회사(TABAC PRESS)",
+          "biz": "8528802178",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프론트 먹통(재설정 등 다 시도해 봤으나 작동안됨)  / 점검 부탁드립니다:감사합니다꾸벅:",
+          "hw": "",
+          "intake": "offline",
+          "note": "주소: 서울특별시 용산구 지안님 여기 퀵 필요합니다. 프론트2kis white 지안님 여기 퀵 필요합니다. 프론트2kis white / 정품 어댑터 없으나 맥북 충전기로도 충전 안됨, 맥북, 폰충전 이상없음 / 방전 작업해봤으나 동일",
+          "rr": 2
+        },
         {
           "time": "10:52",
           "store": "컴포즈커피 HD올림픽 셀프주유소점",
@@ -296918,7 +296930,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "11:33",
@@ -297074,14 +297086,17 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793500583.174,
+        "lastSeen": 1793500761.137,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793500398.498109": {
         "post": "1793500398.498109",
-        "lastSeen": 1793500583.174
+        "lastSeen": 1793500761.137,
+        "r": 1,
+        "day": "2026-11-01",
+        "idx": 2
       }
     },
     "days": {
@@ -407484,8 +407499,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-01": {
-        "cnt": 2,
-        "sumMin": 2.1225510319073995,
+        "cnt": 3,
+        "sumMin": 6.683507545789082,
         "over": 0,
         "items": [
           {
@@ -407504,13 +407519,21 @@ window.SLACK_DATA = {
             "who": "배선유",
             "cat": "as",
             "dmin": 3.4
+          },
+          {
+            "hm": "11:33",
+            "min": 4.6,
+            "store": "금수복국 압구정점(3층)(XXX)",
+            "biz": "7998501028",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 11:36",
+    "at": "2026-11-01 11:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407656,7 +407679,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 11:36",
+    "at": "2026-11-01 11:39",
     "pri": {
       "days": 0,
       "failed": [],
