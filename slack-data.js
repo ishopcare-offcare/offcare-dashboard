@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28373,
+  "version": 28374,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296889,8 +296889,8 @@ window.SLACK_DATA = {
           "req": "인터넷 정상 / 프론트 연결 지속 끊김으로 긴급 요청  / 확인 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "프론트에 와이파이 연결 끊어지는 현상 짧은 주기로 반복됨 / 통화하는동안 약 5회 Querencia1 Queruncia2로 와이파이 바꿔봄",
-          "rr": 1
+          "note": "프론트에 와이파이 연결 끊어지는 현상 짧은 주기로 반복됨 / 통화하는동안 약 5회 Querencia1 Queruncia2로 와이파이 바꿔봄 / lan연결은 공유기 거리가 멀어서 힘들다고 함",
+          "rr": 2
         },
         {
           "time": "13:04",
@@ -297152,14 +297152,14 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793507106.987,
+        "lastSeen": 1793507192.838,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793506713.328879": {
         "post": "1793506713.328879",
-        "lastSeen": 1793507106.987,
+        "lastSeen": 1793507192.838,
         "r": 1,
         "day": "2026-11-01",
         "idx": 5
@@ -407626,7 +407626,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 13:25",
+    "at": "2026-11-01 13:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407772,7 +407772,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 13:25",
+    "at": "2026-11-01 13:26",
     "pri": {
       "days": 0,
       "failed": [],
