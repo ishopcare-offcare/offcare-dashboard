@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4479,
- "updatedAt": "2026-11-01 12:42",
+ "version": 4480,
+ "updatedAt": "2026-11-01 14:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1793511094.081179",
+   "date": "2026-11-01",
+   "time": "14:31",
+   "store": "인생닭갈비",
+   "biz": "2012468666",
+   "pos": "기타",
+   "content": "메뉴추가\n어묵전골 14,000\n어묵탕 5,000\n쌈추가(깻잎) 2,000",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793511094081179"
+  },
   {
    "ts": "1793432928.683709",
    "date": "2026-10-31",
