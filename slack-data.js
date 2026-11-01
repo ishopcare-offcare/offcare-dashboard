@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28327,
+  "version": 28328,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297027,14 +297027,17 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793498004.818,
+        "lastSeen": 1793498056.898,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793497972.545449": {
         "post": "1793497972.545449",
-        "lastSeen": 1793498004.818
+        "lastSeen": 1793498056.898,
+        "r": 1,
+        "day": "2026-11-01",
+        "idx": 1
       }
     },
     "days": {
@@ -407437,8 +407440,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-01": {
-        "cnt": 1,
-        "sumMin": 1.1506751815478007,
+        "cnt": 2,
+        "sumMin": 2.1225510319073995,
         "over": 0,
         "items": [
           {
@@ -407448,13 +407451,21 @@ window.SLACK_DATA = {
             "biz": "7751303038",
             "who": "배선유",
             "cat": "delivery"
+          },
+          {
+            "hm": "10:52",
+            "min": 1,
+            "store": "컴포즈커피 HD올림픽 셀프주유소점",
+            "biz": "5218102386",
+            "who": "배선유",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 10:53",
+    "at": "2026-11-01 10:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407600,7 +407611,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 10:53",
+    "at": "2026-11-01 10:54",
     "pri": {
       "days": 0,
       "failed": [],
