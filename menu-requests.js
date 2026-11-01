@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4475,
- "updatedAt": "2026-11-01 10:45",
+ "version": 4476,
+ "updatedAt": "2026-11-01 10:53",
  "days": 30,
  "items": [
   {
@@ -64714,29 +64714,6 @@ window.MENU_REQUESTS = {
    "status": "dup",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790907977029039"
-  },
-  {
-   "ts": "1790905934.522759",
-   "date": "2026-10-02",
-   "time": "10:52",
-   "store": "백연전골",
-   "biz": "8050803335",
-   "pos": "기타",
-   "content": "식사류 금액변경요청 ㅡ 떡국 11,000 /떡국(곱)13,000/ 떡만둣국 13,000/ 떡만둣국(곱)15,000/제육백반 12,000",
-   "special": "금일 12시 이전 수정부탁드립니다.",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "떡만둣국 13,000원"
-   ],
-   "rc": 1,
-   "lr": "1790908178.069179",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790905934522759"
   }
  ],
  "ocr": {
