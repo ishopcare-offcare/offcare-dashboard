@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4492,
- "updatedAt": "2026-11-01 17:31",
+ "version": 4493,
+ "updatedAt": "2026-11-01 18:20",
  "days": 30,
  "items": [
   {
@@ -497,8 +497,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793515826.499909",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김기범",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793515679684789"
   },
   {
@@ -60598,38 +60598,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790937515875629"
-  },
-  {
-   "ts": "1790932845.361069",
-   "date": "2026-10-02",
-   "time": "18:20",
-   "store": "호꼼",
-   "biz": "1721602584",
-   "pos": "",
-   "content": "상품 일괄 등록 요청 주셔서 진행 부탁 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_51afda7d8904.xlsx",
-     "fid": "F0C6825G3UJ",
-     "from": "댓글",
-     "path": "menu-files/1790932845_361069-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "등록 이후 솔라피 발송 부탁 드립니다. :감사합니다11:",
-    "오..빠르시다"
-   ],
-   "rc": 7,
-   "lr": "1790933690.289509",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790932845361069"
   }
  ],
  "ocr": {
