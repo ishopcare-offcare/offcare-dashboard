@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4477,
- "updatedAt": "2026-11-01 11:29",
+ "version": 4478,
+ "updatedAt": "2026-11-01 11:55",
  "days": 30,
  "items": [
   {
@@ -64667,29 +64667,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790912214747469"
-  },
-  {
-   "ts": "1790909730.169859",
-   "date": "2026-10-02",
-   "time": "11:55",
-   "store": "넉넉",
-   "biz": "4721102965",
-   "pos": "오케이포스",
-   "content": "오케이포스 사용 중 / 메뉴 삭제 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "면 카테고리2종\n• (숙성간장)냉모밀 9900\n• 냉모밀곱배기11900\n키오스크에서만 삭제요청\n포스는 삭재 :x:"
-   ],
-   "rc": 3,
-   "lr": "1790912336.743729",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790909730169859"
   }
  ],
  "ocr": {
