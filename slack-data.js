@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28458,
+  "version": 28459,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,7 +296871,7 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "김기범": 8,
+          "김기범": 9,
           "배선유": 10
         },
         "onboarding": {
@@ -296889,6 +296889,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "17:11",
+          "store": "강원집",
+          "biz": "2971001000",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "프론트 연결 끊김 현상으로 점검 부탁드립니다 / 고령",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "16:53",
           "store": "기억미감 주식회사",
@@ -297156,7 +297167,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 19,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
       "updatedAt": "17:11",
@@ -297388,28 +297399,21 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793522843.652,
+        "lastSeen": 1793523415.258,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793522843.652,
+        "lastSeen": 1793523415.258,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
       "1793515679.684789": {
         "post": "1793515679.684789",
-        "lastSeen": 1793522843.652
-      },
-      "1793520673.139239": {
-        "post": "1793520673.139239",
-        "lastSeen": 1793522843.652,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 16
+        "lastSeen": 1793523415.258
       }
     },
     "days": {
@@ -407964,14 +407968,15 @@ window.SLACK_DATA = {
             "store": "강원집",
             "biz": "2971001000",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 40.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 17:47",
+    "at": "2026-11-01 17:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408117,7 +408122,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 17:47",
+    "at": "2026-11-01 17:56",
     "pri": {
       "days": 0,
       "failed": [],
