@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28405,
+  "version": 28406,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296879,10 +296879,24 @@ window.SLACK_DATA = {
         },
         "booking": {
           "배선유": 1
+        },
+        "menu": {
+          "배선유": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:31",
+          "store": "인생닭갈비",
+          "biz": "2012468666",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:20",
           "store": "마이하비이즈 ( my hobby is )",
@@ -297041,7 +297055,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 3,
         "unknown": 0
       },
@@ -297181,28 +297195,21 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793511680.972,
+        "lastSeen": 1793511759.359,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793511680.972,
+        "lastSeen": 1793511759.359,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
-      "1793511094.081179": {
-        "post": "1793511094.081179",
-        "lastSeen": 1793511680.972,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 9
-      },
       "1793511372.897019": {
         "post": "1793511372.897019",
-        "lastSeen": 1793511680.972,
+        "lastSeen": 1793511759.359,
         "r": 1,
         "day": "2026-11-01",
         "idx": 8
@@ -407696,14 +407703,15 @@ window.SLACK_DATA = {
             "store": "인생닭갈비",
             "biz": "2012468666",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 10.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 14:41",
+    "at": "2026-11-01 14:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407849,7 +407857,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 14:41",
+    "at": "2026-11-01 14:42",
     "pri": {
       "days": 0,
       "failed": [],
