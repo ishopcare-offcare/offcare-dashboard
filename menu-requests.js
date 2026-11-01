@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4482,
- "updatedAt": "2026-11-01 15:11",
+ "version": 4483,
+ "updatedAt": "2026-11-01 15:41",
  "days": 30,
  "items": [
   {
@@ -64290,30 +64290,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790923378506919"
-  },
-  {
-   "ts": "1790923038.116059",
-   "date": "2026-10-02",
-   "time": "15:37",
-   "store": "진미오뎅",
-   "biz": "3960902955",
-   "pos": "퍼스트포스",
-   "content": "메뉴 추가 수정 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "엘지 포스\n\n• 라면 : 명란크림파스타 11,500원 (추가)\n•  다이야메 65,000원 / 도쿠리 25,000원 2개 상품 (키오스크전시관리 상품 등록 여부 확인 요청)",
-    "수정 후 솔라피 발송 부탁 드립니다. :감사합니다꾸벅:"
-   ],
-   "rc": 4,
-   "lr": "1790927344.297389",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790923038116059"
   }
  ],
  "ocr": {

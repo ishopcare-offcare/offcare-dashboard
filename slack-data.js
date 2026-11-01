@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28424,
+  "version": 28425,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297095,7 +297095,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:32",
+      "updatedAt": "15:41",
       "absent": [
         {
           "time": "13:48",
@@ -297115,13 +297115,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 8,
+          "count": 9,
           "low": 1
         },
         "high": {
@@ -297130,6 +297130,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
+          "6": 1,
           "8": 1,
           "9": 1,
           "10": 5
@@ -297141,6 +297142,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 2,
+            "low": 1
+          },
           "구매설치": {
             "total": 1,
             "low": 0
@@ -297152,23 +297157,19 @@ window.SLACK_DATA = {
           "12개월": {
             "total": 1,
             "low": 0
-          },
-          "3개월": {
-            "total": 1,
-            "low": 1
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 3,
+            "low": 0
+          },
           "KCP": {
             "total": 1,
             "low": 0
           },
           "KIS": {
             "total": 1,
-            "low": 0
-          },
-          "KOCES": {
-            "total": 2,
             "low": 0
           },
           "NICE": {
@@ -297211,7 +297212,20 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:41",
+            "store": "미래사관보습학원",
+            "storeId": "568455",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 6,
+            "text": "현금영수증 발급이 안 되어서 질문을 해도 답이 늦네요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -297284,21 +297298,21 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793514778.778,
+        "lastSeen": 1793515282.898,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793514778.778,
+        "lastSeen": 1793515282.898,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
       "1793514600.756859": {
         "post": "1793514600.756859",
-        "lastSeen": 1793514778.778
+        "lastSeen": 1793515282.898
       }
     },
     "days": {
@@ -407807,7 +407821,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 15:33",
+    "at": "2026-11-01 15:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407953,7 +407967,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 15:32",
+    "at": "2026-11-01 15:41",
     "pri": {
       "days": 0,
       "failed": [],
