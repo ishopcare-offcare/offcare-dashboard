@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28415,
+  "version": 28416,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297083,7 +297083,7 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "14:43",
+      "updatedAt": "15:11",
       "absent": [
         {
           "time": "13:48",
@@ -297103,25 +297103,30 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
-          "low": 0
+          "count": 2,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "0": 1,
           "10": 1
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 1
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -297129,12 +297134,37 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "SECTA9": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1
+        },
+        "alerts": [
+          {
+            "time": "15:11",
+            "store": "컴퓨터랜드",
+            "storeId": "571657",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "매장포인트가 켜져 있어서 매출에서 적립금이 빠져나가는걸 3달동안 모르고 있었어요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       }
     }
@@ -297219,14 +297249,14 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793512838.665,
+        "lastSeen": 1793513479.801,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793512838.665,
+        "lastSeen": 1793513479.801,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
@@ -407738,7 +407768,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 15:00",
+    "at": "2026-11-01 15:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407884,7 +407914,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 15:00",
+    "at": "2026-11-01 15:11",
     "pri": {
       "days": 0,
       "failed": [],
