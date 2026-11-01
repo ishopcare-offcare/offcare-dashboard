@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28464,
+  "version": 28465,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296887,7 +296887,20 @@ window.SLACK_DATA = {
           "배선유": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "15:47",
+          "store": "김밥천국",
+          "biz": "7880400205",
+          "handler": "김기범",
+          "cat": "menu",
+          "intake": "offline",
+          "req": "메뉴 수정 요청",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "17:11",
@@ -297168,7 +297181,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 19,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
       "updatedAt": "18:14",
@@ -297393,25 +297406,31 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793524583.598,
+        "lastSeen": 1793524660.033,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793524583.598,
+        "lastSeen": 1793524660.033,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
       "1793515679.684789": {
         "post": "1793515679.684789",
-        "lastSeen": 1793524583.598
+        "lastSeen": 1793524660.033,
+        "r": 1,
+        "day": "2026-11-01",
+        "idx": 18
       },
       "1793524453.852789": {
         "post": "1793524453.852789",
-        "lastSeen": 1793524583.598
+        "lastSeen": 1793524660.033,
+        "r": 1,
+        "day": "2026-11-01",
+        "idx": 17
       }
     },
     "days": {
@@ -407814,9 +407833,9 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-01": {
-        "cnt": 17,
-        "sumMin": 316.8538764397303,
-        "over": 5,
+        "cnt": 19,
+        "sumMin": 468.6887668093045,
+        "over": 6,
         "items": [
           {
             "hm": "10:00",
@@ -407968,13 +407987,29 @@ window.SLACK_DATA = {
             "who": "김기범",
             "cat": "as",
             "dmin": 40.9
+          },
+          {
+            "hm": "18:14",
+            "min": 2.8,
+            "store": "쿠치엘라",
+            "biz": "7850203679",
+            "who": "김기범",
+            "cat": "as"
+          },
+          {
+            "hm": "15:47",
+            "min": 149,
+            "store": "김밥천국",
+            "biz": "7880400205",
+            "who": "김기범",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 18:16",
+    "at": "2026-11-01 18:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408120,7 +408155,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 18:16",
+    "at": "2026-11-01 18:17",
     "pri": {
       "days": 0,
       "failed": [],
