@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28311,
+  "version": 28312,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296869,11 +296869,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-11-01": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "배선유": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:08",
+          "store": "육선가",
+          "biz": "1064451757",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "퍼스트 포스 이용 매장으로 보입니다. 메인포스는 정상 작동 되는데 오더포스에서 포스 프로그램 접속 후 [판매관리] 탭을 누르면 '10/17일 영업은 마감 처리된 상태입니다.' 라고만 뜨며 정상 작동되지 않는다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "자동마감도 수동마감도 개시나 마감취소가 안먹히네요 흠",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -407393,7 +407410,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 09:30",
+    "at": "2026-11-01 09:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407539,7 +407556,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 09:30",
+    "at": "2026-11-01 09:40",
     "pri": {
       "days": 0,
       "failed": [],
