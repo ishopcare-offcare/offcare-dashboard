@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28478,
+  "version": 28479,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,7 +296871,7 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "김기범": 10,
+          "김기범": 11,
           "배선유": 10
         },
         "onboarding": {
@@ -296890,6 +296890,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:36",
+          "store": "천년명가닭강정덕진점",
+          "biz": "8170103718",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "포스기 사용 중 배달 주문 인입 시 검은 화면 발생하는 증상에 대해 원격 재요청 인입되어 전달드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "18:14",
           "store": "쿠치엘라",
@@ -297192,7 +297203,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 21,
         "offline": 7,
         "unknown": 0
       },
@@ -297422,24 +297433,17 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793529033.563,
+        "lastSeen": 1793529274.931,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793529033.563,
+        "lastSeen": 1793529274.931,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
-      },
-      "1793525812.547199": {
-        "post": "1793525812.547199",
-        "lastSeen": 1793529033.563,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 19
       }
     },
     "days": {
@@ -408021,14 +408025,15 @@ window.SLACK_DATA = {
             "store": "천년명가닭강정덕진점",
             "biz": "8170103718",
             "who": "김기범",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 55.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 19:30",
+    "at": "2026-11-01 19:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408174,7 +408179,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 19:30",
+    "at": "2026-11-01 19:34",
     "pri": {
       "days": 0,
       "failed": [],
