@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4485,
- "updatedAt": "2026-11-01 15:48",
+ "version": 4486,
+ "updatedAt": "2026-11-01 15:52",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,484 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CDY43K3B3",
+     "from": "댓글",
+     "path": "menu-files/1793515679_684789-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "김밥류",
+       "name": "한국김밥",
+       "price": 3500
+      },
+      {
+       "category": "김밥류",
+       "name": "김치김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥류",
+       "name": "땡초김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥류",
+       "name": "치즈김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥류",
+       "name": "참치김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥류",
+       "name": "매운참치김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥류",
+       "name": "와사비참치김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥류",
+       "name": "계란말이김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥류",
+       "name": "샐러드김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥류",
+       "name": "오징어김밥",
+       "price": 6000
+      },
+      {
+       "category": "김밥류",
+       "name": "낙지김밥",
+       "price": 6000
+      },
+      {
+       "category": "김밥류",
+       "name": "새우튀김김밥",
+       "price": 6000
+      },
+      {
+       "category": "김밥류",
+       "name": "스팸김밥",
+       "price": 6000
+      },
+      {
+       "category": "죽류",
+       "name": "호박죽",
+       "price": 9000
+      },
+      {
+       "category": "죽류",
+       "name": "소고기죽",
+       "price": 9500
+      },
+      {
+       "category": "죽류",
+       "name": "전복죽",
+       "price": 11000
+      },
+      {
+       "category": "음료수",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료수",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료수",
+       "name": "환타",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CDQ0CUSGK",
+     "from": "댓글",
+     "path": "menu-files/1793515679_684789-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "찌개류",
+       "name": "김치찌개",
+       "price": 8000
+      },
+      {
+       "category": "찌개류",
+       "name": "된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "찌개류",
+       "name": "참치찌개",
+       "price": 8500
+      },
+      {
+       "category": "찌개류",
+       "name": "무말랭이장찌개",
+       "price": 9000
+      },
+      {
+       "category": "찌개류",
+       "name": "청국장",
+       "price": 9000
+      },
+      {
+       "category": "찌개류",
+       "name": "순두부찌개",
+       "price": 9000
+      },
+      {
+       "category": "찌개류",
+       "name": "돼지순두부",
+       "price": 9500
+      },
+      {
+       "category": "찌개류",
+       "name": "곰비찌개",
+       "price": 9500
+      },
+      {
+       "category": "찌개류",
+       "name": "부대찌개",
+       "price": 10000
+      },
+      {
+       "category": "탕류",
+       "name": "육개장",
+       "price": 9000
+      },
+      {
+       "category": "탕류",
+       "name": "갈비탕",
+       "price": 9500
+      },
+      {
+       "category": "탕류",
+       "name": "설렁탕",
+       "price": 9000
+      },
+      {
+       "category": "탕류",
+       "name": "내장탕",
+       "price": 9500
+      },
+      {
+       "category": "탕류",
+       "name": "소머리곰탕",
+       "price": 11000
+      },
+      {
+       "category": "탕류",
+       "name": "황태해장국",
+       "price": 9000
+      },
+      {
+       "category": "탕류",
+       "name": "뚝불고기",
+       "price": 9000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "물냉면",
+       "price": 8500
+      },
+      {
+       "category": "계절메뉴",
+       "name": "비빔냉면",
+       "price": 8500
+      },
+      {
+       "category": "계절메뉴",
+       "name": "열무냉면",
+       "price": 8500
+      },
+      {
+       "category": "계절메뉴",
+       "name": "냉모밀",
+       "price": 8500
+      },
+      {
+       "category": "계절메뉴",
+       "name": "콩국수",
+       "price": 9500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CDW1PBBNW",
+     "from": "댓글",
+     "path": "menu-files/1793515679_684789-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "분식류",
+       "name": "라면",
+       "price": 5000
+      },
+      {
+       "category": "분식류",
+       "name": "떡라면",
+       "price": 5500
+      },
+      {
+       "category": "분식류",
+       "name": "치즈라면",
+       "price": 5500
+      },
+      {
+       "category": "분식류",
+       "name": "만두라면",
+       "price": 5500
+      },
+      {
+       "category": "분식류",
+       "name": "김치라면",
+       "price": 5500
+      },
+      {
+       "category": "분식류",
+       "name": "짬뽕라면",
+       "price": 7500
+      },
+      {
+       "category": "분식류",
+       "name": "즉석우동",
+       "price": 6500
+      },
+      {
+       "category": "분식류",
+       "name": "유부우동",
+       "price": 7000
+      },
+      {
+       "category": "분식류",
+       "name": "어묵우동",
+       "price": 7000
+      },
+      {
+       "category": "분식류",
+       "name": "떡볶이",
+       "price": 6000
+      },
+      {
+       "category": "분식류",
+       "name": "라볶이",
+       "price": 6500
+      },
+      {
+       "category": "분식류",
+       "name": "치즈떡볶이",
+       "price": 7000
+      },
+      {
+       "category": "분식류",
+       "name": "치즈라볶이",
+       "price": 7000
+      },
+      {
+       "category": "분식류",
+       "name": "튀김세트",
+       "price": 7000
+      },
+      {
+       "category": "분식류",
+       "name": "손수제비",
+       "price": 6000
+      },
+      {
+       "category": "분식류",
+       "name": "김치수제비",
+       "price": 8500
+      },
+      {
+       "category": "분식류",
+       "name": "들깨수제비",
+       "price": 9000
+      },
+      {
+       "category": "분식류",
+       "name": "칼국수",
+       "price": 7500
+      },
+      {
+       "category": "분식류",
+       "name": "들깨칼국수",
+       "price": 8500
+      },
+      {
+       "category": "분식류",
+       "name": "잔치국수",
+       "price": 8000
+      },
+      {
+       "category": "분식류",
+       "name": "비빔국수",
+       "price": 8000
+      },
+      {
+       "category": "분식류",
+       "name": "쫄면",
+       "price": 7000
+      },
+      {
+       "category": "분식류",
+       "name": "만두국",
+       "price": 7500
+      },
+      {
+       "category": "분식류",
+       "name": "떡만두국",
+       "price": 8000
+      },
+      {
+       "category": "분식류",
+       "name": "물면",
+       "price": 7500
+      },
+      {
+       "category": "분식류",
+       "name": "김치만두",
+       "price": 6000
+      },
+      {
+       "category": "분식류",
+       "name": "고기만두",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CDERDDYJ3",
+     "from": "댓글",
+     "path": "menu-files/1793515679_684789-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "덮밥류",
+       "name": "김치날밥",
+       "price": 8000
+      },
+      {
+       "category": "덮밥류",
+       "name": "참치날밥",
+       "price": 8500
+      },
+      {
+       "category": "덮밥류",
+       "name": "오징어덮밥",
+       "price": 9500
+      },
+      {
+       "category": "덮밥류",
+       "name": "돌솥오징어덮밥",
+       "price": 9500
+      },
+      {
+       "category": "덮밥류",
+       "name": "제육덮밥",
+       "price": 8500
+      },
+      {
+       "category": "덮밥류",
+       "name": "돌솥제육덮밥",
+       "price": 9000
+      },
+      {
+       "category": "덮밥류",
+       "name": "카레덮밥",
+       "price": 8000
+      },
+      {
+       "category": "덮밥류",
+       "name": "오므라이스",
+       "price": 8500
+      },
+      {
+       "category": "덮밥류",
+       "name": "김치볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "덮밥류",
+       "name": "비빔밥",
+       "price": 8000
+      },
+      {
+       "category": "덮밥류",
+       "name": "돌솥비빔밥",
+       "price": 9000
+      },
+      {
+       "category": "덮밥류",
+       "name": "날치알볶음밥",
+       "price": 9000
+      },
+      {
+       "category": "덮밥류",
+       "name": "꽁치김치조림",
+       "price": 9000
+      },
+      {
+       "category": "돈까스류",
+       "name": "돈까스",
+       "price": 9500
+      },
+      {
+       "category": "돈까스류",
+       "name": "눈꽃치즈돈까스",
+       "price": 10500
+      },
+      {
+       "category": "돈까스류",
+       "name": "생선까스",
+       "price": 9500
+      },
+      {
+       "category": "돈까스류",
+       "name": "고구마돈까스",
+       "price": 10000
+      },
+      {
+       "category": "돈까스류",
+       "name": "돈까스+정식",
+       "price": 12000
+      },
+      {
+       "category": "돈까스류",
+       "name": "스페셜정식",
+       "price": 13000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793515684.051609",
+   "replies": [
+    "• 메뉴 품목 그대로이며, 가격만 아래 명시된 그대로 전체 변경 요청드립니다."
+   ],
+   "rc": 2,
+   "lr": "1793515826.499909",
    "rfx": 3,
    "status": "wait",
    "handler": null,
