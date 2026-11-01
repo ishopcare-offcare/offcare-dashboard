@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28329,
+  "version": 28330,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296870,15 +296870,27 @@ window.SLACK_DATA = {
     },
     "2026-11-01": {
       "counts": {
-        "booking": {
-          "배선유": 1
-        },
         "as": {
+          "배선유": 2
+        },
+        "booking": {
           "배선유": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:52",
+          "store": "컴포즈커피 HD올림픽 셀프주유소점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "주문 시 쿠팡 및 토스포스에서 용지가 총 4장씩 나와 사용이 불편하여 영수증 매수 재설정 요청으로 전달드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "매장 직원분 확인 후 쿠팡이츠 주문건 자동출력 해제, 토스포스 양식으로 2장 출력 설정",
+          "rr": 2
+        },
         {
           "time": "10:00",
           "store": "달홀",
@@ -296905,7 +296917,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -297027,17 +297039,10 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793498136.289,
+        "lastSeen": 1793498221.026,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
-      },
-      "1793497972.545449": {
-        "post": "1793497972.545449",
-        "lastSeen": 1793498136.289,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 1
       }
     },
     "days": {
@@ -407458,14 +407463,15 @@ window.SLACK_DATA = {
             "store": "컴포즈커피 HD올림픽 셀프주유소점",
             "biz": "5218102386",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 10:56",
+    "at": "2026-11-01 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407611,7 +407617,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 10:55",
+    "at": "2026-11-01 10:57",
     "pri": {
       "days": 0,
       "failed": [],
