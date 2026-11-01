@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28479,
+  "version": 28480,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296899,7 +296899,8 @@ window.SLACK_DATA = {
           "req": "포스기 사용 중 배달 주문 인입 시 검은 화면 발생하는 증상에 대해 원격 재요청 인입되어 전달드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "배민 라이트 프로그램 재 설치 해드림 내일 오픈하고 다시 연락 주신다고함",
+          "rr": 1
         },
         {
           "time": "18:14",
@@ -297433,14 +297434,14 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793529274.931,
+        "lastSeen": 1793529353.27,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793529274.931,
+        "lastSeen": 1793529353.27,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
@@ -408033,7 +408034,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 19:34",
+    "at": "2026-11-01 19:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408179,7 +408180,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 19:34",
+    "at": "2026-11-01 19:35",
     "pri": {
       "days": 0,
       "failed": [],
