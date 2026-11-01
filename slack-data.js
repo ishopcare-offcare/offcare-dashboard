@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28430,
+  "version": 28431,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297095,7 +297095,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "15:47",
+      "updatedAt": "16:02",
       "absent": [
         {
           "time": "13:48",
@@ -297115,13 +297115,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 9,
+        "responses": 10,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 9,
+          "count": 10,
           "low": 1
         },
         "high": {
@@ -297130,25 +297130,27 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
-          "6": 1,
+          "6": 2,
           "8": 1,
           "9": 1,
           "10": 5
         },
         "installDist": {
+          "3": 1,
           "4": 1
         },
         "byIndustry": {
+          "서비스[학원]": 1,
           "카페": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 2,
+            "low": 0
+          },
           "3개월": {
             "total": 2,
             "low": 1
-          },
-          "구매설치": {
-            "total": 1,
-            "low": 0
           },
           "1개월": {
             "total": 5,
@@ -297160,6 +297162,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 1,
+            "low": 0
+          },
           "KOCES": {
             "total": 3,
             "low": 0
@@ -297213,6 +297219,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:02",
+            "store": "설명수학교습소",
+            "storeId": "704041",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 3,
+            "nps": 6,
+            "text": "설치기사가 불친절하고 궁금한점 물었을때 대충대답함 편리함",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:41",
             "store": "미래사관보습학원",
@@ -297294,28 +297312,28 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793516441.702,
+        "lastSeen": 1793516584.844,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793516441.702,
+        "lastSeen": 1793516584.844,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
       "1793514600.756859": {
         "post": "1793514600.756859",
-        "lastSeen": 1793516441.702,
+        "lastSeen": 1793516584.844,
         "r": 1,
         "day": "2026-11-01",
         "idx": 11
       },
       "1793515679.684789": {
         "post": "1793515679.684789",
-        "lastSeen": 1793516441.702
+        "lastSeen": 1793516584.844
       }
     },
     "days": {
@@ -407832,7 +407850,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 16:00",
+    "at": "2026-11-01 16:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407978,7 +407996,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 16:00",
+    "at": "2026-11-01 16:03",
     "pri": {
       "days": 0,
       "failed": [],
