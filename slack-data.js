@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28443,
+  "version": 28444,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297108,7 +297108,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:53",
+      "updatedAt": "17:03",
       "absent": [
         {
           "time": "13:48",
@@ -297128,18 +297128,18 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 13,
+        "responses": 14,
         "install": {
-          "count": 3,
+          "count": 4,
           "low": 0
         },
         "nps": {
-          "count": 13,
+          "count": 14,
           "low": 1
         },
         "high": {
           "install": 0,
-          "nps": 6
+          "nps": 7
         },
         "npsDist": {
           "0": 1,
@@ -297147,24 +297147,24 @@ window.SLACK_DATA = {
           "7": 1,
           "8": 1,
           "9": 2,
-          "10": 6
+          "10": 7
         },
         "installDist": {
           "3": 1,
-          "4": 2
+          "4": 3
         },
         "byIndustry": {
-          "도소매": 1,
+          "도소매": 2,
           "서비스[학원]": 1,
           "카페": 1
         },
         "byTenure": {
-          "12개월": {
-            "total": 2,
+          "구매설치": {
+            "total": 4,
             "low": 0
           },
-          "구매설치": {
-            "total": 3,
+          "12개월": {
+            "total": 2,
             "low": 0
           },
           "3개월": {
@@ -297177,6 +297177,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 2,
             "low": 0
@@ -297234,6 +297238,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "17:03",
+            "store": "취미는 독서(사월에 산)",
+            "storeId": "720585",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 4,
+            "nps": 10,
+            "text": "기계 설치 및 이후 결제 실행 과정이 조금 더 직관적으로 보여지는 설명서가 있으면 좋겠습니다. 각종 결제가 다 되며 사용이 쉽습니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:47",
             "store": "브루피스(Brewffice)",
@@ -297321,44 +297337,44 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793520044.166,
+        "lastSeen": 1793520201.955,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793520044.166,
+        "lastSeen": 1793520201.955,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
       "1793514600.756859": {
         "post": "1793514600.756859",
-        "lastSeen": 1793520044.166,
+        "lastSeen": 1793520201.955,
         "r": 1,
         "day": "2026-11-01",
         "idx": 11
       },
       "1793515679.684789": {
         "post": "1793515679.684789",
-        "lastSeen": 1793520044.166
+        "lastSeen": 1793520201.955
       },
       "1793516882.710439": {
         "post": "1793516882.710439",
-        "lastSeen": 1793520044.166
+        "lastSeen": 1793520201.955
       },
       "1793517860.088839": {
         "post": "1793517860.088839",
-        "lastSeen": 1793520044.166
+        "lastSeen": 1793520201.955
       },
       "1793518309.797719": {
         "post": "1793518309.797719",
-        "lastSeen": 1793520044.166
+        "lastSeen": 1793520201.955
       },
       "1793519616.272839": {
         "post": "1793519616.272839",
-        "lastSeen": 1793520044.166
+        "lastSeen": 1793520201.955
       }
     },
     "days": {
@@ -407875,7 +407891,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 17:00",
+    "at": "2026-11-01 17:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408021,7 +408037,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 17:00",
+    "at": "2026-11-01 17:03",
     "pri": {
       "days": 0,
       "failed": [],
