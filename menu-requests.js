@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4471,
- "updatedAt": "2026-11-01 09:48",
+ "version": 4472,
+ "updatedAt": "2026-11-01 09:53",
  "days": 30,
  "items": [
   {
@@ -65144,29 +65144,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790903171385269"
-  },
-  {
-   "ts": "1790902359.515869",
-   "date": "2026-10-02",
-   "time": "09:52",
-   "store": "꼬김빱 사직야구장점",
-   "biz": "3272002139",
-   "pos": "퍼스트포스",
-   "content": "메뉴 수정 요청드려요 (유플러스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "김밥 단품 가테고리에서\n소불고기김밥 1300원으로 수정"
-   ],
-   "rc": 4,
-   "lr": "1790903724.144559",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790902359515869"
   }
  ],
  "ocr": {
