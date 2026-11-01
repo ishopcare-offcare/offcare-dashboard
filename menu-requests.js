@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4494,
- "updatedAt": "2026-11-01 19:45",
+ "version": 4495,
+ "updatedAt": "2026-11-02 08:16",
  "days": 30,
  "items": [
+  {
+   "ts": "1793574162.792959",
+   "date": "2026-11-02",
+   "time": "08:02",
+   "store": "온빛",
+   "biz": "8241003023",
+   "pos": "토스포스",
+   "content": "과일모찌6000\n그릭요거트모찌6000\n생초코모찌5000원인데\n오픈할인한정 4500원으로수정\n\n생강청 25000\n쌍화차 20000\n대추고15000원으로수정부탁드릴께요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793574162792959"
+  },
   {
    "ts": "1793515679.684789",
    "date": "2026-11-01",
