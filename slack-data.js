@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28440,
+  "version": 28441,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297108,7 +297108,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "16:33",
+      "updatedAt": "16:47",
       "absent": [
         {
           "time": "13:48",
@@ -297128,13 +297128,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
           "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 12,
+          "count": 13,
           "low": 1
         },
         "high": {
@@ -297144,6 +297144,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "6": 2,
+          "7": 1,
           "8": 1,
           "9": 2,
           "10": 6
@@ -297158,6 +297159,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 2,
+            "low": 0
+          },
           "구매설치": {
             "total": 3,
             "low": 0
@@ -297169,13 +297174,13 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 5,
             "low": 0
-          },
-          "12개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 2,
             "low": 0
@@ -297189,10 +297194,6 @@ window.SLACK_DATA = {
             "low": 0
           },
           "KCP": {
-            "total": 1,
-            "low": 0
-          },
-          "KIS": {
             "total": 1,
             "low": 0
           },
@@ -297233,6 +297234,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "16:47",
+            "store": "브루피스(Brewffice)",
+            "storeId": "280534",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 7,
+            "text": "앞 전에 사용하던 페이히어가 안정성이 부족해서 넘어왔는데, 토스 역시 갑자기 안정성이 좋지 않을 때가 있는데다, 특히, 한창 바쁠 때 안정성이 좋지 않을 때가 많습니다. 또한, 네이버와 연동이 되지 않다보니, 토스플레이스에 리뷰를 남기더라도 손님들이 보는 것이 한정적이라 새로이 리뷰를 부탁해야하는 등 어려운 점이 있습니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:02",
             "store": "설명수학교습소",
@@ -297308,40 +297321,40 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793519129.173,
+        "lastSeen": 1793519237.521,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793519129.173,
+        "lastSeen": 1793519237.521,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
       },
       "1793514600.756859": {
         "post": "1793514600.756859",
-        "lastSeen": 1793519129.173,
+        "lastSeen": 1793519237.521,
         "r": 1,
         "day": "2026-11-01",
         "idx": 11
       },
       "1793515679.684789": {
         "post": "1793515679.684789",
-        "lastSeen": 1793519129.173
+        "lastSeen": 1793519237.521
       },
       "1793516882.710439": {
         "post": "1793516882.710439",
-        "lastSeen": 1793519129.173
+        "lastSeen": 1793519237.521
       },
       "1793517860.088839": {
         "post": "1793517860.088839",
-        "lastSeen": 1793519129.173
+        "lastSeen": 1793519237.521
       },
       "1793518309.797719": {
         "post": "1793518309.797719",
-        "lastSeen": 1793519129.173
+        "lastSeen": 1793519237.521
       }
     },
     "days": {
@@ -407858,7 +407871,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 16:45",
+    "at": "2026-11-01 16:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408004,7 +408017,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 16:45",
+    "at": "2026-11-01 16:47",
     "pri": {
       "days": 0,
       "failed": [],
