@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28536,
+  "version": 28537,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297428,6 +297428,17 @@ window.SLACK_DATA = {
           }
         ]
       }
+    },
+    "2026-11-02": {
+      "counts": {},
+      "pending": [],
+      "done": [],
+      "intake": {
+        "online": 0,
+        "offline": 0,
+        "unknown": 0
+      },
+      "updatedAt": ""
     }
   },
   "resp": {
@@ -408081,18 +408092,26 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-02 05:26",
+    "at": "2026-11-02 05:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": false,
-    "error": "GDRIVE_* 환경변수 없음",
-    "rows": 0,
-    "named": 0,
-    "unknownName": 0,
+    "ok": true,
+    "error": "",
+    "rows": 4855,
+    "named": 1272,
+    "unknownName": 288,
     "beforeStart": 0,
-    "done": 0,
-    "byStatus": {}
+    "done": 1272,
+    "byStatus": {
+      "일정등록완료": 817,
+      "1차부재": 269,
+      "점주직접접수": 105,
+      "설치불가": 24,
+      "(빈칸)": 7,
+      "자가설치": 38,
+      "설치보류요청": 12
+    }
   },
   "noteV": {
     "2026-09-29": 2,
@@ -408216,10 +408235,11 @@ window.SLACK_DATA = {
     "2026-10-29": 2,
     "2026-10-30": 2,
     "2026-10-31": 2,
-    "2026-11-01": 2
+    "2026-11-01": 2,
+    "2026-11-02": 2
   },
   "noteMig": {
-    "at": "2026-11-02 05:26",
+    "at": "2026-11-02 05:30",
     "pri": {
       "days": 0,
       "failed": [],
@@ -408231,7 +408251,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 125,
+      "budgetLeft": 124,
       "failed": []
     }
   }
