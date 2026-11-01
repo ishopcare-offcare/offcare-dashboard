@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28323,
+  "version": 28324,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296905,11 +296905,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:00"
+      "updatedAt": "10:00",
+      "absent": [
+        {
+          "time": "10:00",
+          "store": "뭉치",
+          "biz": "7751303038",
+          "handler": "배선유",
+          "cat": "delivery",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -297024,7 +297034,7 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793495734.897,
+        "lastSeen": 1793495826.925,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
@@ -407447,7 +407457,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 10:15",
+    "at": "2026-11-01 10:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407593,7 +407603,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 10:15",
+    "at": "2026-11-01 10:17",
     "pri": {
       "days": 0,
       "failed": [],
