@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4493,
- "updatedAt": "2026-11-01 18:20",
+ "version": 4494,
+ "updatedAt": "2026-11-01 19:45",
  "days": 30,
  "items": [
   {
@@ -60573,31 +60573,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790991713183469"
-  },
-  {
-   "ts": "1790937515.875629",
-   "date": "2026-10-02",
-   "time": "19:38",
-   "store": "진미오뎅",
-   "biz": "3960902955",
-   "pos": "퍼스트포스",
-   "content": "메뉴 수정 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "대신 해주신데요",
-    "사유:\n• 카테고리 어묵 메뉴에 라면/사이드 메뉴가 전부 들어가 있음",
-    "광두님 처리 완료"
-   ],
-   "rc": 4,
-   "lr": "1790938296.506919",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790937515875629"
   }
  ],
  "ocr": {
