@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28333,
+  "version": 28334,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296921,7 +296921,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "10:52",
+      "updatedAt": "11:25",
       "absent": [
         {
           "time": "10:00",
@@ -296931,7 +296931,42 @@ window.SLACK_DATA = {
           "cat": "delivery",
           "intake": "online"
         }
-      ]
+      ],
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 1
+        },
+        "npsDist": {
+          "10": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "SECTA9": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": []
+      }
     }
   },
   "resp": {
@@ -297039,7 +297074,7 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793499327.871,
+        "lastSeen": 1793499936.307,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
@@ -407471,26 +407506,18 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 11:15",
+    "at": "2026-11-01 11:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": true,
-    "error": "",
-    "rows": 4855,
-    "named": 1272,
-    "unknownName": 288,
+    "ok": false,
+    "error": "fetch failed",
+    "rows": 0,
+    "named": 0,
+    "unknownName": 0,
     "beforeStart": 0,
-    "done": 1272,
-    "byStatus": {
-      "일정등록완료": 817,
-      "1차부재": 269,
-      "점주직접접수": 105,
-      "설치불가": 24,
-      "(빈칸)": 7,
-      "자가설치": 38,
-      "설치보류요청": 12
-    }
+    "done": 0,
+    "byStatus": {}
   },
   "noteV": {
     "2026-09-29": 2,
@@ -407617,7 +407644,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 11:15",
+    "at": "2026-11-01 11:25",
     "pri": {
       "days": 0,
       "failed": [],
