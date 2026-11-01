@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28413,
+  "version": 28414,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,8 +296871,8 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "김기범": 3,
-          "배선유": 9
+          "배선유": 10,
+          "김기범": 3
         },
         "onboarding": {
           "김기범": 1
@@ -296886,6 +296886,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:43",
+          "store": "전남화훼자재",
+          "biz": "4162145871",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포터프(pc) 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "이미 온보딩 완료 / 터프 사용과 포터프 사용 차이점 안내",
+          "rr": 1
+        },
         {
           "time": "14:36",
           "store": "어락",
@@ -297067,7 +297079,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 3,
         "unknown": 0
       },
@@ -297207,24 +297219,17 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793512392.47,
+        "lastSeen": 1793512470.116,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793512392.47,
+        "lastSeen": 1793512470.116,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
-      },
-      "1793511821.578819": {
-        "post": "1793511821.578819",
-        "lastSeen": 1793512392.47,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 10
       }
     },
     "days": {
@@ -407725,14 +407730,15 @@ window.SLACK_DATA = {
             "store": "전남화훼자재",
             "biz": "4162145871",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 14:53",
+    "at": "2026-11-01 14:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407878,7 +407884,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 14:53",
+    "at": "2026-11-01 14:54",
     "pri": {
       "days": 0,
       "failed": [],
