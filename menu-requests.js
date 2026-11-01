@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4476,
- "updatedAt": "2026-11-01 10:53",
+ "version": 4477,
+ "updatedAt": "2026-11-01 11:29",
  "days": 30,
  "items": [
   {
@@ -64690,30 +64690,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790909730169859"
-  },
-  {
-   "ts": "1790907977.029039",
-   "date": "2026-10-02",
-   "time": "11:26",
-   "store": "백연전골",
-   "biz": "8050803335",
-   "pos": "기타",
-   "content": "식사류ㅡ 떡만둣국 13,000원",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "머야 웅성",
-    "문자재발송"
-   ],
-   "rc": 2,
-   "lr": "1790908213.317599",
-   "rfx": 3,
-   "status": "dup",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790907977029039"
   }
  ],
  "ocr": {
