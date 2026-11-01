@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28418,
+  "version": 28419,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,8 +296871,8 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "배선유": 10,
-          "김기범": 3
+          "김기범": 4,
+          "배선유": 10
         },
         "onboarding": {
           "김기범": 1
@@ -296886,6 +296886,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:14",
+          "store": "드롭탑(신탄진(상)휴게소)",
+          "biz": "3148207233",
+          "cat": "as",
+          "emp": "김기범",
+          "req": "듀얼모니터 화면 짤림",
+          "hw": "",
+          "intake": "offline",
+          "note": "해상도 설정 완료",
+          "rr": 1
+        },
         {
           "time": "14:43",
           "store": "전남화훼자재",
@@ -297080,7 +297092,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 15,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "15:16",
@@ -297258,14 +297270,14 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793513810.132,
+        "lastSeen": 1793514018.62,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
       },
       "1793508495.612479": {
         "post": "1793508495.612479",
-        "lastSeen": 1793513810.132,
+        "lastSeen": 1793514018.62,
         "r": 1,
         "day": "2026-11-01",
         "idx": 6
@@ -407777,7 +407789,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-01 15:17",
+    "at": "2026-11-01 15:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407923,7 +407935,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 15:16",
+    "at": "2026-11-01 15:20",
     "pri": {
       "days": 0,
       "failed": [],
