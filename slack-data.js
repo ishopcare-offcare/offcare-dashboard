@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28353,
+  "version": 28354,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -296871,7 +296871,7 @@ window.SLACK_DATA = {
     "2026-11-01": {
       "counts": {
         "as": {
-          "배선유": 5
+          "배선유": 6
         },
         "booking": {
           "배선유": 1
@@ -296879,6 +296879,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:54",
+          "store": "청송국수",
+          "biz": "4313901090",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포스 프로그램에서 버튼이 먹지않고 먹통이라고 하심, 프로그램 종료 후 재실행 해봐도 동일하다고 주장하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "전화 연결부터 as연결까지 시간이 20분 가량 걸린 부분에 대해 강하게 컴플레인",
+          "rr": 1
+        },
         {
           "time": "11:49",
           "store": "성차사",
@@ -296952,7 +296964,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 2,
         "unknown": 0
       },
@@ -297109,17 +297121,10 @@ window.SLACK_DATA = {
       },
       "1793494800.891989": {
         "post": "1793494800.891989",
-        "lastSeen": 1793502927.264,
+        "lastSeen": 1793503565.506,
         "r": 1,
         "day": "2026-11-01",
         "idx": 0
-      },
-      "1793501675.653019": {
-        "post": "1793501675.653019",
-        "lastSeen": 1793502927.264,
-        "r": 1,
-        "day": "2026-11-01",
-        "idx": 4
       }
     },
     "days": {
@@ -407567,14 +407572,15 @@ window.SLACK_DATA = {
             "store": "청송국수",
             "biz": "4313901090",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 26.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-01 12:15",
+    "at": "2026-11-01 12:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -407720,7 +407726,7 @@ window.SLACK_DATA = {
     "2026-11-01": 2
   },
   "noteMig": {
-    "at": "2026-11-01 12:15",
+    "at": "2026-11-01 12:26",
     "pri": {
       "days": 0,
       "failed": [],
