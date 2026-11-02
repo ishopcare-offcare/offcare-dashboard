@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4554,
- "updatedAt": "2026-11-02 19:00",
+ "version": 4555,
+ "updatedAt": "2026-11-02 19:03",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,1095 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "스크린샷 2026-11-02 185550.png",
+     "fid": "F0CE4TGP725",
+     "from": "댓글",
+     "path": "menu-files/1793613632_543299-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 수제잼",
+       "name": "망고잼",
+       "price": 9000
+      },
+      {
+       "category": "은설 수제잼",
+       "name": "블루베리잼",
+       "price": 9000
+      },
+      {
+       "category": "은설 수제잼",
+       "name": "딸기잼",
+       "price": 9000
+      },
+      {
+       "category": "은설 수제잼",
+       "name": "금귤잼",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185339.png",
+     "fid": "F0CE6MM8FM2",
+     "from": "댓글",
+     "path": "menu-files/1793613632_543299-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "명절 선물세트",
+       "name": "강정월병",
+       "price": 110000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "임시",
+       "price": 20500
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "답례품",
+       "price": 15000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 20000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 30000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "paypal",
+       "price": 200829
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "고급선물세트",
+       "price": 350000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "고급선물세트",
+       "price": 200000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 150000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 100000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 130000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 90000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 85000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 80000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 75000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트 10호",
+       "price": 73000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 70000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 65000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 60000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 55000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 50000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 45000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 35000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "선물세트",
+       "price": 25000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "한식 케이터링",
+       "price": 450000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "오란다,모나카 선물세트",
+       "price": 18000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "정찬민 프로 우승 답례품",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "퀵비용",
+       "price": 23000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "보자기포장",
+       "price": 10000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "택배",
+       "price": 5000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "택배비 2",
+       "price": 4500
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "택배",
+       "price": 4000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "찬합",
+       "price": 30000
+      },
+      {
+       "category": "명절 선물세트",
+       "name": "답례",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185344.png",
+     "fid": "F0CE6MMAUSG",
+     "from": "댓글",
+     "path": "menu-files/1793613632_543299-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "수업료",
+       "name": "꽃정과",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "약식/오븐찰떡",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "흑임자수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "생강청 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "현미견과바 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "쌀강정 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "호두강정 수업",
+       "price": 200000
+      },
+      {
+       "category": "수업료",
+       "name": "김부각 수업",
+       "price": 350000
+      },
+      {
+       "category": "수업료",
+       "name": "월병 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "개성약과 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "금귤정과, 금귤건정과, ...",
+       "price": 200000
+      },
+      {
+       "category": "수업료",
+       "name": "곶감단지 수업",
+       "price": 350000
+      },
+      {
+       "category": "수업료",
+       "name": "양갱수업 (구절/미...",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "장식양갱수업 (고급반)",
+       "price": 350000
+      },
+      {
+       "category": "수업료",
+       "name": "도라지정과 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "올리브정과 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "설기+케이크 수업",
+       "price": 300000
+      },
+      {
+       "category": "수업료",
+       "name": "오란다 수업",
+       "price": 200000
+      },
+      {
+       "category": "수업료",
+       "name": "양갱케이크",
+       "price": 250000
+      },
+      {
+       "category": "수업료",
+       "name": "크리스마스리스 쿠키 ...",
+       "price": 30000
+      },
+      {
+       "category": "수업료",
+       "name": "현미견과바 만들기 체...",
+       "price": 25000
+      },
+      {
+       "category": "수업료",
+       "name": "오란다 만들기 체험활동",
+       "price": 25000
+      },
+      {
+       "category": "수업료",
+       "name": "꽃큐브양갱 만들기 체...",
+       "price": 30000
+      },
+      {
+       "category": "수업료",
+       "name": "국립극장 쿠폰 비용",
+       "price": 5000
+      },
+      {
+       "category": "수업료",
+       "name": "현대백화점_특강비용",
+       "price": 88000
+      },
+      {
+       "category": "수업료",
+       "name": "전통 디저트 만들기 체...",
+       "price": 45000
+      },
+      {
+       "category": "수업료",
+       "name": "견과바 만들기 체험활동",
+       "price": 30000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185351.png",
+     "fid": "F0CE4TJ7FQR",
+     "from": "댓글",
+     "path": "menu-files/1793613632_543299-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 TEA",
+       "name": "히비스커스 (핫/아이...",
+       "price": 6000
+      },
+      {
+       "category": "은설 TEA",
+       "name": "애플파이 홍차 (핫/아...",
+       "price": 6000
+      },
+      {
+       "category": "은설 TEA",
+       "name": "캐모마일 (핫/아이스)",
+       "price": 6000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185356.png",
+     "fid": "F0CE126LYVC",
+     "from": "댓글",
+     "path": "menu-files/1793613632_543299-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 커피",
+       "name": "샷추가/아이스변경",
+       "price": 500
+      },
+      {
+       "category": "은설 커피",
+       "name": "아메리카노 / 핫 /아이...",
+       "price": 4000
+      },
+      {
+       "category": "은설 커피",
+       "name": "핫초코 / 아이스초코",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185402.png",
+     "fid": "F0CE2R59M1Q",
+     "from": "댓글",
+     "path": "menu-files/1793613632_543299-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 청 / 에이드",
+       "name": "생강차(핫)",
+       "price": 6000
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "금귤자몽아이스",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "수정과",
+       "price": 7500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "자몽차(핫/아이스)",
+       "price": 6000
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "레몬차(핫/아이스)",
+       "price": 6000
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "레몬블루베리차(핫/...",
+       "price": 6000
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "금귤차(핫/아이스)",
+       "price": 6000
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "핫초코",
+       "price": 5000
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "금귤(에이드)",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "레몬(에이드)",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "자몽(에이드)",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "레몬블루베리(에이드)",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "초코아이스라떼",
+       "price": 5500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "생강라떼",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "블루베리/커피 쉐이크",
+       "price": 6500
+      },
+      {
+       "category": "은설 청 / 에이드",
+       "name": "생강청 500ml",
+       "price": 50000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185406.png",
+     "fid": "F0CEXC5ARCY",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 디저트",
+       "name": "생강청500",
+       "price": 50000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "음료",
+       "price": 6000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "생강청",
+       "price": 35000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "도라지정과",
+       "price": 15000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "선물세트",
+       "price": 30000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "올리브정과",
+       "price": 20000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "호두강정",
+       "price": 15000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "강정꾸러미",
+       "price": 15000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "양갱세트",
+       "price": 15000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "금귤건정과",
+       "price": 20000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "곶감산도",
+       "price": 7000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "미니개성약과",
+       "price": 10000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "쌀/현미 /모나카/견과...",
+       "price": 3000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "오란다",
+       "price": 2000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "김부각",
+       "price": 2000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "금귤 통정과",
+       "price": 15000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "곶감단지",
+       "price": 5000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "정과",
+       "price": 5000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "한입강정",
+       "price": 7000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "모듬강정",
+       "price": 10000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "금귤잼(대)",
+       "price": 25000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "개성약과",
+       "price": 5000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "금귤잼(소)",
+       "price": 10000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "정과 (화과자통)",
+       "price": 5000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "잣박산",
+       "price": 20000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "구절스페셜 디저트세트",
+       "price": 100000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "월병",
+       "price": 3000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "추가금",
+       "price": 1000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "택배비용",
+       "price": 4000
+      },
+      {
+       "category": "은설 디저트",
+       "name": "금귤정과",
+       "price": 25000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185412.png",
+     "fid": "F0CDWPVFLRZ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 떡",
+       "name": "택배비",
+       "price": 5000
+      },
+      {
+       "category": "은설 떡",
+       "name": "딸기 미니 양갱케이크",
+       "price": 35000
+      },
+      {
+       "category": "은설 떡",
+       "name": "설기",
+       "price": 30000
+      },
+      {
+       "category": "은설 떡",
+       "name": "약식케이크 (20cm 높...",
+       "price": 70000
+      },
+      {
+       "category": "은설 떡",
+       "name": "수수팥떡(경단)",
+       "price": 30000
+      },
+      {
+       "category": "은설 떡",
+       "name": "수능영양찰떡 + 양갱",
+       "price": 50000
+      },
+      {
+       "category": "은설 떡",
+       "name": "영양찰떡 1kg (약 2...",
+       "price": 70000
+      },
+      {
+       "category": "은설 떡",
+       "name": "구움찰떡 1kg (약 2...",
+       "price": 70000
+      },
+      {
+       "category": "은설 떡",
+       "name": "떡 (낱개)",
+       "price": 3000
+      },
+      {
+       "category": "은설 떡",
+       "name": "꽃송편(12구)",
+       "price": 35000
+      },
+      {
+       "category": "은설 떡",
+       "name": "약식 (1키로)25개",
+       "price": 70000
+      },
+      {
+       "category": "은설 떡",
+       "name": "꽃 하트설기 (개별포장)",
+       "price": 70000
+      },
+      {
+       "category": "은설 떡",
+       "name": "수박설기 (8쪽)",
+       "price": 30000
+      },
+      {
+       "category": "은설 떡",
+       "name": "백설기",
+       "price": 60000
+      },
+      {
+       "category": "은설 떡",
+       "name": "백일떡 1상자 9개",
+       "price": 30000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185419.png",
+     "fid": "F0CE6MR7EUC",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 케이크",
+       "name": "설기케이크",
+       "price": 100000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "블루베리 꽃 설기",
+       "price": 80000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "꽃동산 양갱 케이크...",
+       "price": 60000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "미니양갱케이크",
+       "price": 35000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "양갱케이크",
+       "price": 100000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "카네이션양갱 케이크",
+       "price": 65000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "설기케이크 꽃송편 장...",
+       "price": 60000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "설기떡케이크",
+       "price": 45000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "양갱 2단케이크 (대)...",
+       "price": 200000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "장미양갱 설기 케이크...",
+       "price": 70000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "미니장미양갱 케이크",
+       "price": 60000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "베르사유 장미양갱 케...",
+       "price": 60000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "장미양갱케이크 미니",
+       "price": 12000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "양갱케이크 2단",
+       "price": 150000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "양갱케익 미니 (주문상...",
+       "price": 50000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "무스케익 미니 (주문상...",
+       "price": 50000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "큰 오래오래 건강하세...",
+       "price": 5000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "숫자초",
+       "price": 500
+      },
+      {
+       "category": "은설 케이크",
+       "name": "추가금액",
+       "price": 10000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "여전히 꽃미남 / 앞으...",
+       "price": 1500
+      },
+      {
+       "category": "은설 케이크",
+       "name": "꽃길/꽃미모 / 우리행복...",
+       "price": 3000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "감사 합니다. 사랑합니...",
+       "price": 1000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "두꺼운 영문 해피버스...",
+       "price": 2000
+      },
+      {
+       "category": "은설 케이크",
+       "name": "핑크파트 생일축하합...",
+       "price": 3500
+      },
+      {
+       "category": "은설 케이크",
+       "name": "수국 / 꽃 생일축하 토퍼",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-02 185451.png",
+     "fid": "F0CE4TM8G7K",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "은설 선물세트",
+       "name": "구움영양찰떡",
+       "price": 70000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "나뭇잎약과 30개세트",
+       "price": 65000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "퀵비용",
+       "price": 18600
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "양갱 오란다 월병 세트",
+       "price": 15000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "양갱세트 10구",
+       "price": 50000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "양갱세트 (6구)",
+       "price": 30000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "보석양갱 30구",
+       "price": 40000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "양갱 올리브 정과 세트...",
+       "price": 120000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "꽃큐브양갱 10구세트",
+       "price": 50000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "보자기포장",
+       "price": 10000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "꽃큐브양갱 15구세트",
+       "price": 75000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "큐브양갱 20구세트",
+       "price": 70000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "쌀강정모듬세트",
+       "price": 120000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "인삼꽃주",
+       "price": 60000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "길쭉오란다 30개",
+       "price": 60000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "금귤 진정과 20구세트",
+       "price": 80000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "월병20구",
+       "price": 60000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "월병 곶감단지, 호두강...",
+       "price": 85000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "월병 15구 세트",
+       "price": 45000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "감송편 20구",
+       "price": 60000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "보름달 선물세트 특 2...",
+       "price": 150000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "추석양갱 스페셜 20구...",
+       "price": 100000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "개성약과 월병 20구세...",
+       "price": 80000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "고급선물세트",
+       "price": 200000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "송화가루 다식 30구",
+       "price": 60000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "정과 8각 8구",
+       "price": 65000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "양갱(과일장미) 14구 (...",
+       "price": 65000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "택배 비용",
+       "price": 4000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "양갱, 월병 20구 세트",
+       "price": 65000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "은설 스페셜 디저트 세트",
+       "price": 100000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "장미양갱 10구",
+       "price": 50000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "꽃송편 한상자 (12개)",
+       "price": 35000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "개성약과 (20구)",
+       "price": 100000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "개성약과(15구)",
+       "price": 75000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "개성약과(10구)",
+       "price": 50000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "설기 1박스 (18개)",
+       "price": 50000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "영양찰떡 1박스 (15개)",
+       "price": 70000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "약식 1키로 (15개)",
+       "price": 70000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "금귤정과 4종 세트 (2...",
+       "price": 80000
+      },
+      {
+       "category": "은설 선물세트",
+       "name": "김부각 1박스 (통부각...",
+       "price": 50000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793613722.245139",
    "rfx": 3,
    "status": "wait",
    "handler": null,
