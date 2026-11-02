@@ -3,10 +3,147 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4525,
- "updatedAt": "2026-11-02 13:57",
+ "version": 4526,
+ "updatedAt": "2026-11-02 14:14",
  "days": 30,
  "items": [
+  {
+   "ts": "1793596466.334169",
+   "date": "2026-11-02",
+   "time": "14:14",
+   "store": "단 (daan)",
+   "biz": "2585201266",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CDULP7XGT",
+     "from": "댓글",
+     "path": "menu-files/1793596466_334169-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노 / Americano",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "카페 라떼 / Cafe Latte",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 라떼 / Vanilla Latte",
+       "price": 6300
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜 마키아또 / Caramel Macchiato",
+       "price": 6300
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛 라떼 / Hazelnut Latte",
+       "price": 6300
+      },
+      {
+       "category": "Coffee",
+       "name": "카페 모카 / Cafe Mocha",
+       "price": 7300
+      },
+      {
+       "category": "Coffee",
+       "name": "콜드브루 / Cold Brew",
+       "price": 6000
+      },
+      {
+       "category": "Cream Latte",
+       "name": "아몬드 / Almond",
+       "price": 7500
+      },
+      {
+       "category": "Cream Latte",
+       "name": "흑임자 / Black Sesame",
+       "price": 7500
+      },
+      {
+       "category": "Ade",
+       "name": "애플 페퍼민트 에이드 / Apple Peppermint Ade",
+       "price": 7000
+      },
+      {
+       "category": "Ade",
+       "name": "자몽에이드 / Grapefruit Ade",
+       "price": 7000
+      },
+      {
+       "category": "Ade",
+       "name": "레몬에이드 / Lemonade",
+       "price": 7000
+      },
+      {
+       "category": "Non-coffee Latte",
+       "name": "초코 라떼 / Chocolate Latte",
+       "price": 7000
+      },
+      {
+       "category": "Non-coffee Latte",
+       "name": "쑥 라떼 / Mugwort Latte",
+       "price": 6800
+      },
+      {
+       "category": "Non-coffee Latte",
+       "name": "딸기 라떼 / Strawberry Latte",
+       "price": 7000
+      },
+      {
+       "category": "Tea",
+       "name": "애플티 / Apple Tea",
+       "price": 7000
+      },
+      {
+       "category": "Tea",
+       "name": "유자차 / Yuzu Tea",
+       "price": 7000
+      },
+      {
+       "category": "Tea",
+       "name": "자몽 허니 블랙티 / Grapefruit Honey Black Tea",
+       "price": 7000
+      },
+      {
+       "category": "Tea",
+       "name": "캐모마일 / Chamomile",
+       "price": 6500
+      },
+      {
+       "category": "Tea",
+       "name": "얼그레이 / Earl Grey",
+       "price": 6500
+      },
+      {
+       "category": "Option",
+       "name": "디카페인 / Decaf",
+       "price": 0
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793596472.214819",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793596466334169"
+  },
   {
    "ts": "1793594795.076149",
    "date": "2026-11-02",
