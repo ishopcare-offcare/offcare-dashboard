@@ -3,10 +3,38 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4505,
- "updatedAt": "2026-11-02 11:00",
+ "version": 4506,
+ "updatedAt": "2026-11-02 11:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1793585208.451189",
+   "date": "2026-11-02",
+   "time": "11:06",
+   "store": "",
+   "biz": "",
+   "pos": "토스포스",
+   "content": "[📧 메일] 제목: [로칼 은평점] 토스프론트 메뉴 이미지 전달드립니다.\n로칼 은평점 메뉴 이미지.zip\n <https://drive.google.com/file/d/1rnBqH8IbxCXmz5Q4vLwjtSb_rvrLqIs9/view?usp=drive_web>\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a199fe5fdbb0c49>)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1rnBqH8IbxCXmz5Q4vLwjtSb_rvrLqIs9/view?usp=drive_web"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "matt": [],
+   "mail": {
+    "link": "https://mail.google.com/mail/u/0/#inbox/1a199fe5fdbb0c49",
+    "big": 0
+   },
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793585208451189"
+  },
   {
    "ts": "1793584765.378309",
    "date": "2026-11-02",
