@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4520,
- "updatedAt": "2026-11-02 13:23",
+ "version": 4521,
+ "updatedAt": "2026-11-02 13:34",
  "days": 30,
  "items": [
   {
@@ -21,10 +21,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "완료"
+    "완료",
+    "님 안녕하세요!\n해당 매장 선물셋트 카테고리에 아래 메뉴 등록이 필요하다고 하다고 하십니다..\n혹시 수정 가능할까요?!\n\n생강청300ml25000\n쌍화차300ml20000\n대추고200g15000\n곰돌이쌀마들렌2500원수정\n과일모찌 6000\n과일그릭요거트모찌6000\n생초코모찌 6000원\n오픈할인행사 모찌4500"
    ],
-   "rc": 1,
-   "lr": "1793591598.030349",
+   "rc": 2,
+   "lr": "1793594021.530479",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
