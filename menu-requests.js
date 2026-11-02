@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4531,
- "updatedAt": "2026-11-02 15:32",
+ "version": 4532,
+ "updatedAt": "2026-11-02 15:37",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "(전통차) -> 한방도라지청 100ml,  200ml →  추가\n(음료) -> 수정과  → 삭제\n(군것질) -> 인절미구이3개 → 5개 로 변경, 가래떡 구이 1개 →  2개 로 변경"
    ],
-   "rc": 1,
-   "lr": "1793600245.352689",
+   "rc": 2,
+   "lr": "1793601331.949999",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
