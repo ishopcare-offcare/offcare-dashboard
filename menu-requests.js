@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4518,
- "updatedAt": "2026-11-02 12:53",
+ "version": 4519,
+ "updatedAt": "2026-11-02 13:21",
  "days": 30,
  "items": [
   {
@@ -60903,32 +60903,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791001346000849"
-  },
-  {
-   "ts": "1791001308.185889",
-   "date": "2026-10-03",
-   "time": "13:21",
-   "store": "아늑",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 아늑 메뉴 보내드립니다!!\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a0fffe603eedef0>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a0fffe603eedef0",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791001308185889"
   }
  ],
  "ocr": {
