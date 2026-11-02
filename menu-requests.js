@@ -3,10 +3,386 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4497,
- "updatedAt": "2026-11-02 09:20",
+ "version": 4498,
+ "updatedAt": "2026-11-02 09:26",
  "days": 30,
  "items": [
+  {
+   "ts": "1793579079.030819",
+   "date": "2026-11-02",
+   "time": "09:24",
+   "store": "꼬피피 정관점",
+   "biz": "6980803514",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261101_201352982.jpg",
+     "fid": "F0CDT700BM1",
+     "from": "댓글",
+     "path": "menu-files/1793579079_030819-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "무삥(2pcs)",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "카이지아오꿍",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "팟땡",
+       "price": 10000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "미니쌀국수",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "공기밥",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "면추가",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "찹쌀밥",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "포장용기",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261101_201352982_01.jpg",
+     "fid": "F0CDU50P421",
+     "from": "댓글",
+     "path": "menu-files/1793579079_030819-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "이벤트",
+       "name": "까이팟메마무앙+타이거 생맥주2잔",
+       "price": 40000
+      },
+      {
+       "category": "이벤트",
+       "name": "까이팟메마무앙+쏨땀타이+타이거 생맥주2잔",
+       "price": 52000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261101_201352982_02.jpg",
+     "fid": "F0CDU55V05T",
+     "from": "댓글",
+     "path": "menu-files/1793579079_030819-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "타이음료",
+       "name": "오이시 포도",
+       "price": 3500
+      },
+      {
+       "category": "타이음료",
+       "name": "오이시 레몬",
+       "price": 3500
+      },
+      {
+       "category": "타이음료",
+       "name": "탄산수(상하)",
+       "price": 3500
+      },
+      {
+       "category": "타이음료",
+       "name": "땡모반",
+       "price": 4000
+      },
+      {
+       "category": "타이음료",
+       "name": "타이밀크티",
+       "price": 4000
+      },
+      {
+       "category": "타이음료",
+       "name": "딸기라떼",
+       "price": 4000
+      },
+      {
+       "category": "타이음료",
+       "name": "딸기라떼 1+1",
+       "price": 6000
+      },
+      {
+       "category": "타이음료",
+       "name": "망고라떼",
+       "price": 4500
+      },
+      {
+       "category": "타이음료",
+       "name": "망고라떼 1+1",
+       "price": 8000
+      },
+      {
+       "category": "타이음료",
+       "name": "앰러이하삽(M-150)",
+       "price": 3500
+      },
+      {
+       "category": "타이음료",
+       "name": "분다버그",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261101_201352982_03.jpg",
+     "fid": "F0CDZ8BU47L",
+     "from": "댓글",
+     "path": "menu-files/1793579079_030819-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "하이볼",
+       "name": "조니워커블랙 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "라벨5 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "산토리 진 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "하이볼",
+       "name": "리젠시 하이볼",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261101_201352982_04.jpg",
+     "fid": "F0CETQRJD32",
+     "from": "댓글",
+     "path": "menu-files/1793579079_030819-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "신메뉴",
+       "name": "카무",
+       "price": 23000
+      },
+      {
+       "category": "신메뉴",
+       "name": "팟카나무",
+       "price": 20000
+      },
+      {
+       "category": "신메뉴",
+       "name": "카우카무",
+       "price": 13000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261101_201352982_05.jpg",
+     "fid": "F0CDT71QH19",
+     "from": "댓글",
+     "path": "menu-files/1793579079_030819-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메인메뉴",
+       "name": "센랙남(쌀국수면)",
+       "price": 12000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "운센남(태국당면면)",
+       "price": 13000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "바미남(계란밀가루면)",
+       "price": 12000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "센랙행(쌀국수면)",
+       "price": 12000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "운센행(태국당면면)",
+       "price": 13000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "바미행(계란밀가루면)",
+       "price": 12000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "팟카파오무쌉",
+       "price": 13000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "카오팟꿍",
+       "price": 11000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "카오팟뿌",
+       "price": 15000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "팟타이",
+       "price": 14000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "팟타이운센(당면면)",
+       "price": 14000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "뿌(게)팟퐁커리",
+       "price": 29000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꿍(새우)팟퐁커리",
+       "price": 23000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "까이팟메마무앙",
+       "price": 27000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "삐까이텃 7pcs",
+       "price": 9000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "삐까이텃 14pcs",
+       "price": 16000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "얌운센",
+       "price": 19000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "팟운센",
+       "price": 15000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "똠양꿍",
+       "price": 21000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "랍무",
+       "price": 17000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "쏨땀타이",
+       "price": 13000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "팍붕파이댕",
+       "price": 13000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "쏨땀빠라",
+       "price": 17000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261101_201352982_06.jpg",
+     "fid": "F0CDXEV3CH4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "타이주류",
+       "name": "타이거",
+       "price": 7000
+      },
+      {
+       "category": "타이주류",
+       "name": "싱하",
+       "price": 7000
+      },
+      {
+       "category": "타이주류",
+       "name": "리오",
+       "price": 7000
+      },
+      {
+       "category": "타이주류",
+       "name": "창",
+       "price": 7000
+      },
+      {
+       "category": "타이주류",
+       "name": "생맥주(타이거)",
+       "price": 8000
+      },
+      {
+       "category": "타이주류",
+       "name": "리젠시 500ml",
+       "price": 120000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1793579143.751079",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793579079030819"
+  },
   {
    "ts": "1793578668.851349",
    "date": "2026-11-02",
