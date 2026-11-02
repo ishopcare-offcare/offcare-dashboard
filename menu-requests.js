@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4527,
- "updatedAt": "2026-11-02 14:22",
+ "version": 4528,
+ "updatedAt": "2026-11-02 14:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1793598887.246069",
+   "date": "2026-11-02",
+   "time": "14:54",
+   "store": "온빛",
+   "biz": "8241003023",
+   "pos": "토스포스",
+   "content": "곰돌이 쌀마들렌 \n과일모찌 6000\n과일요거트모찌6000\n생초코모찌6000\n오픈할인행사모찌4500\n디저트카테고리에넣어주시고\n입력되어있는 과일모찌지워주세요\n쌀마들렌도 지워주세요",
+   "special": "제발이번엔제대로해주세요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793598887246069"
+  },
   {
    "ts": "1793596466.334169",
    "date": "2026-11-02",
