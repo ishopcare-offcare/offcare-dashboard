@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4539,
- "updatedAt": "2026-11-02 16:23",
+ "version": 4540,
+ "updatedAt": "2026-11-02 16:24",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "(전통차)--\n 한방도라지청 100ml,  200ml\n삭제 요청드립니다\n완료후 솔라피 발송 부탁드립니다"
+   ],
+   "rc": 1,
+   "lr": "1793604188.653729",
    "rfx": 3,
    "status": "wait",
    "handler": null,
