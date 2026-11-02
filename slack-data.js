@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29040,
+  "version": 29041,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -300335,11 +300335,28 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-03": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "07:14",
+          "store": "컴포즈커피 성수코리아IT점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "키오스크 브레이크 타임 설정으로 오픈 불가하여 긴급 원격 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "키오스크 일시정지되어있었음. 해제 후 정상 확인",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -412579,7 +412596,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-03 07:15",
+    "at": "2026-11-03 07:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -412727,7 +412744,7 @@ window.SLACK_DATA = {
     "2026-11-03": 2
   },
   "noteMig": {
-    "at": "2026-11-03 07:15",
+    "at": "2026-11-03 07:30",
     "pri": {
       "days": 0,
       "failed": [],
