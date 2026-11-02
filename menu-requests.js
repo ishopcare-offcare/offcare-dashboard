@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4541,
- "updatedAt": "2026-11-02 16:26",
+ "version": 4542,
+ "updatedAt": "2026-11-02 16:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1793606074.274889",
+   "date": "2026-11-02",
+   "time": "16:54",
+   "store": "장가린짬뽕",
+   "biz": "2820403892",
+   "pos": "",
+   "content": "하이오더 메뉴수정 요청\n음료수가 하나만 2,000원으로 되어있는데  코카콜라/제로 펩시 2,000원, 메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793606074274889"
+  },
   {
    "ts": "1793604173.463349",
    "date": "2026-11-02",
