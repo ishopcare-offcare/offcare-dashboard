@@ -6271,7 +6271,34 @@ function renderOverview(){
       </div>
     </div>
   `;
+  mvpLiftDarkColors();
   if(celebrateMvp && mvp){ celebrateMvp=false; setTimeout(fireMvpConfetti, 250); }
+}
+/* MVP 카드는 차콜 바탕이라, 상점에서 산 진한 이름색(남색 #2d3fa0 등)·어두운 그라데이션 타이틀이 묻힌다.
+ * 카드 안에서만 어두운 색을 같은 색조로 밝힌다(다른 화면의 이름색은 그대로). */
+function mvpLiftColor(r,g,b){
+  const lum=(0.2126*r+0.7152*g+0.0722*b)/255;
+  if(lum>=0.45) return null;                                   // 이미 충분히 밝음
+  r/=255; g/=255; b/=255;
+  const mx=Math.max(r,g,b), mn=Math.min(r,g,b); let h=0, s=0, l=(mx+mn)/2;
+  if(mx!==mn){ const d=mx-mn; s=l>0.5?d/(2-mx-mn):d/(mx+mn);
+    h = mx===r ? (g-b)/d+(g<b?6:0) : mx===g ? (b-r)/d+2 : (r-g)/d+4; h*=60; }
+  return `hsl(${Math.round(h)},${Math.round(Math.min(1,s)*100)}%,${Math.max(72,Math.round(l*100))}%)`;
+}
+function mvpLiftDarkColors(){
+  const box=document.querySelector('#mvpCard .hl-big'); if(!box) return;
+  const parse=c=>{ const m=String(c).match(/rgba?\(\s*(\d+)[,\s]+(\d+)[,\s]+(\d+)/); return m?[+m[1],+m[2],+m[3]]:null; };
+  for(const el of box.querySelectorAll('*')){
+    const cs=getComputedStyle(el);
+    if(/gradient/.test(cs.backgroundImage) && /text/.test(cs.webkitBackgroundClip||cs.backgroundClip)){
+      // 그라데이션 글자 — 색 멈춤점마다 밝힌다
+      const img=cs.backgroundImage.replace(/rgba?\([^)]*\)/g, c=>{ const v=parse(c); const L=v&&mvpLiftColor(...v); return L||c; });
+      if(img!==cs.backgroundImage) el.style.setProperty('background-image', img, 'important');
+      continue;
+    }
+    const v=parse(cs.color); const L=v&&mvpLiftColor(...v);
+    if(L && cs.color!=='rgba(0, 0, 0, 0)') el.style.setProperty('color', L, 'important');
+  }
 }
 // 오늘의 MVP 축하 — 폭죽 + 플래시 + 후광
 let celebrateMvp = true;
