@@ -3,10 +3,72 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4521,
- "updatedAt": "2026-11-02 13:34",
+ "version": 4522,
+ "updatedAt": "2026-11-02 13:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1793594795.076149",
+   "date": "2026-11-02",
+   "time": "13:46",
+   "store": "김밥천국",
+   "biz": "7880400205",
+   "pos": "오케이포스",
+   "content": "• *<https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793515679684789|메뉴 가격 오등록>*으로 수정 부탁드립니다.\n• 오케이포스 사용 중\n상호: 김밥천국 / KIS\n사업자번호: ···\n핸드폰 번호: ···\n주소: 서울특별시 구로구 오류동\n인입유형: 오프라인\n공급유형: 임대\n배달제휴:\n자대리점: N\n내용: 메뉴 수정 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CDVE6C329",
+     "from": "댓글",
+     "path": "menu-files/1793594795_076149-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "콩비지찌개",
+       "price": 9500
+      },
+      {
+       "category": "",
+       "name": "소머리곰탕",
+       "price": 11000
+      },
+      {
+       "category": "",
+       "name": "고구마돈가스",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "열무냉면",
+       "price": 9500
+      },
+      {
+       "category": "",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "환타",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793594806.306299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793594795076149"
+  },
   {
    "ts": "1793590033.125769",
    "date": "2026-11-02",
