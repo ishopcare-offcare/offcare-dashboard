@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28561,
+  "version": 28562,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297433,22 +297433,12 @@ window.SLACK_DATA = {
       "counts": {
         "transfer": {
           "송태양": 1
+        },
+        "menu": {
+          "김동욱": 1
         }
       },
-      "pending": [
-        {
-          "time": "08:02",
-          "store": "온빛",
-          "biz": "8241003023",
-          "handler": "김동욱",
-          "cat": "menu",
-          "intake": "online",
-          "req": "",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "08:45",
@@ -297461,6 +297451,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "포프(노트북)+유프+키오스크 명변 완료입니다",
           "rr": 2
+        },
+        {
+          "time": "08:02",
+          "store": "온빛",
+          "biz": "8241003023",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         }
       ],
       "intake": {
@@ -297468,7 +297469,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:15",
+      "updatedAt": "09:18",
       "voc": {
         "responses": 1,
         "install": {
@@ -297557,26 +297558,30 @@ window.SLACK_DATA = {
       },
       "1793577620.512959": {
         "post": "1793577620.512959",
-        "lastSeen": 1793578617.658
+        "lastSeen": 1793578699.344
       },
       "1793577609.493869": {
         "post": "1793577609.493869",
-        "lastSeen": 1793578617.658,
+        "lastSeen": 1793578699.344,
         "r": 1,
         "day": "2026-11-02",
         "idx": 1
       },
       "1793577633.587849": {
         "post": "1793577633.587849",
-        "lastSeen": 1793578617.658
+        "lastSeen": 1793578699.344
       },
       "1793578542.052959": {
         "post": "1793578542.052959",
-        "lastSeen": 1793578617.658
+        "lastSeen": 1793578699.344
       },
       "1793578500.963539": {
         "post": "1793578500.963539",
-        "lastSeen": 1793578617.658
+        "lastSeen": 1793578699.344
+      },
+      "1793578694.320469": {
+        "post": "1793578694.320469",
+        "lastSeen": 1793578699.344
       }
     },
     "days": {
@@ -408208,7 +408213,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-02 09:17",
+    "at": "2026-11-02 09:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408355,7 +408360,7 @@ window.SLACK_DATA = {
     "2026-11-02": 2
   },
   "noteMig": {
-    "at": "2026-11-02 09:16",
+    "at": "2026-11-02 09:18",
     "pri": {
       "days": 0,
       "failed": [],
