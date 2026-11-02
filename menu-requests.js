@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4508,
- "updatedAt": "2026-11-02 11:26",
+ "version": 4509,
+ "updatedAt": "2026-11-02 11:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1793586753.301059",
+   "date": "2026-11-02",
+   "time": "11:32",
+   "store": "양평해장국   원흥역점",
+   "biz": "2801301416",
+   "pos": "오케이포스",
+   "content": "양선지해장국11000\n양해장국 11000\n내장탕13000\n황태해장국10000\n소고기국밥11000\n소머리국밥13000\n굽창전골50000\n소머리수육50000\n밴댕이무침35000\n수육회무침80000\n양추가3000\n내창추가3000\n소고기추가3000\n선지추가2000\n우거지추가2000",
+   "special": "이메뉴만  등록해주시고",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793586753301059"
+  },
   {
    "ts": "1793585208.451189",
    "date": "2026-11-02",
