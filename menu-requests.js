@@ -3,10 +3,139 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4546,
- "updatedAt": "2026-11-02 18:38",
+ "version": 4547,
+ "updatedAt": "2026-11-02 18:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1793612352.580559",
+   "date": "2026-11-02",
+   "time": "18:39",
+   "store": "은설전통수제디저트",
+   "biz": "7411202266",
+   "pos": "",
+   "content": "메뉴등록요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_0483.jpg",
+     "fid": "F0CDME16J6T",
+     "from": "댓글",
+     "path": "menu-files/1793612352_580559-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "선물권",
+       "name": "선물권 1",
+       "price": 20000
+      },
+      {
+       "category": "선물권",
+       "name": "선물권 2",
+       "price": 30000
+      },
+      {
+       "category": "선물권",
+       "name": "선물권 3",
+       "price": 50000
+      },
+      {
+       "category": "선물권",
+       "name": "선물권 4",
+       "price": 100000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_0482.jpg",
+     "fid": "F0CE4N8DLC9",
+     "from": "댓글",
+     "path": "menu-files/1793612352_580559-1.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0481.jpg",
+     "fid": "F0CEX6TDZH6",
+     "from": "댓글",
+     "path": "menu-files/1793612352_580559-2.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0480.jpg",
+     "fid": "F0CDXGP0C5T",
+     "from": "댓글",
+     "path": "menu-files/1793612352_580559-3.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0479.jpg",
+     "fid": "F0CE2KTUE74",
+     "from": "댓글",
+     "path": "menu-files/1793612352_580559-4.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0478.jpg",
+     "fid": "F0CE0SA1622",
+     "from": "댓글",
+     "path": "menu-files/1793612352_580559-5.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0477.jpg",
+     "fid": "F0CDXGNDT29",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0476.jpg",
+     "fid": "F0CE4N8L6JV",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0475.jpg",
+     "fid": "F0CE2KUHL58",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "IMG_0474.jpg",
+     "fid": "F0CE0SACV54",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793612402.255849",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793612352580559"
+  },
   {
    "ts": "1793612230.642559",
    "date": "2026-11-02",
