@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4537,
- "updatedAt": "2026-11-02 16:09",
+ "version": 4538,
+ "updatedAt": "2026-11-02 16:15",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,162 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CDVD9ALQ3",
+     "from": "댓글",
+     "path": "menu-files/1793602585_685419-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "세트메뉴",
+       "name": "2인 커플 세트",
+       "price": 41000
+      },
+      {
+       "category": "세트메뉴",
+       "name": "돌판 한판 세트",
+       "price": 52000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "비법소스 돌판간장쪽갈비 한판",
+       "price": 44000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "대구식매콤 쪽갈비 한판",
+       "price": 45000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "불맛가득 숯불닭구이",
+       "price": 29000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "쪽갈비 반판 추가",
+       "price": 23000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "해장 차돌된장술밥",
+       "price": 5000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "진짜열무김치물냉면",
+       "price": 7000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "진짜열무김치비빔냉면",
+       "price": 7000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "[Self] 참치주먹밥",
+       "price": 4000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "추억의도시락",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "뚝빼기떡볶이",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "치즈뚝빼기떡볶이",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "추가사리",
+       "name": "분모자 (숯불닭구이 전용)",
+       "price": 2000
+      },
+      {
+       "category": "추가사리",
+       "name": "찍먹 치즈 추가",
+       "price": 3000
+      },
+      {
+       "category": "추가사리",
+       "name": "우동사리 (숯불닭구이 전용)",
+       "price": 2000
+      },
+      {
+       "category": "추가사리",
+       "name": "셀프볶음밥 (숯불닭구이 전용)",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "아사히 420ml",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "아사히 한입 맥주",
+       "price": 5500
+      },
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맛있는 참",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "켈리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "무료 제공 서비스",
+       "name": "슬러쉬 무한제공",
+       "price": 0
+      },
+      {
+       "category": "무료 제공 서비스",
+       "name": "동치미도토리묵사발 무한제공 (기본 주문 시)",
+       "price": 0
+      },
+      {
+       "category": "무료 제공 서비스",
+       "name": "치즈옥수수콘 무한리필 (기본 주문 시)",
+       "price": 0
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793603652.094329",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
