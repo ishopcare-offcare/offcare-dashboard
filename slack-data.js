@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28554,
+  "version": 28555,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297430,7 +297430,11 @@ window.SLACK_DATA = {
       }
     },
     "2026-11-02": {
-      "counts": {},
+      "counts": {
+        "transfer": {
+          "송태양": 1
+        }
+      },
       "pending": [
         {
           "time": "08:02",
@@ -297445,9 +297449,22 @@ window.SLACK_DATA = {
           ]
         }
       ],
-      "done": [],
+      "done": [
+        {
+          "time": "08:45",
+          "store": "샐러드버디 외대점",
+          "biz": "5886600637",
+          "cat": "transfer",
+          "emp": "송태양",
+          "req": "11월 2일 오전 9시 / 메뉴 복사 O / 프론트, 유프, 키오스크 스탠드set",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(노트북)+유프+키오스크 명변 완료입니다",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -297538,31 +297555,24 @@ window.SLACK_DATA = {
         "post": "1793545188.619619",
         "lastSeen": 1793564779.228
       },
-      "1793576700.456879": {
-        "post": "1793576700.456879",
-        "lastSeen": 1793577797.599,
-        "r": 1,
-        "day": "2026-11-02",
-        "idx": 0
-      },
       "1793576700.196149": {
         "post": "1793576700.196149",
-        "lastSeen": 1793577797.599
+        "lastSeen": 1793578137.048
       },
       "1793577620.512959": {
         "post": "1793577620.512959",
-        "lastSeen": 1793577797.599
+        "lastSeen": 1793578137.048
       },
       "1793577609.493869": {
         "post": "1793577609.493869",
-        "lastSeen": 1793577797.599,
+        "lastSeen": 1793578137.048,
         "r": 1,
         "day": "2026-11-02",
         "idx": 1
       },
       "1793577633.587849": {
         "post": "1793577633.587849",
-        "lastSeen": 1793577797.599
+        "lastSeen": 1793578137.048
       }
     },
     "days": {
@@ -408178,7 +408188,8 @@ window.SLACK_DATA = {
             "store": "샐러드버디 외대점",
             "biz": "5886600637",
             "who": "송태양",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 21.1
           },
           {
             "hm": "09:00",
@@ -408193,7 +408204,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-02 09:03",
+    "at": "2026-11-02 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -408340,7 +408351,7 @@ window.SLACK_DATA = {
     "2026-11-02": 2
   },
   "noteMig": {
-    "at": "2026-11-02 09:03",
+    "at": "2026-11-02 09:08",
     "pri": {
       "days": 0,
       "failed": [],
