@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4529,
- "updatedAt": "2026-11-02 14:59",
+ "version": 4530,
+ "updatedAt": "2026-11-02 15:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1793600211.994609",
+   "date": "2026-11-02",
+   "time": "15:16",
+   "store": "풍차",
+   "biz": "3091600169",
+   "pos": "퍼스트포스",
+   "content": "메뉴 수정 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "(전통차) -> 한방도라지청 100ml,  200ml →  추가\n(음료) -> 수정과  → 삭제\n(군것질) -> 인절미구이3개 → 5개 로 변경, 가래떡 구이 1개 →  2개 로 변경"
+   ],
+   "rc": 1,
+   "lr": "1793600245.352689",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793600211994609"
+  },
   {
    "ts": "1793598887.246069",
    "date": "2026-11-02",
