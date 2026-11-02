@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28715,
+  "version": 28716,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297682,7 +297682,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "완료",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "12:11",
@@ -298462,21 +298462,21 @@ window.SLACK_DATA = {
       },
       "1793583901.222339": {
         "post": "1793583901.222339",
-        "lastSeen": 1793594006.811,
+        "lastSeen": 1793594109.011,
         "r": 1,
         "day": "2026-11-02",
         "idx": 24
       },
       "1793583919.330899": {
         "post": "1793583919.330899",
-        "lastSeen": 1793594006.811,
+        "lastSeen": 1793594109.011,
         "r": 1,
         "day": "2026-11-02",
         "idx": 25
       },
       "1793586816.949349": {
         "post": "1793586816.949349",
-        "lastSeen": 1793594006.811,
+        "lastSeen": 1793594109.011,
         "r": 1,
         "day": "2026-11-02",
         "idx": 40
@@ -298487,14 +298487,14 @@ window.SLACK_DATA = {
       },
       "1793590202.541029": {
         "post": "1793590202.541029",
-        "lastSeen": 1793594006.811,
+        "lastSeen": 1793594109.011,
         "r": 1,
         "day": "2026-11-02",
         "idx": 48
       },
       "1793592900.566939": {
         "post": "1793592900.566939",
-        "lastSeen": 1793594006.811
+        "lastSeen": 1793594109.011
       }
     },
     "days": {
@@ -409636,13 +409636,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-02 13:34",
+    "at": "2026-11-02 13:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4873,
+    "rows": 4875,
     "named": 1272,
     "unknownName": 288,
     "beforeStart": 0,
@@ -409783,7 +409783,7 @@ window.SLACK_DATA = {
     "2026-11-02": 2
   },
   "noteMig": {
-    "at": "2026-11-02 13:33",
+    "at": "2026-11-02 13:35",
     "pri": {
       "days": 0,
       "failed": [],
