@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28725,
+  "version": 28726,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -297461,6 +297461,7 @@ window.SLACK_DATA = {
           "송태양": 4
         },
         "menu": {
+          "서상원": 1,
           "송태양": 3,
           "김동욱": 5,
           "김현기": 1
@@ -297471,6 +297472,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:46",
+          "store": "김밥천국",
+          "biz": "7880400205",
+          "cat": "menu",
+          "emp": "서상원",
+          "req": "• *<https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793515679684789|메뉴 가격 오등록>*으로 수정 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "수정 유선안내",
+          "rr": 2
+        },
         {
           "time": "13:23",
           "store": "사단법인 금정부산외대스포츠클럽",
@@ -298338,25 +298351,26 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 60,
-        "offline": 16,
+        "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "13:46",
+      "updatedAt": "13:53",
       "voc": {
-        "responses": 3,
+        "responses": 4,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 3,
-          "low": 0
+          "count": 4,
+          "low": 1
         },
         "high": {
           "install": 1,
           "nps": 1
         },
         "npsDist": {
+          "0": 1,
           "7": 1,
           "8": 1,
           "10": 1
@@ -298369,8 +298383,8 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "12개월": {
-            "total": 1,
-            "low": 0
+            "total": 2,
+            "low": 1
           },
           "1개월": {
             "total": 1,
@@ -298382,6 +298396,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KSNET": {
+            "total": 1,
+            "low": 1
+          },
           "KIS": {
             "total": 1,
             "low": 0
@@ -298395,8 +298413,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "고객센터 연락이 매우 힘듦": 1
+        },
+        "alerts": [
+          {
+            "time": "13:53",
+            "store": "어반네일",
+            "storeId": "176192",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "상담사 교육 절실히필요",
+                "cat": "고객센터 연락이 매우 힘듦"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       },
       "absent": [
@@ -298475,21 +298518,21 @@ window.SLACK_DATA = {
       },
       "1793583901.222339": {
         "post": "1793583901.222339",
-        "lastSeen": 1793595094.396,
+        "lastSeen": 1793595177.651,
         "r": 1,
         "day": "2026-11-02",
         "idx": 24
       },
       "1793583919.330899": {
         "post": "1793583919.330899",
-        "lastSeen": 1793595094.396,
+        "lastSeen": 1793595177.651,
         "r": 1,
         "day": "2026-11-02",
         "idx": 25
       },
       "1793586816.949349": {
         "post": "1793586816.949349",
-        "lastSeen": 1793595094.396,
+        "lastSeen": 1793595177.651,
         "r": 1,
         "day": "2026-11-02",
         "idx": 40
@@ -298500,32 +298543,25 @@ window.SLACK_DATA = {
       },
       "1793590202.541029": {
         "post": "1793590202.541029",
-        "lastSeen": 1793595094.396,
+        "lastSeen": 1793595177.651,
         "r": 1,
         "day": "2026-11-02",
         "idx": 48
       },
       "1793594438.657159": {
         "post": "1793594438.657159",
-        "lastSeen": 1793595094.396
+        "lastSeen": 1793595177.651
       },
       "1793594550.906429": {
         "post": "1793594550.906429",
-        "lastSeen": 1793595094.396,
+        "lastSeen": 1793595177.651,
         "r": 1,
         "day": "2026-11-02",
         "idx": 61
       },
       "1793594700.490449": {
         "post": "1793594700.490449",
-        "lastSeen": 1793595094.396
-      },
-      "1793594795.076149": {
-        "post": "1793594795.076149",
-        "lastSeen": 1793595094.396,
-        "r": 1,
-        "day": "2026-11-02",
-        "idx": 60
+        "lastSeen": 1793595177.651
       }
     },
     "days": {
@@ -409677,7 +409713,8 @@ window.SLACK_DATA = {
             "store": "김밥천국",
             "biz": "7880400205",
             "who": "서상원",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 5.7
           },
           {
             "hm": "13:42",
@@ -409692,7 +409729,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-02 13:52",
+    "at": "2026-11-02 13:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -409839,7 +409876,7 @@ window.SLACK_DATA = {
     "2026-11-02": 2
   },
   "noteMig": {
-    "at": "2026-11-02 13:51",
+    "at": "2026-11-02 13:52",
     "pri": {
       "days": 0,
       "failed": [],
