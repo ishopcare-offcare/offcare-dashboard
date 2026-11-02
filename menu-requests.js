@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4503,
- "updatedAt": "2026-11-02 10:42",
+ "version": 4504,
+ "updatedAt": "2026-11-02 10:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1793584382.523209",
+   "date": "2026-11-02",
+   "time": "10:53",
+   "store": "코끼리카페 오산점",
+   "biz": "1304800813",
+   "pos": "스파로스포스",
+   "content": "우베 메뉴들 전부 제외해주세요\n우베라떼, 우베카페라떼, 우베말차라떼, 우베딸기라떼,우베컵빙수",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793584382523209"
+  },
   {
    "ts": "1793582527.411539",
    "date": "2026-11-02",
