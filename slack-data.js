@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 28999,
+  "version": 29000,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -300028,23 +300028,23 @@ window.SLACK_DATA = {
         "offline": 40,
         "unknown": 0
       },
-      "updatedAt": "22:23",
+      "updatedAt": "22:34",
       "voc": {
-        "responses": 22,
+        "responses": 23,
         "install": {
           "count": 7,
           "low": 0
         },
         "nps": {
-          "count": 22,
-          "low": 2
+          "count": 23,
+          "low": 3
         },
         "high": {
           "install": 4,
           "nps": 8
         },
         "npsDist": {
-          "0": 1,
+          "0": 2,
           "3": 1,
           "7": 2,
           "8": 8,
@@ -300065,8 +300065,8 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "1개월": {
-            "total": 7,
-            "low": 1
+            "total": 8,
+            "low": 2
           },
           "6개월": {
             "total": 4,
@@ -300086,6 +300086,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOVAN": {
+            "total": 3,
+            "low": 1
+          },
           "KCP": {
             "total": 1,
             "low": 1
@@ -300114,20 +300118,39 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 0
           },
-          "KOVAN": {
-            "total": 2,
-            "low": 0
-          },
           "KSNET": {
             "total": 1,
             "low": 1
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "사용중 오류가 자주 발생함": 1,
           "고객센터 연락이 매우 힘듦": 1
         },
         "alerts": [
+          {
+            "time": "22:34",
+            "store": "김성호 법률사무소",
+            "storeId": "619790",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "최악의 서비스",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "21:04",
             "store": "댕냥그룸스",
@@ -300326,21 +300349,21 @@ window.SLACK_DATA = {
       },
       "1793583901.222339": {
         "post": "1793583901.222339",
-        "lastSeen": 1793626402.154,
+        "lastSeen": 1793626464.941,
         "r": 1,
         "day": "2026-11-02",
         "idx": 24
       },
       "1793583919.330899": {
         "post": "1793583919.330899",
-        "lastSeen": 1793626402.154,
+        "lastSeen": 1793626464.941,
         "r": 1,
         "day": "2026-11-02",
         "idx": 25
       },
       "1793586816.949349": {
         "post": "1793586816.949349",
-        "lastSeen": 1793626402.154,
+        "lastSeen": 1793626464.941,
         "r": 1,
         "day": "2026-11-02",
         "idx": 40
@@ -300351,21 +300374,21 @@ window.SLACK_DATA = {
       },
       "1793590202.541029": {
         "post": "1793590202.541029",
-        "lastSeen": 1793626402.154,
+        "lastSeen": 1793626464.941,
         "r": 1,
         "day": "2026-11-02",
         "idx": 48
       },
       "1793594550.906429": {
         "post": "1793594550.906429",
-        "lastSeen": 1793626402.154,
+        "lastSeen": 1793626464.941,
         "r": 1,
         "day": "2026-11-02",
         "idx": 61
       },
       "1793595565.305969": {
         "post": "1793595565.305969",
-        "lastSeen": 1793626402.154
+        "lastSeen": 1793626464.941
       },
       "1793595938.227689": {
         "post": "1793595938.227689",
@@ -300373,7 +300396,7 @@ window.SLACK_DATA = {
       },
       "1793606220.606669": {
         "post": "1793606220.606669",
-        "lastSeen": 1793626402.154,
+        "lastSeen": 1793626464.941,
         "r": 1,
         "day": "2026-11-02",
         "idx": 118
@@ -412533,7 +412556,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-02 22:33",
+    "at": "2026-11-02 22:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -412680,7 +412703,7 @@ window.SLACK_DATA = {
     "2026-11-02": 2
   },
   "noteMig": {
-    "at": "2026-11-02 22:33",
+    "at": "2026-11-02 22:34",
     "pri": {
       "days": 0,
       "failed": [],
