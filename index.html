@@ -3052,7 +3052,9 @@ function menuregSplitVariants(name){
 function menuregParseGrid(gridId){
   const ta=document.getElementById(gridId||'mrGrid'); if(!ta) return [];
   const rows=[];
-  for(const line of ta.value.split('\n')){
+  // '|' 없이 붙여넣은 원문 줄('아메리카노 4,500원')이 섞여 있어도 그대로 내려받을 수 있게 먼저 정리한다
+  const src=ta.value.split('\n').some(l=>l.trim()&&!l.includes('|'))?menuregTextToLines(ta.value):ta.value.split('\n');
+  for(const line of src){
     const t=line.trim(); if(!t) continue;
     const parts=t.split('|').map(s=>s.trim());
     // 분류 | 상품명 | 가격 | 바코드 | 제조사 | 상품코드 | 재고  (4번째부터는 있으면 쓴다)
@@ -3396,6 +3398,9 @@ function menuregXlExtract(rows){
         else if(/[가-힣a-zA-Z]/.test(s)) texts.push(s);
       }
       name=texts[0]||''; price=nums[0]||0;
+      // 한 칸에 '아메리카노 4,500원' 처럼 이름·가격이 같이 적힌 엑셀 — 칸 안에서 가격을 떼어낸다
+      if(name&&!price&&texts.length===1){ const tl=menuregTextLine(name);
+        if(tl&&tl.length===1&&(tl[0].price||tl[0].sigg)){ name=tl[0].name; price=tl[0].price; sigg=tl[0].sigg; } }
       // 가격 없는 단독 텍스트 행 = 카테고리 구분. 단 '제조사: 전체(사용)' 같은 라벨 문구는 제외 —
       // 표 위쪽 제목/설명이 카테고리로 잡혀 전 품목에 붙는 사고가 있었다.
       if(name&&!price&&texts.length===1&&name.length<=20&&!/[:：]/.test(name)){ curCat=name.replace(/[\[\]<>【】]/g,''); continue; }
@@ -3413,6 +3418,88 @@ function menuregXlExtract(rows){
   }
   return out;
 }
+/* ── 📝 점주가 보낸 자유 텍스트(카톡·문자·메모장) → 그리드 줄 ──────────────
+ * 메뉴명과 가격만 있으면 된다. 바코드·제조사·상품코드·재고는 빈칸으로 두고(양식에서도 공란),
+ * 가격 타입도 비운다(정가 = 공란, '시가' 라고 적힌 것만 시가상품).
+ *   아메리카노 4,500원 / 1. 카페라떼 - 5000 / 바닐라라떼 : 5.5 (=5,500) / 치즈케이크 6천원
+ *   [커피] · <디저트> · 음료: (가격 없는 짧은 줄) → 이후 줄의 분류
+ *   아메리카노 4500 카페라떼 5000 (한 줄에 여럿) → 각각 한 줄
+ * 숫자 뒤에 단위(ml·g·개·인분·잔…)가 붙으면 가격이 아니라 이름의 일부로 본다. */
+const MENUREG_UNIT=/^\s*(ml|mL|ML|l|L|g|kg|cc|oz|%|개|인분|마리|잔|병|캔|매|장|조각|입|팩|p|P|pcs|종|호|cm|mm|인|단|봉|구|알|줄|판|송이|박스|box|ea|EA)(?![가-힣a-zA-Z])/;
+function menuregTextLine(raw){
+  let s=String(raw||'').replace(/ /g,' ').trim();
+  s=s.replace(/^\s*(?:[-•·*▶▷►■□◆◇○●✔✓☞→]+\s*|\d{1,3}\s*[.)]\s+|\(\d{1,3}\)\s*)/,'');   // 글머리·번호
+  if(!s) return null;
+  const sigg=/(시가|싯가|시세)/.test(s);
+  // 가격 후보: 1,234 / 1234 / 4.5 / 6천 / 1만2천 — 원·₩ 접미/접두 허용
+  const re=/(₩\s*)?(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(만\s*(?:\d+\s*천)?|천)?\s*(원)?/g;
+  const cands=[]; let m;
+  while((m=re.exec(s))){
+    const after=s.slice(m.index+m[0].length);
+    if(!m[3]&&!m[4]&&MENUREG_UNIT.test(after)) continue;                  // 500ml · 2인분 · 3개
+    let n=parseFloat(m[2].replace(/,/g,''));
+    if(m[3]){ const man=/만/.test(m[3]), ch=(m[3].match(/(\d+)\s*천/)||[])[1];
+      n = man ? n*10000+(ch?parseInt(ch,10)*1000:0) : n*1000; }
+    else if(/\./.test(m[2]) && n<100) n=Math.round(n*1000);              // 카페 메뉴판의 '4.5' = 4,500
+    if(!Number.isFinite(n) || n%1) continue;
+    if(n<100 && !(n===0&&m[4])) continue;                                // 사이즈·번호 등 작은 수 (단 '0원' 은 0원 상품)
+    if(n>=10000000) continue;
+    cands.push({i:m.index, end:m.index+m[0].length, n});
+  }
+  const clean=t=>t.replace(/(시가|싯가|시세)/g,'').replace(/[\s\-–—:：=…·|,\/~]+$/,'').replace(/^[\s\-–—:：=…·|,\/~]+/,'').replace(/\(\s*\)|\[\s*\]/g,'').trim();
+  const isName=t=>/[가-힣a-zA-Z]/.test(t);
+  if(!cands.length){
+    if(sigg){ const nm=clean(s); return isName(nm)?[{name:nm, price:0, sigg:true}]:null; }
+    return null;
+  }
+  // 한 줄에 '이름 가격' 이 여러 번 → 이름마다 한글 2자 이상이면 나눈다 (HOT/ICE 같은 사이즈 가격은 안 나눈다)
+  if(cands.length>=2){
+    const segs=cands.map((c,k)=>({name:clean(s.slice(k?cands[k-1].end:0, c.i)), price:c.n, sigg:false}));
+    if(segs.every(x=>(x.name.match(/[가-힣]/g)||[]).length>=2)) return segs;
+  }
+  const c=cands[0];
+  let nm=clean(s.slice(0,c.i)); if(!isName(nm)) nm=clean(s.slice(c.end).replace(re,' '));
+  if(!isName(nm)) return null;
+  return [{name:nm, price:sigg?0:c.n, sigg}];
+}
+/* 텍스트 전체 → 그리드 줄. 이미 '|' 로 나뉜 줄은 그대로 두므로 그리드에 섞어 붙여도 안전하다.
+ * 엑셀에서 복사한 표(탭 구분)는 헤더 매핑이 되는 표 추출기로 넘긴다. */
+function menuregTextToLines(text){
+  const src=String(text||'').replace(/\r/g,'').split('\n');
+  const body=src.filter(l=>l.trim());
+  if(body.length && body.filter(l=>l.includes('\t')).length>=Math.max(2,body.length*0.6))
+    return menuregXlExtract(body.map(l=>l.split('\t')));
+  const out=[]; let cat='메뉴';
+  for(const line of src){
+    const t=line.trim(); if(!t) continue;
+    if(t.includes('|')){ out.push(t); continue; }
+    const got=menuregTextLine(t);
+    if(!got){
+      // 가격 없는 짧은 줄 = 분류 제목. 인사말·안내문(길거나 문장부호)은 건너뛴다.
+      const h=t.replace(/^[\s#*=\-–—~]+|[\s#*=\-–—~]+$/g,'').replace(/^[\[<【(〈《]\s*|\s*[\]>】)〉》]$/g,'').replace(/[:：]$/,'').trim();
+      if(h && h.length<=15 && /[가-힣a-zA-Z]/.test(h) && !/[.?!~요다]$/.test(h)) cat=h.replace(/\|/g,'·');
+      continue;
+    }
+    for(const g of got) for(const nm of menuregSplitVariants(g.name))
+      out.push([cat, nm.replace(/\|/g,'·'), g.sigg?'시가':String(g.price)].join(' | '));
+  }
+  return out;
+}
+function menuregTextFill(){   // 변환란에 붙여넣은 원문을 그 자리에서 정리
+  const ta=document.getElementById('mrXlGrid'), info=document.getElementById('mrXlInfo'); if(!ta) return;
+  const raw=ta.value; if(!raw.trim()){ alert('변환란에 점주가 보낸 메뉴 텍스트를 붙여넣은 뒤 눌러주세요.\n예) 아메리카노 4,500원'); return; }
+  const lines=menuregTextToLines(raw);
+  if(!lines.length){ if(info) info.textContent='❌ 메뉴명·가격을 찾지 못했습니다 — 줄마다 "메뉴명 가격" 이 있는지 확인해주세요.'; return; }
+  ta.value=menuregXlCache=lines.join('\n');
+  if(!menuregXlName) menuregXlName='텍스트변환';
+  if(info) info.textContent='✅ 텍스트 → '+lines.length+'개 항목 정리 — 바코드·제조사·상품코드·재고는 빈칸입니다. 검수 후 양식으로 받으세요';
+}
+async function menuregReadText(f){   // 메모장 ANSI(cp949) 저장본도 깨지지 않게
+  const buf=await f.arrayBuffer();
+  let t=new TextDecoder('utf-8').decode(buf);
+  if(t.includes('�')){ try{ t=new TextDecoder('euc-kr').decode(buf); }catch(e){} }
+  return t.replace(/^﻿/,'');
+}
 async function menuregXlUpload(input){
   const f=input.files&&input.files[0]; if(!f) return;
   const info=document.getElementById('mrXlInfo'); if(info) info.textContent='⏳ 변환 중...';
@@ -3420,8 +3507,11 @@ async function menuregXlUpload(input){
     const ext=(f.name.match(/\.[A-Za-z0-9]+$/)||[''])[0].toLowerCase();
     let lines=[];
     if(ext==='.hwp') await loadXlsxLib();          // 한글 바이너리는 SheetJS 의 CFB 파서를 쓴다
-    const docRows=await docToRows(f);             // 워드류(docx·hwpx·odt·hwp)
-    if(docRows){
+    const isTxt=/^[.](txt|text|tsv)$/.test(ext);
+    const docRows=isTxt?null:await docToRows(f);  // 워드류(docx·hwpx·odt·hwp)
+    if(isTxt){                                    // 메모장·카톡 대화 내보내기 — 메뉴명·가격만 뽑는다
+      lines=menuregTextToLines(await menuregReadText(f));
+    }else if(docRows){
       // 표와 문단을 따로 뽑아 합친다(표 헤더 매핑이 문단 행을 삼키지 않도록). 같은 항목은 한 번만.
       const seen=new Set();
       for(const part of [docRows.tables, docRows.paras]){
@@ -3434,7 +3524,7 @@ async function menuregXlUpload(input){
       for(const sn of wb.SheetNames) lines.push(...menuregXlExtract(XLSX.utils.sheet_to_json(wb.Sheets[sn],{header:1,defval:''})));
     }
     if(!lines.length){ if(info) info.textContent='❌ 메뉴 항목을 찾지 못했습니다 — 파일에 메뉴명·가격이 있는지 확인해주세요.'; return; }
-    menuregXlName=f.name.replace(/\.(xlsx?|csv|docx|hwpx?|odt)$/i,'');
+    menuregXlName=f.name.replace(/\.(xlsx?|csv|docx|hwpx?|odt|txt|text|tsv)$/i,'');
     menuregXlCache=lines.join('\n');
     const ta=document.getElementById('mrXlGrid'); if(ta) ta.value=menuregXlCache;
     if(info) info.textContent='✅ '+f.name+' → '+lines.length+'개 항목 추출 — 검수 후 복사/다운로드하세요';
@@ -3701,8 +3791,8 @@ function renderMenuReg(){
     </div>
     ${detail}
     <div class="card">
-      <div class="card-head"><h3>📂 매장 메뉴 파일 → POS 양식 변환</h3><span class="hint">매장이 보내준 메뉴 파일(엑셀 xlsx·xls·csv / 워드 docx / 한글 hwp·hwpx / odt) 또는 메뉴 사진·PDF 업로드 → 자동 추출 → 검수 → 4개 POS 양식</span></div>
-      <input type="file" accept=".xlsx,.xls,.csv,.docx,.hwp,.hwpx,.odt" onchange="menuregXlUpload(this)" style="font-size:13px">
+      <div class="card-head"><h3>📂 매장 메뉴 파일 → POS 양식 변환</h3><span class="hint">매장이 보내준 메뉴 파일(엑셀 xlsx·xls·csv / 워드 docx / 한글 hwp·hwpx / odt / 텍스트 txt) · 카톡·문자 텍스트 붙여넣기 또는 메뉴 사진·PDF 업로드 → 자동 추출 → 검수 → 4개 POS 양식</span></div>
+      <input type="file" accept=".xlsx,.xls,.csv,.docx,.hwp,.hwpx,.odt,.txt,.tsv" onchange="menuregXlUpload(this)" style="font-size:13px">
       <div ondragover="event.preventDefault();this.style.background='rgba(94,92,230,.10)'" ondragleave="this.style.background=''" ondrop="event.preventDefault();this.style.background='';menuregOcrFiles(event.dataTransfer.files)"
         style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px;padding:10px 12px;border:1.5px dashed var(--line,#cfd3da);border-radius:10px">
         <label class="btn" style="background:var(--blue);color:#fff;border-color:var(--blue);cursor:pointer;margin:0">🖼 사진·PDF → 텍스트 변환<input type="file" accept="image/*,application/pdf,.heic,.heif" multiple style="display:none" onchange="menuregOcrFiles(this.files);this.value=''"></label>
@@ -3710,6 +3800,10 @@ function renderMenuReg(){
       </div>
       <div id="mrXlInfo" class="hint" style="margin-top:6px">${menuregUndoHTML()||(menuregXlName?'📄 '+escapeHtml(menuregXlName)+' (이전 변환 유지)':'')}</div>
       <textarea id="mrXlGrid" rows="8" style="width:100%;font-family:ui-monospace,Consolas,monospace;font-size:13px;border:1px solid var(--line,#ddd);border-radius:10px;padding:10px;margin-top:8px" oninput="menuregXlCache=this.value" placeholder="업로드하면 여기에 '분류 | 상품명 | 가격 | 바코드 | 제조사 | 상품코드 | 재고' 형식으로 추출됩니다. 원본에 없는 칸은 비어 있고, 직접 입력·수정도 가능합니다.">${escapeHtml(menuregXlCache)}</textarea>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center">
+        <button class="btn" onclick="menuregTextFill()">📝 붙여넣은 텍스트 정리</button>
+        <span class="hint">점주가 카톡·문자로 보낸 메뉴(예: <b>아메리카노 4,500원</b>)를 위 칸에 그대로 붙여넣고 누르세요 · 메뉴명·가격만 있으면 바코드·제조사·상품코드·재고는 빈칸으로 들어갑니다</span>
+      </div>
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center">
         <span style="font-size:12px;font-weight:700;color:#666">📋 매장 메뉴파일을 양식으로 전환하기:</span>
         ${MENUREG_POS.map((p,i4)=>`<button class="btn" style="background:var(--blue);color:#fff;border-color:var(--blue)" onclick="menuregCopy(${i4},'mrXlGrid')">📋 ${p.label}</button>`).join('')}
