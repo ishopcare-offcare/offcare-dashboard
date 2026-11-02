@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4540,
- "updatedAt": "2026-11-02 16:24",
+ "version": 4541,
+ "updatedAt": "2026-11-02 16:26",
  "days": 30,
  "items": [
   {
@@ -23,11 +23,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "(전통차)--\n 한방도라지청 100ml,  200ml\n삭제 요청드립니다\n완료후 솔라피 발송 부탁드립니다"
    ],
-   "rc": 1,
-   "lr": "1793604188.653729",
+   "rc": 2,
+   "lr": "1793604374.618869",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793604173463349"
   },
   {
@@ -46,7 +46,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CDVD9ALQ3",
      "from": "댓글",
-     "path": "menu-files/1793602585_685419-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -190,13 +189,14 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793602585_685419-0.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793603652.094329",
+   "rc": 2,
+   "lr": "1793604301.492649",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
