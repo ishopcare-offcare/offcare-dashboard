@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4555,
- "updatedAt": "2026-11-02 19:03",
+ "version": 4556,
+ "updatedAt": "2026-11-02 20:57",
  "days": 30,
  "items": [
   {
@@ -1151,7 +1151,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_0483.jpg",
      "fid": "F0CDME16J6T",
      "from": "댓글",
-     "path": "menu-files/1793612352_580559-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1175,52 +1174,53 @@ window.MENU_REQUESTS = {
        "price": 100000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793612352_580559-0.jpg"
     },
     {
      "name": "IMG_0482.jpg",
      "fid": "F0CE4N8DLC9",
      "from": "댓글",
-     "path": "menu-files/1793612352_580559-1.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793612352_580559-1.jpg"
     },
     {
      "name": "IMG_0481.jpg",
      "fid": "F0CEX6TDZH6",
      "from": "댓글",
-     "path": "menu-files/1793612352_580559-2.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793612352_580559-2.jpg"
     },
     {
      "name": "IMG_0480.jpg",
      "fid": "F0CDXGP0C5T",
      "from": "댓글",
-     "path": "menu-files/1793612352_580559-3.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793612352_580559-3.jpg"
     },
     {
      "name": "IMG_0479.jpg",
      "fid": "F0CE2KTUE74",
      "from": "댓글",
-     "path": "menu-files/1793612352_580559-4.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793612352_580559-4.jpg"
     },
     {
      "name": "IMG_0478.jpg",
      "fid": "F0CE0SA1622",
      "from": "댓글",
-     "path": "menu-files/1793612352_580559-5.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793612352_580559-5.jpg"
     },
     {
      "name": "IMG_0477.jpg",
@@ -1257,8 +1257,8 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793612402.255849",
+   "rc": 2,
+   "lr": "1793620567.602179",
    "rfx": 3,
    "status": "done",
    "handler": "최민석",
