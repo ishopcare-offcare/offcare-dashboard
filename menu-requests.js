@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4502,
- "updatedAt": "2026-11-02 10:30",
+ "version": 4503,
+ "updatedAt": "2026-11-02 10:42",
  "days": 30,
  "items": [
   {
@@ -60993,27 +60993,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790994927636079"
-  },
-  {
-   "ts": "1790991713.183469",
-   "date": "2026-10-03",
-   "time": "10:41",
-   "store": "케이핀초반",
-   "biz": "2660303234",
-   "pos": "기타",
-   "content": "안주류 카테고리에 조개탕 20000원-> 22000원으로 수정 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1790991713183469"
   }
  ],
  "ocr": {
