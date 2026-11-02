@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4550,
- "updatedAt": "2026-11-02 18:51",
+ "version": 4551,
+ "updatedAt": "2026-11-02 18:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1793613167.957419",
+   "date": "2026-11-02",
+   "time": "18:52",
+   "store": "장보고 축산물 (신하점)",
+   "biz": "4499501670",
+   "pos": "퍼스트포스",
+   "content": "메뉴 수정 요청드립니다 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "전 품목 중 과세 되어있는 상품을 비과세로 변경"
+   ],
+   "rc": 1,
+   "lr": "1793613178.570659",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793613167957419"
+  },
   {
    "ts": "1793612352.580559",
    "date": "2026-11-02",
