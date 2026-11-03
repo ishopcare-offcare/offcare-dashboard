@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4625,
- "updatedAt": "2026-11-03 17:16",
+ "version": 4626,
+ "updatedAt": "2026-11-03 17:19",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,348 @@ window.MENU_REQUESTS = {
    "special": "파일첨부가 되지않아서",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "20261103_165455.jpg",
+     "fid": "F0CEH53FENQ",
+     "from": "댓글",
+     "path": "menu-files/1793692893_059899-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "생과일 쥬스 JUICE",
+       "name": "딸기쥬스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "생과일 쥬스 JUICE",
+       "name": "블루베리쥬스",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261103_165504.jpg",
+     "fid": "F0CED8JTTL2",
+     "from": "댓글",
+     "path": "menu-files/1793692893_059899-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Hand made 수제 건강차 tea",
+       "name": "오미자차 R",
+       "price": 4500
+      },
+      {
+       "category": "Hand made 수제 건강차 tea",
+       "name": "오미자차 L",
+       "price": 5500
+      },
+      {
+       "category": "Hand made 수제 건강차 tea",
+       "name": "매실차 R",
+       "price": 4500
+      },
+      {
+       "category": "Hand made 수제 건강차 tea",
+       "name": "매실차 L",
+       "price": 5500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "플레인 R",
+       "price": 4500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "플레인 L",
+       "price": 5500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "딸기 R",
+       "price": 4500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "딸기 L",
+       "price": 5500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "망고 R",
+       "price": 4500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "망고 L",
+       "price": 5500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "블루베리 R",
+       "price": 4500
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "블루베리 L",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261103_165438.jpg",
+     "fid": "F0CEFAVEGAD",
+     "from": "댓글",
+     "path": "menu-files/1793692893_059899-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "자몽에이드",
+       "price": 4300
+      },
+      {
+       "category": "",
+       "name": "자두에이드",
+       "price": 4300
+      },
+      {
+       "category": "",
+       "name": "아이스티복숭아",
+       "price": 2800
+      },
+      {
+       "category": "FRUIT TEA",
+       "name": "유자차",
+       "price": 3500
+      },
+      {
+       "category": "FRUIT TEA",
+       "name": "자몽차",
+       "price": 3500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261103_165424.jpg",
+     "fid": "F0CE7760UKV",
+     "from": "댓글",
+     "path": "menu-files/1793692893_059899-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "BEVERAGE",
+       "name": "핫초코 | 아이스초코 (R 레귤러)",
+       "price": 3500
+      },
+      {
+       "category": "BEVERAGE",
+       "name": "핫초코 | 아이스초코 (L 라지)",
+       "price": 4500
+      },
+      {
+       "category": "BEVERAGE",
+       "name": "녹차라떼 (R 레귤러)",
+       "price": 3800
+      },
+      {
+       "category": "BEVERAGE",
+       "name": "녹차라떼 (L 라지)",
+       "price": 4800
+      },
+      {
+       "category": "BEVERAGE",
+       "name": "미숫가루라떼 (R 레귤러)",
+       "price": 4300
+      },
+      {
+       "category": "BEVERAGE",
+       "name": "미숫가루라떼 (L 라지)",
+       "price": 5300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261103_165432.jpg",
+     "fid": "F0CEH55FRJQ",
+     "from": "댓글",
+     "path": "menu-files/1793692893_059899-4.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "녹차라떼",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "미숫가루라떼",
+       "price": 4300
+      },
+      {
+       "category": "TEA",
+       "name": "쟈스민",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "녹차",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261103_165435.jpg",
+     "fid": "F0CEFAWUQE5",
+     "from": "댓글",
+     "path": "menu-files/1793692893_059899-5.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "ADE",
+       "name": "깔라만시에이드 (R 레귤러)",
+       "price": 4300
+      },
+      {
+       "category": "ADE",
+       "name": "깔라만시에이드 (L 라지)",
+       "price": 5300
+      },
+      {
+       "category": "ADE",
+       "name": "자몽에이드 (R 레귤러)",
+       "price": 4300
+      },
+      {
+       "category": "ADE",
+       "name": "자몽에이드 (L 라지)",
+       "price": 5300
+      },
+      {
+       "category": "ADE",
+       "name": "자두에이드 (R 레귤러)",
+       "price": 4300
+      },
+      {
+       "category": "ADE",
+       "name": "자두에이드 (L 라지)",
+       "price": 5300
+      },
+      {
+       "category": "ADE",
+       "name": "아이스티복숭아 (R 레귤러)",
+       "price": 2800
+      },
+      {
+       "category": "ADE",
+       "name": "아이스티복숭아 (L 라지)",
+       "price": 3800
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261103_165419.jpg",
+     "fid": "F0CE777B4SX",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노 R 레귤러",
+       "price": 2800
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노 L 라지",
+       "price": 3800
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼 R 레귤러",
+       "price": 3300
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼 L 라지",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "비엔나커피 R 레귤러",
+       "price": 3600
+      },
+      {
+       "category": "COFFEE",
+       "name": "비엔나커피 L 라지",
+       "price": 4600
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼 R 레귤러",
+       "price": 3800
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼 L 라지",
+       "price": 4800
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카 R 레귤러",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카 L 라지",
+       "price": 5300
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜마키아또 R 레귤러",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜마키아또 L 라지",
+       "price": 5300
+      },
+      {
+       "category": "COFFEE",
+       "name": "시럽 추가",
+       "price": 700
+      },
+      {
+       "category": "COFFEE",
+       "name": "샷 추가",
+       "price": 700
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793693894.584879",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
