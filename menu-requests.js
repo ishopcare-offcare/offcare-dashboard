@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4591,
- "updatedAt": "2026-11-03 13:32",
+ "version": 4592,
+ "updatedAt": "2026-11-03 13:34",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CE6JJLQP7",
      "from": "댓글",
-     "path": "menu-files/1793680254_724089-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -622,13 +621,16 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793680254_724089-0.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793680283.029819",
+   "replies": [
+    "키오스크 일부 메뉴가 누락이 되어서 누락되지 않게 요청\n\n\n1.순서가 변경이 필요함, 카테고리별로 왼쪽위에부터 아래로 -> 그리고 다시 우측 위에부터 아래로 요청\n2. 헤이즐넛 / 시럽 / 바닐라 시럽  3개를 옵션과 추가옵션으로 추가 요청\n부탁드립니다"
+   ],
+   "rc": 2,
+   "lr": "1793680370.454229",
    "rfx": 3,
    "status": "wait",
    "handler": null,
