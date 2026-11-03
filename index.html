@@ -622,6 +622,15 @@
   .tr-legendary,.tr-mythic,.tr-unique{background-size:200% auto; animation:titleShine 2.6s linear infinite}
   .tr-unique{animation-duration:1.8s; filter:drop-shadow(0 0 5px rgba(255,184,0,.55))}
   @keyframes titleShine{to{background-position:-200% center}}
+  /* ⭐ 타이틀: 별이 계속 돌면서 반짝인다 · 주변 ✦ 반짝이 */
+  .t-star{position:relative; display:inline-block; padding:0 .08em}
+  .t-spin{display:inline-block; animation:tStarSpin 3.2s linear infinite}
+  @keyframes tStarSpin{0%{transform:rotate(0) scale(1); filter:brightness(1)}25%{transform:rotate(90deg) scale(1.12); filter:brightness(1.45)}50%{transform:rotate(180deg) scale(1); filter:brightness(1)}75%{transform:rotate(270deg) scale(1.12); filter:brightness(1.45)}100%{transform:rotate(360deg) scale(1); filter:brightness(1)}}
+  .t-star::before,.t-star::after{content:'✦'; position:absolute; color:#fff6c2; font-size:.42em; line-height:1; pointer-events:none; text-shadow:0 0 4px #ffd60a; animation:tStarTw 1.6s ease-in-out infinite}
+  .t-star::before{top:-.15em; right:-.3em}
+  .t-star::after{bottom:-.05em; left:-.32em; animation-delay:.8s}
+  @keyframes tStarTw{0%,100%{opacity:0; transform:scale(.4)}50%{opacity:1; transform:scale(1.1)}}
+  @media (prefers-reduced-motion:reduce){.t-spin,.t-star::before,.t-star::after{animation:none}}
   /* 🎣 낚시터 */
   .fish-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px}
   .fish-spot{border-radius:16px; padding:18px 16px; text-align:center; color:#fff; border:2px solid rgba(255,255,255,.25)}
@@ -4898,7 +4907,7 @@ const GAME_ITEMS = {
     {id:'t_first',name:'1st',price:1,rarity:'mythic',ach:'first',autoGrant:true,desc:'일찍 일어나는 새가...',perk:{item:0.0025,keep:0.008},grad:'linear-gradient(90deg,#ffd60a,#fffbe6,#ffd60a,#ff9f0a)'},
     {id:'t_bomb',name:'💣',price:1,rarity:'legendary',ach:'bomb',autoGrant:true,desc:'심지는 이미 타들어가고 있다. 터질 때까지, 던지고 또 던질 뿐',perk:{item:0.002,miss:0.006},grad:'linear-gradient(90deg,#1c1c1e,#ff453a,#ff9f0a,#1c1c1e)'},
     {id:'t_bling',name:'여기서부터 저기까지 다주세요',price:1,rarity:'epic',ach:'bling',autoGrant:true,desc:'머리부터 발끝까지, 빛나지 않는 곳이 없다',perk:{item:0.0015,keep:0.005},grad:'linear-gradient(90deg,#ffd60a,#ff9ff3,#4ea8ff,#ffd60a)'},
-    {id:'t_star',name:'⭐',price:1,rarity:'mythic',ach:'star',autoGrant:true,emojiScale:1.4,desc:'고객이 건넨 별 하나하나가 모여, 마침내 머리 위의 왕관으로 빛나는 별',perk:{item:0.0025,miss:0.004,keep:0.004},grad:'linear-gradient(90deg,#0a1a4a,#4ea8ff,#fffbe6,#ffd60a,#0a1a4a)'},
+    {id:'t_star',name:'⭐',price:1,rarity:'mythic',ach:'star',autoGrant:true,spin:true,desc:'고객이 건넨 별 하나하나가 모여, 마침내 머리 위의 왕관으로 빛나는 별',perk:{item:0.0025,miss:0.004,keep:0.004},grad:'linear-gradient(90deg,#0a1a4a,#4ea8ff,#fffbe6,#ffd60a,#0a1a4a)'},
     {id:'t_angler',name:'세월을 낚은',price:1,rarity:'mythic',ach:'angler',autoGrant:true,desc:'찌 끝에 걸린 것은 물고기가 아니라, 흘러간 시간이었다',perk:{item:0.0025,casts:2},grad:'linear-gradient(90deg,#0a3d62,#00c7be,#4ea8ff,#0a3d62)'},
     {id:'t_kind',name:'친절한',price:1,rarity:'legendary',ach:'kind',autoGrant:true,desc:'고객이 먼저 알아본 따뜻함. 한 달 동안 가장 많은 고객 응답을 받은 상담사',perk:{item:0.002,keep:0.006},grad:'linear-gradient(90deg,#ff7aa8,#ffb347,#ff7aa8)'},
     // 천사: 2026-10-29 부터 낚시터 구매 → NPS 응답 수 1위 누적 6개월 달성으로 획득 방식 변경. 이미 산 사람은 그대로 보유(사용자 결정).
@@ -5344,12 +5353,13 @@ function titleStyleOf(t){ if(!t) return ''; if(t.grad){ // 이모지 전용 타�
     // 전설 이상 등급은 그라데이션 텍스트에 발광 효과 추가 (drop-shadow는 클리핑된 글리프 픽셀 기준이라 안전)
     const gl={mythic:';filter:drop-shadow(0 0 5px rgba(255,214,10,.9)) drop-shadow(0 0 13px rgba(255,214,10,.5))',legendary:';filter:drop-shadow(0 0 5px rgba(255,159,10,.85)) drop-shadow(0 0 13px rgba(255,159,10,.45))'}[t.rarity]||'';
     return `background:${t.grad};-webkit-background-clip:text;background-clip:text;color:transparent`+gl; } const map={common:'color:#6b7280',rare:'color:#1a73e8;text-shadow:0 0 6px rgba(26,115,232,.55)',epic:'color:#9c36b5;text-shadow:0 0 8px rgba(156,54,181,.6)',legendary:'color:#e8820a;text-shadow:0 0 10px rgba(232,130,10,.8)'}; return map[t.rarity]||map.common; }
+function titleNameHTML(t){ const n=escapeHtml(t.name||''); return t.spin?`<span class="t-star"><span class="t-spin">${n}</span></span>`:n; }   // ⭐: 돌면서 반짝이는 별
 function titleStyle(eq){ return titleStyleOf(itemById('title',(eq||{}).title)); }
 // 내 캐릭터 카드 내부(미리보기 시 이 부분만 교체)
 function gameMeInner(emp, eq){ const t=itemById('title',(eq||{}).title);
   return `${avatarBig(eq, (GAME[emp]||{}).gender, emp)}
     <div class="gm-right">
-      ${t?`<div class="gm-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${escapeHtml(t.name)}]</div>`:''}
+      ${t?`<div class="gm-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t)}]</div>`:''}
       <div class="gm-name" style="${nametagStyle(eq)}">${escapeHtml(emp)}</div>
       <div class="gm-coins">🪙 <b>${empAvail(emp)}</b><span>보유 코인</span>${empOver(emp)?`<span class="gm-over">⚠️ 초과 사용 −${empOver(emp)}</span>`:''}</div>
       <div class="gm-sub">누적 처리 ${empHandled(emp)}건 · 누적 획득 ${empCoins(emp)}코인 · 사용 ${empSpent(emp)}코인 <span style="color:var(--gray2)">· 이번 달 ${empHandledMonth(emp)}건 · 코인은 이월(초기화 없음)</span>${COIN_FIX[emp]?`<span style="color:var(--gray2)"> · 🛠 ${COIN_FIX[emp].grant}코인 보정 지급 (${COIN_FIX[emp].since}부터 재적립)</span>`:''}</div>
@@ -5361,7 +5371,7 @@ function clearPreview(){ const emp=gameMe; if(!emp) return; const box=document.g
 // 🔍 아이템 마우스오버 → 그 자리에 미리보기 팝업
 const CAT_LABEL={bg:'배경',title:'타이틀',nametag:'네임택',hat:'모자',pet:'펫',skin:'피부',hair:'헤어',dye:'염색',eyes:'눈',brows:'눈썹',mouth:'입',beard:'수염',top:'상의',pants:'하의',shoes:'신발',gloves:'장갑',cape:'망토'};
 function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; const r=it.rarity||'common';
-  let big; if(cat==='title') big=`<span class="tr-${r}" style="${titleStyleOf(it)};font-size:24px;font-weight:800">[${escapeHtml(it.name)}]</span>`;
+  let big; if(cat==='title') big=`<span class="tr-${r}" style="${titleStyleOf(it)};font-size:24px;font-weight:800">[${titleNameHTML(it)}]</span>`;
   else if(cat==='nametag') big=`<span style="${nametagStyle({nametag:id})};font-size:24px;font-weight:800">홍길동</span>`;
   else if(AVATAR_CATS.includes(cat)) big=`<div class="it-tip-part">${miniPart(cat,it)}</div>`;
   else big=`<div style="font-size:52px;line-height:1">${it.e||'✕'}</div>`;
@@ -5399,7 +5409,7 @@ function moveItemTip(e){ if(tipPinned) return;   // 고정된 툴팁은 마우�
   const t=document.getElementById('itemTip'); if(!t||t.style.display!=='block') return; const pad=16, w=t.offsetWidth, h=t.offsetHeight; let x=e.clientX+pad, y=e.clientY+pad; if(x+w>window.innerWidth-8) x=e.clientX-w-pad; if(y+h>window.innerHeight-8) y=e.clientY-h-pad; if(x<8)x=8; if(y<8)y=8; t.style.left=x+'px'; t.style.top=y+'px'; }
 function hideItemTip(force){ if(tipPinned&&!force) return; const t=document.getElementById('itemTip'); if(t) t.style.display='none'; }
 // 랭킹 등 이름 표시(타이틀+얼굴+네임택 색)
-function rankNameHTML(emp, noFace){ const eq=(GAME[emp]||{}).equipped||{}; const f=noFace?'':partE('face',eq.face), t=itemById('title',eq.title); return `${t?`<div class="r-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${escapeHtml(t.name)}]</div>`:''}<div class="r-nm">${f?`<span class="r-face">${f}</span>`:''}<span style="${nametagStyle(eq)}">${escapeHtml(emp)}</span></div>`; }
+function rankNameHTML(emp, noFace){ const eq=(GAME[emp]||{}).equipped||{}; const f=noFace?'':partE('face',eq.face), t=itemById('title',eq.title); return `${t?`<div class="r-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t)}]</div>`:''}<div class="r-nm">${f?`<span class="r-face">${f}</span>`:''}<span style="${nametagStyle(eq)}">${escapeHtml(emp)}</span></div>`; }
 // 랭킹·MVP용 미니 전신 아바타(캐릭터+꾸미기 전부) — 122x150 원본을 w px로 축소. 게임 미참여 직원도 기본 캐릭터 렌더.
 function avatarMini(emp, w){ const g=GAME[emp]||{}; const eq=g.equipped||{}; const s=w/122; return `<div class="av-mini" style="width:${w}px;height:${Math.round(150*s)}px"><div class="av-mini-in" style="transform:scale(${s.toFixed(3)})">${avatarBig(eq, g.gender)}</div></div>`; }
 // 팀 공유 클라우드 = {players:GAME, vocEdit, vocPraise, vocComment, dutyOver, fishWait} 통합 블롭 (백엔드는 game 블롭을 그대로 저장/반환)
@@ -5604,7 +5614,7 @@ function shopCard(cat,it,emp){
   const disp = AVATAR_CATS.includes(cat) ? miniPart(cat,it)
     : it.e!==undefined ? (it.e||'✕')
     : (cat==='nametag' ? `<span style="${nametagStyle({nametag:it.id})}">가나</span>`
-    : `<span class="tr-${r}" style="${titleStyleOf(it)}">[${escapeHtml(it.name)}]</span>`);
+    : `<span class="tr-${r}" style="${titleStyleOf(it)}">[${titleNameHTML(it)}]</span>`);
   // 히든(???) 타이틀은 조건은 감추고, 아래 줄에 달성 수치만 공개
   const reqBadge = it.ach ? (function(){ const d=achDisplay(emp,it,owned);
       const sub = (!d.revealed && d.prog) ? `<div class="si-req-sub">📊 ${escapeHtml(d.prog)}</div>` : '';
@@ -5973,7 +5983,7 @@ function fishItemPreview(spot){ const seen={}, items=[]; FISH[spot].loot.filter(
     for(const cat in GAME_ITEMS){ for(const it of GAME_ITEMS[cat]){ if(it.price===0) continue; if(it.targetOnly) continue; if(!x.rar||!x.rar.includes(it.rarity)) continue; if(x.fish&&!it.fishOnly) continue; if(!x.fish&&it.fishOnly) continue; const k=cat+':'+it.id; if(!seen[k]){ seen[k]=1; items.push(Object.assign({cat},it)); } } }
   }); const ord={mythic:0,legendary:1,epic:2,rare:3,common:4}; return items.sort((a,b)=>(ord[a.rarity]-ord[b.rarity])); }
 function fishPreviewCard(it,emp){ const owned=owns(emp,it.cat,it.id), r=it.rarity;
-  const disp = it.e!==undefined ? (it.e||'✕') : (it.cat==='nametag'?`<span style="${nametagStyle({nametag:it.id})}">가나</span>`:`<span class="tr-${r}" style="${titleStyleOf(it)}">[${escapeHtml(it.name)}]</span>`);
+  const disp = it.e!==undefined ? (it.e||'✕') : (it.cat==='nametag'?`<span style="${nametagStyle({nametag:it.id})}">가나</span>`:`<span class="tr-${r}" style="${titleStyleOf(it)}">[${titleNameHTML(it)}]</span>`);
   return `<div class="shop-item" style="--rar:${RARITY[r]}" onclick="pinItemTip(event,'${it.cat}','${it.id}')" onmouseenter="showItemTip(event,'${it.cat}','${it.id}')" onmousemove="moveItemTip(event)" onmouseleave="hideItemTip()"><div class="si-rar">${RARITY_KO[r]}</div><div class="si-disp">${disp}</div><div class="si-name">${escapeHtml(it.name)}</div><div class="fp-own ${owned?'yes':''}">${owned?'✓ 보유':'미보유'}</div></div>`;
 }
 function renderGameFish(){
