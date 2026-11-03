@@ -3,10 +3,41 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4636,
- "updatedAt": "2026-11-03 17:56",
+ "version": 4637,
+ "updatedAt": "2026-11-03 18:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1793698001.564649",
+   "date": "2026-11-03",
+   "time": "18:26",
+   "store": "연우",
+   "biz": "4383701398",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "광주첨단점매장_메뉴가격_포스.xlsx",
+     "fid": "F0CE8PEAM9T",
+     "from": "댓글",
+     "path": "menu-files/1793698001_564649-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "일만족발 ( 프렌차이즈) 로 변경 예정\n기존 메뉴 삭제 후 해당 메뉴 등록 요청 주셨습니다 :woman-bowing::skin-tone-4:"
+   ],
+   "rc": 1,
+   "lr": "1793698050.715289",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793698001564649"
+  },
   {
    "ts": "1793695709.899469",
    "date": "2026-11-03",
