@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4607,
- "updatedAt": "2026-11-03 14:55",
+ "version": 4608,
+ "updatedAt": "2026-11-03 15:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1793685767.917279",
+   "date": "2026-11-03",
+   "time": "15:02",
+   "store": "공익곰탕",
+   "biz": "5853901252",
+   "pos": "",
+   "content": "유플 이관 매장 > 메뉴 등록/수정  부탁 드리겠습니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793685767917279"
+  },
   {
    "ts": "1793685095.074919",
    "date": "2026-11-03",
