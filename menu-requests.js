@@ -3,10 +3,47 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4583,
- "updatedAt": "2026-11-03 11:29",
+ "version": 4584,
+ "updatedAt": "2026-11-03 11:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1793672986.661449",
+   "date": "2026-11-03",
+   "time": "11:29",
+   "store": "코끼리카페 오산점",
+   "biz": "1304800813",
+   "pos": "스파로스포스",
+   "content": "[황도 요거트 찹쌀떡->복숭아 요거트 찹쌀떡] 으로 수정\n[파인애플 요거트 찹쌀떡 / 4500원] 추가",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1xbpIp50Xu-JM8JGhlmCjQAi8CaOIJbeW/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1J37fzfcOd82YWW7PZYj4CfRT6kbcP7T2/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1xbpIp50Xu-JM8JGhlmCjQAi8CaOIJbeW",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1J37fzfcOd82YWW7PZYj4CfRT6kbcP7T2",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793672986661449"
+  },
   {
    "ts": "1793672884.702009",
    "date": "2026-11-03",
