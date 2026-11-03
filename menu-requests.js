@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4606,
- "updatedAt": "2026-11-03 14:52",
+ "version": 4607,
+ "updatedAt": "2026-11-03 14:55",
  "days": 30,
  "items": [
   {
@@ -235,7 +235,6 @@ window.MENU_REQUESTS = {
      "name": "1000013545.jpg",
      "fid": "F0CE71AV8F7",
      "from": "댓글",
-     "path": "menu-files/1793684914_742369-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -289,13 +288,13 @@ window.MENU_REQUESTS = {
        "price": 3500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793684914_742369-3.jpg"
     },
     {
      "name": "1000013546.jpg",
      "fid": "F0CE634UUGK",
      "from": "댓글",
-     "path": "menu-files/1793684914_742369-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -349,13 +348,13 @@ window.MENU_REQUESTS = {
        "price": 3500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793684914_742369-4.jpg"
     },
     {
      "name": "1000013547.jpg",
      "fid": "F0CE71B7GVB",
      "from": "댓글",
-     "path": "menu-files/1793684914_742369-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -409,7 +408,8 @@ window.MENU_REQUESTS = {
        "price": 3500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793684914_742369-5.jpg"
     },
     {
      "name": "1000013548.jpg",
@@ -669,6 +669,323 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "1000013552.jpg",
+     "fid": "F0CEAB96XHU",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이즈",
+       "name": "Regular(15cm)",
+       "price": 0
+      },
+      {
+       "category": "사이즈",
+       "name": "Large(18cm)",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "없음",
+       "price": 0
+      },
+      {
+       "category": "토핑추가",
+       "name": "햄 추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "루꼴라 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "토마토 추가",
+       "price": 1500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000013553.jpg",
+     "fid": "F0CDWUGC93R",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "토핑추가",
+       "name": "루꼴라 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "토마토 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "버터 추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "치즈 추가",
+       "price": 1500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*양송이스프",
+       "price": 5300
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*멜팅치즈스프",
+       "price": 5300
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*크림스프",
+       "price": 4500
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*단호박스프",
+       "price": 4500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000013556.jpg",
+     "fid": "F0CE63KPU2F",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이즈",
+       "name": "Regular(15cm)",
+       "price": 0
+      },
+      {
+       "category": "사이즈",
+       "name": "Large(18cm)",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "양상추 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "닭고기추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "할라피뇨 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "고수 추가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "음료",
+       "name": "에이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "핫 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "에이스 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "핫 바닐라라떼",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000013557.jpg",
+     "fid": "F0CEE79G2F3",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "토핑추가",
+       "name": "양상추 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "닭고기추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "절임야채 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "고수 추가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*양송이스프",
+       "price": 5300
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*멜팅치즈스프",
+       "price": 5300
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*크림스프",
+       "price": 4500
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*단호박스프",
+       "price": 4500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000013558.jpg",
+     "fid": "F0CEABLTH1U",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이즈",
+       "name": "Regular(15cm)",
+       "price": 0
+      },
+      {
+       "category": "사이즈",
+       "name": "Large(18cm)",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "햄 추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "토마토 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "치즈 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "버터 추가",
+       "price": 2000
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
@@ -676,10 +993,12 @@ window.MENU_REQUESTS = {
     "왕우바게트샌드위치",
     "2. 트러플 루꼴라잠봉",
     "3 치킨 반미",
-    "4. 메이블 잠봉뵈르"
+    "4. 메이블 잠봉뵈르",
+    "5. 핫치킨반미",
+    "6. 잠봉뵈르"
    ],
-   "rc": 7,
-   "lr": "1793685098.555769",
+   "rc": 12,
+   "lr": "1793685253.477799",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
