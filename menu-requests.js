@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4556,
- "updatedAt": "2026-11-02 20:57",
+ "version": 4557,
+ "updatedAt": "2026-11-03 09:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1793664003.342249",
+   "date": "2026-11-03",
+   "time": "09:00",
+   "store": "지글대패 진천점",
+   "biz": "1586600834",
+   "pos": "퍼스트포스",
+   "content": "스파로스) 메뉴 수정 요청드립니다 >>\n소주 전메뉴 2000원 맥주 전메뉴 3000원 수정 / 오픈 시간 12시 이전 수정 필요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793664003342249"
+  },
   {
    "ts": "1793613632.543299",
    "date": "2026-11-02",
