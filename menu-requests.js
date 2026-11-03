@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4628,
- "updatedAt": "2026-11-03 17:29",
+ "version": 4629,
+ "updatedAt": "2026-11-03 17:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1793694973.794549",
+   "date": "2026-11-03",
+   "time": "17:36",
+   "store": "쩐다방",
+   "biz": "1890601420",
+   "pos": "토스포스",
+   "content": "수제건강차에 오미자차도 있습니다 추가부탁드립니다\n메뉴 라는 제목에 들어간 메뉴,제목 다 없애주세요\n차 쪽에 유자차 자몽차에도 레귤러 라지 다 있으니 추가 부탁드립니다",
+   "special": "첫 화면부터 커피 , 베버리지 , 에이드 , 티, 과일티 , 생과일쥬스 , 요거트스무디 , 수제건강차 순서로 바꿔주세요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793694973794549"
+  },
   {
    "ts": "1793692893.059899",
    "date": "2026-11-03",
