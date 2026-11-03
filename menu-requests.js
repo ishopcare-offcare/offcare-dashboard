@@ -3,10 +3,60 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4613,
- "updatedAt": "2026-11-03 15:29",
+ "version": 4614,
+ "updatedAt": "2026-11-03 15:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1793687568.591619",
+   "date": "2026-11-03",
+   "time": "15:32",
+   "store": "돼지연구소",
+   "biz": "6535700884",
+   "pos": "",
+   "content": "메뉴 등록 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "f_f03c217b7d83.xlsx",
+     "fid": "F0CECCW85CJ",
+     "from": "댓글",
+     "path": "menu-files/1793687568_591619-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793687578.167269",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793687568591619"
+  },
+  {
+   "ts": "1793687484.721839",
+   "date": "2026-11-03",
+   "time": "15:31",
+   "store": "순살족발치킨공장",
+   "biz": "7110404235",
+   "pos": "토스포스",
+   "content": "주류메뉴추가\n소주:참이슬,참소주,진로,새로\n맥주:카스,테라,켈리",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793687484721839"
+  },
   {
    "ts": "1793687268.515359",
    "date": "2026-11-03",
