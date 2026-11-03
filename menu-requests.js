@@ -3,10 +3,372 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4602,
- "updatedAt": "2026-11-03 14:17",
+ "version": 4603,
+ "updatedAt": "2026-11-03 14:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1793683261.732319",
+   "date": "2026-11-03",
+   "time": "14:21",
+   "store": "스탬파",
+   "biz": "6376600619",
+   "pos": "",
+   "content": "메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "7842.jpeg",
+     "fid": "F0CEBV4QX7U",
+     "from": "댓글",
+     "path": "menu-files/1793683261_732319-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Antipasto",
+       "name": "Scallop gratin 관자그라탕",
+       "price": 23000
+      },
+      {
+       "category": "Antipasto",
+       "name": "Polpo & Avocado 문어와 아보카도",
+       "price": 19000
+      },
+      {
+       "category": "Antipasto",
+       "name": "Caesar 시저샐러드",
+       "price": 18000
+      },
+      {
+       "category": "Antipasto",
+       "name": "Fig & Burrata 무화과 부라타",
+       "price": 21000
+      },
+      {
+       "category": "Antipasto",
+       "name": "Truffle french fries 트러플 감자튀김",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "7843.jpeg",
+     "fid": "F0CEA678MK8",
+     "from": "댓글",
+     "path": "menu-files/1793683261_732319-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Pizza",
+       "name": "Guacamole gamberi 과카몰리 감베리 + 펩시라임",
+       "price": 25000
+      },
+      {
+       "category": "Pizza",
+       "name": "Margherita di stampa 마르게리따 디 스템파",
+       "price": 19000
+      },
+      {
+       "category": "Pizza",
+       "name": "Margherita rucola 마르게리따 루꼴라",
+       "price": 23000
+      },
+      {
+       "category": "Pizza",
+       "name": "Stracciatella 스트라치아텔라 (Only Stampa)",
+       "price": 23000
+      },
+      {
+       "category": "Pizza",
+       "name": "Manzo e spinaccio 만조 에 스피나치오 (Only Stampa)",
+       "price": 26000
+      },
+      {
+       "category": "Pizza",
+       "name": "Chili chili 칠리칠리 (Only Stampa)",
+       "price": 25000
+      },
+      {
+       "category": "Pizza",
+       "name": "Melanzane 멜란자네",
+       "price": 23000
+      },
+      {
+       "category": "Pizza",
+       "name": "Prosciutto e rucola 프로슈토 루꼴라",
+       "price": 26000
+      },
+      {
+       "category": "Pizza",
+       "name": "Gamberi zucchini 감베리 주키니",
+       "price": 27000
+      },
+      {
+       "category": "Pizza",
+       "name": "Primavera 프리마베라 (Only Stampa)",
+       "price": 26000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "7844.jpeg",
+     "fid": "F0CEFRPD820",
+     "from": "댓글",
+     "path": "menu-files/1793683261_732319-2.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Pasta",
+       "name": "Bucatini all amatriciana 아마트리치아나",
+       "price": 25000
+      },
+      {
+       "category": "Pasta",
+       "name": "Cacio e pepe 카쵸 에 페페",
+       "price": 18000
+      },
+      {
+       "category": "Pasta",
+       "name": "*new Uni rose 우니로제파스타",
+       "price": 26000
+      },
+      {
+       "category": "Pasta",
+       "name": "*best Porcini 포르치니",
+       "price": 23000
+      },
+      {
+       "category": "Pasta",
+       "name": "*new Botarga 보타르가",
+       "price": 24000
+      },
+      {
+       "category": "Pasta",
+       "name": "*recommend Bisque 비스큐",
+       "price": 24000
+      },
+      {
+       "category": "Pasta",
+       "name": "*best Truffle gnocchi 트러플 뇨끼",
+       "price": 28000
+      },
+      {
+       "category": "Pasta",
+       "name": "Guanciale carbonara 관찰레 까르보나라",
+       "price": 24000
+      },
+      {
+       "category": "Pasta",
+       "name": "Vongole 봉골레",
+       "price": 23000
+      },
+      {
+       "category": "Pasta",
+       "name": "Pescatora 해산물 파스타",
+       "price": 28000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "7845.jpeg",
+     "fid": "F0CDWPFR50F",
+     "from": "댓글",
+     "path": "menu-files/1793683261_732319-3.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SODA",
+       "name": "Pepsi lime zero 펩시라임제로 (355ml)",
+       "price": 4000
+      },
+      {
+       "category": "SODA",
+       "name": "Coke, Zero Coke, Sprite, Zero Sprite 콜라, 제로콜라, 스프라이트, 제로스프라이",
+       "price": 4000
+      },
+      {
+       "category": "SODA",
+       "name": "Sanpellegrino 산펠레그리노 탄산수 (250ml)",
+       "price": 4000
+      },
+      {
+       "category": "SODA",
+       "name": "Lemon Soda",
+       "price": 5000
+      },
+      {
+       "category": "BEER",
+       "name": "Kirin 기린 생맥주 (360ml)",
+       "price": 8000
+      },
+      {
+       "category": "BEER",
+       "name": "Clara 클라라 (400ml)",
+       "price": 11000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "Aperol Spritz 아페롤 스프리츠",
+       "price": 11000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "Limoncello Spritz 리몬첼로 스프리츠",
+       "price": 11000
+      },
+      {
+       "category": "NON-ALCOHOLIC",
+       "name": "Non-alcoholic Mojito 논알콜 모히또",
+       "price": 11000
+      },
+      {
+       "category": "Dessert",
+       "name": "Salted caramel icecream 솔티드카라멜 아이스크림",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "7846.jpeg",
+     "fid": "F0CEFRQ1VN0",
+     "from": "댓글",
+     "path": "menu-files/1793683261_732319-4.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Sparking",
+       "name": "Duc de Bar Blanc de Blancs Brut",
+       "price": 40000
+      },
+      {
+       "category": "Sparking",
+       "name": "Duc de Bar Blanc de Blancs Brut GLASS",
+       "price": 9000
+      },
+      {
+       "category": "Sparking",
+       "name": "Nuviana Cava Brut",
+       "price": 55000
+      },
+      {
+       "category": "Sparking",
+       "name": "Canello Lido Prosecco Brut",
+       "price": 59000
+      },
+      {
+       "category": "White",
+       "name": "Casa Fewre, Lo Mision Reserva Chardonnay",
+       "price": 45000
+      },
+      {
+       "category": "White",
+       "name": "Casa Fewre, Lo Mision Reserva Chardonnay GLASS",
+       "price": 9000
+      },
+      {
+       "category": "White",
+       "name": "Mozzie, Marlborough Sauvignon Blanc",
+       "price": 65000
+      },
+      {
+       "category": "White",
+       "name": "Mozzie, Marlborough Sauvignon Blanc GLASS",
+       "price": 11000
+      },
+      {
+       "category": "White",
+       "name": "Luna Gaia Zibibbo",
+       "price": 77000
+      },
+      {
+       "category": "White",
+       "name": "Buccia Nera Toscana Bianca",
+       "price": 60000
+      },
+      {
+       "category": "White",
+       "name": "Lunaria Pecorino",
+       "price": 64000
+      },
+      {
+       "category": "White",
+       "name": "Mission Estate, Chardonnay",
+       "price": 65000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "7847.jpeg",
+     "fid": "F0CEFRQF7U4",
+     "from": "댓글",
+     "path": "menu-files/1793683261_732319-5.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Red",
+       "name": "Talamonti, Magnolia Montepulciano d'Abruzzo",
+       "price": 42000
+      },
+      {
+       "category": "Red",
+       "name": "Talamonti, Magnolia Montepulciano d'Abruzzo GLASS",
+       "price": 9000
+      },
+      {
+       "category": "Red",
+       "name": "La Mision Reserva Cabernet Sauvignon",
+       "price": 55000
+      },
+      {
+       "category": "Red",
+       "name": "La Mision Reserva Cabernet Sauvignon GLASS",
+       "price": 11000
+      },
+      {
+       "category": "Red",
+       "name": "Luna Gaia Nerello Mascalese",
+       "price": 72000
+      },
+      {
+       "category": "Red",
+       "name": "Buccia Nera Chianti DOCG",
+       "price": 60000
+      },
+      {
+       "category": "Red",
+       "name": "Andeluna, 1300 Malbec 2021",
+       "price": 65000
+      },
+      {
+       "category": "Red",
+       "name": "Luccarelli, Negroamaro",
+       "price": 70000
+      },
+      {
+       "category": "Red",
+       "name": "Mazzie, Marlborough Pinot Noir 2021",
+       "price": 80000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793683285.347479",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793683261732319"
+  },
   {
    "ts": "1793682885.043349",
    "date": "2026-11-03",
@@ -23,8 +385,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "카테고리 : 기타\n직원할인 2,000원 추가 요청 주셨습니다."
    ],
-   "rc": 1,
-   "lr": "1793682899.384959",
+   "rc": 2,
+   "lr": "1793683289.932929",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
