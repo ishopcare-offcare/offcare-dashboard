@@ -3,10 +3,225 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4604,
- "updatedAt": "2026-11-03 14:31",
+ "version": 4605,
+ "updatedAt": "2026-11-03 14:50",
  "days": 30,
  "items": [
+  {
+   "ts": "1793684914.742369",
+   "date": "2026-11-03",
+   "time": "14:48",
+   "store": "와우바게트샌드위치 신촌점",
+   "biz": "5084401017",
+   "pos": "",
+   "content": "옵션메뉴 생성과 적용 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "1000013541.jpg",
+     "fid": "F0CEC4D4KD0",
+     "from": "댓글",
+     "path": "menu-files/1793684914_742369-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이즈",
+       "name": "Regular(15cm)",
+       "price": 0
+      },
+      {
+       "category": "사이즈",
+       "name": "Large(18cm)",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "토마토 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "치즈 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "양상추 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "고수 추가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000013542.jpg",
+     "fid": "F0CF6LSHW5N",
+     "from": "댓글",
+     "path": "menu-files/1793684914_742369-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이즈",
+       "name": "Regular(15cm)",
+       "price": 0
+      },
+      {
+       "category": "사이즈",
+       "name": "Large(18cm)",
+       "price": 1000
+      },
+      {
+       "category": "토핑추가",
+       "name": "없음",
+       "price": 0
+      },
+      {
+       "category": "토핑추가",
+       "name": "루꼴라 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "햄 추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "토마토 추가",
+       "price": 1500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 바닐라라떼",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "1000013543.jpg",
+     "fid": "F0CE715BFSR",
+     "from": "댓글",
+     "path": "menu-files/1793684914_742369-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "토핑추가",
+       "name": "없음",
+       "price": 0
+      },
+      {
+       "category": "토핑추가",
+       "name": "루꼴라 추가",
+       "price": 1500
+      },
+      {
+       "category": "토핑추가",
+       "name": "햄 추가",
+       "price": 2000
+      },
+      {
+       "category": "토핑추가",
+       "name": "토마토 추가",
+       "price": 1500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 라떼",
+       "price": 3500
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "아이스 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "음료(1000원 할인)",
+       "name": "핫 바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*양송이스프",
+       "price": 5300
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*멜팅치즈스프",
+       "price": 5300
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*크림스프",
+       "price": 4500
+      },
+      {
+       "category": "스프(500원 할인)",
+       "name": "*단호박스프",
+       "price": 4500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "왕우바게트샌드위치"
+   ],
+   "rc": 2,
+   "lr": "1793684988.790279",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793684914742369"
+  },
   {
    "ts": "1793683261.732319",
    "date": "2026-11-03",
