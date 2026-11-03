@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4640,
- "updatedAt": "2026-11-03 18:40",
+ "version": 4641,
+ "updatedAt": "2026-11-03 19:39",
  "days": 30,
  "items": [
   {
@@ -1453,8 +1453,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "일만족발 ( 프렌차이즈) 로 변경 예정\n기존 메뉴 삭제 후 해당 메뉴 등록 요청 주셨습니다 :woman-bowing::skin-tone-4:"
    ],
-   "rc": 9,
-   "lr": "1793698647.567849",
+   "rc": 10,
+   "lr": "1793702305.121299",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
