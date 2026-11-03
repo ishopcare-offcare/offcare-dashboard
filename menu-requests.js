@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4567,
- "updatedAt": "2026-11-03 10:04",
+ "version": 4568,
+ "updatedAt": "2026-11-03 10:05",
  "days": 30,
  "items": [
   {
@@ -18,13 +18,29 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CECPX74RX",
+     "from": "댓글",
+     "path": "menu-files/1793667641_028759-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "돌솥비빔밥",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "가격수정\n돌솥비빔밥 8500원 -> 9000원"
    ],
-   "rc": 1,
-   "lr": "1793667662.193989",
+   "rc": 2,
+   "lr": "1793667938.617789",
    "rfx": 3,
    "status": "done",
    "handler": "서상원",
