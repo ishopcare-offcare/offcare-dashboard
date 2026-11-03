@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4617,
- "updatedAt": "2026-11-03 15:51",
+ "version": 4618,
+ "updatedAt": "2026-11-03 15:52",
  "days": 30,
  "items": [
   {
@@ -41,12 +41,14 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "한우배추해장국 -11000원  / 수정 필요\n\n고기드신후 식사 카테고리]\n물밀면 -> 물냉면 - 7000원 / 수정 필요\n비빔밀면 -> 비빔냉면  8000원 / 수정 필요\n된장찌개 7000원 / 수정 필요\n\n으로 수정 요청드립니다"
+   ],
+   "rc": 1,
+   "lr": "1793688665.661199",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793688589785769"
   },
   {
