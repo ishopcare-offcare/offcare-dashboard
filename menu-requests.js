@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4563,
- "updatedAt": "2026-11-03 09:30",
+ "version": 4564,
+ "updatedAt": "2026-11-03 09:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1793665953.360669",
+   "date": "2026-11-03",
+   "time": "09:32",
+   "store": "안궁리",
+   "biz": "5010493922",
+   "pos": "",
+   "content": "메뉴 수정 요청드립니다 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "꽃게탕 2인 30000원 / 3인 45000원 / 4인 60000원\n알밥 삭제"
+   ],
+   "rc": 1,
+   "lr": "1793665969.686549",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793665953360669"
+  },
   {
    "ts": "1793664876.231949",
    "date": "2026-11-03",
