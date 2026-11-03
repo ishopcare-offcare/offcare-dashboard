@@ -3,10 +3,294 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4598,
- "updatedAt": "2026-11-03 14:09",
+ "version": 4599,
+ "updatedAt": "2026-11-03 14:11",
  "days": 30,
  "items": [
+  {
+   "ts": "1793682619.449139",
+   "date": "2026-11-03",
+   "time": "14:10",
+   "store": "테루아 커피(Teruah coffee)",
+   "biz": "2591701706",
+   "pos": "토스포스",
+   "content": "메뉴 등록 요청 드립니다! (토스포스)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CDWMUP46T",
+     "from": "댓글",
+     "path": "menu-files/1793682619_449139-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피 COFFEE",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "커피 COFFEE",
+       "name": "카페라떼 · 카푸치노",
+       "price": 4000
+      },
+      {
+       "category": "커피 COFFEE",
+       "name": "바닐라 라떼 · 연유 라떼 · 카라멜 라떼 · 모카",
+       "price": 4500
+      },
+      {
+       "category": "콜드브루 Cold Brew",
+       "name": "콜드브루",
+       "price": 4000
+      },
+      {
+       "category": "콜드브루 Cold Brew",
+       "name": "콜드브루 라떼",
+       "price": 4500
+      },
+      {
+       "category": "콜드브루 Cold Brew",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "콜드브루 Cold Brew",
+       "name": "콘파나",
+       "price": 3300
+      },
+      {
+       "category": "콜드브루 Cold Brew",
+       "name": "샤케라또",
+       "price": 3500
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "수제 생강라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "딸기 라떼",
+       "price": 5000
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "쑥 라떼",
+       "price": 4500
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "말차 라떼",
+       "price": 4500
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "군고구마 라떼",
+       "price": 4500
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "서리태 흑임자 라떼",
+       "price": 4800
+      },
+      {
+       "category": "라떼 LATTE",
+       "name": "초코 라떼",
+       "price": 4500
+      },
+      {
+       "category": "추가 옵션 ADD-ON",
+       "name": "샷 추가",
+       "price": 500
+      },
+      {
+       "category": "추가 옵션 ADD-ON",
+       "name": "사이즈업",
+       "price": 700
+      },
+      {
+       "category": "추가 옵션 ADD-ON",
+       "name": "디카페인 변경",
+       "price": 700
+      },
+      {
+       "category": "추가 옵션 ADD-ON",
+       "name": "헤이즐넛 시럽",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CEBTK6LP4",
+     "from": "댓글",
+     "path": "menu-files/1793682619_449139-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "시그니처",
+       "name": "테루슈페너",
+       "price": 5000
+      },
+      {
+       "category": "시그니처",
+       "name": "아인슈페너",
+       "price": 5000
+      },
+      {
+       "category": "시그니처",
+       "name": "액설런트 라떼",
+       "price": 5500
+      },
+      {
+       "category": "차",
+       "name": "생강차",
+       "price": 5500
+      },
+      {
+       "category": "차",
+       "name": "대추차",
+       "price": 4500
+      },
+      {
+       "category": "차",
+       "name": "레몬차",
+       "price": 5000
+      },
+      {
+       "category": "차",
+       "name": "자몽차",
+       "price": 5000
+      },
+      {
+       "category": "차",
+       "name": "유자차",
+       "price": 4500
+      },
+      {
+       "category": "차",
+       "name": "아이스티",
+       "price": 3500
+      },
+      {
+       "category": "차",
+       "name": "캐모마일",
+       "price": 3500
+      },
+      {
+       "category": "차",
+       "name": "페퍼민트",
+       "price": 3500
+      },
+      {
+       "category": "에이드",
+       "name": "자몽 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "레몬 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "유자 에이드",
+       "price": 5000
+      },
+      {
+       "category": "우베 시리즈",
+       "name": "우베 라떼",
+       "price": 4800
+      },
+      {
+       "category": "우베 시리즈",
+       "name": "우베 카페라떼",
+       "price": 5300
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CF6EKB2KS",
+     "from": "댓글",
+     "path": "menu-files/1793682619_449139-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "MELTING TOAST",
+       "name": "클래식 멜팅 (햄치즈) 단품",
+       "price": 2000
+      },
+      {
+       "category": "MELTING TOAST",
+       "name": "클래식 멜팅 (햄치즈) 포장 세트",
+       "price": 4000
+      },
+      {
+       "category": "MELTING TOAST",
+       "name": "클래식 멜팅 (햄치즈) 매장 세트",
+       "price": 5000
+      },
+      {
+       "category": "MELTING TOAST",
+       "name": "불고기 치즈 멜팅 단품",
+       "price": 4500
+      },
+      {
+       "category": "MELTING TOAST",
+       "name": "불고기 치즈 멜팅 포장 세트",
+       "price": 6500
+      },
+      {
+       "category": "MELTING TOAST",
+       "name": "불고기 치즈 멜팅 매장 세트",
+       "price": 7500
+      },
+      {
+       "category": "CAKE & DESSERT",
+       "name": "프라하 초콜릿케이크",
+       "price": 6500
+      },
+      {
+       "category": "CAKE & DESSERT",
+       "name": "바스크치즈케이크",
+       "price": 5500
+      },
+      {
+       "category": "CAKE & DESSERT",
+       "name": "티라미수",
+       "price": 5000
+      },
+      {
+       "category": "KIDS SET",
+       "name": "키즈세트",
+       "price": 3500
+      },
+      {
+       "category": "KIDS SET",
+       "name": "오가닉 주스 (단품)",
+       "price": 1500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "• 모든 음료 메뉴에 ICE/HOT 포함하여 아래 추가 옵션 등록 필요합니다!"
+   ],
+   "rc": 1,
+   "lr": "1793682656.140959",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793682619449139"
+  },
   {
    "ts": "1793682259.641869",
    "date": "2026-11-03",
@@ -380,10 +664,11 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [
-    "오후 10시 마감, 익일 낮 12시 오픈이시어\n오후 10시 이후 메뉴 등록 완료 후 솔라피 발송 부탁드리겠습니다!"
+    "오후 10시 마감, 익일 낮 12시 오픈이시어\n오후 10시 이후 메뉴 등록 완료 후 솔라피 발송 부탁드리겠습니다!",
+    "금일 10시 예메 해둘게요!"
    ],
-   "rc": 1,
-   "lr": "1793681479.009519",
+   "rc": 2,
+   "lr": "1793682644.469619",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
