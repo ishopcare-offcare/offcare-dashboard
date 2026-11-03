@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4639,
- "updatedAt": "2026-11-03 18:38",
+ "version": 4640,
+ "updatedAt": "2026-11-03 18:40",
  "days": 30,
  "items": [
   {
@@ -30,7 +30,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CDYPKQPQX",
      "from": "댓글",
-     "path": "menu-files/1793698001_564649-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -234,13 +233,13 @@ window.MENU_REQUESTS = {
        "price": 55000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793698001_564649-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CEHRWNT4L",
      "from": "댓글",
-     "path": "menu-files/1793698001_564649-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -444,13 +443,13 @@ window.MENU_REQUESTS = {
        "price": 47000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793698001_564649-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CDYPTN0J3",
      "from": "댓글",
-     "path": "menu-files/1793698001_564649-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -639,13 +638,13 @@ window.MENU_REQUESTS = {
        "price": 55000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793698001_564649-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CE7U4PK2P",
      "from": "댓글",
-     "path": "menu-files/1793698001_564649-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -759,13 +758,13 @@ window.MENU_REQUESTS = {
        "price": -1000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793698001_564649-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0CEE06PC2W",
      "from": "댓글",
-     "path": "menu-files/1793698001_564649-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1014,7 +1013,8 @@ window.MENU_REQUESTS = {
        "price": 38400
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793698001_564649-5.png"
     },
     {
      "name": "image.png",
@@ -1159,14 +1159,302 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CE7UB1V5H",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드/추가",
+       "name": "수제비빔막국수",
+       "price": 4900
+      },
+      {
+       "category": "사이드/추가",
+       "name": "수제비빔막국수 곱빼기",
+       "price": 6400
+      },
+      {
+       "category": "사이드/추가",
+       "name": "보쌈김치(소)",
+       "price": 2500
+      },
+      {
+       "category": "사이드/추가",
+       "name": "보쌈김치(중)",
+       "price": 5900
+      },
+      {
+       "category": "사이드/추가",
+       "name": "*배달료",
+       "price": 3000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "김가루주먹밥",
+       "price": 2900
+      },
+      {
+       "category": "사이드/추가",
+       "name": "매콤김가루주먹밥",
+       "price": 3500
+      },
+      {
+       "category": "사이드/추가",
+       "name": "막국수+김가루주먹밥",
+       "price": 7500
+      },
+      {
+       "category": "사이드/추가",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "*배달료",
+       "price": 500
+      },
+      {
+       "category": "사이드/추가",
+       "name": "상추",
+       "price": 1000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "새우젓쌈장마늘",
+       "price": 1000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "무말랭이김치",
+       "price": 1000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "불족소스",
+       "price": 3000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "*배달료",
+       "price": 100
+      },
+      {
+       "category": "사이드/추가",
+       "name": "마늘소스",
+       "price": 3000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "*할인",
+       "price": -5000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "보쌈(10pc)",
+       "price": 6500
+      },
+      {
+       "category": "사이드/추가",
+       "name": "보쌈(200g)",
+       "price": 13000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "불보쌈(10pc)",
+       "price": 7500
+      },
+      {
+       "category": "사이드/추가",
+       "name": "불족(300g)",
+       "price": 13000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "*할인",
+       "price": -3000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "족발(2인)",
+       "price": 17000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "보쌈(2인)",
+       "price": 19000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "불족발(2인)",
+       "price": 19000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "보쌈(200)불족(300)",
+       "price": 24000
+      },
+      {
+       "category": "사이드/추가",
+       "name": "*할인",
+       "price": -1000
+      },
+      {
+       "category": "",
+       "name": "한우대창 50g",
+       "price": 4900
+      },
+      {
+       "category": "",
+       "name": "한우대창 100g",
+       "price": 8900
+      },
+      {
+       "category": "",
+       "name": "염지숙성순살닭100g",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "염지숙성순살닭200g",
+       "price": 4900
+      },
+      {
+       "category": "",
+       "name": "새우 50g",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "닭다리살100g",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "닭다리살200g",
+       "price": 4900
+      },
+      {
+       "category": "",
+       "name": "김가루주먹밥",
+       "price": 2900
+      },
+      {
+       "category": "",
+       "name": "매콤김가루주먹밥",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "후리가케주먹밥",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "당면사리",
+       "price": 1900
+      },
+      {
+       "category": "",
+       "name": "떡사리",
+       "price": 1400
+      },
+      {
+       "category": "",
+       "name": "팽이버섯",
+       "price": 1400
+      },
+      {
+       "category": "",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "순두부찌개",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "일반빨간어묵탕",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "순두부라면",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CEE0CFDK4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료/주류",
+       "name": "콜라500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "제로콜라500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "코카콜라1.25",
+       "price": 3000
+      },
+      {
+       "category": "음료/주류",
+       "name": "사이다500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "사이다1.5",
+       "price": 3000
+      },
+      {
+       "category": "음료/주류",
+       "name": "환타파인맛500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "음료/주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료/주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "음료/주류",
+       "name": "복분자",
+       "price": 15000
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
    "replies": [
     "일만족발 ( 프렌차이즈) 로 변경 예정\n기존 메뉴 삭제 후 해당 메뉴 등록 요청 주셨습니다 :woman-bowing::skin-tone-4:"
    ],
-   "rc": 7,
-   "lr": "1793698621.091679",
+   "rc": 9,
+   "lr": "1793698647.567849",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
