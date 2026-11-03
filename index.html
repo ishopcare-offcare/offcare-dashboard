@@ -3023,21 +3023,22 @@ function ocrExtractMenu(text, store){
  *   'JARRITOS 자몽 / 구아바 / 망고 / 파인애플'  → JARRITOS 자몽 · JARRITOS 구아바 · …
  *   '코카콜라 / 코카콜라 제로 / 펩시'           → 각각 그대로 (공통 브랜드가 없다)
  *   'SAN PELLEGRINO 산펠레그리노'              → 그대로 (나열이 아니다)
+ *   '콜라,제로콜라,스프라이트,제로스프라이트'   → 각각 (쉼표 나열도 같은 가격으로 펼친다 — 사용자 요청 11/03)
  * 브랜드는 첫 조각이 두 토막 이상일 때만 뽑고, 뒤 조각이 전부 한 토막일 때만 붙인다.
  * '불고기 덮밥 / 제육 덮밥' 처럼 뒤가 여러 토막이면 각각 완성된 이름이라 브랜드를 안 붙인다. */
 const MR_OPEN='([{（［｛【〔', MR_CLOSE=')]}）］｝】〕';
 function menuregSplitVariants(name){
   const raw=String(name==null?'':name).trim();
-  if(!/[\/／]/.test(raw)) return raw?[raw]:[];
+  if(!/[\/／,，、]/.test(raw)) return raw?[raw]:[];
   // 괄호 안의 '/' 는 나열이 아니다 — '아메리카노(핫/아이스)' 를 쪼개면 이름이 깨진다
   const parts=[]; let buf='', depth=0;
   for(let i=0;i<raw.length;i++){
     const ch=raw[i];
     if(MR_OPEN.includes(ch)) depth++;
     else if(MR_CLOSE.includes(ch)) depth=Math.max(0,depth-1);
-    // 숫자 사이의 '/' 는 분수다 — '후라이드 1/2 마리' 를 쪼개면 안 된다
+    // 숫자 사이의 '/' 는 분수, ',' 는 천 단위다 — '후라이드 1/2 마리'·'1,000' 을 쪼개면 안 된다
     const frac = /\d/.test(raw[i-1]||'') && /\d/.test(raw[i+1]||'');
-    if((ch==='/'||ch==='／') && depth===0 && !frac){ parts.push(buf); buf=''; continue; }
+    if('/／,，、'.includes(ch) && depth===0 && !frac){ parts.push(buf); buf=''; continue; }
     buf+=ch;
   }
   parts.push(buf);
