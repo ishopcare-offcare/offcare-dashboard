@@ -3,10 +3,308 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4588,
- "updatedAt": "2026-11-03 11:50",
+ "version": 4589,
+ "updatedAt": "2026-11-03 13:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1793678335.231579",
+   "date": "2026-11-03",
+   "time": "12:58",
+   "store": "라노보 내동점",
+   "biz": "2720203853",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CE9PSGELE",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "얼떼커피(행사)1+1",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 3800
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "메론커피",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "소금커피",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "레몬에이드",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "자몽에이드",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "청귤레몬에이드",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "청포도에이드",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "딸기바나나스무디",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "스키스쿠티",
+       "price": 6000
+      },
+      {
+       "category": "ADE JUICE",
+       "name": "블루베리스무디",
+       "price": 6000
+      },
+      {
+       "category": "DESSERT",
+       "name": "고르곤졸라피자",
+       "price": 13900
+      },
+      {
+       "category": "DESSERT",
+       "name": "미니 브레드",
+       "price": 7500
+      },
+      {
+       "category": "DESSERT",
+       "name": "크로플",
+       "price": 5000
+      },
+      {
+       "category": "DESSERT",
+       "name": "아이스크림",
+       "price": 4500
+      },
+      {
+       "category": "DESSERT",
+       "name": "쿠키",
+       "price": 1500
+      },
+      {
+       "category": "FOOD",
+       "name": "해물볶음밥",
+       "price": 8900
+      },
+      {
+       "category": "FOOD",
+       "name": "새우볶음밥",
+       "price": 8900
+      },
+      {
+       "category": "FOOD",
+       "name": "햄야채볶음밥",
+       "price": 8900
+      },
+      {
+       "category": "FOOD",
+       "name": "김치볶음밥",
+       "price": 8900
+      },
+      {
+       "category": "FOOD",
+       "name": "치킨마요볶음밥",
+       "price": 9900
+      },
+      {
+       "category": "FOOD",
+       "name": "치즈낙지볶음밥",
+       "price": 10900
+      },
+      {
+       "category": "FOOD",
+       "name": "매운해물파스타",
+       "price": 13900
+      },
+      {
+       "category": "FOOD",
+       "name": "알리올리오파스타",
+       "price": 13900
+      },
+      {
+       "category": "FOOD",
+       "name": "크림파스타",
+       "price": 12900
+      },
+      {
+       "category": "FOOD",
+       "name": "치즈오븐파스타",
+       "price": 12900
+      },
+      {
+       "category": "SET",
+       "name": "A SET",
+       "price": 30000
+      },
+      {
+       "category": "SET",
+       "name": "B SET",
+       "price": 35000
+      },
+      {
+       "category": "SET",
+       "name": "C SET",
+       "price": 40000
+      },
+      {
+       "category": "BEER",
+       "name": "카스/카프리",
+       "price": 5000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "딸기 라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "흑임자라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "그린티라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "고구마라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "쑥라떼",
+       "price": 5000
+      },
+      {
+       "category": "TEA",
+       "name": "레몬차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "대추차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "생강차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스 레몬차",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "아이스티",
+       "price": 4300
+      },
+      {
+       "category": "BUBBLE TEA",
+       "name": "흑당버블티",
+       "price": 6500
+      },
+      {
+       "category": "SIDE",
+       "name": "미니보떡볶이",
+       "price": 8000
+      },
+      {
+       "category": "SIDE",
+       "name": "로제떡볶이",
+       "price": 7900
+      },
+      {
+       "category": "SIDE",
+       "name": "크림떡볶이",
+       "price": 7900
+      },
+      {
+       "category": "SIDE",
+       "name": "해물짬뽕라면",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "메뉴 등록 완료 이후 ··· 해당 연락처로 문자 발송 요청 드립니다 :woman-bowing::skin-tone-4:"
+   ],
+   "rc": 2,
+   "lr": "1793678363.717379",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793678335231579"
+  },
   {
    "ts": "1793674118.558369",
    "date": "2026-11-03",
