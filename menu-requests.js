@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4609,
- "updatedAt": "2026-11-03 15:07",
+ "version": 4610,
+ "updatedAt": "2026-11-03 15:24",
  "days": 30,
  "items": [
+  {
+   "ts": "1793687016.242519",
+   "date": "2026-11-03",
+   "time": "15:23",
+   "store": "동성제일한의원",
+   "biz": "4323401633",
+   "pos": "토스포스",
+   "content": "토스포스에서 결제 누르면 프론트에 결제 창이 떠야 하는데 뜨지 않는다고 합니다. 확인 부탁드립니다.\n프론트 재시작은 해보셨다고 해요. 토스포스 프로그램 상 프론트 연동은 되어있어요.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "어머.."
+   ],
+   "rc": 2,
+   "lr": "1793687049.396229",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793687016242519"
+  },
   {
    "ts": "1793685767.917279",
    "date": "2026-11-03",
