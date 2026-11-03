@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29061,
+  "version": 29062,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -300343,7 +300343,7 @@ window.SLACK_DATA = {
         },
         "menu": {
           "김현기": 1,
-          "김동욱": 1
+          "김동욱": 2
         }
       },
       "pending": [],
@@ -300370,6 +300370,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": ""
+        },
+        {
+          "time": "09:13",
+          "store": "가덕유황오리",
+          "biz": "6041795710",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "오케이포스 메뉴 가격 수정 요청 드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "v18871 / 구네투 관리업체는 대진포스로나옴. TID는 아샵 TID사용. 메뉴 금액 변경완료 /",
+          "rr": 4
         },
         {
           "time": "09:00",
@@ -300410,10 +300422,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 5,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:27",
+      "updatedAt": "09:30",
       "voc": {
         "responses": 1,
         "install": {
@@ -300531,14 +300543,15 @@ window.SLACK_DATA = {
       },
       "1793664003.389799": {
         "post": "1793664003.389799",
-        "lastSeen": 1793665684.427
+        "lastSeen": 1793665819.664
       },
-      "1793664807.585779": {
-        "post": "1793664807.585779",
-        "lastSeen": 1793665684.427,
-        "r": 1,
-        "day": "2026-11-03",
-        "idx": 2
+      "1793665801.396199": {
+        "post": "1793665801.396199",
+        "lastSeen": 1793665819.664
+      },
+      "1793665801.303769": {
+        "post": "1793665801.303769",
+        "lastSeen": 1793665819.664
       }
     },
     "days": {
@@ -412721,14 +412734,15 @@ window.SLACK_DATA = {
             "store": "가덕유황오리",
             "biz": "6041795710",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 15.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-03 09:28",
+    "at": "2026-11-03 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -412876,7 +412890,7 @@ window.SLACK_DATA = {
     "2026-11-03": 2
   },
   "noteMig": {
-    "at": "2026-11-03 09:28",
+    "at": "2026-11-03 09:30",
     "pri": {
       "days": 0,
       "failed": [],

@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4562,
- "updatedAt": "2026-11-03 09:16",
+ "version": 4563,
+ "updatedAt": "2026-11-03 09:30",
  "days": 30,
  "items": [
   {
@@ -39,13 +39,25 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CE8N643RU",
+     "from": "댓글",
+     "path": "menu-files/1793664807_585779-0.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1793664837.279049",
+   "replies": [
+    "아래의 메뉴 모두 13,000원으로 변경 요청 드립니다.\n김치찌개\n두루치기 백반\n청국장"
+   ],
+   "rc": 5,
+   "lr": "1793665837.093909",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793664807585779"
   },
