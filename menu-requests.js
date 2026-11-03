@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4623,
- "updatedAt": "2026-11-03 16:38",
+ "version": 4624,
+ "updatedAt": "2026-11-03 17:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1793692893.059899",
+   "date": "2026-11-03",
+   "time": "17:01",
+   "store": "쩐다방",
+   "biz": "1890601420",
+   "pos": "토스포스",
+   "content": "생과일 쥬스부분은\n과일 이름 다 적지마시구 \n레귤러 4000원 라지 5000원\n까지만 만들어주세요\n나머지는 전부 만들어주시면 감사드리겠습니다",
+   "special": "파일첨부가 되지않아서",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793692893059899"
+  },
   {
    "ts": "1793691026.310139",
    "date": "2026-11-03",
