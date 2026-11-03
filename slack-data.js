@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29052,
+  "version": 29053,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -300339,6 +300339,9 @@ window.SLACK_DATA = {
         "as": {
           "고경림": 1,
           "김동욱": 1
+        },
+        "menu": {
+          "김동욱": 1
         }
       },
       "pending": [],
@@ -300356,6 +300359,17 @@ window.SLACK_DATA = {
           "rr": 1
         },
         {
+          "time": "09:00",
+          "store": "지글대패 진천점",
+          "biz": "1586600834",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "스파로스) 메뉴 수정 요청드립니다 &gt;&gt;",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
           "time": "07:14",
           "store": "컴포즈커피 성수코리아IT점",
           "biz": "5218102386",
@@ -300369,7 +300383,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -300491,14 +300505,7 @@ window.SLACK_DATA = {
       },
       "1793664003.389799": {
         "post": "1793664003.389799",
-        "lastSeen": 1793664430.028
-      },
-      "1793664003.342249": {
-        "post": "1793664003.342249",
-        "lastSeen": 1793664430.028,
-        "r": 1,
-        "day": "2026-11-03",
-        "idx": 1
+        "lastSeen": 1793664523.652
       }
     },
     "days": {
@@ -412672,14 +412679,15 @@ window.SLACK_DATA = {
             "store": "지글대패 진천점",
             "biz": "1586600834",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 7.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-03 09:07",
+    "at": "2026-11-03 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -412827,7 +412835,7 @@ window.SLACK_DATA = {
     "2026-11-03": 2
   },
   "noteMig": {
-    "at": "2026-11-03 09:07",
+    "at": "2026-11-03 09:08",
     "pri": {
       "days": 0,
       "failed": [],
