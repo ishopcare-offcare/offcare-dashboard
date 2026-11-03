@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4620,
- "updatedAt": "2026-11-03 16:20",
+ "version": 4621,
+ "updatedAt": "2026-11-03 16:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1793691026.310139",
+   "date": "2026-11-03",
+   "time": "16:30",
+   "store": "지코바지킨신화영어교육도시점",
+   "biz": "2080430426",
+   "pos": "토스포스",
+   "content": "순살양념구이 24,500\n순살소금구이 23,500\n양념한마리뼈 23,500\n소금한마리뼈 22,500\n\n떡 추가 2,000\n근위추가 5,000\n김가루밥 5,000\n고추추가 500\n소주 5,000\n맥주 5,000\n음료 3,000\n순한맛 0\n중간맛 0\n매운맛 0",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793691026310139"
+  },
   {
    "ts": "1793690069.664829",
    "date": "2026-11-03",
