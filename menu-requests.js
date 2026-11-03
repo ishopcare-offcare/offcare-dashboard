@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4565,
- "updatedAt": "2026-11-03 09:38",
+ "version": 4566,
+ "updatedAt": "2026-11-03 10:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1793667641.028759",
+   "date": "2026-11-03",
+   "time": "10:00",
+   "store": "김밥천국",
+   "biz": "7880400205",
+   "pos": "",
+   "content": "메뉴 수정 요청드립니다 >>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "가격수정\n돌솥비빔밥 8500원 -> 9000원"
+   ],
+   "rc": 1,
+   "lr": "1793667662.193989",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793667641028759"
+  },
   {
    "ts": "1793665953.360669",
    "date": "2026-11-03",
