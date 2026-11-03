@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29060,
+  "version": 29061,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -300357,7 +300357,8 @@ window.SLACK_DATA = {
           "req": "포터프 &gt; 터프 재온보딩 부탁드립니다 :우땅꾸벅:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 터프온보딩 시 토스포스와 연동은 해제됨 안내드리니 그냥 이대로 사용하시겠다고 해요! 터프온보딩 시 토스포스와 연동은 해제됨 안내드리니 그냥 이대로 사용하시겠다고 해요!",
+          "rr": 1
         },
         {
           "time": "09:14",
@@ -300412,7 +300413,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:20",
+      "updatedAt": "09:27",
       "voc": {
         "responses": 1,
         "install": {
@@ -300530,11 +300531,11 @@ window.SLACK_DATA = {
       },
       "1793664003.389799": {
         "post": "1793664003.389799",
-        "lastSeen": 1793665482.511
+        "lastSeen": 1793665684.427
       },
       "1793664807.585779": {
         "post": "1793664807.585779",
-        "lastSeen": 1793665482.511,
+        "lastSeen": 1793665684.427,
         "r": 1,
         "day": "2026-11-03",
         "idx": 2
@@ -412727,7 +412728,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-03 09:25",
+    "at": "2026-11-03 09:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -412875,7 +412876,7 @@ window.SLACK_DATA = {
     "2026-11-03": 2
   },
   "noteMig": {
-    "at": "2026-11-03 09:24",
+    "at": "2026-11-03 09:28",
     "pri": {
       "days": 0,
       "failed": [],
