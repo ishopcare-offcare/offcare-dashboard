@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4575,
- "updatedAt": "2026-11-03 10:41",
+ "version": 4576,
+ "updatedAt": "2026-11-03 10:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1793670985.805109",
+   "date": "2026-11-03",
+   "time": "10:56",
+   "store": "다크그림(Dark grym)",
+   "biz": "6606600598",
+   "pos": "",
+   "content": "메뉴등록요청드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "상품정보_Darkgrym_261103.xlsx",
+     "fid": "F0CE4TXC98T",
+     "from": "댓글",
+     "path": "menu-files/1793670985_805109-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793670996.921569",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793670985805109"
+  },
   {
    "ts": "1793669314.095559",
    "date": "2026-11-03",
