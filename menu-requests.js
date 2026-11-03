@@ -3,10 +3,660 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4570,
- "updatedAt": "2026-11-03 10:18",
+ "version": 4571,
+ "updatedAt": "2026-11-03 10:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1793669314.095559",
+   "date": "2026-11-03",
+   "time": "10:28",
+   "store": "움버거앤윙스",
+   "biz": "1358560825",
+   "pos": "퍼스트포스",
+   "content": "치킨불고기 6600\n치킨불고기 세트 10,100\n치킨불고기시그니처세트11,400\n치킨불고기 메가윙세트  12,600\n가격수정해주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793669314095559"
+  },
+  {
+   "ts": "1793669300.669289",
+   "date": "2026-11-03",
+   "time": "10:28",
+   "store": "플렌루노(PLENLUNO)",
+   "biz": "2643001707",
+   "pos": "",
+   "content": "음료 핫/아이스 구분 필요, 이전에 보내주신 메뉴판에서 일부 메뉴 빠져있어 다시 세팅요청주셨습니다.:꾸벅:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CDVKKAJH5",
+     "from": "댓글",
+     "path": "menu-files/1793669300_669289-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "Coffee",
+       "name": "디카페인 아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛 아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "에스프레소",
+       "price": 2100
+      },
+      {
+       "category": "Coffee",
+       "name": "카푸치노",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페모카",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "아샷추",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "코코넛 라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "흑임자 커피 라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "흑임자 크림 커피 라떼",
+       "price": 4800
+      },
+      {
+       "category": "Coffee",
+       "name": "아인슈페너",
+       "price": 4200
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛 라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "연유라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "흑당라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜마끼아또",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜 모카라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "디카페인 아샷추",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "아인슈페너 라떼",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "아인슈페너 초코",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "더블 크림 라떼",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "더블 크림 바닐라 라떼",
+       "price": 4800
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "말차 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "말차초코 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "민트초코 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "바나나 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "바닐라 조리퐁",
+       "price": 4500
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "딸기 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "딸기 밀크티",
+       "price": 4500
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "공주밤 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "토피넛 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "고구마 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "미숫가루",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "초코 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "쿠앤크 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "티라미수 라떼",
+       "price": 4500
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "곡물 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "딸기 조리퐁",
+       "price": 4500
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "밀크티라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "레몬 밀크티",
+       "price": 4500
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "흑임자 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "흑임자 밀크티",
+       "price": 4200
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "흑당 밀크티",
+       "price": 4500
+      },
+      {
+       "category": "Non-Coffee Latte",
+       "name": "얼그레이초코밀크티",
+       "price": 4500
+      },
+      {
+       "category": "Tea",
+       "name": "얼그레이",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "잉글리쉬 블랙퍼스트",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "다즐링",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "캐모마일",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "페퍼민트",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "루이보스",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "자스민",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "그린티",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "히비스커스",
+       "price": 2800
+      },
+      {
+       "category": "Tea",
+       "name": "복숭아 아이스티",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "오미자 자스민",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "레몬 히비스커스",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "자몽 히비스커스",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "히비스커스 패션후르츠",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "자몽 자스민",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "유자차",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "레몬차",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "자몽자",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "생강차",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "오미자차",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "매실차",
+       "price": 3000
+      },
+      {
+       "category": "Tea",
+       "name": "제로 허니 자몽 티",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "제로 피치 우롱 티",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "복숭아 히비스커스",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "복숭아 망고 아이스티",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "메실 그린티",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "그린청귤 깔라만시",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "자몽 얼그레이",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "레몬생강차",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "코코망고 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "레몬",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "자몽",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "딸기",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "청포도",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "깔라만시",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "한라봉 프리미엄",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "유자",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "오미자",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "매실",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "블루레몬",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "패션후르츠",
+       "price": 4000
+      },
+      {
+       "category": "Ade",
+       "name": "얼박사",
+       "price": 4200
+      },
+      {
+       "category": "Juice",
+       "name": "딸기 주스",
+       "price": 4500
+      },
+      {
+       "category": "Juice",
+       "name": "키위 주스",
+       "price": 4500
+      },
+      {
+       "category": "Juice",
+       "name": "수박 주스",
+       "price": 4500
+      },
+      {
+       "category": "Juice",
+       "name": "딸기바나나 주스",
+       "price": 4800
+      },
+      {
+       "category": "Juice",
+       "name": "초코딸기 주스",
+       "price": 4800
+      },
+      {
+       "category": "Juice",
+       "name": "바나나 주스",
+       "price": 4500
+      },
+      {
+       "category": "Juice",
+       "name": "토마토 주스",
+       "price": 4500
+      },
+      {
+       "category": "Juice",
+       "name": "망고 주스",
+       "price": 4500
+      },
+      {
+       "category": "Juice",
+       "name": "키위바나나 주스",
+       "price": 4800
+      },
+      {
+       "category": "Juice",
+       "name": "초코바나나 주스",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "플레인 요거트 스무디",
+       "price": 4500
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "딸기 요거트 스무디",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "블루베리 요거트 스무디",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "망고 요거트 스무디",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "파인애플 요거트 스무디",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "키위 요거트 스무디",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "코코넛 커피 스무디",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "밀크쉐이크",
+       "price": 4800
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "카라멜 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "모카 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "바닐라 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "초코 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "쿠앤크 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "자바칩 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "말차 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Smoothie & frappe",
+       "name": "민트초코 프라페",
+       "price": 4900
+      },
+      {
+       "category": "Option",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "Option",
+       "name": "오트변경",
+       "price": 500
+      },
+      {
+       "category": "Option",
+       "name": "시럽추가",
+       "price": 500
+      },
+      {
+       "category": "Option",
+       "name": "디카페인변경",
+       "price": 1000
+      },
+      {
+       "category": "Option",
+       "name": "화이트펄 추가",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793351449439309?thread_ts=···.928499&cid=C08740SFT1S"
+   ],
+   "rc": 2,
+   "lr": "1793669367.437889",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793669300669289"
+  },
   {
    "ts": "1793668332.134759",
    "date": "2026-11-03",
