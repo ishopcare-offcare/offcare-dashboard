@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4576,
- "updatedAt": "2026-11-03 10:57",
+ "version": 4577,
+ "updatedAt": "2026-11-03 11:03",
  "days": 30,
  "items": [
   {
@@ -14,7 +14,7 @@ window.MENU_REQUESTS = {
    "store": "다크그림(Dark grym)",
    "biz": "6606600598",
    "pos": "",
-   "content": "메뉴등록요청드립니다",
+   "content": "신규 오픈매장 메뉴등록요청드립니다",
    "special": "",
    "drive": [],
    "files": 0,
