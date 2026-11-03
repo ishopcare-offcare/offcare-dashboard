@@ -3,10 +3,369 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4641,
- "updatedAt": "2026-11-03 19:39",
+ "version": 4642,
+ "updatedAt": "2026-11-03 21:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1793709901.074409",
+   "date": "2026-11-03",
+   "time": "21:45",
+   "store": "경성갈비",
+   "biz": "2171626991",
+   "pos": "오케이포스",
+   "content": "고기메뉴가격변경, 모듬메뉴 가격변경 및 고기품목변경, 주류가격변경",
+   "special": "오늘저녁 마감후 메뉴가격변경해주시고 내일아침 영업전에 메뉴가격 변경 완료후 영업을 할수있게 해 주시면 감사하겠습니다",
+   "drive": [
+    "https://drive.google.com/file/d/1po_ZL257T6gbxdLoPL_jJslObQEHQseM/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1AiR4y51W_NMThgx4IYsToBSTN_K4Z7wq/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1po_ZL257T6gbxdLoPL_jJslObQEHQseM",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "모둠류",
+       "name": "주등령 모둠 (3~4인분)",
+       "price": 80000
+      },
+      {
+       "category": "모둠류",
+       "name": "(2인분)",
+       "price": 40000
+      },
+      {
+       "category": "모둠류",
+       "name": "생고기 모둠 (3~4인분)",
+       "price": 60000
+      },
+      {
+       "category": "모둠류",
+       "name": "(2인분)",
+       "price": 35000
+      },
+      {
+       "category": "모둠류",
+       "name": "벌집정제기(150g)",
+       "price": 7000
+      },
+      {
+       "category": "모둠류",
+       "name": "서비스숯불",
+       "price": 7000
+      },
+      {
+       "category": "고기류 - 생고기",
+       "name": "소갈비살(150g)",
+       "price": 18500
+      },
+      {
+       "category": "고기류 - 생고기",
+       "name": "갈메기살(150g)",
+       "price": 17500
+      },
+      {
+       "category": "고기류 - 생고기",
+       "name": "보섭살차삼겹살(150g)",
+       "price": 15000
+      },
+      {
+       "category": "고기류 - 야념",
+       "name": "주등령 소갈비살(150g)",
+       "price": 19500
+      },
+      {
+       "category": "고기류 - 야념",
+       "name": "주등령돼지껍데기살(150g)",
+       "price": 18500
+      },
+      {
+       "category": "고기류 - 야념",
+       "name": "돼지양념갈비(250g)",
+       "price": 17500
+      },
+      {
+       "category": "식사류",
+       "name": "국수 물/비빔 (great)",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "공기밥",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "냉면 물/비빔",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "된장찌개",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "비빔밥",
+       "price": 9000
+      },
+      {
+       "category": "식사류",
+       "name": "꽃게 된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "김치찌개",
+       "price": 10000
+      },
+      {
+       "category": "식사류",
+       "name": "갸샹도삼 소고기국밥",
+       "price": 10000
+      },
+      {
+       "category": "주류,음료",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "주류,음료",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "주류,음료",
+       "name": "하이볼",
+       "price": 6000
+      },
+      {
+       "category": "주류,음료",
+       "name": "병겉러",
+       "price": 5000
+      },
+      {
+       "category": "주류,음료",
+       "name": "하이볼",
+       "price": 6000
+      },
+      {
+       "category": "주류,음료",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "정심주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "정심주류",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "정심식사",
+       "name": "꽃게된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "정심식사",
+       "name": "김치찌개",
+       "price": 10000
+      },
+      {
+       "category": "정심식사",
+       "name": "갸샹도삼 소고기국밥",
+       "price": 10000
+      },
+      {
+       "category": "정심식사",
+       "name": "비빔밥",
+       "price": 9000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1AiR4y51W_NMThgx4IYsToBSTN_K4Z7wq",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "모둠류",
+       "name": "주물렁 모둠 (3~4인분)",
+       "price": 80000
+      },
+      {
+       "category": "모둠류",
+       "name": "주물렁 모둠 (2인분)",
+       "price": 40000
+      },
+      {
+       "category": "모둠류",
+       "name": "생고기 모둠 (3~4인분)",
+       "price": 60000
+      },
+      {
+       "category": "모둠류",
+       "name": "생고기 모둠 (2인분)",
+       "price": 35000
+      },
+      {
+       "category": "모둠류",
+       "name": "벌집껍데기(150g)",
+       "price": 7000
+      },
+      {
+       "category": "모둠류",
+       "name": "서비스숯화",
+       "price": 7000
+      },
+      {
+       "category": "고기류 생고기",
+       "name": "소갈비살(150g)",
+       "price": 18500
+      },
+      {
+       "category": "고기류 생고기",
+       "name": "돼지갈매기살(150g)",
+       "price": 17500
+      },
+      {
+       "category": "고기류 생고기",
+       "name": "보성녹차삼겹살(150g)",
+       "price": 15000
+      },
+      {
+       "category": "고기류 양념",
+       "name": "주물렁 소갈비살(150g)",
+       "price": 19500
+      },
+      {
+       "category": "고기류 양념",
+       "name": "주물렁 돼지갈매기살(150g)",
+       "price": 18500
+      },
+      {
+       "category": "고기류 양념",
+       "name": "돼지양념갈비(250g)",
+       "price": 17500
+      },
+      {
+       "category": "점심식사",
+       "name": "꽃게된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "점심식사",
+       "name": "김치찌개",
+       "price": 10000
+      },
+      {
+       "category": "점심식사",
+       "name": "깡상도식 소고기국밥",
+       "price": 10000
+      },
+      {
+       "category": "점심식사",
+       "name": "비빔밥추가",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "콩 수물/비빔 (냉식)",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "콩 수물/비빔 (추석)",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "냉면 물/비빔 (냉식)",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "냉면 물/비빔 (추석)",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "비빔밥 (밥그릇,고기추가)",
+       "price": 9000
+      },
+      {
+       "category": "식사류",
+       "name": "꽃게 된장찌개 (주문시)",
+       "price": 9000
+      },
+      {
+       "category": "식사류",
+       "name": "꽃게 된장찌개 (추석)",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "김치찌개",
+       "price": 10000
+      },
+      {
+       "category": "식사류",
+       "name": "깡상도식 소고기국밥",
+       "price": 10000
+      },
+      {
+       "category": "주류,음료",
+       "name": "소주",
+       "price": 4500
+      },
+      {
+       "category": "주류,음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류,음료",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류,음료",
+       "name": "콜라 사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류,음료",
+       "name": "하이볼",
+       "price": 5000
+      },
+      {
+       "category": "점심주류",
+       "name": "소주",
+       "price": 3000
+      },
+      {
+       "category": "점심주류",
+       "name": "맥주",
+       "price": 4000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793709901074409"
+  },
   {
    "ts": "1793698001.564649",
    "date": "2026-11-03",
