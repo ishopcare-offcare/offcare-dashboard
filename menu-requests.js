@@ -3,10 +3,221 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4633,
- "updatedAt": "2026-11-03 17:48",
+ "version": 4634,
+ "updatedAt": "2026-11-03 17:50",
  "days": 30,
  "items": [
+  {
+   "ts": "1793695709.899469",
+   "date": "2026-11-03",
+   "time": "17:48",
+   "store": "황우",
+   "biz": "1321778725",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "14497.jpg",
+     "fid": "F0CEBNN5HFG",
+     "from": "댓글",
+     "path": "menu-files/1793695709_899469-0.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "14498.jpg",
+     "fid": "F0CEFJFV1BK",
+     "from": "댓글",
+     "path": "menu-files/1793695709_899469-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "고기류",
+       "name": "한우꽃등심",
+       "price": 53000
+      },
+      {
+       "category": "고기류",
+       "name": "한우육회",
+       "price": 35000
+      },
+      {
+       "category": "고기류",
+       "name": "수입",
+       "price": 30000
+      },
+      {
+       "category": "고기류",
+       "name": "앞치마살",
+       "price": 70000
+      },
+      {
+       "category": "고기류",
+       "name": "안창살",
+       "price": 70000
+      },
+      {
+       "category": "고기류",
+       "name": "육사시미",
+       "price": 50000
+      },
+      {
+       "category": "고기류",
+       "name": "채끝등심",
+       "price": 58000
+      },
+      {
+       "category": "고기류",
+       "name": "업진살",
+       "price": 70000
+      },
+      {
+       "category": "고기류",
+       "name": "참숯돼지갈비",
+       "price": 18000
+      },
+      {
+       "category": "고기류",
+       "name": "삼겹살",
+       "price": 16000
+      },
+      {
+       "category": "고기류",
+       "name": "항정살",
+       "price": 20000
+      },
+      {
+       "category": "고기류",
+       "name": "한돈목살",
+       "price": 15000
+      },
+      {
+       "category": "고기류",
+       "name": "목살",
+       "price": 18000
+      },
+      {
+       "category": "고기류",
+       "name": "안심",
+       "price": 60000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "14499.jpg",
+     "fid": "F0CEFJH9YHX",
+     "from": "댓글",
+     "path": "menu-files/1793695709_899469-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "찌개류",
+       "name": "소곱창전골",
+       "price": 45000
+      },
+      {
+       "category": "찌개류",
+       "name": "삼겹살김치찌개",
+       "price": 15000
+      },
+      {
+       "category": "찌개류",
+       "name": "부대찌개",
+       "price": 10000
+      },
+      {
+       "category": "찌개류",
+       "name": "동태찌개",
+       "price": 12000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "14500.jpg",
+     "fid": "F0CE8CZMX61",
+     "from": "댓글",
+     "path": "menu-files/1793695709_899469-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사류",
+       "name": "우거지해장국",
+       "price": 10000
+      },
+      {
+       "category": "식사류",
+       "name": "생선구이+청국장",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "생선구이+우렁된장",
+       "price": 13000
+      },
+      {
+       "category": "식사류",
+       "name": "생선구이+된장찌개",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "한방왕갈비탕",
+       "price": 16000
+      },
+      {
+       "category": "식사류",
+       "name": "한방낙지왕갈비탕",
+       "price": 18000
+      },
+      {
+       "category": "식사류",
+       "name": "삼계탕",
+       "price": 17000
+      },
+      {
+       "category": "식사류",
+       "name": "돌솥밥정식",
+       "price": 15000
+      },
+      {
+       "category": "식사류",
+       "name": "육개장",
+       "price": 10000
+      },
+      {
+       "category": "식사류",
+       "name": "코다리조림(대)",
+       "price": 59000
+      },
+      {
+       "category": "식사류",
+       "name": "코다리조림 (중)",
+       "price": 49000
+      },
+      {
+       "category": "식사류",
+       "name": "코다리조림 (소)",
+       "price": 39000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793695741.648989",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793695709899469"
+  },
   {
    "ts": "1793695538.002169",
    "date": "2026-11-03",
