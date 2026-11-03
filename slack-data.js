@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29053,
+  "version": 29054,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -300367,7 +300367,8 @@ window.SLACK_DATA = {
           "req": "스파로스) 메뉴 수정 요청드립니다 &gt;&gt;",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "솔라피발송",
+          "rr": 1
         },
         {
           "time": "07:14",
@@ -300505,7 +300506,7 @@ window.SLACK_DATA = {
       },
       "1793664003.389799": {
         "post": "1793664003.389799",
-        "lastSeen": 1793664523.652
+        "lastSeen": 1793664621.127
       }
     },
     "days": {
@@ -412687,7 +412688,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-03 09:09",
+    "at": "2026-11-03 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -412835,7 +412836,7 @@ window.SLACK_DATA = {
     "2026-11-03": 2
   },
   "noteMig": {
-    "at": "2026-11-03 09:08",
+    "at": "2026-11-03 09:10",
     "pri": {
       "days": 0,
       "failed": [],
