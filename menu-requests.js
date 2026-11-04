@@ -3,10 +3,34 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4667,
- "updatedAt": "2026-11-04 13:33",
+ "version": 4668,
+ "updatedAt": "2026-11-04 13:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1793768026.760659",
+   "date": "2026-11-04",
+   "time": "13:53",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "퍼스트포스",
+   "content": "• 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "카테고리: 비빔밥\n쭈꾸미 비빔밥 9,900\n쭈꾸미삼겹 비빔밥 10,900\n쭈새삼 비빔밥 11,900",
+    "메뉴 정렬 관련하여 통화하고 싶다고 하시는데, 가능할까요?"
+   ],
+   "rc": 2,
+   "lr": "1793768054.764669",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793768026760659"
+  },
   {
    "ts": "1793766769.628889",
    "date": "2026-11-04",
