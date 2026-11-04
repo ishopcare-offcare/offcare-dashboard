@@ -22,25 +22,14 @@ const CHANNELS = [
   // brand: 상호에 브랜드명이 없으면 앞에 붙인다 — 전용 채널이라 '수원인계점' 처럼만 적혀도 컴포즈 원장(tally-compose)에 잡히게.
   // ⚠ 봇(SLACK_BOT_TOKEN)이 채널 멤버여야 읽힌다 — 비공개 채널이면 /invite 필요.
   // 이모지 규칙(2026-11-04 사용자): '<이름>확인'(예: 동욱확인) = 담당자, '처리완료' = 완료 → AS 로 적재. 기존 원격as·원격XX 도 그대로 인정.
+  // ⚠ 슬랙에 보이는 글자와 이모지 '이름'이 다르다 — 처리완료 = :compose-done:, 토플 = :compose-toss: (2026-11-04 진단). compose-remote 는 완료가 아니다.
   // '토플확인'·'토플완료'(토스플레이스 처리)도 완료 → AS. 담당자는 같이 찍힌 '<이름>확인' 사람, 없으면 미지정 ('토플'은 사람이 아니다).
-  { id: process.env.COMPOSE_TF_CHANNEL || 'C0CCY6QG1L5', label: '컴포즈TF', defaultCat: 'as', brand: '컴포즈', doneEmoji: ['처리완료', '토플확인', '토플완료'] },
+  { id: process.env.COMPOSE_TF_CHANNEL || 'C0CCY6QG1L5', label: '컴포즈TF', defaultCat: 'as', brand: '컴포즈', doneEmoji: ['compose-done', 'compose-toss', '처리완료', '토플확인', '토플완료'] },
 ];
 // 채널 전용 완료 이모지인가 ('처리완료' · '처리_완료' · '토플_확인' 모두)
 const normEmoji = n => String(n).replace(/[_\s-]/g, '');
-function isChDone(n, ch) { return !!(ch && ch.doneEmoji) && [].concat(ch.doneEmoji).includes(normEmoji(n)); }
+function isChDone(n, ch) { return !!(ch && ch.doneEmoji) && [].concat(ch.doneEmoji).some(e => normEmoji(e) === normEmoji(n)); }
 function chDoneOf(names, ch) { return names.some(n => isChDone(n, ch)); }
-const DIAG_BRAND = [];   // [임시 진단] 브랜드 채널 글의 이모지·구조 — data.diagBrand 로 저장
-const DIAG_LABELS = ['상호', '매장명', '사업자번호', '사업자', '연락처', '수신/발신', '문의내용', '답변내용', '상담원', '내용'];
-function labelShape(t) {   // 각 줄 → 알려진 라벨(굵게·콜론 표시 보존)이면 그대로, 아니면 '…'(값) / '∅'(빈 줄). 값은 남기지 않는다.
-  return String(t).split('\n').slice(0, 30).map(l => {
-    const s = l.trim(); if (!s) return '∅';
-    const core = s.replace(/[*_:：\s]/g, '');
-    const lab = DIAG_LABELS.find(x => core === x.replace(/\s/g, ''));
-    if (lab) return s.replace(lab, '<' + lab + '>').replace(/[^<>*:：\s가-힣\/]/g, '') ;
-    const pre = DIAG_LABELS.find(x => core.startsWith(x.replace(/\s/g, '')));
-    return pre ? '<' + pre + '>' + (/[:：]/.test(s) ? ':' : '') + '…' : '…';
-  }).join('|');
-}
 /* 파싱용 본문. 브랜드 전용 채널(#컴포즈-tf)은 CX 워크플로 글이라 라벨과 값이 줄을 나눠 오고
  * ('상호\n컴포즈커피 수원인계점'), 라벨이 굵게(*상호*) 오거나 본문이 blocks 에만 있을 수 있다 →
  * blocks 까지 모으고 굵게 표시(*)·실체참조를 걷어낸다. 다른 채널은 예전 그대로 m.text. */
@@ -48,9 +37,32 @@ function msgText(m, ch) {
   if (!(ch && ch.brand)) return m.text || '';
   return blocksText(m).replace(/\*/g, '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
 }
+/* CX 워크플로 글 중 일부는 라벨이 연달아 나오고 값이 그 뒤에 같은 순서로 온다:
+ *   상호:\n사업자번호:\n컴포즈커피 사당역점\n1234567890\n010…
+ * → 이어진 라벨 묶음에서 원하는 라벨의 순번을 찾아 같은 순번의 값 줄을 돌려준다(라벨이 2개 이상 이어질 때만). */
+const STACK_LABEL_RE = /^(상호|매장명|사업자\s*(?:등록)?\s*번호|연락처|전화번호|수신\s*\/\s*발신)\s*[:：]?$/;
+function stackedField(text, re) {
+  const lines = String(text || '').split('\n').map(l => l.replace(/\*/g, '').trim()).filter(Boolean);
+  for (let i = 0; i < lines.length; i++) {
+    if (!STACK_LABEL_RE.test(lines[i])) continue;
+    let j = i; while (j < lines.length && STACK_LABEL_RE.test(lines[j])) j++;
+    if (j - i < 2) { i = j - 1; continue; }
+    const k = lines.slice(i, j).findIndex(l => re.test(l));
+    return k < 0 ? '' : (lines[j + k] || '');
+  }
+  return '';
+}
+function bizOf(text, ch) {
+  const b = parseBiz(text);
+  if (b || !(ch && ch.brand)) return b;
+  const v = stackedField(text, /^사업자/);
+  return v ? parseBiz('사업자번호: ' + v) : '';
+}
 // 상호 파싱 — '상호:' 또는 '매장명:' 줄. 브랜드 전용 채널이면 브랜드명을 보장한다.
 function storeOf(text, ch) {
-  let store = (((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
+  let store = ((ch && ch.brand && stackedField(text, /^(상호|매장명)/))
+    || ((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
+  if (ch && ch.brand && STACK_LABEL_RE.test(store.replace(/\*/g, ''))) store = '';   // 값 없이 다음 라벨을 잡은 경우
   if (ch && ch.brand && store && !store.replace(/\s/g, '').includes(ch.brand)) store = ch.brand + '_' + store;
   if (store.length > 30) store = store.slice(0, 30);
   return store;
@@ -440,14 +452,12 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     const time = kstHM(m.ts);
     if (time > latest) latest = time;
     const names = (m.reactions || []).map(r => r.name);
-    // [임시 진단 2026-11-04] #컴포즈-tf 글이 전부 '확인 후 미완료'로 남는 원인 확인용.
-    // 공개 저장소라 글 내용은 절대 남기지 않는다 — 이모지 이름과 '라벨 뼈대'(알려진 라벨만 그대로, 값 줄은 …, 빈 줄은 ∅)만.
-    if (ch.brand && DIAG_BRAND.length < 40) DIAG_BRAND.push({ time, em: names, bot: !!m.bot_id, txt: labelShape(m.text || ''), blk: labelShape(blocksText(m).slice(String(m.text || '').length)) });
     const urgent = names.some(n => /(긴급|사이렌|urgent|siren|rotating_light|경보|비상|sos|alert)/i.test(n)) || undefined;   // 긴급/사이렌 이모지 → '재빠른' 타이틀용
     const text = msgText(m, ch);
     const store = storeOf(text, ch);
-    const biz = parseBiz(text);
-    const req = ((text.match(/내용\s*[:：]?\s*(.+)/) || [])[1] || '').trim().slice(0, 140);   // 요청 '내용' 필드(문제 유형 분류용)
+    const biz = bizOf(text, ch);
+    // 브랜드 채널 글엔 빈 '내용:' 줄 다음에 '문의내용:' 이 온다 → 문의내용을 먼저 본다
+    const req = (((ch.brand && (text.match(/문의\s*내용\s*[:：]?[ \t]*(\S.*)/) || text.match(/문의\s*내용\s*[:：]?\s*(.+)/))) || text.match(/내용\s*[:：]?\s*(.+)/) || [])[1] || '').trim().slice(0, 140);   // 요청 '내용' 필드(문제 유형 분류용)
     const hw = ((text.match(/(?:하드웨어|장비|기종|hw)\s*[:：]?\s*(.+)/i) || [])[1] || '').trim().slice(0, 60);   // 하드웨어 필드 → AS 유형 분류 우선 반영(글 수정 시 반영됨)
     // 인입유형(온라인/오프라인) — '인입유형:' 또는 '오프/온라인:' 라벨 파싱. 미기재(미상)는 온라인으로 적재(팀 정책).
     const intakeRaw = ((text.match(/(?:인입\s*유형|오프\s*\/?\s*온라인)\s*[:：]?\s*([^\n\/]*)/) || [])[1] || '');
@@ -665,7 +675,7 @@ function trackResp(data, msgs, ch) {
       // 건별 상세(올라온시간·응답분·상호·담당·카테고리) 저장 — 상세 모달용
       const text = msgText(m, ch);
       const store = storeOf(text, ch);
-      const biz = parseBiz(text);
+      const biz = bizOf(text, ch);
       let who = '';
       for (const n of names) { const pm = n.match(RE_EMP); if (pm) { who = personMap[pm[1]]; break; } }
       if (!who) for (const n of names) { const cm = n.match(RE_CONFIRM); if (cm) { who = personMap[cm[1]]; break; } }
@@ -845,7 +855,6 @@ async function tallyVoc(msgs, voc, channelId, opts) {
   /* 이관 진행 기록 — CI 로그는 인증 없이 못 보므로 결과를 데이터에 남긴다(대시보드는 안 읽는다) */
   const noteMigLog = { at: nowKstStamp() };
   data.noteMig = noteMigLog;
-  data.diagBrand = DIAG_BRAND;   // [임시 진단] 배열을 그대로 물려 두면 이번 실행에서 모인 값이 저장된다 — 원인 확인 후 제거
   // 처리내역(note) 수집은 MAX_REPLY_FETCH 상한을 공유하므로, 최신 날짜부터 처리해
   // 사람들이 가장 많이 보는 '오늘' 건의 note가 상한 소진 전에 먼저 채워지도록 한다.
   for (const dstr of [...workDates].reverse()) {
