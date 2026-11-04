@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4644,
- "updatedAt": "2026-11-04 00:31",
+ "version": 4645,
+ "updatedAt": "2026-11-04 10:14",
  "days": 30,
  "items": [
   {
@@ -68797,46 +68797,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791179903396259"
-  },
-  {
-   "ts": "1791162756.861759",
-   "date": "2026-10-05",
-   "time": "10:12",
-   "store": "제야(ZEYA)",
-   "biz": "2612901338",
-   "pos": "토스포스",
-   "content": "첫번째부터 입력이 되어있지 않습니다",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1KkCdxQOecgF8d-JPPu9jmq2AeI8VVlDC/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [
-    {
-     "name": "제야 메뉴판 2026년 04월 22일.pptx",
-     "fid": "F0C6S6C6BEX",
-     "from": "댓글",
-     "path": "menu-files/1791162756_861759-0.pptx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "일부만 들어가있음 통화필요",
-    "여기 칵테일바라서   싱글 더블 보틀 나눠져잇는데\n메뉴가 몇백개는됨\n\n근데 옵션으로 다 처리해달라고함... 큰일남\n\n일단 작업하는데 1~2주 걸린다고 말은 해놨음..",
-    "일단 칵테일은 엑셀에 누락되서 작업하기로함 (단품)",
-    "ㅋㅋㅋㅋㅋㅋ",
-    "거짓말 :lying_face:",
-    "규빈님 이거 파일이 안열리는데 엑셀 가지고 계시면 여기 올려주실 수 있나요",
-    "PPT 파일이네",
-    "점주가 어제 메뉴 건들여놓은듯"
-   ],
-   "rc": 13,
-   "lr": "1791251358.862439",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791162756861759"
   }
  ],
  "ocr": {
