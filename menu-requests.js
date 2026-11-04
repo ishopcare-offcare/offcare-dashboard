@@ -3,10 +3,182 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4675,
- "updatedAt": "2026-11-04 14:59",
+ "version": 4676,
+ "updatedAt": "2026-11-04 15:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1793772115.418849",
+   "date": "2026-11-04",
+   "time": "15:01",
+   "store": "춘천닭갈비",
+   "biz": "2170398762",
+   "pos": "토스포스",
+   "content": "타대리점 유니온포스 -> 토스포스 전환 메뉴등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "춘천닭갈비.png",
+     "fid": "F0CEQKP5RDG",
+     "from": "댓글",
+     "path": "menu-files/1793772115_418849-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "춘천닭갈비",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "약매닭갈비",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "매운닭갈비",
+       "price": 15500
+      },
+      {
+       "category": "메뉴",
+       "name": "막국수",
+       "price": 7500
+      },
+      {
+       "category": "메뉴",
+       "name": "채소4000",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "모둠",
+       "price": 6500
+      },
+      {
+       "category": "메뉴",
+       "name": "고구마",
+       "price": 2500
+      },
+      {
+       "category": "메뉴",
+       "name": "치즈",
+       "price": 3500
+      },
+      {
+       "category": "메뉴",
+       "name": "우동",
+       "price": 2500
+      },
+      {
+       "category": "메뉴",
+       "name": "떡",
+       "price": 2500
+      },
+      {
+       "category": "메뉴",
+       "name": "라면",
+       "price": 2500
+      },
+      {
+       "category": "메뉴",
+       "name": "쫄면",
+       "price": 2500
+      },
+      {
+       "category": "메뉴",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "배민 모둠",
+       "price": 7000
+      },
+      {
+       "category": "메뉴",
+       "name": "싯가",
+       "price": 0
+      },
+      {
+       "category": "메뉴",
+       "name": "이슬이즈백",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "카스/테라",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "막걸리",
+       "price": 4500
+      },
+      {
+       "category": "메뉴",
+       "name": "배민 치즈",
+       "price": 4000
+      },
+      {
+       "category": "메뉴",
+       "name": "매화수",
+       "price": 6000
+      },
+      {
+       "category": "메뉴",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "한라산21",
+       "price": 6000
+      },
+      {
+       "category": "메뉴",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 1500
+      },
+      {
+       "category": "메뉴",
+       "name": "배민닭갈비",
+       "price": 35000
+      },
+      {
+       "category": "메뉴",
+       "name": "비)매운닭2",
+       "price": 36000
+      },
+      {
+       "category": "메뉴",
+       "name": "비)매운닭3",
+       "price": 52000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793772144.344479",
+   "rfx": 3,
+   "status": "done",
+   "handler": "고경림",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793772115418849"
+  },
   {
    "ts": "1793768371.968329",
    "date": "2026-11-04",
