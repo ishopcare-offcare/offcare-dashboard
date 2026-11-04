@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4647,
- "updatedAt": "2026-11-04 10:22",
+ "version": 4648,
+ "updatedAt": "2026-11-04 10:24",
  "days": 30,
  "items": [
   {
@@ -23,34 +23,219 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CE7NZEBLP",
      "from": "댓글",
-     "path": "menu-files/1793755057_304049-0.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793755057_304049-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CFHFQPB7S",
      "from": "댓글",
-     "path": "menu-files/1793755057_304049-1.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793755057_304049-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CENURE82E",
      "from": "댓글",
-     "path": "menu-files/1793755057_304049-2.png",
      "kind": "pos_screen",
      "menu": [],
+     "v": 2,
+     "path": "menu-files/1793755057_304049-2.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CESRCCUGL",
+     "from": "댓글",
+     "path": "menu-files/1793755057_304049-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "대박",
+       "name": "야채곱창",
+       "price": 12000
+      },
+      {
+       "category": "대박",
+       "name": "알곱창",
+       "price": 14000
+      },
+      {
+       "category": "대박",
+       "name": "순대볶음",
+       "price": 12000
+      },
+      {
+       "category": "대박",
+       "name": "순대야채곱창",
+       "price": 14000
+      },
+      {
+       "category": "대박",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "대박",
+       "name": "오돌뼈",
+       "price": 12000
+      },
+      {
+       "category": "대박",
+       "name": "상추",
+       "price": 1000
+      },
+      {
+       "category": "대박",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "치즈볶음밥",
+       "price": 4000
+      },
+      {
+       "category": "대박",
+       "name": "양배추",
+       "price": 2000
+      },
+      {
+       "category": "대박",
+       "name": "치즈떡",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "순대",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "치즈",
+       "price": 4000
+      },
+      {
+       "category": "대박",
+       "name": "당면",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "매운맛",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "안매운맛",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "안매운맛+",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "보통맛",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "보통맛+",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "계란찜",
+       "price": 4000
+      },
+      {
+       "category": "대박",
+       "name": "햇반",
+       "price": 1500
+      },
+      {
+       "category": "대박",
+       "name": "배달비",
+       "price": 2000
+      },
+      {
+       "category": "대박",
+       "name": "배달비",
+       "price": 2500
+      },
+      {
+       "category": "대박",
+       "name": "배달비",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CEM5X0ZLN",
+     "from": "댓글",
+     "path": "menu-files/1793755057_304049-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류.음료수",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "주류",
+       "price": 4000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "웰치스",
+       "price": 2000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "캔콜라",
+       "price": 1000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "소)콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "대)콜라",
+       "price": 3000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "소)사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "대)사이다",
+       "price": 3000
+      }
+     ],
      "v": 2
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 3,
-   "lr": "1793755332.120919",
+   "rc": 5,
+   "lr": "1793755362.171549",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
