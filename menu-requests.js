@@ -3,10 +3,146 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4666,
- "updatedAt": "2026-11-04 13:22",
+ "version": 4667,
+ "updatedAt": "2026-11-04 13:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1793766769.628889",
+   "date": "2026-11-04",
+   "time": "13:32",
+   "store": "뼈돌이",
+   "biz": "7632202440",
+   "pos": "토스포스",
+   "content": "전체메뉴 등록 원합니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/11AjtuPxLtcbIRTMNOwAlacbNifmeZXH-/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "11AjtuPxLtcbIRTMNOwAlacbNifmeZXH-",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "뼈 해장국",
+       "name": "일반",
+       "price": 11900
+      },
+      {
+       "category": "뼈 해장국",
+       "name": "특",
+       "price": 14900
+      },
+      {
+       "category": "감자탕",
+       "name": "우거지/묵은지 소",
+       "price": 26900
+      },
+      {
+       "category": "감자탕",
+       "name": "우거지/묵은지 중",
+       "price": 36900
+      },
+      {
+       "category": "감자탕",
+       "name": "우거지/묵은지 대",
+       "price": 46900
+      },
+      {
+       "category": "감자탕",
+       "name": "파지 소",
+       "price": 29900
+      },
+      {
+       "category": "감자탕",
+       "name": "파지 중",
+       "price": 39900
+      },
+      {
+       "category": "감자탕",
+       "name": "파지 대",
+       "price": 49900
+      },
+      {
+       "category": "뼈구이",
+       "name": "소금구이 소",
+       "price": 24900
+      },
+      {
+       "category": "뼈구이",
+       "name": "소금구이 중",
+       "price": 34900
+      },
+      {
+       "category": "뼈구이",
+       "name": "소금구이 대",
+       "price": 44900
+      },
+      {
+       "category": "뼈구이",
+       "name": "양념 소",
+       "price": 25900
+      },
+      {
+       "category": "뼈구이",
+       "name": "양념 중",
+       "price": 35900
+      },
+      {
+       "category": "뼈구이",
+       "name": "양념 대",
+       "price": 45900
+      },
+      {
+       "category": "사이드",
+       "name": "뼈추가",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "만두",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "주먹밥",
+       "price": 4000
+      },
+      {
+       "category": "사이드",
+       "name": "공기밥",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "수제비",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "당면",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "라면사리",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793766769628889"
+  },
   {
    "ts": "1793764905.342979",
    "date": "2026-11-04",
