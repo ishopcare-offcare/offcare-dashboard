@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-04 12:11 KST
+ *  갱신: 2026-11-04 12:41 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-04 12:11',
+  updatedAt : '2026-11-04 12:41',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -68,5 +68,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-03","time":"18:33","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"김규빈","intake":"online","status":"done","req":"주문번호 설정 진행했음에도 미출력되어 설정 점검 요청드립니다.","note":"사당점 동일 이슈 토플 전달"},
     {"date":"2026-11-03","time":"21:23","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"최민석","intake":"online","status":"pending","req":"확인 후 미완료","note":""},
     {"date":"2026-11-04","time":"11:09","store":"컴포즈커피 수원인계점","branch":"수원인계점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"pending","req":"확인 후 미완료","note":""},
+    {"date":"2026-11-04","time":"11:39","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"서상원","intake":"online","status":"pending","req":"확인 후 미완료","note":""},
   ],
 };
