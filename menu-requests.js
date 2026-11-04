@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4665,
- "updatedAt": "2026-11-04 13:02",
+ "version": 4666,
+ "updatedAt": "2026-11-04 13:22",
  "days": 30,
  "items": [
   {
@@ -14,15 +14,17 @@ window.MENU_REQUESTS = {
    "store": "코끼리카페 오산점",
    "biz": "1304800813",
    "pos": "스파로스포스",
-   "content": "[황도 요거트 찹쌀떡->복숭아 요거트 찹쌀떡] 으로 수정\n[파인애플 요거트 찹쌀떡 / 4500원] 추가",
+   "content": "사진추가",
    "special": "",
    "drive": [],
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "등록/솔라피전송"
+   ],
+   "rc": 1,
+   "lr": "1793766079.738979",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
