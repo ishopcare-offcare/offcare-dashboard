@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29526,
+  "version": 29527,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303506,7 +303506,8 @@ window.SLACK_DATA = {
           "req": "간헐적으로 애플페이 결제가 안되는 현상 있다고 하십니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "삼성 페이는 이상 없음 애플 페이는 사용자가 많이 없어 정확한 확인이 어려웠다고 합니다. 추후 채증 요청했습니다. 동일 내용 인입 시 영상 확인 후 기기 교체 진행 안내 완료",
+          "rr": 1
         },
         {
           "time": "09:00",
@@ -303538,7 +303539,59 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "09:12"
+      "updatedAt": "09:22",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 1,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 1,
+          "nps": 0
+        },
+        "npsDist": {
+          "9": 1
+        },
+        "installDist": {
+          "5": 1
+        },
+        "byIndustry": {
+          "서비스[학원]": 1
+        },
+        "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": [
+          {
+            "time": "09:22",
+            "store": "행복성장심리상담센터 보람대평점",
+            "storeId": "722153",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 9,
+            "text": "기기도. 방법도. 마음에. 듦 편리해서",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
+      }
     }
   },
   "resp": {
@@ -303681,7 +303734,7 @@ window.SLACK_DATA = {
       },
       "1793751137.471979": {
         "post": "1793751137.471979",
-        "lastSeen": 1793751633.276,
+        "lastSeen": 1793751722.548,
         "r": 1,
         "day": "2026-11-04",
         "idx": 2
@@ -417608,26 +417661,18 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 09:21",
+    "at": "2026-11-04 09:22",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": true,
-    "error": "",
-    "rows": 4894,
-    "named": 1272,
-    "unknownName": 327,
+    "ok": false,
+    "error": "시트 export 실패 HTTP 403",
+    "rows": 0,
+    "named": 0,
+    "unknownName": 0,
     "beforeStart": 0,
-    "done": 1272,
-    "byStatus": {
-      "일정등록완료": 817,
-      "1차부재": 269,
-      "점주직접접수": 105,
-      "설치불가": 24,
-      "(빈칸)": 7,
-      "자가설치": 38,
-      "설치보류요청": 12
-    }
+    "done": 0,
+    "byStatus": {}
   },
   "noteV": {
     "2026-09-29": 2,
@@ -417757,7 +417802,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 09:20",
+    "at": "2026-11-04 09:22",
     "pri": {
       "days": 0,
       "failed": [],
