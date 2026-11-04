@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4683,
- "updatedAt": "2026-11-04 15:35",
+ "version": 4684,
+ "updatedAt": "2026-11-04 15:40",
  "days": 30,
  "items": [
   {
@@ -516,10 +516,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "카테고리: 비빔밥\n쭈꾸미 비빔밥 9,900\n쭈꾸미삼겹 비빔밥 10,900\n쭈새삼 비빔밥 11,900",
     "메뉴 정렬 관련하여 통화하고 싶다고 하시는데, 가능할까요?",
-    "현지님! 제가 가서 설명 드릴게요!"
+    "현지님! 제가 가서 설명 드릴게요!",
+    "구두 설명완료!"
    ],
-   "rc": 5,
-   "lr": "1793774047.068669",
+   "rc": 6,
+   "lr": "1793774427.418899",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
