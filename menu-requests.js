@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4706,
- "updatedAt": "2026-11-04 19:06",
+ "version": 4707,
+ "updatedAt": "2026-11-04 19:07",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "··· 해당 메리글 폐업 매장 메뉴 그대로 복사 필요"
+   ],
+   "rc": 1,
+   "lr": "1793786783.699449",
    "rfx": 3,
    "status": "wait",
    "handler": null,
