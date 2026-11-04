@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4689,
- "updatedAt": "2026-11-04 16:07",
+ "version": 4690,
+ "updatedAt": "2026-11-04 16:44",
  "days": 30,
  "items": [
+  {
+   "ts": "1793778217.637389",
+   "date": "2026-11-04",
+   "time": "16:43",
+   "store": "코끼리카페 오산점",
+   "biz": "1304800813",
+   "pos": "스파로스포스",
+   "content": "키오스크, 포스기 전체적으로 전부 수정 부탁드립니다.",
+   "special": "엑셀파일에 추가해야할 옵션사항 기재해두었습니다. 카테고리는 시트제목으로 나누지 마시고 시트에 있는 카테고리(예: 와플, 크로플,휴게소 간식 등등)으로 넣어주세요.",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793778217637389"
+  },
   {
    "ts": "1793774626.982969",
    "date": "2026-11-04",
