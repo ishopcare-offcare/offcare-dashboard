@@ -2313,7 +2313,7 @@ function renderShareNotice(){
       </div>
     </div>`; }).join('') : `<div class="empty-note">${all.length?'이 분류의 게시글이 없습니다.':'아직 게시글이 없습니다. 첫 소식을 올려보세요! 📢'}</div>`;
   document.getElementById("main").innerHTML=`
-    <div class="page-head"><div><h2>📢 공지사항 · 공유 게시판</h2><div class="sub">팀 공유 내용을 자유롭게 올려주세요 · 팀 전체에 공유됩니다 · 대시보드 변경사항은 하위 <b>업데이트 내역</b> 탭에서 확인</div></div></div>
+    <div class="page-head"><div><h2>📢 공유 게시판</h2><div class="sub">팀 공유 내용을 자유롭게 올려주세요 · 팀 전체에 공유됩니다 · 대시보드 변경사항은 하위 <b>업데이트 내역</b> 탭에서 확인</div></div></div>
     <div class="card">
       <div class="card-head"><h3>✍️ 새 글 작성</h3></div>
       ${(gameMe||'').trim()?`<div class="notice-form">
@@ -2883,7 +2883,7 @@ function renderNav(){
     }
     if(c.key==='share' && (activeCat==='share'||activeCat==='share-notice'||activeCat==='share-changelog')){
       btn += `<button class="navbtn sub ${activeCat==='share-notice'?'active':''}" onclick="selectCat('share-notice')">
-        <span class="ic">└</span>📢 공지사항${noticesUnread()?'<span class="nav-dot"></span>':''}</button>`;
+        <span class="ic">└</span>📢 공유 게시판${noticesUnread()?'<span class="nav-dot"></span>':''}</button>`;
       btn += `<button class="navbtn sub ${activeCat==='share-changelog'?'active':''}" onclick="selectCat('share-changelog')">
         <span class="ic">└</span>🤖 업데이트 내역${changelogUnread()?'<span class="nav-dot"></span>':''}</button>`;
     }
