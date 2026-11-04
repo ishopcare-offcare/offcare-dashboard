@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29615,
+  "version": 29616,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -301365,7 +301365,7 @@ window.SLACK_DATA = {
           "hw": "만 삼성페이 결제가 되지 않는다고 말씀 주시어 확인 한 번 부탁드릴게요",
           "intake": "offline",
           "note": "",
-          "rr": 90
+          "rr": 91
         },
         {
           "time": "15:27",
@@ -304201,15 +304201,15 @@ window.SLACK_DATA = {
       },
       "1793758712.809699": {
         "post": "1793758712.809699",
-        "lastSeen": 1793761182.072
+        "lastSeen": 1793761271.515
       },
       "1793750437.925349": {
         "post": "1793750437.925349",
-        "lastSeen": 1793761182.072
+        "lastSeen": 1793761271.515
       },
       "1793760647.068849": {
         "post": "1793760647.068849",
-        "lastSeen": 1793761182.072
+        "lastSeen": 1793761271.515
       }
     },
     "days": {
@@ -418386,7 +418386,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 12:00",
+    "at": "2026-11-04 12:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -418535,7 +418535,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 11:59",
+    "at": "2026-11-04 12:01",
     "pri": {
       "days": 0,
       "failed": [],
