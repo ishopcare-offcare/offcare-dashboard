@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4650,
- "updatedAt": "2026-11-04 10:52",
+ "version": 4651,
+ "updatedAt": "2026-11-04 10:54",
  "days": 30,
  "items": [
   {
@@ -241,10 +241,12 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "동민님 일단 여기 오늘 당장은 불가하고 okpos카피 등 확인할 부분이 있어서 외주사 철수한 상태입니다"
+    "동민님 일단 여기 오늘 당장은 불가하고 okpos카피 등 확인할 부분이 있어서 외주사 철수한 상태입니다",
+    "어... 영업중이신거 아닌가요??!?!",
+    "아 나가셔야한다고! 아 괜찮습니다. 원격 종료해도 됩니다"
    ],
-   "rc": 8,
-   "lr": "1793757163.641609",
+   "rc": 13,
+   "lr": "1793757249.747029",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
