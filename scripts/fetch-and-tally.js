@@ -29,6 +29,18 @@ const CHANNELS = [
 const normEmoji = n => String(n).replace(/[_\s-]/g, '');
 function isChDone(n, ch) { return !!(ch && ch.doneEmoji) && [].concat(ch.doneEmoji).includes(normEmoji(n)); }
 function chDoneOf(names, ch) { return names.some(n => isChDone(n, ch)); }
+const DIAG_BRAND = [];   // [임시 진단] 브랜드 채널 글의 이모지·구조 — data.diagBrand 로 저장
+const DIAG_LABELS = ['상호', '매장명', '사업자번호', '사업자', '연락처', '수신/발신', '문의내용', '답변내용', '상담원', '내용'];
+function labelShape(t) {   // 각 줄 → 알려진 라벨(굵게·콜론 표시 보존)이면 그대로, 아니면 '…'(값) / '∅'(빈 줄). 값은 남기지 않는다.
+  return String(t).split('\n').slice(0, 30).map(l => {
+    const s = l.trim(); if (!s) return '∅';
+    const core = s.replace(/[*_:：\s]/g, '');
+    const lab = DIAG_LABELS.find(x => core === x.replace(/\s/g, ''));
+    if (lab) return s.replace(lab, '<' + lab + '>').replace(/[^<>*:：\s가-힣\/]/g, '') ;
+    const pre = DIAG_LABELS.find(x => core.startsWith(x.replace(/\s/g, '')));
+    return pre ? '<' + pre + '>' + (/[:：]/.test(s) ? ':' : '') + '…' : '…';
+  }).join('|');
+}
 /* 파싱용 본문. 브랜드 전용 채널(#컴포즈-tf)은 CX 워크플로 글이라 라벨과 값이 줄을 나눠 오고
  * ('상호\n컴포즈커피 수원인계점'), 라벨이 굵게(*상호*) 오거나 본문이 blocks 에만 있을 수 있다 →
  * blocks 까지 모으고 굵게 표시(*)·실체참조를 걷어낸다. 다른 채널은 예전 그대로 m.text. */
@@ -428,6 +440,9 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     const time = kstHM(m.ts);
     if (time > latest) latest = time;
     const names = (m.reactions || []).map(r => r.name);
+    // [임시 진단 2026-11-04] #컴포즈-tf 글이 전부 '확인 후 미완료'로 남는 원인 확인용.
+    // 공개 저장소라 글 내용은 절대 남기지 않는다 — 이모지 이름과 '라벨 뼈대'(알려진 라벨만 그대로, 값 줄은 …, 빈 줄은 ∅)만.
+    if (ch.brand && DIAG_BRAND.length < 40) DIAG_BRAND.push({ time, em: names, bot: !!m.bot_id, txt: labelShape(m.text || ''), blk: labelShape(blocksText(m).slice(String(m.text || '').length)) });
     const urgent = names.some(n => /(긴급|사이렌|urgent|siren|rotating_light|경보|비상|sos|alert)/i.test(n)) || undefined;   // 긴급/사이렌 이모지 → '재빠른' 타이틀용
     const text = msgText(m, ch);
     const store = storeOf(text, ch);
@@ -830,6 +845,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
   /* 이관 진행 기록 — CI 로그는 인증 없이 못 보므로 결과를 데이터에 남긴다(대시보드는 안 읽는다) */
   const noteMigLog = { at: nowKstStamp() };
   data.noteMig = noteMigLog;
+  data.diagBrand = DIAG_BRAND;   // [임시 진단] 배열을 그대로 물려 두면 이번 실행에서 모인 값이 저장된다 — 원인 확인 후 제거
   // 처리내역(note) 수집은 MAX_REPLY_FETCH 상한을 공유하므로, 최신 날짜부터 처리해
   // 사람들이 가장 많이 보는 '오늘' 건의 note가 상한 소진 전에 먼저 채워지도록 한다.
   for (const dstr of [...workDates].reverse()) {
