@@ -37,30 +37,37 @@ function msgText(m, ch) {
   if (!(ch && ch.brand)) return m.text || '';
   return blocksText(m).replace(/\*/g, '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
 }
-/* CX 워크플로 글 중 일부는 라벨이 연달아 나오고 값이 그 뒤에 같은 순서로 온다:
- *   상호:\n사업자번호:\n컴포즈커피 사당역점\n1234567890\n010…
- * → 이어진 라벨 묶음에서 원하는 라벨의 순번을 찾아 같은 순번의 값 줄을 돌려준다(라벨이 2개 이상 이어질 때만). */
-const STACK_LABEL_RE = /^(상호|매장명|사업자\s*(?:등록)?\s*번호|연락처|전화번호|수신\s*\/\s*발신)\s*[:：]?$/;
-function stackedField(text, re) {
+/* CX 워크플로 글 중 일부는 라벨이 연달아 나오고 값이 그 뒤에 몰려 온다:
+ *   상호:\n사업자번호:\n핸드폰 번호: 010-…\n컴포즈커피 사당역점\n1234567890\n상담원: …
+ * 값 줄 사이에 '핸드폰 번호: …' 처럼 라벨 붙은 줄이 끼고 순서도 일정하지 않다(2026-11-04 실측) →
+ * 순번으로 맞추지 않고 내용으로 고른다: 사업자번호 = 숫자 10자리 줄, 상호 = ':' 없고 글자가 있는 첫 줄.
+ * 라벨이 2개 이상 연달아 나오는 글에만 쓴다(값이 라벨 바로 다음 줄에 오는 글은 기존 정규식). */
+const STACK_LABEL_RE = /^(상호|매장명|사업자\s*(?:등록)?\s*번호|연락처|전화번호|핸드폰\s*번호|휴대폰\s*번호|수신\s*\/\s*발신)\s*[:：]?$/;
+function stackedField(text, kind) {
   const lines = String(text || '').split('\n').map(l => l.replace(/\*/g, '').trim()).filter(Boolean);
   for (let i = 0; i < lines.length; i++) {
     if (!STACK_LABEL_RE.test(lines[i])) continue;
     let j = i; while (j < lines.length && STACK_LABEL_RE.test(lines[j])) j++;
     if (j - i < 2) { i = j - 1; continue; }
-    const k = lines.slice(i, j).findIndex(l => re.test(l));
-    return k < 0 ? '' : (lines[j + k] || '');
+    const vals = [];
+    for (let k = j; k < lines.length && vals.length < 8; k++) {
+      if (/^(상담원|내용|문의\s*내용|답변\s*내용)\s*[:：]?/.test(lines[k])) break;   // 다음 구역
+      vals.push(lines[k]);
+    }
+    if (kind === 'biz') return vals.find(v => /^\d[\d\- ]+$/.test(v) && v.replace(/\D/g, '').length === 10) || '';
+    return vals.find(v => !/[:：]/.test(v) && /[가-힣A-Za-z]/.test(v) && !/^0\d{1,2}[-\s]?\d/.test(v)) || '';
   }
   return '';
 }
 function bizOf(text, ch) {
   const b = parseBiz(text);
   if (b || !(ch && ch.brand)) return b;
-  const v = stackedField(text, /^사업자/);
+  const v = stackedField(text, 'biz');
   return v ? parseBiz('사업자번호: ' + v) : '';
 }
 // 상호 파싱 — '상호:' 또는 '매장명:' 줄. 브랜드 전용 채널이면 브랜드명을 보장한다.
 function storeOf(text, ch) {
-  let store = ((ch && ch.brand && stackedField(text, /^(상호|매장명)/))
+  let store = ((ch && ch.brand && stackedField(text, 'store'))
     || ((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
   if (ch && ch.brand && STACK_LABEL_RE.test(store.replace(/\*/g, ''))) store = '';   // 값 없이 다음 라벨을 잡은 경우
   if (ch && ch.brand && store && !store.replace(/\s/g, '').includes(ch.brand)) store = ch.brand + '_' + store;
@@ -812,6 +819,7 @@ async function tallyVoc(msgs, voc, channelId, opts) {
   // 예전 파일에 가리지 않은 값이 남아 있어도 여기서 가린다 — 새로 읽은 건(가린 biz)과 키가 맞아야
   // 처리내역을 다시 부르지 않는다(재호출이 몰리면 429).
   maskDeep(data);
+  delete data.diagBrand;   // 2026-11-04 임시 진단 잔재
   data.days = data.days || {};
 
   // ===== 업무 채널 집계 (백필이면 BACKFILL_FROM~오늘, 아니면 최근 3일 롤링) =====
