@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29584,
+  "version": 29585,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -301365,7 +301365,7 @@ window.SLACK_DATA = {
           "hw": "만 삼성페이 결제가 되지 않는다고 말씀 주시어 확인 한 번 부탁드릴게요",
           "intake": "offline",
           "note": "",
-          "rr": 72
+          "rr": 73
         },
         {
           "time": "15:27",
@@ -303838,15 +303838,15 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "11:00",
+      "updatedAt": "11:07",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 3,
           "low": 1
         },
         "high": {
@@ -303855,6 +303855,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
+          "8": 1,
           "9": 1
         },
         "installDist": {
@@ -303864,6 +303865,10 @@ window.SLACK_DATA = {
           "서비스[학원]": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 1,
             "low": 1
@@ -303874,13 +303879,13 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 0
+          },
           "KPN": {
             "total": 1,
             "low": 1
-          },
-          "KIS": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
@@ -304053,39 +304058,39 @@ window.SLACK_DATA = {
       },
       "1793753709.707319": {
         "post": "1793753709.707319",
-        "lastSeen": 1793757946.255,
+        "lastSeen": 1793758049.201,
         "r": 1,
         "day": "2026-11-04",
         "idx": 3
       },
       "1793755750.410199": {
         "post": "1793755750.410199",
-        "lastSeen": 1793757946.255
+        "lastSeen": 1793758049.201
       },
       "1793757166.390259": {
         "post": "1793757166.390259",
-        "lastSeen": 1793757946.255,
+        "lastSeen": 1793758049.201,
         "r": 1,
         "day": "2026-11-04",
         "idx": 17
       },
       "1793757385.540489": {
         "post": "1793757385.540489",
-        "lastSeen": 1793757946.255,
+        "lastSeen": 1793758049.201,
         "r": 1,
         "day": "2026-11-04",
         "idx": 22
       },
       "1793757501.400809": {
         "post": "1793757501.400809",
-        "lastSeen": 1793757946.255,
+        "lastSeen": 1793758049.201,
         "r": 1,
         "day": "2026-11-04",
         "idx": 21
       },
       "1793757600.613369": {
         "post": "1793757600.613369",
-        "lastSeen": 1793757946.255,
+        "lastSeen": 1793758049.201,
         "r": 1,
         "day": "2026-11-04",
         "idx": 23
@@ -418197,7 +418202,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 11:06",
+    "at": "2026-11-04 11:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -418346,7 +418351,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 11:05",
+    "at": "2026-11-04 11:07",
     "pri": {
       "days": 0,
       "failed": [],
