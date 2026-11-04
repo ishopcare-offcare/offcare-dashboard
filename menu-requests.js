@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4703,
- "updatedAt": "2026-11-04 18:58",
+ "version": 4704,
+ "updatedAt": "2026-11-04 19:00",
  "days": 30,
  "items": [
   {
@@ -245,8 +245,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1793786265.034249",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793786235565729"
   },
   {
@@ -265,7 +265,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_9749.jpg",
      "fid": "F0CEB97U68P",
      "from": "댓글",
-     "path": "menu-files/1793786011_819499-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -349,13 +348,13 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793786011_819499-0.jpg"
     },
     {
      "name": "IMG_9750.jpg",
      "fid": "F0CEWBGQZD2",
      "from": "댓글",
-     "path": "menu-files/1793786011_819499-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -399,13 +398,13 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793786011_819499-1.jpg"
     },
     {
      "name": "IMG_9751.jpg",
      "fid": "F0CEUH77FSM",
      "from": "댓글",
-     "path": "menu-files/1793786011_819499-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -509,13 +508,13 @@ window.MENU_REQUESTS = {
        "price": 20000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793786011_819499-2.jpg"
     },
     {
      "name": "IMG_9752.jpg",
      "fid": "F0CEWBGDVBN",
      "from": "댓글",
-     "path": "menu-files/1793786011_819499-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -564,13 +563,13 @@ window.MENU_REQUESTS = {
        "price": 14000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793786011_819499-3.jpg"
     },
     {
      "name": "IMG_9753.jpg",
      "fid": "F0CFM1WQS72",
      "from": "댓글",
-     "path": "menu-files/1793786011_819499-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -674,13 +673,13 @@ window.MENU_REQUESTS = {
        "price": 10000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793786011_819499-4.jpg"
     },
     {
      "name": "IMG_9754.jpg",
      "fid": "F0CEUH71Y9X",
      "from": "댓글",
-     "path": "menu-files/1793786011_819499-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -735,7 +734,8 @@ window.MENU_REQUESTS = {
        "price": 16000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793786011_819499-5.jpg"
     },
     {
      "name": "IMG_9755.jpg",
@@ -878,8 +878,8 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793786094.364439",
+   "rc": 2,
+   "lr": "1793786356.468129",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
