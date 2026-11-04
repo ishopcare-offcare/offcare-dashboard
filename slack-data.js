@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29524,
+  "version": 29525,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303463,8 +303463,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김동욱": 1,
-          "고경림": 1,
-          "심성현": 1
+          "심성현": 2,
+          "고경림": 1
         },
         "booking": {
           "고경림": 1
@@ -303499,6 +303499,17 @@ window.SLACK_DATA = {
         },
         {
           "time": "09:00",
+          "store": "블랙커스텀로스터리",
+          "biz": "7643300854",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "간헐적으로 애플페이 결제가 안되는 현상 있다고 하십니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "09:00",
           "store": "에이스 브레드",
           "biz": "3203301556",
           "cat": "as",
@@ -303523,7 +303534,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 2,
         "unknown": 0
       },
@@ -303668,16 +303679,9 @@ window.SLACK_DATA = {
         "post": "1793718004.695149",
         "lastSeen": 1793736984.706
       },
-      "1793750412.513029": {
-        "post": "1793750412.513029",
-        "lastSeen": 1793751390.33,
-        "r": 1,
-        "day": "2026-11-04",
-        "idx": 1
-      },
       "1793751137.471979": {
         "post": "1793751137.471979",
-        "lastSeen": 1793751390.33,
+        "lastSeen": 1793751565.308,
         "r": 1,
         "day": "2026-11-04",
         "idx": 2
@@ -417588,7 +417592,8 @@ window.SLACK_DATA = {
             "store": "블랙커스텀로스터리",
             "biz": "7643300854",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 17.8
           },
           {
             "hm": "09:12",
@@ -417603,7 +417608,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 09:17",
+    "at": "2026-11-04 09:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -417752,7 +417757,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 09:16",
+    "at": "2026-11-04 09:19",
     "pri": {
       "days": 0,
       "failed": [],
