@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29541,
+  "version": 29542,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303462,7 +303462,7 @@ window.SLACK_DATA = {
     "2026-11-04": {
       "counts": {
         "as": {
-          "고경림": 2,
+          "고경림": 3,
           "김동욱": 2,
           "심성현": 2
         },
@@ -303472,6 +303472,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:44",
+          "store": "고탄(gotan)",
+          "biz": "1073885701",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "주문 후 다음날에도 해당주문건이 있다(정확하게 뭐라고 말씀은 해주시지 않으시고, 오더인거같아 완료하기 누르리시거나해야하는부분 안내드렸으나 이전에는 누른적없이 자동으로 꺼졌다며 확인 요청주셨습니다,) 해당부분으로 확인 요청 주셨습니다.:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:27",
           "store": "재이진푸드",
@@ -303559,7 +303570,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 2,
         "unknown": 0
       },
@@ -303792,11 +303803,11 @@ window.SLACK_DATA = {
       },
       "1793753314.796459": {
         "post": "1793753314.796459",
-        "lastSeen": 1793753788.834
+        "lastSeen": 1793753849.037
       },
       "1793753709.707319": {
         "post": "1793753709.707319",
-        "lastSeen": 1793753788.834
+        "lastSeen": 1793753849.037
       }
     },
     "days": {
@@ -417721,7 +417732,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 09:56",
+    "at": "2026-11-04 09:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -417870,7 +417881,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 09:56",
+    "at": "2026-11-04 09:57",
     "pri": {
       "days": 0,
       "failed": [],
