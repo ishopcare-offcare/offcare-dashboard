@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29532,
+  "version": 29533,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303462,9 +303462,9 @@ window.SLACK_DATA = {
     "2026-11-04": {
       "counts": {
         "as": {
+          "고경림": 2,
           "김동욱": 1,
-          "심성현": 2,
-          "고경림": 1
+          "심성현": 2
         },
         "booking": {
           "고경림": 1
@@ -303472,6 +303472,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:27",
+          "store": "재이진푸드",
+          "biz": "4641003025",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "포프(PC) + 유프 / 배민 라이트 프로그램이 아닌 구버전 프로그램 실행되어 오류가 발생된다고 하시어 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "배민라이트 설치 및 토스포스 연동완료 • pc주문접수 삭제 요청해주셔서 삭제완료 pc주문접수 삭제 요청해주셔서 삭제완료",
+          "rr": 1
+        },
         {
           "time": "09:05",
           "store": "가장두부",
@@ -303535,7 +303547,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 2,
         "unknown": 0
       },
@@ -303734,7 +303746,7 @@ window.SLACK_DATA = {
       },
       "1793751137.471979": {
         "post": "1793751137.471979",
-        "lastSeen": 1793752295.187,
+        "lastSeen": 1793752426.242,
         "r": 1,
         "day": "2026-11-04",
         "idx": 2
@@ -417661,7 +417673,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 09:32",
+    "at": "2026-11-04 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -417810,7 +417822,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 09:31",
+    "at": "2026-11-04 09:33",
     "pri": {
       "days": 0,
       "failed": [],
