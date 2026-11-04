@@ -22,13 +22,13 @@ const CHANNELS = [
   // brand: 상호에 브랜드명이 없으면 앞에 붙인다 — 전용 채널이라 '수원인계점' 처럼만 적혀도 컴포즈 원장(tally-compose)에 잡히게.
   // ⚠ 봇(SLACK_BOT_TOKEN)이 채널 멤버여야 읽힌다 — 비공개 채널이면 /invite 필요.
   // 이모지 규칙(2026-11-04 사용자): '<이름>확인'(예: 동욱확인) = 담당자, '처리완료' = 완료 → AS 로 적재. 기존 원격as·원격XX 도 그대로 인정.
-  { id: process.env.COMPOSE_TF_CHANNEL || 'C0CCY6QG1L5', label: '컴포즈TF', defaultCat: 'as', brand: '컴포즈', doneEmoji: '처리완료' },
+  // '토플확인'·'토플완료'(토스플레이스 처리)도 완료 → AS. 담당자는 같이 찍힌 '<이름>확인' 사람, 없으면 미지정 ('토플'은 사람이 아니다).
+  { id: process.env.COMPOSE_TF_CHANNEL || 'C0CCY6QG1L5', label: '컴포즈TF', defaultCat: 'as', brand: '컴포즈', doneEmoji: ['처리완료', '토플확인', '토플완료'] },
 ];
-// 채널 전용 완료 이모지가 찍혔나 ('처리완료' · '처리_완료' 모두)
-function chDoneOf(names, ch) {
-  if (!(ch && ch.doneEmoji)) return false;
-  return names.some(n => String(n).replace(/[_\s-]/g, '') === ch.doneEmoji);
-}
+// 채널 전용 완료 이모지인가 ('처리완료' · '처리_완료' · '토플_확인' 모두)
+const normEmoji = n => String(n).replace(/[_\s-]/g, '');
+function isChDone(n, ch) { return !!(ch && ch.doneEmoji) && [].concat(ch.doneEmoji).includes(normEmoji(n)); }
+function chDoneOf(names, ch) { return names.some(n => isChDone(n, ch)); }
 /* 파싱용 본문. 브랜드 전용 채널(#컴포즈-tf)은 CX 워크플로 글이라 라벨과 값이 줄을 나눠 오고
  * ('상호\n컴포즈커피 수원인계점'), 라벨이 굵게(*상호*) 오거나 본문이 blocks 에만 있을 수 있다 →
  * blocks 까지 모으고 굵게 표시(*)·실체참조를 걷어낸다. 다른 채널은 예전 그대로 m.text. */
@@ -448,7 +448,7 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     let confirmPerson = null;
     for (const n of names) { const cm = n.match(RE_CONFIRM); if (cm) { confirmPerson = personMap[cm[1]]; break; } }
     // 전용 채널은 '<이름>확인' 이 담당자 — 원격팀 10명 밖의 이름(CX 등)도 그대로 담당자로 받는다
-    if (!confirmPerson && ch.doneEmoji) for (const n of names) { const p = confirmPersonOf(n); if (p) { confirmPerson = p; break; } }
+    if (!confirmPerson && ch.doneEmoji) for (const n of names) { if (isChDone(n, ch)) continue; const p = confirmPersonOf(n); if (p) { confirmPerson = p; break; } }   // '토플확인' 은 완료 표시라 담당자로 안 본다
     const hasAbsent = names.some(n => /부재/.test(n));                       // 1차/2차 부재
     const absTag = names.some(n => /2차.?부재/.test(n)) ? '2차 부재' : '1차 부재';
     const hasDup = names.some(n => /중복/.test(n));                          // 팀이 '진짜 중복'에만 찍는 표시
@@ -623,7 +623,7 @@ function trackResp(data, msgs, ch) {
     const hasConfirm = names.some(n => RE_CONFIRM.test(n));
     const hasExtern = names.includes('원격외주');
     const responded = hasCat || hasEmp || hasConfirm || hasExtern || chDoneOf(names, ch)
-      || (!!(ch && ch.doneEmoji) && names.some(n => confirmPersonOf(n)));   // 담당자가 손댐(확인/완료/카테고리/외주)
+      || (!!(ch && ch.doneEmoji) && names.some(n => !isChDone(n, ch) && confirmPersonOf(n)));   // 담당자가 손댐(확인/완료/카테고리/외주)
     // 완료 = 카테고리(원격as·원격온보딩…)·원격외주 이모지. 처리를 끝냈을 때 찍으므로 '소요시간'의 종점.
     // 착수 표시('원격XX' — 옛 규칙에선 'XX확인')는 손댔다는 신호라 응답시간의 종점이고, 소요시간에는 쓰지 않는다.
     // 옛 규칙 글에서는 '원격XX'가 완료 담당자였으므로 그때만 종점으로 인정한다.
