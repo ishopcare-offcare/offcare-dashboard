@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4701,
- "updatedAt": "2026-11-04 18:54",
+ "version": 4702,
+ "updatedAt": "2026-11-04 18:56",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,626 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_9749.jpg",
+     "fid": "F0CEB97U68P",
+     "from": "댓글",
+     "path": "menu-files/1793786011_819499-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "간식",
+       "name": "연어타르트",
+       "price": 15900
+      },
+      {
+       "category": "간식",
+       "name": "한우떡심말이",
+       "price": 9000
+      },
+      {
+       "category": "간식",
+       "name": "리얼바나나우유껌",
+       "price": 6500
+      },
+      {
+       "category": "간식",
+       "name": "아이스팩 1 + 보냉팩 1",
+       "price": 500
+      },
+      {
+       "category": "간식",
+       "name": "과일채소칩",
+       "price": 6000
+      },
+      {
+       "category": "간식",
+       "name": "돼지치즈링",
+       "price": 8000
+      },
+      {
+       "category": "간식",
+       "name": "오리안심오돌뼈 4p",
+       "price": 8000
+      },
+      {
+       "category": "간식",
+       "name": "조각피자 2p",
+       "price": 4000
+      },
+      {
+       "category": "간식",
+       "name": "고구마쿠키",
+       "price": 6500
+      },
+      {
+       "category": "간식",
+       "name": "치킨 2p",
+       "price": 4000
+      },
+      {
+       "category": "간식",
+       "name": "단호박연근칩",
+       "price": 5900
+      },
+      {
+       "category": "간식",
+       "name": "댕런볼",
+       "price": 4000
+      },
+      {
+       "category": "간식",
+       "name": "치킨떡갈비(미니&일반)",
+       "price": 7000
+      },
+      {
+       "category": "간식",
+       "name": "닭발 14p",
+       "price": 6900
+      },
+      {
+       "category": "간식",
+       "name": "코코넛고구마볼",
+       "price": 8000
+      },
+      {
+       "category": "간식",
+       "name": "치킨안심 70g",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9750.jpg",
+     "fid": "F0CEWBGQZD2",
+     "from": "댓글",
+     "path": "menu-files/1793786011_819499-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "화식",
+       "name": "오리고기",
+       "price": 7300
+      },
+      {
+       "category": "화식",
+       "name": "돼지고기",
+       "price": 7300
+      },
+      {
+       "category": "화식",
+       "name": "소고기",
+       "price": 8600
+      },
+      {
+       "category": "화식",
+       "name": "닭고기",
+       "price": 6500
+      },
+      {
+       "category": "화식",
+       "name": "오리 (미니)",
+       "price": 1900
+      },
+      {
+       "category": "화식",
+       "name": "소 (미니)",
+       "price": 2300
+      },
+      {
+       "category": "화식",
+       "name": "닭 (미니)",
+       "price": 1800
+      },
+      {
+       "category": "화식",
+       "name": "돼지 (미니)",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9751.jpg",
+     "fid": "F0CEUH77FSM",
+     "from": "댓글",
+     "path": "menu-files/1793786011_819499-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "의류",
+       "name": "꽃누빔조끼",
+       "price": 21500
+      },
+      {
+       "category": "의류",
+       "name": "오트밀 무지티",
+       "price": 11000
+      },
+      {
+       "category": "의류",
+       "name": "떡볶이조끼",
+       "price": 25000
+      },
+      {
+       "category": "의류",
+       "name": "하트수면조끼",
+       "price": 19000
+      },
+      {
+       "category": "의류",
+       "name": "꽃 패딩",
+       "price": 30000
+      },
+      {
+       "category": "의류",
+       "name": "뽀글뽀끼",
+       "price": 21000
+      },
+      {
+       "category": "의류",
+       "name": "고구마가디건",
+       "price": 20500
+      },
+      {
+       "category": "의류",
+       "name": "패치플라티",
+       "price": 18000
+      },
+      {
+       "category": "의류",
+       "name": "보들수면조끼",
+       "price": 19900
+      },
+      {
+       "category": "의류",
+       "name": "당근원피스",
+       "price": 20000
+      },
+      {
+       "category": "의류",
+       "name": "토끼트윌시스루",
+       "price": 16500
+      },
+      {
+       "category": "의류",
+       "name": "옐로우꽃원피스",
+       "price": 18000
+      },
+      {
+       "category": "의류",
+       "name": "말기플리츠",
+       "price": 17000
+      },
+      {
+       "category": "의류",
+       "name": "알로하곰나시티",
+       "price": 17500
+      },
+      {
+       "category": "의류",
+       "name": "크레용나시티",
+       "price": 15000
+      },
+      {
+       "category": "의류",
+       "name": "흠롬나시티",
+       "price": 16000
+      },
+      {
+       "category": "의류",
+       "name": "장미원피스",
+       "price": 26000
+      },
+      {
+       "category": "의류",
+       "name": "곰돌이나시티",
+       "price": 15000
+      },
+      {
+       "category": "의류",
+       "name": "할매몸빼",
+       "price": 18500
+      },
+      {
+       "category": "의류",
+       "name": "쿨티셔츠",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9752.jpg",
+     "fid": "F0CEWBGDVBN",
+     "from": "댓글",
+     "path": "menu-files/1793786011_819499-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "악세사리",
+       "name": "가랜드",
+       "price": 4000
+      },
+      {
+       "category": "악세사리",
+       "name": "폼백파우치",
+       "price": 9500
+      },
+      {
+       "category": "악세사리",
+       "name": "파티모자세트",
+       "price": 10000
+      },
+      {
+       "category": "악세사리",
+       "name": "슈즈가드",
+       "price": 8000
+      },
+      {
+       "category": "악세사리",
+       "name": "리본머리핀",
+       "price": 4900
+      },
+      {
+       "category": "악세사리",
+       "name": "색안경",
+       "price": 5500
+      },
+      {
+       "category": "악세사리",
+       "name": "꽃선글라스",
+       "price": 6000
+      },
+      {
+       "category": "악세사리",
+       "name": "체스모자",
+       "price": 15000
+      },
+      {
+       "category": "악세사리",
+       "name": "곰돌이모자",
+       "price": 14000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9753.jpg",
+     "fid": "F0CFM1WQS72",
+     "from": "댓글",
+     "path": "menu-files/1793786011_819499-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "창산압",
+       "name": "대하",
+       "price": 6500
+      },
+      {
+       "category": "창산압",
+       "name": "딱어",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "김자칩",
+       "price": 4500
+      },
+      {
+       "category": "창산압",
+       "name": "골뱅이인청",
+       "price": 4500
+      },
+      {
+       "category": "창산압",
+       "name": "군밤",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "펄미숫",
+       "price": 6000
+      },
+      {
+       "category": "창산압",
+       "name": "후르츠산도",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "대항 회오리 스틱",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "닭꼬칠 스틱",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "발빈사 낙싱대",
+       "price": 14000
+      },
+      {
+       "category": "창산압",
+       "name": "편의속",
+       "price": 7500
+      },
+      {
+       "category": "창산압",
+       "name": "냉설톡",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "LED 빛 장난감",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "김말이튀김",
+       "price": 6500
+      },
+      {
+       "category": "창산압",
+       "name": "고추튀김",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "풀데호물",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "모물모자",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "새우튀김",
+       "price": 10000
+      },
+      {
+       "category": "창산압",
+       "name": "떡라홈스",
+       "price": 7000
+      },
+      {
+       "category": "창산압",
+       "name": "떡나램",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9754.jpg",
+     "fid": "F0CEUH71Y9X",
+     "from": "댓글",
+     "path": "menu-files/1793786011_819499-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "장난감",
+       "name": "한인두",
+       "price": 7500
+      },
+      {
+       "category": "장난감",
+       "name": "낭심록",
+       "price": 16000
+      },
+      {
+       "category": "장난감",
+       "name": "LED 빔 장난감",
+       "price": 16000
+      },
+      {
+       "category": "장난감",
+       "name": "집밟이튀김",
+       "price": 3500
+      },
+      {
+       "category": "장난감",
+       "name": "고추튀김",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "장난감",
+       "name": "돌벼르물",
+       "price": 15000
+      },
+      {
+       "category": "장난감",
+       "name": "모델모자",
+       "price": 5000
+      },
+      {
+       "category": "장난감",
+       "name": "새우튀김",
+       "price": 6500
+      },
+      {
+       "category": "장난감",
+       "name": "떡볶음스",
+       "price": 7500
+      },
+      {
+       "category": "장난감",
+       "name": "떨지캡",
+       "price": 16000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9755.jpg",
+     "fid": "F0CEQME5RBQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "케이크",
+       "name": "디자인",
+       "price": 2000
+      },
+      {
+       "category": "케이크",
+       "name": "꼬깔추가",
+       "price": 1000
+      },
+      {
+       "category": "케이크",
+       "name": "두마리 평면",
+       "price": 7000
+      },
+      {
+       "category": "케이크",
+       "name": "왕얼굴케이크",
+       "price": 25000
+      },
+      {
+       "category": "케이크",
+       "name": "낙서",
+       "price": 1000
+      },
+      {
+       "category": "케이크",
+       "name": "물감",
+       "price": 1000
+      },
+      {
+       "category": "케이크",
+       "name": "3호케이크 (15cm)",
+       "price": 50000
+      },
+      {
+       "category": "케이크",
+       "name": "머핀",
+       "price": 25000
+      },
+      {
+       "category": "케이크",
+       "name": "하트케이크",
+       "price": 30000
+      },
+      {
+       "category": "케이크",
+       "name": "빈티지",
+       "price": 2000
+      },
+      {
+       "category": "케이크",
+       "name": "닭고기시트변경",
+       "price": 1000
+      },
+      {
+       "category": "케이크",
+       "name": "입체얼굴추가",
+       "price": 5000
+      },
+      {
+       "category": "케이크",
+       "name": "평면얼굴추가",
+       "price": 5000
+      },
+      {
+       "category": "케이크",
+       "name": "2단케이크",
+       "price": 70000
+      },
+      {
+       "category": "케이크",
+       "name": "2호케이크 (12cm)",
+       "price": 45000
+      },
+      {
+       "category": "케이크",
+       "name": "1호케이크 (10cm)",
+       "price": 35000
+      },
+      {
+       "category": "케이크",
+       "name": "도시락케이크",
+       "price": 20000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "IMG_9756.jpg",
+     "fid": "F0CEUH4LB25",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "초",
+       "name": "2000",
+       "price": 2000
+      },
+      {
+       "category": "초",
+       "name": "1700",
+       "price": 1700
+      },
+      {
+       "category": "초",
+       "name": "1600",
+       "price": 1600
+      },
+      {
+       "category": "초",
+       "name": "1500",
+       "price": 1500
+      },
+      {
+       "category": "초",
+       "name": "1200",
+       "price": 1200
+      },
+      {
+       "category": "초",
+       "name": "1000",
+       "price": 1000
+      },
+      {
+       "category": "초",
+       "name": "500",
+       "price": 500
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793786094.364439",
    "rfx": 3,
    "status": "wait",
    "handler": null,
