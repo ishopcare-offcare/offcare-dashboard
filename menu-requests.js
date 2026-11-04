@@ -3,10 +3,253 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4668,
- "updatedAt": "2026-11-04 13:54",
+ "version": 4669,
+ "updatedAt": "2026-11-04 14:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1793768371.968329",
+   "date": "2026-11-04",
+   "time": "13:59",
+   "store": "대박곱창",
+   "biz": "4960101357",
+   "pos": "",
+   "content": "구네투 백업 작업",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image (20).png",
+     "fid": "F0CESABEC8Z",
+     "from": "댓글",
+     "path": "menu-files/1793768371_968329-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류.음료수",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "주류",
+       "price": 4000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "웰치스",
+       "price": 2000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "캔콜라",
+       "price": 1000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "소)콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "대)콜라",
+       "price": 3000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "소)사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류.음료수",
+       "name": "대)사이다",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image (19).png",
+     "fid": "F0CE92C5Z1V",
+     "from": "댓글",
+     "path": "menu-files/1793768371_968329-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "대박",
+       "name": "야채곱창",
+       "price": 12000
+      },
+      {
+       "category": "대박",
+       "name": "알곱창",
+       "price": 14000
+      },
+      {
+       "category": "대박",
+       "name": "순대볶음",
+       "price": 12000
+      },
+      {
+       "category": "대박",
+       "name": "순대야채곱창",
+       "price": 14000
+      },
+      {
+       "category": "대박",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "대박",
+       "name": "오돌뼈",
+       "price": 12000
+      },
+      {
+       "category": "대박",
+       "name": "상추",
+       "price": 1000
+      },
+      {
+       "category": "대박",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "치즈볶음밥",
+       "price": 4000
+      },
+      {
+       "category": "대박",
+       "name": "양배추",
+       "price": 2000
+      },
+      {
+       "category": "대박",
+       "name": "치즈떡",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "순대",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "치즈",
+       "price": 4000
+      },
+      {
+       "category": "대박",
+       "name": "당면",
+       "price": 3000
+      },
+      {
+       "category": "대박",
+       "name": "매운맛",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "안매운맛",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "안매운맛+",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "보통맛",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "보통맛+",
+       "price": 0
+      },
+      {
+       "category": "대박",
+       "name": "계란찜",
+       "price": 4000
+      },
+      {
+       "category": "대박",
+       "name": "햇반",
+       "price": 1500
+      },
+      {
+       "category": "대박",
+       "name": "배달비",
+       "price": 2000
+      },
+      {
+       "category": "대박",
+       "name": "배달비",
+       "price": 2500
+      },
+      {
+       "category": "대박",
+       "name": "배달비",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image (18).png",
+     "fid": "F0CENEJC3BQ",
+     "from": "댓글",
+     "path": "menu-files/1793768371_968329-2.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "image (17).png",
+     "fid": "F0CEQ830EP4",
+     "from": "댓글",
+     "path": "menu-files/1793768371_968329-3.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "image (16).png",
+     "fid": "F0CEQ833HGA",
+     "from": "댓글",
+     "path": "menu-files/1793768371_968329-4.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "회원정보조회.xls 2.exo",
+     "fid": "F0CEQ7WNYEN",
+     "from": "댓글",
+     "path": "menu-files/1793768371_968329-5.exo",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "keicc237005 << 해당계정"
+   ],
+   "rc": 2,
+   "lr": "1793768459.099719",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793768371968329"
+  },
   {
    "ts": "1793768026.760659",
    "date": "2026-11-04",
@@ -27,8 +270,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1793768054.764669",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793768026760659"
   },
   {
@@ -159,12 +402,14 @@ window.MENU_REQUESTS = {
      "v": 2
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "등록 솔라피전송완료"
+   ],
+   "rc": 1,
+   "lr": "1793768396.904089",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793766769628889"
   },
   {
