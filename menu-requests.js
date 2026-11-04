@@ -3,10 +3,139 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4651,
- "updatedAt": "2026-11-04 10:54",
+ "version": 4652,
+ "updatedAt": "2026-11-04 11:25",
  "days": 30,
  "items": [
+  {
+   "ts": "1793759029.654709",
+   "date": "2026-11-04",
+   "time": "11:23",
+   "store": "루나예나마카롱",
+   "biz": "1860101275",
+   "pos": "토스포스",
+   "content": "토스포스",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CEJ7K5WKX",
+     "from": "댓글",
+     "path": "menu-files/1793759029_654709-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "마카롱",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "4개 상자",
+       "price": 12500
+      },
+      {
+       "category": "",
+       "name": "6개 상자",
+       "price": 19000
+      },
+      {
+       "category": "",
+       "name": "8개 상자",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "12개 상자",
+       "price": 37000
+      },
+      {
+       "category": "",
+       "name": "보냉백",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "에그타르트",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "까눌레",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "마들렌",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "꼬끄",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "버터맥 5개",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "바나나푸딩",
+       "price": 3800
+      },
+      {
+       "category": "",
+       "name": "레몬파운드케이크",
+       "price": 4200
+      },
+      {
+       "category": "",
+       "name": "할인_아메리카노_HOT",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "할인_아이스 아메리카노",
+       "price": 3400
+      },
+      {
+       "category": "",
+       "name": "아메리카노-HOT",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "아메리카노-ICE",
+       "price": 3900
+      },
+      {
+       "category": "",
+       "name": "까페오레 HOT/ICE",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "자두에이드",
+       "price": 4500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "메뉴등록부탁드립니다"
+   ],
+   "rc": 1,
+   "lr": "1793759043.178249",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793759029654709"
+  },
   {
    "ts": "1793755057.304049",
    "date": "2026-11-04",
