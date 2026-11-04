@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29607,
+  "version": 29608,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303480,25 +303480,13 @@ window.SLACK_DATA = {
           "고경림": 2
         },
         "transfer": {
-          "심성현": 2
+          "심성현": 3
         },
         "menu": {
           "송태양": 1
         }
       },
       "pending": [
-        {
-          "time": "10:29",
-          "store": "수묵",
-          "biz": "3058546456",
-          "handler": "심성현",
-          "cat": "transfer",
-          "intake": "online",
-          "req": "언제든지 / 메뉴 복사 O / 프론트, 터미널, 유프",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
         {
           "time": "10:17",
           "store": "대박곱창",
@@ -303740,6 +303728,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "시술중으로 1시 통 / 헐 / 다행이네요 ㅋㅋ / 일단 오후 12시 50분으로 재예약했어염!",
           "rr": 8
+        },
+        {
+          "time": "10:29",
+          "store": "수묵",
+          "biz": "3058546456",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "언제든지 / 메뉴 복사 O / 프론트, 터미널, 유프",
+          "hw": "",
+          "intake": "online",
+          "note": "/ / / /",
+          "rr": 5
         },
         {
           "time": "10:22",
@@ -304199,20 +304199,13 @@ window.SLACK_DATA = {
         "post": "1793718004.695149",
         "lastSeen": 1793736984.706
       },
-      "1793755750.410199": {
-        "post": "1793755750.410199",
-        "lastSeen": 1793760139.652,
-        "r": 1,
-        "day": "2026-11-04",
-        "idx": 24
-      },
       "1793758712.809699": {
         "post": "1793758712.809699",
-        "lastSeen": 1793760139.652
+        "lastSeen": 1793760243.038
       },
       "1793750437.925349": {
         "post": "1793750437.925349",
-        "lastSeen": 1793760139.652
+        "lastSeen": 1793760243.038
       }
     },
     "days": {
@@ -418327,7 +418320,8 @@ window.SLACK_DATA = {
             "store": "수묵",
             "biz": "3058546456",
             "who": "심성현",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 74
           },
           {
             "hm": "11:16",
@@ -418388,7 +418382,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 11:43",
+    "at": "2026-11-04 11:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -418537,7 +418531,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 11:42",
+    "at": "2026-11-04 11:44",
     "pri": {
       "days": 0,
       "failed": [],
