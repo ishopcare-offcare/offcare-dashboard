@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4648,
- "updatedAt": "2026-11-04 10:24",
+ "version": 4649,
+ "updatedAt": "2026-11-04 10:33",
  "days": 30,
  "items": [
   {
@@ -50,7 +50,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CESRCCUGL",
      "from": "댓글",
-     "path": "menu-files/1793755057_304049-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -174,13 +173,13 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793755057_304049-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CEM5X0ZLN",
      "from": "댓글",
-     "path": "menu-files/1793755057_304049-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -229,13 +228,21 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793755057_304049-4.png"
+    },
+    {
+     "name": "회원정보조회.xls 2.exo",
+     "fid": "F0CEM7XBG6A",
+     "from": "댓글",
+     "path": "menu-files/1793755057_304049-5.exo",
+     "nj": 1
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 5,
-   "lr": "1793755362.171549",
+   "rc": 6,
+   "lr": "1793755998.718219",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
