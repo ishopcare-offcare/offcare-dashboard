@@ -78,6 +78,8 @@ function storeOf(text, ch) {
   let store = ((ch && ch.brand && stackedField(text, 'store'))
     || ((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
   if (ch && ch.brand && STACK_LABEL_RE.test(store.replace(/\*/g, ''))) store = '';   // 값 없이 다음 라벨을 잡은 경우
+  // 상담원이 상호 칸을 비워 올린 글(2026-11-04 2건 실측) — 전용 채널이라 브랜드는 확실하므로 원장에서 빠지지 않게 표시해 둔다
+  if (ch && ch.brand && !store && /상호|매장명/.test(text)) store = ch.brand + '_상호미기재';
   if (ch && ch.brand && store && !store.replace(/\s/g, '').includes(ch.brand)) store = ch.brand + '_' + store;
   if (store.length > 30) store = store.slice(0, 30);
   return store;
