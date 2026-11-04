@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29592,
+  "version": 29593,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303472,7 +303472,7 @@ window.SLACK_DATA = {
         "booking": {
           "김동욱": 1,
           "김규빈": 1,
-          "고경림": 1
+          "고경림": 2
         },
         "onboarding": {
           "송태양": 1
@@ -303490,18 +303490,6 @@ window.SLACK_DATA = {
           "cat": "menu",
           "intake": "online",
           "req": "오케이포스 백업",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        },
-        {
-          "time": "09:55",
-          "store": "브릭스랩(BRIX LAB)",
-          "biz": "5693400751",
-          "handler": "고경림",
-          "cat": "as",
-          "intake": "online",
-          "req": "멀티패드 구매 후 수령 대형키오스크 프로그램 설치 온보딩 요청 드립니다 :woman-bowing::skin-tone-4: ( 자가설치 진행 )",
           "reasons": [
             "확인 후 미완료"
           ]
@@ -303773,6 +303761,18 @@ window.SLACK_DATA = {
           "rr": 3
         },
         {
+          "time": "09:55",
+          "store": "브릭스랩(BRIX LAB)",
+          "biz": "5693400751",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "멀티패드 구매 후 수령 대형키오스크 프로그램 설치 온보딩 요청 드립니다 :woman-bowing::skin-tone-4: ( 자가설치 진행 )",
+          "hw": "",
+          "intake": "online",
+          "note": "타사 키오스크+멀티패드 사용매장 포프(PC) +유프 KOCESS -&gt; 다우로 전환온보딩완료 키오스크 프로그램 설치 및 에이전트 설정 완료하였으나, 프린터 포트 및 속도 확인중에 15시 연락요청 • 15시 예약완료 포프(PC) +유프 KOCESS - 다우로 전환온보딩완료 15시 예약완료",
+          "rr": 1
+        },
+        {
           "time": "09:48",
           "store": "파르크커피",
           "biz": "1450104140",
@@ -303899,7 +303899,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "11:16",
+      "updatedAt": "11:18",
       "voc": {
         "responses": 3,
         "install": {
@@ -304117,23 +304117,20 @@ window.SLACK_DATA = {
         "post": "1793718004.695149",
         "lastSeen": 1793736984.706
       },
-      "1793753709.707319": {
-        "post": "1793753709.707319",
-        "lastSeen": 1793758730.383,
-        "r": 1,
-        "day": "2026-11-04",
-        "idx": 3
-      },
       "1793755750.410199": {
         "post": "1793755750.410199",
-        "lastSeen": 1793758730.383,
+        "lastSeen": 1793758837.21,
         "r": 1,
         "day": "2026-11-04",
         "idx": 24
       },
       "1793758610.245059": {
         "post": "1793758610.245059",
-        "lastSeen": 1793758730.383
+        "lastSeen": 1793758837.21
+      },
+      "1793758735.048909": {
+        "post": "1793758735.048909",
+        "lastSeen": 1793758837.21
       }
     },
     "days": {
@@ -418059,7 +418056,8 @@ window.SLACK_DATA = {
             "store": "브릭스랩(BRIX LAB)",
             "biz": "5693400751",
             "who": "고경림",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 84.6
           },
           {
             "hm": "09:48",
@@ -418254,7 +418252,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 11:19",
+    "at": "2026-11-04 11:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -418403,7 +418401,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 11:18",
+    "at": "2026-11-04 11:20",
     "pri": {
       "days": 0,
       "failed": [],
