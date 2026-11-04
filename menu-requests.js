@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4695,
- "updatedAt": "2026-11-04 17:06",
+ "version": 4696,
+ "updatedAt": "2026-11-04 17:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1793779788.959169",
+   "date": "2026-11-04",
+   "time": "17:09",
+   "store": "용용선생 대구광장코아점",
+   "biz": "5991602246",
+   "pos": "토스포스",
+   "content": "우육탕면\n허니크림새우 15900\n대창마라전골\n마라마요새우",
+   "special": "혹시  예전메뉴 가격데이터잇음 그대로해주심됩니다",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793779788959169"
+  },
   {
    "ts": "1793778977.762669",
    "date": "2026-11-04",
