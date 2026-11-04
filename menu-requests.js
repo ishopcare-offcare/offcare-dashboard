@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4709,
- "updatedAt": "2026-11-04 19:24",
+ "version": 4710,
+ "updatedAt": "2026-11-04 19:29",
  "days": 30,
  "items": [
   {
@@ -39,16 +39,28 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CFMA9G7A4",
+     "from": "댓글",
+     "path": "menu-files/1793786773_564579-0.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
-    "··· 해당 메리글 폐업 매장 메뉴 그대로 복사 필요"
+    "··· 해당 메리글 폐업 매장 메뉴 그대로 복사 필요",
+    "님 메뉴가 달라요..",
+    "폐업 매장은 129개.."
    ],
-   "rc": 1,
-   "lr": "1793786783.699449",
+   "rc": 6,
+   "lr": "1793788159.360259",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793786773564579"
   },
   {
