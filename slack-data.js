@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29591,
+  "version": 29592,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303483,6 +303483,18 @@ window.SLACK_DATA = {
       },
       "pending": [
         {
+          "time": "10:17",
+          "store": "대박곱창",
+          "biz": "4960101357",
+          "handler": "김현기",
+          "cat": "menu",
+          "intake": "online",
+          "req": "오케이포스 백업",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
+        {
           "time": "09:55",
           "store": "브릭스랩(BRIX LAB)",
           "biz": "5693400751",
@@ -303883,7 +303895,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 27,
+        "online": 28,
         "offline": 6,
         "unknown": 0
       },
@@ -304107,21 +304119,21 @@ window.SLACK_DATA = {
       },
       "1793753709.707319": {
         "post": "1793753709.707319",
-        "lastSeen": 1793758626.896,
+        "lastSeen": 1793758730.383,
         "r": 1,
         "day": "2026-11-04",
         "idx": 3
       },
       "1793755750.410199": {
         "post": "1793755750.410199",
-        "lastSeen": 1793758626.896,
+        "lastSeen": 1793758730.383,
         "r": 1,
         "day": "2026-11-04",
         "idx": 24
       },
       "1793758610.245059": {
         "post": "1793758610.245059",
-        "lastSeen": 1793758626.896
+        "lastSeen": 1793758730.383
       }
     },
     "days": {
@@ -418242,7 +418254,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-04 11:17",
+    "at": "2026-11-04 11:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -418391,7 +418403,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 11:17",
+    "at": "2026-11-04 11:18",
     "pri": {
       "days": 0,
       "failed": [],
