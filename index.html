@@ -754,6 +754,33 @@
   .notice-del:hover{color:var(--red); background:var(--red-soft)}
   .notice-body{font-size:14px; line-height:1.6; color:var(--ink); word-break:break-word}
   .notice-foot2{display:flex; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap}
+  /* 게시판 가독성 — 큰 글씨 · 카드 전체 클릭 → 상세(댓글 바로 입력) */
+  .notice-list .notice-card.nb-post{padding:18px 20px; cursor:pointer; transition:.15s}
+  .notice-list .notice-card.nb-post:hover{border-color:var(--blue); box-shadow:0 4px 14px rgba(0,0,0,.07); transform:translateY(-1px)}
+  .notice-card.nt-issue{border-left-color:var(--red)}
+  .notice-badge.b-issue{background:var(--red-soft); color:var(--red)}
+  .nb-post .notice-badge{font-size:13px; padding:4px 12px}
+  .nb-post .notice-meta{font-size:13.5px}
+  .nb-post .notice-body{font-size:16.5px; line-height:1.7; display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden}
+  .nb-more{font-size:13px; font-weight:700; color:var(--blue); margin-top:6px}
+  .nb-last{margin-top:12px; background:var(--canvas); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:14px; color:var(--ink-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .nb-last b{color:var(--ink); margin-right:6px}
+  .nb-post .notice-cmt-btn{font-size:14px; padding:7px 15px}
+  .nb-post .nr-chip{font-size:13.5px; padding:4px 10px}
+  .notice-filter{display:flex; gap:6px; flex-wrap:wrap}
+  .notice-filter button{border:1px solid var(--line); background:var(--canvas); color:var(--ink-soft); font-family:inherit; font-size:13px; font-weight:700; padding:5px 12px; border-radius:20px; cursor:pointer}
+  .notice-filter button.on{background:var(--ink); border-color:var(--ink); color:var(--canvas)}
+  .detail-box.nd-box{max-width:820px; max-height:88vh; padding:24px 28px}
+  .nd-box .detail-head h3{font-size:18px}
+  .nd-box .notice-body{font-size:17.5px; line-height:1.75; margin:4px 0 8px}
+  .nd-box .notice-meta{font-size:13.5px}
+  .nd-box .ncmt{padding:12px 15px}
+  .nd-box .ncmt-au{font-size:14px} .nd-box .ncmt-tm{font-size:12.5px}
+  .nd-box .ncmt-body{font-size:15.5px; line-height:1.6}
+  .nd-box .ncmt-head{font-size:16px}
+  .nd-cmtbar{position:sticky; bottom:-1px; background:var(--canvas,#fff); padding-top:10px; border-top:1px solid var(--line-soft)}
+  .nd-cmtbar .notice-text{font-size:15px; min-height:46px}
+  @media (max-width:760px){ .detail-box.nd-box{padding:18px 16px} .nd-box .notice-body{font-size:16px} .nb-post .notice-body{font-size:15.5px} }
   .nr-chips{display:flex; gap:6px; flex-wrap:wrap}
   .nr-chip{font-size:12.5px; font-weight:700; background:var(--surface); border:1px solid var(--line-soft); border-radius:20px; padding:3px 9px; color:var(--ink-soft)}
   .notice-cmt-btn{margin-left:auto; border:1px solid var(--line); background:var(--canvas); color:var(--ink-soft); font-size:12.5px; font-weight:700; padding:5px 12px; border-radius:20px; cursor:pointer; font-family:inherit; transition:.15s}
@@ -2201,28 +2228,34 @@ function needGameNameAlert(){ alert('✍️ 먼저 상단 🎮 원격상점(또�
 function commentsFor(nid){ return Object.entries(NCOMMENTS).filter(([cid,c])=>c&&!c.deleted&&c.nid===nid).sort((a,b)=>(a[1].ts||0)-(b[1].ts||0)); }
 function reactsFor(nid){ const g={}; for(const rk in NREACTS){ const r=NREACTS[rk]; if(r&&!r.deleted&&r.nid===nid){ (g[r.emoji]=g[r.emoji]||[]).push(r.author); } } return g; }
 function toggleReact(nid, emoji){ const author=noticeActor(); if(!author){ needGameNameAlert(); return; } const rk=nid+'|'+emoji+'|'+author; const cur=NREACTS[rk]; const active=cur&&!cur.deleted; NREACTS[rk]={nid,emoji,author,deleted:active}; save(LS_NREACTS,NREACTS); pushPatch({nReacts:{[rk]:NREACTS[rk]}}); showNoticeDetail(nid); if(activeCat==='share-notice') renderShareNotice(); }
-function addComment(nid){ const author=noticeActor(); if(!author){ needGameNameAlert(); return; } const text=(document.getElementById('ncmtText').value||'').trim(); if(!text){ alert('댓글을 입력하세요.'); return; } const cid='c_'+Date.now()+'_'+Math.floor(Math.random()*1000); NCOMMENTS[cid]={nid,author,text,ts:Date.now()}; save(LS_NCOMMENTS,NCOMMENTS); pushPatch({nComments:{[cid]:NCOMMENTS[cid]}}); showNoticeDetail(nid); if(activeCat==='share-notice') renderShareNotice(); }
+function addComment(nid){ const author=noticeActor(); if(!author){ needGameNameAlert(); return; } const text=(document.getElementById('ncmtText').value||'').trim(); if(!text){ alert('댓글을 입력하세요.'); return; } const cid='c_'+Date.now()+'_'+Math.floor(Math.random()*1000); NCOMMENTS[cid]={nid,author,text,ts:Date.now()}; save(LS_NCOMMENTS,NCOMMENTS); pushPatch({nComments:{[cid]:NCOMMENTS[cid]}}); showNoticeDetail(nid, true); if(activeCat==='share-notice') renderShareNotice(); const sc=document.querySelector('#noticeModal .detail-scroll'); if(sc) sc.scrollTop=sc.scrollHeight; }
+// 글 종류: 공지(파랑) · 이슈(빨강, 중요 이슈 공유) · 공유(초록)
+function noticeTypeInfo(t){ return t==='공지'?{cls:'nt-notice',b:'b-notice',label:'📢 공지'}:t==='이슈'?{cls:'nt-issue',b:'b-issue',label:'🚨 이슈'}:{cls:'nt-share',b:'b-share',label:'💬 공유'}; }
+let noticeFilter='all';
+function setNoticeFilter(f){ noticeFilter=f; renderShareNotice(); }
 function deleteComment(cid){ if(!NCOMMENTS[cid]) return; if(!confirm('댓글을 삭제할까요?')) return; const nid=NCOMMENTS[cid].nid; NCOMMENTS[cid].deleted=true; save(LS_NCOMMENTS,NCOMMENTS); pushPatch({nComments:{[cid]:NCOMMENTS[cid]}}); showNoticeDetail(nid); if(activeCat==='share-notice') renderShareNotice(); }
-function showNoticeDetail(nid){
+function showNoticeDetail(nid, focusCmt){
   const n=NOTICES[nid]; const em=document.getElementById('noticeModal');
   if(!n||n.deleted){ if(em) em.remove(); return; }
-  const reacts=reactsFor(nid), comments=commentsFor(nid), me=(noticeAuthor||'').trim();
+  const reacts=reactsFor(nid), comments=commentsFor(nid), me=noticeActor(), ti=noticeTypeInfo(n.type);
   const emojiRow=NOTICE_EMOJIS.map(e=>{ const us=reacts[e]||[]; const on=me&&us.includes(me); return `<button class="nr-btn ${on?'on':''}" title="${us.map(escapeHtml).join(', ')}" onclick="toggleReact('${nid}','${e}')">${e}${us.length?` <b>${us.length}</b>`:''}</button>`; }).join('');
   const cmtRows=comments.length?comments.map(([cid,c])=>`<div class="ncmt"><div class="ncmt-top"><span class="ncmt-au">${escapeHtml(c.author)}</span><span class="ncmt-tm">${fmtNoticeTime(c.ts)}</span><button class="ncmt-del" title="삭제" onclick="deleteComment('${cid}')">×</button></div><div class="ncmt-body">${escapeHtml(c.text).replace(/\n/g,'<br>')}</div></div>`).join(''):'<div class="empty-note">첫 댓글을 남겨보세요 💬</div>';
   let el=em; if(!el){ el=document.createElement('div'); el.id='noticeModal'; el.className='detail-overlay'; el.onclick=ev=>{ if(ev.target===el) el.remove(); }; document.body.appendChild(el); }
-  el.innerHTML=`<div class="detail-box"><div class="detail-head"><h3>${n.type==='공지'?'📢 공지':'💬 공유'} · ${escapeHtml(n.author||'익명')}</h3><button class="detail-x" onclick="document.getElementById('noticeModal').remove()">✕</button></div>
+  el.innerHTML=`<div class="detail-box nd-box"><div class="detail-head"><h3><span class="notice-badge ${ti.b}" style="font-size:13px;vertical-align:middle">${ti.label}</span> ${escapeHtml(n.author||'익명')}</h3><button class="detail-x" onclick="document.getElementById('noticeModal').remove()">✕</button></div>
     <div class="detail-scroll">
-      <div class="notice-body" style="margin-bottom:6px">${escapeHtml(n.text).replace(/\n/g,'<br>')}</div>
-      <div class="notice-meta" style="margin-bottom:12px">${fmtNoticeTime(n.ts)}</div>
-      <div class="nr-row">${emojiRow}</div>
+      <div class="notice-meta" style="margin-bottom:10px">${fmtNoticeTime(n.ts)}</div>
+      <div class="notice-body">${escapeHtml(n.text).replace(/\n/g,'<br>')}</div>
+      <div class="nr-row" style="margin-top:14px">${emojiRow}</div>
       <div class="ncmt-head">💬 댓글 <b>${comments.length}</b></div>
       <div class="ncmt-list">${cmtRows}</div>
-      ${(gameMe||'').trim()?`<div class="ncmt-form">
-        <span class="notice-actor">💬 <b>${escapeHtml(gameMe)}</b></span>
-        <input id="ncmtText" class="notice-text" type="text" placeholder="댓글 입력 후 Enter" onkeydown="if(event.key==='Enter'){event.preventDefault();addComment('${nid}');}">
+      ${me?`<div class="ncmt-form nd-cmtbar">
+        <span class="notice-actor">💬 <b>${escapeHtml(me)}</b></span>
+        <textarea id="ncmtText" class="notice-text" rows="1" placeholder="댓글 입력 후 Enter (줄바꿈은 Shift+Enter)" onkeydown="if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing){event.preventDefault();addComment('${nid}');}"></textarea>
         <button class="btn" style="background:var(--blue);color:#fff;border-color:var(--blue)" onclick="addComment('${nid}')">등록</button>
       </div>`:`<div class="empty-note" style="text-align:left;margin-top:6px">💬 댓글·반응은 상단 <b>🎮 원격상점</b>에서 본인 이름을 선택한 뒤 가능합니다.</div>`}
     </div></div>`;
+  if(!em) document.addEventListener('keydown', function escNd(ev){ const m=document.getElementById('noticeModal'); if(!m){ document.removeEventListener('keydown',escNd); return; } if(ev.key==='Escape'){ m.remove(); document.removeEventListener('keydown',escNd); } });
+  if(focusCmt){ const t=document.getElementById('ncmtText'); if(t) t.focus(); }
 }
 function noticeList(){ return Object.entries(NOTICES).filter(([id,n])=>n&&!n.deleted).sort((a,b)=>(b[1].ts||0)-(a[1].ts||0)); }
 function fmtNoticeTime(ts){ if(!ts) return ''; const d=new Date(ts), p=n=>String(n).padStart(2,'0'); return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`; }
@@ -2232,6 +2265,7 @@ function postNotice(){
   const type=document.getElementById('noticeType').value||'공유';
   const id='n_'+Date.now()+'_'+Math.floor(Math.random()*1000);
   NOTICES[id]={text, author, ts:Date.now(), type};
+  document.getElementById('noticeText').value='';
   save(LS_NOTICES,NOTICES); pushPatch({notices:{[id]:NOTICES[id]}}); renderShareNotice();
 }
 function deleteNotice(id){ if(!NOTICES[id]) return; if(!confirm('이 글을 삭제할까요?')) return; NOTICES[id].deleted=true; save(LS_NOTICES,NOTICES); pushPatch({notices:{[id]:NOTICES[id]}}); renderShareNotice(); }
@@ -2252,22 +2286,32 @@ const CHANGELOG=(typeof window!=='undefined' && Array.isArray(window.CHANGELOG) 
 ];
 function changelogCards(){ return CHANGELOG.map(e=>`<div class="notice-card cl-card cl-${e.k}"><div class="notice-top"><span class="notice-badge clb-${e.k}">${CL_LABEL[e.k]||''}</span><span class="notice-meta">🤖 대시보드 · ${e.d}</span></div><div class="notice-body">${escapeHtml(e.t)}</div></div>`).join(''); }
 function renderShareNotice(){
-  const list=noticeList();
+  // 다시 그릴 때(댓글 등록·필터 변경) 작성 중이던 글이 지워지지 않게 보존
+  const dEl=document.getElementById('noticeText'), dTy=document.getElementById('noticeType');
+  const draftText=dEl?dEl.value:'', draftType=dTy?dTy.value:'공유';
+  const all=noticeList();
+  const cnt=t=>all.filter(([,n])=>(n.type||'공유')===t).length;
+  const list=noticeFilter==='all'?all:all.filter(([,n])=>(n.type||'공유')===noticeFilter);
+  const filterBar=`<div class="notice-filter">${[['all','전체',all.length],['공지','📢 공지',cnt('공지')],['이슈','🚨 이슈',cnt('이슈')],['공유','💬 공유',cnt('공유')]].map(([k,l,c])=>`<button class="${noticeFilter===k?'on':''}" onclick="setNoticeFilter('${k}')">${l} ${c}</button>`).join('')}</div>`;
   const rows = list.length ? list.map(([id,n])=>{
-    const rc=reactsFor(id), cn=commentsFor(id).length;
+    const rc=reactsFor(id), cm=commentsFor(id), cn=cm.length, ti=noticeTypeInfo(n.type);
     const rchips=Object.entries(rc).map(([e,us])=>`<span class="nr-chip">${e} ${us.length}</span>`).join('');
-    return `<div class="notice-card ${n.type==='공지'?'nt-notice':'nt-share'}">
+    const long=(n.text||'').split('\n').length>5 || (n.text||'').length>260;
+    const last=cn?cm[cn-1][1]:null;
+    return `<div class="notice-card nb-post ${ti.cls}" title="클릭하면 전체 내용·댓글" onclick="showNoticeDetail('${id}', true)">
       <div class="notice-top">
-        <span class="notice-badge ${n.type==='공지'?'b-notice':'b-share'}">${n.type==='공지'?'📢 공지':'💬 공유'}</span>
+        <span class="notice-badge ${ti.b}">${ti.label}</span>
         <span class="notice-meta">${escapeHtml(n.author||'익명')} · ${fmtNoticeTime(n.ts)}</span>
-        <button class="notice-del" title="삭제" onclick="deleteNotice('${id}')">×</button>
+        <button class="notice-del" title="삭제" onclick="event.stopPropagation();deleteNotice('${id}')">×</button>
       </div>
       <div class="notice-body">${escapeHtml(n.text).replace(/\n/g,'<br>')}</div>
+      ${long?'<div class="nb-more">… 전체 보기</div>':''}
+      ${last?`<div class="nb-last">💬 <b>${escapeHtml(last.author)}</b>${escapeHtml(last.text).replace(/\n/g,' ')}</div>`:''}
       <div class="notice-foot2">
         <div class="nr-chips">${rchips}</div>
-        <button class="notice-cmt-btn" onclick="showNoticeDetail('${id}')">💬 댓글${cn?' '+cn:''} · 😊 반응</button>
+        <button class="notice-cmt-btn" onclick="event.stopPropagation();showNoticeDetail('${id}', true)">💬 ${cn?'댓글 '+cn+' · ':''}댓글 달기</button>
       </div>
-    </div>`; }).join('') : '<div class="empty-note">아직 게시글이 없습니다. 첫 소식을 올려보세요! 📢</div>';
+    </div>`; }).join('') : `<div class="empty-note">${all.length?'이 분류의 게시글이 없습니다.':'아직 게시글이 없습니다. 첫 소식을 올려보세요! 📢'}</div>`;
   document.getElementById("main").innerHTML=`
     <div class="page-head"><div><h2>📢 공지사항 · 공유 게시판</h2><div class="sub">팀 공유 내용을 자유롭게 올려주세요 · 팀 전체에 공유됩니다 · 대시보드 변경사항은 하위 <b>업데이트 내역</b> 탭에서 확인</div></div></div>
     <div class="card">
@@ -2275,14 +2319,14 @@ function renderShareNotice(){
       ${(gameMe||'').trim()?`<div class="notice-form">
         <div class="notice-form-row">
           <span class="notice-actor">✍️ 작성자 <b>${escapeHtml(gameMe)}</b></span>
-          <select id="noticeType" class="praise-teamfilter"><option value="공유">💬 공유</option><option value="공지">📢 공지</option></select>
+          <select id="noticeType" class="praise-teamfilter">${['공유','공지','이슈'].map(t=>`<option value="${t}" ${draftType===t?'selected':''}>${noticeTypeInfo(t).label}</option>`).join('')}</select>
         </div>
-        <textarea id="noticeText" class="notice-text" rows="3" placeholder="내용을 입력하세요 (여러 줄 가능)"></textarea>
+        <textarea id="noticeText" class="notice-text" rows="4" style="font-size:15px" placeholder="내용을 입력하세요 (여러 줄 가능) · 중요한 이슈는 🚨 이슈로 올려주세요">${escapeHtml(draftText)}</textarea>
         <button class="btn" style="align-self:flex-start;background:var(--blue);color:#fff;border-color:var(--blue)" onclick="postNotice()">게시하기</button>
       </div>`:`<div class="empty-note" style="text-align:left">✍️ 글을 쓰려면 먼저 상단 <b>🎮 원격상점</b>(또는 낚시터) 탭에서 <b>본인 이름</b>을 선택하세요.<br>선택한 이름으로 작성됩니다. <button class="btn" style="margin-top:10px" onclick="selectCat('game')">🎮 원격상점으로 이동</button></div>`}
     </div>
     <div class="card">
-      <div class="card-head"><h3>📋 게시글 <span class="cnt-badge">${list.length}</span></h3></div>
+      <div class="card-head"><h3>📋 게시글 <span class="cnt-badge">${list.length}</span></h3>${filterBar}</div>
       <div class="notice-list">${rows}</div>
     </div>`;
   markNoticesSeen();
@@ -3989,29 +4033,29 @@ function admBizDays(m, upto){
  * ⚠️ 온라인+오프라인 < 총 건수 다(월 100~280건). 리포트 원본이 그렇고, 인입유형 미기재분으로 보인다.
  *    그래서 '온라인 비중' 은 (온라인 ÷ 온·오프 합계) 로 계산해 라이브 구간과 기준을 맞춘다. */
 const ADM_HIST = [
-  {m:'2025-01', total:null, online:null, offline:null, done:1248, absent:0,
-   by:{onboarding:241, as:880, extern:59, transfer:65, menu:3, delivery:0, voc:0}},
-  {m:'2025-02', total:null, online:null, offline:null, done:2203, absent:0,
-   by:{onboarding:424, as:1518, extern:87, transfer:69, menu:67, delivery:0, voc:38}},
-  {m:'2025-03', total:null, online:null, offline:null, done:2319, absent:0,
-   by:{onboarding:593, as:1502, extern:96, transfer:84, menu:15, delivery:0, voc:29}},
-  {m:'2025-04', total:null, online:null, offline:null, done:3085, absent:0,
-   by:{onboarding:922, as:1848, extern:184, transfer:106, menu:5, delivery:0, voc:20}},
-  {m:'2025-05', total:null, online:null, offline:null, done:2750, absent:0,
-   by:{onboarding:979, as:1521, extern:144, transfer:77, menu:8, delivery:0, voc:21}},
-  {m:'2025-06', total:null, online:null, offline:null, done:3020, absent:0,
-   by:{onboarding:1050, as:1633, extern:178, transfer:100, menu:12, delivery:0, voc:47}},
-  {m:'2025-07', total:null, online:null, offline:null, done:4138, absent:105,
-   by:{onboarding:1034, as:2327, extern:219, transfer:165, menu:273, delivery:0, voc:10}},
-  {m:'2025-08', total:null, online:null, offline:null, done:3504, absent:106,
-   by:{onboarding:879, as:2041, extern:128, transfer:119, menu:230, delivery:0, voc:1}},
-  {m:'2025-09', total:null, online:null, offline:null, done:4495, absent:178,
-   by:{onboarding:1183, as:2489, extern:179, transfer:165, menu:301, delivery:0, voc:0}},
-  {m:'2025-10', total:null, online:null, offline:null, done:3855, absent:144,
-   by:{onboarding:957, as:2294, extern:106, transfer:115, menu:239, delivery:0, voc:0}},
-  {m:'2025-11', total:null, online:null, offline:null, done:3966, absent:149,
-   by:{onboarding:734, as:2310, extern:174, transfer:159, menu:440, delivery:0, voc:0}},
-  {m:'2025-12', total:null, online:null, offline:null, done:4448, absent:206,
+  {m:'2025-01', total:null, online:null, offline:null, done:1248, absent:0,
+   by:{onboarding:241, as:880, extern:59, transfer:65, menu:3, delivery:0, voc:0}},
+  {m:'2025-02', total:null, online:null, offline:null, done:2203, absent:0,
+   by:{onboarding:424, as:1518, extern:87, transfer:69, menu:67, delivery:0, voc:38}},
+  {m:'2025-03', total:null, online:null, offline:null, done:2319, absent:0,
+   by:{onboarding:593, as:1502, extern:96, transfer:84, menu:15, delivery:0, voc:29}},
+  {m:'2025-04', total:null, online:null, offline:null, done:3085, absent:0,
+   by:{onboarding:922, as:1848, extern:184, transfer:106, menu:5, delivery:0, voc:20}},
+  {m:'2025-05', total:null, online:null, offline:null, done:2750, absent:0,
+   by:{onboarding:979, as:1521, extern:144, transfer:77, menu:8, delivery:0, voc:21}},
+  {m:'2025-06', total:null, online:null, offline:null, done:3020, absent:0,
+   by:{onboarding:1050, as:1633, extern:178, transfer:100, menu:12, delivery:0, voc:47}},
+  {m:'2025-07', total:null, online:null, offline:null, done:4138, absent:105,
+   by:{onboarding:1034, as:2327, extern:219, transfer:165, menu:273, delivery:0, voc:10}},
+  {m:'2025-08', total:null, online:null, offline:null, done:3504, absent:106,
+   by:{onboarding:879, as:2041, extern:128, transfer:119, menu:230, delivery:0, voc:1}},
+  {m:'2025-09', total:null, online:null, offline:null, done:4495, absent:178,
+   by:{onboarding:1183, as:2489, extern:179, transfer:165, menu:301, delivery:0, voc:0}},
+  {m:'2025-10', total:null, online:null, offline:null, done:3855, absent:144,
+   by:{onboarding:957, as:2294, extern:106, transfer:115, menu:239, delivery:0, voc:0}},
+  {m:'2025-11', total:null, online:null, offline:null, done:3966, absent:149,
+   by:{onboarding:734, as:2310, extern:174, transfer:159, menu:440, delivery:0, voc:0}},
+  {m:'2025-12', total:null, online:null, offline:null, done:4448, absent:206,
    by:{onboarding:603, as:2930, extern:258, transfer:156, menu:295, delivery:0, voc:0}},
   {m:'2026-01', total:4657, online:3376, offline:1003, done:4634, absent:171,
    by:{onboarding:552, as:3073, extern:168, transfer:231, menu:439, delivery:0, voc:0}},
