@@ -35,7 +35,9 @@ function chDoneOf(names, ch) { return names.some(n => isChDone(n, ch)); }
  * blocks 까지 모으고 굵게 표시(*)·실체참조를 걷어낸다. 다른 채널은 예전 그대로 m.text. */
 function msgText(m, ch) {
   if (!(ch && ch.brand)) return m.text || '';
-  return blocksText(m).replace(/\*/g, '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+  // 슬랙 링크 표기 풀기 — 숫자는 <tel:5218102386|521-81-02386>, 링크는 <https://…|글자> 로 온다 → 보이는 글자만 남긴다
+  return blocksText(m).replace(/<(?:tel|mailto|https?):[^<>|]*\|([^<>]*)>/g, '$1').replace(/<(?:tel|mailto):([^<>|]*)>/g, '$1')
+    .replace(/\*/g, '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
 }
 /* CX 워크플로 글 중 일부는 라벨이 연달아 나오고 값이 그 뒤에 몰려 온다:
  *   상호:\n사업자번호:\n핸드폰 번호: 010-…\n컴포즈커피 사당역점\n1234567890\n상담원: …
@@ -54,7 +56,13 @@ function stackedField(text, kind) {
       if (/^(상담원|내용|문의\s*내용|답변\s*내용)\s*[:：]?/.test(lines[k])) break;   // 다음 구역
       vals.push(lines[k]);
     }
-    if (kind === 'biz') return vals.find(v => /^\d[\d\- ]+$/.test(v) && v.replace(/\D/g, '').length === 10) || '';
+    if (kind === 'biz') {   // 10자리(###-##-#####) — 줄 어디에 있어도. 01x 로 시작하는 휴대폰 번호는 제외
+      for (const v of vals) for (const mm of v.matchAll(/(?<!\d)(\d{3})[-\s]?(\d{2})[-\s]?(\d{5})(?!\d)/g)) if (!/^01/.test(mm[1])) return mm[1] + mm[2] + mm[3];
+      return '';
+    }
+    // 상호 — 브랜드명이 든 줄이 있으면 그 조각, 없으면 ':' 없고 글자가 있는 첫 줄(휴대폰 번호 줄 제외)
+    const brandLine = vals.find(v => /컴포즈/.test(v));
+    if (brandLine) return (brandLine.split(/\s*[\/|,:：]\s*/).find(p => /컴포즈/.test(p)) || brandLine).replace(/\(?\d{3}-?\d{2}-?\d{5}\)?/g, '').trim();
     return vals.find(v => !/[:：]/.test(v) && /[가-힣A-Za-z]/.test(v) && !/^0\d{1,2}[-\s]?\d/.test(v)) || '';
   }
   return '';
