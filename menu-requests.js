@@ -3,10 +3,252 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4702,
- "updatedAt": "2026-11-04 18:56",
+ "version": 4703,
+ "updatedAt": "2026-11-04 18:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1793786235.565729",
+   "date": "2026-11-04",
+   "time": "18:57",
+   "store": "시진커피sijin coffee",
+   "biz": "7632901493",
+   "pos": "",
+   "content": "메뉴등록요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261103_135710.jpeg",
+     "fid": "F0CEWCACQ76",
+     "from": "댓글",
+     "path": "menu-files/1793786235_565729-0.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "ESPRESSO",
+       "name": "콘주케로",
+       "price": 3500
+      },
+      {
+       "category": "ESPRESSO",
+       "name": "아포카토 코르타도",
+       "price": 5400
+      },
+      {
+       "category": "ESPRESSO",
+       "name": "바닐라 코르타도",
+       "price": 5400
+      },
+      {
+       "category": "ESPRESSO",
+       "name": "망고 그라니타",
+       "price": 5900
+      },
+      {
+       "category": "GOODS",
+       "name": "원두 250g 블랜딩",
+       "price": 17500
+      },
+      {
+       "category": "GOODS",
+       "name": "디카페인 250g 블랜딩",
+       "price": 19000
+      },
+      {
+       "category": "GOODS",
+       "name": "원두 500g 블랜딩",
+       "price": 33000
+      },
+      {
+       "category": "GOODS",
+       "name": "디카페인 500g 블랜딩",
+       "price": 36000
+      },
+      {
+       "category": "GOODS",
+       "name": "게이샤 250g",
+       "price": 29000
+      },
+      {
+       "category": "GOODS",
+       "name": "게이샤 500g",
+       "price": 56000
+      },
+      {
+       "category": "GOODS",
+       "name": "콜드브루 500ml",
+       "price": 17500
+      },
+      {
+       "category": "GOODS",
+       "name": "드립백 선물세트 (5개입)",
+       "price": 9900
+      },
+      {
+       "category": "GOODS",
+       "name": "디카페인 드립백(5개입)",
+       "price": 11000
+      },
+      {
+       "category": "GOODS",
+       "name": "드립백 선물세트(10개입)",
+       "price": 19500
+      },
+      {
+       "category": "GOODS",
+       "name": "디카페인 드립백(10개입)",
+       "price": 21500
+      },
+      {
+       "category": "GOODS",
+       "name": "게이샤 드립백 (10개입)",
+       "price": 27500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261103_135713.jpeg",
+     "fid": "F0CEQN80BML",
+     "from": "댓글",
+     "path": "menu-files/1793786235_565729-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "오늘의드립",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "싱글오리진 *게이샤",
+       "price": 6900
+      },
+      {
+       "category": "COFFEE",
+       "name": "롱블랙/아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "플랫화이트",
+       "price": 4900
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 4900
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 5600
+      },
+      {
+       "category": "COFFEE",
+       "name": "인도식 콜드브루",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "달달한 서울숲",
+       "price": 6300
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "스리랑카 바실루르 유기농 홍차",
+       "price": 5500
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "유자 레몬차",
+       "price": 5600
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "로얄 밀크티",
+       "price": 5500
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "생-레몬에이드",
+       "price": 6000
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "생과일쥬스",
+       "price": 6300
+      },
+      {
+       "category": "NON COFFEE",
+       "name": "검은콩 쑥 미수가루",
+       "price": 6500
+      },
+      {
+       "category": "BAKERY",
+       "name": "리얼 초코칩 쿠키",
+       "price": 2500
+      },
+      {
+       "category": "BAKERY",
+       "name": "크랜베리 월넛",
+       "price": 2500
+      },
+      {
+       "category": "BAKERY",
+       "name": "베이글",
+       "price": 4900
+      },
+      {
+       "category": "YOGURT & GREEK",
+       "name": "우다이푸르 라씨 (플레인/블루베리/망고)",
+       "price": 6000
+      },
+      {
+       "category": "YOGURT & GREEK",
+       "name": "스위스 뮤즐리",
+       "price": 6500
+      },
+      {
+       "category": "YOGURT & GREEK",
+       "name": "그리스 그릭요거트",
+       "price": 6500
+      },
+      {
+       "category": "YOGURT & GREEK",
+       "name": "시즈널 딜라이트 그릭요거트",
+       "price": 7800
+      },
+      {
+       "category": "OPTION",
+       "name": "디카페인 변경",
+       "price": 1000
+      },
+      {
+       "category": "OPTION",
+       "name": "두유 / 귀리우유 변경",
+       "price": 1000
+      },
+      {
+       "category": "OPTION",
+       "name": "에스프레소 샷 추가",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793786265.034249",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793786235565729"
+  },
   {
    "ts": "1793786011.819499",
    "date": "2026-11-04",
@@ -639,8 +881,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1793786094.364439",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793786011819499"
   },
   {
