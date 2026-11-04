@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4670,
- "updatedAt": "2026-11-04 14:10",
+ "version": 4671,
+ "updatedAt": "2026-11-04 14:24",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image (20).png",
      "fid": "F0CESABEC8Z",
      "from": "댓글",
-     "path": "menu-files/1793768371_968329-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -72,13 +71,13 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793768371_968329-0.png"
     },
     {
      "name": "image (19).png",
      "fid": "F0CE92C5Z1V",
      "from": "댓글",
-     "path": "menu-files/1793768371_968329-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -202,34 +201,35 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793768371_968329-1.png"
     },
     {
      "name": "image (18).png",
      "fid": "F0CENEJC3BQ",
      "from": "댓글",
-     "path": "menu-files/1793768371_968329-2.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793768371_968329-2.png"
     },
     {
      "name": "image (17).png",
      "fid": "F0CEQ830EP4",
      "from": "댓글",
-     "path": "menu-files/1793768371_968329-3.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793768371_968329-3.png"
     },
     {
      "name": "image (16).png",
      "fid": "F0CEQ833HGA",
      "from": "댓글",
-     "path": "menu-files/1793768371_968329-4.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793768371_968329-4.png"
     },
     {
      "name": "회원정보조회.xls 2.exo",
@@ -243,8 +243,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "keicc237005 << 해당계정"
    ],
-   "rc": 2,
-   "lr": "1793768459.099719",
+   "rc": 4,
+   "lr": "1793769862.580949",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
