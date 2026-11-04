@@ -18,7 +18,31 @@ const CHANNELS = [
   { id: 'C08740SFT1S', label: '메뉴등록',    defaultCat: 'menu',     requireCat: true },      // 원격메뉴등록 이모지가 찍힌 것만(원격as→AS)
   { id: 'C0ASD02FFML', label: '배달요청',    defaultCat: 'delivery', requireCat: true },      // 원격배달 이모지가 찍힌 것만(원격as→AS)
   { id: 'C07B5E78J23', label: 'VOC',         type: 'voc' },                                   // 설문 응답(점수/업종/사유) 별도 파싱
+  // 컴포즈커피 전용 채널 #컴포즈-tf (2026-11-04~, 예전엔 #0_원격_as_요청 으로 들어왔다). AS 채널과 같은 이모지 규칙.
+  // brand: 상호에 브랜드명이 없으면 앞에 붙인다 — 전용 채널이라 '수원인계점' 처럼만 적혀도 컴포즈 원장(tally-compose)에 잡히게.
+  // ⚠ 봇(SLACK_BOT_TOKEN)이 채널 멤버여야 읽힌다 — 비공개 채널이면 /invite 필요.
+  // 이모지 규칙(2026-11-04 사용자): '<이름>확인'(예: 동욱확인) = 담당자, '처리완료' = 완료 → AS 로 적재. 기존 원격as·원격XX 도 그대로 인정.
+  { id: process.env.COMPOSE_TF_CHANNEL || 'C0CCY6QG1L5', label: '컴포즈TF', defaultCat: 'as', brand: '컴포즈', doneEmoji: '처리완료' },
 ];
+// 채널 전용 완료 이모지가 찍혔나 ('처리완료' · '처리_완료' 모두)
+function chDoneOf(names, ch) {
+  if (!(ch && ch.doneEmoji)) return false;
+  return names.some(n => String(n).replace(/[_\s-]/g, '') === ch.doneEmoji);
+}
+/* 파싱용 본문. 브랜드 전용 채널(#컴포즈-tf)은 CX 워크플로 글이라 라벨과 값이 줄을 나눠 오고
+ * ('상호\n컴포즈커피 수원인계점'), 라벨이 굵게(*상호*) 오거나 본문이 blocks 에만 있을 수 있다 →
+ * blocks 까지 모으고 굵게 표시(*)·실체참조를 걷어낸다. 다른 채널은 예전 그대로 m.text. */
+function msgText(m, ch) {
+  if (!(ch && ch.brand)) return m.text || '';
+  return blocksText(m).replace(/\*/g, '').replace(/&gt;/g, '>').replace(/&lt;/g, '<').replace(/&amp;/g, '&');
+}
+// 상호 파싱 — '상호:' 또는 '매장명:' 줄. 브랜드 전용 채널이면 브랜드명을 보장한다.
+function storeOf(text, ch) {
+  let store = (((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
+  if (ch && ch.brand && store && !store.replace(/\s/g, '').includes(ch.brand)) store = ch.brand + '_' + store;
+  if (store.length > 30) store = store.slice(0, 30);
+  return store;
+}
 
 const personMap = { '규빈':'김규빈','선유':'배선유','성현':'심성현','동욱':'김동욱','현기':'김현기','태양':'송태양','기범':'김기범','상원':'서상원','민석':'최민석','경림':'고경림','하림':'박하림' };
 const catMap = { '원격온보딩':'onboarding', '원격as':'as', '원격명의변경':'transfer', '원격메뉴등록':'menu', '원격voc':'voc', '원격배달':'delivery', '원격예약':'booking', '예약':'booking' };
@@ -405,9 +429,8 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
     if (time > latest) latest = time;
     const names = (m.reactions || []).map(r => r.name);
     const urgent = names.some(n => /(긴급|사이렌|urgent|siren|rotating_light|경보|비상|sos|alert)/i.test(n)) || undefined;   // 긴급/사이렌 이모지 → '재빠른' 타이틀용
-    const text = m.text || '';
-    let store = (((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
-    if (store.length > 30) store = store.slice(0, 30);
+    const text = msgText(m, ch);
+    const store = storeOf(text, ch);
     const biz = parseBiz(text);
     const req = ((text.match(/내용\s*[:：]?\s*(.+)/) || [])[1] || '').trim().slice(0, 140);   // 요청 '내용' 필드(문제 유형 분류용)
     const hw = ((text.match(/(?:하드웨어|장비|기종|hw)\s*[:：]?\s*(.+)/i) || [])[1] || '').trim().slice(0, 60);   // 하드웨어 필드 → AS 유형 분류 우선 반영(글 수정 시 반영됨)
@@ -417,11 +440,15 @@ async function tallyInto(msgs, ch, counts, pending, done, opts) {
 
     let emp = null;
     for (const n of names) { const pm = n.match(RE_EMP); if (pm) { emp = personMap[pm[1]]; break; } }
-    const emojiCat = workCatOf(names);
+    // 채널 전용 완료 이모지(#컴포즈-tf: '처리완료') — 찍히면 그 채널의 기본 카테고리(AS)로 완료 적재
+    const chDone = chDoneOf(names, ch);
+    const emojiCat = workCatOf(names) || (chDone ? ch.defaultCat : null);
     const hasVocTag = names.includes('원격voc');
     const hasExtern = names.includes('원격외주');
     let confirmPerson = null;
     for (const n of names) { const cm = n.match(RE_CONFIRM); if (cm) { confirmPerson = personMap[cm[1]]; break; } }
+    // 전용 채널은 '<이름>확인' 이 담당자 — 원격팀 10명 밖의 이름(CX 등)도 그대로 담당자로 받는다
+    if (!confirmPerson && ch.doneEmoji) for (const n of names) { const p = confirmPersonOf(n); if (p) { confirmPerson = p; break; } }
     const hasAbsent = names.some(n => /부재/.test(n));                       // 1차/2차 부재
     const absTag = names.some(n => /2차.?부재/.test(n)) ? '2차 부재' : '1차 부재';
     const hasDup = names.some(n => /중복/.test(n));                          // 팀이 '진짜 중복'에만 찍는 표시
@@ -595,11 +622,12 @@ function trackResp(data, msgs, ch) {
     const hasEmp = names.some(n => RE_EMP.test(n));
     const hasConfirm = names.some(n => RE_CONFIRM.test(n));
     const hasExtern = names.includes('원격외주');
-    const responded = hasCat || hasEmp || hasConfirm || hasExtern;   // 담당자가 손댐(확인/완료/카테고리/외주)
+    const responded = hasCat || hasEmp || hasConfirm || hasExtern || chDoneOf(names, ch)
+      || (!!(ch && ch.doneEmoji) && names.some(n => confirmPersonOf(n)));   // 담당자가 손댐(확인/완료/카테고리/외주)
     // 완료 = 카테고리(원격as·원격온보딩…)·원격외주 이모지. 처리를 끝냈을 때 찍으므로 '소요시간'의 종점.
     // 착수 표시('원격XX' — 옛 규칙에선 'XX확인')는 손댔다는 신호라 응답시간의 종점이고, 소요시간에는 쓰지 않는다.
     // 옛 규칙 글에서는 '원격XX'가 완료 담당자였으므로 그때만 종점으로 인정한다.
-    const finished = hasCat || hasExtern || (hasEmp && !newEmojiRule(m.ts));
+    const finished = hasCat || hasExtern || (hasEmp && !newEmojiRule(m.ts)) || chDoneOf(names, ch);
     const w = W[key];
     if (!w) {
       // 처음 볼 때 이미 이모지가 찍혀 있으면 언제 찍혔는지 알 수 없어 제외. 아무것도 없을 때만 관찰 시작.
@@ -620,9 +648,8 @@ function trackResp(data, msgs, ch) {
       DD[day].items = DD[day].items || [];
       DD[day].cnt++; DD[day].sumMin += respMin; if (respMin > RESP_DELAY_MIN) DD[day].over++;
       // 건별 상세(올라온시간·응답분·상호·담당·카테고리) 저장 — 상세 모달용
-      const text = m.text || '';
-      let store = (((text.match(/상호\s*[:：]?\s*(.+)/) || [])[1]) || ((text.match(/매장명\s*[:：]?\s*(.+)/) || [])[1]) || '').trim().split('/')[0].trim();
-      if (store.length > 30) store = store.slice(0, 30);
+      const text = msgText(m, ch);
+      const store = storeOf(text, ch);
       const biz = parseBiz(text);
       let who = '';
       for (const n of names) { const pm = n.match(RE_EMP); if (pm) { who = personMap[pm[1]]; break; } }
