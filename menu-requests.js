@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4674,
- "updatedAt": "2026-11-04 14:51",
+ "version": 4675,
+ "updatedAt": "2026-11-04 14:59",
  "days": 30,
  "items": [
   {
@@ -69666,29 +69666,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791196727863209"
-  },
-  {
-   "ts": "1791179903.396259",
-   "date": "2026-10-05",
-   "time": "14:58",
-   "store": "쭈닭한상",
-   "biz": "7822301997",
-   "pos": "스파로스포스",
-   "content": "삭제 부탁 드립니다.\n\n고구마순김치 비빔밥(쭈꾸미)\n고구마순김치 비빔밥(쭈삼)\n고구마순김치 비빔밥(쭈새삼)\n고사리비빔밥(김치삼겹)\n고사리비빔밥(쭈삼)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "매뉴등록 삭제완료 솔라피 발송 완료"
-   ],
-   "rc": 1,
-   "lr": "1791180099.094339",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791179903396259"
   }
  ],
  "ocr": {
