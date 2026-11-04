@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4655,
- "updatedAt": "2026-11-04 11:51",
+ "version": 4656,
+ "updatedAt": "2026-11-04 12:09",
  "days": 30,
  "items": [
+  {
+   "ts": "1793761717.398099",
+   "date": "2026-11-04",
+   "time": "12:08",
+   "store": "황제소갈비살 이수점",
+   "biz": "2398501981",
+   "pos": "",
+   "content": "변경 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "황제소갈비살 이수점 / ···\n이수정육식당2 / ···\n\n두가게다\n소갈비살500g 33,000원\n소갈비살250g 16,500원\n으로 변경 요청 주셨습니다!"
+   ],
+   "rc": 1,
+   "lr": "1793761732.624179",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793761717398099"
+  },
   {
    "ts": "1793760647.068849",
    "date": "2026-11-04",
