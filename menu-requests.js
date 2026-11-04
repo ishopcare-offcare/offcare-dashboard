@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4661,
- "updatedAt": "2026-11-04 12:19",
+ "version": 4662,
+ "updatedAt": "2026-11-04 12:56",
  "days": 30,
  "items": [
+  {
+   "ts": "1793764575.677499",
+   "date": "2026-11-04",
+   "time": "12:56",
+   "store": "경성갈비",
+   "biz": "2171626991",
+   "pos": "오케이포스",
+   "content": "점심메뉴에 주류추가해주세요\n점심소주3000원\n점심맥주4000원",
+   "special": "점심메뉴에 같이 추가해주세요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793764575677499"
+  },
   {
    "ts": "1793761819.133419",
    "date": "2026-11-04",
