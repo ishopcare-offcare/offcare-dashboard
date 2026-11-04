@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4697,
- "updatedAt": "2026-11-04 17:18",
+ "version": 4698,
+ "updatedAt": "2026-11-04 17:21",
  "days": 30,
  "items": [
+  {
+   "ts": "1793780418.969409",
+   "date": "2026-11-04",
+   "time": "17:20",
+   "store": "더멀리",
+   "biz": "3976300914",
+   "pos": "토스포스",
+   "content": "테오\t오팬하우스\t21,000\n마음(오늘을 위한 퓨리턴 6)\t복있는사람\t11,000\n책방과 무릎들\t한겨레출판\t18,000\n계절 산문(양장본 Hardcover)\t달\t14,800\n흔들리는 나에게, 고전이 말했다\t이너북\t18,900\n애매함을 사랑하기\t고유\t16,800\n코스모스(100만부 기념판)\t사이언스북스\t22,000\n너는 원래 괜찮은 사람이야\t터닝페이지\t19,000\n불안(리커버:K)(양장본 Hardcover)\t은행나무\t18,000\n살아 있는 동안에\t녹스\t18,000\n\n책 추가 부탁드려요.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793780418969409"
+  },
   {
    "ts": "1793779788.959169",
    "date": "2026-11-04",
