@@ -3,10 +3,82 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4677,
- "updatedAt": "2026-11-04 15:06",
+ "version": 4678,
+ "updatedAt": "2026-11-04 15:11",
  "days": 30,
  "items": [
+  {
+   "ts": "1793772604.509689",
+   "date": "2026-11-04",
+   "time": "15:10",
+   "store": "코끼리카페 오산점",
+   "biz": "1304800813",
+   "pos": "스파로스포스",
+   "content": "생요거트 찹쌀떡- 4,500원\n블루베리 요거트 찹쌀떡- 4,500원\n샤인머스캣 요거트 찹쌀떡- 4,500원\n복숭아 요거트 찹쌀떡- 4,500원\n딸기 요거트 찹쌀떡- 4,500원\n귤 요거트 찹쌀떡- 4,500원\n파인애플 요거트 찹쌀떡- 4,500원",
+   "special": "금일 빠른 추가 부탁드립니다!",
+   "drive": [
+    "https://drive.google.com/file/d/1T-zg_TpFmWYJF-A4vIhFNkxuamnl3n_i/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1yUHIrQ3f-fkv8Zfpn977cLOUTVQb7nOv/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1dFrOTZZ2PY7cGsYkPWgO2k4RK-XLK3yI/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ySKB7vAh-_mhx-DUnKQVmIWoFkIlFbCX/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1SPN8dPqu9BeioENF9AJIwA0MCto9YVdk/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1kNhohUUPUAPFOzn_m_ZBhriuyR4gIGDh/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1jeH15UPW_FVTLFBih2Vozp_QA7pz_wLT/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1T-zg_TpFmWYJF-A4vIhFNkxuamnl3n_i",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1yUHIrQ3f-fkv8Zfpn977cLOUTVQb7nOv",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1dFrOTZZ2PY7cGsYkPWgO2k4RK-XLK3yI",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1ySKB7vAh-_mhx-DUnKQVmIWoFkIlFbCX",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1SPN8dPqu9BeioENF9AJIwA0MCto9YVdk",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1kNhohUUPUAPFOzn_m_ZBhriuyR4gIGDh",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "id": "1jeH15UPW_FVTLFBih2Vozp_QA7pz_wLT",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793772604509689"
+  },
   {
    "ts": "1793772115.418849",
    "date": "2026-11-04",
