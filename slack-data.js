@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29533,
+  "version": 29534,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -303463,7 +303463,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "고경림": 2,
-          "김동욱": 1,
+          "김동욱": 2,
           "심성현": 2
         },
         "booking": {
@@ -303482,6 +303482,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "배민라이트 설치 및 토스포스 연동완료 • pc주문접수 삭제 요청해주셔서 삭제완료 pc주문접수 삭제 요청해주셔서 삭제완료",
+          "rr": 1
+        },
+        {
+          "time": "09:12",
+          "store": "기미사",
+          "biz": "8961601487",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "대형키오스크 vcat 오류 노출 되어 확인 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "멀티패드 인식 못하여 전원 재연결 후 정상 확인",
           "rr": 1
         },
         {
@@ -303547,7 +303559,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 2,
         "unknown": 0
       },
@@ -303743,13 +303755,6 @@ window.SLACK_DATA = {
       "1793718004.695149": {
         "post": "1793718004.695149",
         "lastSeen": 1793736984.706
-      },
-      "1793751137.471979": {
-        "post": "1793751137.471979",
-        "lastSeen": 1793752426.242,
-        "r": 1,
-        "day": "2026-11-04",
-        "idx": 2
       }
     },
     "days": {
@@ -417666,14 +417671,15 @@ window.SLACK_DATA = {
             "store": "기미사",
             "biz": "8961601487",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 22.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-04 09:34",
+    "at": "2026-11-04 09:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -417822,7 +417828,7 @@ window.SLACK_DATA = {
     "2026-11-04": 2
   },
   "noteMig": {
-    "at": "2026-11-04 09:33",
+    "at": "2026-11-04 09:35",
     "pri": {
       "days": 0,
       "failed": [],
