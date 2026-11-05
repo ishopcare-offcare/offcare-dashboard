@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29969,
+  "version": 29970,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -306488,18 +306488,21 @@ window.SLACK_DATA = {
       },
       "1793835832.018379": {
         "post": "1793835832.018379",
-        "lastSeen": 1793837129.287,
+        "lastSeen": 1793837326.491,
         "r": 1,
         "day": "2026-11-05",
         "idx": 0
       },
       "1793836838.243699": {
         "post": "1793836838.243699",
-        "lastSeen": 1793837129.287
+        "lastSeen": 1793837326.491
       },
       "1793837089.483359": {
         "post": "1793837089.483359",
-        "lastSeen": 1793837129.287
+        "lastSeen": 1793837326.491,
+        "r": 1,
+        "day": "2026-11-05",
+        "idx": 2
       }
     },
     "days": {
@@ -421883,8 +421886,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-05": {
-        "cnt": 2,
-        "sumMin": 11.314263037840526,
+        "cnt": 3,
+        "sumMin": 13.621023718516032,
         "over": 0,
         "items": [
           {
@@ -421903,13 +421906,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "menu",
             "dmin": 2.2
+          },
+          {
+            "hm": "09:04",
+            "min": 2.3,
+            "store": "주주잉글리쉬(JuJu English)",
+            "biz": "5909401404",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-05 09:06",
+    "at": "2026-11-05 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -422059,7 +422070,7 @@ window.SLACK_DATA = {
     "2026-11-05": 2
   },
   "noteMig": {
-    "at": "2026-11-05 09:05",
+    "at": "2026-11-05 09:08",
     "pri": {
       "days": 0,
       "failed": [],
