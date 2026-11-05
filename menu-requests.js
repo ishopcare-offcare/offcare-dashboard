@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4727,
- "updatedAt": "2026-11-05 09:53",
+ "version": 4728,
+ "updatedAt": "2026-11-05 09:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1793840244.526139",
+   "date": "2026-11-05",
+   "time": "09:57",
+   "store": "공익곰탕",
+   "biz": "5853901252",
+   "pos": "스파로스포스",
+   "content": "스파로스 포스 사용 중 메뉴 가격 수정 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "고기류\n즉석마늘소갈비 500g 42,000원"
+   ],
+   "rc": 1,
+   "lr": "1793840250.914249",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793840244526139"
+  },
   {
    "ts": "1793839351.583479",
    "date": "2026-11-05",
