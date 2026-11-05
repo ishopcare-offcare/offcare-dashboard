@@ -3,10 +3,82 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4767,
- "updatedAt": "2026-11-05 16:37",
+ "version": 4768,
+ "updatedAt": "2026-11-05 16:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1793864601.595829",
+   "date": "2026-11-05",
+   "time": "16:43",
+   "store": "흥부골 왕숯불갈비",
+   "biz": "5774200887",
+   "pos": "",
+   "content": "메뉴 등록요청으로 공유드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CEXCVL551",
+     "from": "댓글",
+     "path": "menu-files/1793864601_595829-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "고기류",
+       "name": "한우차돌",
+       "price": 30000
+      },
+      {
+       "category": "고기류",
+       "name": "소왕갈비",
+       "price": 33000
+      },
+      {
+       "category": "고기류",
+       "name": "소갈비살",
+       "price": 29000
+      },
+      {
+       "category": "고기류",
+       "name": "생고기모듬",
+       "price": 57000
+      },
+      {
+       "category": "고기류",
+       "name": "삼겹살",
+       "price": 19000
+      },
+      {
+       "category": "고기류",
+       "name": "꽃목살",
+       "price": 19000
+      },
+      {
+       "category": "고기류",
+       "name": "항정살",
+       "price": 19000
+      },
+      {
+       "category": "식사류",
+       "name": "왕갈비탕",
+       "price": 17000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793864609.569539",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793864601595829"
+  },
   {
    "ts": "1793864051.450569",
    "date": "2026-11-05",
