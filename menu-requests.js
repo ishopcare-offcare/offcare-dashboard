@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4734,
- "updatedAt": "2026-11-05 10:17",
+ "version": 4735,
+ "updatedAt": "2026-11-05 10:22",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793841307234519"
   },
   {
@@ -42,10 +42,10 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "회냉면 메뉴 밑쪽 위치에 아래 메뉴 나란히 추가 부탁드립니다!\n• 만두 반접시 7000원 / 만두 한접시 13,000원 / 만둣국 13000원 / 불고기 19,000원"
+    "회냉면 메뉴 밑쪽 위치에 아래 메뉴 나란히 추가 부탁드립니다!\n완료 후 솔라피 발송 부탁드립니당! :woman-bowing:\n\n• 만두 반접시 7,000원 / 만두 한접시 13,000원 / 만둣국 13,000원 / 불고기 19,000원"
    ],
-   "rc": 1,
-   "lr": "1793841191.163219",
+   "rc": 2,
+   "lr": "1793841700.333659",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
