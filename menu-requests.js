@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4741,
- "updatedAt": "2026-11-05 11:48",
+ "version": 4742,
+ "updatedAt": "2026-11-05 11:56",
  "days": 30,
  "items": [
   {
@@ -70507,29 +70507,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791258303628519"
-  },
-  {
-   "ts": "1791255404.222939",
-   "date": "2026-10-06",
-   "time": "11:56",
-   "store": "김송숯불갈비",
-   "biz": "6775200944",
-   "pos": "",
-   "content": "유플러스 사용 매장 > 메뉴 추가 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "<주류>\n• 카스 제로 4,000원 추가"
-   ],
-   "rc": 3,
-   "lr": "1791255550.725059",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791255404222939"
   }
  ],
  "ocr": {
