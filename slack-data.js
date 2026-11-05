@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29982,
+  "version": 29983,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -306324,6 +306324,7 @@ window.SLACK_DATA = {
     "2026-11-05": {
       "counts": {
         "as": {
+          "김동욱": 1,
           "심성현": 1
         },
         "onboarding": {
@@ -306336,6 +306337,19 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:23",
+          "store": "하정담",
+          "biz": "2080516848",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "터미널 기기 비밀번호 7자리 누르라고 나오나 설정한 적 없음, 빠른 도움 요청.",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "터미널 개발자모드 진입됨. 공초 후 정상확인",
+          "rr": 1
+        },
         {
           "time": "09:17",
           "store": "온도베이커리",
@@ -306385,7 +306399,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 2,
         "unknown": 0
       },
@@ -306523,26 +306537,26 @@ window.SLACK_DATA = {
       },
       "1793836838.243699": {
         "post": "1793836838.243699",
-        "lastSeen": 1793838789.941
+        "lastSeen": 1793838881.051
       },
       "1793837985.920469": {
         "post": "1793837985.920469",
-        "lastSeen": 1793838789.941,
+        "lastSeen": 1793838881.051,
         "r": 1,
         "day": "2026-11-05",
         "idx": 4
       },
       "1793838164.098699": {
         "post": "1793838164.098699",
-        "lastSeen": 1793838789.941
+        "lastSeen": 1793838881.051
       },
       "1793838601.168239": {
         "post": "1793838601.168239",
-        "lastSeen": 1793838789.941
+        "lastSeen": 1793838881.051
       },
       "1793838600.856289": {
         "post": "1793838600.856289",
-        "lastSeen": 1793838789.941
+        "lastSeen": 1793838881.051
       }
     },
     "days": {
@@ -421979,7 +421993,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-05 09:33",
+    "at": "2026-11-05 09:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -422129,7 +422143,7 @@ window.SLACK_DATA = {
     "2026-11-05": 2
   },
   "noteMig": {
-    "at": "2026-11-05 09:33",
+    "at": "2026-11-05 09:34",
     "pri": {
       "days": 0,
       "failed": [],
