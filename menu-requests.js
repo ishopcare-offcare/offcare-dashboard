@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4751,
- "updatedAt": "2026-11-05 13:56",
+ "version": 4752,
+ "updatedAt": "2026-11-05 14:04",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CEX5W9G13",
      "from": "댓글",
-     "path": "menu-files/1793854077_548039-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -207,7 +206,8 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793854077_548039-0.png"
     }
    ],
    "datt": [],
@@ -216,10 +216,10 @@ window.MENU_REQUESTS = {
     "• 전체적인 금액 수정\n• 커피 , 논커피 , 티 종류 핫 /아이스 옵션 생성 요청",
     ":개굴-죄송:"
    ],
-   "rc": 3,
-   "lr": "1793854348.967209",
+   "rc": 4,
+   "lr": "1793855014.779799",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793854077548039"
   },
