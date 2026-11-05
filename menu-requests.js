@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4761,
- "updatedAt": "2026-11-05 16:10",
+ "version": 4762,
+ "updatedAt": "2026-11-05 16:17",
  "days": 30,
  "items": [
   {
@@ -67574,30 +67574,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791273711296629"
-  },
-  {
-   "ts": "1791270913.210249",
-   "date": "2026-10-06",
-   "time": "16:15",
-   "store": "려원풍천민물장어",
-   "biz": "5541502547",
-   "pos": "스파로스포스",
-   "content": "점심메뉴 추가 황태콩나물해장국 제일 앞에 추가해주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "8000원",
-    "점심메뉴 카테고리 없음 사이드에"
-   ],
-   "rc": 2,
-   "lr": "1791272609.450969",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791270913210249"
   }
  ],
  "ocr": {
