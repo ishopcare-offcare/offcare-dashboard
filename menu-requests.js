@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4749,
- "updatedAt": "2026-11-05 13:49",
+ "version": 4750,
+ "updatedAt": "2026-11-05 13:52",
  "days": 30,
  "items": [
   {
@@ -18,13 +18,206 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CEX5W9G13",
+     "from": "댓글",
+     "path": "menu-files/1793854077_548039-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "카페라테",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "연유라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "아몬크라떼 (아몬드시럽+아몬드크림)",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "엑설런트라떼 (아이스크림 2개)",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "디카페인 +",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "샷 추가 +",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "헤이즐넛 시럽 +",
+       "price": 500
+      },
+      {
+       "category": "에이드",
+       "name": "수제 레몬 에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "수제 자몽 에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "청포도 에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "오미자 에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "한라봉 에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "유자 에이드",
+       "price": 5500
+      },
+      {
+       "category": "논커피",
+       "name": "수제 밀크티",
+       "price": 5000
+      },
+      {
+       "category": "논커피",
+       "name": "초코 라떼",
+       "price": 4500
+      },
+      {
+       "category": "논커피",
+       "name": "말차 라떼",
+       "price": 4500
+      },
+      {
+       "category": "논커피",
+       "name": "미숫가루 라떼",
+       "price": 5000
+      },
+      {
+       "category": "논커피",
+       "name": "딸기라떼",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "복숭아 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "티",
+       "name": "수제 레몬차",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "수제 자몽차",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "오미자 차",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "한라봉 차",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "유자 차",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "루이보스 / 얼그레이 / 히비스커스 / 캐모마일 / 잉글리쉬 블랙 퍼스트",
+       "price": 4500
+      },
+      {
+       "category": "생과일 주스",
+       "name": "홍시 주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일 주스",
+       "name": "수박 주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일 주스",
+       "name": "토마토 주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일 주스",
+       "name": "키위 바나나 주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일 주스",
+       "name": "바나나 주스",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "공주 밤라떼",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "공주 밤라떼 (커피 안드간)",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "고구마 라떼",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "고구마 라떼 (커피 안드간거)",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
-    ":잠시_만요_:"
+    ":잠시_만요_:",
+    "• 전체적인 금액 수정\n• 커피 , 논커피 , 티 종류 핫 /아이스 옵션 생성 요청",
+    ":개굴-죄송:"
    ],
-   "rc": 1,
-   "lr": "1793854092.641879",
+   "rc": 3,
+   "lr": "1793854348.967209",
    "rfx": 3,
    "status": "wait",
    "handler": null,
