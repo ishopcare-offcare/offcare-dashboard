@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4731,
- "updatedAt": "2026-11-05 10:12",
+ "version": 4732,
+ "updatedAt": "2026-11-05 10:13",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "회냉면 메뉴 밑쪽 위치에 아래 메뉴 나란히 추가 부탁드립니다!\n• 만두 반접시 7000원 / 만두 한접시 13,000원 / 만둣국 13000원 / 불고기 19,000원"
+   ],
+   "rc": 1,
+   "lr": "1793841191.163219",
    "rfx": 3,
    "status": "wait",
    "handler": null,
