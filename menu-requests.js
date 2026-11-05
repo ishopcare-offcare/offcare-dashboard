@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4763,
- "updatedAt": "2026-11-05 16:19",
+ "version": 4764,
+ "updatedAt": "2026-11-05 16:20",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,132 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "더루트.jpg",
+     "fid": "F0CF5BC7N81",
+     "from": "댓글",
+     "path": "menu-files/1793863123_749759-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PLATE.",
+       "name": "버드아이치킨",
+       "price": 9650
+      },
+      {
+       "category": "PLATE.",
+       "name": "레몬 머스터드 치킨",
+       "price": 9650
+      },
+      {
+       "category": "PLATE.",
+       "name": "큐어한 연어",
+       "price": 10950
+      },
+      {
+       "category": "PLATE.",
+       "name": "소고기와 그레몰라타",
+       "price": 10950
+      },
+      {
+       "category": "BOWL.",
+       "name": "피에스타볼",
+       "price": 9650
+      },
+      {
+       "category": "BOWL.",
+       "name": "페타치즈 볼",
+       "price": 9650
+      },
+      {
+       "category": "SHARING PLATE.",
+       "name": "루트 프라이",
+       "price": 6500
+      },
+      {
+       "category": "SHARING PLATE.",
+       "name": "로스티드 컬리",
+       "price": 6500
+      },
+      {
+       "category": "SHARING PLATE.",
+       "name": "시즌 프룻 스트라치아텔라",
+       "price": 6500
+      },
+      {
+       "category": "SHARING PLATE.",
+       "name": "후무스와 구운 야채",
+       "price": 7500
+      },
+      {
+       "category": "EXTRA PROTEIN.",
+       "name": "버드아이치킨",
+       "price": 3750
+      },
+      {
+       "category": "EXTRA PROTEIN.",
+       "name": "레몬 머스터드 치킨",
+       "price": 3750
+      },
+      {
+       "category": "EXTRA PROTEIN.",
+       "name": "큐어한 연어",
+       "price": 4750
+      },
+      {
+       "category": "EXTRA PROTEIN.",
+       "name": "소고기&그레몰라타",
+       "price": 4750
+      },
+      {
+       "category": "HOUSE-MADE SAUCE.",
+       "name": "비건 아이올리",
+       "price": 800
+      },
+      {
+       "category": "HOUSE-MADE SAUCE.",
+       "name": "타히니",
+       "price": 800
+      },
+      {
+       "category": "HOUSE-MADE SAUCE.",
+       "name": "시치미 마요",
+       "price": 800
+      },
+      {
+       "category": "HOUSE-MADE SAUCE.",
+       "name": "허브버터",
+       "price": 800
+      },
+      {
+       "category": "INFUSED WATER.",
+       "name": "리필 가능",
+       "price": 1500
+      },
+      {
+       "category": "WINE.",
+       "name": "White",
+       "price": 12000
+      },
+      {
+       "category": "WINE.",
+       "name": "Red",
+       "price": 12000
+      },
+      {
+       "category": "WINE.",
+       "name": "콜키지",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1793863154.142199",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
