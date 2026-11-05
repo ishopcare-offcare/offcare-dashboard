@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4775,
- "updatedAt": "2026-11-05 17:13",
+ "version": 4776,
+ "updatedAt": "2026-11-05 17:28",
  "days": 30,
  "items": [
   {
@@ -67607,29 +67607,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791335184166789"
-  },
-  {
-   "ts": "1791275262.110579",
-   "date": "2026-10-06",
-   "time": "17:27",
-   "store": "캠핑고(기)",
-   "biz": "5801302334",
-   "pos": "",
-   "content": "메뉴 수정 요청드려요(유플러스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• 덜미살(꼬들살) / 18000원으로 변경"
-   ],
-   "rc": 3,
-   "lr": "1791275559.061189",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791275262110579"
   }
  ],
  "ocr": {
