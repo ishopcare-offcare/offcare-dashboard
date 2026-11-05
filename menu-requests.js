@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4738,
- "updatedAt": "2026-11-05 10:52",
+ "version": 4739,
+ "updatedAt": "2026-11-05 10:54",
  "days": 30,
  "items": [
   {
@@ -70640,27 +70640,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791254149652189"
-  },
-  {
-   "ts": "1791251634.625319",
-   "date": "2026-10-06",
-   "time": "10:53",
-   "store": "그랑웨이브(GRANWAVE)",
-   "biz": "6812401648",
-   "pos": "토스포스",
-   "content": "해당 매장 메뉴 등록 요청 부탁드립니다.\n프로그램 : 토스포스",
-   "special": "",
-   "drive": [],
-   "files": 1,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791251857.935509",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791251634625319"
   }
  ],
  "ocr": {
