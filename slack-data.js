@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29968,
+  "version": 29969,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -306322,15 +306322,32 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-05": {
-      "counts": {},
+      "counts": {
+        "menu": {
+          "송태양": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:02",
+          "store": "또바기 냉삼집",
+          "biz": "5090343190",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "메뉴",
+          "hw": "",
+          "intake": "offline",
+          "note": "등록 /솔라피전송 완료입니다",
+          "rr": 2
+        }
+      ],
       "intake": {
         "online": 0,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:02"
+      "updatedAt": "09:04"
     }
   },
   "resp": {
@@ -306471,18 +306488,18 @@ window.SLACK_DATA = {
       },
       "1793835832.018379": {
         "post": "1793835832.018379",
-        "lastSeen": 1793837023.775,
+        "lastSeen": 1793837129.287,
         "r": 1,
         "day": "2026-11-05",
         "idx": 0
       },
       "1793836838.243699": {
         "post": "1793836838.243699",
-        "lastSeen": 1793837023.775
+        "lastSeen": 1793837129.287
       },
-      "1793836941.882839": {
-        "post": "1793836941.882839",
-        "lastSeen": 1793837023.775
+      "1793837089.483359": {
+        "post": "1793837089.483359",
+        "lastSeen": 1793837129.287
       }
     },
     "days": {
@@ -421866,8 +421883,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-05": {
-        "cnt": 1,
-        "sumMin": 9.070127018292744,
+        "cnt": 2,
+        "sumMin": 11.314263037840526,
         "over": 0,
         "items": [
           {
@@ -421877,13 +421894,22 @@ window.SLACK_DATA = {
             "biz": "3662302493",
             "who": "김동욱",
             "cat": "menu"
+          },
+          {
+            "hm": "09:02",
+            "min": 2.2,
+            "store": "또바기 냉삼집",
+            "biz": "5090343190",
+            "who": "송태양",
+            "cat": "menu",
+            "dmin": 2.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-05 09:04",
+    "at": "2026-11-05 09:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -422033,7 +422059,7 @@ window.SLACK_DATA = {
     "2026-11-05": 2
   },
   "noteMig": {
-    "at": "2026-11-05 09:03",
+    "at": "2026-11-05 09:05",
     "pri": {
       "days": 0,
       "failed": [],
