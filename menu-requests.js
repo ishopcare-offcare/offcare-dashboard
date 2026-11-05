@@ -3,10 +3,147 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4718,
- "updatedAt": "2026-11-05 09:00",
+ "version": 4719,
+ "updatedAt": "2026-11-05 09:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1793836941.882839",
+   "date": "2026-11-05",
+   "time": "09:02",
+   "store": "또바기 냉삼집",
+   "biz": "5090343190",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CEKAFCF0X",
+     "from": "댓글",
+     "path": "menu-files/1793836941_882839-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "급냉삼겹",
+       "name": "소 (400g)",
+       "price": 32000
+      },
+      {
+       "category": "급냉삼겹",
+       "name": "중 (600g)",
+       "price": 48000
+      },
+      {
+       "category": "급냉삼겹",
+       "name": "대 (800g)",
+       "price": 64000
+      },
+      {
+       "category": "급냉삼겹",
+       "name": "★추가 (100g)",
+       "price": 7900
+      },
+      {
+       "category": "충주식 간장 냉삼",
+       "name": "소 (300g)",
+       "price": 25500
+      },
+      {
+       "category": "충주식 간장 냉삼",
+       "name": "중 (500g)",
+       "price": 42500
+      },
+      {
+       "category": "충주식 간장 냉삼",
+       "name": "대 (600g)",
+       "price": 59500
+      },
+      {
+       "category": "충주식 간장 냉삼",
+       "name": "★추가 (100g)",
+       "price": 8500
+      },
+      {
+       "category": "",
+       "name": "구워먹는 김밥",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "해물된장찌개",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "매운 해장라면",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "팔도비빔면",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "불닭 볶음면",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "아베리코소세지+치즈어묵(2p)",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "셀프 볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "",
+       "name": "계란찜",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "주류",
+       "name": "소주.맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 19000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793836953.194689",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793836941882839"
+  },
   {
    "ts": "1793835832.018379",
    "date": "2026-11-05",
