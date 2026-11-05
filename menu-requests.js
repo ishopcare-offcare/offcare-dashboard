@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4723,
- "updatedAt": "2026-11-05 09:38",
+ "version": 4724,
+ "updatedAt": "2026-11-05 09:42",
  "days": 30,
  "items": [
+  {
+   "ts": "1793839260.526029",
+   "date": "2026-11-05",
+   "time": "09:41",
+   "store": "공익곰탕",
+   "biz": "5853901252",
+   "pos": "",
+   "content": "메뉴 수정 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 식사류\n    ◦ 공기밥 1,000원 추가\n• 고기 드신 후 식사\n    ◦ 공기밥 1,000원 추가\n• 면류\n    ◦ 물밀면 9000원 추가\n    ◦ 비빔밀면 10,000원 추가\n• 고기류\n    ◦ 즉석 양념 소갈비 1kg 78,000원 수정"
+   ],
+   "rc": 1,
+   "lr": "1793839321.846839",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793839260526029"
+  },
   {
    "ts": "1793839035.732689",
    "date": "2026-11-05",
