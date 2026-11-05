@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4729,
- "updatedAt": "2026-11-05 10:01",
+ "version": 4730,
+ "updatedAt": "2026-11-05 10:02",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "고기류\n즉석마늘소갈비 500g 42,000원"
    ],
-   "rc": 1,
-   "lr": "1793840250.914249",
+   "rc": 2,
+   "lr": "1793840529.533879",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
