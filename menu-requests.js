@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4776,
- "updatedAt": "2026-11-05 17:28",
+ "version": 4777,
+ "updatedAt": "2026-11-05 18:19",
  "days": 30,
  "items": [
   {
@@ -2047,12 +2047,53 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 2
+    },
+    {
+     "name": "IMG_9796.jpg",
+     "fid": "F0CF6B6NTB3",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "창살",
+       "name": "대형 회오리 스틱",
+       "price": 10000
+      },
+      {
+       "category": "창살",
+       "name": "닭꼬칠 스틱",
+       "price": 10000
+      },
+      {
+       "category": "창살",
+       "name": "일반서 낫싱대",
+       "price": 10000
+      },
+      {
+       "category": "창살",
+       "name": "컨데두",
+       "price": 7500
+      },
+      {
+       "category": "창살",
+       "name": "낙발톡",
+       "price": 10000
+      },
+      {
+       "category": "창살",
+       "name": "LED 핑 장난감",
+       "price": 10000
+      }
+     ],
+     "v": 2
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1793786356.468129",
+   "replies": [
+    "메뉴명이 이상하다고합니다."
+   ],
+   "rc": 3,
+   "lr": "1793870358.183269",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
