@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4733,
- "updatedAt": "2026-11-05 10:15",
+ "version": 4734,
+ "updatedAt": "2026-11-05 10:17",
  "days": 30,
  "items": [
   {
@@ -47,8 +47,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1793841191.163219",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793841107876459"
   },
   {
@@ -71078,87 +71078,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "고경림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791251467975209"
-  },
-  {
-   "ts": "1791249325.949739",
-   "date": "2026-10-06",
-   "time": "10:15",
-   "store": "시골마루",
-   "biz": "1304668196",
-   "pos": "오케이포스",
-   "content": "오케이포스 사용중, 세트류> 쭈꾸미 전골 37,000원 오리, 아구찜 사이에 비어있는 곳에 넣어달라 요청주셨습니다! :감사합니다꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C70NYEK4Z",
-     "from": "댓글",
-     "path": "menu-files/1791249325_949739-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "세트류",
-       "name": "모듬보쌈세트",
-       "price": 70000
-      },
-      {
-       "category": "세트류",
-       "name": "보쌈세트",
-       "price": 38000
-      },
-      {
-       "category": "세트류",
-       "name": "쭈꾸미볶음세트",
-       "price": 17000
-      },
-      {
-       "category": "세트류",
-       "name": "오징어 볶음세트",
-       "price": 17000
-      },
-      {
-       "category": "세트류",
-       "name": "주삼불고기",
-       "price": 25000
-      },
-      {
-       "category": "세트류",
-       "name": "모듬오리훈제세트",
-       "price": 70000
-      },
-      {
-       "category": "세트류",
-       "name": "오리훈제세트",
-       "price": 38000
-      },
-      {
-       "category": "세트류",
-       "name": "쭈꾸미 전골",
-       "price": 37000
-      },
-      {
-       "category": "세트류",
-       "name": "아귀찜(대)",
-       "price": 58000
-      },
-      {
-       "category": "세트류",
-       "name": "아귀찜(소)",
-       "price": 34000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791249462.337269",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791249325949739"
   }
  ],
  "ocr": {
