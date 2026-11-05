@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29965,
+  "version": 29966,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -306330,7 +306330,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:43"
+      "updatedAt": "09:00"
     }
   },
   "resp": {
@@ -306471,7 +306471,14 @@ window.SLACK_DATA = {
       },
       "1793835832.018379": {
         "post": "1793835832.018379",
-        "lastSeen": 1793835928.443
+        "lastSeen": 1793836824.009,
+        "r": 1,
+        "day": "2026-11-05",
+        "idx": 0
+      },
+      "1793836806.443739": {
+        "post": "1793836806.443739",
+        "lastSeen": 1793836824.009
       }
     },
     "days": {
@@ -421853,11 +421860,26 @@ window.SLACK_DATA = {
             "dmin": 23.9
           }
         ]
+      },
+      "2026-11-05": {
+        "cnt": 1,
+        "sumMin": 9.070127018292744,
+        "over": 0,
+        "items": [
+          {
+            "hm": "08:43",
+            "min": 9.1,
+            "store": "샾(#) 인생김밥",
+            "biz": "3662302493",
+            "who": "김동욱",
+            "cat": "menu"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-05 08:45",
+    "at": "2026-11-05 09:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -422007,7 +422029,7 @@ window.SLACK_DATA = {
     "2026-11-05": 2
   },
   "noteMig": {
-    "at": "2026-11-05 08:45",
+    "at": "2026-11-05 09:00",
     "pri": {
       "days": 0,
       "failed": [],
