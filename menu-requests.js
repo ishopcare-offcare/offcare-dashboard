@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4766,
- "updatedAt": "2026-11-05 16:34",
+ "version": 4767,
+ "updatedAt": "2026-11-05 16:37",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "싱싱활어회 대메뉴 카테고리\n( 해당 카테고리 내부에 있는 모든 소중대 메뉴 소:2인 / 중 : 3인 대:4인 메뉴 이름 변경 요청)\n\n• 광어 2인 : 7만원  3인:9만원 4인:12만원 가격 수정 \n• 광어대방어 소중대 모두 삭제 \n주류 및 음료\n후레쉬가 제일 앞에 있으나\n제일 앞쪽에 술 5,000원 추가 및 음료 2,000원 메뉴를 바로 우측 자리 이동 요청 주셨습니다."
+   ],
+   "rc": 1,
+   "lr": "1793864224.657609",
    "rfx": 3,
    "status": "wait",
    "handler": null,
