@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 29971,
+  "version": 29972,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -306323,6 +306323,9 @@ window.SLACK_DATA = {
     },
     "2026-11-05": {
       "counts": {
+        "onboarding": {
+          "심성현": 1
+        },
         "menu": {
           "송태양": 1,
           "김동욱": 1
@@ -306330,6 +306333,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:04",
+          "store": "주주잉글리쉬(JuJu English)",
+          "biz": "5909401404",
+          "cat": "onboarding",
+          "emp": "심성현",
+          "req": "키교환  결제불가로 나와 확인 부탁드립니다.(재부팅 후 에도 동일)",
+          "hw": "",
+          "intake": "online",
+          "note": "스마트로 키 교환 문구는 타사 포스, 단말기로 온보딩 시 노출 토스포스로 온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "09:02",
           "store": "또바기 냉삼집",
@@ -306355,7 +306370,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 1,
         "unknown": 0
       },
@@ -306500,14 +306515,7 @@ window.SLACK_DATA = {
       },
       "1793836838.243699": {
         "post": "1793836838.243699",
-        "lastSeen": 1793837567.023
-      },
-      "1793837089.483359": {
-        "post": "1793837089.483359",
-        "lastSeen": 1793837567.023,
-        "r": 1,
-        "day": "2026-11-05",
-        "idx": 2
+        "lastSeen": 1793837705.498
       }
     },
     "days": {
@@ -421919,14 +421927,15 @@ window.SLACK_DATA = {
             "store": "주주잉글리쉬(JuJu English)",
             "biz": "5909401404",
             "who": "심성현",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 9.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-05 09:13",
+    "at": "2026-11-05 09:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -422076,7 +422085,7 @@ window.SLACK_DATA = {
     "2026-11-05": 2
   },
   "noteMig": {
-    "at": "2026-11-05 09:12",
+    "at": "2026-11-05 09:15",
     "pri": {
       "days": 0,
       "failed": [],
