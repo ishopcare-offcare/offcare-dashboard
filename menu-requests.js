@@ -3,10 +3,258 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4747,
- "updatedAt": "2026-11-05 13:27",
+ "version": 4748,
+ "updatedAt": "2026-11-05 13:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1793853504.654069",
+   "date": "2026-11-05",
+   "time": "13:38",
+   "store": "우현횟집",
+   "biz": "3766700875",
+   "pos": "",
+   "content": "메ㄴ",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261105_133415.jpeg",
+     "fid": "F0CF49ZCKUZ",
+     "from": "댓글",
+     "path": "menu-files/1793853504_654069-0.jpeg",
+     "kind": "other",
+     "menu": [],
+     "v": 2
+    },
+    {
+     "name": "Resized_TalkMedia_i_f12964849225.jpg.jpe",
+     "fid": "F0CF27PSSE6",
+     "from": "댓글",
+     "path": "menu-files/1793853504_654069-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "자연산 (참가자미)",
+       "name": "2人",
+       "price": 80000
+      },
+      {
+       "category": "자연산 (참가자미)",
+       "name": "3人",
+       "price": 100000
+      },
+      {
+       "category": "자연산 (참가자미)",
+       "name": "4人",
+       "price": 120000
+      },
+      {
+       "category": "자연산 (참가자미)",
+       "name": "특大",
+       "price": 150000
+      },
+      {
+       "category": "자연산 (참가자미)",
+       "name": "회추가 (막썰어)",
+       "price": 50000
+      },
+      {
+       "category": "모듬회",
+       "name": "2人",
+       "price": 70000
+      },
+      {
+       "category": "모듬회",
+       "name": "3人",
+       "price": 90000
+      },
+      {
+       "category": "모듬회",
+       "name": "4人",
+       "price": 110000
+      },
+      {
+       "category": "모듬회",
+       "name": "특大",
+       "price": 130000
+      },
+      {
+       "category": "모듬회",
+       "name": "회추가 (막썰어)",
+       "price": 50000
+      },
+      {
+       "category": "식사",
+       "name": "오징어물회",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "식사",
+       "name": "활어물회",
+       "price": 17000
+      },
+      {
+       "category": "식사",
+       "name": "활어덮밥",
+       "price": 17000
+      },
+      {
+       "category": "식사",
+       "name": "참가자미 물회",
+       "price": 18000
+      },
+      {
+       "category": "식사",
+       "name": "참가자미 덮밥",
+       "price": 18000
+      },
+      {
+       "category": "식사",
+       "name": "특물회(전복추가)",
+       "price": 22000
+      },
+      {
+       "category": "식사",
+       "name": "전복물회",
+       "price": 30000
+      },
+      {
+       "category": "식사",
+       "name": "전 복 죽",
+       "price": 20000
+      },
+      {
+       "category": "식사",
+       "name": "대구탕, 지리",
+       "price": 15000
+      },
+      {
+       "category": "식사",
+       "name": "곱배기(식사류 일체)",
+       "price": 5000
+      },
+      {
+       "category": "식사",
+       "name": "어린이 돈까스",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "공 기 밥",
+       "price": 1000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "오징어통찜",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "추가메뉴",
+       "name": "왕새우튀김",
+       "price": 30000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "스끼다시 추가",
+       "price": 3000
+      },
+      {
+       "category": "주류",
+       "name": "소 주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥 주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청 하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "백세주",
+       "price": 10000
+      },
+      {
+       "category": "주류",
+       "name": "일품진로",
+       "price": 25000
+      },
+      {
+       "category": "주류",
+       "name": "화 요",
+       "price": 25000
+      },
+      {
+       "category": "주류",
+       "name": "음 료",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "레몬슬라이스",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "외부주류반입금",
+       "price": 20000
+      },
+      {
+       "category": "시세메뉴",
+       "name": "오징어회",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "시세메뉴",
+       "name": "이시가리",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "시세메뉴",
+       "name": "대방어",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "시세메뉴",
+       "name": "마리고기",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "시세메뉴",
+       "name": "대게",
+       "price": 0,
+       "pt": "m"
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793853540.370529",
+   "rfx": 3,
+   "status": "done",
+   "handler": "서상원",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793853504654069"
+  },
   {
    "ts": "1793846865.816489",
    "date": "2026-11-05",
