@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4739,
- "updatedAt": "2026-11-05 10:54",
+ "version": 4740,
+ "updatedAt": "2026-11-05 11:36",
  "days": 30,
  "items": [
   {
@@ -70509,137 +70509,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791255404222939"
-  },
-  {
-   "ts": "1791254149.652189",
-   "date": "2026-10-06",
-   "time": "11:35",
-   "store": "스몰굿커피 문정점",
-   "biz": "6412901913",
-   "pos": "토스포스",
-   "content": "전체메뉴 영문등록, 메뉴설명등록하고 싶은데 파일이 별도로 있나요?",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C6Z5BK5H8",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "초당옥수수 콜드브루",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "초당옥수수라떼",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "코코슈페너(10oz)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "더 블루(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "아메리카노(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "더 먹 (ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "굿데이 헤이즐넛(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "시나몬 허니라떼(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "스몰굿커피(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "더 블랙(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "카페라떼(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "헤이즐넛라떼(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "바닐라라떼(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "돌체라떼(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "굿커피(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "콜드브루(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "돌체콜드브루(ICED)",
-       "price": 0
-      },
-      {
-       "category": "",
-       "name": "비엔나커피(ICED)",
-       "price": 0
-      }
-     ],
-     "path": "menu-files/1791254149_652189-0.png"
-    },
-    {
-     "name": "스몰굿커피 문정점.xlsx",
-     "fid": "F0C7188NMQR",
-     "from": "댓글",
-     "path": "menu-files/1791254149_652189-1.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "<mailto:···|···>",
-    "수정 양식 전달 및 방법 안내 완료\n\n수정 파일 작업 후 재인입 예정"
-   ],
-   "rc": 4,
-   "lr": "1791255496.040349",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791254149652189"
   }
  ],
  "ocr": {
