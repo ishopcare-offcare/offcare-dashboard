@@ -3,10 +3,41 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4782,
- "updatedAt": "2026-11-05 19:58",
+ "version": 4783,
+ "updatedAt": "2026-11-05 20:05",
  "days": 30,
  "items": [
+  {
+   "ts": "1793876698.856139",
+   "date": "2026-11-05",
+   "time": "20:04",
+   "store": "소담찬",
+   "biz": "5375401163",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 및 바코드 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "소담찬 바코드.xlsx",
+     "fid": "F0CF55X9J9G",
+     "from": "댓글",
+     "path": "menu-files/1793876698_856139-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "모든 상품은 3,000원 카테고리 없이 등록 요청 주셨습니다 ( 추후 대표님께서 수정 예정 )"
+   ],
+   "rc": 1,
+   "lr": "1793876726.954309",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793876698856139"
+  },
   {
    "ts": "1793876267.915469",
    "date": "2026-11-05",
@@ -23,7 +54,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CF90J05KN",
      "from": "댓글",
-     "path": "menu-files/1793876267_915469-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -57,13 +87,14 @@ window.MENU_REQUESTS = {
        "price": 50000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793876267_915469-0.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1793876273.005819",
+   "rc": 2,
+   "lr": "1793876743.550629",
    "rfx": 3,
    "status": "confirm",
    "handler": "박하림",
