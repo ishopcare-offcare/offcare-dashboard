@@ -3,8 +3,8 @@
  * scripts/fetch-duty.js 가 GitHub Actions 에서 주기 갱신합니다. 원본은 구글시트입니다.
  */
 window.DUTY_DATA = {
- "version": 72,
- "updatedAt": "2026-11-05 16:29",
+ "version": 73,
+ "updatedAt": "2026-11-05 16:30",
  "sheet": "1Gto8lYR1Nvh8M_YpcuBs1DG2LiX7b0iMUm2YeN5-2wM",
  "url": "https://docs.google.com/spreadsheets/d/1Gto8lYR1Nvh8M_YpcuBs1DG2LiX7b0iMUm2YeN5-2wM/edit",
  "days": {
@@ -97,13 +97,13 @@ window.DUTY_DATA = {
    "inst": "컴포즈 캠페인 / 배선유 15"
   },
   "2026-11-11": {
-   "inst": "컴포즈 캠페인 / 배선유 15 / 김규빈 3"
+   "inst": "컴포즈 캠페인 / 배선유 15 / 김규빈 15"
   },
   "2026-11-12": {
-   "inst": "최민석 건강검진 / 배선유3"
+   "inst": "최민석 건강검진 / 배선유15"
   },
   "2026-11-13": {
-   "inst": "배선유3"
+   "inst": "배선유15"
   },
   "2026-11-14": {
    "day": "김규빈",
@@ -115,10 +115,10 @@ window.DUTY_DATA = {
    "nit": "최민석"
   },
   "2026-11-16": {
-   "inst": "심헌터 군사훈련 / 컴포즈 캠페인 / 배선유 5 / 김규빈3 / 서상원10"
+   "inst": "심헌터 군사훈련 / 컴포즈 캠페인 / 배선유 17 / 김규빈 15 / 서상원10"
   },
   "2026-11-17": {
-   "inst": "심헌터 군사훈련 / 배선유3"
+   "inst": "심헌터 군사훈련 / 배선유15"
   },
   "2026-11-18": {
    "inst": "심헌터 군사훈련"
