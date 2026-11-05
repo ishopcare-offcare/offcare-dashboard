@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4788,
- "updatedAt": "2026-11-06 00:31",
+ "version": 4789,
+ "updatedAt": "2026-11-06 06:15",
  "days": 30,
  "items": [
   {
@@ -20,12 +20,14 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "<추기메뉴1>\n=> 계절탕 모두\n(1인)추가,(2인)추가,(3인)추가,\n(4인)추가\n계절탕 아랫줄로 배열되게 해주세요\n\n<추기메뉴2>\n=> 물김치 모두\n(1인)추가,(2인)추가,(3인)추가,\n(4인)추가\n물김치 아랫줄로 배열되게 해주세요\n\n<서비스>\n<추기메뉴1>\n=> 계절탕 모두\n(2인)서비스,(3인)서비스,(4인)서비스\n계절탕 아랫줄로 배열되게 해주세요\n\n이해가안됨. 통화로 확인필요"
+   ],
+   "rc": 1,
+   "lr": "1793913258.134399",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793891851132669"
   },
   {
