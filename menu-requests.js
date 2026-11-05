@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4726,
- "updatedAt": "2026-11-05 09:51",
+ "version": 4727,
+ "updatedAt": "2026-11-05 09:53",
  "days": 30,
  "items": [
   {
@@ -72,8 +72,8 @@ window.MENU_REQUESTS = {
     "• 고기 드신 후 식사 \n    ◦ 물밀면 7,000원 추가\n    ◦ 비빔밀면 8,000원 추가\n 님 요것도 같이 추가 가능할까요~?",
     "재인입 후 추가 말씀주셔서 부득이하게 요청드려요 :햄스터-죄송:"
    ],
-   "rc": 5,
-   "lr": "1793839851.587779",
+   "rc": 6,
+   "lr": "1793839979.727789",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
