@@ -3,10 +3,72 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4781,
- "updatedAt": "2026-11-05 18:36",
+ "version": 4782,
+ "updatedAt": "2026-11-05 19:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1793876267.915469",
+   "date": "2026-11-05",
+   "time": "19:57",
+   "store": "코이프 맨즈헤어",
+   "biz": "6192166776",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CF90J05KN",
+     "from": "댓글",
+     "path": "menu-files/1793876267_915469-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "CUT",
+       "name": "컷 (대표)",
+       "price": 20000
+      },
+      {
+       "category": "CUT",
+       "name": "컷 + 두피스켈프",
+       "price": 30000
+      },
+      {
+       "category": "PERM",
+       "name": "컷 + 다운펌 (옆)",
+       "price": 40000
+      },
+      {
+       "category": "PERM",
+       "name": "컷 + 다운펌 (전체)",
+       "price": 50000
+      },
+      {
+       "category": "PERM",
+       "name": "컷 + 펌",
+       "price": 70000
+      },
+      {
+       "category": "COLOR",
+       "name": "컷 + 염색",
+       "price": 50000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793876273.005819",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "박하림",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793876267915469"
+  },
   {
    "ts": "1793871164.408139",
    "date": "2026-11-05",
