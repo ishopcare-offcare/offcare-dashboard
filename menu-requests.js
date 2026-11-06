@@ -3,10 +3,317 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4821,
- "updatedAt": "2026-11-06 15:52",
+ "version": 4822,
+ "updatedAt": "2026-11-06 16:18",
  "days": 30,
  "items": [
+  {
+   "ts": "1793949419.291969",
+   "date": "2026-11-06",
+   "time": "16:16",
+   "store": "코끼리카페 오산점",
+   "biz": "1304800813",
+   "pos": "",
+   "content": "메뉴추가",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CFHDDFXU1",
+     "from": "댓글",
+     "path": "menu-files/1793949419_291969-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "100",
+       "price": 100
+      },
+      {
+       "category": "",
+       "name": "500",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "1000",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "5000",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "10000",
+       "price": 10000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CFHDES0U9",
+     "from": "댓글",
+     "path": "menu-files/1793949419_291969-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빙수바보 빙식이",
+       "name": "그래놀라 눈꽃빙수",
+       "price": 12900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "추억의 옛날 팥빙수",
+       "price": 14900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "돼지바 빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "인절미 팥 눈꽃빙수",
+       "price": 12900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "오레오 초코눈꽃빙수",
+       "price": 13900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "녹차 눈꽃빙수",
+       "price": 14000
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "팥 녹차 눈꽃빙수",
+       "price": 15000
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "녹차 초코 눈꽃빙수",
+       "price": 15000
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "냉동 딸기 눈꽃빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "치즈브라우니 눈꽃빙수",
+       "price": 15500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "빙식이 팥 눈꽃빙수",
+       "price": 13500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "오즈 초코 눈꽃빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "인절미 눈꽃빙수",
+       "price": 11900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "리얼초코 눈꽃빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 아포카토 치즈 눈꽃 빙수",
+       "price": 14500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 커피 눈꽃 빙수",
+       "price": 12500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 망고 바나나 눈꽃빙수",
+       "price": 15500
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 찐한 우유 팥빙수",
+       "price": 10800
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 1인 냉동 망고빙수",
+       "price": 10800
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "(신메뉴) 1인 냉동 딸기빙수",
+       "price": 10800
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "리얼 생딸기 눈꽃빙수",
+       "price": 15900
+      },
+      {
+       "category": "빙수바보 빙식이",
+       "name": "생딸기 치즈 눈꽃빙수",
+       "price": 16900
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CFFB6RS1G",
+     "from": "댓글",
+     "path": "menu-files/1793949419_291969-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "팥빙수 토핑",
+       "name": "눈꽃 빙수 추가",
+       "price": 7000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "초코 눈꽃 빙수 추가",
+       "price": 7500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "연유추가",
+       "price": 1000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "빙식이통팥 추가",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "후르츠칵테일",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "죠리퐁",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "콘프러스트",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "코코볼",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "오레오 오즈",
+       "price": 2000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "첵스초코",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "그래놀라",
+       "price": 2000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "돼지바크런치",
+       "price": 2000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "로투스 가루",
+       "price": 2000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "오레오가루",
+       "price": 2000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "오레오가루 +쿠키",
+       "price": 3800
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "녹차가루 추가",
+       "price": 1000
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "카라멜시럽",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "딸기시럽 추가",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "망고시럽 추가",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "녹차연유 추가",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "초코시럽 추가",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "바닐라아이스크림 추가",
+       "price": 1500
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "요거트아이스크림 추가",
+       "price": 1800
+      },
+      {
+       "category": "팥빙수 토핑",
+       "name": "초코아이스크림 추가",
+       "price": 1500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 3,
+   "lr": "1793949463.275589",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793949419291969"
+  },
   {
    "ts": "1793947954.007779",
    "date": "2026-11-06",
