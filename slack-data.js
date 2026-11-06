@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30441,
+  "version": 30442,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309324,7 +309324,7 @@ window.SLACK_DATA = {
     "2026-11-06": {
       "counts": {
         "as": {
-          "김동욱": 1,
+          "김동욱": 2,
           "심성현": 1
         },
         "onboarding": {
@@ -309336,6 +309336,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:49",
+          "store": "벌스데이",
+          "biz": "5950103439",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "프린터 전원이 안켜진다 하셔서 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "어댑터 ac 케이블 멀티탭 제거 후 재연결하여 정상작동 확인",
+          "rr": 1
+        },
         {
           "time": "09:36",
           "store": "농가온 주식회사",
@@ -309386,7 +309398,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -309593,18 +309605,18 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793926557.613
+        "lastSeen": 1793926662.868
       },
       "1793926092.009339": {
         "post": "1793926092.009339",
-        "lastSeen": 1793926557.613,
+        "lastSeen": 1793926662.868,
         "r": 1,
         "day": "2026-11-06",
         "idx": 4
       },
       "1793926343.144219": {
         "post": "1793926343.144219",
-        "lastSeen": 1793926557.613,
+        "lastSeen": 1793926662.868,
         "r": 1,
         "day": "2026-11-06",
         "idx": 5
@@ -426715,7 +426727,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:56",
+    "at": "2026-11-06 09:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426866,7 +426878,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:55",
+    "at": "2026-11-06 09:57",
     "pri": {
       "days": 0,
       "failed": [],
