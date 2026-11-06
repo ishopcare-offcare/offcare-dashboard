@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4810,
- "updatedAt": "2026-11-06 14:07",
+ "version": 4811,
+ "updatedAt": "2026-11-06 14:23",
  "days": 30,
  "items": [
+  {
+   "ts": "1793942615.652299",
+   "date": "2026-11-06",
+   "time": "14:23",
+   "store": "닭맥주",
+   "biz": "2360103618",
+   "pos": "스파로스포스",
+   "content": "번데기탕 가격13000원변경\n국물닭발22000원변경\n과메기43000가격변동\n탕류\n부대찌개25000(추가)\n조개탕22000(추가)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793942615652299"
+  },
   {
    "ts": "1793938143.330619",
    "date": "2026-11-06",
