@@ -3,18 +3,18 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4829,
- "updatedAt": "2026-11-06 16:40",
+ "version": 4830,
+ "updatedAt": "2026-11-06 16:42",
  "days": 30,
  "items": [
   {
-   "ts": "1793950817.950089",
+   "ts": "1793950870.914379",
    "date": "2026-11-06",
-   "time": "16:40",
-   "store": "수돈돈",
-   "biz": "3132901416",
-   "pos": "",
-   "content": "메뉴 요청드립니다.",
+   "time": "16:41",
+   "store": "그릴하우스",
+   "biz": "1123417643",
+   "pos": "기타",
+   "content": "모든 기존 메뉴 삭제\n\n추가메뉴\n화로 2만원\n그릴 2만5천원\n웨버 3만5천원\n장작 2만원\n플래터 2만원\n1인추가 2만원\n2인추가 4만원\n냉수 5만원",
    "special": "",
    "drive": [],
    "files": 0,
@@ -26,6 +26,463 @@ window.MENU_REQUESTS = {
    "rfx": 3,
    "status": "wait",
    "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793950870914379"
+  },
+  {
+   "ts": "1793950817.950089",
+   "date": "2026-11-06",
+   "time": "16:40",
+   "store": "수돈돈",
+   "biz": "3132901416",
+   "pos": "",
+   "content": "메뉴 요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "스크린샷 2026-11-06 163931.png",
+     "fid": "F0CFACH0XV3",
+     "from": "댓글",
+     "path": "menu-files/1793950817_950089-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "해산물",
+       "name": "멍게회",
+       "price": 20000
+      },
+      {
+       "category": "해산물",
+       "name": "홍가리비찜",
+       "price": 23000
+      },
+      {
+       "category": "해산물",
+       "name": "굴회미니",
+       "price": 15000
+      },
+      {
+       "category": "해산물",
+       "name": "굴회한판",
+       "price": 30000
+      },
+      {
+       "category": "해산물",
+       "name": "굴찜",
+       "price": 30000
+      },
+      {
+       "category": "해산물",
+       "name": "낙지한마리탕탕이",
+       "price": 16000
+      },
+      {
+       "category": "해산물",
+       "name": "과메기반접시",
+       "price": 18000
+      },
+      {
+       "category": "해산물",
+       "name": "과메기한접시",
+       "price": 34000
+      },
+      {
+       "category": "해산물",
+       "name": "해삼",
+       "price": 28000
+      },
+      {
+       "category": "해산물",
+       "name": "해산물모둠",
+       "price": 38000
+      },
+      {
+       "category": "해산물",
+       "name": "소라",
+       "price": 35000
+      },
+      {
+       "category": "해산물",
+       "name": "도다리",
+       "price": 35000
+      },
+      {
+       "category": "해산물",
+       "name": "쭈꾸미샤브샤브 1키로",
+       "price": 80000
+      },
+      {
+       "category": "해산물",
+       "name": "굴찜반판",
+       "price": 15000
+      },
+      {
+       "category": "해산물",
+       "name": "개불",
+       "price": 32000
+      },
+      {
+       "category": "해산물",
+       "name": "연어",
+       "price": 28000
+      },
+      {
+       "category": "해산물",
+       "name": "연어맛보기",
+       "price": 17000
+      },
+      {
+       "category": "해산물",
+       "name": "미니조개탕",
+       "price": 12000
+      },
+      {
+       "category": "해산물",
+       "name": "뿔소라",
+       "price": 30000
+      },
+      {
+       "category": "해산물",
+       "name": "전복버터구이",
+       "price": 26000
+      },
+      {
+       "category": "해산물",
+       "name": "가리비",
+       "price": 28000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-06 163943.png",
+     "fid": "F0CFKCEPXQU",
+     "from": "댓글",
+     "path": "menu-files/1793950817_950089-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "점심특선",
+       "name": "삼겹김치지개",
+       "price": 10000
+      },
+      {
+       "category": "점심특선",
+       "name": "파절이불고기",
+       "price": 12000
+      },
+      {
+       "category": "점심특선",
+       "name": "차돌된장찌개",
+       "price": 8000
+      },
+      {
+       "category": "점심특선",
+       "name": "계란말이",
+       "price": 7500
+      },
+      {
+       "category": "점심특선",
+       "name": "계란찜",
+       "price": 3500
+      },
+      {
+       "category": "점심특선",
+       "name": "된장찌개추가",
+       "price": 4000
+      },
+      {
+       "category": "점심특선",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "점심특선",
+       "name": "셀프볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "점심특선",
+       "name": "볶음밥치즈",
+       "price": 2000
+      },
+      {
+       "category": "점심특선",
+       "name": "공깃밥",
+       "price": 1000
+      },
+      {
+       "category": "점심특선",
+       "name": "멍게비빔밥",
+       "price": 11000
+      },
+      {
+       "category": "점심특선",
+       "name": "멍게비빔밥특",
+       "price": 15000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-06 163921.png",
+     "fid": "F0CGA2VJEKS",
+     "from": "댓글",
+     "path": "menu-files/1793950817_950089-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사류",
+       "name": "물냉면",
+       "price": 6000
+      },
+      {
+       "category": "식사류",
+       "name": "비빔냉면",
+       "price": 6000
+      },
+      {
+       "category": "식사류",
+       "name": "땡초라면",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "소면",
+       "price": 6000
+      },
+      {
+       "category": "식사류",
+       "name": "계란추가",
+       "price": 500
+      },
+      {
+       "category": "식사류",
+       "name": "구워먹는치즈",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "계란찜",
+       "price": 3500
+      },
+      {
+       "category": "식사류",
+       "name": "치즈추가",
+       "price": 2000
+      },
+      {
+       "category": "식사류",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "식사류",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사류",
+       "name": "불닭볶음면",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "계란말이",
+       "price": 7500
+      },
+      {
+       "category": "식사류",
+       "name": "콘치즈",
+       "price": 5000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-06 163926.png",
+     "fid": "F0CFHJ61NP3",
+     "from": "댓글",
+     "path": "menu-files/1793950817_950089-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료/주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "음료/주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료/주류",
+       "name": "대포",
+       "price": 6000
+      },
+      {
+       "category": "음료/주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "음료/주류",
+       "name": "가덕막걸리",
+       "price": 4000
+      },
+      {
+       "category": "음료/주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "음료/주류",
+       "name": "산토리하이볼",
+       "price": 8000
+      },
+      {
+       "category": "음료/주류",
+       "name": "피치트리하이볼",
+       "price": 7500
+      },
+      {
+       "category": "음료/주류",
+       "name": "유자하이볼",
+       "price": 7500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-06 163937.png",
+     "fid": "F0CGA2T3TL0",
+     "from": "댓글",
+     "path": "menu-files/1793950817_950089-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "연포탕",
+       "name": "연포탕",
+       "price": 30000
+      },
+      {
+       "category": "연포탕",
+       "name": "낙지추가",
+       "price": 16000
+      },
+      {
+       "category": "연포탕",
+       "name": "낙지탕탕이",
+       "price": 16000
+      },
+      {
+       "category": "연포탕",
+       "name": "동죽추가",
+       "price": 3000
+      },
+      {
+       "category": "연포탕",
+       "name": "야채추가",
+       "price": 3000
+      },
+      {
+       "category": "연포탕",
+       "name": "전복추가",
+       "price": 1500
+      },
+      {
+       "category": "연포탕",
+       "name": "칼국수.수제비사리.죽",
+       "price": 3000
+      },
+      {
+       "category": "연포탕",
+       "name": "문어추가",
+       "price": 35000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "스크린샷 2026-11-06 163916.png",
+     "fid": "F0CGA2VQ7T2",
+     "from": "댓글",
+     "path": "menu-files/1793950817_950089-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "육류_찌개류",
+       "name": "삼겹살",
+       "price": 13000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "목살",
+       "price": 13000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "항정살",
+       "price": 14000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "가브리살",
+       "price": 14000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "백원",
+       "price": 100
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "새우미니",
+       "price": 20000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "소주서비스",
+       "price": 0
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "음료수서비스",
+       "price": 0
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "새우1키로",
+       "price": 65000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "새우500그람",
+       "price": 33000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "방어 작은거",
+       "price": 38000
+      },
+      {
+       "category": "육류_찌개류",
+       "name": "방어 큰거",
+       "price": 55000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793950847.310029",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793950817950089"
   },
   {
