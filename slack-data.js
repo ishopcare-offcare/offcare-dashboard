@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30433,
+  "version": 30434,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309368,8 +309368,8 @@ window.SLACK_DATA = {
           "req": "11월 6일 오전 9시 / 메뉴복사 X / 프론트",
           "hw": "",
           "intake": "online",
-          "note": "10분 뒤 통화 요청 / 와이파이 비밀번호 분실 찾고 다시 연락 예정",
-          "rr": 2
+          "note": "10분 뒤 통화 요청 / 와이파이 비밀번호 분실 찾고 다시 연락 예정 / 명변 완료",
+          "rr": 3
         }
       ],
       "intake": {
@@ -309520,11 +309520,11 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793925809.543
+        "lastSeen": 1793925928.466
       },
       "1793925419.135679": {
         "post": "1793925419.135679",
-        "lastSeen": 1793925809.543,
+        "lastSeen": 1793925928.466,
         "r": 1,
         "day": "2026-11-06",
         "idx": 3
@@ -426618,7 +426618,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:43",
+    "at": "2026-11-06 09:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426769,7 +426769,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:43",
+    "at": "2026-11-06 09:45",
     "pri": {
       "days": 0,
       "failed": [],
