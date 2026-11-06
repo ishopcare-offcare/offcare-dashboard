@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4803,
- "updatedAt": "2026-11-06 12:56",
+ "version": 4804,
+ "updatedAt": "2026-11-06 13:08",
  "days": 30,
  "items": [
   {
@@ -67671,27 +67671,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791347339272849"
-  },
-  {
-   "ts": "1791346069.346869",
-   "date": "2026-10-07",
-   "time": "13:07",
-   "store": "움버거앤 윙스",
-   "biz": "1358560825",
-   "pos": "퍼스트포스",
-   "content": "메인포스에\n버거단품\n치킨불고기버거  6,100원 \n넣어주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791346069346869"
   }
  ],
  "ocr": {

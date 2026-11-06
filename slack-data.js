@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30543,
+  "version": 30544,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309402,7 +309402,8 @@ window.SLACK_DATA = {
           "req": "개인소유 포스기 사용중",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "RAM 4GB 보안프로그램 해제, Windows 자동업데이트 해제등 조치 진행드림 사용 불편하시면 포스기 램 8GB로 렌탈문의 주실수 있음",
+          "rr": 1
         },
         {
           "time": "12:51",
@@ -309939,7 +309940,7 @@ window.SLACK_DATA = {
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "12:59",
+      "updatedAt": "13:07",
       "voc": {
         "responses": 1,
         "install": {
@@ -310144,21 +310145,25 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793937979.046
+        "lastSeen": 1793938048.806
       },
       "1793926803.431039": {
         "post": "1793926803.431039",
-        "lastSeen": 1793937979.046,
+        "lastSeen": 1793938048.806,
         "r": 1,
         "day": "2026-11-06",
         "idx": 8
       },
       "1793935683.769579": {
         "post": "1793935683.769579",
-        "lastSeen": 1793937979.046,
+        "lastSeen": 1793938048.806,
         "r": 1,
         "day": "2026-11-06",
         "idx": 27
+      },
+      "1793938034.121589": {
+        "post": "1793938034.121589",
+        "lastSeen": 1793938048.806
       }
     },
     "days": {
@@ -427509,13 +427514,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 13:06",
+    "at": "2026-11-06 13:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4919,
+    "rows": 4920,
     "named": 1273,
     "unknownName": 333,
     "beforeStart": 0,
@@ -427660,7 +427665,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 13:06",
+    "at": "2026-11-06 13:07",
     "pri": {
       "days": 0,
       "failed": [],
