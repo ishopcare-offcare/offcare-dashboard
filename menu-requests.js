@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4814,
- "updatedAt": "2026-11-06 14:32",
+ "version": 4815,
+ "updatedAt": "2026-11-06 14:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1793944693.526279",
+   "date": "2026-11-06",
+   "time": "14:58",
+   "store": "일만족발",
+   "biz": "4383701398",
+   "pos": "스파로스포스",
+   "content": "딱볶이  만원\n먹태 만오천원\n김치어묵우동 만오천원\n추가에요\n그리고 포스화면 족발(홀)\n일만보쌈이 아니라 족발로 변경 해야되요\n잘못설정 하셨어요\n보쌈 2인 3인 4인요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793944693526279"
+  },
   {
    "ts": "1793942615.652299",
    "date": "2026-11-06",
