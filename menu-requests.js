@@ -3,10 +3,119 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4825,
- "updatedAt": "2026-11-06 16:27",
+ "version": 4826,
+ "updatedAt": "2026-11-06 16:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1793950192.414769",
+   "date": "2026-11-06",
+   "time": "16:29",
+   "store": "미나리본 국밥",
+   "biz": "6451601031",
+   "pos": "토스포스",
+   "content": "신규메뉴 추가, 주류는 아래 특이사항 보시고, 이미지는 기본 이미지로 해주세요. 메뉴이미지는 메일로 보내드릴게요.",
+   "special": "보시고, 이미지는 기본 이미지로 해주세요. 메뉴이미지는 메일로 보내드릴게요.",
+   "drive": [
+    "https://drive.google.com/file/d/1vV61KnqROmPbzNYNA-34j-YLTjTYq3Qc/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1E9dVg9DcJoLl6fPbIrCLTHGCGSG051ID/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1vV61KnqROmPbzNYNA-34j-YLTjTYq3Qc",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "일품 전골·요리류",
+       "name": "소고기 된장전골 (소)",
+       "price": 24000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "소고기 된장전골 (중)",
+       "price": 36000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "소고기 된장전골 (대)",
+       "price": 48000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "만두전골 (중)",
+       "price": 30000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "만두전골 (대)",
+       "price": 40000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "제육볶음 (소)",
+       "price": 24000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "제육볶음 (중)",
+       "price": 36000
+      },
+      {
+       "category": "일품 전골·요리류",
+       "name": "제육볶음 (대)",
+       "price": 48000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1E9dVg9DcJoLl6fPbIrCLTHGCGSG051ID",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "대표메뉴 국밥·탕류",
+       "name": "미나리 국밥",
+       "price": 12000
+      },
+      {
+       "category": "대표메뉴 국밥·탕류",
+       "name": "미나리 얼큰국밥",
+       "price": 13000
+      },
+      {
+       "category": "대표메뉴 국밥·탕류",
+       "name": "미나리 설렁탕",
+       "price": 13000
+      },
+      {
+       "category": "대표메뉴 국밥·탕류",
+       "name": "미나리 갈비탕",
+       "price": 15000
+      },
+      {
+       "category": "대표메뉴 국밥·탕류",
+       "name": "미나리 만두국",
+       "price": 12000
+      },
+      {
+       "category": "대표메뉴 국밥·탕류",
+       "name": "찐왕만두",
+       "price": 8000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793950192414769"
+  },
   {
    "ts": "1793949419.291969",
    "date": "2026-11-06",
@@ -329,9 +438,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "등록/솔라피"
+   ],
+   "rc": 1,
+   "lr": "1793950189.401669",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
