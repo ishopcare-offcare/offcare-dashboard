@@ -3,10 +3,451 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4791,
- "updatedAt": "2026-11-06 10:09",
+ "version": 4792,
+ "updatedAt": "2026-11-06 10:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1793930190.706589",
+   "date": "2026-11-06",
+   "time": "10:56",
+   "store": "눈꽃나무카페",
+   "biz": "3062096945",
+   "pos": "토스포스",
+   "content": "오픈매장 급해서 메뉴 등록부탁드립니다.\n지금 영업중입니다~~^^",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/149tSagHgxgc8svK8W2N51KerHnXWi_xb/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "149tSagHgxgc8svK8W2N51KerHnXWi_xb",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Coffee (커피)",
+       "name": "아메리카노 (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "아메리카노 (Cold)",
+       "price": 4500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "카페라떼 (Hot)",
+       "price": 5000
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "카페라떼 (Cold)",
+       "price": 5300
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "카페모카 (Hot)",
+       "price": 5300
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "카페모카 (Cold)",
+       "price": 5500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "바닐라라떼 (Hot)",
+       "price": 5300
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "바닐라라떼 (Cold)",
+       "price": 5500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "헤이즐넛라떼 (Hot)",
+       "price": 5300
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "헤이즐넛라떼 (Cold)",
+       "price": 5500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "달콤라떼 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "달콤라떼 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "카라멜마끼야또 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "카라멜마끼야또 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "아포가토 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "달콤동동라떼(아이스크림) (Cold)",
+       "price": 6500
+      },
+      {
+       "category": "Coffee (커피)",
+       "name": "바닐라아이스크림 (Cold)",
+       "price": 4500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "유기농 녹차라떼 (Hot)",
+       "price": 5000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "유기농 녹차라떼 (Cold)",
+       "price": 5500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "초코라떼 (Hot)",
+       "price": 4500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "초코라떼 (Cold)",
+       "price": 5000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "로얄밀크티 (Hot)",
+       "price": 5000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "로얄밀크티 (Cold)",
+       "price": 5500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "바나나/딸기라떼 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "블루베리라떼 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "블루베리요거트라떼 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제흑임자곡물라떼 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제흑임자곡물라떼 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제레드빈라떼(팥) (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제레드빈라떼(팥) (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제진저라떼(생강) (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제진저라떼(생강) (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제공주밤라떼 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Beverage(라떼)",
+       "name": "수제공주밤라떼 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "수정과 (Cold)",
+       "price": 6500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "유자차 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "유자차 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "생강차 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "생강차 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "대추차 (Hot)",
+       "price": 6500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "대추차 (Cold)",
+       "price": 7000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "자몽차 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "자몽차 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "레몬차 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "레몬차 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "오미자차 (Hot)",
+       "price": 5500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "오미자차 (Cold)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "매실차 (Hot)",
+       "price": 5000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "매실차 (Cold)",
+       "price": 5500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "쌍화차 (Hot)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "허브티(캐모마일,루이보스,페퍼민트) (Hot)",
+       "price": 4000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "허브티(캐모마일,루이보스,페퍼민트) (Cold)",
+       "price": 4500
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "숙강+비트차/흑마늘차 (Hot)",
+       "price": 6000
+      },
+      {
+       "category": "Tea(수제차)",
+       "name": "숙강+비트차/흑마늘차 (Cold)",
+       "price": 6500
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "팥빙수",
+       "price": 8500
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "미숫가루팥빙수",
+       "price": 9000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "녹차팥빙수",
+       "price": 9000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "공주알밤빙수",
+       "price": 9000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "백설빙수",
+       "price": 8500
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "딸기빙수",
+       "price": 9000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "유자빙수",
+       "price": 8500
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "블루베리빙수",
+       "price": 9000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "에스프레소빙수",
+       "price": 9000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "팥추가",
+       "price": 3000
+      },
+      {
+       "category": "Snow Flakes (수제빙수)",
+       "name": "포장",
+       "price": 2000
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "생과일 키위주스",
+       "price": 6000
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "생과일 바나나주스",
+       "price": 6000
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "생과일 계절주스",
+       "price": 6000
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "사과쥬스 (100%)",
+       "price": 5500
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "모히또",
+       "price": 5500
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "수제레몬/자몽 에이드",
+       "price": 6000
+      },
+      {
+       "category": "Juice (주스)",
+       "name": "수제패션후르츠/청귤",
+       "price": 6000
+      },
+      {
+       "category": "Smoothie (스무디)",
+       "name": "생과일 블루베리스무디",
+       "price": 6000
+      },
+      {
+       "category": "Smoothie (스무디)",
+       "name": "생과일 망고스무디",
+       "price": 6000
+      },
+      {
+       "category": "Smoothie (스무디)",
+       "name": "생과일 딸기스무디",
+       "price": 6000
+      },
+      {
+       "category": "Smoothie (스무디)",
+       "name": "생과일 딸.바스무디",
+       "price": 6000
+      },
+      {
+       "category": "말렌카롤케익",
+       "name": "[코코아/살구/호두/레몬]",
+       "price": 6000
+      },
+      {
+       "category": "말렌카롤케익",
+       "name": "블루베리허니롤",
+       "price": 4500
+      },
+      {
+       "category": "말렌카롤케익",
+       "name": "라즈베리허니롤",
+       "price": 4500
+      },
+      {
+       "category": "말렌카롤케익",
+       "name": "허니볼",
+       "price": 1500
+      },
+      {
+       "category": "죽",
+       "name": "단팥죽",
+       "price": 8500
+      },
+      {
+       "category": "죽",
+       "name": "단호박+공주알밤죽",
+       "price": 8500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793930190706589"
+  },
   {
    "ts": "1793927271.041039",
    "date": "2026-11-06",
