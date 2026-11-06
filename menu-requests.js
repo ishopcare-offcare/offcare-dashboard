@@ -3,10 +3,61 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4838,
- "updatedAt": "2026-11-06 17:30",
+ "version": 4839,
+ "updatedAt": "2026-11-06 17:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1793953895.110459",
+   "date": "2026-11-06",
+   "time": "17:31",
+   "store": "바다품은과수원 본점",
+   "biz": "1935300763",
+   "pos": "토스포스",
+   "content": "소주5000원\n맥주5000원\n바다품은과수원11000원(매장할인1000원)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1tZaARB2NGaY-R5ID0IS_GGbFh7C-Iljo/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1tZaARB2NGaY-R5ID0IS_GGbFh7C-Iljo",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "육회비빔밥",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "설렁탕",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "잔치국수",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "사골떡국",
+       "price": 8000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793953895110459"
+  },
   {
    "ts": "1793952987.438059",
    "date": "2026-11-06",
