@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4854,
- "updatedAt": "2026-11-06 18:45",
+ "version": 4855,
+ "updatedAt": "2026-11-06 21:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1793967678.633829",
+   "date": "2026-11-06",
+   "time": "21:21",
+   "store": "행복한바오밥",
+   "biz": "2208693029",
+   "pos": "토스포스",
+   "content": "혹시 영수증 프린터기 이걸로 영수증 프린터 용도로만 사용 가능한가요?",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1Z3onig0KQy9VGcnhj4On6r2ys_dAQjgu/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1Z3onig0KQy9VGcnhj4On6r2ys_dAQjgu",
+     "kind": "other",
+     "menu": [],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793967678633829"
+  },
   {
    "ts": "1793955038.857439",
    "date": "2026-11-06",
