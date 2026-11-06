@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4839,
- "updatedAt": "2026-11-06 17:32",
+ "version": 4840,
+ "updatedAt": "2026-11-06 17:36",
  "days": 30,
  "items": [
+  {
+   "ts": "1793954092.920689",
+   "date": "2026-11-06",
+   "time": "17:34",
+   "store": "행복한바오밥",
+   "biz": "2208693029",
+   "pos": "토스포스",
+   "content": "카드 단말기 표시 텍스트 수정\n기존 \n주식회사 행복한바오밥\n변경안\n행복한바오밥",
+   "special": "대기 이미지수정 가능한지도 확인 부탁드려요!",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793954092920689"
+  },
   {
    "ts": "1793953895.110459",
    "date": "2026-11-06",
