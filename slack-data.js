@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30850,
+  "version": 30851,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311985,7 +311985,59 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": ""
+      "updatedAt": "06:43",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 1,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 0
+        },
+        "npsDist": {
+          "7": 1
+        },
+        "installDist": {
+          "4": 1
+        },
+        "byIndustry": {
+          "카페": 1
+        },
+        "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "DAOU": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": [
+          {
+            "time": "06:43",
+            "store": "카페소이두레",
+            "storeId": "728685",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 4,
+            "nps": 7,
+            "text": "잘설치해주셨어요 아직 오픈을 안했어요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
+      }
     }
   },
   "resp": {
@@ -430617,7 +430669,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-07 06:30",
+    "at": "2026-11-07 06:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430769,7 +430821,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 06:30",
+    "at": "2026-11-07 06:45",
     "pri": {
       "days": 0,
       "failed": [],
