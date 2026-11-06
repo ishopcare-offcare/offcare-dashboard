@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30537,
+  "version": 30538,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -305073,7 +305073,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "님 여기 매장코드랑 사업자 뒤에 다섯자리 알려주세여!! 님 여기 매장코드랑 사업자 뒤에 다섯자리 알려주세여!! / 아니라는데여? / ㅋㅋㅋㅋㅋㅋㅋ / 일단 완료! / 여기!!! 여기!!!",
-          "rr": 11
+          "rr": 12
         },
         {
           "time": "13:56",
@@ -309333,8 +309333,8 @@ window.SLACK_DATA = {
           "김동욱": 7
         },
         "onboarding": {
-          "심성현": 2,
-          "송태양": 2
+          "송태양": 3,
+          "심성현": 2
         },
         "booking": {
           "고경림": 1,
@@ -309399,7 +309399,20 @@ window.SLACK_DATA = {
           "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793603289210209?thread_ts=1793602270.792629&amp;cid=C09HRUSG4TX| pos8385  케이",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "rs232 연결젠더가 따로 확인이 되지않으셔서 , rj45프린터 선으로 재출고 완료 • 물건받으신후 재인입 안내완료 물건받으신후 재인입 안내완료",
+          "rr": 1
+        },
+        {
+          "time": "12:43",
+          "store": "주식회사 성지글로벌",
+          "biz": "7018603948",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "포프 온보딩 도움 부탁드리겠습니다! :woman-bowing::skin-tone-2:",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 완료입니다",
+          "rr": 1
         },
         {
           "time": "12:36",
@@ -309897,11 +309910,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 40,
+        "online": 41,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "12:51",
+      "updatedAt": "12:54",
       "voc": {
         "responses": 1,
         "install": {
@@ -310106,28 +310119,25 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793937282.101
+        "lastSeen": 1793937384.042
       },
       "1793926803.431039": {
         "post": "1793926803.431039",
-        "lastSeen": 1793937282.101,
+        "lastSeen": 1793937384.042,
         "r": 1,
         "day": "2026-11-06",
         "idx": 8
       },
       "1793935683.769579": {
         "post": "1793935683.769579",
-        "lastSeen": 1793937282.101,
+        "lastSeen": 1793937384.042,
         "r": 1,
         "day": "2026-11-06",
         "idx": 27
       },
-      "1793936596.070349": {
-        "post": "1793936596.070349",
-        "lastSeen": 1793937282.101,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 30
+      "1793937296.234559": {
+        "post": "1793937296.234559",
+        "lastSeen": 1793937384.042
       }
     },
     "days": {
@@ -427452,14 +427462,15 @@ window.SLACK_DATA = {
             "store": "주식회사 성지글로벌",
             "biz": "7018603948",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 12.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-06 12:54",
+    "at": "2026-11-06 12:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -427610,7 +427621,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 12:54",
+    "at": "2026-11-06 12:56",
     "pri": {
       "days": 0,
       "failed": [],
