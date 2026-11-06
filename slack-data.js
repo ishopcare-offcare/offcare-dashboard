@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30434,
+  "version": 30435,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309377,7 +309377,67 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:36"
+      "updatedAt": "09:45",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 1
+        },
+        "high": {
+          "install": 0,
+          "nps": 0
+        },
+        "npsDist": {
+          "0": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 1
+          }
+        },
+        "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 1
+          }
+        },
+        "reasonCounts": {
+          "구매,계약과정에서 설명이 부족": 1
+        },
+        "alerts": [
+          {
+            "time": "09:45",
+            "store": "와이비엠(YBM)잉글루신문캠퍼스학원",
+            "storeId": "574049",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "영수증나오는걸 구매해야함 가격을 임의로 넣을 수 없음",
+                "cat": "구매,계약과정에서 설명이 부족"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
+        "praises": []
+      }
     }
   },
   "resp": {
@@ -309520,11 +309580,11 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793925928.466
+        "lastSeen": 1793925995.629
       },
       "1793925419.135679": {
         "post": "1793925419.135679",
-        "lastSeen": 1793925928.466,
+        "lastSeen": 1793925995.629,
         "r": 1,
         "day": "2026-11-06",
         "idx": 3
@@ -426618,7 +426678,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:45",
+    "at": "2026-11-06 09:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426769,7 +426829,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:45",
+    "at": "2026-11-06 09:46",
     "pri": {
       "days": 0,
       "failed": [],
