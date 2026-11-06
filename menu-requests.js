@@ -3,10 +3,207 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4790,
- "updatedAt": "2026-11-06 10:07",
+ "version": 4791,
+ "updatedAt": "2026-11-06 10:09",
  "days": 30,
  "items": [
+  {
+   "ts": "1793927271.041039",
+   "date": "2026-11-06",
+   "time": "10:07",
+   "store": "도넛팜 풀담",
+   "biz": "6580503631",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261106_100622184.jpg",
+     "fid": "F0CFGV9L760",
+     "from": "댓글",
+     "path": "menu-files/1793927271_041039-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 라떼",
+       "price": 6500
+      },
+      {
+       "category": "Coffee",
+       "name": "연유라떼",
+       "price": 6500
+      },
+      {
+       "category": "Tea & Latte",
+       "name": "자몽차",
+       "price": 6000
+      },
+      {
+       "category": "Tea & Latte",
+       "name": "레몬차",
+       "price": 6000
+      },
+      {
+       "category": "Tea & Latte",
+       "name": "유자차",
+       "price": 6000
+      },
+      {
+       "category": "Tea & Latte",
+       "name": "캐모마일 / 페퍼민트",
+       "price": 6000
+      },
+      {
+       "category": "Tea & Latte",
+       "name": "녹차라떼",
+       "price": 6500
+      },
+      {
+       "category": "Tea & Latte",
+       "name": "초코라떼",
+       "price": 6500
+      },
+      {
+       "category": "Signature",
+       "name": "초록 주스 ice",
+       "price": 7000
+      },
+      {
+       "category": "Signature",
+       "name": "새싹인삼라떼 ice",
+       "price": 8000
+      },
+      {
+       "category": "Ice only",
+       "name": "복숭아 아이스티",
+       "price": 6000
+      },
+      {
+       "category": "Ice only",
+       "name": "미숫가루라떼",
+       "price": 6500
+      },
+      {
+       "category": "Ice only",
+       "name": "플레인 요거트스무디",
+       "price": 6500
+      },
+      {
+       "category": "Ice only",
+       "name": "딸기 요거트스무디",
+       "price": 6500
+      },
+      {
+       "category": "Ice only",
+       "name": "자몽에이드",
+       "price": 6500
+      },
+      {
+       "category": "Ice only",
+       "name": "레몬에이드",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "디카페인+700",
+       "price": 700
+      },
+      {
+       "category": "",
+       "name": "샷추가 +500",
+       "price": 500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "KakaoTalk_20261106_100622184_01.jpg",
+     "fid": "F0CFGVA1R1S",
+     "from": "댓글",
+     "path": "menu-files/1793927271_041039-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Pizza",
+       "name": "루꼴라 피자",
+       "price": 12900
+      },
+      {
+       "category": "Pizza",
+       "name": "페퍼로니 피자",
+       "price": 11900
+      },
+      {
+       "category": "Sandwich",
+       "name": "치아바타 사과 샌드위치",
+       "price": 12900
+      },
+      {
+       "category": "Sandwich",
+       "name": "바질 샌드위치",
+       "price": 12900
+      },
+      {
+       "category": "Salad",
+       "name": "리코타 치즈 샐러드",
+       "price": 12900
+      },
+      {
+       "category": "Salad",
+       "name": "치킨텐더 샐러드",
+       "price": 11900
+      },
+      {
+       "category": "Salad",
+       "name": "닭가슴살 샐러드",
+       "price": 11900
+      },
+      {
+       "category": "Set Menu",
+       "name": "[SET 1] 피자 택1 + 샌드위치 택1",
+       "price": 23300
+      },
+      {
+       "category": "Set Menu",
+       "name": "[SET 2] 피자 택1 + 샐러드 택1",
+       "price": 22300
+      },
+      {
+       "category": "Set Menu",
+       "name": "[SET 3] 샌드위치 택1 + 채소주스",
+       "price": 18400
+      },
+      {
+       "category": "Set Menu",
+       "name": "[SET 4] 샐러드 택1 + 채소주스",
+       "price": 17400
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793927285.328889",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793927271041039"
+  },
   {
    "ts": "1793891851.132669",
    "date": "2026-11-06",
