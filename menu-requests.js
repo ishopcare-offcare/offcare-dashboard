@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4793,
- "updatedAt": "2026-11-06 10:59",
+ "version": 4794,
+ "updatedAt": "2026-11-06 11:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1793930421.028849",
+   "date": "2026-11-06",
+   "time": "11:00",
+   "store": "100카츠",
+   "biz": "1062934212",
+   "pos": "퍼스트포스",
+   "content": "메뉴추가/ 포장할인)혼밥셋트 10900원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793930421028849"
+  },
   {
    "ts": "1793930190.706589",
    "date": "2026-11-06",
