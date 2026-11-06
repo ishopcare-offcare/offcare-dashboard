@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30435,
+  "version": 30436,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309323,11 +309323,12 @@ window.SLACK_DATA = {
     },
     "2026-11-06": {
       "counts": {
+        "as": {
+          "김동욱": 1,
+          "심성현": 1
+        },
         "onboarding": {
           "송태양": 1
-        },
-        "as": {
-          "심성현": 1
         },
         "transfer": {
           "심성현": 1
@@ -309335,6 +309336,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:36",
+          "store": "농가온 주식회사",
+          "biz": "1258184462",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "• 토플파 포스 이름 LS  Tractor - 프린터기 이름 12",
+          "hw": "",
+          "intake": "online",
+          "note": "프린터 자체 속도 변경완료. 크로스젠더조합으로 출고되었는데 프린터 시리얼 케이블 분실하심. RJ45 to 프린터 케이블 구매링크 솔라피발송",
+          "rr": 1
+        },
         {
           "time": "09:30",
           "store": "미인",
@@ -309373,11 +309386,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:45",
+      "updatedAt": "09:48",
       "voc": {
         "responses": 1,
         "install": {
@@ -309580,14 +309593,11 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793925995.629
+        "lastSeen": 1793926105.988
       },
-      "1793925419.135679": {
-        "post": "1793925419.135679",
-        "lastSeen": 1793925995.629,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 3
+      "1793926092.009339": {
+        "post": "1793926092.009339",
+        "lastSeen": 1793926105.988
       }
     },
     "days": {
@@ -426671,14 +426681,15 @@ window.SLACK_DATA = {
             "store": "농가온 주식회사",
             "biz": "1258184462",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:47",
+    "at": "2026-11-06 09:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426829,7 +426840,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:46",
+    "at": "2026-11-06 09:48",
     "pri": {
       "days": 0,
       "failed": [],
