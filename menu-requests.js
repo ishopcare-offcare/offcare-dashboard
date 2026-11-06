@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4836,
- "updatedAt": "2026-11-06 17:08",
+ "version": 4837,
+ "updatedAt": "2026-11-06 17:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1793952987.438059",
+   "date": "2026-11-06",
+   "time": "17:16",
+   "store": "상담카페 숨쉼",
+   "biz": "3360501465",
+   "pos": "토스포스",
+   "content": "카페 메뉴에 제주수제청귤밀크티가 누락됬습니다. 제주수제청귤밀크티 7500원입니다. 그리고 청소년 20% 할인 적용은 카페 메뉴에 한해서입니다. 상담메뉴는 적용이 안됩니다. 감사합니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793952987438059"
+  },
   {
    "ts": "1793952220.870019",
    "date": "2026-11-06",
