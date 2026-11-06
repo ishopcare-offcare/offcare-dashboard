@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30430,
+  "version": 30431,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309504,18 +309504,21 @@ window.SLACK_DATA = {
       },
       "1793922301.708169": {
         "post": "1793922301.708169",
-        "lastSeen": 1793925441.98,
+        "lastSeen": 1793925524.128,
         "r": 1,
         "day": "2026-11-06",
         "idx": 0
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793925441.98
+        "lastSeen": 1793925524.128
       },
       "1793925419.135679": {
         "post": "1793925419.135679",
-        "lastSeen": 1793925441.98
+        "lastSeen": 1793925524.128,
+        "r": 1,
+        "day": "2026-11-06",
+        "idx": 3
       }
     },
     "days": {
@@ -426562,8 +426565,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-06": {
-        "cnt": 3,
-        "sumMin": 18.54894421497981,
+        "cnt": 4,
+        "sumMin": 19.614249563217165,
         "over": 0,
         "items": [
           {
@@ -426591,13 +426594,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "onboarding",
             "dmin": 2.8
+          },
+          {
+            "hm": "09:36",
+            "min": 1.1,
+            "store": "농가온 주식회사",
+            "biz": "1258184462",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:37",
+    "at": "2026-11-06 09:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426748,7 +426759,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:37",
+    "at": "2026-11-06 09:38",
     "pri": {
       "days": 0,
       "failed": [],
