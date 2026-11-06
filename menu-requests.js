@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4834,
- "updatedAt": "2026-11-06 16:59",
+ "version": 4835,
+ "updatedAt": "2026-11-06 17:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1793952220.870019",
+   "date": "2026-11-06",
+   "time": "17:03",
+   "store": "상담카페 숨쉼",
+   "biz": "3360501465",
+   "pos": "토스포스",
+   "content": "메뉴 등록이 성공적으로 이루어져 감사합니다.\n\n여기에 청소년 전메뉴 20% 할인을 하고 싶은데 결제시 자동으로 가능한가요? 아니면 일일이 다시 해야하나요?\n\n추가로 요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793952220870019"
+  },
   {
    "ts": "1793950870.914379",
    "date": "2026-11-06",
