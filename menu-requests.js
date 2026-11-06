@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4823,
- "updatedAt": "2026-11-06 16:20",
+ "version": 4824,
+ "updatedAt": "2026-11-06 16:25",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CFHDDFXU1",
      "from": "댓글",
-     "path": "menu-files/1793949419_291969-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -52,13 +51,13 @@ window.MENU_REQUESTS = {
        "price": 10000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793949419_291969-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CFHDES0U9",
      "from": "댓글",
-     "path": "menu-files/1793949419_291969-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -172,13 +171,13 @@ window.MENU_REQUESTS = {
        "price": 16900
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793949419_291969-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CFFB6RS1G",
      "from": "댓글",
-     "path": "menu-files/1793949419_291969-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -302,13 +301,16 @@ window.MENU_REQUESTS = {
        "price": 1500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1793949419_291969-2.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1793949463.275589",
+   "replies": [
+    "완료"
+   ],
+   "rc": 4,
+   "lr": "1793949919.797749",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
