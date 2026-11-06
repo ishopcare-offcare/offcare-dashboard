@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4806,
- "updatedAt": "2026-11-06 13:11",
+ "version": 4807,
+ "updatedAt": "2026-11-06 13:29",
  "days": 30,
  "items": [
   {
@@ -67671,27 +67671,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791360499253639"
-  },
-  {
-   "ts": "1791347339.272849",
-   "date": "2026-10-07",
-   "time": "13:28",
-   "store": "(봉명동)(주) 형과아우",
-   "biz": "1398802492",
-   "pos": "오케이포스",
-   "content": "프로그램 : 오케이포스\n흑염소탕(보통) 15,000 원\n특대앞쪽에 추가 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 16,
-   "lr": "1791358208.881689",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791347339272849"
   }
  ],
  "ocr": {
