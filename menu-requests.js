@@ -3,33 +3,10 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4853,
- "updatedAt": "2026-11-06 18:43",
+ "version": 4854,
+ "updatedAt": "2026-11-06 18:45",
  "days": 30,
  "items": [
-  {
-   "ts": "1793958179.363019",
-   "date": "2026-11-06",
-   "time": "18:42",
-   "store": "밀집모자",
-   "biz": "8921202768",
-   "pos": "퍼스트포스",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "유플러스매장 -> 토스포스 전환건 메뉴 및 테이블 설정요청\n차주 매장이전으로 방문설치예정"
-   ],
-   "rc": 1,
-   "lr": "1793958199.590299",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793958179363019"
-  },
   {
    "ts": "1793955038.857439",
    "date": "2026-11-06",
