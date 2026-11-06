@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30534,
+  "version": 30535,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309323,6 +309323,9 @@ window.SLACK_DATA = {
     },
     "2026-11-06": {
       "counts": {
+        "extern": {
+          "김동욱": 1
+        },
         "onboarding": {
           "심성현": 2,
           "송태양": 2
@@ -309342,7 +309345,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "transfer": {
-          "심성현": 3,
+          "심성현": 4,
           "김동욱": 1
         },
         "menu": {
@@ -309350,6 +309353,18 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
+        {
+          "time": "11:49",
+          "store": "대박곱창",
+          "biz": "4960101357",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online",
+          "req": "명석님지원",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        },
         {
           "time": "10:07",
           "store": "도넛팜 풀담",
@@ -309365,6 +309380,17 @@ window.SLACK_DATA = {
       ],
       "done": [
         {
+          "time": "12:51",
+          "store": "오늘이라면",
+          "biz": "5484501370",
+          "cat": "extern",
+          "emp": "김동욱",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
           "time": "12:36",
           "store": "아트랑스미술학원",
           "biz": "6209106427",
@@ -309374,6 +309400,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "온보딩 완료",
+          "rr": 1
+        },
+        {
+          "time": "12:30",
+          "store": "임미원김밥",
+          "biz": "5604001531",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "11월 6일 오후 1시 / 메뉴복사 O / 프론트, 태블릿, 유프, 금전함",
+          "hw": "",
+          "intake": "online",
+          "note": "",
           "rr": 1
         },
         {
@@ -309848,11 +309886,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 36,
+        "online": 39,
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "12:44",
+      "updatedAt": "12:51",
       "voc": {
         "responses": 1,
         "install": {
@@ -310057,39 +310095,32 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793936796.724
+        "lastSeen": 1793937080.503
       },
       "1793926803.431039": {
         "post": "1793926803.431039",
-        "lastSeen": 1793936796.724,
+        "lastSeen": 1793937080.503,
         "r": 1,
         "day": "2026-11-06",
         "idx": 8
       },
       "1793935683.769579": {
         "post": "1793935683.769579",
-        "lastSeen": 1793936796.724,
+        "lastSeen": 1793937080.503,
         "r": 1,
         "day": "2026-11-06",
         "idx": 27
       },
-      "1793935801.192459": {
-        "post": "1793935801.192459",
-        "lastSeen": 1793936796.724,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 28
-      },
       "1793936596.070349": {
         "post": "1793936596.070349",
-        "lastSeen": 1793936796.724,
+        "lastSeen": 1793937080.503,
         "r": 1,
         "day": "2026-11-06",
         "idx": 30
       },
       "1793936678.068499": {
         "post": "1793936678.068499",
-        "lastSeen": 1793936796.724,
+        "lastSeen": 1793937080.503,
         "r": 1,
         "day": "2026-11-06",
         "idx": 29
@@ -427399,7 +427430,8 @@ window.SLACK_DATA = {
             "store": "임미원김밥",
             "biz": "5604001531",
             "who": "심성현",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 19
           },
           {
             "hm": "12:44",
@@ -427422,7 +427454,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 12:47",
+    "at": "2026-11-06 12:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -427573,7 +427605,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 12:46",
+    "at": "2026-11-06 12:51",
     "pri": {
       "days": 0,
       "failed": [],

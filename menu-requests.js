@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4801,
- "updatedAt": "2026-11-06 12:36",
+ "version": 4802,
+ "updatedAt": "2026-11-06 12:51",
  "days": 30,
  "items": [
   {
@@ -67692,29 +67692,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791346069346869"
-  },
-  {
-   "ts": "1791345030.170369",
-   "date": "2026-10-07",
-   "time": "12:50",
-   "store": "살마니감자탕",
-   "biz": "4140764764",
-   "pos": "토스포스",
-   "content": "x",
-   "special": "살마니감자탕 풍무점 메뉴 복사 부탁드립니다",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "여기 메뉴 옵션도 없고 이미지도 없어서 엑셀로 진행"
-   ],
-   "rc": 1,
-   "lr": "1791345238.397839",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791345030170369"
   }
  ],
  "ocr": {
