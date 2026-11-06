@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30424,
+  "version": 30425,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309322,11 +309322,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-11-06": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "심성현": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:00",
+          "store": "젤리즈펫",
+          "biz": "8051400533",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "컬러 용지를 넣으면 프린터 에러가 나고,  일반 용지를 넣으면 정상적이라고 함 &gt;  점검 요청 드립니다! 참고로 용지 색상은 노랑색입니다..!",
+          "hw": "",
+          "intake": "online",
+          "note": "롤러 제거 후 정상 / 8385",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -309473,21 +309490,14 @@ window.SLACK_DATA = {
       },
       "1793922301.708169": {
         "post": "1793922301.708169",
-        "lastSeen": 1793923371.877,
+        "lastSeen": 1793923568.104,
         "r": 1,
         "day": "2026-11-06",
         "idx": 0
       },
-      "1793923205.539529": {
-        "post": "1793923205.539529",
-        "lastSeen": 1793923371.877,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 1
-      },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793923371.877
+        "lastSeen": 1793923568.104
       }
     },
     "days": {
@@ -426552,14 +426562,15 @@ window.SLACK_DATA = {
             "store": "젤리즈펫",
             "biz": "8051400533",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 4.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:03",
+    "at": "2026-11-06 09:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426710,7 +426721,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:02",
+    "at": "2026-11-06 09:06",
     "pri": {
       "days": 0,
       "failed": [],
