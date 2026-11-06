@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4820,
- "updatedAt": "2026-11-06 15:12",
+ "version": 4821,
+ "updatedAt": "2026-11-06 15:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1793947954.007779",
+   "date": "2026-11-06",
+   "time": "15:52",
+   "store": "상담카페 숨쉼",
+   "biz": "3360501465",
+   "pos": "토스포스",
+   "content": "아래에 메뉴 파일 첨부합니다.",
+   "special": "상담카페 숨:쉼은 상담과 카페가 공존하는 복합공간입니다.",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793947954007779"
+  },
   {
    "ts": "1793944930.592619",
    "date": "2026-11-06",
