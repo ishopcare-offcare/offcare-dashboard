@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30536,
+  "version": 30537,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309326,15 +309326,15 @@ window.SLACK_DATA = {
         "extern": {
           "김동욱": 1
         },
-        "onboarding": {
-          "심성현": 2,
-          "송태양": 2
-        },
         "as": {
-          "고경림": 6,
+          "고경림": 7,
           "송태양": 4,
           "심성현": 8,
           "김동욱": 7
+        },
+        "onboarding": {
+          "심성현": 2,
+          "송태양": 2
         },
         "booking": {
           "고경림": 1,
@@ -309386,6 +309386,17 @@ window.SLACK_DATA = {
           "cat": "extern",
           "emp": "김동욱",
           "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "12:44",
+          "store": "동해김밥",
+          "biz": "3662402146",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793603289210209?thread_ts=1793602270.792629&amp;cid=C09HRUSG4TX| pos8385  케이",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -309886,7 +309897,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 39,
+        "online": 40,
         "offline": 6,
         "unknown": 0
       },
@@ -310095,35 +310106,28 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793937153.828
+        "lastSeen": 1793937282.101
       },
       "1793926803.431039": {
         "post": "1793926803.431039",
-        "lastSeen": 1793937153.828,
+        "lastSeen": 1793937282.101,
         "r": 1,
         "day": "2026-11-06",
         "idx": 8
       },
       "1793935683.769579": {
         "post": "1793935683.769579",
-        "lastSeen": 1793937153.828,
+        "lastSeen": 1793937282.101,
         "r": 1,
         "day": "2026-11-06",
         "idx": 27
       },
       "1793936596.070349": {
         "post": "1793936596.070349",
-        "lastSeen": 1793937153.828,
+        "lastSeen": 1793937282.101,
         "r": 1,
         "day": "2026-11-06",
         "idx": 30
-      },
-      "1793936678.068499": {
-        "post": "1793936678.068499",
-        "lastSeen": 1793937153.828,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 29
       }
     },
     "days": {
@@ -427439,7 +427443,8 @@ window.SLACK_DATA = {
             "store": "동해김밥",
             "biz": "3662402146",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 9
           },
           {
             "hm": "12:43",
@@ -427454,13 +427459,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 12:53",
+    "at": "2026-11-06 12:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4916,
+    "rows": 4917,
     "named": 1273,
     "unknownName": 333,
     "beforeStart": 0,
@@ -427605,7 +427610,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 12:52",
+    "at": "2026-11-06 12:54",
     "pri": {
       "days": 0,
       "failed": [],
