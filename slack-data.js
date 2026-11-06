@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30436,
+  "version": 30437,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309390,7 +309390,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:48",
+      "updatedAt": "09:49",
       "voc": {
         "responses": 1,
         "install": {
@@ -309593,11 +309593,14 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793926105.988
+        "lastSeen": 1793926201.3
       },
       "1793926092.009339": {
         "post": "1793926092.009339",
-        "lastSeen": 1793926105.988
+        "lastSeen": 1793926201.3,
+        "r": 1,
+        "day": "2026-11-06",
+        "idx": 4
       }
     },
     "days": {
@@ -426644,8 +426647,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-06": {
-        "cnt": 4,
-        "sumMin": 19.614249563217165,
+        "cnt": 5,
+        "sumMin": 20.641493912537893,
         "over": 0,
         "items": [
           {
@@ -426683,13 +426686,21 @@ window.SLACK_DATA = {
             "who": "김동욱",
             "cat": "as",
             "dmin": 10.5
+          },
+          {
+            "hm": "09:48",
+            "min": 1,
+            "store": "쏭띠앤브레드",
+            "biz": "5044115139",
+            "who": "심성현",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-06 09:49",
+    "at": "2026-11-06 09:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -426840,7 +426851,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 09:48",
+    "at": "2026-11-06 09:50",
     "pri": {
       "days": 0,
       "failed": [],
