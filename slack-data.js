@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30542,
+  "version": 30543,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309325,6 +309325,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "서상원": 1,
+          "김규빈": 1,
           "고경림": 7,
           "송태양": 4,
           "심성현": 8,
@@ -309391,6 +309392,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "터프로 연결요청",
           "rr": 1
+        },
+        {
+          "time": "12:54",
+          "store": "바우버터아틀리에",
+          "biz": "3748503128",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "개인소유 포스기 사용중",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
         },
         {
           "time": "12:51",
@@ -309924,7 +309936,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 42,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
       "updatedAt": "12:59",
@@ -310132,28 +310144,21 @@ window.SLACK_DATA = {
       },
       "1793923258.343199": {
         "post": "1793923258.343199",
-        "lastSeen": 1793937895.757
+        "lastSeen": 1793937979.046
       },
       "1793926803.431039": {
         "post": "1793926803.431039",
-        "lastSeen": 1793937895.757,
+        "lastSeen": 1793937979.046,
         "r": 1,
         "day": "2026-11-06",
         "idx": 8
       },
       "1793935683.769579": {
         "post": "1793935683.769579",
-        "lastSeen": 1793937895.757,
+        "lastSeen": 1793937979.046,
         "r": 1,
         "day": "2026-11-06",
         "idx": 27
-      },
-      "1793937296.234559": {
-        "post": "1793937296.234559",
-        "lastSeen": 1793937895.757,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 31
       }
     },
     "days": {
@@ -427487,7 +427492,8 @@ window.SLACK_DATA = {
             "store": "바우버터아틀리에",
             "biz": "3748503128",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10.7
           },
           {
             "hm": "12:59",
@@ -427503,7 +427509,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-06 13:05",
+    "at": "2026-11-06 13:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -427654,7 +427660,7 @@ window.SLACK_DATA = {
     "2026-11-06": 2
   },
   "noteMig": {
-    "at": "2026-11-06 13:04",
+    "at": "2026-11-06 13:06",
     "pri": {
       "days": 0,
       "failed": [],
