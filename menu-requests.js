@@ -3,10 +3,157 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4840,
- "updatedAt": "2026-11-06 17:36",
+ "version": 4841,
+ "updatedAt": "2026-11-06 17:39",
  "days": 30,
  "items": [
+  {
+   "ts": "1793954330.189669",
+   "date": "2026-11-06",
+   "time": "17:38",
+   "store": "마엘메종",
+   "biz": "6710403812",
+   "pos": "",
+   "content": "메뉴등록요청으로 공유드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CF0PK6PU7",
+     "from": "댓글",
+     "path": "menu-files/1793954330_189669-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "MAISON SIGNATURES",
+       "name": "Maison Blend 메종 블렌드 시그니처 아메리카노",
+       "price": 3800
+      },
+      {
+       "category": "MAISON SIGNATURES",
+       "name": "Decaf Americano 디카페인 아메리카노",
+       "price": 4300
+      },
+      {
+       "category": "MAISON SIGNATURES",
+       "name": "Black Mael Latte ICE ONLY 블랙 마엘 라떼 시그니처 라떼",
+       "price": 5500
+      },
+      {
+       "category": "SWEET MAISON",
+       "name": "TODAY'S CAKE 오늘의 케이크",
+       "price": 8500
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Gold Vanilla Latte 골드 바닐라 라떼",
+       "price": 5500
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Condensed Milk Latte 연유 라떼",
+       "price": 5500
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Hazelnut Latte 헤이즐넛 라떼",
+       "price": 5500
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Butter Cream Latte 버터 크림 라떼",
+       "price": 6000
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Peanut Cream Latte 피넛 크림 라떼",
+       "price": 6000
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Einspanner 아인슈페너",
+       "price": 6000
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Chocolate Latte 초콜릿 라떼",
+       "price": 6000
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Matcha Latte 말차 라떼",
+       "price": 6000
+      },
+      {
+       "category": "MAISON LATTE ATELIER",
+       "name": "Strawberry Latte 딸기 라떼",
+       "price": 6000
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Earl Grey Tea 얼그레이 티",
+       "price": 4000
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Chamomile Tea 캐모마일 티",
+       "price": 4000
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Peppermint Tea 페퍼민트 티",
+       "price": 4000
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Yuzu Tea 유자차",
+       "price": 4500
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Lemon Tea 레몬차",
+       "price": 4500
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Grapefruit Tea 자몽차",
+       "price": 4500
+      },
+      {
+       "category": "TEA EDITIONS",
+       "name": "Peach Iced Tea ICE ONLY 복숭아 아이스티 아이스 전용",
+       "price": 4500
+      },
+      {
+       "category": "MAISON ADE",
+       "name": "Lemon Ade 레몬 에이드",
+       "price": 4500
+      },
+      {
+       "category": "MAISON ADE",
+       "name": "Grapefruit Ade 자몽 에이드",
+       "price": 4500
+      },
+      {
+       "category": "MAISON ADE",
+       "name": "Yuja Ade 유자 에이드",
+       "price": 4500
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1793954336.144529",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1793954330189669"
+  },
   {
    "ts": "1793954092.920689",
    "date": "2026-11-06",
