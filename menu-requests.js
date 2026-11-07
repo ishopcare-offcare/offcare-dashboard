@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4877,
- "updatedAt": "2026-11-07 16:06",
+ "version": 4878,
+ "updatedAt": "2026-11-07 16:27",
  "days": 30,
  "items": [
   {
@@ -65137,29 +65137,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791444965194299"
-  },
-  {
-   "ts": "1791444440.943789",
-   "date": "2026-10-08",
-   "time": "16:27",
-   "store": "과천빙상장스케이트날정비코너",
-   "biz": "2875800457",
-   "pos": "오케이포스",
-   "content": "오케이포스 사용 메뉴 삭제 및 수정 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "스피드보급화 10,000원 삭제\n피겨 13,000원 삭제\n보급화 주1회 30,000원 삭제\n\n새날 보급화 피겨 15,000원 바로 옆칸으로 자리 이동\n스피드 쇼트 선수화 바로 옆칸 이동\n\n피겨프레스 15,000원 금액 수정"
-   ],
-   "rc": 4,
-   "lr": "1791447684.027009",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791444440943789"
   }
  ],
  "ocr": {
