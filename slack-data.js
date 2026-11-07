@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30919,
+  "version": 30920,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,6 +311979,7 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
+          "미지정": 1,
           "김현기": 13
         },
         "menu": {
@@ -311987,6 +311988,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:03",
+          "store": "송헤어샵(song’s hair #)",
+          "biz": "7100301581",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "포프(아이패드) 온보딩 요청 드립니다! / <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793929530125769|이 때> 교체 받으신 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 2
+        },
         {
           "time": "11:12",
           "store": "콘테 (Con Te)",
@@ -312158,7 +312171,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 1,
         "unknown": 0
       },
@@ -312352,11 +312365,7 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794024708.504
-      },
-      "1794024190.866109": {
-        "post": "1794024190.866109",
-        "lastSeen": 1794024708.504
+        "lastSeen": 1794024792.079
       }
     },
     "days": {
@@ -430823,8 +430832,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-07": {
-        "cnt": 11,
-        "sumMin": 133.72378834088644,
+        "cnt": 12,
+        "sumMin": 143.04754486083985,
         "over": 1,
         "items": [
           {
@@ -430925,13 +430934,22 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 52.7
+          },
+          {
+            "hm": "13:03",
+            "min": 9.3,
+            "store": "송헤어샵(song’s hair #)",
+            "biz": "7100301581",
+            "who": "",
+            "cat": "as",
+            "dmin": 9.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 13:12",
+    "at": "2026-11-07 13:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431083,7 +431101,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 13:11",
+    "at": "2026-11-07 13:13",
     "pri": {
       "days": 0,
       "failed": [],
