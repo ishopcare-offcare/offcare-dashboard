@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4871,
- "updatedAt": "2026-11-07 13:51",
+ "version": 4872,
+ "updatedAt": "2026-11-07 14:26",
  "days": 30,
  "items": [
   {
@@ -66014,82 +66014,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791438171694879"
-  },
-  {
-   "ts": "1791437181.186319",
-   "date": "2026-10-08",
-   "time": "14:26",
-   "store": "장가린짬뽕",
-   "biz": "2820403892",
-   "pos": "",
-   "content": "하이오더용 선불테이블 6대 생성 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C7727BYBH",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": []
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C9RS24KS5",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "선불",
-       "name": "선불01",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불02",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불03",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불04",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불05",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불06",
-       "price": 0,
-       "pt": "u"
-      }
-     ],
-     "v": 2
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "감사합니다! :최고최고:"
-   ],
-   "rc": 12,
-   "lr": "1792117208.392229",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791437181186319"
   }
  ],
  "ocr": {
