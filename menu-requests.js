@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4876,
- "updatedAt": "2026-11-07 16:03",
+ "version": 4877,
+ "updatedAt": "2026-11-07 16:06",
  "days": 30,
  "items": [
   {
@@ -21,7 +21,63 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1_ZY49__q0afROlUBkSAQh6FUtLRRzPp-/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CFA4TCYMV",
+     "from": "댓글",
+     "path": "menu-files/1794034956_922529-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "이용권",
+       "name": "1회",
+       "price": 40000
+      },
+      {
+       "category": "이용권",
+       "name": "5+1회",
+       "price": 200000
+      },
+      {
+       "category": "이용권",
+       "name": "5+1회 (14일 이내)",
+       "price": 190000
+      },
+      {
+       "category": "이용권",
+       "name": "10+2회",
+       "price": 390000
+      },
+      {
+       "category": "이용권",
+       "name": "10+2회 (30일 이내)",
+       "price": 370000
+      },
+      {
+       "category": "할인 혜택 한눈에 보기",
+       "name": "5+1회",
+       "price": 40000
+      },
+      {
+       "category": "할인 혜택 한눈에 보기",
+       "name": "5+1회 (14일 이내)",
+       "price": 50000
+      },
+      {
+       "category": "할인 혜택 한눈에 보기",
+       "name": "10+2회",
+       "price": 90000
+      },
+      {
+       "category": "할인 혜택 한눈에 보기",
+       "name": "10+2회 (30일 이내)",
+       "price": 110000
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [
     {
      "id": "1KROIWZhTrnxezLq6DRdiTyZ6Y1Spj_3O",
@@ -89,11 +145,11 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794035127.900029",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794034956922529"
   },
   {
