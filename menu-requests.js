@@ -3,10 +3,99 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4875,
- "updatedAt": "2026-11-07 16:00",
+ "version": 4876,
+ "updatedAt": "2026-11-07 16:03",
  "days": 30,
  "items": [
+  {
+   "ts": "1794034956.922529",
+   "date": "2026-11-07",
+   "time": "16:02",
+   "store": "히르엘르",
+   "biz": "2627800591",
+   "pos": "토스포스",
+   "content": "매뉴등록부탁드립니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1KROIWZhTrnxezLq6DRdiTyZ6Y1Spj_3O/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1_ZY49__q0afROlUBkSAQh6FUtLRRzPp-/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1KROIWZhTrnxezLq6DRdiTyZ6Y1Spj_3O",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "바이오포톤",
+       "name": "1회",
+       "price": 40000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "5+1회",
+       "price": 200000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "5+1회 (14일 이내)",
+       "price": 190000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "10+2회",
+       "price": 390000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "10+2회 (30일 이내)",
+       "price": 370000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1_ZY49__q0afROlUBkSAQh6FUtLRRzPp-",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "바이오포톤",
+       "name": "1회",
+       "price": 40000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "5+1회",
+       "price": 200000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "5+1회 (14일 이내)",
+       "price": 190000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "10+2회",
+       "price": 390000
+      },
+      {
+       "category": "바이오포톤",
+       "name": "10+2회 (30일 이내)",
+       "price": 370000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794034956922529"
+  },
   {
    "ts": "1794011437.673899",
    "date": "2026-11-07",
