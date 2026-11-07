@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30879,
+  "version": 30880,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,7 +311979,7 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "김현기": 3
+          "김현기": 4
         },
         "menu": {
           "김현기": 1
@@ -311987,6 +311987,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:56",
+          "store": "리프앤바이트(LEAF&amp;BITE)",
+          "biz": "3040995469",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "결제 후 영수증 안나오신다고 확인 요청주셨습니다. 취소 영수증은 자동으로 나온다고 하십니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "로고 삽입 후 프린터 속도 변경이 안되어 있었음 속도 변경 후 정상 출력 확인",
+          "rr": 1
+        },
         {
           "time": "09:30",
           "store": "붕어이모카세",
@@ -312037,7 +312049,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
@@ -312256,11 +312268,14 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794013241.646
+        "lastSeen": 1794013520.406
       },
       "1794013069.829039": {
         "post": "1794013069.829039",
-        "lastSeen": 1794013241.646
+        "lastSeen": 1794013520.406,
+        "r": 1,
+        "day": "2026-11-07",
+        "idx": 3
       }
     },
     "days": {
@@ -430727,8 +430742,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-07": {
-        "cnt": 3,
-        "sumMin": 14.394734712441764,
+        "cnt": 4,
+        "sumMin": 19.58135072787603,
         "over": 0,
         "items": [
           {
@@ -430757,13 +430772,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "menu",
             "dmin": 9.4
+          },
+          {
+            "hm": "09:57",
+            "min": 5.2,
+            "store": "신상마켓",
+            "biz": "3060650924",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 10:00",
+    "at": "2026-11-07 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430915,7 +430938,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 10:00",
+    "at": "2026-11-07 10:05",
     "pri": {
       "days": 0,
       "failed": [],
