@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30977,
+  "version": 30978,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312326,32 +312326,40 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:11",
+      "updatedAt": "15:16",
       "voc": {
-        "responses": 3,
+        "responses": 5,
         "install": {
-          "count": 1,
-          "low": 0
+          "count": 3,
+          "low": 1
         },
         "nps": {
-          "count": 3,
-          "low": 0
+          "count": 5,
+          "low": 1
         },
         "high": {
-          "install": 0,
-          "nps": 2
+          "install": 1,
+          "nps": 3
         },
         "npsDist": {
+          "0": 1,
           "7": 1,
-          "10": 2
+          "10": 3
         },
         "installDist": {
-          "4": 1
+          "1": 1,
+          "4": 1,
+          "5": 1
         },
         "byIndustry": {
+          "도소매": 2,
           "카페": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 1
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -312359,13 +312367,17 @@ window.SLACK_DATA = {
           "12개월": {
             "total": 1,
             "low": 0
-          },
-          "구매설치": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 1
+          },
+          "KPN": {
+            "total": 1,
+            "low": 0
+          },
           "KIS": {
             "total": 2,
             "low": 0
@@ -312375,8 +312387,40 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1,
+          "고객센터 연락이 매우 힘듦": 1
+        },
+        "alerts": [
+          {
+            "time": "15:16",
+            "store": "바디앤짐(화곡점)",
+            "storeId": "735609",
+            "industry": "도소매",
+            "indBucket": "도소매",
+            "install": 1,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "설치전에는 콜백 답장이 빠르지만 설치 문의 연락에는 어떤 문자답장이나 전화재수신이 없음",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              },
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "사기전에만 고객 배송오면 응대 미룸",
+                "cat": "고객센터 연락이 매우 힘듦"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "06:43",
@@ -312521,18 +312565,18 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794032113.313
+        "lastSeen": 1794032176.21
       },
       "1794024915.741889": {
         "post": "1794024915.741889",
-        "lastSeen": 1794032113.313,
+        "lastSeen": 1794032176.21,
         "r": 1,
         "day": "2026-11-07",
         "idx": 12
       },
       "1794025010.804759": {
         "post": "1794025010.804759",
-        "lastSeen": 1794032113.313
+        "lastSeen": 1794032176.21
       },
       "1794026942.011679": {
         "post": "1794026942.011679",
@@ -312540,11 +312584,11 @@ window.SLACK_DATA = {
       },
       "1794027600.862669": {
         "post": "1794027600.862669",
-        "lastSeen": 1794032113.313
+        "lastSeen": 1794032176.21
       },
       "1794031250.913959": {
         "post": "1794031250.913959",
-        "lastSeen": 1794032113.313
+        "lastSeen": 1794032176.21
       }
     },
     "days": {
@@ -431199,7 +431243,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-07 15:15",
+    "at": "2026-11-07 15:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431351,7 +431395,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 15:15",
+    "at": "2026-11-07 15:16",
     "pri": {
       "days": 0,
       "failed": [],
