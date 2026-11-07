@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4883,
- "updatedAt": "2026-11-07 17:43",
+ "version": 4884,
+ "updatedAt": "2026-11-07 18:23",
  "days": 30,
  "items": [
   {
@@ -64100,53 +64100,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791451641161039"
-  },
-  {
-   "ts": "1791451156.289209",
-   "date": "2026-10-08",
-   "time": "18:19",
-   "store": "실타래(Siltarae)",
-   "biz": "5433201716",
-   "pos": "",
-   "content": "",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "상기 건 빠른 반영 요청주시어 한번 더 전달드립니다 감사합니다 :bow:",
-    "도움주셔서 감사합니다!!"
-   ],
-   "rc": 5,
-   "lr": "1791451922.951089",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791451156289209"
-  },
-  {
-   "ts": "1791451131.213369",
-   "date": "2026-10-08",
-   "time": "18:18",
-   "store": "과천시민회관빙상장스케이트날정비코너",
-   "biz": "2875800457",
-   "pos": "오케이포스",
-   "content": "보급화주2회(월8회)\n피겨주1회(월30,000)\n왼쪽 빈칸으로 붙여 주세요\n새날(보급화 피겨) 15,000\n스피드(쇼트선수화)12,000\n피겨프레스 15,000을왼쪽 두칸 이동해서 붙여 주세요",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "터치키 수정"
-   ],
-   "rc": 1,
-   "lr": "1791458203.249439",
-   "rfx": 3,
-   "status": "done",
-   "handler": "서상원",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791451131213369"
   }
  ],
  "ocr": {
