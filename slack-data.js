@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30887,
+  "version": 30888,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,7 +311979,7 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "김현기": 5
+          "김현기": 6
         },
         "menu": {
           "김현기": 1
@@ -311987,6 +311987,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:19",
+          "store": "돈아당",
+          "biz": "6220336973",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포스기에서 마우스 클릭 및 입력이 안된다고 하시어 점검 요청 드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "게스트로 켜져있음 j6412 실행중",
+          "rr": 1
+        },
         {
           "time": "09:57",
           "store": "신상마켓",
@@ -312062,7 +312074,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 6,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "10:39",
@@ -312273,15 +312285,18 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794015562.077
+        "lastSeen": 1794015812.05
       },
       "1794015306.434769": {
         "post": "1794015306.434769",
-        "lastSeen": 1794015562.077
+        "lastSeen": 1794015812.05,
+        "r": 1,
+        "day": "2026-11-07",
+        "idx": 4
       },
       "1794015544.666799": {
         "post": "1794015544.666799",
-        "lastSeen": 1794015562.077
+        "lastSeen": 1794015812.05
       }
     },
     "days": {
@@ -430748,8 +430763,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-07": {
-        "cnt": 4,
-        "sumMin": 19.58135072787603,
+        "cnt": 5,
+        "sumMin": 25.9251629114151,
         "over": 0,
         "items": [
           {
@@ -430787,13 +430802,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 12.2
+          },
+          {
+            "hm": "10:35",
+            "min": 6.3,
+            "store": "금강농원",
+            "biz": "3080649234",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 10:39",
+    "at": "2026-11-07 10:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430945,7 +430968,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 10:39",
+    "at": "2026-11-07 10:43",
     "pri": {
       "days": 0,
       "failed": [],
