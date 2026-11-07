@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30906,
+  "version": 30907,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,7 +311979,7 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "김현기": 11
+          "김현기": 12
         },
         "menu": {
           "김현기": 1
@@ -311998,6 +311998,18 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "아이폰 자체 설정에서 호환성 최대화 on 후 프론트 연결 완료 / 금액입력모드 설정 완료",
+          "rr": 1
+        },
+        {
+          "time": "11:00",
+          "store": "오늘반찬",
+          "biz": "5191103017",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포프(태블릿) + 유프 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트 내 유프 설정 빠져있었음 / 설정 후 정상 출력",
           "rr": 1
         },
         {
@@ -312134,7 +312146,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 1,
         "unknown": 0
       },
@@ -312328,18 +312340,11 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794018185.871
-      },
-      "1794016801.013019": {
-        "post": "1794016801.013019",
-        "lastSeen": 1794018185.871,
-        "r": 1,
-        "day": "2026-11-07",
-        "idx": 9
+        "lastSeen": 1794018359.243
       },
       "1794016800.341329": {
         "post": "1794016800.341329",
-        "lastSeen": 1794018185.871
+        "lastSeen": 1794018359.243
       }
     },
     "days": {
@@ -430897,14 +430902,15 @@ window.SLACK_DATA = {
             "store": "오늘반찬",
             "biz": "5191103017",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 24.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 11:24",
+    "at": "2026-11-07 11:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431056,7 +431062,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 11:23",
+    "at": "2026-11-07 11:25",
     "pri": {
       "days": 0,
       "failed": [],
