@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4879,
- "updatedAt": "2026-11-07 16:36",
+ "version": 4880,
+ "updatedAt": "2026-11-07 16:43",
  "days": 30,
  "items": [
   {
@@ -64639,40 +64639,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791445742490879"
-  },
-  {
-   "ts": "1791445413.738239",
-   "date": "2026-10-08",
-   "time": "16:43",
-   "store": "산척 돈까스",
-   "biz": "3802902225",
-   "pos": "",
-   "content": "스마트로꺼 테이블 메뉴복사",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C7J29175K",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "path": "menu-files/1791445413_738239-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "먼저해줘 외주",
-    "토플파 복사",
-    "smt > kis"
-   ],
-   "rc": 11,
-   "lr": "1791445938.097419",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791445413738239"
   }
  ],
  "ocr": {
