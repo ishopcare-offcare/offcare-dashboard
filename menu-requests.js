@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4861,
- "updatedAt": "2026-11-07 09:58",
+ "version": 4862,
+ "updatedAt": "2026-11-07 10:14",
  "days": 30,
  "items": [
   {
@@ -67859,68 +67859,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791423126373729"
-  },
-  {
-   "ts": "1791421741.756999",
-   "date": "2026-10-08",
-   "time": "10:09",
-   "store": "영종바다다",
-   "biz": "3810203837",
-   "pos": "토스포스",
-   "content": "배달의민족. 오늘은새우회\n영종도점의..\n메뉴를그대루. 영종바다다 포수기에넣어주세요",
-   "special": "배달의민족. 오늘은새우회",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "Screenshot_20261008_103115.jpg",
-     "fid": "F0C7QRV7NMS",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [],
-     "path": "menu-files/1791421741_756999-0.jpg"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C7M4ULACA",
-     "from": "댓글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "자연산 제주 딱새우회(大 size) [180g]",
-       "price": 49000
-      },
-      {
-       "category": "",
-       "name": "자연산 제주 딱새우회(大 size) [280g]",
-       "price": 73000
-      },
-      {
-       "category": "",
-       "name": "자연산 제주 딱새우회(大 size) [380g]",
-       "price": 98000
-      }
-     ],
-     "path": "menu-files/1791421741_756999-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "+가결제",
-    "성현님 그 죄송한데 제가 컴포즈 봐야하는게 있어서.... 이거 메뉴 좀 부탁드려도 될까요",
-    "메뉴 생성은 완료해놨어요",
-    "넘기기가 좀 글킨한디...",
-    "이런식으로 되어있는 메뉴 등록 시\n180g 49000원 메뉴로 생성했고 추가 사이즈는 옵션으로 넣어주심됩니다",
-    "메뉴 등록 옵션 설정 완료",
-    "가결제 원격 이관"
-   ],
-   "rc": 8,
-   "lr": "1791446972.254579",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791421741756999"
   }
  ],
  "ocr": {

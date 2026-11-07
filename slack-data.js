@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30881,
+  "version": 30882,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,7 +311979,7 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "김현기": 4
+          "김현기": 5
         },
         "menu": {
           "김현기": 1
@@ -311987,6 +311987,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:57",
+          "store": "신상마켓",
+          "biz": "3060650924",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "터 + 프 온보딩 했는데, 갑자기 터미널에서 전원이 안들어온다고 하셔서 통화 부탁 드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 전원 분리 후 재장착 하니 잘 켜짐 / 일시적 증상 추측",
+          "rr": 1
+        },
         {
           "time": "09:56",
           "store": "리프앤바이트(LEAF&amp;BITE)",
@@ -312049,7 +312061,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 0,
         "unknown": 0
       },
@@ -312268,14 +312280,7 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794013596.33
-      },
-      "1794013069.829039": {
-        "post": "1794013069.829039",
-        "lastSeen": 1794013596.33,
-        "r": 1,
-        "day": "2026-11-07",
-        "idx": 3
+        "lastSeen": 1794014009.913
       }
     },
     "days": {
@@ -430779,14 +430784,15 @@ window.SLACK_DATA = {
             "store": "신상마켓",
             "biz": "3060650924",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 12.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 10:07",
+    "at": "2026-11-07 10:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430938,7 +430944,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 10:06",
+    "at": "2026-11-07 10:13",
     "pri": {
       "days": 0,
       "failed": [],
