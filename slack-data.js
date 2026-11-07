@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30870,
+  "version": 30871,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,11 +311979,23 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "김현기": 2
+          "김현기": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:15",
+          "store": "광주줄눈시공 케라폭시 스타라이크 ROYAL줄눈",
+          "biz": "4696000751",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포프 핸드폰 온보딩 부탁 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "진호님! 역시 휴대단말기로 교체 하신다고 하시네요 그래서 간단히 nm400 정도 추천 드렸습니다! ob요청으로 올릴까요?",
+          "rr": 1
+        },
         {
           "time": "09:06",
           "store": "웨이홈",
@@ -312010,7 +312022,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -312229,18 +312241,11 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794011511.666
-      },
-      "1794010537.066669": {
-        "post": "1794010537.066669",
-        "lastSeen": 1794011511.666,
-        "r": 1,
-        "day": "2026-11-07",
-        "idx": 1
+        "lastSeen": 1794011608.116
       },
       "1794011437.673899": {
         "post": "1794011437.673899",
-        "lastSeen": 1794011511.666
+        "lastSeen": 1794011608.116
       }
     },
     "days": {
@@ -430726,14 +430731,15 @@ window.SLACK_DATA = {
             "store": "광주줄눈시공 케라폭시 스타라이크 ROYAL줄눈",
             "biz": "4696000751",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 17
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 09:32",
+    "at": "2026-11-07 09:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430885,7 +430891,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 09:31",
+    "at": "2026-11-07 09:33",
     "pri": {
       "days": 0,
       "failed": [],
