@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31143,
+  "version": 31144,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312821,12 +312821,29 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-08": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김현기": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:26",
+          "store": "드롭탑 음성(남이) 휴게소점",
+          "biz": "3038120748",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "프론트 초기화됨",
+          "hw": "",
+          "intake": "offline",
+          "note": "여기는 주기적으로 초기화가 되네요 드롭탑 ㅠ 여기는 주기적으로 초기화가 되네요 드롭탑 ㅠ / 매장에 계속 손님이 와 당장 어려워 솔라피로 정보 전송 완료 추 후 직접 해보겠음",
+          "rr": 4
+        }
+      ],
       "intake": {
         "online": 0,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "08:26"
@@ -431789,7 +431806,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 08:30",
+    "at": "2026-11-08 08:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431942,7 +431959,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 08:30",
+    "at": "2026-11-08 08:45",
     "pri": {
       "days": 0,
       "failed": [],
