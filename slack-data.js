@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30862,
+  "version": 30863,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311977,11 +311977,28 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-07": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김현기": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:04",
+          "store": "포시(Fosea)",
+          "biz": "1197600522",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포프(태블릿) 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "개인 갤럭시탭 재온보딩 완료",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -312200,11 +312217,14 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794010041.442
+        "lastSeen": 1794010124.357
       },
       "1794009972.534349": {
         "post": "1794009972.534349",
-        "lastSeen": 1794010041.442
+        "lastSeen": 1794010124.357,
+        "r": 1,
+        "day": "2026-11-07",
+        "idx": 0
       }
     },
     "days": {
@@ -430669,11 +430689,26 @@ window.SLACK_DATA = {
             "dmin": 23.3
           }
         ]
+      },
+      "2026-11-07": {
+        "cnt": 1,
+        "sumMin": 1.839419182141622,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:06",
+            "min": 1.8,
+            "store": "웨이홈",
+            "biz": "5850903141",
+            "who": "김현기",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 09:07",
+    "at": "2026-11-07 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430825,7 +430860,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 09:07",
+    "at": "2026-11-07 09:08",
     "pri": {
       "days": 0,
       "failed": [],
