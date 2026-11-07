@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30873,
+  "version": 30874,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -309401,7 +309401,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "KICC167N 포트설정불가로 프린터8385 구매 긴급요청 8일에 방문픽업으로 안내완료 모바일 결제완료 주문번호 : 20261107-0000045 / <!subteam^S08M24MPQMS 출하지시서 작성완료 / / cc. 님! 점주님께는 오전9시 현장픽업 안내드렸으며 p/u 확인한번부탁드립니다. cc. 님! 점주님께는",
-          "rr": 7
+          "rr": 8
         },
         {
           "time": "22:44",
@@ -311980,10 +311980,25 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "김현기": 3
+        },
+        "menu": {
+          "김현기": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "붕어이모카세",
+          "biz": "6386000959",
+          "cat": "menu",
+          "emp": "김현기",
+          "req": "메뉴 등록 요청으로 전달드려요.",
+          "hw": "",
+          "intake": "online",
+          "note": "완료",
+          "rr": 2
+        },
         {
           "time": "09:15",
           "store": "광주줄눈시공 케라폭시 스타라이크 ROYAL줄눈",
@@ -312022,7 +312037,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -312241,14 +312256,7 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794011961.925
-      },
-      "1794011437.673899": {
-        "post": "1794011437.673899",
-        "lastSeen": 1794011961.925,
-        "r": 1,
-        "day": "2026-11-07",
-        "idx": 2
+        "lastSeen": 1794012036.438
       }
     },
     "days": {
@@ -430743,14 +430751,15 @@ window.SLACK_DATA = {
             "store": "붕어이모카세",
             "biz": "6386000959",
             "who": "김현기",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 9.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 09:39",
+    "at": "2026-11-07 09:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430902,7 +430911,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 09:39",
+    "at": "2026-11-07 09:40",
     "pri": {
       "days": 0,
       "failed": [],
