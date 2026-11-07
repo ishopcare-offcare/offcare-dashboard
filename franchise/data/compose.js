@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-04 16:10 KST
+ *  갱신: 2026-11-07 15:09 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-04 16:10',
+  updatedAt : '2026-11-07 15:09',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -72,5 +72,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-04","time":"11:39","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"서상원","intake":"online","status":"done","req":"포스에서 주문하다가 뒤로 가기 눌렀고 미결제건 취소 방법 문의","note":""},
     {"date":"2026-11-04","time":"13:40","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"김규빈","intake":"online","status":"done","req":"어제 문의한 포스기 주문 시 고객용 주문번호 미출력 증상이 오늘도 재발, 고객용 주문서를 한장으로 저장 후에는 잠깐 나오는데 그 다음 주문부터 다시 꺼지는거 같다고 하심","note":"우선 토플에 어제 문의한 내용에 추가로 문의 남겨보겠습니다. / 토스POS 버전 확인 예정 / 토스POS 재실행으로 업데이트가 되지않아 동일 이슈 발생으로, 수동으로 포스정보에서 업데이트 이후 정상 확인"},
     {"date":"2026-11-04","time":"14:05","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"서상원","intake":"online","status":"done","req":"- 아까 오전에 결제 취소 후 판매 개수가 줄지 않아 재고 수량이 맞지 않는다고 문의 (취소 처리 후 재고에 수량 반영이 제대로 되는지 확인 요청)","note":""},
+    {"date":"2026-11-07","time":"15:02","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"서상원","intake":"online","status":"done","req":"컴포즈커피 뱅뱅사거리점 키오스크 2대 일시적 오류로 화면이 바뀌지 않고 동작 불가","note":"번호알려주세요 /"},
   ],
 };

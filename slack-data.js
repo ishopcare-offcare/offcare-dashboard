@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30973,
+  "version": 30974,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311983,7 +311983,8 @@ window.SLACK_DATA = {
         },
         "as": {
           "미지정": 5,
-          "김현기": 17
+          "김현기": 17,
+          "서상원": 1
         },
         "menu": {
           "김현기": 1
@@ -312004,6 +312005,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "15:02",
+          "store": "컴포즈_상호미기재",
+          "biz": "",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "컴포즈커피 뱅뱅사거리점 키오스크 2대 일시적 오류로 화면이 바뀌지 않고 동작 불가",
+          "hw": "",
+          "intake": "online",
+          "note": "번호알려주세요 /",
+          "rr": 6
+        },
         {
           "time": "14:21",
           "store": "멜포우",
@@ -312297,28 +312310,28 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 24,
+        "online": 25,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:02",
+      "updatedAt": "15:08",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 3,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 1
+          "nps": 2
         },
         "npsDist": {
           "7": 1,
-          "10": 1
+          "10": 2
         },
         "installDist": {
           "4": 1
@@ -312327,6 +312340,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          },
           "12개월": {
             "total": 1,
             "low": 0
@@ -312338,7 +312355,7 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KIS": {
-            "total": 1,
+            "total": 2,
             "low": 0
           },
           "DAOU": {
@@ -312492,18 +312509,18 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794031656.867
+        "lastSeen": 1794031725.553
       },
       "1794024915.741889": {
         "post": "1794024915.741889",
-        "lastSeen": 1794031656.867,
+        "lastSeen": 1794031725.553,
         "r": 1,
         "day": "2026-11-07",
         "idx": 12
       },
       "1794025010.804759": {
         "post": "1794025010.804759",
-        "lastSeen": 1794031656.867
+        "lastSeen": 1794031725.553
       },
       "1794026942.011679": {
         "post": "1794026942.011679",
@@ -312511,11 +312528,11 @@ window.SLACK_DATA = {
       },
       "1794027600.862669": {
         "post": "1794027600.862669",
-        "lastSeen": 1794031656.867
+        "lastSeen": 1794031725.553
       },
       "1794031250.913959": {
         "post": "1794031250.913959",
-        "lastSeen": 1794031656.867
+        "lastSeen": 1794031725.553
       }
     },
     "days": {
@@ -431170,7 +431187,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-07 15:08",
+    "at": "2026-11-07 15:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431322,7 +431339,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 15:07",
+    "at": "2026-11-07 15:08",
     "pri": {
       "days": 0,
       "failed": [],
