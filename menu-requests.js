@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4867,
- "updatedAt": "2026-11-07 11:22",
+ "version": 4868,
+ "updatedAt": "2026-11-07 11:51",
  "days": 30,
  "items": [
   {
@@ -67054,29 +67054,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791428240615059"
-  },
-  {
-   "ts": "1791427773.625099",
-   "date": "2026-10-08",
-   "time": "11:49",
-   "store": "킨텍스2전시장 뚜레쥬르",
-   "biz": "1283678896",
-   "pos": "토스포스",
-   "content": "수정\nV.E.L.T샌드위치\n8500>9000원",
-   "special": "···",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "수정 완료\n\n솔라피 발송"
-   ],
-   "rc": 1,
-   "lr": "1791428067.563999",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791427773625099"
   }
  ],
  "ocr": {
