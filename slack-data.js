@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30872,
+  "version": 30873,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312241,11 +312241,14 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794011739.449
+        "lastSeen": 1794011961.925
       },
       "1794011437.673899": {
         "post": "1794011437.673899",
-        "lastSeen": 1794011739.449
+        "lastSeen": 1794011961.925,
+        "r": 1,
+        "day": "2026-11-07",
+        "idx": 2
       }
     },
     "days": {
@@ -430712,8 +430715,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-07": {
-        "cnt": 2,
-        "sumMin": 7.511183031400045,
+        "cnt": 3,
+        "sumMin": 14.394734712441764,
         "over": 0,
         "items": [
           {
@@ -430733,13 +430736,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 17
+          },
+          {
+            "hm": "09:30",
+            "min": 6.9,
+            "store": "붕어이모카세",
+            "biz": "6386000959",
+            "who": "김현기",
+            "cat": "menu"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 09:35",
+    "at": "2026-11-07 09:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430891,7 +430902,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 09:35",
+    "at": "2026-11-07 09:39",
     "pri": {
       "days": 0,
       "failed": [],
