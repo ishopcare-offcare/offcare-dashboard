@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30920,
+  "version": 30921,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311997,8 +311997,8 @@ window.SLACK_DATA = {
           "req": "포프(아이패드) 온보딩 요청 드립니다! / <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793929530125769|이 때> 교체 받으신 프론트",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 2
+          "note": "프론트 생김새가 다르냐는 점주님 문의가 있어서 2세대로 다시 발송진행하겠습니다.온보딩완료",
+          "rr": 3
         },
         {
           "time": "11:12",
@@ -312365,7 +312365,7 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794024792.079
+        "lastSeen": 1794024887.791
       }
     },
     "days": {
@@ -430949,7 +430949,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-07 13:13",
+    "at": "2026-11-07 13:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431101,7 +431101,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 13:13",
+    "at": "2026-11-07 13:14",
     "pri": {
       "days": 0,
       "failed": [],
