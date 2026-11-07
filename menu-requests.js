@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4887,
- "updatedAt": "2026-11-07 21:19",
+ "version": 4888,
+ "updatedAt": "2026-11-07 21:23",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,35 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CFM5QQT4M",
+     "from": "댓글",
+     "path": "menu-files/1794053900_957279-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "고함량 생과일주스",
+       "name": "싱귤탱귤주스",
+       "price": 5300
+      },
+      {
+       "category": "오픈할인이벤트",
+       "name": "(파격할인!!) 싱귤탱귤주스",
+       "price": 3900
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794054197.475799",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "서상원",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794053900957279"
   },
   {
