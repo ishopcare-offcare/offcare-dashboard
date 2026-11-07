@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4886,
- "updatedAt": "2026-11-07 18:46",
+ "version": 4887,
+ "updatedAt": "2026-11-07 21:19",
  "days": 30,
  "items": [
+  {
+   "ts": "1794053900.957279",
+   "date": "2026-11-07",
+   "time": "21:18",
+   "store": "세이프룻 분당정자점",
+   "biz": "2833101888",
+   "pos": "",
+   "content": "대시보드 메뉴 수정 요청.\n브랜드 : 세이프룻\n싱귤탱귤 귤주스(할인행사) 3,300 > 3,900원으로 등록 요청.\n\n아이디 : <mailto:···|···> \n비번 : @apt975975975",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794053900957279"
+  },
   {
    "ts": "1794034956.922529",
    "date": "2026-11-07",
