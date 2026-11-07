@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30890,
+  "version": 30891,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,7 +311979,7 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "김현기": 6
+          "김현기": 7
         },
         "menu": {
           "김현기": 1
@@ -311987,6 +311987,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:35",
+          "store": "금강농원",
+          "biz": "3080649234",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "CAT 단말기에서 인터넷 연결이 끊겼다고 함 / 안내 받으신 대로 <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793956293624289|인터넷 점검> 받았으나, 인터넷엔 문제가 ",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:19",
           "store": "돈아당",
@@ -312073,7 +312084,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 1,
         "unknown": 0
       },
@@ -312285,18 +312296,11 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794015979.178
-      },
-      "1794015306.434769": {
-        "post": "1794015306.434769",
-        "lastSeen": 1794015979.178,
-        "r": 1,
-        "day": "2026-11-07",
-        "idx": 4
+        "lastSeen": 1794016303.516
       },
       "1794015544.666799": {
         "post": "1794015544.666799",
-        "lastSeen": 1794015979.178
+        "lastSeen": 1794016303.516
       }
     },
     "days": {
@@ -430809,14 +430813,15 @@ window.SLACK_DATA = {
             "store": "금강농원",
             "biz": "3080649234",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 10:46",
+    "at": "2026-11-07 10:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430968,7 +430973,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 10:46",
+    "at": "2026-11-07 10:51",
     "pri": {
       "days": 0,
       "failed": [],
