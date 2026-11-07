@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31055,
+  "version": 31056,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312578,38 +312578,43 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "18:09",
+      "updatedAt": "18:17",
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
-          "count": 3,
+          "count": 4,
           "low": 1
         },
         "nps": {
-          "count": 8,
+          "count": 9,
           "low": 1
         },
         "high": {
-          "install": 1,
-          "nps": 3
+          "install": 2,
+          "nps": 4
         },
         "npsDist": {
           "0": 1,
           "6": 1,
           "7": 1,
           "9": 2,
-          "10": 3
+          "10": 4
         },
         "installDist": {
           "1": 1,
           "4": 1,
-          "5": 1
+          "5": 2
         },
         "byIndustry": {
+          "요식업": 1,
           "도소매": 2,
           "카페": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 1
+          },
           "6개월": {
             "total": 2,
             "low": 0
@@ -312618,16 +312623,16 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "구매설치": {
-            "total": 3,
-            "low": 1
-          },
           "1개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 3,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 2,
             "low": 0
@@ -312639,10 +312644,6 @@ window.SLACK_DATA = {
           "KOCES": {
             "total": 1,
             "low": 1
-          },
-          "KIS": {
-            "total": 2,
-            "low": 0
           },
           "DAOU": {
             "total": 1,
@@ -312684,6 +312685,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "18:17",
+            "store": "임미원김밥",
+            "storeId": "736326",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설치가 간단하고, 설명을 잘해주셨습니다 월 이용료가 싸고, 본인 기기를 가지고 쓸수도 있어서 좋은것 같습니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "06:43",
             "store": "카페소이두레",
@@ -312813,18 +312826,18 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794042925.708
+        "lastSeen": 1794043049.538
       },
       "1794024915.741889": {
         "post": "1794024915.741889",
-        "lastSeen": 1794042925.708,
+        "lastSeen": 1794043049.538,
         "r": 1,
         "day": "2026-11-07",
         "idx": 12
       },
       "1794025010.804759": {
         "post": "1794025010.804759",
-        "lastSeen": 1794042925.708
+        "lastSeen": 1794043049.538
       },
       "1794026942.011679": {
         "post": "1794026942.011679",
@@ -312832,11 +312845,11 @@ window.SLACK_DATA = {
       },
       "1794027600.862669": {
         "post": "1794027600.862669",
-        "lastSeen": 1794042925.708
+        "lastSeen": 1794043049.538
       },
       "1794034800.397119": {
         "post": "1794034800.397119",
-        "lastSeen": 1794042925.708,
+        "lastSeen": 1794043049.538,
         "r": 1,
         "day": "2026-11-07",
         "idx": 22
@@ -431637,7 +431650,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-07 18:16",
+    "at": "2026-11-07 18:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431789,7 +431802,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 18:15",
+    "at": "2026-11-07 18:17",
     "pri": {
       "days": 0,
       "failed": [],
