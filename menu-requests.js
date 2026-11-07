@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4884,
- "updatedAt": "2026-11-07 18:23",
+ "version": 4885,
+ "updatedAt": "2026-11-07 18:31",
  "days": 30,
  "items": [
   {
@@ -64077,29 +64077,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791452531354839"
-  },
-  {
-   "ts": "1791451641.161039",
-   "date": "2026-10-08",
-   "time": "18:27",
-   "store": "마포갈비92",
-   "biz": "1332662233",
-   "pos": "",
-   "content": "• 메뉴 수정 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "카테고리: 고기\n• 갈비살 (미국산170g)을 (미국산150g)으로 수정\n• 부채살도 (미국산150g) 수정\n• 갈비살+부채살(600g)을 (500g)으로 수정"
-   ],
-   "rc": 3,
-   "lr": "1791454152.614469",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791451641161039"
   }
  ],
  "ocr": {
