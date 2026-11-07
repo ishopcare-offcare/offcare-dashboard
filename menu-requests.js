@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4889,
- "updatedAt": "2026-11-07 21:29",
+ "version": 4890,
+ "updatedAt": "2026-11-07 21:40",
  "days": 30,
  "items": [
   {
@@ -41,11 +41,9 @@ window.MENU_REQUESTS = {
     }
    ],
    "datt": [],
-   "replies": [
-    "상원님 파격할인 싱글탱귤주스 일단 분당정자점만 노출 부탁드립니다..!"
-   ],
-   "rc": 2,
-   "lr": "1794054522.306569",
+   "replies": [],
+   "rc": 1,
+   "lr": "1794054197.475799",
    "rfx": 3,
    "status": "done",
    "handler": "서상원",
