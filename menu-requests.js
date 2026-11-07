@@ -3,10 +3,82 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4857,
- "updatedAt": "2026-11-06 21:38",
+ "version": 4858,
+ "updatedAt": "2026-11-07 09:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1794011437.673899",
+   "date": "2026-11-07",
+   "time": "09:30",
+   "store": "붕어이모카세",
+   "biz": "6386000959",
+   "pos": "",
+   "content": "메뉴 등록 요청으로 전달드려요.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CGJHUEE9W",
+     "from": "댓글",
+     "path": "menu-files/1794011437_673899-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "붕어빵",
+       "name": "팥 붕어빵",
+       "price": 1000
+      },
+      {
+       "category": "붕어빵",
+       "name": "슈크림 붕어빵",
+       "price": 1000
+      },
+      {
+       "category": "붕어빵",
+       "name": "완두 붕어빵",
+       "price": 1000
+      },
+      {
+       "category": "붕어빵",
+       "name": "팥·슈크림·완두 6개",
+       "price": 5000
+      },
+      {
+       "category": "붕어빵",
+       "name": "피자치즈 붕어빵",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "콜라·사이다",
+       "price": 1000
+      },
+      {
+       "category": "음료",
+       "name": "애플사이다",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "생수",
+       "price": 1000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794011444.892299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794011437673899"
+  },
   {
    "ts": "1793967678.633829",
    "date": "2026-11-06",
