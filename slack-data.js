@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30923,
+  "version": 30924,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311979,8 +311979,8 @@ window.SLACK_DATA = {
     "2026-11-07": {
       "counts": {
         "as": {
-          "미지정": 1,
-          "김현기": 13
+          "김현기": 14,
+          "미지정": 1
         },
         "menu": {
           "김현기": 1
@@ -311988,6 +311988,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:11",
+          "store": "밥s베이킹(BOBsbaking)",
+          "biz": "8281501584",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포스기에서 토스포스 업데이트중 오류 발생했다고 하시어 점검 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:03",
           "store": "송헤어샵(song’s hair #)",
@@ -312171,7 +312182,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 1,
         "unknown": 0
       },
@@ -312365,15 +312376,15 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794025065.549
+        "lastSeen": 1794025197.627
       },
       "1794024915.741889": {
         "post": "1794024915.741889",
-        "lastSeen": 1794025065.549
+        "lastSeen": 1794025197.627
       },
       "1794025010.804759": {
         "post": "1794025010.804759",
-        "lastSeen": 1794025065.549
+        "lastSeen": 1794025197.627
       }
     },
     "days": {
@@ -430957,7 +430968,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-07 13:18",
+    "at": "2026-11-07 13:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431109,7 +431120,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 13:17",
+    "at": "2026-11-07 13:19",
     "pri": {
       "days": 0,
       "failed": [],
