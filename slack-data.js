@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 30891,
+  "version": 30892,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311996,7 +311996,8 @@ window.SLACK_DATA = {
           "req": "CAT 단말기에서 인터넷 연결이 끊겼다고 함 / 안내 받으신 대로 <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793956293624289|인터넷 점검> 받았으나, 인터넷엔 문제가 ",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "매장 KT 인터넷은 잘 됨 / 그런데 흰색 노후 iptime 공유기에 단말기랑 cat연결 되어 있는데 그 기기가 고장남",
+          "rr": 1
         },
         {
           "time": "10:19",
@@ -312296,11 +312297,14 @@ window.SLACK_DATA = {
       },
       "1794009636.555899": {
         "post": "1794009636.555899",
-        "lastSeen": 1794016303.516
+        "lastSeen": 1794016360.92
       },
       "1794015544.666799": {
         "post": "1794015544.666799",
-        "lastSeen": 1794016303.516
+        "lastSeen": 1794016360.92,
+        "r": 1,
+        "day": "2026-11-07",
+        "idx": 5
       }
     },
     "days": {
@@ -430767,8 +430771,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-07": {
-        "cnt": 5,
-        "sumMin": 25.9251629114151,
+        "cnt": 6,
+        "sumMin": 39.05101625919342,
         "over": 0,
         "items": [
           {
@@ -430815,13 +430819,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 13.9
+          },
+          {
+            "hm": "10:39",
+            "min": 13.1,
+            "store": "삼미당",
+            "biz": "3760900797",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-07 10:51",
+    "at": "2026-11-07 10:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -430973,7 +430985,7 @@ window.SLACK_DATA = {
     "2026-11-07": 2
   },
   "noteMig": {
-    "at": "2026-11-07 10:51",
+    "at": "2026-11-07 10:52",
     "pri": {
       "days": 0,
       "failed": [],
