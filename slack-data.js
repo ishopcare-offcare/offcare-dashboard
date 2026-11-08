@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31204,
+  "version": 31205,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,12 +312835,24 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 6,
+          "김현기": 7,
           "서상원": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:28",
+          "store": "스튜디오현(STUDIO HYUN)",
+          "biz": "6715100653",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "갤럭시탭+프론트/ 연결 자주 끊김. 현재는 프론트 연결 불가/ 탭 자체도 느린 현상으로 영상 점검 요청드립니다. (아샵 대여 태블릿)",
+          "hw": "",
+          "intake": "offline",
+          "note": "행사장 와이파이 불안정 / 일단 금액입력모드 써서 사용하겠음",
+          "rr": 1
+        },
         {
           "time": "13:11",
           "store": "쌍령각",
@@ -312929,7 +312941,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 6,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "14:28",
@@ -313070,7 +313082,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794115834.317
+        "lastSeen": 1794116300.585
       }
     },
     "days": {
@@ -431947,7 +431959,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 14:31",
+    "at": "2026-11-08 14:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432100,7 +432112,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 14:30",
+    "at": "2026-11-08 14:38",
     "pri": {
       "days": 0,
       "failed": [],
