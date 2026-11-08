@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31214,
+  "version": 31215,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,12 +312835,24 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "서상원": 2,
+          "서상원": 3,
           "김현기": 7
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:10",
+          "store": "멍그라미",
+          "biz": "6911702777",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "포프(노트북) + 유프 / 프론트와 토스포스 영수증 설정 세팅 완료 후 테스트 프린트 선택 시 안쪽에서 모터가 돌아가는 소리만 들리고 출력되지 않아 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "용지심 제거",
+          "rr": 1
+        },
         {
           "time": "15:00",
           "store": "솔트팩토리",
@@ -312952,7 +312964,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 2,
         "unknown": 0
       },
@@ -313102,14 +313114,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794118773.501
-      },
-      "1794118208.491849": {
-        "post": "1794118208.491849",
-        "lastSeen": 1794118773.501,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 4
+        "lastSeen": 1794118848.374
       }
     },
     "days": {
@@ -431996,14 +432001,15 @@ window.SLACK_DATA = {
             "store": "멍그라미",
             "biz": "6911702777",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 10
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:19",
+    "at": "2026-11-08 15:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432156,7 +432162,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:19",
+    "at": "2026-11-08 15:20",
     "pri": {
       "days": 0,
       "failed": [],
