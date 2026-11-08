@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31155,
+  "version": 31156,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311998,7 +311998,20 @@ window.SLACK_DATA = {
           "서상원": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "00:47",
+          "store": "히르엘르",
+          "biz": "2627800591",
+          "handler": "김현기",
+          "cat": "menu",
+          "intake": "online",
+          "req": "",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "21:18",
@@ -312664,7 +312677,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 49,
+        "online": 50,
         "offline": 8,
         "unknown": 0
       },
@@ -312956,7 +312969,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794101435.031
+        "lastSeen": 1794101884.497
       }
     },
     "days": {
@@ -431799,7 +431812,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 10:30",
+    "at": "2026-11-08 10:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431952,7 +431965,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 10:30",
+    "at": "2026-11-08 10:38",
     "pri": {
       "days": 0,
       "failed": [],
