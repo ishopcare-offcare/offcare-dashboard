@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4896,
- "updatedAt": "2026-11-08 13:31",
+ "version": 4897,
+ "updatedAt": "2026-11-08 15:07",
  "days": 30,
  "items": [
   {
@@ -63931,54 +63931,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791541769559399"
-  },
-  {
-   "ts": "1791526008.623089",
-   "date": "2026-10-09",
-   "time": "15:06",
-   "store": "사송 원유로",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 사송 원유로 메뉴보냅니다\n<https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk>\n 1719.jpg\n <https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk>\n \n <https://drive.google.com/file/d/1tyOclN0b2VE0EH1-DMiqf7p651ITUFms/view?usp=drivesdk>\n 1721.jpg\n <<https://drive.go>\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a11f426cb9b0611>)",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk",
-    "https://drive.google.com/file/d/16swzp9754oNWRlNbJ9P8175ayXzTEoj5/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1tyOclN0b2VE0EH1-DMiqf7p651ITUFms/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C8F2307U2",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1791526008_623089-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "액세스 거부됨",
-    "님 월요일날 빠르게 부탁드립니다",
-    "저도 지금 들어갈라니까 거부되네용",
-    "입구컷",
-    "여기 걸려있는애들 엑세스 권한 없어서 못봄ㅋㅋㅋㅋ",
-    "다같이 입구컷",
-    "점주한테 전화 해볼게요 찾아내서",
-    "전화도 안받음 문자 발송"
-   ],
-   "rc": 8,
-   "lr": "1791766680.048999",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a11f426cb9b0611",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791526008623089"
   }
  ],
  "ocr": {

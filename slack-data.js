@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31209,
+  "version": 31210,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312944,33 +312944,41 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:00",
+      "updatedAt": "15:07",
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 1
+          "nps": 2
         },
         "npsDist": {
-          "10": 1
+          "10": 2
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 1,
+            "low": 0
+          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -313082,11 +313090,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794117708.793
+        "lastSeen": 1794118044.834
       },
       "1794117600.594099": {
         "post": "1794117600.594099",
-        "lastSeen": 1794117708.793,
+        "lastSeen": 1794118044.834,
         "r": 1,
         "day": "2026-11-08",
         "idx": 3
@@ -431974,7 +431982,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:02",
+    "at": "2026-11-08 15:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432127,7 +432135,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:01",
+    "at": "2026-11-08 15:07",
     "pri": {
       "days": 0,
       "failed": [],
