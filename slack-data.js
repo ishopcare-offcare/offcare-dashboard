@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31225,
+  "version": 31226,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312980,25 +312980,25 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:37",
+      "updatedAt": "15:45",
       "voc": {
-        "responses": 7,
+        "responses": 8,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 7,
+          "count": 8,
           "low": 1
         },
         "high": {
           "install": 1,
-          "nps": 5
+          "nps": 6
         },
         "npsDist": {
           "5": 1,
           "8": 1,
-          "10": 5
+          "10": 6
         },
         "installDist": {
           "3": 1,
@@ -313009,6 +313009,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          },
           "12개월": {
             "total": 3,
             "low": 1
@@ -313024,7 +313028,7 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KPN": {
-            "total": 2,
+            "total": 3,
             "low": 1
           },
           "KSNET": {
@@ -313077,6 +313081,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "15:45",
+            "store": "아나덴 슈가링왁싱 수원호매실점",
+            "storeId": "693825",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "토스플레이스를 사용하면서 결제와 매출 관리가 편리해졌고, 카드 결제 후 정산 내역도 쉽게 확인할 수 있어 만족스럽습니다. 사용 방법이 간단하고 결제 과정도 빠르고 안정적이어서 매장 운영에 많은 도움이 되고 있습니다. 주변 자영업자분들에게도 적극 추천하고 있습니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:23",
             "store": "팅솜탈러",
             "storeId": "720886",
@@ -313094,13 +313110,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1793947500.693139": {
-        "post": "1793947500.693139",
-        "lastSeen": 1793996127.612,
-        "r": 1,
-        "day": "2026-11-06",
-        "idx": 93
-      },
       "1793950576.033719": {
         "post": "1793950576.033719",
         "lastSeen": 1793996127.612,
@@ -313192,7 +313201,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794120053.844
+        "lastSeen": 1794120326.092
       }
     },
     "days": {
@@ -432096,7 +432105,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:41",
+    "at": "2026-11-08 15:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432249,7 +432258,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:40",
+    "at": "2026-11-08 15:45",
     "pri": {
       "days": 0,
       "failed": [],
