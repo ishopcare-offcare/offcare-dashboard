@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31259,
+  "version": 31260,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313064,16 +313064,16 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "17:15",
+      "updatedAt": "17:27",
       "voc": {
-        "responses": 14,
+        "responses": 15,
         "install": {
           "count": 5,
           "low": 1
         },
         "nps": {
-          "count": 14,
-          "low": 2
+          "count": 15,
+          "low": 3
         },
         "high": {
           "install": 3,
@@ -313081,6 +313081,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
+          "4": 1,
           "5": 1,
           "8": 1,
           "10": 11
@@ -313097,6 +313098,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 2,
+            "low": 1
+          },
           "1개월": {
             "total": 2,
             "low": 0
@@ -313104,10 +313109,6 @@ window.SLACK_DATA = {
           "3개월": {
             "total": 3,
             "low": 1
-          },
-          "6개월": {
-            "total": 1,
-            "low": 0
           },
           "구매설치": {
             "total": 5,
@@ -313119,13 +313120,13 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 2,
+            "low": 1
+          },
           "KOCES": {
             "total": 6,
             "low": 2
-          },
-          "KIS": {
-            "total": 1,
-            "low": 0
           },
           "KPN": {
             "total": 3,
@@ -313149,11 +313150,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "필요한 기능이 없거나 몰라서 불편": 1,
-          "단말기 설치나 초기 과정이 어려움": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+          "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "17:27",
+            "store": "햇빛미술실 미술교습소",
+            "storeId": "416953",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 4,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 4,
+                "text": "그렇게 메리트가 있지 않음",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "17:01",
             "store": "세움피지오운동센터",
@@ -313252,10 +313275,6 @@ window.SLACK_DATA = {
   },
   "resp": {
     "watch": {
-      "1793953624.923139": {
-        "post": "1793953624.923139",
-        "lastSeen": 1793996127.612
-      },
       "1793955492.959529": {
         "post": "1793955492.959529",
         "lastSeen": 1793996127.612,
@@ -313325,11 +313344,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794125801.138
+        "lastSeen": 1794126485.512
       },
       "1794123547.420129": {
         "post": "1794123547.420129",
-        "lastSeen": 1794125801.138
+        "lastSeen": 1794126485.512
       }
     },
     "days": {
@@ -432287,7 +432306,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 17:16",
+    "at": "2026-11-08 17:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432440,7 +432459,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 17:16",
+    "at": "2026-11-08 17:28",
     "pri": {
       "days": 0,
       "failed": [],
