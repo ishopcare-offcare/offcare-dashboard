@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4902,
- "updatedAt": "2026-11-08 22:01",
+ "version": 4903,
+ "updatedAt": "2026-11-08 22:30",
  "days": 30,
  "items": [
   {
@@ -63663,27 +63663,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791619957088779"
-  },
-  {
-   "ts": "1791552476.725659",
-   "date": "2026-10-09",
-   "time": "22:27",
-   "store": "(봉명동)(주) 형과아우",
-   "biz": "1398802492",
-   "pos": "",
-   "content": "기존 포스에 흑염소수육 메뉴 삭제 요청 및 흑염소 메뉴 카테고리에 버섯야채추가 5,000원 메뉴 추가 등록 요청.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791552808.318099",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김현기",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791552476725659"
   }
  ],
  "ocr": {

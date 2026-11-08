@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31295,
+  "version": 31296,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313125,15 +313125,15 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "22:00",
+      "updatedAt": "22:29",
       "voc": {
-        "responses": 17,
+        "responses": 18,
         "install": {
           "count": 6,
           "low": 1
         },
         "nps": {
-          "count": 17,
+          "count": 18,
           "low": 4
         },
         "high": {
@@ -313144,7 +313144,7 @@ window.SLACK_DATA = {
           "0": 1,
           "4": 1,
           "5": 2,
-          "8": 1,
+          "8": 2,
           "10": 12
         },
         "installDist": {
@@ -313160,7 +313160,7 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "6개월": {
-            "total": 3,
+            "total": 4,
             "low": 2
           },
           "구매설치": {
@@ -313181,12 +313181,12 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "SECTA9": {
-            "total": 2,
+          "KIS": {
+            "total": 4,
             "low": 1
           },
-          "KIS": {
-            "total": 3,
+          "SECTA9": {
+            "total": 2,
             "low": 1
           },
           "KOCES": {
@@ -313414,11 +313414,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794143728.473
+        "lastSeen": 1794144570.611
       },
       "1794142822.590639": {
         "post": "1794142822.590639",
-        "lastSeen": 1794143728.473
+        "lastSeen": 1794144570.611
       }
     },
     "days": {
@@ -432412,7 +432412,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 22:15",
+    "at": "2026-11-08 22:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432565,7 +432565,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 22:15",
+    "at": "2026-11-08 22:29",
     "pri": {
       "days": 0,
       "failed": [],
