@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31191,
+  "version": 31192,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,11 +312835,23 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 4
+          "김현기": 5
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:11",
+          "store": "쌍령각",
+          "biz": "6291202710",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "영수증 출력이 꼬여서 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "/ 기존 25.27이 서로 맞교체 됨... 전산에서 맞교체 후 정상 / kt공유기가 어떤 이유인지 몰라도 ip를 바꿔서 주는 거 같음 / 나중에 kt통화해서 고정 ip 필요함 안내 완료",
+          "rr": 2
+        },
         {
           "time": "11:45",
           "store": "오디오씨(ODOC)",
@@ -312891,7 +312903,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -313033,14 +313045,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794111562.295
-      },
-      "1794111114.740029": {
-        "post": "1794111114.740029",
-        "lastSeen": 1794111562.295,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 2
+        "lastSeen": 1794111650.775
       }
     },
     "days": {
@@ -431909,14 +431914,15 @@ window.SLACK_DATA = {
             "store": "쌍령각",
             "biz": "6291202710",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-08 13:19",
+    "at": "2026-11-08 13:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432069,7 +432075,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 13:19",
+    "at": "2026-11-08 13:20",
     "pri": {
       "days": 0,
       "failed": [],
