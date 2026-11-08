@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31262,
+  "version": 31263,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313064,40 +313064,44 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "17:27",
+      "updatedAt": "17:54",
       "voc": {
-        "responses": 15,
+        "responses": 16,
         "install": {
-          "count": 5,
+          "count": 6,
           "low": 1
         },
         "nps": {
-          "count": 15,
+          "count": 16,
           "low": 3
         },
         "high": {
-          "install": 3,
-          "nps": 11
+          "install": 4,
+          "nps": 12
         },
         "npsDist": {
           "0": 1,
           "4": 1,
           "5": 1,
           "8": 1,
-          "10": 11
+          "10": 12
         },
         "installDist": {
           "1": 1,
           "3": 1,
-          "5": 3
+          "5": 4
         },
         "byIndustry": {
+          "도소매": 2,
           "기타": 1,
           "카페": 1,
-          "요식업": 2,
-          "도소매": 1
+          "요식업": 2
         },
         "byTenure": {
+          "구매설치": {
+            "total": 6,
+            "low": 1
+          },
           "6개월": {
             "total": 2,
             "low": 1
@@ -313110,10 +313114,6 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 1
           },
-          "구매설치": {
-            "total": 5,
-            "low": 1
-          },
           "12개월": {
             "total": 3,
             "low": 1
@@ -313121,7 +313121,7 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KIS": {
-            "total": 2,
+            "total": 3,
             "low": 1
           },
           "KOCES": {
@@ -313246,6 +313246,18 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "17:54",
+            "store": "마몽 플레르(mamon fleur)",
+            "storeId": "733982",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "직접설치가 어려워서 본사 직원과 원격으로 아주 쉽게 설치를 도와주셨어요 기계사용도 편리하고 디자인도 깔끔하고 예뻐요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "15:45",
             "store": "아나덴 슈가링왁싱 수원호매실점",
             "storeId": "693825",
@@ -313344,11 +313356,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794127590.268
+        "lastSeen": 1794128122.129
       },
       "1794123547.420129": {
         "post": "1794123547.420129",
-        "lastSeen": 1794127590.268
+        "lastSeen": 1794128122.129
       }
     },
     "days": {
@@ -432306,7 +432318,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 17:46",
+    "at": "2026-11-08 17:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432459,7 +432471,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 17:46",
+    "at": "2026-11-08 17:55",
     "pri": {
       "days": 0,
       "failed": [],
