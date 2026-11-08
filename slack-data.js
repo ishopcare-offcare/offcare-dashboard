@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31176,
+  "version": 31177,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312849,7 +312849,8 @@ window.SLACK_DATA = {
           "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790227906161529?thread_ts=1790223886.875249&amp;cid=C09HRUSG4TX| 메이트포스 >/ 결제",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "윈도우 자체 설정에서 com3이 com4로 변경됨 / nvcat에서 com4 변경 후 정상 결제 확인",
+          "rr": 1
         },
         {
           "time": "11:07",
@@ -313027,11 +313028,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794106246.982
+        "lastSeen": 1794106843.627
       },
       "1794105655.637769": {
         "post": "1794105655.637769",
-        "lastSeen": 1794106246.982,
+        "lastSeen": 1794106843.627,
         "r": 1,
         "day": "2026-11-08",
         "idx": 0
@@ -431901,7 +431902,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 11:51",
+    "at": "2026-11-08 12:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432054,7 +432055,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 11:50",
+    "at": "2026-11-08 12:00",
     "pri": {
       "days": 0,
       "failed": [],
