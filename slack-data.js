@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31215,
+  "version": 31216,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312968,27 +312968,38 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:10",
+      "updatedAt": "15:23",
       "voc": {
-        "responses": 2,
+        "responses": 4,
         "install": {
-          "count": 0,
-          "low": 0
-        },
-        "nps": {
           "count": 2,
           "low": 0
         },
+        "nps": {
+          "count": 4,
+          "low": 0
+        },
         "high": {
-          "install": 0,
-          "nps": 2
+          "install": 1,
+          "nps": 3
         },
         "npsDist": {
-          "10": 2
+          "8": 1,
+          "10": 3
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "3": 1,
+          "5": 1
+        },
+        "byIndustry": {
+          "요식업": 1,
+          "도소매": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 2,
+            "low": 0
+          },
           "12개월": {
             "total": 1,
             "low": 0
@@ -312999,6 +313010,14 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
@@ -313010,7 +313029,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:23",
+            "store": "팅솜탈러",
+            "storeId": "720886",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "제가 매장에 조금 늦게 도착했는데, 기다려주시고 설치도 설명도 차근차근 해주셔서 매우 만족합니다. 이틀째 써 보았지만, 불편한점 없이 편리합니다.",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -313114,7 +313146,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794118848.374
+        "lastSeen": 1794119000.371
+      },
+      "1794118941.540799": {
+        "post": "1794118941.540799",
+        "lastSeen": 1794119000.371
       }
     },
     "days": {
@@ -432009,7 +432045,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:21",
+    "at": "2026-11-08 15:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432162,7 +432198,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:20",
+    "at": "2026-11-08 15:23",
     "pri": {
       "days": 0,
       "failed": [],
