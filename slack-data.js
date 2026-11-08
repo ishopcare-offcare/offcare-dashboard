@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31244,
+  "version": 31245,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,12 +312835,24 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "서상원": 8,
+          "서상원": 9,
           "김현기": 7
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:22",
+          "store": "써니푸드",
+          "biz": "5013181062",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "쿠팡 원복 이후 프로그램이 안열리는 문제로 원격 재요청하여 전달드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "여는방법안내해드림",
+          "rr": 1
+        },
         {
           "time": "16:06",
           "store": "찐이야숯불치킨 부천여월점",
@@ -313024,7 +313036,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 2,
         "unknown": 0
       },
@@ -313283,14 +313295,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794122897.254
-      },
-      "1794122520.849199": {
-        "post": "1794122520.849199",
-        "lastSeen": 1794122897.254,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 10
+        "lastSeen": 1794122980.865
       }
     },
     "days": {
@@ -432231,14 +432236,15 @@ window.SLACK_DATA = {
             "store": "써니푸드",
             "biz": "5013181062",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-08 16:29",
+    "at": "2026-11-08 16:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432391,7 +432397,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 16:28",
+    "at": "2026-11-08 16:29",
     "pri": {
       "days": 0,
       "failed": [],
