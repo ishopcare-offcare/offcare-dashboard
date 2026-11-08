@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31222,
+  "version": 31223,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312968,24 +312968,25 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:31",
+      "updatedAt": "15:37",
       "voc": {
-        "responses": 5,
+        "responses": 7,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 5,
-          "low": 0
+          "count": 7,
+          "low": 1
         },
         "high": {
           "install": 1,
-          "nps": 4
+          "nps": 5
         },
         "npsDist": {
+          "5": 1,
           "8": 1,
-          "10": 4
+          "10": 5
         },
         "installDist": {
           "3": 1,
@@ -312996,6 +312997,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 3,
+            "low": 1
+          },
           "3개월": {
             "total": 2,
             "low": 0
@@ -313003,14 +313008,14 @@ window.SLACK_DATA = {
           "구매설치": {
             "total": 2,
             "low": 0
-          },
-          "12개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
           "KPN": {
+            "total": 2,
+            "low": 1
+          },
+          "KSNET": {
             "total": 1,
             "low": 0
           },
@@ -313031,8 +313036,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+        },
+        "alerts": [
+          {
+            "time": "15:37",
+            "store": "퇴근후애",
+            "storeId": "285273",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "무료라서",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "15:23",
@@ -313150,11 +313180,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794119595.557
+        "lastSeen": 1794119851.425
       },
       "1794118941.540799": {
         "post": "1794118941.540799",
-        "lastSeen": 1794119595.557,
+        "lastSeen": 1794119851.425,
         "r": 1,
         "day": "2026-11-08",
         "idx": 5
@@ -432060,7 +432090,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:34",
+    "at": "2026-11-08 15:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432213,7 +432243,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:33",
+    "at": "2026-11-08 15:37",
     "pri": {
       "days": 0,
       "failed": [],
