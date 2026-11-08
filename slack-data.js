@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31277,
+  "version": 31278,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312837,10 +312837,24 @@ window.SLACK_DATA = {
         "as": {
           "서상원": 14,
           "김현기": 7
+        },
+        "menu": {
+          "서상원": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "19:04",
+          "store": "용용선생 광주수완점",
+          "biz": "3260102789",
+          "cat": "menu",
+          "emp": "서상원",
+          "req": "수정",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "18:28",
           "store": "만야수산",
@@ -313097,10 +313111,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 18,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "18:28",
+      "updatedAt": "19:04",
       "voc": {
         "responses": 16,
         "install": {
@@ -313374,11 +313388,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794132104.918
+        "lastSeen": 1794132356.055
       },
       "1794123547.420129": {
         "post": "1794123547.420129",
-        "lastSeen": 1794132104.918
+        "lastSeen": 1794132356.055
       }
     },
     "days": {
@@ -432363,7 +432377,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 19:01",
+    "at": "2026-11-08 19:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432516,7 +432530,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 19:01",
+    "at": "2026-11-08 19:05",
     "pri": {
       "days": 0,
       "failed": [],
