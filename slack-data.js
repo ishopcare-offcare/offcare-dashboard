@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31162,
+  "version": 31163,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,11 +312835,24 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 1
+          "김현기": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:07",
+          "store": "주식회사 에스엠씨",
+          "biz": "4268702481",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "토스사장님에서 취소 버튼 누르면 취소 준비중이 뜨면서 프론트에 반응이 없다고 하시어 도움 부탁드립니다!",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "다시 같이 하니까 잘 됨...",
+          "rr": 1
+        },
         {
           "time": "08:26",
           "store": "드롭탑 음성(남이) 휴게소점",
@@ -312854,7 +312867,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 1,
         "unknown": 0
       },
@@ -312968,7 +312981,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794103662.804
+        "lastSeen": 1794103848.903
       }
     },
     "days": {
@@ -431811,7 +431824,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 11:08",
+    "at": "2026-11-08 11:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431964,7 +431977,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 11:07",
+    "at": "2026-11-08 11:10",
     "pri": {
       "days": 0,
       "failed": [],
