@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31212,
+  "version": 31213,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,12 +312835,24 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 7,
-          "서상원": 1
+          "서상원": 2,
+          "김현기": 7
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:00",
+          "store": "솔트팩토리",
+          "biz": "6111602094",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "터미널 커팅 불가 증상 동일하게 확인되어 재 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "판매로 확인 되어 수리진행",
+          "rr": 1
+        },
         {
           "time": "14:28",
           "store": "스튜디오현(STUDIO HYUN)",
@@ -312940,7 +312952,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 2,
         "unknown": 0
       },
@@ -313090,18 +313102,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794118527.407
-      },
-      "1794117600.594099": {
-        "post": "1794117600.594099",
-        "lastSeen": 1794118527.407,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 3
+        "lastSeen": 1794118620.107
       },
       "1794118208.491849": {
         "post": "1794118208.491849",
-        "lastSeen": 1794118527.407
+        "lastSeen": 1794118620.107
       }
     },
     "days": {
@@ -431979,14 +431984,15 @@ window.SLACK_DATA = {
             "store": "솔트팩토리",
             "biz": "6111602094",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 16.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:15",
+    "at": "2026-11-08 15:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432139,7 +432145,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:15",
+    "at": "2026-11-08 15:17",
     "pri": {
       "days": 0,
       "failed": [],
