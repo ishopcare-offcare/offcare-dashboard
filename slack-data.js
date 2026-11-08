@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31330,
+  "version": 31331,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313368,11 +313368,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-11-09": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "06:00",
+          "store": "지코바 강일1호점",
+          "biz": "3512502495",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "페이스페이 결제 시도 시 오류 메시지 확인된다고 하여 점검 요청드립니다. (결제 시도 이력 확인 불가, 토페 가맹 정상)",
+          "hw": "",
+          "intake": "online",
+          "note": "구형 푸드테크. 페페결제 불가(개발안됨)",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -313430,13 +313447,6 @@ window.SLACK_DATA = {
       "1794149998.988399": {
         "post": "1794149998.988399",
         "lastSeen": 1794169403.811
-      },
-      "1794171600.209789": {
-        "post": "1794171600.209789",
-        "lastSeen": 1794172525.807,
-        "r": 1,
-        "day": "2026-11-09",
-        "idx": 0
       }
     },
     "days": {
@@ -432438,14 +432448,15 @@ window.SLACK_DATA = {
             "store": "지코바 강일1호점",
             "biz": "3512502495",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 23
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-09 06:15",
+    "at": "2026-11-09 06:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432599,7 +432610,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 06:15",
+    "at": "2026-11-09 06:30",
     "pri": {
       "days": 0,
       "failed": [],
