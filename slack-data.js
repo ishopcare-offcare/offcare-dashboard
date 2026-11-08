@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31227,
+  "version": 31228,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312980,35 +312980,42 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "15:45",
+      "updatedAt": "15:53",
       "voc": {
-        "responses": 8,
+        "responses": 11,
         "install": {
-          "count": 2,
-          "low": 0
+          "count": 5,
+          "low": 1
         },
         "nps": {
-          "count": 8,
+          "count": 11,
           "low": 1
         },
         "high": {
-          "install": 1,
-          "nps": 6
+          "install": 3,
+          "nps": 9
         },
         "npsDist": {
           "5": 1,
           "8": 1,
-          "10": 6
+          "10": 9
         },
         "installDist": {
+          "1": 1,
           "3": 1,
-          "5": 1
+          "5": 3
         },
         "byIndustry": {
-          "요식업": 1,
+          "기타": 1,
+          "카페": 1,
+          "요식업": 2,
           "도소매": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 5,
+            "low": 1
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -313020,22 +313027,18 @@ window.SLACK_DATA = {
           "3개월": {
             "total": 2,
             "low": 0
-          },
-          "구매설치": {
-            "total": 2,
-            "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 4,
+            "low": 1
+          },
           "KPN": {
             "total": 3,
             "low": 1
           },
           "KSNET": {
-            "total": 1,
-            "low": 0
-          },
-          "KOCES": {
             "total": 1,
             "low": 0
           },
@@ -313053,9 +313056,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "15:53",
+            "store": "포케앤바",
+            "storeId": "738529",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 1,
+            "nps": 10,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "무선 프린터 추가 했는데 설치 힘들었구요~ 붙이는 큐알 스티커 따로 주문 해야 된다는 안내 없었구요.",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:37",
             "store": "퇴근후애",
@@ -313201,7 +313227,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794120388.312
+        "lastSeen": 1794120799.981
+      },
+      "1794120741.156299": {
+        "post": "1794120741.156299",
+        "lastSeen": 1794120799.981
       }
     },
     "days": {
@@ -432105,7 +432135,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 15:47",
+    "at": "2026-11-08 15:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432258,7 +432288,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 15:46",
+    "at": "2026-11-08 15:53",
     "pri": {
       "days": 0,
       "failed": [],
