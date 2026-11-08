@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31193,
+  "version": 31194,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,7 +312835,7 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 5
+          "김현기": 6
         }
       },
       "pending": [],
@@ -312851,6 +312851,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "/ 기존 25.27이 서로 맞교체 됨... 전산에서 맞교체 후 정상 / kt공유기가 어떤 이유인지 몰라도 ip를 바꿔서 주는 거 같음 / 나중에 kt통화해서 고정 ip 필요함 안내 완료",
           "rr": 2
+        },
+        {
+          "time": "13:03",
+          "store": "카페 VOID",
+          "biz": "5795500812",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "프린터기 고장이라고 하시며 빠른 조치 요청주시어 도움 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "cpp3000 고장 / 대체품 출고/ 목요일 회수 접수",
+          "rr": 1
         },
         {
           "time": "11:45",
@@ -312903,7 +312915,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -313045,7 +313057,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794111733.773
+        "lastSeen": 1794111830.38
       }
     },
     "days": {
@@ -431922,7 +431934,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 13:22",
+    "at": "2026-11-08 13:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432075,7 +432087,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 13:22",
+    "at": "2026-11-08 13:23",
     "pri": {
       "days": 0,
       "failed": [],
