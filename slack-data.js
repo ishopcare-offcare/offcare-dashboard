@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31182,
+  "version": 31183,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,23 +312835,10 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 3
+          "김현기": 4
         }
       },
-      "pending": [
-        {
-          "time": "11:40",
-          "store": "신전떡볶이궐동점",
-          "biz": "6244300313",
-          "handler": "김현기",
-          "cat": "as",
-          "intake": "online",
-          "req": "포스기 / 배민 프로그램 연동 해제 및 프로그램 실행시 에러 발생으로 원격 지원 요청드립니다.",
-          "reasons": [
-            "1차 부재"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "11:45",
@@ -312864,6 +312851,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "윈도우 자체 설정에서 com3이 com4로 변경됨 / nvcat에서 com4 변경 후 정상 결제 확인",
           "rr": 1
+        },
+        {
+          "time": "11:40",
+          "store": "신전떡볶이궐동점",
+          "biz": "6244300313",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "포스기 / 배민 프로그램 연동 해제 및 프로그램 실행시 에러 발생으로 원격 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재통화중 / 빠른 부팅 설정 off후 재부팅, 이후 정삼",
+          "rr": 5
         },
         {
           "time": "11:07",
@@ -313034,14 +313033,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794109527.498
-      },
-      "1794105655.637769": {
-        "post": "1794105655.637769",
-        "lastSeen": 1794109527.498,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 0
+        "lastSeen": 1794109773.909
       }
     },
     "days": {
@@ -431892,7 +431884,8 @@ window.SLACK_DATA = {
             "store": "신전떡볶이궐동점",
             "biz": "6244300313",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 66.6
           },
           {
             "hm": "11:45",
@@ -431908,7 +431901,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 12:45",
+    "at": "2026-11-08 12:49",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432061,7 +432054,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 12:45",
+    "at": "2026-11-08 12:49",
     "pri": {
       "days": 0,
       "failed": [],
