@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31253,
+  "version": 31254,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,7 +312835,7 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "서상원": 10,
+          "서상원": 11,
           "김현기": 7
         }
       },
@@ -312850,7 +312850,19 @@ window.SLACK_DATA = {
           "req": "포스기 세트 이용 / 기존 보유중이던 프린터기를 주방용으로 이용중인데 영수증도 같이 출력되어 주문서만 출력되도록 세팅 도움 부탁드립니다!",
           "hw": "",
           "intake": "offline",
-          "note": "com2",
+          "note": "com2 / 유플 ts100 월요일 연락",
+          "rr": 2
+        },
+        {
+          "time": "16:42",
+          "store": "바다향기",
+          "biz": "3840403301",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "유플 이관 포스기 이용 매장 / 프린터기 2대중 1대가 고장으로 A/S 문의주시어 점검 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "사진수취중",
           "rr": 1
         },
         {
@@ -313048,7 +313060,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 3,
         "unknown": 0
       },
@@ -313296,11 +313308,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794124653.796
+        "lastSeen": 1794124713.149
       },
       "1794123547.420129": {
         "post": "1794123547.420129",
-        "lastSeen": 1794124653.796
+        "lastSeen": 1794124713.149
       }
     },
     "days": {
@@ -432258,7 +432270,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 16:57",
+    "at": "2026-11-08 16:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432411,7 +432423,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 16:57",
+    "at": "2026-11-08 16:58",
     "pri": {
       "days": 0,
       "failed": [],
