@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31181,
+  "version": 31182,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312838,7 +312838,20 @@ window.SLACK_DATA = {
           "김현기": 3
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:40",
+          "store": "신전떡볶이궐동점",
+          "biz": "6244300313",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online",
+          "req": "포스기 / 배민 프로그램 연동 해제 및 프로그램 실행시 에러 발생으로 원격 지원 요청드립니다.",
+          "reasons": [
+            "1차 부재"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "11:45",
@@ -312879,7 +312892,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
@@ -313021,11 +313034,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794109158.632
+        "lastSeen": 1794109527.498
       },
       "1794105655.637769": {
         "post": "1794105655.637769",
-        "lastSeen": 1794109158.632,
+        "lastSeen": 1794109527.498,
         "r": 1,
         "day": "2026-11-08",
         "idx": 0
@@ -431895,7 +431908,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 12:39",
+    "at": "2026-11-08 12:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432048,7 +432061,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 12:39",
+    "at": "2026-11-08 12:45",
     "pri": {
       "days": 0,
       "failed": [],
