@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31195,
+  "version": 31196,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,7 +312835,8 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 6
+          "김현기": 6,
+          "서상원": 1
         }
       },
       "pending": [],
@@ -312851,6 +312852,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "/ 기존 25.27이 서로 맞교체 됨... 전산에서 맞교체 후 정상 / kt공유기가 어떤 이유인지 몰라도 ip를 바꿔서 주는 거 같음 / 나중에 kt통화해서 고정 ip 필요함 안내 완료",
           "rr": 2
+        },
+        {
+          "time": "13:08",
+          "store": "넛티(NUTTY)",
+          "biz": "8745100612",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "영수증 출력 안되어 인터넷 별도 점검 시 이상 없다고 하시고,",
+          "hw": "",
+          "intake": "online",
+          "note": "115200 변경",
+          "rr": 1
         },
         {
           "time": "13:03",
@@ -312915,7 +312928,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
@@ -313057,7 +313070,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794111920.635
+        "lastSeen": 1794112081.129
       }
     },
     "days": {
@@ -431934,7 +431947,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 13:25",
+    "at": "2026-11-08 13:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432087,7 +432100,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 13:25",
+    "at": "2026-11-08 13:28",
     "pri": {
       "days": 0,
       "failed": [],
