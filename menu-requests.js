@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4897,
- "updatedAt": "2026-11-08 15:07",
+ "version": 4898,
+ "updatedAt": "2026-11-08 16:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1794123547.420129",
+   "date": "2026-11-08",
+   "time": "16:39",
+   "store": "우현횟집",
+   "biz": "3766700875",
+   "pos": "토스포스",
+   "content": "추가메뉴-스끼다시추가\n메뉴안에 세부적으로 \n구이\n튀김\n알밥\n콘치즈\n선택할수있게 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794123547420129"
+  },
   {
    "ts": "1794066439.939489",
    "date": "2026-11-08",
