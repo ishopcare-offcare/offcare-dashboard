@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31175,
+  "version": 31176,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,11 +312835,22 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "김현기": 2
+          "김현기": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:45",
+          "store": "오디오씨(ODOC)",
+          "biz": "5971902561",
+          "cat": "as",
+          "emp": "김현기",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1790227906161529?thread_ts=1790223886.875249&amp;cid=C09HRUSG4TX| 메이트포스 >/ 결제",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:07",
           "store": "주식회사 에스엠씨",
@@ -312867,7 +312878,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 1,
         "unknown": 0
       },
@@ -313016,21 +313027,14 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794106092.551
+        "lastSeen": 1794106246.982
       },
       "1794105655.637769": {
         "post": "1794105655.637769",
-        "lastSeen": 1794106092.551,
+        "lastSeen": 1794106246.982,
         "r": 1,
         "day": "2026-11-08",
         "idx": 0
-      },
-      "1794105954.377709": {
-        "post": "1794105954.377709",
-        "lastSeen": 1794106092.551,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 1
       }
     },
     "days": {
@@ -431889,14 +431893,15 @@ window.SLACK_DATA = {
             "store": "오디오씨(ODOC)",
             "biz": "5971902561",
             "who": "김현기",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-08 11:48",
+    "at": "2026-11-08 11:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432049,7 +432054,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 11:48",
+    "at": "2026-11-08 11:50",
     "pri": {
       "days": 0,
       "failed": [],
