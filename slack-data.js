@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31287,
+  "version": 31288,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313125,16 +313125,16 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "19:04",
+      "updatedAt": "20:58",
       "voc": {
-        "responses": 16,
+        "responses": 17,
         "install": {
           "count": 6,
           "low": 1
         },
         "nps": {
-          "count": 16,
-          "low": 3
+          "count": 17,
+          "low": 4
         },
         "high": {
           "install": 4,
@@ -313143,7 +313143,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "4": 1,
-          "5": 1,
+          "5": 2,
           "8": 1,
           "10": 12
         },
@@ -313159,12 +313159,12 @@ window.SLACK_DATA = {
           "요식업": 2
         },
         "byTenure": {
+          "6개월": {
+            "total": 3,
+            "low": 2
+          },
           "구매설치": {
             "total": 6,
-            "low": 1
-          },
-          "6개월": {
-            "total": 2,
             "low": 1
           },
           "1개월": {
@@ -313181,6 +313181,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 2,
+            "low": 1
+          },
           "KIS": {
             "total": 3,
             "low": 1
@@ -313204,18 +313208,36 @@ window.SLACK_DATA = {
           "SMARTRO": {
             "total": 1,
             "low": 0
-          },
-          "SECTA9": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 3,
           "필요한 기능이 없거나 몰라서 불편": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "20:58",
+            "store": "땡겨떡볶이",
+            "storeId": "459711",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "용지를 택배로 받는데 몇개 안주면서 착불이라 용지때문에 비추",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "17:27",
             "store": "햇빛미술실 미술교습소",
@@ -313399,7 +313421,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794138349.519
+        "lastSeen": 1794139142.361
       }
     },
     "days": {
@@ -432393,7 +432415,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 20:46",
+    "at": "2026-11-08 20:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432546,7 +432568,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 20:45",
+    "at": "2026-11-08 20:59",
     "pri": {
       "days": 0,
       "failed": [],
