@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31329,
+  "version": 31330,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313433,7 +313433,10 @@ window.SLACK_DATA = {
       },
       "1794171600.209789": {
         "post": "1794171600.209789",
-        "lastSeen": 1794171640.32
+        "lastSeen": 1794172525.807,
+        "r": 1,
+        "day": "2026-11-09",
+        "idx": 0
       }
     },
     "days": {
@@ -432423,11 +432426,26 @@ window.SLACK_DATA = {
             "dmin": 148
           }
         ]
+      },
+      "2026-11-09": {
+        "cnt": 1,
+        "sumMin": 8.047561848163605,
+        "over": 0,
+        "items": [
+          {
+            "hm": "06:00",
+            "min": 8,
+            "store": "지코바 강일1호점",
+            "biz": "3512502495",
+            "who": "김동욱",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-09 06:00",
+    "at": "2026-11-09 06:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432581,7 +432599,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 06:00",
+    "at": "2026-11-09 06:15",
     "pri": {
       "days": 0,
       "failed": [],
