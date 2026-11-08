@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31256,
+  "version": 31257,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313064,22 +313064,23 @@ window.SLACK_DATA = {
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "16:46",
+      "updatedAt": "17:01",
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
           "count": 5,
           "low": 1
         },
         "nps": {
-          "count": 12,
-          "low": 1
+          "count": 13,
+          "low": 2
         },
         "high": {
           "install": 3,
           "nps": 10
         },
         "npsDist": {
+          "0": 1,
           "5": 1,
           "8": 1,
           "10": 10
@@ -313096,6 +313097,10 @@ window.SLACK_DATA = {
           "도소매": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 3,
+            "low": 1
+          },
           "6개월": {
             "total": 1,
             "low": 0
@@ -313111,20 +313116,16 @@ window.SLACK_DATA = {
           "12개월": {
             "total": 3,
             "low": 1
-          },
-          "3개월": {
-            "total": 2,
-            "low": 0
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 5,
+            "low": 2
+          },
           "KIS": {
             "total": 1,
             "low": 0
-          },
-          "KOCES": {
-            "total": 4,
-            "low": 1
           },
           "KPN": {
             "total": 3,
@@ -313148,10 +313149,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "단말기 설치나 초기 과정이 어려움": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "17:01",
+            "store": "세움피지오운동센터",
+            "storeId": "585234",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "기능도 빈약하고 회원권을 사용하는 업장은 이거 쓰면 안될듯 스튜디오메이트 쓰다가 이거 쓰려니 답답해서 못쓰고 회원 정보도 폰번호 봐뀌면 수정도 못함 식당에서만 쓰세요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:53",
             "store": "포케앤바",
@@ -313308,11 +313332,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794124862.984
+        "lastSeen": 1794124933.395
       },
       "1794123547.420129": {
         "post": "1794123547.420129",
-        "lastSeen": 1794124862.984
+        "lastSeen": 1794124933.395
       }
     },
     "days": {
@@ -432270,7 +432294,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 17:01",
+    "at": "2026-11-08 17:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432423,7 +432447,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 17:01",
+    "at": "2026-11-08 17:02",
     "pri": {
       "days": 0,
       "failed": [],
