@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31275,
+  "version": 31276,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -312835,12 +312835,24 @@ window.SLACK_DATA = {
     "2026-11-08": {
       "counts": {
         "as": {
-          "서상원": 13,
+          "서상원": 14,
           "김현기": 7
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:28",
+          "store": "만야수산",
+          "biz": "3534101570",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "유프 지속적인 비프음 발생 및 작동 불가로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "에러불 점등 교체 cpp3000",
+          "rr": 1
+        },
         {
           "time": "18:22",
           "store": "안크레",
@@ -313084,7 +313096,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 3,
         "unknown": 0
       },
@@ -313362,18 +313374,11 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794131195.526
+        "lastSeen": 1794131285.324
       },
       "1794123547.420129": {
         "post": "1794123547.420129",
-        "lastSeen": 1794131195.526
-      },
-      "1794130104.177059": {
-        "post": "1794130104.177059",
-        "lastSeen": 1794131195.526,
-        "r": 1,
-        "day": "2026-11-08",
-        "idx": 14
+        "lastSeen": 1794131285.324
       }
     },
     "days": {
@@ -432350,14 +432355,15 @@ window.SLACK_DATA = {
             "store": "만야수산",
             "biz": "3534101570",
             "who": "서상원",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 18.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-08 18:46",
+    "at": "2026-11-08 18:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432510,7 +432516,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 18:46",
+    "at": "2026-11-08 18:48",
     "pri": {
       "days": 0,
       "failed": [],
