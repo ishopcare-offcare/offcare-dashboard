@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31157,
+  "version": 31158,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311991,27 +311991,14 @@ window.SLACK_DATA = {
           "미지정": 4
         },
         "menu": {
-          "서상원": 2,
-          "김현기": 1
+          "김현기": 2,
+          "서상원": 2
         },
         "delivery": {
           "서상원": 1
         }
       },
-      "pending": [
-        {
-          "time": "00:47",
-          "store": "히르엘르",
-          "biz": "2627800591",
-          "handler": "김현기",
-          "cat": "menu",
-          "intake": "online",
-          "req": "",
-          "reasons": [
-            "확인 후 미완료"
-          ]
-        }
-      ],
+      "pending": [],
       "done": [
         {
           "time": "21:18",
@@ -312674,6 +312661,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "개인 갤럭시탭 재온보딩 완료",
           "rr": 1
+        },
+        {
+          "time": "00:47",
+          "store": "히르엘르",
+          "biz": "2627800591",
+          "cat": "menu",
+          "emp": "김현기",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "작업완료",
+          "rr": 2
         }
       ],
       "intake": {
@@ -312969,7 +312968,7 @@ window.SLACK_DATA = {
       },
       "1794096048.823919": {
         "post": "1794096048.823919",
-        "lastSeen": 1794101950.377
+        "lastSeen": 1794102029.702
       }
     },
     "days": {
@@ -431812,7 +431811,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-08 10:39",
+    "at": "2026-11-08 10:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -431965,7 +431964,7 @@ window.SLACK_DATA = {
     "2026-11-08": 2
   },
   "noteMig": {
-    "at": "2026-11-08 10:39",
+    "at": "2026-11-08 10:40",
     "pri": {
       "days": 0,
       "failed": [],
