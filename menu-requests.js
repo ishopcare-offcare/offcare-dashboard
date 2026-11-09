@@ -3,10 +3,177 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4929,
- "updatedAt": "2026-11-09 12:59",
+ "version": 4930,
+ "updatedAt": "2026-11-09 13:14",
  "days": 30,
  "items": [
+  {
+   "ts": "1794197595.701299",
+   "date": "2026-11-09",
+   "time": "13:13",
+   "store": "아구듬뿍&알곤마니 현리점",
+   "biz": "3295500876",
+   "pos": "",
+   "content": "전체 메뉴 변경 (업종변경)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261109_113259349.png",
+     "fid": "F0CFTNYJB8B",
+     "from": "댓글",
+     "path": "menu-files/1794197595_701299-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "순살 아구찜",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "순살 아구찜",
+       "price": 46000
+      },
+      {
+       "category": "",
+       "name": "순살 아구찜",
+       "price": 56000
+      },
+      {
+       "category": "",
+       "name": "살아니 아구찜",
+       "price": 36000
+      },
+      {
+       "category": "",
+       "name": "살아니 아구찜",
+       "price": 44000
+      },
+      {
+       "category": "",
+       "name": "살아니 아구찜",
+       "price": 54000
+      },
+      {
+       "category": "",
+       "name": "우삼겹 아구찜",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "우삼겹 아구찜",
+       "price": 46000
+      },
+      {
+       "category": "",
+       "name": "우삼겹 아구찜",
+       "price": 56000
+      },
+      {
+       "category": "",
+       "name": "보양식 낙지찜",
+       "price": 44000
+      },
+      {
+       "category": "",
+       "name": "보양식 낙지찜",
+       "price": 52000
+      },
+      {
+       "category": "",
+       "name": "보양식 낙지찜",
+       "price": 61000
+      },
+      {
+       "category": "",
+       "name": "아구 해물찜",
+       "price": 47000
+      },
+      {
+       "category": "",
+       "name": "아구 해물찜",
+       "price": 56000
+      },
+      {
+       "category": "",
+       "name": "아구 해물찜",
+       "price": 66000
+      },
+      {
+       "category": "",
+       "name": "알곤가득 알곤찜",
+       "price": 38000
+      },
+      {
+       "category": "",
+       "name": "알곤가득 알곤찜",
+       "price": 48000
+      },
+      {
+       "category": "",
+       "name": "알곤가득 알곤찜",
+       "price": 58000
+      },
+      {
+       "category": "",
+       "name": "대구뽈찜",
+       "price": 36000
+      },
+      {
+       "category": "",
+       "name": "대구뽈찜",
+       "price": 43000
+      },
+      {
+       "category": "",
+       "name": "대구뽈찜",
+       "price": 51000
+      },
+      {
+       "category": "",
+       "name": "대구뽈탕",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "알곤이탕",
+       "price": 13000
+      },
+      {
+       "category": "점심특선",
+       "name": "아구찜 정식 1인",
+       "price": 12000
+      },
+      {
+       "category": "점심특선",
+       "name": "대구뽈탕",
+       "price": 9000
+      },
+      {
+       "category": "점심특선",
+       "name": "알곤이탕",
+       "price": 9000
+      },
+      {
+       "category": "점심특선",
+       "name": "동태탕",
+       "price": 9000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794197607.322069",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794197595701299"
+  },
   {
    "ts": "1794196189.859269",
    "date": "2026-11-09",
