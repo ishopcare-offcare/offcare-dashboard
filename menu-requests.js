@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4924,
- "updatedAt": "2026-11-09 11:50",
+ "version": 4925,
+ "updatedAt": "2026-11-09 11:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1794192845.388889",
+   "date": "2026-11-09",
+   "time": "11:54",
+   "store": "미나리본 국밥",
+   "biz": "6451601031",
+   "pos": "",
+   "content": "가격수정",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "참이슬(후레쉬) 5000원\n처음처럼 5000원\n새로 5000원\n진로이즈백 5000원\n찰랑 5000원\n청하 6000원\n카스 6000원\n테라 6000원\n복분자 15000원"
+   ],
+   "rc": 1,
+   "lr": "1794192857.302839",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794192845388889"
+  },
   {
    "ts": "1794192495.039179",
    "date": "2026-11-09",
@@ -20,11 +43,13 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "메뉴수정 및 통화완료"
+   ],
+   "rc": 1,
+   "lr": "1794192865.061609",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794192495039179"
   },
