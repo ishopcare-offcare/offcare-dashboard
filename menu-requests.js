@@ -3,10 +3,249 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4904,
- "updatedAt": "2026-11-09 07:01",
+ "version": 4905,
+ "updatedAt": "2026-11-09 10:04",
  "days": 30,
  "items": [
+  {
+   "ts": "1794186204.152119",
+   "date": "2026-11-09",
+   "time": "10:03",
+   "store": "달체당",
+   "biz": "8512502184",
+   "pos": "토스포스",
+   "content": "전체적인메뉴등록",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1y6T7STuIQYvsoDnywXRzk7YYmqSoACex/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1QN_qHE98dXX5HdTPoGnp5NUqUrFxSk31/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1y6T7STuIQYvsoDnywXRzk7YYmqSoACex",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "로스팅에 진심인 아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "폭신한 거품 카푸치노",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "고소함 가득 카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "사장님이 제일 자신 있는 바닐라라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "향에 반하는 헤이즐넛라떼",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "달콤함을 참지 못한 돌체라떼",
+       "price": 5300
+      },
+      {
+       "category": "Coffee",
+       "name": "쌉싸름하게 진한 말차라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "진한 초코가 다 한 초코라떼",
+       "price": 3800
+      },
+      {
+       "category": "Ade",
+       "name": "톡! 레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "상큼톡톡 자몽에이드",
+       "price": 5800
+      },
+      {
+       "category": "Ade",
+       "name": "청량 끝판왕 청포도에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "아이부터 어른까지 좋아하는 청포도아이스티",
+       "price": 3500
+      },
+      {
+       "category": "Ade",
+       "name": "복숭아 향 가득 아이스티",
+       "price": 3500
+      },
+      {
+       "category": "Smoothie",
+       "name": "꾸덕상큼 플레인요거트스무디",
+       "price": 5000
+      },
+      {
+       "category": "Smoothie",
+       "name": "보랏빛 상큼함 블루베리스무디",
+       "price": 5500
+      },
+      {
+       "category": "Smoothie",
+       "name": "딸기 좋아하면 무조건 딸기스무디",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "달콤향긋 허니자몽블랙티",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "입안이 시원한 페퍼민트",
+       "price": 4500
+      },
+      {
+       "category": "Tea",
+       "name": "향긋함의 정석 얼그레이",
+       "price": 4500
+      },
+      {
+       "category": "Tea",
+       "name": "마음까지 포근한 캐모마일",
+       "price": 4500
+      },
+      {
+       "category": "Signature",
+       "name": "달콤하게 버무린 누룽지",
+       "price": 3000
+      },
+      {
+       "category": "Signature",
+       "name": "옛날식 구수한 냉율무차",
+       "price": 5500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "id": "1QN_qHE98dXX5HdTPoGnp5NUqUrFxSk31",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "딸기 1호",
+       "price": 39000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "딸기 2호",
+       "price": 49000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "망고 1호",
+       "price": 39000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "망고 2호",
+       "price": 49000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "제철과일 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "제철과일 2호",
+       "price": 45000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "고구마 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "고구마 2호",
+       "price": 45000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "마틸다 초코 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "마틸다 초코 2호",
+       "price": 45000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "오레오초코 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "오레오초코 2호",
+       "price": 45000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "떠먹는 보틀케이크",
+       "price": 8500
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "후르츠산도",
+       "price": 8500
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "ONLY 크림치즈바스크",
+       "price": 12000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "르뱅쿠키",
+       "price": 4000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "마들렌 / 브라우니",
+       "price": 3000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "휘낭시에",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794186204152119"
+  },
   {
    "ts": "1794142822.590639",
    "date": "2026-11-08",
