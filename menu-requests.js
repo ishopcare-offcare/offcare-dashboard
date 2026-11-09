@@ -3,10 +3,322 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4911,
- "updatedAt": "2026-11-09 10:29",
+ "version": 4912,
+ "updatedAt": "2026-11-09 10:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1794187819.686959",
+   "date": "2026-11-09",
+   "time": "10:30",
+   "store": "티룸제이드",
+   "biz": "7666000220",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Resized_20261109_102844.jpg",
+     "fid": "F0CFSUM9WF5",
+     "from": "댓글",
+     "path": "menu-files/1794187819_686959-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "밀크티·Milk Tea",
+       "name": "로열 밀크티",
+       "price": 6000
+      },
+      {
+       "category": "밀크티·Milk Tea",
+       "name": "로열 밀크티(보틀)",
+       "price": 6500
+      },
+      {
+       "category": "밀크티·Milk Tea",
+       "name": "제이드 밀크티",
+       "price": 7000
+      },
+      {
+       "category": "밀크티·Milk Tea",
+       "name": "티 카푸치노",
+       "price": 8000
+      },
+      {
+       "category": "밀크티·Milk Tea",
+       "name": "스페셜 밀크티",
+       "price": 8000
+      },
+      {
+       "category": "밀크티·Milk Tea",
+       "name": "디카페인 밀크티",
+       "price": 8000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "허브티 (Hot/Cold)",
+       "price": 5000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "자스민차/우롱차",
+       "price": 5500
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "과일에이드",
+       "price": 6000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "수제과일차 (Hot/Cold)",
+       "price": 5500
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "말차라떼",
+       "price": 6000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "핫/아이스초코",
+       "price": 5500
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "플레인요거트스무디",
+       "price": 6000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "달콤복숭아아이스티",
+       "price": 5000
+      },
+      {
+       "category": "음료·Beverages",
+       "name": "블루베리요거트스무디",
+       "price": 6500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261109_102847.jpg",
+     "fid": "F0CG2SL2Z4L",
+     "from": "댓글",
+     "path": "menu-files/1794187819_686959-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "홍차·Tea",
+       "name": "오늘의 홍차",
+       "price": 6000
+      },
+      {
+       "category": "스트레이트 티",
+       "name": "다즐링 Darjeeling",
+       "price": 8000
+      },
+      {
+       "category": "스트레이트 티",
+       "name": "기문 Keemun",
+       "price": 8000
+      },
+      {
+       "category": "스트레이트 티",
+       "name": "우바 Uva",
+       "price": 8000
+      },
+      {
+       "category": "스트레이트 티",
+       "name": "아쌈 Assam",
+       "price": 8000
+      },
+      {
+       "category": "스트레이트 티",
+       "name": "정산소종/랍상소총 Lapsang Souchong",
+       "price": 8000
+      },
+      {
+       "category": "스트레이트 티",
+       "name": "르완다 Rwanda",
+       "price": 8000
+      },
+      {
+       "category": "블렌디드 티",
+       "name": "잉글리시 브렉퍼스트 English Breakfast",
+       "price": 7000
+      },
+      {
+       "category": "블렌디드 티",
+       "name": "애프터눈 실론 Afternoon Ceylon",
+       "price": 7000
+      },
+      {
+       "category": "블렌디드 티",
+       "name": "퀸 앤 Queen Anne",
+       "price": 7000
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261109_102850.jpg",
+     "fid": "F0CFX6ZTGG6",
+     "from": "댓글",
+     "path": "menu-files/1794187819_686959-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "제이드의 홍차들",
+       "name": "사쿠람보 Sakurambo",
+       "price": 7000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "마르코 폴로 Marco Polo",
+       "price": 7000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "웨딩 임페리얼 Wedding Imperial",
+       "price": 7000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "얼 그레이 Earl Grey",
+       "price": 7000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "로즈 포우총 Rose Pouchong",
+       "price": 8000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "모모우롱 Momo Oolong",
+       "price": 8000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "디카페인 홍차",
+       "price": 8000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "아이스 홍차",
+       "price": 7000
+      },
+      {
+       "category": "제이드의 홍차들",
+       "name": "과일 아이스 홍차",
+       "price": 7500
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "Resized_20261109_102838[1].jpg",
+     "fid": "F0CFTSSCPEH",
+     "from": "댓글",
+     "path": "menu-files/1794187819_686959-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피·Coffee",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "아이스 아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "헤이즐넛",
+       "price": 4500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "카푸치노",
+       "price": 5500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "카라멜마끼아또",
+       "price": 5500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "카페모카",
+       "price": 5500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "바닐라라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "헤이즐넛라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "연유라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피·Coffee",
+       "name": "허니시나몬라떼",
+       "price": 6000
+      },
+      {
+       "category": "베이커리·Bakery",
+       "name": "스콘",
+       "price": 4000
+      },
+      {
+       "category": "베이커리·Bakery",
+       "name": "플레인 스콘",
+       "price": 3500
+      },
+      {
+       "category": "베이커리·Bakery",
+       "name": "쿠키류",
+       "price": 4000
+      },
+      {
+       "category": "베이커리·Bakery",
+       "name": "카스테라",
+       "price": 3000
+      }
+     ],
+     "v": 2
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794187839.866449",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794187819686959"
+  },
   {
    "ts": "1794187701.069349",
    "date": "2026-11-09",
