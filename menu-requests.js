@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4934,
- "updatedAt": "2026-11-09 13:27",
+ "version": 4935,
+ "updatedAt": "2026-11-09 13:28",
  "days": 30,
  "items": [
   {
@@ -168,10 +168,11 @@ window.MENU_REQUESTS = {
    "datt": [],
    "replies": [
     "님안녕하세요\n음료 2000원\n소주 맥주 막걸리 4000원 이라고 합니다 .",
-    "메뉴등록 링크는\n더이상 안쓰는거죠?\n네트워크오류 계속뜨더라고요"
+    "메뉴등록 링크는\n더이상 안쓰는거죠?\n네트워크오류 계속뜨더라고요",
+    "모바일 : https://menu-registration.vercel.app/\npc : https://menu-registration.vercel.app"
    ],
-   "rc": 5,
-   "lr": "1794198419.193149",
+   "rc": 9,
+   "lr": "1794198494.556939",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
