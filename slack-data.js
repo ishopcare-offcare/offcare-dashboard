@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31368,
+  "version": 31369,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313371,7 +313371,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "배선유": 1,
-          "김동욱": 1
+          "김동욱": 1,
+          "미지정": 1
         },
         "booking": {
           "송태양": 1
@@ -313395,6 +313396,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:03",
+          "store": "달체당",
+          "biz": "8512502184",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:34",
           "store": "카페 잇썸",
@@ -313445,7 +313457,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -313502,25 +313514,21 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794186220.812
+        "lastSeen": 1794186336.064
       },
       "1794186004.114919": {
         "post": "1794186004.114919",
-        "lastSeen": 1794186220.812,
+        "lastSeen": 1794186336.064,
         "r": 1,
         "day": "2026-11-09",
         "idx": 3
       },
       "1794186072.329809": {
         "post": "1794186072.329809",
-        "lastSeen": 1794186220.812,
+        "lastSeen": 1794186336.064,
         "r": 1,
         "day": "2026-11-09",
         "idx": 2
-      },
-      "1794186204.152119": {
-        "post": "1794186204.152119",
-        "lastSeen": 1794186220.812
       }
     },
     "days": {
@@ -432512,8 +432520,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-09": {
-        "cnt": 4,
-        "sumMin": 25.705371733506524,
+        "cnt": 5,
+        "sumMin": 26.9434697508812,
         "over": 0,
         "items": [
           {
@@ -432549,13 +432557,22 @@ window.SLACK_DATA = {
             "biz": "2620203841",
             "who": "김동욱",
             "cat": "as"
+          },
+          {
+            "hm": "10:03",
+            "min": 1.2,
+            "store": "달체당",
+            "biz": "8512502184",
+            "who": "",
+            "cat": "as",
+            "dmin": 1.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-09 10:04",
+    "at": "2026-11-09 10:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432709,7 +432726,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 10:03",
+    "at": "2026-11-09 10:05",
     "pri": {
       "days": 0,
       "failed": [],
