@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31454,
+  "version": 31455,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313371,7 +313371,7 @@ window.SLACK_DATA = {
     "2026-11-09": {
       "counts": {
         "as": {
-          "배선유": 6,
+          "배선유": 7,
           "송태양": 4,
           "심성현": 4,
           "서상원": 4,
@@ -313415,6 +313415,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "12:23",
+          "store": "아이옷상점byssong",
+          "biz": "3460701961",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "노트북에서 토스포스 사용 중 / 최근 장치 추가에서 악세사리 설정 관련 된 메세지가 뜬다고 하셔서 확인 부탁 드립니다! (지금도 뜨고 있는 상황)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:09",
           "store": "이헤어플러스",
@@ -313933,7 +313944,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 37,
+        "online": 38,
         "offline": 8,
         "unknown": 0
       },
@@ -314000,25 +314011,25 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794194727.737
+        "lastSeen": 1794194883.327
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794194727.737,
+        "lastSeen": 1794194883.327,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
       },
       "1794193595.375089": {
         "post": "1794193595.375089",
-        "lastSeen": 1794194727.737,
+        "lastSeen": 1794194883.327,
         "r": 1,
         "day": "2026-11-09",
         "idx": 29
       },
       "1794193875.067899": {
         "post": "1794193875.067899",
-        "lastSeen": 1794194727.737,
+        "lastSeen": 1794194883.327,
         "r": 1,
         "day": "2026-11-09",
         "idx": 30
@@ -433298,13 +433309,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 12:25",
+    "at": "2026-11-09 12:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4946,
+    "rows": 4947,
     "named": 1273,
     "unknownName": 335,
     "beforeStart": 0,
@@ -433452,7 +433463,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 12:25",
+    "at": "2026-11-09 12:28",
     "pri": {
       "days": 0,
       "failed": [],
