@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4931,
- "updatedAt": "2026-11-09 13:20",
+ "version": 4932,
+ "updatedAt": "2026-11-09 13:24",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261109_113259349.png",
      "fid": "F0CFTNYJB8B",
      "from": "댓글",
-     "path": "menu-files/1794197595_701299-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -162,13 +161,16 @@ window.MENU_REQUESTS = {
        "price": 9000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794197595_701299-0.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1794197607.322069",
+   "replies": [
+    "님안녕하세요\n음료 2000원\n소주 맥주 막걸리 4000원 이라고 합니다 ."
+   ],
+   "rc": 2,
+   "lr": "1794198236.956439",
    "rfx": 3,
    "status": "confirm",
    "handler": "김동욱",
