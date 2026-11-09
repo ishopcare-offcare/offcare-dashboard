@@ -3,10 +3,152 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4925,
- "updatedAt": "2026-11-09 11:55",
+ "version": 4926,
+ "updatedAt": "2026-11-09 12:25",
  "days": 30,
  "items": [
+  {
+   "ts": "1794194637.014869",
+   "date": "2026-11-09",
+   "time": "12:23",
+   "store": "국밥이 끌리네",
+   "biz": "6651602655",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "국밥이끌리네.jpg",
+     "fid": "F0CFTG41F8B",
+     "from": "댓글",
+     "path": "menu-files/1794194637_014869-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "돼지국밥",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "순대국밥 (고기+순대)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "온 순대국밥 (순대만)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "수육백반",
+       "price": 12000
+      },
+      {
+       "category": "",
+       "name": "고기만두",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "공깃밥",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "맛보기수육",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "모둠순대",
+       "price": 13000
+      },
+      {
+       "category": "",
+       "name": "수육 (소)",
+       "price": 26000
+      },
+      {
+       "category": "",
+       "name": "수육 (중)",
+       "price": 33000
+      },
+      {
+       "category": "",
+       "name": "수육 (대)",
+       "price": 40000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "1인세트 ① 국밥+맛보기수육",
+       "price": 15000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "1인세트 ② 국밥+미니순대",
+       "price": 15000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "2인세트 ① 국밥2+수육소",
+       "price": 45000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "2인세트 ② 국밥2+미니순대",
+       "price": 25000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "3인세트 ① 국밥3+수육소+미니순대",
+       "price": 60000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "3인세트 ② 〃 +모둠순대+맛보기수육",
+       "price": 51000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "4인세트 ① 국밥4+수육大",
+       "price": 78000
+      },
+      {
+       "category": "새 뉴 메뉴",
+       "name": "4인세트 ② 〃 수육소+미니순대",
+       "price": 70000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794194655.291249",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794194637014869"
+  },
   {
    "ts": "1794192845.388889",
    "date": "2026-11-09",
