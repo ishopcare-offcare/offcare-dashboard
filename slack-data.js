@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31675,
+  "version": 31676,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -315344,7 +315344,7 @@ window.SLACK_DATA = {
         "offline": 35,
         "unknown": 0
       },
-      "updatedAt": "18:22",
+      "updatedAt": "18:30",
       "absent": [
         {
           "time": "14:50",
@@ -315372,13 +315372,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
-          "count": 0,
+          "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 6,
+          "count": 7,
           "low": 3
         },
         "high": {
@@ -315390,12 +315390,20 @@ window.SLACK_DATA = {
           "2": 1,
           "5": 1,
           "6": 1,
-          "8": 1,
+          "8": 2,
           "10": 1
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "4": 1
+        },
+        "byIndustry": {
+          "서비스[학원]": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 0
+          },
           "1개월": {
             "total": 3,
             "low": 2
@@ -315414,11 +315422,11 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "KPN": {
-            "total": 2,
+          "KOCES": {
+            "total": 3,
             "low": 1
           },
-          "KOCES": {
+          "KPN": {
             "total": 2,
             "low": 1
           },
@@ -315499,7 +315507,20 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "18:30",
+            "store": "철산Jin복싱클럽",
+            "storeId": "734922",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 4,
+            "nps": 8,
+            "text": "통화로 간단설명가능 깔끙해보이네요",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -315527,40 +315548,40 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794216623.737
+        "lastSeen": 1794216683.612
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794216623.737,
+        "lastSeen": 1794216683.612,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
       },
       "1794201350.723329": {
         "post": "1794201350.723329",
-        "lastSeen": 1794216623.737,
+        "lastSeen": 1794216683.612,
         "r": 1,
         "day": "2026-11-09",
         "idx": 59
       },
       "1794202741.367999": {
         "post": "1794202741.367999",
-        "lastSeen": 1794216623.737
+        "lastSeen": 1794216683.612
       },
       "1794206924.076869": {
         "post": "1794206924.076869",
-        "lastSeen": 1794216623.737,
+        "lastSeen": 1794216683.612,
         "r": 1,
         "day": "2026-11-09",
         "idx": 78
       },
       "1794203459.319719": {
         "post": "1794203459.319719",
-        "lastSeen": 1794216623.737
+        "lastSeen": 1794216683.612
       },
       "1794215767.976229": {
         "post": "1794215767.976229",
-        "lastSeen": 1794216623.737,
+        "lastSeen": 1794216683.612,
         "r": 1,
         "day": "2026-11-09",
         "idx": 122
@@ -435676,7 +435697,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 18:30",
+    "at": "2026-11-09 18:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -435830,7 +435851,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 18:30",
+    "at": "2026-11-09 18:31",
     "pri": {
       "days": 0,
       "failed": [],
