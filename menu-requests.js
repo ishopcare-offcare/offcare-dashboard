@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4944,
- "updatedAt": "2026-11-09 14:30",
+ "version": 4945,
+ "updatedAt": "2026-11-09 14:34",
  "days": 30,
  "items": [
   {
@@ -20,9 +20,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료 / 솔라피전송 배경화면 수정방법 교육위해 전화드렸으나 부재"
+   ],
+   "rc": 1,
+   "lr": "1794202372.644969",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
