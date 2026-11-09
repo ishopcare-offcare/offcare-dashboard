@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4948,
- "updatedAt": "2026-11-09 14:40",
+ "version": 4949,
+ "updatedAt": "2026-11-09 14:45",
  "days": 30,
  "items": [
+  {
+   "ts": "1794203084.857819",
+   "date": "2026-11-09",
+   "time": "14:44",
+   "store": "족발광역시 매곡직영점",
+   "biz": "1318558797",
+   "pos": "",
+   "content": "메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• ‘계절한정메뉴’ 카테고리 추가 > ‘생굴’ 메뉴 추가 (15,000원)"
+   ],
+   "rc": 1,
+   "lr": "1794203108.941669",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794203084857819"
+  },
   {
    "ts": "1794202741.367999",
    "date": "2026-11-09",
