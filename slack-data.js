@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31651,
+  "version": 31652,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -315247,7 +315247,7 @@ window.SLACK_DATA = {
         "offline": 33,
         "unknown": 0
       },
-      "updatedAt": "17:44",
+      "updatedAt": "17:52",
       "absent": [
         {
           "time": "14:50",
@@ -315275,14 +315275,14 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 4,
+        "responses": 5,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 4,
-          "low": 1
+          "count": 5,
+          "low": 2
         },
         "high": {
           "install": 0,
@@ -315290,6 +315290,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
+          "2": 1,
           "6": 1,
           "8": 1,
           "10": 1
@@ -315297,13 +315298,13 @@ window.SLACK_DATA = {
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "1개월": {
+            "total": 2,
+            "low": 1
+          },
           "6개월": {
             "total": 1,
             "low": 1
-          },
-          "1개월": {
-            "total": 1,
-            "low": 0
           },
           "12개월": {
             "total": 1,
@@ -315315,6 +315316,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 2,
+            "low": 1
+          },
           "SMARTRO": {
             "total": 2,
             "low": 1
@@ -315322,16 +315327,35 @@ window.SLACK_DATA = {
           "KPN": {
             "total": 1,
             "low": 0
-          },
-          "KOCES": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "사용중 오류가 자주 발생함": 1
         },
         "alerts": [
+          {
+            "time": "17:52",
+            "store": "꽃보다예쁜손",
+            "storeId": "627891",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 2,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 2,
+                "text": "어플을 켜서 함께 써야하는 시스템이 네일샵에는 불편하네요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "17:04",
             "store": "오스테리아 리보(Osteria Rivo)",
@@ -315383,61 +315407,61 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794214256.496
+        "lastSeen": 1794214372.513
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794214256.496,
+        "lastSeen": 1794214372.513,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
       },
       "1794201350.723329": {
         "post": "1794201350.723329",
-        "lastSeen": 1794214256.496,
+        "lastSeen": 1794214372.513,
         "r": 1,
         "day": "2026-11-09",
         "idx": 59
       },
       "1794202200.947449": {
         "post": "1794202200.947449",
-        "lastSeen": 1794214256.496,
+        "lastSeen": 1794214372.513,
         "r": 1,
         "day": "2026-11-09",
         "idx": 61
       },
       "1794202741.367999": {
         "post": "1794202741.367999",
-        "lastSeen": 1794214256.496
+        "lastSeen": 1794214372.513
       },
       "1794206924.076869": {
         "post": "1794206924.076869",
-        "lastSeen": 1794214256.496,
+        "lastSeen": 1794214372.513,
         "r": 1,
         "day": "2026-11-09",
         "idx": 78
       },
       "1794203459.319719": {
         "post": "1794203459.319719",
-        "lastSeen": 1794214256.496
+        "lastSeen": 1794214372.513
       },
       "1794212592.766209": {
         "post": "1794212592.766209",
-        "lastSeen": 1794214256.496,
+        "lastSeen": 1794214372.513,
         "r": 1,
         "day": "2026-11-09",
         "idx": 113
       },
       "1794213366.290859": {
         "post": "1794213366.290859",
-        "lastSeen": 1794214256.496,
+        "lastSeen": 1794214372.513,
         "r": 1,
         "day": "2026-11-09",
         "idx": 116
       },
       "1794213869.884809": {
         "post": "1794213869.884809",
-        "lastSeen": 1794214256.496
+        "lastSeen": 1794214372.513
       }
     },
     "days": {
@@ -435485,7 +435509,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 17:51",
+    "at": "2026-11-09 17:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -435639,7 +435663,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 17:50",
+    "at": "2026-11-09 17:52",
     "pri": {
       "days": 0,
       "failed": [],
