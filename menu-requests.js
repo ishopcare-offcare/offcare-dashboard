@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4918,
- "updatedAt": "2026-11-09 11:03",
+ "version": 4919,
+ "updatedAt": "2026-11-09 11:09",
  "days": 30,
  "items": [
   {
@@ -356,7 +356,6 @@ window.MENU_REQUESTS = {
      "name": "20261109_102535.jpg",
      "fid": "F0CG148R2E5",
      "from": "댓글",
-     "path": "menu-files/1794187701_069349-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -1260,13 +1259,13 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187701_069349-0.jpg"
     },
     {
      "name": "20261109_102540.jpg",
      "fid": "F0CFTU4H9V3",
      "from": "댓글",
-     "path": "menu-files/1794187701_069349-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -2128,13 +2127,13 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187701_069349-1.jpg"
     },
     {
      "name": "20261109_102545.jpg",
      "fid": "F0CG149P62V",
      "from": "댓글",
-     "path": "menu-files/1794187701_069349-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -2396,13 +2395,13 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187701_069349-2.jpg"
     },
     {
      "name": "20261109_102549.jpg",
      "fid": "F0CGTJDDXGQ",
      "from": "댓글",
-     "path": "menu-files/1794187701_069349-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -2808,6 +2807,16 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
+     "v": 2,
+     "path": "menu-files/1794187701_069349-3.jpg"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CG333CT5J",
+     "from": "댓글",
+     "path": "menu-files/1794187701_069349-4.png",
+     "kind": "other",
+     "menu": [],
      "v": 2
     }
    ],
@@ -2817,8 +2826,8 @@ window.MENU_REQUESTS = {
     "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1794187589222589?thread_ts=···.643769&cid=C0A7CLLANP7",
     "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1794187625599279?thread_ts=···.643769&cid=C0A7CLLANP7"
    ],
-   "rc": 4,
-   "lr": "1794188400.861439",
+   "rc": 5,
+   "lr": "1794190163.055679",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
