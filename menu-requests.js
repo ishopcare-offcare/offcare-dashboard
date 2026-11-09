@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4913,
- "updatedAt": "2026-11-09 10:36",
+ "version": 4914,
+ "updatedAt": "2026-11-09 10:43",
  "days": 30,
  "items": [
   {
@@ -330,15 +330,2474 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "20261109_102535.jpg",
+     "fid": "F0CG148R2E5",
+     "from": "댓글",
+     "path": "menu-files/1794187701_069349-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "(국산)간장깻잎",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)고추무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)곤드레장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)깻잎무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)더덕장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)돼지감자장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)된장고추",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)된장깻잎",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)명이나물장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)무말랭이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)무장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)무짠지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)질경이장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)취나물장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(국산)파래무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)구절판",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)꽃게탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)닭갈비",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)닭볶음탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)만두전골",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)밀푀유나베",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)부대찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)뼈감자탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)샤브샤브",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)순대볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)어묵탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "(홈푸드)해물탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "9겹돈까스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "가리비젓갈",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "가오리찜",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "가자미",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "가지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "간장게장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "간장고추",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "간장깻잎",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "간장새우",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "갈비찜(돼지)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "갈비찜(소고기)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "갈치구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "갈치속젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "갈치조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "감사합니다",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "감자고로케",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "감자볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "감자샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "감자전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "감자조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "갓김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "건가지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "건새우볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "건호박",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "게맛살조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "계란말이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "계란장조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "계란찜",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고구마맛탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고구마줄기볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고들빼기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고등어구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고등어구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고등어조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고사리",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추잎나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추잡채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추장 볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추장볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추장삼겹살",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "곤드레밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "곤약",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "골뱅이무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "곰취",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "과메기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "과일샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "굴무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "굴전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "궁중떡볶이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "근대나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치찜",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치콩나물국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "깍두기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "깻잎나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "깻잎전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼬마김밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼬마돈가스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼬막",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼬지전(소고기)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼬지전(햄)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼴두기젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꽁치구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꽁치조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꽃맛살샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꽈리고추",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꽈리고추멸치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "나박김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "낙지볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "낙지젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "냉이나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "녹두전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "누룩치킨",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "느타리버섯",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "다래순",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "단무지무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "단호박샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "단호박스프링롤",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭가슴살샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭강정",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭다리살볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭모래집볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭발볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭봉조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "대하튀김",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "더덕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "더덕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "도라지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "도라지 오이무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "도시락",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "도토리묵무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돈까스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돌게장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "동그랑땡",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "동치미",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "동태전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "동태찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돼지고추장불고기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돼지껍데기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돼지장조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돼지장조림메추리알",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "된장고추",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "된장국(배추)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "된장국(시레기)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "된장깻잎",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "된장찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "된장찌개(차돌)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "두부강정",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "두부부침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "두부스테이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "두부조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "떡갈비",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "떡국세트",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마늘종",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마늘종새우",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마늘종장아찌",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마늘종진미무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마카로니샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마파두부",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261109_102540.jpg",
+     "fid": "F0CFTU4H9V3",
+     "from": "댓글",
+     "path": "menu-files/1794187701_069349-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "머위나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "머위대",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "메밀전병",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "메추리알,오징어조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "메추리알완자볼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "메추리알조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "멸치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "명란젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "명엽채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "모듬쌈",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "모듬전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "무나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미나리",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미역국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미역냉국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미역줄기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "미트볼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "방풍나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "배추겉절이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "배추전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "백김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "뱅어포",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "버섯들깨탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "버섯전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "베이컨 야채말이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "보름나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "보리새우볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "보쌈",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "보쌈김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "복신지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "볶음밥재료",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "봄동걸절이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "부지깽이나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "부추겉절이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "북어국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "비름나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "비빔밥재료",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "비엔나 메추리알조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "비엔나케첩",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "뽕잎나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "산고추(정량)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "삼계탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "삼색나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "삼치구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "삼치조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "새송이버섯볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "새우감자고로케",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "생깻잎",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "생선구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "생선까스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "선지해장국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "세발나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "소고기무우국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "소불고기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "소장조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "소장조림메추리알",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "수제돈까스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "수제떡갈비",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "숙주나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "순두부찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "시금치나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "시래기나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쌀게",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쑥갓나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아몬드 멸치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아삭이고추된장무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아욱국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아주까리나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "알감자조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "알마늘",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "알밥재료",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "알타리김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "알탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "애호박나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "야채샐러드류",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "야채전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "양념강된장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "양념게장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "양념고추",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "양념깻잎",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "양념멸치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "양배추와양념된장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "어리굴젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "어묵야채볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "얼갈이나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연근,우엉조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연근샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연근샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연근조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연어샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연어장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연포탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "열무김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "열무물김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "옛날소시지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오곡밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오므라이스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오삼불고기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이냉국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이달래무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이부추무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이소박이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이양파피클",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이지",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어무국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어숙회",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어실채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어야채말이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어초무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우거지된장국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우렁된장찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우렁쌈된장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우엉잡채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우엉조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "월남쌈",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "웰빙견과류 볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "웰빙오징어젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "유부초밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "유채나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "육개장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "이연수",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "잡채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "장어포",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "제육볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "조개젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쥐채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "지리멸치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "진미무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "짜장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쭈꾸미볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "참나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "찹스테이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "창란젓",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "청국장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "청국장찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "청양고추",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "청포묵",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "총각김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "추어탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "취나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "취나물",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261109_102545.jpg",
+     "fid": "F0CG149P62V",
+     "from": "댓글",
+     "path": "menu-files/1794187701_069349-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "치즈돈까스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "치즈스틱",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "치킨까스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "치킨볼",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "카레",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "코다리강정",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "코다리구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "코다리조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콘샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩고기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩나물밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩비지찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩자반",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩잔멸치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "크렌베리 멸치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "탕수육",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "톳초무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "파김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "파래김자반",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "파래무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "파래전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "파프리카전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "팥죽",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "포기김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "표고버섯",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "피꼬막",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "함박스테이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "함박스테이크(돼지)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "해물동그랑땡",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "해물파전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "해초",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "해파리냉채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "호두멸치볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "호박나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "호박야채말이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "호박잎과 양념된장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "호박전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "홍어회무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "황제느타리버섯볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "황태구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "황태채무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "훈제오리부추무침",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    },
+    {
+     "name": "20261109_102549.jpg",
+     "fid": "F0CGTJDDXGQ",
+     "from": "댓글",
+     "path": "menu-files/1794187701_069349-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "고구마 샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "곤드레 나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고등어 김치말이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고추장 찌개",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "건 취나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "궁채",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩나물냉국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "크림 새우",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "깻잎따로",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼴뚜기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "꼬막 비빔밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고등어 구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "노각 무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "돼지머리편육",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "달래장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "도토리묵",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "두부김치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "닭곰탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "땅두릅나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "땅콩조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "두릅",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "문어숙회",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "명이나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "명태 볶음",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "묵은지 닭볶음탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마약 장조림",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "봄동 된장국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "북어껍질무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "바싹 불고기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "새우 볶음밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "새우살 샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "수박",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "쌈장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어튀김",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오징어 순대",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우렁쌈장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우렁강된장(대)",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "우렁강된장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "연근샐러드",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "약고추장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "오이달래무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아구탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "장어구이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "초계탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "찰옥수수",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "황태 초무침",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "황태껍질튀김",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "마약순두부",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "어묵탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "모듬반찬",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고구마튀김",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "근대국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치볶음밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "새우 볶음밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "모듬어묵",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "북어껍질",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "고구마야채튀김",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "대구탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아구탕",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "아구찜",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "건취나물",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "알꼬막",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "초산적",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "콩나물국",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "김치육전",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "불고기김밥",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "새우튀김",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 2
+    }
+   ],
    "datt": [],
    "replies": [
     "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1794187580966499?thread_ts=···.643769&cid=C0A7CLLANP7",
     "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1794187589222589?thread_ts=···.643769&cid=C0A7CLLANP7",
     "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1794187625599279?thread_ts=···.643769&cid=C0A7CLLANP7"
    ],
-   "rc": 3,
-   "lr": "1794187730.151939",
+   "rc": 4,
+   "lr": "1794188400.861439",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
