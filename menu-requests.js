@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4954,
- "updatedAt": "2026-11-09 16:55",
+ "version": 4955,
+ "updatedAt": "2026-11-09 17:12",
  "days": 30,
  "items": [
   {
@@ -67817,30 +67817,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791682264915799"
-  },
-  {
-   "ts": "1791619957.088779",
-   "date": "2026-10-10",
-   "time": "17:12",
-   "store": "캠핑고(기)",
-   "biz": "5801302334",
-   "pos": "",
-   "content": "메뉴 수정 요청 (유플러스)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• 냉삼 13000원으로 변경 요청.",
-    "메뉴 수정 후 솔라피 발송 부탁드립니다 :pray::skin-tone-2:"
-   ],
-   "rc": 4,
-   "lr": "1791622266.440909",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791619957088779"
   }
  ],
  "ocr": {
