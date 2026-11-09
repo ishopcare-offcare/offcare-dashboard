@@ -2047,7 +2047,7 @@ const CHART_CATS = [...WORK_CATS, VOC_CAT];
 const OB_CAT = {key:'ob', name:'설치 OB', icon:'📞', color:'#5856d6'};
 // VOC 는 2026-09-01 DRI 가 CX팀으로 이관돼 우리 팀 처리 실적이 아니다 → 전체현황에서 제외.
 // (VOC 페이지·Monthly·저점 모니터링·관리 탭 통계에는 그대로 남는다)
-const OV_CHART_CATS = [...WORK_CATS.filter(c=>c.key!=='nosetup' && c.key!=='booking'), OB_CAT];   // 예약은 직원별 처리건수에서 제외(COUNT_EXCL)   // 미설치는 온보딩에 합쳐 그린다(아래 EMP_CATS 와 같은 순서)
+const OV_CHART_CATS = [...WORK_CATS.filter(c=>c.key!=='nosetup'), OB_CAT];   // 미설치는 온보딩에 합쳐 그린다(아래 EMP_CATS 와 같은 순서)
 /* 온보딩 묶음 — 미설치도 온보딩이다. 데이터(counts·done)의 카테고리는 나뉜 채로 두고(원격 총 건수는 WORK_CATS 합이라 영향 없음),
  *  · 전체현황 온보딩 타일·그 상세·응답/소요시간: 온보딩 + 미설치 합산, 타일에 '온보딩 N + 미설치 M' 내역
  *  · 미설치 타일: 별도로 둔다 (미설치건만의 응답·소요시간을 보려고)
@@ -2058,12 +2058,10 @@ const catMembers = key => TILE_GROUPS[key] || [key];
 /* AS 타일에는 예약도 함께 센다(2026-09-30 사용자 결정). 예약 타일은 그대로 따로 둔다.
  * 온보딩+미설치(TILE_GROUPS)와 달리 예약 칸이 없어지지 않고 두 타일에 모두 잡히므로, 합계(원격 총 건수·직원별 표)는
  * catMembers 기준 그대로 두어 중복을 막는다. 타일·타일 상세·타일 응답/소요시간만 tileMembers 를 쓴다. */
-const TILE_ALSO = {as:['booking']};
+// 2026-11-09 사용자: 예약은 AS 에 포함하지 않는다 — 예약 타일·직원별 예약 칸·원격 총 건수에 각 1건으로만 센다.
+const TILE_ALSO = {};   // 예) {as:['booking']} 로 두면 AS 타일에 예약이 함께 잡힌다
 const tileMembers = key => [...catMembers(key), ...(TILE_ALSO[key]||[])];
-/* 수치 집계 제외 — 예약은 원격 총 건수·직원별 처리건수(표·차트·랭킹·MVP)에 넣지 않는다(2026-11-06 사용자 결정:
- * 예약한 건은 실제 원격 처리 때 AS 로 다시 잡히므로 두 번 세게 된다). 예약 타일·관리탭 통계는 그대로. */
-const COUNT_EXCL = new Set(['booking']);
-const EMP_CATS = WORK_CATS.filter(c=>!GROUPED_INTO.has(c.key) && !COUNT_EXCL.has(c.key));
+const EMP_CATS = WORK_CATS.filter(c=>!GROUPED_INTO.has(c.key));
 const RESP_EXCL_CATS = [];   // 응답/소요시간 카드 — 전 카테고리 포함(AS·온보딩·미설치·외주·배달·예약·명의변경·메뉴등록). 빼고 싶은 카테고리 키만 넣으면 된다
 // AS·온보딩 응답/소요시간 카드의 '최근 7일·30일' 평균은 평일만 센다 — 주말·공휴일은 인원이 적어 시간이 튀므로 평균에서 뺀다.
 // 오늘·어제·기간 선택은 그날 그대로 보여 준다. (평일 판정은 관리탭 근무일 수와 같은 admIsBizDay)
@@ -2527,7 +2525,7 @@ function nightHandled(emp, fromTime){
 function monthSlackDates(){ const mk=curMonthKey(); return allSlackDates().filter(d=>d.slice(0,7)===mk); }
 function empWorkByDay(emp){ const m={}; monthSlackDates().forEach(d=>{ ((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp===emp) m[d]=(m[d]||0)+1; }); }); return m; }
 // 일별 MVP(그날 업무처리 최다) 선정 횟수 맵 (이번 달)
-function dailyMvpCounts(){ const cnt={}; monthSlackDates().forEach(d=>{ const by={}; ((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp && !COUNT_EXCL.has(x.cat)) by[x.emp]=(by[x.emp]||0)+1; }); let top=null,tv=0; for(const e in by){ if(by[e]>tv){ tv=by[e]; top=e; } } if(top) cnt[top]=(cnt[top]||0)+1; }); return cnt; }
+function dailyMvpCounts(){ const cnt={}; monthSlackDates().forEach(d=>{ const by={}; ((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp) by[x.emp]=(by[x.emp]||0)+1; }); let top=null,tv=0; for(const e in by){ if(by[e]>tv){ tv=by[e]; top=e; } } if(top) cnt[top]=(cnt[top]||0)+1; }); return cnt; }
 function mvpCountOf(emp){ return dailyMvpCounts()[emp]||0; }
 const ACH_SHORT={kind:'NPS 한 달 1위',angel:'NPS 누적 6개월 1위',hand:'하루 35건',phoenix:'12시간 이상 처리',master:'6업무 각2건+미처리0',god:'하루50건+MVP10회',night:'밤8시후 300건',fool:'???',layoff:'???',fast:'???',thunder:'???',beta:'지정 인원 전용',workaholic:'평일 90일 연속 9~18시 처리',first:'???',bomb:'???',bling:'치장 아이템 50개 수집',star:'???',angler:'낚시터 캐스팅 10,000회'};
 function achShort(k){ return ACH_SHORT[k]||''; }
@@ -6108,15 +6106,15 @@ function renderOverview(){
 
   const prevDates = ovPrevDates();
   const workCatTotals = WORK_CATS.map(c=>({...c, total:ovCnt(c.key, viewDates), prev:ovCnt(c.key, prevDates)}));
-  const workGrand = workCatTotals.reduce((a,c)=>a+(COUNT_EXCL.has(c.key)?0:c.total),0);       // 예약 제외(COUNT_EXCL)
-  const workGrandPrev = workCatTotals.reduce((a,c)=>a+(COUNT_EXCL.has(c.key)?0:c.prev),0);
+  const workGrand = workCatTotals.reduce((a,c)=>a+c.total,0);
+  const workGrandPrev = workCatTotals.reduce((a,c)=>a+c.prev,0);
   const vAlerts = ovVocAlerts(viewDates), vAlertsPrev = ovVocAlerts(prevDates);
   const vocTot = vAlerts.length, vocPrevN = vAlertsPrev.length;                                  // VOC 인입(저점, 인입일 기준)
   // VOC 처리 = 완료일(doneDate)이 이 기간인 모든 VOC(저점+칭찬) — 완료한 날짜 기준
   const vocDoneCur = ovVocDone(viewDates), vocDonePrv = ovVocDone(prevDates);
   const vocAttr = vocDoneCur.cnt, vocAttrPrev = vocDonePrv.cnt;
   // VOC 타일 제외 (CX팀 이관) — vocTot/vocPrevN 은 아래 저점 알림에서 계속 쓴다
-  // 온보딩 타일 = 온보딩 + 미설치 (TILE_GROUPS) · AS 타일 = AS + 예약 (TILE_ALSO). parts 는 타일 안 내역 줄용
+  // 온보딩 타일 = 온보딩 + 미설치 (TILE_GROUPS). TILE_ALSO 가 있으면 그 타일에도 합산. parts 는 타일 안 내역 줄용
   const catTotals = workCatTotals.map(c=>{
     const mem=tileMembers(c.key); if(mem.length<2) return c;
     const parts=mem.map(k=>workCatTotals.find(x=>x.key===k)).filter(Boolean);
@@ -6136,14 +6134,12 @@ function renderOverview(){
   const grandEmp = grandProc + obSum;                 // 직원별 표 합계·랭킹용 = 위 + 설치 OB
   const grandEmpPrev = grandProcPrev + obSumPrev;
   // 부재 미처리(1차부재)도 '원격 총 건수'에 포함 — 해당 기간 각 날짜의 부재 pending 합
-  const cntable = p => !COUNT_EXCL.has(p.cat);       // 예약 건은 미처리·부재여도 총 건수에서 뺀다
-  const pendCntOf = ds => ovPendingRaw(ds).filter(cntable).length;
-  const absCntOf = ds => ovPendingRaw(ds).filter(cntable).filter(p=>(p.reasons||[]).some(r=>/부재/.test(r))).length;
-  const abs2Of = ds => ovAbsent2Raw(ds).filter(cntable).length;
-  const absentCnt = absCntOf(viewDates) + abs2Of(viewDates);   // 1차(미처리로 남은) + 2차(종결) 부재
+  const pendCntOf = ds => ovPendingRaw(ds).length;
+  const absCntOf = ds => ovPendingRaw(ds).filter(p=>(p.reasons||[]).some(r=>/부재/.test(r))).length;
+  const absentCnt = absCntOf(viewDates) + ovAbsent2Raw(viewDates).length;   // 1차(미처리로 남은) + 2차(종결) 부재
   const confirmCnt = pendCntOf(viewDates) - absCntOf(viewDates);   // 확인필요(부재 아닌 미처리)
-  const grandAll = grandProc + pendCntOf(viewDates) + abs2Of(viewDates);      // 원격 총 건수 = 처리 + 부재(1·2차) + 확인필요 (예약 제외)
-  const grandAllPrev = grandProcPrev + pendCntOf(prevDates) + abs2Of(prevDates);
+  const grandAll = grandProc + pendCntOf(viewDates) + ovAbsent2Raw(viewDates).length;      // 원격 총 건수 = 처리 + 부재(1·2차) + 확인필요
+  const grandAllPrev = grandProcPrev + pendCntOf(prevDates) + ovAbsent2Raw(prevDates).length;
   // 인입유형(온라인/오프라인) — 전체 원격 건 기준. 미기재(미상)는 온라인으로 합산(팀 정책) — 기존 저장분의 unknown도 포함
   const intakeAgg = viewDates.reduce((a,d)=>{ const ik=(slackDay(d)||{}).intake||{}; a.online+=(ik.online||0)+(ik.unknown||0); a.offline+=ik.offline||0; return a; }, {online:0,offline:0});
   const intakeTot = intakeAgg.online + intakeAgg.offline;
