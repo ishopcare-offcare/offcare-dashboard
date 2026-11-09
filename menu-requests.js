@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4922,
- "updatedAt": "2026-11-09 11:37",
+ "version": 4923,
+ "updatedAt": "2026-11-09 11:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1794192495.039179",
+   "date": "2026-11-09",
+   "time": "11:48",
+   "store": "형과아우누룽지 삼계탕&왕갈비탕",
+   "biz": "3900303333",
+   "pos": "퍼스트포스",
+   "content": "오리전골삭제\n소국밥 12.000원 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794192495039179"
+  },
   {
    "ts": "1794188950.465619",
    "date": "2026-11-09",
