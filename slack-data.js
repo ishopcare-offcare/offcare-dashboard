@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31373,
+  "version": 31374,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313370,17 +313370,20 @@ window.SLACK_DATA = {
     "2026-11-09": {
       "counts": {
         "as": {
+          "심성현": 1,
           "서상원": 1,
           "김동욱": 2,
           "고경림": 1,
-          "배선유": 1,
-          "미지정": 1
+          "배선유": 1
         },
         "booking": {
           "송태양": 1
         },
         "transfer": {
           "심성현": 1
+        },
+        "menu": {
+          "송태양": 1
         }
       },
       "pending": [
@@ -313402,12 +313405,26 @@ window.SLACK_DATA = {
           "time": "10:03",
           "store": "달체당",
           "biz": "8512502184",
-          "cat": "as",
-          "emp": "미지정",
+          "cat": "menu",
+          "emp": "송태양",
           "req": "",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "등록 / 솔라피",
+          "rr": 1
+        },
+        {
+          "time": "10:01",
+          "store": "미나리본 국밥",
+          "biz": "6451601031",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "티오더 선결제 형태로 사용중, 진행, 완료는 주문현황에 잘 나오시나,",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "/ 티오더 업체 미설치 상태 티오더 연락 중",
+          "rr": 2
         },
         {
           "time": "10:00",
@@ -313495,7 +313512,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 2,
         "unknown": 0
       },
@@ -313552,14 +313569,7 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794186694.206
-      },
-      "1794186072.329809": {
-        "post": "1794186072.329809",
-        "lastSeen": 1794186694.206,
-        "r": 1,
-        "day": "2026-11-09",
-        "idx": 2
+        "lastSeen": 1794186800.718
       }
     },
     "days": {
@@ -432579,7 +432589,8 @@ window.SLACK_DATA = {
             "store": "미나리본 국밥",
             "biz": "6451601031",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 11.3
           },
           {
             "hm": "10:00",
@@ -432604,18 +432615,26 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 10:12",
+    "at": "2026-11-09 10:14",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": false,
-    "error": "terminated",
-    "rows": 0,
-    "named": 0,
-    "unknownName": 0,
+    "ok": true,
+    "error": "",
+    "rows": 4946,
+    "named": 1273,
+    "unknownName": 335,
     "beforeStart": 0,
-    "done": 0,
-    "byStatus": {}
+    "done": 1273,
+    "byStatus": {
+      "일정등록완료": 817,
+      "1차부재": 269,
+      "점주직접접수": 106,
+      "설치불가": 24,
+      "(빈칸)": 7,
+      "자가설치": 38,
+      "설치보류요청": 12
+    }
   },
   "noteV": {
     "2026-09-29": 2,
@@ -432750,7 +432769,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 10:11",
+    "at": "2026-11-09 10:13",
     "pri": {
       "days": 0,
       "failed": [],
