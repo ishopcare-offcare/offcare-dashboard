@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31671,
+  "version": 31672,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -315332,7 +315332,7 @@ window.SLACK_DATA = {
         "offline": 35,
         "unknown": 0
       },
-      "updatedAt": "18:19",
+      "updatedAt": "18:22",
       "absent": [
         {
           "time": "14:50",
@@ -315360,14 +315360,14 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 5,
+        "responses": 6,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 5,
-          "low": 2
+          "count": 6,
+          "low": 3
         },
         "high": {
           "install": 0,
@@ -315376,6 +315376,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "2": 1,
+          "5": 1,
           "6": 1,
           "8": 1,
           "10": 1
@@ -315384,8 +315385,8 @@ window.SLACK_DATA = {
         "byIndustry": {},
         "byTenure": {
           "1개월": {
-            "total": 2,
-            "low": 1
+            "total": 3,
+            "low": 2
           },
           "6개월": {
             "total": 1,
@@ -315401,6 +315402,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 2,
+            "low": 1
+          },
           "KOCES": {
             "total": 2,
             "low": 1
@@ -315408,17 +315413,35 @@ window.SLACK_DATA = {
           "SMARTRO": {
             "total": 2,
             "low": 1
-          },
-          "KPN": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
-          "필요한 기능이 없거나 몰라서 불편": 1,
+          "필요한 기능이 없거나 몰라서 불편": 2,
           "사용중 오류가 자주 발생함": 1
         },
         "alerts": [
+          {
+            "time": "18:22",
+            "store": "마이온래쉬",
+            "storeId": "481684",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "아직 잘 모르겟음",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "17:52",
             "store": "꽃보다예쁜손",
@@ -315492,47 +315515,47 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794216085.546
+        "lastSeen": 1794216178.673
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794216085.546,
+        "lastSeen": 1794216178.673,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
       },
       "1794201350.723329": {
         "post": "1794201350.723329",
-        "lastSeen": 1794216085.546,
+        "lastSeen": 1794216178.673,
         "r": 1,
         "day": "2026-11-09",
         "idx": 59
       },
       "1794202741.367999": {
         "post": "1794202741.367999",
-        "lastSeen": 1794216085.546
+        "lastSeen": 1794216178.673
       },
       "1794206924.076869": {
         "post": "1794206924.076869",
-        "lastSeen": 1794216085.546,
+        "lastSeen": 1794216178.673,
         "r": 1,
         "day": "2026-11-09",
         "idx": 78
       },
       "1794203459.319719": {
         "post": "1794203459.319719",
-        "lastSeen": 1794216085.546
+        "lastSeen": 1794216178.673
       },
       "1794215767.976229": {
         "post": "1794215767.976229",
-        "lastSeen": 1794216085.546,
+        "lastSeen": 1794216178.673,
         "r": 1,
         "day": "2026-11-09",
         "idx": 122
       },
       "1794215961.493029": {
         "post": "1794215961.493029",
-        "lastSeen": 1794216085.546,
+        "lastSeen": 1794216178.673,
         "r": 1,
         "day": "2026-11-09",
         "idx": 123
@@ -435647,7 +435670,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 18:22",
+    "at": "2026-11-09 18:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -435801,7 +435824,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 18:21",
+    "at": "2026-11-09 18:22",
     "pri": {
       "days": 0,
       "failed": [],
