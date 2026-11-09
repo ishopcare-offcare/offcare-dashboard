@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31352,
+  "version": 31353,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313374,6 +313374,9 @@ window.SLACK_DATA = {
         },
         "as": {
           "김동욱": 1
+        },
+        "transfer": {
+          "심성현": 1
         }
       },
       "pending": [],
@@ -313391,6 +313394,18 @@ window.SLACK_DATA = {
           "rr": 1
         },
         {
+          "time": "08:45",
+          "store": "익산뷰티센터",
+          "biz": "2036203851",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "11월 9일 오전 9시 / 메뉴복사 O / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "15분 뒤 통화 요청 / 명변 완료",
+          "rr": 2
+        },
+        {
           "time": "06:00",
           "store": "지코바 강일1호점",
           "biz": "3512502495",
@@ -313404,7 +313419,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -313459,16 +313474,9 @@ window.SLACK_DATA = {
         "post": "1794149998.988399",
         "lastSeen": 1794169403.811
       },
-      "1794181501.091679": {
-        "post": "1794181501.091679",
-        "lastSeen": 1794183660.031,
-        "r": 1,
-        "day": "2026-11-09",
-        "idx": 1
-      },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794183660.031
+        "lastSeen": 1794183747.689
       }
     },
     "days": {
@@ -432479,14 +432487,15 @@ window.SLACK_DATA = {
             "store": "익산뷰티센터",
             "biz": "2036203851",
             "who": "심성현",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 36.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-09 09:21",
+    "at": "2026-11-09 09:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432640,7 +432649,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 09:21",
+    "at": "2026-11-09 09:22",
     "pri": {
       "days": 0,
       "failed": [],
