@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31376,
+  "version": 31377,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313369,6 +313369,9 @@ window.SLACK_DATA = {
     },
     "2026-11-09": {
       "counts": {
+        "extern": {
+          "서상원": 1
+        },
         "as": {
           "심성현": 1,
           "서상원": 1,
@@ -313401,6 +313404,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:14",
+          "store": "티룸제이드",
+          "biz": "7666000220",
+          "cat": "extern",
+          "emp": "서상원",
+          "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:03",
           "store": "달체당",
@@ -313512,7 +313526,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 2,
         "unknown": 0
       },
@@ -313569,7 +313583,7 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794186984.391
+        "lastSeen": 1794187153.145
       }
     },
     "days": {
@@ -432615,7 +432629,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 10:17",
+    "at": "2026-11-09 10:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432769,7 +432783,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 10:16",
+    "at": "2026-11-09 10:19",
     "pri": {
       "days": 0,
       "failed": [],
