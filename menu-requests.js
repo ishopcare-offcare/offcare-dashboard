@@ -3,10 +3,131 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4926,
- "updatedAt": "2026-11-09 12:25",
+ "version": 4927,
+ "updatedAt": "2026-11-09 12:51",
  "days": 30,
  "items": [
+  {
+   "ts": "1794196189.859269",
+   "date": "2026-11-09",
+   "time": "12:49",
+   "store": "달체당",
+   "biz": "8512502184",
+   "pos": "토스포스",
+   "content": "파일을 두개를 보냈는데 하나만 등록되었네요... \n그리고 커피 에이드 티 스무디 시그니처를 따로 나누지말고 하나로 통일해주시고요 지금보내는 파일 메뉴도 그냥 케익에 통일해서 넣어주세요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1DrtJHLaPkU7cdnekH41-mg16Tw0BI-PR/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1DrtJHLaPkU7cdnekH41-mg16Tw0BI-PR",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "딸기 1호",
+       "price": 39000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "딸기 2호",
+       "price": 49000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "망고 1호",
+       "price": 39000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "망고 2호",
+       "price": 49000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "제철과일 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "제철과일 2호",
+       "price": 45000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "고구마 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "고구마 2호",
+       "price": 45000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "마틸다 초코 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "마틸다 초코 2호",
+       "price": 45000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "오레오초코 1호",
+       "price": 36000
+      },
+      {
+       "category": "SEASONAL FRUIT CAKE",
+       "name": "오레오초코 2호",
+       "price": 45000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "떠먹는 보틀케이크",
+       "price": 8500
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "후르츠산도",
+       "price": 8500
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "ONLY 크림치즈바스크",
+       "price": 12000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "르뱅쿠키",
+       "price": 4000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "마들렌 / 브라우니",
+       "price": 3000
+      },
+      {
+       "category": "BOTTLE CAKE",
+       "name": "휘낭시에",
+       "price": 3000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794196189859269"
+  },
   {
    "ts": "1794194637.014869",
    "date": "2026-11-09",
