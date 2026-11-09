@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31363,
+  "version": 31364,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313391,7 +313391,8 @@ window.SLACK_DATA = {
           "req": "포프(노트북)+ 터미널2 사용매장 / 배달 주문서가 자동으로 출력되지 않는 경우가 많아 간이 영수증을 뽑아서 쓸 때가 많다고 하시며, 현황이 뜨지도 않고 호환이 잘 안되는 건지 많이 느리다고도 말씀주시어 점검 한 번 부탁드리겠습니다!",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "배민 주문접수와 배민 라이트 동시 실행 시 연동x, 출력오류 발생 주문접수 삭제 후 배민 lite 주문접수 창 미노출 // 배민에 문의 안내",
+          "rr": 1
         },
         {
           "time": "09:00",
@@ -313488,7 +313489,7 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794185823.307
+        "lastSeen": 1794185898.578
       }
     },
     "days": {
@@ -432507,7 +432508,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 09:57",
+    "at": "2026-11-09 09:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432661,7 +432662,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 09:57",
+    "at": "2026-11-09 09:58",
     "pri": {
       "days": 0,
       "failed": [],
