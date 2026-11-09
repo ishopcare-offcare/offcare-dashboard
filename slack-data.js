@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31353,
+  "version": 31354,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -311448,7 +311448,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "토플파 복제 완료. OB 완료. 차주 월요일 방문설치 / 일정등록 완료 방문 설치 요청 - 와룡 방문 설치 요청 ID: 16703 설치구분: A/S 요청자: 요청일시: 2026-11-06 11:43 수도권/지방 구분: 수도권 판매경로: 온라인 배달4사 계약여부: 없음 상호명: 와룡 사업자번호: 3111297655 주소지: 서울특별시 마포구 VAN: KIS ",
-          "rr": 17
+          "rr": 21
         },
         {
           "time": "11:00",
@@ -313476,7 +313476,7 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794183747.689
+        "lastSeen": 1794184194.81
       }
     },
     "days": {
@@ -432495,7 +432495,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 09:23",
+    "at": "2026-11-09 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432649,7 +432649,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 09:22",
+    "at": "2026-11-09 09:29",
     "pri": {
       "days": 0,
       "failed": [],
@@ -432661,7 +432661,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 119,
+      "budgetLeft": 118,
       "failed": []
     }
   }
