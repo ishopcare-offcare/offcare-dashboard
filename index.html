@@ -2565,7 +2565,7 @@ function achStatus(emp, it){
   if(it.ach==='fool'){ const miss=missCumCount(emp); return {ok:miss>=5, label:'이번 달 누락 이력 5건 이상 (해결해도 누적)', prog:`${miss}/5건`}; }   // 히든(달성 시 공개)
   if(it.ach==='layoff'){ const miss=missCumCount(emp); return {ok:miss>=30, label:'이번 달 누락 이력 30건 이상 (해결해도 누적)', prog:`${miss}/30건`}; }   // 히든
   if(it.ach==='fast'){ let c=0; monthSlackDates().forEach(d=>((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp===emp && x.urgent) c++; })); return {ok:c>=3, label:'이번 달 긴급/사이렌 처리 3건', prog:`${c}/3건`}; }   // 히든
-  if(it.ach==='thunder'){ let c=0; allSlackDates().forEach(d=>((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp===emp && x.urgent) c++; })); return {ok:c>=100, label:'긴급/사이렌 처리 100건(누적)', prog:`${c}/100건`}; }   // 히든
+  if(it.ach==='thunder'){ let c=0; allSlackDates().forEach(d=>((slackDay(d)||{}).done||[]).forEach(x=>{ if(x.emp===emp && x.urgent) c++; })); return {ok:c>=100, cnt:c, label:'긴급/사이렌 처리 100건(누적) · 100건마다 ⚡ 하나씩 승급', prog:`${c}/${stackNext(c,100)}건`}; }   // 히든
   if(it.ach==='beta'){ const ok=(it.onlyFor||[]).includes(emp); return {ok, label:'베타테스터 지정 인원 전용', prog:ok?'달성 ✓':'대상 아님'}; }   // 배선유·김동욱 전용
   if(it.ach==='bomb'){ const c=gs(emp).fishMiss||0; return {ok:c>=5000, label:'낚시터 꽝 5,000회 달성', prog:`${c.toLocaleString()}/5,000회`}; }   // 히든: 꽝 누적(카운터 도입 시점부터)
   if(it.ach==='bling'){ const COS=['nametag','hat','pet','skin','hair','dye','eyes','brows','mouth','beard','top','pants','shoes','gloves','cape']; const c=(gs(emp).owned||[]).filter(o=>COS.includes(String(o).split(':')[0])).length; return {ok:c>=50, label:'꾸미기 치장 아이템 50개 수집 (타이틀 제외)', prog:`${c}/50개`}; }
@@ -2579,7 +2579,7 @@ function achStatus(emp, it){
       const min=dn.reduce((a,x)=>x.time<a?x.time:a, dn[0].time);
       if(dn.some(x=>x.time===min&&x.emp===emp)) c++;
     });
-    return {ok:c>=111, label:'그날 아침 첫 원격 건 처리 111회 (누적)', prog:`${c}/111회`};
+    return {ok:c>=111, cnt:c, label:'그날 아침 첫 원격 건 처리 111회 (누적) · 111회마다 ×2·×3 승급', prog:`${c}/${stackNext(c,111)}회`};
   }
   if(it.ach==='workaholic'){
     // 평일 90일 연속: 각 평일 09:00~18:00 사이 본인 처리 이력 1건 이상.
@@ -4951,10 +4951,10 @@ const GAME_ITEMS = {
     {id:'t_fool',name:'바보',price:1,rarity:'common',ach:'fool',desc:'왜 받았는지는... 본인이 가장 잘 알고 있다',perk:{item:0.0005,miss:0.002}},
     {id:'t_layoff',name:'권고사직',price:1,rarity:'common',ach:'layoff',desc:'잠시 면담 좀 할까요? 커피는 제가 살게요',perk:{item:0.0005,keep:0.002},grad:'linear-gradient(90deg,#7a0f2e,#c02f5e,#7a0f2e)'},
     {id:'t_fast',name:'재빠른',price:1,rarity:'rare',ach:'fast',desc:'소방차보다 빨리 도착한다는 소문이 있다',perk:{item:0.001,miss:0.003}},
-    {id:'t_thunder',name:'⚡',price:1,rarity:'legendary',ach:'thunder',autoGrant:true,desc:'번쩍! 하늘도 인정한 스피드',perk:{item:0.0025,miss:0.008},grad:'linear-gradient(90deg,#ffe14d,#ff9f0a,#ffd60a)'},
+    {id:'t_thunder',name:'⚡',price:1,rarity:'legendary',ach:'thunder',autoGrant:true,stack:100,desc:'번쩍! 하늘도 인정한 스피드',perk:{item:0.0025,miss:0.008},grad:'linear-gradient(90deg,#ffe14d,#ff9f0a,#ffd60a)'},
     {id:'t_beta',name:'베타테스터',price:1,rarity:'legendary',ach:'beta',autoGrant:true,onlyFor:['배선유','김동욱'],desc:'대시보드 베타테스터의 노고를 기념하기 위한 타이틀',perk:{item:0.002,miss:0.01},grad:'linear-gradient(90deg,#00c7be,#5e5ce6,#e0218a)'},
     {id:'t_workaholic',name:'워커홀릭',price:1,rarity:'legendary',ach:'workaholic',autoGrant:true,desc:'평일 90일 연속, 하루도 쉬지 않고 9시~18시 원격 이력을 남긴 진정한 일벌레',perk:{item:0.002,miss:0.025},grad:'linear-gradient(90deg,#ff9f0a,#ff375f,#bf5af2)'},
-    {id:'t_first',name:'1st',price:1,rarity:'legendary',ach:'first',autoGrant:true,desc:'일찍 일어나는 새가...',perk:{item:0.0025,keep:0.008},grad:'linear-gradient(90deg,#ffd60a,#fffbe6,#ffd60a,#ff9f0a)'},
+    {id:'t_first',name:'1st',price:1,rarity:'legendary',ach:'first',autoGrant:true,stack:111,desc:'일찍 일어나는 새가...',perk:{item:0.0025,keep:0.008},grad:'linear-gradient(90deg,#ffd60a,#fffbe6,#ffd60a,#ff9f0a)'},
     {id:'t_bomb',name:'💣',price:1,rarity:'legendary',ach:'bomb',autoGrant:true,desc:'심지는 이미 타들어가고 있다. 터질 때까지, 던지고 또 던질 뿐',perk:{item:0.002,miss:0.006},grad:'linear-gradient(90deg,#1c1c1e,#ff453a,#ff9f0a,#1c1c1e)'},
     {id:'t_bling',name:'여기서부터 저기까지 다주세요',price:1,rarity:'epic',ach:'bling',autoGrant:true,desc:'머리부터 발끝까지, 빛나지 않는 곳이 없다',perk:{item:0.0015,keep:0.005},grad:'linear-gradient(90deg,#ffd60a,#ff9ff3,#4ea8ff,#ffd60a)'},
     {id:'t_star',name:'⭐',price:1,rarity:'mythic',ach:'star',autoGrant:true,spin:true,desc:'고객이 건넨 별 하나하나가 모여, 마침내 머리 위의 왕관으로 빛나는 별',perk:{item:0.0025,miss:0.004,keep:0.004},grad:'linear-gradient(90deg,#0a1a4a,#4ea8ff,#fffbe6,#ffd60a,#0a1a4a)'},
@@ -5403,13 +5403,29 @@ function titleStyleOf(t){ if(!t) return ''; if(t.grad){ // 이모지 전용 타�
     // 전설 이상 등급은 그라데이션 텍스트에 발광 효과 추가 (drop-shadow는 클리핑된 글리프 픽셀 기준이라 안전)
     const gl={mythic:';filter:drop-shadow(0 0 5px rgba(255,214,10,.9)) drop-shadow(0 0 13px rgba(255,214,10,.5))',legendary:';filter:drop-shadow(0 0 5px rgba(255,159,10,.85)) drop-shadow(0 0 13px rgba(255,159,10,.45))'}[t.rarity]||'';
     return `background:${t.grad};-webkit-background-clip:text;background-clip:text;color:transparent`+gl; } const map={common:'color:#6b7280',rare:'color:#1a73e8;text-shadow:0 0 6px rgba(26,115,232,.55)',epic:'color:#9c36b5;text-shadow:0 0 8px rgba(156,54,181,.6)',legendary:'color:#e8820a;text-shadow:0 0 10px rgba(232,130,10,.8)'}; return map[t.rarity]||map.common; }
-function titleNameHTML(t){ const n=escapeHtml(t.name||''); return t.spin?`<span class="t-star"><span class="t-spin">${n}</span></span>`:n; }   // ⭐: 돌면서 반짝이는 별
+/* 누적 처리건수 타이틀 승급(2026-11-09 사용자): stack 건마다 한 단계. 이모지 타이틀은 반복(⚡⚡ · 6단계부터 ⚡×6),
+ * 글자 타이틀은 '1st ×2'. 승급 단계는 achStatus 의 cnt 로 계산 — 랭킹이 사람마다 부르므로 데이터가 바뀔 때까지 캐시한다. */
+function stackNext(c, base){ return c<base ? base : (Math.floor(c/base)+1)*base; }
+const _titleTierCache = {ref:null, at:0, m:{}};
+function titleTier(t, emp){
+  if(!t || !t.stack || !emp) return 1;
+  const now=Date.now();
+  if(_titleTierCache.ref!==window.SLACK_DATA || now-_titleTierCache.at>60000){ _titleTierCache.ref=window.SLACK_DATA; _titleTierCache.at=now; _titleTierCache.m={}; }
+  const k=emp+'|'+t.id;
+  if(!(k in _titleTierCache.m)){ const st=achStatus(emp,t)||{}; _titleTierCache.m[k]=Math.max(1, Math.floor((st.cnt||0)/t.stack)); }
+  return _titleTierCache.m[k];
+}
+function titleNameHTML(t, emp){
+  let raw=t.name||''; const tier=titleTier(t, emp);
+  if(tier>1) raw = /^[\p{Extended_Pictographic}\u{FE0F}\u{200D}\u{20E3}\s]+$/u.test(raw) ? (tier<=5 ? raw.repeat(tier) : raw+'×'+tier) : raw+' ×'+tier;
+  const n=escapeHtml(raw); return t.spin?`<span class="t-star"><span class="t-spin">${n}</span></span>`:n;   // ⭐: 돌면서 반짝이는 별
+}
 function titleStyle(eq){ return titleStyleOf(itemById('title',(eq||{}).title)); }
 // 내 캐릭터 카드 내부(미리보기 시 이 부분만 교체)
 function gameMeInner(emp, eq){ const t=itemById('title',(eq||{}).title);
   return `${avatarBig(eq, (GAME[emp]||{}).gender, emp)}
     <div class="gm-right">
-      ${t?`<div class="gm-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t)}]</div>`:''}
+      ${t?`<div class="gm-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t, emp)}]</div>`:''}
       <div class="gm-name" style="${nametagStyle(eq)}">${escapeHtml(emp)}</div>
       <div class="gm-coins">🪙 <b>${empAvail(emp)}</b><span>보유 코인</span>${empOver(emp)?`<span class="gm-over">⚠️ 초과 사용 −${empOver(emp)}</span>`:''}</div>
       <div class="gm-sub">누적 처리 ${empHandled(emp)}건 · 누적 획득 ${empCoins(emp)}코인 · 사용 ${empSpent(emp)}코인 <span style="color:var(--gray2)">· 이번 달 ${empHandledMonth(emp)}건 · 코인은 이월(초기화 없음)</span>${COIN_FIX[emp]?`<span style="color:var(--gray2)"> · 🛠 ${COIN_FIX[emp].grant}코인 보정 지급 (${COIN_FIX[emp].since}부터 재적립)</span>`:''}</div>
@@ -5459,7 +5475,7 @@ function moveItemTip(e){ if(tipPinned) return;   // 고정된 툴팁은 마우�
   const t=document.getElementById('itemTip'); if(!t||t.style.display!=='block') return; const pad=16, w=t.offsetWidth, h=t.offsetHeight; let x=e.clientX+pad, y=e.clientY+pad; if(x+w>window.innerWidth-8) x=e.clientX-w-pad; if(y+h>window.innerHeight-8) y=e.clientY-h-pad; if(x<8)x=8; if(y<8)y=8; t.style.left=x+'px'; t.style.top=y+'px'; }
 function hideItemTip(force){ if(tipPinned&&!force) return; const t=document.getElementById('itemTip'); if(t) t.style.display='none'; }
 // 랭킹 등 이름 표시(타이틀+얼굴+네임택 색)
-function rankNameHTML(emp, noFace){ const eq=(GAME[emp]||{}).equipped||{}; const f=noFace?'':partE('face',eq.face), t=itemById('title',eq.title); return `${t?`<div class="r-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t)}]</div>`:''}<div class="r-nm">${f?`<span class="r-face">${f}</span>`:''}<span style="${nametagStyle(eq)}">${escapeHtml(emp)}</span></div>`; }
+function rankNameHTML(emp, noFace){ const eq=(GAME[emp]||{}).equipped||{}; const f=noFace?'':partE('face',eq.face), t=itemById('title',eq.title); return `${t?`<div class="r-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t, emp)}]</div>`:''}<div class="r-nm">${f?`<span class="r-face">${f}</span>`:''}<span style="${nametagStyle(eq)}">${escapeHtml(emp)}</span></div>`; }
 // 랭킹·MVP용 미니 전신 아바타(캐릭터+꾸미기 전부) — 122x150 원본을 w px로 축소. 게임 미참여 직원도 기본 캐릭터 렌더.
 function avatarMini(emp, w){ const g=GAME[emp]||{}; const eq=g.equipped||{}; const s=w/122; return `<div class="av-mini" style="width:${w}px;height:${Math.round(150*s)}px"><div class="av-mini-in" style="transform:scale(${s.toFixed(3)})">${avatarBig(eq, g.gender)}</div></div>`; }
 // 팀 공유 클라우드 = {players:GAME, vocEdit, vocPraise, vocComment, dutyOver, fishWait} 통합 블롭 (백엔드는 game 블롭을 그대로 저장/반환)
