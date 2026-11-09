@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31457,
+  "version": 31458,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313372,8 +313372,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "배선유": 7,
+          "심성현": 5,
           "송태양": 4,
-          "심성현": 4,
           "서상원": 4,
           "고경림": 5,
           "김동욱": 2
@@ -313438,6 +313438,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "프로그램 잘 실행됐다고 하셔서 연동확인 후 종료",
           "rr": 2
+        },
+        {
+          "time": "12:06",
+          "store": "본 스쿼시",
+          "biz": "3910103744",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "나이스 NC800 켓 영수증 출력 불가로 점검 부탁드립니다:우땅꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "AB 케이블 구매 연동 출력 테스트 완료",
+          "rr": 1
         },
         {
           "time": "12:00",
@@ -313945,11 +313957,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 38,
+        "online": 39,
         "offline": 8,
         "unknown": 0
       },
-      "updatedAt": "12:23",
+      "updatedAt": "12:34",
       "absent": [
         {
           "time": "11:28",
@@ -314012,25 +314024,18 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794195038.215
+        "lastSeen": 1794195281.314
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794195038.215,
+        "lastSeen": 1794195281.314,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
       },
-      "1794193595.375089": {
-        "post": "1794193595.375089",
-        "lastSeen": 1794195038.215,
-        "r": 1,
-        "day": "2026-11-09",
-        "idx": 29
-      },
       "1794193875.067899": {
         "post": "1794193875.067899",
-        "lastSeen": 1794195038.215,
+        "lastSeen": 1794195281.314,
         "r": 1,
         "day": "2026-11-09",
         "idx": 30
@@ -433295,7 +433300,8 @@ window.SLACK_DATA = {
             "store": "본 스쿼시",
             "biz": "3910103744",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 26.1
           },
           {
             "hm": "12:11",
@@ -433310,13 +433316,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 12:31",
+    "at": "2026-11-09 12:34",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4947,
+    "rows": 4948,
     "named": 1273,
     "unknownName": 335,
     "beforeStart": 0,
@@ -433464,7 +433470,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 12:30",
+    "at": "2026-11-09 12:34",
     "pri": {
       "days": 0,
       "failed": [],
