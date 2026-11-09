@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31458,
+  "version": 31459,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313378,6 +313378,9 @@ window.SLACK_DATA = {
           "고경림": 5,
           "김동욱": 2
         },
+        "booking": {
+          "송태양": 2
+        },
         "onboarding": {
           "고경림": 1,
           "심성현": 1,
@@ -313387,9 +313390,6 @@ window.SLACK_DATA = {
         "extern": {
           "김동욱": 1,
           "서상원": 2
-        },
-        "booking": {
-          "송태양": 1
         },
         "transfer": {
           "심성현": 3
@@ -313426,6 +313426,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "블루투스 기기연결 알림으로 예상, 토스포스 이슈 아님 안내",
           "rr": 1
+        },
+        {
+          "time": "12:11",
+          "store": "카리스카페",
+          "biz": "4954401313",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "노트북 포프 사용중 / 갑자기 토스포스 작동 불능이라고 하시어 점검 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재 / 1시 예약 요청으로 예약 완료입니다",
+          "rr": 2
         },
         {
           "time": "12:09",
@@ -313957,7 +313969,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 39,
+        "online": 40,
         "offline": 8,
         "unknown": 0
       },
@@ -314024,21 +314036,14 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794195281.314
+        "lastSeen": 1794195339.302
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794195281.314,
+        "lastSeen": 1794195339.302,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
-      },
-      "1794193875.067899": {
-        "post": "1794193875.067899",
-        "lastSeen": 1794195281.314,
-        "r": 1,
-        "day": "2026-11-09",
-        "idx": 30
       }
     },
     "days": {
@@ -433309,20 +433314,21 @@ window.SLACK_DATA = {
             "store": "카리스카페",
             "biz": "4954401313",
             "who": "송태양",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 23.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-09 12:34",
+    "at": "2026-11-09 12:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4948,
+    "rows": 4949,
     "named": 1273,
     "unknownName": 335,
     "beforeStart": 0,
@@ -433470,7 +433476,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 12:34",
+    "at": "2026-11-09 12:35",
     "pri": {
       "days": 0,
       "failed": [],
