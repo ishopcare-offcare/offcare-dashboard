@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31381,
+  "version": 31382,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313387,7 +313387,7 @@ window.SLACK_DATA = {
           "심성현": 1
         },
         "menu": {
-          "송태양": 1
+          "송태양": 2
         }
       },
       "pending": [
@@ -313405,6 +313405,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:24",
+          "store": "닭맥주",
+          "biz": "2360103618",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:20",
           "store": "모노아",
@@ -313551,11 +313562,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:24"
+      "updatedAt": "10:27"
     }
   },
   "resp": {
@@ -313608,7 +313619,11 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794187546.62
+        "lastSeen": 1794187640.072
+      },
+      "1794187629.620679": {
+        "post": "1794187629.620679",
+        "lastSeen": 1794187640.072
       }
     },
     "days": {
@@ -432654,7 +432669,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 10:26",
+    "at": "2026-11-09 10:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432808,7 +432823,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 10:25",
+    "at": "2026-11-09 10:27",
     "pri": {
       "days": 0,
       "failed": [],
