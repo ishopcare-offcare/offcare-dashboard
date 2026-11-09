@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31362,
+  "version": 31363,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313369,11 +313369,12 @@ window.SLACK_DATA = {
     },
     "2026-11-09": {
       "counts": {
+        "as": {
+          "배선유": 1,
+          "김동욱": 1
+        },
         "booking": {
           "송태양": 1
-        },
-        "as": {
-          "김동욱": 1
         },
         "transfer": {
           "심성현": 1
@@ -313381,6 +313382,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:34",
+          "store": "카페 잇썸",
+          "biz": "4060597727",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프(노트북)+ 터미널2 사용매장 / 배달 주문서가 자동으로 출력되지 않는 경우가 많아 간이 영수증을 뽑아서 쓸 때가 많다고 하시며, 현황이 뜨지도 않고 호환이 잘 안되는 건지 많이 느리다고도 말씀주시어 점검 한 번 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:00",
           "store": "찹찹착(chopchopchaak)",
@@ -313419,7 +313431,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
@@ -313476,7 +313488,7 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794185191.707
+        "lastSeen": 1794185823.307
       }
     },
     "days": {
@@ -432495,7 +432507,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 09:47",
+    "at": "2026-11-09 09:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432649,7 +432661,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 09:46",
+    "at": "2026-11-09 09:57",
     "pri": {
       "days": 0,
       "failed": [],
