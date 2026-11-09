@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31369,
+  "version": 31370,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313370,6 +313370,8 @@ window.SLACK_DATA = {
     "2026-11-09": {
       "counts": {
         "as": {
+          "서상원": 1,
+          "고경림": 1,
           "배선유": 1,
           "김동욱": 1,
           "미지정": 1
@@ -313403,6 +313405,29 @@ window.SLACK_DATA = {
           "cat": "as",
           "emp": "미지정",
           "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "10:00",
+          "store": "해밀손칼국수",
+          "biz": "3344801277",
+          "cat": "as",
+          "emp": "서상원",
+          "req": "ts100 a/s <@U07N21TM0QJ>",
+          "hw": "",
+          "intake": "offline",
+          "note": "",
+          "rr": 1
+        },
+        {
+          "time": "09:58",
+          "store": "나이스가이 신정뉴타운점",
+          "biz": "7282800965",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "무선 랜 연결 오류 메시지가 뜨는 증상이 종종 발생한다 하셔서 점검 부탁드립니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -313457,8 +313482,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
-        "offline": 1,
+        "online": 6,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "10:03"
@@ -313514,18 +313539,18 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794186336.064
+        "lastSeen": 1794186436.232
       },
       "1794186004.114919": {
         "post": "1794186004.114919",
-        "lastSeen": 1794186336.064,
+        "lastSeen": 1794186436.232,
         "r": 1,
         "day": "2026-11-09",
         "idx": 3
       },
       "1794186072.329809": {
         "post": "1794186072.329809",
-        "lastSeen": 1794186336.064,
+        "lastSeen": 1794186436.232,
         "r": 1,
         "day": "2026-11-09",
         "idx": 2
@@ -432572,7 +432597,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 10:06",
+    "at": "2026-11-09 10:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432726,7 +432751,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 10:05",
+    "at": "2026-11-09 10:07",
     "pri": {
       "days": 0,
       "failed": [],
