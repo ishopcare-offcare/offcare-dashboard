@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4917,
- "updatedAt": "2026-11-09 10:54",
+ "version": 4918,
+ "updatedAt": "2026-11-09 11:03",
  "days": 30,
  "items": [
   {
@@ -44,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261109_102844.jpg",
      "fid": "F0CFSUM9WF5",
      "from": "댓글",
-     "path": "menu-files/1794187819_686959-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -128,13 +127,13 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187819_686959-0.jpg"
     },
     {
      "name": "Resized_20261109_102847.jpg",
      "fid": "F0CG2SL2Z4L",
      "from": "댓글",
-     "path": "menu-files/1794187819_686959-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -188,13 +187,13 @@ window.MENU_REQUESTS = {
        "price": 7000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187819_686959-1.jpg"
     },
     {
      "name": "Resized_20261109_102850.jpg",
      "fid": "F0CFX6ZTGG6",
      "from": "댓글",
-     "path": "menu-files/1794187819_686959-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -243,13 +242,13 @@ window.MENU_REQUESTS = {
        "price": 7500
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187819_686959-2.jpg"
     },
     {
      "name": "Resized_20261109_102838[1].jpg",
      "fid": "F0CFTSSCPEH",
      "from": "댓글",
-     "path": "menu-files/1794187819_686959-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -328,13 +327,14 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 2
+     "v": 2,
+     "path": "menu-files/1794187819_686959-3.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794187839.866449",
+   "rc": 3,
+   "lr": "1794189759.013429",
    "rfx": 3,
    "status": "done",
    "handler": "고경림",
