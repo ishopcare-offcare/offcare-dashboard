@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31462,
+  "version": 31463,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313371,7 +313371,7 @@ window.SLACK_DATA = {
     "2026-11-09": {
       "counts": {
         "as": {
-          "배선유": 7,
+          "배선유": 8,
           "심성현": 5,
           "송태양": 4,
           "서상원": 4,
@@ -313415,6 +313415,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "12:34",
+          "store": "네일 메리무드",
+          "biz": "5230901747",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "대체품 수령 하셨으나 코드가 맞지 않는다고 하시어 영상통화로 확인 한번만 부탁 드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "2회 전화거절 / 전원선 안맞음, 원래쓰던걸로 연결해도 안켜짐 / 출고는 잘 됐는데… / 왼쪽이 정상, 오른쪽이 이번에 출고된 어댑터",
+          "rr": 5
+        },
         {
           "time": "12:23",
           "store": "아이옷상점byssong",
@@ -313970,7 +313982,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 40,
-        "offline": 8,
+        "offline": 9,
         "unknown": 0
       },
       "updatedAt": "12:34",
@@ -314036,11 +314048,11 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794195770.165
+        "lastSeen": 1794195841.108
       },
       "1794191306.694479": {
         "post": "1794191306.694479",
-        "lastSeen": 1794195770.165,
+        "lastSeen": 1794195841.108,
         "r": 1,
         "day": "2026-11-09",
         "idx": 18
@@ -433322,7 +433334,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 12:43",
+    "at": "2026-11-09 12:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -433476,7 +433488,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 12:42",
+    "at": "2026-11-09 12:44",
     "pri": {
       "days": 0,
       "failed": [],
