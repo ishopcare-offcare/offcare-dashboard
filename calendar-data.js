@@ -2,37 +2,9 @@
  * 회사 구글 캘린더(iCal) 동기화 데이터 — gcal-sync 워크플로가 자동 생성/갱신합니다.
  */
 window.GCAL_DATA = {
-  "version": 795,
-  "updatedAt": "2026-11-09 07:42",
+  "version": 796,
+  "updatedAt": "2026-11-09 11:29",
   "days": {
-    "2026-10-15": [
-      {
-        "title": "OCTeam 정기회의",
-        "time": "09:30~10:30",
-        "allDay": false
-      }
-    ],
-    "2026-10-22": [
-      {
-        "title": "OCTeam 정기회의",
-        "time": "09:30~10:30",
-        "allDay": false
-      }
-    ],
-    "2026-10-29": [
-      {
-        "title": "OCTeam 정기회의",
-        "time": "09:30~10:30",
-        "allDay": false
-      }
-    ],
-    "2026-11-05": [
-      {
-        "title": "OCTeam 정기회의",
-        "time": "09:30~10:30",
-        "allDay": false
-      }
-    ],
     "2026-11-13": [
       {
         "title": "iShopCARE Town Hall Meeting",
@@ -65,6 +37,34 @@ window.GCAL_DATA = {
       {
         "title": "iShopCARE Town Hall Meeting",
         "time": "09:30~11:00",
+        "allDay": false
+      }
+    ],
+    "2026-10-15": [
+      {
+        "title": "OCTeam 정기회의",
+        "time": "09:30~10:30",
+        "allDay": false
+      }
+    ],
+    "2026-10-22": [
+      {
+        "title": "OCTeam 정기회의",
+        "time": "09:30~10:30",
+        "allDay": false
+      }
+    ],
+    "2026-10-29": [
+      {
+        "title": "OCTeam 정기회의",
+        "time": "09:30~10:30",
+        "allDay": false
+      }
+    ],
+    "2026-11-05": [
+      {
+        "title": "OCTeam 정기회의",
+        "time": "09:30~10:30",
         "allDay": false
       }
     ],
@@ -209,6 +209,13 @@ window.GCAL_DATA = {
       }
     ],
     "2027-04-01": [
+      {
+        "title": "OCTeam 정기회의",
+        "time": "09:30~10:30",
+        "allDay": false
+      }
+    ],
+    "2027-04-08": [
       {
         "title": "OCTeam 정기회의",
         "time": "09:30~10:30",
