@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31343,
+  "version": 31344,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313369,12 +313369,27 @@ window.SLACK_DATA = {
     },
     "2026-11-09": {
       "counts": {
+        "booking": {
+          "송태양": 1
+        },
         "as": {
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "찹찹착(chopchopchaak)",
+          "biz": "2620203841",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "포프(노트북) 사용 중, 프론트 전원 작동 불가로 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "금일 오전 10시 예약 요청으로 예약 완료입니다",
+          "rr": 1
+        },
         {
           "time": "06:00",
           "store": "지코바 강일1호점",
@@ -313389,11 +313404,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:00"
+      "updatedAt": "09:02"
     }
   },
   "resp": {
@@ -313446,14 +313461,14 @@ window.SLACK_DATA = {
       },
       "1794181501.091679": {
         "post": "1794181501.091679",
-        "lastSeen": 1794182480.887,
+        "lastSeen": 1794182556.352,
         "r": 1,
         "day": "2026-11-09",
         "idx": 1
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794182480.887
+        "lastSeen": 1794182556.352
       }
     },
     "days": {
@@ -432471,7 +432486,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 09:01",
+    "at": "2026-11-09 09:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432625,7 +432640,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 09:01",
+    "at": "2026-11-09 09:02",
     "pri": {
       "days": 0,
       "failed": [],
