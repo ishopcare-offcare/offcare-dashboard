@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4921,
- "updatedAt": "2026-11-09 11:15",
+ "version": 4922,
+ "updatedAt": "2026-11-09 11:37",
  "days": 30,
  "items": [
   {
@@ -358,337 +358,393 @@ window.MENU_REQUESTS = {
      "name": "20261109_102535.jpg",
      "fid": "F0CG148R2E5",
      "from": "댓글",
+     "path": "menu-files/1794187701_069349-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
        "category": "",
        "name": "(국산)간장깻잎",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "757"
       },
       {
        "category": "",
        "name": "(국산)고추무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "755"
       },
       {
        "category": "",
        "name": "(국산)곤드레장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "763"
       },
       {
        "category": "",
        "name": "(국산)깻잎무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "759"
       },
       {
        "category": "",
        "name": "(국산)더덕장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "764"
       },
       {
        "category": "",
        "name": "(국산)돼지감자장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "765"
       },
       {
        "category": "",
        "name": "(국산)된장고추",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "756"
       },
       {
        "category": "",
        "name": "(국산)된장깻잎",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "753"
       },
       {
        "category": "",
        "name": "(국산)명이나물장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "766"
       },
       {
        "category": "",
        "name": "(국산)무말랭이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "761"
       },
       {
        "category": "",
        "name": "(국산)무장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "762"
       },
       {
        "category": "",
        "name": "(국산)무짠지",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "760"
       },
       {
        "category": "",
        "name": "(국산)질경이장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "767"
       },
       {
        "category": "",
        "name": "(국산)취나물장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "768"
       },
       {
        "category": "",
        "name": "(국산)파래무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "754"
       },
       {
        "category": "",
        "name": "(홈푸드)구절판",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "665"
       },
       {
        "category": "",
        "name": "(홈푸드)꽃게탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "488"
       },
       {
        "category": "",
        "name": "(홈푸드)닭갈비",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "992"
       },
       {
        "category": "",
        "name": "(홈푸드)닭볶음탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "88"
       },
       {
        "category": "",
        "name": "(홈푸드)만두전골",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "611"
       },
       {
        "category": "",
        "name": "(홈푸드)밀푀유나베",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "720"
       },
       {
        "category": "",
        "name": "(홈푸드)부대찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "418"
       },
       {
        "category": "",
        "name": "(홈푸드)뼈감자탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "189"
       },
       {
        "category": "",
        "name": "(홈푸드)샤브샤브",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "717"
       },
       {
        "category": "",
        "name": "(홈푸드)순대볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "491"
       },
       {
        "category": "",
        "name": "(홈푸드)어묵탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "331"
       },
       {
        "category": "",
        "name": "(홈푸드)해물탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "489"
       },
       {
        "category": "",
        "name": "9겹돈까스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "772"
       },
       {
        "category": "",
        "name": "가리비젓갈",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "6"
       },
       {
        "category": "",
        "name": "가오리찜",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "667"
       },
       {
        "category": "",
        "name": "가자미",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "7"
       },
       {
        "category": "",
        "name": "가지",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "8"
       },
       {
        "category": "",
        "name": "간장게장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "10"
       },
       {
        "category": "",
        "name": "간장고추",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "11"
       },
       {
        "category": "",
        "name": "간장깻잎",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "12"
       },
       {
        "category": "",
        "name": "간장새우",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "777"
       },
       {
        "category": "",
        "name": "갈비찜(돼지)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "988"
       },
       {
        "category": "",
        "name": "갈비찜(소고기)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "14"
       },
       {
        "category": "",
        "name": "갈치구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "393"
       },
       {
        "category": "",
        "name": "갈치속젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "15"
       },
       {
        "category": "",
        "name": "갈치조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "989"
       },
       {
        "category": "",
        "name": "감사합니다",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "17"
       },
       {
        "category": "",
        "name": "감자고로케",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "660"
       },
       {
        "category": "",
        "name": "감자볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "19"
       },
       {
        "category": "",
        "name": "감자샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "20"
       },
       {
        "category": "",
        "name": "감자전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "21"
       },
       {
        "category": "",
        "name": "감자조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "22"
       },
       {
        "category": "",
        "name": "갓김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "24"
       },
       {
        "category": "",
        "name": "건가지",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "776"
       },
       {
        "category": "",
        "name": "건새우볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "199"
       },
       {
        "category": "",
        "name": "건호박",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "370"
       },
       {
        "category": "",
        "name": "게맛살조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "26"
       },
       {
        "category": "",
        "name": "계란말이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "27"
       },
       {
        "category": "",
        "name": "계란장조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "28"
       },
       {
        "category": "",
        "name": "계란찜",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "29"
       },
       {
        "category": "",
@@ -706,2120 +762,2493 @@ window.MENU_REQUESTS = {
        "category": "",
        "name": "고들빼기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "32"
       },
       {
        "category": "",
        "name": "고등어구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "456"
       },
       {
        "category": "",
        "name": "고등어구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "784"
       },
       {
        "category": "",
        "name": "고등어조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "34"
       },
       {
        "category": "",
        "name": "고사리",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "35"
       },
       {
        "category": "",
        "name": "고추무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "36"
       },
       {
        "category": "",
        "name": "고추잎나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "39"
       },
       {
        "category": "",
        "name": "고추잡채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "990"
       },
       {
        "category": "",
        "name": "고추장 볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "40"
       },
       {
        "category": "",
        "name": "고추장볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "991"
       },
       {
        "category": "",
        "name": "고추장삼겹살",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "774"
       },
       {
        "category": "",
        "name": "고추전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "41"
       },
       {
        "category": "",
        "name": "곤드레밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "604"
       },
       {
        "category": "",
        "name": "곤약",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "42"
       },
       {
        "category": "",
        "name": "골뱅이무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "43"
       },
       {
        "category": "",
        "name": "곰취",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "395"
       },
       {
        "category": "",
        "name": "과메기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "48"
       },
       {
        "category": "",
        "name": "과일샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "47"
       },
       {
        "category": "",
        "name": "굴무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "49"
       },
       {
        "category": "",
        "name": "굴전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "50"
       },
       {
        "category": "",
        "name": "궁중떡볶이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "51"
       },
       {
        "category": "",
        "name": "근대나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "449"
       },
       {
        "category": "",
        "name": "김치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "476"
       },
       {
        "category": "",
        "name": "김치전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "500"
       },
       {
        "category": "",
        "name": "김치찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "56"
       },
       {
        "category": "",
        "name": "김치찜",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "426"
       },
       {
        "category": "",
        "name": "김치콩나물국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "490"
       },
       {
        "category": "",
        "name": "깍두기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "57"
       },
       {
        "category": "",
        "name": "깻잎나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "58"
       },
       {
        "category": "",
        "name": "깻잎전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "59"
       },
       {
        "category": "",
        "name": "꼬마김밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "781"
       },
       {
        "category": "",
        "name": "꼬마돈가스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "780"
       },
       {
        "category": "",
        "name": "꼬막",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "60"
       },
       {
        "category": "",
        "name": "꼬지전(소고기)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "62"
       },
       {
        "category": "",
        "name": "꼬지전(햄)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "61"
       },
       {
        "category": "",
        "name": "꼴두기젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "64"
       },
       {
        "category": "",
        "name": "꽁치구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "412"
       },
       {
        "category": "",
        "name": "꽁치조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "65"
       },
       {
        "category": "",
        "name": "꽃맛살샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "486"
       },
       {
        "category": "",
        "name": "꽈리고추",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "66"
       },
       {
        "category": "",
        "name": "꽈리고추멸치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "67"
       },
       {
        "category": "",
        "name": "나박김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "68"
       },
       {
        "category": "",
        "name": "낙지볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "70"
       },
       {
        "category": "",
        "name": "낙지젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "71"
       },
       {
        "category": "",
        "name": "냉이나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "73"
       },
       {
        "category": "",
        "name": "녹두전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "76"
       },
       {
        "category": "",
        "name": "누룩치킨",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "771"
       },
       {
        "category": "",
        "name": "느타리버섯",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "77"
       },
       {
        "category": "",
        "name": "다래순",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "398"
       },
       {
        "category": "",
        "name": "단무지무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "81"
       },
       {
        "category": "",
        "name": "단호박샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "84"
       },
       {
        "category": "",
        "name": "단호박스프링롤",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "773"
       },
       {
        "category": "",
        "name": "닭가슴살샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "381"
       },
       {
        "category": "",
        "name": "닭강정",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "987"
       },
       {
        "category": "",
        "name": "닭다리살볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "733"
       },
       {
        "category": "",
        "name": "닭모래집볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "686"
       },
       {
        "category": "",
        "name": "닭발볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "739"
       },
       {
        "category": "",
        "name": "닭봉조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "380"
       },
       {
        "category": "",
        "name": "대하튀김",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "90"
       },
       {
        "category": "",
        "name": "더덕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "92"
       },
       {
        "category": "",
        "name": "더덕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "753"
       },
       {
        "category": "",
        "name": "도라지",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "93"
       },
       {
        "category": "",
        "name": "도라지 오이무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "94"
       },
       {
        "category": "",
        "name": "도시락",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "95"
       },
       {
        "category": "",
        "name": "도토리묵무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "96"
       },
       {
        "category": "",
        "name": "돈까스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "97"
       },
       {
        "category": "",
        "name": "돌게장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "99"
       },
       {
        "category": "",
        "name": "동그랑땡",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "100"
       },
       {
        "category": "",
        "name": "동치미",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "101"
       },
       {
        "category": "",
        "name": "동태전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "102"
       },
       {
        "category": "",
        "name": "동태찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "103"
       },
       {
        "category": "",
        "name": "돼지고추장불고기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "105"
       },
       {
        "category": "",
        "name": "돼지껍데기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "106"
       },
       {
        "category": "",
        "name": "돼지장조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "107"
       },
       {
        "category": "",
        "name": "돼지장조림메추리알",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "108"
       },
       {
        "category": "",
        "name": "된장고추",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "109"
       },
       {
        "category": "",
        "name": "된장국(배추)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "741"
       },
       {
        "category": "",
        "name": "된장국(시레기)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "740"
       },
       {
        "category": "",
        "name": "된장깻잎",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "110"
       },
       {
        "category": "",
        "name": "된장찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "111"
       },
       {
        "category": "",
        "name": "된장찌개(차돌)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "670"
       },
       {
        "category": "",
        "name": "두부강정",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "112"
       },
       {
        "category": "",
        "name": "두부부침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "113"
       },
       {
        "category": "",
        "name": "두부스테이크",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "114"
       },
       {
        "category": "",
        "name": "두부조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "116"
       },
       {
        "category": "",
        "name": "떡갈비",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "484"
       },
       {
        "category": "",
        "name": "떡국세트",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "712"
       },
       {
        "category": "",
        "name": "마늘종",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "121"
       },
       {
        "category": "",
        "name": "마늘종새우",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "122"
       },
       {
        "category": "",
        "name": "마늘종장아찌",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "123"
       },
       {
        "category": "",
        "name": "마늘종진미무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "718"
       },
       {
        "category": "",
        "name": "마카로니샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "124"
       },
       {
        "category": "",
        "name": "마파두부",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "483"
       }
      ],
-     "v": 2,
-     "path": "menu-files/1794187701_069349-0.jpg"
+     "v": 3
     },
     {
      "name": "20261109_102540.jpg",
      "fid": "F0CFTU4H9V3",
      "from": "댓글",
+     "path": "menu-files/1794187701_069349-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
        "category": "",
        "name": "머위나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "127"
       },
       {
        "category": "",
        "name": "머위대",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "129"
       },
       {
        "category": "",
        "name": "메밀전병",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "130"
       },
       {
        "category": "",
        "name": "메추리알,오징어조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "131"
       },
       {
        "category": "",
        "name": "메추리알완자볼",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "383"
       },
       {
        "category": "",
        "name": "메추리알조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "132"
       },
       {
        "category": "",
        "name": "멸치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "134"
       },
       {
        "category": "",
        "name": "명란젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "135"
       },
       {
        "category": "",
        "name": "명엽채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "136"
       },
       {
        "category": "",
        "name": "모듬쌈",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "385"
       },
       {
        "category": "",
        "name": "모듬전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "703"
       },
       {
        "category": "",
        "name": "무나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "145"
+      },
+      {
+       "category": "",
+       "name": "무말랭이",
+       "price": 0,
+       "pt": "u",
+       "code": "142"
+      },
+      {
+       "category": "",
+       "name": "무생채",
+       "price": 0,
+       "pt": "u",
+       "code": "146"
+      },
+      {
+       "category": "",
+       "name": "묵사발",
+       "price": 0,
+       "pt": "u",
+       "code": "614"
+      },
+      {
+       "category": "",
+       "name": "문어볶음",
+       "price": 0,
+       "pt": "u",
+       "code": "151"
+      },
+      {
+       "category": "",
+       "name": "물파래초무침",
+       "price": 0,
+       "pt": "u",
+       "code": "152"
       },
       {
        "category": "",
        "name": "미나리",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "153"
       },
       {
        "category": "",
        "name": "미역국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "156"
       },
       {
        "category": "",
        "name": "미역냉국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "157"
       },
       {
        "category": "",
        "name": "미역줄기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "159"
       },
       {
        "category": "",
        "name": "미트볼",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "161"
       },
       {
        "category": "",
        "name": "방풍나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "164"
       },
       {
        "category": "",
        "name": "배추겉절이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "166"
       },
       {
        "category": "",
        "name": "배추전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "167"
       },
       {
        "category": "",
        "name": "백김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "168"
       },
       {
        "category": "",
        "name": "뱅어포",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "170"
       },
       {
        "category": "",
        "name": "버섯들깨탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "719"
       },
       {
        "category": "",
        "name": "버섯전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "700"
       },
       {
        "category": "",
        "name": "베이컨 야채말이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "172"
       },
       {
        "category": "",
        "name": "보름나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "173"
       },
       {
        "category": "",
        "name": "보리새우볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "770"
       },
       {
        "category": "",
        "name": "보쌈",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "422"
       },
       {
        "category": "",
        "name": "보쌈김치",
        "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "복신지",
-       "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "617"
       },
       {
        "category": "",
        "name": "볶음밥재료",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "389"
       },
       {
        "category": "",
-       "name": "봄동걸절이",
+       "name": "봄동겉절이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "176"
       },
       {
        "category": "",
        "name": "부지깽이나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "507"
       },
       {
        "category": "",
        "name": "부추겉절이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "401"
       },
       {
        "category": "",
        "name": "북어국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "180"
       },
       {
        "category": "",
        "name": "비름나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "182"
       },
       {
        "category": "",
        "name": "비빔밥재료",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "184"
       },
       {
        "category": "",
        "name": "비엔나 메추리알조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "186"
       },
       {
        "category": "",
        "name": "비엔나케첩",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "188"
       },
       {
        "category": "",
        "name": "뽕잎나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "782"
       },
       {
        "category": "",
        "name": "산고추(정량)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "191"
       },
       {
        "category": "",
        "name": "삼계탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "192"
       },
       {
        "category": "",
        "name": "삼색나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "193"
       },
       {
        "category": "",
        "name": "삼치구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "494"
       },
       {
        "category": "",
        "name": "삼치조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "194"
       },
       {
        "category": "",
        "name": "새송이버섯볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "171"
       },
       {
        "category": "",
        "name": "새우감자고로케",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "198"
       },
       {
        "category": "",
        "name": "생깻잎",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "201"
       },
       {
        "category": "",
        "name": "생선구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "443"
       },
       {
        "category": "",
        "name": "생선까스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "202"
       },
       {
        "category": "",
        "name": "선지해장국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "205"
       },
       {
        "category": "",
        "name": "세발나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "207"
       },
       {
        "category": "",
        "name": "소고기무우국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "208"
       },
       {
        "category": "",
        "name": "소불고기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "213"
       },
       {
        "category": "",
        "name": "소장조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "216"
       },
       {
        "category": "",
        "name": "소장조림메추리알",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "217"
       },
       {
        "category": "",
        "name": "수제돈까스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "679"
       },
       {
        "category": "",
        "name": "수제떡갈비",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "610"
       },
       {
        "category": "",
        "name": "숙주나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "221"
       },
       {
        "category": "",
        "name": "순두부찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "224"
       },
       {
        "category": "",
        "name": "시금치나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "226"
       },
       {
        "category": "",
        "name": "시래기나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "227"
       },
       {
        "category": "",
        "name": "쌀게",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "230"
       },
       {
        "category": "",
        "name": "쑥갓나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "232"
       },
       {
        "category": "",
        "name": "아몬드 멸치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "234"
       },
       {
        "category": "",
        "name": "아삭이고추된장무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "235"
       },
       {
        "category": "",
        "name": "아욱국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "237"
       },
       {
        "category": "",
        "name": "아주까리나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "238"
       },
       {
        "category": "",
        "name": "알감자조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "239"
       },
       {
        "category": "",
        "name": "알마늘",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "240"
       },
       {
        "category": "",
        "name": "알밥재료",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "737"
       },
       {
        "category": "",
        "name": "알타리김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "243"
       },
       {
        "category": "",
        "name": "알탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "415"
       },
       {
        "category": "",
        "name": "애호박나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "368"
       },
       {
        "category": "",
        "name": "야채샐러드류",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "245"
       },
       {
        "category": "",
        "name": "야채전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "98"
       },
       {
        "category": "",
        "name": "양념강된장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "246"
       },
       {
        "category": "",
        "name": "양념게장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "247"
       },
       {
        "category": "",
        "name": "양념고추",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "248"
       },
       {
        "category": "",
        "name": "양념깻잎",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "249"
       },
       {
        "category": "",
        "name": "양념멸치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "250"
       },
       {
        "category": "",
        "name": "양배추와양념된장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "251"
       },
       {
        "category": "",
        "name": "어리굴젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "252"
       },
       {
        "category": "",
        "name": "어묵야채볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "255"
       },
       {
        "category": "",
        "name": "얼갈이나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "450"
       },
       {
        "category": "",
        "name": "연근,우엉조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "259"
       },
       {
        "category": "",
        "name": "연근샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "502"
       },
       {
        "category": "",
        "name": "연근샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "783"
       },
       {
        "category": "",
        "name": "연근조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "258"
       },
       {
        "category": "",
        "name": "연어샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "994"
       },
       {
        "category": "",
        "name": "연어장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "778"
       },
       {
        "category": "",
        "name": "연포탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "731"
       },
       {
        "category": "",
        "name": "열무김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "266"
       },
       {
        "category": "",
        "name": "열무물김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "391"
       },
       {
        "category": "",
        "name": "옛날소시지",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "497"
       },
       {
        "category": "",
        "name": "오곡밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "268"
       },
       {
        "category": "",
        "name": "오므라이스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "723"
       },
       {
        "category": "",
        "name": "오삼불고기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "485"
       },
       {
        "category": "",
        "name": "오이냉국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "271"
       },
       {
        "category": "",
        "name": "오이달래무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "273"
       },
       {
        "category": "",
        "name": "오이부추무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "274"
       },
       {
        "category": "",
        "name": "오이소박이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "275"
       },
       {
        "category": "",
        "name": "오이양파피클",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "276"
       },
       {
        "category": "",
        "name": "오이지",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "277"
       },
       {
        "category": "",
        "name": "오징어무국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "278"
       },
       {
        "category": "",
        "name": "오징어볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "279"
       },
       {
        "category": "",
        "name": "오징어숙회",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "284"
       },
       {
        "category": "",
        "name": "오징어실채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "281"
       },
       {
        "category": "",
        "name": "오징어야채말이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "282"
       },
       {
        "category": "",
        "name": "오징어젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "283"
       },
       {
        "category": "",
        "name": "오징어초무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "440"
       },
       {
        "category": "",
        "name": "우거지된장국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "402"
       },
       {
        "category": "",
        "name": "우렁된장찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "659"
       },
       {
        "category": "",
        "name": "우렁쌈된장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "292"
       },
       {
        "category": "",
        "name": "우엉잡채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "656"
       },
       {
        "category": "",
        "name": "우엉조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "293"
       },
       {
        "category": "",
        "name": "월남쌈",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "294"
       },
       {
        "category": "",
        "name": "웰빙견과류 볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "296"
       },
       {
        "category": "",
        "name": "웰빙오징어젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "297"
       },
       {
        "category": "",
        "name": "유부초밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "713"
       },
       {
        "category": "",
        "name": "유채나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "301"
       },
       {
        "category": "",
        "name": "육개장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "302"
       },
       {
        "category": "",
        "name": "이연수",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "632"
       },
       {
        "category": "",
        "name": "잡채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "304"
       },
       {
        "category": "",
        "name": "장어포",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "308"
       },
       {
        "category": "",
        "name": "제육볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "309"
       },
       {
        "category": "",
        "name": "조개젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "310"
       },
       {
        "category": "",
        "name": "쥐채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "315"
       },
       {
        "category": "",
        "name": "지리멸치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "316"
       },
       {
        "category": "",
        "name": "진미무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "317"
       },
       {
        "category": "",
        "name": "짜장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "218"
       },
       {
        "category": "",
        "name": "쭈꾸미볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "479"
       },
       {
        "category": "",
        "name": "참나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "319"
       },
       {
        "category": "",
        "name": "찹스테이크",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "729"
       },
       {
        "category": "",
        "name": "창란젓",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "323"
       },
       {
        "category": "",
        "name": "청국장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "325"
       },
       {
        "category": "",
        "name": "청국장찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "664"
       },
       {
        "category": "",
        "name": "청양고추",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "327"
       },
       {
        "category": "",
        "name": "청포묵",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "328"
       },
       {
        "category": "",
        "name": "총각김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "637"
       },
       {
        "category": "",
        "name": "추어탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "330"
       },
       {
        "category": "",
        "name": "취나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "332"
       },
       {
        "category": "",
        "name": "취나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "751"
       }
      ],
-     "v": 2,
-     "path": "menu-files/1794187701_069349-1.jpg"
+     "v": 3
     },
     {
      "name": "20261109_102545.jpg",
      "fid": "F0CG149P62V",
      "from": "댓글",
+     "path": "menu-files/1794187701_069349-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
        "category": "",
        "name": "치즈돈까스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "333"
       },
       {
        "category": "",
        "name": "치즈스틱",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "702"
       },
       {
        "category": "",
        "name": "치킨까스",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "473"
       },
       {
        "category": "",
        "name": "치킨볼",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "439"
       },
       {
        "category": "",
        "name": "카레",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "334"
       },
       {
        "category": "",
        "name": "코다리강정",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "709"
       },
       {
        "category": "",
        "name": "코다리구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "676"
       },
       {
        "category": "",
        "name": "코다리조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "338"
       },
       {
        "category": "",
        "name": "콘샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "339"
       },
       {
        "category": "",
        "name": "콩고기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "340"
       },
       {
        "category": "",
        "name": "콩나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "341"
       },
       {
        "category": "",
        "name": "콩나물밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "681"
       },
       {
        "category": "",
        "name": "콩비지찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "342"
       },
       {
        "category": "",
        "name": "콩자반",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "343"
       },
       {
        "category": "",
        "name": "콩잔멸치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "752"
       },
       {
        "category": "",
        "name": "크렌베리 멸치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "769"
       },
       {
        "category": "",
        "name": "탕수육",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "344"
       },
       {
        "category": "",
        "name": "톳초무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "347"
       },
       {
        "category": "",
        "name": "파김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "349"
       },
       {
        "category": "",
        "name": "파래김자반",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "350"
       },
       {
        "category": "",
        "name": "파래무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "680"
       },
       {
        "category": "",
        "name": "파래전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "351"
       },
       {
        "category": "",
        "name": "파프리카전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "775"
       },
       {
        "category": "",
        "name": "팥죽",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "403"
       },
       {
        "category": "",
        "name": "포기김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "352"
       },
       {
        "category": "",
        "name": "표고버섯",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "353"
       },
       {
        "category": "",
        "name": "피꼬막",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "692"
       },
       {
        "category": "",
        "name": "함박스테이크",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "356"
       },
       {
        "category": "",
        "name": "함박스테이크(돼지)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "993"
       },
       {
        "category": "",
        "name": "해물동그랑땡",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "360"
       },
       {
        "category": "",
        "name": "해물파전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "363"
       },
       {
        "category": "",
        "name": "해초",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "364"
       },
       {
        "category": "",
        "name": "해파리냉채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "365"
       },
       {
        "category": "",
        "name": "호두멸치볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "367"
       },
       {
        "category": "",
        "name": "호박나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "646"
       },
       {
        "category": "",
        "name": "호박야채말이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "372"
       },
       {
        "category": "",
        "name": "호박잎과 양념된장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "373"
       },
       {
        "category": "",
        "name": "호박전",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "374"
       },
       {
        "category": "",
        "name": "홍어회무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "376"
       },
       {
        "category": "",
        "name": "황제느타리버섯볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "779"
       },
       {
        "category": "",
        "name": "황태구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "506"
       },
       {
        "category": "",
        "name": "황태채무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "445"
       },
       {
        "category": "",
        "name": "훈제오리부추무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "498"
       }
      ],
-     "v": 2,
-     "path": "menu-files/1794187701_069349-2.jpg"
+     "v": 3
     },
     {
      "name": "20261109_102549.jpg",
      "fid": "F0CGTJDDXGQ",
      "from": "댓글",
+     "path": "menu-files/1794187701_069349-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
        "category": "",
        "name": "고구마 샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "219"
       },
       {
        "category": "",
        "name": "곤드레 나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "9"
       },
       {
        "category": "",
        "name": "고등어 김치말이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "38"
       },
       {
        "category": "",
        "name": "고추장 찌개",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "44"
       },
       {
        "category": "",
        "name": "건 취나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "757"
       },
       {
        "category": "",
        "name": "궁채",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "313"
       },
       {
        "category": "",
        "name": "콩나물냉국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "137"
       },
       {
        "category": "",
        "name": "크림 새우",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "209"
       },
       {
        "category": "",
-       "name": "깻잎따로",
+       "name": "깐 마늘",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "140"
       },
       {
        "category": "",
        "name": "꼴뚜기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "141"
       },
       {
        "category": "",
        "name": "꼬막 비빔밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "126"
       },
       {
        "category": "",
        "name": "고등어 구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "676"
       },
       {
        "category": "",
        "name": "노각 무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "91"
       },
       {
        "category": "",
        "name": "돼지머리편육",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "13"
       },
       {
        "category": "",
        "name": "달래장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "211"
       },
       {
        "category": "",
        "name": "도토리묵",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "46"
       },
       {
        "category": "",
        "name": "두부김치",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "314"
       },
       {
        "category": "",
        "name": "닭곰탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "318"
       },
       {
        "category": "",
        "name": "땅두릅나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "138"
       },
       {
        "category": "",
        "name": "땅콩조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "33"
       },
       {
        "category": "",
        "name": "두릅",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "63"
       },
       {
        "category": "",
        "name": "문어숙회",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "25"
       },
       {
        "category": "",
        "name": "명이나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "1"
       },
       {
        "category": "",
        "name": "명태 볶음",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "206"
       },
       {
        "category": "",
        "name": "묵은지 닭볶음탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "52"
       },
       {
        "category": "",
        "name": "마약 장조림",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "128"
       },
       {
        "category": "",
        "name": "봄동 된장국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "54"
       },
       {
        "category": "",
        "name": "북어껍질무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "125"
       },
       {
        "category": "",
        "name": "바싹 불고기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "311"
       },
       {
        "category": "",
        "name": "새우 볶음밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "5"
       },
       {
        "category": "",
        "name": "새우살 샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "82"
       },
       {
        "category": "",
        "name": "수박",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "120"
       },
       {
        "category": "",
        "name": "쌈장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "53"
       },
       {
        "category": "",
        "name": "오징어튀김",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "203"
       },
       {
        "category": "",
        "name": "오징어 순대",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "210"
       },
       {
        "category": "",
-       "name": "우렁쌈장",
+       "name": "우엉쌈장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "18"
       },
       {
        "category": "",
-       "name": "우렁강된장(대)",
+       "name": "우엉강된장(대)",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "72"
       },
       {
        "category": "",
-       "name": "우렁강된장",
+       "name": "우엉강된장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "74"
       },
       {
        "category": "",
        "name": "연근샐러드",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "502"
       },
       {
        "category": "",
        "name": "약고추장",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "212"
       },
       {
        "category": "",
        "name": "오이달래무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "213"
       },
       {
        "category": "",
        "name": "아구탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "312"
       },
       {
        "category": "",
        "name": "장어구이",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "3"
       },
       {
        "category": "",
        "name": "초계탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "119"
       },
       {
        "category": "",
        "name": "찰옥수수",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "139"
       },
       {
        "category": "",
        "name": "황태 초무침",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "2"
       },
       {
        "category": "",
-       "name": "황태껍질튀김",
+       "name": "황태 껍질튀김",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "45"
       },
       {
        "category": "",
        "name": "마약순두부",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "320"
       },
       {
        "category": "",
        "name": "어묵탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "322"
       },
       {
        "category": "",
        "name": "모듬반찬",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "321"
       },
       {
        "category": "",
        "name": "고구마튀김",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "324"
       },
       {
        "category": "",
        "name": "근대국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "326"
       },
       {
        "category": "",
        "name": "김치볶음밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "4"
       },
       {
        "category": "",
        "name": "새우 볶음밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "5"
       },
       {
        "category": "",
        "name": "모듬어묵",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "329"
       },
       {
        "category": "",
        "name": "북어껍질",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "335"
       },
       {
        "category": "",
        "name": "고구마야채튀김",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "336"
       },
       {
        "category": "",
        "name": "대구탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "337"
       },
       {
        "category": "",
        "name": "아구탕",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "345"
       },
       {
        "category": "",
        "name": "아구찜",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "346"
       },
       {
        "category": "",
        "name": "건취나물",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "751"
       },
       {
        "category": "",
        "name": "알꼬막",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "361"
       },
       {
        "category": "",
        "name": "초산적",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "359"
       },
       {
        "category": "",
        "name": "콩나물국",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "348"
       },
       {
        "category": "",
-       "name": "김치육전",
+       "name": "김치욱력치기",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "375"
       },
       {
        "category": "",
        "name": "불고기김밥",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "378"
       },
       {
        "category": "",
        "name": "새우튀김",
        "price": 0,
-       "pt": "u"
+       "pt": "u",
+       "code": "371"
       }
      ],
-     "v": 2,
-     "path": "menu-files/1794187701_069349-3.jpg"
+     "v": 3
     },
     {
      "name": "image.png",
      "fid": "F0CG333CT5J",
      "from": "댓글",
+     "path": "menu-files/1794187701_069349-4.png",
      "kind": "other",
      "menu": [],
-     "v": 2,
-     "path": "menu-files/1794187701_069349-4.png"
+     "v": 3
     }
    ],
    "datt": [],
