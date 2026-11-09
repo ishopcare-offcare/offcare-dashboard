@@ -33,9 +33,10 @@ var SCHEMA = {
           name: { type: 'string', description: '메뉴명. 이미지 표기 그대로. 맞춤법 교정 금지.' },
           price: { type: 'integer', description: '가격. 콤마 없는 정수. 시가·미판독이면 0.' },
           price_type: { type: 'string', enum: ['fixed', 'market', 'unknown'],
-                        description: '가격 종류. 숫자 가격(0원 포함)=fixed, 시가·싯가·시세=market, 가격이 안 보이거나 잘림=unknown' }
+                        description: '가격 종류. 숫자 가격(0원 포함)=fixed, 시가·싯가·시세=market, 가격이 안 보이거나 잘림=unknown' },
+          code: { type: 'string', description: '메뉴명 옆(앞·뒤)에 적힌 품번·상품번호. 보이는 숫자(기호) 그대로. 없으면 빈 문자열.' }
         },
-        required: ['category', 'name', 'price', 'price_type'],
+        required: ['category', 'name', 'price', 'price_type', 'code'],
         additionalProperties: false
       }
     }
@@ -60,6 +61,7 @@ var PROMPT = [
   "  · '시가'·'싯가'·'시세'·'싯가상품' 표기는 market + 0 입니다. 시가 상품도 반드시 넣으세요.",
   '  · 가격이 안 보이거나 잘렸으면 unknown + 0 입니다. 지어내지 마세요.',
   '- 분류(주류/식사류 등) 표기가 있으면 category 에 넣고, 없으면 빈 문자열로 둡니다.',
+  '- 메뉴명 옆(앞이나 뒤)에 품번·상품번호(예: 757, 0012, A-12)가 있으면 code 에 그 번호만 적고, 메뉴명에는 넣지 마세요. 없으면 빈 문자열입니다.',
   '- POS 화면은 위쪽 카테고리 탭 중 선택(강조색)된 탭 이름이 그 화면 상품들의 category 입니다.',
   "  탭 이름은 보이는 그대로 적습니다(예: 'MIIN MENU', '티오더').",
   '- POS 화면에 보이는 상품 버튼은 0원 버튼(직원호출·수저·반찬 리필 등)까지 전부 넣으세요.',
@@ -132,10 +134,13 @@ function readMenu_(key, mime, data) {
     var it = { category: String(x.category || '').slice(0, 30), name: String(x.name).slice(0, 60), price: Number(x.price) || 0 };
     if (x.price_type === 'market') it.pt = 'm';        // 시가
     else if (x.price_type === 'unknown') it.pt = 'u';  // 가격 미판독
+    var code = String(x.code == null ? '' : x.code).replace(/\s+/g, '').replace(/[^0-9A-Za-z-]/g, '').slice(0, 8);
+    if (code && code.replace(/\D/g, '').length <= 6) it.code = code;   // 품번 — 긴 숫자(전화번호 등)는 버림
     return it;
   });
   // v:2 = price_type 을 받은 판독 — 대시보드가 0원(fixed)을 미판독과 구분한다
-  return { ok: true, kind: parsed.kind || 'other', items: items, v: 2 };
+  // v:3 = 품번(code)까지 받은 판독 (v>=2 는 0원(fixed)을 미판독과 구분)
+  return { ok: true, kind: parsed.kind || 'other', items: items, v: 3 };
 }
 
 function call_(key, req, withFallback) {

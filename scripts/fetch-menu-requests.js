@@ -135,6 +135,14 @@ let ocrDupSkipped = 0;
 const ocrKey = (name, size) => (name && Number(size) > 0) ? `${String(name).trim().toLowerCase()}|${Number(size)}` : null;
 // 판독 결과 필드만 추린다. v(판독 규칙 버전)를 같이 옮겨야 대시보드가 0원·시가를 구 판독과 구분한다.
 const ocrRes = (r) => ({ kind: r.kind, menu: r.menu || [], ...(r.v ? { v: r.v } : {}) });
+/* 품번(code) — 영문·숫자·'-' 만, 8자 이하, 숫자 7자리 이상(전화번호 등)은 버린다. v3 부터 받는다(2026-11-09). */
+function cleanCode(c) {
+  const v = String(c == null ? '' : c).replace(/\s+/g, '').replace(/[^0-9A-Za-z-]/g, '').slice(0, 8);
+  return v && (v.replace(/\D/g, '').length <= 6) ? v : '';
+}
+/* 품번을 못 받은 옛 판독(v<3)을 한 번만 다시 읽을 요청(슬랙 ts). 다시 읽으면 v3 이 되어 더 안 읽는다.
+ * 2026-11-09 장독대 옥정지구점 — 메뉴 옆 품번이 빠져 있었다. */
+const OCR_REREAD_TS = new Set(['1794187701.069349']);
 const ocrRemember = (key, r) => { if (key && r && !ocrSeen.has(key)) ocrSeen.set(key, r.bad || r.nj ? { nj: 1 } : ocrRes(r)); };
 const OCR_MEDIA = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.gif': 'image/gif', '.bmp': 'image/bmp' };
 // PDF 는 이미지가 아니라 document 블록으로 보낸다(모델이 페이지를 직접 읽는다).
@@ -157,8 +165,9 @@ const OCR_SCHEMA = {
           price: { type: 'integer', description: '가격. 콤마 없는 정수. 시가·미판독이면 0.' },
           price_type: { type: 'string', enum: ['fixed', 'market', 'unknown'],
                         description: '가격 종류. 숫자 가격(0원 포함)=fixed, 시가·싯가·시세=market, 가격이 안 보이거나 잘림=unknown' },
+          code: { type: 'string', description: '메뉴명 옆(앞·뒤)에 적힌 품번·상품번호. 보이는 숫자(기호) 그대로. 없으면 빈 문자열.' },
         },
-        required: ['category', 'name', 'price', 'price_type'],
+        required: ['category', 'name', 'price', 'price_type', 'code'],
         additionalProperties: false,
       },
     },
@@ -182,6 +191,7 @@ const OCR_PROMPT = `이 이미지에서 등록 대상 메뉴(상품명과 가격
   · '시가'·'싯가'·'시세'·'싯가상품' 표기는 market + 0 입니다. 시가 상품도 반드시 넣으세요.
   · 가격이 안 보이거나 잘렸으면 unknown + 0 입니다. 지어내지 마세요.
 - 분류(주류/식사류 등) 표기가 있으면 category 에 넣고, 없으면 빈 문자열로 둡니다.
+- 메뉴명 옆(앞이나 뒤)에 품번·상품번호(예: 757, 0012, A-12)가 있으면 code 에 그 번호만 적고, 메뉴명에는 넣지 마세요. 없으면 빈 문자열입니다.
 - POS 화면은 위쪽 카테고리 탭 중 선택(강조색)된 탭 이름이 그 화면 상품들의 category 입니다.
   탭 이름은 보이는 그대로 적습니다(예: 'MIIN MENU', '티오더').
 - POS 화면에 보이는 상품 버튼은 0원 버튼(직원호출·수저·반찬 리필 등)까지 전부 넣으세요.
@@ -363,10 +373,11 @@ async function readMenuImage(dest) {
                      name: scrubPII(String(x.name || '')).slice(0, 60),
                      price: Number(x.price) || 0,
                      // 가격 종류 — 고정가는 생략, 시가 'm' · 미판독 'u'
-                     ...(x.price_type === 'market' ? { pt: 'm' } : x.price_type === 'unknown' ? { pt: 'u' } : {}) }))
+                     ...(x.price_type === 'market' ? { pt: 'm' } : x.price_type === 'unknown' ? { pt: 'u' } : {}),
+                     ...(cleanCode(x.code) ? { code: cleanCode(x.code) } : {}) }))
       .filter((x) => x.name)
       .slice(0, 200);
-    return { kind: parsed.kind || 'other', menu, v: 2 };
+    return { kind: parsed.kind || 'other', menu, v: 3 };
   } catch (e) {
     const st = e.status || 0;
     const msg = String((e.error && e.error.error && e.error.error.message) || e.message || e).slice(0, 200);
@@ -426,10 +437,11 @@ async function readMenuText(dest) {
                      name: scrubPII(String(x.name || '')).slice(0, 60),
                      price: Number(x.price) || 0,
                      // 가격 종류 — 고정가는 생략, 시가 'm' · 미판독 'u'
-                     ...(x.price_type === 'market' ? { pt: 'm' } : x.price_type === 'unknown' ? { pt: 'u' } : {}) }))
+                     ...(x.price_type === 'market' ? { pt: 'm' } : x.price_type === 'unknown' ? { pt: 'u' } : {}),
+                     ...(cleanCode(x.code) ? { code: cleanCode(x.code) } : {}) }))
       .filter((x) => x.name)
       .slice(0, 500);
-    return { kind: 'menu_file', menu, v: 2 };
+    return { kind: 'menu_file', menu, v: 3 };
   } catch (e) {
     const st = e.status || 0;
     const msg = String((e.error && e.error.error && e.error.error.message) || e.message || e).slice(0, 200);
@@ -699,7 +711,9 @@ function detectPos(text) {
       // 첨부 바이트는 슬랙 API 의 url_private_download 로만 받을 수 있는데, 캐시 분기로 빠지면
       // rawReplies 가 null 이라 그 URL 이 없어 영영 판독되지 않는다(43장이 이 상태로 묶여 있었다).
       const pendingReply = ((prevMap[m.ts] || {}).att || [])
-        .some((x) => x.from === '댓글' && !('kind' in x) && (!x.nj || (HEIC_EXT.test(x.name || '') && !x.hx && !!getHeic())));
+        .some((x) => x.from === '댓글' && (
+          (!('kind' in x) && (!x.nj || (HEIC_EXT.test(x.name || '') && !x.hx && !!getHeic())))
+          || (OCR_REREAD_TS.has(String(m.ts)) && 'kind' in x && (x.v || 0) < 3)));   // 품번 재판독 대상도 스레드를 다시 읽어야 첨부 URL 을 얻는다
       if (!pendingReply && prev && prev.rc === rc && prev.lr === lr && (prev.rfx || 0) >= RFX_VER) { replies = prev.replies || []; repliesCached = true; }   // 변경 없음 → 캐시
       else {
         rawReplies = await fetchReplies(CHANNEL, m.ts);
@@ -732,8 +746,9 @@ function detectPos(text) {
       const prevA = prevAtt.find((x) => x.fid && x.fid === f.id) || {};
       const a = { name: String(f.name || '첨부').slice(0, 40), fid: f.id, from };
       const sKey = ocrKey(f.name, f.size);
-      if ('kind' in prevA) { Object.assign(a, ocrRes(prevA)); ocrRemember(sKey, prevA); }   // 판독 완료분 재사용(빈 결과도 재사용)
-      else if (sKey && ocrSeen.has(sKey)) { Object.assign(a, ocrSeen.get(sKey)); ocrDupSkipped++; }   // 같은 파일명·용량은 이미 판독한 결과를 복사
+      const reread = OCR_REREAD_TS.has(String(m.ts)) && (prevA.v || 0) < 3;   // 품번 재판독 대상
+      if ('kind' in prevA && !reread) { Object.assign(a, ocrRes(prevA)); ocrRemember(sKey, prevA); }   // 판독 완료분 재사용(빈 결과도 재사용)
+      else if (!reread && sKey && ocrSeen.has(sKey)) { Object.assign(a, ocrSeen.get(sKey)); ocrDupSkipped++; }   // 같은 파일명·용량은 이미 판독한 결과를 복사
       const small = (f.size || 0) <= FILE_MAX && !!f.url_private_download;
       let stored = false;
       if (inWindow && small && idx < FILE_PER_MSG) {   // 저장은 앞 몇 장만 — 판독은 아래에서 전량
