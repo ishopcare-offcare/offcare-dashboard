@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4956,
- "updatedAt": "2026-11-09 18:45",
+ "version": 4957,
+ "updatedAt": "2026-11-09 18:47",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,421 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_6611.jpg",
+     "fid": "F0CFWRGS9UM",
+     "from": "댓글",
+     "path": "menu-files/1794217542_160159-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "신라면",
+       "price": 4000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "통새라면",
+       "price": 4000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "우동",
+       "price": 6000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "잔치국수",
+       "price": 6000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "잔치국숙곱배기",
+       "price": 6000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "물면",
+       "price": 7000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "우동포장",
+       "price": 6000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "잔치국수포장",
+       "price": 6000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "잔치국수곱배기포장",
+       "price": 6000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "물면포장",
+       "price": 7000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "비빔국수포장",
+       "price": 7000
+      },
+      {
+       "category": "라면,우동,물면,국수",
+       "name": "비빔국수",
+       "price": 7000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6612.jpg",
+     "fid": "F0CG5RB5YN8",
+     "from": "댓글",
+     "path": "menu-files/1794217542_160159-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "제육/불백/닭다리살 볶음",
+       "name": "제육볶음(밥포함)",
+       "price": 8000
+      },
+      {
+       "category": "제육/불백/닭다리살 볶음",
+       "name": "제육볶음포장(밥포함)",
+       "price": 8000
+      },
+      {
+       "category": "제육/불백/닭다리살 볶음",
+       "name": "돼지불백(밥포함)",
+       "price": 8000
+      },
+      {
+       "category": "제육/불백/닭다리살 볶음",
+       "name": "돼지불백포장(밥포함)",
+       "price": 8000
+      },
+      {
+       "category": "제육/불백/닭다리살 볶음",
+       "name": "매콤닭다리살덮밥",
+       "price": 8000
+      },
+      {
+       "category": "제육/불백/닭다리살 볶음",
+       "name": "매콤닭다리살덮밥포장",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6610.jpg",
+     "fid": "F0CFVTBQY03",
+     "from": "댓글",
+     "path": "menu-files/1794217542_160159-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "떡볶이/떡만두국",
+       "name": "떡만두국포장",
+       "price": 7000
+      },
+      {
+       "category": "떡볶이/떡만두국",
+       "name": "떡만두국",
+       "price": 7000
+      },
+      {
+       "category": "떡볶이/떡만두국",
+       "name": "떡볶이",
+       "price": 6000
+      },
+      {
+       "category": "떡볶이/떡만두국",
+       "name": "떡볶이포장",
+       "price": 6000
+      },
+      {
+       "category": "떡볶이/떡만두국",
+       "name": "라볶이",
+       "price": 7000
+      },
+      {
+       "category": "떡볶이/떡만두국",
+       "name": "라볶이포장",
+       "price": 7000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6609.jpg",
+     "fid": "F0CGWFQFBDE",
+     "from": "댓글",
+     "path": "menu-files/1794217542_160159-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "김밥반줄세트",
+       "name": "김밥반줄세트",
+       "price": 6000
+      },
+      {
+       "category": "김밥반줄세트",
+       "name": "김밥반줄세트포장",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6608.jpg",
+     "fid": "F0CFWRGET6Z",
+     "from": "댓글",
+     "path": "menu-files/1794217542_160159-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "볶음",
+       "name": "세트는 돌이드시면 안되요!!",
+       "price": 0
+      },
+      {
+       "category": "볶음",
+       "name": "안내)세트는1인1메뉴입니다",
+       "price": 0
+      },
+      {
+       "category": "볶음",
+       "name": "혼밥메뉴김치볶음밥+라면",
+       "price": 8000
+      },
+      {
+       "category": "볶음",
+       "name": "혼밥메뉴김치볶음밥+우동",
+       "price": 10000
+      },
+      {
+       "category": "볶음",
+       "name": "혼밥메뉴김치볶음밥+떡볶이",
+       "price": 10000
+      },
+      {
+       "category": "볶음",
+       "name": "혼밥메뉴김치볶음밥+쫄면",
+       "price": 11000
+      },
+      {
+       "category": "볶음",
+       "name": "혼밥메뉴김치볶음밥+떡만두국",
+       "price": 11000
+      },
+      {
+       "category": "볶음",
+       "name": "김치볶음밥",
+       "price": 6000
+      },
+      {
+       "category": "볶음",
+       "name": "김치볶음밥포장",
+       "price": 6000
+      },
+      {
+       "category": "볶음",
+       "name": "스팸김치볶음밥",
+       "price": 7500
+      },
+      {
+       "category": "볶음",
+       "name": "스팸김치볶음밥 포장",
+       "price": 7500
+      },
+      {
+       "category": "볶음",
+       "name": "참치김치볶음밥",
+       "price": 7500
+      },
+      {
+       "category": "볶음",
+       "name": "참치김치볶음밥 포장",
+       "price": 7500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6607.jpg",
+     "fid": "F0CFLP1LGT1",
+     "from": "댓글",
+     "path": "menu-files/1794217542_160159-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "김밥1인세트",
+       "name": "세트는 둘이서 시면 안되요!!",
+       "price": 0
+      },
+      {
+       "category": "김밥1인세트",
+       "name": "안내)세트는1인1메뉴입니다",
+       "price": 0
+      },
+      {
+       "category": "김밥1인세트",
+       "name": "혼밥메뉴김밥+라면",
+       "price": 7000
+      },
+      {
+       "category": "김밥1인세트",
+       "name": "혼자예뉴김밥+우동",
+       "price": 8000
+      },
+      {
+       "category": "김밥1인세트",
+       "name": "혼밥예뉴김밥+쫄면",
+       "price": 9000
+      },
+      {
+       "category": "김밥1인세트",
+       "name": "혼밥예뉴김밥+떡볶이",
+       "price": 8000
+      },
+      {
+       "category": "김밥1인세트",
+       "name": "혼밥예뉴김밥+떡만두국",
+       "price": 9000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6606.jpg",
+     "fid": "F0CGWFR2CC8",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "김밥",
+       "name": "치즈김밥포장",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "스팸김밥포장",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "스팸치즈김밥포장",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "진미채치즈김밥포장",
+       "price": 6000
+      },
+      {
+       "category": "김밥",
+       "name": "진미채김밥포장",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6605.jpg",
+     "fid": "F0CG1USC6D8",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "김밥",
+       "name": "속이꽉찬야채김밥",
+       "price": 4000
+      },
+      {
+       "category": "김밥",
+       "name": "참치김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "참치치즈김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "크래미김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "크래미치즈김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "치즈김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "스팸김밥",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "스팸치즈김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "진미채김밥",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "진미채치즈김밥",
+       "price": 6000
+      },
+      {
+       "category": "김밥",
+       "name": "정상이김밥포장",
+       "price": 4000
+      },
+      {
+       "category": "김밥",
+       "name": "참치김밥포장",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "참치치즈김밥포장",
+       "price": 5500
+      },
+      {
+       "category": "김밥",
+       "name": "크래미김밥포장",
+       "price": 5000
+      },
+      {
+       "category": "김밥",
+       "name": "크래미치즈김밥포장",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794217619.432689",
    "rfx": 3,
    "status": "wait",
    "handler": null,
