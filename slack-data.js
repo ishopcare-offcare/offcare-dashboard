@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31380,
+  "version": 31381,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -313414,8 +313414,8 @@ window.SLACK_DATA = {
           "req": "해당 매장 영수증 하단 연락처 변경이 필요합니다",
           "hw": "",
           "intake": "offline",
-          "note": "<tel:0704416****|070-4416-****로 변경 금일 휴무, 익일 확인 가능하다고 함 070-4416-**** 로 변경",
-          "rr": 1
+          "note": "<tel:0704416****|070-4416-****로 변경 금일 휴무, 익일 확인 가능하다고 함 070-4416-**** 로 변경 / 결제정보 &gt; 영수증 &gt; 최신정보 불러오기 문자 안내 결제정보 영수증 최신정보 불러오기 문자 안내",
+          "rr": 2
         },
         {
           "time": "10:14",
@@ -313555,7 +313555,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:20"
+      "updatedAt": "10:24"
     }
   },
   "resp": {
@@ -313608,7 +313608,7 @@ window.SLACK_DATA = {
       },
       "1794182436.986989": {
         "post": "1794182436.986989",
-        "lastSeen": 1794187462.176
+        "lastSeen": 1794187546.62
       }
     },
     "days": {
@@ -432654,7 +432654,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-09 10:24",
+    "at": "2026-11-09 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -432808,7 +432808,7 @@ window.SLACK_DATA = {
     "2026-11-09": 2
   },
   "noteMig": {
-    "at": "2026-11-09 10:24",
+    "at": "2026-11-09 10:25",
     "pri": {
       "days": 0,
       "failed": [],
