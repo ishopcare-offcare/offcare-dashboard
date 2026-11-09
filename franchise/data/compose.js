@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-09 16:34 KST
+ *  갱신: 2026-11-09 16:50 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-09 16:34',
+  updatedAt : '2026-11-09 16:50',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -74,6 +74,7 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-04","time":"14:05","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"서상원","intake":"online","status":"done","req":"- 아까 오전에 결제 취소 후 판매 개수가 줄지 않아 재고 수량이 맞지 않는다고 문의 (취소 처리 후 재고에 수량 반영이 제대로 되는지 확인 요청)","note":""},
     {"date":"2026-11-07","time":"15:02","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"서상원","intake":"online","status":"done","req":"컴포즈커피 뱅뱅사거리점 키오스크 2대 일시적 오류로 화면이 바뀌지 않고 동작 불가","note":"번호알려주세요 /"},
     {"date":"2026-11-07","time":"17:29","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"성철","intake":"online","status":"done","req":"배달의민족 주문이 POS에 접수되지 않아 확인 요청","note":"토스포스 재시작으로 배민연동정상완료입니다,"},
+    {"date":"2026-11-09","time":"15:48","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"김기범","intake":"online","status":"pending","req":"확인 후 미완료","note":""},
     {"date":"2026-11-09","time":"15:56","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"포스기 앱오더 주문 받는데 소리가 나지 않아 모르고있다가 자동으로 취소되고 있어 확인 요청","note":""},
   ],
 };
