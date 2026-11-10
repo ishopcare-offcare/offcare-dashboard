@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 31853,
+  "version": 31854,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -316038,7 +316038,55 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "10:47"
+      "updatedAt": "10:57",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 0
+        },
+        "npsDist": {
+          "9": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KCP": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": [
+          {
+            "time": "10:57",
+            "store": "퍼피니 앤 코",
+            "storeId": "696876",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 9,
+            "text": "매출입금날이 넘 길고 카드수수료가 왜이리 비싼지...이런것들은 토스단말기랑 관련이 있는지 없는는지는 모르겠지만 좀 불편해요 ...",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
+      }
     }
   },
   "resp": {
@@ -316090,39 +316138,39 @@ window.SLACK_DATA = {
       },
       "1794268842.795339": {
         "post": "1794268842.795339",
-        "lastSeen": 1794275675.874
+        "lastSeen": 1794275795.856
       },
       "1794272402.937319": {
         "post": "1794272402.937319",
-        "lastSeen": 1794275675.874,
+        "lastSeen": 1794275795.856,
         "r": 1,
         "day": "2026-11-10",
         "idx": 13
       },
       "1794273979.918669": {
         "post": "1794273979.918669",
-        "lastSeen": 1794275675.874,
+        "lastSeen": 1794275795.856,
         "r": 1,
         "day": "2026-11-10",
         "idx": 25
       },
       "1794274192.054439": {
         "post": "1794274192.054439",
-        "lastSeen": 1794275675.874,
+        "lastSeen": 1794275795.856,
         "r": 1,
         "day": "2026-11-10",
         "idx": 26
       },
       "1794274201.751139": {
         "post": "1794274201.751139",
-        "lastSeen": 1794275675.874,
+        "lastSeen": 1794275795.856,
         "r": 1,
         "day": "2026-11-10",
         "idx": 28
       },
       "1794274595.959049": {
         "post": "1794274595.959049",
-        "lastSeen": 1794275675.874,
+        "lastSeen": 1794275795.856,
         "r": 1,
         "day": "2026-11-10",
         "idx": 31
@@ -436556,7 +436604,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-10 10:55",
+    "at": "2026-11-10 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -436711,7 +436759,7 @@ window.SLACK_DATA = {
     "2026-11-10": 2
   },
   "noteMig": {
-    "at": "2026-11-10 10:54",
+    "at": "2026-11-10 10:56",
     "pri": {
       "days": 0,
       "failed": [],
