@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4968,
- "updatedAt": "2026-11-10 10:30",
+ "version": 4969,
+ "updatedAt": "2026-11-10 10:32",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,422 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261105_152628.jpg",
+     "fid": "F0CGA96FE8J",
+     "from": "댓글",
+     "path": "menu-files/1794274192_054439-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "리치 캐모마일 릴렉서",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "민트유자티",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "진저레몬티",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "캐모마일티",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "얼그레이티",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "페퍼민트티",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "멍푸치노",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "디카페인 변경",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "아몬드우유 변경",
+       "price": 800
+      },
+      {
+       "category": "",
+       "name": "락토프리 우유 변경",
+       "price": 800
+      },
+      {
+       "category": "",
+       "name": "두유 변경",
+       "price": 800
+      },
+      {
+       "category": "",
+       "name": "아사이샤베트",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261105_152625.jpg",
+     "fid": "F0CG55X5WER",
+     "from": "댓글",
+     "path": "menu-files/1794274192_054439-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "바닐라라떼",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "시나몬 메이플라떼",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "아인슈페너",
+       "price": 5800
+      },
+      {
+       "category": "음료",
+       "name": "크림라떼",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "로얄밀크티",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "제주말차라떼",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "딥초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "피스타치오 딸기라떼",
+       "price": 6800
+      },
+      {
+       "category": "음료",
+       "name": "딸기에이드",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "체리에이드",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "유자레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "리치 캐모마일 릴렉서",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "민트유자티",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "진저레몬티",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "캐모마일티",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "얼그레이티",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261105_152609.jpg",
+     "fid": "F0CGA96THNE",
+     "from": "댓글",
+     "path": "menu-files/1794274192_054439-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "초",
+       "price": 700
+      },
+      {
+       "category": "디저트",
+       "name": "홀케익 레몬 1호",
+       "price": 29500
+      },
+      {
+       "category": "디저트",
+       "name": "홀케익 레몬 2호",
+       "price": 42500
+      },
+      {
+       "category": "디저트",
+       "name": "홀케익 흑임자 1호",
+       "price": 30500
+      },
+      {
+       "category": "디저트",
+       "name": "홀케익 흑임자 2호",
+       "price": 43500
+      },
+      {
+       "category": "디저트",
+       "name": "르뱅/바나나 (미니)",
+       "price": 2200
+      },
+      {
+       "category": "디저트",
+       "name": "무화과 (미니)",
+       "price": 2500
+      },
+      {
+       "category": "디저트",
+       "name": "밀크버터 쌀쿠키 2ea",
+       "price": 1600
+      },
+      {
+       "category": "디저트",
+       "name": "택배",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "바나나비스킷",
+       "price": 3400
+      },
+      {
+       "category": "디저트",
+       "name": "쌀 브라우니",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "겨울) 레밍턴 쌀케이크",
+       "price": 5500
+      },
+      {
+       "category": "디저트",
+       "name": "겨울) 슈톨렌 쌀쿠키",
+       "price": 5300
+      },
+      {
+       "category": "디저트",
+       "name": "화이트 말차 쌀구겔호프",
+       "price": 34000
+      },
+      {
+       "category": "디저트",
+       "name": "딸기요거트 레어치즈케이크",
+       "price": 42000
+      },
+      {
+       "category": "디저트",
+       "name": "눈사람 브라우니",
+       "price": 10000
+      },
+      {
+       "category": "디저트",
+       "name": "보늬밤 크럼블 쌀휘낭시에",
+       "price": 4100
+      },
+      {
+       "category": "디저트",
+       "name": "보늬밤 쌀쿠키",
+       "price": 4300
+      },
+      {
+       "category": "디저트",
+       "name": "무화과 오픈 샌드위치",
+       "price": 11000
+      },
+      {
+       "category": "디저트",
+       "name": "맘모스 쌀케이크",
+       "price": 9500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261105_152558.jpg",
+     "fid": "F0CGCBFMHLZ",
+     "from": "댓글",
+     "path": "menu-files/1794274192_054439-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "당근라페 샌드위치",
+       "price": 10500
+      },
+      {
+       "category": "디저트",
+       "name": "치킨햄 샌드위치",
+       "price": 9500
+      },
+      {
+       "category": "디저트",
+       "name": "플레인 쌀휘낭시에",
+       "price": 2800
+      },
+      {
+       "category": "디저트",
+       "name": "감태 쌀휘낭시에",
+       "price": 3400
+      },
+      {
+       "category": "디저트",
+       "name": "카라멜헤이즐넛 쌀휘낭시에",
+       "price": 3400
+      },
+      {
+       "category": "디저트",
+       "name": "츄러스 쌀휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "디저트",
+       "name": "황치즈 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "크런키초코 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "말차피스타치오 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "피칸파이 쌀휘낭시에",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "초코시나몬 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "쌀 르뱅쿠키",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "무화과얼그레이 쌀쿠콘",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "레몬 쌀스콘",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "생크림 쌀스콘",
+       "price": 3800
+      },
+      {
+       "category": "디저트",
+       "name": "흑임자 바스크치즈케이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "디저트",
+       "name": "레몬 바스크치즈케이크",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "디저트",
+       "name": "선물포장",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "디저트",
+       "name": "밀크버터쌀쿠키 6ea",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "디저트",
+       "name": "굿즈",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794274228.659379",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -68447,29 +68858,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791714754858389"
-  },
-  {
-   "ts": "1791682264.915799",
-   "date": "2026-10-11",
-   "time": "10:31",
-   "store": "시골마루",
-   "biz": "1304668196",
-   "pos": "오케이포스",
-   "content": "1.세트류 부분.\n쭈꾸미 전골\n65,000\n2.추가 부분.\n라면사리\n2,000\n\n두가지 추가 부탁드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "등록 솔라피 전송 완료"
-   ],
-   "rc": 1,
-   "lr": "1791682974.340739",
-   "rfx": 3,
-   "status": "done",
-   "handler": "송태양",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791682264915799"
   }
  ],
  "ocr": {
