@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5010,
- "updatedAt": "2026-11-10 17:33",
+ "version": 5011,
+ "updatedAt": "2026-11-10 17:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1794299961.618969",
+   "date": "2026-11-10",
+   "time": "17:39",
+   "store": "듀레스트",
+   "biz": "4507700319",
+   "pos": "토스포스",
+   "content": "메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794299961618969"
+  },
   {
    "ts": "1794299540.588289",
    "date": "2026-11-10",
@@ -20,12 +41,14 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료"
+   ],
+   "rc": 1,
+   "lr": "1794299937.921449",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794299540588289"
   },
   {
