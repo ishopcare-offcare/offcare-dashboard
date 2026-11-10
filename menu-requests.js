@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4972,
- "updatedAt": "2026-11-10 10:54",
+ "version": 4973,
+ "updatedAt": "2026-11-10 10:55",
  "days": 30,
  "items": [
   {
@@ -428,14 +428,124 @@ window.MENU_REQUESTS = {
      ],
      "v": 3,
      "path": "menu-files/1794274192_054439-3.jpg"
+    },
+    {
+     "name": "Resized_20261110_105355.jpg",
+     "fid": "F0CG5AELFBP",
+     "from": "댓글",
+     "path": "menu-files/1794274192_054439-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "당근라페 샌드위치",
+       "price": 10500
+      },
+      {
+       "category": "디저트",
+       "name": "치킨햄 샌드위치",
+       "price": 9500
+      },
+      {
+       "category": "디저트",
+       "name": "플레인 쌀휘낭시에",
+       "price": 2800
+      },
+      {
+       "category": "디저트",
+       "name": "감태 쌀휘낭시에",
+       "price": 3400
+      },
+      {
+       "category": "디저트",
+       "name": "카라멜헤이즐넛 쌀휘낭시에",
+       "price": 3400
+      },
+      {
+       "category": "디저트",
+       "name": "츄러스 쌀휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "디저트",
+       "name": "황치즈 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "크런키초코 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "말차피스타치오 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "피칸파이 쌀휘낭시에",
+       "price": 3900
+      },
+      {
+       "category": "디저트",
+       "name": "초코시나몬 쌀휘낭시에",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "쌀 르뱅쿠키",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "무화과얼그레이 쌀쿠콘",
+       "price": 3600
+      },
+      {
+       "category": "디저트",
+       "name": "레몬 쌀스콘",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "생크림 쌀스콘",
+       "price": 3800
+      },
+      {
+       "category": "디저트",
+       "name": "흑임자 바스크치즈케이크",
+       "price": 7200
+      },
+      {
+       "category": "디저트",
+       "name": "레몬 바스크치즈케이크",
+       "price": 6900
+      },
+      {
+       "category": "디저트",
+       "name": "선물포장",
+       "price": 1000
+      },
+      {
+       "category": "디저트",
+       "name": "밀크버터쌀쿠키 6ea",
+       "price": 4800
+      },
+      {
+       "category": "디저트",
+       "name": "굿즈",
+       "price": 3500
+      }
+     ],
+     "v": 3
     }
    ],
    "datt": [],
    "replies": [
     "동욱님 감사합니다. 대표님께 해당이미지 재요청드렸습니다."
    ],
-   "rc": 3,
-   "lr": "1794275614.852719",
+   "rc": 4,
+   "lr": "1794275699.039459",
    "rfx": 3,
    "status": "confirm",
    "handler": "김동욱",
