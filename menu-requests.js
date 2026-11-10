@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5012,
- "updatedAt": "2026-11-10 17:42",
+ "version": 5013,
+ "updatedAt": "2026-11-10 17:49",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "메뉴등록1.jpg",
      "fid": "F0CG7UPQBBP",
      "from": "댓글",
-     "path": "menu-files/1794299961_618969-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -77,13 +76,13 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794299961_618969-0.jpg"
     },
     {
      "name": "메뉴등록5.jpg",
      "fid": "F0CG715GVMH",
      "from": "댓글",
-     "path": "menu-files/1794299961_618969-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -107,13 +106,13 @@ window.MENU_REQUESTS = {
        "price": 8000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794299961_618969-1.jpg"
     },
     {
      "name": "메뉴등록4.jpg",
      "fid": "F0CFXS9F9SB",
      "from": "댓글",
-     "path": "menu-files/1794299961_618969-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -202,13 +201,13 @@ window.MENU_REQUESTS = {
        "price": 33000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794299961_618969-2.jpg"
     },
     {
      "name": "메뉴등록3.jpg",
      "fid": "F0CGB8Y2AA2",
      "from": "댓글",
-     "path": "menu-files/1794299961_618969-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -332,13 +331,13 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794299961_618969-3.jpg"
     },
     {
      "name": "메뉴등록2.jpg",
      "fid": "F0CGF4VMAEM",
      "from": "댓글",
-     "path": "menu-files/1794299961_618969-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -452,16 +451,17 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794299961_618969-4.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794300054.140109",
+   "rc": 2,
+   "lr": "1794300498.382719",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794299961618969"
   },
   {
