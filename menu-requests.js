@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4987,
- "updatedAt": "2026-11-10 14:30",
+ "version": 4988,
+ "updatedAt": "2026-11-10 14:32",
  "days": 30,
  "items": [
   {
@@ -289,8 +289,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "주류 추가>>>\n소주 5,000\n맥주 5,000\n백세주 8,000\n복분자 15,000\n음료수 2,000\n\n포스기 사진에서 대패불고기는 빼주세요!!!:꾸벅5:"
    ],
-   "rc": 2,
-   "lr": "1794288465.714919",
+   "rc": 4,
+   "lr": "1794288666.735329",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
