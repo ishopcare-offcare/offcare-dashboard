@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5011,
- "updatedAt": "2026-11-10 17:40",
+ "version": 5012,
+ "updatedAt": "2026-11-10 17:42",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,447 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "메뉴등록1.jpg",
+     "fid": "F0CG7UPQBBP",
+     "from": "댓글",
+     "path": "menu-files/1794299961_618969-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노 ICE",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노 HOT",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼 ICE",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼 HOT",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼 ICE",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼 HOT",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "말차라떼 ICE",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "말차라떼 HOT",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "말차카페라떼 ICE",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "말차카페라떼 HOT",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "메뉴등록5.jpg",
+     "fid": "F0CG715GVMH",
+     "from": "댓글",
+     "path": "menu-files/1794299961_618969-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "짱구",
+       "name": "짱구 베이비",
+       "price": 5500
+      },
+      {
+       "category": "짱구",
+       "name": "짱구 원시시대",
+       "price": 6500
+      },
+      {
+       "category": "짱구",
+       "name": "짱구 라면스토퍼",
+       "price": 6500
+      },
+      {
+       "category": "짱구",
+       "name": "유치원 랜덤 짱구",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "메뉴등록4.jpg",
+     "fid": "F0CFXS9F9SB",
+     "from": "댓글",
+     "path": "menu-files/1794299961_618969-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "소품 및 케이크",
+       "name": "숫자 초",
+       "price": 800
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "웨이브초",
+       "price": 800
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "모양 초",
+       "price": 1500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "왕하트 초",
+       "price": 2500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "빅스곰초",
+       "price": 3000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "캐릭터 초",
+       "price": 4500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "빅스곰초2구",
+       "price": 6000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "모자 토퍼",
+       "price": 2000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "2구 상자",
+       "price": 1500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "종이봉투",
+       "price": 500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "보냉백(소)",
+       "price": 2000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "보냉백(중)",
+       "price": 2500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "보냉백(대)",
+       "price": 3000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "얼음팩",
+       "price": 500
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "동물 미니케이크",
+       "price": 25000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "동물 미니케이크",
+       "price": 27000
+      },
+      {
+       "category": "소품 및 케이크",
+       "name": "동물 미니케이크",
+       "price": 33000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "메뉴등록3.jpg",
+     "fid": "F0CGB8Y2AA2",
+     "from": "댓글",
+     "path": "menu-files/1794299961_618969-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "잠자는 딸기곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "잠자는 체리초코곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "잠자는 블루베리곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "잠자는 사과곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "잠자는 라즈베리곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "잠자는 망고곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "잠자는 복숭아곰",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "복숭아🍑",
+       "price": 7000
+      },
+      {
+       "category": "디저트",
+       "name": "사과🍎",
+       "price": 7000
+      },
+      {
+       "category": "디저트",
+       "name": "레몬🍋",
+       "price": 7000
+      },
+      {
+       "category": "디저트",
+       "name": "떠먹는 딸기케이크🍓",
+       "price": 8900
+      },
+      {
+       "category": "디저트",
+       "name": "떠먹는 망고케이크🥭",
+       "price": 8900
+      },
+      {
+       "category": "디저트",
+       "name": "과일 산도🥪",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "생크림 케이크🍰",
+       "price": 8500
+      },
+      {
+       "category": "디저트",
+       "name": "말차초코롤",
+       "price": 7500
+      },
+      {
+       "category": "디저트",
+       "name": "티라미수 롤",
+       "price": 7500
+      },
+      {
+       "category": "디저트",
+       "name": "과일모찌🍡",
+       "price": 8000
+      },
+      {
+       "category": "디저트",
+       "name": "듀레스트 크로플",
+       "price": 12000
+      },
+      {
+       "category": "디저트",
+       "name": "미니 입체케이크",
+       "price": 11000
+      },
+      {
+       "category": "디저트",
+       "name": "딸기곰 미니[혼합]",
+       "price": 25000
+      },
+      {
+       "category": "디저트",
+       "name": "딸기곰 미니[딸기]",
+       "price": 28000
+      },
+      {
+       "category": "디저트",
+       "name": "1호",
+       "price": 45000
+      },
+      {
+       "category": "디저트",
+       "name": "2호",
+       "price": 59000
+      },
+      {
+       "category": "디저트",
+       "name": "에그타르트",
+       "price": 3000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "메뉴등록2.jpg",
+     "fid": "F0CGF4VMAEM",
+     "from": "댓글",
+     "path": "menu-files/1794299961_618969-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드&티",
+       "name": "아이스티",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "로얄밀크티",
+       "price": 6500
+      },
+      {
+       "category": "에이드&티",
+       "name": "딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "초코라떼 ICE",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "초코라떼 HOT",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "자몽얼그레이티",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "자몽에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "레몬라임에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "딸기레몬에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "히비스커스 청포도에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "유자 에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "유자차",
+       "price": 5500
+      },
+      {
+       "category": "에이드&티",
+       "name": "캐모마일 ICE",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "캐모마일 HOT",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "루이보스 ICE",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "루이보스 HOT",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "페퍼민트 ICE",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "페퍼민트 HOT",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "메리골드 ICE",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "메리골드 HOT",
+       "price": 4500
+      },
+      {
+       "category": "에이드&티",
+       "name": "자두 에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드&티",
+       "name": "수박주스",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794300054.140109",
    "rfx": 3,
    "status": "wait",
    "handler": null,
