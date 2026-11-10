@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4985,
- "updatedAt": "2026-11-10 14:26",
+ "version": 4986,
+ "updatedAt": "2026-11-10 14:29",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261109_164027.jpeg",
      "fid": "F0CG5HVS51R",
      "from": "댓글",
-     "path": "menu-files/1794287826_298619-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -167,13 +166,13 @@ window.MENU_REQUESTS = {
        "price": 15000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794287826_298619-0.jpeg"
     },
     {
      "name": "Resized_1761887058161.jpeg",
      "fid": "F0CG9RR2WDC",
      "from": "댓글",
-     "path": "menu-files/1794287826_298619-1.jpeg",
      "kind": "menu_board",
      "menu": [
       {
@@ -282,15 +281,16 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794287826_298619-1.jpeg"
     }
    ],
    "datt": [],
    "replies": [
     "주류 추가>>>\n소주 5,000\n맥주 5,000\n백세주 8,000\n복분자 15,000\n음료수 2,000\n\n포스기 사진에서 대패불고기는 빼주세요!!!:꾸벅5:"
    ],
-   "rc": 1,
-   "lr": "1794287996.351409",
+   "rc": 2,
+   "lr": "1794288465.714919",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
