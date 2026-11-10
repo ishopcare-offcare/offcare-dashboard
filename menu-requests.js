@@ -3,10 +3,340 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4989,
- "updatedAt": "2026-11-10 14:33",
+ "version": 4990,
+ "updatedAt": "2026-11-10 14:35",
  "days": 30,
  "items": [
+  {
+   "ts": "1794288852.515279",
+   "date": "2026-11-10",
+   "time": "14:34",
+   "store": "옥군",
+   "biz": "1191490875",
+   "pos": "스파로스포스",
+   "content": "파일참조",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1maEpjx7CoR7hmAw2vdhw6JhWS-Lguq00/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1zaXP3WXsBLrzb989QuP5eXfIl4kL27zz/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1FjCW-LOo7DaP_SGMIoVCZFlo2uP-IpEV/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Dc9Y1cLfq538rEg07m9T-y--c_Gp8OH9/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1maEpjx7CoR7hmAw2vdhw6JhWS-Lguq00",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "전골류",
+       "name": "(한우)소고기보양전골 소",
+       "price": 36000
+      },
+      {
+       "category": "전골류",
+       "name": "(한우)소고기보양전골 중",
+       "price": 48000
+      },
+      {
+       "category": "전골류",
+       "name": "(한우)소고기보양전골 대",
+       "price": 60000
+      },
+      {
+       "category": "전골류",
+       "name": "고기추가",
+       "price": 10000
+      },
+      {
+       "category": "전골류",
+       "name": "야채추가",
+       "price": 4000
+      },
+      {
+       "category": "전골류",
+       "name": "버섯 왕만두 전골 중",
+       "price": 28000
+      },
+      {
+       "category": "전골류",
+       "name": "버섯 왕만두 전골 대",
+       "price": 43000
+      },
+      {
+       "category": "전골류",
+       "name": "만두추가(3알)",
+       "price": 6000
+      },
+      {
+       "category": "전골류",
+       "name": "버섯야채추가",
+       "price": 5000
+      },
+      {
+       "category": "전골류",
+       "name": "한돈묵은지(생)돼지전골 소",
+       "price": 24000
+      },
+      {
+       "category": "전골류",
+       "name": "한돈묵은지(생)돼지전골 중",
+       "price": 36000
+      },
+      {
+       "category": "전골류",
+       "name": "한돈묵은지(생)돼지전골 대",
+       "price": 48000
+      },
+      {
+       "category": "전골류",
+       "name": "생돼지고기&묵은지추가",
+       "price": 9000
+      },
+      {
+       "category": "전골류",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "누룽지탕",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "계란찜",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "된장찌개(공깃밥 X)",
+       "price": 4000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "된장술밥",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "공깃밥",
+       "price": 1000
+      },
+      {
+       "category": "주류&음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류&음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류&음료",
+       "name": "막걸리",
+       "price": 5000
+      },
+      {
+       "category": "주류&음료",
+       "name": "청하",
+       "price": 7000
+      },
+      {
+       "category": "주류&음료",
+       "name": "복분자",
+       "price": 23000
+      },
+      {
+       "category": "주류&음료",
+       "name": "화요25%",
+       "price": 30000
+      },
+      {
+       "category": "주류&음료",
+       "name": "일품진로오크",
+       "price": 33000
+      },
+      {
+       "category": "주류&음료",
+       "name": "콜라/사이다",
+       "price": 2500
+      },
+      {
+       "category": "주류&음료",
+       "name": "환타파인애플",
+       "price": 2500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1zaXP3WXsBLrzb989QuP5eXfIl4kL27zz",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "한돈+묵은지",
+       "name": "돼지모듬 (500g)",
+       "price": 47000
+      },
+      {
+       "category": "한돈+묵은지",
+       "name": "삽겹살 (150g)",
+       "price": 14000
+      },
+      {
+       "category": "한돈+묵은지",
+       "name": "목살 (150g)",
+       "price": 14000
+      },
+      {
+       "category": "한돈+묵은지",
+       "name": "항정살 (130g)",
+       "price": 17500
+      },
+      {
+       "category": "식사류",
+       "name": "한우 소고기보양탕",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "한우 소고기해장국",
+       "price": 12000
+      },
+      {
+       "category": "식사류",
+       "name": "한우 차돌된장찌개",
+       "price": 11000
+      },
+      {
+       "category": "식사류",
+       "name": "버섯왕만두탕",
+       "price": 11000
+      },
+      {
+       "category": "식사류",
+       "name": "물냉면",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "비빔냉면",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1FjCW-LOo7DaP_SGMIoVCZFlo2uP-IpEV",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "한우",
+       "name": "한우모듬 (500g)",
+       "price": 99000
+      },
+      {
+       "category": "한우",
+       "name": "등심 (130g)",
+       "price": 29000
+      },
+      {
+       "category": "한우",
+       "name": "채끝살 (130g)",
+       "price": 29000
+      },
+      {
+       "category": "한우",
+       "name": "부채살 (130g)",
+       "price": 29000
+      },
+      {
+       "category": "한우",
+       "name": "갈비살 (130g)",
+       "price": 36000
+      },
+      {
+       "category": "한우",
+       "name": "안심 (130g)",
+       "price": 37000
+      },
+      {
+       "category": "한우",
+       "name": "살치살 (130g)",
+       "price": 39000
+      },
+      {
+       "category": "한우",
+       "name": "육회 대(200g)",
+       "price": 27000
+      },
+      {
+       "category": "한우",
+       "name": "육회 소(80g)",
+       "price": 13000
+      },
+      {
+       "category": "소",
+       "name": "갈비살치모듬 미국산(500g)",
+       "price": 56000
+      },
+      {
+       "category": "소",
+       "name": "갈비살 미국산(130g)",
+       "price": 16000
+      },
+      {
+       "category": "소",
+       "name": "살치살 미국산(130g)",
+       "price": 17000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1Dc9Y1cLfq538rEg07m9T-y--c_Gp8OH9",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "점심특선",
+       "name": "2인 세트",
+       "price": 15000
+      },
+      {
+       "category": "점심특선",
+       "name": "3인 세트",
+       "price": 22500
+      },
+      {
+       "category": "점심특선",
+       "name": "4인 세트",
+       "price": 30000
+      },
+      {
+       "category": "점심특선",
+       "name": "된장찌개 + 비빔밥 + 계란후라이 포함",
+       "price": 7000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794288852515279"
+  },
   {
    "ts": "1794288816.237709",
    "date": "2026-11-10",
