@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5009,
- "updatedAt": "2026-11-10 17:26",
+ "version": 5010,
+ "updatedAt": "2026-11-10 17:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1794299540.588289",
+   "date": "2026-11-10",
+   "time": "17:32",
+   "store": "우현횟집",
+   "biz": "3766700875",
+   "pos": "토스포스",
+   "content": "따로 포장손님말구요\n기본홀에 식사하시는 손님이\n포장해가실때 \n주문서에 포장이라고 찍히면서\n같이 결제할수있게\n올릴수있는방법 알려주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794299540588289"
+  },
   {
    "ts": "1794298151.885639",
    "date": "2026-11-10",
