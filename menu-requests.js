@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4962,
- "updatedAt": "2026-11-10 09:25",
+ "version": 4963,
+ "updatedAt": "2026-11-10 09:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1794270570.757709",
+   "date": "2026-11-10",
+   "time": "09:29",
+   "store": "토이즈나(TOISNA)",
+   "biz": "2641902297",
+   "pos": "기타",
+   "content": "이벤트中택1 카테고리에 아래 메뉴 항목 넣어주세요\n- 네이버 예약쿠폰(숙취해소제) 금액0원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794270570757709"
+  },
   {
    "ts": "1794269783.612199",
    "date": "2026-11-10",
