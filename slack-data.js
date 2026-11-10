@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32252,
+  "version": 32253,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -315689,10 +315689,10 @@ window.SLACK_DATA = {
           "김동욱": 3
         },
         "menu": {
+          "김동욱": 4,
           "배선유": 1,
           "송태양": 14,
           "김규빈": 2,
-          "김동욱": 3,
           "김현기": 1
         },
         "delivery": {
@@ -317936,10 +317936,21 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "프론트 재온보딩+cat 재다운로드 완료",
           "rr": 1
+        },
+        {
+          "time": "00:44",
+          "store": "분식이",
+          "biz": "2746600738",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         }
       ],
       "intake": {
-        "online": 152,
+        "online": 153,
         "offline": 45,
         "unknown": 0
       },
@@ -439842,7 +439853,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-11 07:01",
+    "at": "2026-11-11 07:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -439998,7 +440009,7 @@ window.SLACK_DATA = {
     "2026-11-11": 2
   },
   "noteMig": {
-    "at": "2026-11-11 07:00",
+    "at": "2026-11-11 07:15",
     "pri": {
       "days": 0,
       "failed": [],
