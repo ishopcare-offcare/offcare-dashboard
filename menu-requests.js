@@ -3,10 +3,189 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5000,
- "updatedAt": "2026-11-10 16:08",
+ "version": 5001,
+ "updatedAt": "2026-11-10 16:16",
  "days": 30,
  "items": [
+  {
+   "ts": "1794294914.742009",
+   "date": "2026-11-10",
+   "time": "16:15",
+   "store": "라르고60",
+   "biz": "4920503744",
+   "pos": "토스포스",
+   "content": "사진에 첨부했습니다 현재 있는 건 지우시고 저걸로 새로 만드시면 됩니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1Uq-WZP7Bh_uI-kzWmuHTNhuCV60fChBP/view?usp=drivesdk",
+    "https://drive.google.com/file/d/14E10GjhEB8U52UbWnkADXnsU1cIHF3Gc/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1Uq-WZP7Bh_uI-kzWmuHTNhuCV60fChBP",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "꽃차",
+       "name": "국화 / 목련 / 메리골드 / 장미 / 블렌디드(장미&국화)",
+       "price": 4
+      },
+      {
+       "category": "허브티 & 차",
+       "name": "루이보스 / 얼그레이 / 페퍼민트 / 히비스커스 / 캐모마일",
+       "price": 3
+      },
+      {
+       "category": "허브티 & 차",
+       "name": "녹차",
+       "price": 3
+      },
+      {
+       "category": "허브티 & 차",
+       "name": "보이차",
+       "price": 5
+      },
+      {
+       "category": "과일청 에이드",
+       "name": "레몬 / 유자 / 자몽 / 청포도 / 얼그레이 레몬",
+       "price": 5
+      },
+      {
+       "category": "과일청 티",
+       "name": "레몬 / 모과 / 생강 / 오미자 / 유자 / 자몽 / 얼그레이 레몬",
+       "price": 4
+      },
+      {
+       "category": "요거트 스무디",
+       "name": "플레인 / 딸기 / 망고 / 블루베리",
+       "price": 5
+      },
+      {
+       "category": "젤라또",
+       "name": "요거트 / 바닐라 / 초콜렛 / 딸기 / 블루베리 / 망고",
+       "price": 3
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "14E10GjhEB8U52UbWnkADXnsU1cIHF3Gc",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 1800
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 1600
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼",
+       "price": 3400
+      },
+      {
+       "category": "커피",
+       "name": "카라멜마끼아또",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "카페모카",
+       "price": 3700
+      },
+      {
+       "category": "디카페인 커피",
+       "name": "디카페인 아메리카노",
+       "price": 2800
+      },
+      {
+       "category": "디카페인 커피",
+       "name": "디카페인 에스프레소",
+       "price": 2600
+      },
+      {
+       "category": "디카페인 커피",
+       "name": "디카페인 카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "디카페인 커피",
+       "name": "디카페인 바닐라라떼",
+       "price": 4400
+      },
+      {
+       "category": "디카페인 커피",
+       "name": "디카페인 카라멜마끼아또",
+       "price": 4500
+      },
+      {
+       "category": "디카페인 커피",
+       "name": "디카페인 카페모카",
+       "price": 4700
+      },
+      {
+       "category": "논커피",
+       "name": "고구마라떼",
+       "price": 4100
+      },
+      {
+       "category": "논커피",
+       "name": "말차라떼",
+       "price": 4100
+      },
+      {
+       "category": "논커피",
+       "name": "초콜렛라떼",
+       "price": 4100
+      },
+      {
+       "category": "논커피",
+       "name": "밀크티",
+       "price": 4300
+      },
+      {
+       "category": "논커피",
+       "name": "수제생강청라떼",
+       "price": 5300
+      },
+      {
+       "category": "수제 전통차",
+       "name": "대추차",
+       "price": 7000
+      },
+      {
+       "category": "수제 전통차",
+       "name": "쌍화차",
+       "price": 7000
+      },
+      {
+       "category": "수제 전통차",
+       "name": "생강차",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794294914742009"
+  },
   {
    "ts": "1794293489.436739",
    "date": "2026-11-10",
