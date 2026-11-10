@@ -3,10 +3,221 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4996,
- "updatedAt": "2026-11-10 14:56",
+ "version": 4997,
+ "updatedAt": "2026-11-10 15:44",
  "days": 30,
  "items": [
+  {
+   "ts": "1794293015.303269",
+   "date": "2026-11-10",
+   "time": "15:43",
+   "store": "킹스힐 에스프레소",
+   "biz": "7071003373",
+   "pos": "토스포스",
+   "content": "메뉴담당자와 통화 필요합니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1SkgmFax5wC5Y_B0vlST6DOydMavr3YfL/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1SkgmFax5wC5Y_B0vlST6DOydMavr3YfL",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "블루베리 프리앙",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "말차 프리앙",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "초코칩 프리앙",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "로스트베지 샌드위치",
+       "price": 7500
+      },
+      {
+       "category": "",
+       "name": "치킨 샌드위치",
+       "price": 7500
+      },
+      {
+       "category": "coffee",
+       "name": "킹스힐에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "coffee",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "coffee",
+       "name": "카페라떼",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "레몬에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "말차에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "쇼콜라에스프레소",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "말차 콘파냐",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "콘파냐",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "카푸치노",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "피콜로라떼",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "모카초코",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "아이스크림라떼",
+       "price": 4500
+      },
+      {
+       "category": "Non coffee",
+       "name": "말차라떼",
+       "price": 4500
+      },
+      {
+       "category": "Non coffee",
+       "name": "말차아이스크림",
+       "price": 5000
+      },
+      {
+       "category": "Non coffee",
+       "name": "초코아이스크림",
+       "price": 5000
+      },
+      {
+       "category": "Non coffee",
+       "name": "로얄밀크티",
+       "price": 4500
+      },
+      {
+       "category": "Non coffee",
+       "name": "수제 허브 레몬 티 (핫,아이스가능)",
+       "price": 3000
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "블루베리 프리앙",
+       "price": 2500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "말차 프리앙",
+       "price": 2500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "초코칩 프리앙",
+       "price": 2500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "로스트베지 샌드위치",
+       "price": 7500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "치킨 샌드위치",
+       "price": 7500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "카페라떼",
+       "price": 3700
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "아이스크림라떼",
+       "price": 4500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "모카라떼",
+       "price": 4500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "말차라떼",
+       "price": 4500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "말차아이스크림",
+       "price": 5000
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "초코아이스크림",
+       "price": 5000
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "로얄밀크티",
+       "price": 4500
+      },
+      {
+       "category": "테이크아웃 메뉴",
+       "name": "수제 허브 레몬 아이스티",
+       "price": 3000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794293015303269"
+  },
   {
    "ts": "1794289267.208989",
    "date": "2026-11-10",
