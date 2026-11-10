@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4959,
- "updatedAt": "2026-11-09 18:55",
+ "version": 4960,
+ "updatedAt": "2026-11-10 09:17",
  "days": 30,
  "items": [
+  {
+   "ts": "1794269783.612199",
+   "date": "2026-11-10",
+   "time": "09:16",
+   "store": "(봉명동)(주) 형과아우",
+   "biz": "1398802492",
+   "pos": "오케이포스",
+   "content": "프로그램 kisokpos\n황칠흑염소탕 가격 15,000원으로 수정 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794269783612199"
+  },
   {
    "ts": "1794217542.160159",
    "date": "2026-11-09",
