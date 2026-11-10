@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4984,
- "updatedAt": "2026-11-10 14:21",
+ "version": 4985,
+ "updatedAt": "2026-11-10 14:26",
  "days": 30,
  "items": [
   {
@@ -292,8 +292,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1794287996.351409",
    "rfx": 3,
-   "status": "confirm",
-   "handler": "김현기",
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794287826298619"
   },
   {
@@ -604,8 +604,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "피 흘린 종이 가능합니까?"
    ],
-   "rc": 3,
-   "lr": "1794287444.828619",
+   "rc": 4,
+   "lr": "1794288335.571799",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
