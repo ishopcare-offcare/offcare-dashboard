@@ -3,10 +3,177 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5016,
- "updatedAt": "2026-11-10 20:15",
+ "version": 5017,
+ "updatedAt": "2026-11-11 00:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1794325551.136049",
+   "date": "2026-11-11",
+   "time": "00:45",
+   "store": "분식이",
+   "biz": "2746600738",
+   "pos": "토스포스",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794325551136049"
+  },
+  {
+   "ts": "1794325492.048349",
+   "date": "2026-11-11",
+   "time": "00:44",
+   "store": "분식이",
+   "biz": "2746600738",
+   "pos": "토스포스",
+   "content": "신규 메뉴판 제작",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1pDVGQEIyd4l9D7C-QP5iT175m6QR3uYf/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1pDVGQEIyd4l9D7C-QP5iT175m6QR3uYf",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "세트 메뉴",
+       "name": "떡순 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트 메뉴",
+       "name": "떡튀순 세트",
+       "price": 12000
+      },
+      {
+       "category": "세트 메뉴",
+       "name": "떡튀순어 세트",
+       "price": 15000
+      },
+      {
+       "category": "분식",
+       "name": "밀떡볶이",
+       "price": 4500
+      },
+      {
+       "category": "분식",
+       "name": "청양 꼬마김밥",
+       "price": 5500
+      },
+      {
+       "category": "분식",
+       "name": "찹순대",
+       "price": 5000
+      },
+      {
+       "category": "어묵 · 꼬치",
+       "name": "어묵 1개",
+       "price": 1000
+      },
+      {
+       "category": "어묵 · 꼬치",
+       "name": "어묵 3개",
+       "price": 3000
+      },
+      {
+       "category": "어묵 · 꼬치",
+       "name": "매운어묵 1개",
+       "price": 1500
+      },
+      {
+       "category": "어묵 · 꼬치",
+       "name": "매운어묵 3개",
+       "price": 4500
+      },
+      {
+       "category": "어묵 · 꼬치",
+       "name": "매운 가래떡꼬치",
+       "price": 1500
+      },
+      {
+       "category": "튀김",
+       "name": "김말이",
+       "price": 1500
+      },
+      {
+       "category": "튀김",
+       "name": "계란",
+       "price": 1500
+      },
+      {
+       "category": "튀김",
+       "name": "양파채",
+       "price": 1500
+      },
+      {
+       "category": "튀김",
+       "name": "고구마",
+       "price": 1000
+      },
+      {
+       "category": "튀김",
+       "name": "새우",
+       "price": 1800
+      },
+      {
+       "category": "튀김",
+       "name": "오징어",
+       "price": 1800
+      },
+      {
+       "category": "튀김",
+       "name": "돼지고기 고추튀김",
+       "price": 2500
+      },
+      {
+       "category": "튀김",
+       "name": "야끼만두 3개",
+       "price": 2000
+      },
+      {
+       "category": "음료 · 주류",
+       "name": "코카콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료 · 주류",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "음료 · 주류",
+       "name": "스프라이트",
+       "price": 2000
+      },
+      {
+       "category": "음료 · 주류",
+       "name": "카스 캔맥주 500mL",
+       "price": 3500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794325492048349"
+  },
   {
    "ts": "1794299961.618969",
    "date": "2026-11-10",
