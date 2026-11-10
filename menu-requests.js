@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4978,
- "updatedAt": "2026-11-10 12:06",
+ "version": 4979,
+ "updatedAt": "2026-11-10 12:09",
  "days": 30,
  "items": [
   {
@@ -33653,8 +33653,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "• 서울대버거 세트 16,500원\n위 메뉴가 포스기에는 정상 등록되어 있으나\n키오스크에는 13,000원으로 뜬다고 하시어\n수정 후 문자 안내 한 번 부탁드리겠습니다! :핑크_굽신:"
    ],
-   "rc": 4,
-   "lr": "1792976173.071029",
+   "rc": 5,
+   "lr": "1794280118.690779",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
