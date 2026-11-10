@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5007,
- "updatedAt": "2026-11-10 17:10",
+ "version": 5008,
+ "updatedAt": "2026-11-10 17:17",
  "days": 30,
  "items": [
   {
@@ -479,8 +479,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794298151885639"
   },
   {
@@ -892,10 +892,12 @@ window.MENU_REQUESTS = {
     "1차부재",
     "님 안녕하세요 해당 매장\n재인입되어 공유드립니다\n상품안에 상품 등록\nex) 말차 에스프레소 → 에스프레소 추가선택 + 시럽추가 (옵션) 으로  시럽추가 옵션을 말차에스프레소에 등록이 되는지 아니면 추가선택된 에스프레소에 시럽추가 옵션이 적용되는지 문의주시어 공유드립니다\n\n아래같은 선택으로 형식으로 상품 등록을 요청주시어 통화 부탁드려도될까요?",
     "님 안녕하세요, 일단 전자의 방식으로 적용이 되고 직접 통화드리겠습니다!",
-    "님  감사합니다 !"
+    "님  감사합니다 !",
+    "메뉴 추가 및 옵션 설정 완료입니다",
+    "OB완료"
    ],
-   "rc": 4,
-   "lr": "1794296229.370469",
+   "rc": 6,
+   "lr": "1794298619.079349",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
