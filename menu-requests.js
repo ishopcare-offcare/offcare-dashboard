@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4980,
- "updatedAt": "2026-11-10 14:09",
+ "version": 4981,
+ "updatedAt": "2026-11-10 14:11",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,305 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261110_140224212.jpg",
+     "fid": "F0CGBHYFX1Q",
+     "from": "댓글",
+     "path": "menu-files/1794287334_424699-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "1세트메뉴",
+       "name": "청춘순살치킨+고르곤졸라피자",
+       "price": 25000
+      },
+      {
+       "category": "1세트메뉴",
+       "name": "청춘순살치킨+매콤떡볶이튀김",
+       "price": 23000
+      },
+      {
+       "category": "1세트메뉴",
+       "name": "청춘순살치킨+김치어묵우동",
+       "price": 28000
+      },
+      {
+       "category": "1세트메뉴",
+       "name": "꿀뱅이쫄면+왕새우+감자튀김",
+       "price": 28000
+      },
+      {
+       "category": "1세트메뉴",
+       "name": "경양식도까스+청춘어묵탕",
+       "price": 26000
+      },
+      {
+       "category": "1세트메뉴",
+       "name": "경양식도까스+꿀뱅이쫄면",
+       "price": 30000
+      },
+      {
+       "category": "2요리안주",
+       "name": "나초쿨랜티",
+       "price": 13900
+      },
+      {
+       "category": "2요리안주",
+       "name": "케이준샐러드",
+       "price": 13900
+      },
+      {
+       "category": "2요리안주",
+       "name": "경양식도까스",
+       "price": 11900
+      },
+      {
+       "category": "2요리안주",
+       "name": "모듬소세지&감자튀김",
+       "price": 15900
+      },
+      {
+       "category": "2요리안주",
+       "name": "모듬감자튀김",
+       "price": 12900
+      },
+      {
+       "category": "2요리안주",
+       "name": "꿀뱅이쫄면",
+       "price": 19900
+      },
+      {
+       "category": "2요리안주",
+       "name": "매콤떡볶이",
+       "price": 10900
+      },
+      {
+       "category": "2요리안주",
+       "name": "찻로제떡볶이",
+       "price": 12900
+      },
+      {
+       "category": "3피자",
+       "name": "고르곤졸라피자",
+       "price": 12900
+      },
+      {
+       "category": "3피자",
+       "name": "페퍼로니피자",
+       "price": 12900
+      },
+      {
+       "category": "3피자",
+       "name": "불고기피자",
+       "price": 14900
+      },
+      {
+       "category": "4치킨",
+       "name": "청춘순살치킨(+감자튀김)",
+       "price": 13900
+      },
+      {
+       "category": "5탕&찌개",
+       "name": "청춘어묵탕",
+       "price": 15900
+      },
+      {
+       "category": "5탕&찌개",
+       "name": "김치어묵우동",
+       "price": 16900
+      },
+      {
+       "category": "5탕&찌개",
+       "name": "청춘부대찌개",
+       "price": 15900
+      },
+      {
+       "category": "5탕&찌개",
+       "name": "맑은 조개탕",
+       "price": 14900
+      },
+      {
+       "category": "6건어물",
+       "name": "미니노가리",
+       "price": 11900
+      },
+      {
+       "category": "6건어물",
+       "name": "한치",
+       "price": 15900
+      },
+      {
+       "category": "6건어물",
+       "name": "반건조오징어",
+       "price": 14900
+      },
+      {
+       "category": "6건어물",
+       "name": "청춘먹태",
+       "price": 15900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "쥐포튀김",
+       "price": 6900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "매콤김말이튀김",
+       "price": 6900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "왕새우튀김(3마리+감자튀김)",
+       "price": 9900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "닭껍질튀김",
+       "price": 6900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "크래미감자튀김",
+       "price": 8900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "모짜렐라치즈볼",
+       "price": 7900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "파인애플샤베트",
+       "price": 7900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "아이스청도",
+       "price": 6900
+      },
+      {
+       "category": "7간단안주(1인1메뉴)",
+       "name": "아이스청포도",
+       "price": 8900
+      },
+      {
+       "category": "8피자(1인1메뉴)",
+       "name": "은행피자",
+       "price": 7900
+      },
+      {
+       "category": "8피자(1인1메뉴)",
+       "name": "엄통피자",
+       "price": 8900
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261110_140407852.jpg",
+     "fid": "F0CG6EPPGTX",
+     "from": "댓글",
+     "path": "menu-files/1794287334_424699-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "1 소주",
+       "price": 4500
+      },
+      {
+       "category": "주류",
+       "name": "생맥주",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "주류",
+       "name": "청춘생맥주",
+       "price": 4700
+      },
+      {
+       "category": "주류",
+       "name": "자몽생맥주",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "청포도생맥주",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "얼그레이생맥주",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "하이볼",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "청춘하이볼",
+       "price": 6900
+      },
+      {
+       "category": "주류",
+       "name": "청춘자몽하이볼",
+       "price": 7500
+      },
+      {
+       "category": "주류",
+       "name": "청춘청포도하이볼",
+       "price": 7500
+      },
+      {
+       "category": "주류",
+       "name": "청춘얼그레이하이볼",
+       "price": 7500
+      },
+      {
+       "category": "주류",
+       "name": "얌맥(산토리)(생맥1+산토리1샷)",
+       "price": 8400
+      },
+      {
+       "category": "주류",
+       "name": "카스생맥주(500)",
+       "price": 4700
+      },
+      {
+       "category": "주류",
+       "name": "한맥생맥주(500)",
+       "price": 4700
+      },
+      {
+       "category": "주류",
+       "name": "버드와이저생맥주(330)",
+       "price": 6000
+      },
+      {
+       "category": "맥주",
+       "name": "맥주",
+       "price": 4500
+      },
+      {
+       "category": "맥주",
+       "name": "버드와이저",
+       "price": 4500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "피 흘린 종이 가능합니까?"
+   ],
+   "rc": 2,
+   "lr": "1794287431.683129",
    "rfx": 3,
    "status": "wait",
    "handler": null,
