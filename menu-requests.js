@@ -3,10 +3,162 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4965,
- "updatedAt": "2026-11-10 09:39",
+ "version": 4966,
+ "updatedAt": "2026-11-10 10:12",
  "days": 30,
  "items": [
+  {
+   "ts": "1794273091.424049",
+   "date": "2026-11-10",
+   "time": "10:11",
+   "store": "타코야끼야 분식먹자",
+   "biz": "3271402900",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261110_100953129.jpg",
+     "fid": "F0CG8BZRGDC",
+     "from": "댓글",
+     "path": "menu-files/1794273091_424049-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "타코야끼",
+       "name": "오리지널 8알",
+       "price": 5000
+      },
+      {
+       "category": "타코야끼",
+       "name": "매운맛 8알",
+       "price": 6000
+      },
+      {
+       "category": "타코야끼",
+       "name": "크림치즈 8알",
+       "price": 6000
+      },
+      {
+       "category": "타코야끼",
+       "name": "쁘링 8알",
+       "price": 7000
+      },
+      {
+       "category": "꼬마김밥",
+       "name": "야채꼬마김밥 5줄",
+       "price": 5000
+      },
+      {
+       "category": "꼬마김밥",
+       "name": "참치꼬마김밥 5줄",
+       "price": 6000
+      },
+      {
+       "category": "꼬마김밥",
+       "name": "멸추꼬마김밥 5줄",
+       "price": 6000
+      },
+      {
+       "category": "떡볶이",
+       "name": "국물떡볶이",
+       "price": 5000
+      },
+      {
+       "category": "떡볶이",
+       "name": "로제떡볶이",
+       "price": 6500
+      },
+      {
+       "category": "떡볶이",
+       "name": "모짜렐라치즈",
+       "price": 6500
+      },
+      {
+       "category": "떡볶이 토핑",
+       "name": "납작당면",
+       "price": 3000
+      },
+      {
+       "category": "떡볶이 토핑",
+       "name": "모짜렐라치즈",
+       "price": 3000
+      },
+      {
+       "category": "떡볶이 토핑",
+       "name": "계란",
+       "price": 800
+      },
+      {
+       "category": "튀김",
+       "name": "야채튀김 2개",
+       "price": 3000
+      },
+      {
+       "category": "튀김",
+       "name": "고구마튀김 2개",
+       "price": 3000
+      },
+      {
+       "category": "튀김",
+       "name": "김말이 3개",
+       "price": 2000
+      },
+      {
+       "category": "튀김",
+       "name": "만두 3개",
+       "price": 2000
+      },
+      {
+       "category": "순대·어묵",
+       "name": "순대",
+       "price": 6000
+      },
+      {
+       "category": "순대·어묵",
+       "name": "어묵 3꼬지",
+       "price": 3000
+      },
+      {
+       "category": "소떡소떡",
+       "name": "소떡소떡",
+       "price": 4000
+      },
+      {
+       "category": "닭강정",
+       "name": "양념 1인분",
+       "price": 10000
+      },
+      {
+       "category": "닭강정",
+       "name": "양념 2인분",
+       "price": 15000
+      },
+      {
+       "category": "닭강정",
+       "name": "쁘링 1인분",
+       "price": 10000
+      },
+      {
+       "category": "닭강정",
+       "name": "쁘링 2인분",
+       "price": 15000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794273117.184789",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794273091424049"
+  },
   {
    "ts": "1794270570.757709",
    "date": "2026-11-10",
