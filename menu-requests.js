@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4981,
- "updatedAt": "2026-11-10 14:11",
+ "version": 4982,
+ "updatedAt": "2026-11-10 14:12",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261110_140224212.jpg",
      "fid": "F0CGBHYFX1Q",
      "from": "댓글",
-     "path": "menu-files/1794287334_424699-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -212,13 +211,13 @@ window.MENU_REQUESTS = {
        "price": 8900
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794287334_424699-0.jpg"
     },
     {
      "name": "KakaoTalk_20261110_140407852.jpg",
      "fid": "F0CG6EPPGTX",
      "from": "댓글",
-     "path": "menu-files/1794287334_424699-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -308,18 +307,19 @@ window.MENU_REQUESTS = {
        "price": 4500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794287334_424699-1.jpg"
     }
    ],
    "datt": [],
    "replies": [
     "피 흘린 종이 가능합니까?"
    ],
-   "rc": 2,
-   "lr": "1794287431.683129",
+   "rc": 3,
+   "lr": "1794287444.828619",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794287334424699"
   },
   {
