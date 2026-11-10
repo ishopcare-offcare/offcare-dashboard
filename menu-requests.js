@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4998,
- "updatedAt": "2026-11-10 15:52",
+ "version": 4999,
+ "updatedAt": "2026-11-10 16:06",
  "days": 30,
  "items": [
   {
@@ -235,8 +235,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794293015303269"
   },
   {
@@ -255,8 +255,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "토스포스 사용\n\n`주류`\n• 와인 카리오 3만원 삭제 > 그 자리에 호발리티안티 35,000원 추가\n• 토마스 토닉워터 5,000원 삭제\n• 산타나데낄라 48,000원 삭제\n• 소리뇽 35,000원 삭제\n• 쇼비뇽 삭제 \n• 생맥주 500ml 를 청하 옆자리로 이동\n• 기린 생맥주 7,000원\n• 칭따오 할인 6,000원 삭제\n• 기린 생맥주 8,000원 삭제\n    ◦ 기린 할인 맥주 7,000원을 이 자리로 옮기기\n`사케`\n• 시리야 사케 7,000원 삭제\n• 복구리 10,000원 삭제\n•  준마이 다이조브 옆 자리에 준마이 클래식 45,000원 추가\n• 모기 이치르 12만원 삭제"
    ],
-   "rc": 1,
-   "lr": "1794289489.792659",
+   "rc": 2,
+   "lr": "1794294286.289819",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
