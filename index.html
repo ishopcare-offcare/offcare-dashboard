@@ -3602,6 +3602,17 @@ function menuregCacheGrid(){ const ta=document.getElementById('mrGrid'); if(ta&&
  * 이름 안의 '|' 는 칸 구분자라 '·' 로 바꾼다('/' 로 바꾸면 다시 나열로 읽힌다). */
 /* 가격 칸 값. v2(가격 종류를 받은 판독)는 0원도 실제 가격이다 — 티오더 직원호출·리뷰이벤트 같은 0원 상품.
  * 구 판독(v 없음)은 0 이 '가격 미판독' 이었으므로 예전처럼 비운다. */
+/* 천원 단위 메뉴판 보정(2026-11-10, 라르고60 '4'=4,000원) — 사진 한 장의 가격이 전부 작으면 그 사진은 천원 단위로 본다.
+ *   · 0원·시가·미판독을 뺀 가격의 중앙값이 100 미만 → ×1000 (4·5·12 같은 카페·펍)
+ *   · 또는 최댓값이 1,000 미만이고 중앙값이 500 미만 → ×1000 (와인 80·120·300 처럼 세 자리가 섞인 경우)
+ *   500원 토핑만 있는 사진(중앙값 500)이나 일반 메뉴판은 건드리지 않는다. 저장된 판독 결과에도 그대로 적용된다. */
+function menuregThousand(menu){
+  const ps=(menu||[]).filter(m=>!m.pt && Number(m.price)>0).map(m=>Number(m.price)).sort((a,b)=>a-b);
+  if(ps.length<2) return menu||[];
+  const med=ps[Math.floor(ps.length/2)], max=ps[ps.length-1];
+  if(!(med<100 || (max<1000 && med<500))) return menu;
+  return menu.map(m=>(!m.pt && Number(m.price)>0) ? Object.assign({}, m, {price:Math.round(Number(m.price)*1000)}) : m);
+}
 function menuregPriceCell(m, v2){
   if(m.pt==='m') return '시가';
   if(m.pt==='u') return '';
@@ -3611,7 +3622,7 @@ function menuregPriceCell(m, v2){
 /* 품번 → 그리드 상품코드 칸. 숫자만이면 앞에 0 을 붙여 4자리(757→0757, 12→0012, 사용자 요청 2026-11-09). 4자리 이상은 그대로. */
 function menuregCode(c){ const v=String(c==null?'':c).replace(/[|\s]/g,''); return /^\d{1,3}$/.test(v)?v.padStart(4,'0'):v; }
 function menuregPushMenu(menu, lines, seen, v2){
-  let noPrice=0;
+  let noPrice=0; menu=menuregThousand(menu);
   for(const m0 of menu) for(const vName of menuregSplitVariants(String(m0.name||'').replace(/\|/g,'·'))){
     const name=String(vName||'').replace(/\|/g,'/').trim(); if(!name) continue;
     const cat=String(m0.category||'').replace(/\|/g,'/').trim()||'메뉴';
@@ -3792,7 +3803,7 @@ function renderMenuReg(){
         const blocked=imgs.filter(a=>a.blocked).length;
         if(!withMenu.length&&!skipped.length&&!legacy.length&&!blocked) return '';
         // 여기 보이는 줄과 「양식변환으로 보내기」 결과가 달라지면 안 되므로, 표시도 맛별로 펼친다
-        const rows=a=>(a.menu||[]).flatMap(m=>menuregSplitVariants(String(m.name||'').replace(/\|/g,'·'))
+        const rows=a=>menuregThousand(a.menu||[]).flatMap(m=>menuregSplitVariants(String(m.name||'').replace(/\|/g,'·'))
           .map(nm=>`${m.category?escapeHtml(m.category)+' | ':''}${escapeHtml(nm)} | ${(pc=>pc==='시가'?'시가':pc===''?'가격미상':Number(pc).toLocaleString())(menuregPriceCell(m,a.v>=2))}`)).join('\n');
         return `<div style="margin-top:8px">
         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px">
