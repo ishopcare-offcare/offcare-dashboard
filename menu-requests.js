@@ -3,10 +3,486 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5006,
- "updatedAt": "2026-11-10 16:38",
+ "version": 5007,
+ "updatedAt": "2026-11-10 17:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1794298151.885639",
+   "date": "2026-11-10",
+   "time": "17:09",
+   "store": "어필",
+   "biz": "6681902558",
+   "pos": "토스포스",
+   "content": "칵테일 무제한 매뉴는 0으로 넣어주시고 무제한 등록되면 밑에 타임으로 2시간 설정되게 해주시면됩니다",
+   "special": "칵테일 무제한은 칸 2개 해서",
+   "drive": [
+    "https://drive.google.com/file/d/1gvbSjuFOuOJirrCS6ANPL4zH9DaCwlKV/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1_HvthaQDrrJKEuDVfi6tQjJSPDtowZN2/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1wCigTHinV0CQRz6hIBwuG1dKAE1TGrpa/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1gvbSjuFOuOJirrCS6ANPL4zH9DaCwlKV",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "칵테일 무제한 (이용시간 2시간)",
+       "price": 22000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail 5~10%",
+       "name": "옥보단",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Sweat&Sour Cocktail 5~10%",
+       "name": "미도리샤워",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Sweat&Sour Cocktail 5~10%",
+       "name": "피치 크러쉬",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Sweat&Sour Cocktail 5~10%",
+       "name": "준벅",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Balanced Cocktail 10~15%",
+       "name": "코스모폴리탄",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Balanced Cocktail 10~15%",
+       "name": "섹스 온더 비치",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Balanced Cocktail 10~15%",
+       "name": "스크류드라이버",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Balanced Cocktail 10~15%",
+       "name": "블루하와이",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Balanced Cocktail 10~15%",
+       "name": "보드카크랜배리",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Hard Cocktail 15%~",
+       "name": "블랙러시안",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Hard Cocktail 15%~",
+       "name": "나 오늘 집에 안가",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Hard Cocktail 15%~",
+       "name": "롱 아일랜드 아이스티",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Non-Alcohol 0%",
+       "name": "신데렐라 컴플렉스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "#Non-Alcohol 0%",
+       "name": "그린 애플 소다",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1_HvthaQDrrJKEuDVfi6tQjJSPDtowZN2",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SHOT",
+       "name": "블루 스카이",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "쓰리썸",
+       "price": 10000
+      },
+      {
+       "category": "SHOT",
+       "name": "할리퀸",
+       "price": 10000
+      },
+      {
+       "category": "SHOT",
+       "name": "아구와밤",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "예거밤",
+       "price": 11000
+      },
+      {
+       "category": "SHOT",
+       "name": "복불복 (기본2잔)",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "아이리쉬카밤 (기본2잔)",
+       "price": 14000
+      },
+      {
+       "category": "SHOT",
+       "name": "B-52",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "B CUP",
+       "price": 11000
+      },
+      {
+       "category": "SHOT",
+       "name": "정자와난자",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "x-bome",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "레몬드랍",
+       "price": 8000
+      },
+      {
+       "category": "SHOT",
+       "name": "레몬드랍 6shot",
+       "price": 42000
+      },
+      {
+       "category": "SHOT",
+       "name": "데킬라샷",
+       "price": 8000
+      },
+      {
+       "category": "SHOT",
+       "name": "데킬라샷 6shot",
+       "price": 42000
+      },
+      {
+       "category": "SHOT",
+       "name": "호세샷",
+       "price": 10000
+      },
+      {
+       "category": "SHOT",
+       "name": "호세샷 6shot",
+       "price": 52000
+      },
+      {
+       "category": "SHOT",
+       "name": "제임슨샷",
+       "price": 10000
+      },
+      {
+       "category": "SHOT",
+       "name": "제임슨샷 6shot",
+       "price": 52000
+      },
+      {
+       "category": "SHOT",
+       "name": "잭다니엘샷",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "잭다니엘샷 6shot",
+       "price": 55000
+      },
+      {
+       "category": "SHOT",
+       "name": "산토리샷",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "산토리샷 6shot",
+       "price": 55000
+      },
+      {
+       "category": "SHOT",
+       "name": "x-rated",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "x-rated 6shot",
+       "price": 55000
+      },
+      {
+       "category": "SHOT",
+       "name": "몽키숄더",
+       "price": 12000
+      },
+      {
+       "category": "SHOT",
+       "name": "몽키숄더 6shot",
+       "price": 55000
+      },
+      {
+       "category": "SHOT",
+       "name": "조니워커블랙",
+       "price": 15000
+      },
+      {
+       "category": "SHOT",
+       "name": "조니워커블랙 6shot",
+       "price": 80000
+      },
+      {
+       "category": "SHOT",
+       "name": "조니워크블루",
+       "price": 42000
+      },
+      {
+       "category": "SHOT",
+       "name": "조니워크블루 6shot",
+       "price": 240000
+      },
+      {
+       "category": "FOOD",
+       "name": "불타는 일미",
+       "price": 8000
+      },
+      {
+       "category": "FOOD",
+       "name": "치즈감자튀김",
+       "price": 9000
+      },
+      {
+       "category": "FOOD",
+       "name": "치즈나초",
+       "price": 8000
+      },
+      {
+       "category": "FOOD",
+       "name": "더블치즈 베이컨 피자",
+       "price": 10000
+      },
+      {
+       "category": "FOOD",
+       "name": "파인샤배트",
+       "price": 8000
+      },
+      {
+       "category": "FOOD",
+       "name": "페페로니 피자",
+       "price": 10000
+      },
+      {
+       "category": "FOOD",
+       "name": "살사치즈나초",
+       "price": 9000
+      },
+      {
+       "category": "FOOD",
+       "name": "감바스알아히요",
+       "price": 12000
+      },
+      {
+       "category": "BEER",
+       "name": "버드와이져",
+       "price": 8000
+      },
+      {
+       "category": "BEER",
+       "name": "코로나",
+       "price": 9000
+      },
+      {
+       "category": "BEER",
+       "name": "하이네켄",
+       "price": 8000
+      },
+      {
+       "category": "BEER",
+       "name": "기네스",
+       "price": 10000
+      },
+      {
+       "category": "Drink",
+       "name": "코카콜라 / 제로",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "사이다 / 제로",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "핫식스",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "토닉워터",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "홍차(아이스티)",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "갈배",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "오랜지쥬스",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "파인에플주스",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "크랜베리주스",
+       "price": 3000
+      },
+      {
+       "category": "Drink",
+       "name": "진저에일",
+       "price": 3000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1wCigTHinV0CQRz6hIBwuG1dKAE1TGrpa",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Champagne Set",
+       "name": "오패라",
+       "price": 50000
+      },
+      {
+       "category": "Champagne Set",
+       "name": "버니니 벨라",
+       "price": 80000
+      },
+      {
+       "category": "Champagne Set",
+       "name": "딥 루미너스",
+       "price": 200000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "말리브 1B + 음료3개",
+       "price": 120000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "제임슨 1B + 음료3개",
+       "price": 120000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "호세쿠엘보 1B + 음료3개",
+       "price": 140000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "예거 1B + 음료3개",
+       "price": 140000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "산토리 1B + 음료3개",
+       "price": 140000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "잭다니엘 1B + 음료3개",
+       "price": 150000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "잭다니엘애플 1B + 음료3개",
+       "price": 150000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "조니워커블랙 1B + 음료3개",
+       "price": 180000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "몽키숄더 1B + 음료3개",
+       "price": 180000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "아그와 1B + 음료3개",
+       "price": 180000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "엑스레이티드 1B + 음료3개",
+       "price": 180000
+      },
+      {
+       "category": "Bottle Set",
+       "name": "조니워커블루 1B + 음료3개",
+       "price": 650000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794298151885639"
+  },
   {
    "ts": "1794294914.742009",
    "date": "2026-11-10",
