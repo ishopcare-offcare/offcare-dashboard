@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 4983,
- "updatedAt": "2026-11-10 14:17",
+ "version": 4984,
+ "updatedAt": "2026-11-10 14:21",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,282 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20261109_164027.jpeg",
+     "fid": "F0CG5HVS51R",
+     "from": "댓글",
+     "path": "menu-files/1794287826_298619-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "고기/식사",
+       "name": "등갈비김치전골(대)",
+       "price": 54000
+      },
+      {
+       "category": "고기/식사",
+       "name": "등갈비김치전골(중)",
+       "price": 42000
+      },
+      {
+       "category": "고기/식사",
+       "name": "등갈비김치전골(소)",
+       "price": 29000
+      },
+      {
+       "category": "고기/식사",
+       "name": "고기추가",
+       "price": 15000
+      },
+      {
+       "category": "고기/식사",
+       "name": "김치추가",
+       "price": 10000
+      },
+      {
+       "category": "고기/식사",
+       "name": "솥뚜껑생삼겹살4인(600g)",
+       "price": 44000
+      },
+      {
+       "category": "고기/식사",
+       "name": "솥뚜껑생삼겹살3인(450g)",
+       "price": 34000
+      },
+      {
+       "category": "고기/식사",
+       "name": "솥뚜껑생삼겹살1인(150g)",
+       "price": 12000
+      },
+      {
+       "category": "고기/식사",
+       "name": "고기1인",
+       "price": 6000
+      },
+      {
+       "category": "고기/식사",
+       "name": "대패삼겹1인(100g)",
+       "price": 5000
+      },
+      {
+       "category": "고기/식사",
+       "name": "냉면",
+       "price": 5000
+      },
+      {
+       "category": "고기/식사",
+       "name": "얼큰라면",
+       "price": 4000
+      },
+      {
+       "category": "고기/식사",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "고기/식사",
+       "name": "치즈볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "고기/식사",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "된장찌개",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "계란후라이",
+       "price": 1000
+      },
+      {
+       "category": "고기/식사",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "고기/식사",
+       "name": "라면사리",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "당면사리",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "버섯사리",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "두부사리",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "고기/식사",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "고기/식사",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "고기/식사",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "고기/식사",
+       "name": "백세주",
+       "price": 8000
+      },
+      {
+       "category": "고기/식사",
+       "name": "복분자",
+       "price": 15000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_1761887058161.jpeg",
+     "fid": "F0CG9RR2WDC",
+     "from": "댓글",
+     "path": "menu-files/1794287826_298619-1.jpeg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "등갈비 김치찜",
+       "name": "대",
+       "price": 54000
+      },
+      {
+       "category": "등갈비 김치찜",
+       "name": "중",
+       "price": 42000
+      },
+      {
+       "category": "등갈비 김치찜",
+       "name": "소",
+       "price": 29000
+      },
+      {
+       "category": "등갈비 김치찜",
+       "name": "등갈비추가 (400g)",
+       "price": 15000
+      },
+      {
+       "category": "등갈비 김치찜",
+       "name": "김치추가 (국내산)",
+       "price": 10000
+      },
+      {
+       "category": "솥뚜껑 생삼겹살",
+       "name": "1인분 150g",
+       "price": 12000
+      },
+      {
+       "category": "솥뚜껑 생삼겹살",
+       "name": "3인분 한판 450g",
+       "price": 34000
+      },
+      {
+       "category": "솥뚜껑 생삼겹살",
+       "name": "4인분 한판 600g",
+       "price": 44000
+      },
+      {
+       "category": "대패 삼겹살",
+       "name": "1인분 100g",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "물/비빔냉면",
+       "price": 5000
+      },
+      {
+       "category": "식사류",
+       "name": "얼큰라면",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "계란찜",
+       "price": 3000
+      },
+      {
+       "category": "식사류",
+       "name": "치즈볶음밥",
+       "price": 3000
+      },
+      {
+       "category": "식사류",
+       "name": "볶음밥",
+       "price": 2000
+      },
+      {
+       "category": "식사류",
+       "name": "된장찌개",
+       "price": 2000
+      },
+      {
+       "category": "식사류",
+       "name": "계란후라이(1EA)",
+       "price": 1000
+      },
+      {
+       "category": "식사류",
+       "name": "공기밥(찌개별도)",
+       "price": 1000
+      },
+      {
+       "category": "사리",
+       "name": "버섯사리",
+       "price": 2000
+      },
+      {
+       "category": "사리",
+       "name": "두부사리",
+       "price": 2000
+      },
+      {
+       "category": "사리",
+       "name": "당면사리",
+       "price": 2000
+      },
+      {
+       "category": "사리",
+       "name": "라면사리",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "주류 추가>>>\n소주 5,000\n맥주 5,000\n백세주 8,000\n복분자 15,000\n음료수 2,000\n\n포스기 사진에서 대패불고기는 빼주세요!!!:꾸벅5:"
+   ],
+   "rc": 1,
+   "lr": "1794287996.351409",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794287826298619"
   },
   {
