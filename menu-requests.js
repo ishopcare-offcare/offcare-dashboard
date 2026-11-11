@@ -3,10 +3,417 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5023,
- "updatedAt": "2026-11-11 09:12",
+ "version": 5024,
+ "updatedAt": "2026-11-11 09:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1794358277.493289",
+   "date": "2026-11-11",
+   "time": "09:51",
+   "store": "태풍마라",
+   "biz": "7040503574",
+   "pos": "퍼스트포스",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHGLEN0DN",
+     "from": "댓글",
+     "path": "menu-files/1794358277_493289-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메인메뉴",
+       "name": "셀프(육수+숙주)",
+       "price": 3000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "셀프(학생용)",
+       "price": 2000
+      },
+      {
+       "category": "메인메뉴",
+       "name": "마라탕",
+       "price": 13900
+      },
+      {
+       "category": "메인메뉴",
+       "name": "꿔바로우",
+       "price": 7900
+      },
+      {
+       "category": "메인메뉴",
+       "name": "찹쌀미니꿔바로우",
+       "price": 5900
+      },
+      {
+       "category": "메인메뉴",
+       "name": "태풍미니세트(추가1개가능)",
+       "price": 18900
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CGH0TQ4CD",
+     "from": "댓글",
+     "path": "menu-files/1794358277_493289-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드메뉴",
+       "name": "0.1단계",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "0.5단계",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "1.0단계",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "2.0단계",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "땅콩소스 O",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "땅콩소스 X",
+       "price": 0
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "땅콩소스(별도포장)",
+       "price": 500
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "마조유(별도포장)",
+       "price": 500
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "단무지",
+       "price": 500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CHGLH4XCY",
+     "from": "댓글",
+     "path": "menu-files/1794358277_493289-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "숙주",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "알배추",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "청경채",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "팽이버섯",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "새송이버섯",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "목이버섯",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "백목이버섯",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "뉴진면2개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "뉴진면4개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "치즈분모자3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "치즈분모자5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "녹차분모자2개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "녹차분모자4개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "분모자3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "분모자5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "연근모양분모자3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "연근모양분모자5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "넙적분모자 2개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "캐릭터분모자3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "캐릭터분모자5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "절단푸주4개",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "물고기피쉬볼3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "물고기피쉬볼5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "문어볼3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "매운오징어볼2개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "새우볼3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "새우볼5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "치즈볼2개",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "냉동두부3개",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CGLAJESR4",
+     "from": "댓글",
+     "path": "menu-files/1794358277_493289-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "냉동두부5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "유부3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "치즈떡3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "치즈떡5개",
+       "price": 2000
+      },
+      {
+       "category": "추가",
+       "name": "비엔나3개",
+       "price": 900
+      },
+      {
+       "category": "추가",
+       "name": "메추리알3개",
+       "price": 900
+      },
+      {
+       "category": "추가",
+       "name": "콘치즈볼2개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "옥수수면(60g)",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "중국당면",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "넙적당면",
+       "price": 1500
+      },
+      {
+       "category": "추가",
+       "name": "감자수제비",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "햄3개",
+       "price": 1000
+      },
+      {
+       "category": "추가",
+       "name": "소고기(100g)",
+       "price": 3000
+      },
+      {
+       "category": "추가",
+       "name": "소고기(200g)",
+       "price": 6000
+      },
+      {
+       "category": "추가",
+       "name": "소고기(알목심)100g",
+       "price": 4000
+      },
+      {
+       "category": "추가",
+       "name": "소고기(알목심)200g",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CGH0YKDNH",
+     "from": "댓글",
+     "path": "menu-files/1794358277_493289-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "환타 (오렌지)",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라(500ml)",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라·제로 뚱캔(355ml)",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "칠성사이다(500ml)",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "쿨피스350ml",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "빙호차(500ml)",
+       "price": 3000
+      },
+      {
+       "category": "음료",
+       "name": "자몽에이드탄산(355ml)",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 5,
+   "lr": "1794358355.917839",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794358277493289"
+  },
   {
    "ts": "1794355204.328899",
    "date": "2026-11-11",
