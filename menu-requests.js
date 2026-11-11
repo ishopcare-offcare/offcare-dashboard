@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5054,
- "updatedAt": "2026-11-11 12:16",
+ "version": 5055,
+ "updatedAt": "2026-11-11 12:18",
  "days": 30,
  "items": [
   {
@@ -185,12 +185,162 @@ window.MENU_REQUESTS = {
      "from": "원글",
      "path": "menu-files/1794365219_719349-0.xlsx",
      "nj": 1
+    },
+    {
+     "name": "IMG_20261111_121731.jpg",
+     "fid": "F0CHHJJSBL0",
+     "from": "댓글",
+     "path": "menu-files/1794365219_719349-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 2000
+      },
+      {
+       "category": "COFFEE",
+       "name": "BIG 아이스 아메리카노",
+       "price": 2800
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 3800
+      },
+      {
+       "category": "COFFEE",
+       "name": "데메라떼 (Ice only)",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "연유라떼",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카",
+       "price": 4300
+      },
+      {
+       "category": "COFFEE",
+       "name": "땅콩 카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "옥수수 카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜 마끼아또",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "코코넛 커피쉐이크",
+       "price": 4800
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코라떼",
+       "price": 4300
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "말차라떼",
+       "price": 4300
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "곡물라떼",
+       "price": 4300
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "고구마라떼",
+       "price": 4300
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "딸기라떼 (Ice only)",
+       "price": 4300
+      },
+      {
+       "category": "ADE",
+       "name": "레몬에이드",
+       "price": 3800
+      },
+      {
+       "category": "ADE",
+       "name": "자몽에이드",
+       "price": 3800
+      },
+      {
+       "category": "ADE",
+       "name": "망고에이드",
+       "price": 3800
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아아이스티 (Ice only)",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "레몬민트티",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "자몽블랙티",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "유자차",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "대추차",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이/캐모마일/페퍼민트",
+       "price": 3500
+      },
+      {
+       "category": "SHAKE",
+       "name": "초코쉐이크",
+       "price": 4500
+      },
+      {
+       "category": "SHAKE",
+       "name": "밀크쉐이크",
+       "price": 4500
+      },
+      {
+       "category": "SHAKE",
+       "name": "코코넛쉐이크",
+       "price": 4500
+      }
+     ],
+     "v": 3
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794366487.137389",
+   "rc": 2,
+   "lr": "1794367070.268969",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
