@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5094,
- "updatedAt": "2026-11-12 02:01",
+ "version": 5095,
+ "updatedAt": "2026-11-12 02:16",
  "days": 30,
  "items": [
   {
@@ -21,7 +21,355 @@ window.MENU_REQUESTS = {
    ],
    "files": 0,
    "att": [],
-   "datt": [],
+   "datt": [
+    {
+     "id": "1i070tSNH7iJGJOQen4-B-5Qz-Edq-49o",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "불의잔(2잔)",
+       "price": 20000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "레인보우샤워",
+       "price": 18000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "로맨틱스카이",
+       "price": 18000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "어필",
+       "price": 18000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "널본지오래오",
+       "price": 17000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "로즈 키스",
+       "price": 17000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "초코랫뭐시기",
+       "price": 17000
+      },
+      {
+       "category": "APPEAL SIGNATURE COCKTAIL",
+       "name": "말차 칼루아 밀크",
+       "price": 17000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "순수",
+       "price": 12000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "동경의 밤",
+       "price": 12000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "말리부파인",
+       "price": 12000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "말리부오렌지",
+       "price": 12000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "피치 크러쉬",
+       "price": 12000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "로즈블라썸",
+       "price": 12000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "피스타오밀크",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "애플마티니",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "블루 사파이어",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "옥보단",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "미도리샤워",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "준벅",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "묘해,너와",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "코코샤넬",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "데킬라썬라이즈",
+       "price": 13000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "깔루아밀크",
+       "price": 14000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "베일리스밀크",
+       "price": 14000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "피나콜라다",
+       "price": 14000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "모히또",
+       "price": 14000
+      },
+      {
+       "category": "#Sweat&Sour Cocktail",
+       "name": "초코릿 마티니",
+       "price": 14000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "진토닉",
+       "price": 12000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "스큐르드라이버",
+       "price": 12000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "보드카크랜베리",
+       "price": 12000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "카식스프라페",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "다이커리",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "쿠바리브레",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "클래식 마티니",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "섹스 온더 비치",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "블루문",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "러브데스",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "마가리타",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "어쩌면오늘",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "코스모폴리탄",
+       "price": 13000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "블루하와이",
+       "price": 14000
+      },
+      {
+       "category": "#Balanced Cocktail",
+       "name": "오르가즘",
+       "price": 14000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "나 오늘 집에 안가",
+       "price": 13000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "블랙러시안",
+       "price": 13000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "화이트러시안",
+       "price": 14000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "도쿄아이스티",
+       "price": 14000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "카타르시스",
+       "price": 14000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "러스트네일",
+       "price": 15000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "롱 아일랜드 아이스티",
+       "price": 15000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "딥키스",
+       "price": 15000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "잭콕",
+       "price": 15000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "갓파더",
+       "price": 15000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "도쿄 아이스티",
+       "price": 15000
+      },
+      {
+       "category": "#Hard Cocktail",
+       "name": "파우스트",
+       "price": 15000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "신데렐라 컴플렉스",
+       "price": 12000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "밀크초코 카라멜",
+       "price": 12000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "해운대",
+       "price": 12000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "버진피나콜라다",
+       "price": 12000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "그린 애플 소다",
+       "price": 12000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "망고 크러쉬",
+       "price": 12000
+      },
+      {
+       "category": "#Non-Alcohol",
+       "name": "핑크레이디",
+       "price": 12000
+      },
+      {
+       "category": "#Highball",
+       "name": "멜론 소다하이볼",
+       "price": 12000
+      },
+      {
+       "category": "#Highball",
+       "name": "피치 하이볼",
+       "price": 12000
+      },
+      {
+       "category": "#Highball",
+       "name": "조니워커 하이볼",
+       "price": 12000
+      },
+      {
+       "category": "#Highball",
+       "name": "제임슨 하이볼",
+       "price": 12000
+      },
+      {
+       "category": "#Highball",
+       "name": "산토리 하이볼",
+       "price": 12000
+      },
+      {
+       "category": "#Highball",
+       "name": "몽키숄더 하이볼",
+       "price": 12000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "replies": [],
    "rc": 0,
    "lr": "",
