@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5040,
- "updatedAt": "2026-11-11 11:30",
+ "version": 5041,
+ "updatedAt": "2026-11-11 11:35",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,247 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Resized_20260421_220900.jpg",
+     "fid": "F0CGHLMCTCM",
+     "from": "댓글",
+     "path": "menu-files/1794364117_352279-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "에스프레소 도피오",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카푸치노",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "코코넛라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜마끼아또",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카라멜넛라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "연유라떼",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페모카",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "아인슈페너",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "흑임자크림라떼",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아 아이스티",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "녹차",
+       "price": 3800
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 3800
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트",
+       "price": 3800
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이",
+       "price": 3800
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스",
+       "price": 3800
+      },
+      {
+       "category": "TEA",
+       "name": "쌍화차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "생강차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "유자차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "자몽차",
+       "price": 4500
+      },
+      {
+       "category": "TEA",
+       "name": "레몬차",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "밀크티",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "녹차라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "고구마라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "오곡라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "쌍화라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "딸기라떼",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "천혜향에이드",
+       "price": 4800
+      },
+      {
+       "category": "ADE",
+       "name": "자몽에이드",
+       "price": 4800
+      },
+      {
+       "category": "ADE",
+       "name": "레몬에이드",
+       "price": 4800
+      },
+      {
+       "category": "ADE",
+       "name": "유자에이드",
+       "price": 4800
+      },
+      {
+       "category": "JUICE",
+       "name": "딸기주스",
+       "price": 5000
+      },
+      {
+       "category": "JUICE",
+       "name": "블루베리주스",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "참외스무디",
+       "price": 4800
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "망고스무디",
+       "price": 4800
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "망고코코넛스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "참외밀크스무디",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "플레인요거트",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "딸기요거트",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "천혜향요거트",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE",
+       "name": "블루베리요거트",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794364448.780059",
    "rfx": 3,
    "status": "wait",
    "handler": null,
