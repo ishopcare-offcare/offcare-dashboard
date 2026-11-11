@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5046,
- "updatedAt": "2026-11-11 11:52",
+ "version": 5047,
+ "updatedAt": "2026-11-11 11:53",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,127 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CGSPLM4DA",
+     "from": "댓글",
+     "path": "menu-files/1794365524_251829-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "붕어빵",
+       "name": "팥",
+       "price": 1000
+      },
+      {
+       "category": "붕어빵",
+       "name": "슈크림",
+       "price": 1000
+      },
+      {
+       "category": "붕어빵",
+       "name": "초콜릿",
+       "price": 1200
+      },
+      {
+       "category": "붕어빵",
+       "name": "피자",
+       "price": 2000
+      },
+      {
+       "category": "붕어빵",
+       "name": "통모짜",
+       "price": 2000
+      },
+      {
+       "category": "붕어빵",
+       "name": "치즈불닭",
+       "price": 2300
+      },
+      {
+       "category": "떡볶이",
+       "name": "종이컵 (소)",
+       "price": 1000
+      },
+      {
+       "category": "떡볶이",
+       "name": "종이컵 (중)",
+       "price": 2000
+      },
+      {
+       "category": "떡볶이",
+       "name": "종이컵 (대)",
+       "price": 3000
+      },
+      {
+       "category": "어묵",
+       "name": "부산 어묵",
+       "price": 1000
+      },
+      {
+       "category": "어묵",
+       "name": "물떡",
+       "price": 1200
+      },
+      {
+       "category": "만두",
+       "name": "왕만두 (고기,김치) 2개",
+       "price": 2500
+      },
+      {
+       "category": "만두",
+       "name": "왕만두 (고기,김치) 3개",
+       "price": 3700
+      },
+      {
+       "category": "만두",
+       "name": "왕만두 (고기,김치) 4개",
+       "price": 4800
+      },
+      {
+       "category": "만두",
+       "name": "교자만두 5개",
+       "price": 3000
+      },
+      {
+       "category": "만두",
+       "name": "교자만두 10개",
+       "price": 5500
+      },
+      {
+       "category": "분식",
+       "name": "한강 라면 계란+ 밥 (무한)",
+       "price": 3500
+      },
+      {
+       "category": "분식",
+       "name": "아끼만두 2개",
+       "price": 1200
+      },
+      {
+       "category": "분식",
+       "name": "김말이 2개",
+       "price": 1200
+      },
+      {
+       "category": "커피&음료",
+       "name": "커피(핫, 아이스, 옛날커피)",
+       "price": 1300
+      },
+      {
+       "category": "커피&음료",
+       "name": "음료 (코카콜라, 사이다, 환타)",
+       "price": 1500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794365533.944589",
    "rfx": 3,
    "status": "wait",
    "handler": null,
