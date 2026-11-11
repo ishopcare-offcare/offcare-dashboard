@@ -1,10 +1,10 @@
 /*
  * 방문설치 채널(#ishopcare_new_방문설치) 적재 — 자동 생성 파일
  * 직접 수정하지 마세요. scripts/fetch-visits.js 가 덮어씁니다.
- * 갱신: 2026-11-12 01:31 KST · 225건 (2026-07-01 이후)
+ * 갱신: 2026-11-12 04:31 KST · 225건 (2026-07-01 이후)
  */
 window.VISIT_DATA = {
-  updatedAt: '2026-11-12 01:31',
+  updatedAt: '2026-11-12 04:31',
   records: [
   {"id":"11366","date":"2026-07-01","time":"09:40","store":"(주)참치공방(종각본점)","biz":"2338800379","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"온라인","addr":"서울특별시 종로구","van":"DAOU","equip":"dk9300 용지 끼임 점검","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":0,"roundDates":[],"brand":"참치공방"},
   {"id":"11367","date":"2026-07-01","time":"09:45","store":"참치공방 시청지점","biz":"7368501084","kind":"AS","status":"done","visitDate":"2026-07-01","region":"수도권","route":"오프라인","addr":"서울특별시 중구","van":"DAOU","equip":"DK 9300","ship":"","delivery":"","requester":"","assignee":"이성철","rounds":4,"roundDates":["2025-04-22","2025-06-04","2026-05-12","2026-07-01","2025-04-22","2025-06-04","2026-05-12","2026-07-01"],"brand":"참치공방"},
@@ -227,7 +227,7 @@ window.VISIT_DATA = {
   {"id":"16650","date":"2026-11-04","time":"19:10","store":"닥터로빈 서래마을점","biz":"5891602439","kind":"설치","status":"done","visitDate":"2026-11-09","region":"수도권","route":"오프라인","addr":"서울특별시 서초구","van":"KIS","equip":"유선프린터기 2EA","ship":"2026-11-04","delivery":"","requester":"","assignee":"김주진","rounds":3,"roundDates":["2026-06-01","2026-07-07","2026-11-09","2026-06-01","2026-07-07","2026-11-09"],"brand":"닥터로빈"},
   {"id":"16666","date":"2026-11-05","time":"12:02","store":"계경순대국 송파점","biz":"1110224932","kind":"AS","status":"done","visitDate":"2026-11-06","region":"수도권","route":"오프라인","addr":"서울특별시 송파구","van":"KIS","equip":"오더포스 리커버리","ship":"","delivery":"","requester":"","assignee":"김명석","rounds":3,"roundDates":["2026-02-26","2026-09-07","2026-11-06","2026-02-26","2026-09-07","2026-11-06"],"brand":"계경순대국"},
   {"id":"16695","date":"2026-11-06","time":"09:12","store":"도시곳간 수원망포역점","biz":"7020903483","kind":"설치","status":"done","visitDate":"2026-11-06","region":"지방","route":"오프라인","addr":"경기도 수원시 영통구","van":"NICE","equip":"포스+CAT+유프블랙+프론트 블랙+금전함 블랙 대형","ship":"","delivery":"","requester":"","assignee":"김주진","rounds":0,"roundDates":[],"brand":"도시곳간"},
-  {"id":"16742","date":"2026-11-06","time":"16:01","store":"응급실국물떡볶이 무안 무안읍점","biz":"1660603105","kind":"설치","status":"done","visitDate":"2026-11-10","region":"지방","route":"오프라인","addr":"전남광주통합특별시 무안군","van":"KIS","equip":"포스기 1EA + 프론트(기보유) 1EA + CAT단말기 1EA + 유선프린터기 1EA + 금전함 1EA + 부르미(기보유) 1EA","ship":"2026-11-06","delivery":"","requester":"","assignee":"비젼포스","rounds":0,"roundDates":[],"brand":"응급실국물떡볶이"},
+  {"id":"16742","date":"2026-11-06","time":"16:01","store":"응급실국물떡볶이 무안 무안읍점","biz":"1660603105","kind":"설치","status":"done","visitDate":"2026-11-10","region":"지방","route":"오프라인","addr":"전남광주통합특별시 무안군","van":"KIS","equip":"포스기 1EA + 프론트(기보유) 1EA + CAT단말기 1EA + 유선프린터기 1EA + 금전함 1EA + 부르미(기보유) 1EA","ship":"2026-11-06","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"응급실국물떡볶이"},
   {"id":"16775","date":"2026-11-09","time":"10:50","store":"동동국밥 문래점","biz":"5721902785","kind":"설치","status":"done","visitDate":"2026-11-11","region":"수도권","route":"오프라인","addr":"서울특별시 영등포구","van":"NICE","equip":".프론트+포스기+유선프린터+금전함","ship":"2026-11-09","delivery":"","requester":"","assignee":"디에스이엔씨","rounds":0,"roundDates":[],"brand":"동동국밥"},
   {"id":"16777","date":"2026-11-09","time":"11:40","store":"응급실국물떡볶이군포당정점","biz":"1094869083","kind":"기타","status":"pending","visitDate":"2026-11-17","region":"수도권","route":"오프라인","addr":"경기도 군포시","van":"KIS","equip":"아임유 포스기 / 프론트 / KIS1421 / 유선프린터기 / 주방프린터기","ship":"","delivery":"","requester":"","assignee":"","rounds":0,"roundDates":[],"brand":"응급실국물떡볶이"},
   {"id":"16872","date":"2026-11-10","time":"16:56","store":"동동국밥 삼계점","biz":"4140554258","kind":"설치","status":"done","visitDate":"2026-11-12","region":"지방","route":"오프라인","addr":"경상남도 김해시","van":"NICE","equip":"포스기 1대 + 토스프론터 1대 + 금전함 1대 + 유선프린터 2개","ship":"2026-11-06","delivery":"","requester":"","assignee":"페이닷","rounds":0,"roundDates":[],"brand":"동동국밥"},
