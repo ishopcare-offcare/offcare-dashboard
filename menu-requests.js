@@ -3,10 +3,172 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5071,
- "updatedAt": "2026-11-11 14:47",
+ "version": 5072,
+ "updatedAt": "2026-11-11 14:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1794376053.655559",
+   "date": "2026-11-11",
+   "time": "14:47",
+   "store": "굴비단길",
+   "biz": "2250796268",
+   "pos": "",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261111_144650856_01.jpg",
+     "fid": "F0CGTQXJH3N",
+     "from": "댓글",
+     "path": "menu-files/1794376053_655559-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "굴비정식2인",
+       "price": 60000
+      },
+      {
+       "category": "메뉴",
+       "name": "굴비정식3인",
+       "price": 80000
+      },
+      {
+       "category": "메뉴",
+       "name": "1인",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "1인",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "1인",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "굴비정식4인",
+       "price": 100000
+      },
+      {
+       "category": "메뉴",
+       "name": "특정식4인",
+       "price": 120000
+      },
+      {
+       "category": "메뉴",
+       "name": "특정식3인",
+       "price": 130000
+      },
+      {
+       "category": "메뉴",
+       "name": "특정식4인",
+       "price": 160000
+      },
+      {
+       "category": "메뉴",
+       "name": "병어조림(추가)",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "굴비2마리(추가)",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "보리굴비(추가)",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "삼합(추가)",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "간장게장(추가)",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "활어회(추가)",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "양념게장(추가)",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "돌솥밥(추가)",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "생고기추가",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "굴비",
+       "price": 45000
+      },
+      {
+       "category": "메뉴",
+       "name": "공기밥",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "음료",
+       "price": 2000
+      },
+      {
+       "category": "메뉴",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "청하",
+       "price": 7000
+      },
+      {
+       "category": "메뉴",
+       "name": "막걸리",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "복분자",
+       "price": 15000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794376094.932189",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794376053655559"
+  },
   {
    "ts": "1794375824.876259",
    "date": "2026-11-11",
@@ -687,11 +849,13 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료"
+   ],
+   "rc": 1,
+   "lr": "1794376061.922459",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김현기",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794374906964769"
   },
