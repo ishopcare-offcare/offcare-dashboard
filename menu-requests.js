@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5083,
- "updatedAt": "2026-11-11 16:38",
+ "version": 5084,
+ "updatedAt": "2026-11-11 16:39",
  "days": 30,
  "items": [
   {
@@ -73231,29 +73231,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790901184229"
-  },
-  {
-   "ts": "1791790707.206759",
-   "date": "2026-10-12",
-   "time": "16:38",
-   "store": "춘천닭갈비vs양푼이김치찌개",
-   "biz": "8677000309",
-   "pos": "퍼스트포스",
-   "content": "메뉴 수정 부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "만두 메뉴 제거 필요 / 햄&만두 3000원으로 메뉴 생성 필요 / 포장 용기 1000원으로 메뉴 생성 필요"
-   ],
-   "rc": 3,
-   "lr": "1791792757.777159",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790707206759"
   }
  ],
  "ocr": {
