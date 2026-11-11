@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5029,
- "updatedAt": "2026-11-11 10:10",
+ "version": 5030,
+ "updatedAt": "2026-11-11 10:15",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "유화7.jpg",
      "fid": "F0CHGPPCXL0",
      "from": "댓글",
-     "path": "menu-files/1794359168_023039-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -67,13 +66,13 @@ window.MENU_REQUESTS = {
        "price": 68000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794359168_023039-0.jpg"
     },
     {
      "name": "유화6.jpg",
      "fid": "F0CG71L17HV",
      "from": "댓글",
-     "path": "menu-files/1794359168_023039-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -137,13 +136,13 @@ window.MENU_REQUESTS = {
        "price": 50000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794359168_023039-1.jpg"
     },
     {
      "name": "유화5.jpg",
      "fid": "F0CGH42197X",
      "from": "댓글",
-     "path": "menu-files/1794359168_023039-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -217,13 +216,13 @@ window.MENU_REQUESTS = {
        "price": 76000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794359168_023039-2.jpg"
     },
     {
      "name": "유화4.jpg",
      "fid": "F0CGS3X6L68",
      "from": "댓글",
-     "path": "menu-files/1794359168_023039-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -282,13 +281,13 @@ window.MENU_REQUESTS = {
        "price": 38000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794359168_023039-3.jpg"
     },
     {
      "name": "유화3.jpg",
      "fid": "F0CGS3X952Q",
      "from": "댓글",
-     "path": "menu-files/1794359168_023039-4.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -347,13 +346,13 @@ window.MENU_REQUESTS = {
        "price": 41000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794359168_023039-4.jpg"
     },
     {
      "name": "유화2.jpg",
      "fid": "F0CGG5YEVU3",
      "from": "댓글",
-     "path": "menu-files/1794359168_023039-5.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -437,7 +436,8 @@ window.MENU_REQUESTS = {
        "price": 18000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794359168_023039-5.jpg"
     },
     {
      "name": "유화1.jpg",
@@ -611,8 +611,8 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794359218.008199",
+   "rc": 2,
+   "lr": "1794359689.684589",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
