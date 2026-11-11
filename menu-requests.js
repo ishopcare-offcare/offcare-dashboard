@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5049,
- "updatedAt": "2026-11-11 11:59",
+ "version": 5050,
+ "updatedAt": "2026-11-11 12:04",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794365862990629"
   },
   {
@@ -44,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CGSPLM4DA",
      "from": "댓글",
-     "path": "menu-files/1794365524_251829-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -153,16 +152,17 @@ window.MENU_REQUESTS = {
        "price": 1500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794365524_251829-0.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794365533.944589",
+   "rc": 2,
+   "lr": "1794366206.495489",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794365524251829"
   },
   {
