@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5035,
- "updatedAt": "2026-11-11 11:02",
+ "version": 5036,
+ "updatedAt": "2026-11-11 11:04",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794362537536869"
   },
   {
@@ -44,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CGNGA10DQ",
      "from": "댓글",
-     "path": "menu-files/1794361811_040969-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -363,13 +362,16 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794361811_040969-0.png"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1794362032.421009",
+   "replies": [
+    "등록/솔라피전송 완료"
+   ],
+   "rc": 2,
+   "lr": "1794362609.901329",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -72835,126 +72837,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791770922257449"
-  },
-  {
-   "ts": "1791770611.187439",
-   "date": "2026-10-12",
-   "time": "11:03",
-   "store": "베란다",
-   "biz": "6046201022",
-   "pos": "토스포스",
-   "content": "단품메뉴등록",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1uyMGZWMMG4mo58z_g5Guqeu9ZDVdhNyR/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1uyMGZWMMG4mo58z_g5Guqeu9ZDVdhNyR",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "김치찌개(돼지고기/참치)",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "곱빵이소면",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "연어샐러드&감자튀김",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "소고기&멕시샐러드&감자튀김",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "광어회 -스페다사포함",
-       "price": 50000
-      },
-      {
-       "category": "",
-       "name": "백순두부전골",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "닭튀김&초밥세트",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "가오리찜 또는 조림",
-       "price": 39000
-      },
-      {
-       "category": "",
-       "name": "마나과일",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "닭도리탕&찜",
-       "price": 29000
-      },
-      {
-       "category": "",
-       "name": "마나보쌈",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "닭발볶음&주먹밥",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "오돌뼈볶음&주먹밥",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "오징어볶음",
-       "price": 15000
-      },
-      {
-       "category": "",
-       "name": "바지락탕&바지락술찜",
-       "price": 13000
-      },
-      {
-       "category": "",
-       "name": "오향족발볶이",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "반건조오징어&땅콩",
-       "price": 10000
-      },
-      {
-       "category": "",
-       "name": "오뎅탕",
-       "price": 13000
-      }
-     ]
-    }
-   ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791770611187439"
   }
  ],
  "ocr": {
