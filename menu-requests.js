@@ -3,10 +3,137 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5042,
- "updatedAt": "2026-11-11 11:41",
+ "version": 5043,
+ "updatedAt": "2026-11-11 11:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1794364890.423389",
+   "date": "2026-11-11",
+   "time": "11:41",
+   "store": "궁 만두",
+   "biz": "1591103076",
+   "pos": "",
+   "content": "신규매뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image_1794364914070.jpg",
+     "fid": "F0CGQTEVC3T",
+     "from": "댓글",
+     "path": "menu-files/1794364890_423389-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "만두",
+       "name": "고기왕만두 7알",
+       "price": 5500
+      },
+      {
+       "category": "만두",
+       "name": "김치왕만두 7알",
+       "price": 5500
+      },
+      {
+       "category": "만두",
+       "name": "굴림고기만두 8알",
+       "price": 5500
+      },
+      {
+       "category": "만두",
+       "name": "굴림김치만두 8알",
+       "price": 5500
+      },
+      {
+       "category": "만두",
+       "name": "눈꽃군만두 6알",
+       "price": 6000
+      },
+      {
+       "category": "만두",
+       "name": "고추기름 양념비빔군만두 6알",
+       "price": 6500
+      },
+      {
+       "category": "식사",
+       "name": "얼큰만두라면",
+       "price": 5500
+      },
+      {
+       "category": "식사",
+       "name": "납다른비빔쫄면",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "떡만두국(순한맛)",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "얼큰떡만두국",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "우육면(순한맛)",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "얼큰우육면",
+       "price": 9000
+      },
+      {
+       "category": "식사",
+       "name": "우삼겹 비빔밥",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "돈육 비빔밥",
+       "price": 10000
+      },
+      {
+       "category": "식사",
+       "name": "공기밥",
+       "price": 500
+      },
+      {
+       "category": "계절메뉴",
+       "name": "콩국수",
+       "price": 8000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "소비비빔면",
+       "price": 8000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "소바물냉면",
+       "price": 8000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "붕어빵 3알",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794364933.284249",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794364890423389"
+  },
   {
    "ts": "1794364117.352279",
    "date": "2026-11-11",
