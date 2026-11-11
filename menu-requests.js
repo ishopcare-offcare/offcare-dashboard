@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5068,
- "updatedAt": "2026-11-11 14:27",
+ "version": 5069,
+ "updatedAt": "2026-11-11 14:29",
  "days": 30,
  "items": [
+  {
+   "ts": "1794374906.964769",
+   "date": "2026-11-11",
+   "time": "14:28",
+   "store": "정원",
+   "biz": "2512602101",
+   "pos": "퍼스트포스",
+   "content": "신규메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794374906964769"
+  },
   {
    "ts": "1794374505.812279",
    "date": "2026-11-11",
@@ -23,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "1000033434.jpg",
      "fid": "F0CGRRSHRB3",
      "from": "댓글",
-     "path": "menu-files/1794374505_812279-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -217,13 +237,16 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794374505_812279-0.jpg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1794374529.550539",
+   "replies": [
+    "등록 /솔라피전송 완료"
+   ],
+   "rc": 2,
+   "lr": "1794374865.410049",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
