@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5064,
- "updatedAt": "2026-11-11 13:05",
+ "version": 5065,
+ "updatedAt": "2026-11-11 13:20",
  "days": 30,
  "items": [
   {
@@ -73949,27 +73949,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791780489739699"
-  },
-  {
-   "ts": "1791778724.981239",
-   "date": "2026-10-12",
-   "time": "13:18",
-   "store": "착한통닭",
-   "biz": "8805400786",
-   "pos": "",
-   "content": "똥집튀김 옆에  어묵탕 16,000원 추가로 만들어달라고 요청주셨습니다.:꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791778724981239"
   }
  ],
  "ocr": {
