@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5034,
- "updatedAt": "2026-11-11 10:55",
+ "version": 5035,
+ "updatedAt": "2026-11-11 11:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1794362537.536869",
+   "date": "2026-11-11",
+   "time": "11:02",
+   "store": "바이트앤 레스트",
+   "biz": "5438503030",
+   "pos": "퍼스트포스",
+   "content": "논커피메뉴에\n아이스 디카페인을\n아이스 콜드블루 디카페인으로 변경해주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794362537536869"
+  },
   {
    "ts": "1794361811.040969",
    "date": "2026-11-11",
