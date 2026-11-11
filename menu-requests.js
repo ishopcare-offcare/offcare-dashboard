@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5048,
- "updatedAt": "2026-11-11 11:57",
+ "version": 5049,
+ "updatedAt": "2026-11-11 11:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1794365862.990629",
+   "date": "2026-11-11",
+   "time": "11:57",
+   "store": "라르고60",
+   "biz": "4920503744",
+   "pos": "토스포스",
+   "content": "과일청에이드,요거트스무디,젤라또,에스프레소 제외한 모든 메뉴 클릭시 Hot, Ice, 1L(Ice) 선택란 만들어주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794365862990629"
+  },
   {
    "ts": "1794365524.251829",
    "date": "2026-11-11",
@@ -169,8 +190,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794365219719349"
   },
   {
@@ -316,7 +337,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20260421_220900.jpg",
      "fid": "F0CGHLMCTCM",
      "from": "댓글",
-     "path": "menu-files/1794364117_352279-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -545,16 +565,17 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364117_352279-0.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794364448.780059",
+   "rc": 2,
+   "lr": "1794365939.537579",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794364117352279"
   },
   {
