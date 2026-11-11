@@ -3,10 +3,621 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5027,
- "updatedAt": "2026-11-11 10:04",
+ "version": 5028,
+ "updatedAt": "2026-11-11 10:08",
  "days": 30,
  "items": [
+  {
+   "ts": "1794359168.023039",
+   "date": "2026-11-11",
+   "time": "10:06",
+   "store": "유화",
+   "biz": "1192601754",
+   "pos": "토스포스",
+   "content": "메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "유화7.jpg",
+     "fid": "F0CHGPPCXL0",
+     "from": "댓글",
+     "path": "menu-files/1794359168_023039-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "우바 농 그라타 그로망상 / Uva Non Grata Gros Mansen",
+       "price": 60000
+      },
+      {
+       "category": "",
+       "name": "살라디니 필라스트리, 팔레리오 / Saladini Pilastri, Falerio",
+       "price": 60000
+      },
+      {
+       "category": "",
+       "name": "로베로, 비안도나타 / Rovero, Biandonata",
+       "price": 61000
+      },
+      {
+       "category": "",
+       "name": "만드라로사 피아노 / Mandrarossa Fiano",
+       "price": 63000
+      },
+      {
+       "category": "",
+       "name": "샤토 오-블랑빌, 그란데 리저브 블랑 / Chateau Haut - Blanville, Grande Rese",
+       "price": 61000
+      },
+      {
+       "category": "",
+       "name": "리세이스, 페코리노 / Riseis, Pecorino",
+       "price": 65000
+      },
+      {
+       "category": "",
+       "name": "에이오 모젤 리슬링 / AO Mosel Riesling",
+       "price": 66000
+      },
+      {
+       "category": "",
+       "name": "샤또 물랑 드 르쿠뢰, 이오에스 블랑 / Chateau Moulin De Rioucreux, EOS Blan",
+       "price": 68000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화6.jpg",
+     "fid": "F0CG71L17HV",
+     "from": "댓글",
+     "path": "menu-files/1794359168_023039-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "바카이 쌀소주 (25%, 720ml)",
+       "price": 68000
+      },
+      {
+       "category": "도쿠리",
+       "name": "쥰마이 도쿠리 (쥰마이, 14.5%, 300ml)",
+       "price": 68000
+      },
+      {
+       "category": "증류식 소주",
+       "name": "일품진로",
+       "price": 35000
+      },
+      {
+       "category": "증류식 소주",
+       "name": "화요25",
+       "price": 33000
+      },
+      {
+       "category": "증류식 소주",
+       "name": "화요41",
+       "price": 58000
+      },
+      {
+       "category": "하우스 와인/하이볼",
+       "name": "하우스와인 (화이트와인)",
+       "price": 15000
+      },
+      {
+       "category": "하우스 와인/하이볼",
+       "name": "유자&레몬 사와 (3%)",
+       "price": 12000
+      },
+      {
+       "category": "하우스 와인/하이볼",
+       "name": "하이볼",
+       "price": 12000
+      },
+      {
+       "category": "생맥주",
+       "name": "생 하이네켄",
+       "price": 12000
+      },
+      {
+       "category": "음료",
+       "name": "콜라, 제로, 토닉워터, 탄산수",
+       "price": 3000
+      },
+      {
+       "category": "콜키지",
+       "name": "와인 또는 사케 콜키지 750ml (병당)",
+       "price": 30000
+      },
+      {
+       "category": "콜키지",
+       "name": "위스키 750ml 기준",
+       "price": 50000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화5.jpg",
+     "fid": "F0CGH42197X",
+     "from": "댓글",
+     "path": "menu-files/1794359168_023039-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "사케",
+       "name": "칠복신 쥰마이 초카라구치(카라구치, 17%, 300ml)",
+       "price": 37000
+      },
+      {
+       "category": "사케",
+       "name": "쥰마이 클래식(쥰마이, 15.5%, 720ml)",
+       "price": 59000
+      },
+      {
+       "category": "사케",
+       "name": "시라유키 다이긴죠(15.5%, 720ml)",
+       "price": 80000
+      },
+      {
+       "category": "사케",
+       "name": "다이긴죠 히야시보리(15.5%, 720ml)",
+       "price": 83000
+      },
+      {
+       "category": "사케",
+       "name": "코우덴 토쿠베츠 쥰마이(14.5%, 720ml)",
+       "price": 89000
+      },
+      {
+       "category": "사케",
+       "name": "쿠보타 센쥬(긴죠, 16%, 720ml)",
+       "price": 87000
+      },
+      {
+       "category": "사케",
+       "name": "쥰마이다이긴죠 쿠라(15.5%, 720ml)",
+       "price": 97000
+      },
+      {
+       "category": "사케",
+       "name": "쥰마이다이긴죠 후지노 시라유키(15%, 720ml)",
+       "price": 139000
+      },
+      {
+       "category": "사케",
+       "name": "쥰마이다이긴죠 반자이몬(16.8%, 720ml)",
+       "price": 139000
+      },
+      {
+       "category": "사케",
+       "name": "닷사이 쥰마이다이긴죠39(16%, 720ml)",
+       "price": 159000
+      },
+      {
+       "category": "사케",
+       "name": "쿠보타 만쥬(16%, 720ml)",
+       "price": 242000
+      },
+      {
+       "category": "사케",
+       "name": "아즈카 팥소주(25%, 720ml)",
+       "price": 69000
+      },
+      {
+       "category": "사케",
+       "name": "난수텐라쿠 고구마소주(25%, 900ml)",
+       "price": 72000
+      },
+      {
+       "category": "사케",
+       "name": "시나노 메밀소주(25%, 720ml)",
+       "price": 76000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화4.jpg",
+     "fid": "F0CGS3X6L68",
+     "from": "댓글",
+     "path": "menu-files/1794359168_023039-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "증류주",
+       "name": "풍정사계 동 (증류주, 25%, 375ml)",
+       "price": 50000
+      },
+      {
+       "category": "증류주",
+       "name": "추사백25 (증류주, 25%, 350ml)",
+       "price": 27000
+      },
+      {
+       "category": "증류주",
+       "name": "추사40 (증류주, 40%, 200ml)",
+       "price": 63000
+      },
+      {
+       "category": "증류주",
+       "name": "은암 (증류주, 32%, 375ml)",
+       "price": 29000
+      },
+      {
+       "category": "증류주",
+       "name": "소주다움27 (증류주, 27%, 360ml)",
+       "price": 25000
+      },
+      {
+       "category": "증류주",
+       "name": "미상 (증류주, 25%, 350ml)",
+       "price": 27000
+      },
+      {
+       "category": "청주 / 과실주",
+       "name": "단감명작 (과실주, 7%, 300ml)",
+       "price": 15000
+      },
+      {
+       "category": "청주 / 과실주",
+       "name": "서설 (청주, 13%, 375ml)",
+       "price": 32000
+      },
+      {
+       "category": "청주 / 과실주",
+       "name": "동학 (청주, 13%, 375ml)",
+       "price": 16000
+      },
+      {
+       "category": "청주 / 과실주",
+       "name": "봄봄 (기타주류, 7%, 375ml)",
+       "price": 38000
+      },
+      {
+       "category": "청주 / 과실주",
+       "name": "온온 (기타주류, 7%, 375ml)",
+       "price": 38000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화3.jpg",
+     "fid": "F0CGS3X952Q",
+     "from": "댓글",
+     "path": "menu-files/1794359168_023039-4.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "약주/과하주",
+       "name": "한영석 청명주 (약주,13.8%, 375ml)",
+       "price": 61000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "일엽편주 (약주,15%, 375ml)",
+       "price": 81000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "풍정사계 춘 (약주, 15%, 500ml)",
+       "price": 70000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "풍정사계 하 (과하주, 18%, 500ml)",
+       "price": 77000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "단상지고 (약주, 16%, 750ml)",
+       "price": 43000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "술송주 (살균약주, 13%, 375ml)",
+       "price": 17000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "녹피주 (살균약주, 15%, 375ml)",
+       "price": 19000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "맑은내일 유자 (살균약주, 7%, 300ml)",
+       "price": 14000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "서주 (살균약주, 13%, 300ml)",
+       "price": 15000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "창주 (살균약주, 13%, 375ml)",
+       "price": 15000
+      },
+      {
+       "category": "약주/과하주",
+       "name": "감싸주는 날 (약주, 16%, 750ml)",
+       "price": 41000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화2.jpg",
+     "fid": "F0CGG5YEVU3",
+     "from": "댓글",
+     "path": "menu-files/1794359168_023039-5.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "스텔라마리스 오이스터",
+       "name": "1미(최소 2미 이상 주문가능)",
+       "price": 12000
+      },
+      {
+       "category": "스텔라마리스 오이스터",
+       "name": "6미",
+       "price": 66000
+      },
+      {
+       "category": "스텔라마리스 오이스터",
+       "name": "12미",
+       "price": 126000
+      },
+      {
+       "category": "",
+       "name": "오이스터 우니 캐비어 (2미)",
+       "price": 32000
+      },
+      {
+       "category": "",
+       "name": "문어 까르파치오",
+       "price": 28000
+      },
+      {
+       "category": "",
+       "name": "그릴 문어",
+       "price": 32000
+      },
+      {
+       "category": "",
+       "name": "단새우 타르타르, 우니",
+       "price": 35000
+      },
+      {
+       "category": "",
+       "name": "전복, 게우소스",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "새우, 파프리카 소스",
+       "price": 32000
+      },
+      {
+       "category": "",
+       "name": "냉제육 (반접시)",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "냉제육 (한접시)",
+       "price": 42000
+      },
+      {
+       "category": "",
+       "name": "버크셔 볼",
+       "price": 29000
+      },
+      {
+       "category": "",
+       "name": "라구 파스타",
+       "price": 25000
+      },
+      {
+       "category": "",
+       "name": "단새우 비스큐 파스타",
+       "price": 26000
+      },
+      {
+       "category": "",
+       "name": "돼지곰탕 (특)",
+       "price": 17000
+      },
+      {
+       "category": "",
+       "name": "돌문어국밥",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화1.jpg",
+     "fid": "F0CG71M92TZ",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "유화 '가을 이야기' (2인이상)",
+       "name": "가을 (대표메뉴)",
+       "price": 89000
+      },
+      {
+       "category": "유화 '가을 이야기' (2인이상)",
+       "name": "초가을 (오이스터 위주로 구성)",
+       "price": 65000
+      },
+      {
+       "category": "유화 '가을 이야기' (2인이상)",
+       "name": "한가을 (양이 적은분들을 위한 세미코스)",
+       "price": 49000
+      },
+      {
+       "category": "유화 '가을 이야기' (2인이상)",
+       "name": "늦가을 (제철해산물을 이용한 미국남부스타일 해물찜)",
+       "price": 48000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화14.jpg",
+     "fid": "F0CGN7D3MU2",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Red",
+       "name": "Casal Bordino Sinello Montepulciano d'Abruzzo Riserva",
+       "price": 58000
+      },
+      {
+       "category": "Red",
+       "name": "Crimson Monster Coonawarra Cabernet Sauvignon",
+       "price": 56000
+      },
+      {
+       "category": "Red",
+       "name": "Fantini, Zabu Nero d'Avola",
+       "price": 60000
+      },
+      {
+       "category": "Red",
+       "name": "Chateau Moulin de Lussac",
+       "price": 62000
+      },
+      {
+       "category": "Red",
+       "name": "Familiia Bastida, Paraje De Titos Garnacha 2021",
+       "price": 64000
+      },
+      {
+       "category": "Red",
+       "name": "Castell del Remei, Gotim Bru",
+       "price": 79000
+      },
+      {
+       "category": "Red",
+       "name": "Fantini, Casale Vecchio Montepulciano d'Abruzzo",
+       "price": 83000
+      },
+      {
+       "category": "Red",
+       "name": "Little Fuck",
+       "price": 83000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화13.jpg",
+     "fid": "F0CGG5Z4KM1",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "도멘 오쉐르, 상세르",
+       "price": 104000
+      },
+      {
+       "category": "",
+       "name": "도멘 뒤 샤르도네, 샤블리 2023",
+       "price": 112000
+      },
+      {
+       "category": "",
+       "name": "도멘 뒤 샤르도네, 프리미에 크뤼 '바이용'",
+       "price": 154000
+      },
+      {
+       "category": "",
+       "name": "도멘 필립 르 아르디, 생 토방 '엉 베보'",
+       "price": 192000
+      },
+      {
+       "category": "",
+       "name": "피게 지라르댕, 오세 뒤레스",
+       "price": 206000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "유화12.jpg",
+     "fid": "F0CGN7DHPR8",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "무라토리 프란차코르타, 프란차코르타 브뤼 / Muratori Franciacorta, Franciacorta",
+       "price": 94000,
+       "code": "57"
+      },
+      {
+       "category": "",
+       "name": "레베르트 프레레, 크레망 드 부르고뉴 브뤼 블랑 드 누아 / Levert Freres, Cremant de ",
+       "price": 97000,
+       "code": "56"
+      },
+      {
+       "category": "",
+       "name": "샴페인 드 로슈 브뤼 / Champagne de l'Auche Brut",
+       "price": 136000,
+       "code": "59"
+      },
+      {
+       "category": "",
+       "name": "샴페인 레귀에뜨 호믈로 브뤼 NV / Champagne Leguillette Romelot Brut NV",
+       "price": 142000,
+       "code": "62"
+      },
+      {
+       "category": "White",
+       "name": "트레드 소프틀리 무알콜 피노 그리지오 (무알콜 화이트와인 0.0%) / Tread Softly Everyth",
+       "price": 57000,
+       "code": "64"
+      },
+      {
+       "category": "White",
+       "name": "더치 홉 슈냉 블랑 / Dtch Hope, Chenin Blanc",
+       "price": 58000,
+       "code": "66"
+      },
+      {
+       "category": "White",
+       "name": "장 발몽, 샤르도네 / Jean Balmont, Chardonnay",
+       "price": 58000,
+       "code": "68"
+      },
+      {
+       "category": "White",
+       "name": "리프 릿지, 말보로 소비뇽 블랑 / Reef Ridge, Marlborough Sauvignon Blanc",
+       "price": 59000,
+       "code": "71"
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794359218.008199",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794359168023039"
+  },
   {
    "ts": "1794359035.493189",
    "date": "2026-11-11",
