@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5092,
- "updatedAt": "2026-11-11 23:01",
+ "version": 5093,
+ "updatedAt": "2026-11-11 23:16",
  "days": 30,
  "items": [
   {
@@ -23,11 +23,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "카테고리: 메뉴\n\n메뉴명: 독도꽃새우200그램\n금액: 60,000원\n\n메뉴명: 독도꽃새우300그램\n금액: 90,000원\n\n메뉴명: 독도꽃새우400그램\n금액: 120,000원"
    ],
-   "rc": 1,
-   "lr": "1794405595.890469",
+   "rc": 2,
+   "lr": "1794406080.836219",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "confirm",
+   "handler": "박하림",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794405585097109"
   },
   {
