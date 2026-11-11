@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5070,
- "updatedAt": "2026-11-11 14:45",
+ "version": 5071,
+ "updatedAt": "2026-11-11 14:47",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "Resized_20261109_143741.jpg.jpeg",
      "fid": "F0CG8MUCDN3",
      "from": "원글",
-     "path": "menu-files/1794375824_876259-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -112,13 +111,13 @@ window.MENU_REQUESTS = {
        "price": 10000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794375824_876259-0.jpeg"
     },
     {
      "name": "Resized_20261109_143737.jpg.jpeg",
      "fid": "F0CGJQAHE5T",
      "from": "원글",
-     "path": "menu-files/1794375824_876259-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -207,13 +206,13 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794375824_876259-1.jpeg"
     },
     {
      "name": "Resized_20261109_143734.jpg.jpeg",
      "fid": "F0CHJEJJK5W",
      "from": "원글",
-     "path": "menu-files/1794375824_876259-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -307,13 +306,13 @@ window.MENU_REQUESTS = {
        "price": 18000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794375824_876259-2.jpeg"
     },
     {
      "name": "Resized_20261109_143726.jpg.jpeg",
      "fid": "F0CGS0FGD33",
      "from": "원글",
-     "path": "menu-files/1794375824_876259-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -417,13 +416,13 @@ window.MENU_REQUESTS = {
        "price": 32500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794375824_876259-3.jpeg"
     },
     {
      "name": "Resized_20261109_143722.jpg.jpeg",
      "fid": "F0CGJQBB2RK",
      "from": "원글",
-     "path": "menu-files/1794375824_876259-4.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -532,13 +531,13 @@ window.MENU_REQUESTS = {
        "price": 38500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794375824_876259-4.jpeg"
     },
     {
      "name": "Resized_20261109_143716.jpg.jpeg",
      "fid": "F0CGTQ6KTRS",
      "from": "원글",
-     "path": "menu-files/1794375824_876259-5.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -662,7 +661,8 @@ window.MENU_REQUESTS = {
        "price": 19000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794375824_876259-5.jpeg"
     }
    ],
    "datt": [],
