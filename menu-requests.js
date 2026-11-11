@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5033,
- "updatedAt": "2026-11-11 10:53",
+ "version": 5034,
+ "updatedAt": "2026-11-11 10:55",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,337 @@ window.MENU_REQUESTS = {
    "special": "신규",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CGNGA10DQ",
+     "from": "댓글",
+     "path": "menu-files/1794361811_040969-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "라면류",
+       "name": "녹차라면",
+       "price": 4500
+      },
+      {
+       "category": "라면류",
+       "name": "떡라면",
+       "price": 5000
+      },
+      {
+       "category": "라면류",
+       "name": "치즈라면",
+       "price": 5000
+      },
+      {
+       "category": "라면류",
+       "name": "오뎅라면",
+       "price": 5000
+      },
+      {
+       "category": "라면류",
+       "name": "김치라면",
+       "price": 5000
+      },
+      {
+       "category": "라면류",
+       "name": "만두라면",
+       "price": 5000
+      },
+      {
+       "category": "라면류",
+       "name": "콩나물라면",
+       "price": 5000
+      },
+      {
+       "category": "라면류",
+       "name": "우유라면",
+       "price": 5500
+      },
+      {
+       "category": "라면류",
+       "name": "북어해장라면",
+       "price": 6000
+      },
+      {
+       "category": "김밥",
+       "name": "김밥",
+       "price": 4000
+      },
+      {
+       "category": "김밥",
+       "name": "참치김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "치즈김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "쇠고기김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "갈릭마요김밥",
+       "price": 4500
+      },
+      {
+       "category": "김밥",
+       "name": "어니언마요김밥",
+       "price": 4500
+      },
+      {
+       "category": "식사류",
+       "name": "카레라이스",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "돌솥김치볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "스팸정식",
+       "price": 8000
+      },
+      {
+       "category": "식사류",
+       "name": "콩나물쇠고기비빔밥",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "떡만두국",
+       "price": 7000
+      },
+      {
+       "category": "식사류",
+       "name": "콩나물김치국밥",
+       "price": 8000
+      },
+      {
+       "category": "기타",
+       "name": "삶은 달걀",
+       "price": 700
+      },
+      {
+       "category": "기타",
+       "name": "치즈추가",
+       "price": 500
+      },
+      {
+       "category": "기타",
+       "name": "컵밥",
+       "price": 6800
+      },
+      {
+       "category": "모닝스페",
+       "name": "라면정식",
+       "price": 6500
+      },
+      {
+       "category": "모닝스페",
+       "name": "달걀후라이",
+       "price": 1000
+      },
+      {
+       "category": "모닝스페",
+       "name": "토스트",
+       "price": 3000
+      },
+      {
+       "category": "모닝스페",
+       "name": "치즈토스트",
+       "price": 3500
+      },
+      {
+       "category": "모닝스페",
+       "name": "더블치즈토스트",
+       "price": 4000
+      },
+      {
+       "category": "모닝스페",
+       "name": "콩나물김치국밥",
+       "price": 6500
+      },
+      {
+       "category": "과자류",
+       "name": "빼빼로",
+       "price": 2000
+      },
+      {
+       "category": "과자류",
+       "name": "국산콩두부크",
+       "price": 2500
+      },
+      {
+       "category": "과자류",
+       "name": "신라면소",
+       "price": 1200
+      },
+      {
+       "category": "과자류",
+       "name": "참깨라면소",
+       "price": 1200
+      },
+      {
+       "category": "과자류",
+       "name": "1000원류",
+       "price": 1000
+      },
+      {
+       "category": "아이스크림",
+       "name": "콘류",
+       "price": 1500
+      },
+      {
+       "category": "아이스크림",
+       "name": "붕어빵",
+       "price": 1500
+      },
+      {
+       "category": "아이스크림",
+       "name": "1000원류",
+       "price": 1000
+      },
+      {
+       "category": "아이스크림",
+       "name": "하겐다즈바",
+       "price": 4300
+      },
+      {
+       "category": "아이스크림",
+       "name": "하겐다즈컵",
+       "price": 4300
+      },
+      {
+       "category": "음료",
+       "name": "칠성사이다500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라 500ml",
+       "price": 2300
+      },
+      {
+       "category": "음료",
+       "name": "무라벨삼다수 500ml",
+       "price": 1100
+      },
+      {
+       "category": "음료",
+       "name": "트레비 500ml",
+       "price": 1800
+      },
+      {
+       "category": "음료",
+       "name": "트레비 300ml",
+       "price": 1000
+      },
+      {
+       "category": "음료",
+       "name": "옥수수수염차 500ml",
+       "price": 1700
+      },
+      {
+       "category": "음료",
+       "name": "보리차 500ml",
+       "price": 1700
+      },
+      {
+       "category": "음료",
+       "name": "헛개차 500ml",
+       "price": 1700
+      },
+      {
+       "category": "음료",
+       "name": "카프리썬",
+       "price": 1000
+      },
+      {
+       "category": "음료",
+       "name": "바카스F",
+       "price": 1100
+      },
+      {
+       "category": "음료",
+       "name": "바카스F9(10병_박스)",
+       "price": 11000
+      },
+      {
+       "category": "음료",
+       "name": "웰치스포도",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "코카콜라캔 250ml",
+       "price": 1600
+      },
+      {
+       "category": "음료",
+       "name": "칠성사이다캔 250ml",
+       "price": 1600
+      },
+      {
+       "category": "음료",
+       "name": "게토레이 250ml",
+       "price": 1200
+      },
+      {
+       "category": "음료",
+       "name": "펩시제로콜라 250ml",
+       "price": 1200
+      },
+      {
+       "category": "음료",
+       "name": "토레타 500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "밀키스제로 500ml",
+       "price": 2200
+      },
+      {
+       "category": "음료",
+       "name": "분다버그",
+       "price": 2900
+      },
+      {
+       "category": "음료",
+       "name": "두유",
+       "price": 1200
+      },
+      {
+       "category": "음료",
+       "name": "흰우유",
+       "price": 1200
+      },
+      {
+       "category": "음료",
+       "name": "사이다리치포도 500ml",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "사이다리치복숭이 500ml",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794362032.421009",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
