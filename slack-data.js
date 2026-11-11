@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32273,
+  "version": 32274,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -318244,11 +318244,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:08"
+      "updatedAt": "09:08",
+      "absent": [
+        {
+          "time": "09:00",
+          "store": "포레스트 오븐 랩",
+          "biz": "1012594371",
+          "handler": "심성현",
+          "cat": "delivery",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -318389,25 +318399,25 @@ window.SLACK_DATA = {
       },
       "1794355204.648699": {
         "post": "1794355204.648699",
-        "lastSeen": 1794357033.928,
+        "lastSeen": 1794357115.219,
         "r": 1,
         "day": "2026-11-11",
         "idx": 4
       },
       "1794355244.796719": {
         "post": "1794355244.796719",
-        "lastSeen": 1794357033.928
+        "lastSeen": 1794357115.219
       },
       "1794355700.196769": {
         "post": "1794355700.196769",
-        "lastSeen": 1794357033.928,
+        "lastSeen": 1794357115.219,
         "r": 1,
         "day": "2026-11-11",
         "idx": 3
       },
       "1794355639.613479": {
         "post": "1794355639.613479",
-        "lastSeen": 1794357033.928,
+        "lastSeen": 1794357115.219,
         "r": 1,
         "day": "2026-11-11",
         "idx": 2
@@ -439955,7 +439965,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-11 09:30",
+    "at": "2026-11-11 09:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -440111,7 +440121,7 @@ window.SLACK_DATA = {
     "2026-11-11": 2
   },
   "noteMig": {
-    "at": "2026-11-11 09:30",
+    "at": "2026-11-11 09:31",
     "pri": {
       "days": 0,
       "failed": [],
