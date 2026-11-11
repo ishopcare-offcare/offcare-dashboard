@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5087,
- "updatedAt": "2026-11-11 16:55",
+ "version": 5088,
+ "updatedAt": "2026-11-11 17:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1794384302.407729",
+   "date": "2026-11-11",
+   "time": "17:05",
+   "store": "토이즈나(TOISNA)",
+   "biz": "2641902297",
+   "pos": "기타",
+   "content": "이벤트택1 카테고리에서 네이버예약쿠폰(숙취해소제) 삭제 후 재등록 부탁드립니다. 연동이 안된데요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/15kt_bUIhf9iZ-k_YRyyBjUBIjtMlXZUh/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "15kt_bUIhf9iZ-k_YRyyBjUBIjtMlXZUh",
+     "kind": "other",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794384302407729"
+  },
   {
    "ts": "1794382323.371609",
    "date": "2026-11-11",
