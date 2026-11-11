@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5057,
- "updatedAt": "2026-11-11 12:21",
+ "version": 5058,
+ "updatedAt": "2026-11-11 12:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1794368285.615199",
+   "date": "2026-11-11",
+   "time": "12:38",
+   "store": "라르고60",
+   "biz": "4920503744",
+   "pos": "토스포스",
+   "content": "1.커피 목차에 아메리카노 메뉴 제일 앞에 만들어주시고 Hot Ice 선택란 만들어주세요\n2.커피,디카페인커피,논커피 1L메뉴들 Hot 빼주시고, 샷추가 뒤로 미뤄주세요\n3.나머지 다른 목차에 있는 1L 메뉴들도 뒤쪽으로 배치해주세요\n4.목차순서는 커피,디카페인커피,논커피,수제전통차,꽃차,허브티&차,과일청에이드,과일청티,요거트스무디,젤라또 순으로 해주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794368285615199"
+  },
   {
    "ts": "1794365862.990629",
    "date": "2026-11-11",
