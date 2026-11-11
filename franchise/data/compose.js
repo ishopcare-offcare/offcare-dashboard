@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-09 16:50 KST
+ *  갱신: 2026-11-12 08:01 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-09 16:50',
+  updatedAt : '2026-11-12 08:01',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -76,5 +76,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-07","time":"17:29","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"성철","intake":"online","status":"done","req":"배달의민족 주문이 POS에 접수되지 않아 확인 요청","note":"토스포스 재시작으로 배민연동정상완료입니다,"},
     {"date":"2026-11-09","time":"15:48","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"김기범","intake":"online","status":"pending","req":"확인 후 미완료","note":""},
     {"date":"2026-11-09","time":"15:56","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"포스기 앱오더 주문 받는데 소리가 나지 않아 모르고있다가 자동으로 취소되고 있어 확인 요청","note":""},
+    {"date":"2026-11-12","time":"07:54","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"매장에서 생딸기 초코 찹쌀떡 메뉴가 어제 품절 처리되었는데 품절·해제 시각 확인 요청","note":""},
   ],
 };
