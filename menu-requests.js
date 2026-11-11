@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5059,
- "updatedAt": "2026-11-11 12:41",
+ "version": 5060,
+ "updatedAt": "2026-11-11 12:52",
  "days": 30,
  "items": [
   {
@@ -47,8 +47,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794368285615199"
   },
   {
@@ -224,10 +224,16 @@ window.MENU_REQUESTS = {
    "files": 2,
    "att": [
     {
+     "name": "메뉴 (1).xlsx",
+     "fid": "F0CGQUC6EQ1",
+     "from": "원글",
+     "path": "menu-files/1794365219_719349-0.xlsx",
+     "nj": 1
+    },
+    {
      "name": "IMG_20261111_121731.jpg",
      "fid": "F0CHHJJSBL0",
      "from": "댓글",
-     "path": "menu-files/1794365219_719349-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -371,20 +377,14 @@ window.MENU_REQUESTS = {
        "price": 4500
       }
      ],
-     "v": 3
-    },
-    {
-     "name": "메뉴 (1).xlsx",
-     "fid": "F0CGQUC6EQ1",
-     "from": "원글",
-     "path": "menu-files/1794365219_719349-0.xlsx",
-     "nj": 1
+     "v": 3,
+     "path": "menu-files/1794365219_719349-2.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1794367070.268969",
+   "rc": 3,
+   "lr": "1794369023.551619",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
