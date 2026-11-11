@@ -3,10 +3,677 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5069,
- "updatedAt": "2026-11-11 14:29",
+ "version": 5070,
+ "updatedAt": "2026-11-11 14:45",
  "days": 30,
  "items": [
+  {
+   "ts": "1794375824.876259",
+   "date": "2026-11-11",
+   "time": "14:43",
+   "store": "숙성회136 왕십리점",
+   "biz": "5402402249",
+   "pos": "토스포스",
+   "content": "해당 매장 아래 사진과 같이 메뉴 등록 요청 부탁드립니다.\n프로그램 : 토스포스",
+   "special": "",
+   "drive": [],
+   "files": 6,
+   "att": [
+    {
+     "name": "Resized_20261109_143741.jpg.jpeg",
+     "fid": "F0CG8MUCDN3",
+     "from": "원글",
+     "path": "menu-files/1794375824_876259-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사시미",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "사시미",
+       "name": "맥주",
+       "price": 5500
+      },
+      {
+       "category": "사시미",
+       "name": "한라산",
+       "price": 6000
+      },
+      {
+       "category": "사시미",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "사시미",
+       "name": "별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "사시미",
+       "name": "화요",
+       "price": 25000
+      },
+      {
+       "category": "사시미",
+       "name": "캔사케",
+       "price": 8900
+      },
+      {
+       "category": "사시미",
+       "name": "마루",
+       "price": 20000
+      },
+      {
+       "category": "사시미",
+       "name": "월계관준마이",
+       "price": 30000
+      },
+      {
+       "category": "사시미",
+       "name": "쿠보다센슈",
+       "price": 79000
+      },
+      {
+       "category": "사시미",
+       "name": "닷사이39",
+       "price": 122000
+      },
+      {
+       "category": "사시미",
+       "name": "하이볼",
+       "price": 8000
+      },
+      {
+       "category": "사시미",
+       "name": "요와나이초야유즈슈",
+       "price": 4000
+      },
+      {
+       "category": "사시미",
+       "name": "토닉워터",
+       "price": 2000
+      },
+      {
+       "category": "사시미",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "사시미",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "사시미",
+       "name": "콜키지",
+       "price": 10000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261109_143737.jpg.jpeg",
+     "fid": "F0CGJQAHE5T",
+     "from": "원글",
+     "path": "menu-files/1794375824_876259-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "그외메인",
+       "name": "타르타르",
+       "price": 800
+      },
+      {
+       "category": "그외메인",
+       "name": "홀스케이퍼",
+       "price": 3000
+      },
+      {
+       "category": "그외메인",
+       "name": "백김치",
+       "price": 1500
+      },
+      {
+       "category": "그외메인",
+       "name": "백김치 더많이",
+       "price": 3500
+      },
+      {
+       "category": "그외메인",
+       "name": "보리된장",
+       "price": 1000
+      },
+      {
+       "category": "그외메인",
+       "name": "기름보리장",
+       "price": 1300
+      },
+      {
+       "category": "그외메인",
+       "name": "핑크솔트3",
+       "price": 200
+      },
+      {
+       "category": "그외메인",
+       "name": "핑크솔트20",
+       "price": 800
+      },
+      {
+       "category": "그외메인",
+       "name": "초밥밥",
+       "price": 1000
+      },
+      {
+       "category": "그외메인",
+       "name": "온센",
+       "price": 1000
+      },
+      {
+       "category": "그외메인",
+       "name": "김",
+       "price": 500
+      },
+      {
+       "category": "그외메인",
+       "name": "전복죽",
+       "price": 3500
+      },
+      {
+       "category": "그외메인",
+       "name": "미니물회",
+       "price": 3000
+      },
+      {
+       "category": "그외메인",
+       "name": "가쓰오",
+       "price": 2500
+      },
+      {
+       "category": "그외메인",
+       "name": "죽변경",
+       "price": 2000
+      },
+      {
+       "category": "그외메인",
+       "name": "미니변경",
+       "price": 2500
+      },
+      {
+       "category": "그외메인",
+       "name": "가쓰오변경",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261109_143734.jpg.jpeg",
+     "fid": "F0CHJEJJK5W",
+     "from": "원글",
+     "path": "menu-files/1794375824_876259-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "그외메인",
+       "name": "타코와사비",
+       "price": 4500
+      },
+      {
+       "category": "그외메인",
+       "name": "전복1마리",
+       "price": 4500
+      },
+      {
+       "category": "그외메인",
+       "name": "고노와다",
+       "price": 6500
+      },
+      {
+       "category": "그외메인",
+       "name": "감태계란",
+       "price": 5500
+      },
+      {
+       "category": "그외메인",
+       "name": "단새우 3마리",
+       "price": 4800
+      },
+      {
+       "category": "그외메인",
+       "name": "단새우 5마리",
+       "price": 6500
+      },
+      {
+       "category": "그외메인",
+       "name": "우니20",
+       "price": 8500
+      },
+      {
+       "category": "그외메인",
+       "name": "우니40",
+       "price": 16000
+      },
+      {
+       "category": "그외메인",
+       "name": "연어+광어",
+       "price": 9500
+      },
+      {
+       "category": "그외메인",
+       "name": "연어+지느러미",
+       "price": 10800
+      },
+      {
+       "category": "그외메인",
+       "name": "연어+참돔",
+       "price": 11500
+      },
+      {
+       "category": "그외메인",
+       "name": "광어+참돔",
+       "price": 11500
+      },
+      {
+       "category": "그외메인",
+       "name": "지느러미+참돔",
+       "price": 12500
+      },
+      {
+       "category": "그외메인",
+       "name": "방어회",
+       "price": 31500
+      },
+      {
+       "category": "그외메인",
+       "name": "한치회",
+       "price": 10500
+      },
+      {
+       "category": "그외메인",
+       "name": "모듬회/연어회",
+       "price": 15500
+      },
+      {
+       "category": "그외메인",
+       "name": "광어회",
+       "price": 17500
+      },
+      {
+       "category": "그외메인",
+       "name": "광어+참돔회 추가",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261109_143726.jpg.jpeg",
+     "fid": "F0CGS0FGD33",
+     "from": "원글",
+     "path": "menu-files/1794375824_876259-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사시미",
+       "name": "생새우회",
+       "price": 34000
+      },
+      {
+       "category": "사시미",
+       "name": "딱새우",
+       "price": 15900
+      },
+      {
+       "category": "사시미",
+       "name": "갑오징어",
+       "price": 16500
+      },
+      {
+       "category": "사시미",
+       "name": "속초식",
+       "price": 19500
+      },
+      {
+       "category": "사시미",
+       "name": "스시",
+       "price": 26500
+      },
+      {
+       "category": "사시미",
+       "name": "고등어봉초밥",
+       "price": 30500
+      },
+      {
+       "category": "사시미",
+       "name": "후토마키2",
+       "price": 6500
+      },
+      {
+       "category": "사시미",
+       "name": "후토마키4",
+       "price": 12000
+      },
+      {
+       "category": "사시미",
+       "name": "돈로마끼",
+       "price": 30500
+      },
+      {
+       "category": "사시미",
+       "name": "안키무2",
+       "price": 4500
+      },
+      {
+       "category": "사시미",
+       "name": "안키무3",
+       "price": 6500
+      },
+      {
+       "category": "사시미",
+       "name": "안키무4",
+       "price": 8000
+      },
+      {
+       "category": "사시미",
+       "name": "안키마키",
+       "price": 10500
+      },
+      {
+       "category": "사시미",
+       "name": "동1",
+       "price": 19500
+      },
+      {
+       "category": "사시미",
+       "name": "동 1.5",
+       "price": 22500
+      },
+      {
+       "category": "사시미",
+       "name": "카이센동",
+       "price": 21500
+      },
+      {
+       "category": "사시미",
+       "name": "모찌",
+       "price": 7900
+      },
+      {
+       "category": "사시미",
+       "name": "흑밥1",
+       "price": 30500
+      },
+      {
+       "category": "사시미",
+       "name": "흑밥 1.5",
+       "price": 33500
+      },
+      {
+       "category": "사시미",
+       "name": "흑밥 카이센동",
+       "price": 32500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261109_143722.jpg.jpeg",
+     "fid": "F0CGJQBB2RK",
+     "from": "원글",
+     "path": "menu-files/1794375824_876259-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "그외메인",
+       "name": "소",
+       "price": 27500
+      },
+      {
+       "category": "그외메인",
+       "name": "중",
+       "price": 39500
+      },
+      {
+       "category": "그외메인",
+       "name": "대",
+       "price": 49500
+      },
+      {
+       "category": "그외메인",
+       "name": "플래터",
+       "price": 79500
+      },
+      {
+       "category": "그외메인",
+       "name": "연어 소",
+       "price": 24500
+      },
+      {
+       "category": "그외메인",
+       "name": "연어 중",
+       "price": 34500
+      },
+      {
+       "category": "그외메인",
+       "name": "연어 대",
+       "price": 44500
+      },
+      {
+       "category": "그외메인",
+       "name": "광어+참돔",
+       "price": 45500
+      },
+      {
+       "category": "그외메인",
+       "name": "고등어 초회",
+       "price": 30500
+      },
+      {
+       "category": "그외메인",
+       "name": "광어 고노와다",
+       "price": 28500
+      },
+      {
+       "category": "그외메인",
+       "name": "시마아지",
+       "price": 38000
+      },
+      {
+       "category": "그외메인",
+       "name": "방어",
+       "price": 44500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈마 소",
+       "price": 38500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈마 중",
+       "price": 50500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈마 대",
+       "price": 60500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈마 플래터",
+       "price": 89500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈마 광참",
+       "price": 55500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈 연어 소",
+       "price": 35500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈 연어 중",
+       "price": 45500
+      },
+      {
+       "category": "그외메인",
+       "name": "홈 연어 대",
+       "price": 55500
+      },
+      {
+       "category": "그외메인",
+       "name": "참치 스페셜",
+       "price": 38500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Resized_20261109_143716.jpg.jpeg",
+     "fid": "F0CGTQ6KTRS",
+     "from": "원글",
+     "path": "menu-files/1794375824_876259-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "그외메인",
+       "name": "2인",
+       "price": 49000
+      },
+      {
+       "category": "그외메인",
+       "name": "3인",
+       "price": 67000
+      },
+      {
+       "category": "그외메인",
+       "name": "4인",
+       "price": 81000
+      },
+      {
+       "category": "그외메인",
+       "name": "연어 소",
+       "price": 34000
+      },
+      {
+       "category": "그외메인",
+       "name": "연어 중",
+       "price": 43000
+      },
+      {
+       "category": "그외메인",
+       "name": "고등어",
+       "price": 27500
+      },
+      {
+       "category": "그외메인",
+       "name": "광어 고노와다",
+       "price": 28500
+      },
+      {
+       "category": "그외메인",
+       "name": "감태와단새우니",
+       "price": 28000
+      },
+      {
+       "category": "그외메인",
+       "name": "참치 타다끼",
+       "price": 29000
+      },
+      {
+       "category": "그외메인",
+       "name": "속초식 물회",
+       "price": 23000
+      },
+      {
+       "category": "그외메인",
+       "name": "카이센 나베",
+       "price": 18000
+      },
+      {
+       "category": "그외메인",
+       "name": "오뎅 나베",
+       "price": 17000
+      },
+      {
+       "category": "그외메인",
+       "name": "해물라면",
+       "price": 12000
+      },
+      {
+       "category": "그외메인",
+       "name": "반반새우",
+       "price": 32000
+      },
+      {
+       "category": "그외메인",
+       "name": "후토마끼",
+       "price": 12000
+      },
+      {
+       "category": "그외메인",
+       "name": "새우 튀김",
+       "price": 17500
+      },
+      {
+       "category": "그외메인",
+       "name": "치마호크",
+       "price": 16500
+      },
+      {
+       "category": "그외메인",
+       "name": "모듬 쿠시카츠",
+       "price": 16500
+      },
+      {
+       "category": "그외메인",
+       "name": "타코 와사비",
+       "price": 9000
+      },
+      {
+       "category": "그외메인",
+       "name": "초밥밥(샤리)",
+       "price": 2000
+      },
+      {
+       "category": "그외메인",
+       "name": "시마아지",
+       "price": 38000
+      },
+      {
+       "category": "그외메인",
+       "name": "방어 사시미",
+       "price": 69000
+      },
+      {
+       "category": "그외메인",
+       "name": "방어 추가",
+       "price": 27000
+      },
+      {
+       "category": "그외메인",
+       "name": "연어 추가",
+       "price": 19000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794375824876259"
+  },
   {
    "ts": "1794374906.964769",
    "date": "2026-11-11",
