@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5091,
- "updatedAt": "2026-11-11 18:27",
+ "version": 5092,
+ "updatedAt": "2026-11-11 23:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1794405585.097109",
+   "date": "2026-11-11",
+   "time": "22:59",
+   "store": "영종바다다",
+   "biz": "3810203837",
+   "pos": "",
+   "content": "• 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "카테고리: 메뉴\n\n메뉴명: 독도꽃새우200그램\n금액: 60,000원\n\n메뉴명: 독도꽃새우300그램\n금액: 90,000원\n\n메뉴명: 독도꽃새우400그램\n금액: 120,000원"
+   ],
+   "rc": 1,
+   "lr": "1794405595.890469",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794405585097109"
+  },
   {
    "ts": "1794384302.407729",
    "date": "2026-11-11",
