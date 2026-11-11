@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32333,
+  "version": 32334,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -318210,9 +318210,9 @@ window.SLACK_DATA = {
     "2026-11-11": {
       "counts": {
         "onboarding": {
+          "고경림": 2,
           "송태양": 3,
-          "심성현": 1,
-          "고경림": 1
+          "심성현": 1
         },
         "as": {
           "고경림": 5,
@@ -318236,6 +318236,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:19",
+          "store": "루비영어교습소",
+          "biz": "3129667912",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "모두출첵 온보딩 도움 요청 드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "모두출첵 온보딩완료",
+          "rr": 1
+        },
         {
           "time": "11:07",
           "store": "바레톤의왕내손점",
@@ -318611,7 +318623,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 25,
-        "offline": 8,
+        "offline": 9,
         "unknown": 0
       },
       "updatedAt": "11:20",
@@ -318812,39 +318824,32 @@ window.SLACK_DATA = {
       },
       "1794355204.648699": {
         "post": "1794355204.648699",
-        "lastSeen": 1794363744.112,
+        "lastSeen": 1794363966.561,
         "r": 1,
         "day": "2026-11-11",
         "idx": 4
       },
       "1794355244.796719": {
         "post": "1794355244.796719",
-        "lastSeen": 1794363744.112
+        "lastSeen": 1794363966.561
       },
       "1794361658.633989": {
         "post": "1794361658.633989",
-        "lastSeen": 1794363744.112,
+        "lastSeen": 1794363966.561,
         "r": 1,
         "day": "2026-11-11",
         "idx": 19
       },
       "1794362458.780699": {
         "post": "1794362458.780699",
-        "lastSeen": 1794363744.112,
+        "lastSeen": 1794363966.561,
         "r": 1,
         "day": "2026-11-11",
         "idx": 24
       },
-      "1794363544.679749": {
-        "post": "1794363544.679749",
-        "lastSeen": 1794363744.112,
-        "r": 1,
-        "day": "2026-11-11",
-        "idx": 26
-      },
       "1794363533.879019": {
         "post": "1794363533.879019",
-        "lastSeen": 1794363744.112
+        "lastSeen": 1794363966.561
       }
     },
     "days": {
@@ -440579,20 +440584,21 @@ window.SLACK_DATA = {
             "store": "루비영어교습소",
             "biz": "3129667912",
             "who": "고경림",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 5.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-11 11:22",
+    "at": "2026-11-11 11:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 4990,
+    "rows": 4991,
     "named": 1273,
     "unknownName": 335,
     "beforeStart": 0,
@@ -440742,7 +440748,7 @@ window.SLACK_DATA = {
     "2026-11-11": 2
   },
   "noteMig": {
-    "at": "2026-11-11 11:22",
+    "at": "2026-11-11 11:26",
     "pri": {
       "days": 0,
       "failed": [],
