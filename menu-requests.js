@@ -3,10 +3,232 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5066,
- "updatedAt": "2026-11-11 13:49",
+ "version": 5067,
+ "updatedAt": "2026-11-11 14:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1794374505.812279",
+   "date": "2026-11-11",
+   "time": "14:21",
+   "store": "이모네보쌈",
+   "biz": "8831100283",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "1000033434.jpg",
+     "fid": "F0CGRRSHRB3",
+     "from": "댓글",
+     "path": "menu-files/1794374505_812279-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "보쌈",
+       "name": "고기보쌈 (중)",
+       "price": 28000
+      },
+      {
+       "category": "보쌈",
+       "name": "고기보쌈 (대)",
+       "price": 33000
+      },
+      {
+       "category": "보쌈",
+       "name": "고기보쌈 (특대)",
+       "price": 38000
+      },
+      {
+       "category": "보쌈",
+       "name": "명태회보쌈 (중)",
+       "price": 38000
+      },
+      {
+       "category": "보쌈",
+       "name": "명태회보쌈 (대)",
+       "price": 43000
+      },
+      {
+       "category": "보쌈",
+       "name": "명태회보쌈 (특대)",
+       "price": 48000
+      },
+      {
+       "category": "보쌈",
+       "name": "홍어보쌈 (중)",
+       "price": 43000
+      },
+      {
+       "category": "보쌈",
+       "name": "홍어보쌈 (대)",
+       "price": 48000
+      },
+      {
+       "category": "보쌈",
+       "name": "홍어보쌈 (특대)",
+       "price": 53000
+      },
+      {
+       "category": "보쌈",
+       "name": "마늘보쌈 (중)",
+       "price": 33000
+      },
+      {
+       "category": "보쌈",
+       "name": "마늘보쌈 (대)",
+       "price": 38000
+      },
+      {
+       "category": "보쌈",
+       "name": "마늘보쌈 (특대)",
+       "price": 43000
+      },
+      {
+       "category": "보쌈",
+       "name": "굴보쌈 (10월~3월) (중)",
+       "price": 38000
+      },
+      {
+       "category": "보쌈",
+       "name": "굴보쌈 (10월~3월) (대)",
+       "price": 43000
+      },
+      {
+       "category": "보쌈",
+       "name": "굴보쌈 (10월~3월) (특대)",
+       "price": 48000
+      },
+      {
+       "category": "보쌈",
+       "name": "모듬보쌈 (중)",
+       "price": 53000
+      },
+      {
+       "category": "보쌈",
+       "name": "모듬보쌈 (대)",
+       "price": 58000
+      },
+      {
+       "category": "보쌈",
+       "name": "모듬보쌈 (특대)",
+       "price": 63000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "고기",
+       "price": 15000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "홍어",
+       "price": 15000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "굴",
+       "price": 15000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "명태회",
+       "price": 15000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "김치",
+       "price": 4000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "계란찜",
+       "price": 2000
+      },
+      {
+       "category": "추가메뉴",
+       "name": "부침개",
+       "price": 2000
+      },
+      {
+       "category": "식사류",
+       "name": "누룽지",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "라면",
+       "price": 4000
+      },
+      {
+       "category": "식사류",
+       "name": "햇반",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "어묵탕",
+       "price": 15000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "닭발",
+       "price": 20000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "얼큰짬뽕탕",
+       "price": 20000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "과메기",
+       "price": 30000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "미니족",
+       "price": 25000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "음료",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794374529.550539",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794374505812279"
+  },
   {
    "ts": "1794368421.635609",
    "date": "2026-11-11",
