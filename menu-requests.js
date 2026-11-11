@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5093,
- "updatedAt": "2026-11-11 23:16",
+ "version": 5094,
+ "updatedAt": "2026-11-12 02:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1794415999.004849",
+   "date": "2026-11-12",
+   "time": "01:53",
+   "store": "어필",
+   "biz": "6681902558",
+   "pos": "토스포스",
+   "content": "어필 시그니처 칵테일 / 어필 칵테일 아에 대부류부터 입력이 안됫어잇어서 부탁드립니다",
+   "special": "분류되어 잇는 순서대로 부탁드립니다 지금입력된거 지워주시고 다시 부탁드립니다",
+   "drive": [
+    "https://drive.google.com/file/d/1i070tSNH7iJGJOQen4-B-5Qz-Edq-49o/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794415999004849"
+  },
   {
    "ts": "1794405585.097109",
    "date": "2026-11-11",
