@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5044,
- "updatedAt": "2026-11-11 11:46",
+ "version": 5045,
+ "updatedAt": "2026-11-11 11:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1794365219.719349",
+   "date": "2026-11-11",
+   "time": "11:46",
+   "store": "강동커피",
+   "biz": "8752402276",
+   "pos": "",
+   "content": "메뉴 작업요청부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 2,
+   "att": [
+    {
+     "name": "메뉴 (1).xlsx",
+     "fid": "F0CGQUC6EQ1",
+     "from": "원글",
+     "path": "menu-files/1794365219_719349-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794365219719349"
+  },
   {
    "ts": "1794364890.423389",
    "date": "2026-11-11",
@@ -73775,30 +73804,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791774939440819"
-  },
-  {
-   "ts": "1791773246.484069",
-   "date": "2026-10-12",
-   "time": "11:47",
-   "store": "통큰축산",
-   "biz": "3073002809",
-   "pos": "",
-   "content": "메뉴 삭제 및 가격 수정 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• 왕갈비탕 18,000원 으로 수정\n•  뼈해장국 15,000원 으로 수정\n•  양평해장국 삭제 \n• 장터국밥 16,000원 추가 부탁 드립니다. :감사합니다꾸벅:",
-    "오케이 포스"
-   ],
-   "rc": 5,
-   "lr": "1791773393.855679",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791773246484069"
   }
  ],
  "ocr": {
