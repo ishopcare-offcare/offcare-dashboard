@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5047,
- "updatedAt": "2026-11-11 11:53",
+ "version": 5048,
+ "updatedAt": "2026-11-11 11:57",
  "days": 30,
  "items": [
   {
@@ -573,7 +573,6 @@ window.MENU_REQUESTS = {
      "name": "Screenshot_20261110_101649_Payhere Selle",
      "fid": "F0CGQQYGBED",
      "from": "댓글",
-     "path": "menu-files/1794364038_224389-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -727,13 +726,13 @@ window.MENU_REQUESTS = {
        "price": 9500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364038_224389-0.jpg"
     },
     {
      "name": "Screenshot_20261110_101659_Payhere Selle",
      "fid": "F0CGGMAD2D9",
      "from": "댓글",
-     "path": "menu-files/1794364038_224389-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -762,13 +761,13 @@ window.MENU_REQUESTS = {
        "price": 10000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364038_224389-1.jpg"
     },
     {
      "name": "Screenshot_20261110_101705_Payhere Selle",
      "fid": "F0CGSKAR5RS",
      "from": "댓글",
-     "path": "menu-files/1794364038_224389-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -822,13 +821,13 @@ window.MENU_REQUESTS = {
        "price": 5900
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364038_224389-2.jpg"
     },
     {
      "name": "Screenshot_20261110_101720_Payhere Selle",
      "fid": "F0CHH9Q6JSC",
      "from": "댓글",
-     "path": "menu-files/1794364038_224389-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -882,13 +881,13 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364038_224389-3.jpg"
     },
     {
      "name": "Screenshot_20261110_101729_Payhere Selle",
      "fid": "F0CG7H0UFF1",
      "from": "댓글",
-     "path": "menu-files/1794364038_224389-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -937,13 +936,13 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364038_224389-4.jpg"
     },
     {
      "name": "Screenshot_20261110_101750_Payhere Selle",
      "fid": "F0CGNNSNZMG",
      "from": "댓글",
-     "path": "menu-files/1794364038_224389-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1007,7 +1006,8 @@ window.MENU_REQUESTS = {
        "price": 2200
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794364038_224389-5.jpg"
     },
     {
      "name": "Screenshot_20261110_101755_Payhere Selle",
@@ -1150,8 +1150,8 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794364107.464799",
+   "rc": 3,
+   "lr": "1794365835.361759",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
