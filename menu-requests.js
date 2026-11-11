@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5039,
- "updatedAt": "2026-11-11 11:28",
+ "version": 5040,
+ "updatedAt": "2026-11-11 11:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1794364117.352279",
+   "date": "2026-11-11",
+   "time": "11:28",
+   "store": "그냥, 지금",
+   "biz": "1171653164",
+   "pos": "",
+   "content": "메뉴등록요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794364117352279"
+  },
   {
    "ts": "1794364038.224389",
    "date": "2026-11-11",
@@ -18,11 +39,590 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Screenshot_20261110_101649_Payhere Selle",
+     "fid": "F0CGQQYGBED",
+     "from": "댓글",
+     "path": "menu-files/1794364038_224389-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "핸드드립 hot",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "핸드드립 ice",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노 hot",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노 ice",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼 hot",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼 ice",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "플랫화이트 hot",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "플랫화이트 ice",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노 hot",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노 ice",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼 hot",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼 ice",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "카페모카 hot",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "카페모카 ice",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "연유라떼 hot",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "연유라떼 ice",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "아인슈패너 hot",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "아인슈패너 ice",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "브루",
+       "price": 0
+      },
+      {
+       "category": "커피",
+       "name": "아작라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "허니솔트커피",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "크림라떼",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "썸머라떼",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "아포가토",
+       "price": 8000
+      },
+      {
+       "category": "커피",
+       "name": "쉐커라토",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "얼음컵",
+       "price": 1000
+      },
+      {
+       "category": "커피",
+       "name": "테이크아웃 컵추가",
+       "price": 300
+      },
+      {
+       "category": "커피",
+       "name": "원두",
+       "price": 30000
+      },
+      {
+       "category": "커피",
+       "name": "드립백 세트",
+       "price": 9500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101659_Payhere Selle",
+     "fid": "F0CGGMAD2D9",
+     "from": "댓글",
+     "path": "menu-files/1794364038_224389-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "더치커피",
+       "name": "더치아메hot",
+       "price": 5000
+      },
+      {
+       "category": "더치커피",
+       "name": "더치아메ice",
+       "price": 5000
+      },
+      {
+       "category": "더치커피",
+       "name": "더치라떼hot",
+       "price": 6000
+      },
+      {
+       "category": "더치커피",
+       "name": "더치라떼ice",
+       "price": 6000
+      },
+      {
+       "category": "더치커피",
+       "name": "더치원액",
+       "price": 10000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101705_Payhere Selle",
+     "fid": "F0CGSKAR5RS",
+     "from": "댓글",
+     "path": "menu-files/1794364038_224389-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "논커피",
+       "name": "말차라떼hot",
+       "price": 5500
+      },
+      {
+       "category": "논커피",
+       "name": "말차라떼ice",
+       "price": 5500
+      },
+      {
+       "category": "논커피",
+       "name": "초코hot",
+       "price": 6500
+      },
+      {
+       "category": "논커피",
+       "name": "초코ice",
+       "price": 6500
+      },
+      {
+       "category": "논커피",
+       "name": "밀크티 hot",
+       "price": 5500
+      },
+      {
+       "category": "논커피",
+       "name": "밀크티 ice",
+       "price": 5500
+      },
+      {
+       "category": "논커피",
+       "name": "차 Hot",
+       "price": 4500
+      },
+      {
+       "category": "논커피",
+       "name": "차 Ice",
+       "price": 4500
+      },
+      {
+       "category": "논커피",
+       "name": "에이드",
+       "price": 5500
+      },
+      {
+       "category": "논커피",
+       "name": "딸기라떼",
+       "price": 5900
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101720_Payhere Selle",
+     "fid": "F0CHH9Q6JSC",
+     "from": "댓글",
+     "path": "menu-files/1794364038_224389-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "원두",
+       "name": "파나마 로메사스 게이샤N",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에콰도르 게이샤W",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에티오피아 우정랏 N",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에티오피아 우정랏 W",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "콜롬비아 로꼬 피나콜라다",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "콜롬비아 엘엔칸토 딸기초코",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에티오피아 무라고 하이브리드 워시드",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에티오피아 치라카 내추럴",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에티오피아 후로 워시드",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "[디카페인]에티오피아 구지 우라가 시코 내추럴",
+       "price": 0
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101729_Payhere Selle",
+     "fid": "F0CG7H0UFF1",
+     "from": "댓글",
+     "path": "menu-files/1794364038_224389-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "원두",
+       "name": "에티오피아 치라카 내추럴",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "에티오피아 후로 워시드",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "[디카페인]에티오피아 구지 우라가 시코 내추럴",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "과테말라 안티구아 둘세 익셀",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "브라질 과수페 모지아나 내추럴",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "케냐 이아가즈 AA",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "볼리비아 게이샤H",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "베트남 워시드",
+       "price": 0
+      },
+      {
+       "category": "원두",
+       "name": "파나마 심비오스 게이샤W",
+       "price": 0
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101750_Payhere Selle",
+     "fid": "F0CGNNSNZMG",
+     "from": "댓글",
+     "path": "menu-files/1794364038_224389-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "드립백",
+       "name": "에티오피아 디카페인",
+       "price": 1800
+      },
+      {
+       "category": "드립백",
+       "name": "브라질 모지아나",
+       "price": 1800
+      },
+      {
+       "category": "드립백",
+       "name": "블렌드 1호",
+       "price": 1800
+      },
+      {
+       "category": "드립백",
+       "name": "블렌드 2호",
+       "price": 1800
+      },
+      {
+       "category": "드립백",
+       "name": "드립백세트(대)",
+       "price": 0
+      },
+      {
+       "category": "드립백",
+       "name": "드립백세트(소)",
+       "price": 0
+      },
+      {
+       "category": "드립백",
+       "name": "과테말라 둘세 익셀",
+       "price": 1800
+      },
+      {
+       "category": "드립백",
+       "name": "에티오피아 내추럴",
+       "price": 2500
+      },
+      {
+       "category": "드립백",
+       "name": "딸기브라우니",
+       "price": 2700
+      },
+      {
+       "category": "드립백",
+       "name": "에티 우정 N",
+       "price": 4500
+      },
+      {
+       "category": "드립백",
+       "name": "포장",
+       "price": 0
+      },
+      {
+       "category": "드립백",
+       "name": "케냐",
+       "price": 2200
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101755_Payhere Selle",
+     "fid": "F0CHH9REQU8",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "제과",
+       "name": "바닐라솔트 휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "제과",
+       "name": "피칸 휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "제과",
+       "name": "초코칩 휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "제과",
+       "name": "황치즈 휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "제과",
+       "name": "바스크치즈케익",
+       "price": 5900
+      },
+      {
+       "category": "제과",
+       "name": "휘낭시에 러스크",
+       "price": 5000
+      },
+      {
+       "category": "제과",
+       "name": "오리지널 휘낭시에",
+       "price": 2500
+      },
+      {
+       "category": "제과",
+       "name": "아메리칸 쿠키",
+       "price": 3800
+      },
+      {
+       "category": "제과",
+       "name": "황치즈쿠키",
+       "price": 4000
+      },
+      {
+       "category": "제과",
+       "name": "딸기쿠키",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Screenshot_20261110_101817_Payhere Selle",
+     "fid": "F0CGNNSP2QJ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피축제",
+       "name": "배치브루.블렌드",
+       "price": 3000
+      },
+      {
+       "category": "커피축제",
+       "name": "배치브루.온두라스",
+       "price": 3000
+      },
+      {
+       "category": "커피축제",
+       "name": "배치브루.파카마라",
+       "price": 3000
+      },
+      {
+       "category": "커피축제",
+       "name": "핸드드립",
+       "price": 0
+      },
+      {
+       "category": "커피축제",
+       "name": "딸기라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피축제",
+       "name": "레몬에이드",
+       "price": 5000
+      },
+      {
+       "category": "커피축제",
+       "name": "드립백.콜롬비아로꼬",
+       "price": 2500
+      },
+      {
+       "category": "커피축제",
+       "name": "드립백.파나마파카마라",
+       "price": 2000
+      },
+      {
+       "category": "커피축제",
+       "name": "드립백.에티워시드",
+       "price": 2000
+      },
+      {
+       "category": "커피축제",
+       "name": "드리백.온두라스",
+       "price": 1500
+      },
+      {
+       "category": "커피축제",
+       "name": "드립백.브라질",
+       "price": 1500
+      },
+      {
+       "category": "커피축제",
+       "name": "드립백.디카페인",
+       "price": 1500
+      },
+      {
+       "category": "커피축제",
+       "name": "원두",
+       "price": 0
+      },
+      {
+       "category": "커피축제",
+       "name": "러스크",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794364107.464799",
    "rfx": 3,
    "status": "wait",
    "handler": null,
