@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5115,
- "updatedAt": "2026-11-12 11:03",
+ "version": 5116,
+ "updatedAt": "2026-11-12 11:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1794449330.357399",
+   "date": "2026-11-12",
+   "time": "11:08",
+   "store": "형과아우 누룽지삼계탕 &왕갈비탕 서산점",
+   "biz": "2730403199",
+   "pos": "기타",
+   "content": "주류에 있는 소주 4000원을 3000원으로 수정해주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794449330357399"
+  },
   {
    "ts": "1794447759.236489",
    "date": "2026-11-12",
