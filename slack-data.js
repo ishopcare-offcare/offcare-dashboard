@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33083,
+  "version": 33084,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323261,7 +323261,7 @@ window.SLACK_DATA = {
         "offline": 40,
         "unknown": 0
       },
-      "updatedAt": "19:45",
+      "updatedAt": "19:59",
       "absent": [
         {
           "time": "18:10",
@@ -323289,21 +323289,22 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 9,
+        "responses": 11,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 9,
-          "low": 1
+          "count": 11,
+          "low": 2
         },
         "high": {
           "install": 1,
           "nps": 8
         },
         "npsDist": {
-          "5": 1,
+          "5": 2,
+          "7": 1,
           "10": 8
         },
         "installDist": {
@@ -323315,6 +323316,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 3,
+            "low": 2
+          },
           "6개월": {
             "total": 1,
             "low": 0
@@ -323322,10 +323327,6 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 3,
             "low": 0
-          },
-          "3개월": {
-            "total": 1,
-            "low": 1
           },
           "구매설치": {
             "total": 2,
@@ -323337,6 +323338,14 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 1,
+            "low": 1
+          },
+          "KOCES": {
+            "total": 4,
+            "low": 1
+          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -323345,19 +323354,38 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 0
           },
-          "KOCES": {
-            "total": 3,
-            "low": 1
-          },
           "KCP": {
             "total": 2,
             "low": 0
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "19:59",
+            "store": "그린카페(GREEN CAFE)",
+            "storeId": "583010",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "생각보다불편함. 기존에 편하게하다가 토스쓴뒤로 멘트를 많이 해야해서.이동결제할 기기도없고.",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:58",
             "store": "덩기덕쿵떡",
@@ -323497,11 +323525,11 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794480716.699
+        "lastSeen": 1794481161.273
       },
       "1794445028.239789": {
         "post": "1794445028.239789",
-        "lastSeen": 1794480716.699
+        "lastSeen": 1794481161.273
       },
       "1794448953.084279": {
         "post": "1794448953.084279",
@@ -323513,7 +323541,7 @@ window.SLACK_DATA = {
       },
       "1794480305.873119": {
         "post": "1794480305.873119",
-        "lastSeen": 1794480716.699,
+        "lastSeen": 1794481161.273,
         "r": 1,
         "day": "2026-11-12",
         "idx": 169
@@ -448057,7 +448085,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-12 19:52",
+    "at": "2026-11-12 19:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448214,7 +448242,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 19:51",
+    "at": "2026-11-12 19:59",
     "pri": {
       "days": 0,
       "failed": [],
