@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32738,
+  "version": 32739,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -320760,14 +320760,14 @@ window.SLACK_DATA = {
     },
     "2026-11-12": {
       "counts": {
-        "onboarding": {
-          "송태양": 1
-        },
         "as": {
+          "심성현": 2,
           "김동욱": 1,
           "송태양": 1,
-          "심성현": 1,
           "미지정": 1
+        },
+        "onboarding": {
+          "송태양": 1
         },
         "menu": {
           "송태양": 1
@@ -320775,6 +320775,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:24",
+          "store": "마블스퀘어",
+          "biz": "6526700764",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "잘 사용하다가 갑자기 돈통이 틱틱거리며 열리지 않음",
+          "hw": "",
+          "intake": "online",
+          "note": "동전 케이스 들뜸 / 금전함 내리치고 흔들어서 조치 완료",
+          "rr": 2
+        },
         {
           "time": "09:22",
           "store": "온쿡컴퍼니 주식회사",
@@ -320848,7 +320860,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 0,
         "unknown": 0
       },
@@ -321021,21 +321033,14 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794443435.749
+        "lastSeen": 1794443541.1
       },
       "1794441762.955289": {
         "post": "1794441762.955289",
-        "lastSeen": 1794443435.749,
+        "lastSeen": 1794443541.1,
         "r": 1,
         "day": "2026-11-12",
         "idx": 1
-      },
-      "1794443084.123319": {
-        "post": "1794443084.123319",
-        "lastSeen": 1794443435.749,
-        "r": 1,
-        "day": "2026-11-12",
-        "idx": 4
       }
     },
     "days": {
@@ -444076,14 +444081,15 @@ window.SLACK_DATA = {
             "store": "마블스퀘어",
             "biz": "6526700764",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-12 09:31",
+    "at": "2026-11-12 09:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -444240,7 +444246,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 09:30",
+    "at": "2026-11-12 09:32",
     "pri": {
       "days": 0,
       "failed": [],
