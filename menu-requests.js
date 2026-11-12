@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5167,
- "updatedAt": "2026-11-12 19:52",
+ "version": 5168,
+ "updatedAt": "2026-11-12 21:16",
  "days": 30,
  "items": [
   {
@@ -68158,35 +68158,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791938295324999"
-  },
-  {
-   "ts": "1791893589.720899",
-   "date": "2026-10-13",
-   "time": "21:13",
-   "store": "코끼리 카페",
-   "biz": "2531802965",
-   "pos": "",
-   "content": "• 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_33337e629c86.xlsx.exs",
-     "fid": "F0C8D6Y9015",
-     "from": "댓글",
-     "path": "menu-files/1791893589_720899-1.exs",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 7,
-   "lr": "1791939403.339939",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791893589720899"
   }
  ],
  "ocr": {
