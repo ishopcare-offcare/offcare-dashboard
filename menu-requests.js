@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5127,
- "updatedAt": "2026-11-12 14:08",
+ "version": 5128,
+ "updatedAt": "2026-11-12 14:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1794460832.255189",
+   "date": "2026-11-12",
+   "time": "14:20",
+   "store": "유가네",
+   "biz": "4693200312",
+   "pos": "퍼스트포스",
+   "content": "특선에다가 아래와 같이 메뉴 추가 부탁드립니다\n• 분홍소세지 / 가격: 12000원\n• 김치찌개 (2인 이상)  / 가격: 20000원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794460832255189"
+  },
   {
    "ts": "1794453456.317599",
    "date": "2026-11-12",
