@@ -3,10 +3,96 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5131,
- "updatedAt": "2026-11-12 14:32",
+ "version": 5132,
+ "updatedAt": "2026-11-12 14:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1794461978.328109",
+   "date": "2026-11-12",
+   "time": "14:39",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "에이드@쉐이크",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1o2HPkA1Ko5XXdNHHj-ajLSVPC1NFcoyq/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1o2HPkA1Ko5XXdNHHj-ajLSVPC1NFcoyq",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "체리에이드",
+       "price": 3800
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "체리콕",
+       "price": 4400
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "복숭아 아이스티",
+       "price": 3800
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "레몬에이드",
+       "price": 3800
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "블루레몬 에이드",
+       "price": 3900
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "청포도 에이드",
+       "price": 4200
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "유자 에이드",
+       "price": 3800
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "스포츠이온 레몬샘 (갈증해소)",
+       "price": 5800
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "고구마 오트밀 쉐이크",
+       "price": 5200
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "요거트 당근+사과",
+       "price": 5200
+      },
+      {
+       "category": "에이드 & 쉐이크",
+       "name": "바나나+블루베리 쉐이크 요거트",
+       "price": 5300
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794461978328109"
+  },
   {
    "ts": "1794461491.305969",
    "date": "2026-11-12",
