@@ -1863,6 +1863,7 @@ const DUTY_ANCHOR_IDX = 3;
 // 바뀌는 첫 주 담당은 이전 순번이 정한 사람 그대로이고, 거기서부터 새 목록 순서로 이어간다.
 const DUTY_ORDER_CHANGES = [
   {from:"2026-11-01", order:["배선유","송태양","김동욱","서상원","김규빈","심성현","고경림"]},   // 고경림 합류(심성현 다음) · 김현기 제외
+  {from:"2026-11-13", order:["배선유","송태양","김동욱","김규빈","심성현","고경림"]},   // 서상원 제외 (11/12 회의까지는 기존 배정 유지)
 ];
 const LS_DUTYALERT = "opcare_dutyalert_v1";
 function isDutyMeeting(t){ return /정기회의|타운홀|town\s*hall/i.test(t||""); }
