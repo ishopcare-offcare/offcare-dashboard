@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33101,
+  "version": 33102,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -320837,8 +320837,8 @@ window.SLACK_DATA = {
           "req": "선불권 결제 진행 시 영수증 미출력 및 연결끊김으로 인한 설정 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 1
+          "note": "선불권 사용 시 메뉴 이름이 길어서 출력안되는걸로 확인됨",
+          "rr": 2
         },
         {
           "time": "19:59",
@@ -323555,11 +323555,11 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794484451.638
+        "lastSeen": 1794484519.838
       },
       "1794445028.239789": {
         "post": "1794445028.239789",
-        "lastSeen": 1794484451.638
+        "lastSeen": 1794484519.838
       },
       "1794448953.084279": {
         "post": "1794448953.084279",
@@ -448136,7 +448136,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-12 20:54",
+    "at": "2026-11-12 20:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448293,7 +448293,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 20:54",
+    "at": "2026-11-12 20:55",
     "pri": {
       "days": 0,
       "failed": [],
