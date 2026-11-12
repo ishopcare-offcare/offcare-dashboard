@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5147,
- "updatedAt": "2026-11-12 15:50",
+ "version": 5148,
+ "updatedAt": "2026-11-12 15:51",
  "days": 30,
  "items": [
   {
@@ -215,8 +215,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794466002235299"
   },
   {
@@ -252,12 +252,14 @@ window.MENU_REQUESTS = {
      "v": 3
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료"
+   ],
+   "rc": 1,
+   "lr": "1794466295.549059",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465960279519"
   },
   {
@@ -293,12 +295,14 @@ window.MENU_REQUESTS = {
      "v": 3
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료"
+   ],
+   "rc": 1,
+   "lr": "1794466283.347029",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465905732909"
   },
   {
@@ -389,12 +393,14 @@ window.MENU_REQUESTS = {
      "v": 3
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료"
+   ],
+   "rc": 1,
+   "lr": "1794466273.489459",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465217605119"
   },
   {
@@ -460,9 +466,11 @@ window.MENU_REQUESTS = {
      "v": 3
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "완료"
+   ],
+   "rc": 1,
+   "lr": "1794466260.834299",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
