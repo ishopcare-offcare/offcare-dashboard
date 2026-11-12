@@ -3,10 +3,140 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5145,
- "updatedAt": "2026-11-12 15:46",
+ "version": 5146,
+ "updatedAt": "2026-11-12 15:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1794466039.706899",
+   "date": "2026-11-12",
+   "time": "15:47",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "ㄱ",
+   "special": "ㄱ",
+   "drive": [
+    "https://drive.google.com/file/d/1vbUYfZ-K6i6bQh0ZyRIxMtw1DYC_Tdxy/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1vbUYfZ-K6i6bQh0ZyRIxMtw1DYC_Tdxy",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "케익류 & 디저트",
+       "name": "호두타르트",
+       "price": 5200
+      },
+      {
+       "category": "케익류 & 디저트",
+       "name": "티라미수",
+       "price": 4900
+      },
+      {
+       "category": "케익류 & 디저트",
+       "name": "치즈케익",
+       "price": 4800
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794466039706899"
+  },
+  {
+   "ts": "1794466002.235299",
+   "date": "2026-11-12",
+   "time": "15:46",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "ㄱ",
+   "special": "ㄱ",
+   "drive": [
+    "https://drive.google.com/file/d/1AWVzPMZXjL3T07KaSc5fDg2emrvepPv8/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1AWVzPMZXjL3T07KaSc5fDg2emrvepPv8",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "키위쥬스",
+       "price": 3800
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "바나나쥬스",
+       "price": 4500
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "딸기+바나나",
+       "price": 4900
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "배쥬스",
+       "price": 4400
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "블루베리쥬스",
+       "price": 5800
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "자몽쥬스",
+       "price": 5500
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "샤인머스켓쥬스",
+       "price": 5600
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "대추차 수제",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "생강차 수제",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "생과일 쥬스 & 수제건강차",
+       "name": "유자 (수제)",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794466002235299"
+  },
   {
    "ts": "1794465960.279519",
    "date": "2026-11-12",
@@ -252,8 +382,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465062383589"
   },
   {
