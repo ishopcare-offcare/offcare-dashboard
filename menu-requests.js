@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5111,
- "updatedAt": "2026-11-12 10:44",
+ "version": 5112,
+ "updatedAt": "2026-11-12 10:46",
  "days": 30,
  "items": [
   {
@@ -13,16 +13,74 @@ window.MENU_REQUESTS = {
    "time": "10:42",
    "store": "라자루스",
    "biz": "3974101342",
-   "pos": "",
-   "content": "메뉴 추가 및 수정 요청 드립니다!",
+   "pos": "토스포스",
+   "content": "(토스포스) 메뉴 추가 및 수정 요청 드립니다!",
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CH1RB08LR",
+     "from": "댓글",
+     "path": "menu-files/1794447759_236489-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "추가",
+       "name": "커피 미숫가루",
+       "price": 4000
+      },
+      {
+       "category": "추가",
+       "name": "샷 1S 기본",
+       "price": 0
+      },
+      {
+       "category": "추가",
+       "name": "샷 2S",
+       "price": 500
+      },
+      {
+       "category": "추가",
+       "name": "디카 콜드 라떼",
+       "price": 4000
+      },
+      {
+       "category": "추가",
+       "name": "빅S",
+       "price": 4500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CGZP5N1EE",
+     "from": "댓글",
+     "path": "menu-files/1794447759_236489-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "복숭아아이스티",
+       "name": "연하게 (1샷)",
+       "price": 0
+      },
+      {
+       "category": "복숭아아이스티",
+       "name": "기본 (2샷)",
+       "price": 0
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "[추가]\n1. 커피미숫가루  4,000원 | 옵션 샷 1 > 기본 / 샷 2 > 500\n2. 디카콜드라떼  4,000원 , 디카골드라떼 4500원\n[삭제]\n1. 복숭아아이스티 옵션에 연하게랑 기본 삭제"
+   ],
+   "rc": 1,
+   "lr": "1794447851.503919",
    "rfx": 3,
    "status": "wait",
    "handler": null,
