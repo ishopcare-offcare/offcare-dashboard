@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33093,
+  "version": 33094,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -320849,8 +320849,8 @@ window.SLACK_DATA = {
           "req": "자체 구매 대형 키오스크 + 패드 자가설치 후 설정 점검 및 온보딩 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "kis멀티패드 : spd420QN 영수증프린터 : com1",
-          "rr": 1
+          "note": "kis멀티패드 : spd420QN 영수증프린터 : com1 / 자가매출거절",
+          "rr": 2
         },
         {
           "time": "19:39",
@@ -323543,11 +323543,11 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794482529.732
+        "lastSeen": 1794482628.061
       },
       "1794445028.239789": {
         "post": "1794445028.239789",
-        "lastSeen": 1794482529.732
+        "lastSeen": 1794482628.061
       },
       "1794448953.084279": {
         "post": "1794448953.084279",
@@ -323559,7 +323559,7 @@ window.SLACK_DATA = {
       },
       "1794481200.936749": {
         "post": "1794481200.936749",
-        "lastSeen": 1794482529.732,
+        "lastSeen": 1794482628.061,
         "r": 1,
         "day": "2026-11-12",
         "idx": 172
@@ -448130,7 +448130,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-12 20:22",
+    "at": "2026-11-12 20:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448287,7 +448287,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 20:22",
+    "at": "2026-11-12 20:23",
     "pri": {
       "days": 0,
       "failed": [],
