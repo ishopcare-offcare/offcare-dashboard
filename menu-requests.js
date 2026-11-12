@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5141,
- "updatedAt": "2026-11-12 15:31",
+ "version": 5142,
+ "updatedAt": "2026-11-12 15:33",
  "days": 30,
  "items": [
   {
@@ -69330,58 +69330,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791873409456689"
-  },
-  {
-   "ts": "1791873108.862629",
-   "date": "2026-10-13",
-   "time": "15:31",
-   "store": "",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 메뉴신규등록요청\n대용량 첨부 2개 6MB  ···.jpg 2885796 ~ 2026/11/12 ···.jpg 2970628 ~ 2026/11/12 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    팔도비빔면 4000 오징어짬뽕4500 간짬뽕4500 오동통면4000 짜왕4500  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a133f1284c15445>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a133f1284c15445",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791873108862629"
-  },
-  {
-   "ts": "1791873108.473849",
-   "date": "2026-10-13",
-   "time": "15:31",
-   "store": "신규",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 신규메뉴 등록요청\n우지 짜르르4500 감자면 4000 배홍동비빔면 3600  \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a133edb05bad3df>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a133edb05bad3df",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791873108473849"
   }
  ],
  "ocr": {
