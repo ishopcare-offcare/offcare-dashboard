@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-12 23:46 KST
+ *  갱신: 2026-11-13 00:16 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-12 23:46',
+  updatedAt : '2026-11-13 00:16',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -79,5 +79,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-12","time":"07:54","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"매장에서 생딸기 초코 찹쌀떡 메뉴가 어제 품절 처리되었는데 품절·해제 시각 확인 요청","note":""},
     {"date":"2026-11-12","time":"22:59","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"배선유","intake":"online","status":"done","req":"컴포즈 신대방역점) 결제 시간과 다른 영수증이 지속 올라오는 문제가 있다고 함","note":"상품권 인상차액 관련해 미처리된 부분에 대한 보정 처리 작업이 있었음 안내 완료"},
     {"date":"2026-11-12","time":"23:31","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"배선유","intake":"online","status":"done","req":"컴포즈커피 신대방역점) 매장 측으로 답변했던 상품권 보정 처리 작업에 대한 자세한 설명을 듣고 싶어함 (매니저 인입)","note":""},
+    {"date":"2026-11-12","time":"23:56","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"배선유","intake":"online","status":"done","req":"컴포즈 사당역점) 영수증 신대방역점과 동일 증상(영수증이 지속적으로 올라오는)으로 인한 인입","note":""},
   ],
 };
