@@ -3,10 +3,92 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5146,
- "updatedAt": "2026-11-12 15:48",
+ "version": 5147,
+ "updatedAt": "2026-11-12 15:50",
  "days": 30,
  "items": [
+  {
+   "ts": "1794466150.419719",
+   "date": "2026-11-12",
+   "time": "15:49",
+   "store": "하하아이스365 양주회천로제비앙점",
+   "biz": "5800503449",
+   "pos": "토스포스",
+   "content": "전체적으로수정이필요합니다",
+   "special": "제가 원하는 건",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794466150419719"
+  },
+  {
+   "ts": "1794466083.743039",
+   "date": "2026-11-12",
+   "time": "15:48",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "ㅋ",
+   "special": "ㄱ",
+   "drive": [
+    "https://drive.google.com/file/d/1n2roy1InD3Q9_Y-KdII437L1zaEyllHh/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1n2roy1InD3Q9_Y-KdII437L1zaEyllHh",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "논커피",
+       "name": "흑임자라떼",
+       "price": 4200
+      },
+      {
+       "category": "논커피",
+       "name": "쑥개떡라떼",
+       "price": 4300
+      },
+      {
+       "category": "논커피",
+       "name": "고구마라떼",
+       "price": 4200
+      },
+      {
+       "category": "논커피",
+       "name": "녹차라떼",
+       "price": 4000
+      },
+      {
+       "category": "논커피",
+       "name": "아빠라떼",
+       "price": 4000
+      },
+      {
+       "category": "논커피",
+       "name": "개곡 미숫가루",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794466083743039"
+  },
   {
    "ts": "1794466039.706899",
    "date": "2026-11-12",
