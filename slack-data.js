@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32741,
+  "version": 32742,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -320860,11 +320860,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:30"
+      "updatedAt": "09:30",
+      "absent": [
+        {
+          "time": "09:30",
+          "store": "범카츠 청주점",
+          "biz": "5407400682",
+          "handler": "송태양",
+          "cat": "nosetup",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -321033,11 +321043,11 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794444110.922
+        "lastSeen": 1794444199.409
       },
       "1794441762.955289": {
         "post": "1794441762.955289",
-        "lastSeen": 1794444110.922,
+        "lastSeen": 1794444199.409,
         "r": 1,
         "day": "2026-11-12",
         "idx": 1
@@ -444089,7 +444099,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-12 09:42",
+    "at": "2026-11-12 09:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -444246,7 +444256,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 09:41",
+    "at": "2026-11-12 09:43",
     "pri": {
       "days": 0,
       "failed": [],
