@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5096,
- "updatedAt": "2026-11-12 07:45",
+ "version": 5097,
+ "updatedAt": "2026-11-12 09:06",
  "days": 30,
  "items": [
+  {
+   "ts": "1794441953.973649",
+   "date": "2026-11-12",
+   "time": "09:05",
+   "store": "우현횟집",
+   "biz": "3766700875",
+   "pos": "토스포스",
+   "content": "식사메뉴에 공기밥 출력안되게해주시구요.\n테이블 홀15 홀16 기타1. 기타2\n없애주시구요.\n주문서 출력될때\n테이블번호 잘보일수있게 글자크기 \n키워주세요. 글씨가 너무 작아서\n보기불편하다시네요.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794441953973649"
+  },
   {
    "ts": "1794415999.004849",
    "date": "2026-11-12",
