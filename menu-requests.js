@@ -3,10 +3,92 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5144,
- "updatedAt": "2026-11-12 15:37",
+ "version": 5145,
+ "updatedAt": "2026-11-12 15:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1794465960.279519",
+   "date": "2026-11-12",
+   "time": "15:46",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "ㄱ",
+   "special": "ㅂ",
+   "drive": [
+    "https://drive.google.com/file/d/1fSb4n4y63kHZdeM-mBQGk8C2YsUiR8G0/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1fSb4n4y63kHZdeM-mBQGk8C2YsUiR8G0",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "빅토리아굿즈",
+       "name": "빅토리아 핫컵 머그잔",
+       "price": 5500
+      },
+      {
+       "category": "빅토리아굿즈",
+       "name": "빅토리아 맥주잔 머그잔",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465960279519"
+  },
+  {
+   "ts": "1794465905.732909",
+   "date": "2026-11-12",
+   "time": "15:45",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "ㅂㄱㅈ",
+   "special": "ㄱ",
+   "drive": [
+    "https://drive.google.com/file/d/1ZUW2v5Uu5S7bbh9p7mji0DKGwrd6Z-LO/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ZUW2v5Uu5S7bbh9p7mji0DKGwrd6Z-LO",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "빅토리아굿즈",
+       "name": "빅토리아 핫컵 머그잔",
+       "price": 5500
+      },
+      {
+       "category": "빅토리아굿즈",
+       "name": "빅토리아 맥주잔 머그잔",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465905732909"
+  },
   {
    "ts": "1794465217.605119",
    "date": "2026-11-12",
