@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32726,
+  "version": 32727,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -320763,10 +320763,24 @@ window.SLACK_DATA = {
         "as": {
           "심성현": 1,
           "미지정": 1
+        },
+        "menu": {
+          "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:05",
+          "store": "우현횟집",
+          "biz": "3766700875",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:00",
           "store": "준도어",
@@ -320792,7 +320806,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -320965,21 +320979,14 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794442137.564
+        "lastSeen": 1794442229.149
       },
       "1794441762.955289": {
         "post": "1794441762.955289",
-        "lastSeen": 1794442137.564,
+        "lastSeen": 1794442229.149,
         "r": 1,
         "day": "2026-11-12",
         "idx": 1
-      },
-      "1794441953.973649": {
-        "post": "1794441953.973649",
-        "lastSeen": 1794442137.564,
-        "r": 1,
-        "day": "2026-11-12",
-        "idx": 2
       }
     },
     "days": {
@@ -444002,14 +444009,15 @@ window.SLACK_DATA = {
             "store": "우현횟집",
             "biz": "3766700875",
             "who": "송태양",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 3.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-12 09:09",
+    "at": "2026-11-12 09:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -444166,7 +444174,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 09:08",
+    "at": "2026-11-12 09:10",
     "pri": {
       "days": 0,
       "failed": [],
