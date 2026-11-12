@@ -3,10 +3,222 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5154,
- "updatedAt": "2026-11-12 16:17",
+ "version": 5155,
+ "updatedAt": "2026-11-12 17:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1794473451.712219",
+   "date": "2026-11-12",
+   "time": "17:50",
+   "store": "마담마담",
+   "biz": "8900201842",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CH4NPUHEV",
+     "from": "댓글",
+     "path": "menu-files/1794473451_712219-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "떡볶이",
+       "name": "ROUGE (떡볶희 후즈) 2인",
+       "price": 17000
+      },
+      {
+       "category": "떡볶이",
+       "name": "ROUGE (떡볶희 후즈) 3인",
+       "price": 21000
+      },
+      {
+       "category": "떡볶이",
+       "name": "BLANC (떡볶희 블랑) 2인",
+       "price": 20000
+      },
+      {
+       "category": "떡볶이",
+       "name": "BLANC (떡볶희 블랑) 3인",
+       "price": 24000
+      },
+      {
+       "category": "떡볶이",
+       "name": "ROSE (떡볶희 로제) 2인",
+       "price": 20000
+      },
+      {
+       "category": "떡볶이",
+       "name": "ROSE (떡볶희 로제) 3인",
+       "price": 24000
+      },
+      {
+       "category": "사리추가",
+       "name": "모짜렐라 치즈",
+       "price": 2500
+      },
+      {
+       "category": "사리추가",
+       "name": "분모자",
+       "price": 2500
+      },
+      {
+       "category": "사리추가",
+       "name": "비엔나 소시지",
+       "price": 2000
+      },
+      {
+       "category": "사리추가",
+       "name": "메추리알",
+       "price": 1500
+      },
+      {
+       "category": "사리추가",
+       "name": "야끼만두 2개",
+       "price": 1500
+      },
+      {
+       "category": "사리추가",
+       "name": "쫄면 사리",
+       "price": 1500
+      },
+      {
+       "category": "사리추가",
+       "name": "라면 사리 1개",
+       "price": 1500
+      },
+      {
+       "category": "사리추가",
+       "name": "라면 사리 1/2개",
+       "price": 800
+      },
+      {
+       "category": "사리추가",
+       "name": "삶은 계란 1개",
+       "price": 800
+      },
+      {
+       "category": "사리추가",
+       "name": "슬라이스 치즈 1장",
+       "price": 800
+      },
+      {
+       "category": "사리추가",
+       "name": "떡 추가",
+       "price": 2000
+      },
+      {
+       "category": "사리추가",
+       "name": "야채추가",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "셀프 볶음밥 1인분(김, 날치알 포함)",
+       "price": 2500
+      },
+      {
+       "category": "사이드",
+       "name": "버터 갈릭 감자 튀김",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "치즈스틱 2개",
+       "price": 2500
+      },
+      {
+       "category": "사이드",
+       "name": "고구마 튀김 2개",
+       "price": 2500
+      },
+      {
+       "category": "사이드",
+       "name": "옛날 미니 핫도그",
+       "price": 2000
+      },
+      {
+       "category": "사이드",
+       "name": "어묵 튀김 2개",
+       "price": 1500
+      },
+      {
+       "category": "사이드",
+       "name": "미니 김말이 튀김 2개",
+       "price": 1500
+      },
+      {
+       "category": "음료",
+       "name": "생맥주 하이네켄 330cc",
+       "price": 6000
+      },
+      {
+       "category": "음료",
+       "name": "생맥주 하이네켄 430cc",
+       "price": 7000
+      },
+      {
+       "category": "음료",
+       "name": "병맥주 테라 (소)",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "병맥주 테라 (중)",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "제주에일",
+       "price": 7000
+      },
+      {
+       "category": "음료",
+       "name": "1664 BLANC",
+       "price": 7000
+      },
+      {
+       "category": "음료",
+       "name": "탄산음료 콜라, 제로콜라, 사이다, 제로사이다",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "웰치스(포도/청포도), 환타(포도/ 오렌지/ 파인애플)",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "탄산수",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "쿨피스 (중)",
+       "price": 2000
+      },
+      {
+       "category": "음료",
+       "name": "쿨피스 (대)",
+       "price": 3000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794473477.972529",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794473451712219"
+  },
   {
    "ts": "1794466150.419719",
    "date": "2026-11-12",
