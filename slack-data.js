@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 32988,
+  "version": 32989,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -322720,7 +322720,7 @@ window.SLACK_DATA = {
         "offline": 31,
         "unknown": 0
       },
-      "updatedAt": "16:55",
+      "updatedAt": "16:58",
       "absent": [
         {
           "time": "13:00",
@@ -322740,20 +322740,21 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 6,
-          "low": 0
+          "count": 7,
+          "low": 1
         },
         "high": {
           "install": 1,
           "nps": 6
         },
         "npsDist": {
+          "5": 1,
           "10": 6
         },
         "installDist": {
@@ -322765,6 +322766,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 1
+          },
           "구매설치": {
             "total": 2,
             "low": 0
@@ -322780,8 +322785,8 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KOCES": {
-            "total": 2,
-            "low": 0
+            "total": 3,
+            "low": 1
           },
           "KCP": {
             "total": 2,
@@ -322792,8 +322797,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+        },
+        "alerts": [
+          {
+            "time": "16:58",
+            "store": "덩기덕쿵떡",
+            "storeId": "588980",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "편한면도있지만 기계사용을 잘못하는사람들은 불변해요 가격만 입력하고 카드사용하고싶은데 간편하지않아 손님을 기다리게합니다",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "15:19",
@@ -322924,11 +322954,11 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794470169.012
+        "lastSeen": 1794470291.604
       },
       "1794445028.239789": {
         "post": "1794445028.239789",
-        "lastSeen": 1794470169.012
+        "lastSeen": 1794470291.604
       },
       "1794448953.084279": {
         "post": "1794448953.084279",
@@ -322936,7 +322966,7 @@ window.SLACK_DATA = {
       },
       "1794456143.871079": {
         "post": "1794456143.871079",
-        "lastSeen": 1794470169.012,
+        "lastSeen": 1794470291.604,
         "r": 1,
         "day": "2026-11-12",
         "idx": 50
@@ -322947,32 +322977,36 @@ window.SLACK_DATA = {
       },
       "1794468598.290279": {
         "post": "1794468598.290279",
-        "lastSeen": 1794470169.012,
+        "lastSeen": 1794470291.604,
         "r": 1,
         "day": "2026-11-12",
         "idx": 129
       },
       "1794468813.921579": {
         "post": "1794468813.921579",
-        "lastSeen": 1794470169.012,
+        "lastSeen": 1794470291.604,
         "r": 1,
         "day": "2026-11-12",
         "idx": 133
       },
       "1794469084.542069": {
         "post": "1794469084.542069",
-        "lastSeen": 1794470169.012
+        "lastSeen": 1794470291.604
       },
       "1794470034.979939": {
         "post": "1794470034.979939",
-        "lastSeen": 1794470169.012,
+        "lastSeen": 1794470291.604,
         "r": 1,
         "day": "2026-11-12",
         "idx": 134
       },
       "1794470100.682349": {
         "post": "1794470100.682349",
-        "lastSeen": 1794470169.012
+        "lastSeen": 1794470291.604
+      },
+      "1794470269.439729": {
+        "post": "1794470269.439729",
+        "lastSeen": 1794470291.604
       }
     },
     "days": {
@@ -447186,7 +447220,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-12 16:57",
+    "at": "2026-11-12 16:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -447343,7 +447377,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 16:56",
+    "at": "2026-11-12 16:58",
     "pri": {
       "days": 0,
       "failed": [],
