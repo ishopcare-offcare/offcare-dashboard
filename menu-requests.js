@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5153,
- "updatedAt": "2026-11-12 16:14",
+ "version": 5154,
+ "updatedAt": "2026-11-12 16:17",
  "days": 30,
  "items": [
   {
@@ -67897,27 +67897,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791883230513009"
-  },
-  {
-   "ts": "1791875817.260379",
-   "date": "2026-10-13",
-   "time": "16:16",
-   "store": "카페 에덴 #2",
-   "biz": "1922101813",
-   "pos": "",
-   "content": "카페에덴 건양사이버대점 포스에 카페에덴#2의 상품을 똑같이 복사 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1791882331.037939",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791875817260379"
   }
  ],
  "ocr": {
