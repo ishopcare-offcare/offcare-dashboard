@@ -3,10 +3,81 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5140,
- "updatedAt": "2026-11-12 15:26",
+ "version": 5141,
+ "updatedAt": "2026-11-12 15:31",
  "days": 30,
  "items": [
+  {
+   "ts": "1794465062.383589",
+   "date": "2026-11-12",
+   "time": "15:31",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "부탁해요",
+   "special": "아이샵",
+   "drive": [
+    "https://drive.google.com/file/d/1YgWKXpsmo1wkL0wBJViQlEF3KOqZBCrN/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1YgWKXpsmo1wkL0wBJViQlEF3KOqZBCrN",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "티/차",
+       "name": "캐모마일",
+       "price": 3300
+      },
+      {
+       "category": "티/차",
+       "name": "루이보스",
+       "price": 3800
+      },
+      {
+       "category": "티/차",
+       "name": "얼그레이",
+       "price": 3800
+      },
+      {
+       "category": "티/차",
+       "name": "히비스커스",
+       "price": 3800
+      },
+      {
+       "category": "티/차",
+       "name": "로즈힙+히비스커스(블렌딩차)",
+       "price": 4000
+      },
+      {
+       "category": "티/차",
+       "name": "유자차",
+       "price": 4000
+      },
+      {
+       "category": "티/차",
+       "name": "생레몬티",
+       "price": 5400
+      },
+      {
+       "category": "티/차",
+       "name": "자몽차",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465062383589"
+  },
   {
    "ts": "1794463208.450119",
    "date": "2026-11-12",
