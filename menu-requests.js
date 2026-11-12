@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5106,
- "updatedAt": "2026-11-12 10:03",
+ "version": 5107,
+ "updatedAt": "2026-11-12 10:11",
  "days": 30,
  "items": [
   {
@@ -71392,27 +71392,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791854208801149"
-  },
-  {
-   "ts": "1791853896.629799",
-   "date": "2026-10-13",
-   "time": "10:11",
-   "store": "춘천닭갈비vs양푼이김치찌개",
-   "biz": "8677000309",
-   "pos": "퍼스트포스",
-   "content": "퍼스트포스 <https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790707206759|https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791790707206759> 어제 메뉴 등록 요청주셨는데\n맨밑에 햄을 빼고 그자리에 포장용기 1000원\n세번째칸에 '햄'을 '햄&만두' 3000원으로 수정 요청 주셨습니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791854060.771259",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791853896629799"
   }
  ],
  "ocr": {
