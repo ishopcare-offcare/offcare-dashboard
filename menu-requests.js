@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5105,
- "updatedAt": "2026-11-12 09:45",
+ "version": 5106,
+ "updatedAt": "2026-11-12 10:03",
  "days": 30,
  "items": [
   {
@@ -71413,32 +71413,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791853896629799"
-  },
-  {
-   "ts": "1791853305.433489",
-   "date": "2026-10-13",
-   "time": "10:01",
-   "store": "코끼리 카페",
-   "biz": "2531802965",
-   "pos": "토스포스",
-   "content": "전체",
-   "special": "'코끼리 카페 신창점'만 변경 메일로 이미지 파일 첨부하겠습니다.",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "아직 메일 안옴",
-    "님, 안녕하세요:감사합니다꾸벅:\n[코끼리 카페 신창점] 메뉴 사진 메일로 보내주셨다고 하는데 혹시 확인 가능하실까요?\n\n본사 통해서 메뉴 파일 요청한 상태이나 아직 답변 X ..\n답변오면 추가 전달 예정으로, 우선 배민에 등록된 사진을 보내주셨다고 하십니다..! (매장 내 메뉴판은 아직없다고 하십니다)",
-    "님 아래 메일에서 슬기님하고 확인중입니다.\n\nhttps://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791854208801149",
-    "cc  승환님하고 확인 한번 해주세요"
-   ],
-   "rc": 4,
-   "lr": "1791856508.264579",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791853305433489"
   }
  ],
  "ocr": {
