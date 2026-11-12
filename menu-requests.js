@@ -3,10 +3,141 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5130,
- "updatedAt": "2026-11-12 14:23",
+ "version": 5131,
+ "updatedAt": "2026-11-12 14:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1794461491.305969",
+   "date": "2026-11-12",
+   "time": "14:31",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "커피@라떼",
+   "special": "아이샵케어평택",
+   "drive": [
+    "https://drive.google.com/file/d/1ESGh6G4kqK5i04ntZkAG447QoQkCpyuh/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ESGh6G4kqK5i04ntZkAG447QoQkCpyuh",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피, 라떼",
+       "name": "아메리카노",
+       "price": 1800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "킹콩 아메리카노 ICE",
+       "price": 3000
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "헤이즐넛아메리카노",
+       "price": 3800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "킹콩 카페라떼 ICE",
+       "price": 5500
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "헤이즐넛라떼",
+       "price": 4200
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "더치커피",
+       "price": 3500
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "킹콩 ICE 더치커피",
+       "price": 4800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "도리넛라떼",
+       "price": 4200
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "더치꿀라떼",
+       "price": 4000
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "킹콩 ICE 더치꿀라떼",
+       "price": 5200
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "아 샷추",
+       "price": 3800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "카푸치노",
+       "price": 5500
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "고구마라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "생크림 홍차라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "레몬커피",
+       "price": 3800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "레몬 카페라떼",
+       "price": 4800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "흑당 카페라떼",
+       "price": 3800
+      },
+      {
+       "category": "커피, 라떼",
+       "name": "카페모카",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794461491305969"
+  },
   {
    "ts": "1794460832.255189",
    "date": "2026-11-12",
