@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33116,
+  "version": 33117,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -320762,7 +320762,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "박하림": 7,
-          "배선유": 6,
+          "배선유": 7,
           "김규빈": 9,
           "고경림": 29,
           "심성현": 22,
@@ -320816,6 +320816,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "22:59",
+          "store": "컴포즈커피 신대방역점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "컴포즈 신대방역점) 결제 시간과 다른 영수증이 지속 올라오는 문제가 있다고 함",
+          "hw": "",
+          "intake": "online",
+          "note": "상품권 인상차액 관련해 미처리된 부분에 대한 보정 처리 작업이 있었음 안내 완료",
+          "rr": 5
+        },
         {
           "time": "21:30",
           "store": "용볼",
@@ -323317,11 +323329,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 171,
+        "online": 172,
         "offline": 40,
         "unknown": 0
       },
-      "updatedAt": "22:59",
+      "updatedAt": "23:13",
       "absent": [
         {
           "time": "18:10",
@@ -323349,23 +323361,23 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 11,
+        "responses": 12,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 11,
+          "count": 12,
           "low": 2
         },
         "high": {
           "install": 1,
-          "nps": 8
+          "nps": 9
         },
         "npsDist": {
           "5": 2,
           "7": 1,
-          "10": 8
+          "10": 9
         },
         "installDist": {
           "3": 1,
@@ -323376,16 +323388,16 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 4,
+            "low": 0
+          },
           "3개월": {
             "total": 3,
             "low": 2
           },
           "6개월": {
             "total": 1,
-            "low": 0
-          },
-          "1개월": {
-            "total": 3,
             "low": 0
           },
           "구매설치": {
@@ -323398,6 +323410,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KCP": {
+            "total": 3,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 1,
             "low": 1
@@ -323412,10 +323428,6 @@ window.SLACK_DATA = {
           },
           "KIS": {
             "total": 3,
-            "low": 0
-          },
-          "KCP": {
-            "total": 2,
             "low": 0
           }
         },
@@ -323567,11 +323579,11 @@ window.SLACK_DATA = {
       },
       "1794441644.703559": {
         "post": "1794441644.703559",
-        "lastSeen": 1794492043.708
+        "lastSeen": 1794492929.11
       },
       "1794445028.239789": {
         "post": "1794445028.239789",
-        "lastSeen": 1794492043.708
+        "lastSeen": 1794492929.11
       },
       "1794448953.084279": {
         "post": "1794448953.084279",
@@ -323580,10 +323592,6 @@ window.SLACK_DATA = {
       "1794463050.055799": {
         "post": "1794463050.055799",
         "lastSeen": 1794463158.411
-      },
-      "1794491995.809199": {
-        "post": "1794491995.809199",
-        "lastSeen": 1794492043.708
       }
     },
     "days": {
@@ -446579,8 +446587,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-12": {
-        "cnt": 175,
-        "sumMin": 1981.9356185992563,
+        "cnt": 176,
+        "sumMin": 1990.1122819463417,
         "over": 8,
         "items": [
           {
@@ -448155,13 +448163,22 @@ window.SLACK_DATA = {
             "who": "박하림",
             "cat": "as",
             "dmin": 19.9
+          },
+          {
+            "hm": "22:59",
+            "min": 8.2,
+            "store": "컴포즈커피 신대방역점",
+            "biz": "5218102386",
+            "who": "배선유",
+            "cat": "as",
+            "dmin": 8.2
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-12 23:01",
+    "at": "2026-11-12 23:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448318,7 +448335,7 @@ window.SLACK_DATA = {
     "2026-11-12": 2
   },
   "noteMig": {
-    "at": "2026-11-12 23:00",
+    "at": "2026-11-12 23:15",
     "pri": {
       "days": 0,
       "failed": [],
