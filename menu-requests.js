@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5107,
- "updatedAt": "2026-11-12 10:11",
+ "version": 5108,
+ "updatedAt": "2026-11-12 10:18",
  "days": 30,
  "items": [
   {
@@ -71333,65 +71333,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791855835535499"
-  },
-  {
-   "ts": "1791854208.801149",
-   "date": "2026-10-13",
-   "time": "10:16",
-   "store": "코끼리 카페 신창점",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 코끼리 카페 신창점 메뉴 첨부\n안녕하세요. 코끼리 카페 신창점 메뉴 사진 파일 보내드립니다.\n ※ 선택 옵션 및 추가 옵션 사진도 함께 첨부합니다. 연결된 메뉴 잘 확인 부탁드립니다. ※\n \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C8U3E9XUL",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1791854208_801149-0.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C8J92RK51",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "path": "menu-files/1791854208_801149-1.png"
-    },
-    {
-     "name": "11.xlsx",
-     "fid": "F0C8KQ5HFK7",
-     "from": "댓글",
-     "path": "menu-files/1791854208_801149-2.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "통화 거는중 제가 말씀드려볼게여 잠시만요 흐엉",
-    "선유님 규빈님,, 배달 전문이라 별도로 텍스트로 정리하거나 기재해 둔 메뉴판은 없고 프랜차이즈 본사에서 제공받은 레시피북 같은 자료가 있다고 하는데요.\n해당 자료에는 옵션 정보는 없지만 일단 한번 주신다고 해요.. :냥냥단_눈물:",
-    "매장에 메뉴판도 별도로 없는 상황일까요..?",
-    "아니면 본사에서 따로 관리하는 매장별 메뉴 리스트가 있을거 같습니다",
-    "규빈님 업참바...",
-    "그럼 여기 배민 게정은 받을 수 있나요?\n도저히 방법없으면 저희가 배민 계정에서 상품 다운받아가지고 엑셀로 보는게 더 나을수도 있을거같습니다",
-    "오 그러면, 그냥 원격으로 바로 배민계정 들어가서 바로 다운받아보겠다 라고 말씀드릴까여?\n뭔가 배민계정을 바로 달라고 하면 안주실것같아서요 !",
-    "원격으로 들어가려면 매장에 포스기나 PC가 있으셔야될텐데 준비가 되어있을까요..?"
-   ],
-   "rc": 53,
-   "lr": "1792068933.566729",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a132d352a7d0e0e",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791854208801149"
   }
  ],
  "ocr": {
