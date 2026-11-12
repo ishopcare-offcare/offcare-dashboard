@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5158,
- "updatedAt": "2026-11-12 17:56",
+ "version": 5159,
+ "updatedAt": "2026-11-12 17:57",
  "days": 30,
  "items": [
   {
@@ -53,8 +53,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "환타 포도 → 환타 파인 으로 변경 요청 드립니다."
    ],
-   "rc": 1,
-   "lr": "1794473638.493539",
+   "rc": 2,
+   "lr": "1794473847.210869",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
