@@ -3,10 +3,106 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5142,
- "updatedAt": "2026-11-12 15:33",
+ "version": 5143,
+ "updatedAt": "2026-11-12 15:35",
  "days": 30,
  "items": [
+  {
+   "ts": "1794465217.605119",
+   "date": "2026-11-12",
+   "time": "15:33",
+   "store": "빅토리아",
+   "biz": "8451202933",
+   "pos": "토스포스",
+   "content": "메뉴",
+   "special": "아이샵케어",
+   "drive": [
+    "https://drive.google.com/file/d/1E-VftlVQtJwfCQtsvc5CuslgLZtZ2EOJ/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1E-VftlVQtJwfCQtsvc5CuslgLZtZ2EOJ",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "스무디 & 프라페",
+       "name": "망고스무디",
+       "price": 4200
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "딸기스무디",
+       "price": 4200
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "망고 스무디",
+       "price": 4200
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "키위 스무디",
+       "price": 4200
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "플레인요거트",
+       "price": 4500
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "블루베리요거트",
+       "price": 5500
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "녹차스무디",
+       "price": 5500
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "아보카도",
+       "price": 5600
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "오레오쿠키 프라페",
+       "price": 5500
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "민트초코프라페",
+       "price": 5500
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "초코띵프라페",
+       "price": 5200
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "리얼딸기프라페",
+       "price": 5500
+      },
+      {
+       "category": "스무디 & 프라페",
+       "name": "팥빙수프라페",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794465217605119"
+  },
   {
    "ts": "1794465062.383589",
    "date": "2026-11-12",
