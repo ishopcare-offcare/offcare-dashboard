@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5123,
- "updatedAt": "2026-11-12 12:45",
+ "version": 5124,
+ "updatedAt": "2026-11-12 13:19",
  "days": 30,
  "items": [
   {
@@ -71241,33 +71241,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791867553819499"
-  },
-  {
-   "ts": "1791865140.396939",
-   "date": "2026-10-13",
-   "time": "13:19",
-   "store": "금정돼지",
-   "biz": "4280502050",
-   "pos": "",
-   "content": "외주 메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴",
-    "제대로한거맞아요?",
-    "문제점 무엇",
-    "해당매장 민원매장이며\n티오더 연동필요매장\n• 메뉴도 제대로 안되어있으면 온도감이 더 커짐 \n• 수정 두번 티오더에 연동해야함 당일에 티오더에서 작업안해주면 기존포스 원복 후 다시 설치해야하는 상황발생\n• 담당자는 최종 업로드전 검수 필요\n• AI를 100% 신뢰할 수 없음, 가격정보도 마찬가지 가격에 0하나 빠져있으면 이것도 강성민원 보상해줘야하는 case 발생",
-    "4번케이스 발생을 막기위해 솔라피 발송시 한번 확인해 달라는 멘트 필요."
-   ],
-   "rc": 33,
-   "lr": "1791878638.763789",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791865140396939"
   }
  ],
  "ocr": {
