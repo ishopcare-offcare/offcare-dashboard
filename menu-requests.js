@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5162,
- "updatedAt": "2026-11-12 18:03",
+ "version": 5163,
+ "updatedAt": "2026-11-12 18:20",
  "days": 30,
  "items": [
   {
@@ -68162,36 +68162,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791886608301069"
-  },
-  {
-   "ts": "1791883230.513009",
-   "date": "2026-10-13",
-   "time": "18:20",
-   "store": "우월감성",
-   "biz": "3678103684",
-   "pos": "",
-   "content": "키오스크 상품 이미지 등록 요청.",
-   "special": "",
-   "drive": [],
-   "files": 2,
-   "att": [
-    {
-     "name": "키오스크-첫화면gif.gif",
-     "fid": "F0C8X0712GL",
-     "from": "원글",
-     "kind": "other",
-     "menu": [],
-     "v": 2
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 7,
-   "lr": "1791886189.014519",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791883230513009"
   }
  ],
  "ocr": {
