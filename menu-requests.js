@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5113,
- "updatedAt": "2026-11-12 10:48",
+ "version": 5114,
+ "updatedAt": "2026-11-12 10:50",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CH1RB08LR",
      "from": "댓글",
-     "path": "menu-files/1794447759_236489-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -52,13 +51,13 @@ window.MENU_REQUESTS = {
        "price": 4500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794447759_236489-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CGZP5N1EE",
      "from": "댓글",
-     "path": "menu-files/1794447759_236489-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -72,17 +71,18 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794447759_236489-1.png"
     }
    ],
    "datt": [],
    "replies": [
     "[추가]\n1. 커피미숫가루  4,000원 | 옵션 샷 1 > 기본 / 샷 2 > 500\n2. 디카콜드라떼  4,000원 , 디카골드라떼 4500원\n[삭제]\n1. 복숭아아이스티 옵션에 연하게랑 기본 삭제"
    ],
-   "rc": 1,
-   "lr": "1794447851.503919",
+   "rc": 2,
+   "lr": "1794448195.478169",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794447759236489"
   },
