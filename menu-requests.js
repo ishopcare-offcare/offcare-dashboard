@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5114,
- "updatedAt": "2026-11-12 10:50",
+ "version": 5115,
+ "updatedAt": "2026-11-12 11:03",
  "days": 30,
  "items": [
   {
@@ -71221,62 +71221,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791865140396939"
-  },
-  {
-   "ts": "1791856908.442469",
-   "date": "2026-10-13",
-   "time": "11:01",
-   "store": "(봉명동)(주) 형과아우",
-   "biz": "1398802492",
-   "pos": "오케이포스",
-   "content": "프로그램 : 오케이포스\n흑염소탕(보통) 15,000 원 > 13,000원으로 수정 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C8K8MPM7F",
-     "from": "댓글",
-     "path": "menu-files/1791856908_442469-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "흑염소",
-       "name": "흑염소탕(보통)",
-       "price": 13000
-      },
-      {
-       "category": "흑염소",
-       "name": "황칠 흑염소탕\"특대\"",
-       "price": 18000
-      },
-      {
-       "category": "흑염소",
-       "name": "황칠 흑염소 전골 (3~4인분)",
-       "price": 0
-      },
-      {
-       "category": "흑염소",
-       "name": "황칠흑염소 고기추가 (200g)",
-       "price": 0
-      },
-      {
-       "category": "흑염소",
-       "name": "버섯야채추가",
-       "price": 5000
-      }
-     ]
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1791857583.332949",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791856908442469"
   }
  ],
  "ocr": {
