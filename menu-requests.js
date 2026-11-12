@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5100,
- "updatedAt": "2026-11-12 09:17",
+ "version": 5101,
+ "updatedAt": "2026-11-12 09:19",
  "days": 30,
  "items": [
   {
@@ -73253,112 +73253,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791850908884939"
-  },
-  {
-   "ts": "1791850780.454349",
-   "date": "2026-10-13",
-   "time": "09:19",
-   "store": "아인탑",
-   "biz": "6968803577",
-   "pos": "토스포스",
-   "content": "메뉴 사진 등록 요청",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1UlxBXhvPTIVk9ffP4A-FXaFWofklfFFS/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1JYT5aE075-ydYV_IcGnHO2dD0DSnKovc/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1ySlmGJR8s0RgGDjRw7l5pYcGj2x8KboV/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1iXCj1Njw-xKJkqk5n-4Q57vyUBzE9C-X/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1Te5C2X5hmxPVuJiuaI2QMDeGKm5mZLoP/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1UlxBXhvPTIVk9ffP4A-FXaFWofklfFFS",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1JYT5aE075-ydYV_IcGnHO2dD0DSnKovc",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1ySlmGJR8s0RgGDjRw7l5pYcGj2x8KboV",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1iXCj1Njw-xKJkqk5n-4Q57vyUBzE9C-X",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1Te5C2X5hmxPVuJiuaI2QMDeGKm5mZLoP",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791850780454349"
-  },
-  {
-   "ts": "1791850699.113949",
-   "date": "2026-10-13",
-   "time": "09:18",
-   "store": "아인탑",
-   "biz": "6968803577",
-   "pos": "토스포스",
-   "content": "메뉴 사진 등록 요청",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1B4Z4lxkU84sxZd7M2B0yDfVufH1xA53a/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1QjRpCe-ruzvlh9CH-kRZyXB4RQyUW2I-/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1tfdpd6iwjDFb57t20hsOuEboZDa9h-vC/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1mLNEPBDLSTMnO-jZhWmx6deAsqMhx9pN/view?usp=drivesdk",
-    "https://drive.google.com/file/d/1IcUQ-tsLDajX--XqxAklxvL7dZZObiRF/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1B4Z4lxkU84sxZd7M2B0yDfVufH1xA53a",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1QjRpCe-ruzvlh9CH-kRZyXB4RQyUW2I-",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1tfdpd6iwjDFb57t20hsOuEboZDa9h-vC",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1mLNEPBDLSTMnO-jZhWmx6deAsqMhx9pN",
-     "kind": "product_photo",
-     "menu": []
-    },
-    {
-     "id": "1IcUQ-tsLDajX--XqxAklxvL7dZZObiRF",
-     "kind": "product_photo",
-     "menu": []
-    }
-   ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791850699113949"
   }
  ],
  "ocr": {
