@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5155,
- "updatedAt": "2026-11-12 17:52",
+ "version": 5156,
+ "updatedAt": "2026-11-12 17:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1794473611.613099",
+   "date": "2026-11-12",
+   "time": "17:53",
+   "store": "갈풍집",
+   "biz": "1053663366",
+   "pos": "오케이포스",
+   "content": "오케이포스 메뉴 이름 수정 요청  드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "환타 포도 → 환타 파인 으로 변경 요청 드립니다."
+   ],
+   "rc": 1,
+   "lr": "1794473638.493539",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794473611613099"
+  },
   {
    "ts": "1794473451.712219",
    "date": "2026-11-12",
@@ -215,8 +238,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1794473477.972529",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794473451712219"
   },
   {
