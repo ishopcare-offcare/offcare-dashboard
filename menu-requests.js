@@ -3,10 +3,41 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5234,
- "updatedAt": "2026-11-13 17:24",
+ "version": 5235,
+ "updatedAt": "2026-11-13 17:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1794558433.624829",
+   "date": "2026-11-13",
+   "time": "17:27",
+   "store": "주식회사 니드스튜디오",
+   "biz": "7388703966",
+   "pos": "",
+   "content": "TID 확인 부탁드립니다.\n\n• 사업자번호 : ···/ 주식회사 니드스튜디오 (NID STUDIO)\n• TID: ···\n 페이먼츠 건입니다 프론트 터미널 온보딩 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHENMMJ6N",
+     "from": "댓글",
+     "path": "menu-files/1794558433_624829-0.png",
+     "kind": "other",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794558444.254299",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794558433624829"
+  },
   {
    "ts": "1794557763.859139",
    "date": "2026-11-13",
