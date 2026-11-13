@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5194,
- "updatedAt": "2026-11-13 12:06",
+ "version": 5195,
+ "updatedAt": "2026-11-13 12:08",
  "days": 30,
  "items": [
   {
@@ -408,8 +408,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794538402973049"
   },
   {
@@ -609,7 +609,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_0523.png",
      "fid": "F0CHELLCPBK",
      "from": "댓글",
-     "path": "menu-files/1794537745_754549-2.png",
      "kind": "other",
      "menu": [
       {
@@ -703,13 +702,13 @@ window.MENU_REQUESTS = {
        "price": 4600
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794537745_754549-2.png"
     },
     {
      "name": "IMG_0524.png",
      "fid": "F0CHGF0ES76",
      "from": "댓글",
-     "path": "menu-files/1794537745_754549-3.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -788,7 +787,8 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794537745_754549-3.png"
     }
    ],
    "datt": [],
@@ -797,8 +797,8 @@ window.MENU_REQUESTS = {
     "새로운 이미지 받는대로 재업로드 드리겠습니다.",
     "재업로드 드립니다!!"
    ],
-   "rc": 3,
-   "lr": "1794538615.625949",
+   "rc": 4,
+   "lr": "1794539248.420829",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
