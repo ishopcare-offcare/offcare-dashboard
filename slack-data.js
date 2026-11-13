@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33161,
+  "version": 33162,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323555,7 +323555,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:00"
+      "updatedAt": "09:03"
     }
   },
   "resp": {
@@ -323636,15 +323636,18 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794528184.069
+        "lastSeen": 1794528283.511
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794528184.069
+        "lastSeen": 1794528283.511
       },
       "1794528008.159649": {
         "post": "1794528008.159649",
-        "lastSeen": 1794528184.069
+        "lastSeen": 1794528283.511,
+        "r": 1,
+        "day": "2026-11-13",
+        "idx": 0
       }
     },
     "days": {
@@ -448245,11 +448248,26 @@ window.SLACK_DATA = {
             "dmin": 12.7
           }
         ]
+      },
+      "2026-11-13": {
+        "cnt": 1,
+        "sumMin": 3.7605058511098224,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:00",
+            "min": 3.8,
+            "store": "윤소화실학원",
+            "biz": "4609002180",
+            "who": "김동욱",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-13 09:03",
+    "at": "2026-11-13 09:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448407,7 +448425,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 09:03",
+    "at": "2026-11-13 09:04",
     "pri": {
       "days": 0,
       "failed": [],
