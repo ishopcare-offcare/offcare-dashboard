@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33246,
+  "version": 33247,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323549,9 +323549,9 @@ window.SLACK_DATA = {
     "2026-11-13": {
       "counts": {
         "as": {
+          "송태양": 8,
           "김동욱": 8,
-          "송태양": 7,
-          "배선유": 6,
+          "배선유": 7,
           "김규빈": 4,
           "서상원": 4,
           "김기범": 1,
@@ -323570,7 +323570,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "transfer": {
-          "심성현": 2
+          "심성현": 3
         },
         "menu": {
           "송태양": 2
@@ -323578,6 +323578,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:24",
+          "store": "태영생막창 둔포테크노밸리점",
+          "biz": "6202285649",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "<https://ishopcare.enterprise.slack.com/archives/C09HRUSG4TX/p1793233135913619|https://ishopcare.enterprise.slack.com/archives/C09HRUSG4TX/p",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:11",
           "store": "별미분식",
@@ -323589,6 +323600,28 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "기존 사용하던 태블릿 고장으로 포터프(휴대폰) 재온보딩 완료.",
           "rr": 1
+        },
+        {
+          "time": "11:08",
+          "store": "온니",
+          "biz": "8036300670",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "11월 13일 오전 11시 20분 / 메뉴 복사 O / 터프",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "11:06",
+          "store": "앰프레소 서대문점",
+          "biz": "7878802194",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "토스포스(노트북) / 대형 키오스크 2대 중 1대에서만 전원을 켜고 포스 어플이 켜지지 않는 오류가 발생하고 있다고 하십니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "11:03",
@@ -324122,11 +324155,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 34,
+        "online": 37,
         "offline": 11,
         "unknown": 0
       },
-      "updatedAt": "11:26"
+      "updatedAt": "11:30"
     }
   },
   "resp": {
@@ -324200,29 +324233,27 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794536898.703
+        "lastSeen": 1794537013.22
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794536898.703
-      },
-      "1794535593.057549": {
-        "post": "1794535593.057549",
-        "lastSeen": 1794536898.703,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 35
-      },
-      "1794535689.257489": {
-        "post": "1794535689.257489",
-        "lastSeen": 1794536898.703,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 37
+        "lastSeen": 1794537013.22
       },
       "1794536777.205419": {
         "post": "1794536777.205419",
-        "lastSeen": 1794536898.703
+        "lastSeen": 1794537013.22
+      },
+      "1794537000.863379": {
+        "post": "1794537000.863379",
+        "lastSeen": 1794537013.22
+      },
+      "1794537000.383979": {
+        "post": "1794537000.383979",
+        "lastSeen": 1794537013.22
+      },
+      "1794536914.416189": {
+        "post": "1794536914.416189",
+        "lastSeen": 1794537013.22
       }
     },
     "days": {
@@ -449150,7 +449181,8 @@ window.SLACK_DATA = {
             "store": "앰프레소 서대문점",
             "biz": "7878802194",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 22.7
           },
           {
             "hm": "11:11",
@@ -449167,14 +449199,15 @@ window.SLACK_DATA = {
             "store": "온니",
             "biz": "8036300670",
             "who": "심성현",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 21.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-13 11:29",
+    "at": "2026-11-13 11:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -449332,7 +449365,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 11:28",
+    "at": "2026-11-13 11:30",
     "pri": {
       "days": 0,
       "failed": [],
