@@ -3,10 +3,376 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5197,
- "updatedAt": "2026-11-13 12:11",
+ "version": 5198,
+ "updatedAt": "2026-11-13 12:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1794541330.351679",
+   "date": "2026-11-13",
+   "time": "12:42",
+   "store": "고아웃위드",
+   "biz": "2965401016",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_20261113_123914.jpg",
+     "fid": "F0CHEUDLT3K",
+     "from": "댓글",
+     "path": "menu-files/1794541330_351679-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노",
+       "price": 3700
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛 아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페 라떼",
+       "price": 4200
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라 라떼",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "돌체 라떼",
+       "price": 4700
+      },
+      {
+       "category": "Coffee",
+       "name": "아샷추",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "말샷추",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261113_123915.jpg",
+     "fid": "F0CHCS3U2TC",
+     "from": "댓글",
+     "path": "menu-files/1794541330_351679-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "NON-Coffee",
+       "name": "말차 라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "생딸기 라떼",
+       "price": 4800
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "말차 딸기 라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "초코라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "레몬차",
+       "price": 4500
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "레몬 에이드",
+       "price": 5000
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "딸기 에이드",
+       "price": 5500
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "토마토 바질 에이드",
+       "price": 6000
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "우베 라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-Coffee",
+       "name": "프로틴",
+       "price": 2500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261113_123916.jpg",
+     "fid": "F0CHCS48BNW",
+     "from": "댓글",
+     "path": "menu-files/1794541330_351679-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "SIGNATURE",
+       "name": "베이직 크림 라떼",
+       "price": 5000
+      },
+      {
+       "category": "SIGNATURE",
+       "name": "흑임자 크림 라떼",
+       "price": 5400
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261113_123917.jpg",
+     "fid": "F0CHGNUJHGC",
+     "from": "댓글",
+     "path": "menu-files/1794541330_351679-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "생강차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아 아이스티",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "망고 아이스티",
+       "price": 3500
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스 베리",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "유기농 녹차",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "페퍼민트",
+       "price": 4000
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261113_123921.jpg",
+     "fid": "F0CHEUFBYC9",
+     "from": "댓글",
+     "path": "menu-files/1794541330_351679-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "옵션 그룹",
+       "name": "핫",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "아이스",
+       "name": "아이스",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "휘낭시애",
+       "name": "초코 솔티",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "휘낭시애",
+       "name": "황치즈",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "휘낭시애",
+       "name": "인절미",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "휘낭시애",
+       "name": "밀차",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "휘낭시애",
+       "name": "얼그레이 레몬",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "휘낭시애",
+       "name": "플레인",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "소금빵",
+       "name": "초코소금빵",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "쫀득빵",
+       "name": "딸기",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "쫀득빵",
+       "name": "블루베리",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "빙수",
+       "name": "컵빙수",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "빙수",
+       "name": "1인빙수",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "빙수",
+       "name": "2인빙수",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261113_123918.jpg",
+     "fid": "F0CGXLJBC2K",
+     "from": "댓글",
+     "path": "menu-files/1794541330_351679-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "버터쿠키",
+       "price": 2000
+      },
+      {
+       "category": "디저트",
+       "name": "휘낭시애",
+       "price": 2400
+      },
+      {
+       "category": "디저트",
+       "name": "쌀 소금빵",
+       "price": 3200
+      },
+      {
+       "category": "디저트",
+       "name": "버터떡",
+       "price": 1500
+      },
+      {
+       "category": "디저트",
+       "name": "쌀 에그타르트",
+       "price": 3800
+      },
+      {
+       "category": "디저트",
+       "name": "Mini 바스크 치즈 케이크",
+       "price": 5000
+      },
+      {
+       "category": "디저트",
+       "name": "컵빙수",
+       "price": 5500
+      },
+      {
+       "category": "디저트",
+       "name": "소금빵 러스크",
+       "price": 2400
+      },
+      {
+       "category": "디저트",
+       "name": "연유",
+       "price": 500
+      },
+      {
+       "category": "디저트",
+       "name": "흑임자 연유",
+       "price": 700
+      },
+      {
+       "category": "디저트",
+       "name": "플레인 베이글",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "베이글 산도",
+       "price": 7000
+      },
+      {
+       "category": "디저트",
+       "name": "햄치즈 베이글 샌드위치",
+       "price": 7500
+      },
+      {
+       "category": "디저트",
+       "name": "쫀득빵",
+       "price": 3800
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794541391.731429",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794541330351679"
+  },
   {
    "ts": "1794538743.709519",
    "date": "2026-11-13",
