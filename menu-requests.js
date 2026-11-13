@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5190,
- "updatedAt": "2026-11-13 11:56",
+ "version": 5191,
+ "updatedAt": "2026-11-13 11:58",
  "days": 30,
  "items": [
   {
@@ -328,7 +328,6 @@ window.MENU_REQUESTS = {
      "name": "RenderedI.jpg",
      "fid": "F0CHGDB9H5J",
      "from": "댓글",
-     "path": "menu-files/1794537745_754549-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -410,13 +409,13 @@ window.MENU_REQUESTS = {
        "code": "M"
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794537745_754549-0.jpg"
     },
     {
      "name": "IMG_0512.png",
      "fid": "F0CH6FC8J11",
      "from": "댓글",
-     "path": "menu-files/1794537745_754549-1.png",
      "kind": "other",
      "menu": [
       {
@@ -480,16 +479,203 @@ window.MENU_REQUESTS = {
        "code": "Z"
       }
      ],
+     "v": 3,
+     "path": "menu-files/1794537745_754549-1.png"
+    },
+    {
+     "name": "IMG_0523.png",
+     "fid": "F0CHELLCPBK",
+     "from": "댓글",
+     "path": "menu-files/1794537745_754549-2.png",
+     "kind": "other",
+     "menu": [
+      {
+       "category": "샌드베이글",
+       "name": "두바이초코",
+       "price": 12500
+      },
+      {
+       "category": "샌드베이글",
+       "name": "블루베리치즈",
+       "price": 12500
+      },
+      {
+       "category": "샌드베이글",
+       "name": "두바이딸기",
+       "price": 14500
+      },
+      {
+       "category": "샌드베이글",
+       "name": "후르츠",
+       "price": 10900
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그샌드위치",
+       "price": 7800
+      },
+      {
+       "category": "샌드위치",
+       "name": "꼬꼬샌드위치",
+       "price": 11900
+      },
+      {
+       "category": "샌드위치",
+       "name": "연어샌드위치",
+       "price": 11900
+      },
+      {
+       "category": "샌드위치",
+       "name": "참봉샌드위치",
+       "price": 8900
+      },
+      {
+       "category": "샌드위치",
+       "name": "베이컨샌드위치",
+       "price": 9100
+      },
+      {
+       "category": "베이글",
+       "name": "플레인",
+       "price": 3000
+      },
+      {
+       "category": "베이글",
+       "name": "블루베리",
+       "price": 3700
+      },
+      {
+       "category": "베이글",
+       "name": "초코",
+       "price": 3700
+      },
+      {
+       "category": "베이글",
+       "name": "올리브",
+       "price": 3700
+      },
+      {
+       "category": "쫀득빵",
+       "name": "초코나무숲",
+       "price": 5100
+      },
+      {
+       "category": "쫀득빵",
+       "name": "말차",
+       "price": 5100
+      },
+      {
+       "category": "쫀득빵",
+       "name": "황치즈",
+       "price": 4500
+      },
+      {
+       "category": "쫀득빵",
+       "name": "블루베리",
+       "price": 5100
+      },
+      {
+       "category": "쫀득빵",
+       "name": "초코",
+       "price": 4600
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_0524.png",
+     "fid": "F0CHGF0ES76",
+     "from": "댓글",
+     "path": "menu-files/1794537745_754549-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "베이컨샌드위치",
+       "price": 9100
+      },
+      {
+       "category": "베이글",
+       "name": "플레인",
+       "price": 3000
+      },
+      {
+       "category": "베이글",
+       "name": "블루베리",
+       "price": 3700
+      },
+      {
+       "category": "베이글",
+       "name": "초코",
+       "price": 3700
+      },
+      {
+       "category": "베이글",
+       "name": "올리브",
+       "price": 3700
+      },
+      {
+       "category": "쫀득빵",
+       "name": "초코나무숲",
+       "price": 5100
+      },
+      {
+       "category": "쫀득빵",
+       "name": "말차",
+       "price": 5100
+      },
+      {
+       "category": "쫀득빵",
+       "name": "황치즈",
+       "price": 4500
+      },
+      {
+       "category": "쫀득빵",
+       "name": "블루베리",
+       "price": 5100
+      },
+      {
+       "category": "쫀득빵",
+       "name": "초코",
+       "price": 4600
+      },
+      {
+       "category": "모찌",
+       "name": "귤팥모찌",
+       "price": 4000
+      },
+      {
+       "category": "모찌",
+       "name": "샤인우유모찌",
+       "price": 4000
+      },
+      {
+       "category": "모찌",
+       "name": "생초코딸기모찌",
+       "price": 6000
+      },
+      {
+       "category": "모찌",
+       "name": "두바이초코모찌",
+       "price": 6000
+      },
+      {
+       "category": "모찌",
+       "name": "생초코모찌",
+       "price": 4000
+      }
+     ],
      "v": 3
     }
    ],
    "datt": [],
    "replies": [
     "X뒤 숫자는 수량이라고 하셔서 고객님께 메뉴판 재요청드렸습니다.",
-    "새로운 이미지 받는대로 재업로드 드리겠습니다."
+    "새로운 이미지 받는대로 재업로드 드리겠습니다.",
+    "재업로드 드립니다!!"
    ],
-   "rc": 2,
-   "lr": "1794538366.334399",
+   "rc": 3,
+   "lr": "1794538615.625949",
    "rfx": 3,
    "status": "wait",
    "handler": null,
