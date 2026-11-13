@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5181,
- "updatedAt": "2026-11-13 10:28",
+ "version": 5182,
+ "updatedAt": "2026-11-13 10:41",
  "days": 30,
  "items": [
   {
@@ -29,10 +29,10 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "메뉴 대량등록 시 998개 칸을 수정하고 다시 시도하라는 에러가 지속 팝업되어\n도움주실 수 있으실까요~? :woman-bowing:"
+    "메뉴 대량등록 시 998개 칸을 수정하고 다시 시도하라는 에러가 지속 팝업되어\n도움주실 수 있으실까요~? :woman-bowing: 완료 후 문자 주시면 감사드리겠습니다!"
    ],
-   "rc": 2,
-   "lr": "1794533114.249149",
+   "rc": 3,
+   "lr": "1794534083.396979",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -69208,27 +69208,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791943173141829"
-  },
-  {
-   "ts": "1791942083.655539",
-   "date": "2026-10-14",
-   "time": "10:41",
-   "store": "뚜레쥬르 킨텍스2전시장점",
-   "biz": "1283678896",
-   "pos": "토스포스",
-   "content": "수정\n순수한맛순우유롤\n3000》3600원\n콥샐러드\n9800》10800원",
-   "special": "···",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791942083655539"
   }
  ],
  "ocr": {
