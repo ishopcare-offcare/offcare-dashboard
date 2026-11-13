@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5182,
- "updatedAt": "2026-11-13 10:41",
+ "version": 5183,
+ "updatedAt": "2026-11-13 10:59",
  "days": 30,
  "items": [
   {
@@ -69181,33 +69181,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791945626134079"
-  },
-  {
-   "ts": "1791943173.141829",
-   "date": "2026-10-14",
-   "time": "10:59",
-   "store": "더드럼7090",
-   "biz": "1396300360",
-   "pos": "퍼스트포스",
-   "content": "맥주SET에 이벤트5만원 - 가격도 50,000원  추가요청주셨습니다.:꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "선유님 출격~~",
-    "그 맥주 SET가 카테고릴라고하시는데",
-    "아닌거예요????",
-    ":헐:",
-    "이놈의 대표님..."
-   ],
-   "rc": 9,
-   "lr": "1791944120.071669",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791943173141829"
   }
  ],
  "ocr": {
