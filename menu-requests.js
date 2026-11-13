@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5214,
- "updatedAt": "2026-11-13 14:35",
+ "version": 5215,
+ "updatedAt": "2026-11-13 14:40",
  "days": 30,
  "items": [
   {
@@ -69351,27 +69351,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791958009098999"
-  },
-  {
-   "ts": "1791956382.118499",
-   "date": "2026-10-14",
-   "time": "14:39",
-   "store": "김반장",
-   "biz": "3700400722",
-   "pos": "",
-   "content": "메뉴 수정 요청주셨습니다.\n7종세트에서 튀김추가 1,400 -> 1,200원으로 수정 요청 주셨습니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1791961074.010289",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791956382118499"
   }
  ],
  "ocr": {
