@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33287,
+  "version": 33288,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323554,6 +323554,11 @@ window.SLACK_DATA = {
           "김규빈": 1,
           "김동욱": 1
         },
+        "onboarding": {
+          "송태양": 3,
+          "김동욱": 1,
+          "김규빈": 1
+        },
         "nosetup": {
           "송태양": 2,
           "배선유": 1
@@ -323570,11 +323575,6 @@ window.SLACK_DATA = {
         "extern": {
           "김동욱": 1,
           "서상원": 1
-        },
-        "onboarding": {
-          "송태양": 2,
-          "김동욱": 1,
-          "김규빈": 1
         },
         "transfer": {
           "심성현": 4
@@ -323608,6 +323608,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "현재 매장 혼잡 1430 통화 예약 요청",
+          "rr": 1
+        },
+        {
+          "time": "12:20",
+          "store": "아소비큐미르평택고덕힐스테이트센트럴학원",
+          "biz": "7419202083",
+          "cat": "onboarding",
+          "emp": "송태양",
+          "req": "유프 자가설치하셨으나 걸리는듯 안나온다하여 점검부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "5분뒤 재통화요청",
           "rr": 1
         },
         {
@@ -324439,11 +324451,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 58,
+        "online": 59,
         "offline": 13,
         "unknown": 0
       },
-      "updatedAt": "12:32"
+      "updatedAt": "12:40"
     }
   },
   "resp": {
@@ -324517,18 +324529,15 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794541124.891
+        "lastSeen": 1794541258.061
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794541124.891
+        "lastSeen": 1794541258.061
       },
-      "1794540044.002109": {
-        "post": "1794540044.002109",
-        "lastSeen": 1794541124.891,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 55
+      "1794541231.736379": {
+        "post": "1794541231.736379",
+        "lastSeen": 1794541258.061
       }
     },
     "days": {
@@ -449636,7 +449645,8 @@ window.SLACK_DATA = {
             "store": "아소비큐미르평택고덕힐스테이트센트럴학원",
             "biz": "7419202083",
             "who": "송태양",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 19.1
           },
           {
             "hm": "12:24",
@@ -449652,7 +449662,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 12:39",
+    "at": "2026-11-13 12:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -449810,7 +449820,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 12:38",
+    "at": "2026-11-13 12:40",
     "pri": {
       "days": 0,
       "failed": [],
@@ -449822,7 +449832,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 114,
+      "budgetLeft": 115,
       "failed": []
     }
   }
