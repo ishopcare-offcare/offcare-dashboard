@@ -931,6 +931,18 @@
     padding:13px 16px; font-size:13.5px; color:var(--ink-soft); line-height:1.6; margin-bottom:16px}
   .adm-note b{color:var(--ink)}
   /* 월별 처리 건수 탭: 구간 제목 */
+  /* 분류별 총 처리 건수: 분류마다 작은 그래프 · 월별 수치 통합 표 */
+  .ct-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px 14px}
+  .ct-mini{border:1px solid var(--line-soft); border-radius:12px; padding:9px 11px 7px; background:var(--surface-soft)}
+  .ct-h{display:flex; justify-content:space-between; align-items:baseline; font-size:12.5px; font-weight:800; color:var(--ink)}
+  .ct-dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:6px; vertical-align:1px}
+  .ct-v{font-size:11.5px; color:var(--gray2); font-weight:600} .ct-v b{font-size:15px; margin-right:1px}
+  .ct-sub{font-size:10.5px; color:var(--gray2); margin-top:1px}
+  .at-year{font-size:15px; font-weight:800; color:var(--ink); margin:20px 0 8px} .at-year:first-of-type{margin-top:4px}
+  table.matrix.mtbl tr.mstrong td{font-weight:800; color:var(--ink)}
+  table.matrix.mtbl.at-tbl{min-width:0; width:100%; font-size:12.5px}
+  table.matrix.mtbl.at-tbl th,table.matrix.mtbl.at-tbl td{padding:6px 7px; white-space:nowrap}
+  table.matrix.mtbl.at-tbl td.mlab{min-width:118px}
   .adm-sec{font-size:17px; font-weight:800; color:var(--ink); letter-spacing:-.01em; margin:30px 0 12px; padding-top:18px; border-top:1px solid var(--line-soft)}
   table.matrix.hm{font-size:12.5px; min-width:860px}
   table.matrix.hm th{padding:7px 4px; font-size:11px}
@@ -4695,7 +4707,7 @@ function admByYear(R){
   const ys=[...new Set(R.map(r=>r.m.slice(0,4)))].sort();
   return ys.map(y=>({y, rows:R.filter(r=>r.m.startsWith(y))}));
 }
-function admChannel(noNote){
+function admChannel(noNote, noTable){
   const R=admMonthlyWithHist().filter(r=>r.online!=null); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;   // 2025 는 온·오프라인 구분이 없어 제외
   const L=R.map(r=>r.m.replace('-','.'));
   const s=[{n:'온라인',c:'#0071e3',v:R.map(r=>r.online)},{n:'오프라인',c:'#ff9500',v:R.map(r=>r.offline)}];
@@ -4705,7 +4717,7 @@ function admChannel(noNote){
     + `<div class="card"><div class="card-head"><h3>1일 평균 비교</h3><span class="hint">월 건수 ÷ 평일 수(토·일·공휴일 제외)</span></div>
         ${monthLineChart(L,[{n:'온라인',c:'#0071e3',v:R.map(r=>admPerDay(r.online,r))},
                            {n:'오프라인',c:'#ff9500',v:R.map(r=>admPerDay(r.offline,r))}], v=>Number(v).toFixed(1), {w:1100,h:320})}</div>`
-    + `<div class="card"><div class="card-head"><h3>월별 수치</h3>
+    + (noTable?'':`<div class="card"><div class="card-head"><h3>월별 수치</h3>
           <span class="hint">유형별: <b>2026.01~06</b> 월간 리포트 · <b>07~</b> 대시보드 집계 · VOC는 처리 완료 건 · 2025년은 온·오프라인 구분이 없어 <b>온보딩·AS</b> · <b>근무일</b> 탭에서 보세요</span></div>
         <div class="adm-note" style="margin:0 0 10px">⚠️ <b>부재*</b> 는 두 구간의 기준이 다릅니다 —
           <b>01~06</b> 은 그 달에 <b>발생한</b> 부재 건수(리포트), <b>07~</b> 은 <b>미해결로 남은</b> 부재 건수입니다.
@@ -4713,7 +4725,7 @@ function admChannel(noNote){
         ${monthTable(L, s, [{n:'평일 수', v:R.map(r=>r.biz), tot:R.reduce((a,r)=>a+r.biz,0)},
                             {n:'온라인 비중', v:share.map(p=>p+'%')},
                             {group:'유형별 처리 건수'},
-                            ...admTypeRows(R)])}</div>`;
+                            ...admTypeRows(R)])}</div>`);
 }
 /* 월별 수치 표의 유형별 세부 행 — 리포트(1~6월)와 라이브(7월~)를 같은 행에 이어 붙인다.
  * VOC·부재는 WORK_CATS 에 없어 admMonthly 가 따로 담아 둔 값을 쓴다. */
@@ -4733,7 +4745,7 @@ function admTypeRows(R){
     return {n, v:v.map(x=>x?x.toLocaleString():'·'), tot:v.reduce((a,b)=>a+b,0).toLocaleString()};
   });
 }
-function admWorkday(noNote){
+function admWorkday(noNote, noTable){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const table=R=>{
   const perDay=R.map(r=>admPerDay(r.total,r));
@@ -4765,7 +4777,7 @@ function admWorkday(noNote){
     + admCatTotalCard(R)
     + yoyChart('📆 1일 평균 처리', R, r=>admPerDay(r.total,r), v=>Number(v).toFixed(1), 'avg', '총 건수 ÷ 평일 수')
     + `</div>`
-    + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수 · 합계 줄의 1일 평균 = 연간 총 건수 ÷ 연간 평일 수</span></div>${table(Ry)}</div>`).join('');
+    + (noTable?[]:admByYear(R)).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수 · 합계 줄의 1일 평균 = 연간 총 건수 ÷ 연간 평일 수</span></div>${table(Ry)}</div>`).join('');
 }
 
 // 월별 꺾은선 — series:[{n,c,v:[...]}]. v 에 null 이 있으면 그 달은 점을 찍지 않고 선을 끊는다(데이터 없는 달).
@@ -4807,16 +4819,87 @@ const CATTOT_CATS=[
   {key:'as',         icon:'🔧', name:'AS'},
   ...DRIM_CATS,
 ];
+// 📊 분류별 총 처리 건수 — 분류마다 작은 그래프(각자 눈금). AS 가 다른 분류의 5~10배라 한 축에 그리면 나머지 선이 바닥에 붙는다.
+// 최근 12개월 · 배달은 2026.04 부터 집계(그 전 달은 선을 끊음) · 점에 마우스 → 숫자
 function admCatTotalCard(R){
-  const Rr=R.slice(-12), L=Rr.map(r=>r.m.replace('-','.'));
+  const Rr=R.slice(-12);
   const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
-  const s=CATTOT_CATS.map(c=>({n:`${c.icon} ${c.name}`, c:colorOf(c.key), v:Rr.map(r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0))}));
-  return `<div class="card"><div class="card-head"><h3>📊 분류별 총 처리 건수</h3><span class="hint">최근 12개월 · 점에 마우스 → 숫자</span></div>
-    ${monthLineChart(L, s, null, {w:560, h:300})}</div>`;
+  const mon=r=>Number(r.m.slice(5,7))+'월';
+  const mini=c=>{
+    const col=c.key==='as'?'#34c759':c.key==='onboarding'?'#0071e3':colorOf(c.key);
+    const v=Rr.map(r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0));
+    const W=260, H=78, pL=8, pR=8, pT=15, pB=4, base=H-pB, ph=H-pT-pB;
+    const vs=v.filter(x=>x!=null), mx=Math.max(1,...vs), mn=Math.min(...vs);
+    const lo=Math.max(0, mn-(mx-mn)*0.25), span=Math.max(1, mx-lo);
+    const X=i=>pL+i*(W-pL-pR)/(Rr.length-1), Y=x=>base-(x-lo)/span*ph;
+    const segs=[]; let cur=[];
+    v.forEach((x,i)=>{ if(x==null){ if(cur.length) segs.push(cur); cur=[]; } else cur.push([X(i),Y(x)]); }); if(cur.length) segs.push(cur);
+    const P=p=>p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ');
+    const area=segs.map(p=>p.length>1?`<polygon points="${p[0][0].toFixed(1)},${base} ${P(p)} ${p[p.length-1][0].toFixed(1)},${base}" fill="${col}" opacity=".10"/>`:'').join('');
+    const lines=segs.map(p=>p.length>1?`<polyline points="${P(p)}" fill="none" stroke="${col}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>`:'').join('');
+    const last=v.reduce((a,x,i)=>x!=null?i:a,-1), imx=v.indexOf(mx);
+    const dots=v.map((x,i)=>x==null?'':`<circle cx="${X(i).toFixed(1)}" cy="${Y(x).toFixed(1)}" r="${i===last?3.6:2.4}" fill="${col}"><title>${Rr[i].m.replace('-','.')} · ${c.name} ${x.toLocaleString()}건</title></circle>`).join('');
+    const lab=(i,anchor)=>`<text class="yoy-val" x="${X(i).toFixed(1)}" y="${(Y(v[i])-7).toFixed(1)}" text-anchor="${anchor}" style="fill:${col};font-size:11px;font-weight:800">${v[i].toLocaleString()}</text>`;
+    const labs=(imx>=0&&imx!==last?lab(imx, imx===0?'start':'middle'):'')+(last>=0?lab(last,'end'):'');
+    const xl='';
+    const tot=vs.reduce((a,b)=>a+b,0);
+    return `<div class="ct-mini"><div class="ct-h"><span class="ct-n"><span class="ct-dot" style="background:${col}"></span>${c.icon} ${c.name}</span>
+        <span class="ct-v">${last>=0?`<b style="color:${col}">${v[last].toLocaleString()}</b>건`:''}</span></div>
+      <svg class="yoy-svg" viewBox="0 0 ${W} ${H}">${area}${lines}${dots}${labs}${xl}</svg>
+      <div class="ct-sub">${mon(Rr[0])}~${mon(Rr[Rr.length-1])} · 합계 ${tot.toLocaleString()} · 최고 ${mx.toLocaleString()}</div></div>`;
+  };
+  return `<div class="card"><div class="card-head"><h3>📊 분류별 총 처리 건수</h3><span class="hint">최근 12개월 · 분류마다 눈금 다름</span></div>
+    <div class="ct-grid">${CATTOT_CATS.map(mini).join('')}</div></div>`;
+}
+/* 📋 월별 수치 — 탭의 모든 표를 맨 아래 한 카드로. 해마다 한 표(최근 해가 위): 전체 · 카테고리별 · 온라인·오프라인 */
+function admAllTable(R){
+  const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
+  const CATS=[{key:'onboarding',icon:'🚀',name:'온보딩',c:'#0071e3'},{key:'as',icon:'🔧',name:'A/S',c:'#34c759'},
+              ...DRIM_CATS.map(c=>Object.assign({c:colorOf(c.key)},c))];
+  const yearTable=(y, Ry)=>{
+    const n=Ry.length;
+    const cls=i=>{ const m=Number(Ry[i].m.slice(5,7)); return 'num'+(i%2?' alt':'')+(m%3===0&&i<n-1?' qend':'')+(i===n-1?' last':''); };
+    const fmtN=v=>(v==null||v==='')?'<span class="zero">·</span>':(typeof v==='number'?(v?v.toLocaleString():'<span class="zero">·</span>'):v);
+    const row=(name, vals, tot, o)=>{ o=o||{};
+      const lab=o.c?`<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${o.c};margin-right:7px"></span>${name}`:name;
+      const st=o.sub?' style="color:var(--gray2);font-weight:700"':'';
+      return `<tr${o.strong?' class="mstrong"':''}><td class="mlab"${o.sub?' style="color:var(--gray2)"':''}>${lab}</td>${vals.map((v,i)=>`<td class="${cls(i)}"${st}>${fmtN(v)}</td>`).join('')}<td class="num tot"${st}>${tot==null?'—':fmtN(tot)}</td></tr>`; };
+    const grp=t=>`<tr class="mgrp"><td colspan="${n+2}">${t}</td></tr>`;
+    const sum=f=>Ry.reduce((a,r)=>a+(Number(f(r))||0),0);
+    const biz=sum(r=>r.biz), tot=sum(r=>r.total);
+    const per=f=>Ry.map(r=>admPerDay(f(r),r));
+    let b='';
+    b+=grp('📦 전체');
+    b+=row('총 처리 건수', Ry.map(r=>r.total), tot, {strong:true});
+    b+=row('근무일 수(평일)', Ry.map(r=>r.biz), biz, {sub:true});
+    b+=row('1일 평균', per(r=>r.total), +(tot/(biz||1)).toFixed(1), {sub:true});
+    b+=row('담당자', Ry.map(r=>r.hist?'—':r.emps), null, {sub:true});
+    b+=row('1인 1일 평균', Ry.map(r=>r.hist?'—':+(r.total/(r.biz||1)/(r.emps||1)).toFixed(1)), null, {sub:true});
+    b+=row('주말·공휴일 처리분', Ry.map(r=>r.hist?'—':(r.total-r.bizCnt)), null, {sub:true});
+    b+=grp('📊 카테고리별');
+    CATS.forEach(c=>{ const v=Ry.map(r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0)); b+=row(`${c.icon} ${c.name}`, v, v.reduce((a,x)=>a+(x||0),0), {c:c.c}); });
+    b+=row('💬 VOC', Ry.map(r=>r.voc||0), sum(r=>r.voc), {c:'#ff2d55'});
+    b+=row('📵 부재*', Ry.map(r=>r.absent||0), sum(r=>r.absent), {sub:true});
+    b+=row('온보딩 1일 평균', per(r=>r.by.onboarding), null, {sub:true});
+    b+=row('A/S 1일 평균', per(r=>r.by.as), null, {sub:true});
+    if(Ry.some(r=>r.online!=null)){
+      b+=grp('🌐 온라인 · 오프라인');
+      b+=row('온라인', Ry.map(r=>r.online), sum(r=>r.online), {c:'#0071e3'});
+      b+=row('오프라인', Ry.map(r=>r.offline), sum(r=>r.offline), {c:'#ff9500'});
+      b+=row('온라인 비중', Ry.map(r=>{ if(r.online==null) return null; const t=r.online+r.offline; return t?Math.round(r.online/t*100)+'%':null; }), null, {sub:true});
+    }
+    return `<div class="at-year">${y}년</div><div class="mtbl-wrap"><table class="matrix mtbl at-tbl">
+      <thead><tr><th class="mh-lab">구분<span class="mh-y">${y}년</span></th>${Ry.map((r,i)=>`<th class="${cls(i)}">${Number(r.m.slice(5,7))}월</th>`).join('')}<th class="num tot">합계</th></tr></thead>
+      <tbody>${b}</tbody></table></div>`;
+  };
+  return `<div class="card at-card">
+    <div class="adm-note" style="margin:0 0 4px">해마다 한 표 · <b>전체 → 카테고리별 → 온라인·오프라인</b> 순 · 파란 열 = 마지막 달 · 1일 평균 = 건수 ÷ 평일 수 · 1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수(2025.01~2026.06 은 알 수 없어 —) ·
+      ⚠️ <b>부재*</b> 는 <b>2026.01~06</b> 은 그 달 <b>발생</b> 건수, <b>07~</b> 은 <b>미해결로 남은</b> 건수라 두 구간을 직접 비교하지 마세요 · 2025년은 온·오프라인 구분이 없습니다.</div>
+    ${admByYear(R).slice().reverse().map(({y,rows})=>yearTable(y,rows)).join('')}</div>`;
 }
 /* ── 카테고리별 월별 — 예전 '온보딩·AS 월별' + 'DRI별 월별' 통합 ──
  * 위에 온보딩·A/S(월 건수·1일 평균), 아래에 DRI 카테고리(명의변경·메뉴등록·배달·외주). 월별 수치 표는 해마다 6개 분류를 한 표로. */
-function admCatMonthly(){
+function admCatMonthly(noTable){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const get=c=>r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0);
   const who=c=>{ const ns=DRI_ROLES.map(x=>[x.n, driGet(c.key,x.k)]).filter(([,v])=>v);
@@ -4834,7 +4917,7 @@ function admCatMonthly(){
     + yoyChart('🔧 A/S 1일 평균', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 건수 ÷ 평일 수')
     + DRIM_CATS.map(c=>yoyChart(`${c.icon} ${c.name} 월 건수`, R, get(c), null, 'sum', who(c))).join('')
     + `</div>`
-    + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3></div>
+    + (noTable?[]:admByYear(R)).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3></div>
         ${monthTable(Ry.map(r=>r.m.replace('-','.')),
                      ALL.map(c=>({n:`${c.icon} ${c.name}`, c:c.c, v:Ry.map(r=>{ const v=get(c)(r); return v==null?'':v; })})),
                      [{n:'평일 수', v:Ry.map(r=>r.biz), tot:Ry.reduce((a,r)=>a+r.biz,0)},
@@ -4846,9 +4929,10 @@ function admMonthlyTab(){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const sec=t=>`<div class="adm-sec">${t}</div>`;
   return admHistNote(R)
-    + admWorkday(true)
-    + sec('📊 카테고리별 월별') + admCatMonthly()
-    + sec('🌐 온라인 · 오프라인 월별') + admChannel(true);
+    + admWorkday(true, true)
+    + sec('📊 카테고리별 월별') + admCatMonthly(true)
+    + sec('🌐 온라인 · 오프라인 월별') + admChannel(true, true)
+    + sec('📋 월별 수치') + admAllTable(R);
 }
 
 
