@@ -3,10 +3,292 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5188,
- "updatedAt": "2026-11-13 11:52",
+ "version": 5189,
+ "updatedAt": "2026-11-13 11:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1794538402.973049",
+   "date": "2026-11-13",
+   "time": "11:53",
+   "store": "기공",
+   "biz": "1111271787",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴작업부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 4,
+   "att": [
+    {
+     "name": "11781.jpeg",
+     "fid": "F0CHEKZSDA5",
+     "from": "원글",
+     "path": "menu-files/1794538402_973049-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "곁들일것",
+       "name": "찜식빵",
+       "price": 10500
+      },
+      {
+       "category": "곁들일것",
+       "name": "생귤산도",
+       "price": 7000
+      },
+      {
+       "category": "곁들일것",
+       "name": "메론산도",
+       "price": 7800
+      },
+      {
+       "category": "곁들일것",
+       "name": "무화과 산도",
+       "price": 8000
+      },
+      {
+       "category": "곁들일것",
+       "name": "후르츠 산도",
+       "price": 7500
+      },
+      {
+       "category": "곁들일것",
+       "name": "말바산도",
+       "price": 6500
+      },
+      {
+       "category": "곁들일것",
+       "name": "보늬밤",
+       "price": 6000
+      },
+      {
+       "category": "곁들일것",
+       "name": "노리당고",
+       "price": 6000
+      },
+      {
+       "category": "곁들일것",
+       "name": "미타라시 당고",
+       "price": 5800
+      },
+      {
+       "category": "곁들일것",
+       "name": "기꽁당고",
+       "price": 6000
+      },
+      {
+       "category": "곁들일것",
+       "name": "말차빙수",
+       "price": 7000
+      },
+      {
+       "category": "곁들일것",
+       "name": "토마토빙수",
+       "price": 7000
+      },
+      {
+       "category": "곁들일것",
+       "name": "커스타드 푸딩",
+       "price": 5500
+      },
+      {
+       "category": "곁들일것",
+       "name": "위스키푸딩",
+       "price": 6000
+      },
+      {
+       "category": "곁들일것",
+       "name": "토마토 푸딩",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "11780.jpeg",
+     "fid": "F0CHCHPSBEE",
+     "from": "원글",
+     "path": "menu-files/1794538402_973049-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "차/에이드",
+       "name": "토마토바질에이드",
+       "price": 6500
+      },
+      {
+       "category": "차/에이드",
+       "name": "루이보스 시트러스",
+       "price": 6000
+      },
+      {
+       "category": "차/에이드",
+       "name": "캐모마일",
+       "price": 4000
+      },
+      {
+       "category": "차/에이드",
+       "name": "호지차",
+       "price": 5500
+      },
+      {
+       "category": "차/에이드",
+       "name": "얼그레이복숭아",
+       "price": 5500
+      },
+      {
+       "category": "차/에이드",
+       "name": "오미자",
+       "price": 6500
+      },
+      {
+       "category": "차/에이드",
+       "name": "산딸기",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "11779.jpeg",
+     "fid": "F0CGXC2NRB9",
+     "from": "원글",
+     "path": "menu-files/1794538402_973049-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "우유",
+       "name": "초코라떼",
+       "price": 6000
+      },
+      {
+       "category": "우유",
+       "name": "말차라떼",
+       "price": 6000
+      },
+      {
+       "category": "우유",
+       "name": "쑥라떼",
+       "price": 6000
+      },
+      {
+       "category": "우유",
+       "name": "호지차라떼",
+       "price": 6500
+      },
+      {
+       "category": "우유",
+       "name": "밀크티",
+       "price": 5500
+      },
+      {
+       "category": "우유",
+       "name": "미숫가루",
+       "price": 5000
+      },
+      {
+       "category": "우유",
+       "name": "크림추가",
+       "price": 500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "11778.jpeg",
+     "fid": "F0CH7EKQS13",
+     "from": "원글",
+     "path": "menu-files/1794538402_973049-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "Takeout-아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "고소한",
+       "price": 6800
+      },
+      {
+       "category": "커피",
+       "name": "산뜻한",
+       "price": 6800
+      },
+      {
+       "category": "커피",
+       "name": "디카페인",
+       "price": 6800
+      },
+      {
+       "category": "커피",
+       "name": "기공라떼",
+       "price": 7500
+      },
+      {
+       "category": "커피",
+       "name": "티라미수라떼",
+       "price": 7500
+      },
+      {
+       "category": "커피",
+       "name": "흑임자슈페너",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "샷추가",
+       "price": 1000
+      },
+      {
+       "category": "커피",
+       "name": "쿠폰아메리카노",
+       "price": 0
+      },
+      {
+       "category": "커피",
+       "name": "기타",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "기타",
+       "price": 100
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794538402973049"
+  },
   {
    "ts": "1794537904.991039",
    "date": "2026-11-13",
@@ -41,11 +323,173 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "RenderedI.jpg",
+     "fid": "F0CHGDB9H5J",
+     "from": "댓글",
+     "path": "menu-files/1794537745_754549-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "샌드베이글",
+       "name": "두바이초코",
+       "price": 12500,
+       "code": "A"
+      },
+      {
+       "category": "샌드베이글",
+       "name": "블루베리치즈",
+       "price": 12500,
+       "code": "B"
+      },
+      {
+       "category": "샌드베이글",
+       "name": "두바이딸기",
+       "price": 14500,
+       "code": "C"
+      },
+      {
+       "category": "샌드베이글",
+       "name": "호루츠",
+       "price": 10900,
+       "code": "D"
+      },
+      {
+       "category": "샌드위치",
+       "name": "에그샌드위치",
+       "price": 7800,
+       "code": "E"
+      },
+      {
+       "category": "샌드위치",
+       "name": "꼬꼬샌드위치",
+       "price": 11900,
+       "code": "F"
+      },
+      {
+       "category": "샌드위치",
+       "name": "연어샌드위치",
+       "price": 11900,
+       "code": "G"
+      },
+      {
+       "category": "샌드위치",
+       "name": "잠봉샌드위치",
+       "price": 8900,
+       "code": "H"
+      },
+      {
+       "category": "샌드위치",
+       "name": "베이컨샌드위치",
+       "price": 9100,
+       "code": "I"
+      },
+      {
+       "category": "베이글",
+       "name": "플레인",
+       "price": 3000,
+       "code": "J"
+      },
+      {
+       "category": "베이글",
+       "name": "블루베리",
+       "price": 3700,
+       "code": "K"
+      },
+      {
+       "category": "베이글",
+       "name": "초코",
+       "price": 3700,
+       "code": "L"
+      },
+      {
+       "category": "베이글",
+       "name": "올리브",
+       "price": 3700,
+       "code": "M"
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_0512.png",
+     "fid": "F0CH6FC8J11",
+     "from": "댓글",
+     "path": "menu-files/1794537745_754549-1.png",
+     "kind": "other",
+     "menu": [
+      {
+       "category": "쫀득빵",
+       "name": "초코나무숲",
+       "price": 5100,
+       "code": "Q"
+      },
+      {
+       "category": "쫀득빵",
+       "name": "말차",
+       "price": 5100,
+       "code": "R"
+      },
+      {
+       "category": "쫀득빵",
+       "name": "황치즈",
+       "price": 4500,
+       "code": "S"
+      },
+      {
+       "category": "쫀득빵",
+       "name": "블루베리",
+       "price": 5100,
+       "code": "T"
+      },
+      {
+       "category": "쫀득빵",
+       "name": "초코",
+       "price": 4600,
+       "code": "U"
+      },
+      {
+       "category": "모찌",
+       "name": "귤팥",
+       "price": 4000,
+       "code": "V"
+      },
+      {
+       "category": "모찌",
+       "name": "샤인우유",
+       "price": 4000,
+       "code": "W"
+      },
+      {
+       "category": "모찌",
+       "name": "생초코딸기",
+       "price": 6000,
+       "code": "X"
+      },
+      {
+       "category": "모찌",
+       "name": "두바이초코",
+       "price": 6000,
+       "code": "Y"
+      },
+      {
+       "category": "모찌",
+       "name": "생초코",
+       "price": 4000,
+       "code": "Z"
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "X뒤 숫자는 수량이라고 하셔서 고객님께 메뉴판 재요청드렸습니다.",
+    "새로운 이미지 받는대로 재업로드 드리겠습니다."
+   ],
+   "rc": 2,
+   "lr": "1794538366.334399",
    "rfx": 3,
    "status": "wait",
    "handler": null,
