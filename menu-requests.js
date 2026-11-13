@@ -3,10 +3,309 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5208,
- "updatedAt": "2026-11-13 13:57",
+ "version": 5209,
+ "updatedAt": "2026-11-13 14:02",
  "days": 30,
  "items": [
+  {
+   "ts": "1794546018.577739",
+   "date": "2026-11-13",
+   "time": "14:00",
+   "store": "일상",
+   "biz": "7901003211",
+   "pos": "",
+   "content": "메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CH86HHE2Z",
+     "from": "댓글",
+     "path": "menu-files/1794546018_577739-0.png",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CH86K85HB",
+     "from": "댓글",
+     "path": "menu-files/1794546018_577739-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사시미",
+       "name": "사시미 모리아와세",
+       "price": 45000
+      },
+      {
+       "category": "사시미",
+       "name": "연어사시미와 그라브락스",
+       "price": 29000
+      },
+      {
+       "category": "사시미",
+       "name": "시메사바",
+       "price": 27000
+      },
+      {
+       "category": "사시미",
+       "name": "흰살생선 고노와다",
+       "price": 32000
+      },
+      {
+       "category": "사시미",
+       "name": "제철사시미",
+       "price": 22000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJ7S6SDBJ",
+     "from": "댓글",
+     "path": "menu-files/1794546018_577739-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "후토마끼",
+       "price": 25000
+      },
+      {
+       "category": "식사",
+       "name": "고등어봉초밥",
+       "price": 26000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CH78G2091",
+     "from": "댓글",
+     "path": "menu-files/1794546018_577739-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "요리",
+       "name": "비프타르타르",
+       "price": 29000
+      },
+      {
+       "category": "요리",
+       "name": "부타노카쿠니",
+       "price": 29000
+      },
+      {
+       "category": "요리",
+       "name": "프로슈토마구로",
+       "price": 20000
+      },
+      {
+       "category": "요리",
+       "name": "메로츠케야끼",
+       "price": 27000
+      },
+      {
+       "category": "요리",
+       "name": "연어카르파치오",
+       "price": 27000
+      },
+      {
+       "category": "요리",
+       "name": "네기도로",
+       "price": 32000
+      },
+      {
+       "category": "요리",
+       "name": "츠쿠네",
+       "price": 20000
+      },
+      {
+       "category": "요리",
+       "name": "소고기타다끼",
+       "price": 27000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJ7S996MN",
+     "from": "댓글",
+     "path": "menu-files/1794546018_577739-4.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "나베",
+       "name": "백생합 스이모노",
+       "price": 26000
+      },
+      {
+       "category": "나베",
+       "name": "미소 나가사끼",
+       "price": 27000
+      },
+      {
+       "category": "나베",
+       "name": "호르몬 나베",
+       "price": 29000
+      },
+      {
+       "category": "나베",
+       "name": "오뎅",
+       "price": 23000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CGY46GRDM",
+     "from": "댓글",
+     "path": "menu-files/1794546018_577739-5.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "튀김",
+       "name": "치킨난반",
+       "price": 23000
+      },
+      {
+       "category": "튀김",
+       "name": "함박카츠",
+       "price": 0
+      },
+      {
+       "category": "튀김",
+       "name": "모듬카츠",
+       "price": 25000
+      },
+      {
+       "category": "튀김",
+       "name": "제철 덴푸라",
+       "price": 0
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CH78JSRAP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "사이드",
+       "name": "해물우동",
+       "price": 12000
+      },
+      {
+       "category": "사이드",
+       "name": "야끼우동",
+       "price": 12000
+      },
+      {
+       "category": "사이드",
+       "name": "식목일 티라미수",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "고로케",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "고노와다추가",
+       "price": 6000
+      },
+      {
+       "category": "사이드",
+       "name": "면 추가",
+       "price": 3000
+      },
+      {
+       "category": "사이드",
+       "name": "규동",
+       "price": 12000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CH78KKHGT",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "아사이생맥주",
+       "price": 6500
+      },
+      {
+       "category": "주류",
+       "name": "하이볼",
+       "price": 8000
+      },
+      {
+       "category": "주류",
+       "name": "일품진로25",
+       "price": 29000
+      },
+      {
+       "category": "주류",
+       "name": "화요25",
+       "price": 33000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "코르키지",
+       "price": 20000
+      },
+      {
+       "category": "주류",
+       "name": "음료",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1794546073.667929",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794546018577739"
+  },
   {
    "ts": "1794544393.466779",
    "date": "2026-11-13",
