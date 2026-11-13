@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33360,
+  "version": 33361,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323581,8 +323581,8 @@ window.SLACK_DATA = {
         },
         "transfer": {
           "배선유": 1,
-          "김동욱": 1,
-          "심성현": 4
+          "심성현": 5,
+          "김동욱": 1
         },
         "menu": {
           "김동욱": 2,
@@ -323758,6 +323758,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": ""
+        },
+        {
+          "time": "14:07",
+          "store": "캠프아이",
+          "biz": "3271702935",
+          "cat": "transfer",
+          "emp": "심성현",
+          "req": "11월 13일 오후 2시 30분 / 메뉴 복사 O / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "15분 뒤 통화 요청 / 명변 완료",
+          "rr": 2
         },
         {
           "time": "14:00",
@@ -324997,24 +325009,24 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 97,
+        "online": 98,
         "offline": 20,
         "unknown": 0
       },
-      "updatedAt": "14:57",
+      "updatedAt": "14:58",
       "voc": {
-        "responses": 322,
+        "responses": 361,
         "install": {
-          "count": 81,
-          "low": 8
+          "count": 92,
+          "low": 9
         },
         "nps": {
-          "count": 318,
+          "count": 357,
           "low": 30
         },
         "high": {
-          "install": 52,
-          "nps": 177
+          "install": 57,
+          "nps": 201
         },
         "npsDist": {
           "0": 6,
@@ -325022,77 +325034,81 @@ window.SLACK_DATA = {
           "2": 3,
           "3": 3,
           "5": 15,
-          "6": 9,
-          "7": 15,
-          "8": 50,
-          "9": 37,
-          "10": 177
+          "6": 12,
+          "7": 17,
+          "8": 55,
+          "9": 42,
+          "10": 201
         },
         "installDist": {
           "1": 6,
-          "2": 2,
-          "3": 5,
-          "4": 16,
-          "5": 52
+          "2": 3,
+          "3": 6,
+          "4": 20,
+          "5": 57
         },
         "byIndustry": {
+          "카페": 10,
+          "도소매": 13,
+          "서비스[학원]": 28,
+          "서비스[뷰티,헤어]": 19,
+          "요식업": 15,
           "기타": 5,
-          "도소매": 10,
-          "서비스[뷰티,헤어]": 17,
-          "요식업": 13,
-          "서비스[학원]": 26,
-          "카페": 8,
           "서비스[숙박]": 2
         },
         "byTenure": {
-          "6개월": {
-            "total": 47,
-            "low": 5
-          },
           "1개월": {
-            "total": 90,
+            "total": 101,
             "low": 7
           },
-          "3개월": {
-            "total": 69,
-            "low": 4
-          },
           "구매설치": {
-            "total": 81,
-            "low": 10
+            "total": 92,
+            "low": 11
           },
           "12개월": {
-            "total": 35,
-            "low": 5
-          }
-        },
-        "byVan": {
-          "KIS": {
-            "total": 69,
-            "low": 5
-          },
-          "SECTA9": {
-            "total": 91,
-            "low": 12
-          },
-          "SMARTRO": {
-            "total": 23,
-            "low": 1
-          },
-          "DAOU": {
-            "total": 33,
-            "low": 2
-          },
-          "KSNET": {
-            "total": 37,
-            "low": 5
-          },
-          "NICE": {
             "total": 36,
             "low": 5
           },
+          "6개월": {
+            "total": 53,
+            "low": 5
+          },
+          "3개월": {
+            "total": 79,
+            "low": 4
+          }
+        },
+        "byVan": {
+          "SECTA9": {
+            "total": 106,
+            "low": 13
+          },
+          "NICE": {
+            "total": 42,
+            "low": 5
+          },
+          "KIS": {
+            "total": 78,
+            "low": 5
+          },
+          "DAOU": {
+            "total": 38,
+            "low": 2
+          },
           "KPN": {
-            "total": 31,
+            "total": 32,
+            "low": 1
+          },
+          "KSNET": {
+            "total": 39,
+            "low": 5
+          },
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
+          "SMARTRO": {
+            "total": 23,
             "low": 1
           },
           "KOVAN": {
@@ -325101,13 +325117,35 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 11,
           "사용중 오류가 자주 발생함": 13,
           "필요한 기능이 없거나 몰라서 불편": 9,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 5,
-          "단말기 설치나 초기 과정이 어려움": 10,
           "구매,계약과정에서 설명이 부족": 1
         },
         "alerts": [
+          {
+            "time": "14:58",
+            "store": "멜드네일(Meld Nail)",
+            "storeId": "436572",
+            "industry": "뷰티",
+            "indBucket": "서비스[뷰티,헤어]",
+            "install": 2,
+            "nps": 7,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 2,
+                "text": "너무 어려워요ㅜㅜ 프린트기가 설치가 안되는데 전화드렸더니 가이드만 다시 보내주셔요",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "14:56",
             "store": "노블레스",
@@ -325835,6 +325873,90 @@ window.SLACK_DATA = {
         ],
         "praises": [
           {
+            "time": "14:58",
+            "store": "부산발달지원센터",
+            "storeId": "406871",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설명이 친절했어요 편리함",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:57",
+            "store": "동이와둥이",
+            "storeId": "443169",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 4,
+            "nps": 8,
+            "text": "혼자해도 됨. 하지만 문의전화했을때 조금 불성실함 일단 기계가 깔끔하고 보기 편함",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:57",
+            "store": "오이소",
+            "storeId": "441628",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "단말기없이도결재되는시스템 가르쳐주시고 엄청친절하셨어요 아나로그연배인데 디지털기능자세히가르쳐주시고암턴 좋았거던오ㅡ",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:57",
+            "store": "씨엠지(<http://CMG.int|CMG.int>) 광교점",
+            "storeId": "414133",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 9,
+            "text": "너무 간편해서 편합니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:57",
+            "store": "엔느브레인스파",
+            "storeId": "359966",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 8,
+            "text": "관리후 안내, 직접 문자발송에 시간소요가 길어요 바로 보낼수있는 시스템이 있으면 좋겠어요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:57",
+            "store": "무시무시(Moussy Moussy)",
+            "storeId": "439691",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 4,
+            "nps": 8,
+            "text": "혼자하는데 어려웠으나 지인찬스와 상담원분의 깔끔 명확한 설명으로 큰 도움을 받음 아직 며칠 되지 않아서 잘 모르겠으나 깔끔하고 직관적임. 포스 등록 하는 것도 페이히어보다 편했음. 결제링크 보낼 수 있는 방식이 추가되길 원함",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:57",
+            "store": "온담온열",
+            "storeId": "424755",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 4,
+            "nps": 10,
+            "text": "크게 어려운저은 없이 설치 하였습니다 다좋은데 금액 을 직접  입력해서 쓸수있게 해주셨으면 더좋을거 같아요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
             "time": "14:56",
             "store": "퀸비 광장점",
             "storeId": "362603",
@@ -326511,44 +326633,37 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794549366.103
+        "lastSeen": 1794549479.887
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794549366.103
+        "lastSeen": 1794549479.887
       },
       "1794541231.736379": {
         "post": "1794541231.736379",
-        "lastSeen": 1794549366.103
+        "lastSeen": 1794549479.887
       },
       "1794543300.701839": {
         "post": "1794543300.701839",
-        "lastSeen": 1794549366.103,
+        "lastSeen": 1794549479.887,
         "r": 1,
         "day": "2026-11-13",
         "idx": 66
       },
-      "1794546446.259979": {
-        "post": "1794546446.259979",
-        "lastSeen": 1794549366.103,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 80
-      },
       "1794547801.029779": {
         "post": "1794547801.029779",
-        "lastSeen": 1794549366.103,
+        "lastSeen": 1794549479.887,
         "r": 1,
         "day": "2026-11-13",
         "idx": 83
       },
       "1794547800.792289": {
         "post": "1794547800.792289",
-        "lastSeen": 1794549366.103
+        "lastSeen": 1794549479.887
       },
       "1794547800.578599": {
         "post": "1794547800.578599",
-        "lastSeen": 1794549366.103,
+        "lastSeen": 1794549479.887,
         "r": 1,
         "day": "2026-11-13",
         "idx": 87
@@ -451883,7 +451998,8 @@ window.SLACK_DATA = {
             "store": "캠프아이",
             "biz": "3271702935",
             "who": "심성현",
-            "cat": "transfer"
+            "cat": "transfer",
+            "dmin": 49.6
           },
           {
             "hm": "14:21",
@@ -451951,7 +452067,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 14:57",
+    "at": "2026-11-13 14:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -452109,7 +452225,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 14:56",
+    "at": "2026-11-13 14:58",
     "pri": {
       "days": 0,
       "failed": [],
