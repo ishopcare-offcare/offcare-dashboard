@@ -3,10 +3,131 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5191,
- "updatedAt": "2026-11-13 11:58",
+ "version": 5192,
+ "updatedAt": "2026-11-13 12:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1794538743.709519",
+   "date": "2026-11-13",
+   "time": "11:59",
+   "store": "카페와락",
+   "biz": "5033252158",
+   "pos": "토스포스",
+   "content": "커피메뉴랑 세트메뉴가 따로 만들어져야하는데 합쳐있습니다 ꒦ິ^꒦ິ  그리고 에이드 스무디 츠라푸치노 말고는 모든메뉴 아이스 핫 샷추가 옵션안들어가있어요 ㅠ",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1BrIpgXYpORdLU5Hw1T8f_hKR-XVdGwxX/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1BrIpgXYpORdLU5Hw1T8f_hKR-XVdGwxX",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "와락 프리미엄 블렌드 원두200g",
+       "price": 17000
+      },
+      {
+       "category": "커피",
+       "name": "와락 프리미엄 블렌드 드립백10P",
+       "price": 14000
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "화이트 아메리카노",
+       "price": 4200
+      },
+      {
+       "category": "커피",
+       "name": "레모니카노",
+       "price": 5300
+      },
+      {
+       "category": "커피",
+       "name": "자모니카노",
+       "price": 5300
+      },
+      {
+       "category": "커피",
+       "name": "헤이즐넛 아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카페모카",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "화이트 카페모카",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "카라멜마끼야또",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "아인슈페너",
+       "price": 5800
+      },
+      {
+       "category": "커피",
+       "name": "아샷추(아이스티 샷추가)",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "녹샷추(녹차샷추가)",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "체샷추(체리콕샷추가)",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "사장님스타일 아닌 딸샷추",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794538743709519"
+  },
   {
    "ts": "1794538402.973049",
    "date": "2026-11-13",
