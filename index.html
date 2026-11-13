@@ -4807,21 +4807,21 @@ function monthLineChart(labels, series, fmt, opt){
       ${grid}<line x1="${padL}" y1="${base}" x2="${W-padR}" y2="${base}" style="stroke:var(--line)"/>${lines}${xs}</svg></div>
     <div class="legend">${series.map(s=>`<span><span class="swatch" style="background:${s.c}"></span>${s.n}</span>`).join('')}</div>`;
 }
-// 📊 분류별 총 처리 건수 — 온보딩·AS·명의변경·메뉴등록·배달·외주를 한 그래프에 한 선씩. 최근 12개월.
+// 📊 카테고리별 그래프의 카테고리 — 온보딩·AS·명의변경·메뉴등록·배달·외주.
 // 배달은 2026.04 부터 집계(DRIM_CATS 의 from) — 그 전 달은 0 이 아니라 선을 끊는다.
 const CATTOT_CATS=[
   {key:'onboarding', icon:'🚀', name:'온보딩'},
   {key:'as',         icon:'🔧', name:'AS'},
   ...DRIM_CATS,
 ];
-// 📊 분류별 꺾은선 — 6개 분류(온보딩·AS·명의변경·메뉴등록·배달·외주)를 한 그래프에. 최근 12개월 · 배달은 2026.04 부터.
+// 📊 카테고리별 꺾은선 — 6개 카테고리를 한 그래프에. 최신 연도의 1~12월(아직 안 온 달은 비움) · 배달은 2026.04 부터.
 // AS 가 다른 분류의 5~10배라 일반 눈금이면 나머지 선이 바닥에 겹친다 → 세로 눈금을 로그(1·3·10·30·100·…)로.
-// 달마다 점 위에 숫자(바로 위에 다른 선이 붙어 있으면 점 아래로), 선 끝에 분류 이름.
+// 달마다 점 위에 숫자(바로 위에 다른 선이 붙어 있으면 점 아래로), 선 끝에 카테고리 이름.
 function catLogCard(R, title, hint, val, fmt){
-  const Rr=R.slice(-12);
+  const yr=R[R.length-1].m.slice(0,4), Rr=[...Array(12)].map((_,i)=>R.find(r=>r.m===yr+'-'+String(i+1).padStart(2,'0'))||null);
   const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
   const S=CATTOT_CATS.map(c=>({n:c.name, icon:c.icon, c:c.key==='as'?'#34c759':c.key==='onboarding'?'#0071e3':colorOf(c.key),
-    v:Rr.map(r=>(c.from&&r.m<c.from)?null:val(r,c.key))}));
+    v:Rr.map(r=>(!r||(c.from&&r.m<c.from))?null:val(r,c.key))}));
   const W=560, H=340, padL=44, padR=74, topPad=16, botPad=28, base=H-botPad, plotH=H-topPad-botPad;
   const all=S.flatMap(s=>s.v.filter(v=>v!=null&&v>0));
   const lmin=Math.floor(Math.log10(Math.min(...all))), lmax=Math.log10(Math.max(...all)*1.3);
@@ -4830,13 +4830,13 @@ function catLogCard(R, title, hint, val, fmt){
   let grid='';
   for(let e=lmin; e<=Math.ceil(lmax); e++) for(const k of [1,3]){ const t=k*Math.pow(10,e); if(t<Math.pow(10,lmin)||Math.log10(t)>lmax) continue;
     const y=Y(t).toFixed(1); grid+=`<line x1="${padL}" y1="${y}" x2="${W-padR+6}" y2="${y}" style="stroke:var(--line-soft)"${k===3?' stroke-dasharray="3 4"':''}/><text x="${padL-7}" y="${(+y+4).toFixed(1)}" text-anchor="end" font-size="11" style="fill:var(--gray2)">${t.toLocaleString()}</text>`; }
-  const xl=Rr.map((r,i)=>`<text x="${X(i).toFixed(1)}" y="${base+18}" text-anchor="middle" font-size="11" font-weight="600" style="fill:var(--ink-soft)">${Number(r.m.slice(5,7))}월</text>`).join('');
+  const xl=Rr.map((r,i)=>`<text x="${X(i).toFixed(1)}" y="${base+18}" text-anchor="middle" font-size="11" font-weight="600" style="fill:var(--ink-soft)">${i+1}월</text>`).join('');
   const lines=S.map(s=>{
     const segs=[]; let cur=[];
     s.v.forEach((v,i)=>{ if(v==null){ if(cur.length) segs.push(cur); cur=[]; } else cur.push(`${X(i).toFixed(1)},${Y(v).toFixed(1)}`); });
     if(cur.length) segs.push(cur);
     return segs.map(p=>p.length>1?`<polyline points="${p.join(' ')}" fill="none" stroke="${s.c}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>`:'').join('')
-      + s.v.map((v,i)=>v==null?'':`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="2.8" fill="${s.c}" style="stroke:var(--canvas)" stroke-width="1.2"><title>${Rr[i].m.replace('-','.')} · ${s.n} ${fmt(v)}</title></circle>`).join('');
+      + s.v.map((v,i)=>v==null?'':`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="2.8" fill="${s.c}" style="stroke:var(--canvas)" stroke-width="1.2"><title>${yr}.${String(i+1).padStart(2,'0')} · ${s.n} ${fmt(v)}</title></circle>`).join('');
   }).join('');
   // 달마다 숫자: 기본은 점 위. 바로 위(13px 이내)에 다른 선의 점이 있으면 점 아래로 내린다
   const nums=S.map(s=>s.v.map((v,i)=>{ if(v==null) return '';
@@ -4846,18 +4846,18 @@ function catLogCard(R, title, hint, val, fmt){
   const ends=S.map(s=>{ const li=s.v.reduce((a,v,i)=>v!=null?i:a,-1); return li<0?null:{s, li, y:Y(s.v[li])}; }).filter(Boolean).sort((a,b)=>a.y-b.y);
   for(let i=1;i<ends.length;i++) if(ends[i].y-ends[i-1].y<13) ends[i].y=ends[i-1].y+13;
   const over=ends.length?ends[ends.length-1].y-(base-2):0; if(over>0) ends.forEach(e=>e.y-=over);
-  const lx=X(Rr.length-1)+14;
+  const lx=X(11)+14;
   const endLabs=ends.map(e=>`<text class="yoy-val" x="${lx.toFixed(1)}" y="${(e.y+4).toFixed(1)}" style="fill:${e.s.c};font-size:11.5px;font-weight:800">${e.s.n}</text>`).join('');
   return `<div class="card"><div class="card-head"><h3>${title}</h3><span class="hint">${hint}</span></div>
     <div class="yoy-wrap"><svg class="yoy-svg" viewBox="0 0 ${W} ${H}">${grid}<line x1="${padL}" y1="${base}" x2="${W-padR+6}" y2="${base}" style="stroke:var(--line)"/>${lines}${nums}${endLabs}${xl}</svg></div>
     <div class="legend">${S.map(s=>`<span><span class="swatch" style="background:${s.c}"></span>${s.icon} ${s.n}</span>`).join('')}</div></div>`;
 }
 function admCatTotalCard(R){
-  return catLogCard(R, '📊 분류별 총 처리 건수', '최근 12개월 · 세로 눈금 로그(작은 분류도 보이게)', (r,k)=>r.by[k]||0, v=>Math.round(v).toLocaleString());
+  return catLogCard(R, '📊 카테고리별 총 처리 건수', `${R[R.length-1].m.slice(0,4)}년 1~12월 · 로그 눈금`, (r,k)=>r.by[k]||0, v=>Math.round(v).toLocaleString());
 }
-// 카테고리별 1일 평균 = 그 달 분류 건수 ÷ 평일 수 (왼쪽 '1일 평균 처리'와 같은 기준)
+// 카테고리별 1일 평균 = 그 달 카테고리 건수 ÷ 평일 수 (왼쪽 '1일 평균 처리'와 같은 기준)
 function admCatPerDayCard(R){
-  return catLogCard(R, '📆 카테고리별 1일 평균 처리', '분류 건수 ÷ 평일 수 · 세로 눈금 로그', (r,k)=>admPerDay(r.by[k]||0, r), v=>Number(v).toFixed(1));
+  return catLogCard(R, '📆 카테고리별 1일 평균 처리', `${R[R.length-1].m.slice(0,4)}년 · 건수 ÷ 평일 수`, (r,k)=>admPerDay(r.by[k]||0, r), v=>Number(v).toFixed(1));
 }
 /* 📋 월별 수치 — 탭의 모든 표를 맨 아래 한 카드로. 해마다 한 표(최근 해가 위): 전체 · 카테고리별 · 온라인·오프라인 */
 function admAllTable(R){
