@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33636,
+  "version": 33637,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,12 +330881,27 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
+        "as": {
+          "김규빈": 1
+        },
         "menu": {
           "김규빈": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "08:25",
+          "store": "쌈촌명일점",
+          "biz": "2122540781",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "일주일 전부터 영수증 출력 속도가 너무 느린 현상이 있어 프린터전원선 재결합 시 다시 정상 작동하는 것 같기는 하지만,",
+          "hw": "",
+          "intake": "online",
+          "note": "터미널 절전모드 &gt; 출근시 절전모드를 풀면 인터넷이 끊어진것처럼 나오고 재실행해야 다시 정상적으로 돌아옴 기계고장의심하셔서 우선 교체장비 발송드림 (랜선,와이파이 두개다 연결해서 사용중) 터미널 절전모드 출근시 절전모드를 풀면 인터넷이 끊어진것처럼 나오고 재실행해야 다시 정상적으로 돌아옴",
+          "rr": 1
+        },
         {
           "time": "08:03",
           "store": "",
@@ -330901,11 +330916,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "08:03"
+      "updatedAt": "08:25"
     }
   },
   "resp": {
@@ -457037,7 +457052,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 08:15",
+    "at": "2026-11-14 08:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457196,7 +457211,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 08:15",
+    "at": "2026-11-14 08:30",
     "pri": {
       "days": 0,
       "failed": [],
