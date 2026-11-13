@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33291,
+  "version": 33292,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323607,8 +323607,8 @@ window.SLACK_DATA = {
           "req": "메뉴",
           "hw": "",
           "intake": "offline",
-          "note": "",
-          "rr": 1
+          "note": "/ 등록/솔라피전송 완료입니다",
+          "rr": 2
         },
         {
           "time": "12:40",
@@ -323619,7 +323619,8 @@ window.SLACK_DATA = {
           "req": "프론트 전원 공급 불량으로 지원 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "어댑터 정상 프론트 전원부 손상으로 의심되어 퀵 발송 필요 <!subteam^S0ANLUVK3PG 출하지시서 작성했습니다. 퀵발송 부탁드립니다. :꾸벅: 출하지시서 작성했습니다. 퀵발송 부탁드립니다.",
+          "rr": 1
         },
         {
           "time": "12:32",
@@ -324490,7 +324491,7 @@ window.SLACK_DATA = {
         "offline": 14,
         "unknown": 0
       },
-      "updatedAt": "12:42"
+      "updatedAt": "12:46"
     }
   },
   "resp": {
@@ -324564,15 +324565,15 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794541553.038
+        "lastSeen": 1794541681.597
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794541553.038
+        "lastSeen": 1794541681.597
       },
       "1794541231.736379": {
         "post": "1794541231.736379",
-        "lastSeen": 1794541553.038
+        "lastSeen": 1794541681.597
       }
     },
     "days": {
@@ -449697,7 +449698,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 12:46",
+    "at": "2026-11-13 12:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -449855,7 +449856,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 12:45",
+    "at": "2026-11-13 12:48",
     "pri": {
       "days": 0,
       "failed": [],
