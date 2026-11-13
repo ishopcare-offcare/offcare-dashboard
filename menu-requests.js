@@ -3,10 +3,252 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5252,
- "updatedAt": "2026-11-13 20:31",
+ "version": 5253,
+ "updatedAt": "2026-11-13 22:04",
  "days": 30,
  "items": [
+  {
+   "ts": "1794574933.139949",
+   "date": "2026-11-13",
+   "time": "22:02",
+   "store": "서귀집",
+   "biz": "2580502714",
+   "pos": "",
+   "content": "초기메뉴",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "스크린샷 2026-11-13 215611.png",
+     "fid": "F0CHLRGEHSQ",
+     "from": "댓글",
+     "path": "menu-files/1794574933_139949-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식사메뉴",
+       "name": "흑돼지된장찌개",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "매콤비빔면",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "흑짜파구리",
+       "price": 6000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "부추계란찜",
+       "price": 5000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "가마솥 볶음밥 1인",
+       "price": 3000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "반찬추가",
+       "price": 1000
+      },
+      {
+       "category": "식사메뉴",
+       "name": "야채추가",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "스크린샷 2026-11-13 215616.png",
+     "fid": "F0CHATHCRMH",
+     "from": "댓글",
+     "path": "menu-files/1794574933_139949-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "한라산순한",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "한라산오리지날",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "자봉에이드",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "진로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "하우스와인",
+       "price": 35000
+      },
+      {
+       "category": "주류",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "켈리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "무알콜맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "환타",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 15000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "스크린샷 2026-11-13 215559.png",
+     "fid": "F0CHATHDFUK",
+     "from": "댓글",
+     "path": "menu-files/1794574933_139949-2.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "흑돼지가마솥한판 1~2인(600g)",
+       "price": 66000
+      },
+      {
+       "category": "주류",
+       "name": "흑돼지가마솥한판 3~4인(800g)",
+       "price": 86000
+      },
+      {
+       "category": "주류",
+       "name": "가마솥특수부위한 1~2인(600g)",
+       "price": 66000
+      },
+      {
+       "category": "주류",
+       "name": "가마특수부위한판 3~4인(800g)",
+       "price": 86000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "스크린샷 2026-11-13 215605.png",
+     "fid": "F0CHK1P78L9",
+     "from": "댓글",
+     "path": "menu-files/1794574933_139949-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "가마솥한판",
+       "name": "흑오겹살(250g)",
+       "price": 28000
+      },
+      {
+       "category": "가마솥한판",
+       "name": "흑목살(250g)",
+       "price": 28000
+      },
+      {
+       "category": "가마솥한판",
+       "name": "흑등심덧살(250g)",
+       "price": 28000
+      },
+      {
+       "category": "가마솥한판",
+       "name": "흑항정살(250g)",
+       "price": 29000
+      },
+      {
+       "category": "가마솥한판",
+       "name": "흑갈매기살(250g)",
+       "price": 28000
+      },
+      {
+       "category": "가마솥한판",
+       "name": "인생벌집껍떼기",
+       "price": 9000
+      },
+      {
+       "category": "가마솥한판",
+       "name": "흑돼지추가",
+       "price": 20000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794575016.750519",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794574933139949"
+  },
   {
    "ts": "1794568783.621479",
    "date": "2026-11-13",
