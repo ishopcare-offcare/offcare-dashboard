@@ -3,10 +3,257 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5213,
- "updatedAt": "2026-11-13 14:26",
+ "version": 5214,
+ "updatedAt": "2026-11-13 14:35",
  "days": 30,
  "items": [
+  {
+   "ts": "1794548107.584209",
+   "date": "2026-11-13",
+   "time": "14:35",
+   "store": "피코",
+   "biz": "4887100710",
+   "pos": "기타",
+   "content": "안주류 가격조정부탁해요\n점심메뉴도 보시고 추가부탁해요\n파일첨부한 메뉴보시고 정정할거좀 해주세요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1_As_wzueE75hP-CyWsGx8nz2eRDVT66m/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1_As_wzueE75hP-CyWsGx8nz2eRDVT66m",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "LUNCH",
+       "name": "알리오올리오 파스타",
+       "price": 15000
+      },
+      {
+       "category": "LUNCH",
+       "name": "멕시코식 크림 파스타",
+       "price": 15000
+      },
+      {
+       "category": "LUNCH",
+       "name": "멕시코식 크림 리조또",
+       "price": 15000
+      },
+      {
+       "category": "LUNCH",
+       "name": "해물토마토 리조또",
+       "price": 15000
+      },
+      {
+       "category": "LUNCH",
+       "name": "문어 들기름 막국수 한상",
+       "price": 13000
+      },
+      {
+       "category": "LUNCH",
+       "name": "쌀 떡국",
+       "price": 10000
+      },
+      {
+       "category": "LUNCH",
+       "name": "떡만둣국",
+       "price": 12000
+      },
+      {
+       "category": "계절안주",
+       "name": "쭈꾸미 샤브샤브",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절안주",
+       "name": "토종닭 능이백숙",
+       "price": 120000
+      },
+      {
+       "category": "계절안주",
+       "name": "과메기 중",
+       "price": 40000
+      },
+      {
+       "category": "계절안주",
+       "name": "과메기 대",
+       "price": 60000
+      },
+      {
+       "category": "SIDE",
+       "name": "찹스테이크",
+       "price": 35000
+      },
+      {
+       "category": "SIDE",
+       "name": "문어숙회 중",
+       "price": 35000
+      },
+      {
+       "category": "SIDE",
+       "name": "문어숙회 대",
+       "price": 50000
+      },
+      {
+       "category": "SIDE",
+       "name": "무침회",
+       "price": 25000
+      },
+      {
+       "category": "SIDE",
+       "name": "감바스",
+       "price": 25000
+      },
+      {
+       "category": "SIDE",
+       "name": "오뎅탕",
+       "price": 25000
+      },
+      {
+       "category": "SIDE",
+       "name": "조개탕",
+       "price": 20000
+      },
+      {
+       "category": "SIDE",
+       "name": "노가리",
+       "price": 20000
+      },
+      {
+       "category": "SIDE",
+       "name": "먹태",
+       "price": 20000
+      },
+      {
+       "category": "SIDE",
+       "name": "해물 짬뽕탕(면)",
+       "price": 18000
+      },
+      {
+       "category": "SIDE",
+       "name": "아보카도샐러드",
+       "price": 18000
+      },
+      {
+       "category": "SIDE",
+       "name": "관자샐러드",
+       "price": 25000
+      },
+      {
+       "category": "DINNER",
+       "name": "피코 문어삼합 중",
+       "price": 69000
+      },
+      {
+       "category": "DINNER",
+       "name": "피코 문어삼합 대",
+       "price": 89000
+      },
+      {
+       "category": "DINNER",
+       "name": "피코 미니 한상",
+       "price": 97000
+      },
+      {
+       "category": "DINNER",
+       "name": "피코 한상",
+       "price": 112000
+      },
+      {
+       "category": "DINNER",
+       "name": "피코 스페셜 한상",
+       "price": 137000
+      },
+      {
+       "category": "DRINKS",
+       "name": "오미자 하이볼",
+       "price": 7000
+      },
+      {
+       "category": "DRINKS",
+       "name": "유자 하이볼",
+       "price": 7000
+      },
+      {
+       "category": "DRINKS",
+       "name": "소주 / 맥주",
+       "price": 6000
+      },
+      {
+       "category": "DRINKS",
+       "name": "화요 25",
+       "price": 25000
+      },
+      {
+       "category": "DRINKS",
+       "name": "화요 41",
+       "price": 45000
+      },
+      {
+       "category": "DRINKS",
+       "name": "쿠보다센쥬 (사케)",
+       "price": 70000
+      },
+      {
+       "category": "DRINKS",
+       "name": "다이긴죠S (사케)",
+       "price": 50000
+      },
+      {
+       "category": "DRINKS",
+       "name": "이소노사와 준마이 (사케)",
+       "price": 30000
+      },
+      {
+       "category": "DRINKS",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "DRINKS",
+       "name": "화랑",
+       "price": 13000
+      },
+      {
+       "category": "DRINKS",
+       "name": "아사히 / 하이네켄",
+       "price": 8000
+      },
+      {
+       "category": "DRINKS",
+       "name": "하이네켄",
+       "price": 6000
+      },
+      {
+       "category": "DRINKS",
+       "name": "기네스흑맥주",
+       "price": 10000
+      },
+      {
+       "category": "DRINKS",
+       "name": "생맥주 스텔라",
+       "price": 6000
+      },
+      {
+       "category": "DRINKS",
+       "name": "음료수 / 토닉워터",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794548107584209"
+  },
   {
    "ts": "1794547309.201529",
    "date": "2026-11-13",
