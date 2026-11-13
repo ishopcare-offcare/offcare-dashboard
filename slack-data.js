@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33196,
+  "version": 33197,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323548,7 +323548,11 @@ window.SLACK_DATA = {
     },
     "2026-11-13": {
       "counts": {
+        "nosetup": {
+          "배선유": 1
+        },
         "as": {
+          "김규빈": 1,
           "김동욱": 2,
           "송태양": 1,
           "서상원": 3,
@@ -323568,6 +323572,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "데이크 커피",
+          "biz": "8512202301",
+          "cat": "nosetup",
+          "emp": "배선유",
+          "req": "터프 조합으로 간편결제 (페이스페이, 카카오페이 등) 사용 방법 안내 요청드립니다. / 휴대폰에 토스 사장님 설치하심",
+          "hw": "",
+          "intake": "online",
+          "note": "20분후 재연락 요청",
+          "rr": 1
+        },
+        {
+          "time": "09:50",
+          "store": "찹찹착(chopchopchaak)",
+          "biz": "2620203841",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "배달의민족이랑 쿠팡이츠 토스프린터기기로 설정하고싶은데 프린터 설정이안되고 용지가안나와 원격 요청 주셨습니다.(노트북)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:49",
           "store": "구월쌀제과",
@@ -323773,11 +323800,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 12,
         "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "10:00"
+      "updatedAt": "10:03"
     }
   },
   "resp": {
@@ -323858,18 +323885,11 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794531745.069
+        "lastSeen": 1794531856.187
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794531745.069
-      },
-      "1794531014.989499": {
-        "post": "1794531014.989499",
-        "lastSeen": 1794531745.069,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 12
+        "lastSeen": 1794531856.187
       }
     },
     "days": {
@@ -448590,14 +448610,15 @@ window.SLACK_DATA = {
             "store": "찹찹착(chopchopchaak)",
             "biz": "2620203841",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-13 10:03",
+    "at": "2026-11-13 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448755,7 +448776,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 10:02",
+    "at": "2026-11-13 10:04",
     "pri": {
       "days": 0,
       "failed": [],
