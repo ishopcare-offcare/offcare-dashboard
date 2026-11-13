@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5189,
- "updatedAt": "2026-11-13 11:54",
+ "version": 5190,
+ "updatedAt": "2026-11-13 11:56",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "11781.jpeg",
      "fid": "F0CHEKZSDA5",
      "from": "원글",
-     "path": "menu-files/1794538402_973049-0.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -102,13 +101,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794538402_973049-0.jpeg"
     },
     {
      "name": "11780.jpeg",
      "fid": "F0CHCHPSBEE",
      "from": "원글",
-     "path": "menu-files/1794538402_973049-1.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -147,13 +146,13 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794538402_973049-1.jpeg"
     },
     {
      "name": "11779.jpeg",
      "fid": "F0CGXC2NRB9",
      "from": "원글",
-     "path": "menu-files/1794538402_973049-2.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -192,13 +191,13 @@ window.MENU_REQUESTS = {
        "price": 500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794538402_973049-2.jpeg"
     },
     {
      "name": "11778.jpeg",
      "fid": "F0CH7EKQS13",
      "from": "원글",
-     "path": "menu-files/1794538402_973049-3.jpeg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -277,7 +276,8 @@ window.MENU_REQUESTS = {
        "price": 100
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794538402_973049-3.jpeg"
     }
    ],
    "datt": [],
