@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5248,
- "updatedAt": "2026-11-13 18:20",
+ "version": 5249,
+ "updatedAt": "2026-11-13 18:42",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "메뉴명: 클랙타이거4미\n가격: 26,000원"
    ],
-   "rc": 1,
-   "lr": "1794561492.718459",
+   "rc": 2,
+   "lr": "1794562892.872169",
    "rfx": 3,
    "status": "done",
    "handler": "최민석",
