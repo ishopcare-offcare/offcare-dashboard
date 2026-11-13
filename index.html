@@ -622,6 +622,35 @@
   .tr-legendary,.tr-mythic,.tr-unique{background-size:200% auto; animation:titleShine 2.6s linear infinite}
   .tr-unique{animation-duration:1.8s; filter:drop-shadow(0 0 5px rgba(255,184,0,.55))}
   @keyframes titleShine{to{background-position:-200% center}}
+  /* ✨ 신화 타이틀: 주변에 별가루가 반짝이며 떠다님 · ⚡×6: 천둥번개(번쩍임·흔들림·낙뢰) */
+  .tfx{position:relative; isolation:isolate; width:fit-content; max-width:100%; overflow:visible}
+  span.tfx{display:inline-block}
+  .tfx .tsp{position:absolute; left:var(--x); top:var(--y); font-size:var(--s,.6em); line-height:1; color:var(--c,#fff6c2);
+    -webkit-text-fill-color:var(--c,#fff6c2); pointer-events:none; opacity:0; font-style:normal; font-weight:400;
+    text-shadow:0 0 4px var(--c,#ffd60a), 0 0 8px rgba(255,214,10,.8);
+    animation:tspTwinkle var(--d,2.4s) ease-in-out var(--dl,0s) infinite}
+  @keyframes tspTwinkle{0%{opacity:0; transform:translate(0,4px) scale(.2) rotate(0)}
+    35%{opacity:1; transform:translate(2px,-3px) scale(1.15) rotate(90deg)}
+    65%{opacity:.85; transform:translate(-2px,-8px) scale(.8) rotate(180deg)}
+    100%{opacity:0; transform:translate(1px,-14px) scale(.1) rotate(270deg)}}
+  .tfx-storm{animation:titleShine 2.6s linear infinite, stormFlash 2.8s linear infinite}
+  .tfx-storm::before{content:''; position:absolute; inset:-60% -30%; z-index:-1; border-radius:50%; pointer-events:none; opacity:0;
+    background:radial-gradient(closest-side,rgba(255,255,255,.95),rgba(140,200,255,.55) 45%,transparent);
+    animation:stormHalo 2.8s linear infinite}
+  .tfx .tbolt{position:absolute; left:var(--x); top:-.9em; font-size:var(--s,.75em); line-height:1; pointer-events:none; opacity:0;
+    font-style:normal; color:#ffd60a; -webkit-text-fill-color:#ffd60a; filter:drop-shadow(0 0 4px #fff) drop-shadow(0 0 8px #4ea8ff);
+    animation:boltStrike 2.8s linear var(--dl,0s) infinite}
+  @keyframes stormFlash{
+    0%,5%,18%,26%,100%{filter:drop-shadow(0 0 4px #ffd60a) drop-shadow(0 0 10px #ffd60a); transform:none}
+    7%{filter:brightness(2.4) drop-shadow(0 0 6px #fff) drop-shadow(0 0 18px #8ad8ff); transform:translate(-1px,1px)}
+    9%{filter:drop-shadow(0 0 3px #ffd60a); transform:translate(1px,-1px)}
+    12%{filter:brightness(2.8) drop-shadow(0 0 8px #fff) drop-shadow(0 0 26px #4ea8ff); transform:translate(-1.5px,0)}
+    14%{filter:brightness(1.6) drop-shadow(0 0 6px #fff) drop-shadow(0 0 14px #8ad8ff); transform:translate(1px,1px)}
+    22%{filter:brightness(1.9) drop-shadow(0 0 6px #fff) drop-shadow(0 0 16px #ffd60a); transform:translate(0,-1px)}}
+  @keyframes stormHalo{0%,5%,10%,17%,21%,25%,100%{opacity:0} 7%{opacity:.9} 12%{opacity:1} 14%{opacity:.5} 22%{opacity:.6}}
+  @keyframes boltStrike{0%,5%,17%,100%{opacity:0; transform:translateY(-6px) scale(.6)}
+    7%{opacity:1; transform:translateY(0) scale(1.1)} 9%{opacity:.2} 12%{opacity:1; transform:translateY(2px) scale(1.2)} 15%{opacity:.6; transform:translateY(3px) scale(1)}}
+  @media (prefers-reduced-motion:reduce){ .tfx .tsp,.tfx .tbolt,.tfx-storm,.tfx-storm::before{animation:none} .tfx .tsp{opacity:.8} }
   /* ⭐ 타이틀: 별이 계속 돌면서 반짝인다 · 주변 ✦ 반짝이 */
   .t-star{position:relative; display:inline-block; padding:0 .08em}
   .t-spin{display:inline-block; animation:tStarSpin 3.2s linear infinite}
@@ -901,6 +930,8 @@
   .adm-note{background:var(--surface-soft); border:1px solid var(--line-soft); border-radius:12px;
     padding:13px 16px; font-size:13.5px; color:var(--ink-soft); line-height:1.6; margin-bottom:16px}
   .adm-note b{color:var(--ink)}
+  /* 월별 처리 건수 탭: 구간 제목 */
+  .adm-sec{font-size:17px; font-weight:800; color:var(--ink); letter-spacing:-.01em; margin:30px 0 12px; padding-top:18px; border-top:1px solid var(--line-soft)}
   table.matrix.hm{font-size:12.5px; min-width:860px}
   table.matrix.hm th{padding:7px 4px; font-size:11px}
   table.matrix.hm td{padding:6px 4px}
@@ -3918,11 +3949,8 @@ let adminMonth = '';            // 전월 비교에서 보는 '이번 달' (YYYY
 const ADMIN_TABS = [
   {k:'hourly',  n:'시간대별 처리추이', ic:'🕘', live:true},
   {k:'dri',     n:'DRI 정·부',        ic:'👥', live:true},
-  {k:'drim',    n:'DRI별 월별',       ic:'📊'},
   {k:'prevm',   n:'전월 비교 (주/야)', ic:'🔀'},   // 자체 월 선택기를 쓰므로 기간 세그먼트는 안 띄운다
-  {k:'workday', n:'근무일·1일 평균',   ic:'📆'},
-  {k:'onbas',   n:'온보딩·AS 월별',    ic:'📈'},
-  {k:'chan',    n:'온라인·오프라인 월별', ic:'🌐'},
+  {k:'workday', n:'월별 처리 건수',     ic:'📆'},   // 예전 근무일·1일 평균 + DRI별 월별 + 온보딩·AS 월별 + 온라인·오프라인 월별을 한 탭으로
 ];
 
 /* ── 라이브 데이터 헬퍼 ── */
@@ -3982,7 +4010,7 @@ function setAdminRange(v){
 }
 function setAdminStart(v){ adminRange='range'; adminStart=v; renderAdmin(); }
 function setAdminEnd(v){ adminRange='range'; adminEnd=v; renderAdmin(); }
-function setAdminTab(k){ adminTab=k; renderAdmin(); window.scrollTo(0,0); }
+function setAdminTab(k){ if(k==='drim'||k==='onbas'||k==='chan') k='workday'; adminTab=k; renderAdmin(); window.scrollTo(0,0); }
 function setAdminMonth(v){ adminMonth=v; renderAdmin(); }
 
 /* ── DRI 정·부 담당 (업무 카테고리별) ──
@@ -4626,13 +4654,13 @@ const DRIM_CATS=[
   {key:'delivery', icon:'🛵', name:'배달', from:'2026-04'},
   {key:'extern',   icon:'🧩', name:'외주'},
 ];
-function admDriMonthly(){
+function admDriMonthly(noNote){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const get=c=>r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0);
   const who=c=>{ const ns=DRI_ROLES.map(x=>[x.n, driGet(c.key,x.k)]).filter(([,v])=>v);
     return ns.length?ns.map(([r,v])=>`${r} ${escapeHtml(v)}`).join(' · '):'DRI 미지정'; };
   const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
-  return admHistNote(R)
+  return (noNote?'':admHistNote(R))
     + `<div class="adm-note">카테고리별 <b>월 건수</b>를 해마다 한 선으로 겹쳐 봅니다(2025 파랑 · 2026 빨강). 제목 옆은 <b>DRI 정·부</b> 탭에서 지정한 담당자입니다.
        배달은 <b>2026.04</b> 부터 집계해 그 전 달은 비워 둡니다.</div>`
     + `<div class="yoy-grid">`
@@ -4643,12 +4671,12 @@ function admDriMonthly(){
                      DRIM_CATS.map(c=>({n:`${c.icon} ${c.name}`, c:colorOf(c.key), v:Ry.map(r=>{ const v=get(c)(r); return v==null?'':v; })})),
                      [{n:'평일 수', v:Ry.map(r=>r.biz), tot:Ry.reduce((a,r)=>a+r.biz,0)}])}</div>`).join('');
 }
-function admOnbAs(){
+function admOnbAs(noNote){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const L=R.map(r=>r.m.replace('-','.'));
   const s=[{n:'온보딩',c:'#0071e3',v:R.map(r=>r.by.onboarding||0)},{n:'A/S',c:'#34c759',v:R.map(r=>r.by.as||0)}];
   const f1=v=>Number(v).toFixed(1);
-  return admHistNote(R)
+  return (noNote?'':admHistNote(R))
     + `<div class="yoy-grid">`
     + yoyChart('🚀 온보딩 월 건수', R, r=>r.by.onboarding, null, 'sum')
     + yoyChart('🔧 A/S 월 건수', R, r=>r.by.as, null, 'sum')
@@ -4667,15 +4695,15 @@ function admByYear(R){
   const ys=[...new Set(R.map(r=>r.m.slice(0,4)))].sort();
   return ys.map(y=>({y, rows:R.filter(r=>r.m.startsWith(y))}));
 }
-function admChannel(){
+function admChannel(noNote){
   const R=admMonthlyWithHist().filter(r=>r.online!=null); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;   // 2025 는 온·오프라인 구분이 없어 제외
   const L=R.map(r=>r.m.replace('-','.'));
   const s=[{n:'온라인',c:'#0071e3',v:R.map(r=>r.online)},{n:'오프라인',c:'#ff9500',v:R.map(r=>r.offline)}];
   const share=R.map(r=>{ const t=r.online+r.offline; return t?Math.round(r.online/t*100):0; });
-  return admHistNote(R)
-    + `<div class="card"><div class="card-head"><h3>온라인 · 오프라인 월 건수</h3></div>${monthBarChart(L,s)}</div>`
+  return (noNote?'':admHistNote(R))
+    + `<div class="card"><div class="card-head"><h3>🌐 온라인 · 오프라인 월 건수</h3><span class="hint">꺾은선 · 점 위 숫자 = 월 건수</span></div>${monthLineChart(L,s)}</div>`
     + `<div class="card"><div class="card-head"><h3>1일 평균 비교</h3><span class="hint">월 건수 ÷ 평일 수(토·일·공휴일 제외)</span></div>
-        ${monthBarChart(L,[{n:'온라인',c:'#0071e3',v:R.map(r=>admPerDay(r.online,r))},
+        ${monthLineChart(L,[{n:'온라인',c:'#0071e3',v:R.map(r=>admPerDay(r.online,r))},
                            {n:'오프라인',c:'#ff9500',v:R.map(r=>admPerDay(r.offline,r))}], v=>Number(v).toFixed(1))}</div>`
     + `<div class="card"><div class="card-head"><h3>월별 수치</h3>
           <span class="hint">유형별: <b>2026.01~06</b> 월간 리포트 · <b>07~</b> 대시보드 집계 · VOC는 처리 완료 건 · 2025년은 온·오프라인 구분이 없어 <b>온보딩·AS</b> · <b>근무일</b> 탭에서 보세요</span></div>
@@ -4705,7 +4733,7 @@ function admTypeRows(R){
     return {n, v:v.map(x=>x?x.toLocaleString():'·'), tot:v.reduce((a,b)=>a+b,0).toLocaleString()};
   });
 }
-function admWorkday(){
+function admWorkday(noNote){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const table=R=>{
   const perDay=R.map(r=>admPerDay(r.total,r));
@@ -4728,16 +4756,68 @@ function admWorkday(){
   };
   // 막대 = 근무일 수(평일), 선 = 1일 평균 — 참고 이미지의 '근무일 수, 1일 평균' 형태
   // (예전 막대+선 두 축 차트는 연도별 비교 선 그래프로 바꿈 — 아래 yoyChart)
-  return admHistNote(R)
+  return (noNote?'':admHistNote(R))
     + `<div class="adm-note">ℹ️ <b>2025.01~2026.06</b> 은 시트·월간 리포트 수치라 <b>담당자 수·1인 1일 평균·주말 처리분</b>은 알 수 없어 <b>—</b> 로 둡니다.</div>`
     + `<div class="adm-note"><b>근무일 수 = 평일</b>(토·일·공휴일 제외, 공휴일은 대체공휴일 포함). 진행 중인 달은 <b>오늘까지 경과한 평일</b>만 셉니다.
        <b>1일 평균 = 총 건수 ÷ 평일 수</b> — 주말·당직에 처리한 건도 분자에는 들어갑니다(맨 오른쪽 열에 따로 표기).</div>`
     + `<div class="yoy-grid">`
     + yoyChart('📦 월 총 처리 건수', R, r=>r.total, null, 'sum')
+    + admDriTotalCard(R)
     + yoyChart('📆 1일 평균 처리', R, r=>admPerDay(r.total,r), v=>Number(v).toFixed(1), 'avg', '총 건수 ÷ 평일 수')
     + `</div>`
     + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수 · 합계 줄의 1일 평균 = 연간 총 건수 ÷ 연간 평일 수</span></div>${table(Ry)}</div>`).join('');
 }
+
+// 월별 꺾은선 — series:[{n,c,v:[...]}]. v 에 null 이 있으면 그 달은 점을 찍지 않고 선을 끊는다(데이터 없는 달).
+// 계열이 3개 이하면 점마다 숫자를, 많으면 마지막 점에만 숫자를 단다(겹침 방지 · 나머지는 마우스오버).
+function monthLineChart(labels, series, fmt, opt){
+  const f = fmt || (v=>Number(v).toLocaleString()); opt=opt||{};
+  const many = series.length>3;
+  const colW=opt.colW||74, padL=34, padR=many?54:30, topPad=26, botPad=40;
+  const W=Math.max(opt.minW||420, padL+padR+(labels.length-1)*colW), H=opt.h||270, base=H-botPad, plotH=H-topPad-botPad;
+  const vals=series.flatMap(s=>s.v.filter(v=>v!=null).map(Number));
+  const mx=Math.max(1,...vals)*1.08;
+  const X=i=>labels.length>1 ? padL+i*(W-padL-padR)/(labels.length-1) : W/2;
+  const Y=v=>base-Number(v)/mx*plotH;
+  // 같은 해면 '11월', 해가 섞이면 '25.11' 로 짧게(좁은 차트에서 겹침 방지)
+  const oneYear=new Set(labels.map(l=>String(l).split('.')[0])).size===1;
+  const xl=l=>{ const p=String(l).split('.'); return !p[1] ? l : oneYear ? Number(p[1])+'월' : p[0].slice(-2)+'.'+p[1]; };
+  const grid=[0.25,0.5,0.75,1].map(p=>`<line x1="${padL-8}" y1="${(base-p*plotH).toFixed(1)}" x2="${W-padR+8}" y2="${(base-p*plotH).toFixed(1)}" style="stroke:var(--line-soft)" stroke-dasharray="3 4"/>`).join('');
+  const xs=labels.map((l,i)=>`<text x="${X(i).toFixed(1)}" y="${base+20}" text-anchor="middle" font-size="12" font-weight="700" style="fill:var(--ink)">${xl(l)}</text>`).join('');
+  const lines=series.map(s=>{
+    const segs=[]; let cur=[];
+    s.v.forEach((v,i)=>{ if(v==null){ if(cur.length) segs.push(cur); cur=[]; } else cur.push(`${X(i).toFixed(1)},${Y(v).toFixed(1)}`); });
+    if(cur.length) segs.push(cur);
+    const last=s.v.reduce((a,v,i)=>v!=null?i:a,-1);
+    const dots=s.v.map((v,i)=>{ if(v==null) return '';
+      const lab=(!many||i===last)?`<text x="${(X(i)+(many?8:0)).toFixed(1)}" y="${(many?Y(v)+4:Y(v)-9).toFixed(1)}" text-anchor="${many?'start':'middle'}" font-size="11.5" font-weight="800" style="fill:${s.c}">${f(v)}</text>`:'';
+      return `<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${many?3:4}" fill="${s.c}" stroke="var(--canvas)" stroke-width="1.5"><title>${labels[i]} · ${s.n} ${f(v)}</title></circle>${lab}`; }).join('');
+    return segs.map(p=>p.length>1?`<polyline points="${p.join(' ')}" fill="none" stroke="${s.c}" stroke-width="${many?2:2.5}" stroke-linejoin="round" stroke-linecap="round"/>`:'').join('')+dots;
+  }).join('');
+  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px" preserveAspectRatio="xMinYMid meet">
+      ${grid}<line x1="${padL-8}" y1="${base}" x2="${W-padR+8}" y2="${base}" style="stroke:var(--line)"/>${lines}${xs}</svg></div>
+    <div class="legend">${series.map(s=>`<span><span class="swatch" style="background:${s.c}"></span>${s.n}</span>`).join('')}</div>`;
+}
+// 📊 DRI별 총 처리 건수 — DRI별 월별의 카테고리(DRIM_CATS)를 한 그래프에 한 선씩. 최근 12개월.
+// 배달처럼 집계 시작(from) 전 달은 0 이 아니라 선을 끊는다.
+function admDriTotalCard(R){
+  const Rr=R.slice(-12), L=Rr.map(r=>r.m.replace('-','.'));
+  const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
+  const s=DRIM_CATS.map(c=>({n:`${c.icon} ${c.name}`, c:colorOf(c.key), v:Rr.map(r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0))}));
+  return `<div class="card"><div class="card-head"><h3>📊 DRI별 총 처리 건수</h3><span class="hint">최근 12개월 · 점에 마우스 → 숫자</span></div>
+    ${monthLineChart(L, s, null, {minW:360, colW:46, h:262})}</div>`;
+}
+/* ── 월별 처리 건수 탭 — 근무일·1일 평균 + DRI별 월별 + 온보딩·AS 월별 + 온라인·오프라인 월별 ── */
+function admMonthlyTab(){
+  const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
+  const sec=t=>`<div class="adm-sec">${t}</div>`;
+  return admHistNote(R)
+    + admWorkday(true)
+    + sec('📊 DRI별 월별') + admDriMonthly(true)
+    + sec('📈 온보딩 · A/S 월별') + admOnbAs(true)
+    + sec('🌐 온라인 · 오프라인 월별') + admChannel(true);
+}
+
 
 function renderAdmin(){
   const tabs=`<div class="adm-tabs">${ADMIN_TABS.map(t=>`<button class="${adminTab===t.k?'on':''}" onclick="setAdminTab('${t.k}')">${t.ic} ${t.n}</button>`).join('')}</div>`;
@@ -4745,11 +4825,9 @@ function renderAdmin(){
   let body='';
   if(adminTab==='hourly')       body=admHourly();
   else if(adminTab==='dri')     body=admDri();
-  else if(adminTab==='drim')    body=admDriMonthly();
   else if(adminTab==='prevm')   body=admPrevMonth();
-  else if(adminTab==='workday') body=admWorkday();
-  else if(adminTab==='onbas')   body=admOnbAs();
-  else if(adminTab==='chan')    body=admChannel();
+  else if(adminTab==='workday') body=admMonthlyTab();
+
 
   document.getElementById("main").innerHTML=`
     <div class="page-head">
@@ -4963,7 +5041,7 @@ const GAME_ITEMS = {
     {id:'t_fool',name:'바보',price:1,rarity:'common',ach:'fool',desc:'왜 받았는지는... 본인이 가장 잘 알고 있다',perk:{item:0.0005,miss:0.002}},
     {id:'t_layoff',name:'권고사직',price:1,rarity:'common',ach:'layoff',desc:'잠시 면담 좀 할까요? 커피는 제가 살게요',perk:{item:0.0005,keep:0.002},grad:'linear-gradient(90deg,#7a0f2e,#c02f5e,#7a0f2e)'},
     {id:'t_fast',name:'재빠른',price:1,rarity:'rare',ach:'fast',desc:'소방차보다 빨리 도착한다는 소문이 있다',perk:{item:0.001,miss:0.003}},
-    {id:'t_thunder',name:'⚡',price:1,rarity:'legendary',ach:'thunder',autoGrant:true,stack:100,desc:'번쩍! 하늘도 인정한 스피드',perk:{item:0.0025,miss:0.008},grad:'linear-gradient(90deg,#ffe14d,#ff9f0a,#ffd60a)'},
+    {id:'t_thunder',name:'⚡',price:1,rarity:'legendary',ach:'thunder',autoGrant:true,stack:100,desc:'번쩍! 하늘도 인정한 스피드. 번개는 쌓일수록 거세진다 — ⚡ 여섯 개가 모이면 천둥이 친다',perk:{item:0.0025,miss:0.008},grad:'linear-gradient(90deg,#ffe14d,#ff9f0a,#ffd60a)'},
     {id:'t_beta',name:'베타테스터',price:1,rarity:'legendary',ach:'beta',autoGrant:true,onlyFor:['배선유','김동욱'],desc:'대시보드 베타테스터의 노고를 기념하기 위한 타이틀',perk:{item:0.002,miss:0.01},grad:'linear-gradient(90deg,#00c7be,#5e5ce6,#e0218a)'},
     {id:'t_workaholic',name:'워커홀릭',price:1,rarity:'legendary',ach:'workaholic',autoGrant:true,desc:'평일 90일 연속, 하루도 쉬지 않고 9시~18시 원격 이력을 남긴 진정한 일벌레',perk:{item:0.002,miss:0.025},grad:'linear-gradient(90deg,#ff9f0a,#ff375f,#bf5af2)'},
     {id:'t_first',name:'1st',price:1,rarity:'legendary',ach:'first',autoGrant:true,stack:111,desc:'일찍 일어나는 새가...',perk:{item:0.0025,keep:0.008},grad:'linear-gradient(90deg,#ffd60a,#fffbe6,#ffd60a,#ff9f0a)'},
@@ -5433,11 +5511,18 @@ function titleNameHTML(t, emp){
   const n=escapeHtml(raw); return t.spin?`<span class="t-star"><span class="t-spin">${n}</span></span>`:n;   // ⭐: 돌면서 반짝이는 별
 }
 function titleStyle(eq){ return titleStyleOf(itemById('title',(eq||{}).title)); }
+// ✨ 신화 타이틀 = 주변에 별가루가 반짝이며 떠다님(tfx-myth) · ⚡ 6단계(600건) 이상 = 천둥번개(tfx-storm)
+function titleFxCls(t,emp){ if(!t) return ''; if(t.id==='t_thunder' && titleTier(t,emp)>=6) return ' tfx tfx-storm'; return t.rarity==='mythic' ? ' tfx tfx-myth' : ''; }
+const TSP=[{x:'-8%',y:'-35%',d:'2.6s',dl:'0s',c:'#fff6c2',ch:'✦'},{x:'18%',y:'70%',d:'2.2s',dl:'.7s',c:'#ffd60a',ch:'✧'},{x:'42%',y:'-45%',d:'2.8s',dl:'1.3s',c:'#bfe6ff',ch:'✦',s:'.5em'},
+  {x:'66%',y:'75%',d:'2.4s',dl:'.35s',c:'#ffe58a',ch:'✦'},{x:'92%',y:'-30%',d:'2.5s',dl:'1s',c:'#fff',ch:'✧',s:'.7em'},{x:'104%',y:'45%',d:'2.1s',dl:'1.7s',c:'#ffd60a',ch:'✦',s:'.45em'}];
+function titleFxInner(t,emp){ const c=titleFxCls(t,emp); if(!c) return '';
+  if(c.includes('storm')) return [['8%','0s','.7em'],['46%','.12s','.9em'],['82%','.06s','.65em']].map(([x,dl,s])=>`<i class="tbolt" style="--x:${x};--dl:${dl};--s:${s}">⚡</i>`).join('');
+  return TSP.map(p=>`<i class="tsp" style="--x:${p.x};--y:${p.y};--d:${p.d};--dl:${p.dl};--c:${p.c}${p.s?';--s:'+p.s:''}">${p.ch}</i>`).join(''); }
 // 내 캐릭터 카드 내부(미리보기 시 이 부분만 교체)
 function gameMeInner(emp, eq){ const t=itemById('title',(eq||{}).title);
   return `${avatarBig(eq, (GAME[emp]||{}).gender, emp)}
     <div class="gm-right">
-      ${t?`<div class="gm-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t, emp)}]</div>`:''}
+      ${t?`<div class="gm-title tr-${t.rarity}${titleFxCls(t,emp)}" style="${titleStyleOf(t)}">[${titleNameHTML(t, emp)}]${titleFxInner(t,emp)}</div>`:''}
       <div class="gm-name" style="${nametagStyle(eq)}">${escapeHtml(emp)}</div>
       <div class="gm-coins">🪙 <b>${empAvail(emp)}</b><span>보유 코인</span>${empOver(emp)?`<span class="gm-over">⚠️ 초과 사용 −${empOver(emp)}</span>`:''}</div>
       <div class="gm-sub">누적 처리 ${empHandled(emp)}건 · 누적 획득 ${empCoins(emp)}코인 · 사용 ${empSpent(emp)}코인 <span style="color:var(--gray2)">· 이번 달 ${empHandledMonth(emp)}건 · 코인은 이월(초기화 없음)</span>${COIN_FIX[emp]?`<span style="color:var(--gray2)"> · 🛠 ${COIN_FIX[emp].grant}코인 보정 지급 (${COIN_FIX[emp].since}부터 재적립)</span>`:''}</div>
@@ -5449,7 +5534,7 @@ function clearPreview(){ const emp=gameMe; if(!emp) return; const box=document.g
 // 🔍 아이템 마우스오버 → 그 자리에 미리보기 팝업
 const CAT_LABEL={bg:'배경',title:'타이틀',nametag:'네임택',hat:'모자',pet:'펫',skin:'피부',hair:'헤어',dye:'염색',eyes:'눈',brows:'눈썹',mouth:'입',beard:'수염',top:'상의',pants:'하의',shoes:'신발',gloves:'장갑',cape:'망토'};
 function itemTipHTML(cat,id){ const it=itemById(cat,id); if(!it) return ''; const r=it.rarity||'common';
-  let big; if(cat==='title') big=`<span class="tr-${r}" style="${titleStyleOf(it)};font-size:24px;font-weight:800">[${titleNameHTML(it)}]</span>`;
+  let big; if(cat==='title') big=`<span class="tr-${r}${titleFxCls(it)}" style="${titleStyleOf(it)};font-size:24px;font-weight:800">[${titleNameHTML(it)}]${titleFxInner(it)}</span>`;
   else if(cat==='nametag') big=`<span style="${nametagStyle({nametag:id})};font-size:24px;font-weight:800">홍길동</span>`;
   else if(AVATAR_CATS.includes(cat)) big=`<div class="it-tip-part">${miniPart(cat,it)}</div>`;
   else big=`<div style="font-size:52px;line-height:1">${it.e||'✕'}</div>`;
@@ -5487,7 +5572,7 @@ function moveItemTip(e){ if(tipPinned) return;   // 고정된 툴팁은 마우�
   const t=document.getElementById('itemTip'); if(!t||t.style.display!=='block') return; const pad=16, w=t.offsetWidth, h=t.offsetHeight; let x=e.clientX+pad, y=e.clientY+pad; if(x+w>window.innerWidth-8) x=e.clientX-w-pad; if(y+h>window.innerHeight-8) y=e.clientY-h-pad; if(x<8)x=8; if(y<8)y=8; t.style.left=x+'px'; t.style.top=y+'px'; }
 function hideItemTip(force){ if(tipPinned&&!force) return; const t=document.getElementById('itemTip'); if(t) t.style.display='none'; }
 // 랭킹 등 이름 표시(타이틀+얼굴+네임택 색)
-function rankNameHTML(emp, noFace){ const eq=(GAME[emp]||{}).equipped||{}; const f=noFace?'':partE('face',eq.face), t=itemById('title',eq.title); return `${t?`<div class="r-title tr-${t.rarity}" style="${titleStyleOf(t)}">[${titleNameHTML(t, emp)}]</div>`:''}<div class="r-nm">${f?`<span class="r-face">${f}</span>`:''}<span style="${nametagStyle(eq)}">${escapeHtml(emp)}</span></div>`; }
+function rankNameHTML(emp, noFace){ const eq=(GAME[emp]||{}).equipped||{}; const f=noFace?'':partE('face',eq.face), t=itemById('title',eq.title); return `${t?`<div class="r-title tr-${t.rarity}${titleFxCls(t,emp)}" style="${titleStyleOf(t)}">[${titleNameHTML(t, emp)}]${titleFxInner(t,emp)}</div>`:''}<div class="r-nm">${f?`<span class="r-face">${f}</span>`:''}<span style="${nametagStyle(eq)}">${escapeHtml(emp)}</span></div>`; }
 // 랭킹·MVP용 미니 전신 아바타(캐릭터+꾸미기 전부) — 122x150 원본을 w px로 축소. 게임 미참여 직원도 기본 캐릭터 렌더.
 function avatarMini(emp, w){ const g=GAME[emp]||{}; const eq=g.equipped||{}; const s=w/122; return `<div class="av-mini" style="width:${w}px;height:${Math.round(150*s)}px"><div class="av-mini-in" style="transform:scale(${s.toFixed(3)})">${avatarBig(eq, g.gender)}</div></div>`; }
 // 팀 공유 클라우드 = {players:GAME, vocEdit, vocPraise, vocComment, dutyOver, fishWait} 통합 블롭 (백엔드는 game 블롭을 그대로 저장/반환)
@@ -5692,7 +5777,7 @@ function shopCard(cat,it,emp){
   const disp = AVATAR_CATS.includes(cat) ? miniPart(cat,it)
     : it.e!==undefined ? (it.e||'✕')
     : (cat==='nametag' ? `<span style="${nametagStyle({nametag:it.id})}">가나</span>`
-    : `<span class="tr-${r}" style="${titleStyleOf(it)}">[${titleNameHTML(it)}]</span>`);
+    : `<span class="tr-${r}${titleFxCls(it)}" style="${titleStyleOf(it)}">[${titleNameHTML(it)}]${titleFxInner(it)}</span>`);
   // 히든(???) 타이틀은 조건은 감추고, 아래 줄에 달성 수치만 공개
   const reqBadge = it.ach ? (function(){ const d=achDisplay(emp,it,owned);
       const sub = (!d.revealed && d.prog) ? `<div class="si-req-sub">📊 ${escapeHtml(d.prog)}</div>` : '';
@@ -6061,7 +6146,7 @@ function fishItemPreview(spot){ const seen={}, items=[]; FISH[spot].loot.filter(
     for(const cat in GAME_ITEMS){ for(const it of GAME_ITEMS[cat]){ if(it.price===0) continue; if(it.targetOnly) continue; if(!x.rar||!x.rar.includes(it.rarity)) continue; if(x.fish&&!it.fishOnly) continue; if(!x.fish&&it.fishOnly) continue; const k=cat+':'+it.id; if(!seen[k]){ seen[k]=1; items.push(Object.assign({cat},it)); } } }
   }); const ord={mythic:0,legendary:1,epic:2,rare:3,common:4}; return items.sort((a,b)=>(ord[a.rarity]-ord[b.rarity])); }
 function fishPreviewCard(it,emp){ const owned=owns(emp,it.cat,it.id), r=it.rarity;
-  const disp = it.e!==undefined ? (it.e||'✕') : (it.cat==='nametag'?`<span style="${nametagStyle({nametag:it.id})}">가나</span>`:`<span class="tr-${r}" style="${titleStyleOf(it)}">[${titleNameHTML(it)}]</span>`);
+  const disp = it.e!==undefined ? (it.e||'✕') : (it.cat==='nametag'?`<span style="${nametagStyle({nametag:it.id})}">가나</span>`:`<span class="tr-${r}${titleFxCls(it)}" style="${titleStyleOf(it)}">[${titleNameHTML(it)}]${titleFxInner(it)}</span>`);
   return `<div class="shop-item" style="--rar:${RARITY[r]}" onclick="pinItemTip(event,'${it.cat}','${it.id}')" onmouseenter="showItemTip(event,'${it.cat}','${it.id}')" onmousemove="moveItemTip(event)" onmouseleave="hideItemTip()"><div class="si-rar">${RARITY_KO[r]}</div><div class="si-disp">${disp}</div><div class="si-name">${escapeHtml(it.name)}</div><div class="fp-own ${owned?'yes':''}">${owned?'✓ 보유':'미보유'}</div></div>`;
 }
 function renderGameFish(){
@@ -8192,8 +8277,7 @@ function renderShare(){
     if(d===null) return `<div class="daycell share empty"></div>`;
     const dateObj=new Date(y,m,d), ds=ymd(dateObj), dow=dateObj.getDay();
     const wk=lanes.weeks[Math.floor(ci/7)];
-    const tenRow = wk.ten ? (dow>=1 && dow<=5 ? tenBarSeg(wk.ten, wk.mon, dateObj, d, lastDate) : '<div class="ev-bar-gap"></div>') : '';
-    const bars = (wk.n || wk.ten) ? `<div class="ev-bars">${tenRow}${Array.from({length:wk.n},(_,l)=>{
+    const bars = wk.n ? `<div class="ev-bars">${Array.from({length:wk.n},(_,l)=>{
       const x=lanes.at[ds+'|'+l]; if(!x) return '<div class="ev-bar-gap"></div>';
       return shareBarSeg(x, dateObj, d, lastDate);
     }).join('')}</div>` : '';
@@ -8257,7 +8341,6 @@ function renderShare(){
         <span style="margin-left:6px"><span class="swatch" style="background:#e8f0fe;border:1px solid #c6dafc"></span>회의(구글)</span>
       </div>
       <div class="duty-order">🏠 회의 중 원격 근무당번 순서 · ${orderAt(DUTY_ORDER, DUTY_ORDER_CHANGES, ymd(new Date(y,m+1,0))).join(' → ')}${orderChangeNote(DUTY_ORDER_CHANGES, y, m)}</div>
-      <div class="duty-order ten-order">🕙 10시 출근 로테이션(주 단위 · 월요일 시작) · ${orderAt(TEN_ORDER, TEN_ORDER_CHANGES, ymd(new Date(y,m+1,0))).join(' → ')}${orderChangeNote(TEN_ORDER_CHANGES, y, m)} <span style="font-weight:600;color:var(--gray2)">· 달력의 <b>10출</b> 막대 클릭 → 이름 변경</span></div>
     </div>
   `;
 }
