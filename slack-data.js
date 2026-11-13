@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33183,
+  "version": 33184,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323552,7 +323552,7 @@ window.SLACK_DATA = {
           "김동욱": 1
         },
         "as": {
-          "배선유": 2,
+          "배선유": 3,
           "심성현": 2,
           "서상원": 2,
           "김동욱": 1
@@ -323576,6 +323576,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "아직 출근전으로 10시 55분 재예약 완료",
+          "rr": 1
+        },
+        {
+          "time": "09:31",
+          "store": "인슈마켓",
+          "biz": "2951902796",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프론트+ 유선프린터 (8385)  온보딩 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "프린터만 추가 구매 / 프린터 설정 완료",
           "rr": 1
         },
         {
@@ -323699,11 +323711,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "09:33"
+      "updatedAt": "09:43"
     }
   },
   "resp": {
@@ -323784,18 +323796,11 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794530556.69
+        "lastSeen": 1794530657.507
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794530556.69
-      },
-      "1794529912.402129": {
-        "post": "1794529912.402129",
-        "lastSeen": 1794530556.69,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 6
+        "lastSeen": 1794530657.507
       }
     },
     "days": {
@@ -448462,7 +448467,8 @@ window.SLACK_DATA = {
             "store": "인슈마켓",
             "biz": "2951902796",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 11.6
           },
           {
             "hm": "09:33",
@@ -448478,7 +448484,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 09:43",
+    "at": "2026-11-13 09:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448636,7 +448642,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 09:42",
+    "at": "2026-11-13 09:44",
     "pri": {
       "days": 0,
       "failed": [],
