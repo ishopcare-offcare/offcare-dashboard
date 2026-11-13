@@ -4814,14 +4814,40 @@ function admCatTotalCard(R){
   return `<div class="card"><div class="card-head"><h3>📊 분류별 총 처리 건수</h3><span class="hint">최근 12개월 · 점에 마우스 → 숫자</span></div>
     ${monthLineChart(L, s, null, {w:560, h:300})}</div>`;
 }
-/* ── 월별 처리 건수 탭 — 근무일·1일 평균 + DRI별 월별 + 온보딩·AS 월별 + 온라인·오프라인 월별 ── */
+/* ── 카테고리별 월별 — 예전 '온보딩·AS 월별' + 'DRI별 월별' 통합 ──
+ * 위에 온보딩·A/S(월 건수·1일 평균), 아래에 DRI 카테고리(명의변경·메뉴등록·배달·외주). 월별 수치 표는 해마다 6개 분류를 한 표로. */
+function admCatMonthly(){
+  const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
+  const get=c=>r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0);
+  const who=c=>{ const ns=DRI_ROLES.map(x=>[x.n, driGet(c.key,x.k)]).filter(([,v])=>v);
+    return ns.length?ns.map(([r,v])=>`${r} ${escapeHtml(v)}`).join(' · '):'DRI 미지정'; };
+  const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
+  const f1=v=>Number(v).toFixed(1);
+  const ALL=[{key:'onboarding', icon:'🚀', name:'온보딩', c:'#0071e3'}, {key:'as', icon:'🔧', name:'A/S', c:'#34c759'},
+             ...DRIM_CATS.map(c=>Object.assign({c:colorOf(c.key)}, c))];
+  return `<div class="adm-note">카테고리별 <b>월 건수</b>를 해마다 한 선으로 겹쳐 봅니다(2025 파랑 · 2026 빨강).
+       명의변경·메뉴등록·배달·외주는 제목 옆에 <b>DRI 정·부</b> 탭에서 지정한 담당자를 붙였습니다. 배달은 <b>2026.04</b> 부터 집계해 그 전 달은 비워 둡니다.</div>`
+    + `<div class="yoy-grid">`
+    + yoyChart('🚀 온보딩 월 건수', R, r=>r.by.onboarding, null, 'sum')
+    + yoyChart('🔧 A/S 월 건수', R, r=>r.by.as, null, 'sum')
+    + yoyChart('🚀 온보딩 1일 평균', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 건수 ÷ 평일 수')
+    + yoyChart('🔧 A/S 1일 평균', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 건수 ÷ 평일 수')
+    + DRIM_CATS.map(c=>yoyChart(`${c.icon} ${c.name} 월 건수`, R, get(c), null, 'sum', who(c))).join('')
+    + `</div>`
+    + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3></div>
+        ${monthTable(Ry.map(r=>r.m.replace('-','.')),
+                     ALL.map(c=>({n:`${c.icon} ${c.name}`, c:c.c, v:Ry.map(r=>{ const v=get(c)(r); return v==null?'':v; })})),
+                     [{n:'평일 수', v:Ry.map(r=>r.biz), tot:Ry.reduce((a,r)=>a+r.biz,0)},
+                      {n:'온보딩 1일 평균', v:Ry.map(r=>admPerDay(r.by.onboarding,r))},
+                      {n:'A/S 1일 평균',   v:Ry.map(r=>admPerDay(r.by.as,r))}])}</div>`).join('');
+}
+/* ── 월별 처리 건수 탭 — 근무일·1일 평균 + 카테고리별 월별(온보딩·AS·DRI) + 온라인·오프라인 월별 ── */
 function admMonthlyTab(){
   const R=admMonthlyWithHist(); if(!R.length) return `<div class="empty-note">집계 데이터가 없습니다.</div>`;
   const sec=t=>`<div class="adm-sec">${t}</div>`;
   return admHistNote(R)
     + admWorkday(true)
-    + sec('📊 DRI별 월별') + admDriMonthly(true)
-    + sec('📈 온보딩 · A/S 월별') + admOnbAs(true)
+    + sec('📊 카테고리별 월별') + admCatMonthly()
     + sec('🌐 온라인 · 오프라인 월별') + admChannel(true);
 }
 
