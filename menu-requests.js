@@ -3,10 +3,137 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5203,
- "updatedAt": "2026-11-13 13:30",
+ "version": 5204,
+ "updatedAt": "2026-11-13 13:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1794544393.466779",
+   "date": "2026-11-13",
+   "time": "13:33",
+   "store": "종각 교동 짬뽕",
+   "biz": "2191412897",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHH1S125S",
+     "from": "댓글",
+     "path": "menu-files/1794544393_466779-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "주류 및 음료",
+       "name": "소주/맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "이과두주 (125ml)",
+       "price": 5000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "고량주 (250ml)",
+       "price": 7000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "연태고량주 (125ml)",
+       "price": 12000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "연태고량주 (250ml)",
+       "price": 23000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "연태고량주 (500ml)",
+       "price": 44000
+      },
+      {
+       "category": "주류 및 음료",
+       "name": "음료수(콜라/사이다)",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CH73ST1NX",
+     "from": "댓글",
+     "path": "menu-files/1794544393_466779-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "식사부",
+       "name": "교동짬뽕(면/밥)",
+       "price": 9000
+      },
+      {
+       "category": "식사부",
+       "name": "삼선짬뽕(면/밥)",
+       "price": 13000
+      },
+      {
+       "category": "식사부",
+       "name": "짜장면",
+       "price": 6000
+      },
+      {
+       "category": "식사부",
+       "name": "간짜장",
+       "price": 8000
+      },
+      {
+       "category": "식사부",
+       "name": "새우야채볶음밥",
+       "price": 9000
+      },
+      {
+       "category": "식사부",
+       "name": "공기밥",
+       "price": 1000
+      },
+      {
+       "category": "요리부",
+       "name": "탕수육(소)",
+       "price": 18000
+      },
+      {
+       "category": "요리부",
+       "name": "탕수육(중)",
+       "price": 26000
+      },
+      {
+       "category": "요리부",
+       "name": "술국",
+       "price": 20000
+      },
+      {
+       "category": "요리부",
+       "name": "군만두(6p)",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794544407.524019",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794544393466779"
+  },
   {
    "ts": "1794541330.351679",
    "date": "2026-11-13",
