@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5174,
- "updatedAt": "2026-11-13 09:21",
+ "version": 5175,
+ "updatedAt": "2026-11-13 09:27",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,1041 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_6959.jpeg",
+     "fid": "F0CHFFA9KU4",
+     "from": "댓글",
+     "path": "menu-files/1794529140_692319-0.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "티",
+       "name": "제로 자몽허니블랙티",
+       "price": 5500
+      },
+      {
+       "category": "티",
+       "name": "수제 레몬차",
+       "price": 5500
+      },
+      {
+       "category": "티",
+       "name": "수제 자몽차",
+       "price": 5500
+      },
+      {
+       "category": "티",
+       "name": "쌍화차",
+       "price": 5500
+      },
+      {
+       "category": "티",
+       "name": "캐모마일 티",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "페퍼민트 티",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "유기농 루이보스 티",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "얼그레이 티",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "로즈마리 티",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "라벤더 티",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "잉글리쉬 블랙퍼스트 티",
+       "price": 5000
+      },
+      {
+       "category": "티",
+       "name": "히비스커스 티",
+       "price": 4500
+      },
+      {
+       "category": "티",
+       "name": "ICE 제로 오미자차",
+       "price": 5300
+      },
+      {
+       "category": "티",
+       "name": "HOT 제로 오미자차",
+       "price": 5300
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6958.jpeg",
+     "fid": "F0CHFFAEBAQ",
+     "from": "댓글",
+     "path": "menu-files/1794529140_692319-1.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "망고요거트 와푸 소금빵",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "더블초코 와푸소금빵",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "우베 바스크치즈 케이크",
+       "price": 8000
+      },
+      {
+       "category": "",
+       "name": "와락 바스크치즈 케이크",
+       "price": 7700
+      },
+      {
+       "category": "",
+       "name": "쇼콜라 테디 케이크",
+       "price": 7700
+      },
+      {
+       "category": "",
+       "name": "치즈 테디 케이크",
+       "price": 7700
+      },
+      {
+       "category": "",
+       "name": "떠먹는 밤티라미수",
+       "price": 6900
+      },
+      {
+       "category": "",
+       "name": "떠먹는 고구마케이크",
+       "price": 6900
+      },
+      {
+       "category": "",
+       "name": "생크림 폭탄카스테라",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "초코 폭탄카스테라",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "밀크크레이프",
+       "price": 5800
+      },
+      {
+       "category": "",
+       "name": "쇼콜라크레이프",
+       "price": 6300
+      },
+      {
+       "category": "",
+       "name": "소금빵",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "크림치즈 스틱3P",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "크림치즈프렛즐 1P",
+       "price": 3300
+      },
+      {
+       "category": "",
+       "name": "잉글리쉬머핀 샌드위치",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "페스츄리 호두파지 5P",
+       "price": 4900
+      },
+      {
+       "category": "",
+       "name": "허니브레드",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "블랙포레스트생크림 케이크",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "순수우유케이크",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "부오노 티라미수 케이크",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6957.jpeg",
+     "fid": "F0CHBJM4G2W",
+     "from": "댓글",
+     "path": "menu-files/1794529140_692319-2.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "스무디",
+       "name": "딸기요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "블루베리 요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "복숭아 요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "망고 요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "플레인 요거트 스무디",
+       "price": 5300
+      },
+      {
+       "category": "스무디",
+       "name": "와락 곡물 스무디",
+       "price": 5500
+      },
+      {
+       "category": "스무디",
+       "name": "멜론스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "고구마스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "바밤바 스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디",
+       "name": "자두 스무디",
+       "price": 5800
+      },
+      {
+       "category": "스무디",
+       "name": "배 스무디",
+       "price": 5800
+      },
+      {
+       "category": "스무디",
+       "name": "배 밀크 스무디",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6956.jpeg",
+     "fid": "F0CH9R3UZPG",
+     "from": "댓글",
+     "path": "menu-files/1794529140_692319-3.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "프라푸치노",
+       "name": "카페모카 프라푸치노",
+       "price": 6000
+      },
+      {
+       "category": "프라푸치노",
+       "name": "초콜릿 프라푸치노",
+       "price": 6000
+      },
+      {
+       "category": "프라푸치노",
+       "name": "민트초코 프라푸치노",
+       "price": 6500
+      },
+      {
+       "category": "프라푸치노",
+       "name": "자바칩 프라푸치노",
+       "price": 6500
+      },
+      {
+       "category": "프라푸치노",
+       "name": "흑임자 프라푸치노",
+       "price": 6500
+      },
+      {
+       "category": "프라푸치노",
+       "name": "토피넛 프라푸치노",
+       "price": 6500
+      },
+      {
+       "category": "프라푸치노",
+       "name": "네스퀵 프라푸치노",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6955.jpeg",
+     "fid": "F0CH5HCM63D",
+     "from": "댓글",
+     "path": "menu-files/1794529140_692319-4.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드",
+       "name": "옛날식혜",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "100% 수박주스",
+       "price": 6900
+      },
+      {
+       "category": "에이드",
+       "name": "수제 레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "수제 자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "제주말차 레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "블루레몬 에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "청포도에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "딸기에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "체리 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "모히또 에이드",
+       "price": 6000
+      },
+      {
+       "category": "에이드",
+       "name": "체리콕",
+       "price": 5500
+      },
+      {
+       "category": "에이드",
+       "name": "제주말차 레몬아이스티",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "복숭아 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "에이드",
+       "name": "블루베리 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "복숭아 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "망고 에이드",
+       "price": 5000
+      },
+      {
+       "category": "에이드",
+       "name": "자두 에이드",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6954.jpeg",
+     "fid": "F0CH5HCSZ43",
+     "from": "댓글",
+     "path": "menu-files/1794529140_692319-5.jpeg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "라떼",
+       "name": "쑥라떼",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "녹차라떼",
+       "price": 5000
+      },
+      {
+       "category": "라떼",
+       "name": "네스퀵라떼",
+       "price": 5000
+      },
+      {
+       "category": "라떼",
+       "name": "초콜릿라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "고구마라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "바닐라빈 라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "돌체연유라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "헤이즐넛라떼",
+       "price": 5000
+      },
+      {
+       "category": "라떼",
+       "name": "달고나라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "흑당라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "공주밤라떼",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "단호박라떼",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "우리땅 곡물라떼",
+       "price": 5000
+      },
+      {
+       "category": "라떼",
+       "name": "민트초코라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "생딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "라떼",
+       "name": "흑임자크림 라떼(only ice)",
+       "price": 5800
+      },
+      {
+       "category": "라떼",
+       "name": "흑임자크림 카페라떼(only ice)",
+       "price": 6300
+      },
+      {
+       "category": "라떼",
+       "name": "멜론라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "토피넛 라떼",
+       "price": 5500
+      },
+      {
+       "category": "라떼",
+       "name": "토피넛 카페라떼",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6953.jpeg",
+     "fid": "F0CHBJNPXM0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 헤이즐넛라떼",
+       "price": 9500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 공주밤라떼",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 단호박라떼",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 곡물라떼",
+       "price": 9500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 민트초코라떼",
+       "price": 10000
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 멜론라떼",
+       "price": 10500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 토피넛라떼",
+       "price": 10500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 토피넛카페라떼",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 딸기요거트 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 블루베리요거트 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 복숭아요거트 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 망고요거트 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 플레인요거트 스무디",
+       "price": 10500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 와락곡물 스무디",
+       "price": 10500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 멜론 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 고구마 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 바밤바 스무디",
+       "price": 10500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 자두 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 배 스무디",
+       "price": 11500
+      },
+      {
+       "category": "1리터 대용량 음료",
+       "name": "1리터 배밀크 스무디",
+       "price": 11800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6952.jpeg",
+     "fid": "F0CHFFDDNKE",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 제로 자허블",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 제로 오미자차",
+       "price": 10000
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 수박주스",
+       "price": 13500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 아메리카노",
+       "price": 7500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 카페라떼",
+       "price": 8400
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 바닐라빈 라떼",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 복숭아아이스티",
+       "price": 7500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 제주밀차 레몬 아이스티",
+       "price": 9700
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 아샷추(아이스티 + 2샷)",
+       "price": 8400
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 네스퀵라떼",
+       "price": 9500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 레몬에이드",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 자몽에이드",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 블루레몬에이드",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 체리에이드",
+       "price": 9500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 체리콕",
+       "price": 10000
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 청포도에이드",
+       "price": 10000
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 생딸기라떼",
+       "price": 11000
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 녹샷추",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 헤이즐넛 아메리카노",
+       "price": 8500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 카페모카",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 화이트카페모카",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 카라멜마끼야또",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 녹차라떼",
+       "price": 9500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 초콜릿라떼",
+       "price": 10500
+      },
+      {
+       "category": "1리터대용량 음료",
+       "name": "1리터 돌체연유라떼",
+       "price": 10500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6951.jpeg",
+     "fid": "F0CJ65SJNDN",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트",
+       "name": "와락 프리미엄 블렌드 원두200g",
+       "price": 17000
+      },
+      {
+       "category": "세트",
+       "name": "와락 프리미엄 블렌드 드립백10P",
+       "price": 14000
+      },
+      {
+       "category": "세트",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "세트",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "세트",
+       "name": "화이트 아메리카노",
+       "price": 4200
+      },
+      {
+       "category": "세트",
+       "name": "레모니카노",
+       "price": 5300
+      },
+      {
+       "category": "세트",
+       "name": "자모니카노",
+       "price": 5300
+      },
+      {
+       "category": "세트",
+       "name": "헤이즐넛 아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "세트",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "세트",
+       "name": "카페모카",
+       "price": 5500
+      },
+      {
+       "category": "세트",
+       "name": "화이트 카페모카",
+       "price": 5500
+      },
+      {
+       "category": "세트",
+       "name": "카푸치노",
+       "price": 5000
+      },
+      {
+       "category": "세트",
+       "name": "카라멜마끼아또",
+       "price": 5500
+      },
+      {
+       "category": "세트",
+       "name": "아인슈페너",
+       "price": 5800
+      },
+      {
+       "category": "세트",
+       "name": "아샷추(아이스티 샷추가)",
+       "price": 4500
+      },
+      {
+       "category": "세트",
+       "name": "녹샷추(녹차샷추가)",
+       "price": 5500
+      },
+      {
+       "category": "세트",
+       "name": "체샷추(체리콕샷추가)",
+       "price": 6000
+      },
+      {
+       "category": "세트",
+       "name": "사장님스타일 아닌 딸샷추",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6948.jpeg",
+     "fid": "F0CJ65TCK1N",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쫀득쿠키,버터떡",
+       "name": "아몬드쫀득쿠키(아쫀쿠)",
+       "price": 5500
+      },
+      {
+       "category": "쫀득쿠키,버터떡",
+       "name": "흑임자쫀득쿠키(흑쫀쿠)",
+       "price": 5500
+      },
+      {
+       "category": "쫀득쿠키,버터떡",
+       "name": "버터떡(플레인)",
+       "price": 2000
+      },
+      {
+       "category": "쫀득쿠키,버터떡",
+       "name": "버터떡(초코)",
+       "price": 2200
+      },
+      {
+       "category": "쫀득쿠키,버터떡",
+       "name": "버터떡 (흑임자)",
+       "price": 2200
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6949.jpeg",
+     "fid": "F0CH9RA1Q5C",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트",
+       "name": "소금빵+아메리카노 세트",
+       "price": 7000
+      },
+      {
+       "category": "세트",
+       "name": "소금빵+카페라떼 세트",
+       "price": 7500
+      },
+      {
+       "category": "세트",
+       "name": "소금빵+카페모카 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "소금빵+화이트 카페모카 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "소금빵+카푸치노 세트",
+       "price": 8000
+      },
+      {
+       "category": "세트",
+       "name": "소금빵+카라멜마끼야또 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈스틱3P+아메리카노 세트",
+       "price": 7000
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈스틱3P+카페라떼 세트",
+       "price": 7500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈스틱3p+카페모카",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈스틱3P+화이트카페모카 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈스틱3P+카푸치노 세트",
+       "price": 8000
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈스틱3P+카라멜마끼야또 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈프렛즐1P+아메리카노 세트",
+       "price": 7000
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈프렛즐1P+카페라떼 세트",
+       "price": 7500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈프렛즐1P+카페모카 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈프렛즐1P+화이트카페모카 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "크림치즈프렛즐1P+카푸치노 세트",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_6950.jpeg",
+     "fid": "F0CH6FPH8JH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세트",
+       "name": "크림치즈프렛즐1P+카라멜마끼아또 세트",
+       "price": 8500
+      },
+      {
+       "category": "세트",
+       "name": "잉글리쉬머핀샌드위치+아메리카노 세트",
+       "price": 8300
+      },
+      {
+       "category": "세트",
+       "name": "잉글리쉬머핀샌드위치+카페라떼 세트",
+       "price": 8800
+      },
+      {
+       "category": "세트",
+       "name": "잉글리쉬머핀샌드위치+카페모카 세트",
+       "price": 9800
+      },
+      {
+       "category": "세트",
+       "name": "잉글리쉬머핀샌드위치+화이트카페모카 세트",
+       "price": 9800
+      },
+      {
+       "category": "세트",
+       "name": "잉글리쉬머핀샌드위치+카푸치노 세트",
+       "price": 9300
+      },
+      {
+       "category": "세트",
+       "name": "잉글리쉬머핀샌드위치+카라멜마끼아또 세트",
+       "price": 9800
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 2,
+   "lr": "1794529460.669109",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",

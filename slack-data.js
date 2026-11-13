@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33173,
+  "version": 33174,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323549,7 +323549,7 @@ window.SLACK_DATA = {
     "2026-11-13": {
       "counts": {
         "as": {
-          "심성현": 1,
+          "심성현": 2,
           "서상원": 1
         },
         "menu": {
@@ -323558,6 +323558,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:15",
+          "store": "주식회사 벗이(Versi)(미술관)",
+          "biz": "1428143054",
+          "cat": "as",
+          "emp": "심성현",
+          "req": "<https://ishopcare.enterprise.slack.com/archives/C09HRUSG4TX/p1790727351698769|https://ishopcare.enterprise.slack.com/archives/C09HRUSG4TX/p",
+          "hw": "",
+          "intake": "offline",
+          "note": "프로그램 재설치 권장했으나 소요 시간 안내 시 현재 불가능함",
+          "rr": 2
+        },
         {
           "time": "09:08",
           "store": "짠돌이 소금빵",
@@ -323597,7 +323609,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "09:19"
@@ -323681,43 +323693,36 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794529351.595
+        "lastSeen": 1794529431.33
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794529351.595
+        "lastSeen": 1794529431.33
       },
       "1794528008.159649": {
         "post": "1794528008.159649",
-        "lastSeen": 1794529351.595,
+        "lastSeen": 1794529431.33,
         "r": 1,
         "day": "2026-11-13",
         "idx": 0
       },
       "1794528735.326839": {
         "post": "1794528735.326839",
-        "lastSeen": 1794529351.595,
+        "lastSeen": 1794529431.33,
         "r": 1,
         "day": "2026-11-13",
         "idx": 1
       },
       "1794528957.860339": {
         "post": "1794528957.860339",
-        "lastSeen": 1794529351.595,
+        "lastSeen": 1794529431.33,
         "r": 1,
         "day": "2026-11-13",
         "idx": 2
       },
-      "1794528925.430129": {
-        "post": "1794528925.430129",
-        "lastSeen": 1794529351.595,
-        "r": 1,
-        "day": "2026-11-13",
-        "idx": 3
-      },
       "1794529140.692319": {
         "post": "1794529140.692319",
-        "lastSeen": 1794529351.595,
+        "lastSeen": 1794529431.33,
         "r": 1,
         "day": "2026-11-13",
         "idx": 4
@@ -448357,7 +448362,8 @@ window.SLACK_DATA = {
             "store": "주식회사 벗이(Versi)(미술관)",
             "biz": "1428143054",
             "who": "심성현",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7.8
           },
           {
             "hm": "09:19",
@@ -448372,7 +448378,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 09:23",
+    "at": "2026-11-13 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448530,7 +448536,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 09:22",
+    "at": "2026-11-13 09:23",
     "pri": {
       "days": 0,
       "failed": [],
