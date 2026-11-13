@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5206,
- "updatedAt": "2026-11-13 13:43",
+ "version": 5207,
+ "updatedAt": "2026-11-13 13:48",
  "days": 30,
  "items": [
   {
@@ -68658,29 +68658,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791953808130519"
-  },
-  {
-   "ts": "1791953248.442859",
-   "date": "2026-10-14",
-   "time": "13:47",
-   "store": "쭈인네일",
-   "biz": "8902402329",
-   "pos": "퍼스트포스",
-   "content": "··· > ··· 명의변경 메뉴 복사 요청드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "실제로 명의 변경으로 진행하시진 않았으나\n동일한 대표님으로 그대로 복사해달라고 하셨습니다"
-   ],
-   "rc": 3,
-   "lr": "1791953997.294199",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791953248442859"
   }
  ],
  "ocr": {
