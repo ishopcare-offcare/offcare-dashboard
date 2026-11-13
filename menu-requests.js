@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5242,
- "updatedAt": "2026-11-13 17:54",
+ "version": 5243,
+ "updatedAt": "2026-11-13 17:59",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,768 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "7.jpg",
+     "fid": "F0CHJSKQ7B6",
+     "from": "댓글",
+     "path": "menu-files/1794560020_789969-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "라떼 (Only...",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "(Only Ice)",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "ICE",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "HOT",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼 HOT",
+       "price": 4800
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼 ICE",
+       "price": 4800
+      },
+      {
+       "category": "Coffee",
+       "name": "샷추가",
+       "price": 800
+      },
+      {
+       "category": "Coffee",
+       "name": "T 아메리카노 HOT",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "T 아메리카노 ICE",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "T 카페라떼 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "T 카페라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "T 바닐라라떼 HOT",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "T 바닐라라떼 ICE",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "애플 주스",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "분다버그 레몬라임 탄산",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "분다버그 핑크자몽 탄산",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "레몬에이드",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽에이드",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽허니블랙티 HOT",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽허니블랙티 ICE",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "홍차 HOT",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "레몬차 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽차 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "우유 HOT",
+       "price": 3000
+      },
+      {
+       "category": "Coffee",
+       "name": "우유 ICE",
+       "price": 3000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "8.jpg",
+     "fid": "F0CHD6YFVNJ",
+     "from": "댓글",
+     "path": "menu-files/1794560020_789969-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "T 피넛크림라떼 (Only...",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "피넛크림라떼 (Only Ice)",
+       "price": 6000
+      },
+      {
+       "category": "Coffee",
+       "name": "아메리카노 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "아메리카노 ICE",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼 HOT",
+       "price": 4800
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼 ICE",
+       "price": 4800
+      },
+      {
+       "category": "Coffee",
+       "name": "샷추가",
+       "price": 800
+      },
+      {
+       "category": "Coffee",
+       "name": "T 아메리카노 HOT",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "T 아메리카노 ICE",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "T 카페라떼 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "T 카페라떼 ICE",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "T 바닐라라떼 HOT",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "T 바닐라라떼 ICE",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "애플 주스",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "분다버그 레몬라임 탄산",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "분다버그 핑크자몽 탄산",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "레몬에이드",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽에이드",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽허니블랙티 HOT",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽허니블랙티 ICE",
+       "price": 4300
+      },
+      {
+       "category": "Coffee",
+       "name": "홍차 HOT",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "레몬차 HOT",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "자몽차 HOT",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "Coffee",
+       "name": "우유 HOT",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "Coffee",
+       "name": "우유 ICE",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1.jpg",
+     "fid": "F0CHJSLTJ3E",
+     "from": "댓글",
+     "path": "menu-files/1794560020_789969-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "기타",
+       "name": "숫자초",
+       "price": 700
+      },
+      {
+       "category": "기타",
+       "name": "캐릭터 초",
+       "price": 700
+      },
+      {
+       "category": "기타",
+       "name": "하트초",
+       "price": 500
+      },
+      {
+       "category": "기타",
+       "name": "멘즈앤가써 미니 포션잼",
+       "price": 2000
+      },
+      {
+       "category": "기타",
+       "name": "손잡이(종이)",
+       "price": 200
+      },
+      {
+       "category": "기타",
+       "name": "케익백",
+       "price": 100
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "2.jpg",
+     "fid": "F0CH9SSEGR3",
+     "from": "댓글",
+     "path": "menu-files/1794560020_789969-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디카페인",
+       "name": "디카페인피넛크림라떼...",
+       "price": 6500
+      },
+      {
+       "category": "디카페인",
+       "name": "T디카페인피넛크림라떼...",
+       "price": 6000
+      },
+      {
+       "category": "디카페인",
+       "name": "D아메리카노 HOT",
+       "price": 4500
+      },
+      {
+       "category": "디카페인",
+       "name": "D아메리카노 ICE",
+       "price": 4500
+      },
+      {
+       "category": "디카페인",
+       "name": "D카페라떼 HOT",
+       "price": 5000
+      },
+      {
+       "category": "디카페인",
+       "name": "D카페라떼 ICE",
+       "price": 5000
+      },
+      {
+       "category": "디카페인",
+       "name": "D바닐라라떼 HOT",
+       "price": 5300
+      },
+      {
+       "category": "디카페인",
+       "name": "D바닐라라떼 ICE",
+       "price": 5300
+      },
+      {
+       "category": "디카페인",
+       "name": "T- D아메리카노 HOT",
+       "price": 4000
+      },
+      {
+       "category": "디카페인",
+       "name": "T- D아메리카노 ICE",
+       "price": 4000
+      },
+      {
+       "category": "디카페인",
+       "name": "T- D카페라떼 HOT",
+       "price": 4500
+      },
+      {
+       "category": "디카페인",
+       "name": "T- D카페라떼 ICE",
+       "price": 4500
+      },
+      {
+       "category": "디카페인",
+       "name": "T- D바닐라라떼 HOT",
+       "price": 4800
+      },
+      {
+       "category": "디카페인",
+       "name": "T- D바닐라라떼 ICE",
+       "price": 4800
+      },
+      {
+       "category": "디카페인",
+       "name": "샷추가DCAF",
+       "price": 800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "3.jpg",
+     "fid": "F0CHH2TPCN5",
+     "from": "댓글",
+     "path": "menu-files/1794560020_789969-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "과일 찹쌀떡",
+       "price": 5000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "바스크치즈타르트",
+       "price": 3400
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "에그타르트",
+       "price": 2400
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "에그타르트 4P",
+       "price": 10000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "에그타르트 6p",
+       "price": 15000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "까눌레",
+       "price": 3400
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "바닐라퀸아망",
+       "price": 2400
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "실크푸딩",
+       "price": 3800
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "티라미수",
+       "price": 6500
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "W 잠봉뵈르 소금빵",
+       "price": 5900
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "(미니) 과일 케이크",
+       "price": 25000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "과일 생크림 케이크",
+       "price": 32000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "쇼콜라 케이크",
+       "price": 32000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "카네이션 케이크",
+       "price": 35000
+      },
+      {
+       "category": "타르트/디저트/케이크",
+       "name": "에그타르트 박스",
+       "price": 500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "4.jpg",
+     "fid": "F0CGZQB5FL7",
+     "from": "댓글",
+     "path": "menu-files/1794560020_789969-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "쿠키/스콘",
+       "name": "호두강정",
+       "price": 5200
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "플레인스콘",
+       "price": 2900
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "라우겐스콘",
+       "price": 3700
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "초코칩스콘",
+       "price": 3200
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "초코무화과파운드 조각",
+       "price": 4500
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "코코넛쿠키",
+       "price": 7000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "치즈쿠키",
+       "price": 7000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "큐벨쿠키",
+       "price": 7000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "아몬드초코칩쿠키",
+       "price": 7000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "수제쿠키 3종 set",
+       "price": 23000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "플레인 휘낭시에 2p",
+       "price": 3000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "초코 휘낭시에 2p",
+       "price": 3500
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "누텔라브라우니쿠키",
+       "price": 4000
+      },
+      {
+       "category": "쿠키/스콘",
+       "name": "빼빼로",
+       "price": 4800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "5.jpg",
+     "fid": "F0CGZQAUQ6T",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "식빵/베이글",
+       "name": "우유 탕종식빵",
+       "price": 4500
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "보리쌀식빵",
+       "price": 5800
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "공주밤식빵",
+       "price": 4800
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "크루아상",
+       "price": 4000
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "초코크루아상",
+       "price": 4500
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "바질크림치즈베이글",
+       "price": 4800
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "바게트",
+       "price": 3200
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "앙버터",
+       "price": 4800
+      },
+      {
+       "category": "식빵/베이글",
+       "name": "오이바게트",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "6.jpg",
+     "fid": "F0CHD70LZLN",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빵",
+       "name": "고구마빵",
+       "price": 3800
+      },
+      {
+       "category": "빵",
+       "name": "빵오스위스",
+       "price": 4400
+      },
+      {
+       "category": "빵",
+       "name": "나가사키 카스테라",
+       "price": 5000
+      },
+      {
+       "category": "빵",
+       "name": "W 시오빵",
+       "price": 2500
+      },
+      {
+       "category": "빵",
+       "name": "생크림 시오빵",
+       "price": 3000
+      },
+      {
+       "category": "빵",
+       "name": "명란 시오빵",
+       "price": 2800
+      },
+      {
+       "category": "빵",
+       "name": "W 대파빵",
+       "price": 5500
+      },
+      {
+       "category": "빵",
+       "name": "몽블랑",
+       "price": 5500
+      },
+      {
+       "category": "빵",
+       "name": "빵오쇼콜라",
+       "price": 4400
+      },
+      {
+       "category": "빵",
+       "name": "페스츄리맘모스",
+       "price": 5500
+      },
+      {
+       "category": "빵",
+       "name": "통통소시지",
+       "price": 4300
+      },
+      {
+       "category": "빵",
+       "name": "프레첼",
+       "price": 4500
+      },
+      {
+       "category": "빵",
+       "name": "먹물치즈바게트",
+       "price": 4200
+      },
+      {
+       "category": "빵",
+       "name": "치즈프랑스",
+       "price": 4800
+      },
+      {
+       "category": "빵",
+       "name": "감자치아바타",
+       "price": 4200
+      },
+      {
+       "category": "빵",
+       "name": "무화과깜빠뉴",
+       "price": 5000
+      },
+      {
+       "category": "빵",
+       "name": "메이플크림치즈",
+       "price": 4300
+      },
+      {
+       "category": "빵",
+       "name": "치즈퐁듀",
+       "price": 3800
+      },
+      {
+       "category": "빵",
+       "name": "모닝빵",
+       "price": 2800
+      },
+      {
+       "category": "빵",
+       "name": "소보로",
+       "price": 2200
+      },
+      {
+       "category": "빵",
+       "name": "단팥빵",
+       "price": 2500
+      },
+      {
+       "category": "빵",
+       "name": "에그시오빵",
+       "price": 4800
+      },
+      {
+       "category": "빵",
+       "name": "초코바게트",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794560259.556269",
    "rfx": 3,
    "status": "wait",
    "handler": null,
