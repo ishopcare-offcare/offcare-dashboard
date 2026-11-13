@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33286,
+  "version": 33287,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -315652,9 +315652,9 @@ window.SLACK_DATA = {
           "박하림": 10,
           "송태양": 15,
           "고경림": 21,
+          "배선유": 6,
           "서상원": 6,
           "심성현": 16,
-          "배선유": 5,
           "김규빈": 5,
           "미지정": 1,
           "김동욱": 10,
@@ -315703,18 +315703,6 @@ window.SLACK_DATA = {
         }
       },
       "pending": [
-        {
-          "time": "17:33",
-          "store": "지글대패삼겹살두류점",
-          "biz": "8704501020",
-          "handler": "배선유",
-          "cat": "as",
-          "intake": "offline",
-          "req": "스탬프 적립 방식 원격으로 상세 설명 희망 / 도움 부탁드립니다 :감사_인사_꾸벅:  / 고령",
-          "reasons": [
-            "1차 부재"
-          ]
-        },
         {
           "time": "17:10",
           "store": "용용선생 동탄역점",
@@ -316100,6 +316088,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "등록/솔라피 전송 완료입니다",
+          "rr": 2
+        },
+        {
+          "time": "17:33",
+          "store": "지글대패삼겹살두류점",
+          "biz": "8704501020",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "스탬프 적립 방식 원격으로 상세 설명 희망 / 도움 부탁드립니다 :감사_인사_꾸벅:  / 고령",
+          "hw": "",
+          "intake": "offline",
+          "note": "1차부재, :통화중: 1차부재, / 사용방법 안내완료",
           "rr": 2
         },
         {
@@ -323583,7 +323583,20 @@ window.SLACK_DATA = {
           "송태양": 6
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "11:36",
+          "store": "페인트커피&amp;바",
+          "biz": "2353300792",
+          "handler": "심성현",
+          "cat": "as",
+          "intake": "online",
+          "req": "노트북 프론트 프린터 출력 불가",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "12:24",
@@ -324426,7 +324439,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 57,
+        "online": 58,
         "offline": 13,
         "unknown": 0
       },
@@ -324504,15 +324517,15 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794540958.21
+        "lastSeen": 1794541124.891
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794540958.21
+        "lastSeen": 1794541124.891
       },
       "1794540044.002109": {
         "post": "1794540044.002109",
-        "lastSeen": 1794540958.21,
+        "lastSeen": 1794541124.891,
         "r": 1,
         "day": "2026-11-13",
         "idx": 55
@@ -449639,7 +449652,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 12:36",
+    "at": "2026-11-13 12:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -449797,7 +449810,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 12:35",
+    "at": "2026-11-13 12:38",
     "pri": {
       "days": 0,
       "failed": [],
@@ -449809,7 +449822,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 115,
+      "budgetLeft": 114,
       "failed": []
     }
   }
