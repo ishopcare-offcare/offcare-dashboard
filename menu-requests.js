@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5251,
- "updatedAt": "2026-11-13 20:24",
+ "version": 5252,
+ "updatedAt": "2026-11-13 20:31",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "• 로크로몬드 몬드 샷 18,000원\n• 글렌그란트 12년 샷 18,000원\n• 글렌피딕 21년 샷 50,000원\n• 탐나불린 쉐리 캐스크 16,000원\n• 탐나불린 피노누아 16,000원\n• 몽키숄더 샷 15,000원"
    ],
-   "rc": 1,
-   "lr": "1794568788.427519",
+   "rc": 3,
+   "lr": "1794569459.533459",
    "rfx": 3,
    "status": "confirm",
    "handler": "박하림",
