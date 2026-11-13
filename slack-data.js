@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33359,
+  "version": 33360,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323585,9 +323585,9 @@ window.SLACK_DATA = {
           "심성현": 4
         },
         "menu": {
+          "김동욱": 2,
           "송태양": 9,
-          "김현기": 1,
-          "김동욱": 1
+          "김현기": 1
         }
       },
       "pending": [
@@ -323605,6 +323605,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "14:54",
+          "store": "강창구찹쌀진순대 과천펜타원점",
+          "biz": "6103262196",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "메뉴등록",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "14:39",
           "store": "분식이",
@@ -324987,102 +324998,102 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 97,
-        "offline": 19,
+        "offline": 20,
         "unknown": 0
       },
-      "updatedAt": "14:55",
+      "updatedAt": "14:57",
       "voc": {
-        "responses": 285,
+        "responses": 322,
         "install": {
-          "count": 74,
-          "low": 7
+          "count": 81,
+          "low": 8
         },
         "nps": {
-          "count": 282,
-          "low": 24
+          "count": 318,
+          "low": 30
         },
         "high": {
-          "install": 49,
-          "nps": 161
+          "install": 52,
+          "nps": 177
         },
         "npsDist": {
           "0": 6,
-          "1": 2,
+          "1": 3,
           "2": 3,
-          "3": 2,
-          "5": 11,
-          "6": 8,
-          "7": 12,
-          "8": 42,
-          "9": 35,
-          "10": 161
+          "3": 3,
+          "5": 15,
+          "6": 9,
+          "7": 15,
+          "8": 50,
+          "9": 37,
+          "10": 177
         },
         "installDist": {
-          "1": 5,
+          "1": 6,
           "2": 2,
-          "3": 4,
-          "4": 14,
-          "5": 49
+          "3": 5,
+          "4": 16,
+          "5": 52
         },
         "byIndustry": {
-          "서비스[학원]": 25,
-          "요식업": 11,
-          "서비스[뷰티,헤어]": 15,
-          "기타": 4,
+          "기타": 5,
+          "도소매": 10,
+          "서비스[뷰티,헤어]": 17,
+          "요식업": 13,
+          "서비스[학원]": 26,
           "카페": 8,
-          "도소매": 9,
           "서비스[숙박]": 2
         },
         "byTenure": {
-          "구매설치": {
-            "total": 74,
-            "low": 9
-          },
-          "3개월": {
-            "total": 64,
-            "low": 3
-          },
-          "12개월": {
-            "total": 28,
-            "low": 2
-          },
           "6개월": {
-            "total": 42,
-            "low": 4
+            "total": 47,
+            "low": 5
           },
           "1개월": {
-            "total": 77,
+            "total": 90,
             "low": 7
+          },
+          "3개월": {
+            "total": 69,
+            "low": 4
+          },
+          "구매설치": {
+            "total": 81,
+            "low": 10
+          },
+          "12개월": {
+            "total": 35,
+            "low": 5
           }
         },
         "byVan": {
-          "SECTA9": {
-            "total": 78,
-            "low": 10
-          },
           "KIS": {
-            "total": 65,
+            "total": 69,
             "low": 5
           },
-          "KSNET": {
-            "total": 30,
-            "low": 2
-          },
-          "DAOU": {
-            "total": 31,
-            "low": 2
-          },
-          "KPN": {
-            "total": 29,
-            "low": 1
+          "SECTA9": {
+            "total": 91,
+            "low": 12
           },
           "SMARTRO": {
-            "total": 20,
+            "total": 23,
             "low": 1
           },
+          "DAOU": {
+            "total": 33,
+            "low": 2
+          },
+          "KSNET": {
+            "total": 37,
+            "low": 5
+          },
           "NICE": {
-            "total": 30,
-            "low": 4
+            "total": 36,
+            "low": 5
+          },
+          "KPN": {
+            "total": 31,
+            "low": 1
           },
           "KOVAN": {
             "total": 2,
@@ -325090,13 +325101,151 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "사용중 오류가 자주 발생함": 11,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 3,
-          "단말기 설치나 초기 과정이 어려움": 8,
-          "필요한 기능이 없거나 몰라서 불편": 8,
+          "사용중 오류가 자주 발생함": 13,
+          "필요한 기능이 없거나 몰라서 불편": 9,
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 5,
+          "단말기 설치나 초기 과정이 어려움": 10,
           "구매,계약과정에서 설명이 부족": 1
         },
         "alerts": [
+          {
+            "time": "14:56",
+            "store": "노블레스",
+            "storeId": "190180",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "포스 및 단말기 사용중 오류가 자주 발생했어요",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:56",
+            "store": "디어데이(dearday)",
+            "storeId": "161374",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "필요한 기능이 없어서 불편했어요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:56",
+            "store": "아이니뷰티",
+            "storeId": "328607",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "수수료",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:56",
+            "store": "비니네일",
+            "storeId": "153837",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 1,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 1,
+                "text": "네이버 예약이랑 연동 시스템이 생겼으면 좋겠어요",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:55",
+            "store": "카페알레",
+            "storeId": "160014",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "포스 및 단말기 사용중 오류가 자주 발생했어요",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:55",
+            "store": "한끼푸드",
+            "storeId": "442171",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 1,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "설치기사 방문예정이었으나 일정상 이유로 유선으로 설치설명. 설치 중 이슈가 있어 설치기사에게 수십차례 전화했지만 연결되지 않음. 고객센터 통해 설치.",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              },
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "평준화",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "14:54",
             "store": "스튜디오 공실",
@@ -325685,6 +325834,42 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "14:56",
+            "store": "퀸비 광장점",
+            "storeId": "362603",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 3,
+            "nps": 6,
+            "text": "기계를 잘 못댜루는편이서 불편 영수증 출력이 필요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:56",
+            "store": "글램 볼타(Glam Volta)",
+            "storeId": "438876",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절하고 능숙한 설치매니저 현재 가장 진보된 플랫폼 같음",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:55",
+            "store": "위드아헤어(with:A hair)",
+            "storeId": "441252",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 4,
+            "nps": 10,
+            "text": "처음이라 설치하기 힘들어서 전화드렸는데 자세하게 설명 해주셔서 너무 좋았어요 :) 아직 쓴지 이틀이지만 토스포스앱도 너무 좋아요 !",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "14:55",
             "store": "이동근선산곱창",
@@ -326326,44 +326511,44 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794549270.739
+        "lastSeen": 1794549366.103
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794549270.739
+        "lastSeen": 1794549366.103
       },
       "1794541231.736379": {
         "post": "1794541231.736379",
-        "lastSeen": 1794549270.739
+        "lastSeen": 1794549366.103
       },
       "1794543300.701839": {
         "post": "1794543300.701839",
-        "lastSeen": 1794549270.739,
+        "lastSeen": 1794549366.103,
         "r": 1,
         "day": "2026-11-13",
         "idx": 66
       },
       "1794546446.259979": {
         "post": "1794546446.259979",
-        "lastSeen": 1794549270.739,
+        "lastSeen": 1794549366.103,
         "r": 1,
         "day": "2026-11-13",
         "idx": 80
       },
       "1794547801.029779": {
         "post": "1794547801.029779",
-        "lastSeen": 1794549270.739,
+        "lastSeen": 1794549366.103,
         "r": 1,
         "day": "2026-11-13",
         "idx": 83
       },
       "1794547800.792289": {
         "post": "1794547800.792289",
-        "lastSeen": 1794549270.739
+        "lastSeen": 1794549366.103
       },
       "1794547800.578599": {
         "post": "1794547800.578599",
-        "lastSeen": 1794549270.739,
+        "lastSeen": 1794549366.103,
         "r": 1,
         "day": "2026-11-13",
         "idx": 87
@@ -451766,7 +451951,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 14:55",
+    "at": "2026-11-13 14:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -451924,7 +452109,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 14:54",
+    "at": "2026-11-13 14:56",
     "pri": {
       "days": 0,
       "failed": [],
