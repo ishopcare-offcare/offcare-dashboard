@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33197,
+  "version": 33198,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323593,7 +323593,8 @@ window.SLACK_DATA = {
           "req": "배달의민족이랑 쿠팡이츠 토스프린터기기로 설정하고싶은데 프린터 설정이안되고 용지가안나와 원격 요청 주셨습니다.(노트북)",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "배민lite 연동 쿠팡 토스POS로 연동",
+          "rr": 1
         },
         {
           "time": "09:49",
@@ -323885,11 +323886,11 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794531856.187
+        "lastSeen": 1794531938.84
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794531856.187
+        "lastSeen": 1794531938.84
       }
     },
     "days": {
@@ -448618,7 +448619,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 10:05",
+    "at": "2026-11-13 10:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -448776,7 +448777,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 10:04",
+    "at": "2026-11-13 10:05",
     "pri": {
       "days": 0,
       "failed": [],
