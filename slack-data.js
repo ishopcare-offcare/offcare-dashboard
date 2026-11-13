@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33290,
+  "version": 33291,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -323549,8 +323549,8 @@ window.SLACK_DATA = {
     "2026-11-13": {
       "counts": {
         "as": {
+          "배선유": 13,
           "심성현": 6,
-          "배선유": 12,
           "김규빈": 7,
           "김동욱": 10,
           "송태양": 8,
@@ -323580,7 +323580,7 @@ window.SLACK_DATA = {
           "심성현": 4
         },
         "menu": {
-          "송태양": 6
+          "송태양": 7
         }
       },
       "pending": [
@@ -323598,6 +323598,29 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "12:42",
+          "store": "고아웃위드",
+          "biz": "2965401016",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "메뉴",
+          "hw": "",
+          "intake": "offline",
+          "note": "",
+          "rr": 1
+        },
+        {
+          "time": "12:40",
+          "store": "퍼플앤코 랩 (PUPLE&amp;CO. LAB)",
+          "biz": "6112302414",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프론트 전원 공급 불량으로 지원 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "12:32",
           "store": "정든그릇",
@@ -324463,8 +324486,8 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 60,
-        "offline": 13,
+        "online": 61,
+        "offline": 14,
         "unknown": 0
       },
       "updatedAt": "12:42"
@@ -324541,19 +324564,15 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794541460.823
+        "lastSeen": 1794541553.038
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794541460.823
+        "lastSeen": 1794541553.038
       },
       "1794541231.736379": {
         "post": "1794541231.736379",
-        "lastSeen": 1794541460.823
-      },
-      "1794541330.351679": {
-        "post": "1794541330.351679",
-        "lastSeen": 1794541460.823
+        "lastSeen": 1794541553.038
       }
     },
     "days": {
@@ -449678,7 +449697,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 12:45",
+    "at": "2026-11-13 12:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -449836,7 +449855,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 12:44",
+    "at": "2026-11-13 12:45",
     "pri": {
       "days": 0,
       "failed": [],
