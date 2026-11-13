@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5246,
- "updatedAt": "2026-11-13 18:06",
+ "version": 5247,
+ "updatedAt": "2026-11-13 18:18",
  "days": 30,
  "items": [
+  {
+   "ts": "1794561488.054389",
+   "date": "2026-11-13",
+   "time": "18:18",
+   "store": "영종바다다",
+   "biz": "3810203837",
+   "pos": "",
+   "content": "• 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "메뉴명: 클랙타이거4미\n가격: 26,000원"
+   ],
+   "rc": 1,
+   "lr": "1794561492.718459",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794561488054389"
+  },
   {
    "ts": "1794560020.789969",
    "date": "2026-11-13",
