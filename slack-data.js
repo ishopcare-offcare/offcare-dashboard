@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33622,
+  "version": 33623,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330878,6 +330878,17 @@ window.SLACK_DATA = {
           "intake": "online"
         }
       ]
+    },
+    "2026-11-14": {
+      "counts": {},
+      "pending": [],
+      "done": [],
+      "intake": {
+        "online": 0,
+        "offline": 0,
+        "unknown": 0
+      },
+      "updatedAt": ""
     }
   },
   "resp": {
@@ -457009,7 +457020,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 05:15",
+    "at": "2026-11-14 05:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457164,10 +457175,11 @@ window.SLACK_DATA = {
     "2026-11-10": 2,
     "2026-11-11": 2,
     "2026-11-12": 2,
-    "2026-11-13": 2
+    "2026-11-13": 2,
+    "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 05:15",
+    "at": "2026-11-14 05:30",
     "pri": {
       "days": 0,
       "failed": [],
@@ -457179,7 +457191,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 115,
+      "budgetLeft": 123,
       "failed": []
     }
   }
