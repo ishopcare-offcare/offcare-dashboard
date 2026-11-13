@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5244,
- "updatedAt": "2026-11-13 18:02",
+ "version": 5245,
+ "updatedAt": "2026-11-13 18:05",
  "days": 30,
  "items": [
   {
@@ -781,8 +781,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1794560259.556269",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794560020789969"
   },
   {
@@ -801,7 +801,6 @@ window.MENU_REQUESTS = {
      "name": "네오베이커리 `.jpg",
      "fid": "F0CHEU9M1RQ",
      "from": "댓글",
-     "path": "menu-files/1794559743_161209-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -965,13 +964,13 @@ window.MENU_REQUESTS = {
        "price": 3800
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794559743_161209-0.jpg"
     },
     {
      "name": "s네오베이커 2.jpg",
      "fid": "F0CGZNP1T1V",
      "from": "댓글",
-     "path": "menu-files/1794559743_161209-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1040,13 +1039,14 @@ window.MENU_REQUESTS = {
        "price": 7500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794559743_161209-1.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794559831.162999",
+   "rc": 2,
+   "lr": "1794560559.392629",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
