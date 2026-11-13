@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5254,
- "updatedAt": "2026-11-13 22:13",
+ "version": 5255,
+ "updatedAt": "2026-11-13 22:18",
  "days": 30,
  "items": [
+  {
+   "ts": "1794575841.540959",
+   "date": "2026-11-13",
+   "time": "22:17",
+   "store": "평강면옥",
+   "biz": "1831702596",
+   "pos": "",
+   "content": "• 메뉴 등록 요청 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "카테고리: 메인메뉴\n메뉴명: 불고기\n가격: 19,000원\n\n카테고리: 메인메뉴\n메뉴명: 불사리\n가격: 4,000원"
+   ],
+   "rc": 1,
+   "lr": "1794575845.301439",
+   "rfx": 3,
+   "status": "done",
+   "handler": "최민석",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794575841540959"
+  },
   {
    "ts": "1794574933.139949",
    "date": "2026-11-13",
