@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5240,
- "updatedAt": "2026-11-13 17:50",
+ "version": 5241,
+ "updatedAt": "2026-11-13 17:52",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,257 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "네오베이커리 `.jpg",
+     "fid": "F0CHEU9M1RQ",
+     "from": "댓글",
+     "path": "menu-files/1794559743_161209-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "네오",
+       "name": "사워도우",
+       "price": 5800
+      },
+      {
+       "category": "네오",
+       "name": "헤이즐넛크랜베리사워도우",
+       "price": 3800
+      },
+      {
+       "category": "네오",
+       "name": "밤깡빠뉴",
+       "price": 5400
+      },
+      {
+       "category": "네오",
+       "name": "올리브 푸가스",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "치즈 푸가스",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "브리오슈낭테르",
+       "price": 6000
+      },
+      {
+       "category": "네오",
+       "name": "페퍼로니포카치아",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "바질토마토포카치아",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "버섯포카치아",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "감자 치즈 치아바타",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "올리브치아바타",
+       "price": 3800
+      },
+      {
+       "category": "네오",
+       "name": "아몬드보스톡",
+       "price": 4500
+      },
+      {
+       "category": "네오",
+       "name": "바게트",
+       "price": 3500
+      },
+      {
+       "category": "네오",
+       "name": "치즈바게트",
+       "price": 4200
+      },
+      {
+       "category": "네오",
+       "name": "넛츠바게트",
+       "price": 5800
+      },
+      {
+       "category": "네오",
+       "name": "쇼숑 오 폼",
+       "price": 4900
+      },
+      {
+       "category": "네오",
+       "name": "아몬드파이",
+       "price": 4900
+      },
+      {
+       "category": "네오",
+       "name": "플랑",
+       "price": 5500
+      },
+      {
+       "category": "네오",
+       "name": "크로아상",
+       "price": 3500
+      },
+      {
+       "category": "네오",
+       "name": "뺑오쇼콜라",
+       "price": 3800
+      },
+      {
+       "category": "네오",
+       "name": "퀸아망",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "피스타치오퀸아망",
+       "price": 4500
+      },
+      {
+       "category": "네오",
+       "name": "라즈베리크로아상",
+       "price": 4500
+      },
+      {
+       "category": "네오",
+       "name": "뺑스위스",
+       "price": 4500
+      },
+      {
+       "category": "네오",
+       "name": "잠봉뵈르샌드위치",
+       "price": 8500
+      },
+      {
+       "category": "네오",
+       "name": "아몬드크로아상",
+       "price": 5000
+      },
+      {
+       "category": "네오",
+       "name": "브리오슈브레산",
+       "price": 4000
+      },
+      {
+       "category": "네오",
+       "name": "깡빠뉴",
+       "price": 4500
+      },
+      {
+       "category": "네오",
+       "name": "레몬파운드",
+       "price": 3800
+      },
+      {
+       "category": "네오",
+       "name": "당근케이크",
+       "price": 4800
+      },
+      {
+       "category": "네오",
+       "name": "치아바타",
+       "price": 3200
+      },
+      {
+       "category": "네오",
+       "name": "깨 바게트",
+       "price": 3800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "s네오베이커 2.jpg",
+     "fid": "F0CGZNP1T1V",
+     "from": "댓글",
+     "path": "menu-files/1794559743_161209-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "버터",
+       "name": "레몬딜 버터",
+       "price": 2200
+      },
+      {
+       "category": "버터",
+       "name": "캬라멜버터",
+       "price": 2200
+      },
+      {
+       "category": "버터",
+       "name": "헤이즐넛 버터",
+       "price": 2200
+      },
+      {
+       "category": "버터",
+       "name": "올리브발사믹",
+       "price": 1800
+      },
+      {
+       "category": "버터",
+       "name": "선물상자",
+       "price": 1000
+      },
+      {
+       "category": "버터",
+       "name": "쇼핑백",
+       "price": 100
+      },
+      {
+       "category": "버터",
+       "name": "사블레디아망",
+       "price": 5000
+      },
+      {
+       "category": "버터",
+       "name": "소금초코쿠키",
+       "price": 5500
+      },
+      {
+       "category": "버터",
+       "name": "후추쿠키",
+       "price": 5500
+      },
+      {
+       "category": "버터",
+       "name": "크헤피쿠키",
+       "price": 5500
+      },
+      {
+       "category": "버터",
+       "name": "아몬드플로랑탱",
+       "price": 5500
+      },
+      {
+       "category": "버터",
+       "name": "아몬드튀일",
+       "price": 5000
+      },
+      {
+       "category": "버터",
+       "name": "금귤마멀레이드",
+       "price": 7500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794559831.162999",
    "rfx": 3,
    "status": "wait",
    "handler": null,
