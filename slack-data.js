@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33356,
+  "version": 33357,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -324978,112 +324978,178 @@ window.SLACK_DATA = {
         "offline": 19,
         "unknown": 0
       },
-      "updatedAt": "14:51",
+      "updatedAt": "14:52",
       "voc": {
-        "responses": 172,
+        "responses": 222,
         "install": {
-          "count": 52,
+          "count": 63,
           "low": 7
         },
         "nps": {
-          "count": 169,
-          "low": 13
+          "count": 219,
+          "low": 16
         },
         "high": {
-          "install": 32,
-          "nps": 97
+          "install": 42,
+          "nps": 129
         },
         "npsDist": {
           "0": 5,
           "2": 1,
-          "3": 1,
-          "5": 6,
-          "6": 2,
-          "7": 9,
-          "8": 23,
-          "9": 25,
-          "10": 97
+          "3": 2,
+          "5": 8,
+          "6": 4,
+          "7": 11,
+          "8": 31,
+          "9": 28,
+          "10": 129
         },
         "installDist": {
           "1": 5,
           "2": 2,
-          "3": 3,
+          "3": 4,
           "4": 10,
-          "5": 32
+          "5": 42
         },
         "byIndustry": {
-          "서비스[뷰티,헤어]": 10,
+          "서비스[뷰티,헤어]": 13,
+          "서비스[학원]": 24,
+          "카페": 7,
+          "요식업": 8,
+          "기타": 3,
           "서비스[숙박]": 2,
-          "도소매": 6,
-          "카페": 5,
-          "서비스[학원]": 21,
-          "요식업": 6,
-          "기타": 2
+          "도소매": 6
         },
         "byTenure": {
-          "구매설치": {
-            "total": 52,
-            "low": 9
-          },
-          "1개월": {
-            "total": 49,
+          "6개월": {
+            "total": 27,
             "low": 3
           },
-          "6개월": {
-            "total": 19,
-            "low": 1
+          "구매설치": {
+            "total": 63,
+            "low": 9
           },
           "3개월": {
-            "total": 35,
+            "total": 47,
             "low": 0
           },
+          "1개월": {
+            "total": 64,
+            "low": 4
+          },
           "12개월": {
-            "total": 17,
+            "total": 21,
             "low": 1
           }
         },
         "byVan": {
-          "KPN": {
-            "total": 20,
-            "low": 1
+          "SMARTRO": {
+            "total": 13,
+            "low": 0
           },
-          "DAOU": {
-            "total": 15,
+          "KPN": {
+            "total": 24,
             "low": 1
           },
           "SECTA9": {
-            "total": 54,
+            "total": 66,
             "low": 7
           },
           "KIS": {
-            "total": 37,
-            "low": 2
+            "total": 46,
+            "low": 3
           },
           "NICE": {
-            "total": 19,
-            "low": 2
+            "total": 26,
+            "low": 3
           },
           "KSNET": {
-            "total": 15,
+            "total": 22,
             "low": 1
+          },
+          "DAOU": {
+            "total": 23,
+            "low": 2
           },
           "KOVAN": {
             "total": 2,
             "low": 0
-          },
-          "SMARTRO": {
-            "total": 10,
-            "low": 0
           }
         },
         "reasonCounts": {
-          "사용중 오류가 자주 발생함": 4,
+          "사용중 오류가 자주 발생함": 6,
+          "필요한 기능이 없거나 몰라서 불편": 7,
           "단말기 설치나 초기 과정이 어려움": 7,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
-          "필요한 기능이 없거나 몰라서 불편": 6,
           "구매,계약과정에서 설명이 부족": 1
         },
         "alerts": [
+          {
+            "time": "14:52",
+            "store": "밀로(Millo)",
+            "storeId": "260918",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": "고객센터에 연결하거나 상담받기가 힘들었어요, 포스 및 단말기 사용중 오류가 자주 발생했어요",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:52",
+            "store": "삼시세끼",
+            "storeId": "404132",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "사용할 수 있는 기능이 있는지 몰랐거나, 찾기 어려웠어요, 포스 및 단말기 사용중 오류가 자주 발생했어요",
+                "cat": "사용중 오류가 자주 발생함"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:51",
+            "store": "라벨르발레학원",
+            "storeId": "269075",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "필요한 기능이 없어서 불편했어요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "14:50",
             "store": "남딘쌀국수",
@@ -325430,6 +325496,54 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "14:52",
+            "store": "희스토리헤어",
+            "storeId": "424668",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "판매자분이 친절하시고 세심하게 관리해주심 사용의 편리성",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:51",
+            "store": "아트앤하트 서울광장양진미술학원",
+            "storeId": "435451",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설명이 잘 되어 있음 편하고 무료라서",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:51",
+            "store": "노랑나비",
+            "storeId": "385259",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 8,
+            "text": "대체적으로 편리합니다",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:51",
+            "store": "부바살롱(BuBBa)",
+            "storeId": "417036",
+            "indBucket": "서비스[뷰티,헤어]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절한 설명 친절한설명",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "14:50",
             "store": "데바핑크",
@@ -325939,48 +326053,51 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794549005.168
+        "lastSeen": 1794549121.323
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794549005.168
+        "lastSeen": 1794549121.323
       },
       "1794541231.736379": {
         "post": "1794541231.736379",
-        "lastSeen": 1794549005.168
+        "lastSeen": 1794549121.323
       },
       "1794543300.701839": {
         "post": "1794543300.701839",
-        "lastSeen": 1794549005.168,
+        "lastSeen": 1794549121.323,
         "r": 1,
         "day": "2026-11-13",
         "idx": 66
       },
       "1794546446.259979": {
         "post": "1794546446.259979",
-        "lastSeen": 1794549005.168,
+        "lastSeen": 1794549121.323,
         "r": 1,
         "day": "2026-11-13",
         "idx": 80
       },
       "1794547801.029779": {
         "post": "1794547801.029779",
-        "lastSeen": 1794549005.168,
+        "lastSeen": 1794549121.323,
         "r": 1,
         "day": "2026-11-13",
         "idx": 83
       },
       "1794547800.792289": {
         "post": "1794547800.792289",
-        "lastSeen": 1794549005.168
+        "lastSeen": 1794549121.323
       },
       "1794547800.578599": {
         "post": "1794547800.578599",
-        "lastSeen": 1794549005.168
+        "lastSeen": 1794549121.323,
+        "r": 1,
+        "day": "2026-11-13",
+        "idx": 87
       },
       "1794548107.584209": {
         "post": "1794548107.584209",
-        "lastSeen": 1794549005.168,
+        "lastSeen": 1794549121.323,
         "r": 1,
         "day": "2026-11-13",
         "idx": 86
@@ -450586,8 +450703,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-13": {
-        "cnt": 87,
-        "sumMin": 590.3569741328561,
+        "cnt": 88,
+        "sumMin": 611.4014224847161,
         "over": 3,
         "items": [
           {
@@ -451368,13 +451485,21 @@ window.SLACK_DATA = {
             "biz": "4887100710",
             "who": "송태양",
             "cat": "menu"
+          },
+          {
+            "hm": "14:30",
+            "min": 21,
+            "store": "피제리아 공석",
+            "biz": "3687500433",
+            "who": "최민석",
+            "cat": "delivery"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-13 14:51",
+    "at": "2026-11-13 14:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -451532,7 +451657,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 14:50",
+    "at": "2026-11-13 14:52",
     "pri": {
       "days": 0,
       "failed": [],
