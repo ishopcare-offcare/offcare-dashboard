@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5249,
- "updatedAt": "2026-11-13 18:42",
+ "version": 5250,
+ "updatedAt": "2026-11-13 20:21",
  "days": 30,
  "items": [
+  {
+   "ts": "1794568783.621479",
+   "date": "2026-11-13",
+   "time": "20:19",
+   "store": "바텐바텐클레식",
+   "biz": "7012302075",
+   "pos": "",
+   "content": "• 메뉴 가격 수정 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "• 로크로몬드 몬드 샷 18,000원\n• 글렌그란트 12년 샷 18,000원\n• 글렌피딕 21년 샷 50,000원\n• 탐나불린 쉐리 캐스크 16,000원\n• 탐나불린 피노누아 16,000원\n• 몽키숄더 샷 15,000원"
+   ],
+   "rc": 1,
+   "lr": "1794568788.427519",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794568783621479"
+  },
   {
    "ts": "1794561488.054389",
    "date": "2026-11-13",
