@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5209,
- "updatedAt": "2026-11-13 14:02",
+ "version": 5210,
+ "updatedAt": "2026-11-13 14:09",
  "days": 30,
  "items": [
   {
@@ -23,16 +23,15 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CH86HHE2Z",
      "from": "댓글",
-     "path": "menu-files/1794546018_577739-0.png",
      "kind": "pos_screen",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794546018_577739-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CH86K85HB",
      "from": "댓글",
-     "path": "menu-files/1794546018_577739-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -61,13 +60,13 @@ window.MENU_REQUESTS = {
        "price": 22000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794546018_577739-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJ7S6SDBJ",
      "from": "댓글",
-     "path": "menu-files/1794546018_577739-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -81,13 +80,13 @@ window.MENU_REQUESTS = {
        "price": 26000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794546018_577739-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CH78G2091",
      "from": "댓글",
-     "path": "menu-files/1794546018_577739-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -131,13 +130,13 @@ window.MENU_REQUESTS = {
        "price": 27000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794546018_577739-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJ7S996MN",
      "from": "댓글",
-     "path": "menu-files/1794546018_577739-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -161,13 +160,13 @@ window.MENU_REQUESTS = {
        "price": 23000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794546018_577739-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0CGY46GRDM",
      "from": "댓글",
-     "path": "menu-files/1794546018_577739-5.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -191,7 +190,8 @@ window.MENU_REQUESTS = {
        "price": 0
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794546018_577739-5.png"
     },
     {
      "name": "image.png",
@@ -299,8 +299,8 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1794546073.667929",
+   "rc": 3,
+   "lr": "1794546558.579529",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
