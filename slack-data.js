@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33353,
+  "version": 33354,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -324954,104 +324954,185 @@ window.SLACK_DATA = {
         "offline": 19,
         "unknown": 0
       },
-      "updatedAt": "14:45",
+      "updatedAt": "14:47",
       "voc": {
-        "responses": 60,
+        "responses": 95,
         "install": {
-          "count": 18,
-          "low": 2
+          "count": 26,
+          "low": 4
         },
         "nps": {
-          "count": 59,
-          "low": 2
+          "count": 93,
+          "low": 5
         },
         "high": {
-          "install": 11,
-          "nps": 31
+          "install": 16,
+          "nps": 50
         },
         "npsDist": {
-          "0": 1,
-          "5": 1,
+          "0": 2,
+          "2": 1,
+          "5": 2,
+          "6": 1,
           "7": 5,
-          "8": 10,
-          "9": 11,
-          "10": 31
+          "8": 15,
+          "9": 17,
+          "10": 50
         },
         "installDist": {
-          "1": 1,
+          "1": 3,
           "2": 1,
-          "3": 2,
+          "3": 3,
           "4": 3,
-          "5": 11
+          "5": 16
         },
         "byIndustry": {
+          "서비스[학원]": 9,
+          "도소매": 3,
+          "기타": 2,
+          "요식업": 4,
           "카페": 3,
-          "서비스[학원]": 6,
           "서비스[뷰티,헤어]": 4,
-          "도소매": 1,
-          "서비스[숙박]": 1,
-          "요식업": 2,
-          "기타": 1
+          "서비스[숙박]": 1
         },
         "byTenure": {
-          "1개월": {
+          "구매설치": {
+            "total": 26,
+            "low": 5
+          },
+          "3개월": {
             "total": 20,
             "low": 0
           },
+          "1개월": {
+            "total": 30,
+            "low": 1
+          },
           "12개월": {
-            "total": 7,
+            "total": 11,
             "low": 0
-          },
-          "3개월": {
-            "total": 10,
-            "low": 0
-          },
-          "구매설치": {
-            "total": 18,
-            "low": 3
           },
           "6개월": {
-            "total": 5,
+            "total": 8,
             "low": 0
           }
         },
         "byVan": {
           "SECTA9": {
-            "total": 24,
-            "low": 2
-          },
-          "NICE": {
-            "total": 5,
-            "low": 0
-          },
-          "KSNET": {
-            "total": 5,
-            "low": 0
+            "total": 33,
+            "low": 4
           },
           "SMARTRO": {
-            "total": 3,
+            "total": 8,
+            "low": 0
+          },
+          "NICE": {
+            "total": 9,
             "low": 0
           },
           "KPN": {
-            "total": 10,
+            "total": 12,
             "low": 1
           },
           "KIS": {
+            "total": 16,
+            "low": 1
+          },
+          "KSNET": {
             "total": 9,
             "low": 0
           },
           "DAOU": {
-            "total": 4,
+            "total": 8,
             "low": 0
           }
         },
         "reasonCounts": {
-          "단말기 설치나 초기 과정이 어려움": 1,
-          "필요한 기능이 없거나 몰라서 불편": 1,
+          "구매,계약과정에서 설명이 부족": 1,
+          "필요한 기능이 없거나 몰라서 불편": 4,
+          "단말기 설치나 초기 과정이 어려움": 2,
           "사용중 오류가 자주 발생함": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "14:47",
+            "store": "웨이브먼트 제주소품샵",
+            "storeId": "413728",
+            "industry": "도소매",
+            "indBucket": "도소매",
+            "install": 1,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "구매·계약 과정에서 설명이 부족했어요",
+                "cat": "구매,계약과정에서 설명이 부족"
+              },
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "필요한 기능이 없어서 불편했어요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:46",
+            "store": "다품수학학원",
+            "storeId": "384752",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "필요한 기능이 없어서 불편했어요, 사용할 수 있는 기능이 있는지 몰랐거나, 찾기 어려웠어요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
+          {
+            "time": "14:45",
+            "store": "정통춘천닭갈비 소담점",
+            "storeId": "427695",
+            "industry": "음식점/주점",
+            "indBucket": "요식업",
+            "install": 1,
+            "nps": 2,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "설치 기사 방문 시 안내가 충분하지 않았어요",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              },
+              {
+                "q": "추천의향",
+                "score": 2,
+                "text": "사용할 수 있는 기능이 있는지 몰랐거나, 찾기 어려웠어요, 필요한 기능이 없어서 불편했어요",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "14:45",
             "store": "리틀홍익아뜰리에미술교습소",
@@ -325126,6 +325207,102 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "14:47",
+            "store": "특공무술 중앙도장",
+            "storeId": "431499",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설명을 보고 설치하기 수월했음 편리하고 좋기 때문",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:47",
+            "store": "헤어 플랜비",
+            "storeId": "384548",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "단말기 예뻐요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:47",
+            "store": "삼대농장",
+            "storeId": "384400",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "고객 대응도 좋고 만족 스럽다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:46",
+            "store": "에스엠(SM)",
+            "storeId": "427699",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "친절합니다 무선이라 좋음",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:46",
+            "store": "참열공반독서실",
+            "storeId": "431442",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 3,
+            "nps": 8,
+            "text": "기기 설치에 대한 설명이 자세하지 않음 설치 난이도가 많이 높지는 않으나, 링크 상에 다 모아두는게 아니라 사용자에게 적합한 설명과 영상을 보내주면 좀 더 직관적일 것 같음 이용의 편의성",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:46",
+            "store": "포반",
+            "storeId": "432253",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 5,
+            "nps": 9,
+            "text": "친절한 직원분들 좋아서요",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:46",
+            "store": "오동나무빵집",
+            "storeId": "307219",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "사용이 간편하고 직관적입니다, 연동도 아주 잘 돼있습니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
+          {
+            "time": "14:45",
+            "store": "구자은피아노교습소",
+            "storeId": "335338",
+            "indBucket": "서비스[학원]",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "설명이잘되어있었어요 사용이간단하고 편리해요",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "14:45",
             "store": "서창이투스수학학원",
@@ -325347,55 +325524,55 @@ window.SLACK_DATA = {
       },
       "1794528042.203379": {
         "post": "1794528042.203379",
-        "lastSeen": 1794548701.805
+        "lastSeen": 1794548787.4
       },
       "1794528041.750799": {
         "post": "1794528041.750799",
-        "lastSeen": 1794548701.805
+        "lastSeen": 1794548787.4
       },
       "1794541231.736379": {
         "post": "1794541231.736379",
-        "lastSeen": 1794548701.805
+        "lastSeen": 1794548787.4
       },
       "1794543300.701839": {
         "post": "1794543300.701839",
-        "lastSeen": 1794548701.805,
+        "lastSeen": 1794548787.4,
         "r": 1,
         "day": "2026-11-13",
         "idx": 66
       },
       "1794546446.259979": {
         "post": "1794546446.259979",
-        "lastSeen": 1794548701.805,
+        "lastSeen": 1794548787.4,
         "r": 1,
         "day": "2026-11-13",
         "idx": 80
       },
       "1794547801.029779": {
         "post": "1794547801.029779",
-        "lastSeen": 1794548701.805,
+        "lastSeen": 1794548787.4,
         "r": 1,
         "day": "2026-11-13",
         "idx": 83
       },
       "1794547800.792289": {
         "post": "1794547800.792289",
-        "lastSeen": 1794548701.805
+        "lastSeen": 1794548787.4
       },
       "1794547800.578599": {
         "post": "1794547800.578599",
-        "lastSeen": 1794548701.805
+        "lastSeen": 1794548787.4
       },
       "1794547914.874269": {
         "post": "1794547914.874269",
-        "lastSeen": 1794548701.805,
+        "lastSeen": 1794548787.4,
         "r": 1,
         "day": "2026-11-13",
         "idx": 84
       },
       "1794548107.584209": {
         "post": "1794548107.584209",
-        "lastSeen": 1794548701.805
+        "lastSeen": 1794548787.4
       }
     },
     "days": {
@@ -450777,7 +450954,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-13 14:45",
+    "at": "2026-11-13 14:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -450935,7 +451112,7 @@ window.SLACK_DATA = {
     "2026-11-13": 2
   },
   "noteMig": {
-    "at": "2026-11-13 14:45",
+    "at": "2026-11-13 14:46",
     "pri": {
       "days": 0,
       "failed": [],
