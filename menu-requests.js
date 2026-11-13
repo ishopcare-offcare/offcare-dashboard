@@ -3,10 +3,34 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5170,
- "updatedAt": "2026-11-13 00:31",
+ "version": 5171,
+ "updatedAt": "2026-11-13 09:09",
  "days": 30,
  "items": [
+  {
+   "ts": "1794528442.958899",
+   "date": "2026-11-13",
+   "time": "09:07",
+   "store": "칠보흑염소탕 부추감자탕",
+   "biz": "2862800078",
+   "pos": "퍼스트포스",
+   "content": "메뉴 가격 변경 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "염소탕 소자 > 10,000원 변경\n염소탕 보통 > 15,000원 변경\n염소탕 특 > 17,000원\n뼈해장국 보통 > 10,000원 변경",
+    "메뉴변경 링크 문자 발송드림"
+   ],
+   "rc": 2,
+   "lr": "1794528461.297469",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794528442958899"
+  },
   {
    "ts": "1794492229.302329",
    "date": "2026-11-12",
