@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5179,
- "updatedAt": "2026-11-13 10:24",
+ "version": 5180,
+ "updatedAt": "2026-11-13 10:26",
  "days": 30,
  "items": [
   {
@@ -28,9 +28,11 @@ window.MENU_REQUESTS = {
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1794533047.216909",
+   "replies": [
+    "메뉴 대량등록 시 998개 칸을 수정하고 다시 시도하라는 에러가 지속 팝업되어\n도움주실 수 있으실까요~? :woman-bowing:"
+   ],
+   "rc": 2,
+   "lr": "1794533114.249149",
    "rfx": 3,
    "status": "wait",
    "handler": null,
