@@ -3,10 +3,204 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5210,
- "updatedAt": "2026-11-13 14:09",
+ "version": 5211,
+ "updatedAt": "2026-11-13 14:22",
  "days": 30,
  "items": [
+  {
+   "ts": "1794547309.201529",
+   "date": "2026-11-13",
+   "time": "14:21",
+   "store": "모모떡볶이 서동점",
+   "biz": "5093123727",
+   "pos": "",
+   "content": "메뉴 한번만 부탁드립나다 ㅠ",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261113_142051965.jpg",
+     "fid": "F0CJ80RJDL0",
+     "from": "댓글",
+     "path": "menu-files/1794547309_201529-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "세트 메뉴",
+       "name": "모모(2모)세트",
+       "price": 13000
+      },
+      {
+       "category": "세트 메뉴",
+       "name": "모모모(3모)세트",
+       "price": 18000
+      },
+      {
+       "category": "세트 메뉴",
+       "name": "모모모모(4모)세트",
+       "price": 23000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261113_142051965_01.jpg",
+     "fid": "F0CH8AK32CV",
+     "from": "댓글",
+     "path": "menu-files/1794547309_201529-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "튀김과 음료",
+       "name": "모둠튀김",
+       "price": 5000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "오징어튀김",
+       "price": 1500
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "새우튀김",
+       "price": 1000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "고추튀김",
+       "price": 1000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "깻잎튀김",
+       "price": 1000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "고구마튀김",
+       "price": 1000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "당면만두 2개",
+       "price": 1000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "미니김말이 2개",
+       "price": 1000
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "피카츄",
+       "price": 1500
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "소떡소떡",
+       "price": 2500
+      },
+      {
+       "category": "튀김과 음료",
+       "name": "삶은계란",
+       "price": 800
+      },
+      {
+       "category": "주류 · 음료",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류 · 음료",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류 · 음료",
+       "name": "킨사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류 · 음료",
+       "name": "콜라 / 제로콜라",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261113_142051965_02.jpg",
+     "fid": "F0CHBL620R4",
+     "from": "댓글",
+     "path": "menu-files/1794547309_201529-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "식사 메뉴",
+       "name": "라면",
+       "price": 4500
+      },
+      {
+       "category": "식사 메뉴",
+       "name": "라면 + 꼬마김밥 세트",
+       "price": 7500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261113_142051965_03.jpg",
+     "fid": "F0CH8AKKD7F",
+     "from": "댓글",
+     "path": "menu-files/1794547309_201529-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "메인 메뉴",
+       "name": "떡볶이 1인분",
+       "price": 5000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "어묵 1개",
+       "price": 1000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "물떡 1개",
+       "price": 1000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "꼬마김밥 1팩",
+       "price": 3500
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "순대 1인분",
+       "price": 6000
+      },
+      {
+       "category": "메인 메뉴",
+       "name": "내장만 1인분",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "솔라피 필요없"
+   ],
+   "rc": 2,
+   "lr": "1794547340.466459",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794547309201529"
+  },
   {
    "ts": "1794546018.577739",
    "date": "2026-11-13",
