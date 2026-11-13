@@ -3,10 +3,39 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5178,
- "updatedAt": "2026-11-13 10:09",
+ "version": 5179,
+ "updatedAt": "2026-11-13 10:24",
  "days": 30,
  "items": [
+  {
+   "ts": "1794533024.332669",
+   "date": "2026-11-13",
+   "time": "10:23",
+   "store": "빅트레이드",
+   "biz": "1372217770",
+   "pos": "",
+   "content": "메뉴 등록 및 바코드,재고 등록 부탁 드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "f_b5d26f95ffc5.xlsx",
+     "fid": "F0CHE3Q3DGR",
+     "from": "댓글",
+     "path": "menu-files/1794533024_332669-0.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794533047.216909",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794533024332669"
+  },
   {
    "ts": "1794529140.692319",
    "date": "2026-11-13",
