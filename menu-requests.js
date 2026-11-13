@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5177,
- "updatedAt": "2026-11-13 09:40",
+ "version": 5178,
+ "updatedAt": "2026-11-13 10:09",
  "days": 30,
  "items": [
   {
@@ -69198,29 +69198,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791942083655539"
-  },
-  {
-   "ts": "1791940074.955729",
-   "date": "2026-10-14",
-   "time": "10:07",
-   "store": "호텔파리칠",
-   "biz": "8558702938",
-   "pos": "토스포스",
-   "content": "카테고리 + 상품 등, 기존 재고 초기화 후 엑셀파일상 재고로 조정 부탁드리비니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    ":telephone_receiver: 재접수 안내"
-   ],
-   "rc": 1,
-   "lr": "1791940746.323889",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1791940074955729"
   }
  ],
  "ocr": {
