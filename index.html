@@ -4701,10 +4701,10 @@ function admChannel(noNote){
   const s=[{n:'온라인',c:'#0071e3',v:R.map(r=>r.online)},{n:'오프라인',c:'#ff9500',v:R.map(r=>r.offline)}];
   const share=R.map(r=>{ const t=r.online+r.offline; return t?Math.round(r.online/t*100):0; });
   return (noNote?'':admHistNote(R))
-    + `<div class="card"><div class="card-head"><h3>🌐 온라인 · 오프라인 월 건수</h3><span class="hint">꺾은선 · 점 위 숫자 = 월 건수</span></div>${monthLineChart(L,s)}</div>`
+    + `<div class="card"><div class="card-head"><h3>🌐 온라인 · 오프라인 월 건수</h3><span class="hint">꺾은선 · 점 위 숫자 = 월 건수</span></div>${monthLineChart(L,s,null,{w:1100,h:320})}</div>`
     + `<div class="card"><div class="card-head"><h3>1일 평균 비교</h3><span class="hint">월 건수 ÷ 평일 수(토·일·공휴일 제외)</span></div>
         ${monthLineChart(L,[{n:'온라인',c:'#0071e3',v:R.map(r=>admPerDay(r.online,r))},
-                           {n:'오프라인',c:'#ff9500',v:R.map(r=>admPerDay(r.offline,r))}], v=>Number(v).toFixed(1))}</div>`
+                           {n:'오프라인',c:'#ff9500',v:R.map(r=>admPerDay(r.offline,r))}], v=>Number(v).toFixed(1), {w:1100,h:320})}</div>`
     + `<div class="card"><div class="card-head"><h3>월별 수치</h3>
           <span class="hint">유형별: <b>2026.01~06</b> 월간 리포트 · <b>07~</b> 대시보드 집계 · VOC는 처리 완료 건 · 2025년은 온·오프라인 구분이 없어 <b>온보딩·AS</b> · <b>근무일</b> 탭에서 보세요</span></div>
         <div class="adm-note" style="margin:0 0 10px">⚠️ <b>부재*</b> 는 두 구간의 기준이 다릅니다 —
@@ -4762,7 +4762,7 @@ function admWorkday(noNote){
        <b>1일 평균 = 총 건수 ÷ 평일 수</b> — 주말·당직에 처리한 건도 분자에는 들어갑니다(맨 오른쪽 열에 따로 표기).</div>`
     + `<div class="yoy-grid">`
     + yoyChart('📦 월 총 처리 건수', R, r=>r.total, null, 'sum')
-    + admDriTotalCard(R)
+    + admCatTotalCard(R)
     + yoyChart('📆 1일 평균 처리', R, r=>admPerDay(r.total,r), v=>Number(v).toFixed(1), 'avg', '총 건수 ÷ 평일 수')
     + `</div>`
     + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수 · 합계 줄의 1일 평균 = 연간 총 건수 ÷ 연간 평일 수</span></div>${table(Ry)}</div>`).join('');
@@ -4773,39 +4773,46 @@ function admWorkday(noNote){
 function monthLineChart(labels, series, fmt, opt){
   const f = fmt || (v=>Number(v).toLocaleString()); opt=opt||{};
   const many = series.length>3;
-  const colW=opt.colW||74, padL=34, padR=many?54:30, topPad=26, botPad=40;
-  const W=Math.max(opt.minW||420, padL+padR+(labels.length-1)*colW), H=opt.h||270, base=H-botPad, plotH=H-topPad-botPad;
+  // 카드 폭에 꽉 차게: viewBox 를 고정하고 svg 는 width:100% (yoy-svg) — 반쪽 카드는 W 560(연도별 차트와 같은 크기), 전체 폭은 1100
+  const W=opt.w||1100, H=opt.h||300, padL=50, padR=many?60:34, topPad=22, botPad=32, base=H-botPad, plotH=H-topPad-botPad;
   const vals=series.flatMap(s=>s.v.filter(v=>v!=null).map(Number));
-  const mx=Math.max(1,...vals)*1.08;
-  const X=i=>labels.length>1 ? padL+i*(W-padL-padR)/(labels.length-1) : W/2;
-  const Y=v=>base-Number(v)/mx*plotH;
-  // 같은 해면 '11월', 해가 섞이면 '25.11' 로 짧게(좁은 차트에서 겹침 방지)
+  const {top, step}=yoyNice(Math.max(0,...vals)*1.12);
+  const X=i=>labels.length>1 ? padL+12+i*(W-padL-padR-24)/(labels.length-1) : W/2;
+  const Y=v=>base-Number(v)/top*plotH;
+  // 같은 해면 '11월', 해가 섞이면 '25.11' 로 짧게
   const oneYear=new Set(labels.map(l=>String(l).split('.')[0])).size===1;
   const xl=l=>{ const p=String(l).split('.'); return !p[1] ? l : oneYear ? Number(p[1])+'월' : p[0].slice(-2)+'.'+p[1]; };
-  const grid=[0.25,0.5,0.75,1].map(p=>`<line x1="${padL-8}" y1="${(base-p*plotH).toFixed(1)}" x2="${W-padR+8}" y2="${(base-p*plotH).toFixed(1)}" style="stroke:var(--line-soft)" stroke-dasharray="3 4"/>`).join('');
-  const xs=labels.map((l,i)=>`<text x="${X(i).toFixed(1)}" y="${base+20}" text-anchor="middle" font-size="12" font-weight="700" style="fill:var(--ink)">${xl(l)}</text>`).join('');
+  let grid='';
+  for(let v=0; v<=top+1e-9; v+=step){ const y=Y(v).toFixed(1);
+    grid+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" style="stroke:var(--line-soft)"/><text x="${padL-8}" y="${(+y+4).toFixed(1)}" text-anchor="end" font-size="11" style="fill:var(--gray2)">${f(v)}</text>`; }
+  const xs=labels.map((l,i)=>`<text x="${X(i).toFixed(1)}" y="${base+19}" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:var(--ink-soft)">${xl(l)}</text>`).join('');
   const lines=series.map(s=>{
     const segs=[]; let cur=[];
     s.v.forEach((v,i)=>{ if(v==null){ if(cur.length) segs.push(cur); cur=[]; } else cur.push(`${X(i).toFixed(1)},${Y(v).toFixed(1)}`); });
     if(cur.length) segs.push(cur);
     const last=s.v.reduce((a,v,i)=>v!=null?i:a,-1);
     const dots=s.v.map((v,i)=>{ if(v==null) return '';
-      const lab=(!many||i===last)?`<text x="${(X(i)+(many?8:0)).toFixed(1)}" y="${(many?Y(v)+4:Y(v)-9).toFixed(1)}" text-anchor="${many?'start':'middle'}" font-size="11.5" font-weight="800" style="fill:${s.c}">${f(v)}</text>`:'';
-      return `<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${many?3:4}" fill="${s.c}" stroke="var(--canvas)" stroke-width="1.5"><title>${labels[i]} · ${s.n} ${f(v)}</title></circle>${lab}`; }).join('');
-    return segs.map(p=>p.length>1?`<polyline points="${p.join(' ')}" fill="none" stroke="${s.c}" stroke-width="${many?2:2.5}" stroke-linejoin="round" stroke-linecap="round"/>`:'').join('')+dots;
+      const lab=(!many||i===last)?`<text class="yoy-val" x="${(X(i)+(many?8:0)).toFixed(1)}" y="${(many?Y(v)+4:Y(v)-9).toFixed(1)}" text-anchor="${many?'start':'middle'}" style="fill:${s.c};font-size:11.5px;font-weight:800">${f(v)}</text>`:'';
+      return `<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${many?3.2:4}" fill="${s.c}" style="stroke:var(--canvas)" stroke-width="1.5"><title>${labels[i]} · ${s.n} ${f(v)}</title></circle>${lab}`; }).join('');
+    return segs.map(p=>p.length>1?`<polyline points="${p.join(' ')}" fill="none" stroke="${s.c}" stroke-width="${many?2.2:2.5}" stroke-linejoin="round" stroke-linecap="round"/>`:'').join('')+dots;
   }).join('');
-  return `<div class="chart-wrap"><svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px" preserveAspectRatio="xMinYMid meet">
-      ${grid}<line x1="${padL-8}" y1="${base}" x2="${W-padR+8}" y2="${base}" style="stroke:var(--line)"/>${lines}${xs}</svg></div>
+  return `<div class="yoy-wrap"><svg class="yoy-svg" viewBox="0 0 ${W} ${H}">
+      ${grid}<line x1="${padL}" y1="${base}" x2="${W-padR}" y2="${base}" style="stroke:var(--line)"/>${lines}${xs}</svg></div>
     <div class="legend">${series.map(s=>`<span><span class="swatch" style="background:${s.c}"></span>${s.n}</span>`).join('')}</div>`;
 }
-// 📊 DRI별 총 처리 건수 — DRI별 월별의 카테고리(DRIM_CATS)를 한 그래프에 한 선씩. 최근 12개월.
-// 배달처럼 집계 시작(from) 전 달은 0 이 아니라 선을 끊는다.
-function admDriTotalCard(R){
+// 📊 분류별 총 처리 건수 — 온보딩·AS·명의변경·메뉴등록·배달·외주를 한 그래프에 한 선씩. 최근 12개월.
+// 배달은 2026.04 부터 집계(DRIM_CATS 의 from) — 그 전 달은 0 이 아니라 선을 끊는다.
+const CATTOT_CATS=[
+  {key:'onboarding', icon:'🚀', name:'온보딩'},
+  {key:'as',         icon:'🔧', name:'AS'},
+  ...DRIM_CATS,
+];
+function admCatTotalCard(R){
   const Rr=R.slice(-12), L=Rr.map(r=>r.m.replace('-','.'));
   const colorOf=k=>((WORK_CATS.find(c=>c.key===k)||{}).color)||'#86868b';
-  const s=DRIM_CATS.map(c=>({n:`${c.icon} ${c.name}`, c:colorOf(c.key), v:Rr.map(r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0))}));
-  return `<div class="card"><div class="card-head"><h3>📊 DRI별 총 처리 건수</h3><span class="hint">최근 12개월 · 점에 마우스 → 숫자</span></div>
-    ${monthLineChart(L, s, null, {minW:360, colW:46, h:262})}</div>`;
+  const s=CATTOT_CATS.map(c=>({n:`${c.icon} ${c.name}`, c:colorOf(c.key), v:Rr.map(r=>(c.from&&r.m<c.from)?null:(r.by[c.key]||0))}));
+  return `<div class="card"><div class="card-head"><h3>📊 분류별 총 처리 건수</h3><span class="hint">최근 12개월 · 점에 마우스 → 숫자</span></div>
+    ${monthLineChart(L, s, null, {w:560, h:300})}</div>`;
 }
 /* ── 월별 처리 건수 탭 — 근무일·1일 평균 + DRI별 월별 + 온보딩·AS 월별 + 온라인·오프라인 월별 ── */
 function admMonthlyTab(){
