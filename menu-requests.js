@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5264,
- "updatedAt": "2026-11-14 14:32",
+ "version": 5265,
+ "updatedAt": "2026-11-14 15:00",
  "days": 30,
  "items": [
   {
@@ -67512,27 +67512,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792044751549109"
-  },
-  {
-   "ts": "1792043928.105359",
-   "date": "2026-10-15",
-   "time": "14:58",
-   "store": "토이즈나(TOISNA)",
-   "biz": "2641902297",
-   "pos": "기타",
-   "content": "K-메뉴 카테고리에 순두부수제비전골이 있습니다.\n순두부수제비전골 메뉴에서 옵션 추가해 만들어주세요.\n- 계란추가O(진하고 걸쭉한 국물) 500원\n- 계란추가X(깔끔하고 개운맛 국물) 0원",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792043928105359"
   }
  ],
  "ocr": {
