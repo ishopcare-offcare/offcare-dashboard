@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33745,
+  "version": 33746,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,8 +330882,8 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "미지정": 3,
-          "김규빈": 14
+          "김규빈": 15,
+          "미지정": 3
         },
         "onboarding": {
           "김규빈": 4,
@@ -330898,6 +330898,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:28",
+          "store": "헤어더블룸",
+          "biz": "1436800699",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "금액입력결제모드 사용 방법 문의주셔서 안내 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "프로그램사용 희망 X 프론트에서 금액입력 희망 X 단말기에서 눌러서 신호보내고싶다(CAT or 터미널)로 교체 상담 고객센터 인입 예정입니다.",
+          "rr": 1
+        },
         {
           "time": "14:15",
           "store": "몽시",
@@ -331185,7 +331197,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 18,
-        "offline": 7,
+        "offline": 8,
         "unknown": 0
       },
       "updatedAt": "14:28",
@@ -331309,15 +331321,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794634234.485
+        "lastSeen": 1794634317.127
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794634234.485
+        "lastSeen": 1794634317.127
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794634234.485
+        "lastSeen": 1794634317.127
       }
     },
     "days": {
@@ -457488,7 +457500,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 14:31",
+    "at": "2026-11-14 14:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457647,7 +457659,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 14:30",
+    "at": "2026-11-14 14:31",
     "pri": {
       "days": 0,
       "failed": [],
