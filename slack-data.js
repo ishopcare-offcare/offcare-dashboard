@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33683,
+  "version": 33684,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 7
+          "김규빈": 8
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:24",
+          "store": "텐퍼센트 울산야음캐슬점",
+          "biz": "4422302176",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "• 프론트 업데이트 필요, 포스기 사용",
+          "hw": "",
+          "intake": "online",
+          "note": "매장 손님있으셔서 불가 &gt; 금일 가능한 시간 요청 드렸는데 불가 &gt; 다음주중으로 재접수 주신다고함 매장 손님있으셔서 불가 금일 가능한 시간 요청 드렸는데 불가 다음주중으로 재접수 주신다고함",
+          "rr": 1
+        },
         {
           "time": "11:00",
           "store": "동동국밥 문래점",
@@ -331015,7 +331027,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 4,
         "unknown": 0
       },
@@ -331088,7 +331100,7 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794623092.795
+        "lastSeen": 1794623169.053
       }
     },
     "days": {
@@ -457196,7 +457208,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 11:25",
+    "at": "2026-11-14 11:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457355,7 +457367,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 11:24",
+    "at": "2026-11-14 11:26",
     "pri": {
       "days": 0,
       "failed": [],
