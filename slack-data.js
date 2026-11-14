@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33658,
+  "version": 33659,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "onboarding": {
-          "김규빈": 1
+          "김규빈": 2
         },
         "as": {
           "김규빈": 2
@@ -330918,6 +330918,18 @@ window.SLACK_DATA = {
           "rr": 1
         },
         {
+          "time": "09:30",
+          "store": "로엘뷰티랩",
+          "biz": "5990103896",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "포프(휴대폰) + 유프 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "15분뒤 박스 그대로 있어서 개봉요청 드림 / 온보딩 및 사용방법안내완료",
+          "rr": 2
+        },
+        {
           "time": "08:25",
           "store": "쌈촌명일점",
           "biz": "2122540781",
@@ -330943,7 +330955,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -331010,18 +331022,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794619179.593
-      },
-      "1794616200.486989": {
-        "post": "1794616200.486989",
-        "lastSeen": 1794619179.593,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 0
+        "lastSeen": 1794619563.071
       },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794619179.593
+        "lastSeen": 1794619563.071
       }
     },
     "days": {
@@ -457094,7 +457099,8 @@ window.SLACK_DATA = {
             "store": "로엘뷰티랩",
             "biz": "5990103896",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 52.8
           },
           {
             "hm": "09:55",
@@ -457110,7 +457116,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 10:20",
+    "at": "2026-11-14 10:26",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457269,7 +457275,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 10:19",
+    "at": "2026-11-14 10:26",
     "pri": {
       "days": 0,
       "failed": [],
