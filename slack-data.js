@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33741,
+  "version": 33742,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,13 +330881,13 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
-        "onboarding": {
-          "미지정": 1,
-          "김규빈": 3
-        },
         "as": {
-          "미지정": 2,
+          "미지정": 3,
           "김규빈": 14
+        },
+        "onboarding": {
+          "김규빈": 4,
+          "미지정": 1
         },
         "booking": {
           "김규빈": 1
@@ -330898,6 +330898,29 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:15",
+          "store": "몽시",
+          "biz": "5790903622",
+          "cat": "as",
+          "emp": "미지정",
+          "req": "터미널 IP 데스크탑 IP 맞춰서 셋팅필ㅇ",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "14:14",
+          "store": "카페,소락",
+          "biz": "2703101219",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "• 자체보유 포스기에 포프 온보딩 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "온보딩 및 사용방법 교육완료 기존 프린터기 COM2 9600",
+          "rr": 1
+        },
         {
           "time": "14:00",
           "store": "주식회사 니드스튜디오",
@@ -331161,7 +331184,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 18,
         "offline": 7,
         "unknown": 0
       },
@@ -331286,19 +331309,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794633523.588
+        "lastSeen": 1794633883.54
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794633523.588
-      },
-      "1794633323.526689": {
-        "post": "1794633323.526689",
-        "lastSeen": 1794633523.588
+        "lastSeen": 1794633883.54
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794633523.588
+        "lastSeen": 1794633883.54
       }
     },
     "days": {
@@ -457361,8 +457380,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-14": {
-        "cnt": 10,
-        "sumMin": 70.4054193298022,
+        "cnt": 11,
+        "sumMin": 76.73937451442083,
         "over": 0,
         "items": [
           {
@@ -457454,13 +457473,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "onboarding",
             "dmin": 6.4
+          },
+          {
+            "hm": "14:15",
+            "min": 6.3,
+            "store": "몽시",
+            "biz": "5790903622",
+            "who": "",
+            "cat": "as",
+            "dmin": 6.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 14:19",
+    "at": "2026-11-14 14:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457619,7 +457647,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 14:18",
+    "at": "2026-11-14 14:24",
     "pri": {
       "days": 0,
       "failed": [],
