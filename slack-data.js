@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33670,
+  "version": 33671,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 4
+          "김규빈": 5
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:49",
+          "store": "더 고메 (The Gourmet)",
+          "biz": "2280867624",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "• 태블릿에 토스사장님 앱이 삭제되어 재설치만 해 드리면 될 것 같은데 지속 원격 요청주시어 이관드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포스기 게스트모드로 진입, 사용자 전환으로 해결",
+          "rr": 1
+        },
         {
           "time": "10:49",
           "store": "샵꽁뜨 홍대합정역점",
@@ -330979,7 +330991,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 2,
         "unknown": 0
       },
@@ -331046,21 +331058,14 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794621288.218
+        "lastSeen": 1794621591.638
       },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794621288.218,
+        "lastSeen": 1794621591.638,
         "r": 1,
         "day": "2026-11-14",
         "idx": 2
-      },
-      "1794620968.274359": {
-        "post": "1794620968.274359",
-        "lastSeen": 1794621288.218,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 3
       }
     },
     "days": {
@@ -457159,14 +457164,15 @@ window.SLACK_DATA = {
             "store": "더 고메 (The Gourmet)",
             "biz": "2280867624",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 10:55",
+    "at": "2026-11-14 11:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457325,7 +457331,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 10:54",
+    "at": "2026-11-14 10:59",
     "pri": {
       "days": 0,
       "failed": [],
