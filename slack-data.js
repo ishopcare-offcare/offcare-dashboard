@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33705,
+  "version": 33706,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330902,8 +330902,8 @@ window.SLACK_DATA = {
           "req": "타사 K501 영수증 출력용도로 이용하기 위해 A 케이블 구매하신 상황입니다. 프린터 세팅 도움 부탁드립니다. (13시 이후 통화 가능한 부분 안내 완료)",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 2
+          "note": "A케이블로 프론트 연동 후 115200 프린터 테스트 완료 / 요거는 바로 처리햇슴다",
+          "rr": 4
         },
         {
           "time": "11:52",
@@ -331212,7 +331212,7 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794625619.026
+        "lastSeen": 1794625761.858
       }
     },
     "days": {
@@ -457347,7 +457347,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 12:07",
+    "at": "2026-11-14 12:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457506,7 +457506,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 12:06",
+    "at": "2026-11-14 12:09",
     "pri": {
       "days": 0,
       "failed": [],
