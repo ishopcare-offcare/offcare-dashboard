@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33711,
+  "version": 33712,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 13
+          "김규빈": 14
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:00",
+          "store": "옛날손짜장",
+          "biz": "2120855012",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "결제했는데 계속 통신연결실패로 나온다고하셔서 급하게 원격요청주셨습니다.(인터넷문제인가했는데 다른 단말기는 문제가 없다고 하시네요)",
+          "hw": "",
+          "intake": "offline",
+          "note": "단말기 껏켯이후 현재는 정상이라고 하는데 사진을 하나 보내주신다고함",
+          "rr": 1
+        },
         {
           "time": "11:55",
           "store": "터틀크로",
@@ -331088,7 +331100,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 12,
-        "offline": 5,
+        "offline": 6,
         "unknown": 0
       },
       "updatedAt": "13:00",
@@ -331212,11 +331224,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794628895.73
+        "lastSeen": 1794629259.069
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794628895.73
+        "lastSeen": 1794629259.069
       }
     },
     "days": {
@@ -457351,7 +457363,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 13:01",
+    "at": "2026-11-14 13:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457510,7 +457522,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 13:01",
+    "at": "2026-11-14 13:07",
     "pri": {
       "days": 0,
       "failed": [],
