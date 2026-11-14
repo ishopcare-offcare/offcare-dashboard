@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33671,
+  "version": 33672,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330891,7 +330891,20 @@ window.SLACK_DATA = {
           "김규빈": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "10:00",
+          "store": "주식회사 비바브로스",
+          "biz": "8278604007",
+          "handler": "김규빈",
+          "cat": "transfer",
+          "intake": "online",
+          "req": "11월 13일 오전 10시 / 프론트, 키오스크 다운로드 필요",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "10:49",
@@ -330991,11 +331004,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 7,
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "10:49"
+      "updatedAt": "11:00"
     }
   },
   "resp": {
@@ -331058,11 +331071,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794621591.638
+        "lastSeen": 1794621690.675
       },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794621591.638,
+        "lastSeen": 1794621690.675,
         "r": 1,
         "day": "2026-11-14",
         "idx": 2
@@ -457172,7 +457185,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 11:00",
+    "at": "2026-11-14 11:01",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457331,7 +457344,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 10:59",
+    "at": "2026-11-14 11:01",
     "pri": {
       "days": 0,
       "failed": [],
