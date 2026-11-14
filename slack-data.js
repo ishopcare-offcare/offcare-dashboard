@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33698,
+  "version": 33699,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331067,7 +331067,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "11:52",
+      "updatedAt": "11:55",
       "absent": [
         {
           "time": "11:00",
@@ -331188,11 +331188,18 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794624919.648
+        "lastSeen": 1794624988.616
       },
       "1794624759.186069": {
         "post": "1794624759.186069",
-        "lastSeen": 1794624919.648
+        "lastSeen": 1794624988.616,
+        "r": 1,
+        "day": "2026-11-14",
+        "idx": 5
+      },
+      "1794624956.535869": {
+        "post": "1794624956.535869",
+        "lastSeen": 1794624988.616
       }
     },
     "days": {
@@ -457255,8 +457262,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-14": {
-        "cnt": 5,
-        "sumMin": 36.16342775026957,
+        "cnt": 6,
+        "sumMin": 39.41252659956614,
         "over": 0,
         "items": [
           {
@@ -457303,13 +457310,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "as",
             "dmin": 16.7
+          },
+          {
+            "hm": "11:52",
+            "min": 3.2,
+            "store": "코다리사랑",
+            "biz": "5280700749",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 11:55",
+    "at": "2026-11-14 11:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457468,7 +457483,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 11:55",
+    "at": "2026-11-14 11:56",
     "pri": {
       "days": 0,
       "failed": [],
