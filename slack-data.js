@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33730,
+  "version": 33731,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,6 +330881,9 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
+        "onboarding": {
+          "김규빈": 3
+        },
         "as": {
           "미지정": 2,
           "김규빈": 14
@@ -330888,15 +330891,24 @@ window.SLACK_DATA = {
         "booking": {
           "김규빈": 1
         },
-        "onboarding": {
-          "김규빈": 2
-        },
         "menu": {
           "김규빈": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:29",
+          "store": "몽시",
+          "biz": "5790903622",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "지난번 코세스 장비에서 KIS로 키인결제를 위해 배송받았는데 KIS로 프론트+터미널+PC 온보딩 한번 부탁드립니다.(혹시몰라 받아보시면 켜지 말고 대기해달라고도 했던 매장입니다)",
+          "hw": "에서 KIS로 키인결제를 위해 배송받았는데 KIS로 프론트+터미널+PC 온보딩 한번 부탁드립니다.(혹시몰라 ",
+          "intake": "online",
+          "note": "프런트 터미널 컴퓨터는 온보딩 하였는데 터미널 IP랑 데스크탑이랑 IP 달라서 출력 불가, 인터넷 선 옮겨야되는데 바빠서 14시 15분에 나머지 진행",
+          "rr": 1
+        },
         {
           "time": "13:28",
           "store": "이모네식당",
@@ -331137,7 +331149,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 7,
         "unknown": 0
       },
@@ -331262,11 +331274,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794631530.66
+        "lastSeen": 1794631615.723
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794631530.66
+        "lastSeen": 1794631615.723
       }
     },
     "days": {
@@ -457419,7 +457431,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 13:45",
+    "at": "2026-11-14 13:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457578,7 +457590,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 13:45",
+    "at": "2026-11-14 13:46",
     "pri": {
       "days": 0,
       "failed": [],
