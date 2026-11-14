@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5273,
- "updatedAt": "2026-11-14 20:10",
+ "version": 5274,
+ "updatedAt": "2026-11-14 20:30",
  "days": 30,
  "items": [
   {
@@ -66430,35 +66430,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792068367285589"
-  },
-  {
-   "ts": "1792063242.936819",
-   "date": "2026-10-15",
-   "time": "20:20",
-   "store": "취향아카이브",
-   "biz": "1721103273",
-   "pos": "",
-   "content": "엑셀 파일 내 메뉴 등록 요청 드립니다 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "f_88d2bf4ff574.xlsx 2.exs",
-     "fid": "F0C9ACMCC3D",
-     "from": "댓글",
-     "path": "menu-files/1792063242_936819-0.exs",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1792064974.955989",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792063242936819"
   }
  ],
  "ocr": {
