@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33883,
+  "version": 33884,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "박하림": 11,
+          "박하림": 12,
           "미지정": 10,
           "김규빈": 16
         },
@@ -330904,6 +330904,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:30",
+          "store": "금화춘",
+          "biz": "1248589026",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "홀 포스기 사용 중 오류 메시지 (영수증 출력 실패) 확인되어 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "19:59",
           "store": "더,플레이스",
@@ -331519,7 +331530,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 38,
-        "offline": 15,
+        "offline": 16,
         "unknown": 0
       },
       "updatedAt": "20:39",
@@ -331754,19 +331765,19 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794656733.661
+        "lastSeen": 1794657108.018
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794656733.661
+        "lastSeen": 1794657108.018
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794656733.661
+        "lastSeen": 1794657108.018
       },
       "1794656194.566269": {
         "post": "1794656194.566269",
-        "lastSeen": 1794656733.661
+        "lastSeen": 1794657108.018
       }
     },
     "days": {
@@ -458153,7 +458164,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 20:45",
+    "at": "2026-11-14 20:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458312,7 +458323,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 20:45",
+    "at": "2026-11-14 20:51",
     "pri": {
       "days": 0,
       "failed": [],
