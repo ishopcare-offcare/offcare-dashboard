@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33781,
+  "version": 33782,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331258,7 +331258,7 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "15:57",
+      "updatedAt": "16:08",
       "absent": [
         {
           "time": "11:00",
@@ -331270,20 +331270,21 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 8,
-          "low": 0
+          "count": 9,
+          "low": 1
         },
         "high": {
           "install": 2,
           "nps": 5
         },
         "npsDist": {
+          "1": 1,
           "7": 1,
           "8": 2,
           "10": 5
@@ -331295,6 +331296,10 @@ window.SLACK_DATA = {
           "카페": 2
         },
         "byTenure": {
+          "6개월": {
+            "total": 2,
+            "low": 1
+          },
           "12개월": {
             "total": 2,
             "low": 0
@@ -331310,16 +331315,12 @@ window.SLACK_DATA = {
           "3개월": {
             "total": 1,
             "low": 0
-          },
-          "6개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
           "SMARTRO": {
-            "total": 2,
-            "low": 0
+            "total": 3,
+            "low": 1
           },
           "KIS": {
             "total": 3,
@@ -331338,8 +331339,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+        },
+        "alerts": [
+          {
+            "time": "16:08",
+            "store": "올데이짐",
+            "storeId": "464997",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 1,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 1,
+                "text": "수수료 비쌈",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "15:34",
@@ -331421,23 +331447,23 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794640031.624
+        "lastSeen": 1794640082.147
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794640031.624
+        "lastSeen": 1794640082.147
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794640031.624
+        "lastSeen": 1794640082.147
       },
       "1794639472.801569": {
         "post": "1794639472.801569",
-        "lastSeen": 1794640031.624
+        "lastSeen": 1794640082.147
       },
       "1794639212.954339": {
         "post": "1794639212.954339",
-        "lastSeen": 1794640031.624
+        "lastSeen": 1794640082.147
       }
     },
     "days": {
@@ -457653,7 +457679,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 16:07",
+    "at": "2026-11-14 16:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457812,7 +457838,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 16:07",
+    "at": "2026-11-14 16:08",
     "pri": {
       "days": 0,
       "failed": [],
