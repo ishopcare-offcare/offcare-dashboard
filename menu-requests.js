@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5266,
- "updatedAt": "2026-11-14 15:13",
+ "version": 5267,
+ "updatedAt": "2026-11-14 15:15",
  "days": 30,
  "items": [
   {
@@ -67470,27 +67470,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792045833839029"
-  },
-  {
-   "ts": "1792044925.127919",
-   "date": "2026-10-15",
-   "time": "15:15",
-   "store": "백연전골",
-   "biz": "8050803335",
-   "pos": "기타",
-   "content": "식사류항목:제육백반 ㅡ삭제\n고기항목:돼지주물럭 14,000 생삼겹살 다음 순서에 추가",
-   "special": "금일 16시 30 분까지  수정요청부탁드립니다.",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792044925127919"
   }
  ],
  "ocr": {
