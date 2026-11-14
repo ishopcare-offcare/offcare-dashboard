@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33898,
+  "version": 33899,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330926,8 +330926,8 @@ window.SLACK_DATA = {
           "req": "퍼스트포스 사용) 메뉴 등록 관련 소통 필요한 항목 있다고 하여 원격 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "자동거절",
-          "rr": 2
+          "note": "자동거절 / 메뉴변경요청 /가격추가 수정 및 위치변경완료",
+          "rr": 3
         },
         {
           "time": "20:30",
@@ -331837,15 +331837,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794659439.438
+        "lastSeen": 1794659542.033
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794659439.438
+        "lastSeen": 1794659542.033
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794659439.438
+        "lastSeen": 1794659542.033
       }
     },
     "days": {
@@ -458250,7 +458250,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 21:30",
+    "at": "2026-11-14 21:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458409,7 +458409,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 21:30",
+    "at": "2026-11-14 21:32",
     "pri": {
       "days": 0,
       "failed": [],
