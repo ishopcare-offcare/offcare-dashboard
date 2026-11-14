@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33756,
+  "version": 33757,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,6 +330881,10 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
+        "booking": {
+          "박하림": 1,
+          "김규빈": 1
+        },
         "as": {
           "김규빈": 16,
           "미지정": 4
@@ -330889,15 +330893,24 @@ window.SLACK_DATA = {
           "김규빈": 4,
           "미지정": 1
         },
-        "booking": {
-          "김규빈": 1
-        },
         "menu": {
           "김규빈": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "15:00",
+          "store": "주식회사 비바브로스",
+          "biz": "8278604007",
+          "cat": "booking",
+          "emp": "박하림",
+          "req": "&gt; 프론트는 TID랑 고유번호 전달드려서 업체개발POS에 연동 하신다고함",
+          "hw": "",
+          "intake": "online",
+          "note": "오후4시 예약요청",
+          "rr": 1
+        },
         {
           "time": "14:49",
           "store": "썬프란시스코마켓",
@@ -330907,8 +330920,8 @@ window.SLACK_DATA = {
           "req": "포스 프로그램이 갑자기 꺼지는 증상 발생, 저장공간이 부족하다고 나온다고 하셔서 원격 점검 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "포스기 하드 나감 &gt; 리커버리 하라고 뜨는데도 안됨 장비 계약 확인 필요 포스기 하드 나감 리커버리 하라고 뜨는데도 안됨 / 장비 계약서 확인 후 우리장비면 교체 필요",
-          "rr": 2
+          "note": "포스기 하드 나감 &gt; 리커버리 하라고 뜨는데도 안됨 장비 계약 확인 필요 포스기 하드 나감 리커버리 하라고 뜨는데도 안됨 / 장비 계약서 확인 후 우리장비면 교체 필요 / 렌탈확인됨",
+          "rr": 3
         },
         {
           "time": "14:41",
@@ -331219,11 +331232,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "15:08",
+      "updatedAt": "15:12",
       "absent": [
         {
           "time": "11:00",
@@ -331235,21 +331248,21 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 2,
+          "count": 3,
           "low": 0
         },
         "high": {
           "install": 1,
-          "nps": 2
+          "nps": 3
         },
         "npsDist": {
-          "10": 2
+          "10": 3
         },
         "installDist": {
           "5": 1
@@ -331258,6 +331271,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 0
+          },
           "6개월": {
             "total": 1,
             "low": 0
@@ -331268,6 +331285,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
@@ -331348,26 +331369,19 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794636532.729
+        "lastSeen": 1794636743.486
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794636532.729
+        "lastSeen": 1794636743.486
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794636532.729
+        "lastSeen": 1794636743.486
       },
       "1794635172.120139": {
         "post": "1794635172.120139",
-        "lastSeen": 1794636532.729
-      },
-      "1794636000.830439": {
-        "post": "1794636000.830439",
-        "lastSeen": 1794636532.729,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 13
+        "lastSeen": 1794636743.486
       }
     },
     "days": {
@@ -457557,14 +457571,15 @@ window.SLACK_DATA = {
             "store": "주식회사 비바브로스",
             "biz": "8278604007",
             "who": "박하림",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 10.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 15:11",
+    "at": "2026-11-14 15:13",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457723,7 +457738,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 15:08",
+    "at": "2026-11-14 15:12",
     "pri": {
       "days": 0,
       "failed": [],
