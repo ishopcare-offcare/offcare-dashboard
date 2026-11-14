@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33701,
+  "version": 33702,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 11
+          "김규빈": 12
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:52",
+          "store": "코다리사랑",
+          "biz": "5280700749",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "• 포스기에서 토스포스 앱 접속 오류라 말씀 주시어 확인 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "OKPOS / <tel:010-4729-****|010-4729-**** 010-4729-****",
+          "rr": 2
+        },
         {
           "time": "11:37",
           "store": "컴포즈커피 신대방역점",
@@ -331064,10 +331076,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 11,
-        "offline": 4,
+        "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "11:55",
+      "updatedAt": "12:00",
       "absent": [
         {
           "time": "11:00",
@@ -331188,18 +331200,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794625223.807
-      },
-      "1794624759.186069": {
-        "post": "1794624759.186069",
-        "lastSeen": 1794625223.807,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 5
+        "lastSeen": 1794625311.067
       },
       "1794624956.535869": {
         "post": "1794624956.535869",
-        "lastSeen": 1794625223.807
+        "lastSeen": 1794625311.067
+      },
+      "1794625245.191929": {
+        "post": "1794625245.191929",
+        "lastSeen": 1794625311.067
       }
     },
     "days": {
@@ -457317,14 +457326,15 @@ window.SLACK_DATA = {
             "store": "코다리사랑",
             "biz": "5280700749",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 8.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 12:00",
+    "at": "2026-11-14 12:02",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457483,7 +457493,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 12:00",
+    "at": "2026-11-14 12:01",
     "pri": {
       "days": 0,
       "failed": [],
