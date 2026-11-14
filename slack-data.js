@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33659,
+  "version": 33660,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331022,11 +331022,14 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794619563.071
+        "lastSeen": 1794619621.467
       },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794619563.071
+        "lastSeen": 1794619621.467,
+        "r": 1,
+        "day": "2026-11-14",
+        "idx": 2
       }
     },
     "days": {
@@ -457089,8 +457092,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-14": {
-        "cnt": 2,
-        "sumMin": 2.1291703661282857,
+        "cnt": 3,
+        "sumMin": 28.6532360514005,
         "over": 0,
         "items": [
           {
@@ -457110,13 +457113,21 @@ window.SLACK_DATA = {
             "who": "김규빈",
             "cat": "onboarding",
             "dmin": 20
+          },
+          {
+            "hm": "10:00",
+            "min": 26.5,
+            "store": "주식회사 비바브로스",
+            "biz": "8278604007",
+            "who": "김규빈",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 10:26",
+    "at": "2026-11-14 10:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457275,7 +457286,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 10:26",
+    "at": "2026-11-14 10:27",
     "pri": {
       "days": 0,
       "failed": [],
