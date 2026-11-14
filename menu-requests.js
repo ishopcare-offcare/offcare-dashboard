@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5270,
- "updatedAt": "2026-11-14 16:47",
+ "version": 5271,
+ "updatedAt": "2026-11-14 17:55",
  "days": 30,
  "items": [
   {
@@ -66512,27 +66512,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792054895123379"
-  },
-  {
-   "ts": "1792054438.956699",
-   "date": "2026-10-15",
-   "time": "17:53",
-   "store": "토이즈나(TOISNA)",
-   "biz": "2641902297",
-   "pos": "기타",
-   "content": "카테고리 이벤트 택1 여기에 \n\n할로윈데낄라쿠폰 : 0원\n\n만들어주세요.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792054438956699"
   }
  ],
  "ocr": {
