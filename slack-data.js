@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33647,
+  "version": 33648,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 1
+          "김규빈": 2
         },
         "menu": {
           "김규빈": 1
@@ -330890,6 +330890,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:49",
+          "store": "대가",
+          "biz": "6973700265",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "오케이포스 막혔다고하십니다.(인터넷도 불가하다고해서 인터넷 불가로 막힌것같다고 안내는 드렸으나 엔지니어 확인요청으로 이관드립니다.:꾸벅:)",
+          "hw": "",
+          "intake": "offline",
+          "note": "매장에 TV도 안됨 인터넷 업체 긴급 요청 드리라고 전달드림",
+          "rr": 1
+        },
         {
           "time": "08:25",
           "store": "쌈촌명일점",
@@ -330917,7 +330929,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 2,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:49"
@@ -330987,11 +330999,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794617459.386
+        "lastSeen": 1794617538.623
       },
       "1794616200.486989": {
         "post": "1794616200.486989",
-        "lastSeen": 1794617459.386,
+        "lastSeen": 1794617538.623,
         "r": 1,
         "day": "2026-11-14",
         "idx": 0
@@ -457074,7 +457086,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 09:51",
+    "at": "2026-11-14 09:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457233,7 +457245,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 09:50",
+    "at": "2026-11-14 09:52",
     "pri": {
       "days": 0,
       "failed": [],
