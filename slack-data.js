@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33891,
+  "version": 33892,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331546,7 +331546,7 @@ window.SLACK_DATA = {
         "offline": 16,
         "unknown": 0
       },
-      "updatedAt": "21:00",
+      "updatedAt": "21:10",
       "absent": [
         {
           "time": "11:00",
@@ -331558,14 +331558,14 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 12,
+        "responses": 13,
         "install": {
           "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 12,
-          "low": 2
+          "count": 13,
+          "low": 3
         },
         "high": {
           "install": 2,
@@ -331573,7 +331573,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "1": 1,
-          "5": 1,
+          "5": 2,
           "7": 1,
           "8": 2,
           "9": 1,
@@ -331589,8 +331589,8 @@ window.SLACK_DATA = {
         },
         "byTenure": {
           "6개월": {
-            "total": 3,
-            "low": 2
+            "total": 4,
+            "low": 3
           },
           "구매설치": {
             "total": 3,
@@ -331610,6 +331610,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 4,
+            "low": 1
+          },
           "SECTA9": {
             "total": 1,
             "low": 1
@@ -331622,10 +331626,6 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 1
           },
-          "KIS": {
-            "total": 3,
-            "low": 0
-          },
           "KCP": {
             "total": 1,
             "low": 0
@@ -331636,10 +331636,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
-          "단말기 설치나 초기 과정이 어려움": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
+          "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "21:10",
+            "store": "텐퍼센트 울산보람병원점",
+            "storeId": "470547",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "딱히 추천할 것도 아니고 하지 말라고 할 것도 아니고",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "20:39",
             "store": "온밀로",
@@ -331778,19 +331800,19 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794657903.18
+        "lastSeen": 1794658233.485
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794657903.18
+        "lastSeen": 1794658233.485
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794657903.18
+        "lastSeen": 1794658233.485
       },
       "1794656194.566269": {
         "post": "1794656194.566269",
-        "lastSeen": 1794657903.18,
+        "lastSeen": 1794658233.485,
         "r": 1,
         "day": "2026-11-14",
         "idx": 35
@@ -458197,7 +458219,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 21:05",
+    "at": "2026-11-14 21:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458356,7 +458378,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 21:05",
+    "at": "2026-11-14 21:10",
     "pri": {
       "days": 0,
       "failed": [],
