@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33708,
+  "version": 33709,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330927,7 +330927,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "저도 같이 봐볼게요 / 요거는..컴포즈 운영채널에 넘겨야될수도 있을거같아요 포인트 관련은 / 밴사도 저희꺼가 아니라 전산을 못봐가지고.. / 치원님 여기 결제를 했다가 취소 후 다시 재결제를 31700원으로 한거같은데요? / 토스 결제내역 / 위 번호로 전화드려볼게요 / 넵 저도 그내용 통화로 확인했습니다!",
-          "rr": 18
+          "rr": 20
         },
         {
           "time": "11:34",
@@ -331212,7 +331212,7 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794627035.343
+        "lastSeen": 1794627927.637
       }
     },
     "days": {
@@ -457347,7 +457347,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 12:30",
+    "at": "2026-11-14 12:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457506,7 +457506,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 12:30",
+    "at": "2026-11-14 12:45",
     "pri": {
       "days": 0,
       "failed": [],
