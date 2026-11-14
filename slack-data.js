@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33691,
+  "version": 33692,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 9
+          "김규빈": 10
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:34",
+          "store": "엘윤",
+          "biz": "3083001628",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "터프 문제가 있어 빠르게 원격요청주셨습니다",
+          "hw": "",
+          "intake": "online",
+          "note": "핫스팟으로 사용, 인터넷 느려서 결제 안됨",
+          "rr": 1
+        },
         {
           "time": "11:27",
           "store": "잠실 샤브샤브 퀸즈가든",
@@ -331039,11 +331051,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "11:34",
+      "updatedAt": "11:37",
       "absent": [
         {
           "time": "11:00",
@@ -331164,7 +331176,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794623773.494
+        "lastSeen": 1794624033.516
+      },
+      "1794623857.127639": {
+        "post": "1794623857.127639",
+        "lastSeen": 1794624033.516
       }
     },
     "days": {
@@ -457272,7 +457288,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 11:36",
+    "at": "2026-11-14 11:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457431,7 +457447,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 11:36",
+    "at": "2026-11-14 11:40",
     "pri": {
       "days": 0,
       "failed": [],
