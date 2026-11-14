@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33704,
+  "version": 33705,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 12
+          "김규빈": 13
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:55",
+          "store": "터틀크로",
+          "biz": "4181073417",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "타사 K501 영수증 출력용도로 이용하기 위해 A 케이블 구매하신 상황입니다. 프린터 세팅 도움 부탁드립니다. (13시 이후 통화 가능한 부분 안내 완료)",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 2
+        },
         {
           "time": "11:52",
           "store": "코다리사랑",
@@ -331075,7 +331087,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 5,
         "unknown": 0
       },
@@ -331200,14 +331212,7 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794625475.9
-      },
-      "1794624956.535869": {
-        "post": "1794624956.535869",
-        "lastSeen": 1794625475.9,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 6
+        "lastSeen": 1794625619.026
       }
     },
     "days": {
@@ -457334,14 +457339,15 @@ window.SLACK_DATA = {
             "store": "터틀크로",
             "biz": "4181073417",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 9.8
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 12:05",
+    "at": "2026-11-14 12:07",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457500,7 +457506,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 12:04",
+    "at": "2026-11-14 12:06",
     "pri": {
       "days": 0,
       "failed": [],
