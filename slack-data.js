@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33736,
+  "version": 33737,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,6 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "onboarding": {
+          "미지정": 1,
           "김규빈": 3
         },
         "as": {
@@ -330897,6 +330898,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:00",
+          "store": "주식회사 니드스튜디오",
+          "biz": "7388703966",
+          "cat": "onboarding",
+          "emp": "미지정",
+          "req": "• 사업자번호 : 7388703966/ 주식회사 니드스튜디오 (NID STUDIO)",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:29",
           "store": "몽시",
@@ -330989,7 +331001,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "저도 같이 봐볼게요 / 요거는..컴포즈 운영채널에 넘겨야될수도 있을거같아요 포인트 관련은 / 밴사도 저희꺼가 아니라 전산을 못봐가지고.. / 치원님 여기 결제를 했다가 취소 후 다시 재결제를 31700원으로 한거같은데요? / 토스 결제내역 / 위 번호로 전화드려볼게요 / 넵 저도 그내용 통화로 확인했습니다!",
-          "rr": 23
+          "rr": 25
         },
         {
           "time": "11:34",
@@ -331149,7 +331161,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 7,
         "unknown": 0
       },
@@ -331274,15 +331286,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794632578.718
+        "lastSeen": 1794632990.204
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794632578.718
-      },
-      "1794632400.810099": {
-        "post": "1794632400.810099",
-        "lastSeen": 1794632578.718
+        "lastSeen": 1794632990.204
       }
     },
     "days": {
@@ -457345,8 +457353,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-14": {
-        "cnt": 9,
-        "sumMin": 64.01123764514924,
+        "cnt": 10,
+        "sumMin": 70.4054193298022,
         "over": 0,
         "items": [
           {
@@ -457429,13 +457437,22 @@ window.SLACK_DATA = {
             "who": "",
             "cat": "as",
             "dmin": 8.4
+          },
+          {
+            "hm": "14:00",
+            "min": 6.4,
+            "store": "주식회사 니드스튜디오",
+            "biz": "7388703966",
+            "who": "",
+            "cat": "onboarding",
+            "dmin": 6.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 14:03",
+    "at": "2026-11-14 14:10",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457594,7 +457611,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 14:02",
+    "at": "2026-11-14 14:09",
     "pri": {
       "days": 0,
       "failed": [],
