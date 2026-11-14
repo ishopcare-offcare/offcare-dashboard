@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33903,
+  "version": 33904,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,6 +330881,11 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
+        "as": {
+          "박하림": 13,
+          "미지정": 10,
+          "김규빈": 16
+        },
         "booking": {
           "박하림": 3,
           "김규빈": 1
@@ -330888,11 +330893,6 @@ window.SLACK_DATA = {
         "menu": {
           "박하림": 1,
           "김규빈": 1
-        },
-        "as": {
-          "박하림": 12,
-          "미지정": 10,
-          "김규빈": 16
         },
         "onboarding": {
           "박하림": 3,
@@ -330905,6 +330905,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "22:00",
+          "store": "Color apgu",
+          "biz": "1448703351",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "터미널 교체 후 재온보딩 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "21:00",
           "store": "Color apgu",
@@ -331555,7 +331566,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 39,
+        "online": 40,
         "offline": 17,
         "unknown": 0
       },
@@ -331837,19 +331848,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794661282.256
+        "lastSeen": 1794661498.207
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794661282.256
+        "lastSeen": 1794661498.207
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794661282.256
-      },
-      "1794661200.468669": {
-        "post": "1794661200.468669",
-        "lastSeen": 1794661282.256
+        "lastSeen": 1794661498.207
       }
     },
     "days": {
@@ -458254,7 +458261,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 22:01",
+    "at": "2026-11-14 22:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458413,7 +458420,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 22:01",
+    "at": "2026-11-14 22:04",
     "pri": {
       "days": 0,
       "failed": [],
