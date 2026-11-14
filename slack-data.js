@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33674,
+  "version": 33675,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 5
+          "김규빈": 6
         },
         "onboarding": {
           "김규빈": 2
@@ -330906,6 +330906,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "11:00",
+          "store": "동동국밥 문래점",
+          "biz": "5721902785",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "최초 본사 요청에 따라 동동국밥 언양점 기준으로 메뉴 복제 후 설치 완료되었으나, 이후 *동동국밥 논현점 기준으로 메뉴 복제 요청*을 주셨습니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "온보딩 되어있는걸로 보임 / QR 테이블오더 없음 토플파를 따로 만들게 아니라 메뉴 지우고 논현점껄로 메뉴랑 옵션만 작업 / 완료",
+          "rr": 3
+        },
         {
           "time": "10:49",
           "store": "더 고메 (The Gourmet)",
@@ -331005,7 +331017,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "11:00"
@@ -331067,11 +331079,11 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794621978.861
+        "lastSeen": 1794622279.671
       },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794621978.861,
+        "lastSeen": 1794622279.671,
         "r": 1,
         "day": "2026-11-14",
         "idx": 2
@@ -457181,7 +457193,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 11:06",
+    "at": "2026-11-14 11:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457340,7 +457352,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 11:06",
+    "at": "2026-11-14 11:11",
     "pri": {
       "days": 0,
       "failed": [],
