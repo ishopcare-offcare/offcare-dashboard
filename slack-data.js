@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33643,
+  "version": 33644,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330987,11 +330987,14 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794616223.763
+        "lastSeen": 1794616304.214
       },
       "1794616200.486989": {
         "post": "1794616200.486989",
-        "lastSeen": 1794616223.763
+        "lastSeen": 1794616304.214,
+        "r": 1,
+        "day": "2026-11-14",
+        "idx": 0
       }
     },
     "days": {
@@ -457052,11 +457055,26 @@ window.SLACK_DATA = {
             "dmin": 7.2
           }
         ]
+      },
+      "2026-11-14": {
+        "cnt": 1,
+        "sumMin": 1.0583585182825723,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:30",
+            "min": 1.1,
+            "store": "로엘뷰티랩",
+            "biz": "5990103896",
+            "who": "김규빈",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 09:30",
+    "at": "2026-11-14 09:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457215,7 +457233,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 09:30",
+    "at": "2026-11-14 09:31",
     "pri": {
       "days": 0,
       "failed": [],
