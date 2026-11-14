@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33894,
+  "version": 33895,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331546,7 +331546,7 @@ window.SLACK_DATA = {
         "offline": 16,
         "unknown": 0
       },
-      "updatedAt": "21:10",
+      "updatedAt": "21:20",
       "absent": [
         {
           "time": "11:00",
@@ -331558,20 +331558,21 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 13,
+        "responses": 14,
         "install": {
           "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 13,
-          "low": 3
+          "count": 14,
+          "low": 4
         },
         "high": {
           "install": 2,
           "nps": 6
         },
         "npsDist": {
+          "0": 1,
           "1": 1,
           "5": 2,
           "7": 1,
@@ -331588,6 +331589,10 @@ window.SLACK_DATA = {
           "카페": 2
         },
         "byTenure": {
+          "12개월": {
+            "total": 3,
+            "low": 1
+          },
           "6개월": {
             "total": 4,
             "low": 3
@@ -331600,10 +331605,6 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 0
           },
-          "12개월": {
-            "total": 2,
-            "low": 0
-          },
           "3개월": {
             "total": 1,
             "low": 0
@@ -331611,8 +331612,8 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KIS": {
-            "total": 4,
-            "low": 1
+            "total": 5,
+            "low": 2
           },
           "SECTA9": {
             "total": 1,
@@ -331636,10 +331637,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "21:20",
+            "store": "피지홈트레이닝센터(문화비)",
+            "storeId": "259725",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "복잡합니다",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "21:10",
             "store": "텐퍼센트 울산보람병원점",
@@ -331800,19 +331824,19 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794658656.605
+        "lastSeen": 1794658837.42
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794658656.605
+        "lastSeen": 1794658837.42
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794658656.605
+        "lastSeen": 1794658837.42
       },
       "1794656194.566269": {
         "post": "1794656194.566269",
-        "lastSeen": 1794658656.605,
+        "lastSeen": 1794658837.42,
         "r": 1,
         "day": "2026-11-14",
         "idx": 35
@@ -458219,7 +458243,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 21:17",
+    "at": "2026-11-14 21:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458378,7 +458402,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 21:17",
+    "at": "2026-11-14 21:20",
     "pri": {
       "days": 0,
       "failed": [],
