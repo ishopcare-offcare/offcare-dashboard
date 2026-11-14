@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33918,
+  "version": 33919,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "박하림": 15,
+          "박하림": 16,
           "미지정": 10,
           "김규빈": 16
         },
@@ -331588,10 +331588,22 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "완료",
           "rr": 2
+        },
+        {
+          "time": "00:03",
+          "store": "Color apgu",
+          "biz": "1448703351",
+          "cat": "as",
+          "emp": "박하림",
+          "req": "터미널 연결안됨증상",
+          "hw": "",
+          "intake": "online",
+          "note": "재온보딩진행 현재정상완료 매장에 장비가 너무많아서 시리얼및 정보같은거 적어놔야된다고 말씀드림",
+          "rr": 1
         }
       ],
       "intake": {
-        "online": 42,
+        "online": 43,
         "offline": 17,
         "unknown": 0
       },
@@ -331900,15 +331912,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794668442.078
+        "lastSeen": 1794669330.903
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794668442.078
+        "lastSeen": 1794669330.903
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794668442.078
+        "lastSeen": 1794669330.903
       }
     },
     "days": {
@@ -458322,7 +458334,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 00:00",
+    "at": "2026-11-15 00:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458481,7 +458493,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-15 00:00",
+    "at": "2026-11-15 00:15",
     "pri": {
       "days": 0,
       "failed": [],
