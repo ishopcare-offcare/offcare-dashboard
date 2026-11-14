@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33911,
+  "version": 33912,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331583,7 +331583,7 @@ window.SLACK_DATA = {
         "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "22:28",
+      "updatedAt": "22:36",
       "absent": [
         {
           "time": "11:00",
@@ -331595,14 +331595,14 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 14,
+        "responses": 15,
         "install": {
-          "count": 3,
-          "low": 0
+          "count": 4,
+          "low": 1
         },
         "nps": {
-          "count": 14,
-          "low": 4
+          "count": 15,
+          "low": 5
         },
         "high": {
           "install": 2,
@@ -331611,6 +331611,7 @@ window.SLACK_DATA = {
         "npsDist": {
           "0": 1,
           "1": 1,
+          "2": 1,
           "5": 2,
           "7": 1,
           "8": 2,
@@ -331618,14 +331619,20 @@ window.SLACK_DATA = {
           "10": 6
         },
         "installDist": {
+          "1": 1,
           "3": 1,
           "5": 2
         },
         "byIndustry": {
+          "서비스[학원]": 1,
           "요식업": 1,
           "카페": 2
         },
         "byTenure": {
+          "구매설치": {
+            "total": 4,
+            "low": 1
+          },
           "12개월": {
             "total": 3,
             "low": 1
@@ -331633,10 +331640,6 @@ window.SLACK_DATA = {
           "6개월": {
             "total": 4,
             "low": 3
-          },
-          "구매설치": {
-            "total": 3,
-            "low": 0
           },
           "1개월": {
             "total": 3,
@@ -331648,6 +331651,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KCP": {
+            "total": 2,
+            "low": 1
+          },
           "KIS": {
             "total": 5,
             "low": 2
@@ -331664,21 +331671,45 @@ window.SLACK_DATA = {
             "total": 3,
             "low": 1
           },
-          "KCP": {
-            "total": 1,
-            "low": 0
-          },
           "DAOU": {
             "total": 1,
             "low": 0
           }
         },
         "reasonCounts": {
-          "필요한 기능이 없거나 몰라서 불편": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
-          "단말기 설치나 초기 과정이 어려움": 1
+          "단말기 설치나 초기 과정이 어려움": 2,
+          "필요한 기능이 없거나 몰라서 불편": 2,
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2
         },
         "alerts": [
+          {
+            "time": "22:36",
+            "store": "렘브란트의 풍차 남동탄학원",
+            "storeId": "696616",
+            "industry": "학원/스포츠/서비스",
+            "indBucket": "서비스[학원]",
+            "install": 1,
+            "nps": 2,
+            "reasons": [
+              {
+                "q": "구매설치",
+                "score": 1,
+                "text": "설치가너무어려워요 기기업체,프로그램업체 양쪽통화와 프로그램 스스로 저장해서 원하는화면이 나오기까지 매우복잡 한달동안사용못함",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              },
+              {
+                "q": "추천의향",
+                "score": 2,
+                "text": "프로그램이용불편 여러프로그램사용불편",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "21:20",
             "store": "피지홈트레이닝센터(문화비)",
@@ -331861,19 +331892,19 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794663226.088
+        "lastSeen": 1794663418.074
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794663226.088
+        "lastSeen": 1794663418.074
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794663226.088
+        "lastSeen": 1794663418.074
       },
       "1794662929.791729": {
         "post": "1794662929.791729",
-        "lastSeen": 1794663226.088,
+        "lastSeen": 1794663418.074,
         "r": 1,
         "day": "2026-11-14",
         "idx": 37
@@ -458289,7 +458320,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 22:34",
+    "at": "2026-11-14 22:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458448,7 +458479,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 22:33",
+    "at": "2026-11-14 22:36",
     "pri": {
       "days": 0,
       "failed": [],
