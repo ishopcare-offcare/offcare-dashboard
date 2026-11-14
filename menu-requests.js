@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5269,
- "updatedAt": "2026-11-14 16:37",
+ "version": 5270,
+ "updatedAt": "2026-11-14 16:47",
  "days": 30,
  "items": [
   {
@@ -66533,31 +66533,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792054438956699"
-  },
-  {
-   "ts": "1792050450.312839",
-   "date": "2026-10-15",
-   "time": "16:47",
-   "store": "돌체비타",
-   "biz": "1060731682",
-   "pos": "",
-   "content": "메뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1792049993938279?thread_ts=···.624109&cid=C0A7CLLANP7",
-    "https://w1659946222-hxm266180.slack.com/archives/C0A7CLLANP7/p1792050010010259?thread_ts=···.624109&cid=C0A7CLLANP7",
-    "한글 영어 같이..?"
-   ],
-   "rc": 9,
-   "lr": "1792052686.574109",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792050450312839"
   }
  ],
  "ocr": {
