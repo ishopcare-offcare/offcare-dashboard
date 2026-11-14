@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33755,
+  "version": 33756,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330907,8 +330907,8 @@ window.SLACK_DATA = {
           "req": "포스 프로그램이 갑자기 꺼지는 증상 발생, 저장공간이 부족하다고 나온다고 하셔서 원격 점검 요청드립니다.",
           "hw": "",
           "intake": "offline",
-          "note": "포스기 하드 나감 &gt; 리커버리 하라고 뜨는데도 안됨 장비 계약 확인 필요 포스기 하드 나감 리커버리 하라고 뜨는데도 안됨",
-          "rr": 1
+          "note": "포스기 하드 나감 &gt; 리커버리 하라고 뜨는데도 안됨 장비 계약 확인 필요 포스기 하드 나감 리커버리 하라고 뜨는데도 안됨 / 장비 계약서 확인 후 우리장비면 교체 필요",
+          "rr": 2
         },
         {
           "time": "14:41",
@@ -331223,7 +331223,7 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "15:00",
+      "updatedAt": "15:08",
       "absent": [
         {
           "time": "11:00",
@@ -331235,21 +331235,21 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 1,
+        "responses": 2,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "high": {
           "install": 1,
-          "nps": 1
+          "nps": 2
         },
         "npsDist": {
-          "10": 1
+          "10": 2
         },
         "installDist": {
           "5": 1
@@ -331258,12 +331258,20 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 1,
+            "low": 0
+          },
           "구매설치": {
             "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 1,
+            "low": 0
+          },
           "DAOU": {
             "total": 1,
             "low": 0
@@ -331340,23 +331348,23 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794636214.754
+        "lastSeen": 1794636532.729
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794636214.754
+        "lastSeen": 1794636532.729
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794636214.754
+        "lastSeen": 1794636532.729
       },
       "1794635172.120139": {
         "post": "1794635172.120139",
-        "lastSeen": 1794636214.754
+        "lastSeen": 1794636532.729
       },
       "1794636000.830439": {
         "post": "1794636000.830439",
-        "lastSeen": 1794636214.754,
+        "lastSeen": 1794636532.729,
         "r": 1,
         "day": "2026-11-14",
         "idx": 13
@@ -457556,18 +457564,26 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 15:08",
+    "at": "2026-11-14 15:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
-    "ok": false,
-    "error": "시트 export 실패 HTTP 500",
-    "rows": 0,
-    "named": 0,
-    "unknownName": 0,
+    "ok": true,
+    "error": "",
+    "rows": 5029,
+    "named": 1273,
+    "unknownName": 335,
     "beforeStart": 0,
-    "done": 0,
-    "byStatus": {}
+    "done": 1273,
+    "byStatus": {
+      "일정등록완료": 817,
+      "1차부재": 269,
+      "점주직접접수": 106,
+      "설치불가": 24,
+      "(빈칸)": 7,
+      "자가설치": 38,
+      "설치보류요청": 12
+    }
   },
   "noteV": {
     "2026-09-29": 2,
@@ -457707,7 +457723,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 15:03",
+    "at": "2026-11-14 15:08",
     "pri": {
       "days": 0,
       "failed": [],
