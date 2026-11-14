@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33817,
+  "version": 33818,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331342,7 +331342,7 @@ window.SLACK_DATA = {
         "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "17:28",
+      "updatedAt": "17:35",
       "absent": [
         {
           "time": "11:00",
@@ -331354,13 +331354,13 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
-          "count": 2,
+          "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 10,
+          "count": 11,
           "low": 1
         },
         "high": {
@@ -331371,15 +331371,22 @@ window.SLACK_DATA = {
           "1": 1,
           "7": 1,
           "8": 2,
+          "9": 1,
           "10": 6
         },
         "installDist": {
+          "3": 1,
           "5": 2
         },
         "byIndustry": {
+          "요식업": 1,
           "카페": 2
         },
         "byTenure": {
+          "구매설치": {
+            "total": 3,
+            "low": 0
+          },
           "1개월": {
             "total": 3,
             "low": 0
@@ -331392,10 +331399,6 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "구매설치": {
-            "total": 2,
-            "low": 0
-          },
           "3개월": {
             "total": 1,
             "low": 0
@@ -331403,7 +331406,7 @@ window.SLACK_DATA = {
         },
         "byVan": {
           "KOCES": {
-            "total": 2,
+            "total": 3,
             "low": 0
           },
           "SMARTRO": {
@@ -331451,6 +331454,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "17:35",
+            "store": "태풍마라",
+            "storeId": "739166",
+            "indBucket": "요식업",
+            "emp": "",
+            "install": 3,
+            "nps": 9,
+            "text": "직접 설치가 힘들어어, 원격요청 설치 했습니다. 친절하게 잘해주셨네요 원격설치라는 아주 추천합니다.",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "15:34",
             "store": "가타커피(gata coffee)",
@@ -331531,31 +331546,35 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
       },
       "1794643200.364769": {
         "post": "1794643200.364769",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
       },
       "1794644100.548519": {
         "post": "1794644100.548519",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
       },
       "1794644343.282619": {
         "post": "1794644343.282619",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
       },
       "1794644936.616369": {
         "post": "1794644936.616369",
-        "lastSeen": 1794645034.648
+        "lastSeen": 1794645325.293
+      },
+      "1794645287.398509": {
+        "post": "1794645287.398509",
+        "lastSeen": 1794645325.293
       }
     },
     "days": {
@@ -457825,7 +457844,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 17:30",
+    "at": "2026-11-14 17:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457984,7 +458003,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 17:30",
+    "at": "2026-11-14 17:35",
     "pri": {
       "days": 0,
       "failed": [],
