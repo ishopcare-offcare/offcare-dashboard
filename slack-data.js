@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33689,
+  "version": 33690,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 8
+          "김규빈": 9
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:27",
+          "store": "잠실 샤브샤브 퀸즈가든",
+          "biz": "4682901002",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "서브 포스 교체 후 기사 방문 설치 시 로그인 비밀번호가 기존과 다르게 설정되어 확인 요청주셨습니다.",
+          "hw": "확인 못했슴돠… 죄송합니다)",
+          "intake": "online",
+          "note": "아이디 0000으로 로그인 오나료",
+          "rr": 1
+        },
         {
           "time": "11:24",
           "store": "텐퍼센트 울산야음캐슬점",
@@ -331027,7 +331039,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 4,
         "unknown": 0
       },
@@ -331152,7 +331164,7 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794623628.219
+        "lastSeen": 1794623681.492
       }
     },
     "days": {
@@ -457260,7 +457272,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 11:34",
+    "at": "2026-11-14 11:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457419,7 +457431,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 11:33",
+    "at": "2026-11-14 11:34",
     "pri": {
       "days": 0,
       "failed": [],
