@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33769,
+  "version": 33770,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331247,7 +331247,7 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "15:26",
+      "updatedAt": "15:34",
       "absent": [
         {
           "time": "11:00",
@@ -331259,31 +331259,35 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 6,
+          "count": 7,
           "low": 0
         },
         "high": {
-          "install": 1,
-          "nps": 3
+          "install": 2,
+          "nps": 4
         },
         "npsDist": {
           "7": 1,
           "8": 2,
-          "10": 3
+          "10": 4
         },
         "installDist": {
-          "5": 1
+          "5": 2
         },
         "byIndustry": {
-          "카페": 1
+          "카페": 2
         },
         "byTenure": {
+          "구매설치": {
+            "total": 2,
+            "low": 0
+          },
           "1개월": {
             "total": 2,
             "low": 0
@@ -331299,15 +331303,11 @@ window.SLACK_DATA = {
           "6개월": {
             "total": 1,
             "low": 0
-          },
-          "구매설치": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
           "KIS": {
-            "total": 2,
+            "total": 3,
             "low": 0
           },
           "KCP": {
@@ -331330,6 +331330,18 @@ window.SLACK_DATA = {
         "reasonCounts": {},
         "alerts": [],
         "praises": [
+          {
+            "time": "15:34",
+            "store": "가타커피(gata coffee)",
+            "storeId": "738781",
+            "indBucket": "카페",
+            "emp": "",
+            "install": 5,
+            "nps": 10,
+            "text": "약속된 시간에 맞춰 신속 정확하게 설치해주심 사용하기 편리함",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "11:33",
             "store": "골목빵집 알렉산더",
@@ -331398,15 +331410,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794638004.968
+        "lastSeen": 1794638089.185
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794638004.968
+        "lastSeen": 1794638089.185
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794638004.968
+        "lastSeen": 1794638089.185
       }
     },
     "days": {
@@ -457613,7 +457625,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 15:33",
+    "at": "2026-11-14 15:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457772,7 +457784,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 15:33",
+    "at": "2026-11-14 15:34",
     "pri": {
       "days": 0,
       "failed": [],
