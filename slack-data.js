@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33719,
+  "version": 33720,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,11 +330881,11 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
+        "as": {
+          "김규빈": 14
+        },
         "booking": {
           "김규빈": 1
-        },
-        "as": {
-          "김규빈": 13
         },
         "onboarding": {
           "김규빈": 2
@@ -330896,6 +330896,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:17",
+          "store": "잔잔한 숲",
+          "biz": "3622002277",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "해당 매장 어제부터 음료 주문시 주문서에  HOT/COLD 구분이 나오지 않는다고하셔서 엔지니어 확인 요청주셨습니다.:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:00",
           "store": "옛날손짜장",
@@ -331102,7 +331113,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 6,
         "unknown": 0
       },
@@ -331227,15 +331238,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794629954.387
+        "lastSeen": 1794630092.694
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794629954.387
+        "lastSeen": 1794630092.694
       },
       "1794629704.222789": {
         "post": "1794629704.222789",
-        "lastSeen": 1794629954.387
+        "lastSeen": 1794630092.694
       }
     },
     "days": {
@@ -457370,7 +457381,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 13:19",
+    "at": "2026-11-14 13:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457529,7 +457540,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 13:19",
+    "at": "2026-11-14 13:21",
     "pri": {
       "days": 0,
       "failed": [],
