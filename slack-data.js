@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33655,
+  "version": 33656,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330881,6 +330881,9 @@ window.SLACK_DATA = {
     },
     "2026-11-14": {
       "counts": {
+        "onboarding": {
+          "김규빈": 1
+        },
         "as": {
           "김규빈": 2
         },
@@ -330890,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:55",
+          "store": "아난테오 플라워 (anantheo flower)",
+          "biz": "3257600618",
+          "cat": "onboarding",
+          "emp": "김규빈",
+          "req": "포프터(태블릿) 온보딩 부탁드립니다. (키인결제 위해 VAN 변경 후 기기 교체 받으신 상황입니다.)",
+          "hw": "",
+          "intake": "online",
+          "note": "메뉴 복제가 안되어있네요 해야되는지 체크해볼게요 / 키오스크 모드로 따로 안써서 이미지 없음 옵션없음 엑셀로 그냥 밀게요 / 그대로 써야된다고합니다 / 추후에 체크 해주세요 / 온보딩 및 키인결제 사용 방법 안내완료",
+          "rr": 5
+        },
         {
           "time": "09:49",
           "store": "대가",
@@ -330928,7 +330943,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
@@ -330995,25 +331010,18 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794618930.848
+        "lastSeen": 1794618988.959
       },
       "1794616200.486989": {
         "post": "1794616200.486989",
-        "lastSeen": 1794618930.848,
+        "lastSeen": 1794618988.959,
         "r": 1,
         "day": "2026-11-14",
         "idx": 0
       },
-      "1794617757.167289": {
-        "post": "1794617757.167289",
-        "lastSeen": 1794618930.848,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 1
-      },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794618930.848
+        "lastSeen": 1794618988.959
       }
     },
     "days": {
@@ -457094,14 +457102,15 @@ window.SLACK_DATA = {
             "store": "아난테오 플라워 (anantheo flower)",
             "biz": "3257600618",
             "who": "김규빈",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 20
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 10:15",
+    "at": "2026-11-14 10:16",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457260,7 +457269,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 10:15",
+    "at": "2026-11-14 10:16",
     "pri": {
       "days": 0,
       "failed": [],
