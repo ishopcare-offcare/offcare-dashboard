@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33896,
+  "version": 33897,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330885,6 +330885,10 @@ window.SLACK_DATA = {
           "박하림": 3,
           "김규빈": 1
         },
+        "menu": {
+          "박하림": 1,
+          "김규빈": 1
+        },
         "as": {
           "박하림": 12,
           "미지정": 10,
@@ -330897,9 +330901,6 @@ window.SLACK_DATA = {
         },
         "transfer": {
           "박하림": 1
-        },
-        "menu": {
-          "김규빈": 1
         }
       },
       "pending": [],
@@ -330915,6 +330916,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "현재 매장이아니라 10시 다시 연락요청",
           "rr": 1
+        },
+        {
+          "time": "20:36",
+          "store": "은성한정식 주식회사",
+          "biz": "5298703678",
+          "cat": "menu",
+          "emp": "박하림",
+          "req": "퍼스트포스 사용) 메뉴 등록 관련 소통 필요한 항목 있다고 하여 원격 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "자동거절",
+          "rr": 2
         },
         {
           "time": "20:30",
@@ -331543,7 +331556,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 39,
-        "offline": 16,
+        "offline": 17,
         "unknown": 0
       },
       "updatedAt": "21:20",
@@ -331824,22 +331837,15 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794659118.924
+        "lastSeen": 1794659179.479
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794659118.924
+        "lastSeen": 1794659179.479
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794659118.924
-      },
-      "1794656194.566269": {
-        "post": "1794656194.566269",
-        "lastSeen": 1794659118.924,
-        "r": 1,
-        "day": "2026-11-14",
-        "idx": 35
+        "lastSeen": 1794659179.479
       }
     },
     "days": {
@@ -458227,7 +458233,8 @@ window.SLACK_DATA = {
             "store": "은성한정식 주식회사",
             "biz": "5298703678",
             "who": "박하림",
-            "cat": "as"
+            "cat": "menu",
+            "dmin": 49.2
           },
           {
             "hm": "21:00",
@@ -458243,7 +458250,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 21:25",
+    "at": "2026-11-14 21:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458402,7 +458409,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 21:25",
+    "at": "2026-11-14 21:26",
     "pri": {
       "days": 0,
       "failed": [],
