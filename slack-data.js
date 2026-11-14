@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33881,
+  "version": 33882,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331522,7 +331522,7 @@ window.SLACK_DATA = {
         "offline": 15,
         "unknown": 0
       },
-      "updatedAt": "20:36",
+      "updatedAt": "20:39",
       "absent": [
         {
           "time": "11:00",
@@ -331534,14 +331534,14 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 11,
+        "responses": 12,
         "install": {
           "count": 3,
           "low": 0
         },
         "nps": {
-          "count": 11,
-          "low": 1
+          "count": 12,
+          "low": 2
         },
         "high": {
           "install": 2,
@@ -331549,6 +331549,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "1": 1,
+          "5": 1,
           "7": 1,
           "8": 2,
           "9": 1,
@@ -331563,6 +331564,10 @@ window.SLACK_DATA = {
           "카페": 2
         },
         "byTenure": {
+          "6개월": {
+            "total": 3,
+            "low": 2
+          },
           "구매설치": {
             "total": 3,
             "low": 0
@@ -331570,10 +331575,6 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 3,
             "low": 0
-          },
-          "6개월": {
-            "total": 2,
-            "low": 1
           },
           "12개월": {
             "total": 2,
@@ -331585,6 +331586,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SECTA9": {
+            "total": 1,
+            "low": 1
+          },
           "KOCES": {
             "total": 3,
             "low": 0
@@ -331607,9 +331612,32 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1
         },
         "alerts": [
+          {
+            "time": "20:39",
+            "store": "온밀로",
+            "storeId": "464733",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "가끔 버퍼링이있고 배달앱연동 수동으로해야 데이터가 뜸",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:08",
             "store": "올데이짐",
@@ -331726,19 +331754,19 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794656246.114
+        "lastSeen": 1794656414.475
       },
       "1794628800.590769": {
         "post": "1794628800.590769",
-        "lastSeen": 1794656246.114
+        "lastSeen": 1794656414.475
       },
       "1794633458.716599": {
         "post": "1794633458.716599",
-        "lastSeen": 1794656246.114
+        "lastSeen": 1794656414.475
       },
       "1794656194.566269": {
         "post": "1794656194.566269",
-        "lastSeen": 1794656246.114
+        "lastSeen": 1794656414.475
       }
     },
     "days": {
@@ -458125,7 +458153,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-14 20:37",
+    "at": "2026-11-14 20:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458284,7 +458312,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 20:37",
+    "at": "2026-11-14 20:40",
     "pri": {
       "days": 0,
       "failed": [],
