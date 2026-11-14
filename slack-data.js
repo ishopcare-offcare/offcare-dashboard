@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33668,
+  "version": 33669,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -330882,7 +330882,7 @@ window.SLACK_DATA = {
     "2026-11-14": {
       "counts": {
         "as": {
-          "김규빈": 3
+          "김규빈": 4
         },
         "onboarding": {
           "김규빈": 2
@@ -330893,6 +330893,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:49",
+          "store": "샵꽁뜨 홍대합정역점",
+          "biz": "8510103474",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "단말기 전원이 켜지지 않음, 전원 케이블 재연결 해도 연결이 안된다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "터프로 사용중 터미널 어댑터 재연결후 정상 확인",
+          "rr": 1
+        },
         {
           "time": "10:35",
           "store": "마장버거 강남역점",
@@ -330968,7 +330980,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 5,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "10:49"
@@ -331034,18 +331046,21 @@ window.SLACK_DATA = {
       },
       "1794614438.875789": {
         "post": "1794614438.875789",
-        "lastSeen": 1794621095.278
+        "lastSeen": 1794621203.972
       },
       "1794618000.825059": {
         "post": "1794618000.825059",
-        "lastSeen": 1794621095.278,
+        "lastSeen": 1794621203.972,
         "r": 1,
         "day": "2026-11-14",
         "idx": 2
       },
       "1794620968.274359": {
         "post": "1794620968.274359",
-        "lastSeen": 1794621095.278
+        "lastSeen": 1794621203.972,
+        "r": 1,
+        "day": "2026-11-14",
+        "idx": 3
       }
     },
     "days": {
@@ -457108,8 +457123,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-14": {
-        "cnt": 3,
-        "sumMin": 28.6532360514005,
+        "cnt": 4,
+        "sumMin": 31.675746734937032,
         "over": 0,
         "items": [
           {
@@ -457137,13 +457152,21 @@ window.SLACK_DATA = {
             "biz": "8278604007",
             "who": "김규빈",
             "cat": "transfer"
+          },
+          {
+            "hm": "10:49",
+            "min": 3,
+            "store": "더 고메 (The Gourmet)",
+            "biz": "2280867624",
+            "who": "김규빈",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-14 10:52",
+    "at": "2026-11-14 10:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -457302,7 +457325,7 @@ window.SLACK_DATA = {
     "2026-11-14": 2
   },
   "noteMig": {
-    "at": "2026-11-14 10:51",
+    "at": "2026-11-14 10:53",
     "pri": {
       "days": 0,
       "failed": [],
