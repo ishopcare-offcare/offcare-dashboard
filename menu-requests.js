@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5288,
- "updatedAt": "2026-11-15 15:24",
+ "version": 5289,
+ "updatedAt": "2026-11-15 15:46",
  "days": 30,
  "items": [
   {
@@ -66081,29 +66081,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792133484658089"
-  },
-  {
-   "ts": "1792132731.869039",
-   "date": "2026-10-16",
-   "time": "15:38",
-   "store": "쏘주 맥쭈",
-   "biz": "1921702310",
-   "pos": "",
-   "content": "• 메뉴등록요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "[오케이포스]\n카테고리: 주류\n메뉴명: 찰랑\n금액: 6,000원"
-   ],
-   "rc": 3,
-   "lr": "1792133464.519449",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792132731869039"
   }
  ],
  "ocr": {
