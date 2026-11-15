@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34082,
+  "version": 34083,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332345,15 +332345,18 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794732311.204
+        "lastSeen": 1794732367.667
       },
       "1794730879.654499": {
         "post": "1794730879.654499",
-        "lastSeen": 1794732311.204
+        "lastSeen": 1794732367.667,
+        "r": 1,
+        "day": "2026-11-15",
+        "idx": 11
       },
       "1794731864.788729": {
         "post": "1794731864.788729",
-        "lastSeen": 1794732311.204
+        "lastSeen": 1794732367.667
       }
     },
     "days": {
@@ -458765,8 +458768,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-15": {
-        "cnt": 11,
-        "sumMin": 157.3156085093816,
+        "cnt": 12,
+        "sumMin": 181.64529186089834,
         "over": 3,
         "items": [
           {
@@ -458867,13 +458870,21 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "onboarding",
             "dmin": 41.7
+          },
+          {
+            "hm": "17:21",
+            "min": 24.3,
+            "store": "갓프라이스 양평역점",
+            "biz": "2860903211",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 17:45",
+    "at": "2026-11-15 17:46",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459033,7 +459044,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 17:45",
+    "at": "2026-11-15 17:46",
     "pri": {
       "days": 0,
       "failed": [],
