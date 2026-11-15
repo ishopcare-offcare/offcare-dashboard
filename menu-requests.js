@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5298,
- "updatedAt": "2026-11-15 18:55",
+ "version": 5299,
+ "updatedAt": "2026-11-15 19:06",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CHZAS08NQ",
      "from": "댓글",
-     "path": "menu-files/1794736427_991369-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -67,13 +66,13 @@ window.MENU_REQUESTS = {
        "price": 7500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794736427_991369-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CHTLJPFML",
      "from": "댓글",
-     "path": "menu-files/1794736427_991369-1.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -152,16 +151,17 @@ window.MENU_REQUESTS = {
        "price": 4500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794736427_991369-1.png"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794736438.457409",
+   "rc": 2,
+   "lr": "1794737161.507969",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794736427991369"
   },
   {

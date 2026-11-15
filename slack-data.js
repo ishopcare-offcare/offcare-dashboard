@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34101,
+  "version": 34102,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331873,11 +331873,23 @@ window.SLACK_DATA = {
           "최민석": 2
         },
         "menu": {
-          "최민석": 1
+          "최민석": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "18:53",
+          "store": "라 파린느（La farine）",
+          "biz": "1293917457",
+          "cat": "menu",
+          "emp": "최민석",
+          "req": "토스포스) 메뉴 추가 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "솔라피 발송 완료",
+          "rr": 2
+        },
         {
           "time": "17:37",
           "store": "정가네순대국",
@@ -332182,7 +332194,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 23,
+        "online": 24,
         "offline": 2,
         "unknown": 0
       },
@@ -332394,18 +332406,14 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794736841.854
+        "lastSeen": 1794737161.479
       },
       "1794734491.066289": {
         "post": "1794734491.066289",
-        "lastSeen": 1794736841.854,
+        "lastSeen": 1794737161.479,
         "r": 1,
         "day": "2026-11-15",
         "idx": 13
-      },
-      "1794736427.991369": {
-        "post": "1794736427.991369",
-        "lastSeen": 1794736841.854
       }
     },
     "days": {
@@ -458817,8 +458825,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-15": {
-        "cnt": 14,
-        "sumMin": 193.49564156134923,
+        "cnt": 15,
+        "sumMin": 203.05689374605814,
         "over": 3,
         "items": [
           {
@@ -458945,13 +458953,22 @@ window.SLACK_DATA = {
             "biz": "5023866160",
             "who": "최민석",
             "cat": "as"
+          },
+          {
+            "hm": "18:53",
+            "min": 9.6,
+            "store": "라 파린느（La farine）",
+            "biz": "1293917457",
+            "who": "최민석",
+            "cat": "menu",
+            "dmin": 9.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 19:00",
+    "at": "2026-11-15 19:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459111,7 +459128,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 19:00",
+    "at": "2026-11-15 19:06",
     "pri": {
       "days": 0,
       "failed": [],
