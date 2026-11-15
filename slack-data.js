@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34081,
+  "version": 34082,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331870,7 +331870,7 @@ window.SLACK_DATA = {
           "배선유": 10
         },
         "onboarding": {
-          "최민석": 1
+          "최민석": 2
         },
         "menu": {
           "최민석": 1
@@ -331889,6 +331889,18 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "재온보딩 완료",
+          "rr": 1
+        },
+        {
+          "time": "17:00",
+          "store": "라 파린느（La farine）",
+          "biz": "1293917457",
+          "cat": "onboarding",
+          "emp": "최민석",
+          "req": "안드로이드 태블릿 + 프론트 + 유선프린터 연동 요청 드립니다. ( 기존 사용 포스기 설치 x /  별도 각각 사용 예정 ) 금전함 연동 요청 주셨으나 아이샵케어 단말기 키오스크 모드로만 사용 예정",
+          "hw": "",
+          "intake": "online",
+          "note": "포프유프 온보딩 완료",
           "rr": 1
         },
         {
@@ -332134,7 +332146,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 2,
         "unknown": 0
       },
@@ -332333,22 +332345,15 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794731902.128
-      },
-      "1794729602.583609": {
-        "post": "1794729602.583609",
-        "lastSeen": 1794731902.128,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 10
+        "lastSeen": 1794732311.204
       },
       "1794730879.654499": {
         "post": "1794730879.654499",
-        "lastSeen": 1794731902.128
+        "lastSeen": 1794732311.204
       },
       "1794731864.788729": {
         "post": "1794731864.788729",
-        "lastSeen": 1794731902.128
+        "lastSeen": 1794732311.204
       }
     },
     "days": {
@@ -458860,14 +458865,15 @@ window.SLACK_DATA = {
             "store": "라 파린느（La farine）",
             "biz": "1293917457",
             "who": "최민석",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 41.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 17:38",
+    "at": "2026-11-15 17:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459027,7 +459033,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 17:38",
+    "at": "2026-11-15 17:45",
     "pri": {
       "days": 0,
       "failed": [],
