@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34018,
+  "version": 34019,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331896,8 +331896,8 @@ window.SLACK_DATA = {
           "req": "배민 연동 끊김, 재연동 원격 도움 부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "5분뒤 재통화 요청",
-          "rr": 1
+          "note": "5분뒤 재통화 요청 / 태블릿 사용중 배민 재연동 완료 동일 증상 반복으로 토플문의 후 안내 완료 및 포스기 변경원하시여 ob요청드립니다.",
+          "rr": 2
         },
         {
           "time": "12:04",
@@ -332087,7 +332087,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794717036.291
+        "lastSeen": 1794717093.746
       }
     },
     "days": {
@@ -458544,7 +458544,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 13:30",
+    "at": "2026-11-15 13:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458704,7 +458704,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 13:30",
+    "at": "2026-11-15 13:31",
     "pri": {
       "days": 0,
       "failed": [],
