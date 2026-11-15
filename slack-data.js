@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34062,
+  "version": 34063,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331885,8 +331885,8 @@ window.SLACK_DATA = {
           "hw": "",
           "urgent": true,
           "intake": "online",
-          "note": "0105307****",
-          "rr": 1
+          "note": "0105307**** / 출력포트 com7-&gt;1번으로 변경 후 정상출력 완료 설정 잘못만지신 것 같습니다. 출력포트 com7-1번으로 변경 후 정상출력 완료",
+          "rr": 2
         },
         {
           "time": "15:49",
@@ -332256,11 +332256,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794728109.713
+        "lastSeen": 1794728194.784
       },
       "1794726233.019819": {
         "post": "1794726233.019819",
-        "lastSeen": 1794728109.713,
+        "lastSeen": 1794728194.784,
         "r": 1,
         "day": "2026-11-15",
         "idx": 6
@@ -458755,7 +458755,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 16:35",
+    "at": "2026-11-15 16:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458915,7 +458915,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 16:35",
+    "at": "2026-11-15 16:36",
     "pri": {
       "days": 0,
       "failed": [],
