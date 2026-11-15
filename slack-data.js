@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33978,
+  "version": 33979,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,11 +331866,23 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 3
+          "배선유": 4
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:39",
+          "store": "미드나이트",
+          "biz": "6543301503",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프캣 사용 중 결제 시도 시 카드사 거절 문구 지속 노출 되나, 단말기 van 전산에는 결제 시도 내역 노출되지 않으며,",
+          "hw": "",
+          "intake": "offline",
+          "note": "로그 - 2026-11-15 1014.920 (승인 실패, 요청 TID=3327896000, 금액=10,000원, 수단=IC, 오류=카드사전화요망 022187-**** 8373, BIN=, 할부=0개월) - 2026-11-15 1002.944 (승인 실패, 요청 TID=3327896000, 금액=10,000원, 수단=IC, 오류=카드사전화요망 - 2026-",
+          "rr": 1
+        },
         {
           "time": "10:31",
           "store": "미소집 평택소사벌점",
@@ -331910,7 +331922,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 3,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "10:39"
@@ -331968,7 +331980,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794707360.215
+        "lastSeen": 1794707810.346
       }
     },
     "days": {
@@ -458382,7 +458394,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 10:49",
+    "at": "2026-11-15 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458542,7 +458554,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 10:49",
+    "at": "2026-11-15 10:56",
     "pri": {
       "days": 0,
       "failed": [],
