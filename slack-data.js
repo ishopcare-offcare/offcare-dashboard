@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33994,
+  "version": 33995,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,11 +331866,23 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 5
+          "배선유": 6
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:44",
+          "store": "이유",
+          "biz": "3414901194",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "터프(터미널2) 이용 매장인데, 터미널과 프론트 연결이 지속적으로 끊기는 증상이 빈번하게 발생한다고 하십니다. 원격 점검 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트 연결 끊겨 c to c 재연결",
+          "rr": 2
+        },
         {
           "time": "11:11",
           "store": "카페 온담",
@@ -331933,7 +331945,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -331992,14 +332004,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794710769.804
-      },
-      "1794710665.320599": {
-        "post": "1794710665.320599",
-        "lastSeen": 1794710769.804,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 1
+        "lastSeen": 1794711114.33
       }
     },
     "days": {
@@ -458430,14 +458435,15 @@ window.SLACK_DATA = {
             "store": "이유",
             "biz": "3414901194",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 4.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 11:46",
+    "at": "2026-11-15 11:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458597,7 +458603,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 11:46",
+    "at": "2026-11-15 11:51",
     "pri": {
       "days": 0,
       "failed": [],
