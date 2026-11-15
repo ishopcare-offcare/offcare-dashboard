@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34084,
+  "version": 34085,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 9,
+          "최민석": 10,
           "배선유": 10
         },
         "onboarding": {
@@ -331876,8 +331876,33 @@ window.SLACK_DATA = {
           "최민석": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "16:52",
+          "store": "교촌치킨오라점",
+          "biz": "5012568210",
+          "handler": "최민석",
+          "cat": "as",
+          "intake": "online",
+          "req": "메이트 포스 + 프론트 사용 중 nvcat 오류 노출 후 결제 불가 확인 요청 드립니다.",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
+        {
+          "time": "17:37",
+          "store": "정가네순대국",
+          "biz": "2381502441",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "유플러스 이관 가맹점 카운터 포스기 터치 불가로 확인 요청 드립니다. ( 시간 양해 20-30분 완료 / 우선 cat 단말기로 결제 양해 완료)",
+          "hw": "",
+          "intake": "online",
+          "note": "포스기 껏켯 후 정상작동 오나료",
+          "rr": 1
+        },
         {
           "time": "17:05",
           "store": "피자마루 양산중앙점",
@@ -332146,7 +332171,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 20,
+        "online": 22,
         "offline": 2,
         "unknown": 0
       },
@@ -332345,21 +332370,14 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794732431.866
+        "lastSeen": 1794732983.827
       },
       "1794730879.654499": {
         "post": "1794730879.654499",
-        "lastSeen": 1794732431.866,
+        "lastSeen": 1794732983.827,
         "r": 1,
         "day": "2026-11-15",
         "idx": 11
-      },
-      "1794731864.788729": {
-        "post": "1794731864.788729",
-        "lastSeen": 1794732431.866,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 12
       }
     },
     "days": {
@@ -458888,14 +458906,15 @@ window.SLACK_DATA = {
             "store": "정가네순대국",
             "biz": "2381502441",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 14.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 17:47",
+    "at": "2026-11-15 17:56",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459055,7 +459074,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 17:47",
+    "at": "2026-11-15 17:56",
     "pri": {
       "days": 0,
       "failed": [],
