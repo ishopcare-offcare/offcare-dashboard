@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34114,
+  "version": 34115,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331887,7 +331887,8 @@ window.SLACK_DATA = {
           "req": "키오스크 모드 사용 중 할인 옵션 설정한 게 의도대로 동작하지 않는다고 하여 설정한 내용 원격 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "프론트 키오스크모드 매장포장 선택 활성화 후 정상반영 완료",
+          "rr": 1
         },
         {
           "time": "18:53",
@@ -332221,7 +332222,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "20:24",
+      "updatedAt": "20:30",
       "voc": {
         "responses": 11,
         "install": {
@@ -332429,11 +332430,14 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794742195.284
+        "lastSeen": 1794742251.932
       },
       "1794741856.325269": {
         "post": "1794741856.325269",
-        "lastSeen": 1794742195.284
+        "lastSeen": 1794742251.932,
+        "r": 1,
+        "day": "2026-11-15",
+        "idx": 16
       }
     },
     "days": {
@@ -458845,8 +458849,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-15": {
-        "cnt": 16,
-        "sumMin": 204.687233599027,
+        "cnt": 17,
+        "sumMin": 210.80861244599024,
         "over": 3,
         "items": [
           {
@@ -458992,13 +458996,21 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "as",
             "dmin": 5.4
+          },
+          {
+            "hm": "20:24",
+            "min": 6.1,
+            "store": "사운드팩토리 Sound Factory",
+            "biz": "2260926508",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 20:30",
+    "at": "2026-11-15 20:31",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459158,7 +459170,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 20:29",
+    "at": "2026-11-15 20:30",
     "pri": {
       "days": 0,
       "failed": [],
