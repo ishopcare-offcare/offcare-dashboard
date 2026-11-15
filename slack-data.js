@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33987,
+  "version": 33988,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331980,11 +331980,14 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794709011.177
+        "lastSeen": 1794709233.262
       },
       "1794708682.775079": {
         "post": "1794708682.775079",
-        "lastSeen": 1794709011.177
+        "lastSeen": 1794709233.262,
+        "r": 1,
+        "day": "2026-11-15",
+        "idx": 0
       }
     },
     "days": {
@@ -458394,11 +458397,26 @@ window.SLACK_DATA = {
             "dmin": 54.2
           }
         ]
+      },
+      "2026-11-15": {
+        "cnt": 1,
+        "sumMin": 7.324073684215546,
+        "over": 0,
+        "items": [
+          {
+            "hm": "11:11",
+            "min": 7.3,
+            "store": "카페 온담",
+            "biz": "1644900943",
+            "who": "배선유",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 11:17",
+    "at": "2026-11-15 11:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458558,7 +458576,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 11:16",
+    "at": "2026-11-15 11:20",
     "pri": {
       "days": 0,
       "failed": [],
