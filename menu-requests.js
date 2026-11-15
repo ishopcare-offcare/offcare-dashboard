@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5289,
- "updatedAt": "2026-11-15 15:46",
+ "version": 5290,
+ "updatedAt": "2026-11-15 15:52",
  "days": 30,
  "items": [
   {
@@ -66011,76 +66011,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792134429109069"
-  },
-  {
-   "ts": "1792133484.658089",
-   "date": "2026-10-16",
-   "time": "15:51",
-   "store": "이박사수학전문학원",
-   "biz": "2519202028",
-   "pos": "",
-   "content": "초등수학 21만원, 중등수학 27만원 고등수학 35만원 설정 및 각 메뉴별 옵션에  형제할인 -3만원(할인)  두과목할인 -5만원(할인)\n학원인데 단독 키오스크 모드로 사용예정이라 고객화면 노출하기 설정까지 부탁드리며, 단독키오스크모드 설정중 대표님 연락 끊겼고, 프론트 원격지원도 끊겨서 혹시 메뉴 설정 완료 후 대표님과 통화를 통해 단독키오스크 모드 설정 부탁드립니다:꾸벅:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C9K82E403",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "기본",
-       "name": "초등수학",
-       "price": 210000
-      },
-      {
-       "category": "기본",
-       "name": "중등수학",
-       "price": 270000
-      },
-      {
-       "category": "기본",
-       "name": "고등수학",
-       "price": 350000
-      }
-     ],
-     "v": 2,
-     "path": "menu-files/1792133484_658089-0.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0C9K86QWHZ",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "할인",
-       "name": "형제할인",
-       "price": -30000
-      },
-      {
-       "category": "할인",
-       "name": "두과목할인",
-       "price": -50000
-      }
-     ],
-     "v": 2,
-     "path": "menu-files/1792133484_658089-1.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "네 규빈님 가격이랑 옵션만 부탁드려요(사정이 있어 키오스크모드로 화룡ㅇ해야해서요...)",
-    "님 감사해요\n:꾸벅:"
-   ],
-   "rc": 8,
-   "lr": "1792134187.113569",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792133484658089"
   }
  ],
  "ocr": {

@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34048,
+  "version": 34049,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332195,11 +332195,14 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794725412.98
+        "lastSeen": 1794725469.88
       },
       "1794725373.808739": {
         "post": "1794725373.808739",
-        "lastSeen": 1794725412.98
+        "lastSeen": 1794725469.88,
+        "r": 1,
+        "day": "2026-11-15",
+        "idx": 5
       }
     },
     "days": {
@@ -458611,8 +458614,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-15": {
-        "cnt": 5,
-        "sumMin": 66.87063774267833,
+        "cnt": 6,
+        "sumMin": 67.99765876134236,
         "over": 1,
         "items": [
           {
@@ -458659,13 +458662,21 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "as",
             "dmin": 11.6
+          },
+          {
+            "hm": "15:49",
+            "min": 1.1,
+            "store": "별에서 온 쑥",
+            "biz": "4175500983",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 15:50",
+    "at": "2026-11-15 15:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458825,7 +458836,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 15:50",
+    "at": "2026-11-15 15:51",
     "pri": {
       "days": 0,
       "failed": [],
