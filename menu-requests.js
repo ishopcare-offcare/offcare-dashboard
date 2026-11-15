@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5282,
- "updatedAt": "2026-11-15 12:58",
+ "version": 5283,
+ "updatedAt": "2026-11-15 13:01",
  "days": 30,
  "items": [
   {
@@ -66165,27 +66165,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792125953951609"
-  },
-  {
-   "ts": "1792123215.180819",
-   "date": "2026-10-16",
-   "time": "13:00",
-   "store": "드슈피자",
-   "biz": "2172109661",
-   "pos": "",
-   "content": "오리지널피자항목에서 2번째에 슈퍼콤비네이션을 클릭하면 따른것이 떠서 수정요청주셨습니다.\n(다른피자들은 선택한 항목들이 잘 나온다고하십니다.)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1792124353.203929",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792123215180819"
   }
  ],
  "ocr": {
