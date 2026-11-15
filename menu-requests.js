@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5277,
- "updatedAt": "2026-11-15 11:15",
+ "version": 5278,
+ "updatedAt": "2026-11-15 12:05",
  "days": 30,
  "items": [
+  {
+   "ts": "1794711876.052369",
+   "date": "2026-11-15",
+   "time": "12:04",
+   "store": "은성한정식",
+   "biz": "5298703678",
+   "pos": "퍼스트포스",
+   "content": "추가메뉴 1 : \n김치(많이많이) -> 김치(많이주세요) 변경 / 주방 출력기 3대 모두 출력되어야 합니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794711876052369"
+  },
   {
    "ts": "1794577301.157379",
    "date": "2026-11-13",
@@ -66194,46 +66215,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792120284185239"
-  },
-  {
-   "ts": "1792119796.457199",
-   "date": "2026-10-16",
-   "time": "12:03",
-   "store": "원유로커피스페셜티 양산사송점",
-   "biz": "4816400778",
-   "pos": "",
-   "content": "메뉴 등록(이미지는 말고 일단 등록만)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0C9JMHMWR1",
-     "from": "댓글",
-     "kind": "other",
-     "menu": [],
-     "v": 2,
-     "path": "menu-files/1792119796_457199-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "2하고 3 ㄱㄱ",
-    "1하고 4는 내가",
-    "작업 고고요",
-    "뒤에 두글자만 검색하기 기법",
-    "23 말고 다른것도 넣는중? 넣을라고하니깐 들어가잇는디",
-    "쉣..",
-    "토스로그인해서 봐야것네..",
-    "옼돜"
-   ],
-   "rc": 41,
-   "lr": "1792129093.579989",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792119796457199"
   }
  ],
  "ocr": {
