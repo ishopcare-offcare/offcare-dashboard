@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34017,
+  "version": 34018,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,8 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 8
+          "배선유": 8,
+          "최민석": 1
         },
         "menu": {
           "최민석": 1
@@ -331884,6 +331885,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "열쇠는 끝까지 돌아가나 안에서 뭐가 걸린것처럼 안열림 / 금전함 위에서 아래로 떨어뜨려보기, 정말 해결이 안되면 하단 나사 풀어서 안에 있는 돈 빼고 새 금전함 구매 안내",
+          "rr": 1
+        },
+        {
+          "time": "13:06",
+          "store": "김밥테이블",
+          "biz": "4622102593",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "배민 연동 끊김, 재연동 원격 도움 부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "5분뒤 재통화 요청",
           "rr": 1
         },
         {
@@ -331984,7 +331997,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 1,
         "unknown": 0
       },
@@ -332074,7 +332087,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794716732.534
+        "lastSeen": 1794717036.291
       }
     },
     "days": {
@@ -458531,7 +458544,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 13:25",
+    "at": "2026-11-15 13:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458691,7 +458704,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 13:25",
+    "at": "2026-11-15 13:30",
     "pri": {
       "days": 0,
       "failed": [],
