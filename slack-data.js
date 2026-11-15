@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34023,
+  "version": 34024,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,8 +331866,8 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 8,
-          "최민석": 1
+          "최민석": 2,
+          "배선유": 8
         },
         "menu": {
           "최민석": 1
@@ -331875,6 +331875,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:58",
+          "store": "도시곳간 목포점",
+          "biz": "6068703752",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "매장에 인터넷은 문제가 없는데 프론트 기기 인터넷이 끊겼다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "13:11",
           "store": "Onctueux",
@@ -331997,7 +332008,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 1,
         "unknown": 0
       },
@@ -332087,7 +332098,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794719080.343
+        "lastSeen": 1794719452.85
       }
     },
     "days": {
@@ -458544,7 +458555,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 14:04",
+    "at": "2026-11-15 14:11",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458704,7 +458715,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 14:04",
+    "at": "2026-11-15 14:10",
     "pri": {
       "days": 0,
       "failed": [],
