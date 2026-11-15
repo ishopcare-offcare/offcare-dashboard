@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33979,
+  "version": 33980,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331881,7 +331881,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "로그 - 2026-11-15 1014.920 (승인 실패, 요청 TID=3327896000, 금액=10,000원, 수단=IC, 오류=카드사전화요망 022187-**** 8373, BIN=, 할부=0개월) - 2026-11-15 1002.944 (승인 실패, 요청 TID=3327896000, 금액=10,000원, 수단=IC, 오류=카드사전화요망 - 2026-",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "10:31",
@@ -331980,7 +331980,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794707810.346
+        "lastSeen": 1794707869.907
       }
     },
     "days": {
@@ -458394,7 +458394,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 10:57",
+    "at": "2026-11-15 10:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458554,7 +458554,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 10:56",
+    "at": "2026-11-15 10:57",
     "pri": {
       "days": 0,
       "failed": [],
