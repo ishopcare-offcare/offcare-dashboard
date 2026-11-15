@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33990,
+  "version": 33991,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,11 +331866,23 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 4
+          "배선유": 5
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:11",
+          "store": "카페 온담",
+          "biz": "1644900943",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "태블릿 + 프론트 + 유선프린터 사용 중 휴대폰으로 배달앱 사용 중 어제부터 갑자기 주문서출력 불가 확인 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포스에 잠깐 문제가 생겼어요. 배민연동 불가 / 잠시 후 재연락주신다고 함",
+          "rr": 2
+        },
         {
           "time": "10:39",
           "store": "미드나이트",
@@ -331921,7 +331933,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -331980,14 +331992,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794709883.325
-      },
-      "1794708682.775079": {
-        "post": "1794708682.775079",
-        "lastSeen": 1794709883.325,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 0
+        "lastSeen": 1794710090.388
       }
     },
     "days": {
@@ -458409,14 +458414,15 @@ window.SLACK_DATA = {
             "store": "카페 온담",
             "biz": "1644900943",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 21.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 11:31",
+    "at": "2026-11-15 11:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458576,7 +458582,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 11:31",
+    "at": "2026-11-15 11:34",
     "pri": {
       "days": 0,
       "failed": [],
