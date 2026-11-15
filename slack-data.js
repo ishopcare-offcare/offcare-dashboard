@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34030,
+  "version": 34031,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,8 +331866,8 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 2,
-          "배선유": 8
+          "배선유": 9,
+          "최민석": 2
         },
         "menu": {
           "최민석": 1
@@ -331875,6 +331875,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:04",
+          "store": "신전떡볶이오태북삼점",
+          "biz": "1021514478",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "메이트 포스 사용 중 van정보 관련 오류 노출 후 결제 불가 확인 요청 드립니다. ( van 내역 조회 시 결제 시도 확인 불가합니다.)",
+          "hw": "",
+          "intake": "online",
+          "note": "daou vcat 1.0.0.6 사용 / 최신 버전 업데이트 후 재연동 완료",
+          "rr": 1
+        },
         {
           "time": "13:58",
           "store": "도시곳간 목포점",
@@ -332009,11 +332021,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 10,
+        "online": 11,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "14:04",
+      "updatedAt": "14:31",
       "voc": {
         "responses": 1,
         "install": {
@@ -332099,7 +332111,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794720636.031
+        "lastSeen": 1794720718.245
       }
     },
     "days": {
@@ -458556,7 +458568,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 14:30",
+    "at": "2026-11-15 14:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458716,7 +458728,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 14:30",
+    "at": "2026-11-15 14:31",
     "pri": {
       "days": 0,
       "failed": [],
