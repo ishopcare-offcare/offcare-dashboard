@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34037,
+  "version": 34038,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 3,
+          "최민석": 4,
           "배선유": 10
         },
         "menu": {
@@ -331875,6 +331875,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:39",
+          "store": "플레이버 포에버",
+          "biz": "2553701449",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "터미널1 + 프론트1 연결 온보딩 원격 요청 주셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "터프 재온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "14:36",
           "store": "린재한복",
@@ -332045,7 +332057,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 1,
         "unknown": 0
       },
@@ -332135,14 +332147,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794721687.765
-      },
-      "1794721158.105889": {
-        "post": "1794721158.105889",
-        "lastSeen": 1794721687.765,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 4
+        "lastSeen": 1794722025.272
       }
     },
     "days": {
@@ -458600,14 +458605,15 @@ window.SLACK_DATA = {
             "store": "플레이버 포에버",
             "biz": "2553701449",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 11.6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 14:48",
+    "at": "2026-11-15 14:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458767,7 +458773,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 14:48",
+    "at": "2026-11-15 14:53",
     "pri": {
       "days": 0,
       "failed": [],
