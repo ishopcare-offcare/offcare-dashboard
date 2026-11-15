@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34096,
+  "version": 34097,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332186,15 +332186,15 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "18:35",
+      "updatedAt": "18:43",
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
-          "count": 1,
+          "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 8,
+          "count": 9,
           "low": 4
         },
         "high": {
@@ -332207,15 +332207,22 @@ window.SLACK_DATA = {
           "3": 1,
           "5": 1,
           "8": 1,
+          "9": 1,
           "10": 3
         },
         "installDist": {
-          "3": 1
+          "3": 1,
+          "4": 1
         },
         "byIndustry": {
+          "도소매": 1,
           "카페": 1
         },
         "byTenure": {
+          "구매설치": {
+            "total": 2,
+            "low": 1
+          },
           "1개월": {
             "total": 2,
             "low": 0
@@ -332231,13 +332238,13 @@ window.SLACK_DATA = {
           "12개월": {
             "total": 2,
             "low": 1
-          },
-          "구매설치": {
-            "total": 1,
-            "low": 1
           }
         },
         "byVan": {
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
           "KCP": {
             "total": 2,
             "low": 0
@@ -332354,7 +332361,20 @@ window.SLACK_DATA = {
             "doneDate": ""
           }
         ],
-        "praises": []
+        "praises": [
+          {
+            "time": "18:43",
+            "store": "서티파이드 피트니스 (certified fitness)",
+            "storeId": "712685",
+            "indBucket": "도소매",
+            "emp": "",
+            "install": 4,
+            "nps": 9,
+            "text": "대체적으로 너무 좋았지만, 인터넷 끊김 및 기기 연결 해제가 종종있었음 고객 편의상",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -332374,11 +332394,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794735340.088
+        "lastSeen": 1794735817.853
       },
       "1794734491.066289": {
         "post": "1794734491.066289",
-        "lastSeen": 1794735340.088,
+        "lastSeen": 1794735817.853,
         "r": 1,
         "day": "2026-11-15",
         "idx": 13
@@ -458927,7 +458947,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 18:36",
+    "at": "2026-11-15 18:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459087,7 +459107,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 18:35",
+    "at": "2026-11-15 18:43",
     "pri": {
       "days": 0,
       "failed": [],
