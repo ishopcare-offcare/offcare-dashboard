@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34065,
+  "version": 34066,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332098,22 +332098,23 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "16:25",
+      "updatedAt": "16:46",
       "voc": {
-        "responses": 5,
+        "responses": 6,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 5,
-          "low": 2
+          "count": 6,
+          "low": 3
         },
         "high": {
           "install": 0,
           "nps": 2
         },
         "npsDist": {
+          "0": 1,
           "3": 1,
           "5": 1,
           "8": 1,
@@ -332126,13 +332127,13 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
-          "12개월": {
+          "6개월": {
             "total": 2,
             "low": 1
           },
-          "6개월": {
-            "total": 1,
-            "low": 0
+          "12개월": {
+            "total": 2,
+            "low": 1
           },
           "구매설치": {
             "total": 1,
@@ -332144,13 +332145,13 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
-          "SMARTRO": {
+          "SECTA9": {
             "total": 2,
             "low": 1
           },
-          "SECTA9": {
-            "total": 1,
-            "low": 0
+          "SMARTRO": {
+            "total": 2,
+            "low": 1
           },
           "KOCES": {
             "total": 1,
@@ -332162,10 +332163,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "구매,계약과정에서 설명이 부족": 1,
           "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "16:46",
+            "store": "탑코리아태권도장",
+            "storeId": "426159",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "결제수단 설명부족 단말기 입력결제시 해당 사업자 면세가 안되는것도 그렇고pc를 꼭 켠상태에서만 결제가 가능한부분 불편함",
+                "cat": "구매,계약과정에서 설명이 부족"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:56",
             "store": "이숙희",
@@ -332256,11 +332280,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794728731.546
+        "lastSeen": 1794728826.512
       },
       "1794726233.019819": {
         "post": "1794726233.019819",
-        "lastSeen": 1794728731.546,
+        "lastSeen": 1794728826.512,
         "r": 1,
         "day": "2026-11-15",
         "idx": 6
@@ -458755,7 +458779,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 16:45",
+    "at": "2026-11-15 16:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458915,7 +458939,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 16:45",
+    "at": "2026-11-15 16:47",
     "pri": {
       "days": 0,
       "failed": [],
