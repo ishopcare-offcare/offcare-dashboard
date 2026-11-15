@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5295,
- "updatedAt": "2026-11-15 17:15",
+ "version": 5296,
+ "updatedAt": "2026-11-15 17:22",
  "days": 30,
  "items": [
   {
@@ -64595,29 +64595,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792143473793609"
-  },
-  {
-   "ts": "1792138776.739159",
-   "date": "2026-10-16",
-   "time": "17:19",
-   "store": "용용선생 창원상남점",
-   "biz": "2534600811",
-   "pos": "",
-   "content": "메뉴 등록 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "주류 > 테라 제로 > 5,500원 1건만 추가 부탁드립니다! :머쓱_바덕:"
-   ],
-   "rc": 4,
-   "lr": "1792138848.599649",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792138776739159"
   }
  ],
  "ocr": {
