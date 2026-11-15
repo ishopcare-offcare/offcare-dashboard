@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34067,
+  "version": 34068,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 7,
+          "최민석": 8,
           "배선유": 10
         },
         "menu": {
@@ -331886,6 +331886,18 @@ window.SLACK_DATA = {
           "urgent": true,
           "intake": "online",
           "note": "0105307**** / 출력포트 com7-&gt;1번으로 변경 후 정상출력 완료 설정 잘못만지신 것 같습니다. 출력포트 com7-1번으로 변경 후 정상출력 완료",
+          "rr": 2
+        },
+        {
+          "time": "16:03",
+          "store": "베이커리 더블유",
+          "biz": "4344300758",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "터프 온보딩 및 금액입력결제 방법에 대한 교육 지원 요청드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "현재 외부로 30분뒤 재연락 요청 / 포터프 사용중 시가상품 및 특정상품 출력 방법 안내 완료 및 포인트 보정작업 플레이스 문의안내 완료",
           "rr": 2
         },
         {
@@ -332095,10 +332107,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 17,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "16:50",
+      "updatedAt": "16:52",
       "voc": {
         "responses": 7,
         "install": {
@@ -332311,14 +332323,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794729061.288
-      },
-      "1794726233.019819": {
-        "post": "1794726233.019819",
-        "lastSeen": 1794729061.288,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 6
+        "lastSeen": 1794729150.095
       }
     },
     "days": {
@@ -458794,7 +458799,8 @@ window.SLACK_DATA = {
             "store": "베이커리 더블유",
             "biz": "4344300758",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 47.9
           },
           {
             "hm": "16:25",
@@ -458810,7 +458816,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 16:51",
+    "at": "2026-11-15 16:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458970,7 +458976,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 16:51",
+    "at": "2026-11-15 16:52",
     "pri": {
       "days": 0,
       "failed": [],
