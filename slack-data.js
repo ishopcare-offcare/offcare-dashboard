@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34066,
+  "version": 34067,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332098,16 +332098,16 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "16:46",
+      "updatedAt": "16:50",
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 6,
-          "low": 3
+          "count": 7,
+          "low": 4
         },
         "high": {
           "install": 0,
@@ -332115,6 +332115,7 @@ window.SLACK_DATA = {
         },
         "npsDist": {
           "0": 1,
+          "2": 1,
           "3": 1,
           "5": 1,
           "8": 1,
@@ -332127,6 +332128,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 1,
+            "low": 1
+          },
           "6개월": {
             "total": 2,
             "low": 1
@@ -332145,6 +332150,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 1
+          },
           "SECTA9": {
             "total": 2,
             "low": 1
@@ -332163,11 +332172,33 @@ window.SLACK_DATA = {
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 2,
           "구매,계약과정에서 설명이 부족": 1,
-          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "16:50",
+            "store": "또래오래 파파빈",
+            "storeId": "583082",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 2,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 2,
+                "text": "배달지 고객정보 저장이 잘 되지않습니다",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "16:46",
             "store": "탑코리아태권도장",
@@ -332280,11 +332311,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794728826.512
+        "lastSeen": 1794729061.288
       },
       "1794726233.019819": {
         "post": "1794726233.019819",
-        "lastSeen": 1794728826.512,
+        "lastSeen": 1794729061.288,
         "r": 1,
         "day": "2026-11-15",
         "idx": 6
@@ -458779,7 +458810,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 16:47",
+    "at": "2026-11-15 16:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458939,7 +458970,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 16:47",
+    "at": "2026-11-15 16:51",
     "pri": {
       "days": 0,
       "failed": [],
