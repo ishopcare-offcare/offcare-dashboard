@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33973,
+  "version": 33974,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,11 +331866,23 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 2
+          "배선유": 3
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:31",
+          "store": "미소집 평택소사벌점",
+          "biz": "2775301041",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "주방프린터에서 주류 메뉴가 나와 주류 메뉴 안나오게 수정 요청.",
+          "hw": "",
+          "intake": "online",
+          "note": "주방프린터 음료 미출력 설정",
+          "rr": 1
+        },
         {
           "time": "10:00",
           "store": "다니네일(DANI NAIL)",
@@ -331897,7 +331909,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 0,
         "unknown": 0
       },
@@ -331956,7 +331968,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794706332.976
+        "lastSeen": 1794706619.76
       }
     },
     "days": {
@@ -458370,7 +458382,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 10:32",
+    "at": "2026-11-15 10:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458530,7 +458542,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 10:32",
+    "at": "2026-11-15 10:37",
     "pri": {
       "days": 0,
       "failed": [],
