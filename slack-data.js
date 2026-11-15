@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34112,
+  "version": 34113,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332210,7 +332210,7 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "20:21",
+      "updatedAt": "20:24",
       "voc": {
         "responses": 11,
         "install": {
@@ -332418,11 +332418,18 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794741742.209
+        "lastSeen": 1794741873.997
       },
       "1794741710.282609": {
         "post": "1794741710.282609",
-        "lastSeen": 1794741742.209
+        "lastSeen": 1794741873.997,
+        "r": 1,
+        "day": "2026-11-15",
+        "idx": 15
+      },
+      "1794741856.325269": {
+        "post": "1794741856.325269",
+        "lastSeen": 1794741873.997
       }
     },
     "days": {
@@ -458834,8 +458841,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-15": {
-        "cnt": 15,
-        "sumMin": 203.05689374605814,
+        "cnt": 16,
+        "sumMin": 204.687233599027,
         "over": 3,
         "items": [
           {
@@ -458972,13 +458979,21 @@ window.SLACK_DATA = {
             "who": "최민석",
             "cat": "menu",
             "dmin": 9.6
+          },
+          {
+            "hm": "20:21",
+            "min": 1.6,
+            "store": "불담직화두마리치킨 파주운정점",
+            "biz": "7971302174",
+            "who": "최민석",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 20:22",
+    "at": "2026-11-15 20:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459138,7 +459153,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 20:22",
+    "at": "2026-11-15 20:24",
     "pri": {
       "days": 0,
       "failed": [],
