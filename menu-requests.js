@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5279,
- "updatedAt": "2026-11-15 12:15",
+ "version": 5280,
+ "updatedAt": "2026-11-15 12:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1794713950.914519",
+   "date": "2026-11-15",
+   "time": "12:39",
+   "store": "은성한정식",
+   "biz": "5298703678",
+   "pos": "퍼스트포스",
+   "content": "일품요리 ->\n\n(장어탕수요리) 를 \n왼쪽 으로 한칸 옮기고,\n\n(일품 장어구이)를 위로 \n한칸 올려주실수 있으실까요~?",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794713950914519"
+  },
   {
    "ts": "1794711876.052369",
    "date": "2026-11-15",
