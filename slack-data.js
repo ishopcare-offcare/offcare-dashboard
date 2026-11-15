@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34040,
+  "version": 34041,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332061,28 +332061,37 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "15:04",
+      "updatedAt": "15:12",
       "voc": {
-        "responses": 2,
+        "responses": 3,
         "install": {
-          "count": 0,
+          "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 2,
-          "low": 0
+          "count": 3,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 1
         },
         "npsDist": {
+          "5": 1,
           "8": 1,
           "10": 1
         },
-        "installDist": {},
-        "byIndustry": {},
+        "installDist": {
+          "3": 1
+        },
+        "byIndustry": {
+          "카페": 1
+        },
         "byTenure": {
+          "구매설치": {
+            "total": 1,
+            "low": 1
+          },
           "1개월": {
             "total": 1,
             "low": 0
@@ -332093,6 +332102,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOCES": {
+            "total": 1,
+            "low": 1
+          },
           "KCP": {
             "total": 1,
             "low": 0
@@ -332102,8 +332115,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "단말기 설치나 초기 과정이 어려움": 1
+        },
+        "alerts": [
+          {
+            "time": "15:12",
+            "store": "스윗갸또 후추추",
+            "storeId": "733622",
+            "industry": "카페/베이커리",
+            "indBucket": "카페",
+            "install": 3,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "설명대로 했는데 터미널이랑 프론트 연결 안되고 따로 작동함",
+                "cat": "단말기 설치나 초기 과정이 어려움"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       }
     }
@@ -332156,7 +332194,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794722667.187
+        "lastSeen": 1794723157.644
       }
     },
     "days": {
@@ -458622,7 +458660,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 15:04",
+    "at": "2026-11-15 15:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458782,7 +458820,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 15:04",
+    "at": "2026-11-15 15:12",
     "pri": {
       "days": 0,
       "failed": [],
