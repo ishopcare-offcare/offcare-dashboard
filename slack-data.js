@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34032,
+  "version": 34033,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 9,
+          "배선유": 10,
           "최민석": 2
         },
         "menu": {
@@ -331875,6 +331875,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:31",
+          "store": "박승광 해물손칼국수 검단신도시직영점",
+          "biz": "5335101097",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "무선프린터 ( 와이파이 ) 용지가 끊기지 않고 지속 출력 확인 요청 드리빈다.",
+          "hw": "",
+          "intake": "online",
+          "note": "과거 이력과 동일한 증상 / 처음 키면 잠시 후 selftest 나오고 백지 계속 출력됨 / feed 버튼이 계속 눌리는듯한 증상으로 기기 교체 요기요 출력 위해 교체 설치 시 com으로 설정 필요 요기요 출력 위해 교체 설치 시 com으로 설정 필요 물리적으로 FEED 버튼이 계속 눌리는 것 처럼 빈 용지가 주르륵 나옴, 고장으로 보여 대체품 발송 / 다",
+          "rr": 1
+        },
         {
           "time": "14:04",
           "store": "신전떡볶이오태북삼점",
@@ -332021,7 +332033,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 1,
         "unknown": 0
       },
@@ -332111,7 +332123,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794721019.587
+        "lastSeen": 1794721078.551
       }
     },
     "days": {
@@ -458568,7 +458580,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 14:37",
+    "at": "2026-11-15 14:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458728,7 +458740,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 14:36",
+    "at": "2026-11-15 14:37",
     "pri": {
       "days": 0,
       "failed": [],
