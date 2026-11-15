@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34167,
+  "version": 34168,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -319092,7 +319092,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "/ <!subteam^S0A0JFMNAAX 해당 매장 TS400W 고장 무프 세팅이 필요합니다. 방문해서 무프 온보딩 가능할까요? 한국말 소통 거의 불가능 영상 통화로 번역기 사용해서 A/S 진행했습니다. 매장에 AB케이블, 노트북이 있는데 C 포트만 있고 C to USB 젠더, 다른 노트북, PC는 없다고 합니다. 해당 매장 TS400W 고장 / 오늘 당",
-          "rr": 9
+          "rr": 10
         },
         {
           "time": "15:47",
@@ -459091,7 +459091,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 07:30",
+    "at": "2026-11-16 07:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459252,7 +459252,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 07:30",
+    "at": "2026-11-16 07:45",
     "pri": {
       "days": 0,
       "failed": [],
@@ -459264,7 +459264,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 122,
+      "budgetLeft": 121,
       "failed": []
     }
   }
