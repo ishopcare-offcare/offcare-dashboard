@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34049,
+  "version": 34050,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332061,22 +332061,23 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "15:49",
+      "updatedAt": "15:56",
       "voc": {
-        "responses": 4,
+        "responses": 5,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 4,
-          "low": 1
+          "count": 5,
+          "low": 2
         },
         "high": {
           "install": 0,
           "nps": 2
         },
         "npsDist": {
+          "3": 1,
           "5": 1,
           "8": 1,
           "10": 2
@@ -332088,6 +332089,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "12개월": {
+            "total": 2,
+            "low": 1
+          },
           "6개월": {
             "total": 1,
             "low": 0
@@ -332099,13 +332104,13 @@ window.SLACK_DATA = {
           "1개월": {
             "total": 1,
             "low": 0
-          },
-          "12개월": {
-            "total": 1,
-            "low": 0
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 2,
+            "low": 1
+          },
           "SECTA9": {
             "total": 1,
             "low": 0
@@ -332117,16 +332122,35 @@ window.SLACK_DATA = {
           "KCP": {
             "total": 1,
             "low": 0
-          },
-          "SMARTRO": {
-            "total": 1,
-            "low": 0
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "단말기 설치나 초기 과정이 어려움": 1
         },
         "alerts": [
+          {
+            "time": "15:56",
+            "store": "이숙희",
+            "storeId": "278497",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 3,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 3,
+                "text": ".",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:12",
             "store": "스윗갸또 후추추",
@@ -332195,11 +332219,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794725469.88
+        "lastSeen": 1794725807.85
       },
       "1794725373.808739": {
         "post": "1794725373.808739",
-        "lastSeen": 1794725469.88,
+        "lastSeen": 1794725807.85,
         "r": 1,
         "day": "2026-11-15",
         "idx": 5
@@ -458676,7 +458700,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 15:51",
+    "at": "2026-11-15 15:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458836,7 +458860,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 15:51",
+    "at": "2026-11-15 15:56",
     "pri": {
       "days": 0,
       "failed": [],
