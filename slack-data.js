@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34035,
+  "version": 34036,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,8 +331866,8 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 10,
-          "최민석": 2
+          "최민석": 3,
+          "배선유": 10
         },
         "menu": {
           "최민석": 1
@@ -331875,6 +331875,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "14:36",
+          "store": "린재한복",
+          "biz": "3135200211",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "상호명 변경 후 최신정보 불러오기 불가 / 재온보딩 진행 했으나 사진과 같이 노출 후 프론트 연결 불가 확인 요청 드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "14:31",
           "store": "박승광 해물손칼국수 검단신도시직영점",
@@ -332033,7 +332044,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 1,
         "unknown": 0
       },
@@ -332123,11 +332134,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794721526.044
+        "lastSeen": 1794721598.369
       },
       "1794721158.105889": {
         "post": "1794721158.105889",
-        "lastSeen": 1794721526.044
+        "lastSeen": 1794721598.369
       }
     },
     "days": {
@@ -458584,7 +458595,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 14:45",
+    "at": "2026-11-15 14:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458744,7 +458755,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 14:45",
+    "at": "2026-11-15 14:46",
     "pri": {
       "days": 0,
       "failed": [],
