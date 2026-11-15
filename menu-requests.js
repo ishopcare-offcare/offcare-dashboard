@@ -3,10 +3,167 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5297,
- "updatedAt": "2026-11-15 18:44",
+ "version": 5298,
+ "updatedAt": "2026-11-15 18:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1794736427.991369",
+   "date": "2026-11-15",
+   "time": "18:53",
+   "store": "라 파린느（La farine）",
+   "biz": "1293917457",
+   "pos": "토스포스",
+   "content": "토스포스) 메뉴 추가 요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHZAS08NQ",
+     "from": "댓글",
+     "path": "menu-files/1794736427_991369-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빵",
+       "name": "시폰카스테라",
+       "price": 8000
+      },
+      {
+       "category": "빵",
+       "name": "마늘빵",
+       "price": 5800
+      },
+      {
+       "category": "빵",
+       "name": "에그케이트",
+       "price": 5200
+      },
+      {
+       "category": "빵",
+       "name": "아몬드블루베리파이",
+       "price": 4800
+      },
+      {
+       "category": "빵",
+       "name": "치즈타르트",
+       "price": 4200
+      },
+      {
+       "category": "빵",
+       "name": "통밀밤크랑키",
+       "price": 4200
+      },
+      {
+       "category": "빵",
+       "name": "밤파이만쥬",
+       "price": 3500
+      },
+      {
+       "category": "빵",
+       "name": "바닐라몽블랑",
+       "price": 7500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CHTLJPFML",
+     "from": "댓글",
+     "path": "menu-files/1794736427_991369-1.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빵",
+       "name": "단팥빵",
+       "price": 2500
+      },
+      {
+       "category": "빵",
+       "name": "크림빵",
+       "price": 2500
+      },
+      {
+       "category": "빵",
+       "name": "소보로",
+       "price": 2500
+      },
+      {
+       "category": "빵",
+       "name": "슈크림",
+       "price": 2500
+      },
+      {
+       "category": "빵",
+       "name": "초코크림빵",
+       "price": 3800
+      },
+      {
+       "category": "빵",
+       "name": "화이트 초코 브레드",
+       "price": 6500
+      },
+      {
+       "category": "빵",
+       "name": "흑미깔레트브레드",
+       "price": 8500
+      },
+      {
+       "category": "빵",
+       "name": "알밤빵",
+       "price": 5500
+      },
+      {
+       "category": "빵",
+       "name": "버터 프레즐",
+       "price": 4800
+      },
+      {
+       "category": "빵",
+       "name": "모카빵",
+       "price": 4800
+      },
+      {
+       "category": "빵",
+       "name": "아몬드 크림빵",
+       "price": 4500
+      },
+      {
+       "category": "빵",
+       "name": "어니언치즈롤",
+       "price": 5500
+      },
+      {
+       "category": "빵",
+       "name": "오곡꽈배기",
+       "price": 5200
+      },
+      {
+       "category": "빵",
+       "name": "호두크림치즈브레드",
+       "price": 4800
+      },
+      {
+       "category": "빵",
+       "name": "바게트",
+       "price": 4500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794736438.457409",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794736427991369"
+  },
   {
    "ts": "1794723558.250719",
    "date": "2026-11-15",
