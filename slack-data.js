@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34026,
+  "version": 34027,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331884,7 +331884,8 @@ window.SLACK_DATA = {
           "req": "매장에 인터넷은 문제가 없는데 프론트 기기 인터넷이 끊겼다고 하셔서 원격 점검 요청드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "공유기 껏켯 및 프론트 방전작업 후 정상작동 완료 공유기 신호 불안정 및 속도 40메가 아래로 떨어지는 현상으로 유선연결 권장안내 완료",
+          "rr": 1
         },
         {
           "time": "13:11",
@@ -332098,7 +332099,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794719705.044
+        "lastSeen": 1794719798.335
       }
     },
     "days": {
@@ -458555,7 +458556,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 14:15",
+    "at": "2026-11-15 14:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458715,7 +458716,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 14:15",
+    "at": "2026-11-15 14:16",
     "pri": {
       "days": 0,
       "failed": [],
