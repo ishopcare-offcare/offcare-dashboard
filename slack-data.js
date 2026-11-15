@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33998,
+  "version": 33999,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,11 +331866,22 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 6
+          "배선유": 7
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:52",
+          "store": "커피스토리",
+          "biz": "1293747409",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "프론트로 결제 진행 시 화면이 하얗게 바뀌고 인터넷 연결이 끊겼다는 문구가 보인다며 원격 점검 요청하셨습니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "11:44",
           "store": "이유",
@@ -331945,7 +331956,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
@@ -332039,14 +332050,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794711408.329
-      },
-      "1794711160.108299": {
-        "post": "1794711160.108299",
-        "lastSeen": 1794711408.329,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 2
+        "lastSeen": 1794711512.165
       }
     },
     "days": {
@@ -458486,14 +458490,15 @@ window.SLACK_DATA = {
             "store": "커피스토리",
             "biz": "1293747409",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 11:57",
+    "at": "2026-11-15 11:59",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458653,7 +458658,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 11:56",
+    "at": "2026-11-15 11:58",
     "pri": {
       "days": 0,
       "failed": [],
