@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34108,
+  "version": 34109,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332210,20 +332210,20 @@ window.SLACK_DATA = {
         "offline": 2,
         "unknown": 0
       },
-      "updatedAt": "18:53",
+      "updatedAt": "19:47",
       "voc": {
-        "responses": 10,
+        "responses": 11,
         "install": {
           "count": 2,
           "low": 0
         },
         "nps": {
-          "count": 10,
+          "count": 11,
           "low": 4
         },
         "high": {
           "install": 0,
-          "nps": 3
+          "nps": 4
         },
         "npsDist": {
           "0": 1,
@@ -332232,7 +332232,7 @@ window.SLACK_DATA = {
           "5": 1,
           "8": 2,
           "9": 1,
-          "10": 3
+          "10": 4
         },
         "installDist": {
           "3": 1,
@@ -332243,6 +332243,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "6개월": {
+            "total": 3,
+            "low": 1
+          },
           "3개월": {
             "total": 2,
             "low": 1
@@ -332255,16 +332259,16 @@ window.SLACK_DATA = {
             "total": 2,
             "low": 0
           },
-          "6개월": {
-            "total": 2,
-            "low": 1
-          },
           "12개월": {
             "total": 2,
             "low": 1
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 3,
+            "low": 1
+          },
           "KOCES": {
             "total": 2,
             "low": 1
@@ -332282,10 +332286,6 @@ window.SLACK_DATA = {
             "low": 1
           },
           "SECTA9": {
-            "total": 2,
-            "low": 1
-          },
-          "SMARTRO": {
             "total": 2,
             "low": 1
           }
@@ -332418,7 +332418,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794739529.746
+        "lastSeen": 1794739674.99
       }
     },
     "days": {
@@ -458974,7 +458974,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 19:45",
+    "at": "2026-11-15 19:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459134,7 +459134,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 19:45",
+    "at": "2026-11-15 19:47",
     "pri": {
       "days": 0,
       "failed": [],
