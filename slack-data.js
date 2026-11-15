@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34119,
+  "version": 34120,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 15,
+          "최민석": 16,
           "배선유": 10
         },
         "onboarding": {
@@ -331878,6 +331878,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:30",
+          "store": "로얄수산",
+          "biz": "5199801650",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "무프W 온보딩 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "무프 온보딩 완료",
+          "rr": 1
+        },
         {
           "time": "20:24",
           "store": "사운드팩토리 Sound Factory",
@@ -332230,7 +332242,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 27,
+        "online": 28,
         "offline": 2,
         "unknown": 0
       },
@@ -332442,7 +332454,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794743128.429
+        "lastSeen": 1794743208.579
       }
     },
     "days": {
@@ -459016,7 +459028,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 20:45",
+    "at": "2026-11-15 20:47",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459176,7 +459188,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 20:45",
+    "at": "2026-11-15 20:46",
     "pri": {
       "days": 0,
       "failed": [],
