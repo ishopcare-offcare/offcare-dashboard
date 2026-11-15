@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34087,
+  "version": 34088,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331936,8 +331936,8 @@ window.SLACK_DATA = {
           "req": "메이트 포스 + 프론트 사용 중 nvcat 오류 노출 후 결제 불가 확인 요청 드립니다.",
           "hw": "",
           "intake": "online",
-          "note": "나이스 vcat 실행 안되는 증상으로 확인 중 재설치 시시에도 동일증상",
-          "rr": 1
+          "note": "나이스 vcat 실행 안되는 증상으로 확인 중 재설치 시시에도 동일증상 / 레지스트리 삭제 후 재설치 및 컴포트 재장착 시 인식 완료 정상작동 완료",
+          "rr": 2
         },
         {
           "time": "16:25",
@@ -332362,11 +332362,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794733884.643
+        "lastSeen": 1794733960.253
       },
       "1794730879.654499": {
         "post": "1794730879.654499",
-        "lastSeen": 1794733884.643,
+        "lastSeen": 1794733960.253,
         "r": 1,
         "day": "2026-11-15",
         "idx": 11
@@ -458906,7 +458906,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 18:11",
+    "at": "2026-11-15 18:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459066,7 +459066,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 18:11",
+    "at": "2026-11-15 18:12",
     "pri": {
       "days": 0,
       "failed": [],
