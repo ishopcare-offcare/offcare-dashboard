@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33963,
+  "version": 33964,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331864,11 +331864,28 @@ window.SLACK_DATA = {
       }
     },
     "2026-11-15": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "배선유": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "09:50",
+          "store": "경훈커피",
+          "biz": "4142102352",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "터미널1 이용 매장입니다. 마감 시 터미널 기기 전원 OFF 후 다음날 아침에 전원을 켜면 화면이 하얗게 나와서 재부팅을 해야하는 증상이 있어서 기기 교체를 받았는데 동일 증상이 발생하는 상황이라고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "매일매일 동일한 문제 발생 / 같이 보내드린 어댑터로 교체 + 멀티탭 아닌 벽콘센트로 옮겨 꽂은 후 확인 필요 안내",
+          "rr": 2
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -331927,7 +331944,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794703953.614
+        "lastSeen": 1794704072.35
       }
     },
     "days": {
@@ -458341,7 +458358,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 09:52",
+    "at": "2026-11-15 09:55",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458501,7 +458518,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 09:52",
+    "at": "2026-11-15 09:54",
     "pri": {
       "days": 0,
       "failed": [],
