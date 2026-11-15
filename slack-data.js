@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33967,
+  "version": 33968,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,11 +331866,23 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 1
+          "배선유": 2
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:00",
+          "store": "다니네일(DANI NAIL)",
+          "biz": "7031000845",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "포프(태블릿) + 유프 + 금전함 이용 매장입니다. 유프에서 외계어 출력되는 문제로 통신속도 모두 9600으로 설정하였으나 동일하다고 주장하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "크로스젠더 재연결 후 출력",
+          "rr": 1
+        },
         {
           "time": "09:50",
           "store": "경훈커피",
@@ -331885,7 +331897,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -331944,7 +331956,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794704528.593
+        "lastSeen": 1794704783.327
       }
     },
     "days": {
@@ -458358,7 +458370,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 10:02",
+    "at": "2026-11-15 10:06",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458518,7 +458530,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 10:02",
+    "at": "2026-11-15 10:06",
     "pri": {
       "days": 0,
       "failed": [],
