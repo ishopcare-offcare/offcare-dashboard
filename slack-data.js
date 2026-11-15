@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 33992,
+  "version": 33993,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331929,7 +331929,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "매일매일 동일한 문제 발생 / 같이 보내드린 어댑터로 교체 + 멀티탭 아닌 벽콘센트로 옮겨 꽂은 후 확인 필요 안내 / 어엇?",
-          "rr": 4
+          "rr": 5
         }
       ],
       "intake": {
@@ -331937,7 +331937,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "11:11"
+      "updatedAt": "11:44"
     }
   },
   "resp": {
@@ -331992,7 +331992,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794710605.417
+        "lastSeen": 1794710686.599
+      },
+      "1794710665.320599": {
+        "post": "1794710665.320599",
+        "lastSeen": 1794710686.599
       }
     },
     "days": {
@@ -458422,7 +458426,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 11:43",
+    "at": "2026-11-15 11:45",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458582,7 +458586,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 11:43",
+    "at": "2026-11-15 11:44",
     "pri": {
       "days": 0,
       "failed": [],
