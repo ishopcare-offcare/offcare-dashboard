@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34113,
+  "version": 34114,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 13,
+          "최민석": 14,
           "배선유": 10
         },
         "onboarding": {
@@ -331878,6 +331878,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:21",
+          "store": "불담직화두마리치킨 파주운정점",
+          "biz": "7971302174",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "키오스크 모드 사용 중 할인 옵션 설정한 게 의도대로 동작하지 않는다고 하여 설정한 내용 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "18:53",
           "store": "라 파린느（La farine）",
@@ -332206,7 +332217,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 25,
+        "online": 26,
         "offline": 2,
         "unknown": 0
       },
@@ -332418,18 +332429,11 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794741873.997
-      },
-      "1794741710.282609": {
-        "post": "1794741710.282609",
-        "lastSeen": 1794741873.997,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 15
+        "lastSeen": 1794742195.284
       },
       "1794741856.325269": {
         "post": "1794741856.325269",
-        "lastSeen": 1794741873.997
+        "lastSeen": 1794742195.284
       }
     },
     "days": {
@@ -458986,14 +458990,15 @@ window.SLACK_DATA = {
             "store": "불담직화두마리치킨 파주운정점",
             "biz": "7971302174",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 5.4
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 20:24",
+    "at": "2026-11-15 20:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459153,7 +459158,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 20:24",
+    "at": "2026-11-15 20:29",
     "pri": {
       "days": 0,
       "failed": [],
