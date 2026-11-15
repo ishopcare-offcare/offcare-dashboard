@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34116,
+  "version": 34117,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 14,
+          "최민석": 15,
           "배선유": 10
         },
         "onboarding": {
@@ -331878,6 +331878,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "20:24",
+          "store": "사운드팩토리 Sound Factory",
+          "biz": "2260926508",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "터프 사용 중, TID 등록 이후에도 생산번호불일치 오류 메시지 확인되어 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "1차 통화중 / 프론트 재온보딩 후 정상작동 완료",
+          "rr": 2
+        },
         {
           "time": "20:21",
           "store": "불담직화두마리치킨 파주운정점",
@@ -332218,7 +332230,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 26,
+        "online": 27,
         "offline": 2,
         "unknown": 0
       },
@@ -332430,14 +332442,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794742306.746
-      },
-      "1794741856.325269": {
-        "post": "1794741856.325269",
-        "lastSeen": 1794742306.746,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 16
+        "lastSeen": 1794742722.766
       }
     },
     "days": {
@@ -459003,14 +459008,15 @@ window.SLACK_DATA = {
             "store": "사운드팩토리 Sound Factory",
             "biz": "2260926508",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 11
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 20:32",
+    "at": "2026-11-15 20:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459170,7 +459176,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 20:31",
+    "at": "2026-11-15 20:38",
     "pri": {
       "days": 0,
       "failed": [],
