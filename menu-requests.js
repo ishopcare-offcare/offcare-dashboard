@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5286,
- "updatedAt": "2026-11-15 15:01",
+ "version": 5287,
+ "updatedAt": "2026-11-15 15:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1794723558.250719",
+   "date": "2026-11-15",
+   "time": "15:19",
+   "store": "은성한정식",
+   "biz": "5298703678",
+   "pos": "퍼스트포스",
+   "content": "추가메뉴 1\n: 김치(많이주세요)가 2줄로 배열하니 잘려서 안 보여요. 1줄 배열 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794723558250719"
+  },
   {
    "ts": "1794713950.914519",
    "date": "2026-11-15",
