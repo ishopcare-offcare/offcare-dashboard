@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34013,
+  "version": 34014,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "배선유": 7
+          "배선유": 8
         },
         "menu": {
           "최민석": 1
@@ -331874,6 +331874,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "13:11",
+          "store": "Onctueux",
+          "biz": "7261502287",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "어제까지 문제가 없다가 오늘 갑자기 돈통이 안열림, 열쇠/돈통열기 버튼 모두 해봐도 안된다고 하셔서 원격 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "열쇠는 끝까지 돌아가나 안에서 뭐가 걸린것처럼 안열림 / 금전함 위에서 아래로 떨어뜨려보기, 정말 해결이 안되면 하단 나사 풀어서 안에 있는 돈 빼고 새 금전함 구매 안내",
+          "rr": 1
+        },
         {
           "time": "12:04",
           "store": "은성한정식",
@@ -331971,7 +331983,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 7,
+        "online": 8,
         "offline": 1,
         "unknown": 0
       },
@@ -332061,7 +332073,7 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794716130.742
+        "lastSeen": 1794716185.15
       }
     },
     "days": {
@@ -458518,7 +458530,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-15 13:15",
+    "at": "2026-11-15 13:17",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458678,7 +458690,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 13:15",
+    "at": "2026-11-15 13:16",
     "pri": {
       "days": 0,
       "failed": [],
