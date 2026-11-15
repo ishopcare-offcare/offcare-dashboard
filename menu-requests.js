@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5284,
- "updatedAt": "2026-11-15 13:22",
+ "version": 5285,
+ "updatedAt": "2026-11-15 13:59",
  "days": 30,
  "items": [
   {
@@ -66123,50 +66123,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792130092012069"
-  },
-  {
-   "ts": "1792126493.304369",
-   "date": "2026-10-16",
-   "time": "13:54",
-   "store": "그그시",
-   "biz": "2291970171",
-   "pos": "",
-   "content": "메수정뉴",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792126496.575449",
-   "rfx": 3,
-   "status": "done",
-   "handler": "서상원",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792126493304369"
-  },
-  {
-   "ts": "1792125953.951609",
-   "date": "2026-10-16",
-   "time": "13:45",
-   "store": "응급실국물떡볶이 수원인계점",
-   "biz": "5872501339",
-   "pos": "",
-   "content": "메뉴 수정 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "양배추 추가 1,000원 > 1,500원\n단무지 추가 500원 > 1,000원\n\n반영 부탁드립니다."
-   ],
-   "rc": 3,
-   "lr": "1792126423.746119",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792125953951609"
   }
  ],
  "ocr": {
