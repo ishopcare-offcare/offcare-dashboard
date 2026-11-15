@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5287,
- "updatedAt": "2026-11-15 15:20",
+ "version": 5288,
+ "updatedAt": "2026-11-15 15:24",
  "days": 30,
  "items": [
   {
@@ -20,11 +20,13 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "솔라피발송 완료"
+   ],
+   "rc": 1,
+   "lr": "1794723860.007409",
    "rfx": 3,
-   "status": "wait",
+   "status": "dup",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794723558250719"
   },
@@ -66102,27 +66104,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792132731869039"
-  },
-  {
-   "ts": "1792131787.089389",
-   "date": "2026-10-16",
-   "time": "15:23",
-   "store": "집들이",
-   "biz": "2032520350",
-   "pos": "",
-   "content": "메뉴 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792131791.199459",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792131787089389"
   }
  ],
  "ocr": {
