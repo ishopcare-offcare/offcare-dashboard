@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34061,
+  "version": 34062,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -331866,7 +331866,7 @@ window.SLACK_DATA = {
     "2026-11-15": {
       "counts": {
         "as": {
-          "최민석": 6,
+          "최민석": 7,
           "배선유": 10
         },
         "menu": {
@@ -331875,6 +331875,19 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "16:25",
+          "store": "다다김밥분식",
+          "biz": "4721202846",
+          "cat": "as",
+          "emp": "최민석",
+          "req": "대형키오스크 용지 교체 이후 용지 출력 불가 및 오류 문구 노출  확인 요청 드립니다.",
+          "hw": "",
+          "urgent": true,
+          "intake": "online",
+          "note": "0105307****",
+          "rr": 1
+        },
         {
           "time": "15:49",
           "store": "별에서 온 쑥",
@@ -332081,7 +332094,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 1,
         "unknown": 0
       },
@@ -332243,21 +332256,14 @@ window.SLACK_DATA = {
       },
       "1794700839.728349": {
         "post": "1794700839.728349",
-        "lastSeen": 1794727835.908
+        "lastSeen": 1794728109.713
       },
       "1794726233.019819": {
         "post": "1794726233.019819",
-        "lastSeen": 1794727835.908,
+        "lastSeen": 1794728109.713,
         "r": 1,
         "day": "2026-11-15",
         "idx": 6
-      },
-      "1794727508.807499": {
-        "post": "1794727508.807499",
-        "lastSeen": 1794727835.908,
-        "r": 1,
-        "day": "2026-11-15",
-        "idx": 7
       }
     },
     "days": {
@@ -458741,14 +458747,15 @@ window.SLACK_DATA = {
             "store": "다다김밥분식",
             "biz": "4721202846",
             "who": "최민석",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-15 16:31",
+    "at": "2026-11-15 16:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -458908,7 +458915,7 @@ window.SLACK_DATA = {
     "2026-11-15": 2
   },
   "noteMig": {
-    "at": "2026-11-15 16:30",
+    "at": "2026-11-15 16:35",
     "pri": {
       "days": 0,
       "failed": [],
