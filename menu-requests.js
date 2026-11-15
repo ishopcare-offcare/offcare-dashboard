@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5278,
- "updatedAt": "2026-11-15 12:05",
+ "version": 5279,
+ "updatedAt": "2026-11-15 12:15",
  "days": 30,
  "items": [
   {
@@ -66191,30 +66191,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792122409031469"
-  },
-  {
-   "ts": "1792120284.185239",
-   "date": "2026-10-16",
-   "time": "12:11",
-   "store": "엄마 반찬",
-   "biz": "7360403220",
-   "pos": "",
-   "content": "메뉴 전체 수정 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    ":로딩중:  메뉴 수집 중",
-    "기존 등록 되어 있는 메뉴 삭제 후 아래 메뉴 등록 부탁 드립니다!\n\n• 추어탕 \n소 15000원\n대 20000원\n\n• 탕수육 \n소 15000원\n대 20000원\n\n아구포 10000원\n일미 8000원\n오징어채8000원\n창란젓갈 10000원\n낙찌젓갈 10000원\n삼색나물  5000원\n잡채 5000원\n생선 10000원\n찌개12000원\n음료수 2000원"
-   ],
-   "rc": 4,
-   "lr": "1792121094.843829",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792120284185239"
   }
  ],
  "ocr": {
