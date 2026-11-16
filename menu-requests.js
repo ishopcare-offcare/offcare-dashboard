@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5329,
- "updatedAt": "2026-11-16 13:32",
+ "version": 5330,
+ "updatedAt": "2026-11-16 13:59",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CHTFR4C6P",
      "from": "댓글",
-     "path": "menu-files/1794803469_580869-0.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -77,7 +76,8 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794803469_580869-0.png"
     },
     {
      "name": "image.png",
@@ -143,7 +143,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CHJBED3FZ",
      "from": "댓글",
-     "path": "menu-files/1794803469_580869-2.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -167,13 +166,13 @@ window.MENU_REQUESTS = {
        "price": 8000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794803469_580869-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJU44F124",
      "from": "댓글",
-     "path": "menu-files/1794803469_580869-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -262,13 +261,13 @@ window.MENU_REQUESTS = {
        "price": 33000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794803469_580869-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CHZH2CVU2",
      "from": "댓글",
-     "path": "menu-files/1794803469_580869-4.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -392,15 +391,17 @@ window.MENU_REQUESTS = {
        "price": 3000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794803469_580869-4.png"
     }
    ],
    "datt": [],
    "replies": [
-    "van 변경으로 인한 재등록 요청 드립니다 :woman-bowing::skin-tone-4:"
+    "van 변경으로 인한 재등록 요청 드립니다 :woman-bowing::skin-tone-4:",
+    "등록 완료"
    ],
-   "rc": 1,
-   "lr": "1794803519.032439",
+   "rc": 2,
+   "lr": "1794805153.632139",
    "rfx": 3,
    "status": "wait",
    "handler": null,
