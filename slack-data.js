@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34229,
+  "version": 34230,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332452,6 +332452,9 @@ window.SLACK_DATA = {
         },
         "booking": {
           "송태양": 1
+        },
+        "menu": {
+          "김동욱": 1
         }
       },
       "pending": [
@@ -332469,6 +332472,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:43",
+          "store": "카페루이스",
+          "biz": "6563601422",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": ":",
+          "hw": "",
+          "intake": "online",
+          "note": "메뉴등록 완료",
+          "rr": 2
+        },
         {
           "time": "10:41",
           "store": "형아우삼계탕",
@@ -332675,7 +332690,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 3,
         "unknown": 0
       },
@@ -332768,25 +332783,21 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794793807.267,
+        "lastSeen": 1794793886.518,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794793807.267
-      },
-      "1794793380.136639": {
-        "post": "1794793380.136639",
-        "lastSeen": 1794793807.267,
-        "r": 1,
-        "day": "2026-11-16",
-        "idx": 13
+        "lastSeen": 1794793886.518
       },
       "1794793587.176289": {
         "post": "1794793587.176289",
-        "lastSeen": 1794793807.267
+        "lastSeen": 1794793886.518,
+        "r": 1,
+        "day": "2026-11-16",
+        "idx": 14
       }
     },
     "days": {
@@ -459358,8 +459369,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-16": {
-        "cnt": 14,
-        "sumMin": 38.64687306483586,
+        "cnt": 15,
+        "sumMin": 42.9754765788714,
         "over": 0,
         "items": [
           {
@@ -459484,14 +459495,23 @@ window.SLACK_DATA = {
             "store": "카페루이스",
             "biz": "6563601422",
             "who": "김동욱",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 7.8
+          },
+          {
+            "hm": "10:46",
+            "min": 4.3,
+            "store": "커피 기분 탓",
+            "biz": "5142688863",
+            "who": "고경림",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:50",
+    "at": "2026-11-16 10:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459652,7 +459672,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:50",
+    "at": "2026-11-16 10:51",
     "pri": {
       "days": 0,
       "failed": [],

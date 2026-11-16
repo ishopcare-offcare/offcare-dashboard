@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5307,
- "updatedAt": "2026-11-16 10:47",
+ "version": 5308,
+ "updatedAt": "2026-11-16 10:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1794793910.752829",
+   "date": "2026-11-16",
+   "time": "10:51",
+   "store": "명인칼국수·만두 무안남악점",
+   "biz": "6867800249",
+   "pos": "",
+   "content": "하이오더용 선불테이블 5대 생성 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "cc. <!subteam^S0ANH6Q13D1>"
+   ],
+   "rc": 1,
+   "lr": "1794793917.752239",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794793910752829"
+  },
   {
    "ts": "1794793380.136639",
    "date": "2026-11-16",
@@ -23,7 +46,6 @@ window.MENU_REQUESTS = {
      "name": "20261113_153001.jpg",
      "fid": "F0CHYLH21FU",
      "from": "댓글",
-     "path": "menu-files/1794793380_136639-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -102,13 +124,13 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794793380_136639-0.jpg"
     },
     {
      "name": "20261113_152959.jpg",
      "fid": "F0CHWSZK0R4",
      "from": "댓글",
-     "path": "menu-files/1794793380_136639-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -177,17 +199,18 @@ window.MENU_REQUESTS = {
        "price": 500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794793380_136639-1.jpg"
     }
    ],
    "datt": [],
    "replies": [
     "메뉴 남겨드립니다"
    ],
-   "rc": 1,
-   "lr": "1794793443.417239",
+   "rc": 2,
+   "lr": "1794793836.701979",
    "rfx": 3,
-   "status": "confirm",
+   "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794793380136639"
   },
