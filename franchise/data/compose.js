@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-16 15:49 KST
+ *  갱신: 2026-11-16 18:07 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-16 15:49',
+  updatedAt : '2026-11-16 18:07',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -85,5 +85,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-14","time":"11:37","store":"컴포즈커피 신대방역점","branch":"신대방역점","biz":"5218102386","cat":"as","emp":"김규빈","intake":"online","status":"done","req":"오케이캐시백 사용 시 차감되어야 하나 적립으로 표시되고 원주문 금액도 그대로 결제되어 이중 결제 상황에 대한 확인 요청","note":"저도 같이 봐볼게요 / 요거는..컴포즈 운영채널에 넘겨야될수도 있을거같아요 포인트 관련은 / 밴사도 저희꺼가 아니라 전산을 못봐가지고.. / 치원님 여기 결제를 했다가 취소 후 다시 재결제를 31700원으로 한거같은데요? / 토스 결제내역 / 위 번호로 전화드려볼게요 / 넵 저도 그내용 통화로 확인했습니다!"},
     {"date":"2026-11-14","time":"14:41","store":"컴포즈 > 토스POS > 대시보드","branch":"> 토스POS > 대시보드","biz":"","cat":"as","emp":"미지정","intake":"online","status":"done","req":"컴포즈커피뱅뱅사거리점 대시보드에서 기간별 매출 다운받는데 항목이 줄어들었다고하심","note":""},
     {"date":"2026-11-16","time":"15:43","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"김규빈","intake":"online","status":"done","req":":","note":"고객용주문번호 풀려있음 / 토플에 다시 이관해볼게요… /"},
+    {"date":"2026-11-16","time":"18:01","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"대시보드 매출 내역에 대한 VOC","note":""},
   ],
 };
