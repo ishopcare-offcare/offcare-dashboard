@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34231,
+  "version": 34232,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332454,7 +332454,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "menu": {
-          "김동욱": 1
+          "김동욱": 2
         }
       },
       "pending": [
@@ -332472,6 +332472,18 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:51",
+          "store": "명인칼국수·만두 무안남악점",
+          "biz": "6867800249",
+          "cat": "menu",
+          "emp": "김동욱",
+          "req": "하이오더용 선불테이블 5대 생성 부탁드립니다.",
+          "hw": "",
+          "intake": "offline",
+          "note": "생성완료",
+          "rr": 2
+        },
         {
           "time": "10:43",
           "store": "카페루이스",
@@ -332691,7 +332703,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 17,
-        "offline": 3,
+        "offline": 4,
         "unknown": 0
       },
       "updatedAt": "10:51",
@@ -332783,18 +332795,18 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794793963.904,
+        "lastSeen": 1794794046.21,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794793963.904
+        "lastSeen": 1794794046.21
       },
       "1794793587.176289": {
         "post": "1794793587.176289",
-        "lastSeen": 1794793963.904,
+        "lastSeen": 1794794046.21,
         "r": 1,
         "day": "2026-11-16",
         "idx": 14
@@ -459511,7 +459523,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:53",
+    "at": "2026-11-16 10:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459672,7 +459684,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:52",
+    "at": "2026-11-16 10:54",
     "pri": {
       "days": 0,
       "failed": [],
