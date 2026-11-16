@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5300,
- "updatedAt": "2026-11-15 20:15",
+ "version": 5301,
+ "updatedAt": "2026-11-16 09:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1794787216.462239",
+   "date": "2026-11-16",
+   "time": "09:00",
+   "store": "곱창입니다만",
+   "biz": "4112052841",
+   "pos": "오케이포스",
+   "content": "여기 메뉴 작업 후 아래와 같이 세팅이 필요하여 메뉴작업 후 세팅 이관 부탁드립니다.:꾸벅:\n\n <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1794639212954339|https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1794639212954339>\n상호: 곱창입니다만 / KIS\n사업자번호: ···\n핸드폰 번호: ··· / 아이폰\n주소: 충청남도 아산시 둔포면\n인입유형: 온라인\n공급유형: 임대\n배달제휴:\n자대리점: N\n내용: 여기 지난주 오케이포스 프로그램 설치건으로 상담 후 전산업무 이후 이번주 수요일쯤 원격으로 다운로드 해주신다고 하셨다는데 혹시 확인 및 진행 가능할까요?\n<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793953294326499|https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1793953294326499>",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794787216462239"
+  },
   {
    "ts": "1794736427.991369",
    "date": "2026-11-15",
