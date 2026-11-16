@@ -3,10 +3,112 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5340,
- "updatedAt": "2026-11-16 14:59",
+ "version": 5341,
+ "updatedAt": "2026-11-16 15:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1794811556.473989",
+   "date": "2026-11-16",
+   "time": "15:45",
+   "store": "은성한정식",
+   "biz": "5298703678",
+   "pos": "퍼스트포스",
+   "content": "금액수정 (파일 첨부)",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/16LBTNyXS7qrKf2THp-EuvG8Q8jDUIAFP/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1XvmyNIhHKnBUds1-qzqsOYCAB-Q4-eLg/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1m9SxrofP57fHcVV-Ss0FJvm_4h7MlhBo/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "16LBTNyXS7qrKf2THp-EuvG8Q8jDUIAFP",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "은성 한상차림",
+       "name": "간장게장 정식",
+       "price": 50000
+      },
+      {
+       "category": "은성 한상차림",
+       "name": "보리굴비 정식",
+       "price": 43000
+      },
+      {
+       "category": "은성 한상차림",
+       "name": "한우불고기 정식",
+       "price": 40000
+      },
+      {
+       "category": "은성 한상차림",
+       "name": "소갈비찜 정식",
+       "price": 47000
+      },
+      {
+       "category": "은성 한상차림",
+       "name": "장어구이 정식",
+       "price": 52000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1XvmyNIhHKnBUds1-qzqsOYCAB-Q4-eLg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "점심 특선",
+       "price": 48000
+      },
+      {
+       "category": "단품 주문 / Extra Order",
+       "name": "보리굴비",
+       "price": 20000
+      },
+      {
+       "category": "단품 주문 / Extra Order",
+       "name": "간장게장",
+       "price": 30000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "id": "1m9SxrofP57fHcVV-Ss0FJvm_4h7MlhBo",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "정성 은성 코스 A",
+       "price": 61000
+      },
+      {
+       "category": "단품 주문 / Extra Order",
+       "name": "보리굴비",
+       "price": 20000
+      },
+      {
+       "category": "단품 주문 / Extra Order",
+       "name": "간장게장",
+       "price": 30000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794811556473989"
+  },
   {
    "ts": "1794808278.591639",
    "date": "2026-11-16",
