@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5353,
- "updatedAt": "2026-11-16 16:47",
+ "version": 5354,
+ "updatedAt": "2026-11-16 16:48",
  "days": 30,
  "items": [
   {
@@ -570,10 +570,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "등록/솔라피전송",
     "님, 안녕하세요! 해당 가맹점 삭제 안되어야 하는 건 삭제 되고, 이전 꺼 복구 하고 전화 통화하면서 수정 희망 하신다고 합니다..!",
-    "전화 가능할까요…?"
+    "전화 가능할까요…?",
+    "넵 전화드릴게요!"
    ],
-   "rc": 3,
-   "lr": "1794815064.083959",
+   "rc": 4,
+   "lr": "1794815262.782629",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
