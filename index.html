@@ -1909,8 +1909,9 @@ const TEN_ORDER = ["김현기","심성현","배선유","송태양","김규빈"];
 const TEN_ANCHOR_DATE = "2026-07-27";
 const TEN_ORDER_CHANGES = [   // from 은 월요일 (주 단위 배정 기준일)
   {from:"2026-11-02", order:["심성현","배선유","송태양","김규빈","고경림"]},   // 고경림 합류(김규빈 다음) · 김현기 제외 · 11월 첫 월요일
+  {from:"2026-11-23", order:["김기범","송태양","심성현","고경림"], start:"김기범"},   // 로테이션 재편 · 배선유·김규빈 제외 · 김기범부터
 ];
-// 주 단위 순번 계산(변경 이력 반영). w = 앵커로부터 몇째 주인지.
+// 주 단위 순번 계산(변경 이력 반영). w = 앵커로부터 몇째 주인지. 변경 항목에 start 가 있으면 그 주는 그 사람부터.
 function rotPerson(order, idx, anchor, changes, ds){
   const wk=v=>Math.round((parseYmd(v)-parseYmd(anchor))/(7*86400000));
   const at=(o,i,n)=>o[(((i+n)%o.length)+o.length)%o.length];
@@ -1919,7 +1920,7 @@ function rotPerson(order, idx, anchor, changes, ds){
     if(ds<c.from) break;
     const wc=wk(c.from);   // 바뀌는 첫 주 = 이전 순번의 담당. 그 사람이 새 목록에서 빠졌으면 이전 순번상 다음 사람부터
     let k=0; while(k<order.length-1 && !c.order.includes(at(order, idx, wc-w0+k))) k++;
-    const who=at(order, idx, wc-w0+k);
+    const who=c.start||at(order, idx, wc-w0+k);
     order=c.order; idx=Math.max(0, order.indexOf(who)); w0=wc;
   }
   return at(order, idx, wk(ds)-w0);
