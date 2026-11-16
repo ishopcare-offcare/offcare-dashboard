@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5348,
- "updatedAt": "2026-11-16 16:21",
+ "version": 5349,
+ "updatedAt": "2026-11-16 16:24",
  "days": 30,
  "items": [
   {
@@ -20,7 +20,144 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1ki9dDjofRt3GfM4y525wnchuOvWrwQsa/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "2163400973_2026-11-16T07-19-41_1_1794813",
+     "fid": "F0CHVGHLZUM",
+     "from": "댓글",
+     "path": "menu-files/1794813584_633619-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "CUT",
+       "name": "남성컷",
+       "price": 17000
+      },
+      {
+       "category": "CUT",
+       "name": "여성컷",
+       "price": 20000
+      },
+      {
+       "category": "CUT",
+       "name": "학생컷 디자인",
+       "price": 17000
+      },
+      {
+       "category": "CUT",
+       "name": "학생컷 일반",
+       "price": 15000
+      },
+      {
+       "category": "CUT",
+       "name": "앞머리컷",
+       "price": 4000
+      },
+      {
+       "category": "PERM",
+       "name": "베이직펌",
+       "price": 60000
+      },
+      {
+       "category": "PERM",
+       "name": "셋팅 디지털",
+       "price": 105000
+      },
+      {
+       "category": "PERM",
+       "name": "매직",
+       "price": 110000
+      },
+      {
+       "category": "PERM",
+       "name": "볼륨매직",
+       "price": 120000
+      },
+      {
+       "category": "PERM",
+       "name": "남자 아이롱",
+       "price": 100000
+      },
+      {
+       "category": "PERM",
+       "name": "여자 아이롱",
+       "price": 200000
+      },
+      {
+       "category": "PERM",
+       "name": "뿌리 아이롱",
+       "price": 40000
+      },
+      {
+       "category": "PERM",
+       "name": "복구펌",
+       "price": 200000
+      },
+      {
+       "category": "COLOR",
+       "name": "뿌리염색",
+       "price": 45000
+      },
+      {
+       "category": "COLOR",
+       "name": "전체염색",
+       "price": 70000
+      },
+      {
+       "category": "COLOR",
+       "name": "뿌리탈색",
+       "price": 65000
+      },
+      {
+       "category": "COLOR",
+       "name": "전체탈색",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "COLOR",
+       "name": "왁싱",
+       "price": 75000
+      },
+      {
+       "category": "CLINIC",
+       "name": "무코타크리닉",
+       "price": 70000
+      },
+      {
+       "category": "CLINIC",
+       "name": "앰플",
+       "price": 15000
+      },
+      {
+       "category": "DRY",
+       "name": "드라이",
+       "price": 20000
+      },
+      {
+       "category": "DRY",
+       "name": "웨이브드라이",
+       "price": 25000
+      },
+      {
+       "category": "DRY",
+       "name": "뿌리염색 시 컷",
+       "price": 12000
+      },
+      {
+       "category": "DRY",
+       "name": "컷, 염색 시 드라이",
+       "price": 10000
+      },
+      {
+       "category": "DRY",
+       "name": "샴푸추가",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [
     {
      "id": "1ki9dDjofRt3GfM4y525wnchuOvWrwQsa",
@@ -157,11 +294,11 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794813857.855759",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794813584633619"
   },
   {
@@ -180,8 +317,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "• 디저트 \n    ◦ 다과세트 20,000원"
    ],
-   "rc": 1,
-   "lr": "1794812489.422029",
+   "rc": 2,
+   "lr": "1794813809.265899",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
