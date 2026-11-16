@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5355,
- "updatedAt": "2026-11-16 16:54",
+ "version": 5356,
+ "updatedAt": "2026-11-16 17:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1794817687.259559",
+   "date": "2026-11-16",
+   "time": "17:28",
+   "store": "카페 크레마",
+   "biz": "5011385481",
+   "pos": "토스포스",
+   "content": "전메뉴",
+   "special": "추가옵션에 오트밀크 +1000원 샷추가 +800원 시럽추가 +500원 넣어주세요",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794817687259559"
+  },
   {
    "ts": "1794815064.510539",
    "date": "2026-11-16",
