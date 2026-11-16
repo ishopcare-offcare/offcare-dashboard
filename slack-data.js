@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34215,
+  "version": 34216,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332439,6 +332439,9 @@ window.SLACK_DATA = {
     },
     "2026-11-16": {
       "counts": {
+        "extern": {
+          "김현기": 1
+        },
         "as": {
           "고경림": 5,
           "송태양": 3,
@@ -332450,6 +332453,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:24",
+          "store": "",
+          "biz": "",
+          "cat": "extern",
+          "emp": "김현기",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "키오스크 외주",
+          "rr": 1
+        },
         {
           "time": "10:05",
           "store": "헤어클로제",
@@ -332584,11 +332599,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 11,
+        "online": 12,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:21",
+      "updatedAt": "10:24",
       "voc": {
         "responses": 2,
         "install": {
@@ -332677,25 +332692,25 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794792227.677,
+        "lastSeen": 1794792313.493,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794792227.677
+        "lastSeen": 1794792313.493
       },
       "1794791086.165709": {
         "post": "1794791086.165709",
-        "lastSeen": 1794792227.677,
+        "lastSeen": 1794792313.493,
         "r": 1,
         "day": "2026-11-16",
         "idx": 10
       },
       "1794792113.943729": {
         "post": "1794792113.943729",
-        "lastSeen": 1794792227.677,
+        "lastSeen": 1794792313.493,
         "r": 1,
         "day": "2026-11-16",
         "idx": 11
@@ -459384,7 +459399,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:24",
+    "at": "2026-11-16 10:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459545,7 +459560,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:23",
+    "at": "2026-11-16 10:25",
     "pri": {
       "days": 0,
       "failed": [],
