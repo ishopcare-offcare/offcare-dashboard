@@ -3,10 +3,171 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5356,
- "updatedAt": "2026-11-16 17:28",
+ "version": 5357,
+ "updatedAt": "2026-11-16 17:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1794817770.625079",
+   "date": "2026-11-16",
+   "time": "17:29",
+   "store": "카페크레마",
+   "biz": "5014385481",
+   "pos": "토스포스",
+   "content": "전메뉴",
+   "special": "전에 넣었던 특이사항 반영해주세요",
+   "drive": [
+    "https://drive.google.com/file/d/1kEiUdFEqxUcO9-npuxbB8F7AT7dqcnD5/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1kEiUdFEqxUcO9-npuxbB8F7AT7dqcnD5",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜크림라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라크림라떼",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "돌체라떼",
+       "price": 4800
+      },
+      {
+       "category": "Ade",
+       "name": "레몬에이드",
+       "price": 5000
+      },
+      {
+       "category": "Ade",
+       "name": "자몽에이드",
+       "price": 5000
+      },
+      {
+       "category": "Ade",
+       "name": "패션후르츠에이드",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "진저레몬티",
+       "price": 4500
+      },
+      {
+       "category": "Tea",
+       "name": "유자민트티",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "복숭아아이스티",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "히비스커스티",
+       "price": 4500
+      },
+      {
+       "category": "Latte",
+       "name": "초코라떼",
+       "price": 4500
+      },
+      {
+       "category": "Latte",
+       "name": "딸기라떼",
+       "price": 5000
+      },
+      {
+       "category": "Latte",
+       "name": "딸기말차라떼",
+       "price": 5500
+      },
+      {
+       "category": "Latte",
+       "name": "말차초코라떼",
+       "price": 5500
+      },
+      {
+       "category": "Latte",
+       "name": "감귤초코라떼",
+       "price": 5500
+      },
+      {
+       "category": "Smoothie",
+       "name": "플레인 요거트 스무디",
+       "price": 5000
+      },
+      {
+       "category": "Smoothie",
+       "name": "딸기스무디",
+       "price": 5500
+      },
+      {
+       "category": "Smoothie",
+       "name": "블루베리스무디",
+       "price": 5500
+      },
+      {
+       "category": "Smoothie",
+       "name": "딸기요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "Smoothie",
+       "name": "블루베리 요거트 스무디",
+       "price": 6000
+      },
+      {
+       "category": "Bingsu",
+       "name": "옛날 팥빙수",
+       "price": 12400
+      },
+      {
+       "category": "Bingsu",
+       "name": "초코빙수",
+       "price": 14000
+      },
+      {
+       "category": "Bingsu",
+       "name": "초코나무숲빙수",
+       "price": 15400
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794817770625079"
+  },
   {
    "ts": "1794817687.259559",
    "date": "2026-11-16",
