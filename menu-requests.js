@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5324,
- "updatedAt": "2026-11-16 12:13",
+ "version": 5325,
+ "updatedAt": "2026-11-16 12:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1794801066.556529",
+   "date": "2026-11-16",
+   "time": "12:51",
+   "store": "킨텍스2전시장 뚜레쥬르",
+   "biz": "1283678896",
+   "pos": "토스포스",
+   "content": "수정\n순수한맛순우유롤\n3600》4000\n미니초코콕콕쿠키\n2000》2200\n미니넛츠콕콕쿠키\n2000》2200",
+   "special": "···",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794801066556529"
+  },
   {
    "ts": "1794798432.600349",
    "date": "2026-11-16",
