@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5359,
- "updatedAt": "2026-11-16 17:35",
+ "version": 5360,
+ "updatedAt": "2026-11-16 17:57",
  "days": 30,
  "items": [
+  {
+   "ts": "1794819401.430759",
+   "date": "2026-11-16",
+   "time": "17:56",
+   "store": "강창구진순대 가산점",
+   "biz": "5540700603",
+   "pos": "토스포스",
+   "content": "변경전: 메뉴>식사류>참이슬클래식5000\n변경후: 카스제로 3500",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794819401430759"
+  },
   {
    "ts": "1794817770.625079",
    "date": "2026-11-16",
