@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34233,
+  "version": 34234,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332493,7 +332493,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 사용 매장으로, 포장 할인을 하는 매장으로 오늘 갑자기 기존 할인을 적용하면,",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "상품별 할인에 총할인시킬금액을 입력하심 ex) 아메리카노 한잔당 500원 할인 5잔결제 → 잔당 2500원 할인 적용을 시키심 • 할인방법 안내완료 할인방법 안내완료",
+          "rr": 1
         },
         {
           "time": "10:43",
@@ -332717,7 +332718,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:51",
+      "updatedAt": "10:55",
       "voc": {
         "responses": 2,
         "install": {
@@ -332806,14 +332807,14 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794794117.108,
+        "lastSeen": 1794794183.873,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794794117.108
+        "lastSeen": 1794794183.873
       }
     },
     "days": {
@@ -459528,7 +459529,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:55",
+    "at": "2026-11-16 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459689,7 +459690,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:55",
+    "at": "2026-11-16 10:56",
     "pri": {
       "days": 0,
       "failed": [],
