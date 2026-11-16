@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34217,
+  "version": 34218,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332475,7 +332475,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 토스포스 우측하단 프론트 화면 설정 &gt; 결제수단 미리 선택하기 &gt; OFF 완료 + 토스포스 우측하단 프론트 화면 설정 결제수단 미리 선택하기 OFF 완료 +",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "10:05",
@@ -332704,18 +332704,18 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794792412.358,
+        "lastSeen": 1794792565.261,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794792412.358
+        "lastSeen": 1794792565.261
       },
       "1794791086.165709": {
         "post": "1794791086.165709",
-        "lastSeen": 1794792412.358,
+        "lastSeen": 1794792565.261,
         "r": 1,
         "day": "2026-11-16",
         "idx": 10
@@ -459405,7 +459405,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:27",
+    "at": "2026-11-16 10:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459566,7 +459566,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:26",
+    "at": "2026-11-16 10:29",
     "pri": {
       "days": 0,
       "failed": [],
