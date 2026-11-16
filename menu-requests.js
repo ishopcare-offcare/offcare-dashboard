@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5352,
- "updatedAt": "2026-11-16 16:46",
+ "version": 5353,
+ "updatedAt": "2026-11-16 16:47",
  "days": 30,
  "items": [
   {
@@ -18,13 +18,114 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHZ1FPQAJ",
+     "from": "댓글",
+     "path": "menu-files/1794815064_510539-0.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "",
+       "name": "하이오더01",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더02",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더03",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더04",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더05",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더06",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더07",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더08",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더09",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더10",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더11",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더12",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더13",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더14",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "",
+       "name": "하이오더15",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [
     "cc. <!subteam^S0ANH6Q13D1>"
    ],
-   "rc": 1,
-   "lr": "1794815139.423929",
+   "rc": 2,
+   "lr": "1794815223.676489",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
