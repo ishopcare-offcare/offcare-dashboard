@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5315,
- "updatedAt": "2026-11-16 11:41",
+ "version": 5316,
+ "updatedAt": "2026-11-16 11:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1794797490.651959",
+   "date": "2026-11-16",
+   "time": "11:51",
+   "store": "우현횟집",
+   "biz": "3766700875",
+   "pos": "토스포스",
+   "content": "취소 주문서는 1한장 출력되게 가능한가요?\n\n주류ㅡ레몬슬라이스 출력되게 해주세요\n\n그리고 용지 주문은 어디로 하면될까요?",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794797490651959"
+  },
   {
    "ts": "1794796273.507949",
    "date": "2026-11-16",
