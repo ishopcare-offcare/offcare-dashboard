@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5361,
- "updatedAt": "2026-11-16 19:32",
+ "version": 5362,
+ "updatedAt": "2026-11-16 20:05",
  "days": 30,
  "items": [
   {
@@ -66961,29 +66961,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792369189246859"
-  },
-  {
-   "ts": "1792235083.087079",
-   "date": "2026-10-17",
-   "time": "20:04",
-   "store": "용용선생 광주수완점",
-   "biz": "3260102789",
-   "pos": "",
-   "content": "새로 자몽진 6000원이랑 청하 6000원 포스기에 넣어주세여",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "예쑤"
-   ],
-   "rc": 3,
-   "lr": "1792240311.877429",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792235083087079"
   }
  ],
  "ocr": {
