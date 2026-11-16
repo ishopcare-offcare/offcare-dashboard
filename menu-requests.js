@@ -3,10 +3,197 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5337,
- "updatedAt": "2026-11-16 14:46",
+ "version": 5338,
+ "updatedAt": "2026-11-16 14:52",
  "days": 30,
  "items": [
+  {
+   "ts": "1794808278.591639",
+   "date": "2026-11-16",
+   "time": "14:51",
+   "store": "정육점육회 평택소사벌점",
+   "biz": "4643801400",
+   "pos": "",
+   "content": "신규 설치 메뉴 등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "92FD6EA5-C4C5-4219-9B8D-185E5EDB3A15.PNG",
+     "fid": "F0CJ23P1XR7",
+     "from": "댓글",
+     "path": "menu-files/1794808278_591639-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 육회 1인",
+       "price": 16900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 육회 2인",
+       "price": 29900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 육회 3인",
+       "price": 39900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "특급 한우 육사시미 1인",
+       "price": 18900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "특급 한우 육사시미 2인",
+       "price": 37900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "특급 한우 육사시미 3인",
+       "price": 46900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 큐브 뭉티기 1인",
+       "price": 17900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 큐브 뭉티기 2인",
+       "price": 32900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 큐브 뭉티기 3인",
+       "price": 42900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 육회 + 사시미 + 뭉티기 세트 2인",
+       "price": 33900
+      },
+      {
+       "category": "한우 생고기 세트메뉴",
+       "name": "한우 육회 + 사시미 + 뭉티기 세트 3인",
+       "price": 43900
+      },
+      {
+       "category": "식사 메뉴",
+       "name": "육회비빔밥",
+       "price": 12000
+      },
+      {
+       "category": "식사 메뉴",
+       "name": "비빔밥 곱빼기",
+       "price": 15000
+      },
+      {
+       "category": "사이드 메뉴",
+       "name": "편육",
+       "price": 8900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "한우 차돌박이 (200g)",
+       "price": 22000
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "한우 차돌육회 (차돌 + 육회)",
+       "price": 38000
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "고소한 한우 차돌박이 사시미 세트 2인",
+       "price": 39900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "고소한 한우 차돌박이 사시미 세트 3인",
+       "price": 48900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "차돌 반반 사시미육회 세트 2인",
+       "price": 38900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "차돌 반반 사시미육회 세트 3인",
+       "price": 47900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "차돌사시미 + 한우사시미 반반 2인",
+       "price": 38900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "차돌사시미 + 한우사시미 반반 3인",
+       "price": 47900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "차돌육회 + 한우육회 반반 2인",
+       "price": 32900
+      },
+      {
+       "category": "차돌 메뉴",
+       "name": "차돌육회 + 한우육회 반반 3인",
+       "price": 41900
+      },
+      {
+       "category": "안주용 국물",
+       "name": "육개장 (안주용)",
+       "price": 6900
+      },
+      {
+       "category": "안주용 국물",
+       "name": "내장탕 (안주용)",
+       "price": 7600
+      },
+      {
+       "category": "안주용 국물",
+       "name": "계란 추가",
+       "price": 500
+      },
+      {
+       "category": "안주용 국물",
+       "name": "공기밥",
+       "price": 1500
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "음료",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794808348.872489",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794808278591639"
+  },
   {
    "ts": "1794806790.936009",
    "date": "2026-11-16",
