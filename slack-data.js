@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34206,
+  "version": 34207,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332440,8 +332440,8 @@ window.SLACK_DATA = {
     "2026-11-16": {
       "counts": {
         "as": {
+          "고경림": 4,
           "송태양": 3,
-          "고경림": 3,
           "김동욱": 2
         },
         "booking": {
@@ -332463,6 +332463,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:00",
+          "store": "채가로움",
+          "biz": "1072126645",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "포프(데스크탑) 사용 중, 유프 출력 불가로 인한 점검 요청드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:35",
           "store": "한소곰식당",
@@ -332573,11 +332584,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 9,
+        "online": 10,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:00",
+      "updatedAt": "10:05",
       "voc": {
         "responses": 2,
         "install": {
@@ -332656,14 +332667,22 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794791000.954,
+        "lastSeen": 1794791118.76,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794791000.954
+        "lastSeen": 1794791118.76
+      },
+      "1794791110.549489": {
+        "post": "1794791110.549489",
+        "lastSeen": 1794791118.76
+      },
+      "1794791086.165709": {
+        "post": "1794791086.165709",
+        "lastSeen": 1794791118.76
       }
     },
     "days": {
@@ -459324,7 +459343,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:03",
+    "at": "2026-11-16 10:05",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459485,7 +459504,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:03",
+    "at": "2026-11-16 10:05",
     "pri": {
       "days": 0,
       "failed": [],
