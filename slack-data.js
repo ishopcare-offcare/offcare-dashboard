@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34225,
+  "version": 34226,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332440,7 +332440,7 @@ window.SLACK_DATA = {
     "2026-11-16": {
       "counts": {
         "as": {
-          "고경림": 6,
+          "고경림": 7,
           "송태양": 4,
           "김동욱": 2
         },
@@ -332469,6 +332469,17 @@ window.SLACK_DATA = {
         }
       ],
       "done": [
+        {
+          "time": "10:41",
+          "store": "형아우삼계탕",
+          "biz": "4120636227",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "보조 포스기 전원 켰는데 ‘포스데이터베이스 접속 오류입니다 대상 컴퓨터에서 연결을 거로 연결하지 못 했습니다’ 라고 나온다고 하여 급하게 원격요청주셨습니다.(인터넷은 문제가 없다고하십니다.)",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "10:35",
           "store": "카페드롭탑 광주송정점",
@@ -332652,10 +332663,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 15,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "10:41",
+      "updatedAt": "10:43",
       "voc": {
         "responses": 2,
         "install": {
@@ -332744,14 +332755,18 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794793375.702,
+        "lastSeen": 1794793449.637,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794793375.702
+        "lastSeen": 1794793449.637
+      },
+      "1794793380.136639": {
+        "post": "1794793380.136639",
+        "lastSeen": 1794793449.637
       }
     },
     "days": {
@@ -459448,7 +459463,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:43",
+    "at": "2026-11-16 10:44",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459609,7 +459624,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:42",
+    "at": "2026-11-16 10:44",
     "pri": {
       "days": 0,
       "failed": [],

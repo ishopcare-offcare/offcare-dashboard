@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5304,
- "updatedAt": "2026-11-16 10:43",
+ "version": 5305,
+ "updatedAt": "2026-11-16 10:45",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,174 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "20261113_153001.jpg",
+     "fid": "F0CHYLH21FU",
+     "from": "댓글",
+     "path": "menu-files/1794793380_136639-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "초코라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "말차라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "견과라떼",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "새싹인삼라떼",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "생레몬에이드",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "자몽에이드",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "카모마일",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "얼그레이",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "히비스커스",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "페퍼민트",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "아이스티",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "루이보스카라멜",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "수제 밀크티",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "수제 대추차",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "수제 대추라떼",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "20261113_152959.jpg",
+     "fid": "F0CHWSZK0R4",
+     "from": "댓글",
+     "path": "menu-files/1794793380_136639-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "에스쁘레쏘",
+       "name": "리스뜨레또",
+       "price": 3000
+      },
+      {
+       "category": "에스쁘레쏘",
+       "name": "시그니처 (리스뜨레또+스팀밀크)",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "아메리까노",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "오트밀 허니라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "돌체 카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "카푸치노",
+       "price": 4500
+      },
+      {
+       "category": "",
+       "name": "아인슈페너",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "숙성 더치커피",
+       "price": 4000
+      },
+      {
+       "category": "",
+       "name": "핸드드립커피",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "디카페인",
+       "price": 500
+      },
+      {
+       "category": "",
+       "name": "사이즈업",
+       "price": 1000
+      },
+      {
+       "category": "",
+       "name": "샷추가",
+       "price": 500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "메뉴 남겨드립니다"
+   ],
+   "rc": 1,
+   "lr": "1794793443.417239",
    "rfx": 3,
    "status": "wait",
    "handler": null,
