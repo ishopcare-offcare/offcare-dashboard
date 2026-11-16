@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5312,
- "updatedAt": "2026-11-16 11:30",
+ "version": 5313,
+ "updatedAt": "2026-11-16 11:32",
  "days": 30,
  "items": [
+  {
+   "ts": "1794796273.507949",
+   "date": "2026-11-16",
+   "time": "11:31",
+   "store": "구어랑(한정식&생선구이)",
+   "biz": "4531802788",
+   "pos": "",
+   "content": "테이블수정",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "김동욱",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794796273507949"
+  },
   {
    "ts": "1794796185.510059",
    "date": "2026-11-16",
@@ -23,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "20261105_150216.jpg",
      "fid": "F0CHSSHVB35",
      "from": "원글",
-     "path": "menu-files/1794796185_510059-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -37,13 +57,13 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794796185_510059-0.jpg"
     },
     {
      "name": "20261105_150222.jpg",
      "fid": "F0CHHN67M1V",
      "from": "원글",
-     "path": "menu-files/1794796185_510059-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -57,13 +77,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794796185_510059-1.jpg"
     },
     {
      "name": "20261105_150226.jpg",
      "fid": "F0CJTEW6ERW",
      "from": "원글",
-     "path": "menu-files/1794796185_510059-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -72,13 +92,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794796185_510059-2.jpg"
     },
     {
      "name": "20261105_150205.jpg",
      "fid": "F0CHSSK0FS7",
      "from": "원글",
-     "path": "menu-files/1794796185_510059-3.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -157,7 +177,8 @@ window.MENU_REQUESTS = {
        "price": 6000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794796185_510059-3.jpg"
     }
    ],
    "datt": [],
@@ -165,8 +186,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794796185510059"
   },
   {
