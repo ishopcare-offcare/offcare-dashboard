@@ -3,10 +3,202 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5319,
- "updatedAt": "2026-11-16 12:03",
+ "version": 5320,
+ "updatedAt": "2026-11-16 12:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1794798432.600349",
+   "date": "2026-11-16",
+   "time": "12:07",
+   "store": "기장산꼼장어",
+   "biz": "1610302468",
+   "pos": "",
+   "content": "메뉴 등록 요청 드립니다!",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHHU699P1",
+     "from": "댓글",
+     "path": "menu-files/1794798432_600349-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "(소) 구이 (판매)",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "(소) 볶음 (1인분)",
+       "price": 47000
+      },
+      {
+       "category": "",
+       "name": "(중) 구이 1kg",
+       "price": 70000
+      },
+      {
+       "category": "",
+       "name": "(중) 볶음 1kg",
+       "price": 72000
+      },
+      {
+       "category": "",
+       "name": "(대) 구이 1kg",
+       "price": 100000
+      },
+      {
+       "category": "",
+       "name": "(대) 볶음 1kg",
+       "price": 102000
+      },
+      {
+       "category": "",
+       "name": "마음대로 100g당",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "낙장불입 낙지+꼼장어볶음",
+       "price": 45000
+      },
+      {
+       "category": "",
+       "name": "1인을 위한 판매(180g) 국내산 1인분",
+       "price": 22000
+      },
+      {
+       "category": "",
+       "name": "1인을 위한 판매(180g) 수입 1인분",
+       "price": 17000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "불닭발",
+       "price": 18000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "계란찜",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "잔치국수",
+       "price": 6000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "알밥",
+       "price": 7000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "누룽지탕",
+       "price": 5000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "볶음밥(볶음주문시가능)",
+       "price": 2000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "공기밥",
+       "price": 1500
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "육회장탕",
+       "price": 11000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "육개장",
+       "price": 9000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "속풀이 재첩국",
+       "price": 12000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "간재미미짐(반건조)",
+       "price": 23000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "바지락탕 (대)",
+       "price": 30000
+      },
+      {
+       "category": "사이드메뉴",
+       "name": "바지락탕 (중)",
+       "price": 20000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "막걸리",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "청하/별빛청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "복분자",
+       "price": 15000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 2000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "굴찜 (대)",
+       "price": 40000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "굴찜 (중)",
+       "price": 30000
+      },
+      {
+       "category": "계절메뉴",
+       "name": "홍가리비찜",
+       "price": 20000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794798441.241309",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794798432600349"
+  },
   {
    "ts": "1794798209.710479",
    "date": "2026-11-16",
