@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34203,
+  "version": 34204,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332448,7 +332448,20 @@ window.SLACK_DATA = {
           "송태양": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "09:00",
+          "store": "곱창입니다만",
+          "biz": "4112052841",
+          "handler": "송태양",
+          "cat": "menu",
+          "intake": "online",
+          "req": "여기 메뉴 작업 후 아래와 같이 세팅이 필요하여 메뉴작업 후 세팅 이관 부탁드립니다.:꾸벅:",
+          "reasons": [
+            "1차 부재"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "09:35",
@@ -332459,7 +332472,8 @@ window.SLACK_DATA = {
           "req": "본인 소유 포스기 변경 후 재온보딩 했으나, 영수증만 출력되지 않아서 도움 요청 드립니다 :woman-bowing::skin-tone-2:",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "• 자체 보유 포스기 불량 → 또다른 자체 보유 포스기로 교체 • 토스포스 재온보딩 완료입니다 자체 보유 포스기 불량 → 또다른 자체 보유 포스기로 교체 토스포스 재온보딩 완료입니다",
+          "rr": 1
         },
         {
           "time": "09:16",
@@ -332559,11 +332573,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:55",
+      "updatedAt": "10:00",
       "voc": {
         "responses": 2,
         "install": {
@@ -332642,14 +332656,14 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794790753.588,
+        "lastSeen": 1794790818.477,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794790753.588
+        "lastSeen": 1794790818.477
       }
     },
     "days": {
@@ -459310,7 +459324,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 09:59",
+    "at": "2026-11-16 10:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459471,7 +459485,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 09:59",
+    "at": "2026-11-16 10:00",
     "pri": {
       "days": 0,
       "failed": [],
