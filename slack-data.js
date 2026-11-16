@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34220,
+  "version": 34221,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332447,6 +332447,9 @@ window.SLACK_DATA = {
           "고경림": 5,
           "김동욱": 2
         },
+        "onboarding": {
+          "고경림": 1
+        },
         "booking": {
           "송태양": 1
         }
@@ -332488,6 +332491,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "1차부재 통화중 / 프론트2+터미널1 단순결제 재온보딩완료",
           "rr": 2
+        },
+        {
+          "time": "10:04",
+          "store": "어푸 키친",
+          "biz": "5074400790",
+          "cat": "onboarding",
+          "emp": "고경림",
+          "req": "포프(포스기) 사용 매장, 밴 변경으로 인한 프론트 재온보딩 요청드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "재온보딩완료",
+          "rr": 1
         },
         {
           "time": "10:00",
@@ -332611,11 +332626,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "10:24",
+      "updatedAt": "10:35",
       "voc": {
         "responses": 2,
         "install": {
@@ -332704,21 +332719,18 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794792855.044,
+        "lastSeen": 1794792910.658,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794792855.044
+        "lastSeen": 1794792910.658
       },
-      "1794791086.165709": {
-        "post": "1794791086.165709",
-        "lastSeen": 1794792855.044,
-        "r": 1,
-        "day": "2026-11-16",
-        "idx": 10
+      "1794792908.295589": {
+        "post": "1794792908.295589",
+        "lastSeen": 1794792910.658
       }
     },
     "days": {
@@ -459389,7 +459401,8 @@ window.SLACK_DATA = {
             "store": "어푸 키친",
             "biz": "5074400790",
             "who": "고경림",
-            "cat": "as"
+            "cat": "onboarding",
+            "dmin": 29.9
           },
           {
             "hm": "10:21",
@@ -459405,7 +459418,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 10:34",
+    "at": "2026-11-16 10:35",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459566,7 +459579,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 10:34",
+    "at": "2026-11-16 10:35",
     "pri": {
       "days": 0,
       "failed": [],
