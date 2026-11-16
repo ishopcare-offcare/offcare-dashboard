@@ -3,10 +3,110 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5334,
- "updatedAt": "2026-11-16 14:17",
+ "version": 5335,
+ "updatedAt": "2026-11-16 14:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1794806790.936009",
+   "date": "2026-11-16",
+   "time": "14:26",
+   "store": "계업식",
+   "biz": "7380800722",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴 등록 요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CHUP4FB9B",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "치킨 하야시라이스(알런심)",
+       "price": 10000
+      },
+      {
+       "category": "",
+       "name": "요다레 멘치카츠(무복심)",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "버터크림커리(닭가슴살)",
+       "price": 15000
+      },
+      {
+       "category": "",
+       "name": "마늘 누룽지 치킨(한정)",
+       "price": 23000
+      },
+      {
+       "category": "",
+       "name": "제육덮밥(닭정육,삼겹살)",
+       "price": 12500
+      },
+      {
+       "category": "",
+       "name": "나폴리탄(닭안심)",
+       "price": 14500
+      },
+      {
+       "category": "",
+       "name": "버섯크림파스타(닭안심)",
+       "price": 16000
+      },
+      {
+       "category": "",
+       "name": "양념치킨",
+       "price": 20000
+      },
+      {
+       "category": "",
+       "name": "후라이드 치킨",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CHY3BTL3Y",
+     "from": "댓글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "참깨두부 Sesame Tofu",
+       "price": 2500
+      },
+      {
+       "category": "",
+       "name": "고구마 Sweet Potato",
+       "price": 7000
+      },
+      {
+       "category": "",
+       "name": "감자칩 Potato Chips",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794806827.716049",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794806790936009"
+  },
   {
    "ts": "1794805976.144419",
    "date": "2026-11-16",
