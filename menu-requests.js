@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5310,
- "updatedAt": "2026-11-16 11:26",
+ "version": 5311,
+ "updatedAt": "2026-11-16 11:28",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,228 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "511948738022273024_mms_13175_23251.jpg",
+     "fid": "F0CJTEGB55E",
+     "from": "댓글",
+     "path": "menu-files/1794795999_281689-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "PASTA",
+       "name": "Pasta al pomodoro con burrata",
+       "price": 22000,
+       "code": "1"
+      },
+      {
+       "category": "PASTA",
+       "name": "Pasta alla puttanesca",
+       "price": 22000,
+       "code": "2"
+      },
+      {
+       "category": "PASTA",
+       "name": "Pasta alla carbonara al pistacchio",
+       "price": 24000,
+       "code": "3"
+      },
+      {
+       "category": "PASTA",
+       "name": "Pasta al ragu' di porcini",
+       "price": 26000,
+       "code": "4"
+      },
+      {
+       "category": "PIATTI SPECIALE",
+       "name": "Lasagna alla Parmigiana",
+       "price": 28000,
+       "code": "1"
+      },
+      {
+       "category": "PIATTI SPECIALE",
+       "name": "Lasagna alla Mediterranea",
+       "price": 28000,
+       "code": "2"
+      },
+      {
+       "category": "PIATTI SPECIALE",
+       "name": "Ravioli con crema di peperone",
+       "price": 26000,
+       "code": "3"
+      },
+      {
+       "category": "PIATTI SPECIALE",
+       "name": "Ravioli al cacio e pepe",
+       "price": 26000,
+       "code": "4"
+      },
+      {
+       "category": "ANTIPASTI",
+       "name": "Melanzane alla Sorrentina",
+       "price": 16000,
+       "code": "1"
+      },
+      {
+       "category": "ANTIPASTI",
+       "name": "Carpaccio di frutta e prosciutto",
+       "price": 18000,
+       "code": "2"
+      },
+      {
+       "category": "DOLCI",
+       "name": "Torta di Pistacchio",
+       "price": 10000,
+       "code": "1"
+      },
+      {
+       "category": "DOLCI",
+       "name": "Panna cotta",
+       "price": 10000,
+       "code": "2"
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "511948852082176000_mms_13177_23253.jpg",
+     "fid": "F0CHSS4T935",
+     "from": "댓글",
+     "path": "menu-files/1794795999_281689-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COCKTAIL / BIRRA",
+       "name": "Aperol Sprizt (Alcohol)",
+       "price": 12000
+      },
+      {
+       "category": "COCKTAIL / BIRRA",
+       "name": "Campari Sprizt (Alcohol)",
+       "price": 12000
+      },
+      {
+       "category": "COCKTAIL / BIRRA",
+       "name": "Birra Menabrea Ale (Alcohol)",
+       "price": 12000
+      },
+      {
+       "category": "COCKTAIL / BIRRA",
+       "name": "Birra Menabrea Lager (Alcohol)",
+       "price": 12000
+      },
+      {
+       "category": "COCKTAIL / BIRRA",
+       "name": "Birra Menabrea (Non Alcohol)",
+       "price": 12000
+      },
+      {
+       "category": "BIBITE",
+       "name": "Coca Cola / Zero",
+       "price": 4000
+      },
+      {
+       "category": "BIBITE",
+       "name": "San Pellegrino",
+       "price": 4000
+      },
+      {
+       "category": "BIBITE",
+       "name": "Galvanina",
+       "price": 8000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "511948883275214848_mms_13180_23255.jpg",
+     "fid": "F0CHTQAEAAZ",
+     "from": "댓글",
+     "path": "menu-files/1794795999_281689-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "VINO ROSSO",
+       "name": "Barbera d'Alba Conterno Fantino",
+       "price": 85000,
+       "code": "1"
+      },
+      {
+       "category": "VINO ROSSO",
+       "name": "Langhe Nebbiolo Massolino",
+       "price": 90000,
+       "code": "2"
+      },
+      {
+       "category": "VINO ROSSO",
+       "name": "Bolgheri Le Macchiole",
+       "price": 98000,
+       "code": "3"
+      },
+      {
+       "category": "VINO ROSSO",
+       "name": "Barbaresco Massolino",
+       "price": 160000,
+       "code": "4"
+      },
+      {
+       "category": "VINO BIANCO",
+       "name": "Pinot Grigio J. Hofstatter",
+       "price": 85000
+      },
+      {
+       "category": "VINO BIANCO",
+       "name": "Gewurztraminer J. Hofstatter",
+       "price": 98000,
+       "code": "2"
+      },
+      {
+       "category": "FRIZZANTE",
+       "name": "Spumante Brut Alfieri",
+       "price": 48000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "511948978452361216_mms_13181_23257.jpg",
+     "fid": "F0CHHMTFMAT",
+     "from": "댓글",
+     "path": "menu-files/1794795999_281689-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "GLASS WINE",
+       "name": "Pinot Grigio J. Hofstatter 피노 그리죠 조셉 호프스타터 DOC (화이트)",
+       "price": 13000,
+       "code": "1"
+      },
+      {
+       "category": "GLASS WINE",
+       "name": "Gewurztraminer J. Hofstatter 게뷔르츠트라미너 조셉 호프스타터 DOC (화이트)",
+       "price": 15000,
+       "code": "2"
+      },
+      {
+       "category": "GLASS WINE",
+       "name": "Bolgheri Rosso Le Macchiole 볼게리 로쏘 레마끼올레 IGT",
+       "price": 15000,
+       "code": "3"
+      },
+      {
+       "category": "GLASS WINE",
+       "name": "Casa E'di Mirafiore Barolo 카사 에디 미라피오레 바롤로 DOCG",
+       "price": 15000,
+       "code": "4"
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1794796039.467259",
    "rfx": 3,
    "status": "wait",
    "handler": null,
