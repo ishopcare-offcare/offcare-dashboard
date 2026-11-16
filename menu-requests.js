@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5350,
- "updatedAt": "2026-11-16 16:27",
+ "version": 5351,
+ "updatedAt": "2026-11-16 16:44",
  "days": 30,
  "items": [
+  {
+   "ts": "1794815064.510539",
+   "date": "2026-11-16",
+   "time": "16:44",
+   "store": "미자네 김치찜",
+   "biz": "5792302202",
+   "pos": "",
+   "content": "하이오더용 선불테이블 15대 생성 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794815064510539"
+  },
   {
    "ts": "1794813584.633619",
    "date": "2026-11-16",
@@ -444,10 +465,12 @@ window.MENU_REQUESTS = {
     }
    ],
    "replies": [
-    "등록/솔라피전송"
+    "등록/솔라피전송",
+    "님, 안녕하세요! 해당 가맹점 삭제 안되어야 하는 건 삭제 되고, 이전 꺼 복구 하고 전화 통화하면서 수정 희망 하신다고 합니다..!",
+    "전화 가능할까요…?"
    ],
-   "rc": 1,
-   "lr": "1794812063.063929",
+   "rc": 3,
+   "lr": "1794815064.083959",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
