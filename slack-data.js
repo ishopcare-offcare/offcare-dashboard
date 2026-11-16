@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34586,
+  "version": 34587,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334683,15 +334683,32 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-17": {
-      "counts": {},
+      "counts": {
+        "as": {
+          "김동욱": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "07:09",
+          "store": "컴포즈커피 뱅뱅사거리점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "오늘부터 할인되는 신메뉴 4종이",
+          "hw": "",
+          "intake": "online",
+          "note": "키오스크는 할인가가 적용되어 메뉴 노출되나 포스에서는 메뉴 선택 시 할인적용이 됨 안내드림",
+          "rr": 6
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": ""
+      "updatedAt": "07:09"
     }
   },
   "resp": {
@@ -462497,7 +462514,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 07:01",
+    "at": "2026-11-17 07:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462659,7 +462676,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 07:00",
+    "at": "2026-11-17 07:15",
     "pri": {
       "days": 0,
       "failed": [],
