@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5360,
- "updatedAt": "2026-11-16 17:57",
+ "version": 5361,
+ "updatedAt": "2026-11-16 19:32",
  "days": 30,
  "items": [
   {
@@ -66984,32 +66984,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792235083087079"
-  },
-  {
-   "ts": "1792233108.858239",
-   "date": "2026-10-17",
-   "time": "19:31",
-   "store": "",
-   "biz": "",
-   "pos": "토스포스",
-   "content": "[📧 메일] 제목: FW: 토스 아이샵케어 메뉴양식 파일 전달의 건_주디마리 동명점(피치핏치)\n정 태 경 | CEO  :iphone: Mobile: <tel:···|···> :email: Email: <mailto:···|···> :globe_with_meridians: Web: <http://www.judymary.com|www.judymary.com> :camera_with_flash: Insta: @judymary__ :office: 서울본사 : 서울특별시 마포구 :factory: 광주공장: 광주광역시    -----Original Message----- From: \"정태경\"<···> To: \"박근규 (토스포스)\"<···>; Cc\n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a14968831d05d3a>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a14968831d05d3a",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792233108858239"
   }
  ],
  "ocr": {
