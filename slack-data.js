@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34190,
+  "version": 34191,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332441,8 +332441,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "고경림": 3,
-          "송태양": 2,
-          "김동욱": 1
+          "김동욱": 2,
+          "송태양": 2
         },
         "booking": {
           "송태양": 1
@@ -332459,7 +332459,20 @@ window.SLACK_DATA = {
           "req": "주방프린터에서 공기밥, 음료 출력 비희망 → 프린터 설정 경로 안내드렸으나 상품노출이 안된다하여 점검부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "주방주문서 상품별 출력 방법 안내완료",
+          "rr": 1
+        },
+        {
+          "time": "09:14",
+          "store": "버터온",
+          "biz": "7062701273",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "결제 총금액만 뜨는게맞나요?",
+          "hw": "",
+          "intake": "offline",
+          "note": "문의사항 답변 완료",
+          "rr": 1
         },
         {
           "time": "09:11",
@@ -332536,7 +332549,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 7,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
       "updatedAt": "09:16",
@@ -332610,21 +332623,14 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794788816.219,
+        "lastSeen": 1794788912.348,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794788816.219
-      },
-      "1794788043.832379": {
-        "post": "1794788043.832379",
-        "lastSeen": 1794788816.219,
-        "r": 1,
-        "day": "2026-11-16",
-        "idx": 5
+        "lastSeen": 1794788912.348
       }
     },
     "days": {
@@ -459250,7 +459256,8 @@ window.SLACK_DATA = {
             "store": "버터온",
             "biz": "7062701273",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 13.7
           },
           {
             "hm": "09:11",
@@ -459275,7 +459282,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 09:27",
+    "at": "2026-11-16 09:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459436,7 +459443,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 09:26",
+    "at": "2026-11-16 09:28",
     "pri": {
       "days": 0,
       "failed": [],
