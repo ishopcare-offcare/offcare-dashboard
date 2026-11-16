@@ -3,10 +3,172 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5311,
- "updatedAt": "2026-11-16 11:28",
+ "version": 5312,
+ "updatedAt": "2026-11-16 11:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1794796185.510059",
+   "date": "2026-11-16",
+   "time": "11:29",
+   "store": "감동",
+   "biz": "7401202962",
+   "pos": "토스포스",
+   "content": "토스포스 메뉴등록부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 4,
+   "att": [
+    {
+     "name": "20261105_150216.jpg",
+     "fid": "F0CHSSHVB35",
+     "from": "원글",
+     "path": "menu-files/1794796185_510059-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "브라운버터쿠키 chocolate, nuts",
+       "price": 3500
+      },
+      {
+       "category": "",
+       "name": "애플파이 apple pie",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "20261105_150222.jpg",
+     "fid": "F0CHHN67M1V",
+     "from": "원글",
+     "path": "menu-files/1794796185_510059-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "단호박 크림파이 sweet pumkin pie",
+       "price": 6500
+      },
+      {
+       "category": "",
+       "name": "바스크치즈케이크 burnt cheese cake",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "20261105_150226.jpg",
+     "fid": "F0CJTEW6ERW",
+     "from": "원글",
+     "path": "menu-files/1794796185_510059-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "바스크치즈케익 burnt cheese cake",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "20261105_150205.jpg",
+     "fid": "F0CHSSK0FS7",
+     "from": "원글",
+     "path": "menu-files/1794796185_510059-3.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "에스프레소",
+       "price": 2500
+      },
+      {
+       "category": "COFFEE",
+       "name": "에스프레소 + 아메리카노",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "감동라떼 (ice only)",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "유자 샷추",
+       "price": 5500
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "말차라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "딸기밀크티",
+       "price": 6000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "머스캣 루이보스",
+       "price": 5000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "복숭아우롱",
+       "price": 5000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "유자차",
+       "price": 5000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "발로나 초콘라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "이모쿠리 카보차 tea",
+       "price": 5000
+      },
+      {
+       "category": "NON_COFFEE",
+       "name": "IMO KURI KABO milk tea",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "Brewing",
+       "price": 6000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794796185510059"
+  },
   {
    "ts": "1794795999.281689",
    "date": "2026-11-16",
@@ -241,8 +403,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1794796039.467259",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794795999281689"
   },
   {
