@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34257,
+  "version": 34258,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332455,7 +332455,7 @@ window.SLACK_DATA = {
         },
         "menu": {
           "김동욱": 3,
-          "송태양": 1
+          "송태양": 2
         }
       },
       "pending": [],
@@ -332493,6 +332493,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "등록/솔라피전송 완료입니다",
+          "rr": 1
+        },
+        {
+          "time": "11:26",
+          "store": "서울 파스타 일만치노",
+          "biz": "1891601962",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "토스포스 메뉴 등록 요청",
+          "hw": "",
+          "intake": "offline",
+          "note": "",
           "rr": 1
         },
         {
@@ -332787,26 +332799,26 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 24,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "11:36",
+      "updatedAt": "11:40",
       "voc": {
-        "responses": 4,
+        "responses": 5,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 4,
+          "count": 5,
           "low": 0
         },
         "high": {
           "install": 1,
-          "nps": 4
+          "nps": 5
         },
         "npsDist": {
-          "10": 4
+          "10": 5
         },
         "installDist": {
           "5": 1
@@ -332815,6 +332827,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "1개월": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 2,
             "low": 0
@@ -332829,6 +332845,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KOVAN": {
+            "total": 1,
+            "low": 0
+          },
           "KOCES": {
             "total": 2,
             "low": 0
@@ -332903,50 +332923,43 @@ window.SLACK_DATA = {
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794796762.413,
+        "lastSeen": 1794796834.123,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794796762.413
+        "lastSeen": 1794796834.123
       },
       "1794794401.096479": {
         "post": "1794794401.096479",
-        "lastSeen": 1794796762.413,
+        "lastSeen": 1794796834.123,
         "r": 1,
         "day": "2026-11-16",
         "idx": 16
       },
       "1794795250.450339": {
         "post": "1794795250.450339",
-        "lastSeen": 1794796762.413,
+        "lastSeen": 1794796834.123,
         "r": 1,
         "day": "2026-11-16",
         "idx": 17
       },
       "1794795337.062179": {
         "post": "1794795337.062179",
-        "lastSeen": 1794796762.413
-      },
-      "1794795999.281689": {
-        "post": "1794795999.281689",
-        "lastSeen": 1794796762.413,
-        "r": 1,
-        "day": "2026-11-16",
-        "idx": 18
+        "lastSeen": 1794796834.123
       },
       "1794796532.038279": {
         "post": "1794796532.038279",
-        "lastSeen": 1794796762.413,
+        "lastSeen": 1794796834.123,
         "r": 1,
         "day": "2026-11-16",
         "idx": 20
       },
       "1794796614.122639": {
         "post": "1794796614.122639",
-        "lastSeen": 1794796762.413
+        "lastSeen": 1794796834.123
       }
     },
     "days": {
@@ -459687,7 +459700,8 @@ window.SLACK_DATA = {
             "store": "서울 파스타 일만치노",
             "biz": "1891601962",
             "who": "송태양",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 13.3
           },
           {
             "hm": "11:29",
@@ -459711,7 +459725,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 11:40",
+    "at": "2026-11-16 11:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459872,7 +459886,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 11:39",
+    "at": "2026-11-16 11:40",
     "pri": {
       "days": 0,
       "failed": [],
