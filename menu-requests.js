@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5326,
- "updatedAt": "2026-11-16 12:53",
+ "version": 5327,
+ "updatedAt": "2026-11-16 12:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1794801270.018119",
+   "date": "2026-11-16",
+   "time": "12:54",
+   "store": "뚜레쥬르 킨텍스1전시장",
+   "biz": "1283674814",
+   "pos": "퍼스트포스",
+   "content": "메뉴 수정",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "등록 솔라피 전송 완료"
+   ],
+   "rc": 1,
+   "lr": "1794801283.384799",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794801270018119"
+  },
   {
    "ts": "1794801152.522119",
    "date": "2026-11-16",
@@ -24,8 +47,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1794801173.429989",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794801152522119"
   },
   {
@@ -41,9 +64,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "등록 솔라피 전송 완료"
+   ],
+   "rc": 1,
+   "lr": "1794801278.919099",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
