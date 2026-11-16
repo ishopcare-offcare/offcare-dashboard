@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34177,
+  "version": 34178,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -326243,7 +326243,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "프2 새거 교체해주시고 종로니깐 그냥 방문해주세요 프2 새거 교체해주시고 종로니깐 그냥 방문해주세요",
-          "rr": 2
+          "rr": 3
         },
         {
           "time": "09:00",
@@ -332463,7 +332463,7 @@ window.SLACK_DATA = {
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:00",
+      "updatedAt": "09:07",
       "voc": {
         "responses": 1,
         "install": {
@@ -332534,21 +332534,25 @@ window.SLACK_DATA = {
       },
       "1794787211.068389": {
         "post": "1794787211.068389",
-        "lastSeen": 1794787578.675,
+        "lastSeen": 1794787704.736,
         "r": 1,
         "day": "2026-11-16",
         "idx": 0
       },
       "1794787216.462239": {
         "post": "1794787216.462239",
-        "lastSeen": 1794787578.675,
+        "lastSeen": 1794787704.736,
         "r": 1,
         "day": "2026-11-16",
         "idx": 1
       },
       "1794787239.546619": {
         "post": "1794787239.546619",
-        "lastSeen": 1794787578.675
+        "lastSeen": 1794787704.736
+      },
+      "1794787651.001919": {
+        "post": "1794787651.001919",
+        "lastSeen": 1794787704.736
       }
     },
     "days": {
@@ -459145,7 +459149,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-16 09:06",
+    "at": "2026-11-16 09:08",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -459306,7 +459310,7 @@ window.SLACK_DATA = {
     "2026-11-16": 2
   },
   "noteMig": {
-    "at": "2026-11-16 09:06",
+    "at": "2026-11-16 09:08",
     "pri": {
       "days": 0,
       "failed": [],
