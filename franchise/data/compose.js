@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-17 07:16 KST
+ *  갱신: 2026-11-17 07:31 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-17 07:16',
+  updatedAt : '2026-11-17 07:31',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -86,6 +86,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-14","time":"14:41","store":"컴포즈 > 토스POS > 대시보드","branch":"> 토스POS > 대시보드","biz":"","cat":"as","emp":"미지정","intake":"online","status":"done","req":"컴포즈커피뱅뱅사거리점 대시보드에서 기간별 매출 다운받는데 항목이 줄어들었다고하심","note":""},
     {"date":"2026-11-16","time":"15:43","store":"컴포즈_상호미기재","branch":"상호미기재","biz":"","cat":"as","emp":"김규빈","intake":"online","status":"done","req":":","note":"고객용주문번호 풀려있음 / 토플에 다시 이관해볼게요… /"},
     {"date":"2026-11-16","time":"18:01","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"대시보드 매출 내역에 대한 VOC","note":""},
-    {"date":"2026-11-17","time":"07:09","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"오늘부터 할인되는 신메뉴 4종이","note":"키오스크는 할인가가 적용되어 메뉴 노출되나 포스에서는 메뉴 선택 시 할인적용이 됨 안내드림"},
+    {"date":"2026-11-17","time":"07:09","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"오늘부터 할인되는 신메뉴 4종이","note":"키오스크는 할인가가 적용되어 메뉴 노출되나 포스에서는 메뉴 선택 시 할인적용이 됨 안내드림 / 맞아요 예원님! 11월 30일까지 4종 할인 설정되어 포스/키오스크에 모두 적용됩니다!"},
   ],
 };

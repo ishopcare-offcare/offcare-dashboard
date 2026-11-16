@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34587,
+  "version": 34588,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334699,8 +334699,8 @@ window.SLACK_DATA = {
           "req": "오늘부터 할인되는 신메뉴 4종이",
           "hw": "",
           "intake": "online",
-          "note": "키오스크는 할인가가 적용되어 메뉴 노출되나 포스에서는 메뉴 선택 시 할인적용이 됨 안내드림",
-          "rr": 6
+          "note": "키오스크는 할인가가 적용되어 메뉴 노출되나 포스에서는 메뉴 선택 시 할인적용이 됨 안내드림 / 맞아요 예원님! 11월 30일까지 4종 할인 설정되어 포스/키오스크에 모두 적용됩니다!",
+          "rr": 8
         }
       ],
       "intake": {
@@ -462514,7 +462514,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 07:15",
+    "at": "2026-11-17 07:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462676,7 +462676,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 07:15",
+    "at": "2026-11-17 07:30",
     "pri": {
       "days": 0,
       "failed": [],
