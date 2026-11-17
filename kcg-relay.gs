@@ -94,7 +94,7 @@ function kcgHandle_(m, dry, idx) {
   }
 
   var sent = kcgSlack_('chat.postMessage', { channel: KCG.dst, text: post, unfurl_links: false, unfurl_media: false });
-  if (!sent.ok) { console.log('접수글 올리기 실패: ' + sent.error); return 'retry'; }
+  if (!sent.ok) { console.log('접수글 올리기 실패: ' + sent.error + (sent.needed ? ' — 필요한 권한: ' + sent.needed + ' (api.slack.com/apps → OAuth & Permissions 에 추가 후 재설치)' : '')); return 'retry'; }
 
   // 접수글 댓글: 원문 링크 · 첨부 · 매장 정보 출처
   var link = kcgSlack_('chat.getPermalink', { channel: KCG.src, message_ts: m.ts });
@@ -383,6 +383,11 @@ function kcgBuildCont_(on) {
 function kcgCheck() {
   var a = kcgSlack_('auth.test', {});
   console.log('봇 토큰: ' + (a.ok ? '정상 (' + a.user + ')' : '❌ ' + a.error));
+  // 봇 권한 — 슬랙은 모든 응답 헤더에 x-oauth-scopes 를 실어 준다
+  var hr = UrlFetchApp.fetch('https://slack.com/api/auth.test', { headers: { Authorization: 'Bearer ' + PropertiesService.getScriptProperties().getProperty('SLACK_BOT_TOKEN') }, muteHttpExceptions: true });
+  var hh = hr.getHeaders(), sc = String(hh['x-oauth-scopes'] || hh['X-OAuth-Scopes'] || '').split(',').map(function (x) { return x.trim(); });
+  ['chat:write', 'channels:history'].forEach(function (k) { console.log('  권한 ' + k + ': ' + (sc.indexOf(k) >= 0 ? '✅' : '❌ 없음 — api.slack.com/apps → OAuth & Permissions → Bot Token Scopes 에 추가 후 Reinstall')); });
+  console.log('  (전체 권한: ' + sc.join(', ') + ')');
   var info = kcgSlack_('conversations.info', { channel: KCG.src });
   console.log('협업채널 정보: ' + (info.ok ? '#' + info.channel.name + (info.channel.is_private ? ' (비공개)' : '') + (info.channel.is_ext_shared ? ' · 외부 공유' : '') + (info.channel.is_member ? ' · 봇 참여 ✅' : ' · ❌ 봇 미참여') : '❌ ' + info.error));
   var h = kcgSlack_('conversations.history', { channel: KCG.src, limit: 5 });
