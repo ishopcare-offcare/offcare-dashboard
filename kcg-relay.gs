@@ -103,13 +103,15 @@ function kcgHandle_(m, dry, idx) {
   else { note.push('매장 정보: ' + info.src + ' 기준'); }
   var files = (m.files || []).filter(function (f) { return f.permalink; });
   if (files.length) { note.push('📎 첨부 ' + files.length + '개: ' + files.map(function (f, k) { return '<' + f.permalink + '|' + (f.name || ('파일' + (k + 1))) + '>'; }).join(' · ')); }
-  kcgSlack_('chat.postMessage', { channel: KCG.dst, thread_ts: sent.ts, text: note.join('\n'), unfurl_links: false, unfurl_media: false });
+  var nr = kcgSlack_('chat.postMessage', { channel: KCG.dst, thread_ts: sent.ts, text: note.join('\n'), unfurl_links: false, unfurl_media: false });
 
+  var ar = {};
   if (KCG.ackReply) {
-    kcgSlack_('chat.postMessage', { channel: KCG.src, thread_ts: m.ts,
+    ar = kcgSlack_('chat.postMessage', { channel: KCG.src, thread_ts: m.ts,
       text: '✅ 메뉴 요청이 접수되었습니다. 담당자가 순서대로 처리해 드릴게요!' });
   }
   kcgPendingAdd_({ d: sent.ts, s: m.ts, b: req.branch });   // 완료 이모지 지켜보기
+  kcgLogPost_({ d: [sent.ts, nr.ts], s: [ar.ts], b: req.branch });   // kcgUndoLast 로 지울 수 있게
   console.log('접수 완료: ' + req.branch + ' → ' + sent.ts);
   return 'done';
 }
@@ -152,7 +154,7 @@ function kcgCheckDone_() {
     if (!who) { left.push(p); return; }
     var r = kcgSlack_('chat.postMessage', { channel: KCG.src, thread_ts: p.s,
       text: '🎉 요청하신 메뉴 작업이 처리 완료되었습니다! 포스에서 확인 부탁드립니다. (담당: ' + who + ')' });
-    if (r.ok) { console.log('완료 알림: ' + p.b + ' (' + who + ')'); }
+    if (r.ok) { console.log('완료 알림: ' + p.b + ' (' + who + ')'); kcgLogDone_(p.d, r.ts); }
     else { console.log('완료 알림 실패(다음 1분에 재시도): ' + r.error); left.push(p); }
   });
   kcgPendingSet_(left);
@@ -330,7 +332,7 @@ function kcgKst_(ts) { return Utilities.formatDate(new Date(parseFloat(ts) * 100
 function kcgSlack_(method, params) {
   var token = PropertiesService.getScriptProperties().getProperty('SLACK_BOT_TOKEN');
   if (!token) { return { ok: false, error: 'SLACK_BOT_TOKEN 없음' }; }
-  var isWrite = method === 'chat.postMessage';
+  var isWrite = method === 'chat.postMessage' || method === 'chat.delete';
   var opt = { method: isWrite ? 'post' : 'get', headers: { Authorization: 'Bearer ' + token }, muteHttpExceptions: true };
   var url = 'https://slack.com/api/' + method;
   if (isWrite) { opt.contentType = 'application/json; charset=utf-8'; opt.payload = JSON.stringify(params); }
@@ -416,4 +418,28 @@ function kcgUninstall() {
   for (var i = 0; i < ts.length; i++) { if (ts[i].getHandlerFunction() === 'kcgTick') { ScriptApp.deleteTrigger(ts[i]); n++; } }
   PropertiesService.getScriptProperties().deleteProperty('KCG_LAST_TS');
   if (n) { console.log('자동 접수 트리거 ' + n + '개를 껐습니다.'); }
+}
+
+/* ---------- 시험용: 마지막 자동 접수 되돌리기 ---------- */
+// 봇이 올린 글(접수글·댓글·접수/완료 안내)을 기록해 두었다가 kcgUndoLast 로 지운다. 최근 5건만 보관.
+function kcgLogGet_() { try { return JSON.parse(PropertiesService.getScriptProperties().getProperty('KCG_LOG') || '[]'); } catch (e) { return []; } }
+function kcgLogSet_(l) { PropertiesService.getScriptProperties().setProperty('KCG_LOG', JSON.stringify(l.slice(-5))); }
+function kcgLogPost_(e) { var l = kcgLogGet_(); l.push(e); kcgLogSet_(l); }
+function kcgLogDone_(dstTs, ts) { var l = kcgLogGet_(); l.forEach(function (e) { if (e.d[0] === dstTs) { e.s.push(ts); } }); kcgLogSet_(l); }
+
+// 마지막 자동 접수 1건의 봇 글을 전부 지운다 (#oc팀_메뉴요청 접수글·댓글 + 협업채널 안내 댓글)
+// 협업채널에 직접 올린 시험 원문은 본인이 지우면 된다
+function kcgUndoLast() {
+  var l = kcgLogGet_(), e = l.pop();
+  if (!e) { console.log('지울 자동 접수 기록이 없습니다.'); return; }
+  var del = function (ch, ts) {
+    if (!ts) { return; }
+    var r = kcgSlack_('chat.delete', { channel: ch, ts: ts });
+    console.log((r.ok ? '🗑 삭제 ' : '❌ 삭제 실패(' + r.error + ') ') + (ch === KCG.dst ? '#oc팀_메뉴요청' : '협업채널') + ' ' + ts);
+  };
+  e.d.slice().reverse().forEach(function (ts) { del(KCG.dst, ts); });   // 댓글 먼저, 접수글 나중
+  e.s.forEach(function (ts) { del(KCG.src, ts); });
+  kcgPendingSet_(kcgPendingGet_().filter(function (p) { return p.d !== e.d[0]; }));
+  kcgLogSet_(l);
+  console.log('되돌리기 완료: ' + e.b);
 }
