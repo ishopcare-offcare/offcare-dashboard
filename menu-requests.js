@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5397,
- "updatedAt": "2026-11-17 16:55",
+ "version": 5398,
+ "updatedAt": "2026-11-17 16:57",
  "days": 30,
  "items": [
   {
@@ -20,12 +20,15 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "• 내장탕 10,000원 금액 변경\n• 갈비탕 10,000원 금액 변경\n• 면류 - 굴짬뽕 12,000원 추가",
+    "오케이포스 사용 중으로 보임"
+   ],
+   "rc": 2,
+   "lr": "1794902225.712089",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794902127368609"
   },
   {
