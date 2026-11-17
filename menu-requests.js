@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5367,
- "updatedAt": "2026-11-17 10:06",
+ "version": 5368,
+ "updatedAt": "2026-11-17 10:34",
  "days": 30,
  "items": [
+  {
+   "ts": "1794879239.430259",
+   "date": "2026-11-17",
+   "time": "10:33",
+   "store": "목포 꽈대장",
+   "biz": "2231153372",
+   "pos": "스파로스포스",
+   "content": "음료메뉴에 쌕쌕 1,500원\n세트메뉴에 박스 600원\n추가 부탁드려요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "배선유",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794879239430259"
+  },
   {
    "ts": "1794877449.630399",
    "date": "2026-11-17",
