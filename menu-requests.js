@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5386,
- "updatedAt": "2026-11-17 14:45",
+ "version": 5387,
+ "updatedAt": "2026-11-17 14:47",
  "days": 30,
  "items": [
   {
@@ -21,24 +21,25 @@ window.MENU_REQUESTS = {
    "att": [
     {
      "name": "image.png",
-     "fid": "F0CJ6Q27NKX",
+     "fid": "F0CHWRFVD2B",
      "from": "원글",
+     "path": "menu-files/1794893141_387079-0.png",
      "kind": "menu_board",
      "menu": [
       {
        "category": "SAKE",
-       "name": "Sake Unesaku",
+       "name": "Dassai Junmai-shu",
        "price": 40000
       },
       {
        "category": "SAKE",
-       "name": "Tsuki Yuki",
+       "name": "Nagurayama Yuzu",
        "price": 40000
       },
       {
        "category": "SAKE",
-       "name": "Umeshu",
-       "price": 40000
+       "name": "Umenishiki Junmai Daiginjo 45",
+       "price": 46000
       },
       {
        "category": "SAKE / HIREZAKE",
@@ -47,8 +48,8 @@ window.MENU_REQUESTS = {
       },
       {
        "category": "SAKE / HIREZAKE",
-       "name": "Masuizumi Junmai-sha",
-       "price": 25000
+       "name": "Hitorimusume Junmai-shu Hirezake",
+       "price": 21000
       },
       {
        "category": "WINE",
@@ -63,13 +64,13 @@ window.MENU_REQUESTS = {
       },
       {
        "category": "BEER",
-       "name": "Yebisu Black beer",
+       "name": "Yebisu Draft beer",
        "price": 0,
        "pt": "u"
       },
       {
        "category": "HIGHBALL",
-       "name": "Yebisu Highball",
+       "name": "Yuzu Highball",
        "price": 0,
        "pt": "u"
       },
@@ -99,13 +100,12 @@ window.MENU_REQUESTS = {
       },
       {
        "category": "DRINK",
-       "name": "Kwenaenso / Tonic Water",
+       "name": "Sweetsaurus / Tonic Water",
        "price": 0,
        "pt": "u"
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794893141_387079-0.png"
+     "v": 3
     }
    ],
    "datt": [],
