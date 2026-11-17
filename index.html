@@ -8405,7 +8405,9 @@ function renderShare(){
     if(d===null) return `<div class="daycell share empty"></div>`;
     const dateObj=new Date(y,m,d), ds=ymd(dateObj), dow=dateObj.getDay();
     const wk=lanes.weeks[Math.floor(ci/7)];
-    const bars = wk.n ? `<div class="ev-bars">${Array.from({length:wk.n},(_,l)=>{
+    // 🕙 10출 막대 — 그 주 월~금을 잇는 맨 윗줄(주말 칸은 빈 자리로 줄 높이만 맞춤)
+    const tenRow = wk.ten ? (dow>=1 && dow<=5 ? tenBarSeg(wk.ten, wk.mon, dateObj, d, lastDate) : '<div class="ev-bar-gap"></div>') : '';
+    const bars = (wk.n || wk.ten) ? `<div class="ev-bars">${tenRow}${Array.from({length:wk.n},(_,l)=>{
       const x=lanes.at[ds+'|'+l]; if(!x) return '<div class="ev-bar-gap"></div>';
       return shareBarSeg(x, dateObj, d, lastDate);
     }).join('')}</div>` : '';
