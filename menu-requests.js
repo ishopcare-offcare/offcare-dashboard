@@ -3,10 +3,685 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5382,
- "updatedAt": "2026-11-17 14:15",
+ "version": 5383,
+ "updatedAt": "2026-11-17 14:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1794893125.902949",
+   "date": "2026-11-17",
+   "time": "14:25",
+   "store": "주식회사 첸푸드",
+   "biz": "1438703678",
+   "pos": "",
+   "content": "메뉴등록요청으로 공유드립니다",
+   "special": "",
+   "drive": [],
+   "files": 10,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CJ5PZ6CTD",
+     "from": "원글",
+     "path": "menu-files/1794893125_902949-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai Migaki Sonosakie 닷사이 미가키 소노사키에",
+       "price": 1800000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai Migaki 23 닷사이 미가키 23 원심분리",
+       "price": 850000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai Miraie 닷사이 미라이에",
+       "price": 700000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai 23 Hayata 닷사이 23 하야타",
+       "price": 650000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai Migaki 23 닷사이 미가키 23 (300ml)",
+       "price": 180000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai Migaki 23 닷사이 미가키 23 (720ml)",
+       "price": 450000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai 39 Hanabie 닷사이 39 하나비에",
+       "price": 200000
+      },
+      {
+       "category": "獺祭 DASSAI [야마구치현]",
+       "name": "Dassai 39 Kanzukuri Hayabune Nama 닷사이 39 칸즈쿠리 하야부네 나마",
+       "price": 200000
+      },
+      {
+       "category": "十四代 JUYONDAI [야마가타현]",
+       "name": "N by Hidetoshi Nakata 엔 바이 히데토시 나카타",
+       "price": 3800000
+      },
+      {
+       "category": "十四代 JUYONDAI [야마가타현]",
+       "name": "Juyondai Gold Label 쥬욘다이 골드라벨",
+       "price": 1200000
+      },
+      {
+       "category": "十四代 JUYONDAI [야마가타현]",
+       "name": "Juyondai Black Label 쥬욘다이 블랙라벨",
+       "price": 900000
+      },
+      {
+       "category": "十四代 JUYONDAI [야마가타현]",
+       "name": "Juyondai Red Label 쥬욘다이 레드라벨",
+       "price": 600000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJBSQ2E6N",
+     "from": "원글",
+     "path": "menu-files/1794893125_902949-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "고쿠류 KOKURYU",
+       "name": "Kokuryu Ishidaya 고쿠류 이시다야",
+       "price": 1300000
+      },
+      {
+       "category": "고쿠류 KOKURYU",
+       "name": "Kokuryu Junmai Daiginjo 고쿠류 준마이다이긴조",
+       "price": 800000
+      },
+      {
+       "category": "고쿠류 KOKURYU",
+       "name": "Kokuryu Hachijuhachigo 고쿠류 하치쥬하치고",
+       "price": 600000
+      },
+      {
+       "category": "고쿠류 KOKURYU",
+       "name": "Kokuryu Shizuku 고쿠류 시즈쿠",
+       "price": 550000
+      },
+      {
+       "category": "고쿠류 KOKURYU",
+       "name": "Kokuryu Daiginjo Fuku Bottle 고쿠류 다이긴조 후쿠보틀",
+       "price": 380000
+      },
+      {
+       "category": "ISOJIMAN [시즈오카현]",
+       "name": "La Isojiman 라 이소지만",
+       "price": 3500000
+      },
+      {
+       "category": "ISOJIMAN [시즈오카현]",
+       "name": "Isojiman Junmaidaiginjo 35 Adagio 이소지만 준마이다이긴조 35 아다지오",
+       "price": 2220000
+      },
+      {
+       "category": "ISOJIMAN [시즈오카현]",
+       "name": "Isojiman Daiginjo 28 Nobilmente 이소지만 다이긴조 28 노빌멘테",
+       "price": 2200000
+      },
+      {
+       "category": "ISOJIMAN [시즈오카현]",
+       "name": "Isojiman Junmaidaiginjo Blue Bottle 이소지만 준마이다이긴조 블루보틀",
+       "price": 450000
+      },
+      {
+       "category": "ISOJIMAN [시즈오카현]",
+       "name": "Isojiman Junmaidaiginjo 이소지만 준마이다이긴조",
+       "price": 280000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CK6DTB7QQ",
+     "from": "원글",
+     "path": "menu-files/1794893125_902949-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "KIKUSUI [니이가타현]",
+       "name": "Junmaidaiginjo Genshu Sakamaikikusui 준마이다이긴죠 겐슈 사카마이키쿠스이",
+       "price": 300000
+      },
+      {
+       "category": "KIKUSUI [니이가타현]",
+       "name": "Sakamaikikusui Junmaidaiginjo 사카마이키쿠스이 준마이다이긴죠",
+       "price": 150000
+      },
+      {
+       "category": "KIKUHIME [이시카와현]",
+       "name": "Kikuhime Kukurihime 기꾸히메 쿠쿠리히메",
+       "price": 1800000
+      },
+      {
+       "category": "KIKUHIME [이시카와현]",
+       "name": "Kikuhime Kurogin 기꾸히메 쿠로긴",
+       "price": 1200000
+      },
+      {
+       "category": "KIKUHIME [이시카와현]",
+       "name": "Kikuhime Gin 기꾸히메 긴",
+       "price": 800000
+      },
+      {
+       "category": "KUBOTA [니이가타현]",
+       "name": "Senshin Junmaidaiginjo 센신 준마이다이긴죠",
+       "price": 350000
+      },
+      {
+       "category": "KUBOTA [니이가타현]",
+       "name": "Kubota Manjyu 쿠보타 만쥬",
+       "price": 300000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJBSRM6TU",
+     "from": "원글",
+     "path": "menu-files/1794893125_902949-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "NABESHIMA [사가현]",
+       "name": "Nabeshima Black Label",
+       "price": 1200000
+      },
+      {
+       "category": "NABESHIMA [사가현]",
+       "name": "Nabeshima Junmai Daiginjo 35",
+       "price": 450000
+      },
+      {
+       "category": "NABESHIMA [사가현]",
+       "name": "Nabeshima Daiginjo",
+       "price": 250000
+      },
+      {
+       "category": "NABESHIMA [사가현]",
+       "name": "Nabeshima Junmai Daiginjo Yokawa Yamadanishiki",
+       "price": 230000
+      },
+      {
+       "category": "NABESHIMA [사가현]",
+       "name": "Nabeshima Junmai Daiginjo Kitashizuku",
+       "price": 200000
+      },
+      {
+       "category": "OTOKOYAMA [홋카이도]",
+       "name": "Otokoyama Junmaidaiginjo",
+       "price": 400000
+      },
+      {
+       "category": "OTOKOYAMA [홋카이도]",
+       "name": "Otokoyama Kitashizuku Daiginjo",
+       "price": 150000
+      },
+      {
+       "category": "BORN [후쿠이현]",
+       "name": "Born Chogin",
+       "price": 900000
+      },
+      {
+       "category": "BORN [후쿠이현]",
+       "name": "Born Gokuhizo Daiginjo",
+       "price": 330000
+      },
+      {
+       "category": "BORN [후쿠이현]",
+       "name": "Born Tokusen Junmaidaiginjo",
+       "price": 200000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJA3UJAVC",
+     "from": "원글",
+     "path": "menu-files/1794893125_902949-4.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "KATSUYAMA [미야기현]",
+       "name": "Katsuyama Junmaidaiginjo Akatsuki",
+       "price": 600000
+      },
+      {
+       "category": "KATSUYAMA [미야기현]",
+       "name": "Katsuyama Senshomasamune",
+       "price": 200000
+      },
+      {
+       "category": "KATSUYAMA [미야기현]",
+       "name": "Katsuyama Junmaiginjo Ken",
+       "price": 180000
+      },
+      {
+       "category": "HAKKAISAN [니이가타현]",
+       "name": "Hakkaisan Kongoshin",
+       "price": 750000
+      },
+      {
+       "category": "HAKKAISAN [니이가타현]",
+       "name": "Hakkaisan Kowagura Daiginjo",
+       "price": 350000
+      },
+      {
+       "category": "HAKKAISAN [니이가타현]",
+       "name": "Hakkaisan Junmaidaiginjo Yukimuro Chozo 3years",
+       "price": 250000
+      },
+      {
+       "category": "HAKKAISAN [니이가타현]",
+       "name": "Hakkaisan Junmaidaiginjo",
+       "price": 200000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJ5RJH1DH",
+     "from": "원글",
+     "path": "menu-files/1794893125_902949-5.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "JIZAKE",
+       "name": "Iraka Kin-Tamaki",
+       "price": 600000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Mimurosugi Junmai Daiginjo",
+       "price": 500000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Toko Fukurotsuri",
+       "price": 400000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Kikusakari, Junmai Daiginjo Vintage Gekkakou",
+       "price": 330000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Hououbiden Gold Phoenix",
+       "price": 330000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Tenbu Junmaidaiginjo",
+       "price": 270000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Suigei Junmaidaiginjo Sho",
+       "price": 270000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Daishinshu Shisui Ryusen",
+       "price": 250000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Zaku Premium Kaizan",
+       "price": 230000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Sawaya Matsumoto ULTRA",
+       "price": 200000
+      },
+      {
+       "category": "JIZAKE",
+       "name": "Kikusakari, Daiginjo",
+       "price": 170000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJ6PSHJGM",
+     "from": "원글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SHOCHU",
+       "name": "Dassai 닷사이 소주",
+       "price": 330000
+      },
+      {
+       "category": "SHOCHU",
+       "name": "Tenshinoyuwaku 고구마소주 텐시노유와쿠",
+       "price": 300000
+      },
+      {
+       "category": "SHOCHU",
+       "name": "Iichiko Frasco 이이찌꼬 후라스코",
+       "price": 300000
+      },
+      {
+       "category": "SHOCHU",
+       "name": "Torikai 토리카이",
+       "price": 250000
+      },
+      {
+       "category": "SHOCHU",
+       "name": "Kanehachi 카네하치",
+       "price": 170000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Louis Roederer Cristal 루이 로드레 크리스탈",
+       "price": 1300000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Krug Grande Cuvée 크룩 그랑 뀌베",
+       "price": 900000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Laurent-Perrier Grand Siècle 로랑 페리에 그랑 씨에클",
+       "price": 850000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Champagne Mod Selection, Brut Réserve 샴페인 모드 셀렉션, 브뤼 리저브",
+       "price": 800000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Dom Pérignon Blanc Vintage 돔 페리뇽 블랑 빈티지",
+       "price": 750000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Piper Heidsieck Rare 파이퍼 하이직 레어",
+       "price": 700000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJ5RNBZ6X",
+     "from": "원글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SPARKLING WINE",
+       "name": "Demière Solera 23",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Champagne Drappier, Grande Sendrée",
+       "price": 500000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Cossy Sophistiquee Premier Cru Millésime Extra Brut",
+       "price": 400000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Champagne Jacquesson, Cuvee n° NV",
+       "price": 350000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Duntze Blanc de Pinot Noir Extra Brut",
+       "price": 350000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Champagne Le Brun de Neuville, Millésime",
+       "price": 320000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Laurent Perrier La Cuvee Brut",
+       "price": 250000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Veuve Clicquot Yellow Label",
+       "price": 200000
+      },
+      {
+       "category": "SPARKLING WINE",
+       "name": "Champagne Drappier, Carte d'Or Brut",
+       "price": 180000
+      },
+      {
+       "category": "HALF CHAMPAGNE",
+       "name": "Champagne Drappier, Carte dOr Brut 375ml",
+       "price": 85000
+      },
+      {
+       "category": "HALF CHAMPAGNE",
+       "name": "Moët & Chandon Impérial 375ml",
+       "price": 80000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CJBSYLTSN",
+     "from": "원글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "WHITE WINE",
+       "name": "Kongsgaard, Chardonnay",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Hyde de Villaine, Comandante Chardonnay",
+       "price": 800000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Kistler, Hudson Chardonnay",
+       "price": 850000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Kistler, Hyde Vineyard Chardonnay",
+       "price": 780000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Kistler, Stock Ranch Vineyard Chardonnay",
+       "price": 750000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Fantesca, Chardonnay",
+       "price": 550000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Arietta, On The White Keys",
+       "price": 400000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Hyde de Villaine, Chardonnay",
+       "price": 400000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Château de Tracy, 101 Rangs",
+       "price": 350000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Kistler, Les Noisetiers Chardonnay",
+       "price": 350000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Château de Tracy, Haute Densité",
+       "price": 330000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Far Niente Chardonnay",
+       "price": 330000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CHWMCEJBH",
+     "from": "원글",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "WHITE WINE",
+       "name": "Three Sticks, Durell Chardonnay",
+       "price": 300000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Three Sticks  Gaes Crown Chardonnay",
+       "price": 230000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Walter Hansel, North Slope Chardonnay",
+       "price": 190000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Domaine du Pere Caboche Chateauneuf du Pape Blanc",
+       "price": 190000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Domaine Servin, Chablis 1er Cru Vaillons",
+       "price": 170000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Salomon Undhof, Von Stein G.V Reserve",
+       "price": 160000
+      },
+      {
+       "category": "WHITE WINE",
+       "name": "Orpheus and The Raven, Chenin Blanc",
+       "price": 150000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Royal Salute 38 Years Old 500ml",
+       "price": 3300000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Royal Salute 21 Years Old Malts",
+       "price": 800000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Ballantine 30 Years Old",
+       "price": 1800000
+      },
+      {
+       "category": "WHISKY",
+       "name": "The Balvenie 21 Years Old",
+       "price": 1300000
+      },
+      {
+       "category": "WHISKY",
+       "name": "The Balvenie 12 Years Old",
+       "price": 350000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Glenmorangie Signet",
+       "price": 900000
+      },
+      {
+       "category": "WHISKY",
+       "name": "The Glenlivet 18 Years Old",
+       "price": 550000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Glenfiddich 18 Years Old",
+       "price": 550000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Glenfiddich 15 Years Old",
+       "price": 350000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Hibiki 21 Years Old",
+       "price": 3000000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Hibiki Harmony",
+       "price": 400000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Yamazaki 18 Years Old",
+       "price": 2300000
+      },
+      {
+       "category": "WHISKY",
+       "name": "Yamazaki 12 Years Old",
+       "price": 900000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794893125902949"
+  },
   {
    "ts": "1794892115.531059",
    "date": "2026-11-17",
