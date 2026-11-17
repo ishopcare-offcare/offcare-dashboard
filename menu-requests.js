@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5395,
- "updatedAt": "2026-11-17 16:09",
+ "version": 5396,
+ "updatedAt": "2026-11-17 16:22",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "숙성회136 프렌차이즈 매장으로\n메뉴 사진이 전부 동일하여 적용 요청 주셨습니다."
    ],
-   "rc": 3,
-   "lr": "1794899351.643199",
+   "rc": 4,
+   "lr": "1794900110.492849",
    "rfx": 3,
    "status": "done",
    "handler": "배선유",
