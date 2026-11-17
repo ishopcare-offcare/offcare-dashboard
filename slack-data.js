@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34633,
+  "version": 34634,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334692,6 +334692,7 @@ window.SLACK_DATA = {
           "송태양": 2
         },
         "nosetup": {
+          "송태양": 1,
           "고경림": 1
         },
         "booking": {
@@ -334714,6 +334715,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "바로 통화 어려운 상황으로 재접수하신다고 함",
           "rr": 1
+        },
+        {
+          "time": "10:00",
+          "store": "네일 바이 쏭",
+          "biz": "4674400298",
+          "cat": "nosetup",
+          "emp": "송태양",
+          "req": "포프(휴대폰) 온보딩 및 사용방법 안내 요청드립니다. / 휴대폰이 매장에 없을 때도 프론트 사용하고 싶다고 하십니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "09:57",
@@ -334886,11 +334898,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 12,
+        "online": 13,
         "offline": 3,
         "unknown": 0
       },
-      "updatedAt": "10:16",
+      "updatedAt": "10:18",
       "voc": {
         "responses": 2,
         "install": {
@@ -334993,26 +335005,23 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794878242.816
-      },
-      "1794877203.112599": {
-        "post": "1794877203.112599",
-        "lastSeen": 1794878242.816,
-        "r": 1,
-        "day": "2026-11-17",
-        "idx": 6
+        "lastSeen": 1794878355.179
       },
       "1794878008.701689": {
         "post": "1794878008.701689",
-        "lastSeen": 1794878242.816
+        "lastSeen": 1794878355.179
       },
       "1794878100.837609": {
         "post": "1794878100.837609",
-        "lastSeen": 1794878242.816
+        "lastSeen": 1794878355.179
       },
       "1794878183.873249": {
         "post": "1794878183.873249",
-        "lastSeen": 1794878242.816
+        "lastSeen": 1794878355.179
+      },
+      "1794878331.383829": {
+        "post": "1794878331.383829",
+        "lastSeen": 1794878355.179
       }
     },
     "days": {
@@ -462821,14 +462830,15 @@ window.SLACK_DATA = {
             "store": "네일 바이 쏭",
             "biz": "4674400298",
             "who": "송태양",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 18.3
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-17 10:17",
+    "at": "2026-11-17 10:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462990,7 +463000,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 10:17",
+    "at": "2026-11-17 10:19",
     "pri": {
       "days": 0,
       "failed": [],
