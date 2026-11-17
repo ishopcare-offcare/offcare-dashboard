@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5365,
- "updatedAt": "2026-11-17 09:53",
+ "version": 5366,
+ "updatedAt": "2026-11-17 10:05",
  "days": 30,
  "items": [
+  {
+   "ts": "1794877449.630399",
+   "date": "2026-11-17",
+   "time": "10:04",
+   "store": "일만족발",
+   "biz": "4383701398",
+   "pos": "스파로스포스",
+   "content": "계약해지 하려는데 상담원 연결이안되서  여기다 글 남깁니다.\n연락주세요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794877449630399"
+  },
   {
    "ts": "1794876532.246209",
    "date": "2026-11-17",
