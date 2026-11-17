@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34619,
+  "version": 34620,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334686,8 +334686,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "고경림": 2,
-          "송태양": 2,
-          "김동욱": 3
+          "김동욱": 4,
+          "송태양": 2
         },
         "booking": {
           "송태양": 1
@@ -334707,7 +334707,8 @@ window.SLACK_DATA = {
           "req": "영수증 출력하려하시나 안된다하여 도움부탁드립니다.",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "재출력방법 안내완료",
+          "rr": 1
         },
         {
           "time": "09:48",
@@ -334719,6 +334720,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "등록 완료 / 솔라피전송",
+          "rr": 2
+        },
+        {
+          "time": "09:40",
+          "store": "봉주르팔당",
+          "biz": "1318178738",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "PC + 프린터기 추가로 있으신데 선이 짧아 연결이 어렵다고합니다.",
+          "hw": "",
+          "intake": "online",
+          "note": "포스기와 프린터기 놓을 위치까지 랜선 포설이 어려운 상황. 기존 미니pc(데스크탑)과 AB케이블로 연결해서 사용하셨으나 미니pc 바로 옆이라 가능했음. 랜선 포설하거나 wifi 프린터 사용을 추천드림. 고민해보고 빠르게 연락주신다고 하셨습니다.",
           "rr": 2
         },
         {
@@ -334807,7 +334820,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 8,
+        "online": 9,
         "offline": 1,
         "unknown": 0
       },
@@ -334914,14 +334927,7 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794876758.265
-      },
-      "1794876040.656649": {
-        "post": "1794876040.656649",
-        "lastSeen": 1794876758.265,
-        "r": 1,
-        "day": "2026-11-17",
-        "idx": 1
+        "lastSeen": 1794876851.502
       }
     },
     "days": {
@@ -462685,7 +462691,8 @@ window.SLACK_DATA = {
             "store": "봉주르팔당",
             "biz": "1318178738",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 12.7
           },
           {
             "hm": "09:48",
@@ -462701,7 +462708,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:53",
+    "at": "2026-11-17 09:54",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462863,7 +462870,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:52",
+    "at": "2026-11-17 09:54",
     "pri": {
       "days": 0,
       "failed": [],
