@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5409,
- "updatedAt": "2026-11-17 18:06",
+ "version": 5410,
+ "updatedAt": "2026-11-17 18:24",
  "days": 30,
  "items": [
   {
@@ -904,10 +904,11 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "빛반사 확인불가 메뉴\n• 드미에르솔레라 23 70만원\n• 콩스가르드 샤도네이 90만원"
+    "빛반사 확인불가 메뉴\n• 드미에르솔레라 23 70만원\n• 콩스가르드 샤도네이 90만원",
+    ",  님 안녕하세요\n혹시 해당 매장 확인 되셨을까요?\n올린게 이모지가없어서.. 부득이하게 전달드려봅니다 .."
    ],
-   "rc": 1,
-   "lr": "1794894272.529489",
+   "rc": 3,
+   "lr": "1794907429.926959",
    "rfx": 3,
    "status": "wait",
    "handler": null,
