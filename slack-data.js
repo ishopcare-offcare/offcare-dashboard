@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34612,
+  "version": 34613,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334704,8 +334704,8 @@ window.SLACK_DATA = {
           "req": "포프유프(포스기) 영수증 출력 오류로 점검 부탁드립니다",
           "hw": "",
           "intake": "online",
-          "note": "",
-          "rr": 1
+          "note": "• 케이블 재결합 후 정상작동이나 교체 요청으로 입출고 접수 완료입니다 케이블 재결합 후 정상작동이나 교체 요청으로 입출고 접수 완료입니다",
+          "rr": 2
         },
         {
           "time": "09:23",
@@ -334785,7 +334785,7 @@ window.SLACK_DATA = {
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:33",
+      "updatedAt": "09:40",
       "voc": {
         "responses": 2,
         "install": {
@@ -334888,7 +334888,11 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794875996.556
+        "lastSeen": 1794876086.613
+      },
+      "1794876040.656649": {
+        "post": "1794876040.656649",
+        "lastSeen": 1794876086.613
       }
     },
     "days": {
@@ -462651,7 +462655,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:40",
+    "at": "2026-11-17 09:41",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462813,7 +462817,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:39",
+    "at": "2026-11-17 09:41",
     "pri": {
       "days": 0,
       "failed": [],
