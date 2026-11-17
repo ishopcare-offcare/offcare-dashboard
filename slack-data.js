@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34611,
+  "version": 34612,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334684,17 +334684,29 @@ window.SLACK_DATA = {
     },
     "2026-11-17": {
       "counts": {
-        "booking": {
-          "송태양": 1
-        },
         "as": {
+          "송태양": 2,
           "김동욱": 3,
-          "고경림": 1,
+          "고경림": 1
+        },
+        "booking": {
           "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:30",
+          "store": "카페 푸르릇",
+          "biz": "8300701961",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "포프유프(포스기) 영수증 출력 오류로 점검 부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 1
+        },
         {
           "time": "09:23",
           "store": "별을심는바둑학원",
@@ -334769,7 +334781,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 5,
+        "online": 6,
         "offline": 1,
         "unknown": 0
       },
@@ -334876,7 +334888,7 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794875710.565
+        "lastSeen": 1794875996.556
       }
     },
     "days": {
@@ -462639,7 +462651,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:35",
+    "at": "2026-11-17 09:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462801,7 +462813,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:35",
+    "at": "2026-11-17 09:39",
     "pri": {
       "days": 0,
       "failed": [],
