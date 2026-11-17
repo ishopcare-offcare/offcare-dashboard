@@ -4687,9 +4687,9 @@ function admOnbAs(noNote){
   return (noNote?'':admHistNote(R))
     + `<div class="yoy-grid">`
     + yoyChart('🚀 온보딩 월 처리 건수', R, r=>r.by.onboarding, null, 'sum')
+    + yoyChart('🚀 온보딩 1일 처리 건수', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
     + yoyChart('🔧 A/S 월 처리 건수', R, r=>r.by.as, null, 'sum')
-    + yoyChart('🚀 온보딩 1일 평균', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
-    + yoyChart('🔧 A/S 1일 평균', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
+    + yoyChart('🔧 A/S 1일 처리 건수', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
     + `</div>`
     + admByYear(R).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3></div>
         ${monthTable(Ry.map(r=>r.m.replace('-','.')),
@@ -4922,9 +4922,9 @@ function admCatMonthly(noTable){
        명의변경·메뉴등록·배달·외주는 제목 옆에 <b>DRI 정·부</b> 탭에서 지정한 담당자를 붙였습니다. 배달은 <b>2026.04</b> 부터 집계해 그 전 달은 비워 둡니다.</div>`
     + `<div class="yoy-grid">`
     + yoyChart('🚀 온보딩 월 처리 건수', R, r=>r.by.onboarding, null, 'sum')
+    + yoyChart('🚀 온보딩 1일 처리 건수', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
     + yoyChart('🔧 A/S 월 처리 건수', R, r=>r.by.as, null, 'sum')
-    + yoyChart('🚀 온보딩 1일 평균', R, r=>admPerDay(r.by.onboarding,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
-    + yoyChart('🔧 A/S 1일 평균', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
+    + yoyChart('🔧 A/S 1일 처리 건수', R, r=>admPerDay(r.by.as,r), f1, 'avg', '월 처리 건수 ÷ 평일 수')
     + DRIM_CATS.map(c=>yoyChart(`${c.icon} ${c.name} 월 처리 건수`, R, get(c), null, 'sum', who(c))
       + yoyChart(`${c.icon} ${c.name} 1일 처리 건수`, R, r=>{ const v=get(c)(r); return v==null?null:admPerDay(v,r); }, v=>Number(v).toFixed(1), 'avg', '월 처리 건수 ÷ 평일 수')).join('')
     + `</div>`
