@@ -19,9 +19,10 @@
  *
  * 설치 (game-backend.gs 와 같은 Apps Script 프로젝트에 새 파일로 붙여넣기 — 웹앱 재배포 불필요)
  *   1) 원격집계봇을 협업채널에 초대 (완료)
- *   2) 편집기에서 kcgCheck 실행 → 실행 로그에 ❌ 가 없는지 확인
- *   3) kcgPreview 실행 → 최근 글이 어떻게 올라갈지 미리보기(실제로 올리지 않음)
- *   4) kcgInstall 실행 → 지금 이후 글부터 1분마다 자동 접수 (예전 글은 넘기지 않음)
+ *   2) kcgBuildIndex 실행 → 강창구 매장 목록 만들기(처음 한 번 · 오래 걸리면 1분 뒤 자동으로 이어서 함)
+ *   3) kcgCheck 실행 → 실행 로그에 ❌ 가 없는지 확인
+ *   4) kcgPreview 실행 → 최근 글이 어떻게 올라갈지 미리보기(실제로 올리지 않음)
+ *   5) kcgInstall 실행 → 지금 이후 글부터 1분마다 자동 접수 (예전 글은 넘기지 않음)
  *   끄기: kcgUninstall
  * 필요: 스크립트 속성 SLACK_BOT_TOKEN(이미 있음) · 스코프 chat:write, channels:history
  *       (협업채널이 비공개면 groups:history 도 필요 — kcgCheck 가 알려 준다)
@@ -37,7 +38,6 @@ var KCG = {
     { id: 'C08740SFT1S', days: 400 },   // 메뉴요청
     { id: 'C07CL4BV9QT', days: 400 }    // 명의변경
   ],
-  lookupPageCap: 120,            // 한 번 찾을 때 최대 페이지(200건/페이지) — 6분 실행 제한 보호
   ackReply: true,                // 협업채널 원문에 '접수되었습니다' 댓글
   doneReply: true,               // 접수글에 완료 이모지(원격OOO)가 붙으면 협업채널 원문에 '처리 완료' 댓글
   doneWatchDays: 14              // 이 기간 안에 완료되지 않은 접수글은 더 지켜보지 않는다
@@ -61,9 +61,11 @@ function kcgTick() {
     var res = kcgSlack_('conversations.history', { channel: KCG.src, oldest: last, limit: 50 });
     if (!res.ok) { console.log('협업채널 읽기 실패: ' + res.error); return; }
     var msgs = (res.messages || []).slice().reverse();   // 오래된 것부터
+    var idx = null;
     for (var i = 0; i < msgs.length; i++) {
       var m = msgs[i];
-      var r = kcgHandle_(m, false);
+      if (!idx && kcgParseRequest_(kcgClean_(m.text || ''))) { idx = kcgIdxLoad_(); kcgIdxRefresh_(idx); kcgIdxSave_(idx); }
+      var r = kcgHandle_(m, false, idx);
       if (r === 'retry') { break; }                       // 올리기 실패 → 다음 1분에 이 글부터 다시
       props.setProperty('KCG_LAST_TS', m.ts);
     }
@@ -74,7 +76,7 @@ function kcgTick() {
 }
 
 // 글 하나 처리. dry=true 면 올리지 않고 로그만. 반환: 'skip' | 'done' | 'retry'
-function kcgHandle_(m, dry) {
+function kcgHandle_(m, dry, idx) {
   if (!m || !m.ts) { return 'skip'; }
   if (m.bot_id || m.subtype === 'bot_message') { return 'skip'; }
   if (m.subtype && m.subtype !== 'file_share' && m.subtype !== 'thread_broadcast') { return 'skip'; }
@@ -83,7 +85,7 @@ function kcgHandle_(m, dry) {
   var req = kcgParseRequest_(text);
   if (!req) { console.log('[건너뜀] 지점명/메뉴 요청 아님: ' + text.slice(0, 60).replace(/\n/g, ' / ')); return 'skip'; }
 
-  var info = kcgFindStore_(req.branch);
+  var info = kcgFindStore_(req.branch, idx);
   var post = kcgCompose_(req, info);
   if (dry) {
     console.log('──── ' + kcgKst_(m.ts) + ' 원문 ────\n' + text + '\n──── 올라갈 접수글 ────\n' + post
@@ -98,7 +100,7 @@ function kcgHandle_(m, dry) {
   var link = kcgSlack_('chat.getPermalink', { channel: KCG.src, message_ts: m.ts });
   var note = ['🤖 강창구 협업채널 요청 자동 접수' + (link.ok ? ' · <' + link.permalink + '|원문 보기>' : '')];
   if (!info) { note.push('⚠️ 처음 요청하는 지점이라 예전 접수 글에서 매장 정보를 찾지 못했습니다. 비어 있는 칸(확인 필요)을 채워 주세요.'); }
-  else { note.push('매장 정보: ' + info.src + ' 접수 글 기준'); }
+  else { note.push('매장 정보: ' + info.src + ' 기준'); }
   var files = (m.files || []).filter(function (f) { return f.permalink; });
   if (files.length) { note.push('📎 첨부 ' + files.length + '개: ' + files.map(function (f, k) { return '<' + f.permalink + '|' + (f.name || ('파일' + (k + 1))) + '>'; }).join(' · ')); }
   kcgSlack_('chat.postMessage', { channel: KCG.dst, thread_ts: sent.ts, text: note.join('\n'), unfurl_links: false, unfurl_media: false });
@@ -196,47 +198,81 @@ function kcgSameBranch_(a, b) {
   return x === y;
 }
 
-/* ---------- 매장 정보 찾기 ---------- */
-// 채널마다 그 지점의 가장 최근 글 하나씩 찾아, 최근 것부터 빈 칸을 채워 합친다
-// (AS요청 새 양식엔 배달제휴·자대리점이 있고, 메뉴요청 예전 양식엔 없다)
+/* ---------- 매장 정보 찾기 (매장 목록 인덱스) ----------
+ * 요청마다 AS요청 채널 수만 건을 훑으면 슬랙 속도 제한 + 6분 실행 제한에 걸려 멈춘다.
+ * → 강창구 접수 글만 모아 '지점 → 칸별 최신 값' 목록을 스크립트 속성에 저장해 두고(kcgBuildIndex, 한 번),
+ *   요청이 올 때는 마지막으로 본 뒤의 새 글만 읽어 보충한다(보통 채널당 1번 호출).
+ * 저장 형태: { ts:{채널:마지막으로 본 ts}, s:{지점키:{칸:[값, ts]}} } — 8000자 조각으로 나눠 KCG_IDX_0.. 에 */
 
 var KCG_FIELDS = ['store', 'biz', 'phone', 'addr', 'inflow', 'supply', 'delivery', 'agency'];
+var KCG_TIME_BUDGET = 270 * 1000;   // 한 번 실행에서 목록 만들기에 쓸 시간(6분 제한 여유)
 
-function kcgFindStore_(branch) {
-  var cache = CacheService.getScriptCache(), ck = 'kcg_store2_' + Utilities.base64EncodeWebSafe(branch).slice(0, 200);
-  var hit = cache.get(ck);
-  if (hit) { return JSON.parse(hit); }
-  var found = [], pages = 0;
-  for (var c = 0; c < KCG.lookup.length; c++) {
-    var ch = KCG.lookup[c], cursor = '', got = null;
-    var oldest = String(Math.floor(Date.now() / 1000) - ch.days * 86400);
-    do {
-      if (++pages > KCG.lookupPageCap) { console.log('매장 찾기 페이지 상한 도달'); break; }
-      var p = { channel: ch.id, oldest: oldest, limit: 200 };
-      if (cursor) { p.cursor = cursor; }
-      var res = kcgSlack_('conversations.history', p);
-      if (!res.ok) { console.log('매장 찾기 읽기 실패(' + ch.id + '): ' + res.error); break; }
-      var ms = res.messages || [];
-      for (var i = 0; i < ms.length && !got; i++) {
-        var t = kcgClean_(ms[i].text || '');
-        if (t.indexOf('창구') < 0) { continue; }
-        var fl = kcgParseTemplate_(t);
-        if (!fl.store || !kcgSameBranch_(kcgBranchKey_(fl.store), branch)) { continue; }
-        fl.ts = parseFloat(ms[i].ts);
-        fl.src = { 'C08740SFT1S': '#oc팀_메뉴요청', 'C07CL4BV9QT': '#명의변경', 'C09HRUSG4TX': '#AS요청' }[ch.id] || ch.id;
-        got = fl;
-      }
-      cursor = got ? '' : ((res.response_metadata && res.response_metadata.next_cursor) || '');
-    } while (cursor);
-    if (got) { found.push(got); }
-    if (pages > KCG.lookupPageCap) { break; }
-  }
-  if (!found.length) { return null; }
-  found.sort(function (x, y) { return y.ts - x.ts; });
-  var out = {};
-  KCG_FIELDS.forEach(function (k) { for (var j = 0; j < found.length; j++) { if (found[j][k]) { out[k] = found[j][k]; break; } } });
-  out.src = found.map(function (x) { return x.src + ' ' + kcgKst_(x.ts).slice(0, 10); }).join(', ');
-  cache.put(ck, JSON.stringify(out), 21600);
+function kcgIdxLoad_() {
+  var p = PropertiesService.getScriptProperties(), n = parseInt(p.getProperty('KCG_IDX_N') || '0', 10), raw = '';
+  for (var i = 0; i < n; i++) { raw += p.getProperty('KCG_IDX_' + i) || ''; }
+  try { var o = raw ? JSON.parse(raw) : null; if (o && o.s) { o.ts = o.ts || {}; return o; } } catch (e) {}
+  return { ts: {}, s: {} };
+}
+function kcgIdxSave_(idx) {
+  var p = PropertiesService.getScriptProperties(), raw = JSON.stringify(idx), old = parseInt(p.getProperty('KCG_IDX_N') || '0', 10);
+  var parts = {}, n = 0;
+  for (var i = 0; i < raw.length; i += 8000) { parts['KCG_IDX_' + (n++)] = raw.slice(i, i + 8000); }
+  parts.KCG_IDX_N = String(n);
+  p.setProperties(parts);
+  for (var j = n; j < old; j++) { p.deleteProperty('KCG_IDX_' + j); }
+}
+function kcgKey_(store) { return kcgBranchKey_(store).replace(/점$/, ''); }
+
+// 글 하나를 목록에 반영 — 칸마다 더 최근 값만 덮는다
+function kcgIdxAdd_(idx, m) {
+  var t = kcgClean_(m.text || '');
+  if (t.indexOf('창구') < 0) { return false; }
+  var fl = kcgParseTemplate_(t);
+  if (!fl.store) { return false; }
+  var k = kcgKey_(fl.store);
+  if (!k) { return false; }
+  var e = idx.s[k] || (idx.s[k] = {}), ts = parseFloat(m.ts), ch = false;
+  KCG_FIELDS.forEach(function (f) {
+    if (!fl[f]) { return; }
+    if (!e[f] || e[f][1] < ts) { e[f] = [fl[f], ts]; ch = true; }
+  });
+  return ch;
+}
+
+// 채널 하나를 oldest~latest 범위로 읽어 목록에 반영. 시간이 다 되면 다음에 이어 볼 cursor 를 돌려준다
+function kcgIdxScan_(idx, chId, oldest, latest, cursor, t0) {
+  var pages = 0;
+  do {
+    if (Date.now() - t0 > KCG_TIME_BUDGET) { return { more: true, cursor: cursor }; }
+    var p = { channel: chId, oldest: String(oldest), limit: 200 };
+    if (latest) { p.latest = String(latest); }
+    if (cursor) { p.cursor = cursor; }
+    var res = kcgSlack_('conversations.history', p);
+    if (!res.ok) { console.log('읽기 실패(' + chId + '): ' + res.error); return { more: false, error: res.error }; }
+    (res.messages || []).forEach(function (m) { kcgIdxAdd_(idx, m); });
+    cursor = (res.response_metadata && res.response_metadata.next_cursor) || '';
+    if (++pages % 10 === 0) { console.log('  … ' + chId + ' ' + pages + '페이지 · 지점 ' + Object.keys(idx.s).length + '곳'); }
+  } while (cursor);
+  return { more: false };
+}
+
+// 새 글만 보충 (요청이 올 때마다)
+function kcgIdxRefresh_(idx) {
+  var now = Date.now() / 1000, t0 = Date.now();
+  KCG.lookup.forEach(function (c) {
+    var from = idx.ts[c.id] || (now - 3 * 86400);   // 목록을 아직 안 만들었으면 최근 3일만
+    var r = kcgIdxScan_(idx, c.id, from, null, '', t0);
+    if (!r.more && !r.error) { idx.ts[c.id] = now; }
+  });
+}
+
+function kcgFindStore_(branch, idx) {
+  idx = idx || kcgIdxLoad_();
+  var e = idx.s[branch.replace(/점$/, '')];
+  if (!e || !e.store) { return null; }
+  var out = {}, last = 0;
+  KCG_FIELDS.forEach(function (f) { if (e[f]) { out[f] = e[f][0]; last = Math.max(last, e[f][1]); } });
+  out.src = '예전 접수 글(최근 ' + kcgKst_(last).slice(0, 10) + ')';
   return out;
 }
 
@@ -312,7 +348,36 @@ function kcgSlack_(method, params) {
 
 /* ---------- 편집기에서 직접 실행 ---------- */
 
-// 설정 점검 — 아무것도 올리지 않는다
+// 매장 목록 만들기 — 처음 한 번. 4분 30초씩 나눠 돌고, 덜 끝나면 1분 뒤 자동으로 이어서 한다
+function kcgBuildIndex() {
+  var p = PropertiesService.getScriptProperties(), t0 = Date.now();
+  var st = JSON.parse(p.getProperty('KCG_BUILD') || 'null');
+  var idx = st ? kcgIdxLoad_() : { ts: {}, s: {} };
+  if (!st) { st = { c: 0, cursor: '', upto: Date.now() / 1000 }; console.log('매장 목록 만들기 시작'); }
+  else { console.log('매장 목록 이어서 만들기 (' + (st.c + 1) + '/' + KCG.lookup.length + '번째 채널)'); }
+  kcgBuildCont_(false);
+  while (st.c < KCG.lookup.length) {
+    var c = KCG.lookup[st.c];
+    var r = kcgIdxScan_(idx, c.id, st.upto - c.days * 86400, st.upto, st.cursor, t0);
+    if (r.more) {
+      st.cursor = r.cursor; p.setProperty('KCG_BUILD', JSON.stringify(st)); kcgIdxSave_(idx);
+      kcgBuildCont_(true);
+      console.log('⏳ 시간이 다 돼 1분 뒤 자동으로 이어서 합니다. (지금까지 지점 ' + Object.keys(idx.s).length + '곳) — 기다리시면 됩니다');
+      return;
+    }
+    if (r.error) { console.log('❌ 중단: ' + r.error); p.setProperty('KCG_BUILD', JSON.stringify(st)); kcgIdxSave_(idx); return; }
+    idx.ts[c.id] = st.upto; st.c++; st.cursor = '';
+    console.log('✅ ' + c.id + ' 완료 · 지점 ' + Object.keys(idx.s).length + '곳');
+  }
+  kcgIdxSave_(idx); p.deleteProperty('KCG_BUILD');
+  console.log('🎉 매장 목록 완성: 강창구 지점 ' + Object.keys(idx.s).length + '곳 — ' + Object.keys(idx.s).slice(0, 30).join(', '));
+}
+function kcgBuildCont_(on) {
+  ScriptApp.getProjectTriggers().forEach(function (t) { if (t.getHandlerFunction() === 'kcgBuildIndex') { ScriptApp.deleteTrigger(t); } });
+  if (on) { ScriptApp.newTrigger('kcgBuildIndex').timeBased().after(60 * 1000).create(); }
+}
+
+// 설정 점검 — 아무것도 올리지 않는다 (몇 초면 끝난다)
 function kcgCheck() {
   var a = kcgSlack_('auth.test', {});
   console.log('봇 토큰: ' + (a.ok ? '정상 (' + a.user + ')' : '❌ ' + a.error));
@@ -322,17 +387,19 @@ function kcgCheck() {
   console.log('협업채널 읽기: ' + (h.ok ? '✅ 최근 ' + (h.messages || []).length + '건' : '❌ ' + h.error + (h.error === 'missing_scope' ? ' — 비공개 채널이면 봇에 groups:history 스코프 추가 후 재설치' : '')));
   var d = kcgSlack_('conversations.info', { channel: KCG.dst });
   console.log('#oc팀_메뉴요청 봇 참여: ' + (d.ok && d.channel.is_member ? '✅' : '❌ ' + (d.error || '미참여')));
-  var t = kcgFindStore_('과천펜타원점');
-  console.log('매장 찾기 시험(과천펜타원점): ' + (t ? '✅ (' + t.src + ')\n' + kcgCompose_({ branch: '과천펜타원점', kind: '메뉴등록', body: '(시험)' }, t) : '❌ 못 찾음'));
-  console.log('자동 접수: ' + (PropertiesService.getScriptProperties().getProperty('KCG_LAST_TS') ? '켜짐' : '꺼짐 (kcgInstall 로 켜기)')
-    + ' · 완료 대기 중인 접수글 ' + kcgPendingGet_().length + '건');
+  var p = PropertiesService.getScriptProperties(), idx = kcgIdxLoad_(), n = Object.keys(idx.s).length;
+  console.log('매장 목록: ' + (p.getProperty('KCG_BUILD') ? '⏳ 만드는 중' : n ? '✅' : '❌ 없음 — kcgBuildIndex 를 실행하세요') + ' 지점 ' + n + '곳');
+  var t = kcgFindStore_('과천펜타원점', idx);
+  console.log('매장 찾기 시험(과천펜타원점): ' + (t ? '✅ ' + t.src + '\n' + kcgCompose_({ branch: '과천펜타원점', kind: '메뉴등록', body: '(시험)' }, t) : '❌ 못 찾음'));
+  console.log('자동 접수: ' + (p.getProperty('KCG_LAST_TS') ? '켜짐' : '꺼짐 (kcgInstall 로 켜기)') + ' · 완료 대기 중인 접수글 ' + kcgPendingGet_().length + '건');
 }
 
-// 협업채널 최근 글 10건이 어떻게 올라갈지 미리보기 — 실제로 올리지 않는다
+// 협업채널 최근 글 5건이 어떻게 올라갈지 미리보기 — 실제로 올리지 않는다
 function kcgPreview() {
-  var h = kcgSlack_('conversations.history', { channel: KCG.src, limit: 10 });
+  var h = kcgSlack_('conversations.history', { channel: KCG.src, limit: 5 });
   if (!h.ok) { console.log('❌ ' + h.error); return; }
-  (h.messages || []).slice().reverse().forEach(function (m) { kcgHandle_(m, true); });
+  var idx = kcgIdxLoad_();
+  (h.messages || []).slice().reverse().forEach(function (m) { kcgHandle_(m, true, idx); });
 }
 
 // 지금 이후 글부터 자동 접수 (예전 글은 넘기지 않음) + 1분 트리거
@@ -341,6 +408,7 @@ function kcgInstall() {
   PropertiesService.getScriptProperties().setProperty('KCG_LAST_TS', String(Date.now() / 1000));
   ScriptApp.newTrigger('kcgTick').timeBased().everyMinutes(1).create();
   console.log('설치 완료 — 지금 이후 협업채널 글을 1분마다 #oc팀_메뉴요청 으로 접수합니다.');
+  if (!Object.keys(kcgIdxLoad_().s).length) { console.log('⚠️ 매장 목록이 비어 있습니다 — kcgBuildIndex 를 실행하세요.'); }
 }
 
 function kcgUninstall() {
