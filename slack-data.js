@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34604,
+  "version": 34605,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334684,13 +334684,40 @@ window.SLACK_DATA = {
     },
     "2026-11-17": {
       "counts": {
+        "booking": {
+          "송태양": 1
+        },
         "as": {
+          "고경림": 1,
           "김동욱": 2,
           "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:23",
+          "store": "별을심는바둑학원",
+          "biz": "1559301766",
+          "cat": "booking",
+          "emp": "송태양",
+          "req": "프론트 단말기 연결선이 안보인다고 하시어 확인 부탁드립니다 (케이블을 못찾으시는상황)",
+          "hw": "",
+          "intake": "online",
+          "note": "• 현재 외부인 관계로 금일 오후 3시 15분 예약 완료입니다 현재 외부인 관계로 금일 오후 3시 15분 예약 완료입니다",
+          "rr": 1
+        },
+        {
+          "time": "09:20",
+          "store": "아뜨",
+          "biz": "6531303567",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "토스POS 창이 안열린다하여 점검부탁드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:16",
           "store": "핑크개러지",
@@ -334729,7 +334756,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -334827,14 +334854,7 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794875048.419
-      },
-      "1794874857.105719": {
-        "post": "1794874857.105719",
-        "lastSeen": 1794875048.419,
-        "r": 1,
-        "day": "2026-11-17",
-        "idx": 0
+        "lastSeen": 1794875135.249
       }
     },
     "days": {
@@ -462589,14 +462609,15 @@ window.SLACK_DATA = {
             "store": "아뜨",
             "biz": "6531303567",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 3.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:24",
+    "at": "2026-11-17 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462758,7 +462779,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:24",
+    "at": "2026-11-17 09:25",
     "pri": {
       "days": 0,
       "failed": [],
