@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5376,
- "updatedAt": "2026-11-17 13:57",
+ "version": 5377,
+ "updatedAt": "2026-11-17 13:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1794891561.923719",
+   "date": "2026-11-17",
+   "time": "13:59",
+   "store": "미자네 김치찜",
+   "biz": "5792302202",
+   "pos": "",
+   "content": "[하이오더] 기존 테이블 유지하고 선불형 테이블 12개 생성 요청 드립니다!\n• 오후에 제가 자리에 없어서 생성 이후 위 번호로 완료 문자 한 번만 발송 부탁 드립니다. :꾸벅5:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794891561923719"
+  },
   {
    "ts": "1794890836.694269",
    "date": "2026-11-17",
@@ -22,10 +43,11 @@ window.MENU_REQUESTS = {
    "datt": [],
    "replies": [
     "배민에 오리꽉꽉이 없는디",
-    "패스할까요 아님 전화라도 해줄까요 1?2?"
+    "패스할까요 아님 전화라도 해줄까요 1?2?",
+    "여기 제가 전화할게요!!!!!"
    ],
-   "rc": 2,
-   "lr": "1794891422.797659",
+   "rc": 3,
+   "lr": "1794891522.317289",
    "rfx": 3,
    "status": "wait",
    "handler": null,
