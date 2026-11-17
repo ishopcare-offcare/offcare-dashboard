@@ -3,10 +3,120 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5383,
- "updatedAt": "2026-11-17 14:27",
+ "version": 5384,
+ "updatedAt": "2026-11-17 14:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1794893141.387079",
+   "date": "2026-11-17",
+   "time": "14:25",
+   "store": "주식회사 첸푸드",
+   "biz": "1438703678",
+   "pos": "",
+   "content": "메뉴등록요청으로 공유드립니다",
+   "special": "",
+   "drive": [],
+   "files": 1,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CJ6Q27NKX",
+     "from": "원글",
+     "path": "menu-files/1794893141_387079-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "SAKE",
+       "name": "Sake Unesaku",
+       "price": 40000
+      },
+      {
+       "category": "SAKE",
+       "name": "Tsuki Yuki",
+       "price": 40000
+      },
+      {
+       "category": "SAKE",
+       "name": "Umeshu",
+       "price": 40000
+      },
+      {
+       "category": "SAKE / HIREZAKE",
+       "name": "Born Junmai 50",
+       "price": 40000
+      },
+      {
+       "category": "SAKE / HIREZAKE",
+       "name": "Masuizumi Junmai-sha",
+       "price": 25000
+      },
+      {
+       "category": "WINE",
+       "name": "Chardonnay",
+       "price": 30000
+      },
+      {
+       "category": "BEER",
+       "name": "Yebisu Draft beer",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "BEER",
+       "name": "Yebisu Black beer",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "Yebisu Highball",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "Highball",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "DRINK",
+       "name": "Fuji Mineral Water",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "DRINK",
+       "name": "Perrier / San Pellegrino",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "DRINK",
+       "name": "Coke / Cider / Ginger Ale",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "DRINK",
+       "name": "Kwenaenso / Tonic Water",
+       "price": 0,
+       "pt": "u"
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794893141387079"
+  },
   {
    "ts": "1794893125.902949",
    "date": "2026-11-17",
@@ -23,7 +133,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CJ5PZ6CTD",
      "from": "원글",
-     "path": "menu-files/1794893125_902949-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -87,13 +196,13 @@ window.MENU_REQUESTS = {
        "price": 600000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893125_902949-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJBSQ2E6N",
      "from": "원글",
-     "path": "menu-files/1794893125_902949-1.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -147,13 +256,13 @@ window.MENU_REQUESTS = {
        "price": 280000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893125_902949-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CK6DTB7QQ",
      "from": "원글",
-     "path": "menu-files/1794893125_902949-2.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -192,13 +301,13 @@ window.MENU_REQUESTS = {
        "price": 300000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893125_902949-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJBSRM6TU",
      "from": "원글",
-     "path": "menu-files/1794893125_902949-3.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -252,13 +361,13 @@ window.MENU_REQUESTS = {
        "price": 200000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893125_902949-3.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJA3UJAVC",
      "from": "원글",
-     "path": "menu-files/1794893125_902949-4.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -297,13 +406,13 @@ window.MENU_REQUESTS = {
        "price": 200000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893125_902949-4.png"
     },
     {
      "name": "image.png",
      "fid": "F0CJ5RJH1DH",
      "from": "원글",
-     "path": "menu-files/1794893125_902949-5.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -362,7 +471,8 @@ window.MENU_REQUESTS = {
        "price": 170000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893125_902949-5.png"
     },
     {
      "name": "image.png",
