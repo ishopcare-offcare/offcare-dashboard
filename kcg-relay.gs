@@ -13,6 +13,8 @@
  * 매장 정보는 그 지점의 예전 요청 글(#oc팀_메뉴요청 → 명의변경 → AS요청 순)에서 가장 최근 것을 가져온다.
  * 처음 요청하는 지점이라 못 찾으면 빈 칸을 '확인 필요'로 두고 댓글로 알린다.
  * 원문 링크·첨부 파일은 접수글 댓글로, 협업채널 원문에는 '접수되었습니다' 댓글을 단다.
+ * 접수글에 완료 이모지(원격OOO — 대시보드 집계와 같은 기준)가 붙으면 1분 안에 협업채널 원문에 '처리 완료' 댓글을 단다.
+ *   (접수 후 14일 안에 완료되지 않으면 더 지켜보지 않는다 · kcgInstall 이후 접수된 글만)
  *
  * 메뉴 요청이 아닌 글(AS 문의 등)·스레드 댓글·봇 글은 넘기지 않는다.
  *
@@ -37,8 +39,13 @@ var KCG = {
     { id: 'C09HRUSG4TX', days: 120 }    // AS요청 (글이 많아 짧게)
   ],
   lookupPageCap: 120,            // 한 번 찾을 때 최대 페이지(200건/페이지) — 6분 실행 제한 보호
-  ackReply: true                 // 협업채널 원문에 '접수되었습니다' 댓글
+  ackReply: true,                // 협업채널 원문에 '접수되었습니다' 댓글
+  doneReply: true,               // 접수글에 완료 이모지(원격OOO)가 붙으면 협업채널 원문에 '처리 완료' 댓글
+  doneWatchDays: 14              // 이 기간 안에 완료되지 않은 접수글은 더 지켜보지 않는다
 };
+// 메뉴요청 채널의 완료 이모지 — scripts/fetch-menu-requests.js 의 personMap 과 같게
+var KCG_PEOPLE = { '규빈': '김규빈', '선유': '배선유', '성현': '심성현', '동욱': '김동욱', '현기': '김현기', '태양': '송태양',
+  '기범': '김기범', '상원': '서상원', '민석': '최민석', '경림': '고경림', '하림': '박하림' };
 // 브랜드 표기 변형(긴 것부터 지운다) — franchise/brands.js 의 강창구 별칭과 같게
 var KCG_BRAND_RE = /(주식회사|\(주\)|창구유통|강창구의?찹쌀진순대국?|강창구찹쌀순대국?|강창구진순대국?|강창구)/g;
 
@@ -61,6 +68,7 @@ function kcgTick() {
       if (r === 'retry') { break; }                       // 올리기 실패 → 다음 1분에 이 글부터 다시
       props.setProperty('KCG_LAST_TS', m.ts);
     }
+    if (KCG.doneReply) { kcgCheckDone_(); }
   } finally {
     cache.remove('kcg_running');
   }
@@ -100,8 +108,53 @@ function kcgHandle_(m, dry) {
     kcgSlack_('chat.postMessage', { channel: KCG.src, thread_ts: m.ts,
       text: '✅ 메뉴 요청이 접수되었습니다. 담당자가 순서대로 처리해 드릴게요!' });
   }
+  kcgPendingAdd_({ d: sent.ts, s: m.ts, b: req.branch });   // 완료 이모지 지켜보기
   console.log('접수 완료: ' + req.branch + ' → ' + sent.ts);
   return 'done';
+}
+
+/* ---------- 처리 완료 알림 ---------- */
+// 지켜볼 접수글 목록 [{d:접수글 ts, s:협업채널 원문 ts, b:지점}] — 스크립트 속성 한 칸(9KB)에 담는다
+
+function kcgPendingGet_() {
+  try { return JSON.parse(PropertiesService.getScriptProperties().getProperty('KCG_PENDING') || '[]'); } catch (e) { return []; }
+}
+function kcgPendingSet_(list) {
+  var cut = Date.now() / 1000 - KCG.doneWatchDays * 86400;
+  list = list.filter(function (p) { return parseFloat(p.d) >= cut; });
+  while (list.length && JSON.stringify(list).length > 8500) { list.shift(); }   // 넘치면 오래된 것부터
+  PropertiesService.getScriptProperties().setProperty('KCG_PENDING', JSON.stringify(list));
+}
+function kcgPendingAdd_(p) { var l = kcgPendingGet_(); l.push(p); kcgPendingSet_(l); }
+
+// 접수글의 이모지를 보고, 원격OOO 가 붙은 글은 협업채널 원문에 완료 댓글을 단다
+function kcgCheckDone_() {
+  var list = kcgPendingGet_();
+  if (!list.length) { return; }
+  var oldest = list.reduce(function (a, p) { return Math.min(a, parseFloat(p.d)); }, Infinity);
+  var reacts = {}, cursor = '', pages = 0;
+  do {   // 가장 오래된 접수글부터 지금까지의 글을 한 번에 읽는다(보통 1페이지)
+    var q = { channel: KCG.dst, oldest: String(oldest - 1), limit: 200 };
+    if (cursor) { q.cursor = cursor; }
+    var res = kcgSlack_('conversations.history', q);
+    if (!res.ok) { console.log('완료 확인 읽기 실패: ' + res.error); return; }
+    (res.messages || []).forEach(function (m) { reacts[m.ts] = (m.reactions || []).map(function (r) { return r.name; }); });
+    cursor = (res.response_metadata && res.response_metadata.next_cursor) || '';
+  } while (cursor && ++pages < 10);
+
+  var re = new RegExp('^원격(' + Object.keys(KCG_PEOPLE).join('|') + ')$'), left = [];
+  list.forEach(function (p) {
+    var names = reacts[p.d];
+    if (!names) { left.push(p); return; }                       // 못 읽음(지워졌거나 범위 밖) → 기한까지 유지
+    var who = '';
+    for (var i = 0; i < names.length && !who; i++) { var x = names[i].match(re); if (x) { who = KCG_PEOPLE[x[1]]; } }
+    if (!who) { left.push(p); return; }
+    var r = kcgSlack_('chat.postMessage', { channel: KCG.src, thread_ts: p.s,
+      text: '🎉 요청하신 메뉴 작업이 처리 완료되었습니다! 포스에서 확인 부탁드립니다. (담당: ' + who + ')' });
+    if (r.ok) { console.log('완료 알림: ' + p.b + ' (' + who + ')'); }
+    else { console.log('완료 알림 실패(다음 1분에 재시도): ' + r.error); left.push(p); }
+  });
+  kcgPendingSet_(left);
 }
 
 /* ---------- 요청 글 해석 ---------- */
@@ -252,7 +305,8 @@ function kcgCheck() {
   console.log('#oc팀_메뉴요청 봇 참여: ' + (d.ok && d.channel.is_member ? '✅' : '❌ ' + (d.error || '미참여')));
   var t = kcgFindStore_('과천펜타원점');
   console.log('매장 찾기 시험(과천펜타원점): ' + (t ? '✅ ' + t.store + ' · ' + t.biz + ' (' + t.src + ' ' + t.date + ')' : '❌ 못 찾음'));
-  console.log('자동 접수: ' + (PropertiesService.getScriptProperties().getProperty('KCG_LAST_TS') ? '켜짐' : '꺼짐 (kcgInstall 로 켜기)'));
+  console.log('자동 접수: ' + (PropertiesService.getScriptProperties().getProperty('KCG_LAST_TS') ? '켜짐' : '꺼짐 (kcgInstall 로 켜기)')
+    + ' · 완료 대기 중인 접수글 ' + kcgPendingGet_().length + '건');
 }
 
 // 협업채널 최근 글 10건이 어떻게 올라갈지 미리보기 — 실제로 올리지 않는다
