@@ -7,10 +7,9 @@
  *   매생이떡국 11,000원 ...
  * 처럼 올리면, 1분 안에 #oc팀_메뉴요청 (C08740SFT1S) 에 접수 양식으로 올린다.
  *   상호: 강창구찹쌀진순대 과천펜타원점 / KIS
- *   오프/온라인: 오프라인 / 임대
- *   사업자번호 : … / 대표자명 : … / 대표자 전화번호 : … / 가게 연락처 : … / 주소 : …
- *   내용: 메뉴등록 (+ 원문 요청 내용)
- * 매장 정보는 그 지점의 예전 요청 글(#oc팀_메뉴요청 → 명의변경 → AS요청 순)에서 가장 최근 것을 가져온다.
+ *   사업자번호 / 핸드폰 번호 / 주소 / 인입유형 / 공급유형 / 배달제휴 / 자대리점   (AS요청 채널과 같은 양식)
+ *   내용: [메뉴등록] 원문 요청 내용
+ * 매장 정보는 그 지점의 예전 접수 글(AS요청·메뉴요청·명의변경)에서 가장 최근 것부터 빈 칸을 채워 합친다.
  * 처음 요청하는 지점이라 못 찾으면 빈 칸을 '확인 필요'로 두고 댓글로 알린다.
  * 원문 링크·첨부 파일은 접수글 댓글로, 협업채널 원문에는 '접수되었습니다' 댓글을 단다.
  * 접수글에 완료 이모지(원격OOO — 대시보드 집계와 같은 기준)가 붙으면 1분 안에 협업채널 원문에 '처리 완료' 댓글을 단다.
@@ -34,9 +33,9 @@ var KCG = {
   brand: '강창구찹쌀진순대',
   // 매장 정보를 찾을 채널(앞에서부터) · 거슬러 볼 일수
   lookup: [
+    { id: 'C09HRUSG4TX', days: 180 },   // AS요청 — 새 양식(배달제휴·자대리점까지)
     { id: 'C08740SFT1S', days: 400 },   // 메뉴요청
-    { id: 'C07CL4BV9QT', days: 400 },   // 명의변경
-    { id: 'C09HRUSG4TX', days: 120 }    // AS요청 (글이 많아 짧게)
+    { id: 'C07CL4BV9QT', days: 400 }    // 명의변경
   ],
   lookupPageCap: 120,            // 한 번 찾을 때 최대 페이지(200건/페이지) — 6분 실행 제한 보호
   ackReply: true,                // 협업채널 원문에 '접수되었습니다' 댓글
@@ -99,7 +98,7 @@ function kcgHandle_(m, dry) {
   var link = kcgSlack_('chat.getPermalink', { channel: KCG.src, message_ts: m.ts });
   var note = ['🤖 강창구 협업채널 요청 자동 접수' + (link.ok ? ' · <' + link.permalink + '|원문 보기>' : '')];
   if (!info) { note.push('⚠️ 처음 요청하는 지점이라 예전 접수 글에서 매장 정보를 찾지 못했습니다. 비어 있는 칸(확인 필요)을 채워 주세요.'); }
-  else { note.push('매장 정보: ' + info.src + ' 접수 글(' + info.date + ') 기준'); }
+  else { note.push('매장 정보: ' + info.src + ' 접수 글 기준'); }
   var files = (m.files || []).filter(function (f) { return f.permalink; });
   if (files.length) { note.push('📎 첨부 ' + files.length + '개: ' + files.map(function (f, k) { return '<' + f.permalink + '|' + (f.name || ('파일' + (k + 1))) + '>'; }).join(' · ')); }
   kcgSlack_('chat.postMessage', { channel: KCG.dst, thread_ts: sent.ts, text: note.join('\n'), unfurl_links: false, unfurl_media: false });
@@ -198,65 +197,85 @@ function kcgSameBranch_(a, b) {
 }
 
 /* ---------- 매장 정보 찾기 ---------- */
+// 채널마다 그 지점의 가장 최근 글 하나씩 찾아, 최근 것부터 빈 칸을 채워 합친다
+// (AS요청 새 양식엔 배달제휴·자대리점이 있고, 메뉴요청 예전 양식엔 없다)
+
+var KCG_FIELDS = ['store', 'biz', 'phone', 'addr', 'inflow', 'supply', 'delivery', 'agency'];
 
 function kcgFindStore_(branch) {
-  var cache = CacheService.getScriptCache(), ck = 'kcg_store_' + Utilities.base64EncodeWebSafe(branch).slice(0, 200);
+  var cache = CacheService.getScriptCache(), ck = 'kcg_store2_' + Utilities.base64EncodeWebSafe(branch).slice(0, 200);
   var hit = cache.get(ck);
   if (hit) { return JSON.parse(hit); }
-  var pages = 0;
+  var found = [], pages = 0;
   for (var c = 0; c < KCG.lookup.length; c++) {
-    var ch = KCG.lookup[c], cursor = '';
+    var ch = KCG.lookup[c], cursor = '', got = null;
     var oldest = String(Math.floor(Date.now() / 1000) - ch.days * 86400);
     do {
-      if (++pages > KCG.lookupPageCap) { console.log('매장 찾기 페이지 상한 도달'); return null; }
+      if (++pages > KCG.lookupPageCap) { console.log('매장 찾기 페이지 상한 도달'); break; }
       var p = { channel: ch.id, oldest: oldest, limit: 200 };
       if (cursor) { p.cursor = cursor; }
       var res = kcgSlack_('conversations.history', p);
       if (!res.ok) { console.log('매장 찾기 읽기 실패(' + ch.id + '): ' + res.error); break; }
       var ms = res.messages || [];
-      for (var i = 0; i < ms.length; i++) {
+      for (var i = 0; i < ms.length && !got; i++) {
         var t = kcgClean_(ms[i].text || '');
         if (t.indexOf('창구') < 0) { continue; }
-        var f = kcgParseTemplate_(t);
-        if (!f.store || !kcgSameBranch_(kcgBranchKey_(f.store), branch)) { continue; }
-        f.src = { 'C08740SFT1S': '#oc팀_메뉴요청', 'C07CL4BV9QT': '#명의변경', 'C09HRUSG4TX': '#AS요청' }[ch.id] || ch.id;
-        f.date = kcgKst_(ms[i].ts).slice(0, 10);
-        cache.put(ck, JSON.stringify(f), 21600);
-        return f;
+        var fl = kcgParseTemplate_(t);
+        if (!fl.store || !kcgSameBranch_(kcgBranchKey_(fl.store), branch)) { continue; }
+        fl.ts = parseFloat(ms[i].ts);
+        fl.src = { 'C08740SFT1S': '#oc팀_메뉴요청', 'C07CL4BV9QT': '#명의변경', 'C09HRUSG4TX': '#AS요청' }[ch.id] || ch.id;
+        got = fl;
       }
-      cursor = (res.response_metadata && res.response_metadata.next_cursor) || '';
+      cursor = got ? '' : ((res.response_metadata && res.response_metadata.next_cursor) || '');
     } while (cursor);
+    if (got) { found.push(got); }
+    if (pages > KCG.lookupPageCap) { break; }
   }
-  return null;
+  if (!found.length) { return null; }
+  found.sort(function (x, y) { return y.ts - x.ts; });
+  var out = {};
+  KCG_FIELDS.forEach(function (k) { for (var j = 0; j < found.length; j++) { if (found[j][k]) { out[k] = found[j][k]; break; } } });
+  out.src = found.map(function (x) { return x.src + ' ' + kcgKst_(x.ts).slice(0, 10); }).join(', ');
+  cache.put(ck, JSON.stringify(out), 21600);
+  return out;
 }
 
-// 접수 양식 글에서 칸 읽기
+// 접수 글에서 칸 읽기 — AS요청 새 양식과 메뉴요청 예전 양식 둘 다
 function kcgParseTemplate_(t) {
   var g = function (re) { var x = t.match(re); return x ? x[1].trim() : ''; };
+  // 콜론 앞뒤 공백은 [ \t] 만 — \s 를 쓰면 빈 칸('배달제휴:')이 다음 줄 값을 삼킨다
+  var L = '^[ \\t\\-•*]*';
+  var r = function (lab) { return new RegExp(L + lab + '[ \\t]*[:：][ \\t]*(.*)$', 'm'); };
+  var onoff = g(r('오프\\s*\\/\\s*온라인'));                     // 예전: '오프라인 / 임대'
+  var oo = onoff.split('/').map(function (x) { return x.trim(); });
+  var phone = g(r('(?:핸드폰|휴대폰|휴대전화)\\s*번호')) || g(r('대표자?\\s*(?:전화번호|연락처|휴대폰|핸드폰)'))
+    || g(r('(?:가게|매장)\\s*(?:연락처|전화번호)'));
   return {
-    store: g(/^[\s\-•*]*상호명?\s*[:：]\s*(.+)$/m),
-    onoff: g(/^[\s\-•*]*오프\s*\/\s*온라인\s*[:：]\s*(.+)$/m),
-    biz: g(/^[\s\-•*]*사업자\s*(?:등록)?\s*번호\s*[:：]\s*(.+)$/m),
-    owner: g(/^[\s\-•*]*대표자\s*(?:명|성함|이름)?\s*[:：]\s*(.+)$/m),
-    ownerPhone: g(/^[\s\-•*]*대표자?\s*(?:전화번호|연락처|휴대폰|핸드폰|번호)\s*[:：]\s*(.+)$/m),
-    storePhone: g(/^[\s\-•*]*(?:가게|매장)\s*(?:연락처|전화번호|번호)\s*[:：]\s*(.+)$/m),
-    addr: g(/^[\s\-•*]*주소\s*[:：]\s*(.+)$/m)
+    store: g(r('상호명?')),
+    biz: g(r('사업자\\s*(?:등록)?\\s*번호')),
+    phone: phone,
+    addr: g(r('주소')),
+    inflow: g(r('인입\\s*유형')) || (/라인/.test(oo[0] || '') ? oo[0] : ''),
+    supply: g(r('공급\\s*유형')) || (oo[1] || ''),
+    delivery: g(r('배달\\s*제휴')),
+    agency: g(r('자\\s*대리점'))
   };
 }
 
+// #oc팀_메뉴요청 접수글 — AS요청 채널과 같은 양식
 function kcgCompose_(req, f) {
-  var v = function (x) { return (f && f[x]) || '확인 필요'; };
-  var store = (f && f.store) || (KCG.brand + ' ' + req.branch + ' / 확인 필요');
+  f = f || {};
+  var need = function (k) { return f[k] || '확인 필요'; };
   return [
-    '상호: ' + store,
-    '오프/온라인: ' + v('onoff'),
-    '사업자번호 : ' + v('biz'),
-    '대표자명 : ' + v('owner'),
-    '대표자 전화번호 : ' + v('ownerPhone'),
-    '가게 연락처 : ' + v('storePhone'),
-    '주소 : ' + v('addr'),
-    '내용: ' + req.kind,
-    req.body
+    '상호: ' + (f.store || (KCG.brand + ' ' + req.branch + ' / 확인 필요')),
+    '사업자번호: ' + need('biz'),
+    '핸드폰 번호: ' + need('phone'),
+    '주소: ' + need('addr'),
+    '인입유형: ' + need('inflow'),
+    '공급유형: ' + need('supply'),
+    '배달제휴: ' + (f.delivery || ''),
+    '자대리점: ' + (f.agency || ''),
+    '내용: [' + req.kind + '] ' + req.body
   ].join('\n');
 }
 
@@ -304,7 +323,7 @@ function kcgCheck() {
   var d = kcgSlack_('conversations.info', { channel: KCG.dst });
   console.log('#oc팀_메뉴요청 봇 참여: ' + (d.ok && d.channel.is_member ? '✅' : '❌ ' + (d.error || '미참여')));
   var t = kcgFindStore_('과천펜타원점');
-  console.log('매장 찾기 시험(과천펜타원점): ' + (t ? '✅ ' + t.store + ' · ' + t.biz + ' (' + t.src + ' ' + t.date + ')' : '❌ 못 찾음'));
+  console.log('매장 찾기 시험(과천펜타원점): ' + (t ? '✅ (' + t.src + ')\n' + kcgCompose_({ branch: '과천펜타원점', kind: '메뉴등록', body: '(시험)' }, t) : '❌ 못 찾음'));
   console.log('자동 접수: ' + (PropertiesService.getScriptProperties().getProperty('KCG_LAST_TS') ? '켜짐' : '꺼짐 (kcgInstall 로 켜기)')
     + ' · 완료 대기 중인 접수글 ' + kcgPendingGet_().length + '건');
 }
