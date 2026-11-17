@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34602,
+  "version": 34603,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334685,12 +334685,24 @@ window.SLACK_DATA = {
     "2026-11-17": {
       "counts": {
         "as": {
-          "송태양": 1,
-          "김동욱": 1
+          "김동욱": 2,
+          "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:16",
+          "store": "핑크개러지",
+          "biz": "5914701058",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "프론트+KPN CAT인데 키인 방법 원격 요청주셨습니다:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "cat tid는 키인 오픈안되어있어 오픈했슴다! / 키인결제방법 안내 완료",
+          "rr": 4
+        },
         {
           "time": "09:07",
           "store": "드롭탑(계양구청점)",
@@ -334717,11 +334729,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:20",
+      "updatedAt": "09:21",
       "voc": {
         "responses": 1,
         "install": {
@@ -334815,11 +334827,14 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794874864.219
+        "lastSeen": 1794874954.142
       },
       "1794874857.105719": {
         "post": "1794874857.105719",
-        "lastSeen": 1794874864.219
+        "lastSeen": 1794874954.142,
+        "r": 1,
+        "day": "2026-11-17",
+        "idx": 0
       }
     },
     "days": {
@@ -462562,11 +462577,26 @@ window.SLACK_DATA = {
             "dmin": 5.8
           }
         ]
+      },
+      "2026-11-17": {
+        "cnt": 1,
+        "sumMin": 0.867913015683492,
+        "over": 0,
+        "items": [
+          {
+            "hm": "09:20",
+            "min": 0.9,
+            "store": "아뜨",
+            "biz": "6531303567",
+            "who": "고경림",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:21",
+    "at": "2026-11-17 09:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462728,7 +462758,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:21",
+    "at": "2026-11-17 09:22",
     "pri": {
       "days": 0,
       "failed": [],
