@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5362,
- "updatedAt": "2026-11-16 20:05",
+ "version": 5363,
+ "updatedAt": "2026-11-17 09:49",
  "days": 30,
  "items": [
+  {
+   "ts": "1794876532.246209",
+   "date": "2026-11-17",
+   "time": "09:48",
+   "store": "케이핀초반",
+   "biz": "2660303234",
+   "pos": "기타",
+   "content": "주류 카테고리에 '잭콕 6000원' 추가 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794876532246209"
+  },
   {
    "ts": "1794819401.430759",
    "date": "2026-11-16",
