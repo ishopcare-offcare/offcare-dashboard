@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5414,
- "updatedAt": "2026-11-17 18:34",
+ "version": 5415,
+ "updatedAt": "2026-11-17 18:36",
  "days": 30,
  "items": [
   {
@@ -227,10 +227,12 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "상품 추가등록요청\n마사미즈\n런치 A\n95000 원\n런치 B\n69000 원\n디너\n240000 원"
+    "상품 추가등록요청\n카테고리 :마사미즈\n런치 A\n95000 원\n런치 B\n69000 원\n디너\n240000 원",
+    "님 해당 스래드 또한 다른메뉴로 중복은 아니여서.. 혹시 요것까지 등록이 되었을까요?",
+    "숙지하겠습니다 감사합니다 !"
    ],
-   "rc": 1,
-   "lr": "1794903160.605389",
+   "rc": 7,
+   "lr": "1794908131.680219",
    "rfx": 3,
    "status": "dup",
    "handler": null,
