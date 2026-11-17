@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34618,
+  "version": 34619,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334685,16 +334685,42 @@ window.SLACK_DATA = {
     "2026-11-17": {
       "counts": {
         "as": {
+          "고경림": 2,
           "송태양": 2,
-          "김동욱": 3,
-          "고경림": 1
+          "김동욱": 3
         },
         "booking": {
+          "송태양": 1
+        },
+        "menu": {
           "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:50",
+          "store": "해야분식",
+          "biz": "2037699373",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "영수증 출력하려하시나 안된다하여 도움부탁드립니다.",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "09:48",
+          "store": "케이핀초반",
+          "biz": "2660303234",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "등록 완료 / 솔라피전송",
+          "rr": 2
+        },
         {
           "time": "09:30",
           "store": "카페 푸르릇",
@@ -334781,7 +334807,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 6,
+        "online": 8,
         "offline": 1,
         "unknown": 0
       },
@@ -334888,21 +334914,14 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794876677.196
+        "lastSeen": 1794876758.265
       },
       "1794876040.656649": {
         "post": "1794876040.656649",
-        "lastSeen": 1794876677.196,
+        "lastSeen": 1794876758.265,
         "r": 1,
         "day": "2026-11-17",
         "idx": 1
-      },
-      "1794876532.246209": {
-        "post": "1794876532.246209",
-        "lastSeen": 1794876677.196,
-        "r": 1,
-        "day": "2026-11-17",
-        "idx": 2
       }
     },
     "days": {
@@ -462674,14 +462693,15 @@ window.SLACK_DATA = {
             "store": "케이핀초반",
             "biz": "2660303234",
             "who": "송태양",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 3.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:51",
+    "at": "2026-11-17 09:53",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462843,7 +462863,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:51",
+    "at": "2026-11-17 09:52",
     "pri": {
       "days": 0,
       "failed": [],
