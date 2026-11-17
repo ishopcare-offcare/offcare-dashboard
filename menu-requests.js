@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5380,
- "updatedAt": "2026-11-17 14:04",
+ "version": 5381,
+ "updatedAt": "2026-11-17 14:09",
  "days": 30,
  "items": [
+  {
+   "ts": "1794892115.531059",
+   "date": "2026-11-17",
+   "time": "14:08",
+   "store": "세이프룻",
+   "biz": "3150391933",
+   "pos": "토스포스",
+   "content": "음료에서 기본 500ml L사이즈는 맞는데 저희는 XL 1000원 추가로 변경해 주세요 저희 매장은 1L터는 판매를 안하고 있거든요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794892115531059"
+  },
   {
    "ts": "1794891561.923719",
    "date": "2026-11-17",
