@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5369,
- "updatedAt": "2026-11-17 11:56",
+ "version": 5370,
+ "updatedAt": "2026-11-17 12:05",
  "days": 30,
  "items": [
   {
@@ -20,7 +20,15 @@ window.MENU_REQUESTS = {
     "https://drive.google.com/file/d/1N-pXbkPlUgU5hLmXtvkQeJhvsvS0Rsm9/view?usp=drivesdk"
    ],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "가산식당_상품목록-261117120329.xlsx",
+     "fid": "F0CJD4Z5R5F",
+     "from": "댓글",
+     "path": "menu-files/1794884143_462499-0.xlsx",
+     "nj": 1
+    }
+   ],
    "datt": [
     {
      "id": "1N-pXbkPlUgU5hLmXtvkQeJhvsvS0Rsm9",
@@ -60,12 +68,15 @@ window.MENU_REQUESTS = {
      "v": 3
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "백업",
+    "완"
+   ],
+   "rc": 2,
+   "lr": "1794884726.426759",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794884143462499"
   },
   {
