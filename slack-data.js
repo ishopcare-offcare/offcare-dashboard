@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34601,
+  "version": 34602,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334685,11 +334685,24 @@ window.SLACK_DATA = {
     "2026-11-17": {
       "counts": {
         "as": {
+          "송태양": 1,
           "김동욱": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:07",
+          "store": "드롭탑(계양구청점)",
+          "biz": "3765100379",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "‘텀블러 할인’을 찍으면 손님용 영수증에는 잘 표기되나, 주방 주문서에는 디카페인 변경으로 잘못 노출되고 있다고 하시어 도움 부탁드립니다..!",
+          "hw": "",
+          "intake": "offline",
+          "note": "• 주방주문서 출력명이 디카페인변경으로 되어있었음 주방주문서 출력명이 디카페인변경으로 되어있었음",
+          "rr": 1
+        },
         {
           "time": "07:09",
           "store": "컴포즈커피 뱅뱅사거리점",
@@ -334705,10 +334718,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 1,
-        "offline": 0,
+        "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:17",
+      "updatedAt": "09:20",
       "voc": {
         "responses": 1,
         "install": {
@@ -334802,7 +334815,11 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794874792.299
+        "lastSeen": 1794874864.219
+      },
+      "1794874857.105719": {
+        "post": "1794874857.105719",
+        "lastSeen": 1794874864.219
       }
     },
     "days": {
@@ -462549,7 +462566,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:20",
+    "at": "2026-11-17 09:21",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462711,7 +462728,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:19",
+    "at": "2026-11-17 09:21",
     "pri": {
       "days": 0,
       "failed": [],
