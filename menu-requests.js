@@ -3,10 +3,71 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5368,
- "updatedAt": "2026-11-17 10:34",
+ "version": 5369,
+ "updatedAt": "2026-11-17 11:56",
  "days": 30,
  "items": [
+  {
+   "ts": "1794884143.462499",
+   "date": "2026-11-17",
+   "time": "11:55",
+   "store": "가산식당",
+   "biz": "3480104036",
+   "pos": "토스포스",
+   "content": "기존메뉴 삭제후 첨부이미지로 교체해주세요",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1N-pXbkPlUgU5hLmXtvkQeJhvsvS0Rsm9/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1N-pXbkPlUgU5hLmXtvkQeJhvsvS0Rsm9",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "순대국",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "양선지 해장국",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "소머리곰탕",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "김치찌개",
+       "price": 6000
+      },
+      {
+       "category": "",
+       "name": "소주.맥주",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "사이다.콜라",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794884143462499"
+  },
   {
    "ts": "1794879239.430259",
    "date": "2026-11-17",
