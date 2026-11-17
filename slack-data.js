@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34650,
+  "version": 34651,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -332757,7 +332757,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "익일 17시 30분 예약요청 • 예약완료 예약완료",
-          "rr": 1
+          "rr": 2
         },
         {
           "time": "17:30",
@@ -334701,11 +334701,23 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "menu": {
+          "배선유": 1,
           "송태양": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:33",
+          "store": "목포 꽈대장",
+          "biz": "2231153372",
+          "cat": "menu",
+          "emp": "배선유",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:30",
           "store": "희#",
@@ -334787,8 +334799,8 @@ window.SLACK_DATA = {
           "req": "포프(태블릿) 사용 매장으로, 핫스팟으로 온보딩 요청주시어 도움 부탁드리겠습니다! (갤럭시 휴대폰)",
           "hw": "",
           "intake": "online",
-          "note": "바로 통화 어려운 상황으로 재접수하신다고 함",
-          "rr": 1
+          "note": "바로 통화 어려운 상황으로 재접수하신다고 함 / 업무폰으로 연락와서 온보딩 완료",
+          "rr": 2
         },
         {
           "time": "10:00",
@@ -334973,11 +334985,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:35",
+      "updatedAt": "10:41",
       "voc": {
         "responses": 2,
         "install": {
@@ -335080,28 +335092,21 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794879682.212
+        "lastSeen": 1794879785.269
       },
       "1794878100.837609": {
         "post": "1794878100.837609",
-        "lastSeen": 1794879682.212,
+        "lastSeen": 1794879785.269,
         "r": 1,
         "day": "2026-11-17",
         "idx": 11
       },
       "1794879000.767519": {
         "post": "1794879000.767519",
-        "lastSeen": 1794879682.212,
+        "lastSeen": 1794879785.269,
         "r": 1,
         "day": "2026-11-17",
         "idx": 15
-      },
-      "1794879239.430259": {
-        "post": "1794879239.430259",
-        "lastSeen": 1794879682.212,
-        "r": 1,
-        "day": "2026-11-17",
-        "idx": 14
       }
     },
     "days": {
@@ -462981,7 +462986,8 @@ window.SLACK_DATA = {
             "store": "목포 꽈대장",
             "biz": "2231153372",
             "who": "배선유",
-            "cat": "menu"
+            "cat": "menu",
+            "dmin": 8.2
           },
           {
             "hm": "10:30",
@@ -462996,7 +463002,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 10:41",
+    "at": "2026-11-17 10:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -463158,7 +463164,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 10:41",
+    "at": "2026-11-17 10:43",
     "pri": {
       "days": 0,
       "failed": [],
