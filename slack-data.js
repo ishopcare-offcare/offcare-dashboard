@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34606,
+  "version": 34607,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334688,8 +334688,8 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "as": {
+          "김동욱": 3,
           "고경림": 1,
-          "김동욱": 2,
           "송태양": 1
         }
       },
@@ -334705,6 +334705,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "• 현재 외부인 관계로 금일 오후 3시 15분 예약 완료입니다 현재 외부인 관계로 금일 오후 3시 15분 예약 완료입니다",
+          "rr": 1
+        },
+        {
+          "time": "09:21",
+          "store": "에스테티크 포항점",
+          "biz": "1042207331",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "포프(맥)+유프 사용 매장으로, 휴대폰 &gt; pc 재온보딩 요청주시어 도움 부탁드리겠습니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "포프유프(데스크탑) 재온보딩 완료",
           "rr": 1
         },
         {
@@ -334757,7 +334769,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 1,
         "unknown": 0
       },
@@ -334855,7 +334867,7 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794875192.417
+        "lastSeen": 1794875371.042
       }
     },
     "days": {
@@ -462618,7 +462630,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:27",
+    "at": "2026-11-17 09:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462780,7 +462792,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:26",
+    "at": "2026-11-17 09:29",
     "pri": {
       "days": 0,
       "failed": [],
