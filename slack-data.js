@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 34613,
+  "version": 34614,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -334888,11 +334888,14 @@ window.SLACK_DATA = {
       },
       "1794873642.609999": {
         "post": "1794873642.609999",
-        "lastSeen": 1794876086.613
+        "lastSeen": 1794876144.354
       },
       "1794876040.656649": {
         "post": "1794876040.656649",
-        "lastSeen": 1794876086.613
+        "lastSeen": 1794876144.354,
+        "r": 1,
+        "day": "2026-11-17",
+        "idx": 1
       }
     },
     "days": {
@@ -462637,8 +462640,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-17": {
-        "cnt": 1,
-        "sumMin": 0.867913015683492,
+        "cnt": 2,
+        "sumMin": 2.1150271972020467,
         "over": 0,
         "items": [
           {
@@ -462649,13 +462652,21 @@ window.SLACK_DATA = {
             "who": "고경림",
             "cat": "as",
             "dmin": 3.9
+          },
+          {
+            "hm": "09:40",
+            "min": 1.2,
+            "store": "봉주르팔당",
+            "biz": "1318178738",
+            "who": "김동욱",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-17 09:41",
+    "at": "2026-11-17 09:42",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -462817,7 +462828,7 @@ window.SLACK_DATA = {
     "2026-11-17": 2
   },
   "noteMig": {
-    "at": "2026-11-17 09:41",
+    "at": "2026-11-17 09:42",
     "pri": {
       "days": 0,
       "failed": [],
