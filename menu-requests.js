@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5387,
- "updatedAt": "2026-11-17 14:47",
+ "version": 5388,
+ "updatedAt": "2026-11-17 14:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1794894493.692779",
+   "date": "2026-11-17",
+   "time": "14:48",
+   "store": "강창구 찹쌀진순대 양재포이점",
+   "biz": "3351902167",
+   "pos": "",
+   "content": "[메뉴등록] 태블릿오더\n순살뼈해장국(옵션추가)\n정식추가 5,000원 생성부탁드립니다.\n식사류(카테고리)  옵션은 생성 하지말아주세요\n순살뼈해장국 13,000 생성부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794894493.968159",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794894493692779"
+  },
   {
    "ts": "1794893141.387079",
    "date": "2026-11-17",
@@ -23,7 +44,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CHWRFVD2B",
      "from": "원글",
-     "path": "menu-files/1794893141_387079-0.png",
      "kind": "menu_board",
      "menu": [
       {
@@ -105,7 +125,8 @@ window.MENU_REQUESTS = {
        "pt": "u"
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794893141_387079-0.png"
     }
    ],
    "datt": [],
