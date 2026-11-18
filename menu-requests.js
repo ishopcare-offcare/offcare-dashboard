@@ -3,10 +3,196 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5451,
- "updatedAt": "2026-11-18 17:25",
+ "version": 5452,
+ "updatedAt": "2026-11-18 17:38",
  "days": 30,
  "items": [
+  {
+   "ts": "1794990988.509479",
+   "date": "2026-11-18",
+   "time": "17:36",
+   "store": "브릴랑",
+   "biz": "1881101116",
+   "pos": "토스포스",
+   "content": "모든포스기전체수정",
+   "special": "모든음료 기본라지사이즈 1리터로변경시+3000 (아이스만 1리터로변경가능)",
+   "drive": [
+    "https://drive.google.com/file/d/1hb-I6_3zstJP1tjp0r4B40H4rq7UbXy0/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1hb-I6_3zstJP1tjp0r4B40H4rq7UbXy0",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 2500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "연유돌체라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "말차라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "수제딸기라떼",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "복숭아아이스티",
+       "price": 3000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "로얄밀크티",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "레몬에이드",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "자몽에이드",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "캐모마일허브티",
+       "price": 3000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "율무차",
+       "price": 4000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "오미자차",
+       "price": 4500
+      },
+      {
+       "category": "SANDWICH",
+       "name": "햄치즈 샌드위치",
+       "price": 6000
+      },
+      {
+       "category": "SANDWICH",
+       "name": "치킨텐더샌드위치",
+       "price": 7000
+      },
+      {
+       "category": "SANDWICH",
+       "name": "수제소금베이글",
+       "price": 4500
+      },
+      {
+       "category": "SANDWICH",
+       "name": "크림치즈 반반베이글",
+       "price": 7000
+      },
+      {
+       "category": "SANDWICH",
+       "name": "베이글 샌드위치",
+       "price": 7500
+      },
+      {
+       "category": "SANDWICH",
+       "name": "베이글 잠봉샌드위치",
+       "price": 12000
+      },
+      {
+       "category": "SANDWICH",
+       "name": "할라피뇨치아바타",
+       "price": 9500
+      },
+      {
+       "category": "SANDWICH",
+       "name": "바질 치아바타",
+       "price": 9500
+      },
+      {
+       "category": "SANDWICH",
+       "name": "루꼴라 잠봉뵈르",
+       "price": 12000
+      },
+      {
+       "category": "SANDWICH",
+       "name": "크림치즈 단품",
+       "price": 3500
+      },
+      {
+       "category": "DESSERT / CAKE",
+       "name": "에그타르트",
+       "price": 3000
+      },
+      {
+       "category": "DESSERT / CAKE",
+       "name": "바스크 치즈 케이크",
+       "price": 7000
+      },
+      {
+       "category": "DESSERT / CAKE",
+       "name": "바스크 치즈 초코",
+       "price": 8000
+      },
+      {
+       "category": "DESSERT / CAKE",
+       "name": "바스크 치즈 말차",
+       "price": 8000
+      },
+      {
+       "category": "BRUNCH",
+       "name": "브릴랑브런치",
+       "price": 14000
+      },
+      {
+       "category": "BRUNCH",
+       "name": "베이컨크림파스타",
+       "price": 14000
+      },
+      {
+       "category": "BRUNCH",
+       "name": "에그인헬",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794990988509479"
+  },
   {
    "ts": "1794990205.016199",
    "date": "2026-11-18",
@@ -67070,29 +67256,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792405533415649"
-  },
-  {
-   "ts": "1792399033.127129",
-   "date": "2026-10-19",
-   "time": "17:37",
-   "store": "슈퍼띵스",
-   "biz": "1148701274",
-   "pos": "토스포스",
-   "content": "한번에등록하기",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    ":telephone_receiver: 완료 / 재등록 예정"
-   ],
-   "rc": 1,
-   "lr": "1792399166.877769",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792399033127129"
   }
  ],
  "ocr": {
