@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35132,
+  "version": 35133,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336994,8 +336994,8 @@ window.SLACK_DATA = {
     "2026-11-18": {
       "counts": {
         "as": {
+          "배선유": 4,
           "고경림": 7,
-          "배선유": 3,
           "송태양": 7,
           "미지정": 3,
           "김동욱": 5,
@@ -337021,6 +337021,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:29",
+          "store": "여우사진관",
+          "biz": "8061802449",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "PC와 포스기에 함께 연결 → <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1794804995658989?thread_ts=1794803593.346399&amp;cid=C09HRUS",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트 내부 속도 9600으로 변경",
+          "rr": 1
+        },
         {
           "time": "11:28",
           "store": "아트로컴퍼니",
@@ -337431,7 +337443,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 24,
+        "online": 25,
         "offline": 10,
         "unknown": 0
       },
@@ -337552,26 +337564,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794969253.517
+        "lastSeen": 1794969377.152
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794969253.517
+        "lastSeen": 1794969377.152
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794969253.517
+        "lastSeen": 1794969377.152
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794969253.517
-      },
-      "1794968946.607779": {
-        "post": "1794968946.607779",
-        "lastSeen": 1794969253.517,
-        "r": 1,
-        "day": "2026-11-18",
-        "idx": 15
+        "lastSeen": 1794969377.152
       }
     },
     "days": {
@@ -466615,14 +466620,15 @@ window.SLACK_DATA = {
             "store": "여우사진관",
             "biz": "8061802449",
             "who": "배선유",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6.1
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-18 11:34",
+    "at": "2026-11-18 11:36",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466785,7 +466791,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 11:34",
+    "at": "2026-11-18 11:36",
     "pri": {
       "days": 0,
       "failed": [],
