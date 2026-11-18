@@ -3,10 +3,222 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5455,
- "updatedAt": "2026-11-18 17:50",
+ "version": 5456,
+ "updatedAt": "2026-11-18 18:53",
  "days": 30,
  "items": [
+  {
+   "ts": "1794995546.123279",
+   "date": "2026-11-18",
+   "time": "18:52",
+   "store": "그대를위한식빵",
+   "biz": "6214700554",
+   "pos": "",
+   "content": "메뉴등록요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_5299.jpg",
+     "fid": "F0CJC5W5SMD",
+     "from": "댓글",
+     "path": "menu-files/1794995546_123279-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "배달",
+       "name": "우유식빵",
+       "price": 4900
+      },
+      {
+       "category": "배달",
+       "name": "호텔식빵",
+       "price": 5400
+      },
+      {
+       "category": "배달",
+       "name": "블루베리호밀식빵",
+       "price": 5900
+      },
+      {
+       "category": "배달",
+       "name": "밤고구마식빵",
+       "price": 5900
+      },
+      {
+       "category": "배달",
+       "name": "누텔라초코식빵",
+       "price": 6400
+      },
+      {
+       "category": "배달",
+       "name": "바질피자식빵",
+       "price": 6900
+      },
+      {
+       "category": "배달",
+       "name": "소금빵",
+       "price": 5900
+      },
+      {
+       "category": "배달",
+       "name": "쿠앤크소금빵",
+       "price": 4000
+      },
+      {
+       "category": "배달",
+       "name": "우유크림소금빵",
+       "price": 3800
+      },
+      {
+       "category": "배달",
+       "name": "앙버터소금빵",
+       "price": 3800
+      },
+      {
+       "category": "배달",
+       "name": "에그마요소금빵",
+       "price": 3800
+      },
+      {
+       "category": "배달",
+       "name": "모카번소금빵",
+       "price": 3800
+      },
+      {
+       "category": "배달",
+       "name": "소보루소금빵",
+       "price": 3800
+      },
+      {
+       "category": "배달",
+       "name": "로투스미니",
+       "price": 3800
+      },
+      {
+       "category": "배달",
+       "name": "불닭미니",
+       "price": 3800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_5298(1).jpg",
+     "fid": "F0CJTBH050A",
+     "from": "댓글",
+     "path": "menu-files/1794995546_123279-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "매장",
+       "name": "소금빵",
+       "price": 5400
+      },
+      {
+       "category": "매장",
+       "name": "우유식빵",
+       "price": 4400
+      },
+      {
+       "category": "매장",
+       "name": "호텔식빵",
+       "price": 4900
+      },
+      {
+       "category": "매장",
+       "name": "밤고구마식빵",
+       "price": 5400
+      },
+      {
+       "category": "매장",
+       "name": "블루베리호밀식빵",
+       "price": 5400
+      },
+      {
+       "category": "매장",
+       "name": "바질피자식빵",
+       "price": 6400
+      },
+      {
+       "category": "매장",
+       "name": "누텔라초코식빵",
+       "price": 5900
+      },
+      {
+       "category": "매장",
+       "name": "로투스미니",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "불닭미니",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "소보루소금빵",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "모카번소금빵",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "쿠앤크소금빵",
+       "price": 3700
+      },
+      {
+       "category": "매장",
+       "name": "우유크림소금빵",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "앙버터소금빵",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "에그마요소금빵",
+       "price": 3500
+      },
+      {
+       "category": "매장",
+       "name": "비닐봉투",
+       "price": 100
+      },
+      {
+       "category": "매장",
+       "name": "빵칼",
+       "price": 100
+      },
+      {
+       "category": "매장",
+       "name": "종이봉투",
+       "price": 200
+      },
+      {
+       "category": "매장",
+       "name": "병음료",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1794995568.886259",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794995546123279"
+  },
   {
    "ts": "1794991089.083239",
    "date": "2026-11-18",
