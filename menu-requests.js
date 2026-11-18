@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5427,
- "updatedAt": "2026-11-18 11:19",
+ "version": 5428,
+ "updatedAt": "2026-11-18 11:23",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261118_111555055.jpg",
      "fid": "F0CJTFR5G8L",
      "from": "댓글",
-     "path": "menu-files/1794968210_994359-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -97,13 +96,17 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794968210_994359-0.jpg"
     }
    ],
    "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1794968272.411209",
+   "replies": [
+    "저 외주 확인건 있어서 혹시 여기 한번만 해주실수 있으신가요",
+    "외주해결완료 제가 할게요"
+   ],
+   "rc": 4,
+   "lr": "1794968603.325429",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
