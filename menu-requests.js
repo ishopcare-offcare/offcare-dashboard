@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5424,
- "updatedAt": "2026-11-18 10:02",
+ "version": 5425,
+ "updatedAt": "2026-11-18 10:21",
  "days": 30,
  "items": [
   {
@@ -68226,37 +68226,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792378055509199"
-  },
-  {
-   "ts": "1792372786.845139",
-   "date": "2026-10-19",
-   "time": "10:19",
-   "store": "주식회사 서브원 (부산)",
-   "biz": "4738800389",
-   "pos": "",
-   "content": "더블케이 딥스점의 메뉴와 상품의 옵션들을 주식회사 서브원(부산) 으로 복사요청주셨습니다.(완료후 위 번호로 연락 요청:꾸벅:)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "주식회사 서브원 (부산) (X)__상품목록-261019104319.xls",
-     "fid": "F0CB1U4JF8Q",
-     "from": "댓글",
-     "path": "menu-files/1792372786_845139-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "님 위 번호가 다이렉트 번호라고 하셨어요~~"
-   ],
-   "rc": 7,
-   "lr": "1792374306.690519",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792372786845139"
   }
  ],
  "ocr": {
