@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5437,
- "updatedAt": "2026-11-18 15:01",
+ "version": 5438,
+ "updatedAt": "2026-11-18 15:04",
  "days": 30,
  "items": [
+  {
+   "ts": "1794981835.821809",
+   "date": "2026-11-18",
+   "time": "15:03",
+   "store": "공익곰탕",
+   "biz": "5853901252",
+   "pos": "",
+   "content": "• 메뉴가격 수정 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1794981838.754529",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794981835821809"
+  },
   {
    "ts": "1794981639.955779",
    "date": "2026-11-18",
@@ -29,9 +50,11 @@ window.MENU_REQUESTS = {
      "v": 3
     }
    ],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "• 이미지 이번엔 넣어드렸고 이미지 등록방법 솔라피 전송 완료"
+   ],
+   "rc": 1,
+   "lr": "1794981820.347059",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
