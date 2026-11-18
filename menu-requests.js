@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5421,
- "updatedAt": "2026-11-18 09:54",
+ "version": 5422,
+ "updatedAt": "2026-11-18 09:55",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,100 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CJ7SAEQ07",
+     "from": "댓글",
+     "path": "menu-files/1794963210_139869-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "봉봉 문라이트 허브티",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "얼그레이 티 에이드",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "꾸덕 초코 마시멜로",
+       "price": 5500
+      },
+      {
+       "category": "케이크",
+       "name": "홍이 딸기케이크",
+       "price": 5800
+      },
+      {
+       "category": "케이크",
+       "name": "부안 두바이 초코케이크",
+       "price": 6300
+      },
+      {
+       "category": "케이크",
+       "name": "당근케이크",
+       "price": 4800
+      },
+      {
+       "category": "베이커리",
+       "name": "소금빵",
+       "price": 3900
+      },
+      {
+       "category": "베이커리",
+       "name": "크루아상",
+       "price": 4500
+      },
+      {
+       "category": "베이커리",
+       "name": "까눌레",
+       "price": 3900
+      },
+      {
+       "category": "베이커리",
+       "name": "몽블랑",
+       "price": 6500
+      },
+      {
+       "category": "베이커리",
+       "name": "육쪽마늘빵",
+       "price": 6800
+      },
+      {
+       "category": "베이커리",
+       "name": "먹물치즈 쌀빵",
+       "price": 6500
+      },
+      {
+       "category": "베이커리",
+       "name": "밤식빵",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794963214.157229",
+   "rc": 2,
+   "lr": "1794963322.774699",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794963210139869"
   },
   {
