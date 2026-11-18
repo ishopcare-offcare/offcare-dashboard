@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35110,
+  "version": 35111,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336997,8 +336997,8 @@ window.SLACK_DATA = {
           "고경림": 5,
           "미지정": 2,
           "송태양": 6,
+          "배선유": 2,
           "김동욱": 5,
-          "배선유": 1,
           "김규빈": 1
         },
         "transfer": {
@@ -337049,6 +337049,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "• 공유기 모뎀 껐켰 후 정상작동이나 KT기사님 오셔서 점검 받아보시길 권장 드림 공유기 모뎀 껐켰 후 정상작동이나 KT기사님 오셔서 점검 받아보시길 권장 드림",
           "rr": 1
+        },
+        {
+          "time": "10:34",
+          "store": "라르고60(LARGO60)",
+          "biz": "4920503744",
+          "cat": "as",
+          "emp": "배선유",
+          "req": "키오스크 주문하기 누를시 터치 불량 주문하기로 넘어가지않는현상으로 인입되어 공유드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": ""
         },
         {
           "time": "10:32",
@@ -337316,7 +337327,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 18,
+        "online": 19,
         "offline": 7,
         "unknown": 0
       },
@@ -337455,15 +337466,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794966913.335
+        "lastSeen": 1794967052.046
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794966913.335
+        "lastSeen": 1794967052.046
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794966913.335
+        "lastSeen": 1794967052.046
       }
     },
     "days": {
@@ -466470,7 +466481,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:55",
+    "at": "2026-11-18 10:57",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466633,7 +466644,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:55",
+    "at": "2026-11-18 10:57",
     "pri": {
       "days": 0,
       "failed": [],
