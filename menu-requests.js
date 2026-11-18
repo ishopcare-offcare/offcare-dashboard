@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5440,
- "updatedAt": "2026-11-18 15:07",
+ "version": 5441,
+ "updatedAt": "2026-11-18 15:10",
  "days": 30,
  "items": [
   {
@@ -68085,30 +68085,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792390868154759"
-  },
-  {
-   "ts": "1792390141.147319",
-   "date": "2026-10-19",
-   "time": "15:09",
-   "store": "명지카페",
-   "biz": "1420609684",
-   "pos": "퍼스트포스",
-   "content": "메뉴 수정 및 추가 요청 >>",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "퍼스트포스 사용 중\n\n<단품메뉴> 카테고리 메뉴\n치킨버거 세트 10,000 > 치킨버거 7,000\n서울대버거 세트 16,500 > 서울대버거 13,000\n\n[토스트 버거, 한입 치즈버거, 한입 파인버거, 한입 베이컨버거, 한입 새우버거, 통살 오징어버거, 치킨버거, 서울대버거]\n\n에 옵션이 빠져 있다고 합니다.\n\n더블치즈버거에 등록되어있는 옵션 보고 동일하게 넣어달라고 요청 주셨어요.",
-    "추가로 키오스크 2대 사용 중이라 전부 적용 요청"
-   ],
-   "rc": 4,
-   "lr": "1792391412.257479",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792390141147319"
   }
  ],
  "ocr": {
