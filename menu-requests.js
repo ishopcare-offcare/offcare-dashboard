@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5448,
- "updatedAt": "2026-11-18 16:32",
+ "version": 5449,
+ "updatedAt": "2026-11-18 16:54",
  "days": 30,
  "items": [
   {
@@ -67070,29 +67070,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792399033127129"
-  },
-  {
-   "ts": "1792396402.985349",
-   "date": "2026-10-19",
-   "time": "16:53",
-   "store": "대패삼국지 창원중앙역점",
-   "biz": "2191102874",
-   "pos": "퍼스트포스",
-   "content": "(유플러스) 키오스크 사용중 / 포스 및 키오스크 메뉴 가격 수정 요청드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "• *메뉴 생성*\n    ◦ [ 점심 특선 ] 카테고리에\n    ◦ 샤브전골 12,900원 추가\n-----\n• *메뉴 이동*\n    ◦ <제육볶음>\n    ◦ [ 사이드 메뉴 ] 카테고리에 있던 메뉴를\n    ◦ [ 점심 특선 ] 카테고리로 이동\n-----\n• *메뉴 복사*\n    ◦ *<차돌 된장찌개>* & *<차돌 순두부찌개>*\n    ◦ [ 사이드 메뉴 ] 카테고리에 있던 메뉴를\n    ◦ [ 점심 특선 ] 카테고리에 새로 생성"
-   ],
-   "rc": 5,
-   "lr": "1792477730.353779",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792396402985349"
   }
  ],
  "ocr": {
