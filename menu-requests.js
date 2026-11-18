@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5426,
- "updatedAt": "2026-11-18 11:17",
+ "version": 5427,
+ "updatedAt": "2026-11-18 11:19",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,92 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261118_111555055.jpg",
+     "fid": "F0CJTFR5G8L",
+     "from": "댓글",
+     "path": "menu-files/1794968210_994359-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페라떼",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "헤이즐넛라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "크림라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "돌체라떼",
+       "price": 6500
+      },
+      {
+       "category": "COFFEE",
+       "name": "토피넛라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "자두칠러에이드",
+       "price": 6500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "오렌지테너에이드",
+       "price": 6500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "딸기라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "말차라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "고구마라떼",
+       "price": 6500
+      },
+      {
+       "category": "TEA",
+       "name": "오렌지 루이보스티",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794968214.790619",
+   "rc": 2,
+   "lr": "1794968272.411209",
    "rfx": 3,
    "status": "confirm",
    "handler": "김현기",
