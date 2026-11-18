@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35101,
+  "version": 35102,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337023,7 +337023,8 @@ window.SLACK_DATA = {
           "req": "프린터 출력이 되지 않고, 배민 출력 테스트시에는 글자가 촘촘하게? 올라오신 함",
           "hw": "",
           "intake": "online",
-          "note": ""
+          "note": "포프(포스기) + 유프 사용중매장 • 프린터 설정이 잘못되어있어 , 정상설정후 출력확인완료 프린터 설정이 잘못되어있어 , 정상설정후 출력확인완료",
+          "rr": 1
         },
         {
           "time": "10:30",
@@ -337283,7 +337284,7 @@ window.SLACK_DATA = {
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:36",
+      "updatedAt": "10:37",
       "voc": {
         "responses": 1,
         "install": {
@@ -337418,15 +337419,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794965836.803
+        "lastSeen": 1794965913.448
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794965836.803
+        "lastSeen": 1794965913.448
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794965836.803
+        "lastSeen": 1794965913.448
+      },
+      "1794965855.405709": {
+        "post": "1794965855.405709",
+        "lastSeen": 1794965913.448
       }
     },
     "days": {
@@ -466424,7 +466429,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:37",
+    "at": "2026-11-18 10:39",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466587,7 +466592,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:37",
+    "at": "2026-11-18 10:38",
     "pri": {
       "days": 0,
       "failed": [],
