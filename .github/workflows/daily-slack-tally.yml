@@ -100,6 +100,9 @@ jobs:
       - name: 프랜차이즈 고객사 원장 생성 (컴포즈커피)
         # slack-data.js 에서 브랜드 매칭으로 컴포즈커피 건만 추려 franchise/data/compose.js 로.
         # 슬랙 재호출이 없어 실패해도 본 집계에는 영향이 없다.
+        env:
+          # 조치 내용 작성(Claude) — 없으면 예전에 만든 문장만 쓴다(scripts/compose-act.js)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/tally-compose.js || echo "컴포즈 원장 생성 실패 — 집계는 계속"
 
       - name: 고객사 공유 페이지 빌드

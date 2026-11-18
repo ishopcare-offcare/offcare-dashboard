@@ -23,7 +23,8 @@
 const fs   = require('fs');
 const path = require('path');
 const vm   = require('vm');
-const { maskBiz, maskText, maskDeep } = require('./pii-mask');   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
+const { maskBiz, maskText, maskDeep } = require('./pii-mask');
+const { fillActs } = require('./compose-act');   // note(내부 댓글) → 고객사용 '조치 내용'   // 공개 데이터 — 사업자번호 뒤 5자리·상세주소 가림
 
 const ROOT = path.join(__dirname, '..');
 const FR   = path.join(ROOT, 'franchise');
@@ -95,6 +96,11 @@ for(const date of Object.keys(W.SLACK_DATA.days).sort()){
 
 records.sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
 
+(async () => {
+/* note 는 담당자 슬랙 댓글 원문 — 고객사 보고용 '조치 내용'으로 바꿔 넣는다(scripts/compose-act.js) */
+await fillActs(records, path.join(FR, 'data', SLUG + '-act.json'));
+records.forEach(r => { r.note = maskText(r.note || ''); });
+
 const now = new Date(Date.now() + 9 * 3600 * 1000).toISOString();   // KST
 const stampDate = now.slice(0, 10);
 const stampTime = now.slice(11, 16);
@@ -152,3 +158,4 @@ console.log('지점    ' + new Set(records.map(r => r.branch)).size + '곳');
 if(beforeStart)               console.log('제외    개시일 이전 ' + beforeStart + '건');
 if(Object.keys(skipped).length) console.log('제외    계약 체계에 없는 분류 ' + JSON.stringify(skipped));
 console.log('생성    ' + path.relative(ROOT, dest));
+})().catch(e => { console.error(e); process.exit(1); });
