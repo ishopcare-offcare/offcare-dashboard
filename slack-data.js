@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35127,
+  "version": 35128,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337011,6 +337011,7 @@ window.SLACK_DATA = {
           "송태양": 1
         },
         "menu": {
+          "김현기": 1,
           "배선유": 1,
           "송태양": 2
         },
@@ -337031,6 +337032,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "현재 정상연결 되어있음 • 일시적 wifi오류로 안내완료 일시적 wifi오류로 안내완료",
           "rr": 1
+        },
+        {
+          "time": "11:16",
+          "store": "시엔 하우스",
+          "biz": "2574201380",
+          "cat": "menu",
+          "emp": "김현기",
+          "req": "메뉴",
+          "hw": "",
+          "intake": "offline",
+          "note": "/ 저 외주 확인건 있어서 혹시 여기 한번만 해주실수 있으신가요 저 외주 확인건 있어서 혹시 여기 한번만 해주실수 있으신가요 / 외주해결완료 제가 할게요 / 완료 icehot,디카페인 옵션으로",
+          "rr": 5
         },
         {
           "time": "11:14",
@@ -337407,10 +337420,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 23,
-        "offline": 9,
+        "offline": 10,
         "unknown": 0
       },
-      "updatedAt": "11:21",
+      "updatedAt": "11:28",
       "voc": {
         "responses": 1,
         "install": {
@@ -337527,19 +337540,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794968808.84
+        "lastSeen": 1794968904.389
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794968808.84
+        "lastSeen": 1794968904.389
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794968808.84
+        "lastSeen": 1794968904.389
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794968808.84
+        "lastSeen": 1794968904.389
       }
     },
     "days": {
@@ -466582,7 +466595,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 11:27",
+    "at": "2026-11-18 11:28",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466745,7 +466758,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 11:26",
+    "at": "2026-11-18 11:28",
     "pri": {
       "days": 0,
       "failed": [],
