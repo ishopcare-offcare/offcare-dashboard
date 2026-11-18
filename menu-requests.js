@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5474,
- "updatedAt": "2026-11-18 22:36",
+ "version": 5475,
+ "updatedAt": "2026-11-18 23:16",
  "days": 30,
  "items": [
   {
@@ -673,7 +673,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_8308.jpg",
      "fid": "F0CJTC1HJAE",
      "from": "댓글",
-     "path": "menu-files/1794995638_428369-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -812,13 +811,13 @@ window.MENU_REQUESTS = {
        "price": 6500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995638_428369-0.jpg"
     },
     {
      "name": "IMG_8309.jpg",
      "fid": "F0CKMUHHP5E",
      "from": "댓글",
-     "path": "menu-files/1794995638_428369-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -972,13 +971,13 @@ window.MENU_REQUESTS = {
        "price": 80000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995638_428369-1.jpg"
     },
     {
      "name": "IMG_8310.jpg",
      "fid": "F0CKMUH7MJ4",
      "from": "댓글",
-     "path": "menu-files/1794995638_428369-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1157,13 +1156,13 @@ window.MENU_REQUESTS = {
        "price": 61000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995638_428369-2.jpg"
     },
     {
      "name": "IMG_8306.jpg",
      "fid": "F0CKMUHKTQQ",
      "from": "댓글",
-     "path": "menu-files/1794995638_428369-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1282,13 +1281,13 @@ window.MENU_REQUESTS = {
        "price": 13500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995638_428369-3.jpg"
     },
     {
      "name": "IMG_8307.jpg",
      "fid": "F0CJMASEMLK",
      "from": "댓글",
-     "path": "menu-files/1794995638_428369-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1442,13 +1441,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995638_428369-4.jpg"
     },
     {
      "name": "IMG_8311.jpg",
      "fid": "F0CJN8XEFV3",
      "from": "댓글",
-     "path": "menu-files/1794995638_428369-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -1537,7 +1536,8 @@ window.MENU_REQUESTS = {
        "price": 7000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995638_428369-5.jpg"
     },
     {
      "name": "IMG_8312.jpg",
@@ -1582,12 +1582,204 @@ window.MENU_REQUESTS = {
       }
      ],
      "v": 3
+    },
+    {
+     "name": "IMG_8313.jpg",
+     "fid": "F0CJRJHHH2S",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "젬",
+       "name": "업서스티커",
+       "price": 5000
+      },
+      {
+       "category": "젬",
+       "name": "라즈베리잼",
+       "price": 7500
+      },
+      {
+       "category": "젬",
+       "name": "오렌지마멀레이드",
+       "price": 8500
+      },
+      {
+       "category": "젬",
+       "name": "봉투",
+       "price": 100
+      },
+      {
+       "category": "젬",
+       "name": "쇼핑백",
+       "price": 300
+      },
+      {
+       "category": "젬",
+       "name": "바질페스토",
+       "price": 14000
+      },
+      {
+       "category": "젬",
+       "name": "타프나드",
+       "price": 13500
+      },
+      {
+       "category": "젬",
+       "name": "살남선물세트",
+       "price": 31000
+      },
+      {
+       "category": "젬",
+       "name": "베리베리잼",
+       "price": 6000
+      },
+      {
+       "category": "젬",
+       "name": "살남선물세트",
+       "price": 30000
+      },
+      {
+       "category": "젬",
+       "name": "스트로베리 바닐라",
+       "price": 6500
+      },
+      {
+       "category": "젬",
+       "name": "블루베리잼",
+       "price": 8000
+      },
+      {
+       "category": "젬",
+       "name": "에코백",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8314.jpg",
+     "fid": "F0CKMUHHFJ4",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "세일",
+       "name": "올리브푸가스 할인",
+       "price": 2500
+      },
+      {
+       "category": "세일",
+       "name": "포카치아 하프",
+       "price": 3500
+      },
+      {
+       "category": "세일",
+       "name": "바게트 세일",
+       "price": 2500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8315.jpg",
+     "fid": "F0CKMUHBAC8",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "화요팝업",
+       "name": "블루베리 크림 롤 케이크",
+       "price": 4500
+      },
+      {
+       "category": "화요팝업",
+       "name": "아이스크림/블루베리 크림 롤",
+       "price": 6000
+      },
+      {
+       "category": "화요팝업",
+       "name": "스콘",
+       "price": 2500
+      },
+      {
+       "category": "화요팝업",
+       "name": "잼스콘",
+       "price": 3000
+      },
+      {
+       "category": "화요팝업",
+       "name": "세븐파운드",
+       "price": 4000
+      },
+      {
+       "category": "화요팝업",
+       "name": "라즈베리브라우니",
+       "price": 4000
+      },
+      {
+       "category": "화요팝업",
+       "name": "까눌레",
+       "price": 3000
+      },
+      {
+       "category": "화요팝업",
+       "name": "레몬마들렌",
+       "price": 2500
+      },
+      {
+       "category": "화요팝업",
+       "name": "피낭시에",
+       "price": 2800
+      },
+      {
+       "category": "화요팝업",
+       "name": "크렘브륄레",
+       "price": 5000
+      },
+      {
+       "category": "화요팝업",
+       "name": "초코칩쿠키",
+       "price": 3000
+      },
+      {
+       "category": "화요팝업",
+       "name": "코코넛마카롱",
+       "price": 1500
+      },
+      {
+       "category": "화요팝업",
+       "name": "봉투",
+       "price": 100
+      },
+      {
+       "category": "화요팝업",
+       "name": "쇼핑백",
+       "price": 300
+      },
+      {
+       "category": "화요팝업",
+       "name": "초코무스",
+       "price": 5000
+      },
+      {
+       "category": "화요팝업",
+       "name": "캐러멜푸딩",
+       "price": 6000
+      },
+      {
+       "category": "화요팝업",
+       "name": "빅토리아 케이크",
+       "price": 6500
+      }
+     ],
+     "v": 3
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1794995696.576059",
+   "rc": 4,
+   "lr": "1795011017.381849",
    "rfx": 3,
    "status": "confirm",
    "handler": "박하림",
