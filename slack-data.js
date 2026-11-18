@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35179,
+  "version": 35180,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337634,7 +337634,7 @@ window.SLACK_DATA = {
         "offline": 14,
         "unknown": 0
       },
-      "updatedAt": "13:14",
+      "updatedAt": "13:17",
       "voc": {
         "responses": 2,
         "install": {
@@ -337765,34 +337765,34 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794975456.533
+        "lastSeen": 1794975543.94
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794975456.533
+        "lastSeen": 1794975543.94
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794975456.533
+        "lastSeen": 1794975543.94
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794975456.533
+        "lastSeen": 1794975543.94
       },
       "1794974069.737369": {
         "post": "1794974069.737369",
-        "lastSeen": 1794975456.533,
+        "lastSeen": 1794975543.94,
         "r": 1,
         "day": "2026-11-18",
         "idx": 19
       },
       "1794975295.930379": {
         "post": "1794975295.930379",
-        "lastSeen": 1794975456.533
+        "lastSeen": 1794975543.94
       },
       "1794975101.040109": {
         "post": "1794975101.040109",
-        "lastSeen": 1794975456.533
+        "lastSeen": 1794975543.94
       }
     },
     "days": {
@@ -466915,13 +466915,13 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 13:18",
+    "at": "2026-11-18 13:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
     "ok": true,
     "error": "",
-    "rows": 5089,
+    "rows": 5090,
     "named": 1273,
     "unknownName": 335,
     "beforeStart": 0,
@@ -467078,7 +467078,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 13:17",
+    "at": "2026-11-18 13:19",
     "pri": {
       "days": 0,
       "failed": [],
