@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35243,
+  "version": 35244,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337031,7 +337031,20 @@ window.SLACK_DATA = {
           "송태양": 1
         }
       },
-      "pending": [],
+      "pending": [
+        {
+          "time": "13:58",
+          "store": "미들도어",
+          "biz": "6447400489",
+          "handler": "김동욱",
+          "cat": "as",
+          "intake": "online",
+          "req": "nm-2000 재온보딩 요청주시어 도움 부탁드리겠습니다!",
+          "reasons": [
+            "확인 후 미완료"
+          ]
+        }
+      ],
       "done": [
         {
           "time": "14:49",
@@ -338031,11 +338044,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 66,
+        "online": 67,
         "offline": 17,
         "unknown": 0
       },
-      "updatedAt": "14:55",
+      "updatedAt": "14:57",
       "voc": {
         "responses": 3,
         "install": {
@@ -338157,19 +338170,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794981414.044
+        "lastSeen": 1794981489.432
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794981414.044
+        "lastSeen": 1794981489.432
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794981414.044
+        "lastSeen": 1794981489.432
       },
       "1794977888.826849": {
         "post": "1794977888.826849",
-        "lastSeen": 1794981414.044,
+        "lastSeen": 1794981489.432,
         "r": 1,
         "day": "2026-11-18",
         "idx": 36
@@ -338180,11 +338193,11 @@ window.SLACK_DATA = {
       },
       "1794980291.372229": {
         "post": "1794980291.372229",
-        "lastSeen": 1794981414.044
+        "lastSeen": 1794981489.432
       },
       "1794980700.901639": {
         "post": "1794980700.901639",
-        "lastSeen": 1794981414.044,
+        "lastSeen": 1794981489.432,
         "r": 1,
         "day": "2026-11-18",
         "idx": 50
@@ -467552,7 +467565,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 14:57",
+    "at": "2026-11-18 14:58",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -467715,7 +467728,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 14:56",
+    "at": "2026-11-18 14:58",
     "pri": {
       "days": 0,
       "failed": [],
