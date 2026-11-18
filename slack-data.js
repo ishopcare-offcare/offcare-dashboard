@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35053,
+  "version": 35054,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336992,11 +336992,28 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-18": {
-      "counts": {},
+      "counts": {
+        "menu": {
+          "송태양": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:57",
+          "store": "엑시트",
+          "biz": "5217700493",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "",
+          "hw": "",
+          "intake": "online",
+          "note": "• 메뉴 등록 완료, 이미지등록 방법 솔라피전송 메뉴 등록 완료, 이미지등록 방법 솔라피전송",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -337135,11 +337152,11 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794960345.856
+        "lastSeen": 1794960540.931
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794960345.856
+        "lastSeen": 1794960540.931
       }
     },
     "days": {
@@ -466040,7 +466057,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 09:06",
+    "at": "2026-11-18 09:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466203,7 +466220,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 09:05",
+    "at": "2026-11-18 09:09",
     "pri": {
       "days": 0,
       "failed": [],
