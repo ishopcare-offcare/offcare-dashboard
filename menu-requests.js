@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5435,
- "updatedAt": "2026-11-18 14:38",
+ "version": 5436,
+ "updatedAt": "2026-11-18 14:44",
  "days": 30,
  "items": [
   {
@@ -10871,8 +10871,7 @@ window.MENU_REQUESTS = {
        "price": 10000
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794375824_876259-0.jpeg"
+     "v": 3
     },
     {
      "name": "Resized_20261109_143737.jpg.jpeg",
@@ -10966,8 +10965,7 @@ window.MENU_REQUESTS = {
        "price": 2000
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794375824_876259-1.jpeg"
+     "v": 3
     },
     {
      "name": "Resized_20261109_143734.jpg.jpeg",
@@ -11066,8 +11064,7 @@ window.MENU_REQUESTS = {
        "price": 18000
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794375824_876259-2.jpeg"
+     "v": 3
     },
     {
      "name": "Resized_20261109_143726.jpg.jpeg",
@@ -11176,8 +11173,7 @@ window.MENU_REQUESTS = {
        "price": 32500
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794375824_876259-3.jpeg"
+     "v": 3
     },
     {
      "name": "Resized_20261109_143722.jpg.jpeg",
@@ -11291,8 +11287,7 @@ window.MENU_REQUESTS = {
        "price": 38500
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794375824_876259-4.jpeg"
+     "v": 3
     },
     {
      "name": "Resized_20261109_143716.jpg.jpeg",
@@ -11421,8 +11416,7 @@ window.MENU_REQUESTS = {
        "price": 19000
       }
      ],
-     "v": 3,
-     "path": "menu-files/1794375824_876259-5.jpeg"
+     "v": 3
     }
    ],
    "datt": [],
