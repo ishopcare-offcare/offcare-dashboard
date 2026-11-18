@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35257,
+  "version": 35258,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -338234,27 +338234,31 @@ window.SLACK_DATA = {
         "offline": 19,
         "unknown": 0
       },
-      "updatedAt": "15:15",
+      "updatedAt": "15:18",
       "voc": {
-        "responses": 4,
+        "responses": 5,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 4,
+          "count": 5,
           "low": 0
         },
         "high": {
           "install": 0,
-          "nps": 4
+          "nps": 5
         },
         "npsDist": {
-          "10": 4
+          "10": 5
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "12개월": {
+            "total": 1,
+            "low": 0
+          },
           "3개월": {
             "total": 1,
             "low": 0
@@ -338269,6 +338273,10 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "SMARTRO": {
+            "total": 1,
+            "low": 0
+          },
           "KPN": {
             "total": 2,
             "low": 0
@@ -338284,7 +338292,20 @@ window.SLACK_DATA = {
         },
         "reasonCounts": {},
         "alerts": [],
-        "praises": []
+        "praises": [
+          {
+            "time": "15:18",
+            "store": "주식회사 히람컴퍼니 (HIRAM Company Co.,Ltd.)",
+            "storeId": "289778",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 10,
+            "text": "첨 세팅부터 사용법까지 심플하게 사용법까지 가능해서 평가하게 되었습니다",
+            "byReaction": false,
+            "doneDate": ""
+          }
+        ]
       }
     }
   },
@@ -338360,15 +338381,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794982581.773
+        "lastSeen": 1794982702.969
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794982581.773
+        "lastSeen": 1794982702.969
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794982581.773
+        "lastSeen": 1794982702.969
       },
       "1794979652.969869": {
         "post": "1794979652.969869",
@@ -338376,14 +338397,14 @@ window.SLACK_DATA = {
       },
       "1794981791.364359": {
         "post": "1794981791.364359",
-        "lastSeen": 1794982581.773,
+        "lastSeen": 1794982702.969,
         "r": 1,
         "day": "2026-11-18",
         "idx": 55
       },
       "1794982500.673309": {
         "post": "1794982500.673309",
-        "lastSeen": 1794982581.773
+        "lastSeen": 1794982702.969
       }
     },
     "days": {
@@ -467830,7 +467851,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 15:16",
+    "at": "2026-11-18 15:18",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -467993,7 +468014,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 15:16",
+    "at": "2026-11-18 15:18",
     "pri": {
       "days": 0,
       "failed": [],
