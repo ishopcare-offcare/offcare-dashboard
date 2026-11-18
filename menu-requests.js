@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5419,
- "updatedAt": "2026-11-18 09:15",
+ "version": 5420,
+ "updatedAt": "2026-11-18 09:21",
  "days": 30,
  "items": [
   {
@@ -68147,113 +68147,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792372786845139"
-  },
-  {
-   "ts": "1792369189.246859",
-   "date": "2026-10-19",
-   "time": "09:19",
-   "store": "마블스퀘어",
-   "biz": "6526700764",
-   "pos": "",
-   "content": "디저트메뉴 20프로 금액 할인 요청드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 1,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CA70FREM8",
-     "from": "원글",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "소금빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "올리브소금빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "명란감자마요 소금빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "앙버터소금빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "모카소금빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "피자빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "연유식빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "크림치즈마늘빵",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "러스크",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "단팥인절미토스트",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "블루베리토스트",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "크로크무슈",
-       "price": 0,
-       "pt": "u"
-      }
-     ],
-     "v": 2
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "확인 후 답변드리겠습니다.",
-    ":기록용: 상품명, 금액과 함께 할인 기능 안내드렸으나 무응답",
-    ":기록용: 현재까지 재인입 없음"
-   ],
-   "rc": 7,
-   "lr": "1792400578.680639",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792369189246859"
   }
  ],
  "ocr": {
