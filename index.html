@@ -4770,8 +4770,8 @@ function admWorkday(noNote, noTable){
        <b>1일 평균 = 총 건수 ÷ 평일 수</b> — 주말·당직에 처리한 건도 분자에는 들어갑니다(맨 오른쪽 열에 따로 표기).</div>`
     + `<div class="yoy-grid">`
     + yoyChart('📦 월 총 처리 건수', R, r=>r.total, null, 'sum')
-    + admCatTotalCard(R)
     + yoyChart('📆 1일 평균 처리', R, r=>admPerDay(r.total,r), v=>Number(v).toFixed(1), 'avg', '총 건수 ÷ 평일 수')
+    + admCatTotalCard(R)
     + admCatPerDayCard(R)
     + `</div>`
     + (noTable?[]:admByYear(R)).map(({y, rows:Ry})=>`<div class="card"><div class="card-head"><h3>월별 수치 · ${y}년</h3><span class="hint">1인 1일 평균 = 총 건수 ÷ 평일 수 ÷ 그 달 활동 담당자 수 · 합계 줄의 1일 평균 = 연간 총 건수 ÷ 연간 평일 수</span></div>${table(Ry)}</div>`).join('');
