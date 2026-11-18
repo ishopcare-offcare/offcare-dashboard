@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35103,
+  "version": 35104,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337023,7 +337023,8 @@ window.SLACK_DATA = {
           "req": "터미널 + 프론트 사용 중 오전 출근하면 터미널 화면이 멈춰 있으시고 지속 재부팅 및 운영하시다보면 정상 작동",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "약 한달간 지속적 동일한 오류로 중고 터미널 택배진행입니다",
+          "rr": 1
         },
         {
           "time": "10:32",
@@ -337295,7 +337296,7 @@ window.SLACK_DATA = {
         "offline": 6,
         "unknown": 0
       },
-      "updatedAt": "10:37",
+      "updatedAt": "10:43",
       "voc": {
         "responses": 1,
         "install": {
@@ -337430,15 +337431,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794966119.465
+        "lastSeen": 1794966207.883
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794966119.465
+        "lastSeen": 1794966207.883
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794966119.465
+        "lastSeen": 1794966207.883
       }
     },
     "days": {
@@ -466445,7 +466446,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:42",
+    "at": "2026-11-18 10:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466608,7 +466609,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:41",
+    "at": "2026-11-18 10:43",
     "pri": {
       "days": 0,
       "failed": [],
