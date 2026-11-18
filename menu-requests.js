@@ -3,10 +3,142 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5452,
- "updatedAt": "2026-11-18 17:38",
+ "version": 5453,
+ "updatedAt": "2026-11-18 17:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1794991089.083239",
+   "date": "2026-11-18",
+   "time": "17:38",
+   "store": "*탐즈(TAMZ)",
+   "biz": "6451003454",
+   "pos": "",
+   "content": "메뉴추가 부탁드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "Clex_1794991096049.jpg",
+     "fid": "F0CJSGYTBGS",
+     "from": "댓글",
+     "path": "menu-files/1794991089_083239-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "TAMZ CREAM LATTE",
+       "name": "땅콩 바나나 크림 라떼",
+       "price": 6500
+      },
+      {
+       "category": "TAMZ CREAM LATTE",
+       "name": "말차 크림 라떼",
+       "price": 6500
+      },
+      {
+       "category": "TAMZ CREAM LATTE",
+       "name": "레몬 크림 라떼",
+       "price": 6500
+      },
+      {
+       "category": "NON - COFFEE",
+       "name": "복숭아 레몬 아이스티",
+       "price": 6000
+      },
+      {
+       "category": "NON - COFFEE",
+       "name": "복숭아 밀크티",
+       "price": 6000
+      },
+      {
+       "category": "NON - COFFEE",
+       "name": "루이보스 밀크티",
+       "price": 6000
+      },
+      {
+       "category": "NON - COFFEE",
+       "name": "초코 라떼",
+       "price": 6000
+      },
+      {
+       "category": "COFFEE",
+       "name": "에스프레소",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE",
+       "name": "카페 라떼",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "바닐라 라떼",
+       "price": 5500
+      },
+      {
+       "category": "COFFEE",
+       "name": "플랫화이트",
+       "price": 5000
+      },
+      {
+       "category": "COFFEE",
+       "name": "카푸치노",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "레몬 에이드",
+       "price": 6000
+      },
+      {
+       "category": "ADE",
+       "name": "자몽 에이드",
+       "price": 6000
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "캐모마일",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "레몬티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "자몽티",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1794991116.429109",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794991089083239"
+  },
   {
    "ts": "1794990988.509479",
    "date": "2026-11-18",
