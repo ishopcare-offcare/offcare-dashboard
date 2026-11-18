@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35100,
+  "version": 35101,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336994,9 +336994,9 @@ window.SLACK_DATA = {
     "2026-11-18": {
       "counts": {
         "as": {
+          "고경림": 4,
           "김동욱": 5,
           "배선유": 1,
-          "고경림": 3,
           "송태양": 5,
           "미지정": 1,
           "김규빈": 1
@@ -337014,6 +337014,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:32",
+          "store": "포코타코(POCO TACO)",
+          "biz": "7740403561",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "프린터 출력이 되지 않고, 배민 출력 테스트시에는 글자가 촘촘하게? 올라오신 함",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "10:30",
           "store": "전남친순대 광주본점",
@@ -337268,11 +337279,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 16,
+        "online": 17,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:34",
+      "updatedAt": "10:36",
       "voc": {
         "responses": 1,
         "install": {
@@ -337407,15 +337418,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794965736.156
+        "lastSeen": 1794965836.803
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794965736.156
+        "lastSeen": 1794965836.803
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794965736.156
+        "lastSeen": 1794965836.803
       }
     },
     "days": {
@@ -466413,7 +466424,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:35",
+    "at": "2026-11-18 10:37",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466576,7 +466587,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:35",
+    "at": "2026-11-18 10:37",
     "pri": {
       "days": 0,
       "failed": [],
