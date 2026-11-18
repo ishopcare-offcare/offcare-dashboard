@@ -3,10 +3,110 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5415,
- "updatedAt": "2026-11-17 18:36",
+ "version": 5416,
+ "updatedAt": "2026-11-18 09:01",
  "days": 30,
  "items": [
+  {
+   "ts": "1794959856.100279",
+   "date": "2026-11-18",
+   "time": "08:57",
+   "store": "엑시트",
+   "biz": "5217700493",
+   "pos": "토스포스",
+   "content": "신규가입입니다 메뉴추가부탁드립니다\n메뉴가 많아서 메일로 보내드렸습니다\n파일첨부가 지워지지않아 중복으로 보내드렸습니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1D34b1zL2u_G2zJzjQOG0N5YEhrctADXE/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1SYb_ArOOh6Kgsg4jVBSyRXDMW7lQ_Q_6/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1IY7g3nQ4-1NtO7gIt0YvRpM_o7w8obG4/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1UKqFxRUK4FZRB_Aa4aYGXMlJb_ntckg_/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1ffJvVzAcafSN3ViGwSTNyU0Q1dhSgNJP/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1gjPGMQ76AbrzDehQ6g79VPX6gcPqRa6i/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1pTiLIclsQi6pFuox3Ficz7Ax16dyRkc1/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1YYeDJQBaT00GSPWiPBDC5db03k-wRiIQ/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1D34b1zL2u_G2zJzjQOG0N5YEhrctADXE",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1SYb_ArOOh6Kgsg4jVBSyRXDMW7lQ_Q_6",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1IY7g3nQ4-1NtO7gIt0YvRpM_o7w8obG4",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1UKqFxRUK4FZRB_Aa4aYGXMlJb_ntckg_",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1ffJvVzAcafSN3ViGwSTNyU0Q1dhSgNJP",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1gjPGMQ76AbrzDehQ6g79VPX6gcPqRa6i",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1pTiLIclsQi6pFuox3Ficz7Ax16dyRkc1",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1YYeDJQBaT00GSPWiPBDC5db03k-wRiIQ",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794959856100279"
+  },
+  {
+   "ts": "1794959347.685829",
+   "date": "2026-11-18",
+   "time": "08:49",
+   "store": "엑시트",
+   "biz": "5217700493",
+   "pos": "토스포스",
+   "content": "처음 메뉴 만듭니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794959347685829"
+  },
   {
    "ts": "1794906000.572349",
    "date": "2026-11-17",
