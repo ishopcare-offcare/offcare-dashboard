@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35061,
+  "version": 35062,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336994,6 +336994,7 @@ window.SLACK_DATA = {
     "2026-11-18": {
       "counts": {
         "as": {
+          "김동욱": 1,
           "송태양": 1
         },
         "menu": {
@@ -337002,6 +337003,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:20",
+          "store": "심커피집",
+          "biz": "8842501701",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "프린터 고장으로 기기 점검 부탁드립니다!",
+          "hw": "",
+          "intake": "online",
+          "note": "프론트가 연결된 기기에서 출력하신게 아님. 안내완료",
+          "rr": 1
+        },
         {
           "time": "09:14",
           "store": "프랭클린커피익스프레스",
@@ -337040,11 +337053,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
-      "updatedAt": "09:21",
+      "updatedAt": "09:28",
       "voc": {
         "responses": 1,
         "install": {
@@ -337179,26 +337192,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794961505.31
+        "lastSeen": 1794961729.502
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794961505.31
+        "lastSeen": 1794961729.502
       },
       "1794960900.819099": {
         "post": "1794960900.819099",
-        "lastSeen": 1794961505.31
+        "lastSeen": 1794961729.502
       },
       "1794961270.784469": {
         "post": "1794961270.784469",
-        "lastSeen": 1794961505.31
-      },
-      "1794961258.146249": {
-        "post": "1794961258.146249",
-        "lastSeen": 1794961505.31,
-        "r": 1,
-        "day": "2026-11-18",
-        "idx": 0
+        "lastSeen": 1794961729.502
       }
     },
     "days": {
@@ -466107,14 +466113,15 @@ window.SLACK_DATA = {
             "store": "심커피집",
             "biz": "8842501701",
             "who": "김동욱",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 6
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-18 09:25",
+    "at": "2026-11-18 09:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466277,7 +466284,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 09:25",
+    "at": "2026-11-18 09:28",
     "pri": {
       "days": 0,
       "failed": [],
