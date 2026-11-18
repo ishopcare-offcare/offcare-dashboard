@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35106,
+  "version": 35107,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336994,9 +336994,9 @@ window.SLACK_DATA = {
     "2026-11-18": {
       "counts": {
         "as": {
+          "고경림": 5,
           "미지정": 2,
           "송태양": 6,
-          "고경림": 4,
           "김동욱": 5,
           "배선유": 1,
           "김규빈": 1
@@ -337014,6 +337014,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:43",
+          "store": "정가네 꼬마김밥 효천점",
+          "biz": "8131303155",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "쿠팡이츠 연동 후 주문을 수락했음에도 알림음이 끊기지 않고 계속 발생하여 문의.",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
+        },
         {
           "time": "10:37",
           "store": "행복한안경",
@@ -337305,10 +337316,10 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 18,
-        "offline": 6,
+        "offline": 7,
         "unknown": 0
       },
-      "updatedAt": "10:43",
+      "updatedAt": "10:50",
       "voc": {
         "responses": 1,
         "install": {
@@ -337443,15 +337454,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794966380.229
+        "lastSeen": 1794966679.289
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794966380.229
+        "lastSeen": 1794966679.289
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794966380.229
+        "lastSeen": 1794966679.289
       }
     },
     "days": {
@@ -466458,7 +466469,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:46",
+    "at": "2026-11-18 10:51",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466621,7 +466632,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:46",
+    "at": "2026-11-18 10:51",
     "pri": {
       "days": 0,
       "failed": [],
