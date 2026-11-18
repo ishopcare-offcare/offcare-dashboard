@@ -3,10 +3,408 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5445,
- "updatedAt": "2026-11-18 15:27",
+ "version": 5446,
+ "updatedAt": "2026-11-18 16:19",
  "days": 30,
  "items": [
+  {
+   "ts": "1794986278.498189",
+   "date": "2026-11-18",
+   "time": "16:17",
+   "store": "레프트커피 (left coffee)",
+   "biz": "6752501714",
+   "pos": "",
+   "content": "페이히어 돌방 영업 건 메뉴등록 요청드립니다 :bow:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_20261118_160240 (1).jpg",
+     "fid": "F0CJAG6P7EK",
+     "from": "댓글",
+     "path": "menu-files/1794986278_498189-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "MD",
+       "name": "가방",
+       "price": 8000
+      },
+      {
+       "category": "MD",
+       "name": "카라멜 소스",
+       "price": 8000
+      },
+      {
+       "category": "MD",
+       "name": "머그컵",
+       "price": 15000
+      },
+      {
+       "category": "MD",
+       "name": "200g 원두",
+       "price": 15000
+      },
+      {
+       "category": "MD",
+       "name": "티셔츠",
+       "price": 35000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261118_160238 (1).jpg",
+     "fid": "F0CJLJTHJDT",
+     "from": "댓글",
+     "path": "menu-files/1794986278_498189-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "TEA",
+       "name": "밀크티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "복숭아 아이스티",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "히비스커스",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "얼그레이",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "카모마일",
+       "price": 5500
+      },
+      {
+       "category": "TEA",
+       "name": "포멜로 과일티",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261118_160227.jpg",
+     "fid": "F0CJKLP4HAP",
+     "from": "댓글",
+     "path": "menu-files/1794986278_498189-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "진동벨",
+       "name": "포장",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "1번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "2번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "3번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "4번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "5번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "6번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "7번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "8번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "9번",
+       "price": 0
+      },
+      {
+       "category": "진동벨",
+       "name": "10번",
+       "price": 0
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261118_160229.jpg",
+     "fid": "F0CJLJUUS69",
+     "from": "댓글",
+     "path": "menu-files/1794986278_498189-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "브런치&디저트",
+       "name": "3000원",
+       "price": 3000
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "4000원",
+       "price": 0
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "월넛쿠키",
+       "price": 4500
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "얼그레이 레몬",
+       "price": 4500
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "녹차쿠키",
+       "price": 4500
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "녹차케이크",
+       "price": 6800
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "그릴 아보카도 샌드위치",
+       "price": 12000
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "레프트 브런치 플레이트",
+       "price": 13000
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "비엘티",
+       "price": 11000
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "나뚜루 아이스크림 크로플",
+       "price": 8800
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "레어치즈케이크",
+       "price": 6800
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "초코케이크",
+       "price": 6800
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "레드벨벳케이크",
+       "price": 6800
+      },
+      {
+       "category": "브런치&디저트",
+       "name": "당근케이크",
+       "price": 6800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261118_160231.jpg",
+     "fid": "F0CJKLK7A59",
+     "from": "댓글",
+     "path": "menu-files/1794986278_498189-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "핸드드립",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 4800
+      },
+      {
+       "category": "커피",
+       "name": "바닐라 라떼",
+       "price": 5300
+      },
+      {
+       "category": "커피",
+       "name": "필터커피",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "얼그레이 라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "말차 크림샷 라떼",
+       "price": 6800
+      },
+      {
+       "category": "커피",
+       "name": "아포가토",
+       "price": 6000
+      },
+      {
+       "category": "커피",
+       "name": "시럽",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "샷 추가",
+       "price": 500
+      },
+      {
+       "category": "커피",
+       "name": "연하게",
+       "price": 0
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261118_160234.jpg",
+     "fid": "F0CJPUFT6HL",
+     "from": "댓글",
+     "path": "menu-files/1794986278_498189-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "시그니처",
+       "name": "레프트 라떼",
+       "price": 5500
+      },
+      {
+       "category": "시그니처",
+       "name": "라떼 슈페너",
+       "price": 5800
+      },
+      {
+       "category": "시그니처",
+       "name": "솔티카라멜",
+       "price": 6000
+      },
+      {
+       "category": "시그니처",
+       "name": "버터 스카치",
+       "price": 6300
+      },
+      {
+       "category": "시그니처",
+       "name": "카페 티라미수",
+       "price": 6300
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_20261118_160236 (1).jpg",
+     "fid": "F0CJVJQPTN0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "베버리지",
+       "name": "딸기밀크티",
+       "price": 6000
+      },
+      {
+       "category": "베버리지",
+       "name": "크림시그니쳐",
+       "price": 6300
+      },
+      {
+       "category": "베버리지",
+       "name": "망고딸기",
+       "price": 6300
+      },
+      {
+       "category": "베버리지",
+       "name": "망고주스",
+       "price": 5800
+      },
+      {
+       "category": "베버리지",
+       "name": "레프트크림초코라떼",
+       "price": 6300
+      },
+      {
+       "category": "베버리지",
+       "name": "레프트말차크림라떼",
+       "price": 6300
+      },
+      {
+       "category": "베버리지",
+       "name": "딸기크림",
+       "price": 5500
+      },
+      {
+       "category": "베버리지",
+       "name": "딸기 요거트",
+       "price": 6300
+      },
+      {
+       "category": "베버리지",
+       "name": "포멜로 과일 에이드",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "cc."
+   ],
+   "rc": 2,
+   "lr": "1794986327.854139",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794986278498189"
+  },
   {
    "ts": "1794981835.821809",
    "date": "2026-11-18",
