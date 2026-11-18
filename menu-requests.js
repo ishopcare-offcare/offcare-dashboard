@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5467,
- "updatedAt": "2026-11-18 20:44",
+ "version": 5468,
+ "updatedAt": "2026-11-18 20:45",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
     "사업자번호: ···\n상호명: 계근상 경남대점\n• 해당 매장과 동일하게 메뉴 등록 요청 주셔서 부탁드리겠습니다.\n• “앤디” 상호명 쓰는 매장이며 계근상브랜드를 삽인샵으로 운영하는 매장이라고 합니다.",
     "혹싀…가능할까유.."
    ],
-   "rc": 3,
-   "lr": "1795002215.188789",
+   "rc": 4,
+   "lr": "1795002329.425319",
    "rfx": 3,
    "status": "wait",
    "handler": null,
