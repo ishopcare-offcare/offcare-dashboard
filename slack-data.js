@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35262,
+  "version": 35263,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -338246,36 +338246,37 @@ window.SLACK_DATA = {
         "offline": 19,
         "unknown": 0
       },
-      "updatedAt": "15:23",
+      "updatedAt": "15:26",
       "voc": {
-        "responses": 5,
+        "responses": 7,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 5,
-          "low": 0
+          "count": 7,
+          "low": 1
         },
         "high": {
           "install": 0,
-          "nps": 5
+          "nps": 6
         },
         "npsDist": {
-          "10": 5
+          "5": 1,
+          "10": 6
         },
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "1개월": {
+            "total": 3,
+            "low": 1
+          },
           "12개월": {
             "total": 1,
             "low": 0
           },
           "3개월": {
-            "total": 1,
-            "low": 0
-          },
-          "1개월": {
             "total": 1,
             "low": 0
           },
@@ -338285,6 +338286,14 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KIS": {
+            "total": 1,
+            "low": 1
+          },
+          "KOCES": {
+            "total": 1,
+            "low": 0
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
@@ -338302,8 +338311,33 @@ window.SLACK_DATA = {
             "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1
+        },
+        "alerts": [
+          {
+            "time": "15:26",
+            "store": "승리학원",
+            "storeId": "550110",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 5,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 5,
+                "text": "업종에 따라 결제방식의 불편함이 있다",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": [
           {
             "time": "15:18",
@@ -338393,15 +338427,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794983111.114
+        "lastSeen": 1794983189.996
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794983111.114
+        "lastSeen": 1794983189.996
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794983111.114
+        "lastSeen": 1794983189.996
       },
       "1794979652.969869": {
         "post": "1794979652.969869",
@@ -338409,18 +338443,26 @@ window.SLACK_DATA = {
       },
       "1794981791.364359": {
         "post": "1794981791.364359",
-        "lastSeen": 1794983111.114,
+        "lastSeen": 1794983189.996,
         "r": 1,
         "day": "2026-11-18",
         "idx": 55
       },
       "1794982500.673309": {
         "post": "1794982500.673309",
-        "lastSeen": 1794983111.114
+        "lastSeen": 1794983189.996
       },
       "1794982995.793139": {
         "post": "1794982995.793139",
-        "lastSeen": 1794983111.114
+        "lastSeen": 1794983189.996
+      },
+      "1794983188.024459": {
+        "post": "1794983188.024459",
+        "lastSeen": 1794983189.996
+      },
+      "1794983155.416779": {
+        "post": "1794983155.416779",
+        "lastSeen": 1794983189.996
       }
     },
     "days": {
@@ -467867,7 +467909,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 15:25",
+    "at": "2026-11-18 15:27",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -468030,7 +468072,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 15:25",
+    "at": "2026-11-18 15:26",
     "pri": {
       "days": 0,
       "failed": [],
