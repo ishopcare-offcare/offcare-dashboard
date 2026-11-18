@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5463,
- "updatedAt": "2026-11-18 19:26",
+ "version": 5464,
+ "updatedAt": "2026-11-18 19:30",
  "days": 30,
  "items": [
   {
@@ -59,7 +59,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_0083.jpg",
      "fid": "F0CKMUZHR4Y",
      "from": "댓글",
-     "path": "menu-files/1794995732_691409-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -168,13 +167,13 @@ window.MENU_REQUESTS = {
        "price": 5500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995732_691409-0.jpg"
     },
     {
      "name": "IMG_0082.jpg",
      "fid": "F0CJMB92H4K",
      "from": "댓글",
-     "path": "menu-files/1794995732_691409-1.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -328,13 +327,13 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995732_691409-1.jpg"
     },
     {
      "name": "IMG_0084.jpg",
      "fid": "F0CJMB93XFV",
      "from": "댓글",
-     "path": "menu-files/1794995732_691409-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -428,13 +427,13 @@ window.MENU_REQUESTS = {
        "price": 4000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995732_691409-2.jpg"
     },
     {
      "name": "IMG_0085.jpg",
      "fid": "F0CJTCJ509G",
      "from": "댓글",
-     "path": "menu-files/1794995732_691409-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -498,13 +497,13 @@ window.MENU_REQUESTS = {
        "price": 4500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995732_691409-3.jpg"
     },
     {
      "name": "IMG_0087.jpg",
      "fid": "F0CKMUZC200",
      "from": "댓글",
-     "path": "menu-files/1794995732_691409-4.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -618,13 +617,14 @@ window.MENU_REQUESTS = {
        "price": 1000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1794995732_691409-4.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1794995754.891209",
+   "rc": 3,
+   "lr": "1794997764.875409",
    "rfx": 3,
    "status": "done",
    "handler": "고경림",
