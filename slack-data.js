@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35114,
+  "version": 35115,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336993,6 +336993,9 @@ window.SLACK_DATA = {
     },
     "2026-11-18": {
       "counts": {
+        "nosetup": {
+          "고경림": 1
+        },
         "as": {
           "고경림": 5,
           "미지정": 2,
@@ -337014,6 +337017,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "11:00",
+          "store": "딥가든 광주점",
+          "biz": "8329901851",
+          "cat": "nosetup",
+          "emp": "고경림",
+          "req": "포프(pc) 온보딩요청드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "현재 매장 x 매장방문후 고객센터 재인입 예정",
+          "rr": 1
+        },
         {
           "time": "10:43",
           "store": "정가네 꼬마김밥 효천점",
@@ -337328,7 +337343,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 19,
+        "online": 20,
         "offline": 7,
         "unknown": 0
       },
@@ -337460,26 +337475,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794967258.892
+        "lastSeen": 1794967374.905
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794967258.892
+        "lastSeen": 1794967374.905
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794967258.892
-      },
-      "1794967200.215629": {
-        "post": "1794967200.215629",
-        "lastSeen": 1794967258.892,
-        "r": 1,
-        "day": "2026-11-18",
-        "idx": 11
+        "lastSeen": 1794967374.905
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794967258.892
+        "lastSeen": 1794967374.905
       }
     },
     "days": {
@@ -466487,14 +466495,15 @@ window.SLACK_DATA = {
             "store": "딥가든 광주점",
             "biz": "8329901851",
             "who": "고경림",
-            "cat": "nosetup"
+            "cat": "nosetup",
+            "dmin": 1.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-18 11:02",
+    "at": "2026-11-18 11:03",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466657,7 +466666,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 11:00",
+    "at": "2026-11-18 11:02",
     "pri": {
       "days": 0,
       "failed": [],
