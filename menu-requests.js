@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5450,
- "updatedAt": "2026-11-18 17:23",
+ "version": 5451,
+ "updatedAt": "2026-11-18 17:25",
  "days": 30,
  "items": [
   {
@@ -20,12 +20,14 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1794990209.099959",
+   "replies": [
+    "갈비탕 → 왕갈비탕으로 수정\n왕갈비탕 옆에다가 일반 갈비탕을 위치시켜달라고 하십니다 :꾸벅곰:"
+   ],
+   "rc": 2,
+   "lr": "1794990251.714499",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794990205016199"
   },
   {
