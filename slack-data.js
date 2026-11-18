@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35116,
+  "version": 35117,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337013,6 +337013,9 @@ window.SLACK_DATA = {
         "menu": {
           "배선유": 1,
           "송태양": 2
+        },
+        "delivery": {
+          "송태양": 1
         }
       },
       "pending": [],
@@ -337027,6 +337030,18 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "현재 매장 x 매장방문후 고객센터 재인입 예정",
+          "rr": 1
+        },
+        {
+          "time": "10:50",
+          "store": "명품한우",
+          "biz": "8339101668",
+          "cat": "delivery",
+          "emp": "송태양",
+          "req": "배민 주문접수 프로그램 설치 및 로그인, 유프 설정",
+          "hw": "",
+          "intake": "offline",
+          "note": "com1/38400 연동 완료입니다",
           "rr": 1
         },
         {
@@ -337344,7 +337359,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 20,
-        "offline": 7,
+        "offline": 8,
         "unknown": 0
       },
       "updatedAt": "11:00",
@@ -337475,19 +337490,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794967674.641
+        "lastSeen": 1794967771.871
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794967674.641
+        "lastSeen": 1794967771.871
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794967674.641
+        "lastSeen": 1794967771.871
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794967674.641
+        "lastSeen": 1794967771.871
       }
     },
     "days": {
@@ -466503,7 +466518,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 11:08",
+    "at": "2026-11-18 11:09",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466666,7 +466681,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 11:07",
+    "at": "2026-11-18 11:09",
     "pri": {
       "days": 0,
       "failed": [],
