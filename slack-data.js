@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35134,
+  "version": 35135,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337030,8 +337030,8 @@ window.SLACK_DATA = {
           "req": "PC와 포스기에 함께 연결 → <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1794804995658989?thread_ts=1794803593.346399&amp;cid=C09HRUS",
           "hw": "",
           "intake": "online",
-          "note": "프론트 내부 속도 9600으로 변경",
-          "rr": 1
+          "note": "프론트 내부 속도 9600으로 변경 / 로고 사용중이셔서 속도 115200으로 변경",
+          "rr": 2
         },
         {
           "time": "11:28",
@@ -337568,19 +337568,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794969449.945
+        "lastSeen": 1794969624.226
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794969449.945
+        "lastSeen": 1794969624.226
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794969449.945
+        "lastSeen": 1794969624.226
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794969449.945
+        "lastSeen": 1794969624.226
       }
     },
     "days": {
@@ -466632,7 +466632,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 11:37",
+    "at": "2026-11-18 11:40",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466795,7 +466795,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 11:37",
+    "at": "2026-11-18 11:40",
     "pri": {
       "days": 0,
       "failed": [],
