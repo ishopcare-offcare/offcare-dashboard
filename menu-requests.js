@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5429,
- "updatedAt": "2026-11-18 11:29",
+ "version": 5430,
+ "updatedAt": "2026-11-18 11:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1794970467.223649",
+   "date": "2026-11-18",
+   "time": "11:54",
+   "store": "하하아이스365 양주회천로제비앙점",
+   "biz": "5800503449",
+   "pos": "토스포스",
+   "content": "세트1 커피+와플  4,000원\n  먼저 커피 선택 핫 & 아이스 \n아이스선택시  500원추가 \n\n와플 선택 사과잼 & 초코시럽\n 세트2 커피 + 붕어빵 3,500원\n\n커피선택 핫 & 아이스\n아이스선택시 500원추가\n\n붕어빵 선택시(3개선택) 팥 몇개 슈 몇개 선택할수있게 바꿔주세요..가능하다면요\n\n\n그리고포스화면에(고객주문용)메뉴가바로보이게할수있나요?주문하기...말고요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794970467223649"
+  },
   {
    "ts": "1794968210.994359",
    "date": "2026-11-18",
@@ -12025,13 +12046,6 @@ window.MENU_REQUESTS = {
      ],
      "v": 3,
      "path": "menu-files/1794365219_719349-2.jpg"
-    },
-    {
-     "name": "메뉴 (1).xlsx",
-     "fid": "F0CGQUC6EQ1",
-     "from": "원글",
-     "path": "menu-files/1794365219_719349-0.xlsx",
-     "nj": 1
     }
    ],
    "datt": [],
@@ -68129,209 +68143,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792379569751919"
-  },
-  {
-   "ts": "1792378055.509199",
-   "date": "2026-10-19",
-   "time": "11:47",
-   "store": "강화누룽지닭강정",
-   "biz": "6900400999",
-   "pos": "토스포스",
-   "content": "최가네먹거리",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1KVtvV01BxUEeiLBuNZgPzl1HqWUmqMi3/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CAU6YEE82",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "닭강정",
-       "name": "커플닭강정",
-       "price": 16900
-      },
-      {
-       "category": "닭발",
-       "name": "통닭발",
-       "price": 17000
-      },
-      {
-       "category": "닭강정",
-       "name": "누룽지 닭강정 2~3인",
-       "price": 24000
-      },
-      {
-       "category": "닭강정",
-       "name": "반반메뉴",
-       "price": 25000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "버터갈릭감자튀김",
-       "price": 7000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "콜라 500ml",
-       "price": 2000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "콜라 1.25L",
-       "price": 3000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "치킨무",
-       "price": 1000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "딸기라떼",
-       "price": 6000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "물",
-       "price": 1000
-      }
-     ],
-     "v": 2,
-     "path": "menu-files/1792378055_509199-0.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0CAW9QQP25",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "닭강정",
-       "name": "커플닭강정",
-       "price": 16900
-      },
-      {
-       "category": "닭강정",
-       "name": "누룽지 닭강정 2~3인",
-       "price": 24000
-      },
-      {
-       "category": "닭강정",
-       "name": "반반메뉴",
-       "price": 25000
-      }
-     ],
-     "v": 2,
-     "path": "menu-files/1792378055_509199-1.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0CAW9NJ4DP",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "추가메뉴",
-       "name": "버터갈릭감자튀김",
-       "price": 7000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "콜라 500ml",
-       "price": 2000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "콜라 1.25L",
-       "price": 3000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "치킨무",
-       "price": 1000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "물",
-       "price": 1000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "딸기라떼",
-       "price": 6000
-      }
-     ],
-     "v": 2,
-     "path": "menu-files/1792378055_509199-2.png"
-    },
-    {
-     "name": "image.png",
-     "fid": "F0CASDTECNA",
-     "from": "댓글",
-     "path": "menu-files/1792378055_509199-3.png",
-     "kind": "pos_screen",
-     "menu": [],
-     "v": 2
-    }
-   ],
-   "datt": [
-    {
-     "id": "1KVtvV01BxUEeiLBuNZgPzl1HqWUmqMi3",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "누룽지닭강정 2~3인",
-       "price": 24000
-      },
-      {
-       "category": "",
-       "name": "반반메뉴",
-       "price": 25000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "버터갈릭감자튀김",
-       "price": 7000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "콜라 500ml",
-       "price": 2000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "콜라 1.25L",
-       "price": 3000
-      },
-      {
-       "category": "추가메뉴",
-       "name": "치킨무",
-       "price": 1000
-      }
-     ],
-     "v": 2
-    }
-   ],
-   "replies": [
-    "누룽지 닭강정 2~3인 24000원\n반반메뉴 25000원\n버터갈릭감자튀김 7000원\n콜라 500ml 2000원\n콜라 1.25L 3000원\n치킨무 1000원\n\n금일 오전 내에 빠르게 등록 필요하다고 하시어 내용 공유드립니다",
-    "님 바쁘신데 죄송합니다만\n금일 오전에 꼭 등록 필요하다고, 안되어있다고 인입되어 내용 공유드립니다",
-    "상품관리에는 있는데 없다고 하십니다..",
-    "님 올려주신 글하고 상호명이 조금 다른거같은데 사업자번호는 맞을까요?",
-    "또한, 포스기에 안보이신다는건지, 키오스크 모드했을때 안보이는건지 확인 해주시고 AS방으로 이관 해주셔야될거같습니다.\n\n메뉴등록엔 문제가 없어보입니다",
-    "넵 메뉴등록엔 이상없는것으로  확인 후 AS로 이관하겠습니다\n감사합니다!"
-   ],
-   "rc": 7,
-   "lr": "1792543296.426599",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792378055509199"
   }
  ],
  "ocr": {
