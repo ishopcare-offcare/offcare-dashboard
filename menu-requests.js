@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5439,
- "updatedAt": "2026-11-18 15:05",
+ "version": 5440,
+ "updatedAt": "2026-11-18 15:07",
  "days": 30,
  "items": [
   {
@@ -23,8 +23,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "메뉴 순서를 변경하고 싶다 하셔서 통화 한번 부탁드리겠습니다. :pray:\n\n카테고리: 고기류\n메뉴명: 꽃갈비살 200g\n금액: 28,000원\n\n카테고리: 고기류\n메뉴명: 꽃갈비살 500g\n금액: 65,000원\n\n카테고리: 고기류\n메뉴명: 꽃갈비살 1kg\n금액: 120,000원"
    ],
-   "rc": 2,
-   "lr": "1794981866.493979",
+   "rc": 3,
+   "lr": "1794981970.348209",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
