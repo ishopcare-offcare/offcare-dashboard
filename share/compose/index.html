@@ -249,6 +249,9 @@
   .eq-addbtn span{font-size:12px; font-weight:600; color:var(--gray2); margin-left:8px}
   .eq-addbtn:hover{background:var(--blue-soft); border-color:var(--blue)}
   .eq-ro tr.eq-addrow{display:none}
+  .br-edit{border:0;background:none;cursor:pointer;font-size:12px;padding:0 2px;opacity:.45}
+  .br-edit:hover{opacity:1}
+  .eq-ro .br-edit{display:none !important}
   .eq-by-last{align-self:flex-start; margin-top:4px; border:1px dashed var(--line); background:none; border-radius:8px;
     font:inherit; font-size:12px; color:var(--blue); padding:3px 9px; cursor:pointer}
   tr.eq-manual td{background:#f6f1ff}
@@ -1287,7 +1290,40 @@ function deriveBranch(store){
   let s = String(store||'').trim();
   if(CLIENT.name) s = s.split(CLIENT.name).join(' ');
   s = s.replace(/\s+/g,' ').trim().replace(/^\((.+)\)$/,'$1');
-  return s || '본점';
+  return s || '미기재';
+}
+
+/* ── 지점명 미기재 · 수기 지정 ───────────────────────────────
+   슬랙 글에 지점명이 없으면 '상호미기재'나 '> 키오스크 > 프로그램 오류'(메뉴 경로) 같은 값이 지점으로 잡힌다.
+   → 전부 '미기재'로 모으고, 처리내역의 ✏️ 로 건마다 지점명을 직접 지정할 수 있게 한다.
+   지정 값은 장비 수기 기록과 같은 팀 공유 섹션(frEquip)에 '<브랜드>|b:<건 키>' = {k:'b', to:'지점명'} 으로 둔다
+   — 공유본은 빌드 때 이 섹션 스냅샷을 떨궈 두므로 따로 손대지 않아도 그대로 반영된다.
+   (지점 필드 이름을 branch 가 아니라 to 로 둔 건 장비 조회가 v.branch 를 지점 목록에 넣기 때문) */
+const BR_MISSING = '미기재';
+function normBranch(b){
+  const s = String(b == null ? '' : b).trim();
+  if(!s || /^상호\s*미\s*기재$/.test(s) || /^[>:·\-\s]/.test(s) || /^[>:·\-\s]*$/.test(s)) return BR_MISSING;
+  return s;
+}
+function brKey(r){ return EQ_PREFIX + 'b:' + [r.date, r.time, r.store, r.cat].join('|'); }
+function applyBranchEdits(){
+  REC.forEach(function(r){
+    if(r.branch0 === undefined) r.branch0 = normBranch(r.branch);
+    const m = EQUIP_EDIT[brKey(r)];
+    r.branch = (m && m.k === 'b' && m.to) ? m.to : r.branch0;
+    r.brEdited = !!(m && m.k === 'b' && m.to);
+  });
+  if(typeof equipEvents === 'function') equipEvents._c = null;
+}
+let BR_ROWS = [];
+function brEdit(i){
+  const r = BR_ROWS[i]; if(!r || EQ_READONLY) return;
+  const v = prompt('이 건의 지점명을 입력하세요.\n비우고 확인하면 원래 값(' + r.branch0 + ')으로 돌아갑니다.\n\n'
+                   + r.date + ' ' + r.time + ' · ' + String(r.req || '').slice(0, 60), r.brEdited ? r.branch : '');
+  if(v === null) return;
+  const name = v.trim(), key = brKey(r);
+  const val = name ? {k:'b', to:name, by:lsGet(LS_EQ_BY, '') || ''} : '';
+  eqApply(key, val); applyBranchEdits(); render(); eqPush({[key]: val});
 }
 
 /* slack 모드: ../slack-data.js 를 브랜드명으로 필터 */
@@ -1764,10 +1800,15 @@ function viewRecords(){
     + '<div class="hint" style="font-size:12.5px;color:var(--gray2);margin-bottom:11px">'+num(rows.length)+'건 표시'
     + (rows.length>500?' (아래 표는 상위 500건)':'')+'</div>';
   if(!rows.length) return h + '<div class="empty">조건에 맞는 내역이 없습니다.</div></div>';
+  BR_ROWS = rows.slice(0,500);
   h += '<div class="tbl-scroll"><table style="min-width:1000px"><thead><tr>'
     + '<th>일시</th><th>지점</th><th>구분</th><th>담당</th><th>상태</th><th>요청 내용</th><th>조치 내용</th></tr></thead><tbody>'
     + rows.slice(0,500).map(r=>'<tr><td style="white-space:nowrap;color:var(--gray)">'+r.date.slice(5).replace('-','/')+' '+esc(r.time)+'</td>'
-        + '<td style="font-weight:600"><span style="color:var(--blue);cursor:pointer" onclick="drillStore(\''+jsq(r.branch)+'\')">'+esc(r.branch)+'</span></td>'
+        + '<td style="font-weight:600;white-space:nowrap">'+(r.branch===BR_MISSING
+            ? '<span style="color:var(--gray2)">'+BR_MISSING+'</span>'
+            : '<span style="color:var(--blue);cursor:pointer" onclick="drillStore(\''+jsq(r.branch)+'\')">'+esc(r.branch)+'</span>')
+          + (r.brEdited?' <span title="수기 지정 (원래: '+esc(r.branch0)+')" style="font-size:11px;color:var(--gray2)">(지정)</span>':'')
+          + (EQ_READONLY?'':' <button class="br-edit" title="지점명 지정" onclick="brEdit('+BR_ROWS.indexOf(r)+')">✏️</button>')+'</td>'
         + '<td><span class="cat-chip" style="background:'+catColor(r.cat)+'22;color:'+catColor(r.cat)+'">'+catName(r.cat)+'</span></td>'
         + '<td style="white-space:nowrap">'+esc(r.emp)+'</td>'
         + '<td><span class="st-chip" style="background:'+stColor(r.status)+'22;color:'+stColor(r.status)+'">'+stName(r.status)+'</span></td>'
@@ -3272,10 +3313,11 @@ function fillClientSelect(){
     /* 현장방문은 별도 파일에서 온다. 아직 수집 전이면 조용히 건너뛴다 */
     try { await loadScript('../../visit-data.js?v=' + Date.now()); mergeVisits(); } catch(e){}
     /* 장비 수기 기록(팀 공유) — 기다리지 않는다. 도착하면 장비 조회 화면만 다시 그린다 */
+    applyBranchEdits();
     /* 수기 장비 기록 — 공유본은 저장소가 아니라 빌드 때 떨군 스냅샷을 읽는다 */
     loadScript('../../franchise/data/compose-equip-edits.js?v=' + Date.now()).then(function(){
       EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok'; equipEvents._c = null;
-      if(view === 'equip') render();
+      applyBranchEdits(); render();
     }, function(){ EQ_CLOUD = 'ok'; });
     /* 장비 대장(선택) — 없거나 비어 있어도 장비 조회는 방문·원격 기록만으로 동작한다 */
     if(REG && REG.equipFile){

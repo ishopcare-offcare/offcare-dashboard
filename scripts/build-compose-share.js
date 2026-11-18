@@ -212,11 +212,11 @@ hosted = must(hosted,
   '장비 대장 경로');
 /* 수기 장비 기록 — 저장소 대신 스냅샷 */
 hosted = must(hosted,
-  "    loadEquipCloud().then(function(){ if(view === 'equip') render(); });",
+  "    loadEquipCloud().then(function(){ applyBranchEdits(); render(); });",
   "    /* 수기 장비 기록 — 공유본은 저장소가 아니라 빌드 때 떨군 스냅샷을 읽는다 */\n"
 + "    loadScript('" + EDITS_REL + "?v=' + Date.now()).then(function(){\n"
 + "      EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok'; equipEvents._c = null;\n"
-+ "      if(view === 'equip') render();\n"
++ "      applyBranchEdits(); render();\n"
 + "    }, function(){ EQ_CLOUD = 'ok'; });",
   '수기 장비 스냅샷 (호스팅)');
 hosted = stamp(hosted, '호스팅용', '원장: ' + LEDGER_REL + ' · 현장방문: ../../visit-data.js · 수기 장비: ' + EDITS_REL);
@@ -249,8 +249,8 @@ if(!HOSTED_ONLY){
   if(vInline) single = must(single, '<script>/* ===== brands.js', vInline + '<script>/* ===== brands.js', '현장방문 인라인');
   single = must(single, "        await loadScript(REG.equipFile);", "        /* 장비 대장 인라인됨 */", '장비 대장 인라인 전환');
   single = must(single,
-    "    loadEquipCloud().then(function(){ if(view === 'equip') render(); });",
-    "    EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok';   /* 수기 스냅샷 인라인됨 */",
+    "    loadEquipCloud().then(function(){ applyBranchEdits(); render(); });",
+    "    EQUIP_EDIT = Object.assign({}, window.CLIENT_EQUIP_EDITS || {}); EQ_CLOUD = 'ok'; applyBranchEdits();   /* 수기 스냅샷 인라인됨 */",
     '수기 장비 스냅샷 (단독)');
   single = stamp(single, '단독 파일', '원장까지 인라인된 스냅샷입니다.');
   nS = verify(single, '단독 파일');

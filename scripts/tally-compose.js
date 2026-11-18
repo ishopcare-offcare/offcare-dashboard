@@ -61,6 +61,13 @@ const idx = BM.buildIndex(W.FRANCHISE_BRANDS);
 const ex  = BM.buildExclude(W.FRANCHISE_EXCLUDE);
 const START = client.startDate || '';
 
+/* 지점명이 없으면 '상호미기재'·'> 키오스크 > 프로그램 오류'(메뉴 경로) 같은 값이 잡힌다 → '미기재' (client.html normBranch 와 같게) */
+function normBranch(b){
+  const s = String(b == null ? '' : b).trim();
+  if(!s || /^상호\s*미\s*기재$/.test(s) || /^[>:·\-\s]/.test(s)) return '미기재';
+  return s;
+}
+
 const records = [];
 const skipped = {};          // 계약 체계에 없는 카테고리 — 버린 건수를 로그로 남긴다
 let beforeStart = 0;
@@ -77,7 +84,7 @@ function take(date, r, status, emp, req){
     date  : date,
     time  : r.time || '',
     store : r.store || '',
-    branch: BM.branchOf(r.store || '', m.hit),
+    branch: normBranch(BM.branchOf(r.store || '', m.hit)),
     biz   : maskBiz(r.biz || ''),
     cat   : cat,
     emp   : emp || '미지정',
