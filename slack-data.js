@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35160,
+  "version": 35161,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -337031,7 +337031,8 @@ window.SLACK_DATA = {
           "req": "추가메뉴가 주방프린터에 안들어온다",
           "hw": "",
           "intake": "offline",
-          "note": ""
+          "note": "주방프린터에 추가메뉴 설정 해드림",
+          "rr": 1
         },
         {
           "time": "12:31",
@@ -337543,7 +337544,7 @@ window.SLACK_DATA = {
         "offline": 13,
         "unknown": 0
       },
-      "updatedAt": "12:41",
+      "updatedAt": "12:42",
       "voc": {
         "responses": 2,
         "install": {
@@ -337674,23 +337675,23 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794973326.038
+        "lastSeen": 1794973402.314
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794973326.038
+        "lastSeen": 1794973402.314
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794973326.038
+        "lastSeen": 1794973402.314
       },
       "1794967202.225129": {
         "post": "1794967202.225129",
-        "lastSeen": 1794973326.038
+        "lastSeen": 1794973402.314
       },
       "1794972808.932579": {
         "post": "1794972808.932579",
-        "lastSeen": 1794973326.038,
+        "lastSeen": 1794973402.314,
         "r": 1,
         "day": "2026-11-18",
         "idx": 18
@@ -466771,7 +466772,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 12:42",
+    "at": "2026-11-18 12:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466934,7 +466935,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 12:42",
+    "at": "2026-11-18 12:43",
     "pri": {
       "days": 0,
       "failed": [],
