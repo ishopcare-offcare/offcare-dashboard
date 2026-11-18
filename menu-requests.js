@@ -3,10 +3,633 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5457,
- "updatedAt": "2026-11-18 18:54",
+ "version": 5458,
+ "updatedAt": "2026-11-18 19:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1794995802.164389",
+   "date": "2026-11-18",
+   "time": "18:56",
+   "store": "조이양조",
+   "biz": "6285800508",
+   "pos": "",
+   "content": "메뉴등록요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "조이양조 키오스크 포장 단가표_엑셀.",
+     "fid": "F0CJVFA0S4R",
+     "from": "댓글",
+     "path": "menu-files/1794995802_164389-0.xlsx",
+     "nj": 1
+    },
+    {
+     "name": "조이양조 메뉴 단가표_엑셀.xlsx",
+     "fid": "F0CKN05BKL0",
+     "from": "댓글",
+     "path": "menu-files/1794995802_164389-1.xlsx",
+     "nj": 1
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1794995865.048679",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794995802164389"
+  },
+  {
+   "ts": "1794995732.691409",
+   "date": "2026-11-18",
+   "time": "18:55",
+   "store": "숲.O(sup.o)",
+   "biz": "4573800970",
+   "pos": "",
+   "content": "메뉴등록요청드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_0083.jpg",
+     "fid": "F0CKMUZHR4Y",
+     "from": "댓글",
+     "path": "menu-files/1794995732_691409-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "non-coffee",
+       "name": "보틀추가",
+       "price": 500
+      },
+      {
+       "category": "non-coffee",
+       "name": "말차추가",
+       "price": 500
+      },
+      {
+       "category": "non-coffee",
+       "name": "말차라떼 H",
+       "price": 5500
+      },
+      {
+       "category": "non-coffee",
+       "name": "말차라떼I",
+       "price": 5500
+      },
+      {
+       "category": "non-coffee",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "non-coffee",
+       "name": "리얼 초코 라떼 I",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "리얼 초코 라떼 H",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "알로에 청포도 그린티",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "오렌지라떼",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "바나나라떼",
+       "price": 5000
+      },
+      {
+       "category": "non-coffee",
+       "name": "사과주스",
+       "price": 5000
+      },
+      {
+       "category": "non-coffee",
+       "name": "밀크티 I",
+       "price": 5000
+      },
+      {
+       "category": "non-coffee",
+       "name": "밀크티 H",
+       "price": 5000
+      },
+      {
+       "category": "non-coffee",
+       "name": "허니자몽그린티 I",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "허니 자몽 그린티 H",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "레몬 얼그레이티 I",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "레몬 얼그레이티 H",
+       "price": 4500
+      },
+      {
+       "category": "non-coffee",
+       "name": "복숭아 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "non-coffee",
+       "name": "레몬 아이스티",
+       "price": 4000
+      },
+      {
+       "category": "non-coffee",
+       "name": "딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "non-coffee",
+       "name": "땡모반",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_0082.jpg",
+     "fid": "F0CJMB92H4K",
+     "from": "댓글",
+     "path": "menu-files/1794995732_691409-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "coffee",
+       "name": "디카페인",
+       "price": 700
+      },
+      {
+       "category": "coffee",
+       "name": "아가우유",
+       "price": 3000
+      },
+      {
+       "category": "coffee",
+       "name": "포장",
+       "price": 0
+      },
+      {
+       "category": "coffee",
+       "name": "보틀",
+       "price": 300
+      },
+      {
+       "category": "coffee",
+       "name": "아이스크림 추가",
+       "price": 500
+      },
+      {
+       "category": "coffee",
+       "name": "오트우유 변환",
+       "price": 500
+      },
+      {
+       "category": "coffee",
+       "name": "연하게",
+       "price": 0
+      },
+      {
+       "category": "coffee",
+       "name": "샷추가",
+       "price": 500
+      },
+      {
+       "category": "coffee",
+       "name": "아메리카노 I",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "아메리카노 H",
+       "price": 3500
+      },
+      {
+       "category": "coffee",
+       "name": "헤이즐넛 아메리카노 I",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "헤이즐넛 아메라카노 H",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "카페 라떼 I",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "카페라떼 H",
+       "price": 4000
+      },
+      {
+       "category": "coffee",
+       "name": "헤이즐넛 라떼 I",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "헤이즐넛 라떼 H",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "바닐라빈 라떼 I",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "바닐라빈 라떼 H",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "카라멜 라떼 I",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "카라멜 라떼 H",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "모카 라떼 I",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "모카 라떼 H",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "연유라떼 I",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "연유라떼 H",
+       "price": 4500
+      },
+      {
+       "category": "coffee",
+       "name": "아몬드크림라떼I",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "아몬드 크림 라떼 H",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "아인슈페너 I",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "아인슈페너 H",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "반땡라떼",
+       "price": 5000
+      },
+      {
+       "category": "coffee",
+       "name": "아보카도",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_0084.jpg",
+     "fid": "F0CJMB93XFV",
+     "from": "댓글",
+     "path": "menu-files/1794995732_691409-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "tea",
+       "name": "얼그레이 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "얼그레이 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "캐모마일 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "캐모마일 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "로즈마리 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "로즈마리 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "루이보스 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "루이보스 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "레몬버베나 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "레몬버베나 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "페퍼민트 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "페퍼민트 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "허니부쉬 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "허니부쉬 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "레몬밤 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "레몬밤 H",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "중작녹차 I",
+       "price": 4000
+      },
+      {
+       "category": "tea",
+       "name": "중작녹차 H",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_0085.jpg",
+     "fid": "F0CJTCJ509G",
+     "from": "댓글",
+     "path": "menu-files/1794995732_691409-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "soda",
+       "name": "생딸기 소다",
+       "price": 5500
+      },
+      {
+       "category": "soda",
+       "name": "탄산 x",
+       "price": 0
+      },
+      {
+       "category": "soda",
+       "name": "몰디브",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "레몬 블라썸 I",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "레몬 블라썸 H",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "자비스 I",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "자비스 H",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "레몬 라임 I",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "레몬 라임 H",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "자몽 오렌지 I",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "자몽 오렌지 H",
+       "price": 4500
+      },
+      {
+       "category": "soda",
+       "name": "알로에 청포도",
+       "price": 4500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_0087.jpg",
+     "fid": "F0CKMUZC200",
+     "from": "댓글",
+     "path": "menu-files/1794995732_691409-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "dessert",
+       "name": "미니 소금빵 2개",
+       "price": 2500
+      },
+      {
+       "category": "dessert",
+       "name": "초코칩 소금빵 딸기잼 세트",
+       "price": 5000
+      },
+      {
+       "category": "dessert",
+       "name": "에그스콘 미니 소금빵 딸기...",
+       "price": 5000
+      },
+      {
+       "category": "dessert",
+       "name": "블루베리 크림치즈 스콘",
+       "price": 4500
+      },
+      {
+       "category": "dessert",
+       "name": "땡모닝🍀",
+       "price": 9000
+      },
+      {
+       "category": "dessert",
+       "name": "티치케",
+       "price": 5500
+      },
+      {
+       "category": "dessert",
+       "name": "단체 딸기쨈 생크림",
+       "price": 400
+      },
+      {
+       "category": "dessert",
+       "name": "시럽따로",
+       "price": 0
+      },
+      {
+       "category": "dessert",
+       "name": "생크림",
+       "price": 500
+      },
+      {
+       "category": "dessert",
+       "name": "딸기쨈",
+       "price": 500
+      },
+      {
+       "category": "dessert",
+       "name": "반땡쿠키",
+       "price": 1500
+      },
+      {
+       "category": "dessert",
+       "name": "반반 반땡쿠키",
+       "price": 1500
+      },
+      {
+       "category": "dessert",
+       "name": "초코 반땡쿠키",
+       "price": 1500
+      },
+      {
+       "category": "dessert",
+       "name": "바스크 치즈 케이크",
+       "price": 5500
+      },
+      {
+       "category": "dessert",
+       "name": "프렌치 토스트",
+       "price": 6000
+      },
+      {
+       "category": "dessert",
+       "name": "크로플 플레인",
+       "price": 3500
+      },
+      {
+       "category": "dessert",
+       "name": "소금빵",
+       "price": 2500
+      },
+      {
+       "category": "dessert",
+       "name": "스콘",
+       "price": 3000
+      },
+      {
+       "category": "dessert",
+       "name": "에그스콘",
+       "price": 3500
+      },
+      {
+       "category": "dessert",
+       "name": "초코칩 스콘",
+       "price": 3500
+      },
+      {
+       "category": "dessert",
+       "name": "홀 바치케",
+       "price": 32000
+      },
+      {
+       "category": "dessert",
+       "name": "아이스크림",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1794995754.891209",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1794995732691409"
+  },
   {
    "ts": "1794995638.428369",
    "date": "2026-11-18",
@@ -18,11 +641,926 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "IMG_8308.jpg",
+     "fid": "F0CJTC1HJAE",
+     "from": "댓글",
+     "path": "menu-files/1794995638_428369-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "상품",
+       "name": "바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "상품",
+       "name": "아이스바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "상품",
+       "name": "피넛버터라떼",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "아이스피넛버터라떼",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "모카",
+       "price": 5500
+      },
+      {
+       "category": "상품",
+       "name": "아이스모카",
+       "price": 5500
+      },
+      {
+       "category": "상품",
+       "name": "샷추가",
+       "price": 1300
+      },
+      {
+       "category": "상품",
+       "name": "오트밀크",
+       "price": 800
+      },
+      {
+       "category": "상품",
+       "name": "바닐라시럽",
+       "price": 500
+      },
+      {
+       "category": "상품",
+       "name": "홍차",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "아이스홍차",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "진저밀크티",
+       "price": 7000
+      },
+      {
+       "category": "상품",
+       "name": "아이스밀크티",
+       "price": 7000
+      },
+      {
+       "category": "상품",
+       "name": "그린티라떼",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "아이스그린티라떼",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "핫초코",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "아이스초코",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "라즈베리 그린티 아이스",
+       "price": 7500
+      },
+      {
+       "category": "상품",
+       "name": "토마토주스",
+       "price": 6000
+      },
+      {
+       "category": "상품",
+       "name": "오렌지주스",
+       "price": 7000
+      },
+      {
+       "category": "상품",
+       "name": "레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "상품",
+       "name": "라즈베리에이드",
+       "price": 6500
+      },
+      {
+       "category": "상품",
+       "name": "탄산수",
+       "price": 2500
+      },
+      {
+       "category": "상품",
+       "name": "우유",
+       "price": 4000
+      },
+      {
+       "category": "상품",
+       "name": "사과주스",
+       "price": 4500
+      },
+      {
+       "category": "상품",
+       "name": "홍콩레몬홍차",
+       "price": 5500
+      },
+      {
+       "category": "상품",
+       "name": "홍콩밀크티",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8309.jpg",
+     "fid": "F0CKMUHHP5E",
+     "from": "댓글",
+     "path": "menu-files/1794995638_428369-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "보르도 소비뇽",
+       "price": 48000
+      },
+      {
+       "category": "주류",
+       "name": "소휘르 슈발블랑",
+       "price": 55000
+      },
+      {
+       "category": "주류",
+       "name": "알자스 에델즈비커",
+       "price": 82000
+      },
+      {
+       "category": "주류",
+       "name": "보르도 시바동",
+       "price": 55000
+      },
+      {
+       "category": "주류",
+       "name": "보르도 말에스파스",
+       "price": 95000
+      },
+      {
+       "category": "주류",
+       "name": "포르뒤론",
+       "price": 45000
+      },
+      {
+       "category": "주류",
+       "name": "W 에디메라네 소비뇽",
+       "price": 40000
+      },
+      {
+       "category": "주류",
+       "name": "W 에델즈비커",
+       "price": 82000
+      },
+      {
+       "category": "주류",
+       "name": "글라스와인",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "세종득퐁",
+       "price": 13000
+      },
+      {
+       "category": "주류",
+       "name": "오우데르즈분",
+       "price": 14000
+      },
+      {
+       "category": "주류",
+       "name": "크릭분",
+       "price": 16000
+      },
+      {
+       "category": "주류",
+       "name": "엘 파게스 컨텐트 블랑",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "벤드 프란츠 블랑",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "와와라이트",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "로 리트롱 로제 1L",
+       "price": 61000
+      },
+      {
+       "category": "주류",
+       "name": "리슐링 도프부르크",
+       "price": 75000
+      },
+      {
+       "category": "주류",
+       "name": "바이타 화이트 햇산",
+       "price": 52000
+      },
+      {
+       "category": "주류",
+       "name": "바이타 로제 펫낫",
+       "price": 52000
+      },
+      {
+       "category": "주류",
+       "name": "뱅스엠 안세스트랄",
+       "price": 50000
+      },
+      {
+       "category": "주류",
+       "name": "데헤반 블랑슈",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "퍼즈",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "로스앤젤레스",
+       "price": 72000
+      },
+      {
+       "category": "주류",
+       "name": "혼제엔어 오물",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "톨라워 브리 오믈렛",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "윙크",
+       "price": 82000
+      },
+      {
+       "category": "주류",
+       "name": "쉬르론테이닌 르즈",
+       "price": 23000
+      },
+      {
+       "category": "주류",
+       "name": "뮈통라 로제 펫낫",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "데헤반드 블랑 슈냉",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "뤼르그 슈발블랑",
+       "price": 80000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8310.jpg",
+     "fid": "F0CKMUH7MJ4",
+     "from": "댓글",
+     "path": "menu-files/1794995638_428369-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "48,000원",
+       "price": 48000
+      },
+      {
+       "category": "주류",
+       "name": "55,000원",
+       "price": 55000
+      },
+      {
+       "category": "주류",
+       "name": "82,000원",
+       "price": 82000
+      },
+      {
+       "category": "주류",
+       "name": "55,000원",
+       "price": 55000
+      },
+      {
+       "category": "주류",
+       "name": "95,000원",
+       "price": 95000
+      },
+      {
+       "category": "주류",
+       "name": "45,000원",
+       "price": 45000
+      },
+      {
+       "category": "주류",
+       "name": "W 메디테라네 스비뇽",
+       "price": 40000
+      },
+      {
+       "category": "주류",
+       "name": "W 에델즈비커",
+       "price": 82000
+      },
+      {
+       "category": "주류",
+       "name": "글라스와인",
+       "price": 12000
+      },
+      {
+       "category": "주류",
+       "name": "세종듀봉",
+       "price": 13000
+      },
+      {
+       "category": "주류",
+       "name": "오우데거즈로",
+       "price": 14000
+      },
+      {
+       "category": "주류",
+       "name": "크릭분",
+       "price": 16000
+      },
+      {
+       "category": "주류",
+       "name": "엘 파게스 켄텐 블랑",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "벨드 프란츠 블랑",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "와파라이트",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "르 리틀 몽 로제 1L",
+       "price": 61000
+      },
+      {
+       "category": "주류",
+       "name": "리슐링 도프부 블랑",
+       "price": 75000
+      },
+      {
+       "category": "주류",
+       "name": "바이화 화이트 쌩냥",
+       "price": 52000
+      },
+      {
+       "category": "주류",
+       "name": "바이화 로제 쌩낫",
+       "price": 52000
+      },
+      {
+       "category": "주류",
+       "name": "펫냇 안세스트랄",
+       "price": 50000
+      },
+      {
+       "category": "주류",
+       "name": "데페랑드 불랑슈",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "피츠",
+       "price": 65000
+      },
+      {
+       "category": "주류",
+       "name": "로스엔젤레스",
+       "price": 72000
+      },
+      {
+       "category": "주류",
+       "name": "후제언어 모를 쌩",
+       "price": 52000
+      },
+      {
+       "category": "주류",
+       "name": "플라워 브리 오 블랑",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "링크",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "쓰리콘테이너 괴즈",
+       "price": 23000
+      },
+      {
+       "category": "주류",
+       "name": "퀴들레 로제 쌩낫",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "데페랑 블랑",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "퀴들라 슈낼블 랑쌩낫",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "오로 베르트",
+       "price": 67000
+      },
+      {
+       "category": "주류",
+       "name": "퀴들라즈샤워트 블랑",
+       "price": 70000
+      },
+      {
+       "category": "주류",
+       "name": "솔로그래피",
+       "price": 55000
+      },
+      {
+       "category": "주류",
+       "name": "포인트 트리콜",
+       "price": 62000
+      },
+      {
+       "category": "주류",
+       "name": "쁘네아 참마",
+       "price": 61000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8306.jpg",
+     "fid": "F0CKMUHKTQQ",
+     "from": "댓글",
+     "path": "menu-files/1794995638_428369-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "브런치",
+       "name": "라즈베리 피넛",
+       "price": 11500
+      },
+      {
+       "category": "브런치",
+       "name": "초콜바나나",
+       "price": 12500
+      },
+      {
+       "category": "브런치",
+       "name": "그린 뉴욕",
+       "price": 15500
+      },
+      {
+       "category": "브런치",
+       "name": "그린 올리브 리코타 토스트",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "올리브오일빵",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "어니언수프",
+       "price": 11200
+      },
+      {
+       "category": "브런치",
+       "name": "땅.버터.올리브 오일",
+       "price": 100
+      },
+      {
+       "category": "브런치",
+       "name": "빵두",
+       "price": 100
+      },
+      {
+       "category": "브런치",
+       "name": "잠봉 부라타",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "잠봉채몬",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "잠봉버터",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "잠봉치즈",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "잠봉에그",
+       "price": 13500
+      },
+      {
+       "category": "브런치",
+       "name": "처피나도토스트",
+       "price": 11500
+      },
+      {
+       "category": "브런치",
+       "name": "케찹아빠",
+       "price": 15000
+      },
+      {
+       "category": "브런치",
+       "name": "부라타&케찹라페",
+       "price": 11500
+      },
+      {
+       "category": "브런치",
+       "name": "뺑수꺼",
+       "price": 15500
+      },
+      {
+       "category": "브런치",
+       "name": "바질올드파스타",
+       "price": 12500
+      },
+      {
+       "category": "브런치",
+       "name": "프렌치토스트",
+       "price": 15000
+      },
+      {
+       "category": "브런치",
+       "name": "토마토 토스트",
+       "price": 15000
+      },
+      {
+       "category": "브런치",
+       "name": "잘라치즈",
+       "price": 11500
+      },
+      {
+       "category": "브런치",
+       "name": "그릴드 베지버섯",
+       "price": 11500
+      },
+      {
+       "category": "브런치",
+       "name": "그릴드 소시지",
+       "price": 13500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8307.jpg",
+     "fid": "F0CJMASEMLK",
+     "from": "댓글",
+     "path": "menu-files/1794995638_428369-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "음료",
+       "name": "아메리카노/에스프레소",
+       "price": 3800
+      },
+      {
+       "category": "음료",
+       "name": "아이스아메리카노",
+       "price": 4000
+      },
+      {
+       "category": "음료",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "아이스카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "디카페인브루아이스",
+       "price": 4500
+      },
+      {
+       "category": "음료",
+       "name": "디카 콜드브루 라떼",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "아이스바닐라라떼",
+       "price": 5000
+      },
+      {
+       "category": "음료",
+       "name": "미숫가루라떼",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "아이스땅콩버터라떼",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "모카",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "아이스오카",
+       "price": 5500
+      },
+      {
+       "category": "음료",
+       "name": "샷추가",
+       "price": 1300
+      },
+      {
+       "category": "음료",
+       "name": "오트밀크",
+       "price": 800
+      },
+      {
+       "category": "음료",
+       "name": "바닐라시럽",
+       "price": 500
+      },
+      {
+       "category": "음료",
+       "name": "홍차",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "아이스홍차",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "진저빛크티",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "아이스밀크티",
+       "price": 7000
+      },
+      {
+       "category": "음료",
+       "name": "그린티라떼",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "아이스그린티라떼",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "핫초코",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "아이스초코",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "라즈베리 그린티 아이스",
+       "price": 7500
+      },
+      {
+       "category": "음료",
+       "name": "토마토주스",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "오렌지주스",
+       "price": 7000
+      },
+      {
+       "category": "음료",
+       "name": "레몬에이드",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "라즈베리에이드",
+       "price": 6500
+      },
+      {
+       "category": "음료",
+       "name": "탄산수",
+       "price": 3500
+      },
+      {
+       "category": "음료",
+       "name": "우유",
+       "price": 4000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8311.jpg",
+     "fid": "F0CJN8XEFV3",
+     "from": "댓글",
+     "path": "menu-files/1794995638_428369-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "디저트",
+       "name": "레몬마들렌",
+       "price": 2500
+      },
+      {
+       "category": "디저트",
+       "name": "마늘레",
+       "price": 3000
+      },
+      {
+       "category": "디저트",
+       "name": "피낭시에",
+       "price": 2800
+      },
+      {
+       "category": "디저트",
+       "name": "코코넛로쉐",
+       "price": 2000
+      },
+      {
+       "category": "디저트",
+       "name": "봉투",
+       "price": 100
+      },
+      {
+       "category": "디저트",
+       "name": "스콘",
+       "price": 2800
+      },
+      {
+       "category": "디저트",
+       "name": "앰스콘",
+       "price": 3500
+      },
+      {
+       "category": "디저트",
+       "name": "라즈베리브라우니",
+       "price": 4500
+      },
+      {
+       "category": "디저트",
+       "name": "쿨라푸티",
+       "price": 2800
+      },
+      {
+       "category": "디저트",
+       "name": "초코칩쿠키",
+       "price": 5000
+      },
+      {
+       "category": "디저트",
+       "name": "크렘브륄레",
+       "price": 5000
+      },
+      {
+       "category": "디저트",
+       "name": "당근케이크",
+       "price": 5000
+      },
+      {
+       "category": "디저트",
+       "name": "파운드 포장비",
+       "price": 1500
+      },
+      {
+       "category": "디저트",
+       "name": "레몬 파운드 조각",
+       "price": 4800
+      },
+      {
+       "category": "디저트",
+       "name": "파운드 홀",
+       "price": 24000
+      },
+      {
+       "category": "디저트",
+       "name": "바나나 초코케이크",
+       "price": 4800
+      },
+      {
+       "category": "디저트",
+       "name": "슈돌런 캅웰쿠키",
+       "price": 7000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "IMG_8312.jpg",
+     "fid": "F0CJN8XLPFF",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빵",
+       "name": "올리브부가스",
+       "price": 5000
+      },
+      {
+       "category": "빵",
+       "name": "잼/버터/올리브오일",
+       "price": 1500
+      },
+      {
+       "category": "빵",
+       "name": "봉투",
+       "price": 100
+      },
+      {
+       "category": "빵",
+       "name": "바게트",
+       "price": 5000
+      },
+      {
+       "category": "빵",
+       "name": "홀 캄파뉴",
+       "price": 12000
+      },
+      {
+       "category": "빵",
+       "name": "올리브캄파뉴",
+       "price": 5000
+      },
+      {
+       "category": "빵",
+       "name": "포카치아",
+       "price": 6500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1794995641.445439",
+   "rc": 2,
+   "lr": "1794995696.576059",
    "rfx": 3,
    "status": "wait",
    "handler": null,
