@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35092,
+  "version": 35093,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -319972,7 +319972,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "1차부재통화중 / 1. 해당 단말기는 고장으로 AS가 필요함, 다만 AS시에도 비용은 발생함 (자세한 비용은 실제로 AS를 입고 해봐야 앎, 상황에 따라선 불가할 수 있음) 2. 매장에 있는 단말기세트(터+프로 추측)를 추가로 하면 비용이 발생하나? → 발생함, 게다가 사업자가 대형 가맹점이여서 무조건 발생함 3. 휴대단말기를 그냥 새로 하는 것은 얼마냐?",
-          "rr": 8
+          "rr": 10
         },
         {
           "time": "11:53",
@@ -337223,7 +337223,7 @@ window.SLACK_DATA = {
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:08",
+      "updatedAt": "10:16",
       "voc": {
         "responses": 1,
         "install": {
@@ -337358,19 +337358,19 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794964536.424
+        "lastSeen": 1794964748.451
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794964536.424
+        "lastSeen": 1794964748.451
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794964536.424
+        "lastSeen": 1794964748.451
       },
       "1794963420.130359": {
         "post": "1794963420.130359",
-        "lastSeen": 1794964536.424,
+        "lastSeen": 1794964748.451,
         "r": 1,
         "day": "2026-11-18",
         "idx": 6
@@ -466361,7 +466361,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:15",
+    "at": "2026-11-18 10:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466524,7 +466524,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:15",
+    "at": "2026-11-18 10:19",
     "pri": {
       "days": 0,
       "failed": [],
@@ -466536,7 +466536,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 125,
+      "budgetLeft": 124,
       "failed": []
     }
   }
