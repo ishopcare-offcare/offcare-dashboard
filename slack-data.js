@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35096,
+  "version": 35097,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -336997,7 +336997,7 @@ window.SLACK_DATA = {
           "배선유": 1,
           "고경림": 3,
           "김동욱": 4,
-          "송태양": 4,
+          "송태양": 5,
           "미지정": 1,
           "김규빈": 1
         },
@@ -337025,6 +337025,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "ic인식도 안됨 / 기기교체",
           "rr": 1
+        },
+        {
+          "time": "10:16",
+          "store": "컴포즈커피 성수코리아IT점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "고객님들이 보는 미니포스기에서 뷔가 보여야하나 갑자기 바탕화면이 그냥 보여져 점검 요청",
+          "hw": "",
+          "intake": "online",
+          "note": "",
+          "rr": 4
         },
         {
           "time": "10:08",
@@ -337244,7 +337256,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 14,
+        "online": 15,
         "offline": 5,
         "unknown": 0
       },
@@ -337383,15 +337395,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794965272.933
+        "lastSeen": 1794965439.169
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794965272.933
+        "lastSeen": 1794965439.169
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794965272.933
+        "lastSeen": 1794965439.169
       }
     },
     "days": {
@@ -466389,7 +466401,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:28",
+    "at": "2026-11-18 10:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466552,7 +466564,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:27",
+    "at": "2026-11-18 10:30",
     "pri": {
       "days": 0,
       "failed": [],

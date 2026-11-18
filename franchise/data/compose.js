@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-17 13:57 KST
+ *  갱신: 2026-11-18 10:31 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-17 13:57',
+  updatedAt : '2026-11-18 10:31',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -88,5 +88,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-16","time":"18:01","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"미지정","intake":"online","status":"done","req":"대시보드 매출 내역에 대한 VOC","note":""},
     {"date":"2026-11-17","time":"07:09","store":"컴포즈커피 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"오늘부터 할인되는 신메뉴 4종이","note":"키오스크는 할인가가 적용되어 메뉴 노출되나 포스에서는 메뉴 선택 시 할인적용이 됨 안내드림 / 맞아요 예원님! 11월 30일까지 4종 할인 설정되어 포스/키오스크에 모두 적용됩니다!"},
     {"date":"2026-11-17","time":"13:48","store":"컴포즈 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"키오스크가 갑자기 결제 진행중에서 넘어가지 않는 상태로 점검 요청","note":""},
+    {"date":"2026-11-18","time":"10:16","store":"컴포즈커피 성수코리아IT점","branch":"성수코리아IT점","biz":"5218102386","cat":"as","emp":"송태양","intake":"online","status":"done","req":"고객님들이 보는 미니포스기에서 뷔가 보여야하나 갑자기 바탕화면이 그냥 보여져 점검 요청","note":""},
   ],
 };
