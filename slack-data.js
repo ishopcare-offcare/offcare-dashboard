@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35097,
+  "version": 35098,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -319972,7 +319972,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "1차부재통화중 / 1. 해당 단말기는 고장으로 AS가 필요함, 다만 AS시에도 비용은 발생함 (자세한 비용은 실제로 AS를 입고 해봐야 앎, 상황에 따라선 불가할 수 있음) 2. 매장에 있는 단말기세트(터+프로 추측)를 추가로 하면 비용이 발생하나? → 발생함, 게다가 사업자가 대형 가맹점이여서 무조건 발생함 3. 휴대단말기를 그냥 새로 하는 것은 얼마냐?",
-          "rr": 10
+          "rr": 11
         },
         {
           "time": "11:53",
@@ -336994,9 +336994,9 @@ window.SLACK_DATA = {
     "2026-11-18": {
       "counts": {
         "as": {
+          "김동욱": 5,
           "배선유": 1,
           "고경림": 3,
-          "김동욱": 4,
           "송태양": 5,
           "미지정": 1,
           "김규빈": 1
@@ -337014,6 +337014,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:30",
+          "store": "전남친순대 광주본점",
+          "biz": "2251011347",
+          "cat": "as",
+          "emp": "김동욱",
+          "req": "로고삽입 이후 외계어 출력",
+          "hw": "",
+          "intake": "online",
+          "note": "프린터 통신속도 변경 후 프린터 껏켯 후 정상출력",
+          "rr": 1
+        },
         {
           "time": "10:20",
           "store": "드뮤어헤어룸",
@@ -337256,11 +337268,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:20",
+      "updatedAt": "10:30",
       "voc": {
         "responses": 1,
         "install": {
@@ -337395,15 +337407,15 @@ window.SLACK_DATA = {
       },
       "1794959347.685829": {
         "post": "1794959347.685829",
-        "lastSeen": 1794965439.169
+        "lastSeen": 1794965523.569
       },
       "1794960047.334959": {
         "post": "1794960047.334959",
-        "lastSeen": 1794965439.169
+        "lastSeen": 1794965523.569
       },
       "1794961812.791319": {
         "post": "1794961812.791319",
-        "lastSeen": 1794965439.169
+        "lastSeen": 1794965523.569
       }
     },
     "days": {
@@ -466401,7 +466413,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-18 10:30",
+    "at": "2026-11-18 10:32",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -466564,7 +466576,7 @@ window.SLACK_DATA = {
     "2026-11-18": 2
   },
   "noteMig": {
-    "at": "2026-11-18 10:30",
+    "at": "2026-11-18 10:32",
     "pri": {
       "days": 0,
       "failed": [],
@@ -466576,7 +466588,7 @@ window.SLACK_DATA = {
       "days": 0,
       "changed": 0,
       "leftDays": 0,
-      "budgetLeft": 125,
+      "budgetLeft": 124,
       "failed": []
     }
   }
