@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5432,
- "updatedAt": "2026-11-18 12:08",
+ "version": 5433,
+ "updatedAt": "2026-11-18 12:15",
  "days": 30,
  "items": [
   {
@@ -68107,44 +68107,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792387175934819"
-  },
-  {
-   "ts": "1792379569.751919",
-   "date": "2026-10-19",
-   "time": "12:12",
-   "store": "강화누룽지닭강정",
-   "biz": "6900400999",
-   "pos": "토스포스",
-   "content": "딸기라떼. 6000\n물 1000\n추가바랍니다",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1rk4WVxQfmsmZOsjAH3zbdyHhVYX3VnKB/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1rk4WVxQfmsmZOsjAH3zbdyHhVYX3VnKB",
-     "kind": "menu_board",
-     "menu": [
-      {
-       "category": "",
-       "name": "Strawberry Signal",
-       "price": 6000
-      }
-     ],
-     "v": 2
-    }
-   ],
-   "replies": [
-    "상품 등록 완료"
-   ],
-   "rc": 1,
-   "lr": "1792379754.628979",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792379569751919"
   }
  ],
  "ocr": {
