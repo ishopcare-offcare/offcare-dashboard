@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5507,
- "updatedAt": "2026-11-19 12:37",
+ "version": 5508,
+ "updatedAt": "2026-11-19 12:48",
  "days": 30,
  "items": [
+  {
+   "ts": "1795059967.599899",
+   "date": "2026-11-19",
+   "time": "12:46",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290703720",
+   "pos": "토스포스",
+   "content": "닭발",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1kWS4V8d5ugD_-YFQXjWA9w_uwwUiku-3/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1kWS4V8d5ugD_-YFQXjWA9w_uwwUiku-3",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795059967599899"
+  },
   {
    "ts": "1795059297.273039",
    "date": "2026-11-19",
