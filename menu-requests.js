@@ -3,10 +3,47 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5509,
- "updatedAt": "2026-11-19 12:53",
+ "version": 5510,
+ "updatedAt": "2026-11-19 12:54",
  "days": 30,
  "items": [
+  {
+   "ts": "1795060447.800059",
+   "date": "2026-11-19",
+   "time": "12:54",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290705720",
+   "pos": "토스포스",
+   "content": "음료, 소주",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1ou1pytsAARCflRM7ZKlew0o1ev6b3K5w/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1jY0IMUt3Ca2fnkL6OYZK9hgOWSDRFOsX/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ou1pytsAARCflRM7ZKlew0o1ev6b3K5w",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1jY0IMUt3Ca2fnkL6OYZK9hgOWSDRFOsX",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795060447800059"
+  },
   {
    "ts": "1795060299.135059",
    "date": "2026-11-19",
