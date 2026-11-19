@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5548,
- "updatedAt": "2026-11-19 17:49",
+ "version": 5549,
+ "updatedAt": "2026-11-19 17:52",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,69 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "짜짜로니.jpg",
+     "fid": "F0CK882QUBT",
+     "from": "댓글",
+     "path": "menu-files/1795078099_758989-0.jpg",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "굴 미역국라면.jpg",
+     "fid": "F0CK04N81S7",
+     "from": "댓글",
+     "path": "menu-files/1795078099_758989-1.jpg",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "바지락짬뽕.jpg",
+     "fid": "F0CL0NG3SN4",
+     "from": "댓글",
+     "path": "menu-files/1795078099_758989-2.jpg",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "신라면 볶음면.jpg",
+     "fid": "F0CL0NKG0PJ",
+     "from": "댓글",
+     "path": "menu-files/1795078099_758989-3.jpg",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "맵탱 고추대파라면.jpg",
+     "fid": "F0CKA307UJ0",
+     "from": "댓글",
+     "path": "menu-files/1795078099_758989-4.jpg",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "맵탱 마늘조개라면.jpg",
+     "fid": "F0CK137F3EH",
+     "from": "댓글",
+     "path": "menu-files/1795078099_758989-5.jpg",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1795078102.691839",
+   "replies": [
+    "• 짜장/짬뽕라면 카테고리\n    ◦ *짜짜로니 4,000원*\n• 볶음면/비빔면/칼국수 카테고리\n    ◦ *굴 미역국라면 4,200원*\n• 짜장/짬뽕라면 카테고리\n    ◦ *바지락짬뽕 4,500원*\n• 라면 카테고리\n    ◦ *신라면 볶음면 4,000원*\n• 라면 카테고리\n    ◦ *맵탱 고추대파라면 3,600원*\n    ◦ *맵탱 마늘조개라면 3,600원*",
+    "완료 이후 아래 번호로 문자 한통만 부탁드리겠습니다!\n\n• <tel:···|···>"
+   ],
+   "rc": 3,
+   "lr": "1795078281.807169",
    "rfx": 3,
    "status": "wait",
    "handler": null,
