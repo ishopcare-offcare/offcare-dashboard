@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5483,
- "updatedAt": "2026-11-19 09:55",
+ "version": 5484,
+ "updatedAt": "2026-11-19 10:13",
  "days": 30,
  "items": [
   {
@@ -68693,29 +68693,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792461318287349"
-  },
-  {
-   "ts": "1792458826.771869",
-   "date": "2026-10-20",
-   "time": "10:13",
-   "store": "황토추어탕",
-   "biz": "2121989920",
-   "pos": "퍼스트포스",
-   "content": "메뉴 가격 변경 요청(전체적으로 인상예정)-원격으로 진행 요청주셨습니다.:꾸벅:(방법도 직접 배우고싶어하십니다.)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "아 넵넵:꾸벅:"
-   ],
-   "rc": 4,
-   "lr": "1792460097.236569",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792458826771869"
   }
  ],
  "ocr": {
