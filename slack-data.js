@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35539,
+  "version": 35540,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339684,6 +339684,9 @@ window.SLACK_DATA = {
     },
     "2026-11-19": {
       "counts": {
+        "booking": {
+          "고경림": 1
+        },
         "as": {
           "배선유": 1,
           "고경림": 2
@@ -339694,6 +339697,17 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:36",
+          "store": "헤이밍글(HeyMingle)",
+          "biz": "2670903414",
+          "cat": "booking",
+          "emp": "고경림",
+          "req": "포프(노트북)+유프 / <https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1795005440627079?thread_ts=1794998848.754279&amp;cid=C09HRUSG4TX",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "09:30",
           "store": "어뉴바디 PT",
@@ -339743,11 +339757,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 4,
+        "online": 5,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:49"
+      "updatedAt": "09:51"
     }
   },
   "resp": {
@@ -339862,37 +339876,34 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795049420.748
+        "lastSeen": 1795049527.773
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795049420.748
+        "lastSeen": 1795049527.773
       },
       "1795048642.132569": {
         "post": "1795048642.132569",
-        "lastSeen": 1795049420.748
-      },
-      "1795048591.584979": {
-        "post": "1795048591.584979",
-        "lastSeen": 1795049420.748,
-        "r": 1,
-        "day": "2026-11-19",
-        "idx": 4
+        "lastSeen": 1795049527.773
       },
       "1795048825.620089": {
         "post": "1795048825.620089",
-        "lastSeen": 1795049420.748,
+        "lastSeen": 1795049527.773,
         "r": 1,
         "day": "2026-11-19",
         "idx": 3
       },
       "1795049373.969409": {
         "post": "1795049373.969409",
-        "lastSeen": 1795049420.748
+        "lastSeen": 1795049527.773
       },
       "1795049365.305019": {
         "post": "1795049365.305019",
-        "lastSeen": 1795049420.748
+        "lastSeen": 1795049527.773
+      },
+      "1795049511.075419": {
+        "post": "1795049511.075419",
+        "lastSeen": 1795049527.773
       }
     },
     "days": {
@@ -470000,14 +470011,15 @@ window.SLACK_DATA = {
             "store": "헤이밍글(HeyMingle)",
             "biz": "2670903414",
             "who": "고경림",
-            "cat": "as"
+            "cat": "booking",
+            "dmin": 14.7
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-19 09:50",
+    "at": "2026-11-19 09:52",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470171,7 +470183,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 09:50",
+    "at": "2026-11-19 09:52",
     "pri": {
       "days": 0,
       "failed": [],
