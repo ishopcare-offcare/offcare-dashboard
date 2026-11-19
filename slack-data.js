@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35569,
+  "version": 35570,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339688,7 +339688,8 @@ window.SLACK_DATA = {
           "미지정": 2,
           "송태양": 1,
           "고경림": 5,
-          "배선유": 3
+          "배선유": 3,
+          "김규빈": 1
         },
         "extern": {
           "김현기": 1
@@ -339706,6 +339707,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:36",
+          "store": "컴포즈커피 사당역점",
+          "biz": "5218102386",
+          "cat": "as",
+          "emp": "김규빈",
+          "req": "상품권 사용 시 금액 차액 발생 처리 방법 문의(사당역점)",
+          "hw": "",
+          "intake": "online",
+          "note": "상품권 인상차액 결제수단으로 사용방법 안내 완료",
+          "rr": 8
+        },
         {
           "time": "10:28",
           "store": "이레계량소",
@@ -339911,11 +339924,46 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 13,
+        "online": 14,
         "offline": 4,
         "unknown": 0
       },
-      "updatedAt": "10:36"
+      "updatedAt": "10:43",
+      "voc": {
+        "responses": 1,
+        "install": {
+          "count": 0,
+          "low": 0
+        },
+        "nps": {
+          "count": 1,
+          "low": 0
+        },
+        "high": {
+          "install": 0,
+          "nps": 1
+        },
+        "npsDist": {
+          "10": 1
+        },
+        "installDist": {},
+        "byIndustry": {},
+        "byTenure": {
+          "6개월": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "byVan": {
+          "KPN": {
+            "total": 1,
+            "low": 0
+          }
+        },
+        "reasonCounts": {},
+        "alerts": [],
+        "praises": []
+      }
     }
   },
   "resp": {
@@ -340023,22 +340071,22 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795052481.877
+        "lastSeen": 1795052617.64
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795052481.877
+        "lastSeen": 1795052617.64
       },
       "1795050000.555489": {
         "post": "1795050000.555489",
-        "lastSeen": 1795052481.877,
+        "lastSeen": 1795052617.64,
         "r": 1,
         "day": "2026-11-19",
         "idx": 9
       },
       "1795051760.676369": {
         "post": "1795051760.676369",
-        "lastSeen": 1795052481.877,
+        "lastSeen": 1795052617.64,
         "r": 1,
         "day": "2026-11-19",
         "idx": 14
@@ -470255,7 +470303,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 10:41",
+    "at": "2026-11-19 10:43",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470419,7 +470467,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 10:41",
+    "at": "2026-11-19 10:43",
     "pri": {
       "days": 0,
       "failed": [],
