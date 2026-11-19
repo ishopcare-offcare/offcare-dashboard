@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5541,
- "updatedAt": "2026-11-19 16:56",
+ "version": 5542,
+ "updatedAt": "2026-11-19 16:58",
  "days": 30,
  "items": [
   {
@@ -66497,58 +66497,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792489368175609"
-  },
-  {
-   "ts": "1792483017.784879",
-   "date": "2026-10-20",
-   "time": "16:56",
-   "store": "대패삼국지 창원중앙역점",
-   "biz": "2191102874",
-   "pos": "퍼스트포스",
-   "content": "테이블오더 샤브전골 노출이 되지 않아 <https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792396402985349|요청>주셨는데 아직 반영이 되지 않았다 하셔서 확인 부탁드립니다. :꾸벅곰:",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CAN307AQ1",
-     "from": "댓글",
-     "path": "menu-files/1792483017_784879-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "",
-       "name": "죽",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "고기 추가",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "",
-       "name": "샤브전골",
-       "price": 0,
-       "pt": "u"
-      }
-     ],
-     "v": 2
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "헉 그렇구나 그러면 테이블오더측으로 문의 하셔야 되는 점으로 안내 드리겠습니다 확인해 주셔서 감사합니다!"
-   ],
-   "rc": 4,
-   "lr": "1792483122.970599",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792483017784879"
   }
  ],
  "ocr": {
