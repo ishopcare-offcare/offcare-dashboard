@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35920,
+  "version": 35921,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -341866,15 +341866,15 @@ window.SLACK_DATA = {
         "offline": 38,
         "unknown": 0
       },
-      "updatedAt": "21:06",
+      "updatedAt": "21:50",
       "voc": {
-        "responses": 8,
+        "responses": 9,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 8,
+          "count": 9,
           "low": 2
         },
         "high": {
@@ -341885,6 +341885,7 @@ window.SLACK_DATA = {
           "0": 1,
           "3": 1,
           "8": 1,
+          "9": 1,
           "10": 5
         },
         "installDist": {
@@ -341894,13 +341895,13 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 3,
+            "low": 1
+          },
           "6개월": {
             "total": 3,
             "low": 0
-          },
-          "3개월": {
-            "total": 2,
-            "low": 1
           },
           "구매설치": {
             "total": 1,
@@ -341916,13 +341917,13 @@ window.SLACK_DATA = {
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 5,
+            "low": 1
+          },
           "SMARTRO": {
             "total": 1,
             "low": 0
-          },
-          "KPN": {
-            "total": 4,
-            "low": 1
           },
           "KOCES": {
             "total": 2,
@@ -341984,6 +341985,18 @@ window.SLACK_DATA = {
           }
         ],
         "praises": [
+          {
+            "time": "21:50",
+            "store": "얌얌스킨앤슈가링(YAM YAM)",
+            "storeId": "581153",
+            "indBucket": "",
+            "emp": "",
+            "install": null,
+            "nps": 9,
+            "text": "아직잘 모르겟음",
+            "byReaction": false,
+            "doneDate": ""
+          },
           {
             "time": "16:11",
             "store": "빙구문구 상계점",
@@ -342102,53 +342115,53 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795055060.627429": {
         "post": "1795055060.627429",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795057202.407669": {
         "post": "1795057202.407669",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795057282.009549": {
         "post": "1795057282.009549",
-        "lastSeen": 1795092329.88,
+        "lastSeen": 1795092638.634,
         "r": 1,
         "day": "2026-11-19",
         "idx": 24
       },
       "1795063395.843899": {
         "post": "1795063395.843899",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795064402.458599": {
         "post": "1795064402.458599",
-        "lastSeen": 1795092329.88,
+        "lastSeen": 1795092638.634,
         "r": 1,
         "day": "2026-11-19",
         "idx": 56
       },
       "1795069469.975469": {
         "post": "1795069469.975469",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795073814.797589": {
         "post": "1795073814.797589",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795077000.319429": {
         "post": "1795077000.319429",
-        "lastSeen": 1795092329.88
+        "lastSeen": 1795092638.634
       },
       "1795088597.403989": {
         "post": "1795088597.403989",
-        "lastSeen": 1795092329.88,
+        "lastSeen": 1795092638.634,
         "r": 1,
         "day": "2026-11-19",
         "idx": 132
@@ -473425,7 +473438,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 21:46",
+    "at": "2026-11-19 21:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473589,7 +473602,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 21:45",
+    "at": "2026-11-19 21:50",
     "pri": {
       "days": 0,
       "failed": [],
