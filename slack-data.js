@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35522,
+  "version": 35523,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339683,11 +339683,28 @@ window.SLACK_DATA = {
       ]
     },
     "2026-11-19": {
-      "counts": {},
+      "counts": {
+        "transfer": {
+          "고경림": 1
+        }
+      },
       "pending": [],
-      "done": [],
+      "done": [
+        {
+          "time": "08:45",
+          "store": "남성커트 깍새",
+          "biz": "8347300649",
+          "cat": "transfer",
+          "emp": "고경림",
+          "req": "11월 19일 오전 9시 / 메뉴 복사 O / 프론트",
+          "hw": "",
+          "intake": "online",
+          "note": "포프(노트북) 명변완료",
+          "rr": 1
+        }
+      ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 0,
         "unknown": 0
       },
@@ -339804,20 +339821,16 @@ window.SLACK_DATA = {
         "post": "1795014005.306099",
         "lastSeen": 1795032935.83
       },
-      "1795045500.806429": {
-        "post": "1795045500.806429",
-        "lastSeen": 1795046517.537,
-        "r": 1,
-        "day": "2026-11-19",
-        "idx": 0
-      },
       "1795046413.045379": {
         "post": "1795046413.045379",
-        "lastSeen": 1795046517.537
+        "lastSeen": 1795046678.348,
+        "r": 1,
+        "day": "2026-11-19",
+        "idx": 1
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795046517.537
+        "lastSeen": 1795046678.348
       }
     },
     "days": {
@@ -469880,8 +469893,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-19": {
-        "cnt": 1,
-        "sumMin": 16.19246784845988,
+        "cnt": 2,
+        "sumMin": 19.27408653497696,
         "over": 0,
         "items": [
           {
@@ -469890,6 +469903,15 @@ window.SLACK_DATA = {
             "store": "남성커트 깍새",
             "biz": "8347300649",
             "who": "고경림",
+            "cat": "transfer",
+            "dmin": 18.3
+          },
+          {
+            "hm": "09:00",
+            "min": 3.1,
+            "store": "주식회사 설하패",
+            "biz": "3448103599",
+            "who": "고경림",
             "cat": "transfer"
           }
         ]
@@ -469897,7 +469919,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 09:02",
+    "at": "2026-11-19 09:04",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470061,7 +470083,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 09:01",
+    "at": "2026-11-19 09:04",
     "pri": {
       "days": 0,
       "failed": [],
