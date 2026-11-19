@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35572,
+  "version": 35573,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339689,9 +339689,9 @@ window.SLACK_DATA = {
           "김현기": 1
         },
         "as": {
+          "고경림": 6,
           "미지정": 2,
           "송태양": 1,
-          "고경림": 5,
           "배선유": 3,
           "김규빈": 1
         },
@@ -339715,6 +339715,17 @@ window.SLACK_DATA = {
           "cat": "extern",
           "emp": "김동욱",
           "req": "외주",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
+        {
+          "time": "10:44",
+          "store": "살롱더디엠(SALON THE DM)",
+          "biz": "5550903515",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "터프 이용 매장, 프론트 전원이 안들어온다 하셔서 점검 부탁드립니다.",
           "hw": "",
           "intake": "online",
           "note": ""
@@ -339936,7 +339947,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 15,
+        "online": 16,
         "offline": 4,
         "unknown": 0
       },
@@ -340083,22 +340094,22 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795052794.111
+        "lastSeen": 1795052887.912
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795052794.111
+        "lastSeen": 1795052887.912
       },
       "1795050000.555489": {
         "post": "1795050000.555489",
-        "lastSeen": 1795052794.111,
+        "lastSeen": 1795052887.912,
         "r": 1,
         "day": "2026-11-19",
         "idx": 9
       },
       "1795051760.676369": {
         "post": "1795051760.676369",
-        "lastSeen": 1795052794.111,
+        "lastSeen": 1795052887.912,
         "r": 1,
         "day": "2026-11-19",
         "idx": 14
@@ -470315,7 +470326,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 10:46",
+    "at": "2026-11-19 10:48",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470479,7 +470490,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 10:46",
+    "at": "2026-11-19 10:48",
     "pri": {
       "days": 0,
       "failed": [],
