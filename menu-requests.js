@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5485,
- "updatedAt": "2026-11-19 10:18",
+ "version": 5486,
+ "updatedAt": "2026-11-19 10:20",
  "days": 30,
  "items": [
   {
@@ -18,14 +18,338 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261119_100755084_02.jpg",
+     "fid": "F0CK545QZ7B",
+     "from": "댓글",
+     "path": "menu-files/1795051075_643899-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "매장 인기! 실속 세트 메뉴",
+       "name": "아메리카노 + 플레인 휘낭시에",
+       "price": 4800,
+       "code": "1"
+      },
+      {
+       "category": "매장 인기! 실속 세트 메뉴",
+       "name": "아메리카노 + 솔티 초코 휘낭시에",
+       "price": 5300,
+       "code": "2"
+      },
+      {
+       "category": "매장 인기! 실속 세트 메뉴",
+       "name": "아메리카노 + 초코입은 호두 휘낭시에",
+       "price": 5500,
+       "code": "3"
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261119_100755084_01.jpg",
+     "fid": "F0CK6U30YKE",
+     "from": "댓글",
+     "path": "menu-files/1795051075_643899-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "NON-COFFEE",
+       "name": "초코 라떼",
+       "price": 4000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "말차 라떼",
+       "price": 4200
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "스모키 얼그레이 라떼",
+       "price": 4200
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "우베 / 고구마 라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "딸기 라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "달고나 라떼 ( 샷 추가 추천! )",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초당 옥수수라떼 ( 샷 추가 추천! )",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "곡물라떼",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "밤 라떼",
+       "price": 4500
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "레몬 / 자몽 / 체리 / 매실 / 샤인머스켓 에이드",
+       "price": 3500
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "블루레몬 에이드",
+       "price": 3800
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "다즐링 / 우롱차 / 캐모마일 차",
+       "price": 3500
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "유자차 / 생강차 / 매실차",
+       "price": 3500
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "히비스커스 티",
+       "price": 3500
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "디카페인 변경",
+       "price": 500
+      },
+      {
+       "category": "ADE & TEA",
+       "name": "샷 / 시럽 추가",
+       "price": 800
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "버터 / 초코 / 오트밀 쿠키",
+       "price": 3000
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "휘낭시에",
+       "price": 3500
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "바스크 치즈 케이크",
+       "price": 6800
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "에이스 아포카토",
+       "price": 6000
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "블루베리크림치즈 토스트",
+       "price": 6000
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "치킨텐더 샌드위치",
+       "price": 7500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261119_100755084.jpg",
+     "fid": "F0CK18F7HC6",
+     "from": "댓글",
+     "path": "menu-files/1795051075_643899-2.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "아메리카노 Americano",
+       "price": 3500
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "카페라떼 Cafe latte",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "몬스터 아메리카노 Monster americano",
+       "price": 4000
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "바닐라 라떼 Vanila latte",
+       "price": 4200
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "돌체라떼 Dolce latte",
+       "price": 4200
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "모카라떼 Mocha latte",
+       "price": 4200
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "버터라떼 Butter latte",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "카라멜 마끼아또 Caramei macchiatote",
+       "price": 4500
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "바다라떼 Sea latte ( Only Ice )",
+       "price": 4800
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "콜드브루 Cold brew ( Only Ice )",
+       "price": 3800
+      },
+      {
+       "category": "COFFEE (Hot/Ice)",
+       "name": "콜드브루 라떼 Cold brew latte ( Only Ice )",
+       "price": 4200
+      },
+      {
+       "category": "SMOOTHIE & SHAKE",
+       "name": "플레인 요거트 스무디 Plain yogurt smoothie",
+       "price": 4500
+      },
+      {
+       "category": "SMOOTHIE & SHAKE",
+       "name": "딸기 / 블루베리 요거트 스무디 Strawberry / Blueberry smoothie",
+       "price": 4500
+      },
+      {
+       "category": "SMOOTHIE & SHAKE",
+       "name": "민트초코 스무디 Mint chocolate smoothie",
+       "price": 4500
+      },
+      {
+       "category": "SMOOTHIE & SHAKE",
+       "name": "구름 요거트 스무디 Cloud yogurt smoothie",
+       "price": 4800
+      },
+      {
+       "category": "SMOOTHIE & SHAKE",
+       "name": "밀크 / 커피 쉐이크 Milk / coffee shake",
+       "price": 5000
+      },
+      {
+       "category": "SMOOTHIE & SHAKE",
+       "name": "딸기 / 초코 / 말차 쉐이크 Strawberry / Chocolate / Matcha shake",
+       "price": 5000
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초코 라떼 Chocolate latte",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "말차 라떼 Matcha latte",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "스모키 얼그레이 라떼 Smoky earl grey latte",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "우베 / 고구마 라떼 Ube / Sweet potato latte",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "딸기 라떼 Strawberry latte",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "달고나 라떼 Dalgona latte ( 샷 추가 추천! )",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "초당 옥수수라떼 Super sweet corn latte ( 샷 추가 추천! )",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "곡물라떼 Multigrain latte",
+       "price": 4500
+      },
+      {
+       "category": "NON-COFFEE",
+       "name": "밤 라떼 Chestnut latte",
+       "price": 4500
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "버터 / 초코 / 오트밀 쿠키 Butter/ Chocolate / Oatmeal",
+       "price": 3000
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "휘낭시에 Financier",
+       "price": 3500
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "바스크 치즈 케이크 Basque cheese cake",
+       "price": 6800
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "에이스 아포카토 Ace affogato",
+       "price": 6000
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "블루베리크림치즈 토스트 Blueberry creamcheese toast",
+       "price": 6000
+      },
+      {
+       "category": "BAKERY & DESSERT",
+       "name": "치킨텐더 샌드위치 Chicken tender sandwich",
+       "price": 7500
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1795051079.469559",
+   "rc": 2,
+   "lr": "1795051133.700599",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795051075643899"
   },
   {
