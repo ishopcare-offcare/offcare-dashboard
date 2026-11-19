@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5539,
- "updatedAt": "2026-11-19 16:52",
+ "version": 5540,
+ "updatedAt": "2026-11-19 16:54",
  "days": 30,
  "items": [
   {
@@ -184,8 +184,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795074245964329"
   },
   {
@@ -204,11 +204,11 @@ window.MENU_REQUESTS = {
    "replies": [
     "푸드코트 1번 부스 풀초롱 밥상에 풀초롱 비빔밥 12,000원 메뉴 추가 요청"
    ],
-   "rc": 2,
-   "lr": "1795073792.627659",
+   "rc": 4,
+   "lr": "1795074823.406829",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795073780785129"
   },
   {
