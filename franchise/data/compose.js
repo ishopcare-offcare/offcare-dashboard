@@ -4,7 +4,7 @@
  * ============================================================
  *  직접 수정하지 마세요. 고치면 다음 집계 때 덮어써집니다.
  *  생성: scripts/tally-compose.js  (slack-data.js 에서 브랜드 매칭)
- *  갱신: 2026-11-19 10:49 KST
+ *  갱신: 2026-11-19 13:17 KST
  *
  *  집계된 카테고리 : as
  *  미수집 카테고리 : visit(방문AS) · inquiry(단순문의) · tax(세금계산서발급) · terminate(해지·철거)
@@ -15,7 +15,7 @@ window.CLIENT_DATA = window.CLIENT_DATA || {};
 window.CLIENT_DATA['compose'] = {
 
   sample    : false,
-  updatedAt : '2026-11-19 10:49',
+  updatedAt : '2026-11-19 13:17',
   source    : 'slack-data.js (브랜드 매칭)',
 
   records: [
@@ -90,5 +90,6 @@ window.CLIENT_DATA['compose'] = {
     {"date":"2026-11-17","time":"13:48","store":"컴포즈 뱅뱅사거리점","branch":"뱅뱅사거리점","biz":"5218102386","cat":"as","emp":"김동욱","intake":"online","status":"done","req":"키오스크가 갑자기 결제 진행중에서 넘어가지 않는 상태로 점검 요청","note":"키오스크 결제 진행 중 화면 멈춤 관련 원격 점검 완료"},
     {"date":"2026-11-18","time":"10:16","store":"컴포즈커피 성수코리아IT점","branch":"성수코리아IT점","biz":"5218102386","cat":"as","emp":"송태양","intake":"online","status":"done","req":"고객님들이 보는 미니포스기에서 뷔가 보여야하나 갑자기 바탕화면이 그냥 보여져 점검 요청","note":"고객용 미니포스 화면 미표시 현상 관련 원격 점검 완료"},
     {"date":"2026-11-19","time":"10:36","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"김규빈","intake":"online","status":"done","req":"상품권 사용 시 금액 차액 발생 처리 방법 문의(사당역점)","note":"재설치 시 누락된 상품권 인상차액 결제수단 관련 사용 방법 안내 완료, 재설치 체크리스트 보완 예정"},
+    {"date":"2026-11-19","time":"13:11","store":"컴포즈커피 사당역점","branch":"사당역점","biz":"5218102386","cat":"as","emp":"김규빈","intake":"online","status":"done","req":"컴포즈 사당역점에서 프론트 연결이 끊기고 알람이 떠서 연결 복구 요청","note":"프론트 연결 끊김 및 알람 발생 관련 원격 지원, 연결 복구 완료"},
   ],
 };
