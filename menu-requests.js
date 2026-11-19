@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5482,
- "updatedAt": "2026-11-19 09:50",
+ "version": 5483,
+ "updatedAt": "2026-11-19 09:55",
  "days": 30,
  "items": [
   {
@@ -68716,29 +68716,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792458826771869"
-  },
-  {
-   "ts": "1792457632.565189",
-   "date": "2026-10-20",
-   "time": "09:53",
-   "store": "대패삼국지 창원중앙역점",
-   "biz": "2191102874",
-   "pos": "퍼스트포스",
-   "content": "(유플러스) 키오스크 사용중 / 포스 및 키오스크 메뉴 가격 수정 요청드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "점심 특선 카테고리에 아래 2가지 메뉴 추가 부탁드립니다!\n• 죽 2,000원 \n• 고기 추가 100g 5,000원"
-   ],
-   "rc": 3,
-   "lr": "1792458152.163079",
-   "rfx": 3,
-   "status": "done",
-   "handler": "심성현",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792457632565189"
   }
  ],
  "ocr": {
