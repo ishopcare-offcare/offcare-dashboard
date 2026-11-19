@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5533,
- "updatedAt": "2026-11-19 16:24",
+ "version": 5534,
+ "updatedAt": "2026-11-19 16:26",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
     "식사 카테고리 > 김치찌개 전골 10,000원",
     "메뉴 요청 링크도 추가 발송해드림"
    ],
-   "rc": 3,
-   "lr": "1795073043.253129",
+   "rc": 4,
+   "lr": "1795073125.662329",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
