@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5551,
- "updatedAt": "2026-11-19 17:58",
+ "version": 5552,
+ "updatedAt": "2026-11-19 18:43",
  "days": 30,
  "items": [
   {
@@ -66595,29 +66595,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792493353613599"
-  },
-  {
-   "ts": "1792489368.175609",
-   "date": "2026-10-20",
-   "time": "18:42",
-   "store": "피치피치",
-   "biz": "1733601437",
-   "pos": "",
-   "content": "(주)주디마리 킷사주디(<tel:···|···>) 상품 이미지와 동일하게 복사 요청 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "님 엇 이거 확인해볼게요"
-   ],
-   "rc": 3,
-   "lr": "1792542297.131309",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792489368175609"
   }
  ],
  "ocr": {
