@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5500,
- "updatedAt": "2026-11-19 12:08",
+ "version": 5501,
+ "updatedAt": "2026-11-19 12:10",
  "days": 30,
  "items": [
+  {
+   "ts": "1795057741.263229",
+   "date": "2026-11-19",
+   "time": "12:09",
+   "store": "쭈닭한상",
+   "biz": "7822301997",
+   "pos": "퍼스트포스",
+   "content": "메뉴삭제요청 건 키오스크에 반영안되셨다하여 확인 부탁드립니다.\n미해결시 방통위 문의하여 민원성 매장입니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "식사여서 cc"
+   ],
+   "rc": 2,
+   "lr": "1795057764.739509",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795057741263229"
+  },
   {
    "ts": "1795051639.692369",
    "date": "2026-11-19",
