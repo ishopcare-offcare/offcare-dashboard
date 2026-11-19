@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5521,
- "updatedAt": "2026-11-19 14:14",
+ "version": 5522,
+ "updatedAt": "2026-11-19 14:23",
  "days": 30,
  "items": [
   {
@@ -68237,31 +68237,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792474889970389"
-  },
-  {
-   "ts": "1792473633.735039",
-   "date": "2026-10-20",
-   "time": "14:20",
-   "store": "삼삼치킨",
-   "biz": "1051234278",
-   "pos": "",
-   "content": "메뉴 테이블",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1792473449447209?thread_ts=···.381229&cid=C0ADC9759KQ",
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1792476183688059?thread_ts=···.381229&cid=C0ADC9759KQ",
-    "2층테이블 작업 안된듯!"
-   ],
-   "rc": 8,
-   "lr": "1792476352.741169",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792473633735039"
   }
  ],
  "ocr": {
