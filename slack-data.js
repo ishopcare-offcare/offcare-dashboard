@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35590,
+  "version": 35591,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339731,7 +339731,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "offline",
           "note": "• 옆매장 와이파이 같이 쓰시고 계시다가 옆매장 폐업으로 CAT단독 전화선으로 결제 희망 • 결제방법 교육 완료입니다 옆매장 와이파이 같이 쓰시고 계시다가 옆매장 폐업으로 CAT단독 전화선으로 결제 희망 결제방법 교육 완료입니다",
-          "rr": 2
+          "rr": 3
         },
         {
           "time": "10:56",
@@ -340153,11 +340153,11 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795054713.386
+        "lastSeen": 1795054822.486
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795054713.386
+        "lastSeen": 1795054822.486
       }
     },
     "days": {
@@ -470382,7 +470382,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 11:19",
+    "at": "2026-11-19 11:20",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470546,7 +470546,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 11:18",
+    "at": "2026-11-19 11:20",
     "pri": {
       "days": 0,
       "failed": [],
