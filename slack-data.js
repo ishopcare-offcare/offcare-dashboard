@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35897,
+  "version": 35898,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -341829,22 +341829,23 @@ window.SLACK_DATA = {
         "offline": 37,
         "unknown": 0
       },
-      "updatedAt": "19:41",
+      "updatedAt": "19:49",
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
           "count": 1,
           "low": 0
         },
         "nps": {
-          "count": 6,
-          "low": 1
+          "count": 7,
+          "low": 2
         },
         "high": {
           "install": 1,
           "nps": 4
         },
         "npsDist": {
+          "0": 1,
           "3": 1,
           "8": 1,
           "10": 4
@@ -341856,6 +341857,10 @@ window.SLACK_DATA = {
           "카페": 1
         },
         "byTenure": {
+          "3개월": {
+            "total": 2,
+            "low": 1
+          },
           "구매설치": {
             "total": 1,
             "low": 0
@@ -341868,16 +341873,16 @@ window.SLACK_DATA = {
             "total": 1,
             "low": 0
           },
-          "3개월": {
-            "total": 1,
-            "low": 0
-          },
           "6개월": {
             "total": 2,
             "low": 0
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 4,
+            "low": 1
+          },
           "KOCES": {
             "total": 2,
             "low": 1
@@ -341885,16 +341890,35 @@ window.SLACK_DATA = {
           "KIS": {
             "total": 1,
             "low": 0
-          },
-          "KPN": {
-            "total": 3,
-            "low": 0
           }
         },
         "reasonCounts": {
+          "기타 이슈(정산/직원에 대한 불만/호영님출몰)": 1,
           "필요한 기능이 없거나 몰라서 불편": 1
         },
         "alerts": [
+          {
+            "time": "19:49",
+            "store": "큐브 헤어",
+            "storeId": "575215",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "사용 편리하고 좋네요",
+                "cat": "기타 이슈(정산/직원에 대한 불만/호영님출몰)"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          },
           {
             "time": "15:32",
             "store": "두류댕댕",
@@ -342037,49 +342061,49 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795055060.627429": {
         "post": "1795055060.627429",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795057202.407669": {
         "post": "1795057202.407669",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795057282.009549": {
         "post": "1795057282.009549",
-        "lastSeen": 1795085224.298,
+        "lastSeen": 1795085407.764,
         "r": 1,
         "day": "2026-11-19",
         "idx": 24
       },
       "1795063395.843899": {
         "post": "1795063395.843899",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795064402.458599": {
         "post": "1795064402.458599",
-        "lastSeen": 1795085224.298,
+        "lastSeen": 1795085407.764,
         "r": 1,
         "day": "2026-11-19",
         "idx": 56
       },
       "1795069469.975469": {
         "post": "1795069469.975469",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795073814.797589": {
         "post": "1795073814.797589",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       },
       "1795077000.319429": {
         "post": "1795077000.319429",
-        "lastSeen": 1795085224.298
+        "lastSeen": 1795085407.764
       }
     },
     "days": {
@@ -473327,7 +473351,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 19:47",
+    "at": "2026-11-19 19:50",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473491,7 +473515,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 19:47",
+    "at": "2026-11-19 19:50",
     "pri": {
       "days": 0,
       "failed": [],
