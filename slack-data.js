@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35525,
+  "version": 35526,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339684,12 +339684,26 @@ window.SLACK_DATA = {
     },
     "2026-11-19": {
       "counts": {
+        "as": {
+          "고경림": 1
+        },
         "transfer": {
           "고경림": 1
         }
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:00",
+          "store": "주식회사 설하패",
+          "biz": "3448103599",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "터미널, 프론트 / 금일 아무때나 상관없음",
+          "hw": "",
+          "intake": "online",
+          "note": ""
+        },
         {
           "time": "08:45",
           "store": "남성커트 깍새",
@@ -339704,7 +339718,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 1,
+        "online": 2,
         "offline": 0,
         "unknown": 0
       },
@@ -339821,16 +339835,9 @@ window.SLACK_DATA = {
         "post": "1795014005.306099",
         "lastSeen": 1795032935.83
       },
-      "1795046413.045379": {
-        "post": "1795046413.045379",
-        "lastSeen": 1795047326.54,
-        "r": 1,
-        "day": "2026-11-19",
-        "idx": 1
-      },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795047326.54
+        "lastSeen": 1795047841.456
       }
     },
     "days": {
@@ -469912,14 +469919,15 @@ window.SLACK_DATA = {
             "store": "주식회사 설하패",
             "biz": "3448103599",
             "who": "고경림",
-            "cat": "transfer"
+            "cat": "as",
+            "dmin": 19.5
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-19 09:15",
+    "at": "2026-11-19 09:24",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470083,7 +470091,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 09:15",
+    "at": "2026-11-19 09:24",
     "pri": {
       "days": 0,
       "failed": [],
