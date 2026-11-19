@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5542,
- "updatedAt": "2026-11-19 16:58",
+ "version": 5543,
+ "updatedAt": "2026-11-19 17:16",
  "days": 30,
  "items": [
+  {
+   "ts": "1795076143.677709",
+   "date": "2026-11-19",
+   "time": "17:15",
+   "store": "올데이크레페(ALL DAY CREPE) 일산원마운트점",
+   "biz": "2215501076",
+   "pos": "",
+   "content": "해당 매장 올데이크레페 주안직영점(<tel:···|···>) 메뉴와 동일하게 복사 부탁드립니다. (옵션 포함)",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795076147.009999",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795076143677709"
+  },
   {
    "ts": "1795074762.463309",
    "date": "2026-11-19",
