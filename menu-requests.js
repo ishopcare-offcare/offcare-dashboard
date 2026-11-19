@@ -3,10 +3,179 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5511,
- "updatedAt": "2026-11-19 12:56",
+ "version": 5512,
+ "updatedAt": "2026-11-19 13:23",
  "days": 30,
  "items": [
+  {
+   "ts": "1795062083.304159",
+   "date": "2026-11-19",
+   "time": "13:21",
+   "store": "스테이(STA2)",
+   "biz": "6760103039",
+   "pos": "",
+   "content": "PH 돌방 영업 건 메뉴 이관 요청드립니다 :woman-bowing:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_20261119_130439.jpg",
+     "fid": "F0CJY2DQJ03",
+     "from": "댓글",
+     "path": "menu-files/1795062083_304159-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "화이트뱅쇼",
+       "price": 8500
+      },
+      {
+       "category": "",
+       "name": "레드뱅쇼",
+       "price": 8500
+      },
+      {
+       "category": "",
+       "name": "저온숙성라떼(시그니처)",
+       "price": 7000
+      },
+      {
+       "category": "espresso",
+       "name": "에스프레소",
+       "price": 4500
+      },
+      {
+       "category": "espresso",
+       "name": "아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "espresso",
+       "name": "카페라떼",
+       "price": 5000
+      },
+      {
+       "category": "espresso",
+       "name": "오렌지라떼",
+       "price": 6000
+      },
+      {
+       "category": "espresso",
+       "name": "슈페바닐라(마다가스카르 바닐라빈)",
+       "price": 6000
+      },
+      {
+       "category": "espresso",
+       "name": "저온숙성라떼(시그니처)",
+       "price": 7000
+      },
+      {
+       "category": "ade",
+       "name": "얼그레이레모네이드",
+       "price": 6000
+      },
+      {
+       "category": "ade",
+       "name": "자몽하니블랙에이드",
+       "price": 6000
+      },
+      {
+       "category": "ade",
+       "name": "파인애플에이드",
+       "price": 6000
+      },
+      {
+       "category": "latte",
+       "name": "밤로나초콜릿라떼",
+       "price": 6000
+      },
+      {
+       "category": "latte",
+       "name": "제주말차라떼",
+       "price": 6000
+      },
+      {
+       "category": "latte",
+       "name": "딸기라떼",
+       "price": 6000
+      },
+      {
+       "category": "latte",
+       "name": "검은콩콩라떼",
+       "price": 6000
+      },
+      {
+       "category": "variation tea",
+       "name": "레몬그라스밀크티",
+       "price": 6500
+      },
+      {
+       "category": "variation tea",
+       "name": "시나몬허니캐모마일",
+       "price": 6500
+      },
+      {
+       "category": "variation tea",
+       "name": "얼그레이레몬티",
+       "price": 6500
+      },
+      {
+       "category": "greek yogurt",
+       "name": "베리그릭요거트 (수제그래놀라, 꿀 제공)",
+       "price": 8500
+      },
+      {
+       "category": "highball",
+       "name": "잭다니엘스",
+       "price": 8900
+      },
+      {
+       "category": "highball",
+       "name": "헨드릭스",
+       "price": 8900
+      },
+      {
+       "category": "highball",
+       "name": "산토리가쿠빈",
+       "price": 7900
+      },
+      {
+       "category": "",
+       "name": "제주말차테린느",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "바스크치즈케이크",
+       "price": 5500
+      },
+      {
+       "category": "filter coffee",
+       "name": "Desta Ware",
+       "price": 8000
+      },
+      {
+       "category": "filter coffee",
+       "name": "Guatemala El Mirador",
+       "price": 7000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "cc."
+   ],
+   "rc": 2,
+   "lr": "1795062098.880839",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795062083304159"
+  },
   {
    "ts": "1795060447.800059",
    "date": "2026-11-19",
