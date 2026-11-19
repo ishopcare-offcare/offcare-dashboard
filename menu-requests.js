@@ -3,10 +3,42 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5552,
- "updatedAt": "2026-11-19 18:43",
+ "version": 5553,
+ "updatedAt": "2026-11-19 18:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1795082064.648709",
+   "date": "2026-11-19",
+   "time": "18:54",
+   "store": "카페메일빈디저트",
+   "biz": "5872302353",
+   "pos": "퍼스트포스",
+   "content": "메뉴 추가 요청드립니다  / 퍼스트포스",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CJRJEUNQP",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "• 짜장/짬뽕라면 카테고리\n    ◦ *바지락짬뽕 4,500원*\n위 메뉴가 누락이 되었다고 하셔서 재 등록 후 솔라피 발송 부탁 드립니다. :감사합니다11:"
+   ],
+   "rc": 2,
+   "lr": "1795082129.357629",
+   "rfx": 3,
+   "status": "confirm",
+   "handler": "최민석",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795082064648709"
+  },
   {
    "ts": "1795078099.758989",
    "date": "2026-11-19",
