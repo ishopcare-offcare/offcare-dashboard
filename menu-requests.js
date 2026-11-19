@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5545,
- "updatedAt": "2026-11-19 17:28",
+ "version": 5546,
+ "updatedAt": "2026-11-19 17:43",
  "days": 30,
  "items": [
+  {
+   "ts": "1795077828.168069",
+   "date": "2026-11-19",
+   "time": "17:43",
+   "store": "홍연옥",
+   "biz": "2011588578",
+   "pos": "퍼스트포스",
+   "content": "떡만두을국 물만두국으로 변경하고 금액을 10,000원으로 변경입니다.제 노트북에서  kpn asp 안들어가지네요",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795077828168069"
+  },
   {
    "ts": "1795076143.677709",
    "date": "2026-11-19",
