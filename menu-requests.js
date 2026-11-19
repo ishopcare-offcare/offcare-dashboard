@@ -3,10 +3,102 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5488,
- "updatedAt": "2026-11-19 10:24",
+ "version": 5489,
+ "updatedAt": "2026-11-19 10:27",
  "days": 30,
  "items": [
+  {
+   "ts": "1795051639.692369",
+   "date": "2026-11-19",
+   "time": "10:27",
+   "store": "하나루",
+   "biz": "1603101979",
+   "pos": "",
+   "content": "신규 메누ㅠ",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261119_102256523.jpg",
+     "fid": "F0CJX2DP3JP",
+     "from": "댓글",
+     "path": "menu-files/1795051639_692369-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "면류",
+       "name": "짜장면",
+       "price": 6000
+      },
+      {
+       "category": "면류",
+       "name": "하나볶음짜장",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "짬뽕",
+       "price": 8000
+      },
+      {
+       "category": "면류",
+       "name": "소고기짬뽕",
+       "price": 10000
+      },
+      {
+       "category": "면류",
+       "name": "해물짬뽕",
+       "price": 10000
+      },
+      {
+       "category": "밥류",
+       "name": "볶음밥",
+       "price": 8000
+      },
+      {
+       "category": "요리류",
+       "name": "탕수육 미니",
+       "price": 12000
+      },
+      {
+       "category": "요리류",
+       "name": "탕수육 소",
+       "price": 18000
+      },
+      {
+       "category": "요리류",
+       "name": "탕수육 중",
+       "price": 26000
+      },
+      {
+       "category": "주류",
+       "name": "소주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "맥주",
+       "price": 4000
+      },
+      {
+       "category": "주류",
+       "name": "음료수",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795051663.219779",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795051639692369"
+  },
   {
    "ts": "1795051075.643899",
    "date": "2026-11-19",
