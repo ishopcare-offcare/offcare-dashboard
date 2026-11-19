@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5516,
- "updatedAt": "2026-11-19 13:49",
+ "version": 5517,
+ "updatedAt": "2026-11-19 13:50",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "IMG_20261119_130439.jpg",
      "fid": "F0CJY2DQJ03",
      "from": "댓글",
-     "path": "menu-files/1795062083_304159-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -162,15 +161,16 @@ window.MENU_REQUESTS = {
        "price": 7000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795062083_304159-0.jpg"
     }
    ],
    "datt": [],
    "replies": [
     "cc."
    ],
-   "rc": 2,
-   "lr": "1795062098.880839",
+   "rc": 3,
+   "lr": "1795063780.637699",
    "rfx": 3,
    "status": "done",
    "handler": "김동욱",
@@ -68571,27 +68571,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792472436805559"
-  },
-  {
-   "ts": "1792471790.482599",
-   "date": "2026-10-20",
-   "time": "13:49",
-   "store": "시골마루",
-   "biz": "1304668196",
-   "pos": "오케이포스",
-   "content": "수고하십니다.\n부천 시골마루 입니다.\n\n1.세트류:\n쭈꾸미 전골 37,000\n주문 시 주방 프린트\n출력이 안되고 있습니다.\n작동 조정 부탁드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792471790482599"
   }
  ],
  "ocr": {
