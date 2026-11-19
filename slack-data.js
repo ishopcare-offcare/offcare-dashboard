@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35579,
+  "version": 35580,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339685,7 +339685,7 @@ window.SLACK_DATA = {
     "2026-11-19": {
       "counts": {
         "as": {
-          "고경림": 7,
+          "고경림": 8,
           "김동욱": 1,
           "미지정": 2,
           "송태양": 1,
@@ -339709,6 +339709,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "10:56",
+          "store": "비빔 147",
+          "biz": "2291503000",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "<https://w1659946222-hxm266180.slack.com/archives/C09HRUSG4TX/p1795052950810559|위 내용>으로 원격지원 받아서 해결 하셨는데, 또 동일하게 주문서 출력이 안된다고 하셔서 확인 요청 드립니다",
+          "hw": "",
+          "intake": "online",
+          "note": "쿠팡이츠 프로그램에서 주문서출력 불가 안내 • 토스포스 프로그램 현황탭에서 해당 주문건 선택후 재출력 안내완료 토스포스 프로그램 현황탭에서 해당 주문건 선택후 재출력 안내완료",
+          "rr": 1
+        },
         {
           "time": "10:49",
           "store": "비빔 147",
@@ -339973,11 +339985,11 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 17,
+        "online": 18,
         "offline": 5,
         "unknown": 0
       },
-      "updatedAt": "10:56",
+      "updatedAt": "10:58",
       "voc": {
         "responses": 1,
         "install": {
@@ -340120,15 +340132,15 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795053500.746
+        "lastSeen": 1795053575.186
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795053500.746
+        "lastSeen": 1795053575.186
       },
       "1795050000.555489": {
         "post": "1795050000.555489",
-        "lastSeen": 1795053500.746,
+        "lastSeen": 1795053575.186,
         "r": 1,
         "day": "2026-11-19",
         "idx": 9
@@ -470346,7 +470358,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 10:58",
+    "at": "2026-11-19 11:00",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470510,7 +470522,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 10:58",
+    "at": "2026-11-19 10:59",
     "pri": {
       "days": 0,
       "failed": [],
