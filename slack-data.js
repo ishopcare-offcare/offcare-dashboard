@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35557,
+  "version": 35558,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -339205,7 +339205,7 @@ window.SLACK_DATA = {
           "hw": "",
           "intake": "online",
           "note": "",
-          "rr": 5
+          "rr": 15
         },
         {
           "time": "10:08",
@@ -339686,8 +339686,8 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "송태양": 1,
-          "배선유": 3,
-          "고경림": 4
+          "고경림": 5,
+          "배선유": 3
         },
         "booking": {
           "고경림": 1
@@ -339709,6 +339709,18 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "• 교체 안내 및 입출고 접수 완료입니다 교체 안내 및 입출고 접수 완료입니다",
           "rr": 1
+        },
+        {
+          "time": "09:51",
+          "store": "씨벨커피(Cbell coffee)",
+          "biz": "7694800436",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "어제 원격 점검 후 금일 동일 증상 또 발생하여 인입되었습니다. 도움 부탁드립니다 :꾸벅곰:",
+          "hw": "",
+          "intake": "offline",
+          "note": "넵 알겠습니다!",
+          "rr": 2
         },
         {
           "time": "09:49",
@@ -339821,7 +339833,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 8,
-        "offline": 2,
+        "offline": 3,
         "unknown": 0
       },
       "updatedAt": "10:19"
@@ -339932,29 +339944,22 @@ window.SLACK_DATA = {
       },
       "1795046442.100329": {
         "post": "1795046442.100329",
-        "lastSeen": 1795051265.525
+        "lastSeen": 1795051351.394
       },
       "1795048213.554939": {
         "post": "1795048213.554939",
-        "lastSeen": 1795051265.525
-      },
-      "1795049511.075419": {
-        "post": "1795049511.075419",
-        "lastSeen": 1795051265.525,
-        "r": 1,
-        "day": "2026-11-19",
-        "idx": 8
+        "lastSeen": 1795051351.394
       },
       "1795050000.555489": {
         "post": "1795050000.555489",
-        "lastSeen": 1795051265.525,
+        "lastSeen": 1795051351.394,
         "r": 1,
         "day": "2026-11-19",
         "idx": 9
       },
       "1795051182.186899": {
         "post": "1795051182.186899",
-        "lastSeen": 1795051265.525
+        "lastSeen": 1795051351.394
       }
     },
     "days": {
@@ -470099,7 +470104,8 @@ window.SLACK_DATA = {
             "store": "씨벨커피(Cbell coffee)",
             "biz": "7694800436",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 30
           },
           {
             "hm": "10:00",
@@ -470123,7 +470129,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-19 10:21",
+    "at": "2026-11-19 10:23",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -470287,7 +470293,7 @@ window.SLACK_DATA = {
     "2026-11-19": 2
   },
   "noteMig": {
-    "at": "2026-11-19 10:21",
+    "at": "2026-11-19 10:22",
     "pri": {
       "days": 0,
       "failed": [],

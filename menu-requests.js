@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5486,
- "updatedAt": "2026-11-19 10:20",
+ "version": 5487,
+ "updatedAt": "2026-11-19 10:23",
  "days": 30,
  "items": [
   {
@@ -23,7 +23,6 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261119_100755084_02.jpg",
      "fid": "F0CK545QZ7B",
      "from": "댓글",
-     "path": "menu-files/1795051075_643899-0.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -45,13 +44,13 @@ window.MENU_REQUESTS = {
        "code": "3"
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795051075_643899-0.jpg"
     },
     {
      "name": "KakaoTalk_20261119_100755084_01.jpg",
      "fid": "F0CK6U30YKE",
      "from": "댓글",
-     "path": "menu-files/1795051075_643899-1.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -165,13 +164,13 @@ window.MENU_REQUESTS = {
        "price": 7500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795051075_643899-1.jpg"
     },
     {
      "name": "KakaoTalk_20261119_100755084.jpg",
      "fid": "F0CK18F7HC6",
      "from": "댓글",
-     "path": "menu-files/1795051075_643899-2.jpg",
      "kind": "menu_board",
      "menu": [
       {
@@ -340,13 +339,14 @@ window.MENU_REQUESTS = {
        "price": 7500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795051075_643899-2.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1795051133.700599",
+   "rc": 3,
+   "lr": "1795051314.670679",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
