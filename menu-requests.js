@@ -3,10 +3,34 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5532,
- "updatedAt": "2026-11-19 16:08",
+ "version": 5533,
+ "updatedAt": "2026-11-19 16:24",
  "days": 30,
  "items": [
+  {
+   "ts": "1795073022.904269",
+   "date": "2026-11-19",
+   "time": "16:23",
+   "store": "해송쌈밥",
+   "biz": "6736900751",
+   "pos": "",
+   "content": "해송쌈밥, 해송쌈밥 미사점 (<tel:···|···>) 메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "식사 카테고리 > 김치찌개 전골 10,000원",
+    "메뉴 요청 링크도 추가 발송해드림"
+   ],
+   "rc": 3,
+   "lr": "1795073043.253129",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795073022904269"
+  },
   {
    "ts": "1795069577.144919",
    "date": "2026-11-19",
