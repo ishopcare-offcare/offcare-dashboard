@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5481,
- "updatedAt": "2026-11-19 09:46",
+ "version": 5482,
+ "updatedAt": "2026-11-19 09:50",
  "days": 30,
  "items": [
   {
@@ -68739,27 +68739,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792457632565189"
-  },
-  {
-   "ts": "1792457385.574329",
-   "date": "2026-10-20",
-   "time": "09:49",
-   "store": "신마포갈비",
-   "biz": "1132387525",
-   "pos": "",
-   "content": "메뉴 수정 요청 / 갈비살 21,000 > 22,000원으로 변경 요청",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 2,
-   "lr": "1792457954.075839",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792457385574329"
   }
  ],
  "ocr": {
