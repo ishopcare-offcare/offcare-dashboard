@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5535,
- "updatedAt": "2026-11-19 16:34",
+ "version": 5536,
+ "updatedAt": "2026-11-19 16:37",
  "days": 30,
  "items": [
+  {
+   "ts": "1795073780.785129",
+   "date": "2026-11-19",
+   "time": "16:36",
+   "store": "파나시아(샐러마켓)킨텍스점",
+   "biz": "8628502271",
+   "pos": "퍼스트포스",
+   "content": "메뉴 추가 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "푸드코트 1번 부스 풀초롱 밥상에 풀초롱 비빔밥 12,000원 메뉴 추가 요청"
+   ],
+   "rc": 2,
+   "lr": "1795073792.627659",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795073780785129"
+  },
   {
    "ts": "1795073022.904269",
    "date": "2026-11-19",
