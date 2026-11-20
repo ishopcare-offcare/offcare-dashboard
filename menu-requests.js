@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5575,
- "updatedAt": "2026-11-20 13:17",
+ "version": 5576,
+ "updatedAt": "2026-11-20 13:21",
  "days": 30,
  "items": [
   {
@@ -588,14 +588,371 @@ window.MENU_REQUESTS = {
      "kind": "pos_screen",
      "menu": [],
      "v": 3
+    },
+    {
+     "name": "Clex_1795148151903.jpg",
+     "fid": "F0CKJPJP29F",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "베이커리",
+       "name": "아몬드크로와상",
+       "price": 5500
+      },
+      {
+       "category": "베이커리",
+       "name": "트리플치즈앤햄",
+       "price": 6800
+      },
+      {
+       "category": "베이커리",
+       "name": "뺑스위스",
+       "price": 4700
+      },
+      {
+       "category": "베이커리",
+       "name": "바닐라 퀸아망",
+       "price": 5500
+      },
+      {
+       "category": "베이커리",
+       "name": "뺑오쇼콜라",
+       "price": 4500
+      },
+      {
+       "category": "베이커리",
+       "name": "크로와상",
+       "price": 4200
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148156574.jpg",
+     "fid": "F0CKBJ72P7X",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Tea",
+       "name": "피치우롱티",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "크림슨펀치(히비스커스)",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "고흥 유자차",
+       "price": 6500
+      },
+      {
+       "category": "Tea",
+       "name": "복숭아아이스티",
+       "price": 3500
+      },
+      {
+       "category": "Tea",
+       "name": "로얄 캐모마일",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "라임레몬차",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "하동 매실차",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "루이보스티",
+       "price": 4000
+      },
+      {
+       "category": "Tea",
+       "name": "자몽티",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148161411.jpg",
+     "fid": "F0CKJPJLYFK",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "에이드&주스",
+       "name": "매실에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드&주스",
+       "name": "라임레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드&주스",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "에이드&주스",
+       "name": "오렌지착즙주스",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148166562.jpg",
+     "fid": "F0CKETTCMSS",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "논커피라떼&블렌디드",
+       "name": "밤라떼",
+       "price": 5800
+      },
+      {
+       "category": "논커피라떼&블렌디드",
+       "name": "플레인 요거트 스무디",
+       "price": 5500
+      },
+      {
+       "category": "논커피라떼&블렌디드",
+       "name": "말차라떼",
+       "price": 5500
+      },
+      {
+       "category": "논커피라떼&블렌디드",
+       "name": "얼그레이밀크티",
+       "price": 5000
+      },
+      {
+       "category": "논커피라떼&블렌디드",
+       "name": "발로나 초코라떼",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148171703.jpg",
+     "fid": "F0CKETTNBF0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 아메리카노",
+       "price": 4500
+      },
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 더블탭 라떼",
+       "price": 7800
+      },
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 수제 바닐라빈 라떼",
+       "price": 6500
+      },
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 카페라떼",
+       "price": 5800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148176943.jpg",
+     "fid": "F0CKJPK6ZB3",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "더블탭 라떼",
+       "price": 5800
+      },
+      {
+       "category": "커피",
+       "name": "필터 커피",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "플랫화이트",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "바닐라 라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "로스티드 헤이즐넛라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "돌체라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "크림라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "선셋커피",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "카라멜라떼",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148114250.jpg",
+     "fid": "F0CLB8DB84Q",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "드립백",
+       "name": "시트러스 드립백 1EA",
+       "price": 1800
+      },
+      {
+       "category": "드립백",
+       "name": "디카페인 드립백 1EA",
+       "price": 1700
+      },
+      {
+       "category": "드립백",
+       "name": "데일리 드립백 1 EA",
+       "price": 1500
+      },
+      {
+       "category": "드립백",
+       "name": "디카페인 드립백",
+       "price": 14800
+      },
+      {
+       "category": "드립백",
+       "name": "더블탭 시트러스 드립백",
+       "price": 14800
+      },
+      {
+       "category": "드립백",
+       "name": "더블탭 데일리 드립백",
+       "price": 12900
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148116710.jpg",
+     "fid": "F0CKBJ8GCPP",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "원두",
+       "name": "납품용1kg원두",
+       "price": 27500
+      },
+      {
+       "category": "원두",
+       "name": "더블탭 시트러스 블랜딩",
+       "price": 15000
+      },
+      {
+       "category": "원두",
+       "name": "디카페인",
+       "price": 15000
+      },
+      {
+       "category": "원두",
+       "name": "더블탭 데일리 블랜딩",
+       "price": 12000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795148147082.jpg",
+     "fid": "F0CKAL2SY4B",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "휘낭시에, 디저트",
+       "name": "헤이즐넛 휘낭시에",
+       "price": 3700
+      },
+      {
+       "category": "휘낭시에, 디저트",
+       "name": "르뱅쿠키",
+       "price": 4200
+      },
+      {
+       "category": "휘낭시에, 디저트",
+       "name": "에그타르트",
+       "price": 3800
+      },
+      {
+       "category": "휘낭시에, 디저트",
+       "name": "플레인 휘낭시에",
+       "price": 3000
+      }
+     ],
+     "v": 3
     }
    ],
    "datt": [],
    "replies": [
-    "화질이 좀 안좋은 것 같아서 혹시나 등록 어려우면 사진 다시 받아오겠습니다!"
+    "화질이 좀 안좋은 것 같아서 혹시나 등록 어려우면 사진 다시 받아오겠습니다!",
+    "성현님 다시 전달드려요!"
    ],
-   "rc": 4,
-   "lr": "1795138158.120559",
+   "rc": 5,
+   "lr": "1795148368.336699",
    "rfx": 3,
    "status": "wait",
    "handler": null,
