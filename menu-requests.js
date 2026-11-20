@@ -3,10 +3,43 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5606,
- "updatedAt": "2026-11-20 16:26",
+ "version": 5607,
+ "updatedAt": "2026-11-20 16:33",
  "days": 30,
  "items": [
+  {
+   "ts": "1795159965.201019",
+   "date": "2026-11-20",
+   "time": "16:32",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290703720",
+   "pos": "",
+   "content": "메뉴사진 등록요청으로 공유드립니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CKL1SGLV7",
+     "from": "댓글",
+     "path": "menu-files/1795159965_201019-0.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "통골뱅이탕"
+   ],
+   "rc": 2,
+   "lr": "1795159973.178169",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795159965201019"
+  },
   {
    "ts": "1795157871.101099",
    "date": "2026-11-20",
@@ -238,18 +271,82 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CKG4JQDJS",
      "from": "댓글",
-     "path": "menu-files/1795151978_774309-2.png",
      "kind": "other",
      "menu": [],
+     "v": 3,
+     "path": "menu-files/1795151978_774309-2.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CKCRSAGSH",
+     "from": "댓글",
+     "path": "menu-files/1795151978_774309-3.png",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "홍게무한리필",
+       "price": 39000
+      },
+      {
+       "category": "메뉴",
+       "name": "홍게무한리필(초등학생)",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "홍게무한리필(유아)",
+       "price": 5000
+      },
+      {
+       "category": "메뉴",
+       "name": "A홍게세트",
+       "price": 79000
+      },
+      {
+       "category": "메뉴",
+       "name": "B홍게세트",
+       "price": 119000
+      },
+      {
+       "category": "메뉴",
+       "name": "속초최저가대게",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "메뉴",
+       "name": "속초최저가대게세트",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "메뉴",
+       "name": "홍게투움바파스타",
+       "price": 17000
+      },
+      {
+       "category": "메뉴",
+       "name": "홍게너라면",
+       "price": 15000
+      },
+      {
+       "category": "메뉴",
+       "name": "홍게크림파스타",
+       "price": 17000
+      }
+     ],
      "v": 3
     }
    ],
    "datt": [],
    "replies": [
-    "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다."
+    "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다.",
+    "재우님 혹시 저 사진 하이오더 사진 말씀하시는거 아니에요?",
+    "하이오더 사진은 하이오더 에서 컨트롤 합니다."
    ],
-   "rc": 18,
-   "lr": "1795159562.479509",
+   "rc": 22,
+   "lr": "1795159958.555989",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
