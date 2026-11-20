@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5622,
- "updatedAt": "2026-11-20 17:02",
+ "version": 5623,
+ "updatedAt": "2026-11-20 17:04",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,1007 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "1386.jpg",
+     "fid": "F0CLCNH8N2U",
+     "from": "댓글",
+     "path": "menu-files/1795161692_340789-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "스무디/프라페",
+       "name": "플레인스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "딸기스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "망고스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "복숭아스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "블루베리스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "유자스무디",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "초코프라페",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "민트초코프라페",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "오레오프라페",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "모카프라페",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "녹차프라페",
+       "price": 6000
+      },
+      {
+       "category": "스무디/프라페",
+       "name": "사이즈업",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1385.jpg",
+     "fid": "F0CKD2X8ZEH",
+     "from": "댓글",
+     "path": "menu-files/1795161692_340789-1.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Latte",
+       "name": "고구마라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "고구마라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "타로밀크티라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "토피넛라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "토피넛라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "녹차라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "녹차라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "타로밀크티라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "흑당라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "흑당라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "밀크티hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "밀크티ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "딸기라떼ice",
+       "price": 5500
+      },
+      {
+       "category": "Latte",
+       "name": "샷자몽라떼ice",
+       "price": 5800
+      },
+      {
+       "category": "Latte",
+       "name": "쵸코라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "쵸코라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "신저라떼hot",
+       "price": 5500
+      },
+      {
+       "category": "Latte",
+       "name": "자몽라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "미숫가루hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "미숫가루ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "민트쵸코라떼hot",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "민트쵸코라떼ice",
+       "price": 4800
+      },
+      {
+       "category": "Latte",
+       "name": "사이즈업",
+       "price": 700
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1388.jpg",
+     "fid": "F0CK30F4HGF",
+     "from": "댓글",
+     "path": "menu-files/1795161692_340789-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Tea",
+       "name": "레몬차hot",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "레몬차ice",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "자몽차hot",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "자몽차ice",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "유자차hot",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "유자차ice",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "생강차hot",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "생강차ice",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "대추차hot",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "대추차ice",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "쌍화차(hot)",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "정관장hot",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "정관장ice",
+       "price": 5000
+      },
+      {
+       "category": "Tea",
+       "name": "자몽허니블랙티hot",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "자몽허니블랙티ice",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "레몬히비스커스hot",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "레몬히비스커스ice",
+       "price": 5500
+      },
+      {
+       "category": "Tea",
+       "name": "생강청 250ml",
+       "price": 15000
+      },
+      {
+       "category": "Tea",
+       "name": "사이즈업",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1389.jpg",
+     "fid": "F0CKC4U9P2P",
+     "from": "댓글",
+     "path": "menu-files/1795161692_340789-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Ade",
+       "name": "레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "유자에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "청포도에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "딸기에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "깔라만시에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "복숭아아이스티",
+       "price": 4500
+      },
+      {
+       "category": "Ade",
+       "name": "청귤에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "패션후르츠에이드",
+       "price": 5500
+      },
+      {
+       "category": "Ade",
+       "name": "사이즈업",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1390.jpg",
+     "fid": "F0CKL8BMNSD",
+     "from": "댓글",
+     "path": "menu-files/1795161692_340789-4.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "버블티",
+       "name": "버블밀크티hot",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블밀크티ice",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블흑당카페라떼hot",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블흑당카페라떼ice",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블타로hot",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블타로ice",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블흑당라떼hot",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블흑당라떼ice",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블쵸코hot",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블쵸코ice",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블미숫가루hot",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블미숫가루ice",
+       "price": 6000
+      },
+      {
+       "category": "버블티",
+       "name": "버블hot",
+       "price": 5500
+      },
+      {
+       "category": "버블티",
+       "name": "버블ice",
+       "price": 5500
+      },
+      {
+       "category": "버블티",
+       "name": "사이즈업",
+       "price": 1200
+      },
+      {
+       "category": "버블티",
+       "name": "펄추가",
+       "price": 1500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1392.jpg",
+     "fid": "F0CKD30R99T",
+     "from": "댓글",
+     "path": "menu-files/1795161692_340789-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "허브Tea",
+       "name": "루이보스 hot",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "루이보스 ice",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "캐모마일 hot",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "캐모마일 ice",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "페퍼민트 hot",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "페퍼민트 ice",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "히비스커스 hot",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "히비스커스 ice",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "얼그레이 hot",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "얼그레이 ice",
+       "price": 4000
+      },
+      {
+       "category": "허브Tea",
+       "name": "사이즈업",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1394.jpg",
+     "fid": "F0CK30H6CBH",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빙수",
+       "name": "오늘의음료",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "빙수",
+       "name": "모닝세트",
+       "price": 6000
+      },
+      {
+       "category": "빙수",
+       "name": "모닝토스트",
+       "price": 4000
+      },
+      {
+       "category": "빙수",
+       "name": "커피변경",
+       "price": 1000
+      },
+      {
+       "category": "빙수",
+       "name": "카야세트",
+       "price": 6000
+      },
+      {
+       "category": "빙수",
+       "name": "카야토스트",
+       "price": 4000
+      },
+      {
+       "category": "빙수",
+       "name": "호두타르트",
+       "price": 3000
+      },
+      {
+       "category": "빙수",
+       "name": "스콘",
+       "price": 3000
+      },
+      {
+       "category": "빙수",
+       "name": "커피콩빵세트",
+       "price": 5000
+      },
+      {
+       "category": "빙수",
+       "name": "커피콩빵",
+       "price": 3000
+      },
+      {
+       "category": "빙수",
+       "name": "쿠키",
+       "price": 2000
+      },
+      {
+       "category": "빙수",
+       "name": "굴뚝빵",
+       "price": 5500
+      },
+      {
+       "category": "빙수",
+       "name": "김밥세트",
+       "price": 5500
+      },
+      {
+       "category": "빙수",
+       "name": "에그타르트",
+       "price": 3000
+      },
+      {
+       "category": "빙수",
+       "name": "휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "빙수",
+       "name": "키토꼬마김밥",
+       "price": 3500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1395.jpg",
+     "fid": "F0CK30J1TU7",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "빙수",
+       "name": "팥빙수",
+       "price": 13000
+      },
+      {
+       "category": "빙수",
+       "name": "인절미빙수",
+       "price": 13000
+      },
+      {
+       "category": "빙수",
+       "name": "망고요거트빙수",
+       "price": 15000
+      },
+      {
+       "category": "빙수",
+       "name": "팥추가",
+       "price": 1000
+      },
+      {
+       "category": "빙수",
+       "name": "인절미추가",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1391.jpg",
+     "fid": "F0CLCNMGTT2",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "스넥&음료",
+       "name": "골드매달애플쥬스",
+       "price": 3800
+      },
+      {
+       "category": "스넥&음료",
+       "name": "스파클링애플쥬스",
+       "price": 3800
+      },
+      {
+       "category": "스넥&음료",
+       "name": "산펠레그리노",
+       "price": 3500
+      },
+      {
+       "category": "스넥&음료",
+       "name": "탄산수",
+       "price": 3500
+      },
+      {
+       "category": "스넥&음료",
+       "name": "우유",
+       "price": 3000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "커피쿠폰",
+       "price": 30000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "커피쿠폰",
+       "price": 40000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "음료쿠폰",
+       "price": 10000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "음료",
+       "price": 20000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "음료",
+       "price": 50000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "기타",
+       "price": 100
+      },
+      {
+       "category": "스넥&음료",
+       "name": "기타",
+       "price": 200
+      },
+      {
+       "category": "스넥&음료",
+       "name": "기타",
+       "price": 300
+      },
+      {
+       "category": "스넥&음료",
+       "name": "기타",
+       "price": 1000
+      },
+      {
+       "category": "스넥&음료",
+       "name": "기타",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1393.jpg",
+     "fid": "F0CLCNM6G3A",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "생과일",
+       "name": "키위쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "키위바나나",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "수박쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "천도복숭아쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "토마토쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "바나나쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "딸기쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "딸기바나나",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "사과+당근쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "오렌지쥬스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "망고주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "망고바나나",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "사과주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "당근주스",
+       "price": 6000
+      },
+      {
+       "category": "생과일",
+       "name": "사이즈업",
+       "price": 1000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1387.jpg",
+     "fid": "F0CKJ66K5RQ",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "아메리카노 hot",
+       "price": 3000
+      },
+      {
+       "category": "Coffee",
+       "name": "아메리카노 ice",
+       "price": 3000
+      },
+      {
+       "category": "Coffee",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼 hot",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카페라떼 ice",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카푸치노 hot",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "카푸치노 ice",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "더블사이즈업ICE",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼 hot",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "바닐라라떼 ice",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "카페모카 hot",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "카페모카 ice",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "아메리카노 리필",
+       "price": 1000
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛라떼hot",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛라떼ice",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜마끼아또hot",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "카라멜마끼아또ice",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "연유라떼 hot",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "연유라떼 ice",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "더치커피 hot",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "더치커피 ice",
+       "price": 4500
+      },
+      {
+       "category": "Coffee",
+       "name": "헤이즐넛시럽",
+       "price": 700
+      },
+      {
+       "category": "Coffee",
+       "name": "더치라떼 hot",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "더치라떼 ice",
+       "price": 5500
+      },
+      {
+       "category": "Coffee",
+       "name": "아포가토",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "복고다방커피",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "샷추가",
+       "price": 700
+      },
+      {
+       "category": "Coffee",
+       "name": "사이즈업",
+       "price": 700
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1396.jpg",
+     "fid": "F0CKC4YEFRR",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "Coffee",
+       "name": "디카페인 hot",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "디카페인 ice",
+       "price": 4000
+      },
+      {
+       "category": "Coffee",
+       "name": "흑당카페라떼hot",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "흑당카페라떼 ice",
+       "price": 5000
+      },
+      {
+       "category": "Coffee",
+       "name": "원두100",
+       "price": 10000
+      },
+      {
+       "category": "Coffee",
+       "name": "더치원액 250ml",
+       "price": 11000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [],
-   "rc": 1,
-   "lr": "1795161700.330909",
+   "rc": 3,
+   "lr": "1795161766.183199",
    "rfx": 3,
    "status": "wait",
    "handler": null,
