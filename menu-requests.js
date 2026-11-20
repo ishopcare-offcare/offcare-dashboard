@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5566,
- "updatedAt": "2026-11-20 10:47",
+ "version": 5567,
+ "updatedAt": "2026-11-20 10:51",
  "days": 30,
  "items": [
   {
@@ -66068,32 +66068,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792552885524669"
-  },
-  {
-   "ts": "1792547508.494359",
-   "date": "2026-10-21",
-   "time": "10:51",
-   "store": "산정호수가든",
-   "biz": "",
-   "pos": "",
-   "content": "[📧 메일] 제목: 산정호수가든 메뉴정보\n대용량 첨부 2개 14MB  20261021_103353.jpg 7712528 ~ 2026/11/20 20261021_103417.jpg 7367432 ~ 2026/11/20 기한이 있는 파일은 30일 보관 / 100회 다운로드 가능    \n:link: [메일 열기](<https://mail.google.com/mail/u/0/#inbox/1a15c2618e25ef99>)",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "matt": [],
-   "mail": {
-    "link": "https://mail.google.com/mail/u/0/#inbox/1a15c2618e25ef99",
-    "big": 0
-   },
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792547508494359"
   }
  ],
  "ocr": {
