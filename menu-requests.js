@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5611,
- "updatedAt": "2026-11-20 16:40",
+ "version": 5612,
+ "updatedAt": "2026-11-20 16:41",
  "days": 30,
  "items": [
   {
@@ -372,20 +372,20 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CKCTECDU5",
      "from": "댓글",
-     "path": "menu-files/1795151978_774309-4.png",
      "kind": "other",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795151978_774309-4.png"
     }
    ],
    "datt": [],
    "replies": [
-    "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다.",
     "재우님 혹시 저 사진 하이오더 사진 말씀하시는거 아니에요?",
-    "하이오더 사진은 하이오더 에서 컨트롤 합니다."
+    "하이오더 사진은 하이오더 에서 컨트롤 합니다.",
+    "okpos종료 후 재시작 하여야 적용 됩니다"
    ],
-   "rc": 27,
-   "lr": "1795160426.104739",
+   "rc": 31,
+   "lr": "1795160486.357779",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
