@@ -3,10 +3,47 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5555,
- "updatedAt": "2026-11-19 19:50",
+ "version": 5556,
+ "updatedAt": "2026-11-20 09:00",
  "days": 30,
  "items": [
+  {
+   "ts": "1795132340.686919",
+   "date": "2026-11-20",
+   "time": "08:52",
+   "store": "올든타코",
+   "biz": "1171588477",
+   "pos": "",
+   "content": "신규설치예정 메뉴등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "KakaoTalk_20261119_203529221.jpg",
+     "fid": "F0CL9H8RDB2",
+     "from": "댓글",
+     "path": "menu-files/1795132340_686919-0.jpg"
+    },
+    {
+     "name": "KakaoTalk_20261119_203529221_01.jpg",
+     "fid": "F0CKH31PDUZ",
+     "from": "댓글",
+     "path": "menu-files/1795132340_686919-1.jpg"
+    }
+   ],
+   "datt": [],
+   "replies": [
+    "메뉴입력시 한글로부탁드립니다!!!!!",
+    "1. 하프앤하프 화이타M/L 선택옵션 추가\n칠리쉬림프/스테이크/그릴드포크\n\n2.스테이크화이타,칠리쉬림프화이타/그릴드포크화이타\n사이즈 M/L 옵션\n\n3.스테이크타코\n그린살사 0/X 옵션\n\n4.비프타코\n고수 O/X 옵션"
+   ],
+   "rc": 4,
+   "lr": "1795132505.161679",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795132340686919"
+  },
   {
    "ts": "1795082064.648709",
    "date": "2026-11-19",
@@ -66005,6 +66042,10 @@ window.MENU_REQUESTS = {
  "ocr": {
   "model": "claude-opus-5",
   "enabled": true,
-  "drive": true
+  "drive": true,
+  "halt": {
+   "status": 400,
+   "message": "You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC."
+  }
  }
 };
