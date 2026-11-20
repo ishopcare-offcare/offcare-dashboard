@@ -3,10 +3,222 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5561,
- "updatedAt": "2026-11-20 10:16",
+ "version": 5562,
+ "updatedAt": "2026-11-20 10:24",
  "days": 30,
  "items": [
+  {
+   "ts": "1795137812.896249",
+   "date": "2026-11-20",
+   "time": "10:23",
+   "store": "제주쾅쾅돈가스 동두천점",
+   "biz": "2022864981",
+   "pos": "",
+   "content": "신규설치예정 메뉴등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "IMG_0548.PNG",
+     "fid": "F0CKFJN0542",
+     "from": "댓글",
+     "path": "menu-files/1795137812_896249-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "돈가스",
+       "name": "현무암 흑돈가스",
+       "price": 14000
+      },
+      {
+       "category": "돈가스",
+       "name": "현무암 통치즈 흑돈가스",
+       "price": 14000
+      },
+      {
+       "category": "돈가스",
+       "name": "경양식 대왕돈가스",
+       "price": 12500
+      },
+      {
+       "category": "돈가스",
+       "name": "매운 경양식대왕돈가스",
+       "price": 12500
+      },
+      {
+       "category": "돈가스",
+       "name": "모듬돈가스",
+       "price": 13000
+      },
+      {
+       "category": "돈가스",
+       "name": "치즈 부대찌개 돈가스",
+       "price": 13000
+      },
+      {
+       "category": "돈가스",
+       "name": "통등심돈가스",
+       "price": 8900
+      },
+      {
+       "category": "돈가스",
+       "name": "치즈홀릭돈가스",
+       "price": 12000
+      },
+      {
+       "category": "돈가스",
+       "name": "안심돈가스",
+       "price": 13000
+      },
+      {
+       "category": "돈가스",
+       "name": "민찌카레돈가스",
+       "price": 11500
+      },
+      {
+       "category": "돈가스",
+       "name": "매운불가스",
+       "price": 11500
+      },
+      {
+       "category": "돈가스",
+       "name": "꿀고구마경양식돈가스",
+       "price": 11500
+      },
+      {
+       "category": "돈가스",
+       "name": "꿀고구마치즈홀릭돈가스",
+       "price": 13000
+      },
+      {
+       "category": "사이드",
+       "name": "튀김어묵 떡볶이",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "쫄면",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "냉쫄면",
+       "price": 8500
+      },
+      {
+       "category": "사이드",
+       "name": "냉모밀소바",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "냉우동",
+       "price": 8000
+      },
+      {
+       "category": "사이드",
+       "name": "김치유부우동",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "새우튀김우동",
+       "price": 8500
+      },
+      {
+       "category": "사이드",
+       "name": "새우튀김(5p)",
+       "price": 5000
+      },
+      {
+       "category": "사이드",
+       "name": "스마일감자튀김(5p)",
+       "price": 1500
+      },
+      {
+       "category": "파스타&덮밥류",
+       "name": "치즈오븐파스타",
+       "price": 11500
+      },
+      {
+       "category": "파스타&덮밥류",
+       "name": "베이컨크림파스타",
+       "price": 11500
+      },
+      {
+       "category": "파스타&덮밥류",
+       "name": "매콤직화제육덮밥",
+       "price": 11500
+      },
+      {
+       "category": "파스타&덮밥류",
+       "name": "달콤직화불고기덮밥",
+       "price": 11500
+      },
+      {
+       "category": "파스타&덮밥류",
+       "name": "민찌카레돈가스덮밥",
+       "price": 13000
+      },
+      {
+       "category": "돈가스 단품 추가",
+       "name": "왕돈가스만(1p)",
+       "price": 7000
+      },
+      {
+       "category": "돈가스 단품 추가",
+       "name": "등심돈가스만(1p)",
+       "price": 5000
+      },
+      {
+       "category": "돈가스 단품 추가",
+       "name": "치즈돈가스만(1p)",
+       "price": 5000
+      },
+      {
+       "category": "돈가스 단품 추가",
+       "name": "안심돈가스만(2p)",
+       "price": 6000
+      },
+      {
+       "category": "돈가스 단품 추가",
+       "name": "오징어튀김(5p)",
+       "price": 6000
+      },
+      {
+       "category": "시원한 음료",
+       "name": "미니감귤주스",
+       "price": 900
+      },
+      {
+       "category": "시원한 음료",
+       "name": "한라봉에이드",
+       "price": 2000
+      },
+      {
+       "category": "시원한 음료",
+       "name": "콜라(or제로)",
+       "price": 2000
+      },
+      {
+       "category": "시원한 음료",
+       "name": "스프라이트(or제로)",
+       "price": 2000
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1795137820.725799",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795137812896249"
+  },
   {
    "ts": "1795137193.669499",
    "date": "2026-11-20",
