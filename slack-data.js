@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35987,
+  "version": 35988,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -342099,6 +342099,9 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "고경림": 1
+        },
+        "menu": {
+          "송태양": 1
         }
       },
       "pending": [],
@@ -342114,10 +342117,22 @@ window.SLACK_DATA = {
           "intake": "offline",
           "note": "퍼스트포스 프로그램 사용매장 영수프린터 rs232 선이 정상적으로 꽃혀잇지않음 • 제대로 꽂은후 정상출력확인완료 제대로 꽂은후 정상출력확인완료",
           "rr": 1
+        },
+        {
+          "time": "08:52",
+          "store": "올든타코",
+          "biz": "1171588477",
+          "cat": "menu",
+          "emp": "송태양",
+          "req": "신규설치예정 메뉴등록",
+          "hw": "",
+          "intake": "online",
+          "note": "등록/ 솔라피전송 완료입니다",
+          "rr": 5
         }
       ],
       "intake": {
-        "online": 0,
+        "online": 1,
         "offline": 1,
         "unknown": 0
       },
@@ -342237,18 +342252,18 @@ window.SLACK_DATA = {
       },
       "1795132811.708519": {
         "post": "1795132811.708519",
-        "lastSeen": 1795133395.4,
+        "lastSeen": 1795133479.554,
         "r": 1,
         "day": "2026-11-20",
         "idx": 0
       },
       "1795132807.617179": {
         "post": "1795132807.617179",
-        "lastSeen": 1795133395.4
+        "lastSeen": 1795133479.554
       },
       "1795133279.876539": {
         "post": "1795133279.876539",
-        "lastSeen": 1795133395.4
+        "lastSeen": 1795133479.554
       }
     },
     "days": {
@@ -473564,7 +473579,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-20 09:10",
+    "at": "2026-11-20 09:12",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473729,7 +473744,7 @@ window.SLACK_DATA = {
     "2026-11-20": 2
   },
   "noteMig": {
-    "at": "2026-11-20 09:09",
+    "at": "2026-11-20 09:11",
     "pri": {
       "days": 0,
       "failed": [],

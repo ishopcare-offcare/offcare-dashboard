@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5556,
- "updatedAt": "2026-11-20 09:00",
+ "version": 5557,
+ "updatedAt": "2026-11-20 09:12",
  "days": 30,
  "items": [
   {
@@ -37,8 +37,8 @@ window.MENU_REQUESTS = {
     "메뉴입력시 한글로부탁드립니다!!!!!",
     "1. 하프앤하프 화이타M/L 선택옵션 추가\n칠리쉬림프/스테이크/그릴드포크\n\n2.스테이크화이타,칠리쉬림프화이타/그릴드포크화이타\n사이즈 M/L 옵션\n\n3.스테이크타코\n그린살사 0/X 옵션\n\n4.비프타코\n고수 O/X 옵션"
    ],
-   "rc": 4,
-   "lr": "1795132505.161679",
+   "rc": 5,
+   "lr": "1795133439.909239",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
