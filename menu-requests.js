@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5640,
- "updatedAt": "2026-11-20 18:16",
+ "version": 5641,
+ "updatedAt": "2026-11-20 18:25",
  "days": 30,
  "items": [
   {
@@ -66411,41 +66411,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792575108653929"
-  },
-  {
-   "ts": "1792574583.382019",
-   "date": "2026-10-21",
-   "time": "18:23",
-   "store": "대주(969-2453)부동산공인중개사사무소",
-   "biz": "8821102634",
-   "pos": "퍼스트포스",
-   "content": "여기 메뉴 복사 필요해서 요청 드립니다!",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CAGF6BN4F",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "v": 2,
-     "path": "menu-files/1792574583_382019-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "*KOCES 토플파 > KPN 토플파* 에 메뉴 그대로 복사 부탁 드립니다!\n\n상품에 등록 된 바코드랑 시제도 동일하게 복사가 되는걸까요?",
-    "오..?",
-    "엇 그러네요..? 안보인다고 하셨었는데, 다시 새로고침 해보라고 할게요 확인 감사합니다. :감사합니다꾸벅:"
-   ],
-   "rc": 8,
-   "lr": "1792575446.882559",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792574583382019"
   }
  ],
  "ocr": {
