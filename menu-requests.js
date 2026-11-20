@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5590,
- "updatedAt": "2026-11-20 15:00",
+ "version": 5591,
+ "updatedAt": "2026-11-20 15:03",
  "days": 30,
  "items": [
   {
@@ -42,8 +42,8 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [],
-   "rc": 0,
-   "lr": "",
+   "rc": 1,
+   "lr": "1795154561.132839",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -65,8 +65,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다."
    ],
-   "rc": 10,
-   "lr": "1795154282.031789",
+   "rc": 11,
+   "lr": "1795154567.843149",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
