@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5592,
- "updatedAt": "2026-11-20 15:06",
+ "version": 5593,
+ "updatedAt": "2026-11-20 15:08",
  "days": 30,
  "items": [
+  {
+   "ts": "1795154872.043979",
+   "date": "2026-11-20",
+   "time": "15:07",
+   "store": "이자카야 문",
+   "biz": "1920603875",
+   "pos": "토스포스",
+   "content": "LGU+이관가맹점 - 프론트 추가하면서 토스 프로그램으로 변경 메뉴 등록 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "사진 대기 중"
+   ],
+   "rc": 2,
+   "lr": "1795154896.153409",
+   "rfx": 3,
+   "status": "done",
+   "handler": "심성현",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795154872043979"
+  },
   {
    "ts": "1795154233.902939",
    "date": "2026-11-20",
@@ -65,8 +88,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다."
    ],
-   "rc": 11,
-   "lr": "1795154567.843149",
+   "rc": 13,
+   "lr": "1795154924.900459",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
