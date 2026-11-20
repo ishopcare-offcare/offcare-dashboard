@@ -3,10 +3,47 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5612,
- "updatedAt": "2026-11-20 16:41",
+ "version": 5613,
+ "updatedAt": "2026-11-20 16:46",
  "days": 30,
  "items": [
+  {
+   "ts": "1795160704.143399",
+   "date": "2026-11-20",
+   "time": "16:45",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290703720",
+   "pos": "토스포스",
+   "content": "맥주\n막걸리",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1gIruECzpgf9wtXvdQ-fX5Zlp83BpKFNL/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1XIsN0T7FIbP8xyqm1eKHnBXIXd36ccSK/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1gIruECzpgf9wtXvdQ-fX5Zlp83BpKFNL",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "id": "1XIsN0T7FIbP8xyqm1eKHnBXIXd36ccSK",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795160704143399"
+  },
   {
    "ts": "1795160411.944639",
    "date": "2026-11-20",
