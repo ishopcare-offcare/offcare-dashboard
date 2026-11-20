@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5649,
- "updatedAt": "2026-11-20 20:09",
+ "version": 5650,
+ "updatedAt": "2026-11-20 20:28",
  "days": 30,
  "items": [
+  {
+   "ts": "1795173973.241729",
+   "date": "2026-11-20",
+   "time": "20:26",
+   "store": "강창구찹쌀진순대 과천펜타원점",
+   "biz": "6103262196",
+   "pos": "",
+   "content": "[메뉴등록] 오더카테고리\n김치삼겹살 옵션추가\n추가 =17,000\n생성이 안되었습니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795173973.543629",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795173973241729"
+  },
   {
    "ts": "1795170947.784059",
    "date": "2026-11-20",
@@ -21,10 +42,11 @@ window.MENU_REQUESTS = {
    "att": [],
    "datt": [],
    "replies": [
-    "해당 매장 긴급으로 요청주셔서 부탁드리겠습니다."
+    "해당 매장 긴급으로 요청주셔서 부탁드리겠습니다.",
+    "네 잠시만요 다른 as가 있어서 끊고 연락드리겠씁니다 ."
    ],
-   "rc": 1,
-   "lr": "1795172874.316639",
+   "rc": 2,
+   "lr": "1795173990.588089",
    "rfx": 3,
    "status": "wait",
    "handler": null,
