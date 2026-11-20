@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5637,
- "updatedAt": "2026-11-20 17:50",
+ "version": 5638,
+ "updatedAt": "2026-11-20 17:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1795165032.784729",
+   "date": "2026-11-20",
+   "time": "17:57",
+   "store": "강창구찹쌀진순대 과천펜타원점",
+   "biz": "6103262196",
+   "pos": "",
+   "content": "[메뉴등록] 식사류(카테고리)\n정식접시 옆에\n김치삼겹살추가\n17,000원 생성 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795165033.128269",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795165032784729"
+  },
   {
    "ts": "1795164435.789119",
    "date": "2026-11-20",
