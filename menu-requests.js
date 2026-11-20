@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5627,
- "updatedAt": "2026-11-20 17:14",
+ "version": 5628,
+ "updatedAt": "2026-11-20 17:15",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795162041910419"
   },
   {
@@ -74,7 +74,6 @@ window.MENU_REQUESTS = {
      "name": "1399.jpg",
      "fid": "F0CLCP194F2",
      "from": "댓글",
-     "path": "menu-files/1795161831_263679-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -148,22 +147,22 @@ window.MENU_REQUESTS = {
        "price": 30000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795161831_263679-0.jpg"
     },
     {
      "name": "1400.jpg",
      "fid": "F0CK30YH0B1",
      "from": "댓글",
-     "path": "menu-files/1795161831_263679-1.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795161831_263679-1.jpg"
     },
     {
      "name": "1401.jpg",
      "fid": "F0CKD3H9A0M",
      "from": "댓글",
-     "path": "menu-files/1795161831_263679-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -272,13 +271,13 @@ window.MENU_REQUESTS = {
        "price": 2500
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795161831_263679-2.jpg"
     },
     {
      "name": "1402.jpg",
      "fid": "F0CKL8UVBRP",
      "from": "댓글",
-     "path": "menu-files/1795161831_263679-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -352,13 +351,14 @@ window.MENU_REQUESTS = {
        "price": 100
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795161831_263679-3.jpg"
     }
    ],
    "datt": [],
    "replies": [],
-   "rc": 2,
-   "lr": "1795161866.247169",
+   "rc": 3,
+   "lr": "1795162514.879939",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
