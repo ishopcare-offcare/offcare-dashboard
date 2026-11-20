@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5633,
- "updatedAt": "2026-11-20 17:40",
+ "version": 5634,
+ "updatedAt": "2026-11-20 17:44",
  "days": 30,
  "items": [
   {
@@ -43,9 +43,12 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "님! 혹시 요거 등록이 되었을까요~?",
+    "제가 대시보드에서 봤을 때는 위 4개 메뉴 4인분에는 사진이 등록안되어 있는 거 같은데"
+   ],
+   "rc": 2,
+   "lr": "1795164249.936079",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -66511,27 +66514,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792574201336059"
-  },
-  {
-   "ts": "1792572192.633629",
-   "date": "2026-10-21",
-   "time": "17:43",
-   "store": "강창구 찹쌀진순대 양재포이점",
-   "biz": "3351902167",
-   "pos": "",
-   "content": "메뉴 할인 가격 수정",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1792572196.794729",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792572192633629"
   }
  ],
  "ocr": {
