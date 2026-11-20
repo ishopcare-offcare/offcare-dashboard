@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5578,
- "updatedAt": "2026-11-20 14:07",
+ "version": 5579,
+ "updatedAt": "2026-11-20 14:12",
  "days": 30,
  "items": [
   {
@@ -65150,39 +65150,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792563792635789"
-  },
-  {
-   "ts": "1792559494.920749",
-   "date": "2026-10-21",
-   "time": "14:11",
-   "store": "오크 나폴리(OAK NAPOLI)",
-   "biz": "1323701641",
-   "pos": "토스포스",
-   "content": "토스포스 선불 테이블 생성 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CAPLLRFQT",
-     "from": "댓글",
-     "kind": "pos_screen",
-     "menu": [],
-     "v": 2,
-     "path": "menu-files/1792559494_920749-0.png"
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "테이블 카테고리 : 선불\n\n테이블 이름 선불 1, 선불 2 등 과 같이 선불 띄고 테이블 숫자 생성 요청 드립니다."
-   ],
-   "rc": 5,
-   "lr": "1792559804.240539",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792559494920749"
   }
  ],
  "ocr": {
