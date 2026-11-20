@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5600,
- "updatedAt": "2026-11-20 15:38",
+ "version": 5601,
+ "updatedAt": "2026-11-20 15:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1795157871.101099",
+   "date": "2026-11-20",
+   "time": "15:57",
+   "store": "왕솥뚜껑삼겹살",
+   "biz": "6860301560",
+   "pos": "",
+   "content": "소주 4000원, 막걸리 4000 원 으로 메뉴 변경 요청주셨습니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795157871101099"
+  },
   {
    "ts": "1795156129.286529",
    "date": "2026-11-20",
@@ -196,13 +217,30 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "KakaoTalk_20261120_155614932.jpg",
+     "fid": "F0CK2FLGX7Z",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "KakaoTalk_20261120_155614932_01.jpg",
+     "fid": "F0CKBL1TDNF",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [
     "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다."
    ],
-   "rc": 15,
-   "lr": "1795155035.053059",
+   "rc": 16,
+   "lr": "1795157887.409139",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
