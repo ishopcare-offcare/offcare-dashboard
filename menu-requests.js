@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5635,
- "updatedAt": "2026-11-20 17:46",
+ "version": 5636,
+ "updatedAt": "2026-11-20 17:47",
  "days": 30,
  "items": [
+  {
+   "ts": "1795164435.789119",
+   "date": "2026-11-20",
+   "time": "17:47",
+   "store": "강창구찹쌀진순대 오더안주류",
+   "biz": "",
+   "pos": "",
+   "content": "[메뉴등록] 김치삼겹살 옵션추가",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795164436.147979",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795164435789119"
+  },
   {
    "ts": "1795163336.811519",
    "date": "2026-11-20",
@@ -46,37 +67,37 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CKGNT4E3Y",
      "from": "댓글",
-     "path": "menu-files/1795162041_910419-0.png",
      "kind": "product_photo",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795162041_910419-0.png"
     },
     {
      "name": "image.png",
      "fid": "F0CKCF31CQ3",
      "from": "댓글",
-     "path": "menu-files/1795162041_910419-1.png",
      "kind": "product_photo",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795162041_910419-1.png"
     },
     {
      "name": "image.png",
      "fid": "F0CKDD8TM3P",
      "from": "댓글",
-     "path": "menu-files/1795162041_910419-2.png",
      "kind": "product_photo",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795162041_910419-2.png"
     },
     {
      "name": "image.png",
      "fid": "F0CLD3EP00G",
      "from": "댓글",
-     "path": "menu-files/1795162041_910419-3.png",
      "kind": "product_photo",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795162041_910419-3.png"
     }
    ],
    "datt": [],
@@ -90,8 +111,8 @@ window.MENU_REQUESTS = {
     "혹시 깨지면 제가 압축집으로 드리겠습다!",
     "너무 좋아요!"
    ],
-   "rc": 9,
-   "lr": "1795164345.539139",
+   "rc": 11,
+   "lr": "1795164430.416449",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
