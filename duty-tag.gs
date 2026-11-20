@@ -2,7 +2,7 @@
  * '당직 :star:' 워크플로 글에 당직자 · 10시 출근자 태그 댓글 달기
  *
  * #ishopcare_octeam 에 매주 금 16:30 워크플로가 '당직 :star:' 글을 올린다.
- * 5분 트리거(dutyTagTick)가 금 16:30~20:00 사이에만 그 글을 찾아 스레드에 한 번만 댓글을 단다.
+ * 1분 트리거(dutyTagTick)가 금 16:30~20:00 사이에만 그 글을 찾아 스레드에 한 번만 댓글을 단다.
  * (공휴일 전날 글에는 달지 않는다 — 금요일 전용)
  *   - 당직: 이번 토요일 ~ 다음 금요일 중 쉬는 날(토 · 일 + 당직자 이름이 잡힌 평일 = 공휴일)
  *           '행사' 칸만 있는 평일(건강검진 · 출장 메모)은 넣지 않는다.
@@ -21,7 +21,7 @@
  *                     예: {"김주진":"U0123ABCD","공명현":"U0456EFGH"}
  *
  * 편집기에서 실행
- *   installDutyTagTrigger()  5분 트리거 설치 (한 번만)
+ *   installDutyTagTrigger()  1분 트리거 설치 (한 번만 · 예전 5분 트리거는 지우고 새로 단다)
  *   previewDutyTag()         이번 주 금요일에 달릴 댓글 내용만 로그로 확인 (슬랙에 안 올림)
  *   learnDutySlackIds()      원격 AS 채널의 '원격OOO' 이모지를 누른 사람으로 팀원 ID 추정 → 로그
  *   runDutyTagNow()          지금 바로 오늘 올라온 글을 찾아 댓글 달기 (금요일이 아니어도)
@@ -71,8 +71,8 @@ function installDutyTagTrigger() {
   for (var i = 0; i < ts.length; i++) {
     if (ts[i].getHandlerFunction() === 'dutyTagTick') { ScriptApp.deleteTrigger(ts[i]); }
   }
-  ScriptApp.newTrigger('dutyTagTick').timeBased().everyMinutes(5).create();
-  console.log('당직 태그 5분 트리거를 설치했습니다 (금 16:30~20:00 에만 동작).');
+  ScriptApp.newTrigger('dutyTagTick').timeBased().everyMinutes(1).create();
+  console.log('당직 태그 1분 트리거를 설치했습니다 (금 16:30~20:00 에만 동작).');
 }
 
 function removeDutyTagTrigger() {
@@ -85,10 +85,20 @@ function removeDutyTagTrigger() {
 
 /* ---------- 본체 ---------- */
 
+// 1분 트리거라 앞 실행이 슬랙 대기(ratelimited) 중일 때 다음 실행이 겹칠 수 있다 → 댓글 두 번 방지.
+// 스크립트 잠금(LockService)은 game-backend.gs 의 대시보드 저장과 같이 쓰므로 붙잡지 않고, 캐시 표시로 막는다.
 function dtRun_(date, force) {
   var props = PropertiesService.getScriptProperties();
   var doneKey = 'DUTY_TAG_DONE_' + date;
   if (props.getProperty(doneKey) && !force) { return; }   // 이번 주는 이미 댓글 담
+  var cache = CacheService.getScriptCache();
+  if (cache.get('DUTY_TAG_RUNNING')) { console.log('앞 실행이 아직 진행 중 — 이번 분은 건너뜀'); return; }
+  cache.put('DUTY_TAG_RUNNING', '1', 360);
+  try { dtRunOnce_(date, props, doneKey); }
+  finally { cache.remove('DUTY_TAG_RUNNING'); }
+}
+
+function dtRunOnce_(date, props, doneKey) {
 
   var channel = props.getProperty('DUTY_CHANNEL_ID');
   if (!channel) { console.log('DUTY_CHANNEL_ID 스크립트 속성이 없습니다.'); return; }
@@ -99,7 +109,7 @@ function dtRun_(date, force) {
 
   var text = dtBuildText_(dtThisFriday_(date), dtLoad_());
   var res = dtSlack_('chat.postMessage', { channel: channel, thread_ts: post.ts, text: text, unfurl_links: false });
-  if (!res.ok) { console.log('댓글 실패: ' + res.error); return; }   // 표시 안 함 → 다음 5분에 재시도
+  if (!res.ok) { console.log('댓글 실패: ' + res.error); return; }   // 표시 안 함 → 다음 1분에 재시도
   props.setProperty(doneKey, post.ts);
   console.log('댓글 완료 ' + post.ts + '\n' + text);
 }
