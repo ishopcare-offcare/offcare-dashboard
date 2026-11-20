@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5562,
- "updatedAt": "2026-11-20 10:24",
+ "version": 5563,
+ "updatedAt": "2026-11-20 10:30",
  "days": 30,
  "items": [
   {
@@ -215,8 +215,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1795137820.725799",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "심성현",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795137812896249"
   },
   {
@@ -235,7 +235,6 @@ window.MENU_REQUESTS = {
      "name": "Clex_1795137093813.jpg",
      "fid": "F0CK9GHRAPM",
      "from": "댓글",
-     "path": "menu-files/1795137193_669499-0.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -269,22 +268,22 @@ window.MENU_REQUESTS = {
        "price": 11800
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795137193_669499-0.jpg"
     },
     {
      "name": "Clex_1795137095587.jpg",
      "fid": "F0CKHL0MF5F",
      "from": "댓글",
-     "path": "menu-files/1795137193_669499-1.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795137193_669499-1.jpg"
     },
     {
      "name": "Clex_1795137103634.jpg",
      "fid": "F0CLA4UDP40",
      "from": "댓글",
-     "path": "menu-files/1795137193_669499-2.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -308,13 +307,13 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795137193_669499-2.jpg"
     },
     {
      "name": "Clex_1795137108107.jpg",
      "fid": "F0CK0C5FGQP",
      "from": "댓글",
-     "path": "menu-files/1795137193_669499-3.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -348,22 +347,22 @@ window.MENU_REQUESTS = {
        "price": 4200
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795137193_669499-3.jpg"
     },
     {
      "name": "Clex_1795137115242.jpg",
      "fid": "F0CK0C5FK9V",
      "from": "댓글",
-     "path": "menu-files/1795137193_669499-4.jpg",
      "kind": "pos_screen",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795137193_669499-4.jpg"
     },
     {
      "name": "Clex_1795137119617.jpg",
      "fid": "F0CK9GJ8S8K",
      "from": "댓글",
-     "path": "menu-files/1795137193_669499-5.jpg",
      "kind": "pos_screen",
      "menu": [
       {
@@ -387,7 +386,8 @@ window.MENU_REQUESTS = {
        "price": 5000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795137193_669499-5.jpg"
     },
     {
      "name": "Clex_1795137124205.jpg",
@@ -539,8 +539,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "화질이 좀 안좋은 것 같아서 혹시나 등록 어려우면 사진 다시 받아오겠습니다!"
    ],
-   "rc": 3,
-   "lr": "1795137314.824129",
+   "rc": 4,
+   "lr": "1795138158.120559",
    "rfx": 3,
    "status": "wait",
    "handler": null,
