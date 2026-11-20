@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5609,
- "updatedAt": "2026-11-20 16:37",
+ "version": 5610,
+ "updatedAt": "2026-11-20 16:39",
  "days": 30,
  "items": [
   {
@@ -345,8 +345,8 @@ window.MENU_REQUESTS = {
     "재우님 혹시 저 사진 하이오더 사진 말씀하시는거 아니에요?",
     "하이오더 사진은 하이오더 에서 컨트롤 합니다."
    ],
-   "rc": 23,
-   "lr": "1795160145.857319",
+   "rc": 24,
+   "lr": "1795160323.719259",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
