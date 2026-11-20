@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5557,
- "updatedAt": "2026-11-20 09:12",
+ "version": 5558,
+ "updatedAt": "2026-11-20 09:32",
  "days": 30,
  "items": [
   {
@@ -23,13 +23,425 @@ window.MENU_REQUESTS = {
      "name": "KakaoTalk_20261119_203529221.jpg",
      "fid": "F0CL9H8RDB2",
      "from": "댓글",
-     "path": "menu-files/1795132340_686919-0.jpg"
+     "path": "menu-files/1795132340_686919-0.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "chimichanga",
+       "name": "PORK (포크 치미창가)",
+       "price": 15000
+      },
+      {
+       "category": "chimichanga",
+       "name": "BULGOGI (불고기 치미창가)",
+       "price": 15000
+      },
+      {
+       "category": "chimichanga",
+       "name": "BULDAK (불닭 치미창가)",
+       "price": 16000
+      },
+      {
+       "category": "new favorites",
+       "name": "MEXICAN DEEP CHEESE BURGER (멕시칸 딥 치즈 버거)",
+       "price": 13000
+      },
+      {
+       "category": "new favorites",
+       "name": "CHILI'S CHEESE STICKS (칠리스 치즈스틱) (2PC)",
+       "price": 8000
+      },
+      {
+       "category": "new favorites",
+       "name": "MEGA CHEETOS BOMB (메가 치토스 밤)",
+       "price": 9000
+      },
+      {
+       "category": "fries/bites",
+       "name": "BULGOGI FRIES (불고기 프라이)",
+       "price": 12000
+      },
+      {
+       "category": "fries/bites",
+       "name": "BACON CHIPOTLE (베이컨 치폴레 프라이)",
+       "price": 8000
+      },
+      {
+       "category": "fries/bites",
+       "name": "GARLIC FRIES (갈릭 프라이)",
+       "price": 7000
+      },
+      {
+       "category": "fries/bites",
+       "name": "FRENCH FRIES (프렌치 프라이)",
+       "price": 5000
+      },
+      {
+       "category": "fries/bites",
+       "name": "HONEY BUFFALO WING STICK (허니 버팔로 윙봉)",
+       "price": 12000
+      },
+      {
+       "category": "fries/bites",
+       "name": "MEXICAN NACHO (멕시칸 나쵸)",
+       "price": 9000
+      },
+      {
+       "category": "fries/bites",
+       "name": "CORN LIP (콘립)",
+       "price": 9000
+      },
+      {
+       "category": "salads",
+       "name": "GREEN SALAD (그린 샐러드)",
+       "price": 7000
+      },
+      {
+       "category": "salads",
+       "name": "CHICKEN CAESAR SALAD (치킨 시저 샐러드)",
+       "price": 15000
+      },
+      {
+       "category": "salads",
+       "name": "STEAK SALAD (스테이크 샐러드)",
+       "price": 16000
+      },
+      {
+       "category": "ADE",
+       "name": "패션후르츠(passion fruit)",
+       "price": 6000
+      },
+      {
+       "category": "ADE",
+       "name": "자몽(grapefruit)",
+       "price": 5000
+      },
+      {
+       "category": "ADE",
+       "name": "애플망고(apple mango)",
+       "price": 5000
+      },
+      {
+       "category": "SOFT DRINK",
+       "name": "코카콜라(coke)",
+       "price": 2500
+      },
+      {
+       "category": "SOFT DRINK",
+       "name": "펩시제로(pepsi zero sugar)",
+       "price": 2500
+      },
+      {
+       "category": "SOFT DRINK",
+       "name": "사이다(cider)",
+       "price": 2500
+      },
+      {
+       "category": "SOFT DRINK",
+       "name": "닥터페퍼(Dr.pepper)",
+       "price": 2500
+      },
+      {
+       "category": "TEQUILA",
+       "name": "시에라 레포사도 (shot)",
+       "price": 5000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "시에라 레포사도 (bottle)",
+       "price": 100000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "시에라 실버 (shot)",
+       "price": 5000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "시에라 실버 (bottle)",
+       "price": 100000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "호세쿠엘보 레포사도 (shot)",
+       "price": 5000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "호세쿠엘보 레포사도 (bottle)",
+       "price": 100000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "돈홀리오 레포사도 (shot)",
+       "price": 12000
+      },
+      {
+       "category": "TEQUILA",
+       "name": "돈홀리오 레포사도 (bottle)",
+       "price": 230000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "마가리타",
+       "price": 10000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "망고 마가리타",
+       "price": 10000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "코로나 리타",
+       "price": 12000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "팔로모",
+       "price": 10000
+      },
+      {
+       "category": "COCKTAIL",
+       "name": "테킬라 선라이즈",
+       "price": 10000
+      },
+      {
+       "category": "WHISKY",
+       "name": "짐빔 (shot)",
+       "price": 8000
+      },
+      {
+       "category": "WHISKY",
+       "name": "짐빔 (bottle)",
+       "price": 100000
+      },
+      {
+       "category": "WHISKY",
+       "name": "몽키숄더 (shot)",
+       "price": 10000
+      },
+      {
+       "category": "WHISKY",
+       "name": "몽키숄더 (bottle)",
+       "price": 150000
+      },
+      {
+       "category": "WHISKY",
+       "name": "메이커스마크 (shot)",
+       "price": 10000
+      },
+      {
+       "category": "WHISKY",
+       "name": "메이커스마크 (bottle)",
+       "price": 150000
+      },
+      {
+       "category": "WHISKY",
+       "name": "글렌피딕12Y (shot)",
+       "price": 12000
+      },
+      {
+       "category": "WHISKY",
+       "name": "글렌피딕12Y (bottle)",
+       "price": 220000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "올든 하이볼",
+       "price": 10000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "석류 하이볼",
+       "price": 10000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "블랙베리 하이볼",
+       "price": 10000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "짐빔 하이볼",
+       "price": 9000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "몽키숄더 하이볼",
+       "price": 10000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "메이커스마크 하이볼",
+       "price": 10000
+      },
+      {
+       "category": "HIGHBALL",
+       "name": "글렌피딕 하이볼",
+       "price": 13000
+      },
+      {
+       "category": "BEER & SOJU",
+       "name": "테라 500ml",
+       "price": 5500
+      },
+      {
+       "category": "BEER & SOJU",
+       "name": "하이네켄 500ml",
+       "price": 8000
+      },
+      {
+       "category": "BEER & SOJU",
+       "name": "카스 / 테라",
+       "price": 5000
+      },
+      {
+       "category": "BEER & SOJU",
+       "name": "코로나 / 블랑 / 기네스 / 빅웨이브 / 호가든",
+       "price": 10000
+      },
+      {
+       "category": "BEER & SOJU",
+       "name": "인디카 IPA",
+       "price": 11500
+      },
+      {
+       "category": "BEER & SOJU",
+       "name": "참이슬 / 진로 / 대선 / 좋은데이",
+       "price": 5000
+      }
+     ],
+     "v": 3
     },
     {
      "name": "KakaoTalk_20261119_203529221_01.jpg",
      "fid": "F0CKH31PDUZ",
      "from": "댓글",
-     "path": "menu-files/1795132340_686919-1.jpg"
+     "path": "menu-files/1795132340_686919-1.jpg",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "fajita",
+       "name": "OLDEN (only L size)",
+       "price": 39000
+      },
+      {
+       "category": "fajita",
+       "name": "HALF&HALF",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "fajita",
+       "name": "GRILLED PORK",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "fajita",
+       "name": "CHILI SHIRIMP",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "fajita",
+       "name": "STEAK",
+       "price": 0,
+       "pt": "u"
+      },
+      {
+       "category": "ADD +",
+       "name": "STEAK (스테이크 추가)",
+       "price": 9000
+      },
+      {
+       "category": "ADD +",
+       "name": "GRILLED PORK (그릴드포크 추가)",
+       "price": 8000
+      },
+      {
+       "category": "ADD +",
+       "name": "CHILI SHIRIMP (칠리쉬림프 추가)",
+       "price": 8000
+      },
+      {
+       "category": "ADD +",
+       "name": "GUACAMOLE (과카몰리 추가)",
+       "price": 3000
+      },
+      {
+       "category": "burritos",
+       "name": "BULGOGI",
+       "price": 9500
+      },
+      {
+       "category": "burritos",
+       "name": "PORK",
+       "price": 9500
+      },
+      {
+       "category": "burritos",
+       "name": "CHICKEN",
+       "price": 9500
+      },
+      {
+       "category": "tacos",
+       "name": "PORK (2PC)",
+       "price": 9500
+      },
+      {
+       "category": "tacos",
+       "name": "BEEF (2PC)",
+       "price": 11000
+      },
+      {
+       "category": "tacos",
+       "name": "STEAK (3PC)",
+       "price": 18000
+      },
+      {
+       "category": "tacos",
+       "name": "CHIPOTLE SHRIMP (2PC)",
+       "price": 9500
+      },
+      {
+       "category": "tacos",
+       "name": "FRIED SHRIMP (2PC)",
+       "price": 9500
+      },
+      {
+       "category": "tacos",
+       "name": "FRIED CHICKEN (2PC)",
+       "price": 9500
+      },
+      {
+       "category": "quesadillas",
+       "name": "PORK",
+       "price": 17000
+      },
+      {
+       "category": "quesadillas",
+       "name": "BULGOGI",
+       "price": 18000
+      },
+      {
+       "category": "quesadillas",
+       "name": "BACON CHEESE",
+       "price": 17000
+      },
+      {
+       "category": "quesadillas",
+       "name": "TRUFFLE MUSHROOM",
+       "price": 18000
+      },
+      {
+       "category": "quesadillas",
+       "name": "SPINACH GORGONZOLA",
+       "price": 17000
+      }
+     ],
+     "v": 3
     }
    ],
    "datt": [],
@@ -66042,10 +66454,6 @@ window.MENU_REQUESTS = {
  "ocr": {
   "model": "claude-opus-5",
   "enabled": true,
-  "drive": true,
-  "halt": {
-   "status": 400,
-   "message": "You have reached your specified API usage limits. You will regain access on 2026-12-01 at 00:00 UTC."
-  }
+  "drive": true
  }
 };
