@@ -212,33 +212,57 @@ function dtSlackIds_() {
   return ids;
 }
 
-// 원격 AS 요청 채널에서 '원격OOO' 이모지를 가장 많이 누른 사람 = 그 사람으로 추정.
-// 결과는 로그로만 보여준다 — 확인 후 DUTY_SLACK_IDS 속성에 붙여넣을 것.
+// 팀원 슬랙 멤버 ID 찾기 → 로그. 확인 후 스크립트 속성 DUTY_SLACK_IDS 에 붙여넣을 것.
+//  1) users.list 로 프로필 이름(실명·표시이름)에 팀원 이름이 들어간 사람 (봇에 users:read 권한이 있을 때)
+//  2) 못 찾은 사람은 원격 AS 채널의 '원격OOO' 이모지를 가장 많이 누른 사람으로 추정
+// 슬랙이 ratelimited 를 주면 Retry-After 만큼 기다렸다 다시 시도한다(dtSlack_).
 function learnDutySlackIds() {
-  var NICK = { '규빈': '김규빈', '선유': '배선유', '성현': '심성현', '동욱': '김동욱', '현기': '김현기', '태양': '송태양',
-               '기범': '김기범', '상원': '서상원', '민석': '최민석', '경림': '고경림', '하림': '박하림' };
-  var votes = {}, cursor = '', pages = 0;
+  var names = Object.keys(DUTY_SLACK_IDS), out = {}, how = {};
+
+  var cursor = '', pages = 0, listErr = '';
   do {
-    var res = dtSlack_('conversations.history', { channel: 'C09HRUSG4TX', limit: 200, cursor: cursor || undefined });
-    if (!res.ok) { console.log('읽기 실패: ' + res.error); return; }
-    (res.messages || []).forEach(function (m) {
-      (m.reactions || []).forEach(function (r) {
-        var mt = /^원격(.+)$/.exec(r.name || ''), name = mt && NICK[mt[1]];
-        if (!name) { return; }
-        (r.users || []).forEach(function (u) {
-          votes[name] = votes[name] || {};
-          votes[name][u] = (votes[name][u] || 0) + 1;
-        });
+    var ul = dtSlack_('users.list', { limit: 200, cursor: cursor || undefined });
+    if (!ul.ok) { listErr = ul.error + (ul.needed ? ' (필요 권한: ' + ul.needed + ')' : ''); break; }
+    (ul.members || []).forEach(function (m) {
+      if (m.deleted || m.is_bot || m.id === 'USLACKBOT') { return; }
+      var p = m.profile || {}, txt = [m.real_name, p.real_name, p.display_name, m.name].join(' ').replace(/\s+/g, '');
+      names.forEach(function (n) {
+        if (txt.indexOf(n) < 0) { return; }
+        if (out[n] && out[n] !== m.id) { console.log('⚠ ' + n + ' 이름이 여러 명: ' + out[n] + ', ' + m.id + ' — 직접 확인 필요'); return; }
+        out[n] = m.id; how[n] = '이름';
       });
     });
-    cursor = (res.response_metadata && res.response_metadata.next_cursor) || '';
-  } while (cursor && ++pages < 5);
-  var out = {};
-  for (var n in votes) {
-    var best = Object.keys(votes[n]).sort(function (a, b) { return votes[n][b] - votes[n][a]; })[0];
-    out[n] = best;
-    console.log(n + ' → ' + best + '  (' + JSON.stringify(votes[n]) + ')');
+    cursor = (ul.response_metadata && ul.response_metadata.next_cursor) || '';
+  } while (cursor && ++pages < 10);
+  if (listErr) { console.log('users.list 실패: ' + listErr + ' → 이모지 추정만 사용'); }
+
+  var missing = names.filter(function (n) { return !out[n]; });
+  if (missing.length) {
+    var NICK = {};
+    names.forEach(function (n) { NICK[n.slice(1)] = n; });   // '원격선유' → 배선유
+    var votes = {}; cursor = ''; pages = 0;
+    do {
+      var res = dtSlack_('conversations.history', { channel: 'C09HRUSG4TX', limit: 200, cursor: cursor || undefined });
+      if (!res.ok) { console.log('원격 AS 채널 읽기 실패: ' + res.error); break; }
+      (res.messages || []).forEach(function (m) {
+        (m.reactions || []).forEach(function (r) {
+          var mt = /^원격(.+)$/.exec(r.name || ''), name = mt && NICK[mt[1]];
+          if (!name || out[name]) { return; }
+          (r.users || []).forEach(function (u) {
+            votes[name] = votes[name] || {};
+            votes[name][u] = (votes[name][u] || 0) + 1;
+          });
+        });
+      });
+      cursor = (res.response_metadata && res.response_metadata.next_cursor) || '';
+    } while (cursor && ++pages < 3);
+    for (var n in votes) {
+      var best = Object.keys(votes[n]).sort(function (a, b) { return votes[n][b] - votes[n][a]; })[0];
+      out[n] = best; how[n] = '이모지 ' + votes[n][best] + '회';
+    }
   }
+
+  names.forEach(function (n) { console.log(n + ' → ' + (out[n] ? out[n] + '  (' + how[n] + ')' : '못 찾음 — 슬랙 프로필 ⋮ → 멤버 ID 복사')); });
   console.log('DUTY_SLACK_IDS 후보:\n' + JSON.stringify(out));
 }
 
@@ -247,7 +271,7 @@ function learnDutySlackIds() {
 function dtSlack_(method, payload) {
   var token = PropertiesService.getScriptProperties().getProperty('SLACK_BOT_TOKEN');
   if (!token) { return { ok: false, error: 'no_slack_token' }; }
-  var isRead = method === 'conversations.history';
+  var isRead = method === 'conversations.history' || method === 'users.list';
   var url = 'https://slack.com/api/' + method, opt = { headers: { Authorization: 'Bearer ' + token }, muteHttpExceptions: true };
   if (isRead) {
     var q = [];
@@ -256,9 +280,17 @@ function dtSlack_(method, payload) {
   } else {
     opt.method = 'post'; opt.contentType = 'application/json; charset=utf-8'; opt.payload = JSON.stringify(payload);
   }
-  var res = UrlFetchApp.fetch(url, opt);
-  try { return JSON.parse(res.getContentText()); }
-  catch (e) { return { ok: false, error: 'slack_http_' + res.getResponseCode() }; }
+  for (var tryN = 0; ; tryN++) {
+    var res = UrlFetchApp.fetch(url, opt);
+    if (res.getResponseCode() === 429 && tryN < 4) {   // ratelimited → Retry-After 초 만큼 쉬고 다시
+      var h = res.getHeaders(), wait = +(h['Retry-After'] || h['retry-after'] || 30);
+      console.log(method + ' ratelimited → ' + wait + '초 대기 후 재시도');
+      Utilities.sleep(Math.min(wait, 70) * 1000);
+      continue;
+    }
+    try { return JSON.parse(res.getContentText()); }
+    catch (e) { return { ok: false, error: 'slack_http_' + res.getResponseCode() }; }
+  }
 }
 
 function dtPad_(n) { return ('0' + n).slice(-2); }
