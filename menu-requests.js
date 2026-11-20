@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5634,
- "updatedAt": "2026-11-20 17:44",
+ "version": 5635,
+ "updatedAt": "2026-11-20 17:46",
  "days": 30,
  "items": [
   {
@@ -41,14 +41,57 @@ window.MENU_REQUESTS = {
    "special": "동태탕, 알탕, 김치찌개, 우삼겹두부전골 4인분은 사진을 입력안해주셨어요.",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CKGNT4E3Y",
+     "from": "댓글",
+     "path": "menu-files/1795162041_910419-0.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CKCF31CQ3",
+     "from": "댓글",
+     "path": "menu-files/1795162041_910419-1.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CKDD8TM3P",
+     "from": "댓글",
+     "path": "menu-files/1795162041_910419-2.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CLD3EP00G",
+     "from": "댓글",
+     "path": "menu-files/1795162041_910419-3.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [
     "님! 혹시 요거 등록이 되었을까요~?",
-    "제가 대시보드에서 봤을 때는 위 4개 메뉴 4인분에는 사진이 등록안되어 있는 거 같은데"
+    "제가 대시보드에서 봤을 때는 위 4개 메뉴 4인분에는 사진이 등록안되어 있는 거 같은데",
+    "채팅으로도 등록 안되어 있다고 말씀주셔서 확인 한 번만 부탁드리겠습니다요 ㅠㅠ :woman-bowing:",
+    "여기 통화해서 사진 보내달라고 말씀드렸는데 안보내주시는거에요!!!",
+    "제가 드릴까여?!",
+    "오 넵!!!",
+    "혹시 깨지면 제가 압축집으로 드리겠습다!",
+    "너무 좋아요!"
    ],
-   "rc": 2,
-   "lr": "1795164249.936079",
+   "rc": 9,
+   "lr": "1795164345.539139",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
