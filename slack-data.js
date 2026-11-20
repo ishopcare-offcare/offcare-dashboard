@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35994,
+  "version": 35995,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -342098,7 +342098,7 @@ window.SLACK_DATA = {
     "2026-11-20": {
       "counts": {
         "as": {
-          "송태양": 1,
+          "송태양": 2,
           "고경림": 2
         },
         "menu": {
@@ -342107,6 +342107,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:15",
+          "store": "크루카(krooka)",
+          "biz": "6583801650",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "로고 설정차 통신속도(프론트와 포스앱설저) 설정 완료 후 에도 용지가 나오지 않아 확인 요청주셨습니다.:꾸벅:",
+          "hw": "",
+          "intake": "online",
+          "note": "1차부재 통화실패 / 프린터 통신속도 설정 완료입니다",
+          "rr": 2
+        },
         {
           "time": "09:14",
           "store": "청학고등학교 매점",
@@ -342157,7 +342169,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 1,
         "unknown": 0
       },
@@ -342277,21 +342289,14 @@ window.SLACK_DATA = {
       },
       "1795132807.617179": {
         "post": "1795132807.617179",
-        "lastSeen": 1795134045.267
+        "lastSeen": 1795134320.58
       },
       "1795133279.876539": {
         "post": "1795133279.876539",
-        "lastSeen": 1795134045.267,
+        "lastSeen": 1795134320.58,
         "r": 1,
         "day": "2026-11-20",
         "idx": 1
-      },
-      "1795133709.383469": {
-        "post": "1795133709.383469",
-        "lastSeen": 1795134045.267,
-        "r": 1,
-        "day": "2026-11-20",
-        "idx": 2
       }
     },
     "days": {
@@ -473617,14 +473622,15 @@ window.SLACK_DATA = {
             "store": "크루카(krooka)",
             "biz": "6583801650",
             "who": "송태양",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 7.9
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-20 09:21",
+    "at": "2026-11-20 09:25",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473789,7 +473795,7 @@ window.SLACK_DATA = {
     "2026-11-20": 2
   },
   "noteMig": {
-    "at": "2026-11-20 09:20",
+    "at": "2026-11-20 09:25",
     "pri": {
       "days": 0,
       "failed": [],
