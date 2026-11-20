@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5603,
- "updatedAt": "2026-11-20 16:07",
+ "version": 5604,
+ "updatedAt": "2026-11-20 16:11",
  "days": 30,
  "items": [
   {
@@ -65201,35 +65201,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566996422649"
-  },
-  {
-   "ts": "1792566645.987239",
-   "date": "2026-10-21",
-   "time": "16:10",
-   "store": "카페맑음",
-   "biz": "4114003862",
-   "pos": "오케이포스",
-   "content": "추가/수제차/대추차/5,000/옵션 사이즈업 1,000\n\n삭제/스무디/크랜베리스무디",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "대추차에 옵션만\n크랜베리스무디 삭제 완",
-    "님 안녕하세요.\n프로그램 재실행 해보셨는데도 반영이 안되어있다 말씀주셔서요.\n\n해당 매장 다시 한 번 확인부탁드릴 수 있을까요?",
-    "님 키오스크일까요? 포스일까요?",
-    "확인해보겠습니다!",
-    "제가 전화드려보겠습니다.",
-    "통화로 확인 완료입니다",
-    "감사합니다!"
-   ],
-   "rc": 7,
-   "lr": "1792636129.198539",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566645987239"
   }
  ],
  "ocr": {
