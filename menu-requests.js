@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5653,
- "updatedAt": "2026-11-20 21:20",
+ "version": 5654,
+ "updatedAt": "2026-11-20 21:22",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1795177161.284209",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795177159947479"
   },
   {
@@ -45,8 +45,8 @@ window.MENU_REQUESTS = {
    "rc": 1,
    "lr": "1795177049.802719",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795177048632189"
   },
   {
@@ -85,10 +85,11 @@ window.MENU_REQUESTS = {
    "datt": [],
    "replies": [
     "해당 매장 긴급으로 요청주셔서 부탁드리겠습니다.",
-    "네 잠시만요 다른 as가 있어서 끊고 연락드리겠씁니다 ."
+    "네 잠시만요 다른 as가 있어서 끊고 연락드리겠씁니다 .",
+    "우진님  여기 소통하니까 이번호가 아닌것같습니다 혹시 다시한번확인가능할까요 ?"
    ],
-   "rc": 2,
-   "lr": "1795173990.588089",
+   "rc": 3,
+   "lr": "1795177351.011149",
    "rfx": 3,
    "status": "wait",
    "handler": null,
