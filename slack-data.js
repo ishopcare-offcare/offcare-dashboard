@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 36479,
+  "version": 36480,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -345039,11 +345039,14 @@ window.SLACK_DATA = {
       },
       "1795208400.737179": {
         "post": "1795208400.737179",
-        "lastSeen": 1795208442.672
+        "lastSeen": 1795209327.268
       },
       "1795208402.677859": {
         "post": "1795208402.677859",
-        "lastSeen": 1795208442.672
+        "lastSeen": 1795209327.268,
+        "r": 1,
+        "day": "2026-11-21",
+        "idx": 0
       }
     },
     "days": {
@@ -477937,11 +477940,26 @@ window.SLACK_DATA = {
             "dmin": 91.9
           }
         ]
+      },
+      "2026-11-21": {
+        "cnt": 1,
+        "sumMin": 8.038202345371246,
+        "over": 0,
+        "items": [
+          {
+            "hm": "06:00",
+            "min": 8,
+            "store": "",
+            "biz": "",
+            "who": "김현기",
+            "cat": "as"
+          }
+        ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-21 06:01",
+    "at": "2026-11-21 06:15",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -478107,7 +478125,7 @@ window.SLACK_DATA = {
     "2026-11-21": 2
   },
   "noteMig": {
-    "at": "2026-11-21 06:00",
+    "at": "2026-11-21 06:15",
     "pri": {
       "days": 0,
       "failed": [],
