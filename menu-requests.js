@@ -3,10 +3,346 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5623,
- "updatedAt": "2026-11-20 17:04",
+ "version": 5624,
+ "updatedAt": "2026-11-20 17:07",
  "days": 30,
  "items": [
+  {
+   "ts": "1795161927.274019",
+   "date": "2026-11-20",
+   "time": "17:05",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290703720",
+   "pos": "토스포스",
+   "content": "막걸리 기존사진 변경",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1BAQVy6lXNnVYmKLo-mX5Aog6KYb--MIL/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1BAQVy6lXNnVYmKLo-mX5Aog6KYb--MIL",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795161927274019"
+  },
+  {
+   "ts": "1795161831.263679",
+   "date": "2026-11-20",
+   "time": "17:03",
+   "store": "북아현로69,초밥",
+   "biz": "6032279220",
+   "pos": "",
+   "content": "신규설치예정 메뉴등록",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "1399.jpg",
+     "fid": "F0CLCP194F2",
+     "from": "댓글",
+     "path": "menu-files/1795161831_263679-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "메뉴",
+       "name": "회덮밥",
+       "price": 14000
+      },
+      {
+       "category": "메뉴",
+       "name": "규동",
+       "price": 10000
+      },
+      {
+       "category": "메뉴",
+       "name": "사케동",
+       "price": 13000
+      },
+      {
+       "category": "메뉴",
+       "name": "살치살초밥 5pcs",
+       "price": 12000
+      },
+      {
+       "category": "메뉴",
+       "name": "추천초밥",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "특대초밥",
+       "price": 25000
+      },
+      {
+       "category": "메뉴",
+       "name": "오마카세초밥",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "연어초밥",
+       "price": 20000
+      },
+      {
+       "category": "메뉴",
+       "name": "점심특선",
+       "price": 13000
+      },
+      {
+       "category": "메뉴",
+       "name": "오마카세",
+       "price": 90000
+      },
+      {
+       "category": "메뉴",
+       "name": "냉모밀",
+       "price": 3000
+      },
+      {
+       "category": "메뉴",
+       "name": "민물장어덮밥",
+       "price": 30000
+      },
+      {
+       "category": "메뉴",
+       "name": "카이센동",
+       "price": 27000
+      },
+      {
+       "category": "메뉴",
+       "name": "모듬 사시미",
+       "price": 30000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1400.jpg",
+     "fid": "F0CK30YH0B1",
+     "from": "댓글",
+     "path": "menu-files/1795161831_263679-1.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "1401.jpg",
+     "fid": "F0CKD3H9A0M",
+     "from": "댓글",
+     "path": "menu-files/1795161831_263679-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "단품",
+       "name": "참다랑어",
+       "price": 7000
+      },
+      {
+       "category": "단품",
+       "name": "관자",
+       "price": 7000
+      },
+      {
+       "category": "단품",
+       "name": "전복",
+       "price": 7000
+      },
+      {
+       "category": "단품",
+       "name": "장어",
+       "price": 7000
+      },
+      {
+       "category": "단품",
+       "name": "성게알",
+       "price": 7000
+      },
+      {
+       "category": "단품",
+       "name": "소고기",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "안키모",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "도미",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "랍스터새우",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "청어",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "고등어",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "광어 지느러미",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "농어",
+       "price": 2500
+      },
+      {
+       "category": "단품",
+       "name": "광어",
+       "price": 2000
+      },
+      {
+       "category": "단품",
+       "name": "연어",
+       "price": 2000
+      },
+      {
+       "category": "단품",
+       "name": "간장새우",
+       "price": 2000
+      },
+      {
+       "category": "단품",
+       "name": "초새우",
+       "price": 2000
+      },
+      {
+       "category": "단품",
+       "name": "갈릭스테이크",
+       "price": 2000
+      },
+      {
+       "category": "단품",
+       "name": "계란",
+       "price": 1000
+      },
+      {
+       "category": "단품",
+       "name": "메지마구로",
+       "price": 3000
+      },
+      {
+       "category": "단품",
+       "name": "방어",
+       "price": 2500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "1402.jpg",
+     "fid": "F0CKL8UVBRP",
+     "from": "댓글",
+     "path": "menu-files/1795161831_263679-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "주류",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "새로",
+       "price": 5000
+      },
+      {
+       "category": "주류",
+       "name": "카스",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "클라우드",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "하이볼",
+       "price": 9000
+      },
+      {
+       "category": "주류",
+       "name": "한라산",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "청하",
+       "price": 6000
+      },
+      {
+       "category": "주류",
+       "name": "콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "사이다",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "펩시제로",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "제로콜라",
+       "price": 2000
+      },
+      {
+       "category": "주류",
+       "name": "500원",
+       "price": 500
+      },
+      {
+       "category": "주류",
+       "name": "100원",
+       "price": 100
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 2,
+   "lr": "1795161866.247169",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795161831263679"
+  },
   {
    "ts": "1795161692.340789",
    "date": "2026-11-20",
