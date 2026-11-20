@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5560,
- "updatedAt": "2026-11-20 10:14",
+ "version": 5561,
+ "updatedAt": "2026-11-20 10:16",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,317 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "Clex_1795137093813.jpg",
+     "fid": "F0CK9GHRAPM",
+     "from": "댓글",
+     "path": "menu-files/1795137193_669499-0.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "도팝핑",
+       "name": "시트지식 도팝핑 3EA",
+       "price": 1800
+      },
+      {
+       "category": "도팝핑",
+       "name": "디지바인 도팝핑 3EA",
+       "price": 5700
+      },
+      {
+       "category": "도팝핑",
+       "name": "데일리 도팝핑 1EA",
+       "price": 1500
+      },
+      {
+       "category": "도팝핑",
+       "name": "디지바인 도팝핑",
+       "price": 14800
+      },
+      {
+       "category": "도팝핑",
+       "name": "더블엠 시트지식 도팝핑",
+       "price": 14300
+      },
+      {
+       "category": "도팝핑",
+       "name": "더블엠 데일리 도팝핑",
+       "price": 11800
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137095587.jpg",
+     "fid": "F0CKHL0MF5F",
+     "from": "댓글",
+     "path": "menu-files/1795137193_669499-1.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137103634.jpg",
+     "fid": "F0CLA4UDP40",
+     "from": "댓글",
+     "path": "menu-files/1795137193_669499-2.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "회남사랑 디저트",
+       "name": "떠먹을수 티라미수",
+       "price": 5700
+      },
+      {
+       "category": "회남사랑 디저트",
+       "name": "한방쿠키",
+       "price": 4200
+      },
+      {
+       "category": "회남사랑 디저트",
+       "name": "애그타르트",
+       "price": 3800
+      },
+      {
+       "category": "회남사랑 디저트",
+       "name": "흘케이크",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137108107.jpg",
+     "fid": "F0CK0C5FGQP",
+     "from": "댓글",
+     "path": "menu-files/1795137193_669499-3.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "베이커리",
+       "name": "마롱크로와상",
+       "price": 5500
+      },
+      {
+       "category": "베이커리",
+       "name": "트러플치즈빵",
+       "price": 5300
+      },
+      {
+       "category": "베이커리",
+       "name": "뺑오쇼콜라",
+       "price": 4700
+      },
+      {
+       "category": "베이커리",
+       "name": "바닐라 판나탄",
+       "price": 5500
+      },
+      {
+       "category": "베이커리",
+       "name": "뺑오레쟁",
+       "price": 4500
+      },
+      {
+       "category": "베이커리",
+       "name": "크로플",
+       "price": 4200
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137115242.jpg",
+     "fid": "F0CK0C5FK9V",
+     "from": "댓글",
+     "path": "menu-files/1795137193_669499-4.jpg",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137119617.jpg",
+     "fid": "F0CK9GJ8S8K",
+     "from": "댓글",
+     "path": "menu-files/1795137193_669499-5.jpg",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "페이드&초스",
+       "name": "애플에이드",
+       "price": 5500
+      },
+      {
+       "category": "페이드&초스",
+       "name": "자몽레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "페이드&초스",
+       "name": "쵸콜렛쉐이크",
+       "price": 5500
+      },
+      {
+       "category": "페이드&초스",
+       "name": "오렌지쥬스",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137124205.jpg",
+     "fid": "F0CLA4VDLG0",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "논트리머&블렌드",
+       "name": "열대차",
+       "price": 5500
+      },
+      {
+       "category": "논트리머&블렌드",
+       "name": "홀바인 로그린 스무디",
+       "price": 5500
+      },
+      {
+       "category": "논트리머&블렌드",
+       "name": "딸기에이드",
+       "price": 5500
+      },
+      {
+       "category": "논트리머&블렌드",
+       "name": "딸기바나나라떼",
+       "price": 5500
+      },
+      {
+       "category": "논트리머&블렌드",
+       "name": "딸기나 초코라떼",
+       "price": 5500
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137129550.jpg",
+     "fid": "F0CKAEQ560M",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 아메리카노",
+       "price": 4300
+      },
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 디카페인 라떼",
+       "price": 7300
+      },
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 수제 바닐라빈",
+       "price": 6500
+      },
+      {
+       "category": "BIG SIZE",
+       "name": "BIG 카페라떼",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137134716.jpg",
+     "fid": "F0CK9GK1FS7",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [
+      {
+       "category": "커피",
+       "name": "아메리카노",
+       "price": 3500
+      },
+      {
+       "category": "커피",
+       "name": "더블씬 라떼",
+       "price": 5800
+      },
+      {
+       "category": "커피",
+       "name": "필터 커피",
+       "price": 5800
+      },
+      {
+       "category": "커피",
+       "name": "에스프레소",
+       "price": 3000
+      },
+      {
+       "category": "커피",
+       "name": "카푸치노",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "카페라떼",
+       "price": 4500
+      },
+      {
+       "category": "커피",
+       "name": "플랫화이트",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "바닐라 라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "로스티드 헤이즐넛 라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "돌체라떼",
+       "price": 5000
+      },
+      {
+       "category": "커피",
+       "name": "크림라떼",
+       "price": 5500
+      },
+      {
+       "category": "커피",
+       "name": "선셋커피",
+       "price": 6500
+      },
+      {
+       "category": "커피",
+       "name": "카라멜라떼",
+       "price": 5000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "Clex_1795137139935.jpg",
+     "fid": "F0CLA4W8DR6",
+     "from": "댓글",
+     "kind": "pos_screen",
+     "menu": [],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1795137196.742399",
+   "replies": [
+    "화질이 좀 안좋은 것 같아서 혹시나 등록 어려우면 사진 다시 받아오겠습니다!"
+   ],
+   "rc": 3,
+   "lr": "1795137314.824129",
    "rfx": 3,
    "status": "wait",
    "handler": null,
@@ -6404,10 +6710,11 @@ window.MENU_REQUESTS = {
    ],
    "datt": [],
    "replies": [
-    "cc. <!subteam^S0ANH6Q13D1>"
+    "cc. <!subteam^S0ANH6Q13D1>",
+    "오잉 누군가 완료해주셨다…"
    ],
-   "rc": 3,
-   "lr": "1795137027.996709",
+   "rc": 5,
+   "lr": "1795137333.015539",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
