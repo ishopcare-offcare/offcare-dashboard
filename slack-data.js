@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35992,
+  "version": 35993,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -342098,6 +342098,7 @@ window.SLACK_DATA = {
     "2026-11-20": {
       "counts": {
         "as": {
+          "송태양": 1,
           "고경림": 2
         },
         "menu": {
@@ -342106,6 +342107,18 @@ window.SLACK_DATA = {
       },
       "pending": [],
       "done": [
+        {
+          "time": "09:14",
+          "store": "청학고등학교 매점",
+          "biz": "1022804887",
+          "cat": "as",
+          "emp": "송태양",
+          "req": "터프 사용 매장으로, 기기 둘다 전원이 안들어온다고 하시어 점검 요청드립니다:man-bowing:",
+          "hw": "",
+          "intake": "online",
+          "note": "0105600**** / • 어댑터 파워선 빠짐 어댑터 파워선 빠짐",
+          "rr": 2
+        },
         {
           "time": "09:03",
           "store": "신촌나누미주식회사",
@@ -342144,7 +342157,7 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 2,
+        "online": 3,
         "offline": 1,
         "unknown": 0
       },
@@ -342264,18 +342277,21 @@ window.SLACK_DATA = {
       },
       "1795132807.617179": {
         "post": "1795132807.617179",
-        "lastSeen": 1795133849.074
+        "lastSeen": 1795133947.33
       },
       "1795133279.876539": {
         "post": "1795133279.876539",
-        "lastSeen": 1795133849.074,
+        "lastSeen": 1795133947.33,
         "r": 1,
         "day": "2026-11-20",
         "idx": 1
       },
       "1795133709.383469": {
         "post": "1795133709.383469",
-        "lastSeen": 1795133849.074
+        "lastSeen": 1795133947.33,
+        "r": 1,
+        "day": "2026-11-20",
+        "idx": 2
       }
     },
     "days": {
@@ -473574,8 +473590,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-20": {
-        "cnt": 2,
-        "sumMin": 4.909299035867056,
+        "cnt": 3,
+        "sumMin": 8.056274549166362,
         "over": 0,
         "items": [
           {
@@ -473594,13 +473610,21 @@ window.SLACK_DATA = {
             "biz": "3515300660",
             "who": "고경림",
             "cat": "as"
+          },
+          {
+            "hm": "09:15",
+            "min": 3.1,
+            "store": "크루카(krooka)",
+            "biz": "6583801650",
+            "who": "송태양",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-20 09:18",
+    "at": "2026-11-20 09:19",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473765,7 +473789,7 @@ window.SLACK_DATA = {
     "2026-11-20": 2
   },
   "noteMig": {
-    "at": "2026-11-20 09:17",
+    "at": "2026-11-20 09:19",
     "pri": {
       "days": 0,
       "failed": [],
