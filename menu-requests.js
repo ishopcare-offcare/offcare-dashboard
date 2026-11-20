@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5568,
- "updatedAt": "2026-11-20 10:57",
+ "version": 5569,
+ "updatedAt": "2026-11-20 10:59",
  "days": 30,
  "items": [
+  {
+   "ts": "1795139944.516719",
+   "date": "2026-11-20",
+   "time": "10:59",
+   "store": "카페메일빈디저트",
+   "biz": "5872302353",
+   "pos": "퍼스트포스",
+   "content": "메뉴 등록요청이 라면 카테고리에 들어가셔서 변경요청으로 공유드립니다 / 퍼스트포스",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795139947.594389",
+   "rfx": 3,
+   "status": "done",
+   "handler": "송태양",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795139944516719"
+  },
   {
    "ts": "1795138895.434109",
    "date": "2026-11-20",
@@ -20,9 +41,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "• 등록/솔라피전송"
+   ],
+   "rc": 1,
+   "lr": "1795139958.423269",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
