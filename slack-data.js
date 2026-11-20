@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35998,
+  "version": 35999,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -342297,15 +342297,18 @@ window.SLACK_DATA = {
       },
       "1795132807.617179": {
         "post": "1795132807.617179",
-        "lastSeen": 1795134623.642
+        "lastSeen": 1795134787.823
       },
       "1795134600.266239": {
         "post": "1795134600.266239",
-        "lastSeen": 1795134623.642
+        "lastSeen": 1795134787.823,
+        "r": 1,
+        "day": "2026-11-20",
+        "idx": 3
       },
       "1795134612.983789": {
         "post": "1795134612.983789",
-        "lastSeen": 1795134623.642
+        "lastSeen": 1795134787.823
       }
     },
     "days": {
@@ -473604,8 +473607,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-20": {
-        "cnt": 3,
-        "sumMin": 8.056274549166362,
+        "cnt": 4,
+        "sumMin": 9.814045568307241,
         "over": 0,
         "items": [
           {
@@ -473634,13 +473637,21 @@ window.SLACK_DATA = {
             "who": "송태양",
             "cat": "as",
             "dmin": 7.9
+          },
+          {
+            "hm": "09:30",
+            "min": 1.8,
+            "store": "스테이105행궁레지던스",
+            "biz": "4017100635",
+            "who": "고경림",
+            "cat": "transfer"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-20 09:31",
+    "at": "2026-11-20 09:33",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473805,7 +473816,7 @@ window.SLACK_DATA = {
     "2026-11-20": 2
   },
   "noteMig": {
-    "at": "2026-11-20 09:30",
+    "at": "2026-11-20 09:33",
     "pri": {
       "days": 0,
       "failed": [],
