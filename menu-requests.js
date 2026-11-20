@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5624,
- "updatedAt": "2026-11-20 17:07",
+ "version": 5625,
+ "updatedAt": "2026-11-20 17:08",
  "days": 30,
  "items": [
+  {
+   "ts": "1795162041.910419",
+   "date": "2026-11-20",
+   "time": "17:07",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290703720",
+   "pos": "토스포스",
+   "content": "동태탕, 알탕, 김치찌개, 우삼겹두부전골 4인분은 사진을 입력안해주셨어요.",
+   "special": "동태탕, 알탕, 김치찌개, 우삼겹두부전골 4인분은 사진을 입력안해주셨어요.",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795162041910419"
+  },
   {
    "ts": "1795161927.274019",
    "date": "2026-11-20",
