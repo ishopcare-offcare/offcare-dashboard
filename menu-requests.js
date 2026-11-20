@@ -3,10 +3,121 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5597,
- "updatedAt": "2026-11-20 15:24",
+ "version": 5598,
+ "updatedAt": "2026-11-20 15:30",
  "days": 30,
  "items": [
+  {
+   "ts": "1795156129.286529",
+   "date": "2026-11-20",
+   "time": "15:28",
+   "store": "exit coffee",
+   "biz": "5753601652",
+   "pos": "토스포스",
+   "content": "이미지 청부 했습니다",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1qEJk5Y_rv41Z59om48RaAuv3OPz7fIUx/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1qEJk5Y_rv41Z59om48RaAuv3OPz7fIUx",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "",
+       "name": "아몬드 크림 라떼",
+       "price": 5300
+      },
+      {
+       "category": "",
+       "name": "아인슈페너",
+       "price": 5000
+      },
+      {
+       "category": "",
+       "name": "아이스 아메리카노",
+       "price": 3400
+      },
+      {
+       "category": "",
+       "name": "카페라떼",
+       "price": 4200
+      },
+      {
+       "category": "",
+       "name": "바닐라라떼",
+       "price": 4700
+      },
+      {
+       "category": "",
+       "name": "카푸치노",
+       "price": 4200
+      },
+      {
+       "category": "",
+       "name": "수제 자몽에이드",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "수제 레몬에이드",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "수제 자몽티",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "수제 레몬티",
+       "price": 5500
+      },
+      {
+       "category": "",
+       "name": "말차라떼",
+       "price": 5300
+      },
+      {
+       "category": "",
+       "name": "플레인 휘낭시에",
+       "price": 2800
+      },
+      {
+       "category": "",
+       "name": "로투스 휘낭시에",
+       "price": 3000
+      },
+      {
+       "category": "",
+       "name": "초코 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "카라멜 휘낭시에",
+       "price": 3200
+      },
+      {
+       "category": "",
+       "name": "고구마 맛탕 휘낭시에",
+       "price": 3200
+      }
+     ],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795156129286529"
+  },
   {
    "ts": "1795154872.043979",
    "date": "2026-11-20",
