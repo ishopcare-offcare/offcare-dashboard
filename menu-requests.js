@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5596,
- "updatedAt": "2026-11-20 15:14",
+ "version": 5597,
+ "updatedAt": "2026-11-20 15:24",
  "days": 30,
  "items": [
   {
@@ -65209,35 +65209,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566245340119"
-  },
-  {
-   "ts": "1792563792.635789",
-   "date": "2026-10-21",
-   "time": "15:23",
-   "store": "하우스플랜",
-   "biz": "3386700494",
-   "pos": "",
-   "content": "메뉴등록 요청드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "상품정보_하우스플랜 인천검단점_261021.xlsx",
-     "fid": "F0CAUBGH3UN",
-     "from": "댓글",
-     "path": "menu-files/1792563792_635789-0.xlsx",
-     "nj": 1
-    }
-   ],
-   "datt": [],
-   "replies": [],
-   "rc": 3,
-   "lr": "1792567627.387339",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792563792635789"
   }
  ],
  "ocr": {
