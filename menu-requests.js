@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5579,
- "updatedAt": "2026-11-20 14:12",
+ "version": 5580,
+ "updatedAt": "2026-11-20 14:20",
  "days": 30,
  "items": [
+  {
+   "ts": "1795151978.774309",
+   "date": "2026-11-20",
+   "time": "14:19",
+   "store": "속초홍게너라면서울점",
+   "biz": "6608803748",
+   "pos": "오케이포스",
+   "content": "kis okpos 하이오더 인입 / 선불 1~10 , 후불 1~10 생성 요청",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다."
+   ],
+   "rc": 1,
+   "lr": "1795151990.802549",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795151978774309"
+  },
   {
    "ts": "1795151179.213499",
    "date": "2026-11-20",
