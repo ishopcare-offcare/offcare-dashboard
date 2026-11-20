@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5569,
- "updatedAt": "2026-11-20 10:59",
+ "version": 5570,
+ "updatedAt": "2026-11-20 11:00",
  "days": 30,
  "items": [
   {
@@ -18,11 +18,22 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CJRJEUNQP",
+     "from": "댓글",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
    "datt": [],
-   "replies": [],
-   "rc": 1,
-   "lr": "1795139947.594389",
+   "replies": [
+    "짜장/짬뽕라면   → 카테고리\n\n• *바지락짬뽕 4,500원*F0CJRJEUNQP\n카테고리가 라면 카테고리로 들어가시어 / `짜장/ 짬뽕라면`카테고리로 진행요청으로 공유드립니다"
+   ],
+   "rc": 3,
+   "lr": "1795140053.879079",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
