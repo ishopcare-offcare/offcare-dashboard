@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5608,
- "updatedAt": "2026-11-20 16:35",
+ "version": 5609,
+ "updatedAt": "2026-11-20 16:37",
  "days": 30,
  "items": [
   {
@@ -23,18 +23,18 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CKL1SGLV7",
      "from": "댓글",
-     "path": "menu-files/1795159965_201019-0.png",
      "kind": "product_photo",
      "menu": [],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795159965_201019-0.png"
     }
    ],
    "datt": [],
    "replies": [
     "통골뱅이탕"
    ],
-   "rc": 2,
-   "lr": "1795159973.178169",
+   "rc": 3,
+   "lr": "1795160139.880949",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
@@ -280,7 +280,6 @@ window.MENU_REQUESTS = {
      "name": "image.png",
      "fid": "F0CKCRSAGSH",
      "from": "댓글",
-     "path": "menu-files/1795151978_774309-3.png",
      "kind": "pos_screen",
      "menu": [
       {
@@ -336,7 +335,8 @@ window.MENU_REQUESTS = {
        "price": 17000
       }
      ],
-     "v": 3
+     "v": 3,
+     "path": "menu-files/1795151978_774309-3.png"
     }
    ],
    "datt": [],
@@ -345,8 +345,8 @@ window.MENU_REQUESTS = {
     "재우님 혹시 저 사진 하이오더 사진 말씀하시는거 아니에요?",
     "하이오더 사진은 하이오더 에서 컨트롤 합니다."
    ],
-   "rc": 22,
-   "lr": "1795159958.555989",
+   "rc": 23,
+   "lr": "1795160145.857319",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
