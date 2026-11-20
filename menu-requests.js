@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5586,
- "updatedAt": "2026-11-20 14:51",
+ "version": 5587,
+ "updatedAt": "2026-11-20 14:55",
  "days": 30,
  "items": [
+  {
+   "ts": "1795154076.297109",
+   "date": "2026-11-20",
+   "time": "14:54",
+   "store": "바다양푼이동태탕",
+   "biz": "2103243951",
+   "pos": "퍼스트포스",
+   "content": "우동사리류 뒤에 공기밥 넣어달라고하시고, 공기밥항목에 부대찌개 10,000원 추가 요청주셨습니다.:꾸벅:",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795154076297109"
+  },
   {
    "ts": "1795151978.774309",
    "date": "2026-11-20",
