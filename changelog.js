@@ -1,1 +1,1 @@
-window.CHANGELOG = [{"d":"2026-11-20","k":"imp","t":"duty-tag.gs: 팀원 슬랙 ID 찾기 — users.list 이름 매칭 우선, ratelimited 시 Retry-After 대기 후 재시도"},{"d":"2026-11-20","k":"imp","t":"duty-tag.gs: 11/23 10시 출근 순번을 대시보드와 맞춤 (송태양부터)"}];
+window.CHANGELOG = [{"d":"2026-11-20","k":"fix","t":"duty-tag.gs: 당직 글 감지 5분 → 1분 트리거, 겹친 실행은 캐시 표시로 건너뛰어 댓글 중복 방지"},{"d":"2026-11-20","k":"imp","t":"duty-tag.gs: 팀원 슬랙 ID 찾기 — users.list 이름 매칭 우선, ratelimited 시 Retry-After 대기 후 재시도"},{"d":"2026-11-20","k":"imp","t":"duty-tag.gs: 11/23 10시 출근 순번을 대시보드와 맞춤 (송태양부터)"}];
