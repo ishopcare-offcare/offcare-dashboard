@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5626,
- "updatedAt": "2026-11-20 17:12",
+ "version": 5627,
+ "updatedAt": "2026-11-20 17:14",
  "days": 30,
  "items": [
   {
@@ -360,8 +360,8 @@ window.MENU_REQUESTS = {
    "rc": 2,
    "lr": "1795161866.247169",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795161831263679"
   },
   {
@@ -66509,29 +66509,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792572192633629"
-  },
-  {
-   "ts": "1792570387.884159",
-   "date": "2026-10-21",
-   "time": "17:13",
-   "store": "스톤에이치",
-   "biz": "6848604128",
-   "pos": "기타",
-   "content": "식대",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "직접 해보시겠다고해서 방법 안내드림\n고객센터 인입 될 수 잇음"
-   ],
-   "rc": 1,
-   "lr": "1792572499.635979",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792570387884159"
   }
  ],
  "ocr": {
