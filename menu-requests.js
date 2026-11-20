@@ -3,10 +3,40 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5610,
- "updatedAt": "2026-11-20 16:39",
+ "version": 5611,
+ "updatedAt": "2026-11-20 16:40",
  "days": 30,
  "items": [
+  {
+   "ts": "1795160411.944639",
+   "date": "2026-11-20",
+   "time": "16:40",
+   "store": "홍제동 순두부 우동국수",
+   "biz": "5290703720",
+   "pos": "토스포스",
+   "content": "공기밥",
+   "special": "",
+   "drive": [
+    "https://drive.google.com/file/d/1ytz58uTqnALWA8KLxZa5h6NZuw4rKo7b/view?usp=drivesdk"
+   ],
+   "files": 0,
+   "att": [],
+   "datt": [
+    {
+     "id": "1ytz58uTqnALWA8KLxZa5h6NZuw4rKo7b",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795160411944639"
+  },
   {
    "ts": "1795159965.201019",
    "date": "2026-11-20",
@@ -337,6 +367,15 @@ window.MENU_REQUESTS = {
      ],
      "v": 3,
      "path": "menu-files/1795151978_774309-3.png"
+    },
+    {
+     "name": "image.png",
+     "fid": "F0CKCTECDU5",
+     "from": "댓글",
+     "path": "menu-files/1795151978_774309-4.png",
+     "kind": "other",
+     "menu": [],
+     "v": 3
     }
    ],
    "datt": [],
@@ -345,8 +384,8 @@ window.MENU_REQUESTS = {
     "재우님 혹시 저 사진 하이오더 사진 말씀하시는거 아니에요?",
     "하이오더 사진은 하이오더 에서 컨트롤 합니다."
    ],
-   "rc": 24,
-   "lr": "1795160323.719259",
+   "rc": 27,
+   "lr": "1795160426.104739",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
