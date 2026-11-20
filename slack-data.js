@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 35996,
+  "version": 35997,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -342099,7 +342099,7 @@ window.SLACK_DATA = {
       "counts": {
         "as": {
           "송태양": 2,
-          "고경림": 2
+          "고경림": 3
         },
         "menu": {
           "송태양": 1
@@ -342130,6 +342130,17 @@ window.SLACK_DATA = {
           "intake": "online",
           "note": "0105600**** / • 어댑터 파워선 빠짐 어댑터 파워선 빠짐",
           "rr": 2
+        },
+        {
+          "time": "09:07",
+          "store": "샘이김밥",
+          "biz": "3515300660",
+          "cat": "as",
+          "emp": "고경림",
+          "req": "캣단말기 사용 매장으로, 프린터 덮개를 열어달라는 문구 나오면서 정상 작동하지 않으신다고 하여,",
+          "hw": "",
+          "intake": "offline",
+          "note": ""
         },
         {
           "time": "09:03",
@@ -342170,7 +342181,7 @@ window.SLACK_DATA = {
       ],
       "intake": {
         "online": 4,
-        "offline": 1,
+        "offline": 2,
         "unknown": 0
       },
       "updatedAt": "09:15"
@@ -342289,14 +342300,7 @@ window.SLACK_DATA = {
       },
       "1795132807.617179": {
         "post": "1795132807.617179",
-        "lastSeen": 1795134387.584
-      },
-      "1795133279.876539": {
-        "post": "1795133279.876539",
-        "lastSeen": 1795134387.584,
-        "r": 1,
-        "day": "2026-11-20",
-        "idx": 1
+        "lastSeen": 1795134545.204
       }
     },
     "days": {
@@ -473614,7 +473618,8 @@ window.SLACK_DATA = {
             "store": "샘이김밥",
             "biz": "3515300660",
             "who": "고경림",
-            "cat": "as"
+            "cat": "as",
+            "dmin": 19.8
           },
           {
             "hm": "09:15",
@@ -473630,7 +473635,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-20 09:27",
+    "at": "2026-11-20 09:29",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -473795,7 +473800,7 @@ window.SLACK_DATA = {
     "2026-11-20": 2
   },
   "noteMig": {
-    "at": "2026-11-20 09:26",
+    "at": "2026-11-20 09:29",
     "pri": {
       "days": 0,
       "failed": [],
