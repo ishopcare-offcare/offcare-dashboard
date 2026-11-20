@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5587,
- "updatedAt": "2026-11-20 14:55",
+ "version": 5588,
+ "updatedAt": "2026-11-20 14:58",
  "days": 30,
  "items": [
+  {
+   "ts": "1795154233.902939",
+   "date": "2026-11-20",
+   "time": "14:57",
+   "store": "강창구찹쌀진순대 에공",
+   "biz": "",
+   "pos": "",
+   "content": "[메뉴수정] 오더카테고리\n냉면 삭제 안되었습니다",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 1,
+   "lr": "1795154234.144399",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795154233902939"
+  },
   {
    "ts": "1795154076.297109",
    "date": "2026-11-20",
@@ -44,8 +65,8 @@ window.MENU_REQUESTS = {
    "replies": [
     "재우님 메뉴, 테이블 생성은 해당 채널에 위 처럼 올리시면 됩니다."
    ],
-   "rc": 9,
-   "lr": "1795153864.420749",
+   "rc": 10,
+   "lr": "1795154282.031789",
    "rfx": 3,
    "status": "done",
    "handler": "송태양",
