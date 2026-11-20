@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5601,
- "updatedAt": "2026-11-20 15:58",
+ "version": 5602,
+ "updatedAt": "2026-11-20 16:04",
  "days": 30,
  "items": [
   {
@@ -24,8 +24,8 @@ window.MENU_REQUESTS = {
    "rc": 0,
    "lr": "",
    "rfx": 3,
-   "status": "wait",
-   "handler": null,
+   "status": "done",
+   "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795157871101099"
   },
   {
@@ -65230,136 +65230,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김규빈",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566645987239"
-  },
-  {
-   "ts": "1792566245.340119",
-   "date": "2026-10-21",
-   "time": "16:04",
-   "store": "율천회관",
-   "biz": "2830502985",
-   "pos": "",
-   "content": "하이오더용 선불테이블 16대 생성 부탁드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CB0F9JH9S",
-     "from": "댓글",
-     "path": "menu-files/1792566245_340119-0.png",
-     "kind": "pos_screen",
-     "menu": [
-      {
-       "category": "선불",
-       "name": "선불01",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불02",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불03",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불04",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불05",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불06",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불07",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불08",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불09",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불10",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불11",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불12",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불13",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불14",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불15",
-       "price": 0,
-       "pt": "u"
-      },
-      {
-       "category": "선불",
-       "name": "선불16",
-       "price": 0,
-       "pt": "u"
-      }
-     ],
-     "v": 2
-    }
-   ],
-   "datt": [],
-   "replies": [
-    ":중요2: KSNET이 아닌 KIS 입니다!"
-   ],
-   "rc": 3,
-   "lr": "1792567686.877129",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792566245340119"
   }
  ],
  "ocr": {
