@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5641,
- "updatedAt": "2026-11-20 18:25",
+ "version": 5642,
+ "updatedAt": "2026-11-20 18:29",
  "days": 30,
  "items": [
   {
@@ -1762,13 +1762,375 @@ window.MENU_REQUESTS = {
    "special": "",
    "drive": [],
    "files": 0,
-   "att": [],
+   "att": [
+    {
+     "name": "image (22).png",
+     "fid": "F0CKJT6ME2W",
+     "from": "댓글",
+     "path": "menu-files/1795154872_043979-0.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "세트",
+       "name": "A 세트",
+       "price": 37000
+      },
+      {
+       "category": "세트",
+       "name": "B 세트",
+       "price": 37000
+      },
+      {
+       "category": "세트",
+       "name": "C 세트",
+       "price": 37000
+      },
+      {
+       "category": "탕",
+       "name": "가마보코 어묵탕",
+       "price": 18000
+      },
+      {
+       "category": "탕",
+       "name": "해물짬뽕탕",
+       "price": 23000
+      },
+      {
+       "category": "탕",
+       "name": "해물 나가사키 짬뽕탕",
+       "price": 23000
+      },
+      {
+       "category": "탕",
+       "name": "백합탕",
+       "price": 18000
+      },
+      {
+       "category": "탕",
+       "name": "명란계란탕",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image (27).png",
+     "fid": "F0CKH493QMU",
+     "from": "댓글",
+     "path": "menu-files/1795154872_043979-1.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "소주",
+       "name": "참이슬",
+       "price": 5000
+      },
+      {
+       "category": "소주",
+       "name": "처음처럼",
+       "price": 5000
+      },
+      {
+       "category": "소주",
+       "name": "새로 / 진로",
+       "price": 5000
+      },
+      {
+       "category": "소주",
+       "name": "별빛청하 / 청하",
+       "price": 6000
+      },
+      {
+       "category": "소주",
+       "name": "일품진로",
+       "price": 25000
+      },
+      {
+       "category": "맥주",
+       "name": "켈리 (병)",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "카스",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "테라",
+       "price": 5000
+      },
+      {
+       "category": "맥주",
+       "name": "삿포로 생맥주",
+       "price": 7000
+      },
+      {
+       "category": "맥주",
+       "name": "기린 생맥주",
+       "price": 6000
+      },
+      {
+       "category": "하이볼",
+       "name": "짐빔",
+       "price": 7000
+      },
+      {
+       "category": "하이볼",
+       "name": "산토리",
+       "price": 8000
+      },
+      {
+       "category": "음료",
+       "name": "콜라 / 사이다",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "제로 콜라",
+       "price": 2500
+      },
+      {
+       "category": "음료",
+       "name": "토닉워터",
+       "price": 2500
+      },
+      {
+       "category": "사케",
+       "name": "하나기자꾸라 준마이긴조 · 720 mL",
+       "price": 53000
+      },
+      {
+       "category": "사케",
+       "name": "간바레 오또상",
+       "price": 35000
+      },
+      {
+       "category": "사케",
+       "name": "하나야구 준마이 · 900 mL",
+       "price": 37000
+      },
+      {
+       "category": "사케",
+       "name": "도쿠리 (병)",
+       "price": 10000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image (26).png",
+     "fid": "F0CKJT76DH8",
+     "from": "댓글",
+     "path": "menu-files/1795154872_043979-2.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "계절 메뉴",
+       "name": "석화",
+       "price": 0,
+       "pt": "m"
+      },
+      {
+       "category": "계절 메뉴",
+       "name": "홍합탕",
+       "price": 18000
+      },
+      {
+       "category": "꼬치",
+       "name": "꼬치 8종",
+       "price": 18000
+      },
+      {
+       "category": "꼬치",
+       "name": "꼬치 12종",
+       "price": 23000
+      },
+      {
+       "category": "마른안주",
+       "name": "반건조 오징어",
+       "price": 14000
+      },
+      {
+       "category": "마른안주",
+       "name": "먹태",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image (25).png",
+     "fid": "F0CKNPY56N8",
+     "from": "댓글",
+     "path": "menu-files/1795154872_043979-3.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "식사",
+       "name": "우동",
+       "price": 8000
+      },
+      {
+       "category": "식사",
+       "name": "라면",
+       "price": 5000
+      },
+      {
+       "category": "식사",
+       "name": "국물떡볶이",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "감자튀김",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "모찌리 도후",
+       "price": 10000
+      },
+      {
+       "category": "사이드",
+       "name": "타코와사비",
+       "price": 12000
+      },
+      {
+       "category": "사이드",
+       "name": "명란계란말이",
+       "price": 16000
+      },
+      {
+       "category": "사이드",
+       "name": "파인 샤베트",
+       "price": 9000
+      },
+      {
+       "category": "사이드",
+       "name": "황도",
+       "price": 10000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image (24).png",
+     "fid": "F0CKNPYB1HS",
+     "from": "댓글",
+     "path": "menu-files/1795154872_043979-4.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "볶음·무침",
+       "name": "훈제오리",
+       "price": 19000
+      },
+      {
+       "category": "볶음·무침",
+       "name": "해물짜장",
+       "price": 19000
+      },
+      {
+       "category": "볶음·무침",
+       "name": "삼겹 숙주 볶음",
+       "price": 19000
+      },
+      {
+       "category": "볶음·무침",
+       "name": "해물볶음",
+       "price": 19000
+      },
+      {
+       "category": "볶음·무침",
+       "name": "골뱅이 쫄면",
+       "price": 20000
+      },
+      {
+       "category": "볶음·무침",
+       "name": "감바스",
+       "price": 20000
+      },
+      {
+       "category": "샐러드",
+       "name": "케이준 치킨 샐러드",
+       "price": 20000
+      },
+      {
+       "category": "샐러드",
+       "name": "새우 버터 샐러드",
+       "price": 23000
+      },
+      {
+       "category": "샐러드",
+       "name": "토마토 카프레제",
+       "price": 18000
+      }
+     ],
+     "v": 3
+    },
+    {
+     "name": "image (23).png",
+     "fid": "F0CKM01PA4R",
+     "from": "댓글",
+     "path": "menu-files/1795154872_043979-5.png",
+     "kind": "menu_board",
+     "menu": [
+      {
+       "category": "구이",
+       "name": "메로구이",
+       "price": 26000
+      },
+      {
+       "category": "구이",
+       "name": "고등어구이",
+       "price": 16000
+      },
+      {
+       "category": "구이",
+       "name": "새우구이",
+       "price": 18000
+      },
+      {
+       "category": "구이",
+       "name": "명란구이",
+       "price": 15000
+      },
+      {
+       "category": "튀김",
+       "name": "치킨 가라아게",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "테바사키 닭날개튀김",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "유린기",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "어항표고",
+       "price": 19000
+      },
+      {
+       "category": "튀김",
+       "name": "칠리새우",
+       "price": 19000
+      }
+     ],
+     "v": 3
+    }
+   ],
    "datt": [],
    "replies": [
     "사진 대기 중"
    ],
-   "rc": 2,
-   "lr": "1795154896.153409",
+   "rc": 3,
+   "lr": "1795166876.744289",
    "rfx": 3,
    "status": "done",
    "handler": "심성현",
