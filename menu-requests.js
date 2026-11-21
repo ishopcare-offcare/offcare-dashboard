@@ -3,10 +3,41 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5657,
- "updatedAt": "2026-11-21 08:31",
+ "version": 5658,
+ "updatedAt": "2026-11-21 10:24",
  "days": 30,
  "items": [
+  {
+   "ts": "1795224185.319539",
+   "date": "2026-11-21",
+   "time": "10:23",
+   "store": "강창구찹쌀진순대청송점",
+   "biz": "5510202344",
+   "pos": "",
+   "content": "테이블오더 카스제로 4000원 이미지 등록 부탁드립니다.",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [
+    {
+     "name": "image.png",
+     "fid": "F0CKWLPJBEG",
+     "from": "댓글",
+     "path": "menu-files/1795224185_319539-0.png",
+     "kind": "product_photo",
+     "menu": [],
+     "v": 3
+    }
+   ],
+   "datt": [],
+   "replies": [],
+   "rc": 3,
+   "lr": "1795224229.958949",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795224185319539"
+  },
   {
    "ts": "1795177159.947479",
    "date": "2026-11-20",
