@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5663,
- "updatedAt": "2026-11-21 12:15",
+ "version": 5664,
+ "updatedAt": "2026-11-21 12:31",
  "days": 30,
  "items": [
   {
@@ -66234,27 +66234,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792641446682439"
-  },
-  {
-   "ts": "1792639116.744459",
-   "date": "2026-10-22",
-   "time": "12:18",
-   "store": "경기미당본점",
-   "biz": "6410303226",
-   "pos": "스파로스포스",
-   "content": "모찌카테고리  \n생초코모찌 3500\n포장카테고리 \n택배4000원",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792639116744459"
   }
  ],
  "ocr": {
