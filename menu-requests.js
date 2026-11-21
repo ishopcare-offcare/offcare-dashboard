@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5675,
- "updatedAt": "2026-11-21 16:01",
+ "version": 5676,
+ "updatedAt": "2026-11-21 16:10",
  "days": 30,
  "items": [
   {
@@ -65486,29 +65486,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792653437732499"
-  },
-  {
-   "ts": "1792652998.644319",
-   "date": "2026-10-22",
-   "time": "16:09",
-   "store": "기운재풍천장어",
-   "biz": "1625800482",
-   "pos": "토스포스",
-   "content": "전채메뉴",
-   "special": "카카오톡으로받은거라공유밖에안되네요 ㅠ",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "부재 통화 중"
-   ],
-   "rc": 1,
-   "lr": "1792654337.908359",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792652998644319"
   }
  ],
  "ocr": {
