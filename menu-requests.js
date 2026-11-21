@@ -3,10 +3,33 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5672,
- "updatedAt": "2026-11-21 15:00",
+ "version": 5673,
+ "updatedAt": "2026-11-21 15:05",
  "days": 30,
  "items": [
+  {
+   "ts": "1795241071.129049",
+   "date": "2026-11-21",
+   "time": "15:04",
+   "store": "꼬김빱사직야구장점",
+   "biz": "3272002139",
+   "pos": "스파로스포스",
+   "content": "김밥단품가테고리\n스팸계란김밥 1300원을\n1200원으로 변경",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [
+    "솔라피발완료"
+   ],
+   "rc": 1,
+   "lr": "1795241118.004629",
+   "rfx": 3,
+   "status": "done",
+   "handler": "김현기",
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795241071129049"
+  },
   {
    "ts": "1795238245.486219",
    "date": "2026-11-21",
@@ -20,9 +43,11 @@ window.MENU_REQUESTS = {
    "files": 0,
    "att": [],
    "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
+   "replies": [
+    "솔라피발완료"
+   ],
+   "rc": 1,
+   "lr": "1795241121.886519",
    "rfx": 3,
    "status": "done",
    "handler": "김현기",
