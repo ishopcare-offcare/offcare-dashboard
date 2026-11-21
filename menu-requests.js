@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5662,
- "updatedAt": "2026-11-21 11:29",
+ "version": 5663,
+ "updatedAt": "2026-11-21 12:15",
  "days": 30,
  "items": [
   {
@@ -66255,30 +66255,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "배선유",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792639116744459"
-  },
-  {
-   "ts": "1792638392.563039",
-   "date": "2026-10-22",
-   "time": "12:06",
-   "store": "델릭서",
-   "biz": "7491300916",
-   "pos": "토스포스",
-   "content": "상품메뉴 등록",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "안녕하세요.\n해당 매장 메뉴 등록 시 시트1 만 확인 및 업로드 요청하셔서 전달드립니다.",
-    "완료 / 솔라피 발송"
-   ],
-   "rc": 2,
-   "lr": "1792639227.143219",
-   "rfx": 3,
-   "status": "done",
-   "handler": "배선유",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792638392563039"
   }
  ],
  "ocr": {
