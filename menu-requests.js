@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5679,
- "updatedAt": "2026-11-21 16:52",
+ "version": 5680,
+ "updatedAt": "2026-11-21 17:02",
  "days": 30,
  "items": [
   {
@@ -65321,29 +65321,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792657711154829"
-  },
-  {
-   "ts": "1792656117.935169",
-   "date": "2026-10-22",
-   "time": "17:01",
-   "store": "만담왕족발&돼지찌개",
-   "biz": "3181303252",
-   "pos": "토스포스",
-   "content": "이메일로 보냈어요",
-   "special": "이메일로 메뉴 사진 보냈습니다",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "메뉴등록 완료 솔라피 발송 완료"
-   ],
-   "rc": 1,
-   "lr": "1792676995.959169",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792656117935169"
   }
  ],
  "ocr": {
