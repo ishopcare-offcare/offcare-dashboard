@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 36687,
+  "version": 36688,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -345488,7 +345488,7 @@ window.SLACK_DATA = {
         "offline": 9,
         "unknown": 0
       },
-      "updatedAt": "17:15",
+      "updatedAt": "17:37",
       "absent": [
         {
           "time": "10:28",
@@ -345508,20 +345508,21 @@ window.SLACK_DATA = {
         }
       ],
       "voc": {
-        "responses": 6,
+        "responses": 7,
         "install": {
           "count": 0,
           "low": 0
         },
         "nps": {
-          "count": 6,
-          "low": 0
+          "count": 7,
+          "low": 1
         },
         "high": {
           "install": 0,
           "nps": 4
         },
         "npsDist": {
+          "0": 1,
           "7": 1,
           "8": 1,
           "10": 4
@@ -345529,16 +345530,20 @@ window.SLACK_DATA = {
         "installDist": {},
         "byIndustry": {},
         "byTenure": {
+          "12개월": {
+            "total": 2,
+            "low": 1
+          },
           "1개월": {
             "total": 5,
-            "low": 0
-          },
-          "12개월": {
-            "total": 1,
             "low": 0
           }
         },
         "byVan": {
+          "KPN": {
+            "total": 2,
+            "low": 1
+          },
           "KOCES": {
             "total": 2,
             "low": 0
@@ -345554,14 +345559,35 @@ window.SLACK_DATA = {
           "KIS": {
             "total": 1,
             "low": 0
-          },
-          "KPN": {
-            "total": 1,
-            "low": 0
           }
         },
-        "reasonCounts": {},
-        "alerts": [],
+        "reasonCounts": {
+          "필요한 기능이 없거나 몰라서 불편": 1
+        },
+        "alerts": [
+          {
+            "time": "17:37",
+            "store": "케렌시아",
+            "storeId": "154089",
+            "industry": "",
+            "indBucket": "",
+            "install": null,
+            "nps": 0,
+            "reasons": [
+              {
+                "q": "추천의향",
+                "score": 0,
+                "text": "너무 불편하다 ㅡ 소비자만 혜탁좋은것같다",
+                "cat": "필요한 기능이 없거나 몰라서 불편"
+              }
+            ],
+            "emp": "",
+            "autoStatus": "",
+            "autoEmp": "",
+            "autoNote": "",
+            "doneDate": ""
+          }
+        ],
         "praises": []
       }
     }
@@ -345634,48 +345660,48 @@ window.SLACK_DATA = {
       },
       "1795208400.737179": {
         "post": "1795208400.737179",
-        "lastSeen": 1795249922.521
+        "lastSeen": 1795250290.144
       },
       "1795208402.677859": {
         "post": "1795208402.677859",
-        "lastSeen": 1795249922.521,
+        "lastSeen": 1795250290.144,
         "r": 1,
         "day": "2026-11-21",
         "idx": 0
       },
       "1795219264.818499": {
         "post": "1795219264.818499",
-        "lastSeen": 1795249922.521
+        "lastSeen": 1795250290.144
       },
       "1795221012.785679": {
         "post": "1795221012.785679",
-        "lastSeen": 1795249922.521
+        "lastSeen": 1795250290.144
       },
       "1795224185.319539": {
         "post": "1795224185.319539",
-        "lastSeen": 1795249922.521
+        "lastSeen": 1795250290.144
       },
       "1795224483.260219": {
         "post": "1795224483.260219",
-        "lastSeen": 1795249922.521,
+        "lastSeen": 1795250290.144,
         "r": 1,
         "day": "2026-11-21",
         "idx": 6
       },
       "1795238100.795629": {
         "post": "1795238100.795629",
-        "lastSeen": 1795249922.521
+        "lastSeen": 1795250290.144
       },
       "1795245686.124319": {
         "post": "1795245686.124319",
-        "lastSeen": 1795249922.521,
+        "lastSeen": 1795250290.144,
         "r": 1,
         "day": "2026-11-21",
         "idx": 36
       },
       "1795248949.081119": {
         "post": "1795248949.081119",
-        "lastSeen": 1795249922.521
+        "lastSeen": 1795250290.144
       }
     },
     "days": {
@@ -478919,7 +478945,7 @@ window.SLACK_DATA = {
     }
   },
   "obScan": {
-    "at": "2026-11-21 17:32",
+    "at": "2026-11-21 17:38",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -479085,7 +479111,7 @@ window.SLACK_DATA = {
     "2026-11-21": 2
   },
   "noteMig": {
-    "at": "2026-11-21 17:32",
+    "at": "2026-11-21 17:38",
     "pri": {
       "days": 0,
       "failed": [],
