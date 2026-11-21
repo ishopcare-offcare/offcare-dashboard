@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5680,
- "updatedAt": "2026-11-21 17:02",
+ "version": 5681,
+ "updatedAt": "2026-11-21 17:31",
  "days": 30,
  "items": [
   {
@@ -65289,38 +65289,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792659675480839"
-  },
-  {
-   "ts": "1792657711.154829",
-   "date": "2026-10-22",
-   "time": "17:28",
-   "store": "땐서의순정",
-   "biz": "5781602574",
-   "pos": "토스포스",
-   "content": "전체매뉴등록",
-   "special": "",
-   "drive": [
-    "https://drive.google.com/file/d/1CPyVIXPHymWz60cPFBENQOtCVSsG1tkK/view?usp=drivesdk"
-   ],
-   "files": 0,
-   "att": [],
-   "datt": [
-    {
-     "id": "1CPyVIXPHymWz60cPFBENQOtCVSsG1tkK",
-     "kind": "other",
-     "menu": [],
-     "v": 2
-    }
-   ],
-   "replies": [
-    "ai로고 이미지만 발송됨"
-   ],
-   "rc": 1,
-   "lr": "1792677140.402339",
-   "rfx": 3,
-   "status": "wait",
-   "handler": null,
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792657711154829"
   }
  ],
  "ocr": {
