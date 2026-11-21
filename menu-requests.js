@@ -3,10 +3,31 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5668,
- "updatedAt": "2026-11-21 14:11",
+ "version": 5669,
+ "updatedAt": "2026-11-21 14:18",
  "days": 30,
  "items": [
+  {
+   "ts": "1795238245.486219",
+   "date": "2026-11-21",
+   "time": "14:17",
+   "store": "꼬김빱사직야구장점",
+   "biz": "3272002139",
+   "pos": "스파로스포스",
+   "content": "추가메뉴\n김밥단품가테고리\n단)스팸계란김밥 1,300원\n단)매콤멸치김밥 1,100원",
+   "special": "",
+   "drive": [],
+   "files": 0,
+   "att": [],
+   "datt": [],
+   "replies": [],
+   "rc": 0,
+   "lr": "",
+   "rfx": 3,
+   "status": "wait",
+   "handler": null,
+   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1795238245486219"
+  },
   {
    "ts": "1795224185.319539",
    "date": "2026-11-21",
