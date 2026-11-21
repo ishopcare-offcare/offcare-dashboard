@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5666,
- "updatedAt": "2026-11-21 13:01",
+ "version": 5667,
+ "updatedAt": "2026-11-21 13:19",
  "days": 30,
  "items": [
   {
@@ -65558,39 +65558,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "송태양",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792645835090059"
-  },
-  {
-   "ts": "1792642746.257159",
-   "date": "2026-10-22",
-   "time": "13:19",
-   "store": "챠이나프로",
-   "biz": "1070987280",
-   "pos": "",
-   "content": "테이블",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [
-    {
-     "name": "image.png",
-     "fid": "F0CB0K4SV2P",
-     "from": "댓글",
-     "path": "menu-files/1792642746_257159-0.png",
-     "kind": "pos_screen",
-     "menu": [],
-     "v": 2
-    }
-   ],
-   "datt": [],
-   "replies": [
-    "https://w1659946222-hxm266180.slack.com/archives/C0ADC9759KQ/p1792642340616509?thread_ts=···.790119&cid=C0ADC9759KQ"
-   ],
-   "rc": 4,
-   "lr": "1792643229.242719",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김동욱",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792642746257159"
   }
  ],
  "ocr": {
