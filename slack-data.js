@@ -3,7 +3,7 @@
  * GitHub Actions(daily-slack-tally)가 매일 자동 갱신합니다.
  */
 window.SLACK_DATA = {
-  "version": 36505,
+  "version": 36506,
   "days": {
     "2026-07-08": {
       "updatedAt": "22:50",
@@ -344961,11 +344961,21 @@ window.SLACK_DATA = {
         }
       ],
       "intake": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
         "unknown": 0
       },
-      "updatedAt": "09:21"
+      "updatedAt": "09:21",
+      "absent": [
+        {
+          "time": "09:00",
+          "store": "사단법인 제주특별자치도친환경농업협회",
+          "biz": "6038273496",
+          "handler": "김현기",
+          "cat": "as",
+          "intake": "online"
+        }
+      ]
     }
   },
   "resp": {
@@ -345078,22 +345088,25 @@ window.SLACK_DATA = {
       },
       "1795208400.737179": {
         "post": "1795208400.737179",
-        "lastSeen": 1795220891.74
+        "lastSeen": 1795220977.822
       },
       "1795208402.677859": {
         "post": "1795208402.677859",
-        "lastSeen": 1795220891.74,
+        "lastSeen": 1795220977.822,
         "r": 1,
         "day": "2026-11-21",
         "idx": 0
       },
       "1795219264.818499": {
         "post": "1795219264.818499",
-        "lastSeen": 1795220891.74
+        "lastSeen": 1795220977.822
       },
       "1795220230.134569": {
         "post": "1795220230.134569",
-        "lastSeen": 1795220891.74
+        "lastSeen": 1795220977.822,
+        "r": 1,
+        "day": "2026-11-21",
+        "idx": 3
       }
     },
     "days": {
@@ -477989,8 +478002,8 @@ window.SLACK_DATA = {
         ]
       },
       "2026-11-21": {
-        "cnt": 3,
-        "sumMin": 11.002848883469898,
+        "cnt": 4,
+        "sumMin": 22.74695607026418,
         "over": 0,
         "items": [
           {
@@ -478018,13 +478031,21 @@ window.SLACK_DATA = {
             "who": "김현기",
             "cat": "as",
             "dmin": 5.4
+          },
+          {
+            "hm": "09:17",
+            "min": 11.7,
+            "store": "마누키친",
+            "biz": "1141982074",
+            "who": "김현기",
+            "cat": "as"
           }
         ]
       }
     }
   },
   "obScan": {
-    "at": "2026-11-21 09:28",
+    "at": "2026-11-21 09:30",
     "source": "sheet",
     "sheet": "1jtCL6xDxExBNiEej6kq25E1NwOOvqHQg5X9Pu20tT_c",
     "start": "2026-08-01",
@@ -478190,7 +478211,7 @@ window.SLACK_DATA = {
     "2026-11-21": 2
   },
   "noteMig": {
-    "at": "2026-11-21 09:28",
+    "at": "2026-11-21 09:29",
     "pri": {
       "days": 0,
       "failed": [],
