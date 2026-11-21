@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5678,
- "updatedAt": "2026-11-21 16:44",
+ "version": 5679,
+ "updatedAt": "2026-11-21 16:52",
  "days": 30,
  "items": [
   {
@@ -65344,29 +65344,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "최민석",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792656117935169"
-  },
-  {
-   "ts": "1792655446.938589",
-   "date": "2026-10-22",
-   "time": "16:50",
-   "store": "감동까스 광양중마점",
-   "biz": "1411103041",
-   "pos": "퍼스트포스",
-   "content": "스파로스 메뉴 등록 요청 드립니다.",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [
-    "* 감동까스\n• 1인경양식 돈까스 : 13,500원\n• 매운돈까스 : 13,500원\n• 돈까스김치치즈나베 : 13,500원\n*사이드 메뉴\n• 반모밀 : 3,900원\n• 김말이 : 1,000원"
-   ],
-   "rc": 3,
-   "lr": "1792655817.724979",
-   "rfx": 3,
-   "status": "done",
-   "handler": "최민석",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792655446938589"
   }
  ],
  "ocr": {
