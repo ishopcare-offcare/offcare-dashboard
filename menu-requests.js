@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5667,
- "updatedAt": "2026-11-21 13:19",
+ "version": 5668,
+ "updatedAt": "2026-11-21 14:11",
  "days": 30,
  "items": [
   {
@@ -65537,27 +65537,6 @@ window.MENU_REQUESTS = {
    "status": "wait",
    "handler": null,
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792647108335349"
-  },
-  {
-   "ts": "1792645835.090059",
-   "date": "2026-10-22",
-   "time": "14:10",
-   "store": "청해식육식당",
-   "biz": "5034132270",
-   "pos": "토스포스",
-   "content": "직원호출 안에 부추 빼주시고\n파김치 명이나물추가 1000원 넣어주세요",
-   "special": "명이나물 금액추가 포스에 같이 올라가게",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "송태양",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792645835090059"
   }
  ],
  "ocr": {
