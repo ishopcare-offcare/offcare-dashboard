@@ -3,8 +3,8 @@
  * scripts/fetch-menu-requests.js 가 GitHub Actions에서 주기 갱신합니다.
  */
 window.MENU_REQUESTS = {
- "version": 5665,
- "updatedAt": "2026-11-21 12:58",
+ "version": 5666,
+ "updatedAt": "2026-11-21 13:01",
  "days": 30,
  "items": [
   {
@@ -65591,27 +65591,6 @@ window.MENU_REQUESTS = {
    "status": "done",
    "handler": "김동욱",
    "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792642746257159"
-  },
-  {
-   "ts": "1792641687.591069",
-   "date": "2026-10-22",
-   "time": "13:01",
-   "store": "일마지오 킨텍스점",
-   "biz": "7528502275",
-   "pos": "퍼스트포스",
-   "content": "시즌메뉴에 굿나잇 흑임자라떼 오타나서 굿나인 으로 되어있습니다 수정부탁드립니다",
-   "special": "",
-   "drive": [],
-   "files": 0,
-   "att": [],
-   "datt": [],
-   "replies": [],
-   "rc": 0,
-   "lr": "",
-   "rfx": 3,
-   "status": "done",
-   "handler": "김규빈",
-   "link": "https://w1659946222-hxm266180.slack.com/archives/C08740SFT1S/p1792641687591069"
   }
  ],
  "ocr": {
